@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Stirling2(n, floor(n/2)) * floor(n/2)!.",
+  "id": "A344397",
+  "mentions": [
+    "A019538",
+    "A090582",
+    "A131689",
+    "A210029"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

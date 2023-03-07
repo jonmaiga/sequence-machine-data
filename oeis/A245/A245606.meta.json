@@ -1,0 +1,35 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 1, a(2n) = 1 + A003961(a(n)), a(2n+1) = A003961(1+a(n)). [Where A003961(n) shifts the prime factorization of n one step left].",
+  "id": "A245606",
+  "mentions": [
+    "A003961",
+    "A064216",
+    "A156552",
+    "A227413",
+    "A237126",
+    "A243071",
+    "A243288",
+    "A243344",
+    "A243346",
+    "A243501",
+    "A244319",
+    "A244322",
+    "A245604",
+    "A245605",
+    "A245608",
+    "A245614",
+    "A245706",
+    "A245708"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

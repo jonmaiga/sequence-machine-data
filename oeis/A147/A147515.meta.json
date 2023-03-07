@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n with property that (2n)^4+3 is prime.",
+  "id": "A147515",
+  "mentions": [
+    "A125259"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:30:19",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

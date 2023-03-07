@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=1..n} n^rad(k).",
+  "id": "A351047",
+  "mentions": [
+    "A007947",
+    "A176031",
+    "A350996"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

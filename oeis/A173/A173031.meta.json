@@ -1,0 +1,19 @@
+{
+  "description": "Sequence whose G.f is given by: 1/(1-z)/(1-2*z)^2/(1-z-z^2).",
+  "id": "A173031",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:32:18",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

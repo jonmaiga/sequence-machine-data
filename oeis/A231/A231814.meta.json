@@ -1,0 +1,24 @@
+{
+  "description": "Squarefree numbers (from A005117) with prime divisors in a 2p-1 progression.",
+  "id": "A231814",
+  "mentions": [
+    "A000040",
+    "A005117",
+    "A005382",
+    "A005383",
+    "A057330",
+    "A129521",
+    "A231815",
+    "A231816"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

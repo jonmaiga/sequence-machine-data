@@ -1,0 +1,23 @@
+{
+  "description": "Sum of two digits touching a comma = difference between the two terms separated by that comma; start with a(0)=0, a(1)=5. If there is a choice, choose the smaller value for a(n).",
+  "id": "A230288",
+  "mentions": [
+    "A230450",
+    "A230452",
+    "A230453"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

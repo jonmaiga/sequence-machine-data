@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = floor(H(n) + exp(H(n))*log(H(n))) - n, where H(n) = Sum_{k=1..n} 1/k.",
+  "id": "A353130",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A057640",
+    "A057641"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

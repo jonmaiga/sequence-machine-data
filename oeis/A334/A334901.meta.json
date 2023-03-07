@@ -1,0 +1,23 @@
+{
+  "description": "Infinitary practical numbers: numbers m such that every number 1 <= k <= isigma(m) is a sum of distinct infinitary divisors of m, where isigma is A049417.",
+  "id": "A334901",
+  "mentions": [
+    "A005153",
+    "A049417",
+    "A058891",
+    "A129656",
+    "A286652",
+    "A306983",
+    "A334898"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

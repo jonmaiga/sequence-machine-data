@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct powers of two obtained by breaking the binary representation of n into consecutive blocks, and then adding the numbers represented by the blocks.",
+  "id": "A306922",
+  "mentions": [
+    "A306921",
+    "A321318",
+    "A321319",
+    "A321320",
+    "A321321"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

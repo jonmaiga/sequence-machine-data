@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of Sum_{p prime} 1/(p * log p).",
+  "id": "A137245",
+  "mentions": [
+    "A000040",
+    "A060294",
+    "A115563",
+    "A221711",
+    "A221712",
+    "A319231",
+    "A319232",
+    "A354952"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

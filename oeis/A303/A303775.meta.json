@@ -1,0 +1,37 @@
+{
+  "description": "Permutation of nonnegative integers: Minimal subset/superset bitmask transform of Blue code, A193231.",
+  "id": "A303775",
+  "mentions": [
+    "A000120",
+    "A001477",
+    "A003188",
+    "A006068",
+    "A019565",
+    "A054429",
+    "A163252",
+    "A193231",
+    "A300838",
+    "A302846",
+    "A303763",
+    "A303765",
+    "A303767",
+    "A303773",
+    "A303776",
+    "A303778",
+    "A303779",
+    "A303780",
+    "A304083"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

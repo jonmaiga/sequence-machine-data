@@ -1,0 +1,29 @@
+{
+  "description": "Positive integers n such that 5^n == 6 (mod n).",
+  "id": "A277350",
+  "mentions": [
+    "A015891",
+    "A015951",
+    "A067946",
+    "A123047",
+    "A123052",
+    "A123061",
+    "A123062",
+    "A123091",
+    "A124246",
+    "A125949",
+    "A277348"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

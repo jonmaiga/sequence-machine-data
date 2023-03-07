@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the complement of the bit two places to the left of the least significant \"1\" in the binary expansion of n.",
+  "id": "A342892",
+  "mentions": [
+    "A014577"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

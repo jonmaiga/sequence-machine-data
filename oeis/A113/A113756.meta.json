@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n>9 such that n=Abs[(c+d_1)*(c+d_2)*...*(c+d_k)] where d_1 d_2 ... d_k is the decimal expansion of n and c is an integer constant.",
+  "id": "A113756",
+  "mentions": [
+    "A055482",
+    "A097371",
+    "A097372",
+    "A098113",
+    "A098114",
+    "A115227"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of the number 5.018865657377378233714156283... having continued fraction expansion 5, 53, 157, 173, 211, 257, 263, 373, 563, ... (balanced primes order one A006562).",
+  "id": "A127557",
+  "mentions": [
+    "A006562",
+    "A064442",
+    "A127549",
+    "A127550",
+    "A127551",
+    "A127552",
+    "A127553",
+    "A127555",
+    "A127556",
+    "A127558",
+    "A127559"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

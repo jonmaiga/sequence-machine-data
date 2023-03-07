@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form Phi(5,n!), where Phi is the cyclotomic polynomial.",
+  "id": "A259265",
+  "mentions": [
+    "A200906",
+    "A259264"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of regions in a polygon whose boundary consists of n+2 equally spaced points around the arc of a semicircle. See Comments for precise definition.",
+  "id": "A333643",
+  "mentions": [
+    "A006522",
+    "A007678",
+    "A092867",
+    "A290865",
+    "A331452",
+    "A331929",
+    "A331931",
+    "A333519",
+    "A333642"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

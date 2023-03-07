@@ -1,0 +1,18 @@
+{
+  "description": "Squares in lunar arithmetic in base 2 written in base 2.",
+  "id": "A171222",
+  "mentions": [
+    "A067398"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

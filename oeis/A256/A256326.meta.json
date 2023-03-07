@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that 3*R_(k+2) - 2*10^k is prime, where R_k = 11...1 is the repunit (A002275) of length k.",
+  "id": "A256326",
+  "mentions": [
+    "A002275"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

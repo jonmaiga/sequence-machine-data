@@ -1,0 +1,25 @@
+{
+  "description": "Denominator of the average of the averages of all integer partitions of n.",
+  "id": "A319336",
+  "mentions": [
+    "A056239",
+    "A067538",
+    "A237984",
+    "A296150",
+    "A316313",
+    "A316314",
+    "A316440",
+    "A319335"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

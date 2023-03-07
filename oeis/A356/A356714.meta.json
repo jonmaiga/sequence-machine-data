@@ -1,0 +1,19 @@
+{
+  "description": "Cardinality of the set{a_1+a_2+a_3+a_4: -floor((n-1)/2) <= a_1,a_2,a_3,a_4 <= floor(n/2), and a_1^2,a_2^2,a_3^2,a_4^2 are pairwise distinct}.",
+  "id": "A356714",
+  "mentions": [
+    "A000290",
+    "A004546"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:56",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

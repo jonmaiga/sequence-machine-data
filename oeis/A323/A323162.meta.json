@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if both n and n-1 are composite, 0 otherwise.",
+  "id": "A323162",
+  "mentions": [
+    "A005381",
+    "A010051",
+    "A090405",
+    "A093515",
+    "A323161"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

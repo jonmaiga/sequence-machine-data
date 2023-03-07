@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n into colored blocks of equal parts, such that all colors from a set of size eight are used and the colors are introduced in increasing order.",
+  "id": "A327291",
+  "mentions": [
+    "A321878"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 36,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

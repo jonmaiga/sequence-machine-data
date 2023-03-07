@@ -1,0 +1,22 @@
+{
+  "description": "Löschian numbers (A003136) that are multiples of 3.",
+  "id": "A270672",
+  "mentions": [
+    "A003136",
+    "A008585",
+    "A202822",
+    "A260682",
+    "A266836",
+    "A270248"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

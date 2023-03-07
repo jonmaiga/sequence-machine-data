@@ -1,0 +1,20 @@
+{
+  "description": "Ranks of (odd i)+j/r, when all i+j/r are ranked; r=golden ratio (1+sqrt(5))/2), i>=0, j>=0. Complement of A184333.",
+  "id": "A184332",
+  "mentions": [
+    "A183987",
+    "A183992",
+    "A184333",
+    "A184338"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

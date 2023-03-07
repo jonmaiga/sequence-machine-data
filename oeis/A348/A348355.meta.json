@@ -1,0 +1,23 @@
+{
+  "description": "The base-7 expansion of a(n) is obtained by replacing 1's, 2's, 3's, 4's, 5's and 6's by 4's, 5's, 6's, 1's, 2's and 3's, respectively, in the base-7 expansion of n.",
+  "id": "A348355",
+  "mentions": [
+    "A004488",
+    "A048647",
+    "A334492",
+    "A334493",
+    "A348354"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

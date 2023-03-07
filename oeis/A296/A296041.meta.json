@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of sqrt(1 + sqrt(3 + sqrt(6 + sqrt(10 + sqrt(15 + ... + sqrt(k*(k + 1)/2 + ...)))))).",
+  "id": "A296041",
+  "mentions": [
+    "A000217",
+    "A072449",
+    "A099876",
+    "A099879",
+    "A105546",
+    "A105817",
+    "A239349",
+    "A257574",
+    "A257575",
+    "A257576",
+    "A257577",
+    "A257578"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

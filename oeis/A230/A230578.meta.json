@@ -1,0 +1,17 @@
+{
+  "description": "Smallest number larger than 1 such that multiplying n-th highly composite number by a(n) will give a highly composite number.",
+  "id": "A230578",
+  "mentions": [
+    "A002182"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

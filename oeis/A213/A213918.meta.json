@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = smallest possible element of a set of n positive integers s_1, s_2, ..., s_n such that for i != j, |s_i - s_j| = gcd(s_i, s_j), where |x| denotes absolute value.",
+  "id": "A213918",
+  "mentions": [
+    "A061799",
+    "A214799"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

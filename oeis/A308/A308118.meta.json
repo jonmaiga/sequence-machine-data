@@ -1,0 +1,20 @@
+{
+  "description": "Number of obtuse integer-sided triangles with perimeter n and squarefree sides.",
+  "id": "A308118",
+  "mentions": [
+    "A008683",
+    "A070093",
+    "A308117"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

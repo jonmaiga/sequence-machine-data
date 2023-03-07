@@ -1,0 +1,20 @@
+{
+  "description": "The following triangle contains n smallest numbers with the prime signature of n!. Sequence contains the triangle by rows.",
+  "id": "A111467",
+  "mentions": [
+    "A111468",
+    "A111469"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Infinitesimal generator for a diagonally-shifted Lah matrix, unsigned A105278, related to n! Laguerre(n,-x,1).",
+  "id": "A132710",
+  "mentions": [
+    "A105278",
+    "A132681",
+    "A132792",
+    "A133314"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

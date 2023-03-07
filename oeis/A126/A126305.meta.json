@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = number of nodes with even distance to the root in the n-th plane general tree encoded by A014486(n). The root node itself is also included.",
+  "id": "A126305",
+  "mentions": [
+    "A014486",
+    "A057514",
+    "A072643",
+    "A125982",
+    "A126303",
+    "A126304"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

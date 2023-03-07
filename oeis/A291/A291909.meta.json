@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the coefficient of x^(2*k) in the cycle polynomial of the complete bipartite graph K_{n,n}, 1 <= k <= n.",
+  "id": "A291909",
+  "mentions": [
+    "A010796",
+    "A070968"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Least k > n for which phi(k - n) = phi(k + n) or 0 if no such k exists.",
+  "id": "A218466",
+  "mentions": [
+    "A000010",
+    "A217768",
+    "A223091"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

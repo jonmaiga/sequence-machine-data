@@ -1,0 +1,23 @@
+{
+  "description": "Triangular array read by rows: T(n,k) is the number of set partitions of {1,2,...,n} in which the shortest block has length k (1 <= k <= n).",
+  "id": "A178979",
+  "mentions": [
+    "A000110",
+    "A000296",
+    "A001700",
+    "A080510",
+    "A145877"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

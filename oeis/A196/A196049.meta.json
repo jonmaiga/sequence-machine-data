@@ -1,0 +1,20 @@
+{
+  "description": "Number of branching nodes of the rooted tree with Matula-Goebel number n.",
+  "id": "A196049",
+  "mentions": [
+    "A020639",
+    "A049084",
+    "A064911"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-bfile"
+  }
+}

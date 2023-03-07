@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that A194113(p) is a prime.",
+  "id": "A319167",
+  "mentions": [
+    "A194113"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

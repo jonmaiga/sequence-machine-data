@@ -1,0 +1,22 @@
+{
+  "description": "Factorial of (prime(n) - 1).",
+  "id": "A177771",
+  "mentions": [
+    "A005097",
+    "A006093",
+    "A010050",
+    "A039716",
+    "A177926"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

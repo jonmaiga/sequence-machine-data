@@ -1,0 +1,27 @@
+{
+  "description": "Least number N such that the number of primes (<= N) >= the number of the base-n-zerofree numbers (<= N).",
+  "id": "A324154",
+  "mentions": [
+    "A011540",
+    "A052382",
+    "A324155",
+    "A324160",
+    "A324161",
+    "A324164",
+    "A324165"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

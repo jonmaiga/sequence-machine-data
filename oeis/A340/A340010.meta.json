@@ -1,0 +1,24 @@
+{
+  "description": "The order of the largest weakly connected component of the Collatz digraph of order n.",
+  "id": "A340010",
+  "mentions": [
+    "A006370",
+    "A008615",
+    "A014682",
+    "A088975",
+    "A103469",
+    "A127824",
+    "A248573",
+    "A340985"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

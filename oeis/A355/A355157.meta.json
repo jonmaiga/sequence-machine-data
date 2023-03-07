@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: exp(-x*tan(x)/2).",
+  "id": "A355157",
+  "mentions": [
+    "A009273",
+    "A354245"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

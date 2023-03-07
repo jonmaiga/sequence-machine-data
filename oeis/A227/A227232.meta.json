@@ -1,0 +1,18 @@
+{
+  "description": "The continued fraction of the positive constant r < sqrt(3) such that the partial quotients equal the integer floor of the powers of r.",
+  "id": "A227232",
+  "mentions": [
+    "A227233"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

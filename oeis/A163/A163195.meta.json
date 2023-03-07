@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = (1/4)*F(n)^2 * L(n+1)^2 * F(n-1) * L(n+2), where F(n) and L(n) are the Fibonacci and Lucas numbers, respectively.",
+  "id": "A163195",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A163194",
+    "A163196",
+    "A163197",
+    "A163198",
+    "A163199"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

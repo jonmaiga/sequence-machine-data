@@ -1,0 +1,31 @@
+{
+  "description": "Unique representation of nonnegative numbers by iterated tribonacci A, B and C sequences.",
+  "id": "A316713",
+  "mentions": [
+    "A000073",
+    "A003144",
+    "A003145",
+    "A003146",
+    "A189921",
+    "A278039",
+    "A278040",
+    "A278041",
+    "A316714",
+    "A316715",
+    "A316716",
+    "A316717",
+    "A317206",
+    "A317208"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

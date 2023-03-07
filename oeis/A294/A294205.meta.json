@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 2; for n > 1, a(n) is the least prime p not already in the sequence such that the Hamming distance between p and a(n-1) is 1.",
+  "id": "A294205",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A059459",
+    "A094076"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

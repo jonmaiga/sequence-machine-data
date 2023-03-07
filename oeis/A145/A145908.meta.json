@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that p + floor(sqrt(p)) OR p + ceiling(sqrt(p)) is also prime.",
+  "id": "A145908",
+  "mentions": [
+    "A086085",
+    "A145907"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

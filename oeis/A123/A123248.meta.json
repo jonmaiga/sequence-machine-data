@@ -1,0 +1,20 @@
+{
+  "description": "Largest prime factor in A071576 starting from 4th position.",
+  "id": "A123248",
+  "mentions": [
+    "A006530",
+    "A071576"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

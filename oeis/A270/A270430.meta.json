@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that A048673(n) and A064216(n) are of the same parity.",
+  "id": "A270430",
+  "mentions": [
+    "A000035",
+    "A048673",
+    "A064216",
+    "A245449",
+    "A269860",
+    "A270431",
+    "A270432",
+    "A270434"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:33",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

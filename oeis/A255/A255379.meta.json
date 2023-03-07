@@ -1,0 +1,22 @@
+{
+  "description": "Number of strings of n decimal digits that contain at least one string of exactly 9 consecutive \"0\" digits.",
+  "id": "A255379",
+  "mentions": [
+    "A255371",
+    "A255378",
+    "A255380"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:11:25",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

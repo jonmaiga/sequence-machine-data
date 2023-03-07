@@ -1,0 +1,20 @@
+{
+  "description": "Number of uniform polyhedra with n vertices.",
+  "id": "A128114",
+  "mentions": [
+    "A055684",
+    "A128115",
+    "A128914"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

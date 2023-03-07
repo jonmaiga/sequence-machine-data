@@ -1,0 +1,23 @@
+{
+  "description": "[0, -1, -1] together with A000290.",
+  "id": "A305559",
+  "mentions": [
+    "A000290",
+    "A003992",
+    "A033312",
+    "A060576",
+    "A113679",
+    "A176824",
+    "A289207"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

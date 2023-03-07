@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Product_{i=1..n, j=1..n} (i^3 + j^3 + 1).",
+  "id": "A307210",
+  "mentions": [
+    "A074962",
+    "A079478",
+    "A306398",
+    "A307209",
+    "A324403",
+    "A324426",
+    "A324443",
+    "A324444"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

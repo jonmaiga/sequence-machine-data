@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows (n >= 0, 0 <= k <= n): T(n,k) = number of k-dimensional magnetic subperiodic groups in n-dimensional space, counting enantiomorphs.",
+  "id": "A293063",
+  "mentions": [
+    "A293060",
+    "A293061",
+    "A293062",
+    "A307291"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Keep the first two digits of a(n) and insert a dot between them; this is now the arithmetic mean (truncated after the first decimal) of the digits used so far in the sequence. Lexicographically earliest sequence of distinct positive terms with this property.",
+  "id": "A335743",
+  "mentions": [
+    "A061383"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

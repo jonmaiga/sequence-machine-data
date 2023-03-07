@@ -1,0 +1,20 @@
+{
+  "description": "Squares visited by queen moves on a diagonally numbered board and moving to the lowest available unvisited square at each step.",
+  "id": "A316669",
+  "mentions": [
+    "A316588",
+    "A316668",
+    "A316670",
+    "A316671"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the greatest positive number k such that the binary digits of any number in the interval 1..k appear in order but not necessarily as consecutive digits in the binary representation of n.",
+  "id": "A301984",
+  "mentions": [
+    "A000225",
+    "A048678",
+    "A089633",
+    "A261461",
+    "A301977",
+    "A301983"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

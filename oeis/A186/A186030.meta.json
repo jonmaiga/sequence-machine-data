@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n*(13*n-3)/2.",
+  "id": "A186030",
+  "mentions": [
+    "A008585",
+    "A140090",
+    "A152742",
+    "A154609"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:29:03",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

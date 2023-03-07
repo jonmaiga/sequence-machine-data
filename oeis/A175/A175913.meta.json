@@ -1,0 +1,20 @@
+{
+  "description": "Convert to decimal the number resulting from performing binary xnor on the corresponding digits in the left and right binary concatenations of the integers one to n.",
+  "id": "A175913",
+  "mentions": [
+    "A047778",
+    "A098780"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

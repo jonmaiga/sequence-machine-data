@@ -1,0 +1,21 @@
+{
+  "description": "Number of colored integer partitions of 2n such that all colors from an n-set are used and parts differ by size or by color.",
+  "id": "A324595",
+  "mentions": [
+    "A000009",
+    "A270913",
+    "A308680",
+    "A340987"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

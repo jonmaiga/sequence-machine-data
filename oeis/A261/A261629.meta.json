@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Product_{k>=0} 1/(1-x^(4*k+1))^2.",
+  "id": "A261629",
+  "mentions": [
+    "A035451",
+    "A261632",
+    "A261636"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:33:45",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = [x^n] A(x)^n/(n+1) for n>1 where g.f. A(x) = Sum_{n>=0} a(n)*x^n with A(0)=A'(0)=1.",
+  "id": "A177752",
+  "mentions": [
+    "A177753",
+    "A293864"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

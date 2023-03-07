@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (zeta(6*k)-1).",
+  "id": "A339529",
+  "mentions": [
+    "A024004",
+    "A256919",
+    "A339530"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:19:09",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

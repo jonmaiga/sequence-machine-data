@@ -1,0 +1,20 @@
+{
+  "description": "The decimal expansion of the maximum M(5) of the ratio (sum{k=1,...,5} (x(1)*x(2)*...*x(k))^(1/k))/(x(1) + ... + x(5)) taken over x(1), ..., x(5) > 0.",
+  "id": "A219246",
+  "mentions": [
+    "A219245",
+    "A219336",
+    "A249403"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

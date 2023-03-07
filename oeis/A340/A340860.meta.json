@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of non-isosceles integer trapezoids (up to congruence) with integer side lengths a,b,c,d with n=Max(a,b,c,d) and integer diagonals e,f.",
+  "id": "A340860",
+  "mentions": [
+    "A224931",
+    "A340858",
+    "A340859"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

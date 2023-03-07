@@ -1,0 +1,19 @@
+{
+  "description": "Primes with at least one digit appearing exactly five times in the decimal expansion.",
+  "id": "A161796",
+  "mentions": [
+    "A105992",
+    "A161786"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

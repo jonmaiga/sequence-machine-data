@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(2) = 2. Thereafter:(i). If no prime divisor of a(n-1) divides a(n-2), a(n) is the least novel multiple of the squarefree kernel of a(n-1). (ii). If some (but not all) prime divisors of a(n-1) do not divide a(n-2), a(n) is the least of the least novel multiples of all such primes. (iii). If every prime divisor of a(n-1) also divides a(n-2), a(n) = u, the least unused number.",
+  "id": "A358267",
+  "mentions": [
+    "A280864",
+    "A280866",
+    "A352187",
+    "A357963"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

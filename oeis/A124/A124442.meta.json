@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Product_{ceiling(n/2) <= k <= n, gcd(k,n)=1} k.",
+  "id": "A124442",
+  "mentions": [
+    "A001783",
+    "A124441"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

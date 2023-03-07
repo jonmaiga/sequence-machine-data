@@ -1,0 +1,22 @@
+{
+  "description": "Cubefree Fibonacci numbers.",
+  "id": "A238497",
+  "mentions": [
+    "A000045",
+    "A004709",
+    "A010056",
+    "A061305",
+    "A212793"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

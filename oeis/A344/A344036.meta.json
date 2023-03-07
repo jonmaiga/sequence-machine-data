@@ -1,0 +1,17 @@
+{
+  "description": "Number of degree n polynomials f(x) with coefficients 0 or 1 with the property that the thickness of x*f(x)+1 is greater than the thickness of f(x).",
+  "id": "A344036",
+  "mentions": [
+    "A169950"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

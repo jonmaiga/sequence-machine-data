@@ -1,0 +1,18 @@
+{
+  "description": "Hurwitz logarithm of squares [1,4,9,16,...].",
+  "id": "A302198",
+  "mentions": [
+    "A302189"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of games of Gothic chess after n plies plus number of games that terminate (i.e., mate) in fewer than n plies.",
+  "id": "A114037",
+  "mentions": [
+    "A006494"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

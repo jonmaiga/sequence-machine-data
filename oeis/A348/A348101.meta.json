@@ -1,0 +1,21 @@
+{
+  "description": "Starts of runs of 5 consecutive numbers that have an equal number of unitary and nonunitary prime divisors (A348097).",
+  "id": "A348101",
+  "mentions": [
+    "A335399",
+    "A348097",
+    "A348098",
+    "A348099",
+    "A348100"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

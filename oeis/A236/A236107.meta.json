@@ -1,0 +1,25 @@
+{
+  "description": "Nonprimes whose divisors are partition numbers.",
+  "id": "A236107",
+  "mentions": [
+    "A000041",
+    "A018252",
+    "A038753",
+    "A236102",
+    "A236103",
+    "A236105",
+    "A236108",
+    "A236110"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

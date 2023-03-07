@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=0, a(2)=1; thereafter a(n) = A238823(n-1)-2*a(n-1)-a(n-2).",
+  "id": "A238824",
+  "mentions": [
+    "A238823"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

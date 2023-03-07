@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f.: 1/Product_{k>=1} (1 + x^k/k!).",
+  "id": "A292308",
+  "mentions": [
+    "A005651",
+    "A007837",
+    "A076901"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "G.f. satisfies: A(x) = B(x/A(x)), where B(x) is the g.f. of A184509.",
+  "id": "A184510",
+  "mentions": [
+    "A184509",
+    "A184511"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

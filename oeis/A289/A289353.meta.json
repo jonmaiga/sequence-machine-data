@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that (p,p+4) is a pair of cousin primes and p == 7 (mod 10).",
+  "id": "A289353",
+  "mentions": [
+    "A001223",
+    "A001359",
+    "A023200",
+    "A046132",
+    "A074822",
+    "A160440"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

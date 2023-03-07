@@ -1,0 +1,22 @@
+{
+  "description": "Limiting sequence obtained by taking the sequence of Mersenne numbers 2^n-1, n=1,2,...(A000225) and applying an infinite process which is described in the comments.",
+  "id": "A247092",
+  "mentions": [
+    "A000225",
+    "A010052",
+    "A246553"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

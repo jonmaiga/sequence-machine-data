@@ -1,0 +1,23 @@
+{
+  "description": "Positive integers k, such that d(k) <> Omega(k) + omega(k), where d = A000005, Omega = A001222 and omega = A001221.",
+  "id": "A102467",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A001222",
+    "A086971",
+    "A102466",
+    "A135767"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

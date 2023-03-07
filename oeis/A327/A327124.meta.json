@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Sum_{k>=1} ((1 - (-x)^k)^k - 1).",
+  "id": "A327124",
+  "mentions": [
+    "A056045",
+    "A112329",
+    "A318636",
+    "A327238"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

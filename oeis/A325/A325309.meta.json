@@ -1,0 +1,25 @@
+{
+  "description": "Square array read by downward antidiagonals: A(n, k) is the k-th Niven number (or Harshad number) in base n.",
+  "id": "A325309",
+  "mentions": [
+    "A005349",
+    "A049445",
+    "A064150",
+    "A064438",
+    "A064481",
+    "A245802"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

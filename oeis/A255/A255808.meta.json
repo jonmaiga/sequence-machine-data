@@ -1,0 +1,27 @@
+{
+  "description": "Numbers with no zeros in base-9 representation.",
+  "id": "A255808",
+  "mentions": [
+    "A000042",
+    "A007095",
+    "A023705",
+    "A032924",
+    "A052382",
+    "A100973",
+    "A168183",
+    "A248910",
+    "A255805"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

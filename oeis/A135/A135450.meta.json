@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 3*a(n-1) + 4*a(n-2) - a(n-3) + 3*a(n-4) + 4*a(n-5).",
+  "id": "A135450",
+  "mentions": [
+    "A000302",
+    "A131531",
+    "A135343",
+    "A135345"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

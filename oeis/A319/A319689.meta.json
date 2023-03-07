@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct values of A078898 that occur when map x -> A064989(x) is iterated, starting from x = n, until an even number is reached; a(1) = 0 by convention.",
+  "id": "A319689",
+  "mentions": [
+    "A020639",
+    "A064989",
+    "A078898",
+    "A246278",
+    "A319679"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

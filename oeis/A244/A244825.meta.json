@@ -1,0 +1,17 @@
+{
+  "description": "Number of length n 0..1 arrays with each partial sum starting from the beginning no more than two standard deviations from its mean",
+  "id": "A244825",
+  "mentions": [
+    "A244832"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

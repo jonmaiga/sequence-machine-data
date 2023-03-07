@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to write n as a sum of a square and half of a term of the sequence A008407",
+  "id": "A227156",
+  "mentions": [
+    "A000290",
+    "A008407",
+    "A227083"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

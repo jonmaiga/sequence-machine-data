@@ -1,0 +1,22 @@
+{
+  "description": "Drop all 1 but the first 1 in A035306.",
+  "id": "A348477",
+  "mentions": [
+    "A020639",
+    "A027746",
+    "A035306",
+    "A238949"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 116,
+    "source": "oeis-bfile"
+  }
+}

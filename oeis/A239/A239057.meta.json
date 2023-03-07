@@ -1,0 +1,23 @@
+{
+  "description": "Sum of the parts in the partitions of 4n into 4 parts with smallest part equal to 1 minus the number of these partitions.",
+  "id": "A239057",
+  "mentions": [
+    "A238328",
+    "A238340",
+    "A238702",
+    "A238705",
+    "A238706",
+    "A239056"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:22:57",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

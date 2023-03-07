@@ -1,0 +1,17 @@
+{
+  "description": "Primes which do not divide any Repunit R(10^n) = (10^(10^n)-1)/9.",
+  "id": "A216437",
+  "mentions": [
+    "A178070"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of 2n-move closed zebra paths on an unbounded chessboard from a given square to the same square.",
+  "id": "A254459",
+  "mentions": [
+    "A094061",
+    "A253974",
+    "A254129",
+    "A307347"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

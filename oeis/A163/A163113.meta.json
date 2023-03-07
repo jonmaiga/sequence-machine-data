@@ -1,0 +1,18 @@
+{
+  "description": "Fibonacci numbers containing equal numbers of prime digits and nonprime digits.",
+  "id": "A163113",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

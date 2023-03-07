@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of n-bead bracelets using exactly k colors with no adjacent beads having the same color.",
+  "id": "A330341",
+  "mentions": [
+    "A208544",
+    "A273891",
+    "A330618",
+    "A330621",
+    "A330632"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

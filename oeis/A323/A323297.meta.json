@@ -1,0 +1,28 @@
+{
+  "description": "Number of 3-uniform hypergraphs on n labeled vertices where no two edges have exactly one vertex in common.",
+  "id": "A323297",
+  "mentions": [
+    "A000665",
+    "A025035",
+    "A125791",
+    "A289837",
+    "A299471",
+    "A302374",
+    "A302394",
+    "A306021",
+    "A323293",
+    "A323294",
+    "A323296"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

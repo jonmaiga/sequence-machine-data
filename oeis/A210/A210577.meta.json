@@ -1,0 +1,19 @@
+{
+  "description": "Natural numbers equal to the sum of two nontrivial binomial coefficients, sorted, duplicates removed.",
+  "id": "A210577",
+  "mentions": [
+    "A006987",
+    "A007318"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

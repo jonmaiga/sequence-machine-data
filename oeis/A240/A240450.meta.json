@@ -1,0 +1,19 @@
+{
+  "description": "Greatest number of distinct numbers in the intersection of p and its conjugate, as p ranges through the partitions of n.",
+  "id": "A240450",
+  "mentions": [
+    "A067731",
+    "A240181"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

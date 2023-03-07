@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 10; for n > 0, a(n) is determined by the rule that the concatenation of the leading terms of the difference triangle is the same as the concatenation of the digits of the sequence.",
+  "id": "A125588",
+  "mentions": [
+    "A125003",
+    "A125591",
+    "A309357"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n where n-17, n-1, n+1 and n+17 are consecutive primes.",
+  "id": "A262176",
+  "mentions": [
+    "A014574",
+    "A077800",
+    "A249674",
+    "A256753"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

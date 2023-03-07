@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows (1<=k<=n): T(n,k) = (n-k+1)*k! - (k-1)!",
+  "id": "A288778",
+  "mentions": [
+    "A000142",
+    "A001477",
+    "A004736",
+    "A166350",
+    "A215014",
+    "A288777",
+    "A288780"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

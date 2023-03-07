@@ -1,0 +1,31 @@
+{
+  "description": "Number of unordered pairs of factorizations of n into factors > 1 where no factor of one properly divides any factor of the other.",
+  "id": "A322438",
+  "mentions": [
+    "A001055",
+    "A285572",
+    "A285573",
+    "A303362",
+    "A303386",
+    "A304713",
+    "A305149",
+    "A305150",
+    "A305193",
+    "A316476",
+    "A317144",
+    "A322435",
+    "A322436",
+    "A322437",
+    "A322442"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

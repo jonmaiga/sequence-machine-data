@@ -1,0 +1,26 @@
+{
+  "description": "Largest m such that k^n (mod m) is always either 0, +1, or -1.",
+  "id": "A337596",
+  "mentions": [
+    "A000035",
+    "A010872",
+    "A045979",
+    "A070430",
+    "A070596",
+    "A070636",
+    "A096008",
+    "A096087",
+    "A109718",
+    "A167176"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

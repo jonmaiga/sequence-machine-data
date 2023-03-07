@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number that contains the first n primes as substrings in base 10. Substrings go from left to right, but numbers in the substrings can be separated by several numbers.",
+  "id": "A309706",
+  "mentions": [
+    "A054261",
+    "A240959"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

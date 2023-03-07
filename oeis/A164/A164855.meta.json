@@ -1,0 +1,23 @@
+{
+  "description": "Generalized Lucas-Pascal triangle: (101*100^n,1)",
+  "id": "A164855",
+  "mentions": [
+    "A029635",
+    "A164847",
+    "A164851",
+    "A228196"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:47",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

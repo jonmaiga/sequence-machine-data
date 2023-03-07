@@ -1,0 +1,20 @@
+{
+  "description": "Column 0 of matrix inverse of triangle A152285.",
+  "id": "A152289",
+  "mentions": [
+    "A152285",
+    "A152286",
+    "A152287",
+    "A152288"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of missing subgroup orders of the alternating group, that is, i divides the order of the alternating group but the alternating group does not have a subgroup of order i.",
+  "id": "A218916",
+  "mentions": [
+    "A218914"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

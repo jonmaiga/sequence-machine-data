@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of (5-14*x+x^2)/((1-x)*(x^2-18*x+1)).",
+  "id": "A115032",
+  "mentions": [
+    "A000045",
+    "A001076",
+    "A001077",
+    "A007805",
+    "A023039",
+    "A049310",
+    "A049660",
+    "A097924",
+    "A240926"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Composite numbers congruent to 17 modulo 18.",
+  "id": "A247679",
+  "mentions": [
+    "A017257",
+    "A247676",
+    "A247678",
+    "A247681",
+    "A247682",
+    "A247683"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

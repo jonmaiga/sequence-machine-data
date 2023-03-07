@@ -1,0 +1,31 @@
+{
+  "description": "Let S(n,k) denote the set of primes < 10^n which are the sum of k consecutive primes, and let K = maximum k >= 2 such that S(n,k) is nonempty; then a(n) = max S(n,K).",
+  "id": "A342439",
+  "mentions": [
+    "A034962",
+    "A034965",
+    "A067377",
+    "A082246",
+    "A082251",
+    "A127340",
+    "A127341",
+    "A215991",
+    "A342440",
+    "A342443",
+    "A342444",
+    "A342453",
+    "A342454"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

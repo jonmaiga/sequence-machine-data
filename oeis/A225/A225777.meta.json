@@ -1,0 +1,24 @@
+{
+  "description": "Number T(n,k,u) of distinct tilings of an n X k rectangle using integer-sided square tiles containing u nodes that are unconnected to any of their neighbors; irregular triangle T(n,k,u), 1 <= k <= n, u >= 0, read by rows.",
+  "id": "A225777",
+  "mentions": [
+    "A045846",
+    "A219924",
+    "A225542",
+    "A225568",
+    "A225803",
+    "A226997"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

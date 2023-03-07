@@ -1,0 +1,17 @@
+{
+  "description": "Number of 5Xn 0..2 arrays with no element equal to any value at offset (-2,-1) (-1,1) or (0,-2) and new values introduced in order 0..2.",
+  "id": "A276251",
+  "mentions": [
+    "A276248"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

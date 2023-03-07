@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers whose proper divisor balance is an integer.",
+  "id": "A239886",
+  "mentions": [
+    "A000010",
+    "A023898",
+    "A023899",
+    "A239887"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

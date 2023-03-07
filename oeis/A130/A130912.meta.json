@@ -1,0 +1,18 @@
+{
+  "description": "Fermat quotients, mod p: ((2^(p-1) - 1)/p) mod p = A007663(n) mod p.",
+  "id": "A130912",
+  "mentions": [
+    "A007663"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 2,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

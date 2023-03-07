@@ -1,0 +1,28 @@
+{
+  "description": "Sums of two rational cubes.",
+  "id": "A159843",
+  "mentions": [
+    "A003325",
+    "A004999",
+    "A020894",
+    "A020895",
+    "A020897",
+    "A020898",
+    "A045980",
+    "A166246",
+    "A185345"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "changed",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

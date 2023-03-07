@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime made up of 0's and prime(n) 1's (or 0 when no such prime exists).",
+  "id": "A157712",
+  "mentions": [
+    "A000040",
+    "A054750",
+    "A157709"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

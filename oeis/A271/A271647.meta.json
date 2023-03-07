@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle read by rows: the natural numbers from right to left.",
+  "id": "A271647",
+  "mentions": [
+    "A000027",
+    "A002620",
+    "A024206",
+    "A033638",
+    "A075356",
+    "A235355",
+    "A269837",
+    "A271584"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

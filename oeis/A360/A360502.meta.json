@@ -1,0 +1,24 @@
+{
+  "description": "Concatenate the ternary strings for 1,2,...,n.",
+  "id": "A360502",
+  "mentions": [
+    "A007089",
+    "A007908",
+    "A036954",
+    "A048435",
+    "A360503",
+    "A360504"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

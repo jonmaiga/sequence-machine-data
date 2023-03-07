@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the greatest minimal separation between ten points in a unit square.",
+  "id": "A281065",
+  "mentions": [
+    "A000007",
+    "A002193",
+    "A010503",
+    "A020761",
+    "A101263",
+    "A120683",
+    "A281115"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

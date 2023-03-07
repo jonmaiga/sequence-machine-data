@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the imaginary part of f(n) = Sum_{d_k > 0} 3^k * i^(d_k-1) where Sum_{k >= 0} 5^k * d_k is the base 5 representation of n and i denotes the imaginary unit. Sequence A332412 gives real parts.",
+  "id": "A332413",
+  "mentions": [
+    "A031219",
+    "A289814",
+    "A332412"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

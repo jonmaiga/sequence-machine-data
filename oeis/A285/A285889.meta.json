@@ -1,0 +1,22 @@
+{
+  "description": "The smaller of the lexicographically least pair (x, y) such that 0 < x < y and sigma(x) = sigma(y) = n + x + y.",
+  "id": "A285889",
+  "mentions": [
+    "A000203",
+    "A002025",
+    "A005276",
+    "A285890",
+    "A285892"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

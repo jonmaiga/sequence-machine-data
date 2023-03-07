@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of ways to choose 3 points in a size n tetrahedral grid in such a way that the three points form an equilateral triangle that touches all four sides of the tetrahedron.",
+  "id": "A334386",
+  "mentions": [
+    "A000292",
+    "A334581"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

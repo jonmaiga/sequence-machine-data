@@ -1,0 +1,19 @@
+{
+  "description": "The number of all possible covers of L-length line segment by 3-length line segments with allowed gaps < 3.",
+  "id": "A228362",
+  "mentions": [
+    "A017818",
+    "A228360"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:04:12",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

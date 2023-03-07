@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (n+1+(-1)^n)*A024167(n), related to alternating harmonic sums.",
+  "id": "A130679",
+  "mentions": [
+    "A000254",
+    "A024167",
+    "A058312",
+    "A058313",
+    "A129326",
+    "A129587"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

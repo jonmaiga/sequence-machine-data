@@ -1,0 +1,21 @@
+{
+  "description": "Number of graphs with n nodes that are chordal and integral.",
+  "id": "A243786",
+  "mentions": [
+    "A048192",
+    "A064731",
+    "A243785"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

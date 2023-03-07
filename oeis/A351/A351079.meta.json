@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the largest term encountered on the path from n to 0 when iterating the map x -> x', or 0 if 0 cannot be reached from n (or if n is 0). Here x' is the arithmetic derivative of x, A003415.",
+  "id": "A351079",
+  "mentions": [
+    "A003415",
+    "A099307",
+    "A099309",
+    "A351078",
+    "A351255",
+    "A351261"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

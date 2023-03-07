@@ -1,0 +1,28 @@
+{
+  "description": "Numbers n that cannot be written as a sum of two or more distinct parts with the largest part dividing n.",
+  "id": "A327782",
+  "mentions": [
+    "A000009",
+    "A018818",
+    "A032742",
+    "A033630",
+    "A102627",
+    "A308168",
+    "A326836",
+    "A326837",
+    "A326841",
+    "A326850",
+    "A326851",
+    "A327783"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (p_max - 1)*...*p*...*(p_min + 2), where p_max*...*p*...*p_min = k(n) = n-th composite.",
+  "id": "A141284",
+  "mentions": [
+    "A002808",
+    "A052369",
+    "A056608"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

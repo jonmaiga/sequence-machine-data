@@ -1,0 +1,19 @@
+{
+  "description": "Number of different cycles of digits in the hexadecimal (base-16) expansions of 1/p, 2/p, ..., (p-1)/p where p = n-th prime different from 2.",
+  "id": "A144049",
+  "mentions": [
+    "A006556"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest x such that sigma(x)/x = (3/2)*sigma(n)/n where sigma(n) is the sum of divisors of n or -1 if no such x exists.",
+  "id": "A349717",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A000668",
+    "A017665",
+    "A017666",
+    "A246827"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

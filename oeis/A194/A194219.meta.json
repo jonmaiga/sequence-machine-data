@@ -1,0 +1,19 @@
+{
+  "description": "Right part of the square of the n-th Kaprekar number.",
+  "id": "A194219",
+  "mentions": [
+    "A006886",
+    "A194218"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

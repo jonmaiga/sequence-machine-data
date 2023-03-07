@@ -1,0 +1,26 @@
+{
+  "description": "In the sequence of prime numbers, replace all digits '1' with '0' and vice versa.",
+  "id": "A171013",
+  "mentions": [
+    "A000040",
+    "A171016",
+    "A171018",
+    "A171057",
+    "A175770",
+    "A222210",
+    "A222254"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:04:49",
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

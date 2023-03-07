@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of chiral pairs of color patterns (set partitions) in a row of length n using exactly k colors (subsets).",
+  "id": "A320525",
+  "mentions": [
+    "A000004",
+    "A008277",
+    "A122746",
+    "A284949",
+    "A304972",
+    "A320526",
+    "A320527",
+    "A320528",
+    "A320529",
+    "A320937"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

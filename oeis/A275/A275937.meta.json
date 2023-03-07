@@ -1,0 +1,20 @@
+{
+  "description": "The number of distinct patterns of the smallest number of unit squares required to enclose n units of area, where corner contact is allowed.",
+  "id": "A275937",
+  "mentions": [
+    "A100092",
+    "A235382",
+    "A261491"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

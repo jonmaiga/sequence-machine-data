@@ -1,0 +1,31 @@
+{
+  "description": "Numerator of the rational constant term c(n) of the n-th moment mu(n) of the limiting distribution of the number of comparisons in quicksort (for n >= 0).",
+  "id": "A329001",
+  "mentions": [
+    "A063090",
+    "A067699",
+    "A093418",
+    "A096620",
+    "A115107",
+    "A288964",
+    "A288965",
+    "A288970",
+    "A288971",
+    "A330852",
+    "A330860",
+    "A330875",
+    "A330876"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

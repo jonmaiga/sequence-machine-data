@@ -1,0 +1,24 @@
+{
+  "description": "A sequence of moments connected with Feynman numbers (A000698): Half the number of Feynman diagrams of order 2(n+1), for the electron self-energy in quantum electrodynamics (QED), i.e., all proper diagrams including Furry vanishing diagrams (those that vanish in 4-dimensional QED because of Furry theorem).",
+  "id": "A167872",
+  "mentions": [
+    "A000698",
+    "A001147",
+    "A005411",
+    "A005412",
+    "A115974",
+    "A127059",
+    "A321964"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

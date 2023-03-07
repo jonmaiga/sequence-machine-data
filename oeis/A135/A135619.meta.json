@@ -1,0 +1,19 @@
+{
+  "description": "Even Padovan numbers divided by 2.",
+  "id": "A135619",
+  "mentions": [
+    "A000931",
+    "A134720"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Meta-Wythoff array based on A097285: M = (M(n,k)), by downward antidiagonals; every row of M is eventually a row of the Wythoff array, W = A035513, and every row of W is a row of M; see Comments.",
+  "id": "A349550",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A035513",
+    "A097285",
+    "A349551",
+    "A349552",
+    "A349553",
+    "A349554"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

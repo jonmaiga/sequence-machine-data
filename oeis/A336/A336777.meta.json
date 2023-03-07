@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the least number of repetitions such that the result of the repeated execution of the division f <- f/n started at f=1 produces 0, when the division is performed using 32-bit single precision floats according to the IEEE 754 standard.",
+  "id": "A336777",
+  "mentions": [
+    "A336774",
+    "A336775",
+    "A336776",
+    "A336778",
+    "A336780",
+    "A336781",
+    "A337779"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

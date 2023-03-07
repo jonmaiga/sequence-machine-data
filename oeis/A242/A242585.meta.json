@@ -1,0 +1,22 @@
+{
+  "description": "Number of divisors of the n-th positive number that is both triangular and square.",
+  "id": "A242585",
+  "mentions": [
+    "A000129",
+    "A000217",
+    "A001110",
+    "A001333",
+    "A081978"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

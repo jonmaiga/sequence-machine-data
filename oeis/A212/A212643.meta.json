@@ -1,0 +1,25 @@
+{
+  "description": "Let b(n) and c(n) be the total numbers of distinct prime signatures and second signatures, respectively, represented among divisors of A181800(n) (first integers of each second signature; cf. A212172). b(n) mod c(n) = a(n).",
+  "id": "A212643",
+  "mentions": [
+    "A085082",
+    "A181800",
+    "A212171",
+    "A212172",
+    "A212180",
+    "A212642",
+    "A212644"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of set partitions of [n] where all prime-indexed blocks are singletons.",
+  "id": "A332398",
+  "mentions": [
+    "A000040",
+    "A000110",
+    "A007476",
+    "A332248"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

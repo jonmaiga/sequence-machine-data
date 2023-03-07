@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that p + m^2 is prime for all m in {2,4,6,8,10,12,14,16,18,20,22}.",
+  "id": "A247273",
+  "mentions": [
+    "A049492",
+    "A092120",
+    "A145741",
+    "A246842",
+    "A247269"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Dirichlet convolution of Liouville's lambda (A008836) with A342001, where A342001(n) = A003415(n)/A003557(n).",
+  "id": "A347395",
+  "mentions": [
+    "A003415",
+    "A003557",
+    "A008836",
+    "A276086",
+    "A342001",
+    "A346485",
+    "A347235",
+    "A347396"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

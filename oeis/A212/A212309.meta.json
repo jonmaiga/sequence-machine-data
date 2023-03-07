@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n! mod 3^n.",
+  "id": "A212309",
+  "mentions": [
+    "A000142",
+    "A000244",
+    "A068496",
+    "A212310"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

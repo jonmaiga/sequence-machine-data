@@ -1,0 +1,18 @@
+{
+  "description": "Number of nondecreasing sequences of n 1..6 integers with every element dividing the sequence sum",
+  "id": "A212534",
+  "mentions": [
+    "A212536"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

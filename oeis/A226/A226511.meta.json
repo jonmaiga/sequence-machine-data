@@ -1,0 +1,20 @@
+{
+  "description": "3*(5^n-3^n)/2.",
+  "id": "A226511",
+  "mentions": [
+    "A005058",
+    "A005059"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

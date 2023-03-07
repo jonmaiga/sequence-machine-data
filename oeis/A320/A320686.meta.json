@@ -1,0 +1,18 @@
+{
+  "description": "Inverse Euler transform of A004010.",
+  "id": "A320686",
+  "mentions": [
+    "A004010",
+    "A107658"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

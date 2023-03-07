@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k)=Number of (n+1)X(k+1) 0..1 arrays with every element equal to some horizontal or antidiagonal neighbor, with top left element zero",
+  "id": "A232316",
+  "mentions": [
+    "A001519",
+    "A004254"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

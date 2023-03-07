@@ -1,0 +1,37 @@
+{
+  "description": "Number T(n,k) of Dyck paths of semilength n such that the minimal number of peaks over all positive levels equals k; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A288387",
+  "mentions": [
+    "A000004",
+    "A000007",
+    "A000012",
+    "A000027",
+    "A000108",
+    "A218152",
+    "A287822",
+    "A288386",
+    "A288539",
+    "A288540",
+    "A288541",
+    "A288542",
+    "A288543",
+    "A288544",
+    "A288545",
+    "A288546",
+    "A288547",
+    "A288548",
+    "A288549"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:01",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

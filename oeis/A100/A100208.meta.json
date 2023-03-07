@@ -1,0 +1,26 @@
+{
+  "description": "Minimal permutation of the natural numbers such that the sum of squares of two consecutive terms is a prime.",
+  "id": "A100208",
+  "mentions": [
+    "A010051",
+    "A073658",
+    "A080478",
+    "A100209",
+    "A100211",
+    "A171964",
+    "A181723",
+    "A181730"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

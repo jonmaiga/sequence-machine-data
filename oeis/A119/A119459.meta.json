@@ -1,0 +1,17 @@
+{
+  "description": "Decomposition of function F = x/(1-x) into functions of the form [x + a(n)*x^n]: x = ...o x+a(n)*x^n o...o x+a(3)*x^3 o x+a(2)*x^2 o a(1)*x o F.",
+  "id": "A119459",
+  "mentions": [
+    "A119460"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

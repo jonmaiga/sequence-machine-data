@@ -1,0 +1,25 @@
+{
+  "description": "Consider a number x. Take the sum of its digits. Repeat the process deleting the first addendum and adding the previous sum. The sequence lists the numbers that after some iterations reach the sum of the divisors of x.",
+  "id": "A269308",
+  "mentions": [
+    "A000203",
+    "A007629",
+    "A269307",
+    "A269309",
+    "A269310",
+    "A269311",
+    "A269312"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

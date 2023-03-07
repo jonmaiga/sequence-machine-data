@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = 1 if the arithmetic derivative of n is a multiple of 4, otherwise 0.",
+  "id": "A353494",
+  "mentions": [
+    "A003415",
+    "A099309",
+    "A165560",
+    "A327864",
+    "A327929",
+    "A341996",
+    "A341999",
+    "A353493",
+    "A353495"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

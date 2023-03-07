@@ -1,0 +1,22 @@
+{
+  "description": "Number of 4-orbits of the cyclic group C_4 for a bi-colored square n X n grid with n squares of one color.",
+  "id": "A276452",
+  "mentions": [
+    "A014062",
+    "A276449",
+    "A276451",
+    "A276454"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

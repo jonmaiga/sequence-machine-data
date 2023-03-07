@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k for which A306927(k) [= A001615(k)-k] is a multiple of A344705(k) [= A001615(k)-A001065(k)], and their quotient is nonnegative.",
+  "id": "A344700",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A001065",
+    "A001615",
+    "A033879",
+    "A244963",
+    "A306927",
+    "A344704",
+    "A344705",
+    "A344752",
+    "A344753",
+    "A344754",
+    "A344755"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

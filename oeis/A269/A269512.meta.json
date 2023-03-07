@@ -1,0 +1,19 @@
+{
+  "description": "First differences of number of active (ON,black) cells in n-th stage of growth of two-dimensional cellular automaton defined by \"Rule 342\", based on the 5-celled von Neumann neighborhood.",
+  "id": "A269512",
+  "mentions": [
+    "A264797"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:08",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

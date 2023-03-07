@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n of the form p^m where p is prime and m>0 such that the digit sum of n is p.",
+  "id": "A252357",
+  "mentions": [
+    "A000961",
+    "A212667"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

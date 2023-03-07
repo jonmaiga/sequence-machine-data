@@ -1,0 +1,29 @@
+{
+  "description": "Highest power of 7 dividing n.",
+  "id": "A268354",
+  "mentions": [
+    "A000420",
+    "A001620",
+    "A006519",
+    "A038500",
+    "A060904",
+    "A214411",
+    "A234957",
+    "A234959",
+    "A242603",
+    "A268357"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

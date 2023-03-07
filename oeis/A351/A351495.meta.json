@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest positive number that has not yet appeared that is a multiple of the smallest prime that is not a factor of a(n-1).",
+  "id": "A351495",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A064413",
+    "A352588",
+    "A352793",
+    "A353026"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

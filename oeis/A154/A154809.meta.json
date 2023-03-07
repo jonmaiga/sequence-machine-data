@@ -1,0 +1,28 @@
+{
+  "description": "Numbers whose binary expansion is not palindromic.",
+  "id": "A154809",
+  "mentions": [
+    "A006995",
+    "A030101",
+    "A145799",
+    "A154810",
+    "A164861",
+    "A178225",
+    "A206913",
+    "A206914",
+    "A206915"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Denominator of x(n) = Sum_{k=1..n} ((odd part of k)/(k^2)).",
+  "id": "A111930",
+  "mentions": [
+    "A000265",
+    "A111919",
+    "A111921",
+    "A111923",
+    "A111929"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

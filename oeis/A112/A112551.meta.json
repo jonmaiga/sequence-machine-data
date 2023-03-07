@@ -1,0 +1,17 @@
+{
+  "description": "k sequence associated with A112550.",
+  "id": "A112551",
+  "mentions": [
+    "A112550"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

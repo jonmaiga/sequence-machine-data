@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of 2k-cycles in the n X n grid graph (2 <= k <= floor(n^2/2), n >= 2).",
+  "id": "A302337",
+  "mentions": [
+    "A002931",
+    "A003763",
+    "A046092",
+    "A047838",
+    "A140517",
+    "A301648",
+    "A302335",
+    "A302336"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 2,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

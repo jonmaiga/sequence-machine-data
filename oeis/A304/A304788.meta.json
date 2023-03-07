@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of e.g.f. exp(Sum_{k>=1} binomial(2*k,k)*x^k/(k + 1)!).",
+  "id": "A304788",
+  "mentions": [
+    "A000108",
+    "A001517",
+    "A002212",
+    "A007317",
+    "A080893",
+    "A213507",
+    "A243953",
+    "A302197"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

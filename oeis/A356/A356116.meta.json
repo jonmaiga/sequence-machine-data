@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by row. The reduced triangle of the partition_triangle A355776.",
+  "id": "A356116",
+  "mentions": [
+    "A002662",
+    "A056986",
+    "A080577",
+    "A134264",
+    "A355776",
+    "A355777"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

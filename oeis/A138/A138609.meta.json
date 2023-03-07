@@ -1,0 +1,29 @@
+{
+  "description": "List the first term from A042963, then 2 terms from A014601 (starting from 3), 3 terms from A042963, 4 terms from A014601, etc.",
+  "id": "A138609",
+  "mentions": [
+    "A001614",
+    "A014601",
+    "A042963",
+    "A074147",
+    "A116966",
+    "A138606",
+    "A138607",
+    "A138608",
+    "A138612",
+    "A166016"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "For any integer n >= 1 the sequence gives the minimum power x for which n^x+(n-1)^x+(n-2)^x+...+1^x produces a perfect square.",
+  "id": "A135203",
+  "mentions": [
+    "A001108"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

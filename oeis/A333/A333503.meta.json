@@ -1,0 +1,18 @@
+{
+  "description": "Differences between consecutive odd abundant numbers.",
+  "id": "A333503",
+  "mentions": [
+    "A005231",
+    "A294025"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of permutations of [n] avoiding the consecutive pattern 45321.",
+  "id": "A202213",
+  "mentions": [
+    "A177523",
+    "A202214",
+    "A202236",
+    "A264781",
+    "A327722",
+    "A329070"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

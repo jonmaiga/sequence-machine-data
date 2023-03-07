@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that 3n - 4 is prime.",
+  "id": "A228121",
+  "mentions": [
+    "A008585",
+    "A024893",
+    "A153183",
+    "A228358"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:23:27",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

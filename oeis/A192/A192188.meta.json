@@ -1,0 +1,20 @@
+{
+  "description": "Positions of prime powers p^e with e <= p within A000961.",
+  "id": "A192188",
+  "mentions": [
+    "A000961",
+    "A074583",
+    "A095874",
+    "A192187"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

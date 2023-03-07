@@ -1,0 +1,18 @@
+{
+  "description": "The positive odd numbers x such that x = c^2 - y and +-x = a +- y, where (a,b,c) is a primitive Pythagorean triple (PPT), a is odd and y is an even positive integer.",
+  "id": "A357535",
+  "mentions": [
+    "A020882"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 11,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

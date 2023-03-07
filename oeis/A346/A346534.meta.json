@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of approximations j/k for Pi such that abs(j/k - Pi)*sqrt(5)*k^2 < 1.",
+  "id": "A346534",
+  "mentions": [
+    "A000796",
+    "A001203",
+    "A002163",
+    "A063673"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Smallest of 3 consecutive odd numbers that are primes or strong pseudoprime to base 2.",
+  "id": "A230810",
+  "mentions": [
+    "A001262",
+    "A001567",
+    "A230667",
+    "A230808"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the prime triples constant, also known as Brun's constant B_{3b} = Sum (1/p + 1/(p+4) + 1/(p+6)) as p runs through the initial members of prime triples A022005.",
+  "id": "A277775",
+  "mentions": [
+    "A022005",
+    "A065421",
+    "A194098",
+    "A213007",
+    "A277774"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

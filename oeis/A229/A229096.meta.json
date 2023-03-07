@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows, whose row sums using Euler numbers are the unsigned even-indexed Bernoulli numbers (numerators).",
+  "id": "A229096",
+  "mentions": [
+    "A000364",
+    "A000367",
+    "A002445",
+    "A229097"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

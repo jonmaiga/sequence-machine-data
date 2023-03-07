@@ -1,0 +1,35 @@
+{
+  "description": "For all n >= 0, exactly seven sums are prime among a(n+i) + a(n+j), 0 <= i < j < 6: lexicographically earliest such sequence of distinct nonnegative numbers.",
+  "id": "A329567",
+  "mentions": [
+    "A055265",
+    "A055266",
+    "A128280",
+    "A253074",
+    "A329333",
+    "A329405",
+    "A329406",
+    "A329411",
+    "A329416",
+    "A329425",
+    "A329449",
+    "A329450",
+    "A329452",
+    "A329453",
+    "A329454",
+    "A329455",
+    "A329456",
+    "A329566",
+    "A329576"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

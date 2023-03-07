@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of ((1 + 4*x)/(1 - 4*x))^(1/2).",
+  "id": "A304940",
+  "mentions": [
+    "A063886",
+    "A081654",
+    "A303537",
+    "A304941"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

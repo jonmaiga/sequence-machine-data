@@ -1,0 +1,19 @@
+{
+  "description": "Primes whose English name has a prime number of words.",
+  "id": "A231073",
+  "mentions": [
+    "A163648",
+    "A231072"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

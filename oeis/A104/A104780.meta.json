@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of solution to sin(x)-exp(-x)=0 around Pi.",
+  "id": "A104780",
+  "mentions": [
+    "A069997"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

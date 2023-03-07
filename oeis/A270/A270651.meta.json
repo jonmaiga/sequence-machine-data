@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array: T(n,k) = greatest m such that 2^m divides prime(n)^2 - prime(k)^2, where 3 <= k <= n.",
+  "id": "A270651",
+  "mentions": [
+    "A000040",
+    "A270649"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 3,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

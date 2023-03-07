@@ -1,0 +1,19 @@
+{
+  "description": "Smallest (2n+1)-digit palindromic prime of the form 10...0M0...01 (thus M is a palindrome with <= 2n-1 digits).",
+  "id": "A100027",
+  "mentions": [
+    "A100026",
+    "A100028"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

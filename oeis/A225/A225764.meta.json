@@ -1,0 +1,19 @@
+{
+  "description": "Permanent of the n X n matrix M_n = [m_n(i,j)] with m_n(i,j) = Stirling2(n+i,j) for 1<=i,j<=n.",
+  "id": "A225764",
+  "mentions": [
+    "A008277",
+    "A036740",
+    "A048993"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

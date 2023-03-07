@@ -1,0 +1,21 @@
+{
+  "description": "Partial sums of A116550: Sum_{k=1..n} bphi(k) where bphi(k) is the bi-unitary analog of Euler's totient function.",
+  "id": "A306070",
+  "mentions": [
+    "A002088",
+    "A116550",
+    "A177754",
+    "A306071"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:51",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

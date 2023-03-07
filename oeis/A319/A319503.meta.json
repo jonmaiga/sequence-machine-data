@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of Fibonacci(n) into exactly n positive Fibonacci numbers.",
+  "id": "A319503",
+  "mentions": [
+    "A000045",
+    "A098641",
+    "A259254",
+    "A319394",
+    "A319435"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

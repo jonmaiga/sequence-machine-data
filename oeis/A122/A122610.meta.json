@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) is coefficient of x^k in Sum_{m=0..n} x^m*(1-x)^(n-m)*(-1)^[(m+1)/2]*binomial(m-[(m+1)/2],[m/2]).",
+  "id": "A122610",
+  "mentions": [
+    "A066170"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

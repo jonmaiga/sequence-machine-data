@@ -1,0 +1,19 @@
+{
+  "description": "List of prime pairs of the form (p, p+6).",
+  "id": "A156274",
+  "mentions": [
+    "A023201",
+    "A046117"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

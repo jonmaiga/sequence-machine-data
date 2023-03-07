@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of Product_{k>0} (Sum_{m>=0} x^(k*m^3)).",
+  "id": "A304329",
+  "mentions": [
+    "A000041",
+    "A300446"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Minimum numbers whose phi of phi are multiples of the n-th prime: the n-th term is the minimum integer x such that: prime(n) | phi(phi(x)), prime(n) being the n-th prime.",
+  "id": "A167766",
+  "mentions": [
+    "A010554"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:51",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

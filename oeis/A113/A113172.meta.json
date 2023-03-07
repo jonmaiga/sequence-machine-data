@@ -1,0 +1,23 @@
+{
+  "description": "Scrabble value of English word for the number n.",
+  "id": "A113172",
+  "mentions": [
+    "A000027",
+    "A080993",
+    "A109382",
+    "A167052"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

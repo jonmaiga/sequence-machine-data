@@ -1,0 +1,18 @@
+{
+  "description": "LB numbers: positive integers of the form m = a*10^k+b (with a > 0 and b < 10^k) satisfying two properties: 1) the set of prime factors of m is the union of the sets of prime factors of a and b; and 2) A001222(m) = A001222(a) + A001222(b).",
+  "id": "A267856",
+  "mentions": [
+    "A001222"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:29",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

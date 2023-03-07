@@ -1,0 +1,27 @@
+{
+  "description": "Weights for expansion of iterated derivatives, powers of a Lie derivative, or infinitesimal generator in vector form, (f(x)D_x)^n; coefficients of A-polynomials of Comtet; Scherk partition polynomials.",
+  "id": "A139605",
+  "mentions": [
+    "A000070",
+    "A008275",
+    "A048994",
+    "A080635",
+    "A124796",
+    "A129185",
+    "A130534",
+    "A139002",
+    "A145271"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

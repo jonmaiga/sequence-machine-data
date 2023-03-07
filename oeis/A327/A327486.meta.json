@@ -1,0 +1,25 @@
+{
+  "description": "Product of Omegas of positive integers from 2 to n.",
+  "id": "A327486",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A056239",
+    "A071625",
+    "A112798",
+    "A118914",
+    "A316413",
+    "A327485"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

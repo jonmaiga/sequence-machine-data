@@ -1,0 +1,23 @@
+{
+  "description": "Sums of the first ceiling((n+1)/2) entries on the diagonals of a square spiral with a starting value of 1 in the center, where the diagonal and the antidiagonal are used alternately.",
+  "id": "A355759",
+  "mentions": [
+    "A006527",
+    "A106607",
+    "A114254",
+    "A200975",
+    "A208995"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

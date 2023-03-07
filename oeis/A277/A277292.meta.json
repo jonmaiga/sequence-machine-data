@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies: Series_Reversion( A(x) + A(x)^2 ) = A(x) - A(x)^2.",
+  "id": "A277292",
+  "mentions": [
+    "A000108",
+    "A179270",
+    "A277293",
+    "A277294",
+    "A318008"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

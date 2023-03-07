@@ -1,0 +1,25 @@
+{
+  "description": "Langton's ant on a snub square tiling: number of black cells after n moves of the ant when starting on a square.",
+  "id": "A309064",
+  "mentions": [
+    "A255938",
+    "A269757",
+    "A276073",
+    "A308590",
+    "A308937",
+    "A308973",
+    "A326167",
+    "A326352"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

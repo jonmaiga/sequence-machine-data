@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k for which A003958(sigma(k)) + A064989(sigma(k)) is equal to A003958(k) + A064989(k).",
+  "id": "A351440",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A003958",
+    "A064989",
+    "A336702",
+    "A351442",
+    "A351446"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

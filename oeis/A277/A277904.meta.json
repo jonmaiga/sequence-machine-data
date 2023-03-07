@@ -1,0 +1,23 @@
+{
+  "description": "Irregular table: row n (n >= 0) is obtained by listing numbers 0 .. A018819(n)-1.",
+  "id": "A277904",
+  "mentions": [
+    "A000123",
+    "A018819",
+    "A277903",
+    "A277905",
+    "A278164"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Occurrences of decrease of the probability density P(a(n)) of coprime numbers k,m, satisfying 1 <= k <= a(n) and 1 <= m <= a(n); i.e., P(a(n)) < P(a(n)-1).",
+  "id": "A280877",
+  "mentions": [
+    "A001620",
+    "A018805",
+    "A079814",
+    "A279796",
+    "A280878",
+    "A280879",
+    "A285022"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = ((n+1)*2^n + 1)*(2^n + 1)^(n-1).",
+  "id": "A171800",
+  "mentions": [
+    "A136516",
+    "A171799",
+    "A171801"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

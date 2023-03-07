@@ -1,0 +1,27 @@
+{
+  "description": "Primes which are digital reversals of products of \"emirpimes\" pairs.",
+  "id": "A159238",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A004086",
+    "A014613",
+    "A083815",
+    "A097393",
+    "A158126"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

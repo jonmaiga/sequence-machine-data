@@ -1,0 +1,41 @@
+{
+  "description": "The exponent of highest power of 2 dividing the product of the elements of the n-th row of Pascal's triangle (A001142).",
+  "id": "A187059",
+  "mentions": [
+    "A000178",
+    "A000295",
+    "A000337",
+    "A000788",
+    "A001142",
+    "A002109",
+    "A005803",
+    "A007318",
+    "A007814",
+    "A036799",
+    "A065040",
+    "A109363",
+    "A174605",
+    "A249150",
+    "A249151",
+    "A249152",
+    "A249154",
+    "A249343",
+    "A249345",
+    "A249346",
+    "A249347",
+    "A249421"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:10:31",
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

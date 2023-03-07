@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the second negative root of the equation Gamma(x) + Psi(x) = 0, negated.",
+  "id": "A268980",
+  "mentions": [
+    "A268893",
+    "A268979",
+    "A268981"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

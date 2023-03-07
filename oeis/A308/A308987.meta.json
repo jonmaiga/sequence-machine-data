@@ -1,0 +1,21 @@
+{
+  "description": "In the sequence {n^2+1} (A002522), color the primes red. When the number of terms m between successive red terms sets a new record, write down m+1.",
+  "id": "A308987",
+  "mentions": [
+    "A002496",
+    "A002522",
+    "A293564",
+    "A308988"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

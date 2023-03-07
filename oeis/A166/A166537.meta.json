@@ -1,0 +1,18 @@
+{
+  "description": "Integers whose binary digits \"1\" define, if sorted into a quadrant shape whose right angle lies in a Go board corner, same colored Go stones that surely live all, but not if any stone is omitted",
+  "id": "A166537",
+  "mentions": [
+    "A165197"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

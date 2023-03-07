@@ -1,0 +1,20 @@
+{
+  "description": "Start with n and repeatedly double it and apply the \"repeatedly delete any run of identical digits\" operation described in A323830; a(n) is the number of steps needed to reach one of 0, 1, or 5, or -1 if none of these three numbers is ever reached.",
+  "id": "A323832",
+  "mentions": [
+    "A321801",
+    "A321802",
+    "A323830"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

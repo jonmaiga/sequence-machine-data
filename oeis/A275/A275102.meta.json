@@ -1,0 +1,19 @@
+{
+  "description": "Number of set partitions of [5*n] such that within each block the numbers of elements from all residue classes modulo n are equal for n>0, a(0)=1.",
+  "id": "A275102",
+  "mentions": [
+    "A275043"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

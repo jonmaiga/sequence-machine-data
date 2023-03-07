@@ -1,0 +1,22 @@
+{
+  "description": "Numbers such that all divisors occur in their Collatz trajectories.",
+  "id": "A207674",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A006370",
+    "A027750",
+    "A070165",
+    "A207675"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

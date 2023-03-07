@@ -1,0 +1,23 @@
+{
+  "description": "Number of compositions (ordered partitions) of n^3 into at most n cubes.",
+  "id": "A347591",
+  "mentions": [
+    "A000578",
+    "A023358",
+    "A290247",
+    "A298672",
+    "A307738",
+    "A347590",
+    "A347592"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

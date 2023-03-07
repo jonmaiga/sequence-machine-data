@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = BarnesG(2*n).",
+  "id": "A296607",
+  "mentions": [
+    "A000178",
+    "A074962",
+    "A098694",
+    "A296591",
+    "A296608",
+    "A306635"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

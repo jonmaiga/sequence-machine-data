@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k >= 0 such that 2^k is number of ways to write n as n = x*y, where x, y = squarefree numbers, 1 <= x <= n, 1 <= y <= n, or -1 if no such k exists.",
+  "id": "A231122",
+  "mentions": [
+    "A004709",
+    "A006881",
+    "A046099",
+    "A085987",
+    "A130091",
+    "A230843"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

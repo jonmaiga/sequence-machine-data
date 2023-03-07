@@ -1,0 +1,23 @@
+{
+  "description": "Table of the elementary symmetric functions a_k(1,3,4,...,n+1).",
+  "id": "A196841",
+  "mentions": [
+    "A048994",
+    "A094638",
+    "A123319",
+    "A145324"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

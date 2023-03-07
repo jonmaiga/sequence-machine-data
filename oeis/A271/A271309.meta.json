@@ -1,0 +1,21 @@
+{
+  "description": "Integers n such that A264137(n) < A060385(n).",
+  "id": "A271309",
+  "mentions": [
+    "A000129",
+    "A060385",
+    "A096650",
+    "A264137"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

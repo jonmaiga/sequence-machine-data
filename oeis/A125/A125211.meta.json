@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = total number of primes of the form |k! - n|.",
+  "id": "A125211",
+  "mentions": [
+    "A125162",
+    "A125163",
+    "A125164",
+    "A125212",
+    "A125213"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

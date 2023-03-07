@@ -1,0 +1,29 @@
+{
+  "description": "Number of ways to fill a matrix with the first n positive integers.",
+  "id": "A323295",
+  "mentions": [
+    "A000005",
+    "A000142",
+    "A038041",
+    "A053529",
+    "A057625",
+    "A061095",
+    "A120733",
+    "A121860",
+    "A323300",
+    "A323301",
+    "A323307",
+    "A323351"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

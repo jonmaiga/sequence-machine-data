@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n with k digits such that each sum of 1, 2, ..., k digits of n is a substring of n.",
+  "id": "A202272",
+  "mentions": [
+    "A052018"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

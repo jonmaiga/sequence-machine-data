@@ -1,0 +1,21 @@
+{
+  "description": "Number of n X n rational {0,1}-matrices of determinant 0, up to row and column permutations.",
+  "id": "A116977",
+  "mentions": [
+    "A002724",
+    "A046747",
+    "A116976"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

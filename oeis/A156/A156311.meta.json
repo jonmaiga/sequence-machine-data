@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to write prime(n) = prime(k) + prime(k+1)*m.",
+  "id": "A156311",
+  "mentions": [
+    "A000040",
+    "A049084",
+    "A156312",
+    "A156313",
+    "A156314"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

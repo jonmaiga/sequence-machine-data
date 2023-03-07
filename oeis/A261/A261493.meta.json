@@ -1,0 +1,21 @@
+{
+  "description": "Palindromes that are concatenation of palindromic prime numbers in increasing order up to the n-th and then in decreasing order.",
+  "id": "A261493",
+  "mentions": [
+    "A002385",
+    "A043037",
+    "A048677"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

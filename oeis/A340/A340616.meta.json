@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of sqrt(3)-sqrt(2).",
+  "id": "A340616",
+  "mentions": [
+    "A002193",
+    "A002194",
+    "A010466",
+    "A135611",
+    "A172264",
+    "A246723"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:24:31",
+    "offset": 0,
+    "size": 72,
+    "source": "joeis"
+  }
+}

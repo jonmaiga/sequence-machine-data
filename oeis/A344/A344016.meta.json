@@ -1,0 +1,21 @@
+{
+  "description": "2-adic valuation of coefficients of q-expansion of the operator T_3 applied to inverse of Klein j-invariant.",
+  "id": "A344016",
+  "mentions": [
+    "A000521",
+    "A344014",
+    "A344015",
+    "A344017"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

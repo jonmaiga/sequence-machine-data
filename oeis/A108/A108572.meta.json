@@ -1,0 +1,29 @@
+{
+  "description": "Number of partitions of n which, as multisets, are nontrivial repetitions of a multiset.",
+  "id": "A108572",
+  "mentions": [
+    "A000041",
+    "A000837",
+    "A018783",
+    "A047966",
+    "A100953",
+    "A303386",
+    "A303547",
+    "A303553",
+    "A319149",
+    "A319162",
+    "A319164",
+    "A319810"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

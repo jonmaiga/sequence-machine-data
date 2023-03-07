@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (1 + 26*x + 109*x^2 + 109*x^3 + 26*x^4 + x^5) / (1 - x)^8.",
+  "id": "A244881",
+  "mentions": [
+    "A002721"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:50:41",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

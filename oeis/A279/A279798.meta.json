@@ -1,0 +1,21 @@
+{
+  "description": "Largest prime factor of 78557*2^n + 1.",
+  "id": "A279798",
+  "mentions": [
+    "A002587",
+    "A006530",
+    "A258073",
+    "A258091"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

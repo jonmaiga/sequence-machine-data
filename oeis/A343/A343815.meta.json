@@ -1,0 +1,19 @@
+{
+  "description": "Cyclic numbers (A003277) which set a record for the gap to the next cyclic number.",
+  "id": "A343815",
+  "mentions": [
+    "A003277",
+    "A343816"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

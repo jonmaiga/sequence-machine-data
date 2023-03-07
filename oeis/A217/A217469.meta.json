@@ -1,0 +1,19 @@
+{
+  "description": "Multiplicative order of 5 (mod 5*n + 1).",
+  "id": "A217469",
+  "mentions": [
+    "A002326",
+    "A003571",
+    "A003573"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

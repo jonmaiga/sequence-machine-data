@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = number of terms A270431 <= n; least monotonic left inverse of A270431.",
+  "id": "A270433",
+  "mentions": [
+    "A048673",
+    "A064216",
+    "A270431",
+    "A270432",
+    "A270434"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:33",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

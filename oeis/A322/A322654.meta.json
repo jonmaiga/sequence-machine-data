@@ -1,0 +1,20 @@
+{
+  "description": "Number of binary operations on an n-set that satisfy (ab)c = (ac)b for all a,b,c.",
+  "id": "A322654",
+  "mentions": [
+    "A019538",
+    "A254570"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

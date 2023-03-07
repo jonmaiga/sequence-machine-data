@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that either k*(k+1)/4 + 1 or k*(k+1)/4 - 1 or both are primes.",
+  "id": "A105173",
+  "mentions": [
+    "A014601"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

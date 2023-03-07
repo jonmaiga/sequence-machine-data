@@ -1,0 +1,23 @@
+{
+  "description": "Number of signed trees with n nodes and p positive edges. Triangle T(n,p) read by rows, 0<=p",
+  "id": "A302939",
+  "mentions": [
+    "A000055",
+    "A000060",
+    "A027852",
+    "A304489",
+    "A331113"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

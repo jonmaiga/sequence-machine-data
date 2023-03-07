@@ -1,0 +1,30 @@
+{
+  "description": "Numbers k for which A000265(1+A000265(sigma(k))) is equal to A000265(1+k).",
+  "id": "A336701",
+  "mentions": [
+    "A000203",
+    "A000265",
+    "A000668",
+    "A066175",
+    "A161942",
+    "A326042",
+    "A332223",
+    "A336698",
+    "A336699",
+    "A336700",
+    "A336937",
+    "A337194",
+    "A337195"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

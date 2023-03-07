@@ -1,0 +1,19 @@
+{
+  "description": "Integers n such that the century defined by the interval [100n+1, 100n+100] (i.e., the (n+1)-st century) contains exactly one Ormiston prime pair and no other primes.",
+  "id": "A162895",
+  "mentions": [
+    "A162893",
+    "A162894"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of sets modulo n which can be formed by a finite arithmetic sequence, whose complement cannot be formed by a finite arithmetic sequence.",
+  "id": "A332053",
+  "mentions": [
+    "A000005",
+    "A000203"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

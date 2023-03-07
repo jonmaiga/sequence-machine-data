@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of (1-sqrt(1-(2*(1-sqrt(1-4*x^2)))/x))/2.",
+  "id": "A242566",
+  "mentions": [
+    "A000108",
+    "A049310",
+    "A053121",
+    "A101499"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

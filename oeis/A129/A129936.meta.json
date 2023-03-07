@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (n-2)*(n+3)*(n+2)/6.",
+  "id": "A129936",
+  "mentions": [
+    "A000292",
+    "A005586",
+    "A034856",
+    "A214292"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:06:09",
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

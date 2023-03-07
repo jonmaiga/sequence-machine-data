@@ -1,0 +1,23 @@
+{
+  "description": "Irregular table T(n,k), n >= 0 and k >= 0, read by rows with T(n + 3*k,k) = A008619(n).",
+  "id": "A359979",
+  "mentions": [
+    "A001399",
+    "A008619",
+    "A008620",
+    "A008642",
+    "A008805"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

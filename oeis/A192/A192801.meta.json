@@ -1,0 +1,29 @@
+{
+  "description": "Constant term in the reduction of the polynomial (x+2)^n by x^3->x^2+x+1. See Comments.",
+  "id": "A192801",
+  "mentions": [
+    "A078484",
+    "A099216",
+    "A115390",
+    "A192232",
+    "A192616",
+    "A192744",
+    "A192798",
+    "A192799",
+    "A192800",
+    "A192802",
+    "A192803"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:49:55",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Number of non-isomorphic set-systems of weight n with at least one endpoint.",
+  "id": "A330052",
+  "mentions": [
+    "A000612",
+    "A007716",
+    "A055621",
+    "A283877",
+    "A306005",
+    "A317533",
+    "A317794",
+    "A319559",
+    "A320665",
+    "A330053",
+    "A330054",
+    "A330055",
+    "A330056",
+    "A330058"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

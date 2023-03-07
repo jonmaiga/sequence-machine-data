@@ -1,0 +1,23 @@
+{
+  "description": "The arithmetic function u(n,8,3).",
+  "id": "A291491",
+  "mentions": [
+    "A289435",
+    "A289436",
+    "A289437",
+    "A289438",
+    "A289439",
+    "A289440",
+    "A289441"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:01:35",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

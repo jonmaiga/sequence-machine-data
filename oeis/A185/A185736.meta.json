@@ -1,0 +1,21 @@
+{
+  "description": "Weight array of the Wythoff array, by antidiagonals.",
+  "id": "A185736",
+  "mentions": [
+    "A035513",
+    "A144112",
+    "A185737"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 119,
+    "source": "oeis-entry"
+  }
+}

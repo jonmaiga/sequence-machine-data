@@ -1,0 +1,21 @@
+{
+  "description": "Number of pairs (p,q) of partitions such that q is a partition of n and p <= q (diagram containment).",
+  "id": "A297388",
+  "mentions": [
+    "A000041",
+    "A259478",
+    "A305023"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

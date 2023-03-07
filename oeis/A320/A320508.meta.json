@@ -1,0 +1,28 @@
+{
+  "description": "T(n,k) = binomial(n - k - 1, k), 0 <= k < n, and T(n,n) = (-1)^n, triangle read by rows.",
+  "id": "A320508",
+  "mentions": [
+    "A007318",
+    "A008346",
+    "A023443",
+    "A026729",
+    "A049310",
+    "A052553",
+    "A123018",
+    "A164925",
+    "A168561"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:51:05",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

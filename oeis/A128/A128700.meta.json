@@ -1,0 +1,23 @@
+{
+  "description": "Highly abundant numbers with an odd divisor sum.",
+  "id": "A128700",
+  "mentions": [
+    "A000203",
+    "A002093"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

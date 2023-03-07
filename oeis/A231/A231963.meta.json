@@ -1,0 +1,20 @@
+{
+  "description": "Concatenate n with its UPC check digit.",
+  "id": "A231963",
+  "mentions": [
+    "A108773"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

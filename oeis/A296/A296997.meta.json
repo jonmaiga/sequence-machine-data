@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to place 3 points on an n X n point grid so that no point is equally distant from two other points on the same row or the same column.",
+  "id": "A296997",
+  "mentions": [
+    "A296468",
+    "A296996",
+    "A296998"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:33:13",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

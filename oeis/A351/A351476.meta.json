@@ -1,0 +1,27 @@
+{
+  "description": "If F is the Fermat point of a triangle ABC with A < B < C < 2*Pi/3, where AB, BC, CA, FA, FB and FC are all positive integers, then, this sequence gives the sum FA + FB + FC when gcd(a, b, c) = A351477(n).",
+  "id": "A351476",
+  "mentions": [
+    "A336328",
+    "A336329",
+    "A336330",
+    "A336331",
+    "A336332",
+    "A336333",
+    "A351477",
+    "A351801",
+    "A351802",
+    "A351803"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

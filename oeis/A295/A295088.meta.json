@@ -1,0 +1,17 @@
+{
+  "description": "Inverse to A295087.",
+  "id": "A295088",
+  "mentions": [
+    "A295087"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

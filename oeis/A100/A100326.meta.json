@@ -1,0 +1,25 @@
+{
+  "description": "Triangle, read by rows, where row n equals the inverse binomial of column n of square array A100324, which lists the self-convolutions of SHIFT(A003169).",
+  "id": "A100326",
+  "mentions": [
+    "A000007",
+    "A003169",
+    "A033999",
+    "A100324",
+    "A100327",
+    "A158687",
+    "A264717"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

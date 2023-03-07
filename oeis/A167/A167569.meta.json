@@ -1,0 +1,29 @@
+{
+  "description": "The lower left triangle of the ED2 array A167560.",
+  "id": "A167569",
+  "mentions": [
+    "A000142",
+    "A001715",
+    "A001725",
+    "A034177",
+    "A047053",
+    "A049388",
+    "A049398",
+    "A167560",
+    "A167570",
+    "A167571"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:51",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

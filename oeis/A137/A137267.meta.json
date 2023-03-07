@@ -1,0 +1,21 @@
+{
+  "description": "Chung-Graham juggling polynomials as a triangular sequence of positive coefficients.",
+  "id": "A137267",
+  "mentions": [
+    "A003422",
+    "A014144",
+    "A137948"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

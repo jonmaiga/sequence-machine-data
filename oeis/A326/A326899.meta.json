@@ -1,0 +1,30 @@
+{
+  "description": "Number of unlabeled connectedness systems covering n vertices without singletons.",
+  "id": "A326899",
+  "mentions": [
+    "A072444",
+    "A072445",
+    "A072446",
+    "A072447",
+    "A193674",
+    "A323818",
+    "A326866",
+    "A326867",
+    "A326868",
+    "A326869",
+    "A326870",
+    "A326871",
+    "A326877"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

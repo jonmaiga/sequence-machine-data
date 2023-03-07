@@ -1,0 +1,22 @@
+{
+  "description": "Start with an integer (in this case, 1). First, add 5 or 8 if the integer is odd or even, respectively. Then divide by 2.",
+  "id": "A129000",
+  "mentions": [
+    "A014499",
+    "A071673",
+    "A081742",
+    "A089610"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:54:09",
+    "offset": 1,
+    "size": 81,
+    "source": "joeis"
+  }
+}

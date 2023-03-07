@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that s(k) = s(k+1) where s(k) is the sum of divisors of k that are larger than sqrt(k) (A238535).",
+  "id": "A324367",
+  "mentions": [
+    "A002961",
+    "A064115",
+    "A064125",
+    "A164522",
+    "A164557",
+    "A238535",
+    "A293183",
+    "A306985",
+    "A324295"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

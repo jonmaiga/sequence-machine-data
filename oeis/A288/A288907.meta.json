@@ -1,0 +1,20 @@
+{
+  "description": "Primes p whose distance from the next prime and from the previous prime is less than log(p).",
+  "id": "A288907",
+  "mentions": [
+    "A151799",
+    "A151800",
+    "A288908"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

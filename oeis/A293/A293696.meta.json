@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the partial sums of prime numbers between 2^n+1 and 2^(n+1).",
+  "id": "A293696",
+  "mentions": [
+    "A000040",
+    "A036378",
+    "A293697"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Smallest cubes > terms in A066525.",
+  "id": "A140251",
+  "mentions": [
+    "A066525",
+    "A098563",
+    "A140250"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

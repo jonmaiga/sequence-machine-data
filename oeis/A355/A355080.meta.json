@@ -1,0 +1,21 @@
+{
+  "description": "Start with the positive integers. Term by term from left to right insert a copy of the current term x m steps further, where m is the number of times x has appeared.",
+  "id": "A355080",
+  "mentions": [
+    "A000124",
+    "A070769",
+    "A354223"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hear",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (3n + 2)*binomial(3n + 1,n).",
+  "id": "A144485",
+  "mentions": [
+    "A045721",
+    "A090763"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

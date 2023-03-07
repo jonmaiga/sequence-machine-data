@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 3; for n >= 1, if a(n-1) = 2*k, then a(n) = k, otherwise 1 + (A065091(n)*a(n-1)), where A065091(n) gives the n-th odd prime.",
+  "id": "A140948",
+  "mentions": [
+    "A033478",
+    "A065091"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

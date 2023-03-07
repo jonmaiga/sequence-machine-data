@@ -1,0 +1,18 @@
+{
+  "description": "Write down the squarefree positive integers, with a(1) = 1, and each m-th prime replaced with the m-th composite squarefree positive integer, and each m-th composite squarefree positive integer replaced with the m-th prime.",
+  "id": "A163814",
+  "mentions": [
+    "A005117",
+    "A163813"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

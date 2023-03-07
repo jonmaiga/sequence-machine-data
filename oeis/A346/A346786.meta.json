@@ -1,0 +1,18 @@
+{
+  "description": "If a(n) is prime, then a(n) + a(n+1) is prime; if a(n) is not prime, then a(n) + a(n+1) is not prime. This is also true for pairs of consecutive digits: if the first one is prime, the sum of the pair is also prime; if the first one is nonprime, the sum of the pair is nonprime. This is the lexicographically earliest sequence of distinct terms > 0 with this property.",
+  "id": "A346786",
+  "mentions": [
+    "A219110"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

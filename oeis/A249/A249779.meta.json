@@ -1,0 +1,20 @@
+{
+  "description": "Row \"sums\" of Pascal triangle (A007318), using operation <+> defined in comment in A245618.",
+  "id": "A249779",
+  "mentions": [
+    "A007318",
+    "A245618",
+    "A245619",
+    "A249388"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

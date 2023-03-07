@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form Fibonacci(k)-2.",
+  "id": "A163851",
+  "mentions": [
+    "A000040",
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

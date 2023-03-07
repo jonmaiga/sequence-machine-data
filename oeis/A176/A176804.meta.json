@@ -1,0 +1,19 @@
+{
+  "description": "Lesser of twin primes p such that p = semiprime(k)/2 and p + 2 = semiprime(k+2)/2 for some integer k.",
+  "id": "A176804",
+  "mentions": [
+    "A001358",
+    "A001359",
+    "A174956"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

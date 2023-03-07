@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{d|n} (Stirling2(n,d) mod 2).",
+  "id": "A348856",
+  "mentions": [
+    "A007306",
+    "A008277",
+    "A246600",
+    "A308037"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

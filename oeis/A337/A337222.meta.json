@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least number that can be obtained by replacing some square XX in the binary expansion of n by X.",
+  "id": "A337222",
+  "mentions": [
+    "A020330",
+    "A337223",
+    "A337224"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

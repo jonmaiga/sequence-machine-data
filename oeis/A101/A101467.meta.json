@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct n-term ratios x_1 : x_2 : ... : x_n where each x_i is in the range [1-10].",
+  "id": "A101467",
+  "mentions": [
+    "A018805",
+    "A071778",
+    "A082540",
+    "A082544"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

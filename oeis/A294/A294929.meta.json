@@ -1,0 +1,27 @@
+{
+  "description": "Number of proper divisors of n that are abundant (A005101).",
+  "id": "A294929",
+  "mentions": [
+    "A005101",
+    "A032741",
+    "A080224",
+    "A294889",
+    "A294902",
+    "A294926",
+    "A294927",
+    "A294928",
+    "A294930",
+    "A294937"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

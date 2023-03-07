@@ -1,0 +1,21 @@
+{
+  "description": "Number of circular permutations of the multiset {1,1,2,2,...,n,n} (up to rotations) with odd distances between equal elements.",
+  "id": "A137730",
+  "mentions": [
+    "A114938",
+    "A137729",
+    "A137737",
+    "A137749"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

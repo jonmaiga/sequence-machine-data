@@ -1,0 +1,25 @@
+{
+  "description": "Palindromic primes in the sense of A007500 with digits '0', '1' and '5' only.",
+  "id": "A199305",
+  "mentions": [
+    "A004086",
+    "A007500",
+    "A020449",
+    "A020472",
+    "A087510",
+    "A087515",
+    "A199325",
+    "A199329"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "1/4 of the number of (n+1) X 2 0..3 arrays with every 2 X 2 subblock having two or three distinct clockwise edge differences.",
+  "id": "A210328",
+  "mentions": [
+    "A210335"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

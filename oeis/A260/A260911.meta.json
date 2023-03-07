@@ -1,0 +1,19 @@
+{
+  "description": "Least positive integer k < prime(n) such that there are 0 < i < j < k for which i^2 + j^2 = k^2 and i,j,k are all quadratic residues modulo prime(n), or 0 if no such k exists.",
+  "id": "A260911",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A257364"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

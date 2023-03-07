@@ -1,0 +1,25 @@
+{
+  "description": "McKay-Thompson series of class 60C for the Monster group with a(0) = 1.",
+  "id": "A145725",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A058727",
+    "A094023",
+    "A121373",
+    "A135213"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:04:07",
+    "offset": -1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

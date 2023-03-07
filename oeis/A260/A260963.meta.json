@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that gcd(sigma(n), n*(n+1)/2 - sigma(n)) = 1, where sigma(n) is sum of positive divisors of n.",
+  "id": "A260963",
+  "mentions": [
+    "A000203",
+    "A024816",
+    "A055008",
+    "A058075"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

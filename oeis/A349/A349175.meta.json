@@ -1,0 +1,24 @@
+{
+  "description": "Odd numbers k for which gcd(k, A003961(k)) <> gcd(sigma(k), A003961(k)), where A003961(n) is fully multiplicative with a(prime(k)) = prime(k+1), and sigma is the sum of divisors function.",
+  "id": "A349175",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A319626",
+    "A348994",
+    "A349161",
+    "A349164",
+    "A349169",
+    "A349174"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

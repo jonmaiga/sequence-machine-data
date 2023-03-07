@@ -1,0 +1,30 @@
+{
+  "description": "Generalized Fibonacci numbers: square array A(n,k) read by ascending antidiagonals, A(n,k) = [x^k]((1-Sum_{j=1..n} x^j)^(-1)), (n>=0, k>=0).",
+  "id": "A247506",
+  "mentions": [
+    "A000045",
+    "A000073",
+    "A000078",
+    "A001591",
+    "A001592",
+    "A011782",
+    "A048887",
+    "A066178",
+    "A079262",
+    "A092921",
+    "A144406",
+    "A247505"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

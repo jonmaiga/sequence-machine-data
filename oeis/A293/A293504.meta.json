@@ -1,0 +1,21 @@
+{
+  "description": "The integer k that minimizes |k/n^2 - sqrt(2)|.",
+  "id": "A293504",
+  "mentions": [
+    "A002193",
+    "A293502",
+    "A293503"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

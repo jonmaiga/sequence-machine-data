@@ -1,0 +1,20 @@
+{
+  "description": "Up-down permutations on [n] whose peaks have k rises.",
+  "id": "A194354",
+  "mentions": [
+    "A000111",
+    "A006882"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

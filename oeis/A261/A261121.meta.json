@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n-th primorial into aliquant parts (i.e., parts that do not divide n#).",
+  "id": "A261121",
+  "mentions": [
+    "A002110",
+    "A098743",
+    "A260797"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

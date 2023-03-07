@@ -1,0 +1,18 @@
+{
+  "description": "Number of elliptic curves (up to isomorphism) of conductor n.",
+  "id": "A110620",
+  "mentions": [
+    "A005788",
+    "A060564"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

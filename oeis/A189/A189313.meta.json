@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that 2*omega(4p) = omega(4p+2), where omega(k) is the number of distinct primes dividing k, A001221.",
+  "id": "A189313",
+  "mentions": [
+    "A001221",
+    "A189314"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

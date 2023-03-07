@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{primes p} 2*(p-3) * log(p) / (p^3 + p - 2).",
+  "id": "A335705",
+  "mentions": [
+    "A208133",
+    "A306072",
+    "A335706"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

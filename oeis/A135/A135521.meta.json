@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 2^(A091090(n)) - 1.",
+  "id": "A135521",
+  "mentions": [
+    "A000225",
+    "A001787",
+    "A091090",
+    "A135416"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

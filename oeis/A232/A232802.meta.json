@@ -1,0 +1,21 @@
+{
+  "description": "Number of solution pairs (x,y) for x <= 11 such that x! + n = y^2 (Brocard-Ramanujan Diophantine equation) is soluble over the integers.",
+  "id": "A232802",
+  "mentions": [
+    "A038202",
+    "A068869",
+    "A085692",
+    "A146968",
+    "A216071"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

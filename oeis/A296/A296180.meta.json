@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n, k) = 3*(n - k)*k + 1, n >= 0, 0 <= k <= n.",
+  "id": "A296180",
+  "mentions": [
+    "A000012",
+    "A016777",
+    "A016921",
+    "A017173",
+    "A017533",
+    "A077028",
+    "A130154"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:32:27",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

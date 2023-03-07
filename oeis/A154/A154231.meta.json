@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T(n, k) = T(n-1, k) + T(n-1, k-1) + ((n+1)^2*(n+2)^2*(2*n^2 +6*n +3)/12)*T(n-2, k-1), read by rows.",
+  "id": "A154231",
+  "mentions": [
+    "A000539",
+    "A154227",
+    "A154228",
+    "A154229",
+    "A154230",
+    "A154233"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

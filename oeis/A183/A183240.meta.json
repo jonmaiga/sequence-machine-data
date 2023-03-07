@@ -1,0 +1,25 @@
+{
+  "description": "Sums of the squares of multinomial coefficients.",
+  "id": "A183240",
+  "mentions": [
+    "A005651",
+    "A036038",
+    "A183235",
+    "A183236",
+    "A183237",
+    "A183238",
+    "A183241",
+    "A183610"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

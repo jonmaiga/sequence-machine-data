@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,k) = 1 - A176338(k) - A176338(n-k) + A176338(n) read by rows.",
+  "id": "A176340",
+  "mentions": [
+    "A176337",
+    "A176338",
+    "A176339"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

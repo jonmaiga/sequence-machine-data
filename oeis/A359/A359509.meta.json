@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of subsets {b_1, b_2, ..., b_t} of {n, n+1, ..., A359506(n)} containing n with the property that b_1 XOR b_2 XOR ... XOR b_t = 0.",
+  "id": "A359509",
+  "mentions": [
+    "A000295",
+    "A359506",
+    "A359508"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

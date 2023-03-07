@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = number of set partitions of [1..n] with dimension k.",
+  "id": "A226504",
+  "mentions": [
+    "A000110",
+    "A001787",
+    "A011782",
+    "A226505"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

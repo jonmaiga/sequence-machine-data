@@ -1,0 +1,29 @@
+{
+  "description": "Number of ways to write n as an ordered sum of 5 positive cubes.",
+  "id": "A340978",
+  "mentions": [
+    "A000578",
+    "A010057",
+    "A025458",
+    "A051344",
+    "A173679",
+    "A280618",
+    "A340977",
+    "A340979",
+    "A340980",
+    "A340981",
+    "A340982",
+    "A340983"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 5,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

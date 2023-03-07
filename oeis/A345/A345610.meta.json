@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are the sum of eight fifth powers in two or more ways.",
+  "id": "A345610",
+  "mentions": [
+    "A003353",
+    "A345577",
+    "A345605",
+    "A345611",
+    "A345619",
+    "A346327"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

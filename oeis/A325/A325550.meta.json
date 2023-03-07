@@ -1,0 +1,27 @@
+{
+  "description": "Number of necklace compositions of n with distinct multiplicities.",
+  "id": "A325550",
+  "mentions": [
+    "A000079",
+    "A000740",
+    "A008965",
+    "A059966",
+    "A098504",
+    "A098859",
+    "A242882",
+    "A242887",
+    "A325549",
+    "A325554"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

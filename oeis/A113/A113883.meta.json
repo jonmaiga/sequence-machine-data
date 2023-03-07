@@ -1,0 +1,22 @@
+{
+  "description": "Indices of semiprime Bell numbers A000110.",
+  "id": "A113883",
+  "mentions": [
+    "A000110",
+    "A001358",
+    "A051130",
+    "A113015"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

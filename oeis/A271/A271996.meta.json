@@ -1,0 +1,20 @@
+{
+  "description": "The crystallogen sequence (a(n) = A018227(n)-4).",
+  "id": "A271996",
+  "mentions": [
+    "A018227",
+    "A173592"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:08:45",
+    "offset": 2,
+    "size": 45,
+    "source": "joeis"
+  }
+}

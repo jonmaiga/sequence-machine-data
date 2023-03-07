@@ -1,0 +1,19 @@
+{
+  "description": "Happy squares: squares whose trajectory under iteration of sum of squares of digits map includes 1.",
+  "id": "A228878",
+  "mentions": [
+    "A000290",
+    "A007770"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

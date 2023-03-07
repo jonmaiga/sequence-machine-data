@@ -1,0 +1,19 @@
+{
+  "description": "Positive integer solutions to 1/p + 1/q + 1/r = 1 by lexicographic order.",
+  "id": "A224910",
+  "mentions": [
+    "A030659"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

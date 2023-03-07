@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m such that in their prime factorization m = p_1^e_1 * ... * p_k^e_k, there is no digit-position in the base-2 representation of the exponents e_1 .. e_k such that in that position all those exponents would have 1-bit.",
+  "id": "A267117",
+  "mentions": [
+    "A054753",
+    "A191555",
+    "A267114",
+    "A267115",
+    "A268376"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:28",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

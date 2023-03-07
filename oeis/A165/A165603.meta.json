@@ -1,0 +1,21 @@
+{
+  "description": "Numbers of the form 4n+3 for which Sum_{i=0..(2n+1)} J(i,4n+3) = 0, where J(i,m) is the Jacobi symbol.",
+  "id": "A165603",
+  "mentions": [
+    "A004767",
+    "A165463",
+    "A165601",
+    "A165602",
+    "A165608"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers having more odd than even digits when written in base 3.",
+  "id": "A355275",
+  "mentions": [
+    "A072600",
+    "A352547"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

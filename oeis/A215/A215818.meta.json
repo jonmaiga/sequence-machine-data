@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the Fibonacci number F(n) can be written in the form a^2 + 2*b^2.",
+  "id": "A215818",
+  "mentions": [
+    "A000045",
+    "A215819",
+    "A215820",
+    "A215821"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

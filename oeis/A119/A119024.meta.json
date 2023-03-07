@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m such that A118605(m) = 0.",
+  "id": "A119024",
+  "mentions": [
+    "A118605",
+    "A119023",
+    "A119025"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

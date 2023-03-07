@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n for which A294898(n) is not zero and A294898(n) divides A000120(n); numbers for which A326130(n) = abs(A294898(n)).",
+  "id": "A326132",
+  "mentions": [
+    "A000120",
+    "A000203",
+    "A000360",
+    "A005187",
+    "A294898",
+    "A295296",
+    "A326130",
+    "A326131",
+    "A326133"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

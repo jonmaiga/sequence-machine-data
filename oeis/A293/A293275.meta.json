@@ -1,0 +1,21 @@
+{
+  "description": "Exponent of highest power of 2 dividing the n-th (2,k)-perfect number A019278.",
+  "id": "A293275",
+  "mentions": [
+    "A007814",
+    "A019278",
+    "A134665",
+    "A205597"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

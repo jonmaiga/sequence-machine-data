@@ -1,0 +1,19 @@
+{
+  "description": "Products of two distinct numbers that are the average of a pair of twin primes.",
+  "id": "A288639",
+  "mentions": [
+    "A014574",
+    "A249628",
+    "A286195"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

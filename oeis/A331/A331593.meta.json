@@ -1,0 +1,37 @@
+{
+  "description": "Numbers k that have the same number of distinct prime factors as A225546(k).",
+  "id": "A331593",
+  "mentions": [
+    "A000040",
+    "A000120",
+    "A001221",
+    "A001248",
+    "A006881",
+    "A046523",
+    "A050376",
+    "A054753",
+    "A056824",
+    "A065036",
+    "A085986",
+    "A120944",
+    "A162142",
+    "A177492",
+    "A225546",
+    "A225547",
+    "A267116",
+    "A329332",
+    "A331591",
+    "A331592"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers representable in exactly one way as (p-1)p^k (where p is a prime and k>=0), in ascending order.",
+  "id": "A114873",
+  "mentions": [
+    "A114871",
+    "A114874"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

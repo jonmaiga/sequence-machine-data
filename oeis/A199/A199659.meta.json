@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of q^(1/4) * (eta(q) / eta(q^3))^3 in powers of q.",
+  "id": "A199659",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A007262",
+    "A010054",
+    "A010815",
+    "A030182",
+    "A046913",
+    "A121373",
+    "A137569"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

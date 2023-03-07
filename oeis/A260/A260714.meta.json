@@ -1,0 +1,21 @@
+{
+  "description": "Row 4 of A260717.",
+  "id": "A260714",
+  "mentions": [
+    "A007310",
+    "A255413",
+    "A255414",
+    "A260717"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

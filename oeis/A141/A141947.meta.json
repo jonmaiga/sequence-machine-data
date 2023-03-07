@@ -1,0 +1,19 @@
+{
+  "description": "A manufactured symmetrical triangular sequence of coefficients based on: t(n,m)=(Gamma[1 - m + n] Hypergeometric2F1Regularized[1, 1 + 2 m - n, 2 + m, -1])/Gamma[ -2 m + n]. The function is taken have backward and half forward.",
+  "id": "A141947",
+  "mentions": [
+    "A052509"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (sum_{k=0}^{n-1}C(n-1,k)^2*C(-n-1,k)^2/(4*k^2-1))/n, where C(x,k) refers to binomial(x,k).",
+  "id": "A246567",
+  "mentions": [
+    "A243101",
+    "A246460",
+    "A246511",
+    "A246542",
+    "A246543"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

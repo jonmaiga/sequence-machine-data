@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k for which A276086(k) == 1 mod A003415(k), where A276086 is the primorial base exp-function, and A003415 is the arithmetic derivative.",
+  "id": "A358232",
+  "mentions": [
+    "A003415",
+    "A276086",
+    "A328382",
+    "A358228",
+    "A358231"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

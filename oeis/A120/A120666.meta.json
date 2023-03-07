@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n, k) = (n*k)!/(n!)^k.",
+  "id": "A120666",
+  "mentions": [
+    "A000984",
+    "A006480",
+    "A034841",
+    "A089759",
+    "A187783"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of primes p < prime(n)/2 such that P(p) is a primitive root modulo prime(n), where P(.) is the partition function given by A000041.",
+  "id": "A237121",
+  "mentions": [
+    "A000040",
+    "A000041",
+    "A236308",
+    "A236966",
+    "A237112"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

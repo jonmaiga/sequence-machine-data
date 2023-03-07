@@ -1,0 +1,23 @@
+{
+  "description": "Maximum number of copies of proper divisors of n required to express n as a sum; a(1) = 0 by convention.",
+  "id": "A164880",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A005835",
+    "A018818",
+    "A027751",
+    "A164878",
+    "A164879"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

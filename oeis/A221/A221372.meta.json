@@ -1,0 +1,24 @@
+{
+  "description": "A two-digit Look-and-Say sequence starting with 19: each term summarizes the increasing two-digit substrings of the previous term.",
+  "id": "A221372",
+  "mentions": [
+    "A005151",
+    "A047842",
+    "A209233",
+    "A209234",
+    "A221368",
+    "A221369",
+    "A221373"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

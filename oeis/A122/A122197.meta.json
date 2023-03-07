@@ -1,0 +1,31 @@
+{
+  "description": "Fractal sequence: count up to successive integers twice.",
+  "id": "A122197",
+  "mentions": [
+    "A000194",
+    "A000290",
+    "A001477",
+    "A002260",
+    "A002620",
+    "A008805",
+    "A033638",
+    "A122196",
+    "A194029",
+    "A194061",
+    "A211534",
+    "A339399"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

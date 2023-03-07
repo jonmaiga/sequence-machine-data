@@ -1,0 +1,18 @@
+{
+  "description": "Number of 6-cycles in the n-hypercube graph.",
+  "id": "A290031",
+  "mentions": [
+    "A001788"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:24:59",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

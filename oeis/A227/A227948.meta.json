@@ -1,0 +1,22 @@
+{
+  "description": "Zeroless numbers n such that n + (product of digits of n) and n - (product of digits of n) are prime.",
+  "id": "A227948",
+  "mentions": [
+    "A007954",
+    "A052382",
+    "A157676",
+    "A229221"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

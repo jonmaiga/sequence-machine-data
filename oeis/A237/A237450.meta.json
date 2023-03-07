@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows, T(n,k) = !n + (k-1)*(n-1)!, with n>=1, 1<=k<=n; Position of the first n-letter permutation beginning with number k in the list of lexicographically sorted permutations A030299.",
+  "id": "A237450",
+  "mentions": [
+    "A000142",
+    "A002024",
+    "A002262",
+    "A003422",
+    "A030298",
+    "A030299",
+    "A051683",
+    "A237265"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

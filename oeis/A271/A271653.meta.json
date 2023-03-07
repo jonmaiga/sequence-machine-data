@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form 2*prime(2k) - prime(k).",
+  "id": "A271653",
+  "mentions": [
+    "A272042"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

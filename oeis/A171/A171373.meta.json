@@ -1,0 +1,21 @@
+{
+  "description": "Binomial transform of A171372.",
+  "id": "A171373",
+  "mentions": [
+    "A105371",
+    "A135356",
+    "A138110",
+    "A171372"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:28:18",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

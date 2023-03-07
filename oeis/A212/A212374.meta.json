@@ -1,0 +1,23 @@
+{
+  "description": "Primes congruent to 1 mod 23.",
+  "id": "A212374",
+  "mentions": [
+    "A040984",
+    "A100201",
+    "A102734",
+    "A141908",
+    "A141926"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:29:37",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "After zero, each n occurs A255071(n) times.",
+  "id": "A255121",
+  "mentions": [
+    "A213711",
+    "A255056",
+    "A255061",
+    "A255071",
+    "A255122"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of r X s rectangles with squarefree side lengths such that r < s, r + s = 2n and r | s.",
+  "id": "A334361",
+  "mentions": [
+    "A008683",
+    "A327567"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

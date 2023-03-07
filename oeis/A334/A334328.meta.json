@@ -1,0 +1,19 @@
+{
+  "description": "Number of irreducible endless self-avoiding walks of length n for the simple cubic lattice.",
+  "id": "A334328",
+  "mentions": [
+    "A334326",
+    "A334327",
+    "A334329"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

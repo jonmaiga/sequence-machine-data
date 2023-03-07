@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to write n = a + b + c (0 < a <= b <= c) such that all the three numbers a*(a+1)-1, b*(b+1)-1, c*(c+1)-1 are Sophie Germain primes.",
+  "id": "A230514",
+  "mentions": [
+    "A000040",
+    "A005384",
+    "A209253",
+    "A227923",
+    "A230040",
+    "A230515",
+    "A230516"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

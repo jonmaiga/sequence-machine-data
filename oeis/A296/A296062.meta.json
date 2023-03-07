@@ -1,0 +1,22 @@
+{
+  "description": "Base-2 logarithm of the number of different shapes of balanced binary trees with n nodes (A110316).",
+  "id": "A296062",
+  "mentions": [
+    "A007814",
+    "A110316",
+    "A268289"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

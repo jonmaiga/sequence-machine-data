@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of nonzero elements in row n of triangle A123706.",
+  "id": "A123709",
+  "mentions": [
+    "A001221",
+    "A010766",
+    "A123706",
+    "A123707",
+    "A123708",
+    "A123710",
+    "A123711",
+    "A123712"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

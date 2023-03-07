@@ -1,0 +1,17 @@
+{
+  "description": "Let b be the lexicographically earliest sequence of positive terms such that the function f defined by f(n) = Sum_{k=1..n} (i^k * b(k)) for any n >= 0 is injective (where i denotes the imaginary unit), and b(n) != b(n+1) and b() != b(n+2) for any n > 0; a(n) = imaginary part of f(n).",
+  "id": "A293209",
+  "mentions": [
+    "A293207"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of 0..floor((n*6-1)/2) on even squares of an n X 6 array such that each row, column, diagonal and (downwards) antidiagonal of even squares is increasing.",
+  "id": "A215784",
+  "mentions": [
+    "A215788"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that generate Lucas-Carmichael numbers using an adjusted version of Erdős's method.",
+  "id": "A292352",
+  "mentions": [
+    "A006972",
+    "A287840"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

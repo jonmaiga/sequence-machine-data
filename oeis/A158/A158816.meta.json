@@ -1,0 +1,20 @@
+{
+  "description": "Prime factors of 2^843 - 1",
+  "id": "A158816",
+  "mentions": [
+    "A000040",
+    "A000225"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

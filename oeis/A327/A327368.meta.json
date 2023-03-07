@@ -1,0 +1,30 @@
+{
+  "description": "The positions of ones in the reversed binary expansion of n have integer mean and integer geometric mean.",
+  "id": "A327368",
+  "mentions": [
+    "A000120",
+    "A029931",
+    "A048793",
+    "A070939",
+    "A096111",
+    "A291166",
+    "A295235",
+    "A326029",
+    "A326643",
+    "A326669",
+    "A326673",
+    "A326699",
+    "A326700",
+    "A327777"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

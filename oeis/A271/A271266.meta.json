@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Product_{k=1..n} (k^2 + 21).",
+  "id": "A271266",
+  "mentions": [
+    "A101686",
+    "A241851"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:03:59",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

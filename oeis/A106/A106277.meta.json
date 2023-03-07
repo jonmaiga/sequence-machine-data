@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct zeros of x^4-x^3-x^2-x-1 mod prime(n).",
+  "id": "A106277",
+  "mentions": [
+    "A000078",
+    "A073817",
+    "A106280",
+    "A106283",
+    "A106296"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

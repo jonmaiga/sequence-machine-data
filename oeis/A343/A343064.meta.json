@@ -1,0 +1,24 @@
+{
+  "description": "Side a of primitive integer-sided triangles (a, b, c) whose angle B = 2*C.",
+  "id": "A343064",
+  "mentions": [
+    "A106505",
+    "A106506",
+    "A343063",
+    "A343065",
+    "A343066",
+    "A343067",
+    "A353619"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Total number of ON states after n generations of a cellular automaton-like on the square grid.",
+  "id": "A256260",
+  "mentions": [
+    "A002450",
+    "A011782",
+    "A139250",
+    "A147562",
+    "A162795",
+    "A169707",
+    "A255264",
+    "A255366",
+    "A256250",
+    "A256258",
+    "A256261",
+    "A256263",
+    "A256264",
+    "A256265"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

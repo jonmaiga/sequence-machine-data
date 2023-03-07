@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least prime p such that n*((p#)^5)-1 is prime, or 0 if n > 1 is a 5th power so no prime possible.",
+  "id": "A118925",
+  "mentions": [
+    "A118664",
+    "A118665"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

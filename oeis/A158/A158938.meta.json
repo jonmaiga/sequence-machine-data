@@ -1,0 +1,19 @@
+{
+  "description": "Numbers congruent to {-3,7,9,11,13,23,25,27} mod 64.",
+  "id": "A158938",
+  "mentions": [
+    "A103621"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:12:59",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

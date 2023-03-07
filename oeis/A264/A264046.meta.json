@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that n and n+6 are consecutive semiprimes.",
+  "id": "A264046",
+  "mentions": [
+    "A001358",
+    "A065516",
+    "A123375",
+    "A131109",
+    "A136196",
+    "A264043",
+    "A264044",
+    "A264045"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

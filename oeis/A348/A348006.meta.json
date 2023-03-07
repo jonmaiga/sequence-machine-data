@@ -1,0 +1,22 @@
+{
+  "description": "Largest increment in the trajectory from n to 1 in the Collatz map (or 3x+1 problem), or -1 if no such trajectory exists.",
+  "id": "A348006",
+  "mentions": [
+    "A006370",
+    "A025586",
+    "A070165",
+    "A087232"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

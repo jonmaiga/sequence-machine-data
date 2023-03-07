@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that there is no cube between k^2 and (k+1)^2.",
+  "id": "A122409",
+  "mentions": [
+    "A000290",
+    "A000578"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

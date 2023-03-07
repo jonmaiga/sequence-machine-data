@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that n-23, n-1, n+1 and n+23 are consecutive primes.",
+  "id": "A263298",
+  "mentions": [
+    "A014574",
+    "A033560",
+    "A077800",
+    "A242476",
+    "A249674",
+    "A256753"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

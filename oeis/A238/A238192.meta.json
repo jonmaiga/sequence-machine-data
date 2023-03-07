@@ -1,0 +1,19 @@
+{
+  "description": "In the Collatz (3x+1) iteration of n, the last odd number before 1, or 0 if there is no such number.",
+  "id": "A238192",
+  "mentions": [
+    "A002450",
+    "A070165",
+    "A237660"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

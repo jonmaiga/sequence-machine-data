@@ -1,0 +1,20 @@
+{
+  "description": "Position of 5^n in A051037 (5-smooth numbers).",
+  "id": "A188427",
+  "mentions": [
+    "A051037",
+    "A188425",
+    "A188426"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

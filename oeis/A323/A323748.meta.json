@@ -1,0 +1,27 @@
+{
+  "description": "Square array read by ascending antidiagonals: the n-th row lists the Zsigmondy numbers for a = n, b = 1, that is, T(n,k) = Zs(k, n, 1) is the greatest divisor of n^k - 1 that is coprime to n^m - 1 for all positive integers m < k, with n >= 2, k >= 1.",
+  "id": "A323748",
+  "mentions": [
+    "A000265",
+    "A064078",
+    "A064079",
+    "A064080",
+    "A064081",
+    "A064082",
+    "A064083",
+    "A253240",
+    "A342255"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

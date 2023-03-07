@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = ceiling(n/3)^2 - floor(n/3)^2.",
+  "id": "A102899",
+  "mentions": [
+    "A003417",
+    "A004396",
+    "A011655",
+    "A120691",
+    "A353314",
+    "A353327"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:24:55",
+    "offset": 0,
+    "size": 82,
+    "source": "joeis"
+  }
+}

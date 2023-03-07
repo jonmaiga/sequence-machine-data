@@ -1,0 +1,18 @@
+{
+  "description": "Number of occurrences through n^2 of the longest gap between numbers relatively prime to n (A132468).",
+  "id": "A132724",
+  "mentions": [
+    "A132468"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

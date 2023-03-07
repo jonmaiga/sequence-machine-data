@@ -1,0 +1,23 @@
+{
+  "description": "Digital roots in Pascal's triangle, triangle read by rows, 0 <= k <= n.",
+  "id": "A242312",
+  "mentions": [
+    "A007318",
+    "A010888",
+    "A096145",
+    "A242314"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

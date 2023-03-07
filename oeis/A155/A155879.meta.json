@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 4; for n > 0, a(n) is the smallest composite number c > a(n-1) such that c - n is also composite.",
+  "id": "A155879",
+  "mentions": [
+    "A002808",
+    "A155875"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

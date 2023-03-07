@@ -1,0 +1,27 @@
+{
+  "description": "Triangle T(n,k), 1 <= k <= n, read by rows: T(n,k) is the number of permutations of the set {2,4,6,...,2n} with k excedances. Equivalently, T(n,k) is the number of permutations in the symmetric group S_n having k multiplicative 2-excedances.",
+  "id": "A136715",
+  "mentions": [
+    "A000142",
+    "A008292",
+    "A008459",
+    "A103371",
+    "A120434",
+    "A134434",
+    "A136716",
+    "A136717"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

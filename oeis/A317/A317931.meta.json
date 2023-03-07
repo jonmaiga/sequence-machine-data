@@ -1,0 +1,25 @@
+{
+  "description": "Numerators of rational valued sequence whose Dirichlet convolution with itself yields A002487, Stern's Diatomic sequence.",
+  "id": "A317931",
+  "mentions": [
+    "A002487",
+    "A299151",
+    "A317839",
+    "A317843",
+    "A317927",
+    "A317932"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "frac",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

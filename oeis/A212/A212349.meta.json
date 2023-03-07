@@ -1,0 +1,18 @@
+{
+  "description": "Sequence of coefficients of x in marked mesh pattern generating function Q_{n,132}^(-,0,3,0)(x).",
+  "id": "A212349",
+  "mentions": [
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 4,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Numerators of rationals with e.g.f. D(4,x), a Debye function.",
+  "id": "A227573",
+  "mentions": [
+    "A027641",
+    "A027642",
+    "A120080",
+    "A120086",
+    "A120087",
+    "A164555",
+    "A176327",
+    "A227570",
+    "A227574"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = gcd(phi(k), k-1) / lambda(k), where k is n-th Carmichael number A002997(n) and lambda(k) = A002322(k).",
+  "id": "A264024",
+  "mentions": [
+    "A002322",
+    "A002997",
+    "A049559",
+    "A174590",
+    "A264012"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

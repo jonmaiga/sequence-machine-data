@@ -1,0 +1,27 @@
+{
+  "description": "T(n,k) is the n-th derivative of the difference between the k-th tetration of x (power tower of order k) and its predecessor (or 0 if k=0) at x=1; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A277536",
+  "mentions": [
+    "A000007",
+    "A000142",
+    "A005727",
+    "A005990",
+    "A033917",
+    "A063524",
+    "A277537",
+    "A290023",
+    "A295027"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Call d a recursive divisor of n iff the p-adic valuation of d is a recursive divisor of the p-adic valuation of n for any prime p dividing d; a(n) gives the number of recursive divisors of n.",
+  "id": "A282446",
+  "mentions": [
+    "A000005",
+    "A004709",
+    "A014221",
+    "A049599",
+    "A182318"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

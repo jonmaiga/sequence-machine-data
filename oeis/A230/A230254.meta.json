@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to write n = p + q with p and (p+1)*q/2 + 1 both prime.",
+  "id": "A230254",
+  "mentions": [
+    "A000040",
+    "A002375",
+    "A219864",
+    "A227908",
+    "A227909",
+    "A230241",
+    "A230252"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

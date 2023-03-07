@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = minimal c>0 such that (n+1)^2+4*n*c = d^2 is a square.",
+  "id": "A105746",
+  "mentions": [
+    "A105734",
+    "A105745"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

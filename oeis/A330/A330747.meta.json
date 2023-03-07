@@ -1,0 +1,22 @@
+{
+  "description": "Number of values of k, 1 <= k <= n, with A049559(k) = A049559(n), where A049559(n) = gcd(n - 1, phi(n)).",
+  "id": "A330747",
+  "mentions": [
+    "A000010",
+    "A049559",
+    "A081373",
+    "A209211",
+    "A303756",
+    "A330756"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

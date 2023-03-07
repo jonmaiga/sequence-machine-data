@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that antisigma(x) = n has no solution, where antisigma(m) = A024816(m) = the sum of the nondivisors of m that are between 1 and m.",
+  "id": "A231369",
+  "mentions": [
+    "A007369",
+    "A024816",
+    "A231365",
+    "A231366",
+    "A231367",
+    "A231368"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

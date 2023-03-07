@@ -1,0 +1,20 @@
+{
+  "description": "Moebius transform of Jacobsthal numbers.",
+  "id": "A104723",
+  "mentions": [
+    "A001045",
+    "A027375",
+    "A309729"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

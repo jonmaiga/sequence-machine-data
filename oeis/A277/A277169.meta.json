@@ -1,0 +1,26 @@
+{
+  "description": "Product of squares of proper divisors of n.",
+  "id": "A277169",
+  "mentions": [
+    "A000005",
+    "A000290",
+    "A001248",
+    "A007422",
+    "A007955",
+    "A007956",
+    "A008578",
+    "A062758"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

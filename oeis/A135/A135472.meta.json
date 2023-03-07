@@ -1,0 +1,21 @@
+{
+  "description": "Shortest and lexicographically earliest string of decimal digits with property that when made into cycle every pair of digits from 0,0 to 9,9 can be seen exactly once.",
+  "id": "A135472",
+  "mentions": [
+    "A102167"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

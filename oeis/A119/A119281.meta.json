@@ -1,0 +1,22 @@
+{
+  "description": "Number of counting rods to represent n in the ancient Chinese rod numeral system.",
+  "id": "A119281",
+  "mentions": [
+    "A007953",
+    "A092196",
+    "A102677"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of binary trees of weight n where leaves have positive integer weights, where the order of subtrees is insignificant. Commutative non-associative version of partitions of n.",
+  "id": "A113822",
+  "mentions": [
+    "A000041",
+    "A007317"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

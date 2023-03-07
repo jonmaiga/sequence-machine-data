@@ -1,0 +1,23 @@
+{
+  "description": "Product of exactly 5 primes, 3 of which are distinct.",
+  "id": "A179642",
+  "mentions": [
+    "A006881",
+    "A007304",
+    "A085986",
+    "A085987",
+    "A178739",
+    "A179643",
+    "A189975"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

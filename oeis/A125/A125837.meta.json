@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose base 8 or octal representation is 6666666......6.",
+  "id": "A125837",
+  "mentions": [
+    "A001018",
+    "A023001",
+    "A024088"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

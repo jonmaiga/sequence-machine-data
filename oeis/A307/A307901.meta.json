@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 1/(1 - x * theta_4(x)), where theta_4() is the Jacobi theta function.",
+  "id": "A307901",
+  "mentions": [
+    "A002448",
+    "A015128",
+    "A032803",
+    "A299108"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

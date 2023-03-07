@@ -1,0 +1,19 @@
+{
+  "description": "Nearest integer to the variance of the number of tosses of a fair coin required to obtain at least n heads and n tails.",
+  "id": "A159062",
+  "mentions": [
+    "A159061"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

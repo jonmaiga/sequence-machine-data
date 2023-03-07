@@ -1,0 +1,30 @@
+{
+  "description": "Numbers in whose prime factorization the exponent of prime(k) is greater than k for all prime indices k.",
+  "id": "A325127",
+  "mentions": [
+    "A000720",
+    "A056239",
+    "A062457",
+    "A109298",
+    "A112798",
+    "A115584",
+    "A118914",
+    "A276078",
+    "A324524",
+    "A324525",
+    "A324571",
+    "A325128",
+    "A325130"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

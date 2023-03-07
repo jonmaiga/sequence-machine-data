@@ -1,0 +1,20 @@
+{
+  "description": "New numbers in A171922 in order of appearance.",
+  "id": "A171921",
+  "mentions": [
+    "A171922",
+    "A171926",
+    "A171927",
+    "A171930"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Numbers of the form (6^i)*(13^j), with i, j >= 0.",
+  "id": "A107710",
+  "mentions": [
+    "A025626",
+    "A025627",
+    "A025628",
+    "A025629",
+    "A064476",
+    "A107326",
+    "A107364",
+    "A107462",
+    "A107466",
+    "A108056",
+    "A108090"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number of balanced p-trees with n leaves.",
+  "id": "A316624",
+  "mentions": [
+    "A000311",
+    "A000669",
+    "A001678",
+    "A005804",
+    "A048816",
+    "A079500",
+    "A119262",
+    "A120803",
+    "A141268",
+    "A196545",
+    "A289501",
+    "A319312"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Records in 6-almost prime gaps ordered by merit.",
+  "id": "A114416",
+  "mentions": [
+    "A046306",
+    "A065516",
+    "A111870",
+    "A111871",
+    "A114403",
+    "A114406",
+    "A114411",
+    "A114412",
+    "A114422"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

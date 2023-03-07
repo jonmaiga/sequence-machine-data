@@ -1,0 +1,25 @@
+{
+  "description": "Sum of the minimum cycle length over all functions f:{1,2,...,n}->{1,2,...,n} (endofunctions).",
+  "id": "A208231",
+  "mentions": [
+    "A000169",
+    "A000312",
+    "A028417",
+    "A065440",
+    "A134362",
+    "A208230",
+    "A208248",
+    "A290932"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

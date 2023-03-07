@@ -1,0 +1,18 @@
+{
+  "description": "Number of length n arrays x(i), i=1..n with x(i) in 0..i and no value appearing more than 3 times",
+  "id": "A248837",
+  "mentions": [
+    "A135106",
+    "A248842"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

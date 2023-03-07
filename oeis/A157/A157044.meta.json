@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of partitions of n into exactly k parts, each <= k.",
+  "id": "A157044",
+  "mentions": [
+    "A000041",
+    "A047993",
+    "A064174",
+    "A157045",
+    "A157046"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

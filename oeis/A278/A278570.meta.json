@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = maximum absolute value of coefficients in the cyclotomic polynomial C(N,x), where N = n-th number which a product of three distinct odd primes = A046389(n).",
+  "id": "A278570",
+  "mentions": [
+    "A046389",
+    "A278567"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

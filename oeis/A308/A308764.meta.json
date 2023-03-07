@@ -1,0 +1,21 @@
+{
+  "description": "Table read by antidiagonals: T(n,k) is the smallest prime that differs from its predecessor and successor by 2n and 2k, respectively.",
+  "id": "A308764",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A054342"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

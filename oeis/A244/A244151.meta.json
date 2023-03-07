@@ -1,0 +1,20 @@
+{
+  "description": "0-additive sequence: start with a(1) = 2; thereafter, a(n) = smallest number not already in sequence which is not the sum of any previous two terms.",
+  "id": "A244151",
+  "mentions": [
+    "A033627",
+    "A047243"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:03:43",
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Iterates of f(x)=floor((3x-1)/2) from x=6.",
+  "id": "A183208",
+  "mentions": [
+    "A178931",
+    "A183207"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of z_tri, a constant related to the enumeration of spanning trees on the triangular lattice (this is different from A242968).",
+  "id": "A245725",
+  "mentions": [
+    "A242967",
+    "A242968",
+    "A242969"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

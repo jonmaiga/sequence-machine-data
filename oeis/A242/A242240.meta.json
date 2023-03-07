@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of Jacobi sn(x, 1/2) / cd(x, 1/2).",
+  "id": "A242240",
+  "mentions": [
+    "A104203"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (2 - (-1)^k)*binomial(n,k) (0 <= k <= n).",
+  "id": "A124846",
+  "mentions": [
+    "A010684",
+    "A046055",
+    "A124845"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

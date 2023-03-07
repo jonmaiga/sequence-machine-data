@@ -1,0 +1,21 @@
+{
+  "description": "Smallest order of a finite group with a commutator subgroup of order n.",
+  "id": "A340518",
+  "mentions": [
+    "A059807",
+    "A060793",
+    "A146992",
+    "A341293"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

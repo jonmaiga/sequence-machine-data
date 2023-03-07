@@ -1,0 +1,20 @@
+{
+  "description": "Number of prime factors of A116451.",
+  "id": "A116452",
+  "mentions": [
+    "A001222",
+    "A116451",
+    "A116453",
+    "A116454"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

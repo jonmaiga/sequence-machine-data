@@ -1,0 +1,30 @@
+{
+  "description": "P-defects p - N(p) of the congruence y^2 == x^3 - 1 (mod p) for primes p, where N(p) is the number of solutions given by A272202(n).",
+  "id": "A272203",
+  "mentions": [
+    "A000040",
+    "A000727",
+    "A001479",
+    "A001480",
+    "A002476",
+    "A045309",
+    "A187076",
+    "A272197",
+    "A272198",
+    "A272202",
+    "A272204",
+    "A272205"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

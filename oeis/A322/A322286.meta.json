@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers without 4 terms in a weakly increasing arithmetic progression.",
+  "id": "A322286",
+  "mentions": [
+    "A005837",
+    "A248641",
+    "A309890"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

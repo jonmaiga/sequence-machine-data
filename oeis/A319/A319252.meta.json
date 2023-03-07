@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations pi of [n] with k+1 valleys such that s(pi) avoids the patterns 132, 231, 312, and 321, where s denotes West's stack-sorting map (0 <= k <= floor((n-1)/2)).",
+  "id": "A319252",
+  "mentions": [
+    "A071721",
+    "A091894",
+    "A319251"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

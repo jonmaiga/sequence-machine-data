@@ -1,0 +1,20 @@
+{
+  "description": "Period of A022405 mod n.",
+  "id": "A166038",
+  "mentions": [
+    "A001175",
+    "A022405",
+    "A046738"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

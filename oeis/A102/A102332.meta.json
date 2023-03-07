@@ -1,0 +1,23 @@
+{
+  "description": "Initial prime p introducing a prime sextuplet of consecutive primes as follows:{p,p+10,p+18,p+28,p+36,p+46} with the corresponding prime-difference-pattern:{10,8,10,8,10}.",
+  "id": "A102332",
+  "mentions": [
+    "A001223",
+    "A022008",
+    "A047078",
+    "A052162",
+    "A052168",
+    "A067140",
+    "A067141"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:34",
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

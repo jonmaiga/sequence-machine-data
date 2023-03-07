@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of sqrt(34 - 2*sqrt(17))/4 = sqrt(9 - A222132)/2.",
+  "id": "A329592",
+  "mentions": [
+    "A222132",
+    "A329591"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:00:09",
+    "offset": 1,
+    "size": 96,
+    "source": "joeis"
+  }
+}

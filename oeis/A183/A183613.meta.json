@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = 3^^(n+1) modulo 10^n.",
+  "id": "A183613",
+  "mentions": [
+    "A133613"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; a(n) is the smallest positive number not among the terms a(n-c .. n-1) where c = the number of times a(n-1) has occurred.",
+  "id": "A358921",
+  "mentions": [
+    "A133622",
+    "A268696",
+    "A329985"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hear",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

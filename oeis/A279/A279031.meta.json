@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Product_{k>0} 1/(1 + x^k)^(k*3).",
+  "id": "A279031",
+  "mentions": [
+    "A027346",
+    "A074962",
+    "A255528",
+    "A278710",
+    "A279411"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

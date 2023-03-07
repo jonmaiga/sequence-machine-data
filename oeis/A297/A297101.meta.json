@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX7 0..1 arrays with no 1 adjacent to 4 king-move neighboring 1s.",
+  "id": "A297101",
+  "mentions": [
+    "A297102"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

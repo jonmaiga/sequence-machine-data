@@ -1,0 +1,21 @@
+{
+  "description": "First row of spectral array W(gamma+1).",
+  "id": "A250253",
+  "mentions": [
+    "A001620",
+    "A059555",
+    "A250254",
+    "A250255"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

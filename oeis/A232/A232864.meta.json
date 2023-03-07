@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of n elements not cyclically containing the consecutive pattern 123.",
+  "id": "A232864",
+  "mentions": [
+    "A049774",
+    "A080635"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

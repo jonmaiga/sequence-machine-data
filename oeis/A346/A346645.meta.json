@@ -1,0 +1,22 @@
+{
+  "description": "Mersenne prime exponents p which are twin primes, so p-2 and/or p+2 is prime.",
+  "id": "A346645",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A087858",
+    "A297674"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

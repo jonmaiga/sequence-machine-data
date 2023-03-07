@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that also p+30 and p-30 are primes.",
+  "id": "A161725",
+  "mentions": [
+    "A006489",
+    "A052243",
+    "A137796",
+    "A161723",
+    "A161724"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, square of an infinite lower triangular matrix with 1's in the first column and the rest 2's.",
+  "id": "A143593",
+  "mentions": [
+    "A000012",
+    "A056220"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

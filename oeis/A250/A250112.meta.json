@@ -1,0 +1,18 @@
+{
+  "description": "Number of symmetric primitive Lucas strings of length n.",
+  "id": "A250112",
+  "mentions": [
+    "A031367",
+    "A250113"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

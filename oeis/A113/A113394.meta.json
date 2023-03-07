@@ -1,0 +1,22 @@
+{
+  "description": "Triangle, read by rows, equal to the matrix cube of triangle A113389.",
+  "id": "A113394",
+  "mentions": [
+    "A091351",
+    "A113355",
+    "A113389",
+    "A113395"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

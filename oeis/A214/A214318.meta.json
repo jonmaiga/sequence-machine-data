@@ -1,0 +1,22 @@
+{
+  "description": "Replace the word A214317(n) with its position in A007931.",
+  "id": "A214318",
+  "mentions": [
+    "A003842",
+    "A003849",
+    "A007931",
+    "A182028",
+    "A214317"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

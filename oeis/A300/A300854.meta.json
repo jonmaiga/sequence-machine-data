@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest prime p = prime(k) such that A300845(k) = prime(n), or 0 if no such k exists.",
+  "id": "A300854",
+  "mentions": [
+    "A300845"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

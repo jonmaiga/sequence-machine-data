@@ -1,0 +1,21 @@
+{
+  "description": "Terms of A005132 corresponding to the values in A330788.",
+  "id": "A330789",
+  "mentions": [
+    "A005132",
+    "A064621",
+    "A064622",
+    "A330788"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

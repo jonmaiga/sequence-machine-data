@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that for all i, j: a(i) = a(j) => f(i) = f(j), where f(n) = A285722(n), except f(1) = -1.",
+  "id": "A331307",
+  "mentions": [
+    "A000027",
+    "A072030",
+    "A285722",
+    "A331305",
+    "A331306"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

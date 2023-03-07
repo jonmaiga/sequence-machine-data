@@ -1,0 +1,17 @@
+{
+  "description": "Class numbers h-tilde_n^{+} corresponding to the primes listed in A230869.",
+  "id": "A230870",
+  "mentions": [
+    "A230869"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Product_{n>=1} (1 + a(n)*x^n) = Sum_{n>=0} Bell(n)*x^n, where Bell = A000110.",
+  "id": "A353831",
+  "mentions": [
+    "A000110",
+    "A085686",
+    "A157161",
+    "A305846"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Primes that have both prime digits (2,3,5,7) and nonprime digits (1,4,6,8,9).",
+  "id": "A152427",
+  "mentions": [
+    "A000040",
+    "A018252",
+    "A019546",
+    "A034844",
+    "A087363",
+    "A092621",
+    "A092626",
+    "A152312",
+    "A152313",
+    "A152426"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

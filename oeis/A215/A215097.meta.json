@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = n^3 - a(n-2) for n >= 2 and a(0)=0, a(1)=1.",
+  "id": "A215097",
+  "mentions": [
+    "A000217",
+    "A011934",
+    "A107386",
+    "A125577",
+    "A153026",
+    "A187093",
+    "A194274",
+    "A206481"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:19:23",
+    "offset": 0,
+    "size": 44,
+    "source": "joeis"
+  }
+}

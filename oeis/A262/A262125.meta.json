@@ -1,0 +1,32 @@
+{
+  "description": "Number T(n,k) of permutations p of [n] such that the up-down signature of p has nonnegative partial sums with a maximal value of k; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A262125",
+  "mentions": [
+    "A000111",
+    "A000246",
+    "A258829",
+    "A262124",
+    "A262127",
+    "A320976",
+    "A320977",
+    "A320978",
+    "A320979",
+    "A320980",
+    "A320981",
+    "A320982",
+    "A320983",
+    "A320984"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

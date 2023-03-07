@@ -1,0 +1,20 @@
+{
+  "description": "a(n+1) = 2*a(n) + A014017(n+5), a(0) = 0.",
+  "id": "A191497",
+  "mentions": [
+    "A014017",
+    "A133145"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:19:53",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

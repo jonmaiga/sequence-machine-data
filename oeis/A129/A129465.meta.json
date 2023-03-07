@@ -1,0 +1,21 @@
+{
+  "description": "Third column (m=2) sequence of triangle A129462 (v=2 member of a certain family).",
+  "id": "A129465",
+  "mentions": [
+    "A129462",
+    "A129464",
+    "A129466"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

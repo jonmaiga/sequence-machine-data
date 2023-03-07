@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that all integers in the interval (n-2*sqrt(sqrt(n)), n] are composite.",
+  "id": "A192226",
+  "mentions": [
+    "A008995",
+    "A188817",
+    "A189025"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

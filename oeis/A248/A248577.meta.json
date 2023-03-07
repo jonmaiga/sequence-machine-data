@@ -1,0 +1,20 @@
+{
+  "description": "Product of the number of divisors of n and the number of distinct prime divisors of n; i.e., tau(n) * omega(n).",
+  "id": "A248577",
+  "mentions": [
+    "A000005",
+    "A001221"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:41:33",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

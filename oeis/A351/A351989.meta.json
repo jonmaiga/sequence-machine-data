@@ -1,0 +1,18 @@
+{
+  "description": "Fibonacci(p-J(p,5)) mod p^3, where p is the n-th prime and J is the Jacobi symbol.",
+  "id": "A351989",
+  "mentions": [
+    "A113650"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 2 0..4 arrays with each element x equal to the number its horizontal and vertical neighbors equal to 0,0,1,1,1 for x=0,1,2,3,4.",
+  "id": "A197244",
+  "mentions": [
+    "A197250"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

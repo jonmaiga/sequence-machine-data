@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 3; for n >= 2, a(n) is the smallest prime q > a(n-1) such that, for the previous prime p and the following prime r, the fraction (q-p)/(r-q) has denominator equal to A001223(n)/2 (or 0, if no such prime exists).",
+  "id": "A178942",
+  "mentions": [
+    "A001223",
+    "A168253",
+    "A179210",
+    "A179234",
+    "A179240",
+    "A179328"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

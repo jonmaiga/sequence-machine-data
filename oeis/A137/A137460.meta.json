@@ -1,0 +1,20 @@
+{
+  "description": "Prime numbers k such that k^2 +- (k+1) are primes.",
+  "id": "A137460",
+  "mentions": [
+    "A053182",
+    "A091567"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

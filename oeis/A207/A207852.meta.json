@@ -1,0 +1,17 @@
+{
+  "description": "Smallest number m such that there are exactly n ways to partition the numbers {1,...,m} into nonempty sets P and S with the product of the elements of P equal to the sum of elements in S.",
+  "id": "A207852",
+  "mentions": [
+    "A178830"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

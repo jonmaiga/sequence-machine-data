@@ -1,0 +1,26 @@
+{
+  "description": "T(n,k) is the index within the partitions of n in canonical ordering of the k-th partition whose parts differ pairwise by at most one.",
+  "id": "A330661",
+  "mentions": [
+    "A000041",
+    "A027750",
+    "A063008",
+    "A080577",
+    "A216053",
+    "A238639",
+    "A238640",
+    "A332706"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Perfect powers m^k, k >= 2 that are palindromes while m is not a palindrome.",
+  "id": "A348319",
+  "mentions": [
+    "A001597",
+    "A002113",
+    "A002778",
+    "A002780",
+    "A028818",
+    "A059745",
+    "A060087",
+    "A075786",
+    "A251673",
+    "A348320"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Square of A(n,m) read by antidiagonals. A(n,m) = number of set partitions of [5n] into 5-element subsets {i, i+k, i+2k, i+3k, i+4k} with 1 <= k <= m.",
+  "id": "A360491",
+  "mentions": [
+    "A000012",
+    "A000045",
+    "A000073",
+    "A104431",
+    "A104443",
+    "A349430",
+    "A360333",
+    "A360335",
+    "A360492",
+    "A360493"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

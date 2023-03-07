@@ -1,0 +1,22 @@
+{
+  "description": "Sum_{i=0..n-1} i*(n^(i+1)-1)/(n-1)*n^(i(i+1)/2).",
+  "id": "A218559",
+  "mentions": [
+    "A031948",
+    "A167819",
+    "A182040",
+    "A210666",
+    "A218556"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

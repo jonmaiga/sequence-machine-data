@@ -1,0 +1,17 @@
+{
+  "description": "Number of lower triangles of an n X n integer array with each element differing from all of its diagonal, vertical, antidiagonal and horizontal neighbors by 6 or less and triangles differing by a constant counted only once",
+  "id": "A195218",
+  "mentions": [
+    "A195220"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

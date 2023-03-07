@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = 1 / (1 + x - 2 * x * A(2*x)).",
+  "id": "A348901",
+  "mentions": [
+    "A001003",
+    "A015083",
+    "A348188",
+    "A348902"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

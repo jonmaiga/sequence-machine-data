@@ -1,0 +1,25 @@
+{
+  "description": "Base 3 \"Punctual Bird\" numbers: write the natural numbers, base 3, in a string 12101112202122100101102... Sequence gives numbers which do not occur in the string ahead of their natural place.",
+  "id": "A132134",
+  "mentions": [
+    "A033307",
+    "A116700",
+    "A117804",
+    "A131881",
+    "A132131",
+    "A132132",
+    "A132133",
+    "A132135"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

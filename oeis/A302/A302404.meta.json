@@ -1,0 +1,22 @@
+{
+  "description": "Total domination number of the n-Moebius ladder.",
+  "id": "A302404",
+  "mentions": [
+    "A295420",
+    "A301337",
+    "A302405",
+    "A303046"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

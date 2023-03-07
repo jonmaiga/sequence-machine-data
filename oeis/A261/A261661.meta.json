@@ -1,0 +1,19 @@
+{
+  "description": "Numbers in A261660 converted to base 10.",
+  "id": "A261661",
+  "mentions": [
+    "A261660",
+    "A261662"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

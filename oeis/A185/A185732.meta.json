@@ -1,0 +1,30 @@
+{
+  "description": "Accumulation array of the polygonal number array (A086270), by antidiagonals.",
+  "id": "A185732",
+  "mentions": [
+    "A000027",
+    "A000096",
+    "A000292",
+    "A002411",
+    "A006002",
+    "A055999",
+    "A059270",
+    "A067728",
+    "A086270",
+    "A144112",
+    "A177814",
+    "A185733"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

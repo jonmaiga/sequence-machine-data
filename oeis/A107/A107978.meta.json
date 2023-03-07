@@ -1,0 +1,25 @@
+{
+  "description": "Products of two primes of the form 4n+3 (A002145).",
+  "id": "A107978",
+  "mentions": [
+    "A001358",
+    "A002145",
+    "A080109",
+    "A080774",
+    "A121387",
+    "A121388",
+    "A131574"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

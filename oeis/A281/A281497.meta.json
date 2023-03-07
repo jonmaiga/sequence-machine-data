@@ -1,0 +1,22 @@
+{
+  "description": "Write n in binary reflected Gray code and sum the positions where there is a '1' followed immediately to the left by a '0', counting the rightmost digit as position 1.",
+  "id": "A281497",
+  "mentions": [
+    "A003188",
+    "A014550",
+    "A049502",
+    "A281388"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-bfile"
+  }
+}

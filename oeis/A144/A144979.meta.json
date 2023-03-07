@@ -1,0 +1,19 @@
+{
+  "description": "Number of hyperforests on n unlabeled nodes, assuming that each edge contains at least two nodes, with all components of prime orders.",
+  "id": "A144979",
+  "mentions": [
+    "A000040",
+    "A035053"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

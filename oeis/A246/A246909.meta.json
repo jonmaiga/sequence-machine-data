@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = the smallest numbers k such that sigma(k+sigma(k)) = n* sigma(k) or -1 if no solution exists or has been found for n.",
+  "id": "A246909",
+  "mentions": [
+    "A000203",
+    "A246857",
+    "A246910",
+    "A246911",
+    "A246912",
+    "A246913",
+    "A246914"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

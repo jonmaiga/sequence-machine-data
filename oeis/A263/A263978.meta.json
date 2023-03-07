@@ -1,0 +1,23 @@
+{
+  "description": "Least prime p such that n^2 + p^2 is prime, or 0 if none.",
+  "id": "A263978",
+  "mentions": [
+    "A240130",
+    "A240131",
+    "A263466",
+    "A263721",
+    "A263722",
+    "A263726",
+    "A263977"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

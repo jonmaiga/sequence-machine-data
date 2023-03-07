@@ -1,0 +1,19 @@
+{
+  "description": "The average Wiener index of the set of all fibonacenes with n hexagons.",
+  "id": "A245969",
+  "mentions": [
+    "A005418"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:41:49",
+    "offset": 3,
+    "size": 38,
+    "source": "joeis"
+  }
+}

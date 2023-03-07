@@ -1,0 +1,22 @@
+{
+  "description": "Pseudoperfect (or semiperfect) k-brilliant numbers for some k>1: some set of proper divisors of a(n) sums to a(n) and a(n) = p(1)p(2)...p(m) for primes all with the same number of digits.",
+  "id": "A100715",
+  "mentions": [
+    "A001358",
+    "A005835",
+    "A078972"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

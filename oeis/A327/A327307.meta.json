@@ -1,0 +1,20 @@
+{
+  "description": "Positions of 0's in {A327306(n) : n > 0}.",
+  "id": "A327307",
+  "mentions": [
+    "A327306",
+    "A327308",
+    "A327309"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

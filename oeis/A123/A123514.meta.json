@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of involutions of {1,2,...,n} with exactly k fixed points and which contain the pattern 321 exactly once (n>=3; 1<=k<=n-2).",
+  "id": "A123514",
+  "mentions": [
+    "A003517",
+    "A112554",
+    "A123515",
+    "A191389"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 3,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

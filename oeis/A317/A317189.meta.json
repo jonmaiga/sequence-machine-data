@@ -1,0 +1,21 @@
+{
+  "description": "A morphic sequence related to the ternary Thue-Morse sequence.",
+  "id": "A317189",
+  "mentions": [
+    "A007413",
+    "A036577",
+    "A036580",
+    "A316826"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

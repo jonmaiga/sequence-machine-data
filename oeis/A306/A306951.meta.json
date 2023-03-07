@@ -1,0 +1,21 @@
+{
+  "description": "Number of weird numbers (A006037) below 10^n.",
+  "id": "A306951",
+  "mentions": [
+    "A006037",
+    "A275487",
+    "A275491",
+    "A302992"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Unitary phibonacci numbers: solutions k of the equation uphi(k) = uphi(k-1) + uphi(k-2), where uphi(k) is the unitary totient function (A047994).",
+  "id": "A292033",
+  "mentions": [
+    "A047994",
+    "A065557"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

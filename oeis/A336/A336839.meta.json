@@ -1,0 +1,35 @@
+{
+  "description": "Denominator of the arithmetic mean of the divisors of A003961(n).",
+  "id": "A336839",
+  "mentions": [
+    "A000005",
+    "A000225",
+    "A003961",
+    "A003973",
+    "A007814",
+    "A052940",
+    "A057021",
+    "A295664",
+    "A336837",
+    "A336838",
+    "A336840",
+    "A336841",
+    "A336856",
+    "A336918",
+    "A336919",
+    "A336931",
+    "A336932"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

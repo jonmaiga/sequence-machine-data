@@ -1,0 +1,32 @@
+{
+  "description": "Galton triangle T(n, k) = T(n-1, k-1) + (3k-2)*T(n-1, k) read by rows.",
+  "id": "A111577",
+  "mentions": [
+    "A007318",
+    "A008277",
+    "A016777",
+    "A039755",
+    "A075498",
+    "A105794",
+    "A143395",
+    "A143494",
+    "A154537",
+    "A225117",
+    "A225468",
+    "A282629",
+    "A284861"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:46",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

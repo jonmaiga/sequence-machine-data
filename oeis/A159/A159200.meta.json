@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{k >= 1} (1/(10^(4*k + 2) - 1)) - (1/(10^(2*k + 1) - 1)), negated.",
+  "id": "A159200",
+  "mentions": [
+    "A000005",
+    "A000027",
+    "A059193",
+    "A073668"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of same-sized pairs of subsets of set of n numbers that might have the same sum.",
+  "id": "A304011",
+  "mentions": [
+    "A002054"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

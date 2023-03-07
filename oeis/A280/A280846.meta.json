@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that all four of the numbers 2^k +- 2k +- 1 are nonprime.",
+  "id": "A280846",
+  "mentions": [
+    "A061761",
+    "A105330",
+    "A163115",
+    "A173168"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

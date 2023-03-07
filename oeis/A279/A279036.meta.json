@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions p of n that contain a proper partition of the maximal part of p.",
+  "id": "A279036",
+  "mentions": [
+    "A000041"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-2*k)^k * Stirling1(n,k).",
+  "id": "A351275",
+  "mentions": [
+    "A351274",
+    "A351277"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

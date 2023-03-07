@@ -1,0 +1,24 @@
+{
+  "description": "Transposed Ludic array.",
+  "id": "A255129",
+  "mentions": [
+    "A002260",
+    "A003309",
+    "A004736",
+    "A005843",
+    "A255127",
+    "A255130",
+    "A255410"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

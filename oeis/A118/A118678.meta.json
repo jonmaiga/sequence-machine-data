@@ -1,0 +1,25 @@
+{
+  "description": "Primitive orders of cyclotomic polynomials containing a coefficient with absolute value >= 2.",
+  "id": "A118678",
+  "mentions": [
+    "A013590",
+    "A117223",
+    "A117318",
+    "A152940",
+    "A152941",
+    "A152942",
+    "A152943",
+    "A152955",
+    "A154430"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

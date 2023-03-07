@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Knuth's Fibonacci (or circle) product \"2 o n\".",
+  "id": "A101345",
+  "mentions": [
+    "A000201",
+    "A014417",
+    "A026274",
+    "A035337",
+    "A095085",
+    "A101330",
+    "A101642"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

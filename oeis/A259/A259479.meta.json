@@ -1,0 +1,23 @@
+{
+  "description": "Skew diagrams, both connected or not.",
+  "id": "A259479",
+  "mentions": [
+    "A006958",
+    "A161492",
+    "A227309",
+    "A259478",
+    "A259480",
+    "A259481"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

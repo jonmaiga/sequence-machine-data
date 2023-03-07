@@ -1,0 +1,18 @@
+{
+  "description": "Total number of words beginning with the first letter of an n-ary alphabet in all multisets of nonempty words with a total of n letters.",
+  "id": "A292873",
+  "mentions": [
+    "A252654",
+    "A292845"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

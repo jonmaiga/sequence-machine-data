@@ -1,0 +1,24 @@
+{
+  "description": "Combinatorial triangle !n. This table read by rows gives the coefficients of general sum formulas of n-th left factorials (A003422). The k-th row (k>=1) contains T(i,k) for i=1 to 2*k and k=1 to n-2, where T(i,k) satisfies !n = n + Sum_{k=1..n-2} Sum_{i=1..2*k} T(i,k) * C(n-k-1,i).",
+  "id": "A102639",
+  "mentions": [
+    "A003422",
+    "A008276",
+    "A094216",
+    "A094638",
+    "A101752",
+    "A102411",
+    "A102412"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

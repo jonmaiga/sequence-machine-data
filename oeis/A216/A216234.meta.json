@@ -1,0 +1,18 @@
+{
+  "description": "Cumulated number of increasing admissible cuts of rooted plane trees of size n.",
+  "id": "A216234",
+  "mentions": [
+    "A007852"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:01:21",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

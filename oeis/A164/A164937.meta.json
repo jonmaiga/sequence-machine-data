@@ -1,0 +1,27 @@
+{
+  "description": "Near-repdigit primes.",
+  "id": "A164937",
+  "mentions": [
+    "A065074",
+    "A105975",
+    "A105976",
+    "A105977",
+    "A105978",
+    "A105979",
+    "A105980",
+    "A105981",
+    "A105982",
+    "A105992"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

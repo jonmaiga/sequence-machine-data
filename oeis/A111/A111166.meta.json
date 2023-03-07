@@ -1,0 +1,18 @@
+{
+  "description": "Let p < q be consecutive primes; p is in the sequence if p/(q-p) is a record.",
+  "id": "A111166",
+  "mentions": [
+    "A001359"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

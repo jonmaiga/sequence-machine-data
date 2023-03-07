@@ -1,0 +1,31 @@
+{
+  "description": "Dirichlet g.f.: zeta(2*s) / zeta(s)^3.",
+  "id": "A326415",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A001222",
+    "A007427",
+    "A007428",
+    "A008683",
+    "A008836",
+    "A010052",
+    "A034444",
+    "A046951",
+    "A048691",
+    "A158522"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

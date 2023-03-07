@@ -1,0 +1,17 @@
+{
+  "description": "Let a(1) = 3. For n > 1, a(n) is the smallest prime p > a(n-1) such that q = (a(n-1) + p)/4 is prime.",
+  "id": "A191473",
+  "mentions": [
+    "A126938"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

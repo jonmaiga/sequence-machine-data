@@ -1,0 +1,21 @@
+{
+  "description": "Midpoints k of a pair of twin primes such that sigma(k) is also the midpoint of a pair of twin primes.",
+  "id": "A349981",
+  "mentions": [
+    "A000203",
+    "A014574",
+    "A068017",
+    "A202607"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

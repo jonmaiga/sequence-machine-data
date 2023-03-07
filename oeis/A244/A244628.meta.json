@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers n such that n == 3 (mod 8) and 2^((n-1)/2) == -1 (mod n).",
+  "id": "A244628",
+  "mentions": [
+    "A003629",
+    "A007520",
+    "A070179",
+    "A175865",
+    "A294912"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

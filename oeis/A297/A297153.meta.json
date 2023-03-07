@@ -1,0 +1,24 @@
+{
+  "description": "Reversing binary representation of A083254(n), 2*phi(n) - n.",
+  "id": "A297153",
+  "mentions": [
+    "A000010",
+    "A048724",
+    "A065620",
+    "A065621",
+    "A083254",
+    "A295881",
+    "A297154"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

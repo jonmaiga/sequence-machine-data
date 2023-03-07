@@ -1,0 +1,21 @@
+{
+  "description": "Record high values in A350877.",
+  "id": "A350619",
+  "mentions": [
+    "A350615",
+    "A350616",
+    "A350617",
+    "A350618",
+    "A350877"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

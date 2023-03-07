@@ -1,0 +1,19 @@
+{
+  "description": "Array read by antidiagonals: a(n,m) = the number of digits of m is when written in base n. The top row is the number of digits for each m in base 1.",
+  "id": "A162319",
+  "mentions": [
+    "A162320"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

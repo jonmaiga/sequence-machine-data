@@ -1,0 +1,21 @@
+{
+  "description": "Number of (n - 6)-dissections of an n-gon (equivalently, the number of three-dimensional faces of the (n-3)-dimensional associahedron) modulo the cyclic action.",
+  "id": "A220882",
+  "mentions": [
+    "A003444",
+    "A003445",
+    "A003450",
+    "A220881"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 6,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

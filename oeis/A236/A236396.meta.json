@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of rooted labeled trees with n nodes and height <= k, for n >= 1, 0 <= k <= n-1.",
+  "id": "A236396",
+  "mentions": [
+    "A001854",
+    "A034855",
+    "A234953",
+    "A235595"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

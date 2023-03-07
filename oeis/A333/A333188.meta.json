@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = [2^n csc(1/n)] - [2^n cot(1/n)], where [ ] = floor.",
+  "id": "A333188",
+  "mentions": [
+    "A333186",
+    "A333187",
+    "A333189"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:35:28",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

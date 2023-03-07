@@ -1,0 +1,24 @@
+{
+  "description": "Triangle of numbers T(n,k) = floor((A089072(n,k)-A019538(n,k))/A019538(n,k)) read by rows, n>=1, 1<=k<=n.",
+  "id": "A344118",
+  "mentions": [
+    "A008277",
+    "A008292",
+    "A019538",
+    "A028246",
+    "A089072"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array of numbers of 2-polymatroids of rank k on n labeled points, for n>=0, 0<=k<=2n.",
+  "id": "A256158",
+  "mentions": [
+    "A058669",
+    "A256156",
+    "A256157",
+    "A256159"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

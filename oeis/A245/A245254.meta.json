@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of U = Product_{k>=1} (k^(1/(k*(k+1)))), a Khintchine-like limiting constant related to Lüroth's representation of real numbers.",
+  "id": "A245254",
+  "mentions": [
+    "A002210",
+    "A085291",
+    "A085361",
+    "A131688",
+    "A242624",
+    "A244109"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

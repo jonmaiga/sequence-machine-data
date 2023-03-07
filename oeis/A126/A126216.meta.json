@@ -1,0 +1,35 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Schroeder paths of semilength n containing exactly k peaks but no peaks at level one (n >= 1; 0 <= k <= n-1).",
+  "id": "A126216",
+  "mentions": [
+    "A000108",
+    "A001263",
+    "A002054",
+    "A002055",
+    "A002056",
+    "A007160",
+    "A033280",
+    "A033281",
+    "A033282",
+    "A084938",
+    "A086810",
+    "A126120",
+    "A126182",
+    "A133437",
+    "A181289",
+    "A243660",
+    "A243661"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

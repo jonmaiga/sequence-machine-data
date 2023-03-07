@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that (2*k)!/(2*(k!)^2) - 1 is prime.",
+  "id": "A112861",
+  "mentions": [
+    "A001700",
+    "A066699",
+    "A066726",
+    "A112853",
+    "A112855",
+    "A112862",
+    "A112863"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

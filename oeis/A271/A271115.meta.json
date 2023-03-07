@@ -1,0 +1,24 @@
+{
+  "description": "Numbers whose square is a chiliagonal (or 1000-gonal) number.",
+  "id": "A271115",
+  "mentions": [
+    "A000290",
+    "A010888",
+    "A131598",
+    "A195163",
+    "A271105",
+    "A271470"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

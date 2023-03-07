@@ -1,0 +1,18 @@
+{
+  "description": "Smallest m > 1 such that m^m == 1 (mod n).",
+  "id": "A268466",
+  "mentions": [
+    "A002322",
+    "A065190"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

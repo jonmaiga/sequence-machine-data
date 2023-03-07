@@ -1,0 +1,30 @@
+{
+  "description": "Multifactorial array read by ascending antidiagonals.",
+  "id": "A114423",
+  "mentions": [
+    "A000142",
+    "A006882",
+    "A007661",
+    "A007662",
+    "A085157",
+    "A085158",
+    "A114799",
+    "A114800",
+    "A114806",
+    "A129116",
+    "A288327"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:43:49",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

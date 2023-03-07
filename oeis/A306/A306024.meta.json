@@ -1,0 +1,32 @@
+{
+  "description": "Number A(n,k) of length-n restricted growth strings (RGS) with growth <= k and first element in [k]; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A306024",
+  "mentions": [
+    "A000007",
+    "A000110",
+    "A002872",
+    "A305962",
+    "A306025",
+    "A306026",
+    "A306027",
+    "A306028",
+    "A306029",
+    "A306030",
+    "A306031",
+    "A306032",
+    "A306033",
+    "A306034"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

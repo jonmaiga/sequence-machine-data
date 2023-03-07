@@ -1,0 +1,20 @@
+{
+  "description": "Table T(m,n) = round( c(m,n)/2 ), where c(m,n) is the concatenation of all preceding terms in row m, T(m,1)...T(m,n-1) and T(m,1)=m.",
+  "id": "A156146",
+  "mentions": [
+    "A156147"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

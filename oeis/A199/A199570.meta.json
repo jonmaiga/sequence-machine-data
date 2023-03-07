@@ -1,0 +1,21 @@
+{
+  "description": "Table, each row contains the previous sequence in odd columns and the row number in even columns.",
+  "id": "A199570",
+  "mentions": [
+    "A025192",
+    "A070940"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "changed",
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

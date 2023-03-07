@@ -1,0 +1,22 @@
+{
+  "description": "Loxton-van der Poorten sequence: base-4 representation contains only -1, 0, +1, converted to ordinary base-4 digits 0,1,2,3.",
+  "id": "A344892",
+  "mentions": [
+    "A006288",
+    "A007090",
+    "A344893"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

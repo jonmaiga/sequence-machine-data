@@ -1,0 +1,18 @@
+{
+  "description": "Indices of records in A109812.",
+  "id": "A352204",
+  "mentions": [
+    "A109812",
+    "A352203"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = ceiling( Pi^(n/3) ).",
+  "id": "A212463",
+  "mentions": [
+    "A102475",
+    "A102477",
+    "A212464"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Minimal near-Wieferich A-value (absolute) for all primes in the interval [10^n, 10^(n+1)].",
+  "id": "A306885",
+  "mentions": [
+    "A001220",
+    "A258367"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

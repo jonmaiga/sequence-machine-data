@@ -1,0 +1,20 @@
+{
+  "description": "Maximal numbers of consecutive positive integers congruent to 1 modulo 3 that are all squarefree.",
+  "id": "A264843",
+  "mentions": [
+    "A005117",
+    "A264778",
+    "A264779",
+    "A264840"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

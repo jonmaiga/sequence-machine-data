@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the largest term in period of continued fraction expansion of square root of n!.",
+  "id": "A218088",
+  "mentions": [
+    "A078160"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 2,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

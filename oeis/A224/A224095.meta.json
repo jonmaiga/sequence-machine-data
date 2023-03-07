@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of poly-Cauchy numbers c_n^(2).",
+  "id": "A224095",
+  "mentions": [
+    "A006232",
+    "A222627",
+    "A224094"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "changed",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

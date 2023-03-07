@@ -1,0 +1,18 @@
+{
+  "description": "Number of fixed polyominoes without holes that have a width and height of n.",
+  "id": "A293261",
+  "mentions": [
+    "A232103",
+    "A268404"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Size of the largest subset of the cyclic group of order n which does not contain a nontrivial 3-term arithmetic progression.",
+  "id": "A304884",
+  "mentions": [
+    "A003002"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

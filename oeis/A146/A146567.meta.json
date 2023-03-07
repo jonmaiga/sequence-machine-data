@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that n*sigma_0(n)/(n+sigma_0(n)) = c, c an integer.",
+  "id": "A146567",
+  "mentions": [
+    "A000005",
+    "A000027",
+    "A034884",
+    "A152491"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

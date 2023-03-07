@@ -1,0 +1,21 @@
+{
+  "description": "Numerator of Sum[ i^3/(n-i+1)^2, {i,1,n}].",
+  "id": "A119782",
+  "mentions": [
+    "A001008",
+    "A007406",
+    "A027612"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

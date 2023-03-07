@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n for which A075167(n) <> A252464(n).",
+  "id": "A253782",
+  "mentions": [
+    "A013929",
+    "A075167",
+    "A185359",
+    "A252464",
+    "A253781"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

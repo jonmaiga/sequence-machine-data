@@ -1,0 +1,39 @@
+{
+  "description": "Node-height of the rooted tree with Matula-Goebel number n. Number of nodes in the longest path from root to leaf.",
+  "id": "A358552",
+  "mentions": [
+    "A000040",
+    "A000081",
+    "A000108",
+    "A000720",
+    "A001222",
+    "A001263",
+    "A007097",
+    "A034781",
+    "A055277",
+    "A056239",
+    "A061775",
+    "A080936",
+    "A109082",
+    "A109129",
+    "A112798",
+    "A196050",
+    "A206487",
+    "A342507",
+    "A358379",
+    "A358576",
+    "A358589",
+    "A358592"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

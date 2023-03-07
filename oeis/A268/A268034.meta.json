@@ -1,0 +1,22 @@
+{
+  "description": "A268032 with repeated 1's removed.",
+  "id": "A268034",
+  "mentions": [
+    "A000071",
+    "A001045",
+    "A035612",
+    "A035614",
+    "A085358",
+    "A268032"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Fastest growing sequence of primes satisfying Goldbach's conjecture.",
+  "id": "A118371",
+  "mentions": [
+    "A105170"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

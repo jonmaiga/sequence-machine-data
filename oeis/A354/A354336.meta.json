@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the integer w such that (L(2*n)^2, -L(2*n-1)^2, -w) is a primitive solution to the Diophantine equation 2*x^3 + 2*y^3 + z^3 = 125, where L(n) is the n-th Lucas number (A000032).",
+  "id": "A354336",
+  "mentions": [
+    "A000032",
+    "A002878",
+    "A005248",
+    "A017281",
+    "A056914",
+    "A081015",
+    "A092521",
+    "A337928",
+    "A354337"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

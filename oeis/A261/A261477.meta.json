@@ -1,0 +1,31 @@
+{
+  "description": "Number T(n,k) of set partitions of [n] into exactly k parts such that no part contains two elements with a circular distance less than three; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A261477",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A063524",
+    "A079978",
+    "A185012",
+    "A261478",
+    "A261479",
+    "A261480",
+    "A261481",
+    "A261482",
+    "A261483",
+    "A261484",
+    "A261485",
+    "A261486"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

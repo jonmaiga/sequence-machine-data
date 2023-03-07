@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n such that 2*(least part) >= greatest part.",
+  "id": "A237824",
+  "mentions": [
+    "A053263",
+    "A118096",
+    "A237820",
+    "A237821"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

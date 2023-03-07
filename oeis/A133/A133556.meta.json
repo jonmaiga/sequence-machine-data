@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X n binary matrices with every 1 diagonally or antidiagonally adjacent to some 0.",
+  "id": "A133556",
+  "mentions": [
+    "A133515",
+    "A133791"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

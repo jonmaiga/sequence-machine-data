@@ -1,0 +1,21 @@
+{
+  "description": "Records in A175046 (but written in base 2).",
+  "id": "A319424",
+  "mentions": [
+    "A175046",
+    "A175406",
+    "A319422",
+    "A319423"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

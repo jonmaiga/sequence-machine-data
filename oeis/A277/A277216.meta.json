@@ -1,0 +1,22 @@
+{
+  "description": "Product of decimal digits of sum of divisors of n.",
+  "id": "A277216",
+  "mentions": [
+    "A000203",
+    "A007954",
+    "A067342",
+    "A277217"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:28:13",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

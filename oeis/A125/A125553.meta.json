@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = S1(n,k)*2^k, where S1(n,k) is an unsigned Stirling number of the first kind (cf. A008275) (n >= 1, 1 <= k <= n).",
+  "id": "A125553",
+  "mentions": [
+    "A008275",
+    "A084938",
+    "A208529",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

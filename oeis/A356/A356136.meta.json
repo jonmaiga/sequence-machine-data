@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number k > 1 such that, in the interval 1..k, there are as many integers that have exactly 2n divisors as there are primes (or -1 if no such number exists).",
+  "id": "A356136",
+  "mentions": [
+    "A000010"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

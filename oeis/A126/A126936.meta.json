@@ -1,0 +1,26 @@
+{
+  "description": "Coefficients of a polynomial representation of the integral of 1/(x^4 + 2*a*x^2 + 1)^(n+1) from x = 0 to infinity.",
+  "id": "A126936",
+  "mentions": [
+    "A002458",
+    "A004982",
+    "A059304",
+    "A067001",
+    "A223549",
+    "A223550",
+    "A334907"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

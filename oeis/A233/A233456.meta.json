@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that n^10 starts with n itself (in base 10).",
+  "id": "A233456",
+  "mentions": [
+    "A052210",
+    "A052211",
+    "A233451",
+    "A233452",
+    "A233453",
+    "A233454",
+    "A233455"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:33:53",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

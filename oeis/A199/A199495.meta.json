@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of [n] starting and ending with an odd number.",
+  "id": "A199495",
+  "mentions": [
+    "A052618",
+    "A077611",
+    "A152887"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

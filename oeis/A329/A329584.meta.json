@@ -1,0 +1,22 @@
+{
+  "description": "phi(A327922(n))/4, for n >= 1, with phi = A000010 (Euler's totient).",
+  "id": "A329584",
+  "mentions": [
+    "A000010",
+    "A055034",
+    "A062570",
+    "A327922"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

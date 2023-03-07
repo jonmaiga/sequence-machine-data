@@ -1,0 +1,19 @@
+{
+  "description": "Primes p that become composite when any nonzero decimal digit is appended or deleted on the right or left of p.",
+  "id": "A226144",
+  "mentions": [
+    "A050249"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

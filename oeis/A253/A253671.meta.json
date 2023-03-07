@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = floor(A000111(n)/A000111(n-1)).",
+  "id": "A253671",
+  "mentions": [
+    "A000111",
+    "A010727",
+    "A017005",
+    "A017029",
+    "A017053"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:54:35",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

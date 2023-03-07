@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that the sum of the residues (mod k) of their aliquot parts is equal to n, for some 1 <= k <= n.",
+  "id": "A273124",
+  "mentions": [
+    "A265646"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

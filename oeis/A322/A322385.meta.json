@@ -1,0 +1,28 @@
+{
+  "description": "2 and prime numbers whose prime index is a product of at least two not necessarily distinct prime numbers already in the sequence.",
+  "id": "A322385",
+  "mentions": [
+    "A000002",
+    "A001462",
+    "A007097",
+    "A079000",
+    "A079254",
+    "A112798",
+    "A277098",
+    "A280996",
+    "A291636",
+    "A304360",
+    "A320628",
+    "A322386"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor(sqrt(2*n-1) + 1/2) - abs(2*(n-1) - (floor(sqrt(2*n-1) + 1/2))^2) + 1.",
+  "id": "A274773",
+  "mentions": [
+    "A004738",
+    "A005408"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

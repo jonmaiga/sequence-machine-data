@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest sequence of increasing 9-digit zeroless anagrams that share no common digit place with previous terms.",
+  "id": "A175547",
+  "mentions": [
+    "A050289",
+    "A112454",
+    "A114288"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

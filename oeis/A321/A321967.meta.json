@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows, T(n,k) = binomial(-k-n-1, -2*n-1)*E1(k+n, n), E1 the Eulerian numbers A173018, for n >= 0 and 0 <= k <= n.",
+  "id": "A321967",
+  "mentions": [
+    "A001791",
+    "A046739",
+    "A173018",
+    "A180056",
+    "A271697",
+    "A320337"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

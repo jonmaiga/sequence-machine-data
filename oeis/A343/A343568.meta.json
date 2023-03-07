@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{d|n} (n/d)^(n/d) * binomial(d+n-1,n).",
+  "id": "A343568",
+  "mentions": [
+    "A343549",
+    "A343567"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

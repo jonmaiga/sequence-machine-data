@@ -1,0 +1,19 @@
+{
+  "description": "Number of essentially series nonequivalent series-parallel networks with n elements and without unit elements in parallel.",
+  "id": "A339151",
+  "mentions": [
+    "A000669",
+    "A339152",
+    "A339153"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

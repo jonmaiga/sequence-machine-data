@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that the delta(m) = abs(sigma(m+1)/(m+1) - sigma(m)/(m)) is smaller than delta(k) for all k < m.",
+  "id": "A335071",
+  "mentions": [
+    "A000203",
+    "A002961",
+    "A017665",
+    "A017666"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

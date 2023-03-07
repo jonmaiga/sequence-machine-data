@@ -1,0 +1,35 @@
+{
+  "description": "Numbers > 1 whose maximum prime exponent is one greater than their minimum.",
+  "id": "A325241",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A001694",
+    "A051903",
+    "A051904",
+    "A052485",
+    "A054753",
+    "A056239",
+    "A059956",
+    "A062977",
+    "A088453",
+    "A096156",
+    "A112798",
+    "A118914",
+    "A325240",
+    "A325259",
+    "A325270",
+    "A325279"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

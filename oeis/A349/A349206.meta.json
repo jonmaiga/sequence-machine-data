@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the side length of the simple perfect squared square of order n leading to a maximum of the ratio of the side length of its smallest element A349205(n) to its total side length.",
+  "id": "A349206",
+  "mentions": [
+    "A006983",
+    "A129947",
+    "A217149",
+    "A228953",
+    "A349205",
+    "A349207",
+    "A349208",
+    "A349209",
+    "A349210"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 21,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Möbius (or Moebius) partition function of partitions in graded reverse lexicographic ordering.",
+  "id": "A286755",
+  "mentions": [
+    "A080577",
+    "A286349"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

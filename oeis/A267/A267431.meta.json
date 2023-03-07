@@ -1,0 +1,19 @@
+{
+  "description": "Indices of Catalan numbers that are not of the form x^2 + y^2 + z^2 where x, y and z are integers.",
+  "id": "A267431",
+  "mentions": [
+    "A000108",
+    "A000408",
+    "A004215"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

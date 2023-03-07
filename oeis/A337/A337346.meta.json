@@ -1,0 +1,24 @@
+{
+  "description": "Number of proper divisors d of n for which A003961(d) > 2*d.",
+  "id": "A337346",
+  "mentions": [
+    "A003961",
+    "A048673",
+    "A246282",
+    "A252742",
+    "A294929",
+    "A337345",
+    "A337372"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

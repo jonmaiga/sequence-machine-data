@@ -1,0 +1,25 @@
+{
+  "description": "Number of decimal digits to which the n-th convergent of the continued fraction expansion of log(2) matches the correct value.",
+  "id": "A317558",
+  "mentions": [
+    "A002162",
+    "A016730",
+    "A084407",
+    "A086702",
+    "A100199",
+    "A240995",
+    "A317557"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

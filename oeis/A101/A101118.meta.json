@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = the resulting prime generated when the process described in A101115 is applied to A101117(n).",
+  "id": "A101118",
+  "mentions": [
+    "A000040",
+    "A024785",
+    "A053583",
+    "A101115",
+    "A101116",
+    "A101117"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

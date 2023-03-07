@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+1)X(2+1) 0..2 arrays with every 2X2 subblock antidiagonal maximum minus diagonal minimum nondecreasing horizontally and diagonal maximum minus antidiagonal minimum nondecreasing vertically",
+  "id": "A253527",
+  "mentions": [
+    "A253533"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

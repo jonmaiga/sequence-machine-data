@@ -1,0 +1,29 @@
+{
+  "description": "Solutions k of the equation s(k) = s(k-1) + s(k-2) where s(k) = isigma(k) - k is the sum of proper infinitary divisors of k (A126168).",
+  "id": "A332976",
+  "mentions": [
+    "A065557",
+    "A065900",
+    "A075565",
+    "A076136",
+    "A076251",
+    "A126168",
+    "A145469",
+    "A291126",
+    "A291176",
+    "A292033",
+    "A294995",
+    "A332975"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

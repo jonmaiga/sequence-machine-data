@@ -1,0 +1,21 @@
+{
+  "description": "Number of composite numbers bounded inclusively between p(n+1) and 2*p(n) where p(x) is prime(x).",
+  "id": "A120633",
+  "mentions": [
+    "A040976",
+    "A062234",
+    "A070046",
+    "A120632"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

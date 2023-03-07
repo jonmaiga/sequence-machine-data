@@ -1,0 +1,32 @@
+{
+  "description": "Consider the array T(r,c) where is the number of c-almost primes less than or equal to r^c, r>=1, c>=0. Read the array by antidiagonals.",
+  "id": "A116433",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A000720",
+    "A001358",
+    "A057427",
+    "A078843",
+    "A078844",
+    "A078845",
+    "A078846",
+    "A116426",
+    "A116427",
+    "A116428",
+    "A116429",
+    "A116430",
+    "A116431"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

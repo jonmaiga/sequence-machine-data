@@ -1,0 +1,17 @@
+{
+  "description": "Number of Dyck paths of semilength n such that each level has exactly seven peaks or no peaks.",
+  "id": "A288114",
+  "mentions": [
+    "A288108"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

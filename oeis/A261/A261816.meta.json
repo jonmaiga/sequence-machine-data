@@ -1,0 +1,21 @@
+{
+  "description": "Number of basic semimagic squares of order n that can be formed from the numbers 1, ..., n^2.",
+  "id": "A261816",
+  "mentions": [
+    "A048617",
+    "A261815"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

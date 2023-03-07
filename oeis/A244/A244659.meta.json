@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 4*K/Pi, a constant appearing in the asymptotic evaluation of the number of non-hypotenuse numbers not exceeding a given bound, where K is the Landau-Ramanujan constant.",
+  "id": "A244659",
+  "mentions": [
+    "A004144",
+    "A009003",
+    "A064533",
+    "A088539"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

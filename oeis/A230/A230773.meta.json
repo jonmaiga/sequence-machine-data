@@ -1,0 +1,29 @@
+{
+  "description": "Minimum number of steps in an alternate definition of the Sieve of Eratosthenes needed to identify n as prime or composite.",
+  "id": "A230773",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A004280",
+    "A010051",
+    "A038179",
+    "A054403",
+    "A055396",
+    "A055398",
+    "A055399",
+    "A056811",
+    "A083269"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

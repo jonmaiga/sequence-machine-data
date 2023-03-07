@@ -1,0 +1,31 @@
+{
+  "description": "Let A(0) = 1, B(0) = 0 and C(0) = 0. Let B(n+1) = Sum_{k = 0..n} binomial(n,k)* A(k), C(n+1) = Sum_{k = 0..n} binomial(n,k)*B(k) and A(n+1) = Sum_{k = 0..n} binomial(n,k)*C(k). This entry gives the sequence C(n).",
+  "id": "A143817",
+  "mentions": [
+    "A000110",
+    "A024429",
+    "A024430",
+    "A143628",
+    "A143629",
+    "A143630",
+    "A143631",
+    "A143815",
+    "A143816",
+    "A143818",
+    "A143819",
+    "A143820",
+    "A143821"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

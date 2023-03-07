@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that the five eighth-degree cyclotomic polynomials are simultaneously prime.",
+  "id": "A231614",
+  "mentions": [
+    "A014574",
+    "A032447",
+    "A087277",
+    "A231612",
+    "A231613"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

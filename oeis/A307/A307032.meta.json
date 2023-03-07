@@ -1,0 +1,17 @@
+{
+  "description": "Permutation of the positive integers formed by moving each number the sum of its prime factors to the right.",
+  "id": "A307032",
+  "mentions": [
+    "A001414"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

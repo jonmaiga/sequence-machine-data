@@ -1,0 +1,23 @@
+{
+  "description": "Second of a triple of squares in arithmetic progression.",
+  "id": "A198385",
+  "mentions": [
+    "A198384",
+    "A198386",
+    "A198387",
+    "A198389",
+    "A198409",
+    "A198436"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

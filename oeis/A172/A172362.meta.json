@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = binomial(n+10, 10)*3^n.",
+  "id": "A172362",
+  "mentions": [
+    "A027472",
+    "A036216",
+    "A036217",
+    "A036219",
+    "A036220",
+    "A036221",
+    "A036222",
+    "A036223"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:56",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

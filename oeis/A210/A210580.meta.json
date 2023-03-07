@@ -1,0 +1,20 @@
+{
+  "description": "Concatenation of 1, 2, 3, ... represented in base 3/2 in the spirit of Champernowne's constant.",
+  "id": "A210580",
+  "mentions": [
+    "A024629",
+    "A033307"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

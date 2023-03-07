@@ -1,0 +1,25 @@
+{
+  "description": "Smallest power of 4 whose decimal expansion contains n.",
+  "id": "A176764",
+  "mentions": [
+    "A000302",
+    "A030001",
+    "A062521",
+    "A176763",
+    "A176765",
+    "A176773"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:32:39",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

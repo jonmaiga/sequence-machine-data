@@ -1,0 +1,21 @@
+{
+  "description": "Least k such that {1, ..., k} contains an n-element set of positive integers satisfying the Lucier-Sárközy difference set condition.",
+  "id": "A359301",
+  "mentions": [
+    "A174911"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "more",
+    "new",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

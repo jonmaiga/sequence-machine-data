@@ -1,0 +1,26 @@
+{
+  "description": "Quasi-Carmichael numbers to exactly one base.",
+  "id": "A257751",
+  "mentions": [
+    "A257750",
+    "A257752",
+    "A257753",
+    "A257754",
+    "A257755",
+    "A257756",
+    "A257757",
+    "A257758",
+    "A258842",
+    "A259238"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

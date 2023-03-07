@@ -1,0 +1,22 @@
+{
+  "description": "Number of descents beginning and ending with an even number in all permutations of {1,2,...,n}.",
+  "id": "A152886",
+  "mentions": [
+    "A001113",
+    "A001620",
+    "A099284",
+    "A152885",
+    "A152887"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

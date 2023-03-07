@@ -1,0 +1,31 @@
+{
+  "description": "Number of integer partitions of n whose parts can be arranged into a (not necessarily square) matrix with equal row-sums and equal column-sums.",
+  "id": "A323347",
+  "mentions": [
+    "A000041",
+    "A006052",
+    "A007016",
+    "A120733",
+    "A319056",
+    "A319066",
+    "A321719",
+    "A323300",
+    "A323302",
+    "A323304",
+    "A323306",
+    "A323348",
+    "A323349"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

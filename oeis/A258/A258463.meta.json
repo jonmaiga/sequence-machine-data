@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n into parts of exactly 8 sorts which are introduced in ascending order.",
+  "id": "A258463",
+  "mentions": [
+    "A256130",
+    "A320550"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 8,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

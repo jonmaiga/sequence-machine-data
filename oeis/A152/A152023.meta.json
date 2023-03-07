@@ -1,0 +1,19 @@
+{
+  "description": "Numbers in A152022 which are not products of terms of A152021.",
+  "id": "A152023",
+  "mentions": [
+    "A000695",
+    "A152021",
+    "A152022"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor(n^n / (n+1)).",
+  "id": "A215159",
+  "mentions": [
+    "A023037",
+    "A060072",
+    "A173499"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

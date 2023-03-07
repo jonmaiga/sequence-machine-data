@@ -1,0 +1,22 @@
+{
+  "description": "Odd numbers for which sigma(k) is congruent to 2 modulo 4 and the 3-adic valuations of k and sigma(k) are equal.",
+  "id": "A351536",
+  "mentions": [
+    "A000203",
+    "A007949",
+    "A191218",
+    "A349749",
+    "A349755",
+    "A351534"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

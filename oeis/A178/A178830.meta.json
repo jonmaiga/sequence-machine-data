@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct partitions of {1,...,n} into two nonempty sets P and S with the product of the elements of P equal to the sum of elements in S.",
+  "id": "A178830",
+  "mentions": [
+    "A207852"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

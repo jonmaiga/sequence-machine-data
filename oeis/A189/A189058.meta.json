@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n binary arrays without the pattern 0 1 0 antidiagonally or horizontally",
+  "id": "A189058",
+  "mentions": [
+    "A189064"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

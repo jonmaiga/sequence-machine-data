@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = floor(s*n), where s=1+sqrt(3)-sqrt(2); complement of A187385.",
+  "id": "A187386",
+  "mentions": [
+    "A187385"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

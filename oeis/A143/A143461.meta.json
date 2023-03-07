@@ -1,0 +1,29 @@
+{
+  "description": "Square array A(n,k) of numbers of length n quaternary words with at least k 0-digits between any other digits (n,k >= 0), read by antidiagonals.",
+  "id": "A143461",
+  "mentions": [
+    "A000302",
+    "A006130",
+    "A016777",
+    "A084386",
+    "A143454",
+    "A143455",
+    "A143456",
+    "A143457",
+    "A143458",
+    "A143459",
+    "A143460"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

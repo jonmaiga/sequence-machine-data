@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest infinite sequence of distinct positive integers such that the result of the division of a(n+1) by a(n) starts with the decimal number [a.b] with a = the rightmost digit of a(n), b = the leftmost digit of a(n+1) and the decimal point = the comma between a(n) and a(n+1).",
+  "id": "A334639",
+  "mentions": [
+    "A121805"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

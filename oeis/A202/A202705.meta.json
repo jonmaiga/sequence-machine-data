@@ -1,0 +1,26 @@
+{
+  "description": "Number of irreducible ways to split 1, 2, 3, ..., 3n into n arithmetic progressions each with 3 terms.",
+  "id": "A202705",
+  "mentions": [
+    "A002572",
+    "A002848",
+    "A002849",
+    "A104429",
+    "A279197",
+    "A279198",
+    "A279199",
+    "A282615"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

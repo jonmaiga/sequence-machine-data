@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that the gcd of the indices j for which the j-th prime prime(j) divides k is 1.",
+  "id": "A289509",
+  "mentions": [
+    "A001222",
+    "A007359",
+    "A051424",
+    "A056239",
+    "A289506",
+    "A289507",
+    "A289508",
+    "A296150",
+    "A302696",
+    "A302697",
+    "A302698",
+    "A302796"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

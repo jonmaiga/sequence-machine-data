@@ -1,0 +1,20 @@
+{
+  "description": "First column in matrix inverse of (A047999*A154990).",
+  "id": "A163270",
+  "mentions": [
+    "A000079",
+    "A000670",
+    "A047999",
+    "A154990"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

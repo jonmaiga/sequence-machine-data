@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = a(n-1) + a(n-2) - a(n-3) + a(n-6) - a(n-7) - a(n-8) + a(n-9) with a(0) - a(8) as shown below.",
+  "id": "A260307",
+  "mentions": [
+    "A004767",
+    "A010718",
+    "A042965",
+    "A047212",
+    "A047282",
+    "A052901",
+    "A152467",
+    "A260160",
+    "A260699",
+    "A260708"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:10:27",
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

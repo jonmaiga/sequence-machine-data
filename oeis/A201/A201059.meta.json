@@ -1,0 +1,19 @@
+{
+  "description": "Denominator of binomial(2n,n)/(2n).",
+  "id": "A201059",
+  "mentions": [
+    "A000108",
+    "A201058"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that k divides the numerator of alternating Harmonic number H'((k+1)/2) = A058313((k+1)/2).",
+  "id": "A128465",
+  "mentions": [
+    "A001008",
+    "A001220",
+    "A007663",
+    "A058313",
+    "A121999",
+    "A125854",
+    "A130912"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

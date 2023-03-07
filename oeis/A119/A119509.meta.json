@@ -1,0 +1,24 @@
+{
+  "description": "Positive numbers whose square contains no digit more than once.",
+  "id": "A119509",
+  "mentions": [
+    "A036745",
+    "A045540",
+    "A075309",
+    "A078255",
+    "A162950"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

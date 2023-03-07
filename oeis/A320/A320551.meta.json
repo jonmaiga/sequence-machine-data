@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n into parts of exactly nine sorts which are introduced in ascending order such that sorts of adjacent parts are different.",
+  "id": "A320551",
+  "mentions": [
+    "A258464",
+    "A262495"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 9,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

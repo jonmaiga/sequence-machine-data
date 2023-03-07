@@ -1,0 +1,21 @@
+{
+  "description": "Primes from A122136[n] corresponding to the indices A122138[n].",
+  "id": "A122139",
+  "mentions": [
+    "A002110",
+    "A024450",
+    "A122136",
+    "A122138"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Products of 7 distinct primes (squarefree 7-almost primes).",
+  "id": "A123321",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A005117",
+    "A006881",
+    "A007304",
+    "A046308",
+    "A046386",
+    "A046387",
+    "A048692",
+    "A067885",
+    "A115343",
+    "A123322",
+    "A176655"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

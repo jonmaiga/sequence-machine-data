@@ -1,0 +1,21 @@
+{
+  "description": "In decimal representation of n: replace each digit with its binary representation.",
+  "id": "A257831",
+  "mentions": [
+    "A007088",
+    "A030308",
+    "A031298",
+    "A080719"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

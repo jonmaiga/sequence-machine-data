@@ -1,0 +1,20 @@
+{
+  "description": "Number of Hamiltonian circuits (or self-avoiding rook's tours) on a 2n X 2n grid reduced for symmetry, i.e., where rotations and reflections are not counted as distinct.",
+  "id": "A209077",
+  "mentions": [
+    "A003763",
+    "A120443",
+    "A140519",
+    "A140521"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

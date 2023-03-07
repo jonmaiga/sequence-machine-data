@@ -1,0 +1,24 @@
+{
+  "description": "List points (x,y) having integer coordinates, sorted first by x^2+y^2 and in case of ties, by x-coordinate and then by y-coordinate. Sequence gives x-coordinates.",
+  "id": "A283307",
+  "mentions": [
+    "A004018",
+    "A283303",
+    "A283304",
+    "A283305",
+    "A283306",
+    "A283308",
+    "A305575",
+    "A305576"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

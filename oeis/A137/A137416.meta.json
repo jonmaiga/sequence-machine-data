@@ -1,0 +1,19 @@
+{
+  "description": "Smallest nontrivial square (i.e., not of the form 10^2k, k > 0) with exactly n identical adjacent digits.",
+  "id": "A137416",
+  "mentions": [
+    "A169859"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

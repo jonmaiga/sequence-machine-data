@@ -1,0 +1,18 @@
+{
+  "description": "A320890 in decimal representation.",
+  "id": "A322183",
+  "mentions": [
+    "A320890"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

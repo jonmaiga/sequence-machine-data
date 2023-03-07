@@ -1,0 +1,18 @@
+{
+  "description": "T(n,k) = number of n X k binary matrices with rows in lexicographically nondecreasing order and columns in lexicographically nonincreasing order.",
+  "id": "A180986",
+  "mentions": [
+    "A014410"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:30:21",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

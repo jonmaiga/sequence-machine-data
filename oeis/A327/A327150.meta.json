@@ -1,0 +1,21 @@
+{
+  "description": "Number of orbits of the direct square of the alternating group A_n^2 where A_n acts by conjugation.",
+  "id": "A327150",
+  "mentions": [
+    "A000702",
+    "A110143",
+    "A327014",
+    "A327151"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

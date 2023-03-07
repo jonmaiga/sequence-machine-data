@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 81*n^2 - 90*n + 26.",
+  "id": "A154295",
+  "mentions": [
+    "A002522",
+    "A154262",
+    "A154266"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

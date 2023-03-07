@@ -1,0 +1,25 @@
+{
+  "description": "Number of ordered rooted binary trees with n leaves and with minimal Sackin tree balance index.",
+  "id": "A345135",
+  "mentions": [
+    "A000079",
+    "A000108",
+    "A011782",
+    "A037293",
+    "A051179",
+    "A053644",
+    "A299037"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

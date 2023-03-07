@@ -1,0 +1,18 @@
+{
+  "description": "Number of runs (of equal bits) in the minimal Lucas binary (A130310) representation of n.",
+  "id": "A133770",
+  "mentions": [
+    "A130310",
+    "A133771"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest prime divisor (not yet in the sequence) of all composite numbers of the form m^2+1 between the primes A002496(n) and A002496(n+1), or 0 if there is no such prime.",
+  "id": "A238139",
+  "mentions": [
+    "A002496",
+    "A002522",
+    "A234759",
+    "A238138"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

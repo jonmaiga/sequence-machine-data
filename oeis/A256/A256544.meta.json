@@ -1,0 +1,17 @@
+{
+  "description": "Number of ways to write n as the sum of three unordered elements of the set {floor(T(x)/3): x = 1,2,3,...}, where T(x) denotes the triangular number x*(x+1)/2.",
+  "id": "A256544",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

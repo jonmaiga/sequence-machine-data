@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the largest C_0 = 1.2209864... such that for C < C_0 and A < 2 the sequence a(n) = floor[A^(C^n)] can't contain only prime terms.",
+  "id": "A117739",
+  "mentions": [
+    "A051021",
+    "A243358",
+    "A243370"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

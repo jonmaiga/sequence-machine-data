@@ -1,0 +1,33 @@
+{
+  "description": "The number of labeled graphs of n vertices that have endpoints, where an endpoint is a vertex with degree 1.",
+  "id": "A245797",
+  "mentions": [
+    "A001187",
+    "A006129",
+    "A059166",
+    "A059167",
+    "A100743",
+    "A136284",
+    "A245796",
+    "A327079",
+    "A327098",
+    "A327103",
+    "A327105",
+    "A327227",
+    "A327228",
+    "A327229",
+    "A327230",
+    "A327362"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

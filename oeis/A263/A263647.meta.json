@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that 2^n-1 and 3^n-1 are coprime.",
+  "id": "A263647",
+  "mentions": [
+    "A000225",
+    "A006093",
+    "A014664",
+    "A024023",
+    "A062117"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

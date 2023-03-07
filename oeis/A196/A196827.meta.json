@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the least x>0 satisfying 1/(1+x^2)=3*sin(x).",
+  "id": "A196827",
+  "mentions": [
+    "A196825",
+    "A196826",
+    "A196828",
+    "A196829",
+    "A196830",
+    "A196832"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:55",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

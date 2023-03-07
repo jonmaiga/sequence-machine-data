@@ -1,0 +1,23 @@
+{
+  "description": "Powers of 2*Pi, rounded to the nearest integer.",
+  "id": "A305289",
+  "mentions": [
+    "A000227",
+    "A001674",
+    "A001675",
+    "A001698",
+    "A002160",
+    "A017911"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

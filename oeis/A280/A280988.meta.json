@@ -1,0 +1,20 @@
+{
+  "description": "Least k such that phi(k*n) is a perfect square, or 0 if no such k exists.",
+  "id": "A280988",
+  "mentions": [
+    "A000010",
+    "A039770",
+    "A062732",
+    "A280986"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

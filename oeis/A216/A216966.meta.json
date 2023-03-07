@@ -1,0 +1,22 @@
+{
+  "description": "O.g.f.: 1/(1 - x/(1 - 2^3*x/(1 - 3^3*x/(1 - 4^3*x/(1 - 5^3*x/(1 - 6^3*x/(1 -...))))))), a continued fraction.",
+  "id": "A216966",
+  "mentions": [
+    "A000364",
+    "A227887",
+    "A337807",
+    "A337808",
+    "A337809"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

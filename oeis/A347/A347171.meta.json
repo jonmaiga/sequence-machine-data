@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the sum of Golay-Rudin-Shapiro terms GRS(j) (A020985) for j in the range 0 <= j < 2^n and having binary weight wt(j) = A000120(j) = k.",
+  "id": "A347171",
+  "mentions": [
+    "A000012",
+    "A000096",
+    "A000120",
+    "A001477",
+    "A020985",
+    "A020986",
+    "A060546",
+    "A104967",
+    "A104969",
+    "A165326",
+    "A248157",
+    "A275874",
+    "A285869",
+    "A329301"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "look",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

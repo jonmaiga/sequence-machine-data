@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of signed permutations W of V = (1, 2, ..., n) such that the dot product V*W = 0.",
+  "id": "A358629",
+  "mentions": [
+    "A000165",
+    "A358655"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

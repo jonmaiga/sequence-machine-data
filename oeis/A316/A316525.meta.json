@@ -1,0 +1,24 @@
+{
+  "description": "Numbers whose average of prime factors is prime.",
+  "id": "A316525",
+  "mentions": [
+    "A000040",
+    "A000607",
+    "A056768",
+    "A071321",
+    "A078175",
+    "A100118",
+    "A316219",
+    "A316313"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

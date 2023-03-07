@@ -1,0 +1,19 @@
+{
+  "description": "Coefficient of x^n in Product_{k=1..n} (k + x + (n+1-k)*x^2), for n >= 0.",
+  "id": "A322233",
+  "mentions": [
+    "A322229",
+    "A322234"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

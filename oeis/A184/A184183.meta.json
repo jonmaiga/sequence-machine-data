@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of {1,2,...,n} having k blocks of length 2 (0 <= k <= floor(n/2)). A block of a permutation is a maximal sequence of consecutive integers which appear in consecutive positions. For example, the permutation 5412367 has 4 blocks: 5, 4, 123, and 67; one of them is of length 2.",
+  "id": "A184183",
+  "mentions": [
+    "A000166",
+    "A001565",
+    "A180196"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:08",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

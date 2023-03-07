@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = smallest divisor d of n that occurs earlier in the sequence fewer than a(d) times.",
+  "id": "A116548",
+  "mentions": [
+    "A001462",
+    "A095163"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

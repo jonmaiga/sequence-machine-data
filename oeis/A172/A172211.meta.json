@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to place 6 nonattacking bishops on a 6 X n board.",
+  "id": "A172211",
+  "mentions": [
+    "A061992",
+    "A172207",
+    "A172208",
+    "A172210"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

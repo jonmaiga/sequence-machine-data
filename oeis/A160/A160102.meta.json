@@ -1,0 +1,25 @@
+{
+  "description": "Multiplicative function, one-to-one and onto the squarefree numbers.",
+  "id": "A160102",
+  "mentions": [
+    "A000040",
+    "A005117",
+    "A019565",
+    "A050376",
+    "A052330",
+    "A052331",
+    "A059897"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

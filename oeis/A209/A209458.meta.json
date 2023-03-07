@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n 0..6 arrays with every 2X2 subblock containing exactly one value repeat, and new values 0..6 introduced in row major order",
+  "id": "A209458",
+  "mentions": [
+    "A209465"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

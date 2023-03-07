@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = -A085466(n) times the free coefficient of the 2n-th Du Bois-Reymond polynomial in e^2.",
+  "id": "A138729",
+  "mentions": [
+    "A062545",
+    "A062546",
+    "A085466",
+    "A085467",
+    "A138730",
+    "A138731",
+    "A138732",
+    "A138733"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

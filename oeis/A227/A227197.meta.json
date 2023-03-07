@@ -1,0 +1,19 @@
+{
+  "description": "Integers k for which the first non-one value of Kronecker symbols K(1,k), K(2,k), ..., K(u,k) is 0, not -1.",
+  "id": "A227197",
+  "mentions": [
+    "A020639",
+    "A227196",
+    "A227198"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

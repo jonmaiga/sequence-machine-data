@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = least member of A047841 with n digits, or 0 if no such number exists.",
+  "id": "A104786",
+  "mentions": [
+    "A039616",
+    "A039617",
+    "A047841",
+    "A104785",
+    "A104787"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

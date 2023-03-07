@@ -1,0 +1,18 @@
+{
+  "description": "Number of integer-sided triangles with perimeter n whose smallest side length is prime.",
+  "id": "A308450",
+  "mentions": [
+    "A010051"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

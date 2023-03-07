@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms starting with a(1) = 0 and a(2) = 1 such that the product of the last two digits of the sequence rebuilds, digit after digit, the sequence itself.",
+  "id": "A336523",
+  "mentions": [
+    "A335214"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "A set of nine consecutive primes forming a 3 X 3 semimagic square with the smallest magic constant (65573).",
+  "id": "A265614",
+  "mentions": [
+    "A073519",
+    "A265139"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

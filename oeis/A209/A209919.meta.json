@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k), 0 <= k <= n-1, = number of 2-divided binary sequences of length n which are 2-divisible in exactly k ways.",
+  "id": "A209919",
+  "mentions": [
+    "A000031",
+    "A001037",
+    "A059966",
+    "A210109"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

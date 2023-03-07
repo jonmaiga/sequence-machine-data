@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = tau(3*n-1)/2, where tau(n) = number of divisors of n, cf. A000005.",
+  "id": "A359211",
+  "mentions": [
+    "A000005",
+    "A001620",
+    "A001817",
+    "A001822",
+    "A078703",
+    "A099774",
+    "A359212"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

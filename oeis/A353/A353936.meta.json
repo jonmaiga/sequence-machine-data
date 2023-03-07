@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the n-th highly composite number (A002182) divided by the smallest highly composite number with at least half as many divisors, or 0 if the quotient is not an integer.",
+  "id": "A353936",
+  "mentions": [
+    "A002182"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

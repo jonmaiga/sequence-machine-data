@@ -1,0 +1,22 @@
+{
+  "description": "Number of nonisomorphic Steiner quadruple systems (SQS's) S(3,4,n) on n points.",
+  "id": "A124120",
+  "mentions": [
+    "A001201",
+    "A030128",
+    "A030129",
+    "A051390",
+    "A124119"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

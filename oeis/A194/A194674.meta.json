@@ -1,0 +1,27 @@
+{
+  "description": "Positions of nonzero terms of A194659(n)-A194186(n+1), n>=1.",
+  "id": "A194674",
+  "mentions": [
+    "A080359",
+    "A104272",
+    "A164288",
+    "A164294",
+    "A164368",
+    "A193507",
+    "A194186",
+    "A194598",
+    "A194658",
+    "A194659",
+    "A194953"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

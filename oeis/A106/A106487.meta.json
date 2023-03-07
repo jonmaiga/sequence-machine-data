@@ -1,0 +1,18 @@
+{
+  "description": "Number of leaves in combinatorial game trees.",
+  "id": "A106487",
+  "mentions": [
+    "A000120",
+    "A106486"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

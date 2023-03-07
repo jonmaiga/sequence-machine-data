@@ -1,0 +1,19 @@
+{
+  "description": "Positions of 2 in A191340.",
+  "id": "A191382",
+  "mentions": [
+    "A191340",
+    "A191380",
+    "A191381"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

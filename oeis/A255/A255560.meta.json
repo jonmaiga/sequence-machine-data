@@ -1,0 +1,26 @@
+{
+  "description": "One-based row index of n in array A255555.",
+  "id": "A255560",
+  "mentions": [
+    "A005187",
+    "A055938",
+    "A213714",
+    "A234017",
+    "A254112",
+    "A255555",
+    "A255557",
+    "A255559",
+    "A256990"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

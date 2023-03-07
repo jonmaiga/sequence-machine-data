@@ -1,0 +1,26 @@
+{
+  "description": "Square array A(n,k) = difference of digit sums in factorial base representations (A007623) of n and k, n>=0, k>=0, read by antidiagonals; A(n,k) = A034968(n)-A034968(k).",
+  "id": "A230419",
+  "mentions": [
+    "A002262",
+    "A007623",
+    "A025581",
+    "A034968",
+    "A061579",
+    "A230415",
+    "A231713"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

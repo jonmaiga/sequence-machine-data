@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, expansion of exp(x*exp(z)*tan(z)).",
+  "id": "A298213",
+  "mentions": [
+    "A002378",
+    "A009248",
+    "A009739",
+    "A075497"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

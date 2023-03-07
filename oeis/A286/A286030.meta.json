@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle T(n,k) read by rows: Let S be a 3-member set of integers {f,g,h} where f >= g >= h >= 0 and f+g+h = n. Let S(n,k) be an irregular triangle composed of all S listed in reverse lexicographic order by row n. Then T(n,k) = n!*Q/(3*f!*g!*h!), where Q is the number of permutations of S(n,k). (See \"Comments\" and \"Examples\" for additional explanation.)",
+  "id": "A286030",
+  "mentions": [
+    "A000041",
+    "A001399",
+    "A002378",
+    "A007531",
+    "A008314",
+    "A033487",
+    "A199127"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Heinz numbers of integer partitions with more subset-products than subset-sums.",
+  "id": "A301970",
+  "mentions": [
+    "A000712",
+    "A003963",
+    "A056239",
+    "A108917",
+    "A276024",
+    "A284640",
+    "A292886",
+    "A296150",
+    "A299701",
+    "A299702",
+    "A299729",
+    "A301854",
+    "A301855",
+    "A301856",
+    "A301957",
+    "A301979"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

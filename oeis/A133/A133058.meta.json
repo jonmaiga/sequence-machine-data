@@ -1,0 +1,29 @@
+{
+  "description": "a(0) = a(1) = 1; for n > 1, a(n) = a(n-1) + n + 1 if a(n-1) and n are coprime, otherwise a(n) = a(n-1)/gcd(a(n-1),n).",
+  "id": "A133058",
+  "mentions": [
+    "A091508",
+    "A133579",
+    "A133580",
+    "A255051",
+    "A255140",
+    "A262922",
+    "A326991",
+    "A326992",
+    "A326993",
+    "A326994"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of r X s rectangles such that r + s = 2n, where exactly one of r or s is a positive square.",
+  "id": "A334347",
+  "mentions": [
+    "A010052"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

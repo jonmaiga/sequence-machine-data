@@ -1,0 +1,19 @@
+{
+  "description": "Base-2 analog of A208059.",
+  "id": "A212991",
+  "mentions": [
+    "A208059",
+    "A213004"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

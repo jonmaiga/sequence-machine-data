@@ -1,0 +1,20 @@
+{
+  "description": "Number of compositions c of n such that no three points (i,c_i), (j,c_j), (k,c_k) are collinear, where c_i denotes the i-th part.",
+  "id": "A238686",
+  "mentions": [
+    "A238423",
+    "A238432",
+    "A238569",
+    "A238687"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

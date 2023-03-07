@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: sqrt( (1-x - sqrt(1-14*x+x^2)) / (6*x*(1-14*x+x^2)) ).",
+  "id": "A245927",
+  "mentions": [
+    "A243947",
+    "A245924",
+    "A245925",
+    "A245926"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

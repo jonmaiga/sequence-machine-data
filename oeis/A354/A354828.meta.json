@@ -1,0 +1,24 @@
+{
+  "description": "Denominators of Dirichlet inverse of fraction A003961(n) / sigma(n).",
+  "id": "A354828",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A349161",
+    "A349162",
+    "A349628",
+    "A354366",
+    "A354827"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

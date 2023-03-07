@@ -1,0 +1,21 @@
+{
+  "description": "Permutation of natural numbers arising from applying the walk of a square spiral (e.g. A214526) to the data of triangular horizontal-first spiral (defined in A214250).",
+  "id": "A217013",
+  "mentions": [
+    "A090861",
+    "A214250",
+    "A214526",
+    "A217010"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

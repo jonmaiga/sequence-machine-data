@@ -1,0 +1,18 @@
+{
+  "description": "Fixed point (beginning with a) of the morphism a -> abab, b -> b, over the alphabet {a,b} = {1,2}.",
+  "id": "A308186",
+  "mentions": [
+    "A288932",
+    "A308185"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

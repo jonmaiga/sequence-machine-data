@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of 3-regular one-face unsensed maps on non-orientable surfaces.",
+  "id": "A348797",
+  "mentions": [
+    "A068182",
+    "A348794",
+    "A348795",
+    "A348796"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

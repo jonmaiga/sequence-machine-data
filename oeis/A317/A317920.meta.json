@@ -1,0 +1,19 @@
+{
+  "description": "Length of row n of A317721, i.e., number of elements in n-th Wieferich tuple when ordering the tuples as in A317721.",
+  "id": "A317920",
+  "mentions": [
+    "A297846",
+    "A317721",
+    "A317919"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

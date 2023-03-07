@@ -1,0 +1,19 @@
+{
+  "description": "a(n)^3 ends in n^3.",
+  "id": "A167178",
+  "mentions": [
+    "A090292",
+    "A090293"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

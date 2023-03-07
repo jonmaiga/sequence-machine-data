@@ -1,0 +1,22 @@
+{
+  "description": "Number of other odd numbers between the twin primes, with a(1) = 1.",
+  "id": "A258972",
+  "mentions": [
+    "A001097",
+    "A001359",
+    "A006512",
+    "A255763",
+    "A256262"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

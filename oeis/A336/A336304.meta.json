@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the least number k such that the average number of prime divisors of {1..k} counted with multiplicity is >= n.",
+  "id": "A336304",
+  "mentions": [
+    "A001222",
+    "A022559",
+    "A085829",
+    "A328331",
+    "A338891",
+    "A338943"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

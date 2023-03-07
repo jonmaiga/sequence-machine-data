@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct prime factors p such that p^p is a divisor of n-th number > 0 that is a sum of distinct primorial numbers, A276156(n).",
+  "id": "A328831",
+  "mentions": [
+    "A129251",
+    "A276156",
+    "A328832"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

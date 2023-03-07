@@ -1,0 +1,18 @@
+{
+  "description": "A Beatty sequence: a(n) = floor((n-1/2)*(2 + 2*sqrt(2))).",
+  "id": "A215247",
+  "mentions": [
+    "A003151",
+    "A115004"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

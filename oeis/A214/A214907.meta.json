@@ -1,0 +1,18 @@
+{
+  "description": "Number of 3 X 3 X 3 triangular 0..n arrays with every horizontal row nondecreasing and having the same average value.",
+  "id": "A214907",
+  "mentions": [
+    "A214906"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:16:39",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

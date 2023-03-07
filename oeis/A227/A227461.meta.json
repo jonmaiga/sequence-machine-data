@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. equals the series reversion of x - x*arctanh(x).",
+  "id": "A227461",
+  "mentions": [
+    "A227460"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:08:51",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

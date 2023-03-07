@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{i=1..n-1} (2^i*C(i)-a(i)) * (2^(n-i)*C(n-i)-a(n-i)), a(1)=1, where C(i)=A000108(i-1) are Catalan numbers.",
+  "id": "A192481",
+  "mentions": [
+    "A000108",
+    "A186997",
+    "A192479"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

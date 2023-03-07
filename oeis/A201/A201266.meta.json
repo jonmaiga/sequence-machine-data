@@ -1,0 +1,20 @@
+{
+  "description": "The seventh divisor of numbers with exactly 49 divisors.",
+  "id": "A201266",
+  "mentions": [
+    "A114334",
+    "A135581",
+    "A159765",
+    "A175755"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

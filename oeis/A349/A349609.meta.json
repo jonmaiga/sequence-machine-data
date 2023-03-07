@@ -1,0 +1,25 @@
+{
+  "description": "Number of solutions to x^2 + y^2 <= n^2, where x, y are positive odd integers.",
+  "id": "A349609",
+  "mentions": [
+    "A000328",
+    "A000603",
+    "A001182",
+    "A008442",
+    "A053415",
+    "A290081",
+    "A349610",
+    "A349611"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 0,
+    "size": 56,
+    "source": "joeis"
+  }
+}

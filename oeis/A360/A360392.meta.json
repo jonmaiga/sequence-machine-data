@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2 + A026430(n); complement of A360393.",
+  "id": "A360392",
+  "mentions": [
+    "A026430",
+    "A360393",
+    "A360405"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "changed",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

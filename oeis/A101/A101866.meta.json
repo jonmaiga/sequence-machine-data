@@ -1,0 +1,27 @@
+{
+  "description": "Array read by antidiagonals: Arnoux's product T(n,k) = n * k = nk + ceiling(phi n) ceiling(phi k), where phi = (1 + sqrt(5))/2 ; m, n >= 1.",
+  "id": "A101866",
+  "mentions": [
+    "A101330",
+    "A101385",
+    "A101633",
+    "A101858",
+    "A101867",
+    "A101868",
+    "A101869",
+    "A101870",
+    "A188009",
+    "A188434"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

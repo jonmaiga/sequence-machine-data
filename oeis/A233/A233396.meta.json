@@ -1,0 +1,18 @@
+{
+  "description": "Number of affirmative formulas with two connectives (-> and *) and no variables.",
+  "id": "A233396",
+  "mentions": [
+    "A151374"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

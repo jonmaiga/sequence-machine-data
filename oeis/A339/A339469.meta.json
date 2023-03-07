@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest k such that k = x_11 * x_12 * x_13 = x_21 * x_22 * x_23 = ... = x_n1 *x_n2 * x_n3 and x_11 + x_12 + x_13 = x_21 + x_22 + x_23 = ... = x_n1 + x_n2 + x_n3; x_ij >= 2.",
+  "id": "A339469",
+  "mentions": [
+    "A002808",
+    "A103278"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

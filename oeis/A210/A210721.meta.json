@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest trial division companion for the n-th prime number.",
+  "id": "A210721",
+  "mentions": [
+    "A000040",
+    "A210529",
+    "A210708"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

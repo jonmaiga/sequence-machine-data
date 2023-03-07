@@ -1,0 +1,23 @@
+{
+  "description": "Abs(prime(prime(n))-prime(nonprime(n))).",
+  "id": "A168272",
+  "mentions": [
+    "A000040",
+    "A006450",
+    "A007821",
+    "A018252"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:45:29",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

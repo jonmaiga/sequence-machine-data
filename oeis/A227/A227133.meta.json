@@ -1,0 +1,30 @@
+{
+  "description": "Given a square grid with side n consisting of n^2 cells (or points), a(n) is the maximum number of points that can be painted so that no four of the painted ones form a square with sides parallel to the grid.",
+  "id": "A227133",
+  "mentions": [
+    "A000330",
+    "A047999",
+    "A064194",
+    "A152125",
+    "A227116",
+    "A227308",
+    "A240443",
+    "A268239",
+    "A269745",
+    "A271906",
+    "A271907"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

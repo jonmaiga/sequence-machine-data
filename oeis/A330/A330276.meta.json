@@ -1,0 +1,18 @@
+{
+  "description": "NSW pseudoprimes: odd composite numbers k such that A002315((k-1)/2) == 1 (mod k).",
+  "id": "A330276",
+  "mentions": [
+    "A001652",
+    "A002315"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

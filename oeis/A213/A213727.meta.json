@@ -1,0 +1,32 @@
+{
+  "description": "a(n) = 0 if n is in the infinite trunk of the \"binary beanstalk\", otherwise number of nodes (including leaves and the node n itself) in that finite branch of the beanstalk.",
+  "id": "A213727",
+  "mentions": [
+    "A000120",
+    "A055938",
+    "A071542",
+    "A079559",
+    "A179016",
+    "A213717",
+    "A213719",
+    "A213723",
+    "A213724",
+    "A213725",
+    "A213726",
+    "A213731",
+    "A227643",
+    "A230427",
+    "A255327"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

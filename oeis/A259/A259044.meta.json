@@ -1,0 +1,20 @@
+{
+  "description": "Period 8 sequence [ 0, 1, 0, 1, 1, 1, 0, 1, ...].",
+  "id": "A259044",
+  "mentions": [
+    "A280237"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:01:33",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

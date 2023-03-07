@@ -1,0 +1,22 @@
+{
+  "description": "Semiprimes sp such that (sum of digits of (sp)) + (product of digits of (sp)) is also semiprime.",
+  "id": "A261560",
+  "mentions": [
+    "A001358",
+    "A061762",
+    "A118688",
+    "A118689",
+    "A118690"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

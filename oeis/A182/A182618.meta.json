@@ -1,0 +1,27 @@
+{
+  "description": "Number of new grid points that are covered by the toothpicks added at n-th-stage to the toothpick spiral of A182617.",
+  "id": "A182618",
+  "mentions": [
+    "A000695",
+    "A008458",
+    "A017593",
+    "A121149",
+    "A139250",
+    "A139251",
+    "A182617",
+    "A182619",
+    "A182632",
+    "A182840"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

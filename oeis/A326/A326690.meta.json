@@ -1,0 +1,31 @@
+{
+  "description": "Denominator of the fraction (Sum_{prime p | n} 1/p - 1/n).",
+  "id": "A326690",
+  "mentions": [
+    "A002997",
+    "A007850",
+    "A007947",
+    "A069359",
+    "A190273",
+    "A190275",
+    "A309132",
+    "A309235",
+    "A309268",
+    "A309378",
+    "A326689",
+    "A326691",
+    "A326692"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

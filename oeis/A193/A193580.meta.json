@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of ways to place k nonattacking kings on an n X n board.",
+  "id": "A193580",
+  "mentions": [
+    "A008794",
+    "A061995",
+    "A061996",
+    "A061997",
+    "A061998",
+    "A063443",
+    "A098487",
+    "A166540",
+    "A172158",
+    "A179403",
+    "A194788",
+    "A201369",
+    "A201513",
+    "A201771",
+    "A220467"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

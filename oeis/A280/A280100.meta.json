@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 4^(2*n) * (n!)^3 * (n+1)!.",
+  "id": "A280100",
+  "mentions": [
+    "A134374",
+    "A161736",
+    "A278145"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

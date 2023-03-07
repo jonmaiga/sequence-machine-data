@@ -1,0 +1,23 @@
+{
+  "description": "Values of n such that sigma(n!) mod sigma(n) is not 0.",
+  "id": "A262812",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001222",
+    "A002808",
+    "A062569",
+    "A066247"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

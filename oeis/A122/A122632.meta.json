@@ -1,0 +1,20 @@
+{
+  "description": "Table T(n,k) = number of initial segments of Beatty sequences for numbers > 1 of length k, cutting sequence so that all terms are < n.",
+  "id": "A122632",
+  "mentions": [
+    "A002088",
+    "A006842",
+    "A006843"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

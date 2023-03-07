@@ -1,0 +1,20 @@
+{
+  "description": "Integers n such that each of n, n + 1, n + 2, n + 4, n + 5, n + 6 is the squarefree product of three primes.",
+  "id": "A242805",
+  "mentions": [
+    "A242793",
+    "A242804",
+    "A242806",
+    "A242829"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

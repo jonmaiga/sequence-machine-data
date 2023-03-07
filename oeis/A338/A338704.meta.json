@@ -1,0 +1,17 @@
+{
+  "description": "Products p*q*r of three distinct primes such that (p*q) mod r, (p*r) mod q and (q*r) mod p are all prime.",
+  "id": "A338704",
+  "mentions": [
+    "A338705"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

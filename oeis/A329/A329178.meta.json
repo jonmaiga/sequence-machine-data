@@ -1,0 +1,20 @@
+{
+  "description": "Sum of the products of pairs of Padovan numbers which are two apart, starting from A000931(5).",
+  "id": "A329178",
+  "mentions": [
+    "A000931",
+    "A133037",
+    "A329227"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

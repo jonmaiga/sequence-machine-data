@@ -1,0 +1,21 @@
+{
+  "description": "Number of paths from (0,0) to (n,0), never going below the x-axis, using steps U=(1,1), H=(1,0) and D=(1,-1), where the H steps come in five colors.",
+  "id": "A182401",
+  "mentions": [
+    "A002212",
+    "A005572",
+    "A125906",
+    "A257290"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers that are square roots of products a*(a+d)*(a+2*d) with coprime a > 0, d >= 0.",
+  "id": "A284876",
+  "mentions": [
+    "A046176",
+    "A078522",
+    "A284666",
+    "A284874"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

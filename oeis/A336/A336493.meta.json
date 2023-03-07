@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the largest integer x such that x/sopf(x) = prime(n) where sopf(x) is the sum of distinct prime factors of x and prime(n) is the n-th prime.",
+  "id": "A336493",
+  "mentions": [
+    "A008472",
+    "A336296",
+    "A336297",
+    "A336445"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

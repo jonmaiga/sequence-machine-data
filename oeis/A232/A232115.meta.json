@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the Manhattan distance between n and n(n+1)/2 in a square spiral of positive integers with 1 at the center.",
+  "id": "A232115",
+  "mentions": [
+    "A000217",
+    "A214526",
+    "A232113",
+    "A232114"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

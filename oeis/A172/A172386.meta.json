@@ -1,0 +1,18 @@
+{
+  "description": "The prime which gives n primes as quickly as possible by concatenation of numbers incremented in sequence.",
+  "id": "A172386",
+  "mentions": [
+    "A172257"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

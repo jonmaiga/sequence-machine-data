@@ -1,0 +1,20 @@
+{
+  "description": "Semiprimes of the form C(n) + T(n) where C(n) and T(n) are the n-th cube and triangular numbers.",
+  "id": "A240884",
+  "mentions": [
+    "A001358",
+    "A005898",
+    "A046388"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

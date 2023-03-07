@@ -1,0 +1,19 @@
+{
+  "description": "Smallest odd nonprime such that every subset of a(1), ..., a(n) adds to a nonprime.",
+  "id": "A128687",
+  "mentions": [
+    "A052349",
+    "A128688"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle of 2^n terms by rows, left half of (n+1)-th row = row n; right half = \"reverse and increment\" row n; using terms in A000110.",
+  "id": "A165194",
+  "mentions": [
+    "A000110",
+    "A165195",
+    "A165196"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

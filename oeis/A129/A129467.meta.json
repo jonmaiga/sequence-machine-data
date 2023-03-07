@@ -1,0 +1,29 @@
+{
+  "description": "Orthogonal polynomials with all zeros integers from 2*A000217.",
+  "id": "A129467",
+  "mentions": [
+    "A000007",
+    "A000217",
+    "A010790",
+    "A084915",
+    "A129065",
+    "A129462",
+    "A130031",
+    "A130032",
+    "A130033",
+    "A191936"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

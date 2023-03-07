@@ -1,0 +1,25 @@
+{
+  "description": "Number of prime factors, counted with multiplicity, of A173426(n) = concatenation of (1, 2, ..., n, n-1, ..., 1).",
+  "id": "A260588",
+  "mentions": [
+    "A001222",
+    "A075023",
+    "A075024",
+    "A173426",
+    "A260587"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

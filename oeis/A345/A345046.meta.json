@@ -1,0 +1,19 @@
+{
+  "description": "If n = Product p(k)^e(k) then a(n) = LCM (p(k)-1)^e(k).",
+  "id": "A345046",
+  "mentions": [
+    "A003958",
+    "A345044",
+    "A345047"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

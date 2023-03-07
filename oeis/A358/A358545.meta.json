@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest number with exactly n divisors that are centered square numbers.",
+  "id": "A358545",
+  "mentions": [
+    "A001844",
+    "A005179",
+    "A130279",
+    "A300410",
+    "A358543",
+    "A358544"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

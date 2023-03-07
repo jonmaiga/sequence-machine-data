@@ -1,0 +1,19 @@
+{
+  "description": "Number of 3-Carlitz compositions of n (or, more generally p-Carlitz compositions, p > 1), i.e., words b_1^{i_1}b_2^{i_2}...b_k^{i_k} such that the b_j's and i_j's are positive integers for which Sum_{j=1..k} i_j * b_j = n and, for all j, i_j < p and if b_j = b_(j+1) then i_j + i_(j+1) is not equal to p.",
+  "id": "A129922",
+  "mentions": [
+    "A003242",
+    "A129921"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

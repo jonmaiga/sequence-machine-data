@@ -1,0 +1,31 @@
+{
+  "description": "Numbers with one more divisor than distinct subset-sums of their prime indices.",
+  "id": "A325802",
+  "mentions": [
+    "A000005",
+    "A056239",
+    "A108917",
+    "A112798",
+    "A276024",
+    "A299701",
+    "A299702",
+    "A325694",
+    "A325780",
+    "A325781",
+    "A325799",
+    "A325800",
+    "A325801",
+    "A325835"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

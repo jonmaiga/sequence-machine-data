@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose base-8 digits have equal down-variation and up-variation; see Comments.",
+  "id": "A297265",
+  "mentions": [
+    "A029803",
+    "A297264",
+    "A297266",
+    "A297330"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

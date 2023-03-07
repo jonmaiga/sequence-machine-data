@@ -1,0 +1,29 @@
+{
+  "description": "Sum of the odd parts appearing among the largest parts of the partitions of n into 3 parts.",
+  "id": "A309692",
+  "mentions": [
+    "A026923",
+    "A026927",
+    "A309683",
+    "A309684",
+    "A309685",
+    "A309686",
+    "A309687",
+    "A309688",
+    "A309689",
+    "A309690",
+    "A309694"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:12:41",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

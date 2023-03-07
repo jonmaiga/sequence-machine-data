@@ -1,0 +1,19 @@
+{
+  "description": "Intersection of A266005 and A274222.",
+  "id": "A274223",
+  "mentions": [
+    "A266005",
+    "A274222"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

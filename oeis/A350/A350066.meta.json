@@ -1,0 +1,26 @@
+{
+  "description": "Symmetric square array A(n,k) = A122111(A122111(n) * A122111(k)), n >= 1, k >= 1, read by antidiagonals.",
+  "id": "A350066",
+  "mentions": [
+    "A003961",
+    "A003991",
+    "A061142",
+    "A122111",
+    "A129595",
+    "A253550",
+    "A297002",
+    "A331590"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

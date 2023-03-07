@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that A257245(n) = A257246(n), or equally, where A257244(2n) = A257244(2n-1).",
+  "id": "A257247",
+  "mentions": [
+    "A006530",
+    "A020639",
+    "A256393",
+    "A257244",
+    "A257245",
+    "A257246"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

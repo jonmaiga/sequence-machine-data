@@ -1,0 +1,25 @@
+{
+  "description": "Greatest common divisor of a Fibonacci number and its index.",
+  "id": "A104714",
+  "mentions": [
+    "A000045",
+    "A001175",
+    "A001176",
+    "A001177",
+    "A001477",
+    "A023172",
+    "A074215"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

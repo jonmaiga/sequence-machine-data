@@ -1,0 +1,19 @@
+{
+  "description": "Number of equilateral triangles with coordinates (x,y,z) in the set {0, 1,...,n}.",
+  "id": "A102698",
+  "mentions": [
+    "A103158",
+    "A103501"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

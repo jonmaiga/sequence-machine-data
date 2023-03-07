@@ -1,0 +1,21 @@
+{
+  "description": "T(n,k) = Number of permutations of 1..n+2*k-1 with each element displaced by at least k.",
+  "id": "A183244",
+  "mentions": [
+    "A000166",
+    "A001883",
+    "A075851",
+    "A075852"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

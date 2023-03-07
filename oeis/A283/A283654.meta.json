@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: number of n X m binary matrices with no rows or columns in which all entries are the same (n >= 1, 1 <= m <= n).",
+  "id": "A283654",
+  "mentions": [
+    "A183109",
+    "A283624"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

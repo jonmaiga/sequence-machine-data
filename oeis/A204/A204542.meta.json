@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are congruent to {1, 4, 11, 14} mod 15.",
+  "id": "A204542",
+  "mentions": [
+    "A204220",
+    "A204221"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:05:37",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

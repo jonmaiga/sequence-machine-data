@@ -1,0 +1,19 @@
+{
+  "description": "Generalized ballot transform of generalized Catalan numbers C(2;n)=A064062(n).",
+  "id": "A130649",
+  "mentions": [
+    "A039599",
+    "A064062"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

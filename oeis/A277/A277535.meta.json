@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Pi*(10^761) - floor(Pi*(10^761)).",
+  "id": "A277535",
+  "mentions": [
+    "A000796",
+    "A048940",
+    "A243955"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

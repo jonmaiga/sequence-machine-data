@@ -1,0 +1,19 @@
+{
+  "description": "Diagonal sums of A083856.",
+  "id": "A110113",
+  "mentions": [
+    "A083856"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

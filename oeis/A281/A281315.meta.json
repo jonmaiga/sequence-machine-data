@@ -1,0 +1,17 @@
+{
+  "description": "Number of 2 X 2 matrices with all elements in {0,...,n} and prime determinant.",
+  "id": "A281315",
+  "mentions": [
+    "A210000"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

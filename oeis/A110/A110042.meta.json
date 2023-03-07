@@ -1,0 +1,17 @@
+{
+  "description": "Bases of the n-th powers in A090900.",
+  "id": "A110042",
+  "mentions": [
+    "A090900"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

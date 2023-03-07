@@ -1,0 +1,30 @@
+{
+  "description": "Decimal expansion of Cl_2(2*Pi/3), where Cl_2 is the Clausen function of order 2.",
+  "id": "A261024",
+  "mentions": [
+    "A006752",
+    "A143298",
+    "A252798",
+    "A252799",
+    "A261025",
+    "A261026",
+    "A261027",
+    "A261028",
+    "A263416",
+    "A263417"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "changed",
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

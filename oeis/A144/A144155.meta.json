@@ -1,0 +1,20 @@
+{
+  "description": "Bell convolution triangle, T(n,k) = A000110(n-k)*A000110(k)",
+  "id": "A144155",
+  "mentions": [
+    "A000110",
+    "A014322"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

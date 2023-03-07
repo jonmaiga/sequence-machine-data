@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1. a(n) = the smallest integer which is > a(n-1) and is different from and not coprime to A134623(n-1).",
+  "id": "A134624",
+  "mentions": [
+    "A134623"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:34:11",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

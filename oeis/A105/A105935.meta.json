@@ -1,0 +1,23 @@
+{
+  "description": "Indices of Lucas 7-step numbers A104621 which have a nontrivial divisor in common with index.",
+  "id": "A105935",
+  "mentions": [
+    "A104621",
+    "A104622",
+    "A105285",
+    "A105289",
+    "A105768"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

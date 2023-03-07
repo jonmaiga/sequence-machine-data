@@ -1,0 +1,28 @@
+{
+  "description": "Riordan array (sqrt(1+4x^2)-2x, (1+2x-sqrt(1+4x^2))/2).",
+  "id": "A124448",
+  "mentions": [
+    "A000045",
+    "A000108",
+    "A007318",
+    "A053538",
+    "A084938",
+    "A105523",
+    "A106180",
+    "A106195",
+    "A164942",
+    "A164948"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

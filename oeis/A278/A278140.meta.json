@@ -1,0 +1,24 @@
+{
+  "description": "Numerator of partial sums of a Ramanujan series with value 2/(Gamma(3/4)^4), given in A277235.",
+  "id": "A278140",
+  "mentions": [
+    "A000165",
+    "A001147",
+    "A074799",
+    "A074800",
+    "A277235"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

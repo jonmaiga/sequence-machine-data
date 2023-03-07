@@ -1,0 +1,20 @@
+{
+  "description": "Constant term in the reduction of the polynomial x^(2*n) + x^n + 1 by x^3 -> x + 1. See Comments.",
+  "id": "A192812",
+  "mentions": [
+    "A192232",
+    "A192744",
+    "A192813"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

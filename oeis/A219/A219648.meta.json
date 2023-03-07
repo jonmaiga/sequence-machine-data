@@ -1,0 +1,33 @@
+{
+  "description": "The infinite trunk of Zeckendorf beanstalk. The only infinite sequence such that a(n-1) = a(n) - number of 1's in Zeckendorf representation of a(n).",
+  "id": "A219648",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A007895",
+    "A014417",
+    "A179016",
+    "A219641",
+    "A219642",
+    "A219643",
+    "A219645",
+    "A219649",
+    "A219666",
+    "A255056",
+    "A261076",
+    "A261083",
+    "A261084",
+    "A261102"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

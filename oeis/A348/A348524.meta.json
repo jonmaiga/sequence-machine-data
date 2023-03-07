@@ -1,0 +1,21 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into two or more cubes.",
+  "id": "A348524",
+  "mentions": [
+    "A000578",
+    "A010057",
+    "A023358",
+    "A347805",
+    "A348522"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

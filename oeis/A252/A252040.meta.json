@@ -1,0 +1,24 @@
+{
+  "description": "Least number k such that the sum of the n-th powers of divisors of k is prime, or 0 if there is no such k.",
+  "id": "A252040",
+  "mentions": [
+    "A000203",
+    "A001157",
+    "A001158",
+    "A001159",
+    "A001160",
+    "A019434",
+    "A023194",
+    "A063783"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

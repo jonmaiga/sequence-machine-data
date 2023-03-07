@@ -1,0 +1,20 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) (n>=0, k>=0) = number of closed strands in an (n,k)-wrapping of the cube (or basket).",
+  "id": "A324000",
+  "mentions": [
+    "A324001",
+    "A324002"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

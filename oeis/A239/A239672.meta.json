@@ -1,0 +1,21 @@
+{
+  "description": "Product_{i=1..n} J_6(i) where J_6(i) = A069091(i).",
+  "id": "A239672",
+  "mentions": [
+    "A059381",
+    "A059382",
+    "A059383",
+    "A069091",
+    "A175836"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

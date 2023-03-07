@@ -1,0 +1,20 @@
+{
+  "description": "Gaussian primes x + i*y, with x = a(2n-1) >= y = a(2n) >= 0, sorted by norm.",
+  "id": "A239621",
+  "mentions": [
+    "A055025",
+    "A239397",
+    "A300587",
+    "A300588"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

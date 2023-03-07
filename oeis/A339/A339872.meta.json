@@ -1,0 +1,21 @@
+{
+  "description": "Index k of the least prime(k) such that prime(k)-adic valuation of phi(n) exceeds the prime(k)-adic valuation of n-1, or 0 if no such k exists (for example, when n = 1 or a prime).",
+  "id": "A339872",
+  "mentions": [
+    "A055396",
+    "A160595",
+    "A339817",
+    "A339871"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

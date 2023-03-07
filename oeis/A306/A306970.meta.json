@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of the form 8*k+3 not represented by 2*x^2+4*y^2+4*y*z+9*z^2.",
+  "id": "A306970",
+  "mentions": [
+    "A017101"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

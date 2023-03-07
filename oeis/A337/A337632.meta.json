@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of nonnegative integers m < n such that m^k - m == 0 (mod n), where 0 <= k < n.",
+  "id": "A337632",
+  "mentions": [
+    "A334006",
+    "A337633"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

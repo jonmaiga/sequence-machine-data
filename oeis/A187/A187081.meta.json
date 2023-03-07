@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) read by rows: sandpiles of n grains and height k.",
+  "id": "A187081",
+  "mentions": [
+    "A000071",
+    "A047998",
+    "A186084",
+    "A186085"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 126,
+    "source": "oeis-entry"
+  }
+}

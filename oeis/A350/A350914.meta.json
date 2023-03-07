@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of unlabeled weakly connected oriented graphs with n arcs and k vertices, k = 1..n+1.",
+  "id": "A350914",
+  "mentions": [
+    "A086345",
+    "A350734",
+    "A350789",
+    "A350915"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

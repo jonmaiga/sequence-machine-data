@@ -1,0 +1,18 @@
+{
+  "description": "Number of length n+4+2 0..4 arrays with every value 0..4 appearing at least once in every consecutive 4+3 elements, and new values 0..4 introduced in order",
+  "id": "A242319",
+  "mentions": [
+    "A242322"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Numbers z such that z^8 = x^6 + y^7 for some integers x, y >= 1.",
+  "id": "A300568",
+  "mentions": [
+    "A242183",
+    "A300564",
+    "A300565",
+    "A300566",
+    "A300567",
+    "A302174",
+    "A303268",
+    "A303376"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of expected payoff in the \"Guessing Card Colors\" game with a 2n-card deck, using an optimal strategy.",
+  "id": "A322755",
+  "mentions": [
+    "A322756"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

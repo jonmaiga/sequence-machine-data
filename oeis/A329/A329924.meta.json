@@ -1,0 +1,20 @@
+{
+  "description": "Beatty sequence for (8+sqrt(34))/5.",
+  "id": "A329924",
+  "mentions": [
+    "A329825",
+    "A329923"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:01:03",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

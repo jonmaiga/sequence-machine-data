@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of n into at most 6 powers of 2.",
+  "id": "A347661",
+  "mentions": [
+    "A000079",
+    "A000123",
+    "A018819",
+    "A089051",
+    "A089052",
+    "A347658",
+    "A347659",
+    "A347660"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

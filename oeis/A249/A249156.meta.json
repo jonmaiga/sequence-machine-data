@@ -1,0 +1,24 @@
+{
+  "description": "Palindromic in bases 5 and 7.",
+  "id": "A249156",
+  "mentions": [
+    "A007632",
+    "A029952",
+    "A029954",
+    "A060792",
+    "A249155",
+    "A249157",
+    "A249158"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

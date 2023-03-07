@@ -1,0 +1,21 @@
+{
+  "description": "Fixed point of the morphism 1->221, 2->2211.",
+  "id": "A323116",
+  "mentions": [
+    "A000002",
+    "A001030",
+    "A006337",
+    "A007538",
+    "A018244"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

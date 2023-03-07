@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that 2^k-1 has only one primitive prime factor.",
+  "id": "A161508",
+  "mentions": [
+    "A007498",
+    "A064078",
+    "A072226",
+    "A086251",
+    "A144755",
+    "A161509",
+    "A247071",
+    "A333973"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

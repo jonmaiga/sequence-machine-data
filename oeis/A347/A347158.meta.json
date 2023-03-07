@@ -1,0 +1,25 @@
+{
+  "description": "Sum of 4th powers of distinct prime divisors of n that are < sqrt(n).",
+  "id": "A347158",
+  "mentions": [
+    "A001159",
+    "A005065",
+    "A005068",
+    "A333806",
+    "A333808",
+    "A347142",
+    "A347156",
+    "A347157"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

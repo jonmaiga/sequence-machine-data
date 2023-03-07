@@ -1,0 +1,19 @@
+{
+  "description": "Minimal number of squares in a dissection of an (n) X (n+1) oblong into squares.",
+  "id": "A279317",
+  "mentions": [
+    "A005670",
+    "A339548"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 113,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX6 0..4 arrays with each element equal to the number its horizontal and vertical neighbors less than or equal to itself",
+  "id": "A196542",
+  "mentions": [
+    "A196544"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

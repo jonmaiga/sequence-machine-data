@@ -1,0 +1,22 @@
+{
+  "description": "Balanced primes of order one ending in 7.",
+  "id": "A303094",
+  "mentions": [
+    "A006562",
+    "A030432",
+    "A303092",
+    "A303093",
+    "A303095"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Lucas(2^n - 1).",
+  "id": "A230600",
+  "mentions": [
+    "A000032",
+    "A000225",
+    "A001622",
+    "A058635",
+    "A192223",
+    "A230601",
+    "A230602"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

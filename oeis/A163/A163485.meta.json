@@ -1,0 +1,22 @@
+{
+  "description": "Permutation of integers used for constructing A147995 and A163545.",
+  "id": "A163485",
+  "mentions": [
+    "A000523",
+    "A057300",
+    "A147995",
+    "A163355",
+    "A163486",
+    "A163545"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

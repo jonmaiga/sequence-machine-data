@@ -1,0 +1,22 @@
+{
+  "description": "Values of n for which the denominator of (Sum_{prime p | n} 1/p - 1/n) is n.",
+  "id": "A326692",
+  "mentions": [
+    "A002997",
+    "A326689",
+    "A326690",
+    "A326691",
+    "A326715"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

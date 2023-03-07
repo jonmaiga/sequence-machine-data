@@ -1,0 +1,23 @@
+{
+  "description": "Triangle corresponding to the partition array of the M_1 multinomials (A036038).",
+  "id": "A292222",
+  "mentions": [
+    "A008277",
+    "A036038",
+    "A130534",
+    "A226874"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

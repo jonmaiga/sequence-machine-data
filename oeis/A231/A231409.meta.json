@@ -1,0 +1,26 @@
+{
+  "description": "Least k with 1^(k*m) + 2^(k*m) + ... + (k*m)^(k*m) == k (mod k*m) for m in A230311.",
+  "id": "A231409",
+  "mentions": [
+    "A031971",
+    "A229300",
+    "A229301",
+    "A229302",
+    "A229303",
+    "A229312",
+    "A230311"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

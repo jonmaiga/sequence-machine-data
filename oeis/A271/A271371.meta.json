@@ -1,0 +1,22 @@
+{
+  "description": "Total number of inversions in all partitions of n into distinct parts.",
+  "id": "A271371",
+  "mentions": [
+    "A000009",
+    "A008289",
+    "A161680",
+    "A271370",
+    "A271372"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

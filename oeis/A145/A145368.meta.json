@@ -1,0 +1,22 @@
+{
+  "description": "Row sums of triangle A145367 (S1hat(-3)) and partition array A145366 (M31hat(-3)).",
+  "id": "A145368",
+  "mentions": [
+    "A145364",
+    "A145365",
+    "A145366",
+    "A145367"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

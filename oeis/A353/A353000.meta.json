@@ -1,0 +1,22 @@
+{
+  "description": "Quotients obtained when sigma(k) divides antisigma(k) with k = A076617(n), sigma (A000203) is the sum of divisors function and antisigma (A024816) is the sum of the non-divisors of n less than n function.",
+  "id": "A353000",
+  "mentions": [
+    "A000203",
+    "A024816",
+    "A076617",
+    "A352810",
+    "A352811"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

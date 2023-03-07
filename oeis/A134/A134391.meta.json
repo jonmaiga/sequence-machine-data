@@ -1,0 +1,17 @@
+{
+  "description": "The sequence A_0, A_1, A_2, A_3, ..., where the A_k are defined in A064990.",
+  "id": "A134391",
+  "mentions": [
+    "A064990"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

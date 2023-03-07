@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k for which 16*k+1, 16*k+3 and 16*k+15 are primes.",
+  "id": "A123997",
+  "mentions": [
+    "A092022"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

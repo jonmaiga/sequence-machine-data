@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that k and k+1 have the same number of 3-smooth divisors.",
+  "id": "A355709",
+  "mentions": [
+    "A005237",
+    "A006049",
+    "A072078",
+    "A332386",
+    "A343819",
+    "A344312",
+    "A344313",
+    "A344314",
+    "A348345",
+    "A355710"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n*(n+1)/2 if n is odd, otherwise (n-1)*n/2 + 1.",
+  "id": "A128918",
+  "mentions": [
+    "A000384",
+    "A130883",
+    "A131179"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

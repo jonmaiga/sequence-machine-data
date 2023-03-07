@@ -1,0 +1,18 @@
+{
+  "description": "Central column of A326721.",
+  "id": "A326720",
+  "mentions": [
+    "A326721",
+    "A326722"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": -1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

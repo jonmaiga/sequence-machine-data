@@ -1,0 +1,20 @@
+{
+  "description": "Number of minimally 7-edge-connected non-isomorphic n-vertex graphs.",
+  "id": "A324414",
+  "mentions": [
+    "A001072",
+    "A324088",
+    "A324417"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

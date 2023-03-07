@@ -1,0 +1,22 @@
+{
+  "description": "Fermi-Dirac representation of n. Let n have factorization p1^(2^e1) * p2^(2^e2) * ... * pr^(2^er), where each factor is in A050376. The number n is represented by a binary string that indicates which terms of A050376 appear in the factorization of n.",
+  "id": "A182979",
+  "mentions": [
+    "A007088",
+    "A050376",
+    "A052330",
+    "A052331",
+    "A302778"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

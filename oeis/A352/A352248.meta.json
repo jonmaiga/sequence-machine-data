@@ -1,0 +1,20 @@
+{
+  "description": "Number of pairs of Goldbach partitions of A352240(n), (p,q) and (r,s) with p,q,r,s prime and p < r <= s < q, such that all integers in the open intervals (p,r) and (s,q) are composite.",
+  "id": "A352248",
+  "mentions": [
+    "A187797",
+    "A278700",
+    "A352240",
+    "A352283"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

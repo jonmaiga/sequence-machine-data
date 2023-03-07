@@ -1,0 +1,19 @@
+{
+  "description": "Irreducible near matchings over 2n+1 vertices.",
+  "id": "A212553",
+  "mentions": [
+    "A000699",
+    "A200142"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

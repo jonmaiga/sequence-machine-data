@@ -1,0 +1,22 @@
+{
+  "description": "Number of nonempty subsets of {1..n} whose elements have an odd root mean square.",
+  "id": "A357415",
+  "mentions": [
+    "A339454",
+    "A357355",
+    "A357411",
+    "A357413",
+    "A357416"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

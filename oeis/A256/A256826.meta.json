@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = the smallest number k such that A256824(k) = A256825(n).",
+  "id": "A256826",
+  "mentions": [
+    "A009995",
+    "A095050",
+    "A243534",
+    "A256824",
+    "A256825"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

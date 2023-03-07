@@ -1,0 +1,28 @@
+{
+  "description": "Numbers whose base-9 sum of digits is 9.",
+  "id": "A227238",
+  "mentions": [
+    "A017077",
+    "A018900",
+    "A052224",
+    "A187813",
+    "A226636",
+    "A226969",
+    "A227062",
+    "A227080",
+    "A227092",
+    "A227095"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

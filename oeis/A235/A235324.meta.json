@@ -1,0 +1,23 @@
+{
+  "description": "Sum of all parts of all partitions of n into an even number of parts minus the sum of all parts of all partitions of n into an odd number of parts.",
+  "id": "A235324",
+  "mentions": [
+    "A000041",
+    "A027187",
+    "A027193",
+    "A081362",
+    "A330373"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Sum of the 2nd smallest parts of all the partitions of n (2nd smallest part is defined to be 0 when the partition does not have at least 2 distinct parts).",
+  "id": "A265248",
+  "mentions": [
+    "A265247"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

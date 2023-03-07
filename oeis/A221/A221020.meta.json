@@ -1,0 +1,20 @@
+{
+  "description": "Reduced denominators of A179420(n)/n!, where e.g.f. A(x) = Sum_{n>=0} A179420(n)/n! satisfies: A(A(x)) = x*A'(x) with A(0)=0, A'(0)=1.",
+  "id": "A221020",
+  "mentions": [
+    "A179420",
+    "A221019"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

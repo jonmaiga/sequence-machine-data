@@ -1,0 +1,22 @@
+{
+  "description": "a(n)=number of numbers removed in each step of Eratosthenes's sieve for 10^2",
+  "id": "A145583",
+  "mentions": [
+    "A006880",
+    "A122121",
+    "A145532",
+    "A145540",
+    "A145592"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of dominating subsets with k vertices of the graph G(n) consisting of a pair of endvertices joined by n internally disjoint paths of length 2 (the n-ary generalized theta graph THETA_{2,2,...2}; n>=1, 1<=k<=n+2).",
+  "id": "A213668",
+  "mentions": [
+    "A052940",
+    "A055010",
+    "A083329",
+    "A153893",
+    "A212634"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Odd composite numbers k such that A053575(k) [the odd part of phi] divides k-1.",
+  "id": "A339880",
+  "mentions": [
+    "A000010",
+    "A000265",
+    "A002997",
+    "A005117",
+    "A016105",
+    "A053575",
+    "A053576",
+    "A339817",
+    "A339869",
+    "A339870",
+    "A339879",
+    "A340077"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

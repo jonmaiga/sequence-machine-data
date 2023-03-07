@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of the zeta function at 2 of every second prime number.",
+  "id": "A282468",
+  "mentions": [
+    "A013661",
+    "A031215",
+    "A085548",
+    "A111003",
+    "A117543",
+    "A131653",
+    "A222171",
+    "A275647"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "cons",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Starts of a run of at least n consecutive numbers k for which k^2 - k + 41 is composite.",
+  "id": "A284043",
+  "mentions": [
+    "A002837",
+    "A005846",
+    "A007634",
+    "A056561",
+    "A145292",
+    "A202018"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

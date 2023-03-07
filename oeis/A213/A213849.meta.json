@@ -1,0 +1,22 @@
+{
+  "description": "Rectangular array: (row n) = b**c, where b(h) = ceiling(h/2), c(h) = floor(n-1+h), n>=1, h>=1, and ** = convolution.",
+  "id": "A213849",
+  "mentions": [
+    "A049778",
+    "A212500",
+    "A213850"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 14:53:22",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

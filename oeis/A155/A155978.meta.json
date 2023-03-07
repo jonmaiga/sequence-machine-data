@@ -1,0 +1,17 @@
+{
+  "description": "The primes (p-11)/10 arising in A089442.",
+  "id": "A155978",
+  "mentions": [
+    "A089442"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

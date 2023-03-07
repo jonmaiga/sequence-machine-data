@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 0; for n > 0, if the value of n itself appears in the sequence then a(n) = a(n-1) - (n-index(n)) if nonnegative and not already in the sequence, otherwise a(n) = a(n-1) + (n-index(n)), where index(n) is the index of the last appearance of n. If the value of n does not appear then a(n) = a(n-1) - n if nonnegative and not already in the sequence, otherwise a(n) = a(n-1) + n.",
+  "id": "A340733",
+  "mentions": [
+    "A005132",
+    "A336760",
+    "A336761",
+    "A340593",
+    "A340612"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

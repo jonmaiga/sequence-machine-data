@@ -1,0 +1,18 @@
+{
+  "description": "Lesser of Fermi-Dirac twin primes: both a(n)(>=5) and a(n)+2 are in A050376.",
+  "id": "A229064",
+  "mentions": [
+    "A001359",
+    "A050376"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

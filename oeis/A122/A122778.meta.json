@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} A(n,k)*n^k where A(n,k) are Eulerian numbers.",
+  "id": "A122778",
+  "mentions": [
+    "A008292",
+    "A086914"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

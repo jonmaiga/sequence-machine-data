@@ -1,0 +1,18 @@
+{
+  "description": "Primes equal to 3*Sp - 2, where Sp is a semiprime.",
+  "id": "A129928",
+  "mentions": [
+    "A129926"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

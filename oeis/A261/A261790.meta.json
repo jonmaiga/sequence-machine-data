@@ -1,0 +1,19 @@
+{
+  "description": "Regular triangle read by rows: T(n,k) is the least positive number m such that k*m and k*m*(m+1)/2 are both divisible by n, with 0<=k<=n and T(0,0)=1.",
+  "id": "A261790",
+  "mentions": [
+    "A011772",
+    "A022998"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "A strong divisibility sequence associated with the algebraic integer 2 + i.",
+  "id": "A230369",
+  "mentions": [
+    "A082630",
+    "A230368",
+    "A235450"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

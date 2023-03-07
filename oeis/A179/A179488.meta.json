@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: A(x) satisfies A(x) = x/(1 - (1-2x)*A( x/(1-2x) )).",
+  "id": "A179488",
+  "mentions": [
+    "A074664",
+    "A179489"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

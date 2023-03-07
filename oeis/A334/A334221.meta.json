@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the Y-coordinate of the point at n steps forward from the origine along the space filling curve U defined in A334188; sequence A334220 gives X-coordinates.",
+  "id": "A334221",
+  "mentions": [
+    "A334188",
+    "A334220"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

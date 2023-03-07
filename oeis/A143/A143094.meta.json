@@ -1,0 +1,19 @@
+{
+  "description": "Arises in counting relative Milnor rings in K-theory.",
+  "id": "A143094",
+  "mentions": [
+    "A143093"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

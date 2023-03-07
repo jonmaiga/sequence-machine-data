@@ -1,0 +1,21 @@
+{
+  "description": "Infinitary aliquot sequence starting at 6216.",
+  "id": "A293355",
+  "mentions": [
+    "A037445",
+    "A049417",
+    "A126168",
+    "A127661"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

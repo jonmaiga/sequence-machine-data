@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{d|n, d is odd} mu(n/d)*d, where mu(n) is Moebius function A008683.",
+  "id": "A319997",
+  "mentions": [
+    "A000010",
+    "A000035",
+    "A008683",
+    "A062570",
+    "A319998"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

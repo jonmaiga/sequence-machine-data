@@ -1,0 +1,23 @@
+{
+  "description": "Values of the Ramanujan tau quadruples mod 691 such that four (or more) consecutive Ramanujan tau numbers are congruent mod 691.",
+  "id": "A337917",
+  "mentions": [
+    "A000594",
+    "A046694",
+    "A121733",
+    "A121734",
+    "A121742",
+    "A121743",
+    "A337916"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 112,
+    "source": "oeis-bfile"
+  }
+}

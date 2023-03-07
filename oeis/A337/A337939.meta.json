@@ -1,0 +1,33 @@
+{
+  "description": "Irregular triangle T(n, m) read by rows: row n gives the distinct length ratios diagonal/side of regular n-gons, DSR(n, k), for n >= 2, k = 1, 2, ..., floor(n/2), expressed by the coefficients in the power basis of the Galois group Gal(Q(rho(n))/Q), where rho(n) = 2*cos(Pi/n), for n >= 2. T(1, 1) is set to 1.",
+  "id": "A337939",
+  "mentions": [
+    "A001622",
+    "A014176",
+    "A019434",
+    "A049310",
+    "A055034",
+    "A111774",
+    "A121601",
+    "A174090",
+    "A179260",
+    "A187360",
+    "A219839",
+    "A337940",
+    "A338429",
+    "A338431"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

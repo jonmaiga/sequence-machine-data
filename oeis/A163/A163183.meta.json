@@ -1,0 +1,26 @@
+{
+  "description": "Primes dividing 2^j + 1 for some odd j",
+  "id": "A163183",
+  "mentions": [
+    "A007520",
+    "A033200",
+    "A033203",
+    "A051071",
+    "A051073",
+    "A051077",
+    "A051085",
+    "A051101",
+    "A163184"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

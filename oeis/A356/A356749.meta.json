@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of trailing 1's in the dual Zeckendorf representation of n (A104326).",
+  "id": "A356749",
+  "mentions": [
+    "A001622",
+    "A003849",
+    "A035614",
+    "A104326",
+    "A276084",
+    "A278045"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

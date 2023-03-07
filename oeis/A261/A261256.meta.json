@@ -1,0 +1,32 @@
+{
+  "description": "Let S_k denote the sequence of numbers j such that A001222(j) - A001221(j) = k. Then a(n) is the n-th term of S_n.",
+  "id": "A261256",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A005117",
+    "A046660",
+    "A060687",
+    "A195086",
+    "A195087",
+    "A195088",
+    "A195089",
+    "A195090",
+    "A195091",
+    "A195092",
+    "A195093",
+    "A257851",
+    "A264959"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

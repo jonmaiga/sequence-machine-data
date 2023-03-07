@@ -1,0 +1,35 @@
+{
+  "description": "Number of integer partitions of n that are not pairwise coprime, where a singleton is not coprime unless it is (1).",
+  "id": "A335240",
+  "mentions": [
+    "A007360",
+    "A018783",
+    "A051424",
+    "A066099",
+    "A087087",
+    "A101268",
+    "A302569",
+    "A302696",
+    "A326674",
+    "A326675",
+    "A327516",
+    "A333226",
+    "A333227",
+    "A333228",
+    "A335235",
+    "A335236",
+    "A335237",
+    "A335238",
+    "A335239"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

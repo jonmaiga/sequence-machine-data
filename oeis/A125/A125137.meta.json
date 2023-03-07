@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = p^p + 1, where p = prime(n).",
+  "id": "A125137",
+  "mentions": [
+    "A051674",
+    "A088730",
+    "A104131",
+    "A114846",
+    "A125135",
+    "A125136"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

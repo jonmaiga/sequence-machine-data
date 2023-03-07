@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: Characteristic polynomials of lower triangular Bell number matrix.",
+  "id": "A101908",
+  "mentions": [
+    "A000110",
+    "A024716"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

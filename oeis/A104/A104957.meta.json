@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the area of the regular 7-gon (heptagon) of circumradius = 1.",
+  "id": "A104957",
+  "mentions": [
+    "A104954",
+    "A104955",
+    "A104956"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "changed",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:49:05",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

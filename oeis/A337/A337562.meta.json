@@ -1,0 +1,41 @@
+{
+  "description": "Number of pairwise coprime strict compositions of n, where a singleton is always considered coprime.",
+  "id": "A337562",
+  "mentions": [
+    "A000740",
+    "A007360",
+    "A051424",
+    "A072706",
+    "A087087",
+    "A101268",
+    "A178472",
+    "A220377",
+    "A302569",
+    "A305713",
+    "A307719",
+    "A326675",
+    "A327516",
+    "A328673",
+    "A332004",
+    "A333227",
+    "A333228",
+    "A335235",
+    "A335238",
+    "A337461",
+    "A337462",
+    "A337561",
+    "A337664",
+    "A337665"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

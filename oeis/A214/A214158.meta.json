@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number with n as least nonnegative primitive root, or 0 if no such number exists.",
+  "id": "A214158",
+  "mentions": [
+    "A001597",
+    "A023048",
+    "A046145",
+    "A046147"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 9^n - 8*8^n + 28*7^n - 56*6^n + 70*5^n - 56*4^n + 28*3^n - 8*2^n + 1.",
+  "id": "A228911",
+  "mentions": [
+    "A049447",
+    "A163626",
+    "A228910"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

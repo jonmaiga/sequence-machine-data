@@ -1,0 +1,24 @@
+{
+  "description": "Smallest k such that 6^^n is not congruent to 6^^(n-1) mod k, where 6^^n denotes the power tower 6^6^...^6 (in which 6 appears n times).",
+  "id": "A246494",
+  "mentions": [
+    "A027763",
+    "A246491",
+    "A246492",
+    "A246493",
+    "A246495",
+    "A246496",
+    "A246497"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

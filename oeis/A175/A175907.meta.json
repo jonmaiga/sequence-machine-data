@@ -1,0 +1,22 @@
+{
+  "description": "Known friendly squarefree numbers.",
+  "id": "A175907",
+  "mentions": [
+    "A005117",
+    "A014567",
+    "A074902",
+    "A095751",
+    "A096366",
+    "A140688"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

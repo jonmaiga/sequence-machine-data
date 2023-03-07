@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of -sqrt(2)*arctan(sqrt(2)/5) + Pi*sqrt(2)/4.",
+  "id": "A266814",
+  "mentions": [
+    "A093825",
+    "A267033",
+    "A267040"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:08",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Arises in complete classification of spherically symmetric static spacetimes via Noether symmetries.",
+  "id": "A229231",
+  "mentions": [
+    "A072966"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

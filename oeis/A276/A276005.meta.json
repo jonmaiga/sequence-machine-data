@@ -1,0 +1,32 @@
+{
+  "description": "Numbers with hit-free factorial base representations; positions of zeros in A276004 & A276007.",
+  "id": "A276005",
+  "mentions": [
+    "A000110",
+    "A000142",
+    "A003714",
+    "A007623",
+    "A060112",
+    "A060117",
+    "A060118",
+    "A060128",
+    "A060502",
+    "A261220",
+    "A275804",
+    "A276004",
+    "A276006",
+    "A276007"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

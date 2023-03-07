@@ -1,0 +1,23 @@
+{
+  "description": "Number of distinct board states reachable in n jumps in European Peg Solitaire.",
+  "id": "A355295",
+  "mentions": [
+    "A112737",
+    "A130515",
+    "A335656",
+    "A350561",
+    "A351286"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

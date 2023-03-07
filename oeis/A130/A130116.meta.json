@@ -1,0 +1,21 @@
+{
+  "description": "Inverse Moebius transform of a diagonalized matrix of A007436.",
+  "id": "A130116",
+  "mentions": [
+    "A007436",
+    "A051731",
+    "A054525"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

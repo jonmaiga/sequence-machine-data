@@ -1,0 +1,21 @@
+{
+  "description": "Primes p with prime(p)^3 + 2*p^3 and p^3 + 2*prime(p)^3 both prime.",
+  "id": "A236574",
+  "mentions": [
+    "A000040",
+    "A000578",
+    "A173587",
+    "A220413",
+    "A236193"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

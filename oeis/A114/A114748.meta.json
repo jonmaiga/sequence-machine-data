@@ -1,0 +1,20 @@
+{
+  "description": "Value of k pertaining to A114747.",
+  "id": "A114748",
+  "mentions": [
+    "A114747"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 3,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^k * binomial(n+2*k+2,n-k) * Catalan(k).",
+  "id": "A360058",
+  "mentions": [
+    "A000108",
+    "A162481",
+    "A360049",
+    "A360059",
+    "A360060"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Number of integer partitions y of n such that y_i = y_{i+1} for all even i.",
+  "id": "A351003",
+  "mentions": [
+    "A000070",
+    "A018819",
+    "A027383",
+    "A035363",
+    "A088218",
+    "A101417",
+    "A122129",
+    "A122135",
+    "A350837",
+    "A351004",
+    "A351005",
+    "A351006",
+    "A351007",
+    "A351008",
+    "A351012"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of (1,1) pairs occurring at depth 3n of the Fibonacci tree.",
+  "id": "A305573",
+  "mentions": [
+    "A001764"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

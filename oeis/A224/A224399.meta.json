@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A224166(k) = A008908(k).",
+  "id": "A224399",
+  "mentions": [
+    "A008908",
+    "A224166"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

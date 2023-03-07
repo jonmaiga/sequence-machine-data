@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies: [x^n] A(x)^(n+1) = [x^n] A(x)^(n+2) for n>1 with A'(0)=A(0)=1.",
+  "id": "A177383",
+  "mentions": [
+    "A158883",
+    "A177384",
+    "A182304"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

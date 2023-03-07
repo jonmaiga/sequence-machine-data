@@ -1,0 +1,20 @@
+{
+  "description": "Multiplicative Smith numbers: Composite numbers n such that the product of nonzero digits of n = product of nonzero digits of prime factors of n.",
+  "id": "A232541",
+  "mentions": [
+    "A006753",
+    "A051801"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

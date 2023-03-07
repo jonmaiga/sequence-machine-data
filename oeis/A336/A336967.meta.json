@@ -1,0 +1,28 @@
+{
+  "description": "Prime starting a sequence of 24 consecutive primes with symmetrical gaps about the center.",
+  "id": "A336967",
+  "mentions": [
+    "A000040",
+    "A055381",
+    "A055382",
+    "A064101",
+    "A081235",
+    "A175309",
+    "A335044",
+    "A335394",
+    "A336966",
+    "A336968",
+    "A359440"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

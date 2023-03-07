@@ -1,0 +1,19 @@
+{
+  "description": "First differences of 5-smooth numbers (A051037).",
+  "id": "A219794",
+  "mentions": [
+    "A051037",
+    "A085152"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

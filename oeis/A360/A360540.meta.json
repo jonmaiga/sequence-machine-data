@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the cubefull part of n: the largest divisor of n that is a cubefull number (A036966).",
+  "id": "A360540",
+  "mentions": [
+    "A004709",
+    "A036966",
+    "A057521",
+    "A337050",
+    "A360539"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

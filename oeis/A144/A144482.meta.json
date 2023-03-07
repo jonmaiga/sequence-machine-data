@@ -1,0 +1,21 @@
+{
+  "description": "Semiprimes that are a product of Mersenne primes.",
+  "id": "A144482",
+  "mentions": [
+    "A000668",
+    "A001358",
+    "A144856",
+    "A333788",
+    "A335882"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

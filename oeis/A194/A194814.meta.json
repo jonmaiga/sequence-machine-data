@@ -1,0 +1,19 @@
+{
+  "description": "Number of integers k in [1,n] such that {n*r+k*r} > {n*r-k*r}, where { } = fractional part and r=(1+sqrt(5))/2 (the golden ratio).",
+  "id": "A194814",
+  "mentions": [
+    "A000027",
+    "A194738",
+    "A194813"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

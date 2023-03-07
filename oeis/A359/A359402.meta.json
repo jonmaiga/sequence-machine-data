@@ -1,0 +1,38 @@
+{
+  "description": "Numbers whose binary expansion and reversed binary expansion have the same sum of positions of 1's, where positions in a sequence are read starting with 1 from the left.",
+  "id": "A359402",
+  "mentions": [
+    "A000120",
+    "A029931",
+    "A030190",
+    "A030308",
+    "A048793",
+    "A051293",
+    "A053632",
+    "A070939",
+    "A222955",
+    "A230877",
+    "A231204",
+    "A291166",
+    "A304818",
+    "A318283",
+    "A326669",
+    "A326672",
+    "A326673",
+    "A358134",
+    "A359042",
+    "A359401",
+    "A359495"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

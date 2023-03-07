@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that A001414(k^4+1) is divisible by k.",
+  "id": "A309558",
+  "mentions": [
+    "A001414",
+    "A309534",
+    "A309542",
+    "A309544"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

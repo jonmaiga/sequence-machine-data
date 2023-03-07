@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n - a^[3](n - a^[4](n-1)) with a(1) = 1, where a^[3](n) = a(a(a(n))) and a^[4](n) = a(a(a(a(n)))).",
+  "id": "A356989",
+  "mentions": [
+    "A000930",
+    "A006165",
+    "A179070",
+    "A356988",
+    "A356990"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

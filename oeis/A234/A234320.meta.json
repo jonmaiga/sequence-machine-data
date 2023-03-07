@@ -1,0 +1,19 @@
+{
+  "description": "Largest number that is not the sum of distinct primes of the form 2k+1, 4k+1, 4k+3, 6k+1, 6k+5, ...; or 0 if none exists.",
+  "id": "A234320",
+  "mentions": [
+    "A231407",
+    "A231408"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

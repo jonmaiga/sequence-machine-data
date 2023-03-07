@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (3/n)*Sum_{k=0..n-1} A245769(k)^2.",
+  "id": "A268136",
+  "mentions": [
+    "A000290",
+    "A245769",
+    "A268137",
+    "A268138"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

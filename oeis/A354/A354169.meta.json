@@ -1,0 +1,36 @@
+{
+  "description": "a(0) = 0, a(1) = 1, a(2) = 2; for k >= 2, given a(k), the sequence is extended by adjoining two terms: a(2*k-1) = smallest m >= 0 not among a(0) .. a(k) such that {m, a(k), a(k+1), ..., a(2*k-2)} are pairwise disjoint in binary, and a(2*k) = smallest m >= 0 not among a(0) .. a(k) such that {m, a(k), ..., a(2*k-1)} are pairwise disjoint in binary.",
+  "id": "A354169",
+  "mentions": [
+    "A000120",
+    "A090252",
+    "A098550",
+    "A121216",
+    "A252867",
+    "A347113",
+    "A353708",
+    "A353712",
+    "A354680",
+    "A354767",
+    "A354773",
+    "A354774",
+    "A354775",
+    "A354780",
+    "A354781",
+    "A354783",
+    "A354798",
+    "A355150",
+    "A355889"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

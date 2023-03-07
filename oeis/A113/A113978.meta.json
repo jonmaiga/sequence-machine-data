@@ -1,0 +1,20 @@
+{
+  "description": "a(n)=Sum(d|n)(10^(n-d)).",
+  "id": "A113978",
+  "mentions": [
+    "A051731",
+    "A074854"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

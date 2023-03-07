@@ -1,0 +1,29 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of parts in the partition of n into k consecutive parts that differ by 6, n >= 1, k >= 1, and the first element of column k is in the row that is the k-th octagonal number (A000567).",
+  "id": "A334947",
+  "mentions": [
+    "A000567",
+    "A127093",
+    "A285914",
+    "A330466",
+    "A330888",
+    "A334462",
+    "A334540",
+    "A334946",
+    "A334948",
+    "A334949",
+    "A334953"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

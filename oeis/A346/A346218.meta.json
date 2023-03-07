@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of 1/Pi in signed binary nonadjacent form.",
+  "id": "A346218",
+  "mentions": [
+    "A049541",
+    "A127266",
+    "A184615",
+    "A184616",
+    "A345703"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

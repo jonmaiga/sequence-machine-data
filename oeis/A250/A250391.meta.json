@@ -1,0 +1,18 @@
+{
+  "description": "Number of length 5+3 0..n arrays with no four consecutive terms having the maximum of any two terms equal to the minimum of the remaining two terms.",
+  "id": "A250391",
+  "mentions": [
+    "A250387"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:36:01",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

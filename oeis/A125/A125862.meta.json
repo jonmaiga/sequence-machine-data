@@ -1,0 +1,24 @@
+{
+  "description": "Column 2 of table A125860; also equals row sums of matrix power A097712^2.",
+  "id": "A125862",
+  "mentions": [
+    "A016121",
+    "A097712",
+    "A125859",
+    "A125860",
+    "A125861",
+    "A125863",
+    "A125864",
+    "A125865"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

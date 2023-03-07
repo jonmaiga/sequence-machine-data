@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of cos(gamma).",
+  "id": "A119806",
+  "mentions": [
+    "A001620",
+    "A073004",
+    "A119807"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

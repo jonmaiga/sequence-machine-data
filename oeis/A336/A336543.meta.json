@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of ways to write A336542(n) as a sum of two nonzero squares.",
+  "id": "A336543",
+  "mentions": [
+    "A025426",
+    "A274567",
+    "A336542"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

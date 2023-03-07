@@ -1,0 +1,20 @@
+{
+  "description": "Number of Hamiltonian cycles in the 5-ary De Bruijn graph.",
+  "id": "A191744",
+  "mentions": [
+    "A027362",
+    "A192513"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

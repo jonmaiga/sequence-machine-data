@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of solution to LambertW(-x) - LambertW(-1,-x) = 2.",
+  "id": "A346205",
+  "mentions": [
+    "A072334",
+    "A073742",
+    "A073747"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 110,
+    "source": "oeis-entry"
+  }
+}

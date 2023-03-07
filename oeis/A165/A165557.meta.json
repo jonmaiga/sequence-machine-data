@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form (p^2-1)/4-p where p are also primes.",
+  "id": "A165557",
+  "mentions": [
+    "A165349"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

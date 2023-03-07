@@ -1,0 +1,31 @@
+{
+  "description": "Number of maximal subsets of {1..n} containing no differences or quotients of pairs of distinct elements.",
+  "id": "A326491",
+  "mentions": [
+    "A007865",
+    "A051026",
+    "A054519",
+    "A121269",
+    "A326023",
+    "A326117",
+    "A326489",
+    "A326490",
+    "A326492",
+    "A326494",
+    "A326496",
+    "A326497",
+    "A327591"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

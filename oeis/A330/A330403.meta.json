@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms with an associate sequence t such that t(0) = 0, and for any n > 0, at least one of t(n-1) - a(n) or t(n-1) + a(n) is a square; in case t(n-1) - a(n) is a square, set t(n) = t(n-1) - a(n), otherwise set t(n) = t(n-1) + a(n).",
+  "id": "A330403",
+  "mentions": [
+    "A330385",
+    "A330401",
+    "A330422"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

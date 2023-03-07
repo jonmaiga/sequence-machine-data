@@ -1,0 +1,21 @@
+{
+  "description": "Squareful numbers with squareful neighbors.",
+  "id": "A235578",
+  "mentions": [
+    "A001694",
+    "A013929",
+    "A070258",
+    "A228649"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

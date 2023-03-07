@@ -1,0 +1,26 @@
+{
+  "description": "Base-10 complementary numbers: n equals the product of the 10's complement of its digits.",
+  "id": "A294090",
+  "mentions": [
+    "A000079",
+    "A003946",
+    "A084221",
+    "A122756",
+    "A128625",
+    "A298976",
+    "A298977"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

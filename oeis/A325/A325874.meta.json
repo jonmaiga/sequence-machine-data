@@ -1,0 +1,27 @@
+{
+  "description": "Number of integer partitions of n whose differences of all degrees > 1 are nonzero.",
+  "id": "A325874",
+  "mentions": [
+    "A049988",
+    "A238423",
+    "A325325",
+    "A325468",
+    "A325545",
+    "A325849",
+    "A325850",
+    "A325851",
+    "A325852",
+    "A325875",
+    "A325876"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

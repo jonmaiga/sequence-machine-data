@@ -1,0 +1,24 @@
+{
+  "description": "Numerator of Sum_{k=1..n}(-1)^k/phi(k), where phi = A000010.",
+  "id": "A211177",
+  "mentions": [
+    "A000010",
+    "A001620",
+    "A028415",
+    "A082695",
+    "A085609",
+    "A211178"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

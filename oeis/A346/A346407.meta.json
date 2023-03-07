@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the position of A051451(n) in A025487.",
+  "id": "A346407",
+  "mentions": [
+    "A003418",
+    "A025487",
+    "A051451",
+    "A098718",
+    "A098719",
+    "A138534",
+    "A293635",
+    "A306802",
+    "A346043"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

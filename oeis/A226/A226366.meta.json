@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that 5*2^k + 1 is a prime factor of a Fermat number 2^(2^m) + 1 for some m.",
+  "id": "A226366",
+  "mentions": [
+    "A000215",
+    "A002254",
+    "A050526",
+    "A057775",
+    "A057778",
+    "A201364",
+    "A204620"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

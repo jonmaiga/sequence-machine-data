@@ -1,0 +1,35 @@
+{
+  "description": "a(n) = A275725(A060126(n)); prime factorization encodings of cycle-polynomials computed for finite permutations listed in reversed colexicographic ordering.",
+  "id": "A290095",
+  "mentions": [
+    "A046523",
+    "A046660",
+    "A055089",
+    "A055090",
+    "A055091",
+    "A055092",
+    "A055093",
+    "A056170",
+    "A060126",
+    "A072411",
+    "A195663",
+    "A275725",
+    "A275734",
+    "A275735",
+    "A275812",
+    "A276076",
+    "A290096",
+    "A290097"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

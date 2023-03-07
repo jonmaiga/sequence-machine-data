@@ -1,0 +1,21 @@
+{
+  "description": "Pairs (i,j) of nonnegative integers with disjoint binary expansions sorted first by i+j then by i.",
+  "id": "A352909",
+  "mentions": [
+    "A047999",
+    "A295989",
+    "A352910"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 114,
+    "source": "oeis-bfile"
+  }
+}

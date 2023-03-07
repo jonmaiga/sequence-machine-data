@@ -1,0 +1,21 @@
+{
+  "description": "Index of smallest prime number where n consecutive trailing digits of the index are equal to n consecutive trailing digits in the prime.",
+  "id": "A133589",
+  "mentions": [
+    "A133583",
+    "A133584",
+    "A133590"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

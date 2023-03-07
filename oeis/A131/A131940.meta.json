@@ -1,0 +1,21 @@
+{
+  "description": "Least common multiple of {1, 7, 13, 19, 25, ..., (6n+1)} (A016921).",
+  "id": "A131940",
+  "mentions": [
+    "A008542",
+    "A016813",
+    "A016921",
+    "A051539"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

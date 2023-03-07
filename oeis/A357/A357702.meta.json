@@ -1,0 +1,23 @@
+{
+  "description": "Path length (total depths of vertices) of the rooted binary tree with Colijn-Plazzotta tree number n.",
+  "id": "A357702",
+  "mentions": [
+    "A002024",
+    "A002260",
+    "A064002",
+    "A196047",
+    "A357701"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

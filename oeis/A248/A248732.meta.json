@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of 6^n.",
+  "id": "A248732",
+  "mentions": [
+    "A000041",
+    "A000400",
+    "A068413",
+    "A070177",
+    "A248728",
+    "A248730",
+    "A248733",
+    "A248734"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

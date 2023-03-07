@@ -1,0 +1,18 @@
+{
+  "description": "Positions of 1 in the zero-one sequence [nr]-[3r]-[nr-3r], where r=sqrt(3), n>=1.",
+  "id": "A188074",
+  "mentions": [
+    "A188014",
+    "A188068"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:20:27",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

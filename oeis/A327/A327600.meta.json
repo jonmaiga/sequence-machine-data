@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the largest k such that the sum of k consecutive reciprocals 1/p_n + ... + 1/p_(n+k-1) does not exceed 1 (where p_n = n-th prime).",
+  "id": "A327600",
+  "mentions": [
+    "A136617",
+    "A137368"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

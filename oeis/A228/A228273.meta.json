@@ -1,0 +1,36 @@
+{
+  "description": "T(n,k) is the number of s in {1,...,n}^n having longest ending contiguous subsequence with the same value of length k; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A228273",
+  "mentions": [
+    "A000007",
+    "A000312",
+    "A002378",
+    "A028310",
+    "A031972",
+    "A045991",
+    "A053506",
+    "A055865",
+    "A066274",
+    "A081131",
+    "A085389",
+    "A085390",
+    "A085537",
+    "A085538",
+    "A085539",
+    "A228154",
+    "A228617"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

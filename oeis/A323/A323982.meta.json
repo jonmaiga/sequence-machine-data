@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of cosh(Pi/6).",
+  "id": "A323982",
+  "mentions": [
+    "A323983",
+    "A323984",
+    "A323985",
+    "A323986",
+    "A323987"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:54:43",
+    "offset": 1,
+    "size": 111,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Central values of the n-th discrete Chebyshev polynomials of order 2n.",
+  "id": "A245086",
+  "mentions": [
+    "A000172",
+    "A002894",
+    "A005260",
+    "A006480",
+    "A103882",
+    "A273630"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

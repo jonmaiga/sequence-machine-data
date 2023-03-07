@@ -1,0 +1,21 @@
+{
+  "description": "Permanent of the n-th principal submatrix of A002024.",
+  "id": "A204248",
+  "mentions": [
+    "A002024",
+    "A094638",
+    "A232773",
+    "A232818"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:24",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

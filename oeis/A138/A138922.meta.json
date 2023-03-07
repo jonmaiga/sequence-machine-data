@@ -1,0 +1,20 @@
+{
+  "description": "Indices k such that A020507(k)=Phi[k](-8) is prime, where Phi is a cyclotomic polynomial.",
+  "id": "A138922",
+  "mentions": [
+    "A020507",
+    "A138920",
+    "A138940"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

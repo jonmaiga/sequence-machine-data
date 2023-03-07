@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of (1-x)/(1 - 2*x + 4*x^2).",
+  "id": "A138230",
+  "mentions": [
+    "A087204",
+    "A088138",
+    "A098158",
+    "A104537",
+    "A124182",
+    "A128018"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

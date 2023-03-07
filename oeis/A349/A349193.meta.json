@@ -1,0 +1,32 @@
+{
+  "description": "1-Sondow numbers: numbers j such that p divides j/p + 1 for every prime divisor p of j.",
+  "id": "A349193",
+  "mentions": [
+    "A000010",
+    "A007850",
+    "A054377",
+    "A235137",
+    "A326715",
+    "A330068",
+    "A330069",
+    "A346551",
+    "A346552",
+    "A346553",
+    "A346554",
+    "A346555",
+    "A346556",
+    "A346557",
+    "A348058",
+    "A348059"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Least nonnegative integer whose decimal digits divide the plane into n regions (A250257 variant).",
+  "id": "A250258",
+  "mentions": [
+    "A001743",
+    "A001744",
+    "A001745",
+    "A001746",
+    "A002282",
+    "A249572",
+    "A250256",
+    "A250257"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:38:59",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

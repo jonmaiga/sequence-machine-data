@@ -1,0 +1,22 @@
+{
+  "description": "Self-inverse triangle H, read by rows; a nontrivial matrix square-root of identity: H^2 = I, where H(n,k) = C(n,k)*(-1)^(floor((n+1)/2) - floor(k/2) + n - k) for n >= k >= 0.",
+  "id": "A118433",
+  "mentions": [
+    "A000587",
+    "A118434",
+    "A118435",
+    "A144185"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

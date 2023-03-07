@@ -1,0 +1,22 @@
+{
+  "description": "Convolution of Pell(n) and 10^n.",
+  "id": "A178626",
+  "mentions": [
+    "A000129",
+    "A009965",
+    "A021083",
+    "A038207"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

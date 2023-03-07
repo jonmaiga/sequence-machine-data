@@ -1,0 +1,19 @@
+{
+  "description": "An irregular table of natural numbers used to generate the values in sequence A140760; which, in turn, can be mapped to the source partitions counted by A053445.",
+  "id": "A140759",
+  "mentions": [
+    "A053445",
+    "A126441",
+    "A140760"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

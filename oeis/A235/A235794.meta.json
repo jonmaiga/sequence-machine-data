@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows: T(n,k), n>=1, k>=1, in which column k starts with k zeros and then lists the odd numbers interleaved with k zeros, and the first element of column k is in row k(k+1)/2.",
+  "id": "A235794",
+  "mentions": [
+    "A000203",
+    "A000217",
+    "A003056",
+    "A004125",
+    "A120444",
+    "A196020",
+    "A211343",
+    "A228813",
+    "A231345",
+    "A231347",
+    "A235791",
+    "A236104",
+    "A236106",
+    "A236112"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of involutions in the quaternion ring over Z/(2^n)Z with i^2=j^2=1.",
+  "id": "A236554",
+  "mentions": [
+    "A227867",
+    "A236553"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

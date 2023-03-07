@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 1 if the odd part of sigma(k) divides A003961(k), otherwise 0, where A003961 is fully multiplicative with a(p) = nextprime(p), and sigma is the sum of divisors function.",
+  "id": "A355946",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A161942",
+    "A342671",
+    "A349756",
+    "A350073",
+    "A355943"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 127,
+    "source": "oeis-bfile"
+  }
+}

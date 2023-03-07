@@ -1,0 +1,35 @@
+{
+  "description": "Number T(n,k) of partitions of n where each part i is marked with a word of length i over a k-ary alphabet whose letters appear in alphabetical order and all k letters occur at least once in the partition; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A261719",
+  "mentions": [
+    "A000007",
+    "A000041",
+    "A005651",
+    "A035341",
+    "A060642",
+    "A261718",
+    "A261732",
+    "A261781",
+    "A293366",
+    "A293367",
+    "A293368",
+    "A293369",
+    "A293370",
+    "A293371",
+    "A293372",
+    "A293373",
+    "A293374"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

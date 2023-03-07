@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k for which A003415(k) > k*A003557(k).",
+  "id": "A346245",
+  "mentions": [
+    "A003415",
+    "A003557",
+    "A102631",
+    "A181629",
+    "A265501",
+    "A286652",
+    "A342001",
+    "A346244"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

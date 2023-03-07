@@ -1,0 +1,22 @@
+{
+  "description": "c(n) mod b(n) where c(n) = (n-1)! and b(n) = Sum_{i=1..n} i.",
+  "id": "A120387",
+  "mentions": [
+    "A000217",
+    "A116536",
+    "A119690",
+    "A226718"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

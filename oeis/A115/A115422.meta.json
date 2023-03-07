@@ -1,0 +1,23 @@
+{
+  "description": "Integers n > 0 such that n XOR 20*n = 21*n.",
+  "id": "A115422",
+  "mentions": [
+    "A003714",
+    "A048715",
+    "A048718",
+    "A115423",
+    "A115424",
+    "A224809"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

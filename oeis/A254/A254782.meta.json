@@ -1,0 +1,22 @@
+{
+  "description": "Indices of centered hexagonal numbers (A003215) which are also centered pentagonal numbers (A005891).",
+  "id": "A254782",
+  "mentions": [
+    "A003215",
+    "A005891",
+    "A133141",
+    "A133285"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

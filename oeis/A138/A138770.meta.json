@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of {1,2,...,n} such that there are exactly k entries between the entries 1 and 2 (n>=2, 0<=k<=n-2).",
+  "id": "A138770",
+  "mentions": [
+    "A000142",
+    "A005990",
+    "A052489",
+    "A052582",
+    "A052609",
+    "A052849",
+    "A061206",
+    "A090672"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 2,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

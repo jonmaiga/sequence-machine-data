@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the ranks of the partitions of n in nonincreasing order.",
+  "id": "A330368",
+  "mentions": [
+    "A000004",
+    "A000041",
+    "A105805",
+    "A105806",
+    "A194547",
+    "A194549",
+    "A195822",
+    "A208478",
+    "A209616",
+    "A330370"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

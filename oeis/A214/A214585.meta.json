@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that gcd(k!!+1,k-1) > 1.",
+  "id": "A214585",
+  "mentions": [
+    "A214054",
+    "A214586"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

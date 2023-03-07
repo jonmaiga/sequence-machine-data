@@ -1,0 +1,21 @@
+{
+  "description": "Analog of A048613 based on sum of reciprocals of Mersenne primes.",
+  "id": "A209600",
+  "mentions": [
+    "A000668",
+    "A048613",
+    "A173898",
+    "A209601"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

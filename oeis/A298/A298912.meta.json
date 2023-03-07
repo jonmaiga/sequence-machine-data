@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n such that the number of groups of order n equals the number of groups of order n + 1.",
+  "id": "A298912",
+  "mentions": [
+    "A000001",
+    "A295230",
+    "A295990",
+    "A295991",
+    "A295992",
+    "A295993",
+    "A295994",
+    "A295995",
+    "A298427"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

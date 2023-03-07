@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose cube is in A108571 (i.e., if it contains digit 'd' it contains d copies of it).",
+  "id": "A225886",
+  "mentions": [
+    "A108571",
+    "A181392"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

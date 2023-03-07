@@ -1,0 +1,19 @@
+{
+  "description": "Primes congruent to {1, 4} mod 19.",
+  "id": "A215166",
+  "mentions": [
+    "A000040",
+    "A045469"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:19:27",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "The number of set partitions of {1,2,...,n} into exactly two subsets A,B such that the greatest common divisor of |A| and |B| = 1.",
+  "id": "A194924",
+  "mentions": [
+    "A280880"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 2,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

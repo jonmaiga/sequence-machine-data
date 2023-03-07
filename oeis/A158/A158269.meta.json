@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = coefficient of x^n in the (2^n)-th iteration of x*C(x) where C(x) is the Catalan function (A000108), for n>=1.",
+  "id": "A158269",
+  "mentions": [
+    "A000108",
+    "A158268",
+    "A158825"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

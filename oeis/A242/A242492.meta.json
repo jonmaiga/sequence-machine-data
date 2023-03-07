@@ -1,0 +1,29 @@
+{
+  "description": "For any integer m > 1, the m-th term of the sequence is the minimal squarefree integer x with exactly m prime divisors such that x+1 and x+2 are also squarefree integers with exactly m prime divisors.",
+  "id": "A242492",
+  "mentions": [
+    "A007675",
+    "A039833",
+    "A066509",
+    "A068088",
+    "A093550",
+    "A176167",
+    "A192203",
+    "A242605",
+    "A242608",
+    "A242621"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least r such that there are n+2 consecutive increasing terms in the r-th row of Pascal's triangle (binomial(r,*)) which satisfy a polynomial of degree n.",
+  "id": "A241201",
+  "mentions": [
+    "A008865",
+    "A062730",
+    "A241199",
+    "A241200",
+    "A241202"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

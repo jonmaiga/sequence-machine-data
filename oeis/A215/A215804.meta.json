@@ -1,0 +1,20 @@
+{
+  "description": "Odd numbers k such that 10^k + 1 can be written in the form a^2 + 2*b^2.",
+  "id": "A215804",
+  "mentions": [
+    "A000533",
+    "A001562",
+    "A062397",
+    "A215805"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

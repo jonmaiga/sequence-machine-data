@@ -1,0 +1,22 @@
+{
+  "description": "Numbers j such that 24*(j^2) + 25 = k^2.",
+  "id": "A106331",
+  "mentions": [
+    "A004189",
+    "A077249",
+    "A077251",
+    "A106330"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:35:40",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

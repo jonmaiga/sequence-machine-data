@@ -1,0 +1,22 @@
+{
+  "description": "Number of numbers expressible as b(1)*b(2)*...*b(n) with 1 <= b(i) <= i for each i.",
+  "id": "A345882",
+  "mentions": [
+    "A000124",
+    "A027423",
+    "A110713",
+    "A347685",
+    "A347686"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

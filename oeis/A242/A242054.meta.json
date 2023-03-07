@@ -1,0 +1,18 @@
+{
+  "description": "Column 3 of square array A246072 / n!.",
+  "id": "A242054",
+  "mentions": [
+    "A246072"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

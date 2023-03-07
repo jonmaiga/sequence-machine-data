@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose arithmetic derivative is of the form 4k+1, cf. A003415.",
+  "id": "A358772",
+  "mentions": [
+    "A000040",
+    "A003415",
+    "A235991",
+    "A327862",
+    "A327864",
+    "A358771",
+    "A358774"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

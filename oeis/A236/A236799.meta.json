@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 1/9998.",
+  "id": "A236799",
+  "mentions": [
+    "A021102",
+    "A022002"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:48:33",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of unlabeled connected bicolored graphs on 2n nodes which are invariant when the two color classes are interchanged.",
+  "id": "A123549",
+  "mentions": [
+    "A005142",
+    "A123550",
+    "A318869",
+    "A318870"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

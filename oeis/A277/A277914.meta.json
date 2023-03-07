@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of zeros minus the number of ones among the first n terms of A076478.",
+  "id": "A277914",
+  "mentions": [
+    "A036799",
+    "A076478"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

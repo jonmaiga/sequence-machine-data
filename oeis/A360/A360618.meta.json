@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Sum_{k>=0} (k * x * (1 + k*x))^k.",
+  "id": "A360618",
+  "mentions": [
+    "A072034",
+    "A360592",
+    "A360611"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "List the positions of all digits 2 in the concatenation of all terms, not necessarily in order. This is the lexicographically earliest such sequence.",
+  "id": "A210416",
+  "mentions": [
+    "A098670",
+    "A210414",
+    "A210415",
+    "A210423"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

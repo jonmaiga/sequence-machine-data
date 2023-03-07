@@ -1,0 +1,20 @@
+{
+  "description": "Smallest m such that A101403(m) = n.",
+  "id": "A246431",
+  "mentions": [
+    "A101402",
+    "A101403",
+    "A129117"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

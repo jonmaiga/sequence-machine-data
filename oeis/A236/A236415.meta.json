@@ -1,0 +1,17 @@
+{
+  "description": "Sequence of distinct least triangular numbers such that the arithmetic mean of the first n terms is also a triangular number. Initial term is 0.",
+  "id": "A236415",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

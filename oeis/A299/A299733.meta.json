@@ -1,0 +1,27 @@
+{
+  "description": "Prime numbers represented in more than one way by cyclotomic binary forms f(x,y) with x and y prime numbers and y < x.",
+  "id": "A299733",
+  "mentions": [
+    "A293654",
+    "A296095",
+    "A299214",
+    "A299498",
+    "A299928",
+    "A299929",
+    "A299930",
+    "A299956",
+    "A299964"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of zig-zag paths from top to bottom of a rectangle of width 12 with n rows.",
+  "id": "A153361",
+  "mentions": [
+    "A129638",
+    "A220062"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:17:16",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

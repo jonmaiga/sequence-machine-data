@@ -1,0 +1,20 @@
+{
+  "description": "Sum over the genera g of the number of immersions of an oriented circle with n crossings in an unoriented surface of genus g.",
+  "id": "A260887",
+  "mentions": [
+    "A260296",
+    "A260847",
+    "A260885",
+    "A260912"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

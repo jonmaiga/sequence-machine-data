@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the triple integral Integral_{z = 0..1} Integral_{y = 0..1} Integral_{x = 0..1} (x*y*z)^(x*y*z) dx dy dz.",
+  "id": "A209059",
+  "mentions": [
+    "A073009",
+    "A083648",
+    "A209060"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

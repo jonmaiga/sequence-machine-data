@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X 7 0..2 arrays with rows, columns and antidiagonals unimodal and diagonals nondecreasing.",
+  "id": "A223932",
+  "mentions": [
+    "A223933"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

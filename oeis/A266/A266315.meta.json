@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that 2*n and n^3 have the same digit sum.",
+  "id": "A266315",
+  "mentions": [
+    "A000578",
+    "A005843",
+    "A070276",
+    "A260906"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "T(n,m) is the number of non-congruent quadrilaterals with integer vertex coordinates (x1,1), (n,y2), (x3,m), (1,y4), 1 < x1, x3 < n, 1 < y2, y4 < m, m <= n, such that the 6 distances between the 4 vertices are distinct and (x3-x1)*(y4-y2) > 0, where T(n,m) is a triangle read by rows.",
+  "id": "A353449",
+  "mentions": [
+    "A353450",
+    "A353451",
+    "A353532"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 3,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

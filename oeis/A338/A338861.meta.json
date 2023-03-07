@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the largest area of a rectangle which can be dissected into n squares with integer sides s_i, i = 1 .. n, and gcd(s_1,...,s_n) = 1.",
+  "id": "A338861",
+  "mentions": [
+    "A219158",
+    "A290821",
+    "A340726",
+    "A340920"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

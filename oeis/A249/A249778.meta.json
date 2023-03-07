@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=2; thereafter, a(n) is the smallest number not occurring earlier such that Kronecker(a(k), a(n)) = 1 for the next n indices k = n+1, n+2, ..., 2n.",
+  "id": "A249778",
+  "mentions": [
+    "A247665",
+    "A249692"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

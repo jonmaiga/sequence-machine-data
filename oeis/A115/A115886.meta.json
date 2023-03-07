@@ -1,0 +1,17 @@
+{
+  "description": "Triangular numbers equal to the sum of a prime number with its index.",
+  "id": "A115886",
+  "mentions": [
+    "A115882"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

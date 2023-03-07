@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Fibonacci(n)*A008655(n) for n >= 1, with a(0)=1, where A008655 lists the coefficients in (theta_3(x)*theta_3(3*x) + theta_2(x)*theta_2(3*x))^4.",
+  "id": "A205968",
+  "mentions": [
+    "A000204",
+    "A008655",
+    "A203847",
+    "A205967",
+    "A205969",
+    "A209448"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

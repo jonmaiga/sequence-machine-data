@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows. Row n consists of the parts, ordered nonincreasingly, of the integer partition having viabin number n.",
+  "id": "A290253",
+  "mentions": [
+    "A008687",
+    "A161511",
+    "A253563",
+    "A290251"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 0,
+    "size": 158,
+    "source": "oeis-bfile"
+  }
+}

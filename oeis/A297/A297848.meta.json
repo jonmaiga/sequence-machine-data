@@ -1,0 +1,25 @@
+{
+  "description": "Irregular primes with irregularity index 8.",
+  "id": "A297848",
+  "mentions": [
+    "A060975",
+    "A073276",
+    "A073277",
+    "A219332",
+    "A219333",
+    "A219334",
+    "A219335"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

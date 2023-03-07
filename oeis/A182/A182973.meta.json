@@ -1,0 +1,28 @@
+{
+  "description": "Denominators of positive rationals < 1 arranged by increasing sum of numerator and denominator then by increasing numerator.",
+  "id": "A182973",
+  "mentions": [
+    "A020652",
+    "A023022",
+    "A038567",
+    "A182972",
+    "A182974",
+    "A182976",
+    "A245677",
+    "A245678",
+    "A245718"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

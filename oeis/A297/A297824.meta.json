@@ -1,0 +1,21 @@
+{
+  "description": "The number of iterations to remove all runs from the binary string 11011100...n (formed by concatenating the first n binary numbers, see A058935(n)).",
+  "id": "A297824",
+  "mentions": [
+    "A000035",
+    "A058935",
+    "A059841",
+    "A297825"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:18",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

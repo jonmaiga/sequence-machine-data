@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows, T(n,k) = Sum_{j=k..n} A269940(n,j)*A269939(j,k), for n>=0 and 0<=k<=n.",
+  "id": "A269957",
+  "mentions": [
+    "A001818",
+    "A032188",
+    "A269939",
+    "A269940"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

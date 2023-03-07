@@ -1,0 +1,18 @@
+{
+  "description": "Palindromes that cannot be expressed as a nontrivial product of two palindromes.",
+  "id": "A226732",
+  "mentions": [
+    "A078337"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least prime prime(k) such that prime(k+n-1)^2 - prime(k)^2 + prime(i) for i=k..k+n-1 are consecutive primes.",
+  "id": "A352392",
+  "mentions": [
+    "A347531"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

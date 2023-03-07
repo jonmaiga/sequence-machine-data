@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle T(n,k) read by rows: T(n,k) = number of partitions of n into at least two distinct parts, where the largest part is n-k.",
+  "id": "A262885",
+  "mentions": [
+    "A000009",
+    "A026906",
+    "A111133",
+    "A258259"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

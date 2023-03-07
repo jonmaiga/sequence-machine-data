@@ -1,0 +1,21 @@
+{
+  "description": "Numbers such that the smallest exponent for n and n^k to have common digits is 3.",
+  "id": "A253601",
+  "mentions": [
+    "A103173",
+    "A189056",
+    "A253600",
+    "A253602"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

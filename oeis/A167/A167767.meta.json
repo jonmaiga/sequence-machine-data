@@ -1,0 +1,19 @@
+{
+  "description": "First of 3 or more consecutive integers with equal values of phi(phi(n)).",
+  "id": "A167767",
+  "mentions": [
+    "A010554",
+    "A167768"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:51",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

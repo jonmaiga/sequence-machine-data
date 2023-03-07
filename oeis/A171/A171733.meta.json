@@ -1,0 +1,21 @@
+{
+  "description": "a(2n)=A165568(n). a(2n+1)=A165563(n).",
+  "id": "A171733",
+  "mentions": [
+    "A035287",
+    "A165563",
+    "A165568"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:13:39",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

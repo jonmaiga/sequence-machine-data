@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of real root of 1 - x - x^3 - x^5.",
+  "id": "A293560",
+  "mentions": [
+    "A293506"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 0,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

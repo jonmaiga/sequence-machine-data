@@ -1,0 +1,20 @@
+{
+  "description": "2*A203579 - A204449. Difference between the exponential convolution of A000032 (Lucas) with itself and the corresponding exponential half-convolution.",
+  "id": "A204450",
+  "mentions": [
+    "A000032",
+    "A203579",
+    "A204449"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

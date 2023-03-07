@@ -1,0 +1,26 @@
+{
+  "description": "Number of sets of nonempty subsets of {1,...,n} with intersection {}.",
+  "id": "A318129",
+  "mentions": [
+    "A000371",
+    "A001146",
+    "A003465",
+    "A119563",
+    "A131288",
+    "A318128",
+    "A318130",
+    "A318131",
+    "A318132"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

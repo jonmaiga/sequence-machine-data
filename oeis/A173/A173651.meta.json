@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,m) read by rows: numerator of 1/(n-m)^2-1/m^2, or -1 if m=0.",
+  "id": "A173651",
+  "mentions": [
+    "A165507",
+    "A165795",
+    "A172370"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:36:37",
+    "offset": 1,
+    "size": 113,
+    "source": "joeis"
+  }
+}

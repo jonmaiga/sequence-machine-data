@@ -1,0 +1,21 @@
+{
+  "description": "Sum of least integers of prime signatures over all partitions of n into distinct parts.",
+  "id": "A332626",
+  "mentions": [
+    "A000009",
+    "A025487",
+    "A074140",
+    "A328524"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

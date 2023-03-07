@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of Product_{k > 0} (1 + f(k)*x^k), where f(1) = 1 and f(m) = prime(m-1) for m >= 2.",
+  "id": "A152006",
+  "mentions": [
+    "A147557",
+    "A147654",
+    "A147655",
+    "A147665",
+    "A147869",
+    "A147871",
+    "A147880",
+    "A147953"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

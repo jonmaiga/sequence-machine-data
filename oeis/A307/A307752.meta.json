@@ -1,0 +1,25 @@
+{
+  "description": "Number of n-digit palindromic pentagonal numbers.",
+  "id": "A307752",
+  "mentions": [
+    "A000326",
+    "A002069",
+    "A002778",
+    "A028386",
+    "A059868",
+    "A263618",
+    "A307717"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

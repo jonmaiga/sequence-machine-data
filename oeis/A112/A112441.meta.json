@@ -1,0 +1,19 @@
+{
+  "description": "Pseudoprimes (base-2) equal to product of 4 primes not necessarily distinct.",
+  "id": "A112441",
+  "mentions": [
+    "A001567",
+    "A014613"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of (cotangent of 1 degree)^2.",
+  "id": "A113794",
+  "mentions": [
+    "A019987",
+    "A073449",
+    "A111493"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:30:15",
+    "offset": 4,
+    "size": 105,
+    "source": "joeis"
+  }
+}

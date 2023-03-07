@@ -1,0 +1,31 @@
+{
+  "description": "Array T(n,k) of odd Collatz preimages read by antidiagonals.",
+  "id": "A178415",
+  "mentions": [
+    "A002450",
+    "A007583",
+    "A022998",
+    "A072197",
+    "A072201",
+    "A072261",
+    "A072262",
+    "A178414",
+    "A206374",
+    "A323824",
+    "A330246",
+    "A347834"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

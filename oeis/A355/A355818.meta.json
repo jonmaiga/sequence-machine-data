@@ -1,0 +1,26 @@
+{
+  "description": "Greatest common divisor of n, sigma(n) and A276086(n), where A276086 is primorial base exp-function.",
+  "id": "A355818",
+  "mentions": [
+    "A000203",
+    "A009194",
+    "A048103",
+    "A276086",
+    "A324198",
+    "A324644",
+    "A327858",
+    "A355456",
+    "A355815"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

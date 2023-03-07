@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = floor(3^n/n^2).",
+  "id": "A230664",
+  "mentions": [
+    "A000244",
+    "A000290",
+    "A060505",
+    "A062278",
+    "A233441",
+    "A233471"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:57:30",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

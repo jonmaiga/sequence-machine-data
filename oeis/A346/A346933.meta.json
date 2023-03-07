@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 2 * Pi^2 / 27.",
+  "id": "A346933",
+  "mentions": [
+    "A346929",
+    "A346930",
+    "A346931",
+    "A346932"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 16:22:27",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

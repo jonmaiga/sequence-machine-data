@@ -1,0 +1,26 @@
+{
+  "description": "Number of solutions m >= 2 to m - gpf(m) = n, gpf = A006530.",
+  "id": "A354512",
+  "mentions": [
+    "A001221",
+    "A006530",
+    "A076563",
+    "A354514",
+    "A354515",
+    "A354516",
+    "A354525",
+    "A354526",
+    "A354527"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

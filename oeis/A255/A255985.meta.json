@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1 for n <= 6; a(n) = 49*a(n-1) - 882*a(n-2) + 8820*a(n-3) - 52920*a(n-4) + 190512*a(n-5) - 381024*a(n-6) + 326592*a(n-7) otherwise.",
+  "id": "A255985",
+  "mentions": [
+    "A247344",
+    "A255983"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

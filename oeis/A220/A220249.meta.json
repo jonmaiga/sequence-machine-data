@@ -1,0 +1,21 @@
+{
+  "description": "Numbers of rows R of the Wythoff array such that R is the n-th multiple of a tail of the Lucas sequence.",
+  "id": "A220249",
+  "mentions": [
+    "A001519",
+    "A002878",
+    "A035513",
+    "A173027",
+    "A173028"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

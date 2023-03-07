@@ -1,0 +1,18 @@
+{
+  "description": "Fibonacci(n-J(n,5)) mod n^2, where J is the Jacobi symbol.",
+  "id": "A113649",
+  "mentions": [
+    "A113650",
+    "A241505"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

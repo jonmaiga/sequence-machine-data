@@ -1,0 +1,21 @@
+{
+  "description": "Triangle of constant term of the symmetric q-binomial coefficients.",
+  "id": "A331545",
+  "mentions": [
+    "A000982",
+    "A001973",
+    "A063074",
+    "A188181"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

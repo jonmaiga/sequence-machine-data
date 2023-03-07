@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form x^2 + y^2 where x contains only the decimal digits 0 through 6 (not 7, 8, or 9).",
+  "id": "A319287",
+  "mentions": [
+    "A000040",
+    "A002144",
+    "A002313",
+    "A007093"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

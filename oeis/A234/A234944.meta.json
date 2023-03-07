@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals: T(i,j) = number of different optimal difference triangle sets M(i,j).",
+  "id": "A234944",
+  "mentions": [
+    "A000012",
+    "A234943",
+    "A234945",
+    "A234946",
+    "A234947"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose set of divisors contains a Pythagorean quadruple.",
+  "id": "A330893",
+  "mentions": [
+    "A027750",
+    "A169580",
+    "A330894",
+    "A331365"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

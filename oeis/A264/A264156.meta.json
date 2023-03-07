@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of M_5, the 5-dimensional analog of Madelung's constant (negated).",
+  "id": "A264156",
+  "mentions": [
+    "A085469",
+    "A088537",
+    "A090734",
+    "A247040",
+    "A261805",
+    "A264157"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

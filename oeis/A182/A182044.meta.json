@@ -1,0 +1,18 @@
+{
+  "description": "The number of black and white n X n grids distinct under reflections, rotations, and flipping color.",
+  "id": "A182044",
+  "mentions": [
+    "A357536"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

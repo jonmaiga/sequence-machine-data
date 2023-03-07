@@ -1,0 +1,25 @@
+{
+  "description": "Multiply, cell by cell, the sequences A096162, A048996 and A178886.",
+  "id": "A178883",
+  "mentions": [
+    "A000041",
+    "A001700",
+    "A001710",
+    "A048996",
+    "A096162",
+    "A162608",
+    "A178886"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

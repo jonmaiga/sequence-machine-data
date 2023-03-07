@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose English name (excluding spaces and hyphens) is written with only straight line segments (chisel strokes).",
+  "id": "A163670",
+  "mentions": [
+    "A002963",
+    "A005589"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

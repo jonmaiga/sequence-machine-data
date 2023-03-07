@@ -1,0 +1,21 @@
+{
+  "description": "The values >= 2 of A135303 for the odd numbers A333855(n), for n >= 1.",
+  "id": "A333853",
+  "mentions": [
+    "A065941",
+    "A135303",
+    "A333850",
+    "A333855"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

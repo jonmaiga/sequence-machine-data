@@ -1,0 +1,20 @@
+{
+  "description": "Growth series for group with presentation < S, T : S^3 = T^3 = (S*T)^4 = 1 >.",
+  "id": "A298803",
+  "mentions": [
+    "A008579",
+    "A298802"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:21",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of [n] such that for each cycle c the smallest integer interval containing all elements of c has at most ten elements.",
+  "id": "A276844",
+  "mentions": [
+    "A276726",
+    "A276837"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of edges in the central polygon formed in a square by dividing each of its sides into n equal parts giving a total of 4*n nodes and drawing straight line segments from node k to node (k+n+1) mod 4*n, 0 <= k < 4*n.",
+  "id": "A335354",
+  "mentions": [
+    "A255011",
+    "A335057",
+    "A335192",
+    "A335350",
+    "A335351",
+    "A335352",
+    "A335353"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = ((2^b-1)/phi(n))*Sum_{d|n} Moebius(n/d)*d^(b-1) for b = 14.",
+  "id": "A161117",
+  "mentions": [
+    "A000010",
+    "A013670",
+    "A013671",
+    "A161010"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

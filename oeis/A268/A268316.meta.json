@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of Dyck paths of length 4n and height n.",
+  "id": "A268316",
+  "mentions": [
+    "A080936",
+    "A268315",
+    "A289481"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

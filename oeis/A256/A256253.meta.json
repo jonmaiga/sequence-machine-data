@@ -1,0 +1,26 @@
+{
+  "description": "Number of successive odd nonprimes A014076 and number of successive odd primes A065091, interleaved.",
+  "id": "A256253",
+  "mentions": [
+    "A005408",
+    "A014076",
+    "A047846",
+    "A065091",
+    "A175632",
+    "A251092",
+    "A256134",
+    "A256252",
+    "A256262"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

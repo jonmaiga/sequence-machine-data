@@ -1,0 +1,21 @@
+{
+  "description": "Sequence generated from Z/6Z addition table considered as a matrix.",
+  "id": "A140045",
+  "mentions": [
+    "A007070",
+    "A095897",
+    "A140044"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:22:39",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

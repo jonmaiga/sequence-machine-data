@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX6 0..2 arrays with values 0..2 introduced in row major order, the number of instances of each value within one of each other, and every element equal to exactly one horizontal or vertical neighbor",
+  "id": "A199260",
+  "mentions": [
+    "A199261"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

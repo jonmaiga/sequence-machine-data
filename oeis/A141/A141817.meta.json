@@ -1,0 +1,19 @@
+{
+  "description": "\"Early bird\" squares: write the natural numbers in a string 12345678910111213.... Sequence gives squares which occur in the string ahead of their natural place.",
+  "id": "A141817",
+  "mentions": [
+    "A116700"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

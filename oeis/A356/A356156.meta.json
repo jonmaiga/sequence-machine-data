@@ -1,0 +1,28 @@
+{
+  "description": "The nearest common ancestor of n and gcd(n, sigma(n)) in the Doudna tree (A005940).",
+  "id": "A356156",
+  "mentions": [
+    "A000203",
+    "A005940",
+    "A007691",
+    "A009194",
+    "A156552",
+    "A347879",
+    "A348040",
+    "A348041",
+    "A356157",
+    "A356158",
+    "A356306"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

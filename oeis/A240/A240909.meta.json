@@ -1,0 +1,24 @@
+{
+  "description": "The sequency numbers of the 16 rows of a Hadamard-Walsh matrix of order 16.",
+  "id": "A240909",
+  "mentions": [
+    "A000975",
+    "A153141",
+    "A208569",
+    "A240908",
+    "A240910"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

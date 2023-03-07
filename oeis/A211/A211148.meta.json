@@ -1,0 +1,19 @@
+{
+  "description": "Number of 2 X 2 matrices having all terms in {-n,...,0,..,n} and positive determinant.",
+  "id": "A211148",
+  "mentions": [
+    "A209981",
+    "A210000",
+    "A211149"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:00",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Permanent of the matrix [i^(j-1)]_{i,j=1..n}.",
+  "id": "A322363",
+  "mentions": [
+    "A000040",
+    "A019434"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

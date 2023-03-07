@@ -1,0 +1,18 @@
+{
+  "description": "Number of nondecreasing arrangements of n+2 numbers in 0..3 with the last equal to 3 and each after the second equal to the sum of one or two of the preceding three.",
+  "id": "A190035",
+  "mentions": [
+    "A190041"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:00:11",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

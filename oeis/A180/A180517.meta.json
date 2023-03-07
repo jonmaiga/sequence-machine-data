@@ -1,0 +1,23 @@
+{
+  "description": "Primes that become a different prime under the mapping 0 <=> 2.",
+  "id": "A180517",
+  "mentions": [
+    "A171014",
+    "A175789",
+    "A175791",
+    "A180559",
+    "A180560",
+    "A180561"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

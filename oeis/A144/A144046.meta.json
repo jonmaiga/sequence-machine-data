@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that |n!-107| and |n!+107| are prime.",
+  "id": "A144046",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Records in A348409.",
+  "id": "A348254",
+  "mentions": [
+    "A307720",
+    "A307730",
+    "A348246",
+    "A348249",
+    "A348252",
+    "A348256",
+    "A348409"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Sum of squared terms in rows of the Padovan-Fibonacci triangle A152545.",
+  "id": "A152546",
+  "mentions": [
+    "A152545"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

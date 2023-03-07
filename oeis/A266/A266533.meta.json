@@ -1,0 +1,30 @@
+{
+  "description": "First differences of A266532.",
+  "id": "A266533",
+  "mentions": [
+    "A000120",
+    "A011782",
+    "A038573",
+    "A068156",
+    "A139250",
+    "A139251",
+    "A147582",
+    "A151710",
+    "A160121",
+    "A160721",
+    "A266532",
+    "A267701"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

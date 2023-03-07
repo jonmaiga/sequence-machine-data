@@ -1,0 +1,23 @@
+{
+  "description": "Odd composite integers m such that A000032(m-J(m,5)) == 2*J(m,5) (mod m), where J(m,5) is the Jacobi symbol.",
+  "id": "A339125",
+  "mentions": [
+    "A000032",
+    "A339126",
+    "A339127",
+    "A339128",
+    "A339129",
+    "A339130",
+    "A339131"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

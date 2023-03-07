@@ -1,0 +1,25 @@
+{
+  "description": "Row 1 of A261216.",
+  "id": "A261218",
+  "mentions": [
+    "A004442",
+    "A060117",
+    "A060118",
+    "A060119",
+    "A060126",
+    "A261098",
+    "A261216",
+    "A261217"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

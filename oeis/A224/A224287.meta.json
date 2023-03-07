@@ -1,0 +1,20 @@
+{
+  "description": "Number of multiplicity free permutations in S_n, i.e., permutations whose Stanley symmetric function is multiplicity free.",
+  "id": "A224287",
+  "mentions": [
+    "A005802",
+    "A223905",
+    "A224318"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

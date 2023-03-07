@@ -1,0 +1,18 @@
+{
+  "description": "q^12*(q^8+q^4+1)*(q^6-1)*(q^2-1) as q runs through the prime powers A000961.",
+  "id": "A359129",
+  "mentions": [
+    "A000961",
+    "A037253"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Integers k such that k divides LS(k) or LS(k) divides k, where LS is the \"Look and Say\" function (A045918).",
+  "id": "A110744",
+  "mentions": [
+    "A045918",
+    "A079342",
+    "A152957"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 05:50:43",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

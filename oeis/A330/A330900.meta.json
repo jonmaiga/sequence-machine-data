@@ -1,0 +1,21 @@
+{
+  "description": "Number of terms of A066038 that are not exceeding 10^n.",
+  "id": "A330900",
+  "mentions": [
+    "A006880",
+    "A008472",
+    "A066038",
+    "A073004"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

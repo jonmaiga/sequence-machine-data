@@ -1,0 +1,21 @@
+{
+  "description": "A Graham-Pollak-like sequence with cube root instead of square root.",
+  "id": "A100673",
+  "mentions": [
+    "A001521",
+    "A091522",
+    "A091523"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of longest cycles in the n X n grid graph.",
+  "id": "A301648",
+  "mentions": [
+    "A003763",
+    "A137932",
+    "A181584"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

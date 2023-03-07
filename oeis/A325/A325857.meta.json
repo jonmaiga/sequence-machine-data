@@ -1,0 +1,32 @@
+{
+  "description": "Number of integer partitions of n such that every orderless pair of distinct parts has a different sum.",
+  "id": "A325857",
+  "mentions": [
+    "A000041",
+    "A002033",
+    "A103300",
+    "A108917",
+    "A143823",
+    "A196723",
+    "A196724",
+    "A325853",
+    "A325855",
+    "A325858",
+    "A325859",
+    "A325862",
+    "A325877",
+    "A325878",
+    "A325991"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Another version of triangle in A127743.",
+  "id": "A130167",
+  "mentions": [
+    "A000110",
+    "A074664",
+    "A084938",
+    "A106344",
+    "A127743",
+    "A130595",
+    "A154380"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 0 and a(1) = 1; for n > 1, a(n) = a(n-1)/2 if that number is an integer and not already in the sequence, otherwise a(n) = 3*a(n-1) + remainder of a(n-1)/2. (A variant of the Collatz sequence).",
+  "id": "A308712",
+  "mentions": [
+    "A005132",
+    "A126038",
+    "A128333"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

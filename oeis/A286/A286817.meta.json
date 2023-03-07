@@ -1,0 +1,17 @@
+{
+  "description": "Initial prime in set of 4 consecutive primes in arithmetic progression with difference 90.",
+  "id": "A286817",
+  "mentions": [
+    "A052239"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

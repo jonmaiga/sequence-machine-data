@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that the sum of the factorials of their digits is equal to the reversal of m.",
+  "id": "A101702",
+  "mentions": [
+    "A010480",
+    "A014080",
+    "A049529",
+    "A101697"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

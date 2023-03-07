@@ -1,0 +1,22 @@
+{
+  "description": "Indices of the prime factors of Fermat numbers in the sequence of primes.",
+  "id": "A343557",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A023394",
+    "A159611"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

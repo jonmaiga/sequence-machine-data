@@ -1,0 +1,20 @@
+{
+  "description": "Interleave A172500 and A172502: The resulting sequence has the property that the fraction k(n) := a(2*n-1)/a(2*n) has decimal expansion 0.nnnnnn... .",
+  "id": "A348870",
+  "mentions": [
+    "A002487",
+    "A172500",
+    "A172502"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

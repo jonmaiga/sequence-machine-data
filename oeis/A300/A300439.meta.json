@@ -1,0 +1,31 @@
+{
+  "description": "Number of odd enriched p-trees of weight n (all outdegrees are odd).",
+  "id": "A300439",
+  "mentions": [
+    "A000009",
+    "A027193",
+    "A063834",
+    "A078408",
+    "A196545",
+    "A273873",
+    "A289501",
+    "A294079",
+    "A298118",
+    "A299202",
+    "A299203",
+    "A300300",
+    "A300301",
+    "A300436",
+    "A300440"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

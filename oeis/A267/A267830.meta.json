@@ -1,0 +1,21 @@
+{
+  "description": "Number of nonprime numbers in {n, f(n), f(f(n)), ...., 1}, where f is the Collatz function defined by f(x) = x/2 if x is even; f(x) = 3x + 1 if x is odd.",
+  "id": "A267830",
+  "mentions": [
+    "A006577",
+    "A008908",
+    "A018252",
+    "A078350"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:29",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of pairwise non-isomorphic biconnected planar bipartite graphs on n vertices.",
+  "id": "A122113",
+  "mentions": [
+    "A007028"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 4,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

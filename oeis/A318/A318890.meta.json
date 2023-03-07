@@ -1,0 +1,24 @@
+{
+  "description": "Filter sequence combining the prime signature of n (A046523) with the prime signature of its conjugated prime factorization (A278221).",
+  "id": "A318890",
+  "mentions": [
+    "A046523",
+    "A064989",
+    "A101296",
+    "A122111",
+    "A278221",
+    "A286454",
+    "A286621",
+    "A318891"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

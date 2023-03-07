@@ -1,0 +1,24 @@
+{
+  "description": "The classical Lie superfactorial of types E6, E7, E8.",
+  "id": "A169667",
+  "mentions": [
+    "A000178",
+    "A169657",
+    "A169668"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "bref",
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

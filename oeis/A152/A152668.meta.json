@@ -1,0 +1,19 @@
+{
+  "description": "Number of runs of even entries in all permutations of {1,2,...,n} (the permutation 274831659 has 3 runs of even entries: 2, 48 and 6).",
+  "id": "A152668",
+  "mentions": [
+    "A052618",
+    "A152667"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 2,
+    "size": 19,
+    "source": "joeis"
+  }
+}

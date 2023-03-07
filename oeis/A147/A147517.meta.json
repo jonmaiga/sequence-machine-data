@@ -1,0 +1,22 @@
+{
+  "description": "Number of pairs of primes p < q such that (p+q)/2 = A002110(n), the n-th primorial.",
+  "id": "A147517",
+  "mentions": [
+    "A001620",
+    "A002110",
+    "A002375",
+    "A116979"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

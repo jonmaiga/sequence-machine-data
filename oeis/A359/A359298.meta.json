@@ -1,0 +1,21 @@
+{
+  "description": "Array T(n, k) read by antidiagonals: for n >= 0 and k >= 0, row n lists the positive integers m such that m - k is prime or 1, and m - h, for 0 <= h < k, is not prime.",
+  "id": "A359298",
+  "mentions": [
+    "A000040",
+    "A008578",
+    "A359299",
+    "A359300"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

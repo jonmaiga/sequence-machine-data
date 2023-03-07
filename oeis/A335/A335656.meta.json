@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct board states reachable in n jumps, in English Peg Solitaire.",
+  "id": "A335656",
+  "mentions": [
+    "A112737"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

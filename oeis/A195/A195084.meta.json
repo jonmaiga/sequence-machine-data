@@ -1,0 +1,24 @@
+{
+  "description": "a(2n-1) = 2-n, a(2n) = 2+n.",
+  "id": "A195084",
+  "mentions": [
+    "A001057",
+    "A008586",
+    "A010702",
+    "A016777",
+    "A038608",
+    "A168230"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:24:47",
+    "offset": 1,
+    "size": 62,
+    "source": "joeis"
+  }
+}

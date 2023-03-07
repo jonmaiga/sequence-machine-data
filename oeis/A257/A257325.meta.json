@@ -1,0 +1,23 @@
+{
+  "description": "Construct spiral of numbers on square grid as in Comments; sequence gives terms along the \"2\" arm.",
+  "id": "A257325",
+  "mentions": [
+    "A064413",
+    "A257321",
+    "A257326",
+    "A257327",
+    "A257328",
+    "A257332",
+    "A257340"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

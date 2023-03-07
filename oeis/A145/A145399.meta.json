@@ -1,0 +1,22 @@
+{
+  "description": "Dirichlet g.f.: (1+4/2^s+1/4^s)*zeta(s)^3.",
+  "id": "A145399",
+  "mentions": [
+    "A001620",
+    "A007425",
+    "A082633",
+    "A145511"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

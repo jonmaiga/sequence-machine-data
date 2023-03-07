@@ -1,0 +1,20 @@
+{
+  "description": "Pandigital primes with least digit sum (46) starting with the largest and listed in descending order.",
+  "id": "A159474",
+  "mentions": [
+    "A050288",
+    "A159473"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

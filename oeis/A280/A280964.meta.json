@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least term that is not a power of p, the n-th prime, in the sequence of numbers whose consecutive divisors have a ratio satisfying numerator - denominator = p-1.",
+  "id": "A280964",
+  "mentions": [
+    "A140110",
+    "A280963"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

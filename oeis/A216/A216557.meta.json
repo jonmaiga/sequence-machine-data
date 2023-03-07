@@ -1,0 +1,21 @@
+{
+  "description": "Number of iterations of A216556 until the initial value n appears as a substring of the iterate; 0 if this will never happen.",
+  "id": "A216557",
+  "mentions": [
+    "A216556",
+    "A216587",
+    "A216603"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

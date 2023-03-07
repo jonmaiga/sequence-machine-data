@@ -1,0 +1,19 @@
+{
+  "description": "Primes which do not divide the numbers of the form A242720(n)-3.",
+  "id": "A243990",
+  "mentions": [
+    "A242719",
+    "A242720",
+    "A243960"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "The first summation of row 5 of Euler's triangle - a row that will recursively accumulate to the power of 5.",
+  "id": "A101100",
+  "mentions": [
+    "A000539",
+    "A000584",
+    "A022521",
+    "A101092",
+    "A101095",
+    "A101096",
+    "A101098",
+    "A101099",
+    "A101104"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:00:51",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of normalized Philo sum, Philo(ABC,I), where I=incenter of a 7,24,25 right triangle ABC.",
+  "id": "A195292",
+  "mentions": [
+    "A010524",
+    "A195284",
+    "A195290"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:25:05",
+    "offset": 0,
+    "size": 100,
+    "source": "joeis"
+  }
+}

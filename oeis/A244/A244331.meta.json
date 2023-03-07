@@ -1,0 +1,24 @@
+{
+  "description": "Number of binary digits in the high-water marks of the terms of the continued fraction of the base-2 Champernowne constant.",
+  "id": "A244331",
+  "mentions": [
+    "A066717",
+    "A066718",
+    "A183155",
+    "A244330",
+    "A296965"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

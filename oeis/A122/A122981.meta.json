@@ -1,0 +1,22 @@
+{
+  "description": "Number of distributive sublattices of the lattice of k-tuples less than the n-th partition (in Abramowitz and Stegun order).",
+  "id": "A122981",
+  "mentions": [
+    "A036036",
+    "A074139",
+    "A122978",
+    "A122979",
+    "A122982"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

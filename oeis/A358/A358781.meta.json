@@ -1,0 +1,20 @@
+{
+  "description": "Number of multiset partitions of [1,1,1,1,2,2,2,2,...,n,n,n,n] into nonempty multisets.",
+  "id": "A358781",
+  "mentions": [
+    "A020555",
+    "A219727",
+    "A322487",
+    "A358722"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

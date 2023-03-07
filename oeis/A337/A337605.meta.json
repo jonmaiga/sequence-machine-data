@@ -1,0 +1,37 @@
+{
+  "description": "Number of unordered triples of distinct positive integers summing to n, any two of which have a common divisor > 1.",
+  "id": "A337605",
+  "mentions": [
+    "A000217",
+    "A001399",
+    "A014612",
+    "A023023",
+    "A051424",
+    "A082024",
+    "A178472",
+    "A200976",
+    "A220377",
+    "A284825",
+    "A305713",
+    "A307719",
+    "A318717",
+    "A318719",
+    "A327516",
+    "A328673",
+    "A337461",
+    "A337561",
+    "A337599",
+    "A337604",
+    "A337667"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

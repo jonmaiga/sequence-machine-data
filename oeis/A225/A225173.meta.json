@@ -1,0 +1,20 @@
+{
+  "description": "Number of numbers which require n iterations of the unitary totient function (A047994) to reach 1.",
+  "id": "A225173",
+  "mentions": [
+    "A003271",
+    "A047994",
+    "A225172"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

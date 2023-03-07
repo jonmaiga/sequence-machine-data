@@ -1,0 +1,20 @@
+{
+  "description": "Binary representation of the n-th iteration of the \"Rule 78\" elementary cellular automaton starting with a single ON (black) cell.",
+  "id": "A266975",
+  "mentions": [
+    "A266974",
+    "A266976"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:28",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Beastly primes with beastly prime indices, i.e., primes p such that both the decimal representation of p and the decimal representation of the index of p in A000040 contain the substring \"666\".",
+  "id": "A305827",
+  "mentions": [
+    "A000040",
+    "A004022",
+    "A006450",
+    "A051003",
+    "A131645"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

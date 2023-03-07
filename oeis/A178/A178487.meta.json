@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = floor(n^(1/5)): integer part of fifth root of n.",
+  "id": "A178487",
+  "mentions": [
+    "A000196",
+    "A048766",
+    "A178489"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:34:13",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

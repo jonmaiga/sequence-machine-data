@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that if x = sigma(n)-phi(n)+tau(n)-n then n = sigma(x)-phi(x)+tau(x)-x.",
+  "id": "A238229",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203",
+    "A238225",
+    "A238226",
+    "A238227",
+    "A238228",
+    "A238230"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

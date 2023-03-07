@@ -1,0 +1,21 @@
+{
+  "description": "Primes that are the concatenation of the first m consecutive k-th powers.",
+  "id": "A359403",
+  "mentions": [
+    "A007908",
+    "A019521",
+    "A019522",
+    "A284377"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

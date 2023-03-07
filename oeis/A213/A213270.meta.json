@@ -1,0 +1,22 @@
+{
+  "description": "Costas arrays such that the corresponding permutation is an involution.",
+  "id": "A213270",
+  "mentions": [
+    "A008404",
+    "A213271",
+    "A213338",
+    "A213339"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

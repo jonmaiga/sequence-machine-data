@@ -1,0 +1,27 @@
+{
+  "description": "Number of FF-equivalence classes of Łukasiewicz paths. Łukasiewicz paths are P-equivalent iff the positions of pattern P are identical in these paths.",
+  "id": "A302483",
+  "mentions": [
+    "A000045",
+    "A000325",
+    "A001006",
+    "A001405",
+    "A004148",
+    "A005251",
+    "A011782",
+    "A023431",
+    "A191385",
+    "A292460"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:50:05",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

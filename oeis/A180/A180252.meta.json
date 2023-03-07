@@ -1,0 +1,20 @@
+{
+  "description": "Numbers where all prime divisors are of the form k^2+1.",
+  "id": "A180252",
+  "mentions": [
+    "A002496",
+    "A002522",
+    "A005574"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

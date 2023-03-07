@@ -1,0 +1,24 @@
+{
+  "description": "Odd noninfinitary abundant numbers: the odd terms of A348274.",
+  "id": "A348275",
+  "mentions": [
+    "A005231",
+    "A094889",
+    "A127666",
+    "A129485",
+    "A293186",
+    "A321147",
+    "A348271",
+    "A348274"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Lesser of recursive amicable numbers pair: numbers m < k such that m = s(k) and k = s(m), where s(k) = A333926(k) - k is the sum of proper recursive divisors of k.",
+  "id": "A333929",
+  "mentions": [
+    "A002025",
+    "A002952",
+    "A126165",
+    "A126169",
+    "A292980",
+    "A333926",
+    "A333927",
+    "A333930"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

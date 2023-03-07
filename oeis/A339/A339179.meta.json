@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: for n >= 2, 2 <= k <= floor(n/2) + 1, T(n,k) = the number of semi-meanders with n top arches, a first arch of length one and k arch groupings.",
+  "id": "A339179",
+  "mentions": [
+    "A000682",
+    "A259689",
+    "A301620"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

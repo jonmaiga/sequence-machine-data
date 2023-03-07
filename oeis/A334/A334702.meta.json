@@ -1,0 +1,19 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) = binomial(n*k,3), n>=0, k>=0.",
+  "id": "A334702",
+  "mentions": [
+    "A007318",
+    "A334703"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

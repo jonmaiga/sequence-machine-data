@@ -1,0 +1,22 @@
+{
+  "description": "T(n, k) = (-1)^k*k!*P(n, k), where P(n, k) is the number of partitions of n of length k. Triangle read by rows, 0 <= k <= n.",
+  "id": "A318144",
+  "mentions": [
+    "A008284",
+    "A072233",
+    "A101880",
+    "A178803",
+    "A260845"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

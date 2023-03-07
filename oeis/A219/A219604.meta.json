@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime p such that 2n+1 = 4q + p for some odd prime q, or 0 if no such prime exists.",
+  "id": "A219604",
+  "mentions": [
+    "A103506",
+    "A219252",
+    "A219254"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Composite numbers that are in the gap between an even-indexed prime and an odd-indexed prime.",
+  "id": "A210998",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A014689",
+    "A031215",
+    "A031368",
+    "A073170",
+    "A210999"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

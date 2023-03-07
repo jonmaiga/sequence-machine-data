@@ -1,0 +1,18 @@
+{
+  "description": "Number of colored integer partitions of n such that eight colors are used and parts differ by size or by color.",
+  "id": "A327386",
+  "mentions": [
+    "A308680"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 8,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

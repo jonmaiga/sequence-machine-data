@@ -1,0 +1,35 @@
+{
+  "description": "Column 6 of array A195825. Also column 1 of triangle A195840. Also 1 together with the row sums of triangle A195840.",
+  "id": "A195850",
+  "mentions": [
+    "A000041",
+    "A001082",
+    "A006950",
+    "A036820",
+    "A057077",
+    "A074377",
+    "A195825",
+    "A195830",
+    "A195840",
+    "A195848",
+    "A195849",
+    "A195851",
+    "A195852",
+    "A196933",
+    "A210843",
+    "A210964",
+    "A211971"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

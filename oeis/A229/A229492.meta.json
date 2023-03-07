@@ -1,0 +1,18 @@
+{
+  "description": "Conjectured number of positive even numbers having exactly n representations as the unordered sum of two odd primes.",
+  "id": "A229492",
+  "mentions": [
+    "A000974",
+    "A002375"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

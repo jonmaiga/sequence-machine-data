@@ -1,0 +1,27 @@
+{
+  "description": "Integers whose square is of the form x^2 + y^4, with x,y > 0 (see A111925).",
+  "id": "A271576",
+  "mentions": [
+    "A002144",
+    "A002145",
+    "A111925",
+    "A271577",
+    "A345645",
+    "A345700",
+    "A345968",
+    "A346110",
+    "A346115",
+    "A348655",
+    "A349324"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

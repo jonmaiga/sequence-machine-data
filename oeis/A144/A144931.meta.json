@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the Mersenne number exponent for A144932(n).",
+  "id": "A144931",
+  "mentions": [
+    "A000225",
+    "A017910",
+    "A144932"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = [x^n] (1 + p(x))^n, where p(x) is the g.f. of A000040.",
+  "id": "A309955",
+  "mentions": [
+    "A000040",
+    "A008485",
+    "A008578",
+    "A025174",
+    "A292871",
+    "A309950",
+    "A340990"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

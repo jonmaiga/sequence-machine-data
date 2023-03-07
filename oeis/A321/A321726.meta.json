@@ -1,0 +1,20 @@
+{
+  "description": "Reverse each run of nonzero digits in ternary expansion of n and convert back to decimal.",
+  "id": "A321726",
+  "mentions": [
+    "A321464"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

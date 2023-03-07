@@ -1,0 +1,21 @@
+{
+  "description": "Start with the symbol **|* and for each iteration replace * with **|*. This sequence is the number of *'s between each dash.",
+  "id": "A131989",
+  "mentions": [
+    "A026181",
+    "A049321",
+    "A133162"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

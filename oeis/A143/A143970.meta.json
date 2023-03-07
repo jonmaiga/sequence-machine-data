@@ -1,0 +1,19 @@
+{
+  "description": "Eigentriangle by rows, n terms of (10 * A002535) followed by A002535(n)",
+  "id": "A143970",
+  "mentions": [
+    "A002535"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

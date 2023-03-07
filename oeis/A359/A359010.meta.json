@@ -1,0 +1,19 @@
+{
+  "description": "Variant of the inventory sequence: Record the number of terms whose value occurs once thus far in the sequence, then the number of terms whose value occurs twice thus far, and so on; a row ends when a 0 that would repeat infinitely is reached.",
+  "id": "A359010",
+  "mentions": [
+    "A342585",
+    "A350768"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

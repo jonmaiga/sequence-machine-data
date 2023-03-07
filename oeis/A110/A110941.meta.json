@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (cosecant of 1 degree)^4.",
+  "id": "A110941",
+  "mentions": [
+    "A019810",
+    "A110937"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:25:31",
+    "offset": 8,
+    "size": 105,
+    "source": "joeis"
+  }
+}

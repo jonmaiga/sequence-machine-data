@@ -1,0 +1,21 @@
+{
+  "description": "First differences of A128217.",
+  "id": "A128218",
+  "mentions": [
+    "A128127",
+    "A128217",
+    "A130883",
+    "A152271"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

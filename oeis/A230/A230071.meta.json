@@ -1,0 +1,22 @@
+{
+  "description": "Sum over all permutations without double ascents on n elements and each permutation contributes 2 raised to the power of the number of double descents.",
+  "id": "A230071",
+  "mentions": [
+    "A000166",
+    "A002627",
+    "A055596",
+    "A080227",
+    "A227918"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:31:08",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

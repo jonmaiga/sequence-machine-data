@@ -1,0 +1,19 @@
+{
+  "description": "The total element sum of the n-fold f transform applied to the length n sequence of 1's. And f returns a sorted result after multiplying the elements in its input sequence with 1, 2, 3,... in descending size order.",
+  "id": "A261490",
+  "mentions": [
+    "A031971",
+    "A036740",
+    "A166278"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

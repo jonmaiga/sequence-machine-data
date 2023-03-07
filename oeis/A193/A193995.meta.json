@@ -1,0 +1,20 @@
+{
+  "description": "Maximum number of terms required to determine whether a number is happy or not (A007770 or A031177).",
+  "id": "A193995",
+  "mentions": [
+    "A007770",
+    "A031177",
+    "A193996"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

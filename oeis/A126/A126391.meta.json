@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1; for n>1: a(n) = sum of all subsets of (a(1),..,a(n-1)).",
+  "id": "A126391",
+  "mentions": [
+    "A006088",
+    "A028361"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

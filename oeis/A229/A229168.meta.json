@@ -1,0 +1,26 @@
+{
+  "description": "Define a sequence of real numbers by b(1)=2, b(n+1) = b(n) + log_2(b(n)); a(n) = smallest i such that b(i) >= 2^n.",
+  "id": "A229168",
+  "mentions": [
+    "A004207",
+    "A010062",
+    "A155921",
+    "A229167",
+    "A229169",
+    "A229170",
+    "A229171",
+    "A229172",
+    "A229173",
+    "A229177"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

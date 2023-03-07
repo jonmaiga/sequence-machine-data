@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of ways n can be reached in the algorithm explained in A358094 if the last operation is multiplication.",
+  "id": "A358096",
+  "mentions": [
+    "A358094",
+    "A358095"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

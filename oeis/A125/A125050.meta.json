@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1. If a(n) is composite, a(n+1) = 2*a(n)+1; otherwise, a(n+1) = 2*a(n).",
+  "id": "A125050",
+  "mentions": [
+    "A125049"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

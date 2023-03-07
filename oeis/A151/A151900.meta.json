@@ -1,0 +1,21 @@
+{
+  "description": "Singular indices in A139206.",
+  "id": "A151900",
+  "mentions": [
+    "A139074",
+    "A139206",
+    "A151901"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

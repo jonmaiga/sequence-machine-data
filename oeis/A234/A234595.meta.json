@@ -1,0 +1,22 @@
+{
+  "description": "Number of elementary sequences of length n, where permutations of the components are taken into account.",
+  "id": "A234595",
+  "mentions": [
+    "A003513",
+    "A005268",
+    "A005269",
+    "A005272",
+    "A008926"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

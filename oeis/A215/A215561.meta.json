@@ -1,0 +1,43 @@
+{
+  "description": "Number A(n,k) of permutations of k indistinguishable copies of 1..n with every partial sum <= the same partial sum averaged over all permutations; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A215561",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A007004",
+    "A147681",
+    "A147682",
+    "A147684",
+    "A147686",
+    "A147687",
+    "A147692",
+    "A147694",
+    "A147695",
+    "A147697",
+    "A147698",
+    "A147700",
+    "A147705",
+    "A147707",
+    "A147712",
+    "A147713",
+    "A147714",
+    "A147715",
+    "A147717",
+    "A147769",
+    "A215562",
+    "A215570",
+    "A215571",
+    "A215593"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

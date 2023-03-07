@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of (1-x)*x/(x^2-30*x+1).",
+  "id": "A157877",
+  "mentions": [
+    "A157014",
+    "A157878",
+    "A157879",
+    "A238379"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

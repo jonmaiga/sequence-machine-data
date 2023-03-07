@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Pi/e + e/Pi.",
+  "id": "A113400",
+  "mentions": [
+    "A105798",
+    "A113399"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:13:29",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

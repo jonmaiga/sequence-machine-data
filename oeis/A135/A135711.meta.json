@@ -1,0 +1,22 @@
+{
+  "description": "Minimal perimeter of a polyhex with n cells.",
+  "id": "A135711",
+  "mentions": [
+    "A000228",
+    "A027709",
+    "A067628",
+    "A075777",
+    "A135708"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "The smallest constant of an n X n associative magic square composed of distinct primes.",
+  "id": "A188537",
+  "mentions": [
+    "A164843"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 3,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

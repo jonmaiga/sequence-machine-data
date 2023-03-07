@@ -1,0 +1,28 @@
+{
+  "description": "Parity of A359780, where A359780 is the Dirichlet inverse of the characteristic function of the numbers with even arithmetic derivative (A003415).",
+  "id": "A359781",
+  "mentions": [
+    "A003415",
+    "A003961",
+    "A056913",
+    "A358680",
+    "A359764",
+    "A359774",
+    "A359780",
+    "A359782",
+    "A359783",
+    "A359784",
+    "A359790"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

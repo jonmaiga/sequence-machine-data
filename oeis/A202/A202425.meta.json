@@ -1,0 +1,32 @@
+{
+  "description": "Number of partitions of n into parts having pairwise common factors but no overall common factor.",
+  "id": "A202425",
+  "mentions": [
+    "A000837",
+    "A018783",
+    "A200976",
+    "A202385",
+    "A305148",
+    "A305843",
+    "A306006",
+    "A318715",
+    "A318717",
+    "A319759",
+    "A326364",
+    "A328672",
+    "A328673",
+    "A328867",
+    "A328868"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 31,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

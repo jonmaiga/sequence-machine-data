@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the reduction parameter for the biquadratic solution of the Feigenbaum-Cvitanovic equation.",
+  "id": "A195102",
+  "mentions": [
+    "A006891"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Number of distinct pairs (m, y), where m >= 1 and y is an integer partition of n, such that m can be obtained by iteratively adding any two or multiplying any two non-1 parts of y until only one part (equal to m) remains.",
+  "id": "A319912",
+  "mentions": [
+    "A000792",
+    "A001970",
+    "A005520",
+    "A048249",
+    "A066739",
+    "A066815",
+    "A275870",
+    "A318949",
+    "A319850",
+    "A319909",
+    "A319910",
+    "A319911",
+    "A319913"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the conjectured highest power of n which has no four identical digits in succession.",
+  "id": "A216065",
+  "mentions": [
+    "A216063",
+    "A216064"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

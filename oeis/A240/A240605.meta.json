@@ -1,0 +1,19 @@
+{
+  "description": "Total number of distinct sequences for the number of double occupancy in the underlying Fermion problem (see comment), i.e., the number of distinct hopping sequences (cf. A198761, A225823) in four-colored rooted trees with n nodes, starting and ending with the same coloring in two colors (cf. A198760, corresponding to zero double-occupancy).",
+  "id": "A240605",
+  "mentions": [
+    "A198760",
+    "A198761",
+    "A225823"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 2,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

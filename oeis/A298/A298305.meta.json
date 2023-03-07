@@ -1,0 +1,29 @@
+{
+  "description": "Matula-Goebel numbers of rooted trees with strictly thinning limbs.",
+  "id": "A298305",
+  "mentions": [
+    "A000081",
+    "A007097",
+    "A061775",
+    "A111299",
+    "A124343",
+    "A124346",
+    "A214577",
+    "A276625",
+    "A290760",
+    "A291636",
+    "A298120",
+    "A298126",
+    "A298304"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

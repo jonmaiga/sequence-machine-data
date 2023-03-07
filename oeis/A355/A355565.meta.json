@@ -1,0 +1,36 @@
+{
+  "description": "T(j,k) are the numerators s in the representation R = s/t + (2/Pi)*u/v of the resistance between two nodes separated by the distance vector (j,k) in an infinite square lattice of one-ohm resistors, where T(j,k), j >= 0, 0 <= k <= j, is a triangle read by rows.",
+  "id": "A355565",
+  "mentions": [
+    "A025547",
+    "A025550",
+    "A089165",
+    "A131406",
+    "A211074",
+    "A280079",
+    "A280317",
+    "A355566",
+    "A355567",
+    "A355585",
+    "A355586",
+    "A355587",
+    "A355588",
+    "A355953",
+    "A355955",
+    "A356201",
+    "A356202"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Table T(n,r) of terms in the reverse and add sequences of positive integers n read by antidiagonals.",
+  "id": "A243238",
+  "mentions": [
+    "A001127",
+    "A006960",
+    "A023108",
+    "A033648",
+    "A033649",
+    "A033650",
+    "A033651",
+    "A033670",
+    "A088753",
+    "A089694",
+    "A240510",
+    "A244058"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

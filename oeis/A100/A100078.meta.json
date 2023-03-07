@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=position of first occurrence of n in the decimal places of zeta(3) (Apery's constant). First value is a(0).",
+  "id": "A100078",
+  "mentions": [
+    "A002117"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

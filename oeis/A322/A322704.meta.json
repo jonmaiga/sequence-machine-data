@@ -1,0 +1,26 @@
+{
+  "description": "Number of regular hypergraphs on n labeled vertices with no singletons.",
+  "id": "A322704",
+  "mentions": [
+    "A058891",
+    "A059441",
+    "A295193",
+    "A306021",
+    "A319189",
+    "A319190",
+    "A319612",
+    "A319729",
+    "A322698"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

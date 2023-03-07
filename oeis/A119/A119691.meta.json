@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n which do not divide any 3^x-2, even though each prime factor of n does divide some 3^x-2.",
+  "id": "A119691",
+  "mentions": [
+    "A123239",
+    "A131960"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

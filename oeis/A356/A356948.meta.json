@@ -1,0 +1,20 @@
+{
+  "description": "Sequence of scores adding to maximum break in snooker.",
+  "id": "A356948",
+  "mentions": [
+    "A241263"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

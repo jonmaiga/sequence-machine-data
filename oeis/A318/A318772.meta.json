@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(0,0) = 1; T(n,k) = T(n-1,k) + 3 * T(n-4,k-1) for k = 0..floor(n/4); T(n,k)=0 for n or k < 0.",
+  "id": "A318772",
+  "mentions": [
+    "A013610",
+    "A027465",
+    "A304236",
+    "A304249",
+    "A317496",
+    "A317497",
+    "A318774"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

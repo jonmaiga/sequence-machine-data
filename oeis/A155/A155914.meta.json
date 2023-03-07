@@ -1,0 +1,21 @@
+{
+  "description": "Example of an all interval series: the 12 integers 0..11 sorted such that the first differences contain all numbers from 1 to 11 (mod 12).",
+  "id": "A155914",
+  "mentions": [
+    "A141598",
+    "A141599"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "full",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

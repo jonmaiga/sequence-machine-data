@@ -1,0 +1,19 @@
+{
+  "description": "Number of composite numbers between exponents of successive Mersenne primes.",
+  "id": "A157894",
+  "mentions": [
+    "A000043",
+    "A002808",
+    "A046933"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

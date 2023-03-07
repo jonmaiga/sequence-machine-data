@@ -1,0 +1,24 @@
+{
+  "description": "Rotated binary incrementing: For n",
+  "id": "A153152",
+  "mentions": [
+    "A002487",
+    "A004198",
+    "A059893",
+    "A059894",
+    "A153141",
+    "A153142",
+    "A153151"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

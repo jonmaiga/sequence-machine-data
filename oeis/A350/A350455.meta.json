@@ -1,0 +1,27 @@
+{
+  "description": "T(n,k) is the k-th semiprime whose sum of prime factors equals 2n, triangle T(n,k), n>=2, 1<=k<=A045917(n), read by rows.",
+  "id": "A350455",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A045917",
+    "A046315",
+    "A073046",
+    "A102084",
+    "A228553",
+    "A337568",
+    "A350419"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 2,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

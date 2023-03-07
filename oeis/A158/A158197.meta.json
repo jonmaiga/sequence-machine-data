@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of (1-x^2*c(x)^4)/(1-4*x*c(x)^2), c(x) the g.f. of A000108.",
+  "id": "A158197",
+  "mentions": [
+    "A000108",
+    "A070997",
+    "A090317",
+    "A158196"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

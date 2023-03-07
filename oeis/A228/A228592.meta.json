@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest number such that if x >= a(n), then pi^*(x) - pi^*(x/2) >= n, where pi^*(x) is the number of prime powers p^k <= x (k >= 1).",
+  "id": "A228592",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A104272",
+    "A228520"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

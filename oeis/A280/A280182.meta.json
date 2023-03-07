@@ -1,0 +1,20 @@
+{
+  "description": "Pandigital 10-digit numbers in the decimal expansion of Pi, in order of appearance.",
+  "id": "A280182",
+  "mentions": [
+    "A000796",
+    "A258157",
+    "A280183"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

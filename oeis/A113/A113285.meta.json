@@ -1,0 +1,19 @@
+{
+  "description": "Let S(n)=sigma(|n|)-2*n; sequence gives numbers n such that S(S(S(S(n))))=n. May be called {2,1}-Sociable number of orders 1 or 2 or 4.",
+  "id": "A113285",
+  "mentions": [
+    "A113791",
+    "A114528",
+    "A114529"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

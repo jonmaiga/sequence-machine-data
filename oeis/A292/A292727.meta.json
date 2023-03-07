@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of states that cannot be achieved when starting from n piles each containing one stone, where stones can be transferred between piles only when they start with the same number of stones.",
+  "id": "A292727",
+  "mentions": [
+    "A000041",
+    "A292726"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of connected loopless labeled multigraphs with n edges.",
+  "id": "A343094",
+  "mentions": [
+    "A050535",
+    "A290776",
+    "A322152"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

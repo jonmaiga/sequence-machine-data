@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that 2^p - 1 is a prime with primitive root 3.",
+  "id": "A219461",
+  "mentions": [
+    "A000043",
+    "A001123",
+    "A096393"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

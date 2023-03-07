@@ -1,0 +1,24 @@
+{
+  "description": "Restricted growth sequence transform of A297172, which is Möbius transform of A253564.",
+  "id": "A297162",
+  "mentions": [
+    "A064989",
+    "A122111",
+    "A156552",
+    "A253564",
+    "A297113",
+    "A297157",
+    "A297161",
+    "A297172"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

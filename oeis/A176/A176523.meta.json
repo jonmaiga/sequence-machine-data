@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (45+3*sqrt(235))/10.",
+  "id": "A176523",
+  "mentions": [
+    "A010735",
+    "A176524"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:41:15",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

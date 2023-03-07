@@ -1,0 +1,28 @@
+{
+  "description": "Exponentially odious numbers: 1 together with positive integers n such that all exponents in prime factorization of n are odious numbers (A000069).",
+  "id": "A270428",
+  "mentions": [
+    "A000069",
+    "A010060",
+    "A028234",
+    "A067029",
+    "A138302",
+    "A262675",
+    "A268335",
+    "A268385",
+    "A270419",
+    "A270420",
+    "A270436",
+    "A355825"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:33",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

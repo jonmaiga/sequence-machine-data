@@ -1,0 +1,24 @@
+{
+  "description": "Triangular numbers k such that 2*k cannot be expressed as a sum of two distinct triangular numbers.",
+  "id": "A357529",
+  "mentions": [
+    "A000217",
+    "A002378",
+    "A008851",
+    "A020756",
+    "A020757",
+    "A357504",
+    "A357505"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

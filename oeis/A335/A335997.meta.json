@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: T(n,k) = Product_{i=n-k+1..n} i! for 0 <= k <= n.",
+  "id": "A335997",
+  "mentions": [
+    "A000012",
+    "A000142",
+    "A000178",
+    "A009963",
+    "A010790",
+    "A051399",
+    "A093002",
+    "A176037",
+    "A193520"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

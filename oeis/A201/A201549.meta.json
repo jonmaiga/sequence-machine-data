@@ -1,0 +1,29 @@
+{
+  "description": "Number of arrays of n integers in -5..5 with sum zero.",
+  "id": "A201549",
+  "mentions": [
+    "A001405",
+    "A002426",
+    "A005190",
+    "A005191",
+    "A018901",
+    "A025012",
+    "A025013",
+    "A025014",
+    "A025015",
+    "A201550",
+    "A201552",
+    "A225779"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

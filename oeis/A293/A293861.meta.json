@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form (k - 1) * k * (k + 1) +- 1, k >= 1.",
+  "id": "A293861",
+  "mentions": [
+    "A100698",
+    "A116581"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

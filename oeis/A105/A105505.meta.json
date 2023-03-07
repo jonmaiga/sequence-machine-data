@@ -1,0 +1,31 @@
+{
+  "description": "Numbers n such that 5 is the leading digit of the n-th Fibonacci number in decimal representation.",
+  "id": "A105505",
+  "mentions": [
+    "A000030",
+    "A000045",
+    "A008963",
+    "A072703",
+    "A105501",
+    "A105502",
+    "A105503",
+    "A105504",
+    "A105506",
+    "A105507",
+    "A105508",
+    "A105509",
+    "A105515"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

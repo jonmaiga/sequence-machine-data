@@ -1,0 +1,25 @@
+{
+  "description": "Heinz numbers of strict integer partitions in which no two parts are relatively prime.",
+  "id": "A318719",
+  "mentions": [
+    "A302797",
+    "A303140",
+    "A303282",
+    "A303283",
+    "A305713",
+    "A305843",
+    "A318715",
+    "A318716",
+    "A318717"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

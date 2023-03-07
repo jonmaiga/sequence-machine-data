@@ -1,0 +1,22 @@
+{
+  "description": "Self-convolution equals A113224.",
+  "id": "A113281",
+  "mentions": [
+    "A082639",
+    "A113224",
+    "A113282",
+    "A113283",
+    "A113284"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:12:18",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

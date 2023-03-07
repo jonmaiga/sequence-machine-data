@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest sequence of odd positive integers such that the terms and their absolute first differences are all distinct.",
+  "id": "A258136",
+  "mentions": [
+    "A081145",
+    "A257941",
+    "A257944",
+    "A258137"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

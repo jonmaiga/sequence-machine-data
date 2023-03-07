@@ -1,0 +1,29 @@
+{
+  "description": "a(n) gives the odd leg of the second of the two Pythagorean triangles with hypotenuse A080109(n) = A002144(n)^2. This is the larger of the two possible odd legs.",
+  "id": "A253804",
+  "mentions": [
+    "A002144",
+    "A002972",
+    "A002973",
+    "A070079",
+    "A070151",
+    "A080109",
+    "A080175",
+    "A253303",
+    "A253802",
+    "A253803",
+    "A253805"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

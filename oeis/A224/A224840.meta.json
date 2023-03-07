@@ -1,0 +1,20 @@
+{
+  "description": "Divisor sum of the arithmetic function A085945(n).",
+  "id": "A224840",
+  "mentions": [
+    "A027375",
+    "A038199",
+    "A085945"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

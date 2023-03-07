@@ -1,0 +1,21 @@
+{
+  "description": "Numerator of the side lengths (legs in ascending order) of the easiest Pythagorean Triangle (with smallest hypotenuse) according to the congruent numbers A003273.",
+  "id": "A268602",
+  "mentions": [
+    "A003273",
+    "A268603"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "frac",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

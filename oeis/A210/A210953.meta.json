@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) = sum of all parts in the k-th column of the shell model of partitions considering only the n-th shell and with its parts aligned to the right margin.",
+  "id": "A210953",
+  "mentions": [
+    "A014153",
+    "A046746",
+    "A135010",
+    "A138121",
+    "A138879",
+    "A210950",
+    "A210951",
+    "A210952"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Dirichlet convolution of A342001 [{arithmetic derivative of n}/A003557(n)] with A325126 [Dirichlet inverse of rad(n)].",
+  "id": "A349612",
+  "mentions": [
+    "A003415",
+    "A003557",
+    "A007947",
+    "A325126",
+    "A342001",
+    "A349394",
+    "A349396",
+    "A349618"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

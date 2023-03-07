@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n=s^pi(d_1)+s^pi(d_2)+...+s^pi(d_k) where s is sum of its digits and d_1d_2...d_k is the decimal expansion of n.",
+  "id": "A140170",
+  "mentions": [
+    "A140175"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

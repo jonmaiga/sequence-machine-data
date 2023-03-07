@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct convex equilateral n-gons having rotational symmetry and with corner angles of m*Pi/n (0 < m <= n).",
+  "id": "A292355",
+  "mentions": [
+    "A262181"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 3,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

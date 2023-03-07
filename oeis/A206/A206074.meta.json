@@ -1,0 +1,29 @@
+{
+  "description": "n-th irreducible polynomial over Q (with coefficients 0 or 1) evaluated at x=2.",
+  "id": "A206074",
+  "mentions": [
+    "A000040",
+    "A014580",
+    "A186891",
+    "A205783",
+    "A206073",
+    "A206075",
+    "A255574",
+    "A257688",
+    "A260421",
+    "A260426",
+    "A260427",
+    "A260428"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

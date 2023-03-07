@@ -1,0 +1,21 @@
+{
+  "description": "Hypotenuses of more than two Pythagorean triangles.",
+  "id": "A164282",
+  "mentions": [
+    "A009177",
+    "A084646",
+    "A084647",
+    "A084648",
+    "A084649"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

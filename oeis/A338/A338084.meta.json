@@ -1,0 +1,19 @@
+{
+  "description": "Number of equivalence classes of X-based filling of diagonals in a diagonal Latin square of order 2n+1.",
+  "id": "A338084",
+  "mentions": [
+    "A309283"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

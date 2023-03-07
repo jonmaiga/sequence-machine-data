@@ -1,0 +1,20 @@
+{
+  "description": "Subsequence A005318(t_n), where t_n is the n-th triangular number (A000217).",
+  "id": "A206239",
+  "mentions": [
+    "A000217",
+    "A005318",
+    "A096858",
+    "A205744"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

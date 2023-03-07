@@ -1,0 +1,17 @@
+{
+  "description": "Composite numbers which are multiples of the sum of the squares of their prime factors (taken with multiplicity).",
+  "id": "A338093",
+  "mentions": [
+    "A067666"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

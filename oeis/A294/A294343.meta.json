@@ -1,0 +1,17 @@
+{
+  "description": "E.g.f.: exp( Sum_{n>=1} ( Product_{k=1..n} sigma(k) ) * x^n/n! ).",
+  "id": "A294343",
+  "mentions": [
+    "A066780"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

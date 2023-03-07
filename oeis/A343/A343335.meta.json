@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest proper alternating multiple of n when n is not a multiple of 20, otherwise a(20*k) = 0 for k >= 1.",
+  "id": "A343335",
+  "mentions": [
+    "A030141",
+    "A110303",
+    "A110304",
+    "A110305",
+    "A343336"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "-3x + 1 sequence beginning at 13.",
+  "id": "A302858",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

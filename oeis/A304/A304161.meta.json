@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 2*n^3 - 4*n^2 + 10*n - 2 (n>=1).",
+  "id": "A304161",
+  "mentions": [
+    "A033431",
+    "A054000"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:15",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

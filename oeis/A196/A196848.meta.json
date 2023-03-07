@@ -1,0 +1,26 @@
+{
+  "description": "Coefficient array of numerator polynomials of the ordinary generating functions for the alternating sums of powers for the numbers 1,2,...,2*n+1.",
+  "id": "A196848",
+  "mentions": [
+    "A005408",
+    "A048994",
+    "A196837",
+    "A196845",
+    "A196846",
+    "A196847",
+    "A198628"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

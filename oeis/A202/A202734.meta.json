@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX7 nonnegative integer arrays each row and column an ascent sequence (interior element no greater than one plus up-steps preceding it) and the lower right element equal to min(n,7)-1",
+  "id": "A202734",
+  "mentions": [
+    "A202735"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

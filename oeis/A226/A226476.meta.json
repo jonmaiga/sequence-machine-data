@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n with the property that, if tau(n) = k = number of divisors of n, and the d(i) are the divisors [arranged in increasing order], then the sum 1/d(k) + 1/d(k-1) + 1/d(k-2) + ... + 1/d(q) is an integer for some q.",
+  "id": "A226476",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A007691",
+    "A225110"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

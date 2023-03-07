@@ -1,0 +1,24 @@
+{
+  "description": "Even numbers interleaved with repeated odd numbers.",
+  "id": "A186421",
+  "mentions": [
+    "A005843",
+    "A109043",
+    "A109613",
+    "A186422",
+    "A186423",
+    "A240828"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

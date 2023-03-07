@@ -1,0 +1,22 @@
+{
+  "description": "Total number of inversions in all partitions of n.",
+  "id": "A271370",
+  "mentions": [
+    "A000041",
+    "A189052",
+    "A264033",
+    "A264082",
+    "A271371"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the maximum number of positive numbers in a set of n consecutive positive or negative odd numbers such that the number of pairs that add to a power of 2 is maximal.",
+  "id": "A357409",
+  "mentions": [
+    "A274089",
+    "A347301",
+    "A352178",
+    "A357574"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (4*n + 1)^(1/2)/(4*n + 1)*((1 - p)*q^n - (1 - q)*p^n), where p = (1 - (4*n + 1)^(1/2))/2 and q = (1 + (4*n + 1)^(1/2))/2.",
+  "id": "A171180",
+  "mentions": [
+    "A193376"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

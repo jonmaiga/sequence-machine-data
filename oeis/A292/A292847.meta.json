@@ -1,0 +1,31 @@
+{
+  "description": "a(n) is the smallest odd prime of the form ((1 + sqrt(2n))^k) - (1 - sqrt(2n))^k))/(2*sqrt(2n)).",
+  "id": "A292847",
+  "mentions": [
+    "A000129",
+    "A002532",
+    "A002534",
+    "A002605",
+    "A003683",
+    "A015518",
+    "A015519",
+    "A015520",
+    "A063727",
+    "A079773",
+    "A083099",
+    "A083102",
+    "A091914",
+    "A099134",
+    "A161007"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

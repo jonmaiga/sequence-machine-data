@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,g) read by rows: Partition of the set of (2n-1)! circular permutations on 2n elements according to the minimal genus g of the surface in which one can immerse the non-simple closed curves with n crossings determined by those permutations.",
+  "id": "A264755",
+  "mentions": [
+    "A008986",
+    "A260285",
+    "A260296",
+    "A260848",
+    "A260885",
+    "A260914"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

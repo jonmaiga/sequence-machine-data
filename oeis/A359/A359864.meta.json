@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of solutions to the congruence x^y == y^x (mod n) where 0 <= x,y <= n.",
+  "id": "A359864",
+  "mentions": [
+    "A355069"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

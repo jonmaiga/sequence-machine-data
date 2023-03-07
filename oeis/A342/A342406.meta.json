@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that the number of ways to write p = 2*q + r with q and r prime is a prime.",
+  "id": "A342406",
+  "mentions": [
+    "A103274"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

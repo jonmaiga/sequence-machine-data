@@ -1,0 +1,26 @@
+{
+  "description": "Exponential 3-abundant numbers: numbers m such that esigma(m) >= 3m, where esigma(m) is the sum of exponential divisors of m (A051377).",
+  "id": "A328135",
+  "mentions": [
+    "A002110",
+    "A023197",
+    "A051377",
+    "A072986",
+    "A129575",
+    "A285615",
+    "A293187",
+    "A300664",
+    "A307112",
+    "A321147"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

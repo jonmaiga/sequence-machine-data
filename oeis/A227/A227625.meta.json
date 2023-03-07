@@ -1,0 +1,18 @@
+{
+  "description": "Indicator sequence of primes p > 3: k = p mod 6, if k = 5 then a(n) = -1, if k = 1 then a(n) = 1 else a(n) = 0, a(2) = -1, a(3) = 1.",
+  "id": "A227625",
+  "mentions": [
+    "A010051",
+    "A129950"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

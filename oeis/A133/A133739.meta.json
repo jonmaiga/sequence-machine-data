@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of q * (psi(q^6) / psi(q^3))^3 * phi(q)^5 / psi(q) in powers of q where phi(), psi() are Ramanujan theta functions.",
+  "id": "A133739",
+  "mentions": [
+    "A000122",
+    "A000203",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A098098",
+    "A121373",
+    "A134077",
+    "A134078"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:06:19",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

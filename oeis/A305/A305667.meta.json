@@ -1,0 +1,32 @@
+{
+  "description": "Engel expansion whose sum has the concatenation of its terms as decimal part. Case a(1) = 3.",
+  "id": "A305667",
+  "mentions": [
+    "A302932",
+    "A302933",
+    "A303388",
+    "A304285",
+    "A304286",
+    "A304287",
+    "A304288",
+    "A304289",
+    "A305661",
+    "A305662",
+    "A305663",
+    "A305664",
+    "A305665",
+    "A305666",
+    "A305668"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

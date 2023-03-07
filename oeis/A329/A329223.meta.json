@@ -1,0 +1,21 @@
+{
+  "description": "Poulet numbers (Fermat pseudoprimes to base 2) that are congruent to either 3 or 27 (mod 80) and each prime factor is congruent to 3 mod 80.",
+  "id": "A329223",
+  "mentions": [
+    "A001262",
+    "A001567",
+    "A002997",
+    "A006972"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

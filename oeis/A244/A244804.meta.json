@@ -1,0 +1,30 @@
+{
+  "description": "The 300-degree spoke (or ray) of a hexagonal spiral of Ulam.",
+  "id": "A244804",
+  "mentions": [
+    "A003215",
+    "A033577",
+    "A056105",
+    "A056106",
+    "A056107",
+    "A056108",
+    "A056109",
+    "A244802",
+    "A244803",
+    "A244805",
+    "A244806"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:48:29",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

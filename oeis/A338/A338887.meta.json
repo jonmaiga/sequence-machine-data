@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the size of the set {x + y*z | x*y + z = n}, where x, y, and z are positive integers.",
+  "id": "A338887",
+  "mentions": [
+    "A228286",
+    "A338886"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

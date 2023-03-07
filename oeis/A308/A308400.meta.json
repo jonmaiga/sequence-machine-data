@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of 1 / Sum_{k=-oo..oo} (-x)^(k*(6*k + 1)).",
+  "id": "A308400",
+  "mentions": [
+    "A006950",
+    "A036498",
+    "A049453",
+    "A210964",
+    "A247223",
+    "A263536",
+    "A308399"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:51:37",
+    "offset": 0,
+    "size": 79,
+    "source": "joeis"
+  }
+}

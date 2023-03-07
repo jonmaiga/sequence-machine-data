@@ -1,0 +1,32 @@
+{
+  "description": "Number of multisets (finite weakly increasing sequences of positive integers) with zero-based weighted sum (A359674) equal to n > 0.",
+  "id": "A359678",
+  "mentions": [
+    "A029931",
+    "A053632",
+    "A124757",
+    "A231204",
+    "A243055",
+    "A304818",
+    "A320387",
+    "A358194",
+    "A359674",
+    "A359675",
+    "A359676",
+    "A359677",
+    "A359680",
+    "A359681",
+    "A359757"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

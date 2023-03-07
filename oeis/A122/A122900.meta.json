@@ -1,0 +1,21 @@
+{
+  "description": "Minimum prime of the form n^k + (n+1)^k for k>1, or 0 if no such prime exists.",
+  "id": "A122900",
+  "mentions": [
+    "A077659",
+    "A080121",
+    "A080208",
+    "A122902"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

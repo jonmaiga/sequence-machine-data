@@ -1,0 +1,26 @@
+{
+  "description": "Generalized 2-super abundant numbers.",
+  "id": "A208767",
+  "mentions": [
+    "A001157",
+    "A002182",
+    "A002201",
+    "A004394",
+    "A004490",
+    "A013661",
+    "A017667",
+    "A017668",
+    "A025487"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primes (with d digits, say) that generate another prime when acted on by the \"standard\" superpermutation of length A007489(d) of d elements (cf. comment).",
+  "id": "A244311",
+  "mentions": [
+    "A002385",
+    "A007489",
+    "A180632",
+    "A332088"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

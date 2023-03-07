@@ -1,0 +1,34 @@
+{
+  "description": "Triangle read by rows in which row n lists the widths of the symmetric representation of A024916(n): the sum of all divisors of all positive integers <= n.",
+  "id": "A262611",
+  "mentions": [
+    "A024916",
+    "A236104",
+    "A237048",
+    "A237593",
+    "A240542",
+    "A241008",
+    "A241010",
+    "A244250",
+    "A245685",
+    "A246955",
+    "A247687",
+    "A249351",
+    "A250068",
+    "A250070",
+    "A250071",
+    "A253258",
+    "A262626"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-entry"
+  }
+}

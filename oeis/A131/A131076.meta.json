@@ -1,0 +1,27 @@
+{
+  "description": "Row sums of triangular array T: T(j,1) = 1 for ((j-1) mod 8) < 4, else 0; T(j,k) = T(j-1,k-1) + T(j,k-1) for 2 <= k <= j.",
+  "id": "A131076",
+  "mentions": [
+    "A129961",
+    "A131074",
+    "A131075",
+    "A131077",
+    "A131078",
+    "A131079",
+    "A131080",
+    "A131081",
+    "A131082",
+    "A131083"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

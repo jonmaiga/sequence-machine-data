@@ -1,0 +1,23 @@
+{
+  "description": "n*5/gcd(n*5,n+5), n >= 5.",
+  "id": "A222463",
+  "mentions": [
+    "A000027",
+    "A145979",
+    "A221918",
+    "A221920",
+    "A221921"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:31",
+    "offset": 5,
+    "size": 56,
+    "source": "joeis"
+  }
+}

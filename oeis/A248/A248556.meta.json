@@ -1,0 +1,20 @@
+{
+  "description": "Concatenate (3n-2,3n-1,3n).",
+  "id": "A248556",
+  "mentions": [
+    "A030655",
+    "A091331"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

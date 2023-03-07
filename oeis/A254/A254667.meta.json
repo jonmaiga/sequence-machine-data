@@ -1,0 +1,30 @@
+{
+  "description": "The nonnegative numbers with 2 instead of 1.",
+  "id": "A254667",
+  "mentions": [
+    "A000004",
+    "A000012",
+    "A001477",
+    "A011973",
+    "A015441",
+    "A027641",
+    "A027642",
+    "A054977",
+    "A063524",
+    "A164555",
+    "A164558",
+    "A233583"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:06:57",
+    "offset": 0,
+    "size": 63,
+    "source": "joeis"
+  }
+}

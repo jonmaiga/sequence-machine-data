@@ -1,0 +1,21 @@
+{
+  "description": "Trajectory of n under the Reverse and Add! operation carried out in base 5 (presumably) does not reach a palindrome.",
+  "id": "A306365",
+  "mentions": [
+    "A023108",
+    "A066059",
+    "A075420",
+    "A077404"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

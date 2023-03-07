@@ -1,0 +1,21 @@
+{
+  "description": "Least number k > 0 such that 3^k contains at least an n-digit long substring of the infinite string \"98765432109876543210987654...\".",
+  "id": "A243304",
+  "mentions": [
+    "A243295"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "hard",
+    "less",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

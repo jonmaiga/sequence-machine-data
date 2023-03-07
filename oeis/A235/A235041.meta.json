@@ -1,0 +1,45 @@
+{
+  "description": "Factorization-preserving bijection from nonnegative integers to GF(2)[X]-polynomials, version which fixes the elements that are irreducible in both semirings.",
+  "id": "A235041",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A001221",
+    "A001222",
+    "A001317",
+    "A008683",
+    "A010051",
+    "A014580",
+    "A048720",
+    "A048724",
+    "A091202",
+    "A091204",
+    "A091206",
+    "A091209",
+    "A091214",
+    "A091219",
+    "A091220",
+    "A091221",
+    "A091222",
+    "A091225",
+    "A106442",
+    "A106444",
+    "A106446",
+    "A115857",
+    "A115872",
+    "A235042",
+    "A235043",
+    "A235045"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

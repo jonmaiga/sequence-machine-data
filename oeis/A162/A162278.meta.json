@@ -1,0 +1,18 @@
+{
+  "description": "a(0)=1. For n >= 1, a(n) = the smallest prime either of the form a(n-1)*k - 1 or of the form a(n-1)*k + 1, for some k >= 2.",
+  "id": "A162278",
+  "mentions": [
+    "A061092",
+    "A072532"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

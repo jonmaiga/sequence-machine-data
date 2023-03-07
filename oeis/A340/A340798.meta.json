@@ -1,0 +1,22 @@
+{
+  "description": "Square array read by descending antidiagonals. Let G be a simple labeled graph on n nodes. T(n,k) is the number of ways to give G an acyclic orientation and a coloring function C:V(G) -> {1,2,...,k} so that u->v implies C(u) >= C(v) for all u,v in V(G), n >= 0, k >= 0.",
+  "id": "A340798",
+  "mentions": [
+    "A003024",
+    "A219765",
+    "A322280",
+    "A339934"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

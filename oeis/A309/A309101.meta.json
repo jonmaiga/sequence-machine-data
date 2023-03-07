@@ -1,0 +1,19 @@
+{
+  "description": "Primes whose decimal representation can be written as a sequence of primes separated by single zeros.",
+  "id": "A309101",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

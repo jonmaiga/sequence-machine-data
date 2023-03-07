@@ -1,0 +1,18 @@
+{
+  "description": "Variant of the Chandra-sutra (A014701) using 3 instead of 2, and a mod argument using residues 1 and 2.",
+  "id": "A232615",
+  "mentions": [
+    "A014701"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

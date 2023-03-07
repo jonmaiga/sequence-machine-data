@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n*sigma_2(n)/sigma_1(n) is an integer",
+  "id": "A144922",
+  "mentions": [
+    "A000203",
+    "A001157",
+    "A001599",
+    "A140480"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

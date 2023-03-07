@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest k such that k! has at least n consecutive zeros immediately after the leading digit in base 10.",
+  "id": "A356739",
+  "mentions": [
+    "A000142",
+    "A027869"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

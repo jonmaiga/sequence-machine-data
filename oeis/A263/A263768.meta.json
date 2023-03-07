@@ -1,0 +1,21 @@
+{
+  "description": "Number of necklaces with n beads colored white or red, where the number of white beads is odd and at least three and turning over is allowed.",
+  "id": "A263768",
+  "mentions": [
+    "A000016",
+    "A007147",
+    "A016116",
+    "A227910"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 3,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

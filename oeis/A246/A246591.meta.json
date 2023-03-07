@@ -1,0 +1,21 @@
+{
+  "description": "Smallest number that can be obtained by swapping 2 bits in the binary expansion of n.",
+  "id": "A246591",
+  "mentions": [
+    "A241816",
+    "A246592",
+    "A246593",
+    "A246594"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

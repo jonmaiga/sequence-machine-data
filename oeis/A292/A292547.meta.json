@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions of n into distinct odd cubes.",
+  "id": "A292547",
+  "mentions": [
+    "A000700",
+    "A033461",
+    "A167700",
+    "A279329",
+    "A287091",
+    "A290276",
+    "A292740"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 0,
+    "size": 157,
+    "source": "oeis-bfile"
+  }
+}

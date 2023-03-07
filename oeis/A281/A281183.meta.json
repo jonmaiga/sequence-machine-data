@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. C(x)^2 = cosh( Integral C(x)^3 dx )^2 where C(x) is described by A281181.",
+  "id": "A281183",
+  "mentions": [
+    "A281180",
+    "A281181",
+    "A281182",
+    "A281184"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of derangements of {1,2,...,n} having no adjacent 2-cycles and no adjacent 3-cycles (an adjacent q-cycle is a cycle of the form (i,i+1,i+2,...,i+q-1)).",
+  "id": "A177261",
+  "mentions": [
+    "A000166",
+    "A177258",
+    "A177259",
+    "A177260"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

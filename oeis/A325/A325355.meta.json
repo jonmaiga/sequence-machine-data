@@ -1,0 +1,29 @@
+{
+  "description": "One plus the number of steps applying A325351 (Heinz number of augmented differences of reversed prime indices) to reach a fixed point.",
+  "id": "A325355",
+  "mentions": [
+    "A056239",
+    "A093641",
+    "A112798",
+    "A130091",
+    "A289509",
+    "A325351",
+    "A325352",
+    "A325359",
+    "A325366",
+    "A325389",
+    "A325394",
+    "A325395",
+    "A325396"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

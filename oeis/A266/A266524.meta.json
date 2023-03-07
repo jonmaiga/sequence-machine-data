@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f.: Limit_{N->oo} [ Sum_{n>=0} (N + n)^(4*n) * (x/N^3)^n/n! ] / F(x)^N, where F(x) = Limit_{N->oo} [ Sum_{n>=0} (N + n)^(4*n) * (x/N^3)^n/n! ]^(1/N).",
+  "id": "A266524",
+  "mentions": [
+    "A266483",
+    "A266522",
+    "A266523",
+    "A266525"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

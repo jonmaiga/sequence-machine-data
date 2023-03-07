@@ -1,0 +1,28 @@
+{
+  "description": "Number of distinct subset-averages of the integer partition with Heinz number n.",
+  "id": "A316398",
+  "mentions": [
+    "A032302",
+    "A056239",
+    "A108917",
+    "A275972",
+    "A276024",
+    "A296150",
+    "A299701",
+    "A301899",
+    "A301957",
+    "A316313",
+    "A316314"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

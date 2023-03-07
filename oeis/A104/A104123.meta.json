@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the constant c = sqrt((137 - 1/(57+sqrt(Pi)/10))/(2*Pi)), an approximation to the Feigenbaum bifurcation velocity constant delta (A006890).",
+  "id": "A104123",
+  "mentions": [
+    "A006890"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:47:01",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

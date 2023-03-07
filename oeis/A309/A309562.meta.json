@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that the largest prime divisor of k^4+1 is less than k.",
+  "id": "A309562",
+  "mentions": [
+    "A102326",
+    "A256011"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

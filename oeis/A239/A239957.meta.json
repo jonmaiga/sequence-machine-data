@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = |{0 < g < prime(n): g is a primitive root modulo prime(n) of the form k^2 + 1}|.",
+  "id": "A239957",
+  "mentions": [
+    "A000040",
+    "A002522",
+    "A236308",
+    "A236966",
+    "A237112",
+    "A237121",
+    "A237594",
+    "A239963"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

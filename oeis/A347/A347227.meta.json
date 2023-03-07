@@ -1,0 +1,25 @@
+{
+  "description": "Square array T(n,k), n >= 1, k >= 0, read by antidiagonals downwards, where T(n,k) = Sum_{d|n} mu(d)*mu(n/d)*d^k.",
+  "id": "A347227",
+  "mentions": [
+    "A007427",
+    "A046692",
+    "A053822",
+    "A053825",
+    "A053826",
+    "A178448",
+    "A347251"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

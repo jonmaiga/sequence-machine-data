@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of greatest x satisfying x^2 + 1 = csc(x) and 0 < x < Pi.",
+  "id": "A201563",
+  "mentions": [
+    "A196825",
+    "A201564"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

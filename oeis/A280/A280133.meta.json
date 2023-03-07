@@ -1,0 +1,23 @@
+{
+  "description": "Partial products of A057661 (Sum_{d|n} psi(d)).",
+  "id": "A280133",
+  "mentions": [
+    "A000010",
+    "A023896",
+    "A029940",
+    "A057661",
+    "A232533",
+    "A280132"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

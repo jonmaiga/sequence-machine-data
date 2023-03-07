@@ -1,0 +1,23 @@
+{
+  "description": "Numbers such that every permutation of digits of n is divisible by sum of digits of n.",
+  "id": "A225782",
+  "mentions": [
+    "A002275",
+    "A005349",
+    "A007953",
+    "A011540",
+    "A014950",
+    "A225780"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

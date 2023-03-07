@@ -1,0 +1,18 @@
+{
+  "description": "Number of halving and tripling steps to reach 1 in 3x+1 problem applied the Fibonacci numbers.",
+  "id": "A206643",
+  "mentions": [
+    "A000045",
+    "A006577"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

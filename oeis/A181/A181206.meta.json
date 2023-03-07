@@ -1,0 +1,28 @@
+{
+  "description": "T(n,k) = number of n X k matrices containing a permutation of 1..n*k moving each element at most to a neighboring position.",
+  "id": "A181206",
+  "mentions": [
+    "A000045",
+    "A006253",
+    "A028447",
+    "A028448",
+    "A028449",
+    "A028450",
+    "A028451",
+    "A181205",
+    "A287052",
+    "A287053",
+    "A287054"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

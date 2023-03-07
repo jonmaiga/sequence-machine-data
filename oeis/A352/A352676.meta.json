@@ -1,0 +1,19 @@
+{
+  "description": "Intersection of Beatty sequences for sqrt(3) and 1+sqrt(3).",
+  "id": "A352676",
+  "mentions": [
+    "A022838",
+    "A054088",
+    "A352673"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

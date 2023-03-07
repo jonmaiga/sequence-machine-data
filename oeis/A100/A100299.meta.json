@@ -1,0 +1,18 @@
+{
+  "description": "Number of dissections of a convex n-gon by nonintersecting diagonals into an even number of regions.",
+  "id": "A100299",
+  "mentions": [
+    "A100300"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 3,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Order of the \"inside-out\" permutation on 2n+1 letters.",
+  "id": "A294673",
+  "mentions": [
+    "A003558",
+    "A019567",
+    "A163778",
+    "A238371",
+    "A294434"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

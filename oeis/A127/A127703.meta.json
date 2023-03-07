@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form 7*2^k-3 or 7*2^k+3.",
+  "id": "A127703",
+  "mentions": [
+    "A156127",
+    "A164285"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

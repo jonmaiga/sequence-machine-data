@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of f(-x, x^3) in powers of x where f(,) is Ramanujan's general theta function.",
+  "id": "A143433",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A143431",
+    "A143434",
+    "A244465",
+    "A244525"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:35:17",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Positive numbers which when decremented by the product of their digits produce a square.",
+  "id": "A228187",
+  "mentions": [
+    "A066567"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

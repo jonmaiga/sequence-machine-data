@@ -1,0 +1,33 @@
+{
+  "description": "Regular triangle where T(n,k) is the number of transitive rooted trees with n nodes and k leaves.",
+  "id": "A301345",
+  "mentions": [
+    "A000081",
+    "A001190",
+    "A003238",
+    "A004111",
+    "A032305",
+    "A055277",
+    "A276625",
+    "A279861",
+    "A290689",
+    "A290760",
+    "A290822",
+    "A298422",
+    "A298426",
+    "A301342",
+    "A301343",
+    "A301344"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

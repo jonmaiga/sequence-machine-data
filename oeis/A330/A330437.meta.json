@@ -1,0 +1,23 @@
+{
+  "description": "Length of trajectory of n under the map n -> n - 1 + n/gpf(n) or 0 if no fixed point is reached, where gpf(n) is the greatest prime factor of n.",
+  "id": "A330437",
+  "mentions": [
+    "A006530",
+    "A120685",
+    "A270807",
+    "A329288",
+    "A330704",
+    "A331410"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

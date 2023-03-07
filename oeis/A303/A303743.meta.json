@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is a number of lattice points in 3D Cartesian grid between cube with edge length 2*n centered in origin and its inscribed sphere. Three pairs of the cube's faces are parallel to the planes XOY, XOZ, YOZ respectively.",
+  "id": "A303743",
+  "mentions": [
+    "A000605",
+    "A016755",
+    "A303642"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

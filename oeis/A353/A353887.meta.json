@@ -1,0 +1,21 @@
+{
+  "description": "Squarefree numbers of the form k^2 + k + 1 for some k >= 0.",
+  "id": "A353887",
+  "mentions": [
+    "A002061",
+    "A005117",
+    "A353886"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

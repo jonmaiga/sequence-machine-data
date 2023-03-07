@@ -1,0 +1,23 @@
+{
+  "description": "Filter sequence combining A009195(n) and A046523(n), i.e., gcd(n,phi(n)) and the prime signature of n.",
+  "id": "A300240",
+  "mentions": [
+    "A000027",
+    "A009195",
+    "A046523",
+    "A300230",
+    "A300241",
+    "A300242",
+    "A300243"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

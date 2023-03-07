@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 0; for n>0, a(n) is the smallest integer not already in the list with a composite common factor with a(n-1).",
+  "id": "A251756",
+  "mentions": [
+    "A002808",
+    "A010051",
+    "A064413",
+    "A098550"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Least m such that n! <= 3^m.",
+  "id": "A213857",
+  "mentions": [
+    "A003070",
+    "A072831",
+    "A213854"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

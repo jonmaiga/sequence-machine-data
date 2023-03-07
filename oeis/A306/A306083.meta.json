@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. Product_{k>=1} (1 + (exp(x) - 1)^(k^2)).",
+  "id": "A306083",
+  "mentions": [
+    "A033461",
+    "A306082",
+    "A306147"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

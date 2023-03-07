@@ -1,0 +1,17 @@
+{
+  "description": "Number of distinct convex hexagons that can be formed from n congruent isosceles right triangles. Reflections are not counted as distinct.",
+  "id": "A292148",
+  "mentions": [
+    "A245676"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

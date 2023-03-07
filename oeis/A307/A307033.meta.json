@@ -1,0 +1,22 @@
+{
+  "description": "Even numbers neither in A000010 nor in A001615.",
+  "id": "A307033",
+  "mentions": [
+    "A000010",
+    "A001615",
+    "A002202",
+    "A005277",
+    "A203444",
+    "A307055"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

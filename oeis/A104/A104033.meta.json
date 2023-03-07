@@ -1,0 +1,28 @@
+{
+  "description": "Triangle, read by rows, equal to the matrix inverse of triangle A103327, where A103327(n,k) = binomial(2*n+1,2*k+1).",
+  "id": "A104033",
+  "mentions": [
+    "A000182",
+    "A000364",
+    "A002084",
+    "A009843",
+    "A055133",
+    "A086645",
+    "A086646",
+    "A096053",
+    "A103327",
+    "A103364"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k) with partial column sums of the even indexed Fibonacci numbers.",
+  "id": "A125172",
+  "mentions": [
+    "A001906",
+    "A105693",
+    "A121460",
+    "A125171",
+    "A193667"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:46",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

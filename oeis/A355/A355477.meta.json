@@ -1,0 +1,19 @@
+{
+  "description": "Maximum number of skew-tetrominoes that can be packed into an n X n square.",
+  "id": "A355477",
+  "mentions": [
+    "A256535"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of exp(Pi*sqrt(29/2)).",
+  "id": "A100379",
+  "mentions": [
+    "A007247",
+    "A060295"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:35:15",
+    "offset": 6,
+    "size": 105,
+    "source": "joeis"
+  }
+}

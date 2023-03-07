@@ -1,0 +1,19 @@
+{
+  "description": "Plane partition triangle, row sums = A000219; derived from the Euler transform of [1, 2, 3, ...].",
+  "id": "A162453",
+  "mentions": [
+    "A000219"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

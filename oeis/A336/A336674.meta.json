@@ -1,0 +1,19 @@
+{
+  "description": "Number of positive terms of the Okounkov-Olshanski formula for the number of standard tableaux of skew shape (n+3,n+2,...,1)/(n-1,n-2,...,1).",
+  "id": "A336674",
+  "mentions": [
+    "A005700",
+    "A110501"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

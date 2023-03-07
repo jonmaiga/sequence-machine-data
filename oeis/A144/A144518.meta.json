@@ -1,0 +1,20 @@
+{
+  "description": "From decimal expansion of Euler's constant 0.57721566490...: 0+5, 7+7, 2+1, 5+6, 6+4, 9+0, ...",
+  "id": "A144518",
+  "mentions": [
+    "A001620",
+    "A152626"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

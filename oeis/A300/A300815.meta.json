@@ -1,0 +1,18 @@
+{
+  "description": "Number of 3 division {a, b, c} (a < b < c) of n where b isn't a multiple of a, c isn't a multiple of a and c isn't a multiple of b.",
+  "id": "A300815",
+  "mentions": [
+    "A003165"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 10,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

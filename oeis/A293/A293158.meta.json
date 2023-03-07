@@ -1,0 +1,18 @@
+{
+  "description": "Number of cells in the canonical partition by Laflamme, Sauer and Vuksanovic of n-element subsets of the infinite random (Rado) graph.",
+  "id": "A293158",
+  "mentions": [
+    "A293159"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

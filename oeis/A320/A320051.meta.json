@@ -1,0 +1,40 @@
+{
+  "description": "Square array read by antidiagonals upwards: T(n,k) is the n-th positive integer with exactly k middle divisors, n >= 1, k >= 0.",
+  "id": "A320051",
+  "mentions": [
+    "A067742",
+    "A071561",
+    "A071562",
+    "A128605",
+    "A237593",
+    "A240542",
+    "A245092",
+    "A249351",
+    "A262626",
+    "A279286",
+    "A280849",
+    "A281007",
+    "A286000",
+    "A286001",
+    "A299761",
+    "A299777",
+    "A303297",
+    "A319529",
+    "A319796",
+    "A319801",
+    "A319802",
+    "A320137",
+    "A329142"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

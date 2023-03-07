@@ -1,0 +1,19 @@
+{
+  "description": "Least k > a(n-1) such that k^3 has no digit in common with a(n-1) and a(n+1), a(0)=0.",
+  "id": "A294662",
+  "mentions": [
+    "A030290",
+    "A294663"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Corresponding values of primes p from A247821 and A247838.",
+  "id": "A247822",
+  "mentions": [
+    "A000203",
+    "A000668",
+    "A008438",
+    "A051027",
+    "A247790",
+    "A247791",
+    "A247820",
+    "A247821",
+    "A247823",
+    "A247838",
+    "A247954"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

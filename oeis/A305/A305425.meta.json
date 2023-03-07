@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n/2 for even n, a(n) = A305422(n) for odd n.",
+  "id": "A305425",
+  "mentions": [
+    "A000027",
+    "A091225",
+    "A252463",
+    "A305419",
+    "A305421",
+    "A305422"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

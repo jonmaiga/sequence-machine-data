@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of x/(1-x) + x^4*(1-x)/(1-x^3) + x^7*(1-x)*(1-x^3)/(1-x^5) + ... in powers of x.",
+  "id": "A291316",
+  "mentions": [
+    "A008443",
+    "A143064",
+    "A290735",
+    "A290737"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

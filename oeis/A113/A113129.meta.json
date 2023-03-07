@@ -1,0 +1,36 @@
+{
+  "description": "Triangle T(n,k), 0<=k<=n, of coefficients of polynomials P_n(x) related to convolution of the k-fold factorials.",
+  "id": "A113129",
+  "mentions": [
+    "A000007",
+    "A000108",
+    "A000142",
+    "A000699",
+    "A075834",
+    "A084938",
+    "A097805",
+    "A111088",
+    "A111106",
+    "A113130",
+    "A113131",
+    "A113132",
+    "A113133",
+    "A113134",
+    "A113135",
+    "A113332",
+    "A113333"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

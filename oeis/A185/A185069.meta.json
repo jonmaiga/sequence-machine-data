@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form k*6^m +1 with k prime and m an integer.",
+  "id": "A185069",
+  "mentions": [
+    "A185167",
+    "A186104",
+    "A186105",
+    "A186782"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

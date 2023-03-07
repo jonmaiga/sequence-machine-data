@@ -1,0 +1,29 @@
+{
+  "description": "a(n) is the number of Jacobsthal numbers (A001045) needed to sum to n using the greedy algorithm.",
+  "id": "A265745",
+  "mentions": [
+    "A001045",
+    "A003158",
+    "A007895",
+    "A014420",
+    "A053610",
+    "A130249",
+    "A197911",
+    "A265404",
+    "A265743",
+    "A265744",
+    "A265746",
+    "A265747"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 0,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

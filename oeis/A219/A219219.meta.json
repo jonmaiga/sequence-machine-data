@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that 2^k (mod k^2) is prime.",
+  "id": "A219219",
+  "mentions": [
+    "A066606"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

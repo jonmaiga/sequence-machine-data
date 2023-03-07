@@ -1,0 +1,18 @@
+{
+  "description": "Self-convolution square-root of A118802, which is the row squared sums of triangle A118801.",
+  "id": "A118803",
+  "mentions": [
+    "A118801",
+    "A118802"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

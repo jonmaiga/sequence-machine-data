@@ -1,0 +1,21 @@
+{
+  "description": "Dirichlet inverse of A328745.",
+  "id": "A329445",
+  "mentions": [
+    "A008836",
+    "A182938",
+    "A328745"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of divisors of 5*n-1 of form 5*k+1.",
+  "id": "A359233",
+  "mentions": [
+    "A001876",
+    "A001899",
+    "A078703",
+    "A099774",
+    "A359211",
+    "A359236",
+    "A359237",
+    "A359238"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

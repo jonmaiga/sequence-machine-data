@@ -1,0 +1,19 @@
+{
+  "description": "Smallest n-digit prime with only digits 0 and 1, and having least digit sum (or 0, if no such prime exists).",
+  "id": "A168586",
+  "mentions": [
+    "A062339",
+    "A168587"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

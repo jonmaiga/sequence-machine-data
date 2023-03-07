@@ -1,0 +1,24 @@
+{
+  "description": "Even bisection of A353640.",
+  "id": "A353642",
+  "mentions": [
+    "A000035",
+    "A010873",
+    "A342002",
+    "A353632",
+    "A353640",
+    "A353641"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

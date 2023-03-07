@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = 1 if A276086(n) is of the form 6k+5, where A276086 is the primorial base exp-function.",
+  "id": "A358842",
+  "mentions": [
+    "A003987",
+    "A059841",
+    "A079979",
+    "A120325",
+    "A276086",
+    "A353489",
+    "A353516",
+    "A358755",
+    "A358840",
+    "A358841",
+    "A358843",
+    "A358846"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 0,
+    "size": 127,
+    "source": "oeis-bfile"
+  }
+}

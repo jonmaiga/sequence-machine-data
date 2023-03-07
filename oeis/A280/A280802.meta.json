@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to write a nonnegative rational integer n as a sum of three squares in the ring of integers of Q(sqrt 2).",
+  "id": "A280802",
+  "mentions": [
+    "A005875"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

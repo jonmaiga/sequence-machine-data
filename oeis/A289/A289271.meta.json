@@ -1,0 +1,33 @@
+{
+  "description": "A bijective binary representation of the prime factorization of a number, shown in decimal (see Comments for precise definition).",
+  "id": "A289271",
+  "mentions": [
+    "A000120",
+    "A000961",
+    "A001221",
+    "A002110",
+    "A007814",
+    "A034684",
+    "A034729",
+    "A052331",
+    "A087207",
+    "A156552",
+    "A289272",
+    "A322988",
+    "A322990",
+    "A322991",
+    "A322992",
+    "A322995"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

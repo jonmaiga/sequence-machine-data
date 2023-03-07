@@ -1,0 +1,21 @@
+{
+  "description": "Primes to which a record size square needs to be added to reach another prime.",
+  "id": "A309179",
+  "mentions": [
+    "A002386",
+    "A020495",
+    "A065376",
+    "A127356",
+    "A129314"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

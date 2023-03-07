@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies: A(x,y) = 1-x + y*x + Series_Reversion( x/A(x,y)^2 ).",
+  "id": "A257813",
+  "mentions": [
+    "A000108",
+    "A120970"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

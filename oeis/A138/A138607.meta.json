@@ -1,0 +1,27 @@
+{
+  "description": "List first A008578(1) odd numbers, then first A008578(2) even numbers, then the next A008578(3) odd numbers, then the next A008578(4) even numbers, etc.",
+  "id": "A138607",
+  "mentions": [
+    "A000040",
+    "A007504",
+    "A008578",
+    "A083375",
+    "A138606",
+    "A138608",
+    "A138609",
+    "A138612",
+    "A166014"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

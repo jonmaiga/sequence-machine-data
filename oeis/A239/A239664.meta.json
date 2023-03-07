@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1, a(n+1) = smallest number not occurring earlier, having with a(n) neither a common digit nor a common divisor.",
+  "id": "A239664",
+  "mentions": [
+    "A054659",
+    "A067581",
+    "A276512",
+    "A276633"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Conjectured greatest number that converges to prime(n) under the iteration x -> phi(x) + 1, where phi is Euler's totient function.",
+  "id": "A229487",
+  "mentions": [
+    "A039650",
+    "A039651",
+    "A039652"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

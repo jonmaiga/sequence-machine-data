@@ -1,0 +1,22 @@
+{
+  "description": "A triangular array related to A077028 and distributing the values of A007582.",
+  "id": "A110552",
+  "mentions": [
+    "A007051",
+    "A007582",
+    "A077028",
+    "A111049"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

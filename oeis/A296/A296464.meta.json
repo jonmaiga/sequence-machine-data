@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. arcsin(arcsin(x)) (odd powers only).",
+  "id": "A296464",
+  "mentions": [
+    "A001818",
+    "A003712",
+    "A012063",
+    "A296466"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:00:12",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

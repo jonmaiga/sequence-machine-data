@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that H(n)/H(n^2) is a new record, where H(n) = A000120(n) is the sum of the binary digits of n.",
+  "id": "A260986",
+  "mentions": [
+    "A000120",
+    "A159918",
+    "A230097",
+    "A356877"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

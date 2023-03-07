@@ -1,0 +1,25 @@
+{
+  "description": "Triangular array read by rows: T(n,k) is the number of n-node connected graphs with exactly one cycle of length k (and no other cycles) for n >= 1 and 1 <= k <= n.",
+  "id": "A217781",
+  "mentions": [
+    "A000081",
+    "A000226",
+    "A000368",
+    "A001429",
+    "A027852",
+    "A068051",
+    "A339428"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

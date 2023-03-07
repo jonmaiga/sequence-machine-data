@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f.: Product_{k>=1} (1 + x^(4*k-3) / (4*k-3)).",
+  "id": "A326856",
+  "mentions": [
+    "A001620",
+    "A007838",
+    "A088994",
+    "A326780",
+    "A326855"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

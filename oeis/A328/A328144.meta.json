@@ -1,0 +1,19 @@
+{
+  "description": "Orders of cubic (i.e., trivalent, 3-regular) distance-transitive connected graphs, from smallest to largest, with duplications when there exist multiple graphs with the same order.",
+  "id": "A328144",
+  "mentions": [
+    "A075124"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

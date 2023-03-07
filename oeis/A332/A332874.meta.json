@@ -1,0 +1,39 @@
+{
+  "description": "Number of strict compositions of n that are neither unimodal nor is their negation.",
+  "id": "A332874",
+  "mentions": [
+    "A001523",
+    "A007052",
+    "A072704",
+    "A115981",
+    "A227038",
+    "A328509",
+    "A329398",
+    "A332281",
+    "A332284",
+    "A332578",
+    "A332639",
+    "A332640",
+    "A332641",
+    "A332643",
+    "A332669",
+    "A332745",
+    "A332746",
+    "A332831",
+    "A332833",
+    "A332834",
+    "A332835",
+    "A332870"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

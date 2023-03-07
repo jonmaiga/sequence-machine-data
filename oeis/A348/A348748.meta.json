@@ -1,0 +1,26 @@
+{
+  "description": "Odd numbers k for which A064989(sigma(k)) < A064989(k), where A064989 shifts the prime factorization one step towards lower primes, and sigma is the sum of divisors function.",
+  "id": "A348748",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A064989",
+    "A228058",
+    "A326042",
+    "A348738",
+    "A348741",
+    "A348749",
+    "A348753",
+    "A348938"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

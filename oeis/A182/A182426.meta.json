@@ -1,0 +1,22 @@
+{
+  "description": "Lengths of runs of consecutive isolated primes beginning with A166251(n).",
+  "id": "A182426",
+  "mentions": [
+    "A049084",
+    "A164368",
+    "A166251",
+    "A182405",
+    "A182423",
+    "A194598"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

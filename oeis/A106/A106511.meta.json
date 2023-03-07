@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of (1+x)^2/((1 + x + x^2)*(1 + x - x^2)).",
+  "id": "A106511",
+  "mentions": [
+    "A000045",
+    "A005252",
+    "A011646",
+    "A024490",
+    "A039834",
+    "A106509"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

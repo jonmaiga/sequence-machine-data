@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of (Product_{k>0} (1 - x^k) / (1 - x^(5*k)))^5 in powers of x.",
+  "id": "A285932",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A022597",
+    "A112143",
+    "A116073",
+    "A121373",
+    "A199659",
+    "A285928"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

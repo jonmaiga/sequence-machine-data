@@ -1,0 +1,23 @@
+{
+  "description": "Emirps in both base 2 and base 10.",
+  "id": "A347209",
+  "mentions": [
+    "A004086",
+    "A006567",
+    "A030101",
+    "A080790",
+    "A081434",
+    "A136634"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

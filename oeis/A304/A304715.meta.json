@@ -1,0 +1,25 @@
+{
+  "description": "For any n > 0, if A006666(n) >= 0, then a(n) = Sum_{i = 0..A006666(n)-1} 2^i * [T^i(n) == 0 (mod 2)] (where [] is an Iverson bracket and T^i denotes the i-th iterate of the Collatz function A014682); otherwise a(n) = -1.",
+  "id": "A304715",
+  "mentions": [
+    "A000120",
+    "A006666",
+    "A014682",
+    "A029837",
+    "A220071",
+    "A248573"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

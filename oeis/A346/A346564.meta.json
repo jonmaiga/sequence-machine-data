@@ -1,0 +1,23 @@
+{
+  "description": "Number of compositions (ordered partitions) of 3^n into powers of 3.",
+  "id": "A346564",
+  "mentions": [
+    "A000244",
+    "A078125",
+    "A078932",
+    "A248377",
+    "A337990",
+    "A346565"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

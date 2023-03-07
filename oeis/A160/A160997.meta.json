@@ -1,0 +1,18 @@
+{
+  "description": "Antidiagonal sums of the Wythoff array A035513",
+  "id": "A160997",
+  "mentions": [
+    "A035513"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m >= 3 such that binomial(m,3) + 1 is a square.",
+  "id": "A175492",
+  "mentions": [
+    "A006451",
+    "A007318",
+    "A055997",
+    "A072221"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

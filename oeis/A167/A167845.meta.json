@@ -1,0 +1,27 @@
+{
+  "description": "Concave primes.",
+  "id": "A167845",
+  "mentions": [
+    "A134811",
+    "A134951",
+    "A134971",
+    "A135642",
+    "A167841",
+    "A167842",
+    "A167843",
+    "A167844",
+    "A167846",
+    "A167853"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

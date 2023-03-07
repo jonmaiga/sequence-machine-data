@@ -1,0 +1,20 @@
+{
+  "description": "a(n) begins the first run of exactly n consecutive binary hoax numbers (A329936).",
+  "id": "A329942",
+  "mentions": [
+    "A019506",
+    "A235766",
+    "A329936"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

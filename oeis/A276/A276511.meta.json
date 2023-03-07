@@ -1,0 +1,24 @@
+{
+  "description": "Primes that are equal to the sum of the prime factors of some perfect number.",
+  "id": "A276511",
+  "mentions": [
+    "A000043",
+    "A000396",
+    "A000668",
+    "A007013",
+    "A100118",
+    "A192436",
+    "A276493"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

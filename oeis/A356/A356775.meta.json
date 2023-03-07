@@ -1,0 +1,21 @@
+{
+  "description": "Coefficients in the power series expansion of A(x) = Sum_{n=-oo..+oo} n*(n+1)/2 * x^(2*n) * (1 - x^n)^(n-2).",
+  "id": "A356775",
+  "mentions": [
+    "A291937",
+    "A356774",
+    "A357156",
+    "A357157"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 2,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

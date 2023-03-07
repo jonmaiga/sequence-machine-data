@@ -1,0 +1,29 @@
+{
+  "description": "Danilov's sequence of y values satisfying 0 < |x^3 - y^2| < sqrt(x) with integer (x,y).",
+  "id": "A200217",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000204",
+    "A078933",
+    "A078993",
+    "A179107",
+    "A179109",
+    "A179387",
+    "A179388",
+    "A199496",
+    "A200216",
+    "A200218"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

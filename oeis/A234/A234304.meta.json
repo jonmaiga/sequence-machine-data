@@ -1,0 +1,17 @@
+{
+  "description": "Numbers with at least 3 representations as a sum of consecutive square numbers.",
+  "id": "A234304",
+  "mentions": [
+    "A130052"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

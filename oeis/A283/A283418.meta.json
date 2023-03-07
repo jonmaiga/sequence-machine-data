@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n and n+1 are primitive abundant.",
+  "id": "A283418",
+  "mentions": [
+    "A005105",
+    "A091191",
+    "A096399"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

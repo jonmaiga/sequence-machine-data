@@ -1,0 +1,28 @@
+{
+  "description": "Irregular triangle read by rows: row n gives the complete system of cycles of the doubling sequences modulo N = 2*n+1, for n >= 0.",
+  "id": "A337712",
+  "mentions": [
+    "A000010",
+    "A002326",
+    "A037225",
+    "A037226",
+    "A038566",
+    "A201908",
+    "A334430",
+    "A337936",
+    "A339046"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

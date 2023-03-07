@@ -1,0 +1,22 @@
+{
+  "description": "Let the operation <+> be defined by x<+>y = A038502(x+y). a(n) is the period length in the track of the iterated application x<+>(x<+>....(x<+>1)) for x = A001651(n-1).",
+  "id": "A179787",
+  "mentions": [
+    "A001651",
+    "A038502",
+    "A179382",
+    "A179480",
+    "A179686",
+    "A179738"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

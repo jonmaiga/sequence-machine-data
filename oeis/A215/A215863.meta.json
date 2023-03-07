@@ -1,0 +1,18 @@
+{
+  "description": "Number of simple labeled graphs on n+3 nodes with exactly n connected components that are trees or cycles.",
+  "id": "A215863",
+  "mentions": [
+    "A215861"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:40:43",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

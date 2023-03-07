@@ -1,0 +1,21 @@
+{
+  "description": "Number of normal bases in GF(2^n) that are Gaussian normal bases.",
+  "id": "A190616",
+  "mentions": [
+    "A040160",
+    "A042967"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

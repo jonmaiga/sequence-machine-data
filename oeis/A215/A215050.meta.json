@@ -1,0 +1,23 @@
+{
+  "description": "Number of primes of the form 1 + b^16 for 1 < b < 10^n.",
+  "id": "A215050",
+  "mentions": [
+    "A214455",
+    "A215047",
+    "A215048",
+    "A215049",
+    "A215051"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

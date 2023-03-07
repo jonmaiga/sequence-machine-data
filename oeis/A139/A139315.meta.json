@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest integer k such that n*k is the smallest multiple of k with twice as many divisors as k, or 0 if no such number is possible.",
+  "id": "A139315",
+  "mentions": [
+    "A129902",
+    "A135060",
+    "A138511",
+    "A337686"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 2,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that n is not a prime power (p^k with k>=1) and the root mean square (quadratic mean) of its prime divisors is an integer.",
+  "id": "A255580",
+  "mentions": [
+    "A144711"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

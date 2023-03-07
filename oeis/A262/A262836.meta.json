@@ -1,0 +1,23 @@
+{
+  "description": "{3,5}-primes (defined in Comments).",
+  "id": "A262836",
+  "mentions": [
+    "A000040",
+    "A231474",
+    "A262729",
+    "A262829",
+    "A262835"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

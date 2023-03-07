@@ -1,0 +1,24 @@
+{
+  "description": "Jacobsthal-Lucas numbers A014551, except a(0) = 0.",
+  "id": "A166977",
+  "mentions": [
+    "A001045",
+    "A014551",
+    "A097073",
+    "A131577",
+    "A166956"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

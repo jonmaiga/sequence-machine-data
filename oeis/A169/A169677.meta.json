@@ -1,0 +1,22 @@
+{
+  "description": "The first of a pair of sequences A and B with property that all the differences |a_i - b_j| are distinct - for precise definition see Comments lines.",
+  "id": "A169677",
+  "mentions": [
+    "A169678",
+    "A169679",
+    "A169680",
+    "A169690",
+    "A169693"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:53",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

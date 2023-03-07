@@ -1,0 +1,23 @@
+{
+  "description": "Number of irreducible factors in the factorization of the n-th cyclotomic polynomial over GF(2) (counted with multiplicity).",
+  "id": "A318622",
+  "mentions": [
+    "A000010",
+    "A000265",
+    "A002326",
+    "A091248",
+    "A129832",
+    "A327818"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

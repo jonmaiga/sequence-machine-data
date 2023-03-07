@@ -1,0 +1,20 @@
+{
+  "description": "Sums of squares of two odd primes.",
+  "id": "A357439",
+  "mentions": [
+    "A045636",
+    "A103739",
+    "A143850",
+    "A227697"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

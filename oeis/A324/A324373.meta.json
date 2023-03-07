@@ -1,0 +1,22 @@
+{
+  "description": "Number of permutations p of [n] whose absolute displacements |p(i)-i| are Fibonacci numbers.",
+  "id": "A324373",
+  "mentions": [
+    "A000045",
+    "A000142",
+    "A324372",
+    "A324374",
+    "A324375",
+    "A324376"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

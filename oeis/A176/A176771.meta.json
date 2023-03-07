@@ -1,0 +1,25 @@
+{
+  "description": "Smallest power of 12 whose decimal expansion contains n.",
+  "id": "A176771",
+  "mentions": [
+    "A001018",
+    "A001021",
+    "A030001",
+    "A176763",
+    "A176764",
+    "A176773"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:46:29",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

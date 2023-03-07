@@ -1,0 +1,22 @@
+{
+  "description": "a(n) gives the number of side-branches that will be passed, if A342369 is used to trace the Collatz tree backward starting at 6*n-2 with n > 0.",
+  "id": "A340407",
+  "mentions": [
+    "A014682",
+    "A056020",
+    "A087088",
+    "A342261",
+    "A342369"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

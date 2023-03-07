@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = smallest number of edges that must be removed from K_n to obtain a graceful graph.",
+  "id": "A212661",
+  "mentions": [
+    "A003022",
+    "A004137",
+    "A078106"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 3,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Primes p such that the smallest integer whose sum of decimal digits is p is prime.",
+  "id": "A129990",
+  "mentions": [
+    "A002957",
+    "A051885",
+    "A056703",
+    "A056712",
+    "A056716",
+    "A056721",
+    "A056725"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

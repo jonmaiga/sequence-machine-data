@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 1 if n is an odd number of the form p^j * q^k, with p and q primes and gcd(phi(p^j), phi(q^k)) = 2, otherwise 0.",
+  "id": "A353677",
+  "mentions": [
+    "A000010",
+    "A000035",
+    "A002145",
+    "A007774",
+    "A329229",
+    "A353676",
+    "A353678"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 125,
+    "source": "oeis-bfile"
+  }
+}

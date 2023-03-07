@@ -1,0 +1,21 @@
+{
+  "description": "Number of standard Young tableaux of n cells and height >= 7.",
+  "id": "A218267",
+  "mentions": [
+    "A000085",
+    "A007579",
+    "A182172",
+    "A182222"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 7,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

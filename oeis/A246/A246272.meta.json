@@ -1,0 +1,27 @@
+{
+  "description": "Starting from n, the number of iterations of A003961 needed before the result has only prime factors of the form 4k+1 (a(1) = 0). [Where A003961(n) shifts the prime factorization of n one step towards larger primes].",
+  "id": "A246272",
+  "mentions": [
+    "A003961",
+    "A004613",
+    "A007947",
+    "A065338",
+    "A246269",
+    "A246270",
+    "A246271",
+    "A246277",
+    "A246349",
+    "A246350"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

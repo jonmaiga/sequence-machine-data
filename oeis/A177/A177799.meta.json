@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form prime(prime(n)) mod prime(n), sorted by increasing n.",
+  "id": "A177799",
+  "mentions": [
+    "A000040",
+    "A004648"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

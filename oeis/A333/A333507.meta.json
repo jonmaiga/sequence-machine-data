@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 1 - ((365!) / ((365 - 23)! * 365^23)).",
+  "id": "A333507",
+  "mentions": [
+    "A014088",
+    "A343015"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

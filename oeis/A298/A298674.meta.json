@@ -1,0 +1,25 @@
+{
+  "description": "Square matrix read by antidiagonals up. Matrix of Dirichlet series associated with Sum_{n<=X} MangoldtLambda(n) * MangoldtLambda(n+2).",
+  "id": "A298674",
+  "mentions": [
+    "A001694",
+    "A008683",
+    "A014963",
+    "A191898",
+    "A298824",
+    "A298825",
+    "A298826"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Least p=prime(k) for which A118123(k)=n.",
+  "id": "A117877",
+  "mentions": [
+    "A117078",
+    "A117563",
+    "A118123"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

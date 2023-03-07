@@ -1,0 +1,21 @@
+{
+  "description": "Semiprimes s such that tau(s-1)=tau(s+1) where tau=A000005.",
+  "id": "A192220",
+  "mentions": [
+    "A000005",
+    "A001358",
+    "A067888",
+    "A067889"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

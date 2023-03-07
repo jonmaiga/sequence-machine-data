@@ -1,0 +1,24 @@
+{
+  "description": "Smallest m such that each digit (0-9) appears exactly n times in the concatenation of m and pi(m).",
+  "id": "A323604",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A050278",
+    "A322828"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

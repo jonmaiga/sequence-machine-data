@@ -1,0 +1,17 @@
+{
+  "description": "First differences of A129983.",
+  "id": "A129984",
+  "mentions": [
+    "A129983"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:08:14",
+    "offset": 0,
+    "size": 10,
+    "source": "joeis"
+  }
+}

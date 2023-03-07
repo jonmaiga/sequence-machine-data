@@ -1,0 +1,19 @@
+{
+  "description": "Riordan array T((1-x)^(-2) | 2x-1) read by rows.",
+  "id": "A181690",
+  "mentions": [
+    "A000295",
+    "A159856"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

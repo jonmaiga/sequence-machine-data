@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the n-th J_7-prime (Josephus_7 prime).",
+  "id": "A163787",
+  "mentions": [
+    "A163782",
+    "A163786",
+    "A163788",
+    "A163800"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

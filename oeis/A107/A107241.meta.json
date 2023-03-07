@@ -1,0 +1,29 @@
+{
+  "description": "Sum of squares of first n tetranacci numbers (A000288).",
+  "id": "A107241",
+  "mentions": [
+    "A000045",
+    "A000288",
+    "A107239",
+    "A107240",
+    "A107242",
+    "A107243",
+    "A107244",
+    "A107245",
+    "A107246",
+    "A107247",
+    "A107248"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Toothpick sequence in the three-dimensional grid.",
+  "id": "A160160",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A160120",
+    "A160161",
+    "A160170",
+    "A170876",
+    "A170884",
+    "A170885"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

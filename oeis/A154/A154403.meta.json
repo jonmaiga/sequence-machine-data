@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to write n as a sum a_1 + ... + a_k where a_i >= 2 * a_{i-1} > 1.",
+  "id": "A154403",
+  "mentions": [
+    "A000929",
+    "A154402"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

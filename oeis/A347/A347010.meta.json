@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of n X n matrices over GF(2) with minimal polynomial of degree k, n >= 0, 0 <= k <= n.",
+  "id": "A347010",
+  "mentions": [
+    "A002416",
+    "A346082"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

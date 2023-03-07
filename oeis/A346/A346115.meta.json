@@ -1,0 +1,30 @@
+{
+  "description": "Least number k such that k^2 can be expressed in exactly n ways as x^2 + y^4 with {x, y} >= 1.",
+  "id": "A346115",
+  "mentions": [
+    "A000290",
+    "A000583",
+    "A002144",
+    "A002145",
+    "A111925",
+    "A271576",
+    "A345645",
+    "A345700",
+    "A345968",
+    "A346110",
+    "A348655",
+    "A349324"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

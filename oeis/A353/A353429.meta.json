@@ -1,0 +1,40 @@
+{
+  "description": "Number of integer compositions of n with all prime parts and all prime run-lengths.",
+  "id": "A353429",
+  "mentions": [
+    "A000607",
+    "A002095",
+    "A003242",
+    "A005811",
+    "A008483",
+    "A011782",
+    "A023360",
+    "A047966",
+    "A052284",
+    "A055923",
+    "A100405",
+    "A106356",
+    "A114901",
+    "A128695",
+    "A137200",
+    "A167606",
+    "A329738",
+    "A333489",
+    "A333755",
+    "A335464",
+    "A351982",
+    "A353401",
+    "A353427",
+    "A353428"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

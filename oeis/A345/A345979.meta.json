@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = integral spum of an n-cycle.",
+  "id": "A345979",
+  "mentions": [
+    "A345980",
+    "A345981"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

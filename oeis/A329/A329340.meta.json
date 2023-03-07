@@ -1,0 +1,25 @@
+{
+  "description": "Size of the orbit of n under \"ghost iterations\" A329201 (rule B).",
+  "id": "A329340",
+  "mentions": [
+    "A010785",
+    "A040115",
+    "A329196",
+    "A329197",
+    "A329200",
+    "A329201",
+    "A329341",
+    "A329342"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-entry"
+  }
+}

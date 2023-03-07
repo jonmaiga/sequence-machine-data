@@ -1,0 +1,19 @@
+{
+  "description": "Matula-Goebel tree number of tree n with all duplicate sibling subtrees reduced to one copy of each.",
+  "id": "A348066",
+  "mentions": [
+    "A007947",
+    "A276625"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

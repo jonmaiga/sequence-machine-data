@@ -1,0 +1,26 @@
+{
+  "description": "Square array T(n, k) = q-binomial(2*n, n, k+1), read by antidiagonals.",
+  "id": "A156914",
+  "mentions": [
+    "A000984",
+    "A022166",
+    "A022167",
+    "A022168",
+    "A022169",
+    "A022170",
+    "A022171",
+    "A022175"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

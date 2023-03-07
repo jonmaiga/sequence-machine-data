@@ -1,0 +1,27 @@
+{
+  "description": "Prime values of pi(n) that divide n.",
+  "id": "A256394",
+  "mentions": [
+    "A000720",
+    "A006530",
+    "A038623",
+    "A038627",
+    "A057809",
+    "A057810",
+    "A071394",
+    "A087235",
+    "A087241"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

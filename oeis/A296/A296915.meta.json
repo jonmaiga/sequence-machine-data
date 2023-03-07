@@ -1,0 +1,18 @@
+{
+  "description": "Primes that are not squares mod 163.",
+  "id": "A296915",
+  "mentions": [
+    "A296920",
+    "A296921"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:16",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

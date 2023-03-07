@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that n^2 contains every decimal digit exactly once.",
+  "id": "A156977",
+  "mentions": [
+    "A036745",
+    "A054037",
+    "A054038"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

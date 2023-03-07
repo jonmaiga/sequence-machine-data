@@ -1,0 +1,21 @@
+{
+  "description": "Sum(M(t)), where summation is over all rooted trees t with n vertices and M(t) is the number of ways to take apart t by sequentially removing terminal edges (see A206494).",
+  "id": "A214565",
+  "mentions": [
+    "A061773",
+    "A206494"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

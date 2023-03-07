@@ -1,0 +1,22 @@
+{
+  "description": "Multiplicative with a(p) = p^2 and a(p^e) = p^a(e) for any e > 1 and prime number p.",
+  "id": "A309002",
+  "mentions": [
+    "A004709",
+    "A182318",
+    "A185102",
+    "A308993"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

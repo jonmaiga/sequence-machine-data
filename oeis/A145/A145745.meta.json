@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n = sigma(sum of digits of n)*sigma(product of digits of n).",
+  "id": "A145745",
+  "mentions": [
+    "A038369"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

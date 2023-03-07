@@ -1,0 +1,18 @@
+{
+  "description": "Number of length n word structures with all distinct runs using exactly 3 symbols.",
+  "id": "A351643",
+  "mentions": [
+    "A351641",
+    "A351644"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

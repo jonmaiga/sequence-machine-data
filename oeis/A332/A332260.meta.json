@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of non-isomorphic multiset partitions of weight n whose union is a k-set where each part has a different size.",
+  "id": "A332260",
+  "mentions": [
+    "A000009",
+    "A326026",
+    "A332253"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

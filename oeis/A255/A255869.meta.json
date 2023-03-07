@@ -1,0 +1,22 @@
+{
+  "description": "Least m > 0 such that gcd(m^n+19, (m+1)^n+19) > 1, or 0 if there is no such m.",
+  "id": "A255869",
+  "mentions": [
+    "A118119",
+    "A255832",
+    "A255852",
+    "A255868"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

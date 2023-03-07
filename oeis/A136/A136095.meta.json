@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the largest k such that Sum_{i=1..k} 1/prime(i) <= n.",
+  "id": "A136095",
+  "mentions": [
+    "A016088",
+    "A046024"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

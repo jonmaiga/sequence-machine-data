@@ -1,0 +1,37 @@
+{
+  "description": "Number A(n,k) of multisets of nonempty words with a total of n letters over k-ary alphabet; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A144074",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000041",
+    "A001477",
+    "A004248",
+    "A005449",
+    "A034899",
+    "A144067",
+    "A144068",
+    "A144069",
+    "A144070",
+    "A144071",
+    "A144072",
+    "A144073",
+    "A252654",
+    "A256142",
+    "A257740",
+    "A292804",
+    "A292837"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

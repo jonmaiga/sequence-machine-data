@@ -1,0 +1,20 @@
+{
+  "description": "Consider the number m formed from the first n digits of the repeating string 102010201020... Then a(n) = number of prime factors (with repetition) of m.",
+  "id": "A102044",
+  "mentions": [
+    "A002275",
+    "A004023",
+    "A103833"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

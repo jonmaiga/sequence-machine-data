@@ -1,0 +1,20 @@
+{
+  "description": "Starts of runs of 3 consecutive numbers that have an equal number of unitary and nonunitary prime divisors (A348097).",
+  "id": "A348099",
+  "mentions": [
+    "A335397",
+    "A348097",
+    "A348098"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

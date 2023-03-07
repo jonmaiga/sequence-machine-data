@@ -1,0 +1,28 @@
+{
+  "description": "Analog for squarefree numbers when n is factored in polynomial ring GF(2)[X], so that the binary expansion of n defines the corresponding (0,1)-polynomial. These are numbers n such that the said polynomial doesn't have any duplicated irreducible divisors.",
+  "id": "A304107",
+  "mentions": [
+    "A000695",
+    "A005117",
+    "A014580",
+    "A048720",
+    "A091219",
+    "A091221",
+    "A091222",
+    "A304108",
+    "A304109",
+    "A304110",
+    "A304111"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

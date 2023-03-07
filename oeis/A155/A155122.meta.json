@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 4*(3*n+2)*(2*n+1)*(n+2)*(n+1).",
+  "id": "A155122",
+  "mentions": [
+    "A142463",
+    "A155120"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:10:07",
+    "offset": -1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

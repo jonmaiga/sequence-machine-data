@@ -1,0 +1,23 @@
+{
+  "description": "Least index i for which A243473(i)=n, or 0 if no such index exists.",
+  "id": "A243512",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A014567",
+    "A017665",
+    "A017666",
+    "A053813",
+    "A243473"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of length 6+2 0..n arrays with the medians of every three consecutive terms nondecreasing.",
+  "id": "A250145",
+  "mentions": [
+    "A250140"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:15:15",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

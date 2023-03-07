@@ -1,0 +1,31 @@
+{
+  "description": "Coefficient triangle for polynomials used for o.g.f.s for unsigned Stirling1 diagonals.",
+  "id": "A112007",
+  "mentions": [
+    "A000142",
+    "A000914",
+    "A001147",
+    "A002538",
+    "A002539",
+    "A008275",
+    "A008517",
+    "A112008",
+    "A112485",
+    "A163931",
+    "A163932",
+    "A163936"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

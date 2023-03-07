@@ -1,0 +1,20 @@
+{
+  "description": "Square of the minimal space diagonal of an integral cuboid having volume n.",
+  "id": "A102889",
+  "mentions": [
+    "A102095",
+    "A102096",
+    "A102097",
+    "A102890"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

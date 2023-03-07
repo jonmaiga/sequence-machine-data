@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of integral_{x=0..1} x^sqrt(x) dx.",
+  "id": "A253300",
+  "mentions": [
+    "A073009",
+    "A083648",
+    "A253299"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

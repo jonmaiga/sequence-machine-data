@@ -1,0 +1,20 @@
+{
+  "description": "Starts of runs of 3 consecutive Zeckendorf-Niven numbers (A328208).",
+  "id": "A328210",
+  "mentions": [
+    "A005349",
+    "A007895",
+    "A154701",
+    "A328208"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

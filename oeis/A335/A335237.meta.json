@@ -1,0 +1,42 @@
+{
+  "description": "Numbers whose binary indices are not a singleton nor pairwise coprime.",
+  "id": "A335237",
+  "mentions": [
+    "A000079",
+    "A000120",
+    "A001477",
+    "A007360",
+    "A048793",
+    "A051424",
+    "A066099",
+    "A070939",
+    "A087087",
+    "A101268",
+    "A124758",
+    "A228351",
+    "A291166",
+    "A302569",
+    "A316438",
+    "A326674",
+    "A326675",
+    "A333219",
+    "A333226",
+    "A333227",
+    "A333228",
+    "A335235",
+    "A335236",
+    "A335239",
+    "A335240"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

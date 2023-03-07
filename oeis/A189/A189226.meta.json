@@ -1,0 +1,37 @@
+{
+  "description": "Curvatures in the nickel-dime-quarter Apollonian circle packing, ordered first by generation and then by size.",
+  "id": "A189226",
+  "mentions": [
+    "A042944",
+    "A042945",
+    "A042946",
+    "A045506",
+    "A045673",
+    "A045864",
+    "A052483",
+    "A060790",
+    "A135849",
+    "A137246",
+    "A154636",
+    "A154637",
+    "A154638",
+    "A171090",
+    "A189227",
+    "A218155",
+    "A248938",
+    "A265495",
+    "A294510"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

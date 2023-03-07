@@ -1,0 +1,19 @@
+{
+  "description": "List of atomic numbers of the 118 permanently named chemical elements, sorted in alphabetical order according to their symbols.",
+  "id": "A152160",
+  "mentions": [
+    "A166321"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

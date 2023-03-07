@@ -1,0 +1,24 @@
+{
+  "description": "For any composite number n take the polynomial defined by the product of the terms (x-d_i), where d_i are the aliquot parts of n. Integrate this polynomial from the minimum to the maximum value of d_i. Sequence lists the numbers for which the integral is a negative integer.",
+  "id": "A324073",
+  "mentions": [
+    "A002476",
+    "A129521",
+    "A203612",
+    "A203613",
+    "A203614",
+    "A245284",
+    "A324072"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

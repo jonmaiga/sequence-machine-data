@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that 52*p + 1 is prime.",
+  "id": "A248368",
+  "mentions": [
+    "A033210",
+    "A142508",
+    "A171517",
+    "A248221"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

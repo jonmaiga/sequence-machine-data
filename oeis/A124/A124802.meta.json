@@ -1,0 +1,20 @@
+{
+  "description": "Triangle, row sums = Fibonacci numbers in two ways, companion to A124801.",
+  "id": "A124802",
+  "mentions": [
+    "A039834",
+    "A124801"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

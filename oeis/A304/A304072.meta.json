@@ -1,0 +1,22 @@
+{
+  "description": "Number of simple connected graphs with n nodes rooted at one oriented edge.",
+  "id": "A304072",
+  "mentions": [
+    "A000088",
+    "A001349",
+    "A304069",
+    "A304073",
+    "A304074"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

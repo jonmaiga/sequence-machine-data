@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form (2n)! - n! - 1.",
+  "id": "A118813",
+  "mentions": [
+    "A027868",
+    "A118812",
+    "A237443",
+    "A238011"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-bfile"
+  }
+}

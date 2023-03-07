@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = A048673(n) - n, where A048673(n) = (A003961(n)+1) / 2, and A003961(n) shifts the prime factorization of n one step towards larger primes.",
+  "id": "A349573",
+  "mentions": [
+    "A003961",
+    "A048673",
+    "A048674",
+    "A064216",
+    "A246281",
+    "A246282",
+    "A246351",
+    "A246352",
+    "A269860",
+    "A269861",
+    "A349571"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

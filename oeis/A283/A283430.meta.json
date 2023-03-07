@@ -1,0 +1,19 @@
+{
+  "description": "Starting with a(1) = 1, a(n) = smallest nonnegative integer not yet in the sequence such that the digits of a(n-1) and a(n) together are all distinct except for one digit that appears twice.",
+  "id": "A283430",
+  "mentions": [
+    "A287205"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

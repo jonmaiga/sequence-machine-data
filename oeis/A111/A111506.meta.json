@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the fourth power of sine of 1 degree.",
+  "id": "A111506",
+  "mentions": [
+    "A019810"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:54:37",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

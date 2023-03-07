@@ -1,0 +1,21 @@
+{
+  "description": "Inverse Weigh transform of n^2.",
+  "id": "A316150",
+  "mentions": [
+    "A000290",
+    "A253909",
+    "A306152",
+    "A316152"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:21:42",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

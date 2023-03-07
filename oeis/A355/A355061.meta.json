@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest infinite sequence of positive numbers such that, for n>2, a(n) has a common factor with a(n-1), no common factor with a(n-2), and the product a(n)*a(n-1) is distinct from all previous products, a(i)*a(i-1), i=2..n-1.",
+  "id": "A355061",
+  "mentions": [
+    "A064413",
+    "A098550",
+    "A336957",
+    "A355138",
+    "A355139"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

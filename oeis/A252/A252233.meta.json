@@ -1,0 +1,23 @@
+{
+  "description": "Characteristic function for the integers that are the product of an odd number of primes each with multiplicity one.",
+  "id": "A252233",
+  "mentions": [
+    "A008683",
+    "A008966",
+    "A030059",
+    "A092248",
+    "A104141",
+    "A353629"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:10",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

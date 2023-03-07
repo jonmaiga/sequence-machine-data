@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Product_{k>=2} k^(1/k!).",
+  "id": "A296301",
+  "mentions": [
+    "A112302",
+    "A115522",
+    "A123852",
+    "A188835",
+    "A259235"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:15",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

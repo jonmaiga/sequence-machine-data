@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that (n^31-1)/(n-1) is prime.",
+  "id": "A217075",
+  "mentions": [
+    "A002384",
+    "A049409",
+    "A100330",
+    "A162862",
+    "A217070",
+    "A217089"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:48",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

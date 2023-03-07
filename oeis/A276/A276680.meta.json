@@ -1,0 +1,26 @@
+{
+  "description": "Number of divisors of the n-th heptagonal number.",
+  "id": "A276680",
+  "mentions": [
+    "A000005",
+    "A000566",
+    "A048691",
+    "A063440",
+    "A276678",
+    "A276679",
+    "A276681",
+    "A276682",
+    "A276683"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:50",
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

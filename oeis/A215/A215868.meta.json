@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of 0..floor((n*8-2)/2) on odd squares of an nX8 array such that each row, column, diagonal and (downwards) antidiagonal of odd squares is increasing",
+  "id": "A215868",
+  "mentions": [
+    "A215870"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

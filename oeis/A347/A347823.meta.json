@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (n+k+1)*binomial(n,k), 0 <= k <= n.",
+  "id": "A347823",
+  "mentions": [
+    "A000027",
+    "A001105",
+    "A005408",
+    "A005563",
+    "A007318",
+    "A053220",
+    "A059270",
+    "A094727",
+    "A112742",
+    "A212343"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

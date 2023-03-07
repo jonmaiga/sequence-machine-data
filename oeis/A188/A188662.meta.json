@@ -1,0 +1,25 @@
+{
+  "description": "Binomial coefficients: a(n) = binomial(3*n,n)^2.",
+  "id": "A188662",
+  "mentions": [
+    "A000897",
+    "A002894",
+    "A002897",
+    "A005809",
+    "A006480",
+    "A008977",
+    "A186420"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

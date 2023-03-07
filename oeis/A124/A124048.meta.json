@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = count of instances where the i-th permutation is divisible by i, treating the permutations of {0,1,...n-1} as integers base n in ascending order.",
+  "id": "A124048",
+  "mentions": [
+    "A124453"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

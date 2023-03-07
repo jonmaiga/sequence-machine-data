@@ -1,0 +1,23 @@
+{
+  "description": "Irregular table of negated A080092 and a leading column of 1's.",
+  "id": "A165884",
+  "mentions": [
+    "A000146",
+    "A006954",
+    "A046886",
+    "A080092",
+    "A164555"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "less",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

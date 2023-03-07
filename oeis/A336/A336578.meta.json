@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 1 and a(n) = (1/n) * Sum_{k=1..n} 3^k * binomial(n,k) * binomial(n^2,k-1) for n > 0.",
+  "id": "A336578",
+  "mentions": [
+    "A336495",
+    "A336537",
+    "A336575",
+    "A336577"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

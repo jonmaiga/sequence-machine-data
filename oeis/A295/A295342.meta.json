@@ -1,0 +1,21 @@
+{
+  "description": "The number of partitions of n in which at least one part is a multiple of 4.",
+  "id": "A295342",
+  "mentions": [
+    "A000041",
+    "A001935",
+    "A047967",
+    "A295341"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:51",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

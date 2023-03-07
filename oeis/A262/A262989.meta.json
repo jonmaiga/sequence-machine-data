@@ -1,0 +1,20 @@
+{
+  "description": "Predestined numbers A262743 generated from at least a pair of products in which, for each product, all digits 0 through 9 are used, and each digit appears exactly once.",
+  "id": "A262989",
+  "mentions": [
+    "A050278",
+    "A262743"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

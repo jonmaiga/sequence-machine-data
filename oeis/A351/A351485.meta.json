@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of primitive triangulations of a 6 X n rectangle.",
+  "id": "A351485",
+  "mentions": [
+    "A082640",
+    "A351480",
+    "A351481",
+    "A351482",
+    "A351483",
+    "A351484",
+    "A351486",
+    "A351487",
+    "A351488"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

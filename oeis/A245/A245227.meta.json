@@ -1,0 +1,21 @@
+{
+  "description": "Maximum frustration of complete bipartite graph K(n,5).",
+  "id": "A245227",
+  "mentions": [
+    "A245230",
+    "A245231",
+    "A245239",
+    "A245314"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

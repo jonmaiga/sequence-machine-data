@@ -1,0 +1,29 @@
+{
+  "description": "Numbers m such that beta(m) = tau(m)/2 + 2 where beta(m) is the number of Brazilian representations of m and tau(m) is the number of divisors of m.",
+  "id": "A326382",
+  "mentions": [
+    "A000005",
+    "A167782",
+    "A167783",
+    "A220136",
+    "A290869",
+    "A309062",
+    "A326378",
+    "A326379",
+    "A326380",
+    "A326381",
+    "A326383",
+    "A326389"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

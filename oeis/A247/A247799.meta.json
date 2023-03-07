@@ -1,0 +1,17 @@
+{
+  "description": "a(0) = 1; a(n) = a(n-1) + (if n = a(k) for some k then k else n).",
+  "id": "A247799",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

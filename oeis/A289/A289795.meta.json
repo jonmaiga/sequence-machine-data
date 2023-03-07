@@ -1,0 +1,22 @@
+{
+  "description": "p-INVERT of (3n), where p(S) = 1 - S - S^2.",
+  "id": "A289795",
+  "mentions": [
+    "A008585",
+    "A033453",
+    "A289780",
+    "A289796"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

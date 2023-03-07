@@ -1,0 +1,29 @@
+{
+  "description": "a(n) is the least integer that can be expressed as the sum of one or more consecutive nonzero octagonal numbers in exactly n ways.",
+  "id": "A334012",
+  "mentions": [
+    "A000567",
+    "A054859",
+    "A068314",
+    "A186337",
+    "A298467",
+    "A322637",
+    "A334007",
+    "A334008",
+    "A334010",
+    "A334011",
+    "A344376"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

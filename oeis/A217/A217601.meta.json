@@ -1,0 +1,32 @@
+{
+  "description": "Integer averages of squares of first primes.",
+  "id": "A217601",
+  "mentions": [
+    "A007504",
+    "A024450",
+    "A045345",
+    "A050247",
+    "A050248",
+    "A085450",
+    "A111441",
+    "A128165",
+    "A128166",
+    "A171399",
+    "A217599",
+    "A217600",
+    "A233523",
+    "A233862"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

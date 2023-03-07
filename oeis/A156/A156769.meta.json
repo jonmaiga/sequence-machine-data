@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = denominator(2^(2*n-2)/factorial(2*n-1)).",
+  "id": "A156769",
+  "mentions": [
+    "A000265",
+    "A001316",
+    "A036279",
+    "A049606",
+    "A089170",
+    "A117972",
+    "A160464",
+    "A160469",
+    "A160474"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

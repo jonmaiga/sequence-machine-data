@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the denominator of Sum_{k=1..n} (-1)^(k+1) / (k*k!).",
+  "id": "A354404",
+  "mentions": [
+    "A001563",
+    "A053556",
+    "A061355",
+    "A239069",
+    "A354401",
+    "A354402"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

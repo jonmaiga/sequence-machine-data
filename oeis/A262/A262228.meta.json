@@ -1,0 +1,25 @@
+{
+  "description": "Deficiency sequence: a(0) = 1, a(n) is the smallest prime p > a(n-1) such that the product of a(i), 1 <= i < n, is deficient (belongs to A005100).",
+  "id": "A262228",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A002975",
+    "A005100",
+    "A005117",
+    "A104141",
+    "A151800",
+    "A295001"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

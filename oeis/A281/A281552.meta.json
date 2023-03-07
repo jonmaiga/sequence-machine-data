@@ -1,0 +1,23 @@
+{
+  "description": "Write n in the Elias gamma code and sum the positions where there is a '1' followed immediately to the right by a '0', counting the leftmost digit as position 1.",
+  "id": "A281552",
+  "mentions": [
+    "A049501",
+    "A171885",
+    "A281149",
+    "A281388",
+    "A281497"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

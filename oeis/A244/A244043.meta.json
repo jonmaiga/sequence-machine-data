@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n for new peaks of floor(sigma(n)/primepi(n)).",
+  "id": "A244043",
+  "mentions": [
+    "A000203",
+    "A000720",
+    "A002093",
+    "A002182"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

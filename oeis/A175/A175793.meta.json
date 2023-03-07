@@ -1,0 +1,20 @@
+{
+  "description": "Excess of the number of even over the number of odd digits in the first n digits of the decimal expansion of E.",
+  "id": "A175793",
+  "mentions": [
+    "A001113",
+    "A071981"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

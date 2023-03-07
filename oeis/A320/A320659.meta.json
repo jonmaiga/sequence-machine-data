@@ -1,0 +1,28 @@
+{
+  "description": "Number of factorizations of A181821(n) into squarefree semiprimes. Number of multiset partitions, of a multiset whose multiplicities are the prime indices of n, into strict pairs.",
+  "id": "A320659",
+  "mentions": [
+    "A001147",
+    "A001222",
+    "A007716",
+    "A007717",
+    "A056239",
+    "A112798",
+    "A181821",
+    "A305936",
+    "A318284",
+    "A320655",
+    "A320656",
+    "A320658"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

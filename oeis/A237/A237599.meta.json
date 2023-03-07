@@ -1,0 +1,33 @@
+{
+  "description": "Positive integers k such that x^2 - 6xy + y^2 + k = 0 has integer solutions.",
+  "id": "A237599",
+  "mentions": [
+    "A001541",
+    "A001653",
+    "A003499",
+    "A006452",
+    "A007522",
+    "A031363",
+    "A075841",
+    "A075870",
+    "A077443",
+    "A084917",
+    "A141175",
+    "A156066",
+    "A217975",
+    "A237351",
+    "A237606",
+    "A237609",
+    "A237610"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

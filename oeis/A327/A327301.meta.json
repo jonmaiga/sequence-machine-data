@@ -1,0 +1,20 @@
+{
+  "description": "Positions of 2's in {A327298(n) : n > 0}.",
+  "id": "A327301",
+  "mentions": [
+    "A327298",
+    "A327299",
+    "A327300"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

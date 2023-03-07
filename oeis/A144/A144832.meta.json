@@ -1,0 +1,21 @@
+{
+  "description": "Distance from nxtprm(n^2) to (n+1)^2 in A144831 is prime.",
+  "id": "A144832",
+  "mentions": [
+    "A007491",
+    "A053000",
+    "A144831"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

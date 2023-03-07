@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Product_{d|n, d>1} prime(A318881(d)), where A318881(d) records the prime signature of A000010(d).",
+  "id": "A319344",
+  "mentions": [
+    "A000010",
+    "A305984",
+    "A318881",
+    "A319342",
+    "A319345"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) (1 <= k <= n) read by rows: A046936 with rows reversed and offset changed to 1.",
+  "id": "A298804",
+  "mentions": [
+    "A011971",
+    "A040027",
+    "A046936",
+    "A123346"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

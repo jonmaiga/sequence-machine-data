@@ -1,0 +1,22 @@
+{
+  "description": "Atomic numbers of the periodic table of the elements, read downwards along 72 columns, up to the 11th period.",
+  "id": "A138726",
+  "mentions": [
+    "A099955",
+    "A134984",
+    "A138723",
+    "A138724",
+    "A138725"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

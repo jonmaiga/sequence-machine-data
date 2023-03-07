@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies: A(x) = exp( Sum_{n>=1} x^n/n * Product_{k>=1} (1 + x^(n*k)*A(x^n)^k) ).",
+  "id": "A219232",
+  "mentions": [
+    "A218153",
+    "A218552",
+    "A219229",
+    "A219230",
+    "A219231"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

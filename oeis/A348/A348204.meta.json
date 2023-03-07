@@ -1,0 +1,23 @@
+{
+  "description": "Fibonacci-like sequence of composite numbers with a(0) = 759135467284, a(1) = 74074527465.",
+  "id": "A348204",
+  "mentions": [
+    "A082411",
+    "A083104",
+    "A083105",
+    "A083216",
+    "A221286"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 14:51:44",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

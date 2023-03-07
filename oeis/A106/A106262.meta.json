@@ -1,0 +1,29 @@
+{
+  "description": "An invertible triangle of remainders of 2^n.",
+  "id": "A106262",
+  "mentions": [
+    "A000007",
+    "A000034",
+    "A015910",
+    "A062173",
+    "A106263",
+    "A106264",
+    "A112983",
+    "A213859",
+    "A294389",
+    "A294390"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

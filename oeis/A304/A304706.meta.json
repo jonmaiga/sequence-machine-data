@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions (d1,d2,...,dm) of n such that d1/1 > d2/2 > ... > dm/m and 0 < d1 <= d2 <= ... <= dm.",
+  "id": "A304706",
+  "mentions": [
+    "A053251",
+    "A053282",
+    "A304705",
+    "A304707",
+    "A304708"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

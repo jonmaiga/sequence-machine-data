@@ -1,0 +1,18 @@
+{
+  "description": "floor(n*e-1); complement of A184590.",
+  "id": "A184589",
+  "mentions": [
+    "A184590"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:22:55",
+    "offset": 1,
+    "size": 120,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Coefficients in q-expansion of E_4^8, where E_4 is the Eisenstein series A004009.",
+  "id": "A282474",
+  "mentions": [
+    "A004009",
+    "A008410",
+    "A008411",
+    "A282012",
+    "A282015",
+    "A282330",
+    "A282402"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

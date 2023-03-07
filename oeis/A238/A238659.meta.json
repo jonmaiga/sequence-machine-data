@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions of n having standard deviation σ <= 2.",
+  "id": "A238659",
+  "mentions": [
+    "A000041",
+    "A238616",
+    "A238658",
+    "A238660",
+    "A238661",
+    "A238662"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primitive elements of A065607.",
+  "id": "A120692",
+  "mentions": [
+    "A065607",
+    "A120693"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

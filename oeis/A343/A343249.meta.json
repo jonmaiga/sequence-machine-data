@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least k0 <= n such that v_2(n), the 2-adic order of n, can be obtained by the formula: v_2(n) = log_2(n / L_2(k0, n)), where L_2(k0, n) is the lowest common denominator of the elements of the set S_2(k0, n) = {(1/n)*binomial(n, k), with 0 < k <= k0 such that k is not divisible by 2} or 0 if no such k0 exists.",
+  "id": "A343249",
+  "mentions": [
+    "A007814",
+    "A343250",
+    "A343251",
+    "A343252",
+    "A343253",
+    "A345531"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numerator of the limiting density of residues attained by the Fibonacci sequence modulo powers of the n-th prime.",
+  "id": "A350999",
+  "mentions": [
+    "A351000"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

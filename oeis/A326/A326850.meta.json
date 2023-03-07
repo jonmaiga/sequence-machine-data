@@ -1,0 +1,27 @@
+{
+  "description": "Number of strict integer partitions of n whose maximum part divides n.",
+  "id": "A326850",
+  "mentions": [
+    "A018818",
+    "A033630",
+    "A067538",
+    "A102627",
+    "A200745",
+    "A308168",
+    "A316413",
+    "A326625",
+    "A326836",
+    "A326843",
+    "A326851"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

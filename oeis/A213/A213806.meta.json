@@ -1,0 +1,21 @@
+{
+  "description": "Number of minimal coprime labelings for the complete bipartite graph K_{n,n}.",
+  "id": "A213806",
+  "mentions": [
+    "A213273",
+    "A284875",
+    "A291465"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

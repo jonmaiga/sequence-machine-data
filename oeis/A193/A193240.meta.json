@@ -1,0 +1,19 @@
+{
+  "description": "Trajectory of binary number 110 (decimal 6) under the operation \"Reverse and Add\" carried out with complex base -1+i.",
+  "id": "A193240",
+  "mentions": [
+    "A193239",
+    "A193241"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

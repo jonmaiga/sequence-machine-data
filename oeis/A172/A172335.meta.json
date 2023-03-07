@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that n and n+17 have same sum of divisors.",
+  "id": "A172335",
+  "mentions": [
+    "A000203"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:56",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

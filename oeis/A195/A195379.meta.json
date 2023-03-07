@@ -1,0 +1,31 @@
+{
+  "description": "3.5-gap primes: Primes prime(k) such that there is no prime between 7*prime(k)/2 and 7*prime(k+1)/2.",
+  "id": "A195379",
+  "mentions": [
+    "A080192",
+    "A164288",
+    "A164294",
+    "A164368",
+    "A193507",
+    "A194186",
+    "A194598",
+    "A194658",
+    "A194659",
+    "A194674",
+    "A195270",
+    "A195271",
+    "A195325",
+    "A195329",
+    "A195377"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

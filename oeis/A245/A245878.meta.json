@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that p - d and p + d are also primes, where d is the smallest nonzero digit of p.",
+  "id": "A245878",
+  "mentions": [
+    "A245742",
+    "A245743",
+    "A245744",
+    "A245745",
+    "A245877"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

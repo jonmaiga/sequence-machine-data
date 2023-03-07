@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct substrings of length A342263(n) that appear at least twice in the binary expansion of n.",
+  "id": "A354614",
+  "mentions": [
+    "A342263"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

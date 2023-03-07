@@ -1,0 +1,20 @@
+{
+  "description": "Primes which have one or more occurrences of exactly nine different digits.",
+  "id": "A235161",
+  "mentions": [
+    "A073643",
+    "A235154",
+    "A235160"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

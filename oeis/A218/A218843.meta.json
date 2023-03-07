@@ -1,0 +1,18 @@
+{
+  "description": "Unmatched value maps: number of 2 X n binary arrays indicating the locations of corresponding elements not equal to any horizontal or antidiagonal neighbor in a random 0..1 2 X n array.",
+  "id": "A218843",
+  "mentions": [
+    "A218842"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

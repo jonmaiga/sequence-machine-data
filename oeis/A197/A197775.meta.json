@@ -1,0 +1,17 @@
+{
+  "description": "Partial sums of A197774.",
+  "id": "A197775",
+  "mentions": [
+    "A197774"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:48",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

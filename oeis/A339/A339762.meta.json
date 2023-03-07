@@ -1,0 +1,22 @@
+{
+  "description": "Number of (undirected) Hamiltonian paths in the 4 X n king graph.",
+  "id": "A339762",
+  "mentions": [
+    "A003695",
+    "A308129",
+    "A339760",
+    "A339761",
+    "A339763",
+    "A350729"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

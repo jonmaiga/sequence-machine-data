@@ -1,0 +1,28 @@
+{
+  "description": "Number of ways to write n as x^2 + y^2 + z^2 + w^2 with x and (12*x)^2 + (5*y-10*z)^2 both squares, where x,y,z are nonnegative integers and w is a positive integer.",
+  "id": "A282161",
+  "mentions": [
+    "A000118",
+    "A000290",
+    "A270969",
+    "A271714",
+    "A273108",
+    "A281939",
+    "A281941",
+    "A281975",
+    "A281976",
+    "A281977",
+    "A282013",
+    "A282014"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

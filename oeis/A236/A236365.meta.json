@@ -1,0 +1,19 @@
+{
+  "description": "Primes whose binary and octal representation are also prime when read in decimal.",
+  "id": "A236365",
+  "mentions": [
+    "A000040",
+    "A065720"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

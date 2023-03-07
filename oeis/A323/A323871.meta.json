@@ -1,0 +1,28 @@
+{
+  "description": "Number of aperiodic toroidal necklaces of size n whose entries cover an initial interval of positive integers.",
+  "id": "A323871",
+  "mentions": [
+    "A000670",
+    "A000740",
+    "A008965",
+    "A060223",
+    "A323858",
+    "A323859",
+    "A323860",
+    "A323861",
+    "A323866",
+    "A323867",
+    "A323868",
+    "A323870"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

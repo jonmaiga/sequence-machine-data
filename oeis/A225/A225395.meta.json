@@ -1,0 +1,26 @@
+{
+  "description": "Replace each prime number with its rank in the recursive prime factorization of n.",
+  "id": "A225395",
+  "mentions": [
+    "A000026",
+    "A000040",
+    "A001221",
+    "A027748",
+    "A049084",
+    "A124010",
+    "A156061"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

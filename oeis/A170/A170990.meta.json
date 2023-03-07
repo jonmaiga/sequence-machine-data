@@ -1,0 +1,22 @@
+{
+  "description": "Carryless product n X n in base 9.",
+  "id": "A170990",
+  "mentions": [
+    "A000695",
+    "A059729",
+    "A169821",
+    "A169999",
+    "A170985"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

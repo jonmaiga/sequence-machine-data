@@ -1,0 +1,23 @@
+{
+  "description": "Irregular array read by rows: n-th row contains (in numerical order) the positive integers <= n which are neither divisors of n nor are coprime to n. A 0 is put into row n if there are no such integers.",
+  "id": "A133995",
+  "mentions": [
+    "A045763",
+    "A133994",
+    "A264441",
+    "A272618",
+    "A272619"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

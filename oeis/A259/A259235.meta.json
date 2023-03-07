@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of sqrt(2*sqrt(3*sqrt(4*...))), a variant of Somos's quadratic recurrence constant.",
+  "id": "A259235",
+  "mentions": [
+    "A112302",
+    "A114124"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

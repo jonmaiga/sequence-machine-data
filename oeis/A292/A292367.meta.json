@@ -1,0 +1,17 @@
+{
+  "description": "Carmichael numbers c with record number of primes p such that c*p is also a Carmichael number.",
+  "id": "A292367",
+  "mentions": [
+    "A002997"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

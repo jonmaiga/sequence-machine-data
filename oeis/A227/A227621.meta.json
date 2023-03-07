@@ -1,0 +1,18 @@
+{
+  "description": "The nearest integer of perimeter of T-square (fractal) after n-iterations, starting with a unit square.",
+  "id": "A227621",
+  "mentions": [
+    "A083313"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

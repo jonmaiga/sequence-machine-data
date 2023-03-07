@@ -1,0 +1,24 @@
+{
+  "description": "Denominators of the rational factor of Kaplan's series for the Dottie number.",
+  "id": "A306254",
+  "mentions": [
+    "A003957",
+    "A177413",
+    "A182503",
+    "A200309",
+    "A212112",
+    "A212113",
+    "A302977"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of digits in decimal expansion of n^5.",
+  "id": "A239683",
+  "mentions": [
+    "A000584",
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array read by rows: T(n,k) (n>=1, 0<=k<=n-1, except 0<=k<=1 when n=1) = coefficient of x^k in expansion of (1/n)*Sum_{d|n} (mobius(d)*(1+x^d)^(n/d)).",
+  "id": "A185158",
+  "mentions": [
+    "A051168",
+    "A092964"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the absolute value of the larger solution of (n^2+n)/2 = -1/12. (Real root q of 6n^2 + 6n + 1, the other root being p = -1-q.)",
+  "id": "A156309",
+  "mentions": [
+    "A000217",
+    "A020760",
+    "A020769",
+    "A195696"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 20:06:53",
+    "offset": 0,
+    "size": 104,
+    "source": "joeis"
+  }
+}

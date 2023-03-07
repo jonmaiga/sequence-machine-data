@@ -1,0 +1,22 @@
+{
+  "description": "A modular binomial sum transform of 2^n .",
+  "id": "A133179",
+  "mentions": [
+    "A034868",
+    "A048896",
+    "A101692",
+    "A130047"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

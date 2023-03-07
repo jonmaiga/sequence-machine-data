@@ -1,0 +1,21 @@
+{
+  "description": "Recurring digital invariants of order 3.",
+  "id": "A218161",
+  "mentions": [
+    "A218246",
+    "A218248"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

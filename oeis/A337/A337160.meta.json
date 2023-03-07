@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that the 3 X 3 matrix with components (row by row) prime(k+m), 0 <= m <= 8 has zero determinant, where p = prime(k).",
+  "id": "A337160",
+  "mentions": [
+    "A117330",
+    "A117345",
+    "A340923"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

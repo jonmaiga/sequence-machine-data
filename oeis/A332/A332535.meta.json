@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are not of the form p + 2^(2^k) + 2^q with p, q primes and k >= 0.",
+  "id": "A332535",
+  "mentions": [
+    "A218044",
+    "A332379",
+    "A332534"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers k such that tau(k) >= k/2.",
+  "id": "A323383",
+  "mentions": [
+    "A000005",
+    "A018253"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

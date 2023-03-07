@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the greatest divisor > 1 of n which has already been listed, otherwise a(n) is the smallest number not yet listed; a(1) = 0.",
+  "id": "A357839",
+  "mentions": [
+    "A000720",
+    "A008336",
+    "A008344",
+    "A051352"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

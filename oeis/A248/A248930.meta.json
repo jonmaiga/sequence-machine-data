@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of c = 2*Product_{prime p == 3 (mod 4)} (1 - 2/(p*(p-1)^2)), a constant related to the problem of integral Apollonian circle packings.",
+  "id": "A248930",
+  "mentions": [
+    "A002145",
+    "A052483",
+    "A189226",
+    "A189227"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Numbers whose lengths of runs of 1's in their reversed binary expansion are weakly increasing.",
+  "id": "A328869",
+  "mentions": [
+    "A000120",
+    "A003714",
+    "A014081",
+    "A069010",
+    "A112769",
+    "A164707",
+    "A245563",
+    "A304678",
+    "A328592",
+    "A328870"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

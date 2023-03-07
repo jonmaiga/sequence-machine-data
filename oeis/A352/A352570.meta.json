@@ -1,0 +1,18 @@
+{
+  "description": "A slightly compressed version of A352569: replace each string 1 followed by k 0's in A352569 by the number k.",
+  "id": "A352570",
+  "mentions": [
+    "A109812",
+    "A352569"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 117,
+    "source": "oeis-entry"
+  }
+}

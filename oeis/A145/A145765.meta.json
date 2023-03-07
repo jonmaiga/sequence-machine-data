@@ -1,0 +1,20 @@
+{
+  "description": "Eigentriangle, row sums = A116975, number of compositions of n using terms == (1,4) mod 5.",
+  "id": "A145765",
+  "mentions": [
+    "A116975"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

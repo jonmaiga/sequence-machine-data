@@ -1,0 +1,23 @@
+{
+  "description": "Nonnegative integers with an equal number of occurrences of all trits in balanced ternary representation.",
+  "id": "A257869",
+  "mentions": [
+    "A117967",
+    "A140267",
+    "A174658",
+    "A257867",
+    "A257868",
+    "A258410"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

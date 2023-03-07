@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that Omega(k) = Omega(2^k + 1), where Omega = A001222 is the number of prime factors counted with multiplicity.",
+  "id": "A226368",
+  "mentions": [
+    "A001222",
+    "A054992",
+    "A155900"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

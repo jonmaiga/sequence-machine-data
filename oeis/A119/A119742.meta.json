@@ -1,0 +1,23 @@
+{
+  "description": "Partial sum of tetradic primes (A068188).",
+  "id": "A119742",
+  "mentions": [
+    "A000040",
+    "A006072",
+    "A068188"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

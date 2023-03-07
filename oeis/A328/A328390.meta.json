@@ -1,0 +1,24 @@
+{
+  "description": "Maximal digit value in primorial base expansion of the arithmetic derivative of n: a(n) = A328114(A003415(n)).",
+  "id": "A328390",
+  "mentions": [
+    "A003415",
+    "A051903",
+    "A327859",
+    "A328114",
+    "A328389",
+    "A328391",
+    "A328392"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

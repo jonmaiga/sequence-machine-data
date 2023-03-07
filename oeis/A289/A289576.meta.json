@@ -1,0 +1,18 @@
+{
+  "description": "Number of cyclically 5-connected simple cubic graphs on 2n vertices.",
+  "id": "A289576",
+  "mentions": [
+    "A175847"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 5,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

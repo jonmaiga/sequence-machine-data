@@ -1,0 +1,30 @@
+{
+  "description": "Numbers whose minimal (or greedy) Pell representation (A317204) is palindromic.",
+  "id": "A352319",
+  "mentions": [
+    "A000129",
+    "A001109",
+    "A002113",
+    "A006995",
+    "A014190",
+    "A048739",
+    "A052937",
+    "A094202",
+    "A317204",
+    "A331191",
+    "A351712",
+    "A351717",
+    "A352087"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

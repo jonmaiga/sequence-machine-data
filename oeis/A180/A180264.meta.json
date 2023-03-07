@@ -1,0 +1,19 @@
+{
+  "description": "Triangle, row sums = A006054; derived from an infinite lower triangular matrix with (1,1,1,...) as the leftmost column and (1,2,1,1,1,...) as other columns.",
+  "id": "A180264",
+  "mentions": [
+    "A006054"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

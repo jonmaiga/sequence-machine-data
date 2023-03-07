@@ -1,0 +1,20 @@
+{
+  "description": "Primes appearing as the products of digits and positions in A156207(i) in the order of appearance.",
+  "id": "A156208",
+  "mentions": [
+    "A156207"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

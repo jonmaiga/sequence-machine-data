@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number greater than n, having in its decimal representation more distinct digits than n, that are also different from n's digits.",
+  "id": "A104198",
+  "mentions": [
+    "A043537",
+    "A055642"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

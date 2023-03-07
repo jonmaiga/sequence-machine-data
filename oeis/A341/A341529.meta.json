@@ -1,0 +1,37 @@
+{
+  "description": "a(n) = sigma(n) * A003961(n), where A003961 shifts the prime factorization of n one step towards larger primes, and sigma is the sum of the divisors of n.",
+  "id": "A341529",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A003973",
+    "A028982",
+    "A034386",
+    "A072861",
+    "A151800",
+    "A286385",
+    "A341512",
+    "A341526",
+    "A341527",
+    "A341528",
+    "A341530",
+    "A341605",
+    "A341606",
+    "A342661",
+    "A342667",
+    "A342671",
+    "A342672"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:39:21",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Coefficients of x^n in the (n-1)-th iterations of x*(1+x)^2 for n>=1.",
+  "id": "A154256",
+  "mentions": [
+    "A119820"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

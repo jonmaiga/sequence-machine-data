@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = binomial(t(n) - t(k-1),k), where t(j) = j*(j+1)/2; 1<=k<=n.",
+  "id": "A110770",
+  "mentions": [
+    "A000217",
+    "A110768",
+    "A110769",
+    "A110771"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

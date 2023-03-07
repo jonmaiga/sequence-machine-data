@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of solutions to the Diophantine equation p * x * (x + n) = y^2 with p = a*b a perfect square and a+b = n.",
+  "id": "A338940",
+  "mentions": [
+    "A115878",
+    "A338939"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

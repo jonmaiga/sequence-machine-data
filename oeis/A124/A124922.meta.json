@@ -1,0 +1,25 @@
+{
+  "description": "Second in a series of triangular arrays providing index numbers for subsequences of A060351.",
+  "id": "A124922",
+  "mentions": [
+    "A000041",
+    "A007318",
+    "A059797",
+    "A060351",
+    "A099627",
+    "A124921",
+    "A161924"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

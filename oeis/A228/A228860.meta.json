@@ -1,0 +1,23 @@
+{
+  "description": "Number of permutations i_1,...,i_n of 1,...,n with i_1 = 1 and i_n = n, and with the n adjacent sums i_1+i_2, i_2+i_3, ..., i_{n-1}+i_n, i_n+i_1 all coprime to n.",
+  "id": "A228860",
+  "mentions": [
+    "A051252",
+    "A185645",
+    "A228626",
+    "A228728",
+    "A228762",
+    "A228766"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

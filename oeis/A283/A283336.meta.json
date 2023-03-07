@@ -1,0 +1,28 @@
+{
+  "description": "Expansion of exp( Sum_{n>=1} -sigma_6(n)*x^n/n ) in powers of x.",
+  "id": "A283336",
+  "mentions": [
+    "A010815",
+    "A023874",
+    "A073592",
+    "A283263",
+    "A283264",
+    "A283271",
+    "A283272",
+    "A283337",
+    "A283338",
+    "A283339",
+    "A283340"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

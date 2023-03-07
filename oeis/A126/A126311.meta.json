@@ -1,0 +1,24 @@
+{
+  "description": "A071156-codes for the fixed points of the permutation A125985/A125986.",
+  "id": "A126311",
+  "mentions": [
+    "A071156",
+    "A125985",
+    "A125986",
+    "A126300",
+    "A126301"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

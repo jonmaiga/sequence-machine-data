@@ -1,0 +1,24 @@
+{
+  "description": "Table of Fibonacci numbers in base-60 representation: row n contains the sexagesimal digits of A000045(n) in reversed order.",
+  "id": "A261575",
+  "mentions": [
+    "A000045",
+    "A261585",
+    "A261587",
+    "A261598",
+    "A261606",
+    "A261607"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

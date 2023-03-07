@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = smallest m such that A328330(m) = n, or -1 if n never appears in A328330.",
+  "id": "A338255",
+  "mentions": [
+    "A006942",
+    "A328330"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "T(n,k) is the total number of prime factors, counted with multiplicity, of k!*(n-k)!, for 0 <= k <= n. Triangle read by rows.",
+  "id": "A356718",
+  "mentions": [
+    "A001222",
+    "A007318",
+    "A022559",
+    "A132896"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Numerators of the fractions f(n) such that (6/Pi^2)*f(n) is the asymptotic density of the numbers k with A280292(k) = sopfr(k) - sopf(k) = n.",
+  "id": "A338559",
+  "mentions": [
+    "A000607",
+    "A001414",
+    "A001615",
+    "A005117",
+    "A008472",
+    "A013661",
+    "A059956",
+    "A081770",
+    "A280292",
+    "A338560"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

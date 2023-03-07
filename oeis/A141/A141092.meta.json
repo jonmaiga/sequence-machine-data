@@ -1,0 +1,28 @@
+{
+  "description": "Product of first k composite numbers divided by their sum, when the result is an integer.",
+  "id": "A141092",
+  "mentions": [
+    "A036691",
+    "A053767",
+    "A116536",
+    "A140761",
+    "A140763",
+    "A141089",
+    "A141090",
+    "A141091",
+    "A159578",
+    "A196415"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

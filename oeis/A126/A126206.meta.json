@@ -1,0 +1,24 @@
+{
+  "description": "Number of 4's in the decimal expansion of 4^n.",
+  "id": "A126206",
+  "mentions": [
+    "A065710",
+    "A126205",
+    "A126207",
+    "A126208",
+    "A126209",
+    "A126210",
+    "A126211"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

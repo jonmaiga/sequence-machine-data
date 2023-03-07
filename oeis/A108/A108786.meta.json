@@ -1,0 +1,22 @@
+{
+  "description": "Yet another version of the Catalan triangle A008315.",
+  "id": "A108786",
+  "mentions": [
+    "A008313",
+    "A008315",
+    "A052173",
+    "A053121"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of tournaments with n players which have the k-th score sequence. The score sequences are in the same order as A068029 and start with the empty score sequence.",
+  "id": "A125032",
+  "mentions": [
+    "A000571",
+    "A006125",
+    "A013976",
+    "A068029",
+    "A123553",
+    "A125031"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

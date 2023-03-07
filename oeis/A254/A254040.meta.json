@@ -1,0 +1,44 @@
+{
+  "description": "Number T(n,k) of primitive (= aperiodic) n-bead necklaces with colored beads of exactly k different colors; triangle T(n,k), n >= 0, 0 <= k <= n, read by rows.",
+  "id": "A254040",
+  "mentions": [
+    "A000007",
+    "A000142",
+    "A000670",
+    "A000740",
+    "A001037",
+    "A008683",
+    "A019536",
+    "A056288",
+    "A056289",
+    "A056290",
+    "A056291",
+    "A059966",
+    "A060223",
+    "A063524",
+    "A074143",
+    "A074650",
+    "A087854",
+    "A185700",
+    "A254079",
+    "A254080",
+    "A254081",
+    "A254082",
+    "A254083",
+    "A296372",
+    "A296373",
+    "A296657"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Perfect squares of the form a + b^2 + c^3, where a,b,c are consecutive numbers.",
+  "id": "A325173",
+  "mentions": [
+    "A000290",
+    "A005563",
+    "A027620",
+    "A054602"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:54:41",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of simple connected graphs on n nodes whose maximum size of an independent edge set is equal to 3.",
+  "id": "A243801",
+  "mentions": [
+    "A243800",
+    "A325304"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

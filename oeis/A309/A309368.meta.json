@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{d|n} prime(n/d)^d.",
+  "id": "A309368",
+  "mentions": [
+    "A000040",
+    "A007445",
+    "A055225"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

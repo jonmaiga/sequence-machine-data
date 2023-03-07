@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to place 5 nonattacking queens on an n X n board.",
+  "id": "A108792",
+  "mentions": [
+    "A047659",
+    "A061994",
+    "A348129"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:36:31",
+    "offset": 5,
+    "size": 21,
+    "source": "joeis"
+  }
+}

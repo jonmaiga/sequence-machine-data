@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers k such that the concatenation of k and 11 is the lesser of a pair of twin primes (i.e., a term of A001359).",
+  "id": "A350247",
+  "mentions": [
+    "A001359",
+    "A350246"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

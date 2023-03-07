@@ -1,0 +1,21 @@
+{
+  "description": "Number of nodes at level n in the tree T_{-2}.",
+  "id": "A355910",
+  "mentions": [
+    "A355904",
+    "A355909",
+    "A355911",
+    "A355913"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

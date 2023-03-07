@@ -1,0 +1,18 @@
+{
+  "description": "Number of length n+2 0..1 arrays with the sum of the maximum minus twice the median plus the minimum of adjacent triples multiplied by some arrangement of +-1 equal to zero.",
+  "id": "A251421",
+  "mentions": [
+    "A251428"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:49:42",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

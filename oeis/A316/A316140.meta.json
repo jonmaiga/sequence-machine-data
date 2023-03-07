@@ -1,0 +1,24 @@
+{
+  "description": "Denominator of the autosequence 2/((n+2)*(n+3)) difference table written by antidiagonals.",
+  "id": "A316140",
+  "mentions": [
+    "A000217",
+    "A003506",
+    "A033876",
+    "A059481",
+    "A109613"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "frac",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

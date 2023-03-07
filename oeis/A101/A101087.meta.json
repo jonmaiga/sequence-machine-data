@@ -1,0 +1,22 @@
+{
+  "description": "Indices of prime values of A077020 (also A001607).",
+  "id": "A101087",
+  "mentions": [
+    "A000043",
+    "A001605",
+    "A001607",
+    "A077020",
+    "A096650",
+    "A101088"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

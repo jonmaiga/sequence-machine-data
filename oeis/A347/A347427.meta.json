@@ -1,0 +1,21 @@
+{
+  "description": "Denominators of coefficients in expansion of e.g.f. x / (1 + 2*x - exp(x)).",
+  "id": "A347427",
+  "mentions": [
+    "A027641",
+    "A027642",
+    "A347426"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Continued fraction expansion of the constant whose decimal expansion is A269707.",
+  "id": "A346909",
+  "mentions": [
+    "A269707"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "cofr",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

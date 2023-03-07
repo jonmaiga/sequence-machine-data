@@ -1,0 +1,18 @@
+{
+  "description": "a(0) = 1, a(1) = 8, a(n) = 56*a(n-2) - a(n-1).",
+  "id": "A165506",
+  "mentions": [
+    "A112555"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

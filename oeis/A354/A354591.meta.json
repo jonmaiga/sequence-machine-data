@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k that can be written as the sum of 4 divisors of k (not necessarily distinct).",
+  "id": "A354591",
+  "mentions": [
+    "A000027",
+    "A080671",
+    "A299174",
+    "A355200",
+    "A355641",
+    "A356609",
+    "A356635",
+    "A356657",
+    "A356659",
+    "A356660"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

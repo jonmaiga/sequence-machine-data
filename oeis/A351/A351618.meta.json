@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are both Zuckerman numbers and Smith numbers.",
+  "id": "A351618",
+  "mentions": [
+    "A006753",
+    "A007602",
+    "A334527"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

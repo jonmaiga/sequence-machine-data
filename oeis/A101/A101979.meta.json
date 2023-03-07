@@ -1,0 +1,18 @@
+{
+  "description": "Antidiagonal sums of A101309, which is the matrix logarithm of A047999 (Pascal's triangle mod 2).",
+  "id": "A101979",
+  "mentions": [
+    "A047999",
+    "A101309"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

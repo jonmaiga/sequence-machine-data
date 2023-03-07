@@ -1,0 +1,19 @@
+{
+  "description": "The number of non-isomorphic drawings of the complete graph K_n such that any two edges intersect at most once (a.k.a. \"good drawings\" or \"simple topological graphs\").",
+  "id": "A276109",
+  "mentions": [
+    "A000241",
+    "A276110"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 3,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

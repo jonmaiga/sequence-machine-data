@@ -1,0 +1,20 @@
+{
+  "description": "Variation of the Sisyphus sequence A350877: the same rules apply except that each time a(n) is divided by a prime the dividing prime is incremented to the next prime.",
+  "id": "A351102",
+  "mentions": [
+    "A000040",
+    "A350615",
+    "A350877",
+    "A351101"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Denominator of modified von Mangoldt function defined recursively.",
+  "id": "A276836",
+  "mentions": [
+    "A006512",
+    "A014963",
+    "A276835"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

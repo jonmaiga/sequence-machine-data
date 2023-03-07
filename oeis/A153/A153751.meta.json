@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that there are 15 digits in k^2 and for each factor f of 15 (1,3,5) the sum of digit groupings of size f is a square.",
+  "id": "A153751",
+  "mentions": [
+    "A004159",
+    "A061910",
+    "A153745"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

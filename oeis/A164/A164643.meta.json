@@ -1,0 +1,18 @@
+{
+  "description": "Semiprimes pq with pq - 1 divisible by p + q.",
+  "id": "A164643",
+  "mentions": [
+    "A000058",
+    "A001358"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

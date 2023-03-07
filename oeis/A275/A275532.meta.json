@@ -1,0 +1,18 @@
+{
+  "description": "Possible values for sum of numbers in Collatz trajectory (A033493), sorted into ascending order.",
+  "id": "A275532",
+  "mentions": [
+    "A033493",
+    "A275531"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

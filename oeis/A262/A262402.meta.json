@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = number of triangles that can be formed from the points of a 3 X n grid.",
+  "id": "A262402",
+  "mentions": [
+    "A045996",
+    "A115514",
+    "A296363",
+    "A296367"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:50:53",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

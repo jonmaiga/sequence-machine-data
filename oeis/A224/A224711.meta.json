@@ -1,0 +1,18 @@
+{
+  "description": "Number of ballot results from n voters that prompt a run-off election when three candidates vie for two spots on a board.",
+  "id": "A224711",
+  "mentions": [
+    "A103221"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

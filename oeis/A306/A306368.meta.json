@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = numerator of (n + 3)*(n + 4)/((n + 1)*(n + 2)).",
+  "id": "A306368",
+  "mentions": [
+    "A000326",
+    "A060544",
+    "A081266",
+    "A306367"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

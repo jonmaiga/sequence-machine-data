@@ -1,0 +1,22 @@
+{
+  "description": "Concatenation of the palindromic numbers (A002113) in increasing order up to the n-th term and then in decreasing order.",
+  "id": "A261570",
+  "mentions": [
+    "A002113",
+    "A173426",
+    "A261411",
+    "A261493"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

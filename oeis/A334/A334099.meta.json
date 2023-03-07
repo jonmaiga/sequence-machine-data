@@ -1,0 +1,24 @@
+{
+  "description": "The least k for which A329697(k) = n; Position of first occurrence of n (and also records) in A329697.",
+  "id": "A334099",
+  "mentions": [
+    "A007755",
+    "A067513",
+    "A105017",
+    "A329662",
+    "A329697",
+    "A334100"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

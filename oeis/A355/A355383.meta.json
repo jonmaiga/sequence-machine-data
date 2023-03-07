@@ -1,0 +1,40 @@
+{
+  "description": "Number of pairs (y, v), where y is a partition of n and v is a sub-multiset of y whose cardinality equals the number of distinct parts in y.",
+  "id": "A355383",
+  "mentions": [
+    "A000009",
+    "A001970",
+    "A022811",
+    "A032020",
+    "A063834",
+    "A070933",
+    "A072706",
+    "A181591",
+    "A181819",
+    "A316245",
+    "A317715",
+    "A318683",
+    "A318684",
+    "A319794",
+    "A319910",
+    "A323433",
+    "A323583",
+    "A336131",
+    "A336136",
+    "A339006",
+    "A355382",
+    "A355384",
+    "A355385",
+    "A355388"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

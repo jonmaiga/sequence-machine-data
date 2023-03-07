@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that look the same when rotated by 180 degrees, using only digits 0, 6 and 9.",
+  "id": "A111065",
+  "mentions": [
+    "A000787",
+    "A006072",
+    "A111156"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of non-isomorphic square multiset partitions of weight n.",
+  "id": "A319616",
+  "mentions": [
+    "A000219",
+    "A007716",
+    "A007718",
+    "A056156",
+    "A059201",
+    "A300913",
+    "A316980",
+    "A316983",
+    "A318795",
+    "A319560",
+    "A319646",
+    "A321615"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

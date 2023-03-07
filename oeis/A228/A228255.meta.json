@@ -1,0 +1,18 @@
+{
+  "description": "Number of third differences of arrays of length n+3 of numbers in 0..3.",
+  "id": "A228255",
+  "mentions": [
+    "A228260"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of unlabeled, connected graphs on n vertices with at least one subgraph isomorphic to a bowtie graph.",
+  "id": "A243249",
+  "mentions": [
+    "A001349",
+    "A242792"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

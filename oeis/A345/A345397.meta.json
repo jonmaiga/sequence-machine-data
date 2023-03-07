@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least number k such that {k, k^2, ..., k^n} are all digitally balanced numbers in base 2 (A031443), or 0 if no such k exists.",
+  "id": "A345397",
+  "mentions": [
+    "A031443",
+    "A143146",
+    "A345396"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

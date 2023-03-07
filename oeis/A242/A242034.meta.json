@@ -1,0 +1,20 @@
+{
+  "description": "a(n)=lpf(A243937(n)-3), where lpf = least prime factor (A020639).",
+  "id": "A242034",
+  "mentions": [
+    "A020639",
+    "A242033",
+    "A243937",
+    "A245024"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

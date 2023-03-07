@@ -1,0 +1,23 @@
+{
+  "description": "Primes of the form 6k + 1 preceding the first-occurrence gaps in A330853.",
+  "id": "A330854",
+  "mentions": [
+    "A002476",
+    "A014320",
+    "A058320",
+    "A268926",
+    "A330853",
+    "A330855"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

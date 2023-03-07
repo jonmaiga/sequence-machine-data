@@ -1,0 +1,17 @@
+{
+  "description": "a(0)=1. a(n) = a(n-1)/d(n) if d(n) divides a(n-1). Otherwise, a(n) = a(n-1)*d(n). (d(n) is the number of positive divisors of n.).",
+  "id": "A140644",
+  "mentions": [
+    "A008336"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

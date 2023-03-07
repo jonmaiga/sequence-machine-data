@@ -1,0 +1,18 @@
+{
+  "description": "Squared length of sum of e_lambda e_lambda', where e_lambda is an elementary symmetric function and lambda ranges over all partitions of n and lambda' is the adjoint (or transpose) of lambda.",
+  "id": "A332302",
+  "mentions": [
+    "A000041",
+    "A067855"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

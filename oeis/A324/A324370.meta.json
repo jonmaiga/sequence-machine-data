@@ -1,0 +1,34 @@
+{
+  "description": "Product of all primes p not dividing n such that the sum of the base p digits of n is at least p, or 1 if no such prime.",
+  "id": "A324370",
+  "mentions": [
+    "A002997",
+    "A007947",
+    "A094960",
+    "A144845",
+    "A195441",
+    "A318256",
+    "A324315",
+    "A324316",
+    "A324317",
+    "A324318",
+    "A324319",
+    "A324320",
+    "A324369",
+    "A324371",
+    "A324404",
+    "A324405"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

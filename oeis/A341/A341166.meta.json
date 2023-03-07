@@ -1,0 +1,28 @@
+{
+  "description": "Number of partitions of n into 8 distinct nonzero decimal palindromes.",
+  "id": "A341166",
+  "mentions": [
+    "A002113",
+    "A136522",
+    "A319473",
+    "A341155",
+    "A341156",
+    "A341157",
+    "A341158",
+    "A341159",
+    "A341165",
+    "A341167",
+    "A341168"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 36,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

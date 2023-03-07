@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of cos(Pi/(1+phi)), where phi is the golden ratio.",
+  "id": "A193537",
+  "mentions": [
+    "A180014"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:57:47",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "The Wiener index of the graph obtained by applying Mycielski's construction to the rooted tree having Matula-Goebel number n.",
+  "id": "A228599",
+  "mentions": [
+    "A007097",
+    "A061775",
+    "A196050",
+    "A196059",
+    "A228318",
+    "A228321"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct primes of type k + reverse(k) when k is a (2n - 1)-digit number.",
+  "id": "A359097",
+  "mentions": [
+    "A056964",
+    "A067030",
+    "A358985",
+    "A358986"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

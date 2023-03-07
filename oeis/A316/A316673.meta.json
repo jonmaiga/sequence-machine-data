@@ -1,0 +1,22 @@
+{
+  "description": "Number of paths from (0,0,0) to (n,n,n) that always move closer to (n,n,n).",
+  "id": "A316673",
+  "mentions": [
+    "A011782",
+    "A052141",
+    "A126086",
+    "A316674"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

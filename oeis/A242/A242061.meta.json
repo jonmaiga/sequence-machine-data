@@ -1,0 +1,20 @@
+{
+  "description": "Position within the triangular array A226314(n)/A054531(n) of rationals x/y such that x < y, gcd(x,y)=1, x+y odd and for the least y, {x, y} are integers such that x*y(y^2-x^2)/A006991(n) is a perfect square.",
+  "id": "A242061",
+  "mentions": [
+    "A006991",
+    "A054531",
+    "A226314",
+    "A243808"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = det M_n where M_n is the n X n matrix m(i,j) = A000009(i+j).",
+  "id": "A278839",
+  "mentions": [
+    "A000009",
+    "A005249",
+    "A071543",
+    "A204249",
+    "A278838",
+    "A278841"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

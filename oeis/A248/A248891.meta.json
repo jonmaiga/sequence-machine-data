@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes p such that p+2 is prime and A001359(n) < p < A001359(n)^(1+1/n).",
+  "id": "A248891",
+  "mentions": [
+    "A001359",
+    "A248901",
+    "A248902",
+    "A248903"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

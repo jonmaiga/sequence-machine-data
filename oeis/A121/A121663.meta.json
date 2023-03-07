@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 1; if n = 2^k, a(n) = k+2, otherwise a(n)=(A000523(n)+2)*a(A053645(n)).",
+  "id": "A121663",
+  "mentions": [
+    "A000523",
+    "A004198",
+    "A045778",
+    "A053645",
+    "A096111"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:38",
+    "offset": 0,
+    "size": 62,
+    "source": "joeis"
+  }
+}

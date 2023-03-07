@@ -1,0 +1,24 @@
+{
+  "description": "Lower Odd Swappage of Upper Wythoff Sequence.",
+  "id": "A141106",
+  "mentions": [
+    "A000201",
+    "A001950",
+    "A004976",
+    "A035487",
+    "A141104",
+    "A141105",
+    "A141107"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

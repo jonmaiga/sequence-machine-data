@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that for any term, say k, there are k occurrences of k in the sequence, and the distance between any two consecutive occurrences of k equals k.",
+  "id": "A336268",
+  "mentions": [
+    "A336215"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

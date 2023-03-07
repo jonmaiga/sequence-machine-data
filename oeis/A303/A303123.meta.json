@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose sum of divisors is the square of one of their divisors.",
+  "id": "A303123",
+  "mentions": [
+    "A000203",
+    "A090777",
+    "A300906",
+    "A303993",
+    "A303994",
+    "A303995",
+    "A303996"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

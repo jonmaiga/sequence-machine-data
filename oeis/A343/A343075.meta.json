@@ -1,0 +1,19 @@
+{
+  "description": "Digitally delicate square numbers (changing any one decimal digit always produces a nonsquare).",
+  "id": "A343075",
+  "mentions": [
+    "A000290",
+    "A050249"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

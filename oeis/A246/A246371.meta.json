@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n such that, if 2n-1 = Product_{k >= 1} (p_k)^(c_k) then n > Product_{k >= 1} (p_{k-1})^(c_k), where p_k indicates the k-th prime, A000040(k).",
+  "id": "A246371",
+  "mentions": [
+    "A000040",
+    "A048674",
+    "A053726",
+    "A064216",
+    "A064989",
+    "A104275",
+    "A246351",
+    "A246361",
+    "A246372",
+    "A246374"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

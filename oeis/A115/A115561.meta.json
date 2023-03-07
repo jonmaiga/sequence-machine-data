@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = lpf((n/lpf(n))/lpf(n/lpf(n))), where lpf=A020639, least prime factor.",
+  "id": "A115561",
+  "mentions": [
+    "A001222",
+    "A002110",
+    "A014673",
+    "A020639",
+    "A027746",
+    "A032742",
+    "A054576",
+    "A117358",
+    "A281889",
+    "A281890"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

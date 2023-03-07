@@ -1,0 +1,31 @@
+{
+  "description": "Twice the number of prime factors of n minus the sum of prime indices of n, both counted with multiplicity.",
+  "id": "A343938",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A003963",
+    "A056239",
+    "A061775",
+    "A112798",
+    "A174090",
+    "A275024",
+    "A279789",
+    "A299757",
+    "A302242",
+    "A340387",
+    "A344291",
+    "A344296"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

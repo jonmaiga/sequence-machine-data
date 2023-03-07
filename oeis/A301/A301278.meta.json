@@ -1,0 +1,24 @@
+{
+  "description": "Numerator of variance of n-th row of Pascal's triangle.",
+  "id": "A301278",
+  "mentions": [
+    "A000265",
+    "A054650",
+    "A084623",
+    "A301279",
+    "A301280",
+    "A301631"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

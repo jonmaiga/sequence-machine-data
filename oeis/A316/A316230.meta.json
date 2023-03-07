@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of Product_{k>=1} 1/(1 + p(k)*x^k), where p(k) = number of partitions of k (A000041).",
+  "id": "A316230",
+  "mentions": [
+    "A000041",
+    "A063834",
+    "A271619",
+    "A304784",
+    "A304785",
+    "A316231"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:47:35",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

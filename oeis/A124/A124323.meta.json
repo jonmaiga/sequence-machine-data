@@ -1,0 +1,37 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of partitions of an n-set having k singleton blocks (0<=k<=n).",
+  "id": "A124323",
+  "mentions": [
+    "A000110",
+    "A000126",
+    "A000296",
+    "A001610",
+    "A032032",
+    "A052841",
+    "A052889",
+    "A066982",
+    "A080107",
+    "A124324",
+    "A169985",
+    "A187784",
+    "A250104",
+    "A250105",
+    "A250106",
+    "A250107",
+    "A324011",
+    "A324014",
+    "A324015"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

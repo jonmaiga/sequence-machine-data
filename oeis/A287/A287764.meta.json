@@ -1,0 +1,21 @@
+{
+  "description": "Number of main classes of diagonal Latin squares of order n.",
+  "id": "A287764",
+  "mentions": [
+    "A003090",
+    "A274171",
+    "A309283"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

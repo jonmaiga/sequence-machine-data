@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of c-nets with n-k inner vertices and k outer vertices, 3 <= n, 2 <= k <= n-1.",
+  "id": "A285165",
+  "mentions": [
+    "A006325",
+    "A054000",
+    "A106651",
+    "A285166",
+    "A285167",
+    "A285168",
+    "A285169",
+    "A285170",
+    "A285171",
+    "A285172",
+    "A290326"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 3,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

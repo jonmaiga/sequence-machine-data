@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{i=0..n} digsum_5(i), where digsum_5(i) = A053824(i).",
+  "id": "A231668",
+  "mentions": [
+    "A053824",
+    "A231669",
+    "A231670",
+    "A231671"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

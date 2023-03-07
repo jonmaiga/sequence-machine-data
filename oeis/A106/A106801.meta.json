@@ -1,0 +1,19 @@
+{
+  "description": "Records by number in A037183, by indices in A065531.",
+  "id": "A106801",
+  "mentions": [
+    "A037183",
+    "A065531",
+    "A107129"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

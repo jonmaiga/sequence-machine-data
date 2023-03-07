@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of distinct numbers of intercalates that an orthogonal diagonal Latin square of order n can have.",
+  "id": "A354050",
+  "mentions": [
+    "A345760",
+    "A349199",
+    "A350585"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

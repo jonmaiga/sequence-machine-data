@@ -1,0 +1,19 @@
+{
+  "description": "Even-indexed coefficients related to Kirchhoff index of hexagonal (benzene) chains.",
+  "id": "A137195",
+  "mentions": [
+    "A079496"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

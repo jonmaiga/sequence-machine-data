@@ -1,0 +1,21 @@
+{
+  "description": "Nonzero coefficients of g.f.: A(x) = G(G(G(x))) where G(x) = x + G(G(x))^3 is the g.f. of A153851.",
+  "id": "A153853",
+  "mentions": [
+    "A153850",
+    "A153851",
+    "A153852",
+    "A153854"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

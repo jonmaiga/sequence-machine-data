@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows, (3n-2) subsequences decrescendo",
+  "id": "A143971",
+  "mentions": [
+    "A000326",
+    "A006578",
+    "A016777",
+    "A032766",
+    "A209634"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

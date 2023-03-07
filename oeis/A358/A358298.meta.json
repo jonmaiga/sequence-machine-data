@@ -1,0 +1,30 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) (n>=0, k>=0) = number of lines defining the Farey diagram Farey(n,k) of order (n,k).",
+  "id": "A358298",
+  "mentions": [
+    "A005728",
+    "A018805",
+    "A225531",
+    "A331781",
+    "A333295",
+    "A358299",
+    "A358300",
+    "A358301",
+    "A358307",
+    "A358882",
+    "A358885",
+    "A358886",
+    "A358889"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

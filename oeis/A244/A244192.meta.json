@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = most common 2-digit ending for a prime < 10^n, or 0 if there is a tie.",
+  "id": "A244192",
+  "mentions": [
+    "A244191",
+    "A244267"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

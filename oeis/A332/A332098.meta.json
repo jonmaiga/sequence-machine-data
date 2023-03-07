@@ -1,0 +1,23 @@
+{
+  "description": "Largest m for which m^n = Sum_{x in S} x^n has no solution S subset of {1, ..., m-1}.",
+  "id": "A332098",
+  "mentions": [
+    "A001661",
+    "A030052",
+    "A332065",
+    "A332066"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

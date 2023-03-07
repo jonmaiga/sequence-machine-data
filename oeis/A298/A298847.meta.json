@@ -1,0 +1,24 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that, for any n > 0, the number of ones in the binary expansion of n equals one plus the number of zeros in the binary expansion of a(n).",
+  "id": "A298847",
+  "mentions": [
+    "A000120",
+    "A007953",
+    "A023416",
+    "A031448",
+    "A055642",
+    "A070939"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:21",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Product of Jacobsthal and Motzkin numbers: a(n) = A001045(n+1)*A001006(n).",
+  "id": "A200538",
+  "mentions": [
+    "A001006",
+    "A001045",
+    "A200375",
+    "A200539",
+    "A200540"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Fibonacci numbers written in base 2, read as decimal numbers which then are prime.",
+  "id": "A180280",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A004685",
+    "A005478",
+    "A007088",
+    "A020449"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

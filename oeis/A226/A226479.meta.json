@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that (sopf(n)*d(n))^2 = sigma(n) where sopf(n) = sum of distinct prime factors of n (A008472) and d(n) = number of divisors of n.",
+  "id": "A226479",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A006532",
+    "A008472",
+    "A126028",
+    "A226480"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

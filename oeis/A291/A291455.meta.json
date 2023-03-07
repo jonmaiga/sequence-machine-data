@@ -1,0 +1,26 @@
+{
+  "description": "Number of ways to write 2*n+1 as x^2 + y^2 + z^2 + w^2 with x,y,z,w nonnegative integers such that x + 3*y + 5*z + 7*w, x^3 + 3*y^3 + 5*z^3 + 7*w^3 and x^7 + 3*y^7 + 5*z^7 + 7*w^7 are all prime.",
+  "id": "A291455",
+  "mentions": [
+    "A000040",
+    "A000118",
+    "A005384",
+    "A023201",
+    "A046132",
+    "A271518",
+    "A281976",
+    "A290935",
+    "A291150",
+    "A291191"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

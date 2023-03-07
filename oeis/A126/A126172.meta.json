@@ -1,0 +1,27 @@
+{
+  "description": "Smaller element of a reduced infinitary amicable pair.",
+  "id": "A126172",
+  "mentions": [
+    "A037445",
+    "A049417",
+    "A126168",
+    "A126169",
+    "A126170",
+    "A126171",
+    "A126173",
+    "A126174",
+    "A126175",
+    "A126176"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of [n] with exactly two (possibly overlapping) occurrences of some of the consecutive patterns 123, 1432, 2431, 3421.",
+  "id": "A228422",
+  "mentions": [
+    "A231210"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

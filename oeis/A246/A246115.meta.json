@@ -1,0 +1,17 @@
+{
+  "description": "Number of inequivalent n X n matrices with entries from [9], where equivalence means permutations of rows or columns.",
+  "id": "A246115",
+  "mentions": [
+    "A246106"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T(n, k) = Numbers of ways to place k points on a triangular grid of side n so that no three of them are vertices of an equilateral triangle of any orientation. Triangle read by rows.",
+  "id": "A240439",
+  "mentions": [
+    "A000217",
+    "A050534",
+    "A084546",
+    "A240114",
+    "A240440",
+    "A240441",
+    "A240442",
+    "A240443"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

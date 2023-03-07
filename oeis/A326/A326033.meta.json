@@ -1,0 +1,30 @@
+{
+  "description": "Number of knapsack partitions of n such that no addition of one part equal to an existing part is knapsack.",
+  "id": "A326033",
+  "mentions": [
+    "A002033",
+    "A108917",
+    "A275972",
+    "A276024",
+    "A299702",
+    "A325857",
+    "A325862",
+    "A325863",
+    "A325864",
+    "A325865",
+    "A326015",
+    "A326016",
+    "A326018"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

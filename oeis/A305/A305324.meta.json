@@ -1,0 +1,18 @@
+{
+  "description": "Number of one-sided 'divisible' polyominoes of size 2^(n-1), where a 'divisible' polyomino is either a monomino (square) or a polyomino which can be separated into two identical 'divisible' polyominoes.",
+  "id": "A305324",
+  "mentions": [
+    "A000988"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

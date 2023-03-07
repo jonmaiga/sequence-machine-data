@@ -1,0 +1,22 @@
+{
+  "description": "Prefix overlap of dictionary consisting of decimal expansions of 0 through n.",
+  "id": "A239092",
+  "mentions": [
+    "A028904",
+    "A076489",
+    "A081600",
+    "A238845",
+    "A239091"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 115,
+    "source": "oeis-entry"
+  }
+}

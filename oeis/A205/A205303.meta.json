@@ -1,0 +1,19 @@
+{
+  "description": "a(n) where a(n) * a(n-5) * a(n-10) = a(n-1) * a(n-6) * a(n-8) + a(n-2) * a(n-4) * a(n-9), with a(1) = ... = a(10) = 1.",
+  "id": "A205303",
+  "mentions": [
+    "A185332",
+    "A185341"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:25",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

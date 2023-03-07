@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = row number of triangle A085612 in which n appears.",
+  "id": "A224401",
+  "mentions": [
+    "A064839",
+    "A085612",
+    "A085834",
+    "A085836",
+    "A226387"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

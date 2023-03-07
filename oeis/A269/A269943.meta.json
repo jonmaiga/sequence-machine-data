@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, T(n,k) = ((-1)^k*(2*n)!/4^k)*P[n,k](1/((2*n-1)*(2*n))) where P is the inverse P-transform, for n>=0 and 0<=k<=n.",
+  "id": "A269943",
+  "mentions": [
+    "A000680",
+    "A055546",
+    "A269941"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

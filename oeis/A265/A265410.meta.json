@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = one-based index to the nearest horizontally or vertically adjacent inner neighbor in square-grid spirals, and to the nearest diagonally adjacent inner neighbor when n is one of the corner cases A033638.",
+  "id": "A265410",
+  "mentions": [
+    "A000267",
+    "A033638",
+    "A240025",
+    "A260643",
+    "A265400",
+    "A265409",
+    "A265411",
+    "A265412",
+    "A265413"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

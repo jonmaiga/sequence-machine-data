@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the sum of the n-th row of the A341150 triangle.",
+  "id": "A341151",
+  "mentions": [
+    "A341150"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

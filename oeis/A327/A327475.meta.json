@@ -1,0 +1,26 @@
+{
+  "description": "Number of subsets of {1..n} whose mean is an integer, where {} has mean 0.",
+  "id": "A327475",
+  "mentions": [
+    "A000016",
+    "A051293",
+    "A063776",
+    "A065795",
+    "A082550",
+    "A135342",
+    "A327474",
+    "A327481"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:09:44",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

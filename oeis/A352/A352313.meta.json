@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is -2^(2n) times the derivative of order 2n of the logarithm of J_0(x) (the Bessel function of the first kind of order zero) evaluated at zero.",
+  "id": "A352313",
+  "mentions": [
+    "A352284"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

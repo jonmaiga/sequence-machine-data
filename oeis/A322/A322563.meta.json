@@ -1,0 +1,24 @@
+{
+  "description": "One of the two successive approximations up to 17^n for 17-adic integer sqrt(-2). This is the 7 (mod 17) case (except for n = 0).",
+  "id": "A322563",
+  "mentions": [
+    "A286877",
+    "A286878",
+    "A322559",
+    "A322560",
+    "A322564",
+    "A322565",
+    "A322566"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

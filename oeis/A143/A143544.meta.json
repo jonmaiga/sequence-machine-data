@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows, T(n,k) = 2 if n is prime, 1 otherwise; 1<=k<=n.",
+  "id": "A143544",
+  "mentions": [
+    "A010051",
+    "A061397",
+    "A143536",
+    "A143545"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

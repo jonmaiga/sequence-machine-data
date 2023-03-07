@@ -1,0 +1,20 @@
+{
+  "description": "Square array a(n,k) is the number of terms in the \"continued fraction\" of the form -k1 + 1/(k2 - 1/(k3 -1/( ... for the fraction -k/n.",
+  "id": "A266394",
+  "mentions": [
+    "A000012",
+    "A016777",
+    "A168230"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

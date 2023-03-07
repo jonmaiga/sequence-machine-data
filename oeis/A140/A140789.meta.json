@@ -1,0 +1,18 @@
+{
+  "description": "We consider how many ways there are of coloring a square grid, n X n, using just two colors, black & white say. If the resulting grid has TWO lines of symmetry, then the number of different grids is given by this sequence. None of these counted are the images of any of the others under a rotation. If one wishes to count these as different, then each of these numbers can be multiplied by 2.",
+  "id": "A140789",
+  "mentions": [
+    "A140650"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

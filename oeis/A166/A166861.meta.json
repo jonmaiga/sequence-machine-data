@@ -1,0 +1,27 @@
+{
+  "description": "Euler transform of Fibonacci numbers.",
+  "id": "A166861",
+  "mentions": [
+    "A000045",
+    "A001622",
+    "A034691",
+    "A109509",
+    "A200544",
+    "A260787",
+    "A260916",
+    "A261031",
+    "A261050",
+    "A337009"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

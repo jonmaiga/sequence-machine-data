@@ -1,0 +1,21 @@
+{
+  "description": "Largest prime factor of odd composites less than 10^n.",
+  "id": "A136024",
+  "mentions": [
+    "A007917",
+    "A051200",
+    "A136021"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

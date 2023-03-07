@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of 1/(1 - x*Product_{k>=1} (1 + x^k)).",
+  "id": "A299106",
+  "mentions": [
+    "A000009",
+    "A067687",
+    "A286335",
+    "A299105",
+    "A299108"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

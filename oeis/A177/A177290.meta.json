@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of 2 copies of 1..n with all adjacent differences <= 9 in absolute value.",
+  "id": "A177290",
+  "mentions": [
+    "A000680"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

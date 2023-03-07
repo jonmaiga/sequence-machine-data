@@ -1,0 +1,21 @@
+{
+  "description": "Number of polyominoes with width and height equal to 2n that are invariant under all symmetries of the square.",
+  "id": "A268758",
+  "mentions": [
+    "A054247",
+    "A268339",
+    "A268404",
+    "A331878"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

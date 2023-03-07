@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 64/169, the upper bound (as given by S. Finch) of the 2-dimensional simultaneous Diophantine approximation constant.",
+  "id": "A244334",
+  "mentions": [
+    "A244335",
+    "A244336",
+    "A244337",
+    "A244338"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:11:15",
+    "offset": 0,
+    "size": 99,
+    "source": "joeis"
+  }
+}

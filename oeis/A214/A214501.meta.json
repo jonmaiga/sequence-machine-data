@@ -1,0 +1,20 @@
+{
+  "description": "The size of the set of numbers k>=0 such that all (3^n-k)*2^n-1 are prime but only the last (largest) (3^n-k)*2^n+1 is also an associated twin prime.",
+  "id": "A214501",
+  "mentions": [
+    "A212037",
+    "A214497",
+    "A214498",
+    "A214502"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

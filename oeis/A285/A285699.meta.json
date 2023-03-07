@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) = n - A079277(n).",
+  "id": "A285699",
+  "mentions": [
+    "A000010",
+    "A079277",
+    "A285710"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

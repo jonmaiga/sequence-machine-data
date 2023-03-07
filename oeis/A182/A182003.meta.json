@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = least prime p_k such that n = p_k - p_{k-1} + ... + (-1)^{k-j}p_j for some 1 <= j <= k, with p_k the k-th prime.",
+  "id": "A182003",
+  "mentions": [
+    "A000040",
+    "A181901",
+    "A207982",
+    "A208494",
+    "A208643",
+    "A210144",
+    "A210186",
+    "A210393",
+    "A210394",
+    "A210640"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

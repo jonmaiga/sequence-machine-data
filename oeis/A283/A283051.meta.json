@@ -1,0 +1,24 @@
+{
+  "description": "Positive integers n such that none of the primes of the form k*2^n + 1 (with k odd) divide any Fermat number F(m) = 2^(2^m) + 1, m >= 0.",
+  "id": "A283051",
+  "mentions": [
+    "A019434",
+    "A023394",
+    "A228845",
+    "A228846",
+    "A229857",
+    "A231203"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

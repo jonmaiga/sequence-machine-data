@@ -1,0 +1,19 @@
+{
+  "description": "Multiplicative order of 5 (mod p^2), where p = prime(n), or 0 if 5 and p are not coprime.",
+  "id": "A305331",
+  "mentions": [
+    "A211241",
+    "A305332",
+    "A305333"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

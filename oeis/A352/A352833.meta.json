@@ -1,0 +1,41 @@
+{
+  "description": "Irregular triangle read by rows where T(n,k) is the number of integer partitions of n with k fixed points, k = 0, 1.",
+  "id": "A352833",
+  "mentions": [
+    "A000041",
+    "A000700",
+    "A000701",
+    "A001522",
+    "A008290",
+    "A064428",
+    "A088902",
+    "A098825",
+    "A114088",
+    "A115720",
+    "A115994",
+    "A219282",
+    "A238349",
+    "A238352",
+    "A257990",
+    "A300787",
+    "A300788",
+    "A330644",
+    "A350839",
+    "A352486",
+    "A352512",
+    "A352513",
+    "A352521",
+    "A352525"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

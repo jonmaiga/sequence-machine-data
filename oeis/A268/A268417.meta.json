@@ -1,0 +1,18 @@
+{
+  "description": "Numbers other than prime powers divisible by the sum and the sum of squares of their prime divisors.",
+  "id": "A268417",
+  "mentions": [
+    "A066031",
+    "A190882"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

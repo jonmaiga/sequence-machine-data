@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 if Bernoulli number B_{n} has denominator 6, otherwise 0.",
+  "id": "A355452",
+  "mentions": [
+    "A027642",
+    "A051222",
+    "A067513",
+    "A355451"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 125,
+    "source": "oeis-bfile"
+  }
+}

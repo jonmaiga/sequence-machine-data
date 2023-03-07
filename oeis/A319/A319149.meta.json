@@ -1,0 +1,32 @@
+{
+  "description": "Number of superperiodic integer partitions of n.",
+  "id": "A319149",
+  "mentions": [
+    "A000041",
+    "A000837",
+    "A018783",
+    "A024994",
+    "A047966",
+    "A098859",
+    "A100953",
+    "A181819",
+    "A182857",
+    "A304660",
+    "A305563",
+    "A317245",
+    "A317256",
+    "A319151",
+    "A319152",
+    "A319157"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

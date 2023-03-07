@@ -1,0 +1,18 @@
+{
+  "description": "The number of length n sequences on {0,1,2}(ternary sequences) that contain a prime number of 2's.",
+  "id": "A178851",
+  "mentions": [
+    "A121497"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

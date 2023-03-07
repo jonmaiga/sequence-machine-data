@@ -1,0 +1,29 @@
+{
+  "description": "Numbers that can be written as the product of two divisors greater than 1 such that the number is contained in the string concatenation of the divisors.",
+  "id": "A355790",
+  "mentions": [
+    "A027748",
+    "A027750",
+    "A030190",
+    "A048991",
+    "A077293",
+    "A210959",
+    "A330027",
+    "A339144",
+    "A341035",
+    "A342127",
+    "A355791",
+    "A355852"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

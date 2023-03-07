@@ -1,0 +1,18 @@
+{
+  "description": "Records in A216377.",
+  "id": "A221708",
+  "mentions": [
+    "A216377",
+    "A221707"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

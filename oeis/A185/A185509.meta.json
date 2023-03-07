@@ -1,0 +1,25 @@
+{
+  "description": "Fourth accumulation array, T, of the natural number array A000027, by antidiagonals.",
+  "id": "A185509",
+  "mentions": [
+    "A000027",
+    "A000579",
+    "A144112",
+    "A185506",
+    "A185507",
+    "A185508",
+    "A257200"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

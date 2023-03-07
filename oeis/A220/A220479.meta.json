@@ -1,0 +1,28 @@
+{
+  "description": "Total number of smallest parts that are also emergent parts in all partitions of n.",
+  "id": "A220479",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A002865",
+    "A006128",
+    "A092269",
+    "A120452",
+    "A182699",
+    "A182709",
+    "A195820",
+    "A206437",
+    "A215513"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

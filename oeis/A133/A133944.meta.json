@@ -1,0 +1,19 @@
+{
+  "description": "Sum mu(k), where the sum is over the integers k which are the \"non-isolated divisors\" of n and mu(k) is the Moebius function (mu(k) = A008683(k)). A positive divisor, k, of n is non-isolated if (k-1) or (k+1) also divides n.",
+  "id": "A133944",
+  "mentions": [
+    "A008683",
+    "A133943"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 115,
+    "source": "oeis-bfile"
+  }
+}

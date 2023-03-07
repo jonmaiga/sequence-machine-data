@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the fixed point of the cosine function when measured in quadrants (1 quadrant = 90 degrees = Pi/2 radians).",
+  "id": "A342204",
+  "mentions": [
+    "A003957",
+    "A330119"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

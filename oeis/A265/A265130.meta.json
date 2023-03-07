@@ -1,0 +1,18 @@
+{
+  "description": "Total sum of number of lambda-parking functions, where lambda ranges over all partitions of k into distinct parts with largest part n and n<=k<=n*(n+1)/2.",
+  "id": "A265130",
+  "mentions": [
+    "A265018",
+    "A265019"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

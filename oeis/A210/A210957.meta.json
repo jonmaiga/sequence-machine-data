@@ -1,0 +1,23 @@
+{
+  "description": "Prime pair (p, q), p<=q, such that p + q = 2*n and p*q is the minimal product.",
+  "id": "A210957",
+  "mentions": [
+    "A000040",
+    "A002373",
+    "A020481",
+    "A020482",
+    "A073046",
+    "A210967"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 2,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the number u such that the arclength on y = x^2 from (0,0) to (u, u^2) is 1.",
+  "id": "A335996",
+  "mentions": [
+    "A333202"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

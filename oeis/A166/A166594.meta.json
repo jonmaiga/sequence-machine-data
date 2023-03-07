@@ -1,0 +1,20 @@
+{
+  "description": "Maximal prime gap q-p encountered from 0 to least prime > n.",
+  "id": "A166594",
+  "mentions": [
+    "A002386",
+    "A063095",
+    "A151800",
+    "A166597"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

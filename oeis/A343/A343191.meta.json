@@ -1,0 +1,22 @@
+{
+  "description": "Squiggle Dot Numbers: numbers generated in a similar way to those in A010790 except that every prime number is divided instead of multiplied. The result is then rounded to the closest integer.",
+  "id": "A343191",
+  "mentions": [
+    "A000142",
+    "A010051",
+    "A010790",
+    "A034386"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = the highest power of 3 that divides (prime(n)^2+2).",
+  "id": "A257567",
+  "mentions": [
+    "A007949",
+    "A061725",
+    "A257568"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

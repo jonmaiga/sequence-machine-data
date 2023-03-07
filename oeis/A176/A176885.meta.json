@@ -1,0 +1,19 @@
+{
+  "description": "Let p*q = A006881(n) be the n-th number that is the product of two distinct primes, with p = prime(i), q=prime(j); a(n) = p^j - q^i.",
+  "id": "A176885",
+  "mentions": [
+    "A006530",
+    "A006881",
+    "A020639"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

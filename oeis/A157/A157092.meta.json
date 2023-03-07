@@ -1,0 +1,25 @@
+{
+  "description": "Consider all consecutive integer Pythagorean 9-tuples (X, X+1, X+2, X+3, X+4, Z-3, Z-2, Z-1, Z) ordered by increasing Z; sequence gives X values.",
+  "id": "A157092",
+  "mentions": [
+    "A000045",
+    "A001622",
+    "A001652",
+    "A119032",
+    "A157084",
+    "A157088",
+    "A157093",
+    "A157096"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

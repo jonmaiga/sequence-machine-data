@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows: row n consists of the coefficients of the expansion of the polynomial (x^2 + 2*x + 1)^n + (x^2 - 1)*(x + 1)^n.",
+  "id": "A300192",
+  "mentions": [
+    "A000292",
+    "A000302",
+    "A001477",
+    "A001791",
+    "A002492",
+    "A002694",
+    "A032443",
+    "A034870",
+    "A034871",
+    "A094527",
+    "A143689",
+    "A247493"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

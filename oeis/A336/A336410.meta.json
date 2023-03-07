@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that prime(k) - oc(k) = 2, where oc(k) is the greatest odd composite < prime(k).",
+  "id": "A336410",
+  "mentions": [
+    "A000040",
+    "A014076",
+    "A336409",
+    "A336411"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 5,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

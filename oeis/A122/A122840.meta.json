@@ -1,0 +1,32 @@
+{
+  "description": "a(n) is the number of 0's at the end of n when n is written in base 10.",
+  "id": "A122840",
+  "mentions": [
+    "A001511",
+    "A004151",
+    "A005117",
+    "A007814",
+    "A027868",
+    "A054899",
+    "A070940",
+    "A112765",
+    "A122841",
+    "A160093",
+    "A160094",
+    "A196563",
+    "A196564"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

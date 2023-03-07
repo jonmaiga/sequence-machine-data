@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that Ramanujan number tau(p) is divisible by p-1.",
+  "id": "A299172",
+  "mentions": [
+    "A000594",
+    "A007659",
+    "A299171",
+    "A299204",
+    "A299205"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

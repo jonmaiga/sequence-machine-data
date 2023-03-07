@@ -1,0 +1,21 @@
+{
+  "description": "Let s(n,j) be Sum_{i=1..j} (prime(primepi(n) + i) mod n). Numbers n such that there exists j with s(n,j) = n.",
+  "id": "A274423",
+  "mentions": [
+    "A000040",
+    "A024934",
+    "A274422",
+    "A274424"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

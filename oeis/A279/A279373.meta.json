@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that number of divisors of n divides n and at the same time the least number having exactly n divisors is divisible by n.",
+  "id": "A279373",
+  "mentions": [
+    "A000005",
+    "A005179",
+    "A033950",
+    "A262981",
+    "A262983"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

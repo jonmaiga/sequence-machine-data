@@ -1,0 +1,19 @@
+{
+  "description": "Irregular array where n-th row is the positive integers < n which are coprime to exactly one distinct prime divisor of n.",
+  "id": "A128487",
+  "mentions": [
+    "A126080",
+    "A128488"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

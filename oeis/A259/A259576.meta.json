@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct differences in row n of the reciprocity array of 1.",
+  "id": "A259576",
+  "mentions": [
+    "A249572",
+    "A249573",
+    "A259572",
+    "A259575"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

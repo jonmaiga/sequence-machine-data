@@ -1,0 +1,52 @@
+{
+  "description": "Suppose m = Product_{i=1..k} p_i^e_i, where p_i is the i-th prime number and each e_i is a nonnegative integer. Then we can define P_m(x) = Sum_{i=1..k} e_i*x^(i-1). The sequence is the square array A(n,m) = P_m(n) read by descending antidiagonals.",
+  "id": "A104244",
+  "mentions": [
+    "A000720",
+    "A001222",
+    "A001414",
+    "A002260",
+    "A004736",
+    "A007814",
+    "A048675",
+    "A054841",
+    "A056239",
+    "A073133",
+    "A090880",
+    "A090881",
+    "A090882",
+    "A090883",
+    "A090884",
+    "A104245",
+    "A167219",
+    "A195017",
+    "A206284",
+    "A206296",
+    "A248663",
+    "A249344",
+    "A265398",
+    "A265399",
+    "A265752",
+    "A265753",
+    "A276075",
+    "A289506",
+    "A293447",
+    "A297845",
+    "A318994",
+    "A318995",
+    "A352957"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

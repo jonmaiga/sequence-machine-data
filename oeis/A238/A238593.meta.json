@@ -1,0 +1,20 @@
+{
+  "description": "Smallest m such that the n-th prime occurs as substring in A019518(n).",
+  "id": "A238593",
+  "mentions": [
+    "A000040",
+    "A019518",
+    "A165450"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

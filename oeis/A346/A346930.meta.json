@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 5207 * Pi^8 / 49601160.",
+  "id": "A346930",
+  "mentions": [
+    "A346929",
+    "A346931",
+    "A346932",
+    "A346933"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 16:22:27",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

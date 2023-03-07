@@ -1,0 +1,31 @@
+{
+  "description": "Nonnegative integers n such that 2n^2 + 2n - 3 is square.",
+  "id": "A124124",
+  "mentions": [
+    "A001108",
+    "A001652",
+    "A001653",
+    "A006452",
+    "A008844",
+    "A038761",
+    "A046090",
+    "A046172",
+    "A077442",
+    "A098586",
+    "A098790",
+    "A143608",
+    "A216134"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "The hyper-Wiener index of the nanostar dendrimer defined pictorially as G[n] in the M. H. Khalifeh et al. reference.",
+  "id": "A227487",
+  "mentions": [
+    "A227486"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:12:21",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

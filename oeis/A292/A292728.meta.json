@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of terminal states that can be achieved via the following algorithm: start with n piles each containing one stone; stones can be transferred between piles only when the piles start with the same number of stones.",
+  "id": "A292728",
+  "mentions": [
+    "A000009"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

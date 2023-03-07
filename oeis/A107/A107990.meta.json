@@ -1,0 +1,20 @@
+{
+  "description": "Primes representing areas of cube faces where the integer part of the cube's volume is also prime.",
+  "id": "A107990",
+  "mentions": [
+    "A000040",
+    "A107989"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

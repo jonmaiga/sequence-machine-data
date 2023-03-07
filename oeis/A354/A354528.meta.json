@@ -1,0 +1,21 @@
+{
+  "description": "Square array T(m,n) read by antidiagonals - see Comments for definition.",
+  "id": "A354528",
+  "mentions": [
+    "A028347",
+    "A047838",
+    "A179094",
+    "A354529"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

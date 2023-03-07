@@ -1,0 +1,32 @@
+{
+  "description": "Number of non-normal (0,1) semi-magic squares with sum of entries equal to n.",
+  "id": "A321720",
+  "mentions": [
+    "A006052",
+    "A007016",
+    "A008300",
+    "A057151",
+    "A068313",
+    "A101370",
+    "A104602",
+    "A120732",
+    "A271103",
+    "A319056",
+    "A319616",
+    "A321717",
+    "A321719",
+    "A321722",
+    "A321723"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

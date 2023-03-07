@@ -1,0 +1,20 @@
+{
+  "description": "Crandall numbers: (2/Pi)^4 Integral_{t>=0} ([Pi I_0(t)]^2 - [K_0(t)]^2) I_0(t) [K_0(t)]^5 (2t)^(2n-1) dt.",
+  "id": "A262961",
+  "mentions": [
+    "A002943",
+    "A263413",
+    "A265079"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Denominator of the average path sum when iterating from n to 1 with nondeterministic map k -> k - k/p, where p is any prime factor of k.",
+  "id": "A333003",
+  "mentions": [
+    "A333000",
+    "A333001",
+    "A333002",
+    "A333123",
+    "A333785"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

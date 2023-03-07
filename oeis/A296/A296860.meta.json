@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k whose base-2 digits d(m), d(m-1), ..., d(0) have #(pits) < #(peaks); see Comments.",
+  "id": "A296860",
+  "mentions": [
+    "A296712",
+    "A296858",
+    "A296859",
+    "A296882"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:16",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

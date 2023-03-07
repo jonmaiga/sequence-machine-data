@@ -1,0 +1,25 @@
+{
+  "description": "Entries in 3-dimensional solid related to Prouhet-Tarry problem.",
+  "id": "A109495",
+  "mentions": [
+    "A046816",
+    "A109390",
+    "A109393",
+    "A109649",
+    "A109672",
+    "A109673"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

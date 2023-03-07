@@ -1,0 +1,25 @@
+{
+  "description": "Number of zero trace primitive elements in Galois field GF(2^n).",
+  "id": "A192211",
+  "mentions": [
+    "A107222",
+    "A152049",
+    "A192212",
+    "A192213",
+    "A192214",
+    "A192215",
+    "A192216"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

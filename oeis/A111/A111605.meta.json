@@ -1,0 +1,18 @@
+{
+  "description": "Determinant of the upper left n X n elements of the array T(n, m) in A109626.",
+  "id": "A111605",
+  "mentions": [
+    "A109626",
+    "A111606"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

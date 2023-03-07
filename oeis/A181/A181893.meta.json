@@ -1,0 +1,20 @@
+{
+  "description": "Number of different nonnegative solutions of equation: x^2 - y^2 = k! for 1 <= k <= n.",
+  "id": "A181893",
+  "mentions": [
+    "A138196",
+    "A139151",
+    "A181892"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

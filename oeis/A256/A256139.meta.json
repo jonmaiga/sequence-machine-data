@@ -1,0 +1,28 @@
+{
+  "description": "First differences of A256138.",
+  "id": "A256139",
+  "mentions": [
+    "A011782",
+    "A028399",
+    "A151723",
+    "A151724",
+    "A160721",
+    "A169708",
+    "A170898",
+    "A170905",
+    "A173033",
+    "A256138"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

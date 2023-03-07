@@ -1,0 +1,21 @@
+{
+  "description": "n-th number k such that 6*k-1 is composite while 6*k+1 is prime plus n-th number m such that 6*m-1 is prime while 6*m+1 is composite.",
+  "id": "A172055",
+  "mentions": [
+    "A121763",
+    "A121765",
+    "A171765",
+    "A172054"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

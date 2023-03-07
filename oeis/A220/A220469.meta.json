@@ -1,0 +1,21 @@
+{
+  "description": "Fibonacci 14-step numbers, a(n) = a(n-1) + a(n-2) + ... + a(n-14).",
+  "id": "A220469",
+  "mentions": [
+    "A000045",
+    "A000073",
+    "A000078",
+    "A001591",
+    "A168084"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:18:50",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

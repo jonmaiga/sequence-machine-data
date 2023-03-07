@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of sequence whose exponential self-convolution yields sequence 1, 2, 3, 5, 7, 11, 13, ... (1 with primes).",
+  "id": "A300622",
+  "mentions": [
+    "A008578",
+    "A073749",
+    "A073750",
+    "A300621"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

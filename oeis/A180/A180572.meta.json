@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of unordered pairs of vertices at distance k in the circular ladder P_2 X C_n (also called a prism), where P_2 is the path graph on 2 nodes and C_n is the cycle graph on n nodes.",
+  "id": "A180572",
+  "mentions": [
+    "A000384",
+    "A138179"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 3,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

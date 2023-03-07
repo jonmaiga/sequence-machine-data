@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least number not smaller than the total number of letters in the German names for all terms up to and including a(n).",
+  "id": "A233188",
+  "mentions": [
+    "A007208",
+    "A233184",
+    "A233185",
+    "A233187"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

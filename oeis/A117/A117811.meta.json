@@ -1,0 +1,19 @@
+{
+  "description": "Two-column table read by rows: row n (n >= 1) gives a squarefree integer x and an integer y such that n = x*y^2.",
+  "id": "A117811",
+  "mentions": [
+    "A000188",
+    "A007913"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

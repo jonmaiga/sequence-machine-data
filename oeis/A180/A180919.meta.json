@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n^2 + 731*n + 1.",
+  "id": "A180919",
+  "mentions": [
+    "A142463",
+    "A155095"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

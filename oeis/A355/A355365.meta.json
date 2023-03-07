@@ -1,0 +1,21 @@
+{
+  "description": "Central terms of A355360; a(n) = A355360(2*n,n).",
+  "id": "A355365",
+  "mentions": [
+    "A355360",
+    "A355361",
+    "A355362",
+    "A355363",
+    "A355364"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

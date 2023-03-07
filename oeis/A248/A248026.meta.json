@@ -1,0 +1,22 @@
+{
+  "description": "Atomic numbers of the chemical elements sorted by electronegativity (Pauling scale).",
+  "id": "A248026",
+  "mentions": [
+    "A081098",
+    "A081099",
+    "A081100",
+    "A081101",
+    "A248061",
+    "A249874"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

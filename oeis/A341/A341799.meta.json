@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the least integer k such that 1/(Sum_{j=0..n} 1/phi(k+j)) is an integer.",
+  "id": "A341799",
+  "mentions": [
+    "A000010",
+    "A073542",
+    "A073543",
+    "A073544",
+    "A341745"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

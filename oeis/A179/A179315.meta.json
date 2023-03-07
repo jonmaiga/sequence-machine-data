@@ -1,0 +1,23 @@
+{
+  "description": "Nonzero differences A179313(n,k)- A127742(n,k) read along rows.",
+  "id": "A179315",
+  "mentions": [
+    "A000041",
+    "A000108",
+    "A000110",
+    "A016098",
+    "A127742",
+    "A179313"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 4,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

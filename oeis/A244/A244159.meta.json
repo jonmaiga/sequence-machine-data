@@ -1,0 +1,35 @@
+{
+  "description": "Semigreedy Catalan Representation of nonnegative integers.",
+  "id": "A244159",
+  "mentions": [
+    "A000108",
+    "A007088",
+    "A014138",
+    "A014143",
+    "A014418",
+    "A081290",
+    "A176137",
+    "A197433",
+    "A239903",
+    "A244158",
+    "A244160",
+    "A244230",
+    "A244231",
+    "A244232",
+    "A244233",
+    "A244314",
+    "A244316"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

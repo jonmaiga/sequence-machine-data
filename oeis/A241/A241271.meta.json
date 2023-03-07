@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 6*a(n-1) + 3*(2^(n-2)-1) for n > 2, a(0)=a(1)=a(2)=0.",
+  "id": "A241271",
+  "mentions": [
+    "A240916"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

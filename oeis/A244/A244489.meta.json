@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) = Sum_{j=k..n} binomial(n,j)*Stirling_2(j,k)*Bell(n-j), where Bell(n) = A000110(n), for n >= 1, 0 <= k <= n-1.",
+  "id": "A244489",
+  "mentions": [
+    "A000110",
+    "A049020"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

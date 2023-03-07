@@ -1,0 +1,18 @@
+{
+  "description": "Vampire numbers (definition 1) in binary: n has a nontrivial factorization using n's bits.",
+  "id": "A280967",
+  "mentions": [
+    "A020342"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

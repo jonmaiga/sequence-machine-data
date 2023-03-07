@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f. C(x,y) = 1 + Integral S(x,y)*C(y,x) dx such that C(x,y)^2 - S(x,y)^2 = 1 and C(y,x) = Integral S(y,x)*C(x,y) dy, where C(x,y) = Sum_{n>=0} Sum_{k=0..n} T(n,k) * x^(2*n-2*k)*y^(2*k)/(2*n)!, as a triangle of coefficients T(n,k) read by rows.",
+  "id": "A322731",
+  "mentions": [
+    "A322221",
+    "A322730",
+    "A322732",
+    "A322734"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

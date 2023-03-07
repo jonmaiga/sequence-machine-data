@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A003415(n) + A003958(n) - n, where A003415 is the arithmetic derivative and A003958 is fully multiplicative with a(p) = (p-1).",
+  "id": "A348975",
+  "mentions": [
+    "A003415",
+    "A003958",
+    "A168036",
+    "A322582",
+    "A348970"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

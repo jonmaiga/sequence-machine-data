@@ -1,0 +1,42 @@
+{
+  "description": "A276086 applied to the primorial inflation of Doudna-tree, where A276086(n) is the prime product form of primorial base expansion of n.",
+  "id": "A342456",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A001222",
+    "A005940",
+    "A025487",
+    "A051903",
+    "A055396",
+    "A061395",
+    "A080791",
+    "A108951",
+    "A129912",
+    "A246277",
+    "A276086",
+    "A283477",
+    "A283980",
+    "A290251",
+    "A324289",
+    "A324886",
+    "A329886",
+    "A342001",
+    "A342457",
+    "A342461",
+    "A342462",
+    "A342463",
+    "A342464"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-digit decimal numbers containing 123 as a substring.",
+  "id": "A328916",
+  "mentions": [
+    "A322628"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

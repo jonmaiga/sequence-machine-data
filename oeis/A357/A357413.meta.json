@@ -1,0 +1,23 @@
+{
+  "description": "Number of nonempty subsets of {1..n} whose elements have an odd geometric mean.",
+  "id": "A357413",
+  "mentions": [
+    "A001055",
+    "A326027",
+    "A357355",
+    "A357411",
+    "A357414",
+    "A357415"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

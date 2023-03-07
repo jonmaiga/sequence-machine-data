@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = max{T(n,k), k=1..n}, where T(n,k) is the number of Dyck paths of length 2n and height k (1<=k<=n).",
+  "id": "A259885",
+  "mentions": [
+    "A080936",
+    "A259899",
+    "A265180"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle in which row n is generated from (1,2,3,...,n) dot (n, n-1,...,1) with subtractive carryovers.",
+  "id": "A177878",
+  "mentions": [
+    "A005993",
+    "A160770",
+    "A177877"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

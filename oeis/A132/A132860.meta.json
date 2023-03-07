@@ -1,0 +1,21 @@
+{
+  "description": "Smallest number at distance 2n from nearest prime (variant 2).",
+  "id": "A132860",
+  "mentions": [
+    "A051669",
+    "A051699",
+    "A051700",
+    "A051728"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

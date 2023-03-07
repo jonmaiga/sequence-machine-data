@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Sum_{k>=2} x^prime(k)/(1 + x^prime(k)) * Product_{k>=2} (1 + x^prime(k)).",
+  "id": "A281545",
+  "mentions": [
+    "A024938",
+    "A024939",
+    "A065091"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

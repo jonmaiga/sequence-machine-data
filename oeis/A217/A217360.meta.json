@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 2^n*binomial(4*n, n)/(3*n+1).",
+  "id": "A217360",
+  "mentions": [
+    "A002293",
+    "A060706",
+    "A100089",
+    "A153231"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

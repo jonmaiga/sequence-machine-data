@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that are the sum of two distinct nonzero triangular numbers in exactly one way.",
+  "id": "A265140",
+  "mentions": [
+    "A000217",
+    "A051533",
+    "A260647",
+    "A262749",
+    "A265134",
+    "A265135",
+    "A265136",
+    "A265137",
+    "A265138"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

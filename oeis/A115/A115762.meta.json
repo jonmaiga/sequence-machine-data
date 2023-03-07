@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that the digits of k^3, reversed, include the digits of k as substring.",
+  "id": "A115762",
+  "mentions": [
+    "A115739",
+    "A115761",
+    "A115763",
+    "A115764"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

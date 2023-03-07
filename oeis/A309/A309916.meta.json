@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = N^(1/4) * log(N) / sqrt(log(log(N))) rounded to nearest integer, with N=2^n. Related to operation count of the deterministic factorization of an integer N using an improved Pollard-Strassen method.",
+  "id": "A309916",
+  "mentions": [
+    "A309917"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 2,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

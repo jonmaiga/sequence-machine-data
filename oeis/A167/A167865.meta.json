@@ -1,0 +1,37 @@
+{
+  "description": "Number of partitions of n into distinct parts greater than 1, with each part divisible by the next.",
+  "id": "A167865",
+  "mentions": [
+    "A000081",
+    "A000669",
+    "A001678",
+    "A003238",
+    "A067824",
+    "A122651",
+    "A167439",
+    "A167866",
+    "A184998",
+    "A289079",
+    "A316782",
+    "A320222",
+    "A320268",
+    "A331912",
+    "A331933",
+    "A331936",
+    "A331967",
+    "A331991",
+    "A331992"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

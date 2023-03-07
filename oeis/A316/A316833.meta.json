@@ -1,0 +1,19 @@
+{
+  "description": "Sums of four distinct odd squares.",
+  "id": "A316833",
+  "mentions": [
+    "A004433",
+    "A316834",
+    "A316835"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

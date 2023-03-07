@@ -1,0 +1,29 @@
+{
+  "description": "Permutation of natural numbers: a(n) = A243283(A122111((2*n)-1)).",
+  "id": "A244984",
+  "mentions": [
+    "A006254",
+    "A105560",
+    "A122111",
+    "A243065",
+    "A243066",
+    "A243283",
+    "A243505",
+    "A243506",
+    "A244981",
+    "A244982",
+    "A244983",
+    "A244986"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, partition triangle A027293 convolved with A010815.",
+  "id": "A145975",
+  "mentions": [
+    "A000041",
+    "A010815",
+    "A027293"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

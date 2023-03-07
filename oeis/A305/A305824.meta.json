@@ -1,0 +1,24 @@
+{
+  "description": "Number of endofunctions on [n] whose cycle lengths are triangular numbers.",
+  "id": "A305824",
+  "mentions": [
+    "A000217",
+    "A060435",
+    "A116956",
+    "A193374",
+    "A205799",
+    "A273994",
+    "A273996",
+    "A273998"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

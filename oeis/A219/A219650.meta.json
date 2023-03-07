@@ -1,0 +1,27 @@
+{
+  "description": "The nonnegative integers n such that there exists a number k with A034968(n+k)=k.",
+  "id": "A219650",
+  "mentions": [
+    "A005187",
+    "A034968",
+    "A219640",
+    "A219651",
+    "A219658",
+    "A230405",
+    "A230412",
+    "A230414",
+    "A230423",
+    "A230424"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of G(x)^4 where G(x) = g.f. for A291096.",
+  "id": "A291285",
+  "mentions": [
+    "A291096"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

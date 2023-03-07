@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the largest exponentially odd divisor of n.",
+  "id": "A350390",
+  "mentions": [
+    "A268335",
+    "A306071",
+    "A325837",
+    "A331737",
+    "A336643",
+    "A350389"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n into distinct squares that do not divide n.",
+  "id": "A294266",
+  "mentions": [
+    "A033461",
+    "A200745",
+    "A284345",
+    "A294265"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 111,
+    "source": "oeis-entry"
+  }
+}

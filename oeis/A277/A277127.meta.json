@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n - lambda(n), where lambda(n) = A002322(n).",
+  "id": "A277127",
+  "mentions": [
+    "A002322",
+    "A033948",
+    "A051953",
+    "A276976"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

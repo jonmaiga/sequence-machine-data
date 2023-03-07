@@ -1,0 +1,29 @@
+{
+  "description": "Sum of coefficients of monomial symmetric functions in the Schur function of the integer partition with Heinz number n.",
+  "id": "A321762",
+  "mentions": [
+    "A000085",
+    "A008480",
+    "A056239",
+    "A124794",
+    "A124795",
+    "A153452",
+    "A296150",
+    "A296188",
+    "A300121",
+    "A319193",
+    "A321742",
+    "A321761",
+    "A321765"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

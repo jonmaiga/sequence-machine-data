@@ -1,0 +1,19 @@
+{
+  "description": "Sequence of integers defined by 3-expansion of Pi-3.",
+  "id": "A282730",
+  "mentions": [
+    "A004601",
+    "A282729"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

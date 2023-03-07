@@ -1,0 +1,17 @@
+{
+  "description": "First of three consecutive primes p,q,r such that p*q + p*r - q*r, p*q - p*r + q*r and -p*q + p*r + q*r are all prime.",
+  "id": "A358393",
+  "mentions": [
+    "A054643"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

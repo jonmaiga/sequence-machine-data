@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 2^i + 2^(-i), where i = sqrt(-1).",
+  "id": "A237192",
+  "mentions": [
+    "A237193"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:04",
+    "offset": 1,
+    "size": 83,
+    "source": "joeis"
+  }
+}

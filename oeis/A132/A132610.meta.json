@@ -1,0 +1,27 @@
+{
+  "description": "Triangle T, read by rows, where row n+1 of T = row n of matrix power T^(2n) with appended '1' for n>=0 with T(0,0)=1.",
+  "id": "A132610",
+  "mentions": [
+    "A101479",
+    "A132611",
+    "A132612",
+    "A132613",
+    "A132614",
+    "A132615",
+    "A304188",
+    "A304189",
+    "A304192"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are equal to the product of the numerator and denominator of the harmonic mean of their divisors.",
+  "id": "A348828",
+  "mentions": [
+    "A099377",
+    "A099378"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

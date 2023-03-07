@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations in the symmetric group S_n in which cycle lengths are odd and greater than 1.",
+  "id": "A130915",
+  "mentions": [
+    "A000166",
+    "A000246"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

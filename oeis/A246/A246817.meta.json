@@ -1,0 +1,20 @@
+{
+  "description": "Possible number of trailing zeros in hyperfactorials (A002109).",
+  "id": "A246817",
+  "mentions": [
+    "A002109",
+    "A191610",
+    "A246839"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

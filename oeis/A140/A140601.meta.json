@@ -1,0 +1,20 @@
+{
+  "description": "Values of m such that binomial(m, a) + binomial(m, b) divides binomial(m, a + b) for some distinct nonnegative integers a and b with a + b <= m.",
+  "id": "A140601",
+  "mentions": [
+    "A140602",
+    "A140603"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

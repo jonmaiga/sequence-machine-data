@@ -1,0 +1,20 @@
+{
+  "description": "Regular triangle read by rows: T(n,k) is the rank of {A316269(k,m)} modulo n, 0 <= k <= n - 1.",
+  "id": "A321478",
+  "mentions": [
+    "A316269",
+    "A321479"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

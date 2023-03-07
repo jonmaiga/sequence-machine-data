@@ -1,0 +1,21 @@
+{
+  "description": "Triangle in which row n lists the numbers of strong vertex magic total labelings of each 2-regular simple graph on 2n+1 vertices.",
+  "id": "A177741",
+  "mentions": [
+    "A008483",
+    "A176210",
+    "A177742",
+    "A177743"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

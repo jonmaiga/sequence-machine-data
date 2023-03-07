@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least prime p such that p*n+(n-1) and p*n-(n-1) are both prime, or 0 if there is no such p.",
+  "id": "A342821",
+  "mentions": [
+    "A342822"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

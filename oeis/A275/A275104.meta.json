@@ -1,0 +1,18 @@
+{
+  "description": "First row of Hilbert curve in A275103.",
+  "id": "A275104",
+  "mentions": [
+    "A275103",
+    "A275105"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

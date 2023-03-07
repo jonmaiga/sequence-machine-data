@@ -1,0 +1,23 @@
+{
+  "description": "Square array read by antidiagonals downwards: T(n,k) = number of linear extensions of the North-East rectangular partial order NE_{n,k} that avoid the pattern 2143.",
+  "id": "A284732",
+  "mentions": [
+    "A000079",
+    "A000108",
+    "A015448",
+    "A274969",
+    "A281731"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

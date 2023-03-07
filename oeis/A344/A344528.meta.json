@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of integer quadrilaterals (up to congruence) with integer side lengths a,b,c,d with n = Max(a,b,c,d) and integer diagonals e,f.",
+  "id": "A344528",
+  "mentions": [
+    "A342720",
+    "A342721",
+    "A342722",
+    "A342723",
+    "A344529"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

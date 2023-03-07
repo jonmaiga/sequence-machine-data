@@ -1,0 +1,26 @@
+{
+  "description": "Irregular array T(n,k) of numbers/2 of non-extendable (complete) non-self-adjacent simple paths of each length within a square lattice bounded by rectangles with nodal dimensions n and 9, n >= 2.",
+  "id": "A213426",
+  "mentions": [
+    "A213089",
+    "A213106",
+    "A213249",
+    "A213274",
+    "A213342",
+    "A213375",
+    "A213379",
+    "A213383",
+    "A213425"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 2,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

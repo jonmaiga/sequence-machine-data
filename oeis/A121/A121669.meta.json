@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with sum of digits = 19, divisible by 19 and containing the string \"19\".",
+  "id": "A121669",
+  "mentions": [
+    "A008601",
+    "A166459",
+    "A293879"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

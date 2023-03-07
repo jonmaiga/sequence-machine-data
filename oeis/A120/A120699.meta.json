@@ -1,0 +1,18 @@
+{
+  "description": "Lengths of set partitions.",
+  "id": "A120699",
+  "mentions": [
+    "A000110",
+    "A120698"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Indices of products of 2 single (or isolated or non-twin) primes in the semiprimes.",
+  "id": "A176512",
+  "mentions": [
+    "A001358",
+    "A007510",
+    "A174956",
+    "A176312"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

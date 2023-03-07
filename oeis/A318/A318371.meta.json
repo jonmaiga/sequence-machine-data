@@ -1,0 +1,36 @@
+{
+  "description": "Number of non-isomorphic strict set multipartitions (sets of sets) of a multiset whose multiplicities are the prime indices of n.",
+  "id": "A318371",
+  "mentions": [
+    "A007716",
+    "A045778",
+    "A049311",
+    "A050326",
+    "A116539",
+    "A116540",
+    "A181821",
+    "A283877",
+    "A292432",
+    "A292444",
+    "A318283",
+    "A318285",
+    "A318287",
+    "A318360",
+    "A318361",
+    "A318362",
+    "A318369",
+    "A318370"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

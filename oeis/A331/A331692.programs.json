@@ -1,0 +1,144 @@
+{
+  "oi": 331692,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[sqrt(ϕ)]",
+      "mt": 50,
+      "px": [
+        "ϕ",
+        "sqrt",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2022-04-11",
+      "ix": "contfrac[root(ϕ, 2)]%52",
+      "mt": 50,
+      "px": [
+        "ϕ",
+        "2",
+        "root",
+        "contfrac",
+        "52",
+        "%"
+      ]
+    },
+    {
+      "d": "2022-04-14",
+      "ix": "and(63, contfrac[root(ϕ, 2)])",
+      "mt": 50,
+      "px": [
+        "63",
+        "ϕ",
+        "2",
+        "root",
+        "contfrac",
+        "and"
+      ]
+    },
+    {
+      "d": "2022-04-05",
+      "ix": "root(contfrac[root(ϕ, 2)], 2)²",
+      "mt": 50,
+      "px": [
+        "ϕ",
+        "2",
+        "root",
+        "contfrac",
+        "2",
+        "root",
+        "²"
+      ]
+    },
+    {
+      "d": "2022-04-05",
+      "ix": "or(contfrac[root(ϕ, 2)], char[1])",
+      "mt": 50,
+      "px": [
+        "ϕ",
+        "2",
+        "root",
+        "contfrac",
+        "1",
+        "char",
+        "or"
+      ]
+    },
+    {
+      "d": "2022-04-07",
+      "ix": "∑{d}[contfrac[root(ϕ, 2)], φ(#)]",
+      "mt": 50,
+      "px": [
+        "ϕ",
+        "2",
+        "root",
+        "contfrac",
+        "#",
+        "φ",
+        "∑{d}"
+      ]
+    },
+    {
+      "d": "2022-04-07",
+      "ix": "xor(1, xor(1, contfrac[root(ϕ, 2)]))",
+      "mt": 50,
+      "px": [
+        "1",
+        "1",
+        "ϕ",
+        "2",
+        "root",
+        "contfrac",
+        "xor",
+        "xor"
+      ]
+    },
+    {
+      "d": "2022-04-05",
+      "ix": "round(contfrac[root(ϕ, 2)]-n/98)",
+      "mt": 50,
+      "px": [
+        "ϕ",
+        "2",
+        "root",
+        "contfrac",
+        "n",
+        "98",
+        "/",
+        "sub",
+        "round"
+      ]
+    },
+    {
+      "d": "2022-04-05",
+      "ix": "contfrac[root(ϕ, 2)]*char[floor(n/2)]",
+      "mt": 50,
+      "px": [
+        "ϕ",
+        "2",
+        "root",
+        "contfrac",
+        "n",
+        "2",
+        "/",
+        "floor",
+        "char",
+        "*"
+      ]
+    },
+    {
+      "d": "2022-10-20",
+      "ix": "root(contfrac[C139339]^3, 3)",
+      "mt": 50,
+      "px": [
+        "C139339",
+        "contfrac",
+        "3",
+        "^",
+        "3",
+        "root"
+      ]
+    }
+  ]
+}

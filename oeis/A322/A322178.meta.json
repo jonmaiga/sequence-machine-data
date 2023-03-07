@@ -1,0 +1,18 @@
+{
+  "description": "The number of permutations of {1,2,...,n,1,2,...,n} with the property that b(1) >= b(2) >= ... >= b(n) (there are b(k) numbers between the two k's for k=1..n).",
+  "id": "A322178",
+  "mentions": [
+    "A060963"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

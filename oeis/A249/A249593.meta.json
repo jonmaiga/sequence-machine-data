@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: Product_{n>=1} 1/(1 - x^n/n^3) = Sum_{n>=0} a(n)*x^n/n!^3.",
+  "id": "A249593",
+  "mentions": [
+    "A007841",
+    "A249588",
+    "A269791",
+    "A269793",
+    "A269794"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of tilings of a 5 X n rectangle using right trominoes and 2 X 2 tiles.",
+  "id": "A190759",
+  "mentions": [
+    "A054854",
+    "A054856",
+    "A165716",
+    "A165791",
+    "A165799",
+    "A219946"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

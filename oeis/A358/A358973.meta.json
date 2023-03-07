@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of the form m + omega(m) with m a positive integer.",
+  "id": "A358973",
+  "mentions": [
+    "A337455"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

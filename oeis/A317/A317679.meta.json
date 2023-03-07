@@ -1,0 +1,19 @@
+{
+  "description": "Sets of n distinct primes q_i in ascending order, written as a triangle, providing the fair compensation amounts corresponding to the asset counts p_i of A317678.",
+  "id": "A317679",
+  "mentions": [
+    "A317678",
+    "A317680"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

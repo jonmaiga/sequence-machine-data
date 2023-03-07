@@ -1,0 +1,19 @@
+{
+  "description": "Gaussian-Mersenne primes: primes of the form ((1+i)^p - 1)((1-i)^p - 1).",
+  "id": "A182300",
+  "mentions": [
+    "A057429",
+    "A088962"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

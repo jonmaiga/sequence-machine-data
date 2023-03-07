@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{d|n, d odd} mu(d) * mu(n/d).",
+  "id": "A327276",
+  "mentions": [
+    "A001227",
+    "A007427",
+    "A008683",
+    "A068068",
+    "A209229",
+    "A327278"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m with property that m-th triangular number is a sum of divisors of some k-th triangular number (A175849).",
+  "id": "A175850",
+  "mentions": [
+    "A000203",
+    "A000217",
+    "A175849"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

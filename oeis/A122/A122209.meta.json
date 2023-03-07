@@ -1,0 +1,22 @@
+{
+  "description": "Sum of squares of the first n^2 primes = A024450[n^2].",
+  "id": "A122209",
+  "mentions": [
+    "A024450",
+    "A098561",
+    "A098562",
+    "A122210",
+    "A122211"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

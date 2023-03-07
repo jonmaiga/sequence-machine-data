@@ -1,0 +1,24 @@
+{
+  "description": "a(5n) = a(5n+3) = a(5n+4) = 2n+1, a(5n+1) = 2n-3, a(5n+2) = 2n-1.",
+  "id": "A226203",
+  "mentions": [
+    "A005408",
+    "A007395",
+    "A130497",
+    "A225948",
+    "A226008",
+    "A226096"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:54:33",
+    "offset": 0,
+    "size": 65,
+    "source": "joeis"
+  }
+}

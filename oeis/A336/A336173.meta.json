@@ -1,0 +1,18 @@
+{
+  "description": "The Mignosi-Restivo repetition length for the Thue-Morse sequence (A010060) at position n.",
+  "id": "A336173",
+  "mentions": [
+    "A010060"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

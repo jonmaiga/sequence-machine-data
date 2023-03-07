@@ -1,0 +1,37 @@
+{
+  "description": "The number of n-almost primes less than or equal to 10^n, starting with a(0)=1.",
+  "id": "A116430",
+  "mentions": [
+    "A000012",
+    "A006880",
+    "A036352",
+    "A078840",
+    "A078841",
+    "A078842",
+    "A078843",
+    "A078844",
+    "A078845",
+    "A078846",
+    "A109251",
+    "A114106",
+    "A114453",
+    "A116426",
+    "A116427",
+    "A116428",
+    "A116429",
+    "A116431",
+    "A116432",
+    "A120047",
+    "A120053"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

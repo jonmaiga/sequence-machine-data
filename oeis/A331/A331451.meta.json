@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: Take an n-sided polygon (n>=3) with all diagonals drawn, as in A007678. Then T(n,k) = number of k-sided polygons in that figure for k = 3, 4, ..., n.",
+  "id": "A331451",
+  "mentions": [
+    "A006561",
+    "A007678",
+    "A062361",
+    "A135565",
+    "A331450"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 3,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

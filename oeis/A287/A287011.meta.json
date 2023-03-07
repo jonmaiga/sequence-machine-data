@@ -1,0 +1,18 @@
+{
+  "description": "Amicable numbers (m, n) with record low values of m/n.",
+  "id": "A287011",
+  "mentions": [
+    "A063990",
+    "A287026"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

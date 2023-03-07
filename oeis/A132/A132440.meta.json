@@ -1,0 +1,33 @@
+{
+  "description": "Infinitesimal Pascal matrix: generator (lower triangular matrix representation) of the Pascal matrix, the classical operator xDx, iterated Laguerre transforms, associated matrices of the list partition transform and general Euler transformation for sequences.",
+  "id": "A132440",
+  "mentions": [
+    "A007318",
+    "A008275",
+    "A008277",
+    "A021009",
+    "A048993",
+    "A074909",
+    "A094587",
+    "A132013",
+    "A132014",
+    "A132159",
+    "A132382",
+    "A133314",
+    "A238363",
+    "A238385"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

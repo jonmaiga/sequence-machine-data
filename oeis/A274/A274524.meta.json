@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that both ror(n) and rol(n) are squares, where ror(x)=A038572(x) is x rotated one binary place to the right, rol(x)=A006257(x) is x rotated one binary place to the left.",
+  "id": "A274524",
+  "mentions": [
+    "A004171",
+    "A006257",
+    "A038572",
+    "A081294"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

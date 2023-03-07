@@ -1,0 +1,22 @@
+{
+  "description": "Largest solution to phi(x) = n!, where phi() is Euler totient function (A000010).",
+  "id": "A165774",
+  "mentions": [
+    "A000010",
+    "A014197",
+    "A055487",
+    "A055489",
+    "A055506",
+    "A165773"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

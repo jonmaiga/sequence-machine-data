@@ -1,0 +1,19 @@
+{
+  "description": "A ternary tribonacci sequence: define the morphism f: 1 -> 2, 2 -> 3, 3 -> 1,2,3; let S[k] be result of applying f k times to 1, for k =- 0,1,2,...; sequence gives limit S[3k+2] as k -> oo.",
+  "id": "A305391",
+  "mentions": [
+    "A059832",
+    "A305389",
+    "A305390"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

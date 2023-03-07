@@ -1,0 +1,18 @@
+{
+  "description": "Number of isosceles right triangles on a 2n X (n+1) grid.",
+  "id": "A189894",
+  "mentions": [
+    "A189895"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

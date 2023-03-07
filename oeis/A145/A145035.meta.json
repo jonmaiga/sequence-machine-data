@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k) is the number of order-decreasing and order-preserving partial transformations (of an n-chain) of waist k (waist(alpha) = max(Im(alpha))).",
+  "id": "A145035",
+  "mentions": [
+    "A006318"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

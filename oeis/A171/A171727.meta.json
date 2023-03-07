@@ -1,0 +1,20 @@
+{
+  "description": "The number of twin prime pairs in the interval (p^2,p*q), where (p,q) runs over the twin prime pairs (A001359(n),A006512(n)).",
+  "id": "A171727",
+  "mentions": [
+    "A001359",
+    "A006512",
+    "A037074",
+    "A108570"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 3600*n^2 - 5599*n + 2177.",
+  "id": "A157842",
+  "mentions": [
+    "A157843",
+    "A157844"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

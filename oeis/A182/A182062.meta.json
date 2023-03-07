@@ -1,0 +1,23 @@
+{
+  "description": "T(n,k) = C(n+1-k,k)*k!*(n-k)!, the number of ways for k men and n-k women to form a queue in which no man is next to another man.",
+  "id": "A182062",
+  "mentions": [
+    "A000142",
+    "A010796",
+    "A062119",
+    "A169803"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

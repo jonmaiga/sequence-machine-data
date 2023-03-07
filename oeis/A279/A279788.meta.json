@@ -1,0 +1,21 @@
+{
+  "description": "Twice partitioned numbers where the first partition is constant and the latter partitions are strict.",
+  "id": "A279788",
+  "mentions": [
+    "A000005",
+    "A000009",
+    "A018818",
+    "A063834",
+    "A279787"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies: A(x) = x/series_reversion(x/G(x)) where A(x) + A(-x) = 2*G(x^2) and G(x) is the g.f. of A046646.",
+  "id": "A116637",
+  "mentions": [
+    "A001764",
+    "A006013",
+    "A046646"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:06",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

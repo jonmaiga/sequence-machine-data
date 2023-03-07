@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = gcd( A214551(n-1), A214551(n-3) ) with a(0) = a(1) = a(2) = 1.",
+  "id": "A214323",
+  "mentions": [
+    "A214322",
+    "A214324",
+    "A214325",
+    "A214551",
+    "A214653"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

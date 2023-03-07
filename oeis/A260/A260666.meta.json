@@ -1,0 +1,18 @@
+{
+  "description": "Number of patterns with perimeter n in the planar net 3.3.4.3.4, mirrors and holes are excluded.",
+  "id": "A260666",
+  "mentions": [
+    "A057729"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies: -1 = Product_{n>=1} (1-x^n) * (1 - x^n/A(x)) * (1 - x^(n-1)*A(x)), where g.f. A(x) = Sum_{n>=0} a(n)*2*(x/4)^n.",
+  "id": "A268300",
+  "mentions": [
+    "A190791",
+    "A268299",
+    "A268301",
+    "A268302"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

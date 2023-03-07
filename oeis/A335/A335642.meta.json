@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. Product_{k>0} 1/(1 - sin(x)^k / k!).",
+  "id": "A335642",
+  "mentions": [
+    "A005651",
+    "A335626",
+    "A335635",
+    "A335643",
+    "A335644"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

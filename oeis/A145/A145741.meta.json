@@ -1,0 +1,19 @@
+{
+  "description": "Numbers p such that p + 4*m^2 is prime for m = 0,1,2,3,...,10.",
+  "id": "A145741",
+  "mentions": [
+    "A145742",
+    "A145743"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

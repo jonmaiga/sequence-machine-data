@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 + sigma(n) + sigma(n)^2.",
+  "id": "A258774",
+  "mentions": [
+    "A000203",
+    "A072861",
+    "A258775",
+    "A258776"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

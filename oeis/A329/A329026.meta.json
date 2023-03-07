@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k = Product (p_j^e_j) = concatenation (pi(p_j)), where pi = A000720.",
+  "id": "A329026",
+  "mentions": [
+    "A000720",
+    "A329025"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

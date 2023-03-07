@@ -1,0 +1,23 @@
+{
+  "description": "Triangle of divisors of 105^n, each number occurring once.",
+  "id": "A194360",
+  "mentions": [
+    "A003215",
+    "A108347",
+    "A194356",
+    "A194357",
+    "A194358",
+    "A194359"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

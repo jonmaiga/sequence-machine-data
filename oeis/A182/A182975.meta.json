@@ -1,0 +1,24 @@
+{
+  "description": "Numerators of fractions with the same position in A020652/A038567 and A182972/A182973.",
+  "id": "A182975",
+  "mentions": [
+    "A020652",
+    "A038567",
+    "A182972",
+    "A182973",
+    "A182974",
+    "A182976"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "frac",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

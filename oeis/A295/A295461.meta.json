@@ -1,0 +1,31 @@
+{
+  "description": "Number of unlabeled rooted trees with 2n + 1 nodes in which all outdegrees are even.",
+  "id": "A295461",
+  "mentions": [
+    "A000081",
+    "A000598",
+    "A001190",
+    "A003238",
+    "A004111",
+    "A027187",
+    "A027193",
+    "A032305",
+    "A067659",
+    "A290689",
+    "A291443",
+    "A297791",
+    "A298118",
+    "A298120",
+    "A298126"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

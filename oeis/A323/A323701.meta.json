@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of primes p such that A007504(n) <= p < A007504(n+1).",
+  "id": "A323701",
+  "mentions": [
+    "A000040",
+    "A007504",
+    "A061568",
+    "A321578"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

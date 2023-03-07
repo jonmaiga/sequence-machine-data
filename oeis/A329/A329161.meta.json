@@ -1,0 +1,22 @@
+{
+  "description": "2*a(n) are the lengths of record prime gaps immediately following twin primes.",
+  "id": "A329161",
+  "mentions": [
+    "A329158",
+    "A329159",
+    "A329160",
+    "A329164",
+    "A329165"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Coefficients in expansion of (E_14/E_2^14)^(1/4).",
+  "id": "A299712",
+  "mentions": [
+    "A294976",
+    "A294978",
+    "A295788",
+    "A299713"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:23",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

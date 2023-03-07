@@ -1,0 +1,22 @@
+{
+  "description": "Records in the number of consecutive integers not expressible as sums of 2 squares.",
+  "id": "A357018",
+  "mentions": [
+    "A001481",
+    "A022544",
+    "A104271",
+    "A260157",
+    "A297350"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

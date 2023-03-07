@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = 4*A000984(n) - 3.",
+  "id": "A134770",
+  "mentions": [
+    "A000984",
+    "A134771"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:01:47",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that sigma(k) and A003961(k) share a prime power divisor that is not a unitary divisor of A003961(k). Here A003961(n) is fully multiplicative function with a(prime(k)) = prime(k+1).",
+  "id": "A349168",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A342671",
+    "A349161",
+    "A349163",
+    "A349164",
+    "A349166"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

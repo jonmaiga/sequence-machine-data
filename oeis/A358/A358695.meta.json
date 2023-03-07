@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = numerator( Sum_{k=0..n} (-1)^k * binomial(1/2, k)^2 * binomial(n, k) ).",
+  "id": "A358695",
+  "mentions": [
+    "A056982",
+    "A260832",
+    "A358113"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

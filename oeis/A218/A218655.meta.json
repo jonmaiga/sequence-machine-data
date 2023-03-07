@@ -1,0 +1,26 @@
+{
+  "description": "The Berndt-type sequence number 10 for the argument 2*Pi/13.",
+  "id": "A218655",
+  "mentions": [
+    "A161905",
+    "A211988",
+    "A216450",
+    "A216486",
+    "A216508",
+    "A216540",
+    "A216597",
+    "A216605",
+    "A217548",
+    "A217549"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

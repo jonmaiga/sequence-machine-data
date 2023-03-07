@@ -1,0 +1,36 @@
+{
+  "description": "Minimal nested palindromic primes with seed 0.",
+  "id": "A261881",
+  "mentions": [
+    "A053600",
+    "A082563",
+    "A260250",
+    "A260459",
+    "A261818",
+    "A261820",
+    "A261821",
+    "A261822",
+    "A261823",
+    "A261824",
+    "A261825",
+    "A261826",
+    "A262497",
+    "A262498",
+    "A262499",
+    "A262531",
+    "A262532",
+    "A262533"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

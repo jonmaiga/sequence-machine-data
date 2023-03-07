@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of form p^i + p^j for at least two values of p prime and i, j > 0.",
+  "id": "A284667",
+  "mentions": [
+    "A019434",
+    "A246655",
+    "A284665"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Tetrahedron in which the n-th slice is also one of the three views of the shell model of partitions of A207380 with n shells.",
+  "id": "A209918",
+  "mentions": [
+    "A000041",
+    "A000217",
+    "A002260",
+    "A004736",
+    "A008284",
+    "A026792",
+    "A058398",
+    "A058399",
+    "A066186",
+    "A135010",
+    "A181187",
+    "A182703",
+    "A182715",
+    "A207380",
+    "A209655",
+    "A209656",
+    "A210765"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

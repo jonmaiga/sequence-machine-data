@@ -1,0 +1,19 @@
+{
+  "description": "Denominator of the third row of the inverse Akiyama-Tanigawa algorithm from 1/n.",
+  "id": "A194506",
+  "mentions": [
+    "A193546"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

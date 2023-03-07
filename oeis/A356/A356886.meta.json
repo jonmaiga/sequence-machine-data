@@ -1,0 +1,18 @@
+{
+  "description": "Write n as 2^m - k, where 2^m is the least power of 2 such that 2^m >= n, and k is a number in the range 0 <= k < 2^(m-1) - 1. Then for n such that k=0, a(n)=n, and for n such that k > 0, a(n) is the smallest odd prime multiple of a(k) that is not already a term.",
+  "id": "A356886",
+  "mentions": [
+    "A005940"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

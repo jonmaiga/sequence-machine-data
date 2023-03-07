@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = gcd(n, psi(n)).",
+  "id": "A306695",
+  "mentions": [
+    "A001615",
+    "A255602"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

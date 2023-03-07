@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Numerator of (0 followed by 1's) - n/2^n.",
+  "id": "A273153",
+  "mentions": [
+    "A054977",
+    "A060576",
+    "A075101",
+    "A209308"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

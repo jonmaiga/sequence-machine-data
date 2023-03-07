@@ -1,0 +1,22 @@
+{
+  "description": "In the decimal expansion of Pi, positions of first digit of subsequences with total sum = 100.",
+  "id": "A109210",
+  "mentions": [
+    "A000796",
+    "A109211",
+    "A109212"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

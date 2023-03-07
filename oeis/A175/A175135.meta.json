@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers equal to some b(j) by the procedure defined at A175134. (A175134(a(n)) is >= 1.)",
+  "id": "A175135",
+  "mentions": [
+    "A175134"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

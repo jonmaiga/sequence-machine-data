@@ -1,0 +1,18 @@
+{
+  "description": "Four-times-isolated primes: primes p such that neither p+-2, p+-4, p+-6 nor p+-8 is prime.",
+  "id": "A167838",
+  "mentions": [
+    "A137871",
+    "A167771"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:51",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "n mod (number of ones in binary representation of n).",
+  "id": "A199238",
+  "mentions": [
+    "A000120",
+    "A049445",
+    "A070635",
+    "A161764",
+    "A199262"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

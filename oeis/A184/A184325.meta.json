@@ -1,0 +1,24 @@
+{
+  "description": "The number of disconnected 2k-regular simple graphs on 4k+5 vertices.",
+  "id": "A184325",
+  "mentions": [
+    "A005638",
+    "A008483",
+    "A051031",
+    "A068933",
+    "A068934",
+    "A184324",
+    "A184326"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

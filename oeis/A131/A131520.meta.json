@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of the graph G_n (defined below) into \"strokes\".",
+  "id": "A131520",
+  "mentions": [
+    "A006127",
+    "A089243",
+    "A131518",
+    "A173740",
+    "A354228"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

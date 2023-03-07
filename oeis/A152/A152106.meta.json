@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (11^n + 7^n)/2.",
+  "id": "A152106",
+  "mentions": [
+    "A098158"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:05:06",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the lowest Dirichlet eigenvalue of the Laplacian within the unit-edged regular hexagon.",
+  "id": "A263202",
+  "mentions": [
+    "A262701",
+    "A262823"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

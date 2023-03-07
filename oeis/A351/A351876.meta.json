@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose trajectory under iteration of the product of cubes of nonzero digits map includes 1 (conjectured).",
+  "id": "A351876",
+  "mentions": [
+    "A051801",
+    "A351327",
+    "A352172"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

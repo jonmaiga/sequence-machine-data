@@ -1,0 +1,32 @@
+{
+  "description": "Powers of prime numbers of prime index.",
+  "id": "A302596",
+  "mentions": [
+    "A000961",
+    "A001222",
+    "A003963",
+    "A005117",
+    "A006450",
+    "A007716",
+    "A047968",
+    "A056239",
+    "A076610",
+    "A275024",
+    "A281113",
+    "A295924",
+    "A301760",
+    "A302242",
+    "A302243"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

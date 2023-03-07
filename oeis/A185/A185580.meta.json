@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Sum_{m,n,p = -infinity..infinity} (-1)^(m+n)/sqrt( m^2 + n^2 + (p-1/2)^2 ).",
+  "id": "A185580",
+  "mentions": [
+    "A185576",
+    "A185577",
+    "A185578",
+    "A185579",
+    "A185581",
+    "A185582",
+    "A185583"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

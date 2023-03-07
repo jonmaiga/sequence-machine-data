@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that sigma(2^k+3^k) is divisible by k.",
+  "id": "A112636",
+  "mentions": [
+    "A000203",
+    "A007689",
+    "A114705"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

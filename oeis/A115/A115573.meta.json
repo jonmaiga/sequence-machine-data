@@ -1,0 +1,20 @@
+{
+  "description": "Array read by rows: row n (>= 1) gives the Betti numbers for the n-th element of the Weyl group of type A_5 (in Goresky's standard ordering).",
+  "id": "A115573",
+  "mentions": [
+    "A115570",
+    "A115583"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

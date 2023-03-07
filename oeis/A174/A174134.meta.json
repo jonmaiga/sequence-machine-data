@@ -1,0 +1,17 @@
+{
+  "description": "Nonnegative integers m such that m^2 = (a^2-1)*(b^2+1) for some integers a,b.",
+  "id": "A174134",
+  "mentions": [
+    "A174133"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

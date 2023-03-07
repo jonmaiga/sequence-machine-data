@@ -1,0 +1,20 @@
+{
+  "description": "Numbers which yield a prime whenever a 3 is prefixed, appended or inserted.",
+  "id": "A158594",
+  "mentions": [
+    "A068674",
+    "A068679",
+    "A158232"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

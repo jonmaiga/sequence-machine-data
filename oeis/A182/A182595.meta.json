@@ -1,0 +1,17 @@
+{
+  "description": "Number of prime factors of form cn+1 for numbers 2^n+1",
+  "id": "A182595",
+  "mentions": [
+    "A182590"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 2,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

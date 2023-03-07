@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k and k+3 are consecutive squarefree numbers.",
+  "id": "A349230",
+  "mentions": [
+    "A005117",
+    "A007674",
+    "A020754",
+    "A280892",
+    "A349231"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

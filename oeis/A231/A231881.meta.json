@@ -1,0 +1,19 @@
+{
+  "description": "The digits of a(n) and a(n+1) together can be reordered to form a square; lexicographically earliest sequence of distinct positive integers with this property.",
+  "id": "A231881",
+  "mentions": [
+    "A228407",
+    "A231880"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

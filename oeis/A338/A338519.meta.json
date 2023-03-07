@@ -1,0 +1,23 @@
+{
+  "description": "Integers that can be expressed as a product d*tau(d), where tau is the number of divisors function, in a single way.",
+  "id": "A338519",
+  "mentions": [
+    "A000005",
+    "A038040",
+    "A079705",
+    "A100484",
+    "A327166",
+    "A338382",
+    "A338520"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

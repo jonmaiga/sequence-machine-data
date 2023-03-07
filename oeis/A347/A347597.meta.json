@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Permanent(T(2*n + 1)) where T(n) is the tangent matrix defined in A346831. Bisection of A347598 (odd indices).",
+  "id": "A347597",
+  "mentions": [
+    "A346831",
+    "A347598"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

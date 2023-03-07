@@ -1,0 +1,19 @@
+{
+  "description": "Number of different ways to color the vertices of an n-dimensional hypercube using at most 2 colors.",
+  "id": "A237748",
+  "mentions": [
+    "A000543",
+    "A000616",
+    "A325012"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

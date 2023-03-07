@@ -1,0 +1,17 @@
+{
+  "description": "Number of lower triangles of an n X n 0..7 array with each element unequal to the sum mod 8 of its horizontal and vertical neighbors",
+  "id": "A194504",
+  "mentions": [
+    "A194505"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

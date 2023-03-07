@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. exp( (x * (exp(x) - 1))^3 / 36 ).",
+  "id": "A353895",
+  "mentions": [
+    "A052506",
+    "A327504",
+    "A353884",
+    "A353892",
+    "A353894",
+    "A353896"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

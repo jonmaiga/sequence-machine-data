@@ -1,0 +1,19 @@
+{
+  "description": "L.g.f.: log( Product_{n>=1} 1/(1 - (2^n+1)*x^n) ).",
+  "id": "A322209",
+  "mentions": [
+    "A322199",
+    "A322200"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

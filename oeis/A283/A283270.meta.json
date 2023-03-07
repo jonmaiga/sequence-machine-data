@@ -1,0 +1,18 @@
+{
+  "description": "Smallest b-a such that a < prime(n)^3 < b, where a,b are semiprimes.",
+  "id": "A283270",
+  "mentions": [
+    "A283267",
+    "A283268"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

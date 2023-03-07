@@ -1,0 +1,23 @@
+{
+  "description": "Number of different cuboids with volume (pq)^n, where p,q are distinct prime numbers.",
+  "id": "A101427",
+  "mentions": [
+    "A034836",
+    "A101423",
+    "A101424",
+    "A101425",
+    "A101426",
+    "A277239"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

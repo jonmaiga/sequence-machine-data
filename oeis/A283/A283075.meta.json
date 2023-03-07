@@ -1,0 +1,19 @@
+{
+  "description": "Number of time intervals that can be measured with n ropes and a lighter from the moment when the first rope begins burning.",
+  "id": "A283075",
+  "mentions": [
+    "A287012"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

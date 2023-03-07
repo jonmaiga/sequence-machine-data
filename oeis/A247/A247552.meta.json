@@ -1,0 +1,21 @@
+{
+  "description": "Least numbers x such that the ratio of the sum of all the cyclic permutations of x, plus the unpermuted number, and x itself is equal to n.",
+  "id": "A247552",
+  "mentions": [
+    "A001913",
+    "A247315",
+    "A247316",
+    "A247317"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

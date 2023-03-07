@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A160415(n+1)/4.",
+  "id": "A160417",
+  "mentions": [
+    "A152978",
+    "A160118",
+    "A160413",
+    "A160415"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:47",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

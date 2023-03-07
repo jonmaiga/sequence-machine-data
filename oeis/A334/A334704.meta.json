@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) (1 <= k <= n) = number of ways to choose three collinear points from an n X k grid of points.",
+  "id": "A334704",
+  "mentions": [
+    "A000292",
+    "A000938",
+    "A007290",
+    "A057566",
+    "A334703",
+    "A334705",
+    "A334706"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

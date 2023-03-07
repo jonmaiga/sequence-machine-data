@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that (n!)^8 + 1 is prime.",
+  "id": "A121931",
+  "mentions": [
+    "A002981",
+    "A046029",
+    "A051855",
+    "A060890"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

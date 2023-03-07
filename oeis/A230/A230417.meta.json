@@ -1,0 +1,26 @@
+{
+  "description": "Lower triangular region of A230415, a triangular table read by rows: T(n, k) tells in how many digit positions the factorial base representations (A007623) of n and k differ, where (n, k) = (0,0), (1,0), (1,1), (2,0), (2,1), (2,2), ..., n >= 0 and (0 <= k <= n).",
+  "id": "A230417",
+  "mentions": [
+    "A002262",
+    "A003056",
+    "A007623",
+    "A055881",
+    "A060130",
+    "A230415",
+    "A231714"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

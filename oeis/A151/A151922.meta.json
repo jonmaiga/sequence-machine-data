@@ -1,0 +1,24 @@
+{
+  "description": "Number of first-quadrant cells (including the two boundaries) that are \"ON\" after n-th stage of the Holladay-Ulam cellular automaton.",
+  "id": "A151922",
+  "mentions": [
+    "A000695",
+    "A079314",
+    "A079316",
+    "A139250",
+    "A147562",
+    "A160406"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

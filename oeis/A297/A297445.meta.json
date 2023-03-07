@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = a(n-1) + 9*a(n-2) - 9*a(n-3), where a(0) = 1, a(1) = 5, a(2) = 11.",
+  "id": "A297445",
+  "mentions": [
+    "A297441",
+    "A297442"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

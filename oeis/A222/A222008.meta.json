@@ -1,0 +1,23 @@
+{
+  "description": "Primes of the form 4^k + 1 for some k > 0.",
+  "id": "A222008",
+  "mentions": [
+    "A005596",
+    "A019334",
+    "A019434",
+    "A090866",
+    "A221981",
+    "A255401"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

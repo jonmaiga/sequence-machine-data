@@ -1,0 +1,20 @@
+{
+  "description": "After 1, the first differences of A257906 (its d-sequence).",
+  "id": "A257907",
+  "mentions": [
+    "A131388",
+    "A257905",
+    "A257906"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

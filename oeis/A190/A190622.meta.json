@@ -1,0 +1,17 @@
+{
+  "description": "Omit the initial 1 from A000141 and take the Mobius transform.",
+  "id": "A190622",
+  "mentions": [
+    "A000141"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

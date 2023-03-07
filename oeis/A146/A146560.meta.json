@@ -1,0 +1,23 @@
+{
+  "description": "Squarefree semiprimes n such that n+1 is squarefree and n+2 is prime",
+  "id": "A146560",
+  "mentions": [
+    "A005117",
+    "A006881",
+    "A040976",
+    "A077064",
+    "A146319"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Natural numbers n such that n-1 is divisible by the sum of the decimal digits of n.",
+  "id": "A253205",
+  "mentions": [
+    "A005349",
+    "A144967",
+    "A144980",
+    "A160947"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

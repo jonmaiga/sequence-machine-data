@@ -1,0 +1,23 @@
+{
+  "description": "Brazilian composites of the form 1 + b + b^2 + b^3 + ... + b^k, b > 1, k > 1.",
+  "id": "A325658",
+  "mentions": [
+    "A053696",
+    "A085104",
+    "A119598",
+    "A208242",
+    "A220571",
+    "A325659"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

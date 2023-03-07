@@ -1,0 +1,23 @@
+{
+  "description": "Rectangular array R read by antidiagonals: R(n,k) = F(n+1)^k - k*F(n-1)*F(n)^(k-1), where F(n) = A000045(n), the n-th Fibonacci number; n >= 0, k >= 1.",
+  "id": "A318405",
+  "mentions": [
+    "A000045",
+    "A001519",
+    "A007984",
+    "A318376",
+    "A318404"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

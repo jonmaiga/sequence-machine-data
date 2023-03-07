@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k^2 + k + 41 is semiprime.",
+  "id": "A228184",
+  "mentions": [
+    "A001358",
+    "A002837",
+    "A007634",
+    "A097822"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

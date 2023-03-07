@@ -1,0 +1,21 @@
+{
+  "description": "Number of factorizations of the n-th stable number A316476(n) into stable numbers > 1.",
+  "id": "A327520",
+  "mentions": [
+    "A001055",
+    "A112798",
+    "A303362",
+    "A305149",
+    "A316476"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

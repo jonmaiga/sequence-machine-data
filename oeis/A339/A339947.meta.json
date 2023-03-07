@@ -1,0 +1,18 @@
+{
+  "description": "Mark each point on the n X n X n X n grid with the number of points that are visible from it; a(n) is the number of distinct values in the grid.",
+  "id": "A339947",
+  "mentions": [
+    "A339400",
+    "A339756"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

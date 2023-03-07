@@ -1,0 +1,23 @@
+{
+  "description": "Super least prime signatures; LCM of all signatures with n factors.",
+  "id": "A138534",
+  "mentions": [
+    "A001222",
+    "A006218",
+    "A010766",
+    "A010786",
+    "A025487",
+    "A215366"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Divisors of 4064 (the 4th perfect number divided by 2), written in base 2.",
+  "id": "A138824",
+  "mentions": [
+    "A000043",
+    "A000396",
+    "A000668",
+    "A090748",
+    "A133028",
+    "A134708",
+    "A135654",
+    "A138814"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

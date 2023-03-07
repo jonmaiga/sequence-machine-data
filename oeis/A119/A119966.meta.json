@@ -1,0 +1,19 @@
+{
+  "description": "The n-almost primeth recurrence: a(0) = 1, a(n) = n-almostprime(a(n-1)).",
+  "id": "A119966",
+  "mentions": [
+    "A007097",
+    "A105999",
+    "A119965"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

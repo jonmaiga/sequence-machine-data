@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows in which row n lists 2n-1 terms: n, in the center of the row and all the pairs of noncomposite numbers equidistant to n, with 0's inserted, as shown below in the example.",
+  "id": "A154720",
+  "mentions": [
+    "A000040",
+    "A008578",
+    "A154721",
+    "A154727"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of lattice paths from (0,0) to (n,0) that do not go below the x-axis and consist of steps U=(1,1), D=(1,-1) and H=(1,0), where H-steps are only allowed if y=1.",
+  "id": "A224747",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A001006",
+    "A001405",
+    "A009766",
+    "A057977",
+    "A101455",
+    "A125187"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Characteristic function of primitive nondeficient numbers (A006039): a(n) = 1 if proper multiples of n are all abundant, and proper divisors of n are all deficient, 0 otherwise.",
+  "id": "A341619",
+  "mentions": [
+    "A006039",
+    "A071395",
+    "A337690",
+    "A341609",
+    "A341620"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

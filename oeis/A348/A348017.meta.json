@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that the numerator of the fractional part of the k-th harmonic is a prime number.",
+  "id": "A348017",
+  "mentions": [
+    "A056903",
+    "A104174"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

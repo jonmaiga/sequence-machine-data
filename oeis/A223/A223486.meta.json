@@ -1,0 +1,23 @@
+{
+  "description": "Lucas entry points: a(n) = least k such that n divides Lucas number L_k (=A000032(k), for k >= 0), or -1 if there is no such k.",
+  "id": "A223486",
+  "mentions": [
+    "A000032",
+    "A000204",
+    "A001177",
+    "A053028",
+    "A106291",
+    "A194363",
+    "A253808"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

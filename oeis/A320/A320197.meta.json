@@ -1,0 +1,27 @@
+{
+  "description": "Number of integer solutions to a^2 + 2*b^2 + 4*c^2 + 9*d^2 = n.",
+  "id": "A320197",
+  "mentions": [
+    "A033720",
+    "A320193",
+    "A320194",
+    "A320195",
+    "A320196",
+    "A320198",
+    "A320199",
+    "A320200",
+    "A320201",
+    "A320202"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

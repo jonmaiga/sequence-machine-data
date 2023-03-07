@@ -1,0 +1,22 @@
+{
+  "description": "Integers of the form c(n)/b(n) where c(n+1)=c(n)+(n+1)^4 with c(0)=1 and b(n+1)=b(n)+(n+1)^2 with b(0)=1.",
+  "id": "A119617",
+  "mentions": [
+    "A000330",
+    "A000538",
+    "A134153",
+    "A134154"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

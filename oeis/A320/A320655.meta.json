@@ -1,0 +1,31 @@
+{
+  "description": "Number of factorizations of n into semiprimes. Number of multiset partitions of the multiset of prime factors of n, into pairs.",
+  "id": "A320655",
+  "mentions": [
+    "A001055",
+    "A001222",
+    "A001358",
+    "A007716",
+    "A007717",
+    "A026424",
+    "A056239",
+    "A065043",
+    "A112798",
+    "A318871",
+    "A318953",
+    "A320462",
+    "A320656",
+    "A320658",
+    "A320659"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

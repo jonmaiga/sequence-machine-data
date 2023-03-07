@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p - pi(p) is also prime.",
+  "id": "A227420",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A061067",
+    "A101324"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

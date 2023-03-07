@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of convergents to A309930, the constant whose continued fraction representation consists of the cubes, [0; 1, 8, 27, 64, ...].",
+  "id": "A329305",
+  "mentions": [
+    "A001040",
+    "A036246",
+    "A309930",
+    "A329304"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

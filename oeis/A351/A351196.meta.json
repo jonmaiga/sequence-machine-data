@@ -1,0 +1,27 @@
+{
+  "description": "Sum of the 8th powers of the primes dividing n.",
+  "id": "A351196",
+  "mentions": [
+    "A001221",
+    "A005063",
+    "A005064",
+    "A005065",
+    "A008472",
+    "A351193",
+    "A351194",
+    "A351195",
+    "A351197",
+    "A351198"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

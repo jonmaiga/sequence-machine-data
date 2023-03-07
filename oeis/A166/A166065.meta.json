@@ -1,0 +1,32 @@
+{
+  "description": "Triangle, read by rows, given by [0,1,1,0,0,0,0,0,0,0,...] DELTA [2,-1,0,0,0,0,0,0,0,...] where DELTA is the operator defined in A084938.",
+  "id": "A166065",
+  "mentions": [
+    "A000007",
+    "A000079",
+    "A001787",
+    "A040000",
+    "A047851",
+    "A047853",
+    "A047855",
+    "A083585",
+    "A084247",
+    "A084938",
+    "A095121",
+    "A165665",
+    "A166060"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:33:47",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

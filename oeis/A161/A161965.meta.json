@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers in A161849 in the order of appearance.",
+  "id": "A161965",
+  "mentions": [
+    "A002808",
+    "A052369",
+    "A056608",
+    "A161849"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

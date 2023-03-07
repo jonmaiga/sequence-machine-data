@@ -1,0 +1,26 @@
+{
+  "description": "Array of generalized Eulerian numbers C(n,k) read by antidiagonals.",
+  "id": "A211235",
+  "mentions": [
+    "A000027",
+    "A000292",
+    "A005126",
+    "A005585",
+    "A008292",
+    "A101097",
+    "A211232",
+    "A254681"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

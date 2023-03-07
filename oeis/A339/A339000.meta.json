@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,m) = C(n,m)*Sum_{k=0..n} C(n,m-k))*C(n+k,k)/C(2*k,k).",
+  "id": "A339000",
+  "mentions": [
+    "A000045",
+    "A001519",
+    "A008459",
+    "A046748"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

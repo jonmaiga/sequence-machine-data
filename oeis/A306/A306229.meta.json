@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that for any n > 0, K(n) <> K(a(n)) (where K denotes the Kolakoski sequence A000002).",
+  "id": "A306229",
+  "mentions": [
+    "A000002",
+    "A013947",
+    "A013948",
+    "A306230"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

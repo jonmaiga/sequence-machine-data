@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that the polynomial x^3-x^2-x-1 mod p has no zeros; i.e., the polynomial is irreducible over the integers mod p.",
+  "id": "A106282",
+  "mentions": [
+    "A000073",
+    "A001644",
+    "A003631",
+    "A028952",
+    "A106276",
+    "A106294",
+    "A106302"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

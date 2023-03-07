@@ -1,0 +1,20 @@
+{
+  "description": "Four times the area of the smallest of n-tuples of Heronian triangles with equal perimeter and equal area.",
+  "id": "A204559",
+  "mentions": [
+    "A198311",
+    "A334285"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

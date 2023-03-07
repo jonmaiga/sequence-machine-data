@@ -1,0 +1,28 @@
+{
+  "description": "Number of bracelets (turn over necklaces) with n beads: 1 blue, 12 green, and r = n - 13 red.",
+  "id": "A141783",
+  "mentions": [
+    "A002620",
+    "A005993",
+    "A005994",
+    "A005995",
+    "A018210",
+    "A018211",
+    "A018212",
+    "A018213",
+    "A018214",
+    "A062136"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 13,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

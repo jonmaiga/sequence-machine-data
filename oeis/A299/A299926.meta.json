@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the number of normal generalized Young tableaux of size n with all rows and columns weakly increasing and all regions skew partitions.",
+  "id": "A299926",
+  "mentions": [
+    "A000085",
+    "A063834",
+    "A138178",
+    "A153452",
+    "A296188",
+    "A296561",
+    "A297388",
+    "A299699",
+    "A299925"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

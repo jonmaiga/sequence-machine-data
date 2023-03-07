@@ -1,0 +1,21 @@
+{
+  "description": "6*a(n) + 1 is the least upper prime p of a pair of twin primes p - 2, p, for which the prime gap immediately following p achieves the size 2*A007494(n).",
+  "id": "A337436",
+  "mentions": [
+    "A007494",
+    "A007497",
+    "A329160",
+    "A329161",
+    "A337435"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

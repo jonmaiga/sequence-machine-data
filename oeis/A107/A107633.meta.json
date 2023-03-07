@@ -1,0 +1,18 @@
+{
+  "description": "Squares of the norms of Gaussian primes from A107632.",
+  "id": "A107633",
+  "mentions": [
+    "A107632",
+    "A107634"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

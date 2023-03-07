@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations pi of [n] such that s(pi) avoids the patterns 132 and 321, where s is West's stack-sorting map.",
+  "id": "A319028",
+  "mentions": [
+    "A000108",
+    "A319029",
+    "A319030"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:32:42",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

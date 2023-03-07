@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows. The main diagonal is positive. If rowindex >= 2*columnindex then -1 else 0.",
+  "id": "A155076",
+  "mentions": [
+    "A000123",
+    "A155077"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

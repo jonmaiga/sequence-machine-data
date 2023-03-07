@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (10*n - 5*(-1)^n + 1)/2.",
+  "id": "A168456",
+  "mentions": [
+    "A017365",
+    "A168280"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:45:33",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

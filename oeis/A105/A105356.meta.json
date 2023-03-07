@@ -1,0 +1,20 @@
+{
+  "description": "Records in A105354.",
+  "id": "A105356",
+  "mentions": [
+    "A105353",
+    "A105354",
+    "A105360"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

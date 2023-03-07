@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = floor(1/(zeta(5) - Sum_{h=1..n} 1/h^5)).",
+  "id": "A248234",
+  "mentions": [
+    "A013663",
+    "A248227",
+    "A248231",
+    "A248232",
+    "A248233"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

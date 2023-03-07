@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that (p+j)^3 - (p+j)^2 +1 are primes for j=0 to 3.",
+  "id": "A111750",
+  "mentions": [
+    "A111502"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

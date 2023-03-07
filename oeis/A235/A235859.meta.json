@@ -1,0 +1,20 @@
+{
+  "description": "Define a(4)=3, then a(n+1) is the smallest prime P such that a(n) <= P < 2*n with 2*n-P=Q prime and, if not possible, a(n+1) is the smallest prime P such that P < a(n) < 2*n with 2*n-P=Q prime.",
+  "id": "A235859",
+  "mentions": [
+    "A002373",
+    "A020483",
+    "A235649"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 4,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

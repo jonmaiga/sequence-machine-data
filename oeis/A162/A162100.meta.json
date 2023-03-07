@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n binary arrays with rows and columns, considered as binary numbers, in strictly increasing order",
+  "id": "A162100",
+  "mentions": [
+    "A151801"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

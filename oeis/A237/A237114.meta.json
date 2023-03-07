@@ -1,0 +1,26 @@
+{
+  "description": "Smallest semiprime of the form k^prime(n)+1, or 0 if no such semiprime exists.",
+  "id": "A237114",
+  "mentions": [
+    "A001358",
+    "A006881",
+    "A103795",
+    "A123627",
+    "A123628",
+    "A237040",
+    "A237115",
+    "A237116",
+    "A237117"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

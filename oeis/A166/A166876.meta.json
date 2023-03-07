@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = a(n-1) + Fibonacci(n), a(1)=1983.",
+  "id": "A166876",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A001611",
+    "A001911",
+    "A018910",
+    "A166863"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

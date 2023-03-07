@@ -1,0 +1,38 @@
+{
+  "description": "Table read by descending antidiagonals: T(n,k) is the number of unoriented cycles (bracelets) of length n using up to k available colors.",
+  "id": "A321791",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000029",
+    "A000217",
+    "A000292",
+    "A001477",
+    "A002817",
+    "A027670",
+    "A027671",
+    "A032275",
+    "A032276",
+    "A051137",
+    "A056341",
+    "A060446",
+    "A060532",
+    "A075195",
+    "A081721",
+    "A284855",
+    "A293496"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

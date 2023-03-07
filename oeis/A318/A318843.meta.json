@@ -1,0 +1,32 @@
+{
+  "description": "a(n) is the smallest number k such that the symmetric representation of sigma(k) consists of n parts of width 1.",
+  "id": "A318843",
+  "mentions": [
+    "A174905",
+    "A237048",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A239663",
+    "A239665",
+    "A240062",
+    "A240542",
+    "A241008",
+    "A241010",
+    "A249223",
+    "A249351",
+    "A298856",
+    "A348171"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

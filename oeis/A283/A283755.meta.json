@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangular array read by rows: T(n,k) = number of non-isomorphic unlabeled connected graphs with loops on n nodes and with k edges.",
+  "id": "A283755",
+  "mentions": [
+    "A000666",
+    "A054921",
+    "A070166",
+    "A322114"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

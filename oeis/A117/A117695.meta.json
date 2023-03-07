@@ -1,0 +1,18 @@
+{
+  "description": "Number of different pairs of different numbers, with digits different from zero, that produce a sum equal to 0, 1, 2, 3, 4, 5, 6, 7, 8, etc.",
+  "id": "A117695",
+  "mentions": [
+    "A117644"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

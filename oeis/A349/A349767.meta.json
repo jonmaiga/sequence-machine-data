@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that 2^m - m is divisible by 5.",
+  "id": "A349767",
+  "mentions": [
+    "A000325",
+    "A010874",
+    "A047257",
+    "A070402",
+    "A299174"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

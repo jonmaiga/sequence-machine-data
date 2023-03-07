@@ -1,0 +1,32 @@
+{
+  "description": "Triangular matrix T, read by rows, where row n of T equals row (n-1) of T^(n+1) with an appended '1'.",
+  "id": "A121412",
+  "mentions": [
+    "A101479",
+    "A115728",
+    "A121413",
+    "A121414",
+    "A121415",
+    "A121416",
+    "A121420",
+    "A121424",
+    "A121426",
+    "A121428",
+    "A121430",
+    "A121431",
+    "A121432",
+    "A121433"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

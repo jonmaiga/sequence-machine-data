@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations p of [n] such that 0p has a nonincreasing up-jump sequence and also has a nonincreasing down-jump sequence.",
+  "id": "A288910",
+  "mentions": [
+    "A288911",
+    "A288912",
+    "A291685"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:02",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

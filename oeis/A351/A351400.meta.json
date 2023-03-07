@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of e * erf(1), where erf is the error function.",
+  "id": "A351400",
+  "mentions": [
+    "A000079",
+    "A001113",
+    "A001147",
+    "A087197",
+    "A099286",
+    "A125961",
+    "A351401"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

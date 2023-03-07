@@ -1,0 +1,20 @@
+{
+  "description": "Let l(n) = number of letters in n, A005589(n). If l(n) = 4 set a(n) = 0; otherwise a(n) = a(l(n)) + 1.",
+  "id": "A133418",
+  "mentions": [
+    "A005589",
+    "A016037"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

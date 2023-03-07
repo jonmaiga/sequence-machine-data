@@ -1,0 +1,18 @@
+{
+  "description": "Number of concave kites (darts or arrowheads) on an n X n grid (or geoboard).",
+  "id": "A173502",
+  "mentions": [
+    "A189412",
+    "A189417"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

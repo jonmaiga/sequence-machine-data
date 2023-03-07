@@ -1,0 +1,25 @@
+{
+  "description": "Number of strict compositions of n with no three consecutive parts in arithmetic progression.",
+  "id": "A325849",
+  "mentions": [
+    "A007862",
+    "A049988",
+    "A175342",
+    "A238423",
+    "A279945",
+    "A295370",
+    "A325545",
+    "A325874",
+    "A325875"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

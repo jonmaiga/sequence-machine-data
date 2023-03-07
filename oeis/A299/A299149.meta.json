@@ -1,0 +1,38 @@
+{
+  "description": "Numerators of the positive solution to n = Sum_{d|n} a(d) * a(n/d).",
+  "id": "A299149",
+  "mentions": [
+    "A000010",
+    "A000265",
+    "A003958",
+    "A007431",
+    "A018804",
+    "A023900",
+    "A029935",
+    "A046643",
+    "A046644",
+    "A165825",
+    "A257098",
+    "A298971",
+    "A299119",
+    "A299150",
+    "A299151",
+    "A317848",
+    "A318319",
+    "A318321",
+    "A318649"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "frac",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

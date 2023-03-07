@@ -1,0 +1,26 @@
+{
+  "description": "Primes p such that Lucas(prime(p)) is prime, where Lucas = A000032.",
+  "id": "A123677",
+  "mentions": [
+    "A000032",
+    "A001606",
+    "A119984",
+    "A120561",
+    "A122534",
+    "A123678",
+    "A277290"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

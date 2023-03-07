@@ -1,0 +1,19 @@
+{
+  "description": "A generalized Fredholm-Rueppel sequence.",
+  "id": "A106347",
+  "mentions": [
+    "A036987",
+    "A106346"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 125,
+    "source": "oeis-entry"
+  }
+}

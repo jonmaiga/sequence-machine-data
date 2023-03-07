@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically least strictly increasing sequence such that, for any n>0, Sum_{k=1..n} a(k) can be computed without carries in base 10.",
+  "id": "A278742",
+  "mentions": [
+    "A278743",
+    "A279732",
+    "A280730"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Inverse permutation to A094280.",
+  "id": "A122156",
+  "mentions": [
+    "A094280",
+    "A122154"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

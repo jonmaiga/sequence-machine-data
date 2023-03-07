@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = the number of times the last digit of n must be appended to n to form a number m such that n divides m, or 0 if no such m exists.",
+  "id": "A106848",
+  "mentions": [
+    "A064695",
+    "A064696",
+    "A106849"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

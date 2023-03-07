@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 0, for n > 1, if A286106(n) > 0, then a(n) = A285735(n), otherwise a(n) = A285734(n).",
+  "id": "A286107",
+  "mentions": [
+    "A005117",
+    "A285734",
+    "A285735",
+    "A286104",
+    "A286105",
+    "A286106"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

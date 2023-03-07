@@ -1,0 +1,22 @@
+{
+  "description": "Consolidated Dragon Curve triple points. If D:[0,1] is a Dragon curve, then besides n, there are two other integers p and q with D(A(n)/(15*2^k)) = D(A(p)/(15*2^k)) = D(A(q)/(15*2^k)), where k is any integer > log_2(max(A(n),A(p),A(q))/15).",
+  "id": "A260747",
+  "mentions": [
+    "A260482",
+    "A260748",
+    "A260749",
+    "A260750"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "frac",
+    "nonn",
+    "obsc"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

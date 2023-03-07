@@ -1,0 +1,20 @@
+{
+  "description": "Centrist primes: primes such that both the right half and the left half of the prime are prime.",
+  "id": "A125525",
+  "mentions": [
+    "A125523",
+    "A125524"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

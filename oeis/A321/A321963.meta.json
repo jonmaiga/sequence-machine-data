@@ -1,0 +1,23 @@
+{
+  "description": "Stieltjes generated from the sequence m, m+1, m+2, m+3, .... where m = 4.",
+  "id": "A321963",
+  "mentions": [
+    "A000007",
+    "A000698",
+    "A001147",
+    "A127059",
+    "A167872",
+    "A321964"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

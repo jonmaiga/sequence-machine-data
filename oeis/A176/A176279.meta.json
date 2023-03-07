@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that 2*prime(k)-1 and 2*prime(k)+1 are both prime or both composite.",
+  "id": "A176279",
+  "mentions": [
+    "A100484"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers m such that Sum_{p prime|m} p^r(p) = m, where r(p) is the least positive primitive root of p (A001918).",
+  "id": "A101051",
+  "mentions": [
+    "A001918"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

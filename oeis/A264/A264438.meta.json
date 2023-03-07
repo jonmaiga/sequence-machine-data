@@ -1,0 +1,25 @@
+{
+  "description": "One-half of the x member of the positive proper fundamental solution (x = x2(n), y = y2(n)) of the second class for the Pell equation x^2 - D(n)*y^2 = +8 for even D(n) = A264354(n).",
+  "id": "A264438",
+  "mentions": [
+    "A261247",
+    "A261248",
+    "A263012",
+    "A264349",
+    "A264350",
+    "A264351",
+    "A264353",
+    "A264354",
+    "A264439"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that k, k + 2310, k + 2 * 2310, k + 3 * 2310, and k + 4 * 2310 are all averages of twin primes.",
+  "id": "A141593",
+  "mentions": [
+    "A014574"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

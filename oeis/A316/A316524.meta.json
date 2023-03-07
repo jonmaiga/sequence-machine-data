@@ -1,0 +1,30 @@
+{
+  "description": "Signed sum over the prime indices of n.",
+  "id": "A316524",
+  "mentions": [
+    "A000040",
+    "A000607",
+    "A007913",
+    "A027746",
+    "A071321",
+    "A100118",
+    "A112798",
+    "A119899",
+    "A175352",
+    "A316313",
+    "A316523",
+    "A344616",
+    "A344617"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

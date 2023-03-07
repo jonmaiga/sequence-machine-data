@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = [x^n] 1/(1 - n*x/(1 - x - n*x/(1 - x - n*x/(1 - x - n*x/(1 - x - n*x/(1 - ...)))))), a continued fraction.",
+  "id": "A304936",
+  "mentions": [
+    "A001003",
+    "A107841",
+    "A131763",
+    "A131765",
+    "A131846",
+    "A131869",
+    "A131926",
+    "A131927",
+    "A292798"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

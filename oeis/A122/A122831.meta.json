@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of b(q^3)b(q^2)^2/(b(q)b(q^6)^2) in powers of q where b(q) is a cubic AGM function.",
+  "id": "A122831",
+  "mentions": [
+    "A122830"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:27:35",
+    "offset": 0,
+    "size": 57,
+    "source": "joeis"
+  }
+}

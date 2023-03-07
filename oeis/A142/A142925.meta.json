@@ -1,0 +1,26 @@
+{
+  "description": "Primes congruent to 1 mod 64.",
+  "id": "A142925",
+  "mentions": [
+    "A000040",
+    "A002144",
+    "A007519",
+    "A065091",
+    "A076339",
+    "A094407",
+    "A133870",
+    "A208177",
+    "A208178"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

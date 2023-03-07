@@ -1,0 +1,17 @@
+{
+  "description": "Number of words of length 3n such that all letters of the quaternary alphabet occur at least once and are introduced in ascending order and which can be built by repeatedly inserting triples of identical letters into the initially empty word.",
+  "id": "A321034",
+  "mentions": [
+    "A256311"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 4,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

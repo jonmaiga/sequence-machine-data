@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of n X n (0,1) matrices with at most k 1's in each row or column.",
+  "id": "A283500",
+  "mentions": [
+    "A002416",
+    "A002720",
+    "A008300",
+    "A048291",
+    "A197458",
+    "A247158"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

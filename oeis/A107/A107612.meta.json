@@ -1,0 +1,32 @@
+{
+  "description": "Primes with digital product = 2.",
+  "id": "A107612",
+  "mentions": [
+    "A004022",
+    "A053666",
+    "A101987",
+    "A107611",
+    "A107689",
+    "A107690",
+    "A107691",
+    "A107692",
+    "A107693",
+    "A107694",
+    "A107695",
+    "A107696",
+    "A107697",
+    "A107698"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

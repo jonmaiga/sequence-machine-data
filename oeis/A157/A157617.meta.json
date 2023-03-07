@@ -1,0 +1,20 @@
+{
+  "description": "On an n X n board, a(n) is the maximal number of squares covered by a self-avoiding cycle made of alternated vertical and horizontal unit length steps.",
+  "id": "A157617",
+  "mentions": [
+    "A157615",
+    "A157616"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 2,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

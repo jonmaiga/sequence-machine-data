@@ -1,0 +1,25 @@
+{
+  "description": "Coefficients of the series whose 48th power equals E_2(x)^2/E_4(x), where E_2(x) and E_4(x) are the Eisenstein series A006352 and A004009.",
+  "id": "A341871",
+  "mentions": [
+    "A004009",
+    "A006352",
+    "A108091",
+    "A289392",
+    "A341872",
+    "A341873",
+    "A341874",
+    "A341875"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

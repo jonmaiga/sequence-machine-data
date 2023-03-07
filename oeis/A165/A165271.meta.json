@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = p(3*n), where p(n) = number of partitions of n into parts that correspond to areas of distinct pieces of Archimedes' ostomachion.",
+  "id": "A165271",
+  "mentions": [
+    "A001651",
+    "A008585",
+    "A165272",
+    "A165273"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:28:13",
+    "offset": 0,
+    "size": 69,
+    "source": "joeis"
+  }
+}

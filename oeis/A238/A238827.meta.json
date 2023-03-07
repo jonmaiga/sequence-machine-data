@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 0 for n <= 3; thereafter a(n) = a(n-2)+A238825(n-3).",
+  "id": "A238827",
+  "mentions": [
+    "A238823",
+    "A238824",
+    "A238825",
+    "A238826"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

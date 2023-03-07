@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,m) by rows: The number of tatami tilings of a 3 by n grid with dimers and m monomers.",
+  "id": "A272472",
+  "mentions": [
+    "A068922",
+    "A100245",
+    "A180970",
+    "A271786",
+    "A272471"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

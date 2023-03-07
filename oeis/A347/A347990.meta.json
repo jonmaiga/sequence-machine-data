@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-step self-avoiding walks on a 2D square lattice where the walk cannot step to the smaller square ring of numbers than the ring it is currently on.",
+  "id": "A347990",
+  "mentions": [
+    "A001333",
+    "A001411",
+    "A337353"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

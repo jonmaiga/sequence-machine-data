@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways of placing kings with no more than 1 mutual attack on an n X n chessboard.",
+  "id": "A143870",
+  "mentions": [
+    "A143871",
+    "A143872",
+    "A143873",
+    "A143874",
+    "A143875",
+    "A143881",
+    "A143886",
+    "A268781"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

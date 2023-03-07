@@ -1,0 +1,29 @@
+{
+  "description": "Number of divisors of n that are either 1 or not a perfect power.",
+  "id": "A304817",
+  "mentions": [
+    "A000005",
+    "A001597",
+    "A007916",
+    "A091050",
+    "A183095",
+    "A183096",
+    "A304326",
+    "A304362",
+    "A304653",
+    "A304779",
+    "A304819",
+    "A304820"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

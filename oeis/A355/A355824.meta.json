@@ -1,0 +1,21 @@
+{
+  "description": "Dirichlet inverse of A355823, characteristic function of exponentially 2^n-numbers.",
+  "id": "A355824",
+  "mentions": [
+    "A138302",
+    "A355823",
+    "A355826"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

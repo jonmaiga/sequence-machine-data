@@ -1,0 +1,21 @@
+{
+  "description": "Numbers equal to the sum of the aliquot parts of the following k numbers, for some k.",
+  "id": "A320022",
+  "mentions": [
+    "A000225",
+    "A001065",
+    "A186103",
+    "A320021"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

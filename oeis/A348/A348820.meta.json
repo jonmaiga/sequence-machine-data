@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = number of loopless diagrams by number of K_5 up to all symmetries.",
+  "id": "A348820",
+  "mentions": [
+    "A003437",
+    "A190833",
+    "A292409",
+    "A348817",
+    "A348818",
+    "A348819",
+    "A348823"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

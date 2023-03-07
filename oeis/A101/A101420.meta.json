@@ -1,0 +1,18 @@
+{
+  "description": "Numbers which are the sum of two positive cubes and not divisible by 13.",
+  "id": "A101420",
+  "mentions": [
+    "A003325",
+    "A094447"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

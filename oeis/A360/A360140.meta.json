@@ -1,0 +1,20 @@
+{
+  "description": "Odd amicable pairs with only one member divisible by 3.",
+  "id": "A360140",
+  "mentions": [
+    "A002025",
+    "A002046",
+    "A259180",
+    "A262623"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

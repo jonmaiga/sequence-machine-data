@@ -1,0 +1,23 @@
+{
+  "description": "Number of subsets of the first n primes whose elements have a prime root-mean-square.",
+  "id": "A339556",
+  "mentions": [
+    "A000040",
+    "A071810",
+    "A127542",
+    "A163974",
+    "A309160",
+    "A339454",
+    "A339485"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

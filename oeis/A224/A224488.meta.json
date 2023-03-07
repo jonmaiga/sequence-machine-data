@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m such that k*m = Sum_{j|m, j < m} sigma(j), where k >= 1 is an integer.",
+  "id": "A224488",
+  "mentions": [
+    "A211779",
+    "A221219"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

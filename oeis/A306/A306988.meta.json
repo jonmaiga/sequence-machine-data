@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=1..n} binomial(n,k)*phi(k), where phi is the Euler totient function.",
+  "id": "A306988",
+  "mentions": [
+    "A000010",
+    "A002088",
+    "A101509",
+    "A131045",
+    "A160399",
+    "A185003"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

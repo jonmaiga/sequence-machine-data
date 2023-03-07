@@ -1,0 +1,22 @@
+{
+  "description": "Greatest prime factor of the pair of amicable numbers. Amicable numbers are sorted by the smaller number in the pair.",
+  "id": "A122967",
+  "mentions": [
+    "A002025",
+    "A002046",
+    "A006530",
+    "A061469",
+    "A063990"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

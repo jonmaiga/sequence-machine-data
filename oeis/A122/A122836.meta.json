@@ -1,0 +1,20 @@
+{
+  "description": "Number of topologies on n labeled elements in which at least one element belongs to some pair of noncomparable members of the topology.",
+  "id": "A122836",
+  "mentions": [
+    "A000798",
+    "A122835"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

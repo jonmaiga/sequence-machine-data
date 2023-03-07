@@ -1,0 +1,26 @@
+{
+  "description": "The Farkas map: a(n) = x/3 if x mod 3 = 0; a(n) = (3x+1)/2 if x mod 3 <> 0 and x mod 4 = 3; a(n) = (x+1)/2 if x mod 3 <> 0 and x mod 4 = 1, where x = 2n-1.",
+  "id": "A349407",
+  "mentions": [
+    "A004767",
+    "A006370",
+    "A014682",
+    "A016813",
+    "A016921",
+    "A016945",
+    "A239129",
+    "A350279",
+    "A350515"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

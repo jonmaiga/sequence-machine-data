@@ -1,0 +1,19 @@
+{
+  "description": "Number of letters in word for the number n in Welsh.",
+  "id": "A140396",
+  "mentions": [
+    "A168085",
+    "A168087"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

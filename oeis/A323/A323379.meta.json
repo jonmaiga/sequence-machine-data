@@ -1,0 +1,23 @@
+{
+  "description": "Odd k such that d(k-1) < d(k) and d(k) > d(k+1), d = A000005.",
+  "id": "A323379",
+  "mentions": [
+    "A000005",
+    "A005408",
+    "A075027",
+    "A076773",
+    "A138171",
+    "A138172",
+    "A323380"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

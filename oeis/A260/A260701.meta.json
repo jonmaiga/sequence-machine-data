@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (-3*(-1)^n + Sum_{k>=0} A000108(k)*k^n/6^k)/sqrt(3), where A000108 are Catalan numbers.",
+  "id": "A260701",
+  "mentions": [
+    "A000108",
+    "A260902",
+    "A348468"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

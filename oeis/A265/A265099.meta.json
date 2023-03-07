@@ -1,0 +1,21 @@
+{
+  "description": "Least k such that floor(2^A006666(k)/3^A006667(k)) - k = n.",
+  "id": "A265099",
+  "mentions": [
+    "A006666",
+    "A006667",
+    "A075680",
+    "A211981",
+    "A225089"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

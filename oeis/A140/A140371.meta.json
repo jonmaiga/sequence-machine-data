@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form 26k + 7.",
+  "id": "A140371",
+  "mentions": [
+    "A059245",
+    "A092178",
+    "A093191",
+    "A093350",
+    "A100202",
+    "A102732"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

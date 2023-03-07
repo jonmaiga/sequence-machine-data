@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = sum of all nonprimes from nonprime(p) to nonprime(q) where p is nonprime(n+1) and q is nonprime(n+2).",
+  "id": "A161754",
+  "mentions": [
+    "A114381",
+    "A141468"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

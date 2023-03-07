@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of entries from a(0) to a(n-2) that have the same number of digits as a(n-1), with a(0) = 0.",
+  "id": "A329079",
+  "mentions": [
+    "A007953",
+    "A162146",
+    "A327246"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

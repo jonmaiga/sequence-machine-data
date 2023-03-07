@@ -1,0 +1,22 @@
+{
+  "description": "Primes of form 16*k^k + 1.",
+  "id": "A301642",
+  "mentions": [
+    "A121270",
+    "A216148",
+    "A301522",
+    "A301641",
+    "A301644"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

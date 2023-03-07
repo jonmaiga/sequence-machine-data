@@ -1,0 +1,32 @@
+{
+  "description": "MM-numbers of uniform regular multiset multisystems. Numbers whose prime indices all have the same number of prime factors counted with multiplicity, and such that the product of the same prime indices is a power of a squarefree number.",
+  "id": "A321698",
+  "mentions": [
+    "A005176",
+    "A007016",
+    "A112798",
+    "A271103",
+    "A283877",
+    "A299353",
+    "A302242",
+    "A306017",
+    "A319056",
+    "A319189",
+    "A320324",
+    "A321699",
+    "A321717",
+    "A322554",
+    "A322703",
+    "A322833"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

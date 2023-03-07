@@ -1,0 +1,29 @@
+{
+  "description": "Smallest k such that 3^^n is not congruent to 3^^(n-1) mod k, where 3^^n denotes the power tower 3^3^...^3 (in which 3 appears n times).",
+  "id": "A246491",
+  "mentions": [
+    "A000244",
+    "A000961",
+    "A003418",
+    "A007978",
+    "A027763",
+    "A056637",
+    "A246492",
+    "A246493",
+    "A246494",
+    "A246495",
+    "A246496",
+    "A246497"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

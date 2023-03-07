@@ -1,0 +1,19 @@
+{
+  "description": "0-sequence of reduction of the upper Wythoff sequence by x^2 -> x+1.",
+  "id": "A192302",
+  "mentions": [
+    "A001950",
+    "A192232",
+    "A192303"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

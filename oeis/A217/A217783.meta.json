@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of (1-x)*(1-2x)/((1-5x+5*x^2)*(1-3x+x^2)).",
+  "id": "A217783",
+  "mentions": [
+    "A217770",
+    "A217777",
+    "A217778",
+    "A217779",
+    "A217782"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:32:18",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

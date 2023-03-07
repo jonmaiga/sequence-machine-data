@@ -1,0 +1,20 @@
+{
+  "description": "Number of rationals in [0, 1) consisting just of repeating bits of period at most n.",
+  "id": "A119917",
+  "mentions": [
+    "A038199"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

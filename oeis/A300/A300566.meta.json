@@ -1,0 +1,27 @@
+{
+  "description": "Numbers z such that there is a solution to x^4 + y^5 = z^6 with x, y, z >= 1.",
+  "id": "A300566",
+  "mentions": [
+    "A054744",
+    "A100294",
+    "A242183",
+    "A257999",
+    "A300564",
+    "A300565",
+    "A302174",
+    "A303266"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

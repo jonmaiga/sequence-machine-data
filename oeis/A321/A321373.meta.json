@@ -1,0 +1,32 @@
+{
+  "description": "Array T(n,k) read by antidiagonals where the first row is (-1)^k*A140966(k) and each subsequent row is obtained by adding A001045(k) to the preceding one.",
+  "id": "A321373",
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A001045",
+    "A014113",
+    "A014551",
+    "A048573",
+    "A062092",
+    "A078008",
+    "A084247",
+    "A092297",
+    "A097065",
+    "A097073",
+    "A140360",
+    "A140966",
+    "A140996"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

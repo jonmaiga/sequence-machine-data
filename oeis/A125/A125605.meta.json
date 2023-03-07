@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (T(n-1,k-1) + T(n-1,k)) / gcd(T(n-1,k-1), T(n-1,k)).",
+  "id": "A125605",
+  "mentions": [
+    "A007318",
+    "A040000",
+    "A125606",
+    "A131134",
+    "A264856"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

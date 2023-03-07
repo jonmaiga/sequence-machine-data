@@ -1,0 +1,20 @@
+{
+  "description": "Percentage (rounded) of semiprimes <= 2^n which are odd and squarefree.",
+  "id": "A146169",
+  "mentions": [
+    "A001358",
+    "A125527",
+    "A146168"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 2,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

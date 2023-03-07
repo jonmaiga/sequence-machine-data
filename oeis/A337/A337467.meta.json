@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of sqrt(2 / ( (1-2*x+49*x^2) * (1-7*x+sqrt(1-2*x+49*x^2)) )).",
+  "id": "A337467",
+  "mentions": [
+    "A245927",
+    "A337422",
+    "A337464"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

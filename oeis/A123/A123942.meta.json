@@ -1,0 +1,20 @@
+{
+  "description": "The (1,4)-entry in the 4 X 4 matrix M^n, where M={{3, 2, 1, 1}, {2, 1, 1, 0}, {1, 1, 0, 0}, {1, 0, 0, 0}} (n>=0).",
+  "id": "A123942",
+  "mentions": [
+    "A122099",
+    "A122100"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

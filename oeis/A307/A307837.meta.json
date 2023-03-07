@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1; a(n+1) = Sum_{d|n} lambda(d)*a(d), where lambda = Liouville function (A008836).",
+  "id": "A307837",
+  "mentions": [
+    "A001222",
+    "A008836",
+    "A061020",
+    "A070965",
+    "A206369"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Natural numbers n which are not perfect power but at least one of decimal digits of n is a perfect power.",
+  "id": "A118379",
+  "mentions": [
+    "A117815"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

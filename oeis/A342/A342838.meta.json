@@ -1,0 +1,23 @@
+{
+  "description": "Indices m such that A342834(m) is not squarefree.",
+  "id": "A342838",
+  "mentions": [
+    "A013929",
+    "A342834",
+    "A342835",
+    "A342836",
+    "A342837"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

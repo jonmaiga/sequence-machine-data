@@ -1,0 +1,18 @@
+{
+  "description": "Positive n such that the ring of algebraic integers O_n in a quadratic number field has class number 1 but is not Euclidean with respect to the norm.",
+  "id": "A317970",
+  "mentions": [
+    "A014602"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

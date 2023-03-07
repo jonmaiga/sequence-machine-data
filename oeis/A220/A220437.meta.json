@@ -1,0 +1,20 @@
+{
+  "description": "Number of domino tilings of a cross whose center is a 4 X 4 square and in which each of the four arms has length n.",
+  "id": "A220437",
+  "mentions": [
+    "A001654",
+    "A220438"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

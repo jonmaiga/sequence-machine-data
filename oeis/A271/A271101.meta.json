@@ -1,0 +1,25 @@
+{
+  "description": "Squarefree semiprimes (A006881) whose average prime factor is prime.",
+  "id": "A271101",
+  "mentions": [
+    "A006881",
+    "A045835",
+    "A046315",
+    "A046388",
+    "A089765",
+    "A108633",
+    "A115585",
+    "A187073",
+    "A213015"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

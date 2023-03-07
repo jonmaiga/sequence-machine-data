@@ -1,0 +1,18 @@
+{
+  "description": "Integers n such that 17+30*n are terms in A172456.",
+  "id": "A175103",
+  "mentions": [
+    "A172456"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

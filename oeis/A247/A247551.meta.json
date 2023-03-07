@@ -1,0 +1,30 @@
+{
+  "description": "Decimal expansion of Product_{k>=2} 1/(1-1/k!).",
+  "id": "A247551",
+  "mentions": [
+    "A005651",
+    "A035341",
+    "A072605",
+    "A140585",
+    "A183239",
+    "A209668",
+    "A261600",
+    "A292713",
+    "A320566",
+    "A327827",
+    "A335643"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

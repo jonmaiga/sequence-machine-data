@@ -1,0 +1,26 @@
+{
+  "description": "Number of integer partitions of n such that the dual of the multiset partition obtained by factoring each part into prime numbers is a (strict) antichain, also called T_1 integer partitions.",
+  "id": "A326977",
+  "mentions": [
+    "A000041",
+    "A319564",
+    "A319728",
+    "A326961",
+    "A326965",
+    "A326974",
+    "A326976",
+    "A326978",
+    "A326979",
+    "A327012"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Terms in A054639 equal to 3 mod 4.",
+  "id": "A163780",
+  "mentions": [
+    "A054639",
+    "A163777",
+    "A163778",
+    "A163779",
+    "A163781"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

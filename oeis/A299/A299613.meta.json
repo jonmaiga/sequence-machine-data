@@ -1,0 +1,42 @@
+{
+  "description": "Decimal expansion of 2*W(1), where W is the Lambert W function (or PowerLog); see Comments.",
+  "id": "A299613",
+  "mentions": [
+    "A030178",
+    "A099954",
+    "A126583",
+    "A299614",
+    "A299615",
+    "A299616",
+    "A299617",
+    "A299618",
+    "A299619",
+    "A299620",
+    "A299621",
+    "A299622",
+    "A299623",
+    "A299624",
+    "A299625",
+    "A299626",
+    "A299627",
+    "A299628",
+    "A299629",
+    "A299630",
+    "A299631",
+    "A299632",
+    "A299633"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:23",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

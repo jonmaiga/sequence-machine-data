@@ -1,0 +1,22 @@
+{
+  "description": "Numbers x such that 0 < |x^7 - y^3| < x^(11/3) for some number y.",
+  "id": "A173353",
+  "mentions": [
+    "A078933",
+    "A116884",
+    "A173342",
+    "A173348",
+    "A173379"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

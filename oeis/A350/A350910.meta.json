@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of k-regular digraphs on n unlabeled nodes, k = 0..n-1.",
+  "id": "A350910",
+  "mentions": [
+    "A000012",
+    "A002865",
+    "A051031",
+    "A219889",
+    "A219890",
+    "A219891",
+    "A219892",
+    "A219893",
+    "A329228",
+    "A350911",
+    "A350912"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

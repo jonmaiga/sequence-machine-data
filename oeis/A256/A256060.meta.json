@@ -1,0 +1,18 @@
+{
+  "description": "Queen Dido's puzzle (the founding of Carthage): a(n) is twice the maximal area of a polygon with 1) vertices on integral Cartesian coordinates, 2) no two edges parallel, and 3) all edge lengths less than or equal to n^2.",
+  "id": "A256060",
+  "mentions": [
+    "A001481"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

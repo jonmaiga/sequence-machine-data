@@ -1,0 +1,31 @@
+{
+  "description": "Number of labeled graphs with n vertices and non-spanning edge-connectivity >= 2.",
+  "id": "A327200",
+  "mentions": [
+    "A001187",
+    "A006129",
+    "A095983",
+    "A182100",
+    "A322395",
+    "A326787",
+    "A327076",
+    "A327079",
+    "A327097",
+    "A327099",
+    "A327102",
+    "A327148",
+    "A327231",
+    "A327236"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of palindromic partitions of n such that 2*(multiplicity of least part) = (multiplicity of greatest part).",
+  "id": "A238793",
+  "mentions": [
+    "A025065",
+    "A238779",
+    "A238791",
+    "A238792"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

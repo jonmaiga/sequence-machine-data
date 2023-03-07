@@ -1,0 +1,23 @@
+{
+  "description": "Column 2 of triangle A113983; also a(n) = A113983(n+1,1) + [A113983^2](n,1).",
+  "id": "A113985",
+  "mentions": [
+    "A113983",
+    "A113984",
+    "A113986",
+    "A113987",
+    "A113989",
+    "A113994"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

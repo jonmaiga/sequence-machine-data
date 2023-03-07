@@ -1,0 +1,18 @@
+{
+  "description": "Value of the concatenation of the first n+1 terms of A118605, seen as a binary number.",
+  "id": "A119027",
+  "mentions": [
+    "A118605"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Numbers n whose base-b digit sum is not b for all bases b >= 2.",
+  "id": "A187813",
+  "mentions": [
+    "A000040",
+    "A007953",
+    "A008864",
+    "A018900",
+    "A052224",
+    "A079696",
+    "A226636",
+    "A226969",
+    "A227062",
+    "A227080",
+    "A239703",
+    "A239705",
+    "A239708"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

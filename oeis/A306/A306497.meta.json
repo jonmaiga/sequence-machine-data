@@ -1,0 +1,25 @@
+{
+  "description": "Abundant numbers that differ from the next abundant number by 5.",
+  "id": "A306497",
+  "mentions": [
+    "A005101",
+    "A096399",
+    "A115414",
+    "A125115",
+    "A228382",
+    "A231086",
+    "A316098",
+    "A316099"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

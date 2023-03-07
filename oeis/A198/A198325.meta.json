@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of directed paths of length k (k>=1) in the rooted tree having Matula-Goebel number n (n>=2).",
+  "id": "A198325",
+  "mentions": [
+    "A109082",
+    "A196047",
+    "A196050",
+    "A198326"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 2,
+    "size": 115,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) appears in the transformation Sum_{k=0..n} (k+1)*x^k = Sum_{k=0..n} T(n,k)*(x+3k)^k.",
+  "id": "A253384",
+  "mentions": [
+    "A247236",
+    "A247237",
+    "A253381",
+    "A253382"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

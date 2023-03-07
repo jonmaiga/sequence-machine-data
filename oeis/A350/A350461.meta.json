@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to choose a subset of size n from [2n] and arrange its elements into a set of lists.",
+  "id": "A350461",
+  "mentions": [
+    "A000262",
+    "A000984",
+    "A129652"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

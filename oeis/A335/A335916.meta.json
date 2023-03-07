@@ -1,0 +1,19 @@
+{
+  "description": "Isolated primes in the hexagonal spiral of the nonnegative integers.",
+  "id": "A335916",
+  "mentions": [
+    "A001358",
+    "A001399",
+    "A113653"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

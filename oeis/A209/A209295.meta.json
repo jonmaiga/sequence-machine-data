@@ -1,0 +1,21 @@
+{
+  "description": "Antidiagonal sums of the gcd(.,.) array A109004.",
+  "id": "A209295",
+  "mentions": [
+    "A006580",
+    "A018804",
+    "A109004"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

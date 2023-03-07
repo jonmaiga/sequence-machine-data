@@ -1,0 +1,23 @@
+{
+  "description": "Number of maximal subsets of {1..n} whose sum is less than or equal to the sum of their complement.",
+  "id": "A326173",
+  "mentions": [
+    "A053632",
+    "A057567",
+    "A057568",
+    "A059529",
+    "A063865",
+    "A326174",
+    "A326175"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

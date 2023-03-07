@@ -1,0 +1,26 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of directed loopless multigraphs with n arcs and k vertices.",
+  "id": "A333361",
+  "mentions": [
+    "A000007",
+    "A008619",
+    "A037240",
+    "A050930",
+    "A052170",
+    "A138107",
+    "A192517",
+    "A290428"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

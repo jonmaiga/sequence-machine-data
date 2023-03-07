@@ -1,0 +1,21 @@
+{
+  "description": "First column of A178535.",
+  "id": "A178536",
+  "mentions": [
+    "A008683",
+    "A178535",
+    "A181434",
+    "A181435"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

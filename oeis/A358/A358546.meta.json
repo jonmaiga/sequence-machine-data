@@ -1,0 +1,28 @@
+{
+  "description": "Least odd number m such that m mod 3 > 0 and m*3^n is an amicable number, and -1 if no such number exists.",
+  "id": "A358546",
+  "mentions": [
+    "A000396",
+    "A001065",
+    "A002025",
+    "A007949",
+    "A090748",
+    "A259180",
+    "A262625",
+    "A347770",
+    "A358022",
+    "A358320",
+    "A358415"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

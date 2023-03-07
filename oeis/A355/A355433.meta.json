@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k is sqrt(k)-smooth and k+1 is sqrt(k+1)-smooth.",
+  "id": "A355433",
+  "mentions": [
+    "A048098",
+    "A060355",
+    "A084920",
+    "A348119",
+    "A355434"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of integers k, 0 <= k <= n, such that the Damerau-Levenshtein distance between the binary representations of n and k is strictly less than the Levenshtein distance.",
+  "id": "A322795",
+  "mentions": [
+    "A079071",
+    "A099627",
+    "A152487",
+    "A322285"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

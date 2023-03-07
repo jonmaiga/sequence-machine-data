@@ -1,0 +1,17 @@
+{
+  "description": "Numbers m such that greatest prime divisor of (m-th prime + 1) is 3.",
+  "id": "A121820",
+  "mentions": [
+    "A023509"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

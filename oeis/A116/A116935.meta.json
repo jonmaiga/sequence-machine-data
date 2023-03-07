@@ -1,0 +1,21 @@
+{
+  "description": "Semiprimes (A001358) which are the concatenation of the numbers 1 through n for some n.",
+  "id": "A116935",
+  "mentions": [
+    "A001358",
+    "A007908"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

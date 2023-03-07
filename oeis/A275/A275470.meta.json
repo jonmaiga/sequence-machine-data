@@ -1,0 +1,26 @@
+{
+  "description": "Half the difference between the larger and smaller terms of the n-th amicable pair (x,y) given in A259933.",
+  "id": "A275470",
+  "mentions": [
+    "A002025",
+    "A002046",
+    "A066539",
+    "A162884",
+    "A259933",
+    "A260086",
+    "A260087",
+    "A275316",
+    "A275469"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

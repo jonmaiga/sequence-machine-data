@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (-1)^(k+1) * floor((n/(2*k-1))^k).",
+  "id": "A350238",
+  "mentions": [
+    "A350147",
+    "A350167",
+    "A350223",
+    "A350239"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 109,
+    "source": "oeis-bfile"
+  }
+}

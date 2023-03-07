@@ -1,0 +1,20 @@
+{
+  "description": "Number of solutions to +-1^2 +- 2^2 +- 3^2 +- ... +- n^2 = 0 or 1.",
+  "id": "A350403",
+  "mentions": [
+    "A000290",
+    "A025591",
+    "A083527",
+    "A158092"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

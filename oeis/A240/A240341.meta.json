@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the constant 'lambda' such that exp(lambda*z) is the first nontrivial first quadrant complex solution of this form to the functional equation f(z+1)-f(z)=f'(z) [imaginary part].",
+  "id": "A240341",
+  "mentions": [
+    "A199460",
+    "A240340"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

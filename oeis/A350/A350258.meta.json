@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows. T(n, k) = k! * BellPolynomial(n, k).",
+  "id": "A350258",
+  "mentions": [
+    "A000110",
+    "A350256",
+    "A350257",
+    "A350259",
+    "A350260",
+    "A350261",
+    "A350262",
+    "A350263"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

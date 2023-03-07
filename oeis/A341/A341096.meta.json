@@ -1,0 +1,28 @@
+{
+  "description": "Number of partitions of n into 8 distinct squarefree parts.",
+  "id": "A341096",
+  "mentions": [
+    "A005117",
+    "A008966",
+    "A098236",
+    "A307835",
+    "A326443",
+    "A341068",
+    "A341073",
+    "A341074",
+    "A341075",
+    "A341095",
+    "A341097",
+    "A341098"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:56",
+    "offset": 45,
+    "size": 61,
+    "source": "joeis"
+  }
+}

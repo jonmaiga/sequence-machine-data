@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n with maximal exponent in prime factorization equal to 1, such that n+1 has maximal exponent 2, n+2 has maximal exponent 3, and n+3 has maximal exponent 4.",
+  "id": "A176913",
+  "mentions": [
+    "A051903"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

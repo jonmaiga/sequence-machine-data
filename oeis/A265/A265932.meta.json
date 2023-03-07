@@ -1,0 +1,17 @@
+{
+  "description": "Number of 4Xn 0..4 arrays with the absolute differences of each element with its with horizontal and antidiagonal neighbors unique.",
+  "id": "A265932",
+  "mentions": [
+    "A265928"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:26",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

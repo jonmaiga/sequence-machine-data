@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the smallest positive integer such that no number occurs twice in the sequence and its absolute first differences.",
+  "id": "A140778",
+  "mentions": [
+    "A005228",
+    "A030124",
+    "A037257",
+    "A037258",
+    "A037259",
+    "A061577",
+    "A081145",
+    "A140779",
+    "A257941",
+    "A257944"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

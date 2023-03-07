@@ -1,0 +1,25 @@
+{
+  "description": "Even numbers k such that k - 5 is prime but k - 3 is not prime.",
+  "id": "A297925",
+  "mentions": [
+    "A005843",
+    "A049591",
+    "A056240",
+    "A107986",
+    "A130038",
+    "A175222",
+    "A298252",
+    "A298366"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:18",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

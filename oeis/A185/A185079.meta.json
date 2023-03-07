@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A064380(n) * A049417(n).",
+  "id": "A185079",
+  "mentions": [
+    "A007357",
+    "A049417",
+    "A064380",
+    "A185078",
+    "A185373",
+    "A185383"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 2,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

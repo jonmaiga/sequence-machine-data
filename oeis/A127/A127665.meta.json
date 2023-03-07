@@ -1,0 +1,29 @@
+{
+  "description": "Numbers whose infinitary aliquot sequences end in an infinitary amicable pair.",
+  "id": "A127665",
+  "mentions": [
+    "A007357",
+    "A063990",
+    "A126168",
+    "A126169",
+    "A126170",
+    "A126171",
+    "A127661",
+    "A127662",
+    "A127663",
+    "A127664",
+    "A127666",
+    "A127667"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

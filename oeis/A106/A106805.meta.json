@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of g.f.: 1/(1 - 2*x - x^2 + x^3).",
+  "id": "A106805",
+  "mentions": [
+    "A006054"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:58",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

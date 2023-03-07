@@ -1,0 +1,21 @@
+{
+  "description": "Minimal most likely sum for a roll of n 8-sided dice.",
+  "id": "A263941",
+  "mentions": [
+    "A030123",
+    "A130877",
+    "A256680"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:24:37",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

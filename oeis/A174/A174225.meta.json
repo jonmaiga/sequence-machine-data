@@ -1,0 +1,18 @@
+{
+  "description": "Array: row n consists of the positive integers x for which there are exactly n positive integers y such that x+y divides x*y.",
+  "id": "A174225",
+  "mentions": [
+    "A063647"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

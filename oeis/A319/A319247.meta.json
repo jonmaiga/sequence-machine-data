@@ -1,0 +1,28 @@
+{
+  "description": "Irregular triangle whose n-th row lists the strict integer partition whose Heinz number is the n-th squarefree number.",
+  "id": "A319247",
+  "mentions": [
+    "A000009",
+    "A000720",
+    "A001222",
+    "A005117",
+    "A056239",
+    "A072047",
+    "A265668",
+    "A296150",
+    "A299755",
+    "A319246"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

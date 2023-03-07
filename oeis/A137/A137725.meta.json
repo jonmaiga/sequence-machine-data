@@ -1,0 +1,22 @@
+{
+  "description": "Number of sequences of length n with elements {-2,-1,+1,+2}, such that the sum of elements of the whole sequence but of no proper subsequence equals 0 modulo n. For n>=4, the number of Hamiltonian (directed) circuits on the circulant graph C_n(1,2).",
+  "id": "A137725",
+  "mentions": [
+    "A000930",
+    "A003274",
+    "A092765",
+    "A124353",
+    "A137726"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

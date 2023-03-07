@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n(p(n)-d(n)): sum of all of parts of all partitions of n with at least one distinct part.",
+  "id": "A220486",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A038040",
+    "A066186",
+    "A144300",
+    "A220477"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

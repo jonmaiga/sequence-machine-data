@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of bargraphs of semiperimeter n starting with k columns of length 1 (n>=2, k>=0).",
+  "id": "A274490",
+  "mentions": [
+    "A082582",
+    "A105633",
+    "A188464"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

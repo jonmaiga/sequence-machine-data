@@ -1,0 +1,21 @@
+{
+  "description": "Partial sums of A263614 starting at n=2.",
+  "id": "A263615",
+  "mentions": [
+    "A002778",
+    "A263614"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:22:19",
+    "offset": 2,
+    "size": 50,
+    "source": "joeis"
+  }
+}

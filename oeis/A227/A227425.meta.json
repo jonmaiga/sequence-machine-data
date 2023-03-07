@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 'B', a Young-Fejér-Jackson constant linked to the positivity of certain sine sums.",
+  "id": "A227425",
+  "mentions": [
+    "A227422",
+    "A227423",
+    "A227424"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

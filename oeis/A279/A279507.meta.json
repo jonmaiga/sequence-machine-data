@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = floor(phi(n)/tau(n)).",
+  "id": "A279507",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A020488",
+    "A020490",
+    "A140475",
+    "A279289",
+    "A279508",
+    "A279509"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

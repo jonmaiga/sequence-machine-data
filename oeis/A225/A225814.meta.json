@@ -1,0 +1,17 @@
+{
+  "description": "Nonsquarefree integers m such that, for prime p, if p^k|m then 2+p^k|2+m.",
+  "id": "A225814",
+  "mentions": [
+    "A029562"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

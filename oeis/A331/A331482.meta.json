@@ -1,0 +1,23 @@
+{
+  "description": "Position of the first letter of n (in Dutch) in the alphabet.",
+  "id": "A331482",
+  "mentions": [
+    "A005606",
+    "A090589",
+    "A161377",
+    "A247802",
+    "A277685",
+    "A311482"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

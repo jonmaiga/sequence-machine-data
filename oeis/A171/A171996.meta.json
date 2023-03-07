@@ -1,0 +1,22 @@
+{
+  "description": "A(n,k,m) is the number of permutations of an n-set with k disjoint cycles of length less than or equal to m, called the (n,k)-th m-restrained Stirling numbers of the first kind, and denoted by mS_1(n,k). The sequence shows the case of m=3.",
+  "id": "A171996",
+  "mentions": [
+    "A111246",
+    "A144633",
+    "A171998",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

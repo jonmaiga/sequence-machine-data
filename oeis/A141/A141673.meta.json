@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,m) read by rows: T(n,1) = n; T(n,m) = A008683(n)*n/m if m is a divisor of n, where m = 2..n, otherwise T(n,m) = 0.",
+  "id": "A141673",
+  "mentions": [
+    "A008683",
+    "A055615",
+    "A126988"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

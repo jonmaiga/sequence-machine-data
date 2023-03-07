@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that the average of the strong divisors of n is an integer.",
+  "id": "A284288",
+  "mentions": [
+    "A000203",
+    "A000430",
+    "A003601",
+    "A023884",
+    "A023886",
+    "A032741",
+    "A039653",
+    "A296082",
+    "A296084"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

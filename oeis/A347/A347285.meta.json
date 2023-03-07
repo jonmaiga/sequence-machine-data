@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle T(n,k) starting with n followed by e_k = floor(log_p_k(p_(k-1)^e_(k-1))) such that e_k > 0.",
+  "id": "A347285",
+  "mentions": [
+    "A000217",
+    "A000961",
+    "A089576"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

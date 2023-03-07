@@ -1,0 +1,20 @@
+{
+  "description": "Number of Dyck paths of semilength n having no ascents of length 2 that start at an odd level.",
+  "id": "A114465",
+  "mentions": [
+    "A114462",
+    "A114463",
+    "A114464"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

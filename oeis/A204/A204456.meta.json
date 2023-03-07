@@ -1,0 +1,25 @@
+{
+  "description": "Coefficient array of numerator polynomials of the o.g.f.s for the sequence of odd numbers not divisible by a given prime.",
+  "id": "A204456",
+  "mentions": [
+    "A000040",
+    "A005408",
+    "A007310",
+    "A045572",
+    "A162699",
+    "A204454"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

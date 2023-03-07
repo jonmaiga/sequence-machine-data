@@ -1,0 +1,23 @@
+{
+  "description": "Repeated terms of (2n)! (A010050).",
+  "id": "A248812",
+  "mentions": [
+    "A000142",
+    "A010050",
+    "A052928",
+    "A168273",
+    "A211374"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:12:55",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

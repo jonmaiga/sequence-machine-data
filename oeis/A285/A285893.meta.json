@@ -1,0 +1,26 @@
+{
+  "description": "Least number to start a run of exactly n nondecreasing values of sigma (sum of divisors, A000203).",
+  "id": "A285893",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001221",
+    "A001222",
+    "A028965",
+    "A284597",
+    "A286287",
+    "A286288"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

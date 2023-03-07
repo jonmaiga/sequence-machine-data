@@ -1,0 +1,17 @@
+{
+  "description": "Smallest prime factor of p^p - 1 that is congruent to 1 modulo p where p = prime(n).",
+  "id": "A212552",
+  "mentions": [
+    "A187023"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

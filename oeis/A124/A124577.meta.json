@@ -1,0 +1,26 @@
+{
+  "description": "Define p(alpha) to be the number of H-conjugacy classes where H is a Young subgroup of type alpha of the symmetric group S_n. Then a(n) = sum p(alpha) where |alpha| = n and alpha has at most n parts.",
+  "id": "A124577",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A008284",
+    "A093695",
+    "A124578",
+    "A209664",
+    "A209673",
+    "A246935",
+    "A291698"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

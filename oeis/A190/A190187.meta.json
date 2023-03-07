@@ -1,0 +1,20 @@
+{
+  "description": "Denominator of expression W_n occurring in analysis of bubble sort.",
+  "id": "A190187",
+  "mentions": [
+    "A190186",
+    "A190194"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

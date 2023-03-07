@@ -1,0 +1,26 @@
+{
+  "description": "Multiples of 10 in the EKG sequence A064413.",
+  "id": "A158814",
+  "mentions": [
+    "A008588",
+    "A008591",
+    "A008592",
+    "A064413",
+    "A064469",
+    "A115510",
+    "A155963",
+    "A158486",
+    "A158504",
+    "A158605"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

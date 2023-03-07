@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = binomial(3^(n-1), n).",
+  "id": "A179431",
+  "mentions": [
+    "A136393",
+    "A179430",
+    "A179432",
+    "A179433",
+    "A179434"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

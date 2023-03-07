@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to write n = p+q+(n mod 2)q, where p is an odd prime and q<=n/2 is a prime such that JacobiSymbol[q,n]=1 if n is odd, and JacobiSymbol[(q+1)/2,n+1]=1 if n is even",
+  "id": "A191004",
+  "mentions": [
+    "A002375",
+    "A046927",
+    "A185150"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

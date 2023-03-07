@@ -1,0 +1,17 @@
+{
+  "description": "Number of tilings of a 7 X n rectangle using monominoes and trominoes of any shape.",
+  "id": "A270067",
+  "mentions": [
+    "A270061"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

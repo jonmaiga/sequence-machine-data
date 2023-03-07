@@ -1,0 +1,22 @@
+{
+  "description": "Coefficients of a recursive polynomial based on Chaitin's S expressions: a(0)=1; a(1)=x; a(2)=1; a(n)=vector(a(n-1)).reverse(a(n-1)).",
+  "id": "A176703",
+  "mentions": [
+    "A025227",
+    "A025262",
+    "A072851",
+    "A124027"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

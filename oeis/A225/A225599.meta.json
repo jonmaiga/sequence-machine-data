@@ -1,0 +1,34 @@
+{
+  "description": "Triangle read by rows: T(n,k) = sum of all parts that start in the k-th column of the diagram of regions of the set of partitions of n.",
+  "id": "A225599",
+  "mentions": [
+    "A000012",
+    "A000041",
+    "A006128",
+    "A066186",
+    "A135010",
+    "A141285",
+    "A176572",
+    "A186114",
+    "A186412",
+    "A187219",
+    "A193870",
+    "A194446",
+    "A206437",
+    "A211978",
+    "A225598",
+    "A225600",
+    "A225610"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

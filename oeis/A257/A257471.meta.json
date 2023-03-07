@@ -1,0 +1,20 @@
+{
+  "description": "Sequence obtained from A003991 (multiplication table read by antidiagonals) by removing repetitions.",
+  "id": "A257471",
+  "mentions": [
+    "A003991",
+    "A257472"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

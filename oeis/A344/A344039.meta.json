@@ -1,0 +1,24 @@
+{
+  "description": "Number of n-step self-avoiding walks on the hypertriangular lattice with no non-contiguous adjacencies.",
+  "id": "A344039",
+  "mentions": [
+    "A046945",
+    "A336906",
+    "A336907",
+    "A344040",
+    "A344070",
+    "A344126"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

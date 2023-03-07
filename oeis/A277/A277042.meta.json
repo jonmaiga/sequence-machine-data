@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: A(x) = x/Series_Reversion[x*G(x)] where A(x*G(x)) = G(x) = g.f. of A277041.",
+  "id": "A277042",
+  "mentions": [
+    "A144692",
+    "A277040",
+    "A277041",
+    "A277043"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers whose number of prime factors counted with multiplicity (A001222) is not a perfect square.",
+  "id": "A323521",
+  "mentions": [
+    "A000037",
+    "A000290",
+    "A001222",
+    "A026478",
+    "A063989",
+    "A323519",
+    "A323520",
+    "A323527"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

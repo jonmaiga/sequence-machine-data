@@ -1,0 +1,24 @@
+{
+  "description": "E ist der erste, sechste, achte, zwoelfte, vierzehnte, neunzehnte, vierundzwanzigste,... Buchstabe dieses Satzes, Kommas und Leerstellen nicht mitgezaehlt.",
+  "id": "A123303",
+  "mentions": [
+    "A005224",
+    "A014367",
+    "A072421",
+    "A072423",
+    "A080517",
+    "A080520"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

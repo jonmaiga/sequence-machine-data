@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that divide the average of the squares of their aliquot parts.",
+  "id": "A255245",
+  "mentions": [
+    "A001065",
+    "A140362",
+    "A255244"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

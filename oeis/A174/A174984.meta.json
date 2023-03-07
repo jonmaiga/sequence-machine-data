@@ -1,0 +1,19 @@
+{
+  "description": "Start with n, iterate the map k -> A167507(k) until we reach 3; a(n) = number of steps required.",
+  "id": "A174984",
+  "mentions": [
+    "A167507",
+    "A174985"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T(n,k) = lcm(1,...,2n+2)/((k+1)*binomial(2k+2,k+1)).",
+  "id": "A120101",
+  "mentions": [
+    "A051538",
+    "A068553",
+    "A119634",
+    "A119636",
+    "A120106",
+    "A120107",
+    "A120113"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to write 2n-1 = p+q with q practical, p and p^4+q^4 both prime.",
+  "id": "A209254",
+  "mentions": [
+    "A000040",
+    "A005153",
+    "A036468",
+    "A208243",
+    "A208244",
+    "A208246",
+    "A209253"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

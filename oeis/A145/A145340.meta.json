@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = the maximum of d(p(n)-1) and d(p(n)+1), where d(m) is the number of divisors of m and p(n) is the n-th prime.",
+  "id": "A145340",
+  "mentions": [
+    "A008328",
+    "A008329",
+    "A067889",
+    "A103664",
+    "A103665",
+    "A145339"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

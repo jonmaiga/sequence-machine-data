@@ -1,0 +1,22 @@
+{
+  "description": "Number of values of k, 1 <= k <= n, with f(k) = f(n), where f(n) = [A001222(n), A061395(n)].",
+  "id": "A331295",
+  "mentions": [
+    "A001222",
+    "A061395",
+    "A078899",
+    "A331296",
+    "A331297",
+    "A331298"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

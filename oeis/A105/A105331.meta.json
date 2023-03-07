@@ -1,0 +1,21 @@
+{
+  "description": "Numbers of the form 2^n*(2^(n+1)+2n+1) where 2^(n+1)+2n+1 is prime.",
+  "id": "A105331",
+  "mentions": [
+    "A007503",
+    "A083874",
+    "A105330"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

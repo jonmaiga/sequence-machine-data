@@ -1,0 +1,28 @@
+{
+  "description": "Number of self-conjugate set partitions of {1, ..., n}.",
+  "id": "A306417",
+  "mentions": [
+    "A000110",
+    "A000126",
+    "A000296",
+    "A001610",
+    "A032032",
+    "A052841",
+    "A080107",
+    "A169985",
+    "A306416",
+    "A324011",
+    "A324012"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

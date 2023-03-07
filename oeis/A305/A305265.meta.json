@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 12*2^n + 62.",
+  "id": "A305265",
+  "mentions": [
+    "A305266",
+    "A305267",
+    "A305268"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

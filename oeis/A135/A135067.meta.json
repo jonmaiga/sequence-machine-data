@@ -1,0 +1,23 @@
+{
+  "description": "Palindromic cubes p^3, where p is a prime.",
+  "id": "A135067",
+  "mentions": [
+    "A002780",
+    "A002781",
+    "A069748",
+    "A135066"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

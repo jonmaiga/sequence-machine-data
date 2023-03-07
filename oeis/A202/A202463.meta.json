@@ -1,0 +1,19 @@
+{
+  "description": "First number of divisor symmetry n: d(n-k) = d(n+k) for 1 <= k <= n, but d(n-k-1) != d(n+k+1).",
+  "id": "A202463",
+  "mentions": [
+    "A006558",
+    "A093492"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

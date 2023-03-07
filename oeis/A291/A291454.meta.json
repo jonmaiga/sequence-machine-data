@@ -1,0 +1,21 @@
+{
+  "description": "Number of half tones between successive pitches in a major scale.",
+  "id": "A291454",
+  "mentions": [
+    "A083026",
+    "A286748"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "hear",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:00:01",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

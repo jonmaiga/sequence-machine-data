@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX5 0..2 arrays with rows and columns lexicographically nondecreasing read forwards and nonincreasing read backwards",
+  "id": "A201697",
+  "mentions": [
+    "A201700"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

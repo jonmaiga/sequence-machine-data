@@ -1,0 +1,17 @@
+{
+  "description": "Number of nXnXn triangular 0..3 arrays with new values introduced in sequential zero-upwards order and exactly one inverted 2x2x2 triangle having values all equal.",
+  "id": "A271402",
+  "mentions": [
+    "A271407"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

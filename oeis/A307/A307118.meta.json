@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 0; for n>1, a(n) = dr(n-1) + dr(n) + dr(n+1), where dr(n) is the number of nontrivial divisors of n (A070824).",
+  "id": "A307118",
+  "mentions": [
+    "A070824",
+    "A307119",
+    "A307120"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

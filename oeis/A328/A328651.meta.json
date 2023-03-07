@@ -1,0 +1,23 @@
+{
+  "description": "Composite k for which lcm(k, phi(k)) + lcm(k, tau(k)) = lcm(k, sigma(k)).",
+  "id": "A328651",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203",
+    "A009230",
+    "A009242",
+    "A009262",
+    "A326416"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Copies of 7,3 and 1 cyclically such that every partial concatenation is a prime.",
+  "id": "A110792",
+  "mentions": [
+    "A110774",
+    "A110775",
+    "A110776",
+    "A110777",
+    "A110778",
+    "A110779",
+    "A110780",
+    "A110781",
+    "A110782",
+    "A110783",
+    "A110788",
+    "A110789",
+    "A110790",
+    "A110791",
+    "A110793"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 00:35:45",
+    "offset": 1,
+    "size": 9,
+    "source": "joeis"
+  }
+}

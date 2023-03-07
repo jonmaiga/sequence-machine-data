@@ -1,0 +1,18 @@
+{
+  "description": "Triangle where T(n,k) is the number of compositions of n where no pair of consecutive part sizes is relative prime, starting with a part of size k.",
+  "id": "A178471",
+  "mentions": [
+    "A178470"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

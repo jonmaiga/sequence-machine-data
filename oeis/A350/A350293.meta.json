@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the 1st saturated vertex Turán number for the cube graph Q_n.",
+  "id": "A350293",
+  "mentions": [
+    "A000225",
+    "A350292",
+    "A350294"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

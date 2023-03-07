@@ -1,0 +1,20 @@
+{
+  "description": "Composite squarefree numbers n such that p+d(n) divides n+d(n), where p are the prime factors of n and d(n) the number of divisors of n.",
+  "id": "A228299",
+  "mentions": [
+    "A000005",
+    "A120944",
+    "A228300",
+    "A228302"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Irregular array read by rows: Row n contains A043276(n) terms. a(n,m) = number of runs (of either 0 or 1) of length m in the binary representation of n.",
+  "id": "A175358",
+  "mentions": [
+    "A043276"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

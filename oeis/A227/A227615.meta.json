@@ -1,0 +1,21 @@
+{
+  "description": "Number of bits necessary to represent u(n) in binary, where u is the Lucas-Lehmer sequence: u(0) = 100 (in binary); for n>0, u(n) = u(n-1)^2 - 2.",
+  "id": "A227615",
+  "mentions": [
+    "A003010",
+    "A070939",
+    "A227608"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

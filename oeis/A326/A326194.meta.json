@@ -1,0 +1,22 @@
+{
+  "description": "Number of iterations of x -> A009194(x) needed to reach a fixed point when starting from x = n, where A009194(x) = gcd(x, sigma(x)).",
+  "id": "A326194",
+  "mentions": [
+    "A000203",
+    "A007691",
+    "A009194",
+    "A326195",
+    "A326196"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

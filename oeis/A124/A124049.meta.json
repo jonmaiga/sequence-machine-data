@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = c is least number such that 10^n/2 -/+ c are primes.",
+  "id": "A124049",
+  "mentions": [
+    "A065577",
+    "A108163",
+    "A124013",
+    "A124450"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

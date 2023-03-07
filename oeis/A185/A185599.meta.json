@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor(n^(3/2) - n^(1/2)) - n; complement of A185600.",
+  "id": "A185599",
+  "mentions": [
+    "A185600",
+    "A185601",
+    "A185602"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:55:35",
+    "offset": 3,
+    "size": 78,
+    "source": "joeis"
+  }
+}

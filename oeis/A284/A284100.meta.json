@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{d|n, d==1 (mod 8)} d.",
+  "id": "A284100",
+  "mentions": [
+    "A000593",
+    "A050449",
+    "A078181",
+    "A277090",
+    "A284097",
+    "A284098",
+    "A284099"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

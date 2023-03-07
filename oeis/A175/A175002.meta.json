@@ -1,0 +1,22 @@
+{
+  "description": "Number of stable n-celled patterns (\"still lifes\") in the Maze (B3/S12345) cellular automaton.",
+  "id": "A175002",
+  "mentions": [
+    "A019473",
+    "A166476",
+    "A175000",
+    "A175001"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

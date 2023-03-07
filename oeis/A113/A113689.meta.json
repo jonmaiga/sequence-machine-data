@@ -1,0 +1,32 @@
+{
+  "description": "Number of semiprimes in clumps of size > 1 through n^2 in the semiprime spiral.",
+  "id": "A113689",
+  "mentions": [
+    "A001107",
+    "A001358",
+    "A002939",
+    "A002943",
+    "A004526",
+    "A005620",
+    "A007742",
+    "A033951",
+    "A033954",
+    "A033988",
+    "A033989",
+    "A033991",
+    "A033996",
+    "A063826",
+    "A113688"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

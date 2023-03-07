@@ -1,0 +1,19 @@
+{
+  "description": "Number of equilateral triangles bounded by the sides and diagonals of a regular 3n-gon.",
+  "id": "A238822",
+  "mentions": [
+    "A006561"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

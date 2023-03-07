@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that exactly one of n+-1 and n+-2 is prime.",
+  "id": "A168064",
+  "mentions": [
+    "A000040",
+    "A100317",
+    "A141468"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

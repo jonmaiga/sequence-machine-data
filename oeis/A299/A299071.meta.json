@@ -1,0 +1,32 @@
+{
+  "description": "Union_{odd primes p, n >= 3} {T_p(n)}, where T_m(x) = x*T_{m-1}(x) - T_{m-2}(x), m >= 2, T_0(x) = 2, T_1(x) = x (dilated Chebyshev polynomials of the first kind).",
+  "id": "A299071",
+  "mentions": [
+    "A008865",
+    "A088165",
+    "A113501",
+    "A117522",
+    "A269253",
+    "A269254",
+    "A285992",
+    "A294099",
+    "A298675",
+    "A298677",
+    "A298878",
+    "A299045",
+    "A299100",
+    "A299101",
+    "A299107",
+    "A299109"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

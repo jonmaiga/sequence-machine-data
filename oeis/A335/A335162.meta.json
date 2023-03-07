@@ -1,0 +1,32 @@
+{
+  "description": "Array read by upward antidiagonals: T(n,k) (n >= 0, k >= 0) = nim k-th power of n.",
+  "id": "A335162",
+  "mentions": [
+    "A003987",
+    "A006042",
+    "A051775",
+    "A059971",
+    "A212200",
+    "A223541",
+    "A335163",
+    "A335169",
+    "A335170",
+    "A335171",
+    "A335172",
+    "A335173",
+    "A335535",
+    "A335536"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

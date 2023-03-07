@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k*2^101 + 1 is a prime factor of 10^(10^100) + 1.",
+  "id": "A341115",
+  "mentions": [
+    "A072288",
+    "A341116"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

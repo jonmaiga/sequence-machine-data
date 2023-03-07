@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that d(r,k) != d(s,k), where d(x,k) = k-th binary digit of x, r = {golden ratio}, s = {(golden ratio)/2}, and { } = fractional part.",
+  "id": "A247524",
+  "mentions": [
+    "A247423",
+    "A247523"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

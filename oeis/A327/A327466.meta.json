@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonempty subsets of [1..n] which are geometric progressions with rational ratio and are locally maximal.",
+  "id": "A327466",
+  "mentions": [
+    "A309095",
+    "A327469"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

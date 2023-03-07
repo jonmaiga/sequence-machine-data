@@ -1,0 +1,18 @@
+{
+  "description": "Denominators of coefficients in Taylor series expansion of exp(cosec(x)-cotanh(x)).",
+  "id": "A202382",
+  "mentions": [
+    "A013536"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

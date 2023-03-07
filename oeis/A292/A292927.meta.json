@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies: A( x^2*A(x) - x*A(x)^3 ) = x^3.",
+  "id": "A292927",
+  "mentions": [
+    "A265940",
+    "A268039",
+    "A272463",
+    "A292928"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

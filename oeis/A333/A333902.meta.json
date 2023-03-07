@@ -1,0 +1,17 @@
+{
+  "description": "Number of nonequivalent 3 X n nonnegative integer matrices with all column sums 3 and row sums n up to permutation of rows.",
+  "id": "A333902",
+  "mentions": [
+    "A257462"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of n X n matrices over GF(2) that can be decomposed as the direct sum of k cyclic matrices, 0<=k<=n, n>=0.",
+  "id": "A346677",
+  "mentions": [
+    "A001037",
+    "A002416",
+    "A132186"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

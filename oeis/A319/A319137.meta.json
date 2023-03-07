@@ -1,0 +1,32 @@
+{
+  "description": "Number of strict planar branching factorizations of n.",
+  "id": "A319137",
+  "mentions": [
+    "A000108",
+    "A001055",
+    "A045778",
+    "A074206",
+    "A118376",
+    "A277130",
+    "A281113",
+    "A281118",
+    "A292504",
+    "A295279",
+    "A295281",
+    "A317144",
+    "A319122",
+    "A319123",
+    "A319138"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Number of times 3 appears in decimal expansion of n.",
+  "id": "A316864",
+  "mentions": [
+    "A043501",
+    "A043502",
+    "A043503",
+    "A043504",
+    "A055641",
+    "A102683",
+    "A268643",
+    "A316865",
+    "A316866",
+    "A316867",
+    "A316868",
+    "A316869"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

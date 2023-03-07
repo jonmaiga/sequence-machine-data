@@ -1,0 +1,21 @@
+{
+  "description": "Dirichlet convolution of psi(n) with itself.",
+  "id": "A306379",
+  "mentions": [
+    "A001615",
+    "A001620"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k that divide 3^k - 2^k - 1.",
+  "id": "A127072",
+  "mentions": [
+    "A127071",
+    "A127073",
+    "A127074"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

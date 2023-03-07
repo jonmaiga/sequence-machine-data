@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number m such that binomial(m,n) is nonzero and is divisible by n!.",
+  "id": "A320920",
+  "mentions": [
+    "A042948",
+    "A316775",
+    "A320919"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

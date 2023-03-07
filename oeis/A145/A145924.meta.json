@@ -1,0 +1,22 @@
+{
+  "description": "Last digit of A145923(n).",
+  "id": "A145924",
+  "mentions": [
+    "A010879",
+    "A107449",
+    "A145923"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:07:43",
+    "offset": 0,
+    "size": 85,
+    "source": "joeis"
+  }
+}

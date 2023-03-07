@@ -1,0 +1,20 @@
+{
+  "description": "Fecundity of n-th Fibonacci number.",
+  "id": "A145279",
+  "mentions": [
+    "A070562",
+    "A145280"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

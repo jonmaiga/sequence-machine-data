@@ -1,0 +1,19 @@
+{
+  "description": "Number of 4-regular 4-edge-connected planar simple graphs on n vertices.",
+  "id": "A292515",
+  "mentions": [
+    "A072552",
+    "A078666"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

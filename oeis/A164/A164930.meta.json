@@ -1,0 +1,22 @@
+{
+  "description": "Sum of odd prime divisors of numbers with all odd prime divisors of the form 6k+5.",
+  "id": "A164930",
+  "mentions": [
+    "A000040",
+    "A007528",
+    "A164927",
+    "A164928",
+    "A164929"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

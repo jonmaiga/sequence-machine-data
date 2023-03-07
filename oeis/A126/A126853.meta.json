@@ -1,0 +1,22 @@
+{
+  "description": "Table read by antidiagonals: B(n,m) is the numerator of the Bernoulli polynomial of order m and degree n evaluated at x=0.",
+  "id": "A126853",
+  "mentions": [
+    "A002657",
+    "A014973",
+    "A160039"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

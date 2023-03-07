@@ -1,0 +1,18 @@
+{
+  "description": "Number of positive integers k with 1 < k < n such that n occurs in the Reverse-and-Multiply trajectory of k.",
+  "id": "A355549",
+  "mentions": [
+    "A355550"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

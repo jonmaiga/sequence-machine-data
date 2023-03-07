@@ -1,0 +1,21 @@
+{
+  "description": "Digital root of squares of numbers not divisible by 2, 3 or 5.",
+  "id": "A240924",
+  "mentions": [
+    "A007775",
+    "A166923"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:49:21",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

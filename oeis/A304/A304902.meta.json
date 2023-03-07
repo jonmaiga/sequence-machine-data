@@ -1,0 +1,18 @@
+{
+  "description": "Let (P,<) be the strict partial order on the subsets of {1,2,...,n} ordered by their cardinality. Then a(n) is the number of paths of any length from {} to {1,2,...,n}.",
+  "id": "A304902",
+  "mentions": [
+    "A000670",
+    "A001142"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

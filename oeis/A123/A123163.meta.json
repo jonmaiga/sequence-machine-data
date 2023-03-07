@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: binomial[(n-m)^2,m^2].",
+  "id": "A123163",
+  "mentions": [
+    "A011973",
+    "A123165"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Integers m that are not the product of k-th prime and k for any k >= 1.",
+  "id": "A171520",
+  "mentions": [
+    "A033286"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:12:49",
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

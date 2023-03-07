@@ -1,0 +1,17 @@
+{
+  "description": "n+sigma(n)+sigma(sigma(n)) is a semiprime (A001358).",
+  "id": "A116051",
+  "mentions": [
+    "A001358"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

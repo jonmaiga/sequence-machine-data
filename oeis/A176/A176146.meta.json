@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n-th-semiprime without last digit.",
+  "id": "A176146",
+  "mentions": [
+    "A001358",
+    "A106146",
+    "A131109",
+    "A176044"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

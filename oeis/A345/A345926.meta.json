@@ -1,0 +1,42 @@
+{
+  "description": "Number of distinct possible alternating sums of permutations of the multiset of prime indices of n.",
+  "id": "A345926",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A000290",
+    "A001414",
+    "A008549",
+    "A027746",
+    "A032443",
+    "A056239",
+    "A083399",
+    "A096825",
+    "A097805",
+    "A103919",
+    "A112798",
+    "A239830",
+    "A316524",
+    "A343943",
+    "A344607",
+    "A344609",
+    "A344610",
+    "A344612",
+    "A344616",
+    "A344651",
+    "A345197",
+    "A345957",
+    "A345960",
+    "A345961"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of inversion sequences avoiding the vincular pattern 2-01 (or 2-10).",
+  "id": "A336072",
+  "mentions": [
+    "A000079",
+    "A000110",
+    "A022493",
+    "A091768",
+    "A102038",
+    "A113227",
+    "A263777",
+    "A328441",
+    "A336070",
+    "A336071"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

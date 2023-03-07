@@ -1,0 +1,21 @@
+{
+  "description": "Number of square satins of order n.",
+  "id": "A193138",
+  "mentions": [
+    "A008784",
+    "A157228",
+    "A193139",
+    "A193140"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 3,
+    "size": 118,
+    "source": "oeis-entry"
+  }
+}

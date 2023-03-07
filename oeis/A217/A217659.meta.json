@@ -1,0 +1,19 @@
+{
+  "description": "Larger of two consecutive primes which both equal 1 (mod 3).",
+  "id": "A217659",
+  "mentions": [
+    "A151800",
+    "A185934",
+    "A219244"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

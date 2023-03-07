@@ -1,0 +1,34 @@
+{
+  "description": "Number of widely alternately strongly normal integer partitions of n.",
+  "id": "A332292",
+  "mentions": [
+    "A000009",
+    "A100883",
+    "A181819",
+    "A317081",
+    "A317245",
+    "A317256",
+    "A317491",
+    "A329746",
+    "A329747",
+    "A332277",
+    "A332278",
+    "A332289",
+    "A332290",
+    "A332291",
+    "A332297",
+    "A332337",
+    "A332340"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

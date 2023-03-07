@@ -1,0 +1,17 @@
+{
+  "description": "Number of multimin-partitions of normal multisets of weight n.",
+  "id": "A255397",
+  "mentions": [
+    "A262671"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

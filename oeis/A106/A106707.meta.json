@@ -1,0 +1,20 @@
+{
+  "description": "First entry of the vector (M^n)v, where M is the 2 X 2 matrix [[0,-1],[1,4]] and v is the column vector [0,1].",
+  "id": "A106707",
+  "mentions": [
+    "A001076",
+    "A001353"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:58",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

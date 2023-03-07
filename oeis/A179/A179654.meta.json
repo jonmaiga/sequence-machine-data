@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the numbers already removed (including the target number) in the first jump of a Sieve of Eratosthenes table.",
+  "id": "A179654",
+  "mentions": [
+    "A000040",
+    "A179628"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

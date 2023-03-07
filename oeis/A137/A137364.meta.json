@@ -1,0 +1,19 @@
+{
+  "description": "Prime numbers n such that n = p1^2 + p2^2 + p3^2, a sum of squares of 3 distinct prime numbers.",
+  "id": "A137364",
+  "mentions": [
+    "A182479",
+    "A243342"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

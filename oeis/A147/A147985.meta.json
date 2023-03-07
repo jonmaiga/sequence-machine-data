@@ -1,0 +1,27 @@
+{
+  "description": "Coefficients of numerator polynomials S(n,x) associated with reciprocation.",
+  "id": "A147985",
+  "mentions": [
+    "A127814",
+    "A147986",
+    "A147987",
+    "A147988",
+    "A147989",
+    "A147990",
+    "A147991",
+    "A147992",
+    "A147993"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

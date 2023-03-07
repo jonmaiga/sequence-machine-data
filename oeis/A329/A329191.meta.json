@@ -1,0 +1,21 @@
+{
+  "description": "The prime divisors of the orders of the sporadic finite simple groups.",
+  "id": "A329191",
+  "mentions": [
+    "A001228",
+    "A005180",
+    "A174670"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways of writing n as sum of a deficient number (A005100) and abundant number (A005101).",
+  "id": "A283763",
+  "mentions": [
+    "A005100",
+    "A005101"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

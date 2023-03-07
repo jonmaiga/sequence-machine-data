@@ -1,0 +1,31 @@
+{
+  "description": "a(n)=n if n=1 or if n=prime. Otherwise, n=4 if n is even and n=7 if n is odd.",
+  "id": "A135682",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A014681",
+    "A014682",
+    "A014683",
+    "A014684",
+    "A014685",
+    "A014686",
+    "A014687",
+    "A014688",
+    "A014689",
+    "A014690",
+    "A135679",
+    "A135680",
+    "A135681"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

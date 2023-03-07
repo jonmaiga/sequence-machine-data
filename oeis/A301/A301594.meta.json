@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + x^k)^A001615(k), where A001615 is the Dedekind psi function.",
+  "id": "A301594",
+  "mentions": [
+    "A001615",
+    "A156303"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:37:40",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

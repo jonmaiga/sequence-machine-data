@@ -1,0 +1,20 @@
+{
+  "description": "Prime powers q in A246655 such that q^2 + q + 1 is prime.",
+  "id": "A342690",
+  "mentions": [
+    "A002384",
+    "A246655",
+    "A342691",
+    "A344448"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

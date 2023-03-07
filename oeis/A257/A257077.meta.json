@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = prime(n)-prime(1)-prime(2)-...-prime(k), while the result > 0.",
+  "id": "A257077",
+  "mentions": [
+    "A007504",
+    "A013918",
+    "A053845"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

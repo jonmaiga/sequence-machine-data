@@ -1,0 +1,22 @@
+{
+  "description": "First differences of A293230: how many more alive nodes there are in generation n+1 than in generation n in the binary tree of persistently squarefree numbers.",
+  "id": "A293440",
+  "mentions": [
+    "A293230",
+    "A293441",
+    "A293520",
+    "A293521",
+    "A293522"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

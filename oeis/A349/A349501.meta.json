@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least start of a run of exactly n consecutive numbers with the same length of the continued fraction of the harmonic mean of their divisors (A349474).",
+  "id": "A349501",
+  "mentions": [
+    "A349474",
+    "A349499",
+    "A349500"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Superabundant numbers (A004394) that are not highly composite (A002182).",
+  "id": "A166735",
+  "mentions": [
+    "A002182",
+    "A004394",
+    "A166981",
+    "A189228"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

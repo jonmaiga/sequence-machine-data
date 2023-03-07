@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of the probability that the first player wins the game Super Six if both players have n sticks in their hand and if there are 3 sticks on the lid, assuming optimal play.",
+  "id": "A349698",
+  "mentions": [
+    "A345383",
+    "A349697"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-bfile"
+  }
+}

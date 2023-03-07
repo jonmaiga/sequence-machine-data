@@ -1,0 +1,21 @@
+{
+  "description": "Number of months after which a date can fall on the same day of the week, and the two months can have the same number of days, in the Gregorian calendar.",
+  "id": "A231006",
+  "mentions": [
+    "A230995",
+    "A231005",
+    "A231011",
+    "A231014"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

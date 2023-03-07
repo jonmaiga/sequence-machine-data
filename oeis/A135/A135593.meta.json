@@ -1,0 +1,21 @@
+{
+  "description": "Number of n X n symmetric (0,1)-matrices with exactly n+1 entries equal to 1 and no zero rows or columns.",
+  "id": "A135593",
+  "mentions": [
+    "A000085",
+    "A055602",
+    "A086364"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 2,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

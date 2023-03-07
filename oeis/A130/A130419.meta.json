@@ -1,0 +1,19 @@
+{
+  "description": "Triangle (of n terms per row) where t(n,m) = the m-th positive integer which is coprime to n!!. (n!! = n*(n-2)*(n-4)..*(2 or 1).).",
+  "id": "A130419",
+  "mentions": [
+    "A130418",
+    "A130420"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

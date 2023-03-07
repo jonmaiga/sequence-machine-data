@@ -1,0 +1,17 @@
+{
+  "description": "Numbers of the form p^2 - q^2, p, q primes, p > q, with repetitions.",
+  "id": "A168469",
+  "mentions": [
+    "A124865"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

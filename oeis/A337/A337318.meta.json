@@ -1,0 +1,19 @@
+{
+  "description": "Total number of nodes summed over all nonnegative lattice paths from (0,0) to (n,0) where the allowed steps at (x,y) are (h,v) with h in {1..max(1,y)} and v in {-1,0,1}.",
+  "id": "A337318",
+  "mentions": [
+    "A337067",
+    "A337863"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

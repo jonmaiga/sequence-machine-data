@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the Narumi-Katayama index of the Fibonacci cube Gamma(n).",
+  "id": "A307157",
+  "mentions": [
+    "A000045",
+    "A245825"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

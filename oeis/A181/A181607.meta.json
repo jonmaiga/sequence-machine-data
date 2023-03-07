@@ -1,0 +1,28 @@
+{
+  "description": "Numbers n with k digits such that n^2 == 1 (mod 10^k).",
+  "id": "A181607",
+  "mentions": [
+    "A002283",
+    "A007185",
+    "A016090",
+    "A033819",
+    "A198971",
+    "A199685",
+    "A224473",
+    "A224474",
+    "A224475",
+    "A224476"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

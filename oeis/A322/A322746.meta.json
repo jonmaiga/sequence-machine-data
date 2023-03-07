@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1/2 * (-1 + Sum_{k=0..n} binomial(2*n,2*k)*(n+1)^(n-k)*n^k).",
+  "id": "A322746",
+  "mentions": [
+    "A173174",
+    "A322699",
+    "A322747"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

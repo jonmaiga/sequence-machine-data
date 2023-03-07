@@ -1,0 +1,28 @@
+{
+  "description": "Number of partitions of n into 7 distinct and relatively prime parts.",
+  "id": "A339672",
+  "mentions": [
+    "A023022",
+    "A023027",
+    "A023032",
+    "A078374",
+    "A101271",
+    "A340719",
+    "A341868",
+    "A341870",
+    "A341912",
+    "A341913",
+    "A341914"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 28,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

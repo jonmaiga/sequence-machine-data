@@ -1,0 +1,31 @@
+{
+  "description": "Number T(n, k) of ways to place k points on an n X n X n triangular grid so that no pair of them has distance sqrt(3). Triangle read by rows.",
+  "id": "A244500",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A000217",
+    "A000326",
+    "A033536",
+    "A045943",
+    "A086274",
+    "A244501",
+    "A244502",
+    "A244503",
+    "A244506",
+    "A244507",
+    "A287195",
+    "A287204"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

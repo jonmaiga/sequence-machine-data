@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) = binomial(n,k)^2 * binomial(2*(n-k), n-k).",
+  "id": "A318397",
+  "mentions": [
+    "A002893",
+    "A008459"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

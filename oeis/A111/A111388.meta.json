@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = floor(log(A111288(n))).",
+  "id": "A111388",
+  "mentions": [
+    "A111288"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

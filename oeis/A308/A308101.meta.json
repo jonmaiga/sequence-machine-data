@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that set records for longest chains of \"chained prime factors\" of A308099.",
+  "id": "A308101",
+  "mentions": [
+    "A308099",
+    "A308252"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of 1/(Sum_{i>=0} q^(2*i*(i+1))/Product_{j=0..i} (1 + q^(2*j+1) + q^(4*j+2))).",
+  "id": "A294600",
+  "mentions": [
+    "A053255",
+    "A294407",
+    "A294408",
+    "A294598",
+    "A294599"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

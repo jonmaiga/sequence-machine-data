@@ -1,0 +1,23 @@
+{
+  "description": "Number of primes of the form (x+1)^7 - x^7 having n digits.",
+  "id": "A221978",
+  "mentions": [
+    "A006879",
+    "A121618",
+    "A121619",
+    "A221792",
+    "A221847"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

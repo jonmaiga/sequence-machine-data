@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) (0 <= k <= n) = chi(k)*binomial(n,k), where chi(k) = 1,-1,0 according as k == 0,1,2 mod 3.",
+  "id": "A225682",
+  "mentions": [
+    "A000079",
+    "A072335",
+    "A076264",
+    "A200781",
+    "A200782"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

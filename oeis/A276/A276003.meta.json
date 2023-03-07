@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n for which A060502(n) = 3; numbers with exactly three occupied slopes in their factorial representation.",
+  "id": "A276003",
+  "mentions": [
+    "A060130",
+    "A060498",
+    "A060502",
+    "A276001",
+    "A276002"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

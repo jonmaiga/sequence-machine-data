@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the index of the first occurrence of exactly n zeta zeros in the interval between g(n) and g(n+1) Gram points.",
+  "id": "A331100",
+  "mentions": [
+    "A114856",
+    "A254297",
+    "A255739",
+    "A255742",
+    "A325932",
+    "A326502",
+    "A326890",
+    "A327543"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

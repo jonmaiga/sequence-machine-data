@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the sum of infinitary divisors of n that are powerful (A001694).",
+  "id": "A360722",
+  "mentions": [
+    "A001694",
+    "A049417",
+    "A077609",
+    "A077610",
+    "A183097",
+    "A360721",
+    "A360723"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

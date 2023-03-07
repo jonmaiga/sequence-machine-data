@@ -1,0 +1,24 @@
+{
+  "description": "Squares which are the sum of consecutive squares starting with 25^2.",
+  "id": "A180259",
+  "mentions": [
+    "A001032",
+    "A094196",
+    "A151557",
+    "A180273",
+    "A180442",
+    "A184763"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

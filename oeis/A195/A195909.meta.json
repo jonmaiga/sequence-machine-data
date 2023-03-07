@@ -1,0 +1,31 @@
+{
+  "description": "First numerator and then denominator in a fraction expansion of log(2) - Pi/8.",
+  "id": "A195909",
+  "mentions": [
+    "A004772",
+    "A016655",
+    "A019675",
+    "A075549",
+    "A098289",
+    "A118324",
+    "A144981",
+    "A161685",
+    "A164833",
+    "A168056",
+    "A195697",
+    "A195913",
+    "A195947"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

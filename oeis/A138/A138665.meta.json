@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form 2*p(k)+3*p(k+1)+4*p(k+2) for some k, where p(k)=A000040(k).",
+  "id": "A138665",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

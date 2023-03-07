@@ -1,0 +1,17 @@
+{
+  "description": "In the string b12b2b12 replace b with n 1's.",
+  "id": "A219749",
+  "mentions": [
+    "A219750"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Sum of Pascal triples.",
+  "id": "A259052",
+  "mentions": [
+    "A005408",
+    "A007318",
+    "A014410",
+    "A028263",
+    "A033484",
+    "A258445"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Smallest odd k > 1 such that k*2^n - 1 is a prime number.",
+  "id": "A247202",
+  "mentions": [
+    "A002235",
+    "A126715",
+    "A247479"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

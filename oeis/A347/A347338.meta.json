@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest number k such that tau(k) = tau(k+n), and there is no number m, k < m < k+n such that tau(m) = tau(k).",
+  "id": "A347338",
+  "mentions": [
+    "A000005",
+    "A001223",
+    "A005179",
+    "A005237",
+    "A065559",
+    "A069482",
+    "A276963"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of edges in the Hasse diagram of the subgroup lattice of the symmetric group.",
+  "id": "A218927",
+  "mentions": [
+    "A218925",
+    "A218926",
+    "A218928"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

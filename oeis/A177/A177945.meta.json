@@ -1,0 +1,24 @@
+{
+  "description": "Record values in A177942.",
+  "id": "A177945",
+  "mentions": [
+    "A023200",
+    "A177929",
+    "A177930",
+    "A177931",
+    "A177932",
+    "A177941",
+    "A177942",
+    "A177943"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

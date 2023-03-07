@@ -1,0 +1,23 @@
+{
+  "description": "Primes p for which the continued fraction expansion of sqrt(p) does not have a 1 in the second position.",
+  "id": "A307508",
+  "mentions": [
+    "A040000",
+    "A040002",
+    "A040007",
+    "A063656",
+    "A067614",
+    "A307453",
+    "A334163"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:51",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

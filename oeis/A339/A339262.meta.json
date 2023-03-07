@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the conjecturally maximum possible volume of a polyhedron with 10 vertices inscribed in the unit sphere.",
+  "id": "A339262",
+  "mentions": [
+    "A010527",
+    "A081314",
+    "A081366",
+    "A122553",
+    "A339259",
+    "A339260",
+    "A339261",
+    "A339263"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

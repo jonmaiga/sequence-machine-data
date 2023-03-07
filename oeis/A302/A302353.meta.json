@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = Sum_{k=0..n} k^n*binomial(2*n-k,n).",
+  "id": "A302353",
+  "mentions": [
+    "A000538",
+    "A002054",
+    "A031971",
+    "A101089",
+    "A101090",
+    "A101091",
+    "A254681",
+    "A265612",
+    "A293550",
+    "A293574",
+    "A302352"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

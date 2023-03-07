@@ -1,0 +1,30 @@
+{
+  "description": "Number of finite sets of set partitions of {1,...,n} such that any two have meet {{1},...,{n}}.",
+  "id": "A318394",
+  "mentions": [
+    "A000110",
+    "A000258",
+    "A008277",
+    "A059849",
+    "A060639",
+    "A096827",
+    "A181939",
+    "A318389",
+    "A318390",
+    "A318391",
+    "A318392",
+    "A318531",
+    "A318532"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

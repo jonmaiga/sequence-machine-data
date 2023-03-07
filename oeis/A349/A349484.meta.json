@@ -1,0 +1,20 @@
+{
+  "description": "Niven numbers whose arithmetic derivative is also a Niven number (A005349).",
+  "id": "A349484",
+  "mentions": [
+    "A002808",
+    "A003415",
+    "A005349"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

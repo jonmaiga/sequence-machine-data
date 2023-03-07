@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array: the fission of (p(n,x)) by (q(n,x)), where p(n,x)=x*p(n-1,x)+n+1 with p(0,x)=1, and q(n,x)=x*p(n-1,x)+1 with p(0,x)=1.",
+  "id": "A193973",
+  "mentions": [
+    "A000217",
+    "A193664",
+    "A193842",
+    "A193974"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

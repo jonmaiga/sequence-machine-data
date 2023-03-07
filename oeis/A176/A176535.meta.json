@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (10 + sqrt(105))/2.",
+  "id": "A176535",
+  "mentions": [
+    "A010733",
+    "A176461"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:41:17",
+    "offset": 2,
+    "size": 105,
+    "source": "joeis"
+  }
+}

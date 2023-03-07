@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that the number of odd divisors of (2n)^2 is an odd divisor of (2n)^2, and the number of even divisors of (2n)^2 is an even divisor of (2n)^2.",
+  "id": "A181687",
+  "mentions": [
+    "A016742",
+    "A181795"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

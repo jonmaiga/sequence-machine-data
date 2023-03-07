@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime factor of smallest multiple of prime(n) in A098550.",
+  "id": "A251619",
+  "mentions": [
+    "A020639",
+    "A098550",
+    "A251618",
+    "A251715"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

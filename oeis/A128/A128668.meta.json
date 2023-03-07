@@ -1,0 +1,26 @@
+{
+  "description": "Primes p such that p^2 divides 17^(p-1) - 1.",
+  "id": "A128668",
+  "mentions": [
+    "A001220",
+    "A014127",
+    "A039951",
+    "A090968",
+    "A123692",
+    "A123693",
+    "A128667",
+    "A128669"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

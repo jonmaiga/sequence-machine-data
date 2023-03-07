@@ -1,0 +1,32 @@
+{
+  "description": "Spiral constructed on the nodes of the infinite triangular net in which each term is the least nonnegative integer such that no diagonal contains a repeated term.",
+  "id": "A274820",
+  "mentions": [
+    "A001477",
+    "A269526",
+    "A274528",
+    "A274641",
+    "A274650",
+    "A274821",
+    "A274920",
+    "A274921",
+    "A275606",
+    "A275610",
+    "A296339",
+    "A296342",
+    "A296343",
+    "A296348"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that for any distinct m and n, Product_{k = m+1-a(m)..m} a(k) <> Product_{k = n+1-a(n)..n} a(k).",
+  "id": "A336346",
+  "mentions": [
+    "A338118",
+    "A338283"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Smallest number b such that in base b the prime factors of the n-th semiprime (A001358) have equal lengths.",
+  "id": "A138510",
+  "mentions": [
+    "A001248",
+    "A001358",
+    "A020639",
+    "A078972",
+    "A084126",
+    "A084127",
+    "A085721",
+    "A138511",
+    "A162319",
+    "A174956",
+    "A251725",
+    "A251728",
+    "A252375"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

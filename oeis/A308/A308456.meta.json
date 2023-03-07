@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that cannot be written as a difference of 5-smooth numbers (A051037).",
+  "id": "A308456",
+  "mentions": [
+    "A051037",
+    "A101082",
+    "A290365",
+    "A308247",
+    "A326318",
+    "A326319",
+    "A326320"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

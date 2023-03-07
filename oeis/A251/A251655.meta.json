@@ -1,0 +1,31 @@
+{
+  "description": "4-step Fibonacci sequence starting with 0, 1, 1, 1.",
+  "id": "A251655",
+  "mentions": [
+    "A000078",
+    "A000288",
+    "A001630",
+    "A001631",
+    "A001648",
+    "A073817",
+    "A100532",
+    "A251654",
+    "A251656",
+    "A251672",
+    "A251703",
+    "A251704",
+    "A251705"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:23:31",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

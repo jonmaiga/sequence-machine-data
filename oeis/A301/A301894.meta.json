@@ -1,0 +1,22 @@
+{
+  "description": "Number of real lines on a smooth real cubic surface.",
+  "id": "A301894",
+  "mentions": [
+    "A027363",
+    "A097080",
+    "A238370"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

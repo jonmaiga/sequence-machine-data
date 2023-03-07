@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^k*binomial(n,k)^k.",
+  "id": "A295611",
+  "mentions": [
+    "A167008",
+    "A167010",
+    "A219206",
+    "A220359"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

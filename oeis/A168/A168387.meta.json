@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = the smallest number whose Spanish name contains n distinct letters of the alphabet. 2<=n<=22",
+  "id": "A168387",
+  "mentions": [
+    "A168137"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

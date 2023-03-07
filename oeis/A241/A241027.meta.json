@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime numbers p of length n having a decimal expansion x(1)x(2)... x(n) such that there exists an index j where x(j) = 1 and x(i) = 7 for i<>j, or 0 if no such prime exists.",
+  "id": "A241027",
+  "mentions": [
+    "A241018",
+    "A241019",
+    "A241020",
+    "A241022"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 2,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

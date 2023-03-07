@@ -1,0 +1,23 @@
+{
+  "description": "Expected value of trace(O)^(2n), where O is a 4 X 4 orthogonal matrix randomly selected according to Haar measure.",
+  "id": "A246860",
+  "mentions": [
+    "A000107",
+    "A000108",
+    "A001700",
+    "A099251",
+    "A247304",
+    "A247306"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

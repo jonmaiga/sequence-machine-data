@@ -1,0 +1,21 @@
+{
+  "description": "The number of partitions of n into an even number of parts, each part occurring at most seven times, minus the number of partitions of n into an odd number of parts, each part occurring at most seven times.",
+  "id": "A336767",
+  "mentions": [
+    "A000041",
+    "A106459",
+    "A261775",
+    "A336766"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:22:51",
+    "offset": 0,
+    "size": 67,
+    "source": "joeis"
+  }
+}

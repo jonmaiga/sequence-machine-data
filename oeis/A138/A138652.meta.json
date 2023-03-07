@@ -1,0 +1,23 @@
+{
+  "description": "Number of differences (not all necessarily distinct) between consecutive divisors of 2n which are also divisors of 2n.",
+  "id": "A138652",
+  "mentions": [
+    "A000005",
+    "A060741",
+    "A060763",
+    "A066660",
+    "A360118"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

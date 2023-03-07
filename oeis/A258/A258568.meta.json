@@ -1,0 +1,25 @@
+{
+  "description": "Smallest prime factors of 3-full numbers.",
+  "id": "A258568",
+  "mentions": [
+    "A000040",
+    "A020639",
+    "A036966",
+    "A258567",
+    "A258569",
+    "A258570",
+    "A258571",
+    "A258600"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

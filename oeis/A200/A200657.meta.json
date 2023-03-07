@@ -1,0 +1,19 @@
+{
+  "description": "Successive values y such that Mordell elliptic curve x^3 - y^2 = d has a quadratic extension over rationals.",
+  "id": "A200657",
+  "mentions": [
+    "A200217",
+    "A200656",
+    "A200658"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

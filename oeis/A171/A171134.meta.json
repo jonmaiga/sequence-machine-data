@@ -1,0 +1,20 @@
+{
+  "description": "Similar to A168612, but append on the right a string with the smallest number of 0's followed by a 1.",
+  "id": "A171134",
+  "mentions": [
+    "A168612"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least k such that A122953(k) = n.",
+  "id": "A292924",
+  "mentions": [
+    "A112510",
+    "A122953"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

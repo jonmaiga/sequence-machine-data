@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that p + previousprime(p) is a squarefree number.",
+  "id": "A206626",
+  "mentions": [
+    "A001043",
+    "A001358",
+    "A005117",
+    "A206329",
+    "A206462"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

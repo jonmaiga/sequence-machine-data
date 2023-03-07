@@ -1,0 +1,22 @@
+{
+  "description": "Prime partial sums of safe primes A005385.",
+  "id": "A172036",
+  "mentions": [
+    "A000040",
+    "A005384",
+    "A005385",
+    "A066869"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

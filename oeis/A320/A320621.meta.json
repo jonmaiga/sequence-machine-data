@@ -1,0 +1,18 @@
+{
+  "description": "Number of ordered set partitions of [n] where k = eight is minimal such that for each block b the smallest integer interval containing b has at most k elements.",
+  "id": "A320621",
+  "mentions": [
+    "A276891",
+    "A320558"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 8,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

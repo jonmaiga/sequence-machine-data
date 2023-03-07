@@ -1,0 +1,20 @@
+{
+  "description": "Limit of columns of triangle A112682.",
+  "id": "A117161",
+  "mentions": [
+    "A112682",
+    "A117165",
+    "A117166"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

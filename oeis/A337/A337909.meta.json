@@ -1,0 +1,23 @@
+{
+  "description": "Distinct terms of A080079 in the order in which they appear.",
+  "id": "A337909",
+  "mentions": [
+    "A004761",
+    "A011782",
+    "A053644",
+    "A054429",
+    "A080079",
+    "A280510"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into at most 4 triangular numbers.",
+  "id": "A347732",
+  "mentions": [
+    "A000217",
+    "A023361",
+    "A340949",
+    "A347730",
+    "A347731",
+    "A347733",
+    "A347734"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

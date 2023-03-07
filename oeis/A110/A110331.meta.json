@@ -1,0 +1,22 @@
+{
+  "description": "Row sums of a number triangle related to the Pell numbers.",
+  "id": "A110331",
+  "mentions": [
+    "A007054",
+    "A028387",
+    "A110330",
+    "A165900"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:06:41",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

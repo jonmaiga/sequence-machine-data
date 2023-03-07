@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) (0 <= k <= n) read by rows, arising from the study of rook polynomials.",
+  "id": "A259454",
+  "mentions": [
+    "A000211",
+    "A001924",
+    "A001925",
+    "A001926"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

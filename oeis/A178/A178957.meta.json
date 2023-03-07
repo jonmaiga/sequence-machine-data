@@ -1,0 +1,21 @@
+{
+  "description": "Denominators in expansion of 1/(Sum_{n >= 0} (x^n/n!)*binomial(2n,n)/(n+1)).",
+  "id": "A178957",
+  "mentions": [
+    "A000108",
+    "A144186",
+    "A144187",
+    "A178955",
+    "A178956"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of 4/(1 + 1^2/(3 + 2^2/(5 + 3^2/(7 + ... + (n-1)^2/(2*n-1) )))).",
+  "id": "A345125",
+  "mentions": [
+    "A012244",
+    "A054765",
+    "A054766",
+    "A345259"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 29*n + floor( n/29 ) + 0^( 1-floor( (14+(n mod 29))/29 ) ).",
+  "id": "A249079",
+  "mentions": [
+    "A001622",
+    "A004922",
+    "A004942",
+    "A004962",
+    "A195819"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

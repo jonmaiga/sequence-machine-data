@@ -1,0 +1,23 @@
+{
+  "description": "Number of cyclic group factors in the total decomposition of the abelian non-cyclic group (Z/A033949(n) Z)^x. Row lengths of A281854.",
+  "id": "A281855",
+  "mentions": [
+    "A033949",
+    "A046072",
+    "A281854",
+    "A282623",
+    "A282624",
+    "A282625"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

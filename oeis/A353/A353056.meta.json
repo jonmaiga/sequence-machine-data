@@ -1,0 +1,18 @@
+{
+  "description": "Composite terms of the form k^2+k+1 whose all prime factors are of the same form.",
+  "id": "A353056",
+  "mentions": [
+    "A002383",
+    "A174969"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

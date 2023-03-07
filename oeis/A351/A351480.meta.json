@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of (611 + sqrt(73))/36.",
+  "id": "A351480",
+  "mentions": [
+    "A010525",
+    "A082640",
+    "A351481",
+    "A351482",
+    "A351483",
+    "A351484",
+    "A351485",
+    "A351486",
+    "A351487",
+    "A351488"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

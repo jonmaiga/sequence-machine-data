@@ -1,0 +1,22 @@
+{
+  "description": "0 unless n is the k-th semiprime when a(n) = k.",
+  "id": "A174956",
+  "mentions": [
+    "A001358",
+    "A049084",
+    "A064911",
+    "A072000",
+    "A100959"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

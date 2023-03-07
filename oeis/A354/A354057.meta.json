@@ -1,0 +1,29 @@
+{
+  "description": "Square array read by ascending diagonals: T(n,k) is the number of solutions to x^k == 1 (mod n).",
+  "id": "A354057",
+  "mentions": [
+    "A060594",
+    "A060839",
+    "A073103",
+    "A247257",
+    "A319099",
+    "A319100",
+    "A319101",
+    "A327924",
+    "A354058",
+    "A354059",
+    "A354060"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "phi(n) plus n gives a semiprime (A001358).",
+  "id": "A116026",
+  "mentions": [
+    "A001358",
+    "A116015"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

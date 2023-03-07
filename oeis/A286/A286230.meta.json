@@ -1,0 +1,23 @@
+{
+  "description": "Possible differences between consecutive primes p, q satisfying p! == 1 (mod q).",
+  "id": "A286230",
+  "mentions": [
+    "A033312",
+    "A151799",
+    "A275111",
+    "A286181",
+    "A286208"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

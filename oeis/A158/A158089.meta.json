@@ -1,0 +1,18 @@
+{
+  "description": "Palindromic primes that contain at least one embedded palindromic prime by removing 1 or 2 digits.",
+  "id": "A158089",
+  "mentions": [
+    "A002385"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Ceiling of circumradius of triangle with consecutive prime sides.",
+  "id": "A331676",
+  "mentions": [
+    "A096377",
+    "A330096",
+    "A331227",
+    "A331228"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of Q-toothpicks added at n-th stage to the structure of A187216.",
+  "id": "A187217",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A139251",
+    "A187211",
+    "A187213",
+    "A187216",
+    "A187221"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

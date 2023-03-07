@@ -1,0 +1,23 @@
+{
+  "description": "Unitary abundancy of n-th unitary abundant number: usigma(k)-2k if this is > 0.",
+  "id": "A129498",
+  "mentions": [
+    "A034448",
+    "A034460",
+    "A034683",
+    "A129468",
+    "A129499"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

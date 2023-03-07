@@ -1,0 +1,19 @@
+{
+  "description": "Sums of antidiagonals of number square A110135.",
+  "id": "A110136",
+  "mentions": [
+    "A110135"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

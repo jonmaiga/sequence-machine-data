@@ -1,0 +1,31 @@
+{
+  "description": "Fixed points of A153212: After a(1) = 1, numbers of the form p_i1^i1 * p_i2^(i2-i1) * p_i3^(i3-i2) * ... * p_ik^(ik-i_{k-1}), where p_i's are distinct primes present in the prime factorization of n, with i1 < i2 < i3 < ... < ik, and k = A001221(n) and ik = A061395(n).",
+  "id": "A242421",
+  "mentions": [
+    "A000040",
+    "A000975",
+    "A001221",
+    "A002110",
+    "A006068",
+    "A061395",
+    "A062457",
+    "A088902",
+    "A122111",
+    "A129594",
+    "A153212",
+    "A209636",
+    "A209861",
+    "A241912",
+    "A242422"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

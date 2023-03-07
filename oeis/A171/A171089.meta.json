@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2*(Lucas(n)^2 - (-1)^n)).",
+  "id": "A171089",
+  "mentions": [
+    "A000032",
+    "A001254",
+    "A047946"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:54",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Column 0 of triangle A135080.",
+  "id": "A135081",
+  "mentions": [
+    "A122888",
+    "A135080",
+    "A135082",
+    "A135083",
+    "A187005",
+    "A187006",
+    "A187007",
+    "A187008",
+    "A187009"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

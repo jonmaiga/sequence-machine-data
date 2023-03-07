@@ -1,0 +1,21 @@
+{
+  "description": "Smallest k such that A014657(n) divides 2^k + 1.",
+  "id": "A195610",
+  "mentions": [
+    "A000051",
+    "A014657",
+    "A195470",
+    "A337220"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

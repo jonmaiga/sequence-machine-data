@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: row n contains the distinct values (in numerical order) making up the nonzero exponents in the prime-factorization of n. (Row 1 = (0).).",
+  "id": "A136568",
+  "mentions": [
+    "A071625",
+    "A136565"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

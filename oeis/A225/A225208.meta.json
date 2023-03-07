@@ -1,0 +1,19 @@
+{
+  "description": "Engel expansion of the positive root of x^x^x^x = 2.",
+  "id": "A225208",
+  "mentions": [
+    "A006784",
+    "A225134",
+    "A225153"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

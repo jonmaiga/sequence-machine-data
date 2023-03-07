@@ -1,0 +1,20 @@
+{
+  "description": "A137576((k-1)/2) for composite numbers k from A141229.",
+  "id": "A140197",
+  "mentions": [
+    "A002326",
+    "A006694",
+    "A137576",
+    "A141229"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

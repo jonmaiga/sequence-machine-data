@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) = T(n,k-1) + T(n-1,k), T(n,0)=1, T(n,n) = T(n,n-1) + 1.",
+  "id": "A283054",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A001453",
+    "A014137",
+    "A014138",
+    "A034856",
+    "A114277",
+    "A143955"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:53",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

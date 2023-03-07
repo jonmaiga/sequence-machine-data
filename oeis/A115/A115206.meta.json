@@ -1,0 +1,18 @@
+{
+  "description": "Least number d such that prime(n) -/+ 2d form a prime pair; prime(n) being the n-th prime.",
+  "id": "A115206",
+  "mentions": [
+    "A078611"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 3,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that the leading n digits of n^n in decimal form a prime or a probable prime.",
+  "id": "A211404",
+  "mentions": [
+    "A220453",
+    "A220454"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

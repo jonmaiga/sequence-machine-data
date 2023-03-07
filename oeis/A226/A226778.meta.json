@@ -1,0 +1,20 @@
+{
+  "description": "Numbers having no common divisor > 1 with their reversal in decimal representation (see A043537).",
+  "id": "A226778",
+  "mentions": [
+    "A043537",
+    "A055483",
+    "A071249"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

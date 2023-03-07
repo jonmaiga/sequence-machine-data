@@ -1,0 +1,17 @@
+{
+  "description": "Odd composite squarefree numbers k such that r = 2*(p - 2 + k/p)/(p-1) is an integer for each prime divisor p of k.",
+  "id": "A180248",
+  "mentions": [
+    "A002997"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

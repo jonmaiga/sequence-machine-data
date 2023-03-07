@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X n 0..5 matrices with each 2X2 subblock idempotent",
+  "id": "A224662",
+  "mentions": [
+    "A224665"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

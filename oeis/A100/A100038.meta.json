@@ -1,0 +1,26 @@
+{
+  "description": "Positions of occurrences of the natural numbers as third subsequence in A100035.",
+  "id": "A100038",
+  "mentions": [
+    "A014107",
+    "A033537",
+    "A084849",
+    "A100035",
+    "A100036",
+    "A100037",
+    "A100039",
+    "A100040",
+    "A100041"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

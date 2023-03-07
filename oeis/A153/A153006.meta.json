@@ -1,0 +1,40 @@
+{
+  "description": "Toothpick sequence starting at the outside corner of an infinite square from which protrudes a half toothpick.",
+  "id": "A153006",
+  "mentions": [
+    "A000079",
+    "A000217",
+    "A000225",
+    "A000396",
+    "A000668",
+    "A000695",
+    "A006516",
+    "A078008",
+    "A139250",
+    "A139251",
+    "A139560",
+    "A147646",
+    "A151550",
+    "A151555",
+    "A151575",
+    "A152978",
+    "A152979",
+    "A152980",
+    "A153000",
+    "A153001",
+    "A153002",
+    "A153007",
+    "A159795"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

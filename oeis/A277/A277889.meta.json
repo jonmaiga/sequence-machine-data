@@ -1,0 +1,21 @@
+{
+  "description": "After zero, excess of the odd terms in A276573 (the infinite trunk of least squares beanstalk) over the even terms.",
+  "id": "A277889",
+  "mentions": [
+    "A002828",
+    "A276573",
+    "A277890",
+    "A277891"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n-+1 are divisible by exactly 6 primes, counted with multiplicity.",
+  "id": "A157486",
+  "mentions": [
+    "A014612",
+    "A124936",
+    "A157483",
+    "A157484",
+    "A157485"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

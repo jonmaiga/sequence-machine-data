@@ -1,0 +1,37 @@
+{
+  "description": "Square array A(n,k), n >= 1, k >= 0, read by descending antidiagonals, such that the row product is n and column k contains only (2^k)-th powers of squarefree numbers.",
+  "id": "A352780",
+  "mentions": [
+    "A000188",
+    "A000290",
+    "A005117",
+    "A007913",
+    "A030140",
+    "A060176",
+    "A062503",
+    "A113849",
+    "A225546",
+    "A252895",
+    "A267116",
+    "A299090",
+    "A331591",
+    "A335324",
+    "A335738",
+    "A337533",
+    "A340682",
+    "A352080"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k)=Number of nXk arrays with each row a permutation of 1..k having at least as many downsteps as the preceding row, with rows in lexicographically nondecreasing order",
+  "id": "A222159",
+  "mentions": [
+    "A000389"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

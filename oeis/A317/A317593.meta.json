@@ -1,0 +1,20 @@
+{
+  "description": "Take a number z of x digits and consider any concatenation z = concat(y_1, y_2, ..., y_i) where y_1, y_2, ..., y_i have the same number of digits. Then let f(z) be the sum of the products y_1*y_2*...*y_i for all those concatenations. Sequence lists numbers z such that f(f(z)) = z. (see example.)",
+  "id": "A317593",
+  "mentions": [
+    "A000005",
+    "A317628"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f.: A'(x) = 1 + A(x)^6, with A(0)=1.",
+  "id": "A258994",
+  "mentions": [
+    "A000831",
+    "A258927",
+    "A258969",
+    "A258970",
+    "A258971"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

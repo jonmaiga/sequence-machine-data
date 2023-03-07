@@ -1,0 +1,28 @@
+{
+  "description": "The Fibonacci word over the nonnegative integers; or, the number of runs of identical bits in the binary Zeckendorf representation of n.",
+  "id": "A104324",
+  "mentions": [
+    "A000071",
+    "A003849",
+    "A007895",
+    "A014417",
+    "A104325",
+    "A189920",
+    "A213676",
+    "A213911",
+    "A288575",
+    "A288576"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

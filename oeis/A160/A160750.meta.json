@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (1+11*x+24*x^2+11*x^3+10*x^4)/(1-x)^5.",
+  "id": "A160750",
+  "mentions": [
+    "A160747",
+    "A294433"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

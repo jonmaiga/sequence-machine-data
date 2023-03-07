@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that the number of divisors of p+1 equals number of divisors of p+2.",
+  "id": "A119705",
+  "mentions": [
+    "A008329",
+    "A049234",
+    "A119711",
+    "A119728",
+    "A119730",
+    "A119740"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

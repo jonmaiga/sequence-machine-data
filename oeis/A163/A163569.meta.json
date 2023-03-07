@@ -1,0 +1,17 @@
+{
+  "description": "Numbers of the form p^3*q^2*r where p, q and r are three distinct primes.",
+  "id": "A163569",
+  "mentions": [
+    "A137487"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

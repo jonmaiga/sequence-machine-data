@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX7 0..2 arrays with adjacent row and column sums unequal",
+  "id": "A202930",
+  "mentions": [
+    "A202931"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

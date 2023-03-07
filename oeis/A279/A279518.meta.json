@@ -1,0 +1,21 @@
+{
+  "description": "Start of first run of n successive numbers in which the sum of aliquot parts of the i-th number has exactly i prime factors, for i = 1..n.",
+  "id": "A279518",
+  "mentions": [
+    "A001065",
+    "A072875",
+    "A086560",
+    "A279520"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

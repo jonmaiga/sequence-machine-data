@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct partitions of triangular numbers n*(n+1)/2.",
+  "id": "A104383",
+  "mentions": [
+    "A000009",
+    "A000217",
+    "A066655",
+    "A104382"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

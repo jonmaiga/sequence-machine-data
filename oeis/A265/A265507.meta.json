@@ -1,0 +1,20 @@
+{
+  "description": "A pyramid T(n,p,k) of square arrays read by rows relating semimeanders(n), positive arches(p) and components(k).",
+  "id": "A265507",
+  "mentions": [
+    "A000108",
+    "A001263",
+    "A046726"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

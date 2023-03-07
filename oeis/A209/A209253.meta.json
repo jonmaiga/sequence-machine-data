@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to write 2n-1 as the sum of a Sophie Germain prime and a practical number.",
+  "id": "A209253",
+  "mentions": [
+    "A005153",
+    "A005384",
+    "A208243",
+    "A208244",
+    "A208246",
+    "A208249"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

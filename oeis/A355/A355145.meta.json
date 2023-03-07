@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of primitive subsets of {1,...,n} of cardinality k; n>=0, 0<=k<=ceiling(n/2).",
+  "id": "A355145",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A051026",
+    "A087077",
+    "A087086",
+    "A161664",
+    "A174094",
+    "A192298"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

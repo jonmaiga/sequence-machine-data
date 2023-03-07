@@ -1,0 +1,27 @@
+{
+  "description": "a(0)=0, a(1)=1; for n>=2, let k = smallest power of 2 that is >= n, then a(n) = a(k/2) + a(n-1-k/2).",
+  "id": "A101402",
+  "mentions": [
+    "A000045",
+    "A053644",
+    "A053645",
+    "A062383",
+    "A101403",
+    "A101404",
+    "A164349",
+    "A164363",
+    "A164369"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

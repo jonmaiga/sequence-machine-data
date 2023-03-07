@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of prime factors in A328624(n), counted with multiplicity.",
+  "id": "A328630",
+  "mentions": [
+    "A001222",
+    "A276150",
+    "A328624",
+    "A328625",
+    "A328628"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

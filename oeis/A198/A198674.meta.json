@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the least x>0 that gives the absolute minimum of cos(x)+cos(2x)+cos(3x)+cos(4x)+cos(5x).",
+  "id": "A198674",
+  "mentions": [
+    "A196361",
+    "A198673"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

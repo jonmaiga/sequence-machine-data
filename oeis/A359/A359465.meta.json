@@ -1,0 +1,30 @@
+{
+  "description": "a(n) = 1 if n is an odd squarefree number with an even number of prime factors, otherwise 0.",
+  "id": "A359465",
+  "mentions": [
+    "A000035",
+    "A008966",
+    "A046390",
+    "A056913",
+    "A065043",
+    "A185197",
+    "A323239",
+    "A343370",
+    "A353481",
+    "A353557",
+    "A353629",
+    "A353675",
+    "A359464"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows in which row n lists n consecutive natural numbers A000027, starting with A014689(n) = A000040(n)-n.",
+  "id": "A162619",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A006093",
+    "A014689",
+    "A159797",
+    "A159798",
+    "A162611",
+    "A162618",
+    "A162620"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

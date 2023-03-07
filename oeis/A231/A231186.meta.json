@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the ratio (longest diagonal)/side in a regular 11-gon (hendecagon).",
+  "id": "A231186",
+  "mentions": [
+    "A038342",
+    "A049310",
+    "A069006",
+    "A127672",
+    "A187360",
+    "A230080",
+    "A230081"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:06:31",
+    "offset": 1,
+    "size": 103,
+    "source": "joeis"
+  }
+}

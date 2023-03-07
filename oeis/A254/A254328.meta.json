@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that all x^2 mod k are squares (including 0 and 1).",
+  "id": "A254328",
+  "mentions": [
+    "A065428",
+    "A096008",
+    "A254329",
+    "A303704"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

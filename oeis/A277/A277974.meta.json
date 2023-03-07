@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of ((Product_{n>=1} (1 - x^(5*n))/(1 - x^n)^5) - 1)/5 in powers of x.",
+  "id": "A277974",
+  "mentions": [
+    "A014968",
+    "A160549",
+    "A277212",
+    "A277912",
+    "A277968"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:44",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

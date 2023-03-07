@@ -1,0 +1,26 @@
+{
+  "description": "a(n+1) is next smallest cube ending with a(n), initial term is 2.",
+  "id": "A234606",
+  "mentions": [
+    "A050646",
+    "A050648",
+    "A050650",
+    "A234605",
+    "A234607",
+    "A234608",
+    "A234609",
+    "A234610",
+    "A234611"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Lengths of prefixes occurring in the sequence of iterates defining A267371.",
+  "id": "A267373",
+  "mentions": [
+    "A267371",
+    "A267372"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

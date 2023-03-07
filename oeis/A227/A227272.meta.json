@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k,r) is the total number of parts in the set of partitions of an n X k X r rectangular cuboid into integer-sided cubes, considering only the list of parts; irregular triangle T(n,k,r), n >= k >= r >= 1, read by rows.",
+  "id": "A227272",
+  "mentions": [
+    "A225622"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

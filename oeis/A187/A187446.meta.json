@@ -1,0 +1,23 @@
+{
+  "description": "Number of parts of the multiset repetition class defining partition (n,k) in Abramowitz-Stegun order.",
+  "id": "A187446",
+  "mentions": [
+    "A007294",
+    "A036036",
+    "A176725",
+    "A187447"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

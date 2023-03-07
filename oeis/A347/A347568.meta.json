@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers which are not twice a positive triangular number and cannot be written as twice a positive triangular number plus an odd prime or twice a positive triangular number plus twice an odd prime.",
+  "id": "A347568",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A347567"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

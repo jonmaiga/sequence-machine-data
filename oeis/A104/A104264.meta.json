@@ -1,0 +1,23 @@
+{
+  "description": "Number of n-digit squares with no zero digits.",
+  "id": "A104264",
+  "mentions": [
+    "A052041",
+    "A075415",
+    "A102807",
+    "A104265",
+    "A104266"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

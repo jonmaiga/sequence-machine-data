@@ -1,0 +1,18 @@
+{
+  "description": "Number of flags in an n-dimensional vector space over GF(2).",
+  "id": "A289545",
+  "mentions": [
+    "A005329"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-node tournaments that have exactly four circular triads.",
+  "id": "A357248",
+  "mentions": [
+    "A357242",
+    "A357257",
+    "A357266"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 5,
+    "size": 18,
+    "source": "joeis"
+  }
+}

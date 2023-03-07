@@ -1,0 +1,21 @@
+{
+  "description": "Starts 1 2 3 then successive terms have differences 1 2 3.",
+  "id": "A144429",
+  "mentions": [
+    "A047231",
+    "A099837",
+    "A144430"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:44:49",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

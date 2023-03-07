@@ -1,0 +1,29 @@
+{
+  "description": "Number of ways to partition the Young diagram of an integer partition of n into vertical sections.",
+  "id": "A321737",
+  "mentions": [
+    "A000110",
+    "A000258",
+    "A008277",
+    "A046682",
+    "A122111",
+    "A318396",
+    "A321728",
+    "A321729",
+    "A321730",
+    "A321731",
+    "A321738",
+    "A321854"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

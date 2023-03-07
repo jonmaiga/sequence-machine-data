@@ -1,0 +1,29 @@
+{
+  "description": "Table of coefficients of a polynomial sequence of binomial type related to the enumeration of minimax trees A080795.",
+  "id": "A185419",
+  "mentions": [
+    "A000111",
+    "A001586",
+    "A080253",
+    "A080795",
+    "A143523",
+    "A147309",
+    "A185415",
+    "A185417",
+    "A185420",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

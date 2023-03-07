@@ -1,0 +1,22 @@
+{
+  "description": "Number of Krom functions on n variables (or 2SAT instances): conjunctions of clauses with two literals per clause.",
+  "id": "A109457",
+  "mentions": [
+    "A102897",
+    "A109458",
+    "A109459",
+    "A112535"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

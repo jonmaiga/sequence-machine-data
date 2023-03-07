@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that gcd(n, 2^n-2) does not equal the least prime factor of n.",
+  "id": "A146077",
+  "mentions": [
+    "A032742",
+    "A159353"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

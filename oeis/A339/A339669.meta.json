@@ -1,0 +1,20 @@
+{
+  "description": "Number of Fibonacci divisors of Lucas(n)^2 + 1.",
+  "id": "A339669",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001254",
+    "A339461"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

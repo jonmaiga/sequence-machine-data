@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, T(n, k) is the coefficient of x^n in expansion of ((-1 - x + sqrt(1 + 2*x + 5*x^2)) /2)^k.",
+  "id": "A202327",
+  "mentions": [
+    "A007440",
+    "A108624"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:35:27",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest integer m > n such that m and n have no common digit, or -1 when such integer m does not exist.",
+  "id": "A358097",
+  "mentions": [
+    "A002275",
+    "A050278",
+    "A050289",
+    "A171102",
+    "A358098"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

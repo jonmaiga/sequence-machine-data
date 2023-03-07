@@ -1,0 +1,21 @@
+{
+  "description": "Number of self-avoiding closed paths on an n X n grid which pass through all points on the diagonal connecting NW and SE corners.",
+  "id": "A333796",
+  "mentions": [
+    "A333455",
+    "A333464",
+    "A333466",
+    "A333795"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

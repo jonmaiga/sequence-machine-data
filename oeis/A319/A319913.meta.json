@@ -1,0 +1,32 @@
+{
+  "description": "Number of distinct integer partitions whose parts can be combined together using additions and multiplications to obtain n, with the exception that 1's can only be added and not multiplied with other parts.",
+  "id": "A319913",
+  "mentions": [
+    "A000041",
+    "A000792",
+    "A001055",
+    "A001970",
+    "A005520",
+    "A048249",
+    "A066739",
+    "A066815",
+    "A275870",
+    "A318949",
+    "A319850",
+    "A319909",
+    "A319910",
+    "A319912",
+    "A319925"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

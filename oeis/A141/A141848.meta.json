@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the Pell constant.",
+  "id": "A141848",
+  "mentions": [
+    "A132020"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

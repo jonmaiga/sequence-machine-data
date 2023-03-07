@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 157*n - 40 (n>=1).",
+  "id": "A304610",
+  "mentions": [
+    "A304609"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:21",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

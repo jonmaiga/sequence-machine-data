@@ -1,0 +1,33 @@
+{
+  "description": "Array T(n,k) read by antidiagonals (downward): T(1,k) = A005117(k+1) (squarefree numbers > 1); for n > 1, columns are nonsquarefree numbers (in ascending order) with exactly the same prime factors as T(1,k).",
+  "id": "A284311",
+  "mentions": [
+    "A002260",
+    "A004736",
+    "A005117",
+    "A007947",
+    "A008479",
+    "A033845",
+    "A033846",
+    "A033847",
+    "A033849",
+    "A065642",
+    "A071403",
+    "A162306",
+    "A284457",
+    "A285321",
+    "A285329"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

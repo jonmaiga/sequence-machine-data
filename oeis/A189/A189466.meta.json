@@ -1,0 +1,19 @@
+{
+  "description": "Number of superior highly composite numbers < 10^n.",
+  "id": "A189466",
+  "mentions": [
+    "A000705",
+    "A002201",
+    "A112781"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

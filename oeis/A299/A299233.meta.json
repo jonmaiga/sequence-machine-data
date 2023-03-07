@@ -1,0 +1,19 @@
+{
+  "description": "Ranks of {2,3}-power towers that end with 2; see Comments.",
+  "id": "A299233",
+  "mentions": [
+    "A299229",
+    "A299234"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

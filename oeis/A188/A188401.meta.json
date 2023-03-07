@@ -1,0 +1,17 @@
+{
+  "description": "Number of (7*n) X 7 binary arrays with rows in nonincreasing order, n ones in every column and no more than 2 ones in any row.",
+  "id": "A188401",
+  "mentions": [
+    "A188403"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

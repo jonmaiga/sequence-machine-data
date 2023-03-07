@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest number k such that the value of n can be deduced given only the values tau(n), tau(n+1), ..., tau(n+k), where tau is the number of divisors function.",
+  "id": "A309981",
+  "mentions": [
+    "A000005",
+    "A086397",
+    "A161460",
+    "A327265"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

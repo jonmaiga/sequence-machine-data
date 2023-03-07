@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of multisets of k ternary words with a total of n letters.",
+  "id": "A275414",
+  "mentions": [
+    "A000244",
+    "A027468",
+    "A144067",
+    "A209406"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n, k) = f(n, k) + f(n, n-k), where f(n, k) = A001263(n*k+1, n-k+1) if k <= n otherwise A001263(n*(n-k)+1, k+1) and T(1, k) = 1, read by rows.",
+  "id": "A157118",
+  "mentions": [
+    "A001263",
+    "A157114",
+    "A157117"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

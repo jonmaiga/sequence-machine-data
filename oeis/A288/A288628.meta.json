@@ -1,0 +1,20 @@
+{
+  "description": "Number of step cyclic shifted sequence structures of length n using an infinite alphabet.",
+  "id": "A288628",
+  "mentions": [
+    "A056371",
+    "A056391",
+    "A288621",
+    "A288627"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Row products of the triangle in A199333.",
+  "id": "A199695",
+  "mentions": [
+    "A006530",
+    "A007947",
+    "A008578",
+    "A020639",
+    "A199333",
+    "A199582",
+    "A199694",
+    "A199696"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

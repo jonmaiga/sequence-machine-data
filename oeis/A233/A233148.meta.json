@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-edge-colorings of the cubical graph.",
+  "id": "A233148",
+  "mentions": [
+    "A115400",
+    "A140986"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:55:09",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

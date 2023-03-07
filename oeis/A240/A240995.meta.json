@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Pi^2/(12*log(2)*log(10)), a constant appearing in several contexts, namely, Khintchine-Lévy Constants, Gauss-Kuzmin distribution and Pell's equation.",
+  "id": "A240995",
+  "mentions": [
+    "A038517",
+    "A086819",
+    "A089729"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

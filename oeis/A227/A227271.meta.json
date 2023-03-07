@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k^3 + 2 is an emirp.",
+  "id": "A227271",
+  "mentions": [
+    "A006567"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

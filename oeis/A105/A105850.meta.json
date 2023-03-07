@@ -1,0 +1,18 @@
+{
+  "description": "a(n+1) = a(n)^2 - 2^(2^n+1) with a(1) = 8.",
+  "id": "A105850",
+  "mentions": [
+    "A003010"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

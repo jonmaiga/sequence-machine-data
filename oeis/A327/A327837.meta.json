@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the asymptotic mean of the number of exponential divisors function (A049419).",
+  "id": "A327837",
+  "mentions": [
+    "A000005",
+    "A049419",
+    "A059956",
+    "A145353",
+    "A306071",
+    "A327576"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

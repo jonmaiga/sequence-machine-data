@@ -1,0 +1,21 @@
+{
+  "description": "Irregular table read by rows: n-th row lists the 9 n-gonal numbers of a 3 X 3 semimagic square with the smallest magic sum. The terms of each row are arranged in the manner shown in A261816.",
+  "id": "A265141",
+  "mentions": [
+    "A261816",
+    "A265142",
+    "A269060",
+    "A269061"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 3,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

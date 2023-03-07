@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers n such that p_{n+i} is a quadratic residue modulo p_{n+j} for any distinct i and j among 0, 1, ..., 6",
+  "id": "A243901",
+  "mentions": [
+    "A000040",
+    "A243755",
+    "A243837",
+    "A243839"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Primes p, with index k, such that p-k and p+k are both prime.",
+  "id": "A143794",
+  "mentions": [
+    "A064403"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

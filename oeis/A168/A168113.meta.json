@@ -1,0 +1,27 @@
+{
+  "description": "First differences of A168112.",
+  "id": "A168113",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A139251",
+    "A152978",
+    "A152980",
+    "A160407",
+    "A160731",
+    "A168112",
+    "A168114"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

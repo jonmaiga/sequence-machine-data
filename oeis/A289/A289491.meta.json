@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = denominator of 1/(1 + 1/(1 + 2/(1 + ... (1 + n)))).",
+  "id": "A289491",
+  "mentions": [
+    "A000085",
+    "A000932",
+    "A108088",
+    "A225435",
+    "A225436"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

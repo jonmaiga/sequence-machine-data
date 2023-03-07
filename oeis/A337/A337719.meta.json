@@ -1,0 +1,18 @@
+{
+  "description": "The number of maximally large absolute-difference triangles consisting of positive integers <= n.",
+  "id": "A337719",
+  "mentions": [
+    "A062684",
+    "A094225"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

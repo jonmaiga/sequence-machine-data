@@ -1,0 +1,37 @@
+{
+  "description": "Sum of all partial fractions in the algorithm used for calculation of A002326(n).",
+  "id": "A292270",
+  "mentions": [
+    "A000196",
+    "A000225",
+    "A000265",
+    "A000290",
+    "A001122",
+    "A001917",
+    "A002326",
+    "A006519",
+    "A163782",
+    "A179382",
+    "A179680",
+    "A292239",
+    "A292265",
+    "A292379",
+    "A292938",
+    "A292939",
+    "A292940",
+    "A292947",
+    "A293218",
+    "A293219"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

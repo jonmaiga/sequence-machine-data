@@ -1,0 +1,23 @@
+{
+  "description": "Number of permutations of n copies of 1..4 with all adjacent differences <= 1 in absolute value.",
+  "id": "A177316",
+  "mentions": [
+    "A005259",
+    "A103882",
+    "A177317",
+    "A177328",
+    "A331562",
+    "A352653"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "If the n-th prime is denoted by p(n) then a(j) = frequency with which each distinct value of (Sum of the quadratic non-residues of p(n) - Sum of the quadratic residues of p(n)) / p(n) occurs.",
+  "id": "A166264",
+  "mentions": [
+    "A004273",
+    "A165951",
+    "A165974"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

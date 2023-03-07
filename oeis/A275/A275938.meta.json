@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that d(n) is prime while sigma(n) is not prime (where d(n) = A000005(n) and sigma(n) = A000203(n)).",
+  "id": "A275938",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A004061",
+    "A004063",
+    "A009087",
+    "A023194",
+    "A028491",
+    "A054723"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

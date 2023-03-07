@@ -1,0 +1,28 @@
+{
+  "description": "Number of totally transitive rooted trees with n leaves.",
+  "id": "A318187",
+  "mentions": [
+    "A000081",
+    "A000669",
+    "A001678",
+    "A004111",
+    "A050381",
+    "A279861",
+    "A290689",
+    "A290760",
+    "A290822",
+    "A318185",
+    "A318186"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

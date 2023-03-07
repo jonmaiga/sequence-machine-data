@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least k >= 0 such that A345290(k) = -n.",
+  "id": "A345292",
+  "mentions": [
+    "A345290",
+    "A345291"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

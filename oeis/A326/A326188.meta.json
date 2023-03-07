@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = A001065(n) - A003557(n), where A001065(n) = the sum of proper divisors of n, and A003557(n) = n divided by its largest squarefree divisor.",
+  "id": "A326188",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A003557",
+    "A010848",
+    "A326185",
+    "A326187",
+    "A326189"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

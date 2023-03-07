@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that 8p + 2r is a primorial for some r in A006512.",
+  "id": "A218046",
+  "mentions": [
+    "A006512"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

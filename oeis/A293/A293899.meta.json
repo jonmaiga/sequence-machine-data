@@ -1,0 +1,21 @@
+{
+  "description": "Number of proper divisors of form 3k+1 minus number of proper divisors of form 3k+2.",
+  "id": "A293899",
+  "mentions": [
+    "A002324",
+    "A010872",
+    "A293895",
+    "A293896"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n!*(e*Gamma(n,1)*(n-1)+1).",
+  "id": "A262601",
+  "mentions": [
+    "A000522"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

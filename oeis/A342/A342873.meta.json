@@ -1,0 +1,26 @@
+{
+  "description": "Numbers whose distance to the nearest cube equals the distance to the nearest product of 3 consecutive integers (three-dimensional oblong).",
+  "id": "A342873",
+  "mentions": [
+    "A000578",
+    "A007531",
+    "A033951",
+    "A074378",
+    "A074989",
+    "A081134",
+    "A157914",
+    "A201053",
+    "A342872"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

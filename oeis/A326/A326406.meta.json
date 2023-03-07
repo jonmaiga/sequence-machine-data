@@ -1,0 +1,23 @@
+{
+  "description": "Minesweeper sequence of positive integers arranged on a 2D grid along a triangular maze.",
+  "id": "A326406",
+  "mentions": [
+    "A056023",
+    "A326405",
+    "A326407",
+    "A326408",
+    "A326409",
+    "A326410"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

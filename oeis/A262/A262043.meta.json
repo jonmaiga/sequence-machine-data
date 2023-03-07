@@ -1,0 +1,18 @@
+{
+  "description": "Carmichael numbers (A002997) that are not absolute Euler pseudoprimes (A033181).",
+  "id": "A262043",
+  "mentions": [
+    "A002997",
+    "A033181"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

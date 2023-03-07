@@ -1,0 +1,30 @@
+{
+  "description": "a(n) = (initial digit of n) * (n with initial digit removed).",
+  "id": "A257297",
+  "mentions": [
+    "A007954",
+    "A035930",
+    "A080464",
+    "A088117",
+    "A111707",
+    "A115300",
+    "A169669",
+    "A171765",
+    "A187844",
+    "A257299",
+    "A257850"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

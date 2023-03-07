@@ -1,0 +1,32 @@
+{
+  "description": "Number of inequivalent colorings of series-reduced balanced rooted trees with n leaves.",
+  "id": "A320173",
+  "mentions": [
+    "A000669",
+    "A005804",
+    "A048816",
+    "A079500",
+    "A119262",
+    "A120803",
+    "A141268",
+    "A244925",
+    "A319312",
+    "A320154",
+    "A320155",
+    "A320160",
+    "A320174",
+    "A320175",
+    "A320179",
+    "A339645"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

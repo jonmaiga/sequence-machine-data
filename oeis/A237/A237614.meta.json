@@ -1,0 +1,21 @@
+{
+  "description": "Least positive integer k with A000720(k*n) divisible by n, or 0 if such a number k does not exist.",
+  "id": "A237614",
+  "mentions": [
+    "A000720",
+    "A237578",
+    "A237597",
+    "A237598",
+    "A237612"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

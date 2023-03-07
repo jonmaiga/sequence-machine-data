@@ -1,0 +1,19 @@
+{
+  "description": "Number of inequivalent drawings of the complete graph Kn on n vertices that attain the corresponding rectilinear crossing number (A014540).",
+  "id": "A135515",
+  "mentions": [
+    "A014540"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 4,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

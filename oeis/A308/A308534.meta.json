@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the LCM of all possible sums of two digits of k (at distinct positions) is strictly greater than k.",
+  "id": "A308534",
+  "mentions": [
+    "A003418"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

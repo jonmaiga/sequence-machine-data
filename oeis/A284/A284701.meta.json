@@ -1,0 +1,22 @@
+{
+  "description": "Number of maximal matchings in the n-antiprism graph.",
+  "id": "A284701",
+  "mentions": [
+    "A192742",
+    "A284700",
+    "A284703",
+    "A284710"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

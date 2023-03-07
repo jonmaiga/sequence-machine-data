@@ -1,0 +1,36 @@
+{
+  "description": "Square array T(n,k), n>=0, k>=0, read by antidiagonals, where column k is the expansion of g.f. 1/(1 - k*x - k*x^2).",
+  "id": "A342120",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000045",
+    "A001477",
+    "A002378",
+    "A002605",
+    "A030195",
+    "A057087",
+    "A057088",
+    "A057089",
+    "A057090",
+    "A057091",
+    "A057092",
+    "A057093",
+    "A109516",
+    "A342129",
+    "A342133",
+    "A342134"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the period of a 2 X 4n rectangular oscillator in the 2 X 2 (B36/S125) Life-like cellular automaton.",
+  "id": "A160657",
+  "mentions": [
+    "A003558",
+    "A054142",
+    "A268754",
+    "A298819"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

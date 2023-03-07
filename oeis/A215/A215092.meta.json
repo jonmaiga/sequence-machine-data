@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{i=0..m} d(i)*3^i, where Sum_{i=0..m} d(i)*6^i is the base-6 representation of n.",
+  "id": "A215092",
+  "mentions": [
+    "A037454"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:19:19",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

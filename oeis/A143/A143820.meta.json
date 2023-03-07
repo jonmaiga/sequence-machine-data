@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of the constant 1/1! + 1/4! + 1/7! + ... = 1.04186 53550 98909 ... .",
+  "id": "A143820",
+  "mentions": [
+    "A073742",
+    "A073743",
+    "A143815",
+    "A143816",
+    "A143817",
+    "A143818",
+    "A143819",
+    "A143821"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

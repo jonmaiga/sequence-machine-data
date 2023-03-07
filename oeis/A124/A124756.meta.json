@@ -1,0 +1,24 @@
+{
+  "description": "Inverse binomial sum of compositions in standard order.",
+  "id": "A124756",
+  "mentions": [
+    "A001477",
+    "A011782",
+    "A066099",
+    "A124754",
+    "A124755"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

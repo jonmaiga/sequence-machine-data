@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 - k^k*x^k).",
+  "id": "A292312",
+  "mentions": [
+    "A023882",
+    "A265949",
+    "A294645",
+    "A294653"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

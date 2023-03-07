@@ -1,0 +1,18 @@
+{
+  "description": "Jane Street's infinite sidewalk's greedy walk inverse mapping.",
+  "id": "A359008",
+  "mentions": [
+    "A358838",
+    "A359005"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

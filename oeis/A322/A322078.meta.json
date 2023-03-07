@@ -1,0 +1,30 @@
+{
+  "description": "a(n) = n^2 * Sum_{p|n} 1/p^2, where p are primes dividing n.",
+  "id": "A322078",
+  "mentions": [
+    "A000040",
+    "A000330",
+    "A001221",
+    "A069359",
+    "A085541",
+    "A351242",
+    "A351244",
+    "A351245",
+    "A351246",
+    "A351247",
+    "A351248",
+    "A351249",
+    "A351262"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Filter sequence for counting the residue classes mod 6 of divisors of n.",
+  "id": "A320117",
+  "mentions": [
+    "A002324",
+    "A319717",
+    "A319996",
+    "A320109",
+    "A320113",
+    "A320115",
+    "A320116"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

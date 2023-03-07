@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers such that for any n >= 0, a(n) and a(n+1) have no common term in their Zeckendorf representations.",
+  "id": "A332565",
+  "mentions": [
+    "A003714",
+    "A109812",
+    "A332022"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

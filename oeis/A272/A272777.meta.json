@@ -1,0 +1,20 @@
+{
+  "description": "In the interval [prime(n), 2*prime(n)], the greatest k with the maximal number of divisors.",
+  "id": "A272777",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A002182",
+    "A272771"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Primorial base emirps: prime numbers whose primorial base reversal is a different prime.",
+  "id": "A333425",
+  "mentions": [
+    "A006567",
+    "A049345",
+    "A080790",
+    "A235168",
+    "A333422",
+    "A333424"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

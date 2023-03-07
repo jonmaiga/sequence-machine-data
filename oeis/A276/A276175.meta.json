@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (a(n-1)+1)*(a(n-2)+1)*(a(n-3)+1)/a(n-4) with a(0) = a(1) = a(2) = a(3) = 1.",
+  "id": "A276175",
+  "mentions": [
+    "A076839",
+    "A276123",
+    "A289917"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

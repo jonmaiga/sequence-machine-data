@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = number of primes with an even digit sum among the first n primes minus the number with an odd digit sum.",
+  "id": "A199339",
+  "mentions": [
+    "A007605",
+    "A007953",
+    "A119449",
+    "A119450",
+    "A130911",
+    "A200259",
+    "A200260",
+    "A200261",
+    "A200262",
+    "A200263",
+    "A200264"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

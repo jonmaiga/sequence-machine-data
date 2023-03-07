@@ -1,0 +1,20 @@
+{
+  "description": "Array read by antidiagonals: T(0,k) = A000045(k+1) for k >= 0. T(n,0) = 1 for n >= 0; thereafter T(n,k) = T(n-1,k-1)+T(n-1,k) for n, k >= 1.",
+  "id": "A294453",
+  "mentions": [
+    "A000045",
+    "A001629"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

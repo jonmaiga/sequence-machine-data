@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Dickman's constant C_4.",
+  "id": "A258945",
+  "mentions": [
+    "A175475",
+    "A245238"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

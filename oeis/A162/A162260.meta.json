@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (n^3 + 4*n^2 - n)/2.",
+  "id": "A162260",
+  "mentions": [
+    "A154614",
+    "A213771"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:18:11",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

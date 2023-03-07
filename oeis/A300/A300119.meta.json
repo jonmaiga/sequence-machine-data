@@ -1,0 +1,20 @@
+{
+  "description": "Square array T(n, k) read by antidiagonals, n > 0 and k > 0: T(n, k) is the value where Collatz sequences starting at n and at k meet.",
+  "id": "A300119",
+  "mentions": [
+    "A006370",
+    "A006577"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

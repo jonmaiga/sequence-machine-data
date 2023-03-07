@@ -1,0 +1,22 @@
+{
+  "description": "Squares-greedy summable numbers.",
+  "id": "A242307",
+  "mentions": [
+    "A000027",
+    "A000290",
+    "A241833",
+    "A242305",
+    "A242306"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

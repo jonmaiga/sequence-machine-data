@@ -1,0 +1,25 @@
+{
+  "description": "G.f. satisfies: A(x) = exp( Sum_{n>=1} [Sum_{k=0..n} C(n,k)^3 * x^k*A(x)^k] * x^n*A(x)^n/n ).",
+  "id": "A200215",
+  "mentions": [
+    "A166896",
+    "A166990",
+    "A181143",
+    "A181543",
+    "A192131",
+    "A198944",
+    "A198950",
+    "A199875",
+    "A200212"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(1)=1, then bracketing n with powers of 3 as f(t)=3^t for f(t) < n <= f(t+1), a(n) = f(t+1) - a(n-f(t)).",
+  "id": "A105672",
+  "mentions": [
+    "A064235",
+    "A093347",
+    "A093348",
+    "A105669",
+    "A105670"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

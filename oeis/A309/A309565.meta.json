@@ -1,0 +1,21 @@
+{
+  "description": "Least base-10 palindrome whose factorization includes an arbitrary number m of prime factors, with n <= m of them, all counted with multiplicity, being base-10 palindromes.",
+  "id": "A309565",
+  "mentions": [
+    "A002113",
+    "A046385",
+    "A046399"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

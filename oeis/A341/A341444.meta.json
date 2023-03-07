@@ -1,0 +1,25 @@
+{
+  "description": "Dirichlet inverse of A083399, where A083399(n) = 1 + omega(n).",
+  "id": "A341444",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A008480",
+    "A008683",
+    "A008966",
+    "A083399",
+    "A334743",
+    "A341472"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

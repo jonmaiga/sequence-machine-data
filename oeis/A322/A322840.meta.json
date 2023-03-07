@@ -1,0 +1,25 @@
+{
+  "description": "Positive integers n with fewer prime factors (counted with multiplicity) than n + 1.",
+  "id": "A322840",
+  "mentions": [
+    "A001222",
+    "A006049",
+    "A045920",
+    "A294277",
+    "A294278",
+    "A302242",
+    "A322837",
+    "A322838",
+    "A322839"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

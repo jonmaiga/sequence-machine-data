@@ -1,0 +1,35 @@
+{
+  "description": "Primes consisting of two digits only, each digit with frequency f = 4.",
+  "id": "A173002",
+  "mentions": [
+    "A087511",
+    "A087512",
+    "A087513",
+    "A087514",
+    "A087515",
+    "A087527",
+    "A087528",
+    "A087529",
+    "A087530",
+    "A087531",
+    "A087532",
+    "A087533",
+    "A087534",
+    "A087535",
+    "A087536",
+    "A087537",
+    "A087538"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

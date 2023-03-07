@@ -1,0 +1,35 @@
+{
+  "description": "Moore lower bound on the order of a (6,g)-cage.",
+  "id": "A198306",
+  "mentions": [
+    "A000027",
+    "A002522",
+    "A005843",
+    "A020725",
+    "A027383",
+    "A051890",
+    "A061547",
+    "A062318",
+    "A094626",
+    "A188377",
+    "A198300",
+    "A198307",
+    "A198308",
+    "A198309",
+    "A198310",
+    "A218554"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:28:55",
+    "offset": 3,
+    "size": 28,
+    "source": "joeis"
+  }
+}

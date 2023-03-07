@@ -1,0 +1,19 @@
+{
+  "description": "Hurwitz logarithm of natural numbers 1,2,3,4,5,...",
+  "id": "A302190",
+  "mentions": [
+    "A133942",
+    "A302189"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

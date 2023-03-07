@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the constant W(1) appearing in the asymptotic expression of the probability that two independent, random n-permutations have the same cycle type as W(1)/n^2.",
+  "id": "A246879",
+  "mentions": [
+    "A087132"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

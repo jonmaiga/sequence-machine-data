@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that all numbers of the form p(n)#/p(k) +- 1, where 1 <= k <= n, are composite.",
+  "id": "A135716",
+  "mentions": [
+    "A002110",
+    "A135714",
+    "A135715"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

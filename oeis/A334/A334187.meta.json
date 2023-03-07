@@ -1,0 +1,27 @@
+{
+  "description": "Number T(n,k) of k-element subsets of [n] avoiding 3-term arithmetic progressions; triangle T(n,k), n>=0, 0<=k<=A003002(n), read by rows.",
+  "id": "A334187",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000217",
+    "A003002",
+    "A051013",
+    "A212964",
+    "A262347",
+    "A300760",
+    "A334892"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

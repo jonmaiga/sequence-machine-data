@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n, k) = Sum_{t=k..n-2} (-1)^(t-k)*(n-t)!*binomial(t,k)*binomial(n-2,t).",
+  "id": "A264027",
+  "mentions": [
+    "A008290",
+    "A123513"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

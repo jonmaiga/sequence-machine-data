@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the largest k such that n can be written as sum of k consecutive positive integers.",
+  "id": "A109814",
+  "mentions": [
+    "A000079",
+    "A000217",
+    "A001227",
+    "A111774",
+    "A111775",
+    "A118235",
+    "A138591",
+    "A141419"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

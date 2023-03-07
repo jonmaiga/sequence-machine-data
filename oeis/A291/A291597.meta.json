@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that cototient(n) does not divide phi(n!).",
+  "id": "A291597",
+  "mentions": [
+    "A000010",
+    "A048855",
+    "A051953"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

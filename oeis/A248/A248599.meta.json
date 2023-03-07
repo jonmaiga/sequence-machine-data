@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers whose square is expressible in exactly one way as x^2 + 4xy + y^2, with 0 < x < y.",
+  "id": "A248599",
+  "mentions": [
+    "A084645",
+    "A232437",
+    "A254063",
+    "A254064"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

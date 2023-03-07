@@ -1,0 +1,22 @@
+{
+  "description": "Number of tetrahedral numbers dividing n.",
+  "id": "A279495",
+  "mentions": [
+    "A000292",
+    "A007862",
+    "A023533",
+    "A061704"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

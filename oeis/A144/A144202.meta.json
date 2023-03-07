@@ -1,0 +1,18 @@
+{
+  "description": "Number of pairs p,q with p < q such that 30*r(n)=p+q+4 and p & p+4, q & q+4 cousin primes, where r(i)=i-th prime",
+  "id": "A144202",
+  "mentions": [
+    "A144160",
+    "A144203"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

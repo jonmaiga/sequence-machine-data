@@ -1,0 +1,23 @@
+{
+  "description": "Permutation of natural numbers, a composition of A241909 and A064216: a(n) = A064216(A241909(n)).",
+  "id": "A243061",
+  "mentions": [
+    "A064216",
+    "A064989",
+    "A241909",
+    "A243062",
+    "A243065",
+    "A243066"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

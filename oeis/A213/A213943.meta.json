@@ -1,0 +1,21 @@
+{
+  "description": "Row sums of partition array A213939 and triangle A213940: number of representative bracelets with n beads and up to n colors.",
+  "id": "A213943",
+  "mentions": [
+    "A000041",
+    "A072605",
+    "A213939",
+    "A213940"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

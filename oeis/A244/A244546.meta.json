@@ -1,0 +1,22 @@
+{
+  "description": "Wieferich primes p to base p-th prime.",
+  "id": "A244546",
+  "mentions": [
+    "A001220",
+    "A174422",
+    "A178900",
+    "A196202"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

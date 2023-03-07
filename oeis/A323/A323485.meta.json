@@ -1,0 +1,19 @@
+{
+  "description": "Least number k such that the determinant of the circulant matrix formed by its decimal digits is equal to k/n.",
+  "id": "A323485",
+  "mentions": [
+    "A219324",
+    "A323486"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

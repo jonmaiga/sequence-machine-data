@@ -1,0 +1,21 @@
+{
+  "description": "Self-avoiding walks on the f.c.c. lattice.",
+  "id": "A213453",
+  "mentions": [
+    "A001336",
+    "A002902"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

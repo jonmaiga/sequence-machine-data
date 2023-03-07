@@ -1,0 +1,25 @@
+{
+  "description": "A binary encoding of the digits \"0\" in balanced ternary representation of n.",
+  "id": "A343230",
+  "mentions": [
+    "A059095",
+    "A140267",
+    "A147991",
+    "A291770",
+    "A343228",
+    "A343229",
+    "A343231"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

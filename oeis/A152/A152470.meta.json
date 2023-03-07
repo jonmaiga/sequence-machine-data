@@ -1,0 +1,20 @@
+{
+  "description": "Largest of three consecutive primes whose sum is a prime.",
+  "id": "A152470",
+  "mentions": [
+    "A072225",
+    "A073681",
+    "A152468",
+    "A152469"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

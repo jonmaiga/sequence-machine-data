@@ -1,0 +1,21 @@
+{
+  "description": "A144325(n) + A144313(n) + A144315(n)",
+  "id": "A144715",
+  "mentions": [
+    "A000326",
+    "A144313",
+    "A144315",
+    "A144325"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

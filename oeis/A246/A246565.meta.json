@@ -1,0 +1,20 @@
+{
+  "description": "Number of rooted ordered trees with n non-root nodes such that the branch lengths are weakly increasing.",
+  "id": "A246565",
+  "mentions": [
+    "A000108",
+    "A192243",
+    "A193196",
+    "A246566"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

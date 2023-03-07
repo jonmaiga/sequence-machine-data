@@ -1,0 +1,29 @@
+{
+  "description": "Triangle related to T(x,2x).",
+  "id": "A171150",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000225",
+    "A000984",
+    "A001405",
+    "A039599",
+    "A053121",
+    "A058877",
+    "A124575",
+    "A126222",
+    "A133158"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

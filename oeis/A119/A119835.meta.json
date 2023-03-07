@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that 2*p#-1 and 2*p#+1 are twin primes.",
+  "id": "A119835",
+  "mentions": [
+    "A001359",
+    "A119833",
+    "A119834"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

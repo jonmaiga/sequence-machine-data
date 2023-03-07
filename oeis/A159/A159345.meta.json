@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of digits in the decimal expansion of Pi needed to contain a repeated n-digit substring.",
+  "id": "A159345",
+  "mentions": [
+    "A000796",
+    "A197123"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

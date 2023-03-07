@@ -1,0 +1,20 @@
+{
+  "description": "Positions of squares (A000290) in the union of squares and triangular numbers (A005214).",
+  "id": "A193714",
+  "mentions": [
+    "A000290",
+    "A005214",
+    "A010052",
+    "A193715"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

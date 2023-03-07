@@ -1,0 +1,22 @@
+{
+  "description": "Total number of different letters summed over all ternary words of length n.",
+  "id": "A210448",
+  "mentions": [
+    "A000918",
+    "A001047",
+    "A079268",
+    "A217764"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:56:47",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

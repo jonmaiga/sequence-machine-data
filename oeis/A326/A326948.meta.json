@@ -1,0 +1,33 @@
+{
+  "description": "Number of connected T_0 set-systems on n vertices.",
+  "id": "A326948",
+  "mentions": [
+    "A000371",
+    "A003465",
+    "A059201",
+    "A245567",
+    "A316978",
+    "A319559",
+    "A319564",
+    "A319637",
+    "A323818",
+    "A326939",
+    "A326940",
+    "A326941",
+    "A326946",
+    "A326947",
+    "A326951"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

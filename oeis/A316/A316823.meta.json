@@ -1,0 +1,22 @@
+{
+  "description": "Balanced nonary enumeration (or balanced nonary representation) of integers; write n in nonary (base 9) and then replace 5's with (-4)'s, 6's with (-3)'s, 7's with (-2)'s, and 8's with (-1)'s.",
+  "id": "A316823",
+  "mentions": [
+    "A007095",
+    "A117966",
+    "A309991",
+    "A309995",
+    "A319047"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

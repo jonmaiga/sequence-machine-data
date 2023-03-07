@@ -1,0 +1,23 @@
+{
+  "description": "(Greedy) Egyptian fraction expansion of Catalan constant.",
+  "id": "A118323",
+  "mentions": [
+    "A006752",
+    "A014538",
+    "A054543",
+    "A104338",
+    "A153069",
+    "A153070"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

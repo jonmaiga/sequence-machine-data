@@ -1,0 +1,24 @@
+{
+  "description": "Consider the partition of the positive odd integers into minimal blocks such that concatenation of numbers in each block is an odious number (A000069). Sequence lists the odious numbers obtained in this way.",
+  "id": "A248477",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A148140",
+    "A248009",
+    "A248138",
+    "A248171",
+    "A248172"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

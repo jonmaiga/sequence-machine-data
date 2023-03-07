@@ -1,0 +1,20 @@
+{
+  "description": "Number of binary words of length n containing at least one subword 1001 and no subwords 10^{i}1 with i",
+  "id": "A143282",
+  "mentions": [
+    "A000930",
+    "A003269",
+    "A143291"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

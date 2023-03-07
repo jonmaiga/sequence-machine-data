@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of 2 - log_3(2).",
+  "id": "A346640",
+  "mentions": [
+    "A102525",
+    "A213201",
+    "A346639"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

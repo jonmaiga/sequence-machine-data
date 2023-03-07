@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that sigma(k) is the fifth power of the sum of the prime divisors of k.",
+  "id": "A221263",
+  "mentions": [
+    "A000203",
+    "A008472",
+    "A187771",
+    "A221262"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

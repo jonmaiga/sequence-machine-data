@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = round(b(n)) where b(n) = b(n-1)^(b(n-1)^(1/b(n-1))) and b(1)=2.",
+  "id": "A329111",
+  "mentions": [
+    "A000196"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "The position of the first occurrence in the decimal expansion of Pi of n identical digits.",
+  "id": "A259443",
+  "mentions": [
+    "A000796",
+    "A159345"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

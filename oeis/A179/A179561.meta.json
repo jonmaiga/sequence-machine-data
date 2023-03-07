@@ -1,0 +1,19 @@
+{
+  "description": "Number whose continued fraction is a run-length encoding of its own binary representation (as the continued fraction)",
+  "id": "A179561",
+  "mentions": [
+    "A179559",
+    "A179560"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

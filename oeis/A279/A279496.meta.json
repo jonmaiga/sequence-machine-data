@@ -1,0 +1,20 @@
+{
+  "description": "Number of square pyramidal numbers dividing n.",
+  "id": "A279496",
+  "mentions": [
+    "A000330",
+    "A046951"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

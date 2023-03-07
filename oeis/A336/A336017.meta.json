@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = floor(frac(Pi*n)*n), where frac denotes the fractional part.",
+  "id": "A336017",
+  "mentions": [
+    "A000796",
+    "A022844",
+    "A331008",
+    "A336018"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:40:01",
+    "offset": 0,
+    "size": 74,
+    "source": "joeis"
+  }
+}

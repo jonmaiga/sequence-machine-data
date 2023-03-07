@@ -1,0 +1,28 @@
+{
+  "description": "Partial sums of floor(n/6).",
+  "id": "A174709",
+  "mentions": [
+    "A000326",
+    "A000567",
+    "A008724",
+    "A028896",
+    "A033428",
+    "A045944",
+    "A049451",
+    "A057079",
+    "A061347",
+    "A152467"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

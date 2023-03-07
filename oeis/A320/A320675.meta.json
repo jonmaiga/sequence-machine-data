@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers m with binary expansion (b_1, ..., b_k) (where k = A070939(m)) such that b_i = [gcd(m, i)=1] for i = 1..k (where [] is an Iverson bracket).",
+  "id": "A320675",
+  "mentions": [
+    "A001348",
+    "A070939",
+    "A320673"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

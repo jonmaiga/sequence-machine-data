@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the coefficient of the 4th term in the n-th Bruinier-Ono \"partition polynomial\" H_n(x), if such coefficient is an integer, otherwise a(n)=0.",
+  "id": "A187218",
+  "mentions": [
+    "A183010",
+    "A183011",
+    "A187206"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

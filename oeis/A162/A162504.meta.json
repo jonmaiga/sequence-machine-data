@@ -1,0 +1,19 @@
+{
+  "description": "A162502(A162502(n)).",
+  "id": "A162504",
+  "mentions": [
+    "A162501",
+    "A162502",
+    "A162503"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

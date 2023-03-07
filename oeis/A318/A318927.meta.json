@@ -1,0 +1,20 @@
+{
+  "description": "Take the binary expansion of n, starting with the most significant bit, and concatenate the lengths of the runs.",
+  "id": "A318927",
+  "mentions": [
+    "A101211",
+    "A227736",
+    "A318926"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

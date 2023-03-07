@@ -1,0 +1,20 @@
+{
+  "description": "Smallest odd number which can be written as a sum 2p+q (where p and q are both odd primes, A065091) in exactly n ways, zero if there are no such odd number.",
+  "id": "A103152",
+  "mentions": [
+    "A001031",
+    "A001172",
+    "A065091",
+    "A103151"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

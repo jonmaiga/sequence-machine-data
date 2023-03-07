@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that 25 divides Sum[ Prime[k]^n, {k,1,n}].",
+  "id": "A122124",
+  "mentions": [
+    "A002144",
+    "A002145",
+    "A007504",
+    "A007665",
+    "A017329",
+    "A024450",
+    "A098999",
+    "A122102",
+    "A122103"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

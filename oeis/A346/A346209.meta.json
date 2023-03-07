@@ -1,0 +1,21 @@
+{
+  "description": "Number of n X n matrices over GF(3) with no eigenvalues in GF(3), i.e., neither 0 nor 1 nor 2 is an eigenvalue.",
+  "id": "A346209",
+  "mentions": [
+    "A002820",
+    "A027376",
+    "A051680",
+    "A053290"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k^3 is the sum of two positive 7th powers.",
+  "id": "A291829",
+  "mentions": [
+    "A000404",
+    "A000578",
+    "A001015",
+    "A009003",
+    "A050801"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f.: exp(-1)*Sum_{n>=0} (1+x)^(n^3)/n!.",
+  "id": "A211250",
+  "mentions": [
+    "A000110",
+    "A014507",
+    "A211251",
+    "A211252"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

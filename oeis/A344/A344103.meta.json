@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number k >= 1 with exactly n divisors d, for which sigma(k) is divisible by d*sigma(d).",
+  "id": "A344103",
+  "mentions": [
+    "A000203",
+    "A339472",
+    "A344102"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

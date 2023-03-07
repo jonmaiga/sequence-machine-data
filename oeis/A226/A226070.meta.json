@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n^2-1 is a triangular number and n^2+1 is a prime.",
+  "id": "A226070",
+  "mentions": [
+    "A006452",
+    "A226069",
+    "A226071",
+    "A226072",
+    "A226074"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

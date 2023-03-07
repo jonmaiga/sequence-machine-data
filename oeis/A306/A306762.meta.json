@@ -1,0 +1,20 @@
+{
+  "description": "Smallest integer k such that Sum_(i=1..k) lambda(i) is divisible by n, where lambda(i) is the Carmichael lambda function.",
+  "id": "A306762",
+  "mentions": [
+    "A002322",
+    "A053049",
+    "A162578"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

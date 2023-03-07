@@ -1,0 +1,20 @@
+{
+  "description": "Twin primes x, represented by their average, such that x is the first and x+48 the last of five successive twins.",
+  "id": "A350543",
+  "mentions": [
+    "A014574",
+    "A173037",
+    "A350541",
+    "A350542"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} ((-1)^(k+1) * (log(2) - Sum_{j=1..k} 1/(k+j))^2).",
+  "id": "A350762",
+  "mentions": [
+    "A000796",
+    "A002162",
+    "A006752",
+    "A102886"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": -1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

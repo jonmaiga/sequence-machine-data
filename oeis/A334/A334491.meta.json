@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Product_{d|n} gcd(d, sigma(d)).",
+  "id": "A334491",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A007955",
+    "A009194",
+    "A334490"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

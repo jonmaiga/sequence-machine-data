@@ -1,0 +1,22 @@
+{
+  "description": "L(p) modulo p^2, where p = prime(n) and L is a Lucas number (A000032).",
+  "id": "A268478",
+  "mentions": [
+    "A000032",
+    "A000040",
+    "A001248",
+    "A113650",
+    "A180363"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

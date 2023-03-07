@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the cube of the sum of digits of n.",
+  "id": "A118880",
+  "mentions": [
+    "A007953",
+    "A182128"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:42:49",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

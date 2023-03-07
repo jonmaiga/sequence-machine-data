@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the number of factors on both sides of the equation k + (k+1) = 2k+1 is the same.",
+  "id": "A159302",
+  "mentions": [
+    "A001222"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

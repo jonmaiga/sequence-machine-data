@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to express n as i*j+k*l, with i,j,k,l in the range [0..n].",
+  "id": "A106634",
+  "mentions": [
+    "A001105",
+    "A055507",
+    "A106633",
+    "A106846",
+    "A106847"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:58",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

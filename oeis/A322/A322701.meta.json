@@ -1,0 +1,30 @@
+{
+  "description": "The successive approximations up to 2^n for 2-adic integer 3^(1/3).",
+  "id": "A322701",
+  "mentions": [
+    "A290567",
+    "A290568",
+    "A309444",
+    "A319097",
+    "A319098",
+    "A319199",
+    "A320914",
+    "A320915",
+    "A321105",
+    "A322926",
+    "A322934",
+    "A322999",
+    "A323000"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of rooted binary trees (in which all inner nodes have precisely two children) with n leaves and with maximal number of cherries (i.e., maximal number of pendant subtrees with two leaves).",
+  "id": "A344613",
+  "mentions": [
+    "A001190",
+    "A085748"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=2, a(n+1)=a(n)+p, where p is the largest prime a(n) if a(n) is even.",
+  "id": "A277263",
+  "mentions": [
+    "A277224"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that k!/n is prime for some k.",
+  "id": "A242516",
+  "mentions": [
+    "A242457"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

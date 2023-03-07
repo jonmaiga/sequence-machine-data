@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that all coprime quadratic residues modulo k are squares.",
+  "id": "A303704",
+  "mentions": [
+    "A046073",
+    "A057828",
+    "A214583",
+    "A254328"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

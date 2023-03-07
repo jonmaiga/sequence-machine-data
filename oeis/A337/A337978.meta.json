@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n + pi(n) - pi(n + pi(n)), where pi(n) is the prime count of n (n>=1).",
+  "id": "A337978",
+  "mentions": [
+    "A000720",
+    "A062298",
+    "A095117",
+    "A337979"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

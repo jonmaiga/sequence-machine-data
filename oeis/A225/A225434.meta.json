@@ -1,0 +1,20 @@
+{
+  "description": "Apply the triangle-to-triangle transformation described in the Comments in A159041 to the triangle in A142459.",
+  "id": "A225434",
+  "mentions": [
+    "A142459",
+    "A159041"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

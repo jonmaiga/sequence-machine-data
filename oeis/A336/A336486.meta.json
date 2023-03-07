@@ -1,0 +1,22 @@
+{
+  "description": "The least prime s for which there exist primes p, q, r such that phi(p*q*s^n) = phi(r*s^(2n+1)) and sigma(p*q*s^n) = sigma(r*s^(2n+1)).",
+  "id": "A336486",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203",
+    "A134922",
+    "A336485"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

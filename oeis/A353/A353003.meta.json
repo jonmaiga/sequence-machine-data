@@ -1,0 +1,19 @@
+{
+  "description": "Indices k where A225401(k) = 0.",
+  "id": "A353003",
+  "mentions": [
+    "A225401",
+    "A352992"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

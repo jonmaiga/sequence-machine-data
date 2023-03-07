@@ -1,0 +1,19 @@
+{
+  "description": "Initial member of 6 consecutive primes a, b, c, d, e, f such that (a + f) = (b + e), (a + e) = (b + d) and (c + f) = (d + e).",
+  "id": "A292743",
+  "mentions": [
+    "A000040",
+    "A292618",
+    "A292715"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

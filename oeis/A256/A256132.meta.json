@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to write n as w*(3w+1)/2 + x*(3x-1)/2 + y*(3y-1)/2 + z*(3z-1)/2, where w,x,y,z are nonnegative integers with x <= y <= z.",
+  "id": "A256132",
+  "mentions": [
+    "A000326",
+    "A005449",
+    "A255350"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

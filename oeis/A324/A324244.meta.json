@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of connected graphs on n nodes with k peripheral nodes.",
+  "id": "A324244",
+  "mentions": [
+    "A001349",
+    "A294522",
+    "A294525",
+    "A324239",
+    "A324263",
+    "A324264"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

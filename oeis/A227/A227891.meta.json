@@ -1,0 +1,23 @@
+{
+  "description": "Numbers for which the number of odious proper divisors (A000069) equals the number of evil proper divisors (A001969).",
+  "id": "A227891",
+  "mentions": [
+    "A000005",
+    "A000069",
+    "A001969",
+    "A227872",
+    "A227873",
+    "A227889"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

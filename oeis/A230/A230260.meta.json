@@ -1,0 +1,21 @@
+{
+  "description": "Number of decompositions of 2n into unordered sums of two primes with an even sum of Hamming weights.",
+  "id": "A230260",
+  "mentions": [
+    "A000120",
+    "A002375",
+    "A045917",
+    "A171637"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

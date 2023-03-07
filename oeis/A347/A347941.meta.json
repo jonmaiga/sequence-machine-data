@@ -1,0 +1,19 @@
+{
+  "description": "For sets of n random points in the real plane, a(n) is an upper bound for the minimal number of nearest neighbors.",
+  "id": "A347941",
+  "mentions": [
+    "A261953"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 14:53:09",
+    "offset": 2,
+    "size": 99,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Positions in both e and Pi where both digits in the same position are prime.",
+  "id": "A242973",
+  "mentions": [
+    "A052055",
+    "A073302",
+    "A153031"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

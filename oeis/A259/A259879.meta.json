@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows giving coefficients in Gould's polynomials for counting fountains of coins.",
+  "id": "A259879",
+  "mentions": [
+    "A005169"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

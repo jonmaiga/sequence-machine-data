@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = lcm(tau(n), pod(n)) where tau(k) = the number of divisors of k (A000005) and pod(n) = the product of divisors of k (A007955).",
+  "id": "A324528",
+  "mentions": [
+    "A000005",
+    "A007955",
+    "A046642",
+    "A120736"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

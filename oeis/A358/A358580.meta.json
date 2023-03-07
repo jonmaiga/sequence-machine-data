@@ -1,0 +1,46 @@
+{
+  "description": "Difference between the number of leaves and the number of internal (non-leaf) nodes in the rooted tree with Matula-Goebel number n.",
+  "id": "A358580",
+  "mentions": [
+    "A000040",
+    "A000081",
+    "A000108",
+    "A000720",
+    "A001222",
+    "A001263",
+    "A007097",
+    "A034781",
+    "A055277",
+    "A056239",
+    "A061775",
+    "A109082",
+    "A109129",
+    "A112798",
+    "A185650",
+    "A196050",
+    "A206487",
+    "A342507",
+    "A358371",
+    "A358552",
+    "A358576",
+    "A358577",
+    "A358578",
+    "A358579",
+    "A358581",
+    "A358582",
+    "A358583",
+    "A358584",
+    "A358592"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "If n is a prime power, p_i^e, a(n) = i, (with a(1)=0), otherwise difference (i-j) of the indices of the two largest distinct primes p_i, p_j, i > j in the prime factorization of n: a(n) = A061395(n) - A061395(A051119(n)).",
+  "id": "A241919",
+  "mentions": [
+    "A027748",
+    "A049084",
+    "A051119",
+    "A061395",
+    "A122111",
+    "A241917",
+    "A242411"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

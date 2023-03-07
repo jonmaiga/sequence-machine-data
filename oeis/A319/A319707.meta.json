@@ -1,0 +1,23 @@
+{
+  "description": "Filter sequence which records for primes their residue modulo 6, and for all other numbers assigns a unique number.",
+  "id": "A319707",
+  "mentions": [
+    "A002476",
+    "A007528",
+    "A010875",
+    "A305900",
+    "A319704",
+    "A319716",
+    "A319717"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

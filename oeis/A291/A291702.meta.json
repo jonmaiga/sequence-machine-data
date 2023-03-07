@@ -1,0 +1,18 @@
+{
+  "description": "Main diagonal of A291701.",
+  "id": "A291702",
+  "mentions": [
+    "A291701"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

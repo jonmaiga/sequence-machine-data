@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of partitions or zones in the last section of the set of partitions of n that contains k as a part.",
+  "id": "A194711",
+  "mentions": [
+    "A000041",
+    "A002865",
+    "A027293",
+    "A116598",
+    "A135010",
+    "A138121",
+    "A182703",
+    "A194812"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

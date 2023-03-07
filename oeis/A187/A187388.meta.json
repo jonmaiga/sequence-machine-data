@@ -1,0 +1,18 @@
+{
+  "description": "Floor(s*n), where s=1+sqrt(6)-sqrt(5); complement of A187387.",
+  "id": "A187388",
+  "mentions": [
+    "A187387"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:15:01",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

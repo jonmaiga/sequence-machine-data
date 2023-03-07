@@ -1,0 +1,18 @@
+{
+  "description": "Minimum sum of primes (see Comments).",
+  "id": "A335048",
+  "mentions": [
+    "A064821",
+    "A335047"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

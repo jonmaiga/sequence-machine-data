@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of (f(x) * f(x^3))^3 in powers of q where f() is a Ramanujan theta function.",
+  "id": "A209939",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A030203",
+    "A030208",
+    "A121373",
+    "A208978"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

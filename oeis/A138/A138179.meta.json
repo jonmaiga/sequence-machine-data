@@ -1,0 +1,20 @@
+{
+  "description": "Wiener index of the prism graph Y_n on 2n nodes.",
+  "id": "A138179",
+  "mentions": [
+    "A074148",
+    "A180572"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:49:57",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

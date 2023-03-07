@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the Wiener index of a broom on 2n vertices of which n+2 are pendant.",
+  "id": "A349416",
+  "mentions": [
+    "A349417",
+    "A349418"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 3,
+    "size": 44,
+    "source": "joeis"
+  }
+}

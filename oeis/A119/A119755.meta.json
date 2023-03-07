@@ -1,0 +1,17 @@
+{
+  "description": "Indices of Fibonacci numbers in A073656, i.e., A073656(n) = F(a(n)).",
+  "id": "A119755",
+  "mentions": [
+    "A073656"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

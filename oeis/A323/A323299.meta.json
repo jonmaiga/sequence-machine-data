@@ -1,0 +1,29 @@
+{
+  "description": "Number of 3-uniform hypergraphs on n labeled vertices where every two edges have exactly one vertex in common.",
+  "id": "A323299",
+  "mentions": [
+    "A025035",
+    "A125791",
+    "A190865",
+    "A289837",
+    "A299471",
+    "A302374",
+    "A302394",
+    "A322451",
+    "A323293",
+    "A323296",
+    "A323297",
+    "A323298"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

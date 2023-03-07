@@ -1,0 +1,22 @@
+{
+  "description": "Number of edges in the representation of all linear extensions of the inclusion ordering on P({1,...,n}) as distributive lattice contained in P(P({1,...,n})).",
+  "id": "A118077",
+  "mentions": [
+    "A000372",
+    "A046873",
+    "A059119"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

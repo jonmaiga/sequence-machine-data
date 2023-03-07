@@ -1,0 +1,19 @@
+{
+  "description": "First differences of A138377.",
+  "id": "A138380",
+  "mentions": [
+    "A138377"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

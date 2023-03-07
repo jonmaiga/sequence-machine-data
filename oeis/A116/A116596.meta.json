@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n having exactly 1 part that appears exactly once.",
+  "id": "A116596",
+  "mentions": [
+    "A116595"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

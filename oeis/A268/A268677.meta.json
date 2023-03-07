@@ -1,0 +1,21 @@
+{
+  "description": "Complement of A268678; numbers that do not occur in A268395.",
+  "id": "A268677",
+  "mentions": [
+    "A006068",
+    "A096346",
+    "A268395",
+    "A268678",
+    "A268712"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

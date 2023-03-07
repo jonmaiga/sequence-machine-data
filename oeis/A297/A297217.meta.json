@@ -1,0 +1,19 @@
+{
+  "description": "Most common value of the number of divisors function among all composites up to composite(n) inclusive, or 0 if there is a tie.",
+  "id": "A297217",
+  "mentions": [
+    "A002808",
+    "A035004"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:33:37",
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

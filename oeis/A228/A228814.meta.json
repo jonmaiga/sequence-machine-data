@@ -1,0 +1,40 @@
+{
+  "description": "Triangle read by rows T(n,k), n>=1, k>=1, in which column k starts in row A002620(k+1). If k is odd the column k lists j's interleaved with (k-1)/2 zeros, where j = (k+1)/2. Otherwise, if k is even the column k lists the positive integers but starting from k/2+1, interleaved with (k-2)/2 zeros.",
+  "id": "A228814",
+  "mentions": [
+    "A000005",
+    "A000012",
+    "A000203",
+    "A002620",
+    "A004526",
+    "A018253",
+    "A027750",
+    "A055086",
+    "A078152",
+    "A147861",
+    "A161904",
+    "A196020",
+    "A210959",
+    "A212119",
+    "A212120",
+    "A221645",
+    "A228812",
+    "A228813",
+    "A228944",
+    "A228951",
+    "A229940",
+    "A229942",
+    "A229950"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

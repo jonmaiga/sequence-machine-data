@@ -1,0 +1,23 @@
+{
+  "description": "Last odd number reached by n before 1 through Collatz iteration, where a(n) = 1 when no other odd number is reached, or -1 if 1 is never reached.",
+  "id": "A306577",
+  "mentions": [
+    "A002450",
+    "A006370",
+    "A247272",
+    "A247346",
+    "A247715",
+    "A247716"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

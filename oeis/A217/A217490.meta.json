@@ -1,0 +1,22 @@
+{
+  "description": "Let t be the length of the shortest computation yielding a positive multiple of n! using addition, subtraction and multiplication. Then a(n) is the least k > 0 such that k*n! can be computed in t steps.",
+  "id": "A217490",
+  "mentions": [
+    "A173419",
+    "A217031",
+    "A217032"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

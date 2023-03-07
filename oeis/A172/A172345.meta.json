@@ -1,0 +1,22 @@
+{
+  "description": "Triangle t(n,k) read by rows: fibonomial ratios c(n)/(c(k)*c(n-k)) where c are partial products of a generalized Fibonacci sequence with multiplier m=7.",
+  "id": "A172345",
+  "mentions": [
+    "A010048",
+    "A054413",
+    "A099927",
+    "A172343",
+    "A172346"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

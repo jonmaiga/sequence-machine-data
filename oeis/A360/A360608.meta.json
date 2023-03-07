@@ -1,0 +1,18 @@
+{
+  "description": "Number of solutions to a 4 X n Ring-Ring puzzle on an empty grid.",
+  "id": "A360608",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Consider the last letter of each of the English words zero, one, two, three, four, five, ... . Write down 0 for a vowel {a,e,i,o,u}, 1 for a consonant.",
+  "id": "A152592",
+  "mentions": [
+    "A059437"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "less",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Greatest Lucas number that does not exceed n.",
+  "id": "A352717",
+  "mentions": [
+    "A000032",
+    "A000204",
+    "A087172",
+    "A130241",
+    "A352718"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

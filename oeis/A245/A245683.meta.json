@@ -1,0 +1,24 @@
+{
+  "description": "Array T(n,k) read by antidiagonals, where T(0,k) = -A226158(k) and T(n+1,k) = 2*T(n,k+1) - T(n,k).",
+  "id": "A245683",
+  "mentions": [
+    "A009843",
+    "A132049",
+    "A190339",
+    "A226158",
+    "A230324",
+    "A243963",
+    "A245244"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

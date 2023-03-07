@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers k such that (k-1) divides (A018804(k)-1).",
+  "id": "A344456",
+  "mentions": [
+    "A018804"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = first odd Wieferich prime to base a(n-1) for n > 1, with a(1) = 2.",
+  "id": "A244550",
+  "mentions": [
+    "A001220",
+    "A124121",
+    "A124122",
+    "A174422",
+    "A244546"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:32:41",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

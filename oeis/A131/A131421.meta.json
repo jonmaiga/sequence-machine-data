@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows (n>=1, 1<=k<=n): T(n,k) = 2*(n+k) - 3.",
+  "id": "A131421",
+  "mentions": [
+    "A000012",
+    "A000567",
+    "A127775"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

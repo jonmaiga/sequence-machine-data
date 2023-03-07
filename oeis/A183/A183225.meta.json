@@ -1,0 +1,25 @@
+{
+  "description": "Array: row r is the complement of the (r+1)-gonal numbers; by antidiagonals.",
+  "id": "A183225",
+  "mentions": [
+    "A000037",
+    "A086270",
+    "A145397",
+    "A183217",
+    "A183218",
+    "A183219",
+    "A183220",
+    "A183221"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

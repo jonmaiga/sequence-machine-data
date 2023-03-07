@@ -1,0 +1,23 @@
+{
+  "description": "Numbers m such that the GCD of the x's that satisfy sigma(x)=m is 5.",
+  "id": "A241650",
+  "mentions": [
+    "A000203",
+    "A240667",
+    "A241625",
+    "A241646",
+    "A241647",
+    "A241648",
+    "A241649"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

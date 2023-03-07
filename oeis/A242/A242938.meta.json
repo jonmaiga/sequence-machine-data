@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of c_e, coefficient associated with the asymptotic evaluation c_e*2^(n^2/4) of the number of subspaces of the n-dimensional vector space over the finite field F_2, n being even.",
+  "id": "A242938",
+  "mentions": [
+    "A048651",
+    "A086053",
+    "A182176",
+    "A242939"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

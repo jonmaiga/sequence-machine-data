@@ -1,0 +1,30 @@
+{
+  "description": "Numbers k such that every integer partition of k contains a 1 or a prime power.",
+  "id": "A322546",
+  "mentions": [
+    "A000607",
+    "A002095",
+    "A023893",
+    "A023894",
+    "A064573",
+    "A078135",
+    "A101417",
+    "A246655",
+    "A320322",
+    "A322452",
+    "A322454",
+    "A322547"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

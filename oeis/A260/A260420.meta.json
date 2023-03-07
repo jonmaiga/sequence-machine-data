@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that sigma(n+1) - sigma(n-1) = n+1.",
+  "id": "A260420",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A076530",
+    "A246852",
+    "A260071"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

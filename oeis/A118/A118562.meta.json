@@ -1,0 +1,21 @@
+{
+  "description": "Least number k such that binomial(2k,k) is divisible by all squares to n squared but not (n+1) squared, or 0 if impossible.",
+  "id": "A118562",
+  "mentions": [
+    "A024619",
+    "A059097",
+    "A080765",
+    "A111869"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

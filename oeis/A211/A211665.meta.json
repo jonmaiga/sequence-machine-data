@@ -1,0 +1,28 @@
+{
+  "description": "Minimal number of iterations of log_10 applied to n until the result is < 1.",
+  "id": "A211665",
+  "mentions": [
+    "A001069",
+    "A004216",
+    "A010096",
+    "A055642",
+    "A138902",
+    "A211661",
+    "A211663",
+    "A211666",
+    "A211668",
+    "A211670"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

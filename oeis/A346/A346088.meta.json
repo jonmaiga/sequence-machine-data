@@ -1,0 +1,23 @@
+{
+  "description": "Smallest divisor d of n for which A002034(d) = A002034(n), where A002034(n) is the smallest positive integer k such that k! is a multiple of n.",
+  "id": "A346088",
+  "mentions": [
+    "A002034",
+    "A223491",
+    "A344758",
+    "A345935",
+    "A345936",
+    "A346089"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

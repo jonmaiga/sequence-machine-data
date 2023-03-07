@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that 2*k is a partition number.",
+  "id": "A213179",
+  "mentions": [
+    "A000041",
+    "A052001",
+    "A213365",
+    "A216258",
+    "A217725",
+    "A217726",
+    "A222175",
+    "A222178",
+    "A222179",
+    "A225317",
+    "A225323"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:22:48",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

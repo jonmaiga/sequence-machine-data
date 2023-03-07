@@ -1,0 +1,19 @@
+{
+  "description": "Starting at n, a(n) is the smallest distance from zero for which the next move is a step away from zero, or zero if no such move is ever made, according to the following rules. On the k-th step (k=1,2,3,...) move a distance of k in the direction of zero. If the number landed on has been landed on before, move a distance of k away from zero instead.",
+  "id": "A324664",
+  "mentions": [
+    "A228474",
+    "A324660",
+    "A324692"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

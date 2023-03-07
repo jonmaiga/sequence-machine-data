@@ -1,0 +1,21 @@
+{
+  "description": "Stirling transform of A077957 (aerated powers of 2).",
+  "id": "A264036",
+  "mentions": [
+    "A065143",
+    "A077957",
+    "A264037",
+    "A357681"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

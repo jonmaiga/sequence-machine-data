@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that sigma(k) times the k-th prime is a brilliant number (A078972).",
+  "id": "A114080",
+  "mentions": [
+    "A078972"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

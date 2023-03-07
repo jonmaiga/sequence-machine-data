@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that no practical number (A005153) exists between p and its successor.",
+  "id": "A273773",
+  "mentions": [
+    "A005153"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

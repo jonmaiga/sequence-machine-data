@@ -1,0 +1,19 @@
+{
+  "description": "Series reversion of (sqrt(1+4*x) - 1)/2 - x^3.",
+  "id": "A229043",
+  "mentions": [
+    "A000108",
+    "A229042"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

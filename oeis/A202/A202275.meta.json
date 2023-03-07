@@ -1,0 +1,25 @@
+{
+  "description": "Differences between A074753 (number of integers k such that sigma(k) <= n) and A202276 (number of integers k <= n such that sigma(x) = k has no solution); sigma = A000203.",
+  "id": "A202275",
+  "mentions": [
+    "A000203",
+    "A007368",
+    "A007369",
+    "A007609",
+    "A074753",
+    "A175523",
+    "A202276",
+    "A202277"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

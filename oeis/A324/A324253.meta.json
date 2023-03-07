@@ -1,0 +1,21 @@
+{
+  "description": "Partition array giving in row n, for n >= 1, the coefficients of the Witt symmetric function w_n, multiplied by n!, in terms of the power sum symmetric functions (using partitions in the Abramowitz-Stegun order)",
+  "id": "A324253",
+  "mentions": [
+    "A000041",
+    "A115131",
+    "A324247"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

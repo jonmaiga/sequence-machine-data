@@ -1,0 +1,25 @@
+{
+  "description": "Zeckendorf representation of natural numbers.",
+  "id": "A189920",
+  "mentions": [
+    "A000045",
+    "A014417",
+    "A035517",
+    "A072649",
+    "A213676"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 129,
+    "source": "oeis-bfile"
+  }
+}

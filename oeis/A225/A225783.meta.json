@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,m) is the number of n X m binary (0,1) matrices that represent perfect parity patterns.",
+  "id": "A225783",
+  "mentions": [
+    "A183109"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

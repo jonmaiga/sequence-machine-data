@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest k >= 0 such that the decimal concatenation 1 (n times) || k || 1 (n times) is a prime, or -1 if no such k exists.",
+  "id": "A345223",
+  "mentions": [
+    "A004023",
+    "A088281",
+    "A138148",
+    "A258372"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

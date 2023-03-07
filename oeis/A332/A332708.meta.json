@@ -1,0 +1,25 @@
+{
+  "description": "Factors k >= 0 such that the polynomial x^2 + k*x + 1 produces a record of its Hardy-Littlewood constant.",
+  "id": "A332708",
+  "mentions": [
+    "A221712",
+    "A331940",
+    "A331945",
+    "A331946",
+    "A331947",
+    "A331948",
+    "A331949",
+    "A332707"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

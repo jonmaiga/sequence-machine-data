@@ -1,0 +1,24 @@
+{
+  "description": "Smallest odd prime base q such that p^2 divides q^(p-1) - 1, where p = prime(n).",
+  "id": "A125636",
+  "mentions": [
+    "A125609",
+    "A125610",
+    "A125611",
+    "A125612",
+    "A125632",
+    "A125633",
+    "A125634",
+    "A125637"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

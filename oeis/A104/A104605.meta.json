@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: row n gives list of powers of phi in the representation of the integer n as a sum of increasing nonconsecutive powers of the golden ratio.",
+  "id": "A104605",
+  "mentions": [
+    "A000045",
+    "A055778",
+    "A105424",
+    "A178482"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nice",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "From fifth root of the inverse of Riemann zeta function: form Dirichlet series Sum b(n)/n^x whose fifth power is 1/zeta; sequence gives numerator of b(n).",
+  "id": "A257101",
+  "mentions": [
+    "A046643",
+    "A046644",
+    "A256688",
+    "A256689",
+    "A256690",
+    "A256691",
+    "A256692",
+    "A256693",
+    "A257098",
+    "A257099",
+    "A257100"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "changed",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

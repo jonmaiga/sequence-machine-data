@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A002627(n+1) - A002627(n) - n!.",
+  "id": "A114870",
+  "mentions": [
+    "A000522",
+    "A002627",
+    "A074909"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

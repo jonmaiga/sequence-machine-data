@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n! * [x^n] exp(Sum_{k=1..n} sigma_n(k) * x^k).",
+  "id": "A294388",
+  "mentions": [
+    "A252782",
+    "A294296"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 2-adic valuation of prime(n)+prime(n+1).",
+  "id": "A237881",
+  "mentions": [
+    "A001043",
+    "A007814",
+    "A071087",
+    "A098048"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 123,
+    "source": "oeis-bfile"
+  }
+}

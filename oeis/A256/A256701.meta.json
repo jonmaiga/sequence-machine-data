@@ -1,0 +1,21 @@
+{
+  "description": "Positive part of the minimal alternating binary representation of n (defined at A245596).",
+  "id": "A256701",
+  "mentions": [
+    "A073122",
+    "A245596",
+    "A256702"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

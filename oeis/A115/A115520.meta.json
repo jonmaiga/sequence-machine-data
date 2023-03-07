@@ -1,0 +1,18 @@
+{
+  "description": "Number of ordered triples (i,j,k) in range [0..n] satisfying i == j mod 2 and j == k mod 3.",
+  "id": "A115520",
+  "mentions": [
+    "A115523"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

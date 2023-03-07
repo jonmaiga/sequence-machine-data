@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of Product_{k>0} ((1-x^{5k-2}) * (1-x^{5k-3})/((1-x^{5k-1}) * (1-x^{5k-4})))^3 in powers of x.",
+  "id": "A285443",
+  "mentions": [
+    "A003823",
+    "A007325",
+    "A055101",
+    "A055102",
+    "A055103",
+    "A109091",
+    "A285442",
+    "A285444"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

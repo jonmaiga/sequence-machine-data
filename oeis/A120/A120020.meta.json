@@ -1,0 +1,22 @@
+{
+  "description": "Coefficients of x^n in the n-th iteration of the g.f. of A120010: a(n) = [x^n] { (1-sqrt(1-4*x))/2 o x/(1-n*x) o (x-x^2) } for n>=1.",
+  "id": "A120020",
+  "mentions": [
+    "A000108",
+    "A120010",
+    "A120019",
+    "A120021",
+    "A120022"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

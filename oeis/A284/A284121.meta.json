@@ -1,0 +1,20 @@
+{
+  "description": "Period of orbit of Post's tag system applied to the word (100)^n (version 1), or -1 if the orbit increases without limit.",
+  "id": "A284121",
+  "mentions": [
+    "A284116",
+    "A284119",
+    "A291792",
+    "A291793"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

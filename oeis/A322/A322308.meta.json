@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations sigma such that |sigma(i+j)-sigma(i)| >= 5 for 1 <= i <= n - j, 1 <= j <= 4.",
+  "id": "A322308",
+  "mentions": [
+    "A179958",
+    "A279214",
+    "A322281"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

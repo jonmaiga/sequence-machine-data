@@ -1,0 +1,24 @@
+{
+  "description": "Take n-th string over {1,2} in lexicographic order and apply the Watanabe tag system (00, 0111} described in A291069 (but adapted to the alphabet {1,2}) just once.",
+  "id": "A291074",
+  "mentions": [
+    "A007931",
+    "A284116",
+    "A289673",
+    "A291067",
+    "A291068",
+    "A291069",
+    "A291072",
+    "A291073"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

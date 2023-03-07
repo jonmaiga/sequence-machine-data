@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of (undirected) Hamiltonian cycles in the n-Sierpiński sieve graph.",
+  "id": "A246959",
+  "mentions": [
+    "A234635",
+    "A246957",
+    "A246958"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

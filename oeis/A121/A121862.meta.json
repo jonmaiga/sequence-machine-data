@@ -1,0 +1,21 @@
+{
+  "description": "Least previously nonoccurring positive integer such that partial sum + 2 is prime.",
+  "id": "A121862",
+  "mentions": [
+    "A000040",
+    "A084758",
+    "A121861"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

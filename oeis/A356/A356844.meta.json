@@ -1,0 +1,32 @@
+{
+  "description": "Numbers k such that the k-th composition in standard order contains at least one 1. Numbers that are odd or whose binary expansion contains at least two adjacent 1's.",
+  "id": "A356844",
+  "mentions": [
+    "A004754",
+    "A004760",
+    "A004780",
+    "A005408",
+    "A022340",
+    "A055932",
+    "A066099",
+    "A073492",
+    "A073493",
+    "A099036",
+    "A132747",
+    "A212804",
+    "A333217",
+    "A356843",
+    "A356845"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

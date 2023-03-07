@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of ways to arrange numbers from 1 to 2*n in a row, starting with 1, such that the sum of every two adjacent numbers is prime, but also considering the ends as adjacent.",
+  "id": "A294184",
+  "mentions": [
+    "A036440",
+    "A051239",
+    "A051252",
+    "A242527",
+    "A242528"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

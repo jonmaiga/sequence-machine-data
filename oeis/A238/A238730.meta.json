@@ -1,0 +1,20 @@
+{
+  "description": "The largest prime in each decade (10k,10k+10) containing at least three primes.",
+  "id": "A238730",
+  "mentions": [
+    "A008470",
+    "A008471",
+    "A238713",
+    "A238715"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

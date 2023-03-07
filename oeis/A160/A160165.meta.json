@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A000969(n) minus toothpick number A139250(n+1).",
+  "id": "A160165",
+  "mentions": [
+    "A000695",
+    "A000969",
+    "A139250",
+    "A153007",
+    "A159790",
+    "A160166"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

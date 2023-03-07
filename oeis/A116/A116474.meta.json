@@ -1,0 +1,20 @@
+{
+  "description": "Equal divisions of the octave with progressively increasing consistency levels.",
+  "id": "A116474",
+  "mentions": [
+    "A116475",
+    "A117577",
+    "A117578"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 3,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

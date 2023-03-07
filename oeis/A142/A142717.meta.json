@@ -1,0 +1,23 @@
+{
+  "description": "First (leftmost) odd term in the n-th row of triangle A120070.",
+  "id": "A142717",
+  "mentions": [
+    "A000466",
+    "A005408",
+    "A078371",
+    "A100181",
+    "A120070",
+    "A142954"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:28:15",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

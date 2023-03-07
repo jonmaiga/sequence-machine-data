@@ -1,0 +1,20 @@
+{
+  "description": "Isolated primes congruent to {1, 11, 13, 29} mod 30.",
+  "id": "A132258",
+  "mentions": [
+    "A007510",
+    "A031926",
+    "A118922"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

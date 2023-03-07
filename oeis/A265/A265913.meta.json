@@ -1,0 +1,19 @@
+{
+  "description": "Values of Ramanujan's tau function that are prime.",
+  "id": "A265913",
+  "mentions": [
+    "A000594",
+    "A135430"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:26",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

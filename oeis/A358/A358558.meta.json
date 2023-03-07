@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of pairs (k,m) of positive integers with 1 <= k < m <= n such that gcd(k,m) = 2^t, t > 0.",
+  "id": "A358558",
+  "mentions": [
+    "A000079",
+    "A000523",
+    "A008805",
+    "A049690"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

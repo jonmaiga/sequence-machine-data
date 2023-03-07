@@ -1,0 +1,22 @@
+{
+  "description": "a(0)=0; thereafter a(n) = a(n-1)+n if the (n-1)st digit of the sequence is even, otherwise a(n) = a(n-1)-n.",
+  "id": "A309216",
+  "mentions": [
+    "A003816",
+    "A309214",
+    "A309215",
+    "A309217",
+    "A309529"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

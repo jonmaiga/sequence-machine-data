@@ -1,0 +1,20 @@
+{
+  "description": "Primes sorted on digit sums, then on the primes.",
+  "id": "A157715",
+  "mentions": [
+    "A062339",
+    "A062341",
+    "A080176"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

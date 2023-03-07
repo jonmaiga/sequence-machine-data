@@ -1,0 +1,75 @@
+{
+  "oi": 175228,
+  "ps": [
+    {
+      "d": "2022-10-08",
+      "ix": "nonprime(runs[round(sqrt(n))])",
+      "mt": 39,
+      "px": [
+        "n",
+        "sqrt",
+        "round",
+        "runs",
+        "nonprime"
+      ]
+    },
+    {
+      "d": "2022-04-29",
+      "ix": "nonprime(log2(lcm(2, 4^n)))",
+      "mt": 39,
+      "px": [
+        "2",
+        "4",
+        "n",
+        "^",
+        "lcm",
+        "log2",
+        "nonprime"
+      ]
+    },
+    {
+      "d": "2021-12-13",
+      "ix": "record[nonprime(abs(xor(1, -n)))]",
+      "mt": 39,
+      "px": [
+        "1",
+        "n",
+        "neg",
+        "xor",
+        "abs",
+        "nonprime",
+        "record"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "nonprime(comp[record[xor(1, n+1)]])",
+      "mt": 39,
+      "px": [
+        "1",
+        "n",
+        "1",
+        "+",
+        "xor",
+        "record",
+        "comp",
+        "nonprime"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "nonprime(ceil(abs(2*n-γ)))",
+      "mt": 39,
+      "px": [
+        "2",
+        "n",
+        "*",
+        "γ",
+        "sub",
+        "abs",
+        "ceil",
+        "nonprime"
+      ]
+    }
+  ]
+}

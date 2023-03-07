@@ -1,0 +1,20 @@
+{
+  "description": "Replace prime digits with 2 and nonprime digits with 1.",
+  "id": "A167678",
+  "mentions": [
+    "A065031",
+    "A167677",
+    "A167679"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

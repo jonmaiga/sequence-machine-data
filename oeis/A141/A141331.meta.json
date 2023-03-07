@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = number of positive integers k, k < n, where the sine of k radians is > the sine of n radians.",
+  "id": "A141331",
+  "mentions": [
+    "A141330",
+    "A141332",
+    "A141333",
+    "A141334",
+    "A141335"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

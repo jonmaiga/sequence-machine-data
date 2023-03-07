@@ -1,0 +1,20 @@
+{
+  "description": "List of words of length n over an alphabet of size 3 that are in standard order.",
+  "id": "A278985",
+  "mentions": [
+    "A007051",
+    "A071159",
+    "A278984"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

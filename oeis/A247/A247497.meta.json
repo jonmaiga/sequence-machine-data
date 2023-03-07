@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows, T(n,k) (n>=0, 0<=k<=n) coefficients of the partial fraction decomposition of rational functions generating the columns of A247495 (the Motzkin polynomials evaluated at nonnegative integers).",
+  "id": "A247497",
+  "mentions": [
+    "A000142",
+    "A001006",
+    "A001710",
+    "A058987",
+    "A097610",
+    "A247495"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

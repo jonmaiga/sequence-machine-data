@@ -1,0 +1,18 @@
+{
+  "description": "The floretion + .25'i + .25'j + .25'k + .25i' + .25j' + .25k' + .25'ii' + .25'jj' + .25'kk' + .25'ij' + .25'ik' + .25'ji' + .25'jk' + .25'ki' + .25'kj' + .25e.",
+  "id": "A117153",
+  "mentions": [
+    "A108618"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hear",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

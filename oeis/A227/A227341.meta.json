@@ -1,0 +1,24 @@
+{
+  "description": "Triangular array: Number of partitions of the vertex set of a forest of two trees on n vertices into k nonempty independent sets.",
+  "id": "A227341",
+  "mentions": [
+    "A008277",
+    "A011968",
+    "A033484",
+    "A091344",
+    "A105794"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

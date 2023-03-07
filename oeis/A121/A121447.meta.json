@@ -1,0 +1,19 @@
+{
+  "description": "Level of the first leaf (in preorder traversal) of a ternary tree, summed over all ternary trees with n edges. A ternary tree is a rooted tree in which each vertex has at most three children and each child of a vertex is designated as its left or middle or right child.",
+  "id": "A121447",
+  "mentions": [
+    "A121445",
+    "A121455"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:02:39",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

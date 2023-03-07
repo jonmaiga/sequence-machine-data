@@ -1,0 +1,28 @@
+{
+  "description": "Numbers of the form a^4 + b^6, with integers a, b > 0.",
+  "id": "A303374",
+  "mentions": [
+    "A000404",
+    "A055394",
+    "A100291",
+    "A100292",
+    "A100293",
+    "A100294",
+    "A111925",
+    "A133388",
+    "A303372",
+    "A303373",
+    "A303375"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

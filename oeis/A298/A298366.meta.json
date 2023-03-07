@@ -1,0 +1,25 @@
+{
+  "description": "Even numbers n such that n-5 and n-3 are both composite.",
+  "id": "A298366",
+  "mentions": [
+    "A000230",
+    "A005843",
+    "A056240",
+    "A061673",
+    "A269345",
+    "A297925",
+    "A298252",
+    "A298615"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:19",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Numbers whose prime divisors, when multiplied together without carry-bits (as encodings of GF(2)[X]-polynomials, with A048720), produce the original number; numbers for which A234741(n) = n.",
+  "id": "A235034",
+  "mentions": [
+    "A000040",
+    "A004729",
+    "A045544",
+    "A048720",
+    "A061858",
+    "A091206",
+    "A091209",
+    "A093641",
+    "A234741",
+    "A235032",
+    "A235035",
+    "A235040",
+    "A235050",
+    "A235490",
+    "A236378"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

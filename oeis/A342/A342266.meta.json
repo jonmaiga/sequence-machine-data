@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative terms such that both a(n) and a(n) * a(n+1) have digits in nondecreasing order.",
+  "id": "A342266",
+  "mentions": [
+    "A009994",
+    "A342264",
+    "A342265"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

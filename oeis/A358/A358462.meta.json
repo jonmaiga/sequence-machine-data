@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1, a(2) = -1; for n > 2, a(n) is smallest magnitude nonzero integer which has not appeared such that the quadratic equation a(n-2)*x^2 + a(n-1)*x + a(n) = 0 has at least one integer root.",
+  "id": "A358462",
+  "mentions": [
+    "A000058",
+    "A000290",
+    "A001622",
+    "A002378",
+    "A348139"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

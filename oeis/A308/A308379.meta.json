@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. A(x) satisfies: A(x) = x * Product_{k>=1} 1/(1 - A(x^k))^(1/k).",
+  "id": "A308379",
+  "mentions": [
+    "A050383",
+    "A308369",
+    "A308380"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

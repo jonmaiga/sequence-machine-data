@@ -1,0 +1,29 @@
+{
+  "description": "Number of integer partitions of n with adjusted frequency depth equal to their length.",
+  "id": "A325246",
+  "mentions": [
+    "A001222",
+    "A008284",
+    "A127002",
+    "A181819",
+    "A182850",
+    "A225485",
+    "A323014",
+    "A323023",
+    "A325254",
+    "A325266",
+    "A325277",
+    "A325280",
+    "A325281"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

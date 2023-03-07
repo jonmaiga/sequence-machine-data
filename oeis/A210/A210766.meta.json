@@ -1,0 +1,21 @@
+{
+  "description": "Number of 8-hoops with n symbols and no a-rooted trees.",
+  "id": "A210766",
+  "mentions": [
+    "A060560",
+    "A210768",
+    "A295925"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:22:25",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

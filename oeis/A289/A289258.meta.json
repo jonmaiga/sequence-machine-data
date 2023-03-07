@@ -1,0 +1,21 @@
+{
+  "description": "Prime factors of numbers in A289257.",
+  "id": "A289258",
+  "mentions": [
+    "A006521",
+    "A057719",
+    "A124240",
+    "A289257"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

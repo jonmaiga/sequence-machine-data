@@ -1,0 +1,27 @@
+{
+  "description": "Number of positive integers that are reachable from n with some combination of transitions x -> x-phi(x) and x -> gcd(x,phi(x)).",
+  "id": "A326198",
+  "mentions": [
+    "A000010",
+    "A009195",
+    "A051953",
+    "A071575",
+    "A300243",
+    "A326189",
+    "A326195",
+    "A326196",
+    "A327160",
+    "A327161"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

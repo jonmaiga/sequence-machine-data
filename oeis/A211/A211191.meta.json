@@ -1,0 +1,20 @@
+{
+  "description": "List of odd values of k for which k^2+4 has a factor that is a square number larger than 1.",
+  "id": "A211191",
+  "mentions": [
+    "A000290",
+    "A005117",
+    "A005408",
+    "A087475"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

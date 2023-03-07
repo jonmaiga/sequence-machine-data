@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of theta_3(q^3)*theta_3(q^4), where theta_3() is the Jacobi theta function.",
+  "id": "A317643",
+  "mentions": [
+    "A000049",
+    "A020677",
+    "A068229",
+    "A108563",
+    "A192323"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:48:35",
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

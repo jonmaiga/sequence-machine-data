@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that p-1 divides 2^p + 2.",
+  "id": "A211349",
+  "mentions": [
+    "A015950",
+    "A069051",
+    "A211203"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

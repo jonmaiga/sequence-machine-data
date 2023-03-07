@@ -1,0 +1,21 @@
+{
+  "description": "Index of term in Sylvester's sequence A000058 divisible by prime A007996(n).",
+  "id": "A180871",
+  "mentions": [
+    "A000058",
+    "A007996",
+    "A126263"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

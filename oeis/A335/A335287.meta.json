@@ -1,0 +1,21 @@
+{
+  "description": "Balanced numbers (A020492) k with a record value of sigma(k)/phi(k).",
+  "id": "A335287",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A018894",
+    "A020492"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

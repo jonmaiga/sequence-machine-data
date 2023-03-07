@@ -1,0 +1,20 @@
+{
+  "description": "Smallest positive composite number such that a(n) - n is also composite.",
+  "id": "A155875",
+  "mentions": [
+    "A122985",
+    "A155874"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

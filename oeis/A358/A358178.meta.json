@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the cardinality of the set of distinct pairwise gcd's of {1! + 1, ..., n! + 1}.",
+  "id": "A358178",
+  "mentions": [
+    "A038507",
+    "A214799",
+    "A356371",
+    "A358127"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

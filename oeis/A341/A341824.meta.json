@@ -1,0 +1,23 @@
+{
+  "description": "Number of groups of order 2^n which occur as Aut(G) for some finite group G.",
+  "id": "A341824",
+  "mentions": [
+    "A000679",
+    "A054397",
+    "A340521",
+    "A341823",
+    "A341825"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

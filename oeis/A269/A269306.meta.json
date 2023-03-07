@@ -1,0 +1,19 @@
+{
+  "description": "a(n+1) is the smallest integer such that the difference between its digital sum and the digital sum of a(n) is n.",
+  "id": "A269306",
+  "mentions": [
+    "A000217",
+    "A268605"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

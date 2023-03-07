@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 1728*n - 1320.",
+  "id": "A157263",
+  "mentions": [
+    "A157262",
+    "A157264"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

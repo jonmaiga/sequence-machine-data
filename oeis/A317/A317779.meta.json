@@ -1,0 +1,21 @@
+{
+  "description": "Number of equivalence classes of binary words of length n for the set of subwords {010, 101, 10110}.",
+  "id": "A317779",
+  "mentions": [
+    "A000045",
+    "A317669",
+    "A317783"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

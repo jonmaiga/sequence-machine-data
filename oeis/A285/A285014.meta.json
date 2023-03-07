@@ -1,0 +1,19 @@
+{
+  "description": "Number of integers b with 1 < b < c such that b^(c-1) == 1 (modulo c), where c is the n-th composite number.",
+  "id": "A285014",
+  "mentions": [
+    "A002808",
+    "A039769",
+    "A268310"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

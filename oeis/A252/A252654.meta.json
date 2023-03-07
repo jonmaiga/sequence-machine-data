@@ -1,0 +1,20 @@
+{
+  "description": "Number of multisets of nonempty words with a total of n letters over n-ary alphabet.",
+  "id": "A252654",
+  "mentions": [
+    "A144074",
+    "A292805",
+    "A292873"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:10",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

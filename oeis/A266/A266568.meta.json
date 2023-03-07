@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = smallest k such that 2^k ends in a string of exactly n nonzero digits.",
+  "id": "A266568",
+  "mentions": [
+    "A007377",
+    "A031140",
+    "A031141",
+    "A031142",
+    "A031143",
+    "A181611"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

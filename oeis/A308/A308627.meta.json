@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that the ternary tribonacci sequence (A080843) has a Lyndon factor of length k.",
+  "id": "A308627",
+  "mentions": [
+    "A080843"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

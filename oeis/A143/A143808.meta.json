@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows, first n terms of the sequence (1, 2, 4, 10, ...) followed by P(n), where (2, 4, 10, 12, ...) = twice Pell numbers.",
+  "id": "A143808",
+  "mentions": [
+    "A000129"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

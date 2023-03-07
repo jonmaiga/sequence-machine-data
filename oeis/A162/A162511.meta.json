@@ -1,0 +1,34 @@
+{
+  "description": "Multiplicative function with a(p^e) = (-1)^(e-1).",
+  "id": "A162511",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A002035",
+    "A005117",
+    "A008836",
+    "A036537",
+    "A046660",
+    "A072587",
+    "A076479",
+    "A162510",
+    "A162512",
+    "A162643",
+    "A162644",
+    "A162645",
+    "A307868"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:18:17",
+    "offset": 1,
+    "size": 92,
+    "source": "joeis"
+  }
+}

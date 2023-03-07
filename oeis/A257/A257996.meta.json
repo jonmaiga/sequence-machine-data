@@ -1,0 +1,20 @@
+{
+  "description": "Let s0 and s1 be the sums of the reciprocals of the even and odd divisors of n, respectively. The sequence lists the numbers n such that 3*s0 - 2*s1 = 1.",
+  "id": "A257996",
+  "mentions": [
+    "A000396",
+    "A000668",
+    "A016825",
+    "A064591"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

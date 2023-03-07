@@ -1,0 +1,20 @@
+{
+  "description": "The number of different 4-colorings for the vertices of all triangulated planar polygons on a base with n vertices if the colors of two adjacent boundary vertices are fixed.",
+  "id": "A174395",
+  "mentions": [
+    "A026644",
+    "A081251"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 3,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

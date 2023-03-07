@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Product prime1(k)^prime1(n-k+1), k = 1 to n.",
+  "id": "A131690",
+  "mentions": [
+    "A076265",
+    "A087315"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

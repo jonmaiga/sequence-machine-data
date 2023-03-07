@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers congruent to 49 or 121 modulo 240 representable by x^2 + 960*y^2.",
+  "id": "A325090",
+  "mentions": [
+    "A325067",
+    "A325089"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

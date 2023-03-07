@@ -1,0 +1,22 @@
+{
+  "description": "Dirichlet g.f.: Sum_{n>0} a(n)/n^s = zeta(s-1)*zeta(s-3)/(zeta(s-2))^2.",
+  "id": "A349469",
+  "mentions": [
+    "A057660",
+    "A068963",
+    "A340850"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

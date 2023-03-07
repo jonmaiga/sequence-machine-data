@@ -1,0 +1,22 @@
+{
+  "description": "Partial sums of round(4^n/7).",
+  "id": "A178872",
+  "mentions": [
+    "A049347",
+    "A164346"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

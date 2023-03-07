@@ -1,0 +1,22 @@
+{
+  "description": "Square array read by antidiagonals up. Redheffer type matrix. T(1,1)=1 and T(n,1) = A049240.",
+  "id": "A174856",
+  "mentions": [
+    "A002819",
+    "A049240",
+    "A143104",
+    "A174852",
+    "A174854"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

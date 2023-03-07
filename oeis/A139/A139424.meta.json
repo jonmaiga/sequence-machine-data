@@ -1,0 +1,27 @@
+{
+  "description": "Smallest number k such that M(n)^2-k*M(n)-1 is prime with M(n) = Mersenne primes = A000668(n).",
+  "id": "A139424",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A139421",
+    "A139425",
+    "A139426",
+    "A139427",
+    "A139428",
+    "A139429",
+    "A139430"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

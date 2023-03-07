@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, A156663 * (A001045 * 0^(n-k)).",
+  "id": "A156667",
+  "mentions": [
+    "A001045",
+    "A156663"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k)=Number of (n+1)X(k+1) 0..1 arrays with every 2X2 subblock ne-sw antidiagonal difference unequal to its neighbors horizontally and nw+se diagonal sum unequal to its neighbors vertically",
+  "id": "A253698",
+  "mentions": [
+    "A185761"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

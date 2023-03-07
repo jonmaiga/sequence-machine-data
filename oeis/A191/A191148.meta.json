@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-cell fixed line-convex polycubes in 3 dimensions.",
+  "id": "A191148",
+  "mentions": [
+    "A067675"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

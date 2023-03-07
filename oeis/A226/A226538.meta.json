@@ -1,0 +1,20 @@
+{
+  "description": "a(2t) = a(2t-1) + 1, a(2t+1) = a(2t) + a(2t-2) for t >= 1, with a(0) = a(1) = 1.",
+  "id": "A226538",
+  "mentions": [
+    "A000071",
+    "A001911"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

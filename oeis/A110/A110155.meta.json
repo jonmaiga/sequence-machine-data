@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: A(x) = Product_{n>=1} 1/(1 - 5^n*x^n)^(5/5^n).",
+  "id": "A110155",
+  "mentions": [
+    "A110152",
+    "A110153",
+    "A110154",
+    "A110156"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

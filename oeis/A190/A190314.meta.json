@@ -1,0 +1,21 @@
+{
+  "description": "The number of cycles in the digraph representation of all endofunctions on {1,2,...,n}.",
+  "id": "A190314",
+  "mentions": [
+    "A000169",
+    "A001620",
+    "A060281",
+    "A066324"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

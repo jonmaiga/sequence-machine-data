@@ -1,0 +1,22 @@
+{
+  "description": "Table T(n,k) = number of lines through exactly k points of an n X n grid of points.",
+  "id": "A119437",
+  "mentions": [
+    "A018808",
+    "A018809",
+    "A018817",
+    "A119439"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 2,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

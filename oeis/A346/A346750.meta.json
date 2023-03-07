@@ -1,0 +1,24 @@
+{
+  "description": "E.g.f.: log( 1 + x^2 * exp(x) / 2 ).",
+  "id": "A346750",
+  "mentions": [
+    "A000217",
+    "A009306",
+    "A133189",
+    "A300455",
+    "A346751",
+    "A346752",
+    "A346753"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:21",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

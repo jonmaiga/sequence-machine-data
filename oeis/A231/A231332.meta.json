@@ -1,0 +1,21 @@
+{
+  "description": "Primes p = prime(k) such that p - 2k and p + 2k are prime.",
+  "id": "A231332",
+  "mentions": [
+    "A000040",
+    "A014689",
+    "A231232",
+    "A231326",
+    "A231506"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

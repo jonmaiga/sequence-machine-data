@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A214551(n-1) + A214551(n-3), with a(0) = a(1) = a(2) = 1.",
+  "id": "A214322",
+  "mentions": [
+    "A214323",
+    "A214551"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

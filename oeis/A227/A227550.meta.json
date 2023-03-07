@@ -1,0 +1,32 @@
+{
+  "description": "A triangle formed like Pascal's triangle, but with factorial(n) on the borders instead of 1.",
+  "id": "A227550",
+  "mentions": [
+    "A001563",
+    "A003422",
+    "A007318",
+    "A028326",
+    "A051599",
+    "A051601",
+    "A051666",
+    "A074911",
+    "A108617",
+    "A134636",
+    "A137688",
+    "A140710",
+    "A227075",
+    "A227791"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

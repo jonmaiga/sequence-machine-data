@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1. For n >= 2, a(n) is the number of earlier terms of the sequence that have the same number of ones in their binary representations as n.",
+  "id": "A113503",
+  "mentions": [
+    "A000120",
+    "A113504"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of nonisomorphic Hamiltonian cycles on (4n-2) X (4n-2) square grid of points with four-fold rotational symmetry (and no other symmetry).",
+  "id": "A237432",
+  "mentions": [
+    "A209077",
+    "A227005",
+    "A237431",
+    "A238819"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

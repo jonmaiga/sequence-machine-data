@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k that divide sigma(k) + sigma(k-1).",
+  "id": "A227306",
+  "mentions": [
+    "A000203",
+    "A007691",
+    "A068078",
+    "A072188",
+    "A092403",
+    "A186103"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Positive numbers which have more than two representations (m,s) as a difference s^2-m^5, m>=1, s>0.",
+  "id": "A177786",
+  "mentions": [
+    "A152412",
+    "A177760",
+    "A177761",
+    "A177763",
+    "A177764",
+    "A177765",
+    "A177766",
+    "A177770"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of idempotent n X n 0..6 matrices of rank n-1.",
+  "id": "A224331",
+  "mentions": [
+    "A224333"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

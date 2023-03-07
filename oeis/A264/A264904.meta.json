@@ -1,0 +1,23 @@
+{
+  "description": "Primes of the form x^2 + y^2 with 0 < x < y such that all the numbers (x-a)^2 + (y+a)^2 (a = 1,...,x) are composite.",
+  "id": "A264904",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A002144",
+    "A002313",
+    "A002496",
+    "A264865",
+    "A264866"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

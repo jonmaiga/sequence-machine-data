@@ -1,0 +1,20 @@
+{
+  "description": "Solution (c(n)) of the system of 3 complementary equations in Comments.",
+  "id": "A298870",
+  "mentions": [
+    "A298868",
+    "A298869",
+    "A299634"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:21",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

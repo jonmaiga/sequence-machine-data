@@ -1,0 +1,18 @@
+{
+  "description": "Noncubefree numbers k such that A073185(k) > 2*k.",
+  "id": "A357700",
+  "mentions": [
+    "A073185",
+    "A357695"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

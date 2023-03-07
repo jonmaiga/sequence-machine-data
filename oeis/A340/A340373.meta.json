@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 1 if n is of the form of 2^i * p^j, with p an odd prime, and i>=0, j>=1, otherwise 0.",
+  "id": "A340373",
+  "mentions": [
+    "A000265",
+    "A001221",
+    "A005087",
+    "A069513",
+    "A209229",
+    "A336101",
+    "A340363"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

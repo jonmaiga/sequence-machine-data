@@ -1,0 +1,19 @@
+{
+  "description": "Integer parts of partial sums of p*q/(p+q), with primes p and q.",
+  "id": "A120836",
+  "mentions": [
+    "A120833",
+    "A120834",
+    "A120835"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

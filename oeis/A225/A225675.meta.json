@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that triangular(n) is representable as p*w, where p is a prime number and w is a prime power (A025475).",
+  "id": "A225675",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A025475",
+    "A225674"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

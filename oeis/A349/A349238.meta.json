@@ -1,0 +1,28 @@
+{
+  "description": "Reverse the digits in the Zeckendorf representation of n (A189920).",
+  "id": "A349238",
+  "mentions": [
+    "A000045",
+    "A003622",
+    "A003714",
+    "A004086",
+    "A022290",
+    "A030101",
+    "A094202",
+    "A189920",
+    "A343150",
+    "A348853"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

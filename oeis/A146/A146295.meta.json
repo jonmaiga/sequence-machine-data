@@ -1,0 +1,22 @@
+{
+  "description": "Integers which are not the sum of a 4-almost prime and a prime.",
+  "id": "A146295",
+  "mentions": [
+    "A000040",
+    "A014613",
+    "A130588",
+    "A146296",
+    "A146297"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 2,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Power series expansion of AQM(1,1-8x) where AQM denotes the arithmetic-quadratic mean.",
+  "id": "A342817",
+  "mentions": [
+    "A060691"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

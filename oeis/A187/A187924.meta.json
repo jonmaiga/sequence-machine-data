@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest multiple of n such that a(n) ends with n and S(a(n))=n where S(m) is the sum of the base ten digits of m, or 0 if no such a(n) exists.",
+  "id": "A187924",
+  "mentions": [
+    "A075154"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

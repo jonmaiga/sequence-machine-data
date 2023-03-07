@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest prime p > 10 such that when strings of n zeros are inserted between every pair of adjacent digits the result is also a prime.",
+  "id": "A341899",
+  "mentions": [
+    "A306920",
+    "A344637",
+    "A344936",
+    "A344937"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

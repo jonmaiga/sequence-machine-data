@@ -1,0 +1,20 @@
+{
+  "description": "List of pairs of amicable numbers (m, n) with record value of m/n.",
+  "id": "A287026",
+  "mentions": [
+    "A063990",
+    "A259180",
+    "A287011"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:59",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of multisets of n nonempty words with a total of 2n letters over binary alphabet.",
+  "id": "A359962",
+  "mentions": [
+    "A209406",
+    "A360626"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

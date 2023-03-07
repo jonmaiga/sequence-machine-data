@@ -1,0 +1,22 @@
+{
+  "description": "Restricted growth sequence transform of A046523(A304531(n)).",
+  "id": "A304732",
+  "mentions": [
+    "A046523",
+    "A304098",
+    "A304531",
+    "A304535",
+    "A304536",
+    "A304729"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

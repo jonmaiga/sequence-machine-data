@@ -1,0 +1,27 @@
+{
+  "description": "A fourth-order divisibility sequence: a(n) = (1/14)*(Pell(4*n) + Pell(2*n)).",
+  "id": "A273626",
+  "mentions": [
+    "A000129",
+    "A001109",
+    "A029547",
+    "A081555",
+    "A082405",
+    "A127595",
+    "A215466",
+    "A273622",
+    "A273627"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of P-positions for n-modular Nim with 2 piles.",
+  "id": "A267092",
+  "mentions": [
+    "A000010",
+    "A006519",
+    "A267093"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:28",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Square loops: the number of circular permutations (reversals not counted as different) of the numbers 0 to n such that the sum of any two consecutive numbers is a square.",
+  "id": "A108661",
+  "mentions": [
+    "A071984",
+    "A090460",
+    "A108658",
+    "A108659",
+    "A108660"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 31,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

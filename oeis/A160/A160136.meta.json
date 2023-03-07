@@ -1,0 +1,21 @@
+{
+  "description": "Lodumo_9 of Fibonacci numbers.",
+  "id": "A160136",
+  "mentions": [
+    "A000045",
+    "A001175",
+    "A007887"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

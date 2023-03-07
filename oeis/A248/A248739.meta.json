@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 29*n + ceiling(n/29).",
+  "id": "A248739",
+  "mentions": [
+    "A001622",
+    "A004922",
+    "A004942",
+    "A004962",
+    "A195819"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:47:27",
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

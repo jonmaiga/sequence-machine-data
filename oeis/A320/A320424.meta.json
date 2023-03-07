@@ -1,0 +1,28 @@
+{
+  "description": "Number of set partitions of {1,...,n} where each block's elements are relatively prime.",
+  "id": "A320424",
+  "mentions": [
+    "A000110",
+    "A000258",
+    "A000837",
+    "A008277",
+    "A085945",
+    "A289508",
+    "A289509",
+    "A300486",
+    "A303139",
+    "A320423",
+    "A320430"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

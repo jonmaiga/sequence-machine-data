@@ -1,0 +1,27 @@
+{
+  "description": "Square array where the row n lists all nonnegative numbers k for which A328578(k) = n, read by falling antidiagonals.",
+  "id": "A328631",
+  "mentions": [
+    "A005408",
+    "A257993",
+    "A276086",
+    "A328578",
+    "A328632",
+    "A328633",
+    "A328634",
+    "A328635",
+    "A328636",
+    "A328761"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

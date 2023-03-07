@@ -1,0 +1,20 @@
+{
+  "description": "Number of ordered ways to write n = k + m with k a term of A235592 and m a positive triangular number.",
+  "id": "A235614",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A235592",
+    "A235613"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "G.f.: Sum_{n>=0} a(n)*x^n / (1+x)^(n^3) = x.",
+  "id": "A229711",
+  "mentions": [
+    "A177447"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

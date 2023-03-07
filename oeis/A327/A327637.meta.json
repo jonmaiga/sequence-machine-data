@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of integers j such that 1 <= j <= n and gcd(n,j) is a triangular number.",
+  "id": "A327637",
+  "mentions": [
+    "A000010",
+    "A000217",
+    "A010054",
+    "A206369",
+    "A327629"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

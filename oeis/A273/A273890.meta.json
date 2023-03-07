@@ -1,0 +1,23 @@
+{
+  "description": "Integer area A of the cyclic quadrilaterals such that A, the sides and the two diagonals are integers.",
+  "id": "A273890",
+  "mentions": [
+    "A210250",
+    "A218431",
+    "A219225",
+    "A230136",
+    "A233315",
+    "A242778",
+    "A273691"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

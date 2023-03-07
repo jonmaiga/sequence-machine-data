@@ -1,0 +1,21 @@
+{
+  "description": "Terms resulting from application of a divisor sieve to the digits of the decimal expansions of the positive integers.",
+  "id": "A317093",
+  "mentions": [
+    "A000005",
+    "A000027",
+    "A027750",
+    "A318708"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 127,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n 0..2 arrays with horizontal differences mod 3 never 1, vertical differences mod 3 never -1, rows lexicographically nondecreasing, and columns lexicographically nonincreasing.",
+  "id": "A229421",
+  "mentions": [
+    "A229428"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

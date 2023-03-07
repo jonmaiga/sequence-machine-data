@@ -1,0 +1,31 @@
+{
+  "description": "Decimal expansion of the \"Pi OR e\" (Piore) constant.",
+  "id": "A291858",
+  "mentions": [
+    "A000796",
+    "A001113",
+    "A004593",
+    "A004601",
+    "A019609",
+    "A059742",
+    "A114916",
+    "A228239",
+    "A231325",
+    "A291854",
+    "A292101",
+    "A292107"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

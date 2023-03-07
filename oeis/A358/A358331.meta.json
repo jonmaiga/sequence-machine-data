@@ -1,0 +1,36 @@
+{
+  "description": "Number of integer partitions of n with arithmetic and geometric mean differing by one.",
+  "id": "A358331",
+  "mentions": [
+    "A000041",
+    "A067538",
+    "A067539",
+    "A078174",
+    "A078175",
+    "A102627",
+    "A178832",
+    "A271654",
+    "A316413",
+    "A320322",
+    "A326027",
+    "A326028",
+    "A326623",
+    "A326624",
+    "A326625",
+    "A326641",
+    "A326645",
+    "A357710",
+    "A358332"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Peak-trough transform of the omega sequence (A001221).",
+  "id": "A101941",
+  "mentions": [
+    "A001221",
+    "A076759",
+    "A101932"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

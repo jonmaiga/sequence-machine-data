@@ -1,0 +1,29 @@
+{
+  "description": "Factor n into distinct Fermi-Dirac primes (A050376), normalize by replacing every instance of the k-th Fermi-Dirac prime with k, then multiply everything together.",
+  "id": "A305829",
+  "mentions": [
+    "A003963",
+    "A050376",
+    "A064547",
+    "A213925",
+    "A279065",
+    "A279614",
+    "A299755",
+    "A299756",
+    "A299757",
+    "A305830",
+    "A305831",
+    "A305832"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

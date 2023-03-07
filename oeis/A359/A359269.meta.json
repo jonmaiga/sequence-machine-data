@@ -1,0 +1,21 @@
+{
+  "description": "Number of divisors of 5*n-2 of form 5*k+2.",
+  "id": "A359269",
+  "mentions": [
+    "A001877",
+    "A001899",
+    "A359236"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

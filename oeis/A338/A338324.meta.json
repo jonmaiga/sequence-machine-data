@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that there exist k and m with p < k < q < m < r such that p + k, q + k, q + m and r + m are all primes, where q and r are the next two primes after p.",
+  "id": "A338324",
+  "mentions": [
+    "A336300"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

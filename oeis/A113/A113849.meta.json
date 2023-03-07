@@ -1,0 +1,28 @@
+{
+  "description": "Numbers whose prime factors are raised to the fourth power.",
+  "id": "A113849",
+  "mentions": [
+    "A000351",
+    "A000583",
+    "A005117",
+    "A062503",
+    "A062838",
+    "A072774",
+    "A113850",
+    "A113851",
+    "A113852",
+    "A225546"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

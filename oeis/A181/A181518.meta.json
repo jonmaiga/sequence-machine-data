@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number for which 2^A181516(n)||(2*a(n))!",
+  "id": "A181518",
+  "mentions": [
+    "A011371",
+    "A181516"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

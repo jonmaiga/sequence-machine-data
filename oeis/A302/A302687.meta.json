@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; a(2) = 2; then a(n) is the smallest number > a(n-1) such that a(n) divides concat(a(1), a(2), ..., a(n-1)).",
+  "id": "A302687",
+  "mentions": [
+    "A029455",
+    "A110740",
+    "A171785",
+    "A240588"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

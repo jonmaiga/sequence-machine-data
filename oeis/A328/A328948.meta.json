@@ -1,0 +1,23 @@
+{
+  "description": "Number of primes that are a concatenation of two positive integers whose product is n.",
+  "id": "A328948",
+  "mentions": [
+    "A000040",
+    "A016789",
+    "A161904",
+    "A328903"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

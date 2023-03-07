@@ -1,0 +1,22 @@
+{
+  "description": "Number of polyominoes of order 2n that can be tiled by dominoes in more than one way.",
+  "id": "A213378",
+  "mentions": [
+    "A056785",
+    "A056786",
+    "A213376",
+    "A213377"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

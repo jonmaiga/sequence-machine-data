@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (A126086(n) - 3*A001850(n) + 2)/6.",
+  "id": "A137219",
+  "mentions": [
+    "A001850",
+    "A047665",
+    "A126086",
+    "A137220"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

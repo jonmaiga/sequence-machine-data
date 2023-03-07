@@ -1,0 +1,26 @@
+{
+  "description": "Numbers that cannot be written using seven 7's and operations +, -, * and/or /. Complement of A258068.",
+  "id": "A321997",
+  "mentions": [
+    "A171826",
+    "A171827",
+    "A171828",
+    "A171829",
+    "A182002",
+    "A258068",
+    "A258069",
+    "A258070",
+    "A258071",
+    "A258097"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

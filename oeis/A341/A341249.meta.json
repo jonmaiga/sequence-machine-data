@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor(r*floor(s*n)), where r = 2 + sqrt(2) and s = sqrt(2).",
+  "id": "A341249",
+  "mentions": [
+    "A002193",
+    "A341239",
+    "A341250"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:32:01",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

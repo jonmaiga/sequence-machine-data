@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f. satisfies A(x) = 1/(1 - x * A(x))^(x^2/2 * A(x)).",
+  "id": "A356967",
+  "mentions": [
+    "A184949",
+    "A349556",
+    "A356752",
+    "A356962",
+    "A356968"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 4024*7^n/147 - 256/3 (n >= 2).",
+  "id": "A304829",
+  "mentions": [
+    "A304826",
+    "A304827",
+    "A304828"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Array: row n gives the number of occurrences of each possible antidiagonal partition of n, arranged in reverse-Mathematica order.",
+  "id": "A238325",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A237981",
+    "A238326"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

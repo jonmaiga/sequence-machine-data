@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the largest power of n such that all numbers n^k <= a(n), k=1,..,A336774(n)-1 can be exactly represented as single precision 32-bit floating point numbers according to the IEEE 754 standard.",
+  "id": "A336775",
+  "mentions": [
+    "A336774",
+    "A336778",
+    "A336779"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 2,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

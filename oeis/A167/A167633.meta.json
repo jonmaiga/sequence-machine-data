@@ -1,0 +1,19 @@
+{
+  "description": "Number of ordered n-tuples of positive integers such that the largest value is n and the first value is odd.",
+  "id": "A167633",
+  "mentions": [
+    "A047969",
+    "A123685"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:51",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

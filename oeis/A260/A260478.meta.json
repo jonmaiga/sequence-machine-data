@@ -1,0 +1,21 @@
+{
+  "description": "Cyclotomic polynomial value Phi(8,n!).",
+  "id": "A260478",
+  "mentions": [
+    "A123865",
+    "A200906",
+    "A259264",
+    "A259265"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

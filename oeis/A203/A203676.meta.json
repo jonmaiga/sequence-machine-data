@@ -1,0 +1,18 @@
+{
+  "description": "v(n+1)/v(n), where v=A203675.",
+  "id": "A203676",
+  "mentions": [
+    "A093883",
+    "A203675"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:22:35",
+    "offset": 1,
+    "size": 9,
+    "source": "joeis"
+  }
+}

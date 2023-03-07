@@ -1,0 +1,38 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k), n>=1, k>=1, in which column k lists k's interleaved with k-1 zeros, and the first element of column k is in row k(k+1)/2.",
+  "id": "A285914",
+  "mentions": [
+    "A000203",
+    "A000217",
+    "A001227",
+    "A003056",
+    "A066839",
+    "A127093",
+    "A196020",
+    "A204217",
+    "A235791",
+    "A236104",
+    "A237048",
+    "A237591",
+    "A237593",
+    "A245092",
+    "A261699",
+    "A262626",
+    "A285898",
+    "A330466",
+    "A330888",
+    "A330889"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 112,
+    "source": "oeis-entry"
+  }
+}

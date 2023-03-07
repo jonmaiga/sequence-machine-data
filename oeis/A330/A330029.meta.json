@@ -1,0 +1,28 @@
+{
+  "description": "Numbers whose binary expansion has cuts-resistance <= 2.",
+  "id": "A330029",
+  "mentions": [
+    "A000975",
+    "A027383",
+    "A098504",
+    "A107907",
+    "A164707",
+    "A319416",
+    "A329860",
+    "A329861",
+    "A329862",
+    "A329863",
+    "A329865",
+    "A330028"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

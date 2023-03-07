@@ -1,0 +1,20 @@
+{
+  "description": "Number of maximal vertex-independent sets in the hypergraph with nodes V = {1, 2, ..., n} and \"edges\" consisting of the triples (X,Y,Z) with X",
+  "id": "A161826",
+  "mentions": [
+    "A002848",
+    "A002849",
+    "A108235"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows: a(n, j) gives the positive integer area A(n)_j corresponding to the nonrectangular triangles with sides (sqrt(x(n)_j), sqrt(y(n)_j), z(n)), with integers 1 <= x(n)_j <= y(n)_j <= z(n), that lead to primitive quartets (x(n)_j, y(n)_j, z(n), a(n, j)). Hence x(n)_j = A336888(n, 2*j-1), y(n)_j = A336888(n, 2*j), for j = 1, 2, ..., A336889(n), and z(n) = A337215(n), for n >= 1.",
+  "id": "A337216",
+  "mentions": [
+    "A334818",
+    "A336885",
+    "A336887",
+    "A336888",
+    "A336889",
+    "A337215"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n, k) = binomial(n+k, 2*k)*k!, read by rows.",
+  "id": "A156367",
+  "mentions": [
+    "A084261",
+    "A155856",
+    "A155857"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

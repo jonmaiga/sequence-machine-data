@@ -1,0 +1,25 @@
+{
+  "description": "Numbers m such that the arithmetic mean of the first k divisors of m is an integer for all k in 1..d(m), where d(m) = A000005(m).",
+  "id": "A359260",
+  "mentions": [
+    "A000005",
+    "A002476",
+    "A003601",
+    "A007528",
+    "A065091",
+    "A343022",
+    "A359261",
+    "A359262"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

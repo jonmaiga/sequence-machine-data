@@ -1,0 +1,20 @@
+{
+  "description": "Sums-complement of the Beatty sequence for 2e.",
+  "id": "A276876",
+  "mentions": [
+    "A276853",
+    "A276860",
+    "A276871"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Primes p whose decimal representation satisfy: abs(digsum(p)-2*L(p)) = 8, being L(p) the largest decimal digit in p.",
+  "id": "A281170",
+  "mentions": [
+    "A007953",
+    "A054055",
+    "A156753",
+    "A156979",
+    "A280993"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

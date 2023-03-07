@@ -1,0 +1,27 @@
+{
+  "description": "Exponents n such that 2^n - previous_prime(2^n) = next_prime(2^n) - 2^n.",
+  "id": "A226178",
+  "mentions": [
+    "A000079",
+    "A013597",
+    "A013603",
+    "A014210",
+    "A014234",
+    "A117387",
+    "A145025",
+    "A340707"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

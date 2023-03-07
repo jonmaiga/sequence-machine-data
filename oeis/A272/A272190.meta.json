@@ -1,0 +1,21 @@
+{
+  "description": "Either 6th power of a prime, or product of the square of two different primes.",
+  "id": "A272190",
+  "mentions": [
+    "A030516",
+    "A080258",
+    "A085986",
+    "A272191"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

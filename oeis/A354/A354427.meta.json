@@ -1,0 +1,24 @@
+{
+  "description": "Primes p such that q divides p + 1, r divides q^2 + q + 1 and p divides r^2 + r + 1 for some primes q and r.",
+  "id": "A354427",
+  "mentions": [
+    "A000203",
+    "A007927",
+    "A101368",
+    "A347988",
+    "A354426",
+    "A354428"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

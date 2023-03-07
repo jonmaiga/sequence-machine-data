@@ -1,0 +1,25 @@
+{
+  "description": "prime(n^2) - prime(n).",
+  "id": "A213926",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A031131",
+    "A031165",
+    "A031172",
+    "A072473",
+    "A092504"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

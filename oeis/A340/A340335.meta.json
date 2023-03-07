@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: Sum_{n>=0} x^n * exp(2^n*x).",
+  "id": "A340335",
+  "mentions": [
+    "A340450"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

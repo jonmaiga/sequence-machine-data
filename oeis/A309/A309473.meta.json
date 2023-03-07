@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (-1)^n + Sum_{k=0..n-1} binomial(n-1,k) * a(k) * a(n-k-1).",
+  "id": "A309473",
+  "mentions": [
+    "A006677",
+    "A014304",
+    "A054687",
+    "A332776",
+    "A335441"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

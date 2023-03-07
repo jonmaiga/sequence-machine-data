@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k), n>=0, 0<=k<=A200067(n), is number of compositions of n such that the sum of weighted inversions equals k and weights are products of absolute differences and distances between the element pairs which are not in sorted order.",
+  "id": "A200068",
+  "mentions": [
+    "A000041",
+    "A011782",
+    "A024786",
+    "A189074",
+    "A200067"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

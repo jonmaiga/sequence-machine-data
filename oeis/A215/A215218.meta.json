@@ -1,0 +1,17 @@
+{
+  "description": "Number of sphenic numbers, i.e., numbers with exactly three distinct prime factors, up to 10^n.",
+  "id": "A215218",
+  "mentions": [
+    "A007304"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

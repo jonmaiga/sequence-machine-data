@@ -1,0 +1,21 @@
+{
+  "description": "Central coefficients of number triangle A119335.",
+  "id": "A119364",
+  "mentions": [
+    "A119335",
+    "A119363",
+    "A119365"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

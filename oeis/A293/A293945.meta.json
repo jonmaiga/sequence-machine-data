@@ -1,0 +1,19 @@
+{
+  "description": "Orbit of word \"2\" under De Mol's 5-shift tag system over the alphabet {1,2} defined in the Comments.",
+  "id": "A293945",
+  "mentions": [
+    "A284116",
+    "A290741",
+    "A290742"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

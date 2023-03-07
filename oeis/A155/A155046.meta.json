@@ -1,0 +1,23 @@
+{
+  "description": "List of pairs: first pair is (1,1); then follow (x,y) with (x+2y, x+y).",
+  "id": "A155046",
+  "mentions": [
+    "A000129",
+    "A001333",
+    "A002965",
+    "A078057"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:37",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

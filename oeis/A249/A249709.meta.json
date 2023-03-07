@@ -1,0 +1,18 @@
+{
+  "description": "Number of length 3+3 0..n arrays with every four consecutive terms having the maximum of some two terms equal to the minimum of the remaining two terms.",
+  "id": "A249709",
+  "mentions": [
+    "A249707"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:05:53",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Centered square numbers that are also centered pentagonal numbers.",
+  "id": "A107075",
+  "mentions": [
+    "A007805",
+    "A053606",
+    "A075796",
+    "A119032"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

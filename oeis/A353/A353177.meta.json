@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f. A(x) satisfies A(x) = 1 + (1 - exp(-x)) * A(1 - exp(-x)).",
+  "id": "A353177",
+  "mentions": [
+    "A135750",
+    "A213357",
+    "A354574",
+    "A354728",
+    "A354730"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of primes in the range (n - 2*sqrt(n), n].",
+  "id": "A189025",
+  "mentions": [
+    "A188817",
+    "A189024",
+    "A189026",
+    "A189027"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 127,
+    "source": "oeis-bfile"
+  }
+}

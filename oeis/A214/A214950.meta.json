@@ -1,0 +1,25 @@
+{
+  "description": "Denominator of sum of reciprocals of all nonzero digits of n in decimal representation.",
+  "id": "A214950",
+  "mentions": [
+    "A004719",
+    "A034708",
+    "A037268",
+    "A214949",
+    "A214957",
+    "A214959"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

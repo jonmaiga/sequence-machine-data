@@ -1,0 +1,21 @@
+{
+  "description": "Prime-partitionable numbers a(n) for which there exists a 2-partition of the set of primes < a(n) that has a smallest subset containing four primes only.",
+  "id": "A245372",
+  "mentions": [
+    "A059756",
+    "A244640",
+    "A245602",
+    "A245664",
+    "A249302"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

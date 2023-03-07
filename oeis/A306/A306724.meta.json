@@ -1,0 +1,23 @@
+{
+  "description": "Least number k > 1 such that A062354(k) is an n-th power, where A062354 is the product of sigma (A000203) and phi (A000010).",
+  "id": "A306724",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A011257",
+    "A062354",
+    "A114077",
+    "A114078"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

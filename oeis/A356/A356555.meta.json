@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle T(n, k), n > 0, k = 1..A080221(n) read by rows; the n-th row contains, in ascending order, the bases b from 2..n+1 where the sum of digits of n divides n.",
+  "id": "A356555",
+  "mentions": [
+    "A080221",
+    "A356552"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

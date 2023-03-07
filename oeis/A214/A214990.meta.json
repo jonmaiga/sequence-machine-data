@@ -1,0 +1,22 @@
+{
+  "description": "Second nearest integer to n*r, where r = (1+ sqrt(5))/2, the golden ratio.",
+  "id": "A214990",
+  "mentions": [
+    "A000201",
+    "A001950",
+    "A005614",
+    "A005713",
+    "A007067",
+    "A214991"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

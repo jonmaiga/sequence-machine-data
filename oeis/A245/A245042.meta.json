@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form (k^2+4)/5.",
+  "id": "A245042",
+  "mentions": [
+    "A002327",
+    "A066436",
+    "A154418",
+    "A154616"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

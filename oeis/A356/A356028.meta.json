@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle {A(n, k)} read by rows, giving in row n the numbers 1, 2, ..., 2^n - 1 ordered according to increasing binary weights, and for like weights decreasing.",
+  "id": "A356028",
+  "mentions": [
+    "A000225",
+    "A006516",
+    "A134346",
+    "A171476",
+    "A262881"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

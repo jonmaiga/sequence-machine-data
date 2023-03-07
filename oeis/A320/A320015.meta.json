@@ -1,0 +1,23 @@
+{
+  "description": "Number of proper divisors of n that are either of the form 6*k+1 or 6*k + 5.",
+  "id": "A320015",
+  "mentions": [
+    "A035218",
+    "A232991",
+    "A293895",
+    "A293896",
+    "A320001",
+    "A320005"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

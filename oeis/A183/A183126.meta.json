@@ -1,0 +1,26 @@
+{
+  "description": "Toothpick sequence with toothpicks connected by their endpoints.",
+  "id": "A183126",
+  "mentions": [
+    "A000120",
+    "A000695",
+    "A139250",
+    "A151920",
+    "A160172",
+    "A160410",
+    "A183004",
+    "A183127",
+    "A183148"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

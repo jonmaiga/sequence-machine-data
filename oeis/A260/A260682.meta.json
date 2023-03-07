@@ -1,0 +1,19 @@
+{
+  "description": "Löschian numbers (A003136) of the form 6*k+1.",
+  "id": "A260682",
+  "mentions": [
+    "A003136",
+    "A016921",
+    "A202822"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

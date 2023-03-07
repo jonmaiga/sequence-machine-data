@@ -1,0 +1,32 @@
+{
+  "description": "Triangle of coefficients of polynomials concerning Newman-like phenomenon of multiples of b+1 in even base b in interval [0,b^n) (see comment).",
+  "id": "A212822",
+  "mentions": [
+    "A038754",
+    "A084990",
+    "A091042",
+    "A156769",
+    "A212500",
+    "A212592",
+    "A212593",
+    "A212594",
+    "A212668",
+    "A212669",
+    "A212670",
+    "A212705",
+    "A212706"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

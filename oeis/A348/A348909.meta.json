@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the real root of x^3 + x^2 - 2*x - 4.",
+  "id": "A348909",
+  "mentions": [
+    "A020985",
+    "A020987",
+    "A348908"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 1,
+    "size": 90,
+    "source": "joeis"
+  }
+}

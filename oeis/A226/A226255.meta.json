@@ -1,0 +1,30 @@
+{
+  "description": "Number of ways of writing n as the sum of 11 triangular numbers.",
+  "id": "A226255",
+  "mentions": [
+    "A002129",
+    "A007331",
+    "A008438",
+    "A008439",
+    "A008440",
+    "A008441",
+    "A008443",
+    "A010054",
+    "A014787",
+    "A014809",
+    "A226252",
+    "A226253",
+    "A226254"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

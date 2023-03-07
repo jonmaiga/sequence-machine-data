@@ -1,0 +1,22 @@
+{
+  "description": "Carmichael numbers (A002997) that are central polygonal numbers (A002061).",
+  "id": "A303791",
+  "mentions": [
+    "A002061",
+    "A002997",
+    "A265285",
+    "A265628"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

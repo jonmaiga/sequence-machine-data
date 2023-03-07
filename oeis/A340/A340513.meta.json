@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of groups of order A340512(n) with a conjugacy class of size exactly n.",
+  "id": "A340513",
+  "mentions": [
+    "A340512"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

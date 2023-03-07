@@ -1,0 +1,27 @@
+{
+  "description": "Number of distinct elements in the Gram matrix of the first M rows of the Kronecker product (Sylvester) Hadamard matrix.",
+  "id": "A259363",
+  "mentions": [
+    "A000035",
+    "A000975",
+    "A036987",
+    "A069010",
+    "A079944",
+    "A099545",
+    "A240908",
+    "A240909",
+    "A240910"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 139,
+    "source": "oeis-entry"
+  }
+}

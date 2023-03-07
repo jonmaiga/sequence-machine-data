@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest positive integer that, when written in binary, occurs in binary A154809(n) but not in binary A030101(A154809(n)).",
+  "id": "A175392",
+  "mentions": [
+    "A030101",
+    "A154809"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

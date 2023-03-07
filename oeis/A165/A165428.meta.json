@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, a(2) = 10; thereafter a(n) = Product_{1 <= i <= n-1} a(i).",
+  "id": "A165428",
+  "mentions": [
+    "A000079",
+    "A011557"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

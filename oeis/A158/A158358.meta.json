@@ -1,0 +1,26 @@
+{
+  "description": "Pseudoprimes to base 2 that are not squarefree, including the even pseudoprimes.",
+  "id": "A158358",
+  "mentions": [
+    "A001220",
+    "A001262",
+    "A001567",
+    "A006935",
+    "A013929",
+    "A015919",
+    "A219346",
+    "A247830",
+    "A247831",
+    "A295740"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

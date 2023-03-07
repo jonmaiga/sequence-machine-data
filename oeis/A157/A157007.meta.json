@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 2^k + 27 is prime.",
+  "id": "A157007",
+  "mentions": [
+    "A019434",
+    "A057733",
+    "A104071",
+    "A123250"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

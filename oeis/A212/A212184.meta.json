@@ -1,0 +1,23 @@
+{
+  "description": "Row n of table gives exponents >= 2 in canonical prime factorization of n-th highly composite number (A002182(n)), in nonincreasing order, or 0 if no such exponent exists.",
+  "id": "A212184",
+  "mentions": [
+    "A002182",
+    "A212172",
+    "A212182",
+    "A212183",
+    "A212185"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (c(2k)-c(2k-1)), where c = convergents to e.",
+  "id": "A265308",
+  "mentions": [
+    "A001113",
+    "A265288",
+    "A265306",
+    "A265307"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

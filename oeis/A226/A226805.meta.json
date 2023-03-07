@@ -1,0 +1,20 @@
+{
+  "description": "P_n(n+1) where P_n(x) is the polynomial of degree n-1 which satisfies P_n(i) = i^i for i = 1,...,n.",
+  "id": "A226805",
+  "mentions": [
+    "A000312",
+    "A126130",
+    "A140118",
+    "A140119"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

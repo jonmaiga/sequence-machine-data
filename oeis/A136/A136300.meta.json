@@ -1,0 +1,23 @@
+{
+  "description": "Numerator of ratio (the denominator being (n-1)!^2 = A001044(n-1)) giving the probability that the last of n persons drawing names randomly from a set of names draws their own, given that each person previously has drawn in succession and did not keep their own name. (Probability of derangements when allocated / rejected sequentially.)",
+  "id": "A136300",
+  "mentions": [
+    "A000523",
+    "A001044",
+    "A053645",
+    "A102262",
+    "A102263",
+    "A136301"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

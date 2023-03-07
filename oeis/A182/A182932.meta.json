@@ -1,0 +1,20 @@
+{
+  "description": "Generalized Bell numbers, row 3 of A182933.",
+  "id": "A182932",
+  "mentions": [
+    "A000110",
+    "A094577",
+    "A182933"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

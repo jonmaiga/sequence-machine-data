@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 if n is an odd number divisible by a square > 1, otherwise 0.",
+  "id": "A353569",
+  "mentions": [
+    "A000035",
+    "A053850",
+    "A107078",
+    "A323239",
+    "A353626"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

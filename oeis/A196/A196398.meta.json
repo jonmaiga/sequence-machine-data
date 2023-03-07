@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the positive number x satisfying e^x=4*cos(x).",
+  "id": "A196398",
+  "mentions": [
+    "A196396",
+    "A196397",
+    "A196399",
+    "A196400"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:55",
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

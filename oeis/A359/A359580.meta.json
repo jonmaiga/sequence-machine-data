@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that are either an odd squarefree number squared or twice such a number.",
+  "id": "A359580",
+  "mentions": [
+    "A046692",
+    "A056911",
+    "A062503",
+    "A327276",
+    "A327278",
+    "A359548",
+    "A359549"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of GA1 numbers A197638 with n >= 3 prime factors counted with multiplicity.",
+  "id": "A201558",
+  "mentions": [
+    "A067698",
+    "A197638",
+    "A197639",
+    "A201557"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 3,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

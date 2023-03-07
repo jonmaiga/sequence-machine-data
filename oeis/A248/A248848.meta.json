@@ -1,0 +1,19 @@
+{
+  "description": "Norm of coefficients in the expansion of 1/(1 - 3*x - I*x^2), where I^2=-1.",
+  "id": "A248848",
+  "mentions": [
+    "A100047"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:11:57",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

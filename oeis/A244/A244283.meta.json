@@ -1,0 +1,20 @@
+{
+  "description": "Consider a number n with m decimal digits, m>9. The sequence lists the numbers n such that the prefix of length m-1 and the suffix of length m-1 are both perfect squares.",
+  "id": "A244283",
+  "mentions": [
+    "A000290",
+    "A046030",
+    "A244282"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

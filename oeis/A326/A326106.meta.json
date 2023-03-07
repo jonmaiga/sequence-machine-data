@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest sequence of distinct terms such that a(n) is not divisible by any digit of a(n+1).",
+  "id": "A326106",
+  "mentions": [
+    "A326107",
+    "A326108",
+    "A326109",
+    "A326110"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

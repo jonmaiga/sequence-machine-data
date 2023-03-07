@@ -1,0 +1,29 @@
+{
+  "description": "Numbers such that the digital sums in base 2, base 4 and base 8 are all equal.",
+  "id": "A135124",
+  "mentions": [
+    "A007088",
+    "A007953",
+    "A037308",
+    "A054899",
+    "A131451",
+    "A133620",
+    "A133900",
+    "A134599",
+    "A135100",
+    "A135110",
+    "A135120"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

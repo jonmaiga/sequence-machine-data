@@ -1,0 +1,20 @@
+{
+  "description": "Prime gaps q-p with n-th record merit referred to in A111870.",
+  "id": "A111871",
+  "mentions": [
+    "A002386",
+    "A111870",
+    "A277552"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

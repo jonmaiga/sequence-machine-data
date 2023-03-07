@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the number u in [0,2 Pi] such that snc(u) = 0, where snc is the sine-normal-to-cosine function; see A332500.",
+  "id": "A332504",
+  "mentions": [
+    "A332500",
+    "A332505"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

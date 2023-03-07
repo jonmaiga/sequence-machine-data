@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the position m of the last prime term in the sequence {b(m)} defined by b(1) = n, if b(m) is prime then b(m+1) = b(m) - m, else b(m+1) = b(m) + m.",
+  "id": "A358269",
+  "mentions": [
+    "A055999",
+    "A074171",
+    "A212427",
+    "A358166"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

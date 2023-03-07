@@ -1,0 +1,31 @@
+{
+  "description": "Irregular table T(n,k) = #{m > 0: m occurs m times in the k-th partition of n, using A&S order (A036036)}, 1 <= k <= A000041(n), n >= 0.",
+  "id": "A328891",
+  "mentions": [
+    "A000004",
+    "A000041",
+    "A036036",
+    "A036037",
+    "A057427",
+    "A063524",
+    "A185014",
+    "A276427",
+    "A276428",
+    "A276429",
+    "A276434",
+    "A277101",
+    "A328806"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

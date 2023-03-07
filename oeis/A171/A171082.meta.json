@@ -1,0 +1,21 @@
+{
+  "description": "Van der Waerden numbers w(2;4,n).",
+  "id": "A171082",
+  "mentions": [
+    "A005346",
+    "A171081",
+    "A217235"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 4,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

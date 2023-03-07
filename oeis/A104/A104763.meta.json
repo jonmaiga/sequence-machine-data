@@ -1,0 +1,38 @@
+{
+  "description": "Triangle read by rows: Fibonacci(1), Fibonacci(2), ..., Fibonacci(n) in row n.",
+  "id": "A104763",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A001076",
+    "A001906",
+    "A001911",
+    "A004695",
+    "A006327",
+    "A008346",
+    "A052952",
+    "A080239",
+    "A081016",
+    "A104762",
+    "A131524",
+    "A167616",
+    "A180662",
+    "A180671",
+    "A180672",
+    "A180673",
+    "A180674"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:44",
+    "offset": 1,
+    "size": 91,
+    "source": "joeis"
+  }
+}

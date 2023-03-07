@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the index of the first 0 term in the following sequence: X(1)=1, X(i+1) = (X(i)+i) mod (n+i). a(n)=-1 if there are no zeros in the X sequence.",
+  "id": "A348667",
+  "mentions": [
+    "A177356"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

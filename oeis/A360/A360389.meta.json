@@ -1,0 +1,20 @@
+{
+  "description": "The orders of 4-transitive permutation groups.",
+  "id": "A360389",
+  "mentions": [
+    "A000142",
+    "A001228",
+    "A001710"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

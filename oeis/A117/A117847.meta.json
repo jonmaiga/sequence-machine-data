@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that A060256(k)*prime(k)# - 1 is a Sophie Germain prime, where prime(k)# is the k-th primorial.",
+  "id": "A117847",
+  "mentions": [
+    "A002110",
+    "A005384",
+    "A060256"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers of words on alphabet {0,1,...,10} with no subwords ii, for i from {0,1}.",
+  "id": "A254600",
+  "mentions": [
+    "A015591",
+    "A055099",
+    "A126473",
+    "A126501",
+    "A126528"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

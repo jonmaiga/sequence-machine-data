@@ -1,0 +1,29 @@
+{
+  "description": "Numbers in whose prime factorization the exponent of prime(k) is less than k for all prime indices k.",
+  "id": "A325128",
+  "mentions": [
+    "A056239",
+    "A062457",
+    "A087153",
+    "A109298",
+    "A112798",
+    "A115584",
+    "A118914",
+    "A276078",
+    "A324524",
+    "A324525",
+    "A324571",
+    "A325127",
+    "A325130"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

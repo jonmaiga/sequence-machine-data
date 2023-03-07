@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n for which the largest prime factor of p(n) divides p(1)*p(2)*...*p(n-1), where p(n) is the number of partitions of n.",
+  "id": "A194345",
+  "mentions": [
+    "A000041",
+    "A071963",
+    "A087173",
+    "A192885",
+    "A194259",
+    "A194260",
+    "A194261",
+    "A194262"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

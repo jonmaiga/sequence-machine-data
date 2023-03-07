@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows, antidiagonals of an array formed by A000012 * A001263 (transform).",
+  "id": "A137940",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A001263",
+    "A106396"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

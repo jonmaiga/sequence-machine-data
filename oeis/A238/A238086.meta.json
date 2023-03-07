@@ -1,0 +1,40 @@
+{
+  "description": "Square array A(n,k), n>=1, k>=1, read by antidiagonals, where column k is the increasing list of all primes p such that (p+k)^2+k is prime but (p+j)^2+j is not prime for all 0",
+  "id": "A238086",
+  "mentions": [
+    "A157468",
+    "A238048",
+    "A238663",
+    "A238664",
+    "A238665",
+    "A238666",
+    "A238667",
+    "A238668",
+    "A238669",
+    "A238670",
+    "A238671",
+    "A238672",
+    "A238673",
+    "A238674",
+    "A238675",
+    "A238676",
+    "A238677",
+    "A238678",
+    "A238679",
+    "A238680",
+    "A238681",
+    "A238682"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

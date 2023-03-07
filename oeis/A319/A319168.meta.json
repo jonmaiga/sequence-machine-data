@@ -1,0 +1,22 @@
+{
+  "description": "Frobenius pseudoprimes == 1,4 (mod 5) with respect to Fibonacci polynomial x^2 - x - 1.",
+  "id": "A319168",
+  "mentions": [
+    "A047209",
+    "A093372",
+    "A094394",
+    "A094401",
+    "A212423",
+    "A212424"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

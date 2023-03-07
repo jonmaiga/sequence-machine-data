@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n into 2 squares and 2 nonnegative cubes.",
+  "id": "A297930",
+  "mentions": [
+    "A000164",
+    "A002635",
+    "A022552",
+    "A274274"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

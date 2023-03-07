@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows which lists the squares of the parts of A135010.",
+  "id": "A206438",
+  "mentions": [
+    "A000290",
+    "A066183",
+    "A135010",
+    "A138121",
+    "A138137",
+    "A141285",
+    "A206440"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

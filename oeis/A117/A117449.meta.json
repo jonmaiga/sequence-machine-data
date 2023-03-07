@@ -1,0 +1,20 @@
+{
+  "description": "Inverse of a number triangle related to L(n/3), where L(j/p) is the Legendre symbol of j and p.",
+  "id": "A117449",
+  "mentions": [
+    "A011655",
+    "A117446"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

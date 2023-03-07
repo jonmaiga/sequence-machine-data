@@ -1,0 +1,17 @@
+{
+  "description": "Central terms of triangle A357540: a(n) = A357540(2*n,n).",
+  "id": "A357544",
+  "mentions": [
+    "A357540"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

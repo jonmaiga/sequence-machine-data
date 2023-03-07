@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=1; a(n) = Product_{r=0..2^(n-2)-1} (n^2 - prime(n-1) + r) if n > 1, where prime(i) is the i-th prime.",
+  "id": "A130506",
+  "mentions": [
+    "A039622"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

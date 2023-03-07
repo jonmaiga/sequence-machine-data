@@ -1,0 +1,23 @@
+{
+  "description": "Riordan array (1/(1-x),x(1+x)^2/(1-x)).",
+  "id": "A158687",
+  "mentions": [
+    "A059304",
+    "A077936",
+    "A100326",
+    "A129847"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:12:57",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

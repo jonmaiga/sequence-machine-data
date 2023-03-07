@@ -1,0 +1,20 @@
+{
+  "description": "Consider a number x = concat(a,b). Sequence lists numbers x such that digits of b^a end in x.",
+  "id": "A266818",
+  "mentions": [
+    "A266817",
+    "A273382",
+    "A273383"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

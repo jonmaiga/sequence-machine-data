@@ -1,0 +1,18 @@
+{
+  "description": "Number of graphs on n unlabeled nodes with total domination number 2.",
+  "id": "A332406",
+  "mentions": [
+    "A332400"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/2)} binomial(n-1-k,k) * binomial(2*n-4*k,n-2*k).",
+  "id": "A360290",
+  "mentions": [
+    "A001622",
+    "A085362",
+    "A360185",
+    "A360291",
+    "A360292",
+    "A360293"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

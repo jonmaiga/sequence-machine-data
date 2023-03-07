@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of P_{3,2}(5) = Sum 1/p^5 over primes == 2 (mod 3).",
+  "id": "A343615",
+  "mentions": [
+    "A000584",
+    "A003627",
+    "A021247",
+    "A085965",
+    "A085994",
+    "A086035",
+    "A175644",
+    "A343612",
+    "A343619",
+    "A343625"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

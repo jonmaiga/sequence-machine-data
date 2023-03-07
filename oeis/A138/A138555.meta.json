@@ -1,0 +1,17 @@
+{
+  "description": "Indices where A138554 requires only squares < floor(sqrt(n))^2.",
+  "id": "A138555",
+  "mentions": [
+    "A138554"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

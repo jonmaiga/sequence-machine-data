@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers with m^2 digits that, if arranged in an m X m matrix, form m-digit reversible primes in each row, column, and main diagonal.",
+  "id": "A224164",
+  "mentions": [
+    "A224398"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

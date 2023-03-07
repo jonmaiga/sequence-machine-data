@@ -1,0 +1,29 @@
+{
+  "description": "Restricted growth sequence transform of A305792, a filter sequence constructed from binary expansions of the proper divisors of n.",
+  "id": "A305793",
+  "mentions": [
+    "A000005",
+    "A278222",
+    "A286622",
+    "A292257",
+    "A293215",
+    "A300833",
+    "A304103",
+    "A305426",
+    "A305435",
+    "A305792",
+    "A305795",
+    "A305813"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

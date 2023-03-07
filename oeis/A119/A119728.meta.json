@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that p+1, p+2, p+3 and p+4 have equal number of divisors.",
+  "id": "A119728",
+  "mentions": [
+    "A008329",
+    "A049234",
+    "A119705",
+    "A119711",
+    "A119730",
+    "A119740"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

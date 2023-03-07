@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of the form m^e such that m+e is prime, e>0.",
+  "id": "A130099",
+  "mentions": [
+    "A006093",
+    "A130100"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

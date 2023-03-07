@@ -1,0 +1,18 @@
+{
+  "description": "Riesel numbers (n*2^k-1 is composite for all k>0, n odd) that have a covering set.",
+  "id": "A101036",
+  "mentions": [
+    "A076336",
+    "A076337"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

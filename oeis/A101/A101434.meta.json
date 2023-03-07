@@ -1,0 +1,18 @@
+{
+  "description": "Composite numbers which are the product of non-twin primes.",
+  "id": "A101434",
+  "mentions": [
+    "A100819"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

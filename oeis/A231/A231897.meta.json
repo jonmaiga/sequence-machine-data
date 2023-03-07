@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = smallest m such that wt(m^2) = n (where wt(i) = A000120(i)), or -1 if no such m exists.",
+  "id": "A231897",
+  "mentions": [
+    "A000120",
+    "A089998",
+    "A159918",
+    "A211201",
+    "A214560",
+    "A230097",
+    "A231898"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

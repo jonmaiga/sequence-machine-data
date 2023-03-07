@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = a(n-1)^2 + (-1)^n with a(1)=1.",
+  "id": "A229220",
+  "mentions": [
+    "A000035"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Primes arising in A=A256189 as gcd(A(n-2), A(n)), n > 3.",
+  "id": "A256366",
+  "mentions": [
+    "A256189"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 2,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

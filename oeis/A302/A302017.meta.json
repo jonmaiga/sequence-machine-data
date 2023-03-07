@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 1/(1 - x*Product_{k>=1} (1 + x^(2*k-1))).",
+  "id": "A302017",
+  "mentions": [
+    "A000700",
+    "A286352",
+    "A299106",
+    "A299208"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

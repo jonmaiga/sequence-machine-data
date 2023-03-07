@@ -1,0 +1,20 @@
+{
+  "description": "Diagonal element T(n,n) of the infinite array with T(n,1) = T(1,n) = Fibonacci(n) and recursively T(n,k) = T(n-1,k-1) + T(n,k-1) + T(n-1,k).",
+  "id": "A193913",
+  "mentions": [
+    "A000045",
+    "A001911",
+    "A004767"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

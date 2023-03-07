@@ -1,0 +1,18 @@
+{
+  "description": "Transpose of A112060.",
+  "id": "A112061",
+  "mentions": [
+    "A112060"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

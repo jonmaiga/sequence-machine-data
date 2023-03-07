@@ -1,0 +1,23 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = 1 + x * A(x/(1 - x)^4) / (1 - x)^4.",
+  "id": "A351817",
+  "mentions": [
+    "A000110",
+    "A045499",
+    "A125274",
+    "A351814",
+    "A351816",
+    "A351818"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

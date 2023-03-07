@@ -1,0 +1,23 @@
+{
+  "description": "First differences of A278517; run lengths in A260731.",
+  "id": "A278518",
+  "mentions": [
+    "A260731",
+    "A278516",
+    "A278517",
+    "A278519",
+    "A278521",
+    "A278522"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

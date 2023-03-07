@@ -1,0 +1,28 @@
+{
+  "description": "Total number of palindromic primes in base 5 below 5^n.",
+  "id": "A117779",
+  "mentions": [
+    "A029973",
+    "A117700",
+    "A117772",
+    "A117775",
+    "A117777",
+    "A117780",
+    "A117781",
+    "A117783",
+    "A117785",
+    "A117787"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

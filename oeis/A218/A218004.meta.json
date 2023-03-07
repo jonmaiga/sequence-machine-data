@@ -1,0 +1,44 @@
+{
+  "description": "Number of equivalence classes of compositions of n where two compositions a,b are considered equivalent if the summands of a can be permuted into the summands of b with an even number of transpositions.",
+  "id": "A218004",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A001523",
+    "A007318",
+    "A007997",
+    "A032020",
+    "A066099",
+    "A072706",
+    "A097805",
+    "A114994",
+    "A115981",
+    "A225620",
+    "A233564",
+    "A329398",
+    "A332578",
+    "A332833",
+    "A332834",
+    "A332874",
+    "A333147",
+    "A333149",
+    "A333150",
+    "A333190",
+    "A333191",
+    "A333255",
+    "A333256",
+    "A337482",
+    "A337483",
+    "A337484"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

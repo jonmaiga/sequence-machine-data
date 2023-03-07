@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form x^2 + SumOfSquaredDigits(x).",
+  "id": "A209303",
+  "mentions": [
+    "A007770",
+    "A062028",
+    "A171613"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

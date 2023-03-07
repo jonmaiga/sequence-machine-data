@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form (p^x - 1)/(p^y - 1), where p is prime, y > 1, and y is the largest proper divisor of x.",
+  "id": "A187823",
+  "mentions": [
+    "A003424",
+    "A023195",
+    "A085104",
+    "A125134",
+    "A220627"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

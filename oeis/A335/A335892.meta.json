@@ -1,0 +1,22 @@
+{
+  "description": "Smallest value of N such that two distinct binary words of length N share the same n-deck.",
+  "id": "A335892",
+  "mentions": [
+    "A258585",
+    "A335890",
+    "A335891"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "changed",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

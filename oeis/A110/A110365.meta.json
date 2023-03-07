@@ -1,0 +1,21 @@
+{
+  "description": "a(1)=2, a(n+1) = a(n)*A010888(a(n)).",
+  "id": "A110365",
+  "mentions": [
+    "A010888",
+    "A047892"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

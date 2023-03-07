@@ -1,0 +1,28 @@
+{
+  "description": "Smaller of twin prime pairs such that p1*p2+average_of_twin_prime_pair=prime.",
+  "id": "A153413",
+  "mentions": [
+    "A099349",
+    "A153374",
+    "A153375",
+    "A153376",
+    "A153377",
+    "A153378",
+    "A153379",
+    "A153406",
+    "A153407",
+    "A153408",
+    "A153409",
+    "A153410"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

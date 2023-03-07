@@ -1,0 +1,17 @@
+{
+  "description": "Number of maximal directed paths on 1 X n grid.",
+  "id": "A135443",
+  "mentions": [
+    "A089243"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

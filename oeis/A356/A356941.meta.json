@@ -1,0 +1,42 @@
+{
+  "description": "Number of multiset partitions of integer partitions of n such that all blocks are gapless.",
+  "id": "A356941",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000670",
+    "A001055",
+    "A001970",
+    "A006171",
+    "A007294",
+    "A011782",
+    "A019536",
+    "A034296",
+    "A055887",
+    "A072233",
+    "A073491",
+    "A089259",
+    "A107742",
+    "A270995",
+    "A333217",
+    "A356069",
+    "A356224",
+    "A356225",
+    "A356233",
+    "A356932",
+    "A356942",
+    "A356943",
+    "A356944"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

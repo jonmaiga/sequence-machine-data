@@ -1,0 +1,30 @@
+{
+  "description": "Sorted positions of first appearances in A328458 (maximum run-length of nontrivial divisors) of each positive integer in the image.",
+  "id": "A328459",
+  "mentions": [
+    "A000005",
+    "A033676",
+    "A051451",
+    "A060775",
+    "A070824",
+    "A119313",
+    "A129308",
+    "A163870",
+    "A181063",
+    "A199970",
+    "A328448",
+    "A328449",
+    "A328458"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

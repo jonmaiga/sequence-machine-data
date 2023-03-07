@@ -1,0 +1,19 @@
+{
+  "description": "Fibonacci numbers k for which the difference between k and the largest prime less than k is also prime.",
+  "id": "A252296",
+  "mentions": [
+    "A000045",
+    "A180422"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

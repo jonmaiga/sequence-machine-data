@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f.: Series_Reversion( -x + 2*x*exp(-x) ).",
+  "id": "A259062",
+  "mentions": [
+    "A053492",
+    "A258872",
+    "A259063",
+    "A259064",
+    "A259065",
+    "A259066"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 18:12:07",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

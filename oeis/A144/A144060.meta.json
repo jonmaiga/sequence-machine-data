@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of Molien series for the ring of genus 5 code polynomials for Type II codes.",
+  "id": "A144060",
+  "mentions": [
+    "A027672",
+    "A051354"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:40:19",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

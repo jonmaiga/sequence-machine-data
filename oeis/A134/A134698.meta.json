@@ -1,0 +1,22 @@
+{
+  "description": "Self-power numbers (or SPN's): numbers n with property that for each single digit d of n, we can also see the decimal expansion of the d-th power of some number as a substring of n and also n contains no 0's or 1's.",
+  "id": "A134698",
+  "mentions": [
+    "A134439",
+    "A134692",
+    "A134947",
+    "A134948",
+    "A134949"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

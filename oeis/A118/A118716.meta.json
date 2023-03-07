@@ -1,0 +1,26 @@
+{
+  "description": "Number of different ways to represent n in different bases using only decimal digits or characters (0 to 9).",
+  "id": "A118716",
+  "mentions": [
+    "A095425",
+    "A095426",
+    "A095427",
+    "A095428",
+    "A095429",
+    "A095430",
+    "A095431",
+    "A095432",
+    "A095433"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Sum of n-th Bell number and n-th Bell number written backwards.",
+  "id": "A322924",
+  "mentions": [
+    "A000110",
+    "A004098",
+    "A051131",
+    "A302092"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

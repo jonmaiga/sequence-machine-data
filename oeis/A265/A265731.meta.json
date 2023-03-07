@@ -1,0 +1,22 @@
+{
+  "description": "Powers C^z = A^x + B^y with all positive integers and x,y,z > 1, without multiplicity.",
+  "id": "A265731",
+  "mentions": [
+    "A000290",
+    "A245713",
+    "A261782",
+    "A264901",
+    "A265732"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

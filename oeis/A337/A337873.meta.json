@@ -1,0 +1,25 @@
+{
+  "description": "Numbers m such that the equation m = k*sigma(k) has more than one solution.",
+  "id": "A337873",
+  "mentions": [
+    "A000203",
+    "A000668",
+    "A064987",
+    "A212490",
+    "A327153",
+    "A327165",
+    "A337874",
+    "A337875"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that A330575(k) = A330575(k+1).",
+  "id": "A333954",
+  "mentions": [
+    "A002961",
+    "A064115",
+    "A064125",
+    "A293183",
+    "A306985",
+    "A330575"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

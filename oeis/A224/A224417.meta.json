@@ -1,0 +1,26 @@
+{
+  "description": "Least prime p such that sum_{k=0}^n B_k*x^{n-k} is irreducible modulo p, where B_k refers to the Bell number A000110(k).",
+  "id": "A224417",
+  "mentions": [
+    "A000040",
+    "A000110",
+    "A217785",
+    "A217788",
+    "A218465",
+    "A220072",
+    "A223934",
+    "A224197",
+    "A224210",
+    "A224416"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

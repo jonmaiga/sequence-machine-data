@@ -1,0 +1,26 @@
+{
+  "description": "Intersection of A001952 and A137803.",
+  "id": "A356054",
+  "mentions": [
+    "A001951",
+    "A001952",
+    "A136803",
+    "A137803",
+    "A137804",
+    "A356052",
+    "A356053",
+    "A356055",
+    "A356056"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

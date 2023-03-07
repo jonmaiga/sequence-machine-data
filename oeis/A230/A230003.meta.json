@@ -1,0 +1,19 @@
+{
+  "description": "Array of coefficients of numerator polynomials of the rational function p(n, x + 1/x), where p(n,x) is the n-th cyclotomic polynomial.",
+  "id": "A230003",
+  "mentions": [
+    "A231146"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

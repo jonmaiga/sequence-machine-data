@@ -1,0 +1,23 @@
+{
+  "description": "Largest odd side of primitive triples for integer-sided triangles that have two perpendicular medians, the triples being ordered by increasing perimeter.",
+  "id": "A335418",
+  "mentions": [
+    "A335034",
+    "A335035",
+    "A335036",
+    "A335273",
+    "A335347",
+    "A335348"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

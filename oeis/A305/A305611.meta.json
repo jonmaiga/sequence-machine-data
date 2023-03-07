@@ -1,0 +1,30 @@
+{
+  "description": "Number of distinct positive subset-sums of the multiset of prime factors of n.",
+  "id": "A305611",
+  "mentions": [
+    "A001414",
+    "A027746",
+    "A056239",
+    "A122768",
+    "A276024",
+    "A284640",
+    "A299701",
+    "A299702",
+    "A301855",
+    "A301935",
+    "A301957",
+    "A304792",
+    "A304793",
+    "A305613"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

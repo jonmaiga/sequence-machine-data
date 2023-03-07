@@ -1,0 +1,19 @@
+{
+  "description": "Recursively defined by a(0) = 1, a(n + 1) = p + 2, where p is the least prime greater than a(n).",
+  "id": "A238327",
+  "mentions": [
+    "A076974",
+    "A151800"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

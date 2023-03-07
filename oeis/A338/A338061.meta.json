@@ -1,0 +1,19 @@
+{
+  "description": "Trajectory of 3 under repeated application of the map x -> A338059(x).",
+  "id": "A338061",
+  "mentions": [
+    "A336957",
+    "A338059",
+    "A338060"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number of minimal topologically connected chord graphs covering {1..n}.",
+  "id": "A326341",
+  "mentions": [
+    "A000108",
+    "A006125",
+    "A007297",
+    "A053530",
+    "A054726",
+    "A136653",
+    "A324169",
+    "A324327",
+    "A324328",
+    "A326210",
+    "A326293"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

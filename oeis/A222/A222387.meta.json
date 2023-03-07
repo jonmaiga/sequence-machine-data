@@ -1,0 +1,18 @@
+{
+  "description": "Sum of neighbor maps: number of 2Xn binary arrays indicating the locations of corresponding elements equal to the sum mod 3 of their horizontal and antidiagonal neighbors in a random 0..2 2Xn array",
+  "id": "A222387",
+  "mentions": [
+    "A222386"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

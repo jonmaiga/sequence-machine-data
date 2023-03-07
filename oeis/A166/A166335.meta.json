@@ -1,0 +1,23 @@
+{
+  "description": "Exponential Riordan array [1+x*sinh(x), x].",
+  "id": "A166335",
+  "mentions": [
+    "A131056",
+    "A166336",
+    "A166337",
+    "A256893"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

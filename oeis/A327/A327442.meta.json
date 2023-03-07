@@ -1,0 +1,18 @@
+{
+  "description": "a(0) = 0; thereafter a(n) = a(n-1) + phi(n) if phi(n) > a(n-1), otherwise a(n) = a(n-1) - phi(n), where phi is the Euler phi-function A000010.",
+  "id": "A327442",
+  "mentions": [
+    "A000010",
+    "A008344"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

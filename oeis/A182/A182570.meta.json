@@ -1,0 +1,20 @@
+{
+  "description": "Primes that have three terms in their Zeckendorf representation.",
+  "id": "A182570",
+  "mentions": [
+    "A179242",
+    "A179253",
+    "A182535",
+    "A182569"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

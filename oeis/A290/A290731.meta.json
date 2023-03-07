@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct values of X*(X+1) mod n.",
+  "id": "A290731",
+  "mentions": [
+    "A000224",
+    "A290732"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

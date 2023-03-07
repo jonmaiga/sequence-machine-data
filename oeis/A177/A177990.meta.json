@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows, variant of A070909, a cellular automaton",
+  "id": "A177990",
+  "mentions": [
+    "A007318",
+    "A070909",
+    "A177991",
+    "A177992",
+    "A177993"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:22:23",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

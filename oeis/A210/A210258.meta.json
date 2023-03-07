@@ -1,0 +1,19 @@
+{
+  "description": "The coefficients of the Girard-Waring formula; irregular array T(n,k), read by rows, for n >= 1 and 1 <= k <= A000041(n).",
+  "id": "A210258",
+  "mentions": [
+    "A000041",
+    "A115131"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

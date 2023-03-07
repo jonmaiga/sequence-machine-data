@@ -1,0 +1,41 @@
+{
+  "description": "Number of compositions of n that are neither weakly increasing nor weakly decreasing.",
+  "id": "A332834",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A001523",
+    "A007052",
+    "A072704",
+    "A107429",
+    "A115981",
+    "A328509",
+    "A329398",
+    "A329744",
+    "A332281",
+    "A332284",
+    "A332578",
+    "A332640",
+    "A332641",
+    "A332643",
+    "A332669",
+    "A332745",
+    "A332746",
+    "A332831",
+    "A332833",
+    "A332835",
+    "A332836",
+    "A332870"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

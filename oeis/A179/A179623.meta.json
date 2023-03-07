@@ -1,0 +1,20 @@
+{
+  "description": "Collatz trajectory starting at 3711.",
+  "id": "A179623",
+  "mentions": [
+    "A161021"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

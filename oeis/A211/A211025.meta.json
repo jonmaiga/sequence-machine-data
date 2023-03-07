@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = total sum of parts in the last section of the set of partitions of n after k-th stage.",
+  "id": "A211025",
+  "mentions": [
+    "A135010",
+    "A138137",
+    "A138879",
+    "A182703",
+    "A206437",
+    "A211030"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies: A(x) = exp( Sum_{n>=1} x^n/n * Product_{d|n} A(d*x^d)^n ).",
+  "id": "A205501",
+  "mentions": [
+    "A205498",
+    "A205499",
+    "A205500",
+    "A205502"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

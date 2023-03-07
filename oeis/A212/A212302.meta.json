@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k whose sum of proper odious divisors (A000069) equals k.",
+  "id": "A212302",
+  "mentions": [
+    "A000069",
+    "A000396",
+    "A001969",
+    "A005101",
+    "A230587"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

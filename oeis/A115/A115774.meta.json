@@ -1,0 +1,24 @@
+{
+  "description": "Integers i such that 15*i = A048720bi(23,i).",
+  "id": "A115774",
+  "mentions": [
+    "A048717",
+    "A048720",
+    "A062052",
+    "A115767",
+    "A115770",
+    "A115772",
+    "A115775",
+    "A115776"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

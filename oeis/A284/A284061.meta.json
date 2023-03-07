@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) = pi(prime(k) * prime(n+1)).",
+  "id": "A284061",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A020900",
+    "A020901",
+    "A020935",
+    "A020937"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

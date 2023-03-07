@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers p for which p1=base(p,9), p2=base(p1,8), p3=base(p2,7) and p4=base(p3,6) are prime, where base(N,b) means N written in base b and read in base 10.",
+  "id": "A193888",
+  "mentions": [
+    "A193889"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

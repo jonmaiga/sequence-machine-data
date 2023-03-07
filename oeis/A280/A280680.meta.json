@@ -1,0 +1,22 @@
+{
+  "description": "The square roots of the radii (a, b, c) of three primitive mutually tangent circles all touching the same straight line, with a > b > c.",
+  "id": "A280680",
+  "mentions": [
+    "A106430",
+    "A246429",
+    "A247372",
+    "A265189",
+    "A280679"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

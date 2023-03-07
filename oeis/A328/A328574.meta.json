@@ -1,0 +1,28 @@
+{
+  "description": "a(1) = 0, and, for n >= 2, numbers n whose primorial base expansion doesn't contain any nonleading zeros.",
+  "id": "A328574",
+  "mentions": [
+    "A002110",
+    "A003557",
+    "A005867",
+    "A055932",
+    "A227157",
+    "A276086",
+    "A328475",
+    "A328572",
+    "A328573",
+    "A328840",
+    "A329027"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

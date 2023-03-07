@@ -1,0 +1,35 @@
+{
+  "description": "Number of finite sequences of distinct integer partitions with total sum n and weakly decreasing lengths.",
+  "id": "A358908",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000219",
+    "A001970",
+    "A055887",
+    "A063834",
+    "A141199",
+    "A261049",
+    "A271619",
+    "A296122",
+    "A358830",
+    "A358831",
+    "A358836",
+    "A358901",
+    "A358905",
+    "A358906",
+    "A358907",
+    "A358912",
+    "A358914"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

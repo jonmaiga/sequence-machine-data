@@ -1,0 +1,25 @@
+{
+  "description": "Number of triangles of weight prime(n) in the multiorder of integer partitions of prime numbers into prime parts.",
+  "id": "A316219",
+  "mentions": [
+    "A000040",
+    "A000041",
+    "A000607",
+    "A056768",
+    "A063834",
+    "A100118",
+    "A269134",
+    "A281113",
+    "A316220"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

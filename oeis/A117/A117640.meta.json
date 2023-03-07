@@ -1,0 +1,23 @@
+{
+  "description": "Concatenation of first n numbers in base 4.",
+  "id": "A117640",
+  "mentions": [
+    "A007090",
+    "A007908",
+    "A030373",
+    "A048436",
+    "A058935"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 13,
+    "source": "joeis"
+  }
+}

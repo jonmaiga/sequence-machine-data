@@ -1,0 +1,21 @@
+{
+  "description": "Primes which are the sums of two consecutive nonprimes (A141468).",
+  "id": "A167915",
+  "mentions": [
+    "A000040",
+    "A060254",
+    "A141468",
+    "A176902"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of set partitions of [n] such that for each pair of blocks (b,c) with b",
+  "id": "A272301",
+  "mentions": [
+    "A000110",
+    "A185982",
+    "A271270",
+    "A272064",
+    "A272105"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

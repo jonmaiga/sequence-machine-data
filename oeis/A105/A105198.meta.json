@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n(n+1)/2 mod 4.",
+  "id": "A105198",
+  "mentions": [
+    "A000217",
+    "A105332",
+    "A105340",
+    "A110549",
+    "A133882"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:14:45",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

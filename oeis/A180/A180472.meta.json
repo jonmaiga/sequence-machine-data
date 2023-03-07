@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T(n, k) = OC(n, k; not -1), read by rows, where OC(n, k; not -1) is the number of k-subsets of Z_n without -1 as a multiplier, up to congruency.",
+  "id": "A180472",
+  "mentions": [
+    "A001399",
+    "A008804",
+    "A032246",
+    "A032248",
+    "A052307",
+    "A059076",
+    "A119963",
+    "A308401"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 171,
+    "source": "oeis-bfile"
+  }
+}

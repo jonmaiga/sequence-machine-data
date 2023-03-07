@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) read by rows. n>3,k=1 T(n,k)=A002321(n-1). The rest of the table is described by the recurrence in the Excel formula.",
+  "id": "A180050",
+  "mentions": [
+    "A002321",
+    "A180051"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

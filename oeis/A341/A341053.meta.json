@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: T(n, k) is the k-th largest numerator of the A341052(n) ratios for which there exist A341051(n) n-digit integers (the maximum possible) that are in geometric progression.",
+  "id": "A341053",
+  "mentions": [
+    "A341051",
+    "A341052"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

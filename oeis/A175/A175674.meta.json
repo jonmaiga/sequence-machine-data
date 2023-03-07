@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = smallest integer m>=0 such that sum of digits of n and m is >=10.",
+  "id": "A175674",
+  "mentions": [
+    "A007953",
+    "A175675"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

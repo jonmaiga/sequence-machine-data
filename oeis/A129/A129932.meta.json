@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n remains prime through 6 iterations of function f(x) = 2x + 5.",
+  "id": "A129932",
+  "mentions": [
+    "A023243",
+    "A023274",
+    "A023304",
+    "A023332"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Records in |A282695(n)| = |A055265(n)-n|, divided by 2.",
+  "id": "A282697",
+  "mentions": [
+    "A055265",
+    "A282695",
+    "A282696"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

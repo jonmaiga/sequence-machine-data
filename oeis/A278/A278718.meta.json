@@ -1,0 +1,22 @@
+{
+  "description": "Numerators of A189733: periodic sequence repeating [0, 1, 1, 1, 0, -1].",
+  "id": "A278718",
+  "mentions": [
+    "A189733",
+    "A194767",
+    "A267068"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:28:53",
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

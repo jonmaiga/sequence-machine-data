@@ -1,0 +1,21 @@
+{
+  "description": "The intersection of A330584 and A330585.",
+  "id": "A330586",
+  "mentions": [
+    "A083207",
+    "A330584",
+    "A330585"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

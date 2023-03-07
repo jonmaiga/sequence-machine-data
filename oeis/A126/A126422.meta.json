@@ -1,0 +1,24 @@
+{
+  "description": "Primes of the form k^4-k-1.",
+  "id": "A126422",
+  "mentions": [
+    "A002327",
+    "A002328",
+    "A116581",
+    "A126420",
+    "A126421",
+    "A126423",
+    "A126424"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

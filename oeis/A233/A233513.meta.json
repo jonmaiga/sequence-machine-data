@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by antidiagonals of the conjectured least index k > 2 of Fibonacci-like sequence f(i+2) = f(i+1) + f(i), with f(1)=m and f(2)=n, such that f(k) is a square, or k=0 if squares do not exist in the corresponding sequence.",
+  "id": "A233513",
+  "mentions": [
+    "A236506"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

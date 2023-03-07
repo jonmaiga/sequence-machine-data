@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that p + A023896(p-1) and p + A023896(p+1) are prime.",
+  "id": "A339868",
+  "mentions": [
+    "A023896"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

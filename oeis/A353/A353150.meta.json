@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of distinct pairs that can be made in exactly n iterations of either of the two maps (x, y) -> (x OR (2^y), 0) or (x, y) -> (x, y+1), starting from (0,0).",
+  "id": "A353150",
+  "mentions": [
+    "A003986",
+    "A036469",
+    "A088314",
+    "A096914"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

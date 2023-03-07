@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of e*gamma*Pi, where gamma is Euler's constant.",
+  "id": "A203816",
+  "mentions": [
+    "A001620",
+    "A019609"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows: T(n,k) = t(n-k, k); t(n,m) = f(m)*t(n-1,m) + f(n)*t(n,m-1), where f(x) = 4*x + 2.",
+  "id": "A257612",
+  "mentions": [
+    "A038208",
+    "A047053",
+    "A060187",
+    "A142459",
+    "A256890",
+    "A257609",
+    "A257610",
+    "A257614",
+    "A257616",
+    "A257617",
+    "A257618",
+    "A257619",
+    "A257621"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:52:50",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

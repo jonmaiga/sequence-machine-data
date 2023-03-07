@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least proper multiple of n with the same set of decimal digits as n.",
+  "id": "A345391",
+  "mentions": [
+    "A020338",
+    "A029793",
+    "A276769"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

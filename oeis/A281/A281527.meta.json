@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) = minimal number of terms needed to write k/n as a signed sum of distinct unit fractions, 1 <= k < n.",
+  "id": "A281527",
+  "mentions": [
+    "A281530"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

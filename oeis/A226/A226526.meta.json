@@ -1,0 +1,19 @@
+{
+  "description": "Slowest-growing sequence of semiprimes where 1/(sp+1) sums to 1 without actually reaching it.",
+  "id": "A226526",
+  "mentions": [
+    "A181503",
+    "A226527"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

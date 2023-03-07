@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form 27^i*(9*j +- 1).",
+  "id": "A319293",
+  "mentions": [
+    "A055047",
+    "A055048",
+    "A056020"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

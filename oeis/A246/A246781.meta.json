@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that A182134(n) = 3, i.e., there exist only three primes p with prime(n) < p < prime(n)^(1 + 1/n).",
+  "id": "A246781",
+  "mentions": [
+    "A000040",
+    "A182134",
+    "A246782",
+    "A249566"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

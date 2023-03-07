@@ -1,0 +1,19 @@
+{
+  "description": "A special version of Pascal's triangle where only Fibonacci numbers are permitted.",
+  "id": "A307116",
+  "mentions": [
+    "A000045",
+    "A307069"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

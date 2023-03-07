@@ -1,0 +1,22 @@
+{
+  "description": "Pentagonal numbers for which both the sum of the digits and the product of the digits are pentagonal numbers.",
+  "id": "A117711",
+  "mentions": [
+    "A000326",
+    "A007953",
+    "A007954",
+    "A117053",
+    "A117064"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form p + sigma(p-1) for primes p.",
+  "id": "A339864",
+  "mentions": [
+    "A000203",
+    "A339862",
+    "A339882"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

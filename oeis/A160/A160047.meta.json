@@ -1,0 +1,17 @@
+{
+  "description": "Denominator of the Harary number for the cycle graph C_n.",
+  "id": "A160047",
+  "mentions": [
+    "A160046"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

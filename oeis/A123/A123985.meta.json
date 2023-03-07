@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n for which 12n+1, 12n+5, 12n+7 and 12n+11 are primes.",
+  "id": "A123985",
+  "mentions": [
+    "A110801"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:44",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

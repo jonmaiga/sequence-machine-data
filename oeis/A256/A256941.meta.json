@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of free ends of a certain configuration of line segments after n iterations (see Comments lines for definition).",
+  "id": "A256941",
+  "mentions": [
+    "A194270",
+    "A194440",
+    "A194442",
+    "A220500",
+    "A220520",
+    "A220522",
+    "A256641",
+    "A256940"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Second differences of A001515 (or A144301).",
+  "id": "A144647",
+  "mentions": [
+    "A001515",
+    "A144301",
+    "A144498"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

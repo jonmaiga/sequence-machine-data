@@ -1,0 +1,72 @@
+{
+  "oi": 171754,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "round(cosh(p(n+1)))",
+      "mt": 18,
+      "px": [
+        "n",
+        "1",
+        "+",
+        "p",
+        "cosh",
+        "round"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "round(cosh(p?[comp[n²]]))",
+      "mt": 18,
+      "px": [
+        "n",
+        "²",
+        "comp",
+        "p?",
+        "cosh",
+        "round"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "round(sinh(p?[comp[n²]]))",
+      "mt": 18,
+      "px": [
+        "n",
+        "²",
+        "comp",
+        "p?",
+        "sinh",
+        "round"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "round(cosh(record[gpf(n+2)]))",
+      "mt": 18,
+      "px": [
+        "n",
+        "2",
+        "+",
+        "gpf",
+        "record",
+        "cosh",
+        "round"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "round(cosh(record[lpf(n+2)]))",
+      "mt": 18,
+      "px": [
+        "n",
+        "2",
+        "+",
+        "lpf",
+        "record",
+        "cosh",
+        "round"
+      ]
+    }
+  ]
+}

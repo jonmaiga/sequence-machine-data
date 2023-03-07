@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the real part of -I*Sum_{d|n}(mobius(d)*I^(n/d)), I=sqrt(-1), mobius(n) is A008683.",
+  "id": "A275966",
+  "mentions": [
+    "A008683",
+    "A101455"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Schroeder triangle sums: a(n) = A006603(n+1) - A006318(n+1).",
+  "id": "A227504",
+  "mentions": [
+    "A006318",
+    "A006603",
+    "A033877",
+    "A180662",
+    "A227505"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

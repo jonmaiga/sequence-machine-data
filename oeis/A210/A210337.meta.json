@@ -1,0 +1,19 @@
+{
+  "description": "Sum of distinct residues of all factorials mod 2^n.",
+  "id": "A210337",
+  "mentions": [
+    "A007843",
+    "A210184",
+    "A210185"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

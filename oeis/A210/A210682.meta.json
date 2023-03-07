@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n,k) = coefficient of x^k in polynomial U_n(x) defined by U_1 = x, U_n = n*x^n + (1-x^n)*U_(n-1), n >= 1, 1 <= k <= n(n+1)/2.",
+  "id": "A210682",
+  "mentions": [
+    "A000005"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

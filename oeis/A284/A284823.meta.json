@@ -1,0 +1,32 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) = number of primitive (aperiodic) palindromes of length n using a maximum of k different symbols (n >= 1, k >= 1).",
+  "id": "A284823",
+  "mentions": [
+    "A007531",
+    "A045991",
+    "A047928",
+    "A056391",
+    "A056458",
+    "A056459",
+    "A056460",
+    "A056461",
+    "A056462",
+    "A058895",
+    "A133754",
+    "A135497",
+    "A284826",
+    "A284841"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

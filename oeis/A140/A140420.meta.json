@@ -1,0 +1,20 @@
+{
+  "description": "Binomial transform of 0, 1, 1, 7, 7, 31, 31, ..., zero followed by duplicated A083420.",
+  "id": "A140420",
+  "mentions": [
+    "A083420",
+    "A099430",
+    "A126644"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:25:58",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

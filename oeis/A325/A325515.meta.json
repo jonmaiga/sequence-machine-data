@@ -1,0 +1,29 @@
+{
+  "description": "Sum of sums of omegas of the parts over all strict integer partitions of n.",
+  "id": "A325515",
+  "mentions": [
+    "A001222",
+    "A003963",
+    "A015716",
+    "A015723",
+    "A022629",
+    "A056239",
+    "A066189",
+    "A112798",
+    "A147655",
+    "A246867",
+    "A325504",
+    "A325506"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

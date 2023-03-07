@@ -1,0 +1,22 @@
+{
+  "description": "Least positive integer k such that (prime(j*n)+prime(k*n))/2 = prime(i*n)^2 for some integers i > 0 and 0 < j < k.",
+  "id": "A258580",
+  "mentions": [
+    "A000040",
+    "A257926",
+    "A257938",
+    "A260078",
+    "A260080",
+    "A260082"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

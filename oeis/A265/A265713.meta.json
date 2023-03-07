@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that floor(Sum_{d|k} 1 / sigma(d)) = 3.",
+  "id": "A265713",
+  "mentions": [
+    "A000203",
+    "A069934",
+    "A265708",
+    "A265709",
+    "A265710",
+    "A265711",
+    "A265712",
+    "A265714",
+    "A266227",
+    "A266228"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

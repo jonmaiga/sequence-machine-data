@@ -1,0 +1,21 @@
+{
+  "description": "Partial sums of A054595.",
+  "id": "A177451",
+  "mentions": [
+    "A001072",
+    "A054317",
+    "A054595",
+    "A054596"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 3,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

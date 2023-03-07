@@ -1,0 +1,19 @@
+{
+  "description": "Smallest k such that i^k = i mod n for each i in [0..n-1], or 0 if no such k exists.",
+  "id": "A197658",
+  "mentions": [
+    "A002322"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 2,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Least early bird number of order n.",
+  "id": "A133652",
+  "mentions": [
+    "A116700",
+    "A133650",
+    "A133651"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

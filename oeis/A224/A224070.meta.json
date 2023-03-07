@@ -1,0 +1,17 @@
+{
+  "description": "Sets of four primes such that the sum of any three is prime, ordered first by sum, then lexicographically.",
+  "id": "A224070",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

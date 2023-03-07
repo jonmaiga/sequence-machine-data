@@ -1,0 +1,23 @@
+{
+  "description": "Coefficients in expansion of 1/(1 - x - 3*x^4).",
+  "id": "A318774",
+  "mentions": [
+    "A013610",
+    "A027465",
+    "A143454",
+    "A318772",
+    "A318773"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

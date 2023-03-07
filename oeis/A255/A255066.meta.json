@@ -1,0 +1,31 @@
+{
+  "description": "The trunk of number-of-runs beanstalk (A255056) with reversed subsections.",
+  "id": "A255066",
+  "mentions": [
+    "A000523",
+    "A004198",
+    "A004755",
+    "A005811",
+    "A209229",
+    "A218616",
+    "A230416",
+    "A236840",
+    "A255056",
+    "A255067",
+    "A255071",
+    "A255122"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

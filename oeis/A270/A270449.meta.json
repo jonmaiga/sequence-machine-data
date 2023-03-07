@@ -1,0 +1,19 @@
+{
+  "description": "Odd integers n such that the sum of the Pell numbers A000129(0) + ... + A000129(n-1) is divisible by n*(n+1)/2.",
+  "id": "A270449",
+  "mentions": [
+    "A000129",
+    "A048739",
+    "A270342"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

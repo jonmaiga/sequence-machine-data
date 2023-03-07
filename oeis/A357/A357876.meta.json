@@ -1,0 +1,33 @@
+{
+  "description": "The run-sums of the prime indices of n are not weakly increasing.",
+  "id": "A357876",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A047966",
+    "A056239",
+    "A112798",
+    "A118914",
+    "A181819",
+    "A239312",
+    "A275870",
+    "A300273",
+    "A304442",
+    "A325249",
+    "A353743",
+    "A354584",
+    "A354912",
+    "A357875",
+    "A357878"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime p(i) such that between 2p(i) and 2p(i+1) there exist n primes.",
+  "id": "A104380",
+  "mentions": [
+    "A060756",
+    "A102820",
+    "A215238"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

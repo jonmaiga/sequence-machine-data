@@ -1,0 +1,24 @@
+{
+  "description": "Primes p for which p-1 and p+1 are Niven numbers.",
+  "id": "A320771",
+  "mentions": [
+    "A000040",
+    "A005349",
+    "A007953",
+    "A177506",
+    "A199684",
+    "A199687",
+    "A253213"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

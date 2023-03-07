@@ -1,0 +1,23 @@
+{
+  "description": "Number of ordered factorizations of 2*n + 1 into odd factors > 1.",
+  "id": "A352063",
+  "mentions": [
+    "A002033",
+    "A058696",
+    "A074206",
+    "A108503",
+    "A340101",
+    "A349907"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

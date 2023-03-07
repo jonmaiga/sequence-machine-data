@@ -1,0 +1,17 @@
+{
+  "description": "Number of strings of numbers x(i=1..n) in 0..2 with sum i^2*x(i)^3 equal to n^2*8",
+  "id": "A184311",
+  "mentions": [
+    "A184318"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:47",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

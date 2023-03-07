@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are both the sum of two consecutive primes and the sum of two consecutive semiprimes.",
+  "id": "A288949",
+  "mentions": [
+    "A001043",
+    "A118717"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:02",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

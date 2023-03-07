@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = product of distinct primes of the form 4k-1 that divide n.",
+  "id": "A170819",
+  "mentions": [
+    "A007947",
+    "A011765",
+    "A083025",
+    "A097706",
+    "A170817",
+    "A170818"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:54",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

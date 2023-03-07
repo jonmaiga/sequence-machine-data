@@ -1,0 +1,23 @@
+{
+  "description": "Numerator of partial sums of a certain series.",
+  "id": "A101629",
+  "mentions": [
+    "A101028",
+    "A101627",
+    "A101630",
+    "A101631"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

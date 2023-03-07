@@ -1,0 +1,18 @@
+{
+  "description": "Numerator of Euler(n, 8/27).",
+  "id": "A157186",
+  "mentions": [
+    "A157094"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:11:00",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

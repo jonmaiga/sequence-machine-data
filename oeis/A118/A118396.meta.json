@@ -1,0 +1,21 @@
+{
+  "description": "Eigenvector of triangle A118394; E.g.f.: exp( Sum_{n>=0} x^(3^n) ).",
+  "id": "A118396",
+  "mentions": [
+    "A118393",
+    "A118394",
+    "A118395",
+    "A118932"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

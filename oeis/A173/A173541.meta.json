@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k)=k if k is a proper non-divisor of n, otherwise T(n,k)=0 (1<=k<=n).",
+  "id": "A173541",
+  "mentions": [
+    "A002260",
+    "A024816",
+    "A049820",
+    "A051731",
+    "A127093",
+    "A173540"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:34:01",
+    "offset": 1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

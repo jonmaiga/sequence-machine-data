@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = the middle prime among the distinct primes dividing {the n-th positive integer divisible by exactly an odd number of distinct primes}.",
+  "id": "A175264",
+  "mentions": [
+    "A030230"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

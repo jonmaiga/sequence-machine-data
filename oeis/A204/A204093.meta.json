@@ -1,0 +1,27 @@
+{
+  "description": "Numbers whose set of base-10 digits is {0,6}.",
+  "id": "A204093",
+  "mentions": [
+    "A007088",
+    "A078245",
+    "A097256",
+    "A169964",
+    "A169965",
+    "A169966",
+    "A169967",
+    "A204094",
+    "A204095"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:24",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Accumulation array of A185910; by antidiagonals.",
+  "id": "A185912",
+  "mentions": [
+    "A000217",
+    "A000330",
+    "A028347",
+    "A037237",
+    "A144112",
+    "A145066",
+    "A185812",
+    "A185910",
+    "A185911",
+    "A185913"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

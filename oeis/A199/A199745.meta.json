@@ -1,0 +1,24 @@
+{
+  "description": "Numbers such that the sum of the largest and the smallest prime divisor equals the sum of the other distinct prime divisors.",
+  "id": "A199745",
+  "mentions": [
+    "A001221",
+    "A006530",
+    "A008472",
+    "A020639",
+    "A027748",
+    "A074320",
+    "A109353"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

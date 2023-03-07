@@ -1,0 +1,20 @@
+{
+  "description": "Number of prime knots up to nine crossings with determinant 2n+1 and signature 4.",
+  "id": "A172444",
+  "mentions": [
+    "A002863",
+    "A172184",
+    "A172293",
+    "A172441"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

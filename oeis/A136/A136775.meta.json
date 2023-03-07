@@ -1,0 +1,20 @@
+{
+  "description": "Number of multiplex juggling sequences of length n, base state and hand capacity 2.",
+  "id": "A136775",
+  "mentions": [
+    "A136776",
+    "A291000"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

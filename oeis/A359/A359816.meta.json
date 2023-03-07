@@ -1,0 +1,27 @@
+{
+  "description": "Parity of A359815, where A359815 is the Dirichlet inverse of A359770, which is the characteristic function for numbers k such that k and bigomega(k) are of different parity.",
+  "id": "A359816",
+  "mentions": [
+    "A001222",
+    "A003961",
+    "A353556",
+    "A353557",
+    "A359764",
+    "A359770",
+    "A359774",
+    "A359781",
+    "A359814",
+    "A359815",
+    "A359817"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

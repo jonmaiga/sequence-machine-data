@@ -1,0 +1,19 @@
+{
+  "description": "a(n)/ceiling(6^(n-7)) is the expected number of rolls of a fair 6-sided die in a game where the player starts at 0, advances the position by the outcome of the die's roll until exactly position n is reached. Positions beyond n are avoided by staying at the last visited position, but counting the rolls.",
+  "id": "A331944",
+  "mentions": [
+    "A000400",
+    "A127984"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

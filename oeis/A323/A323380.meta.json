@@ -1,0 +1,21 @@
+{
+  "description": "Odd n such that sigma(n) > sigma(n+1) and sigma(n) > sigma(n-1), sigma = A000203.",
+  "id": "A323380",
+  "mentions": [
+    "A000203",
+    "A067825",
+    "A067828",
+    "A076773",
+    "A323379"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

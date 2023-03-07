@@ -1,0 +1,21 @@
+{
+  "description": "Greatest prime dividing A007408(n).",
+  "id": "A124875",
+  "mentions": [
+    "A006530",
+    "A007408",
+    "A124876",
+    "A124877"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 2,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

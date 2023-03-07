@@ -1,0 +1,19 @@
+{
+  "description": "Number of parts in all partitions of n in which every integer from the smallest part to the largest part occurs as a part.",
+  "id": "A117457",
+  "mentions": [
+    "A034296",
+    "A117456"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

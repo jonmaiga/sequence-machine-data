@@ -1,0 +1,23 @@
+{
+  "description": "Related to Gray code representation of Fibonacci(n) in base 10.",
+  "id": "A143332",
+  "mentions": [
+    "A000045",
+    "A003100",
+    "A003188",
+    "A143210",
+    "A143214",
+    "A255919"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "obsc"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

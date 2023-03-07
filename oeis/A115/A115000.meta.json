@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = J_2(n) / 24.",
+  "id": "A115000",
+  "mentions": [
+    "A006863",
+    "A007434",
+    "A023022",
+    "A046657",
+    "A059379",
+    "A079612"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:41:29",
+    "offset": 5,
+    "size": 68,
+    "source": "joeis"
+  }
+}

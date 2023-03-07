@@ -1,0 +1,28 @@
+{
+  "description": "Number of unlabeled spanning intersecting antichains on n vertices.",
+  "id": "A305855",
+  "mentions": [
+    "A001206",
+    "A006126",
+    "A051185",
+    "A261006",
+    "A283877",
+    "A304998",
+    "A305843",
+    "A305844",
+    "A305854",
+    "A305857"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

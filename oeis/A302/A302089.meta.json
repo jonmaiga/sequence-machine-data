@@ -1,0 +1,22 @@
+{
+  "description": "Primes of form 5*k^k + 4.",
+  "id": "A302089",
+  "mentions": [
+    "A216148",
+    "A301808",
+    "A301811",
+    "A302088",
+    "A302091"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of nodes with depth of n in a binary tree defined as: root = 1 and a child (C) of a node (N) is such that A337978(C) = N. For nodes with two children, the smaller child is assigned as the left child and the bigger one as the right child. A child of a one-child node is assigned as the left child.",
+  "id": "A338260",
+  "mentions": [
+    "A000027",
+    "A062298",
+    "A095117",
+    "A337978",
+    "A337979"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

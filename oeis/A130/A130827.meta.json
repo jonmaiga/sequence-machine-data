@@ -1,0 +1,18 @@
+{
+  "description": "Least k >= 1 such that k^n+n is semiprime, or 0 if no such k exists.",
+  "id": "A130827",
+  "mentions": [
+    "A072883",
+    "A097792"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:39",
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of blocks of exactly 5 Fibonacci numbers having equal length <= n.",
+  "id": "A105566",
+  "mentions": [
+    "A000045",
+    "A050815",
+    "A060384",
+    "A072353",
+    "A105564",
+    "A105565"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

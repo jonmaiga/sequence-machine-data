@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{i=n..n+3}Sum_{j=i+1..n+4}prime(i)*prime(j).",
+  "id": "A127350",
+  "mentions": [
+    "A006094",
+    "A070934",
+    "A127345",
+    "A127346",
+    "A127347",
+    "A127348",
+    "A127349",
+    "A127351"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

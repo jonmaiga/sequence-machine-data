@@ -1,0 +1,20 @@
+{
+  "description": "Curious identities based on the Armstrong number 407 = A005188(13).",
+  "id": "A281859",
+  "mentions": [
+    "A005188",
+    "A093137"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

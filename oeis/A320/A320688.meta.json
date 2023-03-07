@@ -1,0 +1,22 @@
+{
+  "description": "Sum of the square excess A056892 of the primes between two squares.",
+  "id": "A320688",
+  "mentions": [
+    "A000290",
+    "A014085",
+    "A056892",
+    "A106044",
+    "A108314"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

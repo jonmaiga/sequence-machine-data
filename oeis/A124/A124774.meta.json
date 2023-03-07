@@ -1,0 +1,24 @@
+{
+  "description": "Multinomial coefficients for compositions in standard order.",
+  "id": "A124774",
+  "mentions": [
+    "A000670",
+    "A011782",
+    "A036039",
+    "A066099",
+    "A124773"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

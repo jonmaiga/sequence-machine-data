@@ -1,0 +1,25 @@
+{
+  "description": "Triangular array read by rows: T(n,k) is the number of set partitions of {1,2,...,n} that have exactly k distinct block sizes.",
+  "id": "A208437",
+  "mentions": [
+    "A000110",
+    "A022915",
+    "A038041",
+    "A088142",
+    "A116608",
+    "A133118",
+    "A218868"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

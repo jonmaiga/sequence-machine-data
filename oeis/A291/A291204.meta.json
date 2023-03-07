@@ -1,0 +1,39 @@
+{
+  "description": "Number F(n,h,t) of forests of t labeled rooted trees with n vertices such that the root of each subtree contains the subtree's minimal label and h is the maximum of 0 and the tree heights; triangle of triangles F(n,h,t), n>=0, h=0..n, t=0..n-h, read by layers, then by rows.",
+  "id": "A291204",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000110",
+    "A000142",
+    "A000217",
+    "A000225",
+    "A000254",
+    "A000325",
+    "A001791",
+    "A007820",
+    "A008277",
+    "A023531",
+    "A048993",
+    "A057427",
+    "A058692",
+    "A132393",
+    "A179454",
+    "A291203",
+    "A291336",
+    "A291529"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

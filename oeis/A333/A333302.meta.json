@@ -1,0 +1,20 @@
+{
+  "description": "Numbers produced by iteratively sorting the digits of the last number from largest to smallest in base 10 and then doubling, starting with the number 1.",
+  "id": "A333302",
+  "mentions": [
+    "A004000",
+    "A057615",
+    "A095197"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

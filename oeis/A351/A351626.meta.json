@@ -1,0 +1,24 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest positive number that has not appeared that shares a factor with both the largest and second largest value of all previous terms.",
+  "id": "A351626",
+  "mentions": [
+    "A064413",
+    "A084937",
+    "A098550",
+    "A270139",
+    "A351625",
+    "A352943",
+    "A352968",
+    "A352976"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

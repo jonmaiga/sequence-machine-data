@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct terms in row n of A049455.",
+  "id": "A293165",
+  "mentions": [
+    "A049455",
+    "A049456",
+    "A293160"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

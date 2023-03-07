@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that 3^k + 3*k + 1 is prime.",
+  "id": "A171058",
+  "mentions": [
+    "A176805",
+    "A180269",
+    "A301634",
+    "A301635"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

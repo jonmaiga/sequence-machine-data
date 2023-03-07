@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n! * Sum_{k=1..n} ( Sum_{d|k} (-1)^(k/d+1) * d^2 )/(k * (n-k)!).",
+  "id": "A354508",
+  "mentions": [
+    "A078306",
+    "A354506",
+    "A354507",
+    "A356391"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

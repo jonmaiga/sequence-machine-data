@@ -1,0 +1,26 @@
+{
+  "description": "Number of ways to write n as x^2 + y^2 + z^2 + w^2 with x + 3*y + 5*z a positive square, where x,y,z,w are nonnegative integers such that 3*x or y or z is a square.",
+  "id": "A300752",
+  "mentions": [
+    "A000118",
+    "A000290",
+    "A271518",
+    "A281976",
+    "A282542",
+    "A300666",
+    "A300667",
+    "A300708",
+    "A300712",
+    "A300751"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

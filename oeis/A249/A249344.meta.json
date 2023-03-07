@@ -1,0 +1,38 @@
+{
+  "description": "A(n,k) = exponent of the largest power of n-th prime which divides k, square array read by antidiagonals.",
+  "id": "A249344",
+  "mentions": [
+    "A000040",
+    "A002260",
+    "A004736",
+    "A007814",
+    "A007949",
+    "A060175",
+    "A065339",
+    "A083025",
+    "A085604",
+    "A087436",
+    "A090622",
+    "A112765",
+    "A115627",
+    "A122840",
+    "A122841",
+    "A169611",
+    "A214411",
+    "A235127",
+    "A244413",
+    "A249421"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 120,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Square array T(n, k), n, k > 0, read by antidiagonals; let b be the function that associates to any pair of integers (u, v) the Bézout coefficients (x, y) as produced by the extended Euclidean algorithm (u*x + v*y = gcd(u, v)); T(n, k) is the number of iterations of b when starting from (n, k) needed to obtain a unit vector.",
+  "id": "A347735",
+  "mentions": [
+    "A003989",
+    "A345415",
+    "A345416"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers k such that k*phi(k) is in A002378.",
+  "id": "A256545",
+  "mentions": [
+    "A000010",
+    "A001653",
+    "A002378",
+    "A002618",
+    "A080806"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

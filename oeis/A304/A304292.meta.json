@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that p + q^2 + r^3 is also prime, where p, q and r are consecutive primes.",
+  "id": "A304292",
+  "mentions": [
+    "A259772"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

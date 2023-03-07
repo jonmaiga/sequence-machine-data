@@ -1,0 +1,32 @@
+{
+  "description": "Strongly refactorable numbers: numbers n such that if n is divisible by d, it is divisible by the number of divisors of d.",
+  "id": "A141586",
+  "mentions": [
+    "A033950",
+    "A082725",
+    "A100549",
+    "A100762",
+    "A109802",
+    "A134865",
+    "A135130",
+    "A141551",
+    "A141756",
+    "A141758",
+    "A141900",
+    "A142593",
+    "A142594",
+    "A143718",
+    "A143719",
+    "A143720"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

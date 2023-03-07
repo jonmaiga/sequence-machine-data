@@ -1,0 +1,25 @@
+{
+  "description": "Number of nonnegative solutions to the equation x^2 + 2*y^2 = n.",
+  "id": "A216282",
+  "mentions": [
+    "A000161",
+    "A000196",
+    "A002479",
+    "A010052",
+    "A025426",
+    "A092573",
+    "A097700",
+    "A119395",
+    "A216283"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

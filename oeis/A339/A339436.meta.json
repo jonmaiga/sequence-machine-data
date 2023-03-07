@@ -1,0 +1,17 @@
+{
+  "description": "If n = p_1 * ... * p_m with primes p_i <= p_{i+1}, a(n) = Sum_{j=1..m-1} p_1*...*p_j + Sum_{j=2..m} p_j*...*p_m.",
+  "id": "A339436",
+  "mentions": [
+    "A288654"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 2,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

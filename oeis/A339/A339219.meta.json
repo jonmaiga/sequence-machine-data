@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n into nonprime parts where every part appears at least 2 times.",
+  "id": "A339219",
+  "mentions": [
+    "A002095",
+    "A007690",
+    "A018252",
+    "A161077",
+    "A339218"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest positive number that has not appeared that shares a factor with a(n-1) * a(n-2) + |a(n-1) - a(n-2)|.",
+  "id": "A353075",
+  "mentions": [
+    "A352768",
+    "A352774",
+    "A352867",
+    "A353006",
+    "A353082"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

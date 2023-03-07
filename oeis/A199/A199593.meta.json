@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n such that 3n-2, 3n-1 and 3n are all composite.",
+  "id": "A199593",
+  "mentions": [
+    "A001222",
+    "A003986",
+    "A007310",
+    "A053726",
+    "A075743",
+    "A084967",
+    "A199595",
+    "A249823"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

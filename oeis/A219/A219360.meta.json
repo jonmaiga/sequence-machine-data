@@ -1,0 +1,18 @@
+{
+  "description": "Starting from a(1)=1, for any n the sum of the next a(n) numbers is a prime. No repetition of numbers is allowed. At any step the minimum integer not yet used and not leading to a contradiction is chosen.",
+  "id": "A219360",
+  "mentions": [
+    "A000040",
+    "A171007"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

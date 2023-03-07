@@ -1,0 +1,17 @@
+{
+  "description": "Records in the sequence A024573 defined by [1/{n*e}], {x} := x - [x].",
+  "id": "A101262",
+  "mentions": [
+    "A024573"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

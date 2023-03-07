@@ -1,0 +1,22 @@
+{
+  "description": "Level of the Calkin-Wilf tree in which the n-th convergent of the continued fraction for e appears.",
+  "id": "A339267",
+  "mentions": [
+    "A002487",
+    "A003417",
+    "A007676",
+    "A007677"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:13:09",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

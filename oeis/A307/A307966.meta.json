@@ -1,0 +1,18 @@
+{
+  "description": "Sum of the largest side lengths of all integer-sided triangles with perimeter n.",
+  "id": "A307966",
+  "mentions": [
+    "A005044"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "First occurrences of gaps between primes 6k - 1: gap sizes.",
+  "id": "A334543",
+  "mentions": [
+    "A007528",
+    "A008588",
+    "A014320",
+    "A058320",
+    "A268928",
+    "A330853",
+    "A334544",
+    "A334545"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

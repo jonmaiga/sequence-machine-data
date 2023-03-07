@@ -1,0 +1,36 @@
+{
+  "description": "Number of permutations T(n,k) in S_n containing an increasing subsequence of length k; triangle T(n,k), n>=1, 1<=k<=n, read by rows.",
+  "id": "A214152",
+  "mentions": [
+    "A000012",
+    "A000142",
+    "A002522",
+    "A003316",
+    "A033312",
+    "A047874",
+    "A056986",
+    "A158005",
+    "A158432",
+    "A159139",
+    "A159175",
+    "A214015",
+    "A217193",
+    "A217200",
+    "A217675",
+    "A217676",
+    "A217677",
+    "A269021"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

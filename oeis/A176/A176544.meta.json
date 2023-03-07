@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form semiprime(k)/sum of digits of semiprime(k).",
+  "id": "A176544",
+  "mentions": [
+    "A001358",
+    "A007953",
+    "A175013",
+    "A176543"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

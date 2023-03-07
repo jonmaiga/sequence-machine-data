@@ -1,0 +1,21 @@
+{
+  "description": "Self-locating numbers within the decimal expansion of log(2): strings k beginning at position k (first digit after decimal point is position 2).",
+  "id": "A332492",
+  "mentions": [
+    "A002162",
+    "A057679",
+    "A153220"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

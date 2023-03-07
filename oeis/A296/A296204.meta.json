@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that Product_{d|k, gcd(d,k/d) is prime} gcd(d,k/d) = k; the fixed points of A295666.",
+  "id": "A296204",
+  "mentions": [
+    "A295666",
+    "A296205"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

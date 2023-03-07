@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows: row n gives coefficients of n-th ordinary Bell polynomial B_n(x_1, x_2, ...) with monomials sorted into graded lexicographic order.",
+  "id": "A263633",
+  "mentions": [
+    "A000041",
+    "A007318",
+    "A133314",
+    "A133932",
+    "A178867",
+    "A263634"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

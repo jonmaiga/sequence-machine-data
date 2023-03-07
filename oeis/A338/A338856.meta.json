@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} binomial(4*k,2*k)^2 / (2^(8*k) * (2*k + 1)).",
+  "id": "A338856",
+  "mentions": [
+    "A068465",
+    "A276483"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:20",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

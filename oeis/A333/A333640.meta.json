@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that the continued fraction of (1 + sqrt(k))/2 has period 13.",
+  "id": "A333640",
+  "mentions": [
+    "A000290",
+    "A078370",
+    "A146326",
+    "A146345",
+    "A146348",
+    "A146358",
+    "A146362"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

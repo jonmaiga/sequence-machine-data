@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Fibonacci(n)*A034896(n) for n >= 1, with a(0)=1, where A034896 lists the number of solutions to a^2 + b^2 + 3*c^2 + 3*d^2 = n.",
+  "id": "A205971",
+  "mentions": [
+    "A000204",
+    "A034896",
+    "A203847",
+    "A205882",
+    "A205967",
+    "A205970",
+    "A205972",
+    "A209451"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

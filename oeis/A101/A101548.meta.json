@@ -1,0 +1,19 @@
+{
+  "description": "Number of k such that prime(n) divides the left factorial !k = sum_{i=0..k-1} i!.",
+  "id": "A101548",
+  "mentions": [
+    "A003422",
+    "A049042",
+    "A049043"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

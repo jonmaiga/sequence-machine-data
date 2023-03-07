@@ -1,0 +1,38 @@
+{
+  "description": "Numbers for which there exists an integer partition such that the parts have the same mean as the multiplicities.",
+  "id": "A360070",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A005117",
+    "A008284",
+    "A058398",
+    "A067340",
+    "A067538",
+    "A088529",
+    "A088530",
+    "A112798",
+    "A124010",
+    "A240219",
+    "A316313",
+    "A326567",
+    "A326568",
+    "A327482",
+    "A349156",
+    "A359903",
+    "A359904",
+    "A359905",
+    "A360068",
+    "A360069"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of reduced Latin 5-dimensional hypercubes (Latin polyhedra) of order n.",
+  "id": "A132205",
+  "mentions": [
+    "A100540",
+    "A132206"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

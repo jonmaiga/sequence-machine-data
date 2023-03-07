@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of iterations needed to reach 1 or 9 starting at n and using the map k -> (k/2 if k is even, otherwise k + (largest triangular number < k)). Set a(n) = -1 if the trajectory never reaches 1 or 9.",
+  "id": "A326923",
+  "mentions": [
+    "A006577",
+    "A057944",
+    "A326823",
+    "A326825"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Pi/8*(6*zeta(3)+Pi^2*log(2)+4*log(2)^3).",
+  "id": "A196878",
+  "mentions": [
+    "A002117",
+    "A002162",
+    "A002388",
+    "A019675",
+    "A173623",
+    "A196877"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:55",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

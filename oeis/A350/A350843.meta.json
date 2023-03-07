@@ -1,0 +1,21 @@
+{
+  "description": "The least number of terms needed in the Taylor series approximation of arctan(1/239) such that Machin's formula with n terms in the Taylor series approximation of arctan(1/5) achieves the most correct digits of Pi.",
+  "id": "A350843",
+  "mentions": [
+    "A000796",
+    "A096954",
+    "A096955",
+    "A350799"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

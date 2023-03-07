@@ -1,0 +1,18 @@
+{
+  "description": "T(n,k)=Number of nonnegative integer arrays of length n+2k+1 with new values 0 upwards introduced in order, no three adjacent elements all unequal, and containing the value k+1",
+  "id": "A211849",
+  "mentions": [
+    "A192136"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

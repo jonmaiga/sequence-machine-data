@@ -1,0 +1,25 @@
+{
+  "description": "Alternating sum of the fourth powers of the first n odd-indexed Fibonacci numbers.",
+  "id": "A203172",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A156089",
+    "A163202",
+    "A203169",
+    "A203170",
+    "A203171"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:10:56",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

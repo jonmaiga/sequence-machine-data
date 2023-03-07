@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form 5*n^2 - 5*n + 13.",
+  "id": "A320752",
+  "mentions": [
+    "A090562"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

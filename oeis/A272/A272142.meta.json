@@ -1,0 +1,20 @@
+{
+  "description": "Numbers such that the concatenation of their aliquot parts, in descending order, are prime numbers.",
+  "id": "A272142",
+  "mentions": [
+    "A176553",
+    "A272141"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of concave integer quadrilaterals (up to congruence) with integer side lengths a,b,c,d with n=Max(a,b,c,d) and integer diagonals e,f.",
+  "id": "A342720",
+  "mentions": [
+    "A340858",
+    "A342721"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

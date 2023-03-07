@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = C(A001359(n)), n >= 1, with C(n) = (4*((n-1)! + 1) + n)/(n*(n+2)) for n >= 2.",
+  "id": "A292691",
+  "mentions": [
+    "A000359",
+    "A001359",
+    "A007619",
+    "A014574"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

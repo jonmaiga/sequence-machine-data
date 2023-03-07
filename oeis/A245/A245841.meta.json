@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T read by rows: T(n,k) = Total number of odd parts in all partitions of n with at most k parts, 1 <= k <= n.",
+  "id": "A245841",
+  "mentions": [
+    "A066897",
+    "A245840",
+    "A245842",
+    "A245843"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

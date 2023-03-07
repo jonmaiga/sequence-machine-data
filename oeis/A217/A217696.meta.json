@@ -1,0 +1,21 @@
+{
+  "description": "Let p = A002145(n) be the n-th prime of the form 4k+3, then a(n) is the smallest number such that p is the smallest prime of the form 4k+3 for which 4*a(n)+2-p is prime.",
+  "id": "A217696",
+  "mentions": [
+    "A000040",
+    "A002145",
+    "A016825",
+    "A155642",
+    "A214834"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

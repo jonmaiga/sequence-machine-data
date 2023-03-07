@@ -1,0 +1,18 @@
+{
+  "description": "Ordered differences of numbers s(j)=(1/2)C(2j,j)).",
+  "id": "A205384",
+  "mentions": [
+    "A204892",
+    "A205386"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:16:19",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

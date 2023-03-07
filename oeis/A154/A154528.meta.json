@@ -1,0 +1,19 @@
+{
+  "description": "Composites k such that (smallest digit of k) + (multiplicity of smallest digit of k) is an even composite.",
+  "id": "A154528",
+  "mentions": [
+    "A002808",
+    "A054054"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

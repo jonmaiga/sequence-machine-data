@@ -1,0 +1,24 @@
+{
+  "description": "Array A(x,y): A(0,0), A(1,0), A(0,1), A(2,0), A(1,1), A(0,2), ... formed by growing a bud (a single V-node) on the y-th leaf of the binary tree A014486(x).",
+  "id": "A153250",
+  "mentions": [
+    "A002262",
+    "A014486",
+    "A025581",
+    "A072643",
+    "A080300",
+    "A153246",
+    "A153249"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

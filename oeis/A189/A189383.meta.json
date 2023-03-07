@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n + [n*s/r] + [n*t/r]; r=1, s=1/sqrt(2), t=1/sqrt(3).",
+  "id": "A189383",
+  "mentions": [
+    "A188386",
+    "A189361",
+    "A189384",
+    "A189385",
+    "A189386",
+    "A189395"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:50:57",
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

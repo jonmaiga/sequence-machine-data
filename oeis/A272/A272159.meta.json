@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that abs(8*k^2 - 488*k + 7243) is prime.",
+  "id": "A272159",
+  "mentions": [
+    "A005846",
+    "A007635",
+    "A007641",
+    "A048988",
+    "A050265",
+    "A050266",
+    "A050267",
+    "A050268",
+    "A271980",
+    "A272074",
+    "A272075",
+    "A272160"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

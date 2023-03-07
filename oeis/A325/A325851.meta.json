@@ -1,0 +1,27 @@
+{
+  "description": "Number of (strict) compositions of n whose differences of all degrees are nonzero.",
+  "id": "A325851",
+  "mentions": [
+    "A049988",
+    "A175342",
+    "A238423",
+    "A295370",
+    "A325328",
+    "A325545",
+    "A325850",
+    "A325852",
+    "A325874",
+    "A325875"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

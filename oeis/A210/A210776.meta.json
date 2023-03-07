@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of 2^n into powers of 2 less than or equal to 128.",
+  "id": "A210776",
+  "mentions": [
+    "A152977"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

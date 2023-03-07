@@ -1,0 +1,23 @@
+{
+  "description": "Row sums of an irregular triangle read by rows in which row n lists the next A026741(n+1) natural numbers A000027.",
+  "id": "A195309",
+  "mentions": [
+    "A000027",
+    "A001318",
+    "A004188",
+    "A026741",
+    "A195310",
+    "A195311"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:25:07",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

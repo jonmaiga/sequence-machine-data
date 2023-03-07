@@ -1,0 +1,19 @@
+{
+  "description": "Triangle a(n,m) = A039701(n) + A039701(m) - A039701(n)*A039701(m) read by rows.",
+  "id": "A118683",
+  "mentions": [
+    "A039701"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

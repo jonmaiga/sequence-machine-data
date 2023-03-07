@@ -1,0 +1,21 @@
+{
+  "description": "An increasing basis of order 3. See Comments for full definition.",
+  "id": "A152111",
+  "mentions": [
+    "A008932",
+    "A033045",
+    "A152112",
+    "A284116"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

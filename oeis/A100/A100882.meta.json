@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n in which the sequence of frequencies of the summands is nonincreasing.",
+  "id": "A100882",
+  "mentions": [
+    "A100881",
+    "A100883",
+    "A100884"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

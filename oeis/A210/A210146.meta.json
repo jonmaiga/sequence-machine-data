@@ -1,0 +1,20 @@
+{
+  "description": "Number of square fullerenes with 2n vertices.",
+  "id": "A210146",
+  "mentions": [
+    "A088534",
+    "A111361",
+    "A167227",
+    "A215622"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 4,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

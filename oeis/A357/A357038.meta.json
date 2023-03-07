@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that each of the four consecutive numbers starting at m is the product of 8 prime factors (counting with multiplicity).",
+  "id": "A357038",
+  "mentions": [
+    "A356893"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

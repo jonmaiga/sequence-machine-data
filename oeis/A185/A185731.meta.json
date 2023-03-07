@@ -1,0 +1,20 @@
+{
+  "description": "Array by antidiagonals: T(n,k)=F*(k*n-n+3*k+13), where F = k*(k+1)*(k+2)*n*(n+1)*(n+2)/576.",
+  "id": "A185731",
+  "mentions": [
+    "A144112",
+    "A185730"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:28:43",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

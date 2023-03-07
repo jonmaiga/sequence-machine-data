@@ -1,0 +1,21 @@
+{
+  "description": "Larger of semi-unitary amicable numbers pair: numbers (m, n) such that susigma(m) = susigma(n) = m + n, where susigma(n) is the sum of the semi-unitary divisors of n (A322485).",
+  "id": "A322542",
+  "mentions": [
+    "A002025",
+    "A002952",
+    "A322485",
+    "A322486",
+    "A322541"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

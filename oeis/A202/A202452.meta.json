@@ -1,0 +1,23 @@
+{
+  "description": "Lower triangular Fibonacci matrix, by SW antidiagonals.",
+  "id": "A202452",
+  "mentions": [
+    "A000045",
+    "A188516",
+    "A202451",
+    "A202453",
+    "A202462"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:35:53",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

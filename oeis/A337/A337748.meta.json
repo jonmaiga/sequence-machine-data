@@ -1,0 +1,20 @@
+{
+  "description": "T(m,n) is the least k such that the partial sum of the series Sum_{j=0..k} 1/(m*j+1) is > n, read by ascending antidiagonals.",
+  "id": "A337748",
+  "mentions": [
+    "A002387",
+    "A092315"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

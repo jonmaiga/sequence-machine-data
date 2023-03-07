@@ -1,0 +1,20 @@
+{
+  "description": "Least integer k in A031443 such that k*n is also in A031443, or -1 if there is no such k.",
+  "id": "A358857",
+  "mentions": [
+    "A031443",
+    "A358858"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

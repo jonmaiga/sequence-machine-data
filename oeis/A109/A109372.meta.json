@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k * (sum of the digits of k raised to their own power) + 1 is prime.",
+  "id": "A109372",
+  "mentions": [
+    "A045503"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

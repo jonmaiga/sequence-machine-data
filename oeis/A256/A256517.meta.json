@@ -1,0 +1,23 @@
+{
+  "description": "Let c be the n-th composite number. Then a(n) is the smallest base b > 1 such that b^(c-1) == 1 (mod c^2), i.e., such that c is a 'Wieferich pseudoprime'.",
+  "id": "A256517",
+  "mentions": [
+    "A002808",
+    "A039678",
+    "A185103",
+    "A242742",
+    "A244752",
+    "A255885"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

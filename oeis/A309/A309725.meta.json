@@ -1,0 +1,20 @@
+{
+  "description": "Number of set partitions of {1,2,...,3n} with sizes in {[n, n, n], [2n, n], [3n]}.",
+  "id": "A309725",
+  "mentions": [
+    "A260876",
+    "A260878",
+    "A326998"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

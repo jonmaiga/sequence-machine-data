@@ -1,0 +1,17 @@
+{
+  "description": "Row sums of triangular matrix A105540, in which column n equals A105540^(n+1) when flattened as read by rows.",
+  "id": "A105541",
+  "mentions": [
+    "A105540"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

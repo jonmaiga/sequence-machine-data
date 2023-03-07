@@ -1,0 +1,24 @@
+{
+  "description": "Squares visited on a spirally numbered board when stepping to the closest unvisited square that contains a number that shares one or more digits with the number of the current square. If two or more such squares are the same distance away the one with the smaller number is chosen.",
+  "id": "A344367",
+  "mentions": [
+    "A067581",
+    "A174344",
+    "A274923",
+    "A296030",
+    "A330979",
+    "A332767",
+    "A343530"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

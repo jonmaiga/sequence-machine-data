@@ -1,0 +1,24 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) (m>=1, n>=1) = number of simple interior vertices in figure formed by taking m equally spaced points on a line and n equally spaced points on a parallel line, and joining each of the m points to each of the n points by a line segment.",
+  "id": "A335682",
+  "mentions": [
+    "A306302",
+    "A331755",
+    "A334701",
+    "A335678",
+    "A335679",
+    "A335680",
+    "A335681"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

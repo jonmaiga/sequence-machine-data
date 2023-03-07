@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of a constant related to A088716.",
+  "id": "A238223",
+  "mentions": [
+    "A088715",
+    "A088716",
+    "A156326",
+    "A158884",
+    "A159606",
+    "A182962",
+    "A193332",
+    "A338377"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

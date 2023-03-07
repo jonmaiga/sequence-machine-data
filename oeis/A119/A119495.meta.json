@@ -1,0 +1,18 @@
+{
+  "description": "Number of bi-secondary structures of size N.",
+  "id": "A119495",
+  "mentions": [
+    "A004148"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

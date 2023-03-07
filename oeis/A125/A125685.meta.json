@@ -1,0 +1,19 @@
+{
+  "description": "Primes in A125683(n) = numerator[ Sum[ (-1)^(k+1) * 1/(k(k+1)), {k,1,n} ].",
+  "id": "A125685",
+  "mentions": [
+    "A125683",
+    "A125684"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

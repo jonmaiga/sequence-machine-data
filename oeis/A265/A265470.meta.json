@@ -1,0 +1,17 @@
+{
+  "description": "Number of 5Xn 0..5+n-2 arrays with upper left zero and lower right 5+n-2 and each element differing from its horizontal and antidiagonal neighbors by one or two.",
+  "id": "A265470",
+  "mentions": [
+    "A265466"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

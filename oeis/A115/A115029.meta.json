@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n such that all parts, with the possible exception of the smallest, appear only once.",
+  "id": "A115029",
+  "mentions": [
+    "A034296"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

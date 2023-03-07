@@ -1,0 +1,23 @@
+{
+  "description": "Numerators of the sequence whose Dirichlet convolution with itself yields A068068, number of odd unitary divisors of n.",
+  "id": "A318313",
+  "mentions": [
+    "A068068",
+    "A317937",
+    "A318314",
+    "A318453"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "frac",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

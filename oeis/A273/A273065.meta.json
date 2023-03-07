@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the negative reciprocal of the real root of x^3 - 2x + 2.",
+  "id": "A273065",
+  "mentions": [
+    "A273066",
+    "A273067",
+    "A357109"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:16:43",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

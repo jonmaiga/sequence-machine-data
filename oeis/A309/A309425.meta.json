@@ -1,0 +1,21 @@
+{
+  "description": "Difference x-y of generator pairs (x,y) {x and y coprime and not both odd, x > y} of primitive Pythagorean triangles, sorted by x and y (for same x).",
+  "id": "A309425",
+  "mentions": [
+    "A094192",
+    "A094193",
+    "A126637",
+    "A309424"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

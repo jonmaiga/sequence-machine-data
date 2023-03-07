@@ -1,0 +1,18 @@
+{
+  "description": "Vandermonde sequence using x^2 - xy + y^2 applied to the first n primes.",
+  "id": "A203705",
+  "mentions": [
+    "A093883",
+    "A203706"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:05:59",
+    "offset": 1,
+    "size": 8,
+    "source": "joeis"
+  }
+}

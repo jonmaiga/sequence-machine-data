@@ -1,0 +1,19 @@
+{
+  "description": "Curvature of the circles (rounded down) inscribed in golden triangle arranged as spiral form.",
+  "id": "A228560",
+  "mentions": [
+    "A001521",
+    "A014217",
+    "A065565"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

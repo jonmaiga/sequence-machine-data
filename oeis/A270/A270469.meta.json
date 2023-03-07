@@ -1,0 +1,24 @@
+{
+  "description": "Number of ordered ways to write n = x^3 + y*(y+1) + z*(3*z+2), where x and y are nonnegative integers and z is a nonzero integer.",
+  "id": "A270469",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A000578",
+    "A001082",
+    "A002378",
+    "A262813",
+    "A262815",
+    "A262816"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:33",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

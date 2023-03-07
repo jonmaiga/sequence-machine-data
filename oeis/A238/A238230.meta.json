@@ -1,0 +1,23 @@
+{
+  "description": "Numbers m such that if x = sigma(m)-phi(m)-tau(m)-m then m = sigma(x)-phi(x)-tau(x)-x.",
+  "id": "A238230",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203",
+    "A055971",
+    "A238225",
+    "A238229"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) is the number of (undirected) Hamiltonian paths in the m X n king graph.",
+  "id": "A350729",
+  "mentions": [
+    "A000012",
+    "A272445",
+    "A307026",
+    "A308129",
+    "A329118",
+    "A339098",
+    "A339190",
+    "A339760",
+    "A339761",
+    "A339762",
+    "A339763"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

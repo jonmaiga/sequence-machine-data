@@ -1,0 +1,20 @@
+{
+  "description": "Alternating Jacobsthal triangle A_{-2}(n,k) read by rows.",
+  "id": "A279009",
+  "mentions": [
+    "A112468",
+    "A279006",
+    "A279010"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

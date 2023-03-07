@@ -1,0 +1,25 @@
+{
+  "description": "6-quantum transitions in systems of N >= 6 spin 1/2 particles, in columns by combination indices.",
+  "id": "A213348",
+  "mentions": [
+    "A002409",
+    "A004312",
+    "A051288",
+    "A213343",
+    "A213347",
+    "A213349",
+    "A213352"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 6,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

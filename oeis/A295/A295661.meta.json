@@ -1,0 +1,22 @@
+{
+  "description": "Numbers with at least one odd exponent larger than one in their prime factorization.",
+  "id": "A295661",
+  "mentions": [
+    "A046099",
+    "A060476",
+    "A065465",
+    "A295662",
+    "A295663",
+    "A335275"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

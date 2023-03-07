@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 8^n + 5 is prime.",
+  "id": "A217355",
+  "mentions": [
+    "A059242",
+    "A217354"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

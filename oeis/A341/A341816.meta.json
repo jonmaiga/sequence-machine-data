@@ -1,0 +1,18 @@
+{
+  "description": "The a(n)-th digit of the sequence is present in a(n+1). Lexicographically earliest sequence of distinct terms > 0 with this property.",
+  "id": "A341816",
+  "mentions": [
+    "A000027"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

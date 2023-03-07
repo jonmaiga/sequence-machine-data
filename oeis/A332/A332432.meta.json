@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = [2^n/(1 - cos(1/n))] - [2^n/(-1 + cot(1/n))], where [ ] = floor.",
+  "id": "A332432",
+  "mentions": [
+    "A332430",
+    "A332431",
+    "A332433",
+    "A332479",
+    "A333186"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:51:04",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k, not ending in 0, such that the consecutive digits of k^2 differ by 0 or 1.",
+  "id": "A284046",
+  "mentions": [
+    "A032981",
+    "A048412",
+    "A079036"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

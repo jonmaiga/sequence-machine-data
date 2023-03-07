@@ -1,0 +1,28 @@
+{
+  "description": "Numbers whose average binary index is also a binary index.",
+  "id": "A327478",
+  "mentions": [
+    "A000016",
+    "A000120",
+    "A029931",
+    "A048793",
+    "A065795",
+    "A070939",
+    "A237984",
+    "A240850",
+    "A326669",
+    "A327473",
+    "A327474",
+    "A327481"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

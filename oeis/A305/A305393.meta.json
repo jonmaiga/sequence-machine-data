@@ -1,0 +1,28 @@
+{
+  "description": "First differences of A140102.",
+  "id": "A305393",
+  "mentions": [
+    "A080843",
+    "A092782",
+    "A140100",
+    "A140101",
+    "A140102",
+    "A140103",
+    "A275925",
+    "A293630",
+    "A305374",
+    "A305392",
+    "A305394"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

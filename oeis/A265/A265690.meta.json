@@ -1,0 +1,20 @@
+{
+  "description": "Cardinality of shortest addition chain for n.",
+  "id": "A265690",
+  "mentions": [
+    "A003313",
+    "A265691",
+    "A265692"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

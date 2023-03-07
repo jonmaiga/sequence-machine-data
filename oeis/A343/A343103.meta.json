@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the sum of the number of times each digit in n (taken with repetition) has appeared in the sequence.",
+  "id": "A343103",
+  "mentions": [
+    "A004207",
+    "A309261",
+    "A326834",
+    "A331162",
+    "A343102"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

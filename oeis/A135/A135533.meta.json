@@ -1,0 +1,22 @@
+{
+  "description": "Guy Steele's sequence GS(4,6) (see A135416).",
+  "id": "A135533",
+  "mentions": [
+    "A000120",
+    "A000523",
+    "A135416",
+    "A135586"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

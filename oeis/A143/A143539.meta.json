@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to express 2n-1 as p+2a^2; p prime, a > 0.",
+  "id": "A143539",
+  "mentions": [
+    "A046921",
+    "A046923",
+    "A060003"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

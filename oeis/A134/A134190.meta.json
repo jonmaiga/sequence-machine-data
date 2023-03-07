@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=1. a(n) = n*a(n-1) if n*a(n-1) has a fewer number of divisors than n+a(n-1) does. a(n) = n+a(n-1) if n*a(n-1) has a greater or equal number of divisors than n+a(n-1) does.",
+  "id": "A134190",
+  "mentions": [
+    "A134189"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

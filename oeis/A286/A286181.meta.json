@@ -1,0 +1,24 @@
+{
+  "description": "Lesser of Wilson's pseudo-twin primes: primes p such that p! == 1 (mod q), where q=A151800(p) is the next prime after p, and q-p>2.",
+  "id": "A286181",
+  "mentions": [
+    "A001359",
+    "A033312",
+    "A151800",
+    "A275111",
+    "A286208",
+    "A286230"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

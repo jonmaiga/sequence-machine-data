@@ -1,0 +1,20 @@
+{
+  "description": "After a(0)=0, each n occurs A261229(n) times.",
+  "id": "A276611",
+  "mentions": [
+    "A261228",
+    "A261229",
+    "A276612",
+    "A276613"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 110,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "T(n,k) is the k-th partition of n in graded reverse lexicographic ordering (A080577) encoded as concatenation of parts which are represented in (zeroless) bijective base-9 numeration (A052382) and separated by zeros; triangle T(n,k), n >= 0, 1 <= k <= A000041(n), read by rows.",
+  "id": "A332567",
+  "mentions": [
+    "A000041",
+    "A052382",
+    "A063008",
+    "A080577",
+    "A094028",
+    "A129129",
+    "A322761"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

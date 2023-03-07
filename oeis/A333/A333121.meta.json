@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1; a(n+1) = Product_{d|n} (1 + a(d)).",
+  "id": "A333121",
+  "mentions": [
+    "A007018",
+    "A020696",
+    "A066843",
+    "A068334"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

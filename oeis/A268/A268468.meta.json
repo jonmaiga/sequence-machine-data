@@ -1,0 +1,22 @@
+{
+  "description": "Least k starting a chain or (2n+1)-tuple of consecutive integers {h(k+i)}, i=0,1,...,2n (excluding the trivial chain when h(k) = h(k+1) = ... = h(k+2n)) with symmetrical gaps about the center, where h(k) is the length of the finite set {k, f(k), f(f(k)),...,1} in the Collatz (or 3x + 1) problem.",
+  "id": "A268468",
+  "mentions": [
+    "A006577",
+    "A078441",
+    "A268253",
+    "A268268",
+    "A268288"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

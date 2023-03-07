@@ -1,0 +1,25 @@
+{
+  "description": "Numbers with not more than two distinct digits in ternary representation.",
+  "id": "A154314",
+  "mentions": [
+    "A005823",
+    "A005836",
+    "A007089",
+    "A031944",
+    "A032924",
+    "A043530",
+    "A212193"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

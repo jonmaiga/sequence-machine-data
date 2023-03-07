@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose square starts with exactly 4 identical digits.",
+  "id": "A346940",
+  "mentions": [
+    "A131573",
+    "A132391",
+    "A346812",
+    "A346891",
+    "A346941",
+    "A346942"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least base b >= 2 where the sum of digits of n is a prime number.",
+  "id": "A355034",
+  "mentions": [
+    "A052294",
+    "A216789",
+    "A355035"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

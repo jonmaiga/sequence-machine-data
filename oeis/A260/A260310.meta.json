@@ -1,0 +1,19 @@
+{
+  "description": "Pairs with balanced sums of prime divisors (A008472) and inverse prime divisors (A069359), ordered by larger members.",
+  "id": "A260310",
+  "mentions": [
+    "A001222",
+    "A008472",
+    "A069359"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Riordan array (A000045(x), x*A005043(x)).",
+  "id": "A185813",
+  "mentions": [
+    "A000045",
+    "A005043"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

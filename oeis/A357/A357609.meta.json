@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k, k+1, and k+2 are all in A357605.",
+  "id": "A357609",
+  "mentions": [
+    "A013929",
+    "A096536",
+    "A162296",
+    "A357605",
+    "A357608"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

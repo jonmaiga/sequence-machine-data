@@ -1,0 +1,22 @@
+{
+  "description": "List of minimal forbidden subwords of the Fibonacci word A003482.",
+  "id": "A214216",
+  "mentions": [
+    "A003482",
+    "A003842",
+    "A106750",
+    "A213975",
+    "A214217"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of non-congruent Heronian triangles with base length n whose apex lies on or within a space bounded by a semicircle of diameter n.",
+  "id": "A236533",
+  "mentions": [
+    "A236384"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

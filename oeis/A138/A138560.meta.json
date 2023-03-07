@@ -1,0 +1,18 @@
+{
+  "description": "Number of \"squashed-tree\" graphs with n central nodes, the labeled case, not allowing the direct link between L and R.",
+  "id": "A138560",
+  "mentions": [
+    "A138562"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

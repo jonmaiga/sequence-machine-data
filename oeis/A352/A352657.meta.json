@@ -1,0 +1,24 @@
+{
+  "description": "The number of lozenge tilings of a semiregular hexagon of side lengths n, n, 3*n, n, n and 3*n; equivalently, the number of plane partitions whose solid Young diagram fits inside an n X n X 3*n box.",
+  "id": "A352657",
+  "mentions": [
+    "A000178",
+    "A005810",
+    "A008793",
+    "A074962",
+    "A352656"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Index of occurrence of n in A119018, or 0 if n is not present in A119018.",
+  "id": "A119019",
+  "mentions": [
+    "A119018"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

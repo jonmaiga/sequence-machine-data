@@ -1,0 +1,20 @@
+{
+  "description": "Array x read by diagonals, where x(i,j) = floor((T(i,j-1)+T(i,j+1))/2) for i>=0 and j>=0. Here T is Wythoff's array A035513.",
+  "id": "A125512",
+  "mentions": [
+    "A022344",
+    "A035513"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

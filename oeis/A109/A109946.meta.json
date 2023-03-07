@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime starting a complete two iterations Cunningham chain of the first and second kind.",
+  "id": "A109946",
+  "mentions": [
+    "A057326",
+    "A059762"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Restricted growth sequence transform of A291763, formed from 2-digits in ternary representation of A291763(n).",
+  "id": "A305298",
+  "mentions": [
+    "A003961",
+    "A048673",
+    "A245612",
+    "A254049",
+    "A289814",
+    "A291763",
+    "A292262",
+    "A304746",
+    "A304748",
+    "A305296",
+    "A305297",
+    "A305432"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

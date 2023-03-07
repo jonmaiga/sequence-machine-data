@@ -1,0 +1,29 @@
+{
+  "description": "Heinz numbers of integer partitions whose differences are weakly decreasing.",
+  "id": "A325361",
+  "mentions": [
+    "A056239",
+    "A112798",
+    "A320466",
+    "A320509",
+    "A325325",
+    "A325328",
+    "A325352",
+    "A325360",
+    "A325364",
+    "A325368",
+    "A325389",
+    "A325456",
+    "A325457"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

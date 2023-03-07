@@ -1,0 +1,22 @@
+{
+  "description": "Primes in enhanced squares representation, cf. A256913.",
+  "id": "A257053",
+  "mentions": [
+    "A000040",
+    "A065730",
+    "A256913",
+    "A257070",
+    "A257071"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

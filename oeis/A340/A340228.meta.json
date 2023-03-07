@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the sum of the lengths of all the segments used to draw a rectangle of height 2^(n-1) and width n divided into 2^(n-1) rectangles of unit height, in turn, divided into rectangles of unit height and lengths corresponding to the parts of the compositions of n.",
+  "id": "A340228",
+  "mentions": [
+    "A000079",
+    "A001792",
+    "A006127",
+    "A011782",
+    "A045623",
+    "A053220",
+    "A188626",
+    "A215149",
+    "A228525",
+    "A338969"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:29:09",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

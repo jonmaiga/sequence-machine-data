@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest tribonacci number (A000073) with exactly n prime factors (counted with multiplicity).",
+  "id": "A359876",
+  "mentions": [
+    "A000073",
+    "A001222",
+    "A072397",
+    "A359848",
+    "A359877",
+    "A359878"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

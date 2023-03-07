@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers n such that the concatenation of the digits of the prime divisors of n is a prime number.",
+  "id": "A209799",
+  "mentions": [
+    "A000040",
+    "A084317",
+    "A084318"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

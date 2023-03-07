@@ -1,0 +1,18 @@
+{
+  "description": "The smallest of three consecutive primes p1 < p2 < p3, where p2-p1, p3-p2, and p3-p1 are all perfect squares.",
+  "id": "A161533",
+  "mentions": [
+    "A138198",
+    "A161002"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

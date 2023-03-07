@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of partial functions on [n] with index k, n=0 implies k=1, otherwise n >= 1, 1 <= k <= n.",
+  "id": "A341093",
+  "mentions": [
+    "A000169",
+    "A072597"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

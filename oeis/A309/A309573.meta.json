@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the sum of lattice points enumerated by the square number spiral falling on the circumference of circles centered at the origin of radii n.",
+  "id": "A309573",
+  "mentions": [
+    "A001107",
+    "A002144",
+    "A007742",
+    "A016802",
+    "A033954",
+    "A033991",
+    "A046109",
+    "A277699",
+    "A317186"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

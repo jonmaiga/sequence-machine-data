@@ -1,0 +1,22 @@
+{
+  "description": "Number of inequivalent ways to color the edges of a tetrahedron using at most n colors so that no color appears more than twice.",
+  "id": "A282820",
+  "mentions": [
+    "A046023",
+    "A282817",
+    "A282818",
+    "A282819"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:41:21",
+    "offset": 0,
+    "size": 33,
+    "source": "joeis"
+  }
+}

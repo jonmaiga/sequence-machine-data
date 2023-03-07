@@ -1,0 +1,25 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 1, a(A179016(1+n)) = 2*a(n), a(A213713(n)) = 1 + 2*a(n), where A179016 is the infinite trunk of binary beanstalk and A213713 is its complement.",
+  "id": "A269401",
+  "mentions": [
+    "A179016",
+    "A213713",
+    "A213719",
+    "A269371",
+    "A269391",
+    "A269398",
+    "A269402"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

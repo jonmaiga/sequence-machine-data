@@ -1,0 +1,21 @@
+{
+  "description": "Partial sums of A244992: a(1) = 0, and for n >= 1, a(n) = A244992(n) + a(n-1); Inverse function for A244991.",
+  "id": "A244989",
+  "mentions": [
+    "A244321",
+    "A244988",
+    "A244991",
+    "A244992"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

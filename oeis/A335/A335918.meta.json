@@ -1,0 +1,36 @@
+{
+  "description": "Decimal expansion of Sum_{m>=1} 1/(1/4 + z(m)^2)^2 where z(m) is the imaginary part of the m-th nontrivial zero of the Riemann zeta function.",
+  "id": "A335918",
+  "mentions": [
+    "A001620",
+    "A013629",
+    "A074760",
+    "A082633",
+    "A104539",
+    "A104540",
+    "A104541",
+    "A104542",
+    "A245275",
+    "A245276",
+    "A306339",
+    "A306340",
+    "A306341",
+    "A332614",
+    "A332645",
+    "A333360",
+    "A335814",
+    "A335815"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 109,
+    "source": "oeis-entry"
+  }
+}

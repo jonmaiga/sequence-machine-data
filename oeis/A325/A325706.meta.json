@@ -1,0 +1,30 @@
+{
+  "description": "Heinz numbers of integer partitions containing all of their distinct multiplicities.",
+  "id": "A325706",
+  "mentions": [
+    "A056239",
+    "A109297",
+    "A112798",
+    "A114639",
+    "A114640",
+    "A181819",
+    "A225486",
+    "A290689",
+    "A324753",
+    "A324843",
+    "A325702",
+    "A325705",
+    "A325707",
+    "A325755"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

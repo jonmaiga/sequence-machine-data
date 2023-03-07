@@ -1,0 +1,23 @@
+{
+  "description": "Number of proper divisors of the Fibonacci number A000045(n).",
+  "id": "A152774",
+  "mentions": [
+    "A000005",
+    "A000045",
+    "A032741",
+    "A063375",
+    "A074283",
+    "A152990"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

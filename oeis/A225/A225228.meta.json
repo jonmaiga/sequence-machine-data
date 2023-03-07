@@ -1,0 +1,28 @@
+{
+  "description": "Numbers with prime signatures (1,1,1) or (2,2,1) or (3,2,2).",
+  "id": "A225228",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A007304",
+    "A033992",
+    "A050326",
+    "A051903",
+    "A051904",
+    "A124010",
+    "A179643",
+    "A179695",
+    "A206778"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Sum of digits of 17^n.",
+  "id": "A227881",
+  "mentions": [
+    "A001026",
+    "A007953",
+    "A227871"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

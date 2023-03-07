@@ -1,0 +1,35 @@
+{
+  "description": "Number of distinct nonempty subsequences (not necessarily contiguous) in the n-th composition in standard order (A066099).",
+  "id": "A334300",
+  "mentions": [
+    "A000120",
+    "A011782",
+    "A029931",
+    "A048793",
+    "A066099",
+    "A070939",
+    "A108917",
+    "A124770",
+    "A124771",
+    "A325676",
+    "A333222",
+    "A333223",
+    "A333224",
+    "A333257",
+    "A334299",
+    "A334967",
+    "A334968"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

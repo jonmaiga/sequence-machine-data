@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..n} Stirling2(n,k)^n.",
+  "id": "A345041",
+  "mentions": [
+    "A000110",
+    "A008277",
+    "A047797",
+    "A048993",
+    "A167010",
+    "A345040"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Signature permutation of a Catalan automorphism: composition of automorphisms *A074684 and *A057164.",
+  "id": "A130921",
+  "mentions": [
+    "A057164",
+    "A074684",
+    "A086425",
+    "A130922"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

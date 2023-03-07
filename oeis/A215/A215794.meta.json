@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = -7^n*A(2*n+1), where A(n) = A(n-1) + A(n-2) + A(n-3)/7, with A(0)=3, A(1)=1, A(2)=3.",
+  "id": "A215794",
+  "mentions": [
+    "A108716",
+    "A215575",
+    "A215828",
+    "A275195"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

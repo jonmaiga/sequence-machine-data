@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = ceiling(A173497(n)/2).",
+  "id": "A173508",
+  "mentions": [
+    "A000032",
+    "A064323",
+    "A173497"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

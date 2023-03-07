@@ -1,0 +1,22 @@
+{
+  "description": "Nonlinear recurrence: a(n) = a(n-1) + (a(n-1)+1)*Product_{j=1..n-2} a(j).",
+  "id": "A213437",
+  "mentions": [
+    "A001699",
+    "A003095",
+    "A076949",
+    "A214635",
+    "A214636"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 9,
+    "source": "joeis"
+  }
+}

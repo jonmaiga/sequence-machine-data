@@ -1,0 +1,29 @@
+{
+  "description": "Multiply n by its largest prime factor: a(n) = A006530(n) * n.",
+  "id": "A253560",
+  "mentions": [
+    "A000040",
+    "A006530",
+    "A052126",
+    "A061395",
+    "A070003",
+    "A072995",
+    "A122111",
+    "A129598",
+    "A253550",
+    "A253561",
+    "A253563",
+    "A253565"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

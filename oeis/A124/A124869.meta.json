@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of real part of (2*omega)^(-n) where omega = (-1 + i*3)/ 2.",
+  "id": "A124869",
+  "mentions": [
+    "A124870",
+    "A124871",
+    "A124872"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

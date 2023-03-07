@@ -1,0 +1,30 @@
+{
+  "description": "Decimal expansion of negated tangent of the golden ratio. That is, the decimal expansion of -tan((1+sqrt(5))/2).",
+  "id": "A139347",
+  "mentions": [
+    "A001622",
+    "A002390",
+    "A094214",
+    "A098317",
+    "A104457",
+    "A139339",
+    "A139340",
+    "A139341",
+    "A139342",
+    "A139345",
+    "A139346",
+    "A139348"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:41",
+    "offset": 2,
+    "size": 105,
+    "source": "joeis"
+  }
+}

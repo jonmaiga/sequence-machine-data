@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 1/(1-12*x+48*x^2)^(1/2).",
+  "id": "A258723",
+  "mentions": [
+    "A144535",
+    "A144536",
+    "A240880"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

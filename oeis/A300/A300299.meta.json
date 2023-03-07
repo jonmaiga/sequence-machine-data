@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of r(n) := Sum_{k=0..n-1} 1/Product_{j=0..4} (k + j + 1), for n >= 0, with r(0) = 0.",
+  "id": "A300299",
+  "mentions": [
+    "A300298"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

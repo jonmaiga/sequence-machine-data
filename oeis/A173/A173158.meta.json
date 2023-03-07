@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of x such that x^x=3.",
+  "id": "A173158",
+  "mentions": [
+    "A030798"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

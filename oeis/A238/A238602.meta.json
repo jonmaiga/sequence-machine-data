@@ -1,0 +1,23 @@
+{
+  "description": "A sixth-order linear divisibility sequence related to the Pell numbers: a(n) := (1/60)*Pell(3*n)*Pell(4*n)/Pell(n).",
+  "id": "A238602",
+  "mentions": [
+    "A000129",
+    "A238536",
+    "A238600",
+    "A238601",
+    "A238603"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

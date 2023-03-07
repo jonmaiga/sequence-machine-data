@@ -1,0 +1,19 @@
+{
+  "description": "The largest Armstrong number 115132219018763992565095597973971522401 written in base 2.",
+  "id": "A176330",
+  "mentions": [
+    "A005188"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 127,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

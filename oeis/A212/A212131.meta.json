@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of k such that e^(k*sqrt(163)) = round(e^(Pi*sqrt(163))).",
+  "id": "A212131",
+  "mentions": [
+    "A000796",
+    "A003173",
+    "A019297",
+    "A060295",
+    "A080283",
+    "A102912",
+    "A160514",
+    "A160515",
+    "A181045"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:00",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

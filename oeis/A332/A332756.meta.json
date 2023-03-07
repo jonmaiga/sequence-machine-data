@@ -1,0 +1,23 @@
+{
+  "description": "A loop sequence within Pi. Let a(1) = 19. For n > 1, a(n+1) is the position of the first occurrence of a(n) after the decimal point in the decimal expansion of Pi.",
+  "id": "A332756",
+  "mentions": [
+    "A000796",
+    "A057680",
+    "A097614",
+    "A247345"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:58:07",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

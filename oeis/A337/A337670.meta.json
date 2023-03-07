@@ -1,0 +1,33 @@
+{
+  "description": "Numbers that can be expressed as both Sum x^y and Sum y^x where the x^y are not equal to y^x for any (x,y) pair and all (x,y) pairs are distinct.",
+  "id": "A337670",
+  "mentions": [
+    "A001597",
+    "A005188",
+    "A024012",
+    "A024026",
+    "A024040",
+    "A024054",
+    "A024068",
+    "A024082",
+    "A024096",
+    "A024110",
+    "A024124",
+    "A024138",
+    "A024152",
+    "A045575",
+    "A072103",
+    "A271936",
+    "A337671"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

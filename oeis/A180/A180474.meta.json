@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that p^5 + p^3 + 1 is a prime.",
+  "id": "A180474",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

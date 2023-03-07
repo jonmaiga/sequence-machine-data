@@ -1,0 +1,33 @@
+{
+  "description": "Positive integers with an even number of prime factors (counting repetitions) that sum to an even number.",
+  "id": "A345452",
+  "mentions": [
+    "A001222",
+    "A001248",
+    "A001414",
+    "A003159",
+    "A003961",
+    "A006094",
+    "A028260",
+    "A036349",
+    "A046315",
+    "A046337",
+    "A056913",
+    "A059897",
+    "A072978",
+    "A206284",
+    "A307150"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

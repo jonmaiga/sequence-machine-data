@@ -1,0 +1,21 @@
+{
+  "description": "Determinant of n-th continuous block of 4 consecutive composites.",
+  "id": "A118877",
+  "mentions": [
+    "A002808",
+    "A117301",
+    "A118780"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

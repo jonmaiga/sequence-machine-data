@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows, T(n,k) = Sum_{j=0..n} C(-j,-n)*E1(j,k), E1 the Eulerian numbers A173018, for n>=0 and 0<=k<=n.",
+  "id": "A271698",
+  "mentions": [
+    "A000255",
+    "A005803",
+    "A028296",
+    "A145654",
+    "A173018"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

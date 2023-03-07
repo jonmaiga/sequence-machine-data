@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(s,d) read by rows: the number of 2-connected labeled cubic graphs with s simple edges and d double edges.",
+  "id": "A322379",
+  "mentions": [
+    "A007099",
+    "A009445"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

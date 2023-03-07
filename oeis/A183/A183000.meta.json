@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the integer c^3 where c = 299792458 is the exact speed of light in vacuum (m/s).",
+  "id": "A183000",
+  "mentions": [
+    "A003678",
+    "A078300",
+    "A182999"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:13:15",
+    "offset": 26,
+    "size": 26,
+    "source": "joeis"
+  }
+}

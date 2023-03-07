@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of e.g.f. 2/(1 + sqrt(1 - 4*x*cos(x))).",
+  "id": "A295255",
+  "mentions": [
+    "A000108",
+    "A196605",
+    "A295237",
+    "A295254",
+    "A295256",
+    "A295257",
+    "A295258"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:42:36",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

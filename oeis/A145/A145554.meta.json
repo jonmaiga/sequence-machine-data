@@ -1,0 +1,17 @@
+{
+  "description": "\"Compact\" numbers that are neither prime nor a square of a prime; see reference for definition.",
+  "id": "A145554",
+  "mentions": [
+    "A070566"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

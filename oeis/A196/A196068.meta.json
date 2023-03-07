@@ -1,0 +1,22 @@
+{
+  "description": "Visitation length of the rooted tree with Matula-Goebel number n.",
+  "id": "A196068",
+  "mentions": [
+    "A020639",
+    "A049084",
+    "A061775",
+    "A196046",
+    "A196047"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

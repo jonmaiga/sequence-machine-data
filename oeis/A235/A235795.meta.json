@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows T(n,k) in which row n gives the trajectory of n in Collatz problem including the trajectory [1, 4, 2, 1] for n = 1.",
+  "id": "A235795",
+  "mentions": [
+    "A000079",
+    "A006370",
+    "A014682",
+    "A070165",
+    "A235800",
+    "A235801",
+    "A347270"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

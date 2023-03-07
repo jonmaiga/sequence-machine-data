@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = n^2 if n odd, 3*n^2/4 if n even.",
+  "id": "A308422",
+  "mentions": [
+    "A000290",
+    "A007434",
+    "A016754",
+    "A026741",
+    "A033428",
+    "A076577",
+    "A308418"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Natural numbers not in A236019.",
+  "id": "A236444",
+  "mentions": [
+    "A236019"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

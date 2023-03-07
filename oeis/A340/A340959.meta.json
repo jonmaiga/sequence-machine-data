@@ -1,0 +1,23 @@
+{
+  "description": "Table read by antidiagonals of the smallest prime >= n^k, n >= 1 and k >= 0.",
+  "id": "A340959",
+  "mentions": [
+    "A104080",
+    "A104081",
+    "A104082",
+    "A104083",
+    "A104084"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:20",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of distinct numbers of transversals of order n Latin squares.",
+  "id": "A309344",
+  "mentions": [
+    "A301371",
+    "A308853",
+    "A309088"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

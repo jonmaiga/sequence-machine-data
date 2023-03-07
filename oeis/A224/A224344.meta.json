@@ -1,0 +1,29 @@
+{
+  "description": "Number T(n,k) of compositions of n using exactly k primes (counted with multiplicity); triangle T(n,k), n>=0, 0<=k<=floor(n/2), read by rows.",
+  "id": "A224344",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A001844",
+    "A004526",
+    "A008619",
+    "A011782",
+    "A052284",
+    "A093178",
+    "A102291",
+    "A121303",
+    "A222656"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

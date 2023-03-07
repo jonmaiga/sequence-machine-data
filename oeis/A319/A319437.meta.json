@@ -1,0 +1,29 @@
+{
+  "description": "Number of series-reduced palindromic plane trees with n nodes.",
+  "id": "A319437",
+  "mentions": [
+    "A000108",
+    "A000670",
+    "A001003",
+    "A005043",
+    "A008965",
+    "A025065",
+    "A118376",
+    "A242414",
+    "A317085",
+    "A317086",
+    "A317087",
+    "A319122",
+    "A319436"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

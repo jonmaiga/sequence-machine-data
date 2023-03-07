@@ -1,0 +1,27 @@
+{
+  "description": "Minimal permanent of an n X n symmetric matrix using the integers 1 to n*(n + 1)/2.",
+  "id": "A351610",
+  "mentions": [
+    "A000217",
+    "A350565",
+    "A350858",
+    "A350937",
+    "A350939",
+    "A351019",
+    "A351021",
+    "A351153",
+    "A351611"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

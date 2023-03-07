@@ -1,0 +1,43 @@
+{
+  "description": "Triangle read by rows: T(j,k) is the k-th part in nondecreasing order of the j-th region of the set of compositions (ordered partitions) of n in colexicographic order, if 1<=j<=2^(n-1) and 1<=k<=A006519(j).",
+  "id": "A228349",
+  "mentions": [
+    "A001511",
+    "A001787",
+    "A001792",
+    "A006519",
+    "A011782",
+    "A029837",
+    "A038712",
+    "A045623",
+    "A065120",
+    "A070939",
+    "A090996",
+    "A186114",
+    "A187816",
+    "A187818",
+    "A206437",
+    "A220482",
+    "A228347",
+    "A228348",
+    "A228350",
+    "A228351",
+    "A228366",
+    "A228367",
+    "A228370",
+    "A228371",
+    "A228525",
+    "A228526"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

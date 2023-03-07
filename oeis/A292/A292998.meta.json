@@ -1,0 +1,20 @@
+{
+  "description": "Number of sequences of balls colored with at most n colors such that exactly three balls are the same color as some other ball in the sequence.",
+  "id": "A292998",
+  "mentions": [
+    "A281912",
+    "A292930",
+    "A292999"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

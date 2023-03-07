@@ -1,0 +1,25 @@
+{
+  "description": "Triangle for perimeters of primitive Pythagorean triangles.",
+  "id": "A225951",
+  "mentions": [
+    "A000384",
+    "A024364",
+    "A055034",
+    "A070109",
+    "A222946",
+    "A225949"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

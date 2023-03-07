@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions p of n such that max(p) does not exceed the square of min(p).",
+  "id": "A114328",
+  "mentions": [
+    "A000041"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = Sum_{d|n} phi(d/gcd(d, n/d)).",
+  "id": "A332713",
+  "mentions": [
+    "A000010",
+    "A001616",
+    "A010052",
+    "A046790",
+    "A055653",
+    "A061884",
+    "A078779",
+    "A330523",
+    "A332619",
+    "A332686",
+    "A332712"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

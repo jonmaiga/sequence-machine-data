@@ -1,0 +1,19 @@
+{
+  "description": "From a puzzle of Roger Penrose's in the Twistor Newsletter.",
+  "id": "A121056",
+  "mentions": [
+    "A003138",
+    "A003176",
+    "A003177"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": -3,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

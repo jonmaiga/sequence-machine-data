@@ -1,0 +1,35 @@
+{
+  "description": "Irregular triangle T(n,k) read down columns: the number of compositions c of n with largest_part(c)+length(c)=k+1 in row n, column k.",
+  "id": "A105552",
+  "mentions": [
+    "A000041",
+    "A000124",
+    "A000330",
+    "A001296",
+    "A033638",
+    "A047969",
+    "A047970",
+    "A055932",
+    "A057335",
+    "A083480",
+    "A083906",
+    "A086602",
+    "A089349",
+    "A089574",
+    "A107600",
+    "A107601",
+    "A109125"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

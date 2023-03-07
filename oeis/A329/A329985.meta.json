@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1 and for n > 0, a(n+1) = a(k) - a(n) where k is the number of terms equal to a(n) among the first n terms.",
+  "id": "A329985",
+  "mentions": [
+    "A329981",
+    "A330334",
+    "A331452"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

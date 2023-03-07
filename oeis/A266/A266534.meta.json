@@ -1,0 +1,23 @@
+{
+  "description": "Total number of ON cells after n-th stage in a 90-degree sector of the cellular automaton of A151895.",
+  "id": "A266534",
+  "mentions": [
+    "A151895",
+    "A161330",
+    "A161336",
+    "A169779",
+    "A266536",
+    "A267700"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

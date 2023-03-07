@@ -1,0 +1,26 @@
+{
+  "description": "Numbers divisible by their last digit cubed, excluding those whose last digit is 1.",
+  "id": "A225722",
+  "mentions": [
+    "A005349",
+    "A007602",
+    "A034709",
+    "A034837",
+    "A034838",
+    "A132359",
+    "A221651",
+    "A225296",
+    "A225297"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

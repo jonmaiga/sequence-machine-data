@@ -1,0 +1,21 @@
+{
+  "description": "One half of the maximal values of the length of the period for Fibonacci numbers modulo p (A001175(p)) for primes p > 5, according to Wall's Theorems 6 and 7.",
+  "id": "A253806",
+  "mentions": [
+    "A001175",
+    "A222413",
+    "A222414"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

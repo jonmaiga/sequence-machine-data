@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the middle side lengths of all Heronian triangles with even sides and perimeter A334936(n).",
+  "id": "A334938",
+  "mentions": [
+    "A334936",
+    "A334937",
+    "A334939"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

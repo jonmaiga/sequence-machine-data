@@ -1,0 +1,26 @@
+{
+  "description": "Number of ordered ways to write n = k + m with k > 0 and m > 0 such that p = phi(k) + phi(m)/2 - 1, prime(p) + 4 and prime(p) + 6 are all prime, where phi(.) is Euler's totient function.",
+  "id": "A236460",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A001359",
+    "A006512",
+    "A022005",
+    "A236456",
+    "A236457",
+    "A236458",
+    "A236462",
+    "A236464"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

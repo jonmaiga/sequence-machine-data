@@ -1,0 +1,24 @@
+{
+  "description": "Array of the \"egg-drop\" numbers, read by downwards antidiagonals.",
+  "id": "A180975",
+  "mentions": [
+    "A001924",
+    "A004070",
+    "A117670",
+    "A131251"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = exp(1/2) * Sum_{k>=0} (2*k + 1)^n / ((-2)^k * k!).",
+  "id": "A334190",
+  "mentions": [
+    "A007405",
+    "A009235",
+    "A293037",
+    "A308536",
+    "A334191",
+    "A334192"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:20",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

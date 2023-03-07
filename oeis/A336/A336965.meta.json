@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the product of the distinct prime numbers appearing in the prime tower factorization of n.",
+  "id": "A336965",
+  "mentions": [
+    "A001221",
+    "A005117",
+    "A007947",
+    "A115588",
+    "A182318",
+    "A279513",
+    "A336964"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

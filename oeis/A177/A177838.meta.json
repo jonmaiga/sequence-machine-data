@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (44+sqrt(2442))/88.",
+  "id": "A177838",
+  "mentions": [
+    "A177499",
+    "A177839"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

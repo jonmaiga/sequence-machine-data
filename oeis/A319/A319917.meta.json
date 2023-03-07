@@ -1,0 +1,22 @@
+{
+  "description": "Unitary sociable numbers of order six.",
+  "id": "A319917",
+  "mentions": [
+    "A002827",
+    "A063919",
+    "A063991",
+    "A097024",
+    "A097030",
+    "A319902"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

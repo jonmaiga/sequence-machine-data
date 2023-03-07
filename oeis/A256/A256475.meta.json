@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n for which there are more primes in range [prime(n)^2, prime(n)*prime(n+1)] than in range [prime(n)*prime(n+1), prime(n+1)^2].",
+  "id": "A256475",
+  "mentions": [
+    "A256470",
+    "A256471",
+    "A256474",
+    "A256477",
+    "A256485"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

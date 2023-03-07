@@ -1,0 +1,23 @@
+{
+  "description": "Number of permutations of length n with exactly 8 occurrences of the pattern 2-13.",
+  "id": "A120816",
+  "mentions": [
+    "A002629",
+    "A094218",
+    "A094219",
+    "A120812",
+    "A120815",
+    "A263776"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 7,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

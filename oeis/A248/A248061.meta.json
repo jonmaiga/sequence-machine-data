@@ -1,0 +1,22 @@
+{
+  "description": "Element numbers of the chemical elements sorted with respect to density.",
+  "id": "A248061",
+  "mentions": [
+    "A081098",
+    "A081099",
+    "A081100",
+    "A081101",
+    "A248026",
+    "A249874"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 118,
+    "source": "oeis-entry"
+  }
+}

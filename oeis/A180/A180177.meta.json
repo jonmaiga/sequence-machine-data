@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of compositions of n without 2's and having k parts; 1<=k<=n.",
+  "id": "A180177",
+  "mentions": [
+    "A011973",
+    "A097230",
+    "A180178",
+    "A180179",
+    "A180180",
+    "A180181",
+    "A180182",
+    "A180183"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

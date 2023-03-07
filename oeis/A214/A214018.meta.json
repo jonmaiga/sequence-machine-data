@@ -1,0 +1,19 @@
+{
+  "description": "Least k >= 1, such that prime(n) + k has the form 2^m * q, m >= 0, where q >= 2 is prime.",
+  "id": "A214018",
+  "mentions": [
+    "A192869",
+    "A213892",
+    "A213982"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

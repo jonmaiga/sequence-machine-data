@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,m)= Sum_{i=1..n} C(n,i-m)*C(n+m-i,i-1)*C(n+m-i,m)/n, T(0,0)=1.",
+  "id": "A337991",
+  "mentions": [
+    "A001006",
+    "A005773",
+    "A025227",
+    "A132894"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

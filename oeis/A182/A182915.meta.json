@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of an asymptotic series for the factorial function.",
+  "id": "A182915",
+  "mentions": [
+    "A182914"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

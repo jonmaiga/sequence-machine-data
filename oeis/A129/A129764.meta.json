@@ -1,0 +1,21 @@
+{
+  "description": "Numerator of the sum of all elements of n X n X n cubic array M[i,j,k] = 1/(i+j+k-2).",
+  "id": "A129764",
+  "mentions": [
+    "A001008",
+    "A007528",
+    "A082687",
+    "A117731"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

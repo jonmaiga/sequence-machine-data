@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) number of arrangements of non-attacking rooks on an n X n right triangular board where the top rook is in row k (n >= 0, 1 <= k <= n+1).",
+  "id": "A259691",
+  "mentions": [
+    "A000110",
+    "A056857",
+    "A108087",
+    "A259697",
+    "A347420",
+    "A350589"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

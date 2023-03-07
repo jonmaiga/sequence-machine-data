@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,d) is the number of fixed orthoplex n-ominoes with cell centers determining d-space.",
+  "id": "A355997",
+  "mentions": [
+    "A127670",
+    "A195739",
+    "A259015",
+    "A355998",
+    "A355999"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

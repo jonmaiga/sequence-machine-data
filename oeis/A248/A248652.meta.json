@@ -1,0 +1,20 @@
+{
+  "description": "Union of the factorial numbers (A000142) and the double factorials of odd numbers (A001147).",
+  "id": "A248652",
+  "mentions": [
+    "A000142",
+    "A001147",
+    "A005214",
+    "A268645"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

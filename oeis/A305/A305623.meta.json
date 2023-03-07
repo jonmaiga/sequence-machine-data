@@ -1,0 +1,23 @@
+{
+  "description": "Number of chiral pairs of rows of n colors with exactly 3 different colors.",
+  "id": "A305623",
+  "mentions": [
+    "A001117",
+    "A008277",
+    "A056310",
+    "A056454",
+    "A305622"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:17:12",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

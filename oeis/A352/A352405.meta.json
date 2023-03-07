@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = binomial(n,2)*(binomial(n-1,2) + 2).",
+  "id": "A352405",
+  "mentions": [
+    "A010763",
+    "A350653"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) equals the number of admissible pairs of subsets of {1,2,...,n} in the notation of Marzuola-Miller.",
+  "id": "A158448",
+  "mentions": [
+    "A066062",
+    "A158291",
+    "A164048"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

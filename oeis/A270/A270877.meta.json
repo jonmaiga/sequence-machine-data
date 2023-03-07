@@ -1,0 +1,20 @@
+{
+  "description": "Numbers surviving a decaying sieve.",
+  "id": "A270877",
+  "mentions": [
+    "A281256",
+    "A286013"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:49",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

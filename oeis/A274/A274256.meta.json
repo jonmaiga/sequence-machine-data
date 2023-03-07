@@ -1,0 +1,23 @@
+{
+  "description": "Number of factor-free Dyck words with slope 9/2 and length 11n.",
+  "id": "A274256",
+  "mentions": [
+    "A005807",
+    "A274052",
+    "A274244",
+    "A274257",
+    "A274258",
+    "A274259"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

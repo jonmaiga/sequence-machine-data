@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that 5^m - m is a semiprime.",
+  "id": "A252658",
+  "mentions": [
+    "A252656"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

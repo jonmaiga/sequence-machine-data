@@ -1,0 +1,18 @@
+{
+  "description": "Number of (non-null) connected induced subgraphs in the (2 n)-crossed prism graph.",
+  "id": "A290757",
+  "mentions": [
+    "A287430"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Hankel transform of central coefficients of (1+k*x-2x^2)^n, k arbitrary integer.",
+  "id": "A127945",
+  "mentions": [
+    "A036442",
+    "A098332"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

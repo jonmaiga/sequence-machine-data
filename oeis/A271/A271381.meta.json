@@ -1,0 +1,28 @@
+{
+  "description": "Number of ordered ways to write n as u^2 + v^2 + x^3 + y^3, where u, v, x, y are nonnegative integers with 2 | u*v, u <= v and x <= y.",
+  "id": "A271381",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A000583",
+    "A262813",
+    "A262824",
+    "A262827",
+    "A262857",
+    "A262880",
+    "A270488",
+    "A270559",
+    "A270969",
+    "A271325"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

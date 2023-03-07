@@ -1,0 +1,41 @@
+{
+  "description": "Square array T, read by antidiagonals: T(n,k) = F(n) + 2*F(k) where F(n) is the n-th Fibonacci number.",
+  "id": "A217762",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000071",
+    "A000204",
+    "A000285",
+    "A001060",
+    "A001588",
+    "A013655",
+    "A021120",
+    "A022086",
+    "A022088",
+    "A022095",
+    "A022097",
+    "A022098",
+    "A022118",
+    "A022120",
+    "A022122",
+    "A022136",
+    "A022380",
+    "A097657",
+    "A157725",
+    "A157727",
+    "A206419"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

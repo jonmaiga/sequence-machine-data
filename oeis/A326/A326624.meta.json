@@ -1,0 +1,27 @@
+{
+  "description": "Heinz numbers of non-constant integer partitions whose geometric mean is an integer.",
+  "id": "A326624",
+  "mentions": [
+    "A001055",
+    "A067539",
+    "A078175",
+    "A102627",
+    "A316413",
+    "A326027",
+    "A326567",
+    "A326568",
+    "A326622",
+    "A326623",
+    "A326625"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

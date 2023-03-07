@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{p prime} (1 - 1/(2*p) + (p - 1)*log(1 - 1/p)).",
+  "id": "A346011",
+  "mentions": [
+    "A346009",
+    "A346010",
+    "A346012",
+    "A346013"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": -1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

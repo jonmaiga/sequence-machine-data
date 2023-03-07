@@ -1,0 +1,29 @@
+{
+  "description": "Square array a(p,q) = p^2 + q^2 - 2*p - 2*q + 2*gcd(p,q), p >= 1, q >= 1, read by antidiagonals.",
+  "id": "A288797",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A000566",
+    "A001844",
+    "A003989",
+    "A051624",
+    "A079978",
+    "A080827",
+    "A099392",
+    "A143101"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of irreducible rational curves maximally tangent to a line.",
+  "id": "A171106",
+  "mentions": [
+    "A171107"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:54",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

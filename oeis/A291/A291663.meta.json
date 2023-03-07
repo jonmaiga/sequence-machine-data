@@ -1,0 +1,24 @@
+{
+  "description": "Numbers beginning with a vowel in Danish.",
+  "id": "A291663",
+  "mentions": [
+    "A000861",
+    "A079741",
+    "A098060",
+    "A247751",
+    "A291621"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

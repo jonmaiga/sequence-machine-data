@@ -1,0 +1,24 @@
+{
+  "description": "Eventual fixed point of map x -> floor(tan(x)) when starting the iteration with the initial value x = n.",
+  "id": "A258021",
+  "mentions": [
+    "A000503",
+    "A249836",
+    "A258020",
+    "A258022",
+    "A258024",
+    "A258201",
+    "A258202"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

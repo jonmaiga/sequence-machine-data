@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Pi/(12*sqrt(3)).",
+  "id": "A244977",
+  "mentions": [
+    "A244976"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

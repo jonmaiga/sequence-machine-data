@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n + [n*s/r] + [n*t/r]; r=2, s=1+sqrt(2), t=1+sqrt(3).",
+  "id": "A189524",
+  "mentions": [
+    "A189525",
+    "A189526"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

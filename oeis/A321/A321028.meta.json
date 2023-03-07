@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 6 + round(n^3) - (minimal number of squares in a dissection of an (n) X (n+1) oblong into squares).",
+  "id": "A321028",
+  "mentions": [
+    "A105209",
+    "A279317"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "hard",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 125,
+    "source": "oeis-entry"
+  }
+}

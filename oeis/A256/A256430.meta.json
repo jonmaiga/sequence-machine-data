@@ -1,0 +1,19 @@
+{
+  "description": "The least positive integer in A055744 divisible by A008578(n).",
+  "id": "A256430",
+  "mentions": [
+    "A008578",
+    "A055744",
+    "A256431"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

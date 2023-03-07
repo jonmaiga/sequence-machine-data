@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n for which prime(n) divides at least one sum of two consecutive terms in sequence {f_m(k)}, defined in A224523.",
+  "id": "A219255",
+  "mentions": [
+    "A078412",
+    "A078414",
+    "A214684",
+    "A219328",
+    "A224523"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

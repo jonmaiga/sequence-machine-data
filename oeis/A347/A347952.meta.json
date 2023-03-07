@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of exp(1) * (gamma - Ei(-1)).",
+  "id": "A347952",
+  "mentions": [
+    "A001008",
+    "A001113",
+    "A001620",
+    "A002805",
+    "A073003",
+    "A099285",
+    "A239069",
+    "A244274",
+    "A348573"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-entry"
+  }
+}

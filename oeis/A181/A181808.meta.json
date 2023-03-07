@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that set a record for number of even divisors: a(n) = 2*A002182(n).",
+  "id": "A181808",
+  "mentions": [
+    "A000005",
+    "A002182",
+    "A002183",
+    "A027750",
+    "A053624",
+    "A181803",
+    "A181809",
+    "A181810"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:47",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

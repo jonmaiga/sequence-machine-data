@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A135574(n+1) - 2*A135574(n).",
+  "id": "A135575",
+  "mentions": [
+    "A024495",
+    "A135574"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Composite numbers n sorted by decreasing values of alpha(n) = log_n(sigma(n)) - log_n(n+1), where sigma(n) = A000203(n) = the sum of divisors of n.",
+  "id": "A234516",
+  "mentions": [
+    "A000203",
+    "A234515",
+    "A234517",
+    "A234518",
+    "A234519",
+    "A234520",
+    "A234521",
+    "A234522",
+    "A234523",
+    "A234524"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

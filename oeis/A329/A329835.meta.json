@@ -1,0 +1,20 @@
+{
+  "description": "Beatty sequence for (9+sqrt(101))/10.",
+  "id": "A329835",
+  "mentions": [
+    "A329825",
+    "A329836"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:00:19",
+    "offset": 1,
+    "size": 63,
+    "source": "joeis"
+  }
+}

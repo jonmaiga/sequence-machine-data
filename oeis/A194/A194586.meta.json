@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows, T(n,k) the coefficients of the polynomials Sum_{k=0..n} binomial(n,k)*A056040(k)*(k mod 2)*q^k.",
+  "id": "A194586",
+  "mentions": [
+    "A005717",
+    "A056040",
+    "A089627",
+    "A109188",
+    "A163649"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

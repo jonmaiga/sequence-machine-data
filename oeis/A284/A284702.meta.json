@@ -1,0 +1,23 @@
+{
+  "description": "Number of dominating sets in the n-prism graph.",
+  "id": "A284702",
+  "mentions": [
+    "A051927",
+    "A102080",
+    "A218348",
+    "A284663",
+    "A284699"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

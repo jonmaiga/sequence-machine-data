@@ -1,0 +1,20 @@
+{
+  "description": "Lower ends of record gaps between numbers that are either prime or twice a prime.",
+  "id": "A290488",
+  "mentions": [
+    "A001751",
+    "A290489",
+    "A290541"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

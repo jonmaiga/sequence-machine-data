@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that are pandigital in Roman numerals, using each of the symbols I, V, X, L, C, D and M at least once.",
+  "id": "A105417",
+  "mentions": [
+    "A006968",
+    "A061493",
+    "A105416"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

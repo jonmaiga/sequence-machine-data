@@ -1,0 +1,23 @@
+{
+  "description": "Triangle, read by rows, where row n equals row n of matrix power A132844^n for n>=0, where triangle A132844 is defined by: A132844(n,k) = T( [(n+k)/2], k) for n>=k>=0.",
+  "id": "A132845",
+  "mentions": [
+    "A132844",
+    "A132846",
+    "A132847",
+    "A132848",
+    "A132849"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

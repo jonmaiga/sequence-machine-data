@@ -1,0 +1,19 @@
+{
+  "description": "Number k of modular reductions at which the recurrence relation x(i+1) = x(0) mod x(i) terminates with x(k) = 1, where x(0) = prime(n+1), x(1) = prime(n).",
+  "id": "A279047",
+  "mentions": [
+    "A051010",
+    "A072030",
+    "A278744"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-entry"
+  }
+}

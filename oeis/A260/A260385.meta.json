@@ -1,0 +1,22 @@
+{
+  "description": "Numbers such that n divides A260519(n), where A260519(n) is the concatenation of the positions of the digits 0, 1, ..., 9 in n, positions counted from the right, and 0 if a given digit does not occur.",
+  "id": "A260385",
+  "mentions": [
+    "A260274",
+    "A260275",
+    "A260386",
+    "A260519",
+    "A260522"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = |{0 < k < n: k*n + pi(k*n) is prime}|, where pi(.) is given by A000720.",
+  "id": "A237712",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A237578"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

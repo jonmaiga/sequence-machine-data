@@ -1,0 +1,20 @@
+{
+  "description": "Numbers not representable as the sum of three heptagonal numbers.",
+  "id": "A213523",
+  "mentions": [
+    "A000566",
+    "A118278",
+    "A118279"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

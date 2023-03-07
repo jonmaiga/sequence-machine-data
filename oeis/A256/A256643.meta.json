@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = B*C*(n mod A) + 2*A*C*(n mod B) + 3*A*B*(n mod C) with A=3, B=5, C=11.",
+  "id": "A256643",
+  "mentions": [
+    "A255818",
+    "A256496",
+    "A256668"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:17:25",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

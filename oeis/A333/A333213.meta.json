@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of compositions of n with k adjacent terms that are equal or increasing (weak ascents) n >= 0, 0 <= k <= n.",
+  "id": "A333213",
+  "mentions": [
+    "A007318",
+    "A008284",
+    "A072704",
+    "A106356",
+    "A107429",
+    "A124764",
+    "A124769",
+    "A133121",
+    "A238279",
+    "A238343",
+    "A329744",
+    "A332875",
+    "A333230"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

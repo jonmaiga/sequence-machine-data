@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n^2 + 2*floor(n^2/3).",
+  "id": "A222170",
+  "mentions": [
+    "A004773",
+    "A008810",
+    "A008851",
+    "A047220",
+    "A184637"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:09:47",
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

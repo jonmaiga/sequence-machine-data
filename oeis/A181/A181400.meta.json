@@ -1,0 +1,27 @@
+{
+  "description": "Total number of positive integers below 10^n requiring 6 positive cubes in their representation as sum of cubes.",
+  "id": "A181400",
+  "mentions": [
+    "A002283",
+    "A046040",
+    "A061439",
+    "A130130",
+    "A181375",
+    "A181377",
+    "A181379",
+    "A181381",
+    "A181402",
+    "A181404"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

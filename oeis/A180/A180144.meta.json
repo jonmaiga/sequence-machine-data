@@ -1,0 +1,24 @@
+{
+  "description": "Eight rooks and one berserker on a 3 X 3 chessboard. G.f.: (1 - 2*x^2)/(1 - 4*x + x^2 + 2*x^3).",
+  "id": "A180144",
+  "mentions": [
+    "A000012",
+    "A007482",
+    "A180140",
+    "A180141",
+    "A180143",
+    "A180147"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:12:26",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

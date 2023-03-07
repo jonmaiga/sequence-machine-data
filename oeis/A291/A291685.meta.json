@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations p of [n] such that 0p has a nonincreasing jump sequence.",
+  "id": "A291685",
+  "mentions": [
+    "A288910",
+    "A288911",
+    "A288912",
+    "A291684"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Prime degrees of polynomials where records occur in A186277.",
+  "id": "A186307",
+  "mentions": [
+    "A186277",
+    "A186306"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

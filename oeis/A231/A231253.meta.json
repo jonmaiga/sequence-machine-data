@@ -1,0 +1,21 @@
+{
+  "description": "Terms of A227891 of the form (p*q)^2, where p <= q are odious primes (A027697).",
+  "id": "A231253",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A027697",
+    "A227891"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

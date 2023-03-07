@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of a multiplicative constant related to A006196.",
+  "id": "A247449",
+  "mentions": [
+    "A006196",
+    "A247448"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

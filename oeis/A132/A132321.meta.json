@@ -1,0 +1,24 @@
+{
+  "description": "McKay-Thompson series of class 30C for the Monster group with a(0) = -1.",
+  "id": "A132321",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A058614",
+    "A121373",
+    "A123632"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": -1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Sum of trapezoid weights of all Schroeder paths of length 2n.",
+  "id": "A104553",
+  "mentions": [
+    "A002002",
+    "A006318",
+    "A047665",
+    "A104552"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

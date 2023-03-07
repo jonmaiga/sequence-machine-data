@@ -1,0 +1,29 @@
+{
+  "description": "Dirichlet g.f.: 1 / zeta(s)^10.",
+  "id": "A341836",
+  "mentions": [
+    "A007427",
+    "A007428",
+    "A008683",
+    "A111220",
+    "A247343",
+    "A341831",
+    "A341832",
+    "A341833",
+    "A341834",
+    "A341835",
+    "A346148"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

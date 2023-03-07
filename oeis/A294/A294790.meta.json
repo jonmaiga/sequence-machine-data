@@ -1,0 +1,18 @@
+{
+  "description": "Subtract n from partial sums of partial sums of Catalan numbers.",
+  "id": "A294790",
+  "mentions": [
+    "A014140"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

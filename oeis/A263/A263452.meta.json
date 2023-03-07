@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of f(-q^3)^3 * psi(q^12) / f(-q) in powers of q where ps(), f() are Ramanujan theta functions.",
+  "id": "A263452",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A212907",
+    "A261444",
+    "A263527"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:18:29",
+    "offset": 0,
+    "size": 86,
+    "source": "joeis"
+  }
+}

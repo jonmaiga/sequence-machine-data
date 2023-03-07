@@ -1,0 +1,22 @@
+{
+  "description": "Binary operation over the nonnegative integers, distributive over A003987(.,.), such that A(2^i, 2^j) = 2^A054237(i,j). Square array A(n,k), n >= 0, k >= 0, read by descending antidiagonals.",
+  "id": "A329331",
+  "mentions": [
+    "A003987",
+    "A054237",
+    "A059897",
+    "A329329"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

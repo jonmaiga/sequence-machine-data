@@ -1,0 +1,18 @@
+{
+  "description": "Number of length-n 0..7 arrays with no repeated value differing from the previous repeated value by other than plus or minus one modulo 7+1.",
+  "id": "A269677",
+  "mentions": [
+    "A269678"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

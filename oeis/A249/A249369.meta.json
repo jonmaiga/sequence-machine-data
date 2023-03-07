@@ -1,0 +1,20 @@
+{
+  "description": "Rectangular array by descending antidiagonals: t(n,k) is the position of prime(n+1)*k^2 when the numbers prime(j+1)*h^2 are jointly ordered, for j>=1 and h>=1.",
+  "id": "A249369",
+  "mentions": [
+    "A249368",
+    "A249370"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

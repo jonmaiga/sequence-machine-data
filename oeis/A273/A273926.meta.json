@@ -1,0 +1,22 @@
+{
+  "description": "Given G(x) such that G( G(x)^2 - G(x)^3 ) = x^2, then G(x) = Sum_{n>=1} A273925(n)*x^n / 2^a(n).",
+  "id": "A273926",
+  "mentions": [
+    "A000120",
+    "A005187",
+    "A101925",
+    "A120738",
+    "A273925"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of canonical polygons with 4n alternating straight and diagonal edges.",
+  "id": "A307387",
+  "mentions": [
+    "A052436",
+    "A307391",
+    "A307426",
+    "A307454",
+    "A307455",
+    "A307456",
+    "A307519"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

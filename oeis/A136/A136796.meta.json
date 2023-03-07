@@ -1,0 +1,21 @@
+{
+  "description": "Number of labeled marked rooted trees with n nodes.",
+  "id": "A136796",
+  "mentions": [
+    "A000169",
+    "A052764",
+    "A136794",
+    "A136797"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

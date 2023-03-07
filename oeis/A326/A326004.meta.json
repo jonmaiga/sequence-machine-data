@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: Sum_{n>=0} (n+1)*(n+2)*(n+3)/3! * x^n * (1 + x^n)^n.",
+  "id": "A326004",
+  "mentions": [
+    "A217668",
+    "A326002",
+    "A326003",
+    "A326005"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

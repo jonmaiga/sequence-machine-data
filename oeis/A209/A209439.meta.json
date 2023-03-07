@@ -1,0 +1,21 @@
+{
+  "description": "Table T(n,d) where T(n,d) gives the number of subsets of length n that do not contain an arithmetic progression of length 3 with distance d.",
+  "id": "A209439",
+  "mentions": [
+    "A209438",
+    "A209490",
+    "A209491"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

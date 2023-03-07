@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of 1/q * chi(q) * chi(q^5) * chi(-q^20)^2 / chi(-q)^2 in powers of q where chi() is a Ramanujan theta function.",
+  "id": "A298116",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A058555",
+    "A121373",
+    "A298107"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:30:12",
+    "offset": -1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

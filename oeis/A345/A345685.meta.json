@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the smallest cardinality of all covering sets associated with Riesel number A101036(n).",
+  "id": "A345685",
+  "mentions": [
+    "A101036",
+    "A244070",
+    "A244071",
+    "A244072",
+    "A244073",
+    "A244074",
+    "A263392"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

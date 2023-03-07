@@ -1,0 +1,19 @@
+{
+  "description": "Prime number following prime(A215237).",
+  "id": "A215239",
+  "mentions": [
+    "A215237",
+    "A215238"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

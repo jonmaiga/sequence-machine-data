@@ -1,0 +1,25 @@
+{
+  "description": "Continued square root map applied to the sequence of positive even numbers, (2, 4, 6, 8, ...).",
+  "id": "A257574",
+  "mentions": [
+    "A001622",
+    "A002193",
+    "A072449",
+    "A099879",
+    "A105546",
+    "A105817",
+    "A257575",
+    "A257581"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

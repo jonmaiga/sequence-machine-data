@@ -1,0 +1,21 @@
+{
+  "description": "Primes which have one or more occurrences of exactly eight different digits.",
+  "id": "A235160",
+  "mentions": [
+    "A074665",
+    "A235154",
+    "A235159",
+    "A235161"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

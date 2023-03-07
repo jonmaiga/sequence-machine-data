@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the alternating sum of the sequence gcd(n, k^2), 1 <= k <= n.",
+  "id": "A353909",
+  "mentions": [
+    "A000010",
+    "A007913",
+    "A078430",
+    "A245717"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

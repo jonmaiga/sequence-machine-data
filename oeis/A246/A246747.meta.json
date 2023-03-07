@@ -1,0 +1,21 @@
+{
+  "description": "The number of binary heaps on n elements whose breadth-first search reading word avoids 231.",
+  "id": "A246747",
+  "mentions": [
+    "A000108",
+    "A056971",
+    "A245899",
+    "A246829"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

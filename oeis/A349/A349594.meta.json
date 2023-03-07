@@ -1,0 +1,19 @@
+{
+  "description": "Number of 2 X n mazes that can be navigated from the top left corner to the bottom right corner.",
+  "id": "A349594",
+  "mentions": [
+    "A349596"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

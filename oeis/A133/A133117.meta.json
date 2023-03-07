@@ -1,0 +1,22 @@
+{
+  "description": "Fractal sequence based on comparison of {n * tau} with {i*tau} for i = 1 to F(2j) where F(2j) equals the first i for which {n*tau} <= {i*tau} as i goes from 1 to F(2j+2)-1 and F(2j) equals the insertion point of n into P(n-1). The fractional parts {i*tau} are all less than or equal to {F(2j-2)*tau} for 0 < i < F(2j), so there is no chance that an insertion point greater than n in the permutation of the first n-1 integers will be specified by this rule. The table, A132827, gives the insertion points for each n into the permutation P(n-1) of the first n integers.",
+  "id": "A133117",
+  "mentions": [
+    "A054065",
+    "A132827",
+    "A132828",
+    "A132917"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

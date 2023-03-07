@@ -1,0 +1,18 @@
+{
+  "description": "Take the standard 2-D lattice packing of pennies; a(n) = number of ways to pick n pennies (modulo rotations and reflections) such that the graph with nodes = centers of pennies, edges = pairs of touching pennies is connected and every edge belongs to at least one triangle.",
+  "id": "A170807",
+  "mentions": [
+    "A171604"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Consider all sequences of n distinct positive integers for which no two different elements have a difference which is a square. This sequence gives the smallest maximal integer in such sequences.",
+  "id": "A210570",
+  "mentions": [
+    "A100719",
+    "A210380",
+    "A224839"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the denominator of Sum_{primes p < n} 1/(n-p).",
+  "id": "A305702",
+  "mentions": [
+    "A130492",
+    "A305700"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

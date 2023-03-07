@@ -1,0 +1,18 @@
+{
+  "description": "Slater-Velez permutation sequence of the 2nd kind.",
+  "id": "A129198",
+  "mentions": [
+    "A081145",
+    "A129199"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

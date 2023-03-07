@@ -1,0 +1,21 @@
+{
+  "description": "Divide a full period sine wave into n equally spaced points along the x-axis, labeled 1 through n, from left to right. Rank the points according to their sine value and read by rows.",
+  "id": "A278703",
+  "mentions": [
+    "A002265",
+    "A037915",
+    "A276669"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

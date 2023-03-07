@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangular array read by rows: T(n,k) is the number of inequivalent n X n {0,1} matrices modulo permutation of the rows, containing exactly k 1's; n>=0, 0<=k<=n^2.",
+  "id": "A220886",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000290",
+    "A060690",
+    "A203552",
+    "A360660",
+    "A360693"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "changed",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

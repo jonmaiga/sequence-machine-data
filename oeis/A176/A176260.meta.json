@@ -1,0 +1,30 @@
+{
+  "description": "Periodic sequence: Repeat 5, 1.",
+  "id": "A176260",
+  "mentions": [
+    "A000012",
+    "A007283",
+    "A008805",
+    "A010686",
+    "A010716",
+    "A047264",
+    "A090550",
+    "A122803",
+    "A168607"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cofr",
+    "cons",
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:35:01",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

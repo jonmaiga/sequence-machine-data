@@ -1,0 +1,18 @@
+{
+  "description": "Triangles with integer sides i <= j <= k sorted by radius of enclosing circle, and, in case of ties, lexicographically by side lengths (smallest first). The sequence gives the middle side j. The other sides are in A331244 and A331246.",
+  "id": "A331245",
+  "mentions": [
+    "A331244",
+    "A331246"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

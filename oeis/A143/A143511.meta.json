@@ -1,0 +1,19 @@
+{
+  "description": "Least number k such that phi(k) = n, where n runs through the values in A143510.",
+  "id": "A143511",
+  "mentions": [
+    "A002181",
+    "A143510"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

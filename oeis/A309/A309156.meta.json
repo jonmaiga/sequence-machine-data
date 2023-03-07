@@ -1,0 +1,20 @@
+{
+  "description": "Rectangular array by antidiagonals: row c is the solution sequence (a(n)) of the complementary equation a(n) = b(n) + b(2n) + c, for c >= 0. See Comments.",
+  "id": "A309156",
+  "mentions": [
+    "A304799",
+    "A304800"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

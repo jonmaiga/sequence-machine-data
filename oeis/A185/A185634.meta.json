@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-length cycles from any point in a complete graph on n nodes.",
+  "id": "A185634",
+  "mentions": [
+    "A173499"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

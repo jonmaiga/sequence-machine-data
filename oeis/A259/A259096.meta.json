@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A000785(n) - A005575(n-1).",
+  "id": "A259096",
+  "mentions": [
+    "A000785",
+    "A005575",
+    "A259095"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 2,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

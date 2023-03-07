@@ -1,0 +1,28 @@
+{
+  "description": "Expansion of x^2*(2+x)/(1-3*x-4*x^2-x^3).",
+  "id": "A120757",
+  "mentions": [
+    "A006053",
+    "A052547",
+    "A085810",
+    "A116423",
+    "A122600",
+    "A181879",
+    "A181880",
+    "A214683",
+    "A215076",
+    "A215100"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

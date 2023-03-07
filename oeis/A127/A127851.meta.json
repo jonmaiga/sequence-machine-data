@@ -1,0 +1,19 @@
+{
+  "description": "a(n) has n 1's followed by C(n-1,2) 0's.",
+  "id": "A127851",
+  "mentions": [
+    "A127850"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

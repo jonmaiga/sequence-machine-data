@@ -1,0 +1,26 @@
+{
+  "description": "Squarefree numbers such that none of their prime factors share common 1-bits in the same bit-position of their binary representations.",
+  "id": "A235050",
+  "mentions": [
+    "A000040",
+    "A001414",
+    "A002144",
+    "A005117",
+    "A008578",
+    "A072593",
+    "A072594",
+    "A235040",
+    "A235490"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

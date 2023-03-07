@@ -1,0 +1,30 @@
+{
+  "description": "Terms of A324315 (squarefree integers m > 1 such that if prime p divides m, then the sum of the base p digits of m is at least p) that are also octagonal numbers (A000567) with index equal to their largest prime factor.",
+  "id": "A324320",
+  "mentions": [
+    "A000567",
+    "A002997",
+    "A324315",
+    "A324316",
+    "A324317",
+    "A324318",
+    "A324319",
+    "A324369",
+    "A324370",
+    "A324371",
+    "A324404",
+    "A324405",
+    "A324973"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

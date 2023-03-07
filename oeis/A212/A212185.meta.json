@@ -1,0 +1,20 @@
+{
+  "description": "Number of exponents >= 2 in canonical prime factorization of n-th highly composite number (A002182(n)).",
+  "id": "A212185",
+  "mentions": [
+    "A002182",
+    "A212172",
+    "A212182",
+    "A212184"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

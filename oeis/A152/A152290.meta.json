@@ -1,0 +1,26 @@
+{
+  "description": "Coefficients in a q-analog of the LambertW function, as a triangle read by rows.",
+  "id": "A152290",
+  "mentions": [
+    "A000108",
+    "A000272",
+    "A002054",
+    "A121774",
+    "A152282",
+    "A152283",
+    "A152291"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "eigen",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

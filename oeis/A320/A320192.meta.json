@@ -1,0 +1,21 @@
+{
+  "description": "Number of summation terms of the reciprocal integer squares series that gives the best approximation to n terms of the Euler product for zeta(2).",
+  "id": "A320192",
+  "mentions": [
+    "A007406",
+    "A007407",
+    "A013661",
+    "A261208"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

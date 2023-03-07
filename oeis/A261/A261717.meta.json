@@ -1,0 +1,20 @@
+{
+  "description": "Arrange the 26 sporadic simple groups in increasing order; a(n) = number of sporadic simple groups of which the n-th largest sporadic simple group is a subquotient.",
+  "id": "A261717",
+  "mentions": [
+    "A001228",
+    "A263447"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

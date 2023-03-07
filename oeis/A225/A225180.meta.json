@@ -1,0 +1,17 @@
+{
+  "description": "Infinite sequence M defined by the rules M = 1:X, X = 2:zip_2(X,Y), Y = 2:zip_3(M,Y,Y).",
+  "id": "A225180",
+  "mentions": [
+    "A225181"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

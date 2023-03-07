@@ -1,0 +1,24 @@
+{
+  "description": "Number T(n,k) of binary words of length n containing exactly k (possibly overlapping) occurrences of the subword 01101; triangle T(n,k), n>=0, k=0..max(0,floor((n-2)/3)), read by rows.",
+  "id": "A277751",
+  "mentions": [
+    "A000079",
+    "A001787",
+    "A209888",
+    "A317669",
+    "A317780",
+    "A317781"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Algorithm: x->[x*(r+1)] if x even, x->[x/(r+1)] if x odd, where r = golden mean = (1+sqrt(5))/2, and [ ] = floor; a(n) is the number of steps from x=n to 0.",
+  "id": "A182650",
+  "mentions": [
+    "A182649",
+    "A182651",
+    "A182652"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "The same array as in A293500, but without the leading row and column of zeros. See that entry for more information.",
+  "id": "A309008",
+  "mentions": [
+    "A293500"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

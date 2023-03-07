@@ -1,0 +1,20 @@
+{
+  "description": "Number of integers less than n with the same sum of proper divisors as n.",
+  "id": "A338504",
+  "mentions": [
+    "A001065",
+    "A047983",
+    "A263025"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "The number of solutions to usigma(k) > esigma(k) below 10^n, where usigma(k) is the sum of unitary divisors of k (A034448) and esigma(k) is the sum of exponential divisors of k (A051377).",
+  "id": "A322446",
+  "mentions": [
+    "A034448",
+    "A051377",
+    "A236474"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

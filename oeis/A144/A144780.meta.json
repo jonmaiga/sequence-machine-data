@@ -1,0 +1,30 @@
+{
+  "description": "Variant of Sylvester's sequence: a(n+1) = a(n)^2 - a(n) + 1, with a(1) = 6.",
+  "id": "A144780",
+  "mentions": [
+    "A000058",
+    "A082732",
+    "A144779",
+    "A144781",
+    "A144782",
+    "A144783",
+    "A144784",
+    "A144785",
+    "A144786",
+    "A144787",
+    "A144788",
+    "A144804"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

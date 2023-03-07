@@ -1,0 +1,26 @@
+{
+  "description": "Smallest difference between indices of prime divisors of n, or 0 if n is a prime power.",
+  "id": "A297173",
+  "mentions": [
+    "A000720",
+    "A073490",
+    "A073491",
+    "A100573",
+    "A242411",
+    "A243055",
+    "A261079",
+    "A286470",
+    "A286471"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

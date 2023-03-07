@@ -1,0 +1,21 @@
+{
+  "description": "Irregular table read by rows: n-sect the angles of a decagon. Then T(n,k) = number of k-sided polygons in that figure for k >= 3.",
+  "id": "A335803",
+  "mentions": [
+    "A332417",
+    "A335800",
+    "A335801",
+    "A335802"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

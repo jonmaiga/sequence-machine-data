@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the multiplicative inverse of A008514(n) modulo A008514(n+1).",
+  "id": "A334121",
+  "mentions": [
+    "A008514",
+    "A308215",
+    "A308217",
+    "A334137"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

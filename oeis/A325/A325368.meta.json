@@ -1,0 +1,30 @@
+{
+  "description": "Heinz numbers of integer partitions with distinct differences between successive parts.",
+  "id": "A325368",
+  "mentions": [
+    "A056239",
+    "A112798",
+    "A130091",
+    "A240026",
+    "A325325",
+    "A325328",
+    "A325352",
+    "A325360",
+    "A325361",
+    "A325366",
+    "A325367",
+    "A325405",
+    "A325456",
+    "A325457"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

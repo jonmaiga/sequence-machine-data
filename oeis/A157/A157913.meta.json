@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 64*n^2 - 16.",
+  "id": "A157913",
+  "mentions": [
+    "A157914"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

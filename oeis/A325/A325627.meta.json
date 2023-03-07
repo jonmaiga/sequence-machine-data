@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the largest prime factor in A030426(n).",
+  "id": "A325627",
+  "mentions": [
+    "A000045",
+    "A005478",
+    "A030426",
+    "A325626"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

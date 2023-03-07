@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest positive integer such that the binary representation of n*a(n) is a \"binary square\" (i.e., a term of A020330).",
+  "id": "A320386",
+  "mentions": [
+    "A020330"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

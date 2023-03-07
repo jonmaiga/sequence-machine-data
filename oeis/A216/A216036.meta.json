@@ -1,0 +1,18 @@
+{
+  "description": "Number of isomorphism classes of stretchable simplicial arrangements of n pseudolines in the real projective plane.",
+  "id": "A216036",
+  "mentions": [
+    "A216038"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

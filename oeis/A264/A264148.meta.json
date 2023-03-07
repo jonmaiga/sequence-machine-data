@@ -1,0 +1,26 @@
+{
+  "description": "Numerators of rational coefficients related to Stirling's asymptotic series for the Gamma function.",
+  "id": "A264148",
+  "mentions": [
+    "A001163",
+    "A001164",
+    "A005446",
+    "A005447",
+    "A065973",
+    "A090804",
+    "A264149",
+    "A264150"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

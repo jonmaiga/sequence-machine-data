@@ -1,0 +1,31 @@
+{
+  "description": "Array read by antidiagonals: A(n,k) is the number of nonequivalent nonnegative integer matrices with k columns and any number of nonzero rows with column sums n up to permutation of rows and columns.",
+  "id": "A331485",
+  "mentions": [
+    "A000012",
+    "A000041",
+    "A007717",
+    "A058194",
+    "A219727",
+    "A306017",
+    "A316674",
+    "A318951",
+    "A331315",
+    "A331461",
+    "A331721",
+    "A331722",
+    "A331723"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

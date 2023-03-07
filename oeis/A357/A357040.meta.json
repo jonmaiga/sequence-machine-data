@@ -1,0 +1,18 @@
+{
+  "description": "Deficient composite numbers whose sum of aliquot divisors as well as product of aliquot divisors is a perfect square.",
+  "id": "A357040",
+  "mentions": [
+    "A005100",
+    "A064116"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

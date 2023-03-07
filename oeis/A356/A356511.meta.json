@@ -1,0 +1,19 @@
+{
+  "description": "Total number of distinct numbers that can be obtained by starting with 1 and applying the \"Choix de Bruxelles\", version 2 operation at most n times in duodecimal (base 12).",
+  "id": "A356511",
+  "mentions": [
+    "A323289"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n)*Pi is the total length of irregular spiral (center points: 2, 1, 3, 4) after n rotations.",
+  "id": "A235089",
+  "mentions": [
+    "A010705",
+    "A014105",
+    "A047215",
+    "A234902",
+    "A234903",
+    "A234904"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 1,
+    "size": 67,
+    "source": "joeis"
+  }
+}

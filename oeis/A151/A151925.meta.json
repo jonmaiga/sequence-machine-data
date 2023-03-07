@@ -1,0 +1,19 @@
+{
+  "description": "Write n as a sum of positive squares a^2+b^2+c^2+... with gcd(a,b,...) = 1; a(n) = minimal number of squares needed.",
+  "id": "A151925",
+  "mentions": [
+    "A002828",
+    "A008784",
+    "A151926"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

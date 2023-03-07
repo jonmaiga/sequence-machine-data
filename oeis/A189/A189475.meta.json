@@ -1,0 +1,20 @@
+{
+  "description": "First differences of A036449, triangular numbers by definition.",
+  "id": "A189475",
+  "mentions": [
+    "A000217",
+    "A010054",
+    "A036449"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number m such that m has exactly n distinct prime factors and sigma(m) has exactly n distinct prime factors.",
+  "id": "A152617",
+  "mentions": [
+    "A000203",
+    "A001221"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

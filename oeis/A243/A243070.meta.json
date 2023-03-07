@@ -1,0 +1,32 @@
+{
+  "description": "Square array read by antidiagonals: rows are successively recursivized versions of Bulgarian solitaire operation (starting from the usual \"first order\" version, A242424), as applied to the partitions listed in A112798.",
+  "id": "A243070",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A002260",
+    "A004736",
+    "A056239",
+    "A064989",
+    "A105560",
+    "A112798",
+    "A122111",
+    "A241909",
+    "A242424",
+    "A243060",
+    "A243072",
+    "A243073"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

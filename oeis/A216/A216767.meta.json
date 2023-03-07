@@ -1,0 +1,26 @@
+{
+  "description": "Denominators of partial sums of 1/A216765(n).",
+  "id": "A216767",
+  "mentions": [
+    "A001597",
+    "A045542",
+    "A175064",
+    "A214390",
+    "A214391",
+    "A216765",
+    "A216766"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

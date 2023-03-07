@@ -1,0 +1,22 @@
+{
+  "description": "Factorial expansion of 1/exp(2) = Sum_{n>=1} a(n)/n!.",
+  "id": "A322506",
+  "mentions": [
+    "A001204",
+    "A054977",
+    "A067840",
+    "A068453",
+    "A092553",
+    "A237420"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

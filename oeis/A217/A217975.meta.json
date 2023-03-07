@@ -1,0 +1,23 @@
+{
+  "description": "2*n^2 - 7 is a square.",
+  "id": "A217975",
+  "mentions": [
+    "A006452",
+    "A077442",
+    "A077446",
+    "A078343",
+    "A100525"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

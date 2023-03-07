@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: row n lists the first 2n-1 prime numbers.",
+  "id": "A138117",
+  "mentions": [
+    "A000040",
+    "A037126",
+    "A138139",
+    "A138143"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

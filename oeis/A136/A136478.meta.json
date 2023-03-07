@@ -1,0 +1,21 @@
+{
+  "description": "Smallest y such that for x = A136477(n), x^2 + x + y^2 is an odd primitive abundant number, A136476(n).",
+  "id": "A136478",
+  "mentions": [
+    "A006038",
+    "A136476",
+    "A136477",
+    "A136479"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. log(Sum_{k>=0} k^binomial(k,2) * x^k / k!).",
+  "id": "A308458",
+  "mentions": [
+    "A001187",
+    "A001865",
+    "A003027",
+    "A054941"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

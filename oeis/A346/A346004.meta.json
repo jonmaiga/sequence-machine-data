@@ -1,0 +1,22 @@
+{
+  "description": "If n even then n otherwise ((n+1)/2)^2.",
+  "id": "A346004",
+  "mentions": [
+    "A125714",
+    "A346005",
+    "A346007",
+    "A346595"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:56",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

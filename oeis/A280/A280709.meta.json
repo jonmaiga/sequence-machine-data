@@ -1,0 +1,23 @@
+{
+  "description": "The number of monic integer polynomials of degree n all of whose roots are distinct and of modulus at most 1.",
+  "id": "A280709",
+  "mentions": [
+    "A000010",
+    "A014197",
+    "A120963",
+    "A280611",
+    "A280712"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

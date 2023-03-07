@@ -1,0 +1,28 @@
+{
+  "description": "Number of digits '0' in the set of all numbers from 0 to A014824(n) = Sum_{i=1..n} i*10^(n-i) = (0, 1, 12, 123, 1234, 12345, ...).",
+  "id": "A277830",
+  "mentions": [
+    "A007908",
+    "A014824",
+    "A061217",
+    "A083449",
+    "A272525",
+    "A277635",
+    "A277831",
+    "A277838",
+    "A277849"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

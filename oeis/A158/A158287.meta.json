@@ -1,0 +1,22 @@
+{
+  "description": "Composite RMS numbers: composite numbers c such that root mean square of divisors of c is an integer.",
+  "id": "A158287",
+  "mentions": [
+    "A000005",
+    "A000027",
+    "A001157",
+    "A002808",
+    "A088165",
+    "A140480"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

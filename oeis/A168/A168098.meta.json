@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = number of natural numbers m such that n - 8 <= m <= n + 8.",
+  "id": "A168098",
+  "mentions": [
+    "A000027",
+    "A158799"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:44:39",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

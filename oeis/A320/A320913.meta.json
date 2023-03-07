@@ -1,0 +1,32 @@
+{
+  "description": "Numbers with an even number of prime factors (counted with multiplicity) that cannot be factored into squarefree semiprimes (A320891) but can be factored into distinct semiprimes (A320912).",
+  "id": "A320913",
+  "mentions": [
+    "A001055",
+    "A001222",
+    "A001358",
+    "A005117",
+    "A006881",
+    "A007717",
+    "A025487",
+    "A028260",
+    "A320655",
+    "A320656",
+    "A320891",
+    "A320892",
+    "A320893",
+    "A320894",
+    "A320911",
+    "A320912"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

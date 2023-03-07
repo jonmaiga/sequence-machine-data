@@ -1,0 +1,20 @@
+{
+  "description": "The values of 'a' in a^2 + b^2 = c^2, where b - a = 17 and gcd(a, b, c) = 1.",
+  "id": "A117473",
+  "mentions": [
+    "A058529",
+    "A117472"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:06:47",
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

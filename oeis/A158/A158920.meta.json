@@ -1,0 +1,24 @@
+{
+  "description": "Binomial transform of A008805 (triangular numbers with repeats).",
+  "id": "A158920",
+  "mentions": [
+    "A000217",
+    "A001787",
+    "A001788",
+    "A007318",
+    "A008805"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

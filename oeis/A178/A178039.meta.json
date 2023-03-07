@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of sqrt(44310).",
+  "id": "A178039",
+  "mentions": [
+    "A002163",
+    "A002193",
+    "A002194",
+    "A010465",
+    "A178038",
+    "A178040"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:22:25",
+    "offset": 3,
+    "size": 105,
+    "source": "joeis"
+  }
+}

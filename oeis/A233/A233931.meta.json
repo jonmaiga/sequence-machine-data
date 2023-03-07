@@ -1,0 +1,21 @@
+{
+  "description": "a(2n) = a(n) + n, a(2n+1) = a(n), with a(0)=0.",
+  "id": "A233931",
+  "mentions": [
+    "A000523",
+    "A011371",
+    "A030308",
+    "A233905"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

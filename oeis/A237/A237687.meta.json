@@ -1,0 +1,26 @@
+{
+  "description": "Primes p with pi(p), pi(pi(p)) and pi(p^2) all prime, where pi(.) is given by A000720.",
+  "id": "A237687",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A000720",
+    "A006450",
+    "A038107",
+    "A038580",
+    "A237656",
+    "A237657",
+    "A237658",
+    "A237659"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that p+2, p+4, p+6, p+8, p+10 and p+12 are all semiprime.",
+  "id": "A241483",
+  "mentions": [
+    "A072381",
+    "A082919"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

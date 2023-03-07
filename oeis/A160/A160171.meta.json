@@ -1,0 +1,25 @@
+{
+  "description": "First differences of X-toothpicks numbers A160170.",
+  "id": "A160171",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A139251",
+    "A160120",
+    "A160121",
+    "A160160",
+    "A160161",
+    "A160170",
+    "A170875"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that A344753(k) is a multiple of A048250(k), and k is a multiple of A344753(k)/A048250(k).",
+  "id": "A344755",
+  "mentions": [
+    "A000396",
+    "A001065",
+    "A001615",
+    "A003557",
+    "A048250",
+    "A306927",
+    "A344700",
+    "A344753",
+    "A344754"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

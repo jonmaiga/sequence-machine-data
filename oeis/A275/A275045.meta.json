@@ -1,0 +1,19 @@
+{
+  "description": "Diagonal of the rational function 1/(1-(wxyz + wy + wz + x + y + z)).",
+  "id": "A275045",
+  "mentions": [
+    "A268545",
+    "A268555"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

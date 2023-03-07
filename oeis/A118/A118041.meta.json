@@ -1,0 +1,23 @@
+{
+  "description": "Column 0 of triangle A118040, which is the matrix square of triangle A118032; also equals a bisection of A118033, which is column 0 of A118032.",
+  "id": "A118041",
+  "mentions": [
+    "A118032",
+    "A118033",
+    "A118040",
+    "A118042",
+    "A118043",
+    "A118044",
+    "A118045"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

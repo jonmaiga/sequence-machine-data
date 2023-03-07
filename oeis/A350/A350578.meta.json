@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 0; for n > 0, if a(n-1) - n >= 0 and a(n-1) - n has appeared the same or fewer times than a(n-1) + n, then a(n) = a(n-1) - n. Otherwise a(n) = a(n-1) + n.",
+  "id": "A350578",
+  "mentions": [
+    "A005132",
+    "A064387",
+    "A064389",
+    "A261573",
+    "A335299",
+    "A350579"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

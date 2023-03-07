@@ -1,0 +1,24 @@
+{
+  "description": "Mirror image of the triangle A193842.",
+  "id": "A193843",
+  "mentions": [
+    "A000225",
+    "A002450",
+    "A003462",
+    "A014916",
+    "A082574",
+    "A193842"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:07:03",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

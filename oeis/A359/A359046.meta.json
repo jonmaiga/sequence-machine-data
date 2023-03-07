@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct regions among all circles that can be constructed on vertices of an n-sided regular polygon, using only a compass.",
+  "id": "A359046",
+  "mentions": [
+    "A007678",
+    "A331702",
+    "A358782",
+    "A359047",
+    "A359061"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

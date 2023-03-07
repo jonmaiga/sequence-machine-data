@@ -1,0 +1,25 @@
+{
+  "description": "Smallest number having a power that in decimal has exactly n copies of all ten digits.",
+  "id": "A217368",
+  "mentions": [
+    "A020666",
+    "A054038",
+    "A054039",
+    "A066825",
+    "A067635",
+    "A074205",
+    "A156977",
+    "A217378"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

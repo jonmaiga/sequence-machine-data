@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form p^2+100, where p is prime.",
+  "id": "A182476",
+  "mentions": [
+    "A045637",
+    "A079141",
+    "A182475"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

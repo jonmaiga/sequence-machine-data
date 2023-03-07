@@ -1,0 +1,22 @@
+{
+  "description": "Square array read by antidiagonals: T(m,n) = maximal number of moves required for the m X n generalization of the sliding block 15-puzzle (or fifteen-puzzle).",
+  "id": "A151944",
+  "mentions": [
+    "A087725",
+    "A089473",
+    "A090033",
+    "A151943"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

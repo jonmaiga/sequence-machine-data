@@ -1,0 +1,19 @@
+{
+  "description": "Joint-rank array of numbers j*r^(i-1), where r=1+sqrt(3), read by antidiagonals.",
+  "id": "A182832",
+  "mentions": [
+    "A182801"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

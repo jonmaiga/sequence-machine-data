@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that 1 is the smallest decimal digit of k^4.",
+  "id": "A291669",
+  "mentions": [
+    "A291668",
+    "A291670",
+    "A291671",
+    "A291672"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

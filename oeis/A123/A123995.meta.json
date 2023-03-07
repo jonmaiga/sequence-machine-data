@@ -1,0 +1,26 @@
+{
+  "description": "First occurrence of prime gaps which are perfect powers.",
+  "id": "A123995",
+  "mentions": [
+    "A000101",
+    "A000230",
+    "A001597",
+    "A002386",
+    "A075090",
+    "A080370",
+    "A113472",
+    "A123996",
+    "A138198"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

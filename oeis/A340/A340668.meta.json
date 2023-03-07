@@ -1,0 +1,21 @@
+{
+  "description": "The number of overpartitions of n where the number of non-overlined parts is at least two more than the number of overlined parts.",
+  "id": "A340668",
+  "mentions": [
+    "A001524",
+    "A015128",
+    "A340658",
+    "A340659"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

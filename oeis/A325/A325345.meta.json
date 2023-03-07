@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n with odd minimal part and even maximal part.",
+  "id": "A325345",
+  "mentions": [
+    "A000041",
+    "A325338",
+    "A325344",
+    "A325346"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

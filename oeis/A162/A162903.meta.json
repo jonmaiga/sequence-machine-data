@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A162531(n)/11.",
+  "id": "A162903",
+  "mentions": [
+    "A000040",
+    "A161344",
+    "A162531",
+    "A162790",
+    "A162792"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

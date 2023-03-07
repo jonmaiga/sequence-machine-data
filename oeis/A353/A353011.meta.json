@@ -1,0 +1,21 @@
+{
+  "description": "Indices of \"late birds\" in A090395 (denominator of d(n)/n): indices n such that A090395(k) > A090395(n) for all k > n.",
+  "id": "A353011",
+  "mentions": [
+    "A000005",
+    "A090395",
+    "A091895",
+    "A091896"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

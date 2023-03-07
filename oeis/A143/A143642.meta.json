@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of principal and intermediate convergents to 3^(1/2).",
+  "id": "A143642",
+  "mentions": [
+    "A140827"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

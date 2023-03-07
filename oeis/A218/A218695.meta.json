@@ -1,0 +1,19 @@
+{
+  "description": "Square array c[h,k] = (2^h-1)*c(h,k-1) + sum_{i=1,h-1} binomial(h,h-i)*2^i*c(i,k-1), with c[1,k] = c[h,1] = 1; read by antidiagonals.",
+  "id": "A218695",
+  "mentions": [
+    "A006860",
+    "A183109"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "G.f. A(x) satisfies: Sum_{n>=0} x^n*A(x)^n/(1 - x*A(x)^(n+4)) = Sum_{n>=0} x^n*A(x)^(2*n)/(1 - x*A(x)^(3*n+3)).",
+  "id": "A350117",
+  "mentions": [
+    "A340895",
+    "A340943",
+    "A351772"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

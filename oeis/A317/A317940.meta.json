@@ -1,0 +1,24 @@
+{
+  "description": "Numerators of sequence whose Dirichlet convolution with itself yields A046644.",
+  "id": "A317940",
+  "mentions": [
+    "A005187",
+    "A046644",
+    "A317934",
+    "A317937",
+    "A317941"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "frac",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

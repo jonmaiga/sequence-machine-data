@@ -1,0 +1,19 @@
+{
+  "description": "Binary Keith numbers, excluding positive powers of 2.",
+  "id": "A162363",
+  "mentions": [
+    "A001567",
+    "A007629"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

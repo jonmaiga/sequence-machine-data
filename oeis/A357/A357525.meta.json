@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + mu(k)*x^k).",
+  "id": "A357525",
+  "mentions": [
+    "A008683",
+    "A087188",
+    "A117210",
+    "A185694",
+    "A300663",
+    "A306327",
+    "A357521",
+    "A357524"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

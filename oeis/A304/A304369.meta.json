@@ -1,0 +1,30 @@
+{
+  "description": "Numbers k such that Sum_{d|k, d = 1 or not a perfect power} mu(k/d) is greater than 1 in absolute value.",
+  "id": "A304369",
+  "mentions": [
+    "A000005",
+    "A000961",
+    "A001221",
+    "A001597",
+    "A001694",
+    "A005117",
+    "A007916",
+    "A008683",
+    "A091050",
+    "A304326",
+    "A304327",
+    "A304362",
+    "A304364",
+    "A304365"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

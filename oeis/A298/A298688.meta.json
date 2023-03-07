@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the least i such that Fibonacci(i) is divisible by i+k for all k=0..n.",
+  "id": "A298688",
+  "mentions": [
+    "A000045",
+    "A023172",
+    "A217738",
+    "A221018",
+    "A225219",
+    "A298684",
+    "A298685",
+    "A298686",
+    "A298687"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

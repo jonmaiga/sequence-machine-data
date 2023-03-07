@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle T(n,c) read by rows: the number of clusters of n spheres centered on f.c.c. lattice sites with c contacts.",
+  "id": "A300812",
+  "mentions": [
+    "A038173",
+    "A214813"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

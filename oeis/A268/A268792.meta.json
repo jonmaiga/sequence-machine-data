@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 2 0..2 arrays with some element plus some horizontally, vertically or antidiagonally adjacent neighbor totalling two exactly once.",
+  "id": "A268792",
+  "mentions": [
+    "A268798"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

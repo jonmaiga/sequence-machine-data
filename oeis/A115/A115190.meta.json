@@ -1,0 +1,21 @@
+{
+  "description": "Fourth diagonal (M=4) of triangle A115154 (called Y(3,1)).",
+  "id": "A115190",
+  "mentions": [
+    "A000108",
+    "A064063",
+    "A115154"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

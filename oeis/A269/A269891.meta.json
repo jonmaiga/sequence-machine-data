@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that both the concatenation and the sum of 2 and p are prime.",
+  "id": "A269891",
+  "mentions": [
+    "A001359"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

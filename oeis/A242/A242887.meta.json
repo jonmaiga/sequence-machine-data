@@ -1,0 +1,31 @@
+{
+  "description": "Number T(n,k) of compositions of n into parts with distinct multiplicities and with exactly k parts; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A242887",
+  "mentions": [
+    "A000007",
+    "A057427",
+    "A059841",
+    "A242882",
+    "A242896",
+    "A321772",
+    "A321773",
+    "A321774",
+    "A321775",
+    "A321776",
+    "A321777",
+    "A321778",
+    "A321779",
+    "A321780"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

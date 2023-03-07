@@ -1,0 +1,20 @@
+{
+  "description": "Number of rooted planar trees in which no branch is identical to its adjacent neighbor.",
+  "id": "A106362",
+  "mentions": [
+    "A003239",
+    "A106361",
+    "A106363"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

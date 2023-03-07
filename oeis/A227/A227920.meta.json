@@ -1,0 +1,25 @@
+{
+  "description": "Number of ways to write n = x + y + z with y and z distinct and greater than x such that 6*x-1, 6*y-1, 6*x*y-1 are Sophie Germain primes and {6*x-1, 6*x+1}, {6*z-1, 6*z+1}, {6*x*z-1, 6*x*z+1} are twin prime pairs.",
+  "id": "A227920",
+  "mentions": [
+    "A001359",
+    "A005384",
+    "A006512",
+    "A045536",
+    "A227923",
+    "A229969",
+    "A229974",
+    "A230037",
+    "A230040"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

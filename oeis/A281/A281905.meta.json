@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Sum_{i>=2} prime(i)*x^prime(i)/(1 - x^prime(i)) / Product_{j>=1} (1 - x^j).",
+  "id": "A281905",
+  "mentions": [
+    "A000041",
+    "A005069",
+    "A065091",
+    "A066186",
+    "A073118"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

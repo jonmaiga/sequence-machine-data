@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Pi/(2*phi).",
+  "id": "A341332",
+  "mentions": [
+    "A000796",
+    "A001622",
+    "A019669",
+    "A094881",
+    "A180014"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:32:45",
+    "offset": 0,
+    "size": 104,
+    "source": "joeis"
+  }
+}

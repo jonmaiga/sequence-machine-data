@@ -1,0 +1,28 @@
+{
+  "description": "Greatest number m such that the fractional part of Pi^A153710(n) <= 1/m.",
+  "id": "A153714",
+  "mentions": [
+    "A001672",
+    "A153662",
+    "A153670",
+    "A153678",
+    "A153686",
+    "A153694",
+    "A153702",
+    "A153710",
+    "A153722",
+    "A154130"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

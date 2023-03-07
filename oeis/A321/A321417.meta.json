@@ -1,0 +1,21 @@
+{
+  "description": "Number of n element multisets of the 12th roots of unity with zero sum.",
+  "id": "A321417",
+  "mentions": [
+    "A053090",
+    "A198808",
+    "A321414"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:51:31",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

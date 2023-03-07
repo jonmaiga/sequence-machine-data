@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = digit reversal of A103764.",
+  "id": "A103837",
+  "mentions": [
+    "A103741",
+    "A103763",
+    "A103764"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

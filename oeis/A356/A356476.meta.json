@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Loschmidt constant in m^-3 (273.15 K, 100 kPa).",
+  "id": "A356476",
+  "mentions": [
+    "A070063",
+    "A070064",
+    "A228163",
+    "A322578"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 26,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

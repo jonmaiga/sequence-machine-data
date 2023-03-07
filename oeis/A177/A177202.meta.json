@@ -1,0 +1,22 @@
+{
+  "description": "Nontrivially polygonal-free numbers.",
+  "id": "A177202",
+  "mentions": [
+    "A005117",
+    "A057145",
+    "A090466",
+    "A177201"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:47",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

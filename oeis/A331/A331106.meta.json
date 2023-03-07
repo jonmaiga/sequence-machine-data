@@ -1,0 +1,18 @@
+{
+  "description": "Number of plane trees of total weight n of combinatorial class T=Z*U + Z*T^2/(1-T) with nodes Z of weight one and leaves U of weight three.",
+  "id": "A331106",
+  "mentions": [
+    "A308616"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:10:22",
+    "offset": 1,
+    "size": 58,
+    "source": "joeis"
+  }
+}

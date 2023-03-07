@@ -1,0 +1,21 @@
+{
+  "description": "Primes corresponding to A101043 (which is A101042 sorted).",
+  "id": "A101044",
+  "mentions": [
+    "A020483",
+    "A101042",
+    "A101043",
+    "A101045",
+    "A101046"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

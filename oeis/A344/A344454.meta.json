@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence S of distinct positive terms such that the n-th prime digit of S is present in the n-th prime term of S.",
+  "id": "A344454",
+  "mentions": [
+    "A247143"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

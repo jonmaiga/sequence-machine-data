@@ -1,0 +1,22 @@
+{
+  "description": "32-gonal numbers: a(n) = n*(15*n-14).",
+  "id": "A360436",
+  "mentions": [
+    "A051868",
+    "A161935",
+    "A254474",
+    "A282853"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

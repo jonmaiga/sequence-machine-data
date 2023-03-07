@@ -1,0 +1,21 @@
+{
+  "description": "(Prime(n + 1) - Prime(n))/2 (mod 2).",
+  "id": "A104120",
+  "mentions": [
+    "A001223",
+    "A028334",
+    "A080378",
+    "A330556",
+    "A330561"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

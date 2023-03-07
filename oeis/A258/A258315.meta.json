@@ -1,0 +1,19 @@
+{
+  "description": "G.f. C(x) satisfies: C(x) = 1 + 2*x*A(x)*B(x) where A(x) = B(x)*C(x) and B(x) = 1 + x*A(x)*C(x).",
+  "id": "A258315",
+  "mentions": [
+    "A258313",
+    "A258314"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

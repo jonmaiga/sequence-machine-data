@@ -1,0 +1,30 @@
+{
+  "description": "Regular triangle where T(n,k) is the number of labeled connected k-uniform hypergraphs spanning n vertices.",
+  "id": "A299354",
+  "mentions": [
+    "A000005",
+    "A001187",
+    "A001315",
+    "A006126",
+    "A006129",
+    "A038041",
+    "A048143",
+    "A298422",
+    "A299353",
+    "A299471",
+    "A306020",
+    "A306021"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of forests of trees on n or fewer nodes using a subset of labels 1..n, also row sums of triangle A144258.",
+  "id": "A144259",
+  "mentions": [
+    "A000142",
+    "A007318",
+    "A144258"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

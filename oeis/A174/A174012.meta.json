@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 3 * A064680(n).",
+  "id": "A174012",
+  "mentions": [
+    "A008585",
+    "A017593",
+    "A064680",
+    "A080425",
+    "A165988"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

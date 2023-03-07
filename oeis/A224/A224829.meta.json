@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m, such that there is no solution m = x + y + 3*z, with triangular numbers x, y, z.",
+  "id": "A224829",
+  "mentions": [
+    "A000217",
+    "A017257",
+    "A224823"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

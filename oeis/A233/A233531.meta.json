@@ -1,0 +1,17 @@
+{
+  "description": "G.f. A(x) such that triangle A233530, which transforms diagonals in the table of successive iterations of A(x), consists of all zeros after row 1.",
+  "id": "A233531",
+  "mentions": [
+    "A233530"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

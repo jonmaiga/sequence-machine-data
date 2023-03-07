@@ -1,0 +1,24 @@
+{
+  "description": "Indices of triple prime Fibonacci numbers: numbers k such that (1) Fibonacci(k) is prime, (2) k is prime, and (3) the sum of the digits of Fibonacci(k) is prime.",
+  "id": "A319393",
+  "mentions": [
+    "A000045",
+    "A001605",
+    "A007953",
+    "A319230"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

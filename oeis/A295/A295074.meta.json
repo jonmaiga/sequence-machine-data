@@ -1,0 +1,18 @@
+{
+  "description": "Numerator of the coefficient of the n-th term of the power expansion near x = 0 of sqrt(1+1/sqrt(1-x))/sqrt(2).",
+  "id": "A295074",
+  "mentions": [
+    "A061548"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

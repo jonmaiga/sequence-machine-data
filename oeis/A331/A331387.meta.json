@@ -1,0 +1,33 @@
+{
+  "description": "Number of integer partitions whose sum of primes of parts equals their sum of parts plus n.",
+  "id": "A331387",
+  "mentions": [
+    "A000040",
+    "A000607",
+    "A001414",
+    "A014689",
+    "A056239",
+    "A330950",
+    "A330953",
+    "A330954",
+    "A331378",
+    "A331379",
+    "A331381",
+    "A331383",
+    "A331385",
+    "A331415",
+    "A331416",
+    "A331418"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

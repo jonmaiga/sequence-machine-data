@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that there exists an integer k < n for which the significant decimal digits of k/n (i.e., neglecting leading zeros) are those of n.",
+  "id": "A298980",
+  "mentions": [
+    "A051626",
+    "A298232",
+    "A298981",
+    "A298982"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

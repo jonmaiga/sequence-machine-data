@@ -1,0 +1,24 @@
+{
+  "description": "Number A(n,k) of ascent sequences of length n where no letter multiplicity is larger than k; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A294220",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A022493",
+    "A202058",
+    "A294219",
+    "A317784"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

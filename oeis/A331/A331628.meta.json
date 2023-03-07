@@ -1,0 +1,20 @@
+{
+  "description": "Integers that are exactly 2-deficient-perfect numbers.",
+  "id": "A331628",
+  "mentions": [
+    "A000203",
+    "A271816",
+    "A331627",
+    "A331629"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

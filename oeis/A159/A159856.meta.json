@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,0) = n+1, T(n,k) = 2*T(n-1,k) - T(n-1,k-1), T(n,k) = 0 if k > n and if k < 0.",
+  "id": "A159856",
+  "mentions": [
+    "A000295",
+    "A047926",
+    "A080956",
+    "A181690"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:13:37",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

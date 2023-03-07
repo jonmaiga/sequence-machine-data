@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n,k)^3 * 6^k.",
+  "id": "A216698",
+  "mentions": [
+    "A000172",
+    "A206178",
+    "A206180",
+    "A216483",
+    "A216636",
+    "A216696"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

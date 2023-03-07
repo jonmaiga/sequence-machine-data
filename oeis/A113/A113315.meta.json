@@ -1,0 +1,21 @@
+{
+  "description": "Niven (or Harshad) numbers A005349 divided by the sum of their digits.",
+  "id": "A113315",
+  "mentions": [
+    "A005349",
+    "A007953",
+    "A066355"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

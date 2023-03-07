@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 8; for n > 1, a(n) is the largest integer m such that m = ((2x * a(n-1)) /(x+1)) - x, with x a positive nontrivial divisor of m.",
+  "id": "A338026",
+  "mentions": [
+    "A209724"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

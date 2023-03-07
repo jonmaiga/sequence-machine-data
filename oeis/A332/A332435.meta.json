@@ -1,0 +1,26 @@
+{
+  "description": "Row sums of the irregular triangle A332434. a(n) equals the number of odd numbers <= n, of the smallest nonnegative reduced residue system modulo (2*n + 1), for n >= 1.",
+  "id": "A332435",
+  "mentions": [
+    "A000010",
+    "A002144",
+    "A002145",
+    "A055034",
+    "A109613",
+    "A135303",
+    "A332434",
+    "A332436"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

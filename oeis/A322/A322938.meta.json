@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = binomial(2*n + 2, n + 2) - 1.",
+  "id": "A322938",
+  "mentions": [
+    "A001791",
+    "A010763",
+    "A014473",
+    "A030662"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k that have 3 divisors d1, d2, d3 such that d1 < d2 < d3 < 2*d1 and are pairwise coprime and d1*d2*d3 = k.",
+  "id": "A336628",
+  "mentions": [
+    "A333966",
+    "A336629"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

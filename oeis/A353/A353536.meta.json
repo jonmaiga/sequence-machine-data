@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the cardinality of the set S(n) obtained by the following process: Start with the set S(0) = {i}, where i is the imaginary unit. In step n, the set S(n) is the union of all Gaussian integers obtained by the m*(m+1)/2 sums and the m*(m+1)/2 products formed with the pairs of numbers in the Cartesian product S(n-1) x S(n-1) with m = card(S(n-1)).",
+  "id": "A353536",
+  "mentions": [
+    "A352969",
+    "A353535"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

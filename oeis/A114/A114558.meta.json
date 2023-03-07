@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that n-th heptagonal number is 6-almost prime.",
+  "id": "A114558",
+  "mentions": [
+    "A000040",
+    "A000566",
+    "A001222",
+    "A001358",
+    "A046306"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

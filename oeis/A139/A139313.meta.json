@@ -1,0 +1,20 @@
+{
+  "description": "Primes prime(n) such that -prime(n-1)+3prime(n)-3prime(n+1)+prime(n+2)=0.",
+  "id": "A139313",
+  "mentions": [
+    "A000040",
+    "A006562",
+    "A064149"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "description": "Triangle T(n,k) read by rows: number of LCO forests of size n with k leaves, 1 <= k <= n.",
+  "id": "A175136",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000108",
+    "A002378",
+    "A005043",
+    "A007477",
+    "A011782",
+    "A084938",
+    "A091894",
+    "A099251",
+    "A162148",
+    "A166300",
+    "A180662",
+    "A190048",
+    "A190049",
+    "A190050",
+    "A190051",
+    "A196182"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

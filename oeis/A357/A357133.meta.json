@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least prime that is the arithmetic mean of n consecutive primes.",
+  "id": "A357133",
+  "mentions": [
+    "A006562",
+    "A122531",
+    "A126096",
+    "A219478"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 3,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

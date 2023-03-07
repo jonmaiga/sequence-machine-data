@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that powertrain(n) > n.",
+  "id": "A133507",
+  "mentions": [
+    "A133500"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

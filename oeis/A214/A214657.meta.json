@@ -1,0 +1,19 @@
+{
+  "description": "Floor of the moduli of the zeros of the complex Fibonacci function.",
+  "id": "A214657",
+  "mentions": [
+    "A214315",
+    "A214656"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

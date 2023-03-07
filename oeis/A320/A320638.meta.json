@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) read by rows: the number of partitions of n into k parts which are divisors of n.",
+  "id": "A320638",
+  "mentions": [
+    "A008284",
+    "A018818"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n if n <= 3, otherwise the smallest number not occurring earlier having at least one common Fermi-Dirac factor with a(n-2), but none with a(n-1).",
+  "id": "A249167",
+  "mentions": [
+    "A050376",
+    "A098550",
+    "A213925",
+    "A255940"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Approximation of the 5-adic integer exp(-5) up to 5^n.",
+  "id": "A309903",
+  "mentions": [
+    "A309901",
+    "A309902",
+    "A309905",
+    "A309975"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of the integers 4^k*(4*u(m)^2+1) (k,m = 0,1,2,...) such that n^2 - 4^k*(4*u(m)^2+1) can be written as the sum of two squares, where u(0) = 0, u(1) = 1, and u(j+1) = 4*u(j) - u(j-1) for j = 1,2,3,....",
+  "id": "A300441",
+  "mentions": [
+    "A000118",
+    "A000290",
+    "A000302",
+    "A001353",
+    "A001481",
+    "A271518",
+    "A281976",
+    "A299537",
+    "A299794",
+    "A299924",
+    "A300219",
+    "A300362",
+    "A300396"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

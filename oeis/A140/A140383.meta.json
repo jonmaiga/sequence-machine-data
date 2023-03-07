@@ -1,0 +1,22 @@
+{
+  "description": "Prime triples of the form p, 2^p -1, 2^(2^p)+1 derived from a single prime p.",
+  "id": "A140383",
+  "mentions": [
+    "A000040",
+    "A000043",
+    "A000215",
+    "A000668",
+    "A019434"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

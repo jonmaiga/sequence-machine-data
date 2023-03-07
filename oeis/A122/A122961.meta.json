@@ -1,0 +1,20 @@
+{
+  "description": "Alternately form product and sum of all previous terms.",
+  "id": "A122961",
+  "mentions": [
+    "A000004",
+    "A039941",
+    "A320603"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number of subset-sum triangles with composite a subset-sum of the integer partition with Heinz number n.",
+  "id": "A316223",
+  "mentions": [
+    "A063834",
+    "A262671",
+    "A269134",
+    "A276024",
+    "A281113",
+    "A299701",
+    "A301934",
+    "A301935",
+    "A316219",
+    "A316220",
+    "A316222"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

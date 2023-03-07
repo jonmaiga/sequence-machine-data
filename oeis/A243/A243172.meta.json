@@ -1,0 +1,18 @@
+{
+  "description": "Nonnegative integers of the form x^2 + 3*x*y - 3*y^2 (discriminant 21).",
+  "id": "A243172",
+  "mentions": [
+    "A031363",
+    "A141159"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

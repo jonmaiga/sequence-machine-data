@@ -1,0 +1,24 @@
+{
+  "description": "A lower diagonal of pendular trinomial triangle A119369.",
+  "id": "A119373",
+  "mentions": [
+    "A119369",
+    "A119370",
+    "A119371",
+    "A119372",
+    "A119374",
+    "A119375",
+    "A119376"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Integers 1 through n written in primorial base, summed as if decimal.",
+  "id": "A122613",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A002110",
+    "A004676",
+    "A007088",
+    "A007623",
+    "A020767",
+    "A038506",
+    "A049345",
+    "A067894",
+    "A067895",
+    "A121718",
+    "A122466",
+    "A122467"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

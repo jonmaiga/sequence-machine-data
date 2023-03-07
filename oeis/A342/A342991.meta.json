@@ -1,0 +1,26 @@
+{
+  "description": "Left(0)/right(1) turning sequence needed to traverse the Stern-Brocot tree (A007305, A047679) from the root down to e (A001113).",
+  "id": "A342991",
+  "mentions": [
+    "A001113",
+    "A003417",
+    "A007305",
+    "A047679",
+    "A119014",
+    "A119015",
+    "A358510",
+    "A358511"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

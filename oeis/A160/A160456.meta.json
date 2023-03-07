@@ -1,0 +1,23 @@
+{
+  "description": "Number of triangles that can be built from rods with lengths 1,2,...,n by using and concatenating not necessarily all rods.",
+  "id": "A160456",
+  "mentions": [
+    "A001400",
+    "A002623",
+    "A133872",
+    "A160438",
+    "A160455"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 3,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

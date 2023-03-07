@@ -1,0 +1,20 @@
+{
+  "description": "Differences between consecutive products of two distinct primes: a(n) = A006881(n+1) - A006881(n).",
+  "id": "A166237",
+  "mentions": [
+    "A001223",
+    "A001358",
+    "A006881",
+    "A065516"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

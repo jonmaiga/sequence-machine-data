@@ -1,0 +1,17 @@
+{
+  "description": "Number of prime numbers of the form (10^k-j)*10^n-1 with 0",
+  "id": "A213886",
+  "mentions": [
+    "A213885"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

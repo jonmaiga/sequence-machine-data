@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = gcd(n-A050449(n), A082052(n)-n), where A050449 and A082052 give the sum of divisors of the form 4k+1, and not of that form, respectively.",
+  "id": "A326048",
+  "mentions": [
+    "A009194",
+    "A050449",
+    "A082052",
+    "A325385",
+    "A325813",
+    "A325975",
+    "A326047",
+    "A326049",
+    "A326050"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

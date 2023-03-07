@@ -1,0 +1,21 @@
+{
+  "description": "Triangular sequence from both a cubic expansion polynomial and a three deep polynomial recursion: Expansion polynomial: f(x,t)=1/(1 - 2*x*t + t^3); Recursion polynomials: p(x, n) = 2*x*p(x, n - 1) - p(x, n - 3);.",
+  "id": "A136334",
+  "mentions": [
+    "A000045",
+    "A000071"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

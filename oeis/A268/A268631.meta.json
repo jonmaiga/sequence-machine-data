@@ -1,0 +1,18 @@
+{
+  "description": "Number of ordered pairs (a,b) of positive integers less than n with the property that n divides ab.",
+  "id": "A268631",
+  "mentions": [
+    "A006579"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:08:21",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

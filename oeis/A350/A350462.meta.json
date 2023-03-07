@@ -1,0 +1,22 @@
+{
+  "description": "Table read by rows, T(n, k) = Y(2*n, k, Z(2*n - k)) where Y are the partial Bell polynomials and Z(m) is the list [A126869(j), j = 1..2*(m+1)].",
+  "id": "A350462",
+  "mentions": [
+    "A000984",
+    "A001813",
+    "A126869",
+    "A350291",
+    "A350463"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

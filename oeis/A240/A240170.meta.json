@@ -1,0 +1,22 @@
+{
+  "description": "Larger of the greatest cousin prime pair with n digits.",
+  "id": "A240170",
+  "mentions": [
+    "A046132",
+    "A092245",
+    "A114429",
+    "A152052",
+    "A240167"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

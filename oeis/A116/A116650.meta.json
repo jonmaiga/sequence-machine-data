@@ -1,0 +1,20 @@
+{
+  "description": "Distinct values of A116648, i.e., its duplicates removed.",
+  "id": "A116650",
+  "mentions": [
+    "A116648",
+    "A116649",
+    "A116651"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

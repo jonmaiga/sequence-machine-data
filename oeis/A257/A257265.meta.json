@@ -1,0 +1,28 @@
+{
+  "description": "Distance to n from a leaf nearest to n in the binary beanstalk.",
+  "id": "A257265",
+  "mentions": [
+    "A000120",
+    "A011371",
+    "A055938",
+    "A079559",
+    "A179016",
+    "A213723",
+    "A213724",
+    "A213725",
+    "A257264",
+    "A257508",
+    "A257509"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 129,
+    "source": "oeis-bfile"
+  }
+}

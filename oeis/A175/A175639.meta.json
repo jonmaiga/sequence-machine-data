@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Product_{p prime} (1-3/p^3+2/p^4+1/p^5-1/p^6).",
+  "id": "A175639",
+  "mentions": [
+    "A000040",
+    "A000924",
+    "A256392",
+    "A330523"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

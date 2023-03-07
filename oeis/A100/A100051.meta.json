@@ -1,0 +1,28 @@
+{
+  "description": "A Chebyshev transform of 1,1,1,...",
+  "id": "A100051",
+  "mentions": [
+    "A011655",
+    "A057079",
+    "A087204",
+    "A099443",
+    "A099837",
+    "A100047",
+    "A100048",
+    "A100050",
+    "A127677"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:28:37",
+    "offset": 0,
+    "size": 75,
+    "source": "joeis"
+  }
+}

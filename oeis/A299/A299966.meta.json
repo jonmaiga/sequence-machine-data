@@ -1,0 +1,30 @@
+{
+  "description": "Number of normal generalized Young tableaux, of shape the integer partition with Heinz number n, with all rows and columns weakly increasing and all regions non-singleton skew-partitions.",
+  "id": "A299966",
+  "mentions": [
+    "A000085",
+    "A056239",
+    "A063834",
+    "A112798",
+    "A122111",
+    "A138178",
+    "A153452",
+    "A238690",
+    "A296150",
+    "A296188",
+    "A297388",
+    "A299925",
+    "A299926",
+    "A299967"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Sorted positions of first appearances in A329867 (difference between the runs-resistance and the cuts-resistance of binary expansion) of each element in the image.",
+  "id": "A329868",
+  "mentions": [
+    "A000975",
+    "A003242",
+    "A107907",
+    "A164707",
+    "A318921",
+    "A318928",
+    "A319411",
+    "A319416",
+    "A319421",
+    "A329738",
+    "A329744",
+    "A329767",
+    "A329860",
+    "A329861",
+    "A329864",
+    "A329865",
+    "A329866",
+    "A329867"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

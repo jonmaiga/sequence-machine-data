@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers P such that 8*P^2-1 and 8*(8*P^2-1)^2-1 are also prime numbers.",
+  "id": "A245674",
+  "mentions": [
+    "A245639"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

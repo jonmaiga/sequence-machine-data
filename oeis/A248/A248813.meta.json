@@ -1,0 +1,34 @@
+{
+  "description": "A(n,k) is the base-k complement of n; square array A(n,k), n>=0, k>=2, read by antidiagonals.",
+  "id": "A248813",
+  "mentions": [
+    "A001477",
+    "A004488",
+    "A048647",
+    "A055115",
+    "A055116",
+    "A055117",
+    "A055118",
+    "A055119",
+    "A055120",
+    "A055121",
+    "A055122",
+    "A055123",
+    "A055124",
+    "A055125",
+    "A055126"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

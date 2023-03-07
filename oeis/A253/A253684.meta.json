@@ -1,0 +1,22 @@
+{
+  "description": "Primes q with A253683(n) > q > A253685(n) such that (A253683(n), q, A253685(n)) forms a Wieferich triple.",
+  "id": "A253684",
+  "mentions": [
+    "A124121",
+    "A124122",
+    "A253683",
+    "A253685"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

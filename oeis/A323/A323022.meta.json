@@ -1,0 +1,33 @@
+{
+  "description": "Fourth omega of n. Number of distinct multiplicities in the prime signature of n.",
+  "id": "A323022",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A006939",
+    "A025487",
+    "A056239",
+    "A059404",
+    "A062770",
+    "A071625",
+    "A118914",
+    "A181819",
+    "A182856",
+    "A182857",
+    "A304464",
+    "A304465",
+    "A323014",
+    "A323023"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

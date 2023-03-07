@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = largest k such that the decimal representation of 3^k does not contain the digit n.",
+  "id": "A259081",
+  "mentions": [
+    "A094776",
+    "A259083"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

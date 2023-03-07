@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the sum of the reciprocal of the squares of the numbers whose digits are all even.",
+  "id": "A258271",
+  "mentions": [
+    "A045926",
+    "A194181",
+    "A194182"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

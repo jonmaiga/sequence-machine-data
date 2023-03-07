@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of partitions of set [n] into a set of at most k lists, with 0 <= k <= n. Also called broken permutations.",
+  "id": "A349776",
+  "mentions": [
+    "A000007",
+    "A000142",
+    "A000262",
+    "A001710",
+    "A062147",
+    "A096965",
+    "A271703"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

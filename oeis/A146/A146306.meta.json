@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = numerator of (n-6)/(2n)",
+  "id": "A146306",
+  "mentions": [
+    "A000010",
+    "A007310",
+    "A023022",
+    "A051724",
+    "A146307",
+    "A146308"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

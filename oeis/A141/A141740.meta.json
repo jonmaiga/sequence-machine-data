@@ -1,0 +1,22 @@
+{
+  "description": "Cumulative sum of the rows of triangle A141728.",
+  "id": "A141740",
+  "mentions": [
+    "A141727",
+    "A141728",
+    "A141739",
+    "A141741",
+    "A141746"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

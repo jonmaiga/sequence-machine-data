@@ -1,0 +1,20 @@
+{
+  "description": "Larger of pairs (m, n), such that the difference of their squares is a cube and the difference of their cubes is a square.",
+  "id": "A261328",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A001014",
+    "A261296"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

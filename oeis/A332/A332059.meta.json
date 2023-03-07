@@ -1,0 +1,20 @@
+{
+  "description": "Absolute value of first differences, or sum of digits of the first n terms of A332058.",
+  "id": "A332059",
+  "mentions": [
+    "A332056",
+    "A332057",
+    "A332058"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

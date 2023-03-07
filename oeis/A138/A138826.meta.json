@@ -1,0 +1,28 @@
+{
+  "description": "Concatenation of 2n-1 digits 1, n digits 0 and 2n-1 digits 1.",
+  "id": "A138826",
+  "mentions": [
+    "A138120",
+    "A138144",
+    "A138145",
+    "A138146",
+    "A138148",
+    "A138720",
+    "A138721",
+    "A138722",
+    "A147540"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:22:23",
+    "offset": 1,
+    "size": 8,
+    "source": "joeis"
+  }
+}

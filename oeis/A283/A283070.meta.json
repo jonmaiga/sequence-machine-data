@@ -1,0 +1,32 @@
+{
+  "description": "Sierpinski tetrahedron or tetrix numbers: a(n) = 2*4^n + 2.",
+  "id": "A283070",
+  "mentions": [
+    "A002023",
+    "A016957",
+    "A049332",
+    "A052539",
+    "A052548",
+    "A056469",
+    "A087288",
+    "A087289",
+    "A133140",
+    "A135440",
+    "A188161",
+    "A261723",
+    "A279511",
+    "A279512"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:53",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

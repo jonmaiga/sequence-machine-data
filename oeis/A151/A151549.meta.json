@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (A151548(n)-1)/2.",
+  "id": "A151549",
+  "mentions": [
+    "A000225",
+    "A011782",
+    "A151548",
+    "A160552"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

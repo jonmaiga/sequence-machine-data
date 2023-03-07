@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that 7*2^k + 1 is a prime factor of a Fermat number 2^(2^m) + 1 for some m.",
+  "id": "A280003",
+  "mentions": [
+    "A000215",
+    "A032353",
+    "A050527",
+    "A057778",
+    "A201364",
+    "A204620",
+    "A226366",
+    "A280004"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

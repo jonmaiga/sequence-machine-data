@@ -1,0 +1,68 @@
+{
+  "oi": 344858,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "floor(exp(cos(n)))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "cos",
+        "exp",
+        "floor"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "ceil(exp(cos(n)))-1",
+      "mt": 10000,
+      "px": [
+        "n",
+        "cos",
+        "exp",
+        "ceil",
+        "1",
+        "sub"
+      ]
+    },
+    {
+      "d": "2021-11-14",
+      "ix": "5%ceil(exp(cos(n)))",
+      "mt": 10000,
+      "px": [
+        "5",
+        "n",
+        "cos",
+        "exp",
+        "ceil",
+        "%"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "ceil(log(ceil(exp(cos(n)))))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "cos",
+        "exp",
+        "ceil",
+        "log",
+        "ceil"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "ceil(log2(ceil(exp(cos(n)))))",
+      "mt": 10000,
+      "px": [
+        "n",
+        "cos",
+        "exp",
+        "ceil",
+        "log2",
+        "ceil"
+      ]
+    }
+  ]
+}

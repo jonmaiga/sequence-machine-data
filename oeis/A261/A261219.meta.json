@@ -1,0 +1,26 @@
+{
+  "description": "Main diagonal of A261216: a(n) = A261216(n,n).",
+  "id": "A261219",
+  "mentions": [
+    "A060117",
+    "A060118",
+    "A060119",
+    "A060126",
+    "A089841",
+    "A261099",
+    "A261216",
+    "A261217",
+    "A261220"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

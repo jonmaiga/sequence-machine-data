@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k such that (10^n+k, 10^n+k+2) and (10^(n+1)+k, 10^(n+1)+k+2) are two pairs of twin primes.",
+  "id": "A224905",
+  "mentions": [
+    "A124001",
+    "A224846"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

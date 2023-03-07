@@ -1,0 +1,21 @@
+{
+  "description": "Maximum size of a set of points taken from a hexagonal section of a hexagonal grid with side length n such that no three selected points form an equilateral triangle.",
+  "id": "A350547",
+  "mentions": [
+    "A003215",
+    "A008893",
+    "A240114"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

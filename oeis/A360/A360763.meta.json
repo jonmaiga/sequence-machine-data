@@ -1,0 +1,31 @@
+{
+  "description": "Number T(n,k) of multisets of nonempty strict integer partitions with a total of k parts and total sum of n; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A360763",
+  "mentions": [
+    "A000007",
+    "A000009",
+    "A001477",
+    "A008289",
+    "A055884",
+    "A057427",
+    "A089259",
+    "A285229",
+    "A360742",
+    "A360764",
+    "A360784",
+    "A360785"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

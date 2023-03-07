@@ -1,0 +1,19 @@
+{
+  "description": "Minimal number of states required for a 2-symbol, 5-tuple Turing machine that takes n steps on an initially blank tape before halting.",
+  "id": "A125269",
+  "mentions": [
+    "A052200",
+    "A060843"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Multiplicities of prime factors of A243103(n).",
+  "id": "A283866",
+  "mentions": [
+    "A000217",
+    "A001221",
+    "A002110",
+    "A010846",
+    "A027748",
+    "A124010",
+    "A162306",
+    "A243103"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

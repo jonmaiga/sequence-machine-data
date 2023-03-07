@@ -1,0 +1,18 @@
+{
+  "description": "Number of length-n 0..2 arrays with no adjacent pair x,x+1 followed at any distance by x+1,x.",
+  "id": "A268451",
+  "mentions": [
+    "A268457"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

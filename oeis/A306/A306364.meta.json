@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array of the number of binary, rooted, leaf-labeled tree topologies with n leaves and k cherries, n >= 2, 1 <= k <= floor(n/2).",
+  "id": "A306364",
+  "mentions": [
+    "A001147",
+    "A001710",
+    "A079484"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 2,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

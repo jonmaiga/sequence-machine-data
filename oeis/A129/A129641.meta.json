@@ -1,0 +1,24 @@
+{
+  "description": "Nonnegative values x of solutions (x, y) to the Diophantine equation x^2+(x+409)^2 = y^2.",
+  "id": "A129641",
+  "mentions": [
+    "A001652",
+    "A129640",
+    "A156035",
+    "A160577",
+    "A160578",
+    "A160579"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:21:57",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Irregular table T(n, k), n > 0, k = 1..A356148(n), read by rows; the n-th row contains, in ascending order, the distinct positive integers whose binary expansion appears as a substring in the binary expansion of n or its complement.",
+  "id": "A356149",
+  "mentions": [
+    "A165416",
+    "A356148",
+    "A356150"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

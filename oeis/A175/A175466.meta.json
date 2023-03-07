@@ -1,0 +1,22 @@
+{
+  "description": "Table read by antidiagonals: a(m,n) = the largest positive integer occurring, when written in binary, as a substring in both binary m and binary n.",
+  "id": "A175466",
+  "mentions": [
+    "A004780",
+    "A043529",
+    "A175488"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

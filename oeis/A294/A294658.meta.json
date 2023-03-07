@@ -1,0 +1,20 @@
+{
+  "description": "Number of steps required to reach either 5 or 13, starting with n, when iterating the map A125256: x -> smallest odd prime divisor of n^2+1; or a(n) = -1 in case 5 is never reached.",
+  "id": "A294658",
+  "mentions": [
+    "A125256",
+    "A294656",
+    "A294657"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 2,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

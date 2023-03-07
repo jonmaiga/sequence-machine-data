@@ -1,0 +1,25 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) = number of aperiodic necklaces (Lyndon words) with n beads and k colors that are the same when turned over.",
+  "id": "A284856",
+  "mentions": [
+    "A056391",
+    "A056493",
+    "A056494",
+    "A056495",
+    "A056496",
+    "A056497",
+    "A284855"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "A partial double sum of integers: a(n) = Sum_{x=1..n} Sum_{y=1..n} T(x,y), where T is the matrix product: T = A051731*A127093*Transpose(A054524) and T(n,1)=0 (* stands for matrix multiplication).",
+  "id": "A253951",
+  "mentions": [
+    "A003418",
+    "A048272",
+    "A051731",
+    "A054524",
+    "A127093"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of non-isomorphic sets of subsets of {1..n} that are closed under union and cover all n vertices. First differences of A193675.",
+  "id": "A326907",
+  "mentions": [
+    "A001930",
+    "A102895",
+    "A108798",
+    "A108800",
+    "A193674",
+    "A193675",
+    "A326880",
+    "A326881",
+    "A326883",
+    "A326898",
+    "A326906",
+    "A326908"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 3n - (sum of digits of 3n in base 3).",
+  "id": "A346502",
+  "mentions": [
+    "A004128",
+    "A005187",
+    "A053735",
+    "A344853"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:53:07",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

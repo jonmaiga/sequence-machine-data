@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the largest exponent k such that the sums, with multiplicity, of the i-th powers of the prime factors of A100118(n) are all prime for i=1 to k.",
+  "id": "A337395",
+  "mentions": [
+    "A001414",
+    "A067666",
+    "A100118",
+    "A224787"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

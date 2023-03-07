@@ -1,0 +1,22 @@
+{
+  "description": "The number of regions inside a concave circular triangle formed by the straight line segments mutually connecting all vertices and all points that divide the sides into n equal parts.",
+  "id": "A340685",
+  "mentions": [
+    "A007678",
+    "A092867",
+    "A340639",
+    "A340686",
+    "A340687",
+    "A340688"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

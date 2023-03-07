@@ -1,0 +1,20 @@
+{
+  "description": "Triangle whose n-th row is the expansion of x*(x^n*(x - 1) + (-1)^n*2).",
+  "id": "A143439",
+  "mentions": [
+    "A033999",
+    "A175739"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": -1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

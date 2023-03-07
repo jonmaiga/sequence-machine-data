@@ -1,0 +1,20 @@
+{
+  "description": "Self-inverse integer permutation induced by Beatty sequences for 4*Pi/3 and 4*Pi/(4*Pi-3).",
+  "id": "A164088",
+  "mentions": [
+    "A109239",
+    "A164086",
+    "A164087"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

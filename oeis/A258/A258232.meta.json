@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..1} Product_{k>=1} (1-x^k) dx.",
+  "id": "A258232",
+  "mentions": [
+    "A010815",
+    "A242168",
+    "A258229",
+    "A258230",
+    "A258404",
+    "A258405",
+    "A258406",
+    "A258407",
+    "A258408"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:46:57",
+    "offset": 0,
+    "size": 106,
+    "source": "joeis"
+  }
+}

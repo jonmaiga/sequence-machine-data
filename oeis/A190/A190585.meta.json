@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. Product_{n>=1} (1 - x^n)^(-u(n)/n) where u(n) is the unitary Moebius function (A076479).",
+  "id": "A190585",
+  "mentions": [
+    "A000012",
+    "A076479"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

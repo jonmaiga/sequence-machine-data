@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of Sum_{k=0..n} 1/binomial(n,k)^2.",
+  "id": "A100516",
+  "mentions": [
+    "A000108",
+    "A046825",
+    "A100517",
+    "A100518"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the sizes of the longest clique of all partitions of n.",
+  "id": "A264397",
+  "mentions": [
+    "A091602",
+    "A243978"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

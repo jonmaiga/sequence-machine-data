@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to 4-color a 3 X n grid ignoring the variations of two colors.",
+  "id": "A355882",
+  "mentions": [
+    "A198710",
+    "A355881",
+    "A355883"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:56",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

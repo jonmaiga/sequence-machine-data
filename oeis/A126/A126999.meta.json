@@ -1,0 +1,26 @@
+{
+  "description": "Zero-one fractional-part array for the golden ratio; a rectangular array T by antidiagonals.",
+  "id": "A126999",
+  "mentions": [
+    "A005614",
+    "A078588",
+    "A123740",
+    "A126700",
+    "A126701",
+    "A187944",
+    "A187950",
+    "A188294"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

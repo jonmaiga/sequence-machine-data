@@ -1,0 +1,20 @@
+{
+  "description": "The densest possibly infinite sequence of primes of the form a(n) = floor[A^(C^n)] for A < 2. The density parameter C here approaches its minimal possible value C_0 = 1.2209864... (A117739), while the corresponding value of A is 1.8252076... (A243370).",
+  "id": "A243358",
+  "mentions": [
+    "A060699",
+    "A117739",
+    "A243370"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

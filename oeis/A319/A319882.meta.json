@@ -1,0 +1,21 @@
+{
+  "description": "Number of ordered pairs (i, j) with 0 < i < j < prime(n)/2 such that (i^4 mod prime(n)) > (j^4 mod prime(n)).",
+  "id": "A319882",
+  "mentions": [
+    "A000040",
+    "A000583",
+    "A319311",
+    "A319480",
+    "A319894"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 2,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

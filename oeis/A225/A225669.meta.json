@@ -1,0 +1,23 @@
+{
+  "description": "Slowest-growing sequence of odd primes whose reciprocals sum to 1.",
+  "id": "A225669",
+  "mentions": [
+    "A000058",
+    "A046689",
+    "A075442",
+    "A136616",
+    "A181503",
+    "A225670",
+    "A225671"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

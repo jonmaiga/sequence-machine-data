@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of (91 + 45*sqrt(5)) * Pi^4 / 18750.",
+  "id": "A347081",
+  "mentions": [
+    "A346451",
+    "A346571"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:05:03",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

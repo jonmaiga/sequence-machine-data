@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows, matrix product of A145677 * A004736.",
+  "id": "A158841",
+  "mentions": [
+    "A002061",
+    "A004736",
+    "A145677",
+    "A158842"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

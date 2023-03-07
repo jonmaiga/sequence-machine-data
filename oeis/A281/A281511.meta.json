@@ -1,0 +1,18 @@
+{
+  "description": "The lexicographically earliest sequence of positive integers such that for all k >= j >= 1, if a(n) = a(n + j) = a(n + k) then a(n + j + k) != a(n).",
+  "id": "A281511",
+  "mentions": [
+    "A005282"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

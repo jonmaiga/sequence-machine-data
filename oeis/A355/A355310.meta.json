@@ -1,0 +1,28 @@
+{
+  "description": "Total number of V-toothpicks after n-th stage in a cellular automaton with V-toothpicks of 60 degrees (see Comments lines for precise definition).",
+  "id": "A355310",
+  "mentions": [
+    "A139250",
+    "A153006",
+    "A160120",
+    "A161206",
+    "A161412",
+    "A161420",
+    "A299476",
+    "A299478",
+    "A327330",
+    "A327332",
+    "A355311"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

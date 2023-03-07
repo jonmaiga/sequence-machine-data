@@ -1,0 +1,21 @@
+{
+  "description": "Three-digit numbers from the decimal expansion of Pi (version 2).",
+  "id": "A107117",
+  "mentions": [
+    "A105320",
+    "A107114",
+    "A107115",
+    "A107116"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

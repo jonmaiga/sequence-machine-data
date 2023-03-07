@@ -1,0 +1,24 @@
+{
+  "description": "Least number with the same prime signature as {the n-th quarter-square}+1.",
+  "id": "A278260",
+  "mentions": [
+    "A002110",
+    "A005117",
+    "A033638",
+    "A046523",
+    "A278162",
+    "A278254",
+    "A278259"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 113,
+    "source": "oeis-bfile"
+  }
+}

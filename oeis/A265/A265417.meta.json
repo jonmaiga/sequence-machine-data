@@ -1,0 +1,21 @@
+{
+  "description": "Rectangular array T(n,m), read by upward antidiagonals: T(n,m) is the number of difunctional (regular) binary relations between an n-element set and an m-element set.",
+  "id": "A265417",
+  "mentions": [
+    "A005056",
+    "A014235",
+    "A341287"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

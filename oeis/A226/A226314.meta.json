@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(i,j) = j+(i-j)/gcd(i,j) (1<=i<=j).",
+  "id": "A226314",
+  "mentions": [
+    "A002262",
+    "A037161",
+    "A037162",
+    "A040001",
+    "A054531",
+    "A066657",
+    "A066658",
+    "A226555"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

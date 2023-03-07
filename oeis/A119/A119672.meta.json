@@ -1,0 +1,21 @@
+{
+  "description": "Number of prime factors (with multiplicity) of n^4 + 3*n^2 + 1 (A057721).",
+  "id": "A119672",
+  "mentions": [
+    "A001222",
+    "A057721",
+    "A120062"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

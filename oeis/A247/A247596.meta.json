@@ -1,0 +1,21 @@
+{
+  "description": "Number of nonisomorphic binary n X n matrices with three 1's per column under row and column permutations.",
+  "id": "A247596",
+  "mentions": [
+    "A247417",
+    "A247597",
+    "A247598",
+    "A304942",
+    "A305027"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 3,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

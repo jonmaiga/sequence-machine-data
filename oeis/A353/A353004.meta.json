@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 2*k^2 + 29 is semiprime.",
+  "id": "A353004",
+  "mentions": [
+    "A007642",
+    "A241554",
+    "A352949",
+    "A353388"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of q^(-1) * f(q) * f(q^7) / (f(-q^4) * f(-q^28)) in powers of q where f() is a Ramanujan theta function.",
+  "id": "A230446",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A123862",
+    "A161970"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:01:27",
+    "offset": -1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

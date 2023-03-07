@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that phi(k) + prime(k) is a prime.",
+  "id": "A116034",
+  "mentions": [
+    "A116033"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "G.f.: 1/(1-x) = Sum_{n>=0} a(n) * x^n/(1-x)^n * Sum_{k=0..n} binomial(n,k)^2 * (-x)^k.",
+  "id": "A227821",
+  "mentions": [
+    "A227820"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of ordered ways of writing n = i + j, where i is 0 or a prime and j is a triangular number (A000217) >= 0.",
+  "id": "A132399",
+  "mentions": [
+    "A000217",
+    "A065397",
+    "A076768",
+    "A090302",
+    "A117054",
+    "A144590",
+    "A154752"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

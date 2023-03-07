@@ -1,0 +1,20 @@
+{
+  "description": "Greedy odd Egyptian fraction representation of 1 (without repeats).",
+  "id": "A130738",
+  "mentions": [
+    "A002966",
+    "A169820"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

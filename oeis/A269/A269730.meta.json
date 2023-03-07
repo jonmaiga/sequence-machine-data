@@ -1,0 +1,25 @@
+{
+  "description": "Dimensions of the 2-polytridendriform operad TDendr_2.",
+  "id": "A269730",
+  "mentions": [
+    "A001003",
+    "A001047",
+    "A001263",
+    "A006442",
+    "A126216",
+    "A269731",
+    "A269732"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Consider the partition of consecutive evil numbers (A001969) into minimal blocks such that concatenation of numbers in each block is an odious number (A000069). Sequence lists numbers of evil numbers in each block.",
+  "id": "A248138",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A248140",
+    "A248145",
+    "A248146"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

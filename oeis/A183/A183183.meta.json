@@ -1,0 +1,30 @@
+{
+  "description": "Numbers n such that (7*10^(2n+1)+18*10^n-7)/9 is prime.",
+  "id": "A183183",
+  "mentions": [
+    "A004023",
+    "A077775",
+    "A077796",
+    "A077798",
+    "A107123",
+    "A107127",
+    "A107648",
+    "A107649",
+    "A115073",
+    "A183174",
+    "A183187"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

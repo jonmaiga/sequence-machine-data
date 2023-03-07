@@ -1,0 +1,17 @@
+{
+  "description": "Fixed points of A243625: integers n such that A243625(n)=n.",
+  "id": "A263351",
+  "mentions": [
+    "A243625"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of parking functions a of length n such that a(1) = k and if we replace a(1) = k with k+1 we don't get a parking function.",
+  "id": "A298594",
+  "mentions": [
+    "A000272",
+    "A298592",
+    "A298593",
+    "A298597"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

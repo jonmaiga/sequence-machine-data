@@ -1,0 +1,21 @@
+{
+  "description": "Related to the periodic sequence A171654.",
+  "id": "A197916",
+  "mentions": [
+    "A030308",
+    "A057077",
+    "A171654"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:20:27",
+    "offset": 0,
+    "size": 68,
+    "source": "joeis"
+  }
+}

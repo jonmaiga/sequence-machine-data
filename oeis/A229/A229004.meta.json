@@ -1,0 +1,21 @@
+{
+  "description": "Indices of Bell numbers divisible by 3.",
+  "id": "A229004",
+  "mentions": [
+    "A000110",
+    "A016789",
+    "A054767",
+    "A155730"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

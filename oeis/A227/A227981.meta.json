@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that sigma(n-1) - sigma(n+1) < sigma(n); where sigma(n) = A000203(n) = sum of the divisors of n.",
+  "id": "A227981",
+  "mentions": [
+    "A000203",
+    "A227980"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

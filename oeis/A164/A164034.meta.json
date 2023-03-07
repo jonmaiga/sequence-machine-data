@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = ((4+3*sqrt(2))*(4+sqrt(2))^n + (4-3*sqrt(2))*(4-sqrt(2))^n)/4.",
+  "id": "A164034",
+  "mentions": [
+    "A164033",
+    "A164035",
+    "A164090"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

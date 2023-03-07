@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to seat 4 types of people in n labeled seats around a circle such that no two adjacent people are of the same type.",
+  "id": "A218034",
+  "mentions": [
+    "A054878",
+    "A092297"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:37:37",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

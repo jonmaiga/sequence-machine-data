@@ -1,0 +1,30 @@
+{
+  "description": "Triangle T(n,k) read by rows: coefficients of polynomials P_n(t) defined in Formula section.",
+  "id": "A291844",
+  "mentions": [
+    "A286795",
+    "A286798",
+    "A286800",
+    "A291843",
+    "A294158",
+    "A294159",
+    "A294160",
+    "A294161",
+    "A294162",
+    "A294163",
+    "A294164",
+    "A294165"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

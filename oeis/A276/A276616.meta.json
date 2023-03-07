@@ -1,0 +1,27 @@
+{
+  "description": "Square array A(n,k) = A276953(n,k)/n!, read by descending antidiagonals as A(1,1), A(1,2), A(2,1), A(1,3), A(2,2), A(3,1), etc.",
+  "id": "A276616",
+  "mentions": [
+    "A000142",
+    "A002260",
+    "A004736",
+    "A273670",
+    "A276617",
+    "A276931",
+    "A276934",
+    "A276953"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

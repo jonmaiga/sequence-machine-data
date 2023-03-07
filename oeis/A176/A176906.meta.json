@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of (15+sqrt(230))/5.",
+  "id": "A176906",
+  "mentions": [
+    "A165734",
+    "A176909"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:43:45",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

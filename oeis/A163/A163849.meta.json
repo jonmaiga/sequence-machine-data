@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that the difference between the nearest cubes above and below p is prime.",
+  "id": "A163849",
+  "mentions": [
+    "A000040",
+    "A048762",
+    "A048763",
+    "A111252",
+    "A145446"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

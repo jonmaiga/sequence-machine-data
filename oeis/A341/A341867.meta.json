@@ -1,0 +1,22 @@
+{
+  "description": "Square array read by downward antidiagonals: T(m,n) = Sum_{i=0..m, j=0..n} binomial(m,i)*binomial(n,j)*binomial(i+j,i).",
+  "id": "A341867",
+  "mentions": [
+    "A000079",
+    "A045623",
+    "A084771",
+    "A343561"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

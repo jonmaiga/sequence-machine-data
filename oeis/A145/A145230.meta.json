@@ -1,0 +1,24 @@
+{
+  "description": "Numbers of different values of the minimal factors s for primes of the form 4k+1 not exceeding 10^n (see A145215)",
+  "id": "A145230",
+  "mentions": [
+    "A145016",
+    "A145022",
+    "A145023",
+    "A145047",
+    "A145048",
+    "A145049",
+    "A145050",
+    "A145215"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

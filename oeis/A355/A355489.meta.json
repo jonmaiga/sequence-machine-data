@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that A000120(k) = A007814(k) + 2.",
+  "id": "A355489",
+  "mentions": [
+    "A000045",
+    "A000120",
+    "A007814",
+    "A010056",
+    "A025480",
+    "A048679",
+    "A072649",
+    "A355480"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

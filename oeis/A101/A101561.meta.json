@@ -1,0 +1,23 @@
+{
+  "description": "a(n)=(-1)^n*coefficient of x^n in sum{k>=1,x^(k-1)/(1+3x^k)}.",
+  "id": "A101561",
+  "mentions": [
+    "A048272",
+    "A051731",
+    "A081295",
+    "A101562",
+    "A101563"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

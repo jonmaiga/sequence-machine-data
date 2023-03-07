@@ -1,0 +1,25 @@
+{
+  "description": "Positive hexagonal numbers (A000384) that are pentagonal numbers (A000326) divided by 2.",
+  "id": "A259162",
+  "mentions": [
+    "A000326",
+    "A000384",
+    "A193866",
+    "A259156",
+    "A259161",
+    "A259163",
+    "A259167"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "description": "Number of semi-lone-child-avoiding locally disjoint rooted trees with n vertices.",
+  "id": "A331872",
+  "mentions": [
+    "A000081",
+    "A001678",
+    "A050381",
+    "A316473",
+    "A316696",
+    "A316697",
+    "A331678",
+    "A331679",
+    "A331680",
+    "A331681",
+    "A331686",
+    "A331687",
+    "A331871",
+    "A331873",
+    "A331874",
+    "A331934",
+    "A331935"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

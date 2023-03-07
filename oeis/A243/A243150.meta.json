@@ -1,0 +1,20 @@
+{
+  "description": "Least number k > 0 such that 2^k contains an n-digit long substring of the infinite string \"0123456789012345678901234567890123456....\".",
+  "id": "A243150",
+  "mentions": [
+    "A238448"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct prime factors of A008352.",
+  "id": "A113773",
+  "mentions": [
+    "A008352"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

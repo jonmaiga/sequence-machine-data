@@ -1,0 +1,20 @@
+{
+  "description": "Values of n for which the concatenation of the form 1nn1 (sequence A100846) are primes.",
+  "id": "A102496",
+  "mentions": [
+    "A100846",
+    "A102497"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

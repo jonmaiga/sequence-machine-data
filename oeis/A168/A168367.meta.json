@@ -1,0 +1,19 @@
+{
+  "description": "Terms of A123239 which are 2 mod 3.",
+  "id": "A168367",
+  "mentions": [
+    "A003627",
+    "A123239",
+    "A168325"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

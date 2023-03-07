@@ -1,0 +1,21 @@
+{
+  "description": "Number of binary words of length n containing no subword 01101.",
+  "id": "A209888",
+  "mentions": [
+    "A107066",
+    "A209972",
+    "A277751",
+    "A317669"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

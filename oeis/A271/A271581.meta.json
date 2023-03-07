@@ -1,0 +1,18 @@
+{
+  "description": "Magic sums of 4 X 4 magic squares composed of triangular numbers and squares.",
+  "id": "A271581",
+  "mentions": [
+    "A271578",
+    "A271579"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 if the total number of 1-bits in the exponents of prime factorization n is even, otherwise 0.",
+  "id": "A359464",
+  "mentions": [
+    "A000379",
+    "A059841",
+    "A064547",
+    "A359465"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

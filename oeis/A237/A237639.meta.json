@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n = p^4-p^3-p^2-p-1 (for prime p) such that n^4-n^3-n^2-n-1 is prime.",
+  "id": "A237639",
+  "mentions": [
+    "A125082"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

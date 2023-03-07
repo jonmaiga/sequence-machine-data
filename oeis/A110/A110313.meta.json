@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. exp(x)/(1-x-x^2).",
+  "id": "A110313",
+  "mentions": [
+    "A000045",
+    "A005442",
+    "A039948"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

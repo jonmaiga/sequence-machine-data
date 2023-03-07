@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1; thereafter a(n) = (product of digits of b(n))*(product of digits of b(n-1)), where b = A329804.",
+  "id": "A330327",
+  "mentions": [
+    "A329804",
+    "A330326"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

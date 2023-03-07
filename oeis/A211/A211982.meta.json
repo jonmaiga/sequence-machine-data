@@ -1,0 +1,22 @@
+{
+  "description": "Second crank moment minus second rank moment: M_2(n) - N_2(n) = 2*spt(n).",
+  "id": "A211982",
+  "mentions": [
+    "A066186",
+    "A092269",
+    "A220907",
+    "A220908",
+    "A220909"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

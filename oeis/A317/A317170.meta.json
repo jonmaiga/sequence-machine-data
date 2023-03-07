@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. exp(exp(x) - 1)*BesselI(1,2*(exp(x) - 1))/(exp(x) - 1).",
+  "id": "A317170",
+  "mentions": [
+    "A001006",
+    "A064856",
+    "A086672",
+    "A317169"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

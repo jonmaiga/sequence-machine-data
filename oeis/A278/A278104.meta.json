@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle T(n,k) := A277648(n,k) for k = 1...A278102(n), read by rows.",
+  "id": "A278104",
+  "mentions": [
+    "A277647",
+    "A277648",
+    "A278101",
+    "A278102"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:44",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

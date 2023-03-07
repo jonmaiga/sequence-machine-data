@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k), partial row sums of the n-th row of A127013 read right to left.",
+  "id": "A127057",
+  "mentions": [
+    "A000203",
+    "A038040",
+    "A126988",
+    "A127013"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

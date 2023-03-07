@@ -1,0 +1,19 @@
+{
+  "description": "Let S_n be the set of the integers having alternating bit sum equal to n. There are a(n) primes among the smallest 2n+1 numbers of S_n.",
+  "id": "A184907",
+  "mentions": [
+    "A002450",
+    "A065084",
+    "A065359"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

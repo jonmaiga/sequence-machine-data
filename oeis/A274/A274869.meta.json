@@ -1,0 +1,19 @@
+{
+  "description": "Number of set partitions of [n] into exactly five blocks such that all odd elements are in blocks with an odd index and all even elements are in blocks with an even index.",
+  "id": "A274869",
+  "mentions": [
+    "A274537"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 5,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

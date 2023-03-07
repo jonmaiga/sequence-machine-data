@@ -1,0 +1,24 @@
+{
+  "description": "Number T(n,k) of permutations of [n] with exactly k (possibly overlapping) occurrences of the consecutive pattern 45321; triangle T(n,k), n >= 0, 0 <= k <= max(0, floor((n-1)/4)), read by rows.",
+  "id": "A264781",
+  "mentions": [
+    "A000142",
+    "A002265",
+    "A007696",
+    "A062199",
+    "A202213",
+    "A264896"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

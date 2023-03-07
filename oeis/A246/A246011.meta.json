@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Product_{i in row n of A245562} Lucas(i+1), where Lucas = A000204.",
+  "id": "A246011",
+  "mentions": [
+    "A000204",
+    "A001045",
+    "A011782",
+    "A071053",
+    "A245562",
+    "A245565"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

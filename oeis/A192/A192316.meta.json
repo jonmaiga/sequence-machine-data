@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: A(x) = Sum_{n>=0} x^n * (1+x)^A038722(n), where A038722(n) = floor(sqrt(2*n)+1/2)^2 - n + 1.",
+  "id": "A192316",
+  "mentions": [
+    "A038722",
+    "A192317"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

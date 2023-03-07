@@ -1,0 +1,20 @@
+{
+  "description": "T(n, m) = Sum_{k=1..(m+3)/2} C(m-k+2, k-1)*C(n+1, k-1)*C(n-m+k-1, k-1)*C(2*n-2*k+4, 2*m-4*k+5)/(C(2*k-2, k-1)*C(2*m-2*k+4, 2*k-2))/2, triangle read by rows.",
+  "id": "A338372",
+  "mentions": [
+    "A001263",
+    "A008459"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

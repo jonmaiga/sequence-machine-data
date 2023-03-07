@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = n + [rn/t] + [sn/t] + [un/t], where []=floor and r=2^(1/2), s=r+1, t=r+2, u=r+3.",
+  "id": "A184922",
+  "mentions": [
+    "A001952",
+    "A003151",
+    "A184920",
+    "A184921",
+    "A184923",
+    "A188376",
+    "A188396",
+    "A341239",
+    "A359351"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:23:03",
+    "offset": 1,
+    "size": 120,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Values k > 1 in A271328 such that k does not have any nontrivial divisors in A271328.",
+  "id": "A271471",
+  "mentions": [
+    "A271328",
+    "A271468"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

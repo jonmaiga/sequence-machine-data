@@ -1,0 +1,21 @@
+{
+  "description": "Palindromic primes with only composite digits (i.e.,4,6,8,9).",
+  "id": "A128376",
+  "mentions": [
+    "A002385",
+    "A083185",
+    "A128375"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

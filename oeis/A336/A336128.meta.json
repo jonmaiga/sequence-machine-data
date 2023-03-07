@@ -1,0 +1,38 @@
+{
+  "description": "Number of ways to split a strict composition of n into contiguous subsequences with different sums.",
+  "id": "A336128",
+  "mentions": [
+    "A001970",
+    "A006951",
+    "A038041",
+    "A063834",
+    "A075900",
+    "A133494",
+    "A271619",
+    "A275780",
+    "A279375",
+    "A305551",
+    "A317508",
+    "A318684",
+    "A323583",
+    "A326519",
+    "A336127",
+    "A336130",
+    "A336131",
+    "A336132",
+    "A336133",
+    "A336134",
+    "A336135"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

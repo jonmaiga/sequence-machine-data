@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of arccos(-sqrt(1/8)).",
+  "id": "A195704",
+  "mentions": [
+    "A168229",
+    "A188615",
+    "A195699"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:55",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

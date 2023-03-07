@@ -1,0 +1,22 @@
+{
+  "description": "Members of A067128 that are the smallest numbers with their prime signatures.",
+  "id": "A140999",
+  "mentions": [
+    "A002182",
+    "A003418",
+    "A025487",
+    "A067128",
+    "A094348",
+    "A097212"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

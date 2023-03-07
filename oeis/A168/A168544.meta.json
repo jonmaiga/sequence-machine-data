@@ -1,0 +1,20 @@
+{
+  "description": "The nonprime halfs of even single (or even isolated) numbers.",
+  "id": "A168544",
+  "mentions": [
+    "A008486",
+    "A040040",
+    "A141468",
+    "A168497"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

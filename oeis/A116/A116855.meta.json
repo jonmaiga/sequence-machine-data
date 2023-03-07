@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, constructed from binomial transforms of prefixes of A000255 (see Comments for precise definition).",
+  "id": "A116855",
+  "mentions": [
+    "A000142",
+    "A000255",
+    "A010027"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

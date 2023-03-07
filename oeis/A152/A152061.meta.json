@@ -1,0 +1,24 @@
+{
+  "description": "Counts of unique periodic binary strings of length n.",
+  "id": "A152061",
+  "mentions": [
+    "A001037",
+    "A008683",
+    "A027375",
+    "A050870",
+    "A050871",
+    "A143324",
+    "A178472"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

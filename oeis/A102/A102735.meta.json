@@ -1,0 +1,26 @@
+{
+  "description": "Table read by rows giving the coefficients of general sum formulas of n-th sums of Bell numbers (A005001). The k-th row (k>=1) contains T(i,k) for i=1 to 2*k and k=1 to n-3, where T(i,k) satisfies Sum_{q=1..n} Bell(q) = 1 + C(n,2) + Sum_{k=1..n-3} Sum_{i=1..2*k} T(i,k) * C(n-k-2,1).",
+  "id": "A102735",
+  "mentions": [
+    "A000045",
+    "A000108",
+    "A000110",
+    "A000166",
+    "A000204",
+    "A003422",
+    "A005001",
+    "A008277",
+    "A094262"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that A280864(k)=p for some k and A280864(k-1)=m*p for some m>1.",
+  "id": "A280745",
+  "mentions": [
+    "A280864"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

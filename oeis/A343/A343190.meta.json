@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = ... = a(5) = 1; a(n+5) = Sum_{d|n} mu(n/d) * a(d).",
+  "id": "A343190",
+  "mentions": [
+    "A007554",
+    "A307995",
+    "A318583",
+    "A343188",
+    "A343189"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangular array read by rows. T(n,k) is the number of permutations of {1,2,...,n} with descent set {1,3,5,...,m} (where m is the greatest odd integer less than n) that have exactly k inversions, n=0, k=0, or n>0, 0<=k<=ceiling((n-1)^2/2).",
+  "id": "A337126",
+  "mentions": [
+    "A000111",
+    "A337193"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

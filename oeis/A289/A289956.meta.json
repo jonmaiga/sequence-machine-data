@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of [n] having exactly eight nontrivial cycles.",
+  "id": "A289956",
+  "mentions": [
+    "A136394"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 16,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

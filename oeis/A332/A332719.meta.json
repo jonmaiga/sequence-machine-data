@@ -1,0 +1,23 @@
+{
+  "description": "Index position of {n}^3 within the list of partitions of 3n in canonical ordering.",
+  "id": "A332719",
+  "mentions": [
+    "A000041",
+    "A080577",
+    "A322761",
+    "A330661",
+    "A332706",
+    "A332720"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

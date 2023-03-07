@@ -1,0 +1,39 @@
+{
+  "description": "Square array of Narayana polynomials N_n evaluated at the integers, A(n,k) = N_n(k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A243631",
+  "mentions": [
+    "A000027",
+    "A000108",
+    "A001003",
+    "A001263",
+    "A007564",
+    "A008550",
+    "A028387",
+    "A059231",
+    "A078009",
+    "A078018",
+    "A081178",
+    "A090197",
+    "A090198",
+    "A090199",
+    "A090200",
+    "A099169",
+    "A132745",
+    "A204057",
+    "A242369",
+    "A307883",
+    "A336727"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

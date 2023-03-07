@@ -1,0 +1,29 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into distinct nontrivial divisors of n.",
+  "id": "A331979",
+  "mentions": [
+    "A018818",
+    "A027750",
+    "A033630",
+    "A065205",
+    "A070824",
+    "A100346",
+    "A211111",
+    "A293813",
+    "A293814",
+    "A294137",
+    "A294138",
+    "A331927",
+    "A331928"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

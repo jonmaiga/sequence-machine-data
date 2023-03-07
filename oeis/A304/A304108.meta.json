@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that the (0,1)-polynomial encoded in binary expansion of n has at least one duplicated irreducible divisor when the factorization is done in polynomial ring GF(2)[X].",
+  "id": "A304108",
+  "mentions": [
+    "A013929",
+    "A014580",
+    "A048720",
+    "A091219",
+    "A091221",
+    "A091222",
+    "A304107",
+    "A304109"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

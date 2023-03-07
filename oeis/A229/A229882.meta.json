@@ -1,0 +1,22 @@
+{
+  "description": "Squarefree oblong numbers.",
+  "id": "A229882",
+  "mentions": [
+    "A002378",
+    "A005117",
+    "A007674",
+    "A061304"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

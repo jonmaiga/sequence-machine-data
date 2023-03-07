@@ -1,0 +1,20 @@
+{
+  "description": "Second-largest prime factor of the n-th number that is a product of exactly n primes.",
+  "id": "A215776",
+  "mentions": [
+    "A087039",
+    "A101695",
+    "A215405"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

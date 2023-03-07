@@ -1,0 +1,24 @@
+{
+  "description": "Crater numbers.",
+  "id": "A193409",
+  "mentions": [
+    "A002113",
+    "A134810",
+    "A134970",
+    "A193412",
+    "A193413"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n, k) read by rows: sum of residues p^(q-1) (mod q^2) and q^(p-1) (mod p^2), where p = prime(n) and q = prime(k) for k = 1, 2, ...., n-1.",
+  "id": "A274916",
+  "mentions": [
+    "A124121",
+    "A124122",
+    "A126432",
+    "A266829"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

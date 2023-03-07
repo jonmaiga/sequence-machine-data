@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers k such that prime = abs(smallest digit of k - sum of all the other digits of k).",
+  "id": "A158282",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A156979"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

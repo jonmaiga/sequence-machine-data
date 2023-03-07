@@ -1,0 +1,24 @@
+{
+  "description": "Intersection of A349745 and A351458: numbers k for which k * gcd(sigma(k), A003961(k)) is equal to sigma(k) * gcd(k, A003961(k)) and also k * gcd(sigma(k), A276086(k)) is equal to sigma(k) * gcd(k, A276086(k)).",
+  "id": "A351459",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A005820",
+    "A276086",
+    "A323653",
+    "A349745",
+    "A351458"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

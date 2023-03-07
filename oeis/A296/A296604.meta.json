@@ -1,0 +1,21 @@
+{
+  "description": "Number of Johnson solids with n faces.",
+  "id": "A296604",
+  "mentions": [
+    "A181708",
+    "A242731",
+    "A296602",
+    "A296603"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:32:41",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

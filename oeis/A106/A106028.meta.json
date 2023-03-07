@@ -1,0 +1,24 @@
+{
+  "description": "Minimal number of editing steps (delete, insert or substitute) to transform the binary representation of n into that of A003714(n), the n-th fibbinary number.",
+  "id": "A106028",
+  "mentions": [
+    "A000045",
+    "A003714",
+    "A007088",
+    "A014417",
+    "A035517",
+    "A070939",
+    "A072649"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of palindromic partitions of n in which no part exceeds k, 1 <= k <= n.",
+  "id": "A233322",
+  "mentions": [
+    "A025065",
+    "A026820",
+    "A233321",
+    "A233323",
+    "A233324"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of elements x in GL(2,Z_n) with x^k == I mod n where I is the identity matrix.",
+  "id": "A316584",
+  "mentions": [
+    "A053725",
+    "A066907",
+    "A316566",
+    "A316586"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

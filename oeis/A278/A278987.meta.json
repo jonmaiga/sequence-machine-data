@@ -1,0 +1,26 @@
+{
+  "description": "Array read by antidiagonals downwards: T(b,n) = number of words of length n over an alphabet of size b that are in standard order and which have the property that every letter that appears in the word is repeated.",
+  "id": "A278987",
+  "mentions": [
+    "A000012",
+    "A000295",
+    "A008299",
+    "A130103",
+    "A273978",
+    "A278984",
+    "A278988",
+    "A278989"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

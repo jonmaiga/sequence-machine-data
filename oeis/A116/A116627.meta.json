@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = First integer i such that A116626(i) = n, 0 if n never occurs in A116626.",
+  "id": "A116627",
+  "mentions": [
+    "A116626"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

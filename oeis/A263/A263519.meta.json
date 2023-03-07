@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k) = Number of (n+1) X (k+1) arrays of permutations of 0..(n+1)*(k+1)-1 filled by rows with each element moved a city block distance of 0 or 1, and rows and columns in increasing lexicographic order.",
+  "id": "A263519",
+  "mentions": [
+    "A147704",
+    "A192960"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

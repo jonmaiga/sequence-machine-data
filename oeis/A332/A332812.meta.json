@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n for which A156552(n) == 2 (mod 3).",
+  "id": "A332812",
+  "mentions": [
+    "A031215",
+    "A156552",
+    "A329604",
+    "A329609",
+    "A329903",
+    "A332814",
+    "A332822"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

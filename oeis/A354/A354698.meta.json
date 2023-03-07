@@ -1,0 +1,22 @@
+{
+  "description": "T(n,k) is the number of points with integer coordinates strictly inside the triangle with vertices (0,0), (n,0), (n,k), where T(n,k) is a triangle read by rows, 2 <= k <= n.",
+  "id": "A354698",
+  "mentions": [
+    "A000217",
+    "A004526",
+    "A074148",
+    "A117571"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

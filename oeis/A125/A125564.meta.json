@@ -1,0 +1,19 @@
+{
+  "description": "Theta series of 5-dimensional lattice A_5^{+3}.",
+  "id": "A125564",
+  "mentions": [
+    "A008445",
+    "A023917",
+    "A125561"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

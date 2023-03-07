@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = sigma(n,1) * sigma(n,2) * ... * sigma(n,n).",
+  "id": "A236329",
+  "mentions": [
+    "A000203",
+    "A001157",
+    "A001158",
+    "A001159",
+    "A001160",
+    "A236328"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

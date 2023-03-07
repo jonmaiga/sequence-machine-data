@@ -1,0 +1,21 @@
+{
+  "description": "Sylvester cyclotomic numbers for A002605.",
+  "id": "A105607",
+  "mentions": [
+    "A002605",
+    "A105606",
+    "A105608",
+    "A105609"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

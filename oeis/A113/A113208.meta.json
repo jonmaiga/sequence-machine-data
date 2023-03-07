@@ -1,0 +1,21 @@
+{
+  "description": "Half-fixed-point of ascending descending base exponent transform.",
+  "id": "A113208",
+  "mentions": [
+    "A113122",
+    "A113153",
+    "A113154"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

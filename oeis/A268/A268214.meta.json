@@ -1,0 +1,19 @@
+{
+  "description": "Number of paths from (0,0) to (n,n) that use E(1,0) and N(0,1) as steps and have odd number of East steps below the line y=x-1.",
+  "id": "A268214",
+  "mentions": [
+    "A000108",
+    "A268213"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

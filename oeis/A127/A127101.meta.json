@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that k^2 divides 9^k - 1.",
+  "id": "A127101",
+  "mentions": [
+    "A068382",
+    "A123104",
+    "A127092",
+    "A127100",
+    "A127102",
+    "A127103",
+    "A127105",
+    "A127106",
+    "A127107"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:39",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

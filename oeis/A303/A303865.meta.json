@@ -1,0 +1,20 @@
+{
+  "description": "Number of noncrossing path sets on 3*n nodes up to rotation with each path having exactly 3 nodes.",
+  "id": "A303865",
+  "mentions": [
+    "A303330",
+    "A303844",
+    "A303864"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

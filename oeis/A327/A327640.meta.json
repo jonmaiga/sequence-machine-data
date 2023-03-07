@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n into divisors d of n such that n/d is odd.",
+  "id": "A327640",
+  "mentions": [
+    "A018818",
+    "A038550",
+    "A171565"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of points hidden from the central point by a closer point in a hexagonal orchard of order n.",
+  "id": "A216453",
+  "mentions": [
+    "A063985"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:49:17",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

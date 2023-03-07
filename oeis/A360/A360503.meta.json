@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that A048435(k) is prime.",
+  "id": "A360503",
+  "mentions": [
+    "A007089",
+    "A048435",
+    "A360502"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of ways to write n as a product of the terms of A332820 larger than 1; a(1) = 1 by convention (an empty product).",
+  "id": "A353353",
+  "mentions": [
+    "A003961",
+    "A048675",
+    "A332820",
+    "A348717",
+    "A353303",
+    "A353333",
+    "A353350",
+    "A353359"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-bfile"
+  }
+}

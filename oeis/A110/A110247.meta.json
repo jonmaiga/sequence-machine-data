@@ -1,0 +1,23 @@
+{
+  "description": "A Jacobi number triangle.",
+  "id": "A110247",
+  "mentions": [
+    "A110242",
+    "A110248",
+    "A110249",
+    "A110250"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

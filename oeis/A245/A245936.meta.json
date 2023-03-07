@@ -1,0 +1,20 @@
+{
+  "description": "Limit-reverse of the Kolakoski sequence (A000002), with first term as initial block.",
+  "id": "A245936",
+  "mentions": [
+    "A000002",
+    "A006337",
+    "A245920",
+    "A245937"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

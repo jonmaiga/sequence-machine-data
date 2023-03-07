@@ -1,0 +1,23 @@
+{
+  "description": "Primitive part of A001353(n).",
+  "id": "A306825",
+  "mentions": [
+    "A000129",
+    "A001353",
+    "A008555",
+    "A008683",
+    "A061446",
+    "A238490"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

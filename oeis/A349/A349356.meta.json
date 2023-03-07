@@ -1,0 +1,26 @@
+{
+  "description": "Dirichlet convolution of A003959 with A097945 (Dirichlet inverse of A003958), where A003958 and A003959 are fully multiplicative with a(p) = p-1 and p+1 respectively.",
+  "id": "A349356",
+  "mentions": [
+    "A003958",
+    "A003959",
+    "A097945",
+    "A349133",
+    "A349173",
+    "A349355",
+    "A349357",
+    "A349381"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

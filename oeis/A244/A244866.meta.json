@@ -1,0 +1,19 @@
+{
+  "description": "Let G denote the 7-node, 12-edge graph formed from a hexagon with main diagonals drawn and a node at the center; a(n) = number of magic labelings of G with magic sum 2n.",
+  "id": "A244866",
+  "mentions": [
+    "A002721"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:50:39",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

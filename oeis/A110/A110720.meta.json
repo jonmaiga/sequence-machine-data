@@ -1,0 +1,25 @@
+{
+  "description": "Beginning with 5, concatenation of n successive numbers such that every partial concatenation is a prime.",
+  "id": "A110720",
+  "mentions": [
+    "A110714",
+    "A110715",
+    "A110716",
+    "A110717",
+    "A110718",
+    "A110719",
+    "A110721"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

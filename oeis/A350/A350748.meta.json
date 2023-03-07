@@ -1,0 +1,17 @@
+{
+  "description": "Smallest number not already in the sequence that is a divisor of A002182(n).",
+  "id": "A350748",
+  "mentions": [
+    "A002182"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

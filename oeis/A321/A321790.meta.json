@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the smallest base a > 2 such that a^(k-1) != 1 (mod k), where k = A001567(n), the n-th Fermat pseudoprime to base 2.",
+  "id": "A321790",
+  "mentions": [
+    "A001567",
+    "A002997",
+    "A083876",
+    "A135720",
+    "A141710",
+    "A177415",
+    "A214305",
+    "A285549"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

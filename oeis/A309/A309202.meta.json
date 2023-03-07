@@ -1,0 +1,17 @@
+{
+  "description": "Peter Munn showed in A111273 that if A111273(n)=m then if m is odd, n <= m, and if m is even, n <= 2*m-1; a(n) is either m-n or 2*m-1-n in the two cases.",
+  "id": "A309202",
+  "mentions": [
+    "A111273"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

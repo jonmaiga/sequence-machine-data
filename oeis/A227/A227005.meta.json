@@ -1,0 +1,25 @@
+{
+  "description": "Number of Hamiltonian circuits in a 2n X 2n square lattice of nodes, reduced for symmetry, where the orbits under the symmetry group of the square, D4, have 2 elements.",
+  "id": "A227005",
+  "mentions": [
+    "A003763",
+    "A063524",
+    "A209077",
+    "A227257",
+    "A227301",
+    "A237431",
+    "A237432"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

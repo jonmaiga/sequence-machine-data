@@ -1,0 +1,18 @@
+{
+  "description": "Sequence generated from A089080.",
+  "id": "A208147",
+  "mentions": [
+    "A089080"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

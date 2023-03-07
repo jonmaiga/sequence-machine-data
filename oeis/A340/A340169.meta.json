@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of strings of length n over the alphabet {a,b,c} with the number of a's divisible by 3, and the number of b's and c's is at most 3.",
+  "id": "A340169",
+  "mentions": [
+    "A016933"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:22:05",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Rectangular array R read by descending antidiagonals: apply x -> (x+1)/2 to each odd term of the Wythoff array (A035513), and delete all others.",
+  "id": "A328696",
+  "mentions": [
+    "A035513",
+    "A107857",
+    "A328695",
+    "A328697"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Denominators in an asymptotic expansion for the cubic recurrence sequence A123851.",
+  "id": "A123854",
+  "mentions": [
+    "A000120",
+    "A004130",
+    "A004134",
+    "A052129",
+    "A088802",
+    "A112302",
+    "A116603",
+    "A123851",
+    "A123852",
+    "A123853"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

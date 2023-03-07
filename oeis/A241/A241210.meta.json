@@ -1,0 +1,19 @@
+{
+  "description": "Number of binary strings of length n having a factorization as a concatenation of palindromes of length at least 2.",
+  "id": "A241210",
+  "mentions": [
+    "A241208",
+    "A241211"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

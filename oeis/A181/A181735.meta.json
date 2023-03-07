@@ -1,0 +1,26 @@
+{
+  "description": "Number of perfect squared squares of order n up to symmetries of the square and of its squared subrectangles, if any.",
+  "id": "A181735",
+  "mentions": [
+    "A000103",
+    "A006983",
+    "A014530",
+    "A110148",
+    "A181340",
+    "A217154",
+    "A217156"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

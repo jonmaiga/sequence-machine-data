@@ -1,0 +1,23 @@
+{
+  "description": "Larger of amicable pair (x, y) as they are listed in A259933.",
+  "id": "A260087",
+  "mentions": [
+    "A002046",
+    "A063990",
+    "A259180",
+    "A259933",
+    "A259953",
+    "A260086"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

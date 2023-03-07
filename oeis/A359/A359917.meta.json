@@ -1,0 +1,24 @@
+{
+  "description": "E.g.f.: lim_{N->oo} [ Sum_{n>=0} (N^2 + N*n + 2*n^2)^n * (x/N)^n/n! ]^(1/N).",
+  "id": "A359917",
+  "mentions": [
+    "A266481",
+    "A266485",
+    "A318633",
+    "A319147",
+    "A319834",
+    "A359918",
+    "A359927"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

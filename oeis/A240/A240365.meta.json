@@ -1,0 +1,18 @@
+{
+  "description": "Number of 2Xn 0..3 arrays with no element equal to one plus the sum of elements to its left or two plus the sum of the elements above it or two plus the sum of the elements diagonally to its northwest, modulo 4",
+  "id": "A240365",
+  "mentions": [
+    "A240364"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

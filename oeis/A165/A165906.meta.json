@@ -1,0 +1,20 @@
+{
+  "description": "Sum of first n primes divided by the n-th prime, rounded up to the nearest integer.",
+  "id": "A165906",
+  "mentions": [
+    "A007504",
+    "A165907"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:32:49",
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

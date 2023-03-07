@@ -1,0 +1,19 @@
+{
+  "description": "Conjectured values of A112825 which are 0.",
+  "id": "A112826",
+  "mentions": [
+    "A020481",
+    "A112824",
+    "A112825"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

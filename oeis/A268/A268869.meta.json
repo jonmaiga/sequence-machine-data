@@ -1,0 +1,22 @@
+{
+  "description": "Number of sequences in {1,...,n}^n with longest increasing subsequence of length two.",
+  "id": "A268869",
+  "mentions": [
+    "A001700",
+    "A088218",
+    "A239295",
+    "A245667"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 2,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Second row of array defined in A056230.",
+  "id": "A200379",
+  "mentions": [
+    "A056230",
+    "A057153"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

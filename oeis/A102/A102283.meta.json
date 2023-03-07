@@ -1,0 +1,25 @@
+{
+  "description": "Period 3: repeat [0, 1, -1].",
+  "id": "A102283",
+  "mentions": [
+    "A002324",
+    "A011655",
+    "A049347",
+    "A073010",
+    "A086724",
+    "A129404"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:55:33",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

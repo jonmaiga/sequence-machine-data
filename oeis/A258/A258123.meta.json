@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of trees with n vertices that have k vertices of maximum degree (n, k>=1).",
+  "id": "A258123",
+  "mentions": [
+    "A000055",
+    "A182907",
+    "A235111"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

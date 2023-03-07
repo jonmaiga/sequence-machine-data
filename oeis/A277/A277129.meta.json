@@ -1,0 +1,19 @@
+{
+  "description": "Largest m < n such that 2^m == 2^n (mod n).",
+  "id": "A277129",
+  "mentions": [
+    "A002326",
+    "A015910",
+    "A270096"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

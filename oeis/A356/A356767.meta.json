@@ -1,0 +1,19 @@
+{
+  "description": "Tetraprimes (products of four distinct primes) whose reversals are different tetraprimes.",
+  "id": "A356767",
+  "mentions": [
+    "A046394",
+    "A270175"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

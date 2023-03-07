@@ -1,0 +1,18 @@
+{
+  "description": "Orders of the automorphisms groups of the n-antiprism graph.",
+  "id": "A124354",
+  "mentions": [
+    "A124352"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 3,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

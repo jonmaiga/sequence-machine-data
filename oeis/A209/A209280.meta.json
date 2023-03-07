@@ -1,0 +1,30 @@
+{
+  "description": "First difference of A050289 = numbers whose digits are a permutation of (1,...,9).",
+  "id": "A209280",
+  "mentions": [
+    "A030299",
+    "A050289",
+    "A090529",
+    "A107346",
+    "A178475",
+    "A178476",
+    "A178477",
+    "A178478",
+    "A217626",
+    "A219664"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:07:01",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

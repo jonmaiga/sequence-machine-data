@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the reduced Champernowne constant.",
+  "id": "A189823",
+  "mentions": [
+    "A033307",
+    "A325479"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 0,
+    "size": 185,
+    "source": "oeis-bfile"
+  }
+}

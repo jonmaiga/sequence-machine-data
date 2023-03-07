@@ -1,0 +1,31 @@
+{
+  "description": "Regular triangle read by rows where T(n,k) is the number of labeled simple graphs on n vertices where all non-isolated vertices have degree k.",
+  "id": "A319729",
+  "mentions": [
+    "A000569",
+    "A005176",
+    "A058891",
+    "A059441",
+    "A295193",
+    "A301481",
+    "A306017",
+    "A306019",
+    "A306021",
+    "A319169",
+    "A319190",
+    "A319612",
+    "A322555"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

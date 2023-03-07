@@ -1,0 +1,41 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of compositions of n into nonzero parts with k parts directly followed by a different part, n>=0, 0<=k<=A004523(n-1).",
+  "id": "A238279",
+  "mentions": [
+    "A000005",
+    "A002133",
+    "A004523",
+    "A011782",
+    "A064113",
+    "A106356",
+    "A124762",
+    "A124767",
+    "A238130",
+    "A238343",
+    "A244714",
+    "A244715",
+    "A244716",
+    "A244717",
+    "A244718",
+    "A244719",
+    "A244720",
+    "A244721",
+    "A244722",
+    "A333213",
+    "A333214",
+    "A333216",
+    "A333381",
+    "A333382"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

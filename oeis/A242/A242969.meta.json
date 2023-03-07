@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of an Ising constant related to the hexagonal lattice.",
+  "id": "A242969",
+  "mentions": [
+    "A242967",
+    "A242968"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

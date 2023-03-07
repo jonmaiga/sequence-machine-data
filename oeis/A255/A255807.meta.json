@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f.: exp(Sum_{k>=1} k^2 * x^k).",
+  "id": "A255807",
+  "mentions": [
+    "A000262",
+    "A047974",
+    "A059376",
+    "A082579",
+    "A255819"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

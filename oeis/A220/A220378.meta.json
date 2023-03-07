@@ -1,0 +1,19 @@
+{
+  "description": "With p as the n-th prime, a(n) is the smallest number such that all sums of a(n) squarefree addends having product (p#)^(a(n)-1) are composite.",
+  "id": "A220378",
+  "mentions": [
+    "A000110",
+    "A187749"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

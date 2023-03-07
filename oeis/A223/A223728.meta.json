@@ -1,0 +1,19 @@
+{
+  "description": "Multiplicities for A223727: primitive sums of four distinct nonzero squares.",
+  "id": "A223728",
+  "mentions": [
+    "A223726",
+    "A223727"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

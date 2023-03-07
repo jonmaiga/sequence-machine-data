@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T(p,s) showing the coefficients of sequences which are half their p-th differences.",
+  "id": "A140414",
+  "mentions": [
+    "A000129",
+    "A000244",
+    "A014410",
+    "A052103",
+    "A062510",
+    "A135356",
+    "A136297"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

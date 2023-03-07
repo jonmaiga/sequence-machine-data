@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers n with p_{n+1}-p_n = 2 and p_{n+3}-p_{n+2} = 2, where p_k denotes the k-th prime.",
+  "id": "A226318",
+  "mentions": [
+    "A000040",
+    "A001359",
+    "A006512",
+    "A225889",
+    "A226115"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

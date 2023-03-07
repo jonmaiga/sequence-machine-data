@@ -1,0 +1,20 @@
+{
+  "description": "Let f(n) = n + sum of the digits of n. If f(n) is multiple of n then a(n)= f(n) else a(n) = f(f(f(n)))... until one gets a multiple of n; a(n) = 0 if no such number exists.",
+  "id": "A100800",
+  "mentions": [
+    "A100801",
+    "A101183"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

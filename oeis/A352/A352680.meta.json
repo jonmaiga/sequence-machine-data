@@ -1,0 +1,27 @@
+{
+  "description": "Array read by ascending antidiagonals. A family of Catalan-like sequences. A(n, k) = [x^k] ((n - 1)*x + 1)*(1 - sqrt(1 - 4*x))/(2*x).",
+  "id": "A352680",
+  "mentions": [
+    "A000108",
+    "A038629",
+    "A071716",
+    "A071724",
+    "A077587",
+    "A271823",
+    "A352681",
+    "A352682",
+    "A352686"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

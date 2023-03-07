@@ -1,0 +1,18 @@
+{
+  "description": "Number of 3-step one or two collinear space at a time queen's tours on an n X n board summed over all starting positions",
+  "id": "A187028",
+  "mentions": [
+    "A187027"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

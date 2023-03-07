@@ -1,0 +1,44 @@
+{
+  "description": "Number of \"ON\" cells at n-th stage in the \"Ulam-Warburton\" two-dimensional cellular automaton.",
+  "id": "A147562",
+  "mentions": [
+    "A000120",
+    "A000695",
+    "A002450",
+    "A006046",
+    "A011782",
+    "A048645",
+    "A079314",
+    "A130665",
+    "A139250",
+    "A147582",
+    "A147610",
+    "A151917",
+    "A151920",
+    "A160120",
+    "A160164",
+    "A160170",
+    "A160172",
+    "A160410",
+    "A160414",
+    "A162795",
+    "A169707",
+    "A187220",
+    "A246331",
+    "A323650",
+    "A335794",
+    "A335795"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

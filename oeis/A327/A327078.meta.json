@@ -1,0 +1,23 @@
+{
+  "description": "Binomial transform of A001187 (labeled connected graphs), if we assume A001187(1) = 0.",
+  "id": "A327078",
+  "mentions": [
+    "A001187",
+    "A006129",
+    "A054592",
+    "A182100",
+    "A287689",
+    "A327075"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:59:11",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "3^a(n) is the highest power of 3 dividing A000930(n).",
+  "id": "A227835",
+  "mentions": [
+    "A000930",
+    "A007949",
+    "A227834"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:16:09",
+    "offset": 0,
+    "size": 113,
+    "source": "joeis"
+  }
+}

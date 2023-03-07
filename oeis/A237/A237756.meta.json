@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n such that 3*(greatest part) = (number of parts).",
+  "id": "A237756",
+  "mentions": [
+    "A064173",
+    "A237753",
+    "A350879",
+    "A350892",
+    "A350894"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

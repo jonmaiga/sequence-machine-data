@@ -1,0 +1,22 @@
+{
+  "description": "a(0)=-1; a(n)=n^a(n-1)-a(n-1)^n.",
+  "id": "A152836",
+  "mentions": [
+    "A084964",
+    "A152832",
+    "A152833",
+    "A152835"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

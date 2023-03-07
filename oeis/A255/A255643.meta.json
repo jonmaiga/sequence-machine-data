@@ -1,0 +1,21 @@
+{
+  "description": "Difference between sums of quadratic residues and non-residues modulo n that are coprime to n.",
+  "id": "A255643",
+  "mentions": [
+    "A002143",
+    "A002145",
+    "A228131",
+    "A255644"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

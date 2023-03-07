@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of C_1 = gamma + log(log(2)) - 2*Ei(-log(2)), one of the Tauberian constants, where Ei is the exponential integral function.",
+  "id": "A248472",
+  "mentions": [
+    "A001620",
+    "A074785",
+    "A202501",
+    "A249385"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

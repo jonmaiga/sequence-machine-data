@@ -1,0 +1,21 @@
+{
+  "description": "Least number k of the form k = n*(k % 10) + [k / 10], where k % 10 = last digit of k, [k / 10] = k without its last digit.",
+  "id": "A268488",
+  "mentions": [
+    "A268492",
+    "A268493"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:07:33",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

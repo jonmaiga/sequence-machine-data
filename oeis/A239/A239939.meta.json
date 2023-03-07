@@ -1,0 +1,18 @@
+{
+  "description": "Members of a pair (m,n) such that sigma(m) = sigma(n) = sigma(n-m), m < n where sigma = A000203.",
+  "id": "A239939",
+  "mentions": [
+    "A000203",
+    "A239436"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

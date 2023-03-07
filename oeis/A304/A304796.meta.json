@@ -1,0 +1,31 @@
+{
+  "description": "Number of special sums of integer partitions of n.",
+  "id": "A304796",
+  "mentions": [
+    "A000041",
+    "A000712",
+    "A108917",
+    "A122768",
+    "A275972",
+    "A276024",
+    "A284640",
+    "A299701",
+    "A299702",
+    "A299729",
+    "A301829",
+    "A301830",
+    "A301854"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Final primes in successive prime centuries.",
+  "id": "A157410",
+  "mentions": [
+    "A157338"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

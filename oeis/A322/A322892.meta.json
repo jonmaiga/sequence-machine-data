@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = [x^n] Product_{k=1..n} (k + x + 2*k*x^2), for n >= 0.",
+  "id": "A322892",
+  "mentions": [
+    "A322238",
+    "A322891",
+    "A322893",
+    "A322894"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Length of iterations of positive integers which do not appear in a Collatz sequence starting from a smaller positive integer.",
+  "id": "A318613",
+  "mentions": [
+    "A006577",
+    "A127933",
+    "A177729"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

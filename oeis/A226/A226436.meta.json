@@ -1,0 +1,17 @@
+{
+  "description": "Number of permutations of 1..n with fewer than 3 interior elements having values lying between the values of their neighbors",
+  "id": "A226436",
+  "mentions": [
+    "A226441"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

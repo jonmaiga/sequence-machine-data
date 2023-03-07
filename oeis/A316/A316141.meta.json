@@ -1,0 +1,20 @@
+{
+  "description": "Number of ordered pairs (k, m) with k > 1 and m > 0 such that n - F(k)*L(m) is an odd prime, where F(k) is the k-th Fibonacci number (A000045) and L(m) is the m-th Lucas number (A000204).",
+  "id": "A316141",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A000204",
+    "A065091"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Divisors of 4064 (half the 4th perfect number).",
+  "id": "A138814",
+  "mentions": [
+    "A000043",
+    "A000079",
+    "A000396",
+    "A000668",
+    "A090748",
+    "A133028",
+    "A134708",
+    "A135654",
+    "A138824"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

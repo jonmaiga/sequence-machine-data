@@ -1,0 +1,20 @@
+{
+  "description": "The indices of primes for which the average of the primitive roots is < p/2.",
+  "id": "A266988",
+  "mentions": [
+    "A008330",
+    "A060749",
+    "A088144",
+    "A266989"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

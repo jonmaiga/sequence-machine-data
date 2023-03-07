@@ -1,0 +1,21 @@
+{
+  "description": "Triangle by rows, A033452 convolved with A000079",
+  "id": "A180338",
+  "mentions": [
+    "A000079",
+    "A033452",
+    "A058681"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

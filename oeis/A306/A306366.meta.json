@@ -1,0 +1,27 @@
+{
+  "description": "For any sequence s of positive integers without infinitely many consecutive equal terms, let T(s) be the sequence obtained by replacing each run, say of k consecutive t's, with a run of t consecutive k's; this sequence corresponds to T(K) (where K denotes the Kolakoski sequence A000002).",
+  "id": "A306366",
+  "mentions": [
+    "A000002",
+    "A000012",
+    "A001650",
+    "A001670",
+    "A002024",
+    "A130196",
+    "A167817",
+    "A175944",
+    "A213083"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are the sum of four fifth powers in three or more ways.",
+  "id": "A345337",
+  "mentions": [
+    "A342687",
+    "A344241",
+    "A344644"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "The number of bases b for which the odd squarefree semiprime A046388(n) is a Fermat pseudoprime.",
+  "id": "A175101",
+  "mentions": [
+    "A046388",
+    "A056220",
+    "A060626",
+    "A063994"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

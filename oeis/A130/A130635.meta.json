@@ -1,0 +1,19 @@
+{
+  "description": "Additive persistence of factorial numbers.",
+  "id": "A130635",
+  "mentions": [
+    "A000142"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

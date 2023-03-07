@@ -1,0 +1,35 @@
+{
+  "description": "Exponent-recursed cross-domain bijection from N to GF(2)[X]. Position of A075166(n) in A106456.",
+  "id": "A106442",
+  "mentions": [
+    "A000040",
+    "A014580",
+    "A048720",
+    "A048723",
+    "A075163",
+    "A075164",
+    "A075165",
+    "A075166",
+    "A075167",
+    "A091202",
+    "A091247",
+    "A106443",
+    "A106444",
+    "A106453",
+    "A106454",
+    "A106455",
+    "A106456",
+    "A106457"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

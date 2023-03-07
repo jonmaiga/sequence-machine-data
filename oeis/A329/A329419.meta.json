@@ -1,0 +1,21 @@
+{
+  "description": "Numbers all of whose divisors are binary palindromes.",
+  "id": "A329419",
+  "mentions": [
+    "A006995",
+    "A016041",
+    "A062687",
+    "A163410"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

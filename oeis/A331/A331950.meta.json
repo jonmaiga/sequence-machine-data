@@ -1,0 +1,21 @@
+{
+  "description": "Addends k > 0 such that the polynomial x^3 + x^2 + k produces a record of its Hardy-Littlewood Constant.",
+  "id": "A331950",
+  "mentions": [
+    "A050266",
+    "A221712",
+    "A331940"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Sign in term (2p +/- 1) for triangular numbers of the form p * (2p +/- 1), where the two factors are both primes.",
+  "id": "A119664",
+  "mentions": [
+    "A068443"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

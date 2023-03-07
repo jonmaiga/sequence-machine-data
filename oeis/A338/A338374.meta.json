@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that, starting with p, there are 10 consecutive primes which are congruent mod 11 to {1,2,3,4,5,6,7,8,9,10} respectively.",
+  "id": "A338374",
+  "mentions": [
+    "A206333"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

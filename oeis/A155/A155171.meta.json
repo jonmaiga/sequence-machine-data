@@ -1,0 +1,22 @@
+{
+  "description": "Numbers p such that if q = p+1 then (a = q^2-p^2, b = 2*p*q, c = q^2 + p^2) is a primitive Pythagorean triple with s-1 and s+1 primes, where s = a+b+c.",
+  "id": "A155171",
+  "mentions": [
+    "A020882",
+    "A020883",
+    "A020884",
+    "A020886",
+    "A024364",
+    "A024406"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

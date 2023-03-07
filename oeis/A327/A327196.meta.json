@@ -1,0 +1,29 @@
+{
+  "description": "Number of connected set-systems with n vertices and at least one bridge that is not an endpoint (non-spanning edge-connectivity 1).",
+  "id": "A327196",
+  "mentions": [
+    "A263296",
+    "A322395",
+    "A327079",
+    "A327099",
+    "A327111",
+    "A327129",
+    "A327145",
+    "A327148",
+    "A327149",
+    "A327200",
+    "A327231"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

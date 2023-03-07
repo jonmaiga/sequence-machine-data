@@ -1,0 +1,18 @@
+{
+  "description": "Maximal order of the trinomials of degree n over GF(2).",
+  "id": "A283091",
+  "mentions": [
+    "A073726"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:53",
+    "offset": 2,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

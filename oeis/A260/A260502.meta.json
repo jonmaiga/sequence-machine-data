@@ -1,0 +1,20 @@
+{
+  "description": "Log_2 of the numerator of det(M) where M is the n X n matrix with M[i,j] = 1/lcm(i,j).",
+  "id": "A260502",
+  "mentions": [
+    "A007814",
+    "A060841",
+    "A260897"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

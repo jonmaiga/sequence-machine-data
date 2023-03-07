@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = a(2) = a(3) = 1; a(n) = a(a(a(n-1)) + a(n-a(n-1))) + a(n-a(n-2)) for n > 3.",
+  "id": "A287771",
+  "mentions": [
+    "A004001",
+    "A005185",
+    "A287654",
+    "A287707"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

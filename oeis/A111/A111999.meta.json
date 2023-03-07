@@ -1,0 +1,31 @@
+{
+  "description": "T(n, k) = [x^k] (-1)^n*Sum_{k=0..n} E2(n, n-k)*(1+x)^(n-k) where E2(n, k) are the second-order Eulerian numbers. Triangle read by rows, T(n, k) for n >= 1 and 0 <= k <= n.",
+  "id": "A111999",
+  "mentions": [
+    "A000457",
+    "A000906",
+    "A001147",
+    "A008275",
+    "A008276",
+    "A008306",
+    "A008517",
+    "A032188",
+    "A112000",
+    "A112001",
+    "A112007",
+    "A133932"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:23:04",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "T(w,h) is a lower bound for the maximum number of grid points in a square grid covered by an arbitrarily positioned and rotated rectangle of width w and height h, excluding the trivial case of an axis-parallel unshifted cover, where T(w,h) is a triangle read by rows.",
+  "id": "A354704",
+  "mentions": [
+    "A123690",
+    "A293330",
+    "A354702",
+    "A354705",
+    "A354706",
+    "A354707",
+    "A355244"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

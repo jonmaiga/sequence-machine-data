@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 2^floor((2-n)/2)*Sum_{0 <= k <= n and A337966(n, k) < 0} A173018(n, k).",
+  "id": "A338000",
+  "mentions": [
+    "A000111",
+    "A001250",
+    "A173018",
+    "A337966",
+    "A337967",
+    "A337999"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

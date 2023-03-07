@@ -1,0 +1,24 @@
+{
+  "description": "First number in the n-th row of A172002.",
+  "id": "A168388",
+  "mentions": [
+    "A093907",
+    "A166464",
+    "A166911",
+    "A168234",
+    "A168380",
+    "A172002"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:45:31",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

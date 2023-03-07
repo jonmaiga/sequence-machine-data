@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 1 and a(n) = A180000(n)*a(floor(n/2))^2 for n > 0.",
+  "id": "A205958",
+  "mentions": [
+    "A025527",
+    "A180000",
+    "A205959"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

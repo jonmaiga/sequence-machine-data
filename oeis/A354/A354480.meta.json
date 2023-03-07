@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the smallest decimal palindrome with Hamming weight n (i.e., with exactly n 1's when written in binary).",
+  "id": "A354480",
+  "mentions": [
+    "A000120",
+    "A000225",
+    "A002113",
+    "A061712",
+    "A062388",
+    "A089226",
+    "A089998",
+    "A089999",
+    "A102029",
+    "A114477"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "description": "Number of ways to choose a divisor of a divisor, both having distinct prime exponents, of the n-th superprimorial number A006939(n).",
+  "id": "A336421",
+  "mentions": [
+    "A000005",
+    "A000110",
+    "A000258",
+    "A006939",
+    "A008278",
+    "A008302",
+    "A022915",
+    "A027423",
+    "A071625",
+    "A076954",
+    "A118914",
+    "A124010",
+    "A130091",
+    "A181796",
+    "A181818",
+    "A317829",
+    "A327498",
+    "A336417",
+    "A336419",
+    "A336420",
+    "A336422",
+    "A336426",
+    "A336500",
+    "A336568"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

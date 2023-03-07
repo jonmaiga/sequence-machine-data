@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form ceiling(Pi^n).",
+  "id": "A118843",
+  "mentions": [
+    "A111937"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "bref",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

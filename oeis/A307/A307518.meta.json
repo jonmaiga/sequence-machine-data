@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers m where |m*sin(m)| increases to a new record.",
+  "id": "A307518",
+  "mentions": [
+    "A004112",
+    "A265735",
+    "A272695",
+    "A307558"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

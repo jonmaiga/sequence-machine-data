@@ -1,0 +1,20 @@
+{
+  "description": "Integers k such that the product of the first k primes is a Niven number.",
+  "id": "A360011",
+  "mentions": [
+    "A002110",
+    "A005349",
+    "A359960"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

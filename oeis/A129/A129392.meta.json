@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(r,c)=T(r,c-1)+T(r,c+1)+T(r-1,c-1).",
+  "id": "A129392",
+  "mentions": [
+    "A129393",
+    "A129394",
+    "A129396",
+    "A129398"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

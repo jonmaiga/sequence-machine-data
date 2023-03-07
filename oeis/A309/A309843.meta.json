@@ -1,0 +1,23 @@
+{
+  "description": "Numbers m that equal the sum of their first k consecutive aliquot infinitary divisors, but not all of them (i.e k < A037445(m) - 1).",
+  "id": "A309843",
+  "mentions": [
+    "A007357",
+    "A037445",
+    "A049417",
+    "A077609",
+    "A194472",
+    "A293618"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

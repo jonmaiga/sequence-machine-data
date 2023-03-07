@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose palindromization is a perfect power.",
+  "id": "A342942",
+  "mentions": [
+    "A001597",
+    "A002113",
+    "A075786",
+    "A076443",
+    "A342803"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

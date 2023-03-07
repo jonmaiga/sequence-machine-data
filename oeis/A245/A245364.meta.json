@@ -1,0 +1,18 @@
+{
+  "description": "Let p = first digit of n, q = number obtained if p is removed from n; let r = last digit of n, s = number obtained if r is removed from n; sequence give n such that p*q = r*s != 0, p! = q, and r! = s.",
+  "id": "A245364",
+  "mentions": [
+    "A010785"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

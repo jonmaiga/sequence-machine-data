@@ -1,0 +1,23 @@
+{
+  "description": "Triangle, read by rows of n(n-1)+1 terms, of coefficients of q in the q-analog of the odd double factorials: T(n,k) = [q^k] Product_{j=1..n} (1-q^(2j-1))/(1-q) for n>0, with T(0,0)=1.",
+  "id": "A128080",
+  "mentions": [
+    "A001147",
+    "A128081",
+    "A128082",
+    "A128083",
+    "A128084"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

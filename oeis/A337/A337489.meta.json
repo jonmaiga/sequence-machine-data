@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the k-th prime, such that abs(prime(k) - Sum_{j=k-1..k+1} prime(j)) sets a new record. A337488 are the corresponding values of k.",
+  "id": "A337489",
+  "mentions": [
+    "A006562",
+    "A034961",
+    "A075540",
+    "A292530",
+    "A337438",
+    "A337439",
+    "A337488"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

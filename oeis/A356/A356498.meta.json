@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that 100*p + 11 is also prime.",
+  "id": "A356498",
+  "mentions": [
+    "A000040",
+    "A002476",
+    "A023237"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

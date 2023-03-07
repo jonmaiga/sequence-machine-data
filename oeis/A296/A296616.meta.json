@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that, for any n > 0, the binary expansion of a(n) * a(n + 1) starts with the binary expansion of n.",
+  "id": "A296616",
+  "mentions": [
+    "A029837",
+    "A272679"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:16",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

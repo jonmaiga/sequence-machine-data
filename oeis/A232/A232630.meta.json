@@ -1,0 +1,26 @@
+{
+  "description": "Coefficient table for the minimal polynomials of 2*sin(4*Pi/n). Rising powers of x.",
+  "id": "A232630",
+  "mentions": [
+    "A093819",
+    "A127672",
+    "A187360",
+    "A231188",
+    "A232625",
+    "A232626",
+    "A232629"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the greatest number m not yet in the sequence such that the ternary expansions of n and of m have the same runs of consecutive equal digits (up to order but with multiplicity).",
+  "id": "A337305",
+  "mentions": [
+    "A331275",
+    "A337304"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

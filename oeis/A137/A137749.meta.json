@@ -1,0 +1,21 @@
+{
+  "description": "Number of circular permutations of the multiset {1,1,2,2,...,2n,2n} (up to rotations) with even distances between equal elements.",
+  "id": "A137749",
+  "mentions": [
+    "A114938",
+    "A137729",
+    "A137730",
+    "A137737"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

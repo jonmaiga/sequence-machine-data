@@ -1,0 +1,18 @@
+{
+  "description": "Number k such that k and k+1 both have an equal number of unitary and nonunitary prime divisors (A348097).",
+  "id": "A348098",
+  "mentions": [
+    "A335328",
+    "A348097"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

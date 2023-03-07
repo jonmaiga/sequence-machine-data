@@ -1,0 +1,29 @@
+{
+  "description": "Table whose n-th row consists of primes p such that p + 2n is also prime, read by antidiagonals.",
+  "id": "A231608",
+  "mentions": [
+    "A001359",
+    "A020483",
+    "A023200",
+    "A023201",
+    "A023202",
+    "A023203",
+    "A046133",
+    "A049488",
+    "A086505",
+    "A153417",
+    "A153418",
+    "A153419"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

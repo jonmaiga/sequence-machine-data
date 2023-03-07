@@ -1,0 +1,18 @@
+{
+  "description": "Concatenation of the first n entries of the difference sequence of prime numbers (see A001223).",
+  "id": "A255307",
+  "mentions": [
+    "A001223"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

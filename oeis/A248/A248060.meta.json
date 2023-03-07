@@ -1,0 +1,18 @@
+{
+  "description": "Sums over successive antidiagonals of A248059.",
+  "id": "A248060",
+  "mentions": [
+    "A248059"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

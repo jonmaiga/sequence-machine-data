@@ -1,0 +1,30 @@
+{
+  "description": "Triangle by rows, reversal of A104712.",
+  "id": "A209518",
+  "mentions": [
+    "A000295",
+    "A002411",
+    "A005669",
+    "A006568",
+    "A006569",
+    "A007318",
+    "A026642",
+    "A027641",
+    "A027642",
+    "A074909",
+    "A104712",
+    "A104721"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:07:01",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

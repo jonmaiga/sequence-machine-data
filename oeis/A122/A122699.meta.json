@@ -1,0 +1,18 @@
+{
+  "description": "Least integer that can be written as a sum of 3 squares in n nontrivial ways (ignoring order and signs).",
+  "id": "A122699",
+  "mentions": [
+    "A095809",
+    "A117609"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "11th column of A172119.",
+  "id": "A172320",
+  "mentions": [
+    "A001949",
+    "A107066",
+    "A172119",
+    "A172316",
+    "A172317",
+    "A172318",
+    "A172319"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:53:52",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Record (maximal) gaps between prime 5-tuples (p, p+4, p+6, p+10, p+12).",
+  "id": "A201062",
+  "mentions": [
+    "A002386",
+    "A022006",
+    "A022007",
+    "A113274",
+    "A113404",
+    "A200503",
+    "A201051",
+    "A201063",
+    "A201073",
+    "A201251",
+    "A201596",
+    "A201598",
+    "A202281",
+    "A202361",
+    "A233433"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

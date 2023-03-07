@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of r_9, the 9th smallest radius < 1 for which a compact packing of the plane exists, with disks of radius 1 and r_9.",
+  "id": "A246730",
+  "mentions": [
+    "A002193",
+    "A246723",
+    "A246724",
+    "A246725",
+    "A246726",
+    "A246727",
+    "A246728",
+    "A246729"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Row sums of A194595.",
+  "id": "A197657",
+  "mentions": [
+    "A000172",
+    "A110707",
+    "A141147",
+    "A194595",
+    "A198060",
+    "A198256",
+    "A198257",
+    "A198258"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

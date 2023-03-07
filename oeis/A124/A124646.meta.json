@@ -1,0 +1,17 @@
+{
+  "description": "Coefficients of the series expansion of g.f. A124635 at x=infinity.",
+  "id": "A124646",
+  "mentions": [
+    "A124635"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

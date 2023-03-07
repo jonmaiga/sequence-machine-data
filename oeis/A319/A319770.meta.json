@@ -1,0 +1,21 @@
+{
+  "description": "Let f(1) = 1, f(2) = 1 + i (where i denotes the imaginary unit), f(3) = 2 + i, and for n > 2, f(n+1) is the Gaussian integer in the first quadrant (with positive real part and nonnegative imaginary part) with least modulus and sharing at least one prime factor with f(n-1) but none with f(n) (in case of a tie, minimize the imaginary part); a(n) = the square of the modulus of f(n).",
+  "id": "A319770",
+  "mentions": [
+    "A098550",
+    "A319561",
+    "A319771",
+    "A319772"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

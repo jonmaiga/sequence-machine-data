@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. 2/(1 + sqrt(1 + 4*x*exp(x))).",
+  "id": "A295239",
+  "mentions": [
+    "A000108",
+    "A006531",
+    "A052895",
+    "A295238"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:51:42",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

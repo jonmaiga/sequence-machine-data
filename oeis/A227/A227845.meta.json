@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: Sum_{n>=0} x^n / (1-x)^(2*n+1) * [ Sum_{k=0..n} C(n,k)^2*x^k ]^2.",
+  "id": "A227845",
+  "mentions": [
+    "A143007",
+    "A227846",
+    "A245930",
+    "A258053"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

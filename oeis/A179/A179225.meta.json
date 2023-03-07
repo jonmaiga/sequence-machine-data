@@ -1,0 +1,18 @@
+{
+  "description": "Iterative mapping with offset: a(1)=1, a(n)=A179216(a(n-1)-1).",
+  "id": "A179225",
+  "mentions": [
+    "A179216",
+    "A179226"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

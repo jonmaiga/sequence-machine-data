@@ -1,0 +1,20 @@
+{
+  "description": "The sum of the divisors of n in base-2 lunar arithmetic.",
+  "id": "A188548",
+  "mentions": [
+    "A067399",
+    "A190149",
+    "A190632"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

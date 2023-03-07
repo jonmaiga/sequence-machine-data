@@ -1,0 +1,19 @@
+{
+  "description": "Multiplicative suborder of 11 (mod n) = sord(11, n).",
+  "id": "A103497",
+  "mentions": [
+    "A003558"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

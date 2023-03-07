@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=1; thereafter a(n+1) = T(8*a(n)), where T(i)=i*(i+1)/2 is the i-th triangular number.",
+  "id": "A185097",
+  "mentions": [
+    "A000217",
+    "A001110",
+    "A185096"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of minimal nonnegative nonzero solutions of the linear Diophantine equation x_1 + 2*x_2 + ... + n*x_n = y_1 + 2*y_2 + ... + n*y_n.",
+  "id": "A296303",
+  "mentions": [
+    "A002894",
+    "A026905",
+    "A096337"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

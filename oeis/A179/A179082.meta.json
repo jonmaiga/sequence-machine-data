@@ -1,0 +1,26 @@
+{
+  "description": "Even numbers having an even sum of digits in their decimal representation.",
+  "id": "A179082",
+  "mentions": [
+    "A005843",
+    "A007953",
+    "A014263",
+    "A054683",
+    "A059841",
+    "A179081",
+    "A179083",
+    "A179084"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:42:11",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

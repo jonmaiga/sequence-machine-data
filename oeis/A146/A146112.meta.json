@@ -1,0 +1,24 @@
+{
+  "description": "Bell numbers (A000110) read mod 22.",
+  "id": "A146112",
+  "mentions": [
+    "A000110",
+    "A146109",
+    "A146110",
+    "A146111",
+    "A146113",
+    "A146114",
+    "A146115"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

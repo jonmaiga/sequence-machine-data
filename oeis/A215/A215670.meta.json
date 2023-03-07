@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the min value of F(x) := cos(sin(x)) - sin(cos(x)), x in R.",
+  "id": "A215670",
+  "mentions": [
+    "A168546",
+    "A215668",
+    "A215832",
+    "A215833",
+    "A216891"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

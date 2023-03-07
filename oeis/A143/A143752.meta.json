@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of eta(q^3) * eta(q^4) * eta(q^5) * eta(q^60) / (eta(q) * eta(q^12) * eta(q^15) * eta(q^20)) in powers of q.",
+  "id": "A143752",
+  "mentions": [
+    "A103263",
+    "A123630",
+    "A143751",
+    "A145933"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

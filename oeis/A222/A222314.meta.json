@@ -1,0 +1,19 @@
+{
+  "description": "Number of characters when n-th row of Pascal's triangle is written in base 10 (including the n spaces).",
+  "id": "A222314",
+  "mentions": [
+    "A007318"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Gives the value (either 0 or 1) that the trajectory of n under A241663 eventually reaches.",
+  "id": "A241666",
+  "mentions": [
+    "A241663"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 126,
+    "source": "oeis-bfile"
+  }
+}

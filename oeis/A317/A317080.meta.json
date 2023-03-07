@@ -1,0 +1,33 @@
+{
+  "description": "Number of unlabeled connected antichains of multisets with multiset-join a multiset of size n.",
+  "id": "A317080",
+  "mentions": [
+    "A007716",
+    "A007718",
+    "A048143",
+    "A261006",
+    "A286520",
+    "A293993",
+    "A293994",
+    "A304716",
+    "A304998",
+    "A317073",
+    "A317074",
+    "A317075",
+    "A317076",
+    "A317077",
+    "A317078",
+    "A317079"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

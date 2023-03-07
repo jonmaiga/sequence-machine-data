@@ -1,0 +1,19 @@
+{
+  "description": "Hex (or centered hexagonal) numbers that are prime powers of the form (6n+1)^k.",
+  "id": "A133323",
+  "mentions": [
+    "A003215",
+    "A004611",
+    "A133290"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

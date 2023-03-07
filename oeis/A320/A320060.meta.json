@@ -1,0 +1,19 @@
+{
+  "description": "Least residue greater than -prime(n)/2 of the product Product_{i,j} (i^2 - (i+j)*j) modulo prime(n), where i and j run over {1,...,(prime(n)-1)/2} with i^2-(i+j)*j not divisible by prime(n).",
+  "id": "A320060",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A319311"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 2,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: row n gives digits of n in primorial base.",
+  "id": "A235168",
+  "mentions": [
+    "A002110",
+    "A049345",
+    "A108731",
+    "A235224",
+    "A276086"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Row sum of column n in A126441 or A161924.",
+  "id": "A171426",
+  "mentions": [
+    "A126441",
+    "A161919",
+    "A161924",
+    "A171429"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

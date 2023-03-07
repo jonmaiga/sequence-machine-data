@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (n!)^3 * Sum_{k=1..n-1} 1/(k*(n-k))^3.",
+  "id": "A304589",
+  "mentions": [
+    "A002547",
+    "A002548",
+    "A052517",
+    "A302827",
+    "A304581",
+    "A304582",
+    "A304655"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

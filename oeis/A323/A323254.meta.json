@@ -1,0 +1,28 @@
+{
+  "description": "The determinant of an n X n Toeplitz matrix M(n) whose first row consists of successive positive integer numbers 2*n - 1, n - 1, ..., 1 and whose first column consists of 2*n - 1, 2*n - 2, ..., n.",
+  "id": "A323254",
+  "mentions": [
+    "A000290",
+    "A000326",
+    "A000384",
+    "A001105",
+    "A001792",
+    "A034856",
+    "A204235",
+    "A318173",
+    "A322908",
+    "A322909",
+    "A323255"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

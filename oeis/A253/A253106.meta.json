@@ -1,0 +1,23 @@
+{
+  "description": "Semiprimes with smallest factor <= 3.",
+  "id": "A253106",
+  "mentions": [
+    "A001358",
+    "A001748",
+    "A010051",
+    "A020639",
+    "A100484",
+    "A171156",
+    "A253046"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

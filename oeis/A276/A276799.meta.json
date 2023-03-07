@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = floor(n*t^2) - A003145(n), where t = 1.8392867... is the tribonacci constant A058265.",
+  "id": "A276799",
+  "mentions": [
+    "A003144",
+    "A003145",
+    "A003146",
+    "A058265",
+    "A275926",
+    "A276800",
+    "A277721",
+    "A277722",
+    "A278352"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

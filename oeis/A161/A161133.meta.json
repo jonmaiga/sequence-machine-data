@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of {1,2,...,n} having exactly k odd fixed points (0 <= k <= ceiling(n/2)).",
+  "id": "A161133",
+  "mentions": [
+    "A000142",
+    "A052558",
+    "A161131",
+    "A161134"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

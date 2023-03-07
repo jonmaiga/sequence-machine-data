@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of multisets of integers that are possible to reach by starting with n occurrences of 0 and by splitting and reverse splitting.",
+  "id": "A348532",
+  "mentions": [
+    "A000571",
+    "A347913"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

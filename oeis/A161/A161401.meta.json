@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the count of primes among the permutations of the digits of n is greater than 1.",
+  "id": "A161401",
+  "mentions": [
+    "A161402",
+    "A161403",
+    "A161404"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

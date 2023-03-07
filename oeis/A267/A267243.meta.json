@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 6 binary arrays with row sums nondecreasing and columns lexicographically nondecreasing.",
+  "id": "A267243",
+  "mentions": [
+    "A267245"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:28",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

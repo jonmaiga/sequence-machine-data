@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the cycle length corresponding to A114891(n).",
+  "id": "A114892",
+  "mentions": [
+    "A114727",
+    "A114861",
+    "A114891"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

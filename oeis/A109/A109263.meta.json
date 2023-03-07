@@ -1,0 +1,23 @@
+{
+  "description": "A Catalan transform of F(n-1)-0^n.",
+  "id": "A109263",
+  "mentions": [
+    "A000045",
+    "A000071",
+    "A000108",
+    "A001924",
+    "A109267"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

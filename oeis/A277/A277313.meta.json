@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the nested logarithm log(1+log(2+log(3+log(4+...)))).",
+  "id": "A277313",
+  "mentions": [
+    "A072449",
+    "A278812"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

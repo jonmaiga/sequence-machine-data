@@ -1,0 +1,17 @@
+{
+  "description": "Recurrence: a(n) = Sum_{k=0..n-1} C(2*n-2,n-k-1)*a(k) with a(0)=1.",
+  "id": "A110530",
+  "mentions": [
+    "A110531"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

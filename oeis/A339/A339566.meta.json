@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that A007088(p) == 1 (mod p).",
+  "id": "A339566",
+  "mentions": [
+    "A007088",
+    "A339544",
+    "A339567"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

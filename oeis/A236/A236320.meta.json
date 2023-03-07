@@ -1,0 +1,21 @@
+{
+  "description": "Conjectured number of Sierpiński numbers less than 10^n.",
+  "id": "A236320",
+  "mentions": [
+    "A076336",
+    "A236321",
+    "A237880"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

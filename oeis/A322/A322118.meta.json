@@ -1,0 +1,35 @@
+{
+  "description": "Number of non-isomorphic connected multiset partitions of weight n with no singletons that cannot be capped by a tree.",
+  "id": "A322118",
+  "mentions": [
+    "A002218",
+    "A007718",
+    "A013922",
+    "A030019",
+    "A275307",
+    "A293994",
+    "A304118",
+    "A304382",
+    "A304887",
+    "A305079",
+    "A319719",
+    "A319721",
+    "A321194",
+    "A321229",
+    "A321231",
+    "A322110",
+    "A322117",
+    "A322138"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

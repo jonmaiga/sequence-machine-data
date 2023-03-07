@@ -1,0 +1,22 @@
+{
+  "description": "Number of peaks at even level in all Dyck paths of semilength n with no UUU's and no DDD's, (U=(1,1), D=(1,-1)). These Dyck paths are counted by the secondary structure numbers (A004148).",
+  "id": "A166294",
+  "mentions": [
+    "A001622",
+    "A004148",
+    "A166291",
+    "A166292",
+    "A166293"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

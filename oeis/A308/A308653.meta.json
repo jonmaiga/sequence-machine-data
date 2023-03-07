@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct composite numbers such that for any n > 0, gcd(a(n), a(n+1)) > lpf(a(n)) (where lpf = A020639).",
+  "id": "A308653",
+  "mentions": [
+    "A002808",
+    "A020639"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

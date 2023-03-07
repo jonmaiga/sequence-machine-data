@@ -1,0 +1,44 @@
+{
+  "description": "The a(n)-th composition in standard order (graded reverse-lexicographic) is the unsorted prime signature of n.",
+  "id": "A334032",
+  "mentions": [
+    "A000120",
+    "A029931",
+    "A048793",
+    "A052409",
+    "A055932",
+    "A056239",
+    "A057335",
+    "A059893",
+    "A066099",
+    "A070939",
+    "A071364",
+    "A112798",
+    "A124010",
+    "A124767",
+    "A228351",
+    "A233249",
+    "A233564",
+    "A272919",
+    "A328594",
+    "A329139",
+    "A331580",
+    "A333217",
+    "A333218",
+    "A333219",
+    "A333220",
+    "A334031",
+    "A334033"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

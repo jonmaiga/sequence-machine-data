@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions p of n such that if h = max(p), then h is an (h,2)-separator of p; see Comments.",
+  "id": "A239456",
+  "mentions": [
+    "A239481",
+    "A239499",
+    "A239689",
+    "A239729"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

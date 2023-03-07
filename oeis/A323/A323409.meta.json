@@ -1,0 +1,22 @@
+{
+  "description": "Greatest common divisor of Product (p_i^e_i)-1 and n, when n = Product (p_i^e_i); a(n) = gcd(n, A047994(n)).",
+  "id": "A323409",
+  "mentions": [
+    "A009195",
+    "A047994",
+    "A323166",
+    "A323406",
+    "A323410"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

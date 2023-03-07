@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of n into consecutive positive triangular numbers.",
+  "id": "A307666",
+  "mentions": [
+    "A000217",
+    "A001227",
+    "A007294",
+    "A024940",
+    "A034706",
+    "A296338",
+    "A307614",
+    "A309783"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

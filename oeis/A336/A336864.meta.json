@@ -1,0 +1,19 @@
+{
+  "description": "Bogotá numbers k such that k + 1 is also Bogotá number.",
+  "id": "A336864",
+  "mentions": [
+    "A336826"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

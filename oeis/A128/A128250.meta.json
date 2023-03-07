@@ -1,0 +1,19 @@
+{
+  "description": "LCG periods: periods of the output sequences produced by multiplicative linear congruential generators (LCGs) with prime moduli, for all valid combinations of multiplier and modulus.",
+  "id": "A128250",
+  "mentions": [
+    "A086145"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

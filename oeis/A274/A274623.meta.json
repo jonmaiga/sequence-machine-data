@@ -1,0 +1,21 @@
+{
+  "description": "Left half of triangular array in A274622.",
+  "id": "A274623",
+  "mentions": [
+    "A274622",
+    "A274624",
+    "A274625"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

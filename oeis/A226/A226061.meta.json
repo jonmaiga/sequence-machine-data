@@ -1,0 +1,24 @@
+{
+  "description": "Partial sums of A219661.",
+  "id": "A226061",
+  "mentions": [
+    "A218600",
+    "A219652",
+    "A219661",
+    "A219665",
+    "A219666",
+    "A230410",
+    "A231719"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of binary sequences of length n containing exactly one subsequence 001.",
+  "id": "A118425",
+  "mentions": [
+    "A000071",
+    "A118424"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:47:33",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

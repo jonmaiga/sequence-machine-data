@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies: d/dx x*A(x) = 1+x + x*[d/dx log(A(x))].",
+  "id": "A158884",
+  "mentions": [
+    "A088715",
+    "A088716",
+    "A158883",
+    "A238223"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

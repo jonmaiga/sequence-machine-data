@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the maximum number of Z x Z lattice points inside or on a circle of radius n^(1/2) for any position of the center of the circle.",
+  "id": "A356462",
+  "mentions": [
+    "A057655",
+    "A123690",
+    "A346993"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

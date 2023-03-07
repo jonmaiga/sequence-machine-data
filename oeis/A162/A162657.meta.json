@@ -1,0 +1,20 @@
+{
+  "description": "Least number m such that n is the denominator of sigma_{-1}(m), or zero if no such exists.",
+  "id": "A162657",
+  "mentions": [
+    "A000203",
+    "A014567",
+    "A017665",
+    "A017666"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

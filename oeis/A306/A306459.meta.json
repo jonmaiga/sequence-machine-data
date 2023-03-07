@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways to write n as w^3 + C(x+2,3) + C(y+2,3) + C(z+2,3), where w,x,y,z are nonnegative integers with x <= y <= z, and C(m,k) denotes the binomial coefficient m!/(k!*(m-k)!).",
+  "id": "A306459",
+  "mentions": [
+    "A000292",
+    "A000578",
+    "A000797",
+    "A262813",
+    "A306460",
+    "A306462",
+    "A306471",
+    "A306477"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

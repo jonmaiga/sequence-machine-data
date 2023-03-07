@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the numerator of Product_{i=0..n-1} (n-i)^((-1)^ceiling(i/2)).",
+  "id": "A337354",
+  "mentions": [
+    "A007662",
+    "A076390",
+    "A085565",
+    "A337355"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

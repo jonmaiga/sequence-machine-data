@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct m's < n, such that there exists nonzero solutions to a cross-domain congruence m*i = n X i.",
+  "id": "A115861",
+  "mentions": [
+    "A115859",
+    "A115869",
+    "A115871"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: The Bell transform of the quartic factorial numbers (A007696).",
+  "id": "A265606",
+  "mentions": [
+    "A000369",
+    "A004747",
+    "A007696",
+    "A039683",
+    "A051141",
+    "A051142",
+    "A119274",
+    "A132062",
+    "A132393",
+    "A203412",
+    "A264428",
+    "A264429"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

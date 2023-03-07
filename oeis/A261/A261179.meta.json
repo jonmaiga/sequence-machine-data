@@ -1,0 +1,17 @@
+{
+  "description": "Take the list of positive rationals {R(n): n>=1} in the order defined by Calkin and Wilf (Recounting the Rationals, 1999); a(n) = numerator of R(prime(n)).",
+  "id": "A261179",
+  "mentions": [
+    "A002487"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

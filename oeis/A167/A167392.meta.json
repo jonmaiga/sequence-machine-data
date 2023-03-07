@@ -1,0 +1,22 @@
+{
+  "description": "Characteristic function of partition numbers.",
+  "id": "A167392",
+  "mentions": [
+    "A000041",
+    "A167376",
+    "A167393",
+    "A186114",
+    "A193870"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:51",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

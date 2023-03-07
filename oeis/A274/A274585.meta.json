@@ -1,0 +1,20 @@
+{
+  "description": "Total number of vertices formed by intersections among sides and straight \"chords\" in a right triangle when each side is divided by vertices into n equal segments.",
+  "id": "A274585",
+  "mentions": [
+    "A092866",
+    "A092867",
+    "A274586"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

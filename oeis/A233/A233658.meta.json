@@ -1,0 +1,27 @@
+{
+  "description": "7*binomial(4*n + 7, n)/(4*n + 7).",
+  "id": "A233658",
+  "mentions": [
+    "A000108",
+    "A002293",
+    "A006632",
+    "A006633",
+    "A006634",
+    "A069271",
+    "A196678",
+    "A233666",
+    "A233667"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

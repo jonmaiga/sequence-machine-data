@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. satisfies: A(x) = A(x)^2*(1 + x*A(x))/(1+x) - x*A'(x).",
+  "id": "A179496",
+  "mentions": [
+    "A179495"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

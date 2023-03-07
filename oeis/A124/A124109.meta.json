@@ -1,0 +1,31 @@
+{
+  "description": "Numbers whose abundance (A033880) or deficiency (A033879) is a semiprime number.",
+  "id": "A124109",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A001358",
+    "A005384",
+    "A005385",
+    "A033879",
+    "A033880",
+    "A077374",
+    "A087998",
+    "A088005",
+    "A088006",
+    "A125236",
+    "A125237"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

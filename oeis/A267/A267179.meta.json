@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: successive bottom and right-hand borders of the infinite square array in A072030 (number of subtraction steps needed to compute GCD) read mod 2.",
+  "id": "A267179",
+  "mentions": [
+    "A072030",
+    "A267177"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:28",
+    "offset": 1,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Moebius inversion of sequence A000688, the number of factorizations of n into prime powers greater than 1.",
+  "id": "A188585",
+  "mentions": [
+    "A000688",
+    "A001694"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-bfile"
+  }
+}

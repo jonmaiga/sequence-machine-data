@@ -1,0 +1,22 @@
+{
+  "description": "Largest squarefree number that divides A101177(n).",
+  "id": "A101178",
+  "mentions": [
+    "A077176",
+    "A101174",
+    "A101175",
+    "A101176",
+    "A101177",
+    "A101179"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

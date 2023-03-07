@@ -1,0 +1,18 @@
+{
+  "description": "Primes p of the form 4k+1 for which p - floor(sqrt(p))^2 is a square.",
+  "id": "A145016",
+  "mentions": [
+    "A002144"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Least positive integer k such that cos(n*k)*cos(n*k + k) < 0.",
+  "id": "A332489",
+  "mentions": [
+    "A131503",
+    "A246444",
+    "A332488",
+    "A332499"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

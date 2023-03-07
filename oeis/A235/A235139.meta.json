@@ -1,0 +1,21 @@
+{
+  "description": "Twin primes p, p+2 such that p+1 is a primary pseudoperfect number.",
+  "id": "A235139",
+  "mentions": [
+    "A007850",
+    "A054377",
+    "A235364"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

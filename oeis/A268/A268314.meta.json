@@ -1,0 +1,29 @@
+{
+  "description": "First term of a run of at least 11 consecutive integers which are not squarefree.",
+  "id": "A268314",
+  "mentions": [
+    "A013929",
+    "A045882",
+    "A049535",
+    "A051681",
+    "A068781",
+    "A070258",
+    "A070284",
+    "A077640",
+    "A077647",
+    "A078143",
+    "A078144",
+    "A268313"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(0)= A118269(0) = 1. Place A118269(n) written in binary to end of sequence A118268 (with each binary digit entered separately and where '0' is appended to sequence if A118269(n) = 0). A118269(n) is number of times n written in binary occurs among the earlier terms (before A118269(n) in binary is added) of this sequence concatenated.",
+  "id": "A118268",
+  "mentions": [
+    "A118269"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

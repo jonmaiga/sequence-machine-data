@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows, giving coefficients arising when solving g(n) = f(n)+ f(n-1) + f(n-2) + f(n-3) + f(n-4) for f(n).",
+  "id": "A282745",
+  "mentions": [
+    "A282743",
+    "A282744"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

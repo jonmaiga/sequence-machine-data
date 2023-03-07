@@ -1,0 +1,25 @@
+{
+  "description": "Values of the difference d for 8 primes in arithmetic progression with the minimal start sequence {11 + j*d}, j = 0 to 7.",
+  "id": "A206042",
+  "mentions": [
+    "A040976",
+    "A206037",
+    "A206038",
+    "A206039",
+    "A206040",
+    "A206041",
+    "A206043",
+    "A206044",
+    "A206045"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

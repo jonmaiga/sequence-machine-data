@@ -1,0 +1,21 @@
+{
+  "description": "Array: row n shows the coefficients of the characteristic polynomial of the n-th principal submatrix of M (as in A204026), given by min(F(i+1),F(j+1)), where F=A000045 (Fibonacci numbers).",
+  "id": "A204027",
+  "mentions": [
+    "A000045",
+    "A202605",
+    "A204016",
+    "A204026"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:47:27",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

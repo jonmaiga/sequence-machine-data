@@ -1,0 +1,17 @@
+{
+  "description": "Column k=1 of A261297.",
+  "id": "A261211",
+  "mentions": [
+    "A261297"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

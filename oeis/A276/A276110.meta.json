@@ -1,0 +1,20 @@
+{
+  "description": "The number of rotation systems of drawings of the complete graph K_n, where the rotation system describes the clockwise cyclic order of incident edges around each vertex.",
+  "id": "A276110",
+  "mentions": [
+    "A000241",
+    "A063666",
+    "A276109"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 3,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

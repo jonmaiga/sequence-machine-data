@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = Product_{d|n, d+1 is prime} prime(1+A286561(n,d+1)), where A286561(n,k) gives the k-valuation of n (for k > 1).",
+  "id": "A322312",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A010051",
+    "A067513",
+    "A181819",
+    "A185633",
+    "A286561",
+    "A293514",
+    "A322310",
+    "A322313",
+    "A322314"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

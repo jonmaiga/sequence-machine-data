@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers n that can be expressed as the quotient of two elements of A005836.",
+  "id": "A263488",
+  "mentions": [
+    "A005836"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

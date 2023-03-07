@@ -1,0 +1,22 @@
+{
+  "description": "Positions in A002260(n) and A002024(n) when canonically enumerating A038566(n)/A038567(n), the positive rational numbers <= 1.",
+  "id": "A169581",
+  "mentions": [
+    "A002024",
+    "A002260",
+    "A038566",
+    "A038567",
+    "A054521",
+    "A169582"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:53",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

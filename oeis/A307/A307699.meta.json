@@ -1,0 +1,33 @@
+{
+  "description": "Numbers k such that there is no integer partition of k with exactly k-1 submultisets.",
+  "id": "A307699",
+  "mentions": [
+    "A002033",
+    "A088880",
+    "A088881",
+    "A098859",
+    "A108917",
+    "A126796",
+    "A229488",
+    "A276024",
+    "A325694",
+    "A325792",
+    "A325798",
+    "A325828",
+    "A325830",
+    "A325833",
+    "A325834",
+    "A325835",
+    "A325836"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

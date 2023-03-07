@@ -1,0 +1,19 @@
+{
+  "description": "Products of nonprimitive roots of n, or 0 if n = 2 or has no primitive roots.",
+  "id": "A347946",
+  "mentions": [
+    "A123475",
+    "A219027",
+    "A219028"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

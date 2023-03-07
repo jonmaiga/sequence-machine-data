@@ -1,0 +1,28 @@
+{
+  "description": "Row 4 of table A111528.",
+  "id": "A111531",
+  "mentions": [
+    "A001715",
+    "A001720",
+    "A003319",
+    "A089949",
+    "A111528",
+    "A111529",
+    "A111530",
+    "A111532",
+    "A111533",
+    "A111534"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

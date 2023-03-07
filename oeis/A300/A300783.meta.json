@@ -1,0 +1,21 @@
+{
+  "description": "Number of symmetrically distinct sublattices (supercells, superlattices, HNFs) of the 3D hexagonal lattice of index n.",
+  "id": "A300783",
+  "mentions": [
+    "A003051",
+    "A145393",
+    "A159842",
+    "A300782",
+    "A300784"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

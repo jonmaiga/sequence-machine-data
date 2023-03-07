@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct rational numbers that can be written as fractions of the first n composite numbers.",
+  "id": "A117991",
+  "mentions": [
+    "A018805",
+    "A117992"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

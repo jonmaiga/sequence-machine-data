@@ -1,0 +1,21 @@
+{
+  "description": "Number T(n,k) of permutations of [n] with exactly k ascents from odd to even numbers; triangle T(n,k), n>=0, 0<=k<=floor(n/2), read by rows.",
+  "id": "A231777",
+  "mentions": [
+    "A000142",
+    "A004526",
+    "A081123",
+    "A231601"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

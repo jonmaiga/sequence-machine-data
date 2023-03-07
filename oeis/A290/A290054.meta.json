@@ -1,0 +1,33 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals, where column k is the expansion of (Sum_{j>=0} x^(j^3))^k.",
+  "id": "A290054",
+  "mentions": [
+    "A000007",
+    "A010057",
+    "A045847",
+    "A051343",
+    "A122141",
+    "A173676",
+    "A173677",
+    "A173678",
+    "A173679",
+    "A173680",
+    "A173681",
+    "A173682",
+    "A286815",
+    "A291700",
+    "A302019"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

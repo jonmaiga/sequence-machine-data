@@ -1,0 +1,21 @@
+{
+  "description": "T(n,k)=Number of permutations of 0..floor((n*k-1)/2) on even squares of an nXk array such that each row, column, diagonal and (downwards) antidiagonal of even squares is increasing",
+  "id": "A215788",
+  "mentions": [
+    "A000108",
+    "A026383",
+    "A215870"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

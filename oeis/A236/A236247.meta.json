@@ -1,0 +1,19 @@
+{
+  "description": "Sequence of distinct least squares such that the arithmetic mean of the first n squares is also a square.",
+  "id": "A236247",
+  "mentions": [
+    "A019444",
+    "A141391"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

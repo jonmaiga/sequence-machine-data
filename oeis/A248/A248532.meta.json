@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that the smallest prime divisor of n^2+1 is 53.",
+  "id": "A248532",
+  "mentions": [
+    "A002313",
+    "A089120",
+    "A209874",
+    "A248527",
+    "A248528",
+    "A248529",
+    "A248530",
+    "A248531"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

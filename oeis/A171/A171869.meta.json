@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the period of A175555(n) in the sequence {A175555}.",
+  "id": "A171869",
+  "mentions": [
+    "A002379",
+    "A170827",
+    "A170828",
+    "A175555"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:18:34",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

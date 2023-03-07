@@ -1,0 +1,19 @@
+{
+  "description": "The multiplicity of successive elements of sequence A005250 (increasing prime gaps) as they occur in A161794, the largest prime gap less than (n+1)^2.",
+  "id": "A161795",
+  "mentions": [
+    "A005250",
+    "A161794"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

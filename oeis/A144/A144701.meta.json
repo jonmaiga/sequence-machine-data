@@ -1,0 +1,22 @@
+{
+  "description": "Hankel transform of expansion of 1/c(x)^3, c(x) the g.f. of A000108.",
+  "id": "A144701",
+  "mentions": [
+    "A000108",
+    "A099504",
+    "A115142",
+    "A128504"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:45:35",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

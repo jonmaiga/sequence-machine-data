@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies: 1 + x = P(A(x)) / Q(A(x)), where P(x) = Product_{n>=0} (1 + x^(5*n+1))*(1 + x^(5*n+4)) and Q(x) = Product_{n>=0} (1 + x^(5*n+2))*(1 + x^(5*n+3)), with A(0) = 0, A'(0) = 1.",
+  "id": "A351634",
+  "mentions": [
+    "A203776",
+    "A219607"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

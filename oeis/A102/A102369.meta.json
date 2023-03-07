@@ -1,0 +1,21 @@
+{
+  "description": "Intervals between successive arrivals of Langton's Ant at the origin (see A102127).",
+  "id": "A102369",
+  "mentions": [
+    "A102127",
+    "A102358"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

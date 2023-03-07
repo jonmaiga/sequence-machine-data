@@ -1,0 +1,23 @@
+{
+  "description": "a(1)=0, a(2)=4, a(n)=a(n-1)+a(n-2)-1.",
+  "id": "A187890",
+  "mentions": [
+    "A000071",
+    "A001060",
+    "A001611",
+    "A001612",
+    "A013655"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

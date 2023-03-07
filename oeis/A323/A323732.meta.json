@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k for which there exists no j > 1 such that j^k has exactly j divisors.",
+  "id": "A323732",
+  "mentions": [
+    "A000005",
+    "A073049",
+    "A323730",
+    "A323731",
+    "A323733",
+    "A323734"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

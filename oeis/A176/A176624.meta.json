@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = prime(n) + n*(-1)^n.",
+  "id": "A176624",
+  "mentions": [
+    "A000040",
+    "A038608",
+    "A176628"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:41:25",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

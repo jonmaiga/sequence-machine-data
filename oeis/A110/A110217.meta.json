@@ -1,0 +1,24 @@
+{
+  "description": "Cone C(n,m,k) read by planes and rows, for 1 <= k <= m <= n: minimal number of knights needed to cover a k X m X n board.",
+  "id": "A110217",
+  "mentions": [
+    "A006075",
+    "A098604",
+    "A110214",
+    "A110218",
+    "A110219"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

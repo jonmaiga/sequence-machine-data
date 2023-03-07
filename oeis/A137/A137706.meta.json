@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number at which a new Haar graph is encountered.",
+  "id": "A137706",
+  "mentions": [
+    "A272919",
+    "A357000"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

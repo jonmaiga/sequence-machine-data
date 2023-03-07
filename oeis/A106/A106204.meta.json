@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of (chi(-q^3)^8 + 16*q^2/ chi(-q^3)^8)^(1/8) in powers of q where chi() is a Ramanujan theta function.",
+  "id": "A106204",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A007263",
+    "A010054",
+    "A010815",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

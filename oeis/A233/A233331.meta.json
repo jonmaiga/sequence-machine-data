@@ -1,0 +1,23 @@
+{
+  "description": "Irregular array read by rows: T(n,k) = number of r_{n,k}-cores associated with A233332(n,k), reduced for symmetry, for n>=2, 1<=k<=floor(n/2), explained below.",
+  "id": "A233331",
+  "mentions": [
+    "A076454",
+    "A233329",
+    "A233330",
+    "A233332",
+    "A233333"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

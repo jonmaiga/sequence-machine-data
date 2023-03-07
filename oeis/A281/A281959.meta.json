@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = sigma_25(n), the sum of the 25th powers of the divisors of n.",
+  "id": "A281959",
+  "mentions": [
+    "A000005",
+    "A037947",
+    "A275055"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

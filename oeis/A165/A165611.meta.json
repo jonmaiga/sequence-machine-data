@@ -1,0 +1,23 @@
+{
+  "description": "The number of n-digit non-papaya numbers.",
+  "id": "A165611",
+  "mentions": [
+    "A052268",
+    "A165135",
+    "A165136",
+    "A165137",
+    "A165610"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (k mod 5) (Partial sums of A010874).",
+  "id": "A130483",
+  "mentions": [
+    "A010872",
+    "A010873",
+    "A010874",
+    "A010875",
+    "A010876",
+    "A010877",
+    "A130481",
+    "A130482",
+    "A130484",
+    "A130485"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:10:53",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

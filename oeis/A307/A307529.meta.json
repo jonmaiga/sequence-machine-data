@@ -1,0 +1,25 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = (1 - x^2*A(x)^2)/(1 - x^2*A(x)^2 - x^3*A(x)^3).",
+  "id": "A307529",
+  "mentions": [
+    "A000931",
+    "A049124",
+    "A049140",
+    "A067955",
+    "A307411",
+    "A307412",
+    "A307413",
+    "A307528"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

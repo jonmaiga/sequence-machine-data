@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (number of primes p in the first n primes such that 2*p+1 is also prime) - (number of primes p in the first n primes such that 2*p-1 is also prime).",
+  "id": "A353048",
+  "mentions": [
+    "A005382",
+    "A005384"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

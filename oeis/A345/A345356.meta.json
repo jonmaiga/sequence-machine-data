@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k coprime to 30 such that ceiling(sqrt(k))^2 - k is a square.",
+  "id": "A345356",
+  "mentions": [
+    "A038510",
+    "A077554",
+    "A087718"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

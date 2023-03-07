@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the Euler-Kronecker constant (as named by P. Moree) for non-hypotenuse numbers.",
+  "id": "A242015",
+  "mentions": [
+    "A242013",
+    "A244662"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

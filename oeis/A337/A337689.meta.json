@@ -1,0 +1,21 @@
+{
+  "description": "Numbers divisible by 3 or more primitive nondeficient numbers.",
+  "id": "A337689",
+  "mentions": [
+    "A006039",
+    "A337688",
+    "A337690"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

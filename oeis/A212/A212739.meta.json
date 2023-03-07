@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2^(n^2) - 1.",
+  "id": "A212739",
+  "mentions": [
+    "A000225",
+    "A002416"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:51:39",
+    "offset": 0,
+    "size": 13,
+    "source": "joeis"
+  }
+}

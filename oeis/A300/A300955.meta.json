@@ -1,0 +1,22 @@
+{
+  "description": "In the prime tower factorization of n, replace 2's with 3's and 3's with 2's.",
+  "id": "A300955",
+  "mentions": [
+    "A064614",
+    "A182318",
+    "A300948",
+    "A300957"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

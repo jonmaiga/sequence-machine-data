@@ -1,0 +1,21 @@
+{
+  "description": "Height (maximum absolute value of coefficients) of the n-th cyclotomic polynomial.",
+  "id": "A160338",
+  "mentions": [
+    "A137979",
+    "A160339",
+    "A160340",
+    "A160341"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

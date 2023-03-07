@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{k>=1} (1-x^(3*k))*(1-x^(5*k))/(1-x^k).",
+  "id": "A261797",
+  "mentions": [
+    "A098151",
+    "A103257",
+    "A138526",
+    "A261796"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Ninth column of triangle A035342.",
+  "id": "A132054",
+  "mentions": [
+    "A000108",
+    "A001147",
+    "A001764",
+    "A035342",
+    "A132053"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:28:05",
+    "offset": 9,
+    "size": 14,
+    "source": "joeis"
+  }
+}

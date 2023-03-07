@@ -1,0 +1,22 @@
+{
+  "description": "Number of different coincidence site lattices of index n in lattice Z^4.",
+  "id": "A331140",
+  "mentions": [
+    "A031361",
+    "A331139",
+    "A331141",
+    "A331142"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

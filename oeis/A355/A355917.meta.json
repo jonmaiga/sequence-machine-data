@@ -1,0 +1,19 @@
+{
+  "description": "Variant of Inventory Sequence A342585 where indices are also counted (short version).",
+  "id": "A355917",
+  "mentions": [
+    "A342585",
+    "A355916",
+    "A355918"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

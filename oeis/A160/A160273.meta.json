@@ -1,0 +1,18 @@
+{
+  "description": "Successive differences (divided by 3) of the average of twin prime pairs divided by 2 (A040040).",
+  "id": "A160273",
+  "mentions": [
+    "A002822",
+    "A040040"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

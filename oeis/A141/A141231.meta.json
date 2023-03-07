@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers whose prime factorizations contain only primes from A001122.",
+  "id": "A141231",
+  "mentions": [
+    "A000040",
+    "A001122"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

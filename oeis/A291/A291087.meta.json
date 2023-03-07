@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: T(n,m) = number of lattice paths of type B^Q terminating at point (n, m).",
+  "id": "A291087",
+  "mentions": [
+    "A291090",
+    "A291091"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

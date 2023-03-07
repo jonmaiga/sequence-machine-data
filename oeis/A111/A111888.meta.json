@@ -1,0 +1,22 @@
+{
+  "description": "Eighth column of triangle A112492 (inverse scaled Pochhammer symbols).",
+  "id": "A111888",
+  "mentions": [
+    "A001242",
+    "A008969",
+    "A111887",
+    "A112492"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

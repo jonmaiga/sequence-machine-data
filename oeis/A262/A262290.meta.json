@@ -1,0 +1,21 @@
+{
+  "description": "a(0)=0; thereafter, add the smallest nonzero binary number, not a power of 2, that is not a substring of the binary expansion of a(n).",
+  "id": "A262290",
+  "mentions": [
+    "A260273",
+    "A261416",
+    "A262289"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

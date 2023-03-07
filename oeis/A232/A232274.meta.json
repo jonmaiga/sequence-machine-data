@@ -1,0 +1,19 @@
+{
+  "description": "Integer areas A of the integer-sided triangles such that the length of the inradius and the circumradius are both a perfect square.",
+  "id": "A232274",
+  "mentions": [
+    "A188158",
+    "A208984"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

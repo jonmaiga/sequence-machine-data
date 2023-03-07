@@ -1,0 +1,21 @@
+{
+  "description": "Restricted growth sequence transform of A293231, where A293231(n) = Product_{d|n, d",
+  "id": "A293232",
+  "mentions": [
+    "A019565",
+    "A193231",
+    "A290090",
+    "A293215",
+    "A293231"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

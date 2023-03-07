@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least exponent k such that q^k >= n, where q is the greatest prime factor of n (= A006530(n)); a(1) = 1 by convention.",
+  "id": "A179953",
+  "mentions": [
+    "A006530"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

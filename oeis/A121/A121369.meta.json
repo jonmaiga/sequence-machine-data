@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = a(2) = 1, a(n) = A007947(a(n-1)) + A007947(a(n-2)) for n >= 3, i.e., a(n) is the largest squarefree divisor of a(n-1) plus the largest squarefree divisor of a(n-2).",
+  "id": "A121369",
+  "mentions": [
+    "A000045",
+    "A007947",
+    "A121367",
+    "A121368"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

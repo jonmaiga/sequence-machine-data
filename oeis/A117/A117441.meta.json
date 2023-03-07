@@ -1,0 +1,24 @@
+{
+  "description": "Periodic with repeating part {1,1,0,1,-1,0,-1,-1,0,-1,1,0}.",
+  "id": "A117441",
+  "mentions": [
+    "A010892",
+    "A057077",
+    "A087960",
+    "A117440",
+    "A260190",
+    "A260192"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:26:41",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

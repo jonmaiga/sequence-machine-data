@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = product of n and all its nonzero digits.",
+  "id": "A230101",
+  "mentions": [
+    "A007954",
+    "A051801",
+    "A098736"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:52:49",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

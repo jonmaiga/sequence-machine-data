@@ -1,0 +1,31 @@
+{
+  "description": "Number of aperiodic rooted trees with n nodes.",
+  "id": "A301700",
+  "mentions": [
+    "A000081",
+    "A000740",
+    "A000837",
+    "A001678",
+    "A003238",
+    "A004111",
+    "A007716",
+    "A007916",
+    "A100953",
+    "A276625",
+    "A284639",
+    "A290689",
+    "A298422",
+    "A303386",
+    "A303431"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

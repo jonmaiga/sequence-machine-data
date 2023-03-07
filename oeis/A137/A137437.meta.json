@@ -1,0 +1,21 @@
+{
+  "description": "Triangular sequence from expansion coefficients of asymptotic Hermite Polynomial from Roman: p(x,t)= (1 + t)^(-x)*Exp[x*(t - t^2/2)].",
+  "id": "A137437",
+  "mentions": [
+    "A038205",
+    "A137286"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

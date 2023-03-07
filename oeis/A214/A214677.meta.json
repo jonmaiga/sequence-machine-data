@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n represented in bijective base-7 numeration.",
+  "id": "A214677",
+  "mentions": [
+    "A214676"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

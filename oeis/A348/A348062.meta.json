@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that the length of the (eventual) period of the sequence {2^(2^k) mod p: k >= 0} is odd.",
+  "id": "A348062",
+  "mentions": [
+    "A023394",
+    "A036259",
+    "A102742",
+    "A256607"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

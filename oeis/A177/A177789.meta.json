@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows in which row n gives the congruences (mod 2^A020914(n)) satisfied by the numbers having dropping time A122437(n+1) in the Collatz (3x+1) iteration.",
+  "id": "A177789",
+  "mentions": [
+    "A020914",
+    "A060445",
+    "A100982",
+    "A122437",
+    "A122442"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

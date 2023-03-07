@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions of 3^n.",
+  "id": "A248728",
+  "mentions": [
+    "A000041",
+    "A068413",
+    "A070177",
+    "A248729",
+    "A248730",
+    "A248732",
+    "A248734"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

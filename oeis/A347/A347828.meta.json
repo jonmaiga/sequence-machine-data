@@ -1,0 +1,21 @@
+{
+  "description": "Numbers in A037019 that are not the same as the corresponding number in A005179.",
+  "id": "A347828",
+  "mentions": [
+    "A002110",
+    "A005179",
+    "A037019",
+    "A072066"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

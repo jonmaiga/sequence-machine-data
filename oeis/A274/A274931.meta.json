@@ -1,0 +1,19 @@
+{
+  "description": "Southeast spoke of spiral in A274640.",
+  "id": "A274931",
+  "mentions": [
+    "A274640",
+    "A274641",
+    "A274924"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

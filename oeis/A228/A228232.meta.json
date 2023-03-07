@@ -1,0 +1,19 @@
+{
+  "description": "Number of strict Gaussian primes of norm less than or equal to n in the first quadrant.",
+  "id": "A228232",
+  "mentions": [
+    "A001182",
+    "A062711",
+    "A228233"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

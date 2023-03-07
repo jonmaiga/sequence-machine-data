@@ -1,0 +1,20 @@
+{
+  "description": "Number of edge covers in the n-barbell graph.",
+  "id": "A297007",
+  "mentions": [
+    "A006129",
+    "A288841",
+    "A290715"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

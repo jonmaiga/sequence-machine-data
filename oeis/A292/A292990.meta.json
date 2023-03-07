@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose absolute difference from a triangular number is never a prime.",
+  "id": "A292990",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A292989"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

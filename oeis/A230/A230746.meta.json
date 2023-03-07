@@ -1,0 +1,22 @@
+{
+  "description": "Carmichael numbers of the form (30*k + 1)*(120*k + 1)*(150*k + 1), where 30*k + 1, 120*k + 1 and 150*k + 1 are all primes.",
+  "id": "A230746",
+  "mentions": [
+    "A002997",
+    "A007304",
+    "A083739",
+    "A157956",
+    "A230722"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

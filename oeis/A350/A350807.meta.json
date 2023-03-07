@@ -1,0 +1,24 @@
+{
+  "description": "Irregular table read by rows: loop values for the iteration map A350805(n).",
+  "id": "A350807",
+  "mentions": [
+    "A000040",
+    "A006370",
+    "A006577",
+    "A027746",
+    "A350805",
+    "A350806"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

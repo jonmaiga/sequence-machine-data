@@ -1,0 +1,23 @@
+{
+  "description": "Triangular array read by rows: T(n,k) is the number of partitions of n into k parts of 2 different sizes; n>=3, 2<=k<=n-1.",
+  "id": "A216665",
+  "mentions": [
+    "A002133",
+    "A117955",
+    "A117956",
+    "A274108",
+    "A274109"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 3,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

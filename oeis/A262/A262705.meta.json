@@ -1,0 +1,29 @@
+{
+  "description": "Triangle: Newton expansion of C(n,m)^4, read by rows.",
+  "id": "A262705",
+  "mentions": [
+    "A005260",
+    "A007318",
+    "A058895",
+    "A078739",
+    "A078741",
+    "A109983",
+    "A122193",
+    "A202750",
+    "A262704",
+    "A262706"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

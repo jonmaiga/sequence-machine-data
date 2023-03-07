@@ -1,0 +1,25 @@
+{
+  "description": "Integers whose arithmetic derivative is equal to their Dedekind function.",
+  "id": "A301939",
+  "mentions": [
+    "A001359",
+    "A001615",
+    "A003415",
+    "A166374",
+    "A342458",
+    "A345003",
+    "A345005"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

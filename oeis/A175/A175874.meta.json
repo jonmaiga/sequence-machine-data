@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = least number such that sigma(a(n)+n)=n*sigma(a(n)).",
+  "id": "A175874",
+  "mentions": [
+    "A000203",
+    "A002961",
+    "A175875",
+    "A175876"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

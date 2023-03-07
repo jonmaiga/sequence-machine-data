@@ -1,0 +1,19 @@
+{
+  "description": "Odd nonprimes k such that the smallest digit of k + the number of smallest digits of k is prime.",
+  "id": "A154545",
+  "mentions": [
+    "A054054"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

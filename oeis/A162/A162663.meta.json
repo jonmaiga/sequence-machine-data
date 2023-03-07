@@ -1,0 +1,44 @@
+{
+  "description": "Table by antidiagonals, T(n,k) is the number of partitions of {1..(nk)} that are invariant under a permutation consisting of n k-cycles.",
+  "id": "A162663",
+  "mentions": [
+    "A000005",
+    "A000012",
+    "A000110",
+    "A000262",
+    "A002872",
+    "A002874",
+    "A036040",
+    "A036073",
+    "A036075",
+    "A036077",
+    "A036081",
+    "A080575",
+    "A084423",
+    "A141003",
+    "A141004",
+    "A141005",
+    "A141006",
+    "A141007",
+    "A141008",
+    "A141009",
+    "A141010",
+    "A141011",
+    "A162664",
+    "A162665",
+    "A293850"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

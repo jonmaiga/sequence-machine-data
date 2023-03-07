@@ -1,0 +1,21 @@
+{
+  "description": "Cubes which are arithmetic mean of two consecutive primes.",
+  "id": "A234240",
+  "mentions": [
+    "A000578",
+    "A062703",
+    "A069495",
+    "A075191"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

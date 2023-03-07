@@ -1,0 +1,20 @@
+{
+  "description": "Number of pairs (x,y) of elements x of the symmetric group S_{n-1} and y of the symmetric group S_{n} that commute. Here the symmetric group S_{n-m} is to be thought of as the subgroup of the symmetric group S_n which stabilizes n-m+1,n-m+2,...n.",
+  "id": "A225108",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A000142"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

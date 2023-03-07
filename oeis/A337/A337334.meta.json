@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = pi(b(n)), where pi is the prime counting function (A000720) and b(n) = a(n-1) + b(n-1) with a(0) = b(0) = 1.",
+  "id": "A337334",
+  "mentions": [
+    "A000720",
+    "A014688",
+    "A061535",
+    "A332086"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

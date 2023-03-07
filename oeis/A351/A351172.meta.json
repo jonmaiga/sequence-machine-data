@@ -1,0 +1,19 @@
+{
+  "description": "Natural numbers that can be written as the quotient of two antipalindromic numbers (A035928).",
+  "id": "A351172",
+  "mentions": [
+    "A035928",
+    "A351173"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

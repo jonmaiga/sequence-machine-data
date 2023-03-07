@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n for which 2*(number of distinct parts) > (number of parts).",
+  "id": "A237365",
+  "mentions": [
+    "A000041",
+    "A237363"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

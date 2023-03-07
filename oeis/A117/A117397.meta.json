@@ -1,0 +1,23 @@
+{
+  "description": "Column 3 of triangle A117396.",
+  "id": "A117397",
+  "mentions": [
+    "A003422",
+    "A007489",
+    "A014288",
+    "A056199",
+    "A092582",
+    "A117396"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

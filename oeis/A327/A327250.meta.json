@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that s(k) = s(k+1), where s(k) is A059975.",
+  "id": "A327250",
+  "mentions": [
+    "A006145",
+    "A039752",
+    "A059975"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

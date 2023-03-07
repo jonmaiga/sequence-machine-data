@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T, read by rows, such that the matrix inverse satisfies: [T^-1](n,k) = -(k+1)*T(n-1,0) for n>k>=0, with T(n,n)=1 for n>=0.",
+  "id": "A112911",
+  "mentions": [
+    "A088716",
+    "A112912",
+    "A112913",
+    "A112914"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Terms in A006512 containing the digit \"6\" at least once, such that changing every \"6\" to a \"9\" and vice versa yields a larger term in A006512.",
+  "id": "A123211",
+  "mentions": [
+    "A006512"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows; for n >= 0, the n-th row corresponds to the elements of the set {(n-k) OR k, k = 0..n}, in ascending order (where OR denotes the bitwise OR operator).",
+  "id": "A326820",
+  "mentions": [
+    "A002487",
+    "A326819",
+    "A328566",
+    "A328568"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

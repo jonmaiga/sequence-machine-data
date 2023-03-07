@@ -1,0 +1,29 @@
+{
+  "description": "Centered 28-gonal numbers.",
+  "id": "A195314",
+  "mentions": [
+    "A003154",
+    "A069129",
+    "A069133",
+    "A069190",
+    "A118277",
+    "A144555",
+    "A195145",
+    "A195315",
+    "A195316",
+    "A195317",
+    "A195318"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

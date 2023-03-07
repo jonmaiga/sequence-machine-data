@@ -1,0 +1,18 @@
+{
+  "description": "Numbers occurring at least twice in A114381, in order of second appearance.",
+  "id": "A161926",
+  "mentions": [
+    "A114381",
+    "A161927"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

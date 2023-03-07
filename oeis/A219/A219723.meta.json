@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of convergents to log_10(Pi).",
+  "id": "A219723",
+  "mentions": [
+    "A053511",
+    "A219724"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

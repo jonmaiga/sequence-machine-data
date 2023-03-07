@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into squares such that the number of parts is a square.",
+  "id": "A339445",
+  "mentions": [
+    "A000290",
+    "A001156",
+    "A085755",
+    "A089333",
+    "A103198",
+    "A323522",
+    "A339444"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

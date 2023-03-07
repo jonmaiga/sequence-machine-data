@@ -1,0 +1,22 @@
+{
+  "description": "Positive odd numbers b with an unequal number of odd and even elements of the restricted residue system of the mod* congruence of Brändli and Beyne (numbers b ordered increasingly).",
+  "id": "A333857",
+  "mentions": [
+    "A000010",
+    "A038566",
+    "A327922",
+    "A333856"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

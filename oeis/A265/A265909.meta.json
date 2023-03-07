@@ -1,0 +1,20 @@
+{
+  "description": "Submain diagonal of array A265903: a(n) = A265903(n+1, n).",
+  "id": "A265909",
+  "mentions": [
+    "A265900",
+    "A265903"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

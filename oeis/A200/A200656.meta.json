@@ -1,0 +1,22 @@
+{
+  "description": "Successive values x such that the Mordell elliptic curve x^3 - y^2 = d has extremal points with quadratic extension over the rationals.",
+  "id": "A200656",
+  "mentions": [
+    "A077119",
+    "A200216",
+    "A200657",
+    "A200658",
+    "A201047",
+    "A201048"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

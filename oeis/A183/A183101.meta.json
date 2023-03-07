@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = sum of divisors of n that are not perfect powers.",
+  "id": "A183101",
+  "mentions": [
+    "A000203",
+    "A091051",
+    "A183098",
+    "A183105"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

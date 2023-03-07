@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n for which A242720(n) = prime(n)*(prime(n)+8)+3.",
+  "id": "A247549",
+  "mentions": [
+    "A147280",
+    "A242719",
+    "A242720",
+    "A242847",
+    "A245363",
+    "A246748",
+    "A246824",
+    "A247011",
+    "A247280"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

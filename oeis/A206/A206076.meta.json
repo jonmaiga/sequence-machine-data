@@ -1,0 +1,25 @@
+{
+  "description": "Numerator of p(n,-1/2), where p(n,x) is the polynomial given by A205073.",
+  "id": "A206076",
+  "mentions": [
+    "A000027",
+    "A000120",
+    "A000695",
+    "A005836",
+    "A030101",
+    "A053644",
+    "A053985",
+    "A065359",
+    "A205073"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Smallest nonnegative integer such that altering at most one of its digits cannot result in a previous term.",
+  "id": "A343444",
+  "mentions": [
+    "A001969",
+    "A075928",
+    "A333568",
+    "A346261"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle where g.f. satisfies: A(x,y) = 1 + x*A(x,y)^2 + x*y*A(x,y)^3, read by rows.",
+  "id": "A104978",
+  "mentions": [
+    "A000108",
+    "A001002",
+    "A001764",
+    "A027307",
+    "A104979"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

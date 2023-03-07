@@ -1,0 +1,19 @@
+{
+  "description": "Number of (non-null) connected induced subgraphs in a right-triangular graph with n vertices on each side.",
+  "id": "A331878",
+  "mentions": [
+    "A059525",
+    "A268758",
+    "A287689"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

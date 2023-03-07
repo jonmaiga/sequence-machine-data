@@ -1,0 +1,34 @@
+{
+  "description": "Total sum T(n,k) of parts <= n of multiplicity k in all partitions of n; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A222730",
+  "mentions": [
+    "A000041",
+    "A000217",
+    "A002865",
+    "A014153",
+    "A066186",
+    "A103628",
+    "A117525",
+    "A213679",
+    "A222731",
+    "A222732",
+    "A222733",
+    "A222734",
+    "A222735",
+    "A222736",
+    "A222737",
+    "A222738"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

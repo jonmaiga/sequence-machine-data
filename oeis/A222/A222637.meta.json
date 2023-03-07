@@ -1,0 +1,21 @@
+{
+  "description": "Squarefree part of the total number of arrangements of a set with n elements.",
+  "id": "A222637",
+  "mentions": [
+    "A000522",
+    "A007913",
+    "A222638",
+    "A222639"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of \"ON\" cells in a 2-dimensional cellular automaton (\"Fredkin's Replicator\") evolving according to the rule that a cell is ON in a given generation if and only if there was an odd number of ON cells among the eight nearest neighbors in the preceding generation, starting with one ON cell.",
+  "id": "A160239",
+  "mentions": [
+    "A011782",
+    "A083424",
+    "A122108",
+    "A147562",
+    "A164032",
+    "A245180",
+    "A245542",
+    "A245543",
+    "A245562",
+    "A246030",
+    "A254731"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

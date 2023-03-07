@@ -1,0 +1,28 @@
+{
+  "description": "Complete list of all 9 numbers n such that n is equal to the number of 9's in the decimal digits of all numbers <= n.",
+  "id": "A130431",
+  "mentions": [
+    "A014778",
+    "A101639",
+    "A101640",
+    "A101641",
+    "A130427",
+    "A130428",
+    "A130429",
+    "A130430",
+    "A130432"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

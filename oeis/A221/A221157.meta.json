@@ -1,0 +1,18 @@
+{
+  "description": "Number of compositions of the grid graph G_{4,n}.",
+  "id": "A221157",
+  "mentions": [
+    "A108808",
+    "A145835"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

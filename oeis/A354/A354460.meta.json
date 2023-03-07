@@ -1,0 +1,22 @@
+{
+  "description": "The primes sums formed for each completed 2 X 2 square of numbers in A354453.",
+  "id": "A354460",
+  "mentions": [
+    "A000040",
+    "A257339",
+    "A337116",
+    "A354434",
+    "A354441",
+    "A354453"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

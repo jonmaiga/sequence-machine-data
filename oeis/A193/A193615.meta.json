@@ -1,0 +1,19 @@
+{
+  "description": "Second-largest prime factor of the n-th Fibonacci number, if composite, or 1 otherwise.",
+  "id": "A193615",
+  "mentions": [
+    "A060385",
+    "A060442",
+    "A061488"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 3,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

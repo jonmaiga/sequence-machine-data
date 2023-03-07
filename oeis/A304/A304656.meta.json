@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Pi*sqrt(3).",
+  "id": "A304656",
+  "mentions": [
+    "A002388",
+    "A093602",
+    "A248682"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:43",
+    "offset": 1,
+    "size": 96,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Squares of primes congruent to 1 (mod 30).",
+  "id": "A330670",
+  "mentions": [
+    "A001248",
+    "A128470"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

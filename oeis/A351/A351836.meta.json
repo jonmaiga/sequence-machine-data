@@ -1,0 +1,21 @@
+{
+  "description": "Smallest evil number k (member of A001969) such that k*n is also evil.",
+  "id": "A351836",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A180938",
+    "A351835"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

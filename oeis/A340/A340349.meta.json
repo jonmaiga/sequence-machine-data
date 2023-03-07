@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the smallest k such that A292849(k) = 2n-1.",
+  "id": "A340349",
+  "mentions": [
+    "A000120",
+    "A063787",
+    "A077459",
+    "A263132",
+    "A292849",
+    "A295827",
+    "A340069",
+    "A340351",
+    "A340441"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

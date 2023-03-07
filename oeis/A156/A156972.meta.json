@@ -1,0 +1,20 @@
+{
+  "description": "Number of universes with n entities, exactly one being the empty set, which satisfy the Axiom of Extensionality (two sets are identical when they have the same elements) and are closed under taking subsets.",
+  "id": "A156972",
+  "mentions": [
+    "A145984"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

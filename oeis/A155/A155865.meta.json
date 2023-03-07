@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k) = (n-1)*binomial(n-2, k-1) for 1 <= k <= n-1, n >= 2, and T(n,0) = T(n,n) = 1 for n >= 0, read by rows.",
+  "id": "A155865",
+  "mentions": [
+    "A001787",
+    "A002457",
+    "A155863",
+    "A155864",
+    "A214281"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:13:39",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

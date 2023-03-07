@@ -1,0 +1,19 @@
+{
+  "description": "The number of 3x+1 steps in the Collatz iteration of A033491(n), the least number requiring n iterations.",
+  "id": "A177001",
+  "mentions": [
+    "A033491",
+    "A127824"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

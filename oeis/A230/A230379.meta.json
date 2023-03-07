@@ -1,0 +1,17 @@
+{
+  "description": "The right Aurifeuillian factor of k^k + 1 for k congruent to 0, 2 or 3 (mod 4) and squarefree.",
+  "id": "A230379",
+  "mentions": [
+    "A230375"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

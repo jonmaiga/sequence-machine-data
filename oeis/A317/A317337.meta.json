@@ -1,0 +1,23 @@
+{
+  "description": "O.g.f. A(x) satisfies: [x^n] exp( n^3*x*A(x) ) * (n+1 - n*A(x)) = 0 for n>=1.",
+  "id": "A317337",
+  "mentions": [
+    "A226750",
+    "A305110",
+    "A305114",
+    "A305115",
+    "A305116",
+    "A317338"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

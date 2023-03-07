@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the denominator of the 2nd term of the power series which is the loop length in a regular n-gon. (See comment.)",
+  "id": "A264906",
+  "mentions": [
+    "A000265",
+    "A060819",
+    "A109375",
+    "A262343"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 5,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

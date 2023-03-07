@@ -1,0 +1,20 @@
+{
+  "description": "Integers whose binary digits \"1\" define, iff these integers are not decreased by one, Arimaa pieces of both colors so that an enemy piece can be removable in all possible color combinations in one turn (= 4 steps) if sorted into a quadrant shape whose right angle lies in an Arimaa board corner.",
+  "id": "A178461",
+  "mentions": [
+    "A165197",
+    "A166537"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

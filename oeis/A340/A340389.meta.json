@@ -1,0 +1,19 @@
+{
+  "description": "Number at the apex of Recamán's triangle of primes and squares with n rows.",
+  "id": "A340389",
+  "mentions": [
+    "A089237"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

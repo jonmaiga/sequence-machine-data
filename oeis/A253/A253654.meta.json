@@ -1,0 +1,22 @@
+{
+  "description": "Indices of pentagonal numbers (A000326) which are also centered pentagonal numbers (A005891).",
+  "id": "A253654",
+  "mentions": [
+    "A000326",
+    "A005891",
+    "A128917",
+    "A253470"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

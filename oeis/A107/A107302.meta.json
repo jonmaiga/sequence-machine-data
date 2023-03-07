@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 99991*k + 10007 is prime.",
+  "id": "A107302",
+  "mentions": [
+    "A107301"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

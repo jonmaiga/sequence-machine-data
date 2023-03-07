@@ -1,0 +1,18 @@
+{
+  "description": "Let N(k, d_i) be the number of digits d_i in the decimal expansion of k, and let M(k, p_j) be the multiplicity of a prime factor p_j of k. The sequence lists the numbers k such that, for any digit d_i, there exists at least a prime factor p_j where N(k,d_i) = M(k,p_j), and for any prime factor p_j there exists at least a digit d_i where M(k,p_j) = N(k,d_i).",
+  "id": "A308388",
+  "mentions": [
+    "A001222"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

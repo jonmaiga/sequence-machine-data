@@ -1,0 +1,19 @@
+{
+  "description": "Beginning position of n in the decimal expansion of the Glaisher-Kinkelin constant A.",
+  "id": "A229193",
+  "mentions": [
+    "A074962"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

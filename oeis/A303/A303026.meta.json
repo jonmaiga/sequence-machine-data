@@ -1,0 +1,32 @@
+{
+  "description": "Matula-Goebel numbers of series-reduced anti-binary (no unary or binary branchings) rooted trees.",
+  "id": "A303026",
+  "mentions": [
+    "A000081",
+    "A000598",
+    "A001190",
+    "A001678",
+    "A007097",
+    "A061775",
+    "A102403",
+    "A111299",
+    "A292050",
+    "A298422",
+    "A298424",
+    "A303022",
+    "A303023",
+    "A303024",
+    "A303025",
+    "A303027"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

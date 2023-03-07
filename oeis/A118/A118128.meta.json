@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that the sum of the first n odd composites is palindromic in base 2.",
+  "id": "A118128",
+  "mentions": [
+    "A058848"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

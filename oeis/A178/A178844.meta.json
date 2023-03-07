@@ -1,0 +1,20 @@
+{
+  "description": "First nonzero Fermat quotient mod the n-th prime.",
+  "id": "A178844",
+  "mentions": [
+    "A001220",
+    "A130912",
+    "A178815"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

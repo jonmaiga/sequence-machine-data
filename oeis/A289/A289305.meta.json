@@ -1,0 +1,30 @@
+{
+  "description": "Expansion of (q*j(q))^(11/24) where j(q) is the elliptic modular invariant (A000521).",
+  "id": "A289305",
+  "mentions": [
+    "A000521",
+    "A007245",
+    "A106205",
+    "A161361",
+    "A192731",
+    "A289297",
+    "A289298",
+    "A289299",
+    "A289300",
+    "A289301",
+    "A289302",
+    "A289303",
+    "A289304"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

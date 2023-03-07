@@ -1,0 +1,19 @@
+{
+  "description": "Number of representations of n as sum of three positive biquadrates, i.e., fourth powers.",
+  "id": "A193243",
+  "mentions": [
+    "A000404",
+    "A003337",
+    "A193244"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 114,
+    "source": "oeis-bfile"
+  }
+}

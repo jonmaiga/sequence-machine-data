@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of 1 - Pi^2/12.",
+  "id": "A354238",
+  "mentions": [
+    "A000290",
+    "A004125",
+    "A013661",
+    "A024916",
+    "A072691",
+    "A152416",
+    "A237593",
+    "A245092",
+    "A353908"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

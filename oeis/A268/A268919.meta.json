@@ -1,0 +1,29 @@
+{
+  "description": "Numerators of the rational number triangle R(m, a) = (m^4 - 30*m^2*a^2 + 60*m*a^3 -30*a^4) / (120*m), m >= 1, a = 1, ..., m. This is a regularized Sum_{j >= 0} (a + m*j)^(-s) for s = -3 defined by analytic continuation of a generalized Hurwitz Zeta function.",
+  "id": "A268919",
+  "mentions": [
+    "A027641",
+    "A027642",
+    "A267863",
+    "A267864",
+    "A268915",
+    "A268916",
+    "A268917",
+    "A268918",
+    "A268920"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:09:07",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

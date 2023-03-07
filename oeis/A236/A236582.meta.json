@@ -1,0 +1,23 @@
+{
+  "description": "The number of tilings of an 8 X n floor with 1 X 4 tetrominoes.",
+  "id": "A236582",
+  "mentions": [
+    "A003269",
+    "A236579",
+    "A236581",
+    "A250662",
+    "A251074"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

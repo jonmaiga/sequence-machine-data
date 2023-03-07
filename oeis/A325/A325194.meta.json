@@ -1,0 +1,26 @@
+{
+  "description": "Regular triangle read by rows where T(n,k) is the number of integer partitions of n with co-rank n - k, where co-rank is the greater of the length and the largest part.",
+  "id": "A325194",
+  "mentions": [
+    "A000041",
+    "A051924",
+    "A071724",
+    "A096771",
+    "A115720",
+    "A263297",
+    "A325178",
+    "A325192",
+    "A325193"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

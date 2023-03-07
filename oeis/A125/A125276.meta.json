@@ -1,0 +1,20 @@
+{
+  "description": "Eigensequence of triangle A039598: a(n) = Sum_{k=0..n-1} A039598(n-1,k)*a(k) for n>0 with a(0)=1.",
+  "id": "A125276",
+  "mentions": [
+    "A000108",
+    "A039598",
+    "A125275"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

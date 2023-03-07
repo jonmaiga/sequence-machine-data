@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = smallest integer that, upon multiplying any divisor of n, produces a member of A025487.",
+  "id": "A181811",
+  "mentions": [
+    "A000265",
+    "A002110",
+    "A025487",
+    "A108951",
+    "A181812",
+    "A181813",
+    "A181816"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

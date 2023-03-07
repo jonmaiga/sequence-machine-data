@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least number k such that the sequence of elements of the continued fraction of the harmonic mean of the divisors of k is palindromic with length n, or -1 is no such k exists.",
+  "id": "A349478",
+  "mentions": [
+    "A099377",
+    "A099378",
+    "A349473",
+    "A349477"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

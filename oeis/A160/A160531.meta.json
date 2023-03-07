@@ -1,0 +1,19 @@
+{
+  "description": "Those positive integers n that contain both odd-lengthed and even-lengthed runs of 0's and 1's when n is represented in binary.",
+  "id": "A160531",
+  "mentions": [
+    "A001196",
+    "A160530"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

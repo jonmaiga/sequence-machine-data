@@ -1,0 +1,30 @@
+{
+  "description": "Smallest number that is the sum of n successive primes and also the sum of n successive semiprimes, n > 1.",
+  "id": "A283873",
+  "mentions": [
+    "A000040",
+    "A001043",
+    "A001358",
+    "A034961",
+    "A034963",
+    "A034964",
+    "A118717",
+    "A127333",
+    "A127334",
+    "A127335",
+    "A127336",
+    "A127337",
+    "A127338",
+    "A127339"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 2,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

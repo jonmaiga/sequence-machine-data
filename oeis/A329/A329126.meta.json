@@ -1,0 +1,30 @@
+{
+  "description": "a(n) is the least positive number which yields a multiple of n when its decimal digits (which are necessarily 0's and 1's) are read in any base.",
+  "id": "A329126",
+  "mentions": [
+    "A000012",
+    "A000217",
+    "A032742",
+    "A051903",
+    "A220892",
+    "A268336",
+    "A328994",
+    "A329000",
+    "A329338",
+    "A329443"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

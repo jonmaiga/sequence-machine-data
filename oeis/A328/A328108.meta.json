@@ -1,0 +1,28 @@
+{
+  "description": "Binary weight of A327976.",
+  "id": "A328108",
+  "mentions": [
+    "A000120",
+    "A030101",
+    "A070952",
+    "A110240",
+    "A265281",
+    "A269160",
+    "A327976",
+    "A328105",
+    "A328106",
+    "A328107",
+    "A328109"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

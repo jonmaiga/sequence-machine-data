@@ -1,0 +1,20 @@
+{
+  "description": "Imaginary part of Product_{k=0..n) (i-k), where i=sqrt(-1).",
+  "id": "A242652",
+  "mentions": [
+    "A009454",
+    "A101686",
+    "A231531",
+    "A242651"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

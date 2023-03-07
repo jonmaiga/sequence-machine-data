@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m with m-1, m+1 and prime(m)+2 all prime.",
+  "id": "A259539",
+  "mentions": [
+    "A000040",
+    "A001359",
+    "A006512",
+    "A014574",
+    "A236458",
+    "A259540"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

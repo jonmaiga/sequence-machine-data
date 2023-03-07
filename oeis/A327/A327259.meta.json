@@ -1,0 +1,25 @@
+{
+  "description": "Array T(n,k) = 2*n*k - A319929(n,k), n >= 1, k >= 1, read by antidiagonals.",
+  "id": "A327259",
+  "mentions": [
+    "A319929",
+    "A322630",
+    "A322744",
+    "A327260",
+    "A327261",
+    "A327263",
+    "A354595"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

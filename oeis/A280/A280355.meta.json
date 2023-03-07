@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are divisible by the sum of their digits and for which the sum of digits equals the product of digits.",
+  "id": "A280355",
+  "mentions": [
+    "A005349",
+    "A034710",
+    "A038186"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:48",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

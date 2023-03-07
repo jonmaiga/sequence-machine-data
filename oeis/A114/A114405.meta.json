@@ -1,0 +1,26 @@
+{
+  "description": "5-almost prime gaps. First differences of A014614.",
+  "id": "A114405",
+  "mentions": [
+    "A014614",
+    "A065516",
+    "A111870",
+    "A111871",
+    "A114403",
+    "A114411",
+    "A114412",
+    "A114422"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:44:57",
+    "offset": 1,
+    "size": 82,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Let k be the smallest number such that s(k) = odd part of digital sum of 2^k is multiple of prime(n); then a(n)=k, if s(k) = prime(n). Otherwise, or if there is no such k, a(n)=0.",
+  "id": "A252666",
+  "mentions": [
+    "A251964",
+    "A252280",
+    "A252281",
+    "A252282",
+    "A282283"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 3,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

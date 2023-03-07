@@ -1,0 +1,25 @@
+{
+  "description": "Magic numbers of nucleons. Another version of A018226, with 34 inserted.",
+  "id": "A230434",
+  "mentions": [
+    "A018226",
+    "A018227",
+    "A033547",
+    "A046939",
+    "A046940",
+    "A110856",
+    "A117612"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

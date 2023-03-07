@@ -1,0 +1,34 @@
+{
+  "description": "Number T(n,k) of length 3n words such that all letters of the k-ary alphabet occur at least once and are introduced in ascending order and which can be built by repeatedly inserting triples of identical letters into the initially empty word; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A256311",
+  "mentions": [
+    "A000007",
+    "A001764",
+    "A057427",
+    "A213028",
+    "A256117",
+    "A321031",
+    "A321032",
+    "A321033",
+    "A321034",
+    "A321035",
+    "A321036",
+    "A321037",
+    "A321038",
+    "A321039",
+    "A321040",
+    "A321041"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

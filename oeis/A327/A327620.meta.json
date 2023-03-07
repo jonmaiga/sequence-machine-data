@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the Hausdorff dimension of the boundary of the tame twin-dragon curve.",
+  "id": "A327620",
+  "mentions": [
+    "A191689",
+    "A272031"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:19",
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

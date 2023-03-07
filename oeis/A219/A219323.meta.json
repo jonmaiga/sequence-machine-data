@@ -1,0 +1,18 @@
+{
+  "description": "Number of standard Young tableaux for partitions of n into exactly 10 distinct parts.",
+  "id": "A219323",
+  "mentions": [
+    "A218293",
+    "A219311"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 55,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

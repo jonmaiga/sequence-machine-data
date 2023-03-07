@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of V_4N, a Quantum Field Theory constant [negated] related to the coloring of the tetrahedron with four masses (non-adjacent case).",
+  "id": "A274419",
+  "mentions": [
+    "A255685",
+    "A274412",
+    "A274413",
+    "A274414",
+    "A274415",
+    "A274416",
+    "A274417",
+    "A274418",
+    "A274420",
+    "A274421"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

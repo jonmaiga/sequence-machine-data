@@ -1,0 +1,17 @@
+{
+  "description": "Conjectured values of n such that sigma(n)+sigma(k)=sigma(n+k) has no solution.",
+  "id": "A110108",
+  "mentions": [
+    "A066435"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

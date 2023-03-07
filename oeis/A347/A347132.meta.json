@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{d|n} A001615(n/d) * A003415(d), where A003415 is the arithmetic derivative and A001615 is Dedekind psi function.",
+  "id": "A347132",
+  "mentions": [
+    "A001615",
+    "A003415",
+    "A305809",
+    "A322577",
+    "A347131",
+    "A347133",
+    "A347135"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

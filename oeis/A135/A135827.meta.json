@@ -1,0 +1,24 @@
+{
+  "description": "Moves for corner 3-cycles (brd,urb,ulb) in a 3 X 3 X 3 Rubik's Cube.",
+  "id": "A135827",
+  "mentions": [
+    "A135819",
+    "A135820",
+    "A135823",
+    "A135824",
+    "A135825",
+    "A135826"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

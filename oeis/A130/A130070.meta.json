@@ -1,0 +1,23 @@
+{
+  "description": "Moebius transform of A130069.",
+  "id": "A130070",
+  "mentions": [
+    "A000040",
+    "A007444",
+    "A054525",
+    "A130069",
+    "A130071"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "For 1<=x<=n, 1<=y<=n with gcd(x,y)=1, write 1 = gcd(x,y) = u*x+v*y with u,v minimal; a(n) = m^2*s, where s is the population variance of the values of |u| and m is the number of such values.",
+  "id": "A345694",
+  "mentions": [
+    "A345429",
+    "A345687",
+    "A345688",
+    "A345689",
+    "A345690",
+    "A345691",
+    "A345692",
+    "A345693"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

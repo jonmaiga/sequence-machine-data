@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of e.g.f. tanh(x*tan(x/2)) (even powers only).",
+  "id": "A296853",
+  "mentions": [
+    "A000182",
+    "A001469",
+    "A003721",
+    "A009817",
+    "A110501",
+    "A296839",
+    "A296841",
+    "A296842",
+    "A296854",
+    "A296856"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:13",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

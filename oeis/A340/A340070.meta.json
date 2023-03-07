@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = gcd(A003415(n), A069359(n)).",
+  "id": "A340070",
+  "mentions": [
+    "A003415",
+    "A005117",
+    "A069359",
+    "A085731",
+    "A300253",
+    "A327858",
+    "A329039"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

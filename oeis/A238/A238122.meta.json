@@ -1,0 +1,33 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) gives the number of ballot sequences of length n having k descents, n>=0, 0<=k<=A083920(n-1).",
+  "id": "A238122",
+  "mentions": [
+    "A000041",
+    "A000085",
+    "A083920",
+    "A238121",
+    "A241794",
+    "A241795",
+    "A241796",
+    "A241797",
+    "A241798",
+    "A241799",
+    "A241800",
+    "A241801",
+    "A241802",
+    "A241803",
+    "A241804",
+    "A241805"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

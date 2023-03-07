@@ -1,0 +1,28 @@
+{
+  "description": "Triangle T read by rows: T(n, k) is the k-th row sum of the symmetric Toeplitz matrix M(n) whose first row consists of a single zero followed by successive positive integers repeated (A004526).",
+  "id": "A338796",
+  "mentions": [
+    "A002378",
+    "A002620",
+    "A004526",
+    "A033638",
+    "A083392",
+    "A212964",
+    "A290743",
+    "A332566",
+    "A333119",
+    "A338456"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

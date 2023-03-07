@@ -1,0 +1,22 @@
+{
+  "description": "Number of edges in the graph of continuous discrete sections for a trivial bundle in a total space of the fiber bundle of size n.",
+  "id": "A354548",
+  "mentions": [
+    "A000079",
+    "A016777",
+    "A081113",
+    "A126360",
+    "A188861"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

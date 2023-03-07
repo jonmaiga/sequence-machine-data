@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 0, and for n > 1, a(n) = position of Stern polynomial B(n,x) among the irreducible/reducible Stern polynomials.",
+  "id": "A283994",
+  "mentions": [
+    "A066136",
+    "A125184",
+    "A260443",
+    "A283991",
+    "A283992",
+    "A283993"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

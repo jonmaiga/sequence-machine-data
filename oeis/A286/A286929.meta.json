@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n such that each part is no more than 3 more than the sum of all smaller parts.",
+  "id": "A286929",
+  "mentions": [
+    "A126796"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

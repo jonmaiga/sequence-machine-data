@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of (1-x+8x^2)/((1-x)(1-2x)) .",
+  "id": "A154252",
+  "mentions": [
+    "A000079",
+    "A083329",
+    "A094373",
+    "A095121",
+    "A131128",
+    "A131130",
+    "A154117",
+    "A154118",
+    "A154251"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

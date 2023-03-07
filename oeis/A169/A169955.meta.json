@@ -1,0 +1,18 @@
+{
+  "description": "Number of tau-isomorphism classes of spherical bitrades with |T0| = n.",
+  "id": "A169955",
+  "mentions": [
+    "A007083",
+    "A167123"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 4,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

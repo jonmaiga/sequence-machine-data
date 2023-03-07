@@ -1,0 +1,26 @@
+{
+  "description": "Triangle (read by rows) with row sums = Motzkin sums (also called Riordan numbers) (A005043): T(n,s) = (1/n)*C(n,s)*(C(n-s,s+1) - C(n-s-2,s-1)).",
+  "id": "A132081",
+  "mentions": [
+    "A001263",
+    "A005043",
+    "A006343",
+    "A007404",
+    "A033282",
+    "A100754",
+    "A108263",
+    "A108767"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 3,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

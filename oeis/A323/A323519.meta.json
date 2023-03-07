@@ -1,0 +1,31 @@
+{
+  "description": "a(n) is the number of ways to fill a square matrix with the multiset of prime factors of n, if the number of prime factors (counted with multiplicity) is a perfect square, and a(n) = 0 otherwise.",
+  "id": "A323519",
+  "mentions": [
+    "A000290",
+    "A001222",
+    "A008480",
+    "A026478",
+    "A056239",
+    "A089299",
+    "A103198",
+    "A112798",
+    "A120732",
+    "A323433",
+    "A323520",
+    "A323521",
+    "A323525",
+    "A323531"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

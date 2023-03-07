@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of the quantile z_0.999 of the standard normal distribution.",
+  "id": "A329284",
+  "mentions": [
+    "A092678",
+    "A329280",
+    "A329281",
+    "A329282",
+    "A329283",
+    "A329285",
+    "A329286",
+    "A329287",
+    "A329363"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

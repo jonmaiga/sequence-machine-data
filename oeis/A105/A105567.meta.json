@@ -1,0 +1,22 @@
+{
+  "description": "Moebius transform of multiplication table, read by antidiagonals.",
+  "id": "A105567",
+  "mentions": [
+    "A003991",
+    "A105568",
+    "A105569"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 110,
+    "source": "oeis-entry"
+  }
+}

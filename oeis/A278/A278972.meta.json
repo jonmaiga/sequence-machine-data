@@ -1,0 +1,27 @@
+{
+  "description": "Twice the twin primes.",
+  "id": "A278972",
+  "mentions": [
+    "A001097",
+    "A001359",
+    "A006512",
+    "A100484",
+    "A108605",
+    "A114907",
+    "A176810",
+    "A237593",
+    "A245092",
+    "A262626"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:28:55",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

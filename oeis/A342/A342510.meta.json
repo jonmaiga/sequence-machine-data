@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = k where Z_k is the largest Zimin word that n (read as a binary word) does not avoid.",
+  "id": "A342510",
+  "mentions": [
+    "A001045",
+    "A342511",
+    "A342512"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

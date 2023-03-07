@@ -1,0 +1,21 @@
+{
+  "description": "Smallest number that can be obtained by starting with 1 and applying \"Choix de Bruxelles (version 2)\" (see A323460) n times without backtracking or repeating.",
+  "id": "A334629",
+  "mentions": [
+    "A323454",
+    "A323460"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

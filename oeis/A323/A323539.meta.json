@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct sets of lengths of squares that are prefixes of a length-n binary word.",
+  "id": "A323539",
+  "mentions": [
+    "A277133"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

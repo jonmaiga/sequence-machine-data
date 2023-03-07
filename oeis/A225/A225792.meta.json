@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that the sum of first n nontrivial prime powers (A025475 excluding 1) is divisible by n.",
+  "id": "A225792",
+  "mentions": [
+    "A025475",
+    "A225791"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

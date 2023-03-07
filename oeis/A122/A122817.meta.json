@@ -1,0 +1,21 @@
+{
+  "description": "Terms in A122376 that differ from corresponding term in A122811.",
+  "id": "A122817",
+  "mentions": [
+    "A122376",
+    "A122811",
+    "A122812",
+    "A122818"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "(3*9^n+1)/2.",
+  "id": "A199560",
+  "mentions": [
+    "A066443"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

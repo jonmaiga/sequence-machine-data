@@ -1,0 +1,17 @@
+{
+  "description": "Positions of numbers 2^n + 3^n (n >= 0) in A004050.",
+  "id": "A219841",
+  "mentions": [
+    "A004050"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals: A(n,k) = [x^(n^2)] (1 + theta_3(x))^k/(2^k*(1 - x)), where theta_3() is the Jacobi theta function.",
+  "id": "A302998",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000122",
+    "A000603",
+    "A000604",
+    "A055403",
+    "A055404",
+    "A055405",
+    "A055406",
+    "A055407",
+    "A055408",
+    "A055409",
+    "A055417",
+    "A055418",
+    "A055419",
+    "A055420",
+    "A055421",
+    "A055422",
+    "A055423",
+    "A055424",
+    "A055425",
+    "A122510",
+    "A302863",
+    "A302996",
+    "A302997"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

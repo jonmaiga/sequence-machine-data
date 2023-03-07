@@ -1,0 +1,27 @@
+{
+  "description": "The number of 6th powers in the multiplicative group modulo n.",
+  "id": "A293483",
+  "mentions": [
+    "A000010",
+    "A046073",
+    "A052275",
+    "A087692",
+    "A250207",
+    "A293482",
+    "A293484",
+    "A293485",
+    "A319100"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

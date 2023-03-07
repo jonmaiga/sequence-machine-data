@@ -1,0 +1,19 @@
+{
+  "description": "Least prime in a string of exactly n consecutive primes all differing by triangular numbers.",
+  "id": "A226769",
+  "mentions": [
+    "A220697",
+    "A226768",
+    "A226840"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

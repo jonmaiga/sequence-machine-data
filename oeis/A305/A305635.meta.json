@@ -1,0 +1,26 @@
+{
+  "description": "1 and odd numbers that are not perfect powers.",
+  "id": "A305635",
+  "mentions": [
+    "A001597",
+    "A005117",
+    "A007916",
+    "A039956",
+    "A056911",
+    "A305630",
+    "A305631",
+    "A305632",
+    "A305633",
+    "A305634"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

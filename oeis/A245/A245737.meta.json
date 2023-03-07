@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of z_hc, the bulk limit of the number of spanning trees on a honeycomb lattice.",
+  "id": "A245737",
+  "mentions": [
+    "A218387",
+    "A242967",
+    "A245725"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

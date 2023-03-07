@@ -1,0 +1,20 @@
+{
+  "description": "Distinct values of gcd(B(2*j), B(2*j+2)) in the order of their appearance, where B(k) = A027641(k).",
+  "id": "A343829",
+  "mentions": [
+    "A000928",
+    "A027641",
+    "A343745"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

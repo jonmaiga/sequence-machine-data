@@ -1,0 +1,19 @@
+{
+  "description": "The Fibostracci sequence: a(0) = 0, a(1) = 1; thereafter a(n) = a(n-1)+a(n-2) if a(n-1) and a(n-2) do not share a digit, otherwise a(n) is the smallest number not yet in the sequence.",
+  "id": "A359128",
+  "mentions": [
+    "A000045",
+    "A357048"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

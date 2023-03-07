@@ -1,0 +1,32 @@
+{
+  "description": "Solutions of the Pell-like equation 1 + 6*A*A = 7*B*B, with A, B integers.",
+  "id": "A153111",
+  "mentions": [
+    "A001078",
+    "A001570",
+    "A001653",
+    "A002315",
+    "A007805",
+    "A028230",
+    "A049629",
+    "A054320",
+    "A072256",
+    "A133283",
+    "A140480",
+    "A157014",
+    "A157461",
+    "A238379"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

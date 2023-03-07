@@ -1,0 +1,35 @@
+{
+  "description": "Number of ways to place n nonattacking empresses on an n X n board.",
+  "id": "A137774",
+  "mentions": [
+    "A000170",
+    "A002464",
+    "A002465",
+    "A002493",
+    "A051223",
+    "A089222",
+    "A110128",
+    "A117574",
+    "A185085",
+    "A201511",
+    "A201513",
+    "A201540",
+    "A201861",
+    "A218244",
+    "A244284",
+    "A245011"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

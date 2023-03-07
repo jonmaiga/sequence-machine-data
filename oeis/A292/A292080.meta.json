@@ -1,0 +1,23 @@
+{
+  "description": "Number of nonequivalent ways to place n non-attacking rooks on an n X n board with no rook on 2 main diagonals up to rotations and reflections of the board.",
+  "id": "A292080",
+  "mentions": [
+    "A000166",
+    "A000903",
+    "A003471",
+    "A037224",
+    "A053871",
+    "A064280"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

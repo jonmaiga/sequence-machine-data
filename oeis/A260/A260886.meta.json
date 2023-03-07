@@ -1,0 +1,20 @@
+{
+  "description": "Least prime p such that 3 + 4*prime(p*n) = 5*prime(q*n) for some prime q.",
+  "id": "A260886",
+  "mentions": [
+    "A000040",
+    "A260120",
+    "A260252",
+    "A260882"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

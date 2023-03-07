@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2*n^2 + 14*n + 5.",
+  "id": "A154576",
+  "mentions": [
+    "A144562",
+    "A154577"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:28:17",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

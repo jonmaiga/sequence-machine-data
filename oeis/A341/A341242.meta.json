@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose binary representation encodes a subset S of the natural numbers such that the XOR of the binary representations of all s in S gives 0.",
+  "id": "A341242",
+  "mentions": [
+    "A075926",
+    "A253315"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Rectangular array: row n shows the number of parts in all partitions of n that are == k (mod 2), for k = 0, 1.",
+  "id": "A325771",
+  "mentions": [
+    "A006128",
+    "A066897",
+    "A066898",
+    "A325772",
+    "A325773",
+    "A325774"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

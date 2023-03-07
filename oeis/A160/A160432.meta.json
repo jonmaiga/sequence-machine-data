@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form 3*10^(2*n) + 3*10^n + 1.",
+  "id": "A160432",
+  "mentions": [
+    "A002407",
+    "A003215"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

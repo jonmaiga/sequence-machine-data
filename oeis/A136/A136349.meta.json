@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k of the form Product_{j=1..m} prime(j) such that k-1 is prime.",
+  "id": "A136349",
+  "mentions": [
+    "A002110",
+    "A006794",
+    "A034386",
+    "A057705",
+    "A121069",
+    "A136350",
+    "A136351",
+    "A136352"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

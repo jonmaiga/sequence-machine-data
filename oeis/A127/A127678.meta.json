@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = numerator of b(n), where b(1) = 1, b(n+1) = (sum{k=1 to n} b(k))/product{j=1 to n} b(j).",
+  "id": "A127678",
+  "mentions": [
+    "A127679"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

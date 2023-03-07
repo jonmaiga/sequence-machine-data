@@ -1,0 +1,23 @@
+{
+  "description": "n-th prime minus number of 0's in binary representation of n-th prime.",
+  "id": "A177959",
+  "mentions": [
+    "A000040",
+    "A014499",
+    "A023416",
+    "A035103",
+    "A035193",
+    "A177687"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:22:23",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that for any n > 0, the binary digits of a(n) appear in order but not necessarily as consecutive digits in the binary representation of the n-th prime number.",
+  "id": "A303075",
+  "mentions": [
+    "A000040",
+    "A286417",
+    "A303076"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

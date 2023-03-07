@@ -1,0 +1,26 @@
+{
+  "description": "Dirichlet inverse of A109168, where A109168(n) = (n+A006519(n))/2, and A006519 is the highest power of 2 dividing n.",
+  "id": "A349344",
+  "mentions": [
+    "A006519",
+    "A109168",
+    "A140472",
+    "A328203",
+    "A349134",
+    "A349343",
+    "A349345",
+    "A349346",
+    "A349353"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

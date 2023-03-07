@@ -1,0 +1,26 @@
+{
+  "description": "Table of coefficients of a polynomial sequence related to the Springer numbers.",
+  "id": "A185417",
+  "mentions": [
+    "A001586",
+    "A104035",
+    "A126156",
+    "A147309",
+    "A185415",
+    "A185418",
+    "A185419"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

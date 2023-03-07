@@ -1,0 +1,18 @@
+{
+  "description": "Lesser of twin primes (p, q=p+2) such that 7 is a square mod p and mod q.",
+  "id": "A247874",
+  "mentions": [
+    "A001359",
+    "A038878"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

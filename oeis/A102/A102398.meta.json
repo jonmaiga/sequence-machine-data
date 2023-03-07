@@ -1,0 +1,18 @@
+{
+  "description": "A permutation of the positive integers where a(2n-1) is smallest positive integer not previously in the sequence, a(2n) is A102399(n)th smallest positive integer not yet in the sequence, where sequence A102399 is this sequence's inverse permutation.",
+  "id": "A102398",
+  "mentions": [
+    "A102399"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

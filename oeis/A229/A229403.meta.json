@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-node rooted identity trees of height 9.",
+  "id": "A229403",
+  "mentions": [
+    "A038093",
+    "A227819"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 10,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

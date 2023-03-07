@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k > 1 such that 2^k == 2 (mod k) and gcd(k, 3^k - 3) = 1.",
+  "id": "A300762",
+  "mentions": [
+    "A001567",
+    "A121707",
+    "A316907"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

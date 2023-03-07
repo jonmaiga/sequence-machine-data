@@ -1,0 +1,20 @@
+{
+  "description": "One less than the largest square dividing n: a(n) = A008833(n)-1.",
+  "id": "A336642",
+  "mentions": [
+    "A008833",
+    "A336551",
+    "A336641",
+    "A336644"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

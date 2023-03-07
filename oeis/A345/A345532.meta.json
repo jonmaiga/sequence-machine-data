@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are the sum of eight cubes in two or more ways.",
+  "id": "A345532",
+  "mentions": [
+    "A003331",
+    "A345489",
+    "A345520",
+    "A345533",
+    "A345541",
+    "A345577",
+    "A345784"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

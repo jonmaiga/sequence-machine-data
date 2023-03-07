@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that A000005(A007953(k)) = A007953(k).",
+  "id": "A356520",
+  "mentions": [
+    "A000005",
+    "A007953",
+    "A011557",
+    "A052216",
+    "A101318",
+    "A306509",
+    "A356061"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

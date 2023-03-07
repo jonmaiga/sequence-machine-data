@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = max(gcd(n,F(n-1)),gcd(n,F(n+1))), where F(n) is the n-th Fibonacci number.",
+  "id": "A260228",
+  "mentions": [
+    "A106108",
+    "A182554",
+    "A260222"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

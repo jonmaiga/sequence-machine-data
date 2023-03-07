@@ -1,0 +1,17 @@
+{
+  "description": "Define two sequences by q(0)=0, p(n)=2^q(n), q(n+1)=p(n)^2; sequence gives p(n).",
+  "id": "A114560",
+  "mentions": [
+    "A114561"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

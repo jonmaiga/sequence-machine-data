@@ -1,0 +1,19 @@
+{
+  "description": "a(n) and at least one distinct anagram of a(n) that doesn't start with a leading 0 sum up to a palindrome.",
+  "id": "A331214",
+  "mentions": [
+    "A002113",
+    "A015976"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

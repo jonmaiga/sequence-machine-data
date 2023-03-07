@@ -1,0 +1,23 @@
+{
+  "description": "Trajectory of 234 under the map x -> A230625(x).",
+  "id": "A287878",
+  "mentions": [
+    "A230625",
+    "A230626",
+    "A230627",
+    "A287875"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

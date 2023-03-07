@@ -1,0 +1,28 @@
+{
+  "description": "Number of increasing odd cycles in all permutations of {1,2,...,n}.",
+  "id": "A186763",
+  "mentions": [
+    "A000166",
+    "A000522",
+    "A009628",
+    "A184958",
+    "A186761",
+    "A186762",
+    "A186764",
+    "A186765",
+    "A186766",
+    "A186768",
+    "A186769"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "T(n,k)=Number of nXk binary arrays with each 1 adjacent to exactly one 1 vertically and one 1 horizontally",
+  "id": "A183342",
+  "mentions": [
+    "A000930",
+    "A003229",
+    "A145857"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:07",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{d|n, d is even} mu(n/d)*d, where mu(n) is Moebius function A008683.",
+  "id": "A319998",
+  "mentions": [
+    "A000010",
+    "A008683",
+    "A059841",
+    "A140434",
+    "A146076",
+    "A319997"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

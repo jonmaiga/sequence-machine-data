@@ -1,0 +1,18 @@
+{
+  "description": "Centered 15-gonal (or pentadecagonal) primes.",
+  "id": "A264822",
+  "mentions": [
+    "A000040",
+    "A069128"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

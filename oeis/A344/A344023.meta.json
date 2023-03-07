@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of the form p_1^1 + p_2^2 + ... + p_k^k where p_1 < p_2 < ... < p_k are distinct primes.",
+  "id": "A344023",
+  "mentions": [
+    "A027748",
+    "A343300",
+    "A344030"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

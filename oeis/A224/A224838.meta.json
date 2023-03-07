@@ -1,0 +1,24 @@
+{
+  "description": "Triangle of falling diagonals of A011973 (with rows displayed as centered text).",
+  "id": "A224838",
+  "mentions": [
+    "A000045",
+    "A001973",
+    "A004396",
+    "A005314",
+    "A011973",
+    "A227300"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

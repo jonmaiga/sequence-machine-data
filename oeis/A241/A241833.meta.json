@@ -1,0 +1,22 @@
+{
+  "description": "Greedy residue sequence of squares 2^2, 3^2, 4^2, ...",
+  "id": "A241833",
+  "mentions": [
+    "A000290",
+    "A241834",
+    "A241835",
+    "A241836",
+    "A242252"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 2,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

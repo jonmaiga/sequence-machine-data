@@ -1,0 +1,18 @@
+{
+  "description": "Fractional noise-like sequence: a(n)=a(n-a(n-1))+a(Floor[a0*n/b0]): a0",
+  "id": "A140474",
+  "mentions": [
+    "A004001"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

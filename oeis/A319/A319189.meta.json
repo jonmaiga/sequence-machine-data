@@ -1,0 +1,31 @@
+{
+  "description": "Number of uniform regular hypergraphs spanning n vertices.",
+  "id": "A319189",
+  "mentions": [
+    "A002829",
+    "A005176",
+    "A007016",
+    "A049311",
+    "A058891",
+    "A101370",
+    "A110100",
+    "A110101",
+    "A295193",
+    "A299353",
+    "A306021",
+    "A319056",
+    "A321717",
+    "A321720"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

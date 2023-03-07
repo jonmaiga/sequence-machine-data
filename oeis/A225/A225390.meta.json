@@ -1,0 +1,20 @@
+{
+  "description": "Triangular numbers representable as Tx*Ty, where Tx>1 and Ty>1 are triangular numbers, in two or more ways.",
+  "id": "A225390",
+  "mentions": [
+    "A000217",
+    "A188630"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

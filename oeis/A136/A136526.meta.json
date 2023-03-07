@@ -1,0 +1,30 @@
+{
+  "description": "Coefficients polynomials B(x, n) = ((1 + a + b)*x - c)*B(x, n-1) - a*b*B(x, n-2) with a = 3, b = 2, and c = 0.",
+  "id": "A136526",
+  "mentions": [
+    "A000567",
+    "A002414",
+    "A002419",
+    "A016921",
+    "A027810",
+    "A030192",
+    "A034265",
+    "A051843",
+    "A054487",
+    "A055848",
+    "A081106",
+    "A136531"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

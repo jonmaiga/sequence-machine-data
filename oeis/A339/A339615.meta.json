@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonempty sets of distinct positive integers whose sum of cubes is a cube, the largest integer of a set is n.",
+  "id": "A339615",
+  "mentions": [
+    "A000578",
+    "A126111",
+    "A339612"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

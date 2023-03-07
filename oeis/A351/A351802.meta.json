@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = A351477(n) * FB where F is the Fermat point of a primitive integer-sided triangle ABC with A < B < C < 2*Pi/3 and FA + FB + FC = A336329(n).",
+  "id": "A351802",
+  "mentions": [
+    "A336328",
+    "A336329",
+    "A336330",
+    "A336331",
+    "A336332",
+    "A336333",
+    "A351476",
+    "A351477",
+    "A351801",
+    "A351803"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

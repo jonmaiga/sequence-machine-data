@@ -1,0 +1,20 @@
+{
+  "description": "1/15840 of the volume of a primitive 3-simplex.",
+  "id": "A295507",
+  "mentions": [
+    "A031173",
+    "A031174",
+    "A031175"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

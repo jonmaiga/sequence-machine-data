@@ -1,0 +1,20 @@
+{
+  "description": "First differences of A078633.",
+  "id": "A237347",
+  "mentions": [
+    "A002620",
+    "A049068",
+    "A078633",
+    "A167752"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

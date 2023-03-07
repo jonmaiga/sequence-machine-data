@@ -1,0 +1,22 @@
+{
+  "description": "Triangle where T(n,k) = n!/(n-k)!*[x^k] ( x/(2*x + log(1-x)) )^(n+1), for n>=k>=0, read by rows.",
+  "id": "A118788",
+  "mentions": [
+    "A032188",
+    "A118789",
+    "A118790",
+    "A241765"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

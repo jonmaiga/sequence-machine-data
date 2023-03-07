@@ -1,0 +1,26 @@
+{
+  "description": "Proper GA1 numbers: terms of A197638 with at least three prime divisors counted with multiplicity.",
+  "id": "A201557",
+  "mentions": [
+    "A000203",
+    "A001222",
+    "A004394",
+    "A004490",
+    "A067698",
+    "A197638",
+    "A197639",
+    "A201558",
+    "A216436"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

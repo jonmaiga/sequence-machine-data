@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f.: A(x) = -log(1 - x - A(x)^2).",
+  "id": "A143155",
+  "mentions": [
+    "A143139",
+    "A143154",
+    "A202356"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

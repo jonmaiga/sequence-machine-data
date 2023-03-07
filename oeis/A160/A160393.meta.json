@@ -1,0 +1,20 @@
+{
+  "description": "Square root of A003462, rounded up.",
+  "id": "A160393",
+  "mentions": [
+    "A003462",
+    "A090246"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of connected n-regular loopless multigraphs on six unlabeled nodes.",
+  "id": "A324218",
+  "mentions": [
+    "A324217",
+    "A324221",
+    "A328682"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

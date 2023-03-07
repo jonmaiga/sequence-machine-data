@@ -1,0 +1,19 @@
+{
+  "description": "Irregular array: For any prime p that divides n, if the highest power of the prime p that divides n is p^b(n,p), then p^b(n,p) = Sum_{k=1..m} a(n,k), where m is the order of the prime-power p^b(n,p) among the prime-powers (each being the highest power of each prime q that divides n, where q divides n) when they are ordered by size. Row 1 = (1).",
+  "id": "A141404",
+  "mentions": [
+    "A001221",
+    "A141810"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

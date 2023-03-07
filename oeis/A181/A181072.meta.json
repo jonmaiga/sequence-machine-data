@@ -1,0 +1,19 @@
+{
+  "description": "Consider 1-D random walk with jumps up to the fourth neighbor, i.e., set of possible jumps is {-4,-3,-2,-1,+1,+2,+3,+4}. Sequence gives number of paths of length n ending at origin.",
+  "id": "A181072",
+  "mentions": [
+    "A092765",
+    "A117813"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

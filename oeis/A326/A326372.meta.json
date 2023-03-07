@@ -1,0 +1,29 @@
+{
+  "description": "Number of intersecting antichains of (possibly empty) subsets of {1..n}.",
+  "id": "A326372",
+  "mentions": [
+    "A000372",
+    "A001206",
+    "A007363",
+    "A014466",
+    "A051185",
+    "A305843",
+    "A305844",
+    "A306007",
+    "A326361",
+    "A326362",
+    "A326363"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

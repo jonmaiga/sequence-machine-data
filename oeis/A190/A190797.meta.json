@@ -1,0 +1,18 @@
+{
+  "description": "For primes p and q=p+6 create primitive Pythagorean triangles with sides (q^2 - p^2)/2, (p^2 + q^2)/2, and p*q. If the two remainders of the middle and longest side modulo the shortest side are both prime, then p is in the sequence.",
+  "id": "A190797",
+  "mentions": [
+    "A023201"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Even numbers k such that k-p is composite where p is the largest prime <= k.",
+  "id": "A309760",
+  "mentions": [
+    "A007917",
+    "A018252",
+    "A025583",
+    "A049711"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

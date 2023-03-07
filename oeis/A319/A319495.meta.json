@@ -1,0 +1,25 @@
+{
+  "description": "Number T(n,k) of multisets of nonempty words with a total of n letters over k-ary alphabet such that for k>0 the k-th letter occurs at least once and within each word every letter of the alphabet is at least as frequent as the subsequent alphabet letter; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A319495",
+  "mentions": [
+    "A000007",
+    "A000041",
+    "A000142",
+    "A038720",
+    "A292712",
+    "A292713",
+    "A319498"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

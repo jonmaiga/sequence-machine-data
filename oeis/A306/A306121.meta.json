@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are product of a hexagonal number (A000384) and a square pyramidal numbers (A000330) in at least two ways.",
+  "id": "A306121",
+  "mentions": [
+    "A000330",
+    "A000384",
+    "A306122"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

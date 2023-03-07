@@ -1,0 +1,24 @@
+{
+  "description": "Number of groups of order A128705(n).",
+  "id": "A128706",
+  "mentions": [
+    "A000001",
+    "A128604",
+    "A128644",
+    "A128645",
+    "A128694",
+    "A128704",
+    "A128705"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

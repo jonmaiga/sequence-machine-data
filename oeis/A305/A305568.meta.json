@@ -1,0 +1,22 @@
+{
+  "description": "Number of bachelor diagonal Latin squares of order n with the first row in ascending order.",
+  "id": "A305568",
+  "mentions": [
+    "A266177",
+    "A274171",
+    "A305569",
+    "A305570"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

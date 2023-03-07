@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that f(n), f(n+1) and f(n+2) are all primes, where f(k) = (2k+1)^2 - 2 (A073577).",
+  "id": "A293620",
+  "mentions": [
+    "A008865",
+    "A028870",
+    "A028871",
+    "A073577",
+    "A088572"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

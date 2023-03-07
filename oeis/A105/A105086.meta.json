@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the divisors of n minus the least nontrivial proper divisor of n.",
+  "id": "A105086",
+  "mentions": [
+    "A000203",
+    "A020639"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 2,
+    "size": 73,
+    "source": "joeis"
+  }
+}

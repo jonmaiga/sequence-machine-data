@@ -1,0 +1,18 @@
+{
+  "description": "Sum of the levels of the first leaf (in the preorder traversal) over all hex trees with n edges.",
+  "id": "A126187",
+  "mentions": [
+    "A126186"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:58:38",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

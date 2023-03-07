@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are superior highly composite and colossally abundant",
+  "id": "A224078",
+  "mentions": [
+    "A002182",
+    "A002201",
+    "A004490"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Irregular symmetric triangle of coefficients T(n,k) of the polynomials p(n,x) = Sum_{k=0..n} binomial(n+1,k)*(1+x)^(2*k)*(-x)^(n-k) for 0 <= k <= 2*n.",
+  "id": "A264766",
+  "mentions": [
+    "A000108",
+    "A000984",
+    "A001006",
+    "A002426",
+    "A003462",
+    "A005061",
+    "A027907",
+    "A058987",
+    "A163774",
+    "A260056"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

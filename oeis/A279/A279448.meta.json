@@ -1,0 +1,28 @@
+{
+  "description": "Number of nonequivalent ways to place 4 points on an n X n square grid so that no more than 2 points are on a vertical or horizontal straight line.",
+  "id": "A279448",
+  "mentions": [
+    "A014409",
+    "A235455",
+    "A279438",
+    "A279447",
+    "A279449",
+    "A279450",
+    "A279451",
+    "A279452",
+    "A279453",
+    "A279454"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:29:19",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

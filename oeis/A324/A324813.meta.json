@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n for which A156552(n) is a square or a twice a square.",
+  "id": "A324813",
+  "mentions": [
+    "A000040",
+    "A005940",
+    "A028982",
+    "A156552",
+    "A324812",
+    "A324814",
+    "A324823",
+    "A324825",
+    "A324885"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

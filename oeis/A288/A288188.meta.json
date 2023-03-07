@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle read by rows of normalized Girard-Waring formula (cf. A210258), for m=8 data values.",
+  "id": "A288188",
+  "mentions": [
+    "A001018",
+    "A028297",
+    "A210258",
+    "A287768",
+    "A288199",
+    "A288207",
+    "A288211",
+    "A288245"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Almost Carmichael numbers: Squarefree composite n for which omega(n) = k >= 3 and there are exactly k-1 prime divisors p of n such that p-1 | n-1.",
+  "id": "A308779",
+  "mentions": [
+    "A002997"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

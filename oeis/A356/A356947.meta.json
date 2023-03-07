@@ -1,0 +1,20 @@
+{
+  "description": "Emirps p such that p == 1 (mod s) and R(p) == 1 (mod s), where R(p) is the digit reversal of p and s the sum of digits of p.",
+  "id": "A356947",
+  "mentions": [
+    "A004086",
+    "A006567",
+    "A209871"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

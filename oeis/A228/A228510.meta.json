@@ -1,0 +1,19 @@
+{
+  "description": "(128*n^4/25+14528*n^3/225+20344*n^2/75+661816*n/1575+168)*(n+6)!/n!.",
+  "id": "A228510",
+  "mentions": [
+    "A225010"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:28:43",
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

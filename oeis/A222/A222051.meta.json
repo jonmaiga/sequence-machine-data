@@ -1,0 +1,20 @@
+{
+  "description": "Central terms in rows of triangle A220178.",
+  "id": "A222051",
+  "mentions": [
+    "A220178",
+    "A222050",
+    "A222052"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

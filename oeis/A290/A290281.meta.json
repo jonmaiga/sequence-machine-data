@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that (k-1) mod phi(k) = lambda(k), where phi = A000010 and lambda = A002322.",
+  "id": "A290281",
+  "mentions": [
+    "A000010",
+    "A002322",
+    "A002997",
+    "A215486",
+    "A264012",
+    "A277127"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

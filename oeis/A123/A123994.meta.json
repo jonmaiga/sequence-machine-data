@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number k such that prime(n)^k is a sum of 3 consecutive primes.",
+  "id": "A123994",
+  "mentions": [
+    "A122706"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

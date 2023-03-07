@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = A(x^2) / (1 - 2*x).",
+  "id": "A309728",
+  "mentions": [
+    "A001316",
+    "A018819",
+    "A171238",
+    "A308986"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:35:07",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

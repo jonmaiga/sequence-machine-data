@@ -1,0 +1,24 @@
+{
+  "description": "Number of factorizations of A327534(n), the n-th number that is 1, prime, or whose prime indices are relatively prime, into numbers > 1 satisfying the same conditions.",
+  "id": "A327540",
+  "mentions": [
+    "A006530",
+    "A056239",
+    "A112798",
+    "A281116",
+    "A289509",
+    "A327407",
+    "A327534",
+    "A327536"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

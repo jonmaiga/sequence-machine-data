@@ -1,0 +1,18 @@
+{
+  "description": "Squarefree semiprimes p*q such that (p*q+1+p-q)/2 and (p*q+1+q-p)/2 are prime.",
+  "id": "A354502",
+  "mentions": [
+    "A006881"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

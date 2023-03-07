@@ -1,0 +1,37 @@
+{
+  "description": "Array read by antidiagonals: row b lists the base-b analog of the base-10 sequence 1, 12, 123, ..., 123456789, 12345678910, ... (A007908).",
+  "id": "A179069",
+  "mentions": [
+    "A000217",
+    "A007908",
+    "A033307",
+    "A047778",
+    "A048435",
+    "A048436",
+    "A048437",
+    "A048438",
+    "A048439",
+    "A048440",
+    "A048441",
+    "A048442",
+    "A048443",
+    "A048444",
+    "A048445",
+    "A048446",
+    "A048447"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

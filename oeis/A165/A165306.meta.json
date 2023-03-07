@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest number not yet in the sequence such that concatenation of all terms yields an infinite periodic stream of digits 1, 2, 3, ..., 8 (repeat from 1).",
+  "id": "A165306",
+  "mentions": [
+    "A165300",
+    "A165305",
+    "A165307"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

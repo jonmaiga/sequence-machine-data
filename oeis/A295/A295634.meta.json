@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of nonequivalent dissections of an n-gon into k polygons by nonintersecting diagonals up to rotation and reflection.",
+  "id": "A295634",
+  "mentions": [
+    "A000207",
+    "A001004",
+    "A003449",
+    "A003450",
+    "A003453",
+    "A295260",
+    "A295419",
+    "A295633"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 3,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

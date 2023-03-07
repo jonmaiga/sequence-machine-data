@@ -1,0 +1,17 @@
+{
+  "description": "Number compositions of n where differences between neighboring parts are in {-2,2}.",
+  "id": "A214254",
+  "mentions": [
+    "A214247"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

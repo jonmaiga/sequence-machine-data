@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-th generation nodes of a rooted binary tree whose m-th node has exactly A000002(m) descendants, where A000002 is the Kolakoski sequence.",
+  "id": "A329758",
+  "mentions": [
+    "A000002",
+    "A054353"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

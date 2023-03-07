@@ -1,0 +1,17 @@
+{
+  "description": "Number of n-node rooted trees in which four equals the maximal number of nodes in paths starting at a leaf and ending at the first branching node or at the root.",
+  "id": "A318900",
+  "mentions": [
+    "A255704"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 4,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

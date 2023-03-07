@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways to choose two elements from the multiset representative corresponding to the k-th multiset repetition class defining partition of n in Abramowitz-Stegun order.",
+  "id": "A187445",
+  "mentions": [
+    "A000217",
+    "A007294",
+    "A036036",
+    "A176723",
+    "A176725",
+    "A187449"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 193,
+    "source": "oeis-entry"
+  }
+}

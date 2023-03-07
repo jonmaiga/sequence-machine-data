@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of 1/j^9 where j is the elliptic modular invariant (A000521).",
+  "id": "A289516",
+  "mentions": [
+    "A000521",
+    "A066395",
+    "A288727",
+    "A289454",
+    "A289455",
+    "A289512",
+    "A289513",
+    "A289514",
+    "A289515",
+    "A289517"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 9,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number T(n,k) of permutations on n elements with exactly k 3-cycles; triangle read by rows.",
+  "id": "A186526",
+  "mentions": [
+    "A000142",
+    "A008290",
+    "A057693",
+    "A114320"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

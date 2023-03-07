@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,k) read by rows: the coefficient [x^k] ( Phi(n,x)+x^n*Phi(n,1/x)) related to cyclotomic polynomials Phi(n,x).",
+  "id": "A140885",
+  "mentions": [
+    "A013595"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 108,
+    "source": "oeis-entry"
+  }
+}

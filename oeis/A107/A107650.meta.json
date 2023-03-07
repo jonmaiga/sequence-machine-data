@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that both numbers n/(d_1*d_2* ...*d_k) and n/(d_1+d_2+ ... +d_k) are prime, where d_1 d_2 ... d_k is the decimal expansion of n.",
+  "id": "A107650",
+  "mentions": [
+    "A034710",
+    "A066307"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

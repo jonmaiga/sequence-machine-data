@@ -1,0 +1,37 @@
+{
+  "description": "Limiting row sequence for Pascal-like triangle A140995 (Stepan's triangle with index of asymmetry s = 3).",
+  "id": "A309462",
+  "mentions": [
+    "A007318",
+    "A140993",
+    "A140994",
+    "A140995",
+    "A140996",
+    "A140997",
+    "A140998",
+    "A141020",
+    "A141021",
+    "A141031",
+    "A141065",
+    "A141066",
+    "A141067",
+    "A141068",
+    "A141069",
+    "A141070",
+    "A141072",
+    "A141073",
+    "A308808"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:27:11",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

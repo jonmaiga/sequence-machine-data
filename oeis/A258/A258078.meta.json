@@ -1,0 +1,19 @@
+{
+  "description": "a(0)=1, a(1)=2; for n>=2, a(n)=smallest number not already used which is relatively prime to a(n-1) if T(n-1)=T(n), and otherwise shares a factor with a(n-1), where {T(n)} is the Thue-Morse sequence (A010060).",
+  "id": "A258078",
+  "mentions": [
+    "A010060",
+    "A098550",
+    "A258076"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

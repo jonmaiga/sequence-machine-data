@@ -1,0 +1,19 @@
+{
+  "description": "Number of (potentially overlapping) occurrences of n in the decimal representation of n^n.",
+  "id": "A236322",
+  "mentions": [
+    "A049329",
+    "A236314"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Square numbers that remain square when their 2 most-significant (or leftmost) digits in base 10 are removed.",
+  "id": "A245371",
+  "mentions": [
+    "A225885"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

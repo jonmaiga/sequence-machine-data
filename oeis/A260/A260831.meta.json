@@ -1,0 +1,24 @@
+{
+  "description": "Primes that contain only the digits (5, 7, 9).",
+  "id": "A260831",
+  "mentions": [
+    "A000040",
+    "A020467",
+    "A020468",
+    "A020471",
+    "A030096",
+    "A260827"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

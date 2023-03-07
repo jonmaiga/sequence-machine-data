@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the least integer not the difference of two prime(n)-smooth numbers.",
+  "id": "A308247",
+  "mentions": [
+    "A000079",
+    "A002473",
+    "A003586",
+    "A051037",
+    "A051038",
+    "A101082",
+    "A290365",
+    "A308456",
+    "A326318",
+    "A326319",
+    "A326320"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

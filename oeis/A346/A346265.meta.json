@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of distinct possible tilings of type 1 (A344331) or of type 2 (A344332) for a square whose side is A344330(n).",
+  "id": "A346265",
+  "mentions": [
+    "A005917",
+    "A344330",
+    "A344331",
+    "A344332",
+    "A344333",
+    "A345287",
+    "A346264"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

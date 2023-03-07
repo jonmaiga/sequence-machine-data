@@ -1,0 +1,28 @@
+{
+  "description": "Represent the ring of Eisenstein integers E = {x+y*omega: x, y rational integers, omega = exp(2*Pi*i/3)} by the cells of a hexagonal grid; number the cells of the grid along a counterclockwise hexagonal spiral, with the cells 0, 1 numbered 0, 1. Sequence lists the index numbers of the cells which are 0 or a prime in E.",
+  "id": "A345435",
+  "mentions": [
+    "A003136",
+    "A003173",
+    "A003627",
+    "A004016",
+    "A007645",
+    "A055664",
+    "A055667",
+    "A307012",
+    "A307013",
+    "A308412",
+    "A345436",
+    "A345437"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of paths starting at {3}^n to a border position where one component equals 0 using steps that decrement one component by 1.",
+  "id": "A210486",
+  "mentions": [
+    "A210472"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

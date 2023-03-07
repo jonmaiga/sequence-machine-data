@@ -1,0 +1,24 @@
+{
+  "description": "Even numbers k such that k^2 is in A014567.",
+  "id": "A356448",
+  "mentions": [
+    "A000203",
+    "A014567",
+    "A356382",
+    "A356449",
+    "A356451",
+    "A356452"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "6-full numbers (A069493) sandwiched between twin primes.",
+  "id": "A360843",
+  "mentions": [
+    "A014574",
+    "A069493",
+    "A113839",
+    "A360840",
+    "A360841",
+    "A360842"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

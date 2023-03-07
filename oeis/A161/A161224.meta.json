@@ -1,0 +1,21 @@
+{
+  "description": "Triangular table a(n,m) that counts the occurrences of m in all partitions of 2n in exactly n parts.",
+  "id": "A161224",
+  "mentions": [
+    "A000041",
+    "A066186",
+    "A066633",
+    "A196087"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

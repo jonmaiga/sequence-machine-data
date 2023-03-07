@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (339+26*sqrt(2))/337.",
+  "id": "A159575",
+  "mentions": [
+    "A002193",
+    "A129999",
+    "A159574",
+    "A159576"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of labeled spanning intersecting antichains on n vertices.",
+  "id": "A305844",
+  "mentions": [
+    "A001206",
+    "A006126",
+    "A030019",
+    "A048143",
+    "A051185",
+    "A134958",
+    "A304985",
+    "A305843"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

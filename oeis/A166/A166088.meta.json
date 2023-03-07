@@ -1,0 +1,18 @@
+{
+  "description": "Odd integers (that is, of the form 2n+1) for which Sum_{i=1..u} J(i,2n+1) obtains value zero exactly 8 times, when u ranges from 1 to (2n+1). Here J(i,k) is the Jacobi symbol.",
+  "id": "A166088",
+  "mentions": [
+    "A005408",
+    "A166040"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

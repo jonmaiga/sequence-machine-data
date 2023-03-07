@@ -1,0 +1,17 @@
+{
+  "description": "Number of -n..n circular arrays x(0..7) of 8 elements with zero sums of x(i) and x(i)*x((i+1) mod 8)",
+  "id": "A202010",
+  "mentions": [
+    "A202006"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

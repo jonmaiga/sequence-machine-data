@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the next higher integer than n whose spelling in US English comes lexicographically later.",
+  "id": "A356024",
+  "mentions": [
+    "A180301"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

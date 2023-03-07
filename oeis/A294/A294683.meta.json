@@ -1,0 +1,19 @@
+{
+  "description": "Growth of the Lamplighter group: number of elements in the Lamplighter group L_2 = Z/2Z ≀ Z of length up to n with respect to the standard generating set {a,t}.",
+  "id": "A294683",
+  "mentions": [
+    "A288348"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:04:41",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number of toothpicks added at n-th stage in the toothpick structure of the symmetric representation of half sigma in the first octant (without the axis x and without the main diagonal).",
+  "id": "A244361",
+  "mentions": [
+    "A000203",
+    "A237270",
+    "A237271",
+    "A237591",
+    "A237593",
+    "A244360",
+    "A244362",
+    "A244363",
+    "A244370",
+    "A244371"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

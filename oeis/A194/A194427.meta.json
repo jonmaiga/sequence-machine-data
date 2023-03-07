@@ -1,0 +1,17 @@
+{
+  "description": "Indices n of twin prime averages A014574(n) which are two thirds of another twin prime average.",
+  "id": "A194427",
+  "mentions": [
+    "A014574"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

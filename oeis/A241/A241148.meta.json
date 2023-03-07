@@ -1,0 +1,37 @@
+{
+  "description": "Number of factorials k!, 0<=k<=n, relatively prime to n! in Fermi-Dirac arithmetic.",
+  "id": "A241148",
+  "mentions": [
+    "A050376",
+    "A177329",
+    "A177333",
+    "A177334",
+    "A240537",
+    "A240606",
+    "A240619",
+    "A240620",
+    "A240668",
+    "A240669",
+    "A240670",
+    "A240672",
+    "A240695",
+    "A240751",
+    "A240755",
+    "A240764",
+    "A240905",
+    "A240906",
+    "A241123",
+    "A241124",
+    "A241139"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

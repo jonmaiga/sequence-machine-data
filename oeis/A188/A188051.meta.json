@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that 18^k - 17^k is prime, or a strong pseudoprime.",
+  "id": "A188051",
+  "mentions": [
+    "A000043",
+    "A057468",
+    "A059801",
+    "A059802",
+    "A059803",
+    "A062572",
+    "A062583",
+    "A062585",
+    "A062666"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

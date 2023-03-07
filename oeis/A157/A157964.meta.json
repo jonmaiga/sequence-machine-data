@@ -1,0 +1,20 @@
+{
+  "description": "Consider the English number names for numbers from 1 to n, sorted in lexicographic order: the number name for a(n) gives the median in this list.",
+  "id": "A157964",
+  "mentions": [
+    "A000027",
+    "A157943"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "look",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (n!)^2 * Sum_{k=0..n} (2*k)! / (2^k * (k!)^3 * (n - k)!).",
+  "id": "A331817",
+  "mentions": [
+    "A000165",
+    "A001147",
+    "A032031",
+    "A034430",
+    "A052577"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

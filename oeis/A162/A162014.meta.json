@@ -1,0 +1,26 @@
+{
+  "description": "Sequence related to the o.g.f.s. of the right hand columns of the EG1 triangle A162005.",
+  "id": "A162014",
+  "mentions": [
+    "A000012",
+    "A004004",
+    "A055209",
+    "A059332",
+    "A162005",
+    "A162008",
+    "A162009",
+    "A162010"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

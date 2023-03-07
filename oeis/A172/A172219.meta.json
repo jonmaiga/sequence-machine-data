@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to place 4 nonattacking nightriders on a 4 X n board.",
+  "id": "A172219",
+  "mentions": [
+    "A061990",
+    "A172213",
+    "A172218"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:16:25",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

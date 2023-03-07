@@ -1,0 +1,21 @@
+{
+  "description": "Difference of consecutive integers nearest to (10^n)/log(10^n) (A057834).",
+  "id": "A228065",
+  "mentions": [
+    "A006879",
+    "A057834",
+    "A228066"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1/Sum_{k>=0} A000326(k+1)*x^k.",
+  "id": "A296775",
+  "mentions": [
+    "A000326",
+    "A294372"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:16",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

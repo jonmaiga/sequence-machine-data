@@ -1,0 +1,29 @@
+{
+  "description": "Length of cycle corresponding to n-th term of A165127",
+  "id": "A165129",
+  "mentions": [
+    "A000012",
+    "A151966",
+    "A165011",
+    "A165031",
+    "A165050",
+    "A165070",
+    "A165089",
+    "A165109",
+    "A165110",
+    "A165115",
+    "A165127",
+    "A165128"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "A(n,k) = Sum_{j=0..floor(n/k)} (-1)^j*binomial(2*n,k*j+n), square array A(n,k) read by antidiagonals, for n >= 0, k >= 1.",
+  "id": "A307668",
+  "mentions": [
+    "A005317",
+    "A088218",
+    "A306914",
+    "A307039",
+    "A307394",
+    "A307665"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

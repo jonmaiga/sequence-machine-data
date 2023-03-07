@@ -1,0 +1,19 @@
+{
+  "description": "Largest part of n-th partition of the table of partitions of A211999.",
+  "id": "A212125",
+  "mentions": [
+    "A135010",
+    "A141285",
+    "A211999"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

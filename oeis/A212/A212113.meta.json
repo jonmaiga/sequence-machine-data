@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of convergents to the Dottie number, A003957",
+  "id": "A212113",
+  "mentions": [
+    "A003957",
+    "A212112"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

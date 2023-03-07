@@ -1,0 +1,21 @@
+{
+  "description": "If there is a divisor d of n such that phi(d)*d = n, then a(n) = d, otherwise a(n) = 0.",
+  "id": "A327172",
+  "mentions": [
+    "A000010",
+    "A002618",
+    "A082473",
+    "A194507"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

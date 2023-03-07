@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k)=number of binary words of length n avoiding 010 and having k 1's.",
+  "id": "A180562",
+  "mentions": [
+    "A000931",
+    "A005251",
+    "A124445",
+    "A239101"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

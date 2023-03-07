@@ -1,0 +1,20 @@
+{
+  "description": "Sequence starting with 1 such that the sum of any two distinct terms has three distinct prime factors.",
+  "id": "A181622",
+  "mentions": [
+    "A180514",
+    "A180565",
+    "A180615",
+    "A181620"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

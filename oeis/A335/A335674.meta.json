@@ -1,0 +1,21 @@
+{
+  "description": "Odd composite integers m such that A003501(m) == 5 (mod m).",
+  "id": "A335674",
+  "mentions": [
+    "A003501",
+    "A005248",
+    "A335669",
+    "A335672",
+    "A335673"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

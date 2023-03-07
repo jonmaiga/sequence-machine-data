@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array read by rows: row n shows the coefficients of the polynomial u(n) = c(0) + c(1)*x + ... + c(2n)*x^(2n) which is the numerator of the n-th convergent of the continued fraction [k, k, k, ... ], where k = (x^2 + 1)/(x + 1).",
+  "id": "A231728",
+  "mentions": [
+    "A000045",
+    "A087206",
+    "A230000",
+    "A231729"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

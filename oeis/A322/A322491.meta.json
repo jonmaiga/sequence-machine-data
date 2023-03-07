@@ -1,0 +1,22 @@
+{
+  "description": "Numbers representable as truncated triangular numbers A008912 in more ways than any smaller number.",
+  "id": "A322491",
+  "mentions": [
+    "A008867",
+    "A008912",
+    "A319602",
+    "A321740",
+    "A322492"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

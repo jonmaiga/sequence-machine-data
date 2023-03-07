@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: Product_{n>=1} (1 - A002203(n)*x^n + (-x^2)^n) / (1 + A002203(n)*x^n + (-x^2)^n) where A002203(n) is the companion Pell numbers.",
+  "id": "A204384",
+  "mentions": [
+    "A002203",
+    "A022544",
+    "A203850",
+    "A204382",
+    "A204383"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:24",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

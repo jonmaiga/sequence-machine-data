@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = A162996(n) - R_n = round(kn * (log(kn)+1)) - R_n, with k = 2.216 and R_n = n-th Ramanujan Prime A104272(n) and where Abs(a(n)) < 2 * sqrt(A162996(n)) for n in [1..1000].",
+  "id": "A163160",
+  "mentions": [
+    "A104272",
+    "A162996"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

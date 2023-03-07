@@ -1,0 +1,26 @@
+{
+  "description": "Number of grid points that are covered after n-th stage of A139250, assuming the vertical toothpicks have length 2 and the horizontal toothpicks have length 4.",
+  "id": "A194800",
+  "mentions": [
+    "A139250",
+    "A147614",
+    "A160420",
+    "A160422",
+    "A162795",
+    "A162796",
+    "A162797",
+    "A175098",
+    "A194802"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

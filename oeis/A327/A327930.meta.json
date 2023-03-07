@@ -1,0 +1,29 @@
+{
+  "description": "Product_{d|n, d>1} prime(A003415(d)), where A003415(x) gives the arithmetic derivative of x.",
+  "id": "A327930",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A001222",
+    "A003415",
+    "A007814",
+    "A032741",
+    "A056239",
+    "A064989",
+    "A319356",
+    "A319684",
+    "A319685",
+    "A327931"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

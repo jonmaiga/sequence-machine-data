@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of Product_{k>=1} 1/(1 - x^k)^(p(k)-p(k-1)), where p(k) = number of partitions of k (A000041).",
+  "id": "A304967",
+  "mentions": [
+    "A000041",
+    "A000219",
+    "A001383",
+    "A001970",
+    "A002865",
+    "A304966"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:02:13",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

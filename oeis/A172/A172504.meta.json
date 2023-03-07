@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = denominator of fraction a/b, where gcd(a, b) = 1, whose decimal representation has the form (n).(n)(n)(n)... with period (n).",
+  "id": "A172504",
+  "mentions": [
+    "A172502",
+    "A172503"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

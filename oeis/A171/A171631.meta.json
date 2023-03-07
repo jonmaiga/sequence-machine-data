@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: T(n,k) = n*(binomial(n-2, k-1) + n*binomial(n-2, k)), n > 0 and 0 <= k <= n - 1.",
+  "id": "A171631",
+  "mentions": [
+    "A000290",
+    "A000292",
+    "A001788",
+    "A002417",
+    "A003506",
+    "A007318",
+    "A011379",
+    "A046092",
+    "A127952",
+    "A171531"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

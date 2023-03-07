@@ -1,0 +1,19 @@
+{
+  "description": "Number of pandigital squares with n digits.",
+  "id": "A359341",
+  "mentions": [
+    "A036745",
+    "A225218"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X n matrices (up to permutation of their rows and columns) with entries {0,1,2} with all row and column sums equal to 3.",
+  "id": "A328159",
+  "mentions": [
+    "A232215"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Numbers that are coprime to the number of terms in their Zeckendorf representation (A007895).",
+  "id": "A358978",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A007895",
+    "A059956",
+    "A063743",
+    "A094387",
+    "A328208",
+    "A339076",
+    "A358975",
+    "A358976",
+    "A358977"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

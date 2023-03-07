@@ -1,0 +1,19 @@
+{
+  "description": "A folded back triangular sequence of the binomial / Pascal's triangle A007318: half of the sequence is taken and doubled except for the odd middle terms which remain the same.",
+  "id": "A130754",
+  "mentions": [
+    "A007318"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

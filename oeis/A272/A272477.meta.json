@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n that are coprime to the numerator of zeta(2*n)/(Pi^(2*n)).",
+  "id": "A272477",
+  "mentions": [
+    "A266214"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

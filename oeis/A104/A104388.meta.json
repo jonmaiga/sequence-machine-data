@@ -1,0 +1,22 @@
+{
+  "description": "Lesser of two successive primes the average of which is a repdigit.",
+  "id": "A104388",
+  "mentions": [
+    "A054268",
+    "A104386",
+    "A104387",
+    "A104389"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

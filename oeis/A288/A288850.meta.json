@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct nonnegative rational numbers that can be obtained in n steps by a straight-line program (SLP) starting at 1 using addition, subtraction, multiplication and division.",
+  "id": "A288850",
+  "mentions": [
+    "A216999",
+    "A288760",
+    "A288849"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Consider numbers m,n such that UnitaryPhi(m)=UnitaryPhi(n)=3*(m*n)^(1/2)/4, m <= n; sequence gives values of n.",
+  "id": "A143649",
+  "mentions": [
+    "A047994",
+    "A143650"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

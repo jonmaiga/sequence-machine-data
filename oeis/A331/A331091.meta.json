@@ -1,0 +1,22 @@
+{
+  "description": "Positive negaFibonacci-Niven numbers k (A331085) such that -k is a negative negaFibonacci-Niven number (A331088).",
+  "id": "A331091",
+  "mentions": [
+    "A215022",
+    "A215023",
+    "A330711",
+    "A331085",
+    "A331088"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

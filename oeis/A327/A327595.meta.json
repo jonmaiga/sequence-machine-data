@@ -1,0 +1,18 @@
+{
+  "description": "Total number of colors in all colored compositions of n using all colors of an initial interval of the color palette such that all parts have different color patterns and the patterns for parts i are sorted and have i colors in (weakly) increasing order.",
+  "id": "A327595",
+  "mentions": [
+    "A327244"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "description": "Number of digits >= 4 in decimal representation of n.",
+  "id": "A102673",
+  "mentions": [
+    "A000120",
+    "A000788",
+    "A007090",
+    "A023416",
+    "A027868",
+    "A054899",
+    "A055640",
+    "A055641",
+    "A059015",
+    "A102669",
+    "A102674",
+    "A102685",
+    "A117804",
+    "A122840",
+    "A122841",
+    "A160093",
+    "A160094",
+    "A196563",
+    "A196564"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

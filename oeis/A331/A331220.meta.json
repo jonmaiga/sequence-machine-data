@@ -1,0 +1,21 @@
+{
+  "description": "Positive numbers of the form u * v where the ternary representations of u and of v have the same number of digits d for d = 0..2.",
+  "id": "A331220",
+  "mentions": [
+    "A331219",
+    "A331221",
+    "A331268",
+    "A331269"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers of the form 2*p-1 or 3*p-1 where p is 1 or a prime.",
+  "id": "A195896",
+  "mentions": [
+    "A008578",
+    "A076274",
+    "A112773",
+    "A196127"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

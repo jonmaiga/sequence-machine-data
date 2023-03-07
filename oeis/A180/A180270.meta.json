@@ -1,0 +1,21 @@
+{
+  "description": "Integers of the form (k^12 - k^8 - k^4 + 1)/512.",
+  "id": "A180270",
+  "mentions": [
+    "A000217",
+    "A001844",
+    "A175110"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

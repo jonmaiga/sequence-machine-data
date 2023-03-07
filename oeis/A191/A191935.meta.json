@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows of Legendre-Stirling numbers of the second kind.",
+  "id": "A191935",
+  "mentions": [
+    "A071951",
+    "A135921",
+    "A191936"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

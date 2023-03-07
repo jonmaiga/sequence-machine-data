@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that can be written as a product of tetrahedral numbers.",
+  "id": "A334115",
+  "mentions": [
+    "A000292",
+    "A007426",
+    "A085782",
+    "A265010"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

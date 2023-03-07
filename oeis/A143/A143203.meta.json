@@ -1,0 +1,26 @@
+{
+  "description": "Numbers having exactly two distinct prime factors p, q with q=p+4.",
+  "id": "A143203",
+  "mentions": [
+    "A001221",
+    "A006530",
+    "A007774",
+    "A020639",
+    "A023200",
+    "A027748",
+    "A033850",
+    "A046132",
+    "A143201",
+    "A195106"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

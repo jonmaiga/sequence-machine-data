@@ -1,0 +1,18 @@
+{
+  "description": "1 + Sum[ k^(n-1), {k,1,n}].",
+  "id": "A120490",
+  "mentions": [
+    "A076015"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

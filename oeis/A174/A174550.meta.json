@@ -1,0 +1,20 @@
+{
+  "description": "Run lengths of 2 or larger for consecutive prime numbers in A006577.",
+  "id": "A174550",
+  "mentions": [
+    "A006577",
+    "A066906",
+    "A174538"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

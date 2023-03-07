@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n^4 + 4*n^3 + 12*n^2 + 24*n + 24.",
+  "id": "A127878",
+  "mentions": [
+    "A127873",
+    "A127883"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

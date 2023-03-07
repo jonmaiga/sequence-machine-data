@@ -1,0 +1,20 @@
+{
+  "description": "Powers of 2 added sequentially to an initial value of 1 in producing A168612, which is a greedy listing of numbers all relatively prime to each other in binary.",
+  "id": "A169612",
+  "mentions": [
+    "A168612"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:53",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

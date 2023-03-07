@@ -1,0 +1,25 @@
+{
+  "description": "The number of non-unitary divisors in the conjugated prime factorization of n: a(n) = A048105(A122111(n)).",
+  "id": "A336316",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A034444",
+    "A048105",
+    "A055932",
+    "A122111",
+    "A286621",
+    "A336315"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

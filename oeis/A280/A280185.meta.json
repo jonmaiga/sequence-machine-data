@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n - A004090(n), where A004090 is the sum of digits of the Fibonacci numbers A000045.",
+  "id": "A280185",
+  "mentions": [
+    "A000045",
+    "A004090",
+    "A007953",
+    "A264935",
+    "A278833",
+    "A278834"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:48",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

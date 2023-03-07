@@ -1,0 +1,19 @@
+{
+  "description": "Angle in degrees between the two hands of a 12-hour analog clock at 12*n minutes after noon/midnight.",
+  "id": "A160278",
+  "mentions": [
+    "A160272"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

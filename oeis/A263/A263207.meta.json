@@ -1,0 +1,18 @@
+{
+  "description": "Number of integer solutions for Product_{k=1..n}(c(k) + 1) = 2 * Product_{k=1..n}(c(k) - 1) with 1 < c(k) <= c(k+1).",
+  "id": "A263207",
+  "mentions": [
+    "A204321"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

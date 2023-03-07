@@ -1,0 +1,23 @@
+{
+  "description": "Number of regions in a polygon whose boundary consists of n+2 equally space points around a semicircle and n+2 equally spaced points along the diameter (a total of 2n+2 points). See Comments for precise definition.",
+  "id": "A333519",
+  "mentions": [
+    "A007678",
+    "A255011",
+    "A290865",
+    "A332953",
+    "A333282",
+    "A334458",
+    "A334459"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

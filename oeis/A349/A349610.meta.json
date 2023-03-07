@@ -1,0 +1,25 @@
+{
+  "description": "Number of solutions to x^2 + y^2 + z^2 <= n^2, where x, y, z are positive odd integers.",
+  "id": "A349610",
+  "mentions": [
+    "A000604",
+    "A000605",
+    "A008437",
+    "A053596",
+    "A085121",
+    "A253663",
+    "A349609",
+    "A349611"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

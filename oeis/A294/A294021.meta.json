@@ -1,0 +1,24 @@
+{
+  "description": "Number of elements added at n-th stage to the structure of the cellular automaton described in A294020.",
+  "id": "A294021",
+  "mentions": [
+    "A139251",
+    "A194271",
+    "A289841",
+    "A290221",
+    "A294020"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:58:45",
+    "offset": 0,
+    "size": 89,
+    "source": "joeis"
+  }
+}

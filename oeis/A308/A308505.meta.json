@@ -1,0 +1,18 @@
+{
+  "description": "Counterclockwise square spiral of distinct positive integers constructed by greedy algorithm, such that for p = 2 and 3, every multiple of p (except p itself) is vertically or horizontally adjacent to a cell already holding a multiple of p.",
+  "id": "A308505",
+  "mentions": [
+    "A005843",
+    "A008585"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

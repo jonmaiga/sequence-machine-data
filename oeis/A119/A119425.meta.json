@@ -1,0 +1,17 @@
+{
+  "description": "Primitive terms of the sequence A119357, i.e., of the sequence of those values of n for which the number of distinct nonzero sums of distinct divisors of n is less than 2^tau(n) - 1.",
+  "id": "A119425",
+  "mentions": [
+    "A119357"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

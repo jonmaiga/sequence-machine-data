@@ -1,0 +1,27 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) = number of independent vertex sets in the complete prism graph K_m X C_n.",
+  "id": "A287376",
+  "mentions": [
+    "A051927",
+    "A051928",
+    "A051929",
+    "A051930",
+    "A051931",
+    "A051932",
+    "A106512",
+    "A135597",
+    "A175243"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:59",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k such that k*n^3 + 1 is prime.",
+  "id": "A238847",
+  "mentions": [
+    "A034693",
+    "A035092"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

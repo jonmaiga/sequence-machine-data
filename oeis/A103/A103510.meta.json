@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 1 + 2 * least i such that A103509(i)=n+1, 0 if no such i exists.",
+  "id": "A103510",
+  "mentions": [
+    "A025017",
+    "A103151",
+    "A103152",
+    "A103153",
+    "A103506",
+    "A103508",
+    "A103509"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

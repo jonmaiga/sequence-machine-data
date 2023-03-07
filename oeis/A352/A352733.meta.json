@@ -1,0 +1,22 @@
+{
+  "description": "Least number k such that the total number of parts in all partitions of k into consecutive parts is a record.",
+  "id": "A352733",
+  "mentions": [
+    "A001227",
+    "A204217",
+    "A237048",
+    "A286000",
+    "A299765",
+    "A352734"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

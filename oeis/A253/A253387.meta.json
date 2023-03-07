@@ -1,0 +1,18 @@
+{
+  "description": "A \"mod sequence\" where a(n) is the eventual constant value attained by the sequence defined as b(1) = n, b(m) = (sum_{k=1..m-1} b(k)) mod m, with a(n) = -1 in case a constant run is not found.",
+  "id": "A253387",
+  "mentions": [
+    "A074482",
+    "A117846"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

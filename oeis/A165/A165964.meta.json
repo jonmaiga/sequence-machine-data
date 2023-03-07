@@ -1,0 +1,20 @@
+{
+  "description": "Number of circular permutations of length n without increasing or decreasing 3-sequences.",
+  "id": "A165964",
+  "mentions": [
+    "A078628",
+    "A095816",
+    "A165963"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is twice the coefficient of the radical part in the fundamental unit of Q(sqrt(A000037(n))) where A000037 lists the nonsquare numbers (Version 2).",
+  "id": "A346420",
+  "mentions": [
+    "A000037",
+    "A000924",
+    "A007913",
+    "A048941",
+    "A048942",
+    "A346419"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

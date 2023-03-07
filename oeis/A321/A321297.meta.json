@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the sum of proper divisors of n that are >= sqrt(n) minus the sum of the divisors that are greater than 1 and less than sqrt(n).",
+  "id": "A321297",
+  "mentions": [
+    "A000203",
+    "A070038",
+    "A079667"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

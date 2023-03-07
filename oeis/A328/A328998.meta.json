@@ -1,0 +1,18 @@
+{
+  "description": "Primes that never appear as sums of terms in successive triples in A329333.",
+  "id": "A328998",
+  "mentions": [
+    "A328997",
+    "A329333"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

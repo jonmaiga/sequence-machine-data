@@ -1,0 +1,20 @@
+{
+  "description": "Length of period of Narayana sequence A000930 modulo n-th prime.",
+  "id": "A271901",
+  "mentions": [
+    "A000930",
+    "A271953"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

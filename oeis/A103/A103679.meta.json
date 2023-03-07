@@ -1,0 +1,25 @@
+{
+  "description": "Numbers m such that in binary representation m! doesn't contain 6!.",
+  "id": "A103679",
+  "mentions": [
+    "A000142",
+    "A007088",
+    "A036603",
+    "A102730",
+    "A103674",
+    "A103677",
+    "A103678",
+    "A103681"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

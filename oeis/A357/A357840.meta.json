@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k in A018900 with arithmetic derivative k' (A003415) in A018900.",
+  "id": "A357840",
+  "mentions": [
+    "A003415",
+    "A018900",
+    "A019434"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

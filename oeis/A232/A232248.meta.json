@@ -1,0 +1,22 @@
+{
+  "description": "Denominators of the expected length of a random cycle in a random permutation.",
+  "id": "A232248",
+  "mentions": [
+    "A002657",
+    "A091137",
+    "A132393",
+    "A232193"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

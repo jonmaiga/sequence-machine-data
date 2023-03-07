@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = number of strict partition numbers that divide the n-th strict partition number.",
+  "id": "A332888",
+  "mentions": [
+    "A000009",
+    "A322886",
+    "A332889"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

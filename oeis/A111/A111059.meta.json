@@ -1,0 +1,33 @@
+{
+  "description": "Product{k=1 to n} (A005117(k)), the product of the first n squarefree positive integers.",
+  "id": "A111059",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A005117",
+    "A006881",
+    "A014466",
+    "A054640",
+    "A070826",
+    "A072047",
+    "A147655",
+    "A242031",
+    "A246867",
+    "A261144",
+    "A319246",
+    "A319247",
+    "A329631",
+    "A338901",
+    "A339360"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

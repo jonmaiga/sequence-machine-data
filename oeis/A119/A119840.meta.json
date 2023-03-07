@@ -1,0 +1,20 @@
+{
+  "description": "Positions where new distinct values appear in A114717.",
+  "id": "A119840",
+  "mentions": [
+    "A025487",
+    "A114717",
+    "A119500",
+    "A119841"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

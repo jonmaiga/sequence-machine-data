@@ -1,0 +1,26 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) is the number of connected dominating sets in the rook graph K_m X K_n.",
+  "id": "A360875",
+  "mentions": [
+    "A000225",
+    "A183109",
+    "A262307",
+    "A287274",
+    "A289196",
+    "A360873",
+    "A360876"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

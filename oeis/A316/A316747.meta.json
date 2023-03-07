@@ -1,0 +1,21 @@
+{
+  "description": "Stirling transform of (2*n)!.",
+  "id": "A316747",
+  "mentions": [
+    "A000670",
+    "A052841",
+    "A064618",
+    "A316748"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

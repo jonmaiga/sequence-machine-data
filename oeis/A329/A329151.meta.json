@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that (3*p+q)/2 and (p+3*q)/2 are prime, where q is the next prime after p.",
+  "id": "A329151",
+  "mentions": [
+    "A001359",
+    "A069142"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

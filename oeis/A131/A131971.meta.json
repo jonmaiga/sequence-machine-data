@@ -1,0 +1,23 @@
+{
+  "description": "a(0) = a(1) = a(2) = 1; a(n) = (a(n-1) + a(n-2) + a(n-3)) mod n.",
+  "id": "A131971",
+  "mentions": [
+    "A000213",
+    "A096535",
+    "A122276",
+    "A122277",
+    "A122278",
+    "A122279"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

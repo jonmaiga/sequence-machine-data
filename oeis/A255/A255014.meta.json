@@ -1,0 +1,19 @@
+{
+  "description": "Abelian complexity function of the 4-bonacci word (A254990).",
+  "id": "A255014",
+  "mentions": [
+    "A000078",
+    "A216190",
+    "A254990"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

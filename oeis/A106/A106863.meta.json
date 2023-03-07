@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form x^2+xy+5y^2.",
+  "id": "A106863",
+  "mentions": [
+    "A035243",
+    "A106856",
+    "A191028"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:58",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

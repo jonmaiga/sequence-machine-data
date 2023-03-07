@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = the denominator of b(n): {b(n)} is such that the continued fraction (of rational terms) [b(1);b(2),...,b(n)] equals the n-th prime, for every positive integer n.",
+  "id": "A128271",
+  "mentions": [
+    "A128270"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

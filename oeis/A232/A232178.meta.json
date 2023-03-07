@@ -1,0 +1,23 @@
+{
+  "description": "Least k>=0 such that triangular(n) + k^2 is a square, or -1 if no such k exists.",
+  "id": "A232178",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A082183",
+    "A101157",
+    "A232176",
+    "A232177",
+    "A232179"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

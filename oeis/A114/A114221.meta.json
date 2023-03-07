@@ -1,0 +1,23 @@
+{
+  "description": "Numbers m such that A114216(m)=3.",
+  "id": "A114221",
+  "mentions": [
+    "A114216",
+    "A114217",
+    "A114218",
+    "A114222",
+    "A114223",
+    "A114224"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

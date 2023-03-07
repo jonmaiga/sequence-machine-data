@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that occur as results of downward remultiplication (N -> GF(2)[X]) of some number and have at least one irreducible polynomial factor encoded by a composite number.",
+  "id": "A236839",
+  "mentions": [
+    "A048720",
+    "A066247",
+    "A234741",
+    "A236834",
+    "A236838",
+    "A236841",
+    "A236849",
+    "A236850"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

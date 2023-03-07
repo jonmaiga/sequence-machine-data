@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest positive number that has not appeared that shares a single prime factor with a(n-1) and that prime has exponent 1 in the prime factorization of both a(n) and a(n-1).",
+  "id": "A352793",
+  "mentions": [
+    "A000040",
+    "A001694",
+    "A005117",
+    "A064413"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

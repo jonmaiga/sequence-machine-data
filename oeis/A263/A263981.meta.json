@@ -1,0 +1,19 @@
+{
+  "description": "Least even k such that phi(k) >= n.",
+  "id": "A263981",
+  "mentions": [
+    "A066169",
+    "A151800"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

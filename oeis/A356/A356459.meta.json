@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n! * Sum_{k=1..n} Sum_{d|k} d/(k/d)!.",
+  "id": "A356459",
+  "mentions": [
+    "A354863",
+    "A355886",
+    "A356009"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

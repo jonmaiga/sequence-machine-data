@@ -1,0 +1,19 @@
+{
+  "description": "A fractal array resembling the shape of a conifer tree read by rows. A mirror symmetric array of numbers where the n-th term is equal to the number of terms in the n-th row of the array.",
+  "id": "A253028",
+  "mentions": [
+    "A253146",
+    "A334081"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

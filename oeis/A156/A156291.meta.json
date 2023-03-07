@@ -1,0 +1,20 @@
+{
+  "description": "A triangle sequence of Cyclotomic products: t(n,m)=Product[Cyclotomic[k, m + 1], {k, 1, n}].",
+  "id": "A156291",
+  "mentions": [
+    "A156173"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

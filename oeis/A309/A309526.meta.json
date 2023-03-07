@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the greatest divisor of A001353(n) that is coprime to A001353(m) for all positive integers m < n.",
+  "id": "A309526",
+  "mentions": [
+    "A001353",
+    "A178763",
+    "A306825",
+    "A308949",
+    "A309040",
+    "A309525"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

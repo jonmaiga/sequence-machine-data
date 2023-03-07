@@ -1,0 +1,28 @@
+{
+  "description": "Number of compositions (ordered partitions) of n where the gcd of the part sizes is not 1.",
+  "id": "A178472",
+  "mentions": [
+    "A000045",
+    "A000740",
+    "A008683",
+    "A011782",
+    "A027375",
+    "A059966",
+    "A121016",
+    "A152061",
+    "A178470",
+    "A329140",
+    "A329145"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

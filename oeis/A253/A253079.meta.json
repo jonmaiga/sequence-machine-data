@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = if n is even, number of ON cells at stage n of two-dimensional 5-neighbor outer totalistic cellular automaton defined by \"Rule 489\" or if n is odd, number of OFF cells.",
+  "id": "A253079",
+  "mentions": [
+    "A169699",
+    "A246316",
+    "A246318",
+    "A246325",
+    "A246326",
+    "A253080"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

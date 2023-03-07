@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the escape probability for a random walk on the 3D fcc lattice.",
+  "id": "A293237",
+  "mentions": [
+    "A242761",
+    "A293238"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

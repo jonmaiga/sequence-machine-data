@@ -1,0 +1,28 @@
+{
+  "description": "Number of parity preserving permutations of the set {1,2,...,n} with exactly k cycles.",
+  "id": "A246117",
+  "mentions": [
+    "A002620",
+    "A008275",
+    "A010551",
+    "A125300",
+    "A187235",
+    "A203151",
+    "A203246",
+    "A246118",
+    "A274310"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n * x/(x-1) produces a rotation of the digits in n for some value of x.",
+  "id": "A288669",
+  "mentions": [
+    "A034089",
+    "A285936",
+    "A288626"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:01",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

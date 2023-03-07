@@ -1,0 +1,32 @@
+{
+  "description": "Shanks's array d_{a,n} (a >= 1, n >= 1) that generalizes the tangent numbers, read by antidiagonals upwards.",
+  "id": "A235606",
+  "mentions": [
+    "A000003",
+    "A000061",
+    "A000176",
+    "A000182",
+    "A000191",
+    "A000318",
+    "A000320",
+    "A000411",
+    "A000464",
+    "A000488",
+    "A000518",
+    "A064072",
+    "A064075",
+    "A235605"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

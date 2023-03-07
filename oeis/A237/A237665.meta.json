@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n such that the distinct terms arranged in increasing order form a string of two or more consecutive integers.",
+  "id": "A237665",
+  "mentions": [
+    "A034296",
+    "A092265",
+    "A237666",
+    "A238353"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,k) is an array of characteristic functions of primes involved in Goldbach's partitions of 2n.",
+  "id": "A354805",
+  "mentions": [
+    "A002375",
+    "A010051",
+    "A101264"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

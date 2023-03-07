@@ -1,0 +1,22 @@
+{
+  "description": "Dirichlet inverse of A181819, prime shadow of n.",
+  "id": "A354349",
+  "mentions": [
+    "A181819",
+    "A354186",
+    "A354351",
+    "A354359"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

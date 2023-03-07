@@ -1,0 +1,22 @@
+{
+  "description": "King's moves in chess: possible difference between origin and destination square when the squares are numbered sequentially row by row.",
+  "id": "A278828",
+  "mentions": [
+    "A278824",
+    "A278827",
+    "A278829"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

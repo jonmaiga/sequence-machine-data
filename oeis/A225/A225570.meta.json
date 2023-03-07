@@ -1,0 +1,18 @@
+{
+  "description": "The greedy smallest infinite reverse Collatz (3x+1) sequence.",
+  "id": "A225570",
+  "mentions": [
+    "A014682",
+    "A070165"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

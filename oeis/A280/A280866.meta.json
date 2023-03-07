@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest sequence of distinct terms such that, for any prime p, any run of consecutive multiples of p has at least length 2.",
+  "id": "A280866",
+  "mentions": [
+    "A007947",
+    "A280864",
+    "A304741",
+    "A304742",
+    "A304743"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Augmentation of the Fibonacci triangle A193588. See Comments.",
+  "id": "A193589",
+  "mentions": [
+    "A007863",
+    "A011270",
+    "A033537",
+    "A193091",
+    "A193588"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-4)^k*binomial(n,k)^2*binomial(n-k,k)^2.",
+  "id": "A179524",
+  "mentions": [
+    "A005259",
+    "A173774",
+    "A178790",
+    "A178791",
+    "A178808",
+    "A179508"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

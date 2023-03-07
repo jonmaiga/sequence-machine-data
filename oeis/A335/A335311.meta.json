@@ -1,0 +1,21 @@
+{
+  "description": "Coefficients of polynomials arising in the series expansion of the multiplicative inverse of an analytic function. Irregular triangle read by rows.",
+  "id": "A335311",
+  "mentions": [
+    "A000041",
+    "A006153",
+    "A182779",
+    "A199673"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

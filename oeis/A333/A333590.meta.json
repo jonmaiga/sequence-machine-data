@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = a(n-1) if half of the previous term pairs are inverted. a(n) = a(n-1) + 1 if more than half of the previous term pairs are inverted. a(n) = a(n-1) - 1 if fewer than half of the previous term pairs are inverted. a(1) = 0.",
+  "id": "A333590",
+  "mentions": [
+    "A323186"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

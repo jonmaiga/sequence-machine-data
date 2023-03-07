@@ -1,0 +1,25 @@
+{
+  "description": "Minimum difference between two distinct primes whose sum is 2*prime(n), n>4.",
+  "id": "A268914",
+  "mentions": [
+    "A006489",
+    "A071681",
+    "A078611",
+    "A128940",
+    "A137796",
+    "A139602",
+    "A161723"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 5,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

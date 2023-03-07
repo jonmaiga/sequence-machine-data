@@ -1,0 +1,24 @@
+{
+  "description": "Second weight array of Pascal's triangle (formatted as a rectangle), by antidiagonals.",
+  "id": "A185778",
+  "mentions": [
+    "A007318",
+    "A014430",
+    "A077023",
+    "A144112",
+    "A144225",
+    "A185779"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:28:43",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

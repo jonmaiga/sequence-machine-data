@@ -1,0 +1,20 @@
+{
+  "description": "Primes q such that p = (r+q+s-1)/2 is a balanced prime, where r, q, s are consecutive primes.",
+  "id": "A129190",
+  "mentions": [
+    "A006562",
+    "A127313",
+    "A129191",
+    "A129241"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

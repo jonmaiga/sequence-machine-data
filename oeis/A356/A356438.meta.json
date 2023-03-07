@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that A309892(k) = k/gpf(k), where gpf = A006530.",
+  "id": "A356438",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A006530",
+    "A076563",
+    "A151800",
+    "A309892",
+    "A356428",
+    "A356441"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

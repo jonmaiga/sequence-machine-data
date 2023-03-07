@@ -1,0 +1,21 @@
+{
+  "description": "Irregular table read by rows: a(n,k) gives the number of distinct necklaces that appear in the following procedure: starting with the n-bead, (0,1)-necklace given by k written in binary, repeatedly take the first differences (mod 2) of the beads. 0 <= k < 2^n.",
+  "id": "A355255",
+  "mentions": [
+    "A038556",
+    "A334594"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 0,
+    "size": 127,
+    "source": "oeis-bfile"
+  }
+}

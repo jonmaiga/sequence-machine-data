@@ -1,0 +1,32 @@
+{
+  "description": "Lexicographically earliest sequence containing 1 and all positive integers that have exactly one distinct prime index already in the sequence.",
+  "id": "A331913",
+  "mentions": [
+    "A000002",
+    "A000720",
+    "A000961",
+    "A001222",
+    "A001462",
+    "A112798",
+    "A324694",
+    "A324695",
+    "A324696",
+    "A331683",
+    "A331784",
+    "A331785",
+    "A331873",
+    "A331912",
+    "A331915",
+    "A331916"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

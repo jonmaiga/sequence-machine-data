@@ -1,0 +1,18 @@
+{
+  "description": "The sum of the heights of all bargraphs of semiperimeter n (n>=2).",
+  "id": "A278133",
+  "mentions": [
+    "A278132"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

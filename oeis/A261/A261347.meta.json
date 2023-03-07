@@ -1,0 +1,18 @@
+{
+  "description": "Maximum water retention of a number square of order n.",
+  "id": "A261347",
+  "mentions": [
+    "A201126",
+    "A201127"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

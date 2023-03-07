@@ -1,0 +1,23 @@
+{
+  "description": "Primes such that the sum of its smallest and largest decimal digits is an odd prime.",
+  "id": "A162658",
+  "mentions": [
+    "A046704",
+    "A070027",
+    "A086244",
+    "A088136",
+    "A091939",
+    "A109981"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Smallest prime power m such that n+m is a prime number.",
+  "id": "A123317",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A006093",
+    "A013632",
+    "A040976",
+    "A123318"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

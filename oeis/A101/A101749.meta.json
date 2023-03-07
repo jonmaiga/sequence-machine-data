@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of one of the values of i^i, namely exp(-5*Pi/2).",
+  "id": "A101749",
+  "mentions": [
+    "A049006",
+    "A093580",
+    "A101748"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 16:45:07",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

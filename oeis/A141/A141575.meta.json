@@ -1,0 +1,22 @@
+{
+  "description": "A gap prime-type triangular sequence of coefficients: gap(n)=Prime[n+1]-Prime[n]; t(n,m)=If[n == m == 0, 1, If[m == 0, ((Prime[n] + gap[n])^ n + (Prime[n] - gap[n])^n)/2, ((Prime[n] + gap[n]*Sqrt[Prime[m]])^n + (Prime[n] - gap[n]*Sqrt[Prime[m]])^n)/2]].",
+  "id": "A141575",
+  "mentions": [
+    "A011943",
+    "A034478",
+    "A081336"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

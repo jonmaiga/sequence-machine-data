@@ -1,0 +1,23 @@
+{
+  "description": "The total number of squares and rectangles appearing in the Thue-Morse sequence logical matrices after n stages.",
+  "id": "A241685",
+  "mentions": [
+    "A005578",
+    "A007590",
+    "A010060",
+    "A241682",
+    "A241683",
+    "A241684"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

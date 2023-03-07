@@ -1,0 +1,19 @@
+{
+  "description": "A symmetrical triangle of coefficients based on A000217: a(n) = Binomial[n + 2, 2]; t(n,m)=a(n - m + 1)*a(m + 1).",
+  "id": "A129855",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

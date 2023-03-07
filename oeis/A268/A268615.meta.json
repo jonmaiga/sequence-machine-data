@@ -1,0 +1,22 @@
+{
+  "description": "Lucas numbers mod 40.",
+  "id": "A268615",
+  "mentions": [
+    "A000032",
+    "A111958",
+    "A130893",
+    "A268613"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of partitions of n into distinct parts, in which the sum of the even parts is k (n>=0, 0<=k<=n).",
+  "id": "A116683",
+  "mentions": [
+    "A000009",
+    "A000700",
+    "A116684"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

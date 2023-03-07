@@ -1,0 +1,19 @@
+{
+  "description": "Union of Fibonacci numbers and powers of 2.",
+  "id": "A230771",
+  "mentions": [
+    "A000045",
+    "A000079"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

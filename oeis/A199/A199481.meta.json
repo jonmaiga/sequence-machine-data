@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) satisfies: 1-x = Sum_{n>=0} (-x)^n * A(x)^[n*phi], where phi = (sqrt(5)+1)/2.",
+  "id": "A199481",
+  "mentions": [
+    "A000201",
+    "A186576"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

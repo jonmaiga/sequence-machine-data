@@ -1,0 +1,23 @@
+{
+  "description": "Perimeter of integer-sided primitive triangles (a, b, c) whose angle B = 2*C.",
+  "id": "A343067",
+  "mentions": [
+    "A106499",
+    "A335897",
+    "A343063",
+    "A343064",
+    "A343065",
+    "A343066"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

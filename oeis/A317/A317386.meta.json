@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = abs(A317330(n) - n).",
+  "id": "A317386",
+  "mentions": [
+    "A317330"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "The k-th rightmost digit of a(n) is the least of the k rightmost digits of n.",
+  "id": "A355223",
+  "mentions": [
+    "A008592",
+    "A009994",
+    "A135481",
+    "A355221",
+    "A355222",
+    "A355224"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

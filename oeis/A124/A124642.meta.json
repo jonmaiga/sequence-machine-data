@@ -1,0 +1,23 @@
+{
+  "description": "Antidiagonal sums of A096465.",
+  "id": "A124642",
+  "mentions": [
+    "A006134",
+    "A024718",
+    "A078478",
+    "A096465",
+    "A100066",
+    "A105848"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that divide the reverse of the sum of their divisors.",
+  "id": "A254004",
+  "mentions": [
+    "A000203",
+    "A007691",
+    "A096507",
+    "A254005"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

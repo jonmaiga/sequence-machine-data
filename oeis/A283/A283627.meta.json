@@ -1,0 +1,20 @@
+{
+  "description": "The number of (n^2) X (n^2) real {0,1}-matrices the square of which is the all-ones matrix.",
+  "id": "A283627",
+  "mentions": [
+    "A008300",
+    "A283643"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

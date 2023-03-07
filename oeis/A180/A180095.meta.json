@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = smallest number k such that three consecutive prime numbers prime(n), prime(n+1) and prime(n+2) are divisors of k, k+1 and k+2 respectively.",
+  "id": "A180095",
+  "mentions": [
+    "A077338"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

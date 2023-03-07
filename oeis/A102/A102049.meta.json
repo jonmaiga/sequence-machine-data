@@ -1,0 +1,23 @@
+{
+  "description": "Indices of primes which are denominators of convergents to e.",
+  "id": "A102049",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A007677",
+    "A094007",
+    "A094008"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

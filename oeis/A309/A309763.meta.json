@@ -1,0 +1,26 @@
+{
+  "description": "Numbers that are the sum of 4 nonzero 4th powers in more than one way.",
+  "id": "A309763",
+  "mentions": [
+    "A000583",
+    "A003338",
+    "A018786",
+    "A025367",
+    "A025406",
+    "A309762",
+    "A344193",
+    "A344238",
+    "A344241",
+    "A344644"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

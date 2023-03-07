@@ -1,0 +1,25 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals, where column k is the expansion of exp(Sum_{j>0} sigma_k(j)*x^j/j) in powers of x.",
+  "id": "A294946",
+  "mentions": [
+    "A000012",
+    "A000051",
+    "A023881",
+    "A023882",
+    "A294296",
+    "A294813",
+    "A294947"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

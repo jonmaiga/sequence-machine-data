@@ -1,0 +1,19 @@
+{
+  "description": "Fibonacci numbers (A000045) which are anagrams of Triangular numbers (A000217).",
+  "id": "A162394",
+  "mentions": [
+    "A000045",
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

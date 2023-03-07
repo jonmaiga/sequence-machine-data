@@ -1,0 +1,18 @@
+{
+  "description": "Array read by columns down to the main diagonal where the first element in row n is n and element k+1 in row n is the sum of element k in row n and element k-1 in row n-1.",
+  "id": "A132379",
+  "mentions": [
+    "A053218"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

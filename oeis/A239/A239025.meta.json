@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 3 0..2 arrays with no element equal to the sum of elements to its left or one plus the sum of elements above it, modulo 3.",
+  "id": "A239025",
+  "mentions": [
+    "A239030"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

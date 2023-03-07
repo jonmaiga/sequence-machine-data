@@ -1,0 +1,19 @@
+{
+  "description": "Number of sets of distinct primes whose sum is a prime, the largest element of a set is prime(n).",
+  "id": "A339613",
+  "mentions": [
+    "A000040",
+    "A071810",
+    "A127542"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

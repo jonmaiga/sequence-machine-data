@@ -1,0 +1,26 @@
+{
+  "description": "Number of T_0 (costrict) set-systems covering a subset of {1..n} where every two covered vertices appear together in some edge (cointersecting).",
+  "id": "A327052",
+  "mentions": [
+    "A051185",
+    "A319752",
+    "A319760",
+    "A319774",
+    "A327038",
+    "A327039",
+    "A327040",
+    "A327053"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

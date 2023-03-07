@@ -1,0 +1,19 @@
+{
+  "description": "The 1996-2002 list of EIA Standard Resistor values, multiplied by 10, arranged in increasing order with duplicates removed.",
+  "id": "A220401",
+  "mentions": [
+    "A072198",
+    "A072554"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

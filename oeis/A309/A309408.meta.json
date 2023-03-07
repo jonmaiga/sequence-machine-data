@@ -1,0 +1,21 @@
+{
+  "description": "Start with X = F(n) = A000045(n). Repeatedly replace X with X - ceiling(X/n); a(n) is the number of steps to reach 0.",
+  "id": "A309408",
+  "mentions": [
+    "A000045",
+    "A002390",
+    "A278586"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

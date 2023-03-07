@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of neutron magnetic moment in J*T^(-1), negated.",
+  "id": "A327956",
+  "mentions": [
+    "A003675",
+    "A230848",
+    "A254289",
+    "A276558",
+    "A303126"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": -26,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

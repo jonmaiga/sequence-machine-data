@@ -1,0 +1,25 @@
+{
+  "description": "Index of the primes of A205827, A000720(A205827(n)).",
+  "id": "A214935",
+  "mentions": [
+    "A000040",
+    "A000101",
+    "A000720",
+    "A002386",
+    "A005669",
+    "A111870",
+    "A205827",
+    "A241542"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

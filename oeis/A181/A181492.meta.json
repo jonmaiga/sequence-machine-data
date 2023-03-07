@@ -1,0 +1,28 @@
+{
+  "description": "Primes of the form p=3*2^k+1 such that p-2 is also a prime.",
+  "id": "A181492",
+  "mentions": [
+    "A001097",
+    "A001359",
+    "A004119",
+    "A006512",
+    "A014574",
+    "A103204",
+    "A181490",
+    "A181491",
+    "A181493",
+    "A181495"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

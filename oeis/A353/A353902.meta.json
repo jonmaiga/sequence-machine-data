@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n in which exactly one even part is repeated and odd parts are unrestricted.",
+  "id": "A353902",
+  "mentions": [
+    "A000041",
+    "A353903"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

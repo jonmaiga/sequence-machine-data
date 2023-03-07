@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 0; a(n) = the smallest number such that the concatenation a(1)a(2)...a(n) is prime in the smallest allowed base; sequence terminates at index m if a(1)a(2)...a(m)k is composite in the smallest allowed base for all k.",
+  "id": "A358344",
+  "mentions": [
+    "A023107",
+    "A024770",
+    "A069603"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

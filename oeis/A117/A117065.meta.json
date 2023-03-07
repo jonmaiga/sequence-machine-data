@@ -1,0 +1,23 @@
+{
+  "description": "Primes that are not the sum of 3 pentagonal numbers.",
+  "id": "A117065",
+  "mentions": [
+    "A000040",
+    "A000326",
+    "A003679",
+    "A064826"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

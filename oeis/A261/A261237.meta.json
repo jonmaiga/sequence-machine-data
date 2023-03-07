@@ -1,0 +1,23 @@
+{
+  "description": "Number of steps needed when starting from (3^(n+1))-1 and repeatedly applying the map that replaces k with k - (sum of digits in base-3 representation of k) to encounter the first number whose base-3 representation begins with a digit other than 2.",
+  "id": "A261237",
+  "mentions": [
+    "A000244",
+    "A054861",
+    "A122586",
+    "A261230",
+    "A261234",
+    "A261236"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

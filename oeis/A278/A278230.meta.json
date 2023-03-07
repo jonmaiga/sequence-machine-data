@@ -1,0 +1,25 @@
+{
+  "description": "Least number with the prime signature of 2*prime(n) + 1.",
+  "id": "A278230",
+  "mentions": [
+    "A000040",
+    "A005384",
+    "A046523",
+    "A072055",
+    "A072192",
+    "A278227",
+    "A278228",
+    "A278229"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

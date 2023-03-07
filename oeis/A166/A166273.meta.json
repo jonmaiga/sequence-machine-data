@@ -1,0 +1,19 @@
+{
+  "description": "Bisection 2n+1 of A165605.",
+  "id": "A166273",
+  "mentions": [
+    "A005408",
+    "A165605",
+    "A166269"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

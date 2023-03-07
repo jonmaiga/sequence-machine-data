@@ -1,0 +1,33 @@
+{
+  "description": "Greater of a pair of amicable numbers k < m such that s(k) = m and s(m) = k, where s(k) = A162296(k) - k is the sum of aliquot divisors of k that have a square factor.",
+  "id": "A357496",
+  "mentions": [
+    "A002025",
+    "A002046",
+    "A002953",
+    "A013929",
+    "A126166",
+    "A126170",
+    "A162296",
+    "A259039",
+    "A292981",
+    "A322542",
+    "A322609",
+    "A324709",
+    "A325314",
+    "A348344",
+    "A357493",
+    "A357494",
+    "A357495"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

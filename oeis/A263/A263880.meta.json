@@ -1,0 +1,23 @@
+{
+  "description": "Safe primes 2p + 1 such that p is a Fibonacci prime.",
+  "id": "A263880",
+  "mentions": [
+    "A000045",
+    "A001605",
+    "A005384",
+    "A005385",
+    "A005478",
+    "A155011"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

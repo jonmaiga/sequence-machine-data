@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = a(2) = 1; for n >= 3, a(n) = a(t(n)) + a(n-t(n)) where t = A000195.",
+  "id": "A317442",
+  "mentions": [
+    "A000195",
+    "A316434"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

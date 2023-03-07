@@ -1,0 +1,20 @@
+{
+  "description": "Discrepancy of the Kolakoski sequence A000002.",
+  "id": "A294448",
+  "mentions": [
+    "A000002",
+    "A088568",
+    "A294449"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

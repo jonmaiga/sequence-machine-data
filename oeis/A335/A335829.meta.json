@@ -1,0 +1,18 @@
+{
+  "description": "Denominators of coefficients in a power series expansion of the distance between two bodies falling freely towards each other along a straight line under the influence of their mutual gravitational attraction.",
+  "id": "A335829",
+  "mentions": [
+    "A335828"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

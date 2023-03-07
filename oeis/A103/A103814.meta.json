@@ -1,0 +1,24 @@
+{
+  "description": "Pentanacci constant: decimal expansion of limit of A001591(n+1)/A001591(n).",
+  "id": "A103814",
+  "mentions": [
+    "A001591",
+    "A001622",
+    "A058265",
+    "A086088",
+    "A118427",
+    "A118428"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

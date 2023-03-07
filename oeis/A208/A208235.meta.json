@@ -1,0 +1,18 @@
+{
+  "description": "Maximal order of a subgroup of the symmetric group of degree n that contains no 3-cycle.",
+  "id": "A208235",
+  "mentions": [
+    "A208232"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Sophie Germain primes multiplied by a safe primes.",
+  "id": "A100929",
+  "mentions": [
+    "A001358",
+    "A005384",
+    "A005385",
+    "A100930"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

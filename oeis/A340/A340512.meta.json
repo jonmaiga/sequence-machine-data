@@ -1,0 +1,17 @@
+{
+  "description": "Order of a smallest group G with a conjugacy class of size n.",
+  "id": "A340512",
+  "mentions": [
+    "A340513"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

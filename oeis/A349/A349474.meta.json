@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the length of the continued fraction of the harmonic mean of the divisors of n.",
+  "id": "A349474",
+  "mentions": [
+    "A001599",
+    "A071862",
+    "A099377",
+    "A099378",
+    "A348865",
+    "A349473"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

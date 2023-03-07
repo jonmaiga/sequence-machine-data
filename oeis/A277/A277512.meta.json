@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that A277118(n) = 15.",
+  "id": "A277512",
+  "mentions": [
+    "A001359",
+    "A277118",
+    "A277119"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

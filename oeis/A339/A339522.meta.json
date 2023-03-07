@@ -1,0 +1,21 @@
+{
+  "description": "Odd composite integers m such that A003501(2*m-J(m,21)) == 5 (mod m) and gcd(m,21)=1, where J(m,21) is the Jacobi symbol.",
+  "id": "A339522",
+  "mentions": [
+    "A003501",
+    "A071904",
+    "A339130",
+    "A339521",
+    "A339523"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

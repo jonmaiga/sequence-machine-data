@@ -1,0 +1,22 @@
+{
+  "description": "Square array, A(n, k), n, k >= 0, read by antidiagonals; A(n, k) = g(f(n) * f(k)) where f(m) = A002487(m)/A002487(m+1) and g is the inverse of f.",
+  "id": "A357144",
+  "mentions": [
+    "A002487",
+    "A054429",
+    "A354522",
+    "A355090"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

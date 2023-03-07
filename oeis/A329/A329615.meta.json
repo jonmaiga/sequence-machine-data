@@ -1,0 +1,24 @@
+{
+  "description": "Bitwise-AND of exponents of prime factors of A108951(n), where A108951 is fully multiplicative with a(prime(i)) = prime(i)# = Product_{i=1..i} A000040(i).",
+  "id": "A329615",
+  "mentions": [
+    "A000040",
+    "A034386",
+    "A108951",
+    "A267115",
+    "A329600",
+    "A329616",
+    "A329647"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

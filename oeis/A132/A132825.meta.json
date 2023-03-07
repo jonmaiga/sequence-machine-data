@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: zeros except for right border which are the partition numbers A000041.",
+  "id": "A132825",
+  "mentions": [
+    "A000041",
+    "A066186"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of maximal matchings in the n-triangular grid graph.",
+  "id": "A297485",
+  "mentions": [
+    "A269869",
+    "A297061"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

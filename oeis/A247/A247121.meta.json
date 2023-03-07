@@ -1,0 +1,20 @@
+{
+  "description": "Number of tilings of a 5 X 2n rectangle using 2n pentominoes of shapes P, U.",
+  "id": "A247121",
+  "mentions": [
+    "A174249",
+    "A233427",
+    "A247076"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

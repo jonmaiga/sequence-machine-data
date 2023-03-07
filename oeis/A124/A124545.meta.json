@@ -1,0 +1,25 @@
+{
+  "description": "Row 5 of rectangular table A124540; equals the self-convolution 5th power of A124535 (row 5 of table A124530).",
+  "id": "A124545",
+  "mentions": [
+    "A124530",
+    "A124531",
+    "A124535",
+    "A124540",
+    "A124542",
+    "A124543",
+    "A124544",
+    "A124546"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

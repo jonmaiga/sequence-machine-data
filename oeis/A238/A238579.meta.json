@@ -1,0 +1,19 @@
+{
+  "description": "Home prime sequence (see A037274) starting at 146.",
+  "id": "A238579",
+  "mentions": [
+    "A037274",
+    "A056938"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

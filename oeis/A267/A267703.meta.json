@@ -1,0 +1,22 @@
+{
+  "description": "Conjectured list of numbers n such that the trajectory of n under the '7x+1' map does not cycle.",
+  "id": "A267703",
+  "mentions": [
+    "A000079",
+    "A006577",
+    "A023001",
+    "A232711",
+    "A267969",
+    "A267970"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

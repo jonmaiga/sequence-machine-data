@@ -1,0 +1,19 @@
+{
+  "description": "Violations of Rosser's rule: numbers n such that the Gram block [ g(n), g(n+k) ) contains fewer than k points t such that Z(t) = 0, where Z(t) is the Riemann-Siegel Z-function.",
+  "id": "A216700",
+  "mentions": [
+    "A002505",
+    "A114856"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Maximum depth of parenthesizations encoded by A014486, or correspondingly, maximum height for the equivalent general trees.",
+  "id": "A179752",
+  "mentions": [
+    "A014138",
+    "A014486",
+    "A080237",
+    "A085197",
+    "A126303",
+    "A126304",
+    "A179751"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

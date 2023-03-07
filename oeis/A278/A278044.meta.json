@@ -1,0 +1,23 @@
+{
+  "description": "Length of tribonacci representation of n (cf. A278038).",
+  "id": "A278044",
+  "mentions": [
+    "A001590",
+    "A201052",
+    "A278038",
+    "A278042",
+    "A278043"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:44",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

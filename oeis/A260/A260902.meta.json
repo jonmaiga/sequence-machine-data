@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (-5*(-1)^n + Sum_{k>=0} 2*A000108(k)*k^n/5^k)/sqrt(5), where A000108 are Catalan numbers.",
+  "id": "A260902",
+  "mentions": [
+    "A000108",
+    "A260701",
+    "A348468"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Least k > 0 such that gcd(k^n+3, (k+1)^n+3) > 1, or 0 if there is no such k.",
+  "id": "A255853",
+  "mentions": [
+    "A118119",
+    "A255832",
+    "A255852",
+    "A255869"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

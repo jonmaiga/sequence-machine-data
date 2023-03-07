@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows. Polynomials based on sums of Moebius transforms.",
+  "id": "A177977",
+  "mentions": [
+    "A000012",
+    "A002088",
+    "A002321",
+    "A015631",
+    "A015634",
+    "A092149",
+    "A094638",
+    "A177976"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

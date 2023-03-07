@@ -1,0 +1,20 @@
+{
+  "description": "Number of k >= 1 such that k+n == 0 mod 2^k.",
+  "id": "A104234",
+  "mentions": [
+    "A102370",
+    "A103185",
+    "A105035"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

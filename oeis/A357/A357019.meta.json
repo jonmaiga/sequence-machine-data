@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the largest possible x in n = x^2 - x*y + y^2 with integers x > y >= 0, or 0 if n cannot be expressed in this form.",
+  "id": "A357019",
+  "mentions": [
+    "A002324",
+    "A003136",
+    "A133388"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

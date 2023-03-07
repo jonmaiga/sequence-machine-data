@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest odd prime not already in the sequence such that when the terms a(1)..a(n) are concatenated, the result is the reverse of a prime.",
+  "id": "A359115",
+  "mentions": [
+    "A000040",
+    "A004086"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

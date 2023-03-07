@@ -1,0 +1,20 @@
+{
+  "description": "Number of unrooted level-2 phylogenetic networks with (n+1) labeled leaves, when multiple (i.e. parallel) edges are allowed.",
+  "id": "A328123",
+  "mentions": [
+    "A328121",
+    "A328122",
+    "A328126"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

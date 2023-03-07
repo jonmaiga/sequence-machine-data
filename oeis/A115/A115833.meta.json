@@ -1,0 +1,18 @@
+{
+  "description": "Integers i such that 16*i XOR 17*i = 33*i.",
+  "id": "A115833",
+  "mentions": [
+    "A003987",
+    "A115834"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:52:35",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

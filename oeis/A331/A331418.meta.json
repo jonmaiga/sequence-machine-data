@@ -1,0 +1,35 @@
+{
+  "description": "If A331417(n) is the maximum sum of primes of the parts of an integer partition of n, then a(n) = A331417(n) - n + 1.",
+  "id": "A331418",
+  "mentions": [
+    "A000040",
+    "A000607",
+    "A001414",
+    "A014689",
+    "A014692",
+    "A056239",
+    "A330950",
+    "A330953",
+    "A330954",
+    "A331378",
+    "A331379",
+    "A331381",
+    "A331383",
+    "A331385",
+    "A331387",
+    "A331415",
+    "A331416",
+    "A331417"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

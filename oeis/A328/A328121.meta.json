@@ -1,0 +1,22 @@
+{
+  "description": "Number of unrooted level-1 phylogenetic networks (also called galled trees) with (n+1) labeled leaves.",
+  "id": "A328121",
+  "mentions": [
+    "A328122",
+    "A328123",
+    "A328126",
+    "A333005",
+    "A333006"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

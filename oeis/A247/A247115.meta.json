@@ -1,0 +1,18 @@
+{
+  "description": "Denominator of the harmonic mean of the first n heptagonal numbers.",
+  "id": "A247115",
+  "mentions": [
+    "A000566",
+    "A250345"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

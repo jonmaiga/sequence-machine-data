@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are sums of consecutive powers of 3.",
+  "id": "A309758",
+  "mentions": [
+    "A000244",
+    "A005836",
+    "A023758",
+    "A038464",
+    "A309759",
+    "A309761"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of reciprocal of the smallest positive zero of sum_{j>0} f(j) where f(j)=[(-1)^(j+1)]*x^(2^(j+1)-2-j)/[(1-x)(1-x^3)(1-x^7)...(1-x^(2^j-1))].",
+  "id": "A102375",
+  "mentions": [
+    "A001055",
+    "A243350",
+    "A243584"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

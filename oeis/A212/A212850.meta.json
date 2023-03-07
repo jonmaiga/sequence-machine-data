@@ -1,0 +1,25 @@
+{
+  "description": "Number of n X 3 arrays with rows being permutations of 0..2 and no column j greater than column j-1 in all rows.",
+  "id": "A212850",
+  "mentions": [
+    "A000041",
+    "A212851",
+    "A212852",
+    "A212853",
+    "A212854",
+    "A212855",
+    "A212856",
+    "A309951"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

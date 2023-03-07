@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the largest nonnegative integer m such that 2*n*k-1 is prime for all k where 1<=k<=m. a(n) = 0 if 2n-1 is composite.",
+  "id": "A146525",
+  "mentions": [
+    "A146524"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

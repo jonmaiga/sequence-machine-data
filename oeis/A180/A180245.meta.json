@@ -1,0 +1,22 @@
+{
+  "description": "n-th natural number m such that m and m+2 are both divisible by exactly n primes (counted with multiplicity).",
+  "id": "A180245",
+  "mentions": [
+    "A001359",
+    "A092207",
+    "A180117",
+    "A180150",
+    "A180151"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

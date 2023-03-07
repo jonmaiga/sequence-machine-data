@@ -1,0 +1,20 @@
+{
+  "description": "Table read by rows: rearrangement of A122401 to illustrate linear column sequences.",
+  "id": "A122403",
+  "mentions": [
+    "A122172",
+    "A122401",
+    "A122402"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

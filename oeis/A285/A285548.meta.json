@@ -1,0 +1,26 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) = number of step cyclic shifted sequences of length n using a maximum of m different symbols.",
+  "id": "A285548",
+  "mentions": [
+    "A002729",
+    "A056371",
+    "A056391",
+    "A056411",
+    "A056412",
+    "A056413",
+    "A056414",
+    "A132191",
+    "A285522"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

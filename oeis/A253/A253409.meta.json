@@ -1,0 +1,19 @@
+{
+  "description": "The number of ways to write an n-bit binary string and then define each run of ones as an element in an equivalence relation, and each run of zeros as an element in a second equivalence relation.",
+  "id": "A253409",
+  "mentions": [
+    "A000110",
+    "A247100"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

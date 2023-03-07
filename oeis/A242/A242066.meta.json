@@ -1,0 +1,27 @@
+{
+  "description": "The smallest even k such that lpf_3(k-3) > lpf_3(k-1) >= p_n, where lpf_3(n) = lpf(n/3^t) (cf. A020639) such that 3^t (t>=0) is the maximal power of 3 which divides n.",
+  "id": "A242066",
+  "mentions": [
+    "A020639",
+    "A242033",
+    "A242034",
+    "A242036",
+    "A242037",
+    "A242057",
+    "A242058",
+    "A242059",
+    "A242060",
+    "A242064",
+    "A242065"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 3,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

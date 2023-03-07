@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = number of similarity classes of groups G with exactly n subgroups and such that G = G-tilde, where G-tilde is the unique subgroup of G left after factoring out the cyclic, central Sylow subgroups.",
+  "id": "A289445",
+  "mentions": [
+    "A274847"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

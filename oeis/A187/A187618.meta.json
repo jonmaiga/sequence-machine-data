@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(m,n) read by rows: number of domino tilings of the 2m X 2n grid (0 <= m <= n).",
+  "id": "A187618",
+  "mentions": [
+    "A099390",
+    "A187596",
+    "A187616",
+    "A187617"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

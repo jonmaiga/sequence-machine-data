@@ -1,0 +1,20 @@
+{
+  "description": "Trajectory of 397 under the map A340008: n -> n/2 if n is even, n-> n^2 - 1 if n is an odd prime, otherwise n -> n - 1.",
+  "id": "A340419",
+  "mentions": [
+    "A339991",
+    "A340008"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

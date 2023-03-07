@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = [x^n] Product_{i=0..n} (1 + x^(2^i) )^(2^(n-i)).",
+  "id": "A132316",
+  "mentions": [
+    "A132317",
+    "A132318"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

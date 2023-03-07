@@ -1,0 +1,29 @@
+{
+  "description": "Numerators of coefficient triangle for expansion of x^n in terms of polynomials Todd(k, x) = T(2*k+1, sqrt(x))/sqrt(x) (A084930), with the Chebyshev polynomials of the first kind (type T).",
+  "id": "A244420",
+  "mentions": [
+    "A000108",
+    "A001790",
+    "A046161",
+    "A049310",
+    "A053120",
+    "A084930",
+    "A111418",
+    "A244421",
+    "A273496"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

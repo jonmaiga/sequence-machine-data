@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to arrange n women and n men around a circular table so that they can be divided into n nonintersecting pairs of 1 woman and 1 man sitting side-by-side.",
+  "id": "A273935",
+  "mentions": [
+    "A000142",
+    "A000225",
+    "A010790"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

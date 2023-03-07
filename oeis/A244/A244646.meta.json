@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of the sum of the reciprocals of the 9-gonal (or enneagonal or nonagonal) numbers (A001106).",
+  "id": "A244646",
+  "mentions": [
+    "A000038",
+    "A001106",
+    "A001620",
+    "A013661",
+    "A244639",
+    "A244644",
+    "A244645",
+    "A244647",
+    "A244648",
+    "A244649"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:05",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Numbers of the form k + wt(k) for exactly four distinct k, where wt(k) = A000120(k) is the binary weight of k.",
+  "id": "A227915",
+  "mentions": [
+    "A000120",
+    "A010061",
+    "A092391",
+    "A228085",
+    "A228088",
+    "A230091",
+    "A230092",
+    "A230093",
+    "A230303"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

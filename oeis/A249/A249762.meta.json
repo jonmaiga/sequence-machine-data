@@ -1,0 +1,25 @@
+{
+  "description": "Number of tilings of a 5 X n rectangle using n pentominoes of shapes F, I, L.",
+  "id": "A249762",
+  "mentions": [
+    "A174249",
+    "A233427",
+    "A247443",
+    "A247680",
+    "A251617",
+    "A251737",
+    "A257866",
+    "A264765"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

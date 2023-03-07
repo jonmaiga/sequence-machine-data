@@ -1,0 +1,19 @@
+{
+  "description": "In base n, a(n) is the largest (decimal equivalent) number reached when one sequentially adds to a sum, starting with zero, the largest digit not in that sum.",
+  "id": "A260351",
+  "mentions": [
+    "A260263",
+    "A260264"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

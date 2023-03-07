@@ -1,0 +1,18 @@
+{
+  "description": "McKay-Thompson series of class 102a for the Monster group.",
+  "id": "A112218",
+  "mentions": [
+    "A058704"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(3)(baseN) = least number m such that the quotient m/3 is obtained merely by shifting the leftmost digit (MSD) of m to the right end (LSD), and the multiple 3m by shifting the LSD of m to the MSD, in order of increasing number base, N.",
+  "id": "A159863",
+  "mentions": [
+    "A023060",
+    "A159774",
+    "A160116"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 4,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

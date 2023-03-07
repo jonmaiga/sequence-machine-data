@@ -1,0 +1,28 @@
+{
+  "description": "Sums of ordinal references for a triangular table read by columns, top to bottom.",
+  "id": "A108872",
+  "mentions": [
+    "A002024",
+    "A002260",
+    "A003057",
+    "A005408",
+    "A005449",
+    "A005843",
+    "A016789",
+    "A051162",
+    "A248110"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

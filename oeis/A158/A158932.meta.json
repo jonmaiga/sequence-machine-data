@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that there is no square m^2 such that m^2 and k^2 have no common decimal digits but together use all 10 digits.",
+  "id": "A158932",
+  "mentions": [
+    "A158931"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

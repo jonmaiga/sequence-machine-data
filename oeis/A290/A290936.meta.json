@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least k such that sigma(k) is a Fibonacci number when k is the product of n distinct primes, or 0 if no such k exists.",
+  "id": "A290936",
+  "mentions": [
+    "A000045",
+    "A000203",
+    "A272412"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

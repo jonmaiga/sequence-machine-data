@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of what appears to be the smallest possible C for which the nearest integer to C^2^n is always prime and starts with 2.",
+  "id": "A219177",
+  "mentions": [
+    "A001622",
+    "A051021",
+    "A059785",
+    "A112597",
+    "A117739"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

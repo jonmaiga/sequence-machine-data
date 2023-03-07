@@ -1,0 +1,29 @@
+{
+  "description": "1/24 of product of three numbers: n-th prime, previous and following number.",
+  "id": "A127922",
+  "mentions": [
+    "A000040",
+    "A000330",
+    "A001318",
+    "A007310",
+    "A011842",
+    "A034953",
+    "A036689",
+    "A127917",
+    "A127918",
+    "A127919",
+    "A127920",
+    "A127921"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 2,
+    "size": 38,
+    "source": "joeis"
+  }
+}

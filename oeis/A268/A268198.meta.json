@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that there exist three nonnegative integers a,b, and c satisfying n=a*b and (a^2+b^2)/(1+a*b) = c^2.",
+  "id": "A268198",
+  "mentions": [
+    "A001353"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

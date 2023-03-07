@@ -1,0 +1,23 @@
+{
+  "description": "Number of acyclic orientations of the Turán graph T(n,2).",
+  "id": "A266695",
+  "mentions": [
+    "A099594",
+    "A212084",
+    "A212085",
+    "A266858",
+    "A266972",
+    "A267383"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

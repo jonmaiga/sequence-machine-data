@@ -1,0 +1,17 @@
+{
+  "description": "When convolved with itself and doubled, gives the sequence A000609.",
+  "id": "A116986",
+  "mentions": [
+    "A000609"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

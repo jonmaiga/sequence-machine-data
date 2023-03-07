@@ -1,0 +1,20 @@
+{
+  "description": "Break the infinite word 1232112321... into chunks so that the sum of the digits in the n-th chunk is n.",
+  "id": "A321225",
+  "mentions": [
+    "A028355",
+    "A028359",
+    "A321232"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

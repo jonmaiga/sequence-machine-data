@@ -1,0 +1,22 @@
+{
+  "description": "Numbers with at least three adjacent equal digits in binary representation.",
+  "id": "A136037",
+  "mentions": [
+    "A004779",
+    "A004781",
+    "A007088",
+    "A037970",
+    "A063037"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

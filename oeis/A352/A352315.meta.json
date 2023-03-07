@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the distance d between the incenter I and the circumcenter O of the integer-sided triangle whose sides correspond to the n-th primitive triple of A352314.",
+  "id": "A352315",
+  "mentions": [
+    "A231174",
+    "A350378",
+    "A350379",
+    "A352314",
+    "A352316"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

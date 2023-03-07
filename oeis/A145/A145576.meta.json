@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest prime with both exactly an n number of 0's and exactly an n number of 1's in its binary representation. a(n) = 0 if no such prime exists.",
+  "id": "A145576",
+  "mentions": [
+    "A000120",
+    "A061712",
+    "A066195",
+    "A070939",
+    "A080791"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

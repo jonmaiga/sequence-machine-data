@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that antisigma(n) = antisigma(k) has solution for distinct numbers n and k.",
+  "id": "A231364",
+  "mentions": [
+    "A024816",
+    "A067816",
+    "A206036",
+    "A225775",
+    "A231365",
+    "A231366",
+    "A231367",
+    "A231368",
+    "A231369"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

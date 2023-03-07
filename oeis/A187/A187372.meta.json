@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that the decimal digits of 1/k contain every digit at least once.",
+  "id": "A187372",
+  "mentions": [
+    "A187614"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

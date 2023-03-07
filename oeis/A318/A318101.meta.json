@@ -1,0 +1,22 @@
+{
+  "description": "Number of rooted 2-connected 4-regular planar maps, which may have loops, with n inner faces.",
+  "id": "A318101",
+  "mentions": [
+    "A058860",
+    "A099553",
+    "A290326",
+    "A318102",
+    "A318103"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 2,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

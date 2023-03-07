@@ -1,0 +1,21 @@
+{
+  "description": "Number of subtrees of a complete binary tree.",
+  "id": "A157679",
+  "mentions": [
+    "A004019",
+    "A005468"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

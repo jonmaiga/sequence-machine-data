@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Product_{k>=2} (1 - x^k)^k.",
+  "id": "A298599",
+  "mentions": [
+    "A073592",
+    "A078616",
+    "A191659"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:59:14",
+    "offset": 0,
+    "size": 49,
+    "source": "joeis"
+  }
+}

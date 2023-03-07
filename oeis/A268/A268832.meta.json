@@ -1,0 +1,23 @@
+{
+  "description": "Permutation of nonnegative integers: a(0) = 0, a(n) = 1 + A268828(A268718(n)-1).",
+  "id": "A268832",
+  "mentions": [
+    "A003188",
+    "A006068",
+    "A268718",
+    "A268828",
+    "A268830",
+    "A268831"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

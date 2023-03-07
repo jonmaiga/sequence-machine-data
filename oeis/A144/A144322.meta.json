@@ -1,0 +1,18 @@
+{
+  "description": "Shifts left when Dirichlet convolution (DC:(b,b)->a) applied 8 times.",
+  "id": "A144322",
+  "mentions": [
+    "A144324"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "eigen",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

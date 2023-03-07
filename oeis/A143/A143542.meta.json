@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows, A051731 * A143541 as infinite lower triangular matrices; 1<=k<=n.",
+  "id": "A143542",
+  "mentions": [
+    "A010051",
+    "A051731",
+    "A066328",
+    "A143541"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

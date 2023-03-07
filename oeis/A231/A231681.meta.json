@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{i=0..n} digsum_8(i)^2, where digsum_8(i) = A053829(i).",
+  "id": "A231681",
+  "mentions": [
+    "A053829",
+    "A231680",
+    "A231682",
+    "A231683"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:13:55",
+    "offset": 0,
+    "size": 69,
+    "source": "joeis"
+  }
+}

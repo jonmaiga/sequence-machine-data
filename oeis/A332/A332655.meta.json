@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (k/gcd(n, k))^n.",
+  "id": "A332655",
+  "mentions": [
+    "A031971",
+    "A057661",
+    "A226561",
+    "A332517",
+    "A332621",
+    "A332652",
+    "A332653",
+    "A332654"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:43:32",
+    "offset": 1,
+    "size": 20,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number of integer compositions of n that have only one part or whose consecutive parts are coprime and the last and first part are also coprime.",
+  "id": "A318748",
+  "mentions": [
+    "A000740",
+    "A008965",
+    "A059966",
+    "A100953",
+    "A167606",
+    "A296302",
+    "A318726",
+    "A318727",
+    "A318728",
+    "A318745",
+    "A328609"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

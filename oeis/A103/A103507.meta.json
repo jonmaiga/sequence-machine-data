@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Least i > 1, such that 2n+1 = 2*A000040(i)+A000040(k) for some k>1, 0 if no such i exists.",
+  "id": "A103507",
+  "mentions": [
+    "A000040",
+    "A049084",
+    "A103153",
+    "A103508",
+    "A103509"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-entry"
+  }
+}

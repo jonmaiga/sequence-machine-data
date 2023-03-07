@@ -1,0 +1,20 @@
+{
+  "description": "A359137 together with 2, 3, 5, 7.",
+  "id": "A359139",
+  "mentions": [
+    "A359136",
+    "A359137",
+    "A359138"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

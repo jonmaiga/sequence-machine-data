@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are the sum of three fourth powers in ten or more ways.",
+  "id": "A344862",
+  "mentions": [
+    "A344750",
+    "A344861",
+    "A344928",
+    "A345121"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Primes p of the form p = A000040(k) - A163300(k) for some k (includes duplicates).",
+  "id": "A174010",
+  "mentions": [
+    "A000040",
+    "A001477",
+    "A078916",
+    "A144419",
+    "A163300",
+    "A174008"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Lexicographically first injection of natural numbers beginning with a(1)=1 such that 1+(a(n)*a(n+1)) is a fibbinary number (A003714), i.e., has no adjacent 1's in its base-2 representation.",
+  "id": "A266121",
+  "mentions": [
+    "A003714",
+    "A003987",
+    "A091067",
+    "A091072",
+    "A266117",
+    "A266122",
+    "A266191",
+    "A269361",
+    "A269363",
+    "A269365",
+    "A269366",
+    "A269367"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:26",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

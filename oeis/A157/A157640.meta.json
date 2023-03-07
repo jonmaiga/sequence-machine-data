@@ -1,0 +1,22 @@
+{
+  "description": "Triangle of the elementwise product of binomial coefficients with q-binomial coefficients [n,k] for q = 3.",
+  "id": "A157640",
+  "mentions": [
+    "A007318",
+    "A022167",
+    "A157638",
+    "A157641"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Matula-Goebel numbers of central rooted trees.",
+  "id": "A198330",
+  "mentions": [
+    "A198329",
+    "A198331"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

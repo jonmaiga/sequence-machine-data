@@ -1,0 +1,26 @@
+{
+  "description": "Third accumulation array of Pascal's triangle (as a rectangle), by antidiagonals.",
+  "id": "A185779",
+  "mentions": [
+    "A000292",
+    "A007318",
+    "A014430",
+    "A077023",
+    "A095667",
+    "A144112",
+    "A144225",
+    "A185778"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

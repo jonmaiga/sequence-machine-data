@@ -1,0 +1,18 @@
+{
+  "description": "Antidiagonal indices of Greedy Queens (see A065188).",
+  "id": "A276324",
+  "mentions": [
+    "A065188",
+    "A276325"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

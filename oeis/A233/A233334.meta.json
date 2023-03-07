@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=1; for n>1, a(n) is the smallest number > a(n-1) such that a(1) + a(2) +...+ a(n) is a composite number.",
+  "id": "A233334",
+  "mentions": [
+    "A051935",
+    "A056115"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

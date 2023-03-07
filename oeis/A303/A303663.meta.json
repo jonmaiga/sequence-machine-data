@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of (1/(1 - x))*Product_{k>=1} (1 - x^prime(k))/(1 - x^k).",
+  "id": "A303663",
+  "mentions": [
+    "A000070",
+    "A002095",
+    "A018252",
+    "A023895",
+    "A034891"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

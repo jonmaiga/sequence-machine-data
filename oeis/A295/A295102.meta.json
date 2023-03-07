@@ -1,0 +1,22 @@
+{
+  "description": "Squarefree numbers n that are sqrt(n)-smooth: if prime p|n then p^2 <= n.",
+  "id": "A295102",
+  "mentions": [
+    "A001248",
+    "A005117",
+    "A048098",
+    "A063539",
+    "A164596",
+    "A295101"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

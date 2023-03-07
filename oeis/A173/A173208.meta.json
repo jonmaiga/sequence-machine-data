@@ -1,0 +1,21 @@
+{
+  "description": "Squarefree Fibonacci numbers F such that F+1 and F-1 are also squarefree.",
+  "id": "A173208",
+  "mentions": [
+    "A000045",
+    "A005117",
+    "A037918",
+    "A067259",
+    "A173207"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Semigroup of numbers under multiplication, distinct from mutinous sequence.",
+  "id": "A289484",
+  "mentions": [
+    "A027854"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

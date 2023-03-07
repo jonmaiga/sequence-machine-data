@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: row n is the sequence of Matula-Goebel numbers of the rooted trees obtained from the rooted tree with Matula-Goebel number n by pruning it successively 0,1,2,... times. The operation of pruning consists of the removal of the vertices of degree one, together with their incident vertices.",
+  "id": "A198336",
+  "mentions": [
+    "A198329"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

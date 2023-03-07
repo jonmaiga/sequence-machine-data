@@ -1,0 +1,20 @@
+{
+  "description": "Triangle, read by rows, where T(n,k) = Sum_{i=k..n-1} T(n-1,i)*T(i+1,k+1) for n>k with T(n,n) = n+1 for n>=0.",
+  "id": "A152541",
+  "mentions": [
+    "A152542",
+    "A152543",
+    "A152544"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

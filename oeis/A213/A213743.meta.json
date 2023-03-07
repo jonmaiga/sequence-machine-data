@@ -1,0 +1,31 @@
+{
+  "description": "Triangle T(n,k), read by rows, of numbers T(n,k)=C^(4)(n,k) of combinations with repetitions from n different elements over k for each of them not more than four appearances allowed.",
+  "id": "A213743",
+  "mentions": [
+    "A000217",
+    "A000292",
+    "A000332",
+    "A000575",
+    "A005725",
+    "A007318",
+    "A027659",
+    "A064056",
+    "A064057",
+    "A064058",
+    "A111808",
+    "A187925",
+    "A213742"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

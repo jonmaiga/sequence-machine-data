@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n*(n+1)^n - 1 is prime.",
+  "id": "A271718",
+  "mentions": [
+    "A191568",
+    "A210340"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

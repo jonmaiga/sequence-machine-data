@@ -1,0 +1,21 @@
+{
+  "description": "Prime numbers of the form 2*4^n - 27.",
+  "id": "A275749",
+  "mentions": [
+    "A275701",
+    "A275750",
+    "A275767"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-bfile"
+  }
+}

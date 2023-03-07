@@ -1,0 +1,30 @@
+{
+  "description": "a(n) = 1 if a regular n-gon is constructible with ruler (or, more precisely, an unmarked straightedge) and compass, 0 otherwise.",
+  "id": "A336477",
+  "mentions": [
+    "A000010",
+    "A000265",
+    "A001221",
+    "A003401",
+    "A005087",
+    "A209229",
+    "A295297",
+    "A329697",
+    "A336469",
+    "A336471",
+    "A336923",
+    "A359578"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

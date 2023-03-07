@@ -1,0 +1,17 @@
+{
+  "description": "Positions of the primes congruent to 2 mod 3 when all primes except 3 are listed in order.",
+  "id": "A138969",
+  "mentions": [
+    "A138968"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

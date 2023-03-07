@@ -1,0 +1,39 @@
+{
+  "description": "Number of integer partitions of n with constant (equal) first quotients.",
+  "id": "A342496",
+  "mentions": [
+    "A000005",
+    "A000837",
+    "A002843",
+    "A003238",
+    "A003242",
+    "A049988",
+    "A069916",
+    "A074206",
+    "A122651",
+    "A167865",
+    "A175342",
+    "A318991",
+    "A318992",
+    "A325557",
+    "A342495",
+    "A342514",
+    "A342515",
+    "A342522",
+    "A342527",
+    "A342528",
+    "A342529"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

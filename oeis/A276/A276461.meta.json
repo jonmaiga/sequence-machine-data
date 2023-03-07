@@ -1,0 +1,19 @@
+{
+  "description": "Prime numbers whose digits are k+1 1's and k 2's for some k >= 1.",
+  "id": "A276461",
+  "mentions": [
+    "A000040",
+    "A020450"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

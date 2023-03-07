@@ -1,0 +1,25 @@
+{
+  "description": "Table T(n,k) read by rows: number of partitions of n into k parts of size 1, 5, 10 or 25.",
+  "id": "A351725",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A001299",
+    "A351740",
+    "A351742"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 136,
+    "source": "oeis-bfile"
+  }
+}

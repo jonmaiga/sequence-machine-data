@@ -1,0 +1,19 @@
+{
+  "description": "Prime numbers whose reversal is a product of 3 distinct primes.",
+  "id": "A271799",
+  "mentions": [
+    "A007304",
+    "A270175"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

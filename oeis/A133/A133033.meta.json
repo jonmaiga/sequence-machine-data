@@ -1,0 +1,22 @@
+{
+  "description": "Number of proper divisors of n-th even perfect number.",
+  "id": "A133033",
+  "mentions": [
+    "A000043",
+    "A000396",
+    "A061645",
+    "A090748",
+    "A135650"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the number of n-digit positive integers with exactly two distinct base 10 digits.",
+  "id": "A335843",
+  "mentions": [
+    "A000225",
+    "A031955",
+    "A055642",
+    "A235154",
+    "A235690",
+    "A235717",
+    "A337127",
+    "A337313"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

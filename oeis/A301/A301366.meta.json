@@ -1,0 +1,35 @@
+{
+  "description": "Regular triangle where T(n,k) is the number of same-trees of weight n with k leaves.",
+  "id": "A301366",
+  "mentions": [
+    "A003238",
+    "A006241",
+    "A008284",
+    "A055277",
+    "A063834",
+    "A273873",
+    "A281145",
+    "A289501",
+    "A294080",
+    "A298422",
+    "A298426",
+    "A299201",
+    "A299203",
+    "A300442",
+    "A300443",
+    "A301343",
+    "A301364",
+    "A301368"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

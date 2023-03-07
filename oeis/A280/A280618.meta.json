@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of (Sum_{k>=1} x^(k^3))^2.",
+  "id": "A280618",
+  "mentions": [
+    "A000578",
+    "A001235",
+    "A003325",
+    "A010057",
+    "A063725",
+    "A173677"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 0,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

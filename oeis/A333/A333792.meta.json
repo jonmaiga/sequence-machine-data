@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 0, then after the first differences of A333793.",
+  "id": "A333792",
+  "mentions": [
+    "A073934",
+    "A333793",
+    "A333794"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

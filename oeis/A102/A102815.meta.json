@@ -1,0 +1,21 @@
+{
+  "description": "\"False so far\" sequence.",
+  "id": "A102815",
+  "mentions": [
+    "A000027",
+    "A102357"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

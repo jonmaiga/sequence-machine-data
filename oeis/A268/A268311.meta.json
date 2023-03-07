@@ -1,0 +1,21 @@
+{
+  "description": "Number of free polyominoes that form a continuous path of edge joined cells spanning an n X n square in both dimensions.",
+  "id": "A268311",
+  "mentions": [
+    "A000104",
+    "A054247",
+    "A259088",
+    "A268371"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

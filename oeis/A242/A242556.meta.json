@@ -1,0 +1,18 @@
+{
+  "description": "Least number k such that k^64+n^64 is prime.",
+  "id": "A242556",
+  "mentions": [
+    "A006316",
+    "A069003"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

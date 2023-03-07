@@ -1,0 +1,26 @@
+{
+  "description": "Numbers with an odd number of 1's in base 6 expansion.",
+  "id": "A138103",
+  "mentions": [
+    "A000069",
+    "A007088",
+    "A007091",
+    "A007092",
+    "A043373",
+    "A043374",
+    "A137469"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

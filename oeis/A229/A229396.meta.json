@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n 0..2 arrays with top left element 0, horizontal differences mod 3 never 1, vertical differences mod 3 never -1, and antidiagonal differences never 0.",
+  "id": "A229396",
+  "mentions": [
+    "A229402"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of walks from (0,0) to (n,n) in the region 0 <= x-y <= 6 with the steps (1,0), (0, 1), (2,0) and (0,2).",
+  "id": "A127620",
+  "mentions": [
+    "A000108",
+    "A046717",
+    "A122951",
+    "A127617",
+    "A127618",
+    "A127619"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:53:09",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

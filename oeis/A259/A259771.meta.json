@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of x * psi(x^5) * f(-x^10) / f(-x^2,-x^8) in powers of x where psi(), f() are Ramanujan theta functions.",
+  "id": "A259771",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A053265",
+    "A053267",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:55:53",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

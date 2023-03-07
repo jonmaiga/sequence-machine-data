@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations of [n] with equal lengths of increasing runs.",
+  "id": "A317329",
+  "mentions": [
+    "A000040",
+    "A005225",
+    "A317327"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

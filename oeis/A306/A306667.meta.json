@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m such that lcm(tau(m), m) = sigma(m) where sigma(k) = the sum of the divisors of k (A000203) and tau(k) = the number of the divisors of k (A000005).",
+  "id": "A306667",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A007691",
+    "A009230",
+    "A069810"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

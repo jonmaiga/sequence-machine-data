@@ -1,0 +1,26 @@
+{
+  "description": "Least element of each cycle of length 5 under the Kaprekar map A151949.",
+  "id": "A164728",
+  "mentions": [
+    "A099009",
+    "A151949",
+    "A151959",
+    "A164718",
+    "A164720",
+    "A164724",
+    "A164726",
+    "A164727",
+    "A164730"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

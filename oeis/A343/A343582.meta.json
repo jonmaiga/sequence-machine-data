@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (-1)^n*n!*[x^n] exp(-3*x)/(1 - 2*x).",
+  "id": "A343582",
+  "mentions": [
+    "A000166",
+    "A000354",
+    "A008290"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:51:29",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

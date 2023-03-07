@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n, k) = (1/4)*n*(1 - (-1)^(n - k) + 2*(n - k)^2), with 0 <= k < n.",
+  "id": "A325516",
+  "mentions": [
+    "A000027",
+    "A317614",
+    "A322277",
+    "A325517"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:54:43",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

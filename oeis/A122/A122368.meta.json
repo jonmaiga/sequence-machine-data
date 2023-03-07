@@ -1,0 +1,28 @@
+{
+  "description": "Dimension of 4-variable non-commutative harmonics (twisted derivative). The dimension of the space of non-commutative polynomials in 4 variables which are killed by all symmetric differential operators (where for a monomial w, d_{xi} ( xi w ) = w and d_{xi} ( xj w ) = 0 for i/=j).",
+  "id": "A122368",
+  "mentions": [
+    "A008277",
+    "A055105",
+    "A055107",
+    "A074664",
+    "A087903",
+    "A112340",
+    "A122367",
+    "A122369",
+    "A122370",
+    "A122371",
+    "A122372"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

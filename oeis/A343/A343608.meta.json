@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = [n/5]*[n/5 - 1]*(3n - 10[n/5 + 1])/6, where [.] = floor: upper bound for minimum number of monochromatic triangles in a 3-edge-colored complete graph K_n.",
+  "id": "A343608",
+  "mentions": [
+    "A000292",
+    "A144679"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

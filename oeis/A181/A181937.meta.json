@@ -1,0 +1,27 @@
+{
+  "description": "André numbers. Square array A(n,k), n>=2, k>=0, read by antidiagonals upwards, A(n,k) = n-alternating permutations of length k.",
+  "id": "A181937",
+  "mentions": [
+    "A000012",
+    "A000111",
+    "A178963",
+    "A178964",
+    "A181936",
+    "A250283",
+    "A250284",
+    "A250285",
+    "A250286",
+    "A250287"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

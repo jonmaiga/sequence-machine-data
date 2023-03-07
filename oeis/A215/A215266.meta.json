@@ -1,0 +1,17 @@
+{
+  "description": "Number of solid standard Young tableaux of cylindrical shape lambda X 2, where lambda ranges over all partitions of n.",
+  "id": "A215266",
+  "mentions": [
+    "A215204"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

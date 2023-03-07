@@ -1,0 +1,19 @@
+{
+  "description": "Reduced numbers with multiplicative persistence 10 in base 15.",
+  "id": "A320722",
+  "mentions": [
+    "A320721",
+    "A320723"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

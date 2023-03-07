@@ -1,0 +1,18 @@
+{
+  "description": "Number of letters in 2n (in Spanish).",
+  "id": "A109339",
+  "mentions": [
+    "A011762"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

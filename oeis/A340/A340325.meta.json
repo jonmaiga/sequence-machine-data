@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that starting with k and repeatedly applying the map x -> A340323(x) reaches the fixed point 12.",
+  "id": "A340325",
+  "mentions": [
+    "A000668",
+    "A340323",
+    "A340324"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

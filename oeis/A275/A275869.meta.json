@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonequivalent ways to place k>=0 nonattacking kings on an n X n board.",
+  "id": "A275869",
+  "mentions": [
+    "A063443",
+    "A236679"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

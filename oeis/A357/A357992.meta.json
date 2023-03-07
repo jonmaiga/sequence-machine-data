@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=1,a(2)=2,a(3)=3. Thereafter, if there are prime divisors p of a(n-2) which do not divide a(n-1), a(n) is the least novel multiple of any such p. Otherwise a(n) is the least novel multiple of the squarefree kernel of a(n-2).",
+  "id": "A357992",
+  "mentions": [
+    "A001221",
+    "A064413",
+    "A352187",
+    "A357963"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: 2*(x-1)*tan(x/2+Pi/4)-x^2+2.",
+  "id": "A131281",
+  "mentions": [
+    "A034428"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "P(2), which is the \"penalty expansion factor\" needed to guarantee 2 writes of 2^k symbols on a Write Once Memory (WOM) for large k.",
+  "id": "A260525",
+  "mentions": [
+    "A253426"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

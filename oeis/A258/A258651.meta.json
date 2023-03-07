@@ -1,0 +1,35 @@
+{
+  "description": "A(n,k) = n^(k) = k-th arithmetic derivative of n; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A258651",
+  "mentions": [
+    "A000004",
+    "A000007",
+    "A001477",
+    "A003415",
+    "A010709",
+    "A068346",
+    "A099306",
+    "A129150",
+    "A185232",
+    "A258644",
+    "A258645",
+    "A258646",
+    "A258647",
+    "A258648",
+    "A258649",
+    "A258650",
+    "A258652"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

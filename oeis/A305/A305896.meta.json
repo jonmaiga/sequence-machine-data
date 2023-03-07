@@ -1,0 +1,20 @@
+{
+  "description": "Filter sequence combining prime signature of n (A046523) and the cardinality of invphi (A014197).",
+  "id": "A305896",
+  "mentions": [
+    "A014197",
+    "A046523",
+    "A097946",
+    "A305801"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

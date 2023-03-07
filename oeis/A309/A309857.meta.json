@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that 2*p^3+1 is also prime.",
+  "id": "A309857",
+  "mentions": [
+    "A000040",
+    "A168550",
+    "A177104",
+    "A309856"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n for which phi(n)=sigma(n'), where phi is the Euler totient function, sigma is the sum of divisors and n' the arithmetic derivative of n.",
+  "id": "A189057",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A003415",
+    "A166374",
+    "A190402",
+    "A190403"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

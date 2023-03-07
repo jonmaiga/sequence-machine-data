@@ -1,0 +1,24 @@
+{
+  "description": "Primes p whose palindromization A082216(p) is a square or higher power.",
+  "id": "A342803",
+  "mentions": [
+    "A001597",
+    "A002113",
+    "A075786",
+    "A076443",
+    "A082216",
+    "A342942"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

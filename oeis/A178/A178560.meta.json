@@ -1,0 +1,20 @@
+{
+  "description": "Smallest emirp using the digit n exactly n times.",
+  "id": "A178560",
+  "mentions": [
+    "A178559"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

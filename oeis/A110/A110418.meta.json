@@ -1,0 +1,20 @@
+{
+  "description": "Least number beginning with (prime(n)-1)! == 0 (mod prime(n)).",
+  "id": "A110418",
+  "mentions": [
+    "A110419",
+    "A110420"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

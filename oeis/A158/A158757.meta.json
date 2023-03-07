@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. exp(t*x)/(1 - x^2/t^2 - t^3* x^3).",
+  "id": "A158757",
+  "mentions": [
+    "A005212",
+    "A005359",
+    "A158706",
+    "A330044"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

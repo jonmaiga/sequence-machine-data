@@ -1,0 +1,18 @@
+{
+  "description": "Array T(y, z), y, z >= 0, read by increasing y+z and then increasing y: if A326764(x, y, z) = 0 for some x >= 0, then T(y, z) = x, else T(y, z) = -1.",
+  "id": "A326773",
+  "mentions": [
+    "A326764"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

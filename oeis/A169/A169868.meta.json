@@ -1,0 +1,18 @@
+{
+  "description": "Positions of zeros in binary expansion of the reciprocal of the golden ratio (0.618...).",
+  "id": "A169868",
+  "mentions": [
+    "A004714",
+    "A068432"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:53",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

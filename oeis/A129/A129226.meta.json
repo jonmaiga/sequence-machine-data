@@ -1,0 +1,28 @@
+{
+  "description": "Residues of the Lucas - Lehmer primality test for M(31) = 2147483647.",
+  "id": "A129226",
+  "mentions": [
+    "A001348",
+    "A003010",
+    "A095847",
+    "A129219",
+    "A129220",
+    "A129221",
+    "A129222",
+    "A129223",
+    "A129224",
+    "A129225"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "fini",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:17",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

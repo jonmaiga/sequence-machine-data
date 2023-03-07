@@ -1,0 +1,21 @@
+{
+  "description": "Smallest natural number m such that n^n^n + m is prime.",
+  "id": "A103111",
+  "mentions": [
+    "A074966",
+    "A074967",
+    "A103112"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

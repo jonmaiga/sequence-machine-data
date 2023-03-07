@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least natural number k such that n^k is abundant or perfect, or a(n) is 0 if all n^k are deficient numbers.",
+  "id": "A254001",
+  "mentions": [
+    "A005100",
+    "A023196",
+    "A063765"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers prime to 7 that are not represented by x^2+y^2+7*z^2.",
+  "id": "A306968",
+  "mentions": [
+    "A097633"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

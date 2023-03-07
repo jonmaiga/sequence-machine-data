@@ -1,0 +1,20 @@
+{
+  "description": "Take a(n), reverse it, divide the biggest of the two numbers by the other one and keep only the remainder. The successive remainders, concatenated, reproduce the successive terms of the sequence, concatenated.",
+  "id": "A342114",
+  "mentions": [
+    "A002113",
+    "A061467"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

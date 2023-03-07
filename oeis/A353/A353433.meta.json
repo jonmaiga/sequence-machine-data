@@ -1,0 +1,26 @@
+{
+  "description": "Array read by descending antidiagonals: T(n,m) is the number of sequences of length n >= 0 with elements in 0..m-1 such that no iterated difference has a common factor with m >= 1.",
+  "id": "A353433",
+  "mentions": [
+    "A000010",
+    "A000012",
+    "A019590",
+    "A040000",
+    "A061780",
+    "A130706",
+    "A353434",
+    "A353435"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

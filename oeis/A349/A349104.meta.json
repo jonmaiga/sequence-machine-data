@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - (sin(x) + x*cos(x))/2 ).",
+  "id": "A349104",
+  "mentions": [
+    "A349103",
+    "A349105",
+    "A352252"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

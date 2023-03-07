@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways, counted up to symmetry, to build a contiguous building with n LEGO blocks of size 1 X 2 which is flat, i.e., with all blocks in parallel position.",
+  "id": "A123764",
+  "mentions": [
+    "A123765",
+    "A319156"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

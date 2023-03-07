@@ -1,0 +1,21 @@
+{
+  "description": "4n-1 such that 4n-1, 8n-1 and 16n-1 are primes.",
+  "id": "A101791",
+  "mentions": [
+    "A002515",
+    "A101790",
+    "A101792",
+    "A101793"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

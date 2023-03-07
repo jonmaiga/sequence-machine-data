@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = [nu+nv+nw]-[nu]-[nv]-[nw], where u=(1+sqrt(5))/2, v=u^2, w=u^3, []=floor.",
+  "id": "A190248",
+  "mentions": [
+    "A078588",
+    "A190249",
+    "A190250",
+    "A190251",
+    "A190440"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

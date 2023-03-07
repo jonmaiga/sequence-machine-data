@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows, antidiagonals of an array generated from a(n) = a(2n), a(2n+1) = r*a(n) + a(n+1).",
+  "id": "A178239",
+  "mentions": [
+    "A002487",
+    "A116528",
+    "A178240",
+    "A178243",
+    "A342603",
+    "A342633",
+    "A342634",
+    "A342635",
+    "A342636",
+    "A342637",
+    "A342638",
+    "A359250"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

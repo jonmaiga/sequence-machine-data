@@ -1,0 +1,43 @@
+{
+  "description": "Heinz numbers of integer partitions of odd numbers into an odd number of parts.",
+  "id": "A340931",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A001222",
+    "A026424",
+    "A027193",
+    "A047993",
+    "A056239",
+    "A058695",
+    "A066208",
+    "A072233",
+    "A106529",
+    "A112798",
+    "A160786",
+    "A236913",
+    "A300063",
+    "A300272",
+    "A316413",
+    "A326845",
+    "A340385",
+    "A340386",
+    "A340387",
+    "A340604",
+    "A340607",
+    "A340784",
+    "A340854",
+    "A340855"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

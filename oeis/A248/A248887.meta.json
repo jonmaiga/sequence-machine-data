@@ -1,0 +1,19 @@
+{
+  "description": "Primes p of the form 4m^2+1 such that q=4p^2+1 and r=4q^2+1 are prime.",
+  "id": "A248887",
+  "mentions": [
+    "A001912",
+    "A121326",
+    "A121834"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

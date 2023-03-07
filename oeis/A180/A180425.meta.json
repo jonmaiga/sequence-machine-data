@@ -1,0 +1,23 @@
+{
+  "description": "Number of positive integers below 10^n requiring 3 positive squares in their representation as sum of squares.",
+  "id": "A180425",
+  "mentions": [
+    "A000419",
+    "A002283",
+    "A049416",
+    "A167615",
+    "A180416"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

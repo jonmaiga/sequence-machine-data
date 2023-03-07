@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,r) = number of arrangements of n pennies in rows, with r contiguous pennies in the bottom row, and each higher row consisting of contiguous pennies, each touching two pennies in the row below (1 <= r <= n).",
+  "id": "A259095",
+  "mentions": [
+    "A001519",
+    "A001524",
+    "A005575",
+    "A005576",
+    "A005577",
+    "A005578"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:07",
+    "offset": 1,
+    "size": 120,
+    "source": "joeis"
+  }
+}

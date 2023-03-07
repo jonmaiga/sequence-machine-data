@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T(n,p) read by rows: the number of n-celled polyominoes with perimeter 2p, 2<=p<=1+n.",
+  "id": "A342243",
+  "mentions": [
+    "A000105",
+    "A027709",
+    "A057730",
+    "A100092",
+    "A131482",
+    "A131487"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

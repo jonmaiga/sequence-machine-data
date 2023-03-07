@@ -1,0 +1,20 @@
+{
+  "description": "Periodic part of continued fraction for square roots of integers.",
+  "id": "A121339",
+  "mentions": [
+    "A003285",
+    "A013943"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nice",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 2,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

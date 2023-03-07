@@ -1,0 +1,20 @@
+{
+  "description": "Number of dihedral Carlitz compositions of n.",
+  "id": "A292906",
+  "mentions": [
+    "A106369",
+    "A291941",
+    "A292200"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

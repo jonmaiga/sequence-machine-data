@@ -1,0 +1,20 @@
+{
+  "description": "Least positive integer m such that m^6*n = u^6 + v^3 - (x^6 + y^3) for some nonnegative integers u,v,x,y with x^6 + y^3 <= m^6*n^2.",
+  "id": "A351321",
+  "mentions": [
+    "A000578",
+    "A001014",
+    "A351306",
+    "A351338"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

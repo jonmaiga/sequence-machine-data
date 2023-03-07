@@ -1,0 +1,23 @@
+{
+  "description": "Langton's ant on a chair tiling: number of black cells after n moves of the ant.",
+  "id": "A308937",
+  "mentions": [
+    "A255938",
+    "A269757",
+    "A308590",
+    "A325953",
+    "A325954",
+    "A325955"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m for which Sum_{i=1..k} (p(i)/(p(i)-1)) + Product_{i=1..k} (p(i)/(p(i)-1)) is an integer, where p(i) are the k prime factors of m (with multiplicity).",
+  "id": "A224912",
+  "mentions": [
+    "A198391",
+    "A199767"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

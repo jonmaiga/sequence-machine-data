@@ -1,0 +1,17 @@
+{
+  "description": "Positions in A177151 of runs of length 1.",
+  "id": "A177152",
+  "mentions": [
+    "A177151"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

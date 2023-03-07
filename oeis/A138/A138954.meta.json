@@ -1,0 +1,19 @@
+{
+  "description": "Number of complement symmetries in the rotations of the binary expansion of a number.",
+  "id": "A138954",
+  "mentions": [
+    "A031443",
+    "A138904"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

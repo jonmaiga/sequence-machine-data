@@ -1,0 +1,22 @@
+{
+  "description": "Number of even digits necessary to write all the numbers from 0 up to n.",
+  "id": "A358854",
+  "mentions": [
+    "A117804",
+    "A196563",
+    "A279766"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

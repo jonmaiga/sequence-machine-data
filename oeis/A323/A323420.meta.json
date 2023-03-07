@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that for any n > 0, a(n + a(n)) > a(n).",
+  "id": "A323420",
+  "mentions": [
+    "A000124",
+    "A055010"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

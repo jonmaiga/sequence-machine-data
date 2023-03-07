@@ -1,0 +1,18 @@
+{
+  "description": "The indices where A355061(n) = 6.",
+  "id": "A355139",
+  "mentions": [
+    "A355061",
+    "A355138"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

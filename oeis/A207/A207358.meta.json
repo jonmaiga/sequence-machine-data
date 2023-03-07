@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k)=Number of nXk 0..2 arrays avoiding the pattern z+1 z+1 z horizontally and z-1 z-1 z vertically",
+  "id": "A207358",
+  "mentions": [
+    "A206727",
+    "A206728"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

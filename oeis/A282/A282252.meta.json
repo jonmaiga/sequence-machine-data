@@ -1,0 +1,22 @@
+{
+  "description": "Exponential Riordan array [Bessel_I(0,2*x)^2, x].",
+  "id": "A282252",
+  "mentions": [
+    "A069466",
+    "A109187",
+    "A201805"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

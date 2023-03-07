@@ -1,0 +1,27 @@
+{
+  "description": "Table A(i,j) read by antidiagonals in order A(1,1), A(1,2), A(2,1), A(1,3), A(2,2), A(3,1), ..., where A(i,j) is the number of ways in which we can add 2 distinct integers from the range 1..i in such a way that the sum is divisible by j.",
+  "id": "A220691",
+  "mentions": [
+    "A000217",
+    "A001971",
+    "A002260",
+    "A002620",
+    "A004736",
+    "A058212",
+    "A061857",
+    "A220692",
+    "A220693"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

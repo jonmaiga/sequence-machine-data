@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p-2^k is a prime or semiprime for all k > 0 with 2^k < p.",
+  "id": "A100350",
+  "mentions": [
+    "A039669",
+    "A100349",
+    "A100351"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

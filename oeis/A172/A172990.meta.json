@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest k such that the two numbers n^3 +- k are primes.",
+  "id": "A172990",
+  "mentions": [
+    "A172989"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 2,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

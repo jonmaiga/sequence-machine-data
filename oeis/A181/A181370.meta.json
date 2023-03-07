@@ -1,0 +1,19 @@
+{
+  "description": "Square array read by antidiagonals: T(m,n) is the number of L-convex polyominoes with m rows and n columns.",
+  "id": "A181370",
+  "mentions": [
+    "A126765"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

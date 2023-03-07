@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion, negated, of the greater real root of the polynomial of A346442.",
+  "id": "A346445",
+  "mentions": [
+    "A346442",
+    "A346443",
+    "A346444",
+    "A346663"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

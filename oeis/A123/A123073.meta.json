@@ -1,0 +1,18 @@
+{
+  "description": "Number of ordered triples of primes (p,q,r) such that pqr = n-th 3-almost prime A014612(n).",
+  "id": "A123073",
+  "mentions": [
+    "A014612",
+    "A123074"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "s(1)={1}. s(2)={1,0}. If a(n) = 0, s(n+2) = s(n+1) U s(n) U {1}. If a(n) = 1, s(n+2) = s(n+1) U s(n+1) U {1}. (U represents concatenation of finite sequences.) {a(n)} is the limit of {s(n)} as n -> infinity.",
+  "id": "A114483",
+  "mentions": [
+    "A062318",
+    "A112361",
+    "A114482"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

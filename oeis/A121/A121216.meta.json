@@ -1,0 +1,31 @@
+{
+  "description": "a(1)=1, a(2) = 2; thereafter a(n) = the smallest positive integer which does not occur earlier in the sequence and which is coprime to a(n-2).",
+  "id": "A121216",
+  "mentions": [
+    "A084937",
+    "A093714",
+    "A098550",
+    "A121217",
+    "A225047",
+    "A256219",
+    "A256399",
+    "A352933",
+    "A352934",
+    "A352935",
+    "A352936",
+    "A352937",
+    "A353705",
+    "A353707",
+    "A353708"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

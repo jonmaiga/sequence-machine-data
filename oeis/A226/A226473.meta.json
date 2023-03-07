@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the first prime index where the gap between R(n), Riemann's prime counting function, and Pi(n), the exact prime counting function, is greater than n.",
+  "id": "A226473",
+  "mentions": [
+    "A057794"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

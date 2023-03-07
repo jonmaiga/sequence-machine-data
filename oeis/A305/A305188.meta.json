@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are equal to a nontrivial multinomial coefficient (i.e., equal to k!/(k1!*...*km!) with k1 + ... + km = k, k-2 >= k1 >= ... >= km).",
+  "id": "A305188",
+  "mentions": [
+    "A006987",
+    "A008480",
+    "A304938"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

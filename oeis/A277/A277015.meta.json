@@ -1,0 +1,25 @@
+{
+  "description": "Numbers whose squares are present in A276573 (the infinite trunk of least squares beanstalk).",
+  "id": "A277015",
+  "mentions": [
+    "A000196",
+    "A002828",
+    "A276573",
+    "A277014",
+    "A277016",
+    "A277023",
+    "A277024",
+    "A277025"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

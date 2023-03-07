@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + x^k - x^(3*k)) / (1 - x^k).",
+  "id": "A266650",
+  "mentions": [
+    "A000041",
+    "A000726",
+    "A100405",
+    "A266647",
+    "A266648",
+    "A266649",
+    "A266686"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

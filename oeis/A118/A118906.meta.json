@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 1; a(n) = |a(n-1) - n| if n is not one of the earlier terms of the sequence, otherwise a(n) = a(n-1) + n.",
+  "id": "A118906",
+  "mentions": [
+    "A005132",
+    "A118907"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangular numbers that are the product of a square number and a prime number.",
+  "id": "A253653",
+  "mentions": [
+    "A000217",
+    "A000396",
+    "A188630",
+    "A229125",
+    "A253650",
+    "A253651",
+    "A253652"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

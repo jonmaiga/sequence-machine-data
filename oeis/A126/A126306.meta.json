@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = number of double-rises (UU-subsequences) in the n-th Dyck path encoded by A014486(n).",
+  "id": "A126306",
+  "mentions": [
+    "A000120",
+    "A014081",
+    "A014486",
+    "A048735",
+    "A057514",
+    "A125976"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:21:31",
+    "offset": 0,
+    "size": 102,
+    "source": "joeis"
+  }
+}

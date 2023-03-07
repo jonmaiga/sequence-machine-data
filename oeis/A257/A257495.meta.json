@@ -1,0 +1,21 @@
+{
+  "description": "The number of iterations (x -> 2x+1) until a prime is found, starting with prime(n); or 0 if a prime is never found.",
+  "id": "A257495",
+  "mentions": [
+    "A050412",
+    "A156660",
+    "A171390",
+    "A257395"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Prime exponents of composite Mersenne numbers in the order of the magnitude of the smallest prime factor.",
+  "id": "A241973",
+  "mentions": [
+    "A054723",
+    "A136030"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

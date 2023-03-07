@@ -1,0 +1,19 @@
+{
+  "description": "First occurrence of n in A306722.",
+  "id": "A307245",
+  "mentions": [
+    "A039770",
+    "A247129",
+    "A306722"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

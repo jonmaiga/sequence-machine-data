@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies: A(x/A(x)) = G(x)^3 where G(x) = 1 + x*G(x)^3 is the g.f. of A001764.",
+  "id": "A168479",
+  "mentions": [
+    "A001764",
+    "A168449",
+    "A168478"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

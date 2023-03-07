@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form (x+y)(x^2+y^2), with integers x > y > 0.",
+  "id": "A321491",
+  "mentions": [
+    "A000578",
+    "A033430",
+    "A321490",
+    "A321492"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

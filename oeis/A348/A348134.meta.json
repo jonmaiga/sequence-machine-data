@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways two L-tiles (with rotation) can be placed on an n X n square.",
+  "id": "A348134",
+  "mentions": [
+    "A242856",
+    "A243645"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 14:50:30",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

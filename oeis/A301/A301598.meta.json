@@ -1,0 +1,28 @@
+{
+  "description": "Number of thrice-factorizations of n.",
+  "id": "A301598",
+  "mentions": [
+    "A001055",
+    "A007716",
+    "A050336",
+    "A050338",
+    "A063834",
+    "A162247",
+    "A269134",
+    "A281113",
+    "A281116",
+    "A301595",
+    "A301706"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

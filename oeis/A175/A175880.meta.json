@@ -1,0 +1,31 @@
+{
+  "description": "a(1)=1, a(2)=2. If n >= 3: if n/2 is in the sequence, a(n)=0, otherwise a(n)=n.",
+  "id": "A175880",
+  "mentions": [
+    "A000040",
+    "A001749",
+    "A002001",
+    "A002042",
+    "A002063",
+    "A002089",
+    "A003947",
+    "A004171",
+    "A010673",
+    "A039982",
+    "A053661",
+    "A081294",
+    "A110654"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

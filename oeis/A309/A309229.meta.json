@@ -1,0 +1,22 @@
+{
+  "description": "Square array read by upwards antidiagonals: T(n,k) = Sum_{i=1..n} A191898(i,k).",
+  "id": "A309229",
+  "mentions": [
+    "A003418",
+    "A023900",
+    "A191898",
+    "A275205"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

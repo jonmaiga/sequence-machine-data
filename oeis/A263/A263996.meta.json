@@ -1,0 +1,18 @@
+{
+  "description": "Smallest possible cardinality of the union of the set of pairwise sums and the set of pairwise products from a set of n positive integers.",
+  "id": "A263996",
+  "mentions": [
+    "A027424",
+    "A263995"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

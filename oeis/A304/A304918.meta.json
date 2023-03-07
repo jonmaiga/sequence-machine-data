@@ -1,0 +1,32 @@
+{
+  "description": "Number of labeled antichain hyperforests spanning a subset of {1,...,n}.",
+  "id": "A304918",
+  "mentions": [
+    "A030019",
+    "A035053",
+    "A048143",
+    "A134954",
+    "A134955",
+    "A134956",
+    "A134957",
+    "A134959",
+    "A144959",
+    "A303838",
+    "A304716",
+    "A304717",
+    "A304867",
+    "A304911",
+    "A304912"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Floor(sqrt(2*3^n)).",
+  "id": "A221944",
+  "mentions": [
+    "A017910",
+    "A017913",
+    "A017919",
+    "A114183",
+    "A221718",
+    "A221942",
+    "A221946"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that sigma(m)/(d(m)*sopf(m)) is an integer, where d is the number of divisors (A000005) and sopf the sum of prime factors without repetition (A008472).",
+  "id": "A328051",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A008472",
+    "A134382",
+    "A328052"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

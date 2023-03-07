@@ -1,0 +1,18 @@
+{
+  "description": "Self-convolution of A014062, where A014062(n) = C(n^2, n).",
+  "id": "A137610",
+  "mentions": [
+    "A014062"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

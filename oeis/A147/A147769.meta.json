@@ -1,0 +1,18 @@
+{
+  "description": "Late-growing permutations: number of permutations of 19 indistinguishable copies of 1..n with every partial sum <= the same partial sum averaged over all permutations.",
+  "id": "A147769",
+  "mentions": [
+    "A147681",
+    "A215561"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

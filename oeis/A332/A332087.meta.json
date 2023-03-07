@@ -1,0 +1,18 @@
+{
+  "description": "Diagonals of cellular automata with 4 conditions and 6 possible values.",
+  "id": "A332087",
+  "mentions": [
+    "A006943"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Catalan pseudoprimes: odd composite integers n=2*m+1 satisfying A000108(m) == (-1)^m * 2 (mod n).",
+  "id": "A163209",
+  "mentions": [
+    "A000108",
+    "A000984",
+    "A001220",
+    "A001567",
+    "A056040",
+    "A180000"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

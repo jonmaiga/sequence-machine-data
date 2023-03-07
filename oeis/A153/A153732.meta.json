@@ -1,0 +1,21 @@
+{
+  "description": "Binomial transform of A109747.",
+  "id": "A153732",
+  "mentions": [
+    "A007318",
+    "A014182",
+    "A109747",
+    "A126617"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

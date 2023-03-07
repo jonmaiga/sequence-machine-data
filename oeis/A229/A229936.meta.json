@@ -1,0 +1,23 @@
+{
+  "description": "Sum of all parts of all compositions of n with at least two parts in increasing order.",
+  "id": "A229936",
+  "mentions": [
+    "A000041",
+    "A001787",
+    "A011782",
+    "A056823",
+    "A066186",
+    "A229935"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:02:36",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

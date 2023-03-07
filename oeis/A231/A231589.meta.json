@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = sum_{k=1..(n-1)/2} (k^2 mod n).",
+  "id": "A231589",
+  "mentions": [
+    "A048152",
+    "A048153",
+    "A081115",
+    "A228432"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

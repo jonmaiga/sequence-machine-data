@@ -1,0 +1,29 @@
+{
+  "description": "Numbers m that divide the product phi(m) * sigma(m) * tau(m), where phi is the Euler totient function (A000010), sigma is the sum of divisors function (A000203) and tau is the number of divisors function (A000005).",
+  "id": "A336745",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203",
+    "A000396",
+    "A004171",
+    "A005010",
+    "A005820",
+    "A007691",
+    "A027687",
+    "A046060",
+    "A046061",
+    "A062355",
+    "A336715"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

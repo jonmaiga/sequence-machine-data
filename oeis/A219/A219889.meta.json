@@ -1,0 +1,28 @@
+{
+  "description": "Number of directed 2-regular graphs on n nodes.",
+  "id": "A219889",
+  "mentions": [
+    "A002865",
+    "A005641",
+    "A007107",
+    "A096368",
+    "A219890",
+    "A219891",
+    "A219892",
+    "A219893",
+    "A306827",
+    "A307155",
+    "A350910"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 3,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the length of stage n in A137843.",
+  "id": "A291753",
+  "mentions": [
+    "A112306",
+    "A137843",
+    "A291754"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

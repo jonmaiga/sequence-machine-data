@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that can be written as a product of distinct triangular numbers.",
+  "id": "A334130",
+  "mentions": [
+    "A000217",
+    "A006472",
+    "A054731",
+    "A085780",
+    "A085782",
+    "A334129"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

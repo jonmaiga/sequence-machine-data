@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that return to the origin when performing a non-backtracking walk on a 2D square lattice where at each step the walk moves as close as possible to the origin and the step lengths are the ordered prime factors of the integers, starting with a step of length 1.",
+  "id": "A344467",
+  "mentions": [
+    "A000040",
+    "A027746",
+    "A309500",
+    "A332939",
+    "A343153"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

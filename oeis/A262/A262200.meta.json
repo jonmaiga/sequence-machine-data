@@ -1,0 +1,17 @@
+{
+  "description": "Number of compositions of n such that the maximal distance between two identical parts equals five.",
+  "id": "A262200",
+  "mentions": [
+    "A262191"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 5,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

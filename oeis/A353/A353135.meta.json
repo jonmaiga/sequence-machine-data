@@ -1,0 +1,22 @@
+{
+  "description": "Primes having Fibonacci prime gaps to both neighbor primes.",
+  "id": "A353135",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A014445",
+    "A353088",
+    "A353136",
+    "A353137"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

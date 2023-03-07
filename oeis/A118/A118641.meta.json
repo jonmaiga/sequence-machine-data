@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonisomorphic finite non-associative, invertible loops of order n.",
+  "id": "A118641",
+  "mentions": [
+    "A001329"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 5,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

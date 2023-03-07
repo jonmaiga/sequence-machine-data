@@ -1,0 +1,30 @@
+{
+  "description": "n! never ends in this many 0's in base 7.",
+  "id": "A136768",
+  "mentions": [
+    "A000142",
+    "A000966",
+    "A055938",
+    "A096346",
+    "A136694",
+    "A136758",
+    "A136767",
+    "A136769",
+    "A136770",
+    "A136771",
+    "A136772",
+    "A136773",
+    "A136774"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

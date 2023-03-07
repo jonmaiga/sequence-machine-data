@@ -1,0 +1,32 @@
+{
+  "description": "Number of nonnegative integer square matrices with sum of entries equal to n, no zero rows or columns, and the same row sums as column sums.",
+  "id": "A321732",
+  "mentions": [
+    "A000700",
+    "A000701",
+    "A006052",
+    "A007016",
+    "A120732",
+    "A319056",
+    "A320451",
+    "A321718",
+    "A321719",
+    "A321722",
+    "A321733",
+    "A321734",
+    "A321735",
+    "A321736",
+    "A321739"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

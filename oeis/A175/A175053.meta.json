@@ -1,0 +1,18 @@
+{
+  "description": "Perfect powers (members of A001597) n where the next larger perfect power is not congruent mod 2 to n.",
+  "id": "A175053",
+  "mentions": [
+    "A001597",
+    "A175052"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

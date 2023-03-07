@@ -1,0 +1,27 @@
+{
+  "description": "Numbers n which are Fermat pseudoprimes to some base b, 2 <= b <= n-2.",
+  "id": "A181780",
+  "mentions": [
+    "A039769",
+    "A039772",
+    "A181781",
+    "A211455",
+    "A211456",
+    "A211457",
+    "A211458",
+    "A227180",
+    "A280199"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "The number of connected components of size > 1 over all simple labeled graphs on n nodes.",
+  "id": "A223889",
+  "mentions": [
+    "A001187",
+    "A006125",
+    "A125207"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

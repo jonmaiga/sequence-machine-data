@@ -1,0 +1,22 @@
+{
+  "description": "Terms 2*p (p prime) in A090252, divided by 2, in order of appearance.",
+  "id": "A354159",
+  "mentions": [
+    "A083329",
+    "A090252",
+    "A354150",
+    "A354151",
+    "A354255"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

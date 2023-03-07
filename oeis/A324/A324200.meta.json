@@ -1,0 +1,30 @@
+{
+  "description": "a(n) = 2^(A000043(n)-1) * ((2^A059305(n)) - 1), where A059305 gives the prime index of the n-th Mersenne prime, while A000043 gives its exponent.",
+  "id": "A324200",
+  "mentions": [
+    "A000043",
+    "A000396",
+    "A000668",
+    "A000720",
+    "A007814",
+    "A023758",
+    "A059305",
+    "A062457",
+    "A156552",
+    "A243071",
+    "A324185",
+    "A324199",
+    "A324201"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

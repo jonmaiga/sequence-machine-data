@@ -1,0 +1,21 @@
+{
+  "description": "The least increasing sequence of numbers where all pairwise sums are semiprimes, with a(1)=4.",
+  "id": "A305887",
+  "mentions": [
+    "A001358",
+    "A116656",
+    "A164979",
+    "A181620"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

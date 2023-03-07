@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array read by rows: T(n,k) is the number of simple labeled graphs on n nodes with unicyclic components having exactly k nodes with degree 1; n>=3, 0<=k<=n-3.",
+  "id": "A217763",
+  "mentions": [
+    "A001205",
+    "A055302",
+    "A137916"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 3,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

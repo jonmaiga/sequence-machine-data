@@ -1,0 +1,23 @@
+{
+  "description": "Number of vertices in a Y-shaped polygon with equal arms of length n (see the Comments in A335861 for definition).",
+  "id": "A337790",
+  "mentions": [
+    "A007678",
+    "A092867",
+    "A306302",
+    "A331452",
+    "A331456",
+    "A335861"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

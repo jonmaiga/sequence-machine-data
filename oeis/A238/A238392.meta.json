@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: each row is an initial segment of the terms of A000123 followed by its reflection.",
+  "id": "A238392",
+  "mentions": [
+    "A000123",
+    "A004197"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

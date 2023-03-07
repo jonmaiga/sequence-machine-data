@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways the set {1,2,...,n} can be split into three subsets X, Y, Z of equal sums, where the order of X, Y, Z matters.",
+  "id": "A317577",
+  "mentions": [
+    "A112972"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

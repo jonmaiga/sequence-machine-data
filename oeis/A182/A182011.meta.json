@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest number k such that the difference between the greatest prime divisor of k and the sum of the other distinct prime divisors equals n.",
+  "id": "A182011",
+  "mentions": [
+    "A001221"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

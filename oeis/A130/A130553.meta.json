@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of partial sums for a series for 2*Pi*sqrt(3)/9.",
+  "id": "A130553",
+  "mentions": [
+    "A130554"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

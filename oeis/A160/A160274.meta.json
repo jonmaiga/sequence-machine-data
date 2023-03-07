@@ -1,0 +1,25 @@
+{
+  "description": "Highly composite numbers A002182(n) with the property that A002182(n+1)/A002182(n) >= A002182(k+1)/A002182(k) for all k>n.",
+  "id": "A160274",
+  "mentions": [
+    "A002110",
+    "A002182",
+    "A002201",
+    "A003418",
+    "A072938",
+    "A094348",
+    "A106037"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

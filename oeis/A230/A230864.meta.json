@@ -1,0 +1,19 @@
+{
+  "description": "log2*(n) (version 3): number of iterations log_2(log_2(log_2(...(n)...))) required for the result to be <= 1.",
+  "id": "A230864",
+  "mentions": [
+    "A001069",
+    "A010096"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

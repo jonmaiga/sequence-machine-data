@@ -1,0 +1,21 @@
+{
+  "description": "Number T(n,k) of n X n Tesler matrices of nonnegative integers with element sum n+k; triangle T(n,k), n>=1, 0<=k<=n*(n-1)/2, read by rows.",
+  "id": "A259786",
+  "mentions": [
+    "A000217",
+    "A008608",
+    "A259787"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

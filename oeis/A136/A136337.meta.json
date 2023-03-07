@@ -1,0 +1,20 @@
+{
+  "description": "Triangular sequence from both a quartic expansion polynomial and a four deep polynomial recursion: Expansion polynomial: f(x,t)=1/(1 - 2*x*t + t^4); Recursion polynomials: p(x, n) = 2*x*p(x, n - 1) - p(x, n - 4);.",
+  "id": "A136337",
+  "mentions": [
+    "A008937"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "description": "Pascal's triangle, with the first two columns removed.",
+  "id": "A104712",
+  "mentions": [
+    "A000295",
+    "A001924",
+    "A004736",
+    "A007318",
+    "A008275",
+    "A008277",
+    "A008292",
+    "A027641",
+    "A027642",
+    "A048993",
+    "A104713",
+    "A111492",
+    "A132440",
+    "A132681",
+    "A135278",
+    "A164555",
+    "A176289",
+    "A176327",
+    "A238363",
+    "A238385"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:47:11",
+    "offset": 2,
+    "size": 69,
+    "source": "joeis"
+  }
+}

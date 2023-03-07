@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A000045(n) + A131531(n+3).",
+  "id": "A141325",
+  "mentions": [
+    "A000045",
+    "A014437",
+    "A131531",
+    "A140096",
+    "A140413"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that d(n-8) < d(n-7) < ... < d(n), where d(n) = A000005(n) is the number of divisors of n.",
+  "id": "A227444",
+  "mentions": [
+    "A000005",
+    "A075028"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

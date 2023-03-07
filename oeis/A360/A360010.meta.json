@@ -1,0 +1,32 @@
+{
+  "description": "First part of the n-th weakly decreasing triple of positive integers sorted lexicographically. Each n > 0 is repeated A000217(n) times.",
+  "id": "A360010",
+  "mentions": [
+    "A000217",
+    "A000292",
+    "A002024",
+    "A003056",
+    "A050407",
+    "A056556",
+    "A056557",
+    "A056558",
+    "A069905",
+    "A070770",
+    "A158842",
+    "A194848",
+    "A331195",
+    "A333516",
+    "A360240"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

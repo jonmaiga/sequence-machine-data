@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to write n = x + y + z (0 < x <= y <= z) such that the four pairs {6*x-1, 6*x+1}, {6*y-1, 6*y+1}, {6*z-1, 6*z+1} and {6*x*y-1, 6*x*y+1} are twin prime pairs.",
+  "id": "A230037",
+  "mentions": [
+    "A001359",
+    "A006512",
+    "A219842",
+    "A219864",
+    "A229969",
+    "A229974",
+    "A230040"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

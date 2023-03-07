@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = 2^(2n+1) * R(n,k), where R(n,k) is the k-th right endpoint after the n-th step of removal in the construction of the Smith-Volterra-Cantor set (SVC).",
+  "id": "A343072",
+  "mentions": [
+    "A343071"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

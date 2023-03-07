@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form Catalan(n) - 1.",
+  "id": "A231885",
+  "mentions": [
+    "A000108",
+    "A053427",
+    "A053429",
+    "A230061"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

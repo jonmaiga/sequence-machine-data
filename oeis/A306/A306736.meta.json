@@ -1,0 +1,24 @@
+{
+  "description": "Exponential infinitary highly composite numbers: where the number of exponential infinitary divisors (A307848) increases to record.",
+  "id": "A306736",
+  "mentions": [
+    "A002182",
+    "A025487",
+    "A037445",
+    "A037992",
+    "A307845",
+    "A307848",
+    "A318278"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

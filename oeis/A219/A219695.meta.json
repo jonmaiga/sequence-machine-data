@@ -1,0 +1,20 @@
+{
+  "description": "For odd numbers 2n - 1, half the difference between the largest divisor not exceeding the square root, and the least divisor not less than the square root.",
+  "id": "A219695",
+  "mentions": [
+    "A033676",
+    "A033677",
+    "A056737"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

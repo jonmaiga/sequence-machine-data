@@ -1,0 +1,17 @@
+{
+  "description": "Row sums of triangle T(j,k) = (j^k) mod (j*k) for 1 <= k <= j (see A096133).",
+  "id": "A157351",
+  "mentions": [
+    "A096133"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

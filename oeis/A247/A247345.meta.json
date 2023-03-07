@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 16. For n > 1, a(n) is the position of the first occurrence of a(n-1) after the decimal point in the decimal expansion of Pi.",
+  "id": "A247345",
+  "mentions": [
+    "A000796",
+    "A097614"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

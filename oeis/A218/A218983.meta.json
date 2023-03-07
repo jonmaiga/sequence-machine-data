@@ -1,0 +1,22 @@
+{
+  "description": "Power ceiling sequence of sqrt(5).",
+  "id": "A218983",
+  "mentions": [
+    "A214992",
+    "A214999",
+    "A215091",
+    "A218982"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

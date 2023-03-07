@@ -1,0 +1,18 @@
+{
+  "description": "Values of prime p corresponding to terms in A268594.",
+  "id": "A268595",
+  "mentions": [
+    "A268594",
+    "A268596"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

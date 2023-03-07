@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = prime(prime(n)-1) - prime(n).",
+  "id": "A275990",
+  "mentions": [
+    "A000040",
+    "A006093",
+    "A055003",
+    "A275989"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

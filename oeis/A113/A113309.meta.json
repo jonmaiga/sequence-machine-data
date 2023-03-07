@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = the number of finite sequences of positive integers {b(k)} where (product b(k)) * (sum b(k)) = n. Different orderings of the same sequence {b(k)} are not counted separately.",
+  "id": "A113309",
+  "mentions": [
+    "A000793",
+    "A057567",
+    "A113308"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

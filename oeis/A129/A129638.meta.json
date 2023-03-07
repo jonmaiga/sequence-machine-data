@@ -1,0 +1,24 @@
+{
+  "description": "Number of meaningful differential operations of the k-th order on the space R^11.",
+  "id": "A129638",
+  "mentions": [
+    "A000079",
+    "A007283",
+    "A020701",
+    "A020714",
+    "A090989",
+    "A090995"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 03:30:26",
+    "offset": 11,
+    "size": 30,
+    "source": "joeis"
+  }
+}

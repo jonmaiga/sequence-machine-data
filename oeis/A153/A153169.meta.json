@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 4*n^2 + 12*n + 3.",
+  "id": "A153169",
+  "mentions": [
+    "A028878",
+    "A153167"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:10:13",
+    "offset": 1,
+    "size": 34,
+    "source": "joeis"
+  }
+}

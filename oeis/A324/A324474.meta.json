@@ -1,0 +1,20 @@
+{
+  "description": "Nonzero ternary words such that any non-initial 1 is preceded by 0, and any non-initial 2 is preceded by 00.",
+  "id": "A324474",
+  "mentions": [
+    "A000213",
+    "A007089",
+    "A324475"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

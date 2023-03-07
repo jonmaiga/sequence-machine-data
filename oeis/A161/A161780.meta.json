@@ -1,0 +1,21 @@
+{
+  "description": "Square array read by antidiagonals up. Redheffer type matrix. A007427 interleaved with k-1 zeros in the columns.",
+  "id": "A161780",
+  "mentions": [
+    "A000027",
+    "A002321",
+    "A006218",
+    "A007427"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

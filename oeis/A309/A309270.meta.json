@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the largest k such that the first k odd primes can be covered by n arithmetic progressions of primes.",
+  "id": "A309270",
+  "mentions": [
+    "A309095"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

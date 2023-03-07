@@ -1,0 +1,28 @@
+{
+  "description": "A Jacobsthal-Pascal triangle.",
+  "id": "A124860",
+  "mentions": [
+    "A000007",
+    "A001045",
+    "A003683",
+    "A016095",
+    "A084938",
+    "A124861",
+    "A124862",
+    "A193449"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:42:13",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

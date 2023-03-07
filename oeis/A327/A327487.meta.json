@@ -1,0 +1,22 @@
+{
+  "description": "T(n, k) are the summands given by the generating function of A327420(n), triangle read by rows, T(n,k) for 0 <= k <= n.",
+  "id": "A327487",
+  "mentions": [
+    "A057032",
+    "A069829",
+    "A327093",
+    "A327420"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

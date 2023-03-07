@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k = (sum of digits of k)^(last digit of k).",
+  "id": "A283034",
+  "mentions": [
+    "A007953",
+    "A010879",
+    "A023106"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

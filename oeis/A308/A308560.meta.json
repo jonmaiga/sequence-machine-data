@@ -1,0 +1,19 @@
+{
+  "description": "Numbers divisible by the LCM of all sums of any two digits (at distinct positions).",
+  "id": "A308560",
+  "mentions": [
+    "A308534",
+    "A308561"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

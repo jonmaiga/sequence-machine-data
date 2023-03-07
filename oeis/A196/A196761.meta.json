@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the least x>0 satisfying 3=x*sin(x).",
+  "id": "A196761",
+  "mentions": [
+    "A133866",
+    "A196760",
+    "A196762",
+    "A196763",
+    "A196764",
+    "A196765"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:55",
+    "offset": 1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

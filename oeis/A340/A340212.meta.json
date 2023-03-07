@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least k > 0 such that k*prime(n)+prime(n-1) and k*prime(n)+prime(n+1) are both prime.",
+  "id": "A340212",
+  "mentions": [
+    "A125146",
+    "A340210",
+    "A340214"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 3,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that cause an infinite loop in Conway's PRIMEGAME.",
+  "id": "A272260",
+  "mentions": [
+    "A007542",
+    "A034785",
+    "A185242",
+    "A203907"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

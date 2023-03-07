@@ -1,0 +1,20 @@
+{
+  "description": "Floor(Gamma(2n/3)).",
+  "id": "A284998",
+  "mentions": [
+    "A000142",
+    "A284999"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

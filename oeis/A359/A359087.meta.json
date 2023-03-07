@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is equal to the last point of a reverse pyramid summation with base 1, 2, 3, ..., n-2, n-1, n, n-1, n-2, ..., 3, 2, 1.",
+  "id": "A359087",
+  "mentions": [
+    "A004737",
+    "A027907",
+    "A132894"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

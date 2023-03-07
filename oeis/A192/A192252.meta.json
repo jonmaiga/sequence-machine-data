@@ -1,0 +1,21 @@
+{
+  "description": "0-sequence of reduction of (n!) by x^2 -> x+1.",
+  "id": "A192252",
+  "mentions": [
+    "A000142",
+    "A052554",
+    "A192232",
+    "A192253"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

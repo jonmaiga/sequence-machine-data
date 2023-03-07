@@ -1,0 +1,21 @@
+{
+  "description": "Position of first occurrence of n in A256918.",
+  "id": "A257120",
+  "mentions": [
+    "A256918",
+    "A257122",
+    "A257218",
+    "A257475",
+    "A257478"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

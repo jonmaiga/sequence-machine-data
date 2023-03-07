@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = a(n-1) + a(n-2) + a(n-3) - a(n-4); a(0)=0, a(1)=1, a(2)=1, a(3)=1.",
+  "id": "A116201",
+  "mentions": [
+    "A100047",
+    "A116732",
+    "A135431"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:06",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

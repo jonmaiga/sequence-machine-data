@@ -1,0 +1,21 @@
+{
+  "description": "Partial sums of second arithmetic derivative of natural numbers.",
+  "id": "A232172",
+  "mentions": [
+    "A003415",
+    "A068346",
+    "A190121",
+    "A231946"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

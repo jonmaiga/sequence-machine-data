@@ -1,0 +1,35 @@
+{
+  "description": "A positive integer n is included if all runs of 1's in binary n are of the same length.",
+  "id": "A164707",
+  "mentions": [
+    "A000120",
+    "A003714",
+    "A014081",
+    "A047966",
+    "A065609",
+    "A069010",
+    "A070939",
+    "A072774",
+    "A121016",
+    "A164708",
+    "A164709",
+    "A164710",
+    "A245563",
+    "A275692",
+    "A328592",
+    "A328594",
+    "A328595",
+    "A328596"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

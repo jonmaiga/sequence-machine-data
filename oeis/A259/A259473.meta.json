@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows of coefficients arising in the enumeration of doubly stochastic matrices of integers, n >= 1, 0 <= k <= (n-1)*(n-2).",
+  "id": "A259473",
+  "mentions": [
+    "A002817",
+    "A005466",
+    "A005467",
+    "A037302",
+    "A257493"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

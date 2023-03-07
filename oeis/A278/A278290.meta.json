@@ -1,0 +1,26 @@
+{
+  "description": "Number of neighbors of each new term in a square array read by antidiagonals.",
+  "id": "A278290",
+  "mentions": [
+    "A004767",
+    "A007395",
+    "A047931",
+    "A057427",
+    "A274912",
+    "A274913",
+    "A275015",
+    "A278317",
+    "A278354"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

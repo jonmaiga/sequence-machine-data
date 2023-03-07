@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers in which the difference between the largest digit and the smallest digit is a digit in the same prime.",
+  "id": "A164739",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

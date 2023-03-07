@@ -1,0 +1,27 @@
+{
+  "description": "If n = Product (p_j^k_j) then a(n) = min{p_j}^min{k_j}.",
+  "id": "A304181",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A005117",
+    "A020639",
+    "A028233",
+    "A034684",
+    "A051904",
+    "A073481",
+    "A081811",
+    "A304180"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:15",
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

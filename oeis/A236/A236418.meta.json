@@ -1,0 +1,27 @@
+{
+  "description": "Primes p with A047967(p) also prime.",
+  "id": "A236418",
+  "mentions": [
+    "A000040",
+    "A047967",
+    "A234530",
+    "A234569",
+    "A234644",
+    "A235344",
+    "A235346",
+    "A236413",
+    "A236417",
+    "A236419",
+    "A236440"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

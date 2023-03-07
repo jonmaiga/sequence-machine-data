@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to tile an n X n X n cube with 1 X 1 X 1 and 2 X 2 X 2 tiles.",
+  "id": "A271081",
+  "mentions": [
+    "A063443"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = bitwise XOR of all the bit numbers for the bits that are set in n, using number 1 for the LSB.",
+  "id": "A261283",
+  "mentions": [
+    "A075926",
+    "A253315"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

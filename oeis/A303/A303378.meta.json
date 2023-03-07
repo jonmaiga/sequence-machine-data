@@ -1,0 +1,21 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) = total domination number of the m X n king graph.",
+  "id": "A303378",
+  "mentions": [
+    "A300358",
+    "A302401",
+    "A303114",
+    "A303335"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

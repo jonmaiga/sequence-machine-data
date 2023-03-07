@@ -1,0 +1,21 @@
+{
+  "description": "Binary numbers with string structure 10s00, s in {0,1}*, such that it results in a non-palindromic cycle of length 4 in the Reverse and Add! procedure in base 2.",
+  "id": "A306515",
+  "mentions": [
+    "A066059",
+    "A306514",
+    "A306516",
+    "A306517"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

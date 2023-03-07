@@ -1,0 +1,25 @@
+{
+  "description": "Maximum denominator of resistances obtained by an electrical network with n unit resistors.",
+  "id": "A340708",
+  "mentions": [
+    "A180414",
+    "A337517",
+    "A338573",
+    "A338601",
+    "A339548",
+    "A339808",
+    "A340726"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

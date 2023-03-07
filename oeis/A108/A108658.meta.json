@@ -1,0 +1,23 @@
+{
+  "description": "Number of the essentially different permutations of the numbers 0 to n such that the sum of adjacent numbers is a square.",
+  "id": "A108658",
+  "mentions": [
+    "A071984",
+    "A090460",
+    "A108659",
+    "A108660",
+    "A108661"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

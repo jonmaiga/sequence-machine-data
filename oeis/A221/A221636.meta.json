@@ -1,0 +1,17 @@
+{
+  "description": "Odd numbers n with the property that Collatz (3x+1) trajectory of n contains exactly four terms that are divisible by 5.",
+  "id": "A221636",
+  "mentions": [
+    "A070165"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

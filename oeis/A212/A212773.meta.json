@@ -1,0 +1,22 @@
+{
+  "description": "Amounts (in cents) of coins in denominations 1, 5, 10, 25, and 50 (cents) which can consist of equal numbers of coins of all denominations present when two or more denominations are used (or none are used: term 0).",
+  "id": "A212773",
+  "mentions": [
+    "A008588",
+    "A008593",
+    "A008597",
+    "A008598",
+    "A135631",
+    "A212774"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

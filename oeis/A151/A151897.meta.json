@@ -1,0 +1,25 @@
+{
+  "description": "Number of subsets of {1, 2, ..., n} such that no member is a sum of distinct other members.",
+  "id": "A151897",
+  "mentions": [
+    "A007865",
+    "A050291",
+    "A085489",
+    "A093971",
+    "A103580",
+    "A308546",
+    "A326080",
+    "A326083",
+    "A326117"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

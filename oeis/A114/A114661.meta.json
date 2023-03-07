@@ -1,0 +1,24 @@
+{
+  "description": "Primes with 44 as smallest positive primitive root.",
+  "id": "A114661",
+  "mentions": [
+    "A001122",
+    "A001126",
+    "A061323",
+    "A061335",
+    "A061730",
+    "A061741",
+    "A114657",
+    "A114686"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:44",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers z, without duplication, in x^3+y^3=z^2.",
+  "id": "A121980",
+  "mentions": [
+    "A000578",
+    "A033430",
+    "A103254",
+    "A103255"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

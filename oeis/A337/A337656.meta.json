@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=0; thereafter, a(n) is the smallest number such that the addition table for (a(1),...,a(n)) contains n*(n+1)/2 different entries, and the multiplication table for (a(2),...,a(n)) contains n*(n-1)/2 different nonzero entries (the maximum possible in both cases).",
+  "id": "A337656",
+  "mentions": [
+    "A337655",
+    "A337657",
+    "A337658"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

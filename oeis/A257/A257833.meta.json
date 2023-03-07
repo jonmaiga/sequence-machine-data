@@ -1,0 +1,29 @@
+{
+  "description": "Table T(k, n) of smallest bases b > 1 such that p = prime(n) satisfies b^(p-1) == 1 (mod p^k), read by antidiagonals.",
+  "id": "A257833",
+  "mentions": [
+    "A000051",
+    "A024023",
+    "A034939",
+    "A039678",
+    "A249275",
+    "A353937",
+    "A353938",
+    "A353939",
+    "A353940",
+    "A353941",
+    "A353942",
+    "A353943"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions of n with unique smallest part.",
+  "id": "A105039",
+  "mentions": [
+    "A001622",
+    "A079501",
+    "A097979",
+    "A238342"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

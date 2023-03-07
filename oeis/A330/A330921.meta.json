@@ -1,0 +1,27 @@
+{
+  "description": "Sum of the areas of all Heronian triangles with perimeter A051518(n).",
+  "id": "A330921",
+  "mentions": [
+    "A051516",
+    "A051518",
+    "A070138",
+    "A096468",
+    "A298079",
+    "A298614",
+    "A305717",
+    "A330912",
+    "A330915",
+    "A330916"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

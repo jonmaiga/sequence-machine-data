@@ -1,0 +1,20 @@
+{
+  "description": "This is the reduced A317745, with primes -> 1 and prime + prime -> 2.",
+  "id": "A327910",
+  "mentions": [
+    "A101264",
+    "A317745"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

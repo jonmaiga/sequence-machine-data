@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest product of distinct prime pair p*q such that both 2^n*p+q and p+2^n+q are prime numbers.",
+  "id": "A225917",
+  "mentions": [
+    "A046388",
+    "A225916"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

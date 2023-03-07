@@ -1,0 +1,24 @@
+{
+  "description": "Excess of Beatty-function of 1/sin(1) over n.",
+  "id": "A108611",
+  "mentions": [
+    "A023800",
+    "A031943",
+    "A037918",
+    "A039215",
+    "A043091",
+    "A047253",
+    "A108120"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

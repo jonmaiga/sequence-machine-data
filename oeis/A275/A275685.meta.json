@@ -1,0 +1,20 @@
+{
+  "description": "Difference between the smallest 10^n-digit member of a prime 5-tuple and 10^(10^n - 1).",
+  "id": "A275685",
+  "mentions": [
+    "A086140"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

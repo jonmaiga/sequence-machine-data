@@ -1,0 +1,18 @@
+{
+  "description": "Odd numbers n for which 7 is the smallest i (>= 1) with Jacobi symbol J(i,n) getting either a value 0 or -1.",
+  "id": "A112074",
+  "mentions": [
+    "A112064",
+    "A112070"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

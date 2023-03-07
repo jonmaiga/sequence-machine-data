@@ -1,0 +1,20 @@
+{
+  "description": "Let T(S,Q) be the sequence obtaining by starting with S and repeatedly reversing the digits and adding Q to get the next term. a(n) is the number of steps for T(n,5) to reach a cycle, or -1 if no cycle is ever reached.",
+  "id": "A118878",
+  "mentions": [
+    "A117800",
+    "A117828",
+    "A118879"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

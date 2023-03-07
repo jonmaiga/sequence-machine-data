@@ -1,0 +1,24 @@
+{
+  "description": "Primes numbers that are the sum of three distinct prime numbers.",
+  "id": "A224534",
+  "mentions": [
+    "A002372",
+    "A002375",
+    "A024684",
+    "A071621",
+    "A124867",
+    "A166061",
+    "A166063",
+    "A224535"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

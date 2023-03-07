@@ -1,0 +1,25 @@
+{
+  "description": "Array read by antidiagonals, n >= 0, k >= 2: T(n,k) is the \"digital derivative\" of n in base k; if the base k representation of n is Sum_{j>=0} d_j*k^j, then T(n,k) = Sum_{j>=1} d_j*j*k^(j-1).",
+  "id": "A333979",
+  "mentions": [
+    "A007824",
+    "A055129",
+    "A080277",
+    "A080333",
+    "A136013",
+    "A286561"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

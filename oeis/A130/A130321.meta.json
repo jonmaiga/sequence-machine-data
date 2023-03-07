@@ -1,0 +1,28 @@
+{
+  "description": "Triangle, (2^0, 2^1, 2^2, ...) in every column.",
+  "id": "A130321",
+  "mentions": [
+    "A000079",
+    "A000225",
+    "A001045",
+    "A007318",
+    "A027649",
+    "A038207",
+    "A059268",
+    "A130322",
+    "A131816",
+    "A251635"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:10:51",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

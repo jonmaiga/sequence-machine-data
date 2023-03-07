@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-step self-avoiding walks on the square lattice with diagonals allowed (Moore neighborhood).",
+  "id": "A272763",
+  "mentions": [
+    "A001411",
+    "A272773",
+    "A300665"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

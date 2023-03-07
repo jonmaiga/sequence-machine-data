@@ -1,0 +1,17 @@
+{
+  "description": "Non-Pillai primes: primes p such that for all m such either p is 1 mod m or m!+1 is not 0 mod p.",
+  "id": "A225083",
+  "mentions": [
+    "A063980"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of 6's in the last section of the set of partitions of n.",
+  "id": "A206556",
+  "mentions": [
+    "A000041",
+    "A024790",
+    "A135010",
+    "A138121",
+    "A182703",
+    "A182712",
+    "A182714",
+    "A194812",
+    "A206560"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:30:50",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number A(n,k) of initially rising meander words, where each letter of the cyclic k-ary alphabet occurs n times; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A209349",
+  "mentions": [
+    "A000012",
+    "A060150",
+    "A088218",
+    "A110706",
+    "A190917",
+    "A209350",
+    "A209351",
+    "A209352",
+    "A209353",
+    "A240954"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

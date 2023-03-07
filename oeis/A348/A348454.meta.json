@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) (n >= 1, 1 <= k <= n^2) is the number of ways to tile an n X n chessboard with rook-connected polyominoes of area k.",
+  "id": "A348454",
+  "mentions": [
+    "A348452",
+    "A348453",
+    "A348455",
+    "A348456"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 140,
+    "source": "oeis-entry"
+  }
+}

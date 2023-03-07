@@ -1,0 +1,23 @@
+{
+  "description": "Numbers of steps until the Collatz iteration started at k > 4 returns to either k-1 or k+1.",
+  "id": "A355240",
+  "mentions": [
+    "A005186",
+    "A006577",
+    "A355239",
+    "A355514",
+    "A355568",
+    "A355569"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

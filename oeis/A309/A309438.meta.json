@@ -1,0 +1,19 @@
+{
+  "description": "Number of prime parts in the partitions of n into 9 parts.",
+  "id": "A309438",
+  "mentions": [
+    "A010051",
+    "A259200"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Irregular array related to the Euler numbers, read by rows, T_row(n) = A326722_row(2*n) + A326722_row(2*n+1) for n >= 0, T_row(-1) = [1].",
+  "id": "A326721",
+  "mentions": [
+    "A000111",
+    "A000182",
+    "A000364",
+    "A326720",
+    "A326722"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": -1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

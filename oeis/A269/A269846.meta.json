@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Hardy-Littlewood constant C_6 = Product_{p prime > 6} 1/(1-1/p)^6 (1-6/p).",
+  "id": "A269846",
+  "mentions": [
+    "A005597",
+    "A065418",
+    "A065419",
+    "A269843"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

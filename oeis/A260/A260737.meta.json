@@ -1,0 +1,24 @@
+{
+  "description": "Sum of Hamming distances between binary representations of prime factors of n, summed over all nonordered pairs of primes present (with multiplicity) in the prime factorization of n.",
+  "id": "A260737",
+  "mentions": [
+    "A000961",
+    "A072594",
+    "A072595",
+    "A101080",
+    "A235488",
+    "A261077",
+    "A261079"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

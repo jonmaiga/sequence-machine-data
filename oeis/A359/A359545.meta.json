@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that eventually reach zero when iterated with the arithmetic derivative (i.e., are in A099308), but some of their proper divisors will never reach it.",
+  "id": "A359545",
+  "mentions": [
+    "A003415",
+    "A099308",
+    "A341999",
+    "A359542",
+    "A359544",
+    "A359547"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=0, n-1 if n is prime, else largest proper divisor of n.",
+  "id": "A220096",
+  "mentions": [
+    "A032742",
+    "A091934"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Sum of digits (bits) in base two representation of 3^(2^n).",
+  "id": "A162599",
+  "mentions": [
+    "A000120",
+    "A011764"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Sequence defined by a mix-DFAO: Example 8 of Endrullis et al. (2013), written over the alphabet {0,1}.",
+  "id": "A225183",
+  "mentions": [
+    "A225182"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 250,
+    "source": "oeis-entry"
+  }
+}

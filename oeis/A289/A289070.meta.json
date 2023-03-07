@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = c(2n-1), where c(n+2) = Sum_{k=0..n} binomial(n,k)c(k)c(n+1-k) with c(0)=0, c(1)=3.",
+  "id": "A289070",
+  "mentions": [
+    "A000111",
+    "A289064",
+    "A289065",
+    "A289066",
+    "A289067",
+    "A289068",
+    "A289069"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

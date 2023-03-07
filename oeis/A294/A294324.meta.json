@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Product_{k=0..n} (5*k + 2)!.",
+  "id": "A294324",
+  "mentions": [
+    "A000178",
+    "A074962",
+    "A268506",
+    "A294319",
+    "A294321",
+    "A294323",
+    "A294325",
+    "A294326"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

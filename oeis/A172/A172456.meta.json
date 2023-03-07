@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that (p, p+2, p+6, p+12, p+14, p+20) is a prime sextuple.",
+  "id": "A172456",
+  "mentions": [
+    "A073648",
+    "A078946",
+    "A098412",
+    "A172454"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:56",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

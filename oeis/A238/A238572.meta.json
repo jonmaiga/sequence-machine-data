@@ -1,0 +1,17 @@
+{
+  "description": "Primes that can be expressed in more than one way in the form p * q + r such that p, q, and r are all prime, p > q, and p >= r.",
+  "id": "A238572",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

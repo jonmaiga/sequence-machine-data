@@ -1,0 +1,19 @@
+{
+  "description": "Smallest odd n-almost prime m such that m-2 and m+2 are both prime (cousin primes).",
+  "id": "A145031",
+  "mentions": [
+    "A023200",
+    "A046132",
+    "A068525"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of integer-sided right triangles with hypotenuse A009003(n).",
+  "id": "A350040",
+  "mentions": [
+    "A006339",
+    "A009003",
+    "A046080"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

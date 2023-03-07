@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form T(n) + C(n) - 1 where T(n) and C(n) are n-th triangular and cube numbers.",
+  "id": "A229157",
+  "mentions": [
+    "A120479",
+    "A229080"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of 1 into distinct fractions i/j with 1<=i",
+  "id": "A116084",
+  "mentions": [
+    "A000009",
+    "A038566",
+    "A038567",
+    "A115855",
+    "A116085",
+    "A154888"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Parity of the binary weight of the contents of node n in Doudna-tree (A005940).",
+  "id": "A295895",
+  "mentions": [
+    "A000035",
+    "A005940",
+    "A010059",
+    "A010060",
+    "A292583",
+    "A292602",
+    "A295296",
+    "A295297",
+    "A295298",
+    "A295875",
+    "A295893",
+    "A295894",
+    "A295896"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least number k > 0 such that n^k - (n mod 2) - 1 is prime, or 0 if no such number exists.",
+  "id": "A332029",
+  "mentions": [
+    "A101264",
+    "A238204",
+    "A255707"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

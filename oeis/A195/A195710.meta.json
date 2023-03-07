@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of arccos(-sqrt(2/5)).",
+  "id": "A195710",
+  "mentions": [
+    "A073000",
+    "A105199",
+    "A137218",
+    "A188595",
+    "A195701",
+    "A195708",
+    "A195709"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:55",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

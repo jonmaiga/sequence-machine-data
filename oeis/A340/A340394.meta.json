@@ -1,0 +1,19 @@
+{
+  "description": "Base-independent home primes: the prime that is finally reached when you treat the prime factors of n in ascending order as digits of a number in base \"greatest prime factor + 1\" and repeat this until a prime is reached (a(n) = -1 if no prime is ever reached).",
+  "id": "A340394",
+  "mentions": [
+    "A037274",
+    "A340393"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

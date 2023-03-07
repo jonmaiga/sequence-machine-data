@@ -1,0 +1,19 @@
+{
+  "description": "Number of connected (non-null) induced subgraphs of the n-halved cube graph.",
+  "id": "A288988",
+  "mentions": [
+    "A288987",
+    "A290758"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

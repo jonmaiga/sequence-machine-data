@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonzero terms in A117943 up to index 2^n: a(n) = Sum_{k=1..2^n} A117943(k).",
+  "id": "A255822",
+  "mentions": [
+    "A117943",
+    "A178931"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

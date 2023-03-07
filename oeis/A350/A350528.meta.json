@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of labeled quasi-threshold graphs on vertex set [n] with k components, for n >= 1 and 1 <= k <= n.",
+  "id": "A350528",
+  "mentions": [
+    "A008277",
+    "A058863",
+    "A058864"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "The half of sum of the numbers in the n-th row of Gilbreath's triangle (A036262).",
+  "id": "A173817",
+  "mentions": [
+    "A036261",
+    "A036262",
+    "A173816",
+    "A173818"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways of partitioning the integers {1,2,..,4n-1} into two unordered sets such that the sums of parts are equal in both sets (parts in one of the sets hence sum up to n*(4n-1)). Number of solutions to {1 +- 2 +- 3+ ... +- 4n-1 = 0}.",
+  "id": "A104456",
+  "mentions": [
+    "A058377",
+    "A060005",
+    "A123117"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

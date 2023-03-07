@@ -1,0 +1,19 @@
+{
+  "description": "Palindromes m such that m - sum_of_digits(m) is also a palindrome.",
+  "id": "A229623",
+  "mentions": [
+    "A002113",
+    "A229621"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

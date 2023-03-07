@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/8)} binomial(n-4*k,4*k).",
+  "id": "A348289",
+  "mentions": [
+    "A000045",
+    "A005252",
+    "A100134",
+    "A101552",
+    "A348290"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

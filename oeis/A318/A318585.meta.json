@@ -1,0 +1,29 @@
+{
+  "description": "Number of integer partitions of n whose sum of reciprocals squared is an integer.",
+  "id": "A318585",
+  "mentions": [
+    "A000041",
+    "A002865",
+    "A051908",
+    "A058360",
+    "A289506",
+    "A289507",
+    "A316854",
+    "A316856",
+    "A318584",
+    "A318586",
+    "A318587",
+    "A318588",
+    "A318589"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:39",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

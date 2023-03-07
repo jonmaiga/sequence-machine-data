@@ -1,0 +1,29 @@
+{
+  "description": "Numbers n such that 4^n + 13 is prime.",
+  "id": "A253772",
+  "mentions": [
+    "A089437",
+    "A102634",
+    "A104067",
+    "A204388",
+    "A217349",
+    "A217350",
+    "A253773",
+    "A253774",
+    "A262345",
+    "A262969",
+    "A262971",
+    "A262972"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

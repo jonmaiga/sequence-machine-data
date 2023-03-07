@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n=prime(prime(d_1*d_2*...*d_k)) where d_1 d_2 ... d_k is the decimal expansion of n.",
+  "id": "A107121",
+  "mentions": [
+    "A097223",
+    "A107120",
+    "A107122"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

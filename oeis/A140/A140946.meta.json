@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) = (-2)^n*(-1)^k if k",
+  "id": "A140946",
+  "mentions": [
+    "A001045",
+    "A112387",
+    "A140513",
+    "A140589",
+    "A140944"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

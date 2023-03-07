@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle read by rows: row n gives a certain choice of generators of the multiplicative group of integers modulo A033949(n).",
+  "id": "A282624",
+  "mentions": [
+    "A000010",
+    "A033949",
+    "A046072",
+    "A279399",
+    "A281855",
+    "A281856",
+    "A282623",
+    "A282625"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

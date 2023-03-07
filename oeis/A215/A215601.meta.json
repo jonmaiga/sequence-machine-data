@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of phi(-x)^2 * f(-x)^6 + 32 * x * psi(-x)^2 * f(-x^4)^6 in powers of x where phi(), psi(), f() are Ramanujan theta functions.",
+  "id": "A215601",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A000729",
+    "A002171",
+    "A008441",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A215472",
+    "A215600"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:50:29",
+    "offset": 0,
+    "size": 52,
+    "source": "joeis"
+  }
+}

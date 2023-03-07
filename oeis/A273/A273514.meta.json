@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of arithmetic progressions m < n < p (three numbers in arithmetic progression) such that m and p contain no 2's in their ternary representation.",
+  "id": "A273514",
+  "mentions": [
+    "A005836",
+    "A125857",
+    "A262097",
+    "A273513"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

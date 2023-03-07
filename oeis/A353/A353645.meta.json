@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, and for n > 1, number of ways to write the square of n as a product of at least two factors, the largest two of which are equal.",
+  "id": "A353645",
+  "mentions": [
+    "A000290",
+    "A325045"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

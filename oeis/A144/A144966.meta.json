@@ -1,0 +1,22 @@
+{
+  "description": "Square array T(n,k) read by antidiagonals up. A055615 interleaved with k-1 zeros in each column. Redheffer type matrix.",
+  "id": "A144966",
+  "mentions": [
+    "A000027",
+    "A002033",
+    "A055615",
+    "A143104",
+    "A143142"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

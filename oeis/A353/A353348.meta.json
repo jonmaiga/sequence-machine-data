@@ -1,0 +1,31 @@
+{
+  "description": "Dirichlet inverse of A353350, where A353350 is the characteristic function for numbers k such that A048675(k) is a multiple of 3.",
+  "id": "A353348",
+  "mentions": [
+    "A003961",
+    "A048675",
+    "A332820",
+    "A348717",
+    "A353349",
+    "A353350",
+    "A353418",
+    "A353421",
+    "A353422",
+    "A359773",
+    "A359780",
+    "A359826",
+    "A359827",
+    "A359830"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

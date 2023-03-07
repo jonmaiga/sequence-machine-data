@@ -1,0 +1,20 @@
+{
+  "description": "Principal number of K. Saito for tree of type E_n.",
+  "id": "A131656",
+  "mentions": [
+    "A000111",
+    "A034428",
+    "A131281",
+    "A131611"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

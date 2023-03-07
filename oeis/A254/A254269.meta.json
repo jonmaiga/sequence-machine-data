@@ -1,0 +1,19 @@
+{
+  "description": "Largest prime factor of the strict partition numbers Q(n) (partitions into distinct parts, A000009).",
+  "id": "A254269",
+  "mentions": [
+    "A000009",
+    "A035359",
+    "A071963"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

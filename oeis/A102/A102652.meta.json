@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 4 * floor(24*2^n/15) = 4*A077854(n).",
+  "id": "A102652",
+  "mentions": [
+    "A077854",
+    "A102650",
+    "A102651",
+    "A102653"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

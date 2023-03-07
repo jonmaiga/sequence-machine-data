@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of essentially different optimal solutions with A336659(n) 1 X 1 squares to R. Kurchan's n-squares puzzle 577.",
+  "id": "A336782",
+  "mentions": [
+    "A336659",
+    "A337515"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Alternate numbers on a dartboard, read clockwise.",
+  "id": "A117883",
+  "mentions": [
+    "A003833",
+    "A008575",
+    "A104158",
+    "A104159"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

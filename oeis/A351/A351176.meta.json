@@ -1,0 +1,20 @@
+{
+  "description": "Natural numbers k such that k = A/B has at least one solution in antipalindromic numbers A, B, but only finitely many solutions.",
+  "id": "A351176",
+  "mentions": [
+    "A035928",
+    "A351172",
+    "A351175"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

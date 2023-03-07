@@ -1,0 +1,22 @@
+{
+  "description": "Number of primitive roots of prime A103521(n).",
+  "id": "A306371",
+  "mentions": [
+    "A008330",
+    "A036912",
+    "A103203",
+    "A103521",
+    "A121519"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

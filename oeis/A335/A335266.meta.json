@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that b(n) = 2*b(n - 1) + k is prime, where b(0) = 1 and k is the smallest positive number.",
+  "id": "A335266",
+  "mentions": [
+    "A000040",
+    "A110930"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

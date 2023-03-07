@@ -1,0 +1,23 @@
+{
+  "description": "The Hamming weight of A354169, a(n) = A000120(A354169(n))).",
+  "id": "A355150",
+  "mentions": [
+    "A000120",
+    "A007283",
+    "A354169",
+    "A354767",
+    "A354789",
+    "A354798"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

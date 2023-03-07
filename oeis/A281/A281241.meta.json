@@ -1,0 +1,20 @@
+{
+  "description": "Solutions x to the negative Pell equation y^2 = 72*x^2 - 1331712 with x,y >= 0.",
+  "id": "A281241",
+  "mentions": [
+    "A281239",
+    "A281242"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

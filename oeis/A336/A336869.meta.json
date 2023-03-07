@@ -1,0 +1,47 @@
+{
+  "description": "Number of divisors d of n! with distinct prime multiplicities such that the quotient n!/d also has distinct prime multiplicities.",
+  "id": "A336869",
+  "mentions": [
+    "A000005",
+    "A000142",
+    "A007489",
+    "A022559",
+    "A027423",
+    "A048656",
+    "A071626",
+    "A098859",
+    "A104272",
+    "A118914",
+    "A124010",
+    "A130091",
+    "A181796",
+    "A325272",
+    "A325273",
+    "A325617",
+    "A327498",
+    "A327527",
+    "A336414",
+    "A336415",
+    "A336416",
+    "A336419",
+    "A336423",
+    "A336424",
+    "A336500",
+    "A336568",
+    "A336571",
+    "A336616",
+    "A336617",
+    "A336870",
+    "A336939"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

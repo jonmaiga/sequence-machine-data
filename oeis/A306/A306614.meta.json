@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to write n as w^2 + (x*(x+1)/2)^2 + (y*(3y+1)/2)^2 + (z*(5z+1)/2)^2, where w,x,y,z are integers with w > 0 and x >= 0.",
+  "id": "A306614",
+  "mentions": [
+    "A000118",
+    "A000217",
+    "A000290",
+    "A001318",
+    "A057569",
+    "A271518"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

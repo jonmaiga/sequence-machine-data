@@ -1,0 +1,19 @@
+{
+  "description": "Perfect powers equal to the sum of 5 factorial numbers.",
+  "id": "A227646",
+  "mentions": [
+    "A114377",
+    "A227644",
+    "A227651"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

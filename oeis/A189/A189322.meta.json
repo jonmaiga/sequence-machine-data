@@ -1,0 +1,18 @@
+{
+  "description": "Number of nondecreasing arrangements of n+2 numbers in 0..5 with the last equal to 5 and each after the second equal to the sum of one or two of the preceding four.",
+  "id": "A189322",
+  "mentions": [
+    "A189326"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

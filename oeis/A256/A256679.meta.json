@@ -1,0 +1,25 @@
+{
+  "description": "A signed triangle of V. I. Arnold for the Springer numbers (A001586).",
+  "id": "A256679",
+  "mentions": [
+    "A000828",
+    "A001586",
+    "A002436",
+    "A008280",
+    "A122045",
+    "A202818",
+    "A256665"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

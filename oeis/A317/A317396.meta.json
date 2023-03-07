@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers that have exactly six representations of the form 1 + p1 * (1 + p2* ... * (1 + p_j)...), where [p1, ..., p_j] is a (possibly empty) list of distinct primes.",
+  "id": "A317396",
+  "mentions": [
+    "A317241",
+    "A317390"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

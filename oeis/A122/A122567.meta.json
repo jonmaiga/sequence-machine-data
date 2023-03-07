@@ -1,0 +1,17 @@
+{
+  "description": "Twin primes modulo 4.",
+  "id": "A122567",
+  "mentions": [
+    "A001097"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

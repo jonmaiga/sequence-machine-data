@@ -1,0 +1,20 @@
+{
+  "description": "Sequence built as it follows in comments.",
+  "id": "A174837",
+  "mentions": [
+    "A174835"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

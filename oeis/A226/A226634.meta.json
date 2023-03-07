@@ -1,0 +1,18 @@
+{
+  "description": "Length of the primitive 3x-k cycle associated with A226633(n).",
+  "id": "A226634",
+  "mentions": [
+    "A102284",
+    "A226633"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

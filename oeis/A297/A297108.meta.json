@@ -1,0 +1,27 @@
+{
+  "description": "If n is prime(k)^e, e >= 1, then a(n) = 2^(k-1), otherwise 0; Möbius transform of A048675.",
+  "id": "A297108",
+  "mentions": [
+    "A000961",
+    "A001221",
+    "A008683",
+    "A048675",
+    "A055396",
+    "A248663",
+    "A295901",
+    "A297106",
+    "A297109"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 83,
+    "source": "joeis"
+  }
+}

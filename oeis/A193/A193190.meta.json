@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: A(x) = Sum_{n>=0} x^n / Product_{k=1..n} (1 - 4^(n-k)*x^k).",
+  "id": "A193190",
+  "mentions": [
+    "A193188",
+    "A193189",
+    "A193191"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

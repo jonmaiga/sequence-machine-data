@@ -1,0 +1,17 @@
+{
+  "description": "Square numbers which can be expressed as the sum of 2 positive cubes in exactly 2 different ways.",
+  "id": "A145552",
+  "mentions": [
+    "A145553"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonisomorphic self-dual monotone Boolean functions of n variables (where the result depends on all n variables).",
+  "id": "A107765",
+  "mentions": [
+    "A001206",
+    "A008840",
+    "A107766"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

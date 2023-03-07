@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that 2^tau(n) = n + 1 (where tau(n) = number of divisors of n).",
+  "id": "A111303",
+  "mentions": [
+    "A019434",
+    "A046801"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

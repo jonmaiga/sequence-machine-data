@@ -1,0 +1,22 @@
+{
+  "description": "Number of permutations of [n] without fixed points and all cycles equal length.",
+  "id": "A343576",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A005225",
+    "A261431"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

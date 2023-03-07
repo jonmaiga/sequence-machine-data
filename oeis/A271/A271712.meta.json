@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = smallest magic sum of any 4 X 4 magic square composed of n-gonal numbers.",
+  "id": "A271712",
+  "mentions": [
+    "A271579",
+    "A271580",
+    "A271711"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 3,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

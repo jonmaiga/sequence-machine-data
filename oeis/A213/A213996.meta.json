@@ -1,0 +1,17 @@
+{
+  "description": "Primes p=u^2+v^2 such that p+u or p+v is the next prime after p.",
+  "id": "A213996",
+  "mentions": [
+    "A213995"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Apply the map k -> L(k)/gcd(L(k),k-1) to the sequence A007850 of Giuga numbers, where L(k) is the Carmichael lambda function A002322.",
+  "id": "A234952",
+  "mentions": [
+    "A002322",
+    "A007850"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

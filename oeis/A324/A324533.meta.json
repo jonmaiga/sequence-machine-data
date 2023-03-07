@@ -1,0 +1,25 @@
+{
+  "description": "Lexicographically earliest positive sequence such that a(i) = a(j) => A002487(i) = A002487(j) and A278219(i) = A278219(j), for all i, j >= 0.",
+  "id": "A324533",
+  "mentions": [
+    "A002487",
+    "A003188",
+    "A005940",
+    "A046523",
+    "A278219",
+    "A286619",
+    "A323889",
+    "A324400"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

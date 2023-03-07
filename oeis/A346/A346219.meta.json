@@ -1,0 +1,23 @@
+{
+  "description": "Base-10 numbers k such that k can be written as k = A * B and R(k) = R(A) * R(B) in six or more bases, from base 2 to base 10, and where R(k), the digit reversal of k, is read as a number in the same base.",
+  "id": "A346219",
+  "mentions": [
+    "A001055",
+    "A038548",
+    "A066531",
+    "A230594",
+    "A346133"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

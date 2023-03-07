@@ -1,0 +1,19 @@
+{
+  "description": "Transpose of square array A329050.",
+  "id": "A329049",
+  "mentions": [
+    "A329050"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

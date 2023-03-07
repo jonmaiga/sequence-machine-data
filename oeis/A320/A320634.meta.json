@@ -1,0 +1,26 @@
+{
+  "description": "Odd numbers whose multiset multisystem is a multiset partition spanning an initial interval of positive integers (odd = no empty sets).",
+  "id": "A320634",
+  "mentions": [
+    "A003963",
+    "A055932",
+    "A056239",
+    "A112798",
+    "A255906",
+    "A302242",
+    "A305052",
+    "A320456",
+    "A320532",
+    "A320629"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

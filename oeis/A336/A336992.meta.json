@@ -1,0 +1,18 @@
+{
+  "description": "The number of gaps in the sets A(n), where A(0) is the empty set and A(n+1) is the union of A(n) and the Collatz orbit of the smallest natural number missing in A(n).",
+  "id": "A336992",
+  "mentions": [
+    "A061641",
+    "A336938"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

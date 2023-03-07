@@ -1,0 +1,25 @@
+{
+  "description": "Numbers m such that 16*m*(3*m+1)+1 is a square.",
+  "id": "A217855",
+  "mentions": [
+    "A028230",
+    "A045899",
+    "A076139",
+    "A076140",
+    "A084231",
+    "A084232",
+    "A123480"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

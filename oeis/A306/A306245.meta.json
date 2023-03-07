@@ -1,0 +1,26 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals, where A(0,k) = 1 and A(n,k) = Sum_{j=0..n-1} k^j * binomial(n-1,j) * A(j,k) for n > 0.",
+  "id": "A306245",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000110",
+    "A126443",
+    "A309386",
+    "A309401",
+    "A355081",
+    "A355082"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (-1)^(n+k)*Sum_{j=1..k} s(n,j), where s(n,j) are the signed Stirling numbers of the first kind (n >= 2; 1 <= k <= n-1; s(n,j) = A008275(n,j)).",
+  "id": "A136124",
+  "mentions": [
+    "A000142",
+    "A001705",
+    "A001706",
+    "A001707",
+    "A001708",
+    "A001710",
+    "A008275",
+    "A049444",
+    "A084938",
+    "A143491"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 2,
+    "size": 49,
+    "source": "joeis"
+  }
+}

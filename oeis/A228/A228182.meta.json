@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest k such that the sum of squares of prime divisors of k is equal to the sum of prime divisors of n+k.",
+  "id": "A228182",
+  "mentions": [
+    "A005063",
+    "A008472",
+    "A228181"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

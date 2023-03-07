@@ -1,0 +1,21 @@
+{
+  "description": "Start with a(0)=10, then a(n) = 7 times the n-th digit of the sequence.",
+  "id": "A248153",
+  "mentions": [
+    "A248128",
+    "A248129",
+    "A248130",
+    "A248131"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

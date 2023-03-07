@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of sqrt(8)*arctan(sqrt(2)/5).",
+  "id": "A267040",
+  "mentions": [
+    "A093825",
+    "A266814",
+    "A267033"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:28",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

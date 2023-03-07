@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of e.g.f.: exp(16*x/(1-x)) / sqrt(1-x^2).",
+  "id": "A202878",
+  "mentions": [
+    "A202827",
+    "A202828",
+    "A202829",
+    "A202831",
+    "A202835",
+    "A202836",
+    "A202837",
+    "A202879"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "A065091(n) + 2*A113001(n).",
+  "id": "A113002",
+  "mentions": [
+    "A065091",
+    "A113001",
+    "A113003"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

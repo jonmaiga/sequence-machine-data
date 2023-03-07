@@ -1,0 +1,21 @@
+{
+  "description": "T(n,k) is the number of connected posets of n unlabeled elements with k covering relations (n>=1, k>=0). Triangle read by rows.",
+  "id": "A342590",
+  "mentions": [
+    "A000608",
+    "A022017",
+    "A342447",
+    "A342588"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

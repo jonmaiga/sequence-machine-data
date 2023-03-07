@@ -1,0 +1,20 @@
+{
+  "description": "Maxima of the numerators (and also of the denominators) of row n in the Schinzel-Sierpinski tree of fractions A295511.",
+  "id": "A295509",
+  "mentions": [
+    "A295510",
+    "A295511",
+    "A295512"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

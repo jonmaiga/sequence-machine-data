@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n equal to the sum of all the two-digit numbers formed without repetition from the digits of n.",
+  "id": "A241899",
+  "mentions": [
+    "A002378"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 10,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

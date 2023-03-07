@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n^2 is of the form k-th prime - k for some k.",
+  "id": "A113410",
+  "mentions": [
+    "A064370",
+    "A086968"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

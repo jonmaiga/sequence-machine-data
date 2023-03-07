@@ -1,0 +1,17 @@
+{
+  "description": "Inverse permutation of A138612.",
+  "id": "A166017",
+  "mentions": [
+    "A138612"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

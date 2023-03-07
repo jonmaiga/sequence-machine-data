@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that the string k is found at position k-5 in the decimal digits of Pi.",
+  "id": "A153224",
+  "mentions": [
+    "A057679",
+    "A057680",
+    "A109513",
+    "A109514",
+    "A153221",
+    "A153223"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

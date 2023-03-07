@@ -1,0 +1,18 @@
+{
+  "description": "Binary representation of periodic binary numbers, ordered by their decimal values.",
+  "id": "A242138",
+  "mentions": [
+    "A242139"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(0) = 2; afterwards a(n) is the least prime greater than a(n-1) such that Omega(a(n-1) + a(n)) = n.",
+  "id": "A357713",
+  "mentions": [
+    "A001222"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

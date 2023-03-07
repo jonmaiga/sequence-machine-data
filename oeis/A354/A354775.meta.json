@@ -1,0 +1,22 @@
+{
+  "description": "Indices where A354169 is the sum of two consecutive powers of 2.",
+  "id": "A354775",
+  "mentions": [
+    "A354169",
+    "A354680",
+    "A354767",
+    "A354773",
+    "A354774",
+    "A354798"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

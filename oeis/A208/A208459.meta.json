@@ -1,0 +1,33 @@
+{
+  "description": "Triangle T_x = T(n,k) given by (0, 1/x, 1-1/x, 0, 0, 0, 0, 0, 0, 0, ...) DELTA (x, 1/x-1, -1/x, 0, 0, 0, 0, 0, 0, 0, ...) where DELTA is the operator defined in A084938, for x = 0.",
+  "id": "A208459",
+  "mentions": [
+    "A000007",
+    "A000045",
+    "A015548",
+    "A034834",
+    "A052533",
+    "A077957",
+    "A084938",
+    "A085939",
+    "A086344",
+    "A102901",
+    "A103631",
+    "A106434",
+    "A208343",
+    "A208345"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:06:51",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

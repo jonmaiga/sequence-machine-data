@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m, such that the smallest prime factor of 1+78557*2^m doesn't belong to the covering set {3, 5, 7, 13, 19, 37, 73}.",
+  "id": "A258095",
+  "mentions": [
+    "A020639",
+    "A258073",
+    "A258091"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

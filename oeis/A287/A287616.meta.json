@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways to write n as x(x+1)/2 + y(3y+1)/2 + z(5z+1)/2 with x,y,z nonnegative integers.",
+  "id": "A287616",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A005449",
+    "A160324",
+    "A160325",
+    "A160326",
+    "A254668",
+    "A286944"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:59",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Lesser of the pairs of twin primes in A001122.",
+  "id": "A319248",
+  "mentions": [
+    "A001122",
+    "A001359",
+    "A006512",
+    "A319249",
+    "A319250"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Second partial sums of 11th powers (A008455).",
+  "id": "A253711",
+  "mentions": [
+    "A008455",
+    "A253636"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:54:35",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

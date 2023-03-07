@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m that divide A177754(m) = Sum_{k=1..m} uphi(k), where uphi is the unitary totient function (A047994).",
+  "id": "A306950",
+  "mentions": [
+    "A047994",
+    "A048290",
+    "A064611",
+    "A177754"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

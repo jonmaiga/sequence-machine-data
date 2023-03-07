@@ -1,0 +1,19 @@
+{
+  "description": "Number of connected dominating sets in the n-hypercube graph.",
+  "id": "A291704",
+  "mentions": [
+    "A284704",
+    "A290758"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of sqrt(7 + 4*sqrt(2))/2.",
+  "id": "A294968",
+  "mentions": [
+    "A002161"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of (1539+850*sqrt(2))/31^2.",
+  "id": "A157648",
+  "mentions": [
+    "A002193",
+    "A118674",
+    "A156035",
+    "A157646",
+    "A157647"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

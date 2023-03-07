@@ -1,0 +1,20 @@
+{
+  "description": "Binary representation of the diagonal from the corner to the origin of the n-th stage of growth of the two-dimensional cellular automaton defined by \"Rule 417\", based on the 5-celled von Neumann neighborhood.",
+  "id": "A288056",
+  "mentions": [
+    "A288057",
+    "A288058",
+    "A288059"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

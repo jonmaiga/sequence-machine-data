@@ -1,0 +1,28 @@
+{
+  "description": "Numbers n with the following property. Suppose n = d1 d2 ... dk in base 10. Construct the sequence with first term d1 and successive differences d1 d2 ... dk d1 d2 ... dk d1 d2 ...; then this sequence has as its initial k digits d1 d2 ... dk and also contains the number n.",
+  "id": "A107070",
+  "mentions": [
+    "A106039",
+    "A106439",
+    "A106518",
+    "A106596",
+    "A106631",
+    "A106792",
+    "A107014",
+    "A107018",
+    "A107032",
+    "A107043",
+    "A107062"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

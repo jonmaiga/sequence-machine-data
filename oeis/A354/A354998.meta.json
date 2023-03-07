@@ -1,0 +1,23 @@
+{
+  "description": "Smallest divisor d of n for which A344005(d) = A344005(n), where A344005(n) is the smallest positive integer m such that n divides m*(m+1).",
+  "id": "A354998",
+  "mentions": [
+    "A344005",
+    "A344758",
+    "A346088",
+    "A354991",
+    "A354992",
+    "A354999"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

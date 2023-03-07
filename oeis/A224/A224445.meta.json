@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of certain rationals approximating sqrt(3).",
+  "id": "A224445",
+  "mentions": [
+    "A000108",
+    "A002194",
+    "A224446"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

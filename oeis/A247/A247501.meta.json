@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows, T(n,k) (n>=0, 0<=k<=n) coefficients of the partial fraction decomposition of rational functions generating the columns of A247498 (the Swiss-Knife polynomials evaluated at nonnegative integers).",
+  "id": "A247501",
+  "mentions": [
+    "A000142",
+    "A001710",
+    "A153641",
+    "A155585",
+    "A247498"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

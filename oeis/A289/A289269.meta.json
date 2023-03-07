@@ -1,0 +1,18 @@
+{
+  "description": "Number of polygonal tiles with n sides with two exits per side and n edges connecting pairs of exits, with no edges between exits on the same side and non-isomorphic under rotational and reflectional, i.e. dihedral, symmetry.",
+  "id": "A289269",
+  "mentions": [
+    "A053871",
+    "A289191"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of g.f.: exp( Sum_{n>=1} A002203(n)^2 * x^n/n ) where A002203 are the companion Pell numbers.",
+  "id": "A204062",
+  "mentions": [
+    "A000129",
+    "A001109",
+    "A002203",
+    "A026933",
+    "A204061",
+    "A212442"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:24",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the ratio of the length of the latus rectum arc of any parabola to its focal length: sqrt(8) + log(3 + sqrt(8)).",
+  "id": "A263151",
+  "mentions": [
+    "A010466",
+    "A103710",
+    "A244920"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

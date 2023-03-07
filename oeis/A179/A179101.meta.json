@@ -1,0 +1,22 @@
+{
+  "description": "Numbers which are not the sum of exactly one positive square and a sum of squares-minus-1.",
+  "id": "A179101",
+  "mentions": [
+    "A000290",
+    "A005563",
+    "A078135",
+    "A123120"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

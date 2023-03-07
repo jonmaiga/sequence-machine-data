@@ -1,0 +1,18 @@
+{
+  "description": "Floor of the expected number of empty cells in a random placement of 2n balls into n cells.",
+  "id": "A209899",
+  "mentions": [
+    "A209900"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

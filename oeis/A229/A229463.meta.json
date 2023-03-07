@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of 1/((1-x)^2*(1-26*x)).",
+  "id": "A229463",
+  "mentions": [
+    "A000295",
+    "A000340",
+    "A014825",
+    "A014827",
+    "A014936"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

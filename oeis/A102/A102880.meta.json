@@ -1,0 +1,21 @@
+{
+  "description": "A Chebyshev transform of the first kind of the Catalan numbers.",
+  "id": "A102880",
+  "mentions": [
+    "A000108",
+    "A101499",
+    "A102879"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

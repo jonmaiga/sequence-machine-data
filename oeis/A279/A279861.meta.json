@@ -1,0 +1,23 @@
+{
+  "description": "Number of transitive finitary sets with n brackets. Number of transitive rooted identity trees with n nodes.",
+  "id": "A279861",
+  "mentions": [
+    "A001192",
+    "A004111",
+    "A061773",
+    "A276625",
+    "A279065",
+    "A279614",
+    "A279863"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

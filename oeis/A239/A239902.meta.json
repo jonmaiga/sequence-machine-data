@@ -1,0 +1,20 @@
+{
+  "description": "Exceptional primes: those for which Eq. (4.8) in Cosgrave and Dilcher (2011) fails.",
+  "id": "A239902",
+  "mentions": [
+    "A047788",
+    "A117808",
+    "A354772"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "n^n! - n!^n.",
+  "id": "A213065",
+  "mentions": [
+    "A036740",
+    "A053986"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

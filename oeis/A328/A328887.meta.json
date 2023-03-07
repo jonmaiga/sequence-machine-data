@@ -1,0 +1,22 @@
+{
+  "description": "Array read by antidiagonals: T(n,m) is the number of acyclic edge sets in the complete bipartite graph K_{n,m}.",
+  "id": "A328887",
+  "mentions": [
+    "A006234",
+    "A072590",
+    "A297077",
+    "A328888"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Base-99 Wieferich pseudoprimes, i.e., composites c such that 99^(c-1) == 1 (mod c^2).",
+  "id": "A353175",
+  "mentions": [
+    "A020227",
+    "A244752"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that the polynomial x^4-x^3-x^2-x-1 mod p has no zeros; i.e., the polynomial is irreducible over the integers mod p.",
+  "id": "A106283",
+  "mentions": [
+    "A000078",
+    "A003631",
+    "A073817",
+    "A106277",
+    "A106296"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

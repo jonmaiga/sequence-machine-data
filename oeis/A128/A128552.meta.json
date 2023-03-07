@@ -1,0 +1,21 @@
+{
+  "description": "Column 2 of triangle A128545; a(n) is the coefficient of q^(2n+4) in the central q-binomial coefficient [2n+4,n+2].",
+  "id": "A128552",
+  "mentions": [
+    "A000041",
+    "A128545",
+    "A128553",
+    "A128554"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

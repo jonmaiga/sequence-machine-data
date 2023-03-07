@@ -1,0 +1,26 @@
+{
+  "description": "Centers of rows of the triangular array formed by the natural numbers.",
+  "id": "A251599",
+  "mentions": [
+    "A000124",
+    "A000217",
+    "A000982",
+    "A001105",
+    "A001844",
+    "A056106",
+    "A058331",
+    "A080827",
+    "A092942"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

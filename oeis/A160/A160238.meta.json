@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n^2 can be expressed as the sum of three different nonzero Fibonacci numbers.",
+  "id": "A160238",
+  "mentions": [
+    "A000045",
+    "A135558",
+    "A135709"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

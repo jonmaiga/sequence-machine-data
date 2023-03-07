@@ -1,0 +1,21 @@
+{
+  "description": "n(k) is the minimum n that requires at least k to make 2*Prime[n]+Prime[k] a prime.",
+  "id": "A114234",
+  "mentions": [
+    "A073703",
+    "A114227",
+    "A114229",
+    "A114232",
+    "A114233"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

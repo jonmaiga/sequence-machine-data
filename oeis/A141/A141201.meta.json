@@ -1,0 +1,18 @@
+{
+  "description": "G.f. satisfies: A(x)^(1/2) = x + A(x) + A(A(x)) + A(A(A(x))) + A(A(A(A(x)))) +...",
+  "id": "A141201",
+  "mentions": [
+    "A141200"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 2,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

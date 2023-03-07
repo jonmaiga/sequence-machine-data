@@ -1,0 +1,21 @@
+{
+  "description": "Least number of nonprime squarefree numbers (A000469) that add up to n.",
+  "id": "A290397",
+  "mentions": [
+    "A000469",
+    "A051034",
+    "A225926",
+    "A239508",
+    "A290136"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

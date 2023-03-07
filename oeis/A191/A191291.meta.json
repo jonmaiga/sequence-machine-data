@@ -1,0 +1,22 @@
+{
+  "description": "The number of bases >=2 in which n is 3-digit number.",
+  "id": "A191291",
+  "mentions": [
+    "A000196",
+    "A048766",
+    "A191279"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 82,
+    "source": "joeis"
+  }
+}

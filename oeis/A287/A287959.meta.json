@@ -1,0 +1,18 @@
+{
+  "description": "Odd primes p such that p^2 divides A001205(p)-(p-1)/2.",
+  "id": "A287959",
+  "mentions": [
+    "A001205"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

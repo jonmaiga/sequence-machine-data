@@ -1,0 +1,23 @@
+{
+  "description": "Number of length n reversible string structures that are not palindromic using exactly four different colors.",
+  "id": "A327611",
+  "mentions": [
+    "A000453",
+    "A056328",
+    "A284949",
+    "A309748",
+    "A327610"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

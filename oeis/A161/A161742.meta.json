@@ -1,0 +1,32 @@
+{
+  "description": "Third left hand column of the RSEG2 triangle A161739",
+  "id": "A161742",
+  "mentions": [
+    "A001710",
+    "A001715",
+    "A001720",
+    "A001725",
+    "A001730",
+    "A008955",
+    "A028246",
+    "A049388",
+    "A049389",
+    "A049398",
+    "A051431",
+    "A129825",
+    "A161739",
+    "A161743"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

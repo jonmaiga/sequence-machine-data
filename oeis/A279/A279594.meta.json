@@ -1,0 +1,19 @@
+{
+  "description": "Coefficients in the expansion of 1/([r] + [2r]x + [3r]x^2 + ...); [ ] = floor, r = sqrt(6)/2.",
+  "id": "A279594",
+  "mentions": [
+    "A279607"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

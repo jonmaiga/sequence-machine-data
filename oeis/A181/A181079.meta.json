@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..n-1} binomial(n-1,k)^(n-1) * n/(n-k).",
+  "id": "A181079",
+  "mentions": [
+    "A181071",
+    "A181075",
+    "A181076",
+    "A181077",
+    "A181078"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

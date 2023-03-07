@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that (3^ord(3/2, k) - 2^ord(3/2, k))/k is a prime, where ord(3/2, k) is the multiplicative order of 3/2 (mod k).",
+  "id": "A345705",
+  "mentions": [
+    "A297362",
+    "A297363",
+    "A320383"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

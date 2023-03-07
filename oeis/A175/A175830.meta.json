@@ -1,0 +1,22 @@
+{
+  "description": "Number of real-valued zeros of the polynomial whose coefficients are the leading n+1 decimal digits of Euler's constant, A011543(n).",
+  "id": "A175830",
+  "mentions": [
+    "A001113",
+    "A011543",
+    "A173667",
+    "A175799"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

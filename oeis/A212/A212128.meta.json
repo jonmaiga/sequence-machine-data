@@ -1,0 +1,23 @@
+{
+  "description": "Nonprimes whose arithmetic derivative equals the sum of its proper divisors.",
+  "id": "A212128",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A003415",
+    "A018252",
+    "A211991",
+    "A212127"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

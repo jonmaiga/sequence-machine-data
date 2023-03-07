@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k, k+1 and k+2 have the same ordered prime signature.",
+  "id": "A359746",
+  "mentions": [
+    "A039833",
+    "A052214",
+    "A075039",
+    "A124010",
+    "A175590",
+    "A359745"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

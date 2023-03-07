@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct prime divisors of 44...447 (with n 4s).",
+  "id": "A104889",
+  "mentions": [
+    "A001221",
+    "A104564",
+    "A173772"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

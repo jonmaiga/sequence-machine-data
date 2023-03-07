@@ -1,0 +1,23 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of sets of exactly k distinct binary words with a total of n letters.",
+  "id": "A208741",
+  "mentions": [
+    "A061168",
+    "A102866",
+    "A209406",
+    "A360634"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Rows of A003989 expressed as base 10 numbers.",
+  "id": "A106473",
+  "mentions": [
+    "A003989",
+    "A006093",
+    "A006579",
+    "A040976"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

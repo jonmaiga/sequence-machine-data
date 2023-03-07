@@ -1,0 +1,26 @@
+{
+  "description": "Numbers m such that m*(m-tau(m))/sigma(m) is an integer h where k-tau(k) is the number of nondivisors of k (A049820) and sigma(k) is the sum of the divisors of k (A000203).",
+  "id": "A325020",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A000396",
+    "A001599",
+    "A049820",
+    "A325021",
+    "A325022",
+    "A325023",
+    "A325024"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Fully multiplicative with a(2) = 2 and a(p) = p-1 for odd primes p.",
+  "id": "A333787",
+  "mentions": [
+    "A000035",
+    "A003958",
+    "A006519",
+    "A068468",
+    "A329697"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

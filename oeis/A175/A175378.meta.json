@@ -1,0 +1,21 @@
+{
+  "description": "G.f. x^4*(2*x^2-1)/( (x^2-1)*(x^2+x-1)*(2*x^3-2*x^2+2*x-1) ).",
+  "id": "A175378",
+  "mentions": [
+    "A007896",
+    "A007897",
+    "A007898"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

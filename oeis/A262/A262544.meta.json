@@ -1,0 +1,23 @@
+{
+  "description": "Records in A261422.",
+  "id": "A262544",
+  "mentions": [
+    "A261132",
+    "A261422",
+    "A262524",
+    "A262525",
+    "A262526",
+    "A262527",
+    "A262545"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

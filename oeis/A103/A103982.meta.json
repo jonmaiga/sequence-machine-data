@@ -1,0 +1,23 @@
+{
+  "description": "Indices of octahedral numbers (A005900) which are semiprimes.",
+  "id": "A103982",
+  "mentions": [
+    "A001222",
+    "A001358",
+    "A005900",
+    "A103946",
+    "A103981"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

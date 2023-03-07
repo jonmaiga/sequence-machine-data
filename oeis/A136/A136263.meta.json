@@ -1,0 +1,20 @@
+{
+  "description": "Integral form based on A122188: Coefficients of recursive polynomial from: p(x,n)=x*IP(x,n)=-(1+x)*B(x,n)-B'(x,n).",
+  "id": "A136263",
+  "mentions": [
+    "A122188"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

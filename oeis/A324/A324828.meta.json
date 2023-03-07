@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A324543(n) read modulo 2, where A324543 is the Möbius-transform of sigma(A156552(n)).",
+  "id": "A324828",
+  "mentions": [
+    "A156552",
+    "A323243",
+    "A324543",
+    "A324712",
+    "A324715",
+    "A324829"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

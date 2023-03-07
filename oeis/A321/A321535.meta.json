@@ -1,0 +1,19 @@
+{
+  "description": "Number of different ways a grasshopper can take n hops without landing on the same point more than once.",
+  "id": "A321535",
+  "mentions": [
+    "A141000",
+    "A141002",
+    "A175941"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

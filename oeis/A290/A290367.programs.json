@@ -1,0 +1,18 @@
+{
+  "oi": 290367,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "record[contfrac[sin(tan(sin(γ)))]]",
+      "mt": 5,
+      "px": [
+        "γ",
+        "sin",
+        "tan",
+        "sin",
+        "contfrac",
+        "record"
+      ]
+    }
+  ]
+}

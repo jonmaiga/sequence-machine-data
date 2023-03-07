@@ -1,0 +1,24 @@
+{
+  "description": "Number of integer partitions of n whose sequence of frequencies is strictly increasing.",
+  "id": "A100471",
+  "mentions": [
+    "A000219",
+    "A000837",
+    "A047966",
+    "A098859",
+    "A100881",
+    "A100882",
+    "A100883",
+    "A304686"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

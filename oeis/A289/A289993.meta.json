@@ -1,0 +1,24 @@
+{
+  "description": "Primes p having the property that gpf(A288814(p)) < q, where q is greatest prime < p.",
+  "id": "A289993",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A056240",
+    "A060769",
+    "A288313",
+    "A288814",
+    "A292081"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

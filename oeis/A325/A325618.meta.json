@@ -1,0 +1,36 @@
+{
+  "description": "Numbers m such that there exists an integer partition of m whose reciprocal factorial sum is 1.",
+  "id": "A325618",
+  "mentions": [
+    "A000142",
+    "A002966",
+    "A002982",
+    "A007489",
+    "A011371",
+    "A022559",
+    "A051908",
+    "A058360",
+    "A064986",
+    "A115627",
+    "A284605",
+    "A316854",
+    "A316855",
+    "A325616",
+    "A325619",
+    "A325620",
+    "A325621",
+    "A325622",
+    "A325623",
+    "A325624"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

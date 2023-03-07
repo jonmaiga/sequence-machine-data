@@ -1,0 +1,28 @@
+{
+  "description": "Pierpont 9-almost primes. 9-almost primes of form (2^K)*(3^L)+1.",
+  "id": "A113741",
+  "mentions": [
+    "A005109",
+    "A046312",
+    "A055600",
+    "A111344",
+    "A111345",
+    "A111346",
+    "A112797",
+    "A113432",
+    "A113739",
+    "A113740"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

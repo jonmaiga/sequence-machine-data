@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations in S_n avoiding 21{bar 3}54 (i.e., every occurrence of 2154 is contained in an occurrence of a 21354).",
+  "id": "A117106",
+  "mentions": [
+    "A005258"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

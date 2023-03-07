@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (Sum_{k=0..n-1} (-1)^k * (4k+1) * 160^(n-1-k) * C(2k,k) * Sum_{j=0..k} C(k,j) * C(k+2j,2j) * C(2j,j) * (-20)^(k-j)) / (n * C(2n,n)).",
+  "id": "A337247",
+  "mentions": [
+    "A000796",
+    "A000984",
+    "A336981",
+    "A336982"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

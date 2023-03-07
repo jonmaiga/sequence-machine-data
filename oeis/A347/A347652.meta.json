@@ -1,0 +1,22 @@
+{
+  "description": "Records in the trajectory of all positive integers in the 3x+1 or Collatz problem, including the trajectory [1, 4, 2, 1] of 1.",
+  "id": "A347652",
+  "mentions": [
+    "A006370",
+    "A014682",
+    "A070165",
+    "A235795",
+    "A235800",
+    "A347270"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

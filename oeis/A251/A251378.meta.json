@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X(5+1) 0..3 arrays with every 2X2 subblock summing to 5 6 or 7",
+  "id": "A251378",
+  "mentions": [
+    "A251381"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{d|n} Möbius(n/d)*d^5/phi(n).",
+  "id": "A160893",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A013662",
+    "A013663",
+    "A059378",
+    "A263950"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:14:35",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

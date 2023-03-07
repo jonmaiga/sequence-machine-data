@@ -1,0 +1,18 @@
+{
+  "description": "Sum of the areas of all Pythagorean triangles with perimeter A010814(n).",
+  "id": "A332962",
+  "mentions": [
+    "A010814",
+    "A334788"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Central diagonal of A163334 and A163336.",
+  "id": "A163343",
+  "mentions": [
+    "A128173",
+    "A163332",
+    "A163334",
+    "A163336",
+    "A163344",
+    "A163480",
+    "A163481",
+    "A338086"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions of n into at most 4 prime parts (counting 1 as a prime).",
+  "id": "A347623",
+  "mentions": [
+    "A008578",
+    "A034891",
+    "A218007",
+    "A341947",
+    "A347578",
+    "A347622",
+    "A347624",
+    "A347625"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

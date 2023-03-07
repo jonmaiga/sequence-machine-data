@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of the series reversion of x*Product_{k>=0} (1 + x^(2^k) + x^(2^(k + 1))).",
+  "id": "A292363",
+  "mentions": [
+    "A002487"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

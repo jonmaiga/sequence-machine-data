@@ -1,0 +1,18 @@
+{
+  "description": "Number of regular elements in the semigroup of all binary relations on [n].",
+  "id": "A354279",
+  "mentions": [
+    "A003425"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

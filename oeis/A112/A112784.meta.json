@@ -1,0 +1,19 @@
+{
+  "description": "Beginning with 2, primes of the form: least multiple of the previous term followed by a 9. Beginning with 2, a(n) is the least prime of the form k*a(n-1)*10 + 9.",
+  "id": "A112784",
+  "mentions": [
+    "A112782",
+    "A112783"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 2^(-7/4); exact length of the A4 paper size measured in meters according to the ISO 216 standard.",
+  "id": "A308320",
+  "mentions": [
+    "A010767",
+    "A222066",
+    "A228497",
+    "A308321"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:14",
+    "offset": 0,
+    "size": 88,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that A102370(n) = n.",
+  "id": "A104235",
+  "mentions": [
+    "A102370",
+    "A103543",
+    "A103584",
+    "A103863",
+    "A104401",
+    "A105271",
+    "A214414"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

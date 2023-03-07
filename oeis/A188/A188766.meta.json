@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that the number of decompositions of 2n into sum of two primes (counting 1 as a prime) is 1 or a composite.",
+  "id": "A188766",
+  "mentions": [
+    "A000040",
+    "A001031",
+    "A002808",
+    "A018252"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

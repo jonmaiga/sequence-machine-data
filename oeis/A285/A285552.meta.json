@@ -1,0 +1,17 @@
+{
+  "description": "Smallest number k that cannot be expressed as x^2 + y^2 + z^2 + w^2 where x >= y >= z >= w >= 0 and x > floor(sqrt(k)) - n, but can be so expressed if x = floor(sqrt(k)) - n.",
+  "id": "A285552",
+  "mentions": [
+    "A178786"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

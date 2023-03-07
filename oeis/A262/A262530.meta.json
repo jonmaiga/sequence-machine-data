@@ -1,0 +1,19 @@
+{
+  "description": "Numbers such that digits occur at most twice in decimal representation.",
+  "id": "A262530",
+  "mentions": [
+    "A010784"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

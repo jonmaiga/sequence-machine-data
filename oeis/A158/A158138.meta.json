@@ -1,0 +1,22 @@
+{
+  "description": "Number of nondecreasing integer sequences of length 4 with sum zero and sum of absolute values 2n.",
+  "id": "A158138",
+  "mentions": [
+    "A000041",
+    "A000712",
+    "A069905",
+    "A158139",
+    "A158184"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:12:53",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

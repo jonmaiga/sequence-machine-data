@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A250469(n) - n.",
+  "id": "A347378",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A250469",
+    "A280692",
+    "A336853",
+    "A346476"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

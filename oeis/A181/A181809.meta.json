@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that both n and n/2 are highly composite (A002182).",
+  "id": "A181809",
+  "mentions": [
+    "A000005",
+    "A002182",
+    "A002183",
+    "A025487",
+    "A053624",
+    "A181803",
+    "A181808",
+    "A181810"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

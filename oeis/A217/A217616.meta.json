@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: Sum_{n>=0} x^n * Sum_{k=0..n} binomial(n,k)^2 * x^k*(2-x)^(n-k).",
+  "id": "A217616",
+  "mentions": [
+    "A000108",
+    "A216434",
+    "A217461",
+    "A217615",
+    "A217617"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

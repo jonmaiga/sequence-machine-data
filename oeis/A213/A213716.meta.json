@@ -1,0 +1,20 @@
+{
+  "description": "Complement of A213715.",
+  "id": "A213716",
+  "mentions": [
+    "A005187",
+    "A179016",
+    "A213715",
+    "A213717"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the sum of the terms in the continued fraction expansion of the absolute value of B_{2n}, the (2n)-th Bernoulli number.",
+  "id": "A138706",
+  "mentions": [
+    "A027641",
+    "A027642",
+    "A138703",
+    "A138704",
+    "A138705"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

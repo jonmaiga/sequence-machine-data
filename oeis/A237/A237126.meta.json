@@ -1,0 +1,26 @@
+{
+  "description": "a(0)=0, a(1) = 1, a(2n) = nonludic(a(n)), a(2n+1) = ludic(a(n)+1), where ludic = A003309, nonludic = A192607.",
+  "id": "A237126",
+  "mentions": [
+    "A003309",
+    "A005408",
+    "A005843",
+    "A135141",
+    "A192607",
+    "A227413",
+    "A235491",
+    "A237056",
+    "A237427"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

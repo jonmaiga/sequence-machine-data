@@ -1,0 +1,24 @@
+{
+  "description": "For n >= 1, let f(2n+1) = (3n+2)/A006519(3n+2) and let f^k be the k-th iteration of f. Then a(n) is the least k such that A000120(f^k(2n+1)) <= A000120(n).",
+  "id": "A159885",
+  "mentions": [
+    "A000120",
+    "A006519",
+    "A007814",
+    "A075677",
+    "A159945",
+    "A160198",
+    "A160266"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n*(n + 1)*(17*n - 14)/6.",
+  "id": "A237617",
+  "mentions": [
+    "A051871",
+    "A180232",
+    "A237616"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:03:01",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

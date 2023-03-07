@@ -1,0 +1,18 @@
+{
+  "description": "Produced by a sieve: Start with the natural numbers; at the k-th step remove every A138008(k+1)-th term of the sequence remaining after the (k-1)-st sieving step.",
+  "id": "A138007",
+  "mentions": [
+    "A000960",
+    "A138008"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

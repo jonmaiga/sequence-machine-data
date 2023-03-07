@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows: T(n,k) = Sum_{j=0..n} 2^(n-j)*binomial(j,k) for n >= 0 and 0 <= k <= n; also, Riordan array (1/((1-x)*(1-2*x)), x/(1-x)).",
+  "id": "A104709",
+  "mentions": [
+    "A000124",
+    "A000295",
+    "A001787",
+    "A007318",
+    "A054143",
+    "A055248",
+    "A068565",
+    "A068566",
+    "A110813",
+    "A140513",
+    "A193842"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:47:11",
+    "offset": 0,
+    "size": 64,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "GF(2)[X] factorization prime shift towards larger terms.",
+  "id": "A305421",
+  "mentions": [
+    "A000079",
+    "A001317",
+    "A003961",
+    "A005408",
+    "A007814",
+    "A014580",
+    "A048720",
+    "A091225",
+    "A193231",
+    "A268389",
+    "A300841",
+    "A304520",
+    "A305420",
+    "A305422",
+    "A305423"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of primitive Zagier-reduced indefinite quadratic forms over the integers in two variables with discriminants D(n) = A079896(n).",
+  "id": "A257004",
+  "mentions": [
+    "A079896",
+    "A082174",
+    "A082175",
+    "A257003"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

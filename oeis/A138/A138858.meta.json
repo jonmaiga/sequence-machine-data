@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=least square such that the subsets of {a(1),...,a(n)} sum to 2^n different values.",
+  "id": "A138858",
+  "mentions": [
+    "A064934",
+    "A138000",
+    "A138857"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

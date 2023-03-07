@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{d|n} phi(n/d)^2*2^(d+1).",
+  "id": "A161217",
+  "mentions": [
+    "A000010",
+    "A053635",
+    "A160620"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

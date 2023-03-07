@@ -1,0 +1,18 @@
+{
+  "description": "Positions in A212200 where successive new numbers (see A212203) appear.",
+  "id": "A212204",
+  "mentions": [
+    "A212200",
+    "A212203"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

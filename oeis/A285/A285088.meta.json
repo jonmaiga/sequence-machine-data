@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that the number of partitions of n(n+1)/2 (=A000041(A000217(n))) is prime.",
+  "id": "A285088",
+  "mentions": [
+    "A000041",
+    "A000217",
+    "A046063",
+    "A072213",
+    "A284594",
+    "A285086",
+    "A285087"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

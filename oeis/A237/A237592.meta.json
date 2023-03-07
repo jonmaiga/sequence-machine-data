@@ -1,0 +1,18 @@
+{
+  "description": "Odd numbers n divisible by 3 such that for all k >= 1 the numbers n*2^k - 1 and n*2^k + 1 do not form a twin prime pair.",
+  "id": "A237592",
+  "mentions": [
+    "A187714",
+    "A187716"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

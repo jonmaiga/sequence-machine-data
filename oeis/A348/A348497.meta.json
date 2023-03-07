@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = gcd(A003415(n), A347130(n)), where A003415 is the arithmetic derivative and A347130 is its Dirichlet convolution with the identity function.",
+  "id": "A348497",
+  "mentions": [
+    "A003415",
+    "A003557",
+    "A347130",
+    "A348492",
+    "A348495",
+    "A348498"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

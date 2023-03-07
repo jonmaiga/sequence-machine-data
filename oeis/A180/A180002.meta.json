@@ -1,0 +1,18 @@
+{
+  "description": "a(n) red and b(n) blue balls in an urn; draw 5 balls without replacement; Probability(5 red balls) = Probability(3 red and 2 blue balls).",
+  "id": "A180002",
+  "mentions": [
+    "A180003"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

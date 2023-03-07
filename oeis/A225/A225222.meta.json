@@ -1,0 +1,19 @@
+{
+  "description": "Primes with more than twice as many 1's as 0's in binary.",
+  "id": "A225222",
+  "mentions": [
+    "A095070",
+    "A095314"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

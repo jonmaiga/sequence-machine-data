@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + x^(k^2))^(k^2).",
+  "id": "A291649",
+  "mentions": [
+    "A000290",
+    "A026007",
+    "A027998",
+    "A033461",
+    "A262736",
+    "A281790",
+    "A284896",
+    "A291655",
+    "A291692"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

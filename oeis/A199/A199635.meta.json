@@ -1,0 +1,18 @@
+{
+  "description": "Indices of Fibonacci numbers containing an equal number of odd and even digits.",
+  "id": "A199635",
+  "mentions": [
+    "A144205"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n^2 + {1,3,7} are semiprimes.",
+  "id": "A182261",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A182238"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

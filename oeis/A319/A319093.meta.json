@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(0,0) = 1; T(n,k) = T(n-1, k) + T(n-1, k-1) - T(n-1, k-2) + 2*T(n-1, k-3) + T(n-1, k-4) for k = 0..4*n; T(n,k)=0 for n or k < 0.",
+  "id": "A319093",
+  "mentions": [
+    "A319096"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

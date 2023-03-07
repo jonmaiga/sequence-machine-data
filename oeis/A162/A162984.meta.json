@@ -1,0 +1,22 @@
+{
+  "description": "Number of Dyck paths with no UUU's and no DDD's of semilength n and having k UUDUDD's (0<=k<=floor(n/3); U=(1,1), D=(1,-1)).",
+  "id": "A162984",
+  "mentions": [
+    "A004148",
+    "A110320",
+    "A162985",
+    "A246177"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

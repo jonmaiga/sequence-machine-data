@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: Sum_{n>=0} a(n) * (cos(n*x)-sin(n*x)) * x^n/n! = 1 + x.",
+  "id": "A218798",
+  "mentions": [
+    "A219504"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

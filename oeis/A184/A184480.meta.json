@@ -1,0 +1,20 @@
+{
+  "description": "Lower s-Wythoff sequence, where s(n)=3n. Complement of A001956.",
+  "id": "A184480",
+  "mentions": [
+    "A001955",
+    "A001956",
+    "A184117"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:22:47",
+    "offset": 1,
+    "size": 120,
+    "source": "joeis"
+  }
+}

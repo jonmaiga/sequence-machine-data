@@ -1,0 +1,23 @@
+{
+  "description": "Denominators of coefficients in a series for Euler's constant gamma.",
+  "id": "A332541",
+  "mentions": [
+    "A001620",
+    "A002206",
+    "A002207",
+    "A083207",
+    "A332540"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

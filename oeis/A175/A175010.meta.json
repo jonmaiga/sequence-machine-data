@@ -1,0 +1,21 @@
+{
+  "description": "Triangle generated from INVERT transforms of variants of A080995.",
+  "id": "A175010",
+  "mentions": [
+    "A000041",
+    "A010815",
+    "A080995"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

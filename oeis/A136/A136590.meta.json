@@ -1,0 +1,26 @@
+{
+  "description": "Triangle of trinomial logarithmic coefficients: A027907(n,k) = Sum_{i=0..k} T(k,i)*n^i/k!.",
+  "id": "A136590",
+  "mentions": [
+    "A002426",
+    "A027907",
+    "A136591",
+    "A136592",
+    "A136593",
+    "A136594",
+    "A136595",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

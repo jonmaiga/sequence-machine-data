@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n^3 + 2*n^2 + 5*n + 11.",
+  "id": "A271779",
+  "mentions": [
+    "A001651",
+    "A032793"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:08:07",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Continued fraction expansion of the sum of the reciprocals of the Mersenne primes (A000668).",
+  "id": "A209601",
+  "mentions": [
+    "A000668",
+    "A173898",
+    "A209600"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

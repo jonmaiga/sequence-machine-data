@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n!*((1 + 3n + n^2)*H(n) - n), where H(n) is the n-th harmonic number.",
+  "id": "A129587",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A129326"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Nonunitary Zumkeller numbers: numbers whose set of nonunitary divisors is nonempty and can be partitioned into two disjoint sets of equal sum.",
+  "id": "A335142",
+  "mentions": [
+    "A064591",
+    "A064597",
+    "A064598",
+    "A083207"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) (0 <= k <= n) is the number of left factors of Schroeder paths, going from (0,0) to (n,k) (a Schroeder path of length 2n is a lattice path from (0,0) to (2n,0) consisting of U=(1,1), D=(1,-1) and H=(2,0) steps and never going below the x-axis).",
+  "id": "A110109",
+  "mentions": [
+    "A006318",
+    "A026003"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

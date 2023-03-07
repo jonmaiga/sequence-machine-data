@@ -1,0 +1,25 @@
+{
+  "description": "Number of groups of order prime(n)^5.",
+  "id": "A232105",
+  "mentions": [
+    "A000001",
+    "A000679",
+    "A050997",
+    "A090091",
+    "A090130",
+    "A090140",
+    "A232106",
+    "A232107"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

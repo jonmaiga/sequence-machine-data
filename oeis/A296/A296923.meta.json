@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that Legendre(-5,p) = -1.",
+  "id": "A296923",
+  "mentions": [
+    "A003626",
+    "A296920",
+    "A296922"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:16",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

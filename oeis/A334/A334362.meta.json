@@ -1,0 +1,19 @@
+{
+  "description": "Number of r X s rectangles with integer sides such that r <= s, r + s = 2n and s/r is squarefree.",
+  "id": "A334362",
+  "mentions": [
+    "A008683"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

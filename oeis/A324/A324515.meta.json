@@ -1,0 +1,35 @@
+{
+  "description": "Numbers > 1 where the maximum prime index minus the minimum prime index equals the number of prime factors minus the number of distinct prime factors.",
+  "id": "A324515",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A006141",
+    "A046660",
+    "A047993",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A106529",
+    "A112798",
+    "A243055",
+    "A324516",
+    "A324517",
+    "A324519",
+    "A324521",
+    "A324522",
+    "A324560",
+    "A324562"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

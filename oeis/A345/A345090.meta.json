@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k^floor(1/gcd(k,2*n-k)).",
+  "id": "A345090",
+  "mentions": [
+    "A345091"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:31:13",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

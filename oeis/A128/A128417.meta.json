@@ -1,0 +1,24 @@
+{
+  "description": "Number triangle T(n,k)=2^(n-k)*C(2n,n-k).",
+  "id": "A128417",
+  "mentions": [
+    "A094527",
+    "A128413",
+    "A128414",
+    "A128418",
+    "A128419"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

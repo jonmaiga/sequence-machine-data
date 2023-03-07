@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n into odd parts that do not divide n.",
+  "id": "A294141",
+  "mentions": [
+    "A000009",
+    "A098743",
+    "A128515",
+    "A171565",
+    "A200745",
+    "A294142"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

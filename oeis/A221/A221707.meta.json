@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that A216377(n) = 1.",
+  "id": "A221707",
+  "mentions": [
+    "A216377",
+    "A221708"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

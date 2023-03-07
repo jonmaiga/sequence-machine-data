@@ -1,0 +1,21 @@
+{
+  "description": "The partial sums of 2^d(n) where d(n) is the n-th digit of the concatenated triangular numbers, and d(1)=0.",
+  "id": "A290025",
+  "mentions": [
+    "A000217",
+    "A034004"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

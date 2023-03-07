@@ -1,0 +1,20 @@
+{
+  "description": "Define two sequences n1(i) and n2(i) by the recurrences n1(i) = n1(i-1) + digsum(n2(i-1)), n2(i) = n2(i-1) + digsum(n1(i-1)), with initial values n1(1) = n and n2(1) = 0. Then a(n) is the smallest m such that n1(i) = n2(i) = m for some i, or -1 if no such m exists.",
+  "id": "A289979",
+  "mentions": [
+    "A004207"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

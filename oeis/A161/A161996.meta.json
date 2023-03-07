@@ -1,0 +1,19 @@
+{
+  "description": "A (negated) characteristic function of twin composite odd numbers.",
+  "id": "A161996",
+  "mentions": [
+    "A060461",
+    "A100923"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

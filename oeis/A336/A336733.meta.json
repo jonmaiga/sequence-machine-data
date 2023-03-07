@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers which can be written in two bases smaller than 10 as mutually-reversed strings of digit(s).",
+  "id": "A336733",
+  "mentions": [
+    "A336768"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

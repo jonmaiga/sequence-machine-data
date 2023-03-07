@@ -1,0 +1,20 @@
+{
+  "description": "Association types for monomials with n arguments in an algebra with two binary operations, one commutative, one noncommutative.",
+  "id": "A276277",
+  "mentions": [
+    "A000108",
+    "A001190",
+    "A226909",
+    "A268172"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

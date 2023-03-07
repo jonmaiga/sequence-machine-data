@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form prime(i)^2^(i-1) or prime(i)^2^(j-1)*prime(j)^2^(i-1) with i and j distinct integers.",
+  "id": "A225548",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A225546",
+    "A225547"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

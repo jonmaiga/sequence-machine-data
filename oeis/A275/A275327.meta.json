@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, Riordan array (1, (2+(x-1)/(2*x^2)*(1-sqrt(1-4*x^2)))/ sqrt(1-4*x^2)).",
+  "id": "A275327",
+  "mentions": [
+    "A057977",
+    "A128899",
+    "A256893",
+    "A275328"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

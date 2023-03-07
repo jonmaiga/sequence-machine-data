@@ -1,0 +1,23 @@
+{
+  "description": "Generalized Pascal's triangle made using Mod[(Prime[n] - 1)/2, 4] == 2 primorial-like Stirling polynomials.",
+  "id": "A119724",
+  "mentions": [
+    "A005097",
+    "A007318",
+    "A118686"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "obsc",
+    "sign",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

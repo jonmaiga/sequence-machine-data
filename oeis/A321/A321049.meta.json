@@ -1,0 +1,21 @@
+{
+  "description": "Number of permutations of [n] with no fixed points where the maximal displacement of an element equals three.",
+  "id": "A321049",
+  "mentions": [
+    "A033305",
+    "A079997",
+    "A259784"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 3,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

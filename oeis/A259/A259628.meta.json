@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m with m-1, m+1, prime(m)+2, prime(m)-m, prime(m)+m, m*prime(m)-1 and m*prime(m)+1 all prime.",
+  "id": "A259628",
+  "mentions": [
+    "A000040",
+    "A014574",
+    "A232861",
+    "A259539"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

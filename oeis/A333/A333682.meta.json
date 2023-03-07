@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonnegative lattice paths from (0,0) to (4n+3,0) such that slopes of adjacent steps differ by one, assuming zero slope before and after the paths.",
+  "id": "A333682",
+  "mentions": [
+    "A000290",
+    "A004767",
+    "A033431",
+    "A333647"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:04",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

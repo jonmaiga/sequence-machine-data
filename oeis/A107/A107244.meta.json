@@ -1,0 +1,23 @@
+{
+  "description": "Sum of squares of hexanacci numbers (A001592, Fibonacci 6-step numbers).",
+  "id": "A107244",
+  "mentions": [
+    "A001592",
+    "A107239",
+    "A107243",
+    "A107245",
+    "A107248"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:09:31",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

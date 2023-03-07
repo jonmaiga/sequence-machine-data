@@ -1,0 +1,25 @@
+{
+  "description": "T(n,k) is the number of labeled Eulerian graphs with n vertices and k edges (according to Harary and Palmer) or the number of labeled connected Eulerian graphs with n vertices and k edges (according to Mallows and Sloane); irregular triangle T, read by rows (n >= 0 and 0 <= k <= n*(n-1)/2).",
+  "id": "A341743",
+  "mentions": [
+    "A001147",
+    "A001710",
+    "A003049",
+    "A033678",
+    "A058878",
+    "A062199"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

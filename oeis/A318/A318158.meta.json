@@ -1,0 +1,17 @@
+{
+  "description": "Prime numbers of the form p1^4 + p2^3 + p3^2 + p4, where p1, p2, p3 and p4 are distinct primes.",
+  "id": "A318158",
+  "mentions": [
+    "A316971"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

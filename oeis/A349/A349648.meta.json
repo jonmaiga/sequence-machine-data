@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of g.f.: Catalan(x)/Catalan(-x).",
+  "id": "A349648",
+  "mentions": [
+    "A000108",
+    "A006318",
+    "A048990",
+    "A052707",
+    "A079489"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 0,
+    "size": 28,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest self-describing sequence of distinct terms such that, when we read digit after digit from the left to the right, the n-th digit of the sequence is duplicated at the digit-position a(n). After all duplications are done, the resulting sequence is itself.",
+  "id": "A308387",
+  "mentions": [
+    "A308386",
+    "A347691"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that the sum of the prime distinct divisors of n^2+1 equals 2 times the largest prime divisor.",
+  "id": "A200072",
+  "mentions": [
+    "A200071"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

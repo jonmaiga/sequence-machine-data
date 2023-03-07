@@ -1,0 +1,17 @@
+{
+  "description": "Smallest b > 1 not occurring earlier in the sequence such that p = prime(n) satisfies b^(p-1) == 1 (mod p^2).",
+  "id": "A259234",
+  "mentions": [
+    "A039678"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

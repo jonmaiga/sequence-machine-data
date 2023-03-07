@@ -1,0 +1,22 @@
+{
+  "description": "Square array read by antidiagonals: T(n,k) in which if k = j^2 then column k lists j interleaved with j-1 zeros. Otherwise if k = j^2 + j then column k lists the positive integers, starting with j+1, interleaved with j-1 zeros. Otherwise column k lists only zeros. n>=1, j>=1, k>=1.",
+  "id": "A221642",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A002620",
+    "A210959",
+    "A221641"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

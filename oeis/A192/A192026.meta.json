@@ -1,0 +1,19 @@
+{
+  "description": "Square array read by antidiagonals: W(n,m) (n >= 3, m >= 1) is the Wiener index of the graph G(n,m) obtained from an n-wheel graph by adjoining m pendant edges at each node of the cycle.",
+  "id": "A192026",
+  "mentions": [
+    "A049598"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 3,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

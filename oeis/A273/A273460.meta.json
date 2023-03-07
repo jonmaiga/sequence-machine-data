@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that sum of the divisors of n (except 1 and n) is equal to the product of the digits of n.",
+  "id": "A273460",
+  "mentions": [
+    "A007954",
+    "A048050",
+    "A056709",
+    "A069675"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

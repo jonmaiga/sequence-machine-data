@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that begin a record-length run of consecutive numbers having the same Collatz trajectory length.",
+  "id": "A351104",
+  "mentions": [
+    "A006577",
+    "A351224"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form -x^2 + 8*x*y + 8*y^2 (as well as of the form 15*x^2 + 24*x*y + 8*y^2).",
+  "id": "A141376",
+  "mentions": [
+    "A107003",
+    "A134517",
+    "A141171",
+    "A141373",
+    "A141375"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

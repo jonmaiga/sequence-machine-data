@@ -1,0 +1,31 @@
+{
+  "description": "Number T(n,k) of simple unlabeled graphs on n nodes with exactly k connected components that are trees or cycles; triangle T(n,k), n >= 0, 0 <= k <= n, read by rows.",
+  "id": "A215977",
+  "mentions": [
+    "A000007",
+    "A215861",
+    "A215978",
+    "A215979",
+    "A215980",
+    "A215981",
+    "A215982",
+    "A215983",
+    "A215984",
+    "A215985",
+    "A215986",
+    "A215987",
+    "A215988",
+    "A215989"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

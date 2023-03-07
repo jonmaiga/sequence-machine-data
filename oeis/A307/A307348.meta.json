@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that there are no palindromic triangular numbers of length k.",
+  "id": "A307348",
+  "mentions": [
+    "A000217",
+    "A003098",
+    "A008509",
+    "A034822"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

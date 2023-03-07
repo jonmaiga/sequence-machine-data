@@ -1,0 +1,29 @@
+{
+  "description": "A modified Engel expansion of the Euler-Mascheroni constant gamma.",
+  "id": "A220396",
+  "mentions": [
+    "A001620",
+    "A053977",
+    "A220335",
+    "A220336",
+    "A220337",
+    "A220338",
+    "A220393",
+    "A220394",
+    "A220395",
+    "A220397",
+    "A220398"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

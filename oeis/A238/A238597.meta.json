@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes p < 2*n with 2*pi(p) + 1 and p*(2n-1) - 2 both prime, where pi(.) is given by A000720.",
+  "id": "A238597",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A237284",
+    "A238580"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

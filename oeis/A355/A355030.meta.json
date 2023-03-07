@@ -1,0 +1,31 @@
+{
+  "description": "a(n) is the number of possible values of the number of prime divisors (counted with multiplicity) of numbers with n divisors.",
+  "id": "A355030",
+  "mentions": [
+    "A000005",
+    "A001055",
+    "A001222",
+    "A118914",
+    "A162247",
+    "A218320",
+    "A252665",
+    "A305254",
+    "A317791",
+    "A318559",
+    "A326334",
+    "A355027",
+    "A355029",
+    "A355031"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

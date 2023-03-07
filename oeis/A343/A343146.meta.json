@@ -1,0 +1,18 @@
+{
+  "description": "Number of move sequences of length 2n on the \"8 Puzzle\" which leave the final state unchanged when the empty cell starts in a corner.",
+  "id": "A343146",
+  "mentions": [
+    "A046164",
+    "A089473"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:08:53",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

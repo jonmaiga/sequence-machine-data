@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence S of distinct nonnegative terms such that the digits of (a(n) + a(n+1)) are the first n digits of S.",
+  "id": "A347260",
+  "mentions": [
+    "A300000"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

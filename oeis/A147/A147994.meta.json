@@ -1,0 +1,18 @@
+{
+  "description": "Gray code base 4 applied to Hofstadter's(A005185 Hofstadter Q - sequence): a(n)=GrayCode[Hofstadter[n] - 1, 4].",
+  "id": "A147994",
+  "mentions": [
+    "A005185"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

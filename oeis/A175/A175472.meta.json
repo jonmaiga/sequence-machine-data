@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the absolute value of the abscissa of the local maximum of the Gamma function in the interval [ -1,0]",
+  "id": "A175472",
+  "mentions": [
+    "A030169",
+    "A030171",
+    "A175473",
+    "A175474"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

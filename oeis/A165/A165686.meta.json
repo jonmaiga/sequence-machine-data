@@ -1,0 +1,23 @@
+{
+  "description": "Dimension of the space of Siegel cusp forms of genus 2 and weight 2k which are not Saito-Kurokawa lifts of forms of genus 1.",
+  "id": "A165686",
+  "mentions": [
+    "A008615",
+    "A027640",
+    "A029143",
+    "A165684",
+    "A165685"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:30:33",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

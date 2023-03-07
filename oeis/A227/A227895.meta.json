@@ -1,0 +1,18 @@
+{
+  "description": "Integer areas of integer-sided triangles where at least one median is of prime length.",
+  "id": "A227895",
+  "mentions": [
+    "A181924"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

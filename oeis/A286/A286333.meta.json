@@ -1,0 +1,19 @@
+{
+  "description": "Primes p where all the cyclic shifts of their digits to the left also produce primes except the last one before reaching p again.",
+  "id": "A286333",
+  "mentions": [
+    "A270083",
+    "A286415"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Odds fractility of n.",
+  "id": "A269989",
+  "mentions": [
+    "A005408",
+    "A269570",
+    "A269982",
+    "A269990",
+    "A270000"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

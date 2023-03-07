@@ -1,0 +1,19 @@
+{
+  "description": "Positive integers x such that there exist positive integers y and z satisfying x^3 + y^3 = z^5.",
+  "id": "A103268",
+  "mentions": [
+    "A103254",
+    "A114737"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

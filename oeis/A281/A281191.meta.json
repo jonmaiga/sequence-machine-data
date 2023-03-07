@@ -1,0 +1,20 @@
+{
+  "description": "Number of holes in the (American) English name of n (as printed in lower case).",
+  "id": "A281191",
+  "mentions": [
+    "A005589",
+    "A249572"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

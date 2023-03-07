@@ -1,0 +1,22 @@
+{
+  "description": "Number of self-trapped uncrossed king's paths on an infinite board after n steps, reduced for symmetry.",
+  "id": "A323141",
+  "mentions": [
+    "A003192",
+    "A077482",
+    "A272773",
+    "A323140"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

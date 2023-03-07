@@ -1,0 +1,25 @@
+{
+  "description": "Triangle, read by rows, such that the g.f. of column k = G(x)^(2k+1) where G(x) = 1 + x*G(x)^3 is the g.f. of A001764 (ternary trees).",
+  "id": "A143603",
+  "mentions": [
+    "A000108",
+    "A001764",
+    "A006013",
+    "A033184",
+    "A102594",
+    "A102893",
+    "A110616"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

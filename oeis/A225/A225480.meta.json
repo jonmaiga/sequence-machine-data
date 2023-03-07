@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = B2(n) * C(n) where B2(n) are generalized Bernoulli numbers and C(n) the Clausen numbers.",
+  "id": "A225480",
+  "mentions": [
+    "A039755",
+    "A141056",
+    "A160014"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

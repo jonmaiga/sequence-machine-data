@@ -1,0 +1,26 @@
+{
+  "description": "Number of n-step walks on cubic lattice (no points repeated, no adjacent points unless consecutive in path).",
+  "id": "A174319",
+  "mentions": [
+    "A002934",
+    "A034006",
+    "A038726",
+    "A038746",
+    "A038748",
+    "A173380"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "more",
+    "nice",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

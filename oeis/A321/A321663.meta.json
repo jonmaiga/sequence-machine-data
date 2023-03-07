@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = prime(n)^prime(n+2).",
+  "id": "A321663",
+  "mentions": [
+    "A000040",
+    "A053089"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

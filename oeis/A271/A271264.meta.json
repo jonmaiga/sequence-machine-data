@@ -1,0 +1,19 @@
+{
+  "description": "Septic artiads (A270800) congruent to 1 mod 98 and for which 7 is a 7th power residue.",
+  "id": "A271264",
+  "mentions": [
+    "A001583",
+    "A270800",
+    "A270801"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

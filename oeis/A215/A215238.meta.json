@@ -1,0 +1,22 @@
+{
+  "description": "Prime(A215237).",
+  "id": "A215238",
+  "mentions": [
+    "A000040",
+    "A080192",
+    "A104380",
+    "A215237"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

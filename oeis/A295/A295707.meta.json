@@ -1,0 +1,29 @@
+{
+  "description": "Square array A(n,k), n >= 1, k >= 1, read by antidiagonals, where A(n,k) is the number of lines through at least 2 points of an n X k grid of points.",
+  "id": "A295707",
+  "mentions": [
+    "A018808",
+    "A107348",
+    "A160842",
+    "A160843",
+    "A160844",
+    "A160845",
+    "A160846",
+    "A160847",
+    "A160848",
+    "A160849",
+    "A160850"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

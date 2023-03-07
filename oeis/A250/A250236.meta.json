@@ -1,0 +1,24 @@
+{
+  "description": "Fundamental discriminants d such that the real quadratic field Q(sqrt(d)) and the complex quadratic field Q(sqrt(-3d)) both have cyclic 3-class groups of order 3.",
+  "id": "A250236",
+  "mentions": [
+    "A094612",
+    "A250235",
+    "A250237",
+    "A250238",
+    "A250239",
+    "A250240",
+    "A250241",
+    "A250242"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

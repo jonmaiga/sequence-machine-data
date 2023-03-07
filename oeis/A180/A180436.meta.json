@@ -1,0 +1,23 @@
+{
+  "description": "Palindromic numbers which are sum of consecutive squares.",
+  "id": "A180436",
+  "mentions": [
+    "A002113",
+    "A002779",
+    "A034705",
+    "A216446",
+    "A267600"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

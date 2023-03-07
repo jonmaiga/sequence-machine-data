@@ -1,0 +1,19 @@
+{
+  "description": "Primes that can be expressed as p^k+2*k where p is prime and k >= 1.",
+  "id": "A339692",
+  "mentions": [
+    "A006512",
+    "A045637",
+    "A201308"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

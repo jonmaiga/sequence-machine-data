@@ -1,0 +1,28 @@
+{
+  "description": "The Euclid tree, read across levels.",
+  "id": "A295515",
+  "mentions": [
+    "A000244",
+    "A002487",
+    "A024023",
+    "A052913",
+    "A068156",
+    "A083329",
+    "A174981",
+    "A294442",
+    "A294446",
+    "A295511",
+    "A295512"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

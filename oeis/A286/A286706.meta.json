@@ -1,0 +1,22 @@
+{
+  "description": "Primes in A077309.",
+  "id": "A286706",
+  "mentions": [
+    "A035333",
+    "A052087",
+    "A053067",
+    "A077309"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

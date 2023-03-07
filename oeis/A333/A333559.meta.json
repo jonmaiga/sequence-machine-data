@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest infinite sequence of positive terms such that for any two distinct nonempty intervals, say [t, u] and [v, w], a(t) * ... * a(u) <> a(v) * ... * a(w).",
+  "id": "A333559",
+  "mentions": [
+    "A079854",
+    "A101274",
+    "A333555"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

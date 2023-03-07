@@ -1,0 +1,25 @@
+{
+  "description": "Numbers m such that m, m^2 and m^3 have identical initial digits in decimal representation.",
+  "id": "A256523",
+  "mentions": [
+    "A000030",
+    "A000290",
+    "A000578",
+    "A002993",
+    "A002994",
+    "A089951",
+    "A144582"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

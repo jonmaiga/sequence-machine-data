@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that start a run of four consecutive triangular numbers with four distinct prime factors.",
+  "id": "A349773",
+  "mentions": [
+    "A000217",
+    "A128905",
+    "A349539"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

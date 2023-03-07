@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; a(n+1) is the smallest k > a(n) such that 2^k == 2^a(n) (mod a(n)).",
+  "id": "A306829",
+  "mentions": [
+    "A000265",
+    "A002326"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

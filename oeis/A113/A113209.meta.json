@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of log(5)/log(3).",
+  "id": "A113209",
+  "mentions": [
+    "A002391",
+    "A016628",
+    "A152914"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:37",
+    "offset": 1,
+    "size": 102,
+    "source": "joeis"
+  }
+}

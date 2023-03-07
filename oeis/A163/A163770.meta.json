@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows interpolating the swinging sub-factorial (A163650) with the swinging factorial (A056040).",
+  "id": "A163770",
+  "mentions": [
+    "A056040",
+    "A068106",
+    "A163650",
+    "A163771",
+    "A163772",
+    "A163773",
+    "A180000"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

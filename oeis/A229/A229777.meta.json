@@ -1,0 +1,17 @@
+{
+  "description": "Number of 5X5 0..n arrays with rows in lexicographically nondecreasing order and columns in nonincreasing order",
+  "id": "A229777",
+  "mentions": [
+    "A229774"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

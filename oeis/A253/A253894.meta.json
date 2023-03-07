@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 1, for n > 1, a(n) = 1 + a(A253889(n)).",
+  "id": "A253894",
+  "mentions": [
+    "A064216",
+    "A070939",
+    "A253889",
+    "A253893",
+    "A254044",
+    "A254045"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

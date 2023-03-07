@@ -1,0 +1,22 @@
+{
+  "description": "Number of non-primitive roots for n, less than n.",
+  "id": "A219027",
+  "mentions": [
+    "A008330",
+    "A010554",
+    "A033949",
+    "A046144",
+    "A219029"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

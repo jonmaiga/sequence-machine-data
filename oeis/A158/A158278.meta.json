@@ -1,0 +1,21 @@
+{
+  "description": "Number of symmetric numerical semigroups with Frobenius number 2*n-1; that is, symmetric numerical semigroups for which the largest integer not belonging to them is 2*n-1.",
+  "id": "A158278",
+  "mentions": [
+    "A066062",
+    "A124506",
+    "A158206"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

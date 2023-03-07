@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Product_{2 <= i < j <= n+1} (prime(i) + prime(j)).",
+  "id": "A203524",
+  "mentions": [
+    "A000040",
+    "A000178",
+    "A093883",
+    "A203315",
+    "A203525",
+    "A203526"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:09:51",
+    "offset": 1,
+    "size": 10,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: coefficients of second-order hypergeometric-harmonic polynomials.",
+  "id": "A222061",
+  "mentions": [
+    "A000142",
+    "A008277",
+    "A222057",
+    "A222062",
+    "A222064"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

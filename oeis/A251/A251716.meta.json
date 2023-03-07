@@ -1,0 +1,23 @@
+{
+  "description": "Array of positions of A251637(n,k) in A098550.",
+  "id": "A251716",
+  "mentions": [
+    "A098550",
+    "A098551",
+    "A251237",
+    "A251541",
+    "A251553",
+    "A251637"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Total sum of number of lambda-parking functions, where lambda ranges over all partitions of n into distinct parts.",
+  "id": "A265016",
+  "mentions": [
+    "A000009",
+    "A265007",
+    "A265017",
+    "A265018",
+    "A265019",
+    "A265020",
+    "A265202"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

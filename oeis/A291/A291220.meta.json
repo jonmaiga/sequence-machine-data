@@ -1,0 +1,21 @@
+{
+  "description": "p-INVERT of (0,1,0,1,0,1,...), where p(S) = 1 - S - S^4.",
+  "id": "A291220",
+  "mentions": [
+    "A000035",
+    "A033453",
+    "A291219"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

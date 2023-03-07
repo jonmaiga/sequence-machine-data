@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of ways to tile a 4 X n rectangle with k pieces of 2 X 2 tiles and 4(n-k) pieces of 1 X 1 tiles (0<=k<=2*floor(n/2)).",
+  "id": "A128101",
+  "mentions": [
+    "A008585",
+    "A054854",
+    "A080855",
+    "A128102"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

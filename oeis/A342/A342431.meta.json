@@ -1,0 +1,20 @@
+{
+  "description": "Solution to Von Neumann stepping stone puzzle (see Comments).",
+  "id": "A342431",
+  "mentions": [
+    "A337663"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "8-dimensional Catalan numbers.",
+  "id": "A321977",
+  "mentions": [
+    "A000108",
+    "A005789",
+    "A005790",
+    "A005791",
+    "A060854",
+    "A321975",
+    "A321976"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

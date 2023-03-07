@@ -1,0 +1,18 @@
+{
+  "description": "The earliest increasing sequence of nonnegative integers such that if a(j) < a(k) are both in the sequence then a(k) + 2*(a(k) - a(j)) is not.",
+  "id": "A191767",
+  "mentions": [
+    "A005836"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

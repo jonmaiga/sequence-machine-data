@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: strictly decreasing positive integer sequences in lexicographic order with the property that the sum of inverses is the inverse of an integer.",
+  "id": "A272081",
+  "mentions": [
+    "A272020",
+    "A272034",
+    "A272082",
+    "A272083"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

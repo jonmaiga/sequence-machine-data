@@ -1,0 +1,29 @@
+{
+  "description": "Number of partitions of 2*n into exactly n nonzero tetrahedral numbers.",
+  "id": "A341773",
+  "mentions": [
+    "A000292",
+    "A024692",
+    "A062748",
+    "A068980",
+    "A298269",
+    "A319799",
+    "A338586",
+    "A341774",
+    "A341775",
+    "A341776",
+    "A341777",
+    "A341778"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

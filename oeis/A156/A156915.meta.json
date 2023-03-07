@@ -1,0 +1,17 @@
+{
+  "description": "Fixed point of: 4-->1234, 3->123, 2-->12, 1->1",
+  "id": "A156915",
+  "mentions": [
+    "A073645"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = the n-th positive integer with exactly n zeros and n ones in its binary representation.",
+  "id": "A143960",
+  "mentions": [
+    "A099393"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:46:00",
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

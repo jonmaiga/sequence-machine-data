@@ -1,0 +1,21 @@
+{
+  "description": "Divisors of the order of the Monster group, sorted into decreasing order.",
+  "id": "A174671",
+  "mentions": [
+    "A001228",
+    "A003131",
+    "A174601",
+    "A174670"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-bfile"
+  }
+}

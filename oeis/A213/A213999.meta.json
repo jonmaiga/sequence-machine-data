@@ -1,0 +1,27 @@
+{
+  "description": "Denominators of the triangle of fractions read by rows: pf(n,0) = 1, pf(n,n) = 1/(n+1) and pf(n+1,k) = pf(n,k) + pf(n,k-1) with 0 < k < n; denominators: A213998.",
+  "id": "A213999",
+  "mentions": [
+    "A002805",
+    "A003418",
+    "A007395",
+    "A010704",
+    "A027611",
+    "A124838",
+    "A213998",
+    "A214075"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "frac",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

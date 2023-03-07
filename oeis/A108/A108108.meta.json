@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that both 137*k + 139 and 139*k + 137 are primes.",
+  "id": "A108108",
+  "mentions": [
+    "A108027",
+    "A108028"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

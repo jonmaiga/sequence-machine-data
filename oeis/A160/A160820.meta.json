@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=2. For n >=2, a(n) = smallest positive integer > a(n-1) such that Omega(a(n)) = Omega(a(n)-a(n-1)), where Omega(m) = A001222(m).",
+  "id": "A160820",
+  "mentions": [
+    "A001222",
+    "A160819",
+    "A160822"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

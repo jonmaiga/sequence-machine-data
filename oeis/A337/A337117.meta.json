@@ -1,0 +1,20 @@
+{
+  "description": "Spiral on a 2D square lattice, one term per cell, starting at the origin with 0; the four integers forming any 2 X 2 square add up to a palindrome.",
+  "id": "A337117",
+  "mentions": [
+    "A214176",
+    "A337115",
+    "A337116"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

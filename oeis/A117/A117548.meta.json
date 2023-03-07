@@ -1,0 +1,19 @@
+{
+  "description": "Values of n for which there exist d(1),...,d(n), each in {0,1,2} and an r in {1,2} such that Sum[d(i)d(i+k),i=1,n-k]=r (mod 3) for all k=0,...,n-1. (Such a sequence is called a very(3,r) sequence. See the link.).",
+  "id": "A117548",
+  "mentions": [
+    "A053006",
+    "A117549"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

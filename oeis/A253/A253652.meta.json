@@ -1,0 +1,23 @@
+{
+  "description": "Triangular numbers that are the product of a triangular number and an oblong number.",
+  "id": "A253652",
+  "mentions": [
+    "A000217",
+    "A002378",
+    "A083374",
+    "A188630",
+    "A253650",
+    "A253651",
+    "A253653"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

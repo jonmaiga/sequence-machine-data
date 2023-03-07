@@ -1,0 +1,32 @@
+{
+  "description": "Sorted positions of first appearances in A181591 = binomial(bigomega(n), omega(n)).",
+  "id": "A355392",
+  "mentions": [
+    "A000005",
+    "A000712",
+    "A001221",
+    "A001222",
+    "A022811",
+    "A056239",
+    "A070175",
+    "A071625",
+    "A118914",
+    "A181591",
+    "A181819",
+    "A303555",
+    "A323023",
+    "A355384",
+    "A355386",
+    "A355391"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

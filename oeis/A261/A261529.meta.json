@@ -1,0 +1,18 @@
+{
+  "description": "Number k such that k^2 + 1 = p*q*r where p,q,r are distinct primes and the sum p+q+r is a perfect square.",
+  "id": "A261529",
+  "mentions": [
+    "A002522",
+    "A180278"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

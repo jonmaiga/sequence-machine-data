@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,m) = 1 - (ceiling((n-1)/m) + ceiling((n-1)/(n-m+1))) + ceiling((n-1)/1) + ceiling((n-1)/(n-1+1)).",
+  "id": "A176809",
+  "mentions": [
+    "A176298"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

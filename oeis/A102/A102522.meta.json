@@ -1,0 +1,18 @@
+{
+  "description": "Consider A100060 as a binary fraction: this is its decimal fractional equivalent.",
+  "id": "A102522",
+  "mentions": [
+    "A100060"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

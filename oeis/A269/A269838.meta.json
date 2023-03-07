@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=1, then a(n) is the smallest unused multiple of a(A062050(n-1)).",
+  "id": "A269838",
+  "mentions": [
+    "A062050"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

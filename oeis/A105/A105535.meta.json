@@ -1,0 +1,20 @@
+{
+  "description": "Triangular matrix T, read by rows, where diagonal n equals T^(n+1) when flattened (as read by rows), for n>=0.",
+  "id": "A105535",
+  "mentions": [
+    "A105536",
+    "A105537",
+    "A105539"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

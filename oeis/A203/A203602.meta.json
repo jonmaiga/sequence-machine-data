@@ -1,0 +1,18 @@
+{
+  "description": "Inverse permutation to A092401.",
+  "id": "A203602",
+  "mentions": [
+    "A092401"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

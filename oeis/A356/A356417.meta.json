@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose reversal is a square.",
+  "id": "A356417",
+  "mentions": [
+    "A002942",
+    "A004086",
+    "A074896"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

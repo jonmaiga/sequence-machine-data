@@ -1,0 +1,21 @@
+{
+  "description": "The number of permutations p of {1,...,n} such that the numbers 2p(1)-1,...,2p(n)-n are all distinct.",
+  "id": "A322859",
+  "mentions": [
+    "A000212",
+    "A099152"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

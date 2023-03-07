@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k that divide the sum of the digits of k^k.",
+  "id": "A108827",
+  "mentions": [
+    "A108825",
+    "A125526",
+    "A125724"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies A(x) = 1 + x * A(x * (1 - x^3)).",
+  "id": "A360897",
+  "mentions": [
+    "A360886",
+    "A360894",
+    "A360896"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A258881(k) is a square.",
+  "id": "A329179",
+  "mentions": [
+    "A010052",
+    "A258881",
+    "A329386"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number of 9-almost primes 9ap such that 2^n < 9ap <= 2^(n+1).",
+  "id": "A120040",
+  "mentions": [
+    "A036378",
+    "A046312",
+    "A120033",
+    "A120034",
+    "A120035",
+    "A120036",
+    "A120037",
+    "A120038",
+    "A120039",
+    "A120041",
+    "A120042",
+    "A120043"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

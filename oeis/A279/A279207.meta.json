@@ -1,0 +1,20 @@
+{
+  "description": "Number of analytic chord diagrams with n chords.",
+  "id": "A279207",
+  "mentions": [
+    "A007769",
+    "A054499",
+    "A279208"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "The number of semi-meanders with n top arches and concentric arches within the starting arch or a starting arch with length one.",
+  "id": "A330269",
+  "mentions": [
+    "A000136",
+    "A000682"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

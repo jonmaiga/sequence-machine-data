@@ -1,0 +1,20 @@
+{
+  "description": "Heptagonal numbers divisible by 7.",
+  "id": "A117795",
+  "mentions": [
+    "A000566",
+    "A008589",
+    "A047352"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:29:45",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

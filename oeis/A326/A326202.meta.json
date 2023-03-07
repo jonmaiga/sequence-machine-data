@@ -1,0 +1,25 @@
+{
+  "description": "Lexicographically earliest sequence such that for all i, j, a(i) = a(j) => f(i) = f(j), where f(n) = 0 if n > 2 and gcd(n,sigma(n)) = 1, with f(n) = n for all other numbers.",
+  "id": "A326202",
+  "mentions": [
+    "A000203",
+    "A009194",
+    "A014567",
+    "A305801",
+    "A324401",
+    "A325964",
+    "A326200",
+    "A326201",
+    "A326203"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of units u in Z/nZ such that Phi(5,u) is a unit, where Phi is the cyclotomic polynomial.",
+  "id": "A290309",
+  "mentions": [
+    "A058026",
+    "A289460"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

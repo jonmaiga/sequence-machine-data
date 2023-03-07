@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n*453060.",
+  "id": "A134960",
+  "mentions": [
+    "A064730",
+    "A134888",
+    "A134950",
+    "A135639"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:50:59",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 0, a(n) = a(n - 1)*2^(n + 1) + 2^n - 1. That is, add one 0 and n 1's to the binary representation of previous term.",
+  "id": "A215203",
+  "mentions": [
+    "A000217",
+    "A076131",
+    "A215172"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

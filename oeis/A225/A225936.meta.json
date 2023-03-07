@@ -1,0 +1,21 @@
+{
+  "description": "Number of conjugacy classes in simply connected Chevalley group E_7(q) as q runs through the prime powers.",
+  "id": "A225936",
+  "mentions": [
+    "A188161",
+    "A224790",
+    "A225928",
+    "A225938"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

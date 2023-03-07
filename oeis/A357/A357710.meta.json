@@ -1,0 +1,37 @@
+{
+  "description": "Number of integer compositions of n with integer geometric mean.",
+  "id": "A357710",
+  "mentions": [
+    "A011782",
+    "A025047",
+    "A051293",
+    "A067538",
+    "A067539",
+    "A078174",
+    "A078175",
+    "A102627",
+    "A271654",
+    "A320322",
+    "A326027",
+    "A326028",
+    "A326622",
+    "A326623",
+    "A326624",
+    "A326625",
+    "A326641",
+    "A339452",
+    "A357182",
+    "A357183",
+    "A357490"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

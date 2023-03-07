@@ -1,0 +1,19 @@
+{
+  "description": "Number of abstract dissection types of configurations of n points in n+3 dimensions.",
+  "id": "A246992",
+  "mentions": [
+    "A063858"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "changed",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Least primary Carmichael number (A324316) with n prime factors.",
+  "id": "A306657",
+  "mentions": [
+    "A002997",
+    "A006931",
+    "A324316"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 3,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

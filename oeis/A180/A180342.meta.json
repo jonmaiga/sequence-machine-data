@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = the smallest number k such that the smallest prime factor of k^2 + 1 equals A002144(n).",
+  "id": "A180342",
+  "mentions": [
+    "A002144",
+    "A002314",
+    "A002522"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

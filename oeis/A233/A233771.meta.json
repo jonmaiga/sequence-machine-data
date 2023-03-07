@@ -1,0 +1,21 @@
+{
+  "description": "Number of nonpalindromic partitions of n.",
+  "id": "A233771",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A025065",
+    "A210249"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

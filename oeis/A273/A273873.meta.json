@@ -1,0 +1,23 @@
+{
+  "description": "Number of strict trees of weight n.",
+  "id": "A273873",
+  "mentions": [
+    "A063834",
+    "A196545",
+    "A220418",
+    "A220420",
+    "A271619",
+    "A289501"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

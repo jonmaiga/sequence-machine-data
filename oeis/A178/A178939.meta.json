@@ -1,0 +1,20 @@
+{
+  "description": "Maximal AND-OR-XOR formula complexity (operator count) for n-input Boolean functions.",
+  "id": "A178939",
+  "mentions": [
+    "A056287"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

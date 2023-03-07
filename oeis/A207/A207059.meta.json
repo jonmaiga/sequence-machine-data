@@ -1,0 +1,23 @@
+{
+  "description": "Nonnegative values x of solutions (x, y) to the Diophantine equation x^2 + (x+289)^2 = y^2.",
+  "id": "A207059",
+  "mentions": [
+    "A066436",
+    "A204765",
+    "A205644",
+    "A205672",
+    "A207058"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:27",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

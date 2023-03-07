@@ -1,0 +1,50 @@
+{
+  "description": "Number of permutations of the multiset of prime factors of n (or ordered prime factorizations of n) with all distinct runs.",
+  "id": "A351202",
+  "mentions": [
+    "A001055",
+    "A001221",
+    "A001222",
+    "A003242",
+    "A005811",
+    "A008480",
+    "A032020",
+    "A044813",
+    "A056239",
+    "A061395",
+    "A098859",
+    "A112798",
+    "A116608",
+    "A175413",
+    "A238130",
+    "A238279",
+    "A242882",
+    "A283353",
+    "A297770",
+    "A328592",
+    "A329739",
+    "A351013",
+    "A351014",
+    "A351015",
+    "A351016",
+    "A351017",
+    "A351018",
+    "A351200",
+    "A351201",
+    "A351203",
+    "A351204",
+    "A351290",
+    "A351291",
+    "A351292"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

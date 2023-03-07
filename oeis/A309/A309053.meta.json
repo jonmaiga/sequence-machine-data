@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array T read by rows: T(r,c) is the number of double permutations of the integers from 1 to r which have exactly c different values visible when viewed from the left, in the sense that a higher number hides a lower one.",
+  "id": "A309053",
+  "mentions": [
+    "A001044",
+    "A001147",
+    "A132393"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

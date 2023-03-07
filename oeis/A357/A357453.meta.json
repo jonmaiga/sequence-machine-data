@@ -1,0 +1,23 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into tetranacci numbers 1,2,4,8,15,29, ... (A000078).",
+  "id": "A357453",
+  "mentions": [
+    "A000078",
+    "A076739",
+    "A287656",
+    "A357451",
+    "A357452",
+    "A357455"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

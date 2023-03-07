@@ -1,0 +1,19 @@
+{
+  "description": "Last block of length-n to appear for the first time in the Kolakoski sequence K (A000002).",
+  "id": "A283512",
+  "mentions": [
+    "A000002",
+    "A007782",
+    "A283511"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

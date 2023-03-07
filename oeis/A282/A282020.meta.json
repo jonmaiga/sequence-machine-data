@@ -1,0 +1,21 @@
+{
+  "description": "Coefficients in q-expansion of (E_2^3 - E_2*E_4)/288, where E_2 and E_4 are the Eisenstein series shown in A006352 and A004009, respectively.",
+  "id": "A282020",
+  "mentions": [
+    "A004009",
+    "A006352",
+    "A282018",
+    "A282019"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

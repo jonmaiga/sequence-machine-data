@@ -1,0 +1,20 @@
+{
+  "description": "Number of overpartitions of n minus the number of partitions of n.",
+  "id": "A230441",
+  "mentions": [
+    "A000041",
+    "A015128",
+    "A235792"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:04:32",
+    "offset": 0,
+    "size": 42,
+    "source": "joeis"
+  }
+}

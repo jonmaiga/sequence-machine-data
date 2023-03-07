@@ -1,0 +1,17 @@
+{
+  "description": "Number of colored set partitions of [n] where colors of the elements of subsets are distinct and in increasing order and all colors of an initial interval of the color palette are used.",
+  "id": "A325478",
+  "mentions": [
+    "A322670"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

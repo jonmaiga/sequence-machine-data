@@ -1,0 +1,19 @@
+{
+  "description": "Xmas tree primes.",
+  "id": "A195302",
+  "mentions": [
+    "A000217",
+    "A195335"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

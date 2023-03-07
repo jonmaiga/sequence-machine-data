@@ -1,0 +1,20 @@
+{
+  "description": "Multiples of 9 which cannot be expressed as the difference between a natural number k and its digit sum s(k).",
+  "id": "A282473",
+  "mentions": [
+    "A003052",
+    "A176995"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

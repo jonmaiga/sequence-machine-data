@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the sum of middle divisors of the n-th number that has middle divisors.",
+  "id": "A299777",
+  "mentions": [
+    "A071090",
+    "A071562",
+    "A281007"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

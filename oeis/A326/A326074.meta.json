@@ -1,0 +1,28 @@
+{
+  "description": "Numbers n for which A326073(n) is equal to abs(1+A326146(n)).",
+  "id": "A326074",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A001065",
+    "A020639",
+    "A048050",
+    "A061228",
+    "A325960",
+    "A325961",
+    "A326064",
+    "A326073",
+    "A326146",
+    "A326148"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

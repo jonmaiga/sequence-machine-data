@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of partial functions on n labeled objects in which the domain of definition contains exactly k elements such that for all i in {1,2,3,...}, (f^i)(x) is defined.",
+  "id": "A185390",
+  "mentions": [
+    "A000169",
+    "A000272",
+    "A000312"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

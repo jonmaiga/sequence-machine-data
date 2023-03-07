@@ -1,0 +1,18 @@
+{
+  "description": "Positive numbers that are primitively represented by the indefinite quadratic form x^2 - 3y^2 of discriminant 12.",
+  "id": "A243655",
+  "mentions": [
+    "A068228",
+    "A084916"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

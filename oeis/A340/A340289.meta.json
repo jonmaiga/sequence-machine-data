@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=1..floor(n/2)} floor(k^(1/(n-k))*(n-k)^(1/k)).",
+  "id": "A340289",
+  "mentions": [
+    "A340288"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

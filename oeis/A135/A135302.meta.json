@@ -1,0 +1,32 @@
+{
+  "description": "Square array of numbers A(n,k) (n>=0, k>=0) of transitive reflexive early confluent binary relations R on n labeled elements where |{y : xRy}| <= k for all x, read by antidiagonals.",
+  "id": "A135302",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000670",
+    "A052880",
+    "A135312",
+    "A135313",
+    "A210911",
+    "A210912",
+    "A210913",
+    "A210914",
+    "A210915",
+    "A210916",
+    "A210917",
+    "A210918"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

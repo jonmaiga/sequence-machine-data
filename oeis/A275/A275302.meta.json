@@ -1,0 +1,22 @@
+{
+  "description": "Iterations at which Langton's Ant living on triangular tiling passes through the origin.",
+  "id": "A275302",
+  "mentions": [
+    "A102358",
+    "A204810",
+    "A269757",
+    "A275303",
+    "A275304",
+    "A275305"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

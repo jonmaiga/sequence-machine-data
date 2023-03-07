@@ -1,0 +1,23 @@
+{
+  "description": "Number of quasigroups of order <= n.",
+  "id": "A118127",
+  "mentions": [
+    "A002860",
+    "A057771",
+    "A057991",
+    "A057994",
+    "A057996",
+    "A118641"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

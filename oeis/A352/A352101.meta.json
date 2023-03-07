@@ -1,0 +1,20 @@
+{
+  "description": "The numbers formed by removing the required prime factors to form the number from a set which is initially empty and that has primes added via the addition of the missing prime factors of numbers which cannot be created from those currently in the set. Start by trying to create the number 2.",
+  "id": "A352101",
+  "mentions": [
+    "A109895",
+    "A330430",
+    "A331276",
+    "A337486"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

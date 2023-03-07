@@ -1,0 +1,23 @@
+{
+  "description": "Indices of nonprimes in A098550.",
+  "id": "A251392",
+  "mentions": [
+    "A000027",
+    "A010051",
+    "A018252",
+    "A098550",
+    "A239968",
+    "A251239",
+    "A251240"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

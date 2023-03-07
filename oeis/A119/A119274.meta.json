@@ -1,0 +1,28 @@
+{
+  "description": "Triangle of coefficients of numerators in Padé approximation to exp(x).",
+  "id": "A119274",
+  "mentions": [
+    "A001497",
+    "A001517",
+    "A001813",
+    "A054142",
+    "A113025",
+    "A119275",
+    "A134685",
+    "A264428",
+    "A265606"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

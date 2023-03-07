@@ -1,0 +1,18 @@
+{
+  "description": "Number of set partitions of [n] with minimal block length multiplicity equal to five.",
+  "id": "A271765",
+  "mentions": [
+    "A271424"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 5,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

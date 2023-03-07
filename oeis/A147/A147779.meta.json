@@ -1,0 +1,21 @@
+{
+  "description": "Squarefree positive integers of the form u*v*(u^2-v^2) for some integer u,v.",
+  "id": "A147779",
+  "mentions": [
+    "A003273",
+    "A006991",
+    "A073120",
+    "A147778"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

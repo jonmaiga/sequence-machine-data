@@ -1,0 +1,22 @@
+{
+  "description": "Number of 3-tuples of nonnegative integers less than p for which 3-argument multinomial coefficients support a Lucas congruence modulo p^2, where p is the n-th prime.",
+  "id": "A348885",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A348883",
+    "A348884",
+    "A348886",
+    "A348887"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

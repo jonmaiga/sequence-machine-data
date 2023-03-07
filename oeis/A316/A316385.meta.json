@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that for any n > 0, a(n) AND a(2*n) = a(n) (where AND denotes the binary AND operator).",
+  "id": "A316385",
+  "mentions": [
+    "A004755",
+    "A004761",
+    "A020989",
+    "A316472"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

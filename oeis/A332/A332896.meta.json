@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 0, and for n > 1, a(n) = 2*a(A332893(n)) + [n == 3 (mod 4)].",
+  "id": "A332896",
+  "mentions": [
+    "A000975",
+    "A108546",
+    "A292383",
+    "A332815",
+    "A332893",
+    "A332895"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

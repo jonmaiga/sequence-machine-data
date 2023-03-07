@@ -1,0 +1,20 @@
+{
+  "description": "Largest power of 2 dividing prime(n+1) - prime(n), the n-th consecutive prime difference.",
+  "id": "A100374",
+  "mentions": [
+    "A001223",
+    "A006519",
+    "A023520"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:34:59",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

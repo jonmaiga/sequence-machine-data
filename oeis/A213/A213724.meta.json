@@ -1,0 +1,25 @@
+{
+  "description": "Largest natural number x such that x = n + A000120(x), or zero if no such number exists.",
+  "id": "A213724",
+  "mentions": [
+    "A000120",
+    "A005187",
+    "A005408",
+    "A079559",
+    "A179016",
+    "A213723",
+    "A213725",
+    "A213727"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

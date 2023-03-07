@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows: T(n, k) is the k-th antidiagonal sum of the n X n matrices defined in A069480 and A078475.",
+  "id": "A342797",
+  "mentions": [
+    "A000290",
+    "A006003",
+    "A037270",
+    "A060747",
+    "A069480",
+    "A078475"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = sigma(n) - 3*d(n) + 3.",
+  "id": "A152772",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A152770",
+    "A152771"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

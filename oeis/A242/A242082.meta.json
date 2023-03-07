@@ -1,0 +1,25 @@
+{
+  "description": "Nim sequence of game on n counters whose legal moves are removing some number of counters in A027941.",
+  "id": "A242082",
+  "mentions": [
+    "A000201",
+    "A001950",
+    "A026352",
+    "A027941",
+    "A089910",
+    "A159917",
+    "A188432",
+    "A270788"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

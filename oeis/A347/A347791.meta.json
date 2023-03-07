@@ -1,0 +1,20 @@
+{
+  "description": "Inventory sequence using prime divisors (with multiplicity): Record the number of terms thus far which are divisible by every prime, then the number of terms thus far not divisible by any prime, then the number divisible (once) by a single prime, then 2 (including with multiplicity), then 3 etc until a zero is recorded. Repeat after every zero term.",
+  "id": "A347791",
+  "mentions": [
+    "A001222",
+    "A342585",
+    "A347738"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

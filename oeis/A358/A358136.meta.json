@@ -1,0 +1,32 @@
+{
+  "description": "Irregular triangle read by rows whose n-th row lists the partial sums of the prime indices of n (row n of A112798).",
+  "id": "A358136",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000720",
+    "A001221",
+    "A001222",
+    "A003963",
+    "A055396",
+    "A056239",
+    "A112798",
+    "A318283",
+    "A325362",
+    "A355536",
+    "A358133",
+    "A358134",
+    "A358137"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

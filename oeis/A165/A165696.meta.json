@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the smallest number m such that the n numbers A004086(m^k) (digit reversal of m^k) for 0 < k < n+1 are all primes.",
+  "id": "A165696",
+  "mentions": [
+    "A004086",
+    "A118212",
+    "A118213",
+    "A165697",
+    "A165698",
+    "A165699"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

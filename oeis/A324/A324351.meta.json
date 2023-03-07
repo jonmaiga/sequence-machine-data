@@ -1,0 +1,25 @@
+{
+  "description": "Square array read by antidiagonals: A(x,y) is the result from writing x and y in primorial base (A049345) and starting from their least significant ends, always choosing a minimal digit from each digit position, and converting back to decimal.",
+  "id": "A324351",
+  "mentions": [
+    "A001477",
+    "A002110",
+    "A049345",
+    "A276085",
+    "A276086",
+    "A324350"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

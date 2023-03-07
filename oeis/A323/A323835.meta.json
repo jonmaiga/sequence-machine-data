@@ -1,0 +1,21 @@
+{
+  "description": "Start with n and repeatedly double it and apply the \"delete multiple digits\" map m -> A320485(m); a(n) is the number of steps needed to reach either 0 or 1, or -1 if neither 0 nor 1 is ever reached.",
+  "id": "A323835",
+  "mentions": [
+    "A320485",
+    "A320486",
+    "A320487",
+    "A323832"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

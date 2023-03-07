@@ -1,0 +1,21 @@
+{
+  "description": "The smallest base b where the sum of the digits for the number n in the base b is the smallest, with 1 < b < n and a(1) = a(2) = 1.",
+  "id": "A329814",
+  "mentions": [
+    "A001597",
+    "A075802",
+    "A088905"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Least positive integer k such that tan(n*k)*tan(n*k + k) < 0.",
+  "id": "A332499",
+  "mentions": [
+    "A327422",
+    "A327423",
+    "A332488",
+    "A332489"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

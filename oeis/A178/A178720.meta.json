@@ -1,0 +1,24 @@
+{
+  "description": "Degree of denominator of GF for number of ways to place k nonattacking queens on an n X n toroidal board.",
+  "id": "A178720",
+  "mentions": [
+    "A000010",
+    "A000045",
+    "A172517",
+    "A172518",
+    "A172519",
+    "A173775",
+    "A178717"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

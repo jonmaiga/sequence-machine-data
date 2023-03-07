@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of primes occurring between A053182(n) and A053183(n) (excluding the endpoints).",
+  "id": "A238399",
+  "mentions": [
+    "A053182",
+    "A053183"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

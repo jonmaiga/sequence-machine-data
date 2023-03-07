@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of graphs on n unlabeled nodes with total domination number k, n >= 2, 2 <= k <= n.",
+  "id": "A332400",
+  "mentions": [
+    "A002494",
+    "A263284",
+    "A286958",
+    "A332406"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

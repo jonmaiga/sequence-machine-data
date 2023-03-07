@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that Sum_{i=1..k} (i-tau(i))^i == 0 (mod k), where tau(i) = A000005(i), the number of divisors of i, and i-tau(i) = A049820(i).",
+  "id": "A229210",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A049820",
+    "A227427",
+    "A227429",
+    "A227502",
+    "A227848",
+    "A229095",
+    "A229207",
+    "A229209",
+    "A229211"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

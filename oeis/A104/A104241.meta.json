@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the first zero of the solution to a certain ODE (negated).",
+  "id": "A104241",
+  "mentions": [
+    "A104996",
+    "A104997",
+    "A105372"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

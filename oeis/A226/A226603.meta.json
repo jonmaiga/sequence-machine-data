@@ -1,0 +1,19 @@
+{
+  "description": "Let c(n) be the n-th number in the sequence of odd composite numbers that are not squares of primes, and let p = c(n)*2^k + 1 (with k > 0) and m be the smallest integer satisfying congruence 2^m == 1 (mod p). The number a(n) is the least k such that p is prime and c(n) does not divide m, or 0 if no such value exists.",
+  "id": "A226603",
+  "mentions": [
+    "A226025"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

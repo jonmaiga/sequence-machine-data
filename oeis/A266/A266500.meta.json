@@ -1,0 +1,20 @@
+{
+  "description": "Number of n X n (0,1)-matrices such that the row sums are all different from the column sums.",
+  "id": "A266500",
+  "mentions": [
+    "A266501"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

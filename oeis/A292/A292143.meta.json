@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (-4)^(1 - k mod 2) * T(n-k,k-1) + T(n-k,k) with T(0,0) = 1 for 0 <= k <= A003056(n).",
+  "id": "A292143",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A003056",
+    "A292049",
+    "A292141"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

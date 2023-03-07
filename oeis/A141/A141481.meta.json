@@ -1,0 +1,21 @@
+{
+  "description": "Square spiral of sums of selected preceding terms, starting at 1.",
+  "id": "A141481",
+  "mentions": [
+    "A063826",
+    "A094767",
+    "A094768",
+    "A094769",
+    "A126937"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

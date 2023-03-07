@@ -1,0 +1,28 @@
+{
+  "description": "b(n, 2) where b(n, m) is defined by expansion of ((Product_{k>=1} (1 - x^(prime(n)*k))/(1 - x^k)^prime(n)) - 1)/prime(n) in powers of x.",
+  "id": "A277992",
+  "mentions": [
+    "A000712",
+    "A000716",
+    "A014968",
+    "A023004",
+    "A023006",
+    "A023010",
+    "A098090",
+    "A160549",
+    "A277912",
+    "A277968",
+    "A277974"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Solutions of the equation (n+2)' = (n+1)' + n', where n' is the arithmetic derivative of n.",
+  "id": "A241214",
+  "mentions": [
+    "A003415"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

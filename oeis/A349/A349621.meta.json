@@ -1,0 +1,25 @@
+{
+  "description": "Dirichlet convolution of A003415 with the Dirichlet inverse of A003959.",
+  "id": "A349621",
+  "mentions": [
+    "A003415",
+    "A003959",
+    "A063441",
+    "A349173",
+    "A349394",
+    "A349618",
+    "A349619",
+    "A349620"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

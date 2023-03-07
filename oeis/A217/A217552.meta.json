@@ -1,0 +1,20 @@
+{
+  "description": "A constant relating to generating primes from fractions involving Bernoulli numbers, and the greedy sequence of prime offsets.",
+  "id": "A217552",
+  "mentions": [
+    "A135311",
+    "A217926"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

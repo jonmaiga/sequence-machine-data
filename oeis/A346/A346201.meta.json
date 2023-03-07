@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of n X n matrices over GF(2) such that the sum of the dimensions of their eigenspaces taken over all eigenvalues is k, 0 <= k <= n, n >= 0.",
+  "id": "A346201",
+  "mentions": [
+    "A001037",
+    "A002416",
+    "A002820",
+    "A132186"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

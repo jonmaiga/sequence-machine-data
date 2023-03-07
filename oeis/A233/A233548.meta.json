@@ -1,0 +1,21 @@
+{
+  "description": "1, 1, followed by denominators of A000217(n)*A164555(n)/A027642(n).",
+  "id": "A233548",
+  "mentions": [
+    "A000217",
+    "A027642",
+    "A164555",
+    "A233316"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": -2,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

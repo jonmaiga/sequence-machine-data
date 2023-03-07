@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A255458(2^n-1).",
+  "id": "A255459",
+  "mentions": [
+    "A255458"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

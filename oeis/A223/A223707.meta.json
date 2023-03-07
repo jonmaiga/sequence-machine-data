@@ -1,0 +1,18 @@
+{
+  "description": "Conjectured least number k such that prime(n) is the largest divisor of k^3 + 1, or 0 if there is no such k.",
+  "id": "A223707",
+  "mentions": [
+    "A223701",
+    "A223706"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

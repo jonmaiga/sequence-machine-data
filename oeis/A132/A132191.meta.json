@@ -1,0 +1,28 @@
+{
+  "description": "Square array a(m,n) read by antidiagonals, defined by A000010(n)*a(m,n) = Sum_{k=1..n, gcd(k,n)=1} m^{ Sum_{d|n} A000010(d)/ (multiplicative order of k modulo d) }.",
+  "id": "A132191",
+  "mentions": [
+    "A000010",
+    "A000290",
+    "A002411",
+    "A019582",
+    "A056371",
+    "A056372",
+    "A056373",
+    "A056374",
+    "A056375",
+    "A285522",
+    "A285548"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

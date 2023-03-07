@@ -1,0 +1,20 @@
+{
+  "description": "For any number n >= 0 with binary expansion Sum_{k = 0..w} b(k)*2^k, a(n) = (b(0)*A340399(0)) XOR ... XOR (b(w)*A340399(w)) (where XOR denotes the bitwise XOR operator).",
+  "id": "A340401",
+  "mentions": [
+    "A340399",
+    "A340402",
+    "A340477"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

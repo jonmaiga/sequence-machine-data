@@ -1,0 +1,17 @@
+{
+  "description": "n+phi(n)+phi(phi(n)) is a prime.",
+  "id": "A116045",
+  "mentions": [
+    "A068080"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

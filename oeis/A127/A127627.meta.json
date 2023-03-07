@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) = A054525(n,k)*A018804(k), read by rows 1<=k<=n.",
+  "id": "A127627",
+  "mentions": [
+    "A008683",
+    "A018804",
+    "A029935",
+    "A054525"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

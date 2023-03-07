@@ -1,0 +1,22 @@
+{
+  "description": "Exponential primorial constant Sum_{k>=0} 1/A140319(k).",
+  "id": "A167155",
+  "mentions": [
+    "A080219",
+    "A140319"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "changed",
+    "cons",
+    "easy",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

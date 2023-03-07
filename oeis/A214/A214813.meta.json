@@ -1,0 +1,21 @@
+{
+  "description": "Maximal contact number of a subset of n balls from the face-centered cubic lattice.",
+  "id": "A214813",
+  "mentions": [
+    "A004015",
+    "A005901",
+    "A008486",
+    "A038173"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

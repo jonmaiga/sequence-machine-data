@@ -1,0 +1,17 @@
+{
+  "description": "Number of -7..7 arrays x(0..n-1) of n elements with zero sum, and adjacent elements not equal modulo three (with -1 modulo 3 = 2)",
+  "id": "A199908",
+  "mentions": [
+    "A199909"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

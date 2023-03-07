@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that 6n-5 and 6n-1 are both primes.",
+  "id": "A186243",
+  "mentions": [
+    "A023200",
+    "A046132",
+    "A088765"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

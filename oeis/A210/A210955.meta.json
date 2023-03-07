@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows: T(n,k) = total number of parts <= k in the last section of the set of partitions of n.",
+  "id": "A210955",
+  "mentions": [
+    "A000041",
+    "A135010",
+    "A138121",
+    "A138137",
+    "A182703",
+    "A206437",
+    "A206562",
+    "A207031",
+    "A207032",
+    "A207383",
+    "A208476",
+    "A210947",
+    "A210956"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

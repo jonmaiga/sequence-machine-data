@@ -1,0 +1,22 @@
+{
+  "description": "Smallest x such that n can be written as n = x^2 + y^2 + z^2 with x >= y >= z >= 0, or -1 if no such x exists.",
+  "id": "A261915",
+  "mentions": [
+    "A000378",
+    "A004215",
+    "A005875",
+    "A122921",
+    "A178786",
+    "A261904"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

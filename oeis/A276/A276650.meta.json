@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form prime(n)^n - PrimePi(n).",
+  "id": "A276650",
+  "mentions": [
+    "A000720",
+    "A062457"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

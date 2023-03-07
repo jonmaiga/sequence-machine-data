@@ -1,0 +1,32 @@
+{
+  "description": "Number triangle T associated with 2-Stirling numbers and Lehmer-Comtet numbers (see Comments and Formula section).",
+  "id": "A360657",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000096",
+    "A000169",
+    "A049444",
+    "A055869",
+    "A088956",
+    "A094587",
+    "A143494",
+    "A354794",
+    "A354795",
+    "A360753"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

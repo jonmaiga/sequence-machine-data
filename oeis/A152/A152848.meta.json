@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows, A007318 rows repeated ten times .",
+  "id": "A152848",
+  "mentions": [
+    "A007318",
+    "A103378",
+    "A152198",
+    "A152815",
+    "A152828",
+    "A152830",
+    "A152831",
+    "A152844",
+    "A152845",
+    "A152846",
+    "A152847"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

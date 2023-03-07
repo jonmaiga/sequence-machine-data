@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle T(n, k) read by rows, n >= 0, k = 1..A117546(n); the n-th row contains the numbers m such that A356964(m) = n, in increasing order.",
+  "id": "A356974",
+  "mentions": [
+    "A000045",
+    "A000073",
+    "A003726",
+    "A003796",
+    "A117546",
+    "A345101",
+    "A356964"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

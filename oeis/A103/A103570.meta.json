@@ -1,0 +1,18 @@
+{
+  "description": "Sum of the (primes > 5 modulo 13).",
+  "id": "A103570",
+  "mentions": [
+    "A039711"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

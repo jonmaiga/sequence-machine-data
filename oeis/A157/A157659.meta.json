@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 100*n^2 - n.",
+  "id": "A157659",
+  "mentions": [
+    "A157660",
+    "A157661",
+    "A157955",
+    "A157995"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

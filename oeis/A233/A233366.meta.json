@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k)=Number of (n+1)X(k+1) 0..1 arrays x(i,j) with row sums sum{j*x(i,j), j=1..k+1} nondecreasing, and column sums sum{i^2*x(i,j), i=1..n+1} nondecreasing",
+  "id": "A233366",
+  "mentions": [
+    "A232825",
+    "A232871"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

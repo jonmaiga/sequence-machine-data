@@ -1,0 +1,22 @@
+{
+  "description": "Union of A000695 and 2*A000695.",
+  "id": "A126684",
+  "mentions": [
+    "A000695",
+    "A032937",
+    "A033053",
+    "A062880"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

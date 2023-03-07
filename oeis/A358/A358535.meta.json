@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1; let S(n) = Sum_{j=1..n-1} a(j) and let T(n) = Sum_{j=1..n-1} d(a(j)) where d(n) = A000005(n). a(n) = least novel k such that (T(n)+d(k)) | (S(n)+k).",
+  "id": "A358535",
+  "mentions": [
+    "A000005"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

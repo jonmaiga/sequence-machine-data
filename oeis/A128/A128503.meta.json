@@ -1,0 +1,23 @@
+{
+  "description": "Array for second (k=2) convolution of Chebyshev's S(n,x)=U(n,x/2) polynomials.",
+  "id": "A128503",
+  "mentions": [
+    "A001628",
+    "A128502",
+    "A128504",
+    "A128505"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

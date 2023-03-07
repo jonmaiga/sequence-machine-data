@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k > 0} d^k(n), where d^k corresponds to the k-th iterate of A296239.",
+  "id": "A309416",
+  "mentions": [
+    "A000045",
+    "A296239"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

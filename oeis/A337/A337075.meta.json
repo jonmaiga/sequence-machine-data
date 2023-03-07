@@ -1,0 +1,41 @@
+{
+  "description": "Number of strict chains of divisors in A130091 (numbers with distinct prime multiplicities) starting with a proper divisor of n! and ending with 1.",
+  "id": "A337075",
+  "mentions": [
+    "A000005",
+    "A001055",
+    "A002033",
+    "A032741",
+    "A071625",
+    "A074206",
+    "A098859",
+    "A124010",
+    "A130091",
+    "A181796",
+    "A253249",
+    "A294068",
+    "A327498",
+    "A327499",
+    "A327500",
+    "A327523",
+    "A336414",
+    "A336423",
+    "A336424",
+    "A336425",
+    "A336569",
+    "A336571",
+    "A337071",
+    "A337104"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of extrema that result from iterating the reduced Collatz function R(k) = A139391(k) on 2n-1 to yield 1.",
+  "id": "A349954",
+  "mentions": [
+    "A075677",
+    "A075680",
+    "A122458",
+    "A139391",
+    "A256598",
+    "A351974"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

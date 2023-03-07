@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-step self-avoiding walks on the f.c.c. lattice with no non-contiguous adjacencies.",
+  "id": "A336907",
+  "mentions": [
+    "A001336",
+    "A174319",
+    "A336906"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Number of binary carry-connected subsets of {1...n}.",
+  "id": "A325105",
+  "mentions": [
+    "A019565",
+    "A080572",
+    "A247935",
+    "A304714",
+    "A304716",
+    "A305078",
+    "A306297",
+    "A306299",
+    "A325095",
+    "A325098",
+    "A325099",
+    "A325104",
+    "A325107",
+    "A325118",
+    "A325119"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

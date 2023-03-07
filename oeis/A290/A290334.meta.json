@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are not the sum of three or fewer terms from A020330.",
+  "id": "A290334",
+  "mentions": [
+    "A020330",
+    "A290335",
+    "A298731"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

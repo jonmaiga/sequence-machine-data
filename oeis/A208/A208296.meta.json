@@ -1,0 +1,27 @@
+{
+  "description": "Smallest positive nontrivial odd solution of the congruence x^2 == 1 (mod A001748(n+2)), n >= 1.",
+  "id": "A208296",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A001748",
+    "A002476",
+    "A007528",
+    "A024699",
+    "A033949",
+    "A060594",
+    "A203571",
+    "A207336"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

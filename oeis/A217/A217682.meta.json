@@ -1,0 +1,20 @@
+{
+  "description": "Record bases for first finding prime by concatenation of numbers decremented from terms of A217681.",
+  "id": "A217682",
+  "mentions": [
+    "A217681"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "less",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

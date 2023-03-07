@@ -1,0 +1,17 @@
+{
+  "description": "Consecutive values produced by the C++ mt19937 (Mersenne twister) random number generator with the default seed (5489).",
+  "id": "A221557",
+  "mentions": [
+    "A221558"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

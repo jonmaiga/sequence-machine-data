@@ -1,0 +1,19 @@
+{
+  "description": "First differences of A140298.",
+  "id": "A140313",
+  "mentions": [
+    "A003462",
+    "A140298"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

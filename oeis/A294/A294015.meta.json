@@ -1,0 +1,23 @@
+{
+  "description": "Sum of the even divisors of 2n, minus the (n-1)st odd number.",
+  "id": "A294015",
+  "mentions": [
+    "A000203",
+    "A005408",
+    "A074400",
+    "A235796",
+    "A294016",
+    "A294017"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:58:41",
+    "offset": 1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

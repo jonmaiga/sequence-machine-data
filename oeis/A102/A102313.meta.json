@@ -1,0 +1,17 @@
+{
+  "description": "Least number k such that k^3 is the sum of n positive squares.",
+  "id": "A102313",
+  "mentions": [
+    "A100499"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Ramsey-Comer numbers: a(n) is the smallest prime p congruent to 1 mod 2n such that for every prime q >= p (also congruent to 1 mod 2n), the multiplicative subgroup H of (Z/qZ)* of index n contains a solution to x+y = z.",
+  "id": "A294676",
+  "mentions": [
+    "A263308"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

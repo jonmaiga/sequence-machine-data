@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of exp(gamma) in base 2.",
+  "id": "A261178",
+  "mentions": [
+    "A001113",
+    "A001620",
+    "A073004"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 123,
+    "source": "oeis-bfile"
+  }
+}

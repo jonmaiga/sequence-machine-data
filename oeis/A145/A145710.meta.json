@@ -1,0 +1,22 @@
+{
+  "description": "Number of primes among first 10^n primes that have first and last digits both equal 3 (not counting the prime 3).",
+  "id": "A145710",
+  "mentions": [
+    "A145709",
+    "A145711",
+    "A145712",
+    "A145713"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

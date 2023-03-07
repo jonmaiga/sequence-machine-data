@@ -1,0 +1,17 @@
+{
+  "description": "If n-th prime is 4m - 1, then a(n) = 4m + 1. If n-th prime is 4m + 1, then a(n) = 4m - 1.",
+  "id": "A108245",
+  "mentions": [
+    "A107323"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 2,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

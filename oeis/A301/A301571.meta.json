@@ -1,0 +1,20 @@
+{
+  "description": "Number of vertices at distance 2 from a given vertex in the n-Keller graph.",
+  "id": "A301571",
+  "mentions": [
+    "A284850",
+    "A292056"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

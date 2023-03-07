@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least r > 1 for which the interval (r*(2*n-1), r*(2*n+1)) contains no prime, or 0 if no such r exists.",
+  "id": "A218850",
+  "mentions": [
+    "A218769",
+    "A218831"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

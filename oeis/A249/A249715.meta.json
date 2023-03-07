@@ -1,0 +1,20 @@
+{
+  "description": "Positions of records in A249695.",
+  "id": "A249715",
+  "mentions": [
+    "A086224",
+    "A249440",
+    "A249695",
+    "A249714"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

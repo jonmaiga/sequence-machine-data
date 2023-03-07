@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct characteristic polynomials of n X n matrices with elements {-1, +1}.",
+  "id": "A272662",
+  "mentions": [
+    "A272658",
+    "A272659",
+    "A272660",
+    "A272661",
+    "A272663"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

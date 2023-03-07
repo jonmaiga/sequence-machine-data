@@ -1,0 +1,22 @@
+{
+  "description": "Highly composite partition numbers.",
+  "id": "A154790",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A085543",
+    "A085544",
+    "A154788",
+    "A154789"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

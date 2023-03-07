@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least positive integer not occurring earlier in the sequence such that, if a(m) = a(n)+1, then |m - n| >= a(n).",
+  "id": "A355506",
+  "mentions": [
+    "A136119",
+    "A184119",
+    "A353592"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

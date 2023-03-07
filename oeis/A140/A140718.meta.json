@@ -1,0 +1,17 @@
+{
+  "description": "This is the beginning of a Prime Chain of 224 terms consisting of the output of 2x^2 +29 repeated four times, alternating with these same terms in reverse within a procedural expression of a single polynomial.",
+  "id": "A140718",
+  "mentions": [
+    "A140708"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

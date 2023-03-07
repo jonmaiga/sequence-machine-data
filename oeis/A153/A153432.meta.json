@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that all ten numbers 10^k*m+1; k=0,1,...,9 are prime.",
+  "id": "A153432",
+  "mentions": [
+    "A153431",
+    "A153433"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

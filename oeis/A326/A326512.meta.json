@@ -1,0 +1,29 @@
+{
+  "description": "Number of set partitions of {1..n} where every block has the same average.",
+  "id": "A326512",
+  "mentions": [
+    "A000110",
+    "A007837",
+    "A035470",
+    "A038041",
+    "A275780",
+    "A306017",
+    "A306021",
+    "A319169",
+    "A326513",
+    "A326515",
+    "A326520",
+    "A326536"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

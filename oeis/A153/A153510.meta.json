@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction for the positive solution of the equation x^x = 2.",
+  "id": "A153510",
+  "mentions": [
+    "A030798"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Autobiographical numbers k whose decimal digits are a concatenation count(0), count(1), ..., count(m) for some m, where count(j) is the number of (possibly overlapping) occurrences of j within the digits of k itself.",
+  "id": "A359049",
+  "mentions": [
+    "A046043",
+    "A138480"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

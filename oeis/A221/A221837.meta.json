@@ -1,0 +1,19 @@
+{
+  "description": "Number of integer Heron triangles of height n such that the angles adjacent to the base are not right.",
+  "id": "A221837",
+  "mentions": [
+    "A046079",
+    "A221838"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

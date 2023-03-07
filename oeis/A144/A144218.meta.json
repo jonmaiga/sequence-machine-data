@@ -1,0 +1,20 @@
+{
+  "description": "Eigentriangle, row sums and borders = offset variations of Motzkin numbers",
+  "id": "A144218",
+  "mentions": [
+    "A001006",
+    "A086246"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Product_{p<=n, p prime} binomial(n,p).",
+  "id": "A334038",
+  "mentions": [
+    "A000040",
+    "A001142",
+    "A010051",
+    "A121497"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

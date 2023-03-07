@@ -1,0 +1,20 @@
+{
+  "description": "Semiprimes q such that q^2+3 and q^2-3 are also semiprimes.",
+  "id": "A173083",
+  "mentions": [
+    "A001358",
+    "A074985",
+    "A173082"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

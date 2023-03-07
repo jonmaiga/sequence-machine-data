@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that the sum of a(n) and [a(n+1) reversed] is a palindrome in base 10 (terms ending in zero permitted).",
+  "id": "A337880",
+  "mentions": [
+    "A337865"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the number of e-divisors of all numbers from 1 up to n.",
+  "id": "A145353",
+  "mentions": [
+    "A013936",
+    "A049419",
+    "A099353",
+    "A327837"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

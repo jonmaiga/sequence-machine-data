@@ -1,0 +1,25 @@
+{
+  "description": "Linearize the arrays A099627 A124922 ... defined in A167204 and based on A161924 then concatenate to form a new table.",
+  "id": "A167979",
+  "mentions": [
+    "A099627",
+    "A124922",
+    "A125106",
+    "A161511",
+    "A161924",
+    "A167204",
+    "A167977"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

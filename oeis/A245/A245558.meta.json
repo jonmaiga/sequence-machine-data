@@ -1,0 +1,31 @@
+{
+  "description": "Square array read by antidiagonals: T(n,k) = number of n-tuples of nonnegative integers (u_0,...,u_{n-1}) satisfying Sum_{j=0..n-1} j*u_j == 1 mod n and Sum_{j=0..n-1} u_j = m.",
+  "id": "A245558",
+  "mentions": [
+    "A001840",
+    "A006918",
+    "A011796",
+    "A011797",
+    "A011847",
+    "A022553",
+    "A031164",
+    "A037306",
+    "A047996",
+    "A051168",
+    "A051170",
+    "A092964",
+    "A241926",
+    "A245559"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

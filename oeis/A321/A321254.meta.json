@@ -1,0 +1,26 @@
+{
+  "description": "Regular triangle where T(n,k) is the number of non-isomorphic connected multiset partitions of weight n with multiset density -1 <= k <= n-2.",
+  "id": "A321254",
+  "mentions": [
+    "A007716",
+    "A007718",
+    "A317672",
+    "A321155",
+    "A321194",
+    "A321229",
+    "A321253",
+    "A321255",
+    "A321256"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

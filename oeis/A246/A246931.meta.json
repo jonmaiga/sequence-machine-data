@@ -1,0 +1,18 @@
+{
+  "description": "Prime(14*n).",
+  "id": "A246931",
+  "mentions": [
+    "A246929"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

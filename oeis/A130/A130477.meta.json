@@ -1,0 +1,26 @@
+{
+  "description": "T(n,k) is the number of permutations of [n] with maximum descent k, T(n,k) for n >= 0 and 0 <= k <= n, triangle read by rows.",
+  "id": "A130477",
+  "mentions": [
+    "A000142",
+    "A001710",
+    "A008292",
+    "A092582",
+    "A130460",
+    "A130461",
+    "A130476",
+    "A130478"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

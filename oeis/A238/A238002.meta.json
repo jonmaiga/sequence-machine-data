@@ -1,0 +1,22 @@
+{
+  "description": "Count with multiplicity of prime factors of n in (n - 1)!.",
+  "id": "A238002",
+  "mentions": [
+    "A022559",
+    "A061006",
+    "A181569",
+    "A226198"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 2,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

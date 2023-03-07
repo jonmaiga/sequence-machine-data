@@ -1,0 +1,18 @@
+{
+  "description": "Primes p that divide some Euler number E(k) for even k < p-1, but p does not divide E(p-1).",
+  "id": "A120115",
+  "mentions": [
+    "A000364",
+    "A092218"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

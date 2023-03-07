@@ -1,0 +1,20 @@
+{
+  "description": "Number of tilings of a 6 X n rectangle using integer-sided square tiles.",
+  "id": "A219925",
+  "mentions": [
+    "A219924",
+    "A226549"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of neutral planar lambda terms of size n with k free variables (n >= 0, 1 <= k <= n+1).",
+  "id": "A246322",
+  "mentions": [
+    "A000108",
+    "A001791",
+    "A220910",
+    "A246323"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

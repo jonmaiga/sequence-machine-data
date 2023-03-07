@@ -1,0 +1,38 @@
+{
+  "description": "Number of distinct sums of runs (of 0's or 1's) in the binary expansion of n.",
+  "id": "A353929",
+  "mentions": [
+    "A005811",
+    "A006939",
+    "A044813",
+    "A165413",
+    "A165933",
+    "A175413",
+    "A215203",
+    "A246534",
+    "A297770",
+    "A318928",
+    "A350952",
+    "A351014",
+    "A353743",
+    "A353832",
+    "A353835",
+    "A353847",
+    "A353849",
+    "A353861",
+    "A353930",
+    "A353932",
+    "A354579"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

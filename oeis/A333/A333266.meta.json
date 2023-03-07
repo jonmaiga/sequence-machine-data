@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest number k such that for all m >= k there is at least one prime partition of m with prime(n) as least part.",
+  "id": "A333266",
+  "mentions": [
+    "A000607",
+    "A330507",
+    "A333129",
+    "A333238",
+    "A333259"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

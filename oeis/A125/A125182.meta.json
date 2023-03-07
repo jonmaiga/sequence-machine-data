@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations p of {1,2,...,n} such that the set {p(i)-i, i=1,2,...,n} has exactly k elements (1<=k<=n).",
+  "id": "A125182",
+  "mentions": [
+    "A000142",
+    "A065608",
+    "A099152",
+    "A125183",
+    "A306455"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

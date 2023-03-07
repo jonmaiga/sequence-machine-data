@@ -1,0 +1,20 @@
+{
+  "description": "Filter sequence combining from all proper divisors d of n, the prime signature of 2d+1.",
+  "id": "A305983",
+  "mentions": [
+    "A305818",
+    "A305973",
+    "A305982",
+    "A305985"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

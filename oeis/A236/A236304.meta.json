@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that p+12, p+1234 and p+123456 are also prime.",
+  "id": "A236304",
+  "mentions": [
+    "A000040",
+    "A023200",
+    "A046136",
+    "A230223",
+    "A236302",
+    "A237890"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = number of equivalence classes of binary sequences of length n containing exactly 2k ones.",
+  "id": "A259342",
+  "mentions": [
+    "A000011",
+    "A005513"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

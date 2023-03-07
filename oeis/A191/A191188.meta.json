@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = floor(8*n*Pi) - 2*floor(4*n*Pi).",
+  "id": "A191188",
+  "mentions": [
+    "A191194",
+    "A191202"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:19:27",
+    "offset": 1,
+    "size": 131,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Permutation of natural numbers induced by the Catalan bijection gma120705 acting on the binary trees encoded by A014486/A063171.",
+  "id": "A120705",
+  "mentions": [
+    "A007305",
+    "A014486",
+    "A019590",
+    "A047679",
+    "A063171",
+    "A065249",
+    "A065251",
+    "A074680",
+    "A120706",
+    "A120707",
+    "A120708",
+    "A120709"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

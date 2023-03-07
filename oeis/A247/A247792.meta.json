@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 9*n^2 + 1.",
+  "id": "A247792",
+  "mentions": [
+    "A000290",
+    "A016766",
+    "A016778",
+    "A016790",
+    "A156226",
+    "A158591"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

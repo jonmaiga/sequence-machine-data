@@ -1,0 +1,23 @@
+{
+  "description": "Numbers of the form x^2 + y^2 + 1, x, y integers.",
+  "id": "A166687",
+  "mentions": [
+    "A000378",
+    "A000408",
+    "A001481",
+    "A005767",
+    "A079545",
+    "A166265",
+    "A169580"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

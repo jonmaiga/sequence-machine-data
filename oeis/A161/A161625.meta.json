@@ -1,0 +1,24 @@
+{
+  "description": "Sum of all numbers from 1 up to the final digit of prime(n).",
+  "id": "A161625",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A000217",
+    "A007652",
+    "A161570"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:17:31",
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Composite which are the sum of five consecutive composite numbers.",
+  "id": "A151743",
+  "mentions": [
+    "A151740",
+    "A151741",
+    "A151742"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

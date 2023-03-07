@@ -1,0 +1,23 @@
+{
+  "description": "Self-inverse permutation of natural numbers induced by the restriction of A243057 (or A243059 or A242420) to the union of {1} and A102750.",
+  "id": "A243286",
+  "mentions": [
+    "A070003",
+    "A102750",
+    "A242420",
+    "A243057",
+    "A243059",
+    "A243285"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

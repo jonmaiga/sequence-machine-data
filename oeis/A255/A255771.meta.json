@@ -1,0 +1,23 @@
+{
+  "description": "Number of distinct prime factors of A220294(n).",
+  "id": "A255771",
+  "mentions": [
+    "A220161",
+    "A220294",
+    "A255770",
+    "A255772",
+    "A275528"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

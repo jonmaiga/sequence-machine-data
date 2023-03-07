@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Sum_{d|n} [-1 == A008683(n/d)] * A323244(d), where A323244(x) gives the deficiency of A156552(x).",
+  "id": "A329643",
+  "mentions": [
+    "A000040",
+    "A006881",
+    "A008683",
+    "A156552",
+    "A323243",
+    "A323244",
+    "A329642",
+    "A329644",
+    "A329646"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

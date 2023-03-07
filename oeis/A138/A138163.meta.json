@@ -1,0 +1,22 @@
+{
+  "description": "Number of permutations of {1,2,...,n} containing exactly 5 occurrences of the pattern 132.",
+  "id": "A138163",
+  "mentions": [
+    "A002054",
+    "A082970",
+    "A082971",
+    "A138162",
+    "A263771"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 5,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

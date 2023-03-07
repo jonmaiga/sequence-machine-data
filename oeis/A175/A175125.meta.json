@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of numbers m such that the number of iterations of r -> r - (largest divisor d < r) needed to reach 1 starting at r = m is equal to n.",
+  "id": "A175125",
+  "mentions": [
+    "A000079",
+    "A064097",
+    "A105017"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = the multiple of A142972(n) such that the n-th prime <= a(n) <= the (n+1)th prime.",
+  "id": "A140449",
+  "mentions": [
+    "A142972"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

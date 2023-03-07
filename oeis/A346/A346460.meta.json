@@ -1,0 +1,31 @@
+{
+  "description": "Square array read by downward antidiagonals in which row n lists all numbers k for which all positive integers cannot be colored with two colors without any positive integer x being the same color as n*x or k*x (for n >= 2).",
+  "id": "A346460",
+  "mentions": [
+    "A000302",
+    "A001019",
+    "A007814",
+    "A007916",
+    "A009969",
+    "A009980",
+    "A013708",
+    "A013715",
+    "A052409",
+    "A052410",
+    "A087752",
+    "A098608",
+    "A346459",
+    "A346461"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

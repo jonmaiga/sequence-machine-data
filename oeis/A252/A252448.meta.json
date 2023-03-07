@@ -1,0 +1,18 @@
+{
+  "description": "Inverse permutation to A249990.",
+  "id": "A252448",
+  "mentions": [
+    "A249990",
+    "A252458"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:10",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

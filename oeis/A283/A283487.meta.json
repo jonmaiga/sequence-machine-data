@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=1. a(n)>a(n-1) is the smallest positive integer such that the number of divisors of Sum{k=1..n} a(k) is n.",
+  "id": "A283487",
+  "mentions": [
+    "A175350"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

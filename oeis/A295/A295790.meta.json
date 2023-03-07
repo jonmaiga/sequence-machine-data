@@ -1,0 +1,19 @@
+{
+  "description": "Coefficients in expansion of E_10^(-1/4).",
+  "id": "A295790",
+  "mentions": [
+    "A013974",
+    "A110150"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

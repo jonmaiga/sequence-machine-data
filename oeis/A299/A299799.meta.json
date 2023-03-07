@@ -1,0 +1,21 @@
+{
+  "description": "Carmichael numbers (A002997) that are Chebyshev pseudoprimes (A175530).",
+  "id": "A299799",
+  "mentions": [
+    "A002997",
+    "A175530",
+    "A175531"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

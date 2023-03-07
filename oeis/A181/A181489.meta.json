@@ -1,0 +1,18 @@
+{
+  "description": "Composite Flavius' numbers (A000960) whose prime factors are again Flavius' numbers.",
+  "id": "A181489",
+  "mentions": [
+    "A000960",
+    "A181488"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

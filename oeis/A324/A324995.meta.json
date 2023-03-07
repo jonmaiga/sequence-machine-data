@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of zeta'(-1, 1/4).",
+  "id": "A324995",
+  "mentions": [
+    "A006752",
+    "A074962",
+    "A084448",
+    "A240966",
+    "A324996"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "changed",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

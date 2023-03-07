@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n such that n in binary representation has a block of exactly a nontrivial pentagonal number of zeros.",
+  "id": "A110562",
+  "mentions": [
+    "A000326",
+    "A037011",
+    "A086747",
+    "A110471",
+    "A110472",
+    "A110474",
+    "A110502",
+    "A110529"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

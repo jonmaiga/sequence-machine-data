@@ -1,0 +1,27 @@
+{
+  "description": "Binary weight of A328104: a(n) = A000120(A110240(n) OR 2*A110240(n)).",
+  "id": "A328105",
+  "mentions": [
+    "A000120",
+    "A070952",
+    "A110240",
+    "A163617",
+    "A269160",
+    "A328104",
+    "A328106",
+    "A328107",
+    "A328108",
+    "A328109"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

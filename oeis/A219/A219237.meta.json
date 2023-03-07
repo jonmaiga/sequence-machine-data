@@ -1,0 +1,24 @@
+{
+  "description": "Coefficient of Gauss polynomials [n+4,4]_q (q-binomials).",
+  "id": "A219237",
+  "mentions": [
+    "A000012",
+    "A000332",
+    "A008967",
+    "A016813",
+    "A047971"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

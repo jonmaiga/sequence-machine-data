@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; a(n) = max{ 5*a(k) + a(n-k) | 1 <= k <= n/2 } for n > 1.",
+  "id": "A130667",
+  "mentions": [
+    "A000120",
+    "A006046",
+    "A116520",
+    "A130665"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:45",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

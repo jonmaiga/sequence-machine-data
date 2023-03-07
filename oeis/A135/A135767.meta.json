@@ -1,0 +1,25 @@
+{
+  "description": "sigma_0(n)-omega(n)-Omega(n) (sigma_0 = A000005 = # divisors, omega = A001221 = # prime factors, Omega = A001222 = # prime factors with multiplicity).",
+  "id": "A135767",
+  "mentions": [
+    "A000005",
+    "A001037",
+    "A001221",
+    "A001222",
+    "A102466",
+    "A102467",
+    "A107847"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

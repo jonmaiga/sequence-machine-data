@@ -1,0 +1,20 @@
+{
+  "description": "2^(2*n+1) + 3^(2*n+1).",
+  "id": "A138233",
+  "mentions": [
+    "A008587",
+    "A096951",
+    "A138199"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:03:36",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

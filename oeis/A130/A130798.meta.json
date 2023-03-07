@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=1. a(n+1) = a(n) + (number of terms, from among the first n terms of the sequence, which occur among (d(1),d(2),d(3),...d(n)), where d(n) = A000005(n)).",
+  "id": "A130798",
+  "mentions": [
+    "A000005",
+    "A105434"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

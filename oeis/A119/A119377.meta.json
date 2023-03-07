@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the next k binary digits of Pi are odd primes with no leading zeros.",
+  "id": "A119377",
+  "mentions": [
+    "A004601",
+    "A065987",
+    "A068425",
+    "A117721",
+    "A119017"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

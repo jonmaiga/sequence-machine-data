@@ -1,0 +1,20 @@
+{
+  "description": "Number of maximal matchings in the n X n white bishop graph.",
+  "id": "A297490",
+  "mentions": [
+    "A286423",
+    "A297471",
+    "A297472"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 2,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Value of x in the n-th number of the form x+y*(3+sqrt(13))/2.",
+  "id": "A215591",
+  "mentions": [
+    "A025639",
+    "A215592"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of Product_{k>=1} ((1 + x^k)/(1 - x^k))^(k*(k-1)/2).",
+  "id": "A294780",
+  "mentions": [
+    "A027999",
+    "A074962",
+    "A156616",
+    "A206622",
+    "A258349",
+    "A294779"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

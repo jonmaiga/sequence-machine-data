@@ -1,0 +1,27 @@
+{
+  "description": "Semiprimes k that divide Fibonacci(k+1).",
+  "id": "A177745",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A001358",
+    "A003631",
+    "A045468",
+    "A064739",
+    "A069106",
+    "A081264",
+    "A177086"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

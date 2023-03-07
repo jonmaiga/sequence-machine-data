@@ -1,0 +1,32 @@
+{
+  "description": "Odd numbers whose prime indices are relatively prime. Heinz numbers of integer partitions with no 1's and with relatively prime parts.",
+  "id": "A302697",
+  "mentions": [
+    "A000837",
+    "A000961",
+    "A001222",
+    "A005117",
+    "A007359",
+    "A051424",
+    "A076078",
+    "A101268",
+    "A275024",
+    "A285572",
+    "A289509",
+    "A298748",
+    "A302568",
+    "A302569",
+    "A302696",
+    "A302698"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

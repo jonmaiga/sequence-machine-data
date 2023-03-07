@@ -1,0 +1,19 @@
+{
+  "description": "Ceiling of n inches converted to millimeters.",
+  "id": "A169861",
+  "mentions": [
+    "A169860"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:59:49",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

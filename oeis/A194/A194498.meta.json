@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k)=Number of ways to arrange k nonattacking queens on the lower triangle of an n X n board",
+  "id": "A194498",
+  "mentions": [
+    "A000217",
+    "A070893"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

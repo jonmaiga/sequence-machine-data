@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of length n with two 4-sequences.",
+  "id": "A247109",
+  "mentions": [
+    "A002630"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

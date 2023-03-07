@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k) defined by Sum_{k=1..n} T(n,k)*u^k*x^n/n! = exp(Sum_{n>0} u*sigma(n)*x^n/n!).",
+  "id": "A338871",
+  "mentions": [
+    "A000203",
+    "A008298",
+    "A274804",
+    "A330088",
+    "A338865",
+    "A338870"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

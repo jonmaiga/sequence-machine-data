@@ -1,0 +1,21 @@
+{
+  "description": "Signature-permutation of a Catalan automorphism: SPINE-transformation of *A057508.",
+  "id": "A127285",
+  "mentions": [
+    "A057508",
+    "A122203",
+    "A127286",
+    "A127287",
+    "A127289"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 - mu(k)^2*x^k), where mu() is the Moebius function (A008683).",
+  "id": "A292561",
+  "mentions": [
+    "A005117",
+    "A008683",
+    "A046675",
+    "A073576",
+    "A087188"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:22:49",
+    "offset": 0,
+    "size": 76,
+    "source": "joeis"
+  }
+}

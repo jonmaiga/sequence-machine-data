@@ -1,0 +1,22 @@
+{
+  "description": "Infinitesimal generator matrix for a diagonally-shifted Pascal matrix, binomial(n+m,k+m), for m=1, related to Laguerre(n,x,m).",
+  "id": "A132681",
+  "mentions": [
+    "A074909",
+    "A132440",
+    "A133314"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

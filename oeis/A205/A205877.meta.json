@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k for which 10 divides s(k)-s(j) for some j",
+  "id": "A205877",
+  "mentions": [
+    "A204892",
+    "A204922",
+    "A205840",
+    "A205876",
+    "A205878",
+    "A205879",
+    "A205880"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:26:14",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

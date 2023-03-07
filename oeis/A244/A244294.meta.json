@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers n such that (prime(n+i+1) - prime(n+i))/2 is prime for every i = 0, ..., 12.",
+  "id": "A244294",
+  "mentions": [
+    "A000040",
+    "A244254",
+    "A244264",
+    "A244266"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

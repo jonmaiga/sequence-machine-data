@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of Sum_{n>0} u(n) where u(n) is the unique positive solution to the equation Integral_{u(n)..1} e^t/t dt = n.",
+  "id": "A354014",
+  "mentions": [
+    "A229837"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

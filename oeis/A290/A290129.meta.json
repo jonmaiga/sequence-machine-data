@@ -1,0 +1,18 @@
+{
+  "description": "Wiener index of the n-Sierpinski sieve graph.",
+  "id": "A290129",
+  "mentions": [
+    "A290004"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

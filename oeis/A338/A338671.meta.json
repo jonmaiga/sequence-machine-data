@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of distinct ways of arranging n identical square tiles into two rectangles.",
+  "id": "A338671",
+  "mentions": [
+    "A038548",
+    "A055507",
+    "A338664"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

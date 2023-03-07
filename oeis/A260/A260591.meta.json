@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of odd numbers k < 2^n such that A260590(k) = n.",
+  "id": "A260591",
+  "mentions": [
+    "A054414",
+    "A100982",
+    "A177789",
+    "A186008",
+    "A186009",
+    "A260590"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

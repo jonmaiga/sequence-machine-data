@@ -1,0 +1,30 @@
+{
+  "description": "Numbers m such that T(m) + 3*T(m+1) is a square, where T = A000217.",
+  "id": "A278310",
+  "mentions": [
+    "A000217",
+    "A000466",
+    "A001109",
+    "A029546",
+    "A046176",
+    "A076218",
+    "A078522",
+    "A082405",
+    "A084703",
+    "A156164",
+    "A182189",
+    "A278438"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

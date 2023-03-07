@@ -1,0 +1,20 @@
+{
+  "description": "The prime tower factorization of a(n) is obtained by replacing the rightmost prime number by 1 in the prime tower factorization of n; a(1) = 1.",
+  "id": "A338669",
+  "mentions": [
+    "A106490",
+    "A182318",
+    "A338668"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Square root of the single square referenced in A190641 (Numbers having exactly one non-unitary prime factor).",
+  "id": "A283671",
+  "mentions": [
+    "A190641",
+    "A283670"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

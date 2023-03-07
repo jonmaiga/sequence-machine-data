@@ -1,0 +1,21 @@
+{
+  "description": "New triangular sequence of coefficients based on A123125 Eulerian numbers as: ( Like A109128 to the Binomials) t(n,m)=2*A123125(n,m)-1.",
+  "id": "A141591",
+  "mentions": [
+    "A109128",
+    "A123125"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

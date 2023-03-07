@@ -1,0 +1,20 @@
+{
+  "description": "Array T(n,m)= (n*m)!*Beta(n, m) read by antidiagonals.",
+  "id": "A177847",
+  "mentions": [
+    "A000142",
+    "A060854"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

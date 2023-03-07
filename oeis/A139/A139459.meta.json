@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: binomial(3*n,3*k), 0 <= k <= n.",
+  "id": "A139459",
+  "mentions": [
+    "A006566",
+    "A007613",
+    "A034839",
+    "A070775",
+    "A086645",
+    "A177808"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

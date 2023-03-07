@@ -1,0 +1,23 @@
+{
+  "description": "G.f. A(x) satisfies: A(x)^3 + A(-x)^3 = 2 and A(x)^2 - A(-x)^2 = 24*x.",
+  "id": "A196869",
+  "mentions": [
+    "A193618",
+    "A193619",
+    "A196864",
+    "A196865",
+    "A196866",
+    "A196867",
+    "A196868"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

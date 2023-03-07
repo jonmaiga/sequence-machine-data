@@ -1,0 +1,22 @@
+{
+  "description": "Number of labeled directed multigraphs with n arcs and with no vertex of indegree 0.",
+  "id": "A122420",
+  "mentions": [
+    "A104209",
+    "A122418",
+    "A122419",
+    "A317855"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

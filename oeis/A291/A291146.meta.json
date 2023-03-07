@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1/(1 - x/(1 - x^8/(1 - x^27/(1 - x^64/(1 - x^125/(1 - x^216/(1 - ... - x^(n^3)/(1 - ...)))))))), a continued fraction.",
+  "id": "A291146",
+  "mentions": [
+    "A005169",
+    "A206739",
+    "A290771"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of cosecant of 22.5 degrees = csc(Pi/8).",
+  "id": "A121601",
+  "mentions": [
+    "A121598",
+    "A179260"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

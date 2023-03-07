@@ -1,0 +1,20 @@
+{
+  "description": "GA1 numbers: composite m with G(m) >= G(m/p) for all prime factors p of m, where G(k) = sigma(k)/(k*log(log(k))) and sigma(k) = sum of divisors of k.",
+  "id": "A197638",
+  "mentions": [
+    "A000203",
+    "A197639",
+    "A201557",
+    "A201558"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

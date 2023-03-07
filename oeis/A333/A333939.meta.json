@@ -1,0 +1,50 @@
+{
+  "description": "Number of multisets of compositions that can be shuffled together to obtain the k-th composition in standard order.",
+  "id": "A333939",
+  "mentions": [
+    "A000031",
+    "A000120",
+    "A000740",
+    "A001037",
+    "A008965",
+    "A027375",
+    "A034691",
+    "A059966",
+    "A060223",
+    "A065609",
+    "A066099",
+    "A070939",
+    "A124767",
+    "A138904",
+    "A211100",
+    "A233564",
+    "A269134",
+    "A272919",
+    "A275692",
+    "A292884",
+    "A326774",
+    "A328594",
+    "A328595",
+    "A328596",
+    "A329312",
+    "A329313",
+    "A333632",
+    "A333764",
+    "A333765",
+    "A333940",
+    "A333943",
+    "A334029",
+    "A334030"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

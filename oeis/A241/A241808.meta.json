@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that (2*k)^3 - 3 is prime.",
+  "id": "A241808",
+  "mentions": [
+    "A006254",
+    "A153974"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

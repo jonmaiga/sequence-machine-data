@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 1 if n is a prime whose binary expansion encodes a (0,1)-polynomial which is irreducible when factored over GF(2), 0 otherwise.",
+  "id": "A305816",
+  "mentions": [
+    "A010051",
+    "A091206",
+    "A091225",
+    "A305789",
+    "A305802",
+    "A305817",
+    "A305904"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) = floor(k*(n+1)/(k+1)), 1 <= k <= n.",
+  "id": "A182210",
+  "mentions": [
+    "A004523"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

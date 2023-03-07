@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{d|n} (tau(d)*sigma(d)) where tau(k) = the number of divisors of k (A000005) and sigma(k) = the sum of the divisors of k (A000203).",
+  "id": "A324986",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A000203",
+    "A064840",
+    "A324987"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

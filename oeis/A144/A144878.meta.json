@@ -1,0 +1,27 @@
+{
+  "description": "Partition number array, called M31(-4), related to A049424(n,m) = S1(-4;n,m) (generalized Stirling triangle).",
+  "id": "A144878",
+  "mentions": [
+    "A000041",
+    "A008279",
+    "A036040",
+    "A049424",
+    "A049427",
+    "A134278",
+    "A144877",
+    "A144879"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

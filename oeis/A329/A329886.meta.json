@@ -1,0 +1,30 @@
+{
+  "description": "Primorial inflation of Doudna-tree: a(0) = 1, a(1) = 2; for n > 1, if n is even, a(n) = A283980(a(n/2)), and if n is odd, then a(n) = 2*a((n-1)/2).",
+  "id": "A329886",
+  "mentions": [
+    "A005940",
+    "A025487",
+    "A054429",
+    "A108951",
+    "A283477",
+    "A283980",
+    "A322827",
+    "A329887",
+    "A329900",
+    "A337376",
+    "A337377",
+    "A342000"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

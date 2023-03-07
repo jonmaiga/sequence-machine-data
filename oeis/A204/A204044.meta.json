@@ -1,0 +1,19 @@
+{
+  "description": "Lozenge Gaussian integer factorial, product of all nonzero Gaussian integers a + bi for which |a| + |b| <= n.",
+  "id": "A204044",
+  "mentions": [
+    "A204041",
+    "A204043"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

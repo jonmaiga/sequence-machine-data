@@ -1,0 +1,19 @@
+{
+  "description": "Number of matchings in the C_n X P_3 graph (C_n is the cycle graph on n vertices and P_3 is the path graph on 3 vertices).",
+  "id": "A102090",
+  "mentions": [
+    "A102089",
+    "A287428"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

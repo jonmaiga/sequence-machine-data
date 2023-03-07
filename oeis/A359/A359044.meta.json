@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that primepi(p)-1 divides p-1.",
+  "id": "A359044",
+  "mentions": [
+    "A105286"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

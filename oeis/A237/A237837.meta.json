@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes p < n such that the number of Sophie Germain primes among 1, ..., n-p is a cube.",
+  "id": "A237837",
+  "mentions": [
+    "A000040",
+    "A000578",
+    "A005384",
+    "A237815"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

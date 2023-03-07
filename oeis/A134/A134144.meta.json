@@ -1,0 +1,26 @@
+{
+  "description": "A certain partition array in Abramowitz-Stegun order (A-St order).",
+  "id": "A134144",
+  "mentions": [
+    "A000041",
+    "A001147",
+    "A008277",
+    "A035342",
+    "A036040",
+    "A049118",
+    "A117506"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

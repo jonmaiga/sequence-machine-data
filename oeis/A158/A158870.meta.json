@@ -1,0 +1,20 @@
+{
+  "description": "Sums of the form (twin primes + 1) which are also an upper twin prime.",
+  "id": "A158870",
+  "mentions": [
+    "A006512",
+    "A054735",
+    "A158866"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

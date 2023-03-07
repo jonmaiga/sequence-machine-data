@@ -1,0 +1,21 @@
+{
+  "description": "First differences of A033922.",
+  "id": "A206774",
+  "mentions": [
+    "A033922",
+    "A042968",
+    "A206775"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

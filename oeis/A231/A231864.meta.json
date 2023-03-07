@@ -1,0 +1,20 @@
+{
+  "description": "Partial sums of the second power of arithmetic derivative function A003415.",
+  "id": "A231864",
+  "mentions": [
+    "A003415",
+    "A190121",
+    "A231946"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

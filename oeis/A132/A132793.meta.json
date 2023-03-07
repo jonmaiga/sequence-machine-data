@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that sigma(phi(n))-phi(n) = phi(sigma(n)-n).",
+  "id": "A132793",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A001229",
+    "A018784",
+    "A033632",
+    "A132794"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

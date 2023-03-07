@@ -1,0 +1,17 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} A047863(n)*x^n/n ), where A047863(n) = Sum_{k=0..n} binomial(n, k) * (2^k)^(n-k).",
+  "id": "A251684",
+  "mentions": [
+    "A047863"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

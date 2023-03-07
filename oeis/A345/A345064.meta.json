@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 1 if A071324(n) is equal to A206369(n), otherwise 0; characteristic function of A317923.",
+  "id": "A345064",
+  "mentions": [
+    "A010055",
+    "A071324",
+    "A206369",
+    "A317923",
+    "A345060",
+    "A345061",
+    "A345062",
+    "A345063"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

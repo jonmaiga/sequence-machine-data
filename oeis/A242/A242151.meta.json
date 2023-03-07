@@ -1,0 +1,18 @@
+{
+  "description": "Number of length 7+5 0..n arrays with no consecutive six elements summing to more than 3*n",
+  "id": "A242151",
+  "mentions": [
+    "A242144"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

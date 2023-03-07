@@ -1,0 +1,27 @@
+{
+  "description": "T(n,k) are coefficients used for power series inversion (sometimes called reversion), n >= 0, k = 1..A000041(n), read by rows.",
+  "id": "A111785",
+  "mentions": [
+    "A000041",
+    "A001003",
+    "A036036",
+    "A036043",
+    "A133437",
+    "A276738",
+    "A283298",
+    "A304462"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "look",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

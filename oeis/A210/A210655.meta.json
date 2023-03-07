@@ -1,0 +1,19 @@
+{
+  "description": "Number of irreducible coverings by edges of the complete bipartite graph K_{n,n}; main diagonal of A210654.",
+  "id": "A210655",
+  "mentions": [
+    "A053530",
+    "A210654"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

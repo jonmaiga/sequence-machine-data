@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is smallest positive integer not among the earlier terms of the sequence, not equal to n and which is coprime to its adjacent terms in the sequence.",
+  "id": "A114861",
+  "mentions": [
+    "A114862"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

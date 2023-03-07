@@ -1,0 +1,20 @@
+{
+  "description": "Positions of even terms in A004001.",
+  "id": "A283482",
+  "mentions": [
+    "A004001",
+    "A095901",
+    "A283471",
+    "A283481"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:56:39",
+    "offset": 1,
+    "size": 81,
+    "source": "joeis"
+  }
+}

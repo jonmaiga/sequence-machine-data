@@ -1,0 +1,26 @@
+{
+  "description": "Semiprimes with semiprime digits (digits 4, 6, 9 only).",
+  "id": "A107342",
+  "mentions": [
+    "A001358",
+    "A029581",
+    "A107665",
+    "A107666",
+    "A111494",
+    "A111496",
+    "A111697",
+    "A254715"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

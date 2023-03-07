@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: Sum_{n>=0} n^n * x^n * (1 + 2*n*x)^n / (1 + n*x + 2*n^2*x^2)^(n+1).",
+  "id": "A240958",
+  "mentions": [
+    "A240921",
+    "A240956",
+    "A240957"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

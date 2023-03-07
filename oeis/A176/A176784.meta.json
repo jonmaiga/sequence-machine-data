@@ -1,0 +1,23 @@
+{
+  "description": "From Bernoulli twin numbers to Catalan numbers arrays.Second part.Consider array from companion of Bernoulli twin numbers A172083/A051717 mixed with A051716/A051717 BCT(n)=1,1,-3/2,-1/2,2/3,-1/3,-1/6,-1/6, with successive differences,named BCT1.a(n) are numerators of BCT(n).Denominators (double A051717)=1,1,2,2,3,3,6,6,30,30,30,30,.",
+  "id": "A176784",
+  "mentions": [
+    "A000108",
+    "A051716",
+    "A051717",
+    "A172083",
+    "A176239",
+    "A176511"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "sign",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

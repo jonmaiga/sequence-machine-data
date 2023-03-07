@@ -1,0 +1,20 @@
+{
+  "description": "Position of zeros in A179776. Complement of A179777.",
+  "id": "A179779",
+  "mentions": [
+    "A179774",
+    "A179776",
+    "A179777",
+    "A179834"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

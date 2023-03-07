@@ -1,0 +1,20 @@
+{
+  "description": "Largest odd number strictly less than a square.",
+  "id": "A181106",
+  "mentions": [
+    "A120413",
+    "A141354"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:32:35",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers n such that sigma(cototient(n)) = cototient(sigma(n) - n) + cototient(n); that is, f(g(n)) = g(f(n)) where f = A001065 and g = A051953.",
+  "id": "A292208",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A033632",
+    "A051953"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

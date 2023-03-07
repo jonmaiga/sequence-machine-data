@@ -1,0 +1,31 @@
+{
+  "description": "Number of connected induced (non-null) subgraphs of the prism graph with 2n nodes.",
+  "id": "A286182",
+  "mentions": [
+    "A000129",
+    "A002203",
+    "A020873",
+    "A059020",
+    "A059525",
+    "A285765",
+    "A286139",
+    "A286183",
+    "A286184",
+    "A286185",
+    "A286186",
+    "A286187",
+    "A286188",
+    "A286189"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

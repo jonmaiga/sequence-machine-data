@@ -1,0 +1,31 @@
+{
+  "description": "Heinz numbers of integer partitions such that the difference between the length of the minimal triangular partition containing and the maximal triangular partition contained in the Young diagram is 2.",
+  "id": "A325197",
+  "mentions": [
+    "A065770",
+    "A195086",
+    "A325166",
+    "A325168",
+    "A325169",
+    "A325170",
+    "A325180",
+    "A325182",
+    "A325188",
+    "A325189",
+    "A325195",
+    "A325196",
+    "A325198",
+    "A325199",
+    "A325200"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

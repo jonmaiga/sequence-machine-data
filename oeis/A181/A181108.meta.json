@@ -1,0 +1,22 @@
+{
+  "description": "Array whose rows result from iterating an algorithm that carries the natural numbers to the lower Wythoff sequence.",
+  "id": "A181108",
+  "mentions": [
+    "A000027",
+    "A000201",
+    "A003159",
+    "A181109"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

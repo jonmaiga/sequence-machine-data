@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n-1} C(n-1,k)^(k+1) * n/(n-k).",
+  "id": "A181075",
+  "mentions": [
+    "A181074",
+    "A181076",
+    "A181077",
+    "A181079"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

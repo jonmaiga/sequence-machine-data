@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that f(f(p)) is prime where f(x) = Phi_6(x).",
+  "id": "A237446",
+  "mentions": [
+    "A013595",
+    "A013596",
+    "A088550",
+    "A237364"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

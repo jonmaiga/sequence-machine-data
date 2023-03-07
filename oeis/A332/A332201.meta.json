@@ -1,0 +1,24 @@
+{
+  "description": "Sum of three cubes problem: a(n) = integer x with the least possible absolute value such that n = x^3 + y^3 + z^3 with |x| >= |y| >= |z|, or 0 if no such x exists.",
+  "id": "A332201",
+  "mentions": [
+    "A060464",
+    "A060465",
+    "A060466",
+    "A060467",
+    "A246869"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

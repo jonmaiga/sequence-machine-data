@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that 3^n - n^3 is prime.",
+  "id": "A109387",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(0)=0; for n>0, a(n) = 10*a(n-1) + prime(n).",
+  "id": "A287353",
+  "mentions": [
+    "A014824",
+    "A019518",
+    "A092844",
+    "A110299"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:59",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

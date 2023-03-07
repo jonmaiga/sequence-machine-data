@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that 1000p+1, 1000p+3, 1000p+7 and 1000p+9 are prime.",
+  "id": "A242562",
+  "mentions": [
+    "A067267",
+    "A236042"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Pell(n) * sum{d|n} 1/Pell(d), where Pell(n) = A000129(n).",
+  "id": "A203797",
+  "mentions": [
+    "A000129",
+    "A002203",
+    "A111075",
+    "A203802",
+    "A204059"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

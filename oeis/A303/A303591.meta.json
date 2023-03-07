@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 0 if n in A303589, 1 if n is in A303590.",
+  "id": "A303591",
+  "mentions": [
+    "A247844",
+    "A303589",
+    "A303590"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

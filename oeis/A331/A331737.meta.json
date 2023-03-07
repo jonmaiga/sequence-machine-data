@@ -1,0 +1,22 @@
+{
+  "description": "Multiplicative with a(p^e) = p^A000265(e), where A000265(x) gives the odd part of x.",
+  "id": "A331737",
+  "mentions": [
+    "A000265",
+    "A268335",
+    "A322791",
+    "A331738"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

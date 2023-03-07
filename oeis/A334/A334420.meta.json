@@ -1,0 +1,26 @@
+{
+  "description": "Numbers m such that sigma(d)/tau(d) is an integer for all divisors d of m.",
+  "id": "A334420",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A003601",
+    "A056911",
+    "A065091",
+    "A306639",
+    "A324499",
+    "A324500",
+    "A334421"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

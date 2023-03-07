@@ -1,0 +1,26 @@
+{
+  "description": "Triangular numbers which are 10-almost primes.",
+  "id": "A101744",
+  "mentions": [
+    "A000217",
+    "A046314",
+    "A068443",
+    "A075088",
+    "A075875",
+    "A076578",
+    "A076583",
+    "A101745"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

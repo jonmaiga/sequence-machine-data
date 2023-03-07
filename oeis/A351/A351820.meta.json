@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1, a(2) = 2, a(3) = 3 and a(n) is the smallest number not included earlier that divides the concatenation a(n-3), a(n-2), a(n-1).",
+  "id": "A351820",
+  "mentions": [
+    "A085946",
+    "A351629"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

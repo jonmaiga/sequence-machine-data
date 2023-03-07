@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that lcm(1,2,3,...,p-2,p-1,p) - 1 is prime.",
+  "id": "A154524",
+  "mentions": [
+    "A000040",
+    "A056604",
+    "A057825",
+    "A154525",
+    "A154526"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

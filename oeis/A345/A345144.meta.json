@@ -1,0 +1,22 @@
+{
+  "description": "Product_{p primes, k>=1} ((p^(k+1) - 1)/(p^(k+1) - p))^(1/p^k).",
+  "id": "A345144",
+  "mentions": [
+    "A001088",
+    "A066780",
+    "A066843",
+    "A124175"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k and all its prefixes are a multiple of the difference between their length and their last digit.",
+  "id": "A235500",
+  "mentions": [
+    "A144688"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

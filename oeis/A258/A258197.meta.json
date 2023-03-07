@@ -1,0 +1,23 @@
+{
+  "description": "Arithmetic derivative of Pascal's triangle.",
+  "id": "A258197",
+  "mentions": [
+    "A003415",
+    "A007318",
+    "A068312",
+    "A258290",
+    "A258317",
+    "A258318"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

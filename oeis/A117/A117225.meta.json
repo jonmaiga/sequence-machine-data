@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form f(n) = 9*n^4 - 444*n^3 + 8059*n^2 - 63714*n + 185371 listed by increasing value of n >= 0.",
+  "id": "A117225",
+  "mentions": [
+    "A005846",
+    "A117090",
+    "A117091",
+    "A117624"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

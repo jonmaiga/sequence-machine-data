@@ -1,0 +1,24 @@
+{
+  "description": "Total number of all hierarchical orderings for all set partitions of n.",
+  "id": "A140585",
+  "mentions": [
+    "A000670",
+    "A005651",
+    "A034691",
+    "A075729",
+    "A083355",
+    "A109186",
+    "A247551"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

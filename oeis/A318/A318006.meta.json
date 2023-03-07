@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. A(x) satisfies: cos(A(x)) + sin(A(x)) = 1/( cos(A(-x)) + sin(A(-x)) ).",
+  "id": "A318006",
+  "mentions": [
+    "A200560",
+    "A318001",
+    "A318005"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

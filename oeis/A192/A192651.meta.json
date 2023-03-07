@@ -1,0 +1,22 @@
+{
+  "description": "Coefficient of x^2 in the reduction of the n-th Fibonacci polynomial by x^3->x^2+x+1. See Comments.",
+  "id": "A192651",
+  "mentions": [
+    "A192232",
+    "A192616",
+    "A192617",
+    "A192744"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:40:05",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

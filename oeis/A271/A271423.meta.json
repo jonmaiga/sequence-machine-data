@@ -1,0 +1,32 @@
+{
+  "description": "Number T(n,k) of set partitions of [n] with maximal block length multiplicity equal to k; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A271423",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000110",
+    "A007837",
+    "A271424",
+    "A271425",
+    "A271731",
+    "A271732",
+    "A271733",
+    "A271734",
+    "A271735",
+    "A271736",
+    "A271737",
+    "A271738",
+    "A271739"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that the result of swapping the 2nd and next to the last digit of n is prime.",
+  "id": "A111347",
+  "mentions": [
+    "A007934",
+    "A095179",
+    "A111348",
+    "A111349"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

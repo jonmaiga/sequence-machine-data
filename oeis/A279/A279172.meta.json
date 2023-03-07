@@ -1,0 +1,24 @@
+{
+  "description": "The autosequence of the first kind between A226158(n) and A278331(n).",
+  "id": "A279172",
+  "mentions": [
+    "A000918",
+    "A027642",
+    "A036968",
+    "A051716",
+    "A164555",
+    "A226158",
+    "A278331"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

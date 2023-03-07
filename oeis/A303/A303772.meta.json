@@ -1,0 +1,26 @@
+{
+  "description": "Inverse of A303771.",
+  "id": "A303772",
+  "mentions": [
+    "A048675",
+    "A050376",
+    "A052330",
+    "A052331",
+    "A053669",
+    "A303760",
+    "A303768",
+    "A303771"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

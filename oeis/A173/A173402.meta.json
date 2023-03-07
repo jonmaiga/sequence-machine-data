@@ -1,0 +1,21 @@
+{
+  "description": "(A007318 - A112468)/2.",
+  "id": "A173402",
+  "mentions": [
+    "A007318",
+    "A112468",
+    "A131053",
+    "A131054"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

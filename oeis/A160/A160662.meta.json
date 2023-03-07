@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that have a \"e\" in the middle of their names",
+  "id": "A160662",
+  "mentions": [
+    "A160658",
+    "A160659",
+    "A160660",
+    "A160661"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "less",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

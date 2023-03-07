@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n where the least natural number k such that k^2 + n is prime reaches a new record value.",
+  "id": "A275148",
+  "mentions": [
+    "A085099"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

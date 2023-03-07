@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = sqrt(A167657(n).",
+  "id": "A167761",
+  "mentions": [
+    "A000720",
+    "A096478",
+    "A167657"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Coreful abundant numbers (A308053) with an even sum of coreful divisors (A057723) that are not coreful Zumkeller numbers (A339979).",
+  "id": "A339983",
+  "mentions": [
+    "A057723",
+    "A171641",
+    "A308053",
+    "A323341",
+    "A323342",
+    "A323343",
+    "A323344",
+    "A339979",
+    "A339982"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

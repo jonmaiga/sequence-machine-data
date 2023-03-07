@@ -1,0 +1,17 @@
+{
+  "description": "First series of Hankel determinants based on the products of neighboring Bell numbers.",
+  "id": "A282233",
+  "mentions": [
+    "A278903"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

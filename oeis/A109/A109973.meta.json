@@ -1,0 +1,19 @@
+{
+  "description": "First repeating NA iterates. The NA (Noun-Adjective) function of a finite sequence s of nonnegative integers is the finite sequence 0a1b2c...mz, where a = #0's in s, b = #1's in s, ..., z = #m's in s, m = greatest term in s.",
+  "id": "A109973",
+  "mentions": [
+    "A001155",
+    "A055168",
+    "A191654"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

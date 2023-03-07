@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = A062401(n) / A295310(n) = phi(sigma(n)) / gcd(n, phi(sigma(n))).",
+  "id": "A295312",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A062401",
+    "A295301",
+    "A295310",
+    "A295311",
+    "A295315"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

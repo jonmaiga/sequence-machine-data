@@ -1,0 +1,24 @@
+{
+  "description": "k times k+7 gives the concatenation of two numbers m and m-1.",
+  "id": "A116283",
+  "mentions": [
+    "A001704",
+    "A028563",
+    "A116152",
+    "A116269",
+    "A116282",
+    "A116284",
+    "A116291"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:44",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

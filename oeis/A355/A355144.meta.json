@@ -1,0 +1,25 @@
+{
+  "description": "Number T(n,k) of partitions of [n] having exactly k blocks of size at least three; triangle T(n,k), n>=0, 0<=k<=floor(n/3), read by rows.",
+  "id": "A355144",
+  "mentions": [
+    "A000085",
+    "A000110",
+    "A025035",
+    "A048993",
+    "A124324",
+    "A124503",
+    "A288785"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

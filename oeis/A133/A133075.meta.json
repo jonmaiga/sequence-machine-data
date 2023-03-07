@@ -1,0 +1,23 @@
+{
+  "description": "Divisors of 2000.",
+  "id": "A133075",
+  "mentions": [
+    "A003592",
+    "A018433",
+    "A018653",
+    "A018767"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the numbers in row n of the array at A249074.",
+  "id": "A249075",
+  "mentions": [
+    "A249074"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

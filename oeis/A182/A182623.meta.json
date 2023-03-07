@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n with property that there is a number m such that if we concatenate the binary representations of the divisors of m in increasing order we get the binary representation of n.",
+  "id": "A182623",
+  "mentions": [
+    "A007088",
+    "A027750",
+    "A182620",
+    "A182621",
+    "A182622",
+    "A182624"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

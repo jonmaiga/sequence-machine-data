@@ -1,0 +1,18 @@
+{
+  "description": "Numbers x such that x = concat(a, b) and a’ * b’ = x, where a’ and b’ are the arithmetic derivatives of a and b.",
+  "id": "A259851",
+  "mentions": [
+    "A003415"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Sum of the distinct semiprime divisors of the n-th number with two or more distinct semiprime divisors.",
+  "id": "A164865",
+  "mentions": [
+    "A001358",
+    "A068318",
+    "A076290",
+    "A086971",
+    "A102467"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

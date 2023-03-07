@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers k that divide 3^k - 2^k - 1, excluding powers of 2, 3 and 7.",
+  "id": "A127073",
+  "mentions": [
+    "A002997",
+    "A127071",
+    "A127072",
+    "A127074"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

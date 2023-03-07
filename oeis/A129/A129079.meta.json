@@ -1,0 +1,22 @@
+{
+  "description": "Prime numbers that are the sum of consecutive prime numbers with the final digit 7 (primes in A030432).",
+  "id": "A129079",
+  "mentions": [
+    "A000040",
+    "A030431",
+    "A030432"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Product of numbers of elements of nonempty subsets of divisors of n.",
+  "id": "A229334",
+  "mentions": [
+    "A000005",
+    "A100587",
+    "A229333"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

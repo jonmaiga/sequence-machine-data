@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: A(x) = x*Product_{n>=1} (1+a(n)^2*x^n) = Sum_{n>=1} a(n)*x^n.",
+  "id": "A275255",
+  "mentions": [
+    "A032305"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Numbers with no prime index dividing all the other prime indices, but with a prime index divisible by all the other prime indices.",
+  "id": "A343339",
+  "mentions": [
+    "A000005",
+    "A000070",
+    "A056239",
+    "A067824",
+    "A112798",
+    "A130689",
+    "A130714",
+    "A253249",
+    "A257993",
+    "A338470",
+    "A339562",
+    "A339564",
+    "A341450",
+    "A342193",
+    "A343337",
+    "A343338",
+    "A343344",
+    "A343380"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Minimal index k of a Fibonacci number such that Fibonacci(k) >= n (the 'upper' Fibonacci Inverse).",
+  "id": "A130234",
+  "mentions": [
+    "A000045",
+    "A104162",
+    "A108852",
+    "A130233",
+    "A130236",
+    "A130241",
+    "A130248",
+    "A130256",
+    "A130260"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

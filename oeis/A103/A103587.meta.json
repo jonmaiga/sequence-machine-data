@@ -1,0 +1,18 @@
+{
+  "description": "Sequence of run lengths in A103585.",
+  "id": "A103587",
+  "mentions": [
+    "A056832",
+    "A103585"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

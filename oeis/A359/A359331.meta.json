@@ -1,0 +1,22 @@
+{
+  "description": "Nonprime numbers k for which k*k' is a palindrome, where k' is the arithmetic derivative of k (A003415).",
+  "id": "A359331",
+  "mentions": [
+    "A002113",
+    "A003415",
+    "A018252",
+    "A190116"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

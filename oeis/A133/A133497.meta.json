@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A098572(k) - A098572(k-1) = 2.",
+  "id": "A133497",
+  "mentions": [
+    "A098572"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

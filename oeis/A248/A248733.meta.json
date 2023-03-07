@@ -1,0 +1,29 @@
+{
+  "description": "Number of digits in the decimal expansion of the number of partitions of 6^n.",
+  "id": "A248733",
+  "mentions": [
+    "A000041",
+    "A000400",
+    "A055642",
+    "A077644",
+    "A129490",
+    "A248729",
+    "A248731",
+    "A248732",
+    "A248735",
+    "A248736"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Admirable oblong numbers.",
+  "id": "A109547",
+  "mentions": [
+    "A002378",
+    "A111592"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

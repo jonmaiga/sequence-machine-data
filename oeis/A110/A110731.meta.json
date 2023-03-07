@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least term of the period of the sequence defined by t(1)=n; t(k) = t(k-1)/sod(t(k-1)) if t(k-1) is a multiple of sod(t(k-1)) or t(k-1)*sod(t(k-1)) otherwise, where sod(m)=A007953(m) is the sum of digits of m.",
+  "id": "A110731",
+  "mentions": [
+    "A007953"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

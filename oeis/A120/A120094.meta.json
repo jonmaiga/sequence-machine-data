@@ -1,0 +1,18 @@
+{
+  "description": "Rows of Pascal's triangle which contain no terms numerically adjacent to odd primes (the 1's at either end are of course numerically adjacent to the even prime 2).",
+  "id": "A120094",
+  "mentions": [
+    "A007318"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

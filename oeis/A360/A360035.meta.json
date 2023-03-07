@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. x*exp(x)*cosh(x)*sinh(x).",
+  "id": "A360035",
+  "mentions": [
+    "A015518",
+    "A360023",
+    "A360036"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

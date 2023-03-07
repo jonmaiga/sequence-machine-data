@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that concatenation of the digit sum of p with p is also prime.",
+  "id": "A246428",
+  "mentions": [
+    "A245759",
+    "A245763"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

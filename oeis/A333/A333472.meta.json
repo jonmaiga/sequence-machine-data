@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = [x^n] ( c (x/(1 + x)) )^n, where c(x) = (1 - sqrt(1 - 4*x))/(2*x) is the o.g.f. of the Catalan numbers A000108.",
+  "id": "A333472",
+  "mentions": [
+    "A000108",
+    "A000984",
+    "A001006",
+    "A001700",
+    "A025174",
+    "A086246",
+    "A106228",
+    "A219537",
+    "A333093",
+    "A333473"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = A308121(A024556(n),k).",
+  "id": "A307964",
+  "mentions": [
+    "A000010",
+    "A024556",
+    "A076511",
+    "A076512",
+    "A308121",
+    "A309497"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "look",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

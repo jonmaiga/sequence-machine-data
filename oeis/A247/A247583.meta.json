@@ -1,0 +1,17 @@
+{
+  "description": "Primes extracted from a pseudo-Collatz cycle '3*n-1' by consecutive arithmetic derivatives, here with starting point prime(99147) = 1287511.",
+  "id": "A247583",
+  "mentions": [
+    "A246007"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

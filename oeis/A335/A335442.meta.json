@@ -1,0 +1,20 @@
+{
+  "description": "List enumerated in lexicographic order of (n, s, k), where for each n >= 1, for each s a subset of 1..n with n-1 elements, and for each k in 0..n-1, we give the value of (Sum_{t subset of s, Card(t)=k} Product_{x in t} x).",
+  "id": "A335442",
+  "mentions": [
+    "A000142",
+    "A008275",
+    "A077012"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Square array T(n, k) (n >= 1, k >= 1) read by antidiagonals upwards: T(n, k) is the k-th positive number whose binary representation appears as a substring in the binary representation of 1/n (ignoring the radix point and adding trailing zeros if necessary in case of a terminating expansion).",
+  "id": "A300653",
+  "mentions": [
+    "A000079",
+    "A000975",
+    "A033138",
+    "A153055",
+    "A300630",
+    "A300654"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

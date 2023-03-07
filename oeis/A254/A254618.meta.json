@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = k-tuple deficiency of n-th deficient number.",
+  "id": "A254618",
+  "mentions": [
+    "A000027",
+    "A005100",
+    "A081705",
+    "A098007",
+    "A098008",
+    "A234899"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

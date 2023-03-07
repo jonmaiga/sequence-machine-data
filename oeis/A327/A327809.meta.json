@@ -1,0 +1,20 @@
+{
+  "description": "Regular triangle, coefficients of the polynomial P(n)(x) = (-1)^(n+1)*(2*n+1)*binomial(2*n, n)*Sum_{i=0..n} x^i*binomial(n, i)/(n+i+1).",
+  "id": "A327809",
+  "mentions": [
+    "A001700",
+    "A033876",
+    "A046899"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

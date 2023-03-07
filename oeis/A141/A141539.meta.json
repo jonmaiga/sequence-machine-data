@@ -1,0 +1,48 @@
+{
+  "description": "Square array A(n,k) of numbers of length n binary words with at least k \"0\" between any two \"1\" digits (n,k >= 0), read by antidiagonals.",
+  "id": "A141539",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000045",
+    "A000079",
+    "A000217",
+    "A000930",
+    "A003269",
+    "A003520",
+    "A005408",
+    "A005708",
+    "A005709",
+    "A005710",
+    "A005711",
+    "A008778",
+    "A017898",
+    "A017899",
+    "A017900",
+    "A017901",
+    "A017902",
+    "A017903",
+    "A017904",
+    "A017905",
+    "A017906",
+    "A017907",
+    "A017908",
+    "A017909",
+    "A034856",
+    "A068921",
+    "A078012",
+    "A143291"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

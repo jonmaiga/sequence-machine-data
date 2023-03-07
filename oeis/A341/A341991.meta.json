@@ -1,0 +1,22 @@
+{
+  "description": "Multiplicative defect in a natural approximation for the terms of A341617.",
+  "id": "A341991",
+  "mentions": [
+    "A000142",
+    "A002110",
+    "A007947",
+    "A341617"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

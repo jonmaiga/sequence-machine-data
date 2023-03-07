@@ -1,0 +1,19 @@
+{
+  "description": "Denominators/48 of the coefficients of the series expansion of the Riemann-Siegel theta function at infinity.",
+  "id": "A282899",
+  "mentions": [
+    "A114721",
+    "A282898"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:53",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{d|n, 1 < d < n} (-1)^(d + 1).",
+  "id": "A335021",
+  "mentions": [
+    "A001227",
+    "A007814",
+    "A048272",
+    "A070824",
+    "A325937",
+    "A325939",
+    "A335022"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes p whose continued fraction expansion of sqrt(p) has a 1 in the second position.",
+  "id": "A334163",
+  "mentions": [
+    "A063657",
+    "A307508"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "The concatenation of the n-th prime with n gives a palindrome.",
+  "id": "A115996",
+  "mentions": [
+    "A109304",
+    "A115997"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

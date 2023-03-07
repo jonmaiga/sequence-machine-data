@@ -1,0 +1,26 @@
+{
+  "description": "Number of proper divisors d of n such that Stern polynomial B(d,x) is irreducible.",
+  "id": "A294891",
+  "mentions": [
+    "A032741",
+    "A087624",
+    "A186891",
+    "A283991",
+    "A294881",
+    "A294892",
+    "A294893",
+    "A294894",
+    "A294901"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Order of shifts of Thue-Morse sequence.",
+  "id": "A359710",
+  "mentions": [
+    "A010060"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

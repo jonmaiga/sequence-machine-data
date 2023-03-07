@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f: Sum_{n>=0} 3^(n^2) * exp(3^n*x) * x^n/n!.",
+  "id": "A202989",
+  "mentions": [
+    "A060613",
+    "A136516",
+    "A165327",
+    "A244004",
+    "A326013"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

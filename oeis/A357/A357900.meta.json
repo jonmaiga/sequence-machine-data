@@ -1,0 +1,20 @@
+{
+  "description": "Number of groups of order A060702(n) with trivial center.",
+  "id": "A357900",
+  "mentions": [
+    "A056867",
+    "A059806",
+    "A060702"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that both n*log(2) and n*log(3) are within 1/sqrt(n) of integers.",
+  "id": "A259483",
+  "mentions": [
+    "A208530"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

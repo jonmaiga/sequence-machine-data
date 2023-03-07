@@ -1,0 +1,19 @@
+{
+  "description": "Least value of n such that |P(n) - 1/e| < 10^(-i), i=1,2,3... . P(n)=floor(n!/e + 1/2)/n! is the probability of a random permutation on n objects be a derangement.",
+  "id": "A181590",
+  "mentions": [
+    "A000166",
+    "A068985",
+    "A181589"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

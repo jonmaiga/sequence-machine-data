@@ -1,0 +1,26 @@
+{
+  "description": "Number of partitions of n that contain more nonprime parts than prime parts.",
+  "id": "A355158",
+  "mentions": [
+    "A000040",
+    "A000041",
+    "A000607",
+    "A002095",
+    "A002096",
+    "A018252",
+    "A155515",
+    "A355225",
+    "A355306"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

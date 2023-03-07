@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (Glaisher^12/(2^(4/3) * Pi * e^EulerGamma))^(Pi^2/8).",
+  "id": "A115521",
+  "mentions": [
+    "A000796",
+    "A001113",
+    "A001620",
+    "A074962"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

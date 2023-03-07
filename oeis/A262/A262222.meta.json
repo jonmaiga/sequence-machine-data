@@ -1,0 +1,19 @@
+{
+  "description": "Decimal representations of hexadecimal numbers that can be misinterpreted as decimal numbers in scientific E notation.",
+  "id": "A262222",
+  "mentions": [
+    "A102489",
+    "A102490"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

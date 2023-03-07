@@ -1,0 +1,29 @@
+{
+  "description": "a(n) is the smallest integer > a(n-1) such that {Pi^a(n)} < {Pi^a(n-1)}, where {x} = x - floor(x), a(1)=1.",
+  "id": "A137994",
+  "mentions": [
+    "A001203",
+    "A001672",
+    "A081464",
+    "A138324",
+    "A153669",
+    "A153677",
+    "A153685",
+    "A153693",
+    "A153705",
+    "A153713",
+    "A153717",
+    "A154130"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

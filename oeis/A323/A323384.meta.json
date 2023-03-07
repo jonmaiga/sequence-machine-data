@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number with exactly n divisors in Eisenstein integers.",
+  "id": "A323384",
+  "mentions": [
+    "A005179",
+    "A302252",
+    "A319442"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

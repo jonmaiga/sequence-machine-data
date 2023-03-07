@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n / A280696(n); n divided by its largest Lucas proper divisor, a(1) = 1.",
+  "id": "A280697",
+  "mentions": [
+    "A000032",
+    "A280687",
+    "A280695",
+    "A280696"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

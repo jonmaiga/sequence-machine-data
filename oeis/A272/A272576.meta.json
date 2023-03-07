@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = f(10, f(9, n)), where f(k,m) = floor(m*k/(k-1)).",
+  "id": "A272576",
+  "mentions": [
+    "A007094",
+    "A039155",
+    "A272574"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:13:05",
+    "offset": 0,
+    "size": 73,
+    "source": "joeis"
+  }
+}

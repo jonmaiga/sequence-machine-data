@@ -1,0 +1,26 @@
+{
+  "description": "Smallest power of 9 whose decimal expansion contains n.",
+  "id": "A176769",
+  "mentions": [
+    "A001018",
+    "A001019",
+    "A030001",
+    "A062526",
+    "A176763",
+    "A176764",
+    "A176773"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:00:07",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

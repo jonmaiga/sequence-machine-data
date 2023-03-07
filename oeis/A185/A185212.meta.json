@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 12*n^2 - 8*n + 1.",
+  "id": "A185212",
+  "mentions": [
+    "A000384",
+    "A000567",
+    "A001082",
+    "A001859",
+    "A016754"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:39:37",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

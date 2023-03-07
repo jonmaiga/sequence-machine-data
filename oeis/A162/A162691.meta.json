@@ -1,0 +1,22 @@
+{
+  "description": "Strictly positive numbers n such that 24*n/(24+n) is an integer.",
+  "id": "A162691",
+  "mentions": [
+    "A127730",
+    "A162688",
+    "A162689",
+    "A162690"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

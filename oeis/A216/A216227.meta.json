@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers that do not appear in the Euclid-Mullin sequence A000946.",
+  "id": "A216227",
+  "mentions": [
+    "A000946"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

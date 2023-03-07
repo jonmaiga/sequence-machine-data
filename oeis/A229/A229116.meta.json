@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: A(x) = exp( Sum_{n>=1} A((-1)^n*x)^n * x^n/n ).",
+  "id": "A229116",
+  "mentions": [
+    "A000108",
+    "A157674"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Maximal length of a sequence such that v(0)=n, v(k+2) = v(k)-v(k+1), v(k) >= 0.",
+  "id": "A134299",
+  "mentions": [
+    "A019446",
+    "A060143",
+    "A101803"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Side length of the smallest equilateral triangles that have a separated dissection into n equilateral triangles with integer sides, or 0 if no such triangle exists.",
+  "id": "A290820",
+  "mentions": [
+    "A167123",
+    "A290653",
+    "A290697",
+    "A290821",
+    "A300001"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

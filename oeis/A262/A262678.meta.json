@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n - A262690(n), where A262690(n) = largest square k <= n such that A002828(n-k) = A002828(n)-1.",
+  "id": "A262678",
+  "mentions": [
+    "A002828",
+    "A053186",
+    "A262689",
+    "A262690"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

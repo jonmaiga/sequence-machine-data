@@ -1,0 +1,19 @@
+{
+  "description": "Number of pairs (lambda,mu) of partitions lambda of 2n+1 and mu of n with mu <= lambda (by diagram containment).",
+  "id": "A303862",
+  "mentions": [
+    "A259478",
+    "A303851"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

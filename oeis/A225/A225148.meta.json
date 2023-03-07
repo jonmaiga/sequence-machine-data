@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form (k^p-1)/(k-1) not having representation in the form (m^q+1)/(m+1), where k,m > 1 and p,q > 2.",
+  "id": "A225148",
+  "mentions": [
+    "A059055",
+    "A085104"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

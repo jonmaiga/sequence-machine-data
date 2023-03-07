@@ -1,0 +1,20 @@
+{
+  "description": "Number of symmetry classes of 3 X 3 magic squares (with distinct positive entries) having all entries < n.",
+  "id": "A108577",
+  "mentions": [
+    "A108576",
+    "A108578",
+    "A108579"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

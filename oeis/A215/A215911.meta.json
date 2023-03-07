@@ -1,0 +1,22 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} A215910(n)*x^n/n ), where A215910(n) equals the sum of the n-th power of multinomial coefficients in row n of triangle A036038.",
+  "id": "A215911",
+  "mentions": [
+    "A036038",
+    "A182963",
+    "A183239",
+    "A183241",
+    "A215910"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

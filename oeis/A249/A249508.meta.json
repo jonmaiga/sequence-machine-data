@@ -1,0 +1,23 @@
+{
+  "description": "Lengths of complete iterations (direct and reverse branches) of the Kolakoski sequence A000002.",
+  "id": "A249508",
+  "mentions": [
+    "A000002",
+    "A054351",
+    "A054352",
+    "A249093",
+    "A249094",
+    "A249507"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Irregular table: Each row n (n >= 0) lists in ascending order all A018819(n) numbers k for which A048675(k) = n.",
+  "id": "A277905",
+  "mentions": [
+    "A000079",
+    "A018819",
+    "A019565",
+    "A048675",
+    "A260443",
+    "A277886",
+    "A277896",
+    "A277903",
+    "A277904"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

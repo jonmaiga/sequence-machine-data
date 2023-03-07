@@ -1,0 +1,21 @@
+{
+  "description": "First differences of A084663.",
+  "id": "A134744",
+  "mentions": [
+    "A084663",
+    "A106108",
+    "A132199",
+    "A134734",
+    "A134743"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

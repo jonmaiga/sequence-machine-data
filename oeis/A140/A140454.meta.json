@@ -1,0 +1,19 @@
+{
+  "description": "Number of primes p less than 10^n such that p^2-2 is prime.",
+  "id": "A140454",
+  "mentions": [
+    "A000040",
+    "A028870"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

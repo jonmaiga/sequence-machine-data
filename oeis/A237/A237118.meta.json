@@ -1,0 +1,20 @@
+{
+  "description": "Number of white areas in the graph of elementary cellular automaton with rule 30 at generation n.",
+  "id": "A237118",
+  "mentions": [
+    "A070950",
+    "A226482",
+    "A237119",
+    "A237120"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

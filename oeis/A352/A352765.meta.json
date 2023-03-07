@@ -1,0 +1,19 @@
+{
+  "description": "Number of asymmetric n-node graphs with the smallest number (A352764(n)) of edges.",
+  "id": "A352765",
+  "mentions": [
+    "A003400",
+    "A352764"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

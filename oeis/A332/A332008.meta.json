@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that phi(k) and phi(k+1) are perfect powers (A001597).",
+  "id": "A332008",
+  "mentions": [
+    "A000010",
+    "A001597",
+    "A166955",
+    "A281016"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

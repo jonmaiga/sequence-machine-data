@@ -1,0 +1,22 @@
+{
+  "description": "Triangular numbers A000217 composed of only curved digits {0, 2, 3, 5, 6, 8, 9}.",
+  "id": "A247016",
+  "mentions": [
+    "A000217",
+    "A028374",
+    "A034470",
+    "A072960"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

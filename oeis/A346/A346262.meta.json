@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the Lorenz number.",
+  "id": "A346262",
+  "mentions": [
+    "A070063",
+    "A081823",
+    "A195055",
+    "A275008"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": -7,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

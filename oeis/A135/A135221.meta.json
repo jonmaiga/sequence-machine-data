@@ -1,0 +1,21 @@
+{
+  "description": "Triangle A007318 + A000012(signed) - I, I = Identity matrix, read by rows.",
+  "id": "A135221",
+  "mentions": [
+    "A000012",
+    "A007318",
+    "A051049"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

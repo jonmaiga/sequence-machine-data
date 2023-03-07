@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 1, and for any n > 1, let p be the greatest prime factor of n, and e be its exponent, then a(n) = p^a(e).",
+  "id": "A323129",
+  "mentions": [
+    "A006530",
+    "A053585",
+    "A071178",
+    "A164336",
+    "A323130"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

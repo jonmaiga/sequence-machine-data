@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest composite k such that d(2)/d(1) + d(3)/d(2) + ... + d(q)/d(q-1) = prime(n), where d(1) < d(2) < ... < d(q) are the q divisors of k, or 0 if no such k exists.",
+  "id": "A260901",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

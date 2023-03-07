@@ -1,0 +1,18 @@
+{
+  "description": "Partial sums of A165271.",
+  "id": "A165273",
+  "mentions": [
+    "A165271",
+    "A165272"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:28:19",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

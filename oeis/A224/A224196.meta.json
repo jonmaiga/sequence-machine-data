@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the 3rd du Bois-Reymond constant.",
+  "id": "A224196",
+  "mentions": [
+    "A062546",
+    "A079330",
+    "A088989",
+    "A207528",
+    "A243108",
+    "A245333"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "changed",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

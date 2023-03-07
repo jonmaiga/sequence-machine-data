@@ -1,0 +1,27 @@
+{
+  "description": "Nonnegative integers that can be computed using exactly nine 9's and the four basic arithmetic operations {+, -, *, /}.",
+  "id": "A258070",
+  "mentions": [
+    "A171826",
+    "A171827",
+    "A171828",
+    "A171829",
+    "A182002",
+    "A258068",
+    "A258069",
+    "A258071",
+    "A258097"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

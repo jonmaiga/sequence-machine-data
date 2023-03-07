@@ -1,0 +1,19 @@
+{
+  "description": "Number of black cells after n moves of Langton's ant on an infinite hexagonal grid, starting with only white cells.",
+  "id": "A269757",
+  "mentions": [
+    "A255938",
+    "A275302",
+    "A275305"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

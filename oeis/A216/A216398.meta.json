@@ -1,0 +1,29 @@
+{
+  "description": "For digit n from 1 to 9, a(n) = the sum of all numbers m such that m is equal to the number of n's in the decimal digits of all numbers <= m.",
+  "id": "A216398",
+  "mentions": [
+    "A014778",
+    "A101639",
+    "A101640",
+    "A101641",
+    "A130427",
+    "A130428",
+    "A130429",
+    "A130430",
+    "A130431",
+    "A130432"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

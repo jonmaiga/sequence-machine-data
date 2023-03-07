@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n plus the number of its distinct prime factors.",
+  "id": "A229109",
+  "mentions": [
+    "A000961",
+    "A001221",
+    "A064800"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least term of A359260 whose number of divisors is n.",
+  "id": "A359261",
+  "mentions": [
+    "A000005",
+    "A003418",
+    "A334421",
+    "A359260",
+    "A359262"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

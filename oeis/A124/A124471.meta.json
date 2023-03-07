@@ -1,0 +1,21 @@
+{
+  "description": "Benjamin Franklin's 8 X 8 magic square read by rows.",
+  "id": "A124471",
+  "mentions": [
+    "A124472",
+    "A124474"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to put n indistinguishable balls into n^3 distinguishable boxes.",
+  "id": "A165984",
+  "mentions": [
+    "A001700",
+    "A054688",
+    "A060690",
+    "A165817"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

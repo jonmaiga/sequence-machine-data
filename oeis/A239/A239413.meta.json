@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n^5-5 is prime.",
+  "id": "A239413",
+  "mentions": [
+    "A028870",
+    "A153974",
+    "A239343"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:30:37",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

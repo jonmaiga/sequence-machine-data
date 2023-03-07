@@ -1,0 +1,23 @@
+{
+  "description": "Sum of first n perfect numbers A000396, divided by 2.",
+  "id": "A153487",
+  "mentions": [
+    "A000396",
+    "A092336",
+    "A133028",
+    "A153474",
+    "A153475",
+    "A153476"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:20:32",
+    "offset": 1,
+    "size": 10,
+    "source": "joeis"
+  }
+}

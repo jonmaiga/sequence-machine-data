@@ -1,0 +1,20 @@
+{
+  "description": "Decimal representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by \"Rule 157\", based on the 5-celled von Neumann neighborhood.",
+  "id": "A279470",
+  "mentions": [
+    "A279468",
+    "A279469",
+    "A279471"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:34:36",
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

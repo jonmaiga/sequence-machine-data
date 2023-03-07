@@ -1,0 +1,20 @@
+{
+  "description": "Number of labeled connected simple graphs on n vertices without cycles of length 4.",
+  "id": "A345248",
+  "mentions": [
+    "A077269",
+    "A345218",
+    "A345249"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

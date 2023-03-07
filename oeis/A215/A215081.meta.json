@@ -1,0 +1,17 @@
+{
+  "description": "Smallest number k such that the difference between the greatest prime divisor and the smallest prime divisor of k equals n, or 0 if there is no such k.",
+  "id": "A215081",
+  "mentions": [
+    "A007921"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

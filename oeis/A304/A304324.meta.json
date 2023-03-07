@@ -1,0 +1,24 @@
+{
+  "description": "O.g.f. A(x) satisfies: [x^n] exp( n^4 * x ) / A(x) = 0 for n>0.",
+  "id": "A304324",
+  "mentions": [
+    "A304314",
+    "A304320",
+    "A304321",
+    "A304322",
+    "A304323",
+    "A304325",
+    "A304394"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

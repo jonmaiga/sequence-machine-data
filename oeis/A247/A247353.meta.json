@@ -1,0 +1,23 @@
+{
+  "description": "Number of paths from (0,1) to the line x = n, each consisting of segments given by the vectors (1,1), (1,2), (1,-1), with vertices (i,k) satisfying 0 <= k <= 3.",
+  "id": "A247353",
+  "mentions": [
+    "A247321",
+    "A247322",
+    "A247352",
+    "A247354",
+    "A247355"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Triangular array: g(n,k)=number of fractional parts (i*r) in interval [(k-1)/n, k/n], for 1<=i<=n, 1<=k<=n, r=(1+sqrt(5))/2, the golden ratio.",
+  "id": "A194293",
+  "mentions": [
+    "A194285"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:13:27",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

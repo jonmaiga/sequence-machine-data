@@ -1,0 +1,20 @@
+{
+  "description": "Composite terms in sequence {A243937(n)-1}.",
+  "id": "A245274",
+  "mentions": [
+    "A062326",
+    "A243937",
+    "A245024",
+    "A245272"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

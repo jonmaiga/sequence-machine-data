@@ -1,0 +1,35 @@
+{
+  "description": "Triangle read by rows. A generalization of unsigned Lah numbers, called L[2,1].",
+  "id": "A286724",
+  "mentions": [
+    "A000012",
+    "A000165",
+    "A000290",
+    "A000537",
+    "A001249",
+    "A006232",
+    "A008459",
+    "A014479",
+    "A025167",
+    "A028338",
+    "A039755",
+    "A048993",
+    "A143395",
+    "A271703",
+    "A286725",
+    "A288876"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

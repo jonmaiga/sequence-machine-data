@@ -1,0 +1,17 @@
+{
+  "description": "Primes in successive intervals (2^i +1 .. 2^(i+1) -1) i=1,2,3,... such that there are no prime symmetric XOR couples in either the original interval or any recursively halved interval that contains them.",
+  "id": "A199824",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

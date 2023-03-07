@@ -1,0 +1,21 @@
+{
+  "description": "Self-inverse permutation of integers: A163327-conjugate of A163332.",
+  "id": "A163333",
+  "mentions": [
+    "A163327",
+    "A163332",
+    "A163334",
+    "A163336",
+    "A163355"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

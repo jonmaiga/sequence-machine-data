@@ -1,0 +1,18 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = number of numerical semigroups of genus n with k even gaps.",
+  "id": "A293176",
+  "mentions": [
+    "A007323"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

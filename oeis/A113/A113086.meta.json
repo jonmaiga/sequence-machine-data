@@ -1,0 +1,17 @@
+{
+  "description": "Column 1 of triangle A113084, which satisfies the recurrence: A113084(n,k) = [A113084^3](n-1,k-1) + [A113084^3](n-1,k).",
+  "id": "A113086",
+  "mentions": [
+    "A113084"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

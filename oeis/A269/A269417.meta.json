@@ -1,0 +1,20 @@
+{
+  "description": "Number of Go games on n X n board with no repeating position and suicide allowed.",
+  "id": "A269417",
+  "mentions": [
+    "A094777"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

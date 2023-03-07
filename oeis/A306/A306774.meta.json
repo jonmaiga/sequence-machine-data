@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{k>=2} (-1)^k * zeta(k) * zeta(2*k) / k.",
+  "id": "A306774",
+  "mentions": [
+    "A001620",
+    "A303670",
+    "A306769",
+    "A306778"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

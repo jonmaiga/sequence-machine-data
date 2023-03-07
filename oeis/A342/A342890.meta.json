@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: T(n,k) = generalized binomial coefficients (n,k)_11 (n >= 0, 0 <= k <= n).",
+  "id": "A342890",
+  "mentions": [
+    "A001263",
+    "A007318",
+    "A056939",
+    "A056940",
+    "A056941",
+    "A142465",
+    "A142467",
+    "A142468",
+    "A174109",
+    "A342889",
+    "A342891"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "The real part of b(n) where b(n) = (n + b(n-1)) * (1 + i) with b(-1)=0; i = sqrt(-1).",
+  "id": "A309878",
+  "mentions": [
+    "A009545"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:15",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

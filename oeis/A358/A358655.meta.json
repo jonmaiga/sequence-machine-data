@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of distinct scalar products which can be formed by pairs of signed permutations (V, W) of [n].",
+  "id": "A358655",
+  "mentions": [
+    "A000165",
+    "A188475",
+    "A358629"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

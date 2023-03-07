@@ -1,0 +1,20 @@
+{
+  "description": "Primes with index k >= 3 such that A288189(prime(k)) < A295185(prime(k)).",
+  "id": "A302720",
+  "mentions": [
+    "A056240",
+    "A288189",
+    "A295185",
+    "A299760"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

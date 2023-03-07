@@ -1,0 +1,21 @@
+{
+  "description": "Number of length n self-avoiding walks on the kisrhombille tiling starting at a degree 4 vertex.",
+  "id": "A326745",
+  "mentions": [
+    "A249795",
+    "A298040",
+    "A326743",
+    "A326744"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

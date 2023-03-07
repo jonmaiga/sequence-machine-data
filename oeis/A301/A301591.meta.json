@@ -1,0 +1,21 @@
+{
+  "description": "Primes p that have other solutions x to A023900(x) = A023900(p) than a power of p.",
+  "id": "A301591",
+  "mentions": [
+    "A001055",
+    "A005383",
+    "A023900",
+    "A301374",
+    "A301590"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

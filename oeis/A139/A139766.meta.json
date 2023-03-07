@@ -1,0 +1,21 @@
+{
+  "description": "A number n is included in the sequence if and only if the n-th integer from among those positive integers which are coprime to n+1 = the (n+1)-st integer from among those positive integers which are coprime to n.",
+  "id": "A139766",
+  "mentions": [
+    "A001274",
+    "A069213",
+    "A126356",
+    "A126357"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

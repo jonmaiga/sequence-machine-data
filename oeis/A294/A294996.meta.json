@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that the largest digit of n^3 is 6.",
+  "id": "A294996",
+  "mentions": [
+    "A000578",
+    "A278937",
+    "A294664",
+    "A294665",
+    "A294997",
+    "A294999",
+    "A295006",
+    "A295021"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

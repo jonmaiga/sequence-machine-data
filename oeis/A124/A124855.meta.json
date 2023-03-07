@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that 3k + 4 and 4k + 3 are primes.",
+  "id": "A124855",
+  "mentions": [
+    "A034936",
+    "A095278",
+    "A106068"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

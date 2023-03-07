@@ -1,0 +1,20 @@
+{
+  "description": "Friendly club of (first Wieferich prime)-1 and (second Wieferich prime)-1: numbers n such that sigma(n)/n = 112/39.",
+  "id": "A239875",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A001220"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

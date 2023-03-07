@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = number of Huffman-equivalence classes of ternary trees with 3n+1 leaves and 4k leaves on the bottom level (n>=1, k>=1).",
+  "id": "A176463",
+  "mentions": [
+    "A176431",
+    "A176452",
+    "A176503",
+    "A194628",
+    "A194633"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

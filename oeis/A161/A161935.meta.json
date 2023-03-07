@@ -1,0 +1,25 @@
+{
+  "description": "28-gonal numbers: a(n) = n*(13*n - 12).",
+  "id": "A161935",
+  "mentions": [
+    "A000217",
+    "A051866",
+    "A161532",
+    "A161549",
+    "A161587",
+    "A161617",
+    "A162316"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:17:59",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

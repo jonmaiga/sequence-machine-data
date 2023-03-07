@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the real part of e^(i/e).",
+  "id": "A212436",
+  "mentions": [
+    "A085659",
+    "A085660",
+    "A212437"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:32:15",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

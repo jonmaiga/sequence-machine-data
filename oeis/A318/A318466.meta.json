@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 2*n OR A000203(n), where OR is bitwise-or (A003986) and A000203 = sum of divisors.",
+  "id": "A318466",
+  "mentions": [
+    "A000203",
+    "A003986",
+    "A224880",
+    "A318456",
+    "A318467",
+    "A318468"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:39",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

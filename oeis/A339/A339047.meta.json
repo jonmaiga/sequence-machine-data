@@ -1,0 +1,20 @@
+{
+  "description": "a(n) gives the multiplicity for A154777(n) representable as x^2 + 2*y^2 with positive integers x and y, for n >= 1.",
+  "id": "A339047",
+  "mentions": [
+    "A154777",
+    "A338432"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

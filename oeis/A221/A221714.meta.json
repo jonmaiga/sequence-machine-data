@@ -1,0 +1,23 @@
+{
+  "description": "Numbers written in base 2 with digits rearranged to be in decreasing order.",
+  "id": "A221714",
+  "mentions": [
+    "A004086",
+    "A004185",
+    "A004186",
+    "A009996",
+    "A073138"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

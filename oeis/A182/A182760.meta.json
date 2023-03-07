@@ -1,0 +1,19 @@
+{
+  "description": "Beatty sequence for (3 + 5^(-1/2))/2.",
+  "id": "A182760",
+  "mentions": [
+    "A182761",
+    "A242671"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

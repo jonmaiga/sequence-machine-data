@@ -1,0 +1,18 @@
+{
+  "description": "Swap the order of primes in twin prime pairs. Also, from 5th term (which is 7) on, the primes of A107323.",
+  "id": "A107685",
+  "mentions": [
+    "A107323",
+    "A107472"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers for which the maximal run of 1's in their binary representation contains odd number of 1's.",
+  "id": "A223909",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A038374"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

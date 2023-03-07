@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose digit sum as well as sum of the squares of the digits is a prime.",
+  "id": "A182404",
+  "mentions": [
+    "A007953",
+    "A055012",
+    "A108662"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f.: (1-x^4)^(-1/2)*exp(x^2/(1-x^2))*BesselI(0,x^2/(x^2-1)) (since this is an even function, we do not give the intercalating 0's).",
+  "id": "A123686",
+  "mentions": [
+    "A123510",
+    "A123511",
+    "A123512",
+    "A123525"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

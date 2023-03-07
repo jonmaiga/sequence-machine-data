@@ -1,0 +1,24 @@
+{
+  "description": "Toothpick sequence starting from a T formed by 3 toothpicks: a(n)=A160406(n)*3.",
+  "id": "A160738",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A139251",
+    "A160406",
+    "A160736",
+    "A160737",
+    "A160739",
+    "A160740"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Primes with both a prime number of 0's and a prime number of 1's in their binary representations.",
+  "id": "A144214",
+  "mentions": [
+    "A000120",
+    "A080791",
+    "A081092",
+    "A144213",
+    "A178350"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

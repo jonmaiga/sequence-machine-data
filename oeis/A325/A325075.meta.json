@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers congruent to 1, 16 or 22 modulo 39 representable by both x^2 + x*y + 10*y^2 and x^2 + x*y + 127*y^2.",
+  "id": "A325075",
+  "mentions": [
+    "A325067",
+    "A325076"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

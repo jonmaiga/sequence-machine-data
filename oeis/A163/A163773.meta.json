@@ -1,0 +1,19 @@
+{
+  "description": "Row sums of the swinging derangement triangle (A163770).",
+  "id": "A163773",
+  "mentions": [
+    "A056040",
+    "A163770"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

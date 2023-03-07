@@ -1,0 +1,23 @@
+{
+  "description": "Triangle, read by rows, resulting from the matrix product of triangle A108267 with Pascal's triangle (A007318).",
+  "id": "A108291",
+  "mentions": [
+    "A000169",
+    "A007318",
+    "A060543",
+    "A108267",
+    "A108290",
+    "A108292"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numerator of Sum_{i=1..n} 1/(i*C(2*i,i)).",
+  "id": "A112099",
+  "mentions": [
+    "A112100",
+    "A112102",
+    "A112103",
+    "A130549",
+    "A130550",
+    "A134805"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

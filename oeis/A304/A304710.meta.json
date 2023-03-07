@@ -1,0 +1,25 @@
+{
+  "description": "Number of partitions of 2n whose Ferrers-Young diagram cannot be tiled with dominoes.",
+  "id": "A304710",
+  "mentions": [
+    "A000041",
+    "A000712",
+    "A058696",
+    "A144064",
+    "A182616",
+    "A304662",
+    "A304789"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

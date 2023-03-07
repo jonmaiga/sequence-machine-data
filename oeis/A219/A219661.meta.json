@@ -1,0 +1,30 @@
+{
+  "description": "Number of steps to go from (n+1)!-1 to n!-1 with map x -> x - (sum of digits in factorial base representation of x).",
+  "id": "A219661",
+  "mentions": [
+    "A000142",
+    "A007623",
+    "A034968",
+    "A213709",
+    "A219651",
+    "A219652",
+    "A219662",
+    "A219663",
+    "A219665",
+    "A226061",
+    "A230420",
+    "A230421",
+    "A261234"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

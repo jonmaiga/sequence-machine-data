@@ -1,0 +1,26 @@
+{
+  "description": "Period of the Fibonacci n-step sequence mod n.",
+  "id": "A351657",
+  "mentions": [
+    "A000040",
+    "A000078",
+    "A001039",
+    "A001175",
+    "A007582",
+    "A046738",
+    "A106295",
+    "A106303"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

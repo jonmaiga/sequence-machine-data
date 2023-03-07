@@ -1,0 +1,20 @@
+{
+  "description": "Number of independent vertex sets and vertex covers in the n-polygon diagonal intersection graph.",
+  "id": "A291948",
+  "mentions": [
+    "A292356",
+    "A292923",
+    "A296517",
+    "A300569"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 3,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

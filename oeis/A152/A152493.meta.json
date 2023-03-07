@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that the decimal expansion of 2^n+5^n contains no 0's (probably 58 is last term).",
+  "id": "A152493",
+  "mentions": [
+    "A007496",
+    "A074600"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

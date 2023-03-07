@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T, read by rows, where T(n,k) = [T^(2^k)](n-k,0) * (2^k)^(n-k) for n>=k>=0 such that row n of the 2^(n-1)-th root of T consists solely of integers given by: [T^( 1/2^(n-1) )](n,k) = (2^k)^(n-k) for n>=0.",
+  "id": "A134049",
+  "mentions": [
+    "A134050",
+    "A134051",
+    "A134052",
+    "A134053",
+    "A134054",
+    "A134484",
+    "A274477"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k) read by rows, defined by: T(1,1)=1; n > 1 and k=1: T(n,1) = T(n-1,2) + T(n,2); k=2: T(n,2) = A000196(n-1); k > 2: T(n,k) = (Sum_{i=1..k-1} T(n-i,k-1)) - (Sum_{i=1..k-1} T(n-i,k)).",
+  "id": "A179285",
+  "mentions": [
+    "A000196",
+    "A051731",
+    "A059571",
+    "A179286",
+    "A179287"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

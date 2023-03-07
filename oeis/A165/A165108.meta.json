@@ -1,0 +1,29 @@
+{
+  "description": "Smallest member of cycle corresponding to n-th term of A165107",
+  "id": "A165108",
+  "mentions": [
+    "A151965",
+    "A163205",
+    "A165010",
+    "A165030",
+    "A165049",
+    "A165069",
+    "A165088",
+    "A165090",
+    "A165095",
+    "A165107",
+    "A165109",
+    "A165128"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

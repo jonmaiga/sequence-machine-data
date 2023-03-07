@@ -1,0 +1,32 @@
+{
+  "description": "Table read by antidiagonals: Let b be the number of digits in the binary expansion of n. Then T(n,k) is the k-th odd prime p such that the binary digits of n match the primality of the b consecutive odd numbers beginning with p (or 0 if no such k-th prime exists).",
+  "id": "A297709",
+  "mentions": [
+    "A001359",
+    "A007530",
+    "A022004",
+    "A022005",
+    "A029710",
+    "A031924",
+    "A031926",
+    "A049437",
+    "A049438",
+    "A049591",
+    "A065091",
+    "A083371",
+    "A124582",
+    "A124584",
+    "A210360"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

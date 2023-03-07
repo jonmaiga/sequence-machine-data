@@ -1,0 +1,23 @@
+{
+  "description": "Number of vertices in an equilateral triangle \"frame\" of size n (see Comments in A328526 for definition).",
+  "id": "A333031",
+  "mentions": [
+    "A274585",
+    "A274586",
+    "A328526",
+    "A331776",
+    "A333030",
+    "A333032",
+    "A333033"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

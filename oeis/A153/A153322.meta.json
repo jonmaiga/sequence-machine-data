@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that p^3 - 12 and p^3 + 12 are also primes.",
+  "id": "A153322",
+  "mentions": [
+    "A153116",
+    "A153119",
+    "A153120",
+    "A153320",
+    "A153321"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

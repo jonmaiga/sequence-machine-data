@@ -1,0 +1,19 @@
+{
+  "description": "Triangle t(n,m) = p(n)/ (p(m)*p(n-m) ) read by rows, where p(n>=1) = 1, -1, 2, 10, 10, -160, -2080,.. are partial products of A106852.",
+  "id": "A177694",
+  "mentions": [
+    "A106852"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

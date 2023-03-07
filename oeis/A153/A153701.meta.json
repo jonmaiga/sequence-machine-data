@@ -1,0 +1,28 @@
+{
+  "description": "Minimal exponents m such that the fractional part of e^m obtains a minimum (when starting with m=1).",
+  "id": "A153701",
+  "mentions": [
+    "A000149",
+    "A137994",
+    "A153661",
+    "A153669",
+    "A153677",
+    "A153685",
+    "A153693",
+    "A153705",
+    "A153717",
+    "A154130"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

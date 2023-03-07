@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = binomial(6*n,3*n)*binomial(2*n,n).",
+  "id": "A275655",
+  "mentions": [
+    "A000984",
+    "A002894",
+    "A066802",
+    "A275652",
+    "A275653",
+    "A275654"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:19:36",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

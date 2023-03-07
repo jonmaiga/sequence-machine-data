@@ -1,0 +1,24 @@
+{
+  "description": "Starts of runs of 7 consecutive Niven (or Harshad) numbers (A005349).",
+  "id": "A330930",
+  "mentions": [
+    "A005349",
+    "A060159",
+    "A141769",
+    "A154701",
+    "A330927",
+    "A330928",
+    "A330929"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that there exists no square whose base-m digit sum is binomial(m,2).",
+  "id": "A260191",
+  "mentions": [
+    "A007953",
+    "A096008",
+    "A249034"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of alternating permutations on 2n+1 letters that avoid a certain pattern of length 4 (see Lewis, 2012, Appendix, for precise definition).",
+  "id": "A217800",
+  "mentions": [
+    "A007724",
+    "A181197",
+    "A217799",
+    "A217830"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

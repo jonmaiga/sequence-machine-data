@@ -1,0 +1,24 @@
+{
+  "description": "Fibonacci sequence beginning 2, 8.",
+  "id": "A294157",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000285",
+    "A022090",
+    "A022113",
+    "A294116"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

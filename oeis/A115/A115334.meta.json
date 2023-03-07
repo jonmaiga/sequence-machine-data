@@ -1,0 +1,19 @@
+{
+  "description": "Numbers d > 0 such that 3+2d and 3+4d are primes.",
+  "id": "A115334",
+  "mentions": [
+    "A160394",
+    "A206037"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

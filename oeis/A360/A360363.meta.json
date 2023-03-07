@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that the bitwise XOR of two distinct terms are all distinct.",
+  "id": "A360363",
+  "mentions": [
+    "A000079",
+    "A011185",
+    "A346298",
+    "A360364"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

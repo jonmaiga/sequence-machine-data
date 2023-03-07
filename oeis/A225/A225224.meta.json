@@ -1,0 +1,24 @@
+{
+  "description": "A continuous \"look-and-say\" sequence (without repetition, seed 1,1,1).",
+  "id": "A225224",
+  "mentions": [
+    "A005150",
+    "A006751",
+    "A088203",
+    "A088204",
+    "A221646",
+    "A225212",
+    "A225330"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

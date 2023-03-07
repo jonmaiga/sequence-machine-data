@@ -1,0 +1,19 @@
+{
+  "description": "Even Fibonacci pseudoprimes: even composite numbers k such that either (1) k divides Fibonacci(k-1) if k mod 5 = 1 or -1 or (2) k divides Fibonacci(k+1) if k mod 5 = 2 or -2.",
+  "id": "A141137",
+  "mentions": [
+    "A005845",
+    "A081264"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

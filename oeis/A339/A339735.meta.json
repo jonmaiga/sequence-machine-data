@@ -1,0 +1,27 @@
+{
+  "description": "Dirichlet g.f.: Product_{k>=2} 1 / (1 + k^(-s))^9.",
+  "id": "A339735",
+  "mentions": [
+    "A022604",
+    "A316441",
+    "A339341",
+    "A339717",
+    "A339718",
+    "A339719",
+    "A339720",
+    "A339721",
+    "A339722",
+    "A339734"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

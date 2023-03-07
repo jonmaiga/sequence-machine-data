@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of 1 - f(-x) in powers of x where f() is a Ramanujan theta function.",
+  "id": "A257628",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A001318",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A341418"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

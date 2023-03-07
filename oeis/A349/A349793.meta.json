@@ -1,0 +1,21 @@
+{
+  "description": "Primes which are the nearest integer to the harmonic mean of the previous prime and the following prime.",
+  "id": "A349793",
+  "mentions": [
+    "A006562",
+    "A046869",
+    "A051635",
+    "A075540",
+    "A216124"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

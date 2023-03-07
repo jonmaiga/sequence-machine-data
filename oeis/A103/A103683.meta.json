@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1, a(2)=2, a(3)=3, a(n) = smallest positive integer not occurring earlier in sequence and coprime to a(n-1), a(n-2) and a(n-3).",
+  "id": "A103683",
+  "mentions": [
+    "A084937",
+    "A105214",
+    "A352950"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

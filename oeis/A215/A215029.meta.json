@@ -1,0 +1,19 @@
+{
+  "description": "To get a(n), start with m=n, let p = largest prime < m, set m = m-p if m>0, or m=m+p if m <= 0; repeat until p=2 has been processed; set a(n) = m.",
+  "id": "A215029",
+  "mentions": [
+    "A214912",
+    "A215030",
+    "A215035"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 115,
+    "source": "oeis-bfile"
+  }
+}

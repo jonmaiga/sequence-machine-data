@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of permutations of length n that have the same number of fixed points whether forwards or backwards.",
+  "id": "A334830",
+  "mentions": [
+    "A000142",
+    "A000166",
+    "A003471",
+    "A007016"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

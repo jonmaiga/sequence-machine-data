@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that 3^A000027*(7*p) is a subsequence of A033631.",
+  "id": "A108510",
+  "mentions": [
+    "A000027",
+    "A033631"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

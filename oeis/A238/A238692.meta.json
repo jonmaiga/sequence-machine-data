@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the quotient of the sum of (not necessarily distinct) integers i!+(prime(n)-1)!/i!, i=1,2,...,prime(n)-2, which are divisible by prime(n), and prime(n).",
+  "id": "A238692",
+  "mentions": [
+    "A007619",
+    "A238444"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

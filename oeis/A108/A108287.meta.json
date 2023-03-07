@@ -1,0 +1,17 @@
+{
+  "description": "Consider the Diophantine equations x+y=a, x^2+y^2=b, x^3+y^3=c. There are three values of a for each pair b,c with b>0 and c>0. Sequence gives values of b.",
+  "id": "A108287",
+  "mentions": [
+    "A108940"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

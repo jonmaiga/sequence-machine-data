@@ -1,0 +1,25 @@
+{
+  "description": "a(1) = 1, for n>=2: a(n) = sum of two consecutive noncomposite numbers A008578.",
+  "id": "A164653",
+  "mentions": [
+    "A000040",
+    "A001043",
+    "A008578",
+    "A011974",
+    "A022798",
+    "A069102",
+    "A076273",
+    "A158611"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:20:31",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

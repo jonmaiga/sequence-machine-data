@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form 3x^2 + 35y^2.",
+  "id": "A139845",
+  "mentions": [
+    "A106856",
+    "A139827"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

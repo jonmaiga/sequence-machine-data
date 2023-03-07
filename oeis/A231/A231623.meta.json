@@ -1,0 +1,20 @@
+{
+  "description": "Smallest starting deficient number for n consecutive deficient numbers in arithmetic progression.",
+  "id": "A231623",
+  "mentions": [
+    "A005100",
+    "A228433"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 3,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

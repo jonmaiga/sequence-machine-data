@@ -1,0 +1,20 @@
+{
+  "description": "The positive integer moduli a(n) for which the congruence x*(x + 1) == -4 (mod a(n)) is solvable for integer x (representatives from {0, 1, ..., a(n)-1}); in increasing order.",
+  "id": "A347831",
+  "mentions": [
+    "A191018",
+    "A347832",
+    "A347833"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "O.g.f. inverse of Catalan A000108 o.g.f.",
+  "id": "A115140",
+  "mentions": [
+    "A000108",
+    "A002420",
+    "A034807",
+    "A115141",
+    "A115149"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

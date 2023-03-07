@@ -1,0 +1,21 @@
+{
+  "description": "a(0)=0; for n > 0, a(n) is the number of distinct digit strings that occur at least twice (not counting overlapping occurrences) in the concatenation of all previous terms.",
+  "id": "A327036",
+  "mentions": [
+    "A225224",
+    "A329448",
+    "A329818",
+    "A330015"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Sum of the squarefree numbers appearing among the larger parts of the partitions of n into two parts.",
+  "id": "A262870",
+  "mentions": [
+    "A008683",
+    "A071068",
+    "A261985",
+    "A262351",
+    "A262868",
+    "A262869",
+    "A262871",
+    "A262991",
+    "A262992"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

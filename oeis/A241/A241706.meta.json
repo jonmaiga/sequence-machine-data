@@ -1,0 +1,27 @@
+{
+  "description": "Number of simple connected graphs on n nodes with diameter 2",
+  "id": "A241706",
+  "mentions": [
+    "A000055",
+    "A000088",
+    "A000664",
+    "A008406",
+    "A241707",
+    "A241708",
+    "A241709",
+    "A241710",
+    "A294522"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest prime p such that the number of distinct values of the ratio (number of nonnegative m < p such that m^k == m (mod p))/(number of nonnegative m < p such that -m^k == m (mod p)) is equal to n for some nonnegative k.",
+  "id": "A340281",
+  "mentions": [
+    "A001227",
+    "A019434",
+    "A058500",
+    "A074781",
+    "A334006"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

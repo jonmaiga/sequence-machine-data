@@ -1,0 +1,18 @@
+{
+  "description": "Odd integers k such that k^2 is arithmetic mean of two other perfect squares.",
+  "id": "A309812",
+  "mentions": [
+    "A005408",
+    "A009003"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

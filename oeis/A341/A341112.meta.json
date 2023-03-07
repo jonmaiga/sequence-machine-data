@@ -1,0 +1,28 @@
+{
+  "description": "Number of partitions of n into 3 prime powers (including 1).",
+  "id": "A341112",
+  "mentions": [
+    "A000961",
+    "A010055",
+    "A071330",
+    "A282064",
+    "A307727",
+    "A307825",
+    "A341122",
+    "A341123",
+    "A341124",
+    "A341125",
+    "A341126",
+    "A341127"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

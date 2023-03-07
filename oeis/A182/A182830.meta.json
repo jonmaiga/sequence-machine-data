@@ -1,0 +1,22 @@
+{
+  "description": "Array of the numbers (3*i+2)*3^j, i>=0, j>=0, read by antidiagonals.",
+  "id": "A182830",
+  "mentions": [
+    "A008776",
+    "A016789",
+    "A026179",
+    "A182831"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:13:09",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

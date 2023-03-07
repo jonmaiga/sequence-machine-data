@@ -1,0 +1,26 @@
+{
+  "description": "A skew Jacobsthal-Pascal matrix.",
+  "id": "A112883",
+  "mentions": [
+    "A001045",
+    "A002605",
+    "A006130",
+    "A073370",
+    "A084938",
+    "A106344",
+    "A111006"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:51:31",
+    "offset": 0,
+    "size": 83,
+    "source": "joeis"
+  }
+}

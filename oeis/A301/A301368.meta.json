@@ -1,0 +1,35 @@
+{
+  "description": "Regular triangle where T(n,k) is the number of binary enriched p-trees of weight n with k leaves.",
+  "id": "A301368",
+  "mentions": [
+    "A000992",
+    "A001190",
+    "A008284",
+    "A055277",
+    "A063834",
+    "A196545",
+    "A273873",
+    "A289501",
+    "A292050",
+    "A298422",
+    "A298426",
+    "A300354",
+    "A300439",
+    "A300442",
+    "A300443",
+    "A301344",
+    "A301364",
+    "A301367"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

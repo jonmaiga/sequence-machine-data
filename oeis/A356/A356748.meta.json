@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that k and k+1 are both products of 2 triangular numbers.",
+  "id": "A356748",
+  "mentions": [
+    "A085780"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

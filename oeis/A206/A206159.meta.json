@@ -1,0 +1,27 @@
+{
+  "description": "Numbers needing at most two digits to write all positive divisors in decimal representation.",
+  "id": "A206159",
+  "mentions": [
+    "A004022",
+    "A011531",
+    "A020449",
+    "A027750",
+    "A031955",
+    "A062634",
+    "A095048",
+    "A106101",
+    "A203897"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

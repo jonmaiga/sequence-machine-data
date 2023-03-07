@@ -1,0 +1,19 @@
+{
+  "description": "Squares for which the product of the digits are cubes.",
+  "id": "A117686",
+  "mentions": [
+    "A000290",
+    "A000578"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

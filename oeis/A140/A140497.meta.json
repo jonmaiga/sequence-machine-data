@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = 2p - number of digits of p^p, where p = n-th prime.",
+  "id": "A140497",
+  "mentions": [
+    "A051674"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

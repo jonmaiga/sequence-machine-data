@@ -1,0 +1,19 @@
+{
+  "description": "Number of graceful labelings of the n X n grid graph.",
+  "id": "A337796",
+  "mentions": [
+    "A336833"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows, T(n, k) = Pochhammer(3, k)*Stirling2(3 + n, 3 + k) for n >= 0 and 0 <= k <= n.",
+  "id": "A294032",
+  "mentions": [
+    "A000225",
+    "A000392",
+    "A001710",
+    "A002051",
+    "A028246",
+    "A053440",
+    "A293617"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

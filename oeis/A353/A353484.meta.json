@@ -1,0 +1,30 @@
+{
+  "description": "a(1) = 0; and for n > 1, a(n) = A165560(n) + a(A064989(n)), where A165560 is the parity of arithmetic derivative, and A064989 shifts the prime factorization of its argument one step toward lower primes.",
+  "id": "A353484",
+  "mentions": [
+    "A000040",
+    "A000265",
+    "A003415",
+    "A064989",
+    "A165560",
+    "A235991",
+    "A292375",
+    "A319703",
+    "A343221",
+    "A344027",
+    "A353485",
+    "A353515"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

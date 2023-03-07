@@ -1,0 +1,19 @@
+{
+  "description": "Self-convolution square-root of A118191, where A118191 is column 0 of the matrix square of triangle A118190 with A118190(n,k) = (5^k)^(n-k).",
+  "id": "A118195",
+  "mentions": [
+    "A118190",
+    "A118191"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

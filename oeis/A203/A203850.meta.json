@@ -1,0 +1,23 @@
+{
+  "description": "G.f.: Product_{n>=1} (1 - Lucas(n)*x^n + (-x^2)^n) / (1 + Lucas(n)*x^n + (-x^2)^n) where Lucas(n) = A000204(n).",
+  "id": "A203850",
+  "mentions": [
+    "A000204",
+    "A022544",
+    "A203318",
+    "A203860",
+    "A203861",
+    "A225524"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:24",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

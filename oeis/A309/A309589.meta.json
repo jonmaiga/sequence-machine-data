@@ -1,0 +1,22 @@
+{
+  "description": "Number subsets {0, ..., 10^k - 1} written in base 10 and sorted lexicographically, for k = 1, 2, ...",
+  "id": "A309589",
+  "mentions": [
+    "A119589",
+    "A190016",
+    "A309590"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

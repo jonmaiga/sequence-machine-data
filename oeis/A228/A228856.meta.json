@@ -1,0 +1,20 @@
+{
+  "description": "Nodes of tree generated as follows: (1,2) is an edge, and if (x,y) is an edge, then (y,y+x), (y,2y+x), and (y,3y+x) are edges.",
+  "id": "A228856",
+  "mentions": [
+    "A141832",
+    "A228853",
+    "A228854"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

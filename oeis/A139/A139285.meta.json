@@ -1,0 +1,21 @@
+{
+  "description": "Smallest nontrivial number m that when expressed in base n and then interpreted in base 10, is a multiple of the original number.",
+  "id": "A139285",
+  "mentions": [
+    "A032532",
+    "A032551"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

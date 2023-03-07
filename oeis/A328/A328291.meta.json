@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the greatest k >= 0 such that n*k has distinct decimal digits.",
+  "id": "A328291",
+  "mentions": [
+    "A010784",
+    "A050278",
+    "A328292"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

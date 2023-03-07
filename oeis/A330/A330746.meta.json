@@ -1,0 +1,24 @@
+{
+  "description": "Number of values of k, 1 <= k <= n, with A017666(k) = A017666(n), where A017666(n) = n/gcd(n, sigma(n)).",
+  "id": "A330746",
+  "mentions": [
+    "A007691",
+    "A009194",
+    "A014567",
+    "A017666",
+    "A159907",
+    "A245775",
+    "A331175"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

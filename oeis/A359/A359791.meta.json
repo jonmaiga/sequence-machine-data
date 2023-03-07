@@ -1,0 +1,25 @@
+{
+  "description": "Dirichlet inverse of function f(n) = 1 + A349905(n), where A349905(n) is the arithmetic derivative of prime shifted n.",
+  "id": "A359791",
+  "mentions": [
+    "A003415",
+    "A003961",
+    "A349905",
+    "A359169",
+    "A359764",
+    "A359765",
+    "A359766",
+    "A359790"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

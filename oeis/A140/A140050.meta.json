@@ -1,0 +1,19 @@
+{
+  "description": "L.g.f.: A(x) = log(G(x)) where G(x) = g.f. of A014070(n) = C(2^n,n).",
+  "id": "A140050",
+  "mentions": [
+    "A014070",
+    "A140051"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

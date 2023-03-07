@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = number of independent vertex subsets of size k of the graph g_n obtained by attaching two pendant edges to each vertex of the path graph P_n (having n vertices).",
+  "id": "A235116",
+  "mentions": [
+    "A086347"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

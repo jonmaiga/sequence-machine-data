@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of column-convex polyominoes with bond-perimeter 2*n+2 and k columns (1 <= k <= n).",
+  "id": "A259333",
+  "mentions": [
+    "A005819",
+    "A006026",
+    "A006027"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

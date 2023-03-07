@@ -1,0 +1,27 @@
+{
+  "description": "Integers of the form 8k + 7 that can be written as a sum of four distinct squares of the form m, m + 2, m + 3, m + 4, where m == 2 (mod 4).",
+  "id": "A243581",
+  "mentions": [
+    "A004767",
+    "A008586",
+    "A016813",
+    "A016825",
+    "A243577",
+    "A243578",
+    "A243579",
+    "A243580",
+    "A243582"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

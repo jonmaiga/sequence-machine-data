@@ -1,0 +1,19 @@
+{
+  "description": "List of primes p with following properties: p = prime(n-1) for some n, p+7 is a square and is equal to prime(n+1)-1.",
+  "id": "A158529",
+  "mentions": [
+    "A158460",
+    "A158470"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

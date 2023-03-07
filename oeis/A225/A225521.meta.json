@@ -1,0 +1,22 @@
+{
+  "description": "Cumulative number of letters in first n English names of playing card denominations: ace, two, three, ... jack, queen, king.",
+  "id": "A225521",
+  "mentions": [
+    "A005589",
+    "A067278"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "fini",
+    "full",
+    "less",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

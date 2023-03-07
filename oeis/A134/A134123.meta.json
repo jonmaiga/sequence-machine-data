@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that q-p = 48, where q is the next prime after p.",
+  "id": "A134123",
+  "mentions": [
+    "A134122",
+    "A134124"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

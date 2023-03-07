@@ -1,0 +1,27 @@
+{
+  "description": "Number of divisors d of n of the form d == 7 (mod 8).",
+  "id": "A188172",
+  "mentions": [
+    "A001842",
+    "A002325",
+    "A004771",
+    "A007522",
+    "A141164",
+    "A188169",
+    "A188170",
+    "A188171",
+    "A188226"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

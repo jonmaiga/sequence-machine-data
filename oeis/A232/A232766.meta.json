@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the concatenation n987654321 is prime.",
+  "id": "A232766",
+  "mentions": [
+    "A104914",
+    "A104915",
+    "A232767"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

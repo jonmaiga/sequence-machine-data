@@ -1,0 +1,21 @@
+{
+  "description": "Recurring numbers in the count of consecutive composite numbers between balanced primes and their lower or upper prime neighbors.",
+  "id": "A101328",
+  "mentions": [
+    "A016969",
+    "A054342",
+    "A101597",
+    "A329502"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 2,
+    "size": 56,
+    "source": "joeis"
+  }
+}

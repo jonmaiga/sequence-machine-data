@@ -1,0 +1,26 @@
+{
+  "description": "Numbers with a composite number of 1's in their binary expansion.",
+  "id": "A317295",
+  "mentions": [
+    "A000069",
+    "A000120",
+    "A001969",
+    "A002808",
+    "A014312",
+    "A052294",
+    "A084345",
+    "A317294"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

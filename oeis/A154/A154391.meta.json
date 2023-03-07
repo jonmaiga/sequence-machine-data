@@ -1,0 +1,18 @@
+{
+  "description": "Terms of A123466 which have a one-to-one correspondence between every run of 1's and 0's of the same length.",
+  "id": "A154391",
+  "mentions": [
+    "A123466"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

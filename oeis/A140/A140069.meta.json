@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, n-th row = (n-1)-th power of the matrix X * [1,0,0,0,...]; where X = an infinite lower triangular bidiagonal matrix with [2,1,2,1,2,1,...] and [1,1,1,...] in the subdiagonal.",
+  "id": "A140069",
+  "mentions": [
+    "A001906",
+    "A135225",
+    "A140068"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

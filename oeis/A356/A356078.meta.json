@@ -1,0 +1,19 @@
+{
+  "description": "Highly composite numbers that are multiples of their number of divisors.",
+  "id": "A356078",
+  "mentions": [
+    "A002182",
+    "A002183",
+    "A033950"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

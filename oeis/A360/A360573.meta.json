@@ -1,0 +1,29 @@
+{
+  "description": "Odd numbers with exactly three zeros in their binary expansion.",
+  "id": "A360573",
+  "mentions": [
+    "A000225",
+    "A005408",
+    "A023416",
+    "A052996",
+    "A171389",
+    "A190620",
+    "A198276",
+    "A353654",
+    "A357773",
+    "A360574"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

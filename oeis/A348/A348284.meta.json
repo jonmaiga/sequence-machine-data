@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k | k\" where k\" is the 2nd arithmetic derivative of k.",
+  "id": "A348284",
+  "mentions": [
+    "A003415",
+    "A008578",
+    "A068346",
+    "A072873"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Bases N in which ab and ba are different squares, for some a and b.",
+  "id": "A174525",
+  "mentions": [
+    "A016754"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: R(n,k)=(prime(n)+1) mod prime(k).",
+  "id": "A174947",
+  "mentions": [
+    "A174428"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

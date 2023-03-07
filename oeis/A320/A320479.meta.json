@@ -1,0 +1,17 @@
+{
+  "description": "First differences of A320478.",
+  "id": "A320479",
+  "mentions": [
+    "A320478"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 110,
+    "source": "oeis-entry"
+  }
+}

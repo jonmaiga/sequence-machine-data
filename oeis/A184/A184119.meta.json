@@ -1,0 +1,19 @@
+{
+  "description": "Upper s(n)-Wythoff sequence, where s(n) = 2n - 1; complement of A136119.",
+  "id": "A184119",
+  "mentions": [
+    "A136119",
+    "A184117"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:20:21",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Smaller of two numbers in lowest terms whose sum, sum of squares and sum of cubes are all squares. For larger number see A139266.",
+  "id": "A139265",
+  "mentions": [
+    "A139266"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(1)=4, a(2)=9: a(n) is the smallest semiprime not yet appearing in the sequence which is coprime to a(n-1) and not coprime to a(n-2).",
+  "id": "A263648",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A001748",
+    "A098550",
+    "A100484",
+    "A119718"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

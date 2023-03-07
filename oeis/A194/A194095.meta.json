@@ -1,0 +1,19 @@
+{
+  "description": "Record values in A056595.",
+  "id": "A194095",
+  "mentions": [
+    "A002183",
+    "A056595",
+    "A194096"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

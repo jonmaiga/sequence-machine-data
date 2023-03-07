@@ -1,0 +1,29 @@
+{
+  "description": "Triples for integer-sided triangles whose sides a < b < c are in arithmetic progression.",
+  "id": "A336750",
+  "mentions": [
+    "A004526",
+    "A024164",
+    "A103605",
+    "A307136",
+    "A335893",
+    "A336751",
+    "A336753",
+    "A336754",
+    "A336755",
+    "A336756",
+    "A336757"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

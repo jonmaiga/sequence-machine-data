@@ -1,0 +1,18 @@
+{
+  "description": "Primes that are the arithmetic mean of 1000 consecutive primes.",
+  "id": "A218187",
+  "mentions": [
+    "A006567",
+    "A123078"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest number m such that sigma(m)=38^n, or 0 if m does not exist.",
+  "id": "A180463",
+  "mentions": [
+    "A048251",
+    "A110077",
+    "A180265",
+    "A180460",
+    "A180461",
+    "A180462",
+    "A180464"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

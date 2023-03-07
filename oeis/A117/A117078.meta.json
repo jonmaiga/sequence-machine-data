@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest k such that prime(n+1) = prime(n) + (prime(n) mod k), or 0 if no such k exists.",
+  "id": "A117078",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A074822",
+    "A117563",
+    "A118534"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

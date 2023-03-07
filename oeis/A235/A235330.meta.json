@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to write 2*n = p + q with p, q, prime(p) - p + 1 and prime(q) + q + 1 all prime.",
+  "id": "A235330",
+  "mentions": [
+    "A000040",
+    "A045917",
+    "A046927",
+    "A234695",
+    "A235187",
+    "A235189"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "description": "Coefficient of e(y) in Sum_{k > 0, i > 0} x_i^k = p(1) + p(2) + p(3) + ..., where e is the basis of elementary symmetric functions, p is the basis of power-sum symmetric functions, and y is the integer partition with Heinz number n.",
+  "id": "A330417",
+  "mentions": [
+    "A000041",
+    "A000110",
+    "A000258",
+    "A000670",
+    "A005651",
+    "A008480",
+    "A048994",
+    "A056239",
+    "A115131",
+    "A124794",
+    "A210258",
+    "A263916",
+    "A318762",
+    "A319191",
+    "A319225",
+    "A319226",
+    "A321752",
+    "A321754",
+    "A330415"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

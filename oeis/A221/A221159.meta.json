@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Sum_{i=0..n} Stirling2(n,i)*2^(3i).",
+  "id": "A221159",
+  "mentions": [
+    "A000110",
+    "A001861",
+    "A027710",
+    "A078944",
+    "A144180",
+    "A144223",
+    "A144263",
+    "A189233",
+    "A221176"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

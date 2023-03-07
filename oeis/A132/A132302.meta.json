@@ -1,0 +1,27 @@
+{
+  "description": "Expansion of f(-x, -x^5) * f(-x^6) / f(-x)^2 in powers of x where f(, ) and f() are Ramanujan theta functions.",
+  "id": "A132302",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A124243",
+    "A132180",
+    "A132301",
+    "A132975",
+    "A213267"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:21:46",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

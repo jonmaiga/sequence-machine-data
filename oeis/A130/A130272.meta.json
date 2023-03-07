@@ -1,0 +1,20 @@
+{
+  "description": "Primes p for which the period of the continued fraction of sqrt(p) increases.",
+  "id": "A130272",
+  "mentions": [
+    "A003285",
+    "A013645",
+    "A054269"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

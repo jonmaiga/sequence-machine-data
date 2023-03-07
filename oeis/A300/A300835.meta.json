@@ -1,0 +1,29 @@
+{
+  "description": "Restricted growth sequence transform of A300834, product_{d|n, d",
+  "id": "A300835",
+  "mentions": [
+    "A001065",
+    "A003714",
+    "A014417",
+    "A019565",
+    "A072649",
+    "A293215",
+    "A293217",
+    "A293223",
+    "A293224",
+    "A293232",
+    "A300833",
+    "A300834",
+    "A300836"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

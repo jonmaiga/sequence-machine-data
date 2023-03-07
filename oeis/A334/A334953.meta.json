@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the sum of all parts of all partitions of n into consecutive parts that differ by 6.",
+  "id": "A334953",
+  "mentions": [
+    "A038040",
+    "A060872",
+    "A245579",
+    "A327262",
+    "A334463",
+    "A334733",
+    "A334946",
+    "A334947",
+    "A334948",
+    "A334949"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

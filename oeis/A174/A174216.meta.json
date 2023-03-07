@@ -1,0 +1,22 @@
+{
+  "description": "a(1)=15; for n>1, a(n) = the smallest number k >a(n-1) such that 2*A174214(k)= 3*(k-1).",
+  "id": "A174216",
+  "mentions": [
+    "A166945",
+    "A167495",
+    "A173214",
+    "A174214",
+    "A174215"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

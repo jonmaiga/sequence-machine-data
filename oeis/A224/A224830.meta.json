@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that both the sum of the semiprime divisors of n and the sum of the prime divisors of n are prime numbers.",
+  "id": "A224830",
+  "mentions": [
+    "A007645",
+    "A008472",
+    "A076290",
+    "A114522",
+    "A227680"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

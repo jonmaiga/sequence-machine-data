@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the smallest lesser twin prime p from A001359 such that the distance to the previous lesser twin prime is 6*n.",
+  "id": "A340573",
+  "mentions": [
+    "A001359",
+    "A007530",
+    "A052350",
+    "A052380",
+    "A052381",
+    "A053319",
+    "A113274",
+    "A113275"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (x-c(2k-1)), where c = convergents to (x = sqrt(8)).",
+  "id": "A265303",
+  "mentions": [
+    "A010466",
+    "A265288",
+    "A265304",
+    "A265305"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

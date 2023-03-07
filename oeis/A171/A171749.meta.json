@@ -1,0 +1,18 @@
+{
+  "description": "Odd primes of the form (1+n)*(2+2*n)+n*(3+2*n) = 4*n^2+7*n+2.",
+  "id": "A171749",
+  "mentions": [
+    "A171748"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

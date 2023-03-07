@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..n} k^(3*n) * k! * StirlingS2(n,k).",
+  "id": "A242229",
+  "mentions": [
+    "A000670",
+    "A122399",
+    "A203798",
+    "A229260",
+    "A242228"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

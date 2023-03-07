@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = sum of primes dividing the n-th squarefree positive integer.",
+  "id": "A111060",
+  "mentions": [
+    "A001414",
+    "A005117",
+    "A008472",
+    "A265668"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

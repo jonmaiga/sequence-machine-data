@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f.: exp(4)*P(x) - Q(x), where P(x) = 1/Product_{n>=1} (1 - x^n/n) and Q(x) = Sum_{n>=1} 4^n/Product_{k=1..n} (k - x^k).",
+  "id": "A249477",
+  "mentions": [
+    "A007841",
+    "A249078",
+    "A249474",
+    "A249475",
+    "A249476"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

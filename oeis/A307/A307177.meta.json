@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of smallest nontrivial base-10 number that contains all pairwise products of its digits as substrings.",
+  "id": "A307177",
+  "mentions": [
+    "A007088",
+    "A203565"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "cons",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:37:57",
+    "offset": 37,
+    "size": 37,
+    "source": "joeis"
+  }
+}

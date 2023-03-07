@@ -1,0 +1,17 @@
+{
+  "description": "Least positive number k such that n+k and n+k^2 are both prime.",
+  "id": "A243145",
+  "mentions": [
+    "A006093"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

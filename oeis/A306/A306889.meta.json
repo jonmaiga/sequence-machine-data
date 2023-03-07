@@ -1,0 +1,21 @@
+{
+  "description": "Brazilian primes that are also the greater of a pair of twin primes.",
+  "id": "A306889",
+  "mentions": [
+    "A006512",
+    "A085104",
+    "A306845",
+    "A306849"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

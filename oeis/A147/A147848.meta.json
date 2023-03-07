@@ -1,0 +1,23 @@
+{
+  "description": "Number (up to isomorphism) of groups of order 2n that have Z/nZ as a subgroup (that is, that have an element of order n).",
+  "id": "A147848",
+  "mentions": [
+    "A001620",
+    "A034444",
+    "A060594"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

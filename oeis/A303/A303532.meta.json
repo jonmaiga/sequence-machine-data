@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = M(n,2) = number of graphs on n labeled nodes such that each node participates in no more than two maximal cliques.",
+  "id": "A303532",
+  "mentions": [
+    "A000110",
+    "A006125"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

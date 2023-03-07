@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n for n <= 11. Thereafter a(n) = a(n-a(n-2)) + a(n-a(n-4)) + a(n-a(n-6)).",
+  "id": "A303219",
+  "mentions": [
+    "A278055"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of isomorphism classes of pairs of orthogonal diagonal Latin squares of order n.",
+  "id": "A338250",
+  "mentions": [
+    "A287651",
+    "A339926"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Least k such that k-2^r is prime for n values of r. Index of the first occurrence of n in A109925.",
+  "id": "A109926",
+  "mentions": [
+    "A109925"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

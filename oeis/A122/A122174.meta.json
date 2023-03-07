@@ -1,0 +1,23 @@
+{
+  "description": "First row sum of the matrix M^n, where M is the 5 X 5 matrix {{0,-1,-1,-1,-1}, {-1,0,-1,-1,0}, {-1,-1,0,0,0}, {-1,-1,0,1,0}, {-1,0,0,0,1}}.",
+  "id": "A122174",
+  "mentions": [
+    "A007700",
+    "A046854",
+    "A059455",
+    "A065941"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

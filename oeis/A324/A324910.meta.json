@@ -1,0 +1,23 @@
+{
+  "description": "Multiplicative with a(p^e) = (2^e)-1.",
+  "id": "A324910",
+  "mentions": [
+    "A000225",
+    "A156552",
+    "A246674",
+    "A322993",
+    "A324911"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

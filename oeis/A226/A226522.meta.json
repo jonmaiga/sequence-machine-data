@@ -1,0 +1,18 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = maximal number of minimal codewords over the set of all [n,k] cycle codes, for n >= 3.",
+  "id": "A226522",
+  "mentions": [
+    "A209334"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 3,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

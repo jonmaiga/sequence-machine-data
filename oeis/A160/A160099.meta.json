@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (843 + 418*sqrt(2))/601.",
+  "id": "A160099",
+  "mentions": [
+    "A002193",
+    "A111258",
+    "A160098",
+    "A160100"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

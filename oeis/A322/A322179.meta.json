@@ -1,0 +1,19 @@
+{
+  "description": "The number of permutations of {1,2,...,n,1,2,...,n} with the property that there are k or more numbers between the two k's in the set for k=1,...,n.",
+  "id": "A322179",
+  "mentions": [
+    "A176127",
+    "A322180"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

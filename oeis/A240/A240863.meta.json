@@ -1,0 +1,29 @@
+{
+  "description": "Number of partitions of n into distinct parts of which the number of odd parts is a part.",
+  "id": "A240863",
+  "mentions": [
+    "A000009",
+    "A204868",
+    "A240573",
+    "A240579",
+    "A240862",
+    "A240864",
+    "A240865",
+    "A240866",
+    "A240867",
+    "A240868",
+    "A240870"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

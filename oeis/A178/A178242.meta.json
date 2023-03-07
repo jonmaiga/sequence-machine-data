@@ -1,0 +1,27 @@
+{
+  "description": "Numerator of n*(5+n)/((n+1)*(n+4)).",
+  "id": "A178242",
+  "mentions": [
+    "A001793",
+    "A014695",
+    "A028557",
+    "A060819",
+    "A160050",
+    "A176027",
+    "A180863",
+    "A343560"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

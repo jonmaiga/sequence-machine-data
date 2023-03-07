@@ -1,0 +1,36 @@
+{
+  "description": "Numerators of the coefficients of an asymptotic expansion in even powers of the Catalan numbers.",
+  "id": "A220002",
+  "mentions": [
+    "A000108",
+    "A000120",
+    "A004134",
+    "A005187",
+    "A008991",
+    "A008992",
+    "A048896",
+    "A056040",
+    "A060818",
+    "A098597",
+    "A103639",
+    "A122045",
+    "A123854",
+    "A161151",
+    "A193365",
+    "A220371",
+    "A220412",
+    "A220422",
+    "A220466"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

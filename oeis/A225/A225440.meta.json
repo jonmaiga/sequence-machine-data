@@ -1,0 +1,21 @@
+{
+  "description": "Triangular numbers that are the product of three distinct triangular numbers greater than 1.",
+  "id": "A225440",
+  "mentions": [
+    "A000217",
+    "A085780",
+    "A140089",
+    "A188630",
+    "A225390"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

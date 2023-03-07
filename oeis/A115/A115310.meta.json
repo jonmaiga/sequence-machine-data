@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows, 0<=k<=n: T(n,k) = if n < 2*k then n-k+1 else (k+1)*T(k-1+floor((n-k+1)/(k+1)),k) + k - (n-k+1) mod (k+1).",
+  "id": "A115310",
+  "mentions": [
+    "A054429",
+    "A106649",
+    "A115303",
+    "A115304",
+    "A115305",
+    "A115306",
+    "A115307",
+    "A115308",
+    "A115309"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

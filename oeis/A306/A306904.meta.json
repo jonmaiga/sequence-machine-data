@@ -1,0 +1,20 @@
+{
+  "description": "The geometric mean of the first n integers, rounded to the nearest integer.",
+  "id": "A306904",
+  "mentions": [
+    "A000142",
+    "A061375",
+    "A214046"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

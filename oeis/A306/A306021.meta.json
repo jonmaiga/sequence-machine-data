@@ -1,0 +1,28 @@
+{
+  "description": "Number of set-systems spanning {1,...,n} in which all sets have the same size.",
+  "id": "A306021",
+  "mentions": [
+    "A000005",
+    "A001315",
+    "A007716",
+    "A038041",
+    "A049311",
+    "A283877",
+    "A298422",
+    "A306017",
+    "A306018",
+    "A306019",
+    "A306020"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Record gaps between prime octuplets of the form p + {0, 2, 6, 8, 12, 18, 20, 26} (initial members are A022011), divided by 210.",
+  "id": "A347848",
+  "mentions": [
+    "A022011",
+    "A022012",
+    "A346996",
+    "A347849",
+    "A347850",
+    "A347852"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

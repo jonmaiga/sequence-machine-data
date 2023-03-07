@@ -1,0 +1,33 @@
+{
+  "description": "Numbers with exactly 3 nonprime substrings (substrings with leading zeros are considered to be nonprime).",
+  "id": "A213310",
+  "mentions": [
+    "A019546",
+    "A035232",
+    "A035244",
+    "A039996",
+    "A046034",
+    "A069489",
+    "A079307",
+    "A085823",
+    "A211681",
+    "A211682",
+    "A211684",
+    "A211685",
+    "A213300",
+    "A213302",
+    "A213321"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

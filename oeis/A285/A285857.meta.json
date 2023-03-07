@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of [n] with six ordered cycles such that equal-sized cycles are ordered with increasing least elements.",
+  "id": "A285857",
+  "mentions": [
+    "A285849",
+    "A285921"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 6,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

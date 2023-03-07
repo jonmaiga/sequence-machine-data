@@ -1,0 +1,29 @@
+{
+  "description": "Numbers whose prime factors span an initial interval of prime numbers and whose prime multiplicities span an initial interval of positive integers.",
+  "id": "A317089",
+  "mentions": [
+    "A001222",
+    "A007916",
+    "A055932",
+    "A056239",
+    "A124010",
+    "A133808",
+    "A242414",
+    "A296150",
+    "A317087",
+    "A317088",
+    "A317090",
+    "A317091",
+    "A317092"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

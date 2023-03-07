@@ -1,0 +1,21 @@
+{
+  "description": "The smaller members of twin prime pairs which are non-Ramanujan primes.",
+  "id": "A164371",
+  "mentions": [
+    "A001359",
+    "A104272",
+    "A164288",
+    "A164554"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

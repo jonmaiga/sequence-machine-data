@@ -1,0 +1,33 @@
+{
+  "description": "MM-numbers of fully chiral multisets of multisets.",
+  "id": "A330236",
+  "mentions": [
+    "A001055",
+    "A007716",
+    "A083323",
+    "A112798",
+    "A303975",
+    "A316978",
+    "A317533",
+    "A330098",
+    "A330223",
+    "A330224",
+    "A330226",
+    "A330227",
+    "A330228",
+    "A330229",
+    "A330232",
+    "A330235"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

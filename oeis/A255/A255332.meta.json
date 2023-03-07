@@ -1,0 +1,25 @@
+{
+  "description": "Partial sums of A255331.",
+  "id": "A255332",
+  "mentions": [
+    "A218789",
+    "A230409",
+    "A255125",
+    "A255328",
+    "A255329",
+    "A255331",
+    "A255333"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

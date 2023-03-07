@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 2*t(n)-1 where t(n) is the sequence of records positions of A179480.",
+  "id": "A179481",
+  "mentions": [
+    "A000040",
+    "A003558",
+    "A135303",
+    "A179382",
+    "A179383",
+    "A179460",
+    "A179480"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

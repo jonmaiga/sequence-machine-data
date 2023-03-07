@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X 3 0..3 arrays with every row having the same least squares slope fit to a straight line, and every column the same least squares slope fit to a straight line, with a single point array taken as having zero slope.",
+  "id": "A223063",
+  "mentions": [
+    "A223066"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

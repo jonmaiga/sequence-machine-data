@@ -1,0 +1,31 @@
+{
+  "description": "Maximal A050376-factors in factorization of factorials over distinct terms of A050376.",
+  "id": "A240906",
+  "mentions": [
+    "A050376",
+    "A177334",
+    "A240537",
+    "A240606",
+    "A240619",
+    "A240620",
+    "A240668",
+    "A240669",
+    "A240670",
+    "A240672",
+    "A240695",
+    "A240751",
+    "A240755",
+    "A240764",
+    "A240905"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

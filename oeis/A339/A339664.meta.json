@@ -1,0 +1,22 @@
+{
+  "description": "Number of nonempty subsets of divisors of n whose geometric mean is an integer.",
+  "id": "A339664",
+  "mentions": [
+    "A027750",
+    "A100587",
+    "A326027",
+    "A339663",
+    "A339665",
+    "A339666"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

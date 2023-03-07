@@ -1,0 +1,21 @@
+{
+  "description": "Every 12th term of A084067.",
+  "id": "A110645",
+  "mentions": [
+    "A084067",
+    "A110646",
+    "A110647",
+    "A110648",
+    "A110649"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

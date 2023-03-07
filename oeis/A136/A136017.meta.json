@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 36n^2 - 1.",
+  "id": "A136017",
+  "mentions": [
+    "A016910",
+    "A023208",
+    "A061037",
+    "A088878",
+    "A136016"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:24:29",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

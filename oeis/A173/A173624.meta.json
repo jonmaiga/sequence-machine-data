@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Pi^2*log(2)/8 - 7*zeta(3)/16, where zeta is the Riemann zeta function.",
+  "id": "A173624",
+  "mentions": [
+    "A002117",
+    "A002162",
+    "A046161",
+    "A111003"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:50",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

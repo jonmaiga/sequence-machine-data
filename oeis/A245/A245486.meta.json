@@ -1,0 +1,23 @@
+{
+  "description": "Product of the greatest prime factor of n and the greatest prime factor of n+1.",
+  "id": "A245486",
+  "mentions": [
+    "A000040",
+    "A002072",
+    "A006530",
+    "A006881",
+    "A014664"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

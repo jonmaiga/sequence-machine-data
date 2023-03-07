@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of e.g.f. (1/(1 - x)) * Product_{k>=2} 1/(1 - x^k)^(phi(k)/2), where phi() is the Euler totient function (A000010).",
+  "id": "A308457",
+  "mentions": [
+    "A000010",
+    "A023022",
+    "A023896",
+    "A051193",
+    "A057661",
+    "A061255",
+    "A074962"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

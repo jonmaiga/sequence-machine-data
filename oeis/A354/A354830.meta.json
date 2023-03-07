@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of permutations p of [n] such that gcd(i, p(i)) > 1 for 2 <= i <= n.",
+  "id": "A354830",
+  "mentions": [
+    "A320843"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

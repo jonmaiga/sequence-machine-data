@@ -1,0 +1,17 @@
+{
+  "description": "Least k such that the number (n+1)(n+2)(n+3)...(n+k) >= n^n.",
+  "id": "A108141",
+  "mentions": [
+    "A108135"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

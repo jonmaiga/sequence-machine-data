@@ -1,0 +1,18 @@
+{
+  "description": "Floor-powerfree numbers: positive integers not expressible as a (nontrivially) nested floor function using the same positive real slope throughout the nesting.",
+  "id": "A343149",
+  "mentions": [
+    "A064801"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

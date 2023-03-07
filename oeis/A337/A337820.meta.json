@@ -1,0 +1,28 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) (n >= 1, k >= 0) is the ratio (the number of nonnegative bases m < n such that m^k == m (mod n))/(the number of nonnegative bases m < n such that -m^k == m (mod n)).",
+  "id": "A337820",
+  "mentions": [
+    "A000010",
+    "A000012",
+    "A000027",
+    "A002322",
+    "A026741",
+    "A182816",
+    "A333570",
+    "A334006",
+    "A334597",
+    "A336664"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

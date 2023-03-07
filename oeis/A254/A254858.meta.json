@@ -1,0 +1,28 @@
+{
+  "description": "Iterated partial sums of prime numbers, square array read by diagonals.",
+  "id": "A254858",
+  "mentions": [
+    "A000040",
+    "A002522",
+    "A007395",
+    "A007504",
+    "A014148",
+    "A014150",
+    "A125179",
+    "A125180",
+    "A144396",
+    "A178138",
+    "A254784"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

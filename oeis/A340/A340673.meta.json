@@ -1,0 +1,29 @@
+{
+  "description": "If n is of the form s^(2^e), where s is a squarefree number, and e >= 0, then a(n) is the (1+e)-th prime, otherwise a(n) = 1.",
+  "id": "A340673",
+  "mentions": [
+    "A000040",
+    "A005117",
+    "A008578",
+    "A014963",
+    "A062503",
+    "A113849",
+    "A225546",
+    "A340674",
+    "A340675",
+    "A340676",
+    "A340681",
+    "A340682"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

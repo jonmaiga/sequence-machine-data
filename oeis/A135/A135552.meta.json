@@ -1,0 +1,23 @@
+{
+  "description": "Riordan array (1/((1-2x)(1-x)^2), -x/(1-x)^2).",
+  "id": "A135552",
+  "mentions": [
+    "A000295",
+    "A002663",
+    "A024495",
+    "A109954",
+    "A136674"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:44",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

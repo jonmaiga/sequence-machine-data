@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of the form 2k^2-2k+1 or 2k^2-1.",
+  "id": "A178218",
+  "mentions": [
+    "A028242",
+    "A273182"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:25:09",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

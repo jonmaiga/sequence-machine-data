@@ -1,0 +1,21 @@
+{
+  "description": "The decimal representation of the geometric mean of the digits of n starts with the digits of n.",
+  "id": "A257830",
+  "mentions": [
+    "A004428",
+    "A004429",
+    "A007954",
+    "A257829"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

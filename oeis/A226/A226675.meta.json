@@ -1,0 +1,18 @@
+{
+  "description": "Smallest element in the primitive Collatz-like 3x+k cycle(s) associated with the conjectured record-breaking number A226673(n) of odd elements.",
+  "id": "A226675",
+  "mentions": [
+    "A226673",
+    "A226674"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Sum of the sizes of the Durfee squares of all partitions of n that do not contain 1 as a part, but with a(1) = 1.",
+  "id": "A208474",
+  "mentions": [
+    "A115995",
+    "A135010",
+    "A138135",
+    "A138137",
+    "A138879"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

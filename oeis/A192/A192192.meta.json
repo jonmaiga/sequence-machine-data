@@ -1,0 +1,30 @@
+{
+  "description": "Numbers whose second arithmetic derivative (A068346) is prime; Polynomial-like numbers of degree 3.",
+  "id": "A192192",
+  "mentions": [
+    "A003415",
+    "A038554",
+    "A068346",
+    "A157037",
+    "A192082",
+    "A192189",
+    "A192190",
+    "A327969",
+    "A328234",
+    "A328239",
+    "A328240",
+    "A328244",
+    "A328246"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

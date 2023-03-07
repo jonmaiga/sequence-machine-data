@@ -1,0 +1,18 @@
+{
+  "description": "Table T(n,k) read by rows: Coefficients [x^k] of the polynomial 9*(x+1)^n -8*(x^n+1); T(0,0)=1.",
+  "id": "A168623",
+  "mentions": [
+    "A132047"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

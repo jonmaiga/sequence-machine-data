@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions p = [x(1), ..., x(k)], where x(1) >= x(2) >= ... >= x(k), of n such that min(x(i) - x(i-1)) is not a part of p.",
+  "id": "A241761",
+  "mentions": [
+    "A000041",
+    "A241735",
+    "A241736",
+    "A241760"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

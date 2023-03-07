@@ -1,0 +1,25 @@
+{
+  "description": "Form list of fractions with nontrivial anomalous cancellation, sorted first by denominators, then by numerators; sequence lists the numerators.",
+  "id": "A291093",
+  "mentions": [
+    "A159975",
+    "A159976",
+    "A290462",
+    "A290463",
+    "A291094",
+    "A291965",
+    "A291966"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

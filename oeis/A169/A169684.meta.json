@@ -1,0 +1,33 @@
+{
+  "description": "Decimal expansion of 2^107 - 1.",
+  "id": "A169684",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A134731",
+    "A169681",
+    "A169685",
+    "A204063",
+    "A248931",
+    "A248932",
+    "A248933",
+    "A248934",
+    "A248935",
+    "A248936"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 33,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

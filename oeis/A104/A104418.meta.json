@@ -1,0 +1,25 @@
+{
+  "description": "Number of prime factors, with multiplicity, of the nonzero 9-acci numbers.",
+  "id": "A104418",
+  "mentions": [
+    "A001222",
+    "A104144",
+    "A104411",
+    "A104412",
+    "A104413",
+    "A104414",
+    "A104415"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

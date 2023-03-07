@@ -1,0 +1,19 @@
+{
+  "description": "Total number of parts in all partitions of n into parts of size 1, 5, 10 or 25.",
+  "id": "A351740",
+  "mentions": [
+    "A001299",
+    "A351725"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

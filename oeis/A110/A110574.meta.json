@@ -1,0 +1,20 @@
+{
+  "description": "Binary strings that have 1's where 'odious numbers' occur, 0's elsewhere and every term ends with the n-th odious number index.",
+  "id": "A110574",
+  "mentions": [
+    "A000069",
+    "A110575"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

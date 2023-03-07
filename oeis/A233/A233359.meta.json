@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = |{0 < k < n: L(k) + q(n-k) is prime}|, where L(k) is the k-th Lucas number (A000204), and q(.) is the strict partition function (A000009).",
+  "id": "A233359",
+  "mentions": [
+    "A000009",
+    "A000032",
+    "A000040",
+    "A000204",
+    "A233307",
+    "A233346",
+    "A233360"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

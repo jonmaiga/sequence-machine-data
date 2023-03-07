@@ -1,0 +1,27 @@
+{
+  "description": "Numbers of the form N = a^2 + 7b^2 for some positive integers a,b.",
+  "id": "A155717",
+  "mentions": [
+    "A000404",
+    "A020670",
+    "A092572",
+    "A097268",
+    "A154777",
+    "A154778",
+    "A155560",
+    "A155578",
+    "A155707",
+    "A155716"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

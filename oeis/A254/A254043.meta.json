@@ -1,0 +1,18 @@
+{
+  "description": "For n >= 1, a(n) is the smallest number not already used such that the sum of the first n terms is semiprime.",
+  "id": "A254043",
+  "mentions": [
+    "A001358"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

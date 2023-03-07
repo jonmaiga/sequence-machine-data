@@ -1,0 +1,19 @@
+{
+  "description": "Layer counting sequence in the order-5 cubic honeycomb.",
+  "id": "A247308",
+  "mentions": [
+    "A054888",
+    "A076765"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

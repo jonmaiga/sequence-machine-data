@@ -1,0 +1,36 @@
+{
+  "description": "Numbers whose American English name contains all 5 vowels in alphabetical order.",
+  "id": "A332069",
+  "mentions": [
+    "A000852",
+    "A000861",
+    "A019270",
+    "A037196",
+    "A052360",
+    "A058179",
+    "A058180",
+    "A059437",
+    "A079741",
+    "A080518",
+    "A102869",
+    "A152592",
+    "A158352",
+    "A158353",
+    "A158354",
+    "A158355",
+    "A174879",
+    "A241858",
+    "A332068"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

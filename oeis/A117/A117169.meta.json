@@ -1,0 +1,21 @@
+{
+  "description": "Row sums of triangle A117165 of Shift-Moebius transform coefficients and so equals the Shift-Moebius transform of [1,1,1,...].",
+  "id": "A117169",
+  "mentions": [
+    "A117160",
+    "A117165",
+    "A117166",
+    "A117167",
+    "A117168"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

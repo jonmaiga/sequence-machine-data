@@ -1,0 +1,26 @@
+{
+  "description": "Primes having square prime gaps to both neighbor primes.",
+  "id": "A353088",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A001223",
+    "A016742",
+    "A138198",
+    "A353073",
+    "A353135",
+    "A353136",
+    "A353137",
+    "A353550"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

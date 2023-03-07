@@ -1,0 +1,25 @@
+{
+  "description": "Numerators of coefficient array for minimal polynomials of sin(2*Pi/n). Rising powers of x.",
+  "id": "A181872",
+  "mentions": [
+    "A093819",
+    "A178182",
+    "A181873",
+    "A181875",
+    "A181876"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 156,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX6 0..2 arrays with every repeated value in every row and column unequal to the previous repeated value, and new values introduced in row-major sequential order.",
+  "id": "A267956",
+  "mentions": [
+    "A267957"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

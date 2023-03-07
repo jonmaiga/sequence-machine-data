@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = sum of the exponents occurring only once each in the prime-factorization of n.",
+  "id": "A136566",
+  "mentions": [
+    "A136565",
+    "A136567"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

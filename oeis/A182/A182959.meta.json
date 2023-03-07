@@ -1,0 +1,21 @@
+{
+  "description": "G.f. 2*(1+x)^2/(1-2*x+sqrt(1-8*x)).",
+  "id": "A182959",
+  "mentions": [
+    "A000108",
+    "A001450",
+    "A167422",
+    "A182960"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

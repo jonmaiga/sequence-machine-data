@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that pi(p) divides p-1 and/or p+1, where pi(p) is the number of primes <= p.",
+  "id": "A162567",
+  "mentions": [
+    "A000040",
+    "A048891",
+    "A052013",
+    "A078931"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

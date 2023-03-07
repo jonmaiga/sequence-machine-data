@@ -1,0 +1,21 @@
+{
+  "description": "Unique sequence of numbers {1,2,3,4} where g.f. A(x) satisfies A(x) = B(B(B(B(x)))) (4th self-COMPOSE) such that B(x) is an integer series, with A(0) = 0.",
+  "id": "A112108",
+  "mentions": [
+    "A112104",
+    "A112107",
+    "A112109",
+    "A112110",
+    "A112127"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

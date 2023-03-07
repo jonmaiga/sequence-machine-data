@@ -1,0 +1,23 @@
+{
+  "description": "Triangle, read by rows, equal to the matrix inverse of A056241, which is formed from the even-indexed trinomial coefficients.",
+  "id": "A104027",
+  "mentions": [
+    "A004652",
+    "A006846",
+    "A027907",
+    "A056241",
+    "A084938",
+    "A104028"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

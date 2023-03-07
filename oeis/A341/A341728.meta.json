@@ -1,0 +1,18 @@
+{
+  "description": "Column 0 of A341725.",
+  "id": "A341728",
+  "mentions": [
+    "A341725"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

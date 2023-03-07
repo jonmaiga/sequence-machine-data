@@ -1,0 +1,25 @@
+{
+  "description": "Odd part of n divided by its largest squarefree divisor.",
+  "id": "A336651",
+  "mentions": [
+    "A000203",
+    "A000265",
+    "A003557",
+    "A007947",
+    "A204455",
+    "A336649",
+    "A336652"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

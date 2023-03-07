@@ -1,0 +1,25 @@
+{
+  "description": "Balanced numbers (A020492) that are also arithmetic numbers (A003601) and harmonic numbers (A001599).",
+  "id": "A342358",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203",
+    "A001599",
+    "A003601",
+    "A007340",
+    "A020492",
+    "A342103"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

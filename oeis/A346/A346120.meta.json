@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest nonnegative number k such that the decimal expansion of k! contains the string n.",
+  "id": "A346120",
+  "mentions": [
+    "A000142",
+    "A030000",
+    "A038690",
+    "A082058"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

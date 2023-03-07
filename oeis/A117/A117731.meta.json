@@ -1,0 +1,29 @@
+{
+  "description": "Numerator of the fraction n*Sum_{k=1..n} 1/(n+k).",
+  "id": "A117731",
+  "mentions": [
+    "A001008",
+    "A002476",
+    "A005249",
+    "A058312",
+    "A058313",
+    "A082687",
+    "A086881",
+    "A098118",
+    "A117664",
+    "A125740",
+    "A296519"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

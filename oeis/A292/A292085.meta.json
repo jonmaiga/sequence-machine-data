@@ -1,0 +1,32 @@
+{
+  "description": "Number A(n,k) of (unlabeled) rooted trees with n leaf nodes and without unary nodes or outdegrees larger than k; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A292085",
+  "mentions": [
+    "A000669",
+    "A001190",
+    "A063524",
+    "A244372",
+    "A268172",
+    "A288942",
+    "A292086",
+    "A292210",
+    "A292211",
+    "A292212",
+    "A292213",
+    "A292214",
+    "A292215",
+    "A292216"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

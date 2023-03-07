@@ -1,0 +1,25 @@
+{
+  "description": "Perfect squares (A000290) that can be expressed as the sum of three consecutive triangular numbers (A000217).",
+  "id": "A165516",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A005448",
+    "A054320",
+    "A072256",
+    "A129445",
+    "A165517"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

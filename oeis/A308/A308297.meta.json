@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Sum_{k>=1} mu(k)*log((theta_3(x^k) + 1)/2)/k, where theta_3() is the Jacobi theta function.",
+  "id": "A308297",
+  "mentions": [
+    "A000122",
+    "A001156",
+    "A008683",
+    "A010052",
+    "A316152"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

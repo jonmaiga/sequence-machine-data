@@ -1,0 +1,20 @@
+{
+  "description": "Smallest member m_1(n) of the ordered Markoff triple MT(n) with largest member m(n) = A002559(n), n >= 1. These triples are conjectured to be unique.",
+  "id": "A305313",
+  "mentions": [
+    "A002559",
+    "A305312",
+    "A305314"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

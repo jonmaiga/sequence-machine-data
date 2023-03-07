@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form floor(p^3/8), where p is any prime number.",
+  "id": "A163430",
+  "mentions": [
+    "A163431"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

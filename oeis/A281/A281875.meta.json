@@ -1,0 +1,22 @@
+{
+  "description": "Least k such that phi(k) is the sum of two primes in exactly n ways, or 0 if no such k exists.",
+  "id": "A281875",
+  "mentions": [
+    "A000010",
+    "A001172",
+    "A023036",
+    "A037143",
+    "A281816"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

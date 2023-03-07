@@ -1,0 +1,20 @@
+{
+  "description": "The number of small Schröder paths such that the area between the path and the x-axis contains n up-triangles.",
+  "id": "A326793",
+  "mentions": [
+    "A224704",
+    "A326792"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

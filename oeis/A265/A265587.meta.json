@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX4 0..n*4-1 arrays with upper left zero and lower right n*4-1 and each element differing from its horizontal and antidiagonal neighbors by a power of two.",
+  "id": "A265587",
+  "mentions": [
+    "A265590"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

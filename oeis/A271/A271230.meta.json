@@ -1,0 +1,22 @@
+{
+  "description": "P-defects p - N(p) of the congruence y^2 == x^3 + x^2 + x (mod p) for primes p, where N(p) is the number of solutions.",
+  "id": "A271230",
+  "mentions": [
+    "A030203",
+    "A159819",
+    "A271229",
+    "A271231"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

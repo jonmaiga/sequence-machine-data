@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f.: log(1 + x) / (1 - x)^5.",
+  "id": "A346847",
+  "mentions": [
+    "A000332",
+    "A001721",
+    "A024167",
+    "A109792",
+    "A346845",
+    "A346846"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:38:25",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

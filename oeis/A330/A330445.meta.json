@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f.: Sum_{k>=1} log(1 + (exp(x) - 1)^k)/k.",
+  "id": "A330445",
+  "mentions": [
+    "A330351"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

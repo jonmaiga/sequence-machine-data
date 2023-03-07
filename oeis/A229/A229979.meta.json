@@ -1,0 +1,28 @@
+{
+  "description": "Numerators of interleaved A063524(n) and A002427(n)/A006955(n).",
+  "id": "A229979",
+  "mentions": [
+    "A000004",
+    "A002427",
+    "A006955",
+    "A027642",
+    "A050925",
+    "A063524",
+    "A140219",
+    "A140351",
+    "A164555",
+    "A165142"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

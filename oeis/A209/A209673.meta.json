@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = count of monomials, of degree k=n, in the Schur symmetric polynomials s(mu,k) summed over all partitions mu of n.",
+  "id": "A209673",
+  "mentions": [
+    "A191714",
+    "A209664",
+    "A209665",
+    "A209666",
+    "A209667",
+    "A209668",
+    "A209669",
+    "A209670",
+    "A209671",
+    "A209672",
+    "A210391"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

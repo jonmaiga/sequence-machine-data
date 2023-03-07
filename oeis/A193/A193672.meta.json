@@ -1,0 +1,18 @@
+{
+  "description": "Numbers such that the last of the differences of divisors is < 0.",
+  "id": "A193672",
+  "mentions": [
+    "A187202",
+    "A187204"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

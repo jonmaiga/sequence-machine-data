@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 1; a(n) = Sum_{k=1..n} (-1)^(k+1)*d(k+1)*a(n-k), where d() is the number of divisors (A000005).",
+  "id": "A307241",
+  "mentions": [
+    "A000005",
+    "A002039",
+    "A129921",
+    "A307242"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "For any n > 0, define the sequence b(1) = n, b(i+1) = (b(i) * i) mod (b(i) + i); a(n) is the least i such that b(i) = 0, or -1 if 0 is never reached.",
+  "id": "A329983",
+  "mentions": [
+    "A308651"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

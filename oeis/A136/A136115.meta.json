@@ -1,0 +1,21 @@
+{
+  "description": "Index m of least pentagonal number P(m) > P(n) such that P(m)+P(n) is again a pentagonal number, 0 if no such m exists.",
+  "id": "A136115",
+  "mentions": [
+    "A000326",
+    "A136112",
+    "A136113",
+    "A136118"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

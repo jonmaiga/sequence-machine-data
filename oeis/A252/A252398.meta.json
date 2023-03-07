@@ -1,0 +1,23 @@
+{
+  "description": "Successive n with minimal relative distance |1-theta(n)/n|, where theta(n) = log(A034386(n)) is Chebyshev's theta function.",
+  "id": "A252398",
+  "mentions": [
+    "A016040",
+    "A034386",
+    "A035158",
+    "A057872",
+    "A083535",
+    "A108310",
+    "A215013"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:10",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

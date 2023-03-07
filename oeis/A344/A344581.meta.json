@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A034387(k) and A101203(k) are both prime.",
+  "id": "A344581",
+  "mentions": [
+    "A034387",
+    "A101203",
+    "A228102",
+    "A344580"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

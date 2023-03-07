@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of f(-x^8) * f(-x^12) * f(-x^24) * f(-x^2, -x^6)^2 / (f(-x^2) * f(-x^3, -x^5) * f(-x^3, -x^21)) in powers of x where f() is a Ramanujan theta function and f(, ) is Ramanujan's general theta function.",
+  "id": "A258940",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A128582"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:00:41",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

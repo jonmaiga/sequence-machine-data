@@ -1,0 +1,18 @@
+{
+  "description": "Numerator of sum{k=1 to n} 1/s(n,k), where s(n,k) is an unsigned Stirling number of the first kind.",
+  "id": "A112288",
+  "mentions": [
+    "A112289"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

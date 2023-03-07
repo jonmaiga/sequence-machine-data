@@ -1,0 +1,20 @@
+{
+  "description": "G.f.: x * Product_{j>=1, k>=1} ((1 + x^(j*k))/(1 - x^(j*k)))^a(j).",
+  "id": "A308152",
+  "mentions": [
+    "A073075",
+    "A179467",
+    "A308060"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

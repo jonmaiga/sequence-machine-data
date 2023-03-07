@@ -1,0 +1,31 @@
+{
+  "description": "Exponent of the group of the Gaussian integers in a reduced system modulo n.",
+  "id": "A227334",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203",
+    "A001221",
+    "A001222",
+    "A002322",
+    "A008683",
+    "A062327",
+    "A078458",
+    "A079458",
+    "A086275",
+    "A316506",
+    "A317797",
+    "A318608"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

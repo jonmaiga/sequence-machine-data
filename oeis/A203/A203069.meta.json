@@ -1,0 +1,23 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive numbers such that a(n-1)+a(n) is odd and composite.",
+  "id": "A203069",
+  "mentions": [
+    "A010051",
+    "A014076",
+    "A055266",
+    "A249918",
+    "A346609",
+    "A346610",
+    "A346611"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

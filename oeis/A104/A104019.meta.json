@@ -1,0 +1,18 @@
+{
+  "description": "Years in the Gregorian calendar for which Easter falls on the 25th day of the month.",
+  "id": "A104019",
+  "mentions": [
+    "A104034"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Starting numbers for which the RATS sequence has eventual period 8.",
+  "id": "A114614",
+  "mentions": [
+    "A036839",
+    "A066710",
+    "A114611",
+    "A114612",
+    "A114613",
+    "A114615",
+    "A114616"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Happy primes of the form a*10^k + b with single-digit a and b, a > 0, k > 0.",
+  "id": "A109902",
+  "mentions": [
+    "A003132",
+    "A035497"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

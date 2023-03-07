@@ -1,0 +1,19 @@
+{
+  "description": "Largest p such that 2n-1 = p + q + r with three primes p < q < r, or 0 if no such primes exist.",
+  "id": "A278923",
+  "mentions": [
+    "A056996",
+    "A278373",
+    "A278922"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Row sums of array A128503 (second convolution of Chebyshev's S(n,x)=U(n,x/2) polynomials).",
+  "id": "A128504",
+  "mentions": [
+    "A010892",
+    "A099254",
+    "A128503"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:40:19",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

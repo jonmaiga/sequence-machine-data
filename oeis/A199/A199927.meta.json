@@ -1,0 +1,20 @@
+{
+  "description": "Trisection 0 of A199802.",
+  "id": "A199927",
+  "mentions": [
+    "A199744",
+    "A199802"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:34:29",
+    "offset": 0,
+    "size": 34,
+    "source": "joeis"
+  }
+}

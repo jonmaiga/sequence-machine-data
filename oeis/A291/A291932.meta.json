@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest k such that (n+1)*phi(k) = (n-1)*psi(k).",
+  "id": "A291932",
+  "mentions": [
+    "A000010",
+    "A001615"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 2,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

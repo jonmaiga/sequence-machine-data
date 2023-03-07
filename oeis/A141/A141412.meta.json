@@ -1,0 +1,24 @@
+{
+  "description": "Table c(n,k) of the denominators of coefficients [x^k] P(n,x) of the polynomials P(n,x) of A129891.",
+  "id": "A141412",
+  "mentions": [
+    "A000254",
+    "A091137",
+    "A129891",
+    "A140749"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

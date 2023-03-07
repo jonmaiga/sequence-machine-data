@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n with the property that if there is a number j with prime(n+i) + prime(n-i) = j for some i, then there are least two choices for i that give this value of j.",
+  "id": "A269099",
+  "mentions": [
+    "A269043"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

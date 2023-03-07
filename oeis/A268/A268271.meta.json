@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that there is a Fibonacci-type sequence (mod p) that begins with (1,b) and encounters all quadratic residues of p in the first (p-1)/2 iterations (for some b).",
+  "id": "A268271",
+  "mentions": [
+    "A003147",
+    "A045468",
+    "A070373",
+    "A168429"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

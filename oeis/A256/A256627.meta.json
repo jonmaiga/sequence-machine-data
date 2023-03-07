@@ -1,0 +1,22 @@
+{
+  "description": "Alfred Moessner's 8 X 8 magic square made from the first 64 triangular numbers, read by rows.",
+  "id": "A256627",
+  "mentions": [
+    "A000217",
+    "A132362",
+    "A132648"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

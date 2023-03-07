@@ -1,0 +1,30 @@
+{
+  "description": "Number of compositions (ordered partitions) of n where no pair of adjacent part sizes is relatively prime.",
+  "id": "A178470",
+  "mentions": [
+    "A000837",
+    "A003242",
+    "A018783",
+    "A167606",
+    "A178471",
+    "A178472",
+    "A328171",
+    "A328172",
+    "A328187",
+    "A328188",
+    "A328220",
+    "A328336",
+    "A328460",
+    "A328508"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

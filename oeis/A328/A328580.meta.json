@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the largest primorial dividing A276086(n), where A276086 converts the primorial base expansion of n into its prime product form.",
+  "id": "A328580",
+  "mentions": [
+    "A002110",
+    "A053589",
+    "A276086",
+    "A326810",
+    "A328475",
+    "A328476",
+    "A328570"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

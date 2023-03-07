@@ -1,0 +1,18 @@
+{
+  "description": "Smallest integer s>n such that 1+2*s+3*s^2+...+n*s^{n-1} is prime.",
+  "id": "A217785",
+  "mentions": [
+    "A000040",
+    "A059045"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 2,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

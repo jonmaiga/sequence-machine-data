@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=1. a(n) = n-th integer from among those positive integers which are coprime to the sum of the previous terms of this sequence.",
+  "id": "A121528",
+  "mentions": [
+    "A121527"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that sum(d|n, sigma(d)^2/d) is an integer, where d are the divisors of n.",
+  "id": "A226564",
+  "mentions": [
+    "A068978",
+    "A068986",
+    "A226563",
+    "A226566"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

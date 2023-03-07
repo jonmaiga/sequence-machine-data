@@ -1,0 +1,24 @@
+{
+  "description": "Array read by rows: T(n,k) is the number of automorphisms of the k-th Abelian group of order n, where the ordering is such that the rows are nondecreasing.",
+  "id": "A138565",
+  "mentions": [
+    "A000010",
+    "A000688",
+    "A061350",
+    "A062771",
+    "A064767",
+    "A137316"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

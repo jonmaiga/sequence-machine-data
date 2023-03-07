@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that T_4(n) is prime, where T_4(x) = 8x^4 - 8x^2 + 1 is the fourth Chebyshev polynomial (of the first kind).",
+  "id": "A219276",
+  "mentions": [
+    "A144131"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Composite number n = Product(p_j^k_j) that under the iteration of the map Product (p_j^k_j) -> Sum (p_j * k_j) reaches a limit that divides the number itself.",
+  "id": "A212921",
+  "mentions": [
+    "A029909"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

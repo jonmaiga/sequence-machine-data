@@ -1,0 +1,18 @@
+{
+  "description": "Composite numbers k such that k+1 is divisible by (k+1 mod A001414(k)) and k-1 is divisible by (k-1 mod A001414(k)).",
+  "id": "A349546",
+  "mentions": [
+    "A001414",
+    "A079704"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

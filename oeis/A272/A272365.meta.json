@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 9a(n-1) - 9a(n-2) + a(n-3).",
+  "id": "A272365",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A003500",
+    "A268281"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:38:05",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

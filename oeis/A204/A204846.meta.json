@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists algebraic prime factors of the repunit (10^n - 1)/9 (A002275(n)).",
+  "id": "A204846",
+  "mentions": [
+    "A002275",
+    "A102380",
+    "A204845"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

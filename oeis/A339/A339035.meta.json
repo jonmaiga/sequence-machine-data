@@ -1,0 +1,20 @@
+{
+  "description": "k is prime and 2*(k+1) is Zumkeller.",
+  "id": "A339035",
+  "mentions": [
+    "A000040",
+    "A002182",
+    "A083207",
+    "A320518"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

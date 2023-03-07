@@ -1,0 +1,22 @@
+{
+  "description": "Remove powers of 2 from A000069. Let b(n) be n-th term of the remaining sequence. Then a(n) is the least number m such that (b(n))^m is in A001969",
+  "id": "A178307",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A075928",
+    "A075930",
+    "A178253"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

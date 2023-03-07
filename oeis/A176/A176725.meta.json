@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to choose one element from the multiset corresponding to the k-th multiset repetition class defining partition of n in canonical Abramowitz-Stegun order.",
+  "id": "A176725",
+  "mentions": [
+    "A007294",
+    "A176723"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

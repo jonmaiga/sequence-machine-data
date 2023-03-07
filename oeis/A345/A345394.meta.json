@@ -1,0 +1,25 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, k) = n!*[x^n] Li(-k, 1 - exp(-4*x))/(4*sinh(x)), where Li(n, z) is the polylogarithm function.",
+  "id": "A345394",
+  "mentions": [
+    "A000012",
+    "A007051",
+    "A081188",
+    "A305861",
+    "A305862",
+    "A305863",
+    "A316526",
+    "A345393"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

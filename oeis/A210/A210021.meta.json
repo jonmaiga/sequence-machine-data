@@ -1,0 +1,21 @@
+{
+  "description": "Number of binary words of length n containing no subword 11011.",
+  "id": "A210021",
+  "mentions": [
+    "A209972",
+    "A276785",
+    "A277678"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

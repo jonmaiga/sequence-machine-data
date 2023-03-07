@@ -1,0 +1,22 @@
+{
+  "description": "Digit reversal of n-th semiprime.",
+  "id": "A210616",
+  "mentions": [
+    "A001358",
+    "A004086",
+    "A046328"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

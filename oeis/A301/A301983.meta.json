@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows T(n, k), n >= 1 and 1 <= k <= A301977(n): T(n, k) is the k-th positive number whose binary digits appear in order but not necessarily as consecutive digits in the binary representation of n.",
+  "id": "A301983",
+  "mentions": [
+    "A119709",
+    "A165416",
+    "A301977"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

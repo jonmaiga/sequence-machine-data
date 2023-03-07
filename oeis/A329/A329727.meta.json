@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that k^3 +- 2 and k +- 2 are prime.",
+  "id": "A329727",
+  "mentions": [
+    "A038599",
+    "A040976",
+    "A052147",
+    "A067200",
+    "A087679",
+    "A090121",
+    "A268043",
+    "A268186"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

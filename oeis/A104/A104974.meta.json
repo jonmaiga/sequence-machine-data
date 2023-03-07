@@ -1,0 +1,24 @@
+{
+  "description": "A Fredholm-Rueppel triangle.",
+  "id": "A104974",
+  "mentions": [
+    "A000108",
+    "A000523",
+    "A036987",
+    "A070939",
+    "A104975"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

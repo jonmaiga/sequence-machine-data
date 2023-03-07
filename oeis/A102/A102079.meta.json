@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of k-matchings in the C_n X P_2 graph (C_n is the cycle graph on n vertices and P_2 is the path graph on 2 vertices).",
+  "id": "A102079",
+  "mentions": [
+    "A068397",
+    "A102080"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 2,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

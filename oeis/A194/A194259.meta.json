@@ -1,0 +1,23 @@
+{
+  "description": "Number of distinct prime factors of p(1)*p(2)*...*p(n), where p(n) is the n-th partition number.",
+  "id": "A194259",
+  "mentions": [
+    "A000041",
+    "A001221",
+    "A087175",
+    "A194260",
+    "A194261",
+    "A194262"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

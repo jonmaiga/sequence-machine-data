@@ -1,0 +1,26 @@
+{
+  "description": "Number of invertible octonions over Z/nZ.",
+  "id": "A239441",
+  "mentions": [
+    "A000010",
+    "A053191",
+    "A079458",
+    "A227499",
+    "A238533",
+    "A238534",
+    "A239442",
+    "A239443"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

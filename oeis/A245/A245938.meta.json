@@ -1,0 +1,21 @@
+{
+  "description": "Limit-reverse of the Thue-Morse sequence (A010060), with first term as initial block.",
+  "id": "A245938",
+  "mentions": [
+    "A010060",
+    "A014675",
+    "A245920",
+    "A245937",
+    "A245939"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

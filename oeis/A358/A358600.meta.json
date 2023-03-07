@@ -1,0 +1,23 @@
+{
+  "description": "Number of genetic relatives of a person M in a genealogical tree extending back n generations and where everyone has 6 children down to the generation of M.",
+  "id": "A358600",
+  "mentions": [
+    "A076024",
+    "A358504",
+    "A358598",
+    "A358599",
+    "A358601"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

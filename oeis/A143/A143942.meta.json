@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of unordered pairs of vertices at distance k in a linear chain of n squares joined at vertices (i.e., joined like <><><>...<>; here <> is a square!); 1 <= k <= 2n.",
+  "id": "A143942",
+  "mentions": [
+    "A081266",
+    "A143943"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

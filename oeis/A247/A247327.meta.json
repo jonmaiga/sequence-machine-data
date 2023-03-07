@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) = sum of k-th row of n X n square filled with odd numbers 1 through 2*n^2-1 reading across rows left-to-right.",
+  "id": "A247327",
+  "mentions": [
+    "A000290",
+    "A000538",
+    "A015237",
+    "A015238",
+    "A015240",
+    "A033428",
+    "A033429",
+    "A241016"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n*(67*n - 89)/2.",
+  "id": "A263227",
+  "mentions": [
+    "A049598",
+    "A263226",
+    "A263228",
+    "A263229",
+    "A263231"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:14:03",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

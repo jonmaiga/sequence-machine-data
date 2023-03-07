@@ -1,0 +1,37 @@
+{
+  "description": "Number G(n,k) of set partitions of {1,...,n} into sets of size at most k; triangle G(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A229223",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000085",
+    "A000110",
+    "A001680",
+    "A001681",
+    "A008279",
+    "A058692",
+    "A066223",
+    "A080510",
+    "A110038",
+    "A148092",
+    "A227223",
+    "A229224",
+    "A229225",
+    "A229226",
+    "A229227",
+    "A229228",
+    "A229229"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

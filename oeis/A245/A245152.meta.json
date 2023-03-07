@@ -1,0 +1,18 @@
+{
+  "description": "Number of n-node unlabeled rooted trees with thickening limbs.",
+  "id": "A245152",
+  "mentions": [
+    "A245151"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

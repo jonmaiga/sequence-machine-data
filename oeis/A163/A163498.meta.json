@@ -1,0 +1,18 @@
+{
+  "description": "Those primes p that after each is written in binary, and a 0 is inserted before every 1, then the value of this new number is also prime.",
+  "id": "A163498",
+  "mentions": [
+    "A163499"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

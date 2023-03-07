@@ -1,0 +1,19 @@
+{
+  "description": "Order set of the first 300 infinite truncated Fibonacci Words where a(n) is the number of terms (ones and zeros) truncated from the left hand side of the word.",
+  "id": "A132917",
+  "mentions": [
+    "A132828"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

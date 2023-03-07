@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A102370(k) = k + 2.",
+  "id": "A359567",
+  "mentions": [
+    "A102370"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

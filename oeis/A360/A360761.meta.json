@@ -1,0 +1,19 @@
+{
+  "description": "Primes p that divide both 3^k-2 and 5^k-1 for some k.",
+  "id": "A360761",
+  "mentions": [
+    "A070677"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

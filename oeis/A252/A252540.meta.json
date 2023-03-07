@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that A000593(A146076(k)) = k. (A000593(n) is the sum of the odd divisors of n; A146076(n) is the sum of the even divisors of n.)",
+  "id": "A252540",
+  "mentions": [
+    "A000593",
+    "A000668",
+    "A146076",
+    "A193337",
+    "A252541"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

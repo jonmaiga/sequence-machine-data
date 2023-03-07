@@ -1,0 +1,21 @@
+{
+  "description": "Numbers conjectured to have an infinite, aperiodic, aliquot sequence.",
+  "id": "A131884",
+  "mentions": [
+    "A008892",
+    "A098007",
+    "A115350",
+    "A216072"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

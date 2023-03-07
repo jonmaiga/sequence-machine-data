@@ -1,0 +1,23 @@
+{
+  "description": "G.f.: A(x) satisfies: A( 8*x - 7*A(x) ) = x - 36*x^2.",
+  "id": "A293455",
+  "mentions": [
+    "A291198",
+    "A292812",
+    "A292813",
+    "A292814",
+    "A293454",
+    "A293456"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

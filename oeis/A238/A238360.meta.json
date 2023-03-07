@@ -1,0 +1,28 @@
+{
+  "description": "Number of genus-10 rooted maps with n edges.",
+  "id": "A238360",
+  "mentions": [
+    "A000168",
+    "A005159",
+    "A006300",
+    "A006301",
+    "A104742",
+    "A215402",
+    "A238355",
+    "A238356",
+    "A238357",
+    "A238358",
+    "A238359",
+    "A238396"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 20,
+    "size": 9,
+    "source": "joeis"
+  }
+}

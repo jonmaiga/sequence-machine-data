@@ -1,0 +1,22 @@
+{
+  "description": "An analog of Pascal's triangle based on A129454. T(n,k)= A129454(n)/(A129454(n-k)*A129454(k)).",
+  "id": "A129455",
+  "mentions": [
+    "A007318",
+    "A092287",
+    "A129453",
+    "A129454"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of ways to write n as an ordered sum of 4 squarefree numbers.",
+  "id": "A341064",
+  "mentions": [
+    "A005117",
+    "A008683",
+    "A008966",
+    "A098235",
+    "A280210",
+    "A308767",
+    "A341065",
+    "A341066",
+    "A341067",
+    "A341068",
+    "A341069",
+    "A341070"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:56",
+    "offset": 4,
+    "size": 54,
+    "source": "joeis"
+  }
+}

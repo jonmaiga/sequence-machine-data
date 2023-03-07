@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of non-isomorphic flexible magmas with n elements (i.e., number of magmas with n elements which satisfy the identity (xy)x = x(yx) for all x and y).",
+  "id": "A350873",
+  "mentions": [
+    "A001329",
+    "A027851"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest number that has exactly n binary palindrome divisors (A006995).",
+  "id": "A355716",
+  "mentions": [
+    "A006995",
+    "A175242",
+    "A329419",
+    "A329420"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

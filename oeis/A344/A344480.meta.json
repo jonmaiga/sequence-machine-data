@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{d|n} d * sigma_d(d), where sigma_k(n) is the sum of the k-th powers of the divisors of n.",
+  "id": "A344480",
+  "mentions": [
+    "A245466",
+    "A321141",
+    "A334874",
+    "A343781",
+    "A344434"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

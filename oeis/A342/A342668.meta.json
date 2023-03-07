@@ -1,0 +1,26 @@
+{
+  "description": "Largest prime in the denominator of ratio A341528(n)/A341529(n) (when presented in its lowest terms).",
+  "id": "A342668",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A006530",
+    "A246278",
+    "A341527",
+    "A341528",
+    "A341529",
+    "A341628",
+    "A342667"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

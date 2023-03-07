@@ -1,0 +1,18 @@
+{
+  "description": "Indices m such that A123112(n)^n is a sum of n consecutive primes starting at prime(m).",
+  "id": "A162160",
+  "mentions": [
+    "A123112"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

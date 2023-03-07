@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = start of n consecutive numbers divisible respectively by prime(k)^n, for k=1..n.",
+  "id": "A185681",
+  "mentions": [
+    "A069561",
+    "A072562",
+    "A181682"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

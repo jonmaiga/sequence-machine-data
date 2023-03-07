@@ -1,0 +1,24 @@
+{
+  "description": "Compound filter (prime signature of n & prime signature of the n-th Fibonacci number): a(n) = P(A101296(n), A286545(n)), where P(n,k) is sequence A000027 used as a pairing function.",
+  "id": "A286467",
+  "mentions": [
+    "A000027",
+    "A046523",
+    "A072381",
+    "A083668",
+    "A101296",
+    "A278245",
+    "A286545"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

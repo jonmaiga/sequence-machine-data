@@ -1,0 +1,26 @@
+{
+  "description": "Composite numbers n for which A176948(n) = n.",
+  "id": "A176949",
+  "mentions": [
+    "A140164",
+    "A175873",
+    "A176744",
+    "A176747",
+    "A176774",
+    "A176775",
+    "A176874",
+    "A176948",
+    "A274967",
+    "A274968"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

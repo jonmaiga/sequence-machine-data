@@ -1,0 +1,19 @@
+{
+  "description": "In base 10, for all numbers with n digits, a(n) is the number where the sum of digits of a(n) minus the sum of the last n digits of a(n)^3 reaches a record maximum.",
+  "id": "A358982",
+  "mentions": [
+    "A000578",
+    "A004164"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

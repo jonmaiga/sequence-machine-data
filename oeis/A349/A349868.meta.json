@@ -1,0 +1,22 @@
+{
+  "description": "Nobly abundant numbers (A349758) that are not abundant numbers (A005101).",
+  "id": "A349868",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A005101",
+    "A263837",
+    "A349758",
+    "A349869"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Central half-moments of a Fibonacci-geometric probability distribution.",
+  "id": "A302925",
+  "mentions": [
+    "A000629",
+    "A000670",
+    "A052841",
+    "A091346",
+    "A302922",
+    "A302923",
+    "A302924",
+    "A302926",
+    "A302927"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

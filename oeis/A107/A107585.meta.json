@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 5^n - 5*n.",
+  "id": "A107585",
+  "mentions": [
+    "A107583",
+    "A107584"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that 2^p + 17 is also prime.",
+  "id": "A262099",
+  "mentions": [
+    "A000040",
+    "A057200",
+    "A262098"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

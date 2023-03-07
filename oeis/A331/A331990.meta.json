@@ -1,0 +1,29 @@
+{
+  "description": "Balanced ternary expansion of e.",
+  "id": "A331990",
+  "mentions": [
+    "A001113",
+    "A004593",
+    "A004594",
+    "A004595",
+    "A004596",
+    "A004597",
+    "A004598",
+    "A004599",
+    "A004600",
+    "A170873",
+    "A331313"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 2,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

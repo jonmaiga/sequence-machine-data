@@ -1,0 +1,18 @@
+{
+  "description": "T(n,k) = maximum number of 1s in an n X k binary matrix with no three 1s adjacent in a line along a row, column or diagonally.",
+  "id": "A181019",
+  "mentions": [
+    "A181018"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers occurring exactly in 2 rows of Pascal's triangle.",
+  "id": "A182237",
+  "mentions": [
+    "A059233",
+    "A098565"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

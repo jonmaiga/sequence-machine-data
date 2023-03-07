@@ -1,0 +1,26 @@
+{
+  "description": "a(1)=2; a(n) = a(n-1) + gcd(n, a(n-1)) if n is even, a(n) = a(n-1) + gcd(n-2, a(n-1)) if n is odd.",
+  "id": "A166944",
+  "mentions": [
+    "A006512",
+    "A084662",
+    "A084663",
+    "A106108",
+    "A118679",
+    "A120293",
+    "A132199",
+    "A134162",
+    "A135506",
+    "A135508"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

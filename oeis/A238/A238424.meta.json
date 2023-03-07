@@ -1,0 +1,33 @@
+{
+  "description": "Number of partitions of n without three consecutive parts in arithmetic progression.",
+  "id": "A238424",
+  "mentions": [
+    "A007862",
+    "A049988",
+    "A175342",
+    "A238423",
+    "A238433",
+    "A238571",
+    "A238687",
+    "A295370",
+    "A325325",
+    "A325849",
+    "A325850",
+    "A325851",
+    "A325852",
+    "A325874",
+    "A332668",
+    "A333195",
+    "A333631"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

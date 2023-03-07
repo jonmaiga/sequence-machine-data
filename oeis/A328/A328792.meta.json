@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are not the difference between any triangular number and the largest square that does not exceed it.",
+  "id": "A328792",
+  "mentions": [
+    "A001110",
+    "A064784",
+    "A164055",
+    "A214838",
+    "A230044",
+    "A328791"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

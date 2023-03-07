@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the deficiency of k plus the number of proper divisors of k is a prime number (see A152864).",
+  "id": "A152757",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A032741",
+    "A033879",
+    "A152770",
+    "A152864"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

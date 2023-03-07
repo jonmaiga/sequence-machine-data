@@ -1,0 +1,24 @@
+{
+  "description": "Minimum m such that the convergence speed of m^^m is equal to n >= 2, where A317905(n) represents the convergence speed of m^^m (and m = A067251(n), the n-th non-multiple of 10).",
+  "id": "A337392",
+  "mentions": [
+    "A067251",
+    "A317824",
+    "A317903",
+    "A317905",
+    "A321130"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:46:06",
+    "offset": 2,
+    "size": 32,
+    "source": "joeis"
+  }
+}

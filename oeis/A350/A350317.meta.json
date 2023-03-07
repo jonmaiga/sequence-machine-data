@@ -1,0 +1,23 @@
+{
+  "description": "Totient numbers k such that 5*k is a nontotient.",
+  "id": "A350317",
+  "mentions": [
+    "A002202",
+    "A005277",
+    "A350316",
+    "A350318",
+    "A350319",
+    "A350320",
+    "A350321"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

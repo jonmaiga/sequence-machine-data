@@ -1,0 +1,22 @@
+{
+  "description": "Least positive integer that can be represented as sum of semiprime and a triangular number in exactly n ways. Triangular numbers include t(0)=0 and (1)=1.",
+  "id": "A100591",
+  "mentions": [
+    "A000217",
+    "A001358",
+    "A076768",
+    "A100570"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

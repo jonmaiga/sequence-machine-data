@@ -1,0 +1,18 @@
+{
+  "description": "Primes in A001075.",
+  "id": "A277434",
+  "mentions": [
+    "A001075"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

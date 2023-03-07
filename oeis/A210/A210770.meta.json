@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n > 1, a(2*n+2) = smallest number not yet seen, a(2*n+1) = a(2*n) + a(2*n+2).",
+  "id": "A210770",
+  "mentions": [
+    "A022441",
+    "A055562",
+    "A064736",
+    "A210771"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that sequence of type a_k(n): {a(1) = 1, for n >= 2: a(n) = the smallest number h such that sigma(h) = A000203(h) = a(n-1) + k, a(n) = 0 if no such number exists} is not sequence A063524(n) for n >= 1.",
+  "id": "A173016",
+  "mentions": [
+    "A000035",
+    "A000203",
+    "A051444",
+    "A063524",
+    "A173012",
+    "A173013",
+    "A173014",
+    "A173015"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

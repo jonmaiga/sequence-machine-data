@@ -1,0 +1,35 @@
+{
+  "description": "Solution of the complementary equation a(n) = a(1)*b(n-1) - a(0)*b(n-2) + 2*n, where a(0) = 1, a(1) = 2, b(0) = 3, b(1) = 4, and (b(n)) is the increasing sequence of positive integers not in (a(n)). See Comments.",
+  "id": "A297830",
+  "mentions": [
+    "A297800",
+    "A297826",
+    "A297831",
+    "A297832",
+    "A297833",
+    "A297834",
+    "A297835",
+    "A297836",
+    "A297837",
+    "A297997",
+    "A297998",
+    "A298003",
+    "A298004",
+    "A298005",
+    "A298006",
+    "A298007",
+    "A298108",
+    "A298109"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:18",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

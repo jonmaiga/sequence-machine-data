@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest positive number not yet in the sequence that contains exactly one even digit and exactly one odd digit from a(n-1), and no digit in a(n) is repeated.",
+  "id": "A309540",
+  "mentions": [
+    "A076654",
+    "A184992",
+    "A309390",
+    "A309539",
+    "A318700"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

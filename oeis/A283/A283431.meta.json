@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the number of zeros of the Hermite H(n, x) polynomial in the open interval (-1, +1).",
+  "id": "A283431",
+  "mentions": [
+    "A008611",
+    "A054373",
+    "A054374",
+    "A059343",
+    "A096713",
+    "A257564",
+    "A285872"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

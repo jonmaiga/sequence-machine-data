@@ -1,0 +1,25 @@
+{
+  "description": "Sum of exponents larger than one in the prime factorization of n: A001222(n) - A056169(n).",
+  "id": "A275812",
+  "mentions": [
+    "A001222",
+    "A028234",
+    "A056169",
+    "A056170",
+    "A057521",
+    "A067029",
+    "A212172",
+    "A247180"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

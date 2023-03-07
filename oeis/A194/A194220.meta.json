@@ -1,0 +1,18 @@
+{
+  "description": "[sum{(k/4) : 1<=k<=n}], where [ ]=floor, ( )=fractional part.",
+  "id": "A194220",
+  "mentions": [
+    "A194221"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:09:13",
+    "offset": 1,
+    "size": 75,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that are either multiples of 4 with their odd part squarefree, or that are not multiples of 4 and not squarefree.",
+  "id": "A359468",
+  "mentions": [
+    "A000265",
+    "A166486",
+    "A190641",
+    "A327877",
+    "A342419",
+    "A353627",
+    "A355689",
+    "A359467"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

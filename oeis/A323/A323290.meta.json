@@ -1,0 +1,27 @@
+{
+  "description": "Numerator of the sum of inverse products of cycle sizes in all permutations of [n].",
+  "id": "A323290",
+  "mentions": [
+    "A000142",
+    "A177208",
+    "A177209",
+    "A322364",
+    "A322365",
+    "A322380",
+    "A322381",
+    "A323291",
+    "A323339",
+    "A323340"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

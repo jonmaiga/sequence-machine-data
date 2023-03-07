@@ -1,0 +1,26 @@
+{
+  "description": "T(w,h) is an upper bound for the minimum number of grid points in a square grid covered by an arbitrarily positioned and rotated rectangle of width w and height h, where T(w,h) is a triangle read by rows.",
+  "id": "A354702",
+  "mentions": [
+    "A000404",
+    "A291259",
+    "A293330",
+    "A354492",
+    "A354703",
+    "A354704",
+    "A354705",
+    "A355241",
+    "A355242"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

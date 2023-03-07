@@ -1,0 +1,19 @@
+{
+  "description": "A007522(n)-2.",
+  "id": "A186304",
+  "mentions": [
+    "A007522",
+    "A186293",
+    "A186305"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:34:43",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

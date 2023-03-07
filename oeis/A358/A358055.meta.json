@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least m such that A358052(m,k) = n for some k.",
+  "id": "A358055",
+  "mentions": [
+    "A234575",
+    "A358052"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Permutation of natural numbers: a(n) = A305422(2*n-1).",
+  "id": "A305424",
+  "mentions": [
+    "A014580",
+    "A064216",
+    "A091225",
+    "A304522",
+    "A305419",
+    "A305422",
+    "A305423",
+    "A305425"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Sum of diagonal numbers in a Pascal-like triangle with index of asymmetry y = 3 and index of obliquity z = 0 (going upwards, left to right).",
+  "id": "A141072",
+  "mentions": [
+    "A140993",
+    "A140994",
+    "A140995",
+    "A140996",
+    "A140997",
+    "A140998",
+    "A141065",
+    "A141066",
+    "A141067",
+    "A141068",
+    "A141069",
+    "A141073"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:42:10",
+    "offset": 1,
+    "size": 36,
+    "source": "joeis"
+  }
+}

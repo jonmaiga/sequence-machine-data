@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that 2*n*3^n - 1 is prime.",
+  "id": "A271956",
+  "mentions": [
+    "A006553",
+    "A266694"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

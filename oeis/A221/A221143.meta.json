@@ -1,0 +1,21 @@
+{
+  "description": "Fifth-order spt function.",
+  "id": "A221143",
+  "mentions": [
+    "A092269",
+    "A221140",
+    "A221141",
+    "A221142",
+    "A221144"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

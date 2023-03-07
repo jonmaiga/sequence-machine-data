@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = ((1+sqrt(13))^n + (1-sqrt(13))^n)/2.",
+  "id": "A125816",
+  "mentions": [
+    "A001022",
+    "A091914",
+    "A098158",
+    "A127262"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

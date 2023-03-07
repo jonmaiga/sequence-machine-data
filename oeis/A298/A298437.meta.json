@@ -1,0 +1,32 @@
+{
+  "description": "Numbers n such that there are precisely 16 groups of orders n and n + 1.",
+  "id": "A298437",
+  "mentions": [
+    "A000001",
+    "A295161",
+    "A295230",
+    "A295990",
+    "A295991",
+    "A295992",
+    "A295993",
+    "A295994",
+    "A295995",
+    "A298427",
+    "A298428",
+    "A298429",
+    "A298430",
+    "A298431"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Smallest odd primitive abundant number (A006038) having n distinct prime factors.",
+  "id": "A188342",
+  "mentions": [
+    "A006038",
+    "A188439",
+    "A249263",
+    "A287581",
+    "A287590"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 3,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

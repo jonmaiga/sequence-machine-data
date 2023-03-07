@@ -1,0 +1,20 @@
+{
+  "description": "Sum of largest prime power factors of numbers <= n.",
+  "id": "A284521",
+  "mentions": [
+    "A034699",
+    "A046670",
+    "A073355"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

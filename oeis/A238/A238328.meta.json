@@ -1,0 +1,21 @@
+{
+  "description": "Sum of all the parts in the partitions of 4n into 4 parts.",
+  "id": "A238328",
+  "mentions": [
+    "A235988",
+    "A238340",
+    "A238702"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:11:03",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

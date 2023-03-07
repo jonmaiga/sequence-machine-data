@@ -1,0 +1,20 @@
+{
+  "description": "Benjamin Franklin's 16 X 16 magic square read by rows.",
+  "id": "A124472",
+  "mentions": [
+    "A126128",
+    "A126129"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "fini",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest k, 1<=k<=(p_n-3)/2, such that sum{i=1,...,p_n-2k-1} 2^(i-1) Binomial(k-1+i, k)/p_n is prime; a(n)=0, if such k does not exist.",
+  "id": "A238901",
+  "mentions": [
+    "A238693",
+    "A238697",
+    "A238698",
+    "A238700"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:56",
+    "offset": 4,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

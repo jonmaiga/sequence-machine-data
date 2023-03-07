@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{d|n} d^(n^2/d).",
+  "id": "A308593",
+  "mentions": [
+    "A023887",
+    "A055225",
+    "A308509",
+    "A308571"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

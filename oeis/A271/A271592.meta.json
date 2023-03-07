@@ -1,0 +1,24 @@
+{
+  "description": "Array read by antidiagonals: T(n,m) = number of directed Hamiltonian walks from NW to SW corners on a grid with n rows and m columns.",
+  "id": "A271592",
+  "mentions": [
+    "A000532",
+    "A014524",
+    "A014585",
+    "A181688",
+    "A181689",
+    "A333580"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

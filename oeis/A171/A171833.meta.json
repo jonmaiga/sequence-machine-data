@@ -1,0 +1,22 @@
+{
+  "description": "Pythagorean primes with Pythagorean prime index.",
+  "id": "A171833",
+  "mentions": [
+    "A000040",
+    "A002144",
+    "A002145",
+    "A006450"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:15:23",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

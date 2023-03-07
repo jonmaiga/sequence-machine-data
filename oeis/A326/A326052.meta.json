@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n - A050452(n), where A050452 is the sum of divisors of the form 4k+3.",
+  "id": "A326052",
+  "mentions": [
+    "A050452",
+    "A326047",
+    "A326049"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

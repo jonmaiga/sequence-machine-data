@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 1; for n >= 1, a(n) = the decimal value of the binary number of the index of where n first appears in the concatenation of all previous binary terms. If the binary value of n has not previously appeared then a(n) = 0.",
+  "id": "A352245",
+  "mentions": [
+    "A341766",
+    "A342303",
+    "A351753",
+    "A352246"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

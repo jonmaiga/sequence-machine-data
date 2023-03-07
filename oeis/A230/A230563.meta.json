@@ -1,0 +1,23 @@
+{
+  "description": "Smallest number that is the sum of three positive n-th powers in at least two ways.",
+  "id": "A230563",
+  "mentions": [
+    "A046093",
+    "A230477",
+    "A230561",
+    "A230562"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

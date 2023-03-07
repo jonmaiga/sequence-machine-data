@@ -1,0 +1,20 @@
+{
+  "description": "Number of harmonious graphs with n edges and at most n vertices, allowing self-loops.",
+  "id": "A340234",
+  "mentions": [
+    "A110654",
+    "A329910"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: partial sums from the right of an A010892 subsequences decrescendo triangle.",
+  "id": "A144083",
+  "mentions": [
+    "A010892",
+    "A077859",
+    "A164965"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

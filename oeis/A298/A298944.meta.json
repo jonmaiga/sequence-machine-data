@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 2^(c-1) mod c^2, where c is the n-th composite number.",
+  "id": "A298944",
+  "mentions": [
+    "A000079",
+    "A001220",
+    "A001567",
+    "A066277",
+    "A240719",
+    "A270833",
+    "A298945",
+    "A298946"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

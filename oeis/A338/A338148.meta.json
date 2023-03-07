@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of chiral pairs of colorings of the edges of a regular n-D orthoplex (or ridges of a regular n-D orthotope) using exactly k colors. Row 1 has 1 column; row n>1 has 2*n*(n-1) columns.",
+  "id": "A338148",
+  "mentions": [
+    "A325010",
+    "A325018",
+    "A327089",
+    "A337413",
+    "A338144",
+    "A338146",
+    "A338147",
+    "A338149"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

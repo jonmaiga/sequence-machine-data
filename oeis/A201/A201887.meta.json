@@ -1,0 +1,17 @@
+{
+  "description": "Number of zero-sum nX4 -2..2 arrays with every element equal to at least one horizontal or vertical neighbor",
+  "id": "A201887",
+  "mentions": [
+    "A201888"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

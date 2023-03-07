@@ -1,0 +1,19 @@
+{
+  "description": "The r-th term of the n-th row of the following triangle contains product of r successive numbers in decreasing order beginning from T(n)-T(r-1) where T(n) is the n-th triangular number. 1 3 2 6 20 6 10 72 210 24 15 182 1320 3024 120 ... Sequence contains the triangle by rows.",
+  "id": "A110768",
+  "mentions": [
+    "A110769"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

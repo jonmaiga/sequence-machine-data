@@ -1,0 +1,21 @@
+{
+  "description": "The Riordan square of the permutation involutions. Triangle T(n, k), 0 <= k <= n, read by rows.",
+  "id": "A321629",
+  "mentions": [
+    "A000007",
+    "A000085",
+    "A193777",
+    "A321620"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

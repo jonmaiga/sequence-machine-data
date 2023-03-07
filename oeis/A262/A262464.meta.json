@@ -1,0 +1,17 @@
+{
+  "description": "Indices of rows of triangle A262432 where the maximum term of the row is a new record.",
+  "id": "A262464",
+  "mentions": [
+    "A262432"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

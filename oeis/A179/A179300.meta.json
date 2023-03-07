@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of corner-rooted hexangulations of girth 6 with n inner faces.",
+  "id": "A179300",
+  "mentions": [
+    "A179299",
+    "A228704"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

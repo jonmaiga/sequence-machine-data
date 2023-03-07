@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k with exactly one solution to the equation A = B*k, where A and B are antipalindromic numbers (members of A035928).",
+  "id": "A351325",
+  "mentions": [
+    "A002450",
+    "A035928",
+    "A351172",
+    "A351176"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

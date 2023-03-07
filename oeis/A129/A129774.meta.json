@@ -1,0 +1,29 @@
+{
+  "description": "Main diagonal of table of length of English names of numbers.",
+  "id": "A129774",
+  "mentions": [
+    "A000916",
+    "A001166",
+    "A005589",
+    "A014388",
+    "A045494",
+    "A045495",
+    "A080777",
+    "A084390"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "less",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

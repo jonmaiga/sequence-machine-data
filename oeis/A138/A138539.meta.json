@@ -1,0 +1,22 @@
+{
+  "description": "Primes p_n for which A140141(n) < 2p_n, where p_n = n-th prime (A000040).",
+  "id": "A138539",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A039649",
+    "A058340",
+    "A058341",
+    "A140141"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

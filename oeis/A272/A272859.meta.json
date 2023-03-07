@@ -1,0 +1,25 @@
+{
+  "description": "Numbers m such that sigma(Product(p_j)) = sigma(Product(e_j)), where m = Product((p_i)^e_i) and sigma = A000203.",
+  "id": "A272859",
+  "mentions": [
+    "A000203",
+    "A048102",
+    "A054411",
+    "A054412",
+    "A071174",
+    "A114129",
+    "A122406",
+    "A272818",
+    "A272858"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

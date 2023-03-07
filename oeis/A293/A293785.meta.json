@@ -1,0 +1,25 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals, where column k is the expansion of e.g.f. exp(Sum_{j>=1} j^(k-1)*x^j).",
+  "id": "A293785",
+  "mentions": [
+    "A000012",
+    "A000142",
+    "A000262",
+    "A082579",
+    "A255807",
+    "A255819",
+    "A293786"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

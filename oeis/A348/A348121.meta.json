@@ -1,0 +1,22 @@
+{
+  "description": "Numbers having more nonunitary than unitary prime divisors.",
+  "id": "A348121",
+  "mentions": [
+    "A001694",
+    "A013929",
+    "A056169",
+    "A056170",
+    "A080366",
+    "A348097"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

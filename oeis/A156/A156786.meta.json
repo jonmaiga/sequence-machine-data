@@ -1,0 +1,21 @@
+{
+  "description": "The triangular sequence of symmetrical Lah numbers (A111596, A008297) : L(n, m) = (-1)^n* binomial(n,k)*binomial(n-1, k-1)*( (n-k)! + (n-k)*(k-1)! ), with L(0,0) = 2, L(n,0) = L(n,n) = (-1)^n.",
+  "id": "A156786",
+  "mentions": [
+    "A000262",
+    "A008297",
+    "A111596"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

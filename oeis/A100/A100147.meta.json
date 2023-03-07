@@ -1,0 +1,23 @@
+{
+  "description": "Structured icosidodecahedral numbers.",
+  "id": "A100147",
+  "mentions": [
+    "A079588",
+    "A100145",
+    "A100146",
+    "A100148",
+    "A143254"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:31:03",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

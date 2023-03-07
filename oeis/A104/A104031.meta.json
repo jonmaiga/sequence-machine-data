@@ -1,0 +1,18 @@
+{
+  "description": "Column 1 of triangle A104030, which is the matrix inverse of the triangle of pairwise sums of trinomial coefficients.",
+  "id": "A104031",
+  "mentions": [
+    "A006846",
+    "A104030"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

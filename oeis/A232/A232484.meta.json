@@ -1,0 +1,18 @@
+{
+  "description": "Number of size collections in prime \"Mrs. Perkins's Quilt\" dissections of integer-sided squares into n squares.",
+  "id": "A232484",
+  "mentions": [
+    "A005670"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

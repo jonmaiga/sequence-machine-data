@@ -1,0 +1,28 @@
+{
+  "description": "Number of permutations of [n] having at least one succession. A succession of a permutation p is a position i such that p(i+1)-p(i) = 1.",
+  "id": "A180191",
+  "mentions": [
+    "A000142",
+    "A000166",
+    "A000255",
+    "A002467",
+    "A028417",
+    "A116853",
+    "A180190",
+    "A276975",
+    "A306234",
+    "A306461",
+    "A324362"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

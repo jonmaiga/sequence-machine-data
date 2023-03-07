@@ -1,0 +1,33 @@
+{
+  "description": "Triangle, read by rows, where row n equals the inverse binomial transform of the crystal ball sequence for D_n lattice.",
+  "id": "A108556",
+  "mentions": [
+    "A001844",
+    "A005902",
+    "A007204",
+    "A008353",
+    "A008356",
+    "A008358",
+    "A008360",
+    "A008362",
+    "A008377",
+    "A008379",
+    "A063007",
+    "A108553",
+    "A108557",
+    "A108558",
+    "A127674"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "For all numbers k(n) congruent to -1 or +1 (mod 6) starting with k(n) = {5,7,11,13,...}, a(k(n)) is incremented by the congruence (mod 6) if k(n) is prime and by 0 if k(n) is composite.",
+  "id": "A156709",
+  "mentions": [
+    "A075743",
+    "A101264",
+    "A156706",
+    "A156707",
+    "A156749"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "changed",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

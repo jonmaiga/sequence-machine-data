@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k>=0 such that n(n+1)-(2k+1) and n(n+1)+(2k+1) are both noncomposite numbers, or -1 if no such k exists.",
+  "id": "A209882",
+  "mentions": [
+    "A002378",
+    "A008578"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

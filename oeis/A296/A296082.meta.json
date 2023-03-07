@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 0; for n > 1, a(n) = A032741(n) / gcd(A039653(n),A032741(n)).",
+  "id": "A296082",
+  "mentions": [
+    "A032741",
+    "A039653",
+    "A284288",
+    "A296081",
+    "A296083",
+    "A296084"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

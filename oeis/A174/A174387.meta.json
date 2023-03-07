@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n, k) = c(n, q)/c(k, q) if k <= floor(n/2), otherwise c(n, q)/c(n-k, q), where c(n, q) = Product_{j=1..n} (1 - q^j) and q = 2, read by rows.",
+  "id": "A174387",
+  "mentions": [
+    "A000012",
+    "A174388",
+    "A174389"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

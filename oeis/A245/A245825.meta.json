@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of the vertices of the Fibonacci cube G_n that have degree k (0<=k<=n).",
+  "id": "A245825",
+  "mentions": [
+    "A000045",
+    "A001519",
+    "A001629"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:37:43",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

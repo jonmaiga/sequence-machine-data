@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (227+30*sqrt(2))/223.",
+  "id": "A159810",
+  "mentions": [
+    "A002193",
+    "A130609",
+    "A159809",
+    "A159811"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

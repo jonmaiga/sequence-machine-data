@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of Sum_{n >= 0} (floor(n/2)!)^2/n!.",
+  "id": "A248682",
+  "mentions": [
+    "A001113",
+    "A056040",
+    "A248664",
+    "A248683",
+    "A248684",
+    "A248685",
+    "A248785"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

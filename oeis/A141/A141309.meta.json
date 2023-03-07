@@ -1,0 +1,19 @@
+{
+  "description": "INVERTi transform of A141308.",
+  "id": "A141309",
+  "mentions": [
+    "A003319",
+    "A141307",
+    "A141308"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

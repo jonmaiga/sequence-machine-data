@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the product over all prime powers p^e where p^e is the highest power of p dividing n and p-1 does not divide n.",
+  "id": "A300330",
+  "mentions": [
+    "A193267",
+    "A195989",
+    "A300711"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

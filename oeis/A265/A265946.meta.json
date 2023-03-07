@@ -1,0 +1,17 @@
+{
+  "description": "Sums of positive differences and negated sums of negative differences in the Collatz trajectory of n.",
+  "id": "A265946",
+  "mentions": [
+    "A006577"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:26",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

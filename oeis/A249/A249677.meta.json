@@ -1,0 +1,22 @@
+{
+  "description": "Triangle, read by rows, with row n forming the coefficients in Product_{k=0..n} (1 + k^3*x).",
+  "id": "A249677",
+  "mentions": [
+    "A000442",
+    "A000537",
+    "A008955",
+    "A107415",
+    "A130032"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

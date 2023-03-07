@@ -1,0 +1,21 @@
+{
+  "description": "Renewal array for 1/(x+sqrt(1-4x)).",
+  "id": "A155788",
+  "mentions": [
+    "A000984",
+    "A081696"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:47",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Product of the n-th sexy prime pair.",
+  "id": "A111192",
+  "mentions": [
+    "A001358",
+    "A023201",
+    "A037074",
+    "A046117",
+    "A104229",
+    "A143205",
+    "A143206",
+    "A195118"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

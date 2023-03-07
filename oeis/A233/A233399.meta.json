@@ -1,0 +1,18 @@
+{
+  "description": "A \"turtle transform\" of the primes p=A000040: coordinates (x,y)=(a(2n),a(2n+1)) of a walk on the complex plane, where at step n the cursor turns by arg(i^p(n)), then moves p(n) units ahead.",
+  "id": "A233399",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "sign",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of different possible profiles of palindromic length for prefixes of binary sequences of length n.",
+  "id": "A340311",
+  "mentions": [
+    "A340314"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

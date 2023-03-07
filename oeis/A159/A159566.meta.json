@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of (243+22*sqrt(2))/241.",
+  "id": "A159566",
+  "mentions": [
+    "A002193",
+    "A129991",
+    "A159565",
+    "A159567"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

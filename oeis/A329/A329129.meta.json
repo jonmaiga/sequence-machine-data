@@ -1,0 +1,21 @@
+{
+  "description": "Squares visited by a knight moving on a board with squares numbered with the minimum number of steps for a knight to reach the square when starting from the origin. The knight moves to the smallest numbered unvisited square; the minimum distance from the origin is used if the square numbers are equal; the smallest spiral number ordering is used if the distances are equal.",
+  "id": "A329129",
+  "mentions": [
+    "A316667",
+    "A326922",
+    "A328928"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

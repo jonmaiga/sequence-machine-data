@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle T giving the coefficients of x^n = x^{2*e2 + 3*e3} of (1 + x^2 + x^3)^n, with the pair of nonnegative numbers [e2, e3] listed in row n of A321201, for n >= 2.",
+  "id": "A321203",
+  "mentions": [
+    "A008615",
+    "A130561",
+    "A176806",
+    "A319204",
+    "A321201"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 2,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Coefficients in the expansion of C/B^2, in Watson's notation of page 106.",
+  "id": "A160461",
+  "mentions": [
+    "A000041",
+    "A015128",
+    "A071734",
+    "A160458",
+    "A160460",
+    "A160462",
+    "A160463",
+    "A160506",
+    "A160521",
+    "A278555",
+    "A278556",
+    "A278557",
+    "A278558",
+    "A278690",
+    "A298311"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:55:51",
+    "offset": 0,
+    "size": 40,
+    "source": "joeis"
+  }
+}

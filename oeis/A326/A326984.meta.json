@@ -1,0 +1,18 @@
+{
+  "description": "Coefficients in asymptotic expansion of sequence A309619.",
+  "id": "A326984",
+  "mentions": [
+    "A293266",
+    "A309619"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

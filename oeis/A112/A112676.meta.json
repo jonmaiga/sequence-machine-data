@@ -1,0 +1,21 @@
+{
+  "description": "Number of (undirected) Hamiltonian cycles on a triangular grid, n vertices on each side.",
+  "id": "A112676",
+  "mentions": [
+    "A003763",
+    "A112675",
+    "A174589",
+    "A266513"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

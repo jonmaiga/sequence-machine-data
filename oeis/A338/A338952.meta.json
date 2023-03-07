@@ -1,0 +1,27 @@
+{
+  "description": "Number of oriented colorings of the 96 edges (or triangular faces) of the 4-D 24-cell using subsets of a set of n colors.",
+  "id": "A338952",
+  "mentions": [
+    "A331350",
+    "A331354",
+    "A331358",
+    "A338948",
+    "A338953",
+    "A338954",
+    "A338955",
+    "A338956",
+    "A338964"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-bfile"
+  }
+}

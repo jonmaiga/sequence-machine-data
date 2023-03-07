@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that n! * p(n)# + 1 is prime.",
+  "id": "A118222",
+  "mentions": [
+    "A118223"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

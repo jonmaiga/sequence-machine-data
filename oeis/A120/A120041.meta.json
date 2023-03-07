@@ -1,0 +1,29 @@
+{
+  "description": "Number of 10-almost primes k such that 2^n < k <= 2^(n+1).",
+  "id": "A120041",
+  "mentions": [
+    "A036378",
+    "A046314",
+    "A120033",
+    "A120034",
+    "A120035",
+    "A120036",
+    "A120037",
+    "A120038",
+    "A120039",
+    "A120040",
+    "A120042",
+    "A120043"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

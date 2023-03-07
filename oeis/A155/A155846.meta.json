@@ -1,0 +1,23 @@
+{
+  "description": "Primes of the form 2^p-p*q where p is prime,q=5.",
+  "id": "A155846",
+  "mentions": [
+    "A057664",
+    "A057678",
+    "A155841",
+    "A155842",
+    "A155843",
+    "A155844",
+    "A155845"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Square array A(n,k) (n>=1, k>=0) read by antidiagonals: A(n,0) = 0 and A(n,k) is the least integer > A(n,k-1) that can be expressed as a triangular number divided by n.",
+  "id": "A193470",
+  "mentions": [
+    "A000217",
+    "A001318",
+    "A011772",
+    "A057569",
+    "A057570",
+    "A061782",
+    "A074378",
+    "A154260",
+    "A154293",
+    "A157716"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

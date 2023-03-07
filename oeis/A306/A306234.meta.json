@@ -1,0 +1,39 @@
+{
+  "description": "Number T(n,k) of occurrences of k in a (signed) displacement set of a permutation of [n] divided by |k|!; triangle T(n,k), n>=1, 1-n<=k<=n-1, read by rows.",
+  "id": "A306234",
+  "mentions": [
+    "A000012",
+    "A000142",
+    "A002467",
+    "A005408",
+    "A056107",
+    "A180191",
+    "A306455",
+    "A306461",
+    "A306525",
+    "A324224",
+    "A324352",
+    "A324353",
+    "A324354",
+    "A324355",
+    "A324356",
+    "A324357",
+    "A324358",
+    "A324359",
+    "A324360",
+    "A324361",
+    "A324362"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

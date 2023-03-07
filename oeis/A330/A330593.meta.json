@@ -1,0 +1,18 @@
+{
+  "description": "Positive integers not occurring in A330614 (subsequence of first differences with indices of primes gives back the original).",
+  "id": "A330593",
+  "mentions": [
+    "A000027",
+    "A330614"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

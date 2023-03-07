@@ -1,0 +1,36 @@
+{
+  "description": "Number of recursively bi-anti-transitive ordered rooted trees with n nodes.",
+  "id": "A358456",
+  "mentions": [
+    "A000081",
+    "A000108",
+    "A290689",
+    "A306844",
+    "A318185",
+    "A324695",
+    "A324751",
+    "A324756",
+    "A324758",
+    "A324764",
+    "A324765",
+    "A324766",
+    "A324767",
+    "A324768",
+    "A324838",
+    "A324840",
+    "A324844",
+    "A358453",
+    "A358455"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

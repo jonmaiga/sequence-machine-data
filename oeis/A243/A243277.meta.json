@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of 'c', a constant related to the asymptotic evaluation of the Lebesgue constants L_n.",
+  "id": "A243277",
+  "mentions": [
+    "A226654",
+    "A226655",
+    "A226656",
+    "A243278"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

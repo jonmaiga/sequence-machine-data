@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that the n-th Catalan number C(2n,n)/(n+1) is divisible by 2n.",
+  "id": "A120624",
+  "mentions": [
+    "A014847",
+    "A120622"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

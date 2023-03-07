@@ -1,0 +1,21 @@
+{
+  "description": "Lowest k such that k is representable as both the sum of n and of n+1 nonzero squares.",
+  "id": "A215537",
+  "mentions": [
+    "A000290",
+    "A000404",
+    "A000408",
+    "A000414",
+    "A047700"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

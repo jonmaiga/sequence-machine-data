@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest m such that A054024(m) = prime(n), where A054024(m) is A000203(m) mod m, or -1 if there is no such m.",
+  "id": "A337157",
+  "mentions": [
+    "A000203",
+    "A054024",
+    "A308150"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of arccos(1/phi), where phi = (1+sqrt(5))/2 (the golden ratio).",
+  "id": "A195692",
+  "mentions": [
+    "A001622",
+    "A019669",
+    "A139339",
+    "A175288",
+    "A195693",
+    "A195694",
+    "A197762"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:55",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "T(n,k)=Number of zero-sum -k..k arrays of n elements with adjacent element differences also in -k..k",
+  "id": "A202252",
+  "mentions": [
+    "A136029"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

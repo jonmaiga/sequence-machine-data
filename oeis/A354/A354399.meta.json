@@ -1,0 +1,20 @@
+{
+  "description": "List of k such that sign(A009273(k)) = sign(A009273(k+1)).",
+  "id": "A354399",
+  "mentions": [
+    "A009273",
+    "A111003",
+    "A354246",
+    "A354425"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Palindromes obtained as the absolute difference of corresponding digits of n and its' digit reversal.",
+  "id": "A113602",
+  "mentions": [
+    "A113603"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

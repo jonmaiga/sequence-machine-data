@@ -1,0 +1,19 @@
+{
+  "description": "Total number of occurrences of 3 in the (signed) displacement sets of all permutations of [n+3] divided by 3!.",
+  "id": "A324353",
+  "mentions": [
+    "A306234",
+    "A324362"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

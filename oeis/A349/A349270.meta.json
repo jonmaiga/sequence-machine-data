@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (n - k)! * k! / floor(k / 2)!^2, row sums of A349269.",
+  "id": "A349270",
+  "mentions": [
+    "A349269"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

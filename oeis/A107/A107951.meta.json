@@ -1,0 +1,20 @@
+{
+  "description": "Continued fraction expansion of Boling's constant.",
+  "id": "A107951",
+  "mentions": [
+    "A105658",
+    "A107950",
+    "A107952"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

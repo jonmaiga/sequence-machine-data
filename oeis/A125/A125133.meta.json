@@ -1,0 +1,19 @@
+{
+  "description": "Numbers missing from A125132.",
+  "id": "A125133",
+  "mentions": [
+    "A125132"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

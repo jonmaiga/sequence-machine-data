@@ -1,0 +1,25 @@
+{
+  "description": "Smallest natural square base q = q(k) that concatenation prime(k)//prime(k+1)//q^2 (k = 1, 2, ...) is a prime number.",
+  "id": "A174287",
+  "mentions": [
+    "A000290",
+    "A030459",
+    "A030461",
+    "A030469",
+    "A171154",
+    "A174031",
+    "A174034"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

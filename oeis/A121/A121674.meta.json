@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = [x^n] (1 + x*(1+x)^n )^n.",
+  "id": "A121674",
+  "mentions": [
+    "A121673",
+    "A121675",
+    "A121680"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

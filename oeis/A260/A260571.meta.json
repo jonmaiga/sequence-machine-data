@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n such that (n^83+1)/(n+1) is prime.",
+  "id": "A260571",
+  "mentions": [
+    "A055494",
+    "A246392",
+    "A250174",
+    "A250178",
+    "A250181",
+    "A250185",
+    "A250187",
+    "A250193",
+    "A260558",
+    "A260573"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

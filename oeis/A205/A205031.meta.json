@@ -1,0 +1,18 @@
+{
+  "description": "s(k)-s(j), where (s(k),s(j)) is the least pair of oblong numbers for which n divides their difference.",
+  "id": "A205031",
+  "mentions": [
+    "A204892",
+    "A205018"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:48",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

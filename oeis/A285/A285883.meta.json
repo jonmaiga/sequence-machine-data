@@ -1,0 +1,17 @@
+{
+  "description": "Let d(n,k) be the n-th divisor of a number k. a(n) is the smallest k such that d(n+1,k+1) = d(n,k) + 1.",
+  "id": "A285883",
+  "mentions": [
+    "A027750"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

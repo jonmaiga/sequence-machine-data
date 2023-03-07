@@ -1,0 +1,17 @@
+{
+  "description": "Number of length n words on alphabet {0,1,2,3} which contain all 16 of the 2-letter strings of the alphabet.",
+  "id": "A244044",
+  "mentions": [
+    "A243862"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 17,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

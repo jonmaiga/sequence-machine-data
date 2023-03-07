@@ -1,0 +1,19 @@
+{
+  "description": "Semi-chaotic binary digit sum/product sequence modeled on a Rudin-Shapiro-type sequence like A014081.",
+  "id": "A136545",
+  "mentions": [
+    "A014081"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

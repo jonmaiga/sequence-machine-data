@@ -1,0 +1,26 @@
+{
+  "description": "Nonexponential harmonic numbers: numbers k that are not prime powers such that the harmonic mean of the nonexponential divisors of k is an integer.",
+  "id": "A349178",
+  "mentions": [
+    "A001599",
+    "A006086",
+    "A063947",
+    "A160097",
+    "A160135",
+    "A286325",
+    "A319745",
+    "A348964",
+    "A349026"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of compositions of n such that the cardinality of the set of parts is 2.",
+  "id": "A131661",
+  "mentions": [
+    "A000005",
+    "A002133",
+    "A005772",
+    "A088142",
+    "A235998",
+    "A242900"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

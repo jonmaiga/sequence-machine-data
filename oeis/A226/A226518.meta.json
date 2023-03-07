@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = Sum_{i=0..k} Legendre(i,prime(n)).",
+  "id": "A226518",
+  "mentions": [
+    "A165477",
+    "A165582",
+    "A226519",
+    "A226520",
+    "A226523",
+    "A226914",
+    "A226915"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

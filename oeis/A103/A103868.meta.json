@@ -1,0 +1,20 @@
+{
+  "description": "Digital expansion of Pi: numbers from each pair of successive digits, reversed.",
+  "id": "A103868",
+  "mentions": [
+    "A000796",
+    "A105320"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "dumb",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

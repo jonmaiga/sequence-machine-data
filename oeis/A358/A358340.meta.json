@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the smallest n-digit number whose fourth power is zeroless.",
+  "id": "A358340",
+  "mentions": [
+    "A052040",
+    "A052044",
+    "A052382",
+    "A124648",
+    "A124649",
+    "A252484",
+    "A253643",
+    "A253644",
+    "A253647"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

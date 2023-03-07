@@ -1,0 +1,29 @@
+{
+  "description": "Numbers whose maximal tribonacci representation (A352103) is palindromic.",
+  "id": "A352105",
+  "mentions": [
+    "A000073",
+    "A002113",
+    "A006995",
+    "A008937",
+    "A014190",
+    "A027084",
+    "A094202",
+    "A331191",
+    "A351712",
+    "A351717",
+    "A352087",
+    "A352103"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

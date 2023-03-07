@@ -1,0 +1,19 @@
+{
+  "description": "Continued square root map applied to tenth powers: 1, 2^10, 3^10, 4^10, ...",
+  "id": "A257580",
+  "mentions": [
+    "A008454",
+    "A257574"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Continued fraction expansion of sqrt(12500)+50 = 100*phi, where phi=(sqrt(5)+1)/2 is the golden ratio.",
+  "id": "A172074",
+  "mentions": [
+    "A001622",
+    "A010186"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cofr",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

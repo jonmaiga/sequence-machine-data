@@ -1,0 +1,20 @@
+{
+  "description": "A symmetrical triangle:t(n,m)=2 - (1 + m)^m + (1 + n)^n - (1 - m + n)^(n - m)",
+  "id": "A176392",
+  "mentions": [
+    "A000169"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

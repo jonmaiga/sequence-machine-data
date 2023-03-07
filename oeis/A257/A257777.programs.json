@@ -1,0 +1,128 @@
+{
+  "oi": 257777,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "de[atan(e)]",
+      "mt": 50,
+      "px": [
+        "e",
+        "atan",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-08-30",
+      "ix": "de[acot(exp(-1))]",
+      "mt": 50,
+      "px": [
+        "-1",
+        "exp",
+        "acot",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-02-16",
+      "ix": "limit[atan(exp(tanh(n)))]",
+      "mt": 50,
+      "px": [
+        "n",
+        "tanh",
+        "exp",
+        "atan",
+        "limit"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[asin(cos(acot(e)))]",
+      "mt": 50,
+      "px": [
+        "e",
+        "acot",
+        "cos",
+        "asin",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "de[acos(sin(acot(e)))]",
+      "mt": 50,
+      "px": [
+        "e",
+        "acot",
+        "sin",
+        "acos",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-15",
+      "ix": "de[acos(0)-acot(e)]",
+      "mt": 50,
+      "px": [
+        "0",
+        "acos",
+        "e",
+        "acot",
+        "sub",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-15",
+      "ix": "de[asin(1)-acot(e)]",
+      "mt": 50,
+      "px": [
+        "1",
+        "asin",
+        "e",
+        "acot",
+        "sub",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-10-19",
+      "ix": "de[abs(acot(tan(acot(e))))]",
+      "mt": 50,
+      "px": [
+        "e",
+        "acot",
+        "tan",
+        "acot",
+        "abs",
+        "de"
+      ]
+    },
+    {
+      "d": "2022-10-19",
+      "ix": "de[-acot(tan(acot(e)))]",
+      "mt": 50,
+      "px": [
+        "e",
+        "acot",
+        "tan",
+        "acot",
+        "neg",
+        "de"
+      ]
+    },
+    {
+      "d": "2021-11-18",
+      "ix": "de[acos(tanh(-1))/2]",
+      "mt": 50,
+      "px": [
+        "1",
+        "neg",
+        "tanh",
+        "acos",
+        "2",
+        "/",
+        "de"
+      ]
+    }
+  ]
+}

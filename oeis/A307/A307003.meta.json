@@ -1,0 +1,20 @@
+{
+  "description": "Numbers x such that phi(x) = Sum_{i=1..k} phi(x/p_i), where p_i are the k prime factors of x.",
+  "id": "A307003",
+  "mentions": [
+    "A000010",
+    "A007283",
+    "A324710",
+    "A324711"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

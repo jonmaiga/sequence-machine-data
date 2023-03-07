@@ -1,0 +1,20 @@
+{
+  "description": "Number of no-leaf subgraphs of the 2 X n grid up to horizontal and vertical reflection.",
+  "id": "A303930",
+  "mentions": [
+    "A020876",
+    "A093129",
+    "A301976"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

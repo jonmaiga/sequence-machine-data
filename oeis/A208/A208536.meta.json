@@ -1,0 +1,21 @@
+{
+  "description": "Number of 5-bead necklaces of n colors not allowing reversal, with no adjacent beads having the same color.",
+  "id": "A208536",
+  "mentions": [
+    "A074650",
+    "A208535",
+    "A208537"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:06:53",
+    "offset": 1,
+    "size": 33,
+    "source": "joeis"
+  }
+}

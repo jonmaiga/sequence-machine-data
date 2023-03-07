@@ -1,0 +1,19 @@
+{
+  "description": "Number of states in minimal DFA for P_n^*, where P_n is the set of base-2 representations of the first n prime numbers",
+  "id": "A257371",
+  "mentions": [
+    "A004676",
+    "A090423",
+    "A257291"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

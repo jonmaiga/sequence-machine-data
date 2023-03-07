@@ -1,0 +1,18 @@
+{
+  "description": "Let p = prime(n); a(n) = number of pairs (x,i) with i >= 2 and 2 <= x <= p-i such that x*(x+1)*(x+2)*...*(x+i-1) == 1 mod p.",
+  "id": "A256592",
+  "mentions": [
+    "A256567",
+    "A256580"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

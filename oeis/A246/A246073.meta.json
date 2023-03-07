@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations p on [2n] satisfying p^n(i) = i for all i in [n].",
+  "id": "A246073",
+  "mentions": [
+    "A246072"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

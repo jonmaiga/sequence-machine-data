@@ -1,0 +1,25 @@
+{
+  "description": "Similar to the original toothpick sequence A139250, except that the rule is now: a toothpick changes state if its midpoint is adjacent to exactly one ON toothpick.",
+  "id": "A151885",
+  "mentions": [
+    "A000695",
+    "A079314",
+    "A079315",
+    "A139250",
+    "A139251",
+    "A147562",
+    "A151886",
+    "A151888"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

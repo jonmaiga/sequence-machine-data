@@ -1,0 +1,18 @@
+{
+  "description": "The imaginary part of E(2n, i)/i, where E(n, x) is the Euler polynomial.",
+  "id": "A292792",
+  "mentions": [
+    "A291897",
+    "A292791"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

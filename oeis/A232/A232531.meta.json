@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the equation a^2 + 2*n*b^2 = 2*c^2 + n*d^2 has no solutions in positive integers for a, b, c, d.",
+  "id": "A232531",
+  "mentions": [
+    "A035251",
+    "A232532",
+    "A232681",
+    "A232682"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

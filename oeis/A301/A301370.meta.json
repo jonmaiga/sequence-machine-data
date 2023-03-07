@@ -1,0 +1,21 @@
+{
+  "description": "Maximum determinant of an n X n (0,1)-matrix that has exactly 2*n ones.",
+  "id": "A301370",
+  "mentions": [
+    "A003432",
+    "A017979",
+    "A085000"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

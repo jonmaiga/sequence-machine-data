@@ -1,0 +1,22 @@
+{
+  "description": "Deep factorization of n, A300560, converted from binary to decimal. (Binary digits obtained by recursively replacing each factor p^e with [primepi(p) [e]], then '[' = 1, ']' = 0.)",
+  "id": "A300561",
+  "mentions": [
+    "A061396",
+    "A062504",
+    "A062860",
+    "A300560",
+    "A300562",
+    "A300563"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

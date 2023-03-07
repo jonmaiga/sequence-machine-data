@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that 2*n+3 and 2*n+5 are both prime.",
+  "id": "A243811",
+  "mentions": [
+    "A040040",
+    "A067076",
+    "A089038"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:58:29",
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

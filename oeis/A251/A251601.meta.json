@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that hexagonal numbers H(n) and H(n+1) sum to another hexagonal number.",
+  "id": "A251601",
+  "mentions": [
+    "A000384",
+    "A251602"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "List of permutations of the intervals of numbers [0,F(n)) defined by x -> x*F(n-1) mod F(n), where F(n) is the n-th Fibonacci number A000045.",
+  "id": "A257961",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

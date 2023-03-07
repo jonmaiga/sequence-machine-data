@@ -1,0 +1,22 @@
+{
+  "description": "Solutions n to the Diophantine equation: n = (2*x^2 - 1)^2 = (6*y^2 - 5).",
+  "id": "A227079",
+  "mentions": [
+    "A060728",
+    "A180445",
+    "A227077",
+    "A227078"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

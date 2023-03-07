@@ -1,0 +1,22 @@
+{
+  "description": "Index of the least significant digit larger than one in the primorial base expansion of n, 0 if no such digit exists.",
+  "id": "A328828",
+  "mentions": [
+    "A049345",
+    "A055396",
+    "A276086",
+    "A277885",
+    "A328572"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

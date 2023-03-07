@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = n*F(n+1) - (n+1)*F(n), where F = A000045.",
+  "id": "A264147",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001629",
+    "A007502",
+    "A023607",
+    "A094588",
+    "A099920",
+    "A178521",
+    "A354044"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

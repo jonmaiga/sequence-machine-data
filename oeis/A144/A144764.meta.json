@@ -1,0 +1,21 @@
+{
+  "description": "Partial totient function phi(c, n) for c = 3: number of 3-semiprimes less than and coprime to n.",
+  "id": "A144764",
+  "mentions": [
+    "A000010",
+    "A014612",
+    "A036997",
+    "A144740"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

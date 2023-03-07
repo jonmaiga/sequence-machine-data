@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions of 2n into parts with 10 types c^1 c^2...C^10 of each part. The even parts appear with multiplicity 1 for each type . The odd parts occur with multiplicity 2 for each part.",
+  "id": "A103261",
+  "mentions": [
+    "A007096",
+    "A014969",
+    "A014970",
+    "A014972",
+    "A080054",
+    "A261647",
+    "A261648"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:19:52",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

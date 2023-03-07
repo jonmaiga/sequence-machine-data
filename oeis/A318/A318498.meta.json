@@ -1,0 +1,26 @@
+{
+  "description": "Denominators of the sequence whose Dirichlet convolution with itself yields A061389, number of (1+phi)-divisors of n.",
+  "id": "A318498",
+  "mentions": [
+    "A046644",
+    "A061389",
+    "A092520",
+    "A293443",
+    "A299150",
+    "A317937",
+    "A318497",
+    "A318499"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:39",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

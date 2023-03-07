@@ -1,0 +1,26 @@
+{
+  "description": "Numbers divisible by prime(d+1) for each digit d of their base-5 representation.",
+  "id": "A256865",
+  "mentions": [
+    "A256786",
+    "A256866",
+    "A256870",
+    "A256874",
+    "A256875",
+    "A256879",
+    "A256882",
+    "A256883",
+    "A256884"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of twin-tree-rooted maps with n edges.",
+  "id": "A260041",
+  "mentions": [
+    "A260039",
+    "A260040"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of ordered subsequences of {1,...,n} containing at least three elements and such that the first differences contain only odd numbers.",
+  "id": "A344004",
+  "mentions": [
+    "A000045",
+    "A052952",
+    "A129696",
+    "A345123"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

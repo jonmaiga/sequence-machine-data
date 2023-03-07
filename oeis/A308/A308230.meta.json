@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle: row n shows the alternating sums of partitions of n when the parts are arranged in nonincreasing order and the partitions are arranged lexicographically from [n] to [1,1,1,...,1].",
+  "id": "A308230",
+  "mentions": [
+    "A000041",
+    "A066897"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

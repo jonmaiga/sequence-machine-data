@@ -1,0 +1,19 @@
+{
+  "description": "Least positive integers that can appear as the coefficient of x^n the n-th iteration of an integer function F(x) where F(0)=0, for n>=1; the F(x) that satisfies this minimal condition is the g.f. of A119815.",
+  "id": "A119816",
+  "mentions": [
+    "A119815",
+    "A119818"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

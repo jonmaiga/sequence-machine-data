@@ -1,0 +1,22 @@
+{
+  "description": "Padovan factorials: a(n) is the product of the first n terms of the Padovan sequence. Similar to the Fibonacci factorial.",
+  "id": "A126772",
+  "mentions": [
+    "A000931",
+    "A003266",
+    "A060006",
+    "A253924"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:12:52",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

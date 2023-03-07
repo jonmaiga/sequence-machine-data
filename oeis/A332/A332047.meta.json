@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that are not distended, but all sums of subsets of divisors are distinct.",
+  "id": "A332047",
+  "mentions": [
+    "A051772"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

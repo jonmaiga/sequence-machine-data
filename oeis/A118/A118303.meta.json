@@ -1,0 +1,19 @@
+{
+  "description": "Even values of the PartitionsQ function A000009.",
+  "id": "A118303",
+  "mentions": [
+    "A000009",
+    "A051044",
+    "A090864"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

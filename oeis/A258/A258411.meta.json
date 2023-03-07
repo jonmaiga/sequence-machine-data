@@ -1,0 +1,21 @@
+{
+  "description": "Nonnegative integers n such that in bijective base-2 numeration the number of occurrences of each digit doubles when n is squared.",
+  "id": "A258411",
+  "mentions": [
+    "A007931",
+    "A214676",
+    "A257867",
+    "A258410"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

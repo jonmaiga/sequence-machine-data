@@ -1,0 +1,27 @@
+{
+  "description": "Coefficients T(n,k) of x^n*y^k in the function A(x,y) that satisfies: y = Sum_{n=-oo..+oo} x^(2*n+1) * (1 - x^n)^(n+1) * A(x,y)^n, as a triangle read by rows with k = 0..n for each row index n >= 0.",
+  "id": "A357400",
+  "mentions": [
+    "A000108",
+    "A001700",
+    "A356783",
+    "A357151",
+    "A357401",
+    "A357402",
+    "A357403",
+    "A357404",
+    "A357405"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

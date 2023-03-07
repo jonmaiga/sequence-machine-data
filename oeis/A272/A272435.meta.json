@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-ominoes in n X n grid (i.e., rookwise connected sets of n cells in a square array with n rows and n columns).",
+  "id": "A272435",
+  "mentions": [
+    "A001168",
+    "A059525",
+    "A162676"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

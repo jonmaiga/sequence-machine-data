@@ -1,0 +1,27 @@
+{
+  "description": "Covers of triangles by tetrahedra: number of labeled 4-uniform hypergraphs spanning n vertices such that every three vertices appear together in some edge.",
+  "id": "A320446",
+  "mentions": [
+    "A006126",
+    "A038041",
+    "A299471",
+    "A301922",
+    "A302374",
+    "A302394",
+    "A306021",
+    "A319540",
+    "A320395",
+    "A322451"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

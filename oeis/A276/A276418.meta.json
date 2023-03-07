@@ -1,0 +1,24 @@
+{
+  "description": "Starting a random walk on Z at 0 triangle T(j,k) gives the number of paths of length 2*j returning to 0 exactly k times.",
+  "id": "A276418",
+  "mentions": [
+    "A000079",
+    "A000984",
+    "A057711",
+    "A128650"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

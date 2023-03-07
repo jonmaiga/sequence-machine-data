@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (1 - x + x^2)^2 / (1 - x)^3 in powers of x.",
+  "id": "A238531",
+  "mentions": [
+    "A089071",
+    "A133263",
+    "A152948"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:17:41",
+    "offset": 0,
+    "size": 54,
+    "source": "joeis"
+  }
+}

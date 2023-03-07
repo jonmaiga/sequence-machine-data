@@ -1,0 +1,33 @@
+{
+  "description": "Numbers whose augmented differences of prime indices are an aperiodic sequence.",
+  "id": "A329133",
+  "mentions": [
+    "A000740",
+    "A027375",
+    "A056239",
+    "A112798",
+    "A121016",
+    "A124010",
+    "A152061",
+    "A246029",
+    "A325351",
+    "A325389",
+    "A328594",
+    "A329132",
+    "A329134",
+    "A329135",
+    "A329136",
+    "A329139",
+    "A329140"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

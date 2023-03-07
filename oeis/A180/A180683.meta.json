@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k) is the sum of the path counts in the (right-aligned Ferrers plots of) the partitions of n in exactly k parts.",
+  "id": "A180683",
+  "mentions": [
+    "A000012",
+    "A008805"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

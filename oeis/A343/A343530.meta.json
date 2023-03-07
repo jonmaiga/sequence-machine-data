@@ -1,0 +1,24 @@
+{
+  "description": "Number of steps before being trapped for a knight moving on a square-spiral base-n numbered board when stepping to the closest unvisited square which contains a number that shares no digit with the number of the current square. If two or more such squares are the same distance away the one with the smaller number is chosen.",
+  "id": "A343530",
+  "mentions": [
+    "A316667",
+    "A326916",
+    "A326918",
+    "A328894",
+    "A343563",
+    "A344325"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 2,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

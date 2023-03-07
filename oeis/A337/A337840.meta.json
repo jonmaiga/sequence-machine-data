@@ -1,0 +1,31 @@
+{
+  "description": "a(n) is the decimal place of the start of the first occurrence of n in the decimal expansion of n^(1/n).",
+  "id": "A337840",
+  "mentions": [
+    "A002193",
+    "A002581",
+    "A005534",
+    "A011215",
+    "A011231",
+    "A011247",
+    "A011263",
+    "A011279",
+    "A011295",
+    "A011311",
+    "A011327",
+    "A011343",
+    "A011359",
+    "A177715"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

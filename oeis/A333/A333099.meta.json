@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the final term of the lexicographically first sequence of distinct positive multiples of n whose reciprocals sum to 1.",
+  "id": "A333099",
+  "mentions": [
+    "A115515"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

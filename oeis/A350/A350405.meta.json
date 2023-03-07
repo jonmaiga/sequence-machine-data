@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the smallest number which can be represented as the sum of n distinct nonzero n-gonal numbers in exactly n ways, or 0 if no such number exists.",
+  "id": "A350405",
+  "mentions": [
+    "A006484",
+    "A025443",
+    "A057145",
+    "A307598",
+    "A350207",
+    "A350241",
+    "A350288"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 3,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

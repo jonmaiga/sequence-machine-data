@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX2 arrays containing 2 copies of 0..n-1 with no element 1 greater than its northeast neighbor modulo n and the upper left element equal to 0.",
+  "id": "A266652",
+  "mentions": [
+    "A266655"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

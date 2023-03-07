@@ -1,0 +1,18 @@
+{
+  "description": "Minimum difference |product(A) - product(B)| where A and B are a partition of {1,2,3,...,2*n} and |A| = |B| = n.",
+  "id": "A352813",
+  "mentions": [
+    "A038667",
+    "A061057"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

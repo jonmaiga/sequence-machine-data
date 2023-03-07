@@ -1,0 +1,21 @@
+{
+  "description": "Parity index: number of integers z with 1 <= z <= n for which A010060(z) = A010060(n), negated if A010060(n) = 1.",
+  "id": "A285779",
+  "mentions": [
+    "A008619",
+    "A010059",
+    "A010060",
+    "A130472"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

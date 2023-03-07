@@ -1,0 +1,20 @@
+{
+  "description": "Indices n such that Nexus numbers of order 7 (A022523(n-1) = n^7 - (n-1)^7) are primes.",
+  "id": "A121619",
+  "mentions": [
+    "A022523",
+    "A121616",
+    "A121618",
+    "A121620"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

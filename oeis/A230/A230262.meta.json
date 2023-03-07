@@ -1,0 +1,28 @@
+{
+  "description": "Numerators of Akiyama-Tanigawa algorithm applied to harmonic numbers, written by antidiagonals.",
+  "id": "A230262",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A026741",
+    "A027641",
+    "A027642",
+    "A045896",
+    "A051714",
+    "A051715",
+    "A164555",
+    "A193220",
+    "A194531"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

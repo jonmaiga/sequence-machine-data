@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of subpermutations of an n-set whose orbits are each of size at most k.",
+  "id": "A261763",
+  "mentions": [
+    "A002720",
+    "A157400",
+    "A261762",
+    "A261764",
+    "A261765",
+    "A261766",
+    "A261767"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

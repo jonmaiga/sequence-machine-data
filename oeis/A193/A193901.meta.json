@@ -1,0 +1,18 @@
+{
+  "description": "Start of n consecutive indices k such that phi(k) contains distinct number of divisors.",
+  "id": "A193901",
+  "mentions": [
+    "A000010"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

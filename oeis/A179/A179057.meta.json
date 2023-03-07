@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest argument m for which an auxiliary sequence A_n(m) differs from Fibonacci(m).",
+  "id": "A179057",
+  "mentions": [
+    "A000045",
+    "A001622"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

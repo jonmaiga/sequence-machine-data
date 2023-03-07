@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that exactly one d, 2 <= d <= k/2, exists which divides binomial(k-d-1, d-1) and is not coprime to k.",
+  "id": "A178071",
+  "mentions": [
+    "A001359",
+    "A023200",
+    "A138389",
+    "A178101"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

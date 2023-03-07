@@ -1,0 +1,25 @@
+{
+  "description": "3-quantum transitions in systems of N>=3 spin 1/2 particles, in columns by combination indices.",
+  "id": "A213345",
+  "mentions": [
+    "A001789",
+    "A002696",
+    "A051288",
+    "A213343",
+    "A213344",
+    "A213346",
+    "A213352"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 3,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

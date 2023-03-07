@@ -1,0 +1,20 @@
+{
+  "description": "Primes q such that Sum_(q-1; i=1..m) e(i)/p(i) is an integer k, where the prime factorization of n is Product_(n; i=1..m) p(i)^e(i).",
+  "id": "A267143",
+  "mentions": [
+    "A019434",
+    "A072873",
+    "A083345",
+    "A083346"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:28",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

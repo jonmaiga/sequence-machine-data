@@ -1,0 +1,21 @@
+{
+  "description": "\"Floor of hypotenuse\": a(n)=A104863(n)-10*A104803(n).",
+  "id": "A104864",
+  "mentions": [
+    "A104803",
+    "A104804",
+    "A104805",
+    "A104806",
+    "A104863"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

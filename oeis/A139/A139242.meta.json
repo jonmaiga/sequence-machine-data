@@ -1,0 +1,26 @@
+{
+  "description": "Second differences of Mersenne numbers A001348, divided by 2.",
+  "id": "A139242",
+  "mentions": [
+    "A001348",
+    "A139233",
+    "A139237",
+    "A139238",
+    "A139239",
+    "A139240",
+    "A139241",
+    "A139243"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:38:20",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

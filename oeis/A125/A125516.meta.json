@@ -1,0 +1,19 @@
+{
+  "description": "Prime numbers that are the sum of three distinct positive squares.",
+  "id": "A125516",
+  "mentions": [
+    "A088348",
+    "A126657",
+    "A126658"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Minimal number of unit edges required to construct n regular pentagons when allowing edge-sharing.",
+  "id": "A141135",
+  "mentions": [
+    "A078633",
+    "A121149",
+    "A135708",
+    "A137228"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

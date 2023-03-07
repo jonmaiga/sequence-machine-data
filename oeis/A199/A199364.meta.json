@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that 4k^3 + 3 is prime.",
+  "id": "A199364",
+  "mentions": [
+    "A199307",
+    "A199365"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:05:17",
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

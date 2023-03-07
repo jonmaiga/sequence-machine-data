@@ -1,0 +1,18 @@
+{
+  "description": "The largest part in the set of all {x,y,z} for any partitioning n=x+y+z into three triangular numbers x, y and z.",
+  "id": "A171601",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

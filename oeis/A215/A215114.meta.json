@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies: A(x) = x + 2*x^2 + x*A(A(A(x))).",
+  "id": "A215114",
+  "mentions": [
+    "A213010",
+    "A215115",
+    "A215116",
+    "A215118"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

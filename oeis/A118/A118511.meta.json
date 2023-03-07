@@ -1,0 +1,22 @@
+{
+  "description": "Define sequence S_n by: initial term = n, reverse digits and add 1 to get next term. It is conjectured that S_n always reaches a cycle of length 9, as in A117230. Sequence gives number of steps for S_n to reach the cycle.",
+  "id": "A118511",
+  "mentions": [
+    "A117230",
+    "A117831",
+    "A118510",
+    "A118512",
+    "A118513"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

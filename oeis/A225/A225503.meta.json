@@ -1,0 +1,19 @@
+{
+  "description": "Least triangular number t such that t = prime(n)*triangular(m) for some m>0, or 0 if no such t exists.",
+  "id": "A225503",
+  "mentions": [
+    "A000217",
+    "A112456",
+    "A225502"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

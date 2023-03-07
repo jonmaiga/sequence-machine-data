@@ -1,0 +1,18 @@
+{
+  "description": "Start with X = prime(n). Repeatedly replace X with X - ceiling(X/n); a(n) is the number of steps to reach a number <= ceiling(n*log(n)).",
+  "id": "A278950",
+  "mentions": [
+    "A000040",
+    "A278586"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 2,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

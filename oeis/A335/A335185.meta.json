@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = nextprime(ceiling(n/2)-1) - prevprime(floor(n/2)+1), where nextprime = A151800 and prevprime = A151799.",
+  "id": "A335185",
+  "mentions": [
+    "A001223",
+    "A151799",
+    "A151800",
+    "A335186"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 4,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

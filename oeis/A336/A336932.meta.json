@@ -1,0 +1,24 @@
+{
+  "description": "The 2-adic valuation of A003973(n), the sum of divisors of prime shifted n.",
+  "id": "A336932",
+  "mentions": [
+    "A000203",
+    "A000290",
+    "A003961",
+    "A003973",
+    "A007814",
+    "A295664",
+    "A336937"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Number of balanced reduced multisystems of weight n whose atoms cover an initial interval of positive integers.",
+  "id": "A330655",
+  "mentions": [
+    "A000311",
+    "A000669",
+    "A001678",
+    "A005121",
+    "A213427",
+    "A255906",
+    "A316651",
+    "A318812",
+    "A318813",
+    "A330474",
+    "A330475",
+    "A330654",
+    "A330675",
+    "A330676",
+    "A330679",
+    "A330776"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

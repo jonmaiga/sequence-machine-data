@@ -1,0 +1,24 @@
+{
+  "description": "a(1)=1, a(2)=2; thereafter a(n) = a(n-1) + a(n-1-(number of even terms so far)) + a(n-1-(number of odd terms so far)).",
+  "id": "A249039",
+  "mentions": [
+    "A006336",
+    "A007604",
+    "A249036",
+    "A249037",
+    "A249038",
+    "A249040",
+    "A249041"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

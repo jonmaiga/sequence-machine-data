@@ -1,0 +1,26 @@
+{
+  "description": "Number of ways to write n as x^2 + y^2 + z^2 + w^2 with x + 2*y a power of four (including 4^0 = 1), where x, y, z, w are nonnegative integers with z <= w.",
+  "id": "A337743",
+  "mentions": [
+    "A000118",
+    "A000290",
+    "A000302",
+    "A338094",
+    "A338095",
+    "A338096",
+    "A338103",
+    "A338119",
+    "A338121",
+    "A338162"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = [n*u+n*v]-[n*u]-[n*v], where u=sqrt(2), v=sqrt(3), and []=floor.",
+  "id": "A190242",
+  "mentions": [
+    "A190243",
+    "A190244"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 131,
+    "source": "oeis-bfile"
+  }
+}

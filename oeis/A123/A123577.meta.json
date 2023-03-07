@@ -1,0 +1,21 @@
+{
+  "description": "The Kruskal-Macaulay function L_5(n).",
+  "id": "A123577",
+  "mentions": [
+    "A000217",
+    "A111138",
+    "A123575",
+    "A123576"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

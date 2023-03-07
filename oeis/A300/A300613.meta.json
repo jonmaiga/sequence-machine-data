@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of the n-dimensional hypercube resulting from a sequence of n n-sections, each of which divides any part perpendicular to any of the axes.",
+  "id": "A300613",
+  "mentions": [
+    "A300474"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

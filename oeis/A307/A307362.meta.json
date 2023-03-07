@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. Sum_{j>=0} (exp(x) - 1)^j / Product_{k=1..j} (1 - k*(exp(x) - 1)).",
+  "id": "A307362",
+  "mentions": [
+    "A000110",
+    "A000258",
+    "A000670",
+    "A137341",
+    "A307363"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

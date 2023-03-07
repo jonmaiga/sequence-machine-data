@@ -1,0 +1,19 @@
+{
+  "description": "Indices n where A079878(n) = n.",
+  "id": "A200063",
+  "mentions": [
+    "A079878",
+    "A200064"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

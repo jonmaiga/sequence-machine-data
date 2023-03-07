@@ -1,0 +1,21 @@
+{
+  "description": "Prime numbers whose digits squared sum to a square.",
+  "id": "A223035",
+  "mentions": [
+    "A000040",
+    "A061910",
+    "A107288",
+    "A175396"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

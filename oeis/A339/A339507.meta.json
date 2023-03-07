@@ -1,0 +1,23 @@
+{
+  "description": "Number of subsets of {1..n} whose sum is a decimal palindrome.",
+  "id": "A339507",
+  "mentions": [
+    "A002113",
+    "A126024",
+    "A126111",
+    "A127542",
+    "A284250",
+    "A339508"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

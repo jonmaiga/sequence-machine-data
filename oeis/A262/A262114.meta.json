@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows: row b (b >= 2) gives periodic part of digits of the base-b expansion of 1/5.",
+  "id": "A262114",
+  "mentions": [
+    "A004526",
+    "A026741",
+    "A130845",
+    "A262115"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 2,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

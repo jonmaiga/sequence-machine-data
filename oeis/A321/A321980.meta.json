@@ -1,0 +1,34 @@
+{
+  "description": "Row n gives the chromatic symmetric function of the n-path, expanded in terms of elementary symmetric functions and ordered by Heinz number.",
+  "id": "A321980",
+  "mentions": [
+    "A000079",
+    "A000569",
+    "A001187",
+    "A001349",
+    "A006125",
+    "A056239",
+    "A229048",
+    "A240936",
+    "A245883",
+    "A277203",
+    "A321895",
+    "A321911",
+    "A321914",
+    "A321918",
+    "A321979",
+    "A321981",
+    "A321982"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

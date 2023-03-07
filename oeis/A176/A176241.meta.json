@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n-th semiprime-n is prime",
+  "id": "A176241",
+  "mentions": [
+    "A001358",
+    "A175708",
+    "A176240"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

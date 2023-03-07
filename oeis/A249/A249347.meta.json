@@ -1,0 +1,26 @@
+{
+  "description": "The exponent of the highest power of 7 dividing the product of the elements on the n-th row of Pascal's triangle.",
+  "id": "A249347",
+  "mentions": [
+    "A000096",
+    "A000217",
+    "A001142",
+    "A007318",
+    "A187059",
+    "A214411",
+    "A249343",
+    "A249345",
+    "A249421"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

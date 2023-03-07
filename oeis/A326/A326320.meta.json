@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that cannot be written as a difference of 13-smooth numbers.",
+  "id": "A326320",
+  "mentions": [
+    "A080197",
+    "A101082",
+    "A290365",
+    "A308247",
+    "A308456",
+    "A326318",
+    "A326319"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

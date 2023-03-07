@@ -1,0 +1,20 @@
+{
+  "description": "If n = Sum_{i=0..m} c(i)*2^i, c(i) = 0 or 1, then a(n) = Sum_{i=0..m} (m+1-i)*c(i).",
+  "id": "A230877",
+  "mentions": [
+    "A029931",
+    "A231204",
+    "A329752"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

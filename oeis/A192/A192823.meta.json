@@ -1,0 +1,21 @@
+{
+  "description": "5-Ramanujan primes; the interval (x/2,x] has at least n 4-Ramanujan primes for x >= a(n) but not for x = a(n)-1.",
+  "id": "A192823",
+  "mentions": [
+    "A104272",
+    "A192820",
+    "A192821",
+    "A192822",
+    "A192824"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

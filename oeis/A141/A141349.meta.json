@@ -1,0 +1,20 @@
+{
+  "description": "Size of the reduced Groebner basis of the ideal < x*y(1)^vj(1)*...*y(n-2)^vj(n-2) - z(j) : j=1,2,...,m >, where vj is the j-th extreme n-breakable vector, m=A141348(n), w.r.t. the degree of x and graded reverse lexicographic ordering of the variables y(1), ..., y(n-2), z(1), ..., z(m).",
+  "id": "A141349",
+  "mentions": [
+    "A141347",
+    "A141348"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 3,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

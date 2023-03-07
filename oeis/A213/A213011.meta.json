@@ -1,0 +1,18 @@
+{
+  "description": "Union of positive squares and sums of first k primes.",
+  "id": "A213011",
+  "mentions": [
+    "A000290",
+    "A007504"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

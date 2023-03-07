@@ -1,0 +1,22 @@
+{
+  "description": "Row sums of ((1,x) + (x,x^2))^(-1)*((1,x)-(x,x^2))^(-1) (using Riordan array notation).",
+  "id": "A115362",
+  "mentions": [
+    "A053737",
+    "A115358",
+    "A115361",
+    "A235127"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

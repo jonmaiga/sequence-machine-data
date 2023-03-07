@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows in which T(n,k) is the number of stable matchings in the stable marriage problem with n men and n women such that there exists a stable matching with an egalitarian cost of k.",
+  "id": "A344692",
+  "mentions": [
+    "A185141",
+    "A343698",
+    "A344691"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

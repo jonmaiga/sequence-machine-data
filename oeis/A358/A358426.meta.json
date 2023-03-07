@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least prime p such that (p^2 - 6)/5^n is prime.",
+  "id": "A358426",
+  "mentions": [
+    "A358422"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

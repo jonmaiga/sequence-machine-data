@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^A010060(n-k)*[(n+1) mod (k+1) = 0]*10^k, where [] denotes the Iverson bracket.",
+  "id": "A101564",
+  "mentions": [
+    "A010060",
+    "A051731",
+    "A101563"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

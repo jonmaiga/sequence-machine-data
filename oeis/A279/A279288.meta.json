@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = denominator of (phi(n)/tau(n)).",
+  "id": "A279288",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A020488",
+    "A020490",
+    "A020491",
+    "A063070",
+    "A279287",
+    "A279289"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

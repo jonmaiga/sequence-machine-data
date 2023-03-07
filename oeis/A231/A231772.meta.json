@@ -1,0 +1,20 @@
+{
+  "description": "Smallest positive number which has exactly n primitive roots, or 0 if no such number exists.",
+  "id": "A231772",
+  "mentions": [
+    "A007617",
+    "A010554",
+    "A046144",
+    "A231773"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

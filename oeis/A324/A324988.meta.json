@@ -1,0 +1,25 @@
+{
+  "description": "Palindromes whose number of divisors is palindromic.",
+  "id": "A324988",
+  "mentions": [
+    "A000005",
+    "A002113",
+    "A002385",
+    "A028986",
+    "A046328",
+    "A046329",
+    "A069747",
+    "A324989"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Table read by antidiagonals: number of toroidal m X n binary arrays, allowing rotation and/or reflection of the rows and/or the columns.",
+  "id": "A222188",
+  "mentions": [
+    "A000029",
+    "A184271",
+    "A209251",
+    "A222187",
+    "A222189",
+    "A222191"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

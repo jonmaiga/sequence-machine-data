@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of ordered 6-tuples (a_1,a_2,a_3,a_4,a_5,a_6) having all terms in {1,...,n} such that there exists a tetrahedron ABCD with those edge-lengths, taken in a particular order (see comments).",
+  "id": "A349295",
+  "mentions": [
+    "A097125",
+    "A349296"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

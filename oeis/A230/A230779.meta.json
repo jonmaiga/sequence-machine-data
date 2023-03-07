@@ -1,0 +1,29 @@
+{
+  "description": "Numbers which are uniquely decomposable into a sum of two squares, the unique decomposition being with two distinct nonzero squares.",
+  "id": "A230779",
+  "mentions": [
+    "A001481",
+    "A002144",
+    "A004018",
+    "A004431",
+    "A022554",
+    "A028982",
+    "A084645",
+    "A125022",
+    "A125853",
+    "A191217",
+    "A353813"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

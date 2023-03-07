@@ -1,0 +1,18 @@
+{
+  "description": "Partial sums of A072649.",
+  "id": "A256966",
+  "mentions": [
+    "A072649",
+    "A256967"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

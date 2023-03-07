@@ -1,0 +1,21 @@
+{
+  "description": "Number of 0's in Stolarsky representation of n.",
+  "id": "A200650",
+  "mentions": [
+    "A000045",
+    "A200648",
+    "A200649",
+    "A200651"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

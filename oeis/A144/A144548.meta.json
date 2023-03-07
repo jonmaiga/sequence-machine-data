@@ -1,0 +1,17 @@
+{
+  "description": "Squares and cubes of nonprimes (without repetition).",
+  "id": "A144548",
+  "mentions": [
+    "A141468"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

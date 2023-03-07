@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of a seed to the logistic map with r=4 such that mapping the orbit to 0 and 1 gives the binary expansion of Pi.",
+  "id": "A358630",
+  "mentions": [
+    "A004601"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = denominator(Bernoulli(2*n)*(1/2 - n)! / sqrt(Pi)).",
+  "id": "A335751",
+  "mentions": [
+    "A000367",
+    "A002445",
+    "A004193",
+    "A335750"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

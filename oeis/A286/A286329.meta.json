@@ -1,0 +1,18 @@
+{
+  "description": "Convolution inverse of A007267.",
+  "id": "A286329",
+  "mentions": [
+    "A007267"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

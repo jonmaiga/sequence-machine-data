@@ -1,0 +1,18 @@
+{
+  "description": "Coordination sequence T5 for Zeolite Code *BEA.",
+  "id": "A300743",
+  "mentions": [
+    "A005897",
+    "A008000"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:34:51",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

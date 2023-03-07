@@ -1,0 +1,18 @@
+{
+  "description": "First bisection of A091137.",
+  "id": "A141421",
+  "mentions": [
+    "A091137"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

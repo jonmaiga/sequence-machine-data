@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangular array: T(n,i) = number of partitions of n having crossover part k; see Comments.",
+  "id": "A279044",
+  "mentions": [
+    "A000041",
+    "A276468"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

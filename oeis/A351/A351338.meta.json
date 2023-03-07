@@ -1,0 +1,21 @@
+{
+  "description": "Least nonnegative integer m such that n = x^3 + y^3 - (z^3 + m^3) for some nonnegative integers x,y,z with z <= m.",
+  "id": "A351338",
+  "mentions": [
+    "A000578",
+    "A004826",
+    "A004999",
+    "A351306",
+    "A351321"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

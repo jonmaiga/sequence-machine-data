@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the n-th largest part that are visible in one of the three views of the version \"Tree\" of the section model of partitions.",
+  "id": "A194551",
+  "mentions": [
+    "A008483",
+    "A135010",
+    "A138121",
+    "A141285",
+    "A182730",
+    "A182731",
+    "A182732",
+    "A182733",
+    "A194550"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

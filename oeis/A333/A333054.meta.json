@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m such that r(m) > r(k) for all k < m, where r(m) = min(sigma(m)/m, sigma(m+1)/(m+1)), and sigma(m) is the sum of divisors of m (A000203).",
+  "id": "A333054",
+  "mentions": [
+    "A000203",
+    "A004394",
+    "A068403",
+    "A096399",
+    "A333053"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

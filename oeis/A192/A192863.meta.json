@@ -1,0 +1,21 @@
+{
+  "description": "Lower flat numbers: odd numbers k such that k-1 is a squarefree number times a power of two.",
+  "id": "A192863",
+  "mentions": [
+    "A185199",
+    "A192861",
+    "A192862",
+    "A192864"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

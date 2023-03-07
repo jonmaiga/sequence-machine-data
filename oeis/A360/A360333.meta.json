@@ -1,0 +1,26 @@
+{
+  "description": "Array read by antidiagonals downwards: A(n,m) = number of set partitions of [4n] into 4-element subsets {i, i+k, i+2k, i+3k} with 1 <= k <= m.",
+  "id": "A360333",
+  "mentions": [
+    "A000012",
+    "A000045",
+    "A000073",
+    "A104430",
+    "A104443",
+    "A337520",
+    "A360334",
+    "A360335"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

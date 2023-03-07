@@ -1,0 +1,27 @@
+{
+  "description": "Largest palindrome <= n.",
+  "id": "A261423",
+  "mentions": [
+    "A002113",
+    "A175298",
+    "A206913",
+    "A206914",
+    "A261424",
+    "A261914",
+    "A262038",
+    "A262257",
+    "A265509"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

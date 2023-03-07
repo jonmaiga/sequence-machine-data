@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of eta(q) * eta(q^2) * eta(q^3)^3 / eta(q^6)^2 in powers of q.",
+  "id": "A329955",
+  "mentions": [
+    "A028967",
+    "A030206",
+    "A195848",
+    "A224822",
+    "A329956",
+    "A329957",
+    "A329958"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:03:27",
+    "offset": 0,
+    "size": 68,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Positive numbers y such that y^2 is of the form x^2+(x+41)^2 with integer x.",
+  "id": "A157257",
+  "mentions": [
+    "A001653",
+    "A129288",
+    "A156035",
+    "A157258",
+    "A157259",
+    "A157260"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

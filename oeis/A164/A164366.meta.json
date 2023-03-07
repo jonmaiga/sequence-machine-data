@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of n elements with transposition distance equal to k, n >= 1 and 0 <= k <= A065603(n).",
+  "id": "A164366",
+  "mentions": [
+    "A065603",
+    "A219243"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

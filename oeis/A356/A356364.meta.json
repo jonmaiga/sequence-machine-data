@@ -1,0 +1,22 @@
+{
+  "description": "Number of primes p of the form k^2 + 1 less than 10^n such that p+2 and 2p+1 are also primes.",
+  "id": "A356364",
+  "mentions": [
+    "A006880",
+    "A007508",
+    "A083844",
+    "A092816",
+    "A347934"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways of splitting the numbers from 1 to 16 into two groups so that the numbers in each group have the same sum of n-th powers.",
+  "id": "A135418",
+  "mentions": [
+    "A133483",
+    "A133484",
+    "A135419"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

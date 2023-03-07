@@ -1,0 +1,23 @@
+{
+  "description": "Quadrisection of the fourth central column of triangle A122245, a(n) = A179775((4*n)-2).",
+  "id": "A179776",
+  "mentions": [
+    "A122245",
+    "A179771",
+    "A179775",
+    "A179777",
+    "A179779",
+    "A179831"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

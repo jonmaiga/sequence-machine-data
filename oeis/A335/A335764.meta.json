@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} sigma(k)/(k*2^k) where sigma(k) is the sum of divisors of k (A000203).",
+  "id": "A335764",
+  "mentions": [
+    "A000203",
+    "A017665",
+    "A017666",
+    "A048651",
+    "A065442",
+    "A066524",
+    "A066766",
+    "A256936",
+    "A335763"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

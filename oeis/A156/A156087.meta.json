@@ -1,0 +1,22 @@
+{
+  "description": "One ninth of the sum of the squares of the first n Fibonacci numbers with index divisible by 4.",
+  "id": "A156087",
+  "mentions": [
+    "A000045",
+    "A156086",
+    "A156092",
+    "A156093"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:55:13",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

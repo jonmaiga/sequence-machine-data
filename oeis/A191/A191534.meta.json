@@ -1,0 +1,20 @@
+{
+  "description": "Least k with 2n divisors such that k-1 and k+1 in binary representation have same number 2n of 0's as 1's.",
+  "id": "A191534",
+  "mentions": [
+    "A000005",
+    "A191292",
+    "A191369"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

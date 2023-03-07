@@ -1,0 +1,20 @@
+{
+  "description": "Number of divisors of m^2, where m is the smallest number with at least n divisors.",
+  "id": "A103578",
+  "mentions": [
+    "A000005",
+    "A061799",
+    "A141264"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

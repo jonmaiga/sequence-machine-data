@@ -1,0 +1,27 @@
+{
+  "description": "Triangle of numbers related to the generalized Catalan sequence C(2;n+1)=A064062(n+1), n>=0.",
+  "id": "A113647",
+  "mentions": [
+    "A000108",
+    "A049310",
+    "A064062",
+    "A064094",
+    "A115136",
+    "A115137",
+    "A115150",
+    "A115153"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into cubes dividing n.",
+  "id": "A294335",
+  "mentions": [
+    "A004709",
+    "A023358",
+    "A046099",
+    "A100346",
+    "A294105",
+    "A294333"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

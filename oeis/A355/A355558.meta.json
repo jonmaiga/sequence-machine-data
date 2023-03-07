@@ -1,0 +1,20 @@
+{
+  "description": "The independence polynomial of the n-halved cube graph evaluated at -1.",
+  "id": "A355558",
+  "mentions": [
+    "A005864",
+    "A288943",
+    "A355226"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

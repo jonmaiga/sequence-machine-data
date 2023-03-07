@@ -1,0 +1,22 @@
+{
+  "description": "Table read by antidiagonals: number of rationals in [0, 1) having at most n preperiodic bits, then at most k periodic bits (read up antidiagonals).",
+  "id": "A119919",
+  "mentions": [
+    "A119917",
+    "A119918"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

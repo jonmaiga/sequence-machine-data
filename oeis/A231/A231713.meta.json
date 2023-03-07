@@ -1,0 +1,28 @@
+{
+  "description": "Square array A(i,j) = the sum of absolute values of digit differences in the matching positions of the factorial base representations of i and j, for i >= 0, j >= 0, read by antidiagonals.",
+  "id": "A231713",
+  "mentions": [
+    "A002262",
+    "A007623",
+    "A025581",
+    "A034968",
+    "A101080",
+    "A230415",
+    "A230419",
+    "A231714",
+    "A231717"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

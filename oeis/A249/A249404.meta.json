@@ -1,0 +1,18 @@
+{
+  "description": "Number of ISO 8601 weeks associated with the Gregorian year n.",
+  "id": "A249404",
+  "mentions": [
+    "A116386"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 2000,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

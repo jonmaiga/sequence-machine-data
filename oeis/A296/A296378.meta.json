@@ -1,0 +1,22 @@
+{
+  "description": "Fibonacci numbers that can be expressed as a sum of two or more Fibonacci numbers such that no digit appears more than once in the equation.",
+  "id": "A296378",
+  "mentions": [
+    "A010784",
+    "A263448"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

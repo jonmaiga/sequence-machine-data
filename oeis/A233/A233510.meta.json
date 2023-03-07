@@ -1,0 +1,18 @@
+{
+  "description": "Least number k such that the number of iterations of h(m) = (greatest prime divisor of m) - (least prime divisor of m) that map k to 0 is n; see Comments.",
+  "id": "A233510",
+  "mentions": [
+    "A231813"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

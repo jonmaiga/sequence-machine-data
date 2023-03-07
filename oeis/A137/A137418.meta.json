@@ -1,0 +1,20 @@
+{
+  "description": "Limiting sequence when we start with positive integers (A000027) and at step n >= 1 add to the term at position n + digitsum(a(n)) the value digitsum(a(n)).",
+  "id": "A137418",
+  "mentions": [
+    "A000027",
+    "A007953"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

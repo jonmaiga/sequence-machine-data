@@ -1,0 +1,22 @@
+{
+  "description": "Levels of Narayana tree written as rows of an irregular triangle.",
+  "id": "A257234",
+  "mentions": [
+    "A000930",
+    "A058278",
+    "A097333"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 126,
+    "source": "oeis-entry"
+  }
+}

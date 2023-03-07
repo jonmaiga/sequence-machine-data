@@ -1,0 +1,33 @@
+{
+  "description": "A triangle related to the a(n) formulas for the rows of the ED2 array A167560.",
+  "id": "A167565",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000142",
+    "A000292",
+    "A003148",
+    "A005359",
+    "A005843",
+    "A007318",
+    "A104249",
+    "A167560",
+    "A167561",
+    "A167562",
+    "A167563",
+    "A167566",
+    "A167567",
+    "A168304"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

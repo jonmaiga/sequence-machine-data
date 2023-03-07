@@ -1,0 +1,23 @@
+{
+  "description": "Characteristic function of positive integers not prime and not a power of 2.",
+  "id": "A202238",
+  "mentions": [
+    "A010051",
+    "A111774",
+    "A111775",
+    "A111787",
+    "A209229"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

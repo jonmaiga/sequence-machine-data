@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct numbers such that a(n-1)+a(n) is not prime.",
+  "id": "A253074",
+  "mentions": [
+    "A010051",
+    "A055266",
+    "A253073",
+    "A254337"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

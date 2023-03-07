@@ -1,0 +1,20 @@
+{
+  "description": "Smallest member of sociable quadruples with signature: abundant, deficient, abundant, deficient.",
+  "id": "A222977",
+  "mentions": [
+    "A090615",
+    "A222975",
+    "A222976",
+    "A222978"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

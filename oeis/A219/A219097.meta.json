@@ -1,0 +1,23 @@
+{
+  "description": "Parity of pi(2^n).",
+  "id": "A219097",
+  "mentions": [
+    "A000035",
+    "A006880",
+    "A007053",
+    "A071986",
+    "A131378",
+    "A219071"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways of placing n nonattacking range-3 leprechauns on an n X n board.",
+  "id": "A343905",
+  "mentions": [
+    "A000170",
+    "A051223",
+    "A343907"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

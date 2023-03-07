@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of the 2n-th raw moment for distribution of distances between two points picked at random in the interior of a unit cube.",
+  "id": "A160693",
+  "mentions": [
+    "A160694"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

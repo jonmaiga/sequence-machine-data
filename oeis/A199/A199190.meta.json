@@ -1,0 +1,19 @@
+{
+  "description": "Least integer having a larger digital sum than the previous term and such that 10^(n-1) + a(n) is a prime.",
+  "id": "A199190",
+  "mentions": [
+    "A051885",
+    "A199124"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Decimal expansion of the sum of the reciprocals of the squares of the zeros of the digamma function.",
+  "id": "A344964",
+  "mentions": [
+    "A001620",
+    "A030169",
+    "A102753",
+    "A175472",
+    "A175473",
+    "A175474",
+    "A256681",
+    "A256682",
+    "A256683",
+    "A256684",
+    "A256685",
+    "A256686",
+    "A256687",
+    "A344965",
+    "A344966",
+    "A344967",
+    "A344968"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

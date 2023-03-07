@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways in which each hand can be obtained in a game of 5-card poker, starting with the most probable category.",
+  "id": "A216076",
+  "mentions": [
+    "A002761",
+    "A002806",
+    "A002847"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

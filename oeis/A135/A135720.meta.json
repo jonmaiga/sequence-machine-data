@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = smallest Carmichael numbers (A002997) with n-th prime as smallest prime divisor, or 0 if no such number exists.",
+  "id": "A135720",
+  "mentions": [
+    "A002997",
+    "A006931",
+    "A135717",
+    "A135719",
+    "A135721",
+    "A141705"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 2,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

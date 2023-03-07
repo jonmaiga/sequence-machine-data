@@ -1,0 +1,21 @@
+{
+  "description": "a(0) = 0, a(1) = 1, and b = a(n-2) + a(n-1). a(n) = b if b is a prime; otherwise a(n) = a(n-1) and a(n-1) = b.",
+  "id": "A346957",
+  "mentions": [
+    "A000045",
+    "A005478",
+    "A072999",
+    "A083698"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

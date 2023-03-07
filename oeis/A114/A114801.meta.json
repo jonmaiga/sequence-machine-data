@@ -1,0 +1,21 @@
+{
+  "description": "2-concatenation-free sequence starting (1,2).",
+  "id": "A114801",
+  "mentions": [
+    "A033627",
+    "A084383"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

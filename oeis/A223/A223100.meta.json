@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX4 0..2 arrays with exactly floor(nX4/2) elements equal to at least one horizontal or antidiagonal neighbor, with new values introduced in row major 0..2 order",
+  "id": "A223100",
+  "mentions": [
+    "A223104"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

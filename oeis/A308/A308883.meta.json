@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = position of 1 in n-th column of array in A274630.",
+  "id": "A308883",
+  "mentions": [
+    "A274630",
+    "A307281",
+    "A308201"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

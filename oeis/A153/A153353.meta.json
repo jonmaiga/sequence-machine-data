@@ -1,0 +1,23 @@
+{
+  "description": "List of pairs of concatenated adjacent primes [p(n),p(n+1)] such that the concatenation is divisible by n.",
+  "id": "A153353",
+  "mentions": [
+    "A000040",
+    "A007795",
+    "A045533",
+    "A055642",
+    "A095958",
+    "A125085"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

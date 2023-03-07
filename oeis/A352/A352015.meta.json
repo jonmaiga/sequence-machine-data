@@ -1,0 +1,36 @@
+{
+  "description": "Square array read by antidiagonals upwards: T(n,k) is the n-th number m such that the symmetric representation of sigma(m) has at least one subpart k, with n >= 1, k >= 1, m >= 1.",
+  "id": "A352015",
+  "mentions": [
+    "A000203",
+    "A000384",
+    "A001227",
+    "A196020",
+    "A235791",
+    "A236104",
+    "A237270",
+    "A237271",
+    "A237591",
+    "A237593",
+    "A279387",
+    "A280850",
+    "A280851",
+    "A296508",
+    "A346875",
+    "A347529",
+    "A351819",
+    "A351904"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

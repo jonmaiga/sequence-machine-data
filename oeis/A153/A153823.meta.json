@@ -1,0 +1,22 @@
+{
+  "description": "Number of proper divisors of n!.",
+  "id": "A153823",
+  "mentions": [
+    "A000005",
+    "A000142",
+    "A027423",
+    "A032741",
+    "A153825"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

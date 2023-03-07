@@ -1,0 +1,19 @@
+{
+  "description": "Nonnegative integers whose trajectory under iteration of taking the absolute value of the alternating sum of the squares of the digits (A257588) includes zero.",
+  "id": "A345680",
+  "mentions": [
+    "A007770",
+    "A257588"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

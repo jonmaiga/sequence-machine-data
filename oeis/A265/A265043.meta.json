@@ -1,0 +1,21 @@
+{
+  "description": "The n-th Champernowne prime (A176942) is found by concatenating the successive digits of the numbers 1,2,3,...,a(n) and possibly dropping some of final digits of a(n).",
+  "id": "A265043",
+  "mentions": [
+    "A007908",
+    "A071620",
+    "A176942"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

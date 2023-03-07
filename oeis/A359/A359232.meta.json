@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest centered square number divisible by exactly n centered square numbers.",
+  "id": "A359232",
+  "mentions": [
+    "A001844",
+    "A130279",
+    "A300410",
+    "A358545",
+    "A358861",
+    "A359231"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

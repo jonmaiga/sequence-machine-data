@@ -1,0 +1,25 @@
+{
+  "description": "Recurrence sequence a(n)=a(n-1)^2-a(n-1)-1, a(0)=3.",
+  "id": "A144743",
+  "mentions": [
+    "A000058",
+    "A082732",
+    "A130282",
+    "A144744",
+    "A144745",
+    "A144746",
+    "A144747",
+    "A144748"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

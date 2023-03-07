@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of binomial coefficients C(n,k), with 0<=k<=n, that are not practical.",
+  "id": "A334082",
+  "mentions": [
+    "A005153",
+    "A007318",
+    "A334083",
+    "A334084"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

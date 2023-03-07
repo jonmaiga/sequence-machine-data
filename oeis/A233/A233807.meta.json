@@ -1,0 +1,22 @@
+{
+  "description": "Number of tilings of an n X n square using right trominoes and at most one monomino.",
+  "id": "A233807",
+  "mentions": [
+    "A000105",
+    "A219874",
+    "A219952",
+    "A219975",
+    "A219994",
+    "A220061"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

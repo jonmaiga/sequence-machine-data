@@ -1,0 +1,30 @@
+{
+  "description": "Triangle of denominators of harmonic mean of n and m, 1 <= m <= n.",
+  "id": "A227042",
+  "mentions": [
+    "A000265",
+    "A026741",
+    "A106619",
+    "A221918",
+    "A221919",
+    "A227041",
+    "A227108",
+    "A227140",
+    "A277041"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

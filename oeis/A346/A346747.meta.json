@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f.: exp( (x * exp(x) + sinh(x)) / 2 ).",
+  "id": "A346747",
+  "mentions": [
+    "A000248",
+    "A003724",
+    "A110654",
+    "A346746",
+    "A346748"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with all different digits such that each digit leaves the same nonzero remainder when each is divided into the number.",
+  "id": "A152852",
+  "mentions": [
+    "A152824"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

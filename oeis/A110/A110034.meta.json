@@ -1,0 +1,21 @@
+{
+  "description": "Row sums of a characteristic triangle for the Fibonacci numbers.",
+  "id": "A110034",
+  "mentions": [
+    "A061646",
+    "A098149",
+    "A110033"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:41:09",
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into an odd number of cubes.",
+  "id": "A339421",
+  "mentions": [
+    "A000578",
+    "A023358",
+    "A166444",
+    "A323633",
+    "A339369",
+    "A339419",
+    "A339420"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

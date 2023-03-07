@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = the number of divisors of n that are each one less than a power of a prime.",
+  "id": "A141197",
+  "mentions": [
+    "A000005",
+    "A010055",
+    "A027750",
+    "A049073",
+    "A067513",
+    "A141198",
+    "A185208"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:29",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

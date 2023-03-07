@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=1, a(n+1) = a(n)/gcd(a(n),n) if this GCD is > 1, else a(n+1) = a(n) + n + 1.",
+  "id": "A255051",
+  "mentions": [
+    "A133058",
+    "A255140"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:07:59",
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

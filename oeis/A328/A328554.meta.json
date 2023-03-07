@@ -1,0 +1,18 @@
+{
+  "description": "Coefficients in Göttsche's universal power series B_1(q) arising from enumeration of d-nodal curves in a linear system of dimension d on an algebraic surface.",
+  "id": "A328554",
+  "mentions": [
+    "A328555"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

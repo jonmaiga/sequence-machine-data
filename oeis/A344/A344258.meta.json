@@ -1,0 +1,20 @@
+{
+  "description": "Integers m for which F (mod m) does not have rotational symmetry although F (mod k) does have rotational symmetry for all factors k of m.",
+  "id": "A344258",
+  "mentions": [
+    "A000045",
+    "A001175",
+    "A275124",
+    "A344281"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Array where n-th row contains the primes < n and coprime to n.",
+  "id": "A112484",
+  "mentions": [
+    "A005408",
+    "A038566",
+    "A048865",
+    "A053669"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 3,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 0; for n >= 1, a(n) = 1 + a(n-A009191(n)).",
+  "id": "A327715",
+  "mentions": [
+    "A000005",
+    "A009191",
+    "A155043"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

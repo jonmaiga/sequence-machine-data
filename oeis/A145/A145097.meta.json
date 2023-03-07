@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the largest proper divisor of the Mersenne composite A065341(n).",
+  "id": "A145097",
+  "mentions": [
+    "A065341",
+    "A135975",
+    "A135980",
+    "A136031",
+    "A145099"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

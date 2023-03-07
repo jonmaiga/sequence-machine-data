@@ -1,0 +1,34 @@
+{
+  "description": "Number of strict integer partitions of n whose first differences (assuming the last part is zero) are unimodal.",
+  "id": "A332285",
+  "mentions": [
+    "A000009",
+    "A001523",
+    "A007052",
+    "A011782",
+    "A025065",
+    "A072706",
+    "A115981",
+    "A227038",
+    "A332280",
+    "A332282",
+    "A332283",
+    "A332284",
+    "A332286",
+    "A332287",
+    "A332288",
+    "A332577",
+    "A332638",
+    "A332642"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

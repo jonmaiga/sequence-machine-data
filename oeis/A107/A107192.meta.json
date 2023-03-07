@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form x^2 + 80y^2.",
+  "id": "A107192",
+  "mentions": [
+    "A106856",
+    "A107132"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

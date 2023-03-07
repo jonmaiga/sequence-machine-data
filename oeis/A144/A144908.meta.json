@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers n such that sqrt(n) > A144907(n) and absolute normalized digital mean |dm(b, n) * 2 / (b - 1)| decreases for b in [2, k] for some k > 2.",
+  "id": "A144908",
+  "mentions": [
+    "A144100",
+    "A144777",
+    "A144907"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Triangle T(n,k) = 2*n-k, read by rows.",
+  "id": "A128076",
+  "mentions": [
+    "A000027",
+    "A000326",
+    "A002024",
+    "A002260",
+    "A003056",
+    "A004736",
+    "A094727",
+    "A105020",
+    "A128064",
+    "A131914",
+    "A209304"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n, k, q) = c(n, q)/(c(k, q)*c(n-k, q)) where c(n,q) = Product_{j=1..n} (q^j -1)^(n-j) and q = 3, read by rows.",
+  "id": "A173504",
+  "mentions": [
+    "A173503",
+    "A173505"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

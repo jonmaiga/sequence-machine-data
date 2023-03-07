@@ -1,0 +1,20 @@
+{
+  "description": "Given a row of n payphones (or phone booths), all initially unused, how many ways are there for n people to choose the payphones, assuming each always chooses one of the most distant payphones from those in use already? We consider here only the distance to the closest neighbor (in contrast to A095236).",
+  "id": "A358056",
+  "mentions": [
+    "A095236",
+    "A095698",
+    "A166079"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

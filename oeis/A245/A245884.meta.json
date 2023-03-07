@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Gamma(5/2), where Gamma is Euler's gamma function.",
+  "id": "A245884",
+  "mentions": [
+    "A019704",
+    "A245885"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

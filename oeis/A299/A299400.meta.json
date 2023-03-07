@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = concatenation of all (i, e_i) with e_i > 0, when n = Product_{i >= 1} prime(i)^e_i.",
+  "id": "A299400",
+  "mentions": [
+    "A037276",
+    "A054841",
+    "A067255",
+    "A067599",
+    "A080670",
+    "A124010"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

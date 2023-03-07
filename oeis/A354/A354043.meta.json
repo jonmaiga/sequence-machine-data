@@ -1,0 +1,19 @@
+{
+  "description": "Table read by rows: T(n, k) = (-1)^(n-k)*F(n, k)/k!, where F are the Faulhaber numbers A354042.",
+  "id": "A354043",
+  "mentions": [
+    "A354042",
+    "A354045"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

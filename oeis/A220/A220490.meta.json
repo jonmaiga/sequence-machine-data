@@ -1,0 +1,18 @@
+{
+  "description": "The largest n-digit number whose last k digits are divisible by k for k = 1..n.",
+  "id": "A220490",
+  "mentions": [
+    "A164836"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

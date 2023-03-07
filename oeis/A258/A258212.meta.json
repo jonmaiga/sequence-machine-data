@@ -1,0 +1,35 @@
+{
+  "description": "Irregular triangle (or \"lower Wythoff tree\", or Beatty tree for r = golden ratio ), T, of all nonnegative integers, each exactly once, as determined from the lower Wythoff sequence as described in Comments.",
+  "id": "A258212",
+  "mentions": [
+    "A000201",
+    "A001950",
+    "A258215",
+    "A258235",
+    "A258236",
+    "A258237",
+    "A258238",
+    "A258239",
+    "A258240",
+    "A258241",
+    "A258242",
+    "A258243",
+    "A258244",
+    "A258245",
+    "A258246",
+    "A258247",
+    "A258248"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

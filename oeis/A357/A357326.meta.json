@@ -1,0 +1,20 @@
+{
+  "description": "Weird untouchable numbers.",
+  "id": "A357326",
+  "mentions": [
+    "A001065",
+    "A005101",
+    "A005114",
+    "A006037"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

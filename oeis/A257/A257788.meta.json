@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n^3+prime(n) and n^3-prime(n) are prime.",
+  "id": "A257788",
+  "mentions": [
+    "A141526",
+    "A212881"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

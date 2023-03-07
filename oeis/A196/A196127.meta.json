@@ -1,0 +1,19 @@
+{
+  "description": "Union of p-1, 2p-1 and 3p-1 where p is a prime (without repetition).",
+  "id": "A196127",
+  "mentions": [
+    "A006093",
+    "A076274"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of partitions of n into semiprimes (a(0) = 1 by convention).",
+  "id": "A101048",
+  "mentions": [
+    "A000041",
+    "A000607",
+    "A001358",
+    "A002095",
+    "A002100",
+    "A064911",
+    "A101049",
+    "A112020",
+    "A112021",
+    "A344447"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

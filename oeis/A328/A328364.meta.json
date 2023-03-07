@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the smallest number m such that the sum of the digits of m^5 is equal to n^5.",
+  "id": "A328364",
+  "mentions": [
+    "A000584",
+    "A055566",
+    "A061912",
+    "A067075",
+    "A069648",
+    "A286650",
+    "A328374"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n! * Sum_{k=0..floor(n/3)} (n - 3*k)^k/(6^k * (n - 3*k)!).",
+  "id": "A356328",
+  "mentions": [
+    "A354436",
+    "A354551",
+    "A356029",
+    "A356608",
+    "A356629",
+    "A356633"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Divisors of 33550336, the 5th perfect number.",
+  "id": "A133025",
+  "mentions": [
+    "A000043",
+    "A000079",
+    "A000396",
+    "A000668",
+    "A018254",
+    "A018487",
+    "A061645",
+    "A133033",
+    "A135655"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

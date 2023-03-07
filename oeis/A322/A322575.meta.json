@@ -1,0 +1,18 @@
+{
+  "description": "z(1) = 0, and for any n > 0, z(4*n-2) = z(n) + k(n), z(4*n-1) = z(n) + i*k(n), z(4*n) = z(n) - k(n) and z(4*n+1) = z(n) - i*k(n) where k(n) is the least positive integer not leading to a duplicate term in sequence z (and i denotes the imaginary unit); a(n) is the imaginary part of z(n).",
+  "id": "A322575",
+  "mentions": [
+    "A322574"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

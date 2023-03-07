@@ -1,0 +1,18 @@
+{
+  "description": "The q-series expansion of an expression related to fermionic systems.",
+  "id": "A257949",
+  "mentions": [
+    "A004009",
+    "A006352"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

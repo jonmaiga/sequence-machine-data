@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that sigma(sigma(n))/sigma(n) > sigma(sigma(m))/sigma(m) for all m < n.",
+  "id": "A289124",
+  "mentions": [
+    "A000203",
+    "A051027",
+    "A066961"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

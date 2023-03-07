@@ -1,0 +1,28 @@
+{
+  "description": "Number of series-reduced locally nonintersecting rooted identity trees whose leaves form an integer partition of n.",
+  "id": "A316770",
+  "mentions": [
+    "A000081",
+    "A000669",
+    "A001678",
+    "A141268",
+    "A292504",
+    "A316500",
+    "A316651",
+    "A316652",
+    "A316655",
+    "A316696",
+    "A316768"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

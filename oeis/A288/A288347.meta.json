@@ -1,0 +1,20 @@
+{
+  "description": "Median of X^2 + Y^2 where X and Y are independent random variables with B(n, 1/2) distributions.",
+  "id": "A288347",
+  "mentions": [
+    "A000217",
+    "A001481",
+    "A288346",
+    "A288416"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:01",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

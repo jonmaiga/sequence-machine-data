@@ -1,0 +1,21 @@
+{
+  "description": "Length of optimal Wichmann rulers.",
+  "id": "A193802",
+  "mentions": [
+    "A004137",
+    "A103294",
+    "A193803"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

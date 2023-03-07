@@ -1,0 +1,18 @@
+{
+  "description": "Number of C4-free graphs (graphs with no induced cycle of length four) with n nodes.",
+  "id": "A352068",
+  "mentions": [
+    "A079566"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

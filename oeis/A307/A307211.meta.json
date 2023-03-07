@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = the \"maximum first open number\" for prime(n).",
+  "id": "A307211",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A005867"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

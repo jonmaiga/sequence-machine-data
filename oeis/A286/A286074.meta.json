@@ -1,0 +1,24 @@
+{
+  "description": "Number of permutations of [n] with nondecreasing cycle sizes.",
+  "id": "A286074",
+  "mentions": [
+    "A133872",
+    "A275311",
+    "A286071",
+    "A286072",
+    "A286073",
+    "A286075",
+    "A286076",
+    "A286077"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

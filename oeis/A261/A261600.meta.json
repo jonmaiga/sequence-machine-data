@@ -1,0 +1,22 @@
+{
+  "description": "Number of primitive (aperiodic, or Lyndon) necklaces with n beads such that beads of a largest subset have label 0, beads of a largest remaining subset have label 1, and so on.",
+  "id": "A261600",
+  "mentions": [
+    "A000011",
+    "A072605",
+    "A247551",
+    "A261531",
+    "A261599"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

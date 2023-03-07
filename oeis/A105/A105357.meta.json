@@ -1,0 +1,19 @@
+{
+  "description": "Rearrangement of positive integers: parity of a[n] is opposite to parity of n-th digit of decimal expansion of Pi (see comments).",
+  "id": "A105357",
+  "mentions": [
+    "A105353",
+    "A105360"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

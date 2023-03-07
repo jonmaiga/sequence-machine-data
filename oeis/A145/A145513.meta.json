@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions of 10^n into powers of 10.",
+  "id": "A145513",
+  "mentions": [
+    "A002577",
+    "A007318",
+    "A011557",
+    "A078125",
+    "A145515",
+    "A179051",
+    "A179052"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

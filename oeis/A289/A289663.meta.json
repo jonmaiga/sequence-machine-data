@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the largest m such that p = n-th popular prime = A124661(n) is first popular on the interval [2,m].",
+  "id": "A289663",
+  "mentions": [
+    "A006530",
+    "A124661",
+    "A289661",
+    "A289665"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

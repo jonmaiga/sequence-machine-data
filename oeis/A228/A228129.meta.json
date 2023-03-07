@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = number of semistandard Young tableau families, headed by a father SSYT, containing daughter SSYT of shape equal to once-trimmed father's shape, so that union of families equals all SSYT with sum of entries n.",
+  "id": "A228129",
+  "mentions": [
+    "A228125",
+    "A228128"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

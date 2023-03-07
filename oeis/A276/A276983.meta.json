@@ -1,0 +1,21 @@
+{
+  "description": "Semiprimes n such that n-1 or n+1 is prime.",
+  "id": "A276983",
+  "mentions": [
+    "A001358",
+    "A077065",
+    "A077068",
+    "A120628"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

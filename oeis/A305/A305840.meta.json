@@ -1,0 +1,20 @@
+{
+  "description": "Product_{n>=1} (1 + x^n)^a(n) = g.f. of A005169 (fountains of coins).",
+  "id": "A305840",
+  "mentions": [
+    "A005169",
+    "A226999",
+    "A347901"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

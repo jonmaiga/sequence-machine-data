@@ -1,0 +1,26 @@
+{
+  "description": "3-gap primes: Prime p is a term iff there is no prime between 3*p and 3*q, where q is the next prime after p.",
+  "id": "A195270",
+  "mentions": [
+    "A080192",
+    "A164288",
+    "A164294",
+    "A164368",
+    "A193507",
+    "A194186",
+    "A194598",
+    "A194658",
+    "A194659",
+    "A194674"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number with exactly n representations as a sum of six nonnegative squares.",
+  "id": "A295494",
+  "mentions": [
+    "A000177",
+    "A295159"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

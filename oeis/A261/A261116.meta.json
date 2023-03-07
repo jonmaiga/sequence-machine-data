@@ -1,0 +1,22 @@
+{
+  "description": "Pairs of integers (a,b) such a^2 + (a+1)^2 = b^2.",
+  "id": "A261116",
+  "mentions": [
+    "A001652",
+    "A001653",
+    "A260819"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

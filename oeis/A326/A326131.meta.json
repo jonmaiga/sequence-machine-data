@@ -1,0 +1,31 @@
+{
+  "description": "Positive numbers n for which A000120(n) = k*A294898(n), with k < 0; numbers for which A326130(n) = sigma(n) - A005187(n).",
+  "id": "A326131",
+  "mentions": [
+    "A000120",
+    "A000396",
+    "A005187",
+    "A294898",
+    "A295296",
+    "A295297",
+    "A295298",
+    "A295299",
+    "A325981",
+    "A326130",
+    "A326132",
+    "A326133",
+    "A326138",
+    "A326141"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = sum of unsigned coefficients in (1+x+x^2-x^3)^n.",
+  "id": "A192210",
+  "mentions": [
+    "A084611",
+    "A084613",
+    "A084615",
+    "A084775",
+    "A084776",
+    "A084777",
+    "A084778",
+    "A084779",
+    "A084780",
+    "A192205"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

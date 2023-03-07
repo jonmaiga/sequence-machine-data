@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A352996(k) is prime.",
+  "id": "A352997",
+  "mentions": [
+    "A000217",
+    "A001414",
+    "A352996"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

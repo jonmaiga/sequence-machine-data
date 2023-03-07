@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that 1 + Sum_{j=1..k} prime(j)^2 is prime.",
+  "id": "A277123",
+  "mentions": [
+    "A000040",
+    "A013916",
+    "A089228",
+    "A131694",
+    "A159260"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

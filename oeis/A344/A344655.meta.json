@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A032741(k-1)+A065608(k+1) is divisible by k.",
+  "id": "A344655",
+  "mentions": [
+    "A032741",
+    "A065608"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

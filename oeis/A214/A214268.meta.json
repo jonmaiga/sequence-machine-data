@@ -1,0 +1,27 @@
+{
+  "description": "Number A(n,k) of compositions of n where the difference between largest and smallest parts is <= k and adjacent parts are unequal; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A214268",
+  "mentions": [
+    "A000012",
+    "A003242",
+    "A214246",
+    "A214247",
+    "A214248",
+    "A214249",
+    "A214257",
+    "A214258",
+    "A214269",
+    "A214270"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

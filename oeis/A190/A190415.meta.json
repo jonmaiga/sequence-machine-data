@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of sum over lower triangular subarray of array G defined at A190404.",
+  "id": "A190415",
+  "mentions": [
+    "A000027",
+    "A190404",
+    "A190412"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 0,
+    "size": 112,
+    "source": "oeis-bfile"
+  }
+}

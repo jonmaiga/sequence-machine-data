@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{d|n} (n/d) * floor(n/d^2).",
+  "id": "A344405",
+  "mentions": [
+    "A344128",
+    "A344403",
+    "A344404"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

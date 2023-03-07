@@ -1,0 +1,30 @@
+{
+  "description": "Number of distinct frequencies in the frequency span of n.",
+  "id": "A325759",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A056239",
+    "A071625",
+    "A112798",
+    "A181819",
+    "A182857",
+    "A296150",
+    "A323014",
+    "A325249",
+    "A325277",
+    "A325757",
+    "A325758",
+    "A325760"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

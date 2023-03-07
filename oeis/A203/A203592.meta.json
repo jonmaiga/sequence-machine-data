@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers such that each digit is the sum of two or more other digits.",
+  "id": "A203592",
+  "mentions": [
+    "A203591"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

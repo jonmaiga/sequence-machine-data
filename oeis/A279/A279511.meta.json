@@ -1,0 +1,22 @@
+{
+  "description": "Sierpinski square-based pyramid numbers: a(n) = 5*a(n-1) - (2^(n+1)+7).",
+  "id": "A279511",
+  "mentions": [
+    "A000330",
+    "A047999",
+    "A052539",
+    "A279512"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:47",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

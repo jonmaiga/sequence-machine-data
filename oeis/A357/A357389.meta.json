@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the start of the least run of exactly n consecutive positive integers with strictly increasing values of A071626, or -1 if no such run exists.",
+  "id": "A357389",
+  "mentions": [
+    "A071626",
+    "A342091",
+    "A357388",
+    "A357391"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

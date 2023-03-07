@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n^2 + 2*n + 3.",
+  "id": "A102305",
+  "mentions": [
+    "A010000",
+    "A027578",
+    "A059100"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:55:35",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

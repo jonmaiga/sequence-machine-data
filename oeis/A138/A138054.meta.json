@@ -1,0 +1,21 @@
+{
+  "description": "Levels of substitution A059832 taken as polynomials p(x,n)]and coefficients of the differential polynomials returned as q(x,n) =dp(x,n)dx coefficients. ( first three zeros omitted).",
+  "id": "A138054",
+  "mentions": [
+    "A059832",
+    "A105256"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

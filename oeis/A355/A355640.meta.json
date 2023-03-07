@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = 0, and for any n > 0, a(n) is the least positive multiple of n whose balanced ternary expansion contains as many negative trits as positive trits.",
+  "id": "A355640",
+  "mentions": [
+    "A065363",
+    "A143146",
+    "A174658",
+    "A355639"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

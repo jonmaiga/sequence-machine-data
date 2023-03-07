@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the solution to x = sqrt(5 + sqrt(5 - sqrt(5 - sqrt(5 + x)))).",
+  "id": "A318709",
+  "mentions": [
+    "A286984"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:49:15",
+    "offset": 1,
+    "size": 78,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that k is divisible by the sum of digits of all the divisors of k in factorial base (A319712).",
+  "id": "A333622",
+  "mentions": [
+    "A007623",
+    "A034968",
+    "A093705",
+    "A319712",
+    "A333617",
+    "A333619",
+    "A333620",
+    "A333623"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

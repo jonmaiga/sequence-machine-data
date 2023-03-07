@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the smallest positive integer k such that k > n and A071364(k) = A071364(n).",
+  "id": "A357126",
+  "mentions": [
+    "A000961",
+    "A003961",
+    "A065642",
+    "A071364",
+    "A081382",
+    "A081761"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

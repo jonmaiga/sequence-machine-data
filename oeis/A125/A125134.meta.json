@@ -1,0 +1,22 @@
+{
+  "description": "\"Brazilian\" numbers (\"les nombres brésiliens\" in French): numbers n such that there is a natural number b with 1 < b < n-1 such that the representation of n in base b has all equal digits.",
+  "id": "A125134",
+  "mentions": [
+    "A085104",
+    "A190300",
+    "A257521"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

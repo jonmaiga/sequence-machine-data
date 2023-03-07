@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 441n^2 + 2n.",
+  "id": "A158321",
+  "mentions": [
+    "A157740",
+    "A157741",
+    "A158322"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

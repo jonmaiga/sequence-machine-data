@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that p is a primitive root modulo the next prime p' and also p' is a primitive root modulo p.",
+  "id": "A243755",
+  "mentions": [
+    "A000040",
+    "A243164",
+    "A243403"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

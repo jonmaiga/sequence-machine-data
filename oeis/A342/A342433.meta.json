@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{k=1..n} gcd(k,n)^(n-1).",
+  "id": "A342433",
+  "mentions": [
+    "A000010",
+    "A000272",
+    "A321349",
+    "A332517",
+    "A332621",
+    "A342432",
+    "A343510"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

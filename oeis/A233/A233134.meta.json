@@ -1,0 +1,31 @@
+{
+  "description": "Prime(k), where k is such that (1 + Sum_{j=1..k} prime(j)^10) / k is an integer.",
+  "id": "A233134",
+  "mentions": [
+    "A007504",
+    "A024450",
+    "A045345",
+    "A050247",
+    "A050248",
+    "A085450",
+    "A111441",
+    "A128165",
+    "A128166",
+    "A171399",
+    "A217599",
+    "A217600",
+    "A217601",
+    "A233523",
+    "A233862"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

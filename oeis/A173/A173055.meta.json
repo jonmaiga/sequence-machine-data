@@ -1,0 +1,18 @@
+{
+  "description": "Numbers of the form a^b+b^a, a and b are odd primes, b > a.",
+  "id": "A173055",
+  "mentions": [
+    "A076980",
+    "A173054"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

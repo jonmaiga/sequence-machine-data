@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of paths of length n in the first quadrant, starting at the origin, ending at height k and consisting of 2 kind of upsteps U=(1,1) (U1 and U2), 3 kind of flatsteps F=(1,0) (F1, F2 and F3) and 1 kind of downsteps D=(1,-1).",
+  "id": "A134426",
+  "mentions": [
+    "A001003",
+    "A134425"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

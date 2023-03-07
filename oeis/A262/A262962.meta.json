@@ -1,0 +1,20 @@
+{
+  "description": "Prime p such that 2^p + 35 is also prime.",
+  "id": "A262962",
+  "mentions": [
+    "A000040",
+    "A220077",
+    "A262098"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

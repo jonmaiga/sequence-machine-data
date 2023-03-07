@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of 'delta', a constant arising in the asymptotics of the regularized product of the Fibonacci numbers.",
+  "id": "A241990",
+  "mentions": [
+    "A062073"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

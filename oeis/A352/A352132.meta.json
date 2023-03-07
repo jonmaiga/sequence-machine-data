@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k, k+4, 3*k+4 and 3*k+8 are all semiprimes.",
+  "id": "A352132",
+  "mentions": [
+    "A001358",
+    "A174920",
+    "A175648"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m > 5 such that x^m + x^5 + 1 is irreducible over GF(2) while x^m + x^5 + x^4 + x + 1 = x^m + (x + 1)^5 is not.",
+  "id": "A344197",
+  "mentions": [
+    "A344177",
+    "A344198",
+    "A344199",
+    "A344200"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

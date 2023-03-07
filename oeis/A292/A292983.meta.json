@@ -1,0 +1,20 @@
+{
+  "description": "Bi-unitary highly abundant numbers: numbers n such that bsigma(n) > bsigma(m) for all m < n, where bsigma is the sum of the bi-unitary divisors function (A188999).",
+  "id": "A292983",
+  "mentions": [
+    "A000203",
+    "A002093",
+    "A188999",
+    "A285614"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

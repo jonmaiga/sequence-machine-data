@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 2*prime(k)+1, 2*prime(k+1)+1, 2*prime(k+2)+3 and 2*prime(k+3)-3 are also consecutive primes.",
+  "id": "A103912",
+  "mentions": [
+    "A103911",
+    "A103913"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

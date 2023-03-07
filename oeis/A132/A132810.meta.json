@@ -1,0 +1,20 @@
+{
+  "description": "Smallest sum of n consecutive odd primes which is a multiple of n.",
+  "id": "A132810",
+  "mentions": [
+    "A132809",
+    "A132811"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Least h such that n divides the h-th difference between distinct numbers ceiling(j^2/2); the differences are ordered as in A205392.",
+  "id": "A205393",
+  "mentions": [
+    "A204892",
+    "A205392",
+    "A205394"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:33:57",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

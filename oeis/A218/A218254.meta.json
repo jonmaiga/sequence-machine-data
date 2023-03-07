@@ -1,0 +1,24 @@
+{
+  "description": "Irregular table, where row n (n >= 0) starts with n, the next term is n-A000120(n), and the successive terms are obtained by repeatedly subtracting the number of 1's in the previous term's binary expansion, until zero is reached, after which the next row starts with one larger n.",
+  "id": "A218254",
+  "mentions": [
+    "A000120",
+    "A071542",
+    "A179016",
+    "A213707",
+    "A218252",
+    "A218253"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

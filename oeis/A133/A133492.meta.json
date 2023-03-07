@@ -1,0 +1,18 @@
+{
+  "description": "Primorial numbers raised to the power of 2^n (where n is a nonnegative integer), sorted.",
+  "id": "A133492",
+  "mentions": [
+    "A000079",
+    "A002110"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=1, a(2)=2. Thereafter, if there are prime divisors p of a(n-1) which do not divide a(n-2), a(n) is the greatest least multiple of any such p which has not already occurred. Otherwise a(n) is the least novel multiple of the squarefree kernel of a(n-1). (see comments).",
+  "id": "A357994",
+  "mentions": [
+    "A001221",
+    "A064413",
+    "A352187",
+    "A357963"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

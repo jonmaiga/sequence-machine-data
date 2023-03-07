@@ -1,0 +1,24 @@
+{
+  "description": "Smallest prime with a run of n strictly increasing digits.",
+  "id": "A108471",
+  "mentions": [
+    "A053546",
+    "A071362",
+    "A104799",
+    "A104801",
+    "A108491"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

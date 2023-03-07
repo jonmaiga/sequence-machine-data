@@ -1,0 +1,19 @@
+{
+  "description": "Semiprimes m = p*q where m, p and q are in A033638 (locations of right angle turns in Ulam square spiral).",
+  "id": "A331997",
+  "mentions": [
+    "A001358",
+    "A033638",
+    "A172979"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

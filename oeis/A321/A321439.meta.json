@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that if j is the sum of the first prime(k) primes then the sum of the first j primes is prime.",
+  "id": "A321439",
+  "mentions": [
+    "A007504",
+    "A013916",
+    "A321342",
+    "A321343"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

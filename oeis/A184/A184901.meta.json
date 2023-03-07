@@ -1,0 +1,20 @@
+{
+  "description": "n+floor(ns/r)+floor(nt/r), where r=(1+sqrt(5))/2, s=r+1, t=r+2.",
+  "id": "A184901",
+  "mentions": [
+    "A016789",
+    "A184812",
+    "A184903"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:23:01",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

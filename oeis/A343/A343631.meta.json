@@ -1,0 +1,24 @@
+{
+  "description": "X-coordinate of the points following the 3D spiral defined in A343630.",
+  "id": "A343631",
+  "mentions": [
+    "A004215",
+    "A005875",
+    "A342561",
+    "A343630",
+    "A343632",
+    "A343633",
+    "A343640",
+    "A343641"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 110,
+    "source": "oeis-entry"
+  }
+}

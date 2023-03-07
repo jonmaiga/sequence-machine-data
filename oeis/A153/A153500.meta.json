@@ -1,0 +1,29 @@
+{
+  "description": "First 3 terms coincide with A152756. For n>3, a(n) is the palindromic number formed from concatenation of 1, 0, A147759(n-3), 0, A147759(n-3), 0 and 1.",
+  "id": "A153500",
+  "mentions": [
+    "A135577",
+    "A138146",
+    "A144564",
+    "A147759",
+    "A152576",
+    "A152756",
+    "A152764",
+    "A153497",
+    "A153498",
+    "A153499"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:20:43",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n*a(n-1) + n^(n mod 2), a(0) = 0.",
+  "id": "A344419",
+  "mentions": [
+    "A000142",
+    "A001113",
+    "A073743",
+    "A137204",
+    "A155521",
+    "A344262",
+    "A344418"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

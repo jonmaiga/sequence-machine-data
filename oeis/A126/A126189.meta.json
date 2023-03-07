@@ -1,0 +1,18 @@
+{
+  "description": "Number of hex trees with n edges and no adjacent vertices of outdegree 2.",
+  "id": "A126189",
+  "mentions": [
+    "A126188"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 16:54:17",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

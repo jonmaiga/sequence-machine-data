@@ -1,0 +1,19 @@
+{
+  "description": "Signature permutation of a Catalan automorphism: row 6 of A122285.",
+  "id": "A131147",
+  "mentions": [
+    "A122285",
+    "A130347",
+    "A131148"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

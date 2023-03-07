@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = smallest k such that SEPSigma^{k}(n)=1, or -1 if no such k exists. Here SEPSigma(m) = (-1)^(Sum_i r_i)*Sum_{d|m} (-1)^(Sum_j Max(r_j))*d =Product_i (Sum_{1<=s_i<=r_i} p_i^s_i)+(-1)^r_i where m=Product_i p_i^r_i, d=Product_j p_j^r_j, p_j^max(r_j) is the largest power of p_j dividing m.",
+  "id": "A125142",
+  "mentions": [
+    "A125140",
+    "A125141",
+    "A126851",
+    "A126852"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = ((n+6) / gcd(n+6,4)) * (n / gcd(n,4)).",
+  "id": "A217366",
+  "mentions": [
+    "A060819",
+    "A181318"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 17:45:35",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

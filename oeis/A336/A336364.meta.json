@@ -1,0 +1,21 @@
+{
+  "description": "Rectangular array by antidiagonals: row n shows the positive integers whose distance to the nearest prime is n.",
+  "id": "A336364",
+  "mentions": [
+    "A000040",
+    "A051699",
+    "A336365",
+    "A337364"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:20",
+    "offset": 1,
+    "size": 61,
+    "source": "joeis"
+  }
+}

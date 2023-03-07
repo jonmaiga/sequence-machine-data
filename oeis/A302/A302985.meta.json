@@ -1,0 +1,37 @@
+{
+  "description": "Number of ordered pairs (x, y) of nonnegative integers such that n - 2^x - 3*2^y has the form u^2 + 2*v^2 with u and v integers.",
+  "id": "A302985",
+  "mentions": [
+    "A000079",
+    "A000290",
+    "A002479",
+    "A271518",
+    "A281976",
+    "A299537",
+    "A299794",
+    "A299924",
+    "A300219",
+    "A300362",
+    "A300396",
+    "A300441",
+    "A301376",
+    "A301391",
+    "A301471",
+    "A301472",
+    "A302920",
+    "A302981",
+    "A302982",
+    "A302983",
+    "A302984"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

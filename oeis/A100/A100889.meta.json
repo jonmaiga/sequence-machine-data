@@ -1,0 +1,20 @@
+{
+  "description": "Real part of the multiplier m of the multiperfect Gaussian integer A100884(n)+i*A100885(n).",
+  "id": "A100889",
+  "mentions": [
+    "A100884",
+    "A100885",
+    "A100890"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

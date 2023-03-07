@@ -1,0 +1,39 @@
+{
+  "description": "Number of integer partitions of n that are either constant or relatively prime.",
+  "id": "A338553",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000837",
+    "A000961",
+    "A007360",
+    "A008284",
+    "A023022",
+    "A023023",
+    "A051424",
+    "A059841",
+    "A078374",
+    "A101271",
+    "A101391",
+    "A282750",
+    "A289509",
+    "A302698",
+    "A304712",
+    "A327516",
+    "A337664",
+    "A338552",
+    "A338554",
+    "A338555"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = number of primes p, p <= 2^n, where 2^n + p is prime.",
+  "id": "A175147",
+  "mentions": [
+    "A007053",
+    "A175148"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "changed",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

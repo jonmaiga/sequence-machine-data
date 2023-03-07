@@ -1,0 +1,21 @@
+{
+  "description": "If n = the k-th prime, then a(n) = the (k+1)th prime. If n = the k-th composite, then a(n) = the (k+1)th composite.",
+  "id": "A139636",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A049084",
+    "A066246",
+    "A139637"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 2,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Minimal permanent of an n X n matrix whose elements are a permutation of the first n^2 prime numbers.",
+  "id": "A350858",
+  "mentions": [
+    "A114533",
+    "A180128",
+    "A350565",
+    "A350859"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

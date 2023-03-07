@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of values k satisfying lambda(k)=n or zero if there is no solution, where lambda(k) is Carmichael's lambda function.",
+  "id": "A321713",
+  "mentions": [
+    "A002322",
+    "A270562",
+    "A321714"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "If n is even, then a(n) = n + bitsum(n), else a(n) = n - bitsum(n), where bitsum(n) is the count of binary 1's in n, A000120.",
+  "id": "A227361",
+  "mentions": [
+    "A000120",
+    "A010061",
+    "A010062",
+    "A055938"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

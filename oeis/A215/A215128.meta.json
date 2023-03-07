@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: Sum_{n>=0} d^n/dx^n (x + x^2)^(2*n) / n!.",
+  "id": "A215128",
+  "mentions": [
+    "A038112",
+    "A214372",
+    "A215125",
+    "A215129"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

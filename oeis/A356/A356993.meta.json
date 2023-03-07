@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = b(n - b(n - b(n - b(n)))))) for n >= 2, where b(n) = A356988(n).",
+  "id": "A356993",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A000285",
+    "A022087",
+    "A356988",
+    "A356991",
+    "A356999"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 2,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

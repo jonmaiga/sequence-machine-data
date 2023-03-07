@@ -1,0 +1,21 @@
+{
+  "description": "Natural numbers n such that the concatenation n^3//1331, i.e., a cube and 11^3, is a prime number.",
+  "id": "A174229",
+  "mentions": [
+    "A168327",
+    "A168417",
+    "A173836",
+    "A174213"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

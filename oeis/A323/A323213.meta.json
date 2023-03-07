@@ -1,0 +1,21 @@
+{
+  "description": "Nearest prime to the median of the primes below 10^n.",
+  "id": "A323213",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A006880"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Expansion of chi(q^3) / chi^3(q) in powers of q where chi() is a Ramanujan theta function.",
+  "id": "A294387",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A004016",
+    "A005882",
+    "A005928",
+    "A010054",
+    "A010815",
+    "A121373",
+    "A128111",
+    "A128128",
+    "A132972",
+    "A164270",
+    "A164271"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:59:42",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

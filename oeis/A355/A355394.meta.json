@@ -1,0 +1,38 @@
+{
+  "description": "Number of integer partitions of n such that, for all parts x, x - 1 or x + 1 is also a part.",
+  "id": "A355394",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000837",
+    "A007690",
+    "A066312",
+    "A073491",
+    "A077855",
+    "A183558",
+    "A289509",
+    "A328171",
+    "A328172",
+    "A328187",
+    "A328221",
+    "A355393",
+    "A356233",
+    "A356235",
+    "A356236",
+    "A356237",
+    "A356606",
+    "A356607",
+    "A356734",
+    "A356736"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

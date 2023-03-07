@@ -1,0 +1,19 @@
+{
+  "description": "Number of ternary digits in the n-th term of the continued fraction of the base 3 Champernowne constant (A077772).",
+  "id": "A244759",
+  "mentions": [
+    "A077772",
+    "A244332"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

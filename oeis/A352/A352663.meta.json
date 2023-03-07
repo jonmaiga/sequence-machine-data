@@ -1,0 +1,21 @@
+{
+  "description": "Number of asymmetric characteristic solutions to the n-superqueens problem.",
+  "id": "A352663",
+  "mentions": [
+    "A051223",
+    "A051224",
+    "A352661",
+    "A352662"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

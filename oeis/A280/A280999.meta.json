@@ -1,0 +1,21 @@
+{
+  "description": "Numbers with a prime number of 0's in their binary reflected Gray code representation.",
+  "id": "A280999",
+  "mentions": [
+    "A014550",
+    "A144754",
+    "A280998"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

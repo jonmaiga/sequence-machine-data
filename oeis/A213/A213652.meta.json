@@ -1,0 +1,28 @@
+{
+  "description": "9-nomial coefficient array: Coefficients of the polynomial (1+...+X^8)^n, n=0,1,...",
+  "id": "A213652",
+  "mentions": [
+    "A001019",
+    "A007318",
+    "A008287",
+    "A017077",
+    "A027907",
+    "A035343",
+    "A063260",
+    "A063265",
+    "A171890",
+    "A213651"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

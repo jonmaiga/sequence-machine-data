@@ -1,0 +1,23 @@
+{
+  "description": "Sum of A244042 and its Dirichlet inverse, where A244042(n) replaces 2's with 0's in the ternary representation of n.",
+  "id": "A359602",
+  "mentions": [
+    "A053850",
+    "A244042",
+    "A353569",
+    "A359601"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

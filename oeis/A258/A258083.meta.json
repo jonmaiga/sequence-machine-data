@@ -1,0 +1,23 @@
+{
+  "description": "Smallest multiple of 3 not appearing earlier that ends with n.",
+  "id": "A258083",
+  "mentions": [
+    "A008585",
+    "A258188",
+    "A258217",
+    "A258225"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "hear",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

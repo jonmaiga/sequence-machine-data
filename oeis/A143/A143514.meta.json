@@ -1,0 +1,23 @@
+{
+  "description": "Array D of denominators of Best Remaining Lower Approximates of x=(1+sqrt(5))/2, by antidiagonals.",
+  "id": "A143514",
+  "mentions": [
+    "A000045",
+    "A000201",
+    "A143515",
+    "A143516"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Odd n where d(n) > d(n+1), where d(n) = number of positive divisors of n.",
+  "id": "A138171",
+  "mentions": [
+    "A138046",
+    "A138172"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

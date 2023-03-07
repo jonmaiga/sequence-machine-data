@@ -1,0 +1,23 @@
+{
+  "description": "Coefficients in expansion of (E_4/E_2^4)^(1/8).",
+  "id": "A294978",
+  "mentions": [
+    "A004009",
+    "A006352",
+    "A108091",
+    "A289565",
+    "A294626",
+    "A294974"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 14,
+    "source": "joeis"
+  }
+}

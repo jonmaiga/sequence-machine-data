@@ -1,0 +1,18 @@
+{
+  "description": "Determinant of n X n Hankel matrix whose entries are 1-A010060(i+j), where A010060 is the Thue-Morse sequence.",
+  "id": "A274330",
+  "mentions": [
+    "A010060",
+    "A056887"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

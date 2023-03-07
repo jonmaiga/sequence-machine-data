@@ -1,0 +1,19 @@
+{
+  "description": "Length of n-th word in the ordering A341334 of all binary words.",
+  "id": "A342739",
+  "mentions": [
+    "A341334",
+    "A342748",
+    "A342749"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

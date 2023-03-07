@@ -1,0 +1,21 @@
+{
+  "description": "If n is prime, a(n) = 1; otherwise, a(n) is gcd(n, d) where d is the denominator of the (n-1)-th Bernoulli number.",
+  "id": "A166123",
+  "mentions": [
+    "A027642",
+    "A050932",
+    "A166062",
+    "A166120"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

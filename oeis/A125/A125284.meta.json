@@ -1,0 +1,19 @@
+{
+  "description": "Lower indices of duplicate terms in A125204, i.e., k such that A125204(k) = A125204(k + 1).",
+  "id": "A125284",
+  "mentions": [
+    "A125204"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

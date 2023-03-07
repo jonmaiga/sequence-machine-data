@@ -1,0 +1,24 @@
+{
+  "description": "Numbers with 30 divisors.",
+  "id": "A137493",
+  "mentions": [
+    "A000005",
+    "A030513",
+    "A122970",
+    "A137492",
+    "A139571",
+    "A179669",
+    "A179702"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:45",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of palstars of length 2n over an alphabet of size 3.",
+  "id": "A246020",
+  "mentions": [
+    "A246019",
+    "A246021"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

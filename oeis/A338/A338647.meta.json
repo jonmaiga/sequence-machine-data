@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=1..n} 2^(k/gcd(n,k) - 1).",
+  "id": "A338647",
+  "mentions": [
+    "A011782",
+    "A034738",
+    "A054432",
+    "A057661",
+    "A130586"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions of n into parts 1, 6, and 7.",
+  "id": "A259278",
+  "mentions": [
+    "A000930",
+    "A078012",
+    "A079972",
+    "A121832"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

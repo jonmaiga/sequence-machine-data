@@ -1,0 +1,20 @@
+{
+  "description": "For n >= 0, let E_n be the set of exponents in expression of 2*n as a sum of distinct powers of 2 (2*n = Sum_{e in E_n} 2^e); a(n) = number of distinct values taken by the expression Sum_{e in E_n} s(e)*2^e when s runs over all functions from the positive numbers to the set { +1, -1 }.",
+  "id": "A293664",
+  "mentions": [
+    "A000120",
+    "A133457",
+    "A293576"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

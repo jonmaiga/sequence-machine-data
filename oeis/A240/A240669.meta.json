@@ -1,0 +1,22 @@
+{
+  "description": "Number of the first odious exponents (A000069) in the prime power factorization of (2n)!.",
+  "id": "A240669",
+  "mentions": [
+    "A000069",
+    "A240537",
+    "A240606",
+    "A240619",
+    "A240620",
+    "A240668"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

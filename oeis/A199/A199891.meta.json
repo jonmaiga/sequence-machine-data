@@ -1,0 +1,17 @@
+{
+  "description": "Number of compositions of n such that the number of parts and the largest part and the smallest part are pairwise not coprime.",
+  "id": "A199891",
+  "mentions": [
+    "A200476"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

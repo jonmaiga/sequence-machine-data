@@ -1,0 +1,19 @@
+{
+  "description": "Triangle, read by rows, where row n+1 is formed by sorting, in ascending order, the result of the convolution of row n with {1,2}.",
+  "id": "A116908",
+  "mentions": [
+    "A103284"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

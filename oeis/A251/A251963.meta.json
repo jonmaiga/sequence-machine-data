@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that the sum of the triangular numbers T(n) and T(n+1) is equal to an octagonal number N(m) for some m.",
+  "id": "A251963",
+  "mentions": [
+    "A000217",
+    "A000567",
+    "A046184"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:09",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

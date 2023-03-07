@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m not ending with 0 that contain a digit, other than the leftmost digit, that can be removed such that the resulting number d divides m.",
+  "id": "A308237",
+  "mentions": [
+    "A034837",
+    "A178157"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

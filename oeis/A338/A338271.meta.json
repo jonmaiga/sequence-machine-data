@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the number of compositions of n, b_1 + ... + b_t = n such that sqrt(b_1 + sqrt(b_2 + ... + sqrt(b_t)...)) is an integer.",
+  "id": "A338271",
+  "mentions": [
+    "A000196",
+    "A098504",
+    "A101391",
+    "A143862",
+    "A238351",
+    "A238686",
+    "A325676",
+    "A335942",
+    "A338268",
+    "A338286"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

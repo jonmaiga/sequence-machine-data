@@ -1,0 +1,22 @@
+{
+  "description": "Number of chains in the rooted tree with Matula-Goebel number n.",
+  "id": "A184162",
+  "mentions": [
+    "A020639",
+    "A049084",
+    "A109082",
+    "A184160",
+    "A196056"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:08",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

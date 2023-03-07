@@ -1,0 +1,25 @@
+{
+  "description": "Least k such that n divides s(k)-s(j) for some j < k, where s(j) = floor((j+1)^2/2)/2 (quarter-squares).",
+  "id": "A205402",
+  "mentions": [
+    "A002620",
+    "A198293",
+    "A204892",
+    "A205400",
+    "A205401",
+    "A205403",
+    "A205404",
+    "A205405",
+    "A205406"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 10:09:04",
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

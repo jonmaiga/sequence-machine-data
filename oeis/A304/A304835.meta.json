@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 108*n^2 - 104*n + 20 (n>=1).",
+  "id": "A304835",
+  "mentions": [
+    "A024204",
+    "A304834"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:47",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

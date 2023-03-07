@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of 1/(1-x-x^3*c(x^3)), c(x) the g.f. of A000108.",
+  "id": "A165407",
+  "mentions": [
+    "A000045",
+    "A000108",
+    "A001622",
+    "A010892",
+    "A026671",
+    "A026674",
+    "A026726",
+    "A165408"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

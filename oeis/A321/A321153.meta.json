@@ -1,0 +1,20 @@
+{
+  "description": "Possible total numbers of pips when rolling two dice in backgammon.",
+  "id": "A321153",
+  "mentions": [
+    "A025489",
+    "A055100"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle Id-(xc(x),xc(x)), c(x) the g.f. of the Catalan numbers A000108.",
+  "id": "A181645",
+  "mentions": [
+    "A000108",
+    "A033184",
+    "A181644"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

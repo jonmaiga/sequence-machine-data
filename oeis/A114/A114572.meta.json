@@ -1,0 +1,21 @@
+{
+  "description": "Number of \"ultrasweet\" Boolean functions of n variables which depend on all the variables.",
+  "id": "A114572",
+  "mentions": [
+    "A002773",
+    "A114302",
+    "A114303",
+    "A114491",
+    "A118085"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

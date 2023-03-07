@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers n such that A005245(n) < min{ A005245(n-1) + 1, A005245(x) + A005245(y) } where x,y range over positive integers with x*y = n.",
+  "id": "A189124",
+  "mentions": [
+    "A005245",
+    "A189123",
+    "A189125"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:13",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

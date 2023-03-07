@@ -1,0 +1,31 @@
+{
+  "description": "If n is of the form p^p, a(n) = n, otherwise a(n) is the first number found by iterating the map x -> A003415(x) that is different from n and either a prime, or whose degree (A051903) differs from the degree of n.",
+  "id": "A328385",
+  "mentions": [
+    "A003415",
+    "A051674",
+    "A051903",
+    "A157037",
+    "A327968",
+    "A327975",
+    "A327977",
+    "A328252",
+    "A328305",
+    "A328310",
+    "A328311",
+    "A328320",
+    "A328321",
+    "A328384"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

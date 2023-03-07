@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Product_{i in row n of A245562} Fibonacci(i+2).",
+  "id": "A245564",
+  "mentions": [
+    "A000045",
+    "A001045",
+    "A071053",
+    "A245562",
+    "A245565",
+    "A246028",
+    "A278159"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Least k such that n + (n+1) + ... + (n+k-1) is a square.",
+  "id": "A214728",
+  "mentions": [
+    "A000290",
+    "A001108",
+    "A046092",
+    "A108269"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

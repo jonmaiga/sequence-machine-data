@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of solutions, j >= 0 and 2 <= m_1 <= ... <= m_n, of the equation Sum_{k=1..n} F(m_k) = 2^j where F(i) is the i-th Fibonacci number.",
+  "id": "A356977",
+  "mentions": [
+    "A020908",
+    "A319394",
+    "A356928"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

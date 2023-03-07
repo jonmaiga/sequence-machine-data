@@ -1,0 +1,19 @@
+{
+  "description": "Nonprimes of the form (p(2*n)-p(n))/4, where p(n)=n-th prime.",
+  "id": "A142338",
+  "mentions": [
+    "A000040",
+    "A072473",
+    "A141468"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:31",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

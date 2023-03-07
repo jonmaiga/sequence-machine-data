@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the maximum of the largest elements of all n-full sets, or 0 if no such set exists.",
+  "id": "A188430",
+  "mentions": [
+    "A008619",
+    "A188429",
+    "A188431"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:20:41",
+    "offset": 1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

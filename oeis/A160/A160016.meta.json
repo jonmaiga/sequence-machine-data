@@ -1,0 +1,19 @@
+{
+  "description": "Lodumo_2 transform of A159833.",
+  "id": "A160016",
+  "mentions": [
+    "A159833"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:13:39",
+    "offset": 0,
+    "size": 72,
+    "source": "joeis"
+  }
+}

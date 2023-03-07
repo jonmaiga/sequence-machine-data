@@ -1,0 +1,23 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} C(2*n^2,n^2) * x^n/n ).",
+  "id": "A201556",
+  "mentions": [
+    "A000108",
+    "A000984",
+    "A200002",
+    "A201555",
+    "A213402",
+    "A213409"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

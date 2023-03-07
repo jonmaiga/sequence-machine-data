@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = floor((4/3)*(2+prime(n)) - prime(n+1)).",
+  "id": "A208548",
+  "mentions": [
+    "A062234",
+    "A207480"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

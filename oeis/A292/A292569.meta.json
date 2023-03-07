@@ -1,0 +1,21 @@
+{
+  "description": "Least pandigital number which sums up with the n-th pandigital number A171102(n) to another pandigital number.",
+  "id": "A292569",
+  "mentions": [
+    "A050278",
+    "A171102",
+    "A292570"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

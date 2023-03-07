@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations s_1,s_2,...,s_n of 1,2,...,n with s_n = n (if n>0) and such that for all j=1,2,...,n, Sum_{i=1..j} s_i divides Sum_{i=1..j} s_i^3.",
+  "id": "A291518",
+  "mentions": [
+    "A291445",
+    "A291519"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

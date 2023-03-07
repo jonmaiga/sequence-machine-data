@@ -1,0 +1,18 @@
+{
+  "description": "Smallest k such that k^3 + 17 is divisible by 3^n.",
+  "id": "A212328",
+  "mentions": [
+    "A129805"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

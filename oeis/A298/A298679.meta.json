@@ -1,0 +1,23 @@
+{
+  "description": "Start with the hexagonal tile of the Shield tiling and recursively apply the substitution rule. a(n) is the number of square tiles after n iterations.",
+  "id": "A298679",
+  "mentions": [
+    "A298678",
+    "A298680",
+    "A298681",
+    "A298682",
+    "A298683"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:21",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

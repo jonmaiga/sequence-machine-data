@@ -1,0 +1,21 @@
+{
+  "description": "Column 2 of triangle A136595.",
+  "id": "A136596",
+  "mentions": [
+    "A008277",
+    "A048287",
+    "A136595",
+    "A136597"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 2,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

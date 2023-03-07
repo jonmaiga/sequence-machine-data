@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of lattice points inside a square bounded by the lines x=-n/sqrt(2), x=n/sqrt(2), y=-n/sqrt(2), y=n/sqrt(2).",
+  "id": "A304035",
+  "mentions": [
+    "A049472",
+    "A051132",
+    "A080764",
+    "A083051",
+    "A303642"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Five-column table read by rows: Primitive distinct quintuples that have the same value of phi, sigma, and tau.",
+  "id": "A322691",
+  "mentions": [
+    "A134922",
+    "A306430",
+    "A322681",
+    "A322688",
+    "A322689",
+    "A322690",
+    "A322692",
+    "A322693",
+    "A322694",
+    "A322695",
+    "A322696",
+    "A322697"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

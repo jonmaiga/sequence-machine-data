@@ -1,0 +1,19 @@
+{
+  "description": "Number of perfect rulers of length n having the least possible largest difference between any adjacent marks that can occur amongst all perfect rulers of this length.",
+  "id": "A104308",
+  "mentions": [
+    "A103294",
+    "A103300",
+    "A104307"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

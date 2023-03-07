@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of h_3, a constant related to certain evaluations of the gamma function from elliptic integrals.",
+  "id": "A243308",
+  "mentions": [
+    "A073005",
+    "A175379",
+    "A175574"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

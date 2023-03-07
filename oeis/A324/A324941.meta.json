@@ -1,0 +1,30 @@
+{
+  "description": "Largest prime factor of 17^n + 1.",
+  "id": "A324941",
+  "mentions": [
+    "A002587",
+    "A002590",
+    "A002592",
+    "A003021",
+    "A006530",
+    "A062308",
+    "A074476",
+    "A074478",
+    "A224384",
+    "A227575",
+    "A274903",
+    "A274904",
+    "A274905"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

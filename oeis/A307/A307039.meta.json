@@ -1,0 +1,30 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 1, read by antidiagonals, where column k is the expansion of g.f. ((1-x)^(k-1))/((1-x)^k+x^k).",
+  "id": "A307039",
+  "mentions": [
+    "A000007",
+    "A057681",
+    "A099586",
+    "A146559",
+    "A289306",
+    "A306846",
+    "A306914",
+    "A307040",
+    "A307041",
+    "A307044",
+    "A307045"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "look",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Semiprimes at which the Chebyshev bias of semiprimes == 3 (mod 4) and == 1 (mod 4) becomes positive.",
+  "id": "A196937",
+  "mentions": [
+    "A080774",
+    "A108181"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows in which row n contains Fib(0), ..., Fib(n-1), Fib(n), Fib(n-1), ..., Fib(0).",
+  "id": "A134404",
+  "mentions": [
+    "A094102"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

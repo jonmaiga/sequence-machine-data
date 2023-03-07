@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that at least one of 1093*p or 1093*p^2 is a Poulet number, i.e., a term of A001567.",
+  "id": "A273471",
+  "mentions": [
+    "A001220",
+    "A001567",
+    "A273472"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "The sum of the semiperimeters of the bargraphs of area n (n>=1).",
+  "id": "A273348",
+  "mentions": [
+    "A273346",
+    "A273347"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:34:50",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

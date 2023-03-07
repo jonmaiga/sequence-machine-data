@@ -1,0 +1,19 @@
+{
+  "description": "Shifts left when Euler transform applied 8 times.",
+  "id": "A144040",
+  "mentions": [
+    "A144042",
+    "A316108"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "eigen",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

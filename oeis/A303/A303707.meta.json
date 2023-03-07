@@ -1,0 +1,32 @@
+{
+  "description": "Number of factorizations of n using elements of A007916 (numbers that are not perfect powers).",
+  "id": "A303707",
+  "mentions": [
+    "A000837",
+    "A001055",
+    "A001597",
+    "A007716",
+    "A007916",
+    "A045778",
+    "A052409",
+    "A052410",
+    "A081707",
+    "A162247",
+    "A281113",
+    "A281116",
+    "A303708",
+    "A303709",
+    "A303710"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

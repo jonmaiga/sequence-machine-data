@@ -1,0 +1,18 @@
+{
+  "description": "Minimum of A277802(n) and A004709(n).",
+  "id": "A277803",
+  "mentions": [
+    "A004709",
+    "A277802"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

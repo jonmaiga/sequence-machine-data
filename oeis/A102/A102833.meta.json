@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n for which rank of the elliptic curve y^2=x^3+n is 3.",
+  "id": "A102833",
+  "mentions": [
+    "A001014",
+    "A002151",
+    "A002153",
+    "A002155",
+    "A060748",
+    "A060838",
+    "A060950",
+    "A060951",
+    "A060953"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

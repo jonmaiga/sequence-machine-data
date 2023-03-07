@@ -1,0 +1,18 @@
+{
+  "description": "T(n,k)=One quarter the number of nXk 1..4 arrays with no two neighbors of any element equal to each other",
+  "id": "A183362",
+  "mentions": [
+    "A003946"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:07",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

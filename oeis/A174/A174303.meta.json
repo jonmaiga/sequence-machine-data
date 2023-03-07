@@ -1,0 +1,22 @@
+{
+  "description": "A symmetrical triangle: T(n,k) = A008292(n+1, k) * f(n,k), where f(n,k) = 2^k when floor(n/2) >= k, otherwise 2^(n-k).",
+  "id": "A174303",
+  "mentions": [
+    "A008292",
+    "A144463",
+    "A144470",
+    "A174301"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

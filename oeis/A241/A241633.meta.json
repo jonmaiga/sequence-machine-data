@@ -1,0 +1,18 @@
+{
+  "description": "Number of compositions of n with exactly eight descents.",
+  "id": "A241633",
+  "mentions": [
+    "A238343",
+    "A238344"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 24,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

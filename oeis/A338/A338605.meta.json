@@ -1,0 +1,22 @@
+{
+  "description": "Resistance values R < 1 ohm, multiplied by their common denominator 840 (= A338600(5)), that can be obtained from a network of exactly 5 one-ohm resistors, but not from any network with fewer than 5 one-ohm resistors.",
+  "id": "A338605",
+  "mentions": [
+    "A051389",
+    "A338580",
+    "A338595",
+    "A338600"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

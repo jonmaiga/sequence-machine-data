@@ -1,0 +1,23 @@
+{
+  "description": "List of coprime pairs (x,y) such that x^2+y^2=13^n with 0",
+  "id": "A158936",
+  "mentions": [
+    "A098122",
+    "A188948",
+    "A188949",
+    "A188982",
+    "A188983"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

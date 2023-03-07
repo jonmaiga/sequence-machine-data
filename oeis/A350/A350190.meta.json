@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that A083723(k) is prime.",
+  "id": "A350190",
+  "mentions": [
+    "A083723"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

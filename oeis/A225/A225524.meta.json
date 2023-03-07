@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} (sigma(2*n) - sigma(n))*Lucas(n)*x^n/n ), where Lucas(n) = A000204(n) and sigma(n) = A000203(n) is the sum of divisors of n.",
+  "id": "A225524",
+  "mentions": [
+    "A000203",
+    "A000204",
+    "A203850",
+    "A225525"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

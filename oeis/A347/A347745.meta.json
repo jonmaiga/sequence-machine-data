@@ -1,0 +1,21 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into at most 3 noncomposite parts.",
+  "id": "A347745",
+  "mentions": [
+    "A008578",
+    "A280917",
+    "A283762",
+    "A347740",
+    "A347744"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

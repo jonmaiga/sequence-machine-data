@@ -1,0 +1,17 @@
+{
+  "description": "Number of 2 X 2 matrices with entries in {0,1,...,n} and permanent = (trace)^2 with no entry repeated.",
+  "id": "A276113",
+  "mentions": [
+    "A210289"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

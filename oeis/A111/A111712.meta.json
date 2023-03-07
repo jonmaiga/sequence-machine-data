@@ -1,0 +1,22 @@
+{
+  "description": "Arithmetic mean of the n-th row of triangle mentioned in A111710.",
+  "id": "A111712",
+  "mentions": [
+    "A111710",
+    "A111711",
+    "A117111",
+    "A195013"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

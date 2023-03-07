@@ -1,0 +1,17 @@
+{
+  "description": "Primes that have one of the forms 2^(2^n) + 1, 2^(2^n - 1) + 2^(2^(n + 1) - 1) + 1 or (2^(2^n) + 1 + 2^(2^(n + 1) - 1) + 1)/2.",
+  "id": "A119573",
+  "mentions": [
+    "A019434"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

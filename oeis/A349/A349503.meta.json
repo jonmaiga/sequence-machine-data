@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least number k such that the continued fraction of the harmonic mean of the divisors of k contains n elements that are all distinct.",
+  "id": "A349503",
+  "mentions": [
+    "A349473",
+    "A349502"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

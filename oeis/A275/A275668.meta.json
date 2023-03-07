@@ -1,0 +1,18 @@
+{
+  "description": "First occurrence of a value in A268755: a(i) = j iff A268755(j) = i-1 and A268755(j+1) = 0.",
+  "id": "A275668",
+  "mentions": [
+    "A181391",
+    "A268755"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Palindromes which are divisible by the product and by the sum of their digits.",
+  "id": "A117228",
+  "mentions": [
+    "A002113",
+    "A082232",
+    "A117057"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "The number of distinct triple points in the set of function values FLSN(m/6/7^n), m in 0, 1, 2... 6*7^n, where FLSN:[0,1] is the \"flowsnake\" plane filling curve.",
+  "id": "A261120",
+  "mentions": [
+    "A260482",
+    "A260747",
+    "A260748",
+    "A260749",
+    "A260750",
+    "A261180",
+    "A261185"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

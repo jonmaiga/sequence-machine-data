@@ -1,0 +1,24 @@
+{
+  "description": "Array read by rows: T(n,k) is the number of nonisomorphic n X n matrices with nonnegative integer entries and row sums k under row and column permutations, (n >= 1, k >= 0).",
+  "id": "A318951",
+  "mentions": [
+    "A002620",
+    "A058389",
+    "A058390",
+    "A058391",
+    "A058392",
+    "A304942",
+    "A306017"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Primes of the form 173^k - 172^k.",
+  "id": "A255390",
+  "mentions": [
+    "A254298"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

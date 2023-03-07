@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: row j lists the first j natural numbers by ascending n-bit bientropy (n >= 8).",
+  "id": "A333409",
+  "mentions": [
+    "A000040",
+    "A019434",
+    "A331962"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that A065507[n] = n.",
+  "id": "A123195",
+  "mentions": [
+    "A065507"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

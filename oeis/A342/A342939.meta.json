@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the Skolem number of the triangular grid graph T_n.",
+  "id": "A342939",
+  "mentions": [
+    "A002061",
+    "A152947",
+    "A161680",
+    "A247476",
+    "A342938",
+    "A342940"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:56:51",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

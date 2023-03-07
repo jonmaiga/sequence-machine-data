@@ -1,0 +1,20 @@
+{
+  "description": "Primitive terms of A357769: terms of A357769 that are not ten times another term of A357769.",
+  "id": "A356350",
+  "mentions": [
+    "A133384",
+    "A356349",
+    "A357769"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

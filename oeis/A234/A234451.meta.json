@@ -1,0 +1,34 @@
+{
+  "description": "Number of ways to write n = k + m with k > 0 and m > 0 such that 2^(phi(k)/2 + phi(m)/6) + 3 is prime, where phi(.) is Euler's totient function.",
+  "id": "A234451",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A000079",
+    "A050415",
+    "A057733",
+    "A234309",
+    "A234310",
+    "A234337",
+    "A234344",
+    "A234346",
+    "A234347",
+    "A234359",
+    "A234360",
+    "A234361",
+    "A234388",
+    "A234399",
+    "A234470",
+    "A236358"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

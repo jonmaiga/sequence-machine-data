@@ -1,0 +1,18 @@
+{
+  "description": "Number of length-n binary strings that can be infinitely extended to the right to form an overlap-free string.",
+  "id": "A356959",
+  "mentions": [
+    "A007777"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

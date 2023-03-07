@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of Hurwitz inverse of primes [2,3,5,7,...].",
+  "id": "A302191",
+  "mentions": [
+    "A302189",
+    "A302192",
+    "A302193"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

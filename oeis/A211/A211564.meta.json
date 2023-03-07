@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonnegative integer arrays of length n+4 with new values 0 upwards introduced in order, and containing the value n-1.",
+  "id": "A211564",
+  "mentions": [
+    "A211561"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:35:13",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

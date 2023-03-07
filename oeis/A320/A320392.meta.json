@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of 3 indistinguishable copies of 1,...,n such that there are exactly j numbers between the first and the third copy of j and floor(j/2) numbers between the first and the second or between the second and the third copy of j.",
+  "id": "A320392",
+  "mentions": [
+    "A285527",
+    "A322153"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

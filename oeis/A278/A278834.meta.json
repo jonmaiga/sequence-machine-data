@@ -1,0 +1,23 @@
+{
+  "description": "Record values of A004090(n) - n, where A004090 is the sum of digits of the Fibonacci numbers A000045.",
+  "id": "A278834",
+  "mentions": [
+    "A000045",
+    "A004090",
+    "A264935",
+    "A278833"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

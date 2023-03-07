@@ -1,0 +1,25 @@
+{
+  "description": "Order of 8 mod n-th prime: least k such that prime(n) divides 8^k-1.",
+  "id": "A211244",
+  "mentions": [
+    "A000040",
+    "A002371",
+    "A014664",
+    "A062117",
+    "A082654",
+    "A211241",
+    "A211242",
+    "A211243",
+    "A211245"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:31:01",
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

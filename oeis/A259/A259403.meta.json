@@ -1,0 +1,24 @@
+{
+  "description": "Pentagonal numbers (A000326) that are the sum of eleven consecutive pentagonal numbers.",
+  "id": "A259403",
+  "mentions": [
+    "A000326",
+    "A133301",
+    "A257714",
+    "A257715",
+    "A259402",
+    "A259404"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the k-th average of twin prime pairs is a sum of two successive primes.",
+  "id": "A176984",
+  "mentions": [
+    "A001043",
+    "A014574",
+    "A167597"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of (0,1)-matrices with n ones, no zero rows or columns, and distinct rows.",
+  "id": "A321587",
+  "mentions": [
+    "A007716",
+    "A049311",
+    "A101370",
+    "A120733",
+    "A283877",
+    "A316980",
+    "A321446",
+    "A321515",
+    "A327583",
+    "A327584"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

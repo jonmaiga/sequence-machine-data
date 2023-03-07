@@ -1,0 +1,38 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of chains of length k from minimum to maximum in the poset of integer partitions of n ordered by refinement.",
+  "id": "A330785",
+  "mentions": [
+    "A000111",
+    "A000258",
+    "A000311",
+    "A002846",
+    "A005121",
+    "A007042",
+    "A008826",
+    "A141268",
+    "A196545",
+    "A213427",
+    "A265947",
+    "A300383",
+    "A306186",
+    "A317141",
+    "A317176",
+    "A318813",
+    "A320160",
+    "A330679",
+    "A330784",
+    "A330935"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Difference between the smallest 10^n-bit prime and 2^(10^n-1).",
+  "id": "A212290",
+  "mentions": [
+    "A096548"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

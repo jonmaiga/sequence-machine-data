@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n > 1 such that 2^m == 1 (mod n^2), where m = A002326((n-1)/2).",
+  "id": "A265630",
+  "mentions": [
+    "A001220",
+    "A002326",
+    "A077816",
+    "A237292"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

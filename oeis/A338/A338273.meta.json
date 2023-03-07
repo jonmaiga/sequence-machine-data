@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the sum of A338270(n) and the average of the primes immediately before and after A338270(n).",
+  "id": "A338273",
+  "mentions": [
+    "A151799",
+    "A151800",
+    "A338270"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

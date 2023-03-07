@@ -1,0 +1,21 @@
+{
+  "description": "Smallest n-digit noncomposite number (written in base 2) with maximum base-2 digit sum.",
+  "id": "A215559",
+  "mentions": [
+    "A000120",
+    "A004676",
+    "A007088",
+    "A069661"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

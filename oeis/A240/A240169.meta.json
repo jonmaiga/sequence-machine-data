@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that (6n)^3 is the sum of a twin prime pair.",
+  "id": "A240169",
+  "mentions": [
+    "A245591"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form x^2 + 64*y^2 that divide some Fermat number.",
+  "id": "A351865",
+  "mentions": [
+    "A014754",
+    "A023394",
+    "A228846"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

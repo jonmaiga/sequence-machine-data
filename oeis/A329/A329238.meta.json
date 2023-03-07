@@ -1,0 +1,19 @@
+{
+  "description": "Carmichael quotients to base 2: a(n) = (2^(lambda(2*n-1)-1)/(2*n-1), where lambda is the Carmichael lambda function (A002322).",
+  "id": "A329238",
+  "mentions": [
+    "A001226",
+    "A002322",
+    "A007663"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

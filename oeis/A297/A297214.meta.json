@@ -1,0 +1,29 @@
+{
+  "description": "Expansion of e.g.f. exp(cos(sin(x))-1) (even powers only).",
+  "id": "A297214",
+  "mentions": [
+    "A003709",
+    "A009045",
+    "A009201",
+    "A009202",
+    "A009203",
+    "A009204",
+    "A009238",
+    "A009239",
+    "A009240",
+    "A009241",
+    "A009254",
+    "A297215"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-07 12:08:16",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

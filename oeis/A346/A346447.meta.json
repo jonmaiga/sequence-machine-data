@@ -1,0 +1,17 @@
+{
+  "description": "Positive integers k such that the positive divisors of k <= sqrt(k) form a linear recurrence of order at most 2.",
+  "id": "A346447",
+  "mentions": [
+    "A038548"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

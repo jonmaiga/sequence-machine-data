@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonintersecting (or self-avoiding) rook paths joining opposite corner cells of an n X n X n grid, avoiding cells that are not on the surface.",
+  "id": "A215577",
+  "mentions": [
+    "A007764",
+    "A059783"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

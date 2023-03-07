@@ -1,0 +1,21 @@
+{
+  "description": "Number of consecutive integers starting with n needed to sum to a Niven number.",
+  "id": "A110030",
+  "mentions": [
+    "A005349",
+    "A110029",
+    "A110031"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

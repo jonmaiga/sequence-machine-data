@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 if A005179(n) < A037019(n), 0 otherwise; characteristic function of extraordinary numbers, A072066.",
+  "id": "A323510",
+  "mentions": [
+    "A005179",
+    "A037019",
+    "A072066",
+    "A323509"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 112,
+    "source": "oeis-bfile"
+  }
+}

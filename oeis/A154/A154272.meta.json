@@ -1,0 +1,26 @@
+{
+  "description": "1,0,1 followed by 0,0,0,...",
+  "id": "A154272",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A001764",
+    "A008683",
+    "A019590",
+    "A154269",
+    "A154271"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:21:03",
+    "offset": 1,
+    "size": 95,
+    "source": "joeis"
+  }
+}

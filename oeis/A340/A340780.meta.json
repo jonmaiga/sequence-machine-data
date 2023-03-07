@@ -1,0 +1,31 @@
+{
+  "description": "Losing positions n (P-positions) in the following game: two players take turns dividing the current value of n by either a prime power > 1 or by A007947(n) to obtain the new value of n. The winner is the player whose division results in 1.",
+  "id": "A340780",
+  "mentions": [
+    "A003557",
+    "A005240",
+    "A007947",
+    "A081691",
+    "A099352",
+    "A120442",
+    "A137295",
+    "A171945",
+    "A171947",
+    "A171949",
+    "A227691",
+    "A227763",
+    "A227764",
+    "A275432",
+    "A285304"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

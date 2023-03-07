@@ -1,0 +1,32 @@
+{
+  "description": "First number divisible by n of its own distinct prime indices.",
+  "id": "A324853",
+  "mentions": [
+    "A000720",
+    "A001222",
+    "A003963",
+    "A056239",
+    "A112798",
+    "A120383",
+    "A323440",
+    "A324771",
+    "A324846",
+    "A324847",
+    "A324848",
+    "A324849",
+    "A324850",
+    "A324852",
+    "A324856"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

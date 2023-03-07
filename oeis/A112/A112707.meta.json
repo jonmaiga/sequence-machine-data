@@ -1,0 +1,30 @@
+{
+  "description": "Triangle built from partial sums of Catalan numbers multiplied by powers of nonpositive numbers.",
+  "id": "A112707",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A032357",
+    "A064306",
+    "A112705",
+    "A112708",
+    "A112709",
+    "A112710",
+    "A112711",
+    "A113264",
+    "A113269"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

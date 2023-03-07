@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of g_2 (larger of two positive constants) such that Gamma(g_2)=Pi.",
+  "id": "A146944",
+  "mentions": [
+    "A000796",
+    "A146943"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

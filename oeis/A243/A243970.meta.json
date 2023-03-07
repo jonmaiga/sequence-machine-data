@@ -1,0 +1,17 @@
+{
+  "description": "Smallest positive integer m such that n can be expressed as a partial sum of the divisors of m taken in decreasing order.",
+  "id": "A243970",
+  "mentions": [
+    "A167485"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

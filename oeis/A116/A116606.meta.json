@@ -1,0 +1,17 @@
+{
+  "description": "A116605 sorted.",
+  "id": "A116606",
+  "mentions": [
+    "A116605"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

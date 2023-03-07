@@ -1,0 +1,19 @@
+{
+  "description": "The Enots Wolley sequence A336957 with the missing prime powers interpolated.",
+  "id": "A338059",
+  "mentions": [
+    "A000961",
+    "A336957",
+    "A338060"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

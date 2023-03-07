@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 0 if A249148(n) = 1, otherwise the index of the least prime dividing A249148(n): a(n) = A055396(A249148(n)).",
+  "id": "A249147",
+  "mentions": [
+    "A049084",
+    "A055396",
+    "A249148"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

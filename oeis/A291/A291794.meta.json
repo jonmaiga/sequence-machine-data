@@ -1,0 +1,17 @@
+{
+  "description": "Consider Post's tag system applied to the word (100)^n; a(n) = length of first word we see that is in the cycle, if the orbit cycles, or 0 if the orbit reaches the empty string, or -1 if the orbit is unbounded.",
+  "id": "A291794",
+  "mentions": [
+    "A284116"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

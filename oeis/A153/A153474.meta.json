@@ -1,0 +1,20 @@
+{
+  "description": "Sum of first n Mersenne primes A000668.",
+  "id": "A153474",
+  "mentions": [
+    "A000668",
+    "A007504",
+    "A092336",
+    "A153475"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

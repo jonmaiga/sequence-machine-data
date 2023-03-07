@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX2 0,1 arrays with the row and column sums nondecreasing",
+  "id": "A202554",
+  "mentions": [
+    "A202560"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

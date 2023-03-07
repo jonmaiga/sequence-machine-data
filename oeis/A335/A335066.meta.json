@@ -1,0 +1,24 @@
+{
+  "description": "Decimal numbers such that when they are written in all bases from 2 to 10 those numbers all share a common digit (the digit 0 or 1).",
+  "id": "A335066",
+  "mentions": [
+    "A145100",
+    "A153114",
+    "A181929",
+    "A258107",
+    "A317725",
+    "A331565",
+    "A335051"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

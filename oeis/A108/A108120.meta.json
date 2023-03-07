@@ -1,0 +1,26 @@
+{
+  "description": "Floor[n*1/Sin[1]], or Beatty sequence for 1/sin(1).",
+  "id": "A108120",
+  "mentions": [
+    "A023800",
+    "A031943",
+    "A037918",
+    "A039215",
+    "A043091",
+    "A047253",
+    "A108586",
+    "A108587",
+    "A108593"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:17:21",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

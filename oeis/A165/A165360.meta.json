@@ -1,0 +1,18 @@
+{
+  "description": "Column 2 of Left-justified Wythoff Array.",
+  "id": "A165360",
+  "mentions": [
+    "A165357",
+    "A165359"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

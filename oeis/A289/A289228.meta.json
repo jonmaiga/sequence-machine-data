@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways to select 7 disjoint point triples from an n X n X n triangular point grid, each point triple forming a 2 X 2 X 2 triangle.",
+  "id": "A289228",
+  "mentions": [
+    "A289222",
+    "A289223",
+    "A289224",
+    "A289225",
+    "A289226",
+    "A289227"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:20:19",
+    "offset": 6,
+    "size": 20,
+    "source": "joeis"
+  }
+}

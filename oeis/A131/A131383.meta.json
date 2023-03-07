@@ -1,0 +1,26 @@
+{
+  "description": "Total digital sum of n: sum of the digital sums of n for all the bases 1 to n (a 'digital sumorial').",
+  "id": "A131383",
+  "mentions": [
+    "A004125",
+    "A006218",
+    "A007953",
+    "A014837",
+    "A024916",
+    "A043306",
+    "A131384",
+    "A138530"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

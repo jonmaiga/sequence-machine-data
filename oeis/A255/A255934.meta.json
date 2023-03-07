@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to write n as the sum of four unordered generalized octagonal numbers.",
+  "id": "A255934",
+  "mentions": [
+    "A000566",
+    "A001082",
+    "A085787",
+    "A147875",
+    "A255350"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

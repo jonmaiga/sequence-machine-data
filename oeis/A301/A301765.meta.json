@@ -1,0 +1,29 @@
+{
+  "description": "Number of rooted twice-partitions of n where the first rooted partition is constant and the composite rooted partition is strict, i.e., of type (Q,R,Q).",
+  "id": "A301765",
+  "mentions": [
+    "A002865",
+    "A032305",
+    "A063834",
+    "A093637",
+    "A127524",
+    "A279791",
+    "A296133",
+    "A301422",
+    "A301462",
+    "A301467",
+    "A301480",
+    "A301706"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that end with decimal digit 1, 3, 7, or 9 and that produce only composite numbers when any of the digits 0,1,...,9 is inserted anywhere in them (including at the beginning or end).",
+  "id": "A125268",
+  "mentions": [
+    "A003459",
+    "A124665"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

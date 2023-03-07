@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that p + (sum of the prime factors of p-1) + (sum of prime factors of p+1) is prime.",
+  "id": "A127305",
+  "mentions": [
+    "A210934",
+    "A210936"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals, where column k is the expansion of e.g.f.: exp(Product_{j=1..n} (1-x^j) - 1).",
+  "id": "A294254",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000217",
+    "A033999",
+    "A294250",
+    "A294255",
+    "A294256",
+    "A294257",
+    "A294258",
+    "A294260"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

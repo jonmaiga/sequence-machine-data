@@ -1,0 +1,23 @@
+{
+  "description": "Irregular table T(n, k), n >= 0, k = 1..A080100(n), read by rows: the n-th row contains in ascending order the distinct nonnegative integers k <= n that have no common 1-bit with n.",
+  "id": "A352938",
+  "mentions": [
+    "A035327",
+    "A080100",
+    "A335587",
+    "A353293"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

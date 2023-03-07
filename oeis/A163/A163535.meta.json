@@ -1,0 +1,24 @@
+{
+  "description": "The absolute direction (0=east, 1=south, 2=west, 3=north) of the Peano curve A163336 at point n.",
+  "id": "A163535",
+  "mentions": [
+    "A004442",
+    "A010873",
+    "A163336",
+    "A163532",
+    "A163533",
+    "A163534",
+    "A163537"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

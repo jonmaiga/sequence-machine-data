@@ -1,0 +1,28 @@
+{
+  "description": "Lexicographically earliest sequence of distinct numbers such that no sum of consecutive terms is prime.",
+  "id": "A254337",
+  "mentions": [
+    "A002808",
+    "A025043",
+    "A025044",
+    "A054408",
+    "A084834",
+    "A153136",
+    "A253073",
+    "A253074",
+    "A254211",
+    "A254341"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

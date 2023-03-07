@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the constant whose continued fraction representation is [Phi^0; Phi^1, Phi^2, Phi^3, Phi^4, ...] where Phi is the golden ratio (A001622) and the exponents cycle through all nonnegative integers.",
+  "id": "A180660",
+  "mentions": [
+    "A001622",
+    "A100609"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n^4 +/- n +/- 1 are prime for all four possibilities.",
+  "id": "A236766",
+  "mentions": [
+    "A049408",
+    "A126424",
+    "A236759",
+    "A236761"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Matrix square of triangle A121412.",
+  "id": "A121416",
+  "mentions": [
+    "A101479",
+    "A121412",
+    "A121417",
+    "A121418",
+    "A121419",
+    "A121420"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

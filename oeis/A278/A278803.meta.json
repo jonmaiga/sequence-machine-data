@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX4 0..2 arrays with rows in nondecreasing lexicographic order and columns in nonincreasing lexicographic order.",
+  "id": "A278803",
+  "mentions": [
+    "A278807"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

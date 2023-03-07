@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = sigma(A097706(n)), where A097706(n) is the part of n composed of prime factors of form 4k+3.",
+  "id": "A324893",
+  "mentions": [
+    "A000203",
+    "A000593",
+    "A097706",
+    "A324891"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "description": "Square array where the row n lists all numbers k for which A329697(k) = n, read by falling antidiagonals.",
+  "id": "A334100",
+  "mentions": [
+    "A000079",
+    "A000120",
+    "A019434",
+    "A329697",
+    "A334092",
+    "A334093",
+    "A334094",
+    "A334095",
+    "A334096",
+    "A334099",
+    "A334101",
+    "A334102",
+    "A334103",
+    "A334104",
+    "A334105",
+    "A334106",
+    "A334111"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

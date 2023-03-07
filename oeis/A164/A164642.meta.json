@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that n, n + 4 and n + 6 are prime powers.",
+  "id": "A164642",
+  "mentions": [
+    "A164641"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Positions of 0 in A189091; complement of A189093.",
+  "id": "A189092",
+  "mentions": [
+    "A189091",
+    "A189093"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:49:23",
+    "offset": 1,
+    "size": 92,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 24*(n^1 + 1!)*(n^2 + 2!)*(n^3 + 3!)*...*(n^6 + 6!)/6!.",
+  "id": "A131684",
+  "mentions": [
+    "A049614"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:34:21",
+    "offset": 0,
+    "size": 15,
+    "source": "joeis"
+  }
+}

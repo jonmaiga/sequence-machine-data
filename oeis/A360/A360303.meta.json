@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=1..floor(sqrt(n))} 2^floor(n/k-k).",
+  "id": "A360303",
+  "mentions": [
+    "A034729"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

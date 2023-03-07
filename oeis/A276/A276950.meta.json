@@ -1,0 +1,27 @@
+{
+  "description": "Characteristic function for A273670: 1 if there is at least one maximal digit present in the factorial representation of n (A007623), otherwise 0.",
+  "id": "A276950",
+  "mentions": [
+    "A005408",
+    "A007623",
+    "A153880",
+    "A225901",
+    "A257680",
+    "A260736",
+    "A273670",
+    "A276948",
+    "A276952"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

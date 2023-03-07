@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n = Sum_{i=1..j}{d_i mod d}, where d_i are their aliquot parts and d is one of them.",
+  "id": "A265646",
+  "mentions": [
+    "A273124"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of equivalence classes of perfect matchings in the n-cube.",
+  "id": "A220904",
+  "mentions": [
+    "A005271"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

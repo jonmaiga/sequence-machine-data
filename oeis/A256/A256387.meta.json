@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that no prime can be the arithmetic mean of 2 semiprimes whose difference is 2*n.",
+  "id": "A256387",
+  "mentions": [
+    "A256383",
+    "A256388",
+    "A256389"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

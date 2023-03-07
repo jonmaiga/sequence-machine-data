@@ -1,0 +1,25 @@
+{
+  "description": "Count of the first 10^n primes which do not contain the digit 4.",
+  "id": "A228416",
+  "mentions": [
+    "A091634",
+    "A091643",
+    "A097952",
+    "A228413",
+    "A228421",
+    "A231412"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

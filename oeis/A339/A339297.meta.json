@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of oriented series-parallel networks with n colored elements and without multiple unit elements in parallel using exactly k colors.",
+  "id": "A339297",
+  "mentions": [
+    "A339228",
+    "A339290",
+    "A339298",
+    "A339301"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

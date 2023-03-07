@@ -1,0 +1,33 @@
+{
+  "description": "Self-inverse and multiplicative permutation of integers: For n < 8, a(n) = n, a(8)=9 and a(9)=8, a(p_i) = p_{a(i)} for primes with index i, and for composites > 9, a(u*v) = a(u) * a(v).",
+  "id": "A235489",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A008578",
+    "A010051",
+    "A061773",
+    "A065091",
+    "A091204",
+    "A091205",
+    "A234840",
+    "A235199",
+    "A235200",
+    "A235201",
+    "A235487",
+    "A235493",
+    "A235494"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

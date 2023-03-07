@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers n such that largest digit of all divisors of n is 2.",
+  "id": "A221698",
+  "mentions": [
+    "A037278",
+    "A106100",
+    "A209928",
+    "A221697"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

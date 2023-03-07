@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of digits in the decimal representation of the smallest Fibonacci number that contains n consecutive identical digits.",
+  "id": "A217191",
+  "mentions": [
+    "A000045",
+    "A217165",
+    "A217175"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

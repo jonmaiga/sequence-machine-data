@@ -1,0 +1,29 @@
+{
+  "description": "Number of connected multiset partitions of a multiset whose multiplicities are the prime indices of n.",
+  "id": "A321270",
+  "mentions": [
+    "A007718",
+    "A007719",
+    "A056156",
+    "A181821",
+    "A191970",
+    "A300913",
+    "A305193",
+    "A305936",
+    "A318284",
+    "A318286",
+    "A319557",
+    "A321272"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

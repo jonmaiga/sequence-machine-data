@@ -1,0 +1,26 @@
+{
+  "description": "Index of the largest Fermi-Dirac factor of n, a(1) = 0 by convention: a(n) = A302778(A223491(n)).",
+  "id": "A302785",
+  "mentions": [
+    "A050376",
+    "A052331",
+    "A061395",
+    "A223491",
+    "A240535",
+    "A302778",
+    "A302786",
+    "A302788",
+    "A302789"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

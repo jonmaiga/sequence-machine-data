@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the number of lunar primes less than or equal to n.",
+  "id": "A342676",
+  "mentions": [
+    "A067139",
+    "A087097",
+    "A087636",
+    "A087638",
+    "A130206",
+    "A169912",
+    "A170806",
+    "A171000",
+    "A171143",
+    "A171750",
+    "A171752"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

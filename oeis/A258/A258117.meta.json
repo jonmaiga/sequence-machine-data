@@ -1,0 +1,18 @@
+{
+  "description": "The Heinz numbers in increasing order of the partitions into distinct even parts.",
+  "id": "A258117",
+  "mentions": [
+    "A215366",
+    "A258116"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) read by rows: T(n,k) = floor(n/k) + n mod k, with 1<=k<=n.",
+  "id": "A234575",
+  "mentions": [
+    "A002024",
+    "A002260",
+    "A010766",
+    "A048158"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

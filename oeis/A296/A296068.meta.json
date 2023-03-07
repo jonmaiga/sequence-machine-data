@@ -1,0 +1,30 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals, where column k is the expansion of Product_{j>=1} ((1 + x^(2*j))/(1 - x^(2*j-1)))^k.",
+  "id": "A296068",
+  "mentions": [
+    "A000007",
+    "A001935",
+    "A001936",
+    "A001937",
+    "A001939",
+    "A001940",
+    "A001941",
+    "A092877",
+    "A093160",
+    "A296044",
+    "A296067",
+    "A302020"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

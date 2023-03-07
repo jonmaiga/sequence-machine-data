@@ -1,0 +1,28 @@
+{
+  "description": "a(1) = 1; a(n) = -Sum_{d|n, d",
+  "id": "A325126",
+  "mentions": [
+    "A007947",
+    "A008836",
+    "A125131",
+    "A326297",
+    "A327564",
+    "A332732",
+    "A349340",
+    "A349612",
+    "A349618"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

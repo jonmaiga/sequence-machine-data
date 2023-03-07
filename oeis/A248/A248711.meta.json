@@ -1,0 +1,18 @@
+{
+  "description": "Concatenations of three numbers A,R,B where R=A+B or R=A-B or R=A*B or R=A/B.",
+  "id": "A248711",
+  "mentions": [
+    "A112651"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

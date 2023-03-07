@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form 4m^2 + 1 such that the next prime of this form is a record distance away.",
+  "id": "A215233",
+  "mentions": [
+    "A214518",
+    "A214519",
+    "A215234"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

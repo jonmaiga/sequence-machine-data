@@ -1,0 +1,30 @@
+{
+  "description": "Rectangular array R by antidiagonals: label each unit square in the first quadrant lattice by its northeast vertex (x,y) and mark squares having |x-y| == 0 (mod 3); then R(m,n) is the number of marked squares in the rectangle [0,m] X [0,n].",
+  "id": "A143977",
+  "mentions": [
+    "A000027",
+    "A000212",
+    "A002264",
+    "A004523",
+    "A004772",
+    "A007984",
+    "A008810",
+    "A047212",
+    "A128422",
+    "A143974",
+    "A143976",
+    "A143979"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

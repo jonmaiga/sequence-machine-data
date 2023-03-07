@@ -1,0 +1,23 @@
+{
+  "description": "Number of independent sets in the generalized Aztec diamond E(L_7,L_{2n-1}).",
+  "id": "A254151",
+  "mentions": [
+    "A254124",
+    "A254125",
+    "A254126",
+    "A254150",
+    "A254152",
+    "A331406"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

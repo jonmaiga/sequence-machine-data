@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways not ending in 011 to write n in base phi.",
+  "id": "A289749",
+  "mentions": [
+    "A001622",
+    "A005248",
+    "A130600",
+    "A130601"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

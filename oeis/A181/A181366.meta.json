@@ -1,0 +1,18 @@
+{
+  "description": "Least entry in a 2-composition of n, summed over all 2-compositions of n. A 2-composition of n is a nonnegative matrix with two rows, such that each column has at least one nonzero entry and whose entries sum up to n.",
+  "id": "A181366",
+  "mentions": [
+    "A181365"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

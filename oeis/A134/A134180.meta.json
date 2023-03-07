@@ -1,0 +1,22 @@
+{
+  "description": "Indices of primes in A007468.",
+  "id": "A134180",
+  "mentions": [
+    "A007468",
+    "A134179",
+    "A134244",
+    "A134245",
+    "A134246"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

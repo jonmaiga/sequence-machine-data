@@ -1,0 +1,30 @@
+{
+  "description": "Triangle with number of equivalence classes of n X n matrices over {0,1} with rows and columns summing to k (0<=k<=n), where equivalence is defined by row and column permutations.",
+  "id": "A133687",
+  "mentions": [
+    "A000012",
+    "A000041",
+    "A000512",
+    "A000513",
+    "A000516",
+    "A000519",
+    "A002865",
+    "A008300",
+    "A008327",
+    "A333159",
+    "A333681",
+    "A333740"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

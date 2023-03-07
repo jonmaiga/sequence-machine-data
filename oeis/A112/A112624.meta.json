@@ -1,0 +1,30 @@
+{
+  "description": "If p^b(p,n) is the highest power of the prime p dividing n, then a(n) = Product_{p|n} b(p,n)!.",
+  "id": "A112624",
+  "mentions": [
+    "A000012",
+    "A000142",
+    "A010051",
+    "A028234",
+    "A067029",
+    "A100995",
+    "A112622",
+    "A112623",
+    "A126988",
+    "A156552",
+    "A246660",
+    "A306694"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

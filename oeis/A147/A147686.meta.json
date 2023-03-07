@@ -1,0 +1,18 @@
+{
+  "description": "Late-growing permutations: number of permutations of 4 indistinguishable copies of 1..n with every partial sum <= the same partial sum averaged over all permutations.",
+  "id": "A147686",
+  "mentions": [
+    "A147681",
+    "A215561"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 1,
+    "size": 9,
+    "source": "joeis"
+  }
+}

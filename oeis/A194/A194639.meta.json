@@ -1,0 +1,31 @@
+{
+  "description": "Indices of records in A194591 when it is restricted to odd indices.",
+  "id": "A194639",
+  "mentions": [
+    "A064699",
+    "A076335",
+    "A180247",
+    "A194591",
+    "A194600",
+    "A194603",
+    "A194606",
+    "A194607",
+    "A194608",
+    "A194635",
+    "A194636",
+    "A194637",
+    "A194638",
+    "A217892"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

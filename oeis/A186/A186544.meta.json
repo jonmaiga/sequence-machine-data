@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = floor((Pi-2)*n/(Pi-3)); complement of A187320.",
+  "id": "A186544",
+  "mentions": [
+    "A000796",
+    "A187320"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:45:39",
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

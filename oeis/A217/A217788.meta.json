@@ -1,0 +1,22 @@
+{
+  "description": "Least integer s > p_n such that sum_{k=1}^n p_k*s^(n-k) (the number [p_1,...,p_n] in base s) is prime, where p_k denotes the k-th prime.",
+  "id": "A217788",
+  "mentions": [
+    "A000040",
+    "A217785",
+    "A218465",
+    "A220072",
+    "A223934",
+    "A224197"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

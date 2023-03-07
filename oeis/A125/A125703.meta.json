@@ -1,0 +1,20 @@
+{
+  "description": "Table read by antidiagonals: row n contains the positive integers (in order) which are coprime to the n-th prime and do not occur in earlier rows.",
+  "id": "A125703",
+  "mentions": [
+    "A002110",
+    "A125704"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

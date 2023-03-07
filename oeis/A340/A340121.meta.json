@@ -1,0 +1,22 @@
+{
+  "description": "Odd composite integers m such that A054413(2*m-J(m,53)) == 1 (mod m), where J(m,53) is the Jacobi symbol.",
+  "id": "A340121",
+  "mentions": [
+    "A054413",
+    "A071904",
+    "A340096",
+    "A340118",
+    "A340119",
+    "A340120"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

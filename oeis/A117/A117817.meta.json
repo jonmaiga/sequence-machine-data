@@ -1,0 +1,19 @@
+{
+  "description": "Let T_n be the infinite sequence formed by starting with 1 and repeatedly reversing the digits and adding n to get the next term. If T_n eventually reaches a cycle, sequence gives length of that cycle, otherwise -1.",
+  "id": "A117817",
+  "mentions": [
+    "A117816",
+    "A118532"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 114,
+    "source": "oeis-entry"
+  }
+}

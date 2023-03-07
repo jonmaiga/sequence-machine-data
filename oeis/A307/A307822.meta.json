@@ -1,0 +1,22 @@
+{
+  "description": "The number of e-perfect numbers below 10^n.",
+  "id": "A307822",
+  "mentions": [
+    "A051377",
+    "A054979",
+    "A307821",
+    "A318645"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

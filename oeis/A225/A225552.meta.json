@@ -1,0 +1,24 @@
+{
+  "description": "Longest checkmate in king and rook versus king endgame on an n X n chessboard.",
+  "id": "A225552",
+  "mentions": [
+    "A225551",
+    "A225553",
+    "A225554",
+    "A225555",
+    "A225556",
+    "A225557",
+    "A227437"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 3,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of distinct terms in the first difference sequence of the reduced residue system of the n-th primorial.",
+  "id": "A329815",
+  "mentions": [
+    "A002110",
+    "A048670",
+    "A061498",
+    "A286941",
+    "A309497",
+    "A331118"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

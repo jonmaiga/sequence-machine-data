@@ -1,0 +1,19 @@
+{
+  "description": "Table of denominators in the Egyptian fraction representation of n/(n+1) by the greedy algorithm.",
+  "id": "A247765",
+  "mentions": [
+    "A100678",
+    "A100695"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

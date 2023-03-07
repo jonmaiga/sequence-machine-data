@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f.: log( 1 + (exp(x) - 1)^5 / 5! ).",
+  "id": "A346977",
+  "mentions": [
+    "A000481",
+    "A327506",
+    "A346955",
+    "A346974",
+    "A346975",
+    "A346976"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:21",
+    "offset": 5,
+    "size": 20,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of non-equivalent ways to choose three points in an equilateral triangle grid of side n.",
+  "id": "A230723",
+  "mentions": [
+    "A001399",
+    "A014409",
+    "A082966",
+    "A227327"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:03:23",
+    "offset": 1,
+    "size": 37,
+    "source": "joeis"
+  }
+}

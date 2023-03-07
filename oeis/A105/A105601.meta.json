@@ -1,0 +1,20 @@
+{
+  "description": "Assume the conjectured terms of A105594 are the correct beginnings of the trajectories described in A003508. a(n) is a record length of b(n) iterations to arrive at the collected trajectories. This sequence cites the b(n)'s.",
+  "id": "A105601",
+  "mentions": [
+    "A003508",
+    "A105593",
+    "A105594",
+    "A105600"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

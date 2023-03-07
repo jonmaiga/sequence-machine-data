@@ -1,0 +1,25 @@
+{
+  "description": "Number of proper divisors d of n such that either d=1 or Stern polynomial B(d,x) is reducible.",
+  "id": "A294892",
+  "mentions": [
+    "A032741",
+    "A186891",
+    "A283991",
+    "A294882",
+    "A294891",
+    "A294893",
+    "A294894",
+    "A294902"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

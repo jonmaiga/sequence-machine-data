@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest positive integer which can be represented as the sum of distinct nonzero square pyramidal numbers in exactly n ways, or 0 if no such integer exists.",
+  "id": "A350206",
+  "mentions": [
+    "A000330",
+    "A097563",
+    "A298246",
+    "A350205"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

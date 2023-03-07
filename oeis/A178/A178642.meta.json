@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that primorial(p)/2 - 2 is not prime.",
+  "id": "A178642",
+  "mentions": [
+    "A002110",
+    "A096177",
+    "A096547",
+    "A178641"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

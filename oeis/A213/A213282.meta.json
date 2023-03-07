@@ -1,0 +1,22 @@
+{
+  "description": "G.f. satisfies: A(x) = G(x/(1-x)^3) where G(x) = 1 + x*G(x)^3 is the g.f. of A001764.",
+  "id": "A213282",
+  "mentions": [
+    "A000108",
+    "A001764",
+    "A006319",
+    "A213281",
+    "A213336"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

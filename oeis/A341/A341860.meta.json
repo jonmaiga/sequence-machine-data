@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k such that A341857(k) = psi(k^2)/k = n, or 0 if no such k exists.",
+  "id": "A341860",
+  "mentions": [
+    "A341857"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

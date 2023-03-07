@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of the expectation of the process defined by randomly moving 2n balls between bins.",
+  "id": "A233470",
+  "mentions": [
+    "A001620",
+    "A234600"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

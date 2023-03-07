@@ -1,0 +1,18 @@
+{
+  "description": "Sorted areas of primitive Heronian triangles for which a rectangle exists with integer dimensions and with perimeter and area equal respectively to the perimeter and area of the triangle.",
+  "id": "A343769",
+  "mentions": [
+    "A224301"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

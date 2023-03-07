@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the maximum number of heptiamonds in a hexagon of order n.",
+  "id": "A298267",
+  "mentions": [
+    "A033581",
+    "A291582"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:19",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that cannot be expressed as the sum of distinct odd composite numbers.",
+  "id": "A257500",
+  "mentions": [
+    "A071904"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

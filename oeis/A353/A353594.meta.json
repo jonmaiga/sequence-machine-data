@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows, T(n, k) = Sum_{j=0..n} binomial(j, k)*A352687(n, j).",
+  "id": "A353594",
+  "mentions": [
+    "A068875",
+    "A238113",
+    "A352687"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

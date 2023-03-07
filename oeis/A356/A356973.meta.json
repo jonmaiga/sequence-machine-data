@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f. satisfies log(A(x)) = (exp(x * A(x)^3) - 1) * A(x).",
+  "id": "A356973",
+  "mentions": [
+    "A052880",
+    "A216136",
+    "A349557",
+    "A356960",
+    "A356972"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

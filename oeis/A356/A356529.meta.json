@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (n-1)! * Sum_{d|n} d^(n-d+1).",
+  "id": "A356529",
+  "mentions": [
+    "A342675",
+    "A356486",
+    "A356530"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

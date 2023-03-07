@@ -1,0 +1,22 @@
+{
+  "description": "Sum of the larger parts of the Goldbach partitions (p,q) of 2n such that all primes from p to q (inclusive) appear as a part in some Goldbach partition of p+q = 2n.",
+  "id": "A279728",
+  "mentions": [
+    "A010051",
+    "A279315",
+    "A279727",
+    "A279729"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

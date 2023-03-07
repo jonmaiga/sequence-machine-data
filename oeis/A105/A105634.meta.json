@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Sum_{k>0} Kronecker(k,7)*x^k*(1 + x^k)/(1 - x^k)^3.",
+  "id": "A105634",
+  "mentions": [
+    "A002656",
+    "A053724",
+    "A138809"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

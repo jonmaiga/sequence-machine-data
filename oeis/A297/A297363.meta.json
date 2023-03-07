@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that (3^ord(3, k) - 1)/k is prime, where ord(3, k) is the multiplicative order of 3 (mod k).",
+  "id": "A297363",
+  "mentions": [
+    "A050975",
+    "A053446"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

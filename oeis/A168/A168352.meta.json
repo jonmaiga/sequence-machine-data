@@ -1,0 +1,21 @@
+{
+  "description": "Products of 6 distinct odd primes.",
+  "id": "A168352",
+  "mentions": [
+    "A005408",
+    "A046391",
+    "A067885"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

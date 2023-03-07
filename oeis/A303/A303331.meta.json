@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the minimum size of a square integer grid allowing all triples of n points to form triangles of different areas.",
+  "id": "A303331",
+  "mentions": [
+    "A003022",
+    "A193838",
+    "A193839",
+    "A271490",
+    "A322740"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

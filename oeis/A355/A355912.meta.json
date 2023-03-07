@@ -1,0 +1,19 @@
+{
+  "description": "Negasemiternary (or NST) representation of the unit ambinumber (0,1).",
+  "id": "A355912",
+  "mentions": [
+    "A355904",
+    "A355911",
+    "A355913"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

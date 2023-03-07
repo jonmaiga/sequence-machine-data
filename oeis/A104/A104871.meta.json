@@ -1,0 +1,23 @@
+{
+  "description": "Positions of records A104867 in A104865.",
+  "id": "A104871",
+  "mentions": [
+    "A104865",
+    "A104866",
+    "A104867",
+    "A104868",
+    "A104869",
+    "A104870"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

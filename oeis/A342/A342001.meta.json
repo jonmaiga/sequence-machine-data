@@ -1,0 +1,44 @@
+{
+  "description": "Arithmetic derivative without its inherited divisor; the arithmetic derivative of n divided by A003557(n), which is a common divisor of both n and A003415(n).",
+  "id": "A342001",
+  "mentions": [
+    "A003415",
+    "A003557",
+    "A003961",
+    "A007947",
+    "A065464",
+    "A181819",
+    "A276086",
+    "A341998",
+    "A342002",
+    "A342414",
+    "A342416",
+    "A342456",
+    "A342459",
+    "A342463",
+    "A342919",
+    "A346485",
+    "A347234",
+    "A347235",
+    "A347395",
+    "A347954",
+    "A347959",
+    "A347961",
+    "A347963",
+    "A349396",
+    "A349612",
+    "A351945",
+    "A353571"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

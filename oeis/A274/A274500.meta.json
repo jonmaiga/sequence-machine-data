@@ -1,0 +1,19 @@
+{
+  "description": "The odd integers in the sequence appear in blocks and the successive sizes of these blocks are given by the sequence itself.",
+  "id": "A274500",
+  "mentions": [
+    "A275119",
+    "A275335"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

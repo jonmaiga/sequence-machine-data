@@ -1,0 +1,21 @@
+{
+  "description": "Positive negabinary-Niven numbers k (A331728) such that -k is a negative negabinary-Niven number (A331819).",
+  "id": "A331827",
+  "mentions": [
+    "A330711",
+    "A331091",
+    "A331728",
+    "A331819"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

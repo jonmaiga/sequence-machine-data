@@ -1,0 +1,20 @@
+{
+  "description": "The primitive abundant numbers k (A071395) arranged by the decreasing values of their abundancy index sigma(k)/k.",
+  "id": "A307098",
+  "mentions": [
+    "A000203",
+    "A005100",
+    "A005101",
+    "A071395"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

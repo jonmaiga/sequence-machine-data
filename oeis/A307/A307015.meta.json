@@ -1,0 +1,17 @@
+{
+  "description": "Smallest number with same number of divisors as 3*a(n-1).",
+  "id": "A307015",
+  "mentions": [
+    "A019505"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

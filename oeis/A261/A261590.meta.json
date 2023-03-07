@@ -1,0 +1,27 @@
+{
+  "description": "7-Modular Catalan Numbers C_{n,7}.",
+  "id": "A261590",
+  "mentions": [
+    "A000012",
+    "A005773",
+    "A011782",
+    "A036768",
+    "A159772",
+    "A261588",
+    "A261589",
+    "A261591",
+    "A261592",
+    "A295679"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

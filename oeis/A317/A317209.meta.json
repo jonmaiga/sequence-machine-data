@@ -1,0 +1,17 @@
+{
+  "description": "Coefficients arising from the Taylor series expansion of log(arcsin(x)/log(1+x)).",
+  "id": "A317209",
+  "mentions": [
+    "A013568"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

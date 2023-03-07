@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows in which row n lists n terms, starting with n^3 + n - 1, such that the difference between successive terms is equal to n^3 - 1 = A068601(n).",
+  "id": "A162616",
+  "mentions": [
+    "A000583",
+    "A068601",
+    "A159797",
+    "A162609",
+    "A162610",
+    "A162611",
+    "A162612",
+    "A162613",
+    "A162614",
+    "A162615"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:18:17",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

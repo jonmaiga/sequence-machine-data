@@ -1,0 +1,27 @@
+{
+  "description": "Matrix inverse of the Narayana triangle A001263.",
+  "id": "A103364",
+  "mentions": [
+    "A000108",
+    "A001263",
+    "A055133",
+    "A086646",
+    "A103365",
+    "A103366",
+    "A103367",
+    "A104033",
+    "A115369"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Number of connected unlabeled loopless multigraphs with 3 vertices and n edges.",
+  "id": "A253186",
+  "mentions": [
+    "A001399",
+    "A003082",
+    "A004526",
+    "A014395",
+    "A014396",
+    "A014397",
+    "A014398",
+    "A034198",
+    "A034253",
+    "A050535",
+    "A069905",
+    "A076864",
+    "A191646",
+    "A244239"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

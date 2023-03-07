@@ -1,0 +1,22 @@
+{
+  "description": "Rectangular array read by descending antidiagonals: the distinct rows of the quotient array, A307693, of A003188.",
+  "id": "A327314",
+  "mentions": [
+    "A000040",
+    "A003188",
+    "A037693",
+    "A307693",
+    "A326925"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

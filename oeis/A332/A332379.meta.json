@@ -1,0 +1,17 @@
+{
+  "description": "Numbers of the form 3^k + prime, with k > 1.",
+  "id": "A332379",
+  "mentions": [
+    "A218044"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

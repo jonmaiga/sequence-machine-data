@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of compositions of n into k primes (i.e., ordered sequences of k primes having sum n; n>=2, k>=1).",
+  "id": "A121303",
+  "mentions": [
+    "A010051",
+    "A023360",
+    "A073610",
+    "A098238",
+    "A121304",
+    "A224344",
+    "A341459"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

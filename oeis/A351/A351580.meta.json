@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the number of multisets of size n-1 consisting of permutations of n elements.",
+  "id": "A351580",
+  "mentions": [
+    "A000315",
+    "A030495",
+    "A036740",
+    "A071919",
+    "A123234",
+    "A134366",
+    "A185141",
+    "A263921",
+    "A344690",
+    "A351409"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

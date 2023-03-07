@@ -1,0 +1,17 @@
+{
+  "description": "G.f. = 18th root of Hamming weight enumerator of [18,9,8]_4 self-dual code S_18 over GF(4) (cf. A014487).",
+  "id": "A109778",
+  "mentions": [
+    "A014487"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:17:24",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

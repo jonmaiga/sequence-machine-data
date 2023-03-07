@@ -1,0 +1,22 @@
+{
+  "description": "Number of overcubic partitions of n.",
+  "id": "A246584",
+  "mentions": [
+    "A001935",
+    "A002513",
+    "A246585",
+    "A246586",
+    "A246587"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

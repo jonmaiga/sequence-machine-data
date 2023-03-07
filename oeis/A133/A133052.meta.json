@@ -1,0 +1,20 @@
+{
+  "description": "Cubes of perfect numbers.",
+  "id": "A133052",
+  "mentions": [
+    "A000396",
+    "A000578",
+    "A030078"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

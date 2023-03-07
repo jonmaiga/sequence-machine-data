@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that it is possible to form a palindrome by concatenating all the binary strings from 1 to k.",
+  "id": "A291633",
+  "mentions": [
+    "A000788",
+    "A289469",
+    "A360320"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

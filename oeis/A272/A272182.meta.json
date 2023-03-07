@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of p_3 (so named by S. Finch), a probability related to Vallée's constant.",
+  "id": "A272182",
+  "mentions": [
+    "A143302",
+    "A143303",
+    "A145426",
+    "A247318"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": -1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

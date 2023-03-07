@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest integer that is the sum of n distinct terms of the complete sequence A075058.",
+  "id": "A202618",
+  "mentions": [
+    "A007924",
+    "A066352",
+    "A075058",
+    "A200947",
+    "A201997"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

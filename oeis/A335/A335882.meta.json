@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k for which A331410(k) = 2.",
+  "id": "A335882",
+  "mentions": [
+    "A000265",
+    "A000668",
+    "A144482",
+    "A331410",
+    "A334102",
+    "A335430",
+    "A335431",
+    "A335874"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of prime quadruples with smallest member < 2^n.",
+  "id": "A215473",
+  "mentions": [
+    "A007053",
+    "A007530",
+    "A014561",
+    "A033843",
+    "A050258",
+    "A112540"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

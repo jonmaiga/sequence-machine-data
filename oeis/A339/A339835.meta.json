@@ -1,0 +1,20 @@
+{
+  "description": "Number of rooted bicolored trees on n unlabeled nodes such that every white node is adjacent to a black node.",
+  "id": "A339835",
+  "mentions": [
+    "A038055",
+    "A339831",
+    "A339834",
+    "A339838"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

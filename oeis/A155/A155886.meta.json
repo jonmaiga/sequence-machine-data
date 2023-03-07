@@ -1,0 +1,20 @@
+{
+  "description": "Least k such that 2^(2^k) = n (mod k).",
+  "id": "A155886",
+  "mentions": [
+    "A015910",
+    "A036236",
+    "A155836"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

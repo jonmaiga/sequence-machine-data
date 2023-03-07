@@ -1,0 +1,18 @@
+{
+  "description": "Templates for lunar primes in any base (version 1).",
+  "id": "A171750",
+  "mentions": [
+    "A171752"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

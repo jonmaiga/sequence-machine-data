@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n, n+1 and n+2 have the same number of divisors, and that number of divisors is larger than 4.",
+  "id": "A171666",
+  "mentions": [
+    "A005237",
+    "A005238",
+    "A171665"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

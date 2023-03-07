@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 100; for n>1, a(n) = a(n-1) + digitsum(a(n-1)).",
+  "id": "A169737",
+  "mentions": [
+    "A007618",
+    "A065075",
+    "A169732"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

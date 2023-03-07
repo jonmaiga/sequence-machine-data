@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k^2 + 1 = p*q, p and q primes and | p-q | <= k.",
+  "id": "A180508",
+  "mentions": [
+    "A002522",
+    "A005574",
+    "A027862",
+    "A134406",
+    "A134407"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

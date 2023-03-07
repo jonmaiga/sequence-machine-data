@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 1 + Sum_{k=0..n-4} a(k) * a(n-k-4).",
+  "id": "A346073",
+  "mentions": [
+    "A000108",
+    "A007317",
+    "A090344",
+    "A216604",
+    "A307971",
+    "A346074"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:19",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

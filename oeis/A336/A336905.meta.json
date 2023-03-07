@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that for any i > 0 there is some j > 0 such that the prime(i)-adic valuation of n, say x, equals the prime(j)-adic valuation of n and x = abs(i-j) (where prime(k) denotes the k-th prime number and the p-adic valuation of a number is the greatest m such that p^m divides that number).",
+  "id": "A336905",
+  "mentions": [
+    "A006094",
+    "A336880"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

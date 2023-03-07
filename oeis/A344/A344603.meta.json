@@ -1,0 +1,21 @@
+{
+  "description": "Triangular numbers whose Hamming weight is also triangular.",
+  "id": "A344603",
+  "mentions": [
+    "A000120",
+    "A000217",
+    "A344602"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

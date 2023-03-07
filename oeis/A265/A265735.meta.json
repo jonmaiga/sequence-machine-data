@@ -1,0 +1,18 @@
+{
+  "description": "Integers in the interval [Pi*k - 1/k, Pi*k + 1/k] for some k > 0.",
+  "id": "A265735",
+  "mentions": [
+    "A000796",
+    "A265739"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(1)=1, a(n) = a(n-1) + n^4 if n odd, a(n) = a(n-1) + n^3 if n is even.",
+  "id": "A140160",
+  "mentions": [
+    "A000027",
+    "A000217",
+    "A000330",
+    "A000537",
+    "A000538",
+    "A000539",
+    "A136047",
+    "A140113"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:06:59",
+    "offset": 1,
+    "size": 32,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n not coprime to 10 such that there exists an integer k > 1 where n^k contains n as its last digits in base 10.",
+  "id": "A255577",
+  "mentions": [
+    "A065502",
+    "A072495"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

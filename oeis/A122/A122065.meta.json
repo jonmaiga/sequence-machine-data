@@ -1,0 +1,22 @@
+{
+  "description": "Take sum of squares of digits of previous term; start with 74169.",
+  "id": "A122065",
+  "mentions": [
+    "A000216",
+    "A000218",
+    "A003132"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:10:11",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Conjectured number of Fibonacci numbers with exactly n 0-bits in their binary representation.",
+  "id": "A222601",
+  "mentions": [
+    "A004685",
+    "A214853",
+    "A222295",
+    "A222296",
+    "A222602"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Expansion of (f(-q^5)^5 / f(-q) + f(q^5)^5 / f(q)) / 2 in powers of q^2 where f() is a Ramanujan theta function.",
+  "id": "A134080",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A053723",
+    "A110712",
+    "A121373",
+    "A129303",
+    "A138483",
+    "A138512",
+    "A138557"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

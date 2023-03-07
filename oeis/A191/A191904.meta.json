@@ -1,0 +1,25 @@
+{
+  "description": "Square array read by antidiagonals up: T(n,k) = 1-k if k divides n, else 1.",
+  "id": "A191904",
+  "mentions": [
+    "A127093",
+    "A156734",
+    "A175992",
+    "A176079",
+    "A177121",
+    "A191907"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:38:39",
+    "offset": 1,
+    "size": 120,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Powers but not squares which are sum of consecutive primes less than 10^7 ordered according to the proximity of the first prime of the sum to the first prime: 2.",
+  "id": "A227319",
+  "mentions": [
+    "A141092",
+    "A227249"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

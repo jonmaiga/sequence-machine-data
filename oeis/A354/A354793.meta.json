@@ -1,0 +1,21 @@
+{
+  "description": "Hamming weight of A354783(n).",
+  "id": "A354793",
+  "mentions": [
+    "A354169",
+    "A354757",
+    "A354783",
+    "A354789",
+    "A355150"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

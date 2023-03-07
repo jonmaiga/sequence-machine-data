@@ -1,0 +1,28 @@
+{
+  "description": "Primes containing a digit 4.",
+  "id": "A284290",
+  "mentions": [
+    "A011534",
+    "A056709",
+    "A062669",
+    "A106093",
+    "A208270",
+    "A208272",
+    "A212525",
+    "A257667",
+    "A257668",
+    "A284291",
+    "A284292"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

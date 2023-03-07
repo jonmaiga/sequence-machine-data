@@ -1,0 +1,25 @@
+{
+  "description": "Triangular numbers representable as 2^x + 3^y.",
+  "id": "A262251",
+  "mentions": [
+    "A000217",
+    "A004050",
+    "A225390",
+    "A226499",
+    "A227027",
+    "A259745",
+    "A259746",
+    "A262242"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest prime number which can be represented as x^2 + h*y^2 with x > 0 and y > 0 for each h in the first n Heegner numbers (A003173).",
+  "id": "A338087",
+  "mentions": [
+    "A003173"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

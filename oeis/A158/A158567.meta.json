@@ -1,0 +1,20 @@
+{
+  "description": "First differences of A157680.",
+  "id": "A158567",
+  "mentions": [
+    "A157680"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

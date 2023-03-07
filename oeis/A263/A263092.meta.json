@@ -1,0 +1,28 @@
+{
+  "description": "Numbers whose squares are in A236562; numbers n such that there is at least one such k for which k - d(k) = n^2, where d(k) is the number of divisors of k (A000005).",
+  "id": "A263092",
+  "mentions": [
+    "A000005",
+    "A000196",
+    "A002182",
+    "A002183",
+    "A049820",
+    "A060990",
+    "A236562",
+    "A262515",
+    "A263087",
+    "A263093",
+    "A263094",
+    "A263098"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

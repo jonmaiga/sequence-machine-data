@@ -1,0 +1,33 @@
+{
+  "description": "Triangle T(n,k) = n!*binomial(n-1, k-1) for 1 <= k <= n, read by rows.",
+  "id": "A156992",
+  "mentions": [
+    "A000142",
+    "A000262",
+    "A001286",
+    "A001754",
+    "A001755",
+    "A001777",
+    "A001778",
+    "A002866",
+    "A007318",
+    "A062119",
+    "A084938",
+    "A105278",
+    "A111597",
+    "A111598",
+    "A123072"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

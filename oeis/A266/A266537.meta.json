@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k), n>=1, k>=1, in which column k lists the twice odd numbers (A016825) interleaved with 2*k-1 zeros, and the first positive element of column k is in the row A002378(k), with T(1,1) = 0.",
+  "id": "A266537",
+  "mentions": [
+    "A002378",
+    "A016825",
+    "A146076",
+    "A196020",
+    "A236106",
+    "A237593",
+    "A271343"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

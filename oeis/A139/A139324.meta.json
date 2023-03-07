@@ -1,0 +1,18 @@
+{
+  "description": "Difference between two sequences of primes which indicate two different kinds of places in the prime sequence with some vanishing third-order difference.",
+  "id": "A139324",
+  "mentions": [
+    "A139313"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

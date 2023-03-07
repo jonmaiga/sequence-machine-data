@@ -1,0 +1,24 @@
+{
+  "description": "Hankel determinants of order n of A225439(n): a(n)=det[A225439(i+j-2)], i,j=0..n, n>=0.",
+  "id": "A227143",
+  "mentions": [
+    "A059486",
+    "A074962",
+    "A101799",
+    "A101800",
+    "A165343",
+    "A165344",
+    "A225439"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

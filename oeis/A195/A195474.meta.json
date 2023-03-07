@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of normalized Philo sum, Philo(ABC,G), where G=centroid of the 1,sqrt(2),sqrt(3) right triangle ABC.",
+  "id": "A195474",
+  "mentions": [
+    "A195304",
+    "A195471",
+    "A195472",
+    "A195473"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

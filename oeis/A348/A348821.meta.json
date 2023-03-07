@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = number of chord labeled loopless diagrams by number of K_6.",
+  "id": "A348821",
+  "mentions": [
+    "A003436",
+    "A190835",
+    "A348813",
+    "A348815",
+    "A348818",
+    "A348822",
+    "A348823"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

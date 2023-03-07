@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T(n,k) read by rows: the number of traceless symmetric binary n X n matrices with 2k one's and no all-1 2 X 2 submatrix.",
+  "id": "A352472",
+  "mentions": [
+    "A000217",
+    "A000332",
+    "A006855",
+    "A077269",
+    "A093566",
+    "A191966",
+    "A345249",
+    "A350189"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

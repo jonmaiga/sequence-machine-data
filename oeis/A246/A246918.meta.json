@@ -1,0 +1,19 @@
+{
+  "description": "The length of the shortest nontrivial integral cevian of an equilateral triangle of side n that divides an edge into two integral parts, or 0 if no such cevian exists.",
+  "id": "A246918",
+  "mentions": [
+    "A229839",
+    "A246919",
+    "A246920"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

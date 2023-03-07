@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of end rhyme patterns of a poem of an even number of lines (2n) with 1<=k<=n evenly rhymed sounds.",
+  "id": "A156289",
+  "mentions": [
+    "A001147",
+    "A001850",
+    "A001880",
+    "A002450",
+    "A002451",
+    "A005046",
+    "A036040",
+    "A036969",
+    "A096162",
+    "A136630",
+    "A241171",
+    "A257468",
+    "A257490"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

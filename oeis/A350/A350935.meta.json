@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest number m such that tau(m-1) = tau(m+1) = n*tau(m) or 0 if no such m exists, where tau(k) = A000005(k).",
+  "id": "A350935",
+  "mentions": [
+    "A000005",
+    "A190646",
+    "A350132",
+    "A350934",
+    "A350936"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

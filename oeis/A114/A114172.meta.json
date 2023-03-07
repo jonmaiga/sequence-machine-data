@@ -1,0 +1,20 @@
+{
+  "description": "Triangle, read by rows, where the g.f. of column n, C_n(x), equals the g.f. of row n, R_n(x), divided by (1-x)^(n+1), for n>=0; e.g., C_n(x) = R_n(x)/(1-x)^(n+1).",
+  "id": "A114172",
+  "mentions": [
+    "A114173",
+    "A114174",
+    "A114175"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

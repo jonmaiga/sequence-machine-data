@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows, T(n,k) = n^2 - k*(k+1)/2 if k*(k+1)/2 <= n^2.",
+  "id": "A214859",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A005563",
+    "A022264",
+    "A028872",
+    "A028878",
+    "A034856",
+    "A055999",
+    "A214857"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

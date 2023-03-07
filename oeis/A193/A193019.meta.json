@@ -1,0 +1,19 @@
+{
+  "description": "-log(log(2)) / log(2)",
+  "id": "A193019",
+  "mentions": [
+    "A002162",
+    "A074785"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:51:43",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

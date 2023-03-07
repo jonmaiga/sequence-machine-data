@@ -1,0 +1,26 @@
+{
+  "description": "Number of achiral colorings of the 30 triangular faces of a regular icosahedron or the 30 vertices of a regular dodecahedron using n or fewer colors.",
+  "id": "A337960",
+  "mentions": [
+    "A006003",
+    "A054472",
+    "A252704",
+    "A337897",
+    "A337898",
+    "A337953",
+    "A337959",
+    "A337962"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:47:11",
+    "offset": 1,
+    "size": 17,
+    "source": "joeis"
+  }
+}

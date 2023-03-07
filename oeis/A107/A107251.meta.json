@@ -1,0 +1,22 @@
+{
+  "description": "Supercatalan numbers SF(2n)/(SF(n)*SF(n+1)) where SF is the superfactorial function A000178.",
+  "id": "A107251",
+  "mentions": [
+    "A000108",
+    "A000142",
+    "A000178",
+    "A074962",
+    "A079478"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

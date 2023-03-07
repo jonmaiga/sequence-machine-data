@@ -1,0 +1,23 @@
+{
+  "description": "Integers m in A001694 such that 3 | d(m^2), where d(n) = A000005(n).",
+  "id": "A354799",
+  "mentions": [
+    "A000005",
+    "A001694",
+    "A008585",
+    "A076400",
+    "A350014"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Numbers n such that sigma(n) = 7*phi(n).",
+  "id": "A136540",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A068390",
+    "A104900",
+    "A104901",
+    "A104902",
+    "A104903"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Filter sequence for all such sequences S, for which S(A091206(k)) = constant for all k >= 3, where A091206 gives primes whose binary representation encodes a polynomial irreducible over GF(2).",
+  "id": "A305904",
+  "mentions": [
+    "A091206",
+    "A305815",
+    "A305816",
+    "A305817",
+    "A305900",
+    "A305903"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

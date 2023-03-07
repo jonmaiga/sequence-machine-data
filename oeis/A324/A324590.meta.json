@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = n!^(4*n) * Product_{k=1..n} binomial(n + 1/k^2, n).",
+  "id": "A324590",
+  "mentions": [
+    "A001620",
+    "A303670",
+    "A306760",
+    "A306774",
+    "A324589",
+    "A324596"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

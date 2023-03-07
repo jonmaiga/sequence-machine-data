@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k*(k+6) gives the concatenation of two numbers m and m-5.",
+  "id": "A116256",
+  "mentions": [
+    "A116125",
+    "A116242",
+    "A116255",
+    "A116257",
+    "A116262"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:44",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

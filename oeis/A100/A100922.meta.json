@@ -1,0 +1,26 @@
+{
+  "description": "n appears A000120(n) times (appearances equal number of 1-bits).",
+  "id": "A100922",
+  "mentions": [
+    "A000120",
+    "A000788",
+    "A030530",
+    "A100921",
+    "A163510",
+    "A227737",
+    "A243067"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

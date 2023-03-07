@@ -1,0 +1,23 @@
+{
+  "description": "Smaller of two consecutive odd composites.",
+  "id": "A269345",
+  "mentions": [
+    "A001359",
+    "A016921",
+    "A061673",
+    "A071904",
+    "A106564",
+    "A269346"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

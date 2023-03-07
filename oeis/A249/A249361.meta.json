@@ -1,0 +1,17 @@
+{
+  "description": "Number of length 2+6 0..n arrays with every seven consecutive terms having six times some element equal to the sum of the remaining six",
+  "id": "A249361",
+  "mentions": [
+    "A249359"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

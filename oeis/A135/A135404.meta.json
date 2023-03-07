@@ -1,0 +1,19 @@
+{
+  "description": "Gessel sequence: the number of paths of length 2m in the plane, starting and ending at (0,1), with unit steps in the four directions (north, east, south, west) and staying in the region y > 0, x > -y.",
+  "id": "A135404",
+  "mentions": [
+    "A060900"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

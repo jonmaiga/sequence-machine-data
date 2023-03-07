@@ -1,0 +1,25 @@
+{
+  "description": "g_n(6) where g is the weak Goodstein function defined in A266202.",
+  "id": "A271987",
+  "mentions": [
+    "A137411",
+    "A265034",
+    "A266201",
+    "A266202",
+    "A266203",
+    "A266205",
+    "A267647",
+    "A267648"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

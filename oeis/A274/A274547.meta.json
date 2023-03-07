@@ -1,0 +1,21 @@
+{
+  "description": "Number of set partitions of [n] with alternating parity of elements.",
+  "id": "A274547",
+  "mentions": [
+    "A124419",
+    "A274310",
+    "A274581",
+    "A274859"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

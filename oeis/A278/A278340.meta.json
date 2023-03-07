@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n*(n+1)/2 into distinct squares.",
+  "id": "A278340",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A033461",
+    "A278339"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

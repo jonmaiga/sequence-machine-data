@@ -1,0 +1,19 @@
+{
+  "description": "The smallest magic constant of pan-diagonal magic squares which consist of distinct prime numbers",
+  "id": "A179440",
+  "mentions": [
+    "A073523"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 4,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

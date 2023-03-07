@@ -1,0 +1,22 @@
+{
+  "description": "3-Round numbers: numbers n such that every number less than n and relatively prime to n has at most three prime factors (counting multiplicities).",
+  "id": "A122937",
+  "mentions": [
+    "A048597",
+    "A051250",
+    "A089016",
+    "A122936"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Irregular table where row n (n >= 0) starts with n, the next term is A219651(n), and the successive terms are obtained by repeatedly subtracting the sum of digits in the previous term's factorial expansion, until zero is reached, after which the next row starts with one larger n.",
+  "id": "A219659",
+  "mentions": [
+    "A007623",
+    "A034968",
+    "A218254",
+    "A219649",
+    "A219651",
+    "A219657",
+    "A219666"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Central terms of triangle A236961: a(n) = A236961(2*n,n) for n >= 0.",
+  "id": "A359716",
+  "mentions": [
+    "A236960",
+    "A236961"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

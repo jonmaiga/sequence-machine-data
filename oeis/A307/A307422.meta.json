@@ -1,0 +1,18 @@
+{
+  "description": "End squares for a trapped knight moving on a diagonally numbered 2D board where the knight starts from square n.",
+  "id": "A307422",
+  "mentions": [
+    "A306291",
+    "A316588"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

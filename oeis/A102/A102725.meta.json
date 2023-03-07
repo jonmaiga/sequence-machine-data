@@ -1,0 +1,20 @@
+{
+  "description": "Smallest prime equal to the sum of n distinct pairs of consecutive primes.",
+  "id": "A102725",
+  "mentions": [
+    "A001043",
+    "A102724",
+    "A102729"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k whose sum and product of digits are substrings of k.",
+  "id": "A302768",
+  "mentions": [
+    "A007953",
+    "A007954",
+    "A052018",
+    "A227510"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

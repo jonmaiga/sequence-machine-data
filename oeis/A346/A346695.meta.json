@@ -1,0 +1,23 @@
+{
+  "description": "Numbers with more divisors than digits in their binary representation.",
+  "id": "A346695",
+  "mentions": [
+    "A000005",
+    "A070939",
+    "A135772",
+    "A175495",
+    "A346730"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

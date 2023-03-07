@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that sum of all primes <=n is not prime.",
+  "id": "A228357",
+  "mentions": [
+    "A034387",
+    "A228102"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

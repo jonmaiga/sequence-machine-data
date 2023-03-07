@@ -1,0 +1,20 @@
+{
+  "description": "Integers n such that n^2 can be represented as 2p + 3q with p and q primes not necessarily distinct.",
+  "id": "A219958",
+  "mentions": [
+    "A079026",
+    "A219955",
+    "A219956",
+    "A219957"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

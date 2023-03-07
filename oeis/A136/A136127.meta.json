@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of {1,2,...,n} having excedance set {1,2,...,k} for some k=0...n-1 (for k=0 we have the empty set). The excedance set of a permutation p in S_n is the set of indices i such that p(i)>i.",
+  "id": "A136127",
+  "mentions": [
+    "A136126"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

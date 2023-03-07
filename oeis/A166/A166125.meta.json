@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of sqrt(229).",
+  "id": "A166125",
+  "mentions": [
+    "A002193",
+    "A154597",
+    "A166126"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:34:29",
+    "offset": 2,
+    "size": 105,
+    "source": "joeis"
+  }
+}

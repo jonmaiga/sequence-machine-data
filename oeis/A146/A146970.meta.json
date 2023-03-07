@@ -1,0 +1,18 @@
+{
+  "description": "Created from A135506 by adding successive terms as: a(n) = a(n - 1) + lcm(n, a(n - 1)); f(n) = (a(n)/a(n - 1) - 1) + (a(n + 1)/a(n) - 1).",
+  "id": "A146970",
+  "mentions": [
+    "A135506"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

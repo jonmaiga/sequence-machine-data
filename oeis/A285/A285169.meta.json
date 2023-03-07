@@ -1,0 +1,17 @@
+{
+  "description": "Column 6 of A285165.",
+  "id": "A285169",
+  "mentions": [
+    "A285165"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 7,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Smallest order for which there are n nonisomorphic finite Hamiltonian groups, or 0 if no such order exists.",
+  "id": "A104453",
+  "mentions": [
+    "A000688",
+    "A063966",
+    "A104404",
+    "A104407",
+    "A104452",
+    "A104488"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

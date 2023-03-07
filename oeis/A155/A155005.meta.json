@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number having exactly n divisors that are contained in its decimal representation.",
+  "id": "A155005",
+  "mentions": [
+    "A121041"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

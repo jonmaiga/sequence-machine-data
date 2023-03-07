@@ -1,0 +1,22 @@
+{
+  "description": "Fixed points in A258767.",
+  "id": "A258768",
+  "mentions": [
+    "A075380",
+    "A075381",
+    "A256271",
+    "A258766",
+    "A258767",
+    "A258827"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

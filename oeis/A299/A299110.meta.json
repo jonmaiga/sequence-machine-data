@@ -1,0 +1,21 @@
+{
+  "description": "Prime(r) for r such that prime(r) - prime(r-1) = 12 and prime(r-1) - prime(r-2) = 2.",
+  "id": "A299110",
+  "mentions": [
+    "A056240",
+    "A288814",
+    "A293652",
+    "A295185"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

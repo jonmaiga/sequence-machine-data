@@ -1,0 +1,31 @@
+{
+  "description": "Inverse of a generalized Stirling number triangle of first kind.",
+  "id": "A105794",
+  "mentions": [
+    "A000296",
+    "A007318",
+    "A008277",
+    "A039755",
+    "A048993",
+    "A094645",
+    "A105793",
+    "A111577",
+    "A143395",
+    "A143494",
+    "A154537",
+    "A227341"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

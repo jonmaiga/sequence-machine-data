@@ -1,0 +1,24 @@
+{
+  "description": "Recurrence equation a(n+1) = a(n)^4 - 4*a(n)^2 + 2 with a(0) = 5.",
+  "id": "A219164",
+  "mentions": [
+    "A001999",
+    "A003487",
+    "A003501",
+    "A219162",
+    "A219163",
+    "A219165"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

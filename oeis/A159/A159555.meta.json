@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m where m^2 divides A159553(m), where A159553(m) = Sum_{k=0..m} binomial(m,k) * gcd(m,k).",
+  "id": "A159555",
+  "mentions": [
+    "A159068",
+    "A159458",
+    "A159553",
+    "A159554"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

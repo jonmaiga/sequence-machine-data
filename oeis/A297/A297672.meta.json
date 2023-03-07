@@ -1,0 +1,22 @@
+{
+  "description": "Array with four columns read by rows: T(n,k) = number of n step walks in the first octant on a square lattice with last step being right (k=1), left (k=2), up (k=3) or down (k=4).",
+  "id": "A297672",
+  "mentions": [
+    "A001263",
+    "A005558"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabf",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

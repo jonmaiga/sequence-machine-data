@@ -1,0 +1,25 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into distinct parts >= 6.",
+  "id": "A339104",
+  "mentions": [
+    "A017900",
+    "A025151",
+    "A032020",
+    "A032022",
+    "A185326",
+    "A339101",
+    "A339102",
+    "A339103"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 0,
+    "size": 58,
+    "source": "joeis"
+  }
+}

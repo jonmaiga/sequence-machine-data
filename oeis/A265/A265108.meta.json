@@ -1,0 +1,18 @@
+{
+  "description": "The number of n-digit numbers in A264847 (pluritriangular numbers).",
+  "id": "A265108",
+  "mentions": [
+    "A264847"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

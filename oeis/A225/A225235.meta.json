@@ -1,0 +1,21 @@
+{
+  "description": "Emirps whose internal digits are also an emirp.",
+  "id": "A225235",
+  "mentions": [
+    "A006567",
+    "A069686",
+    "A210498"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

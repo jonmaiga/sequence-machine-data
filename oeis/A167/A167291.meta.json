@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A137505(2n) + A137505(2n+1).",
+  "id": "A167291",
+  "mentions": [
+    "A109499",
+    "A137505"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

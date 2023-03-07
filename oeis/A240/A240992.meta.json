@@ -1,0 +1,19 @@
+{
+  "description": "The odd part of A240972.",
+  "id": "A240992",
+  "mentions": [
+    "A000265",
+    "A240972"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

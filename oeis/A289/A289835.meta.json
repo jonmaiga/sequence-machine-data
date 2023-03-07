@@ -1,0 +1,20 @@
+{
+  "description": "Number of units u in Z/(2n-1)Z such that Phi(4,u) is a unit, where Phi is the cyclotomic polynomial.",
+  "id": "A289835",
+  "mentions": [
+    "A058026",
+    "A289460"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

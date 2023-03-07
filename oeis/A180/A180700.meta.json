@@ -1,0 +1,20 @@
+{
+  "description": "16^a(n) is smallest power of 16 beginning with n.",
+  "id": "A180700",
+  "mentions": [
+    "A180698",
+    "A180699",
+    "A180702"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

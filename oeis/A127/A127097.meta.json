@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T(n,m) = A127093 * A126988 read by rows.",
+  "id": "A127097",
+  "mentions": [
+    "A000203",
+    "A001001",
+    "A001157",
+    "A001187",
+    "A126988",
+    "A127093",
+    "A127098"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

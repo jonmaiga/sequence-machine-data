@@ -1,0 +1,17 @@
+{
+  "description": "\"Wondrous representation\" [left to right] of positive integer n, n >= 2.",
+  "id": "A303255",
+  "mentions": [
+    "A303433"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 2,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

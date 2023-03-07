@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=1. a(n) = a(n-1) + number of Fibonacci numbers among the first (n-1) terms of the sequence.",
+  "id": "A129896",
+  "mentions": [
+    "A131349"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

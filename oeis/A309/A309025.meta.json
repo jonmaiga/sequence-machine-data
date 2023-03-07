@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of x * Product_{k>=0} (1 + x^(2^k) + x^(2^(k+3))).",
+  "id": "A309025",
+  "mentions": [
+    "A002487",
+    "A112970",
+    "A309026"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

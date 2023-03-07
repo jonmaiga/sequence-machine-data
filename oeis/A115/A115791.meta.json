@@ -1,0 +1,20 @@
+{
+  "description": "Number of different ways to select n elements from five sets of n elements under the precondition of choosing at least one element from each set.",
+  "id": "A115791",
+  "mentions": [
+    "A115111",
+    "A115112",
+    "A115246"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

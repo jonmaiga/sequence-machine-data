@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form 256n+129.",
+  "id": "A105130",
+  "mentions": [
+    "A002145",
+    "A007521",
+    "A105126",
+    "A105132"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:13:23",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

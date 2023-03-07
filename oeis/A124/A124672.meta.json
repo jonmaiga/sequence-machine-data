@@ -1,0 +1,21 @@
+{
+  "description": "Oblong (promic) abundant numbers = abundant numbers of the form k(k+1).",
+  "id": "A124672",
+  "mentions": [
+    "A002378",
+    "A005101",
+    "A077804"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

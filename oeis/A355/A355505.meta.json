@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of distinct cycles when iterating the function f_n(x), where f_n(x) is the sum of the digits in base n of x^2.",
+  "id": "A355505",
+  "mentions": [
+    "A004159",
+    "A061903",
+    "A159918"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 2,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

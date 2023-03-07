@@ -1,0 +1,21 @@
+{
+  "description": "A130123 * A128174.",
+  "id": "A134352",
+  "mentions": [
+    "A128174",
+    "A130123",
+    "A134353"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

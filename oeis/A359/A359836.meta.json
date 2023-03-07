@@ -1,0 +1,26 @@
+{
+  "description": "Parity of A353418, where A353418 is Dirichlet inverse of the characteristic function for numbers k where A156552(k) is a multiple of 3.",
+  "id": "A359836",
+  "mentions": [
+    "A003961",
+    "A156552",
+    "A329609",
+    "A348717",
+    "A353269",
+    "A353348",
+    "A353418",
+    "A359826",
+    "A359835"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

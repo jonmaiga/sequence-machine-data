@@ -1,0 +1,38 @@
+{
+  "description": "Array read by antidiagonals: ((floor(sqrt(n)) + sqrt(n))^k + (floor(sqrt(n)) - sqrt(n))^k)/2 for columns k >= 0 and rows n >= 0.",
+  "id": "A191347",
+  "mentions": [
+    "A000007",
+    "A001077",
+    "A001333",
+    "A002203",
+    "A005667",
+    "A011782",
+    "A014448",
+    "A026150",
+    "A080040",
+    "A080042",
+    "A081294",
+    "A081341",
+    "A084059",
+    "A084128",
+    "A085447",
+    "A108851",
+    "A141041",
+    "A155543",
+    "A170931",
+    "A191348"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Least semiprime composed of a square and a positive cube in n different ways.",
+  "id": "A122956",
+  "mentions": [
+    "A001358",
+    "A055394",
+    "A066649",
+    "A123048"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

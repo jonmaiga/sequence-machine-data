@@ -1,0 +1,28 @@
+{
+  "description": "Least number k such that lcm{1,2,...,k}/denominator of harmonic number H(k) = 2n-1.",
+  "id": "A112822",
+  "mentions": [
+    "A098464",
+    "A110566",
+    "A112813",
+    "A112814",
+    "A112815",
+    "A112816",
+    "A112817",
+    "A112818",
+    "A112819",
+    "A112820",
+    "A112821"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

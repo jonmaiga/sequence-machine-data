@@ -1,0 +1,37 @@
+{
+  "description": "Heinz numbers of integer partitions with maximum adjusted frequency depth for partitions of that sum.",
+  "id": "A325283",
+  "mentions": [
+    "A008284",
+    "A011784",
+    "A056239",
+    "A112798",
+    "A116608",
+    "A118914",
+    "A181819",
+    "A182857",
+    "A225485",
+    "A225486",
+    "A323014",
+    "A323023",
+    "A325242",
+    "A325254",
+    "A325258",
+    "A325268",
+    "A325277",
+    "A325278",
+    "A325280",
+    "A325282"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

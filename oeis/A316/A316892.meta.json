@@ -1,0 +1,24 @@
+{
+  "description": "Number of non-isomorphic strict multiset partitions of {1, 1, 2, 2, 3, 3, ..., n, n} with no equivalent vertices.",
+  "id": "A316892",
+  "mentions": [
+    "A007716",
+    "A007717",
+    "A020555",
+    "A050535",
+    "A053419",
+    "A094574",
+    "A316974"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

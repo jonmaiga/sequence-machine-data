@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 1 if the odd part of n is noncomposite, 0 otherwise.",
+  "id": "A340371",
+  "mentions": [
+    "A000265",
+    "A080339",
+    "A093641",
+    "A304438",
+    "A340370",
+    "A340373",
+    "A340374"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

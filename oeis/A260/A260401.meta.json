@@ -1,0 +1,21 @@
+{
+  "description": "Positions of 1 in the infinite palindromic word at A259599.",
+  "id": "A260401",
+  "mentions": [
+    "A000225",
+    "A259599",
+    "A260390",
+    "A260400"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

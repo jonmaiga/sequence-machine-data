@@ -1,0 +1,22 @@
+{
+  "description": "Least nonagonal (9-gonal) number that is the product of n nonagonal numbers greater than 1.",
+  "id": "A225069",
+  "mentions": [
+    "A001106",
+    "A212616",
+    "A212617",
+    "A225066",
+    "A225070"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

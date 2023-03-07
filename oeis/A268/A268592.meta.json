@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = (6/n^3) * Sum_{d|n} moebius(n/d)*binomial(2*d,d).",
+  "id": "A268592",
+  "mentions": [
+    "A007727",
+    "A022553",
+    "A045630",
+    "A060165",
+    "A254593",
+    "A268618",
+    "A268619"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

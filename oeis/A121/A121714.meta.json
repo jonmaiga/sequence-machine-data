@@ -1,0 +1,19 @@
+{
+  "description": "A121711(A121711(n)).",
+  "id": "A121714",
+  "mentions": [
+    "A121711",
+    "A121715",
+    "A121716"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

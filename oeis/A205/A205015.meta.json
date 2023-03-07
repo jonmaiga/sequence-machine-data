@@ -1,0 +1,19 @@
+{
+  "description": "(1/n)*A205014(n).",
+  "id": "A205015",
+  "mentions": [
+    "A204892",
+    "A205010",
+    "A205014"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:56:12",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

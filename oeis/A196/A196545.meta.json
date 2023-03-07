@@ -1,0 +1,21 @@
+{
+  "description": "Number of weakly ordered plane trees with n leaves.",
+  "id": "A196545",
+  "mentions": [
+    "A000041",
+    "A000992",
+    "A063834",
+    "A093637"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "List of dimensions for which there exist 8 or more non-isomorphic irreducible representations of E6.",
+  "id": "A343266",
+  "mentions": [
+    "A121737",
+    "A181746"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

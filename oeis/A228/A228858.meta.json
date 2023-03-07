@@ -1,0 +1,19 @@
+{
+  "description": "Let A(x,y,z) denote the integer area A of the triangle with integer side lengths (x,y,z). a(n) is the smallest area such that there exist exactly n distinct triangles (x_i, y_i, z_i) satisfying A(x_1, y_1, z_1) = A(x_2, y_2, z_2) = ... = A(x_n, y_n, z_n).",
+  "id": "A228858",
+  "mentions": [
+    "A188158",
+    "A228847"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose digit representation is equal to the digit representation of the initial terms of their sets of divisors in increasing order.",
+  "id": "A175252",
+  "mentions": [
+    "A037278",
+    "A077352",
+    "A077353",
+    "A131835",
+    "A357692"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

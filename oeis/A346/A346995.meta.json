@@ -1,0 +1,23 @@
+{
+  "description": "Denominators of the squared radii corresponding to circular disks covering record numbers of grid points A346993 of the square lattice.",
+  "id": "A346995",
+  "mentions": [
+    "A123690",
+    "A346124",
+    "A346784",
+    "A346785",
+    "A346993",
+    "A346994"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

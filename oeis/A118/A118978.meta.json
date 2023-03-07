@@ -1,0 +1,18 @@
+{
+  "description": "Array read by antidiagonals: the n-th row contains the binomial transform of row n-1 of A014410.",
+  "id": "A118978",
+  "mentions": [
+    "A014410"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

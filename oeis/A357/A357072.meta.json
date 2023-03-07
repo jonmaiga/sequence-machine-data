@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions of n into at most 4 distinct positive triangular numbers.",
+  "id": "A357072",
+  "mentions": [
+    "A000217",
+    "A024940",
+    "A341021",
+    "A347586",
+    "A347627",
+    "A347732",
+    "A357070",
+    "A357071"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

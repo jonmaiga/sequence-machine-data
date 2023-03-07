@@ -1,0 +1,20 @@
+{
+  "description": "Number of prime divisors (counted with multiplicity) in terms of A282291.",
+  "id": "A304099",
+  "mentions": [
+    "A001222",
+    "A282291",
+    "A304098"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest permutation of the nonnegative integers filling an infinite square array by falling antidiagonals so that the elements on any 2 X 2 square sum to a square.",
+  "id": "A353590",
+  "mentions": [
+    "A000290",
+    "A337115",
+    "A353591"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

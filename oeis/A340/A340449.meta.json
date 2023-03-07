@@ -1,0 +1,18 @@
+{
+  "description": "Nonsquare composites n whose smallest prime factor is greater than or equal to n^(2/5).",
+  "id": "A340449",
+  "mentions": [
+    "A006094",
+    "A089229"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that phi(k) equals the product of two numbers: sums of prime factors of k, with and without repetition.",
+  "id": "A237798",
+  "mentions": [
+    "A000010",
+    "A001414",
+    "A008472",
+    "A073396"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

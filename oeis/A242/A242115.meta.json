@@ -1,0 +1,22 @@
+{
+  "description": "Woodall semiprimes: Semiprimes of the form n*2^n - 1.",
+  "id": "A242115",
+  "mentions": [
+    "A001358",
+    "A002234",
+    "A003261",
+    "A050918",
+    "A242273"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

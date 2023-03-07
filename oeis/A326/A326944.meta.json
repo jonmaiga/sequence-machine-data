@@ -1,0 +1,33 @@
+{
+  "description": "Number of T_0 sets of subsets of {1..n} that cover all n vertices, contain {}, and are closed under intersection.",
+  "id": "A326944",
+  "mentions": [
+    "A003181",
+    "A003465",
+    "A055621",
+    "A059201",
+    "A182507",
+    "A245567",
+    "A316978",
+    "A319564",
+    "A326881",
+    "A326906",
+    "A326939",
+    "A326941",
+    "A326943",
+    "A326945",
+    "A326947"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose set of divisors contains a quadruple (x, y, z, w) satisfying x^3 + y^3 + z^3 = w^3.",
+  "id": "A328149",
+  "mentions": [
+    "A023042",
+    "A027750",
+    "A096545",
+    "A328204",
+    "A330893"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

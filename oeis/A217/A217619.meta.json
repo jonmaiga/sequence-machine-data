@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = m/(12*n) where m is the least multiple of n that satisfies phi(m) = phi(m+6*n).",
+  "id": "A217619",
+  "mentions": [
+    "A179188",
+    "A217068",
+    "A217139",
+    "A217140",
+    "A217141"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

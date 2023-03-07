@@ -1,0 +1,22 @@
+{
+  "description": "1-digit numbers arranged in alphabetical order, then the 2-digit numbers arranged in alphabetical order, then the 3-digit numbers, etc. French version.",
+  "id": "A187876",
+  "mentions": [
+    "A000052",
+    "A001062",
+    "A187875"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:17:43",
+    "offset": 1,
+    "size": 118,
+    "source": "joeis"
+  }
+}

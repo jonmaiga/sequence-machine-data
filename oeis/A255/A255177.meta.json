@@ -1,0 +1,28 @@
+{
+  "description": "Second differences of seventh powers (A001015).",
+  "id": "A255177",
+  "mentions": [
+    "A000541",
+    "A001015",
+    "A022523",
+    "A152726",
+    "A250212",
+    "A254641",
+    "A254646",
+    "A254684",
+    "A255178",
+    "A255179"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:09:31",
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

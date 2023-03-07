@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows. Inverse of the convolution triangle of A108524, the number of ordered rooted trees with n generators.",
+  "id": "A357585",
+  "mentions": [
+    "A047891",
+    "A105475",
+    "A108524"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

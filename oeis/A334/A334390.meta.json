@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that for any n > 0, a(n), a(2*n) and a(2*n+1) are in geometric progression.",
+  "id": "A334390",
+  "mentions": [
+    "A305410",
+    "A334384"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

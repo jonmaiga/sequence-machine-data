@@ -1,0 +1,18 @@
+{
+  "description": "Complement of A194469 (conjectured): numbers m such that sqrt(m) is not curbed by 1/2.",
+  "id": "A194470",
+  "mentions": [
+    "A194368",
+    "A194469"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

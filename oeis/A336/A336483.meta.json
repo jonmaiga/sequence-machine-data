@@ -1,0 +1,20 @@
+{
+  "description": "Floor(n/10) + (5 times last digit of n).",
+  "id": "A336483",
+  "mentions": [
+    "A008589"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:06:35",
+    "offset": 0,
+    "size": 71,
+    "source": "joeis"
+  }
+}

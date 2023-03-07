@@ -1,0 +1,23 @@
+{
+  "description": "Pairs of numbers a, b for which sigma*(a)=b and sigma(b)-b-1=a, where sigma*(n) is the sum of the anti-divisors of n.",
+  "id": "A192292",
+  "mentions": [
+    "A005276",
+    "A066272",
+    "A192290",
+    "A192291",
+    "A192293"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Practical numbers (A005153) that are not numbers whose divisors increase by a factor of 2 or less (A174973).",
+  "id": "A317412",
+  "mentions": [
+    "A005153",
+    "A174973"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

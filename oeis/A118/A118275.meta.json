@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 1. a(n) is the number of times the binary representation of a(n-1) appears in the concatenated string of the terms a(0) through a(n-1) written in binary. (The concatenated string is written from left to right and each binary integer is written so the most significant 1 is on the left.)",
+  "id": "A118275",
+  "mentions": [
+    "A118274"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

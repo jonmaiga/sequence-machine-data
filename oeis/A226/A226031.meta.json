@@ -1,0 +1,27 @@
+{
+  "description": "Number A(n,k) of unimodal functions f:[n]->[k*n]; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A226031",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A001477",
+    "A016742",
+    "A071920",
+    "A071921",
+    "A088536",
+    "A226012",
+    "A227402"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

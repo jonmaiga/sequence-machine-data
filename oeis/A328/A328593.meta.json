@@ -1,0 +1,30 @@
+{
+  "description": "Numbers whose binary indices have no consecutive divisible parts.",
+  "id": "A328593",
+  "mentions": [
+    "A000120",
+    "A003714",
+    "A014081",
+    "A048793",
+    "A328171",
+    "A328187",
+    "A328460",
+    "A328508",
+    "A328594",
+    "A328595",
+    "A328598",
+    "A328600",
+    "A328603",
+    "A328608"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

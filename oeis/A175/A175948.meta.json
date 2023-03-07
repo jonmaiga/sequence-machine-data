@@ -1,0 +1,19 @@
+{
+  "description": "Let @ denote binary concatenation. Then a(n) = A175945(n)@A175946(n).",
+  "id": "A175948",
+  "mentions": [
+    "A175945",
+    "A175946"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

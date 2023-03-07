@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A173557(k) = A173557(k+1).",
+  "id": "A333874",
+  "mentions": [
+    "A001274",
+    "A173557",
+    "A333875"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

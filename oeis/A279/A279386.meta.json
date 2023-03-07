@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of h^2, where h is the Planck constant in SI units.",
+  "id": "A279386",
+  "mentions": [
+    "A003676"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "cons",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": -66,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

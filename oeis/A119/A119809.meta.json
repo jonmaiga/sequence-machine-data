@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of the constant defined by binary sums involving Beatty sequences: c = Sum_{n>=1} 1/2^A049472(n) = Sum_{n>=1} A001951(n)/2^n.",
+  "id": "A119809",
+  "mentions": [
+    "A000129",
+    "A001333",
+    "A001951",
+    "A003151",
+    "A006337",
+    "A014565",
+    "A049472",
+    "A073115",
+    "A097508",
+    "A119810",
+    "A119811",
+    "A119812"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:26:21",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

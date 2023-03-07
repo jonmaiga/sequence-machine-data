@@ -1,0 +1,17 @@
+{
+  "description": "Slowest increasing sequence of alternate-parity integers m such that 2m^2+1 is prime.",
+  "id": "A215528",
+  "mentions": [
+    "A215523"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

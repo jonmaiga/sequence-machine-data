@@ -1,0 +1,19 @@
+{
+  "description": "Number of 8-tuples of primes in arithmetic progression less than 10^n.",
+  "id": "A115613",
+  "mentions": [
+    "A113827",
+    "A115608",
+    "A115612"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

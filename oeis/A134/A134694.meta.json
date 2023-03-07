@@ -1,0 +1,18 @@
+{
+  "description": "a(0) = 2; a(n) = least prime p such that p >= a(n-1) + 2^n.",
+  "id": "A134694",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

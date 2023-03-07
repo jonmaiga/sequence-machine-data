@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n - A063994(n) = n - Product_{primes p dividing n} gcd(p-1, n-1).",
+  "id": "A318828",
+  "mentions": [
+    "A063994",
+    "A318827",
+    "A318829"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

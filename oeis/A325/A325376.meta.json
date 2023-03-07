@@ -1,0 +1,24 @@
+{
+  "description": "Terms k of A228058 such that gcd(k - A048250(k), A162296(k) - k) = A162296(k) - k.",
+  "id": "A325376",
+  "mentions": [
+    "A048250",
+    "A162296",
+    "A228058",
+    "A325313",
+    "A325314",
+    "A325320",
+    "A325375",
+    "A325822"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Values of A023900 which occur only at indices which are powers of a prime.",
+  "id": "A301374",
+  "mentions": [
+    "A000040",
+    "A001055",
+    "A023900",
+    "A301590",
+    "A301591"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

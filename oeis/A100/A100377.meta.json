@@ -1,0 +1,18 @@
+{
+  "description": "Number of prime numbers >= P(n)# and < P(n+1)# where P(i)=i-th prime, P(i)#=i-th primorial.",
+  "id": "A100377",
+  "mentions": [
+    "A072236"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

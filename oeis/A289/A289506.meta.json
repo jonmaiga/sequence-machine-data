@@ -1,0 +1,22 @@
+{
+  "description": "Write n as a product of primes p_{s_1}*p_{s_2}*p_{s_3}*... where p_i denotes the i-th prime; then a(n) = s_1^2 + s_2^2 + s_3^2 + ...",
+  "id": "A289506",
+  "mentions": [
+    "A003963",
+    "A056239",
+    "A289507"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

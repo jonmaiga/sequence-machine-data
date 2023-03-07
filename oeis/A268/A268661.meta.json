@@ -1,0 +1,29 @@
+{
+  "description": "Numbers n such that 5*2^n + 1 is a prime factor of a generalized Fermat number 3^(2^m) + 1 for some m.",
+  "id": "A268661",
+  "mentions": [
+    "A002254",
+    "A059919",
+    "A204620",
+    "A226366",
+    "A268657",
+    "A268658",
+    "A268659",
+    "A268660",
+    "A268662",
+    "A268663",
+    "A268664"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

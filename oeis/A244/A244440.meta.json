@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n + phi(n) is a power of 10.",
+  "id": "A244440",
+  "mentions": [
+    "A000010",
+    "A011557"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

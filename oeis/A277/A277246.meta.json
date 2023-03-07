@@ -1,0 +1,17 @@
+{
+  "description": "Number of factorizations of m^n into exactly ten factors, where m is a product of two distinct primes.",
+  "id": "A277246",
+  "mentions": [
+    "A277239"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

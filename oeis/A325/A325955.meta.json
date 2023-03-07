@@ -1,0 +1,20 @@
+{
+  "description": "Langton's ant on a three-dimensional grid: number of yellow cells on the grid after n moves of the ant.",
+  "id": "A325955",
+  "mentions": [
+    "A255938",
+    "A325953",
+    "A325954"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

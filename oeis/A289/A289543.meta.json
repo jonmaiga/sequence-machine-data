@@ -1,0 +1,21 @@
+{
+  "description": "Number of direct sum decompositions of GF(2)^n that do not contain any subspaces of dimension 1.",
+  "id": "A289543",
+  "mentions": [
+    "A000296",
+    "A002884",
+    "A270881",
+    "A287406"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

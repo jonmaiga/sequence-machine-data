@@ -1,0 +1,23 @@
+{
+  "description": "p-INVERT of the positive integers, where p(S) = 1 - 5*S.",
+  "id": "A290903",
+  "mentions": [
+    "A000027",
+    "A004187",
+    "A033453",
+    "A290890",
+    "A290902"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

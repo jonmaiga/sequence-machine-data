@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that floor(1/2+k*sqrt(2)) is prime.",
+  "id": "A184866",
+  "mentions": [
+    "A022846",
+    "A184865",
+    "A184867"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

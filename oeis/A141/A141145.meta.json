@@ -1,0 +1,20 @@
+{
+  "description": "Y values of the complete set of 23 integer solutions to the Ochoa curve equation.",
+  "id": "A141145",
+  "mentions": [
+    "A141144"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

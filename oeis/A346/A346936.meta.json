@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{d|n} mu(n/d) * binomial(5*d,d) / (4*d+1).",
+  "id": "A346936",
+  "mentions": [
+    "A002294",
+    "A002996",
+    "A008683",
+    "A346925",
+    "A346935",
+    "A346937",
+    "A346938",
+    "A346939"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:49:49",
+    "offset": 1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

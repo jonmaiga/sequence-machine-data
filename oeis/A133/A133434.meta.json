@@ -1,0 +1,17 @@
+{
+  "description": "Records in A084739.",
+  "id": "A133434",
+  "mentions": [
+    "A084739"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

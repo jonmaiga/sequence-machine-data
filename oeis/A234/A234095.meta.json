@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that 2*p + 1 is semiprime.",
+  "id": "A234095",
+  "mentions": [
+    "A233561",
+    "A233562",
+    "A234093",
+    "A234096"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "2^(2p-1)/4, where p is A000043(n).",
+  "id": "A152922",
+  "mentions": [
+    "A000043",
+    "A139290",
+    "A139306",
+    "A152921",
+    "A152923"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:18:40",
+    "offset": 1,
+    "size": 8,
+    "source": "joeis"
+  }
+}

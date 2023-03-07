@@ -1,0 +1,20 @@
+{
+  "description": "Binary representation of the middle column of the \"Rule 3\" elementary cellular automaton starting with a single ON (black) cell.",
+  "id": "A266071",
+  "mentions": [
+    "A081253",
+    "A266070"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:26",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies: inverse of function A(x) + i*A(x)^2 equals the conjugate, A(x) - i*A(x)^2, where i=sqrt(-1).",
+  "id": "A179270",
+  "mentions": [
+    "A182399",
+    "A277292",
+    "A318008"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

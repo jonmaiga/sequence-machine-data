@@ -1,0 +1,27 @@
+{
+  "description": "Number of connected integer partitions of n > 1 whose distinct parts are pairwise indivisible and whose z-density is -1.",
+  "id": "A303674",
+  "mentions": [
+    "A001221",
+    "A030019",
+    "A035053",
+    "A048143",
+    "A134954",
+    "A286520",
+    "A293510",
+    "A293994",
+    "A303837",
+    "A303838",
+    "A304382"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

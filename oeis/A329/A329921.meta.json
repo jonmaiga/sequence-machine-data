@@ -1,0 +1,20 @@
+{
+  "description": "Integral solutions to Mordell's equation y^2 = x^3 - n with minimal absolute value of x (a(n) gives x-values).",
+  "id": "A329921",
+  "mentions": [
+    "A054504",
+    "A081119",
+    "A134109",
+    "A329922"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

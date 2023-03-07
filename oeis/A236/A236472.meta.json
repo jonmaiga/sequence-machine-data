@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = |{0 < k < n: p = prime(k) + phi(n-k), prime(p) + 2 and prime(p) + 6 are all prime}|, where phi(.) is Euler's totient function.",
+  "id": "A236472",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A022004",
+    "A236456",
+    "A236460",
+    "A236464",
+    "A236467",
+    "A236470"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

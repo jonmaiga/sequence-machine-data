@@ -1,0 +1,20 @@
+{
+  "description": "Primes p = prime(k) such that all the digits of the concatenation of p and k are distinct.",
+  "id": "A154579",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

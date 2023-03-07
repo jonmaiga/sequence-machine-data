@@ -1,0 +1,25 @@
+{
+  "description": "In the decimal expansion of a number, replace each run of consecutive equal digits, say of k consecutive d's, by the decimal expansion of k*d.",
+  "id": "A351868",
+  "mentions": [
+    "A002275",
+    "A043096",
+    "A052382",
+    "A113589",
+    "A175930",
+    "A351870"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

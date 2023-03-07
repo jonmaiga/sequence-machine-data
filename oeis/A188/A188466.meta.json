@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that lambda(n) = lambda(n + lambda(n)).",
+  "id": "A188466",
+  "mentions": [
+    "A002322",
+    "A005384",
+    "A051487",
+    "A108569",
+    "A185165"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of ways to write the n-th positive odd integer in the form p+2^x+7*2^y with p a prime congruent to 1 mod 6 and x,y positive integers.",
+  "id": "A157218",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A154257",
+    "A154285",
+    "A154404",
+    "A154536",
+    "A154940",
+    "A155114",
+    "A155860",
+    "A155904",
+    "A156695"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

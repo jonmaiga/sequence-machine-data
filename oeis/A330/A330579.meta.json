@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the k-th composite number divides the sum of the first k composite numbers.",
+  "id": "A330579",
+  "mentions": [
+    "A024011",
+    "A330578",
+    "A330580"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "List of those numbers which can be written as x + y + z (x, y, z > 0) such that all the six numbers 6*x-1, 6*y-1, 6*z-1, 6*x*y-1, 6*x*z-1 and 6*y*z-1 are Sophie Germain primes.",
+  "id": "A227938",
+  "mentions": [
+    "A005384",
+    "A230040"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

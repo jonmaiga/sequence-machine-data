@@ -1,0 +1,25 @@
+{
+  "description": "Squares visited by a fairy chess wazir moving on a square-spiral numbered board where the wazir moves to the unvisited square containing the spiral number with the fewest divisors. In case of a tie it chooses the square with the lowest spiral number.",
+  "id": "A335900",
+  "mentions": [
+    "A316667",
+    "A333713",
+    "A333714",
+    "A335816",
+    "A336038",
+    "A336092"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

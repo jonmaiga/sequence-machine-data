@@ -1,0 +1,20 @@
+{
+  "description": "An old nuclear shell closure sequence for 2 nucleon states (related to A007290 and A018226) in a square potential well.",
+  "id": "A117612",
+  "mentions": [
+    "A007290",
+    "A018226"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

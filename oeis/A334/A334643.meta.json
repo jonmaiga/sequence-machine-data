@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the total number of down steps between the second and third up steps in all 2_1-Dyck paths of length 3*n. A 2_1-Dyck path is a lattice path with steps (1, 2), (1, -1) that starts and ends at y = 0 and stays above the line y = -1.",
+  "id": "A334643",
+  "mentions": [
+    "A001764",
+    "A007226",
+    "A030983",
+    "A334640",
+    "A334642",
+    "A334644"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

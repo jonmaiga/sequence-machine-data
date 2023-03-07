@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = ((n-th prime)^6-(n-th prime)^3))/2.",
+  "id": "A138452",
+  "mentions": [
+    "A000217",
+    "A006093",
+    "A030078",
+    "A060800"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:50:07",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

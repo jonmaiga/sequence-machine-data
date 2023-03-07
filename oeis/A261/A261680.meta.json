@@ -1,0 +1,22 @@
+{
+  "description": "Number of ordered quadruples (u,v,w,x) of binary palindromes (see A006995) with u+v+w+x=n.",
+  "id": "A261680",
+  "mentions": [
+    "A006995",
+    "A261422",
+    "A261675",
+    "A261679"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

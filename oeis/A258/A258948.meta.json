@@ -1,0 +1,22 @@
+{
+  "description": "a(1)=1, a(2)=2; for n>2, a(n) = (1/2)*a(n-1)*a(n-2) + a(n-1) + a(n-2).",
+  "id": "A258948",
+  "mentions": [
+    "A000045",
+    "A063896",
+    "A100701",
+    "A254132"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

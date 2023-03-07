@@ -1,0 +1,19 @@
+{
+  "description": "Number of spanning trees in the multigraph cube of an n-cycle.",
+  "id": "A331905",
+  "mentions": [
+    "A005822",
+    "A169630"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

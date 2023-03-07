@@ -1,0 +1,18 @@
+{
+  "description": "A limited integer Devil's staircase from a winding number function.",
+  "id": "A136640",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

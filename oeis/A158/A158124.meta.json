@@ -1,0 +1,21 @@
+{
+  "description": "Weakly prime numbers (or isolated primes): changing any one decimal digit always produces a composite number, with restriction that first digit may not be changed to a 0.",
+  "id": "A158124",
+  "mentions": [
+    "A050249",
+    "A158125",
+    "A186995",
+    "A192545"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

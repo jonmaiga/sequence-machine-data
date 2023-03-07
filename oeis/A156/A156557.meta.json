@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form Sum_{k=1..m} (m^k mod (m+k)).",
+  "id": "A156557",
+  "mentions": [
+    "A156556",
+    "A156558",
+    "A156559"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

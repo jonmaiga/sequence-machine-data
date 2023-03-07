@@ -1,0 +1,18 @@
+{
+  "description": "A008474(n) + 2.",
+  "id": "A159076",
+  "mentions": [
+    "A008474"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:12:59",
+    "offset": 1,
+    "size": 74,
+    "source": "joeis"
+  }
+}

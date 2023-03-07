@@ -1,0 +1,19 @@
+{
+  "description": "Indices of abundant repunits: numbers n such that sigma((10^n-1)/9) > 2*(10^n-1)/9.",
+  "id": "A261991",
+  "mentions": [
+    "A002275",
+    "A005101",
+    "A103759"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

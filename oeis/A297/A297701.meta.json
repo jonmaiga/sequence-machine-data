@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of 1 + sqrt(2) + sqrt(3).",
+  "id": "A297701",
+  "mentions": [
+    "A002193",
+    "A002194",
+    "A014176",
+    "A135611",
+    "A165663",
+    "A188582"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:18",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

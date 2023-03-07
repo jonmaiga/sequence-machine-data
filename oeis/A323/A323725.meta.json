@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the last (and thus largest) denominator of an Egyptian fraction representing n, where each consecutive denominator is as small as possible.",
+  "id": "A323725",
+  "mentions": [
+    "A140335",
+    "A281873",
+    "A306349"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

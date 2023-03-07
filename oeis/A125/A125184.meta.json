@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the coefficient of t^k in the Stern polynomial B(n,t) (n>=0, k>=0).",
+  "id": "A125184",
+  "mentions": [
+    "A002487",
+    "A005811",
+    "A057526",
+    "A186890",
+    "A186891",
+    "A260443",
+    "A277314",
+    "A277315",
+    "A277325",
+    "A277327",
+    "A277329",
+    "A277700"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

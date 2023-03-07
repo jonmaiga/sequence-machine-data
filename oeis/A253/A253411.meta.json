@@ -1,0 +1,22 @@
+{
+  "description": "Indices of centered octagonal numbers (A016754) which are also centered pentagonal numbers (A005891).",
+  "id": "A253411",
+  "mentions": [
+    "A005891",
+    "A016754",
+    "A253410",
+    "A253579"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

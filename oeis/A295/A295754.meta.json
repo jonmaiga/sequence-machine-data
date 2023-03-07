@@ -1,0 +1,21 @@
+{
+  "description": "Solution of the complementary equation a(n) = a(n-1) + a(n-3) + a(n-4) + b(n-4), where a(0) = 1, a(1) = 2, a(2) = 3, a(3) = 4, b(0) = 5, b(1) = 6, b(2) = 7, b(3) = 8, and (a(n)) and (b(n)) are increasing complementary sequences.",
+  "id": "A295754",
+  "mentions": [
+    "A000045",
+    "A001622",
+    "A293411",
+    "A295755"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:45:59",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

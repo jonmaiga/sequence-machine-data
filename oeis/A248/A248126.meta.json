@@ -1,0 +1,21 @@
+{
+  "description": "n squared with each digit repeated.",
+  "id": "A248126",
+  "mentions": [
+    "A020338",
+    "A044836",
+    "A116699"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

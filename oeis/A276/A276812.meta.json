@@ -1,0 +1,19 @@
+{
+  "description": "Prime gap residues mod previous prime gap.",
+  "id": "A276812",
+  "mentions": [
+    "A272863",
+    "A274225",
+    "A274263"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

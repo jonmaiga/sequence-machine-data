@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = sigma_3(n)*Pell(n), where sigma_3(n) = A001158(n), the sum of cubes of divisors of n.",
+  "id": "A204273",
+  "mentions": [
+    "A000045",
+    "A000129",
+    "A001158",
+    "A002203",
+    "A203838",
+    "A204270",
+    "A204271",
+    "A204272",
+    "A204274",
+    "A204275"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:24",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

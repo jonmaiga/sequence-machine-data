@@ -1,0 +1,30 @@
+{
+  "description": "Values of n for which the concatenations 1nn1, 3nn3, 7nn7 and 9nn9 are all primes.",
+  "id": "A102504",
+  "mentions": [
+    "A100846",
+    "A100896",
+    "A100897",
+    "A102484",
+    "A102496",
+    "A102497",
+    "A102498",
+    "A102499",
+    "A102500",
+    "A102501",
+    "A102502",
+    "A102503"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Symmetric number square associated to ceiling(k^n/n^k), read by antidiagonals.",
+  "id": "A110537",
+  "mentions": [
+    "A000007",
+    "A110538",
+    "A110539"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

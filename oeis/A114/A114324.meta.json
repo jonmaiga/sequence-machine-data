@@ -1,0 +1,26 @@
+{
+  "description": "Number of partitions of n with a product greater than n.",
+  "id": "A114324",
+  "mentions": [
+    "A001055",
+    "A028422",
+    "A096276",
+    "A301987",
+    "A319000",
+    "A319005",
+    "A319916",
+    "A325037",
+    "A325038",
+    "A325044"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

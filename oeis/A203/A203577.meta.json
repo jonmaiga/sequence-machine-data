@@ -1,0 +1,21 @@
+{
+  "description": "Exponential (or binomial) half-convolution of the sequence A000108 (Catalan) with itself.",
+  "id": "A203577",
+  "mentions": [
+    "A000108",
+    "A014330",
+    "A203576"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

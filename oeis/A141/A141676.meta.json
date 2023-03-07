@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that (sigma_0(k) * PrimePi(k)) == 0 (mod 8).",
+  "id": "A141676",
+  "mentions": [
+    "A000005",
+    "A000720"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Integers k > 0 such that k^2 + p^2 is prime for some prime p.",
+  "id": "A263977",
+  "mentions": [
+    "A007591",
+    "A240130",
+    "A240131",
+    "A263466",
+    "A263722",
+    "A263726"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Square roots of discriminants of norm-Euclidean Galois cubic fields.",
+  "id": "A185720",
+  "mentions": [
+    "A048981",
+    "A297063"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Indices of unstable zeros of the Riemann zeta function.",
+  "id": "A124288",
+  "mentions": [
+    "A002410",
+    "A124289"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Inverse Mobius Transform of A002654.",
+  "id": "A262209",
+  "mentions": [
+    "A000005",
+    "A002144",
+    "A002145",
+    "A002654"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 85,
+    "source": "joeis"
+  }
+}

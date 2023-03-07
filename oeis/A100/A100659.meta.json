@@ -1,0 +1,19 @@
+{
+  "description": "Floor of measure (in degrees) of the internal angles of a regular polygon with n sides.",
+  "id": "A100659",
+  "mentions": [
+    "A069976"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 3,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

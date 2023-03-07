@@ -1,0 +1,20 @@
+{
+  "description": "Total number of subsets of X that are open and closed and connected summed over all distinct topological spaces X that can be placed on an n-set.",
+  "id": "A284762",
+  "mentions": [
+    "A000798",
+    "A001035",
+    "A281547"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

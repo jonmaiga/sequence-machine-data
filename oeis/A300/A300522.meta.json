@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (5*n + 3)*(5*n + 4)*(5*n + 5)/6.",
+  "id": "A300522",
+  "mentions": [
+    "A000292",
+    "A007318",
+    "A160790",
+    "A300523"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:34:33",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

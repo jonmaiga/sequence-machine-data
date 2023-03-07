@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{i>=1} 1/A092143(i).",
+  "id": "A117871",
+  "mentions": [
+    "A092143",
+    "A129635"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

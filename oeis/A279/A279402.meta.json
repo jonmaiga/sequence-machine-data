@@ -1,0 +1,24 @@
+{
+  "description": "Domination number for queens' graph on an n X n toroidal board.",
+  "id": "A279402",
+  "mentions": [
+    "A075458",
+    "A085801",
+    "A274138",
+    "A279403",
+    "A279409"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "For any nonnegative number n with factorial base expansion Sum_{k > 0} d_k * k!, a(n) = Sum_{k > 0} d_k * k! * (-1)^(Sum_{i < k} sign(d_i)).",
+  "id": "A355678",
+  "mentions": [
+    "A051683",
+    "A065620",
+    "A355679"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

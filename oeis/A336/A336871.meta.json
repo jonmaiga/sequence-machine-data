@@ -1,0 +1,40 @@
+{
+  "description": "Number of divisors d of A076954(n) with distinct prime multiplicities such that the numerator of A006939(n)/d also has distinct prime multiplicities.",
+  "id": "A336871",
+  "mentions": [
+    "A000005",
+    "A001055",
+    "A006939",
+    "A007425",
+    "A022559",
+    "A022915",
+    "A027423",
+    "A076954",
+    "A091050",
+    "A124010",
+    "A130091",
+    "A181796",
+    "A317829",
+    "A327498",
+    "A327523",
+    "A327527",
+    "A336419",
+    "A336420",
+    "A336421",
+    "A336422",
+    "A336424",
+    "A336500",
+    "A336571"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

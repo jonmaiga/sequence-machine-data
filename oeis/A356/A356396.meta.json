@@ -1,0 +1,20 @@
+{
+  "description": "Nonnegative numbers k such that the negaFibonacci representation of -k (A215023(k)) is palindromic.",
+  "id": "A356396",
+  "mentions": [
+    "A094202",
+    "A215023",
+    "A356395"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

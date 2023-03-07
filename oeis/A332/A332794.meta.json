@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{d|n} (-1)^(d + 1) * d * phi(n/d).",
+  "id": "A332794",
+  "mentions": [
+    "A000010",
+    "A018804",
+    "A078747",
+    "A143520",
+    "A181983",
+    "A193356",
+    "A199084"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

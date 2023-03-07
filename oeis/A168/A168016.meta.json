@@ -1,0 +1,32 @@
+{
+  "description": "Triangle T(n,k) read by rows in which row n list the number of partitions of n into parts divisible by k for k=n,n-1,...,1.",
+  "id": "A168016",
+  "mentions": [
+    "A000005",
+    "A000007",
+    "A000041",
+    "A035363",
+    "A035444",
+    "A047968",
+    "A135010",
+    "A138121",
+    "A168014",
+    "A168015",
+    "A168020",
+    "A168021",
+    "A168111"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

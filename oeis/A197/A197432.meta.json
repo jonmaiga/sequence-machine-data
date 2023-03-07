@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Sum_{k>=0} A030308(n,k)*C(k) where C(k) is the k-th Catalan number (A000108).",
+  "id": "A197432",
+  "mentions": [
+    "A000108",
+    "A022290",
+    "A029931",
+    "A030308",
+    "A059590",
+    "A089625",
+    "A197354",
+    "A197433"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

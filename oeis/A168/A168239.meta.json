@@ -1,0 +1,20 @@
+{
+  "description": "Iterate the map n -> sum of largest digit of all divisors of n; sequence gives number of steps to reach 14.",
+  "id": "A168239",
+  "mentions": [
+    "A054055",
+    "A209928"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 2,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

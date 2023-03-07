@@ -1,0 +1,19 @@
+{
+  "description": "Take n-th word over {1,2} listed in A291797 and apply the Post tag system described in A284116 (but adapted to the alphabet {1,2}); a(n) = preperiod (or threshold) of orbit of that word.",
+  "id": "A291798",
+  "mentions": [
+    "A284116",
+    "A284119",
+    "A291797"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

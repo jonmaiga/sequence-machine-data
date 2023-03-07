@@ -1,0 +1,34 @@
+{
+  "description": "A triangle related to the a(n) formulas of the rows of the ED4 array A167584.",
+  "id": "A167591",
+  "mentions": [
+    "A000012",
+    "A001193",
+    "A001787",
+    "A003148",
+    "A013609",
+    "A016825",
+    "A024199",
+    "A079628",
+    "A081277",
+    "A167584",
+    "A167585",
+    "A167586",
+    "A167587",
+    "A167592",
+    "A167593",
+    "A168307",
+    "A168308"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

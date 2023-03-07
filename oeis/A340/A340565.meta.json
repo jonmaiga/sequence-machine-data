@@ -1,0 +1,32 @@
+{
+  "description": "Decimal expansion of the Product_{lesser twin primes p == 5 (mod 6)} 1/(1 - 1/p^2).",
+  "id": "A340565",
+  "mentions": [
+    "A001359",
+    "A005596",
+    "A065463",
+    "A065465",
+    "A065483",
+    "A065485",
+    "A065489",
+    "A065493",
+    "A072691",
+    "A082695",
+    "A111003",
+    "A175646",
+    "A340576"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

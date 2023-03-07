@@ -1,0 +1,37 @@
+{
+  "description": "Numbers of the form a*b, a*a*b, or a*a*b*c where a, b, and c are distinct primes. Numbers with sorted prime signature (1,1), (1,2), or (1,1,2).",
+  "id": "A325281",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A056239",
+    "A071625",
+    "A112798",
+    "A118914",
+    "A127002",
+    "A181819",
+    "A182850",
+    "A304465",
+    "A323014",
+    "A323022",
+    "A323023",
+    "A325246",
+    "A325248",
+    "A325249",
+    "A325259",
+    "A325266",
+    "A325270",
+    "A325277",
+    "A325282"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

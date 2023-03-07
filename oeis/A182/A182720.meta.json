@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,k) = A000041(k) if k divides n, T(n,k)=0 otherwise.",
+  "id": "A182720",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A047968",
+    "A051731",
+    "A168016",
+    "A168017",
+    "A168018",
+    "A168021"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

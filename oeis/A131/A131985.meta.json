@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of (eta(q^3)^2 / (eta(q) * eta(q^9)))^6 in powers of q.",
+  "id": "A131985",
+  "mentions": [
+    "A007266",
+    "A045491",
+    "A121589",
+    "A121592",
+    "A131986"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": -1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

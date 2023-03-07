@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+5)X7 0..1 matrices with each 6X6 subblock idempotent",
+  "id": "A224571",
+  "mentions": [
+    "A224577"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

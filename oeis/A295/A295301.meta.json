@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = n - phi(sigma(n)), where phi = A000010 and sigma = A000203.",
+  "id": "A295301",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A001229",
+    "A062401",
+    "A066694",
+    "A295302",
+    "A295303",
+    "A295305"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:13",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

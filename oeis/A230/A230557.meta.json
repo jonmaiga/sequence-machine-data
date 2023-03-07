@@ -1,0 +1,20 @@
+{
+  "description": "The number of 123-avoiding simple involutions of length n.",
+  "id": "A230557",
+  "mentions": [
+    "A111111",
+    "A230551",
+    "A230556"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:48:40",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

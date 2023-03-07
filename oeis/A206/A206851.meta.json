@@ -1,0 +1,22 @@
+{
+  "description": "L.g.f.: Sum_{n>=1} x^n/n * Sum_{k=0..n} binomial(n^2, k^2)*x^k = Sum_{n>=1} a(n)*x^n/n.",
+  "id": "A206851",
+  "mentions": [
+    "A123165",
+    "A206847",
+    "A206849",
+    "A206850",
+    "A323778"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:26",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

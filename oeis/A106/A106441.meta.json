@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least k > 1 such that sum_{i = 1..n} k^(A003418(n)/i) is divisible by n.",
+  "id": "A106441",
+  "mentions": [
+    "A003418",
+    "A087313"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Final prime adjoined in the smallest term of A019518 divisible by 89^n.",
+  "id": "A185713",
+  "mentions": [
+    "A019518",
+    "A185656",
+    "A185659",
+    "A185662",
+    "A185665",
+    "A185671",
+    "A185677",
+    "A185680",
+    "A185704"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

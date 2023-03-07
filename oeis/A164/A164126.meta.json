@@ -1,0 +1,25 @@
+{
+  "description": "First differences of A006995.",
+  "id": "A164126",
+  "mentions": [
+    "A006995",
+    "A016041",
+    "A029971",
+    "A164124",
+    "A164125",
+    "A178225"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:17:33",
+    "offset": 1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

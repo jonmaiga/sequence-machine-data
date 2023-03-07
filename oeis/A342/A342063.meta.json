@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that p^8 - 1 has fewer than 384 divisors.",
+  "id": "A342063",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A309906",
+    "A342062",
+    "A342064"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

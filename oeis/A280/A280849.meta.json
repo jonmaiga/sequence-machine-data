@@ -1,0 +1,38 @@
+{
+  "description": "Square array T(j,k) read by antidiagonals upwards, in which column k lists the numbers n having k odd divisors greater than sqrt(2*n), with j >= 1, k >= 0.",
+  "id": "A280849",
+  "mentions": [
+    "A000203",
+    "A001227",
+    "A067742",
+    "A082662",
+    "A131576",
+    "A196020",
+    "A235791",
+    "A236104",
+    "A237048",
+    "A237270",
+    "A237271",
+    "A237591",
+    "A237593",
+    "A244050",
+    "A245092",
+    "A261699",
+    "A262626",
+    "A279387",
+    "A280940",
+    "A281005",
+    "A281008"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

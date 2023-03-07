@@ -1,0 +1,17 @@
+{
+  "description": "Number of 1..n integer arrays v[1..8] of length 8 with all autocorrelation values sum(i){v[i]*v[i-k]} distinct for k in 0..7",
+  "id": "A171345",
+  "mentions": [
+    "A171275"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

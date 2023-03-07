@@ -1,0 +1,26 @@
+{
+  "description": "\"Nachos\" sequence based on triangular numbers.",
+  "id": "A281367",
+  "mentions": [
+    "A000045",
+    "A000292",
+    "A008578",
+    "A057945",
+    "A100661",
+    "A104246",
+    "A280053",
+    "A280055",
+    "A280521",
+    "A281368"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

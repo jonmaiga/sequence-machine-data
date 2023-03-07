@@ -1,0 +1,25 @@
+{
+  "description": "Compound filter (prime signature of n & prime signature of the n-th Jacobsthal number): a(n) = P(A101296(n), A286566(n)), where P(n,k) is sequence A000027 used as a pairing function.",
+  "id": "A286566",
+  "mentions": [
+    "A000027",
+    "A000978",
+    "A001045",
+    "A046523",
+    "A101296",
+    "A278165",
+    "A286467",
+    "A286565"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

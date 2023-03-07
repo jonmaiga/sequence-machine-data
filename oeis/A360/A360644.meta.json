@@ -1,0 +1,26 @@
+{
+  "description": "Number of 3-dimensional tilings of a 2 X 2 X n box using 1 X 1 X 1 cubes, 2 X 1 X 1 dominos, 2 X 2 X 1 plates and trominos (L-shaped connection of 3 cubes).",
+  "id": "A360644",
+  "mentions": [
+    "A001045",
+    "A006253",
+    "A033516",
+    "A335559",
+    "A359884",
+    "A359885",
+    "A360064",
+    "A360065"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

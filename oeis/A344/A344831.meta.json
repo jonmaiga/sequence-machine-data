@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the smallest b > 1 such that prime(n), prime(n+1), prime(n+2), prime(n+3), prime(n+4), prime(n+5) and prime(n+6) are all base-b Wieferich primes.",
+  "id": "A344831",
+  "mentions": [
+    "A039678",
+    "A259075",
+    "A286816",
+    "A344827",
+    "A344828",
+    "A344829",
+    "A344830",
+    "A344832"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

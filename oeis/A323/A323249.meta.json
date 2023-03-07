@@ -1,0 +1,23 @@
+{
+  "description": "Sequence lists numbers k > 1 such that k^2 == d(k) (mod sigma(k)), where d = A000005 and sigma = A000203.",
+  "id": "A323249",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A112772",
+    "A323250",
+    "A323251"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:47",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

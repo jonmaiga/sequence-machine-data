@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that the concatenation A000461(d_1)//A000461(d_2)//...//A000461(d_k) is prime, where d_i is the i-th digit of n and n is k digits long.",
+  "id": "A232764",
+  "mentions": [
+    "A000461"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

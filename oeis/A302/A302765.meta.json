@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of constant: B = Sum_{n>=1} (-1)^(n-1) / (2^n - 1)^n.",
+  "id": "A302765",
+  "mentions": [
+    "A300279",
+    "A303340",
+    "A303506"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 0,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

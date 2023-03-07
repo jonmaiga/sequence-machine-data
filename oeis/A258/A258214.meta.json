@@ -1,0 +1,20 @@
+{
+  "description": "Primes formed by concatenating p^2 with q, where p, q are consecutive primes.",
+  "id": "A258214",
+  "mentions": [
+    "A000040",
+    "A030461",
+    "A030469"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

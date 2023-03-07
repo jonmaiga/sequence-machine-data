@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{d|n} tau(d^n), where tau() is the number of divisors (A000005).",
+  "id": "A321348",
+  "mentions": [
+    "A000005",
+    "A001359",
+    "A006512",
+    "A007425",
+    "A035116",
+    "A052147",
+    "A061391"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "A169648(4n+4) - A147582(4n+5).",
+  "id": "A169688",
+  "mentions": [
+    "A000695",
+    "A147582",
+    "A169648",
+    "A169689"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": -1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

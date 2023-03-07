@@ -1,0 +1,25 @@
+{
+  "description": "Divisors of 11^12 - 1.",
+  "id": "A245028",
+  "mentions": [
+    "A001082",
+    "A003524",
+    "A003532",
+    "A003543",
+    "A027897",
+    "A027902",
+    "A245027"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of ogf(x, t) = u / (6*x - t*x*u - 2) with u = x*(2*x - 2*y + 8) + y - 3 and y = sqrt(1 - 4*x). Triangle read by rows: T(n, k) with 0 <= k <= n.",
+  "id": "A320902",
+  "mentions": [
+    "A320903"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:56",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

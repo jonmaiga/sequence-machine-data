@@ -1,0 +1,20 @@
+{
+  "description": "A positive integer n is included if the longest palindromic substring (or at least one of which that is tied for longest) in the binary representation of n consists of identically valued digits (all 0's or all 1's).",
+  "id": "A166935",
+  "mentions": [
+    "A050430",
+    "A166934",
+    "A174196"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

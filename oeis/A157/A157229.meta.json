@@ -1,0 +1,19 @@
+{
+  "description": "For the n in A157017, the number of representations of n! as the product of distinct numbers in the range n+1 to 2n.",
+  "id": "A157229",
+  "mentions": [
+    "A157017"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

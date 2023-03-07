@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. exp(4*x)*(sec(x) + tan(x)).",
+  "id": "A307879",
+  "mentions": [
+    "A000111",
+    "A000302",
+    "A000752",
+    "A292975",
+    "A307878"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 22:11:41",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

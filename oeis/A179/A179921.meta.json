@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = prime(n) if n<=3; for n>3, a(n) is the smallest prime >a(n-1), such that the denominator of fraction (a(n-1)-a(n-2))/(a(n)-a(n-1)) did not appear earlier.",
+  "id": "A179921",
+  "mentions": [
+    "A168253",
+    "A178942",
+    "A179210",
+    "A179234",
+    "A179256",
+    "A179328"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

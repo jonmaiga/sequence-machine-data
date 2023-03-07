@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = 1 if binary weights of n and 3n have different parity, 0 otherwise; a(n) = A010060(n) XOR A010060(3n).",
+  "id": "A295890",
+  "mentions": [
+    "A000035",
+    "A000120",
+    "A003714",
+    "A003961",
+    "A010060",
+    "A095076",
+    "A293162",
+    "A295889",
+    "A295891"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

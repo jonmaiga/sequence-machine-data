@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of c_1, a constant associated with the computation of the maximal modulus of an algebraic integer.",
+  "id": "A245324",
+  "mentions": [
+    "A060006"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 108,
+    "source": "oeis-entry"
+  }
+}

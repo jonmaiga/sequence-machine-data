@@ -1,0 +1,25 @@
+{
+  "description": "Zero followed by partial sums of A008865.",
+  "id": "A145067",
+  "mentions": [
+    "A000027",
+    "A000330",
+    "A002522",
+    "A005563",
+    "A008865",
+    "A051925",
+    "A145066"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:53:05",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that the decimal digits of k + reverse(k) are 0 or 1.",
+  "id": "A185440",
+  "mentions": [
+    "A056964"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

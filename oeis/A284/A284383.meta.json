@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1, a(2) = 2, a(3) = 3, a(4) = 2; a(n) is the largest composite number <= (a(n-a(n-1)) + a(n-a(n-2))) for n > 4.",
+  "id": "A284383",
+  "mentions": [
+    "A005185",
+    "A010051",
+    "A014684",
+    "A113523",
+    "A284374"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

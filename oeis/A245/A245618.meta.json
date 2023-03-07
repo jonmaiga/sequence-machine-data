@@ -1,0 +1,20 @@
+{
+  "description": "Triangle {H(n,k)} similar to Pascal's with sides of 1's, but interior entries are obtained by the rule: H(n,k) = |H(n-1,k)+(-1)^m(n,k)*H(n-1,k-1)|, where m(n,k) = H(n-1,k) + H(n-1,k-1).",
+  "id": "A245618",
+  "mentions": [
+    "A007318",
+    "A245619",
+    "A249388"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

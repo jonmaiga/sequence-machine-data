@@ -1,0 +1,28 @@
+{
+  "description": "Concatenation of first two digits and last two digits of n-th Mersenne prime A000668(n).",
+  "id": "A138863",
+  "mentions": [
+    "A000668",
+    "A080173",
+    "A104511",
+    "A138816",
+    "A138817",
+    "A138840",
+    "A138841",
+    "A138862",
+    "A138864",
+    "A138865",
+    "A138866"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

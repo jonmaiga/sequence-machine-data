@@ -1,0 +1,19 @@
+{
+  "description": "Round(n * exp(-1 - 1/(2n))), an approximation to the number of daughters to wait before picking in the sultan's dowry problem (Better that A225593).",
+  "id": "A226033",
+  "mentions": [
+    "A054404",
+    "A225593",
+    "A226082"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

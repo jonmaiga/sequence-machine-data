@@ -1,0 +1,32 @@
+{
+  "description": "Solution of the equation a(n) = a(n-2) + b(n-2), where a( ) and b( ) are increasing sequences of positive integers such that every positive integer is in one of them and only one term is in both.",
+  "id": "A294860",
+  "mentions": [
+    "A022939",
+    "A022942",
+    "A294861",
+    "A294862",
+    "A294863",
+    "A294864",
+    "A294865",
+    "A294866",
+    "A294867",
+    "A294868",
+    "A294869",
+    "A294870",
+    "A294871",
+    "A294872",
+    "A295998"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

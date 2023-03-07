@@ -1,0 +1,20 @@
+{
+  "description": "Discriminant of the field of the number having constant continued fraction [n,n,n,...].",
+  "id": "A259912",
+  "mentions": [
+    "A002878",
+    "A259911",
+    "A259913"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:18",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

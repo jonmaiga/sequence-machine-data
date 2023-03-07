@@ -1,0 +1,29 @@
+{
+  "description": "Triangle, read by rows, given by the product R^-1*P^3 using triangular matrices P=A113370, R=A113389.",
+  "id": "A114153",
+  "mentions": [
+    "A113370",
+    "A113381",
+    "A113389",
+    "A113392",
+    "A114150",
+    "A114151",
+    "A114152",
+    "A114154",
+    "A114155",
+    "A114156",
+    "A114158",
+    "A114159"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

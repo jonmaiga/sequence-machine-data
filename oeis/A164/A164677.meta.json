@@ -1,0 +1,22 @@
+{
+  "description": "For a binary reflected Gray code, the (Hamming/Euclidean) distance between 2 subsequent points x and y is 1, say in coordinate k. If y has a 1 in coordinate k and x has a 0, than (x,y) is indicated by k, if it is the other way around, (x,y) is indicated by -k. The sequence has a fractal character such that G(d+1) = G(d) d+1 R(G(d)) where R(G(d)) alters d --> -d and leaves all other numbers invariant.",
+  "id": "A164677",
+  "mentions": [
+    "A001511",
+    "A034947",
+    "A091067"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:20:31",
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

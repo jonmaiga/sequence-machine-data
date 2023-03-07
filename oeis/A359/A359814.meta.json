@@ -1,0 +1,26 @@
+{
+  "description": "Dirichlet inverse of A359769, where A359769(n) = A353557(n) - A353556(n).",
+  "id": "A359814",
+  "mentions": [
+    "A001222",
+    "A003961",
+    "A353556",
+    "A353557",
+    "A358777",
+    "A359763",
+    "A359769",
+    "A359815",
+    "A359816"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

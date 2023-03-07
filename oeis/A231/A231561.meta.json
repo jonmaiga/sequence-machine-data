@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to write n = x + y with 0 < x <= y such that 2^x * y + 1 is prime.",
+  "id": "A231561",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A228425",
+    "A231201",
+    "A231555",
+    "A231557"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

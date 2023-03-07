@@ -1,0 +1,26 @@
+{
+  "description": "Dirichlet inverse of sequence f(n) = A319340(n)-1 = (A000010(n) + A023900(n) - 1), where A000010 is Euler Totient function phi, and A023900 is its Dirichlet inverse.",
+  "id": "A340198",
+  "mentions": [
+    "A000010",
+    "A023900",
+    "A109606",
+    "A319340",
+    "A340090",
+    "A340094",
+    "A340197",
+    "A340367"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

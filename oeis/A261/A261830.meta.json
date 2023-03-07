@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Integral_{0..1/2} log(gamma(x+1)) dx (negated).",
+  "id": "A261830",
+  "mentions": [
+    "A074962"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Partial sums of the exponential divisors sum function: Sum_{k=1..n} esigma(k), where esigma is A051377.",
+  "id": "A307042",
+  "mentions": [
+    "A024916",
+    "A051377",
+    "A064609",
+    "A275480"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-node connected graphs with no cycles of length less than 5.",
+  "id": "A126757",
+  "mentions": [
+    "A006787",
+    "A022562",
+    "A140440"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

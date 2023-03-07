@@ -1,0 +1,28 @@
+{
+  "description": "Noninfinitary highly composite numbers: where the number of noninfinitary divisors (A348341) increases to a record.",
+  "id": "A348342",
+  "mentions": [
+    "A002110",
+    "A002182",
+    "A025487",
+    "A037992",
+    "A293185",
+    "A306736",
+    "A307845",
+    "A309141",
+    "A318278",
+    "A322484",
+    "A335386",
+    "A348341"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

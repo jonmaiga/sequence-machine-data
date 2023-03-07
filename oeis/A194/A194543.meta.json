@@ -1,0 +1,28 @@
+{
+  "description": "Triangle T(n,k), n>=0, 0<=k<=n, read by rows: T(n,k) is the number of partitions of n into parts p_i such that |p_i - p_j| >= k for i != j.",
+  "id": "A194543",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A003114",
+    "A025157",
+    "A025158",
+    "A025159",
+    "A025160",
+    "A025161",
+    "A025162",
+    "A047967"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

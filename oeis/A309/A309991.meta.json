@@ -1,0 +1,19 @@
+{
+  "description": "Balanced quinary (base 5) enumeration (or balanced quinary representation) of integers, write n in quinary, and then replace 3's with (-2)'s and 4's with (-1)'s.",
+  "id": "A309991",
+  "mentions": [
+    "A117966",
+    "A319047"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle g(n,m) by rows: the number of m-compositions of Carlitz type of n without zero rows.",
+  "id": "A275080",
+  "mentions": [
+    "A000670",
+    "A003242"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

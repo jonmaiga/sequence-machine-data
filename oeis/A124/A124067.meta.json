@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 2*F(k) + 1 is a prime, where F = A000045.",
+  "id": "A124067",
+  "mentions": [
+    "A000045",
+    "A001588",
+    "A124081"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

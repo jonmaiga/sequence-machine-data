@@ -1,0 +1,19 @@
+{
+  "description": "a(n)=A000040(A043489(n+1)).",
+  "id": "A155483",
+  "mentions": [
+    "A000040",
+    "A043489"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

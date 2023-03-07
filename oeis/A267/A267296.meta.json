@@ -1,0 +1,20 @@
+{
+  "description": "Circulant Ramsey numbers RC_1(3,n) of the first kind.",
+  "id": "A267296",
+  "mentions": [
+    "A000791",
+    "A267295"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

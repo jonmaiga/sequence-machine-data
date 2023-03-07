@@ -1,0 +1,22 @@
+{
+  "description": "Numbers 2*k + 1 with A135303(k) = 1, for k >= 1, sorted increasingly.",
+  "id": "A333854",
+  "mentions": [
+    "A003558",
+    "A135303",
+    "A216371",
+    "A268923",
+    "A333855"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "T(n,k)=Number of (n+1)X(k+1) 0..1 arrays with each row divisible by 3 and each column divisible by 7, read as a binary number with top and left being the most significant bits.",
+  "id": "A262917",
+  "mentions": [
+    "A005578",
+    "A046630",
+    "A262314",
+    "A262326"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Denominators a(n) of Pythagorean approximations b(n)/a(n) to 1/2.",
+  "id": "A195547",
+  "mentions": [
+    "A000045",
+    "A131534",
+    "A195500",
+    "A195548",
+    "A195549"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

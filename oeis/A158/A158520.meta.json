@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 2^n divided by the number of digits of 2^n is an integer.",
+  "id": "A158520",
+  "mentions": [
+    "A000079",
+    "A034887"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

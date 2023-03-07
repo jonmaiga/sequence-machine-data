@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n for which A292270(n) is a square.",
+  "id": "A292938",
+  "mentions": [
+    "A000225",
+    "A292270",
+    "A292939",
+    "A293218"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

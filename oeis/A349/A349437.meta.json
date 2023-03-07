@@ -1,0 +1,24 @@
+{
+  "description": "Dirichlet convolution of A252463 with A055615 (Dirichlet inverse of n), where A252463 shifts the prime factorization of odd numbers one step towards smaller primes and divides even numbers by two.",
+  "id": "A349437",
+  "mentions": [
+    "A000010",
+    "A055615",
+    "A064989",
+    "A252463",
+    "A348045",
+    "A349438",
+    "A349439"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

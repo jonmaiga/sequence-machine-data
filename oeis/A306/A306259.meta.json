@@ -1,0 +1,19 @@
+{
+  "description": "Composite numbers k such that 2^(k(k-1)) == 1 (mod k^2).",
+  "id": "A306259",
+  "mentions": [
+    "A001567",
+    "A002326",
+    "A306270"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

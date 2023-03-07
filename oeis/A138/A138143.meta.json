@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows in which row n lists p(1), p(2), ..., p(n), p(n-1), ..., p(1), where p(i) = i-th prime.",
+  "id": "A138143",
+  "mentions": [
+    "A000040",
+    "A037126",
+    "A061802",
+    "A066622"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

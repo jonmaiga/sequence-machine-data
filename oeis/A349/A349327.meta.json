@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that 2*p^2 is a term of A179993.",
+  "id": "A349327",
+  "mentions": [
+    "A013929",
+    "A023204",
+    "A062326",
+    "A106483",
+    "A179993",
+    "A225098"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

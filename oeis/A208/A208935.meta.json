@@ -1,0 +1,19 @@
+{
+  "description": "Digits of Pi read in decimal as if written in hexadecimal.",
+  "id": "A208935",
+  "mentions": [
+    "A208458",
+    "A209632"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Exponential convolution of Lucas (A000032) and Catalan (A000108) numbers.",
+  "id": "A277251",
+  "mentions": [
+    "A000032",
+    "A000108",
+    "A001622",
+    "A014330",
+    "A014334",
+    "A090826",
+    "A277220"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:38:29",
+    "offset": 0,
+    "size": 25,
+    "source": "joeis"
+  }
+}

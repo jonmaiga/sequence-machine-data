@@ -1,0 +1,32 @@
+{
+  "description": "Positive numbers k such that 36*k/(36-k) are integers.",
+  "id": "A162822",
+  "mentions": [
+    "A162688",
+    "A162689",
+    "A162690",
+    "A162691",
+    "A162692",
+    "A162693",
+    "A162694",
+    "A162817",
+    "A162818",
+    "A162819",
+    "A162820",
+    "A162821",
+    "A191973"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

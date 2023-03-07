@@ -1,0 +1,23 @@
+{
+  "description": "Subsequence of elements of A005179 that appear in A134865.",
+  "id": "A140753",
+  "mentions": [
+    "A000005",
+    "A005179",
+    "A134865",
+    "A138394",
+    "A140752"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

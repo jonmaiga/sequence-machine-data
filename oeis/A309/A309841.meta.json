@@ -1,0 +1,25 @@
+{
+  "description": "If n = Sum (2^e_k) then a(n) = Product ((e_k + 2)!).",
+  "id": "A309841",
+  "mentions": [
+    "A000142",
+    "A000178",
+    "A019565",
+    "A029930",
+    "A058295",
+    "A059590",
+    "A121663",
+    "A283477"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

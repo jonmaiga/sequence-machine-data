@@ -1,0 +1,24 @@
+{
+  "description": "The base-5 expansion of a(n) is obtained by replacing 1's, 2's, 3's and 4's by 3's, 4's, 1's and 2's, respectively, in the base-5 expansion of n.",
+  "id": "A348354",
+  "mentions": [
+    "A004488",
+    "A048647",
+    "A316657",
+    "A316658",
+    "A348355"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

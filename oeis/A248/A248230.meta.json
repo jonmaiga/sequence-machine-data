@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = floor(1/(zeta(4) - Sum_{h=1..n} 1/h^4)).",
+  "id": "A248230",
+  "mentions": [
+    "A013662",
+    "A248227",
+    "A248228",
+    "A248229"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

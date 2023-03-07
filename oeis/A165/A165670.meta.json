@@ -1,0 +1,19 @@
+{
+  "description": "Braille dot pattern for A to Z and accented letters, reading dots by row into binary.",
+  "id": "A165670",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

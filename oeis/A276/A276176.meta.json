@@ -1,0 +1,23 @@
+{
+  "description": "Consider the race between primes, semiprimes, 3-almost primes, ... k-almost primes; sequence indicates when one overtakes another to give a new race leader.",
+  "id": "A276176",
+  "mentions": [
+    "A000027",
+    "A243906",
+    "A273381",
+    "A274123",
+    "A358677",
+    "A359242"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

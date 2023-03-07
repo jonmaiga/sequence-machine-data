@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number m such that A212813(m) = n.",
+  "id": "A212911",
+  "mentions": [
+    "A212813"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": -1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

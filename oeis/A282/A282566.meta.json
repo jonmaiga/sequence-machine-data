@@ -1,0 +1,19 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into deficient numbers (A005100).",
+  "id": "A282566",
+  "mentions": [
+    "A005100",
+    "A097797"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:51",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that the poset of multiset partitions of a multiset whose multiplicities are the prime indices of k is a lattice.",
+  "id": "A322260",
+  "mentions": [
+    "A001055",
+    "A007716",
+    "A057716",
+    "A265947",
+    "A281113",
+    "A305936",
+    "A317144",
+    "A317534",
+    "A318284"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

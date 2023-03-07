@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..[n/2]} C(n-k,k)^2 * n/(n-k), n>=1.",
+  "id": "A167539",
+  "mentions": [
+    "A001622",
+    "A004148",
+    "A166895",
+    "A166897",
+    "A166899"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:51",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

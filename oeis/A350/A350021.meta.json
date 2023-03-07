@@ -1,0 +1,25 @@
+{
+  "description": "Number of ways to write n as w^4 + x^2 + y^2 + z^2 with x - y a power of two (including 2^0 = 1).",
+  "id": "A350021",
+  "mentions": [
+    "A000079",
+    "A000118",
+    "A000290",
+    "A000583",
+    "A279612",
+    "A300708",
+    "A338094",
+    "A349661",
+    "A350012"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

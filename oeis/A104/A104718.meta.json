@@ -1,0 +1,25 @@
+{
+  "description": "Concatenations of pairs of primes that differ by 8.",
+  "id": "A104718",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A023202",
+    "A103195",
+    "A103206",
+    "A104719"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

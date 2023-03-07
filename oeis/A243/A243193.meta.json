@@ -1,0 +1,17 @@
+{
+  "description": "Nonnegative integers represented by the indefinite quadratic form -3x^2+3xy+4y^2.",
+  "id": "A243193",
+  "mentions": [
+    "A141193"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

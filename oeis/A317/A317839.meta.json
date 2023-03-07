@@ -1,0 +1,25 @@
+{
+  "description": "Möbius transform of A002487, Stern's Diatomic sequence.",
+  "id": "A317839",
+  "mentions": [
+    "A000010",
+    "A002487",
+    "A008683",
+    "A317837",
+    "A317838",
+    "A317840",
+    "A317841",
+    "A317843"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

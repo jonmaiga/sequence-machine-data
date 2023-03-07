@@ -1,0 +1,22 @@
+{
+  "description": "9 + 8*a(n) appears in a congruence which determines representative parallel primitive binary quadratic forms for discriminant 9*m(n)^2 - 4 and representation -m(n)^2, where m(n) = A002559(n) (Markoff numbers).",
+  "id": "A327344",
+  "mentions": [
+    "A002559",
+    "A309376",
+    "A327342",
+    "A327343"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

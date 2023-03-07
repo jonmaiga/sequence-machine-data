@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the eight nearest neighbors of n in a right triangular type-2 spiral with positive integers.",
+  "id": "A214251",
+  "mentions": [
+    "A214230",
+    "A214252"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

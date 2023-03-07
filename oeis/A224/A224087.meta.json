@@ -1,0 +1,33 @@
+{
+  "description": "Integer averages of first k primes to the fifth power for some k (A224083/A122142).",
+  "id": "A224087",
+  "mentions": [
+    "A007504",
+    "A024450",
+    "A045345",
+    "A050247",
+    "A050248",
+    "A085450",
+    "A111441",
+    "A122142",
+    "A128165",
+    "A128166",
+    "A171399",
+    "A217599",
+    "A217600",
+    "A217601",
+    "A224083",
+    "A233523",
+    "A233862"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "a(0)=1, a(1)=2; for n > 1, a(n) = a(n - a(n-2)) + n.",
+  "id": "A341744",
+  "mentions": [
+    "A004001",
+    "A087836",
+    "A130658",
+    "A193358",
+    "A209869",
+    "A274213"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:46:11",
+    "offset": 0,
+    "size": 70,
+    "source": "joeis"
+  }
+}

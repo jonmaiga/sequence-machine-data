@@ -1,0 +1,21 @@
+{
+  "description": "The positions i where A163905(i) = i, but not A163355(i) = i, that is, the 2-cycles of permutation A163355.",
+  "id": "A163902",
+  "mentions": [
+    "A163355",
+    "A163901",
+    "A163903",
+    "A163905",
+    "A163910"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

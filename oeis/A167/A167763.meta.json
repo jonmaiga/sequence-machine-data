@@ -1,0 +1,27 @@
+{
+  "description": "Pendular triangle (p=0), read by rows, where row n is formed from row n-1 by the recurrence: if n > 2k, T(n,k) = T(n,n-k) + T(n-1,k), otherwise T(n,k) = T(n,n-1-k) + p*T(n-1,k), for n >= k <= 0, with T(n,0) = 1 and T(n,n) = 0^n.",
+  "id": "A167763",
+  "mentions": [
+    "A001764",
+    "A006013",
+    "A006629",
+    "A093951",
+    "A102893",
+    "A118340",
+    "A118345",
+    "A118350",
+    "A173075"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:51",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

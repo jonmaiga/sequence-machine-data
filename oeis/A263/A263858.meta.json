@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) (n>=0, k>=1) is the number of posets with n elements and k maximal chains.",
+  "id": "A263858",
+  "mentions": [
+    "A000112"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

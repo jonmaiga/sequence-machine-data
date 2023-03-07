@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = 1 if A007814(sigma(n)) > A007814(n), 0 otherwise. Here A007814(n) gives the 2-adic valuation of n.",
+  "id": "A324903",
+  "mentions": [
+    "A000203",
+    "A003986",
+    "A005940",
+    "A007814",
+    "A216782",
+    "A243473",
+    "A286357",
+    "A318456",
+    "A318466",
+    "A324883",
+    "A324902",
+    "A324904"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

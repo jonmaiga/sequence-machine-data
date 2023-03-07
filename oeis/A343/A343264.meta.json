@@ -1,0 +1,18 @@
+{
+  "description": "Cardinalities of the sets of fusible numbers obtained at the consecutive steps of their construction as follows. We set S(0) = {0}. S(n+1) is obtained by adding to S(n) the sums (x+y+1)/2 for all x,y from S(n) with the property |x-y| < 1. Then, a(n) is the number of elements in S(n).",
+  "id": "A343264",
+  "mentions": [
+    "A283075"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

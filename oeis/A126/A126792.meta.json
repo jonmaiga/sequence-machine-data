@@ -1,0 +1,18 @@
+{
+  "description": "Removing the first, fourth, seventh, tenth ... term of the sequence yields the original sequence, augmented by 1.",
+  "id": "A126792",
+  "mentions": [
+    "A000120",
+    "A117943"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Positions of records in A296062.",
+  "id": "A325942",
+  "mentions": [
+    "A296062"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

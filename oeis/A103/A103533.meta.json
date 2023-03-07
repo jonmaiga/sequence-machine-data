@@ -1,0 +1,22 @@
+{
+  "description": "Even semiprimes of the form prime(n)*prime(n+1) - 1.",
+  "id": "A103533",
+  "mentions": [
+    "A001358",
+    "A006881",
+    "A086870",
+    "A103746",
+    "A269663"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

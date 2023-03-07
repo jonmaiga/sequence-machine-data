@@ -1,0 +1,22 @@
+{
+  "description": "Sequence A007924 expressed in decimals.",
+  "id": "A200947",
+  "mentions": [
+    "A003714",
+    "A007895",
+    "A007924",
+    "A027941",
+    "A066352"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

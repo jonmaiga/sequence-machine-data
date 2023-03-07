@@ -1,0 +1,20 @@
+{
+  "description": "Primes for which the level is equal to 79 in A117563.",
+  "id": "A118574",
+  "mentions": [
+    "A006562",
+    "A117078",
+    "A117563",
+    "A117873"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

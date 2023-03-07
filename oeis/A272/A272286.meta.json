@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Product_{k >= 1} (k*(k+1))^(-1/(k*(k+1)), a constant related to the alternating Lüroth representations of real numbers.",
+  "id": "A272286",
+  "mentions": [
+    "A244108",
+    "A244109",
+    "A245254"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

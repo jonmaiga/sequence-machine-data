@@ -1,0 +1,21 @@
+{
+  "description": "The difference between the largest and smallest prime factor of n as n runs through the numbers with at least two distinct prime factors.",
+  "id": "A212332",
+  "mentions": [
+    "A006530",
+    "A020639",
+    "A046665",
+    "A100576",
+    "A168638"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

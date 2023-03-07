@@ -1,0 +1,41 @@
+{
+  "description": "Square array read by antidiagonals upwards: T(n,k) = n-th number with k odd divisors.",
+  "id": "A266531",
+  "mentions": [
+    "A000079",
+    "A001227",
+    "A038547",
+    "A038550",
+    "A072502",
+    "A131651",
+    "A182469",
+    "A230577",
+    "A236104",
+    "A237591",
+    "A237593",
+    "A240062",
+    "A261697",
+    "A261698",
+    "A261699",
+    "A267696",
+    "A267697",
+    "A267891",
+    "A267892",
+    "A267893",
+    "A279387",
+    "A286000",
+    "A286001",
+    "A296508"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

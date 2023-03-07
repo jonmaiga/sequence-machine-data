@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to write n as [a^3/3] + [b^3/4] + [c^3/5] + [d^6/6] with a,b,c,d positive integers, where [.] is the floor function.",
+  "id": "A343384",
+  "mentions": [
+    "A000578",
+    "A001014",
+    "A343326",
+    "A343368",
+    "A343387"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

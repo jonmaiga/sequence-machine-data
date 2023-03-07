@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangular array of denominators of the positive rational numbers ordered as in Comments.",
+  "id": "A241837",
+  "mentions": [
+    "A022095",
+    "A243575",
+    "A243924"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "frac",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

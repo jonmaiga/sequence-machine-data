@@ -1,0 +1,23 @@
+{
+  "description": "G.f. satisfies: A(x) = 1 + x/A(-x*A(x)^4)^2.",
+  "id": "A213094",
+  "mentions": [
+    "A000108",
+    "A001764",
+    "A213091",
+    "A213092",
+    "A213093",
+    "A213095",
+    "A213096"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

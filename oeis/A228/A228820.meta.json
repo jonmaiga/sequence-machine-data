@@ -1,0 +1,26 @@
+{
+  "description": "Sum of positive F-ranks of all compositions of n. Also, sum of positive L-ranks of all compositions of n (see comments lines for definition).",
+  "id": "A228820",
+  "mentions": [
+    "A001511",
+    "A001792",
+    "A006519",
+    "A011782",
+    "A195012",
+    "A209616",
+    "A228369",
+    "A228525",
+    "A228821",
+    "A236002"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

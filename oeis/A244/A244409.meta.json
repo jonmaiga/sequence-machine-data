@@ -1,0 +1,19 @@
+{
+  "description": "Numbers x such that it is possible to find a value k for which Sum_{j=1..x} (x mod j) = Sum_{j=1..k} j.",
+  "id": "A244409",
+  "mentions": [
+    "A000217",
+    "A004125"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

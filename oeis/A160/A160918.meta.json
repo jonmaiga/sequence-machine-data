@@ -1,0 +1,20 @@
+{
+  "description": "Averages of twin prime pairs that are sums of 4 consecutive averages of twin prime pairs.",
+  "id": "A160918",
+  "mentions": [
+    "A014574",
+    "A160916",
+    "A160917"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

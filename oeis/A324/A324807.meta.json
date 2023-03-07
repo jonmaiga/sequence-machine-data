@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of endofunctions on a set of size n with preimage constraint {0, 1, 2, 3, 4, 5, 6, 7}.",
+  "id": "A324807",
+  "mentions": [
+    "A306800"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 16:11:11",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

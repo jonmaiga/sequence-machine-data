@@ -1,0 +1,20 @@
+{
+  "description": "Forward van Eck transform of A181391.",
+  "id": "A171898",
+  "mentions": [
+    "A171899",
+    "A171942",
+    "A181391"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:55",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = A109812(A352205(n) + 1).",
+  "id": "A352206",
+  "mentions": [
+    "A109812",
+    "A305370",
+    "A352203",
+    "A352204",
+    "A352205"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

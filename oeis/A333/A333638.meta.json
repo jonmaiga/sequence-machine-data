@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m such that (m * sigma(m)) / tau(m) is an integer k.",
+  "id": "A333638",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A003601",
+    "A033950",
+    "A047727"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

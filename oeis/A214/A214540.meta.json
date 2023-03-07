@@ -1,0 +1,19 @@
+{
+  "description": "T(n,k)=Number of nXnXn triangular 0..k arrays with no element lying outside the (possibly reversed) range delimited by its sw and se neighbors, and every horizontal row having the same average value",
+  "id": "A214540",
+  "mentions": [
+    "A000982"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

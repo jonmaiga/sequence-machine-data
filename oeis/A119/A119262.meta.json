@@ -1,0 +1,32 @@
+{
+  "description": "Number of B-trees of order infinity with n leaves, where a(n) = Sum_{k=1..floor(n/2)} a(k)*C(n-k-1,n-2*k) for n >= 2, with a(0)=0, a(1)=1.",
+  "id": "A119262",
+  "mentions": [
+    "A000081",
+    "A000311",
+    "A001678",
+    "A011973",
+    "A014535",
+    "A037026",
+    "A048816",
+    "A058521",
+    "A079500",
+    "A092684",
+    "A120803",
+    "A316624",
+    "A320154",
+    "A320160",
+    "A320169"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

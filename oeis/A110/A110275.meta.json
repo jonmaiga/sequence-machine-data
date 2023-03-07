@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of (48-39*x-10*x^2-36*x^3+40*x^4)/((1-x)*(4*x^2-8*x+1)*(x^2+x+1)).",
+  "id": "A110275",
+  "mentions": [
+    "A110274"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 12:47:55",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

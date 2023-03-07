@@ -1,0 +1,21 @@
+{
+  "description": "Number of fixed polykites with n cells.",
+  "id": "A196992",
+  "mentions": [
+    "A057786",
+    "A151528",
+    "A151529",
+    "A151530"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

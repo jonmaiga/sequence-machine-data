@@ -1,0 +1,42 @@
+{
+  "description": "Number of ordered rooted trees with n nodes, at least half of which are leaves.",
+  "id": "A358586",
+  "mentions": [
+    "A000081",
+    "A000108",
+    "A000891",
+    "A001263",
+    "A034781",
+    "A055277",
+    "A065097",
+    "A080936",
+    "A090181",
+    "A109129",
+    "A185650",
+    "A342507",
+    "A358371",
+    "A358575",
+    "A358577",
+    "A358579",
+    "A358580",
+    "A358581",
+    "A358582",
+    "A358583",
+    "A358584",
+    "A358585",
+    "A358588",
+    "A358589",
+    "A358590"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "description": "Regular triangle read by rows where T(n,k) is the number of set partitions of {1,...,n} with k topologically connected components.",
+  "id": "A324173",
+  "mentions": [
+    "A000108",
+    "A000110",
+    "A001263",
+    "A002061",
+    "A002662",
+    "A007297",
+    "A016098",
+    "A048993",
+    "A054726",
+    "A099947",
+    "A293510",
+    "A305078",
+    "A305079",
+    "A323818",
+    "A324166",
+    "A324167",
+    "A324169",
+    "A324170",
+    "A324171",
+    "A324172"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

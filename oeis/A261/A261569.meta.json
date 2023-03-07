@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Product_{k>=1} (1 + 5*x^k).",
+  "id": "A261569",
+  "mentions": [
+    "A000009",
+    "A032302",
+    "A032308",
+    "A261568",
+    "A291698"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

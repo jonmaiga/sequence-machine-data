@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (2^(p-2) + 3^(p-2) + 6^(p-2) - 1)/p where p = prime(n).",
+  "id": "A318760",
+  "mentions": [
+    "A318761"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:19:38",
+    "offset": 3,
+    "size": 14,
+    "source": "joeis"
+  }
+}

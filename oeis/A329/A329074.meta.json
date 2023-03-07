@@ -1,0 +1,25 @@
+{
+  "description": "Square array T(n,k), n>=0, k>=0, read by antidiagonals, where T(n,k) is the constant term in the expansion of ((Sum_{j=-n..n} x^j) * (Sum_{j=-n..n} y^j) - (Sum_{j=-n+1..n-1} x^j) * (Sum_{j=-n+1..n-1} y^j))^k.",
+  "id": "A329074",
+  "mentions": [
+    "A000012",
+    "A094061",
+    "A329066",
+    "A329075",
+    "A329076",
+    "A329077"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of 5Xn 0..1 arrays avoiding 0 0 0 and 1 0 1 horizontally and 0 0 1 and 0 1 0 vertically",
+  "id": "A208166",
+  "mentions": [
+    "A208164"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

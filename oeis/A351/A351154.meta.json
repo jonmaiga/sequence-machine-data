@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the permanent of the n X n matrix M(n) that is defined as M[i,j,n] = A351153(n, min(i, j)) + abs(i - j).",
+  "id": "A351154",
+  "mentions": [
+    "A000142",
+    "A003983",
+    "A049581",
+    "A159333",
+    "A351153"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

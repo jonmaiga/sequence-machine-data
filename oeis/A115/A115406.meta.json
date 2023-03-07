@@ -1,0 +1,19 @@
+{
+  "description": "Unique m such that A024431(m) - A024431(A115407(n)) = n.",
+  "id": "A115406",
+  "mentions": [
+    "A024431",
+    "A115407",
+    "A115408"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

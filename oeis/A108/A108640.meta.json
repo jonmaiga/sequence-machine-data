@@ -1,0 +1,17 @@
+{
+  "description": "Product{k=1 to n} sigma_{n-k}(k), where sigma_m(k) = sum{j|k} j^m.",
+  "id": "A108640",
+  "mentions": [
+    "A108639"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

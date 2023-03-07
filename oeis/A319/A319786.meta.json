@@ -1,0 +1,37 @@
+{
+  "description": "Number of factorizations of n where no two factors are relatively prime.",
+  "id": "A319786",
+  "mentions": [
+    "A001055",
+    "A007716",
+    "A025487",
+    "A045778",
+    "A049311",
+    "A162247",
+    "A281116",
+    "A283877",
+    "A305193",
+    "A305854",
+    "A306006",
+    "A316980",
+    "A318749",
+    "A319755",
+    "A319759",
+    "A319760",
+    "A319765",
+    "A319779",
+    "A319782",
+    "A319787",
+    "A319789"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

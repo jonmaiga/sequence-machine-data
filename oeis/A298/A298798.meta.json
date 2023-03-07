@@ -1,0 +1,19 @@
+{
+  "description": "Coordination sequence for abf 3D net with respect to a trivalent node.",
+  "id": "A298798",
+  "mentions": [
+    "A298796",
+    "A298797"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: 1/G(0), where G(k) = 1 + q^(k+1) / (1 - q^(k+1)/G(k+2) ).",
+  "id": "A226728",
+  "mentions": [
+    "A006958",
+    "A049346",
+    "A226729",
+    "A227309"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

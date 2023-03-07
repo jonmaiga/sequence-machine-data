@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of sum of reciprocals, row 4 of Wythoff array, W = A035513.",
+  "id": "A228042",
+  "mentions": [
+    "A035513",
+    "A079586",
+    "A153387",
+    "A228040",
+    "A228041",
+    "A228043"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

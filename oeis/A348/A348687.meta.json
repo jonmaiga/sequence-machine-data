@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows, T(n, k) = n - HammingWeight(k), for 0 <= k <= n.",
+  "id": "A348687",
+  "mentions": [
+    "A000120",
+    "A001477",
+    "A011371",
+    "A057427",
+    "A122247",
+    "A348676",
+    "A348684",
+    "A348685"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

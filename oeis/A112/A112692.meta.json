@@ -1,0 +1,22 @@
+{
+  "description": "Coefficient array of numerator polynomials of o.g.f.s (rising powers) for the columns of triangle A008517 (second-order Eulerian numbers).",
+  "id": "A112692",
+  "mentions": [
+    "A000217",
+    "A008517",
+    "A112693",
+    "A112694"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

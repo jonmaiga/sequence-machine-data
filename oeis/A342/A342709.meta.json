@@ -1,0 +1,32 @@
+{
+  "description": "12-gonal (dodecagonal) square numbers.",
+  "id": "A342709",
+  "mentions": [
+    "A000290",
+    "A001110",
+    "A033890",
+    "A036353",
+    "A036354",
+    "A036411",
+    "A036428",
+    "A046177",
+    "A051324",
+    "A081068",
+    "A161582",
+    "A188896",
+    "A333641",
+    "A342710"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:31:10",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

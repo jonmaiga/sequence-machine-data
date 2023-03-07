@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: coefficients of harmonic-geometric polynomials.",
+  "id": "A222057",
+  "mentions": [
+    "A222058",
+    "A222060"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Minimal linear spaces with n nontrivial lines.",
+  "id": "A309115",
+  "mentions": [
+    "A001200",
+    "A001403",
+    "A001548",
+    "A309114"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

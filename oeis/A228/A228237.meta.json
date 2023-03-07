@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n for which there exists such a natural number k > n that k + bitcount(k) = n + bitcount(n), where bitcount(k) (A000120) gives the number of 1's in binary representation of nonnegative integer k.",
+  "id": "A228237",
+  "mentions": [
+    "A000120",
+    "A092391",
+    "A228087",
+    "A228091",
+    "A228236"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

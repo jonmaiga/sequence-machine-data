@@ -1,0 +1,23 @@
+{
+  "description": "Minimum number of diagonal transversals in an orthogonal diagonal Latin square of order n.",
+  "id": "A354068",
+  "mentions": [
+    "A287647",
+    "A287648",
+    "A345370",
+    "A349199"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "changed",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

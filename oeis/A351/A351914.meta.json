@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m such that the average of the prime numbers up to m is greater than or equal to m/2.",
+  "id": "A351914",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A034387"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

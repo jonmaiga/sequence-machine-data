@@ -1,0 +1,19 @@
+{
+  "description": "Number of ones in the binary representation of the middle member q of the prime triple (p,q,r) with p",
+  "id": "A166007",
+  "mentions": [
+    "A014499",
+    "A098414"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "The number of steps it takes, by taking the smallest number so that it minus the number of ones in its binary representation is the previous number, to reach a number which has no others that satisfy this property.",
+  "id": "A218253",
+  "mentions": [
+    "A218252",
+    "A218254"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

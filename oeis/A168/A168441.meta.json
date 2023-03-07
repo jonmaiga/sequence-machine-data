@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 1/(1-x/(1-2x/(1-4x/(1-6x/(1-8x/(1-.... (continued fraction).",
+  "id": "A168441",
+  "mentions": [
+    "A004277",
+    "A111106",
+    "A168442"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

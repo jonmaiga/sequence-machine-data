@@ -1,0 +1,22 @@
+{
+  "description": "9-gonal numbers (A001106) that are the sum of eight consecutive 9-gonal numbers.",
+  "id": "A258442",
+  "mentions": [
+    "A001106",
+    "A258441",
+    "A258443",
+    "A258444"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-bfile"
+  }
+}

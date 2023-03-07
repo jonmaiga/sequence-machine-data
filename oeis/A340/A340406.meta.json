@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative integers such that for any n >= 0, a(n) XOR a(n+1) is a prime number as small as possible (where XOR denotes the bitwise XOR operator).",
+  "id": "A340406",
+  "mentions": [
+    "A003188",
+    "A340446",
+    "A340447"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

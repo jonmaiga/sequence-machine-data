@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest number, such that for all N >= a(n) there are at least n primes between 14*N and 15*N.",
+  "id": "A220281",
+  "mentions": [
+    "A084140",
+    "A220268",
+    "A220269",
+    "A220273",
+    "A220274"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

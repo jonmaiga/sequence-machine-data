@@ -1,0 +1,23 @@
+{
+  "description": "T(n,k)=Number of horizontal, diagonal and antidiagonal neighbor colorings of the odd squares of an nXk array with new integer colors introduced in row major order",
+  "id": "A216612",
+  "mentions": [
+    "A000110",
+    "A020557",
+    "A208051",
+    "A216460",
+    "A216462",
+    "A216464"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

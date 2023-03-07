@@ -1,0 +1,21 @@
+{
+  "description": "T(n,k) = [n/2]!*[(n+1)/2]!*C([n/2],k-1)*C([(n+1)/2],k-1).",
+  "id": "A226288",
+  "mentions": [
+    "A010551",
+    "A145891",
+    "A226282",
+    "A226287"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

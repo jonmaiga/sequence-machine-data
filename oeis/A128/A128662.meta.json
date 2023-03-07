@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that p(k+1)# + p(k)# - p(k-1)# + 1 is prime where p(i)#=product of first i primes=A002110(i).",
+  "id": "A128662",
+  "mentions": [
+    "A002110",
+    "A128420",
+    "A128421",
+    "A128657",
+    "A128658",
+    "A128659",
+    "A128660",
+    "A128661"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

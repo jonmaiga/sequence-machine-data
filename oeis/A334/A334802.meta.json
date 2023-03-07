@@ -1,0 +1,22 @@
+{
+  "description": "Positive integers of the form x^4 - y^4 that have exactly 4 divisors.",
+  "id": "A334802",
+  "mentions": [
+    "A030513",
+    "A048161",
+    "A067756",
+    "A068501",
+    "A147857"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

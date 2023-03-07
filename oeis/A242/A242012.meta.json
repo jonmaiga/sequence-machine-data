@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of positive integers k <= n for which gpf(k^2 + 1) = gpf(n^2 + 1), where gpf is the greatest prime divisor.",
+  "id": "A242012",
+  "mentions": [
+    "A002496",
+    "A005574",
+    "A014442"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

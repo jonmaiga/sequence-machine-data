@@ -1,0 +1,32 @@
+{
+  "description": "Base-2 expansion of a(n) encodes the steps where multiples of 4 are encountered when map x -> A252463(x) is iterated down to 1, starting from x=n.",
+  "id": "A292380",
+  "mentions": [
+    "A000035",
+    "A000120",
+    "A001222",
+    "A004198",
+    "A005940",
+    "A048735",
+    "A121262",
+    "A156552",
+    "A252463",
+    "A292370",
+    "A292381",
+    "A292382",
+    "A292383",
+    "A292384"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:07",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

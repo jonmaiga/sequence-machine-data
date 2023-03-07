@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(2^k + n-k-1, n-k); equals the row sums of triangle A137153.",
+  "id": "A137154",
+  "mentions": [
+    "A137153",
+    "A137155",
+    "A137156"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

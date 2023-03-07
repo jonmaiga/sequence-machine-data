@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number h such that the decimal expansion of n*h starts with 1.",
+  "id": "A190302",
+  "mentions": [
+    "A187285"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

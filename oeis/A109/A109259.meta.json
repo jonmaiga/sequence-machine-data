@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = floor(n*sqrt(2)^sqrt(2)).",
+  "id": "A109259",
+  "mentions": [
+    "A038127",
+    "A078333",
+    "A109260",
+    "A109261"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

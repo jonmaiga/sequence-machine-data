@@ -1,0 +1,19 @@
+{
+  "description": "Number of Integer solutions to w^2 + x^2 + y^2 + z^2 < n^2; number of lattice points inside a 4-sphere of radius n.",
+  "id": "A319617",
+  "mentions": [
+    "A055410",
+    "A267326"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

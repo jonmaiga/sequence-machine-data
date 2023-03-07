@@ -1,0 +1,21 @@
+{
+  "description": "Number of polyhedra formed when an n-bipyramid, formed from two n-gonal pyraminds joined at the base, is internally cut by all the planes defined by any three of its vertices.",
+  "id": "A338809",
+  "mentions": [
+    "A007678",
+    "A333539",
+    "A338571",
+    "A338825"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 3,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

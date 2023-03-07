@@ -1,0 +1,21 @@
+{
+  "description": "Numbers of the form 4k-1 with least prime divisor of the form 4m+1.",
+  "id": "A176255",
+  "mentions": [
+    "A002145",
+    "A002148",
+    "A004767",
+    "A016813",
+    "A020639"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

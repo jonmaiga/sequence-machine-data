@@ -1,0 +1,28 @@
+{
+  "description": "Numbers m such that 11*m^2 + 5 is a square.",
+  "id": "A221762",
+  "mentions": [
+    "A001084",
+    "A016778",
+    "A049629",
+    "A075796",
+    "A075839",
+    "A075844",
+    "A176395",
+    "A198947",
+    "A198949",
+    "A221763"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

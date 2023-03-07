@@ -1,0 +1,23 @@
+{
+  "description": "spt(13n+6) where spt(n) = A092269(n).",
+  "id": "A220503",
+  "mentions": [
+    "A092269",
+    "A186113",
+    "A213256",
+    "A220485",
+    "A220502",
+    "A220513"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

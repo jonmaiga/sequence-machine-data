@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n=k*MiDi(n) for some integer k, where MiDi(n) = A103977(n) = \"Minimal Difference of Divisors\".",
+  "id": "A125732",
+  "mentions": [
+    "A000079",
+    "A103977",
+    "A125733"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

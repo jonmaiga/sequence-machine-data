@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of exp(-9 + 5*phi), where phi is the golden ratio.",
+  "id": "A322259",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001622",
+    "A008683",
+    "A226765",
+    "A322258"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:51:59",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

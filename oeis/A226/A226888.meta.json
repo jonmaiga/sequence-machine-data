@@ -1,0 +1,17 @@
+{
+  "description": "Number of n-length words w over a 9-ary alphabet {a1,a2,...,a9} such that #(w,a1) >= #(w,a2) >= ... >= #(w,a9) >= 1, where #(w,x) counts the letters x in word w.",
+  "id": "A226888",
+  "mentions": [
+    "A226874"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 9,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

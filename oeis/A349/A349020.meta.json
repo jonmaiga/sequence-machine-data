@@ -1,0 +1,21 @@
+{
+  "description": "Modified e-perfect numbers (A349019) that are not squarefree.",
+  "id": "A349020",
+  "mentions": [
+    "A005117",
+    "A013929",
+    "A348963",
+    "A348965",
+    "A349019"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

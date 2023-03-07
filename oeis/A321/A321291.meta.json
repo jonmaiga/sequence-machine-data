@@ -1,0 +1,21 @@
+{
+  "description": "Smallest positive number for which the 4th power cannot be written as sum of 4th powers of any subset of previous terms.",
+  "id": "A321291",
+  "mentions": [
+    "A321266",
+    "A321290",
+    "A321292",
+    "A321293"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

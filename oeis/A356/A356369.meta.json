@@ -1,0 +1,21 @@
+{
+  "description": "Numbers such that each digit \"d\" occurs d times, for every digit from 1 to the largest digit.",
+  "id": "A356369",
+  "mentions": [
+    "A105776",
+    "A108571",
+    "A247700"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

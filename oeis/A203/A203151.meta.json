@@ -1,0 +1,21 @@
+{
+  "description": "(n-1)-st elementary symmetric function of {1,1,2,2,3,3,4,4,5,5,...,Floor[(n+1)/2]}.",
+  "id": "A203151",
+  "mentions": [
+    "A002620",
+    "A010551",
+    "A203152",
+    "A203246",
+    "A246117"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 14:52:54",
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

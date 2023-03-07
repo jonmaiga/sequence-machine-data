@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: T(n>=2, k>=1) is the number of Dyck paths of length 2n that correspond to k alternating sign matrices.",
+  "id": "A263216",
+  "mentions": [
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

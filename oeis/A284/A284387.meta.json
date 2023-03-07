@@ -1,0 +1,22 @@
+{
+  "description": "{010->2}-transform of the infinite Fibonacci word A003849.",
+  "id": "A284387",
+  "mentions": [
+    "A003231",
+    "A003849",
+    "A188432",
+    "A214971",
+    "A276886"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

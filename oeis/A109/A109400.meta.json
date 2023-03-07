@@ -1,0 +1,24 @@
+{
+  "description": "For all k: the first k numbers followed by the first k primes.",
+  "id": "A109400",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A002260",
+    "A002378",
+    "A037126",
+    "A082500",
+    "A109401",
+    "A109402"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

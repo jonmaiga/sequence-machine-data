@@ -1,0 +1,29 @@
+{
+  "description": "Number of numbers <= p^2 with largest prime factor <= p, where p is the n-th prime; a(0) = 1.",
+  "id": "A184677",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A001248",
+    "A002473",
+    "A003586",
+    "A006530",
+    "A027424",
+    "A051037",
+    "A051038",
+    "A080197",
+    "A080681",
+    "A080682",
+    "A080683"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

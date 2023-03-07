@@ -1,0 +1,28 @@
+{
+  "description": "Numbers k such that when iterating the map x -> A000593(x), we will not encounter a term x (after the starting point x=k) whose largest prime factor would be at least as large as A006530(k), before 1 is eventually reached.",
+  "id": "A347243",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A000265",
+    "A000593",
+    "A006530",
+    "A161942",
+    "A336361",
+    "A347240",
+    "A347241",
+    "A347242",
+    "A347244",
+    "A347245"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

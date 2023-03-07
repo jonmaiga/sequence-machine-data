@@ -1,0 +1,18 @@
+{
+  "description": "Smith numbers with either no internal digits or all internal digits are 0.",
+  "id": "A204341",
+  "mentions": [
+    "A006753"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:24",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

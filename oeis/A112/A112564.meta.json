@@ -1,0 +1,26 @@
+{
+  "description": "Square array, read by ascending antidiagonals, where each row is a generalized Flavius Josephus sieve (A000960).",
+  "id": "A112564",
+  "mentions": [
+    "A000960",
+    "A002491",
+    "A112560",
+    "A112561",
+    "A112562",
+    "A112563",
+    "A112565",
+    "A112568",
+    "A112569"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

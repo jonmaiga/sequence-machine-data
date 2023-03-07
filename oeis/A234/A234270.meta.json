@@ -1,0 +1,18 @@
+{
+  "description": "G.f.: (1-x)*(1-x-2*x^2-sqrt(1-2*x-3*x^2))/(2*x*(1-2*x-x^2)).",
+  "id": "A234270",
+  "mentions": [
+    "A234269"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

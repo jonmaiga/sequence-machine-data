@@ -1,0 +1,20 @@
+{
+  "description": "Beginning position of n in the decimal expansion of the Copeland-Erdos constant.",
+  "id": "A229190",
+  "mentions": [
+    "A033308",
+    "A165449"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

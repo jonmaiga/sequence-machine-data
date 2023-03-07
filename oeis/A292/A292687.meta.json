@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Product_{k=0..n-1} (4^(3^k) + 1) = decimal value of the Sierpinski-type iteration result A292686(n) (replace 0 with 000 and 1 with 101) considered as a binary number.",
+  "id": "A292687",
+  "mentions": [
+    "A292686"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

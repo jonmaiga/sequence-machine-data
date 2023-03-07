@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of number whose continued fraction expansion is formed by the difference of consecutive primes (A001223).",
+  "id": "A229911",
+  "mentions": [
+    "A001223",
+    "A064442"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

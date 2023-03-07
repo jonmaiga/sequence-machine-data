@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n! * Sum_{k=0..n} n^(n-k) * (n-k)^k/k!.",
+  "id": "A351765",
+  "mentions": [
+    "A332408",
+    "A351761",
+    "A351768",
+    "A351779"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

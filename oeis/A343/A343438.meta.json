@@ -1,0 +1,18 @@
+{
+  "description": "Indices of records of A343437.",
+  "id": "A343438",
+  "mentions": [
+    "A343435",
+    "A343437"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

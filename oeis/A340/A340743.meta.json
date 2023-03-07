@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of primes that divide at least one of the numbers prime(n)-prime(k) for 1 <= k < n.",
+  "id": "A340743",
+  "mentions": [
+    "A340752"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

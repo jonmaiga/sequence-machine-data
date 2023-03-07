@@ -1,0 +1,18 @@
+{
+  "description": "The number of orderings of the hypercube Q_n whose disorder number is equal to the disorder number of Q_n.",
+  "id": "A356658",
+  "mentions": [
+    "A271771"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of regular tetrahedra in an n-node-per-edge tetrahedral grid that have all four vertices on the boundary of the parent grid.",
+  "id": "A270805",
+  "mentions": [
+    "A269747",
+    "A270806"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

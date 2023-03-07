@@ -1,0 +1,27 @@
+{
+  "description": "Square array A(1,k) = A265905(k), A(n>1,k) = A(n-1, k+1) - A(n-1, k); successive differences of A265905 read by descending antidiagonals as A(1,1), A(1,2), A(2,1), A(1,3), A(2,2), A(3,1), ...",
+  "id": "A275950",
+  "mentions": [
+    "A002260",
+    "A004736",
+    "A153880",
+    "A265905",
+    "A265906",
+    "A275951",
+    "A275953",
+    "A275955",
+    "A275960"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Number of series-reduced labeled trees with n nodes.",
+  "id": "A108919",
+  "mentions": [
+    "A000311",
+    "A000669",
+    "A001678",
+    "A002792",
+    "A060356",
+    "A292504",
+    "A316651",
+    "A316652",
+    "A318231",
+    "A318813",
+    "A330465",
+    "A330624",
+    "A352410"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

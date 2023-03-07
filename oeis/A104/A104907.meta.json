@@ -1,0 +1,25 @@
+{
+  "description": "Numbers n such that d(n)*reversal(n)=sigma(n), where d(n) is number of positive divisors of n.",
+  "id": "A104907",
+  "mentions": [
+    "A056657",
+    "A093170",
+    "A096507",
+    "A099190",
+    "A105322",
+    "A105323",
+    "A105324"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

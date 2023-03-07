@@ -1,0 +1,29 @@
+{
+  "description": "Triangle of coefficients of (1 - x)^n*b(x/(1 - x),n), where b(x,n) is the Morgan-Voyce polynomial related to A085478.",
+  "id": "A123019",
+  "mentions": [
+    "A000217",
+    "A078812",
+    "A085478",
+    "A122753",
+    "A123018",
+    "A123021",
+    "A123027",
+    "A123199",
+    "A123202",
+    "A123217",
+    "A123221"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

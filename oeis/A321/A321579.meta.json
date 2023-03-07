@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-tuples of 4 elements excluding reverse duplicates and those consisting of repetitions of the same element only.",
+  "id": "A321579",
+  "mentions": [
+    "A032121"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

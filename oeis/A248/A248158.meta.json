@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of (1 - 2*x^2)/(1 + x)^3. Second column of Riordan triangle A248156.",
+  "id": "A248158",
+  "mentions": [
+    "A046691",
+    "A148157",
+    "A248156",
+    "A248157"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:26:17",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

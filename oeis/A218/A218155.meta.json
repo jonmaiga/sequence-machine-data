@@ -1,0 +1,20 @@
+{
+  "description": "Numbers congruent to 2, 3, 6, 11 mod 12.",
+  "id": "A218155",
+  "mentions": [
+    "A042944",
+    "A042945"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:21:43",
+    "offset": 1,
+    "size": 59,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of stable nuclides with mass number n.",
+  "id": "A318997",
+  "mentions": [
+    "A179301",
+    "A318998",
+    "A318999"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

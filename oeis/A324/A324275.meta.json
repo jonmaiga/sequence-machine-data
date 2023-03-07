@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k for which A324274(k) is 0, i.e., starting squares in A324274 that yield a path of infinite length.",
+  "id": "A324275",
+  "mentions": [
+    "A316588",
+    "A324273",
+    "A324274"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:54:39",
+    "offset": 1,
+    "size": 46,
+    "source": "joeis"
+  }
+}

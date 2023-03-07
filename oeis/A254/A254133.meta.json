@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Lamb's integral K_0.",
+  "id": "A254133",
+  "mentions": [
+    "A244920",
+    "A244921",
+    "A244922",
+    "A254134",
+    "A254135"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "changed",
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

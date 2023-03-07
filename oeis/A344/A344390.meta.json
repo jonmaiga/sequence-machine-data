@@ -1,0 +1,18 @@
+{
+  "description": "Continued fraction for A073084, the constant LambertW(log(sqrt(2))/log(sqrt(2)).",
+  "id": "A344390",
+  "mentions": [
+    "A073084"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that the Wilson quotient of the p-th prime is also prime.",
+  "id": "A225672",
+  "mentions": [
+    "A007619",
+    "A050299",
+    "A122696"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

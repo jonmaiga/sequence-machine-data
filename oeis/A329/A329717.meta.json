@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is n (plus or minus) the number of distinct primes dividing n according to parity (even or odd).",
+  "id": "A329717",
+  "mentions": [
+    "A001221",
+    "A229109"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

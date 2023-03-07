@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of necklaces of n 1's, n -1's, and k 0's such that no two adjacent elements are equal.",
+  "id": "A283615",
+  "mentions": [
+    "A000010",
+    "A003239",
+    "A110710",
+    "A283614"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

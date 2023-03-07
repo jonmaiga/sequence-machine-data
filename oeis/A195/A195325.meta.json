@@ -1,0 +1,25 @@
+{
+  "description": "Least n-gap prime: a(n) = least prime p for which there is no prime between n*p and n*q, where q is the next prime after p.",
+  "id": "A195325",
+  "mentions": [
+    "A001359",
+    "A080192",
+    "A110835",
+    "A164294",
+    "A164368",
+    "A194658",
+    "A195270",
+    "A195271",
+    "A195465"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

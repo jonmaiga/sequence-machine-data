@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that sigma(2n-1) is a prime p.",
+  "id": "A247820",
+  "mentions": [
+    "A000203",
+    "A008438",
+    "A247789",
+    "A247837"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

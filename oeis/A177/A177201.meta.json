@@ -1,0 +1,21 @@
+{
+  "description": "Multiples of nontrivially polygonal numbers A090466.",
+  "id": "A177201",
+  "mentions": [
+    "A057145",
+    "A090466",
+    "A177202"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

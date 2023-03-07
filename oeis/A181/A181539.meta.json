@@ -1,0 +1,21 @@
+{
+  "description": "Smallest number m > 1 such that m^2 == 1 (mod 10^n).",
+  "id": "A181539",
+  "mentions": [
+    "A063006",
+    "A085610",
+    "A085877",
+    "A091661",
+    "A181607"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

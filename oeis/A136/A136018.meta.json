@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: r(n,k) = g(n,n-k), where g(n,k) is the number of ideals of size k in a garland (or double fence) of order n (see A137278).",
+  "id": "A136018",
+  "mentions": [
+    "A004149",
+    "A137278"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

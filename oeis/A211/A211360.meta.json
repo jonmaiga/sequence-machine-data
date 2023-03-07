@@ -1,0 +1,19 @@
+{
+  "description": "Top elements of triangle A211350.",
+  "id": "A211360",
+  "mentions": [
+    "A178866",
+    "A194602",
+    "A211350"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

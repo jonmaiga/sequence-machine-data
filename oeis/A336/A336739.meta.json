@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of decompositions of H(n,1) into disjoint unions of H(j,k) where H(j,k) is the set of numbers { (2*i-1)*(2*k-1), 1 <= i <= j }.",
+  "id": "A336739",
+  "mentions": [
+    "A335631"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

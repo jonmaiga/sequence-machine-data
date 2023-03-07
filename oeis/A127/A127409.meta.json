@@ -1,0 +1,25 @@
+{
+  "description": "Negative value of coefficient of x^(n-4) in the characteristic polynomial of a certain n X n integer circulant matrix.",
+  "id": "A127409",
+  "mentions": [
+    "A000142",
+    "A014206",
+    "A127407",
+    "A127408",
+    "A127410",
+    "A127411",
+    "A127412"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:14:07",
+    "offset": 4,
+    "size": 23,
+    "source": "joeis"
+  }
+}

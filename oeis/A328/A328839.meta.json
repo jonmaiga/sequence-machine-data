@@ -1,0 +1,24 @@
+{
+  "description": "Smallest prime not dividing n times smallest prime not dividing A276087(n).",
+  "id": "A328839",
+  "mentions": [
+    "A010709",
+    "A053669",
+    "A276086",
+    "A276087",
+    "A328578",
+    "A328579",
+    "A328585"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

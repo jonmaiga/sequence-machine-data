@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (4+sqrt(3))*(3+sqrt(3))^n + (4-sqrt(3))*(3-sqrt(3))^n.",
+  "id": "A162560",
+  "mentions": [
+    "A162852"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:00:23",
+    "offset": -1,
+    "size": 22,
+    "source": "joeis"
+  }
+}

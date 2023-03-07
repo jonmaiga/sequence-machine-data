@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of (1+2x-sqrt(1-4x^2))/(2(1-x^2)*sqrt(1-4x^2)).",
+  "id": "A174783",
+  "mentions": [
+    "A000108",
+    "A086905",
+    "A174784",
+    "A174785"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

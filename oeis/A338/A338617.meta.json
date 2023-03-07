@@ -1,0 +1,19 @@
+{
+  "description": "Number of spanning trees in the n X 4 king graph.",
+  "id": "A338617",
+  "mentions": [
+    "A003696",
+    "A338029"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

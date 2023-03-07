@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^k*F(k)*F(k+2), where F=A000045 (Fibonacci numbers).",
+  "id": "A214884",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A001654",
+    "A077916",
+    "A080144",
+    "A119283",
+    "A214885"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-03 13:00:26",
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

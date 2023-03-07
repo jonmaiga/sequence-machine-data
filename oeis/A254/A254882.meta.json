@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows, T(n,k) = Sum_{j=0..k-1} S(n,j+1)*S(n,k-j) where S denotes the Stirling cycle numbers A132393, T(0,0)=1, n>=0, 0<=k<=2n-1.",
+  "id": "A254882",
+  "mentions": [
+    "A129256",
+    "A132393",
+    "A246117",
+    "A254881"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

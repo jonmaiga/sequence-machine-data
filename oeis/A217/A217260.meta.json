@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. 2*arctan(1+x) - Pi/2.",
+  "id": "A217260",
+  "mentions": [
+    "A000111",
+    "A009775"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

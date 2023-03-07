@@ -1,0 +1,18 @@
+{
+  "description": "Indices of square pyramidal numbers (A000330) that are the sum of 4 but no fewer nonzero squares.",
+  "id": "A269871",
+  "mentions": [
+    "A000330",
+    "A004215"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

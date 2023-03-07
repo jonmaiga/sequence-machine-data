@@ -1,0 +1,20 @@
+{
+  "description": "Primes of form A038396(n) - 1 or A038396(n) + 1.",
+  "id": "A286661",
+  "mentions": [
+    "A019520",
+    "A038396",
+    "A210734"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numerators of rational valued sequence whose Dirichlet convolution with itself yields A003961.",
+  "id": "A318321",
+  "mentions": [
+    "A003961",
+    "A046644",
+    "A317937",
+    "A318319"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "frac",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:38",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

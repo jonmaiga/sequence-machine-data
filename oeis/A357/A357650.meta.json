@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. cosh( (exp(4*x) - 1)/4 ).",
+  "id": "A357650",
+  "mentions": [
+    "A009153",
+    "A024430",
+    "A357617",
+    "A357649"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

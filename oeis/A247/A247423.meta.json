@@ -1,0 +1,21 @@
+{
+  "description": "Complement of A247424.",
+  "id": "A247423",
+  "mentions": [
+    "A003234",
+    "A005206",
+    "A242094",
+    "A247419",
+    "A247424"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

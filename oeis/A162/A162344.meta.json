@@ -1,0 +1,29 @@
+{
+  "description": "Array read by rows in which row n lists the numbers that are in the same \"x\" level in the mountain path of the primes.",
+  "id": "A162344",
+  "mentions": [
+    "A162200",
+    "A162201",
+    "A162202",
+    "A162203",
+    "A162340",
+    "A162341",
+    "A162342",
+    "A162343",
+    "A162345",
+    "A162350",
+    "A162351",
+    "A162352"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

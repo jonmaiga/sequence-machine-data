@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that prepending 6 to the k-th triangular number produces a prime.",
+  "id": "A158864",
+  "mentions": [
+    "A000217",
+    "A158750",
+    "A158844",
+    "A158845",
+    "A158862"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

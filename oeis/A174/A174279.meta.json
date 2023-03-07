@@ -1,0 +1,22 @@
+{
+  "description": "Smallest k such that tau(Fibonacci(k)) = 2^n.",
+  "id": "A174279",
+  "mentions": [
+    "A000005",
+    "A000045",
+    "A037918",
+    "A063375",
+    "A085077"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

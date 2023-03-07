@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Product_{k=1..n} prime(k+1)^(n-k+1).",
+  "id": "A302156",
+  "mentions": [
+    "A000079",
+    "A002110",
+    "A006939",
+    "A070826",
+    "A076954",
+    "A087315"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:20:16",
+    "offset": 0,
+    "size": 12,
+    "source": "joeis"
+  }
+}

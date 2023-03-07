@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest positive number that has not appeared that is a divisor of either a(n-2)+a(n-1) or a(n-2)*a(n-1).",
+  "id": "A352790",
+  "mentions": [
+    "A251622",
+    "A332301",
+    "A349493",
+    "A351001",
+    "A352768"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

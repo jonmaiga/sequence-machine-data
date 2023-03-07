@@ -1,0 +1,21 @@
+{
+  "description": "Zeroless pandigital numbers whose square has each digit 1 to 9 twice.",
+  "id": "A358705",
+  "mentions": [
+    "A050289",
+    "A199630"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

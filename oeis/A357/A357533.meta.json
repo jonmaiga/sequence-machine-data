@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=0..floor(n/4)} (n-3*k)!/(n-4*k)!.",
+  "id": "A357533",
+  "mentions": [
+    "A072374",
+    "A122852",
+    "A357532",
+    "A357570"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

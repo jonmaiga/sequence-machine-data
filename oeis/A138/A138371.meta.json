@@ -1,0 +1,28 @@
+{
+  "description": "Count of post-period decimal digits up to which the rounded n-th convergent to A058265 agrees with the exact value.",
+  "id": "A138371",
+  "mentions": [
+    "A058265",
+    "A084407",
+    "A138335",
+    "A138336",
+    "A138337",
+    "A138339",
+    "A138343",
+    "A138366",
+    "A138367",
+    "A138369",
+    "A138370"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

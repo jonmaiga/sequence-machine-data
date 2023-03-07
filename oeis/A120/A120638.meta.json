@@ -1,0 +1,20 @@
+{
+  "description": "Primes such that their triple is not 2 away from a prime number.",
+  "id": "A120638",
+  "mentions": [
+    "A023208",
+    "A088878",
+    "A125272"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

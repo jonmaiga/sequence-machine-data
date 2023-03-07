@@ -1,0 +1,19 @@
+{
+  "description": "Number of irreducible partitions into triangular numbers. A partition is irreducible if no subpartition with 2 or more parts sums to a triangular number.",
+  "id": "A109037",
+  "mentions": [
+    "A007294",
+    "A109035",
+    "A109038"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

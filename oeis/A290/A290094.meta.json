@@ -1,0 +1,27 @@
+{
+  "description": "Restricted growth sequence transform of A290093.",
+  "id": "A290094",
+  "mentions": [
+    "A006047",
+    "A053735",
+    "A062756",
+    "A081603",
+    "A117942",
+    "A206424",
+    "A227428",
+    "A290079",
+    "A290091",
+    "A290092",
+    "A290093"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 0,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

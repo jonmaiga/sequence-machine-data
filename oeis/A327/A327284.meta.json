@@ -1,0 +1,18 @@
+{
+  "description": "Indices of terms of the Hofstadter Q-sequence (A005185) not used in generating a later term.",
+  "id": "A327284",
+  "mentions": [
+    "A005185",
+    "A076701"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

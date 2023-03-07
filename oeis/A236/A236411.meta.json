@@ -1,0 +1,18 @@
+{
+  "description": "Let p(k) denote the k-th prime; a(n) = smallest p(m) > p(n) such that the n-2 differences between [p(n), p(n+1), ..., p(2n-2)] are the same as the n-2 differences between [p(m), p(m+1), ..., p(m+n-2)].",
+  "id": "A236411",
+  "mentions": [
+    "A073615"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

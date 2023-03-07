@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: A(x,y) = Sum_{n>=0} x^n * Product_{k=1..n} (k + x*y) / (1 + k*x*y), as a triangle read by rows.",
+  "id": "A231171",
+  "mentions": [
+    "A000045",
+    "A231172",
+    "A231173"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

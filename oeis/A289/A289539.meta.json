@@ -1,0 +1,25 @@
+{
+  "description": "Number of ways to choose a subspace U of GF(2)^n and then choose a subspace of U.",
+  "id": "A289539",
+  "mentions": [
+    "A000244",
+    "A006116",
+    "A022166",
+    "A182176",
+    "A289537",
+    "A289538",
+    "A289541",
+    "A289542"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

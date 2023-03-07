@@ -1,0 +1,32 @@
+{
+  "description": "Number T(n,k) of partitions of n into two sorts of parts having exactly k parts of the second sort; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A256193",
+  "mentions": [
+    "A000041",
+    "A006128",
+    "A070933",
+    "A258471",
+    "A258472",
+    "A258473",
+    "A258474",
+    "A258475",
+    "A258476",
+    "A258477",
+    "A258478",
+    "A258479",
+    "A258480",
+    "A278464"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

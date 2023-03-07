@@ -1,0 +1,19 @@
+{
+  "description": "Integer values of 10*n-122+360/n for n >= 7 (see A169926).",
+  "id": "A169929",
+  "mentions": [
+    "A169926"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

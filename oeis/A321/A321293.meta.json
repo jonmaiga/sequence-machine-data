@@ -1,0 +1,20 @@
+{
+  "description": "Smallest positive number for which the 6th power cannot be written as sum of distinct 6th powers of any subset of previous terms.",
+  "id": "A321293",
+  "mentions": [
+    "A321266",
+    "A321290",
+    "A321291",
+    "A321292"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

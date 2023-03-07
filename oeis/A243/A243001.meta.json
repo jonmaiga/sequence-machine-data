@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = date of Easter in March of n, in the Gregorian calendar after A.D. 1582. a(n) = 0 if Easter occurs in April.",
+  "id": "A243001",
+  "mentions": [
+    "A243002"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1583,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

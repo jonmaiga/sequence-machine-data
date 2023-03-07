@@ -1,0 +1,28 @@
+{
+  "description": "Square array A(n,k), n>=1, k>=1, read by antidiagonals: A(n,k) is the number of n-colorings of the complete bipartite graph K_(k,k).",
+  "id": "A212085",
+  "mentions": [
+    "A000004",
+    "A000290",
+    "A002378",
+    "A007395",
+    "A008277",
+    "A068293",
+    "A091940",
+    "A212084",
+    "A266695",
+    "A282245"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

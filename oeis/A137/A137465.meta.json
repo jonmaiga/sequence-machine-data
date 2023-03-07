@@ -1,0 +1,20 @@
+{
+  "description": "1 concatenated with n n's concatenated with 1.",
+  "id": "A137465",
+  "mentions": [
+    "A000461"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

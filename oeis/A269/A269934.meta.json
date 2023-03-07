@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX4 0..6 arrays with some element plus some horizontally, diagonally, antidiagonally or vertically adjacent neighbor totalling six exactly once.",
+  "id": "A269934",
+  "mentions": [
+    "A269937"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

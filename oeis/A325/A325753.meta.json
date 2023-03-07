@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows giving the number of configurations of n indistinguishable pairs placed on the vertices of the ladder graph P_2 X P_n such that exactly k such pairs are joined by an edge.",
+  "id": "A325753",
+  "mentions": [
+    "A000045",
+    "A046741",
+    "A178523",
+    "A265167",
+    "A318243",
+    "A318244",
+    "A318267",
+    "A318268",
+    "A318269",
+    "A318270"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k divides A341038(k).",
+  "id": "A341039",
+  "mentions": [
+    "A139256",
+    "A341038"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

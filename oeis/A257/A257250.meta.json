@@ -1,0 +1,40 @@
+{
+  "description": "Numbers n for which A256999(n) = n; numbers that cannot be made any larger by rotating (by one or more steps) the non-msb bits of their binary representation (with A080541 or A080542).",
+  "id": "A257250",
+  "mentions": [
+    "A000031",
+    "A000079",
+    "A000120",
+    "A000225",
+    "A001037",
+    "A003714",
+    "A004755",
+    "A008965",
+    "A014081",
+    "A053645",
+    "A065609",
+    "A069010",
+    "A080541",
+    "A080542",
+    "A256999",
+    "A257739",
+    "A258003",
+    "A275692",
+    "A328594",
+    "A328595",
+    "A328596",
+    "A328607",
+    "A328668"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

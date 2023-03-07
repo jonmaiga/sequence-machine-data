@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct values obtained by partitioning the binary representation of n into consecutive blocks, and then summing the numbers represented by the blocks.",
+  "id": "A321318",
+  "mentions": [
+    "A321319",
+    "A321320",
+    "A321321"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

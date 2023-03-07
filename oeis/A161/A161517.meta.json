@@ -1,0 +1,20 @@
+{
+  "description": "Sum of remainders of c mod k where k = 1, 2, 3, ..., c and c is the n-th composite number.",
+  "id": "A161517",
+  "mentions": [
+    "A002808",
+    "A004125"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

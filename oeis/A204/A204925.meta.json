@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the index j < k such that n divides s(k) - s(j), where k is the least index (A204924) for which such j exists, and s=(1,2,3,5,8,13,...), the Fibonacci numbers.",
+  "id": "A204925",
+  "mentions": [
+    "A000045",
+    "A204892",
+    "A204924"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:31:05",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

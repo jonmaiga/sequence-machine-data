@@ -1,0 +1,17 @@
+{
+  "description": "Smallest error in trying to solve n^3 = x^3 + y^3. That is, for each n, find positive integers x <= y < n such that | n^3 - x^3 - y^3 | is minimal and let a(n) := n^3 - x^3 - y^3.",
+  "id": "A135998",
+  "mentions": [
+    "A308834"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 2,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

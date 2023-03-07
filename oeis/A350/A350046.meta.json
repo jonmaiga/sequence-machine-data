@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that, in the prime factorization of m! (with the primes in ascending order), no two successive exponents differ by a composite number.",
+  "id": "A350046",
+  "mentions": [
+    "A000142",
+    "A330706"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

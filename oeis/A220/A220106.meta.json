@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX1 arrays of the minimum or maximum value of corresponding elements and their horizontal and vertical neighbors in a random 0..3 nX1 array",
+  "id": "A220106",
+  "mentions": [
+    "A220109"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

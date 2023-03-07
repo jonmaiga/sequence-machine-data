@@ -1,0 +1,17 @@
+{
+  "description": "Smallest b > n+2 such that n*b^n + 1 is a generalized Cullen prime with n > 1 and base b > n+2 or 0 if no such prime exists.",
+  "id": "A295052",
+  "mentions": [
+    "A210339"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 2,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

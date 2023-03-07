@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of (Pi-3)*(2*Pi-3)/4.",
+  "id": "A217909",
+  "mentions": [
+    "A096444",
+    "A223709",
+    "A223710"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:16:09",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

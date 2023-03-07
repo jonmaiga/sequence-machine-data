@@ -1,0 +1,19 @@
+{
+  "description": "Maximum of the smallest prime factors of (i^prime(n)-1)/(i-1), when i runs through all integers in [2, prime(n)].",
+  "id": "A247216",
+  "mentions": [
+    "A020639",
+    "A035095"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

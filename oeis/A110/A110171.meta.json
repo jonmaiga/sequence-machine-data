@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) (0 <= k <= n) is the number of Delannoy paths of length n that start with exactly k (0,1) steps (or, equivalently, with exactly k (1,0) steps).",
+  "id": "A110171",
+  "mentions": [
+    "A001850",
+    "A002003",
+    "A006318",
+    "A007318",
+    "A050146",
+    "A050151",
+    "A113139",
+    "A118384"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

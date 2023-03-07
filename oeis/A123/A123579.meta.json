@@ -1,0 +1,23 @@
+{
+  "description": "The Kruskal-Macaulay function M_3(n).",
+  "id": "A123579",
+  "mentions": [
+    "A000124",
+    "A000127",
+    "A000292",
+    "A123578",
+    "A123580",
+    "A123731"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+2)X5 0..3 matrices with each 3X3 subblock having the same population",
+  "id": "A224805",
+  "mentions": [
+    "A224806"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

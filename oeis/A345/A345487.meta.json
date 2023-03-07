@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are the sum of seven squares in ten or more ways.",
+  "id": "A345487",
+  "mentions": [
+    "A345477",
+    "A345486",
+    "A345497",
+    "A345506"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:21",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

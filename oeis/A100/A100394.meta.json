@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the subscript of the greatest prime factor of (2*prime(n) + 1).",
+  "id": "A100394",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A006530",
+    "A023590"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

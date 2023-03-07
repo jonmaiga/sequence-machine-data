@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose mixed Zeckendorf-Lucas representation is not a Zeckendorf or Lucas representation. See Comments.",
+  "id": "A336007",
+  "mentions": [
+    "A007895",
+    "A014417",
+    "A116543",
+    "A214973",
+    "A336004"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

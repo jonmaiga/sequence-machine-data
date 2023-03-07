@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = gcd((s+1)/2, 1+sigma(s)), where s is the n-th odd square, (2n-1)^2.",
+  "id": "A336697",
+  "mentions": [
+    "A000203",
+    "A016754",
+    "A048673",
+    "A336700",
+    "A337337",
+    "A337339"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

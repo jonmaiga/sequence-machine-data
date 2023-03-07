@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Sum_{m>=1} (-1)Sigma(m)/m^5.",
+  "id": "A123734",
+  "mentions": [
+    "A049060",
+    "A123732",
+    "A123733"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

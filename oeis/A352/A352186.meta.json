@@ -1,0 +1,17 @@
+{
+  "description": "The numbers k arising in A352185.",
+  "id": "A352186",
+  "mentions": [
+    "A352185"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

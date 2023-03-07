@@ -1,0 +1,18 @@
+{
+  "description": "The average cycle length of cycles in Fibonacci-like sequences modulo n over all starting pairs of remainders.",
+  "id": "A233248",
+  "mentions": [
+    "A064414",
+    "A233246"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

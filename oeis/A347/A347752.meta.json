@@ -1,0 +1,18 @@
+{
+  "description": "Orders of additive cubes in the tribonacci word A080843.",
+  "id": "A347752",
+  "mentions": [
+    "A080843",
+    "A345717"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

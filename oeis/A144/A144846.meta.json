@@ -1,0 +1,25 @@
+{
+  "description": "Numerators of triangle T(n,k), n>=0, 0<=k<=n, read by rows: T(n,k) is the coefficient of x^(2k+1) in polynomial u_n(x), used to approximate x->sin(Pi*x)/Pi.",
+  "id": "A144846",
+  "mentions": [
+    "A000796",
+    "A001790",
+    "A144847",
+    "A230142",
+    "A230143"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "frac",
+    "look",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

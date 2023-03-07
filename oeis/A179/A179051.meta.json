@@ -1,0 +1,27 @@
+{
+  "description": "Number of partitions of n into powers of 10 (cf. A011557).",
+  "id": "A179051",
+  "mentions": [
+    "A000041",
+    "A008592",
+    "A011557",
+    "A018819",
+    "A062051",
+    "A132272",
+    "A133880",
+    "A145513",
+    "A179052",
+    "A206245"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

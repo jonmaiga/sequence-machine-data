@@ -1,0 +1,20 @@
+{
+  "description": "List of pairs (n,m) with n < m such that the decimal expansion of m is a cyclic shift of that of n and m^2 is a cyclic shift of n^2.",
+  "id": "A134514",
+  "mentions": [
+    "A134584",
+    "A134585"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

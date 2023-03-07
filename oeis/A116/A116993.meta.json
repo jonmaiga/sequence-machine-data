@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least number having exactly n representations as a product of two palindromes.",
+  "id": "A116993",
+  "mentions": [
+    "A002113",
+    "A125832",
+    "A125833",
+    "A125834"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

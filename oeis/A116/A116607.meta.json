@@ -1,0 +1,25 @@
+{
+  "description": "Sum of the divisors of n which are not divisible by 9.",
+  "id": "A116607",
+  "mentions": [
+    "A046897",
+    "A046913",
+    "A096726",
+    "A113957",
+    "A116073",
+    "A284326",
+    "A284341"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:06",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

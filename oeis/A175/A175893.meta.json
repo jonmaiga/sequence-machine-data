@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = m such that 2*prime(m)+prime(m+1) is prime.",
+  "id": "A175893",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A173971"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

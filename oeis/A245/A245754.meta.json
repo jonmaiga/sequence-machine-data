@@ -1,0 +1,17 @@
+{
+  "description": "Number of identity trees with n nodes where the maximal outdegree (branching factor) equals 9.",
+  "id": "A245754",
+  "mentions": [
+    "A244523"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 36,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Row sums of triangle A117401: a(n) = Sum_{k=0..n} 2^((n-k)*k) for n>=0.",
+  "id": "A117402",
+  "mentions": [
+    "A047863",
+    "A117401",
+    "A117403"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

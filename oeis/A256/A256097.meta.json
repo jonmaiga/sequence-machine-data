@@ -1,0 +1,23 @@
+{
+  "description": "Numerators of a rational guess r(n) for the input for Newton's algorithm to find sqrt(n).",
+  "id": "A256097",
+  "mentions": [
+    "A000196",
+    "A002193",
+    "A048760",
+    "A256098"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = [x^(n^2)] (theta_3(x) - 1)^n/(2^n*(1 - x)), where theta_3() is the Jacobi theta function.",
+  "id": "A302995",
+  "mentions": [
+    "A000122",
+    "A001182",
+    "A253663",
+    "A298330",
+    "A302861",
+    "A302863"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

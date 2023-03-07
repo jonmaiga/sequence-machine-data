@@ -1,0 +1,18 @@
+{
+  "description": "Largely composite numbers that are not highly composite.",
+  "id": "A244353",
+  "mentions": [
+    "A002182",
+    "A067128"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

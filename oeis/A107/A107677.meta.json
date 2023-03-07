@@ -1,0 +1,19 @@
+{
+  "description": "Numbers A such that the square of concatenation AA is of form NNMM.",
+  "id": "A107677",
+  "mentions": [
+    "A106497",
+    "A107678"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

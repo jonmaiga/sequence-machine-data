@@ -1,0 +1,21 @@
+{
+  "description": "Parity of Dirichlet inverse of A122111.",
+  "id": "A354868",
+  "mentions": [
+    "A000035",
+    "A122111",
+    "A354866",
+    "A354869"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

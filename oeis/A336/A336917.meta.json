@@ -1,0 +1,27 @@
+{
+  "description": "Number of iterations of x -> A252463(x) needed before the result is deficient, when starting from x=n.",
+  "id": "A336917",
+  "mentions": [
+    "A005100",
+    "A007283",
+    "A023196",
+    "A064989",
+    "A252463",
+    "A294934",
+    "A336389",
+    "A336834",
+    "A336835",
+    "A336915"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=1. For n >= 2, a(n) = the smallest integer >= a(n-1) such that gcd(n, a(n)) = p^k, where p = prime, k >= 1.",
+  "id": "A162901",
+  "mentions": [
+    "A162900"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

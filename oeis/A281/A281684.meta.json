@@ -1,0 +1,20 @@
+{
+  "description": "Least composite k such that the concatenation of n consecutive composites, starting from k, is a prime.",
+  "id": "A281684",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A030996"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 2,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

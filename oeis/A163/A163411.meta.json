@@ -1,0 +1,20 @@
+{
+  "description": "A positive integer is included if it is a palindrome when written in binary, and it is divisible by at least one prime that is not a binary palindrome.",
+  "id": "A163411",
+  "mentions": [
+    "A006995",
+    "A163410",
+    "A207039"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

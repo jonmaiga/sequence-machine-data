@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = product of nonzero entries in row n of A235791.",
+  "id": "A339577",
+  "mentions": [
+    "A024916",
+    "A060831",
+    "A235791",
+    "A237593"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

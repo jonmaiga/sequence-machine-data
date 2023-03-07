@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (9*n)!/((3*n)!*(2*n)!) * (n/2)!/(9*n/2)!.",
+  "id": "A347858",
+  "mentions": [
+    "A295437",
+    "A347854",
+    "A347857"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of singular vector tuples for a general 8-dimensional {n}^8 tensor.",
+  "id": "A287084",
+  "mentions": [
+    "A284308"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

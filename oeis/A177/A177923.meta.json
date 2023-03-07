@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=19, a(2)=13, a(3)=37; thereafter a(n) = gpf(a(n-1)+a(n-2)+a(n-3)), where gpf = \"greatest prime factor\".",
+  "id": "A177923",
+  "mentions": [
+    "A006530",
+    "A175723",
+    "A177904"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

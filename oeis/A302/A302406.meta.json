@@ -1,0 +1,20 @@
+{
+  "description": "Total domination number of the n X n torus grid graph.",
+  "id": "A302406",
+  "mentions": [
+    "A303210",
+    "A303213"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:36:05",
+    "offset": 0,
+    "size": 60,
+    "source": "joeis"
+  }
+}

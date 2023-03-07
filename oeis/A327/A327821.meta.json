@@ -1,0 +1,22 @@
+{
+  "description": "Number of legal Go positions on a board which is an n-cycle graph.",
+  "id": "A327821",
+  "mentions": [
+    "A094777",
+    "A102620",
+    "A266278",
+    "A268113"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 20:55:31",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

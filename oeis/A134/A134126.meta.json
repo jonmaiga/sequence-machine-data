@@ -1,0 +1,22 @@
+{
+  "description": "Indices k such that the (k+1)st partial sum of primes divided by k is integer.",
+  "id": "A134126",
+  "mentions": [
+    "A007504",
+    "A134125",
+    "A134127",
+    "A134128",
+    "A134129"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

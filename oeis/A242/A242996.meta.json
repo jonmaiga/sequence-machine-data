@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (a(n-1)^2 - a(n-2)^4) * a(n-1) / a(n-2)^2 with a(1) = 1, a(2) = 2.",
+  "id": "A242996",
+  "mentions": [
+    "A127815",
+    "A242995"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "changed",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

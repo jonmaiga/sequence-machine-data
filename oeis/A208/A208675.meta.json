@@ -1,0 +1,24 @@
+{
+  "description": "Number of words, either empty or beginning with the first letter of the ternary alphabet, where each letter of the alphabet occurs n times and letters of neighboring word positions are equal or neighbors in the alphabet.",
+  "id": "A208675",
+  "mentions": [
+    "A000108",
+    "A001622",
+    "A005258",
+    "A108625",
+    "A108628",
+    "A208673",
+    "A271777"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

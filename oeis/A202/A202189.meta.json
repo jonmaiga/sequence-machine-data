@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,k) = coefficient of x^n in expansion of x^k*(1+x+x^2)^(k*x) = sum(n>=k, T(n,k) x^n*k!/n!).",
+  "id": "A202189",
+  "mentions": [
+    "A132393",
+    "A264428"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "The number of octic characters modulo n.",
+  "id": "A247257",
+  "mentions": [
+    "A060594",
+    "A060839",
+    "A073103",
+    "A319099",
+    "A319100",
+    "A319101"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

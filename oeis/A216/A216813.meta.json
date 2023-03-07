@@ -1,0 +1,19 @@
+{
+  "description": "Sum of tail length of S over all 2^n strings S consisting of n 2's and 3's.",
+  "id": "A216813",
+  "mentions": [
+    "A094005",
+    "A216730"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "When the positive integers are written as products of primes in nondecreasing order, a(n) is the least prime to occur more frequently in n-th position than in any other position.",
+  "id": "A309366",
+  "mentions": [
+    "A002110",
+    "A027746",
+    "A126283",
+    "A281889",
+    "A281890"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Period of unit fractions having periodic decimal expansions.",
+  "id": "A121090",
+  "mentions": [
+    "A007732",
+    "A085837"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

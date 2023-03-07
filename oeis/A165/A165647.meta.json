@@ -1,0 +1,21 @@
+{
+  "description": "Number of simple graphs on n vertices with each component regular.",
+  "id": "A165647",
+  "mentions": [
+    "A005177",
+    "A165648",
+    "A275420"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

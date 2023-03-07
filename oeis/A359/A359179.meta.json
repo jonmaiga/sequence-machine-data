@@ -1,0 +1,18 @@
+{
+  "description": "Concatenate n consecutive numbers 1..n in a clockwise circle such that n > 1 is also concatenated to 1. Then a(n) is the number (counting with multiplicity) of substrings of digits in this endless loop that are prime. No counting may go over the starting digit again, that is, no substring can extend beyond one full circle. Leading zeros are not allowed.",
+  "id": "A359179",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

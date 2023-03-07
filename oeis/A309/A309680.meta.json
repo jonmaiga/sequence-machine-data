@@ -1,0 +1,21 @@
+{
+  "description": "The smallest nonsquare nonzero integer that is a quadratic residue modulo n, or 0 if no such integer exists.",
+  "id": "A309680",
+  "mentions": [
+    "A046071",
+    "A053760",
+    "A057126",
+    "A330404"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

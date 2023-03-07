@@ -1,0 +1,24 @@
+{
+  "description": "The floor(exp(n))-th irregular prime.",
+  "id": "A105461",
+  "mentions": [
+    "A000149",
+    "A000928",
+    "A055739",
+    "A105457",
+    "A105466"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

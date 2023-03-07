@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of g.f.: exp( Sum_{n>=1} [ Sum_{k>=0} C(n+k-1,k)^(n+k-1) *x^k ] *x^n/n ).",
+  "id": "A181078",
+  "mentions": [
+    "A181070",
+    "A181074",
+    "A181076",
+    "A181079"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

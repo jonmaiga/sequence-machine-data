@@ -1,0 +1,20 @@
+{
+  "description": "Squarefree numbers m congruent to 1 modulo 4 such that the fundamental unit of the field Q(sqrt(m)) has the form x+y*sqrt(m) with x, y integers.",
+  "id": "A283395",
+  "mentions": [
+    "A039955",
+    "A107997",
+    "A107998",
+    "A197170"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

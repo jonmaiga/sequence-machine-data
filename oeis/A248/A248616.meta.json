@@ -1,0 +1,18 @@
+{
+  "description": "Least number k such that k^k in base n contains all n possible digits.",
+  "id": "A248616",
+  "mentions": [
+    "A239306"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

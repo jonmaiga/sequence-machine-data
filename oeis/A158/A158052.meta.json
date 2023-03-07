@@ -1,0 +1,22 @@
+{
+  "description": "Largest integer power m (with 0 to stand for infinity) for which a representation of the form n = k^m exists (for some k >= 1) multiplied by -1 when k is prime.",
+  "id": "A158052",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A001597",
+    "A052409",
+    "A052410"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

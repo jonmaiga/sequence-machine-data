@@ -1,0 +1,19 @@
+{
+  "description": "A084938 * [1,2,3,...], where A084938 = the Delta operator.",
+  "id": "A134378",
+  "mentions": [
+    "A084938",
+    "A260532"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

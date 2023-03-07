@@ -1,0 +1,19 @@
+{
+  "description": "Start of a triple of consecutive squarefree numbers each of which has exactly 4 distinct prime factors.",
+  "id": "A242607",
+  "mentions": [
+    "A242605",
+    "A242608",
+    "A242621"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of r(q^3) / r(q)^3 in powers of q where r() is the Rogers-Ramanujan continued fraction.",
+  "id": "A285583",
+  "mentions": [
+    "A055102",
+    "A285348",
+    "A285443",
+    "A285584",
+    "A285585",
+    "A285628"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

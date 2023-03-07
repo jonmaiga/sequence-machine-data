@@ -1,0 +1,21 @@
+{
+  "description": "Records of the offset k in A307881, divided by 3.",
+  "id": "A307882",
+  "mentions": [
+    "A065978",
+    "A293858",
+    "A307881",
+    "A325142"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

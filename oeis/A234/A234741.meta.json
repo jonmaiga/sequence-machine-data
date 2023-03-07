@@ -1,0 +1,35 @@
+{
+  "description": "a(n) is the base-2 carryless product of the prime factors of n; Encoding of the product of the polynomials over GF(2) represented by the prime factors of n (with multiplicity).",
+  "id": "A234741",
+  "mentions": [
+    "A003987",
+    "A020639",
+    "A048720",
+    "A061858",
+    "A091202",
+    "A091203",
+    "A234742",
+    "A235034",
+    "A235041",
+    "A235042",
+    "A236378",
+    "A236833",
+    "A236834",
+    "A236835",
+    "A236841",
+    "A266195",
+    "A325561",
+    "A325562"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Central coefficients of polynomials related to Weyl groups and defined in A162206.",
+  "id": "A333508",
+  "mentions": [
+    "A162206",
+    "A162212",
+    "A162248",
+    "A162288",
+    "A162297",
+    "A162300",
+    "A162301",
+    "A162321",
+    "A162327",
+    "A162328",
+    "A162346",
+    "A162347",
+    "A162359"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

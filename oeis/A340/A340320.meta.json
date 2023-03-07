@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the X-coordinate of the n-th point of a variant of the quadratic Koch curve. Sequence A340321 gives Y-coordinates.",
+  "id": "A340320",
+  "mentions": [
+    "A332249",
+    "A340321",
+    "A340327"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

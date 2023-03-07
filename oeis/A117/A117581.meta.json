@@ -1,0 +1,22 @@
+{
+  "description": "For each successive prime p, the largest integer n such that both n and n-1 factor into primes less than or equal to p.",
+  "id": "A117581",
+  "mentions": [
+    "A002071",
+    "A002072",
+    "A116486",
+    "A117582",
+    "A117583"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

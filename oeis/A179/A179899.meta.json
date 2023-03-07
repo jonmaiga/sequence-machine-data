@@ -1,0 +1,21 @@
+{
+  "description": "Integers of the form A179896(n)/A141468(n+1).",
+  "id": "A179899",
+  "mentions": [
+    "A000040",
+    "A141468",
+    "A179545",
+    "A179896"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

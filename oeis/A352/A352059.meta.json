@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{p|n, p prime} (n-1)!/(n/p-1)!.",
+  "id": "A352059",
+  "mentions": [
+    "A087906",
+    "A352012",
+    "A352058",
+    "A352060"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

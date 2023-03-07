@@ -1,0 +1,23 @@
+{
+  "description": "Euler transform of Pell numbers.",
+  "id": "A261329",
+  "mentions": [
+    "A000129",
+    "A166861",
+    "A261031",
+    "A261330",
+    "A261331",
+    "A261332"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

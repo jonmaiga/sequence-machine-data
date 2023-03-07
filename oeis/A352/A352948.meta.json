@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that p+2, (p^2-1)/2+p and (p^2+3)/2+3*p are also prime.",
+  "id": "A352948",
+  "mentions": [
+    "A001359",
+    "A109945"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

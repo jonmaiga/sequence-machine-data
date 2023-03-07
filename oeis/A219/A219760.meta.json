@@ -1,0 +1,20 @@
+{
+  "description": "Martin Gardner's minimal no-3-in-a-line problem.",
+  "id": "A219760",
+  "mentions": [
+    "A000769",
+    "A277433"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

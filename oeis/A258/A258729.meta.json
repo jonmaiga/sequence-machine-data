@@ -1,0 +1,18 @@
+{
+  "description": "Number of length n+7 0..3 arrays with at most one downstep in every 7 consecutive neighbor pairs",
+  "id": "A258729",
+  "mentions": [
+    "A258730"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

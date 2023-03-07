@@ -1,0 +1,24 @@
+{
+  "description": "Numerators of sequence whose Dirichlet convolution with itself yields A303757, the ordinal transform of function a(1) = 0; a(n) = phi(n) for n > 1, where phi is Euler's totient function (A000010).",
+  "id": "A317847",
+  "mentions": [
+    "A000010",
+    "A046644",
+    "A303757",
+    "A317830",
+    "A317833",
+    "A317834",
+    "A317937"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

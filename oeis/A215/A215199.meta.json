@@ -1,0 +1,21 @@
+{
+  "description": "Smallest number k such that k and k+1 are both of the form p*q^n where p and q are distinct primes.",
+  "id": "A215199",
+  "mentions": [
+    "A074172",
+    "A215173",
+    "A215197",
+    "A215198"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of prime pairs (p,q) with p <= q, p+q = 2*n, and p*q mod (2*n) prime.",
+  "id": "A350399",
+  "mentions": [
+    "A002375",
+    "A350398",
+    "A350400"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

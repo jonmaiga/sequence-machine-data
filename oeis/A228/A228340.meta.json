@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (n-1)*T(n-1,k) + T(n-2,k), with T(n,n-1)=1, T(n,n-2)=n-2, for n >= 1, 0 <= k <= n-1.",
+  "id": "A228340",
+  "mentions": [
+    "A001040",
+    "A058279",
+    "A058307",
+    "A228341"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:45",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "An integer k, k >=3, is included if d(k) = d(k-1)*d(k-2), where d(k) is the number of divisors of k.",
+  "id": "A175115",
+  "mentions": [
+    "A000005",
+    "A145469",
+    "A175116"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Denominator of the polynomial A_l(x) = Sum_{d=1..l-1} x^(l-d)/d for index l=2n+1 evaluated at x=8.",
+  "id": "A145624",
+  "mentions": [
+    "A145609",
+    "A145623",
+    "A145640"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

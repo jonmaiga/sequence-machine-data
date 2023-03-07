@@ -1,0 +1,19 @@
+{
+  "description": "Smallest positive integer a(n) not yet in the sequence and sharing no digit with n or (n+1) in its decimal representation.",
+  "id": "A171072",
+  "mentions": [
+    "A160015"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:54",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

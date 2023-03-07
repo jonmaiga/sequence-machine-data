@@ -1,0 +1,21 @@
+{
+  "description": "Primes of the form 2^(2^k)+15.",
+  "id": "A160027",
+  "mentions": [
+    "A019434",
+    "A104067",
+    "A160028",
+    "A273547"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

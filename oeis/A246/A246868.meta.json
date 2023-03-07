@@ -1,0 +1,20 @@
+{
+  "description": "Largest number that can be encoded as Product_{i:lambda} prime(i) for a partition lambda of n into distinct parts.",
+  "id": "A246868",
+  "mentions": [
+    "A000009",
+    "A003056",
+    "A246867"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

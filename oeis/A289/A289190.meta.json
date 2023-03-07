@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k^2 with last digit deleted is a prime.",
+  "id": "A289190",
+  "mentions": [
+    "A024770",
+    "A031149",
+    "A137812",
+    "A227916",
+    "A227919",
+    "A258032"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

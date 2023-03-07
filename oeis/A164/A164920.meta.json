@@ -1,0 +1,24 @@
+{
+  "description": "Primes which are obtained at least by two ways using the iterations of the Bertrand operator (see A164917) beginning with primes of A164368.",
+  "id": "A164920",
+  "mentions": [
+    "A006992",
+    "A104272",
+    "A164288",
+    "A164368",
+    "A164917",
+    "A164918"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

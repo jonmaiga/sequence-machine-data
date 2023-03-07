@@ -1,0 +1,20 @@
+{
+  "description": "Number of n-bit numbers that can be written as the concatenation of 0 or more prime numbers (everything written in base 2).",
+  "id": "A246807",
+  "mentions": [
+    "A162145",
+    "A246806"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

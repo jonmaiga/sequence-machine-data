@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of walks from (0,0) to (0,4) that remain in the upper half-plane y >= 0 using 2*n +2 unit steps either up (U), down (D), left (L) or right (R).",
+  "id": "A145603",
+  "mentions": [
+    "A000891",
+    "A145599",
+    "A145600",
+    "A145601",
+    "A145602"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:51:38",
+    "offset": 1,
+    "size": 16,
+    "source": "joeis"
+  }
+}

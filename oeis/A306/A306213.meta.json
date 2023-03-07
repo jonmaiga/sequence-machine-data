@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are the sum of cubes of three distinct positive integers in arithmetic progression.",
+  "id": "A306213",
+  "mentions": [
+    "A000578",
+    "A023042",
+    "A024975",
+    "A122723",
+    "A306212",
+    "A306214"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

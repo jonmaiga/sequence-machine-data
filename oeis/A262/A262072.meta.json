@@ -1,0 +1,22 @@
+{
+  "description": "Number T(n,k) of partitions of an n-set with distinct block sizes and maximal block size equal to k; triangle T(n,k), n>=0, ceiling((sqrt(1+8*n)-1)/2)<=k<=n, read by rows.",
+  "id": "A262072",
+  "mentions": [
+    "A002024",
+    "A007837",
+    "A262071",
+    "A262073",
+    "A262078"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

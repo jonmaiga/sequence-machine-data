@@ -1,0 +1,27 @@
+{
+  "description": "Numbers expressible as a^2 + k*b^2 with nonzero integers a,b, for k=2, k=3 and k=5.",
+  "id": "A155708",
+  "mentions": [
+    "A000404",
+    "A028372",
+    "A092572",
+    "A097268",
+    "A154777",
+    "A154778",
+    "A155560",
+    "A155578",
+    "A155707",
+    "A155715",
+    "A155716"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:37",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

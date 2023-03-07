@@ -1,0 +1,19 @@
+{
+  "description": "Small equivalence classes (A227722) of subgroups of nimber addition (A190939).",
+  "id": "A227963",
+  "mentions": [
+    "A190939",
+    "A227722",
+    "A227960"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

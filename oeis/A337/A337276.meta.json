@@ -1,0 +1,18 @@
+{
+  "description": "Index of appearance of 2*n in A336957, or -1 if 2*n never appears.",
+  "id": "A337276",
+  "mentions": [
+    "A336957",
+    "A337275"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

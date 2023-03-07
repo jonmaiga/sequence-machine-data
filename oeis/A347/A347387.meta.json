@@ -1,0 +1,25 @@
+{
+  "description": "The exponent of the first power of 2 reached when starting iterating A347385 from n, where A347385 is Dedekind psi function applied to the odd part of n.",
+  "id": "A347387",
+  "mentions": [
+    "A000265",
+    "A001615",
+    "A007814",
+    "A049113",
+    "A209229",
+    "A347385",
+    "A347386",
+    "A347388"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

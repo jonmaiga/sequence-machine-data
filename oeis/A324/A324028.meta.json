@@ -1,0 +1,26 @@
+{
+  "description": "One of the two successive approximations up to 5^n for 5-adic integer sqrt(-6). This is the 3 (mod 5) case (except for n = 0).",
+  "id": "A324028",
+  "mentions": [
+    "A048898",
+    "A048899",
+    "A268922",
+    "A269590",
+    "A324023",
+    "A324024",
+    "A324027",
+    "A324029",
+    "A324030"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

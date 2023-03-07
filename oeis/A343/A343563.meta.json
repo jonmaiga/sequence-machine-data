@@ -1,0 +1,23 @@
+{
+  "description": "Squares visited by a knight moving on a square-spiral numbered board where the knight moves to the unvisited square containing the spiral number with the smallest digit sum. In case of a tie it chooses the lowest number.",
+  "id": "A343563",
+  "mentions": [
+    "A007953",
+    "A316667",
+    "A326922",
+    "A328894",
+    "A328928"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

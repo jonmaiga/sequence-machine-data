@@ -1,0 +1,23 @@
+{
+  "description": "Number of chiral pairs of color patterns (set partitions) in a cycle of length n using exactly 5 colors (subsets).",
+  "id": "A320645",
+  "mentions": [
+    "A056298",
+    "A056360",
+    "A304972",
+    "A304975",
+    "A320647"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

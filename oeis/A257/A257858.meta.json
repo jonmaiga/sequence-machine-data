@@ -1,0 +1,21 @@
+{
+  "description": "An increasing sequence of integers for which the continued square root map (see A257574) produces the decimal expansion of Pi.",
+  "id": "A257858",
+  "mentions": [
+    "A257352",
+    "A257574",
+    "A257582",
+    "A257764",
+    "A257809"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

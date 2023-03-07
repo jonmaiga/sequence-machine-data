@@ -1,0 +1,28 @@
+{
+  "description": "Triangle of number of 4-ary Lyndon words of length n containing exactly k 1s.",
+  "id": "A124814",
+  "mentions": [
+    "A000244",
+    "A027376",
+    "A027377",
+    "A032766",
+    "A051168",
+    "A123223",
+    "A124810",
+    "A124811",
+    "A124812",
+    "A124813"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

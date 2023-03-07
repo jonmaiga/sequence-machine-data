@@ -1,0 +1,20 @@
+{
+  "description": "Number of distinct squares when inserting at most one digit in decimal representation of n.",
+  "id": "A157464",
+  "mentions": [
+    "A000290",
+    "A157465",
+    "A157466"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:39",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

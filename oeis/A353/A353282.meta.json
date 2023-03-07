@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of solutions (x,y) to the Diophantine equation S(x,y) = (x+y) + (x-y) + (x*y) + (x/y) = A013929(n) when x >= y > 1 and y | x.",
+  "id": "A353282",
+  "mentions": [
+    "A005117",
+    "A013929",
+    "A046951",
+    "A046952",
+    "A130279",
+    "A351381"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Take n in binary. Rotate the binary digits to the right until a 1 once again appears as the leftmost digit. Convert back into decimal for a(n).",
+  "id": "A139706",
+  "mentions": [
+    "A139707",
+    "A139708",
+    "A272919"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

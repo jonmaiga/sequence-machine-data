@@ -1,0 +1,19 @@
+{
+  "description": "Bisection (odd-indexed terms) of A107700.",
+  "id": "A107699",
+  "mentions": [
+    "A107700",
+    "A107701"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

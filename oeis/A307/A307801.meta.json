@@ -1,0 +1,26 @@
+{
+  "description": "Number of palindromic octagonal numbers with exactly n digits.",
+  "id": "A307801",
+  "mentions": [
+    "A000567",
+    "A002778",
+    "A054910",
+    "A057106",
+    "A057107",
+    "A059870",
+    "A307790",
+    "A307791"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

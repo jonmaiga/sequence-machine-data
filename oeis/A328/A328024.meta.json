@@ -1,0 +1,28 @@
+{
+  "description": "Heinz numbers of multisets representing the differences between some positive integer's consecutive divisors.",
+  "id": "A328024",
+  "mentions": [
+    "A000005",
+    "A001222",
+    "A027750",
+    "A056239",
+    "A060680",
+    "A060681",
+    "A060682",
+    "A112798",
+    "A193829",
+    "A328023",
+    "A328025",
+    "A328027"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

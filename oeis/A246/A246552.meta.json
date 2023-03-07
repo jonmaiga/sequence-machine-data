@@ -1,0 +1,22 @@
+{
+  "description": "2-adic valuation of the number of involutions of n (A000085).",
+  "id": "A246552",
+  "mentions": [
+    "A000085",
+    "A000166",
+    "A007814",
+    "A011371"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:49:15",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

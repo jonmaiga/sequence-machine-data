@@ -1,0 +1,18 @@
+{
+  "description": "Smallest number that can be written in exactly n ways as a sum of distinct repdigits of its decimal digits.",
+  "id": "A131367",
+  "mentions": [
+    "A131364"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:19",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

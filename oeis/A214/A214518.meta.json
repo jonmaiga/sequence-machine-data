@@ -1,0 +1,22 @@
+{
+  "description": "Record differences between the numbers n such that 4*n^2 + 1 is prime.",
+  "id": "A214518",
+  "mentions": [
+    "A001912",
+    "A121326",
+    "A214517",
+    "A214519"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

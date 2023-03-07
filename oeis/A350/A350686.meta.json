@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that tau(k) + tau(k+1) + tau(k+2) + tau(k+3) = 16, where tau is the number of divisors function A000005.",
+  "id": "A350686",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A163573",
+    "A247347",
+    "A350593",
+    "A350675",
+    "A350699",
+    "A350769",
+    "A350773",
+    "A350854"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of times n appears in a 1000 X 1000 multiplication table.",
+  "id": "A179942",
+  "mentions": [
+    "A000005",
+    "A179940",
+    "A179941"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "fini",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

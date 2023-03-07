@@ -1,0 +1,17 @@
+{
+  "description": "Consider the numbers m such that m = prime(k) + prime(k+2i+1) = prime(k+i) + prime(k+i+1) for some i and k. The sequence lists the number of pairs (i,k) giving the same value m = A105093(n).",
+  "id": "A263203",
+  "mentions": [
+    "A105093"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

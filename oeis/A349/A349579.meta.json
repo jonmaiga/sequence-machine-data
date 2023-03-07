@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the 4-dimensional Steinmetz solid formed by the intersection of 4 unit-diameter 4-dimensional cylinders whose axes are mutually orthogonal and intersect at a single point.",
+  "id": "A349579",
+  "mentions": [
+    "A101465",
+    "A195696",
+    "A349577",
+    "A349578",
+    "A349580"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

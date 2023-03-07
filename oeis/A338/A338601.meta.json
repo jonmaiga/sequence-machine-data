@@ -1,0 +1,29 @@
+{
+  "description": "Numerators x of resistance values R=x/y that can be obtained by a network of at most 10 one-ohm resistors such that a network of more than 10 one-ohm resistors is needed to obtain the resistance y/x. Denominators are in A338602.",
+  "id": "A338601",
+  "mentions": [
+    "A180414",
+    "A338197",
+    "A338573",
+    "A338580",
+    "A338581",
+    "A338582",
+    "A338590",
+    "A338591",
+    "A338592",
+    "A338602"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "fini",
+    "frac",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the multiplicative order of {{A038566(n,k), 1}, {0, 1}} modulo n, n >= 1, 1 <= k <= A000010(n).",
+  "id": "A309428",
+  "mentions": [
+    "A000010",
+    "A038566",
+    "A174824"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

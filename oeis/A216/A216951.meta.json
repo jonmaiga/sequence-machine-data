@@ -1,0 +1,18 @@
+{
+  "description": "Let S be a string of n 2's and 3's, with curling number k, which means S = XY^k where k is maximized; a(n) = number of S for which X must be taken to be the empty string.",
+  "id": "A216951",
+  "mentions": [
+    "A216730",
+    "A216952"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

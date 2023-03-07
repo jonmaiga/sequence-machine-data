@@ -1,0 +1,24 @@
+{
+  "description": "Numbers m with decimal expansion (d_k, ..., d_1) such that d_i = m * i mod 10 for i = 1..k.",
+  "id": "A344748",
+  "mentions": [
+    "A010879",
+    "A055642",
+    "A067251",
+    "A217657",
+    "A344749",
+    "A344822"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:18",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

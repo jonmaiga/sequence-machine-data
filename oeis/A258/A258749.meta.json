@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of Ls_3(Pi), the value of the 3rd basic generalized log-sine integral at Pi (negated).",
+  "id": "A258749",
+  "mentions": [
+    "A006752",
+    "A258750",
+    "A258751",
+    "A258752",
+    "A258753",
+    "A258754"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

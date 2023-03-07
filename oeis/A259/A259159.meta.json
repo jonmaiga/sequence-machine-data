@@ -1,0 +1,24 @@
+{
+  "description": "Positive squares (A000290) that are heptagonal numbers (A000566) divided by 2.",
+  "id": "A259159",
+  "mentions": [
+    "A000290",
+    "A000566",
+    "A259156",
+    "A259158",
+    "A259160",
+    "A259167"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:17",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

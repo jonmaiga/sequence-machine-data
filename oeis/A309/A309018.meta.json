@@ -1,0 +1,24 @@
+{
+  "description": "Number of perfect matchings in the graph C_{12} X C_n.",
+  "id": "A309018",
+  "mentions": [
+    "A230033",
+    "A231485",
+    "A232804",
+    "A253678",
+    "A281583",
+    "A281679",
+    "A308761",
+    "A341741"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 3,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

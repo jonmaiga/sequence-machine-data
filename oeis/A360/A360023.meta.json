@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. x*exp(x)*(cosh(x))^2.",
+  "id": "A360023",
+  "mentions": [
+    "A122983",
+    "A360035",
+    "A360036"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

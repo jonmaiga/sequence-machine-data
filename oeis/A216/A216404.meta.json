@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = lcm((d1 + 1), (d2 + 1), ..., (dk + 1)), where d1, d2, ..., dk are the prime factors of the n-th Fermat pseudoprime to base 2, A001567(n).",
+  "id": "A216404",
+  "mentions": [
+    "A001567"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Dirichlet g.f.: (1/2) * Product_{i>=1, j>=1} (1 + (i*j)^(-s))^i.",
+  "id": "A328711",
+  "mentions": [
+    "A000203",
+    "A050368",
+    "A242648",
+    "A328710"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

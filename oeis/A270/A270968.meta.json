@@ -1,0 +1,33 @@
+{
+  "description": "Reduced 5x+1 function R applied to the odd integers: a(n) = R(2n-1), where R(k) = (5k+1)/2^r, with r as large as possible.",
+  "id": "A270968",
+  "mentions": [
+    "A000265",
+    "A017281",
+    "A017305",
+    "A017341",
+    "A017353",
+    "A017377",
+    "A075677",
+    "A133419",
+    "A133420",
+    "A133423",
+    "A133424",
+    "A174795",
+    "A232711",
+    "A259207",
+    "A267969"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

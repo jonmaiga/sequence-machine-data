@@ -1,0 +1,20 @@
+{
+  "description": "Idoneal numbers (A000926) that are not pentagon exception numbers (A229461).",
+  "id": "A229462",
+  "mentions": [
+    "A000926",
+    "A229461"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

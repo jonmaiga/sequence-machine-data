@@ -1,0 +1,23 @@
+{
+  "description": "Indices of elements of A005179 that belong to A134865 (in order of their appearance in A134865). The sorted version of this sequence is given by A138394.",
+  "id": "A140752",
+  "mentions": [
+    "A000005",
+    "A005179",
+    "A134865",
+    "A138394",
+    "A140753"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

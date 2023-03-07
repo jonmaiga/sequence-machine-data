@@ -1,0 +1,21 @@
+{
+  "description": "Irregular array read by rows, where n-th row gives denominators of the Egyptian fraction expansion, derived using the greedy algorithm, for the absolute value of the fractional part of the (2n)th Bernoulli number.",
+  "id": "A136375",
+  "mentions": [
+    "A000367",
+    "A002445",
+    "A151711"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

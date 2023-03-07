@@ -1,0 +1,18 @@
+{
+  "description": "Number of integer solutions to a^2 + b^2 + 5*c^2 + 5*d^2 = n.",
+  "id": "A236929",
+  "mentions": [
+    "A236924"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

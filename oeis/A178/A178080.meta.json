@@ -1,0 +1,19 @@
+{
+  "description": "Sequence with a (1,-1) Somos-4 Hankel transform.",
+  "id": "A178080",
+  "mentions": [
+    "A178081"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that the decimal digits of n-phi(n) are a permutation of those of n.",
+  "id": "A273799",
+  "mentions": [
+    "A051953",
+    "A115921"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

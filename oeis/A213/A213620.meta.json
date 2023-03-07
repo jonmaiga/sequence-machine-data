@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows, coefficients of the Euler polynomials E_{n}(x) times A006519(n+1) in descending order of powers.",
+  "id": "A213620",
+  "mentions": [
+    "A006519"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

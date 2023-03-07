@@ -1,0 +1,22 @@
+{
+  "description": "Array (p(n,k)) read by antidiagonals: p(n,k) is the index of the prime in position (n,k) in the array A333086.",
+  "id": "A333087",
+  "mentions": [
+    "A000040",
+    "A099000",
+    "A333028",
+    "A333086"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into parts with an even number of prime divisors (counted with multiplicity).",
+  "id": "A286219",
+  "mentions": [
+    "A028260",
+    "A087153",
+    "A285798",
+    "A286218"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

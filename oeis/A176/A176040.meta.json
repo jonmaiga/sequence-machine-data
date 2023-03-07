@@ -1,0 +1,30 @@
+{
+  "description": "Periodic sequence: Repeat 3, 1.",
+  "id": "A176040",
+  "mentions": [
+    "A000012",
+    "A007582",
+    "A008619",
+    "A010684",
+    "A010701",
+    "A014601",
+    "A020707",
+    "A052919",
+    "A090458"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cofr",
+    "cons",
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:32:37",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of forests of trees on n labeled nodes in which each tree has a distinct number of vertices.",
+  "id": "A216413",
+  "mentions": [
+    "A001858"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

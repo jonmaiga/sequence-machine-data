@@ -1,0 +1,18 @@
+{
+  "description": "Numbers missing from A317437.",
+  "id": "A317439",
+  "mentions": [
+    "A005408",
+    "A317437"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

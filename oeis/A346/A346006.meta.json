@@ -1,0 +1,21 @@
+{
+  "description": "Successive numbers arising from the Moessner construction of the sequence of fourth powers on page 64 of Conway-Guy's \"Book of Numbers\".",
+  "id": "A346006",
+  "mentions": [
+    "A125714",
+    "A346004",
+    "A346005",
+    "A346595"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

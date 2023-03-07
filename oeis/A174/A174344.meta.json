@@ -1,0 +1,29 @@
+{
+  "description": "List of x-coordinates of point moving in clockwise square spiral.",
+  "id": "A174344",
+  "mentions": [
+    "A002262",
+    "A002939",
+    "A002943",
+    "A010751",
+    "A016742",
+    "A025581",
+    "A033996",
+    "A037458",
+    "A180714",
+    "A268038",
+    "A274923",
+    "A296030"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

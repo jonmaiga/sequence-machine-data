@@ -1,0 +1,19 @@
+{
+  "description": "Floor of the real part of the zeros of the complex Fibonacci function on the right half-plane.",
+  "id": "A214315",
+  "mentions": [
+    "A052952",
+    "A214656"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

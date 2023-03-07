@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the slope (negative) of the tangent line at the point of tangency of the curves y=c*cos(x) and y=1/x, where c is given by A196610.",
+  "id": "A196611",
+  "mentions": [
+    "A196603",
+    "A196610"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

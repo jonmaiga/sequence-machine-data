@@ -1,0 +1,32 @@
+{
+  "description": "Number of toothpicks added at n-th stage to the structure of A233970.",
+  "id": "A233971",
+  "mentions": [
+    "A000079",
+    "A011782",
+    "A139251",
+    "A161207",
+    "A161831",
+    "A170905",
+    "A182633",
+    "A182635",
+    "A182841",
+    "A233761",
+    "A233765",
+    "A233781",
+    "A233790",
+    "A233970",
+    "A233972"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Smallest k such that k - lambda(k) = prime(n), where lambda(k) = A002322(k).",
+  "id": "A277312",
+  "mentions": [
+    "A000040",
+    "A002322",
+    "A053194",
+    "A277127",
+    "A278021"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

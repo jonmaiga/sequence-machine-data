@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of terms in the n-th row of A360298.",
+  "id": "A360299",
+  "mentions": [
+    "A360298"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

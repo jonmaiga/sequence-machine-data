@@ -1,0 +1,39 @@
+{
+  "description": "Matula-Goebel numbers of semi-lone-child-avoiding locally disjoint rooted trees.",
+  "id": "A331873",
+  "mentions": [
+    "A007097",
+    "A050381",
+    "A061775",
+    "A196050",
+    "A291636",
+    "A302696",
+    "A316473",
+    "A316495",
+    "A316696",
+    "A316697",
+    "A320269",
+    "A331680",
+    "A331681",
+    "A331682",
+    "A331683",
+    "A331687",
+    "A331871",
+    "A331872",
+    "A331874",
+    "A331934",
+    "A331935",
+    "A331936",
+    "A331937"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

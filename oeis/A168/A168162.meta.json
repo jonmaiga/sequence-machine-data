@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n which do not exceed the sum of the binary digits in all primes <= n.",
+  "id": "A168162",
+  "mentions": [
+    "A000720",
+    "A095375",
+    "A168161"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

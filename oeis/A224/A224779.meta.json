@@ -1,0 +1,19 @@
+{
+  "description": "One half of the even numbers that are a primitive sum of four nonzero squares at least once.",
+  "id": "A224779",
+  "mentions": [
+    "A222949",
+    "A224778"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

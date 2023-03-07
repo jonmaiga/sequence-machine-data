@@ -1,0 +1,20 @@
+{
+  "description": "Numbers starting with 5 such that the sum of any two distinct entries is two times some prime.",
+  "id": "A180565",
+  "mentions": [
+    "A093483",
+    "A115760"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

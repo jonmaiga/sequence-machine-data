@@ -1,0 +1,29 @@
+{
+  "description": "Number of partitions of n having no parts with multiplicity 8.",
+  "id": "A184643",
+  "mentions": [
+    "A000041",
+    "A007690",
+    "A116645",
+    "A118807",
+    "A183565",
+    "A183568",
+    "A184639",
+    "A184640",
+    "A184641",
+    "A184642",
+    "A184644",
+    "A184645"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 0,
+    "size": 47,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Length of cycle mentioned in A165039",
+  "id": "A165040",
+  "mentions": [
+    "A164715",
+    "A165001",
+    "A165020",
+    "A165032",
+    "A165038",
+    "A165039",
+    "A165042",
+    "A165044",
+    "A165050",
+    "A165059",
+    "A165079",
+    "A165098",
+    "A165118"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

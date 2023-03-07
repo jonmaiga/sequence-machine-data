@@ -1,0 +1,19 @@
+{
+  "description": "Undulating Harshad numbers: numbers divisible by the sum of their own digits with decimal expansions in an abab...ab pattern.",
+  "id": "A129120",
+  "mentions": [
+    "A005349",
+    "A033619"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

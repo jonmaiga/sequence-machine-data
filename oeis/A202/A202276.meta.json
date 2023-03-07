@@ -1,0 +1,25 @@
+{
+  "description": "Number of integers k <= n such that sigma(x) = k has no solution, sigma = A000203.",
+  "id": "A202276",
+  "mentions": [
+    "A000203",
+    "A007368",
+    "A007369",
+    "A007609",
+    "A074753",
+    "A175253",
+    "A175523",
+    "A202275",
+    "A202277"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

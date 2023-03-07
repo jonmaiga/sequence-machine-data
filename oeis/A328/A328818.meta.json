@@ -1,0 +1,20 @@
+{
+  "description": "2 * x-coordinate of the points of a counterclockwise spiral on an hexagonal grid.",
+  "id": "A328818",
+  "mentions": [
+    "A307011",
+    "A307012",
+    "A307013"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

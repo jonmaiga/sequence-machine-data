@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes p less than prime(n)-1, such that adding prime(n)-1 and p in binary does not require any carry.",
+  "id": "A241857",
+  "mentions": [
+    "A000120",
+    "A241756",
+    "A241758"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

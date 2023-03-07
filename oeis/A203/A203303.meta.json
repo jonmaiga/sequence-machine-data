@@ -1,0 +1,21 @@
+{
+  "description": "Vandermonde determinant of the first n terms of (1,2,4,8,16,...).",
+  "id": "A203303",
+  "mentions": [
+    "A000079",
+    "A002884",
+    "A171499",
+    "A335011"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

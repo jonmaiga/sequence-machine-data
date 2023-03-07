@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Omega(n)^2 - omega(n)^2.",
+  "id": "A229121",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A046660"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

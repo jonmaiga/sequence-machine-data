@@ -1,0 +1,19 @@
+{
+  "description": "Denominators of partial sums of a certain series of inverse central binomial coefficients.",
+  "id": "A145567",
+  "mentions": [
+    "A145566"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 2,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

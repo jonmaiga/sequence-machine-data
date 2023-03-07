@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX4 0..1 arrays with rows and columns lexicographically nondecreasing and the instance counts of every value within one of each other",
+  "id": "A201380",
+  "mentions": [
+    "A201384"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

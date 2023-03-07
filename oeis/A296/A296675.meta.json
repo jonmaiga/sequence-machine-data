@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - arcsinh(x)).",
+  "id": "A296675",
+  "mentions": [
+    "A000111",
+    "A001818",
+    "A006154",
+    "A189780"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:16",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

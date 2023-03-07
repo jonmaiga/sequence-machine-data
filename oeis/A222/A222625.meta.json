@@ -1,0 +1,20 @@
+{
+  "description": "Number of simple connected well-covered graphs on n nodes.",
+  "id": "A222625",
+  "mentions": [
+    "A222626",
+    "A287025"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Zero together with row 12 of the array in A163280.",
+  "id": "A164012",
+  "mentions": [
+    "A008578",
+    "A119412",
+    "A161344",
+    "A161345",
+    "A163280",
+    "A164000",
+    "A164011"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:11:11",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

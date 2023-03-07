@@ -1,0 +1,160 @@
+{
+  "oi": 179616,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "contfrac[root(5, 4)]",
+      "mt": 50,
+      "px": [
+        "5",
+        "4",
+        "root",
+        "contfrac"
+      ]
+    },
+    {
+      "d": "2022-08-22",
+      "ix": "contfrac[sqrt(sqrt(5))]^gcd(41, n)",
+      "mt": 50,
+      "px": [
+        "5",
+        "sqrt",
+        "sqrt",
+        "contfrac",
+        "41",
+        "n",
+        "gcd",
+        "^"
+      ]
+    },
+    {
+      "d": "2023-01-02",
+      "ix": "contfrac[sqrt(sqrt(5))]+C(n, 53)",
+      "mt": 50,
+      "px": [
+        "5",
+        "sqrt",
+        "sqrt",
+        "contfrac",
+        "n",
+        "53",
+        "C",
+        "+"
+      ]
+    },
+    {
+      "d": "2022-08-16",
+      "ix": "abs(1-contfrac[sqrt(sqrt(5))])+1",
+      "mt": 50,
+      "px": [
+        "1",
+        "5",
+        "sqrt",
+        "sqrt",
+        "contfrac",
+        "sub",
+        "abs",
+        "1",
+        "+"
+      ]
+    },
+    {
+      "d": "2022-04-19",
+      "ix": "(contfrac[sqrt(sqrt(5))]^(1/2))²",
+      "mt": 50,
+      "px": [
+        "5",
+        "sqrt",
+        "sqrt",
+        "contfrac",
+        "1",
+        "2",
+        "/",
+        "^",
+        "²"
+      ]
+    },
+    {
+      "d": "2022-06-06",
+      "ix": "contfrac[sqrt(sqrt(5))]+n%-1",
+      "mt": 50,
+      "px": [
+        "5",
+        "sqrt",
+        "sqrt",
+        "contfrac",
+        "n",
+        "1",
+        "neg",
+        "%",
+        "+"
+      ]
+    },
+    {
+      "d": "2022-04-05",
+      "ix": "contfrac[sqrt(sqrt(5))]%(n+6)²",
+      "mt": 50,
+      "px": [
+        "5",
+        "sqrt",
+        "sqrt",
+        "contfrac",
+        "n",
+        "6",
+        "+",
+        "²",
+        "%"
+      ]
+    },
+    {
+      "d": "2022-06-09",
+      "ix": "lcm((-1)^n, contfrac[sqrt(sqrt(5))])",
+      "mt": 50,
+      "px": [
+        "1",
+        "neg",
+        "n",
+        "^",
+        "5",
+        "sqrt",
+        "sqrt",
+        "contfrac",
+        "lcm"
+      ]
+    },
+    {
+      "d": "2022-04-05",
+      "ix": "contfrac[sqrt(sqrt(5))]+2-4/2",
+      "mt": 50,
+      "px": [
+        "5",
+        "sqrt",
+        "sqrt",
+        "contfrac",
+        "2",
+        "4",
+        "2",
+        "/",
+        "sub",
+        "+"
+      ]
+    },
+    {
+      "d": "2021-12-05",
+      "ix": "2*2/4*contfrac[sqrt(sqrt(5))]",
+      "mt": 50,
+      "px": [
+        "2",
+        "2",
+        "4",
+        "/",
+        "5",
+        "sqrt",
+        "sqrt",
+        "contfrac",
+        "*",
+        "*"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Exponential unitary harmonic numbers (A349026) that are not squarefree.",
+  "id": "A349027",
+  "mentions": [
+    "A005117",
+    "A013929",
+    "A348965",
+    "A349026"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

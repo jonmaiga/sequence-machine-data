@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose Collatz trajectory contains equal number of terms of the form 4k+1 and 4k+3.",
+  "id": "A217744",
+  "mentions": [
+    "A070165",
+    "A192719",
+    "A217743"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

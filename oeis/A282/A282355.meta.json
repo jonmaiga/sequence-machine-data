@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of (Sum_{i>=1} x^prime(prime(i)))*(Sum_{j = p*q, p prime, q prime} x^j).",
+  "id": "A282355",
+  "mentions": [
+    "A001358",
+    "A006450",
+    "A100949"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 111,
+    "source": "oeis-entry"
+  }
+}

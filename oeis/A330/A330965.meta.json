@@ -1,0 +1,31 @@
+{
+  "description": "Array read by descending antidiagonals: A(n,k) = (1 + k*n)*C(n) where C(n) = Catalan numbers (A000108).",
+  "id": "A330965",
+  "mentions": [
+    "A000108",
+    "A000984",
+    "A001700",
+    "A050476",
+    "A050477",
+    "A050478",
+    "A050479",
+    "A050489",
+    "A050490",
+    "A050491",
+    "A051924",
+    "A051944",
+    "A051945"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

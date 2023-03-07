@@ -1,0 +1,20 @@
+{
+  "description": "prime(k) such that (k BitXOR prime(k)) is prime, where BitXOR is the binary bitwise XOR.",
+  "id": "A360385",
+  "mentions": [
+    "A000040",
+    "A000720"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

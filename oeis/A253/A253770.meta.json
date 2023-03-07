@@ -1,0 +1,28 @@
+{
+  "description": "Number of ON states after n generations of cellular automaton based on triangles, with diamonds.",
+  "id": "A253770",
+  "mentions": [
+    "A139250",
+    "A147562",
+    "A151723",
+    "A160120",
+    "A160121",
+    "A160157",
+    "A160167",
+    "A161644",
+    "A182632",
+    "A250300",
+    "A253771"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

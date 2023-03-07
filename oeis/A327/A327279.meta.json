@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of a constant related to A008485 and A327215.",
+  "id": "A327279",
+  "mentions": [
+    "A008485",
+    "A270915",
+    "A327215",
+    "A327280"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

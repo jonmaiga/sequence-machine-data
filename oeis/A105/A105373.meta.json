@@ -1,0 +1,32 @@
+{
+  "description": "Square array by antidiagonals of number of straight lines with n points in a k-dimensional hypercube of with n points on each edge.",
+  "id": "A105373",
+  "mentions": [
+    "A000012",
+    "A005059",
+    "A005843",
+    "A006516",
+    "A016149",
+    "A016161",
+    "A016170",
+    "A016178",
+    "A056107",
+    "A081199",
+    "A081200",
+    "A081201",
+    "A081202",
+    "A102728"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

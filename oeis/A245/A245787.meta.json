@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that tau(n)*sigma(n) divides n^2.",
+  "id": "A245787",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A071707",
+    "A090777"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into two parts such that not both are prime.",
+  "id": "A295629",
+  "mentions": [
+    "A004526",
+    "A010051",
+    "A061358"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

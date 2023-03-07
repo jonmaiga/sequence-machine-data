@@ -1,0 +1,21 @@
+{
+  "description": "Length of the enhanced squares representation of n.",
+  "id": "A256915",
+  "mentions": [
+    "A000290",
+    "A256913",
+    "A256914",
+    "A257071"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

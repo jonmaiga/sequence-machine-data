@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of graphs obtained by adding k pierced circles to a path graph P_n.",
+  "id": "A354127",
+  "mentions": [
+    "A000007",
+    "A000027",
+    "A000108",
+    "A001246",
+    "A006331",
+    "A007318",
+    "A052553"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

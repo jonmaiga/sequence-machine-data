@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the cototient of k (= k-phi(k)) is a multiple of 4.",
+  "id": "A354098",
+  "mentions": [
+    "A000010",
+    "A010873",
+    "A051953",
+    "A292763",
+    "A354038",
+    "A354097"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Irregular triangle read by rows where row 1 is {1} and row n > 1 is the sequence starting with n and repeatedly applying A181819 until 2 is reached.",
+  "id": "A325239",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A071625",
+    "A118914",
+    "A181819",
+    "A181821",
+    "A182850",
+    "A182857",
+    "A323014",
+    "A323022",
+    "A323023",
+    "A325238",
+    "A325277",
+    "A353510"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

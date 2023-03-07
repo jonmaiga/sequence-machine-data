@@ -1,0 +1,18 @@
+{
+  "description": "For any n > 0, let S_n(0) be the concatenation of the numbers in the range 1..n (in increasing order); for k=1..n, S_n(k) is obtained by removing the rightmost occurrence of k in S_n(k-1), if any; a(n) is the numerical value of S_n(n) (or 0 if S_n(n) is empty).",
+  "id": "A330398",
+  "mentions": [
+    "A007908"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Positive numbers that contain both odd and even digits, with no digit repeated.",
+  "id": "A309539",
+  "mentions": [
+    "A010784",
+    "A318700"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

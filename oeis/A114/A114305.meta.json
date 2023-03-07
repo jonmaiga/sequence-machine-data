@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that Fibonacci(k) has more distinct prime factors than k does.",
+  "id": "A114305",
+  "mentions": [
+    "A000045",
+    "A001221",
+    "A022307"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

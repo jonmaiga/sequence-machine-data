@@ -1,0 +1,30 @@
+{
+  "description": "Prime powers: numbers of the form p^k where p is a prime and k >= 1.",
+  "id": "A246655",
+  "mentions": [
+    "A000010",
+    "A000961",
+    "A001221",
+    "A001597",
+    "A014963",
+    "A025475",
+    "A051953",
+    "A069513",
+    "A246547",
+    "A275120"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "core",
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

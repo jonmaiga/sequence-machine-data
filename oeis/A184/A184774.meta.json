@@ -1,0 +1,25 @@
+{
+  "description": "Primes of the form floor(k*sqrt(2)).",
+  "id": "A184774",
+  "mentions": [
+    "A001951",
+    "A001952",
+    "A184775",
+    "A184776",
+    "A184777",
+    "A184778",
+    "A184779"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

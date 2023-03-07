@@ -1,0 +1,17 @@
+{
+  "description": "Length of the Collatz iteration (3x+1) starting at A220139(n).",
+  "id": "A220140",
+  "mentions": [
+    "A220139"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Largest number with exactly n representations as a sum of six positive squares.",
+  "id": "A295702",
+  "mentions": [
+    "A000177",
+    "A025430",
+    "A295494",
+    "A295669"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

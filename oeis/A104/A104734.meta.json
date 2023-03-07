@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) = sum_{j=k..n} (2n-2j+1)*binomial(k,j-k), read by rows, 0<=k<=n.",
+  "id": "A104734",
+  "mentions": [
+    "A001891",
+    "A026729",
+    "A099375",
+    "A210489"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

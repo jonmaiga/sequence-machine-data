@@ -1,0 +1,20 @@
+{
+  "description": "Primes congruent to 1 mod 48.",
+  "id": "A142398",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:27:07",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

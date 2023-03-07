@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f. satisfies 2*A(x)-exp(A(x))+1=sin(x)",
+  "id": "A207326",
+  "mentions": [
+    "A000311"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that A046523(A332223(A332223(k))) is equal to A046523(A332223(k)).",
+  "id": "A353363",
+  "mentions": [
+    "A000203",
+    "A005820",
+    "A005940",
+    "A046523",
+    "A066961",
+    "A156552",
+    "A332223",
+    "A353308",
+    "A353365"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

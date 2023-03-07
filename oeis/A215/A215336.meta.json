@@ -1,0 +1,20 @@
+{
+  "description": "Cyclically smooth Lyndon words with 4 colors.",
+  "id": "A215336",
+  "mentions": [
+    "A208773",
+    "A215329",
+    "A215330"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

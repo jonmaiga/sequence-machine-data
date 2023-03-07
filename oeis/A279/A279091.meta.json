@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k for which sigma(k) - 4k exceeds sigma(j) - 4j for all j < k.",
+  "id": "A279091",
+  "mentions": [
+    "A034090",
+    "A140522",
+    "A279088"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:46",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

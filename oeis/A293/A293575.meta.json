@@ -1,0 +1,23 @@
+{
+  "description": "Difference between the number of proper divisors of n and the number of squares dividing n.",
+  "id": "A293575",
+  "mentions": [
+    "A000430",
+    "A032741",
+    "A046951",
+    "A056595",
+    "A080257",
+    "A166684"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

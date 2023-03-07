@@ -1,0 +1,20 @@
+{
+  "description": "Dirichlet inverse of A247074(x) = phi(x)/(Product_{primes p dividing x} gcd(p-1, x-1)).",
+  "id": "A340145",
+  "mentions": [
+    "A247074",
+    "A340142",
+    "A340144",
+    "A340146"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

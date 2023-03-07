@@ -1,0 +1,22 @@
+{
+  "description": "Triangular numbers that are equidistant from two other triangular numbers.",
+  "id": "A292310",
+  "mentions": [
+    "A000217",
+    "A292309",
+    "A292313",
+    "A292314",
+    "A292316"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

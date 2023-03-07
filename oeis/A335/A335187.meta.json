@@ -1,0 +1,19 @@
+{
+  "description": "Total area of all trapezoids with bases p+q, q-p and height p*q with p,q prime, n = p+q and p < q.",
+  "id": "A335187",
+  "mentions": [
+    "A010051"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Define an array by Q(m, 0) = 1, Q(m, 1) = 1; Q(m, 2k) = (m - 2k + 1)*Q(m+1, 2k-1) - (2k-1)*Q(m+2, 2k-2), m*Q(m, 2k+1) = (m - 2k)*Q(m+1, 2k) - 2k(m+1)*Q(m+2, 2k-1). Sequence gives Q(0,n).",
+  "id": "A127137",
+  "mentions": [
+    "A001813",
+    "A090470",
+    "A127080"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

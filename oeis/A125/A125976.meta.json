@@ -1,0 +1,33 @@
+{
+  "description": "Signature-permutation of Kreweras' 1970 involution on Dyck paths.",
+  "id": "A125976",
+  "mentions": [
+    "A007595",
+    "A014137",
+    "A014138",
+    "A014486",
+    "A057163",
+    "A057514",
+    "A069770",
+    "A069772",
+    "A080300",
+    "A125974",
+    "A125977",
+    "A125979",
+    "A125980",
+    "A126290",
+    "A126302",
+    "A126306"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

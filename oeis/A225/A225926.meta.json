@@ -1,0 +1,18 @@
+{
+  "description": "Least number of prime powers needed to sum up to n.",
+  "id": "A225926",
+  "mentions": [
+    "A025475",
+    "A225927"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

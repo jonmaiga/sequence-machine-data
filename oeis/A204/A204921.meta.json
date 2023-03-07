@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (p(n)^2 - q(n)^2)/n, where (p(n)^2, q(n)^2) is the least pair of squared primes (ordered as at A204914) for which n divides p(n)^2 - q(n)^2.",
+  "id": "A204921",
+  "mentions": [
+    "A204892",
+    "A204900",
+    "A204914"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 10:11:44",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

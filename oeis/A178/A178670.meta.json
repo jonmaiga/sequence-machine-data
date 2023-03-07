@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to express prime(n) as (prime(n+k) + prime(n-k))/2.",
+  "id": "A178670",
+  "mentions": [
+    "A000040",
+    "A129363",
+    "A178609",
+    "A178954"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Augmented integer conjugate of n. a(n) = (1/n) * A007947(n)^(1 + A051903(n)) where A007947 is squarefree kernel and A051903 is maximum prime exponent.",
+  "id": "A304768",
+  "mentions": [
+    "A001597",
+    "A001694",
+    "A005117",
+    "A007916",
+    "A007947",
+    "A013929",
+    "A051903",
+    "A052410",
+    "A052485",
+    "A062759",
+    "A066638",
+    "A072774",
+    "A087320",
+    "A303554"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

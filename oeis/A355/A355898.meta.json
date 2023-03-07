@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = a(2) = 1; a(n) = gcd(a(n-1), a(n-2)) + (a(n-1) + a(n-2))/gcd(a(n-1), a(n-2)).",
+  "id": "A355898",
+  "mentions": [
+    "A000045",
+    "A005711",
+    "A349576",
+    "A351871",
+    "A355899"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

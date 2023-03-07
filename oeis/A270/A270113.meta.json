@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 3 0..7 arrays with some element plus some horizontally or vertically adjacent neighbor totaling seven exactly once.",
+  "id": "A270113",
+  "mentions": [
+    "A270118"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:32",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Fibonacci numbers F such that all the prime factors of F^2 + 1 are also Fibonacci numbers.",
+  "id": "A281618",
+  "mentions": [
+    "A000045",
+    "A245236",
+    "A245306"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

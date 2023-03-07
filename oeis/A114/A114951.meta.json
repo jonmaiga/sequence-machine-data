@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that the sum of the k-th triangular number and the k-th prime is prime.",
+  "id": "A114951",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

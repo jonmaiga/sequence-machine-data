@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: 1/((1+LambertW(-x))*(1-x)).",
+  "id": "A277506",
+  "mentions": [
+    "A277507"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:43",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

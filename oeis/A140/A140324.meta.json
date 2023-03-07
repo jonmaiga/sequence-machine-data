@@ -1,0 +1,20 @@
+{
+  "description": "A new way to compute polynomial triangles from matrices of a Folium Implicit type: M={{0, -w[1], -w[2]}, {w[1], 0, -w[1]}, {w[2], w[1], 0}} that gives even only monomials as w[1]=x, others as one.",
+  "id": "A140324",
+  "mentions": [
+    "A055137"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

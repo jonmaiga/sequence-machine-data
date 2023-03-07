@@ -1,0 +1,37 @@
+{
+  "description": "Smallest prime q such that ((prime(n)^2 + q*prime(n))/(prime(n) + 1) is an integer.",
+  "id": "A263770",
+  "mentions": [
+    "A002144",
+    "A002476",
+    "A007519",
+    "A061237",
+    "A068228",
+    "A088955",
+    "A107008",
+    "A124826",
+    "A132230",
+    "A133870",
+    "A140444",
+    "A141868",
+    "A141881",
+    "A141948",
+    "A142003",
+    "A142292",
+    "A142398",
+    "A263729",
+    "A263730",
+    "A263769"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

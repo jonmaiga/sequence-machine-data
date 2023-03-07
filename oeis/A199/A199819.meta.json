@@ -1,0 +1,18 @@
+{
+  "description": "Primes of the form 10^n-9^n",
+  "id": "A199819",
+  "mentions": [
+    "A016189",
+    "A062576"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:20",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

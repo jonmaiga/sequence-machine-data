@@ -1,0 +1,32 @@
+{
+  "description": "Write the natural numbers in base 16 in a triangle with k digits in the k-th row, as shown below. Sequence gives the leading diagonal.",
+  "id": "A104619",
+  "mentions": [
+    "A091425",
+    "A104606",
+    "A104607",
+    "A104608",
+    "A104609",
+    "A104610",
+    "A104611",
+    "A104612",
+    "A104613",
+    "A104614",
+    "A104615",
+    "A104616",
+    "A104617",
+    "A104618",
+    "A104620"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Genocchi irregular primes.",
+  "id": "A321217",
+  "mentions": [
+    "A000928",
+    "A005596",
+    "A036968",
+    "A120337",
+    "A128197",
+    "A250216"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

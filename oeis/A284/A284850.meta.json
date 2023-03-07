@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 4^n - 3^n - n.",
+  "id": "A284850",
+  "mentions": [
+    "A284838"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:56",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of new segments added to the toothpick structure drawing at the n-th step (extensions of earlier segments are not considered).",
+  "id": "A139560",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A139251",
+    "A139252",
+    "A139253",
+    "A139254",
+    "A139559"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

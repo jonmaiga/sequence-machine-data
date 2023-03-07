@@ -1,0 +1,19 @@
+{
+  "description": "Odd numbers which take a record number of steps to reach {1, 9, or 33} under iteration of the map described in the comments section of A135730.",
+  "id": "A261674",
+  "mentions": [
+    "A135730",
+    "A261671",
+    "A261673"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

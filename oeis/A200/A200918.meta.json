@@ -1,0 +1,22 @@
+{
+  "description": "Successive prime factors of (3^1006003 - 3)/1006003^2.",
+  "id": "A200918",
+  "mentions": [
+    "A014127",
+    "A200216",
+    "A200217",
+    "A200218"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "fini",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

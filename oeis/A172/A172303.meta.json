@@ -1,0 +1,20 @@
+{
+  "description": "Table T(n,k) with coefficients [x^k] of the polynomials p(x,n) = x^(n-1)*p(x,n-1) + x^(n-2)*p(x,n-2), recurrence starting p(x,0)=0, p(x,1)=1.",
+  "id": "A172303",
+  "mentions": [
+    "A000045",
+    "A000124"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

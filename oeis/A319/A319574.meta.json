@@ -1,0 +1,38 @@
+{
+  "description": "A(n, k) = [x^k] JacobiTheta3(x)^n, square array read by descending antidiagonals, A(n, k) for n >= 0 and k >= 0.",
+  "id": "A319574",
+  "mentions": [
+    "A000007",
+    "A000118",
+    "A000122",
+    "A000132",
+    "A000141",
+    "A000143",
+    "A000144",
+    "A004018",
+    "A005843",
+    "A005875",
+    "A008451",
+    "A008452",
+    "A046092",
+    "A066535",
+    "A122141",
+    "A130809",
+    "A286815",
+    "A319575",
+    "A319576",
+    "A319577",
+    "A357368"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

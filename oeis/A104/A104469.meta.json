@@ -1,0 +1,20 @@
+{
+  "description": "Coefficients of the C-Bailey Mod 9 identity.",
+  "id": "A104469",
+  "mentions": [
+    "A104467",
+    "A104468"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

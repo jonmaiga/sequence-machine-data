@@ -1,0 +1,23 @@
+{
+  "description": "Denominator of the ratio of alternate consecutive prime gaps: Denominator((prime(n + 3) - prime(n + 2))/(prime(n + 1) - prime(n))).",
+  "id": "A285851",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A274225",
+    "A276309",
+    "A286634"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

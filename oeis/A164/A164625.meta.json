@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that p+floor(p/2)+floor(p/3)+floor(p/5) is also prime.",
+  "id": "A164625",
+  "mentions": [
+    "A038874",
+    "A049545",
+    "A097933",
+    "A164624"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

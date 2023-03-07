@@ -1,0 +1,23 @@
+{
+  "description": "Number of rigid hypergroups of order n.",
+  "id": "A134201",
+  "mentions": [
+    "A108089",
+    "A132590",
+    "A134202",
+    "A323646",
+    "A323647"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:22:25",
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Structured heptagonal anti-diamond numbers (vertex structure 7).",
+  "id": "A100186",
+  "mentions": [
+    "A063521",
+    "A100145",
+    "A100188"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of ordered triples (w,x,y) with all terms in {-n,...-1,1,...,n} and 2w+x+y>1.",
+  "id": "A211618",
+  "mentions": [
+    "A211422"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:35:13",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

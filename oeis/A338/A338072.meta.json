@@ -1,0 +1,21 @@
+{
+  "description": "Concatenation of the digits of A083758.",
+  "id": "A338072",
+  "mentions": [
+    "A033308",
+    "A083758",
+    "A083759",
+    "A338073"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 1,
+    "size": 94,
+    "source": "joeis"
+  }
+}

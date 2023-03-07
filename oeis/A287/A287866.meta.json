@@ -1,0 +1,20 @@
+{
+  "description": "n - A274933(n).",
+  "id": "A287866",
+  "mentions": [
+    "A274933",
+    "A287864",
+    "A287867"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

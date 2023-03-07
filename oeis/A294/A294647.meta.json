@@ -1,0 +1,17 @@
+{
+  "description": "Differential variant of the Kolakoski sequence, with initial terms 1, 1.",
+  "id": "A294647",
+  "mentions": [
+    "A000002"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:12",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

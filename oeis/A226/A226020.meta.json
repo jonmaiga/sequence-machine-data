@@ -1,0 +1,22 @@
+{
+  "description": "Composite squarefree numbers n such that the ratio (n + 1/2)/(p(i) + 1/2) is an integer, where p(i) are the prime factors of n.",
+  "id": "A226020",
+  "mentions": [
+    "A208728",
+    "A225702",
+    "A225720",
+    "A226111",
+    "A226114"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

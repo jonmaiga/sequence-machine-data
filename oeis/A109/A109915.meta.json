@@ -1,0 +1,18 @@
+{
+  "description": "Product of all composite numbers k such that n",
+  "id": "A109915",
+  "mentions": [
+    "A092435",
+    "A109914"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

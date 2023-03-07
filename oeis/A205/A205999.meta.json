@@ -1,0 +1,18 @@
+{
+  "description": "Inverse Euler transform of A195980.",
+  "id": "A205999",
+  "mentions": [
+    "A195980",
+    "A206000"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

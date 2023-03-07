@@ -1,0 +1,18 @@
+{
+  "description": "Primes that can be represented in the form | 2^m +/- 3^n |.",
+  "id": "A103146",
+  "mentions": [
+    "A004051",
+    "A007644"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

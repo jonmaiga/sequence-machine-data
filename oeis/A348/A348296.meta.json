@@ -1,0 +1,26 @@
+{
+  "description": "Irregular table T(n, k), n > 0, k = 1..A000120(n), read by rows; the n-th contains, in ascending order, the distinct powers of 2 summing to n.",
+  "id": "A348296",
+  "mentions": [
+    "A000079",
+    "A000120",
+    "A006519",
+    "A053644",
+    "A059867",
+    "A065620",
+    "A133457"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

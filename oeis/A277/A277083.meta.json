@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = number of size k subsets of S_n that remain unchanged by a rotation of 180 degrees.",
+  "id": "A277083",
+  "mentions": [
+    "A037223",
+    "A038507"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

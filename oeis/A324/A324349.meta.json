@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = A324122(A005940(1+n)), where A005940 is the Doudna sequence and A324122(n) = sigma(n) - gcd(n*d(n), sigma(n)).",
+  "id": "A324349",
+  "mentions": [
+    "A001599",
+    "A005940",
+    "A054429",
+    "A156552",
+    "A324054",
+    "A324057",
+    "A324058",
+    "A324122",
+    "A324189"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of numbers not greater than n with exactly one prime gap in their factorization.",
+  "id": "A137722",
+  "mentions": [
+    "A073490",
+    "A073493",
+    "A137721"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

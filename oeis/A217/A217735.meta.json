@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = the least positive integer m such that n^3 + m^3 is a square, or 0, if (presumably) there is no such m.",
+  "id": "A217735",
+  "mentions": [
+    "A103254"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

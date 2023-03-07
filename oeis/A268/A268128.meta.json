@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (A000123(n) - A001316)/2.",
+  "id": "A268128",
+  "mentions": [
+    "A000123",
+    "A001316",
+    "A005704",
+    "A006047",
+    "A268127"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:08",
+    "offset": 0,
+    "size": 53,
+    "source": "joeis"
+  }
+}

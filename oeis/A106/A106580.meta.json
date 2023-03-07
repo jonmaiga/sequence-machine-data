@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n, k) = T(n, k-1) + Sum_{i >= 1} T(n-2i, k-i) with T(n,0)=1, read by rows.",
+  "id": "A106580",
+  "mentions": [
+    "A106595",
+    "A106596"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:58",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of length-n binary strings s whose longest repeated suffix appears exactly twice in s.",
+  "id": "A284462",
+  "mentions": [
+    "A059412",
+    "A284125"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Number of light-years in a parsec, as defined in 2015.",
+  "id": "A344323",
+  "mentions": [
+    "A163103",
+    "A213614",
+    "A217572",
+    "A248424",
+    "A248645",
+    "A292525"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 109,
+    "source": "oeis-entry"
+  }
+}

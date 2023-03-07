@@ -1,0 +1,27 @@
+{
+  "description": "Rectangular table, read by antidiagonals, where the g.f. of row n is Sum_{i>=0} F_i(x)^n / 2^(i+1), where F_0(x)=x, F_{n+1}(x) = F_n(x+x^2), for n>=1.",
+  "id": "A122941",
+  "mentions": [
+    "A122888",
+    "A122940",
+    "A122942",
+    "A122943",
+    "A122944",
+    "A122945",
+    "A122946",
+    "A122948",
+    "A122951"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

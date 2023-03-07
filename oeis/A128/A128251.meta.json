@@ -1,0 +1,30 @@
+{
+  "description": "n^4 - 1 divided by its largest fourth power divisor.",
+  "id": "A128251",
+  "mentions": [
+    "A000188",
+    "A000583",
+    "A002350",
+    "A004709",
+    "A007948",
+    "A008835",
+    "A033314",
+    "A046100",
+    "A062378",
+    "A067872",
+    "A068310",
+    "A128972"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 2,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

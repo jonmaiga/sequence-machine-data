@@ -1,0 +1,18 @@
+{
+  "description": "Number of steps to reach 1 under repeated applications of the \"5x+1\" map of A133419, or -1 if 1 is never reached.",
+  "id": "A133420",
+  "mentions": [
+    "A133419"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

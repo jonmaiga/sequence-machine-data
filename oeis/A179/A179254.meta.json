@@ -1,0 +1,24 @@
+{
+  "description": "Number of partitions of n into distinct parts such that the successive differences of consecutive parts are strictly increasing.",
+  "id": "A179254",
+  "mentions": [
+    "A007294",
+    "A179255",
+    "A179269",
+    "A240026",
+    "A240027",
+    "A320382",
+    "A320385"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

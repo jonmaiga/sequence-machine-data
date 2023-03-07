@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. log(1 + arcsinh(x)).",
+  "id": "A296435",
+  "mentions": [
+    "A001818",
+    "A003704",
+    "A110708",
+    "A189815",
+    "A202139",
+    "A296437"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:16",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

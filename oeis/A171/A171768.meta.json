@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = smallest exponent k such that the string \"1 2 ... n\" appears in the decimal expansion of 2^k.",
+  "id": "A171768",
+  "mentions": [
+    "A000079",
+    "A007908",
+    "A018802",
+    "A171132",
+    "A171242",
+    "A171489",
+    "A171652"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

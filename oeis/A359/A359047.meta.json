@@ -1,0 +1,22 @@
+{
+  "description": "Number of distinct edges among all circles that can be constructed on vertices of an n-sided regular polygon, using only a compass.",
+  "id": "A359047",
+  "mentions": [
+    "A135565",
+    "A331702",
+    "A358783",
+    "A359046",
+    "A359061"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

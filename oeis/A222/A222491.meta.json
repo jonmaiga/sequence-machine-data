@@ -1,0 +1,17 @@
+{
+  "description": "Number of 4Xn 0..2 arrays with exactly floor(4Xn/2) elements unequal to at least one horizontal, diagonal or antidiagonal neighbor, with new values introduced in row major 0..2 order",
+  "id": "A222491",
+  "mentions": [
+    "A222488"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

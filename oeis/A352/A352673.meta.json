@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of r = (3/13)(4+sqrt(3)).",
+  "id": "A352673",
+  "mentions": [
+    "A352672",
+    "A352675",
+    "A352676"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = number of signed unichromosonal genomes with n genes at 3-break distance k from a fixed genome, 0 <= k <= floor(n/2).",
+  "id": "A264615",
+  "mentions": [
+    "A164652",
+    "A189507",
+    "A264614",
+    "A264616",
+    "A264617"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

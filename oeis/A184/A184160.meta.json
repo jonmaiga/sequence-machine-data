@@ -1,0 +1,19 @@
+{
+  "description": "Number of root subtrees in the rooted tree with Matula-Goebel number n.",
+  "id": "A184160",
+  "mentions": [
+    "A184161"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:08",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

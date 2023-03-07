@@ -1,0 +1,19 @@
+{
+  "description": "Number of 2's in first n primes.",
+  "id": "A121242",
+  "mentions": [
+    "A068670",
+    "A085976"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

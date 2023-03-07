@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n, k) = the number of point-labeled graphs with n points and k edges, no points isolated, no edges isolated. By rows, 0 <= n, ceiling(2*n/3) <= k <= binomial(n, 2).",
+  "id": "A276640",
+  "mentions": [
+    "A059443",
+    "A060052",
+    "A276639"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 1,
+    "size": 43,
+    "source": "joeis"
+  }
+}

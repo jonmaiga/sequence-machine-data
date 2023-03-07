@@ -1,0 +1,27 @@
+{
+  "description": "Number of labeled clutters (connected antichains) spanning some subset of {1,...,n}, if clutters of the form {{x}} are allowed for any vertex x.",
+  "id": "A304986",
+  "mentions": [
+    "A048143",
+    "A198085",
+    "A261006",
+    "A304912",
+    "A304981",
+    "A304982",
+    "A304983",
+    "A304984",
+    "A304985",
+    "A305005"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

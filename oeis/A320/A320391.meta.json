@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that phi(k - 2) = phi(k) - 2.",
+  "id": "A320391",
+  "mentions": [
+    "A001838",
+    "A006512",
+    "A194593"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

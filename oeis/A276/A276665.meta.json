@@ -1,0 +1,19 @@
+{
+  "description": "In the '3x+1' problem, these values for the starting value set new records for both the number of steps and the highest point of trajectory before reaching 1.",
+  "id": "A276665",
+  "mentions": [
+    "A006877",
+    "A006884"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

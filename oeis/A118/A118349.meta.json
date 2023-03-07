@@ -1,0 +1,20 @@
+{
+  "description": "Convolution triangle, read by rows, where diagonals are successive self-convolutions of A118346.",
+  "id": "A118349",
+  "mentions": [
+    "A118345",
+    "A118346"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Nonnegative numbers excluding 1 and 2.",
+  "id": "A114637",
+  "mentions": [
+    "A087156"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:51:49",
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

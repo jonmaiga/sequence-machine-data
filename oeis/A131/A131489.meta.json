@@ -1,0 +1,22 @@
+{
+  "description": "Anti-primorials, partial products of anti-primes A092680.",
+  "id": "A131489",
+  "mentions": [
+    "A000040",
+    "A002110",
+    "A066466",
+    "A092680",
+    "A130874"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

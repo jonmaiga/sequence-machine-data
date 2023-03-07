@@ -1,0 +1,32 @@
+{
+  "description": "Sum of the divisors, except the largest, of the n-th positive even number.",
+  "id": "A346878",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A005843",
+    "A048050",
+    "A062731",
+    "A237593",
+    "A244049",
+    "A245092",
+    "A326124",
+    "A346870",
+    "A346877",
+    "A346880",
+    "A347153",
+    "A347154"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 16:22:01",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

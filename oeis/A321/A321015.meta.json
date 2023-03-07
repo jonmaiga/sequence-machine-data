@@ -1,0 +1,23 @@
+{
+  "description": "Number of isohedral Voronoi parallelotopes in R^n.",
+  "id": "A321015",
+  "mentions": [
+    "A000005",
+    "A071880",
+    "A071881",
+    "A071882",
+    "A321013",
+    "A321014"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

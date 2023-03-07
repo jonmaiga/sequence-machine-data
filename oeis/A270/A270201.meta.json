@@ -1,0 +1,24 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 1, a(A270189(1+n)) = 2 * a(n), a(A270190(n)) = 1 + 2*a(n).",
+  "id": "A270201",
+  "mentions": [
+    "A137264",
+    "A269849",
+    "A269850",
+    "A270189",
+    "A270190",
+    "A270193",
+    "A270202"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:33",
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

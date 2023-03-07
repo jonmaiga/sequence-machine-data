@@ -1,0 +1,33 @@
+{
+  "description": "Position of first appearance of n in A355382, where A355382(m) = number of divisors d of m such that bigomega(d) = omega(m); or a(n) = -1 if n does not appear in A355382.",
+  "id": "A355386",
+  "mentions": [
+    "A000005",
+    "A000712",
+    "A001221",
+    "A001222",
+    "A022811",
+    "A056239",
+    "A070175",
+    "A071625",
+    "A181591",
+    "A181819",
+    "A303555",
+    "A319910",
+    "A339006",
+    "A355382",
+    "A355383",
+    "A355384"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

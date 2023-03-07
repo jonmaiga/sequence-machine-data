@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest squarefree number m with n prime factors such that Sum_{prime q|m} 1/q - 1/m = P/Q, where P <> Q are primes, for n > 1, or a(n) = 1 if no such m.",
+  "id": "A309378",
+  "mentions": [
+    "A000040",
+    "A120944",
+    "A190273",
+    "A190275",
+    "A326689",
+    "A326690"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

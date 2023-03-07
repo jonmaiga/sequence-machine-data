@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n concatenated with its reversal n' yields a prime when the rightmost digit of n and leftmost digit of n' are coalesced.",
+  "id": "A258084",
+  "mentions": [
+    "A000040",
+    "A004086",
+    "A054217",
+    "A054218"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

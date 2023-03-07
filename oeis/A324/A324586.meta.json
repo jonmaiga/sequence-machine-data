@@ -1,0 +1,18 @@
+{
+  "description": "2^(6*n/5) rounded to nearest integer.",
+  "id": "A324586",
+  "mentions": [
+    "A324585"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are a product of distinct Fibonacci numbers (A160009) and also a product of distinct Lucas numbers (A274280).",
+  "id": "A273803",
+  "mentions": [
+    "A000045",
+    "A000204",
+    "A160009",
+    "A274280",
+    "A274371"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

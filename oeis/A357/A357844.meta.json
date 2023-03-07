@@ -1,0 +1,24 @@
+{
+  "description": "Denominators of the partial alternating sums of the reciprocals of the number of divisors function (A000005).",
+  "id": "A357844",
+  "mentions": [
+    "A000005",
+    "A104529",
+    "A211178",
+    "A307704",
+    "A357821",
+    "A357843"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

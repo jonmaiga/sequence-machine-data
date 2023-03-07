@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n, k) = 4 * A008292(n+1, k) - 3, read by rows.",
+  "id": "A176204",
+  "mentions": [
+    "A007318",
+    "A008292",
+    "A109128",
+    "A131061",
+    "A168625",
+    "A176200"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

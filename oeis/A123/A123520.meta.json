@@ -1,0 +1,20 @@
+{
+  "description": "Number of vertical dominoes in all possible tilings of a 2n X 3 grid by dominoes.",
+  "id": "A123520",
+  "mentions": [
+    "A001835",
+    "A123519"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

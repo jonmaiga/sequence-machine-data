@@ -1,0 +1,19 @@
+{
+  "description": "Beatty sequence for 3-sqrt(3).",
+  "id": "A182777",
+  "mentions": [
+    "A182760",
+    "A182778"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

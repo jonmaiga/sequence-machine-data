@@ -1,0 +1,35 @@
+{
+  "description": "Numerator of the rational number obtained when exponents in prime factorization of n are reinterpreted as alternating binary sums (A065620).",
+  "id": "A270418",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A010060",
+    "A020639",
+    "A028234",
+    "A056192",
+    "A065620",
+    "A067029",
+    "A262675",
+    "A270419",
+    "A270420",
+    "A270421",
+    "A270436",
+    "A270437",
+    "A273671",
+    "A273672"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "frac",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:33",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

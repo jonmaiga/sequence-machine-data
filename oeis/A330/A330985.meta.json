@@ -1,0 +1,23 @@
+{
+  "description": "Irregular table read by rows in which row n gives the Littlewood-Richardson coefficients for the square of the symmetric Schur function corresponding to the n-th partition listed in A036036 (colexicographic order).",
+  "id": "A330985",
+  "mentions": [
+    "A000041",
+    "A036036",
+    "A067855"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "changed",
+    "formulas",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

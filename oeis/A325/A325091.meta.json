@@ -1,0 +1,27 @@
+{
+  "description": "Heinz numbers of integer partitions of powers of 2.",
+  "id": "A325091",
+  "mentions": [
+    "A000720",
+    "A001222",
+    "A018819",
+    "A033844",
+    "A056239",
+    "A102378",
+    "A112798",
+    "A131577",
+    "A318400",
+    "A325092",
+    "A325093"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest prime p such that the minimum number of divisors among the numbers between p and NextPrime(p) is n, or -1 if no such prime exists.",
+  "id": "A357258",
+  "mentions": [
+    "A061112",
+    "A356833",
+    "A357170",
+    "A357175"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 3,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. 1/sqrt(9 - 8 * exp(x)).",
+  "id": "A354253",
+  "mentions": [
+    "A000010",
+    "A144828",
+    "A238465",
+    "A305404",
+    "A354242",
+    "A354252"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

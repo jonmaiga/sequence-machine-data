@@ -1,0 +1,25 @@
+{
+  "description": "a(n)=number of numbers removed in each step of Eratosthenes's sieve for 2^14.",
+  "id": "A145592",
+  "mentions": [
+    "A006880",
+    "A007053",
+    "A060967",
+    "A122121",
+    "A145532",
+    "A145540",
+    "A145583"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

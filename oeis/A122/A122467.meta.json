@@ -1,0 +1,24 @@
+{
+  "description": "Write n-th semiprime in binary, sum as if decimal numbers.",
+  "id": "A122467",
+  "mentions": [
+    "A000040",
+    "A001358",
+    "A004676",
+    "A007088",
+    "A122466"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

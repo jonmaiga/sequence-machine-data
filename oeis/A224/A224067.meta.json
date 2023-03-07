@@ -1,0 +1,18 @@
+{
+  "description": "Number of cycles the reduced complex Collatz function using 1 + (2n-1)i takes to hit 1 + i, or 0 if this never happens.",
+  "id": "A224067",
+  "mentions": [
+    "A224165"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

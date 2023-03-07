@@ -1,0 +1,25 @@
+{
+  "description": "Sum of all parts minus the total numbers of parts of all partitions of n.",
+  "id": "A196087",
+  "mentions": [
+    "A000041",
+    "A001620",
+    "A006128",
+    "A066186",
+    "A161224",
+    "A207034",
+    "A207035",
+    "A207038"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = the smallest integer > A137698(n) and not coprime to A137698(n). (a(n) = A137698(n) + smallest prime dividing A137698(n).).",
+  "id": "A137699",
+  "mentions": [
+    "A137698"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 15:49:55",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

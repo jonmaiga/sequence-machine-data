@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes between n^2 and 2*n^2.",
+  "id": "A290564",
+  "mentions": [
+    "A000720",
+    "A060715"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Semiludic numbers or \"Ludic semiprimes\": numbers n for which A302037(n) = 2.",
+  "id": "A302038",
+  "mentions": [
+    "A001358",
+    "A003309",
+    "A254100",
+    "A255127",
+    "A302032",
+    "A302036",
+    "A302037"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Floor((10^n)/(log(10^n) - 1)).",
+  "id": "A193257",
+  "mentions": [
+    "A000720",
+    "A006880",
+    "A057834",
+    "A058289",
+    "A226744"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

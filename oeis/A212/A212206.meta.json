@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = number of \"pat\" permutations of [1..n] with k descents.",
+  "id": "A212206",
+  "mentions": [
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

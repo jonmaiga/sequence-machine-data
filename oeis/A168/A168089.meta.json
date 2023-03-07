@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2^pentanacci(n).",
+  "id": "A168089",
+  "mentions": [
+    "A000301",
+    "A001591",
+    "A063401",
+    "A168088"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

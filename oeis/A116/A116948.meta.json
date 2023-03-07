@@ -1,0 +1,23 @@
+{
+  "description": "Riordan array ((1+2x^2)/(1-x^3),x).",
+  "id": "A116948",
+  "mentions": [
+    "A001045",
+    "A116949",
+    "A117571",
+    "A117572"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:07:29",
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

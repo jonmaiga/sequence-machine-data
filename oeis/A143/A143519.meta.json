@@ -1,0 +1,25 @@
+{
+  "description": "Moebius transform of A010051, the characteristic function of the primes: a(n) = Sum_{d|n} mu(n/d)*A010051(d); A054525 * A010051.",
+  "id": "A143519",
+  "mentions": [
+    "A000720",
+    "A008683",
+    "A010051",
+    "A043518",
+    "A051731",
+    "A054525",
+    "A137851",
+    "A143518"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

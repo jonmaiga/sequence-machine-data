@@ -1,0 +1,21 @@
+{
+  "description": "Dirichlet g.f.: Product_{k>=2} (1 + 2 * k^(-s)).",
+  "id": "A349923",
+  "mentions": [
+    "A032302",
+    "A045778",
+    "A074823",
+    "A328706",
+    "A349924"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

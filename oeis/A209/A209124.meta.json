@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: denominators of degenerate Bernoulli numbers written as powers of lambda.",
+  "id": "A209124",
+  "mentions": [
+    "A006232",
+    "A006233",
+    "A008275",
+    "A027641",
+    "A027642",
+    "A209123"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

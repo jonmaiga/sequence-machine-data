@@ -1,0 +1,25 @@
+{
+  "description": "Permutation of nonnegative integers: a(0) = 0, a(1) = 1, a(2n) = A117967(1+a(n)), a(2n+1) = A117968(a(n)).",
+  "id": "A246209",
+  "mentions": [
+    "A005408",
+    "A005843",
+    "A054429",
+    "A117967",
+    "A117968",
+    "A246207",
+    "A246210",
+    "A246211"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

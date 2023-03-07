@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: n-th row contains powers b^e with b + e = n + 1 in natural order.",
+  "id": "A247358",
+  "mentions": [
+    "A003101",
+    "A003320",
+    "A051129",
+    "A247363"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

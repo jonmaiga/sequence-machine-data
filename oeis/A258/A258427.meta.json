@@ -1,0 +1,20 @@
+{
+  "description": "Number T(n,k) of redundant binary trees with n inner nodes of exactly k different dimensions used for the partition of the k-dimensional hypercube by hierarchical bisection; triangle T(n,k), n>=3, 2<=k<=n-1, read by rows.",
+  "id": "A258427",
+  "mentions": [
+    "A255982",
+    "A256061"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 3,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

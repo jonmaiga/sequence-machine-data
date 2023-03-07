@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of number whose Engel expansion is given by the sequence: 1,1,2,2,3,3,4,4,...Ceiling[n/2],...",
+  "id": "A130820",
+  "mentions": [
+    "A001405",
+    "A006784",
+    "A064648",
+    "A070910",
+    "A096789",
+    "A101689",
+    "A141827"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

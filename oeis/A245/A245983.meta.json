@@ -1,0 +1,17 @@
+{
+  "description": "Number of pairs of endofunctions f, g on [n] satisfying g^6(f(i)) = f(i) for all i in [n].",
+  "id": "A245983",
+  "mentions": [
+    "A245980"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of matchings in the n X n knight graph.",
+  "id": "A287225",
+  "mentions": [
+    "A141243",
+    "A289200",
+    "A289202",
+    "A302241"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

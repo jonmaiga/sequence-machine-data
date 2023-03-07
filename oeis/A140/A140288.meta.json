@@ -1,0 +1,20 @@
+{
+  "description": "The least n-digit multiple of 5^n using the decimal digits {1, 2, 3, 4, 5} exclusively.",
+  "id": "A140288",
+  "mentions": [
+    "A035014",
+    "A053312"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:28",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

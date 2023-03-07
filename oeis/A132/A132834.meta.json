@@ -1,0 +1,18 @@
+{
+  "description": "Largest integer terms forming a self-convolution square-root of a sequence (A132833) such that: A132833(n) <= 3*A132833(n-1) for n>0 with A132833(0)=1.",
+  "id": "A132834",
+  "mentions": [
+    "A132832",
+    "A132833"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

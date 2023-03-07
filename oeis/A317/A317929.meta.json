@@ -1,0 +1,23 @@
+{
+  "description": "Numerators of rational valued sequence whose Dirichlet convolution with itself yields A235199, which is a multiplicative permutation of natural numbers.",
+  "id": "A317929",
+  "mentions": [
+    "A235199",
+    "A299150",
+    "A317930",
+    "A317937"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "frac",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest positive integer k such that psi(x) = k has exactly n solutions, where psi(x) = A001615(x).",
+  "id": "A300911",
+  "mentions": [
+    "A001615",
+    "A007368",
+    "A007374"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

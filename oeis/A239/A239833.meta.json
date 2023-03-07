@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n having an ordering of parts in which no parts of equal parity are adjacent and the first and last terms have the same parity.",
+  "id": "A239833",
+  "mentions": [
+    "A045931",
+    "A239832",
+    "A239835",
+    "A239871",
+    "A240009"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:57",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

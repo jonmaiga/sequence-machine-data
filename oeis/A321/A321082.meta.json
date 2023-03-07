@@ -1,0 +1,21 @@
+{
+  "description": "Approximations up to 2^n for 2-adic integer log_(-3)(5).",
+  "id": "A321082",
+  "mentions": [
+    "A321080",
+    "A321083",
+    "A321690",
+    "A321691"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 2,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

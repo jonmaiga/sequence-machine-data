@@ -1,0 +1,35 @@
+{
+  "description": "Number of singular n X n rational {0,1}-matrices with no zero rows or columns and with all rows distinct, up to permutation of rows.",
+  "id": "A116532",
+  "mentions": [
+    "A000410",
+    "A054780",
+    "A059202",
+    "A088309",
+    "A088310",
+    "A088389",
+    "A088616",
+    "A089673",
+    "A089674",
+    "A093466",
+    "A094000",
+    "A094223",
+    "A116506",
+    "A116527",
+    "A116539",
+    "A181230",
+    "A259763"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

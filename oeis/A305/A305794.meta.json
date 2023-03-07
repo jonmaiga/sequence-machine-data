@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Product_{d|n, d>1} prime(A286622(d)-1).",
+  "id": "A305794",
+  "mentions": [
+    "A008578",
+    "A278222",
+    "A286622",
+    "A304104",
+    "A305792",
+    "A305795"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:30",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

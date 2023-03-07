@@ -1,0 +1,21 @@
+{
+  "description": "Number of decompositions of positive even numbers 2n into unordered sums of a prime and a prime or semiprime (Chen's partitions).",
+  "id": "A155216",
+  "mentions": [
+    "A001358",
+    "A002375",
+    "A033270",
+    "A046927"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:37",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

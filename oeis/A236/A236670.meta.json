@@ -1,0 +1,20 @@
+{
+  "description": "Start with 6; thereafter, primes obtained by concatenating to the end of previous term the next smallest number that will produce a prime.",
+  "id": "A236670",
+  "mentions": [
+    "A048553",
+    "A069608",
+    "A110773"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

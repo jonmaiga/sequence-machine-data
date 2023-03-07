@@ -1,0 +1,18 @@
+{
+  "description": "Primes p containing the string \"13\" and sum of digits sod(p) = 13.",
+  "id": "A175017",
+  "mentions": [
+    "A166573"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

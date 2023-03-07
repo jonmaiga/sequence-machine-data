@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k congruent to 1 or 5 mod 6, for which A348930(k) > k.",
+  "id": "A348932",
+  "mentions": [
+    "A007310",
+    "A038502",
+    "A348742",
+    "A348754",
+    "A348930",
+    "A348931"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

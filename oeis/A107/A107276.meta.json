@@ -1,0 +1,22 @@
+{
+  "description": "Vertically symmetrical dates DDMMYY (\"condensed European notation\") considered as numbers, in increasing order.",
+  "id": "A107276",
+  "mentions": [
+    "A053701",
+    "A106605"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

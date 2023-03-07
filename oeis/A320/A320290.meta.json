@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations p of [2n] such that in 0p the largest up-jump equals n and no down-jump is larger than 2.",
+  "id": "A320290",
+  "mentions": [
+    "A291680"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

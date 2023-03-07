@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = p, the lesser of twin primes (p, q=p+2) such that p*q - p - q is prime.",
+  "id": "A128551",
+  "mentions": [
+    "A096342",
+    "A126148",
+    "A128547",
+    "A128548",
+    "A128550"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

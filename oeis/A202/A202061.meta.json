@@ -1,0 +1,27 @@
+{
+  "description": "Number of ascent sequences avoiding the pattern 120.",
+  "id": "A202061",
+  "mentions": [
+    "A000079",
+    "A000108",
+    "A007051",
+    "A007317",
+    "A022493",
+    "A080937",
+    "A108304",
+    "A202058",
+    "A202059",
+    "A202060",
+    "A202062"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

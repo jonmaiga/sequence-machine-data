@@ -1,0 +1,21 @@
+{
+  "description": "Primes appearing in partial sums of A030433 (primes ending in 9).",
+  "id": "A129081",
+  "mentions": [
+    "A000040",
+    "A030433"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:16",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

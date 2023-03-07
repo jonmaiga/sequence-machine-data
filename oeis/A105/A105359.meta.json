@@ -1,0 +1,19 @@
+{
+  "description": "Records in rearrangement A105357.",
+  "id": "A105359",
+  "mentions": [
+    "A105353",
+    "A105357",
+    "A105360"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

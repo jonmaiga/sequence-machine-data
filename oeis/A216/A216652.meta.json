@@ -1,0 +1,23 @@
+{
+  "description": "Triangular array read by rows: T(n,k) is the number of compositions of n into exactly k distinct parts.",
+  "id": "A216652",
+  "mentions": [
+    "A003056",
+    "A008289",
+    "A032020",
+    "A072574",
+    "A097910"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

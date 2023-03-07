@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (prime(n + 1) +- k) / 2 where k is the smallest possible odd number such that a(n) is prime and a(n + 1) >= a(n).",
+  "id": "A335139",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

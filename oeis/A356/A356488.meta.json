@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the equation x^2 - k*y^4 = -1 has a solution for which |y| > 2.",
+  "id": "A356488",
+  "mentions": [
+    "A031396",
+    "A130227",
+    "A182468"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

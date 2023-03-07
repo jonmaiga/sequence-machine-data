@@ -1,0 +1,18 @@
+{
+  "description": "Palindromic primes in base 4 (written in base 4).",
+  "id": "A117699",
+  "mentions": [
+    "A029972"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

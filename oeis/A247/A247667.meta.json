@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the coefficient c_m in c_m*log(N), the asymptotic mean number of factors in a random factorization of n <= N.",
+  "id": "A247667",
+  "mentions": [
+    "A107311",
+    "A129373",
+    "A129374",
+    "A129375",
+    "A217598",
+    "A247668"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

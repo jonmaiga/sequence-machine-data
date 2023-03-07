@@ -1,0 +1,21 @@
+{
+  "description": "Non-multiples of 13, or numbers not divisible by 13.",
+  "id": "A113763",
+  "mentions": [
+    "A008595",
+    "A011760",
+    "A023806"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:27:29",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

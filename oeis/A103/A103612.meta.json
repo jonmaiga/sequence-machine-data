@@ -1,0 +1,18 @@
+{
+  "description": "Number of solutions to 5+B^2=p^2+q^2 with B=2n, p,q>0 and 2p^2",
+  "id": "A103612",
+  "mentions": [
+    "A104768"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

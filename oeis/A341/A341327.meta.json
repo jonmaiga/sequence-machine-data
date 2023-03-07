@@ -1,0 +1,22 @@
+{
+  "description": "The spiral numbers not covered by any square in the square spiral tiling of A341160.",
+  "id": "A341327",
+  "mentions": [
+    "A174344",
+    "A274923",
+    "A275161",
+    "A296030",
+    "A340974",
+    "A341160"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

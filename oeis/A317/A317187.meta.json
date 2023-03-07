@@ -1,0 +1,18 @@
+{
+  "description": "Arrange primes along the square spiral; sequence lists primes on the X-axis.",
+  "id": "A317187",
+  "mentions": [
+    "A317186"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

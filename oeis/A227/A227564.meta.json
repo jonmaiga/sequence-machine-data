@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n into distinct parts with boundary size 7.",
+  "id": "A227564",
+  "mentions": [
+    "A227345",
+    "A227551"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 37,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

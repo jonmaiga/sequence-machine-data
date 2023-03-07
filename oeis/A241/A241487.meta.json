@@ -1,0 +1,24 @@
+{
+  "description": "Primes p such that p+6, p+666 and p+6666 are also prime.",
+  "id": "A241487",
+  "mentions": [
+    "A000040",
+    "A023200",
+    "A046136",
+    "A230223",
+    "A236302",
+    "A236304",
+    "A237890",
+    "A241485"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

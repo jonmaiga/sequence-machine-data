@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n where d*n contains the digit d for all of d = 1,2,3,4,5,6,7,8,9.",
+  "id": "A298849",
+  "mentions": [
+    "A296606"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:21",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

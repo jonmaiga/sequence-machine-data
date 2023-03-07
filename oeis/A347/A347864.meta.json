@@ -1,0 +1,19 @@
+{
+  "description": "Left-or right-truncatable primes, restricted to one consecutive zero.",
+  "id": "A347864",
+  "mentions": [
+    "A137812",
+    "A346662"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

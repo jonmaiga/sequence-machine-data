@@ -1,0 +1,26 @@
+{
+  "description": "Dimensions of certain Lie algebra (see reference for precise definition).",
+  "id": "A133238",
+  "mentions": [
+    "A000578",
+    "A005408",
+    "A030650",
+    "A085462",
+    "A107942",
+    "A128894",
+    "A133239",
+    "A133240",
+    "A133241"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:56:35",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

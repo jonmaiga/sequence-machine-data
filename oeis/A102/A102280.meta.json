@@ -1,0 +1,19 @@
+{
+  "description": "Let k = n-th number == 1 or 5 mod 6 (A007310(n)); consider the generalized 3x+1 map T_k defined by T_k(n) = (3n+k)/2 if n odd, n/2 if n even; then a(n) = smallest positive number m which is in a primitive cycle of T_k.",
+  "id": "A102280",
+  "mentions": [
+    "A007310",
+    "A102284",
+    "A226633"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:53",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

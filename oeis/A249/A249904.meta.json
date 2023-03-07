@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = mu(n) + sigma(n) - n.",
+  "id": "A249904",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A008683",
+    "A249767",
+    "A249901"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:06",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

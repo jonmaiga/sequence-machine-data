@@ -1,0 +1,18 @@
+{
+  "description": "Length of alternative tribonacci representation of n defined in A317206.",
+  "id": "A317207",
+  "mentions": [
+    "A317206"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

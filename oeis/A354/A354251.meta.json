@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of e.g.f. Sum_{k>=0} (3*k)! * (-log(1-x))^k / k!.",
+  "id": "A354251",
+  "mentions": [
+    "A007840",
+    "A316748",
+    "A353118",
+    "A354244",
+    "A354250"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

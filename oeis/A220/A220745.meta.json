@@ -1,0 +1,18 @@
+{
+  "description": "\"Complement\" of Pol's E-toothpick sequence after n iterations.",
+  "id": "A220745",
+  "mentions": [
+    "A161330"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

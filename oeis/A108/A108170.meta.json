@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of the number 5.1413105308627310489... having continued fraction expansion 5, 7, 13, 19, 31, 43, 61, 73, 103, 109, 139, 151, 181, ... (greater of twin primes A006512).",
+  "id": "A108170",
+  "mentions": [
+    "A006512",
+    "A064442",
+    "A127549",
+    "A127550",
+    "A127551",
+    "A127552",
+    "A127555",
+    "A127556",
+    "A127557",
+    "A127558",
+    "A127559"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

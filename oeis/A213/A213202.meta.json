@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to write n = p + sum_{k=1..m}(-1)^(m-k)*p_k, where p is a Sophie Germain prime and p_k is the k-th prime.",
+  "id": "A213202",
+  "mentions": [
+    "A005153",
+    "A005384",
+    "A008347",
+    "A210479"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

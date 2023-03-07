@@ -1,0 +1,22 @@
+{
+  "description": "Let f(n) = Sum_{j>=1} j^n/binomial(2*j,j) = r_n*Pi*sqrt(3)/3^{t_n} + s_n/3; sequence gives t_n.",
+  "id": "A185585",
+  "mentions": [
+    "A014307",
+    "A098830",
+    "A180875",
+    "A181334",
+    "A181374"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

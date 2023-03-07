@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of (eta(q^3) * eta(q^5))^3 + (eta(q) * eta(q^15))^3 in powers of q.",
+  "id": "A115155",
+  "mentions": [
+    "A000521",
+    "A030220",
+    "A106853",
+    "A136549",
+    "A136599"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

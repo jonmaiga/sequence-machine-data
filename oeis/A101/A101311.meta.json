@@ -1,0 +1,19 @@
+{
+  "description": "Decimal numbers n such that after possibly prefixing a leading 0 to n, the resulting number n' can be broken into 2 strings of the same length, n' = xy, such that x^2+y^2 = n.",
+  "id": "A101311",
+  "mentions": [
+    "A000290",
+    "A064942"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

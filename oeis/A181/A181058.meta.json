@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = prime(Fibonacci(phi(n))), where prime = A000040, Fibonacci = A000045 and phi = A000010.",
+  "id": "A181058",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A000045",
+    "A030427",
+    "A065451",
+    "A181056"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

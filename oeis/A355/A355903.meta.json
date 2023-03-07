@@ -1,0 +1,19 @@
+{
+  "description": "Variant of Stepping Stones problem: here the stone you place only needs to divide the sum of its 8 neighbors.",
+  "id": "A355903",
+  "mentions": [
+    "A337663"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

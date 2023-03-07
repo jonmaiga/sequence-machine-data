@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n,m) = 2*A022167(n,m) - binomial(n, m), 0 <= m <= n, read by rows.",
+  "id": "A174527",
+  "mentions": [
+    "A006117",
+    "A022167",
+    "A060187"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

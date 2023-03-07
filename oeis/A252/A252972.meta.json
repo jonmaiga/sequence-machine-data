@@ -1,0 +1,18 @@
+{
+  "description": "Number of nX4 nonnegative integer arrays with upper left 0 and lower right n+4-5 and value increasing by 0 or 1 with every step right or down",
+  "id": "A252972",
+  "mentions": [
+    "A252976"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

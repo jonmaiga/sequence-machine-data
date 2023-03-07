@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = binomial(prime(n),s)/prime(n) where s is the sum of the decimal digits of prime(n).",
+  "id": "A176267",
+  "mentions": [
+    "A007605",
+    "A007953",
+    "A176266"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 5,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

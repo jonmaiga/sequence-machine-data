@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with 42 divisors.",
+  "id": "A175750",
+  "mentions": [
+    "A000005",
+    "A137484",
+    "A137488"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:47",
+    "offset": 1,
+    "size": 38,
+    "source": "joeis"
+  }
+}

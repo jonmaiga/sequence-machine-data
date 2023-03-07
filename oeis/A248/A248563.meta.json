@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that A248562(k+1) = A248562(k) + 1.",
+  "id": "A248563",
+  "mentions": [
+    "A248560",
+    "A248562",
+    "A248564",
+    "A248566"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

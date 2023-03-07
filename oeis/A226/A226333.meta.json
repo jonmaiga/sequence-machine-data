@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of (E_4(q) - E_4(q^5)) / 240 in powers of q where E_4 is an Eisenstein series.",
+  "id": "A226333",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A004009",
+    "A010054",
+    "A010815",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

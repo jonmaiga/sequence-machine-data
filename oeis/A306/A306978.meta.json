@@ -1,0 +1,20 @@
+{
+  "description": "Numbers with record number of iterations of x -> A306938(x) required to reach 1 (A306944).",
+  "id": "A306978",
+  "mentions": [
+    "A306938",
+    "A306943",
+    "A306944"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

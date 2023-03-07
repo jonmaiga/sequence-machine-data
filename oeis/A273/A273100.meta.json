@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of tau_2 (so named by S. Finch), the sum of squared eigenvalues of the Ruelle-Mayer linear operator G_2.",
+  "id": "A273100",
+  "mentions": [
+    "A038517",
+    "A242914"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

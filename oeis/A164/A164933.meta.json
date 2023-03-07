@@ -1,0 +1,27 @@
+{
+  "description": "Word structures of length n using a 10-ary alphabet, including a special character, which may occur in the leftmost word position only if n=1.",
+  "id": "A164933",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A005493",
+    "A007318",
+    "A007582",
+    "A048993",
+    "A086444",
+    "A164863",
+    "A164864"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

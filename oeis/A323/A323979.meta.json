@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of determinant of 120 X 120 matrix M_{u,v} = q^(maj(u*v^-1)) where u, v in S_5 and maj = MacMahon's major index (cf. A008302).",
+  "id": "A323979",
+  "mentions": [
+    "A008302",
+    "A323977",
+    "A323978"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:54:35",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

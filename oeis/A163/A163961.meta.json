@@ -1,0 +1,24 @@
+{
+  "description": "First differences of A116533.",
+  "id": "A163961",
+  "mentions": [
+    "A006992",
+    "A055496",
+    "A080359",
+    "A104272",
+    "A106108",
+    "A116533",
+    "A132199",
+    "A164368"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

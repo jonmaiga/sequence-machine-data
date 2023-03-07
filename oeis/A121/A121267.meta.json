@@ -1,0 +1,20 @@
+{
+  "description": "Number of decimal digits in A047777(n).",
+  "id": "A121267",
+  "mentions": [
+    "A047777",
+    "A053013"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

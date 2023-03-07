@@ -1,0 +1,21 @@
+{
+  "description": "Sum of proper divisors of form 4k+1.",
+  "id": "A293901",
+  "mentions": [
+    "A050449",
+    "A091570",
+    "A293451",
+    "A293903"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

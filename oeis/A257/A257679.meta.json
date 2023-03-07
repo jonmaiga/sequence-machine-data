@@ -1,0 +1,32 @@
+{
+  "description": "The smallest nonzero digit present in the factorial base representation (A007623) of n, 0 if no nonzero digits present.",
+  "id": "A257679",
+  "mentions": [
+    "A001563",
+    "A007623",
+    "A051683",
+    "A099563",
+    "A246359",
+    "A256450",
+    "A257079",
+    "A257503",
+    "A257505",
+    "A257680",
+    "A257684",
+    "A257687",
+    "A257692",
+    "A257693"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:15",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

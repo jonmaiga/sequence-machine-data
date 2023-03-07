@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array read by rows. For T(n,k) where 1 <= k <= n, start with x = k and repeat the map x -> floor(n/x) + (n mod x) until an x occurs that has already appeared. The number of applications of the map is T(n,k).",
+  "id": "A358052",
+  "mentions": [
+    "A234575",
+    "A357554"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

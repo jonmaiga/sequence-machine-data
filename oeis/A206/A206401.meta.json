@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f. A(x) satisfies: exp(A(x)) = x + exp(3*A(x)^2/2), with A(0) = 0.",
+  "id": "A206401",
+  "mentions": [
+    "A138014",
+    "A206402",
+    "A206403",
+    "A206404",
+    "A206405"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 17:10:42",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

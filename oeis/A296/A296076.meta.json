@@ -1,0 +1,23 @@
+{
+  "description": "Least number with the same prime signature as 1 + A002322(n), where A002322 is Carmichael's lambda.",
+  "id": "A296076",
+  "mentions": [
+    "A002322",
+    "A046523",
+    "A263027",
+    "A263028",
+    "A296077",
+    "A296078"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

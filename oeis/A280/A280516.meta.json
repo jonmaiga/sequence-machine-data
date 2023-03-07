@@ -1,0 +1,20 @@
+{
+  "description": "Amicable pairs where only deficient aliquot parts are considered.",
+  "id": "A280516",
+  "mentions": [
+    "A063990",
+    "A259180",
+    "A280515"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = number of partitions of 10^n mod 10",
+  "id": "A185041",
+  "mentions": [
+    "A000041",
+    "A070177"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

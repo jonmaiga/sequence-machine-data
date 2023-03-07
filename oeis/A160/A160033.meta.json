@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form 2^(2^n)+757.",
+  "id": "A160033",
+  "mentions": [
+    "A019434",
+    "A160027",
+    "A160030",
+    "A160032",
+    "A160034",
+    "A273547"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

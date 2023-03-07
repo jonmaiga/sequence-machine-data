@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of square root of 103.",
+  "id": "A187768",
+  "mentions": [
+    "A010171",
+    "A192106"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:15:11",
+    "offset": 2,
+    "size": 87,
+    "source": "joeis"
+  }
+}

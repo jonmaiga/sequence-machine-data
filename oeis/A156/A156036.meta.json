@@ -1,0 +1,19 @@
+{
+  "description": "Numerators in expansion of log(z^2/(cosh(z)-cos(z))).",
+  "id": "A156036",
+  "mentions": [
+    "A156032"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

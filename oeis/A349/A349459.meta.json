@@ -1,0 +1,18 @@
+{
+  "description": "Least positive integer m such that the n numbers k^2*(k^2-1) (k=1..n) are pairwise distinct modulo m.",
+  "id": "A349459",
+  "mentions": [
+    "A000290",
+    "A208643"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

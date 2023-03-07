@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form PartitionsP[p], p are prime numbers.",
+  "id": "A163152",
+  "mentions": [
+    "A049575",
+    "A098145",
+    "A163150",
+    "A163151"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

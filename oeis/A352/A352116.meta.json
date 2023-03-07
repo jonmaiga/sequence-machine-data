@@ -1,0 +1,26 @@
+{
+  "description": "Partial sums of the odd triangular numbers (A014493).",
+  "id": "A352116",
+  "mentions": [
+    "A000027",
+    "A000217",
+    "A000292",
+    "A000447",
+    "A001477",
+    "A014493",
+    "A014494",
+    "A352115"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:44",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

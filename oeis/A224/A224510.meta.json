@@ -1,0 +1,19 @@
+{
+  "description": "Number of simple labeled graphs on {1,2,...,n} such that the node labeled with 1 is in the same component as the node labeled with 2.",
+  "id": "A224510",
+  "mentions": [
+    "A001187",
+    "A006125"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

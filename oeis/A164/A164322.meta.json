@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that n=prime(P)+sigma(P), where P is product of digits of n.",
+  "id": "A164322",
+  "mentions": [
+    "A000040",
+    "A000203",
+    "A164323",
+    "A164324"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

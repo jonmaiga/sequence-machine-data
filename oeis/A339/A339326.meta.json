@@ -1,0 +1,18 @@
+{
+  "description": "Denominators of s in rational solutions of s^4 + s^3 + s^2 + s + 1 = y^2 with |s| <= 1.",
+  "id": "A339326",
+  "mentions": [
+    "A339325"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

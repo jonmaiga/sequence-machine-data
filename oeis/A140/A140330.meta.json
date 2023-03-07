@@ -1,0 +1,23 @@
+{
+  "description": "Smallest nonprime with Hamming weight n (i.e., with exactly n 1's when written in binary).",
+  "id": "A140330",
+  "mentions": [
+    "A000120",
+    "A018252",
+    "A061712",
+    "A089226"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

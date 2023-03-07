@@ -1,0 +1,24 @@
+{
+  "description": "G.f. satisfies: A(x) = (1 + x*A(x))^2 * (1 + A(x)) / 2.",
+  "id": "A228966",
+  "mentions": [
+    "A231552",
+    "A231553",
+    "A231554",
+    "A231556",
+    "A231615",
+    "A231616",
+    "A231618"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

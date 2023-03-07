@@ -1,0 +1,20 @@
+{
+  "description": "Least k with precisely n partitions k = x + y satisfying d(k) = d(x) + d(y), where d(k) is the number of divisors of k.",
+  "id": "A271382",
+  "mentions": [
+    "A000005",
+    "A211224",
+    "A271384"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

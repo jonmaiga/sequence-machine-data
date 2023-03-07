@@ -1,0 +1,22 @@
+{
+  "description": "Array read by antidiagonals. A scheme of arrangements: ArrScheme(k,n) = VarScheme(k,n-1) + k^n; ArrScheme(k,0) = 1. VarScheme(k,n) = (n*k+1)*(VarScheme(k,n-1) + k^n); VarScheme(k,0) = 1.",
+  "id": "A128198",
+  "mentions": [
+    "A000522",
+    "A126062",
+    "A128195",
+    "A128196"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

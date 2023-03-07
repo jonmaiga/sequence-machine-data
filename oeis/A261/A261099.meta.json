@@ -1,0 +1,25 @@
+{
+  "description": "Main diagonal of A261096.",
+  "id": "A261099",
+  "mentions": [
+    "A014489",
+    "A055089",
+    "A060119",
+    "A060126",
+    "A195663",
+    "A261096",
+    "A261097",
+    "A261219"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

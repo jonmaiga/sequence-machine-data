@@ -1,0 +1,22 @@
+{
+  "description": "Number of integer solutions to a^2 + 2*b^2 + 5*c^2 + 8*d^2 = n.",
+  "id": "A320165",
+  "mentions": [
+    "A033722",
+    "A319822",
+    "A320163",
+    "A320164",
+    "A320166"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

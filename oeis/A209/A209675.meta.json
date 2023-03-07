@@ -1,0 +1,25 @@
+{
+  "description": "Radon function at even positions: a(n) = A003484(2*n).",
+  "id": "A209675",
+  "mentions": [
+    "A003484",
+    "A003485",
+    "A005408",
+    "A016825",
+    "A017113",
+    "A051062",
+    "A053381"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

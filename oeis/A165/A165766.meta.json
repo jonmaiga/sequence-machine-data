@@ -1,0 +1,18 @@
+{
+  "description": "Number of tatami-free rooms of size 2n.",
+  "id": "A165766",
+  "mentions": [
+    "A068920",
+    "A165632"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

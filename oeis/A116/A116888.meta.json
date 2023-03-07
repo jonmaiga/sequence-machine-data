@@ -1,0 +1,20 @@
+{
+  "description": "Primes p that remain prime through 4 iterations of the function f(p) = p^2 + 4.",
+  "id": "A116888",
+  "mentions": [
+    "A062324",
+    "A116886",
+    "A116887",
+    "A116889"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

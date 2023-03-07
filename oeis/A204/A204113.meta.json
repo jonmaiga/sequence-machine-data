@@ -1,0 +1,21 @@
+{
+  "description": "Array: row n shows the coefficients of the characteristic polynomial of the n-th principal submatrix of the matrix at A204112, given by f(i,j) = gcd(F(i+1), F(j+1)), where F=A000045 (Fibonacci numbers).",
+  "id": "A204113",
+  "mentions": [
+    "A000045",
+    "A202605",
+    "A204016",
+    "A204112"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 04:11:44",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

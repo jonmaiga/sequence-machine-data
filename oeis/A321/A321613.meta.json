@@ -1,0 +1,20 @@
+{
+  "description": "Partial products of the unitary totient function (A047994): a(n) = Product_{k=1..n} uphi(k).",
+  "id": "A321613",
+  "mentions": [
+    "A001088",
+    "A047994",
+    "A165430",
+    "A177754"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

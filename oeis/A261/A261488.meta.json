@@ -1,0 +1,20 @@
+{
+  "description": "Number of triples (x, y, x mod y) such that x > y are divisors of n and x mod y is an anti-divisor of n.",
+  "id": "A261488",
+  "mentions": [
+    "A027750",
+    "A130799",
+    "A260073",
+    "A261476"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

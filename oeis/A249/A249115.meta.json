@@ -1,0 +1,19 @@
+{
+  "description": "Floor(r*n), where r = (5 - sqrt(5))/2; the Beatty complement of A003231.",
+  "id": "A249115",
+  "mentions": [
+    "A001622",
+    "A003231"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

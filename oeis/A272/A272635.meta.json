@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are not a sum or a difference of two Fibonacci numbers.",
+  "id": "A272635",
+  "mentions": [
+    "A000045",
+    "A007298",
+    "A084176",
+    "A105448",
+    "A105449"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

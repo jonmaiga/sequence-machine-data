@@ -1,0 +1,26 @@
+{
+  "description": "Numbers of the form p^(k^2) where p is prime and k >= 0.",
+  "id": "A323520",
+  "mentions": [
+    "A000290",
+    "A000961",
+    "A001248",
+    "A001597",
+    "A026478",
+    "A050376",
+    "A277562",
+    "A323519",
+    "A323526",
+    "A323528"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

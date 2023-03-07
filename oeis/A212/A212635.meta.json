@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of dominating subsets with cardinality k of the wheel W_n (n >= 4, 1 <= k <= n).",
+  "id": "A212635",
+  "mentions": [
+    "A212634"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 4,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

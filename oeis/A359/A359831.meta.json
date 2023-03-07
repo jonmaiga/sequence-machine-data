@@ -1,0 +1,21 @@
+{
+  "description": "Nonprimitive elements of A235992: numbers k such that their arithmetic derivative (A003415) is even, and also for some divisor d|k, 1",
+  "id": "A359831",
+  "mentions": [
+    "A003415",
+    "A235992",
+    "A358680",
+    "A359828",
+    "A359829"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

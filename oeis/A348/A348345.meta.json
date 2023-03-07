@@ -1,0 +1,27 @@
+{
+  "description": "Number k such that k and k+1 have the same positive number of noninfinitary divisors (A348341).",
+  "id": "A348345",
+  "mentions": [
+    "A005237",
+    "A006049",
+    "A036537",
+    "A049103",
+    "A162643",
+    "A343819",
+    "A344312",
+    "A344313",
+    "A344314",
+    "A348341",
+    "A348346"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

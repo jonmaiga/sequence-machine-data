@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 0, and a(n) = floor(2*sqrt(n)) - 1 for n >= 1.",
+  "id": "A293137",
+  "mentions": [
+    "A059618",
+    "A293136"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

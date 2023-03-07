@@ -1,0 +1,19 @@
+{
+  "description": "Absolute values of first differences of A049541.",
+  "id": "A138344",
+  "mentions": [
+    "A049541",
+    "A138345"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

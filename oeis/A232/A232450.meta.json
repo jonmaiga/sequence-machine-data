@@ -1,0 +1,18 @@
+{
+  "description": "Largest prime factor of the Belphegor number B(n) = (10^(n+3) + 666)*10^(n+1) + 1.",
+  "id": "A232450",
+  "mentions": [
+    "A232448",
+    "A232449"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

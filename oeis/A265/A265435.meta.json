@@ -1,0 +1,20 @@
+{
+  "description": "Riordan array (1, x*f(x)) where f(x) is the g.f. of A007564.",
+  "id": "A265435",
+  "mentions": [
+    "A007564",
+    "A084938",
+    "A108524"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:25",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

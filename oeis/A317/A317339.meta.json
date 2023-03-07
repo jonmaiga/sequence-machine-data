@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies: Sum_{n>=0} ( 1/A(x) - 1/(1+x)^n )^n = 1.",
+  "id": "A317339",
+  "mentions": [
+    "A317349",
+    "A317801",
+    "A317802",
+    "A317803"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

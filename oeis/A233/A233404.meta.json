@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X(3+1) 0..2 arrays with row and column sums nondecreasing, and no adjacent elements equal",
+  "id": "A233404",
+  "mentions": [
+    "A233408"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

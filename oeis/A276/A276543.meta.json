@@ -1,0 +1,38 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of primitive (period n) n-bead bracelet structures using exactly k different colored beads.",
+  "id": "A276543",
+  "mentions": [
+    "A000046",
+    "A056362",
+    "A056363",
+    "A056364",
+    "A056365",
+    "A056366",
+    "A056367",
+    "A056368",
+    "A056369",
+    "A056370",
+    "A056391",
+    "A063524",
+    "A107424",
+    "A137651",
+    "A152175",
+    "A152176",
+    "A276544",
+    "A276548",
+    "A276550",
+    "A304972"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

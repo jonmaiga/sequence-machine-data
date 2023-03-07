@@ -1,0 +1,21 @@
+{
+  "description": "Number of tree-rooted maps of genus 1 with n edges: rooted maps on the torus with a distinguished spanning tree.",
+  "id": "A118445",
+  "mentions": [
+    "A000108",
+    "A002802",
+    "A005568",
+    "A118446"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 2,
+    "size": 18,
+    "source": "joeis"
+  }
+}

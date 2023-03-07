@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the largest k <= n such that k and (2n-sigma(n)) [= A033879(n)] are relatively prime.",
+  "id": "A325976",
+  "mentions": [
+    "A033879",
+    "A325817",
+    "A325818",
+    "A325826",
+    "A325959"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

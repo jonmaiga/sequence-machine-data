@@ -1,0 +1,24 @@
+{
+  "description": "E.g.f.: exp(x * (2 + x) * exp(x)).",
+  "id": "A336961",
+  "mentions": [
+    "A000248",
+    "A002378",
+    "A033462",
+    "A209801",
+    "A216507",
+    "A279361",
+    "A336960"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:20",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

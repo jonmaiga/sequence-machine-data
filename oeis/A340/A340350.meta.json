@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of Integral_{x=0..Pi/2, y=0..Pi/2} log(1 + sin(x)^2*sin(y)^2) dy dx.",
+  "id": "A340350",
+  "mentions": [
+    "A097469",
+    "A340165",
+    "A340167",
+    "A340322",
+    "A340421",
+    "A340422"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Solution (a(n)) of the system of 2 complementary equations in Comments.",
+  "id": "A297467",
+  "mentions": [
+    "A297468",
+    "A299634"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

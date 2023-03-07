@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of phi(-q) * phi(-q^2) * phi(-q^3) * phi(-q^6) in powers of q.",
+  "id": "A246707",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A030188",
+    "A033765",
+    "A121373"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 0,
+    "size": 65,
+    "source": "joeis"
+  }
+}

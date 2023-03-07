@@ -1,0 +1,22 @@
+{
+  "description": "Beatty sequence for 1/(e^Pi - Pi^e), complement of A127451.",
+  "id": "A127450",
+  "mentions": [
+    "A054386",
+    "A059564",
+    "A063504",
+    "A127451"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 18:14:09",
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

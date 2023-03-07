@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = numerator(hypergeom([-n, 1/2], [1], 1)*hypergeom([-floor(n/2), (-1)^n/2], [1], 1)).",
+  "id": "A295871",
+  "mentions": [
+    "A295864"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

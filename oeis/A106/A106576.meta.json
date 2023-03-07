@@ -1,0 +1,20 @@
+{
+  "description": "Period 20. Sequence gives last digit of A106157, starting from the first positive term.",
+  "id": "A106576",
+  "mentions": [
+    "A106157"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:41:29",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

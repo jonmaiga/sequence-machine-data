@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 288*2^n + 178 (n >= 1).",
+  "id": "A304608",
+  "mentions": [
+    "A304605",
+    "A304606",
+    "A304607"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

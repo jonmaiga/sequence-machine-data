@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n with the property that its k-th smallest divisor, for all 1 <= k <= tau(n), contains exactly k \"1\" digits in its binary representation.",
+  "id": "A255401",
+  "mentions": [
+    "A000120",
+    "A019434",
+    "A071593",
+    "A081091"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

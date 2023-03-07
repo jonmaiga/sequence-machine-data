@@ -1,0 +1,18 @@
+{
+  "description": "Largest of smallest parts in partitions of n into exactly three primes.",
+  "id": "A164024",
+  "mentions": [
+    "A068307",
+    "A164023"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 6,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

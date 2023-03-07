@@ -1,0 +1,19 @@
+{
+  "description": "Maximal number of zeros that can be inserted one-by-one between the digits of prime(n) such that the number resulting from each step remains prime.",
+  "id": "A290174",
+  "mentions": [
+    "A215417",
+    "A290175"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

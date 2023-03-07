@@ -1,0 +1,20 @@
+{
+  "description": "Middle members p of prime triples (p-18,p,p+18).",
+  "id": "A161723",
+  "mentions": [
+    "A006489",
+    "A137796",
+    "A153418"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

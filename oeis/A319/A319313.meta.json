@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least integer m such that A047994(m) = ((n-2)/n)*m where A047994 is the unitary totient function, or 0 if there is no such m.",
+  "id": "A319313",
+  "mentions": [
+    "A030163",
+    "A047994",
+    "A305678",
+    "A318842"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 3,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Least Euler pseudoprime to base 2 through base prime(n).",
+  "id": "A354694",
+  "mentions": [
+    "A002110",
+    "A007324",
+    "A083876",
+    "A271221"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

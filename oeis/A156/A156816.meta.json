@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the positive root of the equation 13x^4 - 7x^2 - 581 = 0.",
+  "id": "A156816",
+  "mentions": [
+    "A001411",
+    "A002931",
+    "A179260",
+    "A249776"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 20:10:19",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

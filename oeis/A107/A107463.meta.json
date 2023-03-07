@@ -1,0 +1,17 @@
+{
+  "description": "a(0)=0, a(n)=1 if n is 1 or is a prime, otherwise sum of prime factors of n with multiplicity.",
+  "id": "A107463",
+  "mentions": [
+    "A001414"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

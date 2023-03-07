@@ -1,0 +1,25 @@
+{
+  "description": "Filter sequence constructed from the binary expansions of those proper divisors of n that are not multiples of 3.",
+  "id": "A320013",
+  "mentions": [
+    "A019565",
+    "A293226",
+    "A300833",
+    "A319991",
+    "A319992",
+    "A320011",
+    "A320012",
+    "A320014",
+    "A320015"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:42",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

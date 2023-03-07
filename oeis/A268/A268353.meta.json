@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the exponent of 2 corresponding to the n-th Proth prime.",
+  "id": "A268353",
+  "mentions": [
+    "A007814",
+    "A080076"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

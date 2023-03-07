@@ -1,0 +1,21 @@
+{
+  "description": "Triangle of numerators of coefficients of the polynomial Q_m(n) defined by the recursion Q_0(n)=1; for m >= 1, Q_m(n) = Sum_{i=1..n} i*Q_(m-1)(i). For m >= 1, the denominator for all 2*m+1 terms of the m-th row is A053657(m+1).",
+  "id": "A202339",
+  "mentions": [
+    "A053657",
+    "A075264",
+    "A163972"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

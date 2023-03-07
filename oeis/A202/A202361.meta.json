@@ -1,0 +1,30 @@
+{
+  "description": "Record (maximal) gaps between prime decuplets (p+0,2,6,12,14,20,24,26,30,32).",
+  "id": "A202361",
+  "mentions": [
+    "A027569",
+    "A027570",
+    "A113274",
+    "A113404",
+    "A200503",
+    "A201051",
+    "A201062",
+    "A201073",
+    "A201251",
+    "A201596",
+    "A201598",
+    "A202281",
+    "A202362"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of fixed snake polyominoes with n cells.",
+  "id": "A182644",
+  "mentions": [
+    "A002013",
+    "A151514",
+    "A151523",
+    "A151524",
+    "A151526",
+    "A151527",
+    "A182646"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

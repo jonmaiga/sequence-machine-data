@@ -1,0 +1,21 @@
+{
+  "description": "Primes whose reversals in bases 10, 9, 8, 7, 6, 5, 4, 3 and 2 are all prime.",
+  "id": "A136634",
+  "mentions": [
+    "A007500",
+    "A074832",
+    "A136186",
+    "A136187"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

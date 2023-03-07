@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n for which Delta(m) < Delta(n) for all m < n, where Delta is Hooley's Delta function A226898.",
+  "id": "A226899",
+  "mentions": [
+    "A002182",
+    "A025487",
+    "A226898",
+    "A226900"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

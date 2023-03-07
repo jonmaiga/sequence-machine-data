@@ -1,0 +1,21 @@
+{
+  "description": "Number of isomorphism classes of simple quandles of order n.",
+  "id": "A196111",
+  "mentions": [
+    "A181769",
+    "A181771"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 2,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Let p = prime(n); then a(n) = number of residues p mod q which are prime, as q runs through the primes less than p.",
+  "id": "A102351",
+  "mentions": [
+    "A102854"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

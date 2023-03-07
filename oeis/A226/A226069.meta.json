@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that p-1 is a square and p-2 is a triangular number.",
+  "id": "A226069",
+  "mentions": [
+    "A006452",
+    "A226070",
+    "A226071",
+    "A226074"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "G.f. satisfies: A(x) = Sum_{n>=0} x^n * Product_{k=0..n-1} A(u(n)^k*x), where u(n) = exp(2*Pi*I/n) is an n-th root of unity.",
+  "id": "A206725",
+  "mentions": [
+    "A206724"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

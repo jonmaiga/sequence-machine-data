@@ -1,0 +1,19 @@
+{
+  "description": "Fermat pseudoprimes to base 2 which are congruent to 1 (mod 8).",
+  "id": "A218483",
+  "mentions": [
+    "A001567",
+    "A214305",
+    "A216023"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

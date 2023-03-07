@@ -1,0 +1,36 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of primitive (period n) periodic palindromic structures using exactly k different symbols, 1 <= k <= n/2 + 1.",
+  "id": "A285037",
+  "mentions": [
+    "A056391",
+    "A056513",
+    "A056514",
+    "A056515",
+    "A056516",
+    "A056517",
+    "A056518",
+    "A056519",
+    "A056521",
+    "A056522",
+    "A056523",
+    "A063524",
+    "A284823",
+    "A284826",
+    "A284856",
+    "A285012",
+    "A285042",
+    "A304972"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:51:44",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

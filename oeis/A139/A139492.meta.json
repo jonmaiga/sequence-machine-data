@@ -1,0 +1,30 @@
+{
+  "description": "Primes of the form x^2 + 5x*y + y^2 for x and y nonnegative.",
+  "id": "A139492",
+  "mentions": [
+    "A002476",
+    "A007519",
+    "A007645",
+    "A033212",
+    "A033215",
+    "A068228",
+    "A107008",
+    "A107145",
+    "A107152",
+    "A139489",
+    "A139490",
+    "A139491",
+    "A141159",
+    "A243172"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

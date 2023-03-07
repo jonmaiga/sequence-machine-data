@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (n-1)^F(n) - F(n)^(n-1), where F(n) = A000045(n).",
+  "id": "A140892",
+  "mentions": [
+    "A000045",
+    "A007965"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

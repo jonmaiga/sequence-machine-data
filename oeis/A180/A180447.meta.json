@@ -1,0 +1,20 @@
+{
+  "description": "n appears 3n+1 times.",
+  "id": "A180447",
+  "mentions": [
+    "A000326",
+    "A180446"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

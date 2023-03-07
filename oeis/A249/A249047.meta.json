@@ -1,0 +1,20 @@
+{
+  "description": "Self-numbers (A003052) that are not divisible by 3.",
+  "id": "A249047",
+  "mentions": [
+    "A003052",
+    "A249045",
+    "A249048"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

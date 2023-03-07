@@ -1,0 +1,19 @@
+{
+  "description": "Coefficients of g.f. A(x) where -2 <= a(n) <= 2 for all n>1, with initial terms {1,5}, such that A(x)^(1/5) consists entirely of integer coefficients.",
+  "id": "A196344",
+  "mentions": [
+    "A106222",
+    "A196345",
+    "A196346"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 0,
+    "size": 172,
+    "source": "oeis-bfile"
+  }
+}

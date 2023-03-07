@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k for which sigma(k^2) and psi(k^2) share a factor, where sigma is the sum of divisors, A000203, and psi is the Dedekind psi function, A001615.",
+  "id": "A344703",
+  "mentions": [
+    "A000203",
+    "A000290",
+    "A001615",
+    "A344695",
+    "A344872"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

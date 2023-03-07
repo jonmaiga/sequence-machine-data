@@ -1,0 +1,25 @@
+{
+  "description": "Digits of one of the two 17-adic integers sqrt(-2) that is related to A322564.",
+  "id": "A322566",
+  "mentions": [
+    "A309989",
+    "A309990",
+    "A322561",
+    "A322562",
+    "A322563",
+    "A322564",
+    "A322565"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

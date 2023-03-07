@@ -1,0 +1,18 @@
+{
+  "description": "Column 0 of triangular matrix defined by exp(L) where L(n,k) = C(2*n, 2*k+1).",
+  "id": "A246386",
+  "mentions": [
+    "A246381",
+    "A246387"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

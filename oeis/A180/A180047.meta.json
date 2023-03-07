@@ -1,0 +1,26 @@
+{
+  "description": "Coefficient triangle of the numerators of the (n-th convergents to) the continued fraction w/(1 + w/(2 + w/3 + w/...",
+  "id": "A180047",
+  "mentions": [
+    "A008297",
+    "A052119",
+    "A084950",
+    "A105278",
+    "A111596",
+    "A180048",
+    "A180049",
+    "A221913"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

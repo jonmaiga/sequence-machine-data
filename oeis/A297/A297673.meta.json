@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array T(n, k) read by rows, n > 0, 0 < k <= n: T(n, k) = least unused positive value (reading rows from left to right) such that T(n, k) + T(n+1, k) + T(n+1, k+1) is prime.",
+  "id": "A297673",
+  "mentions": [
+    "A073671",
+    "A076990",
+    "A296305",
+    "A297615"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:18",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

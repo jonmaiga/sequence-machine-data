@@ -1,0 +1,23 @@
+{
+  "description": "Factorial base Niven (or Harshad) numbers: numbers that are divisible by the sum of their factorial base digits.",
+  "id": "A118363",
+  "mentions": [
+    "A005349",
+    "A007623",
+    "A286590",
+    "A286604",
+    "A286607"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

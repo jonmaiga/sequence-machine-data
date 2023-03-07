@@ -1,0 +1,19 @@
+{
+  "description": "Diagonal sums of a triangle based on the Catalan numbers.",
+  "id": "A110490",
+  "mentions": [
+    "A110488"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

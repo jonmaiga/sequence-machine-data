@@ -1,0 +1,17 @@
+{
+  "description": "A038610(n) (the LCM of the positive integers that are <= n and are coprime to n) is the a(n)-th positive integer that is coprime to n.",
+  "id": "A137450",
+  "mentions": [
+    "A038610"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

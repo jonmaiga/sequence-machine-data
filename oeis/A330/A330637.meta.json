@@ -1,0 +1,19 @@
+{
+  "description": "Number of n-team football tournament outcomes that can be obtained in a single way. Each team plays each other team once, where 3 points are awarded to the winning team and 1 to each team in the case of a draw.",
+  "id": "A330637",
+  "mentions": [
+    "A064626"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

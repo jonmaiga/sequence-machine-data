@@ -1,0 +1,29 @@
+{
+  "description": "Number of compositions of n with distinct differences up to sign.",
+  "id": "A325552",
+  "mentions": [
+    "A000079",
+    "A070211",
+    "A175342",
+    "A242882",
+    "A325325",
+    "A325368",
+    "A325404",
+    "A325545",
+    "A325551",
+    "A325553",
+    "A325555",
+    "A325557"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of cycles in the 2 X n rook graph.",
+  "id": "A341500",
+  "mentions": [
+    "A286418"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

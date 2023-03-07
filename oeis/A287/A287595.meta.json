@@ -1,0 +1,23 @@
+{
+  "description": "Number of maximal matchings in the n X n grid graph.",
+  "id": "A287595",
+  "mentions": [
+    "A099390",
+    "A242861",
+    "A284703",
+    "A286945",
+    "A288026",
+    "A288028"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

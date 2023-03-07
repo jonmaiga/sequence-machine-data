@@ -1,0 +1,23 @@
+{
+  "description": "Table T(n, k), n >= 0, k = 0..n, read by rows; row n is obtained by replacing in row n of Pascal's triangle (A007318) runs of k consecutive even numbers by the terms of row k+1 of the present triangle.",
+  "id": "A355604",
+  "mentions": [
+    "A007318",
+    "A014421",
+    "A065040",
+    "A143333",
+    "A348648"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

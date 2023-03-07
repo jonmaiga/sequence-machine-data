@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of the mean length of a line segment picked at random in a 3, 4, 5 (right) triangle.",
+  "id": "A180307",
+  "mentions": [
+    "A093063"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = pi(n) * Sum_{n <= q < 2n, q prime} q.",
+  "id": "A352754",
+  "mentions": [
+    "A000720",
+    "A073837",
+    "A352749",
+    "A352753",
+    "A352775",
+    "A352777"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

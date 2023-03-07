@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Card({ Sum_{k=1..n}(x_k * k) : (x_k)_{k=1..n} is an n-tuple of nonnegative integers such that Sum_{k=1..n}(x_k * T_k) = T_n }), where T_k denotes the k-th triangular number.",
+  "id": "A306597",
+  "mentions": [
+    "A069999",
+    "A072964",
+    "A177862"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

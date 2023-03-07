@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of n with difference 10 between the number of odd parts and the number of even parts, both counted without multiplicity.",
+  "id": "A242701",
+  "mentions": [
+    "A242618"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:59",
+    "offset": 100,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

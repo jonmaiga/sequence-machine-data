@@ -1,0 +1,26 @@
+{
+  "description": "Beginning with a central 'Sun' configuration of a Penrose 'Kite' and 'Dart' tiling with rotational symmetry as the first step, number of tiles that can be added to the free edges of the current tiling.",
+  "id": "A242895",
+  "mentions": [
+    "A242128",
+    "A242129",
+    "A242888",
+    "A242889",
+    "A242890",
+    "A242891",
+    "A242892",
+    "A242893",
+    "A242894"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

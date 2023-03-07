@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the greatest divisor v of A331219(n) such that the binary representations of v and of A331219(n)/v have the same number of 0's and the same number of 1's.",
+  "id": "A331267",
+  "mentions": [
+    "A331219",
+    "A331266"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

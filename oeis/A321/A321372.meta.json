@@ -1,0 +1,20 @@
+{
+  "description": "n + [n*r/t] + [n*s/t], where r = 1, s = cos(2*Pi/5), t = sec(2*Pi/5).",
+  "id": "A321372",
+  "mentions": [
+    "A190082",
+    "A190083",
+    "A321370",
+    "A321371"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:51:31",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Imaginary part of (n + i)^n, with i=sqrt(-1).",
+  "id": "A115416",
+  "mentions": [
+    "A000312",
+    "A009116",
+    "A115415"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

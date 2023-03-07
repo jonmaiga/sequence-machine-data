@@ -1,0 +1,25 @@
+{
+  "description": "Let j be the smallest integer for which n+(n+1)+...+(n+j) is a square; then a(n) = n+j.",
+  "id": "A101159",
+  "mentions": [
+    "A100251",
+    "A100252",
+    "A100253",
+    "A100254",
+    "A101157",
+    "A101158",
+    "A101160",
+    "A108269"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:52",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that 2^k + 2*k + 1 is prime.",
+  "id": "A301634",
+  "mentions": [
+    "A163115",
+    "A171058",
+    "A176691",
+    "A301635"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

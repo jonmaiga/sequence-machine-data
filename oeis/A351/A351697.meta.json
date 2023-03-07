@@ -1,0 +1,23 @@
+{
+  "description": "32*a(n) is the denominator of the squared circumradius of a cyclic quadrilateral with sides n, n+1, n+2, n+3.",
+  "id": "A351697",
+  "mentions": [
+    "A000332",
+    "A052762",
+    "A345665",
+    "A351696",
+    "A351698"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

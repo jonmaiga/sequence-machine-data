@@ -1,0 +1,17 @@
+{
+  "description": "Start from 1st prime 2, and write it twice, then add 3 to get 5 and write it 3 times, then add 5 to get 10 and write it 5 times, and so on.",
+  "id": "A350172",
+  "mentions": [
+    "A007504"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

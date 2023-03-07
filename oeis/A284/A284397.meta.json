@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1, a(2) = 2; a(n) is the largest prime <= (a(a(n-1)) + a(n-a(n-2)-1)) for n > 2.",
+  "id": "A284397",
+  "mentions": [
+    "A005185",
+    "A007917",
+    "A055748",
+    "A284374",
+    "A284383"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is one sixth of the total number of free ends of 6 line segments expansion at n iterations (see Comments lines for definition).",
+  "id": "A257082",
+  "mentions": [
+    "A238549",
+    "A256641"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

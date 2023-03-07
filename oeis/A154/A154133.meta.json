@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that the fractional part of (4/3)^k is greater than 1-(1/k).",
+  "id": "A154133",
+  "mentions": [
+    "A002379",
+    "A064628",
+    "A153664",
+    "A153672",
+    "A153704",
+    "A153711",
+    "A154141",
+    "A154149"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

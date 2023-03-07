@@ -1,0 +1,25 @@
+{
+  "description": "Number of divisors of the degree of the minimal polynomial for 2*cos(Pi/n), n >= 1.",
+  "id": "A216325",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A055034",
+    "A062821",
+    "A187360",
+    "A203571",
+    "A216320",
+    "A216327"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

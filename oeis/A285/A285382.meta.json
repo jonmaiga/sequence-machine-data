@@ -1,0 +1,21 @@
+{
+  "description": "Sum of entries in the last cycles of all permutations of [n].",
+  "id": "A285382",
+  "mentions": [
+    "A284816",
+    "A285424",
+    "A285439",
+    "A286231"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

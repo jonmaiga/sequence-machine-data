@@ -1,0 +1,18 @@
+{
+  "description": "G.f. satisfies: A(x - x^3) = x^3 - x^9.",
+  "id": "A140093",
+  "mentions": [
+    "A001764"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 3,
+    "size": 38,
+    "source": "joeis"
+  }
+}

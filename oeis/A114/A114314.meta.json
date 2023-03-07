@@ -1,0 +1,23 @@
+{
+  "description": "Difference between the first odd semiprime > 7^n and 7^n.",
+  "id": "A114314",
+  "mentions": [
+    "A000351",
+    "A000420",
+    "A001358",
+    "A046315",
+    "A098147"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

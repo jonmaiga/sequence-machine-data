@@ -1,0 +1,21 @@
+{
+  "description": "Ceiling(n*exp(tan n)).",
+  "id": "A134894",
+  "mentions": [
+    "A134890",
+    "A134891",
+    "A134892",
+    "A134893"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

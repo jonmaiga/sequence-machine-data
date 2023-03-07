@@ -1,0 +1,21 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) = number of connected dominating sets in the m X n king graph.",
+  "id": "A291873",
+  "mentions": [
+    "A188825",
+    "A218663",
+    "A289180",
+    "A291872"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

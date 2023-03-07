@@ -1,0 +1,17 @@
+{
+  "description": "The determinant of the difference table of the divisors vanishes for these numbers.",
+  "id": "A273195",
+  "mentions": [
+    "A273200"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

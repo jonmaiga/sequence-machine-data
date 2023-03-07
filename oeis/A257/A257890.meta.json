@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of the g.f. (x^2-x+1)*(x^2-3*x+3)/(x-1)^6.",
+  "id": "A257890",
+  "mentions": [
+    "A000124",
+    "A000217",
+    "A000292",
+    "A000389",
+    "A220074"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:42:25",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

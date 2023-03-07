@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that their product for the successive prime plus one added to one is a prime: p(i)*[p(i+1)+1]+1 gives a prime.",
+  "id": "A180931",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

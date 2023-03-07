@@ -1,0 +1,23 @@
+{
+  "description": "The starting points of runs of consecutive terms with the same parity in A014418 (n represented in Greedy Catalan Base).",
+  "id": "A244219",
+  "mentions": [
+    "A014418",
+    "A244161",
+    "A244218",
+    "A244220",
+    "A244221",
+    "A244226"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

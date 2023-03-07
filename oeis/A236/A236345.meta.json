@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the Manhattan distance between n and n^2 in a left-aligned triangle with next M natural numbers in row M: 1, 2 3, 4 5 6, 7 8 9 10, etc.",
+  "id": "A236345",
+  "mentions": [
+    "A000027",
+    "A000290",
+    "A002024",
+    "A002260",
+    "A232114",
+    "A236346",
+    "A236347"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Dyck paths of semilength n, having no ascents and no descents of length 1, and having pyramid weight k.",
+  "id": "A166301",
+  "mentions": [
+    "A000045",
+    "A004148",
+    "A091866",
+    "A166302"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

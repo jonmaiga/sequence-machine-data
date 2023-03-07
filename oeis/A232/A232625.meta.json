@@ -1,0 +1,26 @@
+{
+  "description": "Denominators of abs(n-8)/(2*n), n >= 1",
+  "id": "A232625",
+  "mentions": [
+    "A055034",
+    "A093819",
+    "A106609",
+    "A127672",
+    "A187360",
+    "A225975",
+    "A231190",
+    "A232626"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:31:31",
+    "offset": 1,
+    "size": 66,
+    "source": "joeis"
+  }
+}

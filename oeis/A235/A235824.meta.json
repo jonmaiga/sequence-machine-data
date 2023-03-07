@@ -1,0 +1,18 @@
+{
+  "description": "T(n,k)=Number of (n+1)X(k+1) 0..3 arrays with the difference of the upper median and minimum value of each 2X2 subblock in lexicographically nondecreasing order columnwise and nonincreasing rowwise",
+  "id": "A235824",
+  "mentions": [
+    "A235579"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:53",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

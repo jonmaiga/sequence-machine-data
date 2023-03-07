@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of the constant sum 1/(q*log(q)), summed over prime powers q > 1.",
+  "id": "A137250",
+  "mentions": [
+    "A000961",
+    "A008683",
+    "A137245",
+    "A221711",
+    "A221712"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

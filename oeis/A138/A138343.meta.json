@@ -1,0 +1,25 @@
+{
+  "description": "Count of post-period decimal digits up to which the rounded n-th convergent to Pi agrees with the exact value.",
+  "id": "A138343",
+  "mentions": [
+    "A000796",
+    "A002485",
+    "A002486",
+    "A084407",
+    "A138335",
+    "A138336",
+    "A138337",
+    "A138339"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

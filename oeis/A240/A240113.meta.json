@@ -1,0 +1,20 @@
+{
+  "description": "Integers for which the smallest m in A040081 such that n*2^m - 1 is prime (A038699) increases.",
+  "id": "A240113",
+  "mentions": [
+    "A038699",
+    "A040081",
+    "A103963"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

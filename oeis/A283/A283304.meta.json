@@ -1,0 +1,19 @@
+{
+  "description": "List points (x,y) having integer coordinates with x >= y >= 0, sorted first by x^2+y^2 and in case of a tie, by x-coordinate. Sequence gives y-coordinates.",
+  "id": "A283304",
+  "mentions": [
+    "A283303",
+    "A283305",
+    "A283308"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

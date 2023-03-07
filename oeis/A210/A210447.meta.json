@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes <= Im(rho_n), where rho_n is the n-th nontrivial zero of Riemann zeta function.",
+  "id": "A210447",
+  "mentions": [
+    "A000720",
+    "A002410",
+    "A161914",
+    "A208436"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

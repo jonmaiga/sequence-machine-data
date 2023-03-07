@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose arithmetic derivative is a multiple of 5, cf. A003415.",
+  "id": "A327865",
+  "mentions": [
+    "A003415",
+    "A235992",
+    "A327863",
+    "A327864",
+    "A327935"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

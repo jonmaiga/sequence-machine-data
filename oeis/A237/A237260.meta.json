@@ -1,0 +1,21 @@
+{
+  "description": "Least positive integer m < n with prime(prime(m)) + 2 and prime(n-m) + 2 both prime, or 0 if such a number m does not exist.",
+  "id": "A237260",
+  "mentions": [
+    "A000040",
+    "A001359",
+    "A006512",
+    "A218829",
+    "A237259"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

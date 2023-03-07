@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of golden ratio (1 + sqrt(5))/2 in base 6.",
+  "id": "A333454",
+  "mentions": [
+    "A001622",
+    "A068432",
+    "A164629",
+    "A333451",
+    "A333452"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:08:51",
+    "offset": 1,
+    "size": 87,
+    "source": "joeis"
+  }
+}

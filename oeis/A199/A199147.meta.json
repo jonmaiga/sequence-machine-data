@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX6 0..3 arrays with values 0..3 introduced in row major order and each element equal to one or two horizontal and vertical neighbors",
+  "id": "A199147",
+  "mentions": [
+    "A199149"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

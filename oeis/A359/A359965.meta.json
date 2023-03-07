@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least arithmetic number (A003601) having exactly n divisors.",
+  "id": "A359965",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A003601",
+    "A005179",
+    "A073904",
+    "A359963"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

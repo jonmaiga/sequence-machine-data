@@ -1,0 +1,22 @@
+{
+  "description": "Maximal value which A324543 attains among the divisors of n.",
+  "id": "A324548",
+  "mentions": [
+    "A000040",
+    "A000225",
+    "A001248",
+    "A068156",
+    "A324543"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

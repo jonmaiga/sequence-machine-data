@@ -1,0 +1,18 @@
+{
+  "description": "Found by taking the tree defined by the Hofstadter H-sequence (A005374), mirroring it left to right and relabeling the nodes so they increase left to right. a(n) is the parent node of node n in the tree so constructed.",
+  "id": "A154951",
+  "mentions": [
+    "A005374",
+    "A123070"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:37",
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

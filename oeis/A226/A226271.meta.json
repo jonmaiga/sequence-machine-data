@@ -1,0 +1,23 @@
+{
+  "description": "Index of 1/n in the Fibonacci (or rabbit) ordering of the positive rationals.",
+  "id": "A226271",
+  "mentions": [
+    "A000381",
+    "A001611",
+    "A020706",
+    "A048577",
+    "A226080"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

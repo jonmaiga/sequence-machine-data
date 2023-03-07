@@ -1,0 +1,19 @@
+{
+  "description": "Number of Dyck paths of semilength n such that the number of peaks in each level is a Fibonacci number.",
+  "id": "A288388",
+  "mentions": [
+    "A000045",
+    "A000108",
+    "A288390"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:01",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k multiplied by the sum of reciprocals of digits is the digit reversal of k.",
+  "id": "A309654",
+  "mentions": [
+    "A037268"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

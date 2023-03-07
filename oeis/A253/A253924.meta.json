@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Padovan factorial constant.",
+  "id": "A253924",
+  "mentions": [
+    "A000931",
+    "A060006",
+    "A126772"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

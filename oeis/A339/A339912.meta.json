@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k > 1 for which bigomega(k) < bigomega(k-1)/2, where bigomega gives the number of prime factors, counted with multiplicity.",
+  "id": "A339912",
+  "mentions": [
+    "A001222",
+    "A339908",
+    "A339910",
+    "A339911"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

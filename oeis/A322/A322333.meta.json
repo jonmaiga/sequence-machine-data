@@ -1,0 +1,22 @@
+{
+  "description": "Factorial expansion of log(5) = Sum_{n>=1} a(n)/n!.",
+  "id": "A322333",
+  "mentions": [
+    "A016628",
+    "A016733",
+    "A067882",
+    "A068460",
+    "A068461",
+    "A322334"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

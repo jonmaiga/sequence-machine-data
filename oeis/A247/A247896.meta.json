@@ -1,0 +1,22 @@
+{
+  "description": "Primes that produce a different prime when one of its digits is added to it.",
+  "id": "A247896",
+  "mentions": [
+    "A000040",
+    "A010051",
+    "A047791",
+    "A048519"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of GP-posets (gluing-parallel posets) with n points.",
+  "id": "A345673",
+  "mentions": [
+    "A079566"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of labeled simple graphs with n vertices and spanning edge-connectivity k.",
+  "id": "A327069",
+  "mentions": [
+    "A001187",
+    "A006125",
+    "A054592",
+    "A095983",
+    "A259862",
+    "A263296",
+    "A322338",
+    "A326787",
+    "A327070",
+    "A327071",
+    "A327072",
+    "A327073",
+    "A327146"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

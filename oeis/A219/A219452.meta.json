@@ -1,0 +1,17 @@
+{
+  "description": "First position of a plateau of length n in the product-of-exponents function A005361.",
+  "id": "A219452",
+  "mentions": [
+    "A005361"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 2,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

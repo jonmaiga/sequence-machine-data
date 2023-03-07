@@ -1,0 +1,27 @@
+{
+  "description": "Number of strict integer partitions y of n such that the average of the set {2^(s - 1): s in y} is an integer.",
+  "id": "A326670",
+  "mentions": [
+    "A001055",
+    "A051293",
+    "A067538",
+    "A102627",
+    "A326028",
+    "A326622",
+    "A326647",
+    "A326666",
+    "A326667",
+    "A326668",
+    "A326671"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

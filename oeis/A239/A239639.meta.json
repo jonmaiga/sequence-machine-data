@@ -1,0 +1,19 @@
+{
+  "description": "Lengths of runs of the initial digits of semiprimes in decimal representation, cf. A239634",
+  "id": "A239639",
+  "mentions": [
+    "A001358",
+    "A239634"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Array read by antidiagonals, a(n,k) = gamma(n+1,k)*e^k, where gamma(n,k) is the upper incomplete gamma function and e is the exponential constant 2.71828...",
+  "id": "A134558",
+  "mentions": [
+    "A000027",
+    "A000142",
+    "A000522",
+    "A001113",
+    "A001863",
+    "A001865",
+    "A002522",
+    "A010842",
+    "A053486",
+    "A053487",
+    "A063170",
+    "A080954",
+    "A080955",
+    "A089258",
+    "A108869"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

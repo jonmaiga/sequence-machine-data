@@ -1,0 +1,22 @@
+{
+  "description": "Consider the smallest pair of consecutive squarefree numbers (r,s) with gcd(r,s) = n; sequence gives values of r, or -1 if n is not squarefree.",
+  "id": "A109505",
+  "mentions": [
+    "A020754",
+    "A109473",
+    "A337914",
+    "A337915"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

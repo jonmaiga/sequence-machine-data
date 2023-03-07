@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows in which row n lists n+1 terms, starting with n^2 and ending with n^3, such that difference between successive terms is equal to n^2 - n.",
+  "id": "A163282",
+  "mentions": [
+    "A000290",
+    "A000578",
+    "A002378",
+    "A159797",
+    "A162611",
+    "A163283",
+    "A163284",
+    "A163285"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:18:35",
+    "offset": 0,
+    "size": 61,
+    "source": "joeis"
+  }
+}

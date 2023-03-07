@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n, m) = binomial(n, m)* Sum_{k=0..m} binomial(n, k) for 0 <= m <= n.",
+  "id": "A167024",
+  "mentions": [
+    "A001263",
+    "A008949",
+    "A032443"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:50",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

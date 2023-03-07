@@ -1,0 +1,19 @@
+{
+  "description": "Sequence with Hankel transform equal to the Somos-4 sequence A006769(n+2).",
+  "id": "A178072",
+  "mentions": [
+    "A006769"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

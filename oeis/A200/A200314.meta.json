@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. satisfies: A(x) = exp(x^4*A(x)^4/4!).",
+  "id": "A200314",
+  "mentions": [
+    "A034941",
+    "A200313",
+    "A200315"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

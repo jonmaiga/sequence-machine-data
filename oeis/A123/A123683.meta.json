@@ -1,0 +1,26 @@
+{
+  "description": "Second in an infinite series of triangular arrays which, when taken together, sum to 1,1,3,5,11,21,43,85,..., cf. A001045.",
+  "id": "A123683",
+  "mentions": [
+    "A000035",
+    "A000041",
+    "A000217",
+    "A000290",
+    "A001045",
+    "A002378",
+    "A059841",
+    "A123640",
+    "A123682"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

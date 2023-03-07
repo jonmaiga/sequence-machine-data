@@ -1,0 +1,23 @@
+{
+  "description": "Fourth \"domino\" sequence.",
+  "id": "A108379",
+  "mentions": [
+    "A108376",
+    "A108377",
+    "A108378",
+    "A108392"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

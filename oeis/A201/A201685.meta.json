@@ -1,0 +1,23 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of connected endofunctions on {1,2,...,n} that have exactly k nodes in the unique cycle of its digraph representation.",
+  "id": "A201685",
+  "mentions": [
+    "A000169",
+    "A001865",
+    "A053506",
+    "A065513",
+    "A277168"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

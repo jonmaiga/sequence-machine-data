@@ -1,0 +1,30 @@
+{
+  "description": "Unsigned 4-Stirling numbers of the first kind.",
+  "id": "A143493",
+  "mentions": [
+    "A001715",
+    "A001719",
+    "A001720",
+    "A007318",
+    "A008275",
+    "A049459",
+    "A084938",
+    "A143491",
+    "A143492",
+    "A143496",
+    "A143499"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-22 20:28:46",
+    "offset": 4,
+    "size": 46,
+    "source": "joeis"
+  }
+}

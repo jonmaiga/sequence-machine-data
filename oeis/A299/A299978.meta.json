@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographic first sequence of positive integers such that a(n) + a(n+1) has a digit 8, and no term occurs twice.",
+  "id": "A299978",
+  "mentions": [
+    "A299957",
+    "A299971",
+    "A299972",
+    "A299979",
+    "A299988"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

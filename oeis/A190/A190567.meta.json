@@ -1,0 +1,27 @@
+{
+  "description": "Continued fraction expansion of 46*sqrt(46).",
+  "id": "A190567",
+  "mentions": [
+    "A010136",
+    "A010186",
+    "A040005",
+    "A040021",
+    "A040201",
+    "A040324",
+    "A040489",
+    "A040968"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cofr",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:12:23",
+    "offset": 0,
+    "size": 73,
+    "source": "joeis"
+  }
+}

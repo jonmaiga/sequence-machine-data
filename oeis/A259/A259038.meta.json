@@ -1,0 +1,20 @@
+{
+  "description": "Smaller of a non-unitary amicable pair.",
+  "id": "A259038",
+  "mentions": [
+    "A034448",
+    "A259037",
+    "A259039"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

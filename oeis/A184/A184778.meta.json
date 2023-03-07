@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that 2k + floor(k*sqrt(2)) is prime.",
+  "id": "A184778",
+  "mentions": [
+    "A001951",
+    "A001952",
+    "A184774",
+    "A184775",
+    "A184776",
+    "A184777",
+    "A184779"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "First differences of A131711.",
+  "id": "A131036",
+  "mentions": [
+    "A001333",
+    "A131707",
+    "A131711",
+    "A131715"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:15:05",
+    "offset": 0,
+    "size": 48,
+    "source": "joeis"
+  }
+}

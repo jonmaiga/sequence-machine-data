@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = (n-3)*(n-8)/2.",
+  "id": "A167544",
+  "mentions": [
+    "A027379",
+    "A055998",
+    "A135929",
+    "A137276"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:43:31",
+    "offset": 4,
+    "size": 51,
+    "source": "joeis"
+  }
+}

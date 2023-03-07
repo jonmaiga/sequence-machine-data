@@ -1,0 +1,23 @@
+{
+  "description": "Number of primes in the primes-greedy sum (defined at A242252) for the n-th odd prime.",
+  "id": "A242253",
+  "mentions": [
+    "A000040",
+    "A241833",
+    "A242252",
+    "A242254",
+    "A242255",
+    "A242256"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

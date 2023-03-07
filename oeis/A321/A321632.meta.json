@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. (1 + sin(x))/exp(x).",
+  "id": "A321632",
+  "mentions": [
+    "A140323",
+    "A186364",
+    "A247281"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

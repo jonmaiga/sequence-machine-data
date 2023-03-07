@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the reduced numerator of the arithmetic mean of the first n terms of the sequence [n + 1/n, n > 0].",
+  "id": "A356142",
+  "mentions": [
+    "A102928",
+    "A356137"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

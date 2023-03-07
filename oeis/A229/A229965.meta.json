@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that A229964(n) = 1.",
+  "id": "A229965",
+  "mentions": [
+    "A082663",
+    "A156592",
+    "A166684",
+    "A229964",
+    "A229966",
+    "A229967"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

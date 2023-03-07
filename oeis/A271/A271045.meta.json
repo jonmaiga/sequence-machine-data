@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that p and prime(p) end with the same three digits.",
+  "id": "A271045",
+  "mentions": [
+    "A067841",
+    "A271043",
+    "A271044",
+    "A271046"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

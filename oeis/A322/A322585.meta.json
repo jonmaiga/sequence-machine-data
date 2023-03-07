@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = 1 if n is a product of primorial numbers (A002110), 0 otherwise.",
+  "id": "A322585",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A025487",
+    "A061395",
+    "A085089",
+    "A322584",
+    "A322586"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

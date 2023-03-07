@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n for which A257993(n) is equal to A257993(A276086(A276086(n))), where A276086 converts the primorial base expansion of n into its prime product form, and A257993 returns the index of the least prime not present in its argument.",
+  "id": "A328585",
+  "mentions": [
+    "A005408",
+    "A257993",
+    "A276086",
+    "A328316",
+    "A328317",
+    "A328578",
+    "A328586",
+    "A328587",
+    "A328588",
+    "A328590"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

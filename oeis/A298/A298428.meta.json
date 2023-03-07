@@ -1,0 +1,28 @@
+{
+  "description": "Numbers n such that there are precisely 10 groups of orders n and n + 1.",
+  "id": "A298428",
+  "mentions": [
+    "A000001",
+    "A249553",
+    "A295230",
+    "A295990",
+    "A295991",
+    "A295992",
+    "A295993",
+    "A295994",
+    "A295995",
+    "A298427"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

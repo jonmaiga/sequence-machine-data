@@ -1,0 +1,20 @@
+{
+  "description": "Prime numbers p such that equation x = p*sopf(x) (where sopf(x) is the sum of distinct prime factors of x) has exactly 1 solution in positive integers.",
+  "id": "A336297",
+  "mentions": [
+    "A008472",
+    "A336098",
+    "A336099",
+    "A336296"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

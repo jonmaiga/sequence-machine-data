@@ -1,0 +1,29 @@
+{
+  "description": "Number of elements added at n-th stage to the structure of the complex square cross described in A289840.",
+  "id": "A289841",
+  "mentions": [
+    "A004767",
+    "A008584",
+    "A042963",
+    "A139250",
+    "A139251",
+    "A220500",
+    "A220501",
+    "A289840",
+    "A290221",
+    "A294021"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:50:07",
+    "offset": 0,
+    "size": 81,
+    "source": "joeis"
+  }
+}

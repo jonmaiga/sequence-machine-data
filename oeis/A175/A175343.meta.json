@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1. a(n) = the smallest positive integer not yet occurring in the sequence such that (binary a(n)) OR (binary a(n-1)) is 2^k -1 for some k >=1.",
+  "id": "A175343",
+  "mentions": [
+    "A000079",
+    "A109812"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

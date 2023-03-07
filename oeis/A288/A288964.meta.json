@@ -1,0 +1,26 @@
+{
+  "description": "Number of key comparisons to sort all n! permutations of n elements by quicksort.",
+  "id": "A288964",
+  "mentions": [
+    "A002538",
+    "A063090",
+    "A093418",
+    "A096620",
+    "A115107",
+    "A117627",
+    "A117628",
+    "A159324",
+    "A288965"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:02",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

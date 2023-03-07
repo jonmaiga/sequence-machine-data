@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array read by rows. T(n,k)=C(k,2)+C(n-k,2),n>=2,1<=k<=floor(n/2).",
+  "id": "A248971",
+  "mentions": [
+    "A000124",
+    "A000217",
+    "A002620",
+    "A152950"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 2,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

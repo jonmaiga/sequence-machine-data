@@ -1,0 +1,29 @@
+{
+  "description": "Shift one instance of the largest prime one step towards larger primes: a(1) = 1, for n>1: a(n) = (n / prime(g)) * prime(g+1), where g = A061395(n), index of the greatest prime dividing n.",
+  "id": "A253550",
+  "mentions": [
+    "A003961",
+    "A052126",
+    "A061395",
+    "A065091",
+    "A102750",
+    "A122111",
+    "A252462",
+    "A253553",
+    "A253554",
+    "A253560",
+    "A253563",
+    "A253565"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

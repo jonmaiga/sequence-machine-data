@@ -1,0 +1,25 @@
+{
+  "description": "Weight array of A000007 (which has only one nonzero term and whose second accumulation array is the multiplication table for the positive integers), by antidiagonals.",
+  "id": "A185906",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A003991",
+    "A098358",
+    "A144112",
+    "A185904",
+    "A185905"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:28:45",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

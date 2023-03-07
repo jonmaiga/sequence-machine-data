@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose sum of distinct prime factors is semiprime.",
+  "id": "A114985",
+  "mentions": [
+    "A001358",
+    "A008472",
+    "A110893",
+    "A114522"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Least integer k such that (k+1)^k >= n.",
+  "id": "A303370",
+  "mentions": [
+    "A000169",
+    "A124923",
+    "A152917"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

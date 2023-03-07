@@ -1,0 +1,17 @@
+{
+  "description": "Two-loop graph coloring a rectangular array: number of n X n 0..4 arrays where 0..4 label nodes of a graph with edges 0,1 1,2 2,0 0,3 3,4 4,0 and every array movement to a horizontal or vertical neighbor moves along an edge of this graph",
+  "id": "A223248",
+  "mentions": [
+    "A223255"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:41",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows in which row n lists the first n terms of A000203.",
+  "id": "A245093",
+  "mentions": [
+    "A000203",
+    "A024916",
+    "A027293",
+    "A104765",
+    "A140207",
+    "A221529",
+    "A237270",
+    "A237593",
+    "A245099",
+    "A265652"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:01",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

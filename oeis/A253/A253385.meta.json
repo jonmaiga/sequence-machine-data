@@ -1,0 +1,18 @@
+{
+  "description": "Numbers divisible by at least three distinct primes whose largest prime power factor is not based on its smallest nor its greatest prime factor.",
+  "id": "A253385",
+  "mentions": [
+    "A057715"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

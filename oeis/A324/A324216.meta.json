@@ -1,0 +1,22 @@
+{
+  "description": "Sequence lists numbers k > 1 such that k^4 == phi(k) (mod sigma(k)), where phi = A000010 and sigma = A000203.",
+  "id": "A324216",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A324214",
+    "A324215"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

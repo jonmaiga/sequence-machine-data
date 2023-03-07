@@ -1,0 +1,21 @@
+{
+  "description": "Nonsquare n such that n^3 - 1 is the average of two positive cubes.",
+  "id": "A274578",
+  "mentions": [
+    "A000037",
+    "A003325",
+    "A068601",
+    "A273822"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

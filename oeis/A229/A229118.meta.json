@@ -1,0 +1,25 @@
+{
+  "description": "Distance from the n-th triangular number to the nearest square.",
+  "id": "A229118",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A001108",
+    "A010503",
+    "A229083",
+    "A229117",
+    "A229131",
+    "A229133"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

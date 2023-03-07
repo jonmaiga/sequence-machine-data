@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = number of permutations (p(1),p(2),p(3),...,p(n)) of (1,2,3,...n) each of which is its own inverse and is such that p(k) = n + 1 - p(n+1-k) for all k in the range 1 <= k <= n.",
+  "id": "A135401",
+  "mentions": [
+    "A000085",
+    "A000898",
+    "A001813",
+    "A006882",
+    "A297708"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:27",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

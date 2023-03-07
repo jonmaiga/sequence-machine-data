@@ -1,0 +1,30 @@
+{
+  "description": "Number of ways to choose a nonempty submultiset of a factorization of n into factors greater than one.",
+  "id": "A301829",
+  "mentions": [
+    "A000712",
+    "A001055",
+    "A001222",
+    "A001405",
+    "A122768",
+    "A276024",
+    "A281113",
+    "A284640",
+    "A295632",
+    "A299701",
+    "A299702",
+    "A299729",
+    "A301830"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

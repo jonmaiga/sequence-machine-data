@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k), n >= 1, k = 0..A005867(n), is the smallest integer m > 0 such that the interval [P(n)*m+1, P(n)*(m+1)] includes exactly k primes, where P(n) = A002110(n) is the n-th primorial, or 0 if no such m exists.",
+  "id": "A319039",
+  "mentions": [
+    "A002110",
+    "A005867"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

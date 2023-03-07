@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 1 if the number of divisors of n is a power of 2, otherwise 0.",
+  "id": "A359473",
+  "mentions": [
+    "A000005",
+    "A036537",
+    "A162643",
+    "A209229",
+    "A295316",
+    "A327839",
+    "A348341",
+    "A359472"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

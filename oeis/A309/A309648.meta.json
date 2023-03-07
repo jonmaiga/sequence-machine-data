@@ -1,0 +1,19 @@
+{
+  "description": "Digits of the 10-adic integer (-17/9)^(1/3).",
+  "id": "A309648",
+  "mentions": [
+    "A309600"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

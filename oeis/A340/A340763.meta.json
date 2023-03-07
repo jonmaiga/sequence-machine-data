@@ -1,0 +1,24 @@
+{
+  "description": "Number of primes p <= n that are congruent to 1 modulo 3.",
+  "id": "A340763",
+  "mentions": [
+    "A000720",
+    "A002476",
+    "A066339",
+    "A066490",
+    "A172104",
+    "A340764"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

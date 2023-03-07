@@ -1,0 +1,17 @@
+{
+  "description": "First difference of A293666.",
+  "id": "A293667",
+  "mentions": [
+    "A293666"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

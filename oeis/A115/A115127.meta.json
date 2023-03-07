@@ -1,0 +1,31 @@
+{
+  "description": "Second (k=2) triangle of numbers related to totally asymmetric exclusion process (case alpha=1, beta=1).",
+  "id": "A115127",
+  "mentions": [
+    "A000217",
+    "A005581",
+    "A024191",
+    "A071716",
+    "A071726",
+    "A115126",
+    "A115128",
+    "A115129",
+    "A115130",
+    "A115132",
+    "A115133",
+    "A115134"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

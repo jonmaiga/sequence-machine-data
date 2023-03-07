@@ -1,0 +1,25 @@
+{
+  "description": "Sum of the prime indices of n minus the sum of the prime indices of the smallest number with same prime signature as n, when the sum is taken with multiplicity, as in A056239.",
+  "id": "A355930",
+  "mentions": [
+    "A025487",
+    "A046523",
+    "A056239",
+    "A319627",
+    "A325799",
+    "A328478",
+    "A356159",
+    "A358218"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

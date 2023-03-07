@@ -1,0 +1,21 @@
+{
+  "description": "Decimal digits of amicable pairs (x,y) with x > y, ordered by x.",
+  "id": "A152626",
+  "mentions": [
+    "A002025",
+    "A002046",
+    "A063990"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

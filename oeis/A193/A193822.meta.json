@@ -1,0 +1,20 @@
+{
+  "description": "Mirror of the triangle A193821.",
+  "id": "A193822",
+  "mentions": [
+    "A193722",
+    "A193821"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

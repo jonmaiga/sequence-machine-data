@@ -1,0 +1,20 @@
+{
+  "description": "Number of set partitions of [n] such that the maximal absolute difference between the least elements of consecutive blocks equals seven.",
+  "id": "A322880",
+  "mentions": [
+    "A287215",
+    "A287256",
+    "A287257"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 7,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

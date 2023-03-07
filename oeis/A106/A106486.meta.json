@@ -1,0 +1,18 @@
+{
+  "description": "Number of edges in combinatorial game trees.",
+  "id": "A106486",
+  "mentions": [
+    "A106485",
+    "A106487"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Permutation of positive integers: a(1) = 1. For n > 1, a(n) is the smallest positive integer not already in the sequence such that bigomega(a(n)) != bigomega(a(n-1)), where bigomega(i) is A001222(i).",
+  "id": "A328047",
+  "mentions": [
+    "A001222",
+    "A328048",
+    "A328049",
+    "A328050"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

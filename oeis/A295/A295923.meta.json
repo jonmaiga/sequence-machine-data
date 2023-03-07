@@ -1,0 +1,27 @@
+{
+  "description": "Number of twice-factorizations of n where the first factorization is constant, i.e., type (P,R,P).",
+  "id": "A295923",
+  "mentions": [
+    "A000005",
+    "A001055",
+    "A052409",
+    "A052410",
+    "A279787",
+    "A281113",
+    "A284639",
+    "A295920",
+    "A295924",
+    "A295931",
+    "A295935"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

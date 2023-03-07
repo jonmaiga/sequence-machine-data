@@ -1,0 +1,20 @@
+{
+  "description": "The first number k such that the sum of the base n digits of k! does not divide k!.",
+  "id": "A245663",
+  "mentions": [
+    "A000120",
+    "A007953",
+    "A053735"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 2,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

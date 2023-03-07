@@ -1,0 +1,20 @@
+{
+  "description": "Unitary untouchable numbers with a record gap to the next unitary untouchable number.",
+  "id": "A306748",
+  "mentions": [
+    "A063948",
+    "A306747"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

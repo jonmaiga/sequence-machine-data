@@ -1,0 +1,22 @@
+{
+  "description": "Indices of records in A332038.",
+  "id": "A332039",
+  "mentions": [
+    "A049417",
+    "A145899",
+    "A289132",
+    "A332037",
+    "A332038",
+    "A332041"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

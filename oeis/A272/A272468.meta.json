@@ -1,0 +1,18 @@
+{
+  "description": "E.g.f.: ( (sin(2*x) + sin(3*x)) / sin(5*x) )^(1/6).",
+  "id": "A272468",
+  "mentions": [
+    "A272467"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:37",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

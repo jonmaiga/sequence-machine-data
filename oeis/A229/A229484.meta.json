@@ -1,0 +1,19 @@
+{
+  "description": "Pairs of numbers (m,k) such that 2^m/(m+1) < binomial(m,k) <= 2^m/m and k < m/2.",
+  "id": "A229484",
+  "mentions": [
+    "A007318",
+    "A229485",
+    "A229486"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

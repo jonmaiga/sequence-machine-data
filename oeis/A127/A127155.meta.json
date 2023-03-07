@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Dyck paths of semilength n having k long ascents and long descents. A long ascent (descent) in a Dyck path is a maximal sequence of at least 2 consecutive up (down) steps.",
+  "id": "A127155",
+  "mentions": [
+    "A000108"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Triangle, read by rows, where T(n,k) equals number of distinct partitions of triangular number n*(n+1)/2 into k different summands for n>=k>=1.",
+  "id": "A104382",
+  "mentions": [
+    "A000009",
+    "A000065",
+    "A008284",
+    "A008289",
+    "A026820",
+    "A104383",
+    "A104384",
+    "A104385"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:55",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Squares that are also pentagonal pyramidal numbers.",
+  "id": "A277792",
+  "mentions": [
+    "A000290",
+    "A001653",
+    "A002411",
+    "A007588",
+    "A036353",
+    "A056220",
+    "A254333"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:28:19",
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

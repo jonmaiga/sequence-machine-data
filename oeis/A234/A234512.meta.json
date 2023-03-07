@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n = d(0)d(1)d(2)...d(r) such that d(i) is the number of differences |d(i)-d(i-1)| equal to i in n, i = 1,2,...,r.",
+  "id": "A234512",
+  "mentions": [
+    "A037904",
+    "A046043",
+    "A108551",
+    "A138480"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

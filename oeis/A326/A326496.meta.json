@@ -1,0 +1,28 @@
+{
+  "description": "Number of maximal product-free subsets of {1..n}.",
+  "id": "A326496",
+  "mentions": [
+    "A007865",
+    "A051026",
+    "A121269",
+    "A325710",
+    "A326076",
+    "A326117",
+    "A326489",
+    "A326491",
+    "A326492",
+    "A326495",
+    "A326497",
+    "A327591"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:53",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

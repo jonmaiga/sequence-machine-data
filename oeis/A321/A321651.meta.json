@@ -1,0 +1,23 @@
+{
+  "description": "Number of even permutations f of {1,...,n} such that k^3 + f(k)^3 is a practical number for every k = 1,...,n.",
+  "id": "A321651",
+  "mentions": [
+    "A000578",
+    "A005153",
+    "A073364",
+    "A321597",
+    "A321610",
+    "A321611"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

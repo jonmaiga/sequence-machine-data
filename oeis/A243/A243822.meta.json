@@ -1,0 +1,21 @@
+{
+  "description": "Number of \"semidivisors\" of n, numbers m < n that do not divide n but divide n^e for some integer e > 1.",
+  "id": "A243822",
+  "mentions": [
+    "A000005",
+    "A010846",
+    "A045763",
+    "A243823"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

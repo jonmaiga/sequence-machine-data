@@ -1,0 +1,23 @@
+{
+  "description": "n for which A079277(n) + phi(n) < n.",
+  "id": "A208815",
+  "mentions": [
+    "A000010",
+    "A010846",
+    "A051953",
+    "A079277",
+    "A285699",
+    "A285709",
+    "A285710"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:28",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Characteristic sequence for Wythoff AB-numbers A003623.",
+  "id": "A123740",
+  "mentions": [
+    "A000201",
+    "A001950",
+    "A003623",
+    "A003849",
+    "A005614",
+    "A014417",
+    "A035336",
+    "A188009",
+    "A270788"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

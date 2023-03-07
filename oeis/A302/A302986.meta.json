@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n into two distinct parts (p,q) such that p, q and |q-p| are all squarefree.",
+  "id": "A302986",
+  "mentions": [
+    "A008683",
+    "A111284",
+    "A294247",
+    "A303051"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

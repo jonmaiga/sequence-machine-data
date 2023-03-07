@@ -1,0 +1,21 @@
+{
+  "description": "Number T(n,k,r) of dissections of an n X k X r rectangular cuboid into integer-sided cubes including rotations and reflections; irregular triangle T(n,k,r), n >= k >= r >= 1 read by rows.",
+  "id": "A228267",
+  "mentions": [
+    "A000045",
+    "A063443",
+    "A219924"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

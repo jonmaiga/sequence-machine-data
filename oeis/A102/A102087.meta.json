@@ -1,0 +1,18 @@
+{
+  "description": "Column 1 of triangular matrix A102086, which shifts upward to exclude the main diagonal under matrix square.",
+  "id": "A102087",
+  "mentions": [
+    "A102086",
+    "A102088"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

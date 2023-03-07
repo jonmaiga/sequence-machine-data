@@ -1,0 +1,36 @@
+{
+  "description": "T(n,k) is the number of partial bijections of height k (height(alpha) = |Im(alpha)|) of an n-element set.",
+  "id": "A144084",
+  "mentions": [
+    "A001044",
+    "A002720",
+    "A007318",
+    "A008279",
+    "A021010",
+    "A089231",
+    "A089321",
+    "A105219",
+    "A163102",
+    "A179058",
+    "A179059",
+    "A179060",
+    "A179061",
+    "A179062",
+    "A179063",
+    "A179064",
+    "A179065",
+    "A295383"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

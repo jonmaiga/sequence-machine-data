@@ -1,0 +1,22 @@
+{
+  "description": "Say what you see in previous term, same as A063850, but starting with 2.",
+  "id": "A112512",
+  "mentions": [
+    "A005150",
+    "A005151",
+    "A063850",
+    "A112516"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

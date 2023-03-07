@@ -1,0 +1,24 @@
+{
+  "description": "Least positive number k",
+  "id": "A133830",
+  "mentions": [
+    "A057196",
+    "A057200",
+    "A057732",
+    "A059242",
+    "A081091",
+    "A081504",
+    "A095056",
+    "A133831"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 2,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

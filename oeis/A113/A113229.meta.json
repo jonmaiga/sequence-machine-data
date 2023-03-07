@@ -1,0 +1,25 @@
+{
+  "description": "Number of permutations avoiding the consecutive pattern 3412.",
+  "id": "A113229",
+  "mentions": [
+    "A113228",
+    "A117156",
+    "A117158",
+    "A117226",
+    "A201692",
+    "A201693",
+    "A240885",
+    "A264319"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

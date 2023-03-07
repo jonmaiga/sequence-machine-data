@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are sums of consecutive centered icosahedral numbers (A005902).",
+  "id": "A329650",
+  "mentions": [
+    "A005902",
+    "A008354",
+    "A329597",
+    "A329634",
+    "A329635",
+    "A329636"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

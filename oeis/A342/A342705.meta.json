@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that (p^2 - p*q + q^2)/3 is prime, where q is the next prime after p.",
+  "id": "A342705",
+  "mentions": [
+    "A339920",
+    "A342706"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

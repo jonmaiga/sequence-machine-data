@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n with property that for each single digit d of n, we can also see the decimal expansion of 2d as a substring of n.",
+  "id": "A135495",
+  "mentions": [
+    "A134962",
+    "A135463"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

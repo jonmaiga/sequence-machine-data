@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that (15^n - 2^n)/13 is prime.",
+  "id": "A225955",
+  "mentions": [
+    "A006033",
+    "A016054",
+    "A128028",
+    "A217320"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

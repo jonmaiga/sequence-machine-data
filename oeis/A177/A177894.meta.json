@@ -1,0 +1,21 @@
+{
+  "description": "Determinant of the square matrix whose rows are the cyclic permutations of the digits of n.",
+  "id": "A177894",
+  "mentions": [
+    "A257587"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

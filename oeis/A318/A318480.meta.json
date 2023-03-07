@@ -1,0 +1,20 @@
+{
+  "description": "Least start of n consecutive lucky numbers that are also n consecutive prime numbers.",
+  "id": "A318480",
+  "mentions": [
+    "A000959",
+    "A031157",
+    "A057698"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

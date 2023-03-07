@@ -1,0 +1,19 @@
+{
+  "description": "Define a 1-1 correspondence between the integers Z and the nonnegative integers N by f(n) = A102370(n) if n >= 0, f(n) = A102371(-n) if n < 0; sequence gives a(n) = f^(-1)(n) for n >= 0.",
+  "id": "A103122",
+  "mentions": [
+    "A102370",
+    "A102371"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

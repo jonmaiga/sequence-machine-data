@@ -1,0 +1,32 @@
+{
+  "description": "Numbers of the form 3^r * 5^s whose decimal representation has a prime number of each digit 0-9.",
+  "id": "A217407",
+  "mentions": [
+    "A215876",
+    "A216854",
+    "A217404",
+    "A217408",
+    "A217409",
+    "A217410",
+    "A217413",
+    "A217416",
+    "A217419",
+    "A217422",
+    "A217425",
+    "A217428",
+    "A217431"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-bfile"
+  }
+}

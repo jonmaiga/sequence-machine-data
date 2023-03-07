@@ -1,0 +1,25 @@
+{
+  "description": "Square array read by ascending antidiagonals, A(n, k) for n >= 0 and k >= 0, related to a class of Motzkin trees.",
+  "id": "A321396",
+  "mentions": [
+    "A000108",
+    "A001006",
+    "A126120",
+    "A300126",
+    "A321395",
+    "A321397",
+    "A321572"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

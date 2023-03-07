@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows, 2*A054533 - A054521.",
+  "id": "A144733",
+  "mentions": [
+    "A000010",
+    "A054521",
+    "A054532",
+    "A054533",
+    "A054534",
+    "A054535",
+    "A133695",
+    "A140434"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

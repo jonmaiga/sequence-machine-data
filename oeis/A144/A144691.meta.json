@@ -1,0 +1,21 @@
+{
+  "description": "Limit of the coefficient of x^(2^m+n) in B(x)^(n+1)/(n+1) as m grows, where B(x) = Sum_{k>=0} x^(2^k).",
+  "id": "A144691",
+  "mentions": [
+    "A007178",
+    "A144690",
+    "A144692",
+    "A202582"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

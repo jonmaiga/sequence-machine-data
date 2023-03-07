@@ -1,0 +1,22 @@
+{
+  "description": "Position in the sequence of numbers that are not perfect powers (A007916) of the smallest positive integer x such that for some positive integer y we have n = x^y (A052410).",
+  "id": "A289023",
+  "mentions": [
+    "A007916",
+    "A052409",
+    "A052410",
+    "A278028",
+    "A288636"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 2,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers that are either congruent to +-4 mod 9, or else are cubes or twice cubes.",
+  "id": "A334522",
+  "mentions": [
+    "A000578",
+    "A060464",
+    "A156638",
+    "A334521"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

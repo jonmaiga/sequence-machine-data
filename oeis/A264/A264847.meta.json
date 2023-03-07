@@ -1,0 +1,23 @@
+{
+  "description": "Pluritriangular numbers: a(0) = 0; a(n+1) = a(n) + the number of digits in terms a(0)..a(n).",
+  "id": "A264847",
+  "mentions": [
+    "A000217",
+    "A064223",
+    "A088235",
+    "A102685",
+    "A265108"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

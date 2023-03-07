@@ -1,0 +1,22 @@
+{
+  "description": "Number of ordered ways to write n = x*(x+1)/2 + y with y*(y+1)/2 + 1 prime, where x and y are nonnegative integers.",
+  "id": "A229166",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A132399",
+    "A208244",
+    "A230121",
+    "A230252"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

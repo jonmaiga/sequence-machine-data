@@ -1,0 +1,20 @@
+{
+  "description": "Smallest positive number k such that there are exactly n integers b with k > b > 1 where the base-b representation of k is periodic.",
+  "id": "A353340",
+  "mentions": [
+    "A321513",
+    "A353339"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

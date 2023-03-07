@@ -1,0 +1,22 @@
+{
+  "description": "Largest (i.e., leftmost) Lyndon word in Lyndon factorization of binary vectors of lengths 1, 2, 3, ... (written using 1's and 2's rather than 0's and 1's, since numbers > 0 in the OEIS cannot begin with 0).",
+  "id": "A211099",
+  "mentions": [
+    "A001037",
+    "A102659",
+    "A211095",
+    "A211096",
+    "A211097",
+    "A211100"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

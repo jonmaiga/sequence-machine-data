@@ -1,0 +1,20 @@
+{
+  "description": "Positive numbers n that are divisible by the sum of the digits of n in base 16.",
+  "id": "A241989",
+  "mentions": [
+    "A005349",
+    "A053836",
+    "A245802"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

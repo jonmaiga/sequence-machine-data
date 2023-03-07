@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 1 if the largest proper divisor of Mersenne composite A145097(n) is prime and a(n) = 0 in opposite case.",
+  "id": "A145099",
+  "mentions": [
+    "A065341",
+    "A135975",
+    "A135980",
+    "A136031",
+    "A145097"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

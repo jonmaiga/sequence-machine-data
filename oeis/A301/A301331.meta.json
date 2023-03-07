@@ -1,0 +1,22 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into parts having the same number of divisors as n.",
+  "id": "A301331",
+  "mentions": [
+    "A000005",
+    "A300977",
+    "A300978",
+    "A301332",
+    "A301333"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of Pythagorean triangles (x, y, z) with legs x < y <= 10^n.",
+  "id": "A239744",
+  "mentions": [
+    "A008846",
+    "A020882",
+    "A020883",
+    "A020884",
+    "A046086",
+    "A046087",
+    "A101929",
+    "A101931",
+    "A239581",
+    "A239786"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

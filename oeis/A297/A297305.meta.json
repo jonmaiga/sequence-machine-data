@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k^4 can be written as a sum of five positive 4th powers.",
+  "id": "A297305",
+  "mentions": [
+    "A000583",
+    "A003294",
+    "A023042",
+    "A301601"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

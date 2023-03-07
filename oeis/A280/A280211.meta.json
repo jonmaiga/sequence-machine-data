@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n*(2^(n^2)).",
+  "id": "A280211",
+  "mentions": [
+    "A002416",
+    "A007745",
+    "A169810",
+    "A213541"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:48",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Positive numbers n such that 8*n^2-2*n-1 divides Fibonacci(n).",
+  "id": "A159259",
+  "mentions": [
+    "A000045",
+    "A023172",
+    "A159231",
+    "A159234",
+    "A181890"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A334676(k) = 1.",
+  "id": "A336580",
+  "mentions": [
+    "A000351",
+    "A002473",
+    "A334676"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

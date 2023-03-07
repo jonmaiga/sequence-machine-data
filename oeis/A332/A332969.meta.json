@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = [x^n] (Sum_{j>=0} A002193(1-j) * x^j)^2.",
+  "id": "A332969",
+  "mentions": [
+    "A002193"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

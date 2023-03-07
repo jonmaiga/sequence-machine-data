@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of Carmichael numbers of the form prime(n)*prime(n')*prime(n\") with n < n' < n\".",
+  "id": "A141703",
+  "mentions": [
+    "A002997",
+    "A051663",
+    "A087788",
+    "A141702"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:30",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Primes which are half of the absolute coefficients [x^2] of the 5th-order polynomials with prime roots as defined in A127489.",
+  "id": "A127491",
+  "mentions": [
+    "A006094",
+    "A046301",
+    "A046303",
+    "A127345",
+    "A127351",
+    "A127489",
+    "A127490"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

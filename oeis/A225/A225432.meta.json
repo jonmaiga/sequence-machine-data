@@ -1,0 +1,19 @@
+{
+  "description": "Twice the coefficient of sqrt(q) in e^h, where e is the fundamental unit and h is the class number of Q(sqrt(q)), q prime and congruent to 1 mod 4. (The coefficient lies in (1/2)Z, so twice it is an integer.)",
+  "id": "A225432",
+  "mentions": [
+    "A002144",
+    "A077426",
+    "A078357"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

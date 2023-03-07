@@ -1,0 +1,21 @@
+{
+  "description": "1 followed by period 6: repeat [3, 2, 0, -1, 0, 2].",
+  "id": "A131290",
+  "mentions": [
+    "A079757",
+    "A100219",
+    "A130869"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:21:31",
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

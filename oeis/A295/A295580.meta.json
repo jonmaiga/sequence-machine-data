@@ -1,0 +1,20 @@
+{
+  "description": "Number of length-n \"minimal good sequence\" in the sense of Cavenagh et al. (2006).",
+  "id": "A295580",
+  "mentions": [
+    "A295579",
+    "A295581",
+    "A295582"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 3,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

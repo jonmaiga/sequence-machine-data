@@ -1,0 +1,19 @@
+{
+  "description": "Least positive integer j such that n divides (2k)!-(2j)!, where k, as in A205561, is the least number for which there is such a j.",
+  "id": "A205562",
+  "mentions": [
+    "A204892",
+    "A205551",
+    "A205561"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 10:18:55",
+    "offset": 1,
+    "size": 97,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically first sequence starting with a(1) = 11, with no duplicate term, such that a(n) is the result of a self-additive linear combination of a(n+1)'s digits (concatenated sometimes into substrings).",
+  "id": "A323822",
+  "mentions": [
+    "A323821",
+    "A323823"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:48",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

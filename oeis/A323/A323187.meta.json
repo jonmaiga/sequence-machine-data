@@ -1,0 +1,17 @@
+{
+  "description": "Partial sums of A323183.",
+  "id": "A323187",
+  "mentions": [
+    "A323183"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

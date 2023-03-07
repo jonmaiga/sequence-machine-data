@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = a(n-1) + a(n-2) + 7 where a(0) = a(1) = 1.",
+  "id": "A111733",
+  "mentions": [
+    "A000045",
+    "A022091"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 09:34:36",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

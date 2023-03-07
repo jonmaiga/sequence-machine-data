@@ -1,0 +1,40 @@
+{
+  "description": "Irregular triangle read by rows in which the odd-indexed terms of the n-th row together with the even-indexed terms of the same row but listed in reverse order give the n-th row of triangle A299778.",
+  "id": "A302248",
+  "mentions": [
+    "A000203",
+    "A000217",
+    "A003056",
+    "A196020",
+    "A235791",
+    "A236104",
+    "A237048",
+    "A237270",
+    "A237271",
+    "A237590",
+    "A237591",
+    "A237593",
+    "A239660",
+    "A240542",
+    "A241838",
+    "A244050",
+    "A245092",
+    "A262626",
+    "A279387",
+    "A279388",
+    "A280850",
+    "A280851",
+    "A299778"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

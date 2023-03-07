@@ -1,0 +1,22 @@
+{
+  "description": "Primes p such that the sum of fifth power of their digits is a prime.",
+  "id": "A180404",
+  "mentions": [
+    "A046704",
+    "A052034",
+    "A091366",
+    "A091367"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

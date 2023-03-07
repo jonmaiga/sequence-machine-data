@@ -1,0 +1,21 @@
+{
+  "description": "Smallest number that is the sum of two distinct n-th powers of primes in two different ways.",
+  "id": "A338800",
+  "mentions": [
+    "A016078",
+    "A046881",
+    "A338799"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

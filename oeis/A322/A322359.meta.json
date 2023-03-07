@@ -1,0 +1,21 @@
+{
+  "description": "Least common multiple of product (p-1) and product (p+1), where p ranges over distinct prime divisors of n.",
+  "id": "A322359",
+  "mentions": [
+    "A048250",
+    "A066086",
+    "A173557",
+    "A322360"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

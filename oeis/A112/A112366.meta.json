@@ -1,0 +1,17 @@
+{
+  "description": "Sum_{k=1..n} k*a(k) is a Fibonacci number. a(n) = A112365(n)/n.",
+  "id": "A112366",
+  "mentions": [
+    "A112365"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Numbers n such that 3*n and n^2 have the same digit sum.",
+  "id": "A260702",
+  "mentions": [
+    "A000290",
+    "A007953",
+    "A008585",
+    "A049343",
+    "A058369",
+    "A133384",
+    "A199682"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

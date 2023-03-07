@@ -1,0 +1,20 @@
+{
+  "description": "Triangle lc(n,k): the number of purely line-connected k-partitions of [n], n>=4, 3<=k",
+  "id": "A305874",
+  "mentions": [
+    "A005564",
+    "A047790"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 4,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of series-reduced planted achiral trees with n leaves spanning an initial interval of positive integers.",
+  "id": "A317100",
+  "mentions": [
+    "A001678",
+    "A003238",
+    "A052409",
+    "A052410",
+    "A067824",
+    "A167865",
+    "A168532",
+    "A214577",
+    "A289078",
+    "A294336",
+    "A316782",
+    "A317099"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

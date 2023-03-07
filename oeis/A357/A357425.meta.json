@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number for which the sum of digits in fractional base 4/3 is n.",
+  "id": "A357425",
+  "mentions": [
+    "A024631",
+    "A244041"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

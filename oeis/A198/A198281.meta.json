@@ -1,0 +1,18 @@
+{
+  "description": "Number of 2nX8 0..2 arrays with values 0..2 introduced in row major order and each element equal to exactly two horizontal and vertical neighbors",
+  "id": "A198281",
+  "mentions": [
+    "A198285"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

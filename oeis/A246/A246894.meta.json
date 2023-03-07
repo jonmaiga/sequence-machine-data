@@ -1,0 +1,18 @@
+{
+  "description": "Number of length 2+4 0..n arrays with some pair in every consecutive five terms totalling exactly n.",
+  "id": "A246894",
+  "mentions": [
+    "A246892"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:59:19",
+    "offset": 1,
+    "size": 26,
+    "source": "joeis"
+  }
+}

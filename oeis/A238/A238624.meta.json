@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n such that either both floor(n/2) and ceiling(n/2) are parts or else neither is a part.",
+  "id": "A238624",
+  "mentions": [
+    "A238622",
+    "A238623"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

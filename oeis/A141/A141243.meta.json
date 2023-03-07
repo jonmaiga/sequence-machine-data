@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to place non-attacking knights on the n X n board.",
+  "id": "A141243",
+  "mentions": [
+    "A030978",
+    "A182407",
+    "A182408",
+    "A201540",
+    "A244081"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Fixed point of the mapping 00->1000, 10->10101, starting with 00.",
+  "id": "A288932",
+  "mentions": [
+    "A123720",
+    "A288933",
+    "A288934",
+    "A308185"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:02",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

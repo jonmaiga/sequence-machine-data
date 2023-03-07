@@ -1,0 +1,18 @@
+{
+  "description": "s(k)-s(j), where (s(k),s(j)) is the least pair of central binomial coefficients for which n divides their difference.",
+  "id": "A205014",
+  "mentions": [
+    "A204892",
+    "A205010"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-07 09:36:36",
+    "offset": 1,
+    "size": 47,
+    "source": "joeis"
+  }
+}

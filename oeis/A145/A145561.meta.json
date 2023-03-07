@@ -1,0 +1,20 @@
+{
+  "description": "Alternating row sums of triangle A049029 (S2(5)).",
+  "id": "A145561",
+  "mentions": [
+    "A049029",
+    "A049120"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

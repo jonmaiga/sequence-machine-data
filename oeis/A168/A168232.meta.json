@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (2*n - 3*(-1)^n - 1)/2.",
+  "id": "A168232",
+  "mentions": [
+    "A028242"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:45:27",
+    "offset": 1,
+    "size": 71,
+    "source": "joeis"
+  }
+}

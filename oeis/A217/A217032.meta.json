@@ -1,0 +1,25 @@
+{
+  "description": "Minimum number of steps to reach n! starting from 1 and using the operations of multiplication, addition, or subtraction.",
+  "id": "A217032",
+  "mentions": [
+    "A003065",
+    "A141414",
+    "A173419",
+    "A216999",
+    "A217031"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

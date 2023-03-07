@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle T(0,0)=1, T(1,0)=-1, T(1,1)=0, T(1,2)=1 and T(n,k) = T(n-1,k-2)-T(n-2,k).",
+  "id": "A136745",
+  "mentions": [
+    "A130777"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 108,
+    "source": "oeis-entry"
+  }
+}

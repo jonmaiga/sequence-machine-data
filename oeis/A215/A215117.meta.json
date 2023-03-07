@@ -1,0 +1,21 @@
+{
+  "description": "G.f. A(x) satisfies: A(A(A(A(x)))) = G(x) where G(x) = x + 3*x^2 + x*G(G(G(G(x)))) is the g.f. of A215116.",
+  "id": "A215117",
+  "mentions": [
+    "A213009",
+    "A215115",
+    "A215116",
+    "A215119"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

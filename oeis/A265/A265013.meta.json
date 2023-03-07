@@ -1,0 +1,30 @@
+{
+  "description": "Numbers n such that n*9^n + 1 is prime.",
+  "id": "A265013",
+  "mentions": [
+    "A005849",
+    "A006552",
+    "A007646",
+    "A007647",
+    "A007648",
+    "A242176",
+    "A242177",
+    "A242178",
+    "A242196",
+    "A242197",
+    "A242198",
+    "A242199"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

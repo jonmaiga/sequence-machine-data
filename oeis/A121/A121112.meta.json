@@ -1,0 +1,21 @@
+{
+  "description": "Edge-rooted tree-like octagonal systems (see the Cyvin et al. reference for precise definition).",
+  "id": "A121112",
+  "mentions": [
+    "A036758",
+    "A036760",
+    "A121113",
+    "A121114"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

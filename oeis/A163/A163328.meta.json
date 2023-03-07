@@ -1,0 +1,30 @@
+{
+  "description": "Square array A, where entry A(y,x) has the ternary digits of x interleaved with the ternary digits of y, converted back to decimal. Listed by antidiagonals: A(0,0), A(0,1), A(1,0), A(0,2), A(1,1), A(2,0), ...",
+  "id": "A163328",
+  "mentions": [
+    "A002262",
+    "A007089",
+    "A025581",
+    "A037314",
+    "A054238",
+    "A163327",
+    "A163329",
+    "A163330",
+    "A163332",
+    "A163334",
+    "A208665"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

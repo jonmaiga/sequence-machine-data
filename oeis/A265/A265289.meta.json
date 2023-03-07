@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Sum_{n>=1} (c(2*n) - phi), where phi is the golden ratio (A001622) and c = convergents to phi.",
+  "id": "A265289",
+  "mentions": [
+    "A000005",
+    "A000045",
+    "A001622",
+    "A265288",
+    "A265290"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

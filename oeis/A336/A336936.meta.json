@@ -1,0 +1,26 @@
+{
+  "description": "Lexicographically earliest infinite sequence such that a(i) = a(j) => f(i) = f(j), where f(n) = [A007733(n), A329697(n), A331410(n)], for all i, j >= 1.",
+  "id": "A336936",
+  "mentions": [
+    "A003602",
+    "A007733",
+    "A324400",
+    "A329697",
+    "A331410",
+    "A335880",
+    "A336920",
+    "A336933",
+    "A336934",
+    "A336935"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

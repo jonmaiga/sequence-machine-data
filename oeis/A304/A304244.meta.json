@@ -1,0 +1,35 @@
+{
+  "description": "Numbers that yield a prime when prime(k) is inserted after the k-th digit, for any k >= 1, k < number of digits.",
+  "id": "A304244",
+  "mentions": [
+    "A068673",
+    "A068677",
+    "A068679",
+    "A069246",
+    "A069832",
+    "A069833",
+    "A158232",
+    "A158594",
+    "A159236",
+    "A164329",
+    "A215417",
+    "A215419",
+    "A215420",
+    "A215421",
+    "A216169",
+    "A304243"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

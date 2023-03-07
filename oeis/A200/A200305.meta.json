@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of least x satisfying 4*x^2 - 4*cos(x) = sin(x), negated.",
+  "id": "A200305",
+  "mentions": [
+    "A199949",
+    "A200306"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:21",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

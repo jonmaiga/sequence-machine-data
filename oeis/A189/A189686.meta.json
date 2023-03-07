@@ -1,0 +1,22 @@
+{
+  "description": "Superabundant numbers (A004394) satisfying the reverse of Robin's inequality (A091901).",
+  "id": "A189686",
+  "mentions": [
+    "A004394",
+    "A067698",
+    "A077006",
+    "A091901",
+    "A166981"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

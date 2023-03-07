@@ -1,0 +1,20 @@
+{
+  "description": "Number of steps to calculate A175872(n).",
+  "id": "A217921",
+  "mentions": [
+    "A000225",
+    "A000975",
+    "A030308",
+    "A175872"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

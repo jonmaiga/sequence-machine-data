@@ -1,0 +1,25 @@
+{
+  "description": "Sum of numerators of Farey Sequence of order n.",
+  "id": "A213544",
+  "mentions": [
+    "A006842",
+    "A006843",
+    "A011755",
+    "A023896",
+    "A133404",
+    "A191607",
+    "A240877"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:12",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

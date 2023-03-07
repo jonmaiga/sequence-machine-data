@@ -1,0 +1,23 @@
+{
+  "description": "Odd cubefree abundant numbers.",
+  "id": "A357697",
+  "mentions": [
+    "A000203",
+    "A004709",
+    "A005231",
+    "A005408",
+    "A112643",
+    "A333950",
+    "A357695"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

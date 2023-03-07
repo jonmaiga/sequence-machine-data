@@ -1,0 +1,20 @@
+{
+  "description": "Triangle: T(n,m) is number of m's among (d(1),d(2),...,d(n)), where d(n) = A000005(n).",
+  "id": "A140224",
+  "mentions": [
+    "A000005",
+    "A140223",
+    "A140225"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

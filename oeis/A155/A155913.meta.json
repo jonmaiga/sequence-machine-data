@@ -1,0 +1,21 @@
+{
+  "description": "Primes p such that (sum of digits of p) - (last digit of p) is prime.",
+  "id": "A155913",
+  "mentions": [
+    "A000040",
+    "A007953",
+    "A010879"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

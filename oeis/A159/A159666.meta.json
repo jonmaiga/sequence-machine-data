@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=1..n} binomial(n,k) * gcd(n,k) * a(k-1), with a(0) = 1.",
+  "id": "A159666",
+  "mentions": [
+    "A159667"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

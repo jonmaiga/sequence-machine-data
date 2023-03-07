@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = the sum of LCQ_C(n, k) for 1 <= k <= n (see definition in comments).",
+  "id": "A199974",
+  "mentions": [
+    "A196443",
+    "A199971",
+    "A199972",
+    "A199973"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

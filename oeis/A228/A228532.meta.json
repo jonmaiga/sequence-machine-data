@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = order of the torsion subgroup of the elliptic curve y^2 = x^3 + n if n is a sixth-power-free integer, otherwise -1.",
+  "id": "A228532",
+  "mentions": [
+    "A000290",
+    "A001014",
+    "A062838",
+    "A179126"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

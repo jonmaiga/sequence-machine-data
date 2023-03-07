@@ -1,0 +1,25 @@
+{
+  "description": "For any number n > 0, let f(n) be the polynomial of a single indeterminate x where the coefficient of x^e is the prime(1+e)-adic valuation of n (where prime(k) denotes the k-th prime); f establishes a bijection between the positive numbers and the polynomials of a single indeterminate x with nonnegative integer coefficients; let g be the inverse of f; a(n) = g(f(n)^2).",
+  "id": "A297473",
+  "mentions": [
+    "A000040",
+    "A001221",
+    "A001222",
+    "A031368",
+    "A055396",
+    "A061395",
+    "A296857",
+    "A297845"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:17",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Values of n such that the equation x^2 - 3*n*y^2 = n has integer solutions.",
+  "id": "A229848",
+  "mentions": [
+    "A172000",
+    "A227939"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

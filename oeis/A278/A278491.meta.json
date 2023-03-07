@@ -1,0 +1,24 @@
+{
+  "description": "After a(0)=0, numbers n such that (A002828(1+n) = 1) and (A002828(4+n) = 4).",
+  "id": "A278491",
+  "mentions": [
+    "A002828",
+    "A005563",
+    "A255131",
+    "A273324",
+    "A276573",
+    "A278216",
+    "A278489"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

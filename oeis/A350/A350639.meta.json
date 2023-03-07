@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of connected components in the set of cells added at stage n of the cellular automaton described in A350632.",
+  "id": "A350639",
+  "mentions": [
+    "A350632"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

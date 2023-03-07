@@ -1,0 +1,22 @@
+{
+  "description": "Swinging Wilson quotients (A163210) which are primes.",
+  "id": "A163211",
+  "mentions": [
+    "A007619",
+    "A163209",
+    "A163210",
+    "A163212",
+    "A163213",
+    "A180000"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:45",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

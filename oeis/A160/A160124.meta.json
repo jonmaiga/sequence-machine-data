@@ -1,0 +1,30 @@
+{
+  "description": "Total number of squares and rectangles after n stages in the toothpick structure of A139250.",
+  "id": "A160124",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A139252",
+    "A147614",
+    "A159786",
+    "A159787",
+    "A159788",
+    "A159789",
+    "A160125",
+    "A160126",
+    "A160127",
+    "A187220",
+    "A211008"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

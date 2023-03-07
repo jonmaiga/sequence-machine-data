@@ -1,0 +1,31 @@
+{
+  "description": "Fixed point of f starting with n, where f(x) = x/(largest perfect power divisor of x).",
+  "id": "A304339",
+  "mentions": [
+    "A000961",
+    "A001597",
+    "A001694",
+    "A005117",
+    "A007916",
+    "A052485",
+    "A052486",
+    "A059404",
+    "A091050",
+    "A160400",
+    "A203025",
+    "A294068",
+    "A303707",
+    "A304327",
+    "A304328"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

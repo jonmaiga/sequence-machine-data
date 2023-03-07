@@ -1,0 +1,25 @@
+{
+  "description": "Sum of the divisors of n that are not divisible by 8.",
+  "id": "A284341",
+  "mentions": [
+    "A046897",
+    "A046913",
+    "A113957",
+    "A116073",
+    "A116607",
+    "A284326",
+    "A284344"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "a(0) = 0, a(n+1) is either the largest number obtained from a(n) by toggling a single 1-bit off (to 0) if no such number is yet in the sequence, otherwise the least number not yet in sequence that can be obtained from a(n) by toggling a single 0-bit on (to 1). In both cases the bit to be toggled is the rightmost possible that results yet an unencountered number.",
+  "id": "A303769",
+  "mentions": [
+    "A000120",
+    "A007088",
+    "A019565",
+    "A048675",
+    "A070939",
+    "A302774",
+    "A302775",
+    "A303749",
+    "A303762",
+    "A303767",
+    "A304749"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

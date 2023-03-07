@@ -1,0 +1,20 @@
+{
+  "description": "Number of simple graphs on n vertices rooted at one oriented edge.",
+  "id": "A304069",
+  "mentions": [
+    "A000088",
+    "A304070",
+    "A304072"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

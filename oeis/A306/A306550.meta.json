@@ -1,0 +1,32 @@
+{
+  "description": "Array read by antidiagonals where A(n,k) is the number of labeled k-antichains covering n vertices.",
+  "id": "A306550",
+  "mentions": [
+    "A000372",
+    "A000392",
+    "A006126",
+    "A006602",
+    "A014466",
+    "A056046",
+    "A056049",
+    "A056052",
+    "A056101",
+    "A056104",
+    "A261005",
+    "A305000",
+    "A305844",
+    "A317674"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

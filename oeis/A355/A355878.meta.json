@@ -1,0 +1,20 @@
+{
+  "description": "Smallest p == 1 (mod 4) such that Q(sqrt(p)) has class number 2n+1.",
+  "id": "A355878",
+  "mentions": [
+    "A002148",
+    "A355876",
+    "A355877"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

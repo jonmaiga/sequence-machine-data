@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = smallest multiple m of n such that there are at most m/n perfect powers <= m.",
+  "id": "A233410",
+  "mentions": [
+    "A001597",
+    "A069623"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:51",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of compositions of n such that the smallest part has multiplicity seven.",
+  "id": "A241867",
+  "mentions": [
+    "A238342"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 7,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Number of permutations of n elements admitting a fourth root.",
+  "id": "A103620",
+  "mentions": [
+    "A003483",
+    "A102687",
+    "A103619",
+    "A215716",
+    "A215717",
+    "A215718",
+    "A247005"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

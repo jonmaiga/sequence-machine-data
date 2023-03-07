@@ -1,0 +1,22 @@
+{
+  "description": "Positions in the infinite trunk of beanstalk (see A179016) where the next node upwards is the smaller of the two possible branches.",
+  "id": "A218772",
+  "mentions": [
+    "A000120",
+    "A179016",
+    "A213728",
+    "A213732",
+    "A218773",
+    "A218774"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:36",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

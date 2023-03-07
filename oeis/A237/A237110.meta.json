@@ -1,0 +1,19 @@
+{
+  "description": "Maximum number of distinct prime factors of pairs of coprime g and h (g < h) adding to n.",
+  "id": "A237110",
+  "mentions": [
+    "A002110",
+    "A182987",
+    "A237354"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 3,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

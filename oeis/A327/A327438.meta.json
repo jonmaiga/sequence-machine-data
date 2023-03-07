@@ -1,0 +1,29 @@
+{
+  "description": "Irregular triangle read by rows with trailing zeros removed where T(n,k) is the number of unlabeled antichains of nonempty subsets of {1..n} with spanning edge-connectivity k.",
+  "id": "A327438",
+  "mentions": [
+    "A014466",
+    "A052446",
+    "A306505",
+    "A327062",
+    "A327071",
+    "A327103",
+    "A327111",
+    "A327144",
+    "A327352",
+    "A327353",
+    "A327437"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Least number m > 1 such that the central binomial coefficient C(2m,m) is divisible by m^n.",
+  "id": "A282346",
+  "mentions": [
+    "A000108",
+    "A000984",
+    "A014847",
+    "A121943",
+    "A282163",
+    "A282672",
+    "A283073",
+    "A283074"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

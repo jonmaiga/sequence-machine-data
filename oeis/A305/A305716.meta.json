@@ -1,0 +1,19 @@
+{
+  "description": "Order of rowmotion on the divisor lattice for n.",
+  "id": "A305716",
+  "mentions": [
+    "A001222"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (eta(q) * eta(q^23))^2 in powers of q.",
+  "id": "A232506",
+  "mentions": [
+    "A030199",
+    "A253193"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:30:33",
+    "offset": 2,
+    "size": 76,
+    "source": "joeis"
+  }
+}

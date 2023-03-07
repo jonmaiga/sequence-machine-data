@@ -1,0 +1,24 @@
+{
+  "description": "Number of n-indecomposable polyominoes.",
+  "id": "A125759",
+  "mentions": [
+    "A000105",
+    "A125709",
+    "A125753",
+    "A125761",
+    "A126742",
+    "A126743"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

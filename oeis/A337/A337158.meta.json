@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the start m of first run of n consecutive numbers with periodic sequence of values of number of divisors [tau(m), tau(m+1), tau(m), tau(m+1), tau(m), ...] where tau(m) != tau(m+1).",
+  "id": "A337158",
+  "mentions": [
+    "A000005",
+    "A000027",
+    "A006558"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

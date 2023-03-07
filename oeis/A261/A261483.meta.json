@@ -1,0 +1,19 @@
+{
+  "description": "Number of set partitions of [n] into exactly seven parts such that no part contains two elements with a circular distance less than three.",
+  "id": "A261483",
+  "mentions": [
+    "A261477"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 7,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

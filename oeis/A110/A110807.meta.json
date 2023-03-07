@@ -1,0 +1,20 @@
+{
+  "description": "n times largest n-digit number.",
+  "id": "A110807",
+  "mentions": [
+    "A053422"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

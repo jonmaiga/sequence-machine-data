@@ -1,0 +1,20 @@
+{
+  "description": "Average of twin-prime pairs for pairs that are expressible as the sum of two triangular numbers.",
+  "id": "A117313",
+  "mentions": [
+    "A001097",
+    "A117048",
+    "A117112"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = L(n+1) * L(n) * L(n-1) * L(n-2) / 6, where L(n) = Lucas numbers (A000032).",
+  "id": "A247526",
+  "mentions": [
+    "A000032",
+    "A004187",
+    "A022112",
+    "A085696",
+    "A098149"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "description": "Irregular triangle T(n,k) read by rows: row n lists numbers of distinct parts of the n-th integer partition in Abramowitz-Stegun (sum/length/lex) order.",
+  "id": "A334440",
+  "mentions": [
+    "A000041",
+    "A001221",
+    "A026791",
+    "A036036",
+    "A036037",
+    "A036043",
+    "A049085",
+    "A080577",
+    "A103921",
+    "A116608",
+    "A124734",
+    "A185974",
+    "A193073",
+    "A211992",
+    "A296774",
+    "A299755",
+    "A334028",
+    "A334301",
+    "A334302",
+    "A334433",
+    "A334434",
+    "A334435",
+    "A334438",
+    "A334439",
+    "A334441"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

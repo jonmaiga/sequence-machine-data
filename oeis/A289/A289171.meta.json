@@ -1,0 +1,26 @@
+{
+  "description": "Irregular triangle T(n, k) read by rows with 1 <= k <= n: T(n, 1) = A020900(n - k + 1) - (n - k + 1) and T(n, k) = max(0, T(n - 1, k - 1) - 1) otherwise.",
+  "id": "A289171",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A006530",
+    "A020900",
+    "A053669",
+    "A107347",
+    "A288813"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Denominator of the coefficient of x^(2n+1) in the Taylor series expansion of sin(sin(x)).",
+  "id": "A359554",
+  "mentions": [
+    "A003712",
+    "A359553"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of length n arrays of permutations of 0..n-1 with each element moved by -5 to 5 places and the total absolute value of displacements not greater than n.",
+  "id": "A263936",
+  "mentions": [
+    "A263939"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

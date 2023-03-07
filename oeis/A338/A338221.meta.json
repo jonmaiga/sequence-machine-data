@@ -1,0 +1,20 @@
+{
+  "description": "Square spiral of distinct positive integers built by greedy algorithm such that each new value (except the initial one) is a divisor or a multiple of some earlier horizontally or vertically adjacent value.",
+  "id": "A338221",
+  "mentions": [
+    "A006530",
+    "A113552",
+    "A282291"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

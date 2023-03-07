@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = coefficient of x^n/n! in A(x) such that A(x) = Sum_{n>=0} x^n * ( (A(x)^sqrt(n) + x)^sqrt(n) + A(x)^n/(1 + x*A(x)^sqrt(n))^sqrt(n) )/2.",
+  "id": "A359461",
+  "mentions": [
+    "A359460",
+    "A359462"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

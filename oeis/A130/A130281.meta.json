@@ -1,0 +1,17 @@
+{
+  "description": "Integers n > 1 such that A130280(4n^2) < n, i.e., there is an m < n, m > 1 such that 4n^2(m^2 - 1) + 1 is a square.",
+  "id": "A130281",
+  "mentions": [
+    "A130280"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

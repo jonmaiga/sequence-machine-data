@@ -1,0 +1,20 @@
+{
+  "description": "Number of times that p = n-th popular prime = A124661(n) is popular on the interval [2,m] where m = A289661(n).",
+  "id": "A289664",
+  "mentions": [
+    "A006530",
+    "A124661",
+    "A289661",
+    "A289665"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

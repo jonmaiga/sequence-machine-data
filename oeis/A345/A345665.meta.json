@@ -1,0 +1,19 @@
+{
+  "description": "Ceiling of circumradius of quadrilateral with consecutive prime sides configured as a cyclic quadrilateral.",
+  "id": "A345665",
+  "mentions": [
+    "A329950",
+    "A331676"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

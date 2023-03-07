@@ -1,0 +1,35 @@
+{
+  "description": "Irregular triangle read by rows which arises from a diagram which is similar to the diagram of A261699, but here the even-indexed zig-zag lines are located on the right-hand side of the vertical axis of the diagram.",
+  "id": "A285574",
+  "mentions": [
+    "A000217",
+    "A000593",
+    "A001227",
+    "A003056",
+    "A082647",
+    "A131576",
+    "A182469",
+    "A196020",
+    "A235791",
+    "A236104",
+    "A237048",
+    "A237591",
+    "A237593",
+    "A245092",
+    "A259176",
+    "A259177",
+    "A261699",
+    "A279820"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

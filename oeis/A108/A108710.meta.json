@@ -1,0 +1,19 @@
+{
+  "description": "Start to read the sequence digit by digit and erase the first \"1\" you encounter, then the first \"2\", the first \"3\", etc., until the first \"0\"; go on from there and erase again the first \"1\", the first \"2\", etc., until \"0\" -- and so on, cyclically until the end of the (infinite) sequence. Concatenate what is left. The result is the concatenation of all integers of the sequence.",
+  "id": "A108710",
+  "mentions": [
+    "A108709"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

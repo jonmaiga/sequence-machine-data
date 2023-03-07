@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{d|n, d=4 mod 5} d.",
+  "id": "A284103",
+  "mentions": [
+    "A000593",
+    "A050452",
+    "A078182",
+    "A109700",
+    "A284104",
+    "A284105"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

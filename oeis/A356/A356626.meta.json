@@ -1,0 +1,25 @@
+{
+  "description": "Position of A332979(n) in the Doudna sequence A005940.",
+  "id": "A356626",
+  "mentions": [
+    "A000120",
+    "A000961",
+    "A005940",
+    "A006530",
+    "A023416",
+    "A023758",
+    "A180944",
+    "A332979"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

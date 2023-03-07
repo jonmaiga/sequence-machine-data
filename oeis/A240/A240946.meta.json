@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the average distance traveled in three steps of length 1 for a random walk in the plane starting at the origin.",
+  "id": "A240946",
+  "mentions": [
+    "A088538"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:04",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

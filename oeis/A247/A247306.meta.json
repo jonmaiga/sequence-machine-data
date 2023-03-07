@@ -1,0 +1,23 @@
+{
+  "description": "Array T(n,k) of the expected value of trace(O)^(2k), where O is an n X n orthogonal matrix randomly selected according to Haar measure, read by antidiagonals.",
+  "id": "A247306",
+  "mentions": [
+    "A000012",
+    "A001147",
+    "A001700",
+    "A099251",
+    "A246860",
+    "A247304"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

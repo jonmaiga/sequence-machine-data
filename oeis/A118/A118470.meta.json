@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k for which digitsum(k) + digitsum(k^2) + digitsum(k^3) = digitsum(k^4).",
+  "id": "A118470",
+  "mentions": [
+    "A004159",
+    "A004164",
+    "A007953",
+    "A055565"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

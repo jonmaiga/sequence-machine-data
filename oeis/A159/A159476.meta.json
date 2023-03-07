@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f.: A(x) = exp( Sum_{n>=1} (n-1)!*x^n/n ).",
+  "id": "A159476",
+  "mentions": [
+    "A158876",
+    "A293847"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

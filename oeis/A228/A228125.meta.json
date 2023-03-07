@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of semistandard Young tableaux with sum of entries equal to n and shape of tableau a partition of k.",
+  "id": "A228125",
+  "mentions": [
+    "A003293",
+    "A005986"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 136,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = ((2*n + 1)^6 + 1)/2.",
+  "id": "A175113",
+  "mentions": [
+    "A000579",
+    "A001844",
+    "A050492",
+    "A175114"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:06:13",
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

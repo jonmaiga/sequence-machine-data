@@ -1,0 +1,25 @@
+{
+  "description": "Convolution cube-root of column 2 (A127085) of triangle A127082.",
+  "id": "A127088",
+  "mentions": [
+    "A127082",
+    "A127083",
+    "A127084",
+    "A127085",
+    "A127086",
+    "A127087",
+    "A127089",
+    "A127090",
+    "A127091"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

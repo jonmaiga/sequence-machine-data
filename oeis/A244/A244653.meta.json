@@ -1,0 +1,24 @@
+{
+  "description": "G.f. A(x) satisfies: Sum_{k=0..n} [x^k] A(x)^n = binomial(7*n,2*n).",
+  "id": "A244653",
+  "mentions": [
+    "A232606",
+    "A232683",
+    "A232687",
+    "A244650",
+    "A244651",
+    "A244652",
+    "A244654"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

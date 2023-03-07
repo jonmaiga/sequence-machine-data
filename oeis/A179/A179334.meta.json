@@ -1,0 +1,17 @@
+{
+  "description": "Squares that are the sum of three positive Fibonacci numbers.",
+  "id": "A179334",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

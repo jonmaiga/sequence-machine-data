@@ -1,0 +1,28 @@
+{
+  "description": "Coefficients of the set of partition polynomials [RT] = [P][E]; i.e., coefficients of polynomials resulting from using the set of refined Eulerian polynomials, [E], of A145271 as the indeterminates of the set of permutahedra polynomials, [P], of A133314. Irregular triangle read by rows with lengths given by A000041.",
+  "id": "A356144",
+  "mentions": [
+    "A000041",
+    "A000108",
+    "A133314",
+    "A133437",
+    "A134264",
+    "A134685",
+    "A145271",
+    "A263633",
+    "A355201",
+    "A356145"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

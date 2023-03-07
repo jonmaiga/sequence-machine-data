@@ -1,0 +1,28 @@
+{
+  "description": "The second Fibonacci based variant of arithmetic derivative: a(p) = A000045(2+A000720(p)) for prime p, a(u*v) = a(u)*v + u*a(v), with a(0) = a(1) = 0.",
+  "id": "A328846",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A000720",
+    "A003415",
+    "A003965",
+    "A007895",
+    "A258851",
+    "A328768",
+    "A328769",
+    "A328845",
+    "A328848"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

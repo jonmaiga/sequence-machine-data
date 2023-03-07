@@ -1,0 +1,31 @@
+{
+  "description": "Number of distinct row/column permutations of the Ferrers diagram of the integer partition with Heinz number n.",
+  "id": "A321647",
+  "mentions": [
+    "A000219",
+    "A008480",
+    "A049311",
+    "A056239",
+    "A064989",
+    "A068313",
+    "A101370",
+    "A112798",
+    "A122111",
+    "A296150",
+    "A321645",
+    "A321646",
+    "A321648",
+    "A321655"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

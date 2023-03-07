@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = -2^(2*n+1)*(E(2*n+1, 1/2) + E(2*n+1, 1) + 2*(E(2*n+2, 1/2) + E(2*n+2, 1))), where E(n,x) are the Euler polynomials.",
+  "id": "A241242",
+  "mentions": [
+    "A000182",
+    "A000364",
+    "A028296",
+    "A147315",
+    "A153641",
+    "A186370",
+    "A240559"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

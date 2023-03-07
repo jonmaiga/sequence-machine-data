@@ -1,0 +1,21 @@
+{
+  "description": "Area A of the triangle such that A, the sides, and the inradius are integers.",
+  "id": "A228383",
+  "mentions": [
+    "A120572",
+    "A185210",
+    "A188158",
+    "A208984",
+    "A210250"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

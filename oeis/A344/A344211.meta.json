@@ -1,0 +1,30 @@
+{
+  "description": "Number of generalized polyforms on the rhombitrihexagonal tiling with n cells.",
+  "id": "A344211",
+  "mentions": [
+    "A000105",
+    "A000228",
+    "A000577",
+    "A197156",
+    "A197159",
+    "A197459",
+    "A197462",
+    "A197465",
+    "A309159",
+    "A343398",
+    "A343406",
+    "A343577"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

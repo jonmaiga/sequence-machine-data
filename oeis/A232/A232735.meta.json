@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of the real part of I^(1/7), or cos(Pi/14).",
+  "id": "A232735",
+  "mentions": [
+    "A010503",
+    "A010527",
+    "A019881",
+    "A019884",
+    "A019889",
+    "A019890",
+    "A144981",
+    "A232736",
+    "A232737"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:36:05",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

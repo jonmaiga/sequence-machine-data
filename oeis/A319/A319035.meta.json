@@ -1,0 +1,20 @@
+{
+  "description": "Triangular numbers T(k) that have the same number of divisors as their successors T(k+1).",
+  "id": "A319035",
+  "mentions": [
+    "A000005",
+    "A000217",
+    "A081978",
+    "A276542"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

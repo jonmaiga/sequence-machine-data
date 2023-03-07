@@ -1,0 +1,23 @@
+{
+  "description": "The sequence is {a(n), n>=0}, the concatenation of the binary expansions of the absolute values |a(n)| is {b(n), n>=0}; start with a(0)=0; thereafter a(n) = a(n-1)+n if b(n-1)=0, otherwise a(n) = a(n-1)-n.",
+  "id": "A309217",
+  "mentions": [
+    "A003816",
+    "A309214",
+    "A309215",
+    "A309216",
+    "A309218",
+    "A309529"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

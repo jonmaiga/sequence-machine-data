@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest k such that usigma(k) = A002110(n), or 0 if no such k exists.",
+  "id": "A291356",
+  "mentions": [
+    "A002110",
+    "A034448",
+    "A289126"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

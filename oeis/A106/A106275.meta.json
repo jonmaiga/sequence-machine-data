@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n for which the absolute value of the discriminant of the polynomial x^n - x^(n-1) -...- x - 1 is a prime times 2^k for some k >=0.",
+  "id": "A106275",
+  "mentions": [
+    "A106273"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

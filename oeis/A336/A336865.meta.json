@@ -1,0 +1,35 @@
+{
+  "description": "Irregular triangle read by rows where T(n,k) is the number of divisors of n with distinct prime multiplicities and a total of k prime factors, counted with multiplicity.",
+  "id": "A336865",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A001222",
+    "A008302",
+    "A073093",
+    "A098859",
+    "A118914",
+    "A124010",
+    "A130091",
+    "A130092",
+    "A146291",
+    "A181796",
+    "A327498",
+    "A336422",
+    "A336423",
+    "A336499",
+    "A336500",
+    "A336571"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

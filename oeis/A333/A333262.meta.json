@@ -1,0 +1,19 @@
+{
+  "description": "Number of steps to reach 1 by iterating the alternating sum of divisors function A071324 starting from n.",
+  "id": "A333262",
+  "mentions": [
+    "A071324",
+    "A330786"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of regions formed inside a right triangle by the straight line segments mutually connecting all vertices and points on the two shorter edges whose positions on one edge equal the Farey series of order n while on the other they divide its length into n equal segments.",
+  "id": "A359975",
+  "mentions": [
+    "A005728",
+    "A358886",
+    "A358948",
+    "A359690",
+    "A359969",
+    "A359974",
+    "A359976",
+    "A359977"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

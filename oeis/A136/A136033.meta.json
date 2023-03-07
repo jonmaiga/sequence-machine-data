@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = smallest number k such that number of prime factors of 2^k-1 is exactly n (counted with multiplicity).",
+  "id": "A136033",
+  "mentions": [
+    "A000225",
+    "A003260",
+    "A016047",
+    "A046051",
+    "A049479",
+    "A088863",
+    "A136030",
+    "A136031"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k such that there are exactly n divisors d of k for which k/d-d is prime.",
+  "id": "A340729",
+  "mentions": [
+    "A340728"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

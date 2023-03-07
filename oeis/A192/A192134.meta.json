@@ -1,0 +1,27 @@
+{
+  "description": "Difference between n-th prime power and its arithmetic derivative.",
+  "id": "A192134",
+  "mentions": [
+    "A000040",
+    "A000961",
+    "A001248",
+    "A003415",
+    "A005722",
+    "A006093",
+    "A025473",
+    "A025474",
+    "A095874",
+    "A192015",
+    "A192133"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

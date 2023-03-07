@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least prime p = prime(k) > prime(n) such that A306530(k) = prime(n).",
+  "id": "A307965",
+  "mentions": [
+    "A000229",
+    "A306530"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

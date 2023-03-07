@@ -1,0 +1,18 @@
+{
+  "description": "Number of blocks of exactly 4 Fibonacci numbers having equal length <= n.",
+  "id": "A105564",
+  "mentions": [
+    "A105563",
+    "A105566"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

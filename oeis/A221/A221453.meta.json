@@ -1,0 +1,17 @@
+{
+  "description": "Number of 0..n arrays of length n with each element unequal to at least one neighbor, with new values introduced in 0..n order",
+  "id": "A221453",
+  "mentions": [
+    "A221459"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

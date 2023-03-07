@@ -1,0 +1,21 @@
+{
+  "description": "Let S(k) be the sequence s() defined by s(1) = k; for i > 1, s(i) = s(i-1) + gcd(s(i-1), i). Start with the list of positive integers and remove any k's for which S(k) merges with an S(m) with m < k. Each value k > 1 is conjectural.",
+  "id": "A134162",
+  "mentions": [
+    "A000027",
+    "A084662",
+    "A084663",
+    "A106108",
+    "A134736"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

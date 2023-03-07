@@ -1,0 +1,27 @@
+{
+  "description": "First differences of A160416.",
+  "id": "A161417",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A139251",
+    "A152980",
+    "A153006",
+    "A160411",
+    "A160413",
+    "A160415",
+    "A160416",
+    "A160797"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

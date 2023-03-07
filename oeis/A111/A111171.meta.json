@@ -1,0 +1,24 @@
+{
+  "description": "Semiprimes S such that 3*S - 1 is also a semiprime.",
+  "id": "A111171",
+  "mentions": [
+    "A001358",
+    "A111153",
+    "A111168",
+    "A111170",
+    "A111173",
+    "A111176"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

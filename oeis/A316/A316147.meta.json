@@ -1,0 +1,19 @@
+{
+  "description": "Numbers, with digits in nondecreasing order, whose product of digits equals the number of digits times the sum of digits.",
+  "id": "A316147",
+  "mentions": [
+    "A064154"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

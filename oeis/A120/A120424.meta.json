@@ -1,0 +1,19 @@
+{
+  "description": "Having specified two initial terms, the \"Half-Fibonacci\" sequence proceeds like the Fibonacci sequence, except that the terms are halved before being added if they are even.",
+  "id": "A120424",
+  "mentions": [
+    "A069202"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

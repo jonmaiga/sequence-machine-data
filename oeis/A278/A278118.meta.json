@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle T(n,k) = A278113(n,k) for 1 <= k <= A278116(n), read by rows.",
+  "id": "A278118",
+  "mentions": [
+    "A278104",
+    "A278112",
+    "A278113",
+    "A278115",
+    "A278116"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:44",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

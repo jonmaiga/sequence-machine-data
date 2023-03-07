@@ -1,0 +1,19 @@
+{
+  "description": "EXP transform of A140585.",
+  "id": "A144792",
+  "mentions": [
+    "A140585",
+    "A143463"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

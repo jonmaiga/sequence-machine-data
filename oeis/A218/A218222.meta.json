@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = x + x*[d/dx A(x)^2].",
+  "id": "A218222",
+  "mentions": [
+    "A000699",
+    "A088716",
+    "A112915",
+    "A185183",
+    "A238223"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

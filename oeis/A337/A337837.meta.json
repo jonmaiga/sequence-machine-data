@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that Omega(3^k - 2) = Omega(3^k + 2) where Omega is A001222.",
+  "id": "A337837",
+  "mentions": [
+    "A001222",
+    "A014224",
+    "A051783",
+    "A058481",
+    "A168607"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

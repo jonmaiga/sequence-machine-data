@@ -1,0 +1,32 @@
+{
+  "description": "Number of unlabeled bi-point-determining graphs: graphs in which no two vertices have the same neighborhoods or the same augmented neighborhoods (the augmented neighborhood of a vertex is the neighborhood of the vertex union the vertex itself).",
+  "id": "A129584",
+  "mentions": [
+    "A000311",
+    "A000568",
+    "A000669",
+    "A001187",
+    "A001349",
+    "A004108",
+    "A004110",
+    "A006024",
+    "A006125",
+    "A079306",
+    "A092430",
+    "A129583",
+    "A129585",
+    "A129586"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

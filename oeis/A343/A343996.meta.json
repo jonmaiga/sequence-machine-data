@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A011772(n) if that number is odd, otherwise A011772(n)+1.",
+  "id": "A343996",
+  "mentions": [
+    "A000217",
+    "A011772",
+    "A061781",
+    "A343997"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

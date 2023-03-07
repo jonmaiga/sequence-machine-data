@@ -1,0 +1,22 @@
+{
+  "description": "McKay-Thompson series of class 12I for the Monster group with a(0) = 1.",
+  "id": "A187144",
+  "mentions": [
+    "A004016",
+    "A005882",
+    "A005928",
+    "A058487",
+    "A123649"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:03",
+    "offset": -1,
+    "size": 79,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Total number of octagons in two variants of an octagon expansion after n iterations: either \"side-to-side\" or \"vertex-to-vertex\", respectively.",
+  "id": "A253895",
+  "mentions": [
+    "A061777",
+    "A179178",
+    "A253547",
+    "A253687",
+    "A253688",
+    "A253896"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:00:05",
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

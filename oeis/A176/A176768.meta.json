@@ -1,0 +1,25 @@
+{
+  "description": "Smallest power of 8 whose decimal expansion contains n.",
+  "id": "A176768",
+  "mentions": [
+    "A001018",
+    "A030001",
+    "A062525",
+    "A176763",
+    "A176764",
+    "A176773"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Minimal sum s of n distinct squares such that s is divisible by n.",
+  "id": "A215574",
+  "mentions": [
+    "A000330",
+    "A164576"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

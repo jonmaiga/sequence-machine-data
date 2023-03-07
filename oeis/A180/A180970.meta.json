@@ -1,0 +1,20 @@
+{
+  "description": "Number of tatami tilings of a 3 X n grid (with monomers allowed).",
+  "id": "A180970",
+  "mentions": [
+    "A180965",
+    "A192090",
+    "A272472"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T(n,k) read by rows: number of k X k symmetric matrices with nonnegative integer entries and without zero rows or columns such that sum of all entries is equal to n, n>=1, 1<=k<=n.",
+  "id": "A138177",
+  "mentions": [
+    "A000085",
+    "A135588",
+    "A135589",
+    "A138178",
+    "A161126",
+    "A210391",
+    "A266305",
+    "A268309"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

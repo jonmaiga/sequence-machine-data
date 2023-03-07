@@ -1,0 +1,30 @@
+{
+  "description": "Conway's subprime Fibonacci sequence.",
+  "id": "A214674",
+  "mentions": [
+    "A000045",
+    "A014682",
+    "A020639",
+    "A165911",
+    "A175723",
+    "A214551",
+    "A214892",
+    "A214898",
+    "A255562",
+    "A272636",
+    "A282812",
+    "A282813",
+    "A282814"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

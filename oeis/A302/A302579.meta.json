@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of e.g.f. exp(cosh(x)/cos(x)-1) (even powers only).",
+  "id": "A302579",
+  "mentions": [
+    "A000795",
+    "A005046",
+    "A006229",
+    "A009234",
+    "A009253",
+    "A009254",
+    "A009274",
+    "A012853",
+    "A217502"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:14",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Semiprimes that are the sum of two triangular numbers.",
+  "id": "A119961",
+  "mentions": [
+    "A001358",
+    "A020756",
+    "A117048"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

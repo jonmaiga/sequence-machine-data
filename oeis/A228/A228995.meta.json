@@ -1,0 +1,18 @@
+{
+  "description": "Total sum of the 5th powers of lengths of ascending runs in all permutations of [n].",
+  "id": "A228995",
+  "mentions": [
+    "A229001"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Odd bisection of A291761.",
+  "id": "A291767",
+  "mentions": [
+    "A147516",
+    "A278223",
+    "A291761",
+    "A291768"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:06",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

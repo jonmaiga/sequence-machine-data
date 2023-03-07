@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the volume of the region that represents the set of points in a unit cube that are closer to the center of the cube than to the closest face.",
+  "id": "A355185",
+  "mentions": [
+    "A093066",
+    "A097047",
+    "A355183"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": -1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

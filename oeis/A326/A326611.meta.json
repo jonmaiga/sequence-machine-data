@@ -1,0 +1,18 @@
+{
+  "description": "Number of arrangements of rooks with rotational symmetry on a triangular grid with n grid points on each side and no two rooks on the same row, column or diagonal.",
+  "id": "A326611",
+  "mentions": [
+    "A283117",
+    "A289709"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

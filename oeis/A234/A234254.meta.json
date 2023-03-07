@@ -1,0 +1,19 @@
+{
+  "description": "Number of conjugacy classes in Weyl group of type D_n.",
+  "id": "A234254",
+  "mentions": [
+    "A000041",
+    "A000712"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 2,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

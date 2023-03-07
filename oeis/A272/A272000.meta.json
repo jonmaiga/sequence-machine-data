@@ -1,0 +1,28 @@
+{
+  "description": "Coinage sequence: a(n) = A018227(n)-7.",
+  "id": "A272000",
+  "mentions": [
+    "A018227",
+    "A168380",
+    "A168388",
+    "A219527",
+    "A271994",
+    "A271995",
+    "A271996",
+    "A271997",
+    "A271998",
+    "A271999"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:08:45",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

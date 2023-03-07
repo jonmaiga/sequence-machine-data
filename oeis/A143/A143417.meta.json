@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle in which row n gives the k such that the reduced totient function psi(k) = A002174(n).",
+  "id": "A143417",
+  "mentions": [
+    "A002174",
+    "A002322",
+    "A143407",
+    "A143408"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

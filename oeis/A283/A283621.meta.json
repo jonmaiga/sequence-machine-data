@@ -1,0 +1,17 @@
+{
+  "description": "Smallest term A001043(k) with k>n such that A001043(k) is multiple of A001043(n).",
+  "id": "A283621",
+  "mentions": [
+    "A001043"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

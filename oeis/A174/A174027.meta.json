@@ -1,0 +1,22 @@
+{
+  "description": "Alternating triangle (version 2) read by rows: composites k such that k=6*m-+1=r*j r>=j and n>=q>0 where r=6*n-1 or r=6*n+1 and j=6*q-1 or j=6*q+1.",
+  "id": "A174027",
+  "mentions": [
+    "A007310",
+    "A140475",
+    "A173825",
+    "A173865"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

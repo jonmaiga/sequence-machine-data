@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that A180076(m-2) < A180076(m-1) < A180076(m).",
+  "id": "A180110",
+  "mentions": [
+    "A180076"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

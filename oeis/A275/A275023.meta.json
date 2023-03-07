@@ -1,0 +1,20 @@
+{
+  "description": "Cubes c such that c + 2 and c - 2 are semiprime.",
+  "id": "A275023",
+  "mentions": [
+    "A000578",
+    "A001358",
+    "A105571",
+    "A278022"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

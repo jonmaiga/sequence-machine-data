@@ -1,0 +1,23 @@
+{
+  "description": "Oex perfect numbers: n such that A186644(n) = 2*n.",
+  "id": "A186889",
+  "mentions": [
+    "A000396",
+    "A007357",
+    "A129657",
+    "A186443",
+    "A186444",
+    "A186643",
+    "A186644"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

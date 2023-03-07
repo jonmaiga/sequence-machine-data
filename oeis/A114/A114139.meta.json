@@ -1,0 +1,37 @@
+{
+  "description": "Changes in United States postal rates per ounce since 1863.",
+  "id": "A114139",
+  "mentions": [
+    "A001208",
+    "A001209",
+    "A001210",
+    "A001211",
+    "A001212",
+    "A001213",
+    "A001214",
+    "A001215",
+    "A001216",
+    "A005342",
+    "A005343",
+    "A005344",
+    "A014616",
+    "A053346",
+    "A053348",
+    "A075060",
+    "A084192",
+    "A084193",
+    "A114062"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "fini",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

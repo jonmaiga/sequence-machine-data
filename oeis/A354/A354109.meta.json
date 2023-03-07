@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are neither an odd prime power nor twice an odd prime power.",
+  "id": "A354109",
+  "mentions": [
+    "A033949",
+    "A267099",
+    "A353768",
+    "A354107",
+    "A354108",
+    "A354189"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

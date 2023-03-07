@@ -1,0 +1,23 @@
+{
+  "description": "Odd composite integers m such that A056854(m) == 7 (mod m).",
+  "id": "A338082",
+  "mentions": [
+    "A005248",
+    "A056854",
+    "A335669",
+    "A335672",
+    "A335673",
+    "A335674",
+    "A337233"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

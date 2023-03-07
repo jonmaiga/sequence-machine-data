@@ -1,0 +1,36 @@
+{
+  "description": "Number T(n,k) of isoscent sequences of length n with exactly k ascents; triangle T(n,k), n>=0, 0<=k<=n+3-ceiling(2*sqrt(n+2)), read by rows.",
+  "id": "A242351",
+  "mentions": [
+    "A000012",
+    "A000110",
+    "A000295",
+    "A048993",
+    "A083479",
+    "A137251",
+    "A238858",
+    "A242153",
+    "A242352",
+    "A243228",
+    "A243229",
+    "A243230",
+    "A243231",
+    "A243232",
+    "A243233",
+    "A243234",
+    "A243235",
+    "A243236",
+    "A243237"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

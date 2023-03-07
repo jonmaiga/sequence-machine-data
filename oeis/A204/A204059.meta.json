@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Pell(n) * Sum_{d|n} (-1)^(n/d) / Pell(d), where Pell(n) = A000129(n).",
+  "id": "A204059",
+  "mentions": [
+    "A000129",
+    "A002203",
+    "A111075",
+    "A203797",
+    "A203802"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

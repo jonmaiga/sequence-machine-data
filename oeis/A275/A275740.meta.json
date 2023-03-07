@@ -1,0 +1,24 @@
+{
+  "description": "Sums of n consecutive nonsquare integers.",
+  "id": "A275740",
+  "mentions": [
+    "A000037",
+    "A006003",
+    "A027480",
+    "A028761",
+    "A158276",
+    "A167759",
+    "A229183"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

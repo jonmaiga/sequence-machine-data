@@ -1,0 +1,20 @@
+{
+  "description": "Row 6 of A354940: Numbers k for which A345992(k) = 6, divided by 6.",
+  "id": "A354936",
+  "mentions": [
+    "A016921",
+    "A344005",
+    "A345992",
+    "A354940"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

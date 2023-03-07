@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n=6*phi(n)-sigma(n).",
+  "id": "A136539",
+  "mentions": [
+    "A001770",
+    "A084213",
+    "A136540"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

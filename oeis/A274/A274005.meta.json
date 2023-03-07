@@ -1,0 +1,17 @@
+{
+  "description": "Number of length-n binary sequences where the sum of each subblock differs by at most 2 from every other subblock of the same length.",
+  "id": "A274005",
+  "mentions": [
+    "A005598"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

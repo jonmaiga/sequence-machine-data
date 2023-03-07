@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of normalized Philo sum, Philo(ABC,G), where G=centroid of the 7,24,25 right triangle ABC.",
+  "id": "A195428",
+  "mentions": [
+    "A195304",
+    "A195425",
+    "A195426",
+    "A195427"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

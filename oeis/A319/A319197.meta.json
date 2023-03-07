@@ -1,0 +1,20 @@
+{
+  "description": "All entries from a(3) to a(n) appear in addition to 2^n as factors in the conjectured factorization of Fibonacci(2^(n-2)*3*m) for n >= 3 and all m >= 0.",
+  "id": "A319197",
+  "mentions": [
+    "A000045",
+    "A049660",
+    "A253368"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 3,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

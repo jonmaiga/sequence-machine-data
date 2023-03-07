@@ -1,0 +1,20 @@
+{
+  "description": "Indices where Iccanobif numbers of the form A014258 decrease, i.e., numbers k such that A014258(k) < A014258(k-1).",
+  "id": "A350779",
+  "mentions": [
+    "A014258",
+    "A350079"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:25",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Ceiling(n/3)-abundant numbers.",
+  "id": "A177085",
+  "mentions": [
+    "A005100",
+    "A005101",
+    "A074206",
+    "A175522",
+    "A175524",
+    "A175526",
+    "A175811",
+    "A175821",
+    "A175837",
+    "A177052",
+    "A177084"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:01",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

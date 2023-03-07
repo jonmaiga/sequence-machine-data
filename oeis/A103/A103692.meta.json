@@ -1,0 +1,21 @@
+{
+  "description": "Row sums of A103691.",
+  "id": "A103692",
+  "mentions": [
+    "A005648",
+    "A052307",
+    "A077078",
+    "A103691"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

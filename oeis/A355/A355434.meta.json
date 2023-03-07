@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least start of exactly n consecutive numbers k that are sqrt(k)-smooth (A048098), or -1 if no such run exists.",
+  "id": "A355434",
+  "mentions": [
+    "A048098",
+    "A355433"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

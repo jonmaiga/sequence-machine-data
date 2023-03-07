@@ -1,0 +1,28 @@
+{
+  "description": "Number of partitions of n into exactly k different parts with distinct multiplicities; triangle T(n,k), n>=0, 0<=k<=max{i:A000292(i)<=n}, read by rows.",
+  "id": "A182485",
+  "mentions": [
+    "A000005",
+    "A000007",
+    "A000292",
+    "A098859",
+    "A182473",
+    "A212114",
+    "A212115",
+    "A212116",
+    "A212117",
+    "A212118",
+    "A242896"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

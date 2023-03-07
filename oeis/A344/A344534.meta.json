@@ -1,0 +1,37 @@
+{
+  "description": "For any number n with binary expansion Sum_{k = 1..m} 2^e_k (where 0 <= e_1 < ... < e_m), a(n) = Product_{k = 1..m} prime(1+A002262(e_k))^2^A025581(e_k) (where prime(k) denotes the k-th prime number).",
+  "id": "A344534",
+  "mentions": [
+    "A000120",
+    "A002262",
+    "A003987",
+    "A006125",
+    "A025581",
+    "A036442",
+    "A052330",
+    "A059897",
+    "A059900",
+    "A064547",
+    "A225546",
+    "A225547",
+    "A261195",
+    "A329050",
+    "A329329",
+    "A329331",
+    "A344531",
+    "A344535",
+    "A344536"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

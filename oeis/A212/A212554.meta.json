@@ -1,0 +1,20 @@
+{
+  "description": "Products of supersingular primes (A002267).",
+  "id": "A212554",
+  "mentions": [
+    "A002267",
+    "A108764",
+    "A174670"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

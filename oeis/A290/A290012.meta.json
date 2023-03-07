@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest prime number p satisfying p^2 >= Sum_{1 <= k <= n} prime(k)^2.",
+  "id": "A290012",
+  "mentions": [
+    "A076873"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

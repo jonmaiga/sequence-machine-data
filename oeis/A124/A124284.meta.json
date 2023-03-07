@@ -1,0 +1,29 @@
+{
+  "description": "Prime(4almostprime(n))-4almostprime(prime(n)). Commutator [A000040,A014613] at n.",
+  "id": "A124284",
+  "mentions": [
+    "A000040",
+    "A014613",
+    "A106349",
+    "A106350",
+    "A114414",
+    "A122824",
+    "A124268",
+    "A124269",
+    "A124270",
+    "A124282",
+    "A124283"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

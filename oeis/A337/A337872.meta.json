@@ -1,0 +1,18 @@
+{
+  "description": "Primes obtained by interpreting the decimal representation of a prime p in base q, where q is the prime before p.",
+  "id": "A337872",
+  "mentions": [
+    "A337871"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

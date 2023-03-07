@@ -1,0 +1,21 @@
+{
+  "description": "Number of solutions of the equation k = n*sopf(k) in positive integers where sopf(k) is the sum of distinct prime factors of k.",
+  "id": "A336099",
+  "mentions": [
+    "A002110",
+    "A007504",
+    "A008472",
+    "A158804",
+    "A336098"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 2,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

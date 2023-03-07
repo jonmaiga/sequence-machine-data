@@ -1,0 +1,21 @@
+{
+  "description": "Unsigned numerators of the nonzero coefficients in the expansion of 1/hypergeom([], [Seq_{k=1..m-1} k/m], (x/m)^m) for m = 4.",
+  "id": "A273192",
+  "mentions": [
+    "A000012",
+    "A046976",
+    "A273193",
+    "A273194"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

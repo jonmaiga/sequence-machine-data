@@ -1,0 +1,23 @@
+{
+  "description": "Record values in A130571.",
+  "id": "A130576",
+  "mentions": [
+    "A009996",
+    "A032873",
+    "A032907",
+    "A072543",
+    "A084383",
+    "A130571",
+    "A130577"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

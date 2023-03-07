@@ -1,0 +1,24 @@
+{
+  "description": "Integers b where the number of cycles under iteration of sum of squares of digits in base b is exactly three.",
+  "id": "A336744",
+  "mentions": [
+    "A193583",
+    "A193585",
+    "A336762",
+    "A336783"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

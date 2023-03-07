@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of value of the Fermi coupling constant G_F in GeV^(-2).",
+  "id": "A301974",
+  "mentions": [
+    "A002193"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": -5,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

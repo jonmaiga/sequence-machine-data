@@ -1,0 +1,21 @@
+{
+  "description": "Absolute value of the numerators of a series converging to Euler's constant.",
+  "id": "A302120",
+  "mentions": [
+    "A262856",
+    "A262858",
+    "A302121"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

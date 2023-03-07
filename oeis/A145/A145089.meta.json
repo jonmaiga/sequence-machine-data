@@ -1,0 +1,23 @@
+{
+  "description": "Row 4 of square table A145085.",
+  "id": "A145089",
+  "mentions": [
+    "A145080",
+    "A145084",
+    "A145085",
+    "A145086",
+    "A145087",
+    "A145088"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

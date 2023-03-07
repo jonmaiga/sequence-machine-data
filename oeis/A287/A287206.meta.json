@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of direct sum decompositions of a finite vector space of n dimensions over GF(2) that have exactly k subspaces of dimension 1, n>=0, 0<=k<=n.",
+  "id": "A287206",
+  "mentions": [
+    "A002884",
+    "A053601",
+    "A270881",
+    "A289540",
+    "A289543"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

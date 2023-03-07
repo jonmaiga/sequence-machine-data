@@ -1,0 +1,19 @@
+{
+  "description": "Generalized Euler numbers, a(n) = n!*[x^n](sec(9*x)*(4*sin(3*x) + 2)*cos(3*x)^2).",
+  "id": "A349268",
+  "mentions": [
+    "A064070",
+    "A064074",
+    "A349264"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

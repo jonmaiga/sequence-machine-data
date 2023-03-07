@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: Fill an n X n square with 1's, except for 0's on the two main diagonals. Then T(n,k) is decimal equivalent of the k-th row (0<=k<=n).",
+  "id": "A267090",
+  "mentions": [
+    "A000225",
+    "A042948",
+    "A129868",
+    "A137932",
+    "A220236",
+    "A267089"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Largest Fibonacci proper divisor of n, a(1) = 1.",
+  "id": "A280686",
+  "mentions": [
+    "A000045",
+    "A001690",
+    "A032742",
+    "A054494",
+    "A105800",
+    "A280687",
+    "A280696"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 116,
+    "source": "oeis-bfile"
+  }
+}

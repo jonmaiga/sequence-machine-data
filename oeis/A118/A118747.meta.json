@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = product[k=1..n] P(k), where P(k) is the largest prime <= 2*k. a(n) = product[k=1..n] A060308(k).",
+  "id": "A118747",
+  "mentions": [
+    "A020482",
+    "A049653",
+    "A060264",
+    "A060265",
+    "A060266",
+    "A060268",
+    "A060308",
+    "A118455",
+    "A118456",
+    "A118748"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that both 4*n+1 and 6*n+1 are primes.",
+  "id": "A255607",
+  "mentions": [
+    "A001358",
+    "A033570",
+    "A130800",
+    "A186721",
+    "A255584"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:24",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

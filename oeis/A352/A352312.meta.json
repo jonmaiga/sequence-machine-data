@@ -1,0 +1,21 @@
+{
+  "description": "Start of the first run of exactly n consecutive primes using only prime digits.",
+  "id": "A352312",
+  "mentions": [
+    "A019546",
+    "A082755",
+    "A343471"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

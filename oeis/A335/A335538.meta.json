@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Numerator(-4*n^2*Zeta(1 - n)*Zeta(n)*(1 - 2^(1 - n)) / Pi^n) for n >= 2, a(0) = 0, a(1) = 1.",
+  "id": "A335538",
+  "mentions": [
+    "A027642",
+    "A164555",
+    "A327497",
+    "A335264",
+    "A335265",
+    "A335539"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

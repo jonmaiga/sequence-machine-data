@@ -1,0 +1,38 @@
+{
+  "description": "An omega analog for a nonstandard factorization based on the sieve of Eratosthenes (A083221).",
+  "id": "A302041",
+  "mentions": [
+    "A000265",
+    "A001221",
+    "A003961",
+    "A020639",
+    "A055396",
+    "A069010",
+    "A078898",
+    "A083221",
+    "A250246",
+    "A250469",
+    "A252754",
+    "A253557",
+    "A268674",
+    "A302031",
+    "A302039",
+    "A302040",
+    "A302044",
+    "A302050",
+    "A302051",
+    "A302052",
+    "A302055"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

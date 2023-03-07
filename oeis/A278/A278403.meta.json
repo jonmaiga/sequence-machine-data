@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{d|n} d^2 * (d+1)/2.",
+  "id": "A278403",
+  "mentions": [
+    "A000294",
+    "A001157",
+    "A001158",
+    "A277613"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

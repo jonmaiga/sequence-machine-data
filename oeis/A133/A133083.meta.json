@@ -1,0 +1,21 @@
+{
+  "description": "A000012 * A133080.",
+  "id": "A133083",
+  "mentions": [
+    "A000012",
+    "A032766",
+    "A133080"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:21",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

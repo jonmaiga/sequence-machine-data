@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of unordered pairs of nodes at distance k in the circumcoronene H(n) (n=1,2,3,4,5; see definition in the Klavzar papers).",
+  "id": "A214581",
+  "mentions": [
+    "A004126",
+    "A028387",
+    "A033428",
+    "A069131",
+    "A143366",
+    "A152743",
+    "A153796",
+    "A214580"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

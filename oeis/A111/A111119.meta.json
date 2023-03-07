@@ -1,0 +1,18 @@
+{
+  "description": "Product{1<=k<=n,GCD(k,n)=1} F(k), where F(k) is the k-th Fibonacci number.",
+  "id": "A111119",
+  "mentions": [
+    "A000045",
+    "A070964"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

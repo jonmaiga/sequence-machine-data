@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers n such that Fibonacci(2*n) is the sum of two squares.",
+  "id": "A124132",
+  "mentions": [
+    "A001481",
+    "A001906",
+    "A124130"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

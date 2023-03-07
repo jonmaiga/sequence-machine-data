@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that 6*n + {1, 5, 7} are all primes.",
+  "id": "A215918",
+  "mentions": [
+    "A022005",
+    "A056956"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:42:13",
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

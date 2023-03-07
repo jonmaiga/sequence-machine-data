@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = total number of partitions of [1, 2, ..., k] into exactly n blocks, each of size 1, 2, 3 or 4, for 0 <= k <= 4n.",
+  "id": "A144508",
+  "mentions": [
+    "A001515",
+    "A144416",
+    "A144509",
+    "A149187",
+    "A281358",
+    "A281359",
+    "A281360",
+    "A281361"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

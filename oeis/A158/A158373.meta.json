@@ -1,0 +1,19 @@
+{
+  "description": "625n^2 - 2n.",
+  "id": "A158373",
+  "mentions": [
+    "A158374"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

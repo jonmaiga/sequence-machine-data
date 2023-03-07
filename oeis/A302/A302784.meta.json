@@ -1,0 +1,21 @@
+{
+  "description": "Inverse permutation to A302783: a(n) = A003188(A052331(n)).",
+  "id": "A302784",
+  "mentions": [
+    "A003188",
+    "A052331",
+    "A302029",
+    "A302783"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

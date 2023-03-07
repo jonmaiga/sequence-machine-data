@@ -1,0 +1,20 @@
+{
+  "description": "Column k=2 of triangle A257673.",
+  "id": "A321947",
+  "mentions": [
+    "A000219",
+    "A161870",
+    "A257673"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 2,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

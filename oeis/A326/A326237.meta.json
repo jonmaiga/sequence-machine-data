@@ -1,0 +1,33 @@
+{
+  "description": "Number of non-nesting digraphs with vertices {1..n}, where two edges (a,b), (c,d) are nesting if a < c and b > d or a > c and b < d.",
+  "id": "A326237",
+  "mentions": [
+    "A000108",
+    "A002416",
+    "A002720",
+    "A054391",
+    "A058681",
+    "A122880",
+    "A152254",
+    "A229865",
+    "A326209",
+    "A326249",
+    "A326250",
+    "A326251",
+    "A326254",
+    "A326256",
+    "A326257"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

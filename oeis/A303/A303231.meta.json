@@ -1,0 +1,21 @@
+{
+  "description": "Total volume of all rectangular prisms with dimensions q, p+q and |q-p| such that p and q are prime, n = p+q and p < q.",
+  "id": "A303231",
+  "mentions": [
+    "A010051",
+    "A028723",
+    "A112742"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

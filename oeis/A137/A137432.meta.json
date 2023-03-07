@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to place n^2 nonattacking kings on a 2n X 2n cylindrical chessboard.",
+  "id": "A137432",
+  "mentions": [
+    "A018807",
+    "A173033"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

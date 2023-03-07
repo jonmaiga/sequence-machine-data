@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1, and for any n > 0, a(n+1) is the number of occurrences of the n-th digit of the sequence among the first n digits of the sequence.",
+  "id": "A322182",
+  "mentions": [
+    "A248034"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:45",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

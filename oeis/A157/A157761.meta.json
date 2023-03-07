@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 297754*n - 53000.",
+  "id": "A157761",
+  "mentions": [
+    "A157760",
+    "A157762"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Primes p such that p*q+q*r+r*s is prime, where q,r,s are the next primes after p.",
+  "id": "A340408",
+  "mentions": [
+    "A287653"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

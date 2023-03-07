@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle T(n, k) read by rows: row n gives the periods of the cycles of binary quadratic forms of discriminant 4*D(n), with D(n) = A000037(n).",
+  "id": "A307378",
+  "mentions": [
+    "A000037",
+    "A000194",
+    "A307236",
+    "A307359",
+    "A307372",
+    "A324251"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

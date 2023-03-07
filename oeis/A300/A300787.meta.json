@@ -1,0 +1,31 @@
+{
+  "description": "Number of integer partitions of n in which the even parts appear as often at even positions as at odd positions.",
+  "id": "A300787",
+  "mentions": [
+    "A000712",
+    "A000898",
+    "A001405",
+    "A001523",
+    "A006330",
+    "A026010",
+    "A045931",
+    "A058696",
+    "A063886",
+    "A097613",
+    "A130780",
+    "A171966",
+    "A239241",
+    "A300788",
+    "A300789"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

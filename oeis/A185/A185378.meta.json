@@ -1,0 +1,18 @@
+{
+  "description": "Number of binary necklaces of 2n beads that are identical when turned over yet cannot be cut to produce a palindrome.",
+  "id": "A185378",
+  "mentions": [
+    "A029744",
+    "A185333"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

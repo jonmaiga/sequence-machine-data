@@ -1,0 +1,28 @@
+{
+  "description": "Numbers of the form 2^k * p where k > 0 and p is an odd prime.",
+  "id": "A100368",
+  "mentions": [
+    "A001221",
+    "A006530",
+    "A036348",
+    "A038550",
+    "A078834",
+    "A098202",
+    "A098902",
+    "A100367",
+    "A100484",
+    "A128691"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:51",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

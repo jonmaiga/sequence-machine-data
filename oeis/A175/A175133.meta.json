@@ -1,0 +1,21 @@
+{
+  "description": "Sum of first n consecutive primes gives a triangular number.",
+  "id": "A175133",
+  "mentions": [
+    "A000040",
+    "A000217",
+    "A007504",
+    "A066527"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

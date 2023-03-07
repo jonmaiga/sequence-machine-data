@@ -1,0 +1,20 @@
+{
+  "description": "Complete list of solutions to y^2 = x^3 - 7x + 10; sequence gives x values.",
+  "id": "A316456",
+  "mentions": [
+    "A029728",
+    "A047694"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "full",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

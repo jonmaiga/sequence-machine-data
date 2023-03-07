@@ -1,0 +1,20 @@
+{
+  "description": "Denominator of the expected number of distinct squares visited by a knight's random walk on an infinite chessboard after n steps.",
+  "id": "A326955",
+  "mentions": [
+    "A309221",
+    "A326954"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "frac",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

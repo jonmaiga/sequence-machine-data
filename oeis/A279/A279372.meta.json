@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (Sum_{k>=1} x^(prime(k)^2))^2.",
+  "id": "A279372",
+  "mentions": [
+    "A001248",
+    "A063725",
+    "A073610",
+    "A302048"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

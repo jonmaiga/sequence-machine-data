@@ -1,0 +1,31 @@
+{
+  "description": "Number of ways to write n as a product of a number that is not a perfect power and a squarefree number.",
+  "id": "A304326",
+  "mentions": [
+    "A000961",
+    "A001055",
+    "A001597",
+    "A001694",
+    "A005117",
+    "A007916",
+    "A034444",
+    "A075427",
+    "A091050",
+    "A183096",
+    "A246549",
+    "A303386",
+    "A303707",
+    "A304327",
+    "A304328"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

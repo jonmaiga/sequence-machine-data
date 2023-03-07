@@ -1,0 +1,25 @@
+{
+  "description": "Number of main classes of diagonal Latin squares of order n with at least one orthogonal diagonal mate.",
+  "id": "A330391",
+  "mentions": [
+    "A287651",
+    "A287695",
+    "A287764",
+    "A305570",
+    "A305571",
+    "A337309"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

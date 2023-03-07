@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n^4 * Sum_{d|n} (-1)^(n/d + 1) * mu(d) / d^4.",
+  "id": "A338549",
+  "mentions": [
+    "A008683",
+    "A059377",
+    "A279395",
+    "A325596",
+    "A338547",
+    "A338548"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

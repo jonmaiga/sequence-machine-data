@@ -1,0 +1,21 @@
+{
+  "description": "Absolute values of differences of A036274",
+  "id": "A194947",
+  "mentions": [
+    "A001223",
+    "A036263",
+    "A036272",
+    "A036273",
+    "A036274"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{d|n} sigma(d)^(n/d).",
+  "id": "A344061",
+  "mentions": [
+    "A007429",
+    "A055225",
+    "A279789",
+    "A309369",
+    "A342471",
+    "A344060"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

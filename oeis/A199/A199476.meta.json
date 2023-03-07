@@ -1,0 +1,18 @@
+{
+  "description": "Triangle read by rows: number of inequivalent classes of true tripartite entanglement systems of type 2 X M X N, for 2 <= N <= M.",
+  "id": "A199476",
+  "mentions": [
+    "A199477"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

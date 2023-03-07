@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n for which (prime(n+1)-prime(n)) mod 3 = 1.",
+  "id": "A270191",
+  "mentions": [
+    "A000040",
+    "A001223",
+    "A137264",
+    "A270189",
+    "A270190",
+    "A270192"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:33",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

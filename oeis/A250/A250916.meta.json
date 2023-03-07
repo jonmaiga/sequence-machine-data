@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f.: exp(C(x)^2 - 1) where C(x) = 1 + x*C(x)^2 is the g.f. of the Catalan numbers, A000108.",
+  "id": "A250916",
+  "mentions": [
+    "A000108",
+    "A250917",
+    "A251568"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 16:27:59",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

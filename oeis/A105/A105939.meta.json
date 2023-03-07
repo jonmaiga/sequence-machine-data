@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = binomial(n+3,3)*binomial(n+6,3).",
+  "id": "A105939",
+  "mentions": [
+    "A000292",
+    "A000579",
+    "A062145"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

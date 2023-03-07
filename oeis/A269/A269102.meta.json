@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n 0..3 arrays with some element plus some horizontally or vertically adjacent neighbor totalling three no more than once.",
+  "id": "A269102",
+  "mentions": [
+    "A269109"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:31",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

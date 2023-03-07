@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of f(x, x^3) * f(x^4, x^5) in powers of x where f(, ) is Ramanujan's general theta function.",
+  "id": "A281492",
+  "mentions": [
+    "A010815",
+    "A281451"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:51:31",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

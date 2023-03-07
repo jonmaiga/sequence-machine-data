@@ -1,0 +1,24 @@
+{
+  "description": "(2*5^(2^n) - 1) mod 10^n: a sequence of trimorphic numbers ending in 9.",
+  "id": "A224473",
+  "mentions": [
+    "A002283",
+    "A007185",
+    "A033819",
+    "A091661",
+    "A198971",
+    "A224475"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

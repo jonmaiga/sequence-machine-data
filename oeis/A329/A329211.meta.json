@@ -1,0 +1,28 @@
+{
+  "description": "Decimal expansion of the fundamental frequency of the note E4 in hertz.",
+  "id": "A329211",
+  "mentions": [
+    "A329207",
+    "A329208",
+    "A329209",
+    "A329212",
+    "A329213",
+    "A329214",
+    "A329215",
+    "A329217",
+    "A329218"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:50:23",
+    "offset": 3,
+    "size": 91,
+    "source": "joeis"
+  }
+}

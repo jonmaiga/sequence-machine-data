@@ -1,0 +1,31 @@
+{
+  "description": "a(n) = Product_{d|n, d>1} prime(A286561(n,d)), where A286561(n,d) gives the highest exponent of d dividing n.",
+  "id": "A293514",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A007814",
+    "A032741",
+    "A046951",
+    "A056239",
+    "A056595",
+    "A064989",
+    "A169594",
+    "A286561",
+    "A293442",
+    "A293515",
+    "A293524",
+    "A294876"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

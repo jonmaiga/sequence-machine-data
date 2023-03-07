@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that the reversal of phi(n) is sigma(n)-n.",
+  "id": "A254320",
+  "mentions": [
+    "A000010",
+    "A000203",
+    "A001065",
+    "A069225",
+    "A247080"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

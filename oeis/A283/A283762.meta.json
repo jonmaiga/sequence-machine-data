@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of (x + Sum_{k>=1} x^prime(k))^3.",
+  "id": "A283762",
+  "mentions": [
+    "A008578",
+    "A068307",
+    "A098238",
+    "A124867"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:54",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

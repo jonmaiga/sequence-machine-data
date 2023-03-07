@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of partitions of the set {1,2,...,n}, having exactly k blocks consisting of entries of the same parity (0<=k<=n).",
+  "id": "A124424",
+  "mentions": [
+    "A000110",
+    "A124418",
+    "A124419",
+    "A124420",
+    "A124421",
+    "A124422",
+    "A124423",
+    "A124425"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

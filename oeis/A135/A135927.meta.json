@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = a(n-1)^2 - 2 with a(1) = 10.",
+  "id": "A135927",
+  "mentions": [
+    "A000043",
+    "A000668",
+    "A001566",
+    "A003010",
+    "A095847",
+    "A135928",
+    "A246723"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

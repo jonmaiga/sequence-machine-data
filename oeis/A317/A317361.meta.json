@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the index of the first occurrence of n in A317359.",
+  "id": "A317361",
+  "mentions": [
+    "A317359"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:36",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

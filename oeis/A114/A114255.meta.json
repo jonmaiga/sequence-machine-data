@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are nontrivial (3 digits or more) palindromes when expressed in some base 2 or greater.",
+  "id": "A114255",
+  "mentions": [
+    "A060873",
+    "A060879",
+    "A060947",
+    "A060949",
+    "A123586"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

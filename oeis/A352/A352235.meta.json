@@ -1,0 +1,23 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = 1 + x*A(x) / (A(x) - 3*x*A'(x)).",
+  "id": "A352235",
+  "mentions": [
+    "A088715",
+    "A286797",
+    "A317352",
+    "A352236",
+    "A352237",
+    "A352238"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

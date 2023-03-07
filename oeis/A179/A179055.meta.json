@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the product of all numbers formed by cyclically permuting digits of k is a square.",
+  "id": "A179055",
+  "mentions": [
+    "A061147",
+    "A061378",
+    "A062003"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

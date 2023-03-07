@@ -1,0 +1,22 @@
+{
+  "description": "Number of bicolored trees on n unlabeled nodes such that black nodes are not adjacent to each other.",
+  "id": "A339830",
+  "mentions": [
+    "A038056",
+    "A339829",
+    "A339831",
+    "A339832",
+    "A339834",
+    "A339837"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

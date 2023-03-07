@@ -1,0 +1,23 @@
+{
+  "description": "Number of times the binary representation of n occurs in the concatenation of the binary representation of all smaller numbers.",
+  "id": "A187752",
+  "mentions": [
+    "A048991",
+    "A048992",
+    "A116700",
+    "A118247",
+    "A118248",
+    "A118251",
+    "A161373"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

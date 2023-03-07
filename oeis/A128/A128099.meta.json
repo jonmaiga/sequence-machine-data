@@ -1,0 +1,31 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of ways to tile a 3 X n rectangle with k pieces of 2 X 2 tiles and 3n-4k pieces of 1 X 1 tiles (0 <= k <= floor(n/2)).",
+  "id": "A128099",
+  "mentions": [
+    "A001045",
+    "A008315",
+    "A011973",
+    "A013609",
+    "A038207",
+    "A052942",
+    "A052947",
+    "A077909",
+    "A077949",
+    "A095977",
+    "A102541",
+    "A113726",
+    "A207538"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:15",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Number of factorizations of n into factors > 1 where all factors have the same number of prime factors counted with multiplicity.",
+  "id": "A322794",
+  "mentions": [
+    "A001055",
+    "A001222",
+    "A038041",
+    "A112798",
+    "A306017",
+    "A306021",
+    "A317583",
+    "A319169",
+    "A320324",
+    "A321455",
+    "A321469",
+    "A326514",
+    "A326515",
+    "A326516"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

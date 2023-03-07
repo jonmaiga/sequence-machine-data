@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to write n as p + x^3 + y^4, where p is a prime, and x and y are nonnegative integers.",
+  "id": "A276415",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A000578",
+    "A000583"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

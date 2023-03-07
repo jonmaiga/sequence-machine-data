@@ -1,0 +1,18 @@
+{
+  "description": "Let T(G) be the sum of the degrees of the irreducible complex matrix representations of a finite group G, and let N(G) = |G|*T(G). Sequence gives allowable values of N(G).",
+  "id": "A341296",
+  "mentions": [
+    "A341297"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

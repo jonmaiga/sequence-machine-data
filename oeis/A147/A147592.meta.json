@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of 1/(1 + x - x^2 - 3*x^3 - x^4 + x^5 + x^6).",
+  "id": "A147592",
+  "mentions": [
+    "A147593",
+    "A147598",
+    "A147605",
+    "A147606"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

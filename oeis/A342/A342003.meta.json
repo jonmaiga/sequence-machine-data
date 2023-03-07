@@ -1,0 +1,29 @@
+{
+  "description": "Maximal exponent in the prime factorization of the arithmetic derivative of n: a(n) = A051903(A003415(n)).",
+  "id": "A342003",
+  "mentions": [
+    "A000040",
+    "A003415",
+    "A051903",
+    "A328234",
+    "A328310",
+    "A328311",
+    "A328320",
+    "A328321",
+    "A328393",
+    "A341994",
+    "A341995",
+    "A342004"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 2,
+    "size": 104,
+    "source": "oeis-bfile"
+  }
+}

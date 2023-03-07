@@ -1,0 +1,22 @@
+{
+  "description": "Numbers where each digit can be paired with a digit of the same value at another position so that two pairs can be nested but cannot otherwise overlap.",
+  "id": "A333440",
+  "mentions": [
+    "A014486",
+    "A056524",
+    "A283871",
+    "A333399"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

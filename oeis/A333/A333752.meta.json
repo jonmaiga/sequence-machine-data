@@ -1,0 +1,26 @@
+{
+  "description": "Sum of squarefree divisors of n that are <= sqrt(n).",
+  "id": "A333752",
+  "mentions": [
+    "A005117",
+    "A048250",
+    "A066839",
+    "A069289",
+    "A069293",
+    "A097974",
+    "A333749",
+    "A333751",
+    "A333753"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

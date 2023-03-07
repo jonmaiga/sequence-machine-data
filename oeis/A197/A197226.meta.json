@@ -1,0 +1,19 @@
+{
+  "description": "The period of the decimal fraction 1/A197225(n).",
+  "id": "A197226",
+  "mentions": [
+    "A000961",
+    "A197225"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

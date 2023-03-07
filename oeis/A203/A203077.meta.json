@@ -1,0 +1,17 @@
+{
+  "description": "Alternating-parity rearrangement of natural numbers: a(n) is the smallest number such that a(n-1)^2 + a(n)^2 is odd and composite.",
+  "id": "A203077",
+  "mentions": [
+    "A203069"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

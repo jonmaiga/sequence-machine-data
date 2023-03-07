@@ -1,0 +1,25 @@
+{
+  "description": "Permutation of natural numbers: concatenation of subsequences A161924(A000070(k-1)..A026905(k)), k >= 1, each sorted into ascending order.",
+  "id": "A161919",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A026905",
+    "A036042",
+    "A125106",
+    "A161511",
+    "A161924",
+    "A166277"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:44",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

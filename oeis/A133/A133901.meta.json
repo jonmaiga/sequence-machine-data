@@ -1,0 +1,21 @@
+{
+  "description": "Numbers in A128921 whose square is not a palindrome.",
+  "id": "A133901",
+  "mentions": [
+    "A002113",
+    "A057135",
+    "A057136",
+    "A128921"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

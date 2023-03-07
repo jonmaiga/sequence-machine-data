@@ -1,0 +1,19 @@
+{
+  "description": "The number of iterations of the bi-unitary totient A116550 needed to reach 1 starting with n.",
+  "id": "A225320",
+  "mentions": [
+    "A005424",
+    "A116550"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "description": "a(n) = gcd(sigma(n), A003961(n)), where A003961 is fully multiplicative with a(prime(k)) = prime(k+1), and sigma is the sum of divisors of n.",
+  "id": "A342671",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A161942",
+    "A246278",
+    "A286385",
+    "A336850",
+    "A341529",
+    "A342672",
+    "A342673",
+    "A348992",
+    "A349161",
+    "A349162",
+    "A349163",
+    "A349164",
+    "A349165",
+    "A349166",
+    "A349167",
+    "A349169",
+    "A349745",
+    "A349756",
+    "A350071",
+    "A354827",
+    "A354828",
+    "A355828",
+    "A355833",
+    "A355924",
+    "A355932"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

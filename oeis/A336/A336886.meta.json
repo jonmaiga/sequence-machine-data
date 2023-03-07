@@ -1,0 +1,21 @@
+{
+  "description": "a(n) gives the number of all non-right angle triangles with pair of legs (X(n)_j, Y(n)_j) and base Z(n), where X(n)_j = sqrt(x(n)_j), Y(n)_j = sqrt(y(n)_j) and Z(n) = sqrt(z(n)), with integers x(n)_j <= y(n)_j <= z(n), such that the areas A(n)_j are positive integers, for j = 1, 2, ..., a(n). This implies that z(n) = A334818(n), for n >= 1.",
+  "id": "A336886",
+  "mentions": [
+    "A334818",
+    "A336885",
+    "A336887"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

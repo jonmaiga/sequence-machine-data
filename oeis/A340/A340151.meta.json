@@ -1,0 +1,21 @@
+{
+  "description": "Setwise difference A340150 \\ A340076.",
+  "id": "A340151",
+  "mentions": [
+    "A340075",
+    "A340076",
+    "A340091",
+    "A340149",
+    "A340150"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Side length of the smallest equilateral triangle that can be dissected into n equilateral triangles with integer sides, or 0 if no such triangle exists.",
+  "id": "A300001",
+  "mentions": [
+    "A068527",
+    "A123120",
+    "A290820",
+    "A299705"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

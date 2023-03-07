@@ -1,0 +1,22 @@
+{
+  "description": "Least number of lattice points on one side from which every point of a square n X n lattice is visible.",
+  "id": "A157792",
+  "mentions": [
+    "A157639",
+    "A157720",
+    "A157790",
+    "A157791"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:47",
+    "offset": 1,
+    "size": 72,
+    "source": "joeis"
+  }
+}

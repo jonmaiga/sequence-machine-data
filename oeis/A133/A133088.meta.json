@@ -1,0 +1,20 @@
+{
+  "description": "A007318^(-1) * A133080.",
+  "id": "A133088",
+  "mentions": [
+    "A007318",
+    "A123344",
+    "A133080"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

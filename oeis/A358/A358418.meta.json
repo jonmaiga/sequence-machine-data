@@ -1,0 +1,25 @@
+{
+  "description": "Least number k coprime to 2, 3, and 5 such that sigma(k)/k >= n.",
+  "id": "A358418",
+  "mentions": [
+    "A023199",
+    "A047802",
+    "A119240",
+    "A358412",
+    "A358413",
+    "A358414",
+    "A358419"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "bref",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 2,
+    "source": "oeis-bfile"
+  }
+}

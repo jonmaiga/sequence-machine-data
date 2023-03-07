@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=17; a(n)=floor((35+sum(a(1) to a(n-1)))/2).",
+  "id": "A120143",
+  "mentions": [
+    "A072493",
+    "A073941",
+    "A112088"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:09",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

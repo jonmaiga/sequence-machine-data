@@ -1,0 +1,21 @@
+{
+  "description": "Irregular table: the n-th row polynomial is given by the formal power series expansion of Sum_{k >= 0} (1 + q)^(n*k + n^2)*Product_{j = 1..k} (1 - (1 + q)^(2*j-1)), n >= 1.",
+  "id": "A340882",
+  "mentions": [
+    "A340880",
+    "A340883"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

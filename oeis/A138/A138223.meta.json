@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = the nearest divisor of n to the number of positive divisors of n. In case of tie, round up.",
+  "id": "A138223",
+  "mentions": [
+    "A000005",
+    "A138221",
+    "A138222",
+    "A138224"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

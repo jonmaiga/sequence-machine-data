@@ -1,0 +1,18 @@
+{
+  "description": "Ratios of successive terms of A270121.",
+  "id": "A270124",
+  "mentions": [
+    "A270121"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

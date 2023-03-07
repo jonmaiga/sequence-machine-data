@@ -1,0 +1,20 @@
+{
+  "description": "2 * Sum_{n>=3} 1/Fibonacci(n).",
+  "id": "A261390",
+  "mentions": [
+    "A000045",
+    "A079586"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

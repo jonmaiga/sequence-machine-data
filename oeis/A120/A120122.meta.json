@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n=phi(d_1*d_2*...*d_k)*(d_1+d_2+...+d_k) where d_1 d_2... d_k is the decimal expansion of n.",
+  "id": "A120122",
+  "mentions": [
+    "A120121",
+    "A120123"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

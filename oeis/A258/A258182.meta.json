@@ -1,0 +1,19 @@
+{
+  "description": "Numbers which divide the concatenation of the two previous primes.",
+  "id": "A258182",
+  "mentions": [
+    "A258183",
+    "A258184"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

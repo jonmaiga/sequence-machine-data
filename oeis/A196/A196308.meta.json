@@ -1,0 +1,18 @@
+{
+  "description": "A trisection of A196306.",
+  "id": "A196308",
+  "mentions": [
+    "A196306",
+    "A196307"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:18",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

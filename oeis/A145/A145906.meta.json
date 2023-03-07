@@ -1,0 +1,25 @@
+{
+  "description": "Concerning hypotenuses of triangles such that the sum of the two legs is a perfect square.",
+  "id": "A145906",
+  "mentions": [
+    "A020882",
+    "A058529",
+    "A089552",
+    "A120681",
+    "A143732",
+    "A144407",
+    "A147847",
+    "A152910"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

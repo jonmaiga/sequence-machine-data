@@ -1,0 +1,19 @@
+{
+  "description": "Semiprimes m = p*q such that p-1 and q-1 are semiprimes.",
+  "id": "A193165",
+  "mentions": [
+    "A001358",
+    "A005385",
+    "A193227"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "description": "Analog of A056239 for nonstandard factorization based on the sieve of Eratosthenes (A083221).",
+  "id": "A302039",
+  "mentions": [
+    "A000041",
+    "A020639",
+    "A055396",
+    "A056239",
+    "A078898",
+    "A083221",
+    "A250246",
+    "A253557",
+    "A302041",
+    "A302042",
+    "A302044",
+    "A302045",
+    "A302050",
+    "A302051",
+    "A302052",
+    "A302055"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

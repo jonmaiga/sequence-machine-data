@@ -1,0 +1,24 @@
+{
+  "description": "Ordinal transform of A060681, where A060681(n) = n - A032742(n).",
+  "id": "A322871",
+  "mentions": [
+    "A032742",
+    "A060681",
+    "A081373",
+    "A303756",
+    "A322870",
+    "A322872",
+    "A322873",
+    "A322874"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:46",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

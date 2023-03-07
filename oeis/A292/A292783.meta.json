@@ -1,0 +1,28 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals, where column k is the expansion of e.g.f. 1/sqrt(1 - 2*k*x).",
+  "id": "A292783",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A001147",
+    "A001477",
+    "A001813",
+    "A011781",
+    "A033428",
+    "A131182",
+    "A144828",
+    "A292784"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

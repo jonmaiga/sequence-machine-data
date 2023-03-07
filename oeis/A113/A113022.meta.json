@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = size of union of 2^k (mod 10^n), 0 < k <= 5^n.",
+  "id": "A113022",
+  "mentions": [
+    "A095810",
+    "A113023"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

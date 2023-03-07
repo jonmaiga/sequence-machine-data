@@ -1,0 +1,19 @@
+{
+  "description": "Secondary diagonal of triangle A118788.",
+  "id": "A118790",
+  "mentions": [
+    "A118788",
+    "A118789"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

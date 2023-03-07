@@ -1,0 +1,25 @@
+{
+  "description": "Last digit of n alphabetically.",
+  "id": "A134778",
+  "mentions": [
+    "A000052",
+    "A002282",
+    "A010785",
+    "A010888",
+    "A011540",
+    "A134777"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

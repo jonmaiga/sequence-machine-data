@@ -1,0 +1,22 @@
+{
+  "description": "Number of rooted trees with 2n nodes where each node has at most n children.",
+  "id": "A299039",
+  "mentions": [
+    "A051491",
+    "A100034",
+    "A244407",
+    "A299038",
+    "A299098"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:22",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

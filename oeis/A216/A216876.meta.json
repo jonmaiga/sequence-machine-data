@@ -1,0 +1,24 @@
+{
+  "description": "20k^2-20k-5 interleaved with 20k^2+5 for k=>0.",
+  "id": "A216876",
+  "mentions": [
+    "A178218",
+    "A214345",
+    "A214393",
+    "A214405",
+    "A214493",
+    "A216871"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:46:47",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

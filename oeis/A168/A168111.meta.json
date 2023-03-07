@@ -1,0 +1,26 @@
+{
+  "description": "Sum of the partition numbers of the proper divisors of n, with a(1) = 0.",
+  "id": "A168111",
+  "mentions": [
+    "A000041",
+    "A001065",
+    "A047968",
+    "A168016",
+    "A168017",
+    "A168018",
+    "A168020",
+    "A168021"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

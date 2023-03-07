@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1; a(n) = the reversal of (a(n-1) + sfd(a(n-1))), where sfd(n)= sum of factorials of the digits of n.",
+  "id": "A121103",
+  "mentions": [
+    "A061602"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

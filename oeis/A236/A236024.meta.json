@@ -1,0 +1,25 @@
+{
+  "description": "Record values in A236022.",
+  "id": "A236024",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001248",
+    "A236020",
+    "A236021",
+    "A236022",
+    "A236023",
+    "A236025",
+    "A236026"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

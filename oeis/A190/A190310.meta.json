@@ -1,0 +1,22 @@
+{
+  "description": "Number of obtuse isosceles triangles, distinct up to congruence, on an n X n grid (or geoboard).",
+  "id": "A190310",
+  "mentions": [
+    "A028419",
+    "A108279",
+    "A189978",
+    "A190022",
+    "A190309"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

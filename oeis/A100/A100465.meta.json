@@ -1,0 +1,19 @@
+{
+  "description": "Let p(1)=2, p(2)=3, p(3)=5, ... denote the primes and let E(n) = 1 + p(1) * p(2) * ... * p(n). Sequence gives primes p such that p(n+2) | E(n).",
+  "id": "A100465",
+  "mentions": [
+    "A006862",
+    "A066735"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

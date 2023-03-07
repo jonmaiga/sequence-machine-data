@@ -1,0 +1,20 @@
+{
+  "description": "The distribution of the distance from the first weak subcedance to 1 on permutations.",
+  "id": "A350158",
+  "mentions": [
+    "A000142",
+    "A129591"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

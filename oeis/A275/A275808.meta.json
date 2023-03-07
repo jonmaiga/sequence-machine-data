@@ -1,0 +1,26 @@
+{
+  "description": "a(0) = 0, for n >= 1, a(n) = A275736(n) XOR a(A257684(n)), where XOR is given by A003987.",
+  "id": "A275808",
+  "mentions": [
+    "A003987",
+    "A248663",
+    "A257684",
+    "A275728",
+    "A275734",
+    "A275736",
+    "A275809",
+    "A275810"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:41",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

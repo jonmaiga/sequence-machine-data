@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (n-5)*(n-6)*(n-7)*(n-16)/24.",
+  "id": "A167543",
+  "mentions": [
+    "A111373",
+    "A135929",
+    "A137276"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:43:31",
+    "offset": 8,
+    "size": 43,
+    "source": "joeis"
+  }
+}

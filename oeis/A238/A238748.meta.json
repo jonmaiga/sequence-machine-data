@@ -1,0 +1,33 @@
+{
+  "description": "Numbers n such that each integer that appears in the prime signature of n appears an even number of times.",
+  "id": "A238748",
+  "mentions": [
+    "A000005",
+    "A000379",
+    "A006881",
+    "A007422",
+    "A010052",
+    "A030229",
+    "A046386",
+    "A077448",
+    "A162142",
+    "A179690",
+    "A181819",
+    "A182850",
+    "A182860",
+    "A190108",
+    "A190465",
+    "A238747",
+    "A268390"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

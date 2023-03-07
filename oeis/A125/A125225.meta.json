@@ -1,0 +1,21 @@
+{
+  "description": "Numbers n such that n-1 can be represented as a sum of a subset of divisors of n.",
+  "id": "A125225",
+  "mentions": [
+    "A000225",
+    "A005153",
+    "A005231",
+    "A005835",
+    "A103288"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

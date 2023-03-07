@@ -1,0 +1,21 @@
+{
+  "description": "Define the first three terms to be 1, 1 and 1. All the other terms are obtained by concatenating the three previous terms.",
+  "id": "A111864",
+  "mentions": [
+    "A000213",
+    "A002275"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

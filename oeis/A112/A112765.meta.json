@@ -1,0 +1,32 @@
+{
+  "description": "Exponent of highest power of 5 dividing n. Or, 5-adic valuation of n.",
+  "id": "A112765",
+  "mentions": [
+    "A007814",
+    "A007949",
+    "A022337",
+    "A027868",
+    "A054899",
+    "A055457",
+    "A112762",
+    "A122840",
+    "A122841",
+    "A160093",
+    "A160094",
+    "A196563",
+    "A196564",
+    "A343251"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

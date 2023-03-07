@@ -1,0 +1,20 @@
+{
+  "description": "Table read by rows: run lengths in rows of A070950.",
+  "id": "A226481",
+  "mentions": [
+    "A005408",
+    "A070950",
+    "A226482"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

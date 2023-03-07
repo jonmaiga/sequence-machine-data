@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of nodes of degree 3 or 4 that are at distance n from the origin in the graph of the variant of the Rick Kenyon tiling where we tile a half-quadrant with L-tiles and backward-L tiles.",
+  "id": "A342179",
+  "mentions": [
+    "A341291",
+    "A341292",
+    "A342169"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

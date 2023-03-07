@@ -1,0 +1,23 @@
+{
+  "description": "Records in A152968.",
+  "id": "A152973",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A139251",
+    "A139252",
+    "A151688",
+    "A152968",
+    "A152978"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

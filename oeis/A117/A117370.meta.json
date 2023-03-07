@@ -1,0 +1,25 @@
+{
+  "description": "Number of primes between smallest prime divisor of n and largest prime divisor of n.",
+  "id": "A117370",
+  "mentions": [
+    "A000961",
+    "A001221",
+    "A006530",
+    "A020639",
+    "A055396",
+    "A061395",
+    "A117371",
+    "A243055"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-bfile"
+  }
+}

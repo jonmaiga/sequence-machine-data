@@ -1,0 +1,24 @@
+{
+  "description": "Number of minimal total dominating sets in the n-cycle graph.",
+  "id": "A300738",
+  "mentions": [
+    "A001608",
+    "A001638",
+    "A253413",
+    "A302653",
+    "A302655",
+    "A302918"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:25",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

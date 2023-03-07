@@ -1,0 +1,21 @@
+{
+  "description": "The greater of the lexicographically least pair (x, y) such that 0 < x < y and sigma(x) = sigma(y) = x + y - n.",
+  "id": "A285892",
+  "mentions": [
+    "A000203",
+    "A095702",
+    "A285889",
+    "A285890"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

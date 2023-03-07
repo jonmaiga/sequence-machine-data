@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 6144*n^4 - 29184*n^3 + 52416*n^2 - 41840*n + 12465.",
+  "id": "A272132",
+  "mentions": [
+    "A245244",
+    "A272131",
+    "A272133"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:09:47",
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

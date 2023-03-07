@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k for which there is an odd number of prime factors (when counted with multiplicity) in k*sigma(k), where sigma is the sum of divisors function.",
+  "id": "A359168",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A001222",
+    "A005820",
+    "A046060",
+    "A058063",
+    "A065997",
+    "A358767",
+    "A358768",
+    "A359166",
+    "A359167"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

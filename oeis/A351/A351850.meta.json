@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of iterations of the computation of the A351849 tag system when started from the word encoding n, or -1 if the number of iterations is infinite.",
+  "id": "A351850",
+  "mentions": [
+    "A006666",
+    "A070168",
+    "A285098",
+    "A351849"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

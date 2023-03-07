@@ -1,0 +1,24 @@
+{
+  "description": "Number of non-attacking placements of 3 rooks on an n X n board.",
+  "id": "A179058",
+  "mentions": [
+    "A144084",
+    "A163102",
+    "A179059",
+    "A291910",
+    "A291911",
+    "A291912"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:41:39",
+    "offset": 1,
+    "size": 29,
+    "source": "joeis"
+  }
+}

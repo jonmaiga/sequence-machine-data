@@ -1,0 +1,18 @@
+{
+  "description": "Total number of black cells after n iterations of Langton's ant with two ants on the grid placed side-by-side on neighboring squares and initially looking in the same direction.",
+  "id": "A309075",
+  "mentions": [
+    "A326352"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:04:33",
+    "offset": 0,
+    "size": 87,
+    "source": "joeis"
+  }
+}

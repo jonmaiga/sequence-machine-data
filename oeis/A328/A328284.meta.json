@@ -1,0 +1,30 @@
+{
+  "description": "An extension of the Jacobsthal numbers: 0, 0, 1, followed by A001045.",
+  "id": "A328284",
+  "mentions": [
+    "A000079",
+    "A000129",
+    "A001045",
+    "A005578",
+    "A054977",
+    "A063524",
+    "A086445",
+    "A139756",
+    "A139818",
+    "A141413",
+    "A166444",
+    "A183190",
+    "A257113"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:26:01",
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

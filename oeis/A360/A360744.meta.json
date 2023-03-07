@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the maximum number of locations 1..n-1 which can be reached starting from some location s, where jumps from location i to i +- a(i) are permitted (within 1..n-1); a(1)=1. See example.",
+  "id": "A360744",
+  "mentions": [
+    "A358838",
+    "A359005",
+    "A359008",
+    "A360593",
+    "A360594",
+    "A360595",
+    "A360745",
+    "A360746"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

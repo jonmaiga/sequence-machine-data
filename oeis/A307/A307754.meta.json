@@ -1,0 +1,20 @@
+{
+  "description": "Exponential convolution of number of partitions (A000041) and number of partitions into distinct parts (A000009).",
+  "id": "A307754",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A015128"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

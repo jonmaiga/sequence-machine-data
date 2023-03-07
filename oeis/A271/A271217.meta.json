@@ -1,0 +1,21 @@
+{
+  "description": "Number of symmetric reduced rearrangement maps.",
+  "id": "A271217",
+  "mentions": [
+    "A271212",
+    "A271214",
+    "A271216"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

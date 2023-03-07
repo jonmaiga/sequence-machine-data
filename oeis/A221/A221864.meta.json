@@ -1,0 +1,19 @@
+{
+  "description": "Number of forests (sets) of rooted labeled trees on {1,2,...,n} such that the node with label 1 is in the same rooted tree as the node with label 2.",
+  "id": "A221864",
+  "mentions": [
+    "A000169",
+    "A000272"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

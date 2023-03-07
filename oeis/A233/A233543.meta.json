@@ -1,0 +1,26 @@
+{
+  "description": "Table T(n,m) = m! read by rows.",
+  "id": "A233543",
+  "mentions": [
+    "A000142",
+    "A001113",
+    "A028310",
+    "A166350",
+    "A193738",
+    "A213936"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "frac",
+    "less",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:17:22",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

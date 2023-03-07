@@ -1,0 +1,29 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of partitions of n that are formed by k sections, k >= 1.",
+  "id": "A194799",
+  "mentions": [
+    "A000041",
+    "A002865",
+    "A116598",
+    "A135010",
+    "A138121",
+    "A182748",
+    "A186114",
+    "A187219",
+    "A193870",
+    "A194436",
+    "A194438",
+    "A194446"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

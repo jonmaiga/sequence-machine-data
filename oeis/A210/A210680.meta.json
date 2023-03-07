@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (3*a(n-1)) XOR a(n-2).",
+  "id": "A210680",
+  "mentions": [
+    "A101624",
+    "A168081",
+    "A204771"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:29",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

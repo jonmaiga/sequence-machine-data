@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 13*n^2 - 16*n + 5.",
+  "id": "A202141",
+  "mentions": [
+    "A154355",
+    "A161587",
+    "A190816"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:35:01",
+    "offset": 0,
+    "size": 43,
+    "source": "joeis"
+  }
+}

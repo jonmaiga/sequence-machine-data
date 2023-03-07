@@ -1,0 +1,18 @@
+{
+  "description": "Number of symmetrical fountains of n coins.",
+  "id": "A288005",
+  "mentions": [
+    "A005169",
+    "A288006"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:00",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

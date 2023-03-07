@@ -1,0 +1,21 @@
+{
+  "description": "Column 0 of triangle A185624; also, equals row sums of triangle A185620.",
+  "id": "A185625",
+  "mentions": [
+    "A185620",
+    "A185624",
+    "A185626",
+    "A185627",
+    "A185628"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

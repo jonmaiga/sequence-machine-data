@@ -1,0 +1,21 @@
+{
+  "description": "Continued fraction for (3*Pi)/8.",
+  "id": "A161685",
+  "mentions": [
+    "A093828",
+    "A195697",
+    "A195909",
+    "A195913"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cofr",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

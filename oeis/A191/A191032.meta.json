@@ -1,0 +1,25 @@
+{
+  "description": "Primes p with Kronecker symbol (p|46) = 1.",
+  "id": "A191032",
+  "mentions": [
+    "A191017",
+    "A191018",
+    "A191020",
+    "A191023",
+    "A191025",
+    "A191026",
+    "A191028",
+    "A191029"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:18:29",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

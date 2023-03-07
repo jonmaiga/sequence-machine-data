@@ -1,0 +1,24 @@
+{
+  "description": "Array A read by upward antidiagonals: A(n,k) = ((2*n+1)*9^k-1)/2, n,k >= 0.",
+  "id": "A255044",
+  "mentions": [
+    "A096053",
+    "A138894",
+    "A191681",
+    "A198964",
+    "A198969",
+    "A255043"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-02 23:23:33",
+    "offset": 0,
+    "size": 45,
+    "source": "joeis"
+  }
+}

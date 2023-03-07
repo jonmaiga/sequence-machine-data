@@ -1,0 +1,19 @@
+{
+  "description": "Positive numbers that are sums of proper substrings of their reversals.",
+  "id": "A121947",
+  "mentions": [
+    "A121535"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

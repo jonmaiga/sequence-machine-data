@@ -1,0 +1,20 @@
+{
+  "description": "Least number k such that d(k-1) = d(k+1) = 2n or 0 if no such k exists, where d(n)=A000005(n).",
+  "id": "A190646",
+  "mentions": [
+    "A000005",
+    "A067888",
+    "A075036",
+    "A190355"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:14",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

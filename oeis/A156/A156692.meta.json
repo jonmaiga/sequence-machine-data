@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n, k, m) = t(n,m)/( t(k,m) * t(n-k,m) ) with T(n, 0, m) = T(n, n, m) = 1, where t(n, m) = Product_{j=1..n} Product_{i=1..j-1} ( 1 - (m+1)*(i+1) ) and m = 3, read by rows.",
+  "id": "A156692",
+  "mentions": [
+    "A007318",
+    "A156690",
+    "A156691",
+    "A156693",
+    "A156698",
+    "A156727"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

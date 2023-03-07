@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the concatenation of triangular numbers T(k), T(k+1) and T(k+2) is prime.",
+  "id": "A158844",
+  "mentions": [
+    "A000217",
+    "A158750"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

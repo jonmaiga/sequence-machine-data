@@ -1,0 +1,20 @@
+{
+  "description": "Number of unordered pairs of rooted trees with a total of n nodes and an odd total of leaves.",
+  "id": "A339525",
+  "mentions": [
+    "A253013",
+    "A253014",
+    "A339524"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

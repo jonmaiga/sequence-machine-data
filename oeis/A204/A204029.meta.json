@@ -1,0 +1,20 @@
+{
+  "description": "Array: row n shows the coefficients of the characteristic polynomial of the n-th principal submatrix of f(i,j)=min(3i-2,3j-2) (A204028).",
+  "id": "A204029",
+  "mentions": [
+    "A202605",
+    "A204016",
+    "A204028"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:39:29",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

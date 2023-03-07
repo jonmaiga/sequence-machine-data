@@ -1,0 +1,28 @@
+{
+  "description": "Numbers all of whose divisors are members of A333369.",
+  "id": "A355773",
+  "mentions": [
+    "A062687",
+    "A155045",
+    "A190217",
+    "A329419",
+    "A333369",
+    "A337741",
+    "A353735",
+    "A355770",
+    "A355771",
+    "A355772",
+    "A355853"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

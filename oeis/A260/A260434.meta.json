@@ -1,0 +1,29 @@
+{
+  "description": "Permutation of natural numbers: a(1) = 1, a(2n) = A257803(1+a(n)), a(2n+1) = A257804(a(n)), where A257803 and A257804 give the positions of odd and even terms in A233271, the infinite trunk of inverted binary beanstalk.",
+  "id": "A260434",
+  "mentions": [
+    "A054429",
+    "A233271",
+    "A257803",
+    "A257804",
+    "A257806",
+    "A257807",
+    "A257808",
+    "A260430",
+    "A260432",
+    "A260433"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

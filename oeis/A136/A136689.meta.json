@@ -1,0 +1,22 @@
+{
+  "description": "Triangular sequence of q-Fibonacci polynomials for s=3: F(x,n) = x*F(x,n-1) + s*F(x,n-2).",
+  "id": "A136689",
+  "mentions": [
+    "A006130",
+    "A136688",
+    "A136705"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:45",
+    "offset": 1,
+    "size": 73,
+    "source": "joeis"
+  }
+}

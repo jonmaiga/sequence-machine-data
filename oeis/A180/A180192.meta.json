@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of [n] having k fixed blocks.",
+  "id": "A180192",
+  "mentions": [
+    "A000142",
+    "A000166",
+    "A000255",
+    "A001563",
+    "A177265"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

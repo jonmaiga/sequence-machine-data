@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of closed walks of length 2n along the edges of a cube based at vertex v that return to v exactly k times, n>=0, 0<=k<=n.",
+  "id": "A336667",
+  "mentions": [
+    "A054879",
+    "A328778"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

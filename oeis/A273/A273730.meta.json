@@ -1,0 +1,29 @@
+{
+  "description": "Square array read by antidiagonals: A(n,k) = number of permutations of n elements divided by the number of k-ary heaps on n+1 elements, n>=0, k>=1.",
+  "id": "A273730",
+  "mentions": [
+    "A000142",
+    "A133385",
+    "A273693",
+    "A273731",
+    "A273732",
+    "A273733",
+    "A273734",
+    "A273735",
+    "A273736",
+    "A273737",
+    "A273738"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

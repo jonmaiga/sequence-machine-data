@@ -1,0 +1,24 @@
+{
+  "description": "If n > 1 is a k-th power with k >= 2 then a(n) = 0, otherwise a(n) = 1.",
+  "id": "A132350",
+  "mentions": [
+    "A001597",
+    "A008683",
+    "A075802",
+    "A132349",
+    "A132351",
+    "A132352",
+    "A303946"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

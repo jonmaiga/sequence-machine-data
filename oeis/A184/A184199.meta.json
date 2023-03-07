@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n into an odd number of primes.",
+  "id": "A184199",
+  "mentions": [
+    "A000607",
+    "A048165",
+    "A184172",
+    "A184198"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:08",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

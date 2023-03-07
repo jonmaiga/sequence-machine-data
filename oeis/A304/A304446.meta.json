@@ -1,0 +1,20 @@
+{
+  "description": "Coefficient of x^n in Product_{k>=1} 1/(1-x^k)^(n^2).",
+  "id": "A304446",
+  "mentions": [
+    "A008485",
+    "A023871",
+    "A304445"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

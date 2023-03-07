@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations sigma of {1,2,...,n} such that sigma(i) divides i or i divides sigma(i) for 1 <= i <= n.",
+  "id": "A320843",
+  "mentions": [
+    "A005326"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

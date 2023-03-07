@@ -1,0 +1,30 @@
+{
+  "description": "Regular triangle where T(n,k) is the number of non-isomorphic connected set systems of weight n with density -1 <= k <= n-2.",
+  "id": "A321256",
+  "mentions": [
+    "A007716",
+    "A007718",
+    "A030019",
+    "A056156",
+    "A283877",
+    "A293607",
+    "A300913",
+    "A319557",
+    "A321155",
+    "A321228",
+    "A321253",
+    "A321254"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

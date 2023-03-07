@@ -1,0 +1,21 @@
+{
+  "description": "Primes having no representation of the form n -+ Omega(n), where Omega is A001222.",
+  "id": "A173032",
+  "mentions": [
+    "A001222",
+    "A069346",
+    "A069348",
+    "A069350",
+    "A069351"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:57",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

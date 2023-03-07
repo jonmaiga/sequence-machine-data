@@ -1,0 +1,25 @@
+{
+  "description": "List of imprimitive words over the alphabet {2,3}.",
+  "id": "A213974",
+  "mentions": [
+    "A032810",
+    "A213969",
+    "A213970",
+    "A213971",
+    "A213972",
+    "A213973",
+    "A239017",
+    "A239018"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

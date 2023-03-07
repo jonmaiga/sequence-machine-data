@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = difference between Jacobi-first-non-one(24n+1) and Jacobi-first-non-one(24n-1).",
+  "id": "A112080",
+  "mentions": [
+    "A112054",
+    "A112056",
+    "A112059",
+    "A112081",
+    "A112082"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

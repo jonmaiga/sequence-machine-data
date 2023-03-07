@@ -1,0 +1,21 @@
+{
+  "description": "Total length of all longest runs of 0's in multus bitstrings of length n.",
+  "id": "A333396",
+  "mentions": [
+    "A005251",
+    "A119706",
+    "A333394",
+    "A333395"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

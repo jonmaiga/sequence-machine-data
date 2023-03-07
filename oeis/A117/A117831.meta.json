@@ -1,0 +1,41 @@
+{
+  "description": "Let S_n be the infinite sequence formed by starting with n and repeatedly reversing the digits and adding 4 to get the next term. Sequence gives number of steps for S_n to reach a cycle, or -1 if no cycle is ever reached.",
+  "id": "A117831",
+  "mentions": [
+    "A117230",
+    "A117521",
+    "A117800",
+    "A117807",
+    "A117816",
+    "A117817",
+    "A117827",
+    "A117828",
+    "A117829",
+    "A117830",
+    "A117837",
+    "A117841",
+    "A118473",
+    "A118474",
+    "A118510",
+    "A118511",
+    "A118512",
+    "A118513",
+    "A118514",
+    "A118515",
+    "A118516",
+    "A118517",
+    "A118533",
+    "A118535"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

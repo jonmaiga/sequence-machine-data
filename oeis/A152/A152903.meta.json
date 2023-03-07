@@ -1,0 +1,22 @@
+{
+  "description": "Convolution triangle: A152901 * (A152902 * 0^(n-k))",
+  "id": "A152903",
+  "mentions": [
+    "A000027",
+    "A008683",
+    "A152901",
+    "A152902"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

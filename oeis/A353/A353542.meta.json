@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the least start of a run of n consecutive numbers whose abundancy index is larger than Pi^2/6.",
+  "id": "A353542",
+  "mentions": [
+    "A000203",
+    "A013661",
+    "A094268",
+    "A353537",
+    "A353538",
+    "A353539",
+    "A353540",
+    "A353541"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

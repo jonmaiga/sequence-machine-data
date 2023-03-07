@@ -1,0 +1,17 @@
+{
+  "description": "Number of 4X4 0..n matrices whose square is also a 0..n matrix",
+  "id": "A213993",
+  "mentions": [
+    "A213990"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

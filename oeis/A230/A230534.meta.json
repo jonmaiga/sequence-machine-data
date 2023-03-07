@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of phi(x) / phi(x^2) * f(-x, -x^7) / f(-x^3, -x^5) in powers of x where phi(), f() are Ramanujan theta functions.",
+  "id": "A230534",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A080015",
+    "A092869",
+    "A121373",
+    "A226559"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

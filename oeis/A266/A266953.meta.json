@@ -1,0 +1,18 @@
+{
+  "description": "Least prime p such that p-2 and 6n-p and either 6n+2-p or 6n+4-p is also prime, or 0 if no such prime exists.",
+  "id": "A266953",
+  "mentions": [
+    "A266948",
+    "A266952"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

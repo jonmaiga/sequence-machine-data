@@ -1,0 +1,21 @@
+{
+  "description": "Smallest prime p such that 2n+1 = 2q + p for some odd prime q, or 0 if no such prime exists.",
+  "id": "A103506",
+  "mentions": [
+    "A000040",
+    "A103151",
+    "A103152",
+    "A103153",
+    "A103509"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

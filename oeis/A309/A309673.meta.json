@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-bead necklace structures using a maximum of four different colored beads and no adjacent beads having the same color.",
+  "id": "A309673",
+  "mentions": [
+    "A056292",
+    "A306888",
+    "A327396",
+    "A328130"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

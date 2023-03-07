@@ -1,0 +1,18 @@
+{
+  "description": "11-gonal numbers (numbers of the form k*(9*k-7)/2), which are products of three distinct primes.",
+  "id": "A354446",
+  "mentions": [
+    "A007304",
+    "A051682"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

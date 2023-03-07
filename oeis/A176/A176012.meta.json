@@ -1,0 +1,24 @@
+{
+  "description": "Chen primes A109611(k) which have the same sum-of-digits as their index k.",
+  "id": "A176012",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A007953",
+    "A033548",
+    "A109611",
+    "A174924"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

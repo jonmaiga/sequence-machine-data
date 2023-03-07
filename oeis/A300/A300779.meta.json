@@ -1,0 +1,23 @@
+{
+  "description": "Odd numbers x such that x and x + 2 are both sums of divisors, i.e., elements of A000203.",
+  "id": "A300779",
+  "mentions": [
+    "A000203",
+    "A002191",
+    "A083531",
+    "A300780",
+    "A300869"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

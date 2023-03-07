@@ -1,0 +1,17 @@
+{
+  "description": "Number of length n+1 0..7 arrays with the sum of the cubes of adjacent differences multiplied by some arrangement of +-1 equal to zero.",
+  "id": "A250228",
+  "mentions": [
+    "A250229"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

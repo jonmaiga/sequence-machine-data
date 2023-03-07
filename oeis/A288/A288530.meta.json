@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows in reverse order: T(n,k), (0 <= k <= n), in which each term is the least nonnegative integer such that no row, column, diagonal, or antidiagonal contains a repeated term.",
+  "id": "A288530",
+  "mentions": [
+    "A000004",
+    "A001477",
+    "A046092",
+    "A269526",
+    "A274528",
+    "A274650",
+    "A274651",
+    "A274820",
+    "A274821",
+    "A286297",
+    "A288531"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:01",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

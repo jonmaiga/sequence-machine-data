@@ -1,0 +1,23 @@
+{
+  "description": "Characteristic function of nonpowers of 2.",
+  "id": "A347523",
+  "mentions": [
+    "A000079",
+    "A043545",
+    "A057716",
+    "A209229",
+    "A267442"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:21",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

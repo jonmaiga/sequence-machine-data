@@ -1,0 +1,28 @@
+{
+  "description": "Conjecturally the number of positive even integers that can be expressed as the sum of two distinct primes in exactly n ways.",
+  "id": "A352596",
+  "mentions": [
+    "A000974",
+    "A038609",
+    "A061357",
+    "A077914",
+    "A077969",
+    "A078299",
+    "A080854",
+    "A080862",
+    "A117929",
+    "A229492",
+    "A352305"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

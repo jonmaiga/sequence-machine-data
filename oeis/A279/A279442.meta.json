@@ -1,0 +1,28 @@
+{
+  "description": "Number of ways to place 8 points on an n X n square grid so that no more than 2 points are on a vertical or horizontal straight line.",
+  "id": "A279442",
+  "mentions": [
+    "A083374",
+    "A197458",
+    "A279437",
+    "A279438",
+    "A279439",
+    "A279440",
+    "A279441",
+    "A279443",
+    "A279444",
+    "A279445"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:29:19",
+    "offset": 1,
+    "size": 21,
+    "source": "joeis"
+  }
+}

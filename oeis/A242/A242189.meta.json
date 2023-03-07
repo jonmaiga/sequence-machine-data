@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest prime number such that every number from 6 to 2n can be written as the sum of two primes less than or equal to a(n).",
+  "id": "A242189",
+  "mentions": [
+    "A000040",
+    "A002375",
+    "A237628",
+    "A237638",
+    "A240708"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 3,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

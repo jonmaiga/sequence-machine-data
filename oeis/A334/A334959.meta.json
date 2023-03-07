@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the distance from a maximum point on y = sin x to the nearest minimal point.",
+  "id": "A334959",
+  "mentions": [
+    "A334960",
+    "A334961",
+    "A334962"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:26:21",
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

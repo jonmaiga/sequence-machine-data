@@ -1,0 +1,22 @@
+{
+  "description": "Number of n-step self-avoiding walks on a 3D cubic lattice whose end-to-end distance is an integer.",
+  "id": "A359741",
+  "mentions": [
+    "A001412",
+    "A118313",
+    "A359133",
+    "A359709"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

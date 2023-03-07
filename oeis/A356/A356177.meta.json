@@ -1,0 +1,23 @@
+{
+  "description": "Palindromes in A333369.",
+  "id": "A356177",
+  "mentions": [
+    "A002113",
+    "A100706",
+    "A333369",
+    "A355770",
+    "A355771",
+    "A355772"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:30",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

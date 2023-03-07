@@ -1,0 +1,21 @@
+{
+  "description": "9-digit numbers n such that phi(n) = d_1 d_2 d_3*d_4 d_5 d_6* d_7 d_8 d_9 where d_1 d_2 ... d_9 is the decimal expansion of n.",
+  "id": "A112717",
+  "mentions": [
+    "A058627",
+    "A112714",
+    "A112715"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

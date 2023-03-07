@@ -1,0 +1,22 @@
+{
+  "description": "Number of height minimal AVL trees with n (leaf-) nodes.",
+  "id": "A217299",
+  "mentions": [
+    "A029837",
+    "A143897",
+    "A217298",
+    "A217300"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

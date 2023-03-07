@@ -1,0 +1,20 @@
+{
+  "description": "Number of digraphs with labeled vertices and labeled arcs, with n arcs and with no vertex of indegree 0 or outdegree 0.",
+  "id": "A121936",
+  "mentions": [
+    "A122399",
+    "A122418"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

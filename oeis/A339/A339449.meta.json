@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that there are equal numbers of 0's and 2's and equal numbers of 1's and 3's among the first k digits of the quaternary representation of Pi.",
+  "id": "A339449",
+  "mentions": [
+    "A004603",
+    "A039624",
+    "A339450"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

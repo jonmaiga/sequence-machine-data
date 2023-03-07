@@ -1,0 +1,19 @@
+{
+  "description": "Number of abelian subgroups of the group SL(2, Z(n)), counting conjugates as distinct.",
+  "id": "A316536",
+  "mentions": [
+    "A316537",
+    "A316559"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

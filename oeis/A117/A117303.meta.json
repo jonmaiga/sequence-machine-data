@@ -1,0 +1,27 @@
+{
+  "description": "Self-inverse permutation of the natural numbers based on the bijection (2*x-1)*2^(y-1) <--> (2*y-1)*2^(x-1).",
+  "id": "A117303",
+  "mentions": [
+    "A000079",
+    "A000265",
+    "A001511",
+    "A003602",
+    "A005408",
+    "A006519",
+    "A007814",
+    "A014480",
+    "A118413",
+    "A118416"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

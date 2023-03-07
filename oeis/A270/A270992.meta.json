@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct prime divisors of prime(n)+1 and prime(n+1)+1.",
+  "id": "A270992",
+  "mentions": [
+    "A008335",
+    "A270592"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:34",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

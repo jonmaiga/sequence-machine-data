@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2^n*floor(n/2)!*Gamma(ceiling((n+1)/2),-1/4)*exp(-1/4).",
+  "id": "A277374",
+  "mentions": [
+    "A056040",
+    "A277393"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

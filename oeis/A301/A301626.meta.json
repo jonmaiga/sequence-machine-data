@@ -1,0 +1,23 @@
+{
+  "description": "Square array T(n, k) read by antidiagonals, n >= 0 and k >= 0: T(n, k) = square of the distance from n + k*i to nearest cube of a Gaussian integer (where i denotes the root of -1 with positive imaginary part).",
+  "id": "A301626",
+  "mentions": [
+    "A000578",
+    "A074989",
+    "A301636",
+    "A301639"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:26",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n XOR 10 = n - 10.",
+  "id": "A214864",
+  "mentions": [
+    "A016825",
+    "A214863",
+    "A216178"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:14:11",
+    "offset": 1,
+    "size": 49,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "The number of regions inside a nonagon formed by the straight line segments mutually connecting all vertices and all points that divide the sides into n equal parts.",
+  "id": "A332421",
+  "mentions": [
+    "A007678",
+    "A092867",
+    "A331452",
+    "A331929",
+    "A332427",
+    "A332428",
+    "A332429"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

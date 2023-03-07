@@ -1,0 +1,22 @@
+{
+  "description": "The number of pairs of numbers below n that, when generating a Fibonacci-like sequence modulo n, contain zeros.",
+  "id": "A232656",
+  "mentions": [
+    "A000010",
+    "A001177",
+    "A064414",
+    "A230457",
+    "A232357"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

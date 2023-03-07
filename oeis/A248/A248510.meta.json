@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of von Klitzing constant R(K) (ohms).",
+  "id": "A248510",
+  "mentions": [
+    "A003676",
+    "A081823",
+    "A248507",
+    "A322415"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:38:47",
+    "offset": 5,
+    "size": 100,
+    "source": "joeis"
+  }
+}

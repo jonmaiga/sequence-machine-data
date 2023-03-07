@@ -1,0 +1,17 @@
+{
+  "description": "Index of first occurrence of n appearing twice in succession in van Eck's sequence (A181391), or 0 if it never occurs.",
+  "id": "A308782",
+  "mentions": [
+    "A181391"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

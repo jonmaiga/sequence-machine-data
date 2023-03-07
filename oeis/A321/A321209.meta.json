@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the volume of the Löbell polyhedron L(5).",
+  "id": "A321209",
+  "mentions": [
+    "A144222"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

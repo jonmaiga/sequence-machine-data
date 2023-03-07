@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of 1-x*c(-x^2) where c(x) is the g.f. of A000108.",
+  "id": "A105523",
+  "mentions": [
+    "A000108",
+    "A090181",
+    "A090192",
+    "A097331",
+    "A105438",
+    "A105522",
+    "A106180"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

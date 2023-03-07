@@ -1,0 +1,20 @@
+{
+  "description": "Positive numbers for which the product of digits is equal to the power tower of digits (right-associative).",
+  "id": "A321990",
+  "mentions": [
+    "A001055",
+    "A007954",
+    "A256229"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Triangle read by rows: T(n,k) = sum of k-th largest elements in all partitions of n.",
+  "id": "A181187",
+  "mentions": [
+    "A000041",
+    "A000070",
+    "A006128",
+    "A066186",
+    "A066633",
+    "A066897",
+    "A066898",
+    "A096541",
+    "A206283",
+    "A206563",
+    "A207031",
+    "A207033",
+    "A216053"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

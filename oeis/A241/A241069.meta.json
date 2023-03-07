@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions p of n into distinct parts such that max(p) = 4*min(p).",
+  "id": "A241069",
+  "mentions": [
+    "A241035",
+    "A241063",
+    "A241272",
+    "A241273"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

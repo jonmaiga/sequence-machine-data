@@ -1,0 +1,24 @@
+{
+  "description": "Numerators of partial sums of a Ramanujan series converging to 2/Pi = A060294.",
+  "id": "A277234",
+  "mentions": [
+    "A000165",
+    "A001147",
+    "A060294",
+    "A241756",
+    "A277232"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

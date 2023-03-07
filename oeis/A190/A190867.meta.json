@@ -1,0 +1,22 @@
+{
+  "description": "Count of the 3-full divisors of n.",
+  "id": "A190867",
+  "mentions": [
+    "A005361",
+    "A036966",
+    "A065483"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 110,
+    "source": "oeis-bfile"
+  }
+}

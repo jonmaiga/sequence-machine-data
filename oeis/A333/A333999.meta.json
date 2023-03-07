@@ -1,0 +1,17 @@
+{
+  "description": "Even numbers with a Goldbach partition (p,q), p < q (p, q prime) such that q - p is a nonzero square.",
+  "id": "A333999",
+  "mentions": [
+    "A002375"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

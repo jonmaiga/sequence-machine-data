@@ -1,0 +1,19 @@
+{
+  "description": "Solid numbers. Numbers m such that A005245(m) < A005245(k) + A005245(m-k) for 1<= k < m.",
+  "id": "A195101",
+  "mentions": [
+    "A005245",
+    "A189123"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

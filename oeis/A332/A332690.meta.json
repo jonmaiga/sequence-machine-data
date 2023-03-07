@@ -1,0 +1,26 @@
+{
+  "description": "Sum of all numbers in bijective base-9 numeration with digit sum n.",
+  "id": "A332690",
+  "mentions": [
+    "A007953",
+    "A016134",
+    "A028904",
+    "A052382",
+    "A211072",
+    "A214676",
+    "A332691"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:02",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of paths from 2 to n of length A307092(n) - 1 via maps of the form x -> x + x^j, where j is a nonnegative integer.",
+  "id": "A309997",
+  "mentions": [
+    "A307074",
+    "A307092"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

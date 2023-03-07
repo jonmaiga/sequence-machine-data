@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the solution of 1/sqrt(x-1) + 1/sqrt(x+1) = 1.",
+  "id": "A329998",
+  "mentions": [
+    "A329999",
+    "A330000"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:07:33",
+    "offset": 1,
+    "size": 86,
+    "source": "joeis"
+  }
+}

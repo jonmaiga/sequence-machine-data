@@ -1,0 +1,32 @@
+{
+  "description": "A figurate number triangle read by rows.",
+  "id": "A103450",
+  "mentions": [
+    "A000045",
+    "A000326",
+    "A000984",
+    "A002412",
+    "A002418",
+    "A005408",
+    "A007318",
+    "A045623",
+    "A097807",
+    "A114219",
+    "A128229",
+    "A141222",
+    "A208354"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:54",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

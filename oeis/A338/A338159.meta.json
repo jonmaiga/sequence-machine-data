@@ -1,0 +1,19 @@
+{
+  "description": "The least number which can be represented as a product of the greatest number of distinct positive integers in exactly n ways.",
+  "id": "A338159",
+  "mentions": [
+    "A025487",
+    "A338160"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

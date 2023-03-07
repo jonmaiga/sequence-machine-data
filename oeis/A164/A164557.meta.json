@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that s(k) = s(k+1), where s(k) is the sum of divisors d of k such that k/d is odd (A002131).",
+  "id": "A164557",
+  "mentions": [
+    "A002131",
+    "A002961",
+    "A064115",
+    "A064125",
+    "A293183",
+    "A306985"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:47",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

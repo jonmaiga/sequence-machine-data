@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations p of [n] having no index i with |p(i)-i| = 2.",
+  "id": "A306523",
+  "mentions": [
+    "A000142",
+    "A306512",
+    "A306524"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

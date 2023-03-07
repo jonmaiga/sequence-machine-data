@@ -1,0 +1,22 @@
+{
+  "description": "Triangle, read by rows, where T(n,k) equals the sum of cubes of numbers < 2^n having exactly k ones in their binary expansion.",
+  "id": "A110205",
+  "mentions": [
+    "A023001",
+    "A110200",
+    "A110206",
+    "A110207"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:01",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

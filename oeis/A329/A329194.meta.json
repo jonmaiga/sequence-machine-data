@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = floor(log_3(n^2)) = floor(2 log_3(n))",
+  "id": "A329194",
+  "mentions": [
+    "A000290",
+    "A062153",
+    "A329193",
+    "A329202"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

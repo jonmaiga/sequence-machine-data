@@ -1,0 +1,22 @@
+{
+  "description": "Possible values k such that hyperelliptic curve s^2+k=m^5 has at least 6 finite points",
+  "id": "A177857",
+  "mentions": [
+    "A152412",
+    "A177760",
+    "A177761",
+    "A177763",
+    "A177764",
+    "A177765"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

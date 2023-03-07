@@ -1,0 +1,23 @@
+{
+  "description": "Sequence obtained by a formal reading of Riordan's Eq. (30a), p. 206.",
+  "id": "A170904",
+  "mentions": [
+    "A000166",
+    "A000179",
+    "A000186",
+    "A001700",
+    "A102761",
+    "A335700"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

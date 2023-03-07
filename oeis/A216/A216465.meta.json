@@ -1,0 +1,17 @@
+{
+  "description": "Number of horizontal, diagonal and antidiagonal neighbor colorings of the even squares of a 7Xn array with new integer colors introduced in row major order",
+  "id": "A216465",
+  "mentions": [
+    "A216460"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

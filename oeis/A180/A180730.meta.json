@@ -1,0 +1,20 @@
+{
+  "description": "22^a(n) is smallest power of 22 beginning with n.",
+  "id": "A180730",
+  "mentions": [
+    "A180728",
+    "A180729",
+    "A180732"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

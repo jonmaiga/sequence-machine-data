@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that A246600(k) = A000005(k) and A000005(k) sets a new record.",
+  "id": "A359083",
+  "mentions": [
+    "A000005",
+    "A246600",
+    "A359080",
+    "A359081",
+    "A359082"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

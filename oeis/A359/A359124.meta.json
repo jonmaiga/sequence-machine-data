@@ -1,0 +1,20 @@
+{
+  "description": "Concatenate the decimal numbers 1,2,3,...,n, then add 1.",
+  "id": "A359124",
+  "mentions": [
+    "A007908",
+    "A069048",
+    "A359125"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

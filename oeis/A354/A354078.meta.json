@@ -1,0 +1,20 @@
+{
+  "description": "Squares k that are not divisible by 10, and whose reverse and digit sum are also squares, such that the digit sum divides both k and its reverse.",
+  "id": "A354078",
+  "mentions": [
+    "A001102",
+    "A028839",
+    "A061457"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

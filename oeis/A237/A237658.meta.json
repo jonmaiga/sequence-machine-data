@@ -1,0 +1,24 @@
+{
+  "description": "Positive integers m with pi(m) and pi(m^2) both prime, where pi(.) is given by A000720.",
+  "id": "A237658",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A000720",
+    "A038107",
+    "A237595",
+    "A237656",
+    "A237657",
+    "A237659"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

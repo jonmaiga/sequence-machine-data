@@ -1,0 +1,32 @@
+{
+  "description": "Positive integers whose prime multiplicities span an initial interval of positive integers.",
+  "id": "A317090",
+  "mentions": [
+    "A001222",
+    "A007916",
+    "A055932",
+    "A056239",
+    "A069799",
+    "A112798",
+    "A124010",
+    "A129912",
+    "A133808",
+    "A179983",
+    "A317087",
+    "A317088",
+    "A317089",
+    "A317091",
+    "A317092",
+    "A337533"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

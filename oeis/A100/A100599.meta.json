@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that (prime(k)-1)! + prime(k)^7 is prime.",
+  "id": "A100599",
+  "mentions": [
+    "A100598",
+    "A100600",
+    "A100858"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

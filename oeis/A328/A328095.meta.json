@@ -1,0 +1,21 @@
+{
+  "description": "Revenant numbers: numbers k such that k multiplied by the product of all its digits contains k as a substring.",
+  "id": "A328095",
+  "mentions": [
+    "A328544",
+    "A328560",
+    "A328561"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of 1/(1 - x - x^2 + x^10 - x^12).",
+  "id": "A225396",
+  "mentions": [
+    "A029826",
+    "A107293",
+    "A117791",
+    "A147660",
+    "A204631",
+    "A225393",
+    "A225394"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

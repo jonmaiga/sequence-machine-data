@@ -1,0 +1,24 @@
+{
+  "description": "Number of iterations of {r mod (max prime p < r)} needed to reach 1 or 2 starting at r = n.",
+  "id": "A175078",
+  "mentions": [
+    "A049711",
+    "A064722",
+    "A121559",
+    "A121561",
+    "A175071",
+    "A175072",
+    "A175077"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

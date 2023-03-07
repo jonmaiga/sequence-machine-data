@@ -1,0 +1,22 @@
+{
+  "description": "Smallest odd prime divisor of (2n+1)^2 + 1.",
+  "id": "A293958",
+  "mentions": [
+    "A027862",
+    "A069894",
+    "A078701",
+    "A125256",
+    "A256970"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

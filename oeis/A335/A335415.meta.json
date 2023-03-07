@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} 1/cosh(Pi*k).",
+  "id": "A335415",
+  "mentions": [
+    "A240964",
+    "A249205",
+    "A254445",
+    "A335414"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:20",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

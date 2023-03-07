@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least composite x such that sigma(x) divides (x-1)^n but not (x-1)^(n-1), for n >= 2.",
+  "id": "A254352",
+  "mentions": [
+    "A000203",
+    "A234936",
+    "A254409"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 2,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

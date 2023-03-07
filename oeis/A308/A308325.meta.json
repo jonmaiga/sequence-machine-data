@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{i=0..n} Sum_{j=0..n} Sum_{k=0..n} Sum_{l=0..n} Sum_{m=0..n} (-1)^(i+j+k+l+m) * (i+j+k+l+m)!/(i!*j!*k!*l!*m!).",
+  "id": "A308325",
+  "mentions": [
+    "A308322"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

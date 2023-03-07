@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the sum of the decimal digits of (n!)!.",
+  "id": "A301861",
+  "mentions": [
+    "A000142",
+    "A000197",
+    "A004152",
+    "A007953",
+    "A008906",
+    "A027868",
+    "A034886",
+    "A063979"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

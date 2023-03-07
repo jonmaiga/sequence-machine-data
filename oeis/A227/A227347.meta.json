@@ -1,0 +1,20 @@
+{
+  "description": "Number of lattice points in the closed region bounded by the graphs of y = (5/6)*x^2, x = n, and y = 0, excluding points on the x-axis.",
+  "id": "A227347",
+  "mentions": [
+    "A171965",
+    "A227353"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:10:51",
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

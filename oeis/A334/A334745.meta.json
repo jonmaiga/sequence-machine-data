@@ -1,0 +1,23 @@
+{
+  "description": "Starting with a(1) = a(2) = 1, proceed in a square spiral, computing each term as the sum of diagonally adjacent prior terms.",
+  "id": "A334745",
+  "mentions": [
+    "A141481",
+    "A174344",
+    "A247976",
+    "A274923",
+    "A278180",
+    "A334741",
+    "A334742"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:06",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

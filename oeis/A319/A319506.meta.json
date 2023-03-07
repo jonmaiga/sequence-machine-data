@@ -1,0 +1,18 @@
+{
+  "description": "Number of numbers of the form 2*p or 3*p between consecutive triangular numbers T(n - 1) < {2,3}*p <= T(n) with p prime.",
+  "id": "A319506",
+  "mentions": [
+    "A000040",
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

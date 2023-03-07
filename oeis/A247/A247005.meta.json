@@ -1,0 +1,30 @@
+{
+  "description": "Number A(n,k) of permutations on [n] that are the k-th power of a permutation; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A247005",
+  "mentions": [
+    "A000012",
+    "A000142",
+    "A003483",
+    "A103619",
+    "A103620",
+    "A215716",
+    "A215717",
+    "A215718",
+    "A247006",
+    "A247007",
+    "A247008",
+    "A247009",
+    "A247026"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

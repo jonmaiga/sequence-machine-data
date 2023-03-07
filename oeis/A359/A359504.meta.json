@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is calculated by considering in ascending order all products P of zero or more terms from {a(1..n-1)} until finding one where P+1 has a prime factor not in {a(1..n-1)}, in which case a(n) is the smallest such prime factor.",
+  "id": "A359504",
+  "mentions": [
+    "A000945",
+    "A000946"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

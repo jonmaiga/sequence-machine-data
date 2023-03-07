@@ -1,0 +1,26 @@
+{
+  "description": "a(0) = 1; a(n) = 8 * Sum_{k=1..n} binomial(n,k) * a(k-1).",
+  "id": "A345081",
+  "mentions": [
+    "A040027",
+    "A221159",
+    "A238465",
+    "A343523",
+    "A343975",
+    "A344735",
+    "A344840",
+    "A345077",
+    "A345078"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 02:56:08",
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows in which the n-th row lists the exponential divisors (or e-divisors) of n.",
+  "id": "A322791",
+  "mentions": [
+    "A027750",
+    "A049419",
+    "A051377",
+    "A077609",
+    "A077610",
+    "A222266"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Fully additive with a(p) = 1 + a(A014682(p)) when p is prime and a(n*m) = a(n) + a(m) when m,n > 1.",
+  "id": "A334206",
+  "mentions": [
+    "A014682",
+    "A064097",
+    "A334200"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

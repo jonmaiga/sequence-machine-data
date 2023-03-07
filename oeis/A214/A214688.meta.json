@@ -1,0 +1,20 @@
+{
+  "description": "E.g.f. equals the series reversion of x - x^2*exp(2*x).",
+  "id": "A214688",
+  "mentions": [
+    "A213643",
+    "A214689",
+    "A215003"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:32",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

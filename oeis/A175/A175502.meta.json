@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1. a(n) = the smallest integer not yet occurring such that each unordered pair {d(a(k)),d(a(k-1))} occurs only once at most, for 2<= k <= n, where d(m) = the number of divisors of m.",
+  "id": "A175502",
+  "mentions": [
+    "A175500",
+    "A175503"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

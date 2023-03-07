@@ -1,0 +1,19 @@
+{
+  "description": "A333663(n) is the a(n)-th term in A333663 with its leading digit.",
+  "id": "A337511",
+  "mentions": [
+    "A333663"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

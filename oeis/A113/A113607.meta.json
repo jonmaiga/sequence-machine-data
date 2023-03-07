@@ -1,0 +1,19 @@
+{
+  "description": "An extended triangle of Eulerian coefficients A123125: f(x,n)=x^(n+1)+1+A123125(x,n).",
+  "id": "A113607",
+  "mentions": [
+    "A123125"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

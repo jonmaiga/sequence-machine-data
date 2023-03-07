@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Carmichael(F(n)), where F(n) are the Fibonacci numbers.",
+  "id": "A181091",
+  "mentions": [
+    "A000045",
+    "A002997"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

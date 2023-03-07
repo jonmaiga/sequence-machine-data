@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows where the n-th row list the integers x such that the quotient x/(least prime factor of x)^2 is equal to n, for n>=2.",
+  "id": "A283148",
+  "mentions": [
+    "A055396",
+    "A126773",
+    "A283050",
+    "A283069",
+    "A283071"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:53",
+    "offset": 2,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

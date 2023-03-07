@@ -1,0 +1,21 @@
+{
+  "description": "Permutation of even numbers: a(n) = A003961(n+1) - 1.",
+  "id": "A253885",
+  "mentions": [
+    "A003961",
+    "A243501",
+    "A246684",
+    "A253886"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

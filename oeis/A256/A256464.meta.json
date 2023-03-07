@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the index, in the A256440 triangle, of the first row where n is the n-th term of the row.",
+  "id": "A256464",
+  "mentions": [
+    "A004394",
+    "A247022",
+    "A256440"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

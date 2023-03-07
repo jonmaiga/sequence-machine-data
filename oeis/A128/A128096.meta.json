@@ -1,0 +1,18 @@
+{
+  "description": "Number of steps that touch the x-axis in all peakless Motzkin paths of length n.",
+  "id": "A128096",
+  "mentions": [
+    "A128095"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-12-25 19:14:52",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

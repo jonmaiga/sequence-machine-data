@@ -1,0 +1,27 @@
+{
+  "description": "Start with n; add to it any of its digits; repeat; a(n) = minimal number of steps needed to reach 2n, or -1 if 2n cannot be reached.",
+  "id": "A241183",
+  "mentions": [
+    "A241173",
+    "A241174",
+    "A241175",
+    "A241176",
+    "A241177",
+    "A241178",
+    "A241179",
+    "A241180",
+    "A241181",
+    "A241182"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

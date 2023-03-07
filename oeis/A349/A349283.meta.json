@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that A051378(k) = A051378(k+1).",
+  "id": "A349283",
+  "mentions": [
+    "A002961",
+    "A051378",
+    "A064115",
+    "A064125",
+    "A293183",
+    "A306985",
+    "A333949"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:24",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Number of distinct prime factors of n! + 2n - 1.",
+  "id": "A139465",
+  "mentions": [
+    "A001221",
+    "A127986",
+    "A127987",
+    "A139023",
+    "A139024",
+    "A139464",
+    "A139466",
+    "A139467"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

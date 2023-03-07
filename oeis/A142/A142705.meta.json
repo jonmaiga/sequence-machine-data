@@ -1,0 +1,27 @@
+{
+  "description": "Numerator of 1/4 - 1/(2n)^2.",
+  "id": "A142705",
+  "mentions": [
+    "A000225",
+    "A024036",
+    "A061037",
+    "A070260",
+    "A078371",
+    "A142888",
+    "A154615",
+    "A225948"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:31",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

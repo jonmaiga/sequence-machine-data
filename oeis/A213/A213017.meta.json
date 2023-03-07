@@ -1,0 +1,22 @@
+{
+  "description": "Largest possible number of digits in a base n right-truncatable semiprime.",
+  "id": "A213017",
+  "mentions": [
+    "A001358",
+    "A085733",
+    "A213018"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 2,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "To find 3 consecutive integers in the sequence, you have to take 4 consecutive terms, no more and no less.",
+  "id": "A171088",
+  "mentions": [
+    "A049347"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:05:05",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Nonprime numbers n that divide A124271(n) = Sum_{i=1..n} (prime(i)^n - 1) / (prime(i) - 1).",
+  "id": "A124274",
+  "mentions": [
+    "A124271",
+    "A124273"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

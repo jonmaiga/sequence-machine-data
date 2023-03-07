@@ -1,0 +1,19 @@
+{
+  "description": "The product a(n)*a(n+1) can be written using the digits of {a(n),a(n+1)}; always choose the smallest possible unused positive integer.",
+  "id": "A234932",
+  "mentions": [
+    "A228276"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

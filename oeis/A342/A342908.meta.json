@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangular array of coefficients of the cd-index of the symmetric group S_n (or Boolean algebra B_n), n>=1.",
+  "id": "A342908",
+  "mentions": [
+    "A000045",
+    "A000111",
+    "A335845"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

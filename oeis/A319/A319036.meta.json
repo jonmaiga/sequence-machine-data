@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the smallest triangular number T(k) such that both it and its successor T(k+1) have exactly 2n divisors, or 0 if no such pair of consecutive triangular numbers exists.",
+  "id": "A319036",
+  "mentions": [
+    "A000005",
+    "A000217",
+    "A003306",
+    "A003307",
+    "A063440",
+    "A081978",
+    "A319035"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

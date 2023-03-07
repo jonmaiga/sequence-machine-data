@@ -1,0 +1,18 @@
+{
+  "description": "Number of endofunctions on [n] where the largest cycle length equals 4.",
+  "id": "A246214",
+  "mentions": [
+    "A241981"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:02",
+    "offset": 4,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

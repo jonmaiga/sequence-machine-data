@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 10*k - (-1)^k is prime.",
+  "id": "A166458",
+  "mentions": [
+    "A122869"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

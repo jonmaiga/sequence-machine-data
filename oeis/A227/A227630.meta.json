@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of the least splitting rational of the harmonic numbers H(n) and H(n+1).",
+  "id": "A227630",
+  "mentions": [
+    "A227629",
+    "A227631"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

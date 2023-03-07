@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form abcdabcd..abcdabc.",
+  "id": "A187125",
+  "mentions": [
+    "A228625",
+    "A228627"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:11",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

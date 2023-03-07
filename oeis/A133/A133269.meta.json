@@ -1,0 +1,20 @@
+{
+  "description": "Fractal sequence consisting of quadruples, each of which contains the tones comprising a major 7th chord (i.e., root, major third, fifth, and major 7th), with the tones in an octave assigned to the numbers 1..12, and with the n-th quadruple using a(n) as its root.",
+  "id": "A133269",
+  "mentions": [
+    "A133270"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

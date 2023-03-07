@@ -1,0 +1,20 @@
+{
+  "description": "Denominators of worst rational approximations to the golden ratio.",
+  "id": "A344275",
+  "mentions": [
+    "A000045",
+    "A001622",
+    "A344290"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

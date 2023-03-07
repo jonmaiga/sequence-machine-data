@@ -1,0 +1,18 @@
+{
+  "description": "Exhaustion numbers for the greedy prime offset sequence A135311.",
+  "id": "A274261",
+  "mentions": [
+    "A135311",
+    "A274260"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

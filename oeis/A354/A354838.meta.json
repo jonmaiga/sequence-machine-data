@@ -1,0 +1,21 @@
+{
+  "description": "For n >= 1, a(n) = A007088(n)/gcd(n, A007088(n)).",
+  "id": "A354838",
+  "mentions": [
+    "A007088",
+    "A076775",
+    "A354837"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

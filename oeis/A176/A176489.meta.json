@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n,k) = A176487(n,k)+A176488(n,k)-1 read by rows 0<=k<=n.",
+  "id": "A176489",
+  "mentions": [
+    "A007318",
+    "A008292",
+    "A176487",
+    "A176488"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

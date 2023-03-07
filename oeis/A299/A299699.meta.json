@@ -1,0 +1,24 @@
+{
+  "description": "Number of rim-hook (or border-strip) tableaux of size n.",
+  "id": "A299699",
+  "mentions": [
+    "A000085",
+    "A063834",
+    "A138178",
+    "A153452",
+    "A296150",
+    "A296188",
+    "A296561"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

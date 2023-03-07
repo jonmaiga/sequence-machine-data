@@ -1,0 +1,26 @@
+{
+  "description": "Number of letters in the French spelling of the number n, not counting hyphens and spaces.",
+  "id": "A167507",
+  "mentions": [
+    "A001050",
+    "A005589",
+    "A006994",
+    "A007005",
+    "A007208",
+    "A011762",
+    "A026858",
+    "A167508",
+    "A204593"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

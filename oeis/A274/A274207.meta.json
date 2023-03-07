@@ -1,0 +1,24 @@
+{
+  "description": "Number T(n,k) of bargraphs of site-perimeter n having area k; triangle T(n,k), n>=4, floor((n-1)/2)<=k<=floor(((n-1)^2+3)/12), read by rows.",
+  "id": "A274207",
+  "mentions": [
+    "A000079",
+    "A001787",
+    "A075126",
+    "A273346",
+    "A274208",
+    "A274217"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 4,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

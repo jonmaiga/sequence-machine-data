@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{i=1..n} u_3(i)*u_3(i+1), where u_3(n) = A034836(n).",
+  "id": "A331130",
+  "mentions": [
+    "A034836",
+    "A330570",
+    "A331080"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

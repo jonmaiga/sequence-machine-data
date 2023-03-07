@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of the probability that when a unit interval is broken at two points uniformly and independently chosen at random along its length the lengths of the resulting three intervals are the altitudes of a triangle.",
+  "id": "A352485",
+  "mentions": [
+    "A001622",
+    "A002390",
+    "A016627",
+    "A019702",
+    "A084623",
+    "A243398",
+    "A339392",
+    "A339393",
+    "A352484"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

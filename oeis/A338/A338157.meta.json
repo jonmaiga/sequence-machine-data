@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that follow from the alternating series a(n) = d(1) - d(2) + d(3) -d(4) + ... + (-1)^(n+1) d(n), where d(k) denotes the k-th term of the digit sequence of the Golden Ratio.",
+  "id": "A338157",
+  "mentions": [
+    "A001622",
+    "A069159",
+    "A338108"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(0)=209; for n > 0, a(n) = a(n-1) + floor(sqrt(a(n-1)).",
+  "id": "A159274",
+  "mentions": [
+    "A159016",
+    "A175806"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

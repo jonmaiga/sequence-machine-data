@@ -1,0 +1,24 @@
+{
+  "description": "Numbers that are a product of two distinct Fibonacci numbers >1 or two distinct Lucas numbers > 1.",
+  "id": "A274426",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A274374",
+    "A274427",
+    "A274428",
+    "A274429",
+    "A274432"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

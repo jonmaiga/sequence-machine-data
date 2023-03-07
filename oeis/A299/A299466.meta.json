@@ -1,0 +1,22 @@
+{
+  "description": "Least even integer k such that numerator(B_k) == 0 (mod 59^n).",
+  "id": "A299466",
+  "mentions": [
+    "A091216",
+    "A092230",
+    "A189683",
+    "A251782",
+    "A299467"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:23",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

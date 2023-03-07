@@ -1,0 +1,22 @@
+{
+  "description": "Number of twin prime pairs in the range (6*n + 1, 6*(n + m) + 1], where m is the number of twin prime pairs, 6*k +- 1 for k = 1, 2, ..., n.",
+  "id": "A344117",
+  "mentions": [
+    "A071538",
+    "A079629",
+    "A080356",
+    "A237840",
+    "A332086",
+    "A337788"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: eta(x)^3*(1 - x*eta'(x)/eta(x)), where eta(x) is Dedekind's eta(q) function without the q^(1/24) factor.",
+  "id": "A184366",
+  "mentions": [
+    "A000203",
+    "A184363",
+    "A184365",
+    "A283334"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:08",
+    "offset": 0,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Restricted growth sequence of A278165 (= A046523(A001045(n))).",
+  "id": "A286565",
+  "mentions": [
+    "A001045",
+    "A046523",
+    "A107036",
+    "A278165",
+    "A286566",
+    "A286567"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 109,
+    "source": "oeis-bfile"
+  }
+}

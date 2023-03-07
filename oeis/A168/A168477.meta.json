@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are the product of two distinct primes and they are sum of two consecutive products of two distinct primes.",
+  "id": "A168477",
+  "mentions": [
+    "A006881",
+    "A168474"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

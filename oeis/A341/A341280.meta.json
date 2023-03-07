@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that A073837(k) is a multiple of k.",
+  "id": "A341280",
+  "mentions": [
+    "A073837"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

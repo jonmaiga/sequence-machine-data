@@ -1,0 +1,23 @@
+{
+  "description": "G.f.: x / (Sum_{k>=1} k * x^k / (1 + x^k)).",
+  "id": "A335227",
+  "mentions": [
+    "A000009",
+    "A000593",
+    "A002039",
+    "A180305",
+    "A320651",
+    "A335228"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

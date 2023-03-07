@@ -1,0 +1,18 @@
+{
+  "description": "Distinct values of A308551 in order of their appearance as n grows.",
+  "id": "A330263",
+  "mentions": [
+    "A308551"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:59",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

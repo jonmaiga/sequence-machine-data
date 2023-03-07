@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the ratio between step sizes of the diatonic and chromatic semitones produced by a circle of 12 perfect fifths in Pythagorean tuning.",
+  "id": "A358029",
+  "mentions": [
+    "A131071",
+    "A221363",
+    "A229943",
+    "A229948",
+    "A257811",
+    "A258054"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

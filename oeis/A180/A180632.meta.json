@@ -1,0 +1,22 @@
+{
+  "description": "Minimum length of a string over the alphabet A = {1,2,...,n} that contains every permutation of A as a substring exactly once, also known as length of the minimal super-permutation.",
+  "id": "A180632",
+  "mentions": [
+    "A007489",
+    "A062714",
+    "A188428",
+    "A224986"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

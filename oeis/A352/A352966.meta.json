@@ -1,0 +1,19 @@
+{
+  "description": "Primes of the form A321513(k) + 1 for some k > 0.",
+  "id": "A352966",
+  "mentions": [
+    "A001220",
+    "A321513"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways, counted up to symmetry, to build a contiguous building with n LEGO blocks of size 2 X 4.",
+  "id": "A112389",
+  "mentions": [
+    "A112390",
+    "A272690"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

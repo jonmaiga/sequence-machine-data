@@ -1,0 +1,27 @@
+{
+  "description": "Sum T(n,k) of multinomials M(n; lambda), where lambda ranges over all partitions of n into parts that form a set of size k; triangle T(n,k), n>=0, 0<=k<=A003056(n), read by rows.",
+  "id": "A327803",
+  "mentions": [
+    "A000007",
+    "A000217",
+    "A003056",
+    "A005651",
+    "A022915",
+    "A061095",
+    "A131632",
+    "A226874",
+    "A327826"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

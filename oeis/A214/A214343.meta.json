@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest integer j such that the numbers of prime factors (counting multiplicity) in j, j+1, ... , j+n-1 are the full set {1,2,...,n}.",
+  "id": "A214343",
+  "mentions": [
+    "A001222",
+    "A072875"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

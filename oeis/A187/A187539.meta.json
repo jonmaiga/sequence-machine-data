@@ -1,0 +1,31 @@
+{
+  "description": "Alternated binomial partial sums of central Lah numbers (A187535).",
+  "id": "A187539",
+  "mentions": [
+    "A008297",
+    "A111596",
+    "A187535",
+    "A187536",
+    "A187538",
+    "A187540",
+    "A187542",
+    "A187543",
+    "A187544",
+    "A187545",
+    "A187546",
+    "A187547",
+    "A187548"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:12",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

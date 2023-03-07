@@ -1,0 +1,20 @@
+{
+  "description": "Number of triples (i,j,k) such that i+j+k > 0 with -n <= i,j,k <= n.",
+  "id": "A302302",
+  "mentions": [
+    "A003215",
+    "A130748"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:36:05",
+    "offset": 0,
+    "size": 39,
+    "source": "joeis"
+  }
+}

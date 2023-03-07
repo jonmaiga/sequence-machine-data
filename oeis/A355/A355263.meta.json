@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = largest-nth-power(n, 3) * radical(n) = A053150(n) * A007947(n), where the largest-nth-power(n, e) is the largest positive integer b such that b^e divides n.",
+  "id": "A355263",
+  "mentions": [
+    "A000188",
+    "A007947",
+    "A013663",
+    "A053150",
+    "A064549",
+    "A355261"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(0) = a(1) = 1; for n>1, a(n) = a(n-1) + a(n-2) + floor(n/2).",
+  "id": "A215004",
+  "mentions": [
+    "A000045",
+    "A020956",
+    "A280523",
+    "A281362"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

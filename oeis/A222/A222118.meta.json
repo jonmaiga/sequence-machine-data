@@ -1,0 +1,25 @@
+{
+  "description": "Number of terms in Collatz (3x+1) trajectory of n that did not appear in previous trajectories.",
+  "id": "A222118",
+  "mentions": [
+    "A006577",
+    "A061641",
+    "A070165",
+    "A134191",
+    "A177729",
+    "A221956",
+    "A222297",
+    "A263716"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:40",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

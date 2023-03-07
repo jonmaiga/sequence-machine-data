@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n/d(n) if d(n) divides n, otherwise a(n) = n, where d(n) is the sum of the digits of n (A007953).",
+  "id": "A235600",
+  "mentions": [
+    "A007953",
+    "A065517",
+    "A235601",
+    "A235602"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

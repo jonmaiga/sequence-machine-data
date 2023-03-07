@@ -1,0 +1,28 @@
+{
+  "description": "Numbers with at least one prime index equal to 0, 1, or 4 modulo 5.",
+  "id": "A324561",
+  "mentions": [
+    "A008854",
+    "A039900",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A106529",
+    "A112798",
+    "A324519",
+    "A324521",
+    "A324522",
+    "A324560",
+    "A324562"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

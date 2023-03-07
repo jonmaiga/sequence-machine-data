@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) = number of partitions of binomial(n,k) into distinct parts of the first n rows of Pascal's triangle, 0<=k<=n.",
+  "id": "A132312",
+  "mentions": [
+    "A000009",
+    "A007318",
+    "A014631",
+    "A126257",
+    "A132311"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

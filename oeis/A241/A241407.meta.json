@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n^2 == -1 (mod 73).",
+  "id": "A241407",
+  "mentions": [
+    "A155107"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:00:09",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

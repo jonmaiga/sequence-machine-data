@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX(n+4) binary matrices with no initial bit string in any row or column divisible by 4",
+  "id": "A181035",
+  "mentions": [
+    "A181031"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

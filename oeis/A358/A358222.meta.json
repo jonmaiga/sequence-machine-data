@@ -1,0 +1,20 @@
+{
+  "description": "Composite numbers k such that A003415(k) divides A276086(k), where A003415 is the arithmetic derivative, and A276086 is the primorial base exp-function.",
+  "id": "A358222",
+  "mentions": [
+    "A003415",
+    "A276086",
+    "A358220",
+    "A358221"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

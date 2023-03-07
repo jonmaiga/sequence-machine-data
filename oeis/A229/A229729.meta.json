@@ -1,0 +1,18 @@
+{
+  "description": "Number of separable permutations with exactly four occurrences of the 1-box pattern.",
+  "id": "A229729",
+  "mentions": [
+    "A229730"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

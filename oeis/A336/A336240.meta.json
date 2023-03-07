@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that k = x^2+y^2+z^2 = x^3+y^3+z^3 for some integers x,y,z.",
+  "id": "A336240",
+  "mentions": [
+    "A336205"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

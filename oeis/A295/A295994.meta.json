@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that there are precisely 11 groups of orders n and n + 1.",
+  "id": "A295994",
+  "mentions": [
+    "A000001",
+    "A249554"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

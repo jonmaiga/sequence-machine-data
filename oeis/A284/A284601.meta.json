@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that decimal representation of 1/k does not terminate and has odd period length.",
+  "id": "A284601",
+  "mentions": [
+    "A002371",
+    "A003592",
+    "A003814",
+    "A051626",
+    "A186635",
+    "A284602"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:55",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

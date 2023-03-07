@@ -1,0 +1,27 @@
+{
+  "description": "Lynch-Bell numbers: numbers n such that the digits are all different (and do not include 0) and n is divisible by each of its individual digits.",
+  "id": "A115569",
+  "mentions": [
+    "A010784",
+    "A034709",
+    "A034838",
+    "A063527",
+    "A117911",
+    "A117912",
+    "A117913"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Aliquot open end sequences which belong to distinct families.",
+  "id": "A216072",
+  "mentions": [
+    "A008892",
+    "A098007",
+    "A115350",
+    "A131884"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

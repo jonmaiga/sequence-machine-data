@@ -1,0 +1,20 @@
+{
+  "description": "Number T(n,k) of set partitions of [n] having exactly k triples (t,t+1,t+2) such that t+i is in block b+i for some b; triangle T(n,k), n>=0, 0<=k<=max(0,n-2), read by rows.",
+  "id": "A271206",
+  "mentions": [
+    "A000110",
+    "A185982",
+    "A271207"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

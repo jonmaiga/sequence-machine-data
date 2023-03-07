@@ -1,0 +1,18 @@
+{
+  "description": "Number of integers in Pascal's triangle strictly between 1 and n.",
+  "id": "A260466",
+  "mentions": [
+    "A003016",
+    "A007318"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

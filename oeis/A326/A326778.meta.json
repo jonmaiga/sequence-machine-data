@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least k such that A213636(k) = n.",
+  "id": "A326778",
+  "mentions": [
+    "A003418",
+    "A151800",
+    "A213636"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

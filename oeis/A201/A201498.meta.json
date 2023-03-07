@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (prime(n) - 1)*(prime(n+1) - 1)/2 + 3.",
+  "id": "A201498",
+  "mentions": [
+    "A099407"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

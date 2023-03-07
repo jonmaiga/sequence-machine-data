@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that are the sum of an even square > 0 and an odd square.",
+  "id": "A339952",
+  "mentions": [
+    "A000404",
+    "A010052",
+    "A057653",
+    "A097269"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

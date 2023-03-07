@@ -1,0 +1,20 @@
+{
+  "description": "Array: row n shows the coefficients of the characteristic polynomial of the n-th principal submatrix of min(i(i+1)/2, j(j+1)/2) (A106255).",
+  "id": "A204024",
+  "mentions": [
+    "A106255",
+    "A202605",
+    "A204016"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-05-03 11:36:53",
+    "offset": 1,
+    "size": 42,
+    "source": "joeis"
+  }
+}

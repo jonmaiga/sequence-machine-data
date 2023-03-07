@@ -1,0 +1,19 @@
+{
+  "description": "Index of A168425 when A174641(n) = A168425(m); a(n) = m.",
+  "id": "A202188",
+  "mentions": [
+    "A168425",
+    "A174641",
+    "A202187"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

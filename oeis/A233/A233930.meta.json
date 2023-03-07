@@ -1,0 +1,19 @@
+{
+  "description": "Primes p that give record exponents of 2 in p^2 - 1 (A091282).",
+  "id": "A233930",
+  "mentions": [
+    "A000215",
+    "A000668",
+    "A091282"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

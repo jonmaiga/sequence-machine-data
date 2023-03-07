@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of functions f:X->X, where |X| = n, such that for every x in X, f(f(x)) != x (i.e., the square of the function has no fixed points; note this implies that the function has no fixed points).",
+  "id": "A134362",
+  "mentions": [
+    "A000169",
+    "A007778",
+    "A065440"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

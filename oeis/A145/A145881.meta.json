@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of even permutations of {1,2,...,n} with no fixed points and having k excedances (n>=1; k>=1).",
+  "id": "A145881",
+  "mentions": [
+    "A000321",
+    "A145880",
+    "A145886",
+    "A145887"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

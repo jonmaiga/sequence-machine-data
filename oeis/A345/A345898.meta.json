@@ -1,0 +1,20 @@
+{
+  "description": "Odd powers of primes q such that each of (q-1)/2 and (q+1)/2 is either a power of prime or a semiprime.",
+  "id": "A345898",
+  "mentions": [
+    "A000961",
+    "A001358",
+    "A345899",
+    "A345900"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

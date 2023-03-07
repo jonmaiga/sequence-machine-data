@@ -1,0 +1,25 @@
+{
+  "description": "Least number with the same prime signature as {the largest divisor of n with only prime factors of the form 4k+1} has: a(n) = A046523(A170818(n)).",
+  "id": "A286361",
+  "mentions": [
+    "A046523",
+    "A063014",
+    "A170818",
+    "A267099",
+    "A267113",
+    "A286363",
+    "A286364",
+    "A286365"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

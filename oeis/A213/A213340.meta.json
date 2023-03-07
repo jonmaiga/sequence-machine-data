@@ -1,0 +1,24 @@
+{
+  "description": "Numbers which are the values of the quadratic polynomial 5+8t+12k+16kt on nonnegative integers.",
+  "id": "A213340",
+  "mentions": [
+    "A001844",
+    "A005408",
+    "A046092",
+    "A073101",
+    "A075245",
+    "A075246",
+    "A075247",
+    "A195770"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{k>=1} ((1 + (2^k*x)^k)/(1 - (2^k*x)^k))^(1/2^k).",
+  "id": "A303440",
+  "mentions": [
+    "A303307",
+    "A303361",
+    "A303381",
+    "A303441"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:27",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

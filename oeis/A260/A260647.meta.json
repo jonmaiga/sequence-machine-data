@@ -1,0 +1,27 @@
+{
+  "description": "Numbers that are the sum of two distinct nonzero triangular numbers.",
+  "id": "A260647",
+  "mentions": [
+    "A000217",
+    "A051533",
+    "A262749",
+    "A265134",
+    "A265135",
+    "A265136",
+    "A265137",
+    "A265138",
+    "A265140",
+    "A307597"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of spiro bicyclic skeletons with n carbon atoms.",
+  "id": "A107278",
+  "mentions": [
+    "A121158",
+    "A121159",
+    "A121160"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 6,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

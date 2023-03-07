@@ -1,0 +1,18 @@
+{
+  "description": "The number of convex layers in an n X n grid of points.",
+  "id": "A290966",
+  "mentions": [
+    "A293596"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

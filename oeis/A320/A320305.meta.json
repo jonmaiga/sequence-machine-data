@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = [q^n] Product_{d | n} theta_3(q^d), where theta_3() is the Jacobi theta function.",
+  "id": "A320305",
+  "mentions": [
+    "A000005",
+    "A000122"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

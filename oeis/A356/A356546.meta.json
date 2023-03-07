@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows. T(n, k) = RisingFactorial(n + 1, n) / (k! * (n - k)!).",
+  "id": "A356546",
+  "mentions": [
+    "A000108",
+    "A000897",
+    "A000984",
+    "A003506",
+    "A059304",
+    "A173018",
+    "A265609",
+    "A343842"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "changed",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

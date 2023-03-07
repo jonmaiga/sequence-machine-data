@@ -1,0 +1,26 @@
+{
+  "description": "Number T(n,k) of Dyck paths of semilength n such that 2*k is the difference between the area under the right half of the path and the area under the left half of the path; triangle T(n,k), n>=0, -floor(n*(n-1)/6) <= k <= floor(n*(n-1)/6), read by rows.",
+  "id": "A300322",
+  "mentions": [
+    "A000108",
+    "A129182",
+    "A130518",
+    "A177702",
+    "A239927",
+    "A298645",
+    "A300323",
+    "A300953"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

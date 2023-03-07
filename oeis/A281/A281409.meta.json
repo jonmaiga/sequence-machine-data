@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically first sequence of distinct terms, beginning with a(1)=5, with the property that each triple of consecutive terms contains a term that divides the sum of the other two terms.",
+  "id": "A281409",
+  "mentions": [
+    "A000027",
+    "A143097",
+    "A181440",
+    "A278962",
+    "A281408"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:50",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

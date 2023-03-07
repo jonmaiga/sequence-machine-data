@@ -1,0 +1,18 @@
+{
+  "description": "Composite integers k satisfying F_k-(k/5) == 0 (mod k), where F_k is the k-th Fibonacci number and (k/5) is the Kronecker symbol.",
+  "id": "A241505",
+  "mentions": [
+    "A000045",
+    "A090820"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

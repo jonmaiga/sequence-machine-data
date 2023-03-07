@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = (3^(wt(k)+f(j))-1)/2 if n = 6k+j, 0 <= j < 6, where wt = A000120, f = A151899.",
+  "id": "A151904",
+  "mentions": [
+    "A000120",
+    "A000695",
+    "A151899",
+    "A151902",
+    "A151905",
+    "A151907"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

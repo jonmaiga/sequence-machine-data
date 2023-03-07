@@ -1,0 +1,32 @@
+{
+  "description": "Array of ((k^n)+(k^(-n)))/2 where k=(sqrt(x^2+1)+x)^2 for integers x>=1.",
+  "id": "A188645",
+  "mentions": [
+    "A001541",
+    "A003499",
+    "A005899",
+    "A023039",
+    "A058331",
+    "A078986",
+    "A087215",
+    "A099370",
+    "A099397",
+    "A173128",
+    "A174747",
+    "A176368",
+    "A188644",
+    "A188647"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

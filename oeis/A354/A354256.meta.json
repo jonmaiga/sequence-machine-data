@@ -1,0 +1,20 @@
+{
+  "description": "Squares that remain square when written backward, are not divisible by 10, and have an even number of digits.",
+  "id": "A354256",
+  "mentions": [
+    "A027829",
+    "A033294"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

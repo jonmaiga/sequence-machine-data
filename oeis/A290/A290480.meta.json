@@ -1,0 +1,30 @@
+{
+  "description": "Product of proper unitary divisors of n.",
+  "id": "A290480",
+  "mentions": [
+    "A001221",
+    "A007774",
+    "A007955",
+    "A007956",
+    "A034460",
+    "A061537",
+    "A062758",
+    "A063919",
+    "A078599",
+    "A087652",
+    "A126192",
+    "A136655",
+    "A183091"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:05",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

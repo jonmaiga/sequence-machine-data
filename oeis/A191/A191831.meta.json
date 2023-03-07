@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Sum_{i+j=n, i,j >= 1} tau(i)*sigma(j), where tau() = A000005(), sigma() = A000203().",
+  "id": "A191831",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A006218",
+    "A024916",
+    "A086718",
+    "A237593",
+    "A340793",
+    "A341062"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 60,
+    "source": "joeis"
+  }
+}

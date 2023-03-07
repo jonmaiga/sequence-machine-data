@@ -1,0 +1,28 @@
+{
+  "description": "Square array read by antidiagonals downwards: super Patalan numbers of order 7.",
+  "id": "A248329",
+  "mentions": [
+    "A025752",
+    "A034835",
+    "A068555",
+    "A216703",
+    "A248324",
+    "A248325",
+    "A248326",
+    "A248328",
+    "A248332"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

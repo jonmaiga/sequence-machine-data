@@ -1,0 +1,18 @@
+{
+  "description": "Majority value maps: number of 2Xn binary arrays indicating the locations of corresponding elements equal to at least half of their horizontal, diagonal and antidiagonal neighbors in a random 0..3 2Xn array",
+  "id": "A220994",
+  "mentions": [
+    "A220993"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

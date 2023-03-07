@@ -1,0 +1,19 @@
+{
+  "description": "Positions of 1's in {A327222(k) : n > 0}.",
+  "id": "A327224",
+  "mentions": [
+    "A327222",
+    "A327223"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:54",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that are greater than the average of their closest flanking primes.",
+  "id": "A264719",
+  "mentions": [
+    "A000027",
+    "A051634",
+    "A145025",
+    "A264720",
+    "A264721",
+    "A264722"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:24",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the remainders (p*q mod n) with p,q prime, p + q = n and p < q.",
+  "id": "A338769",
+  "mentions": [
+    "A010051",
+    "A338768"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

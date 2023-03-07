@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n, k) = (1/k^n)*Product_{j=1..n} ( (k-1)*(k+1)^j + 1 ), read by rows.",
+  "id": "A156286",
+  "mentions": [
+    "A156173"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:38",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

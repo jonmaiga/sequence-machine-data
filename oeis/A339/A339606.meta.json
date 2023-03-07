@@ -1,0 +1,27 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} (zeta(3*k+2)-1).",
+  "id": "A339606",
+  "mentions": [
+    "A001620",
+    "A024006",
+    "A256919",
+    "A338815",
+    "A339135",
+    "A339529",
+    "A339530",
+    "A339604",
+    "A339605"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

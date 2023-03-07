@@ -1,0 +1,27 @@
+{
+  "description": "Product of squarefree numbers less than n+1.",
+  "id": "A179215",
+  "mentions": [
+    "A000142",
+    "A000720",
+    "A001221",
+    "A005117",
+    "A008966",
+    "A013928",
+    "A025487",
+    "A034386",
+    "A066779",
+    "A179214"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:02",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

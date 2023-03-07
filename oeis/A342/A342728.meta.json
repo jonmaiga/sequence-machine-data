@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the least number k such that A066323(k) = n.",
+  "id": "A342728",
+  "mentions": [
+    "A007608",
+    "A066321",
+    "A066323",
+    "A271472",
+    "A342725",
+    "A342726",
+    "A342727",
+    "A342729"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:16",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

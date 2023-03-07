@@ -1,0 +1,19 @@
+{
+  "description": "Number of nodes (or order) of a graph model obtained using an automata scheme on sets of order prime(n) >= 5 and in which all not halt states are linked by arcs (edges).",
+  "id": "A160772",
+  "mentions": [
+    "A040976",
+    "A128929"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 3,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

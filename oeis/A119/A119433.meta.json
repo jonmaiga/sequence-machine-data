@@ -1,0 +1,21 @@
+{
+  "description": "Primitive elements of A119432.",
+  "id": "A119433",
+  "mentions": [
+    "A005117",
+    "A103288",
+    "A119431",
+    "A119432"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

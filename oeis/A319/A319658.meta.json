@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the minimal number of successive ON cells that appears in n-th generation of rule-30 1D cellular automaton started from a single ON cell.",
+  "id": "A319658",
+  "mentions": [
+    "A100053",
+    "A319610"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "The minimum number of steps needed to generate prime(n) under the map x -> A060264(x) starting from any x taken from {2,3} or from A164333.",
+  "id": "A164960",
+  "mentions": [
+    "A060264",
+    "A164333"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

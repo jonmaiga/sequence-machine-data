@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = -4*a(n-1)*A001505(n-2), with a(1)=8.",
+  "id": "A204820",
+  "mentions": [
+    "A001505",
+    "A015219",
+    "A202946",
+    "A202948",
+    "A203778"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

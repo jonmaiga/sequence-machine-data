@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n of the form p^5 - Phi_5(p) (for prime p) such that n^5 - Phi_5(n) is also prime.",
+  "id": "A237640",
+  "mentions": [
+    "A125083",
+    "A237527",
+    "A237528",
+    "A237639"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

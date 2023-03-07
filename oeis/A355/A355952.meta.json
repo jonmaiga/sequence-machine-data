@@ -1,0 +1,20 @@
+{
+  "description": "Column 0 of the irregular triangle A355588.",
+  "id": "A355952",
+  "mentions": [
+    "A355585",
+    "A355588",
+    "A355951"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

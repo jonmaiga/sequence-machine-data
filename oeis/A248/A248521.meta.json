@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that floor(cot(Pi/(2k+2))) = floor(cot(Pi/(2k))) + 1.",
+  "id": "A248521",
+  "mentions": [
+    "A033581",
+    "A248520"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

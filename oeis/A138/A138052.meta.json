@@ -1,0 +1,24 @@
+{
+  "description": "Atomic number of the penultimate transition metal (group 11) in the n-th row of the periodic system of elements.",
+  "id": "A138052",
+  "mentions": [
+    "A134984",
+    "A137575",
+    "A137846",
+    "A138040",
+    "A138724"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "full",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 4,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

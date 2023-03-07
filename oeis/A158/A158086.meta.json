@@ -1,0 +1,20 @@
+{
+  "description": "Number of occurrences of n as an entry in rows <= 2n of Losanitsch's triangle (A034851).",
+  "id": "A158086",
+  "mentions": [
+    "A003016",
+    "A034851",
+    "A153046"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 2,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

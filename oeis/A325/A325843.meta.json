@@ -1,0 +1,18 @@
+{
+  "description": "First term of n-th difference sequence of (round(k*sqrt(6))), k >= 0.",
+  "id": "A325843",
+  "mentions": [
+    "A325664"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

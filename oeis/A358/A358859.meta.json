@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest n-gonal number divisible by exactly n n-gonal numbers.",
+  "id": "A358859",
+  "mentions": [
+    "A005179",
+    "A076983",
+    "A358539",
+    "A358860",
+    "A358861"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 3,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: interleaving successive pairs of rows of Pascal's triangle.",
+  "id": "A249095",
+  "mentions": [
+    "A003945",
+    "A005408",
+    "A007318",
+    "A105321",
+    "A128014",
+    "A249111",
+    "A249133",
+    "A249304",
+    "A249307"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

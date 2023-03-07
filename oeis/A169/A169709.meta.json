@@ -1,0 +1,25 @@
+{
+  "description": "Total number of ON cells at stage n of two-dimensional cellular automaton defined by \"Rule 1006\".",
+  "id": "A169709",
+  "mentions": [
+    "A139250",
+    "A147562",
+    "A147582",
+    "A151725",
+    "A169648",
+    "A169649",
+    "A169707",
+    "A169708",
+    "A169710"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:47",
+    "offset": 0,
+    "size": 51,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "description": "Cube array read by upward antidiagonals ignoring zero and empty terms: T(n, k, r) is the number of n-ary strings of length k, containing r consecutive 0's.",
+  "id": "A341050",
+  "mentions": [
+    "A000567",
+    "A003215",
+    "A005408",
+    "A005917",
+    "A008466",
+    "A022521",
+    "A022522",
+    "A022523",
+    "A022524",
+    "A022525",
+    "A022526",
+    "A022527",
+    "A022528",
+    "A022529",
+    "A022530",
+    "A022531",
+    "A022532",
+    "A022533",
+    "A022534",
+    "A022535",
+    "A022536",
+    "A022537",
+    "A022538",
+    "A022539",
+    "A022540",
+    "A050231",
+    "A103532",
+    "A186244",
+    "A231430",
+    "A340156",
+    "A340242"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 2,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

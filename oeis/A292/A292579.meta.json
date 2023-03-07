@@ -1,0 +1,20 @@
+{
+  "description": "Inverse to A055643: Consider n as a number written in base 60, using 2 decimal digits for each base-60 digit (which we allow to be in the range 0 .. 99), and write n in base 10.",
+  "id": "A292579",
+  "mentions": [
+    "A001477",
+    "A055643"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 110,
+    "source": "oeis-entry"
+  }
+}

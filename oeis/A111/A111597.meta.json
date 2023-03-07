@@ -1,0 +1,25 @@
+{
+  "description": "Lah numbers: a(n) = n!*binomial(n-1,6)/7!.",
+  "id": "A111597",
+  "mentions": [
+    "A001113",
+    "A001620",
+    "A001778",
+    "A008297",
+    "A091725",
+    "A099285",
+    "A111596"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 7,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

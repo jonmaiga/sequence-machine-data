@@ -1,0 +1,31 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the positive odd numbers in decreasing order starting with 2^n - 1. T(0, 1) = 0 and T(n, k) for n >= 1, 1 <= k <= 2^(n-1).",
+  "id": "A261693",
+  "mentions": [
+    "A000225",
+    "A000302",
+    "A005408",
+    "A011782",
+    "A036563",
+    "A053120",
+    "A080079",
+    "A099375",
+    "A147582",
+    "A261692",
+    "A262617",
+    "A262621"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

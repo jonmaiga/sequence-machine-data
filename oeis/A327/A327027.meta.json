@@ -1,0 +1,21 @@
+{
+  "description": "T(n, k) = (1/n) * Sum_{d|n} phi(d) * A241171(n/d, k) for n >= 1, T(0, k) = 0^k. Triangle read by rows for 0 <= k <= n.",
+  "id": "A327027",
+  "mentions": [
+    "A241171",
+    "A327021",
+    "A327026",
+    "A327029"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

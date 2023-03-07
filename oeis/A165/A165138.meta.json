@@ -1,0 +1,19 @@
+{
+  "description": "Smallest prime p > prime(n) such that p+prime(n) is a semiprime.",
+  "id": "A165138",
+  "mentions": [
+    "A001358",
+    "A084704",
+    "A145471"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Positive numbers x for which x^2 can be expressed as z^2 - y^4 with y != 0.",
+  "id": "A349663",
+  "mentions": [
+    "A000290",
+    "A000583",
+    "A002144",
+    "A002145",
+    "A271576"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

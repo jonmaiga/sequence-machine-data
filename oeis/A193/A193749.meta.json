@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n into distinct parts that are squares or triangular numbers (A005214).",
+  "id": "A193749",
+  "mentions": [
+    "A000009",
+    "A000217",
+    "A000290",
+    "A005214",
+    "A024940",
+    "A033461",
+    "A193748"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

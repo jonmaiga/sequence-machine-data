@@ -1,0 +1,22 @@
+{
+  "description": "Cumulative product of quadruple factorial A007662.",
+  "id": "A114779",
+  "mentions": [
+    "A000178",
+    "A006882",
+    "A007662",
+    "A114347"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

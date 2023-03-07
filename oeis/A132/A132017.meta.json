@@ -1,0 +1,20 @@
+{
+  "description": "Where record values occur in A132015.",
+  "id": "A132017",
+  "mentions": [
+    "A132015",
+    "A132016",
+    "A132042",
+    "A132087"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

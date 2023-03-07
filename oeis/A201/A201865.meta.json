@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 1/((1-3*x)*(1+7*x)).",
+  "id": "A201865",
+  "mentions": [
+    "A014986",
+    "A083296",
+    "A083300"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

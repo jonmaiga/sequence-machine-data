@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the integral over exp(x)/sqrt(1-x^2) dx between 0 and 1.",
+  "id": "A212186",
+  "mentions": [
+    "A197036",
+    "A197037"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

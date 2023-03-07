@@ -1,0 +1,23 @@
+{
+  "description": "Numbers n such that there are exactly three 1's in their factorial base representation (A007623).",
+  "id": "A255343",
+  "mentions": [
+    "A007623",
+    "A255341",
+    "A255342",
+    "A255411",
+    "A256450",
+    "A257511"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

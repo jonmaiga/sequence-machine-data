@@ -1,0 +1,19 @@
+{
+  "description": "Primes such that z(p) is not divisible by 4 where z(n) is A214028(n), the smallest k such that n divides A000129(k), the k-th Pell number.",
+  "id": "A261581",
+  "mentions": [
+    "A000129",
+    "A214028",
+    "A261580"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

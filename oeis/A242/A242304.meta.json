@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of C(5), where C(x) = -Sum_{k>=1} (-1)^k/prime(k)^x.",
+  "id": "A242304",
+  "mentions": [
+    "A078437",
+    "A085965",
+    "A242301",
+    "A242302",
+    "A242303"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "cons",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": -1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

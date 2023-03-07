@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest infinite sequence of distinct positive integers such that in any run of four consecutive terms there is one term which is prime to the other three, none of which are pairwise coprime.",
+  "id": "A354717",
+  "mentions": [
+    "A098550",
+    "A336957",
+    "A352950",
+    "A354732"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

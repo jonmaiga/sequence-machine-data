@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the final term of the n-th row of A106394.",
+  "id": "A105401",
+  "mentions": [
+    "A001008",
+    "A002805",
+    "A106394",
+    "A112330"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

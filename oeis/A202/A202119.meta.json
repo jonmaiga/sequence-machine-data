@@ -1,0 +1,18 @@
+{
+  "description": "Number of -3..3 arrays of n elements with first, second and third differences also in -3..3.",
+  "id": "A202119",
+  "mentions": [
+    "A202124"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:22",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

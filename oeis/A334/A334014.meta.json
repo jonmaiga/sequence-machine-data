@@ -1,0 +1,29 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of functions f: X->Y, where X is a subset of Y, |X| = n, |Y| = n+k, such that for every x in X, f(f(x)) != x.",
+  "id": "A334014",
+  "mentions": [
+    "A000012",
+    "A000169",
+    "A001477",
+    "A005563",
+    "A058794",
+    "A065440",
+    "A089466",
+    "A089467",
+    "A089468",
+    "A134362",
+    "A220690"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:05",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

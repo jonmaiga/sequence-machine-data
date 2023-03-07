@@ -1,0 +1,21 @@
+{
+  "description": "Number of numbers < 10^n in which more than half of the digits are the same.",
+  "id": "A353183",
+  "mentions": [
+    "A353181",
+    "A353182"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

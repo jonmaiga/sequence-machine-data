@@ -1,0 +1,21 @@
+{
+  "description": "For any nonnegative real number x, let f(x) be the real number obtained by replacing in the binary expansions of the integer and fractional parts of x each finite run of k consecutive equal bits b with a run of k-(-1)^k consecutive bits b; a(n) is the numerator of f(1/n).",
+  "id": "A323626",
+  "mentions": [
+    "A162853",
+    "A323627"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

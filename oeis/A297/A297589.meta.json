@@ -1,0 +1,17 @@
+{
+  "description": "Number of n X n 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 5 neighboring 1's.",
+  "id": "A297589",
+  "mentions": [
+    "A297595"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

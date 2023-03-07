@@ -1,0 +1,24 @@
+{
+  "description": "Numerators in continued fraction expansion of sqrt(3/5).",
+  "id": "A145542",
+  "mentions": [
+    "A001090",
+    "A041023",
+    "A041203",
+    "A070997",
+    "A145543",
+    "A243469"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the denominator of f(n) where f(1) = 2 and f(n+1) is the solution of x + Sum_{i=1..n} f(i) = x * Product_{i=1..n} f(i).",
+  "id": "A100441",
+  "mentions": [
+    "A001146",
+    "A076628"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "formulas",
+    "frac",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:22",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

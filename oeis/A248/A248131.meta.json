@@ -1,0 +1,21 @@
+{
+  "description": "Start with a(0) = 1, then a(n) = three times the n-th digit of the sequence.",
+  "id": "A248131",
+  "mentions": [
+    "A102251",
+    "A248128",
+    "A248130",
+    "A248153"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

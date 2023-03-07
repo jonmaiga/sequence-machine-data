@@ -1,0 +1,18 @@
+{
+  "description": "Leading coefficients of numerators of Norlund's B_{nu}^(n) polynomials (Nørlund, Tafel 5, p. 459).",
+  "id": "A290030",
+  "mentions": [
+    "A053657",
+    "A100655"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:04",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

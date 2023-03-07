@@ -1,0 +1,19 @@
+{
+  "description": "Triangular numbers t such that all the digits needed to write the consecutive triangular numbers from 0 to t fill exactly an equilateral triangle (no holes, no overlaps).",
+  "id": "A158030",
+  "mentions": [
+    "A158022",
+    "A158031"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

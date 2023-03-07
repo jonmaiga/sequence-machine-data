@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest square s > 0 such that s*(2n+1) is a triangular number.",
+  "id": "A344949",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A061782"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f.: Sum_{n>=0} log( Sum_{k>=0} (n+k)^k*x^k/k! )^n / n!.",
+  "id": "A211398",
+  "mentions": [
+    "A000169",
+    "A001865"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

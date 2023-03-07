@@ -1,0 +1,20 @@
+{
+  "description": "The hyper-Wiener index of a benzenoid consisting of a straight-line chain of n hexagons (s=2; see the Gutman et al. reference).",
+  "id": "A193390",
+  "mentions": [
+    "A143937",
+    "A143938"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

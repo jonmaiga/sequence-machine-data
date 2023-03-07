@@ -1,0 +1,22 @@
+{
+  "description": "Number of triangles on a 4 X n grid.",
+  "id": "A296367",
+  "mentions": [
+    "A001840",
+    "A045996",
+    "A115514",
+    "A262402"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:32:29",
+    "offset": 1,
+    "size": 41,
+    "source": "joeis"
+  }
+}

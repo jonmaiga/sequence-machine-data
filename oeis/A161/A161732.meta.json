@@ -1,0 +1,23 @@
+{
+  "description": "Fixed points of the TITO operation (A161594) that are also composite palindromes.",
+  "id": "A161732",
+  "mentions": [
+    "A046351",
+    "A161594",
+    "A161597",
+    "A161598",
+    "A161600",
+    "A161730"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

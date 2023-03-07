@@ -1,0 +1,22 @@
+{
+  "description": "Multiplicative with a(p^e) = p^(e-(e mod p)).",
+  "id": "A327939",
+  "mentions": [
+    "A003415",
+    "A085731",
+    "A234957",
+    "A327938"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:56",
+    "offset": 1,
+    "size": 112,
+    "source": "oeis-bfile"
+  }
+}

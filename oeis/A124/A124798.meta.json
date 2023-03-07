@@ -1,0 +1,20 @@
+{
+  "description": "Sequence of digits (least significant digit first) of A124797 (sums of cyclic permutations of 1...n written in base n+1).",
+  "id": "A124798",
+  "mentions": [
+    "A083956",
+    "A124797"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

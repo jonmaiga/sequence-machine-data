@@ -1,0 +1,19 @@
+{
+  "description": "Dimensions of space of harmonic polynomials of each degree invariant under the full icosahedral group.",
+  "id": "A325488",
+  "mentions": [
+    "A307897"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 09:54:43",
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

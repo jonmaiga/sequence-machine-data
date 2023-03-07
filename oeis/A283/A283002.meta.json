@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are not of the form m + (sum of base-100 digits of m).",
+  "id": "A283002",
+  "mentions": [
+    "A003052"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

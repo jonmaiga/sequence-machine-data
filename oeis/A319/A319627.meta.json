@@ -1,0 +1,33 @@
+{
+  "description": "Primorial deflation of n (denominator): Let f be the completely multiplicative function over the positive rational numbers defined by f(p) = A034386(p) for any prime number p; f constitutes a permutation of the positive rational numbers; let g be the inverse of f; for any n > 0, a(n) is the denominator of g(n).",
+  "id": "A319627",
+  "mentions": [
+    "A003961",
+    "A025487",
+    "A034386",
+    "A064989",
+    "A307035",
+    "A319626",
+    "A329900",
+    "A337377",
+    "A348990",
+    "A348993",
+    "A349169",
+    "A354365",
+    "A354366",
+    "A358217"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "frac",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:41",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

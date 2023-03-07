@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of x < 0 satisfying 3*x^2 + 3*x*cos(x) = 2.",
+  "id": "A199293",
+  "mentions": [
+    "A199170",
+    "A199294"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:56",
+    "offset": 1,
+    "size": 101,
+    "source": "joeis"
+  }
+}

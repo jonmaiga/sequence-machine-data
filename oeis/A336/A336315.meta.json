@@ -1,0 +1,25 @@
+{
+  "description": "The number of divisors in the conjugated prime factorization of n: a(n) = A000005(A122111(n)).",
+  "id": "A336315",
+  "mentions": [
+    "A000005",
+    "A034444",
+    "A122111",
+    "A286621",
+    "A322813",
+    "A322819",
+    "A323173",
+    "A336316"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

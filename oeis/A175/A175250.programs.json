@@ -1,0 +1,74 @@
+{
+  "oi": 175250,
+  "ps": [
+    {
+      "d": "2021-11-01",
+      "ix": "record[nonprime(gpf(n+1))]",
+      "mt": 30,
+      "px": [
+        "n",
+        "1",
+        "+",
+        "gpf",
+        "nonprime",
+        "record"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "record[nonprime(lpf(n+1))]",
+      "mt": 30,
+      "px": [
+        "n",
+        "1",
+        "+",
+        "lpf",
+        "nonprime",
+        "record"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "nonprime(eq[n, ∏{d}[n, #]])",
+      "mt": 30,
+      "px": [
+        "n",
+        "n",
+        "#",
+        "∏{d}",
+        "eq",
+        "nonprime"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "nonprime(lt[0, char[gpf(n+1)]])",
+      "mt": 30,
+      "px": [
+        "0",
+        "n",
+        "1",
+        "+",
+        "gpf",
+        "char",
+        "lt",
+        "nonprime"
+      ]
+    },
+    {
+      "d": "2021-11-01",
+      "ix": "nonprime(eq[1, char[gpf(n+1)]])",
+      "mt": 30,
+      "px": [
+        "1",
+        "n",
+        "1",
+        "+",
+        "gpf",
+        "char",
+        "eq",
+        "nonprime"
+      ]
+    }
+  ]
+}

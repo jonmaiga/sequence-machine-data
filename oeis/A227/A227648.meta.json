@@ -1,0 +1,19 @@
+{
+  "description": "Perfect powers equal to the sum of 7 factorial numbers.",
+  "id": "A227648",
+  "mentions": [
+    "A114377",
+    "A227644",
+    "A227651"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

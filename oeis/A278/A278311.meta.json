@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that n-1 and n+1 have the same number of prime factors as n (with multiplicity).",
+  "id": "A278311",
+  "mentions": [
+    "A045920",
+    "A045939",
+    "A278291"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

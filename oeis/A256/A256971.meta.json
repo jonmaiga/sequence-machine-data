@@ -1,0 +1,18 @@
+{
+  "description": "Partial sums of A256970.",
+  "id": "A256971",
+  "mentions": [
+    "A053755",
+    "A256970"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

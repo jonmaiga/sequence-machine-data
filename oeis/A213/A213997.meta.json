@@ -1,0 +1,21 @@
+{
+  "description": "Number of integers between successive prime triples (p, p+2, p+6).",
+  "id": "A213997",
+  "mentions": [
+    "A022004",
+    "A048614",
+    "A167132",
+    "A204099",
+    "A204100"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

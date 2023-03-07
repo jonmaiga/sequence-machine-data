@@ -1,0 +1,28 @@
+{
+  "description": "Pascal-like triangle with index of asymmetry y = 4 and index of obliqueness z = 1.",
+  "id": "A141021",
+  "mentions": [
+    "A007318",
+    "A140993",
+    "A140994",
+    "A140995",
+    "A140996",
+    "A140997",
+    "A140998",
+    "A141020",
+    "A141031",
+    "A172119",
+    "A308808"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

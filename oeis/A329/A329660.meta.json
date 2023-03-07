@@ -1,0 +1,19 @@
+{
+  "description": "Numbers m such that sigma(m) is a Lucas number (A000032), where sigma(m) is the sum of divisors of m (A000203).",
+  "id": "A329660",
+  "mentions": [
+    "A000032",
+    "A000203",
+    "A272412"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

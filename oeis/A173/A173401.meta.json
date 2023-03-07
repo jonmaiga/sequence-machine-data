@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that A075526(k-1) = A054546(k).",
+  "id": "A173401",
+  "mentions": [
+    "A002808",
+    "A008578",
+    "A054546",
+    "A075526",
+    "A173390",
+    "A173400"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

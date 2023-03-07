@@ -1,0 +1,26 @@
+{
+  "description": "Restricted growth sequence transform of (3*A293225(n) + A010872(n)), a filter combining (n mod 3) with two products, the other formed from the 1-digits (A293221) and the other from the 2-digits (A293222) present in the ternary expansions of proper divisors of n.",
+  "id": "A293450",
+  "mentions": [
+    "A002324",
+    "A010872",
+    "A019565",
+    "A289813",
+    "A289814",
+    "A293221",
+    "A293222",
+    "A293225",
+    "A293226"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:09",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Number of 10-D hypercubes in an n-dimensional hypercube.",
+  "id": "A172242",
+  "mentions": [
+    "A001788",
+    "A001789",
+    "A002409",
+    "A003472",
+    "A038207",
+    "A054849",
+    "A054851",
+    "A140325",
+    "A140354"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 21:54:32",
+    "offset": 10,
+    "size": 21,
+    "source": "joeis"
+  }
+}

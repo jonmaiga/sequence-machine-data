@@ -1,0 +1,21 @@
+{
+  "description": "Gaussian-Pythagorean semiprimes. Products of a prime of the form 2 or 4n+1 (A002313) and a prime of the form 4n+3 (A002145).",
+  "id": "A107982",
+  "mentions": [
+    "A001358",
+    "A002145",
+    "A002313"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

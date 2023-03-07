@@ -1,0 +1,20 @@
+{
+  "description": "Number of 6-regular maps with n vertices on the torus, up to orientation-preserving isomorphisms.",
+  "id": "A292974",
+  "mentions": [
+    "A292408",
+    "A292971",
+    "A292972"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

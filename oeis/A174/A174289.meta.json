@@ -1,0 +1,21 @@
+{
+  "description": "Numerator of the n-th term of the inverse binomial transform of 1, 1/2, B_4, B_6, B_8,..., a modified Bernoulli sequence.",
+  "id": "A174289",
+  "mentions": [
+    "A000367",
+    "A006954",
+    "A164555",
+    "A174276"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

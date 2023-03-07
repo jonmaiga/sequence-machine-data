@@ -1,0 +1,17 @@
+{
+  "description": "Number of swaps needed to return the recursive transform T(k) = concatenate(reverse(k), len(k) + 1) to the tuple 1, 2, ..., n.",
+  "id": "A346036",
+  "mentions": [
+    "A220073"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

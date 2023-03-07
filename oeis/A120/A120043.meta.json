@@ -1,0 +1,28 @@
+{
+  "description": "Number of 12-almost primes 12ap such that 2^n < 12ap <= 2^(n+1).",
+  "id": "A120043",
+  "mentions": [
+    "A036378",
+    "A069273",
+    "A120033",
+    "A120034",
+    "A120035",
+    "A120036",
+    "A120037",
+    "A120038",
+    "A120039",
+    "A120040",
+    "A120041",
+    "A120042"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

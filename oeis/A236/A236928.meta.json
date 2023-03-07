@@ -1,0 +1,28 @@
+{
+  "description": "Number of integer solutions to a^2 + b^2 + c^2 + 2*d^2 = n.",
+  "id": "A236928",
+  "mentions": [
+    "A000118",
+    "A117000",
+    "A236923",
+    "A236924",
+    "A236926",
+    "A236927",
+    "A236930",
+    "A236931",
+    "A236932",
+    "A236933"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

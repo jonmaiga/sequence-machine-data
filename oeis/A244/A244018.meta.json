@@ -1,0 +1,22 @@
+{
+  "description": "Numbers missing from A244017.",
+  "id": "A244018",
+  "mentions": [
+    "A243700",
+    "A243864",
+    "A244010",
+    "A244011",
+    "A244016",
+    "A244017"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

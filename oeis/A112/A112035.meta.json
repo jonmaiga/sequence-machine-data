@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=0..n} k*C(n,k)^2*C(n+k,k)^3, where C := binomial.",
+  "id": "A112035",
+  "mentions": [
+    "A055246",
+    "A112036"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

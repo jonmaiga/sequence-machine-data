@@ -1,0 +1,27 @@
+{
+  "description": "Primorial base exp-function reduced modulo 6.",
+  "id": "A358840",
+  "mentions": [
+    "A010875",
+    "A047235",
+    "A120325",
+    "A276086",
+    "A328632",
+    "A353486",
+    "A358841",
+    "A358842",
+    "A358843",
+    "A358850"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

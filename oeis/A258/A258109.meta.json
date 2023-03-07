@@ -1,0 +1,25 @@
+{
+  "description": "Number of balanced parenthesis expressions of length 2n and depth 3.",
+  "id": "A258109",
+  "mentions": [
+    "A000045",
+    "A000079",
+    "A061667",
+    "A080936",
+    "A262600",
+    "A287213"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 3,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

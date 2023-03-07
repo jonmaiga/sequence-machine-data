@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = a(2) = a(3) = a(4) = 1; for n>1: a(n+4) = a(n)^2 + a(n+1)^2 + a(n+2)^2 + a(n+3)^2.",
+  "id": "A112958",
+  "mentions": [
+    "A000283",
+    "A000288",
+    "A112957",
+    "A112959",
+    "A112960"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k, when written in English, has 1 letter more than k+1.",
+  "id": "A308405",
+  "mentions": [
+    "A303475"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

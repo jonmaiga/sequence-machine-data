@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that A113552(k) is odd.",
+  "id": "A113553",
+  "mentions": [
+    "A113552"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

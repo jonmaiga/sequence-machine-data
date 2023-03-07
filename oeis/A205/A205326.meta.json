@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the sum of [0;n,n,n,...]^2 for n=1..infinity.",
+  "id": "A205326",
+  "mentions": [
+    "A001622",
+    "A013661",
+    "A014176",
+    "A098316",
+    "A098317",
+    "A098318",
+    "A205325"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

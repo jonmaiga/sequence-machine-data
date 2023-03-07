@@ -1,0 +1,28 @@
+{
+  "description": "Unsigned Genocchi numbers (of first kind) of even index.",
+  "id": "A110501",
+  "mentions": [
+    "A000111",
+    "A001469",
+    "A002105",
+    "A027641",
+    "A027642",
+    "A036968",
+    "A059371",
+    "A196265",
+    "A211183",
+    "A297703"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

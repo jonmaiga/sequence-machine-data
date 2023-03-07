@@ -1,0 +1,21 @@
+{
+  "description": "The Kruskal-Macaulay function M_4(n).",
+  "id": "A123580",
+  "mentions": [
+    "A000127",
+    "A123578",
+    "A123579",
+    "A123731"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

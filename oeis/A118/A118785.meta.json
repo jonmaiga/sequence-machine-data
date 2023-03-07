@@ -1,0 +1,20 @@
+{
+  "description": "Coordination sequence for 600-cell: number of vertices at graph distance n from a given vertex on the skeleton of the regular 600-cell (or {5,3,3}).",
+  "id": "A118785",
+  "mentions": [
+    "A108997",
+    "A329499"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

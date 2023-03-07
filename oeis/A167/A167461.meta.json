@@ -1,0 +1,22 @@
+{
+  "description": "Anagram multiples of 123456789.",
+  "id": "A167461",
+  "mentions": [
+    "A050278",
+    "A053654",
+    "A161750"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

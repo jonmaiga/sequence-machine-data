@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the real part of the continued fraction i/(Pi+i/(Pi+i/(...))).",
+  "id": "A263210",
+  "mentions": [
+    "A000796",
+    "A263211"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": -1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

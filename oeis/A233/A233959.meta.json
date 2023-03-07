@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+1)X(n+1) 0..3 arrays with every 2X2 subblock having the sum of the absolute values of all six edge and diagonal differences equal to 10",
+  "id": "A233959",
+  "mentions": [
+    "A233967"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

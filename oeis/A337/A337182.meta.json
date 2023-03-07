@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n>2, a(n) is the smallest number not already used which is a multiple of the product of the most frequently occurring distinct prime factors in a(n-1).",
+  "id": "A337182",
+  "mentions": [
+    "A027746",
+    "A064413",
+    "A098550",
+    "A336957",
+    "A338222"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Numbers both squarefree and triangle-free.",
+  "id": "A113543",
+  "mentions": [
+    "A000217",
+    "A001110",
+    "A005117",
+    "A013929",
+    "A046098",
+    "A059956",
+    "A065474",
+    "A071172",
+    "A087618",
+    "A088454",
+    "A112886",
+    "A113502"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "unsolved"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

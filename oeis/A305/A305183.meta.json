@@ -1,0 +1,21 @@
+{
+  "description": "Least k such that A048272(k) = -n.",
+  "id": "A305183",
+  "mentions": [
+    "A005179",
+    "A038547",
+    "A048272",
+    "A187941"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

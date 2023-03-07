@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: abs(A103447)*A047999 mod 2.",
+  "id": "A105594",
+  "mentions": [
+    "A047999",
+    "A103447",
+    "A105595",
+    "A105596"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:56",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

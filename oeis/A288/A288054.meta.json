@@ -1,0 +1,19 @@
+{
+  "description": "Ordered prime numbers as encountered from the building set of positive integers.",
+  "id": "A288054",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

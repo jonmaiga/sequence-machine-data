@@ -1,0 +1,22 @@
+{
+  "description": "Numbers m such that 6m+1, 12m+1, 18m+1, 36m+1 and 72m+1 are all prime.",
+  "id": "A257035",
+  "mentions": [
+    "A002997",
+    "A112428",
+    "A174613",
+    "A206024",
+    "A206349"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

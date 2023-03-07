@@ -1,0 +1,20 @@
+{
+  "description": "Triangle T(n, k) = A060821(n,k) + A060821(n,n-k), read by rows.",
+  "id": "A181089",
+  "mentions": [
+    "A060821",
+    "A062267"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

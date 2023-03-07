@@ -1,0 +1,23 @@
+{
+  "description": "Number of main classes of self-orthogonal diagonal Latin squares of order n.",
+  "id": "A329685",
+  "mentions": [
+    "A287761",
+    "A287762",
+    "A309210",
+    "A330391",
+    "A333366"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

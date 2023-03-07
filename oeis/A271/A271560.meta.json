@@ -1,0 +1,31 @@
+{
+  "description": "a(n) = G_n(13), where G is the Goodstein function defined in A266201.",
+  "id": "A271560",
+  "mentions": [
+    "A056193",
+    "A059933",
+    "A211378",
+    "A215409",
+    "A222117",
+    "A266201",
+    "A266204",
+    "A266205",
+    "A271554",
+    "A271555",
+    "A271556",
+    "A271557",
+    "A271558",
+    "A271559"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:36",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

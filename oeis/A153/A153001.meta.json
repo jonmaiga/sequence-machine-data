@@ -1,0 +1,23 @@
+{
+  "description": "Rows of A152980 when written as a triangle converge to this sequence.",
+  "id": "A153001",
+  "mentions": [
+    "A000695",
+    "A139250",
+    "A139251",
+    "A152968",
+    "A152978",
+    "A152980",
+    "A153006"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Position on a Dvorak typewriter (or computer) keyboard where the n-th letter of the alphabet can be found.",
+  "id": "A323593",
+  "mentions": [
+    "A087622"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

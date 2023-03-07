@@ -1,0 +1,25 @@
+{
+  "description": "Number A(n,k) of n-element subsets of [k*n] whose elements sum to a multiple of n. Square array A(n,k) with n, k >= 0 read by antidiagonals.",
+  "id": "A304482",
+  "mentions": [
+    "A000007",
+    "A169888",
+    "A318431",
+    "A318432",
+    "A318433",
+    "A318477",
+    "A318557"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

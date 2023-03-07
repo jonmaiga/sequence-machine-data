@@ -1,0 +1,20 @@
+{
+  "description": "G.f. C(x) satisfies: C(x) = (1 - x*C(x))*(1 - 2*x*C(x)) / (1 - 3*x*C(x))^2.",
+  "id": "A341963",
+  "mentions": [
+    "A071878",
+    "A341961",
+    "A341962"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

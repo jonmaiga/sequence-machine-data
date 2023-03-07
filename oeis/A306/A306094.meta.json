@@ -1,0 +1,23 @@
+{
+  "description": "Number of plane partitions of n where parts are colored in (at most) 4 colors.",
+  "id": "A306094",
+  "mentions": [
+    "A091298",
+    "A208447",
+    "A306093",
+    "A306099",
+    "A306100",
+    "A306101"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

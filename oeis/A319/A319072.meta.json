@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the sum of the non-bi-unitary divisors of n.",
+  "id": "A319072",
+  "mentions": [
+    "A000203",
+    "A027750",
+    "A188999",
+    "A222266"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

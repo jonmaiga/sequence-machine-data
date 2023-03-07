@@ -1,0 +1,39 @@
+{
+  "description": "Number of divisors d|n with distinct prime multiplicities such that the quotient n/d also has distinct prime multiplicities.",
+  "id": "A336500",
+  "mentions": [
+    "A000005",
+    "A001055",
+    "A002033",
+    "A007425",
+    "A056924",
+    "A074206",
+    "A098859",
+    "A124010",
+    "A130091",
+    "A167865",
+    "A181796",
+    "A253249",
+    "A327498",
+    "A336419",
+    "A336422",
+    "A336423",
+    "A336424",
+    "A336568",
+    "A336569",
+    "A336570",
+    "A336571",
+    "A336869",
+    "A336870"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

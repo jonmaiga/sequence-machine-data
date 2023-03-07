@@ -1,0 +1,29 @@
+{
+  "description": "Number of ways to place n nonattacking princesses on an n X n board.",
+  "id": "A245011",
+  "mentions": [
+    "A000170",
+    "A002465",
+    "A051223",
+    "A137774",
+    "A185085",
+    "A201511",
+    "A201513",
+    "A201540",
+    "A201861",
+    "A225555",
+    "A244284"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

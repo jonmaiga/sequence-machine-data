@@ -1,0 +1,32 @@
+{
+  "description": "Primes whose decimal representation has only digits in {4,5,7}.",
+  "id": "A217039",
+  "mentions": [
+    "A000040",
+    "A036953",
+    "A061247",
+    "A079651",
+    "A079652",
+    "A199325",
+    "A199329",
+    "A199340",
+    "A199349",
+    "A214584",
+    "A260044",
+    "A260267",
+    "A260271"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

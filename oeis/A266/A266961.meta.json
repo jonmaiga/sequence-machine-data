@@ -1,0 +1,18 @@
+{
+  "description": "Initial members of two prime quadruple pairs (A059925) with the smallest possible difference of 420.",
+  "id": "A266961",
+  "mentions": [
+    "A007530",
+    "A059925"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:28",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

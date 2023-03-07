@@ -1,0 +1,24 @@
+{
+  "description": "Numbers whose sum of proper divisors is equal to 88978489594",
+  "id": "A287233",
+  "mentions": [
+    "A001065",
+    "A283156",
+    "A283157",
+    "A287238",
+    "A287251",
+    "A287262"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:59",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

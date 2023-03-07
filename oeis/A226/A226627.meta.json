@@ -1,0 +1,25 @@
+{
+  "description": "Irregular array read by rows. a(n) is the smallest starting value of a T_k trajectory that includes A226623(n), where T_k is the Collatz-like 3x-k function associated with A226623(n).",
+  "id": "A226627",
+  "mentions": [
+    "A226611",
+    "A226623",
+    "A226624",
+    "A226625",
+    "A226626",
+    "A226628",
+    "A226629",
+    "A226630"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

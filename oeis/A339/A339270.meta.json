@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the largest m such that there is no prime except prime(n) from prime(n)-m+1 to prime(n)+m.",
+  "id": "A339270",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A046929",
+    "A339148",
+    "A339188"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

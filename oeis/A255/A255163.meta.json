@@ -1,0 +1,21 @@
+{
+  "description": "Irrational parts of circle radii in nested circles and hexagons (see comment).",
+  "id": "A255163",
+  "mentions": [
+    "A094013",
+    "A170931",
+    "A174968",
+    "A255162"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:44:28",
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

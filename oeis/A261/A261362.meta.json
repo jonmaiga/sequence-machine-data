@@ -1,0 +1,22 @@
+{
+  "description": "Least positive integer k such that both k and k*n belong to the set {m>0: 2*prime(prime(m))+1 = prime(p) for some prime p}.",
+  "id": "A261362",
+  "mentions": [
+    "A000040",
+    "A005384",
+    "A260886",
+    "A261353",
+    "A261354",
+    "A261361"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

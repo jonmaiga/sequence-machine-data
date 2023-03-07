@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the greatest x satisfying x^2 + 3*x + 1 = e^x.",
+  "id": "A201896",
+  "mentions": [
+    "A201741",
+    "A201895",
+    "A201986"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:34:39",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

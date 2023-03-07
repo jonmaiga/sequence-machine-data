@@ -1,0 +1,29 @@
+{
+  "description": "Numbers n such that there is no bit position where the binary expansions of n and 8n are both 1.",
+  "id": "A115845",
+  "mentions": [
+    "A003714",
+    "A005809",
+    "A033052",
+    "A048715",
+    "A048716",
+    "A048720",
+    "A104287",
+    "A115846",
+    "A115847",
+    "A116360",
+    "A116361",
+    "A169958"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:06",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

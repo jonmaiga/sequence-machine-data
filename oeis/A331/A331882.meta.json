@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of digits in the decimal expansion of the fractional part of Pi needed to contain n occurrences of an n-digit substring.",
+  "id": "A331882",
+  "mentions": [
+    "A000796",
+    "A159345",
+    "A331881"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

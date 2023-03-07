@@ -1,0 +1,23 @@
+{
+  "description": "Multicomponent Gromov-Witten invariants for genus 0.",
+  "id": "A171105",
+  "mentions": [
+    "A171104",
+    "A171108",
+    "A171109",
+    "A171110",
+    "A171111",
+    "A171116"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

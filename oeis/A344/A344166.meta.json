@@ -1,0 +1,19 @@
+{
+  "description": "Positions of palindromes in A342910.",
+  "id": "A344166",
+  "mentions": [
+    "A342790",
+    "A342910"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

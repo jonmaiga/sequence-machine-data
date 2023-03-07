@@ -1,0 +1,19 @@
+{
+  "description": "Each subsequent term in the series describes the digits of the previous term, by tallying their cumulative total within the term. This is similar to the \"look and say\" sequence, but deviates from it in that blocks of like digits are described individually, according to position.",
+  "id": "A167118",
+  "mentions": [
+    "A005150"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

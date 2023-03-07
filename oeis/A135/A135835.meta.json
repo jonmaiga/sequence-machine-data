@@ -1,0 +1,21 @@
+{
+  "description": "Lower triangular matrix T with first column and diagonal (1,2,3,4,...,n,...) and otherwise satisfying T(i,j) = Sum_{k=1..j} T(i-j+1,k)*T(j,k), read by rows.",
+  "id": "A135835",
+  "mentions": [
+    "A000295",
+    "A005803",
+    "A135836"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:24",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

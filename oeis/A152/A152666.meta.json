@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of permutations of {1,2,...,n} having k runs of odd entries (1<=k<=ceiling(n/2)). For example, the permutation 321756498 has 3 runs of odd entries: 3, 175 and 9.",
+  "id": "A152666",
+  "mentions": [
+    "A000142",
+    "A010551",
+    "A052618",
+    "A134435",
+    "A152667"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

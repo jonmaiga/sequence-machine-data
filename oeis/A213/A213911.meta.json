@@ -1,0 +1,22 @@
+{
+  "description": "Number of runs of consecutive zeros in the Zeckendorf (binary) representation of n.",
+  "id": "A213911",
+  "mentions": [
+    "A003849",
+    "A007895",
+    "A014417",
+    "A104324",
+    "A189920",
+    "A213676"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:31",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

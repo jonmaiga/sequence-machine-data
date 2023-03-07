@@ -1,0 +1,19 @@
+{
+  "description": "Binary expansion of the Chaitin halting probability Omega_L for a certain programming language L.",
+  "id": "A160753",
+  "mentions": [
+    "A079365"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

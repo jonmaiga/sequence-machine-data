@@ -1,0 +1,21 @@
+{
+  "description": "Primes p with Kronecker symbol (p|2*11) = 1.",
+  "id": "A191020",
+  "mentions": [
+    "A056874",
+    "A191017",
+    "A191018",
+    "A191023"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:15",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

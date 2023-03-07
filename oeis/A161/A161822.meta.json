@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = the smallest positive integer such that both n and a(n), when represented in binary, contain the same types of runs of 0's, the runs being in any order.",
+  "id": "A161822",
+  "mentions": [
+    "A161819",
+    "A161820",
+    "A161821"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:43",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

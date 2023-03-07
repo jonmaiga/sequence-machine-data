@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations of length n in the class of juxtapositions of 321-avoiders with 21-avoiders.",
+  "id": "A278301",
+  "mentions": [
+    "A033321",
+    "A165538"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

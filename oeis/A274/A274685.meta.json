@@ -1,0 +1,25 @@
+{
+  "description": "Odd numbers n such that sigma(n) is divisible by 5.",
+  "id": "A274685",
+  "mentions": [
+    "A000203",
+    "A028982",
+    "A028983",
+    "A087943",
+    "A248150",
+    "A248151",
+    "A272930",
+    "A274397"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:39",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

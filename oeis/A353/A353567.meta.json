@@ -1,0 +1,20 @@
+{
+  "description": "Number of divisors d of n such that d is a multiple of its prime shadow A181819(d).",
+  "id": "A353567",
+  "mentions": [
+    "A181819",
+    "A325755",
+    "A353566"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

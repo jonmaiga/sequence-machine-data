@@ -1,0 +1,24 @@
+{
+  "description": "Numbers whose sum of exponential divisors (A051377) is odd.",
+  "id": "A357014",
+  "mentions": [
+    "A000079",
+    "A028982",
+    "A049419",
+    "A051377",
+    "A056911",
+    "A197680",
+    "A357015",
+    "A357017"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:31",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

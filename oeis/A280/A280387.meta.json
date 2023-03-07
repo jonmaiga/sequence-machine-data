@@ -1,0 +1,21 @@
+{
+  "description": "Composite numbers n such that sum of proper divisors of n divides sum of proper divisors of n^n.",
+  "id": "A280387",
+  "mentions": [
+    "A000203",
+    "A001065",
+    "A003624",
+    "A275123"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

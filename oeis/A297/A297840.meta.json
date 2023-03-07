@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k > 0 that set a new record for the closeness of 4*Pi*k^2 to an integer.",
+  "id": "A297840",
+  "mentions": [
+    "A066644",
+    "A135971",
+    "A254714",
+    "A297839"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

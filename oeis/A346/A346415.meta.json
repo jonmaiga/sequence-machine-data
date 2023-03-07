@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T(n,k), n>=0, 0<=k<=n, read by rows, where column k is (1/k!) times the k-fold exponential convolution of Fibonacci numbers with themselves.",
+  "id": "A346415",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000045",
+    "A000217",
+    "A000914",
+    "A014335",
+    "A014337",
+    "A014341",
+    "A256180"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

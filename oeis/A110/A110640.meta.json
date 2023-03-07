@@ -1,0 +1,18 @@
+{
+  "description": "Every third term of A083949 where the self-convolution third power is congruent modulo 27 to A083949, which consists entirely of numbers 1 through 9.",
+  "id": "A110640",
+  "mentions": [
+    "A083949",
+    "A110639"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

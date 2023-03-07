@@ -1,0 +1,39 @@
+{
+  "description": "Number of permutations of the prime indices of n with at least one non-singleton run, or non-separations.",
+  "id": "A336107",
+  "mentions": [
+    "A000961",
+    "A003242",
+    "A005117",
+    "A006939",
+    "A008480",
+    "A013929",
+    "A022915",
+    "A027883",
+    "A056239",
+    "A112798",
+    "A261962",
+    "A325534",
+    "A325535",
+    "A333221",
+    "A333489",
+    "A335433",
+    "A335448",
+    "A335451",
+    "A335452",
+    "A335459",
+    "A335460",
+    "A335489"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

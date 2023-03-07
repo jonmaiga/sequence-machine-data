@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = least number k such that k^(2^n)+1, k^(2^n)+3, k^(2^n)+7 and k^(2^n)+9 are all prime.",
+  "id": "A125856",
+  "mentions": [
+    "A057015",
+    "A125779",
+    "A125780",
+    "A125855"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

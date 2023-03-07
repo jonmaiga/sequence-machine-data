@@ -1,0 +1,18 @@
+{
+  "description": "Number of complete sphere stacks on a triangular base with side length n.",
+  "id": "A182947",
+  "mentions": [
+    "A182948"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

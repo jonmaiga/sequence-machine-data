@@ -1,0 +1,28 @@
+{
+  "description": "Number of prime power divisors of the form p^p in the arithmetic derivative of A276086(n), the prime product form of primorial base expansion of n.",
+  "id": "A342019",
+  "mentions": [
+    "A001221",
+    "A003415",
+    "A003557",
+    "A129251",
+    "A276086",
+    "A327860",
+    "A342002",
+    "A342005",
+    "A342017",
+    "A342018",
+    "A342026"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:15",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

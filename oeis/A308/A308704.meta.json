@@ -1,0 +1,27 @@
+{
+  "description": "Square array A(n,k), n >= 1, k >= 0, read by antidiagonals, where A(n,k) is Sum_{d|n} d^(k*d+1).",
+  "id": "A308704",
+  "mentions": [
+    "A000012",
+    "A000203",
+    "A087289",
+    "A283498",
+    "A283533",
+    "A283535",
+    "A294579",
+    "A308698",
+    "A308701"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

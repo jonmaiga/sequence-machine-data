@@ -1,0 +1,24 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into unitary divisors of n.",
+  "id": "A286851",
+  "mentions": [
+    "A066874",
+    "A100346",
+    "A246655",
+    "A284463",
+    "A284464",
+    "A284465",
+    "A284466"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

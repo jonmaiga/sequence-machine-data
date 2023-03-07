@@ -1,0 +1,27 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the unreduced numerator of the k-th weight in the quadrature rule for parabolic runout spline with respect to a mesh of n + 1 points.",
+  "id": "A321121",
+  "mentions": [
+    "A093735",
+    "A093736",
+    "A100640",
+    "A100641",
+    "A321118",
+    "A321119",
+    "A321122"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:43",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "BII-numbers of set-systems (without {}) closed under union and intersection.",
+  "id": "A326913",
+  "mentions": [
+    "A048793",
+    "A102894",
+    "A102895",
+    "A102896",
+    "A102897",
+    "A326031",
+    "A326875",
+    "A326876",
+    "A326878",
+    "A326880",
+    "A326901"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

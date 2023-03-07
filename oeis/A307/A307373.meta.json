@@ -1,0 +1,28 @@
+{
+  "description": "Heinz numbers of integer partitions with at least three parts, the third of which is 2.",
+  "id": "A307373",
+  "mentions": [
+    "A000726",
+    "A002620",
+    "A004250",
+    "A006918",
+    "A056239",
+    "A097701",
+    "A112798",
+    "A257990",
+    "A297113",
+    "A325164",
+    "A325169",
+    "A325170"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

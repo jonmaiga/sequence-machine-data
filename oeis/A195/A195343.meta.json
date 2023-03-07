@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of normalized Philo sum, Philo(ABC,I), where I=incenter of a 1,2,sqrt(5) right triangle ABC.",
+  "id": "A195343",
+  "mentions": [
+    "A195284",
+    "A195340",
+    "A195341",
+    "A195342"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:25:09",
+    "offset": 0,
+    "size": 101,
+    "source": "joeis"
+  }
+}

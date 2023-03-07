@@ -1,0 +1,24 @@
+{
+  "description": "18k^2-12k-7 interleaved with 18k^2+6k+5 for k>=0.",
+  "id": "A216853",
+  "mentions": [
+    "A178218",
+    "A214345",
+    "A214393",
+    "A214405",
+    "A214493",
+    "A216876"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 15:45:13",
+    "offset": 0,
+    "size": 46,
+    "source": "joeis"
+  }
+}

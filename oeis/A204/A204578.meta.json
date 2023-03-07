@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form 5^k-2.",
+  "id": "A204578",
+  "mentions": [
+    "A095304",
+    "A104090",
+    "A109080",
+    "A128472"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

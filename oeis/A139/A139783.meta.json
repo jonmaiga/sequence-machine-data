@@ -1,0 +1,23 @@
+{
+  "description": "Quadruple lucky numbers (lower terms). Numbers n such that n, n+2, n+6, n+8 are all Lucky numbers.",
+  "id": "A139783",
+  "mentions": [
+    "A000040",
+    "A000959",
+    "A001359",
+    "A007530",
+    "A031158"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:27",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

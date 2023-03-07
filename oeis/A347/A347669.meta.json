@@ -1,0 +1,22 @@
+{
+  "description": "Indices of first occurrences of n in A347409.",
+  "id": "A347669",
+  "mentions": [
+    "A006370",
+    "A070165",
+    "A135282",
+    "A347409",
+    "A347668"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

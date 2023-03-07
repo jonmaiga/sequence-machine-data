@@ -1,0 +1,18 @@
+{
+  "description": "Fourier coefficients of the modular form (1/t_{6a}) * (1-6*sqrt(-3)/t_{6a}) * (1-12*sqrt(-3)/t_{6a}) * F_{6a}^12.",
+  "id": "A341567",
+  "mentions": [
+    "A004016"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

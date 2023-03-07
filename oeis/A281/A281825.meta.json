@@ -1,0 +1,23 @@
+{
+  "description": "Numerators of the binomial transform of A198631(n)/A006519(n+1) with A198631(1) = -1 instead of 1.",
+  "id": "A281825",
+  "mentions": [
+    "A001477",
+    "A006519",
+    "A198631",
+    "A199969",
+    "A209308",
+    "A238398"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

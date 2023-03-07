@@ -1,0 +1,20 @@
+{
+  "description": "Numbers whose biquadrates (fourth powers) are exclusionary.",
+  "id": "A113318",
+  "mentions": [
+    "A111116",
+    "A113317"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Integers m such that A006218(m+1)/(m+1) > A006218(m)/m.",
+  "id": "A359028",
+  "mentions": [
+    "A000005",
+    "A002182",
+    "A006218",
+    "A047255",
+    "A050226",
+    "A359029"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

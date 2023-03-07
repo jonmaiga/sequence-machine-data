@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that floor(p/3) is prime.",
+  "id": "A162337",
+  "mentions": [
+    "A094524",
+    "A162338"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:47",
+    "offset": 1,
+    "size": 50,
+    "source": "joeis"
+  }
+}

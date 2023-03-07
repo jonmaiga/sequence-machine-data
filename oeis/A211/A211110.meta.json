@@ -1,0 +1,26 @@
+{
+  "description": "Number of partitions of n into divisors > 1 of n.",
+  "id": "A211110",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A002808",
+    "A006881",
+    "A018818",
+    "A027750",
+    "A033942",
+    "A080257",
+    "A210442",
+    "A211111"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

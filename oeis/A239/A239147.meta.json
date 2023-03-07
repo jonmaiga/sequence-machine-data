@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that there exists a k>0 such that all six of n +/- k, n^2 +/- k, and n^3 +/- k are prime.",
+  "id": "A239147",
+  "mentions": [
+    "A239146"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of labeled loop-threshold graphs on vertex set [n] with k loops, for n >= 0 and 0 <= k <= n.",
+  "id": "A350745",
+  "mentions": [
+    "A000012",
+    "A000629",
+    "A001787",
+    "A210657"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

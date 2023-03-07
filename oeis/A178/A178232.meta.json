@@ -1,0 +1,23 @@
+{
+  "description": "A triangle sequence derived from setting an Euler numbers A122045 generalization equal to the Eulerian numbers A008292 to get a generating function expansion: p(x,t) = ((-1 + exp(x)) (-1 + x)/(-1 + exp(t*x) + t - exp(t)* x)).",
+  "id": "A178232",
+  "mentions": [
+    "A001286",
+    "A008292",
+    "A122045",
+    "A156222"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabf",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

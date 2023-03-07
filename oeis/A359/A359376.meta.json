@@ -1,0 +1,25 @@
+{
+  "description": "Numbers that are either odd multiples of 3 or multiples of 4. Numbers k such that A252463(k) is even.",
+  "id": "A359376",
+  "mentions": [
+    "A000035",
+    "A008586",
+    "A016945",
+    "A064989",
+    "A252463",
+    "A359374",
+    "A359375",
+    "A359379"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:33",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

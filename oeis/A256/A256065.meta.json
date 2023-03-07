@@ -1,0 +1,20 @@
+{
+  "description": "Zeroless numbers that when incremented or decremented by the product of their digits produce a square.",
+  "id": "A256065",
+  "mentions": [
+    "A052382",
+    "A066567",
+    "A228187"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

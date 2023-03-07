@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of 6-tuples (a_1,a_2,a_3,a_4,a_5,a_6) having all terms in {1,...,n} such that there exists a tetrahedron ABCD with those edge-lengths.",
+  "id": "A346575",
+  "mentions": [
+    "A006003",
+    "A097125"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

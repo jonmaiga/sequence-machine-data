@@ -1,0 +1,22 @@
+{
+  "description": "Number of Hadamard matrices of order 4n that are equivalent to their transpose.",
+  "id": "A206704",
+  "mentions": [
+    "A007299",
+    "A036297",
+    "A096201",
+    "A206705"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

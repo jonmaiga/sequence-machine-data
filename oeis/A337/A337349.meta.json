@@ -1,0 +1,22 @@
+{
+  "description": "To get a(n), take 3*n+1 and divide out any power of 2; then multiply by 3, subtract 1 and divide out any power of 2.",
+  "id": "A337349",
+  "mentions": [
+    "A067745",
+    "A075677",
+    "A102421",
+    "A102423"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

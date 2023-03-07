@@ -1,0 +1,25 @@
+{
+  "description": "Sum T(n,k) of multinomials M(n; lambda), where lambda ranges over all partitions of n into distinct parts incorporating k; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A327869",
+  "mentions": [
+    "A007837",
+    "A327801",
+    "A327870",
+    "A327876",
+    "A327881",
+    "A327884",
+    "A328155",
+    "A328156"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:55",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that n is the sum of two nonzero squares while n^2 is the sum of two positive cubes.",
+  "id": "A273554",
+  "mentions": [
+    "A000404",
+    "A003325",
+    "A050801"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

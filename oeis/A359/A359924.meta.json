@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = coefficient of x^n in A(x) such that 2/x = Sum_{n=-oo..+oo} x^(n*(3*n+1)/2) * (A(x)^(3*n) - 1/A(x)^(3*n+1)).",
+  "id": "A359924",
+  "mentions": [
+    "A359920",
+    "A359921"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:34",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

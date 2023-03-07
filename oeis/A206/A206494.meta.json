@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to take apart the rooted tree corresponding to the Matula-Goebel number n by sequentially removing terminal edges.",
+  "id": "A206494",
+  "mentions": [
+    "A061775",
+    "A206493"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

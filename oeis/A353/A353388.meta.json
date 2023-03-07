@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 2*k^2 + 29 is neither a prime nor a semiprime.",
+  "id": "A353388",
+  "mentions": [
+    "A007642",
+    "A353004"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

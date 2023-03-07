@@ -1,0 +1,20 @@
+{
+  "description": "Numbers returned when each digit of n is replaced by the sum modulo 10 of the digits to its (wrapped) left and (wrapped) right.",
+  "id": "A243590",
+  "mentions": [
+    "A035327",
+    "A055120"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:00",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

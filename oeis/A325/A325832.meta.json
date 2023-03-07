@@ -1,0 +1,31 @@
+{
+  "description": "Number of integer partitions of n whose number of submultisets is greater than or equal to n.",
+  "id": "A325832",
+  "mentions": [
+    "A000041",
+    "A002033",
+    "A098859",
+    "A108917",
+    "A126796",
+    "A325694",
+    "A325792",
+    "A325796",
+    "A325828",
+    "A325830",
+    "A325831",
+    "A325833",
+    "A325834",
+    "A325836"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

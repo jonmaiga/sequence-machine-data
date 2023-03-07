@@ -1,0 +1,22 @@
+{
+  "description": "Numbers n such that n + A007953(n) contains the same digits as n.",
+  "id": "A247887",
+  "mentions": [
+    "A007953",
+    "A037124",
+    "A052382"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

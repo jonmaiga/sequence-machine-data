@@ -1,0 +1,20 @@
+{
+  "description": "Coefficients of Pascal's triangle polynomial minus MacMahon polynomial A060187 with minus the first and last row terms and powers of x divided out: f(n)=3^n - 2*n - 1; q(x,n)=2^n*(1 - x)^(n + 1)* LerchPhi[x, -n, 1/2]; p(x,n)=((q[x, n] - (x + 1)^n)/x - f[n] - f[n]*x^(n - 2))/x.",
+  "id": "A146745",
+  "mentions": [
+    "A060187",
+    "A061981"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 2,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

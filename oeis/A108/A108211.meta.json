@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 16*n^2 + 1.",
+  "id": "A108211",
+  "mentions": [
+    "A002522",
+    "A005843",
+    "A016802",
+    "A074377",
+    "A158488"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

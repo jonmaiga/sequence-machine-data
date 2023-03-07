@@ -1,0 +1,21 @@
+{
+  "description": "First primitive polynomial over GF(2) of degree n, X^n suppressed.",
+  "id": "A132448",
+  "mentions": [
+    "A091250",
+    "A132447",
+    "A132450",
+    "A132452",
+    "A132454"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

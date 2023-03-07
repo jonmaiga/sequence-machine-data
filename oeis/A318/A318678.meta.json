@@ -1,0 +1,23 @@
+{
+  "description": "Sum of deficiencies of deficient divisors of n.",
+  "id": "A318678",
+  "mentions": [
+    "A033879",
+    "A187793",
+    "A296075",
+    "A318441",
+    "A318442",
+    "A318679"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:40",
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "For any n >= 0, consider a sandpile model on the infinite hexagonal lattice starting with n grains at the origin, the other sites being empty; a(n) gives the number of nonempty sites after stabilization of this sandpile model.",
+  "id": "A349991",
+  "mentions": [
+    "A349990"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Primes p(n) such that p(n) < 2^((p(n+1) - p(n))/2).",
+  "id": "A185337",
+  "mentions": [
+    "A124585",
+    "A208149"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

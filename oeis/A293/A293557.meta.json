@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of real root of x^7 - x^6 - x^5 + x^2 - 1.",
+  "id": "A293557",
+  "mentions": [
+    "A060006",
+    "A086106",
+    "A092526",
+    "A228777",
+    "A293506",
+    "A293508",
+    "A293509"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

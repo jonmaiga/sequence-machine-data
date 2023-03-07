@@ -1,0 +1,30 @@
+{
+  "description": "T(n,k) = number of n X k matrices containing a permutation of 1..n*k in increasing order rowwise, columnwise, diagonally and (downwards) antidiagonally.",
+  "id": "A181196",
+  "mentions": [
+    "A000012",
+    "A000108",
+    "A001653",
+    "A011782",
+    "A181192",
+    "A181193",
+    "A181194",
+    "A181195",
+    "A181197",
+    "A181198",
+    "A181199",
+    "A227578"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

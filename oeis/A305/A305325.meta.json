@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows T(n, k), n >= 1 and 1 <= k <= A305215(n): T(n, k) is the k-th positive number with largest prime power factor equal to A000961(n).",
+  "id": "A305325",
+  "mentions": [
+    "A000961",
+    "A034699",
+    "A051451",
+    "A305215",
+    "A336816"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:29",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

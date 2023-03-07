@@ -1,0 +1,19 @@
+{
+  "description": "Practical Fibonacci numbers.",
+  "id": "A124105",
+  "mentions": [
+    "A000045",
+    "A005153",
+    "A074316"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Product_{j>=1} 1/(1 - x^(Sum_{i=1..j} prime(i))).",
+  "id": "A281273",
+  "mentions": [
+    "A000586",
+    "A000607",
+    "A003633",
+    "A007504",
+    "A281274"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

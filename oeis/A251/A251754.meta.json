@@ -1,0 +1,23 @@
+{
+  "description": "Digital root of A027444(n) = n + n^2 + n^3, n>=1. Repeat(3, 5, 3, 3, 2, 6, 3, 8, 9).",
+  "id": "A251754",
+  "mentions": [
+    "A010888",
+    "A027444",
+    "A056992",
+    "A073636"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:40:11",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

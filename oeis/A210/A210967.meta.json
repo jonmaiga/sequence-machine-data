@@ -1,0 +1,18 @@
+{
+  "description": "Prime triples (p, q, r), p<=q<=r, such that p + q + r = 2*n + 1 and p*q*r is the minimum product.",
+  "id": "A210967",
+  "mentions": [
+    "A005408",
+    "A210968"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 3,
+    "size": 111,
+    "source": "oeis-entry"
+  }
+}

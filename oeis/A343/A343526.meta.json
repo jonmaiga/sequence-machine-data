@@ -1,0 +1,21 @@
+{
+  "description": "Number of divisors of n^7.",
+  "id": "A343526",
+  "mentions": [
+    "A000005",
+    "A001015",
+    "A343656"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

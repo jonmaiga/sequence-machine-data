@@ -1,0 +1,17 @@
+{
+  "description": "Number of rooted trees on n nodes with labels covering an initial interval of positive integers.",
+  "id": "A339644",
+  "mentions": [
+    "A141610"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

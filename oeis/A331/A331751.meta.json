@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k such that A048675(sigma(k)) is equal to A048675(2*k).",
+  "id": "A331751",
+  "mentions": [
+    "A000203",
+    "A000396",
+    "A048675",
+    "A090880",
+    "A097246",
+    "A097248",
+    "A225546",
+    "A228058",
+    "A331750",
+    "A331752",
+    "A332208"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:01",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

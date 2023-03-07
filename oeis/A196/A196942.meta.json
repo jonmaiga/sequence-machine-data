@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the prime order of sequence A196941.",
+  "id": "A196942",
+  "mentions": [
+    "A045535",
+    "A062241",
+    "A196941"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

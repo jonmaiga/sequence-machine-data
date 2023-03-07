@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of the limiting ratio of consecutive terms of A289245.",
+  "id": "A289848",
+  "mentions": [
+    "A078140",
+    "A289245"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

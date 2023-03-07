@@ -1,0 +1,23 @@
+{
+  "description": "For any number n with k binary digits, a(n) is the number of tilings T of a size k staircase polyomino (as described in A335547) such that the sizes of the polyominoes at the base of T correspond to the lengths of runs of consecutive equal digits in the binary representation of n.",
+  "id": "A336479",
+  "mentions": [
+    "A000045",
+    "A000975",
+    "A101211",
+    "A123392",
+    "A335547"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

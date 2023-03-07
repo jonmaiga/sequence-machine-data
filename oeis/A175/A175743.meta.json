@@ -1,0 +1,18 @@
+{
+  "description": "Numbers with 33 divisors.",
+  "id": "A175743",
+  "mentions": [
+    "A000005"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:59",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

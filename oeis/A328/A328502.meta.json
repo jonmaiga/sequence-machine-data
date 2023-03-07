@@ -1,0 +1,23 @@
+{
+  "description": "Dirichlet g.f.: zeta(s-1) / (zeta(s) * zeta(s-2)).",
+  "id": "A328502",
+  "mentions": [
+    "A000010",
+    "A008683",
+    "A030230",
+    "A057660",
+    "A101035"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:57",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

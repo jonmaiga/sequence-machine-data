@@ -1,0 +1,25 @@
+{
+  "description": "Binary length of A324712: a(n) = 0 if A324712(n) = 0, otherwise a(n) = 1+A000523(A324712(n)).",
+  "id": "A324728",
+  "mentions": [
+    "A000040",
+    "A000523",
+    "A156552",
+    "A323243",
+    "A324712",
+    "A324733",
+    "A324735",
+    "A324811"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

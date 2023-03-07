@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are sums of consecutive primorial numbers.",
+  "id": "A351125",
+  "mentions": [
+    "A002110",
+    "A034707",
+    "A050936",
+    "A143293",
+    "A276156",
+    "A290249"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

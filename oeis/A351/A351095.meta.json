@@ -1,0 +1,23 @@
+{
+  "description": "Semiprimes that are not the arithmetic derivative (A003415) of any integer.",
+  "id": "A351095",
+  "mentions": [
+    "A001358",
+    "A002620",
+    "A003415",
+    "A098700",
+    "A189483",
+    "A189554",
+    "A351096"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Positions of records in A334090; After 1, positions of record jumps upward in A064097.",
+  "id": "A334197",
+  "mentions": [
+    "A064097",
+    "A334090"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Triangle, diagonal = A001227 with the rest zeros.",
+  "id": "A133698",
+  "mentions": [
+    "A001227"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-26 11:05:17",
+    "offset": 0,
+    "size": 55,
+    "source": "joeis"
+  }
+}

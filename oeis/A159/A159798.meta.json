@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows in which row n lists n terms, starting with 1, such that the difference between successive terms is equal to n-3.",
+  "id": "A159798",
+  "mentions": [
+    "A000290",
+    "A081493",
+    "A159797",
+    "A162607",
+    "A162609",
+    "A162610",
+    "A162611"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-04-27 17:13:29",
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

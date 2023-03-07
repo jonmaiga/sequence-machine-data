@@ -1,0 +1,19 @@
+{
+  "description": "The minimum size of a poset having n linear extensions.",
+  "id": "A160371",
+  "mentions": [
+    "A263860",
+    "A281723"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

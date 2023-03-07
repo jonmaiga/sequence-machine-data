@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = the number of distinct prime divisors, p, of n that, when p is represented in binary, each p occurs at least once in the binary representation of n.",
+  "id": "A143792",
+  "mentions": [
+    "A027748",
+    "A078826",
+    "A143791",
+    "A225243"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

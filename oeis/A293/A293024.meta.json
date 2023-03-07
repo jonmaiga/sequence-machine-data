@@ -1,0 +1,29 @@
+{
+  "description": "Square array A(n,k), n>=0, k>=0, read by antidiagonals, where column k is the expansion of e.g.f. exp(exp(x) - Sum_{i=0..k} x^i/i!).",
+  "id": "A293024",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000110",
+    "A000296",
+    "A006505",
+    "A057814",
+    "A057837",
+    "A282988",
+    "A293025",
+    "A293051",
+    "A293053"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of chains in the power set lattice of an (n+3)-element set X_(n+3) of specification n^1 2^1 1, that is, n identical objects of one kind, 2 identical objects of another kind and one other kind. It is the same as the number of fuzzy subsets X_(n+3).",
+  "id": "A107953",
+  "mentions": [
+    "A007047",
+    "A107392",
+    "A107464"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

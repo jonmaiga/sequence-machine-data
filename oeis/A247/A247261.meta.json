@@ -1,0 +1,21 @@
+{
+  "description": "Positive squares not ending in 00 that remain squares when prefixed with 10",
+  "id": "A247261",
+  "mentions": [
+    "A242268",
+    "A247262",
+    "A247263",
+    "A247264"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

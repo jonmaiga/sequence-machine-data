@@ -1,0 +1,21 @@
+{
+  "description": "Primes in A014692, i.e., of the form prime(k)-k+1, for some k.",
+  "id": "A234850",
+  "mentions": [
+    "A000040",
+    "A014692",
+    "A234695",
+    "A234851"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:21:53",
+    "offset": 1,
+    "size": 48,
+    "source": "joeis"
+  }
+}

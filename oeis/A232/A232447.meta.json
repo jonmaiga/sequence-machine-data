@@ -1,0 +1,18 @@
+{
+  "description": "Primes p with each odd decimal digit present at least once.",
+  "id": "A232447",
+  "mentions": [
+    "A108418"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

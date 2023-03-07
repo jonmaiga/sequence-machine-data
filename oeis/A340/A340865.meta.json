@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that (p^2 + 1)/2 and 2*p^2 - 1 are also prime.",
+  "id": "A340865",
+  "mentions": [
+    "A000217",
+    "A048161",
+    "A106483",
+    "A292989"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

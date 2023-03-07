@@ -1,0 +1,19 @@
+{
+  "description": "Smallest m >= n such that 1 - m! / ((m-n)!*m^n) < 1/2.",
+  "id": "A308699",
+  "mentions": [
+    "A033810",
+    "A072829"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:33",
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

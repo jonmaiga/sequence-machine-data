@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n*A002088(n).",
+  "id": "A143270",
+  "mentions": [
+    "A000010",
+    "A002088",
+    "A018805",
+    "A143269"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

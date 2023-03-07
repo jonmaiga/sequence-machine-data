@@ -1,0 +1,21 @@
+{
+  "description": "Rectangular array (T(n,k)), by downward antidiagonals: T(n,k) = position of k in the ordering of {h*e^m, h >= 1, 0 <= m <= n}.",
+  "id": "A347069",
+  "mentions": [
+    "A347065",
+    "A347066",
+    "A347067",
+    "A347068"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

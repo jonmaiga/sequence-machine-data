@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of 2-partitions of the set of primes less than A059756(n) that demonstrate that A059756(n) is prime-partitionable.",
+  "id": "A244640",
+  "mentions": [
+    "A059756"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "description": "Irregular triangle read by rows where T(n,k) is the number of integer compositions of n with k excedances (parts above the diagonal), all zeros removed.",
+  "id": "A352524",
+  "mentions": [
+    "A008292",
+    "A008930",
+    "A011782",
+    "A088218",
+    "A098825",
+    "A114088",
+    "A115994",
+    "A122111",
+    "A123125",
+    "A177510",
+    "A219282",
+    "A238349",
+    "A238351",
+    "A238352",
+    "A238874",
+    "A350839",
+    "A351983",
+    "A352487",
+    "A352490",
+    "A352512",
+    "A352513",
+    "A352514",
+    "A352515",
+    "A352516",
+    "A352517",
+    "A352520",
+    "A352521",
+    "A352522",
+    "A352523",
+    "A352525"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

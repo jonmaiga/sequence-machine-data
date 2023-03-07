@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to move a chess queen from the lower left corner to square (n,n), with the queen moving only up, right, or diagonally up-right.",
+  "id": "A132595",
+  "mentions": [
+    "A132439",
+    "A229345"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:20",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

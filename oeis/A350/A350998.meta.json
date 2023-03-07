@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of boards in English Peg Solitaire, reached after n moves, for which no more moves are possible.",
+  "id": "A350998",
+  "mentions": [
+    "A335656",
+    "A350561"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

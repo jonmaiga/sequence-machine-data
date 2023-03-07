@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of binary sequences of length n containing k subsequences 0000 (n,k>=0).",
+  "id": "A118897",
+  "mentions": [
+    "A000078",
+    "A000079",
+    "A001787",
+    "A011787",
+    "A076791",
+    "A118390",
+    "A118898"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:08",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that n - n^2/m^2 and 2n - n/m are not prime for all m.",
+  "id": "A242221",
+  "mentions": [
+    "A138666",
+    "A241884"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

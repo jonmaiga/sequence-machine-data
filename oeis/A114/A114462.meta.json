@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of Dyck paths of semilength n having k ascents of length 2 starting at an even level (0<=k<=floor(n/2)).",
+  "id": "A114462",
+  "mentions": [
+    "A000108",
+    "A077587",
+    "A102402",
+    "A114463",
+    "A114464",
+    "A114465"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:04",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

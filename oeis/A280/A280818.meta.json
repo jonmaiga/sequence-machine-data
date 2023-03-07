@@ -1,0 +1,17 @@
+{
+  "description": "a(0)=1; for n > 0, if 4n+1 is prime, then a(n)=4n+1, otherwise a(n)=(4n+1)/LPF(4n+1).",
+  "id": "A280818",
+  "mentions": [
+    "A002144"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

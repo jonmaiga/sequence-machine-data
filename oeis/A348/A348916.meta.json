@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the \"real\" part of f(n) = Sum_{k >= 0} g(d_k) * (4 + w)^k where g(0) = 0 and g(1 + u + 2*v) = (2 + w)^u * (1 + w)^v for any u = 0..1 and v = 0..5, Sum_{k >= 0} d_k * 13^k is the base-13 representation of n and w = -1/2 + sqrt(-3)/2 is a primitive cube root of unity; sequence A348917 gives \"w\" parts.",
+  "id": "A348916",
+  "mentions": [
+    "A334492",
+    "A348652",
+    "A348917"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:23",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

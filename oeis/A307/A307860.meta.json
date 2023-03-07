@@ -1,0 +1,26 @@
+{
+  "description": "Square array A(n,k), n >= 0, k >= 0, read by antidiagonals, where column k is the expansion of 1/sqrt(1 - 2*x + (1+4*k)*x^2).",
+  "id": "A307860",
+  "mentions": [
+    "A000012",
+    "A098331",
+    "A098332",
+    "A098333",
+    "A098334",
+    "A307819",
+    "A307855",
+    "A307862"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:32",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

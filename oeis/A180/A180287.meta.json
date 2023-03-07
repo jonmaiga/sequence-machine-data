@@ -1,0 +1,17 @@
+{
+  "description": "Number of arrangements of n indistinguishable balls in n boxes with the maximum number of balls in any box equal to 7.",
+  "id": "A180287",
+  "mentions": [
+    "A180281"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 7,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

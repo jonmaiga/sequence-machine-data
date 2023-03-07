@@ -1,0 +1,34 @@
+{
+  "description": "Number T(n,k) of partitions of n into k semiprimes; triangle T(n,k), n>=0, read by rows.",
+  "id": "A344447",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A001358",
+    "A064911",
+    "A072931",
+    "A101048",
+    "A117278",
+    "A281617",
+    "A340756",
+    "A344245",
+    "A344246",
+    "A344254",
+    "A344255",
+    "A344256",
+    "A344257",
+    "A344446"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 0,
+    "size": 107,
+    "source": "oeis-bfile"
+  }
+}

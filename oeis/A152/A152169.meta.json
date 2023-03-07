@@ -1,0 +1,20 @@
+{
+  "description": "Number of positions that are exactly n moves from the starting position in the 2 X 2 X 2 Rubik cube puzzle using only one-way quarter moves.",
+  "id": "A152169",
+  "mentions": [
+    "A079761",
+    "A079762"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

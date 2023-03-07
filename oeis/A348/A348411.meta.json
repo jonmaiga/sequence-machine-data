@@ -1,0 +1,22 @@
+{
+  "description": "Numbers whose divisors have a harmonic mean with a denominator 2.",
+  "id": "A348411",
+  "mentions": [
+    "A001599",
+    "A099377",
+    "A099378",
+    "A159907",
+    "A330598",
+    "A348412"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:22",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

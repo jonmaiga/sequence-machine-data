@@ -1,0 +1,52 @@
+{
+  "description": "The Enots Wolley sequence: the lexicographically earliest infinite sequence {a(n)} of distinct positive numbers such that, for n>2, a(n) has a common factor with a(n-1) but not with a(n-2).",
+  "id": "A336957",
+  "mentions": [
+    "A000265",
+    "A000961",
+    "A006530",
+    "A020639",
+    "A064413",
+    "A098548",
+    "A098550",
+    "A255582",
+    "A280864",
+    "A337007",
+    "A337008",
+    "A337066",
+    "A337275",
+    "A337276",
+    "A337280",
+    "A337644",
+    "A337645",
+    "A337646",
+    "A337647",
+    "A337648",
+    "A337649",
+    "A338050",
+    "A338051",
+    "A338052",
+    "A338053",
+    "A338054",
+    "A338055",
+    "A338056",
+    "A338057",
+    "A338059",
+    "A338060",
+    "A338061",
+    "A338062",
+    "A338071",
+    "A338074",
+    "A338351"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:08",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

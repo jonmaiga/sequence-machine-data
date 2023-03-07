@@ -1,0 +1,23 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms that can be viewed as an irregular table where the n-th row has A000005(a(n)) terms and T(n, k) is a multiple of the k-th divisor of a(n) (=A027750(a(n), k)).",
+  "id": "A331010",
+  "mentions": [
+    "A000005",
+    "A027750",
+    "A331016",
+    "A331018",
+    "A331026"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:00",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

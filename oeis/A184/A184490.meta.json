@@ -1,0 +1,18 @@
+{
+  "description": "Number of (n+1)X3 0..2 arrays with every 2X2 subblock sum greater than 4",
+  "id": "A184490",
+  "mentions": [
+    "A184497"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:08",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

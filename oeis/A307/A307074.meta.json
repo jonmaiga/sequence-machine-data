@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest k such that A307092(k) = n.",
+  "id": "A307074",
+  "mentions": [
+    "A307092"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

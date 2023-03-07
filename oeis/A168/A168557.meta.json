@@ -1,0 +1,25 @@
+{
+  "description": "Triangle T(n,k) read by rows: coefficient [x^k] of the polynomial (-1)^n*((x + 1)^n - x^n + 1), 0 <= k <= max(0, n - 1).",
+  "id": "A168557",
+  "mentions": [
+    "A000079",
+    "A007318",
+    "A074909",
+    "A108086",
+    "A117440",
+    "A130595"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

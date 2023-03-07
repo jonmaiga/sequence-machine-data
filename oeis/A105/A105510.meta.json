@@ -1,0 +1,21 @@
+{
+  "description": "Number of indecomposable self-dual ternary codes of length 4n.",
+  "id": "A105510",
+  "mentions": [
+    "A003178",
+    "A003179"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "hard",
+    "more",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

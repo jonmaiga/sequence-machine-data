@@ -1,0 +1,18 @@
+{
+  "description": "Least sum s of three consecutive primes such that s is a multiple of the n-th prime.",
+  "id": "A289361",
+  "mentions": [
+    "A034961",
+    "A034962"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

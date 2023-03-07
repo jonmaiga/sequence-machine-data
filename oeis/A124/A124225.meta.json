@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that the sum of the first n primes is prime and the sum of the squares of the first n primes is also prime.",
+  "id": "A124225",
+  "mentions": [
+    "A013916",
+    "A098561"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:12",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 2 0..3 arrays with every element plus 1 mod 4 equal to some element at offset (-1,-1) (-1,0) (-1,1) (0,-1) (0,1) or (1,0), with upper left element zero.",
+  "id": "A278183",
+  "mentions": [
+    "A278188"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:45",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

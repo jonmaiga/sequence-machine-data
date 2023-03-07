@@ -1,0 +1,19 @@
+{
+  "description": "Numerator of Sum_{i=0..n-1} B(i)/B(n), where B(i) = A000110(i) are the Bell numbers.",
+  "id": "A192986",
+  "mentions": [
+    "A000110",
+    "A192987"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

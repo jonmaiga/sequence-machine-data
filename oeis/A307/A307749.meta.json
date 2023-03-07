@@ -1,0 +1,19 @@
+{
+  "description": "Lengths of the hypotenuse of primitive pythagorean triples if prime, whose shorter legs sum to the hypotenuse of prime length of another primitive pythagorean triple whose shorter legs sum to a prime number.",
+  "id": "A307749",
+  "mentions": [
+    "A002144",
+    "A283391",
+    "A307718"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

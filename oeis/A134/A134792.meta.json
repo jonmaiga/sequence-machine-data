@@ -1,0 +1,23 @@
+{
+  "description": "Round Log[(prime Fibonacci[Prime[k]]/Prime[k])].",
+  "id": "A134792",
+  "mentions": [
+    "A050937",
+    "A090819",
+    "A134787",
+    "A134788",
+    "A134789",
+    "A134790",
+    "A134791"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "A walk based on the digits of sqrt(2) (A002193).",
+  "id": "A232244",
+  "mentions": [
+    "A002193"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

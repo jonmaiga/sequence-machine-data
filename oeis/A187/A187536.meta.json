@@ -1,0 +1,25 @@
+{
+  "description": "Partial sums of the central Lah numbers (A187535).",
+  "id": "A187536",
+  "mentions": [
+    "A008297",
+    "A111596",
+    "A187535",
+    "A187538",
+    "A187540",
+    "A187542",
+    "A187548"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 05:21:01",
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

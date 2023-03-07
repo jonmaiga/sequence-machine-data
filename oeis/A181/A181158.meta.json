@@ -1,0 +1,18 @@
+{
+  "description": "Where records occur in A181157.",
+  "id": "A181158",
+  "mentions": [
+    "A181157"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

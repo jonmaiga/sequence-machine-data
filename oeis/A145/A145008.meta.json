@@ -1,0 +1,19 @@
+{
+  "description": "Reduced numerators of the convergents to 2 = sqrt(4) using the recursion x -> (4/x + x)/2.",
+  "id": "A145008",
+  "mentions": [
+    "A000215",
+    "A059917"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

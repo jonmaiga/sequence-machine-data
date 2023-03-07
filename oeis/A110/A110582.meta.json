@@ -1,0 +1,19 @@
+{
+  "description": "Triangle, read by rows, where the g.f. of diagonal n, D_n(x), is generated from the g.f. of row n-1, R_{n-1}(x), by D_n(x) = R_{n-1}(x)/(1-x)^2 for n>0, with D_0(x) = 1/(1-x)^2.",
+  "id": "A110582",
+  "mentions": [
+    "A006330"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

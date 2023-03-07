@@ -1,0 +1,33 @@
+{
+  "description": "The right Aurifeuillian factor of 10^(20n + 10) + 1.",
+  "id": "A220986",
+  "mentions": [
+    "A085601",
+    "A092440",
+    "A198410",
+    "A220978",
+    "A220979",
+    "A220980",
+    "A220981",
+    "A220982",
+    "A220983",
+    "A220984",
+    "A220985",
+    "A220987",
+    "A220988",
+    "A220989",
+    "A220990"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

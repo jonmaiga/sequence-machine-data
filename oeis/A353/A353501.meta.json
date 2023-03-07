@@ -1,0 +1,39 @@
+{
+  "description": "Number of integer partitions of n with all parts and all multiplicities > 2.",
+  "id": "A353501",
+  "mentions": [
+    "A000726",
+    "A003242",
+    "A004250",
+    "A008466",
+    "A008483",
+    "A047966",
+    "A055923",
+    "A062739",
+    "A078012",
+    "A098859",
+    "A100405",
+    "A114901",
+    "A128695",
+    "A137200",
+    "A325534",
+    "A333755",
+    "A335464",
+    "A339222",
+    "A351982",
+    "A353400",
+    "A353428",
+    "A353429",
+    "A353502"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

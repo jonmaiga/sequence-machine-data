@@ -1,0 +1,20 @@
+{
+  "description": "Number of non-Brauer chains corresponding to the entries of A118845.",
+  "id": "A118846",
+  "mentions": [
+    "A079301",
+    "A079302",
+    "A118844",
+    "A118845"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

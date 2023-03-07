@@ -1,0 +1,32 @@
+{
+  "description": "Number of times 7 appears in decimal expansion of n.",
+  "id": "A316868",
+  "mentions": [
+    "A043517",
+    "A043518",
+    "A043519",
+    "A043520",
+    "A055641",
+    "A079692",
+    "A102683",
+    "A268643",
+    "A316863",
+    "A316864",
+    "A316865",
+    "A316866",
+    "A316867",
+    "A316869"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

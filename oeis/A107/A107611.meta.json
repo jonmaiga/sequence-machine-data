@@ -1,0 +1,23 @@
+{
+  "description": "Indices of primes with digit product = 2.",
+  "id": "A107611",
+  "mentions": [
+    "A000720",
+    "A053666",
+    "A101987",
+    "A107612"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

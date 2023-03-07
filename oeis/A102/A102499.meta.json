@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the concatenated form 3nn3.",
+  "id": "A102499",
+  "mentions": [
+    "A102498",
+    "A102896"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 1,
+    "size": 25,
+    "source": "joeis"
+  }
+}

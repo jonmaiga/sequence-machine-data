@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n such that pi(n)=10^pi(d_1)+10^pi(d_2)+...+10^pi(d_k) where d_1d_2...d_k is the decimal expansion of n.",
+  "id": "A139411",
+  "mentions": [
+    "A139412"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of n-step closed paths on the Cairo pentagonal lattice graph starting from a degree-4 node.",
+  "id": "A357810",
+  "mentions": [
+    "A002893",
+    "A002894",
+    "A002898",
+    "A357811"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "easy",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

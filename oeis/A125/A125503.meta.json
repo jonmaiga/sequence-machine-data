@@ -1,0 +1,25 @@
+{
+  "description": "Smallest number k such that the numerator of the generalized harmonic number H(k,n) = Sum_{i=1..k} 1/i^n is a prime.",
+  "id": "A125503",
+  "mentions": [
+    "A001008",
+    "A007406",
+    "A007408",
+    "A007410",
+    "A019434",
+    "A099828",
+    "A125706"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

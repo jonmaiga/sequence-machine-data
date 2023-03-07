@@ -1,0 +1,21 @@
+{
+  "description": "Smallest product of n distinct primes of the form n*k + 1.",
+  "id": "A193869",
+  "mentions": [
+    "A001235",
+    "A077316",
+    "A092609",
+    "A121940",
+    "A154729"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

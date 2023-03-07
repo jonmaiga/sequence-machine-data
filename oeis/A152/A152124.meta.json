@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of a 2 x n rectangle into connected pieces consisting of unit squares cut along lattice lines (like a 2-d analog of a partition into integers) in which each piece has rotational symmetry.",
+  "id": "A152124",
+  "mentions": [
+    "A052984",
+    "A078057",
+    "A078469",
+    "A152113"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

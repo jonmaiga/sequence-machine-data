@@ -1,0 +1,19 @@
+{
+  "description": "Number of nonisomorphic bipartite generalized Petersen graphs P(2n,k) on 4n vertices for 1<=k",
+  "id": "A107452",
+  "mentions": [
+    "A077105",
+    "A107453",
+    "A107460"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 2,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

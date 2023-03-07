@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of Khalimsky-continuous functions with four-point codomain and an n-point range.",
+  "id": "A131935",
+  "mentions": [
+    "A131887"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 18:31:53",
+    "offset": 1,
+    "size": 15,
+    "source": "joeis"
+  }
+}

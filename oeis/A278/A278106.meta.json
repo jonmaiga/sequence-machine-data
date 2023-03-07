@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the index of the first occurrence of n in A278102.",
+  "id": "A278106",
+  "mentions": [
+    "A278102"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 3*Pi^2/256 - 1/9.",
+  "id": "A350089",
+  "mentions": [
+    "A000796"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": -2,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

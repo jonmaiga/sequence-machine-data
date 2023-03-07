@@ -1,0 +1,32 @@
+{
+  "description": "Numbers whose maximal Pell representation (A352339) is palindromic.",
+  "id": "A352341",
+  "mentions": [
+    "A000129",
+    "A002113",
+    "A006995",
+    "A014190",
+    "A048739",
+    "A065113",
+    "A094202",
+    "A132583",
+    "A331191",
+    "A351712",
+    "A351717",
+    "A352087",
+    "A352105",
+    "A352319",
+    "A352339"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

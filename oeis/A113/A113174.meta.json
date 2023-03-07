@@ -1,0 +1,19 @@
+{
+  "description": "Number of fixed 3D piled polyominoes: polycubes with fixed orientation, with no cubes \"sitting on air\".",
+  "id": "A113174",
+  "mentions": [
+    "A001168",
+    "A001931"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

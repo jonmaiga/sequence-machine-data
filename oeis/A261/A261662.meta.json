@@ -1,0 +1,18 @@
+{
+  "description": "Number of ordered triples (u,v,w) of terms from sequence A261660 (or A261661) such that u+v+w=n.",
+  "id": "A261662",
+  "mentions": [
+    "A261660",
+    "A261661"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:20",
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

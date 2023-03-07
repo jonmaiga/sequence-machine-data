@@ -1,0 +1,20 @@
+{
+  "description": "T(n, k) is the k-th prime p such that (p-1)|A000010(n); irregular array read by rows.",
+  "id": "A343902",
+  "mentions": [
+    "A000010",
+    "A343901",
+    "A343903"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 3,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

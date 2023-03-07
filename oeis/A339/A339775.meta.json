@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that (p+nextprime(p))/6 is prime and 6*p is the sum of two consecutive primes.",
+  "id": "A339775",
+  "mentions": [
+    "A163487",
+    "A288632"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:12",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

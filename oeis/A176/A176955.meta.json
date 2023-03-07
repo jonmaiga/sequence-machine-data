@@ -1,0 +1,23 @@
+{
+  "description": "Primes p such that q=3//p, r=p//3, R(q) and R(r) are primes.",
+  "id": "A176955",
+  "mentions": [
+    "A000040",
+    "A006567",
+    "A176316",
+    "A176601",
+    "A176838"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of zeta(3)/8.",
+  "id": "A276712",
+  "mentions": [
+    "A001008",
+    "A002117",
+    "A002805",
+    "A013661",
+    "A111003",
+    "A222171",
+    "A233091"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:10",
+    "offset": 0,
+    "size": 78,
+    "source": "joeis"
+  }
+}

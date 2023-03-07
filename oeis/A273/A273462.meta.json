@@ -1,0 +1,25 @@
+{
+  "description": "Rounded variance of the first n primes, for n > 1.",
+  "id": "A273462",
+  "mentions": [
+    "A075465",
+    "A075471",
+    "A272206",
+    "A301273",
+    "A301274",
+    "A301275",
+    "A301276",
+    "A301277"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:38",
+    "offset": 2,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

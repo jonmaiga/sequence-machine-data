@@ -1,0 +1,21 @@
+{
+  "description": "Number of unit squares having center within inscribed circle of an n X n integer square.",
+  "id": "A124623",
+  "mentions": [
+    "A036704",
+    "A051233",
+    "A120883"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

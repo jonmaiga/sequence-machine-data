@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = number of size k subsets of S_n that remain unchanged under the operation of replacing a permutation with its inverse.",
+  "id": "A277081",
+  "mentions": [
+    "A000085",
+    "A038507"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

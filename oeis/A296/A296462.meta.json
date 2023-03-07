@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. arcsin(x)*arctanh(x) (even powers only).",
+  "id": "A296462",
+  "mentions": [
+    "A001818",
+    "A009744",
+    "A009747",
+    "A010050",
+    "A012723",
+    "A296463"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:11:27",
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "The prime p in the Fouvry-Iwaniec prime k^2 + p^2 (A185086), or the larger of k and p if both are prime.",
+  "id": "A263721",
+  "mentions": [
+    "A002144",
+    "A002313",
+    "A028916",
+    "A045637",
+    "A062324",
+    "A185086",
+    "A240130",
+    "A262340",
+    "A263722"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

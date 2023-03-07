@@ -1,0 +1,25 @@
+{
+  "description": "Number of labeled point-determining bipartite graphs on n vertices.",
+  "id": "A232699",
+  "mentions": [
+    "A004108",
+    "A004110",
+    "A006024",
+    "A047864",
+    "A088974",
+    "A092430",
+    "A218090",
+    "A232700"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:50",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

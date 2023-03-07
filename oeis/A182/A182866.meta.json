@@ -1,0 +1,20 @@
+{
+  "description": "Number of edges in the n^2 X n^2 Sudoku graph.",
+  "id": "A182866",
+  "mentions": [
+    "A000583",
+    "A140676"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:13:11",
+    "offset": 1,
+    "size": 28,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "description": "Square array read by antidiagonals upwards: the n-th row o.g.f. is exp( Sum_{i >= 1} d(n,i+1)*x^i/i ) for n >= 1, where d(n,k) is Shanks's array of generalized Euler and class numbers.",
+  "id": "A262144",
+  "mentions": [
+    "A000003",
+    "A000182",
+    "A000191",
+    "A000318",
+    "A000320",
+    "A000411",
+    "A000464",
+    "A064072",
+    "A100100",
+    "A235605",
+    "A235606",
+    "A262143",
+    "A262145"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

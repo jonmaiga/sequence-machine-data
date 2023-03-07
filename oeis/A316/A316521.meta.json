@@ -1,0 +1,26 @@
+{
+  "description": "Matula-Goebel numbers of rooted trees where all terminal rooted subtrees are either constant or strict.",
+  "id": "A316521",
+  "mentions": [
+    "A000081",
+    "A000961",
+    "A003238",
+    "A004111",
+    "A005117",
+    "A007097",
+    "A072774",
+    "A214577",
+    "A276625",
+    "A277098"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

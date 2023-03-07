@@ -1,0 +1,19 @@
+{
+  "description": "Number of steps from n to 0, where allowable steps are x -> [x/r] if x is in lower Wythoff sequence (A000201) and x -> [r*x] otherwise, where [ ] = floor and r = (1+sqrt(5))/2 = golden ratio.",
+  "id": "A258215",
+  "mentions": [
+    "A000201",
+    "A258212"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

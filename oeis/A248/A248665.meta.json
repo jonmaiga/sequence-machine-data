@@ -1,0 +1,23 @@
+{
+  "description": "Triangular array of coefficients of polynomials p(n,x) defined in Comments; these are the polynomials defined at A248664, but here the coefficients are written in the order of decreasing powers of x.",
+  "id": "A248665",
+  "mentions": [
+    "A248664",
+    "A248666",
+    "A248667",
+    "A248668",
+    "A248669"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:05",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

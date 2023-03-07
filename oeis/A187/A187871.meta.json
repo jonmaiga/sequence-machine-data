@@ -1,0 +1,19 @@
+{
+  "description": "a(1)=1; for n > 1, a(n) is the smallest number that is formed by arranging the decimal numbers \"1\", \"2\", ..., \"n\" in some order so that the sum of every pair of adjacent numbers \"i\" \"j\" is prime.",
+  "id": "A187871",
+  "mentions": [
+    "A051237",
+    "A187869"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

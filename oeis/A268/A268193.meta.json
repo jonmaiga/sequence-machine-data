@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) (n>=1, k>=0) is the number of partitions of n which have k distinct parts i such that i+1 is also a part.",
+  "id": "A268193",
+  "mentions": [
+    "A000041",
+    "A024786",
+    "A116931"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:30",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

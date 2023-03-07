@@ -1,0 +1,20 @@
+{
+  "description": "Palindromes that are sandwiched between a prime and a powerful(1) number, in any order.",
+  "id": "A113840",
+  "mentions": [
+    "A001694",
+    "A002113"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

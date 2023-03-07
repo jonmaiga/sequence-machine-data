@@ -1,0 +1,20 @@
+{
+  "description": "List of numbers n without 1's in their decimal expansion such that n is equal to the total number of 1's in the decimal expansion of all positive numbers < n.",
+  "id": "A200863",
+  "mentions": [
+    "A014778"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

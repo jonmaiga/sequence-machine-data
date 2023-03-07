@@ -1,0 +1,21 @@
+{
+  "description": "The binary expansion of a(n) is obtained by applying the elementary cellular automaton with rule (2*n) mod 256 to the binary expansion of n.",
+  "id": "A352528",
+  "mentions": [
+    "A269160",
+    "A269161",
+    "A269173",
+    "A269174"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:26",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

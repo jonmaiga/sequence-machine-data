@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,k) read by rows: T(n,k) = 1 if (n mod k) <= 2*k/9, -1 if 2*k/9 < (n mod k) <= 4*k/9, otherwise 0.",
+  "id": "A164381",
+  "mentions": [
+    "A051731"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "less",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:46",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

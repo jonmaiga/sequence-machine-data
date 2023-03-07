@@ -1,0 +1,19 @@
+{
+  "description": "Number of nontrivially fully gated graphs on n nodes.",
+  "id": "A142861",
+  "mentions": [
+    "A142859",
+    "A142860"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 5,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

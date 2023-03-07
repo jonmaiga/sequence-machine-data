@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - 2*x)^(x/4).",
+  "id": "A354319",
+  "mentions": [
+    "A354227",
+    "A354309"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

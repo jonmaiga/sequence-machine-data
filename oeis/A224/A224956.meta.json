@@ -1,0 +1,28 @@
+{
+  "description": "Number of partitions of n where the difference between consecutive parts is at most 2.",
+  "id": "A224956",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A034296",
+    "A238353",
+    "A238863",
+    "A238864",
+    "A238865",
+    "A238866",
+    "A238867",
+    "A238868",
+    "A238869"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

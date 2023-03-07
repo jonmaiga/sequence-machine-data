@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 9*a(n-1) - 10*a(n-2); a(0)=0, a(1)=1.",
+  "id": "A178869",
+  "mentions": [
+    "A006318",
+    "A104562",
+    "A171415",
+    "A206819"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 19:45:55",
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

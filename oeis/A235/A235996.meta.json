@@ -1,0 +1,19 @@
+{
+  "description": "Number of length n binary words that contain at least one pair of consecutive 0's followed by (at some point in the word) at least one pair of consecutive 1's.",
+  "id": "A235996",
+  "mentions": [
+    "A001629"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 15:54:44",
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

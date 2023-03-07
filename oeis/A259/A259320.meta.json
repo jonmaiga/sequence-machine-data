@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 2*n*A259319(n) - A259110(n)^2.",
+  "id": "A259320",
+  "mentions": [
+    "A002309",
+    "A259110",
+    "A259319"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:30:47",
+    "offset": 1,
+    "size": 27,
+    "source": "joeis"
+  }
+}

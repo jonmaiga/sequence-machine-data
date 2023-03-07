@@ -1,0 +1,17 @@
+{
+  "description": "Let b(n) = A112455(n). Then b(n)/n is an integer iff n is prime (at least for the first few values, as for the Perrin sequence). This sequence is the values of b(p)/p, where p is the n th prime.",
+  "id": "A112458",
+  "mentions": [
+    "A112455"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

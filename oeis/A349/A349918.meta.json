@@ -1,0 +1,19 @@
+{
+  "description": "Irregular table read by rows; the first row contains 1; for n > 1, the n-th row contains the base-n digits of the number whose base-(n-1) expansion is the concatenation of the previous rows.",
+  "id": "A349918",
+  "mentions": [
+    "A309737"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

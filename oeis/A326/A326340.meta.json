@@ -1,0 +1,31 @@
+{
+  "description": "Number of maximal simple graphs with vertices {1..n} and no crossing or nesting edges.",
+  "id": "A326340",
+  "mentions": [
+    "A000108",
+    "A006125",
+    "A007297",
+    "A054726",
+    "A117662",
+    "A136653",
+    "A324169",
+    "A324327",
+    "A324328",
+    "A326244",
+    "A326279",
+    "A326293",
+    "A326329",
+    "A326339"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

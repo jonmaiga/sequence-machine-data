@@ -1,0 +1,18 @@
+{
+  "description": "Unitary pseudoperfect numbers that equal to the sum of a subset of their aliquot unitary divisors in a single way.",
+  "id": "A295829",
+  "mentions": [
+    "A064771",
+    "A293188"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:14",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

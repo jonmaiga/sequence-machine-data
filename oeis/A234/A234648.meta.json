@@ -1,0 +1,25 @@
+{
+  "description": "Even sums of 2 consecutive odious numbers (A000069).",
+  "id": "A234648",
+  "mentions": [
+    "A000069",
+    "A001969",
+    "A005843",
+    "A036554",
+    "A131323",
+    "A225822",
+    "A234011"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:52",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

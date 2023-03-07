@@ -1,0 +1,28 @@
+{
+  "description": "Greatest number m such that the fractional part of e^A153704(n) >= 1-(1/m).",
+  "id": "A153708",
+  "mentions": [
+    "A000149",
+    "A153664",
+    "A153672",
+    "A153680",
+    "A153688",
+    "A153696",
+    "A153704",
+    "A153716",
+    "A153724",
+    "A154130"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Central terms of triangles A226463 and A226464.",
+  "id": "A226474",
+  "mentions": [
+    "A051023",
+    "A226463",
+    "A226464"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

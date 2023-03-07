@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: consider the structure formed by drawing the lines connecting any two of the 2*(n+2) perimeter points of an (n+1) X 3 rectangular grid of points (or equally, an n X 2 grid of squares); row n gives number of cells with k sides, for k >= 3.",
+  "id": "A335701",
+  "mentions": [
+    "A331452",
+    "A331763",
+    "A331765",
+    "A331766"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = the odd number 2n+1 minus the numerator of (2n+1)/(2^(2n+1)-1).",
+  "id": "A160145",
+  "mentions": [
+    "A005408",
+    "A009843",
+    "A036279",
+    "A156769",
+    "A160143",
+    "A160144"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:42",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

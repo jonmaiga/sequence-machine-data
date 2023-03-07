@@ -1,0 +1,22 @@
+{
+  "description": "Least positive integer k such that A000720(k*n) is a square, or 0 if such a number k does not exist.",
+  "id": "A237612",
+  "mentions": [
+    "A000290",
+    "A000720",
+    "A237578",
+    "A237597",
+    "A237598",
+    "A237614"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:55",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

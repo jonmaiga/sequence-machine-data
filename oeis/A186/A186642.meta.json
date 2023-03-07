@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the \"squircle\" perimeter.",
+  "id": "A186642",
+  "mentions": [
+    "A002596",
+    "A120777",
+    "A175576"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

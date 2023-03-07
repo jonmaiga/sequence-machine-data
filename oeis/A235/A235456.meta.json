@@ -1,0 +1,23 @@
+{
+  "description": "Number of non-equivalent (mod D_4) ways to arrange 5 points on an n X n square grid so that no three points are collinear.",
+  "id": "A235456",
+  "mentions": [
+    "A194190",
+    "A235453",
+    "A235454",
+    "A235455",
+    "A235457",
+    "A235458"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 3,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

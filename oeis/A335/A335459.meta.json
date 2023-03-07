@@ -1,0 +1,40 @@
+{
+  "description": "Number of permutations of the prime indices of n! with at least one non-singleton run.",
+  "id": "A335459",
+  "mentions": [
+    "A000142",
+    "A001222",
+    "A002982",
+    "A003242",
+    "A005649",
+    "A007489",
+    "A008480",
+    "A022559",
+    "A027423",
+    "A054991",
+    "A056239",
+    "A106351",
+    "A108731",
+    "A112798",
+    "A114938",
+    "A325272",
+    "A325273",
+    "A325535",
+    "A325617",
+    "A333489",
+    "A335125",
+    "A335407",
+    "A335452"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

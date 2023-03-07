@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form A128646(k)-1 for some k (listed in A137689), where A128646 = denominators of partial sums of 1/(prime(i)-1).",
+  "id": "A137690",
+  "mentions": [
+    "A092063",
+    "A128646",
+    "A137689",
+    "A137692"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

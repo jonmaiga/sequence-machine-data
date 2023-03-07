@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = largest k such that A014612(n+1) = A014612(n) + (A014612(n) mod k), or 0 if no such k exists.",
+  "id": "A184752",
+  "mentions": [
+    "A001223",
+    "A014612",
+    "A114403",
+    "A117078",
+    "A117563",
+    "A118534",
+    "A130650",
+    "A184753"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = A099795(n)^-1 mod prime(n).",
+  "id": "A255010",
+  "mentions": [
+    "A000040",
+    "A099795",
+    "A178629",
+    "A254924",
+    "A254939"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

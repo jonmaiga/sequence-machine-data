@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows T(n,k) in which column k lists the terms of A000203 interspersed with (k-1) zeros, 1 <= k <= n.",
+  "id": "A130540",
+  "mentions": [
+    "A000004",
+    "A000203",
+    "A007429",
+    "A125093",
+    "A127093",
+    "A244051",
+    "A288417",
+    "A327096"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

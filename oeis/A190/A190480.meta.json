@@ -1,0 +1,20 @@
+{
+  "description": "Concatenation of first n digits in the concatenation of first n primes written in base 2.",
+  "id": "A190480",
+  "mentions": [
+    "A004676",
+    "A019518"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:28",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

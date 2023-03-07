@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (n^2 - n + 8)/2.",
+  "id": "A145018",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:53:05",
+    "offset": 1,
+    "size": 54,
+    "source": "joeis"
+  }
+}

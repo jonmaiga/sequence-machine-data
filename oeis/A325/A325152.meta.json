@@ -1,0 +1,27 @@
+{
+  "description": "Numbers whose squares can be expressed as the product of a number and its reversal.",
+  "id": "A325152",
+  "mentions": [
+    "A061917",
+    "A083408",
+    "A281625",
+    "A306273",
+    "A307019",
+    "A325148",
+    "A325149",
+    "A325150",
+    "A325151"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "The succession of prime and nonprime terms is kept when you consider the sequence formed by the successive sums a(n) + a(n+1). This is the lexicographically earliest sequence of distinct positive terms with this property.",
+  "id": "A345903",
+  "mentions": [
+    "A345966"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

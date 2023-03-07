@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T(n,k) = n*A000041(n-k), 0<=k<=n, read by rows.",
+  "id": "A182700",
+  "mentions": [
+    "A000041",
+    "A027293",
+    "A066186",
+    "A135010",
+    "A138121",
+    "A140207",
+    "A182701",
+    "A182704"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:06",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

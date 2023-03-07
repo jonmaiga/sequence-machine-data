@@ -1,0 +1,30 @@
+{
+  "description": "Minimum number of integer-sided squares needed to tile an m by n rectangle.",
+  "id": "A219158",
+  "mentions": [
+    "A001477",
+    "A030451",
+    "A049834",
+    "A113881",
+    "A226576",
+    "A226577",
+    "A226578",
+    "A226579",
+    "A226580",
+    "A226581",
+    "A226582",
+    "A226583",
+    "A338861"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

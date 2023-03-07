@@ -1,0 +1,22 @@
+{
+  "description": "Primes prime(n) such that prime(n) + 4*n is also prime.",
+  "id": "A254673",
+  "mentions": [
+    "A061067",
+    "A231232",
+    "A231383",
+    "A254462",
+    "A254665",
+    "A254672"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle, read by rows, equal to P^5, where triangle P = A135880.",
+  "id": "A135892",
+  "mentions": [
+    "A135880",
+    "A135894",
+    "A135895",
+    "A135896",
+    "A135897"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

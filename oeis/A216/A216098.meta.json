@@ -1,0 +1,18 @@
+{
+  "description": "Primes that are equal to the floor of the geometric mean of the previous prime and the following prime.",
+  "id": "A216098",
+  "mentions": [
+    "A006562",
+    "A216124"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

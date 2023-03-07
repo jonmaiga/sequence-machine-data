@@ -1,0 +1,19 @@
+{
+  "description": "Number of inner dual graphs of planar polyhexes with n hexagons.",
+  "id": "A108071",
+  "mentions": [
+    "A018190",
+    "A108070",
+    "A108072"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least integer x such that n < x and the product n*x is divisible by an integer y where n < y < x.",
+  "id": "A163520",
+  "mentions": [
+    "A033676",
+    "A033677",
+    "A063655"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:06:55",
+    "offset": 1,
+    "size": 64,
+    "source": "joeis"
+  }
+}

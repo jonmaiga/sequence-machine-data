@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = smallest number that leads to a new cycle under the base-9 Kaprekar map of A165110",
+  "id": "A165127",
+  "mentions": [
+    "A151964",
+    "A164887",
+    "A165009",
+    "A165029",
+    "A165048",
+    "A165068",
+    "A165087",
+    "A165107",
+    "A165110",
+    "A165115",
+    "A165128",
+    "A165129"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:48",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Sum of n-th powers of the three roots of x^3-2*x^2-x+1.",
+  "id": "A274975",
+  "mentions": [
+    "A033304",
+    "A096975"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:40",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

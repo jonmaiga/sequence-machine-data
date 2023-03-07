@@ -1,0 +1,31 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of n X n symmetric binary matrices with no row sum greater than k.",
+  "id": "A334548",
+  "mentions": [
+    "A000012",
+    "A005425",
+    "A006125",
+    "A135589",
+    "A139678",
+    "A139679",
+    "A139680",
+    "A139681",
+    "A139682",
+    "A139683",
+    "A139684",
+    "A139685",
+    "A333157"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

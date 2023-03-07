@@ -1,0 +1,18 @@
+{
+  "description": "Number of indecomposable slim semimodular lattices of length n.",
+  "id": "A217945",
+  "mentions": [
+    "A217944"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

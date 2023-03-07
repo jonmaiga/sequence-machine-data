@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions p of n not containing ceiling((min(p) + max(p))/2) as a part.",
+  "id": "A238485",
+  "mentions": [
+    "A000041",
+    "A238482",
+    "A238484"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

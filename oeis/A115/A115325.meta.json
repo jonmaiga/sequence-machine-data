@@ -1,0 +1,17 @@
+{
+  "description": "Rightmost diagonal of triangle A115323.",
+  "id": "A115325",
+  "mentions": [
+    "A115323"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

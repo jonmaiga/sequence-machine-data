@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = smallest r such that r^k <= spf(n) and gpf(n) < r^(k+1), for some k >= 0, where spf and gpf (smallest and greatest prime factor of n) are given by A020639(n) and A006530(n).",
+  "id": "A252375",
+  "mentions": [
+    "A006530",
+    "A020639",
+    "A066048",
+    "A138510",
+    "A251725",
+    "A251726",
+    "A251727",
+    "A252374"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:10",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-bfile"
+  }
+}

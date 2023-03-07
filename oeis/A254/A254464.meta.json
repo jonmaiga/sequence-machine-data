@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 21*2^n + 10*4^n + 15*3^n + 3*6^n + 6*5^n + 7^n + 28.",
+  "id": "A254464",
+  "mentions": [
+    "A062709",
+    "A254362",
+    "A254363",
+    "A254364",
+    "A254463"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:12",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

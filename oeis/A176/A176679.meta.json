@@ -1,0 +1,20 @@
+{
+  "description": "Conjecturally, numbers j for which f(m) > f(j) for all m > j, where f(k) = H(k) + exp(H(k))*log(H(k)) - sigma(k).",
+  "id": "A176679",
+  "mentions": [
+    "A004394",
+    "A004490",
+    "A057641",
+    "A222761"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:00",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

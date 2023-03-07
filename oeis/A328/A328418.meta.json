@@ -1,0 +1,20 @@
+{
+  "description": "Records in A328412.",
+  "id": "A328418",
+  "mentions": [
+    "A328412",
+    "A328417"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Smallest m such that A005375(m) = n.",
+  "id": "A194081",
+  "mentions": [
+    "A005375"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:16",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

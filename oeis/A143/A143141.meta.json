@@ -1,0 +1,23 @@
+{
+  "description": "Total number of all repeated partitions of the integer n and its parts down to parts equal to 1. Essentially first differences of A055887.",
+  "id": "A143141",
+  "mentions": [
+    "A000041",
+    "A055887",
+    "A131408",
+    "A137732",
+    "A141799",
+    "A143140"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

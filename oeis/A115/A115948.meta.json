@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (2^(semiprime(n)-1)) modulo (semiprime(n)^2).",
+  "id": "A115948",
+  "mentions": [
+    "A001220",
+    "A001358",
+    "A240719"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

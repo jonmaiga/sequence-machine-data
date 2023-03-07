@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = gcd(A034448(n)-n, n-A048146(n)), where A034448 and A048146 are respectively the sum of unitary and non-unitary divisors of n.",
+  "id": "A325813",
+  "mentions": [
+    "A034448",
+    "A034460",
+    "A048146",
+    "A323166",
+    "A325385",
+    "A325812",
+    "A325814"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:52",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

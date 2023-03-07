@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of functions f:{1,2,...,n}->{1,2,...,n} that have exactly k nonrecurrent elements mapped to some (one or more) recurrent element. n >= 1, 0 <= k <= n-1.",
+  "id": "A216971",
+  "mentions": [
+    "A000169",
+    "A001864"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

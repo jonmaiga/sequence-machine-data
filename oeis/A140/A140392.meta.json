@@ -1,0 +1,21 @@
+{
+  "description": "Triples of height (a prime p), base length x and side length y=z of isosceles triangles.",
+  "id": "A140392",
+  "mentions": [
+    "A000040",
+    "A066885",
+    "A084920",
+    "A127918"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

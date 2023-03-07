@@ -1,0 +1,22 @@
+{
+  "description": "Smallest prime p = a(n) such that the sum of p and the next prime has n distinct prime factors.",
+  "id": "A230518",
+  "mentions": [
+    "A001043",
+    "A071215",
+    "A071216",
+    "A098037",
+    "A105418"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:48",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

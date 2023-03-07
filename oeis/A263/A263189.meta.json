@@ -1,0 +1,17 @@
+{
+  "description": "Coefficient of y^0 in G(x,y)^4 where G(x,y) = Sum_{n=-oo..+oo} (1-x^n)^n * x^n * y^n.",
+  "id": "A263189",
+  "mentions": [
+    "A263188"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of steps of iterating 0 under z^2 + c before escaping, i.e., abs(z^2 + c) > 2, with c = -5/4 - epsilon^2 + epsilon*i, where epsilon = 10^(-n) and i^2 = -1.",
+  "id": "A300078",
+  "mentions": [
+    "A097486",
+    "A299415",
+    "A300077"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

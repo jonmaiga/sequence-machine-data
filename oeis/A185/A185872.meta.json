@@ -1,0 +1,22 @@
+{
+  "description": "Accumulation array of the (odd,odd)-polka dot array A185868, by antidiagonals.",
+  "id": "A185872",
+  "mentions": [
+    "A002412",
+    "A144112",
+    "A174723",
+    "A185868"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

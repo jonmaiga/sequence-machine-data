@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are sums of consecutive centered tetrahedral numbers (A005894).",
+  "id": "A329634",
+  "mentions": [
+    "A005894",
+    "A132366",
+    "A322468",
+    "A322610",
+    "A329635",
+    "A329636"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies: x = Sum_{n>=0} -(-A(x))^A000069(n), where A000069 is the odious numbers.",
+  "id": "A185202",
+  "mentions": [
+    "A000069",
+    "A010060"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "description": "Number of cyclic arrangements of S={1,2,...,n} such that the difference between any two neighbors is at most 4.",
+  "id": "A242526",
+  "mentions": [
+    "A242519",
+    "A242520",
+    "A242521",
+    "A242522",
+    "A242523",
+    "A242524",
+    "A242525",
+    "A242527",
+    "A242528",
+    "A242529",
+    "A242530",
+    "A242531",
+    "A242532",
+    "A242533",
+    "A242534"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

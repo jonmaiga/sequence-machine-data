@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = SumXOR_{k=1..n} A286681(k), where SumXOR is the analog of summation under the binary XOR operation.",
+  "id": "A286712",
+  "mentions": [
+    "A286681"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:58",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

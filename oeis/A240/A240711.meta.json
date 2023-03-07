@@ -1,0 +1,27 @@
+{
+  "description": "Sum of the largest parts in the partitions of 4n into 4 parts with smallest part = 1.",
+  "id": "A240711",
+  "mentions": [
+    "A238328",
+    "A238340",
+    "A238702",
+    "A238705",
+    "A238706",
+    "A239056",
+    "A239057",
+    "A239059",
+    "A240707"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:44:27",
+    "offset": 1,
+    "size": 39,
+    "source": "joeis"
+  }
+}

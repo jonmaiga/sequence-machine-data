@@ -1,0 +1,20 @@
+{
+  "description": "Non-repdigit composite numbers not divisible by 2, 3, 5 or 11.",
+  "id": "A158725",
+  "mentions": [
+    "A007775",
+    "A008364",
+    "A053795"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

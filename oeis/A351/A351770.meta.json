@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = Sum_{j=1..n} Sum_{i=1..j} (i*j)^5.",
+  "id": "A351770",
+  "mentions": [
+    "A000539",
+    "A000584",
+    "A001296",
+    "A060493",
+    "A346642",
+    "A351766"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-10-18 14:56:45",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

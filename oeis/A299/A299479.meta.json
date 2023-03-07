@@ -1,0 +1,25 @@
+{
+  "description": "Number of toothpicks added at n-th stage to the structure of the cellular automaton of A299478.",
+  "id": "A299479",
+  "mentions": [
+    "A011782",
+    "A139251",
+    "A160121",
+    "A296511",
+    "A296612",
+    "A299477",
+    "A299478"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Degree of Sp(n,C), the symplectic group, as an algebraic variety.",
+  "id": "A280922",
+  "mentions": [
+    "A103328",
+    "A280921",
+    "A280923"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

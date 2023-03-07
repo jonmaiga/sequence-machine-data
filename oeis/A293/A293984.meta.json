@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A293857(n)/A010551(n).",
+  "id": "A293984",
+  "mentions": [
+    "A008794",
+    "A010551",
+    "A293783",
+    "A293857"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:10",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

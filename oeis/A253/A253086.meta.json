@@ -1,0 +1,19 @@
+{
+  "description": "Number of ON cells at generation n of 5-celled totalistic CA defined by Rule 780.",
+  "id": "A253086",
+  "mentions": [
+    "A246310",
+    "A253087"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:49",
+    "offset": 0,
+    "size": 59,
+    "source": "joeis"
+  }
+}

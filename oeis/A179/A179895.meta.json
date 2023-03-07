@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = smallest number m such that m^2 has exactly n decimal digits n.",
+  "id": "A179895",
+  "mentions": [
+    "A086935"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

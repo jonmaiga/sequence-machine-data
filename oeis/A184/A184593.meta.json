@@ -1,0 +1,22 @@
+{
+  "description": "5n - A101306: sum_{i=1..n} the last digit of prime(i).",
+  "id": "A184593",
+  "mentions": [
+    "A101306",
+    "A122754",
+    "A184594"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-07-12 12:11:11",
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

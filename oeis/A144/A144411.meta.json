@@ -1,0 +1,19 @@
+{
+  "description": "Odd nonprime gaps adjusted to be {2,1,0,-1}: a(n)=A067970(n)/2-2.",
+  "id": "A144411",
+  "mentions": [
+    "A067970"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "sign",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:44:49",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

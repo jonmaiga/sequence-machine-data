@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = smallest expomorphic number in base n: least integer k such that n^k ends in k, or 0 if no such k exists.",
+  "id": "A289138",
+  "mentions": [
+    "A288845"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:20:17",
+    "offset": 1,
+    "size": 100,
+    "source": "joeis"
+  }
+}

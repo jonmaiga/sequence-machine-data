@@ -1,0 +1,24 @@
+{
+  "description": "Numbers having at least two representations as multinomial coefficients M(n;lambda), where lambda is a partition of n.",
+  "id": "A325472",
+  "mentions": [
+    "A000041",
+    "A000217",
+    "A036038",
+    "A305188",
+    "A325306",
+    "A325593",
+    "A325901"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

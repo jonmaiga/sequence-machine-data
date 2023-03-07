@@ -1,0 +1,24 @@
+{
+  "description": "Optimal ascending continued fraction expansion of Pi - 3.",
+  "id": "A228929",
+  "mentions": [
+    "A006784",
+    "A015884",
+    "A228930",
+    "A228931",
+    "A228932",
+    "A228933",
+    "A228934"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:46",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

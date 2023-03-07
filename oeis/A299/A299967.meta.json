@@ -1,0 +1,27 @@
+{
+  "description": "Number of normal generalized Young tableaux of size n with all rows and columns weakly increasing and all regions non-singleton skew-partitions.",
+  "id": "A299967",
+  "mentions": [
+    "A000085",
+    "A063834",
+    "A138178",
+    "A153452",
+    "A238690",
+    "A296188",
+    "A297388",
+    "A299925",
+    "A299926",
+    "A299966"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

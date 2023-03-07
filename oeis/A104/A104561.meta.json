@@ -1,0 +1,18 @@
+{
+  "description": "Column 0 of triangle A104560.",
+  "id": "A104561",
+  "mentions": [
+    "A104559",
+    "A104560"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

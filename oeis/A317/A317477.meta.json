@@ -1,0 +1,19 @@
+{
+  "description": "Unitary harmonic numbers m such that the harmonic mean of the unitary divisors of m is also a unitary harmonic number.",
+  "id": "A317477",
+  "mentions": [
+    "A006086",
+    "A317476"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

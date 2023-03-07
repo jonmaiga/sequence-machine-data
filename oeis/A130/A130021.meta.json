@@ -1,0 +1,20 @@
+{
+  "description": "Each number is the rank in the alphabet of a letter (and \"0\" stands for a space). After substitution one reads (in French): \"huit vingtetun neuf vingt zero vingtdeux neuf quatorze...\", which is exactly the sequence itself (without hyphens).",
+  "id": "A130021",
+  "mentions": [
+    "A104061"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

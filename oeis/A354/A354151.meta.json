@@ -1,0 +1,19 @@
+{
+  "description": "Lengths of successive runs of primes in A090252.",
+  "id": "A354151",
+  "mentions": [
+    "A090252",
+    "A249033",
+    "A354148"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:28",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-bfile"
+  }
+}

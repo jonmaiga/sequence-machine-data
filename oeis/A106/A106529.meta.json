@@ -1,0 +1,41 @@
+{
+  "description": "Numbers having k prime factors (counted with multiplicity), the largest of which is the k-th prime.",
+  "id": "A106529",
+  "mentions": [
+    "A000984",
+    "A001222",
+    "A006141",
+    "A010054",
+    "A047993",
+    "A056239",
+    "A061395",
+    "A064174",
+    "A090858",
+    "A096401",
+    "A098124",
+    "A112798",
+    "A117409",
+    "A168659",
+    "A324522",
+    "A340596",
+    "A340598",
+    "A340599",
+    "A340600",
+    "A340653",
+    "A340654",
+    "A340655",
+    "A340656",
+    "A340657"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:57",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

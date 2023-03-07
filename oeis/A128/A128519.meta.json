@@ -1,0 +1,24 @@
+{
+  "description": "McKay-Thompson series of class 78B for the Monster group with a(0) = -1.",
+  "id": "A128519",
+  "mentions": [
+    "A000122",
+    "A000700",
+    "A010054",
+    "A010815",
+    "A058755",
+    "A121373",
+    "A262950"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:40:45",
+    "offset": -1,
+    "size": 84,
+    "source": "joeis"
+  }
+}

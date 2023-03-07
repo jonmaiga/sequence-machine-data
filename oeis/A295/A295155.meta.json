@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that have exactly seven representations as a sum of five nonnegative squares.",
+  "id": "A295155",
+  "mentions": [
+    "A000174",
+    "A006431",
+    "A294675"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

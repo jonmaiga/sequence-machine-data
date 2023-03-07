@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that A263014(n) > 0.",
+  "id": "A263016",
+  "mentions": [
+    "A263014",
+    "A263015",
+    "A290287"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:22",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

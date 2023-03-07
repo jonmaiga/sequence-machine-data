@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = characteristic function of numbers k such that A024816(m) = k has solution, where A024816(m) = sums of non-divisors of m = antisigma(m).",
+  "id": "A231367",
+  "mentions": [
+    "A024816",
+    "A175192",
+    "A231365",
+    "A231366",
+    "A231368",
+    "A231369"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

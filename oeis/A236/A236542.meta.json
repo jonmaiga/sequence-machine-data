@@ -1,0 +1,29 @@
+{
+  "description": "Array T(n,k) read along descending antidiagonals: row n contains the primes with n steps in the prime index chain.",
+  "id": "A236542",
+  "mentions": [
+    "A000040",
+    "A007097",
+    "A007821",
+    "A049076",
+    "A049078",
+    "A049079",
+    "A057456",
+    "A057457",
+    "A058010",
+    "A135044",
+    "A236536"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:23",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

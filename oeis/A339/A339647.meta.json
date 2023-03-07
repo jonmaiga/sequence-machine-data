@@ -1,0 +1,20 @@
+{
+  "description": "Number of inequivalent leaf colorings of series-reduced planted trees with n leaves using exactly 2 colors.",
+  "id": "A339647",
+  "mentions": [
+    "A000669",
+    "A319377",
+    "A339645",
+    "A339646"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

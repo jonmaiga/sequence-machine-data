@@ -1,0 +1,28 @@
+{
+  "description": "a(n) is the least integer that can be expressed as the sum of one or more consecutive nonzero hexagonal numbers in exactly n ways.",
+  "id": "A334010",
+  "mentions": [
+    "A000384",
+    "A054859",
+    "A068314",
+    "A186337",
+    "A298467",
+    "A319185",
+    "A334007",
+    "A334008",
+    "A334011",
+    "A334012"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

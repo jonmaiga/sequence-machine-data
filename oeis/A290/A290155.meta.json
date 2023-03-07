@@ -1,0 +1,17 @@
+{
+  "description": "Let a(n) be the sequence of 0's and 1's that represents n. Then a(0) = 0; and a((1b)_2) = 1a(|b|)b where |b| denotes the length of b.",
+  "id": "A290155",
+  "mentions": [
+    "A007088"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

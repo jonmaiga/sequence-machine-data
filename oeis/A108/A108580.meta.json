@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose sum of bits when written in binary > sum of decimal digits.",
+  "id": "A108580",
+  "mentions": [
+    "A000120",
+    "A007953",
+    "A037308",
+    "A325483"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

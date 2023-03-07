@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number m such that 2*m = OddPrime(n) + q, q prime, and 2*m - prime(k) is not prime for k less than n.",
+  "id": "A260485",
+  "mentions": [
+    "A065091",
+    "A208662",
+    "A260580"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

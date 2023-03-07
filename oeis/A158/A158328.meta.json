@@ -1,0 +1,19 @@
+{
+  "description": "Lessers p1 of twin primes with prime sums of digits of p1 and p2.",
+  "id": "A158328",
+  "mentions": [
+    "A001359",
+    "A046704"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

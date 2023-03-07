@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A002808(k) - A144925(k) is prime.",
+  "id": "A167131",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A070824",
+    "A144925"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

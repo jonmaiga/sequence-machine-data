@@ -1,0 +1,29 @@
+{
+  "description": "Square array A(n,k), n>=1, k>=1, read by antidiagonals, where column k lists the orders of degree-d irreducible polynomials over GF(prime(k)); listing order for each column: ascending d, ascending value.",
+  "id": "A212737",
+  "mentions": [
+    "A059912",
+    "A212485",
+    "A212486",
+    "A212906",
+    "A218336",
+    "A218337",
+    "A218338",
+    "A218339",
+    "A218340",
+    "A218341"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:30",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

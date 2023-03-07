@@ -1,0 +1,18 @@
+{
+  "description": "Multiples of 19 whose digit reversal - 1 is also a multiple of 19.",
+  "id": "A166399",
+  "mentions": [
+    "A008601"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:49",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "description": "a(1)=1, then a(c) = p and a(p) = c, where c = T_c(r,k) and p = T_p(r,k), and where T_p contains the primes arranged in rows by the prime index chain and T_c contains the composites arranged in rows by the order of compositeness. See Formula.",
+  "id": "A135044",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A006450",
+    "A006508",
+    "A007097",
+    "A049076",
+    "A049078",
+    "A049081",
+    "A058322",
+    "A058324",
+    "A058328",
+    "A059981",
+    "A078442",
+    "A093046",
+    "A236536",
+    "A236542",
+    "A236854"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:23",
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

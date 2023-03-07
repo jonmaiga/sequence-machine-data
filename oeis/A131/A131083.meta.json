@@ -1,0 +1,21 @@
+{
+  "description": "Periodic sequence (26, 16, 6, 2, 6, 16, 26, 30).",
+  "id": "A131083",
+  "mentions": [
+    "A131030",
+    "A131074"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:15:07",
+    "offset": 1,
+    "size": 80,
+    "source": "joeis"
+  }
+}

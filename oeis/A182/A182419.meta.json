@@ -1,0 +1,20 @@
+{
+  "description": "a(0)=0, a(n+1) = (a(n) XOR floor(a(n)/8)) + 1, where XOR is the bitwise exclusive-or operator.",
+  "id": "A182419",
+  "mentions": [
+    "A182310",
+    "A182417",
+    "A182418"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:36:43",
+    "offset": 0,
+    "size": 66,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "First differences of A274687.",
+  "id": "A274688",
+  "mentions": [
+    "A030124",
+    "A053661",
+    "A274687"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

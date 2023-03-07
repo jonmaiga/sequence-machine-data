@@ -1,0 +1,22 @@
+{
+  "description": "Inverse to A256995 considered as a permutation of natural numbers, with assumed fixed initial term a(1) = 1.",
+  "id": "A256996",
+  "mentions": [
+    "A255556",
+    "A256989",
+    "A256990",
+    "A256995",
+    "A256998"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

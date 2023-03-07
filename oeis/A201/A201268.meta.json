@@ -1,0 +1,21 @@
+{
+  "description": "Distances d=x^3-y^2 for primary extremal points {x,y} of Mordell elliptic curves with quadratic extensions over rationals.",
+  "id": "A201268",
+  "mentions": [
+    "A134105",
+    "A200218",
+    "A201047",
+    "A201269"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

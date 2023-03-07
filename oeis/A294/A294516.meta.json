@@ -1,0 +1,25 @@
+{
+  "description": "Numerators of the partial sums of the reciprocals of (k+1)*(4*k+3) = A033991(k+1), for k >= 0.",
+  "id": "A294516",
+  "mentions": [
+    "A033991",
+    "A250551",
+    "A294512",
+    "A294515",
+    "A294517",
+    "A294518"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

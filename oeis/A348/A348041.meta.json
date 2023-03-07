@@ -1,0 +1,38 @@
+{
+  "description": "Square array read by antidiagonals. A(n,k) is the nearest common ancestor of n and k in the Doudna tree (A005940).",
+  "id": "A348041",
+  "mentions": [
+    "A000027",
+    "A000040",
+    "A005940",
+    "A052126",
+    "A061395",
+    "A064989",
+    "A070003",
+    "A102750",
+    "A156552",
+    "A163511",
+    "A241917",
+    "A252463",
+    "A341510",
+    "A347380",
+    "A347381",
+    "A347879",
+    "A348040",
+    "A348042",
+    "A348043",
+    "A348044"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

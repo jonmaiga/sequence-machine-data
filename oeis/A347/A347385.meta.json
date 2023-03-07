@@ -1,0 +1,29 @@
+{
+  "description": "Dedekind psi function applied to the odd part of n: a(n) = A001615(A000265(n)).",
+  "id": "A347385",
+  "mentions": [
+    "A000265",
+    "A000593",
+    "A001615",
+    "A053575",
+    "A122132",
+    "A185199",
+    "A206787",
+    "A336651",
+    "A347386",
+    "A347387",
+    "A351035"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:20",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) is the number of induced paths in the grid graph P_m X P_n.",
+  "id": "A360199",
+  "mentions": [
+    "A000217",
+    "A287151",
+    "A288518",
+    "A360196",
+    "A360200",
+    "A360201"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

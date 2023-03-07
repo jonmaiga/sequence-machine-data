@@ -1,0 +1,20 @@
+{
+  "description": "Total counts of distinct (directed) Hamiltonian paths for all simple graphs of order n.",
+  "id": "A193352",
+  "mentions": [
+    "A124964",
+    "A234601"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

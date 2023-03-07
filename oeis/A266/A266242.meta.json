@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that the initial digit of the fractional part of n*Pi is 0.",
+  "id": "A266242",
+  "mentions": [
+    "A145951"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:27",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

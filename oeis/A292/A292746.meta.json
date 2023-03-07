@@ -1,0 +1,35 @@
+{
+  "description": "Triangle read by rows: T(n,k) (n>=0, 0<=k<=n) = number of partitions of n with exactly k kinds of 1's which are introduced in ascending order.",
+  "id": "A292746",
+  "mentions": [
+    "A000012",
+    "A000041",
+    "A000217",
+    "A002865",
+    "A259401",
+    "A292503",
+    "A292741",
+    "A292745",
+    "A292747",
+    "A320816",
+    "A320817",
+    "A320818",
+    "A320819",
+    "A320820",
+    "A320821",
+    "A320822",
+    "A320823"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:08",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

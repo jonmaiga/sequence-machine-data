@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (n+1)*(n+2)/2 * Sum_{k=0..floor(n/2)} n!/(n-2*k)!.",
+  "id": "A114633",
+  "mentions": [
+    "A002104",
+    "A087208"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:05",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

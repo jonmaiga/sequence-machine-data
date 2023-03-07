@@ -1,0 +1,19 @@
+{
+  "description": "Hypotenuses of primitive Pythagorean triangles such that all 3 sides are composite.",
+  "id": "A165158",
+  "mentions": [
+    "A002808",
+    "A020882",
+    "A165159"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

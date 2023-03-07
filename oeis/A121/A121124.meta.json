@@ -1,0 +1,20 @@
+{
+  "description": "Unbranched a-4-catapolynonagons (see Brunvoll reference for precise definition).",
+  "id": "A121124",
+  "mentions": [
+    "A000400",
+    "A053469"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 08:45:26",
+    "offset": 2,
+    "size": 24,
+    "source": "joeis"
+  }
+}

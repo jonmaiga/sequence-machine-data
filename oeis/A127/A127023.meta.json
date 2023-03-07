@@ -1,0 +1,20 @@
+{
+  "description": "Let f(n) = exp(Pi*sqrt(n)); sequence gives numbers n such that ceiling(f(n)) - f(n) < 1/10^4.",
+  "id": "A127023",
+  "mentions": [
+    "A035484",
+    "A127022",
+    "A127024",
+    "A127025"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

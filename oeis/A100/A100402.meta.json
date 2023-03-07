@@ -1,0 +1,28 @@
+{
+  "description": "Digital root of 4^n.",
+  "id": "A100402",
+  "mentions": [
+    "A000302",
+    "A010689",
+    "A010872",
+    "A010888",
+    "A016777",
+    "A070366",
+    "A070403",
+    "A141725",
+    "A153130"
+  ],
+  "modified": "2023-02-27 14:38:22",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:35:15",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

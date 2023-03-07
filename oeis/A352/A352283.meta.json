@@ -1,0 +1,21 @@
+{
+  "description": "Smallest nonnegative even integer with exactly n pairs of Goldbach partitions, (p,q) and (r,s) with p,q,r,s prime and p < r <= s < q, such that all integers in the open intervals (p,r) and (s,q) are composite.",
+  "id": "A352283",
+  "mentions": [
+    "A187797",
+    "A278700",
+    "A352240",
+    "A352248"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

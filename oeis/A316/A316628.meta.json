@@ -1,0 +1,21 @@
+{
+  "description": "a(1)=1, a(2)=2, a(3)=2, a(4)=3; a(n) = a(n-a(n-1))+a(n-1-a(n-2)-a(n-2-a(n-2))) for n > 4.",
+  "id": "A316628",
+  "mentions": [
+    "A000045",
+    "A005185",
+    "A035612",
+    "A046699"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:35",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Langton's ant on an elongated triangular tiling: number of black cells after n moves of the ant when starting on a square and initially looking towards one of the edges where that square meets one of the neighboring triangles.",
+  "id": "A325631",
+  "mentions": [
+    "A255938",
+    "A269757",
+    "A276073",
+    "A308590",
+    "A308937",
+    "A308973",
+    "A309064",
+    "A309166",
+    "A309241",
+    "A309279",
+    "A309293",
+    "A326167",
+    "A326352"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

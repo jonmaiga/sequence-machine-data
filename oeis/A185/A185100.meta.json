@@ -1,0 +1,22 @@
+{
+  "description": "Dihedral unlabeled Motzkin numbers: number of ways of drawing any number of nonintersecting chords joining n unlabeled points equally spaced on a circle, up to rotations and reflections of the circle.",
+  "id": "A185100",
+  "mentions": [
+    "A001006",
+    "A005773",
+    "A006082",
+    "A175954",
+    "A175955"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:09",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

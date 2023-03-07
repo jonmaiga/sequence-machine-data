@@ -1,0 +1,23 @@
+{
+  "description": "Filter sequence combining A051953(n) and A009195(n), n-phi(n) (cototient of n) and gcd(n,n-phi(n)).",
+  "id": "A300243",
+  "mentions": [
+    "A000027",
+    "A009195",
+    "A051953",
+    "A300233",
+    "A300240",
+    "A300241",
+    "A300242"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:24",
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

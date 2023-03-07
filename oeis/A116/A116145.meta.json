@@ -1,0 +1,22 @@
+{
+  "description": "Squares that are equal to the sum of 5 consecutive cubes.",
+  "id": "A116145",
+  "mentions": [
+    "A024670",
+    "A027602",
+    "A027604",
+    "A116108"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

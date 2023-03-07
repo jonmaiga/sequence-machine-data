@@ -1,0 +1,26 @@
+{
+  "description": "Number of partitions of n into 3 distinct nonzero decimal palindromes.",
+  "id": "A341156",
+  "mentions": [
+    "A002113",
+    "A136522",
+    "A261131",
+    "A261132",
+    "A261422",
+    "A341155",
+    "A341157",
+    "A341158",
+    "A341159"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 6,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

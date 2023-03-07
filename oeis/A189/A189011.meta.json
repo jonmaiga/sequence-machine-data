@@ -1,0 +1,22 @@
+{
+  "description": "Zero-one sequence based on triangular numbers: a(A000217(k))=a(k); a(A014132(k))=1-a(k); a(1)=0.",
+  "id": "A189011",
+  "mentions": [
+    "A000217",
+    "A014132",
+    "A188967",
+    "A188973",
+    "A189012",
+    "A189013"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:42:05",
+    "offset": 1,
+    "size": 135,
+    "source": "joeis"
+  }
+}

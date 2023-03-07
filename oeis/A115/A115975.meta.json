@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of the form p^k, where p is a prime and k is a Fibonacci number.",
+  "id": "A115975",
+  "mentions": [
+    "A000961",
+    "A117245"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

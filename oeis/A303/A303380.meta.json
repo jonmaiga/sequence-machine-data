@@ -1,0 +1,20 @@
+{
+  "description": "A(n, k) is the smallest number x > A(n, k-1) such that every letter, with repetition, that occurs in the English name of A(n, k-1) also occurs in the English name of x, with A(n, 1) = n; square array, read by antidiagonals downwards.",
+  "id": "A303380",
+  "mentions": [
+    "A303475"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

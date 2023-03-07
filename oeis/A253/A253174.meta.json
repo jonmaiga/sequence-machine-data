@@ -1,0 +1,23 @@
+{
+  "description": "For a permutation of the positive integers B={b(k)}, denote L_B(n) = sum_{k=1..n} lambda(b(k)), where lambda(n) is Liouville's function (A008836). In this sequence, a(n) = L_B(n) in case B = A098550.",
+  "id": "A253174",
+  "mentions": [
+    "A000027",
+    "A002819",
+    "A008836",
+    "A098550",
+    "A189229",
+    "A247085"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:11",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

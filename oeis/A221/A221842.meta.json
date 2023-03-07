@@ -1,0 +1,18 @@
+{
+  "description": "Number of ways to dissect a square into n squares.",
+  "id": "A221842",
+  "mentions": [
+    "A221841"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Coefficient array for orthogonal polynomials p(n,x)=(x-(2n-1))*p(n-1,x)-(2n-2)^2*p(n-2,x), p(0,x)=1,p(1,x)=x-1.",
+  "id": "A182826",
+  "mentions": [
+    "A182824",
+    "A182827",
+    "A256893"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

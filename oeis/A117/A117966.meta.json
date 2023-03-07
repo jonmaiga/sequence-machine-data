@@ -1,0 +1,30 @@
+{
+  "description": "Balanced ternary enumeration (based on balanced ternary representation) of integers; write n in ternary and then replace 2's with (-1)'s.",
+  "id": "A117966",
+  "mentions": [
+    "A001057",
+    "A004488",
+    "A005836",
+    "A059095",
+    "A117967",
+    "A117968",
+    "A134028",
+    "A244042",
+    "A274107",
+    "A289814",
+    "A319047"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:07",
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of cyclic permutations that admit a [1,1,-1]-gridding.",
+  "id": "A303980",
+  "mentions": [
+    "A006575",
+    "A027376",
+    "A303979"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

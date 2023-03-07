@@ -1,0 +1,20 @@
+{
+  "description": "Values of n for which A070939(n^3) differs from A004221(n).",
+  "id": "A338433",
+  "mentions": [
+    "A004221",
+    "A070939",
+    "A111393",
+    "A329193"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:10",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

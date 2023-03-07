@@ -1,0 +1,20 @@
+{
+  "description": "Multiples of 1852.",
+  "id": "A303272",
+  "mentions": [
+    "A029927",
+    "A029928"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:36:37",
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

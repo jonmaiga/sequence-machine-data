@@ -1,0 +1,21 @@
+{
+  "description": "Largest number which requires n iterations of the unitary totient function (A047994) to reach 1.",
+  "id": "A225172",
+  "mentions": [
+    "A003271",
+    "A047994",
+    "A049865",
+    "A225173"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

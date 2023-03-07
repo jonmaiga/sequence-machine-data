@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = sum of sums of all sets of three distinct preceding terms; a(n) = n for n<=3.",
+  "id": "A129379",
+  "mentions": [
+    "A000217",
+    "A083746",
+    "A129380"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

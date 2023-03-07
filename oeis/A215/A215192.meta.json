@@ -1,0 +1,18 @@
+{
+  "description": "Number of arrays of 5 0..n integers with no sum of consecutive elements equal to a disjoint adjacent sum of an equal number of elements.",
+  "id": "A215192",
+  "mentions": [
+    "A215190"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

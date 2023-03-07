@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = Sum_{k=0..n} C(n,k)*S2(n,k). Binomial convolution of the Stirling numbers of the 2nd kind. Also sum of the rows of A122454.",
+  "id": "A122455",
+  "mentions": [
+    "A000041",
+    "A000110",
+    "A036040",
+    "A048993",
+    "A090683",
+    "A098545",
+    "A098546",
+    "A122454",
+    "A134090"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:11",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

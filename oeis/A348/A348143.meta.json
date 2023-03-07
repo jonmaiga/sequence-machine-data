@@ -1,0 +1,21 @@
+{
+  "description": "Areas of integer-sided cyclic quadrilaterals whose area equals their perimeter.",
+  "id": "A348143",
+  "mentions": [
+    "A098030",
+    "A161874",
+    "A290451"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

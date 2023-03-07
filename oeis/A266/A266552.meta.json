@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows giving the 3p+1 sequence of n.",
+  "id": "A266552",
+  "mentions": [
+    "A070165",
+    "A175871",
+    "A266551"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 2,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

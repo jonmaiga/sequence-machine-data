@@ -1,0 +1,18 @@
+{
+  "description": "It is known that 4472988326827347533 is a quadratic non-residue for all primes between 3 and 283; sequence gives 4472988326827347533 mod prime(n).",
+  "id": "A108692",
+  "mentions": [
+    "A094849"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:35:11",
+    "offset": 1,
+    "size": 68,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Catalan numbers A000108(n) modulo 9.",
+  "id": "A130851",
+  "mentions": [
+    "A000108",
+    "A010888",
+    "A130856"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:14:51",
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

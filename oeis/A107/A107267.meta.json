@@ -1,0 +1,31 @@
+{
+  "description": "A square array of Motzkin related transforms, read by antidiagonals.",
+  "id": "A107267",
+  "mentions": [
+    "A000007",
+    "A000108",
+    "A001006",
+    "A003645",
+    "A071356",
+    "A107131",
+    "A107264",
+    "A107265",
+    "A107266",
+    "A107268",
+    "A107269",
+    "A292716"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:00:59",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

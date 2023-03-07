@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle T(n,k) = 2k-1 with A008794(n+2) values in row n.",
+  "id": "A172049",
+  "mentions": [
+    "A008794",
+    "A056220",
+    "A158405",
+    "A172002"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

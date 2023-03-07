@@ -1,0 +1,30 @@
+{
+  "description": "Number of compositions of n with distinct differences.",
+  "id": "A325545",
+  "mentions": [
+    "A000079",
+    "A000740",
+    "A008965",
+    "A059966",
+    "A070211",
+    "A175342",
+    "A242882",
+    "A325325",
+    "A325352",
+    "A325546",
+    "A325547",
+    "A325548",
+    "A325551",
+    "A325554"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:51",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

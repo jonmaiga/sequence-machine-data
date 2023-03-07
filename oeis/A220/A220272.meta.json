@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways to write n=x^2+y (x>0, y>0) with 2*x*y-1 prime",
+  "id": "A220272",
+  "mentions": [
+    "A219842",
+    "A219864",
+    "A219923"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:38",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

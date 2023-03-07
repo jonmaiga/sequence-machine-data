@@ -1,0 +1,18 @@
+{
+  "description": "Number of linear chord diagrams having 2n chords and minimal chord length n.",
+  "id": "A290688",
+  "mentions": [
+    "A293881"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

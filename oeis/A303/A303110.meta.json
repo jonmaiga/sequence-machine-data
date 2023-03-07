@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n into two parts (p,q), with p < q, such that neither p+q nor |q-p| is semiprime.",
+  "id": "A303110",
+  "mentions": [
+    "A001222",
+    "A302642"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

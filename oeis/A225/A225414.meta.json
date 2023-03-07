@@ -1,0 +1,18 @@
+{
+  "description": "Ordered counts of internal lattice points within primitive Pythagorean triangles (PPT).",
+  "id": "A225414",
+  "mentions": [
+    "A024406"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

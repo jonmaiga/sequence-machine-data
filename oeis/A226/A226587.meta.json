@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n having at least two complementary pairs of divisors (q, p) and (p', q') such that n = p*q = p'*q' where the decimal digits of p' are the 9's complement of the decimal digits of p and the decimal digits of q' are the 9's complement of the decimal digits of q.",
+  "id": "A226587",
+  "mentions": [
+    "A002275",
+    "A061601"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

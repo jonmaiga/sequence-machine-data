@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the largest prime substring of A345666(n).",
+  "id": "A345667",
+  "mentions": [
+    "A002808",
+    "A047814",
+    "A345666"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:54:47",
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

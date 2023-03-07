@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of c/(2*Pi), where c = 299792458 (exactly) is the speed of light in vacuum (m/s).",
+  "id": "A182997",
+  "mentions": [
+    "A000796",
+    "A003678",
+    "A019692",
+    "A086201",
+    "A132997",
+    "A167526"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:13:15",
+    "offset": 8,
+    "size": 99,
+    "source": "joeis"
+  }
+}

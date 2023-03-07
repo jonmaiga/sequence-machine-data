@@ -1,0 +1,39 @@
+{
+  "description": "Number of primitive inequivalent mirror-symmetric sublattices of rectangular lattice of index n.",
+  "id": "A304182",
+  "mentions": [
+    "A000086",
+    "A000089",
+    "A001221",
+    "A001615",
+    "A001620",
+    "A019590",
+    "A034444",
+    "A060594",
+    "A069734",
+    "A069735",
+    "A154272",
+    "A157223",
+    "A157224",
+    "A157226",
+    "A157227",
+    "A157228",
+    "A157230",
+    "A157231",
+    "A157235",
+    "A304183",
+    "A306016"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

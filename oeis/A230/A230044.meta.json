@@ -1,0 +1,19 @@
+{
+  "description": "Nonnegative numbers k such that k plus a perfect square is a triangular number.",
+  "id": "A230044",
+  "mentions": [
+    "A035251",
+    "A064784",
+    "A175035"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:47",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

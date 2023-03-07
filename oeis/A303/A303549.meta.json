@@ -1,0 +1,25 @@
+{
+  "description": "Lesser of twin primes p for which phi(p-1) = phi(p+1), where phi(n) is the Euler totient function (A000010).",
+  "id": "A303549",
+  "mentions": [
+    "A000010",
+    "A001359",
+    "A006512",
+    "A008330",
+    "A066812",
+    "A067890",
+    "A067933",
+    "A286714",
+    "A286715"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

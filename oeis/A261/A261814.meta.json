@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = smallest initial value s such that n is in the Collatz trajectory of s (s is not regarded as part of its trajectory).",
+  "id": "A261814",
+  "mentions": [
+    "A006577",
+    "A260303",
+    "A260389"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:21",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

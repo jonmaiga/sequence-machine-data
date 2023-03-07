@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that tau(k) = tau(k+1) mod 691, where tau is Ramanujan's tau function A000594.",
+  "id": "A121733",
+  "mentions": [
+    "A000594",
+    "A046694",
+    "A121734"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:10",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

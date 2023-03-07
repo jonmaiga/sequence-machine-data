@@ -1,0 +1,20 @@
+{
+  "description": "Noncomposite numbers in the western ray of the Ulam spiral as oriented on the March 1964 cover of Scientific American.",
+  "id": "A168025",
+  "mentions": [
+    "A054567",
+    "A168022"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:52",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Minimum of rad(m (n - m) n) for 0 < m < n, gcd(m,n) = 1, where rad(k) = A007947(k) = product of prime factors of k.",
+  "id": "A147298",
+  "mentions": [
+    "A007947",
+    "A085152",
+    "A085153",
+    "A147297",
+    "A147299",
+    "A147300",
+    "A147301",
+    "A147307"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:34",
+    "offset": 2,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

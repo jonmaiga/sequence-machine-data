@@ -1,0 +1,18 @@
+{
+  "description": "Number of letters in the words formed by the digital recitation of e in the English language.",
+  "id": "A107489",
+  "mentions": [],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

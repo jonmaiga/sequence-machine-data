@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f.: Series_Reversion( x*cos(x) - x*sin(x) ).",
+  "id": "A215368",
+  "mentions": [
+    "A201923",
+    "A215638"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:33",
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

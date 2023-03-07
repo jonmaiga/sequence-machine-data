@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are congruent to {0, 1, 4, 5, 7, 9, 11} mod 12.",
+  "id": "A191276",
+  "mentions": [
+    "A190785"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:20:17",
+    "offset": 1,
+    "size": 107,
+    "source": "joeis"
+  }
+}

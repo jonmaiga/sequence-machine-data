@@ -1,0 +1,19 @@
+{
+  "description": "Coefficients of square root of theta series of D_4 (see A004011).",
+  "id": "A108096",
+  "mentions": [
+    "A004011",
+    "A108092"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

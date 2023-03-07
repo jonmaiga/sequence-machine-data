@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n^4 + 3*n^3 + 8*n^2 + 9*n + 2.",
+  "id": "A270868",
+  "mentions": [
+    "A033816",
+    "A270867"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 14:08:37",
+    "offset": 0,
+    "size": 36,
+    "source": "joeis"
+  }
+}

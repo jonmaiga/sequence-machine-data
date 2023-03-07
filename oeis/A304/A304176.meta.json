@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n^3 into exactly n parts.",
+  "id": "A304176",
+  "mentions": [
+    "A206240",
+    "A238608",
+    "A304208",
+    "A304212"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Greater of two consecutive primes, p < q, such that p*q-p+q is prime.",
+  "id": "A154551",
+  "mentions": [
+    "A138111",
+    "A138170",
+    "A154550"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:36",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

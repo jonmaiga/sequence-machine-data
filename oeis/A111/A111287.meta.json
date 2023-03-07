@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = smallest k such that prime(n) divides Sum_{i=1..k} prime(i).",
+  "id": "A111287",
+  "mentions": [
+    "A000041",
+    "A007504",
+    "A053050",
+    "A103208",
+    "A111267",
+    "A111272",
+    "A168678"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:02",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

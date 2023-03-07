@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 4*16^n + 8*4^n + 17.",
+  "id": "A225928",
+  "mentions": [
+    "A188161",
+    "A224790",
+    "A225929",
+    "A225938"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least number k such that A348213(k) = n, or -1 if no such number exists.",
+  "id": "A348214",
+  "mentions": [
+    "A007755",
+    "A348158",
+    "A348213"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "The larger digit of any pair of adjacent digits is always odd.",
+  "id": "A282650",
+  "mentions": [
+    "A282651"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:52",
+    "offset": 1,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

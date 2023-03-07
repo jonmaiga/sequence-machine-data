@@ -1,0 +1,23 @@
+{
+  "description": "Prime numbers with an odd number of steps in their prime index chain.",
+  "id": "A333242",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A078442",
+    "A262275",
+    "A333243",
+    "A333244"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

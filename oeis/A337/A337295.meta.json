@@ -1,0 +1,21 @@
+{
+  "description": "Reversible binary Smith numbers: binary Smith numbers (A278909) whose binary reversal (A030101) is also a binary Smith number.",
+  "id": "A337295",
+  "mentions": [
+    "A030101",
+    "A104171",
+    "A278909",
+    "A334530"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:09",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

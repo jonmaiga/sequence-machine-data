@@ -1,0 +1,24 @@
+{
+  "description": "The k-th leftmost digit of a(n) is the greatest of the k leftmost digits of n.",
+  "id": "A355222",
+  "mentions": [
+    "A003817",
+    "A009994",
+    "A355221",
+    "A355223",
+    "A355224"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:29",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

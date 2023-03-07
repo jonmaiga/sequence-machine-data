@@ -1,0 +1,25 @@
+{
+  "description": "List of pairs: primes whose reversal is also prime, each followed by its reversal.",
+  "id": "A321523",
+  "mentions": [
+    "A000040",
+    "A004086",
+    "A007500",
+    "A095180",
+    "A135020",
+    "A180022"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

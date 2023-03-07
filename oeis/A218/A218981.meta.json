@@ -1,0 +1,20 @@
+{
+  "description": "Numbers n for which sigma(n) = sigma(w) + sigma(x) + sigma(y) + sigma(z), where n = w + x + y + z, with w, x, y, z all positive.",
+  "id": "A218981",
+  "mentions": [
+    "A000203",
+    "A211223",
+    "A218852",
+    "A218980"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

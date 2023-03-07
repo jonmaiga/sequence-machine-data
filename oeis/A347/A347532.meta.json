@@ -1,0 +1,27 @@
+{
+  "description": "a(n) is the sum of the nonpowers of 2 in the 3x+1 sequence that starts at n.",
+  "id": "A347532",
+  "mentions": [
+    "A000079",
+    "A006370",
+    "A033493",
+    "A033495",
+    "A057716",
+    "A135282",
+    "A208981",
+    "A232503",
+    "A347270",
+    "A347519"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

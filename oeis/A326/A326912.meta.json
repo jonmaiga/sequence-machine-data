@@ -1,0 +1,31 @@
+{
+  "description": "BII-numbers of pairwise intersecting set-systems with empty intersection.",
+  "id": "A326912",
+  "mentions": [
+    "A048793",
+    "A051185",
+    "A305843",
+    "A317752",
+    "A317755",
+    "A317757",
+    "A318715",
+    "A319077",
+    "A319759",
+    "A319762",
+    "A319763",
+    "A319764",
+    "A326031",
+    "A326910",
+    "A326911"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

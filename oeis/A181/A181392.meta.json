@@ -1,0 +1,20 @@
+{
+  "description": "Squares in A108571.",
+  "id": "A181392",
+  "mentions": [
+    "A108571",
+    "A225886"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "fini",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:04",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

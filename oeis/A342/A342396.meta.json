@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=1..n} k^(n/gcd(k,n) - 1).",
+  "id": "A342396",
+  "mentions": [
+    "A031971",
+    "A332621",
+    "A342394",
+    "A342395"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-02 17:26:44",
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

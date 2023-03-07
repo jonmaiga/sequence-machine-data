@@ -1,0 +1,26 @@
+{
+  "description": "Least prime divisor of E_{2*n} which does not divide any E_{2*k} with k < n, or 1 if such a primitive prime divisor of E_{2*n} does not exist, where E_m denotes the m-th Euler number given by A122045.",
+  "id": "A242194",
+  "mentions": [
+    "A000040",
+    "A000364",
+    "A122045",
+    "A242169",
+    "A242170",
+    "A242171",
+    "A242173",
+    "A242193",
+    "A242195"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:58",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

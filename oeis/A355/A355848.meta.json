@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle read by rows in which row n lists the numbers whose divisors have arithmetic mean n, or 0 if no such number exists.",
+  "id": "A355848",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A003601",
+    "A157847",
+    "A162538",
+    "A324990",
+    "A324991"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

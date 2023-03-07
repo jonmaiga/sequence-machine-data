@@ -1,0 +1,18 @@
+{
+  "description": "Numbers n such that the distance from 2^(2n) to the prev prime is the same as the distance from (2n)^2 to the prev prime.",
+  "id": "A226650",
+  "mentions": [
+    "A226381"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

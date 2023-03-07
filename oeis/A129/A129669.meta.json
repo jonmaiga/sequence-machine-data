@@ -1,0 +1,21 @@
+{
+  "description": "Right truncatable primes in base 3 (written in decimal form).",
+  "id": "A129669",
+  "mentions": [
+    "A024763",
+    "A076586"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Smallest prime factor of A077586(n).",
+  "id": "A309130",
+  "mentions": [
+    "A000043",
+    "A020639",
+    "A077586",
+    "A122094",
+    "A263686",
+    "A322568"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of prime factors, with multiplicity, of the n-th n-gonal number (A060354).",
+  "id": "A271320",
+  "mentions": [
+    "A001222",
+    "A060354",
+    "A271319",
+    "A271321",
+    "A271322"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 2,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Lower of a pair of adjacent perfect powers, both with exponents > 2.",
+  "id": "A340700",
+  "mentions": [
+    "A001597",
+    "A076467",
+    "A097056",
+    "A117934",
+    "A340642",
+    "A340701",
+    "A340702",
+    "A340703",
+    "A340704",
+    "A340705",
+    "A340706"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:13",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

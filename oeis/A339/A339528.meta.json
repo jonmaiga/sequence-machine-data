@@ -1,0 +1,24 @@
+{
+  "description": "The number of n-faced polyhedra formed when an elongated dodecahedron is internally cut by all the planes defined by any three of its vertices.",
+  "id": "A339528",
+  "mentions": [
+    "A338622",
+    "A338801",
+    "A338808",
+    "A338825",
+    "A339348",
+    "A339349"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 4,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

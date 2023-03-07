@@ -1,0 +1,24 @@
+{
+  "description": "Products of two distinct Fibonacci numbers, both greater than 1.",
+  "id": "A271354",
+  "mentions": [
+    "A000045",
+    "A004526",
+    "A049997",
+    "A094565",
+    "A130233",
+    "A271356"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:35",
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that sigma_2(k)/(sigma_1(k)*sigma_0(k)) = c, c an integer.",
+  "id": "A152215",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001157",
+    "A003601",
+    "A020486",
+    "A020487",
+    "A094471",
+    "A140480"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

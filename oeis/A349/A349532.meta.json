@@ -1,0 +1,22 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = 1 + x * A(x)^3 / (1 - 4 * x).",
+  "id": "A349532",
+  "mentions": [
+    "A001764",
+    "A025230",
+    "A307678",
+    "A349318",
+    "A349531"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-28 11:08:29",
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

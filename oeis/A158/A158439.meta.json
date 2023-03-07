@@ -1,0 +1,20 @@
+{
+  "description": "Numbers arising in Kane's conjecture on representing sets with sums of triangular numbers.",
+  "id": "A158439",
+  "mentions": [
+    "A000217",
+    "A030050"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

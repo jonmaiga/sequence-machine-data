@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that the greatest prime factor of 3*p+1 is at most 5.",
+  "id": "A276827",
+  "mentions": [
+    "A087273",
+    "A093671",
+    "A093674",
+    "A093676"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of 2n-step paths from (0,0) to (0,n) that stay in the first quadrant (but may touch the axes) consisting of steps (-1,0), (0,1), (0,-1) and (1,-1).",
+  "id": "A306813",
+  "mentions": [
+    "A000108",
+    "A126596",
+    "A174687",
+    "A306814",
+    "A317782"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

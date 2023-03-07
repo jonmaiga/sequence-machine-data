@@ -1,0 +1,21 @@
+{
+  "description": "Number of palindromic partitions of n whose greatest part has multiplicity 4.",
+  "id": "A238780",
+  "mentions": [
+    "A000009",
+    "A025065",
+    "A087897",
+    "A238779"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Array read by antidiagonals: T(m, n) is the number of simple paths from corner to diagonally opposite corner on an m X n grid with king moves allowed.",
+  "id": "A329118",
+  "mentions": [
+    "A086347",
+    "A140518",
+    "A158651",
+    "A193168",
+    "A193170",
+    "A193171",
+    "A193172",
+    "A272445",
+    "A288033"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:58",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

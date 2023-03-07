@@ -1,0 +1,25 @@
+{
+  "description": "Triangle, read by rows, that transforms diagonals in the table of coefficients in the successive iterations of g.f. of A236960 such that column 0 equals T(n,0) = n^n.",
+  "id": "A236961",
+  "mentions": [
+    "A088956",
+    "A233531",
+    "A236960",
+    "A236962",
+    "A236963",
+    "A236964",
+    "A359716",
+    "A359717"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:54",
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

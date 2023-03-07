@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n such that k^n-(k-1)^n-...-3^n-2^n is prime for some k.",
+  "id": "A240083",
+  "mentions": [
+    "A239472"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

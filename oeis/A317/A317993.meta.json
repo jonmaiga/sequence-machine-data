@@ -1,0 +1,19 @@
+{
+  "description": "Number of k such that (Z/kZ)* is isomorphic to (Z/nZ)*, where (Z/nZ)* is the multiplicative group of integers modulo n.",
+  "id": "A317993",
+  "mentions": [
+    "A015126",
+    "A028476",
+    "A303712"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:37",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

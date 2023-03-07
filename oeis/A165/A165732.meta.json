@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of sum(e^(1/n!)-1,n>=0).",
+  "id": "A165732",
+  "mentions": [
+    "A165733"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

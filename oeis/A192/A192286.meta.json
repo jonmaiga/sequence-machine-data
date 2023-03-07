@@ -1,0 +1,19 @@
+{
+  "description": "Antiharmonic numbers using anti-divisors: numbers n such that sigma*(n) divides sigma*_2(n), where sigma*(n) is the sum of anti-divisors of n and sigma*_2(n) the sum of squares of anti-divisors of n.",
+  "id": "A192286",
+  "mentions": [
+    "A020487",
+    "A066272"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

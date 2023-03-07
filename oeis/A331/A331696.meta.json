@@ -1,0 +1,23 @@
+{
+  "description": "Common denominator of x-coordinate and y-coordinate of 3rd point of triangles with integer sides corresponding to A331695 and A331697.",
+  "id": "A331696",
+  "mentions": [
+    "A316841",
+    "A316843",
+    "A316844",
+    "A316845",
+    "A331695",
+    "A331697"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

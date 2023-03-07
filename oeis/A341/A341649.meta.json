@@ -1,0 +1,18 @@
+{
+  "description": "Integers k such that Z[sqrt(k)] = Z[x]/(x^2 - k) is a unique factorization domain.",
+  "id": "A341649",
+  "mentions": [
+    "A002052",
+    "A003656"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:14",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

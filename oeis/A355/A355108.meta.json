@@ -1,0 +1,21 @@
+{
+  "description": "Maximal number of root ancestral configurations among matching gene trees and species trees with n leaves.",
+  "id": "A355108",
+  "mentions": [
+    "A003095",
+    "A004019",
+    "A091980",
+    "A306390"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

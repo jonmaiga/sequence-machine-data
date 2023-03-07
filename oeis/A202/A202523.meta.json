@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n into distinct parts having pairwise prime GCDs but no overall common factor.",
+  "id": "A202523",
+  "mentions": [
+    "A018783",
+    "A200976",
+    "A202385",
+    "A202425"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:23",
+    "offset": 31,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

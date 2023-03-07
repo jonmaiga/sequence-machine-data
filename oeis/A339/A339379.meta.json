@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows; the first row simply contains the value 1; given the succession of digits of the n-th row, say [d_0, ..., d_k], the (n+1)-th row is the succession of digits of [d_0, d_0+d_1, d_1+d_2, ..., d_{k-1}+d_k, d_k].",
+  "id": "A339379",
+  "mentions": [
+    "A007318",
+    "A093086",
+    "A339359"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:11",
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

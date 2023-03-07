@@ -1,0 +1,17 @@
+{
+  "description": "Number of simple symmetric permutations of degree 2n (or 2n+1).",
+  "id": "A198434",
+  "mentions": [
+    "A111111"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 2,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

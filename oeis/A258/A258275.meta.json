@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = smallest number k > n such that the interval k*100 to k*100+99 has exactly the same prime pattern as the interval n*100 to n*100+99 (or 0 if no such term is known).",
+  "id": "A258275",
+  "mentions": [
+    "A164987",
+    "A190639",
+    "A219996"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:32",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

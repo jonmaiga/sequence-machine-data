@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n,k)= tau(k)*phi(n/k) if k|n, else T(n,k)=0.",
+  "id": "A127527",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A000203",
+    "A054523"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least number such that the concatenation of all the previous terms with it is squarefree and has n prime factors. a(0)=0.",
+  "id": "A309234",
+  "mentions": [
+    "A005117"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

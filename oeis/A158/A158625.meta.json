@@ -1,0 +1,23 @@
+{
+  "description": "Lower limit of backward value of 5^n.",
+  "id": "A158625",
+  "mentions": [
+    "A004094",
+    "A023415",
+    "A145679",
+    "A158624"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "base",
+    "cons",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

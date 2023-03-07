@@ -1,0 +1,26 @@
+{
+  "description": "Sum of the largest parts in the partitions of n into 8 parts.",
+  "id": "A308998",
+  "mentions": [
+    "A026814",
+    "A308989",
+    "A308990",
+    "A308991",
+    "A308992",
+    "A308994",
+    "A308995",
+    "A308996",
+    "A308997"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

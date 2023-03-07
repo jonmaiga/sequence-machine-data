@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k > 0 such that 630*k + 315 is not an abundant number (A005101).",
+  "id": "A343794",
+  "mentions": [
+    "A005097",
+    "A005101",
+    "A005231",
+    "A263837",
+    "A322287"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:17",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

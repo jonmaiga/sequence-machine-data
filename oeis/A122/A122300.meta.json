@@ -1,0 +1,22 @@
+{
+  "description": "Row 2 of A122283 and A122284. An involution of nonnegative integers.",
+  "id": "A122300",
+  "mentions": [
+    "A057123",
+    "A057163",
+    "A072796",
+    "A083927",
+    "A122283",
+    "A122284"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

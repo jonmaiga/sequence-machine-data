@@ -1,0 +1,17 @@
+{
+  "description": "Tower of primes modulo n: a(n) = (2^3^5^7^ ... ^prime(n)) mod n.",
+  "id": "A342176",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

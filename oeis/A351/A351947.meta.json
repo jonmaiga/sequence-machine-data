@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k for which A327500(k) <> A351946(k).",
+  "id": "A351947",
+  "mentions": [
+    "A051903",
+    "A181819",
+    "A327499",
+    "A327500",
+    "A351564",
+    "A351946"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

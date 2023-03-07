@@ -1,0 +1,27 @@
+{
+  "description": "Coefficient triangle of the denominators of the (n-th convergents to) the continued fraction 1/(w+2/(w+3/(w+4/... . Conjectured to equal unsigned version of A137286.",
+  "id": "A180048",
+  "mentions": [
+    "A000165",
+    "A000932",
+    "A035101",
+    "A084950",
+    "A111129",
+    "A129890",
+    "A137286",
+    "A180047",
+    "A180049"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

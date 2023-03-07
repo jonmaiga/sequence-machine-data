@@ -1,0 +1,20 @@
+{
+  "description": "Smallest number of generalized pentagonal numbers which sum to n.",
+  "id": "A355717",
+  "mentions": [
+    "A001318",
+    "A093519",
+    "A100878"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

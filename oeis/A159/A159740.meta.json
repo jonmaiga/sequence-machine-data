@@ -1,0 +1,24 @@
+{
+  "description": "Number of permutations of 9 indistinguishable copies of 1..n arranged in a circle with exactly 1 local maximum.",
+  "id": "A159740",
+  "mentions": [
+    "A159715",
+    "A159721",
+    "A159727",
+    "A159733",
+    "A159736",
+    "A159738",
+    "A159739"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 2,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

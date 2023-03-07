@@ -1,0 +1,18 @@
+{
+  "description": "Let a(0) = 1. Either, a(n) = the smallest prime not yet occurring in the sequence that, when written in binary, it is a substring in the binary representation of a(n-1); or, if no such prime exists, a(n) = the smallest prime not yet occurring that when written in binary, a(n-1) is contained as a substring within it.",
+  "id": "A175310",
+  "mentions": [
+    "A175311"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

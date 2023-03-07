@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of e.g.f. (1 - x^2)^(1 + 1/x).",
+  "id": "A353204",
+  "mentions": [
+    "A110654",
+    "A193281",
+    "A353205"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "changed",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:27",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

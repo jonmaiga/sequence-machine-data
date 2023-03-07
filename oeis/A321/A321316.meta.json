@@ -1,0 +1,26 @@
+{
+  "description": "Number T(n,k) of permutations of [n] whose difference between the length of the longest increasing subsequence and the length of the longest decreasing subsequence equals k; triangle T(n,k), n >= 1, 1-n <= k <= n-1, read by rows.",
+  "id": "A321316",
+  "mentions": [
+    "A000142",
+    "A000290",
+    "A303697",
+    "A321277",
+    "A321278",
+    "A321313",
+    "A321314",
+    "A321315"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:44",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

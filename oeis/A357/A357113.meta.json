@@ -1,0 +1,24 @@
+{
+  "description": "T(n,m) is the numerator of the resistance between two diametrically opposite nodes of a rectangular electric network of n*m quadratic meshes in which all edges are replaced by one-ohm resistors, where T(n,m) is a triangle read by rows.",
+  "id": "A357113",
+  "mentions": [
+    "A093652",
+    "A212045",
+    "A212046",
+    "A357114",
+    "A357115",
+    "A357116"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

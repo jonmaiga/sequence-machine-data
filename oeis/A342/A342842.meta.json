@@ -1,0 +1,21 @@
+{
+  "description": "All positive integer solutions m of equation A342369^k(6*p - 2) = m*3 + 2, sorted by p and k in ascending order, p has higher priority than k. p and k are positive integers. \"^k\" means recursion here.",
+  "id": "A342842",
+  "mentions": [
+    "A006370",
+    "A340407",
+    "A342261",
+    "A342369"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

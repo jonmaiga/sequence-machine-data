@@ -1,0 +1,25 @@
+{
+  "description": "The number of connected simple labeled graphs with <= n nodes.",
+  "id": "A182100",
+  "mentions": [
+    "A001187",
+    "A006129",
+    "A054592",
+    "A287689",
+    "A292300",
+    "A327070",
+    "A327075",
+    "A327078"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

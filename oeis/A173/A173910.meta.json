@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = smallest number >= a(n-1) such that a(1)*a(2)*...*a(n)+1 is prime; a(1)=2.",
+  "id": "A173910",
+  "mentions": [
+    "A036012",
+    "A046966"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:58",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

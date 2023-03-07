@@ -1,0 +1,19 @@
+{
+  "description": "First differences of A014011.",
+  "id": "A226390",
+  "mentions": [
+    "A014011",
+    "A227388",
+    "A227389"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

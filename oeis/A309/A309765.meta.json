@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k>=1 such that k*(k+1) is divisible by A003418(n).",
+  "id": "A309765",
+  "mentions": [
+    "A003418"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:34",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

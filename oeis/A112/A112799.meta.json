@@ -1,0 +1,20 @@
+{
+  "description": "Least odd number such that all greater odd numbers can be represented as sum of three integers with n distinct prime factors (conjectured).",
+  "id": "A112799",
+  "mentions": [
+    "A112800",
+    "A112801",
+    "A112802"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

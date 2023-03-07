@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = coefficient of x^(4*n+1)/(4*n+1)! in power series S(x) = Series_Reversion( Integral 1/(1 + x^4)^(3/2) dx ).",
+  "id": "A357804",
+  "mentions": [
+    "A153301",
+    "A357800",
+    "A357805"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:32",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

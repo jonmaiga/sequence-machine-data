@@ -1,0 +1,24 @@
+{
+  "description": "Integer nearest f(10^n), where f(x) = Sum of ( mu(k) * H(k)/k^(3/2) * Integral Log(x^(1/k)) ) for k = 1 to infinity, where H(k) is the harmonic number sum_{i=1..k} 1/i.",
+  "id": "A226945",
+  "mentions": [
+    "A006880",
+    "A057754",
+    "A057793",
+    "A057834",
+    "A190802",
+    "A201542",
+    "A226744",
+    "A228724"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:44",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of non-isomorphic n X n nonnegative integer symmetric matrices with all row and column sums equal to 3 up to permutations of rows and columns.",
+  "id": "A333888",
+  "mentions": [
+    "A333737"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

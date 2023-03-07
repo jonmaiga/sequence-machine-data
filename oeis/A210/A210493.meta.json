@@ -1,0 +1,17 @@
+{
+  "description": "Transits of Venus since the invention of the telescope by Julian Date (rounded).",
+  "id": "A210493",
+  "mentions": [
+    "A171467"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

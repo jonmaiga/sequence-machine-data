@@ -1,0 +1,33 @@
+{
+  "description": "Positions in sequences A198384, A198385 and A198386 to indicate triples of squares in arithmetic progression, that are not multiples of earlier triples.",
+  "id": "A198409",
+  "mentions": [
+    "A008966",
+    "A050873",
+    "A198384",
+    "A198385",
+    "A198386",
+    "A198387",
+    "A198388",
+    "A198389",
+    "A198390",
+    "A198435",
+    "A198436",
+    "A198437",
+    "A198438",
+    "A198439",
+    "A198440",
+    "A198441"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:19",
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

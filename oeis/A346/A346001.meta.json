@@ -1,0 +1,28 @@
+{
+  "description": "Lexicographically earliest sequence of nonnegative integers such that two distinct terms differ by at least 5 decimal digits.",
+  "id": "A346001",
+  "mentions": [
+    "A001477",
+    "A001969",
+    "A075926",
+    "A075928",
+    "A075931",
+    "A075934",
+    "A333568",
+    "A343444",
+    "A346000",
+    "A346002",
+    "A346003"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of polyominoes (or square animals) with at most n cells.",
+  "id": "A130866",
+  "mentions": [
+    "A000105",
+    "A173271"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:18",
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

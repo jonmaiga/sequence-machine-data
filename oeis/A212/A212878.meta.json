@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the negated imaginary part of i!.",
+  "id": "A212878",
+  "mentions": [
+    "A212877",
+    "A212879",
+    "A212880"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

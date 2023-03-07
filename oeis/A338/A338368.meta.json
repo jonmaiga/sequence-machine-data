@@ -1,0 +1,20 @@
+{
+  "description": "Triangle of number of 312-avoiding reduced valid hook configurations with n hooks that are on permutations with 2n + k points, for n=1 and 1<=k<=n.",
+  "id": "A338368",
+  "mentions": [
+    "A005700",
+    "A005789"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

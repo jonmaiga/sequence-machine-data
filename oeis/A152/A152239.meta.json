@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = -5*a(n-1) + 7*a(n-2) for n > 1 with a(0) = 1 and a(1) = -7.",
+  "id": "A152239",
+  "mentions": [
+    "A147703"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "less",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:35",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

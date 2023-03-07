@@ -1,0 +1,19 @@
+{
+  "description": "Sequence of integers such that there are d terms between pairs of integers d. Cycle through d=0,1,2,3, trying to insert the least unused pair starting at the next free position.",
+  "id": "A227860",
+  "mentions": [
+    "A227859"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:17:09",
+    "offset": 1,
+    "size": 82,
+    "source": "joeis"
+  }
+}

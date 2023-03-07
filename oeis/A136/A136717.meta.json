@@ -1,0 +1,28 @@
+{
+  "description": "Triangle T(n,k), 1 <= k <= n, read by rows: T(n,k) is the number of permutations in the symmetric group S_n having k multiplicative 3-excedances. Equivalently, the number of permutations of the set {3,6,9,...,3n} with k excedances.",
+  "id": "A136717",
+  "mentions": [
+    "A000012",
+    "A000142",
+    "A007318",
+    "A008292",
+    "A120434",
+    "A136715",
+    "A136718",
+    "A137593",
+    "A137594"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

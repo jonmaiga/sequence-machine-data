@@ -1,0 +1,23 @@
+{
+  "description": "Triangle equal to the matrix product A127466 * A051731.",
+  "id": "A127470",
+  "mentions": [
+    "A002618",
+    "A051731",
+    "A061949",
+    "A127466",
+    "A127469"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

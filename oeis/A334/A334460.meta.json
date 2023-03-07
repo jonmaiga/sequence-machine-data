@@ -1,0 +1,25 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) is the number of partitions of n into k consecutive parts that differ by 4, and the first element of column k is in the row that is the k-th hexagonal number (A000384).",
+  "id": "A334460",
+  "mentions": [
+    "A000384",
+    "A051731",
+    "A237048",
+    "A303300",
+    "A327262",
+    "A330887",
+    "A334461",
+    "A334462"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

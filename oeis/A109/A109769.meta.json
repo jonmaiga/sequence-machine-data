@@ -1,0 +1,18 @@
+{
+  "description": "Composite n such that binomial(7*n, n) == 7^n (mod n).",
+  "id": "A109769",
+  "mentions": [
+    "A080469"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

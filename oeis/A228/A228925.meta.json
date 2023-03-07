@@ -1,0 +1,18 @@
+{
+  "description": "Stern's triatomic sequence.",
+  "id": "A228925",
+  "mentions": [
+    "A002487"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

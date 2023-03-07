@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of limit of c(n)/c(n-1) where c = A227728.",
+  "id": "A225815",
+  "mentions": [
+    "A227728",
+    "A227729"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

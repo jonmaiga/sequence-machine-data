@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2*A002309(n).",
+  "id": "A259319",
+  "mentions": [
+    "A002309"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:30:47",
+    "offset": 1,
+    "size": 30,
+    "source": "joeis"
+  }
+}

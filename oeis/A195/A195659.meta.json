@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to place 10n nonattacking kings on a vertical cylinder 20 X 2n.",
+  "id": "A195659",
+  "mentions": [
+    "A137432",
+    "A195649",
+    "A195654"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 14:10:40",
+    "offset": 1,
+    "size": 19,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Array read by upward antidiagonals: T(n,k) (n >= 0, k > 0) = nim-division of n by k.",
+  "id": "A334291",
+  "mentions": [
+    "A004468",
+    "A004474",
+    "A004477",
+    "A004480",
+    "A006015",
+    "A051775",
+    "A051776",
+    "A051917",
+    "A334290"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

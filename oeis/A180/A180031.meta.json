@@ -1,0 +1,33 @@
+{
+  "description": "Number of n-move paths on a 3 X 3 chessboard of a queen starting or ending in the central square.",
+  "id": "A180031",
+  "mentions": [
+    "A000007",
+    "A000400",
+    "A015449",
+    "A020989",
+    "A030221",
+    "A057088",
+    "A109114",
+    "A122690",
+    "A152240",
+    "A166060",
+    "A180028",
+    "A180030",
+    "A180032",
+    "A180036",
+    "A180038"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:03",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

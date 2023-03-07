@@ -1,0 +1,25 @@
+{
+  "description": "Array T(n,k) read by antidiagonals: number of primitive polynomials of degree k over GF(prime(n)).",
+  "id": "A158502",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A011260",
+    "A027385",
+    "A027741",
+    "A027743"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:40",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

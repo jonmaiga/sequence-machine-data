@@ -1,0 +1,21 @@
+{
+  "description": "a(0)=1; a(n) = Sum_{k=1..n-1} d(k)*a(n-k), where d(m) is m-th bit in binary expansion of n.",
+  "id": "A260956",
+  "mentions": [
+    "A000120",
+    "A007088",
+    "A033639",
+    "A323355"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:19",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

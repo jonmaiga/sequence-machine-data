@@ -1,0 +1,19 @@
+{
+  "description": "Sums of least knight's moves from (0,0) to points in the square lattice [-n,n]x[-n,n].",
+  "id": "A183047",
+  "mentions": [
+    "A065775",
+    "A183048"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

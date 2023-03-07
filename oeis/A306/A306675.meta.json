@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations p of [2n] having at least one index i with |p(i)-i| = n.",
+  "id": "A306675",
+  "mentions": [
+    "A306506",
+    "A306535"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

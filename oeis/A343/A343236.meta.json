@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of (A010476 - 3*A228496)/(4*Pi) - 1/8.",
+  "id": "A343236",
+  "mentions": [
+    "A001622",
+    "A010476",
+    "A176055",
+    "A228496",
+    "A343235"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:48:20",
+    "offset": -1,
+    "size": 76,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = prime(1)^4 + prime(n)^4",
+  "id": "A287925",
+  "mentions": [
+    "A030514",
+    "A287922"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

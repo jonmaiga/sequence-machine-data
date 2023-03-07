@@ -1,0 +1,31 @@
+{
+  "description": "Number of connected categories with n objects and 2n-1 morphisms.",
+  "id": "A125702",
+  "mentions": [
+    "A000081",
+    "A000272",
+    "A007716",
+    "A007717",
+    "A030019",
+    "A052888",
+    "A122086",
+    "A125699",
+    "A134954",
+    "A317631",
+    "A317632",
+    "A318697",
+    "A320921",
+    "A321155"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:13",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

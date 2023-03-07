@@ -1,0 +1,23 @@
+{
+  "description": "First differences of A175111.",
+  "id": "A175112",
+  "mentions": [
+    "A001752",
+    "A110907",
+    "A117216",
+    "A175111",
+    "A175114"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:06:13",
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Coordination sequence for a node with global 8-fold symmetry in the Ammann-Beenker tiling (also known as the Standard Octagonal tiling).",
+  "id": "A303981",
+  "mentions": [
+    "A302841",
+    "A302842",
+    "A304033",
+    "A320487"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:28",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

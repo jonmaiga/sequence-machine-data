@@ -1,0 +1,26 @@
+{
+  "description": "Product of digits of prime factors of n, with multiplicity.",
+  "id": "A118541",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A007953",
+    "A007954",
+    "A095402",
+    "A118503"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-09-08 06:56:22",
+    "offset": 0,
+    "size": 79,
+    "source": "joeis"
+  }
+}

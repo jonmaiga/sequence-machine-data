@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array: the fusion of (p(n,x)) by (q(n,x)), where p(n,x)=x*p(n-1,x)+2^n with p(0,x)=1, and q(n,x)=2x*q(n-1,x)+1 with q(0,x)=1.",
+  "id": "A193904",
+  "mentions": [
+    "A193722",
+    "A193905"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = (n!)^2 * Sum_{k=1..n} A008836(k)/k^2.",
+  "id": "A280654",
+  "mentions": [
+    "A001044",
+    "A008836",
+    "A182448"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:49",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

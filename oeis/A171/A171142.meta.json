@@ -1,0 +1,21 @@
+{
+  "description": "Triangle T(n,k) of the coefficients [x^k] of the polynomial p_n(x), where p_n(x)=(1+x)*p_{n-1}(x) if n even, p_n(x) = (x^2+4x+1)^((n-1)/2) if n odd.",
+  "id": "A171142",
+  "mentions": [
+    "A007318",
+    "A026549",
+    "A051159",
+    "A169623"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

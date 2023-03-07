@@ -1,0 +1,26 @@
+{
+  "description": "Numbers that are not the sum of 3 squares and a nonnegative 9th power.",
+  "id": "A296579",
+  "mentions": [
+    "A004215",
+    "A004771",
+    "A022552",
+    "A022557",
+    "A022561",
+    "A022566",
+    "A111151",
+    "A297970"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

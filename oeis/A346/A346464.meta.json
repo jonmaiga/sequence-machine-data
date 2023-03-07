@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = 6 * GaussBinomial(2*n, 2, 2) * Bernoulli(2*n, 1).",
+  "id": "A346464",
+  "mentions": [
+    "A000367",
+    "A002445",
+    "A006095",
+    "A346463"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

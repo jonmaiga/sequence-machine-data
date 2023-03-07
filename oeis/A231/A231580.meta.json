@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the numerator of the probability that n segments of length 2, each placed randomly on a line segment of length 2n, will completely cover the line segment.",
+  "id": "A231580",
+  "mentions": [
+    "A231634"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:49",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

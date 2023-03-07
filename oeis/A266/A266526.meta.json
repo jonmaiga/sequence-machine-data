@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = coefficient of x^n*y^(n+1)/n! in Log( Sum_{n>=0} (n + y)^(2*n) * x^n/n! ), for n>=1.",
+  "id": "A266526",
+  "mentions": [
+    "A266481",
+    "A266521"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:33",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

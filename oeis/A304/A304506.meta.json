@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 2*(3*n+1)*(9*n+8).",
+  "id": "A304506",
+  "mentions": [
+    "A304505"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 09:12:19",
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

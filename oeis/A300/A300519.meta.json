@@ -1,0 +1,24 @@
+{
+  "description": "Convolution of n! and n^n.",
+  "id": "A300519",
+  "mentions": [
+    "A000142",
+    "A000312",
+    "A061711",
+    "A107713",
+    "A108953",
+    "A110467",
+    "A277506"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

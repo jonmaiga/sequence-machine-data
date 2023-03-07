@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that the binary representation of the sum of two consecutive terms has at least 5 runs of ones.",
+  "id": "A306865",
+  "mentions": [
+    "A069010",
+    "A287639"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:31",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

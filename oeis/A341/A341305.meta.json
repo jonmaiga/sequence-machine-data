@@ -1,0 +1,18 @@
+{
+  "description": "Fourier coefficients of the modular form (1/28)*(E_6(t)+27*E_6(3*t)).",
+  "id": "A341305",
+  "mentions": [
+    "A004016",
+    "A013973"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

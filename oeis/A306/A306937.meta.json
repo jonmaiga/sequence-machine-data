@@ -1,0 +1,20 @@
+{
+  "description": "Coefficients of q-expansion of Eisenstein series G_{11/2}(tau) multiplied by 132.",
+  "id": "A306937",
+  "mentions": [
+    "A259825",
+    "A306934",
+    "A306936"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

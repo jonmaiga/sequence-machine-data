@@ -1,0 +1,31 @@
+{
+  "description": "The infinite trunk of least squares beanstalk with reversed subsections.",
+  "id": "A276574",
+  "mentions": [
+    "A000196",
+    "A000290",
+    "A002828",
+    "A005563",
+    "A010052",
+    "A255131",
+    "A260734",
+    "A262689",
+    "A276572",
+    "A276573",
+    "A277015",
+    "A277016",
+    "A277023"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:42",
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

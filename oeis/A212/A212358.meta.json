@@ -1,0 +1,25 @@
+{
+  "description": "Coefficients of the cycle index polynomial for the alternating group A_n multiplied by n!/2, n>=1, read as partition polynomial.",
+  "id": "A212358",
+  "mentions": [
+    "A000041",
+    "A001710",
+    "A036036",
+    "A036039",
+    "A102189",
+    "A212355",
+    "A212357"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:29",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

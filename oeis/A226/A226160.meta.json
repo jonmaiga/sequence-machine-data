@@ -1,0 +1,17 @@
+{
+  "description": "Least positive integer k such that 1 + 1/2 + ... + 1/k > n/tau, where tau = golden ratio = (1+sqrt(5))/2.",
+  "id": "A226160",
+  "mentions": [
+    "A226161"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

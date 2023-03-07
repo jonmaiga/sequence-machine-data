@@ -1,0 +1,26 @@
+{
+  "description": "Configurations in the evolution of a line of n cells in Conway's Game of Life, with 0=infinity. For periodic evolutions, a(n)=(preperiod length)+(period length). For non-periodic evolutions, a(n)=0.",
+  "id": "A110910",
+  "mentions": [
+    "A019473",
+    "A055397",
+    "A056605",
+    "A056613",
+    "A056614",
+    "A061342",
+    "A089520",
+    "A098720",
+    "A099733"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "nonn",
+    "uned"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Maximal k <= n^2 + 1 such that every Goldbach representation of 2*k = p+q contains at least one prime from the set {prime(1), prime(2), ..., prime(n)}, or a(n)=0 if there is no such k.",
+  "id": "A242247",
+  "mentions": [
+    "A002375",
+    "A152451",
+    "A156284",
+    "A156537"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:31",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

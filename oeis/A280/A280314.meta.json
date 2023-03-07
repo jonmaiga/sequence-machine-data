@@ -1,0 +1,20 @@
+{
+  "description": "Relationship of prime numbers to multiples of 6. The value of a(n) = 2 if n*6 has two neighboring primes, a(n) = 1 if only n*6+1 is prime, a(n) = -1 if only n*6-1 is prime, and a(n) = 0 if the neighbors of n*6 are both composite.",
+  "id": "A280314",
+  "mentions": [
+    "A002476",
+    "A007528",
+    "A024898",
+    "A024899"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that occur more than once in A193873, in order of appearance.",
+  "id": "A194263",
+  "mentions": [
+    "A001235",
+    "A154729",
+    "A193869",
+    "A193873"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "The second rank moment function N_2(n).",
+  "id": "A220908",
+  "mentions": [
+    "A000041",
+    "A066186",
+    "A092269",
+    "A211982",
+    "A220907",
+    "A220909"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:39",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

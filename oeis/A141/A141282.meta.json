@@ -1,0 +1,23 @@
+{
+  "description": "Least prime p such that p-6^n, ..., p-6, p, p+6, ... and p+6^n are primes.",
+  "id": "A141282",
+  "mentions": [
+    "A006489",
+    "A141279",
+    "A141280",
+    "A141281"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

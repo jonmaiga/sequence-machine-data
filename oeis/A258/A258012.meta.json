@@ -1,0 +1,21 @@
+{
+  "description": "Capped binary boundary codes for fusenes (all orientations and rotations included).",
+  "id": "A258012",
+  "mentions": [
+    "A254109",
+    "A258002",
+    "A258009",
+    "A258013"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:16",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

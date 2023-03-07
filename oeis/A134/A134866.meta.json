@@ -1,0 +1,24 @@
+{
+  "description": "Table read by antidiagonals: T(n,k) = sigma(gcd(n,k)).",
+  "id": "A134866",
+  "mentions": [
+    "A000203",
+    "A050873",
+    "A051731",
+    "A094471",
+    "A127093",
+    "A132442"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:22",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

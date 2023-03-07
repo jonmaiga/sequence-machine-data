@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 2^n - 2*n*A000048(n).",
+  "id": "A182256",
+  "mentions": [
+    "A000048"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:05",
+    "offset": 0,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

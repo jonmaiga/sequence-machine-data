@@ -1,0 +1,23 @@
+{
+  "description": "Symmetric array read by antidiagonals: T(m,n) = number of \"minimal connected vertex covers\" of an m X n grid, for m>=1, n>=1.",
+  "id": "A320500",
+  "mentions": [
+    "A061279",
+    "A107383",
+    "A320482",
+    "A320483",
+    "A320484",
+    "A320501"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

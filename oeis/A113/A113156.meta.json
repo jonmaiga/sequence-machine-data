@@ -1,0 +1,31 @@
+{
+  "description": "Primes such that the sum of the predecessor and successor primes is divisible by 37.",
+  "id": "A113156",
+  "mentions": [
+    "A000040",
+    "A112681",
+    "A112731",
+    "A112789",
+    "A112794",
+    "A112795",
+    "A112796",
+    "A112804",
+    "A112847",
+    "A112859",
+    "A113155",
+    "A113157",
+    "A113158"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:03",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

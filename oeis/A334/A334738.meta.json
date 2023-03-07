@@ -1,0 +1,18 @@
+{
+  "description": "Iterate function composition by applying y=abs(x) or y=x-1. a(n) is the number of functions at distance n from the identity (y=x) in the graph of all possible results.",
+  "id": "A334738",
+  "mentions": [
+    "A000045"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

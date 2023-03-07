@@ -1,0 +1,21 @@
+{
+  "description": "Smallest exponent k > 1 that sum of digits of k-th power of the n-th prime is a prime (n=1,2,...) or 0 if no such k exists",
+  "id": "A172035",
+  "mentions": [
+    "A007605",
+    "A046704",
+    "A172216"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 103,
+    "source": "oeis-entry"
+  }
+}

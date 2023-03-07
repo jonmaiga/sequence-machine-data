@@ -1,0 +1,19 @@
+{
+  "description": "Let S(k) be the set of signed differences of pairs of primes <= k. a(n) is the least k such that S(k) contains all residues mod n, or 0 if no such k exists.",
+  "id": "A109258",
+  "mentions": [
+    "A109257"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "easy",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

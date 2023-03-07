@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (k mod 3) (i.e., partial sums of A010872).",
+  "id": "A130481",
+  "mentions": [
+    "A010872",
+    "A010873",
+    "A010874",
+    "A010875",
+    "A010876",
+    "A010877",
+    "A092200",
+    "A104537",
+    "A130482",
+    "A130483",
+    "A130484"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:10:53",
+    "offset": 0,
+    "size": 73,
+    "source": "joeis"
+  }
+}

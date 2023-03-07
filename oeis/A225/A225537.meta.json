@@ -1,0 +1,25 @@
+{
+  "description": "Inverse of the Rydberg constant in meters.",
+  "id": "A225537",
+  "mentions": [
+    "A000290",
+    "A005408",
+    "A007395",
+    "A081821",
+    "A126252",
+    "A145646",
+    "A145647"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:30",
+    "offset": -7,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

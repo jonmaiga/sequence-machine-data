@@ -1,0 +1,27 @@
+{
+  "description": "Number of rooted twice-partitions of n where the composite rooted partition is constant.",
+  "id": "A301760",
+  "mentions": [
+    "A002865",
+    "A047968",
+    "A063834",
+    "A093637",
+    "A295924",
+    "A301422",
+    "A301462",
+    "A301467",
+    "A301480",
+    "A301706"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:35",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

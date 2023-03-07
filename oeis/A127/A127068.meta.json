@@ -1,0 +1,18 @@
+{
+  "description": "Let d(m, 0) = 1, d(m, 1) = m, and d(m, k) = (m - k + 1)*d(m+1, k-1) - (k-1)*(m+1) d(m+2, k-2). Sequence gives d(3,n).",
+  "id": "A127068",
+  "mentions": [
+    "A105937"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:14",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

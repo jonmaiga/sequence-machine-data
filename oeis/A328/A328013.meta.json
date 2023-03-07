@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the growth constant for the partial sums of powerful part of n (A057521).",
+  "id": "A328013",
+  "mentions": [
+    "A055231",
+    "A057521",
+    "A191622"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

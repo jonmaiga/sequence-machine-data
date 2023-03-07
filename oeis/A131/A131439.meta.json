@@ -1,0 +1,21 @@
+{
+  "description": "Inverse binomial transform of A131438 (assuming zero offset in both sequences)",
+  "id": "A131439",
+  "mentions": [
+    "A007318",
+    "A131436",
+    "A131437",
+    "A131438"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-11-11 15:41:45",
+    "offset": 1,
+    "size": 45,
+    "source": "joeis"
+  }
+}

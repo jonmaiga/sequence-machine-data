@@ -1,0 +1,20 @@
+{
+  "description": "Engel expansion of plastic constant (real root of x^3 - x - 1).",
+  "id": "A278766",
+  "mentions": [
+    "A006784",
+    "A060006",
+    "A072117"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

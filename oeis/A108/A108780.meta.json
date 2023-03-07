@@ -1,0 +1,19 @@
+{
+  "description": "Numbers n such that (n / sum of digits of n) is a golden semiprime.",
+  "id": "A108780",
+  "mentions": [
+    "A001101",
+    "A108540"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:00",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

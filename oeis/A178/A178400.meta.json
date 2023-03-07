@@ -1,0 +1,21 @@
+{
+  "description": "Sums of two primes, an array by antidiagonals.",
+  "id": "A178400",
+  "mentions": [
+    "A000040",
+    "A014092",
+    "A178431"
+  ],
+  "modified": "2023-02-27 14:38:27",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:27",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

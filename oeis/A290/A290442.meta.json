@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Catalan(n-1)*Motzkin(n).",
+  "id": "A290442",
+  "mentions": [
+    "A000108",
+    "A001006",
+    "A151341",
+    "A290443"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-03 10:05:09",
+    "offset": 1,
+    "size": 24,
+    "source": "joeis"
+  }
+}

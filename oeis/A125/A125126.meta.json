@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the angular velocity of the Earth of the World Geodetic System 1984 Ellipsoid, second upgrade.",
+  "id": "A125126",
+  "mentions": [
+    "A125123",
+    "A125124",
+    "A125125"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": -5,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

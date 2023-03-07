@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Gieseking's constant.",
+  "id": "A143298",
+  "mentions": [
+    "A049347",
+    "A242710",
+    "A244996"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

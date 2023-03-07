@@ -1,0 +1,17 @@
+{
+  "description": "The number of unordered partitions {a,b} of the odd numbers 2n-1 such that one of a and b is composite and the other is prime.",
+  "id": "A224714",
+  "mentions": [
+    "A224712"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:42",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X 2 0..4 arrays of sums of 2 X 2 subblocks of some (n+1) X 3 binary array with rows and columns of the latter in lexicographically nondecreasing order.",
+  "id": "A226988",
+  "mentions": [
+    "A226992"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 10:03:29",
+    "offset": 1,
+    "size": 31,
+    "source": "joeis"
+  }
+}

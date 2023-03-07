@@ -1,0 +1,30 @@
+{
+  "description": "Irregular triangle read by rows where T(H(u),H(v)) is the coefficient of e(v) in h(u) or, equivalently, the coefficient of h(v) in e(u), where H is Heinz number, e is elementary symmetric functions, and h is homogeneous symmetric functions.",
+  "id": "A321749",
+  "mentions": [
+    "A000041",
+    "A005651",
+    "A008480",
+    "A036987",
+    "A048994",
+    "A056239",
+    "A124794",
+    "A124795",
+    "A135278",
+    "A319191",
+    "A319193",
+    "A321742",
+    "A321765"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "sign",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of nX7 arrays of the minimum value of corresponding elements and their horizontal and vertical neighbors in a random 0..1 nX7 array",
+  "id": "A217636",
+  "mentions": [
+    "A217637"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

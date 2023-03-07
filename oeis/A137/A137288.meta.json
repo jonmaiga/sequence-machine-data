@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that 2*prime(k)-1 is prime.",
+  "id": "A137288",
+  "mentions": [
+    "A000040",
+    "A005382"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:25",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

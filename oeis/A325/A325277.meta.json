@@ -1,0 +1,31 @@
+{
+  "description": "Irregular triangle read by rows where row 1 is {1} and row n is the sequence starting with n and repeatedly applying A181819 until a prime number is reached.",
+  "id": "A325277",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A071625",
+    "A118914",
+    "A181819",
+    "A181821",
+    "A182850",
+    "A182857",
+    "A323014",
+    "A323022",
+    "A323023",
+    "A325238",
+    "A325239"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

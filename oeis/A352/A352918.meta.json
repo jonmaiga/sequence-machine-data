@@ -1,0 +1,21 @@
+{
+  "description": "Values of A109812(k) where A109812(k)/k reaches a new high point.",
+  "id": "A352918",
+  "mentions": [
+    "A109812",
+    "A352203",
+    "A352204",
+    "A352917"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

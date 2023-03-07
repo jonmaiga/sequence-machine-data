@@ -1,0 +1,34 @@
+{
+  "description": "Number of totally strong compositions of n.",
+  "id": "A332274",
+  "mentions": [
+    "A100883",
+    "A107429",
+    "A316496",
+    "A317245",
+    "A317256",
+    "A317491",
+    "A329744",
+    "A332272",
+    "A332275",
+    "A332279",
+    "A332289",
+    "A332292",
+    "A332336",
+    "A332337",
+    "A332338",
+    "A332339",
+    "A332340"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

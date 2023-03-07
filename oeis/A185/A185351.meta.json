@@ -1,0 +1,19 @@
+{
+  "description": "Sums of distinct perfect numbers.",
+  "id": "A185351",
+  "mentions": [
+    "A083865",
+    "A187794",
+    "A204879"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:10",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

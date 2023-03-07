@@ -1,0 +1,18 @@
+{
+  "description": "The lesser of two semiprime brothers.",
+  "id": "A289548",
+  "mentions": [
+    "A000040",
+    "A001358"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:03",
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

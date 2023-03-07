@@ -1,0 +1,20 @@
+{
+  "description": "Numbers of form 2^j*(4k+1), j >= 0, k >= 1.",
+  "id": "A225836",
+  "mentions": [
+    "A091067",
+    "A091072"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) = number of placements of zero or more dominoes on the m X n grid where no two empty squares are horizontally adjacent.",
+  "id": "A332862",
+  "mentions": [
+    "A000045",
+    "A000931",
+    "A005418",
+    "A007598",
+    "A032120",
+    "A054894",
+    "A288026",
+    "A329707",
+    "A332865"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:03",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

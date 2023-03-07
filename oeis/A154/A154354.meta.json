@@ -1,0 +1,18 @@
+{
+  "description": "List of primes of the form 25n^2-36n+13 with n>=0.",
+  "id": "A154354",
+  "mentions": [
+    "A154355"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 13:26:23",
+    "offset": 1,
+    "size": 35,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Conjectured first occurrence of numbers n with the property that there exist two consecutive primes p and q such that pq + n is a cube.",
+  "id": "A129829",
+  "mentions": [
+    "A129783"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:24",
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

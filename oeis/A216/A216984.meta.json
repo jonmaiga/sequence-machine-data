@@ -1,0 +1,17 @@
+{
+  "description": "Number of city-block distance 1, pressure limit 2 movements in an n X n array with each element moving exactly one horizontally or vertically, no element acquiring more than two neighbors, and without 2-loops",
+  "id": "A216984",
+  "mentions": [
+    "A216991"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:34",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

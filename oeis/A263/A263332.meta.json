@@ -1,0 +1,17 @@
+{
+  "description": "Number of (n+2)X(3+2) 0..2 arrays with each row and column divisible by 11, read as a base-3 number with top and left being the most significant digits.",
+  "id": "A263332",
+  "mentions": [
+    "A263333"
+  ],
+  "modified": "2023-02-27 14:38:33",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:23",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

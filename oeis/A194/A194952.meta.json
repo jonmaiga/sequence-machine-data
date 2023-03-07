@@ -1,0 +1,19 @@
+{
+  "description": "Number of Hamiltonian cycles in C_3 X C_n.",
+  "id": "A194952",
+  "mentions": [
+    "A270273"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:17",
+    "offset": 3,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Primes p such that 64*p + 189 is also prime.",
+  "id": "A156009",
+  "mentions": [
+    "A156004",
+    "A156005",
+    "A156007"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 19:56:03",
+    "offset": 1,
+    "size": 55,
+    "source": "joeis"
+  }
+}

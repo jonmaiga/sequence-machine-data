@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. B(x) is defined by: B(x) = 1 + Integral C(x)*A(x)^2 - C(x)^2*A(x) dx, where A(x) and C(x) are described by A278746 and A278748, respectively.",
+  "id": "A278747",
+  "mentions": [
+    "A278746",
+    "A278748"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:34",
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

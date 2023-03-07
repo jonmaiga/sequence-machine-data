@@ -1,0 +1,25 @@
+{
+  "description": "If n = Product (p_j^k_j) then a(n) = Product (a(pi(p_j)) + 1), where pi = A000720, with a(1) = 1.",
+  "id": "A328880",
+  "mentions": [
+    "A000720",
+    "A048250",
+    "A156061",
+    "A184160",
+    "A225395",
+    "A282446",
+    "A328879"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

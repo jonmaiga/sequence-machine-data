@@ -1,0 +1,17 @@
+{
+  "description": "a(0)=0. a(n) = the smallest integer of the form k^j, j>=2, such that a(n) >= a(n-1) + n.",
+  "id": "A161226",
+  "mentions": [
+    "A001597"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

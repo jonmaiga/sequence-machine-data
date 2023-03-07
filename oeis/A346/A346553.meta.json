@@ -1,0 +1,32 @@
+{
+  "description": "5-Sondow numbers: numbers k such that p^s divides k/p + 5 for every prime power divisor p^s of k.",
+  "id": "A346553",
+  "mentions": [
+    "A007850",
+    "A054377",
+    "A235137",
+    "A326715",
+    "A330068",
+    "A330069",
+    "A346551",
+    "A346552",
+    "A346554",
+    "A346555",
+    "A346556",
+    "A346557",
+    "A348058",
+    "A348059",
+    "A349193"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

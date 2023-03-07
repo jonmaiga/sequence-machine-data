@@ -1,0 +1,19 @@
+{
+  "description": "Number of rooted unlabeled trees where the root node has degree 2 and both branches are distinct.",
+  "id": "A217420",
+  "mentions": [
+    "A000055",
+    "A000081"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:35",
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

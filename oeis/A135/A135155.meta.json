@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of e*Pi*phi/5.",
+  "id": "A135155",
+  "mentions": [
+    "A131563"
+  ],
+  "modified": "2023-02-27 14:38:24",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-26 12:12:27",
+    "offset": 1,
+    "size": 105,
+    "source": "joeis"
+  }
+}

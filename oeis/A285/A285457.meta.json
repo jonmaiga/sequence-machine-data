@@ -1,0 +1,21 @@
+{
+  "description": "Least number k such that the absolute value of the difference between the number of divisors of k and k-1 is equal to n.",
+  "id": "A285457",
+  "mentions": [
+    "A000005",
+    "A051950",
+    "A086550",
+    "A285787"
+  ],
+  "modified": "2023-02-27 14:38:34",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:57",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

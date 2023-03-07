@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 40*n^2 - 1.",
+  "id": "A158598",
+  "mentions": [
+    "A005843",
+    "A158597"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:41",
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

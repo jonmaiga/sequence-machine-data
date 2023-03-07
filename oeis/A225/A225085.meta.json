@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of compositions of n with maximal up-step <= k; n>=1, 0<=k",
+  "id": "A225085",
+  "mentions": [
+    "A000041",
+    "A003116",
+    "A011782",
+    "A224959",
+    "A225084"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:43",
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "description": "Number of non-isomorphic T_0 set systems of weight n.",
+  "id": "A319559",
+  "mentions": [
+    "A007716",
+    "A007718",
+    "A049311",
+    "A053419",
+    "A056156",
+    "A059201",
+    "A283877",
+    "A305854",
+    "A306006",
+    "A316980",
+    "A317757",
+    "A319557",
+    "A319558",
+    "A319560",
+    "A319564",
+    "A319565",
+    "A319566",
+    "A319567"
+  ],
+  "modified": "2023-02-27 14:38:36",
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:36",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

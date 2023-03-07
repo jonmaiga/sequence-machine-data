@@ -1,0 +1,28 @@
+{
+  "description": "Triangle version of the array of the number of closed paths of even length on the graph P_n (n vertices, n-1 edges).",
+  "id": "A198632",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A005248",
+    "A049310",
+    "A126869",
+    "A185095",
+    "A198633",
+    "A198635",
+    "A201198"
+  ],
+  "modified": "2023-02-27 14:38:28",
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:28",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

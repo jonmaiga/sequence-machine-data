@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n with property that 4 n^2 are squares arising in A158470.",
+  "id": "A158517",
+  "mentions": [
+    "A158470"
+  ],
+  "modified": "2023-02-27 14:38:26",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:26",
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

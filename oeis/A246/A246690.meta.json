@@ -1,0 +1,47 @@
+{
+  "description": "Number A(n,k) of compositions of n into parts of the k-th list of distinct parts in the order given by A246688; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A246690",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000045",
+    "A000073",
+    "A000930",
+    "A001687",
+    "A003269",
+    "A003520",
+    "A005708",
+    "A005709",
+    "A005710",
+    "A006498",
+    "A013979",
+    "A017817",
+    "A052920",
+    "A059841",
+    "A060945",
+    "A060961",
+    "A079971",
+    "A079977",
+    "A079978",
+    "A079979",
+    "A079998",
+    "A082784",
+    "A120400",
+    "A121262",
+    "A182097",
+    "A246688",
+    "A246691",
+    "A246720"
+  ],
+  "modified": "2023-02-27 14:38:31",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:03",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

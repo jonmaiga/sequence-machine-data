@@ -1,0 +1,31 @@
+{
+  "description": "Unlucky array: Row n consists of unlucky numbers removed at the stage n of Lucky sieve.",
+  "id": "A255543",
+  "mentions": [
+    "A000959",
+    "A002260",
+    "A004736",
+    "A005408",
+    "A005843",
+    "A016969",
+    "A050505",
+    "A219178",
+    "A255127",
+    "A255544",
+    "A255545",
+    "A255549",
+    "A255550",
+    "A255551"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:13",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

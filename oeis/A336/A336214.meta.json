@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Sum_{k=0..n} k^n * binomial(n,k)^n, with a(0)=1.",
+  "id": "A336214",
+  "mentions": [
+    "A072034",
+    "A086331",
+    "A167008",
+    "A167010",
+    "A328812",
+    "A336188",
+    "A336204",
+    "A336212",
+    "A336213"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:05:07",
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

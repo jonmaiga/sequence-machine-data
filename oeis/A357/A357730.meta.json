@@ -1,0 +1,29 @@
+{
+  "description": "Number of ways to write n as an ordered sum of ten positive Fibonacci numbers (with a single type of 1).",
+  "id": "A357730",
+  "mentions": [
+    "A000045",
+    "A076739",
+    "A121548",
+    "A121549",
+    "A121550",
+    "A319403",
+    "A357688",
+    "A357690",
+    "A357691",
+    "A357694",
+    "A357716",
+    "A357717"
+  ],
+  "modified": "2023-02-27 14:38:39",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:39",
+    "offset": 10,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

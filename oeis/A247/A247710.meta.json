@@ -1,0 +1,21 @@
+{
+  "description": "Number T(n,k) of tilings of a 5 X n rectangle with pentominoes of any shape and exactly k pentominoes of shape W; triangle T(n,k), n>=0, 0<=k<=max(0,floor((n-2)/2)*2) read by rows.",
+  "id": "A247710",
+  "mentions": [
+    "A174249",
+    "A233427",
+    "A247743",
+    "A247774"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:04",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

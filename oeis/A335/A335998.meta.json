@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the arclength on xy = 1 from (1,1) to (2,1/2).",
+  "id": "A335998",
+  "mentions": [
+    "A333202"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:37",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that, among any two consecutive terms, we have a p-smooth number and a (p+1)-rough number for some p > 0.",
+  "id": "A296423",
+  "mentions": [
+    "A006530",
+    "A020639",
+    "A296424"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:16",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

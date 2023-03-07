@@ -1,0 +1,31 @@
+{
+  "description": "Number of aperiodic n-gons.",
+  "id": "A324512",
+  "mentions": [
+    "A000740",
+    "A008965",
+    "A027375",
+    "A059966",
+    "A060223",
+    "A192332",
+    "A275527",
+    "A323860",
+    "A323867",
+    "A323869",
+    "A324461",
+    "A324462",
+    "A324513",
+    "A324514"
+  ],
+  "modified": "2023-02-27 14:38:37",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:04:50",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

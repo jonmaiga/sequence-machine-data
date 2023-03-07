@@ -1,0 +1,23 @@
+{
+  "description": "Sum of even digits (0,2,4,6,8) of n-th prime.",
+  "id": "A104261",
+  "mentions": [
+    "A000040",
+    "A007605",
+    "A104250",
+    "A104251",
+    "A104260"
+  ],
+  "modified": "2023-02-27 14:38:23",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:23",
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

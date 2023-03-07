@@ -1,0 +1,19 @@
+{
+  "description": "Smallest number > 3 whose representation in all bases from 2 up to n consists only of '0's, '1's, '2's and '3's.",
+  "id": "A342348",
+  "mentions": [
+    "A258107"
+  ],
+  "modified": "2023-02-27 14:38:38",
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:38",
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

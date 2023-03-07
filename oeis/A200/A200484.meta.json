@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of least x>0 satisfying x^2-2x+4=tan(x).",
+  "id": "A200484",
+  "mentions": [
+    "A200338"
+  ],
+  "modified": "2023-02-27 14:38:29",
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-05-16 12:47:57",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

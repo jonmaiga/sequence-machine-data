@@ -1,0 +1,21 @@
+{
+  "description": "Least m >= 0 which when added to primorial(n) yields a square.",
+  "id": "A145781",
+  "mentions": [
+    "A002110",
+    "A215658",
+    "A215659",
+    "A216144"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:01:33",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

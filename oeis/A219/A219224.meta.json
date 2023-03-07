@@ -1,0 +1,21 @@
+{
+  "description": "G.f.: exp( Sum_{n>=1} A005063(n)*x^n/n ), where A005063(n) = sum of squares of primes dividing n.",
+  "id": "A219224",
+  "mentions": [
+    "A000607",
+    "A005063",
+    "A061397",
+    "A220427",
+    "A358369"
+  ],
+  "modified": "2023-02-27 14:38:30",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:02:37",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

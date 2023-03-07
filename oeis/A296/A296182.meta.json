@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of (2 + phi)/2, with the golden section phi from A001622.",
+  "id": "A296182",
+  "mentions": [
+    "A001622",
+    "A019863"
+  ],
+  "modified": "2023-02-27 14:38:35",
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2022-04-28 07:32:27",
+    "offset": 1,
+    "size": 99,
+    "source": "joeis"
+  }
+}

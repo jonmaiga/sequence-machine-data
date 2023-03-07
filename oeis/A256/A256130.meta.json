@@ -1,0 +1,36 @@
+{
+  "description": "Number T(n,k) of partitions of n into parts of exactly k sorts which are introduced in ascending order; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A256130",
+  "mentions": [
+    "A000007",
+    "A000041",
+    "A000142",
+    "A246935",
+    "A255970",
+    "A258457",
+    "A258458",
+    "A258459",
+    "A258460",
+    "A258461",
+    "A258462",
+    "A258463",
+    "A258464",
+    "A258465",
+    "A258466",
+    "A258467",
+    "A262495",
+    "A319730"
+  ],
+  "modified": "2023-02-27 14:38:32",
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-02-27 17:03:14",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

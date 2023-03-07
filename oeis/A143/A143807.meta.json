@@ -1,0 +1,18 @@
+{
+  "description": "Number of geodesics between a pair of perfect states in the Tower of Hanoi with 4 pegs and n disks.",
+  "id": "A143807",
+  "mentions": [
+    "A007664"
+  ],
+  "modified": "2023-02-27 14:38:25",
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-02-27 14:38:25",
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}
