@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k that are neither prime powers nor squarefree, such that A007947(k) * A053669(k) < k.",
+  "id": "A360765",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A007947",
+    "A053669",
+    "A126706",
+    "A246547"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

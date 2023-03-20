@@ -1,0 +1,23 @@
+{
+  "description": "Products of exactly 7 distinct odd primes.",
+  "id": "A361075",
+  "mentions": [
+    "A046388",
+    "A046389",
+    "A046390",
+    "A046391",
+    "A065091",
+    "A168352"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

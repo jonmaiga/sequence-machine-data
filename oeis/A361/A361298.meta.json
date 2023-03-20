@@ -1,0 +1,20 @@
+{
+  "description": "Second differences of the overpartitions.",
+  "id": "A361298",
+  "mentions": [
+    "A015128",
+    "A211971"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 2,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

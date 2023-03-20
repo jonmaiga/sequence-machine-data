@@ -2,18 +2,20 @@
   "description": "Number of series-reduced star graphs with n edges.",
   "id": "A002935",
   "mentions": [
-    "A046752"
+    "A046752",
+    "A360879"
   ],
-  "modified": "2023-02-27 14:38:16",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "more",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
+    "modified": "2023-03-14 10:34:47",
     "offset": 3,
-    "size": 15,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

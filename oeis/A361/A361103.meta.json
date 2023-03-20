@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = k such that A360519(k) = A361102(n), or -1 if A361102(n) never appears in A360519.",
+  "id": "A361103",
+  "mentions": [
+    "A336957",
+    "A360519",
+    "A361102",
+    "A361104"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

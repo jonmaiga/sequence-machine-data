@@ -1,0 +1,24 @@
+{
+  "description": "Number of colorings of the n X n knight graph up to permutation of the colors.",
+  "id": "A361453",
+  "mentions": [
+    "A000110",
+    "A207863",
+    "A208001",
+    "A289136",
+    "A295178"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

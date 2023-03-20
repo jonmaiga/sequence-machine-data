@@ -1,0 +1,20 @@
+{
+  "description": "Array T(n,m) = (2^(m*(2*n+1))+1)/(2^m+1) read by antidiagonals.",
+  "id": "A360967",
+  "mentions": [
+    "A007583",
+    "A299960"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

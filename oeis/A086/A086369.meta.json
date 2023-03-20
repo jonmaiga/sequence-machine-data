@@ -2,10 +2,13 @@
   "description": "Number of factors over Q in the factorization of T_n(x) - 1 where T_n(x) is the Chebyshev polynomial of the first kind.",
   "id": "A086369",
   "mentions": [
+    "A023645",
     "A086374"
   ],
-  "modified": "2023-02-27 14:38:21",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
+    "formulas",
     "nonn"
   ],
   "terms": {

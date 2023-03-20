@@ -1,0 +1,22 @@
+{
+  "description": "Squared length of diagonal of right trapezoid with three consecutive prime length sides.",
+  "id": "A360790",
+  "mentions": [
+    "A001248",
+    "A076821",
+    "A106171",
+    "A131019"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

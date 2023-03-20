@@ -1,0 +1,23 @@
+{
+  "description": "Sum of the j-th number with binary weight n-j+1 over all j in [n].",
+  "id": "A361074",
+  "mentions": [
+    "A000120",
+    "A057168",
+    "A066884",
+    "A067576"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "base",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

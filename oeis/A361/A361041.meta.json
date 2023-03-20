@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 1680*(3*n)!/(n!*(2*n + 4)!).",
+  "id": "A361041",
+  "mentions": [
+    "A000139",
+    "A001764",
+    "A005809",
+    "A348893",
+    "A361039",
+    "A361040"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

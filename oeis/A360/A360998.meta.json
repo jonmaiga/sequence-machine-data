@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of tilings of an n X k rectangle by integer-sided rectangular pieces that cannot be rearranged to produce a different tiling of the rectangle (including rotations and reflections of the original tiling), 1 <= k <= n.",
+  "id": "A360998",
+  "mentions": [
+    "A000005",
+    "A115360",
+    "A360629",
+    "A360999",
+    "A361000",
+    "A361001"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "more",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

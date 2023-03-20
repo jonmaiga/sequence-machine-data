@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = number of numbers k < n, with gcd(k, n) > 1, such that there is at least one prime divisor p | k that does not divide n, and at least one prime divisor q | n that does not divide k.",
+  "id": "A360480",
+  "mentions": [
+    "A002110",
+    "A007947",
+    "A010846",
+    "A024619",
+    "A051953",
+    "A120944",
+    "A126706",
+    "A243823",
+    "A272619",
+    "A286708"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

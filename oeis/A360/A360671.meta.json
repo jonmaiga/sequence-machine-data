@@ -1,0 +1,29 @@
+{
+  "description": "Number of multisets whose right half (inclusive) sums to n.",
+  "id": "A360671",
+  "mentions": [
+    "A000041",
+    "A347044",
+    "A360672",
+    "A360673",
+    "A360675",
+    "A360679",
+    "A360954",
+    "A360955",
+    "A360956",
+    "A361200",
+    "A361201"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

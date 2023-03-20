@@ -1,0 +1,25 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of idempotent Boolean relation matrices on [n] with exactly k reflexive points, n >= 0, 0 <= k <= n.",
+  "id": "A360984",
+  "mentions": [
+    "A000798",
+    "A027471",
+    "A121337",
+    "A245767"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

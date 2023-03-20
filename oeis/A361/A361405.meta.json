@@ -1,0 +1,20 @@
+{
+  "description": "Number of graphs with loops on 2n unlabeled vertices with n loops.",
+  "id": "A361405",
+  "mentions": [
+    "A007139",
+    "A361404"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

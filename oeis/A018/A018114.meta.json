@@ -2,8 +2,10 @@
   "description": "Powers of fourth root of 24 rounded down.",
   "id": "A018114",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
+    "formulas",
     "nonn"
   ],
   "terms": {

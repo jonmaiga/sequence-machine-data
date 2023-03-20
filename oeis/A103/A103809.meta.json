@@ -2,10 +2,9 @@
   "description": "Primes from merging of 5 successive digits in decimal expansion of the Golden Ratio, (1+sqrt(5))/2.",
   "id": "A103809",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
-    "changed",
     "nonn"
   ],
   "terms": {

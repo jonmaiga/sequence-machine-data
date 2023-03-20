@@ -1,19 +1,19 @@
 {
-  "description": "Number of Fermat pseudoprimes between 2^n and 2^(n+1) that are not Carmichael numbers.",
+  "description": "Number of Fermat pseudoprimes to base 2 between 2^n and 2^(n+1) that are not Carmichael numbers.",
   "id": "A252943",
   "mentions": [
     "A001567",
     "A182490"
   ],
-  "modified": "2023-02-27 14:38:32",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "more",
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
+    "modified": "2023-03-14 10:44:27",
     "offset": 1,
-    "size": 21,
-    "source": "oeis-entry"
+    "size": 50,
+    "source": "oeis-bfile"
   }
 }

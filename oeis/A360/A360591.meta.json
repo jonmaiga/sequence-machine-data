@@ -1,0 +1,21 @@
+{
+  "description": "Primes in A360464.",
+  "id": "A360591",
+  "mentions": [
+    "A000040",
+    "A360464"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "fini",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

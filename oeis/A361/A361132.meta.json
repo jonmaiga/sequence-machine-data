@@ -1,0 +1,26 @@
+{
+  "description": "Multiplicative with a(p^e) = e^4, p prime and e > 0.",
+  "id": "A361132",
+  "mentions": [
+    "A005361",
+    "A082695",
+    "A322328",
+    "A360969",
+    "A360970",
+    "A361148",
+    "A361179"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "mult",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

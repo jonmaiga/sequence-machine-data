@@ -1,0 +1,19 @@
+{
+  "description": "Primes prime(k) such that ( 9*(prime(k-1) - prime(k-2)) ) | (prime(k)^3 + 1).",
+  "id": "A360542",
+  "mentions": [
+    "A000040",
+    "A030078"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

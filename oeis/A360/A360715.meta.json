@@ -1,0 +1,21 @@
+{
+  "description": "Number of self-avoiding paths with nodes chosen among n given points on a circle; one-node paths are allowed.",
+  "id": "A360715",
+  "mentions": [
+    "A001792",
+    "A261064"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

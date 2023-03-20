@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest positive number not among the terms between a(n-1) and the previous most recent occurrence of a(n-1) inclusive; if a(n-1) is a first occurrence, set a(n)=1; a(1)=1.",
+  "id": "A361172",
+  "mentions": [
+    "A002024",
+    "A060432",
+    "A358921",
+    "A361101"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

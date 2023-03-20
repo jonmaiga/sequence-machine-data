@@ -2,7 +2,7 @@
   "description": "One of the basic cycles in the x->3x-1 (x odd) or x/2 (x even) problem.",
   "id": "A003079",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
     "easy",
     "nonn"

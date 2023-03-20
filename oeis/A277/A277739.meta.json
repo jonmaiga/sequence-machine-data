@@ -1,16 +1,19 @@
 {
-  "description": "Number of link shadows with n crossings.",
+  "description": "Number of isomorphism classes of connected plane 4-regular multigraphs.",
   "id": "A277739",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:33",
+  "mentions": [
+    "A054935"
+  ],
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
+    "modified": "2023-03-14 10:34:48",
     "offset": 1,
-    "size": 10,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

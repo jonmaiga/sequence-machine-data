@@ -1,0 +1,21 @@
+{
+  "description": "Number of idempotent Boolean relation matrices on [n] that have no proper primitive power.",
+  "id": "A360718",
+  "mentions": [
+    "A001831",
+    "A002031",
+    "A121337",
+    "A360743"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

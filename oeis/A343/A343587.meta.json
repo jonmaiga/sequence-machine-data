@@ -6,16 +6,17 @@
     "A105546",
     "A296547"
   ],
-  "modified": "2023-02-27 14:38:38",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
+    "modified": "2023-03-14 10:44:31",
     "offset": 1,
-    "size": 69,
-    "source": "oeis-entry"
+    "size": 87,
+    "source": "oeis-bfile"
   }
 }

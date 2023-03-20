@@ -1,0 +1,20 @@
+{
+  "description": "Dirichlet inverse of Thue-Morse sequence, A010060.",
+  "id": "A361017",
+  "mentions": [
+    "A010060",
+    "A361018"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

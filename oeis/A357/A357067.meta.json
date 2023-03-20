@@ -1,5 +1,5 @@
 {
-  "description": "Decimial expansion of the limit of A091411(k)/2^(k-1) as k goes to infinity.",
+  "description": "Decimal expansion of the limit of A091411(k)/2^(k-1) as k goes to infinity.",
   "id": "A357067",
   "mentions": [
     "A090822",
@@ -9,15 +9,16 @@
     "A357066",
     "A357068"
   ],
-  "modified": "2023-02-27 14:38:39",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "cons",
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
+    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 46,
     "source": "oeis-entry"

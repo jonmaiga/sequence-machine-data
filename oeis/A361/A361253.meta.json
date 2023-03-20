@@ -1,0 +1,24 @@
+{
+  "description": "If n = m^2 for some m > 1 then a(n) = a(m), otherwise a(n) = n.",
+  "id": "A361253",
+  "mentions": [
+    "A000037",
+    "A001146",
+    "A011764",
+    "A097448",
+    "A176594"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

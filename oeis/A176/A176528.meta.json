@@ -2,9 +2,8 @@
   "description": "a(2*n) = n*a(n); a(2*n+1) = n*a(n) + a(n+1), with a(1) = 1.",
   "id": "A176528",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "formulas",
     "nonn"
   ],

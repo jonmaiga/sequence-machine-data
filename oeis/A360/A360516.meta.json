@@ -1,0 +1,21 @@
+{
+  "description": "Number of 2-color vertex orderings of the labeled path graph on n vertices.",
+  "id": "A360516",
+  "mentions": [
+    "A360514",
+    "A360515",
+    "A360517"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "description": "Number of finite even-length multisets of positive integers whose right half sums to n.",
+  "id": "A360956",
+  "mentions": [
+    "A000041",
+    "A347043",
+    "A347044",
+    "A360671",
+    "A360672",
+    "A360673",
+    "A360674",
+    "A360675",
+    "A360676",
+    "A360677",
+    "A360678",
+    "A360679",
+    "A360954",
+    "A360955",
+    "A361200",
+    "A361201"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

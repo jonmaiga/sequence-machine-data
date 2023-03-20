@@ -1,18 +1,18 @@
 {
-  "description": "Ending prime: where number of consecutive squares m^2 satisfy r=p+4*m^2, prime",
+  "description": "Ending prime: where number of consecutive squares m^2 satisfy r = p + 4*m^2, prime.",
   "id": "A145898",
   "mentions": [
     "A145741",
     "A145896",
     "A145897"
   ],
-  "modified": "2023-02-27 14:38:25",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
+    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

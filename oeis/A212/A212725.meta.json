@@ -1,11 +1,12 @@
 {
-  "description": "Number of 0..2 arrays of length n+7 with sum less than 8 in any length 8 subsequence (=less than 50% duty cycle)",
+  "description": "Number of 0..2 arrays of length n+7 with sum less than 8 in any length 8 subsequence (=less than 50% duty cycle).",
   "id": "A212725",
   "mentions": [
     "A212729"
   ],
-  "modified": "2023-02-27 14:38:29",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {

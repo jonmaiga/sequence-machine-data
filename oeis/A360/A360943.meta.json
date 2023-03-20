@@ -1,0 +1,24 @@
+{
+  "description": "Number of ways to tile an n X n square using rectangles with distinct dimensions where no rectangle has an edge length that divides n.",
+  "id": "A360943",
+  "mentions": [
+    "A004003",
+    "A182275",
+    "A360256",
+    "A360499",
+    "A360773",
+    "A360804"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

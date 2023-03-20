@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of graphs with loops on n unlabeled vertices with k loops.",
+  "id": "A361404",
+  "mentions": [
+    "A000088",
+    "A000666",
+    "A303829",
+    "A361361",
+    "A361405"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

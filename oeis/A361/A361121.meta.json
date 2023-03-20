@@ -1,0 +1,20 @@
+{
+  "description": "1 if n-th composite number A002808(n) is even, otherwise 0.",
+  "id": "A361121",
+  "mentions": [
+    "A002808",
+    "A181923",
+    "A361113"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,8 @@
 {
-  "description": "Number of rows in which n appears in Pascal's triangle (A007318).",
+  "description": "Number of rows in which n appears in Pascal's triangle A007318.",
   "id": "A059233",
   "mentions": [
+    "A000984",
     "A003015",
     "A003016",
     "A007318",
@@ -9,9 +10,11 @@
     "A180058",
     "A182237"
   ],
-  "modified": "2023-02-27 14:38:20",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "easy",
+    "formulas",
     "nice",
     "nonn"
   ],

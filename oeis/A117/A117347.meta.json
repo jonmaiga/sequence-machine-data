@@ -1,20 +1,27 @@
 {
-  "description": "Near-multiperfects with primes excluded, abs(sigma(m) mod m) <= log (m).",
+  "description": "Near-multiperfects with primes excluded, abs(sigma(m) mod m) <= log(m).",
   "id": "A117347",
   "mentions": [
     "A045768",
+    "A045769",
     "A045770",
     "A077374",
     "A087167",
     "A087485",
     "A088007",
+    "A088008",
+    "A088009",
+    "A088010",
+    "A088011",
     "A088012",
     "A117346",
     "A117348",
+    "A117349",
     "A117350"
   ],
-  "modified": "2023-02-27 14:38:23",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],

@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f. satisfies A(x) = exp(x*A(x)^3) / (1-x).",
+  "id": "A360609",
+  "mentions": [
+    "A052752",
+    "A352410",
+    "A360601",
+    "A361182"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

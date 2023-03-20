@@ -1,0 +1,19 @@
+{
+  "description": "Number of chordless cycles in the n-hypercube graph Q_n.",
+  "id": "A361149",
+  "mentions": [
+    "A000937"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

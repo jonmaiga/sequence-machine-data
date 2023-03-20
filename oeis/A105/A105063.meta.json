@@ -1,20 +1,21 @@
 {
-  "description": "Define a(1)=0, a(2)=0, a(3)=8, a(4)=24 and then a(n)=66*a(n-2)+32-a(n-4).",
+  "description": "a(1)=0, a(2)=0, a(3)=8, a(4)=24, a(n) = 32 + 66*a(n-2) - a(n-4) for n > 4.",
   "id": "A105063",
   "mentions": [
     "A001090",
     "A103200"
   ],
-  "modified": "2023-02-27 14:38:23",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 15:58:00",
+    "modified": "2023-03-14 10:44:24",
     "offset": 1,
     "size": 21,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

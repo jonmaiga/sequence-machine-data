@@ -3,17 +3,19 @@
   "id": "A108509",
   "mentions": [
     "A108506",
+    "A108507",
     "A108508"
   ],
-  "modified": "2023-02-27 14:38:23",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "easy",
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
+    "modified": "2023-03-14 10:34:47",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

@@ -1,0 +1,26 @@
+{
+  "description": "a(1) = 1, a(2) = 3; for n > 2, a(n) is the smallest positive number which has not appeared that shares a factor with |a(n-1) - a(n-2)| while the difference |a(n) - a(n-1)| is distinct from all previous differences |a(i) - a(i-1)|, i=2..n-1.",
+  "id": "A359799",
+  "mentions": [
+    "A337136",
+    "A352763",
+    "A353989",
+    "A354087",
+    "A354687",
+    "A354727",
+    "A354753",
+    "A354755",
+    "A361314"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

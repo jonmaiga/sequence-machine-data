@@ -1,0 +1,22 @@
+{
+  "description": "Let d = A096567(n) be the first digit to appear n times in the decimal expansion of Pi; if d is the m-th digit of Pi, a(n) = m.",
+  "id": "A361131",
+  "mentions": [
+    "A000796",
+    "A096567",
+    "A276992",
+    "A361434"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

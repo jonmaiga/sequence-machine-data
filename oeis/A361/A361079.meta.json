@@ -1,0 +1,25 @@
+{
+  "description": "Number of integers in [n .. 2n-1] having the same binary weight as n.",
+  "id": "A361079",
+  "mentions": [
+    "A000079",
+    "A000120",
+    "A057168",
+    "A068076",
+    "A263017"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

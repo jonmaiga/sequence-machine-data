@@ -2,15 +2,16 @@
   "description": "Numbers ending with '8' that are the difference of two positive cubes.",
   "id": "A038863",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:49",
+    "modified": "2022-05-07 18:45:00",
     "offset": 1,
     "size": 41,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "Numbers appearing on the upper face of a die as a result of its turning over the edge while it rolls along the square spiral of natural numbers.",
+  "id": "A361136",
+  "mentions": [],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

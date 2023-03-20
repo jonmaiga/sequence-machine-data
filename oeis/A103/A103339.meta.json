@@ -2,6 +2,7 @@
   "description": "Numerator of the unitary harmonic mean (i.e., the harmonic mean of the unitary divisors) of the positive integer n.",
   "id": "A103339",
   "mentions": [
+    "A005117",
     "A006086",
     "A006087",
     "A034444",
@@ -11,8 +12,10 @@
     "A099378",
     "A103340"
   ],
-  "modified": "2023-02-27 14:38:23",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
+    "formulas",
     "frac",
     "nonn"
   ],

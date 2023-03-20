@@ -1,0 +1,20 @@
+{
+  "description": "Number of 2-color vertex orderings of the labeled cycle graph on 2*n vertices.",
+  "id": "A360517",
+  "mentions": [
+    "A360514",
+    "A360515",
+    "A360516"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers whose base 3 representation contains no 2.",
+  "description": "Numbers whose base-3 representation contains no 2.",
   "id": "A005836",
   "mentions": [
     "A000012",
@@ -70,9 +70,10 @@
     "A170943",
     "A185256"
   ],
-  "modified": "2023-02-27 14:38:16",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
+    "changed",
     "easy",
     "formulas",
     "nice",

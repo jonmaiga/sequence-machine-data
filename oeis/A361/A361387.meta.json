@@ -1,0 +1,24 @@
+{
+  "description": "Infinitary arithmetic numbers k whose mean infinitary divisor is an infinitary divisor of k.",
+  "id": "A361387",
+  "mentions": [
+    "A007340",
+    "A037445",
+    "A049417",
+    "A063947",
+    "A077609",
+    "A353039",
+    "A361386"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

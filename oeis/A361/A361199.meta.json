@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n >=3, a(n) is the number of primes in a(n-1), a(n-1) + a(n-2), ..., a(n-1) + a(n-2) + ... + a(1).",
+  "id": "A361199",
+  "mentions": [
+    "A000040",
+    "A361178",
+    "A361231"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

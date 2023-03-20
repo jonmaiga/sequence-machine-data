@@ -1,0 +1,25 @@
+{
+  "description": "a(0) = 0; a(n) = ( (n + sqrt(n))^n - (n - sqrt(n))^n )/(2 * sqrt(n)).",
+  "id": "A360766",
+  "mentions": [
+    "A007070",
+    "A030192",
+    "A084062",
+    "A093145",
+    "A154237",
+    "A361290"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

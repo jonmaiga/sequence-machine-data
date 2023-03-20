@@ -1,15 +1,17 @@
 {
   "description": "(1/n)*(binomial(2n,n)-2^n) as n runs through the primes.",
   "id": "A087813",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:22",
+  "mentions": [
+    "A000040"
+  ],
+  "modified": "2023-03-14 10:34:47",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
+    "modified": "2023-03-14 10:34:47",
     "offset": 1,
-    "size": 14,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

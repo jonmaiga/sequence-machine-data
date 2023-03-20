@@ -1,0 +1,32 @@
+{
+  "description": "Square array T(n,k), n >= 0, k >= 0, read by antidiagonals downwards, where T(n,k) is carryless n^k base 10.",
+  "id": "A361390",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000689",
+    "A001148",
+    "A001477",
+    "A004248",
+    "A059729",
+    "A059734",
+    "A168428",
+    "A169885",
+    "A169886",
+    "A359697",
+    "A361351"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "base",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

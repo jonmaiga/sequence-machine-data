@@ -2,10 +2,13 @@
   "description": "a(n) = n! * [x^n] exp(x/(1 - x)^n).",
   "id": "A293013",
   "mentions": [
-    "A293012"
+    "A293012",
+    "A361281"
   ],
-  "modified": "2023-02-27 14:38:34",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
+    "easy",
     "formulas",
     "nonn"
   ],

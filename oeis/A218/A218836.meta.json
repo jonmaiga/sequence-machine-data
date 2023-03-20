@@ -1,11 +1,12 @@
 {
-  "description": "Unmatched value maps: number of nX2 binary arrays indicating the locations of corresponding elements not equal to any horizontal or antidiagonal neighbor in a random 0..1 nX2 array.",
+  "description": "Unmatched value maps: number of n X 2 binary arrays indicating the locations of corresponding elements not equal to any horizontal or antidiagonal neighbor in a random 0..1 n X 2 array.",
   "id": "A218836",
   "mentions": [
     "A218842"
   ],
-  "modified": "2023-02-27 14:38:30",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"

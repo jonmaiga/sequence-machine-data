@@ -1,0 +1,44 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of integer partitions of n whose right half (exclusive) sums to k, where k ranges from 0 to n.",
+  "id": "A360675",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A008284",
+    "A027193",
+    "A237363",
+    "A307683",
+    "A325347",
+    "A347043",
+    "A347044",
+    "A359893",
+    "A359901",
+    "A360005",
+    "A360071",
+    "A360254",
+    "A360616",
+    "A360671",
+    "A360672",
+    "A360673",
+    "A360674",
+    "A360676",
+    "A360677",
+    "A360678",
+    "A360679",
+    "A360953",
+    "A361200",
+    "A361201"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

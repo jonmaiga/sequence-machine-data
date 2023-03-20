@@ -9,7 +9,7 @@
     "A085725",
     "A250294"
   ],
-  "modified": "2023-02-27 14:38:32",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
     "changed",
     "formulas",
@@ -18,9 +18,9 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
+    "modified": "2023-03-14 10:34:48",
     "offset": 1,
-    "size": 18,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

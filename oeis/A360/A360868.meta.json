@@ -1,0 +1,24 @@
+{
+  "description": "Number of unlabeled connected loopless multigraphs with circuit rank n and degree >= 3 at each node.",
+  "id": "A360868",
+  "mentions": [
+    "A360864",
+    "A360866",
+    "A360867",
+    "A360879"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

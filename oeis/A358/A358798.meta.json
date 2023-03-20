@@ -2,9 +2,8 @@
   "description": "a(1) = 2, a(2) = 3; for n > 2, a(n) is the smallest prime that can be appended to the sequence so that the smallest even number >= 4 that cannot be generated as the sum of two (not necessarily distinct) terms from {a(1), ..., a(n-1)} can be generated from {a(1), ..., a(n)}.",
   "id": "A358798",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "new",
     "nonn"
   ],
   "terms": {

@@ -9,14 +9,13 @@
     "A136341",
     "A279021"
   ],
-  "modified": "2023-02-27 14:38:34",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
+    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 73,
     "source": "oeis-entry"

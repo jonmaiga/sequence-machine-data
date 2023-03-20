@@ -1,5 +1,5 @@
 {
-  "description": "Super-Catalan triangle (read by rows) = triangular array associated with little Schroeder numbers (read by rows): T(0,0)=1, T(p,q)=T(p,q-1) if 0",
+  "description": "Super-Catalan triangle (read by rows) = triangular array associated with little Schroeder numbers (read by rows): T(0,0)=1, T(p,q) = T(p,q-1) if 0 < p = q, T(p,q) = T(p,q-1) + T(p-1,q) + T(p-1,q-1) if -1 < p < q and T(p,q) = 0 otherwise.",
   "id": "A144944",
   "mentions": [
     "A001003",
@@ -7,10 +7,14 @@
     "A009766",
     "A010683",
     "A033877",
-    "A186826"
+    "A186826",
+    "A239204",
+    "A247623"
   ],
-  "modified": "2023-02-27 14:38:25",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
+    "formulas",
     "nice",
     "nonn",
     "tabl"

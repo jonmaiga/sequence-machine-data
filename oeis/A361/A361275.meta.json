@@ -1,0 +1,24 @@
+{
+  "description": "Number of 1423-avoiding even Grassmannian permutations of size n.",
+  "id": "A361275",
+  "mentions": [
+    "A005993",
+    "A356185",
+    "A361272",
+    "A361273",
+    "A361274"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

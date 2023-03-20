@@ -2,8 +2,9 @@
   "description": "a(n) = 103*(n-1)-a(n-1) with n>1, a(1)=38.",
   "id": "A177044",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"

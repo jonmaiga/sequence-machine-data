@@ -1,0 +1,25 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that the sums Sum_{i = 1+k*2^e..(k+1)*2^e} a(i) with k, e >= 0 are all distinct.",
+  "id": "A361144",
+  "mentions": [
+    "A326936",
+    "A360305",
+    "A361146",
+    "A361189",
+    "A361191",
+    "A361227",
+    "A361234"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

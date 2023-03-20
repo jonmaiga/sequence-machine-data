@@ -1,16 +1,20 @@
 {
   "description": "Avoiding the pattern 11'22'. To avoid 11'22' means not to have four consecutive letters such that the first letter is less than the third one and the second letter is less than the fourth one.",
   "id": "A177470",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:27",
+  "mentions": [
+    "A177471",
+    "A177476"
+  ],
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
+    "modified": "2023-03-14 10:34:48",
     "offset": 1,
-    "size": 9,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

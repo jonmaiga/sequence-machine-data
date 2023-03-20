@@ -1,0 +1,22 @@
+{
+  "description": "Maximum difficulty level (see A361424 for the definition) for tiling an n X 2 rectangle with a set of integer-sided rectangles, rounded down to the nearest integer.",
+  "id": "A361426",
+  "mentions": [
+    "A360631",
+    "A361218",
+    "A361224",
+    "A361424"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

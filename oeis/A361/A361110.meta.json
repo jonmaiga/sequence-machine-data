@@ -1,0 +1,21 @@
+{
+  "description": "a(n) indicates the index of A361109 in C (A361102).",
+  "id": "A361110",
+  "mentions": [
+    "A360519",
+    "A361102",
+    "A361109",
+    "A361111"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

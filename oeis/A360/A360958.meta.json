@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Sum_{i>=1} 1/Fibonacci(3*i).",
+  "id": "A360958",
+  "mentions": [
+    "A014445",
+    "A079586",
+    "A153386",
+    "A360957"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "cons",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

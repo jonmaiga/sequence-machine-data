@@ -1,0 +1,20 @@
+{
+  "description": "Number of chordless cycles in the n X n rook complement graph.",
+  "id": "A361185",
+  "mentions": [
+    "A070968",
+    "A360854"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

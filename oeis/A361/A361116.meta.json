@@ -1,0 +1,21 @@
+{
+  "description": "a(n)=0 if A361102(n) is divisible by 3, otherwise 1.",
+  "id": "A361116",
+  "mentions": [
+    "A361102",
+    "A361113",
+    "A361114",
+    "A361115"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

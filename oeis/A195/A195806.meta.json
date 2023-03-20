@@ -1,11 +1,13 @@
 {
-  "description": "Number of triangular of a 5X5X5 0..n arrays with all rows and diagonals having the same length having the same sum, with corners zero",
+  "description": "Number of triangular of a 5 X 5 X 5 0..n arrays with all rows and diagonals having the same length having the same sum, with corners zero.",
   "id": "A195806",
   "mentions": [
     "A195805"
   ],
-  "modified": "2023-02-27 14:38:28",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,18 +1,19 @@
 {
-  "description": "Odd numbers n for which 23 is the smallest i (>= 1) with Jacobi symbol J(i,n) getting either a value 0 or -1.",
+  "description": "Odd numbers k for which 23 is the smallest positive i with Jacobi symbol J(i,k) != 1.",
   "id": "A112079",
   "mentions": [
     "A112069",
     "A112070"
   ],
-  "modified": "2023-02-27 14:38:23",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
     "modified": "2023-02-27 17:01:02",
     "offset": 1,
-    "size": 30,
+    "size": 35,
     "source": "oeis-bfile"
   }
 }

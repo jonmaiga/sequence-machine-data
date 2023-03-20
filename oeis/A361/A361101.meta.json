@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest positive number not among the terms in a(1..n-1) with index a(n-1)*k for any integer k; a(1)=1.",
+  "id": "A361101",
+  "mentions": [
+    "A358921",
+    "A361172"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

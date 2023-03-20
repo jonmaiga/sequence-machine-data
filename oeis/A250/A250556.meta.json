@@ -1,15 +1,17 @@
 {
-  "description": "Number of length n+2 0..3 arrays with the sum of second differences multiplied by some arrangement of +-1 equal to zero",
+  "description": "Number of length n+2 0..3 arrays with the sum of second differences multiplied by some arrangement of +-1 equal to zero.",
   "id": "A250556",
   "mentions": [
     "A250561"
   ],
-  "modified": "2023-02-27 14:38:32",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:07",
+    "modified": "2023-03-14 10:44:27",
     "offset": 1,
     "size": 22,
     "source": "oeis-bfile"

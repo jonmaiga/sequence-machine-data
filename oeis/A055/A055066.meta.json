@@ -1,5 +1,5 @@
 {
-  "description": "Number of 7-covers of an n-set.",
+  "description": "Number of 7-covers of an unlabeled n-set.",
   "id": "A055066",
   "mentions": [
     "A002620",
@@ -7,16 +7,19 @@
     "A005783",
     "A005784",
     "A005785",
-    "A005786"
+    "A005786",
+    "A028657",
+    "A055080"
   ],
-  "modified": "2023-02-27 14:38:20",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-11-11 15:41:41",
+    "modified": "2023-03-14 10:44:22",
     "offset": 0,
-    "size": 17,
-    "source": "joeis"
+    "size": 21,
+    "source": "oeis-bfile"
   }
 }

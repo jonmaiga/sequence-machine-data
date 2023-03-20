@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least k such that A360519(k) is divisible by the n-th prime number.",
+  "id": "A361117",
+  "mentions": [
+    "A360519"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

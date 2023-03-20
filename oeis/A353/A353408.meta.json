@@ -2,14 +2,15 @@
   "description": "a(n) is the least new prime number such that a(n) + a(n-1) is a semiprime.",
   "id": "A353408",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
+    "modified": "2023-03-14 10:44:31",
     "offset": 1,
     "size": 63,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

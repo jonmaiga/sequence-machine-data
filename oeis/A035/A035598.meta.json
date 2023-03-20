@@ -2,6 +2,9 @@
   "description": "Number of points of L1 norm 4 in cubic lattice Z^n.",
   "id": "A035598",
   "mentions": [
+    "A001845",
+    "A001846",
+    "A008412",
     "A014820",
     "A035596",
     "A035597",
@@ -13,10 +16,16 @@
     "A035604",
     "A035605",
     "A035606",
-    "A035607"
+    "A035607",
+    "A113413",
+    "A119800",
+    "A122542",
+    "A266213",
+    "A343599"
   ],
-  "modified": "2023-02-27 14:38:18",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"

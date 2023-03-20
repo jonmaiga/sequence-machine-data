@@ -1,0 +1,22 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of binary relations on [n] containing exactly k strongly connected components, n >= 0, 0 <= k <= n.",
+  "id": "A361269",
+  "mentions": [
+    "A002416",
+    "A003024",
+    "A003030"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

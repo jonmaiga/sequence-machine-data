@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Sum_{p primes, p == 3 mod 4} log(p)/p^2.",
+  "description": "Decimal expansion of Sum_{p primes, p == 3 (mod 4)} log(p)/p^2.",
   "id": "A360095",
   "mentions": [
     "A085548",
@@ -9,14 +9,15 @@
     "A358789",
     "A360094"
   ],
-  "modified": "2023-02-27 14:38:39",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
+    "modified": "2023-03-14 10:34:48",
     "offset": 0,
     "size": 106,
     "source": "oeis-entry"

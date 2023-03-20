@@ -1,0 +1,29 @@
+{
+  "description": "Numbers k such that (2^k + 1)^3 - 2 is a semiprime.",
+  "id": "A360994",
+  "mentions": [
+    "A001358",
+    "A091513",
+    "A091514",
+    "A093069",
+    "A099359",
+    "A100899",
+    "A100900",
+    "A269264",
+    "A360993"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

@@ -1,12 +1,13 @@
 {
-  "description": "T(n,k)=Number of nXk 0..1 arrays with every element equal to 0, 1, 2, 3, 4 or 7 king-move adjacent elements, with upper left element zero.",
+  "description": "T(n,k) = Number of n X k 0..1 arrays with every element equal to 0, 1, 2, 3, 4 or 7 king-move adjacent elements, with upper left element zero.",
   "id": "A299081",
   "mentions": [
     "A000079",
     "A281831"
   ],
-  "modified": "2023-02-27 14:38:35",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "formulas",
     "nonn",
     "tabl"

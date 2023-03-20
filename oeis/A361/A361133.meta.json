@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n for n <= 3. Let h, i, j represent a(n-3), a(n-2), a(n-1) respectively. For n > 3, if there is a symmetric difference in the sets of distinct primes dividing h and j, with greatest member p then a(n) is the least novel multiple of p. Otherwise, a(n) is the least novel k such that (k,i) > 1.",
+  "id": "A361133",
+  "mentions": [
+    "A007947",
+    "A064413",
+    "A336957"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

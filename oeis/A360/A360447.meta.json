@@ -1,0 +1,20 @@
+{
+  "description": "Result of inserting the integers n = 0, 1, 2, ... in this order into an initially empty list, where n is inserted between the pair of consecutive elements with sum equal to n and minimal absolute difference, or at the end of the list if no such pair exists.",
+  "id": "A360447",
+  "mentions": [
+    "A306835"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "hard",
+    "new",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

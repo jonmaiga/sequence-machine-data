@@ -1,0 +1,20 @@
+{
+  "description": "If n is composite, replace n with the concatenation of its nontrivial divisors, written in increasing order, each divisor being written in base 10 with its digits in reverse order, otherwise a(n) = n.",
+  "id": "A361320",
+  "mentions": [
+    "A037279",
+    "A130140"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

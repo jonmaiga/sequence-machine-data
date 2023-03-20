@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle T(n, k), n > 0, k = 1..A056137(A009023(n)), read by rows: T(n, k) is the square root of A009023(n)^2 + A359805(n, k)^2.",
+  "id": "A360020",
+  "mentions": [
+    "A000196",
+    "A009023",
+    "A056137",
+    "A359805"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "look",
+    "new",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

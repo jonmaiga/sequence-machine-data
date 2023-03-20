@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the maximum number of ways in which a set of integer-sided rectangular pieces can tile an n X k rectangle, up to rotations and reflections.",
+  "id": "A361221",
+  "mentions": [
+    "A360629",
+    "A361216",
+    "A361222",
+    "A361223",
+    "A361224",
+    "A361225"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "more",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

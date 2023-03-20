@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the unique number m such that A126168(m) = A361419(n).",
+  "id": "A361420",
+  "mentions": [
+    "A126168",
+    "A357313",
+    "A357325",
+    "A361419"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

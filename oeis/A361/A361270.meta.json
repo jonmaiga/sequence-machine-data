@@ -1,0 +1,21 @@
+{
+  "description": "Number of 1324-avoiding odd Grassmannian permutations of size n.",
+  "id": "A361270",
+  "mentions": [
+    "A356185",
+    "A361271"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

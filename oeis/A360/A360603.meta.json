@@ -1,0 +1,30 @@
+{
+  "description": "Triangle read by rows. T(n, k) = A360604(n, k) * A001187(k) for 0 <= k <= n.",
+  "id": "A360603",
+  "mentions": [
+    "A001187",
+    "A006125",
+    "A053549",
+    "A054592",
+    "A060818",
+    "A095340",
+    "A123903",
+    "A143543",
+    "A275462",
+    "A360604",
+    "A360860"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

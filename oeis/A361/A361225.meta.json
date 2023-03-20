@@ -1,0 +1,21 @@
+{
+  "description": "Maximum number of ways in which a set of integer-sided rectangular pieces can tile an n X 3 rectangle, up to rotations and reflections.",
+  "id": "A361225",
+  "mentions": [
+    "A360632",
+    "A361219",
+    "A361221"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

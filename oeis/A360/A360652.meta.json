@@ -1,0 +1,20 @@
+{
+  "description": "Primes of the form x^2 + 432*y^2.",
+  "id": "A360652",
+  "mentions": [
+    "A014752",
+    "A023394",
+    "A229850",
+    "A351332"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

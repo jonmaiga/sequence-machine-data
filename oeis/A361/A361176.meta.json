@@ -1,0 +1,22 @@
+{
+  "description": "Numbers that are not exponentially cubefree: numbers with at least one noncubefree exponent in their canonical prime factorization.",
+  "id": "A361176",
+  "mentions": [
+    "A004709",
+    "A046099",
+    "A130897",
+    "A209061",
+    "A262276"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

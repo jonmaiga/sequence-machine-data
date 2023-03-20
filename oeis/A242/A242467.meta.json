@@ -1,11 +1,12 @@
 {
-  "description": "Number of length n+2 0..n arrays with no three equal elements in a row and new values 0..n introduced in 0..n order",
+  "description": "Number of length n+2 0..n arrays with no three equal elements in a row and new values 0..n introduced in 0..n order.",
   "id": "A242467",
   "mentions": [
     "A242472"
   ],
-  "modified": "2023-02-27 14:38:31",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {

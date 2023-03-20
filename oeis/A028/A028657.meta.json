@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) = number of n-node graphs with k nodes in distinguished bipartite block, k=0..n.",
+  "description": "Triangle read by rows: T(n,k) = number of n-node graphs with k nodes in distinguished bipartite block, k = 0..n.",
   "id": "A028657",
   "mentions": [
     "A002623",
@@ -19,8 +19,9 @@
     "A246106",
     "A353585"
   ],
-  "modified": "2023-02-27 14:38:18",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "formulas",
     "nonn",
     "tabl"

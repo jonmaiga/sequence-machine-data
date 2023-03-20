@@ -1,0 +1,22 @@
+{
+  "description": "Refactorable numbers gaps: differences between consecutive refactorable numbers.",
+  "id": "A360779",
+  "mentions": [
+    "A033950",
+    "A036896",
+    "A036898",
+    "A114617"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

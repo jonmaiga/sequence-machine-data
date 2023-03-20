@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows. T(n, k) = Sum_{j=0..n} j! * binomial(n - j, n - k).",
+  "id": "A361042",
+  "mentions": [
+    "A003422",
+    "A014144",
+    "A133942",
+    "A152689",
+    "A233449",
+    "A293468"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

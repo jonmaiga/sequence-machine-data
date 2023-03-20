@@ -1,8 +1,13 @@
 {
   "description": "Numbers whose base-2 representation has exactly 3 runs.",
   "id": "A043570",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:19",
+  "mentions": [
+    "A000051",
+    "A000215",
+    "A005811",
+    "A082554"
+  ],
+  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
     "changed",

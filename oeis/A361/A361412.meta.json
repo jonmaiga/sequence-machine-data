@@ -1,0 +1,23 @@
+{
+  "description": "Number of connected 3-regular multigraphs on 2n unlabeled nodes rooted at an unoriented edge (or loop), loops allowed.",
+  "id": "A361412",
+  "mentions": [
+    "A005967",
+    "A129427",
+    "A361135",
+    "A361446",
+    "A361447",
+    "A361448"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

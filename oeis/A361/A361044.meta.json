@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows. T(n, k) is the k-th Lie-Betti number of the friendship (or windmill) graph, for n >= 1.",
+  "id": "A361044",
+  "mentions": [
+    "A088459",
+    "A360571",
+    "A360572",
+    "A360625",
+    "A360936",
+    "A360937"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "more",
+    "new",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

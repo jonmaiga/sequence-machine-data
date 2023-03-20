@@ -1,0 +1,21 @@
+{
+  "description": "Number of chordless cycles in the n X n king graph.",
+  "id": "A361171",
+  "mentions": [
+    "A140519",
+    "A234622",
+    "A297664",
+    "A357501"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

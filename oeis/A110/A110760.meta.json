@@ -9,7 +9,7 @@
     "A110758",
     "A110759"
   ],
-  "modified": "2023-02-27 14:38:23",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
     "changed",
@@ -17,9 +17,9 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
+    "modified": "2023-03-14 10:34:47",
     "offset": 1,
-    "size": 47,
+    "size": 54,
     "source": "oeis-entry"
   }
 }

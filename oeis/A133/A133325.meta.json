@@ -2,8 +2,9 @@
   "description": "Numbers such that 2*X^2-82 is a square.",
   "id": "A133325",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],

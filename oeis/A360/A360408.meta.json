@@ -1,0 +1,20 @@
+{
+  "description": "The maximum number of facets among all symmetric edge polytopes for connected graphs on n vertices having m edges for n >= 2 and m between n-1 and binomial(n,2).",
+  "id": "A360408",
+  "mentions": [
+    "A000079",
+    "A360409"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 2,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

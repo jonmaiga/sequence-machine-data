@@ -1,0 +1,19 @@
+{
+  "description": "Numbers of the form m^2 + p^2 for p prime and m > 0.",
+  "id": "A361300",
+  "mentions": [
+    "A185086"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "easy",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

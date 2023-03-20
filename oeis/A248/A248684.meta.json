@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of r = sum{(floor(n/4)!)^4/n!, n >= 0.",
+  "description": "Decimal expansion of r = sum{(floor(n/4)!)^4/n!, n >= 0}.",
   "id": "A248684",
   "mentions": [
     "A248664",
@@ -7,7 +7,7 @@
     "A248683",
     "A248685"
   ],
-  "modified": "2023-02-27 14:38:32",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
     "cons",
     "easy",

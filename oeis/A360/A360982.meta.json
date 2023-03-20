@@ -1,0 +1,21 @@
+{
+  "description": "Order the nonnegative integers by increasing binary length of values, then by decreasing binary length of values squared, then by increasing binary length of values cubed, etc.",
+  "id": "A360982",
+  "mentions": [
+    "A360959",
+    "A360963",
+    "A360983"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

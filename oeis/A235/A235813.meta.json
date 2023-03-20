@@ -1,11 +1,12 @@
 {
-  "description": "Number of (n+1)X(2+1) 0..3 arrays with the sum of each 2X2 subblock two median terms lexicographically nondecreasing rowwise and columnwise",
+  "description": "Number of (n+1) X (2+1) 0..3 arrays with the sum of each 2 X 2 subblock two median terms lexicographically nondecreasing rowwise and columnwise.",
   "id": "A235813",
   "mentions": [
     "A235815"
   ],
-  "modified": "2023-02-27 14:38:31",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {

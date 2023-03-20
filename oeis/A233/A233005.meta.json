@@ -1,5 +1,5 @@
 {
-  "description": "floor(Pt(n)/n!), where Pt(n) is product of first n positive triangular numbers (A000217).",
+  "description": "a(n) = floor(Pt(n)/n!), where Pt(n) is product of first n positive triangular numbers (A000217).",
   "id": "A233005",
   "mentions": [
     "A000142",
@@ -7,8 +7,10 @@
     "A006472",
     "A067667"
   ],
-  "modified": "2023-02-27 14:38:31",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
+    "formulas",
     "nonn"
   ],
   "terms": {

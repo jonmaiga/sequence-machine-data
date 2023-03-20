@@ -1,23 +1,25 @@
 {
-  "description": "Numbers n divisible by the sum of the digits and the sum of the squares of digits of n (in base 10).",
+  "description": "Numbers k divisible by the sum of the digits and the sum of the squares of digits of k (in base 10).",
   "id": "A169663",
   "mentions": [
     "A003132",
+    "A005349",
     "A007953",
     "A034087",
     "A072081",
     "A117562"
   ],
-  "modified": "2023-02-27 14:38:27",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
     "base",
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
+    "modified": "2023-03-14 10:44:25",
     "offset": 1,
     "size": 47,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,12 +1,13 @@
 {
-  "description": "121n^2 + 11.",
+  "description": "a(n) = 121*n^2 + 11.",
   "id": "A158536",
   "mentions": [
     "A005843",
     "A158537"
   ],
-  "modified": "2023-02-27 14:38:26",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "less",
@@ -15,7 +16,7 @@
   "terms": {
     "modified": "2023-02-27 17:01:40",
     "offset": 0,
-    "size": 35,
+    "size": 38,
     "source": "oeis-bfile"
   }
 }

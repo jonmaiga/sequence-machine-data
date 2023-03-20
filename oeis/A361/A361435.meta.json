@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least positive integer that can be expressed as the sum of one or more consecutive squarefree numbers in exactly n ways.",
+  "id": "A361435",
+  "mentions": [
+    "A005117",
+    "A054859"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

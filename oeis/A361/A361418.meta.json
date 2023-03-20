@@ -1,0 +1,30 @@
+{
+  "description": "a(n) is the least number with exactly n noninfinitary divisors.",
+  "id": "A361418",
+  "mentions": [
+    "A005179",
+    "A025487",
+    "A038547",
+    "A085629",
+    "A130279",
+    "A187941",
+    "A309181",
+    "A340232",
+    "A340233",
+    "A348341",
+    "A348342",
+    "A357450",
+    "A358252"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

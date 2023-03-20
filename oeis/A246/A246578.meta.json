@@ -1,12 +1,13 @@
 {
-  "description": "G.f.: (Product_{r>=1} (1 - x^r))*x^(k^2)/Product_{i=1..k} ((1-x^i)^2) with k=4.",
+  "description": "Expansion of g.f. (Product_{r>=1} (1 - x^r))*x^(k^2)/Product_{i=1..k} ((1-x^i)^2) with k=4.",
   "id": "A246578",
   "mentions": [
     "A010815",
     "A246575"
   ],
-  "modified": "2023-02-27 14:38:31",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "sign"
   ],
   "terms": {

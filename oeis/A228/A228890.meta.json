@@ -1,19 +1,20 @@
 {
-  "description": "Triangular array read by rows. T(n,k) is the number of 2-colored labeled graphs on n nodes with exactly k edges; n>=0, 0<=k<=A002620(n+1).",
+  "description": "Triangular array read by rows. T(n,k) is the number of 2-colored labeled graphs on n nodes with exactly k edges; n >= 0, 0 <= k <= A002620(n).",
   "id": "A228890",
   "mentions": [
     "A000079",
     "A002620",
     "A047863"
   ],
-  "modified": "2023-02-27 14:38:30",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
+    "modified": "2023-03-14 10:34:48",
     "offset": 0,
     "size": 59,
     "source": "oeis-entry"

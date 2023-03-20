@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = A007814(sigma(n)) - A007814(n), where A007814(n) gives the 2-adic valuation of n, and sigma is the sum of divisors function.",
+  "id": "A361025",
+  "mentions": [
+    "A000203",
+    "A007814",
+    "A216780",
+    "A216781",
+    "A216782",
+    "A324903",
+    "A336937",
+    "A361024"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k! - Sum_{i=1..k-1} (-1)^(k-i)*i is prime.",
+  "id": "A361437",
+  "mentions": [
+    "A001272",
+    "A005165",
+    "A071828",
+    "A361436"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "hard",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

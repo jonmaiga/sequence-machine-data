@@ -11,16 +11,15 @@
     "A085466",
     "A085467"
   ],
-  "modified": "2023-02-27 14:38:23",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "formulas",
     "hard",
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
+    "modified": "2023-03-14 10:34:47",
     "offset": 0,
     "size": 50,
     "source": "oeis-entry"

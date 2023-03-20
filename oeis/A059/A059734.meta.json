@@ -3,18 +3,21 @@
   "id": "A059734",
   "mentions": [
     "A004520",
-    "A006940"
+    "A006940",
+    "A008975",
+    "A361351"
   ],
-  "modified": "2023-02-27 14:38:20",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-10-18 14:56:43",
+    "modified": "2023-03-14 10:44:22",
     "offset": 0,
     "size": 18,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

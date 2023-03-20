@@ -1,0 +1,21 @@
+{
+  "description": "Infinite triangle T(n, k), n, k >= 0, read and filled by rows the greedy way with distinct integers such that for any n, k >= 0, T(n, k) + T(n+1, k) + T(n+1, k+1) = 0; each term is minimal in absolute value and in case of a tie, preference is given to the positive value.",
+  "id": "A361442",
+  "mentions": [
+    "A152920",
+    "A361443"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

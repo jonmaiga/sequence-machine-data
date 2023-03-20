@@ -1,0 +1,23 @@
+{
+  "description": "Harmonic means of the infinitary divisors of the infinitary harmonic numbers.",
+  "id": "A361318",
+  "mentions": [
+    "A001600",
+    "A006087",
+    "A063947",
+    "A361316",
+    "A361317"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

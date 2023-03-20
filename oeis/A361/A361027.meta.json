@@ -1,0 +1,29 @@
+{
+  "description": "Table of generalized de Bruijn's numbers (A006480) read by ascending antidiagonals.",
+  "id": "A361027",
+  "mentions": [
+    "A000108",
+    "A006480",
+    "A024488",
+    "A135573",
+    "A208881",
+    "A361028",
+    "A361029",
+    "A361030",
+    "A361031"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

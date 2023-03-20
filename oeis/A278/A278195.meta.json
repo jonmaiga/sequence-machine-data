@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. (1/6!)*sin^6(x)/cos(x) (coefficients of even powers only).",
+  "description": "Expansion of e.g.f. (1/6!)*sin^6(x)/cos(x) (coefficients of even powers only).",
   "id": "A278195",
   "mentions": [
     "A000364",
@@ -9,14 +9,15 @@
     "A278080",
     "A278194"
   ],
-  "modified": "2023-02-27 14:38:34",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
+    "modified": "2023-03-14 10:34:48",
     "offset": 0,
     "size": 18,
     "source": "oeis-entry"

@@ -1,5 +1,5 @@
 {
-  "description": "Coefficient of x in the reduction by x^2->x+2 of the polynomial p(n,x) defined below in Comments.",
+  "description": "Coefficient of x in the reduction by x^2 -> x+2 of the polynomial p(n,x) defined below in Comments.",
   "id": "A192382",
   "mentions": [
     "A003683",
@@ -7,8 +7,9 @@
     "A162517",
     "A192232"
   ],
-  "modified": "2023-02-27 14:38:28",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],

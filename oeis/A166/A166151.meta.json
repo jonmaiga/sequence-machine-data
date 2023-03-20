@@ -2,9 +2,8 @@
   "description": "a(n) = (5*n^2 + 5*n - 6)/2.",
   "id": "A166151",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "nonn"

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the position, counted from the right, of the rightmost nonzero value in the n-th nonzero restricted growth string in A239903 and its infinite continuation.",
+  "id": "A360056",
+  "mentions": [
+    "A239903"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

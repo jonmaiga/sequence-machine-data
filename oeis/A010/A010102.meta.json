@@ -1,9 +1,19 @@
 {
   "description": "Spontaneous magnetization coefficients for square lattice spin 1 Ising model.",
   "id": "A010102",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:17",
+  "mentions": [
+    "A002928",
+    "A010103",
+    "A010104",
+    "A010105",
+    "A010106",
+    "A010107",
+    "A010111",
+    "A010115"
+  ],
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "sign"
   ],
   "terms": {

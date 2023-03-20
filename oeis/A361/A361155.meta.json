@@ -1,0 +1,19 @@
+{
+  "description": "Discriminants of gothic Teichmuller curves.",
+  "id": "A361155",
+  "mentions": [
+    "A361156"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

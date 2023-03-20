@@ -1,11 +1,12 @@
 {
-  "description": "Number of nX3 0..3 arrays with no element equal the average of immediate neighbors vertically above, diagonally above and left, and horizontally left of it",
+  "description": "Number of n X 3 0..3 arrays with no element equal the average of immediate neighbors vertically above, diagonally above and left, and horizontally left of it.",
   "id": "A209014",
   "mentions": [
     "A209019"
   ],
-  "modified": "2023-02-27 14:38:29",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],

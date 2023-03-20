@@ -1,0 +1,27 @@
+{
+  "description": "Let C consist of 1 together with all numbers with at least two distinct prime factors; this is the lexicographically earliest infinite sequence {a(n)} of distinct elements of C such that, for n>2, a(n) has a common factor with a(n-1) but not with a(n-2).",
+  "id": "A360519",
+  "mentions": [
+    "A001694",
+    "A098550",
+    "A120944",
+    "A126706",
+    "A286708",
+    "A336957",
+    "A361102",
+    "A361109",
+    "A361110",
+    "A361111"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

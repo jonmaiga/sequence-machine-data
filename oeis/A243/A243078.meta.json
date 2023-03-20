@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n!3 - 3^2 is prime, where n!3 = n!!! is a triple factorial number (A007661).",
+  "description": "Numbers k such that k!3 - 3^2 is prime, where k!3 = k!!! is a triple factorial number (A007661).",
   "id": "A243078",
   "mentions": [
     "A007661",
@@ -8,13 +8,14 @@
     "A123910",
     "A242994"
   ],
-  "modified": "2023-02-27 14:38:31",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
+    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 41,
     "source": "oeis-entry"

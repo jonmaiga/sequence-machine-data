@@ -1,9 +1,17 @@
 {
   "description": "Coordination sequence for 5-dimensional cubic lattice.",
   "id": "A008413",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:17",
+  "mentions": [
+    "A035599",
+    "A035607",
+    "A113413",
+    "A119800",
+    "A122542",
+    "A266213"
+  ],
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"

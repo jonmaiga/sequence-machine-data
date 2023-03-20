@@ -2,14 +2,15 @@
   "description": "Decimal expansion of constant K, the unique solution > 1 to 2*Pi*log(k) == Pi*(1 - 1/k).",
   "id": "A101314",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
+    "modified": "2023-03-14 10:34:47",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

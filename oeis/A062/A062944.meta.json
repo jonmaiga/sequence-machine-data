@@ -1,17 +1,44 @@
 {
-  "description": "When expressed in base 7 and then interpreted in base 10, is a multiple of the original number.",
+  "description": "Numbers k that, when expressed in base 7 and then interpreted in base 10, give a multiple of k.",
   "id": "A062944",
   "mentions": [
-    "A032549"
+    "A032549",
+    "A062845",
+    "A062846",
+    "A062847",
+    "A062848",
+    "A062849",
+    "A062850",
+    "A062853",
+    "A062864",
+    "A062865",
+    "A062884",
+    "A062889",
+    "A062891",
+    "A062920",
+    "A062921",
+    "A062922",
+    "A062923",
+    "A062925",
+    "A062928",
+    "A062929",
+    "A062930",
+    "A062931",
+    "A062934",
+    "A062937",
+    "A062939",
+    "A062942",
+    "A062943"
   ],
-  "modified": "2023-02-27 14:38:20",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:15",
-    "offset": 0,
+    "modified": "2023-03-14 10:44:23",
+    "offset": 1,
     "size": 40,
     "source": "oeis-bfile"
   }

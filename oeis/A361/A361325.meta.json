@@ -1,0 +1,22 @@
+{
+  "description": "Records in A361321",
+  "id": "A361325",
+  "mentions": [
+    "A000469",
+    "A360519",
+    "A361107",
+    "A361321",
+    "A361326"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -1,9 +1,10 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(k+1) 0..2 arrays colored with the difference of the maximum and the upper median in each 2X2 subblock",
+  "description": "T(n,k) = Number of (n+1) X (k+1) 0..2 arrays colored with the difference of the maximum and the upper median in each 2 X 2 subblock.",
   "id": "A236096",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "formulas",
     "nonn",
     "tabl"

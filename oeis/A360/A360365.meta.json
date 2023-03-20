@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = sum of the products of the digits of the first n positive multiples of 3.",
+  "id": "A360365",
+  "mentions": [
+    "A061076",
+    "A061077",
+    "A061078"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "base",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

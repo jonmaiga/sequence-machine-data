@@ -1,19 +1,21 @@
 {
-  "description": "A puzzle - explanation is not known.",
+  "description": "A puzzle by Ron Hoeflin.",
   "id": "A199714",
   "mentions": [
     "A007468",
     "A199715"
   ],
-  "modified": "2023-02-27 14:38:29",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "nonn",
-    "unkn"
+    "changed",
+    "fini",
+    "full",
+    "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
+    "modified": "2023-03-14 10:34:48",
     "offset": 1,
-    "size": 9,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

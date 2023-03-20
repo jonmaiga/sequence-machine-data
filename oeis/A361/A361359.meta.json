@@ -1,0 +1,23 @@
+{
+  "description": "Number of nonequivalent noncrossing caterpillars with n edges up to rotation.",
+  "id": "A361359",
+  "mentions": [
+    "A296532",
+    "A361356",
+    "A361358",
+    "A361360"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

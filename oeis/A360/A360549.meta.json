@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least prime p not already in the sequence such that a(n-1) + p is a triprime; a(1) = 2.",
+  "id": "A360549",
+  "mentions": [
+    "A014612",
+    "A353408"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

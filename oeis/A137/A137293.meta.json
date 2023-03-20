@@ -1,16 +1,20 @@
 {
   "description": "a(1) = 1. After the initial 1, follow with runs of integers; the n-th run of 2*a(n) terms is (1,2,3,4,....,2a(n)).",
   "id": "A137293",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:25",
+  "mentions": [
+    "A136109"
+  ],
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "easy",
+    "look",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
+    "modified": "2023-03-14 10:44:24",
     "offset": 1,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

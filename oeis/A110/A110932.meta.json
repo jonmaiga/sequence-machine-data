@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2*n^n+1 is prime.",
+  "description": "Numbers k such that 2*k^k + 1 is prime.",
   "id": "A110932",
   "mentions": [
     "A014566",
@@ -11,14 +11,15 @@
     "A216147",
     "A216148"
   ],
-  "modified": "2023-02-27 14:38:23",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
+    "modified": "2023-03-14 10:34:47",
     "offset": 0,
     "size": 6,
     "source": "oeis-entry"

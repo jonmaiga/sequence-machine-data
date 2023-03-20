@@ -1,10 +1,11 @@
 {
-  "description": "Numbers n with property that in base 5 representation the numbers of 0's and 1's are 1 and 3, respectively.",
+  "description": "Numbers whose base-5 representation contains exactly one 0 and three 1's.",
   "id": "A045164",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
+    "changed",
     "nonn"
   ],
   "terms": {

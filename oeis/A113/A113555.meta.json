@@ -2,9 +2,10 @@
   "description": "n-th digit after decimal of the successive approximation of the golden ratio. n-th digit after decimal of F(n+1)/F(n).",
   "id": "A113555",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
+    "changed",
     "easy",
     "nonn"
   ],

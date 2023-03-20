@@ -1,0 +1,20 @@
+{
+  "description": "Numbers m such that m concatenated with k produces a cube for some 0 <= k <= m.",
+  "id": "A360570",
+  "mentions": [
+    "A243092",
+    "A245631"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

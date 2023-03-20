@@ -2,17 +2,21 @@
   "description": "Number of digits in n-th term of A061482.",
   "id": "A061902",
   "mentions": [
+    "A055642",
     "A061482"
   ],
-  "modified": "2023-02-27 14:38:20",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
+    "changed",
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
+    "modified": "2023-03-14 10:34:47",
     "offset": 1,
-    "size": 22,
+    "size": 27,
     "source": "oeis-entry"
   }
 }

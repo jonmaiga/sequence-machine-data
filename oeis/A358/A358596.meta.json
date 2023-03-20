@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least prime p such that the concatenation p|n has exactly n prime factors with multiplicity.",
+  "id": "A358596",
+  "mentions": [
+    "A001222",
+    "A066686"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "base",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:31",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

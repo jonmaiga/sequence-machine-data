@@ -1,7 +1,8 @@
 {
-  "description": "(Round(c^prime(n)) - 1)/prime(n), where c is the pentanacci constant (A103814).",
+  "description": "a(n) = (round(c^prime(n)) - 1)/prime(n), where c is the pentanacci constant (A103814).",
   "id": "A239564",
   "mentions": [
+    "A000040",
     "A007619",
     "A007663",
     "A103814",
@@ -12,12 +13,13 @@
     "A239502",
     "A239544"
   ],
-  "modified": "2023-02-27 14:38:31",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
+    "modified": "2023-03-14 10:34:48",
     "offset": 5,
     "size": 18,
     "source": "oeis-entry"

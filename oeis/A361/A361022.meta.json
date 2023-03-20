@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 1 if d(n) divides d(n+1), otherwise 0, where d(n) is number of positive divisors of n.",
+  "id": "A361022",
+  "mentions": [
+    "A000005",
+    "A057922"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 122,
+    "source": "oeis-bfile"
+  }
+}

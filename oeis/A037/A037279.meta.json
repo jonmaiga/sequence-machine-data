@@ -1,14 +1,15 @@
 {
-  "description": "If n is composite, replace n with the concatenation of its proper divisors, otherwise a(n) = n.",
+  "description": "If n is composite, replace n with the concatenation of its nontrivial divisors, otherwise a(n) = n.",
   "id": "A037279",
   "mentions": [
     "A037278",
     "A106708",
     "A120712"
   ],
-  "modified": "2023-02-27 14:38:18",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
+    "changed",
     "nonn"
   ],
   "terms": {

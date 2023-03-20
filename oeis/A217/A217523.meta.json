@@ -2,15 +2,16 @@
   "description": "Number of assembly trees for complete bipartite graph K_{n,n}.",
   "id": "A217523",
   "mentions": [
-    "A217524"
+    "A361072"
   ],
-  "modified": "2023-02-27 14:38:30",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
+    "modified": "2023-03-14 10:34:48",
     "offset": 0,
     "size": 15,
     "source": "oeis-entry"

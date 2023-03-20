@@ -1,0 +1,25 @@
+{
+  "description": "Array read by antidiagonals: T(m,n) is the number of acyclic orientations in the grid graph P_m X P_n.",
+  "id": "A360922",
+  "mentions": [
+    "A000079",
+    "A080690",
+    "A109808",
+    "A116469",
+    "A178435",
+    "A207868"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

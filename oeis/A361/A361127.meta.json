@@ -1,0 +1,19 @@
+{
+  "description": "Let p = n-th odd prime; a(n) = index where 2*p appears in A360519, or -1 if 2*p never appears.",
+  "id": "A361127",
+  "mentions": [
+    "A360103",
+    "A360519"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

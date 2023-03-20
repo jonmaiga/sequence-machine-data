@@ -2,16 +2,19 @@
   "description": "Number of divisors of the Euler number E(2n) (A000364).",
   "id": "A106051",
   "mentions": [
+    "A000005",
     "A000364"
   ],
-  "modified": "2023-02-27 14:38:23",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
+    "modified": "2023-03-14 10:44:24",
     "offset": 0,
-    "size": 51,
-    "source": "oeis-entry"
+    "size": 67,
+    "source": "oeis-bfile"
   }
 }

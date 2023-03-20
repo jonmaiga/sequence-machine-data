@@ -12,14 +12,15 @@
     "A198018",
     "A210704"
   ],
-  "modified": "2023-02-27 14:38:21",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
     "bref",
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
+    "modified": "2023-03-14 10:34:47",
     "offset": 1,
     "size": 3,
     "source": "oeis-entry"

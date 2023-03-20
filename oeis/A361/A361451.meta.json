@@ -1,0 +1,18 @@
+{
+  "description": "Number of colorings of an n X n grid up to permutation of the colors with no element having the same color as any horizontal, vertical or antidiagonal neighbor.",
+  "id": "A361451",
+  "mentions": [
+    "A208054"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

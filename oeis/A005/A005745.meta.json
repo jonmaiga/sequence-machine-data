@@ -1,5 +1,5 @@
 {
-  "description": "Number of n-covers of a 3-set.",
+  "description": "Number of n-covers of an unlabeled 3-set.",
   "id": "A005745",
   "mentions": [
     "A002623",
@@ -8,10 +8,14 @@
     "A005746",
     "A005747",
     "A005748",
-    "A005771"
+    "A005771",
+    "A028657",
+    "A055080",
+    "A055609"
   ],
-  "modified": "2023-02-27 14:38:16",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"

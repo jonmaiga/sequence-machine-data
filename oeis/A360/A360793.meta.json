@@ -1,0 +1,26 @@
+{
+  "description": "Numbers of the form m*p^3, where m > 1 is squarefree and prime p does not divide m.",
+  "id": "A360793",
+  "mentions": [
+    "A000005",
+    "A001221",
+    "A001222",
+    "A030078",
+    "A036537",
+    "A048109",
+    "A072357",
+    "A126706"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Number of weakly 3-connected simple digraphs with n unlabeled nodes.",
+  "id": "A361370",
+  "mentions": [
+    "A000273",
+    "A003085",
+    "A006290",
+    "A361367"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "bref",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 4,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

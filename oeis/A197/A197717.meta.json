@@ -1,11 +1,12 @@
 {
-  "description": "Ceiling((3n+1/n)^n).",
+  "description": "a(n) = ceiling((3n+1/n)^n).",
   "id": "A197717",
   "mentions": [
     "A014058"
   ],
-  "modified": "2023-02-27 14:38:28",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "less",
     "nonn"
   ],

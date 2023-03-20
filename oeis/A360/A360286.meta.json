@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows where row n is the lexicographically earliest sequence of visits, taking steps by 1, around a circle of vertices 1..n where the numbers of visits to the vertices are 1..n in some order.",
+  "id": "A360286",
+  "mentions": [
+    "A000217"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

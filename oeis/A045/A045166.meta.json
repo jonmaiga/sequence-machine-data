@@ -1,16 +1,17 @@
 {
-  "description": "Numbers n with property that in base 5 representation the numbers of 0's and 1's are 2 and 1, respectively.",
+  "description": "Numbers whose base-5 representation contains exactly two 0's and one 1.",
   "id": "A045166",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
+    "changed",
     "nonn"
   ],
   "terms": {
     "modified": "2022-04-27 14:23:15",
     "offset": 1,
-    "size": 46,
+    "size": 52,
     "source": "joeis"
   }
 }

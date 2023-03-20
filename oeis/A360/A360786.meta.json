@@ -1,0 +1,23 @@
+{
+  "description": "Number of ways to place two dimers on an n-cube.",
+  "id": "A360786",
+  "mentions": [
+    "A001787",
+    "A045310",
+    "A192437",
+    "A302235"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

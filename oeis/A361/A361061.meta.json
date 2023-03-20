@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the asymptotic mean of A000005(k)/A073184(k), the ratio between the number of divisors and the number of cubefree divisors.",
+  "id": "A361061",
+  "mentions": [
+    "A000005",
+    "A073184",
+    "A307869",
+    "A308043",
+    "A361062"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "cons",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

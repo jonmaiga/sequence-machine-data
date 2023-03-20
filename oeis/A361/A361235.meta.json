@@ -1,0 +1,31 @@
+{
+  "description": "a(n) = number of k < n, such that k does not divide n, omega(k) < omega(n) and rad(k) | rad(n), where omega(n) = A001221(n) and rad(n) = A007947(n).",
+  "id": "A361235",
+  "mentions": [
+    "A000005",
+    "A000961",
+    "A001221",
+    "A007947",
+    "A010846",
+    "A013929",
+    "A045763",
+    "A051953",
+    "A243822",
+    "A243823",
+    "A272618",
+    "A355432",
+    "A360768"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

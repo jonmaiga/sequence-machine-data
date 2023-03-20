@@ -1,0 +1,21 @@
+{
+  "description": "Number of unordered pairs of self-avoiding paths whose sets of nodes are disjoint subsets of a set of n points on a circle; one-node paths are allowed.",
+  "id": "A360717",
+  "mentions": [
+    "A359405",
+    "A360715",
+    "A360716"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that there is a unique number m for which the sum of the aliquot infinitary divisors of m (A126168) is k.",
+  "id": "A361419",
+  "mentions": [
+    "A057709",
+    "A126168",
+    "A324277",
+    "A331973",
+    "A331974",
+    "A357324",
+    "A361420"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

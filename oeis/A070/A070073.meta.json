@@ -1,13 +1,14 @@
 {
-  "description": "Number of distinct cuboids with integer sides <=n and cubefree volume.",
+  "description": "Number of distinct cuboids with integer sides <= n and cubefree volume.",
   "id": "A070073",
   "mentions": [
     "A004709",
     "A070072",
     "A212793"
   ],
-  "modified": "2023-02-27 14:38:20",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {

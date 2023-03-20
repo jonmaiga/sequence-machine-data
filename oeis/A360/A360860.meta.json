@@ -1,0 +1,21 @@
+{
+  "description": "Accumulation triangle of A360603 read by rows.",
+  "id": "A360860",
+  "mentions": [
+    "A006125",
+    "A054592",
+    "A360603"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

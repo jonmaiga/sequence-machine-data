@@ -1,0 +1,26 @@
+{
+  "description": "Number of noncrossing caterpillars with n edges.",
+  "id": "A361356",
+  "mentions": [
+    "A001764",
+    "A005418",
+    "A245012",
+    "A361357",
+    "A361358",
+    "A361359",
+    "A361360"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

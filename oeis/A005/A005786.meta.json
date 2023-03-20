@@ -1,5 +1,5 @@
 {
-  "description": "Number of 6-covers of an n-set.",
+  "description": "Number of 6-covers of an unlabeled n-set.",
   "id": "A005786",
   "mentions": [
     "A002620",
@@ -7,16 +7,19 @@
     "A005783",
     "A005784",
     "A005785",
-    "A055066"
+    "A028657",
+    "A055066",
+    "A055080"
   ],
-  "modified": "2023-02-27 14:38:16",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-09-08 06:56:19",
+    "modified": "2023-03-14 10:44:21",
     "offset": 0,
     "size": 20,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

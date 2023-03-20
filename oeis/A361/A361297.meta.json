@@ -1,0 +1,22 @@
+{
+  "description": "Number of n-dimensional cubic lattice walks with 2n steps from origin to origin and avoiding early returns to the origin.",
+  "id": "A361297",
+  "mentions": [
+    "A005843",
+    "A303503",
+    "A361397"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

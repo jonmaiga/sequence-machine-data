@@ -1,0 +1,20 @@
+{
+  "description": "Square array A(n, k), n, k >= 0, read by antidiagonals; A(0, 0) = 1, and otherwise A(n, k) is the sum of all terms in previous antidiagonals at one knight's move away.",
+  "id": "A361292",
+  "mentions": [
+    "A355320"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

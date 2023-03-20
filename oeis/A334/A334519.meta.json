@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows:: T(n,k) (1<=k<=n) = number of n X k whirlpool permutations (see A334518).",
+  "description": "Triangle read by rows: T(n,k) (1<=k<=n) = number of n X k whirlpool permutations (see A334518).",
   "id": "A334519",
   "mentions": [
     "A000142",
@@ -8,14 +8,15 @@
     "A334517",
     "A334518"
   ],
-  "modified": "2023-02-27 14:38:37",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "more",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
+    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

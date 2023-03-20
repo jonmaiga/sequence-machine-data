@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows. T(n, k) = binomial(n + 1, ceil(k/2)) * binomial(n, floor(k/2)).",
+  "id": "A360858",
+  "mentions": [
+    "A001700",
+    "A005566",
+    "A360857",
+    "A360859"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

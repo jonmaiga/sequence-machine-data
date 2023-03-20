@@ -1,0 +1,26 @@
+{
+  "description": "Numbers m such that phi(m) is a triangular number, where phi is the Euler totient function (A000010).",
+  "id": "A360944",
+  "mentions": [
+    "A000010",
+    "A000217",
+    "A039770",
+    "A055469",
+    "A078164",
+    "A096503",
+    "A117296",
+    "A236386",
+    "A287472"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

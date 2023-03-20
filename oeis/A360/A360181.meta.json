@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the number of odd digits in k! is greater than or equal to the number of even digits.",
+  "id": "A360181",
+  "mentions": [
+    "A034886",
+    "A352547",
+    "A360182"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "base",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Number of weakly connected simple planar digraphs with n unlabeled nodes.",
+  "id": "A361368",
+  "mentions": [
+    "A000273",
+    "A003085",
+    "A003094",
+    "A361366"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 2,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

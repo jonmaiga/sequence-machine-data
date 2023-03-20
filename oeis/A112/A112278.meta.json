@@ -2,13 +2,12 @@
   "description": "a(0) = 1, a(1) = 2; thereafter a(n) = prime(mod(a(n-1),100))+1.",
   "id": "A112278",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
+    "modified": "2023-03-14 10:34:47",
     "offset": 0,
     "size": 59,
     "source": "oeis-entry"

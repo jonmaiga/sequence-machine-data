@@ -2,16 +2,15 @@
   "description": "Numbers that are equal to their number of digits multiplied by the sum the cubes of the digits.",
   "id": "A270537",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
     "base",
-    "changed",
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
+    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 5,
     "source": "oeis-entry"

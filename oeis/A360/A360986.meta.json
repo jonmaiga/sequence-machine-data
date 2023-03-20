@@ -1,0 +1,21 @@
+{
+  "description": "Primes whose sum of decimal digits has the same set of decimal digits as the prime.",
+  "id": "A360986",
+  "mentions": [
+    "A000040",
+    "A158473",
+    "A249515"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

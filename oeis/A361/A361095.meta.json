@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f. satisfies A(x) = exp( 1/(1 - x/A(x)) - 1 ).",
+  "id": "A361095",
+  "mentions": [
+    "A052873",
+    "A361093",
+    "A361094",
+    "A361096",
+    "A361097"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

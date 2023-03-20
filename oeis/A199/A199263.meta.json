@@ -1,12 +1,13 @@
 {
-  "description": "Let CardE(K) the number of elements (x, y) of the finite group defined by the elliptic curve y^2 = x^3 + x + 1 (mod p) including the point at infinity ; a(n) is the difference between 2*sqrt(p) and |cardE(K) - (p + 1)|.",
+  "description": "Let CardE(K) the number of elements (x, y) of the finite group defined by the elliptic curve y^2 = x^3 + x + 1 (mod p) including the point at infinity; a(n) is the difference between 2*sqrt(p) and |cardE(K) - (p + 1)|.",
   "id": "A199263",
   "mentions": [
     "A098514",
     "A192334"
   ],
-  "modified": "2023-02-27 14:38:28",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {

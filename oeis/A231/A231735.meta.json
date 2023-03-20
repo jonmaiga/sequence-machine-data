@@ -7,16 +7,15 @@
     "A193807",
     "A231734"
   ],
-  "modified": "2023-02-27 14:38:31",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "formulas",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
+    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 36,
     "source": "oeis-entry"

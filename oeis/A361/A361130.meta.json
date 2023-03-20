@@ -1,0 +1,21 @@
+{
+  "description": "Let b = A360519; let Lg = gcd(b(n-1),b(n)), Rg = gcd(b(n),b(n+1)); let L(n) = prod_{primes p|Lg} p-part of b(n), R(n) = prod_{primes p|Rg} p-part of b(n), M(n) = b(n)/(L(n)*R(n)); sequence gives R(n).",
+  "id": "A361130",
+  "mentions": [
+    "A360519",
+    "A361118",
+    "A361128",
+    "A361129"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 2,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

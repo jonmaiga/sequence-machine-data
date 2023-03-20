@@ -1,11 +1,12 @@
 {
-  "description": "Number of (n+3)X(1+3) 0..1 arrays with no 4x4 subblock diagonal sum less than the antidiagonal sum",
+  "description": "Number of (n+3) X (1+3) 0..1 arrays with no 4 X 4 subblock diagonal sum less than the antidiagonal sum.",
   "id": "A258685",
   "mentions": [
     "A258689"
   ],
-  "modified": "2023-02-27 14:38:32",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],

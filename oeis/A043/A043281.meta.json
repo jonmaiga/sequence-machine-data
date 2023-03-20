@@ -1,13 +1,14 @@
 {
-  "description": "Maximal run length in base 7 representation of n.",
+  "description": "Maximal run length in base-7 representation of n.",
   "id": "A043281",
   "mentions": [
     "A043276",
     "A043290"
   ],
-  "modified": "2023-02-27 14:38:19",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
+    "changed",
     "nonn"
   ],
   "terms": {

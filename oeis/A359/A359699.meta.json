@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of x such that Gamma(t) and t^x*e^-t are tangent at one point.",
+  "id": "A359699",
+  "mentions": [],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "cons",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

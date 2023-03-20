@@ -1,0 +1,19 @@
+{
+  "description": "Maximum number of inequivalent permutations of a partition of n, where two permutations are equivalent if they are reversals of each other.",
+  "id": "A361223",
+  "mentions": [
+    "A102462",
+    "A361221"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

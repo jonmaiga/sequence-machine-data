@@ -1,0 +1,20 @@
+{
+  "description": "Primes p followed by two or more 2-pseudoprimes (A001567) before the next prime.",
+  "id": "A359490",
+  "mentions": [
+    "A001567",
+    "A335326"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

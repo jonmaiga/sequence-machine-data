@@ -1,0 +1,19 @@
+{
+  "description": "Number of 2-color vertex orderings of the labeled path graph on n vertices in which the number 1 is assigned to a vertex in an odd position.",
+  "id": "A360514",
+  "mentions": [
+    "A360515",
+    "A360516",
+    "A360517"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,16 +1,19 @@
 {
   "description": "G.f. A(x) satisfies: 1 = Sum_{n>=0} (-x)^n * (A(x)^n + (-1)^n)^n.",
   "id": "A325574",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:37",
+  "mentions": [
+    "A360949"
+  ],
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
     "modified": "2023-02-27 17:04:52",
     "offset": 0,
-    "size": 24,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

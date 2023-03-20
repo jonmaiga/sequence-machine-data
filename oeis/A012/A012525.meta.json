@@ -1,9 +1,10 @@
 {
-  "description": "arcsin(sinh(x)*sin(x))=2/2!*x^2+112/6!*x^6+252032/10!*x^10...",
+  "description": "arcsin(sinh(x)*sin(x)) = 2/2!*x^2+112/6!*x^6+252032/10!*x^10...",
   "id": "A012525",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {

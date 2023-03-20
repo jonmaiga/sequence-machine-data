@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k for which A135506(k) is not a prime.",
+  "id": "A361461",
+  "mentions": [
+    "A135504",
+    "A135506",
+    "A361460"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

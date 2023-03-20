@@ -1,0 +1,43 @@
+{
+  "description": "Number T(n,k) of nonnegative integers <= n having binary weight k; triangle T(n,k), n>=0, 0<=k<=floor(log_2(n+1)), read by rows.",
+  "id": "A360189",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000120",
+    "A000225",
+    "A000788",
+    "A006046",
+    "A007318",
+    "A029837",
+    "A090996",
+    "A113473",
+    "A116520",
+    "A116522",
+    "A116525",
+    "A116526",
+    "A130665",
+    "A130667",
+    "A161342",
+    "A231500",
+    "A231501",
+    "A231502",
+    "A340068",
+    "A361257"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "new",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

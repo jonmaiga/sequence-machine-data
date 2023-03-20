@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A135506(n) mod 4.",
+  "id": "A361462",
+  "mentions": [
+    "A010873",
+    "A135506"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

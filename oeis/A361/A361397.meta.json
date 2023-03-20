@@ -1,0 +1,31 @@
+{
+  "description": "Number A(n,k) of k-dimensional cubic lattice walks with 2n steps from origin to origin and avoiding early returns to the origin; square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A361397",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000108",
+    "A002420",
+    "A005843",
+    "A049037",
+    "A054474",
+    "A139271",
+    "A287318",
+    "A359801",
+    "A361297",
+    "A361364"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

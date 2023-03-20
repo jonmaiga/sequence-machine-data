@@ -1,14 +1,20 @@
 {
   "description": "Number of \"fragments\" with n nodes generated from the simple cubic lattice.",
   "id": "A122675",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:24",
+  "mentions": [
+    "A000162",
+    "A038119",
+    "A122673",
+    "A122674"
+  ],
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
+    "modified": "2023-03-14 10:34:47",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

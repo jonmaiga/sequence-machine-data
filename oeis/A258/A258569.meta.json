@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime factors of 4-full numbers.",
+  "description": "Smallest prime factors of 4-full numbers, a(1)=1.",
   "id": "A258569",
   "mentions": [
     "A000040",
@@ -11,12 +11,14 @@
     "A258571",
     "A258601"
   ],
-  "modified": "2023-02-27 14:38:32",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:16",
+    "modified": "2023-03-14 10:44:28",
     "offset": 1,
     "size": 84,
     "source": "oeis-bfile"

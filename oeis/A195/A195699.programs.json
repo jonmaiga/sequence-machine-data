@@ -108,6 +108,20 @@
       ]
     },
     {
+      "d": "2023-03-15",
+      "ix": "de[-atan(cos(atan(sqrt(6))))]",
+      "mt": 50,
+      "px": [
+        "6",
+        "sqrt",
+        "atan",
+        "cos",
+        "atan",
+        "neg",
+        "de"
+      ]
+    },
+    {
       "d": "2023-03-01",
       "ix": "de[-atan(cot(atan(sqrt(7))))]",
       "mt": 50,
@@ -118,21 +132,6 @@
         "cot",
         "atan",
         "neg",
-        "de"
-      ]
-    },
-    {
-      "d": "2022-06-26",
-      "ix": "de[5*acos(tanh(log(sqrt(7))))]",
-      "mt": 50,
-      "px": [
-        "5",
-        "7",
-        "sqrt",
-        "log",
-        "tanh",
-        "acos",
-        "*",
         "de"
       ]
     }

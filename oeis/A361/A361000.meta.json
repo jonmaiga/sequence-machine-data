@@ -1,0 +1,24 @@
+{
+  "description": "Number of tilings of an n X 3 rectangle by integer-sided rectangular pieces that cannot be rearranged to produce a different tiling of the rectangle (including rotations and reflections of the original tiling).",
+  "id": "A361000",
+  "mentions": [
+    "A000005",
+    "A115360",
+    "A360632",
+    "A360998",
+    "A361005"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

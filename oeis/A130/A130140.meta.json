@@ -1,5 +1,5 @@
 {
-  "description": "Let f denote the map that replaces k with the concatenation of its proper divisors, written in increasing order, each divisor being written in base 10 with its digits in reverse order. Then a(n) = prime reached when starting at 2n+1 and iterating f.",
+  "description": "Let f denote the map that replaces k with the concatenation of its nontrivial divisors, written in increasing order, each divisor being written in base 10 with its digits in reverse order. Then a(n) = prime reached when starting at 2n+1 and iterating f.",
   "id": "A130140",
   "mentions": [
     "A120716",
@@ -7,14 +7,15 @@
     "A130141",
     "A130142"
   ],
-  "modified": "2023-02-27 14:38:24",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
     "base",
+    "changed",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
+    "modified": "2023-03-14 10:34:48",
     "offset": 0,
     "size": 7,
     "source": "oeis-entry"

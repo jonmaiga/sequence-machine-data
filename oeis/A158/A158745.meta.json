@@ -11,16 +11,17 @@
     "A140430",
     "A140495"
   ],
-  "modified": "2023-02-27 14:38:26",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "formulas",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 11:09:00",
+    "modified": "2023-03-14 10:44:25",
     "offset": 0,
     "size": 52,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

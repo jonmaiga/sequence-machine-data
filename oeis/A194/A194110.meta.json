@@ -1,10 +1,10 @@
 {
-  "description": "Sum{floor(j*sqrt(5) : 1<=j<=n}; n-th partial sum of Beatty sequence for sqrt(5).",
+  "description": "Sum{floor(j*sqrt(5)) : 1<=j<=n}; n-th partial sum of Beatty sequence for sqrt(5).",
   "id": "A194110",
   "mentions": [
     "A022839"
   ],
-  "modified": "2023-02-27 14:38:28",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
     "nonn"
   ],

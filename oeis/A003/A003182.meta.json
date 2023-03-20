@@ -29,9 +29,8 @@
     "A326363",
     "A348260"
   ],
-  "modified": "2023-02-27 14:38:16",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "formulas",
     "hard",
     "more",
@@ -39,7 +38,7 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
+    "modified": "2023-03-14 10:34:47",
     "offset": 0,
     "size": 9,
     "source": "oeis-entry"

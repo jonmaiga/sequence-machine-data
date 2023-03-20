@@ -1,0 +1,19 @@
+{
+  "description": "Number of unlabeled connected multigraphs with circuit rank n and degree >= 3 at each node, loops allowed.",
+  "id": "A360864",
+  "mentions": [
+    "A360862"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

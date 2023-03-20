@@ -2,11 +2,13 @@
   "description": "Numbers m with the property that, when a and b are positive integers such that a*b = m, |a-b| is prime.",
   "id": "A179993",
   "mentions": [
+    "A005117",
     "A080715",
     "A349327"
   ],
-  "modified": "2023-02-27 14:38:27",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "easy",
     "nonn"
   ],

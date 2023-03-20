@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that concatenation \"n 999\" is lesser of twin primes, i.e., a millennium twin prime couple.",
+  "description": "Numbers m such that the concatenation of m and 999 is the lesser of twin primes, i.e., a millennium twin prime couple.",
   "id": "A173976",
   "mentions": [
     "A001359",
@@ -7,9 +7,10 @@
     "A158861",
     "A173937"
   ],
-  "modified": "2023-02-27 14:38:27",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
     "base",
+    "changed",
     "nonn"
   ],
   "terms": {

@@ -1,15 +1,16 @@
 {
-  "description": "Number of nX4 arrays of permutations of 4 copies of 0..n-1 with no equal antidiagonal neighbors and new values introduced sequentially from 0.",
+  "description": "Number of n X 4 arrays of permutations of 4 copies of 0..n-1 with no equal antidiagonal neighbors and new values introduced sequentially from 0.",
   "id": "A265239",
   "mentions": [
     "A265241"
   ],
-  "modified": "2023-02-27 14:38:33",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
+    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

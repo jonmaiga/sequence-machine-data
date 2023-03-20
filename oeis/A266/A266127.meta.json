@@ -1,11 +1,12 @@
 {
-  "description": "Number of nX4 integer arrays with each element equal to the number of horizontal, diagonal and antidiagonal neighbors exactly one smaller than itself.",
+  "description": "Number of n X 4 integer arrays with each element equal to the number of horizontal, diagonal and antidiagonal neighbors exactly one smaller than itself.",
   "id": "A266127",
   "mentions": [
     "A266131"
   ],
-  "modified": "2023-02-27 14:38:33",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {

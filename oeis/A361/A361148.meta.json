@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = phi(n)^4.",
+  "id": "A361148",
+  "mentions": [
+    "A000010",
+    "A002088",
+    "A057434",
+    "A059956",
+    "A065464",
+    "A127473",
+    "A358714",
+    "A361132",
+    "A361179"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "mult",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

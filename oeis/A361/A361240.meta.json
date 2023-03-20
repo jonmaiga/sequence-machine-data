@@ -1,0 +1,22 @@
+{
+  "description": "Number of nonequivalent noncrossing triangular cacti with n triangles up to rotation and reflection.",
+  "id": "A361240",
+  "mentions": [
+    "A002294",
+    "A118970",
+    "A361237",
+    "A361239"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = A361102(A361125(n)).",
+  "id": "A361126",
+  "mentions": [
+    "A360519",
+    "A361102",
+    "A361125"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,13 +1,22 @@
 {
-  "description": "Squares of A054413(n-1), n>=1,(generalized Fibonacci).",
+  "description": "Squares of A054413(n-1), n >= 1 (generalized Fibonacci).",
   "id": "A099367",
   "mentions": [
+    "A007598",
     "A054413",
+    "A079291",
+    "A092936",
     "A099279",
-    "A099368"
+    "A099365",
+    "A099366",
+    "A099368",
+    "A099369",
+    "A099372",
+    "A099374"
   ],
-  "modified": "2023-02-27 14:38:22",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"

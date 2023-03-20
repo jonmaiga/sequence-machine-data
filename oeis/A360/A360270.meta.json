@@ -5,16 +5,15 @@
     "A003678",
     "A070063"
   ],
-  "modified": "2023-02-27 14:38:39",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
     "cons",
     "easy",
     "formulas",
-    "new",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
+    "modified": "2023-03-14 10:34:48",
     "offset": -39,
     "size": 86,
     "source": "oeis-entry"

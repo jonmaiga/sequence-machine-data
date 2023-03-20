@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: exp(x/(x-1)).",
+  "description": "Expansion of e.g.f. exp(x/(x-1)).",
   "id": "A293116",
   "mentions": [
     "A000010",
@@ -8,8 +8,9 @@
     "A111884",
     "A293119"
   ],
-  "modified": "2023-02-27 14:38:35",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "formulas",
     "sign"
   ],

@@ -1,0 +1,21 @@
+{
+  "description": "Consider the square grid with cells {(x,y), x, y >= 0}; label the cells by downwards antidiagonals with nonnegative integers so that cells which are a knight's move apart have different labels; always choose smallest possible label.",
+  "id": "A361154",
+  "mentions": [
+    "A060510",
+    "A308884"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,11 +1,13 @@
 {
-  "description": "E.g.f.: exp(x/(1-x)^3).",
+  "description": "Expansion of e.g.f. exp(x/(1-x)^3).",
   "id": "A091695",
   "mentions": [
-    "A082579"
+    "A082579",
+    "A293012"
   ],
-  "modified": "2023-02-27 14:38:22",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],

@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T(n, k), n > 0, k = 0..n-1, read by rows: T(n, k) is the least e > 0 such that the binary expansions of n^e and k^e have different lengths.",
+  "id": "A360963",
+  "mentions": [
+    "A029837",
+    "A183200",
+    "A360964"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "base",
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

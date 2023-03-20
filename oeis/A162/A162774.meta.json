@@ -8,14 +8,15 @@
     "A162781",
     "A162782"
   ],
-  "modified": "2023-02-27 14:38:26",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
+    "modified": "2022-07-12 12:11:11",
     "offset": 1,
-    "size": 105,
-    "source": "oeis-entry"
+    "size": 106,
+    "source": "joeis"
   }
 }

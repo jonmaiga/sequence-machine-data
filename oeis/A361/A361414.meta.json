@@ -1,0 +1,21 @@
+{
+  "description": "Number of indecomposable non-abelian groups of order n.",
+  "id": "A361414",
+  "mentions": [
+    "A060689",
+    "A069513",
+    "A090751"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

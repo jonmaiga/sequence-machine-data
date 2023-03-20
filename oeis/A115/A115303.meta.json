@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = if n",
+  "description": "a(n) = n if n < 3, otherwise 3*a(floor(n/3)) + 2 - n mod 3.",
   "id": "A115303",
   "mentions": [
     "A054429",
@@ -12,15 +12,17 @@
     "A115309",
     "A115310"
   ],
-  "modified": "2023-02-27 14:38:23",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
+    "changed",
+    "look",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
+    "modified": "2023-03-14 10:44:24",
     "offset": 1,
     "size": 72,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

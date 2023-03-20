@@ -1,12 +1,21 @@
 {
-  "description": "Numbers n such that phi(n) is an oblong number.",
+  "description": "Numbers m such that phi(m) is an oblong number.",
   "id": "A236386",
   "mentions": [
     "A000010",
-    "A002378"
+    "A002378",
+    "A002383",
+    "A039770",
+    "A039771",
+    "A078164",
+    "A096503",
+    "A117296",
+    "A359847",
+    "A360944"
   ],
-  "modified": "2023-02-27 14:38:31",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "easy",
     "nonn"
   ],

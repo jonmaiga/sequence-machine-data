@@ -1,0 +1,20 @@
+{
+  "description": "Number of primes of the form k^2+1 between n^2 and 2*n^2 exclusive.",
+  "id": "A360821",
+  "mentions": [
+    "A000290",
+    "A002496",
+    "A060715"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

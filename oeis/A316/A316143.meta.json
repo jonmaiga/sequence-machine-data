@@ -2,13 +2,16 @@
   "description": "Expansion of e.g.f. Product_{k>=1} 1 / (1 - (exp(x)-1)^k)^2.",
   "id": "A316143",
   "mentions": [
+    "A000010",
     "A000712",
     "A167137",
     "A316142",
     "A316144"
   ],
-  "modified": "2023-02-27 14:38:36",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
+    "easy",
     "formulas",
     "nonn"
   ],

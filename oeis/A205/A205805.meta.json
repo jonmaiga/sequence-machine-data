@@ -1,15 +1,20 @@
 {
-  "description": "Zarankiewicz number z(n; C_4).",
+  "description": "Maximum number of edges in a squarefree bipartite graph on n vertices.",
   "id": "A205805",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:29",
+  "mentions": [
+    "A006855"
+  ],
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
+    "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
+    "modified": "2023-03-14 10:34:48",
     "offset": 1,
-    "size": 20,
+    "size": 45,
     "source": "oeis-entry"
   }
 }

@@ -1,16 +1,18 @@
 {
-  "description": "Triangle read by rows: a(n,m) =a(n-1,m)+(m-1)!*n: n<=m.",
+  "description": "Triangle, read by rows, T(n, k) = T(n, k-1) + (k+1)*n!, T(n, 0) = 1.",
   "id": "A105064",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
+    "modified": "2023-03-14 10:44:24",
     "offset": 0,
-    "size": 44,
-    "source": "oeis-entry"
+    "size": 45,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = 1 if n and sigma(n) have equal 2-adic valuations, otherwise 0, where sigma is the sum of divisors function.",
+  "id": "A361024",
+  "mentions": [
+    "A000203",
+    "A003961",
+    "A007814",
+    "A010052",
+    "A216780",
+    "A319346",
+    "A324903",
+    "A336937",
+    "A361023",
+    "A361025"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

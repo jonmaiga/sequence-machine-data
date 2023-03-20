@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of bicolored cubic graphs on 2n unlabeled vertices with k vertices of the first color, n >= 0, 0 <= k <= 2*n.",
+  "id": "A361361",
+  "mentions": [
+    "A005638",
+    "A321304",
+    "A361362",
+    "A361404",
+    "A361409",
+    "A361410",
+    "A361411"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

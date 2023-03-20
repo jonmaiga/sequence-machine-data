@@ -6,14 +6,15 @@
     "A092824",
     "A093594"
   ],
-  "modified": "2023-02-27 14:38:22",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
+    "modified": "2023-03-14 10:34:47",
     "offset": 1,
-    "size": 19,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "The sum of dual-Zeckendorf-infinitary divisors of n: divisors d = Product_{i} p(i)^s(i), such that the dual Zeckendorf expansion (A104326) of each s(i) contains only terms that are in the dual Zeckendorf expansion of r(i).",
+  "description": "The sum of dual-Zeckendorf-infinitary divisors of n = Product_{i} p(i)^r(i): divisors d = Product_{i} p(i)^s(i), such that the dual Zeckendorf expansion (A104326) of each s(i) contains only terms that are in the dual Zeckendorf expansion of r(i).",
   "id": "A331110",
   "mentions": [
     "A049417",
@@ -11,8 +11,9 @@
     "A331107",
     "A331109"
   ],
-  "modified": "2023-02-27 14:38:37",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "formulas",
     "mult",
     "nonn"

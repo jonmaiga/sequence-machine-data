@@ -4,16 +4,15 @@
   "mentions": [
     "A001441"
   ],
-  "modified": "2023-02-27 14:38:17",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "formulas",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
+    "modified": "2023-03-14 10:34:47",
     "offset": 1,
     "size": 29,
     "source": "oeis-entry"

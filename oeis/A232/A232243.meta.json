@@ -8,16 +8,17 @@
     "A159918",
     "A231898"
   ],
-  "modified": "2023-02-27 14:38:31",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
     "base",
+    "changed",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-26 11:27:03",
+    "modified": "2023-03-14 10:44:26",
     "offset": 0,
     "size": 100,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

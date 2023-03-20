@@ -9,16 +9,15 @@
     "A259081",
     "A259083"
   ],
-  "modified": "2023-02-27 14:38:22",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
-    "changed",
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
+    "modified": "2023-03-14 10:34:47",
     "offset": 0,
     "size": 10,
     "source": "oeis-entry"

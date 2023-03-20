@@ -1,0 +1,25 @@
+{
+  "description": "The sum of the exponential infinitary divisors of n.",
+  "id": "A361175",
+  "mentions": [
+    "A051377",
+    "A077609",
+    "A307848",
+    "A322857",
+    "A323309",
+    "A361174"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "mult",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

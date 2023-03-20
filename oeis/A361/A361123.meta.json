@@ -1,0 +1,21 @@
+{
+  "description": "1 if n-th composite number A002808(n) is divisible by 3, otherwise 0.",
+  "id": "A361123",
+  "mentions": [
+    "A002808",
+    "A181923",
+    "A361121",
+    "A361122"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

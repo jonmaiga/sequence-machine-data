@@ -1,0 +1,22 @@
+{
+  "description": "Number of bicolored cubic graphs on 2n unlabeled vertices with n vertices of each color.",
+  "id": "A361409",
+  "mentions": [
+    "A005638",
+    "A361361",
+    "A361406",
+    "A361410",
+    "A361411"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

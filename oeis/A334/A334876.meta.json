@@ -1,18 +1,19 @@
 {
-  "description": "Numbers n with the property that sigma(2^n+1)/(2^n+1) > sigma(2^k+1)/(2^k+1) for all k < n with sigma(n) being A000203(n), the sum of the divisors of n.",
+  "description": "Numbers m with the property that sigma(2^m+1)/(2^m+1) > sigma(2^k+1)/(2^k+1) for all k < m, where sigma is the sum of divisors function, A000203.",
   "id": "A334876",
   "mentions": [
     "A000203",
     "A004394",
     "A069061"
   ],
-  "modified": "2023-02-27 14:38:37",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
+    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

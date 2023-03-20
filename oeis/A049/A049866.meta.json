@@ -1,9 +1,10 @@
 {
-  "description": "a(n)=Sum{a(k): k=0,1,2,...,n-4,n-2,n-1}; a(n-3) is not a summand; 3 initial terms required.",
+  "description": "a(n) = Sum_{a(k): k=0,1,2,...,n-4,n-2,n-1}; a(n-3) is not a summand; 3 initial terms required.",
   "id": "A049866",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],

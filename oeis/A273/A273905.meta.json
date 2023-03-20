@@ -1,9 +1,12 @@
 {
   "description": "Number of symmetric bargraphs having semiperimeter n (n>=2).",
   "id": "A273905",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:33",
+  "mentions": [
+    "A192918"
+  ],
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],

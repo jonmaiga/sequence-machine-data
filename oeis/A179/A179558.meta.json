@@ -1,9 +1,13 @@
 {
   "description": "a(1)=10; a(n) = a(n-1)*10 - 5^(n-2).",
   "id": "A179558",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:27",
+  "mentions": [
+    "A000351",
+    "A011557"
+  ],
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"

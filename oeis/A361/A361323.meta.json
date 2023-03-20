@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = k such that A000469(k) = A361321(n).",
+  "id": "A361323",
+  "mentions": [
+    "A000469",
+    "A336957",
+    "A360519",
+    "A361102",
+    "A361321",
+    "A361324"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

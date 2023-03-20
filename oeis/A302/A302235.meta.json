@@ -1,12 +1,17 @@
 {
-  "description": "Triangle T(n,k) of the numbers of k-matchings in the n-hypercube graph (0 <= k <= 2^(n-1))",
+  "description": "Triangle T(n,k) of the numbers of k-matchings in the n-hypercube graph (0 <= k <= 2^(n-1)).",
   "id": "A302235",
   "mentions": [
+    "A000012",
+    "A001787",
+    "A005271",
     "A045310",
-    "A192437"
+    "A192437",
+    "A360786"
   ],
-  "modified": "2023-02-27 14:38:35",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "nonn",
     "tabl"
   ],

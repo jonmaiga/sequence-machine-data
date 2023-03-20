@@ -1,0 +1,22 @@
+{
+  "description": "Triangle T(n, k), n > 0, k = 0..n-1, read by rows: T(n, k) is the least base b >= 2 where the number of digits of n and k are different.",
+  "id": "A360964",
+  "mentions": [
+    "A052410",
+    "A360963"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "base",
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

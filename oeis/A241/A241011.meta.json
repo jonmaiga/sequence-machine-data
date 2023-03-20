@@ -2,18 +2,20 @@
   "description": "Decimal expansion of Sierpiński's S~ (S \"tilde\" as named by S. Finch), a constant appearing in the asymptotics of the number of representations of a positive integer as a sum of two squares.",
   "id": "A241011",
   "mentions": [
+    "A002654",
     "A062089",
     "A086058",
     "A241009"
   ],
-  "modified": "2023-02-27 14:38:31",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
+    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 100,
     "source": "oeis-entry"

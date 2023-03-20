@@ -1,0 +1,21 @@
+{
+  "description": "Carryless n-th powers of n base 10.",
+  "id": "A361351",
+  "mentions": [
+    "A059729",
+    "A169885",
+    "A169886"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

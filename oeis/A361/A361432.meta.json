@@ -1,0 +1,35 @@
+{
+  "description": "Square array T(n,k), n >= 0, k >= 0, read by antidiagonals downwards, where T(n,k) = Sum_{j=0..floor(n/2)} k^(n-j) * binomial(n,2*j).",
+  "id": "A361432",
+  "mentions": [
+    "A000007",
+    "A006012",
+    "A011782",
+    "A081335",
+    "A083881",
+    "A084061",
+    "A084062",
+    "A084097",
+    "A090139",
+    "A143079",
+    "A145301",
+    "A145302",
+    "A145303",
+    "A289414",
+    "A289415"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

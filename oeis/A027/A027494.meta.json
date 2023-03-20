@@ -1,11 +1,12 @@
 {
-  "description": "Third column of Triangle A027479, constructed from the Stirling numbers of the first kind..",
+  "description": "Third column of Triangle A027479, constructed from the Stirling numbers of the first kind.",
   "id": "A027494",
   "mentions": [
     "A027479"
   ],
-  "modified": "2023-02-27 14:38:18",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "easy",
     "nonn"
   ],

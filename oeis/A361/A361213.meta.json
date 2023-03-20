@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f. satisfies A(x) = exp( 2*x*A(x) / (1+x) ).",
+  "id": "A361213",
+  "mentions": [
+    "A335945",
+    "A361068",
+    "A361193",
+    "A361214"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

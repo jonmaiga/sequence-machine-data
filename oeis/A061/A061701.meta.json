@@ -1,18 +1,21 @@
 {
-  "description": "Smallest number m such that GCD of d(m^2) and d(m) is 2n+1.",
+  "description": "Smallest number m such that GCD of d(m^2) and d(m) is 2n+1 where d(m) is the number of divisors of m.",
   "id": "A061701",
   "mentions": [
     "A000005",
     "A000290",
-    "A048691"
+    "A048691",
+    "A061680"
   ],
-  "modified": "2023-02-27 14:38:20",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
+    "modified": "2023-03-14 10:34:47",
     "offset": 0,
     "size": 17,
     "source": "oeis-entry"

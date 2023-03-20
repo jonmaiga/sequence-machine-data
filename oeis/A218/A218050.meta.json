@@ -1,15 +1,16 @@
 {
-  "description": "Number of n X n arrays of the minimum value of corresponding elements and their horizontal, vertical, diagonal or antidiagonal neighbors in a random 0..3 n X n array",
+  "description": "Number of n X n arrays of the minimum value of corresponding elements and their horizontal, vertical, diagonal or antidiagonal neighbors in a random 0..3 n X n array.",
   "id": "A218050",
   "mentions": [
     "A218056"
   ],
-  "modified": "2023-02-27 14:38:30",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
+    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

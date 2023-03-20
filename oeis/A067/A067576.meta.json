@@ -3,12 +3,15 @@
   "id": "A067576",
   "mentions": [
     "A000120",
+    "A036563",
     "A066884",
-    "A356419"
+    "A356419",
+    "A361074"
   ],
-  "modified": "2023-02-27 14:38:20",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
+    "changed",
     "easy",
     "nonn",
     "tabl"
@@ -16,7 +19,7 @@
   "terms": {
     "modified": "2023-02-27 17:00:19",
     "offset": 1,
-    "size": 64,
+    "size": 66,
     "source": "oeis-bfile"
   }
 }

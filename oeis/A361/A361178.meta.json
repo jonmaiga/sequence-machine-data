@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n >= 3, a(n) is the greatest k where a(n-1) + a(n-2) + ... + a(n-k) is prime, or a(n) = -1 if no such k exists.",
+  "id": "A361178",
+  "mentions": [
+    "A000040",
+    "A361199",
+    "A361231"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,8 +2,9 @@
   "description": "Expansion of 1/((1-x^2)(1-x^3)(1-x^10)(1-x^12)).",
   "id": "A029169",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "easy",
     "nonn"
   ],

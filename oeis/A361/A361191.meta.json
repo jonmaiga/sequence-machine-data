@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that the sums SumXOR_{i = 1+k*2^e..(k+1)*2^e} a(i) with k, e >= 0 are all distinct (where SumXOR is the analog of summation under the binary XOR operation).",
+  "id": "A361191",
+  "mentions": [
+    "A361144"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

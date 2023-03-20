@@ -1,14 +1,17 @@
 {
   "description": "a(0)=1; for n>0, a(n) is the number of rooted 3-regular maps with 2n vertices on the projective plane.",
   "id": "A322928",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:36",
+  "mentions": [
+    "A002005"
+  ],
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
+    "modified": "2023-03-14 10:34:48",
     "offset": 0,
     "size": 19,
     "source": "oeis-entry"

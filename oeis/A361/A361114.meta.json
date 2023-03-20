@@ -1,0 +1,21 @@
+{
+  "description": "a(n)=1 if A361102(n) is odd, otherwise 0.",
+  "id": "A361114",
+  "mentions": [
+    "A361102",
+    "A361113",
+    "A361115",
+    "A361116"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 0,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

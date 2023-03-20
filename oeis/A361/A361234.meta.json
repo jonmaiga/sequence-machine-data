@@ -1,0 +1,19 @@
+{
+  "description": "Infinite sequence of nonzero integers build the greedy way such that the products Product_{i = k*2^e..(k+1)*2^e} a(i) with k, e >= 0 are all distinct; each term is minimal in absolute value and in case of a tie, preference is given to the positive value.",
+  "id": "A361234",
+  "mentions": [
+    "A360305",
+    "A361144"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

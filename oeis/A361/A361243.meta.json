@@ -1,0 +1,21 @@
+{
+  "description": "Number of nonequivalent noncrossing cacti with n nodes up to rotation and reflection.",
+  "id": "A361243",
+  "mentions": [
+    "A003168",
+    "A007297",
+    "A361239",
+    "A361242"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

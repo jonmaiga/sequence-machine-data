@@ -1,0 +1,25 @@
+{
+  "description": "Number of connected 3-regular (cubic) multigraphs on 2n unlabeled nodes rooted at an unoriented edge (or loop) whose removal does not disconnect the graph, loops allowed.",
+  "id": "A361447",
+  "mentions": [
+    "A005967",
+    "A129427",
+    "A352175",
+    "A361135",
+    "A361412",
+    "A361446",
+    "A361448"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

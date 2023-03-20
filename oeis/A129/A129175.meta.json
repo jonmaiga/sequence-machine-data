@@ -1,14 +1,16 @@
 {
-  "description": "Triangle read by rows: the q-analog of the Catalan numbers.",
+  "description": "Triangle read by rows: MacMahon's q-analog of the Catalan numbers.",
   "id": "A129175",
   "mentions": [
     "A000108",
     "A001405",
     "A002740",
-    "A129174"
+    "A129174",
+    "A227543"
   ],
-  "modified": "2023-02-27 14:38:24",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "formulas",
     "nonn",
     "tabf"

@@ -2,10 +2,13 @@
   "description": "a(n) = 15120*(2*n)!/(n!*(n + 5)!); super ballot numbers, row 4 of A135573.",
   "id": "A348898",
   "mentions": [
+    "A000108",
     "A135573"
   ],
-  "modified": "2023-02-27 14:38:38",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
+    "easy",
     "formulas",
     "nonn"
   ],

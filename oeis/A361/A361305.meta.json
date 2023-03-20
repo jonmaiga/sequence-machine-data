@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of A(x) satisfying A(x) = x + A(x)^2*(1 + A(x))^3.",
+  "id": "A361305",
+  "mentions": [
+    "A214372",
+    "A361304",
+    "A361306"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

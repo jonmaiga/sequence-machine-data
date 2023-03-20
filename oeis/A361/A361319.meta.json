@@ -1,0 +1,23 @@
+{
+  "description": "Indices of records in the sequence of infinitary harmonic means A361316(k)/A361317(k).",
+  "id": "A361319",
+  "mentions": [
+    "A037992",
+    "A179971",
+    "A327634",
+    "A348654",
+    "A361316",
+    "A361317"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

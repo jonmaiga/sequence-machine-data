@@ -1,0 +1,20 @@
+{
+  "description": "X-coordinates of a point moving in a counterclockwise undulating spiral in a square grid.",
+  "id": "A359216",
+  "mentions": [
+    "A359058",
+    "A359217"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "sign",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

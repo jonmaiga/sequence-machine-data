@@ -1,11 +1,12 @@
 {
-  "description": "Number of nX3 0..4 arrays with each element x equal to the number its horizontal and vertical neighbors equal to 3,4,0,2,1 for x=0,1,2,3,4",
+  "description": "Number of n X 3 0..4 arrays with each element x equal to the number its horizontal and vertical neighbors equal to 3,4,0,2,1 for x=0,1,2,3,4.",
   "id": "A196648",
   "mentions": [
     "A196653"
   ],
-  "modified": "2023-02-27 14:38:28",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],

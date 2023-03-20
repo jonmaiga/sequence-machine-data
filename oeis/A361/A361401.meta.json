@@ -1,0 +1,23 @@
+{
+  "description": "Irregular table T(n, k), n >= 0, k = 1..A361398(n); the n-th row lists the numbers whose binary expansion is a self-merge of that of n.",
+  "id": "A361401",
+  "mentions": [
+    "A330941",
+    "A358893",
+    "A361398"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "base",
+    "formulas",
+    "new",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

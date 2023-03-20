@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = gcd(A360519(n), A360519(n+1)).",
+  "id": "A361118",
+  "mentions": [
+    "A360519"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

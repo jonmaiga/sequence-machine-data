@@ -1,0 +1,36 @@
+{
+  "description": "Square array T(n,k) = k*((3+6*n)*k - 1)/2; n>=0, k>=0, read by antidiagonals upwards.",
+  "id": "A360962",
+  "mentions": [
+    "A000004",
+    "A000326",
+    "A000537",
+    "A016777",
+    "A017209",
+    "A017581",
+    "A022266",
+    "A022272",
+    "A022278",
+    "A022284",
+    "A024394",
+    "A026741",
+    "A033428",
+    "A154266",
+    "A158057",
+    "A161447",
+    "A348845"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

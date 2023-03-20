@@ -7,14 +7,13 @@
     "A185787",
     "A191360"
   ],
-  "modified": "2023-02-27 14:38:39",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
     "easy",
-    "new",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
+    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 70,
     "source": "oeis-entry"

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of A(x) satisfying [x^n] A(x)^n / (1 + x*A(x)^n)^n = 0 for n > 0.",
+  "id": "A360581",
+  "mentions": [
+    "A360582",
+    "A360583",
+    "A360584"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

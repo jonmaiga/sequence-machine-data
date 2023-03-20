@@ -6,14 +6,13 @@
     "A358924",
     "A358968"
   ],
-  "modified": "2023-02-27 14:38:39",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
     "cons",
-    "new",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
+    "modified": "2023-03-14 10:34:48",
     "offset": 2,
     "size": 115,
     "source": "oeis-entry"

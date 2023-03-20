@@ -2,10 +2,21 @@
   "description": "q-Catalan numbers (binomial version) for q=2.",
   "id": "A015030",
   "mentions": [
+    "A015033",
+    "A015035",
+    "A015037",
+    "A015042",
+    "A015055",
+    "A015058",
+    "A015060",
+    "A015062",
+    "A015072",
+    "A015077",
+    "A015079",
     "A065446",
     "A136097"
   ],
-  "modified": "2023-02-27 14:38:17",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
     "easy",
     "formulas",

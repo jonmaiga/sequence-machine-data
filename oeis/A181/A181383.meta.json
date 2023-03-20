@@ -2,18 +2,21 @@
   "description": "The (2^n)-th lucky number.",
   "id": "A181383",
   "mentions": [
+    "A000079",
     "A000959",
     "A181382"
   ],
-  "modified": "2023-02-27 14:38:27",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
+    "formulas",
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
+    "modified": "2023-03-14 10:44:25",
     "offset": 0,
     "size": 32,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,39 @@
+{
+  "description": "Number of multisets of positive integers whose right half (exclusive) sums to n.",
+  "id": "A360673",
+  "mentions": [
+    "A000041",
+    "A347043",
+    "A347044",
+    "A359893",
+    "A359901",
+    "A360616",
+    "A360617",
+    "A360671",
+    "A360672",
+    "A360674",
+    "A360675",
+    "A360676",
+    "A360677",
+    "A360678",
+    "A360679",
+    "A360953",
+    "A360954",
+    "A360955",
+    "A360956",
+    "A361200",
+    "A361201"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

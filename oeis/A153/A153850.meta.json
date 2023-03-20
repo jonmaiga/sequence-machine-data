@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the coefficient of x^n in the n-fold self-composition of G(x) = x + G(G(x))^3 = g.f. of A153851.",
+  "description": "a(n) is the coefficient of x^(2*n-1) in the n-fold self-composition of G(x) = x + G(G(x))^3 = g.f. of A153851.",
   "id": "A153850",
   "mentions": [
     "A153851",
@@ -7,12 +7,13 @@
     "A153853",
     "A153854"
   ],
-  "modified": "2023-02-27 14:38:26",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
+    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

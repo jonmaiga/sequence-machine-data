@@ -1,0 +1,23 @@
+{
+  "description": "Number of unlabeled connected multigraphs with n edges, no cut-points and degree >= 3 at each node, loops allowed.",
+  "id": "A360882",
+  "mentions": [
+    "A002935",
+    "A360863",
+    "A360867",
+    "A360870",
+    "A360871"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

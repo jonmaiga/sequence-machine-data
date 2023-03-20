@@ -2,11 +2,13 @@
   "description": "a(n) = Sum_{k=0..floor(n/2)} (-1)^k * binomial(2*n-4*k,n-2*k).",
   "id": "A360185",
   "mentions": [
+    "A000984",
     "A054108",
     "A360186"
   ],
-  "modified": "2023-02-27 14:38:39",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"

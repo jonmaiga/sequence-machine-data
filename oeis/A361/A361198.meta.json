@@ -1,0 +1,22 @@
+{
+  "description": "Consider a perfect infinite binary tree with nodes labeled with distinct positive integers where n appears at level A082850(n) and each level is filled from left to right; a(n) is the sibling of n in this tree.",
+  "id": "A361198",
+  "mentions": [
+    "A082850",
+    "A101925",
+    "A126646",
+    "A308187"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

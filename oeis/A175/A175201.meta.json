@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest k such that the n consecutive values L(k), L(k+1),…, L(k+n-1) = 1, where L(m) is the Liouville function A008836(m).",
+  "description": "a(n) is the smallest k such that the n consecutive values lambda(k), lambda(k+1), ..., lambda(k+n-1) = 1, where lambda(m) is the Liouville function A008836(m).",
   "id": "A175201",
   "mentions": [
     "A002819",
@@ -10,8 +10,9 @@
     "A172354",
     "A175202"
   ],
-  "modified": "2023-02-27 14:38:27",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],

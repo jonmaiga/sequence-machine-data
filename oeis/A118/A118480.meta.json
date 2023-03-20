@@ -1,5 +1,5 @@
 {
-  "description": "(n-th 4k+1 prime minus n-th 4k+3 prime less two)/4.",
+  "description": "(n-th 4k+1 prime minus n-th 4k+3 prime minus two)/4.",
   "id": "A118480",
   "mentions": [
     "A002144",
@@ -9,8 +9,9 @@
     "A022757",
     "A038691"
   ],
-  "modified": "2023-02-27 14:38:23",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "formulas",
     "sign"
   ],

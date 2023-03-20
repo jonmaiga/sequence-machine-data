@@ -2,18 +2,22 @@
   "description": "a(n) = 840*(2*n)!/((n + 4)!*n!).",
   "id": "A348893",
   "mentions": [
+    "A000108",
     "A007054",
     "A007272",
-    "A135573"
+    "A135573",
+    "A348898",
+    "A348899"
   ],
-  "modified": "2023-02-27 14:38:38",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
+    "modified": "2023-03-14 10:34:48",
     "offset": 0,
     "size": 31,
     "source": "oeis-entry"

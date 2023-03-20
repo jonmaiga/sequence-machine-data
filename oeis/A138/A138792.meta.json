@@ -1,17 +1,18 @@
 {
-  "description": "Least prime, p, such that p == n (Mod sum of the digits of p).",
+  "description": "Least prime, p, such that p mod (sum of the digits of p) = n.",
   "id": "A138792",
   "mentions": [
     "A136251",
     "A138791"
   ],
-  "modified": "2023-02-27 14:38:25",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
     "base",
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:26",
+    "modified": "2023-03-14 10:44:24",
     "offset": 0,
     "size": 45,
     "source": "oeis-bfile"

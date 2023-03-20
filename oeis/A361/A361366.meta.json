@@ -1,0 +1,20 @@
+{
+  "description": "Number of unlabeled simple planar digraphs with n nodes.",
+  "id": "A361366",
+  "mentions": [
+    "A000273",
+    "A005470"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -4,15 +4,16 @@
   "mentions": [
     "A264646"
   ],
-  "modified": "2023-02-27 14:38:37",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
     "base",
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:03",
+    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 50,
-    "source": "oeis-bfile"
+    "source": "oeis-entry"
   }
 }

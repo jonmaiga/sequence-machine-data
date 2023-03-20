@@ -1,0 +1,22 @@
+{
+  "description": "Order the nonnegative integers by increasing number of digits in base 2, then by decreasing number of digits in base 3, then by increasing number of digits in base 4, etc.",
+  "id": "A360959",
+  "mentions": [
+    "A360960",
+    "A360964",
+    "A360982"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "base",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

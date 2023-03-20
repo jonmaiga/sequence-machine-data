@@ -1,18 +1,19 @@
 {
-  "description": "Numbers n such that transient part of the aliquot sequence for n is finite and sets a new record.",
+  "description": "Numbers k such that the transient part of the aliquot sequence for k is finite and sets a new record.",
   "id": "A098009",
   "mentions": [
     "A098007",
     "A098008",
     "A098010"
   ],
-  "modified": "2023-02-27 14:38:22",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
+    "modified": "2023-03-14 10:34:47",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

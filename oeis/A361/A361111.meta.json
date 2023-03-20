@@ -1,0 +1,23 @@
+{
+  "description": "The binary expansion of a(n) specifies which primes divide A360519(n).",
+  "id": "A361111",
+  "mentions": [
+    "A087207",
+    "A360519",
+    "A361109",
+    "A361110"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "base",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

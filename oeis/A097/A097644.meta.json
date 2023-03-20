@@ -1,17 +1,18 @@
 {
-  "description": "Numbers n such that pi(n)=reversal(n).",
+  "description": "Numbers n such that pi(n) = reversal(n).",
   "id": "A097644",
   "mentions": [
     "A037171",
     "A069215"
   ],
-  "modified": "2023-02-27 14:38:22",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
+    "modified": "2023-03-14 10:34:47",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

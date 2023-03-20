@@ -1,11 +1,13 @@
 {
-  "description": "Number of 4Xn binary matrices M with rows in strictly increasing order and rows of M*Mtranspose (mod 2) in strictly decreasing order",
+  "description": "Number of 4Xn binary matrices M with rows in strictly increasing order and rows of M*Mtranspose (mod 2) in strictly decreasing order.",
   "id": "A181280",
   "mentions": [
     "A181274"
   ],
-  "modified": "2023-02-27 14:38:27",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -2,9 +2,10 @@
   "description": "a(n) = sum of digits of a(n-1)*a(n-2).",
   "id": "A048572",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
+    "changed",
     "easy",
     "formulas",
     "nice",

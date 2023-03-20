@@ -1,0 +1,25 @@
+{
+  "description": "Even integers d such that the longest possible arithmetic progression (AP) of primes with common difference d has only two elements.",
+  "id": "A360735",
+  "mentions": [
+    "A040976",
+    "A047235",
+    "A123556",
+    "A173919",
+    "A206037",
+    "A342309",
+    "A359408"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

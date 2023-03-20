@@ -1,10 +1,10 @@
 {
-  "description": "225n - 1.",
+  "description": "a(n) = 225*n - 1.",
   "id": "A158227",
   "mentions": [
     "A158226"
   ],
-  "modified": "2023-02-27 14:38:26",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
     "easy",
     "formulas",

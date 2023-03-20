@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of distinct prime factors of the n-th unitary harmonic number.",
+  "id": "A361384",
+  "mentions": [
+    "A001221",
+    "A006086",
+    "A006087"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

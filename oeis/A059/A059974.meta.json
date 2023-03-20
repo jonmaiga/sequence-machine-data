@@ -2,9 +2,8 @@
   "description": "a(n)=a(p)+a(q) where p and q are the two primes less than n and closest to n; with a(1)=1, a(2)=1, a(3) = 1.",
   "id": "A059974",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "easy",
     "nonn"
   ],

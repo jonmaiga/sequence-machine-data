@@ -1,5 +1,5 @@
 {
-  "description": "In base 2, n and n^2 contain the same digits in the same proportion.",
+  "description": "Numbers k > 1 such that, in base 2, k and k^2 contain the same digits in the same proportion.",
   "id": "A061656",
   "mentions": [
     "A061657",
@@ -12,7 +12,7 @@
     "A061664",
     "A114258"
   ],
-  "modified": "2023-02-27 14:38:20",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
     "easy",

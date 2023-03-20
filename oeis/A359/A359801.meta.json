@@ -1,0 +1,25 @@
+{
+  "description": "Number of 4-dimensional cubic lattice walks that start and end at origin after 2n steps, not touching origin at intermediate stages.",
+  "id": "A359801",
+  "mentions": [
+    "A002420",
+    "A039699",
+    "A049037",
+    "A054474",
+    "A287317",
+    "A361397"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

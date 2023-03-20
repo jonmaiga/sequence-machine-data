@@ -1,17 +1,18 @@
 {
-  "description": "Number of nX5 nonnegative integer arrays with new values 0 upwards introduced in row major order and no element equal to any horizontal or vertical neighbor (colorings ignoring permutations of colors)",
+  "description": "Number of n X 5 nonnegative integer arrays with new values 0 upwards introduced in row major order and no element equal to any horizontal or vertical neighbor (colorings ignoring permutations of colors).",
   "id": "A207867",
   "mentions": [
     "A207868"
   ],
-  "modified": "2023-02-27 14:38:29",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
+    "modified": "2023-03-14 10:44:26",
     "offset": 1,
-    "size": 5,
-    "source": "oeis-entry"
+    "size": 10,
+    "source": "oeis-bfile"
   }
 }

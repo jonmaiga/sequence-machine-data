@@ -4,18 +4,18 @@
   "mentions": [
     "A000041",
     "A116694",
-    "A224697"
+    "A224697",
+    "A360629"
   ],
-  "modified": "2023-02-27 14:38:39",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "formulas",
     "more",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
+    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 26,
     "source": "oeis-entry"

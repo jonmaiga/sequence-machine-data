@@ -4,14 +4,15 @@
   "mentions": [
     "A008292"
   ],
-  "modified": "2023-02-27 14:38:25",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "formulas",
     "sign",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:34",
+    "modified": "2023-03-14 10:44:24",
     "offset": 0,
     "size": 50,
     "source": "oeis-bfile"

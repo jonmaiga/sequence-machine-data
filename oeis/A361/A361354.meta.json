@@ -1,0 +1,21 @@
+{
+  "description": "Number of simple quasi series-parallel matroids on [n].",
+  "id": "A361354",
+  "mentions": [
+    "A007834",
+    "A359986",
+    "A361353"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

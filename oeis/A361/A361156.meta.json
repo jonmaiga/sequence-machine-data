@@ -1,0 +1,19 @@
+{
+  "description": "Number of ideals of norm 6 in the order O_D associated with the Teichmuller curve of discriminant D = A361155(n).",
+  "id": "A361156",
+  "mentions": [
+    "A361155"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

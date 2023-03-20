@@ -2,9 +2,8 @@
   "description": "Numbers of the form n^2+1 such that 3^(m+3)==9(mod m) where m=n^4-1.",
   "id": "A212876",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "nonn"
   ],
   "terms": {

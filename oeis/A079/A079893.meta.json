@@ -1,19 +1,21 @@
 {
-  "description": "a(n) = gcd(n, A079892(n)).",
+  "description": "a(n) = gcd(n, A079892(n)), where A079892(n) is the least number > n having one more distinct prime factor than n.",
   "id": "A079893",
   "mentions": [
     "A079891",
     "A079892",
     "A079894"
   ],
-  "modified": "2023-02-27 14:38:21",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
+    "look",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
+    "modified": "2023-03-14 10:44:23",
     "offset": 1,
     "size": 100,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

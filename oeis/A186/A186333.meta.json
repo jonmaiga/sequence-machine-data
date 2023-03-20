@@ -2,16 +2,15 @@
   "description": "Triangle T(n,k), the coefficient of x^n in x^k*(1+x+x^2+2*x^3)^k, 1<=k<=n.",
   "id": "A186333",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
+    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 78,
     "source": "oeis-entry"

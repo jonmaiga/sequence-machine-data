@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (k-1)^(k-1) * binomial(n,k).",
+  "id": "A360193",
+  "mentions": [
+    "A088957",
+    "A105785",
+    "A177885",
+    "A277473"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

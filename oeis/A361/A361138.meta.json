@@ -1,0 +1,19 @@
+{
+  "description": "Number of rooted maps of genus 1 with n edges.",
+  "id": "A361138",
+  "mentions": [
+    "A000168"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

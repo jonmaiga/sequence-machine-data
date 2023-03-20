@@ -1,11 +1,12 @@
 {
-  "description": "Number of (n+2)X(5+2) 0..1 arrays with no 3x3 subblock diagonal sum 2 and no antidiagonal sum 2 and no row sum 0 and no column sum 0",
+  "description": "Number of (n+2) X (5+2) 0..1 arrays with no 3 X 3 subblock diagonal sum 2 and no antidiagonal sum 2 and no row sum 0 and no column sum 0.",
   "id": "A255789",
   "mentions": [
     "A255792"
   ],
-  "modified": "2023-02-27 14:38:32",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],

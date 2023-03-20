@@ -2,13 +2,12 @@
   "description": "Numbers n such that x^2 = 1 has more than two solutions in the Gaussian integers modulo n.",
   "id": "A226746",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
+    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

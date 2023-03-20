@@ -7,16 +7,18 @@
     "A059956",
     "A145353",
     "A306071",
-    "A327576"
+    "A327576",
+    "A361013"
   ],
-  "modified": "2023-02-27 14:38:37",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
+    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

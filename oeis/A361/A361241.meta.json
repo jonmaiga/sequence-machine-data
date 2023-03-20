@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonequivalent noncrossing 4-gonal cacti with n polygons up to rotation and reflection.",
+  "id": "A361241",
+  "mentions": [
+    "A361238",
+    "A361239"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

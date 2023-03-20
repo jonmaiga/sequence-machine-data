@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying a(n) = [x^(n-1)] A(x)^(n+1) for n >= 1.",
+  "id": "A361048",
+  "mentions": [
+    "A113882",
+    "A132070",
+    "A361049"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

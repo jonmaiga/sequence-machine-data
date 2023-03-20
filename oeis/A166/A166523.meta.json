@@ -2,9 +2,8 @@
   "description": "a(n) = 8*n - a(n-1), with n>1, a(1)=1.",
   "id": "A166523",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "nonn"

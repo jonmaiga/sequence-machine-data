@@ -2,10 +2,9 @@
   "description": "Slowest increasing sequence that starts with 1 and has property that adding two consecutive terms gives a number which does not share a digit with either of the two terms.",
   "id": "A129562",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
     "base",
-    "changed",
     "easy",
     "nonn"
   ],

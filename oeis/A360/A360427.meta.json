@@ -1,0 +1,20 @@
+{
+  "description": "Values of the argument at successive record minima of the function R defined as follows. For any integer x >= 1, let y > x be the smallest integer such that there exist integers x < c < d < y such that x^3 + y^3 = c^3 + d^3. Then R(x) = y/x.",
+  "id": "A360427",
+  "mentions": [
+    "A001235",
+    "A011541"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

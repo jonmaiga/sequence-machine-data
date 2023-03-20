@@ -1,12 +1,13 @@
 {
-  "description": "Number of integers from 0 to 10^n-1 which contain at least one decimal digit = 0.",
+  "description": "Number of integers from 0 to 10^n - 1 whose decimal digits include at least one 0.",
   "id": "A095807",
   "mentions": [
     "A016189"
   ],
-  "modified": "2023-02-27 14:38:22",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
+    "changed",
     "easy",
     "formulas",
     "nonn"

@@ -1,19 +1,21 @@
 {
-  "description": "Number of distinct transpositions of binary digits (0's and 1's) in n.",
+  "description": "Number of distinct permutations of binary digits (0's and 1's) in n.",
   "id": "A178244",
   "mentions": [
     "A000120",
     "A001477",
     "A023416"
   ],
-  "modified": "2023-02-27 14:38:27",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
     "base",
+    "changed",
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
+    "modified": "2023-03-14 10:34:48",
     "offset": 0,
     "size": 80,
     "source": "oeis-entry"

@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of \"Fermi-Dirac prime\" factors (or I-components) of the n-th infinitary harmonic number.",
+  "id": "A361385",
+  "mentions": [
+    "A006086",
+    "A006087",
+    "A063947",
+    "A064547",
+    "A361384"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

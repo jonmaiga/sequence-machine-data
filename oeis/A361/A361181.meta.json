@@ -1,0 +1,22 @@
+{
+  "description": "Numbers such that both sum and product of the prime factors (without multiplicity) are palindromic.",
+  "id": "A361181",
+  "mentions": [
+    "A002113",
+    "A002385",
+    "A007947",
+    "A008472"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

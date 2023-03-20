@@ -1,5 +1,5 @@
 {
-  "description": "n^(initial digit of n).",
+  "description": "a(n) = n^(initial digit of n).",
   "id": "A134010",
   "mentions": [
     "A000027",
@@ -13,9 +13,10 @@
     "A001016",
     "A001017"
   ],
-  "modified": "2023-02-27 14:38:24",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
     "base",
+    "changed",
     "look",
     "nonn"
   ],

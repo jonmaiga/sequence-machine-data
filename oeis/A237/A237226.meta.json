@@ -1,15 +1,16 @@
 {
-  "description": "Number of (n+1)X(n+1) 0..2 arrays with the maximum plus the minimum of every 2X2 subblock differing from its horizontal and vertical neighbors by exactly one",
+  "description": "Number of (n+1) X (n+1) 0..2 arrays with the maximum plus the minimum of every 2 X 2 subblock differing from its horizontal and vertical neighbors by exactly one.",
   "id": "A237226",
   "mentions": [
     "A237234"
   ],
-  "modified": "2023-02-27 14:38:31",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
+    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

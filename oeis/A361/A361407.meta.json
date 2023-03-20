@@ -1,0 +1,23 @@
+{
+  "description": "Number of connected cubic graphs on 2n unlabeled vertices rooted at a vertex.",
+  "id": "A361407",
+  "mentions": [
+    "A002851",
+    "A005638",
+    "A321304",
+    "A361408",
+    "A361410"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

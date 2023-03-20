@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of integers > 1 such that the products Product_{i = 1+k*2^e..(k+1)*2^e} a(i) with k, e >= 0 are all distinct.",
+  "id": "A360305",
+  "mentions": [
+    "A249407",
+    "A361144",
+    "A361234"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

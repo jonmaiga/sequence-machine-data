@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least positive integer that can be expressed as the sum of one or more consecutive prime-indexed primes in exactly n ways.",
+  "id": "A360837",
+  "mentions": [
+    "A006450",
+    "A054859"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "hard",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

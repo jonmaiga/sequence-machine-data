@@ -4,15 +4,16 @@
   "mentions": [
     "A085823"
   ],
-  "modified": "2023-02-27 14:38:21",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
+    "modified": "2023-03-14 10:34:47",
     "offset": 0,
-    "size": 19,
+    "size": 28,
     "source": "oeis-entry"
   }
 }

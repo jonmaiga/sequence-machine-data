@@ -1,9 +1,12 @@
 {
-  "description": "E.g.f.: LambertW(x/(-1+x))/x*(-1+x).",
+  "description": "Expansion of e.g.f. LambertW(x/(-1+x))/x*(-1+x).",
   "id": "A052868",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:19",
+  "mentions": [
+    "A352410"
+  ],
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"

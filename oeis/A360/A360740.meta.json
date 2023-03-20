@@ -1,0 +1,25 @@
+{
+  "description": "Semiprimes of the form k^2 + 3.",
+  "id": "A360740",
+  "mentions": [
+    "A001358",
+    "A085722",
+    "A117950",
+    "A144255",
+    "A242330",
+    "A242331"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

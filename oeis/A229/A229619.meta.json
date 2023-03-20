@@ -1,19 +1,19 @@
 {
-  "description": "G.f. satisfies: A(x) = Series_Reversion(x - x^2*A’(x)).",
+  "description": "G.f. satisfies: A(x) = Series_Reversion(x - x^2*A'(x)).",
   "id": "A229619",
   "mentions": [
     "A360950"
   ],
-  "modified": "2023-02-27 14:38:30",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
     "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
+    "modified": "2023-03-14 10:44:26",
     "offset": 1,
     "size": 21,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

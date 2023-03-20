@@ -1,11 +1,12 @@
 {
-  "description": "Number of (n+1)X(4+1) 0..3 arrays colored with the difference of the maximum and minimum in each 2X2 subblock",
+  "description": "Number of (n+1) X (4+1) 0..3 arrays colored with the difference of the maximum and minimum in each 2 X 2 subblock.",
   "id": "A236448",
   "mentions": [
     "A236451"
   ],
-  "modified": "2023-02-27 14:38:31",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {

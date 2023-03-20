@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = sigma(n)^4.",
+  "id": "A361179",
+  "mentions": [
+    "A000203",
+    "A000583",
+    "A021002",
+    "A072861",
+    "A361132",
+    "A361147",
+    "A361148"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "mult",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

@@ -1,12 +1,13 @@
 {
-  "description": "a(n) = 30n^2 + 1.",
+  "description": "a(n) = 30*n^2 + 1.",
   "id": "A158558",
   "mentions": [
     "A005843",
     "A158557"
   ],
-  "modified": "2023-02-27 14:38:26",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
@@ -14,7 +15,7 @@
   "terms": {
     "modified": "2023-02-27 17:01:41",
     "offset": 0,
-    "size": 39,
+    "size": 42,
     "source": "oeis-bfile"
   }
 }

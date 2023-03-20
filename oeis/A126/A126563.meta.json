@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the ratio of A117731(n) and A082687(n) is composite.",
+  "description": "Numbers k such that the ratio of A117731(k) and A082687(k) is composite.",
   "id": "A126563",
   "mentions": [
     "A082687",
@@ -10,15 +10,16 @@
     "A126196",
     "A126197"
   ],
-  "modified": "2023-02-27 14:38:24",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
     "bref",
+    "changed",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
+    "modified": "2023-03-14 10:34:47",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

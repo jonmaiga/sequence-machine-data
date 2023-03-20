@@ -1,5 +1,5 @@
 {
-  "description": "Sum of divisors of the numbers whose divisors increase by a factor of 2 or less.",
+  "description": "Sum of divisors of the n-th number whose divisors increase by a factor of 2 or less.",
   "id": "A317305",
   "mentions": [
     "A000203",
@@ -22,9 +22,10 @@
     "A244050",
     "A245092",
     "A262626",
-    "A317307"
+    "A317307",
+    "A361208"
   ],
-  "modified": "2023-02-27 14:38:36",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
     "changed",
     "formulas",

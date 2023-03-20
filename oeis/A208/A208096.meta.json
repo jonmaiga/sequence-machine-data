@@ -1,19 +1,29 @@
 {
-  "description": "T(n,k)=Number of nXk nonnegative integer arrays with new values 0 upwards introduced in row major order and no element equal to any horizontal, diagonal or antidiagonal neighbor (colorings ignoring permutations of colors)",
+  "description": "T(n,k)=Number of n X k nonnegative integer arrays with new values 0 upwards introduced in row major order and no element equal to any horizontal, diagonal or antidiagonal neighbor (colorings ignoring permutations of colors).",
   "id": "A208096",
   "mentions": [
     "A000110",
-    "A207864"
+    "A207864",
+    "A207868",
+    "A208093",
+    "A208094",
+    "A208095",
+    "A208097",
+    "A208098",
+    "A208099",
+    "A208100",
+    "A361449"
   ],
-  "modified": "2023-02-27 14:38:29",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:28",
+    "modified": "2023-03-14 10:44:26",
     "offset": 1,
-    "size": 37,
+    "size": 36,
     "source": "oeis-bfile"
   }
 }

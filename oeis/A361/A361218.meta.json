@@ -1,0 +1,20 @@
+{
+  "description": "Maximum number of ways in which a set of integer-sided rectangular pieces can tile an n X 2 rectangle.",
+  "id": "A361218",
+  "mentions": [
+    "A360631",
+    "A361216",
+    "A361224"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

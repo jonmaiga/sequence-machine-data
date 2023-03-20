@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the first term of the n-th row of A361442.",
+  "id": "A361443",
+  "mentions": [
+    "A361442"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

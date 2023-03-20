@@ -1,0 +1,19 @@
+{
+  "description": "Number of multisets of size n with elements from [n] whose element sum is larger than the product of all elements.",
+  "id": "A360971",
+  "mentions": [
+    "A103586",
+    "A360538",
+    "A360563"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

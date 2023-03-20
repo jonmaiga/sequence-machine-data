@@ -1,5 +1,5 @@
 {
-  "description": "Product of first n centered triangular numbers.",
+  "description": "Partial products of A005448.",
   "id": "A140701",
   "mentions": [
     "A005448",
@@ -7,16 +7,17 @@
     "A006472",
     "A140702"
   ],
-  "modified": "2023-02-27 14:38:25",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:29",
-    "offset": 1,
-    "size": 14,
+    "modified": "2023-03-14 10:44:24",
+    "offset": 0,
+    "size": 17,
     "source": "oeis-bfile"
   }
 }

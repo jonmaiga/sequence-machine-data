@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of quasi series-parallel matroids on [n] with rank k, 0 <= k <= n.",
+  "id": "A359985",
+  "mentions": [
+    "A000012",
+    "A000225",
+    "A006095",
+    "A022166",
+    "A140945",
+    "A359986"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

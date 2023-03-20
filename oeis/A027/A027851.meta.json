@@ -10,15 +10,16 @@
     "A058108",
     "A079173"
   ],
-  "modified": "2023-02-27 14:38:18",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "formulas",
     "hard",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
+    "modified": "2023-03-14 10:34:47",
     "offset": 0,
     "size": 10,
     "source": "oeis-entry"

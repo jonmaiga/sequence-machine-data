@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways to write n^2 as an ordered sum of n^2 squares of integers.",
+  "id": "A361431",
+  "mentions": [
+    "A000290",
+    "A066535"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

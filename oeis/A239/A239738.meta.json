@@ -1,15 +1,18 @@
 {
-  "description": "Normal distributions from the primes. The contracted sequence of integers generated from the frequencies of the summation of elements of the subsets of the Cartesian product of the natural numbers of ascending prime cardinality. that is, given a number of sets of the natural numbers of ascending modulo P(n+1), the probabilities of generating a given number from the selection of one element from each set form the given sequence.",
+  "description": "Triangle read by rows: T(n,k) is the number of n-tuples with sum k + n whose i-th element is a positive integer <= prime(i), 0 <= k < A070826(n).",
   "id": "A239738",
   "mentions": [
+    "A002110",
+    "A005521",
+    "A070826",
     "A131791"
   ],
-  "modified": "2023-02-27 14:38:31",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
+    "formulas",
     "nonn",
-    "obsc",
-    "tabf",
-    "uned"
+    "tabf"
   ],
   "terms": {
     "modified": "2023-02-27 17:02:56",

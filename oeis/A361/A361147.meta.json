@@ -1,0 +1,28 @@
+{
+  "description": "a(n) = sigma(n)^3.",
+  "id": "A361147",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A000578",
+    "A024916",
+    "A035116",
+    "A072379",
+    "A072861",
+    "A319089",
+    "A361179"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "mult",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

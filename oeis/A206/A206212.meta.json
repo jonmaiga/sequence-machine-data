@@ -1,11 +1,12 @@
 {
-  "description": "Number of (n+1)X6 0..2 arrays with every 2X3 or 3X2 subblock having exactly two equal edges, and new values 0..2 introduced in row major order",
+  "description": "Number of (n+1) X 6 0..2 arrays with every 2 X 3 or 3 X 2 subblock having exactly two equal edges, and new values 0..2 introduced in row major order.",
   "id": "A206212",
   "mentions": [
     "A206215"
   ],
-  "modified": "2023-02-27 14:38:29",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],

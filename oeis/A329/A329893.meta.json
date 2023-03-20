@@ -1,5 +1,5 @@
 {
-  "description": "Product_{k=0..floor(log_2(n))} (1 + A004718(floor(n/(2^k)))), where A004718 is Per Nørgård's \"infinity sequence\".",
+  "description": "a(n) = Product_{k=0..floor(log_2(n))} (1 + A004718(floor(n/(2^k)))), where A004718 is Per Nørgård's \"infinity sequence\".",
   "id": "A329893",
   "mentions": [
     "A001405",
@@ -9,8 +9,9 @@
     "A325803",
     "A325804"
   ],
-  "modified": "2023-02-27 14:38:37",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "formulas",
     "sign"
   ],

@@ -1,12 +1,13 @@
 {
-  "description": "Discriminants of the polynomials T_n(x) = Product_{k=0..n} (x - k(k + 1)/2).",
+  "description": "Discriminants of the polynomials T_n(x) = Product_{k=0..n} (x - k*(k + 1)/2).",
   "id": "A271386",
   "mentions": [
     "A000217",
     "A128813"
   ],
-  "modified": "2023-02-27 14:38:33",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {

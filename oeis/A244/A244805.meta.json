@@ -1,5 +1,5 @@
 {
-  "description": "The 240 degree spoke (or ray) of a hexagonal spiral of Ulam.",
+  "description": "The 240-degree spoke (or ray) of a hexagonal spiral of Ulam.",
   "id": "A244805",
   "mentions": [
     "A003215",
@@ -16,7 +16,7 @@
     "A244806",
     "A281333"
   ],
-  "modified": "2023-02-27 14:38:31",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
     "easy",
     "formulas",

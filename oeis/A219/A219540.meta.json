@@ -1,13 +1,14 @@
 {
-  "description": "a(n) = (n^2 + 2*(Sum{j = 1 .. n} j^n)) (mod n^3).",
+  "description": "a(n) = (n^2 + 2*(Sum_{j = 1..n} j^n)) (mod n^3).",
   "id": "A219540",
   "mentions": [
     "A000928",
     "A027642",
     "A037641"
   ],
-  "modified": "2023-02-27 14:38:30",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {

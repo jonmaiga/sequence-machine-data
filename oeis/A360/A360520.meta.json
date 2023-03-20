@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A120963(n) + A341711(floor(n/2)).",
+  "id": "A360520",
+  "mentions": [
+    "A120963",
+    "A341711"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

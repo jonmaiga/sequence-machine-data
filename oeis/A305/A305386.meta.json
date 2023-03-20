@@ -2,6 +2,7 @@
   "description": "Indicator function of A140101.",
   "id": "A305386",
   "mentions": [
+    "A080843",
     "A140100",
     "A140101",
     "A140102",
@@ -10,8 +11,9 @@
     "A305387",
     "A305388"
   ],
-  "modified": "2023-02-27 14:38:35",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],

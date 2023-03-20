@@ -1,0 +1,39 @@
+{
+  "description": "Number of integer partitions of 2n whose left half (exclusive) and right half (inclusive) both sum to n.",
+  "id": "A360674",
+  "mentions": [
+    "A000005",
+    "A000041",
+    "A008284",
+    "A237363",
+    "A347043",
+    "A347044",
+    "A359893",
+    "A359901",
+    "A360254",
+    "A360671",
+    "A360672",
+    "A360673",
+    "A360675",
+    "A360676",
+    "A360677",
+    "A360678",
+    "A360679",
+    "A360682",
+    "A360953",
+    "A361200",
+    "A361201"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^2 == -1 (mod 13).",
+  "description": "Numbers k such that k^2 == -1 (mod 13).",
   "id": "A155086",
   "mentions": [
     "A002144",
@@ -11,7 +11,7 @@
     "A155098",
     "A156619"
   ],
-  "modified": "2023-02-27 14:38:26",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
     "easy",
     "formulas",
@@ -20,7 +20,7 @@
   "terms": {
     "modified": "2022-04-26 17:07:25",
     "offset": 1,
-    "size": 52,
+    "size": 56,
     "source": "joeis"
   }
 }

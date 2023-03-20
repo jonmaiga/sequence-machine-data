@@ -1,0 +1,23 @@
+{
+  "description": "Number of n-digit zeroless numbers whose digit sum is larger than the product of all digits.",
+  "id": "A360972",
+  "mentions": [
+    "A007953",
+    "A007954",
+    "A052382",
+    "A055642",
+    "A360538"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

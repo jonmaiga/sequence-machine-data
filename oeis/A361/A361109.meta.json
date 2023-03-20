@@ -1,0 +1,21 @@
+{
+  "description": "After A360519(n) has been found, a(n) is the smallest member of C (A361102) that is missing from A360519.",
+  "id": "A361109",
+  "mentions": [
+    "A360519",
+    "A361102",
+    "A361110",
+    "A361111"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

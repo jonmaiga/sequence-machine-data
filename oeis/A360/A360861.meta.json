@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n, ceil(k/2)) * binomial(n, floor(k/2)).",
+  "id": "A360861",
+  "mentions": [
+    "A360859"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

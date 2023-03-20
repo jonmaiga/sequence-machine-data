@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2 + 9*n*(1 + n)/2.",
+  "description": "a(n) = (9n^2 + 9n + 4)/2.",
   "id": "A062123",
   "mentions": [
     "A002889",
@@ -11,8 +11,9 @@
     "A062127",
     "A235332"
   ],
-  "modified": "2023-02-27 14:38:20",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"

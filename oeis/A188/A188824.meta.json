@@ -1,13 +1,14 @@
 {
-  "description": "T(n,k)=Number of nXk binary arrays without the pattern 0 1 diagonally or antidiagonally",
+  "description": "T(n,k) = number of n X k binary arrays without the pattern 0 1 diagonally or antidiagonally.",
   "id": "A188824",
   "mentions": [
     "A000290",
     "A007598",
     "A016802"
   ],
-  "modified": "2023-02-27 14:38:28",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "formulas",
     "nonn",
     "tabl"

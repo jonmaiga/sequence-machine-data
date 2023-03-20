@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct means of nonempty subsets of points {(x,y)|1<=x<=n, 1<=y<=n}.",
+  "id": "A360192",
+  "mentions": [
+    "A135342"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "description": "Numerators of the harmonic means of the infinitary divisors of the positive integers.",
+  "id": "A361316",
+  "mentions": [
+    "A036537",
+    "A037445",
+    "A049417",
+    "A063947",
+    "A077609",
+    "A099377",
+    "A099378",
+    "A103339",
+    "A103340",
+    "A138302",
+    "A361317"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "frac",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

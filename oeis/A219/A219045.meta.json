@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 3^n - 26 is prime.",
+  "description": "Numbers k such that 3^k - 26 is prime.",
   "id": "A219045",
   "mentions": [
     "A014224",
@@ -26,13 +26,14 @@
     "A219050",
     "A219051"
   ],
-  "modified": "2023-02-27 14:38:30",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
+    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 25,
     "source": "oeis-entry"

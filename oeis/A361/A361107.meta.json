@@ -1,0 +1,19 @@
+{
+  "description": "Records in A360519.",
+  "id": "A361107",
+  "mentions": [
+    "A360519",
+    "A361108"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,10 +1,10 @@
 {
-  "description": "Sum{floor(j*(-1+sqrt(6)) : 1<=j<=n}; n-th partial sum of Beatty sequence for -1+sqrt(6).",
+  "description": "Sum{floor(j*(-1+sqrt(6))) : 1<=j<=n}; n-th partial sum of Beatty sequence for -1+sqrt(6).",
   "id": "A194147",
   "mentions": [
     "A194145"
   ],
-  "modified": "2023-02-27 14:38:28",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
     "nonn"
   ],

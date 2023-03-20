@@ -1,22 +1,23 @@
 {
-  "description": "Array described in comments to A053482, here read by increasing diagonals. See comments below.",
+  "description": "Array described in comments to A053482, here read by increasing antidiagonals. See comments below.",
   "id": "A181783",
   "mentions": [
     "A000522",
     "A053482",
     "A185106"
   ],
-  "modified": "2023-02-27 14:38:27",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
+    "modified": "2023-03-14 10:34:48",
     "offset": 0,
-    "size": 58,
+    "size": 66,
     "source": "oeis-entry"
   }
 }

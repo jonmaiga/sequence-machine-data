@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the minimum sum of a completely multiplicative sign sequence of length n.",
+  "id": "A360659",
+  "mentions": [
+    "A000720",
+    "A002819",
+    "A008836"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "sign"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

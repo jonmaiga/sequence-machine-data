@@ -1,13 +1,17 @@
 {
   "description": "\"Josephus problem\": n persons stand in a circle and eliminate every seventh person counting clockwise until only person a(n) is remaining.",
   "id": "A178853",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:27",
+  "mentions": [
+    "A005427",
+    "A006257"
+  ],
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
+    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 79,
     "source": "oeis-entry"

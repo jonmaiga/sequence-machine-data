@@ -1,11 +1,15 @@
 {
-  "description": "2^(n-1)*( 2^n - (-1)^n ).",
+  "description": "a(n) = 2^(n-1)*(2^n - (-1)^n).",
   "id": "A003674",
   "mentions": [
-    "A003683"
+    "A001045",
+    "A003683",
+    "A062510",
+    "A071930"
   ],
-  "modified": "2023-02-27 14:38:16",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"

@@ -1,13 +1,14 @@
 {
-  "description": "Number of nXnXn triangular 0..5 arrays with no element equal to the product mod 6 of any two neighbors",
+  "description": "Number of n X n X n triangular 0..5 arrays with no element equal to the product mod 6 of any two neighbors.",
   "id": "A193370",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
+    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

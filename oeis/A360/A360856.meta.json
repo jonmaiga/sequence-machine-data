@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = [x^n](1/2)*(1 + (2*x + 1)/sqrt(1 - 8*x^2*(x + 1))).",
+  "id": "A360856",
+  "mentions": [
+    "A360571"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

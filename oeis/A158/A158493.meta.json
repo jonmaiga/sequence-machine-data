@@ -6,8 +6,9 @@
     "A158492",
     "A195162"
   ],
-  "modified": "2023-02-27 14:38:26",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
@@ -15,7 +16,7 @@
   "terms": {
     "modified": "2023-02-27 17:01:40",
     "offset": 0,
-    "size": 40,
+    "size": 43,
     "source": "oeis-bfile"
   }
 }

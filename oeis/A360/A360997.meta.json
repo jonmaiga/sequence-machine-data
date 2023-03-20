@@ -1,0 +1,33 @@
+{
+  "description": "Multiplicative with a(p^e) = e + 3.",
+  "id": "A360997",
+  "mentions": [
+    "A000005",
+    "A005361",
+    "A048691",
+    "A048785",
+    "A074816",
+    "A226602",
+    "A322327",
+    "A322328",
+    "A343443",
+    "A360908",
+    "A360909",
+    "A360910",
+    "A360911",
+    "A360996"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "mult",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

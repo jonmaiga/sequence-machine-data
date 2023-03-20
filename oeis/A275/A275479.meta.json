@@ -4,16 +4,18 @@
   "mentions": [
     "A000005",
     "A057922",
-    "A171937"
+    "A171937",
+    "A275478"
   ],
-  "modified": "2023-02-27 14:38:33",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
+    "modified": "2023-03-14 10:44:28",
     "offset": 1,
-    "size": 91,
-    "source": "oeis-entry"
+    "size": 100,
+    "source": "oeis-bfile"
   }
 }

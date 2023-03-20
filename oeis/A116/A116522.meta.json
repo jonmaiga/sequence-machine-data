@@ -9,17 +9,19 @@
     "A116520",
     "A130665",
     "A130667",
-    "A161342"
+    "A161342",
+    "A360189"
   ],
-  "modified": "2023-02-27 14:38:23",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-07-12 12:11:11",
+    "modified": "2023-03-14 10:44:24",
     "offset": 0,
     "size": 44,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

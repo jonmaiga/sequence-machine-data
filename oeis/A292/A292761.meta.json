@@ -1,18 +1,19 @@
 {
-  "description": "E.g.f.: (tan x + sec x)^2*(E.g.f. for A000738).",
+  "description": "Expansion of e.g.f. (tan x + sec x)^2*(E.g.f. for A000738).",
   "id": "A292761",
   "mentions": [
     "A000045",
     "A000738",
     "A292760"
   ],
-  "modified": "2023-02-27 14:38:34",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
+    "modified": "2023-03-14 10:34:48",
     "offset": 0,
     "size": 23,
     "source": "oeis-entry"

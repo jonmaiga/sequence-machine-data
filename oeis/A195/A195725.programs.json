@@ -42,6 +42,20 @@
       ]
     },
     {
+      "d": "2023-03-15",
+      "ix": "de[-atan(sin(atan(sqrt(5))))]",
+      "mt": 50,
+      "px": [
+        "5",
+        "sqrt",
+        "atan",
+        "sin",
+        "atan",
+        "neg",
+        "de"
+      ]
+    },
+    {
       "d": "2022-06-26",
       "ix": "de[asin(tan(asin(sqrt(5)/4)))]",
       "mt": 50,

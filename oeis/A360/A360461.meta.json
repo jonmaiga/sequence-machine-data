@@ -1,0 +1,28 @@
+{
+  "description": "T(n,k) is the sum of all the k-th smallest divisors of all positive integers <= n. Irregular triangle read by rows (n>=1, k>=1).",
+  "id": "A360461",
+  "mentions": [
+    "A000005",
+    "A000027",
+    "A002182",
+    "A024916",
+    "A027750",
+    "A070319",
+    "A088821",
+    "A175254",
+    "A244051"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "look",
+    "new",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

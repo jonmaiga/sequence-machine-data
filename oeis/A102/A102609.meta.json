@@ -1,15 +1,19 @@
 {
   "description": "a(n) = 1 iff n^2-n+41 is prime (else 0).",
   "id": "A102609",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:23",
+  "mentions": [
+    "A005846",
+    "A202018"
+  ],
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
-    "offset": 1,
-    "size": 105,
+    "modified": "2023-03-14 10:34:47",
+    "offset": 0,
+    "size": 106,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,23 @@
+{
+  "description": "Numbers with arithmetic derivative which is a palindromic prime number (A002385).",
+  "id": "A359332",
+  "mentions": [
+    "A001097",
+    "A002113",
+    "A002385",
+    "A003415",
+    "A157037"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

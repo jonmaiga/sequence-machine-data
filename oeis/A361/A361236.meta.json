@@ -1,0 +1,29 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of noncrossing k-gonal cacti with n polygons up to rotation.",
+  "id": "A361236",
+  "mentions": [
+    "A000012",
+    "A042948",
+    "A070914",
+    "A296532",
+    "A303694",
+    "A303912",
+    "A361237",
+    "A361238",
+    "A361239",
+    "A361242"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

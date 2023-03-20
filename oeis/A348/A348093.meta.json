@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k >= 1 such that there is no pair (x,y) such that x - d(x) = k and y + d(y) = k, where d = A000005 = number of divisors.",
+  "description": "Numbers k >= 1 such that there is no pair (x,y) such that x - d(x) = k or y + d(y) = k, where d = A000005 = number of divisors.",
   "id": "A348093",
   "mentions": [
     "A000005",
@@ -10,15 +10,15 @@
     "A060990",
     "A062249"
   ],
-  "modified": "2023-02-27 14:38:38",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "formulas",
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
+    "modified": "2023-03-14 10:44:31",
     "offset": 1,
     "size": 50,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

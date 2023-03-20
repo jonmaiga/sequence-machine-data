@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of g.f. A(x) = Sum_{n>=0} d^n/dx^n x^(2*n) * (1 + x)^(3*n) / n!.",
+  "id": "A361303",
+  "mentions": [
+    "A215128",
+    "A361046",
+    "A361305"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

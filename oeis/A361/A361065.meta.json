@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f. satisfies A(x) = exp( (x/(1-x)) * A(x)^2 ).",
+  "id": "A361065",
+  "mentions": [
+    "A052868",
+    "A361066",
+    "A361067",
+    "A361068",
+    "A361069"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

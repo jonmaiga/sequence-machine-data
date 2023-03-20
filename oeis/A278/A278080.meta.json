@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f. (1/4!)*sin^4(x)/cos(x) (coefficients of even powers only).",
+  "description": "Expansion of e.g.f. (1/4!)*sin^4(x)/cos(x) (coefficients of even powers only).",
   "id": "A278080",
   "mentions": [
     "A000364",
@@ -10,14 +10,15 @@
     "A278194",
     "A278195"
   ],
-  "modified": "2023-02-27 14:38:34",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
+    "modified": "2023-03-14 10:34:48",
     "offset": 0,
     "size": 17,
     "source": "oeis-entry"

@@ -1,0 +1,25 @@
+{
+  "description": "Multiplicative with a(p^e) = sigma_3(e), where sigma_3 = A001158.",
+  "id": "A361064",
+  "mentions": [
+    "A001158",
+    "A049419",
+    "A327837",
+    "A361012",
+    "A361013",
+    "A361063"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "mult",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

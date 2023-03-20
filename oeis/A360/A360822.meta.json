@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose squares have at most 2 digits less than 8.",
+  "id": "A360822",
+  "mentions": [
+    "A360803"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

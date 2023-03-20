@@ -1,0 +1,36 @@
+{
+  "description": "Number of finite sets of positive integers whose right half (exclusive) sums to n.",
+  "id": "A360954",
+  "mentions": [
+    "A000009",
+    "A072233",
+    "A347043",
+    "A347044",
+    "A359893",
+    "A359901",
+    "A360671",
+    "A360672",
+    "A360673",
+    "A360675",
+    "A360676",
+    "A360677",
+    "A360678",
+    "A360679",
+    "A360955",
+    "A360956",
+    "A361200",
+    "A361201"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

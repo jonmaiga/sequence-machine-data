@@ -1,17 +1,18 @@
 {
-  "description": "Sum_{d|F(n)} d^3, where F(n) are the Fibonacci numbers",
+  "description": "Sum_{d|F(n)} d^3, where F(n) are the Fibonacci numbers.",
   "id": "A181090",
   "mentions": [
     "A000045",
     "A063477",
     "A063478"
   ],
-  "modified": "2023-02-27 14:38:27",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
+    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 23,
     "source": "oeis-entry"

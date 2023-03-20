@@ -1,15 +1,19 @@
 {
-  "description": "Number of pancake stacks requiring a maximum number of flips to order.",
+  "description": "Number of stacks of n pancakes requiring a maximum number of flips to order.",
   "id": "A067607",
   "mentions": [
-    "A058986"
+    "A058986",
+    "A092113"
   ],
-  "modified": "2023-02-27 14:38:20",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
+    "hard",
+    "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
+    "modified": "2023-03-14 10:34:47",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

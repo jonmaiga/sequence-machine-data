@@ -1,0 +1,26 @@
+{
+  "description": "Triangle T(n,k), n >= 1, 1 <= k <= n, read by rows, where T(n,k) is carryless product n X k base 10.",
+  "id": "A359697",
+  "mentions": [
+    "A001477",
+    "A004520",
+    "A008592",
+    "A055120",
+    "A059691",
+    "A059729"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "base",
+    "look",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

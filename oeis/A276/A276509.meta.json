@@ -1,10 +1,11 @@
 {
-  "description": "Numbers n in base 10 such that the digits of 2 + n are the digits of 2n written in reverse order.",
+  "description": "Numbers k in base 10 such that the digits of 2 + k are the digits of 2k written in reverse order.",
   "id": "A276509",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
     "base",
+    "changed",
     "formulas",
     "nonn"
   ],

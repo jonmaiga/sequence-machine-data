@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with the property that the concatenation of the proper divisors of n (i.e., excluding 1 and n) is a prime.",
+  "description": "Numbers k with the property that the concatenation of the nontrivial divisors of k (i.e., excluding 1 and k) is a prime.",
   "id": "A120712",
   "mentions": [
     "A037274",
@@ -13,9 +13,10 @@
     "A130141",
     "A130142"
   ],
-  "modified": "2023-02-27 14:38:24",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
+    "changed",
     "nonn"
   ],
   "terms": {

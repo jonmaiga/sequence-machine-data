@@ -1,16 +1,19 @@
 {
-  "description": "Number of 5-covers of an n-set.",
+  "description": "Number of 5-covers of an unlabeled n-set.",
   "id": "A005785",
   "mentions": [
     "A002620",
     "A005748",
     "A005783",
     "A005784",
+    "A028657",
     "A052264",
-    "A055066"
+    "A055066",
+    "A055080"
   ],
-  "modified": "2023-02-27 14:38:16",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"

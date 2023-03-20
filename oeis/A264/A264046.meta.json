@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n and n+6 are consecutive semiprimes.",
+  "description": "Numbers k such that k and k+6 are consecutive semiprimes.",
   "id": "A264046",
   "mentions": [
     "A001358",
@@ -11,8 +11,9 @@
     "A264044",
     "A264045"
   ],
-  "modified": "2023-02-27 14:38:33",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {

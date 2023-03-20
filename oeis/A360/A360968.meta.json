@@ -1,0 +1,21 @@
+{
+  "description": "Permutation of the positive integers derived through a process of self-reference and self-editing. a(1) = 1. Other terms generated as described in Comments.",
+  "id": "A360968",
+  "mentions": [
+    "A005185",
+    "A236854"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "easy",
+    "look",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

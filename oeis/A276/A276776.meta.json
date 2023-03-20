@@ -2,14 +2,13 @@
   "description": "Volume of spherical shell between two spheres of radius n and k, rounded to the nearest integer. Triangular array T(n, k), read by rows.",
   "id": "A276776",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
+    "modified": "2023-03-14 10:34:48",
     "offset": 2,
     "size": 47,
     "source": "oeis-entry"

@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if A004718(n) = 0, otherwise 0, where A004718 is the Danish composer Per Nørgård's \"infinity sequence\".",
+  "id": "A361016",
+  "mentions": [
+    "A004718",
+    "A083866",
+    "A343029",
+    "A343030"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-bfile"
+  }
+}

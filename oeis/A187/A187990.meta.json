@@ -1,17 +1,20 @@
 {
-  "description": "Number of nondecreasing arrangements of 6 numbers x(i) in -(n+4)..(n+4) with the sum of sign(x(i))*2^|x(i)| zero",
+  "description": "Number of nondecreasing arrangements of 6 numbers x(i) in -(n+4)..(n+4) with the sum of sign(x(i))*2^|x(i)| zero.",
   "id": "A187990",
   "mentions": [
     "A187988"
   ],
-  "modified": "2023-02-27 14:38:28",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:12",
-    "offset": 1,
-    "size": 41,
+    "modified": "2023-03-14 10:44:25",
+    "offset": 0,
+    "size": 42,
     "source": "oeis-bfile"
   }
 }

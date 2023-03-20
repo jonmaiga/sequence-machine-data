@@ -1,0 +1,31 @@
+{
+  "description": "a(n) = number of numbers k < n, gcd(k, n) > 1, such that omega(k) > omega(n) and rad(n) | rad(k), where omega(n) = A001221(n) and rad(n) = A007947(n).",
+  "id": "A360543",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A001221",
+    "A007947",
+    "A010846",
+    "A045763",
+    "A051953",
+    "A243822",
+    "A243823",
+    "A246547",
+    "A272619",
+    "A360480",
+    "A360765"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

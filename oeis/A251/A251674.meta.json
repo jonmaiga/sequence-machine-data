@@ -1,15 +1,16 @@
 {
-  "description": "Number of (n+2)X(n+2) 0..2 arrays with no row, column, diagonal or antidiagonal in any 3X3 subblock summing to 2 or 4",
+  "description": "Number of (n+2) X (n+2) 0..2 arrays with no row, column, diagonal or antidiagonal in any 3 X 3 subblock summing to 2 or 4.",
   "id": "A251674",
   "mentions": [
     "A251682"
   ],
-  "modified": "2023-02-27 14:38:32",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
+    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

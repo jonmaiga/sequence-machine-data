@@ -1,0 +1,23 @@
+{
+  "description": "E.g.f. satisfies A(x) = exp( x*A(x)^4/(1 - x*A(x)^2) ).",
+  "id": "A361143",
+  "mentions": [
+    "A000262",
+    "A212722",
+    "A361065",
+    "A361093",
+    "A361142"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:44:32",
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

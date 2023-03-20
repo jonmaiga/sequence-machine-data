@@ -1,8 +1,11 @@
 {
-  "description": "Numbers n such that 11 + j*n is prime for j = 0 to 10.",
+  "description": "Numbers d such that 11 + j*d is prime for j = 0 to 10.",
   "id": "A206045",
   "mentions": [
+    "A007921",
     "A040976",
+    "A123556",
+    "A173919",
     "A206037",
     "A206038",
     "A206039",
@@ -10,10 +13,17 @@
     "A206041",
     "A206042",
     "A206043",
-    "A206044"
+    "A206044",
+    "A342309",
+    "A359408",
+    "A359409",
+    "A359410",
+    "A360146"
   ],
-  "modified": "2023-02-27 14:38:29",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
+    "formulas",
     "nonn"
   ],
   "terms": {

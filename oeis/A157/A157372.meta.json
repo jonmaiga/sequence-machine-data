@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to write the (n+50)-th positive odd integer in the form p+2^x+51*2^y with p an odd prime and x,y positive integers",
+  "description": "Number of ways to write the (n+50)-th positive odd integer in the form p+2^x+51*2^y with p an odd prime and x,y positive integers.",
   "id": "A157372",
   "mentions": [
     "A000040",
@@ -14,8 +14,9 @@
     "A157237",
     "A157242"
   ],
-  "modified": "2023-02-27 14:38:26",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "formulas",
     "nice",
     "nonn"

@@ -1,0 +1,26 @@
+{
+  "description": "Semiprimes of the form k^2 + 4.",
+  "id": "A360741",
+  "mentions": [
+    "A001358",
+    "A085722",
+    "A087475",
+    "A144255",
+    "A242330",
+    "A242331",
+    "A242332"
+  ],
+  "modified": "2023-03-14 10:34:48",
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "modified": "2023-03-14 10:34:48",
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

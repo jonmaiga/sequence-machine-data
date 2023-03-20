@@ -1,24 +1,26 @@
 {
-  "description": "The Abelian orders (or Abelian numbers): n such that every group of order n is Abelian.",
+  "description": "The abelian orders (or abelian numbers): n such that every group of order n is abelian.",
   "id": "A051532",
   "mentions": [
     "A003277",
+    "A004709",
     "A056867",
     "A060652",
     "A064899",
     "A212793"
   ],
-  "modified": "2023-02-27 14:38:19",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:56:49",
+    "modified": "2023-03-14 10:44:22",
     "offset": 1,
     "size": 66,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

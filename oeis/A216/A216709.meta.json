@@ -1,11 +1,12 @@
 {
-  "description": "a(n) = integer closest to Riemann's prime counting function R(n*10^6) minus prime counting function pi(n*10^6)",
+  "description": "a(n) is the integer closest to Riemann's prime counting function R(n*10^6) minus the prime counting function pi(n*10^6).",
   "id": "A216709",
   "mentions": [
     "A057794"
   ],
-  "modified": "2023-02-27 14:38:30",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "sign"
   ],
   "terms": {

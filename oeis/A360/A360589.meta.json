@@ -7,18 +7,18 @@
     "A067255",
     "A126706",
     "A355432",
-    "A360765",
-    "A360768"
+    "A360768",
+    "A360912"
   ],
-  "modified": "2023-02-27 14:38:39",
+  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "new",
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
+    "modified": "2023-03-14 10:44:32",
     "offset": 1,
     "size": 33,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

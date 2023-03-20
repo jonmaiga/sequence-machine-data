@@ -1,11 +1,14 @@
 {
   "description": "Number of multisets of n nonzero digits such that sum(digits) > product(digits).",
   "id": "A360538",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:39",
+  "mentions": [
+    "A052382",
+    "A360971",
+    "A360972"
+  ],
+  "modified": "2023-03-14 10:34:48",
   "tags": [
     "base",
-    "changed",
     "look",
     "nonn"
   ],

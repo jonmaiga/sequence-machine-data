@@ -3,19 +3,20 @@
   "id": "A038173",
   "mentions": [
     "A000162",
-    "A036168",
-    "A036174",
     "A038119",
+    "A038168",
+    "A038174",
     "A300812"
   ],
-  "modified": "2023-02-27 14:38:18",
+  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
+    "modified": "2023-03-14 10:34:47",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"
