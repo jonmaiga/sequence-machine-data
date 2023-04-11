@@ -13,6 +13,19 @@
       ]
     },
     {
+      "d": "2023-04-10",
+      "ix": "contfrac[sqrt(sqrt(3))]%251",
+      "mt": 50,
+      "px": [
+        "3",
+        "sqrt",
+        "sqrt",
+        "contfrac",
+        "251",
+        "%"
+      ]
+    },
+    {
       "d": "2022-08-06",
       "ix": "contfrac[sqrt(sqrt(3))]+C(n, 64)",
       "mt": 50,
@@ -60,22 +73,6 @@
       ]
     },
     {
-      "d": "2022-04-05",
-      "ix": "contfrac[sqrt(sqrt(3))]%(n+2)²",
-      "mt": 50,
-      "px": [
-        "3",
-        "sqrt",
-        "sqrt",
-        "contfrac",
-        "n",
-        "2",
-        "+",
-        "²",
-        "%"
-      ]
-    },
-    {
       "d": "2022-04-07",
       "ix": "contfrac[sqrt(sqrt(3))]+and(2, n²)",
       "mt": 50,
@@ -105,22 +102,6 @@
         "sqrt",
         "contfrac",
         "lcm"
-      ]
-    },
-    {
-      "d": "2022-06-06",
-      "ix": "(n%2)!*contfrac[sqrt(sqrt(3))]",
-      "mt": 50,
-      "px": [
-        "n",
-        "2",
-        "%",
-        "!",
-        "3",
-        "sqrt",
-        "sqrt",
-        "contfrac",
-        "*"
       ]
     },
     {

@@ -60,11 +60,11 @@
       ]
     },
     {
-      "d": "2022-08-20",
-      "ix": "floor(log(record[or(9, n)]/5))",
+      "d": "2023-04-08",
+      "ix": "floor(log(record[or(5, n)]/5))",
       "mt": 50,
       "px": [
-        "9",
+        "5",
         "n",
         "or",
         "record",

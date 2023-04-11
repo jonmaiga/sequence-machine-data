@@ -16,6 +16,21 @@
       ]
     },
     {
+      "d": "2023-04-07",
+      "ix": "or(floor(sin(n)), ceil(n/98))",
+      "mt": 72,
+      "px": [
+        "n",
+        "sin",
+        "floor",
+        "n",
+        "98",
+        "/",
+        "ceil",
+        "or"
+      ]
+    },
+    {
       "d": "2021-10-01",
       "ix": "floor(sin(n)-floor(sin(-n)))",
       "mt": 72,
@@ -61,21 +76,6 @@
       ]
     },
     {
-      "d": "2022-07-11",
-      "ix": "or(floor(sin(n)), ceil(sin(n)²))",
-      "mt": 72,
-      "px": [
-        "n",
-        "sin",
-        "floor",
-        "n",
-        "sin",
-        "²",
-        "ceil",
-        "or"
-      ]
-    },
-    {
       "d": "2022-07-04",
       "ix": "char[lt[0, sin(n)]]+floor(sin(n))",
       "mt": 72,
@@ -89,22 +89,6 @@
         "sin",
         "floor",
         "+"
-      ]
-    },
-    {
-      "d": "2022-07-04",
-      "ix": "or(floor(sin(n)), char[lt[0, sin(n)]])",
-      "mt": 72,
-      "px": [
-        "n",
-        "sin",
-        "floor",
-        "0",
-        "n",
-        "sin",
-        "lt",
-        "char",
-        "or"
       ]
     },
     {
