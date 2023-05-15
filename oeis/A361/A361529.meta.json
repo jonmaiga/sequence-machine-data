@@ -1,0 +1,15 @@
+{
+  "description": "Number of noncrossing partitions of an n-set with distinct block sizes.",
+  "id": "A361529",
+  "mentions": [
+    "A000108"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

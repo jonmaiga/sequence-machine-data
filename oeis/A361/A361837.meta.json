@@ -1,0 +1,15 @@
+{
+  "description": "Maximum cardinality of trifferent codes with length n.",
+  "id": "A361837",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

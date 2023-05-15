@@ -2,14 +2,12 @@
   "description": "a(n) is the number of tiles of a chosen color on the front side of the Rubik Cube after n repetitions of the following procedure: rotate the right side by a 1/4 turn clockwise, then rotate the whole cube around the front-back axis by a 1/4 turn clockwise.",
   "id": "A309070",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:04:33",
     "offset": 0,
     "size": 95,
     "source": "joeis"

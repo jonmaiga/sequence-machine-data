@@ -2,13 +2,11 @@
   "description": "a(n) = p^2 - sum of digits of p^p, where p = prime(n).",
   "id": "A140499",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:28",
     "offset": 1,
     "size": 41,
     "source": "oeis-bfile"

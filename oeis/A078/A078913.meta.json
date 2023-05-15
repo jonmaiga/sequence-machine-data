@@ -2,13 +2,11 @@
   "description": "a(1)=a(2)=1, a(n)=a(n-1)+a(n-2) if n is not congruent to 3, a(n)=a(n-1)+a(n/3) if n is congruent to 3.",
   "id": "A078913",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-07-12 12:11:11",
     "offset": 1,
     "size": 42,
     "source": "joeis"

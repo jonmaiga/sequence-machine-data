@@ -2,13 +2,11 @@
   "description": "a(1) = 4; a(n) = smallest composite number different from the previous ones such that the sum of all the terms is a composite number.",
   "id": "A068631",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 0,
     "size": 70,
     "source": "oeis-entry"

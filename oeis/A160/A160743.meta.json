@@ -2,14 +2,12 @@
   "description": "8*P_7(n), 8 times the Legendre Polynomial of order 7 at n.",
   "id": "A160743",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 17:14:19",
     "offset": 0,
     "size": 23,
     "source": "joeis"

@@ -1,0 +1,38 @@
+{
+  "description": "Number of integer partitions of 2n without a nonempty initial consecutive subsequence summing to n.",
+  "id": "A362051",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A000302",
+    "A108917",
+    "A169942",
+    "A213173",
+    "A237363",
+    "A304442",
+    "A307683",
+    "A322439",
+    "A325347",
+    "A325676",
+    "A353836",
+    "A353864",
+    "A359893",
+    "A359901",
+    "A359902",
+    "A360254",
+    "A360672",
+    "A360675",
+    "A360686",
+    "A360952",
+    "A362558",
+    "A362560"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

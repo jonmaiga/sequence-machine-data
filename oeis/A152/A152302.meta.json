@@ -2,13 +2,11 @@
   "description": "Marsaglia-Zaman type recursive sequence: f(x)=f(x - 1) + f(x - 2) + Floor[f(x - 1)/10]; a(n)=Mod[f(n),10].",
   "id": "A152302",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 101,
     "source": "oeis-entry"

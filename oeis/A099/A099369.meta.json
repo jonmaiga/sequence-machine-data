@@ -2,18 +2,25 @@
   "description": "Squares of A041025(n-1), n>=1, (generalized Fibonacci).",
   "id": "A099369",
   "mentions": [
+    "A007598",
     "A041025",
+    "A079291",
+    "A092936",
     "A099279",
-    "A099370"
+    "A099365",
+    "A099366",
+    "A099367",
+    "A099370",
+    "A099372",
+    "A099374"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 17:18:55",
     "offset": 0,
     "size": 15,
     "source": "joeis"

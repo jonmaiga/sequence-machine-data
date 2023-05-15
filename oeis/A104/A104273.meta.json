@@ -2,14 +2,12 @@
   "description": "Table of Sprague-Grundy functions for a certain family of hypergraphs, read by antidiagonals.",
   "id": "A104273",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "more",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 28,
     "source": "oeis-entry"

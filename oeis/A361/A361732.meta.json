@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = [x^n] (x^5 + 5*x^4 + 4*x^3 - 3*x + 1)/(x^2 + 2*x - 1)^2.",
+  "id": "A361732",
+  "mentions": [
+    "A361758"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "joeis"
+  }
+}

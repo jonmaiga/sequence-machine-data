@@ -1,0 +1,16 @@
+{
+  "description": "a(0)=1; thereafter a(n) = 2*A110501(n+1) - A005439(n).",
+  "id": "A362112",
+  "mentions": [
+    "A005439",
+    "A110501"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

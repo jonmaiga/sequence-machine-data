@@ -2,12 +2,10 @@
   "description": "Centered heptagonal prime numbers.",
   "id": "A144974",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-07-12 12:11:11",
     "offset": 1,
     "size": 37,
     "source": "joeis"

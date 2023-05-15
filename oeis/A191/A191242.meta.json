@@ -2,13 +2,11 @@
   "description": "Reversion of x-x^2-x^3-2*x^4",
   "id": "A191242",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:15",
     "offset": 1,
     "size": 24,
     "source": "oeis-bfile"

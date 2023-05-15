@@ -8,15 +8,14 @@
     "A134980",
     "A346738",
     "A346739",
-    "A346740"
+    "A346740",
+    "A361781"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:05",
     "offset": 0,
     "size": 20,
     "source": "oeis-bfile"

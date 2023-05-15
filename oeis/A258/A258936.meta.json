@@ -2,13 +2,11 @@
   "description": "G.f.: Sum_{n=-oo..+oo} x^n * (1 - 2^n*x^n)^n.",
   "id": "A258936",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:17",
     "offset": 0,
     "size": 38,
     "source": "oeis-bfile"

@@ -2,14 +2,12 @@
   "description": "Number of triangulations (by Euclidean triangles) having 3+3n vertices of a triangle with each side subdivided by n additional points.",
   "id": "A087809",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 20,
     "source": "oeis-entry"

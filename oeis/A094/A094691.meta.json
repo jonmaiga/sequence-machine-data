@@ -2,14 +2,12 @@
   "description": "Decimal expansion of -Integral_{x=0..1} (sqrt(x)/log(1-x)) dx.",
   "id": "A094691",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 90,
     "source": "oeis-entry"

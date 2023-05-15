@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonisomorphic multisets of involutions on an n-set with n involutions.",
+  "id": "A362651",
+  "mentions": [
+    "A362382",
+    "A362647",
+    "A362648"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

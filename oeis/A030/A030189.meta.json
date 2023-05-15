@@ -2,12 +2,10 @@
   "description": "Expansion of eta(q)*eta(q^2)*eta(q^4)*eta(q^8).",
   "id": "A030189",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:39",
     "offset": 0,
     "size": 78,
     "source": "oeis-bfile"

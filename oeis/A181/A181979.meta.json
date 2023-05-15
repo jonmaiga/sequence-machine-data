@@ -2,14 +2,12 @@
   "description": "Numbers n such that (29^n - 1)/28 is prime.",
   "id": "A181979",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 5,
     "source": "oeis-entry"

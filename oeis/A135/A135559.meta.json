@@ -2,13 +2,11 @@
   "description": "Atomic numbers in the 32-column Mendeleyev periodic table, beginning with the first term in each column and read down columns. If the number is > 118 then skip to the next column.",
   "id": "A135559",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 71,
     "source": "oeis-entry"

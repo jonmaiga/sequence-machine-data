@@ -7,7 +7,6 @@
     "A165441",
     "A172370"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "frac",
@@ -16,7 +15,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:58",
     "offset": 2,
     "size": 55,
     "source": "oeis-bfile"

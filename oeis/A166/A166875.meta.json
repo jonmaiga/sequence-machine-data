@@ -2,14 +2,12 @@
   "description": "Numbers less than 100 that can't be obtained from 2, 4, 6, 8 using +, -, x and /.",
   "id": "A166875",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 44,
     "source": "oeis-entry"

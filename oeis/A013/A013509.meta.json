@@ -2,12 +2,10 @@
   "description": "sinh(sec(x)-sech(x))=2/2!*x^2+242/6!*x^6+438722/10!*x^10...",
   "id": "A013509",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 10:03:18",
     "offset": 0,
     "size": 11,
     "source": "joeis"

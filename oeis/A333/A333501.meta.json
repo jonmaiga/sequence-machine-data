@@ -2,13 +2,11 @@
   "description": "The contamination sequence: a digit d must be separated from any other digit d by at least d digits different from d; this is the lexicographically earliest infinite sequence of distinct integers with this property.",
   "id": "A333501",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:03",
     "offset": 1,
     "size": 67,
     "source": "oeis-bfile"

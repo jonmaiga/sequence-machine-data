@@ -2,13 +2,11 @@
   "description": "T(n,k)=6X6X6 triangular graph coloring a rectangular array: number of nXk 0..20 arrays where 0..20 label nodes of the fully triangulated graph and every array movement to a horizontal or vertical neighbor moves along an edge of this graph",
   "id": "A223370",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:41",
     "offset": 1,
     "size": 30,
     "source": "oeis-bfile"

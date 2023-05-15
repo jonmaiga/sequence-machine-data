@@ -6,7 +6,6 @@
     "A127163",
     "A358266"
   ],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "formulas",
     "hard",
@@ -14,7 +13,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

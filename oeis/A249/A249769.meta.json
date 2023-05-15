@@ -2,13 +2,11 @@
   "description": "Sequence of distinct least positive numbers such that the average of the first n terms is a factorial.",
   "id": "A249769",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 31,
     "source": "oeis-entry"

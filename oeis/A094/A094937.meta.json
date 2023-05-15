@@ -2,13 +2,11 @@
   "description": "Number of real roots of the n-th Bernoulli polynomial B(n,x).",
   "id": "A094937",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 61,
     "source": "oeis-entry"

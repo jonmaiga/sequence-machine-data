@@ -2,13 +2,11 @@
   "description": "a(n) = coefficient of x^n in A(x) such that: 1 = Sum_{n=-oo..+oo} (-1)^n * x^(n*(n+1)/2) * (A(x) + x^n)^(n+1).",
   "id": "A357799",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:32",
     "offset": 0,
     "size": 27,
     "source": "oeis-bfile"

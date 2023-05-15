@@ -1,15 +1,14 @@
 {
-  "description": "Number of 8Xn binary arrays without the pattern 1 1 1 diagonally, vertically or antidiagonally",
+  "description": "Number of 8 X n binary arrays without the pattern 1 1 1 diagonally, vertically or antidiagonally.",
   "id": "A188753",
   "mentions": [
     "A188747"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:13",
     "offset": 1,
     "size": 12,
     "source": "oeis-bfile"

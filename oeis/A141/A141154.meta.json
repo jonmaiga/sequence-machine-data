@@ -2,12 +2,10 @@
   "description": "L.g.f.: A(x) = log( 1 + Sum_{n>=1} (n-1)!*x^n ) = Sum_{n>=1} a(n)*x^n/n.",
   "id": "A141154",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

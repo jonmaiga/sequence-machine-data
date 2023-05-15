@@ -2,14 +2,12 @@
   "description": "Smallest prime p such that k*p + k + 1 is prime for k=1..n.",
   "id": "A186969",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Multiplicity of highest weight (or singular) vectors associated with character chi_44 of Monster module.",
   "id": "A034432",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 1,
     "size": 52,
     "source": "oeis-entry"

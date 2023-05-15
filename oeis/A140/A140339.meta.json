@@ -2,12 +2,10 @@
   "description": "Half the number of n X n binary matrices differing in at most four positions between adjacent rows and at most four positions between adjacent columns.",
   "id": "A140339",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Convex, obtuse, hexagonal lattice numbers",
   "id": "A190482",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

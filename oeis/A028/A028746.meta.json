@@ -2,14 +2,12 @@
   "description": "Nonsquares mod 33.",
   "id": "A028746",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 1,
     "size": 21,
     "source": "oeis-entry"

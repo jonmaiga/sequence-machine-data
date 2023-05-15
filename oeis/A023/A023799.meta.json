@@ -2,7 +2,6 @@
   "description": "Xenodromes: all digits in base 4 are different.",
   "id": "A023799",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "easy",
@@ -11,7 +10,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 1,
     "size": 49,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Numbers k such that (30^k - 1)/29 is prime.",
   "id": "A098438",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

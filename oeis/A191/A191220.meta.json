@@ -2,13 +2,11 @@
   "description": "Decimal expansion of x, where Arithmetic-Geometric Mean of 1 and x = Pi",
   "id": "A191220",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:54",
     "offset": 1,
     "size": 110,
     "source": "joeis"

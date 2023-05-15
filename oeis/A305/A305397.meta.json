@@ -2,13 +2,11 @@
   "description": "Largest diameter of a lattice polygon.",
   "id": "A305397",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 17,
     "source": "oeis-entry"

@@ -7,15 +7,12 @@
     "A007516",
     "A019434"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "formulas",
     "look",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:19",
     "offset": 0,
     "size": 49,
     "source": "oeis-bfile"

@@ -2,14 +2,12 @@
   "description": "Square array read by antidiagonals: T(n,k) is the Wiener index of the firecracker graph F(n,k) (n>=1, k>=2). F(n,k) is the graph obtained by the concatenation of n k-stars by linking one leaf from each. The Wiener index of a connected graph is the sum of distances between all unordered pairs of vertices in the graph.",
   "id": "A180866",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 53,
     "source": "oeis-entry"

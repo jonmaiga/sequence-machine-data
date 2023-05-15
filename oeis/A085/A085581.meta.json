@@ -2,13 +2,11 @@
   "description": "a(n) = floor( prime(n)/log(n) ).",
   "id": "A085581",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 2,
     "size": 72,
     "source": "oeis-entry"

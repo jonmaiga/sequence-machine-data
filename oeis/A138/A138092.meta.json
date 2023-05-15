@@ -2,7 +2,6 @@
   "description": "A triangular sequence of four back recursive polynomial that are Hermite H(x,n) like and alternating orthogonal on domain {-Infinity,Infinity} and weight function Exp[ -x^2/2]: P(x, n) = 2*x*P(x, n - 1) - n*P(x, n - 2) + 4*x^3*P(x, n - 3)-n^2*P(x, n - 4).",
   "id": "A138092",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

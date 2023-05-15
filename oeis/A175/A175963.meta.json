@@ -2,13 +2,11 @@
   "description": "Numbers n with property that both n and n^2 have at least two 1's.",
   "id": "A175963",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 44,
     "source": "oeis-entry"

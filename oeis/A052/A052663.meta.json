@@ -2,14 +2,12 @@
   "description": "E.g.f. x^4*(1+x-x^2)/(1-x).",
   "id": "A052663",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 09:59:28",
     "offset": 0,
     "size": 21,
     "source": "joeis"

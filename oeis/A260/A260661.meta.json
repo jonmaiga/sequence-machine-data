@@ -2,12 +2,10 @@
   "description": "The number of distinct (up to alpha-equivalence) closed lambda calculus terms n characters long, assuming standard notational conventions.",
   "id": "A260661",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:19",
     "offset": 0,
     "size": 33,
     "source": "oeis-bfile"

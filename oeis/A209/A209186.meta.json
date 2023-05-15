@@ -2,14 +2,12 @@
   "description": "Admission order to the USA of the n-th state in alphabetical order.",
   "id": "A209186",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

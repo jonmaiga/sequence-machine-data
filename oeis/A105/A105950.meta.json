@@ -2,14 +2,12 @@
   "description": "12 symbol hyper5tetrahedron : three tetrahedra with 5 connections per vertex: a triangle of tetrahedra connected.",
   "id": "A105950",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 99,
     "source": "oeis-entry"

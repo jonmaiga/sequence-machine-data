@@ -2,12 +2,10 @@
   "description": "McCarthy's 91 Function: a(n) = n-10 if n>100, otherwise a(n) = a(a(n+11)).",
   "id": "A103847",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 144,
     "source": "oeis-entry"

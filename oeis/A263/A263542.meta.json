@@ -2,14 +2,12 @@
   "description": "Triangle T(M, N): Number of M X N matrices where 1",
   "id": "A263542",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "more",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 2,
     "size": 15,
     "source": "oeis-entry"

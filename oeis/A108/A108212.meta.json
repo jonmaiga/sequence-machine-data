@@ -2,14 +2,12 @@
   "description": "a(n) = floor(p(n+3)), where p(n) = n*Sum_{i=0..5} i!/(log(n) - 1)^(i+1)).",
   "id": "A108212",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:00",
     "offset": 0,
     "size": 60,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Triangle read by rows: A(n,k)=A(n - 1, k - 1) + A(n - 1, k) + (n + 1)*(n + 2)*A(n - 2, k - 1).",
   "id": "A153658",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 41,
     "source": "oeis-entry"

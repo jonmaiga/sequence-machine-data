@@ -2,14 +2,12 @@
   "description": "A vector recursion designed around a factorial row sum : v(n)=if[odd,{1.n,n^2,...,(n+1)!/2-Sum[2^m,{m,0,n/2-1}],(n+1)!/2-Sum2^m,{m,0,n/2-1}],...n^2.n,1}],if[ even{1.n,n^2,...,(n+1)!-2Sum[2^m,{m,0,n/2-1}],...n^2.n,1}].",
   "id": "A152938",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 64,
     "source": "oeis-entry"

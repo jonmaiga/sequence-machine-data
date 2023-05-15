@@ -7,7 +7,6 @@
     "A282629",
     "A321330"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "easy",
     "formulas",
@@ -15,7 +14,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 0,
     "size": 30,
     "source": "oeis-entry"

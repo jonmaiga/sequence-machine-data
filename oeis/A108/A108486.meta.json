@@ -2,14 +2,12 @@
   "description": "Sum binomial(2n-2k,2k)3^k*2^(n-k), k=0..floor(n/2).",
   "id": "A108486",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 18:14:33",
     "offset": 0,
     "size": 21,
     "source": "joeis"

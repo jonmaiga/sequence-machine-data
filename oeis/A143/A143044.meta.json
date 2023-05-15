@@ -2,7 +2,6 @@
   "description": "A nonsense sequence.",
   "id": "A143044",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "less",
     "obsc",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 48,
     "source": "oeis-entry"

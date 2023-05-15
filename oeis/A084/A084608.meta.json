@@ -1,21 +1,25 @@
 {
-  "description": "Triangle, read by rows, where the n-th row lists the (2n+1) coefficients of (1+2x+3x^2)^n.",
+  "description": "Triangle, read by rows, where the n-th row lists the (2n+1) coefficients of (1+2*x+3*x^2)^n.",
   "id": "A084608",
   "mentions": [
+    "A000079",
+    "A000244",
+    "A000400",
     "A002426",
     "A006139",
     "A084600",
     "A084606",
     "A084609",
-    "A084615"
+    "A084615",
+    "A101822",
+    "A212697"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
+    "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:36",
     "offset": 0,
     "size": 58,
     "source": "oeis-bfile"

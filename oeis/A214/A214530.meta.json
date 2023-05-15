@@ -9,14 +9,12 @@
     "A214522",
     "A214524"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 28,
     "source": "oeis-entry"

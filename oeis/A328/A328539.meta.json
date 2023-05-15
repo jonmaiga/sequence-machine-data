@@ -2,13 +2,11 @@
   "description": "Number of broken 1-diamond partitions of n.",
   "id": "A328539",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 10:44:35",
     "offset": 0,
     "size": 36,
     "source": "joeis"

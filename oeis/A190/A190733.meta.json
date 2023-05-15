@@ -2,13 +2,11 @@
   "description": "Expansion of (4*x+2)/(1+sqrt(1-4*x-4*x^2)).",
   "id": "A190733",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 23:26:12",
     "offset": 0,
     "size": 27,
     "source": "joeis"

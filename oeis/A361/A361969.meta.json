@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k with a single solution x to the equation uphi(x) = k, where uphi is the unitary totient function (A047994).",
+  "id": "A361969",
+  "mentions": [
+    "A000010",
+    "A000225",
+    "A047994",
+    "A135347",
+    "A361966",
+    "A361967",
+    "A361968",
+    "A361970",
+    "A361971"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

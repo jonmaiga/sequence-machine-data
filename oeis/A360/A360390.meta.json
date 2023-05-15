@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; a(n) = -Sum_{k=2..n} k^2 * a(floor(n/k)).",
+  "id": "A360390",
+  "mentions": [
+    "A092149",
+    "A336276",
+    "A359478",
+    "A359485",
+    "A360658"
+  ],
+  "tags": [
+    "changed",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

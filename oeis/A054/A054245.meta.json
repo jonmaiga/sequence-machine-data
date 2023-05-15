@@ -2,14 +2,12 @@
   "description": "Beethoven's Fifth Symphony; 1 stands for the first note in the minor scale, etc.",
   "id": "A054245",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 0,
     "size": 52,
     "source": "oeis-entry"

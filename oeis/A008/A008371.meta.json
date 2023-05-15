@@ -2,12 +2,10 @@
   "description": "Number of orbits on points that are at n steps from 0 in D_6 lattice.",
   "id": "A008371",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 0,
     "size": 13,
     "source": "oeis-entry"

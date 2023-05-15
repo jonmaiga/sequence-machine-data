@@ -7,12 +7,10 @@
     "A300334",
     "A300359"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:24",
     "offset": 1,
     "size": 84,
     "source": "oeis-bfile"

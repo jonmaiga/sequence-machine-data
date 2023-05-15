@@ -2,13 +2,11 @@
   "description": "Numbers k such that Sum_{j=1..k} d(j) is an integer where d(j) is the decimal fraction 0.2j (e.g., d(14) = 0.28).",
   "id": "A054465",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 15:19:43",
     "offset": 1,
     "size": 23,
     "source": "joeis"

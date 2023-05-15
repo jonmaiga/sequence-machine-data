@@ -2,13 +2,11 @@
   "description": "Let p run through the primes; write p in base 10 and then interpret it in base 128 getting a number q; if q is prime then adjoin q to the sequence.",
   "id": "A090718",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:42",
     "offset": 2,
     "size": 36,
     "source": "oeis-bfile"

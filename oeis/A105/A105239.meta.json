@@ -2,14 +2,12 @@
   "description": "Trajectory of 1 under the morphism 1 -> 121, 2 -> 434, 3 -> 212, 4 -> 343.",
   "id": "A105239",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:15:23",
     "offset": 0,
     "size": 105,
     "source": "joeis"

@@ -2,12 +2,10 @@
   "description": "exp(arcsin(x)-tan(x))=1-1/3!*x^3-7/5!*x^5+10/6!*x^6-47/7!*x^7...",
   "id": "A013398",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-09-08 06:56:19",
     "offset": 0,
     "size": 22,
     "source": "joeis"

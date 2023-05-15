@@ -2,13 +2,11 @@
   "description": "Expansion of 1/((1-4x)(1-12x)).",
   "id": "A016159",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 23:34:05",
     "offset": 0,
     "size": 17,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "a(n) = Sum((-1)^(n-i)*binomial(3i,i)*binomial(n+2i,3i)*2^i/(2i+1),i=0..n).",
   "id": "A153232",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 10:02:26",
     "offset": 0,
     "size": 23,
     "source": "joeis"

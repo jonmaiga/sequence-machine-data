@@ -2,14 +2,12 @@
   "description": "Lexicographically earliest subset of {0,1,...,13^2+13} that does not contain a nontrivial solution to 2a+b=2c+d (mod 13^2+13+1). Up to affine transformations, it is the unique such set with 11 elements.",
   "id": "A137527",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

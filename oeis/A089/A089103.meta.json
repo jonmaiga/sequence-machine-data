@@ -2,13 +2,11 @@
   "description": "a(n) = Mod[n+Prime[n],10]",
   "id": "A089103",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

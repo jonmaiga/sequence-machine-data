@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. (cosh(x) - 1)*(1 + x)*exp(x).",
+  "id": "A360951",
+  "mentions": [
+    "A129953"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "joeis"
+  }
+}

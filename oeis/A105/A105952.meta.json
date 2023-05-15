@@ -2,14 +2,12 @@
   "description": "(2n)-th Legendre polynomial P_{2n}(x), evaluated at x = 2n-1. Here the Legendre polynomials are normalized so that P_{n}(1) = 1.",
   "id": "A105952",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:57",
     "offset": 1,
     "size": 10,
     "source": "oeis-bfile"

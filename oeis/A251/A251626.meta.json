@@ -6,14 +6,12 @@
     "A036254",
     "A249944"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "base",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:09",
     "offset": 1,
     "size": 26,
     "source": "oeis-bfile"

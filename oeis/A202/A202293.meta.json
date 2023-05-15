@@ -2,13 +2,11 @@
   "description": "Number of labeled trees avoiding a certain pattern (see Dotsenko reference for precise definition).",
   "id": "A202293",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 0,
     "size": 7,
     "source": "oeis-entry"

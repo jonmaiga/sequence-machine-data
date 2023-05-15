@@ -2,14 +2,12 @@
   "description": "Base 10 representation of the string formed by prepending primes in base 2.",
   "id": "A164891",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:47",
     "offset": 1,
     "size": 18,
     "source": "oeis-bfile"

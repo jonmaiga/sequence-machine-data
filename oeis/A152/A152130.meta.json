@@ -1,18 +1,15 @@
 {
-  "description": "Arises in enumerating irreducible polynomials and pairs of relatively prime polynomials in several variables over finite fields, q = 4 case.",
+  "description": "Number of monic irreducible polynomials of degree n in GF(4)[x,y].",
   "id": "A152130",
   "mentions": [
     "A152128",
     "A152129",
-    "A152131",
-    "A152132"
+    "A152131"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 10,
     "source": "oeis-entry"

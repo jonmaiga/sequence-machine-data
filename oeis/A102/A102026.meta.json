@@ -2,13 +2,11 @@
   "description": "Number of n-bit strings that contain no more than 4 zeros and no more than 2 leading and 2 trailing zeros.",
   "id": "A102026",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 12:17:13",
     "offset": 1,
     "size": 32,
     "source": "joeis"

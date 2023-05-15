@@ -2,12 +2,10 @@
   "description": "a(n) = 3^(2*n)*(3^(2*n)-1)*Bernoulli(2*n)/(2*n).",
   "id": "A047681",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 13:48:01",
     "offset": 1,
     "size": 14,
     "source": "joeis"

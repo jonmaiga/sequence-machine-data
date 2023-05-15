@@ -2,13 +2,11 @@
   "description": "Lexicographically first sequence of distinct terms such that a(n) can be recreated concatenating [the last digit(s) of a(n-1)] to [the first digit(s) of a(n+1)].",
   "id": "A303446",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:27",
     "offset": 1,
     "size": 72,
     "source": "oeis-bfile"

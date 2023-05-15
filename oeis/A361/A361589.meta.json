@@ -1,0 +1,18 @@
+{
+  "description": "Number of acyclic digraphs on n unlabeled nodes without isolated nodes.",
+  "id": "A361589",
+  "mentions": [
+    "A003087",
+    "A350794",
+    "A361588"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

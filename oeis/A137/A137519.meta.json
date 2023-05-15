@@ -2,12 +2,10 @@
   "description": "a(1)=1. a(2)=2. For n>=3, a(n) = the smallest integer > a(n-1) that is coprime to (a(n-1)+1)*(a(n-2)+1).",
   "id": "A137519",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:25",
     "offset": 1,
     "size": 60,
     "source": "oeis-bfile"

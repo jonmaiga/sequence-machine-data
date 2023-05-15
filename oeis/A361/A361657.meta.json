@@ -1,0 +1,20 @@
+{
+  "description": "Constant term in the expansion of (1 + x^2 + y^2 + 1/(x*y))^n.",
+  "id": "A361657",
+  "mentions": [
+    "A000897",
+    "A002426",
+    "A344560",
+    "A361637",
+    "A361658"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

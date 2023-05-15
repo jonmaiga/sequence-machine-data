@@ -2,14 +2,12 @@
   "description": "a(n) = (1^k + 2^k + ... + n^k) modulo (n+2), where k is any odd integer greater than or equal to 3.",
   "id": "A179054",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:02",
     "offset": 1,
     "size": 95,
     "source": "oeis-bfile"

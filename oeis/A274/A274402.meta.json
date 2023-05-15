@@ -2,14 +2,12 @@
   "description": "Decimal expansion of S_2 = Sum_{n>=0} (2n+1)/((3n+1)^2 (3n+2)^2), a constant related to Quantum Field Theory (see the paper by David Broadhurst).",
   "id": "A274402",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 0,
     "size": 104,
     "source": "oeis-entry"

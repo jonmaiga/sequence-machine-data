@@ -2,13 +2,11 @@
   "description": "Numbers n such that the concatenation of n^0 n^1 n^2 n^3 n^4 is prime.",
   "id": "A165432",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:48",
     "offset": 1,
     "size": 48,
     "source": "oeis-bfile"

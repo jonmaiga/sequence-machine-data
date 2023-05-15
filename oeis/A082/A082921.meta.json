@@ -2,13 +2,11 @@
   "description": "Sort the digits of these squares into descending order and drop zeros to get primes.",
   "id": "A082921",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:34",
     "offset": 1,
     "size": 38,
     "source": "oeis-bfile"

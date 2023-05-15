@@ -2,12 +2,10 @@
   "description": "(F5,F7,F8,F9,F10,F11,F12,F14) - 10^n = prime where F stands for the Fermat numbers 2^2^x + 1 where x corresponds to 5,7,8,9,10,11,12 and 14.",
   "id": "A113933",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 2,
     "size": 8,
     "source": "oeis-entry"

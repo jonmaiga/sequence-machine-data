@@ -2,14 +2,12 @@
   "description": "Numbers n such that n and the product of the digits of n have at least one digit in common.",
   "id": "A108192",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 67,
     "source": "oeis-entry"

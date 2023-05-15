@@ -7,7 +7,6 @@
     "A163931",
     "A274181"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "easy",
     "formulas",
@@ -15,7 +14,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 11:49:37",
     "offset": 3,
     "size": 64,
     "source": "joeis"

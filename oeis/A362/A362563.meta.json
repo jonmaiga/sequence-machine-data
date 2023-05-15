@@ -1,0 +1,18 @@
+{
+  "description": "Triangle T(n, k) read by rows, where T(n, k) is the number of {123,132}-avoiding parking functions of size n with k active sites, for 2 <= k <= n+1.",
+  "id": "A362563",
+  "mentions": [
+    "A000079",
+    "A000958"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

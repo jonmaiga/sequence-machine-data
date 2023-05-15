@@ -1,0 +1,19 @@
+{
+  "description": "Number of compositions of n that are anti-palindromic modulo 2.",
+  "id": "A362055",
+  "mentions": [
+    "A000213",
+    "A362057"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

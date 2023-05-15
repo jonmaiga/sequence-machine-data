@@ -2,13 +2,11 @@
   "description": "Starting positions of strings of 2 8's in the decimal expansion of Pi.",
   "id": "A050263",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:43:33",
     "offset": 1,
     "size": 41,
     "source": "joeis"

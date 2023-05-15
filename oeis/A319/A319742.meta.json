@@ -2,13 +2,11 @@
   "description": "Numbers k such that 345*2^k+1 is prime.",
   "id": "A319742",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:42",
     "offset": 1,
     "size": 50,
     "source": "oeis-bfile"

@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of length n+6 0..k arrays with no seven consecutive terms having four times the sum of any three elements equal to three times the sum of the remaining four",
   "id": "A249197",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:05",
     "offset": 1,
     "size": 32,
     "source": "oeis-bfile"

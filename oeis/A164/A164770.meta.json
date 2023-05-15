@@ -1,15 +1,21 @@
 {
   "description": "Numbers k with the property that the average digit of k^2 is 2.",
   "id": "A164770",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:26",
+  "mentions": [
+    "A164771",
+    "A164772",
+    "A164773",
+    "A164774",
+    "A164776",
+    "A164778",
+    "A164782",
+    "A164817"
+  ],
   "tags": [
     "base",
-    "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:47",
     "offset": 1,
     "size": 43,
     "source": "oeis-bfile"

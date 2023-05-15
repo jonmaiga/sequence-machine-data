@@ -2,14 +2,12 @@
   "description": "Numbers k such that k+j is prime for every j, where 1 <= j < k and gcd(j,k) = 1.",
   "id": "A309374",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 5,
     "source": "oeis-entry"

@@ -8,13 +8,11 @@
     "A038046",
     "A067824"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "eigen",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:36",
     "offset": 1,
     "size": 80,
     "source": "oeis-bfile"

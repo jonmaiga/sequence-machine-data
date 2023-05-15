@@ -2,12 +2,10 @@
   "description": "Lesser of two successive primes p1, p2, where p2-p1 (gap) includes at least one entire primeless century.",
   "id": "A158957",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 24,
     "source": "oeis-entry"

@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of alternating permutations of [2n+1] having exactly 2k elements to the left of 1, n >= 0, 0 <= k <= n.",
+  "id": "A362582",
+  "mentions": [
+    "A000111",
+    "A000182",
+    "A000364",
+    "A000680",
+    "A104345"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

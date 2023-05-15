@@ -2,14 +2,12 @@
   "description": "Numbers n such that adding the sum of the digits of n to the product of n and the product of its digits yields a prime.",
   "id": "A129917",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 53,
     "source": "oeis-entry"

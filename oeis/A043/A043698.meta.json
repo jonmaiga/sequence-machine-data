@@ -2,13 +2,11 @@
   "description": "Numbers whose base-9 representation has an even number of runs.",
   "id": "A043698",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:21:57",
     "offset": 1,
     "size": 78,
     "source": "joeis"

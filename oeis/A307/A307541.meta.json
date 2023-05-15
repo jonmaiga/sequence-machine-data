@@ -2,14 +2,12 @@
   "description": "a(n) is the smallest number k such that every binary string of length >= k contains either a cube or an n-anti-power.",
   "id": "A307541",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "base",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

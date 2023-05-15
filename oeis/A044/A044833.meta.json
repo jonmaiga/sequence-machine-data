@@ -2,13 +2,11 @@
   "description": "Positive integers having more base-7 runs of even length than odd.",
   "id": "A044833",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:22:33",
     "offset": 1,
     "size": 42,
     "source": "joeis"

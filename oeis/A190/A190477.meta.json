@@ -2,13 +2,11 @@
   "description": "Constant arising in lattice coverings of Nil space by congruent geodesic balls.",
   "id": "A190477",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

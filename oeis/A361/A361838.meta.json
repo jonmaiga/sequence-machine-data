@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of 2s in the binary hereditary representation of 2n.",
+  "id": "A361838",
+  "mentions": [
+    "A005245",
+    "A025280",
+    "A266201"
+  ],
+  "tags": [
+    "base",
+    "hear",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

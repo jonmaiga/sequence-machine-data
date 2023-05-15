@@ -2,13 +2,11 @@
   "description": "Triangle read by rows. Let k=-3, m=3. Row n is a vector v(n) defined as follows: v(n)=k*(0,v(n-2),0}+m*{(m-1)/m,v(n-1)}+m*{v(n-1),(m-1)/m}.",
   "id": "A144493",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 56,
     "source": "oeis-entry"

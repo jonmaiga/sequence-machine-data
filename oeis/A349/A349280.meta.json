@@ -4,17 +4,19 @@
   "mentions": [
     "A001048",
     "A001813",
+    "A008279",
     "A066166",
-    "A067994"
+    "A067994",
+    "A265609",
+    "A331327"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
+    "changed",
     "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 2,
     "size": 36,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Fixed point of the morphism a -> {a, a + 1, Prime(a + 1)}, beginning with 0.",
   "id": "A119994",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 99,
     "source": "oeis-entry"

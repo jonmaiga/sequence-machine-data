@@ -2,13 +2,11 @@
   "description": "The circle curvature (rounded down) inscribed in the area related to critical point of Mandelbrot set at C = 1/4.",
   "id": "A272721",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

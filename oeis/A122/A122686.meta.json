@@ -2,14 +2,12 @@
   "description": "List of numbers that are not the Wiener index of any tree.",
   "id": "A122686",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 49,
     "source": "oeis-entry"

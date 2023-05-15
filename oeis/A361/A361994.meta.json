@@ -1,0 +1,25 @@
+{
+  "description": "(2,2)-block array, B(2,1), of the Wythoff array (A035513), read by descending antidiagonals.",
+  "id": "A361994",
+  "mentions": [
+    "A000045",
+    "A001622",
+    "A035513",
+    "A080164",
+    "A333029",
+    "A361976",
+    "A361992",
+    "A361993",
+    "A361996"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

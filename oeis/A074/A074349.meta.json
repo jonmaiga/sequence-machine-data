@@ -2,13 +2,11 @@
   "description": "a(1)=1, a(n) is smallest number > a(n-1) such that all pair juxtapositions a(1)a(n),...,a(n-1)a(n) are primes.",
   "id": "A074349",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Natural numbers written out and then regrouped into the smallest possible nontrivial blocks such that each begins and ends with the same digit. (Leading zeros omitted and not counted as beginning digit).",
   "id": "A091416",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 19,
     "source": "oeis-entry"

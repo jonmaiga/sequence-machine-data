@@ -2,13 +2,11 @@
   "description": "Number of Dyck paths of semilength n for which the number of ascents of length 1 is equal to the number of descents of length 1.",
   "id": "A112412",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 27,
     "source": "oeis-entry"

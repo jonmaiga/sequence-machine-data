@@ -2,13 +2,11 @@
   "description": "Partition the nonnegative integers into minimal groups whose sums are palindromes; this sequence gives the sums.",
   "id": "A072482",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 46,
     "source": "oeis-entry"

@@ -11,14 +11,12 @@
     "A010054",
     "A258993"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "easy",
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 81,
     "source": "oeis-entry"

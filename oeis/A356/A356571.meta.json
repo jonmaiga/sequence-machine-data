@@ -2,13 +2,11 @@
   "description": "a(n) = floor(f(n)), where f(n) = n^4*(15-24*n+10*n^2) + 20*n^5*(1-n)^3 / (1-2*n(1-n)).",
   "id": "A356571",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 0,
     "size": 31,
     "source": "oeis-entry"

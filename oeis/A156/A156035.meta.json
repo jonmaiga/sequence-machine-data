@@ -33,7 +33,6 @@
     "A156158",
     "A242412"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "cons",
     "easy",
@@ -41,7 +40,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 20:02:03",
     "offset": 1,
     "size": 105,
     "source": "joeis"

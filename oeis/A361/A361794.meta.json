@@ -1,0 +1,23 @@
+{
+  "description": "Sum of the cubes d^3 of the divisors d satisfying d^2|n.",
+  "id": "A361794",
+  "mentions": [
+    "A010052",
+    "A035316",
+    "A069290",
+    "A333843",
+    "A333844",
+    "A351308"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

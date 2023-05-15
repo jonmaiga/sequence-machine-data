@@ -2,14 +2,12 @@
   "description": "Partial sums of ceiling(n^2/19).",
   "id": "A175864",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:00",
     "offset": 0,
     "size": 51,
     "source": "oeis-bfile"

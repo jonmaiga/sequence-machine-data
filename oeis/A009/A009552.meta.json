@@ -2,14 +2,12 @@
   "description": "Expansion of e.g.f. sin(x)/cos(log(1+x)).",
   "id": "A009552",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:15",
     "offset": 0,
     "size": 20,
     "source": "oeis-bfile"

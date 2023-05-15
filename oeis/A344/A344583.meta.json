@@ -2,13 +2,11 @@
   "description": "Let f(k) = k/2 if k is even, otherwise (3*k+2*a(n)+1)/2, a(n) is the smallest integer greater than -1, where n = f^j(n) for j > 0 exists. f^j(n) means j times recursion into f(n).",
   "id": "A344583",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:17",
     "offset": 0,
     "size": 82,
     "source": "oeis-bfile"

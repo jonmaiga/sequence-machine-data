@@ -11,13 +11,11 @@
     "A039714",
     "A039715"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:50",
     "offset": 1,
     "size": 78,
     "source": "oeis-bfile"

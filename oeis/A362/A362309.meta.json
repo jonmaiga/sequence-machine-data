@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. exp(x - x^3/3).",
+  "id": "A362309",
+  "mentions": [
+    "A001470",
+    "A246607",
+    "A362302"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

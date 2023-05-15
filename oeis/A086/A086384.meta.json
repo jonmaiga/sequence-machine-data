@@ -2,13 +2,11 @@
   "description": "Odd digits of e.",
   "id": "A086384",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 11:37:15",
     "offset": 1,
     "size": 105,
     "source": "joeis"

@@ -2,12 +2,10 @@
   "description": "(2,3)-imperfect numbers.",
   "id": "A206367",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

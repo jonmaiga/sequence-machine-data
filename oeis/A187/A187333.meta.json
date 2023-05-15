@@ -2,14 +2,12 @@
   "description": "Floor(n/5)+floor(2n/5)+floor(3n/5)+floor(4n/5).",
   "id": "A187333",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:15:01",
     "offset": 0,
     "size": 76,
     "source": "joeis"

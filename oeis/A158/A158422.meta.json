@@ -2,12 +2,10 @@
   "description": "a[n] = number of bit strings of length n which have exactly as many substrings 000 as substrings 111.",
   "id": "A158422",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:40",
     "offset": 0,
     "size": 34,
     "source": "oeis-bfile"

@@ -1,15 +1,14 @@
 {
-  "description": "Number of nonnegative integer arrays of length n+2*4-2 with new values introduced in order 0 upwards and every value appearing only in runs of at least 4",
+  "description": "Number of nonnegative integer arrays of length n+2*4-2 with new values introduced in order 0 upwards and every value appearing only in runs of at least 4.",
   "id": "A211696",
   "mentions": [
     "A211700"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:30",
     "offset": 1,
     "size": 39,
     "source": "oeis-bfile"

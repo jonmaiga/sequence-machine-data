@@ -2,14 +2,12 @@
   "description": "Let P be a one-move \"rider\" with move set M={(1,2)}; a(n) is the number of non-attacking positions of three indistinguishable pieces P on an n X n board.",
   "id": "A222309",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:11:11",
     "offset": 1,
     "size": 36,
     "source": "joeis"

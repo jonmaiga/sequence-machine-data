@@ -2,12 +2,10 @@
   "description": "Numerator of n*(n-3)*(3*n^2-6*n+2)/(3*(n-1)*(n-2)).",
   "id": "A023417",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:18:37",
     "offset": 3,
     "size": 29,
     "source": "joeis"

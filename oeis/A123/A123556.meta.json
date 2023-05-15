@@ -1,20 +1,28 @@
 {
-  "description": "Number of elements in longest arithmetic progression of primes with difference n.",
+  "description": "Number of elements in longest possible arithmetic progression of primes with difference n.",
   "id": "A123556",
   "mentions": [
+    "A002110",
     "A007921",
-    "A040976",
     "A053669",
     "A124064",
-    "A342309"
+    "A151799",
+    "A173919",
+    "A206037",
+    "A206039",
+    "A206041",
+    "A206045",
+    "A342309",
+    "A359408",
+    "A359409",
+    "A359410",
+    "A360146"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

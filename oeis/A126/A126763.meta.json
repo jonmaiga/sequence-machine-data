@@ -2,13 +2,11 @@
   "description": "Weights of cusp forms satisfying certain conditions associated with a theorem of Serre and Deligne.",
   "id": "A126763",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

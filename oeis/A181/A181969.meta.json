@@ -2,14 +2,12 @@
   "description": "Prime-generating polynomial: 16*n^2 - 292*n + 1373.",
   "id": "A181969",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:16:25",
     "offset": 0,
     "size": 44,
     "source": "joeis"

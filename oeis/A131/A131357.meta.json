@@ -2,13 +2,11 @@
   "description": "a(1) = 1, a(2) = 2; for n > 1, a(n) = sum of the next two smallest integers > a(n-1) which are coprime to the sum s = a(1) + ... + a(n-1).",
   "id": "A131357",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:19",
     "offset": 1,
     "size": 36,
     "source": "oeis-bfile"

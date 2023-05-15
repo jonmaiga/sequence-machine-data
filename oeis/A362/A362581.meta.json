@@ -1,0 +1,17 @@
+{
+  "description": "Number of alternating permutations on [2n+1] with 1 in position n+1.",
+  "id": "A362581",
+  "mentions": [
+    "A000111",
+    "A104345"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

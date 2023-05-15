@@ -11,7 +11,6 @@
     "A228115",
     "A228116"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "base",
     "formulas",
@@ -19,7 +18,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 25,
     "source": "oeis-entry"

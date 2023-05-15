@@ -1,16 +1,14 @@
 {
-  "description": "Difference between consecutive primes arising after difference (d=2) between twin primes. In A001223, terms following those ones which equal to two.",
+  "description": "Difference between consecutive primes arising after difference (d=2) between twin primes. In A001223, terms following those which are equal to two.",
   "id": "A084291",
   "mentions": [
     "A001223",
     "A084290"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:36",
     "offset": 1,
     "size": 87,
     "source": "oeis-bfile"

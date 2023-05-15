@@ -1,5 +1,5 @@
 {
-  "description": "n < d(n)^2, d() = number of divisors.",
+  "description": "Numbers k such that k < d(k)^2, where d(k) = A000005(k).",
   "id": "A034884",
   "mentions": [
     "A000005",
@@ -8,16 +8,16 @@
     "A035034",
     "A035035",
     "A036763",
-    "A175495"
+    "A175495",
+    "A276734"
   ],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
+    "changed",
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 1,
     "size": 52,
     "source": "oeis-entry"

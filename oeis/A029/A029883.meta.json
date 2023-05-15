@@ -12,15 +12,12 @@
     "A091785",
     "A091855"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:39",
     "offset": 1,
     "size": 105,
     "source": "oeis-bfile"

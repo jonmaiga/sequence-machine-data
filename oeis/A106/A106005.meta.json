@@ -2,13 +2,11 @@
   "description": "Fibonacci sequence (mod 15).",
   "id": "A106005",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-10-18 14:56:44",
     "offset": 0,
     "size": 91,
     "source": "joeis"

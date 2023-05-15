@@ -2,13 +2,11 @@
   "description": "Chromatic invariant on the n-triangular honeycomb obtuse knight graph.",
   "id": "A295194",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "more",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Number of minimal non-2-stack-sortable permutations of length n.",
   "id": "A111576",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

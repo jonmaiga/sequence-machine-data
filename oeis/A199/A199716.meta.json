@@ -1,16 +1,14 @@
 {
-  "description": "Numbers n such that 6n-5 and 6n-1 are both composite.",
+  "description": "Numbers k such that 6k-5 and 6k-1 are both composite.",
   "id": "A199716",
   "mentions": [
     "A186243"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

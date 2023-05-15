@@ -9,13 +9,11 @@
     "A240265",
     "A308533"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:33",
     "offset": 1,
     "size": 38,
     "source": "oeis-bfile"

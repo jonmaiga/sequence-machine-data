@@ -2,12 +2,10 @@
   "description": "Common denominators of all Egyptian fraction representations of unity (EFROUs) such that replacing two terms with their sum never results in another EFROU.",
   "id": "A316291",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 42,
     "source": "oeis-entry"

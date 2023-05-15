@@ -2,7 +2,6 @@
   "description": "Irregular triangle: p(k, x) = 2*x*p(k-1, x) + (1 - x^2)*p(k-2, x) for even k, p(k, x) = 2*(k-1)*p(k-1, x) - x*p(k-2, x) for odd k.",
   "id": "A123242",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 62,
     "source": "oeis-entry"

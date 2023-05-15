@@ -11,14 +11,12 @@
     "A084964",
     "A168309"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-26 09:45:31",
     "offset": 1,
     "size": 84,
     "source": "joeis"

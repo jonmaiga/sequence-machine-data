@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the product of the first n primes that are coprime to a(n-1); a(0) = 1.",
+  "id": "A362364",
+  "mentions": [
+    "A001222",
+    "A002110",
+    "A019565",
+    "A037481",
+    "A100112",
+    "A117214"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

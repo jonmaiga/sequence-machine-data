@@ -2,12 +2,10 @@
   "description": "Number of nonisomorphic Knuthian systems of order n^2.",
   "id": "A193623",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

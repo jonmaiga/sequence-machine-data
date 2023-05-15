@@ -2,7 +2,6 @@
   "description": "Scale degrees of the roots of chords in a traditional \"twelve-bar blues\" in Western music.",
   "id": "A166361",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "fini",
@@ -11,7 +10,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

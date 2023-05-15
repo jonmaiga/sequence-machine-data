@@ -2,13 +2,11 @@
   "description": "Number of primes p with height h(p) = 1 and fundamental units epsilon(p) < 10^n.",
   "id": "A140527",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 2,
     "size": 11,
     "source": "oeis-entry"

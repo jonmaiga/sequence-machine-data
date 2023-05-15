@@ -1,0 +1,14 @@
+{
+  "description": "Number of chordless cycles of length >=4 in the n X n giraffe graph.",
+  "id": "A362541",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

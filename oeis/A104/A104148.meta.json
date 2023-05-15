@@ -2,14 +2,12 @@
   "description": "Difference between n^3 and largest m less than n^3, where m > 0 is either a prime or a square.",
   "id": "A104148",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:54",
     "offset": 2,
     "size": 81,
     "source": "oeis-bfile"

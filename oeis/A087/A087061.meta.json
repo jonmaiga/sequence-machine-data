@@ -1,20 +1,22 @@
 {
-  "description": "Array T(n,k) = lunar sum n+k (n >= 0, k >= 0) read by antidiagonals.",
+  "description": "Array A(n, k) = lunar sum n + k (n >= 0, k >= 0) read by antidiagonals.",
   "id": "A087061",
   "mentions": [
+    "A003056",
+    "A004197",
     "A087062",
     "A087097"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
+    "changed",
+    "formulas",
     "look",
     "nice",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:38",
     "offset": 0,
     "size": 97,
     "source": "oeis-bfile"

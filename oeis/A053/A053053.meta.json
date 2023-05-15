@@ -2,7 +2,6 @@
   "description": "Append n-th prime to previous term, reverse alternate terms.",
   "id": "A053053",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:01",
     "offset": 1,
     "size": 16,
     "source": "oeis-bfile"

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest positive number whose British English name has the letter \"e\" in the n-th position.",
+  "id": "A362122",
+  "mentions": [
+    "A164790",
+    "A362120",
+    "A362121"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

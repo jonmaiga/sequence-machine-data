@@ -2,13 +2,11 @@
   "description": "Coefficients in Molien series for a 25-dimensional representation of SO(3) X SO(3).",
   "id": "A246983",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:59:39",
     "offset": 0,
     "size": 34,
     "source": "joeis"

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = largest k such that A049820(k+A262509(n)) <= A262509(n).",
+  "description": "a(n) = largest k such that A049820(k + A262509(n)) <= A262509(n).",
   "id": "A262908",
   "mentions": [
     "A002183",
@@ -11,13 +11,11 @@
     "A262909",
     "A263083"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 68,
     "source": "oeis-entry"

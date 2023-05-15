@@ -2,12 +2,10 @@
   "description": "Sum of orders of all 2 X 2 matrices with entries mod n.",
   "id": "A006045",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:09",
     "offset": 1,
     "size": 30,
     "source": "oeis-bfile"

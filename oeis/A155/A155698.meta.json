@@ -2,13 +2,11 @@
   "description": "a(n)=a(n-1)+a(n-2)^a(n-3); a(1)=a(2)=a(3)=1.",
   "id": "A155698",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

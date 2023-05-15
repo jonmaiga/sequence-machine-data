@@ -5,18 +5,18 @@
     "A013731",
     "A016921",
     "A016933",
+    "A132024",
     "A157176"
   ],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:20",
     "offset": 0,
-    "size": 20,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

@@ -2,14 +2,12 @@
   "description": "a(n) = (n+1)(n+2)^2*(n+3)(7n^2 + 23n + 20)/240.",
   "id": "A114240",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 13:44:27",
     "offset": 0,
     "size": 30,
     "source": "joeis"

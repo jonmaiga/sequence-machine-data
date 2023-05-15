@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A361338(k) = 3.",
+  "id": "A361342",
+  "mentions": [
+    "A361337",
+    "A361338",
+    "A361349"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

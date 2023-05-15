@@ -1,0 +1,19 @@
+{
+  "description": "For n <= 2, a(n) = n. Thereafter let p be the greatest prime which divides the least number of terms in U = {a(n-2), a(n-1)}, then a(n) is the smallest multiple of p that is not yet in the sequence.",
+  "id": "A361629",
+  "mentions": [
+    "A006094",
+    "A007947",
+    "A361133",
+    "A361534"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

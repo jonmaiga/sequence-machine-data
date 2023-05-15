@@ -2,13 +2,11 @@
   "description": "Fibonacci(n^3) - Fibonacci(n).",
   "id": "A211489",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:30",
     "offset": 1,
     "size": 7,
     "source": "oeis-bfile"

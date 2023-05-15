@@ -2,13 +2,11 @@
   "description": "Decimal expansion of atomic unit of electric dipole moment in C m.",
   "id": "A254246",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": -29,
     "size": 7,
     "source": "oeis-entry"

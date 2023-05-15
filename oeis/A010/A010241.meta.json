@@ -2,13 +2,11 @@
   "description": "Continued fraction for cube root of 11.",
   "id": "A010241",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:17",
     "offset": 0,
     "size": 76,
     "source": "oeis-bfile"

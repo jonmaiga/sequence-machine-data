@@ -2,14 +2,12 @@
   "description": "Consider a pentagonal bipyramid with its seven vertices P_1, ..., P_7 lying on a unit sphere; sequence gives decimal expansion of Sum_{i < j} 1/dist(P_i, P_j).",
   "id": "A307983",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:47:33",
     "offset": 2,
     "size": 73,
     "source": "joeis"

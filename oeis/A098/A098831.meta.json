@@ -1,10 +1,9 @@
 {
-  "description": "a(n) = A069837(n)-(10^n-1)*2/9.",
+  "description": "a(n) = A069837(n) - (10^n-1)*2/9.",
   "id": "A098831",
   "mentions": [
     "A069837"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
@@ -12,7 +11,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

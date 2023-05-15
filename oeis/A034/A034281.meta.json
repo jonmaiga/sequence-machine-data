@@ -2,13 +2,11 @@
   "description": "Decimal part of a(n)^(1/6) starts with a 'nine digits' anagram.",
   "id": "A034281",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:09",
     "offset": 0,
     "size": 34,
     "source": "joeis"

@@ -2,7 +2,6 @@
   "description": "A generalized ( Shabat) type tree transformed Chebyshev recursion where: P(x,n)->C*P(c*x+d,n)+D: C=-1;c=-1;D=1;d=1: with substitution: x-1->x; as a triangular sequence of coefficients.",
   "id": "A136093",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 6; thereafter a(n) = smallest number with a(n-1) letters in British English.",
+  "id": "A362441",
+  "mentions": [
+    "A005589",
+    "A362123",
+    "A362442"
+  ],
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

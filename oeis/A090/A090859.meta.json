@@ -2,12 +2,10 @@
   "description": "Sequence coincides with union of its first and 2nd binomial transforms, ordered by size, with a(0)=1.",
   "id": "A090859",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 36,
     "source": "oeis-entry"

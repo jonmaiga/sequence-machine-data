@@ -2,13 +2,11 @@
   "description": "Semiprimes which are products of two primes each with half the number of digits, and which when split in the middle gives two primes; no leading zeros.",
   "id": "A243749",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:00",
     "offset": 1,
     "size": 38,
     "source": "oeis-bfile"

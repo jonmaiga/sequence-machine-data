@@ -6,13 +6,11 @@
     "A332584",
     "A332586"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:02",
     "offset": 1,
     "size": 51,
     "source": "oeis-bfile"

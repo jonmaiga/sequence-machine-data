@@ -2,13 +2,11 @@
   "description": "Numbers n such that 10000 * n - 1 is prime.",
   "id": "A105057",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:12:31",
     "offset": 1,
     "size": 58,
     "source": "joeis"

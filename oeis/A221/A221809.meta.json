@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of nXk arrays of occupancy after each element moves to some horizontal, vertical or antidiagonal neighbor, without move-in move-out straight through or left turns",
   "id": "A221809",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:39",
     "offset": 1,
     "size": 46,
     "source": "oeis-bfile"

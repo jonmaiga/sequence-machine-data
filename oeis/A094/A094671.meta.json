@@ -2,13 +2,11 @@
   "description": "a(n) = abs( Re( floor( -(Pi - 2*n*Pi*Log(n) + sqrt(Pi*n*(4*i*n + 8*Pi)) ) / (2*Pi) ) ) ), where i = sqrt(-1).",
   "id": "A094671",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:45",
     "offset": 1,
     "size": 62,
     "source": "oeis-bfile"

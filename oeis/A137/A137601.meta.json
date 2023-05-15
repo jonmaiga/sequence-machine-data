@@ -2,7 +2,6 @@
   "description": "a(n) is the smallest number m such that pi(m)+sigma(m)=n*m.",
   "id": "A137601",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "bref",
     "hard",
@@ -11,7 +10,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 3,
     "source": "oeis-entry"

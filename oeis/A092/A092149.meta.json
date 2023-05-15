@@ -2,15 +2,16 @@
   "description": "Partial sums of A092673.",
   "id": "A092149",
   "mentions": [
-    "A092673"
+    "A022825",
+    "A092673",
+    "A309288"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
+    "look",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:43",
     "offset": 1,
     "size": 106,
     "source": "oeis-bfile"

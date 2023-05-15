@@ -2,13 +2,11 @@
   "description": "E.g.f.: 2x/[1-exp(-2x)+2exp(-x)].",
   "id": "A109577",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 02:02:58",
     "offset": 0,
     "size": 23,
     "source": "joeis"

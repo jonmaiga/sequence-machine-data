@@ -2,14 +2,12 @@
   "description": "A pseudorandom binary sequence with minimum cyclic autocorrelation of all of its partial subsequences.",
   "id": "A280711",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "base",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 121,
     "source": "oeis-entry"

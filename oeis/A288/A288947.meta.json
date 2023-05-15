@@ -2,13 +2,11 @@
   "description": "Number of maximal cliques in the n X n queen graph.",
   "id": "A288947",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 13:12:09",
     "offset": 1,
     "size": 40,
     "source": "joeis"

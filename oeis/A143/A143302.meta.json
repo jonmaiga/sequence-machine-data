@@ -2,14 +2,12 @@
   "description": "Decimal expansion of the Vallée constant.",
   "id": "A143302",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "cons",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 24,
     "source": "oeis-entry"

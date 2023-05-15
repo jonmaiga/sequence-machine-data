@@ -2,13 +2,11 @@
   "description": "G.f. satisfies: A(x) = exp( Sum_{n>=1} sigma(n)*A(x^n)*x^n/n ).",
   "id": "A179467",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 28,
     "source": "oeis-entry"

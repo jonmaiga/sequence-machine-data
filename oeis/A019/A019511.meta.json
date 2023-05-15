@@ -2,12 +2,10 @@
   "description": "a(n+1) (n >= 1) is smallest number > a(n) which is the sum of cubes of distinct earlier terms.",
   "id": "A019511",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 0,
     "size": 48,
     "source": "oeis-entry"

@@ -1,0 +1,21 @@
+{
+  "description": "Number of distinct prime factors in decimal concatenation of integer (n, n-1, ..., 2, 1, 2, ..., n-1, n) = A007942(n).",
+  "id": "A361624",
+  "mentions": [
+    "A001221",
+    "A007942",
+    "A110760",
+    "A360736"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

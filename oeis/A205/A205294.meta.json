@@ -2,13 +2,11 @@
   "description": "Decimal expansion of Pi^(1/e).",
   "id": "A205294",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:58",
     "offset": 1,
     "size": 86,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "Numbers that don't use the letter n when written in Spanish.",
   "id": "A336824",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

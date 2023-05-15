@@ -2,18 +2,17 @@
   "description": "a(n) = Sum_{j=0..n} Sum_{k=0..n} binomial(n,j)*binomial(n,k)*max(j,k).",
   "id": "A100511",
   "mentions": [
+    "A000108",
     "A002457",
     "A033504"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 24,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

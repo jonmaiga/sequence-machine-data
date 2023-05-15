@@ -2,13 +2,11 @@
   "description": "Consider the n X n Go board as a graph; remove i nodes and let j be the number of nodes in the largest connected subgraph remaining; then a(n) = minimum (i + j).",
   "id": "A243205",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

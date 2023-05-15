@@ -5,7 +5,6 @@
     "A108520",
     "A318438"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "base",
     "formulas",
@@ -13,7 +12,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:39",
     "offset": 0,
     "size": 73,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "E.g.f. satisfies: A(x) = x - (exp(A(x)) - 1) * log(1 - A(x)).",
   "id": "A215362",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 13:08:43",
     "offset": 1,
     "size": 18,
     "source": "joeis"

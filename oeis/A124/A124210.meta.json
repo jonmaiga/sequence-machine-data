@@ -2,13 +2,11 @@
   "description": "a(n) is the number of positive integers k such that sum of digits of 2^k equals n.",
   "id": "A124210",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 100,
     "source": "oeis-entry"

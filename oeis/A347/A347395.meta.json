@@ -12,15 +12,12 @@
     "A347235",
     "A347396"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "formulas",
     "look",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:20",
     "offset": 1,
     "size": 93,
     "source": "oeis-bfile"

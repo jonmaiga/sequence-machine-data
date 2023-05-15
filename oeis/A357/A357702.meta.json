@@ -8,14 +8,12 @@
     "A196047",
     "A357701"
   ],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

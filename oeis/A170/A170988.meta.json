@@ -8,15 +8,12 @@
     "A170985",
     "A170990"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "base",
-    "changed",
     "look",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:44:25",
     "offset": 0,
     "size": 58,
     "source": "oeis-bfile"

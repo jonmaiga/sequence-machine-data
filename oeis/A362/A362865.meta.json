@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the length of the longest possible cycle of repeating digits in the digits expansion of 1/x, in base n, among all numbers x between 1 and n-1.",
+  "id": "A362865",
+  "mentions": [
+    "A051626",
+    "A362840"
+  ],
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

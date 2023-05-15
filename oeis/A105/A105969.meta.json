@@ -2,12 +2,10 @@
   "description": "Fixed point of the morphism 1 -> 123, 2 -> 212, 3 -> 345, 4 -> 434, 5 -> 561, 6 -> 656, starting from a(0) = 1.",
   "id": "A105969",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:34:49",
     "offset": 0,
     "size": 105,
     "source": "joeis"

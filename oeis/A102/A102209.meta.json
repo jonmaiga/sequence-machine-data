@@ -2,14 +2,12 @@
   "description": "Decimal expansion of ratio of both the surface area and the volume of an icosahedron to a dodecahedron with the same inradius.",
   "id": "A102209",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 18:52:41",
     "offset": 0,
     "size": 98,
     "source": "joeis"

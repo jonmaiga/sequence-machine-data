@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. x*2F1([3/4, 3/4], [3/2], 4*x^2)/2F1([1/4, 1/4], [1/2], 4*x^2), odd powers only.",
+  "id": "A362713",
+  "mentions": [
+    "A317615",
+    "A362714",
+    "A362715"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

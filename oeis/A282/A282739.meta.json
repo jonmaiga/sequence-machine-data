@@ -2,14 +2,12 @@
   "description": "Ramsey number R(K_3, K_n - edge).",
   "id": "A282739",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 3,
     "size": 8,
     "source": "oeis-entry"

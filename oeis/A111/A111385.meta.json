@@ -2,14 +2,12 @@
   "description": "a(n) = binomial(n,4) - binomial(floor(n/2),4) - binomial(ceiling(n/2),4).",
   "id": "A111385",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 11:47:51",
     "offset": 0,
     "size": 45,
     "source": "joeis"

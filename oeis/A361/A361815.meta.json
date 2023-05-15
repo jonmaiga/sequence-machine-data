@@ -1,0 +1,24 @@
+{
+  "description": "Expansion of 1/sqrt(1 - 4*x*(1-x)^2).",
+  "id": "A361815",
+  "mentions": [
+    "A085362",
+    "A110170",
+    "A137635",
+    "A162478",
+    "A359489",
+    "A359758",
+    "A360132",
+    "A361816",
+    "A361817"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

@@ -3,6 +3,7 @@
   "id": "A120716",
   "mentions": [
     "A037274",
+    "A037279",
     "A120712",
     "A120713",
     "A130139",
@@ -10,16 +11,13 @@
     "A130141",
     "A130142"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
-    "changed",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:47",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

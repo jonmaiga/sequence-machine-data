@@ -2,12 +2,10 @@
   "description": "Odd primes which can never divide 2^a+2^b+1.",
   "id": "A179113",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:02",
     "offset": 1,
     "size": 42,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "The dimension of the space of invariant tensors in the n-th tensor power of the adjoint representation of the exceptional Lie algebra E7.",
   "id": "A179683",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:02",
     "offset": 0,
     "size": 23,
     "source": "oeis-bfile"

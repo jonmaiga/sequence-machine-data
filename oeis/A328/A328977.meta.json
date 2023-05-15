@@ -2,13 +2,11 @@
   "description": "Number of planar 2-connected irreducible graphs with n vertices.",
   "id": "A328977",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 3,
     "size": 7,
     "source": "oeis-entry"

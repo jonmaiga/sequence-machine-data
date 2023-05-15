@@ -2,13 +2,11 @@
   "description": "Number of partitions of the hypercube (Z_n)^3 into maximal Hamming cliques H(3,n,3).",
   "id": "A280045",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

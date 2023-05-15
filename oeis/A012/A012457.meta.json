@@ -2,13 +2,11 @@
   "description": "sin(arctan(x)^2)=2/2!*x^2-16/4!*x^4+248/6!*x^6-3456/8!*x^8...",
   "id": "A012457",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:19",
     "offset": 0,
     "size": 13,
     "source": "oeis-bfile"

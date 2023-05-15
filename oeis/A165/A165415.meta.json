@@ -2,7 +2,6 @@
   "description": "a(n) = the smallest positive integer that contains more digits written in binary than n has written in binary, and which does not contain binary n as a substring in its binary representation.",
   "id": "A165415",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 2,
     "size": 69,
     "source": "oeis-entry"

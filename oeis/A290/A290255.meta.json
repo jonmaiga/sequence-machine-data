@@ -2,14 +2,12 @@
   "description": "Number of 0's following directly the first 1 in the binary representation of n.",
   "id": "A290255",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "base",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:05",
     "offset": 1,
     "size": 103,
     "source": "oeis-bfile"

@@ -7,14 +7,12 @@
     "A005928",
     "A007332"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "mult",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 48,
     "source": "oeis-entry"

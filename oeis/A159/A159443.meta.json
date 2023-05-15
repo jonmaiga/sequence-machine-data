@@ -2,12 +2,10 @@
   "description": "Number of n X n arrays of squares of integers summing to 39",
   "id": "A159443",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:41",
     "offset": 2,
     "size": 10,
     "source": "oeis-bfile"

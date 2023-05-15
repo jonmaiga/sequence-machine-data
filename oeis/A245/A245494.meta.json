@@ -2,13 +2,11 @@
   "description": "Constant in the third-order correction term for gravitational potential in natural units, negated.",
   "id": "A245494",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:27:55",
     "offset": 1,
     "size": 88,
     "source": "joeis"

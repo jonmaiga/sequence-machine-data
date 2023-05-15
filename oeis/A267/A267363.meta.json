@@ -2,14 +2,12 @@
   "description": "a(0) = 0; a(odd n) = 2n+1; a(even n) = a(n/2 - a(n-1)).",
   "id": "A267363",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:29",
     "offset": 0,
     "size": 57,
     "source": "oeis-bfile"

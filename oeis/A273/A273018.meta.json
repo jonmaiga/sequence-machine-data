@@ -6,14 +6,12 @@
     "A273015",
     "A273016"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 28,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "a(n) is the sum of the base-b representations of n for 2 <= b <= n+1 read in base ten.",
   "id": "A289335",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:03",
     "offset": 0,
     "size": 43,
     "source": "oeis-bfile"

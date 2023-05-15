@@ -1,20 +1,19 @@
 {
-  "description": "Triangle as described in A100461, except with a(1,n) = the Fibonacci numbers 1,2,3,5,8,... instead of 2^(n-1).",
+  "description": "Triangle as described in A100461, except with t(1,n) = Fibonacci(n+1).",
   "id": "A119444",
   "mentions": [
     "A100461",
     "A119445",
     "A119446"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 72,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

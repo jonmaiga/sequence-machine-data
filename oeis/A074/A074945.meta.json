@@ -2,14 +2,12 @@
   "description": "Number of k with 1<=k<=n such that gcd(n,k) = floor(n/k).",
   "id": "A074945",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 79,
     "source": "oeis-entry"

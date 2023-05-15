@@ -2,14 +2,12 @@
   "description": "Let M_n be the n X n matrix M_(i,j) = 2^i-2^j then the characteristic polynomial of M_n = x^n-a(n)*x^(n-2).",
   "id": "A077122",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:28",
     "offset": 0,
     "size": 23,
     "source": "oeis-bfile"

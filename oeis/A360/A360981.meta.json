@@ -7,17 +7,15 @@
     "A180938",
     "A360980"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "base",
     "formulas",
-    "new",
+    "look",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 62,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

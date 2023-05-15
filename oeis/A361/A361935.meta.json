@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k and k+1 are both primitive unitary abundant numbers (definition 2, A302574).",
+  "id": "A361935",
+  "mentions": [
+    "A034683",
+    "A283418",
+    "A302573",
+    "A302574",
+    "A330872",
+    "A331412"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

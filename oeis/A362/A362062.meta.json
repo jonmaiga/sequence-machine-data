@@ -1,0 +1,17 @@
+{
+  "description": "First index in A362061 where A001221(A362061(a(n))) = n.",
+  "id": "A362062",
+  "mentions": [
+    "A001221",
+    "A362061"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

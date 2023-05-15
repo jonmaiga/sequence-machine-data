@@ -2,13 +2,11 @@
   "description": "Triangular array a(n,k) read by rows: nextprime(k*n!)-k*n!. For 1<=k<=n.",
   "id": "A178916",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 78,
     "source": "oeis-entry"

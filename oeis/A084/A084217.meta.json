@@ -2,12 +2,10 @@
   "description": "Number of k's 1<=k<=n dividing the numerator of 2n-th Bernoulli number.",
   "id": "A084217",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 99,
     "source": "oeis-entry"

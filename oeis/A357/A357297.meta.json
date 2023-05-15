@@ -1,0 +1,22 @@
+{
+  "description": "T(m,n) is the number of linear extensions of n fork-join DAGs of width m, read by downward antidiagonals.",
+  "id": "A357297",
+  "mentions": [
+    "A000012",
+    "A000142",
+    "A000680",
+    "A014606",
+    "A260331",
+    "A361901"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

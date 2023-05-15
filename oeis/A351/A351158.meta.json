@@ -2,14 +2,12 @@
   "description": "Number of n X n symmetric 0-1 matrices where rows are sorted lexicographically and row sums are nondecreasing.",
   "id": "A351158",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that prime(k+2) - prime(k) = 6.",
+  "id": "A361267",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A007529",
+    "A022004",
+    "A022005"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

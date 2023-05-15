@@ -2,14 +2,12 @@
   "description": "6*2^n - n^2 - 5*n - 6.",
   "id": "A229788",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 22:18:44",
     "offset": 0,
     "size": 31,
     "source": "joeis"

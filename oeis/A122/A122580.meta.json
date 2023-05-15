@@ -2,14 +2,12 @@
   "description": "Number of partitions of n with crank congruent to 0 mod 3, minus number of partitions of n with crank congruent to 1 mod 3.",
   "id": "A122580",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:11",
     "offset": 0,
     "size": 61,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "a(n)= least k such that ((k+1)^n)*(k^n-1)-1 is prime.",
   "id": "A102601",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

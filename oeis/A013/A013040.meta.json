@@ -2,13 +2,11 @@
   "description": "arctanh(sinh(x)+arcsin(x))=2*x+18/3!*x^3+938/5!*x^5+122066/7!*x^7...",
   "id": "A013040",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 17:04:46",
     "offset": 0,
     "size": 12,
     "source": "joeis"

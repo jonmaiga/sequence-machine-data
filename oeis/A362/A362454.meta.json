@@ -1,0 +1,18 @@
+{
+  "description": "Indices of 1's in A361897.",
+  "id": "A362454",
+  "mentions": [
+    "A361897",
+    "A362450",
+    "A362453"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

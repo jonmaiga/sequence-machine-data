@@ -5,7 +5,6 @@
     "A231986",
     "A243597"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "cons",
     "easy",
@@ -13,7 +12,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 11:56:01",
     "offset": 1,
     "size": 105,
     "source": "joeis"

@@ -4,14 +4,12 @@
   "mentions": [
     "A000002"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "formulas",
     "nonn",
     "unsolved"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:30",
     "offset": 1,
     "size": 105,
     "source": "oeis-bfile"

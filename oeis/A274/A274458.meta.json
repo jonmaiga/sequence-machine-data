@@ -2,14 +2,12 @@
   "description": "White to move: Number of up to 5 man GBR-codes on an 8x8 chessboard having longest checkmate under perfect play in n moves if any such checkmate exists.",
   "id": "A274458",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 127,
     "source": "oeis-entry"

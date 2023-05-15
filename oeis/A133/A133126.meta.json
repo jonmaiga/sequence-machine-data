@@ -2,13 +2,11 @@
   "description": "Semiprimes which are equal to product of two successive primes and also to sum of three successive primes.",
   "id": "A133126",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:21",
     "offset": 1,
     "size": 28,
     "source": "oeis-bfile"

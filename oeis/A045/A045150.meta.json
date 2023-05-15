@@ -2,14 +2,11 @@
   "description": "Numbers whose base-4 representation contains exactly three 2's and two 3's.",
   "id": "A045150",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
-    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:23:13",
     "offset": 1,
     "size": 38,
     "source": "joeis"

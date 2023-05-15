@@ -2,13 +2,11 @@
   "description": "\"Virtual\" number of rational curves (or rather, stable maps) of degree n in P^3 which meet 2n+1 general lines and are Legendrian, i.e., are tangent to the standard contact distribution in P^3.",
   "id": "A328553",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

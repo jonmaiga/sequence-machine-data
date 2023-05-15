@@ -2,13 +2,11 @@
   "description": "Expansion of 1/(1-x-x^2+x^9-x^11).",
   "id": "A147660",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 43,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "a(n) = 5*n + 2^n.",
   "id": "A297663",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:18",
     "offset": 0,
     "size": 34,
     "source": "oeis-bfile"

@@ -1,0 +1,19 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is number of terms in the first n-1 terms of the sequence that are not proper divisors of a(n-1).",
+  "id": "A362232",
+  "mentions": [
+    "A027751",
+    "A032741",
+    "A032742",
+    "A152271"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

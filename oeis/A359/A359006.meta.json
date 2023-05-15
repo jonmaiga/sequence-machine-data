@@ -2,14 +2,12 @@
   "description": "Euler characteristics of some Calabi-Yau n-folds.",
   "id": "A359006",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"

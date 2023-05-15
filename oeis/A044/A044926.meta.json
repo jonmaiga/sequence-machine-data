@@ -2,13 +2,11 @@
   "description": "a(n)=so-se, where so(se)=sum of odd(even) base 4 run lengths of n.",
   "id": "A044926",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-27 14:22:35",
     "offset": 1,
     "size": 80,
     "source": "joeis"

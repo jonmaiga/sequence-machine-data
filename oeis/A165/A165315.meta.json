@@ -2,12 +2,10 @@
   "description": "a(1)=2. If s is the largest integer such that n = r^s, r = positive integer, then a(n) = the smallest integer > a(n-1) such that a(n) = t^s, t = positive integer.",
   "id": "A165315",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:48",
     "offset": 1,
     "size": 58,
     "source": "oeis-bfile"

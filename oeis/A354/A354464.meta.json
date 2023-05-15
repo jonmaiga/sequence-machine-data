@@ -5,7 +5,6 @@
     "A000029",
     "A334506"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "more",
     "nonn",
@@ -13,7 +12,6 @@
     "unsolved"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

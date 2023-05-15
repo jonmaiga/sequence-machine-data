@@ -2,13 +2,11 @@
   "description": "Decimal expansion of Sum_{n>=1} n^(1/n)/n!.",
   "id": "A329186",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 93,
     "source": "oeis-entry"

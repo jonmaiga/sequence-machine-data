@@ -1,19 +1,18 @@
 {
-  "description": "n such that either 2^n + n - 3 or 2^n + n - 2 is prime.",
+  "description": "k such that either 2^k + k - 3 or 2^k + k - 2 is prime.",
   "id": "A237816",
   "mentions": [
     "A235860",
     "A236547"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
+    "changed",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
-    "size": 22,
+    "size": 23,
     "source": "oeis-entry"
   }
 }

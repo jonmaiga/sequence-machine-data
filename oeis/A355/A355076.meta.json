@@ -6,7 +6,6 @@
     "A174868",
     "A355075"
   ],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "formulas",
     "frac",
@@ -14,7 +13,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:29",
     "offset": 0,
     "size": 53,
     "source": "oeis-bfile"

@@ -2,14 +2,12 @@
   "description": "Numbers n whose binary representation is the first Fibonacci(n) binary digits of the pattern 1010101010101010...",
   "id": "A108021",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

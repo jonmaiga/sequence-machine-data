@@ -2,7 +2,6 @@
   "description": "a(n) = a(n-1) + last digit of a(n-1), starting at 3.",
   "id": "A102040",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 18:25:35",
     "offset": 1,
     "size": 57,
     "source": "joeis"

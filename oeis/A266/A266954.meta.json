@@ -2,12 +2,10 @@
   "description": "Primes of the form p = a^2 + b^2 where neither |a+b| nor |a-b| is prime.",
   "id": "A266954",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:28",
     "offset": 1,
     "size": 45,
     "source": "oeis-bfile"

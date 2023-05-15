@@ -2,14 +2,12 @@
   "description": "SEPSigma(n) = (-1)^(Sum_i r_i)*Sum_{d|n} (-1)^(Sum_j Max(r_j))*d =Product_i (Sum_{1<=s_i<=r_i} p_i^s_i)+(-1)^r_i where n=Product_i p_i^r_i, d=Product_j p_j^r_j, p_j^max(r_j) is the largest power of p_j dividing n.",
   "id": "A125140",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "mult",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:13",
     "offset": 1,
     "size": 73,
     "source": "oeis-bfile"

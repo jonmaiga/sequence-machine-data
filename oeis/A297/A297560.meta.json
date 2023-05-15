@@ -2,14 +2,12 @@
   "description": "Numbers with nonzero Conway base-13 function value.",
   "id": "A297560",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:18",
     "offset": 1,
     "size": 36,
     "source": "oeis-bfile"

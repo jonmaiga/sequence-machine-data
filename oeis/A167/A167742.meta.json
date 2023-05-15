@@ -2,13 +2,11 @@
   "description": "Primes that becomes a square when some single digit is inserted in front of its decimal expansion.",
   "id": "A167742",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:51",
     "offset": 1,
     "size": 37,
     "source": "oeis-bfile"

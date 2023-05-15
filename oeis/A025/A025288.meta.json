@@ -2,12 +2,10 @@
   "description": "Numbers that are the sum of 2 nonzero squares in exactly 5 ways.",
   "id": "A025288",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 23:19:23",
     "offset": 1,
     "size": 36,
     "source": "joeis"

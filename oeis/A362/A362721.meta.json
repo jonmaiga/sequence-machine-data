@@ -1,0 +1,18 @@
+{
+  "description": "Number of numbers k, 1 <= k <= n, such that pi(k) = pi(n-k+1).",
+  "id": "A362721",
+  "mentions": [
+    "A000720"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

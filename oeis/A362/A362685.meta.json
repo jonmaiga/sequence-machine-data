@@ -1,0 +1,19 @@
+{
+  "description": "Triangle of numbers read by rows, T(n, k) = (n*(n-1))*Stirling2(k, 2), for n >= 1 and 1 <= k <= n.",
+  "id": "A362685",
+  "mentions": [
+    "A002024",
+    "A068605"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

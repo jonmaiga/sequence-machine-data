@@ -3,18 +3,18 @@
   "id": "A267806",
   "mentions": [
     "A000045",
+    "A051274",
     "A267807",
     "A267808",
     "A267809"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 13:30:59",
     "offset": 0,
     "size": 74,
     "source": "joeis"

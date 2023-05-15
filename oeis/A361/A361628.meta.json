@@ -1,0 +1,18 @@
+{
+  "description": "Sphenic numbers (products of 3 distinct primes) whose digits are primes.",
+  "id": "A361628",
+  "mentions": [
+    "A007304",
+    "A046034",
+    "A102782"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

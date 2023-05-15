@@ -7,14 +7,11 @@
     "A043570",
     "A100714"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
-    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:34",
     "offset": 1,
     "size": 52,
     "source": "oeis-bfile"

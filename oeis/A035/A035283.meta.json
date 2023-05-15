@@ -2,13 +2,11 @@
   "description": "Expansion of zeta function of ring H(Q(sqrt(2)).",
   "id": "A035283",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:18:59",
     "offset": 1,
     "size": 54,
     "source": "joeis"

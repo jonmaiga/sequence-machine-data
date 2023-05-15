@@ -2,14 +2,12 @@
   "description": "186th cyclotomic polynomial.",
   "id": "A016350",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "fini",
     "full",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 0,
     "size": 61,
     "source": "oeis-entry"

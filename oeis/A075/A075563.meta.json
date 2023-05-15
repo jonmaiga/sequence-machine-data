@@ -2,12 +2,10 @@
   "description": "Rearrangement of natural numbers such that n-th partial sum is == n (mod p(n)).",
   "id": "A075563",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 64,
     "source": "oeis-entry"

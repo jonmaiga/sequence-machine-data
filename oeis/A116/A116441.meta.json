@@ -3,17 +3,21 @@
   "id": "A116441",
   "mentions": [
     "A116436",
+    "A116437",
+    "A116438",
+    "A116439",
+    "A116440",
+    "A116442",
+    "A116443",
     "A116444"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
-    "size": 39,
-    "source": "oeis-entry"
+    "size": 42,
+    "source": "oeis-bfile"
   }
 }

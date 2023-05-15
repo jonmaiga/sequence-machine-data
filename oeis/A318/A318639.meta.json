@@ -2,13 +2,11 @@
   "description": "a(n) = Sum_{k>=0} n^k * log(k)^k / k!, rounded to nearest integer.",
   "id": "A318639",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:40",
     "offset": 0,
     "size": 19,
     "source": "oeis-bfile"

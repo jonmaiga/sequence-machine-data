@@ -2,13 +2,11 @@
   "description": "Elastic numbers: numbers n with two or more digits such that for any number m made by inserting any number of 0's between the digits of n, m is a multiple of n.",
   "id": "A285176",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 19,
     "source": "oeis-entry"

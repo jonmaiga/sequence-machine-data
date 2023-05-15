@@ -1,17 +1,20 @@
 {
-  "description": "Number of maximal directed paths on 1 X n grid.",
+  "description": "Number of maximal directed trails in the labeled n-ladder graph P_2 X P_n.",
   "id": "A135443",
   "mentions": [
+    "A003682",
+    "A033586",
     "A089243"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
-    "nonn"
+    "changed",
+    "formulas",
+    "nonn",
+    "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
-    "offset": 0,
-    "size": 4,
+    "offset": 1,
+    "size": 44,
     "source": "oeis-entry"
   }
 }

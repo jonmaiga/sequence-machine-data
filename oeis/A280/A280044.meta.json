@@ -2,13 +2,11 @@
   "description": "Jenga numbers: number of partitions of hypercube (Z_n)^4 into 1-dimensional layers.",
   "id": "A280044",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

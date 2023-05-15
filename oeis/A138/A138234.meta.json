@@ -2,14 +2,12 @@
   "description": "Integers which land on a free spot on the plane, according to the compass method described below.",
   "id": "A138234",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 70,
     "source": "oeis-entry"

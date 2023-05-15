@@ -1,0 +1,19 @@
+{
+  "description": "Constant term in the expansion of (1 + x^3 + y^3 + 1/(x*y))^n.",
+  "id": "A361699",
+  "mentions": [
+    "A344560",
+    "A361657",
+    "A361700"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

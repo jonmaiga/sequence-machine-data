@@ -2,12 +2,10 @@
   "description": "Determinant of an n X n matrix whose diagonal are the first n nonprime numbers and all other elements are 1's.",
   "id": "A067546",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:19",
     "offset": 1,
     "size": 21,
     "source": "oeis-bfile"

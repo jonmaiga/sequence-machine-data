@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of Product_{k>=1}(1 + x^k)^lambda(k) where lambda(k) is the Liouville function, A008836.",
+  "description": "Expansion of Product_{k>=1} (1 + x^k)^lambda(k) where lambda(k) is the Liouville function, A008836.",
   "id": "A118207",
   "mentions": [
     "A008836",
@@ -9,13 +9,12 @@
     "A118208",
     "A118209"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
+    "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-26 09:32:59",
     "offset": 0,
     "size": 75,
     "source": "joeis"

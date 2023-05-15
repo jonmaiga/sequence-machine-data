@@ -2,7 +2,6 @@
   "description": "Smallest unhappy number that takes n iterations of the sum of the squares of digits to reach 4, which is the smallest number of the unhappy numbers cycle.",
   "id": "A092952",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 16:20:17",
     "offset": 1,
     "size": 76,
     "source": "joeis"

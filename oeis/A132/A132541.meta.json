@@ -2,13 +2,11 @@
   "description": "Egyptian fraction representation for the cube root of 67.",
   "id": "A132541",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Primes such that when they are concatenated with their 10's complement (which also must be prime), the result is a brilliant number.",
   "id": "A168466",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 29,
     "source": "oeis-entry"

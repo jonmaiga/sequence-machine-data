@@ -2,12 +2,10 @@
   "description": "Numerical value of the following string operation iterated n-1 times on the string \"1\": (1) Concatenate \"0\" to the left and to the right to the old string and initialize a new string. (2) Scan the old string from left to right. Whenever \"00\" occurs in the old string, write \"0\" to the new string; whenever \"01\" or \"10\" occurs in the old string, write \"1\" to the new string; whenever \"11\" occurs in the old string, write \"10\" to the new string.",
   "id": "A100588",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 11,
     "source": "oeis-entry"

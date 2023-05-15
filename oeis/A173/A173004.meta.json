@@ -2,7 +2,6 @@
   "description": "Antidiagonal triangle sequence based on recursion: f(n,a)=a*f(n-1,a)+n*f(n-2,a)",
   "id": "A173004",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 55,
     "source": "oeis-entry"

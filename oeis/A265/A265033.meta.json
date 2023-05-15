@@ -2,13 +2,11 @@
   "description": "Generating function A(x) satisfies A = 1 + x*A^6 + x^2*A^12.",
   "id": "A265033",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:24",
     "offset": 0,
     "size": 21,
     "source": "oeis-bfile"

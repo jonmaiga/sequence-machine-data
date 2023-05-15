@@ -2,14 +2,12 @@
   "description": "a(n) = the number of distinct primes that can be made by writing n in binary, doubling any number (possibly zero) of 1's in place in this binary representation, and converting back to decimal.",
   "id": "A163496",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "look",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:45",
     "offset": 1,
     "size": 105,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Irregular triangle read by rows: T(n,k) (n>=1, 0<=k<=n) gives winning pair of moves for the game of Concentration if there are n pairs of cards and k cards have been flipped, using 0 for NN, 1 for NO, and 2 for OO.",
   "id": "A299908",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 135,
     "source": "oeis-entry"

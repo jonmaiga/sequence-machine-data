@@ -2,13 +2,11 @@
   "description": "a(n)=smallest positive integer such that product{k=1 to n}(1+1/a(k)) has a prime numerator.",
   "id": "A132181",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:20",
     "offset": 1,
     "size": 59,
     "source": "oeis-bfile"

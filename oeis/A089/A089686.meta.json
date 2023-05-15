@@ -2,12 +2,10 @@
   "description": "a={1,3,7,9} b[n]=Prime[n]*10+a[[4-Mod[n,4]]] c(m) =if b[n] is prime then b[n]",
   "id": "A089686",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 44,
     "source": "oeis-entry"

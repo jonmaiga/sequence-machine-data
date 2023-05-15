@@ -2,13 +2,11 @@
   "description": "a(n) is the number of ways of producing n, with an expression like: +- 1 # 2 # 3 # 4 # 5 # 6 # 7 # 8 # 9, where each # is replaced by any one of +,-,*,/; and the value is computed going left to right.",
   "id": "A129913",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:17",
     "offset": 0,
     "size": 60,
     "source": "oeis-bfile"

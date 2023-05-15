@@ -2,13 +2,11 @@
   "description": "Expansion of e.g.f. exp(arctan(x)*log(x+1)).",
   "id": "A012396",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-11-11 15:41:36",
     "offset": 0,
     "size": 20,
     "source": "joeis"

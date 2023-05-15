@@ -1,0 +1,25 @@
+{
+  "description": "G.f. A(x) satisfies A(x) = Series_Reversion(x - x^5*A'(x)).",
+  "id": "A361311",
+  "mentions": [
+    "A229619",
+    "A360976",
+    "A360977",
+    "A360978",
+    "A361302",
+    "A361307",
+    "A361308",
+    "A361309",
+    "A361310",
+    "A361551"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

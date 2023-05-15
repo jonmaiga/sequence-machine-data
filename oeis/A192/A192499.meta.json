@@ -2,12 +2,10 @@
   "description": "Half the number of nXnXn triangular binary arrays with every element unequal to at most 3 neighbors",
   "id": "A192499",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 15,
     "source": "oeis-entry"

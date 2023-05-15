@@ -2,12 +2,10 @@
   "description": "Number of n X n 0..8 arrays with rows and columns, considered as 9-ary numbers, in nondecreasing order",
   "id": "A162091",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 5,
     "source": "oeis-entry"

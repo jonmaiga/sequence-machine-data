@@ -2,12 +2,10 @@
   "description": "The number of imperfect staircase polygons counted by diagonal length (also the distance of the terminal vertex from the origin).",
   "id": "A173409",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 3,
     "size": 20,
     "source": "oeis-entry"

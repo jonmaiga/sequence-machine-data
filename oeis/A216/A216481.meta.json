@@ -9,13 +9,11 @@
     "A181061",
     "A216812"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 42,
     "source": "oeis-entry"

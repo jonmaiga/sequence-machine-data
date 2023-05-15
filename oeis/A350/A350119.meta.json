@@ -7,7 +7,6 @@
     "A103964",
     "A350118"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "fini",
     "formulas",
@@ -16,7 +15,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Integers k (not perfect squares) such that the continued fraction expansion of the square root of k has period at most 2.",
   "id": "A117045",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 36,
     "source": "oeis-entry"

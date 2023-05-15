@@ -1,0 +1,24 @@
+{
+  "description": "Number of 5-connected polyhedra (or 5-connected simple planar graphs) with n nodes",
+  "id": "A361578",
+  "mentions": [
+    "A000944",
+    "A003094",
+    "A005470",
+    "A007027",
+    "A021103",
+    "A049373",
+    "A086216",
+    "A111358"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 12,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

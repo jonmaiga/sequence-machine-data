@@ -1,15 +1,14 @@
 {
-  "description": "Number of 6Xn integer arrays with each element equal to the number of horizontal and antidiagonal neighbors equal to itself.",
+  "description": "Number of 6 X n integer arrays with each element equal to the number of horizontal and antidiagonal neighbors equal to itself.",
   "id": "A266016",
   "mentions": [
     "A266012"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:26",
     "offset": 1,
     "size": 26,
     "source": "oeis-bfile"

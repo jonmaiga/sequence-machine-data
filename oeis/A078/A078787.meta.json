@@ -2,13 +2,11 @@
   "description": "a(n) = 101*n + 1.",
   "id": "A078787",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:06:05",
     "offset": 0,
     "size": 44,
     "source": "joeis"

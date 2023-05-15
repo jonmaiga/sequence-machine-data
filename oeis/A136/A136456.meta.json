@@ -2,7 +2,6 @@
   "description": "Characteristic polynomials of the Inverse Beta function based matrices as a triangle of Integer coefficients: (lower triangular form: Cornelius-Schultz form) n*IM(i,j)=Inverse(if[i>=,1/Gamma(i,j),0));i.j>=n.",
   "id": "A136456",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 32,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Second occurrence where n# + p is prime for primes p = 3,5,...",
   "id": "A097444",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 2,
     "size": 17,
     "source": "oeis-entry"

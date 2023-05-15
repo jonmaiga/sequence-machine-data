@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Product_{i=prime(n)..prime(n+1)} i.",
+  "id": "A361761",
+  "mentions": [
+    "A006094",
+    "A061214",
+    "A072472",
+    "A112231",
+    "A361760"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

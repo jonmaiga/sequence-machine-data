@@ -2,14 +2,12 @@
   "description": "Triangle read by rows: number of reflection-invariant dissections of an n-gon with k noncrossing diagonals.",
   "id": "A194564",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 3,
     "size": 78,
     "source": "oeis-entry"

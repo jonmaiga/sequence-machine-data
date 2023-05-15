@@ -2,13 +2,11 @@
   "description": "Decimal expansion of convergent sum of weighted self-defining reciprocals.",
   "id": "A154310",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 84,
     "source": "oeis-entry"

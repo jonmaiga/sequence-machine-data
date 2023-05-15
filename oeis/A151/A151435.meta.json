@@ -2,13 +2,11 @@
   "description": "Weight distribution of [128,57,24] extended binary primitive BCH (or XBCH) code.",
   "id": "A151435",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 18,
     "source": "oeis-entry"

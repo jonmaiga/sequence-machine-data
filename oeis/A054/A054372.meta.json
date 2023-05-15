@@ -2,7 +2,6 @@
   "description": "Table of resultants for cyclotomic polynomials phi_k(x) and phi_n(x).",
   "id": "A054372",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "nice",
@@ -10,7 +9,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:03",
     "offset": 1,
     "size": 100,
     "source": "oeis-bfile"

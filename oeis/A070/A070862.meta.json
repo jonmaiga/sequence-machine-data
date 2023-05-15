@@ -2,12 +2,10 @@
   "description": "Number of path covers of an n X n grid.",
   "id": "A070862",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

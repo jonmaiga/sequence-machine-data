@@ -1,0 +1,22 @@
+{
+  "description": "A set of 13 primes that form a covering set for a Sierpiński (or Riesel) number.",
+  "id": "A361898",
+  "mentions": [
+    "A076336",
+    "A101036",
+    "A291360",
+    "A296924",
+    "A361899",
+    "A361900"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

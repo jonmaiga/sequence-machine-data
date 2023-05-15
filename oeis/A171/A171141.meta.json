@@ -2,14 +2,12 @@
   "description": "Numbers that are congruent to {6,33} mod 41.",
   "id": "A171141",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:05:53",
     "offset": 1,
     "size": 52,
     "source": "joeis"

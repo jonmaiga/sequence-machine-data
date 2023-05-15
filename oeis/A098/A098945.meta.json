@@ -2,14 +2,12 @@
   "description": "Numbers where 1 is the only odd decimal digit.",
   "id": "A098945",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:49",
     "offset": 1,
     "size": 54,
     "source": "oeis-bfile"

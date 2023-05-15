@@ -2,14 +2,12 @@
   "description": "If n = 2^(2*m+1)+j, 0 <= j < 3*2^(2*m+1), then a(n) = 2^(3*m)+j.",
   "id": "A298747",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:21",
     "offset": 2,
     "size": 75,
     "source": "oeis-bfile"

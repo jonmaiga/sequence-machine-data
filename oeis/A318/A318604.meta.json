@@ -2,12 +2,10 @@
   "description": "Number of partitions of prime(n) into distinct parts not larger than prime(n-1).",
   "id": "A318604",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:40",
     "offset": 2,
     "size": 38,
     "source": "oeis-bfile"

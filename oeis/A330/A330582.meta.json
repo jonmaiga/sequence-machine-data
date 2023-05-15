@@ -2,13 +2,11 @@
   "description": "a(n) is the least integer k such that every ternary string of length >= k contains either a square or an n-antipower.",
   "id": "A330582",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

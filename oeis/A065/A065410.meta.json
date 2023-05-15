@@ -2,7 +2,6 @@
   "description": "Number of labeled, rooted, binary trees with internal nodes labeled from {1, ...,n} and leaves labeled from {0,1} such that for any path from the root to a leaf, the internal nodes receive distinct labels. In other words, the number of decision trees on n Boolean variables.",
   "id": "A065410",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 0,
     "size": 8,
     "source": "oeis-entry"

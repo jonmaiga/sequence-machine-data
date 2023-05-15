@@ -2,12 +2,10 @@
   "description": "Number of ways in chess to force mate in n moves for a single knight against a single pawn, without duals, without short mates and excluding rotations, mirroring and color reversing.",
   "id": "A115229",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 8,
     "source": "oeis-entry"

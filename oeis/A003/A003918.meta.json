@@ -2,14 +2,12 @@
   "description": "Degrees of irreducible representations of Rudvalis group Ru.",
   "id": "A003918",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 1,
     "size": 36,
     "source": "oeis-entry"

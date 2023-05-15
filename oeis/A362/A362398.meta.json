@@ -1,0 +1,16 @@
+{
+  "description": "Records in A336830.",
+  "id": "A362398",
+  "mentions": [
+    "A336830",
+    "A362399"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

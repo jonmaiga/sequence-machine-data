@@ -2,16 +2,16 @@
   "description": "Triangle read by rows in which the n-th row consists of the first n nonzero terms of A033312.",
   "id": "A105060",
   "mentions": [
+    "A007489",
     "A033312"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-03-14 10:44:24",
     "offset": 1,
     "size": 55,
     "source": "oeis-bfile"

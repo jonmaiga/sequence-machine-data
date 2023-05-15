@@ -2,14 +2,12 @@
   "description": "Let p(x) = -332914995*x - 121099959*x^2 - 54262863*x^3 - 37433763*x^4 - 1488468*x^5 - 4442464*x^6 + 462362*x^7 - 241686*x^8 + 63542*x^9 + 26*x^10 + 3732*x^11 + 776*x^12 + 113*x^13 + 45*x^14 + x^15 + x^16, the sequence is the expansion of 1/(x^16*p(1/x)).",
   "id": "A158376",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "less",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 22,
     "source": "oeis-entry"

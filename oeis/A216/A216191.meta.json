@@ -2,14 +2,12 @@
   "description": "Triangle T read by rows: T(n,k) equals the Manhattan distance between n and k when integers are arranged in a spiral.",
   "id": "A216191",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 0,
     "size": 71,
     "source": "oeis-entry"

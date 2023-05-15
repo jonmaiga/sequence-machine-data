@@ -2,13 +2,11 @@
   "description": "Numbers of the form xyz, where x and z have the same number of digits and x*z = y.",
   "id": "A226032",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:43",
     "offset": 1,
     "size": 49,
     "source": "oeis-bfile"

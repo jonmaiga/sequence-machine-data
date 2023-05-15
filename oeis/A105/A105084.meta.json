@@ -2,13 +2,11 @@
   "description": "Triangle read by rows: a[n, m] = a[n - 1, m] + binomial[n, m]; n <=m",
   "id": "A105084",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 71,
     "source": "oeis-entry"

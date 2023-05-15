@@ -2,12 +2,10 @@
   "description": "Number of arithmetic progressions of primes (p,q,r) of length 3 with r <= prime(n).",
   "id": "A125505",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 64,
     "source": "oeis-entry"

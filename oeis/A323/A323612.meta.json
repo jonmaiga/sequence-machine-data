@@ -2,13 +2,11 @@
   "description": "Numbers k such that k^2 starts with at least the same number >= 2 of equal digits as does k itself.",
   "id": "A323612",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:48",
     "offset": 1,
     "size": 49,
     "source": "oeis-bfile"

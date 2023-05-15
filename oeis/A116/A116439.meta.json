@@ -1,19 +1,23 @@
 {
-  "description": "Numbers n which when sandwiched between two 4's give a multiple of n.",
+  "description": "Numbers k which when sandwiched between two 4's give a multiple of k.",
   "id": "A116439",
   "mentions": [
     "A116436",
+    "A116437",
+    "A116438",
+    "A116440",
+    "A116441",
+    "A116442",
+    "A116443",
     "A116444"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
-    "size": 35,
-    "source": "oeis-entry"
+    "size": 38,
+    "source": "oeis-bfile"
   }
 }

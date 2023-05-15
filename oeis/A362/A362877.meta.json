@@ -1,0 +1,22 @@
+{
+  "description": "Theta series of 17-dimensional lattice Kappa_17.",
+  "id": "A362877",
+  "mentions": [
+    "A029897",
+    "A047628",
+    "A362875",
+    "A362876",
+    "A362878",
+    "A362879",
+    "A362880"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

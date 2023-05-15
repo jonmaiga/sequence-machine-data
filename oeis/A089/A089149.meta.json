@@ -2,12 +2,10 @@
   "description": "a(1) = 1; for n > 1, a(n) = smallest power of n such that n^m - a(n-1) is a positive prime.",
   "id": "A089149",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

@@ -2,15 +2,25 @@
   "description": "T(n,k)=Number of nondecreasing arrangements of n numbers x(i) in -(n+k-2)..(n+k-2) with the sum of sign(x(i))*2^|x(i)| zero",
   "id": "A187988",
   "mentions": [
-    "A055999"
+    "A055999",
+    "A187979",
+    "A187980",
+    "A187981",
+    "A187982",
+    "A187983",
+    "A187984",
+    "A187985",
+    "A187989",
+    "A187990",
+    "A187991",
+    "A187992"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
+    "changed",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:12",
     "offset": 1,
     "size": 66,
     "source": "oeis-bfile"

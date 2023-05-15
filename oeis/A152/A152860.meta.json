@@ -2,13 +2,11 @@
   "description": "Scaled row sum zero vector recursion:s=3; v(n)={s^(n+1),s^(n+1)-Sum[s^i,{i,2,n}],s^n,...,-1}.",
   "id": "A152860",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 56,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Numbers of the form (6^{mr}-1)/(6^r-1) for positive integers m, r.",
   "id": "A076285",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:27",
     "offset": 1,
     "size": 33,
     "source": "oeis-bfile"

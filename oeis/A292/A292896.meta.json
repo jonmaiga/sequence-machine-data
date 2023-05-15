@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that there are precisely 13 groups of order n.",
+  "description": "Numbers m such that there are precisely 13 groups of order m.",
   "id": "A292896",
   "mentions": [
     "A000001",
@@ -14,14 +14,20 @@
     "A249552",
     "A249553",
     "A249554",
-    "A249555"
+    "A249555",
+    "A294155",
+    "A294156",
+    "A294949",
+    "A295161",
+    "A298909",
+    "A298910",
+    "A298911"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:08",
     "offset": 1,
     "size": 52,
     "source": "oeis-bfile"

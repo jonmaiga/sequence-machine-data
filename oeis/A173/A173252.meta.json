@@ -2,14 +2,12 @@
   "description": "A sequence of coefficients of 3^n when x_n = x_oi.",
   "id": "A173252",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "obsc",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 26,
     "source": "oeis-entry"

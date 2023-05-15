@@ -2,13 +2,11 @@
   "description": "Denominator(Bernoulli(n-1) + 1/n)=66, where n runs through the primes.",
   "id": "A090799",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 43,
     "source": "oeis-entry"

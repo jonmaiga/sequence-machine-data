@@ -2,14 +2,12 @@
   "description": "Rademacher's sequence C_{011}(N) times (2n)!, where C_{011}(N) is the coefficient of 1/(q-1) in the partial fraction decomposition of 1/((1-q)(1-q^2)...(1-q^N)).",
   "id": "A182523",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "more",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

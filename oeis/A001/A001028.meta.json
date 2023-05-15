@@ -5,7 +5,6 @@
     "A030266",
     "A035049"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "eigen",
     "formulas",
@@ -13,7 +12,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:03",
     "offset": 1,
     "size": 21,
     "source": "oeis-bfile"

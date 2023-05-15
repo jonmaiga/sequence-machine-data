@@ -2,14 +2,12 @@
   "description": "A twelve vertex {9,3} prism (9-gon (nonagon) connected to a triangle) graph substitution: fourth in the sequence: {6,6}->{7,5}->{8,3}->{9,3}.",
   "id": "A133339",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 98,
     "source": "oeis-entry"

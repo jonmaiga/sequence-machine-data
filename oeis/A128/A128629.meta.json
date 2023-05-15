@@ -35,14 +35,12 @@
     "A085284",
     "A119771"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

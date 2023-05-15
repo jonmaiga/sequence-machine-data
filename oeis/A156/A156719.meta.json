@@ -2,14 +2,12 @@
   "description": "a(n) = 144*n^2 - 127*n + 28.",
   "id": "A156719",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:38",
     "offset": 1,
     "size": 33,
     "source": "oeis-bfile"

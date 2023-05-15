@@ -2,13 +2,11 @@
   "description": "The odd digits in the sequence appear in blocks and the successive sizes of these blocks are given by the sequence itself.",
   "id": "A275375",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:40",
     "offset": 1,
     "size": 83,
     "source": "oeis-bfile"

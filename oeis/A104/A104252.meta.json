@@ -2,13 +2,11 @@
   "description": "Number of oriented prime alternating tangles.",
   "id": "A104252",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

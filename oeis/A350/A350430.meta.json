@@ -12,7 +12,6 @@
     "A230718",
     "A331675"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "bref",
     "hard",
@@ -20,7 +19,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 3,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Perfect powers whose digit reversal is prime.",
   "id": "A088112",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:39",
     "offset": 0,
     "size": 38,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Irregular triangle read by rows: row n gives the multiplicities of the eigenvalues of the tree graph of the hammock graph P(n+1,2), in order from smallest to largest eigenvalue.",
   "id": "A289444",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 2,
     "size": 74,
     "source": "oeis-entry"

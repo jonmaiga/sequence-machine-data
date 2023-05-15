@@ -2,13 +2,11 @@
   "description": "Quotient after one division by 2 of numbers of the form 3^(2n) + 5^(2n).",
   "id": "A081421",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 16,
     "source": "oeis-entry"

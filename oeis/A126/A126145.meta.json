@@ -2,13 +2,11 @@
   "description": "Starting from P0=3, the sequence list the minimum prime P1>P0 for which the expression P=P1+P0-1 is also a prime. The search then restarts from P1.",
   "id": "A126145",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:14",
     "offset": 0,
     "size": 56,
     "source": "oeis-bfile"

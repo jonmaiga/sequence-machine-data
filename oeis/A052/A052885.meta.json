@@ -2,14 +2,12 @@
   "description": "E.g.f. A(x) is inverse to F(x) = x*exp(-x)/(1+x).",
   "id": "A052885",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:01",
     "offset": 0,
     "size": 17,
     "source": "oeis-bfile"

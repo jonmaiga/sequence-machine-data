@@ -2,7 +2,6 @@
   "description": "(RSA-1536)-10^n = prime where RSA-1536 is the 463 decimal digit unfactored RSA challenge number.",
   "id": "A113931",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "bref",
@@ -11,7 +10,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 3,
     "source": "oeis-entry"

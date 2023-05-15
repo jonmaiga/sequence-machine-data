@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the sum of the Fibonacci numbers missing from the dual Zeckendorf representation of n; a(0) = 0, and for n > 0, a(n) = A022290(A035327(A003754(n+1))).",
+  "id": "A361989",
+  "mentions": [
+    "A000045",
+    "A003754",
+    "A022290",
+    "A035327",
+    "A072649",
+    "A130312",
+    "A132665",
+    "A194029",
+    "A356771"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

@@ -2,13 +2,11 @@
   "description": "Numbers n such that s[n], p[n] and s[n]+p[n] are all prime numbers, where s[n] is the sum of digits of n and p[n] is the product of digits of n.",
   "id": "A065439",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:17",
     "offset": 1,
     "size": 20,
     "source": "oeis-bfile"

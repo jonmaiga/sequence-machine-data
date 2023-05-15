@@ -2,13 +2,11 @@
   "description": "An \"L\" digit is a digit \"looking to the Left\" (1,2,3,7,9); an \"R\" digit is a digit \"looking to the Right\" (4,5,6); an \"U\" digit is a digit \"looking at Us\" (0,8). This is the slowest increasing sequence showing the infinite pattern [LUR] (when read digit-by-digit).",
   "id": "A093104",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

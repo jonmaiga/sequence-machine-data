@@ -2,13 +2,11 @@
   "description": "Smallest prime containing n-th cube as substring.",
   "id": "A029949",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:39",
     "offset": 0,
     "size": 32,
     "source": "oeis-bfile"

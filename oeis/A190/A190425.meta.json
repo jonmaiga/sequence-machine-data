@@ -2,13 +2,11 @@
   "description": "Number of one-sided prudent walks from (0,0) to (n,n), with floor(n/2)+n east steps, floor(n/2) west steps and n north steps.",
   "id": "A190425",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn",
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:14",
     "offset": 0,
     "size": 22,
     "source": "oeis-bfile"

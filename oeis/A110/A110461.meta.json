@@ -2,13 +2,11 @@
   "description": "a(1) = 5; for n>1, if a(n-1) = nk + r, 0 <= r < n, then a(n) = k^(n-r)*(k+1)^r.",
   "id": "A110461",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

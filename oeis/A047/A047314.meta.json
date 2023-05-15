@@ -2,13 +2,11 @@
   "description": "Numbers that are congruent to {0, 1, 4, 5, 6} mod 7.",
   "id": "A047314",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 11:02:45",
     "offset": 1,
     "size": 57,
     "source": "joeis"

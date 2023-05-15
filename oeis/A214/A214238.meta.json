@@ -1,16 +1,14 @@
 {
-  "description": "T(n,k)=Number of 0..7 colorings of an nx(k+1) array circular in the k+1 direction with new values 0..7 introduced in row major order",
+  "description": "T(n,k) = Number of 0..7 colorings of an nx(k+1) array circular in the k+1 direction with new values 0..7 introduced in row major order.",
   "id": "A214238",
   "mentions": [
     "A198908"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:32",
     "offset": 1,
     "size": 31,
     "source": "oeis-bfile"

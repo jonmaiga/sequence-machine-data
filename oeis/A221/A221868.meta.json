@@ -2,13 +2,11 @@
   "description": "Lexicographically earliest sequence of distinct primes in which the concatenation of any number of consecutive terms is composite.",
   "id": "A221868",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:39",
     "offset": 1,
     "size": 64,
     "source": "oeis-bfile"

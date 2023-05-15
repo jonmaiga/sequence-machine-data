@@ -2,14 +2,12 @@
   "description": "Slowest increasing and self-describing sequence: first 2 digits are the same, followed by 2 different, then 3 same digits, then 2 different, then 4 same, then 4 different, then 4 same, then 5 different, etc.",
   "id": "A105813",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 2,
     "size": 18,
     "source": "oeis-entry"

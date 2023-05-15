@@ -2,13 +2,11 @@
   "description": "Coefficients in the expansion sinh(arcsin(x)*arcsin(x)) = 2*x^2/2!+8*x^4/4!+248*x^6/6!+11328*x^8/8!+...",
   "id": "A012345",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:19",
     "offset": 0,
     "size": 13,
     "source": "oeis-bfile"

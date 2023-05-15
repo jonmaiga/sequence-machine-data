@@ -2,7 +2,6 @@
   "description": "Upper bound by J. Rivat and J. Wu on constant arising in Piatetski-Shapiro primes.",
   "id": "A200141",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "cons",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 17:23:31",
     "offset": 1,
     "size": 99,
     "source": "joeis"

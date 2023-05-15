@@ -2,12 +2,10 @@
   "description": "Number of bridged bicyclic skeletons with n carbon atoms (see Parks et al. for precise definition).",
   "id": "A121332",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 5,
     "size": 21,
     "source": "oeis-entry"

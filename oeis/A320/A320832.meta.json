@@ -7,14 +7,12 @@
     "A320834",
     "A320952"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "cofr",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:43",
     "offset": 0,
     "size": 150,
     "source": "oeis-bfile"

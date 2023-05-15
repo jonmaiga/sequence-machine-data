@@ -2,13 +2,11 @@
   "description": "Least positive integer k such that the number having periodic continued fraction [ 1,m,1,m,1,m,... ] is of form (a+b*sqrt(k))/c, where a,b,c are positive integers.",
   "id": "A049457",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-11-11 15:41:40",
     "offset": 1,
     "size": 59,
     "source": "joeis"

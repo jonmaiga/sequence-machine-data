@@ -10,14 +10,12 @@
     "A250692",
     "A250698"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "fini",
     "full",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 0,
     "size": 17,
     "source": "oeis-entry"

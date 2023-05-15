@@ -2,13 +2,11 @@
   "description": "Maximal size of an error-correcting code of length n and minimal distance 3 over an alphabet of size 4.",
   "id": "A265032",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 5,
     "source": "oeis-entry"

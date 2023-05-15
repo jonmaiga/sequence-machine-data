@@ -2,13 +2,11 @@
   "description": "Integers with mutual residues -4.",
   "id": "A110421",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

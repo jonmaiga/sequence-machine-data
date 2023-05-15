@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest positive number that has not yet appeared that is a multiple of the smallest prime that does not divide a(n-2) + a(n-1).",
+  "id": "A361825",
+  "mentions": [
+    "A351495",
+    "A352793",
+    "A353026",
+    "A359804"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

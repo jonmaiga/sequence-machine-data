@@ -2,14 +2,12 @@
   "description": "Odd integers that are nonprime, such that there exist two factors of each number that when multiplied together in binary base, do not ever require the use of a \"carry\" bit.",
   "id": "A110978",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 53,
     "source": "oeis-entry"

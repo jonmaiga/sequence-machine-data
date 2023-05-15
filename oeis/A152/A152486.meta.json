@@ -2,14 +2,12 @@
   "description": "For definition see comments.",
   "id": "A152486",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

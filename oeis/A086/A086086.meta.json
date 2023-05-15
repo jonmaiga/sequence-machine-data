@@ -2,12 +2,10 @@
   "description": "Primes p such that p - floor(sqrt(p)) is prime.",
   "id": "A086086",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:37",
     "offset": 1,
     "size": 52,
     "source": "oeis-bfile"

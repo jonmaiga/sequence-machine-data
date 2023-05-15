@@ -2,13 +2,11 @@
   "description": "a(n) = largest integer m for which \"the reduction lemma implies N(p,n;2) = p-n+1 for 2 <= n <= p <= m\".",
   "id": "A090803",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 2,
     "size": 11,
     "source": "oeis-entry"

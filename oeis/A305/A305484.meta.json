@@ -1,16 +1,15 @@
 {
-  "description": "Number of nX3 0..1 arrays with every element unequal to 1, 2, 3, 6 or 8 king-move adjacent elements, with upper left element zero.",
+  "description": "Number of n X 3 0..1 arrays with every element unequal to 1, 2, 3, 6 or 8 king-move adjacent elements, with upper left element zero.",
   "id": "A305484",
   "mentions": [
     "A305489"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:30",
     "offset": 1,
     "size": 28,
     "source": "oeis-bfile"

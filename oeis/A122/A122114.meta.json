@@ -2,12 +2,10 @@
   "description": "Primes of the form 2n^2 + 26n + 1.",
   "id": "A122114",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 14:11:39",
     "offset": 1,
     "size": 45,
     "source": "joeis"

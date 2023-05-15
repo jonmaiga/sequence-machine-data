@@ -2,13 +2,11 @@
   "description": "Clique covering number of the n-Sierpinski sieve graph.",
   "id": "A307685",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

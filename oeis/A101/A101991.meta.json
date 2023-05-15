@@ -2,14 +2,12 @@
   "description": "Largest prime which can be formed from digits of n, or 0 if no prime exists.",
   "id": "A101991",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 91,
     "source": "oeis-entry"

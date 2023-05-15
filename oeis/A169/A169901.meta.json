@@ -2,13 +2,11 @@
   "description": "Earliest sequence such that (x+y) | a(xy) for all x>=1, y>=1.",
   "id": "A169901",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:53",
     "offset": 1,
     "size": 54,
     "source": "oeis-bfile"

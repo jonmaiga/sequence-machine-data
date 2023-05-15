@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = index of first appearance of n in A361511, or -1 if n never appears.",
+  "id": "A361515",
+  "mentions": [
+    "A361511",
+    "A361514"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

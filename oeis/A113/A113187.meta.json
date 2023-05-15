@@ -8,7 +8,6 @@
     "A014301",
     "A111125"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
@@ -16,7 +15,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:03",
     "offset": 0,
     "size": 58,
     "source": "oeis-bfile"

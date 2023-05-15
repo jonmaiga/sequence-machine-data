@@ -2,13 +2,11 @@
   "description": "Number of Apwenian series f_n(z) starting with f_n(0)=1.",
   "id": "A331838",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 2,
     "size": 18,
     "source": "oeis-entry"

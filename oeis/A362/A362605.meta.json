@@ -1,0 +1,38 @@
+{
+  "description": "Numbers whose prime factorization has more than one mode. Numbers without a unique exponent of maximum frequency in the prime signature.",
+  "id": "A362605",
+  "mentions": [
+    "A001222",
+    "A002865",
+    "A056239",
+    "A112798",
+    "A166023",
+    "A182853",
+    "A215366",
+    "A327473",
+    "A327476",
+    "A353864",
+    "A356862",
+    "A359178",
+    "A359908",
+    "A362606",
+    "A362607",
+    "A362608",
+    "A362609",
+    "A362610",
+    "A362611",
+    "A362612",
+    "A362613",
+    "A362614",
+    "A362615"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

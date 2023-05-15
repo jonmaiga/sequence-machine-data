@@ -2,13 +2,11 @@
   "description": "A de Bruijn sequence of length 9 over {0, 1, 2}, repeated.",
   "id": "A083570",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:38:19",
     "offset": 0,
     "size": 99,
     "source": "joeis"

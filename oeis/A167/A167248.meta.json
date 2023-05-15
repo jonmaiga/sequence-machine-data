@@ -2,12 +2,10 @@
   "description": "Number of ways to partition an n X 4 grid into 4 connected equal-area regions",
   "id": "A167248",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

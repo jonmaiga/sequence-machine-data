@@ -2,13 +2,11 @@
   "description": "a(n) = Hermite(n,8).",
   "id": "A158531",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:40",
     "offset": 0,
     "size": 19,
     "source": "oeis-bfile"

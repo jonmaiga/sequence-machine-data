@@ -6,13 +6,11 @@
     "A023116",
     "A084823"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:36",
     "offset": 1,
     "size": 103,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Minimum number of painted cells in an n X n grid to avoid unpainted trominoes.",
   "id": "A337501",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

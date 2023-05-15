@@ -2,12 +2,10 @@
   "description": "Positive integers of the form x*10^k + y which also equal x^2 + y^2 (x, y and k being positive integers).",
   "id": "A275986",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 28,
     "source": "oeis-entry"

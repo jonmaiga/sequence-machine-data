@@ -6,13 +6,11 @@
     "A002298",
     "A002305"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "frac",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 0,
     "size": 16,
     "source": "oeis-entry"

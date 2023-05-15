@@ -1,5 +1,5 @@
 {
-  "description": "Abundant numbers n for which the abundance d = sigma(n) - 2*n is a proper divisor, that is, d | n.",
+  "description": "Abundant numbers n for which the abundance d = sigma(n) - 2*n is a proper divisor, that is, 0 < d < n and d | n.",
   "id": "A181595",
   "mentions": [
     "A000043",
@@ -11,14 +11,13 @@
     "A153501",
     "A181701"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:04",
     "offset": 1,
-    "size": 39,
+    "size": 42,
     "source": "oeis-bfile"
   }
 }

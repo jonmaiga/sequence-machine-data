@@ -2,12 +2,10 @@
   "description": "exp(arcsinh(x)+arcsin(x))=1+2*x+4/2!*x^2+8/3!*x^3+16/4!*x^4+50/5!*x^5...",
   "id": "A013084",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 11:03:28",
     "offset": 0,
     "size": 21,
     "source": "joeis"

@@ -9,14 +9,12 @@
     "A090804",
     "A264148"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "frac",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:18",
     "offset": 0,
     "size": 17,
     "source": "oeis-bfile"

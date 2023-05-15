@@ -2,13 +2,11 @@
   "description": "Number of maximum matchings in the n-Hanoi graph.",
   "id": "A297564",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

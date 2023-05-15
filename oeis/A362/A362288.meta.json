@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Product_{k=0..n} binomial(n,k)^k.",
+  "id": "A362288",
+  "mentions": [
+    "A001142",
+    "A067055",
+    "A074962",
+    "A167008",
+    "A255268",
+    "A272093"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,7 +2,6 @@
   "description": "An averaging sum sequence based on( improved):a(n,m,q)=Floor[(a(n - 1, m - 1,q) + a(n - 1, m,q))/2] with limit q",
   "id": "A174829",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 78,
     "source": "oeis-entry"

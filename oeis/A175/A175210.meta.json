@@ -2,13 +2,11 @@
   "description": "a(n) = largest prime (or 1, if no such prime exists) that is < p(n) and whose binary representation occurs as a substring in the binary representation of p(n), where p(n) is the n-th prime.",
   "id": "A175210",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 73,
     "source": "oeis-entry"

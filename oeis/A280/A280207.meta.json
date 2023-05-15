@@ -2,14 +2,12 @@
   "description": "Decimal expansion of x such that tan(Pi/x) + sin(Pi/x)*cos(Pi/x) = 2*Pi/x.",
   "id": "A280207",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 87,
     "source": "oeis-entry"

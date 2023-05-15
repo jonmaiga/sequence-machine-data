@@ -2,13 +2,11 @@
   "description": "Number of semiprimes between n and 2n (inclusive).",
   "id": "A085727",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 79,
     "source": "oeis-entry"

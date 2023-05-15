@@ -2,14 +2,12 @@
   "description": "Number of total dominating sets in the complement graph of the n-cycle.",
   "id": "A347477",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-11-11 15:41:56",
     "offset": 3,
     "size": 38,
     "source": "joeis"

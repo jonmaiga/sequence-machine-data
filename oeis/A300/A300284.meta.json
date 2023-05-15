@@ -2,14 +2,12 @@
   "description": "Decimal expansion of the probability that a bullet, shot randomly at a cube that is thrown into the air, will pass through the opposite side.",
   "id": "A300284",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-07 14:47:40",
     "offset": 0,
     "size": 87,
     "source": "joeis"

@@ -1,14 +1,12 @@
 {
-  "description": "Numbers n with property that in base 4 representation the numbers of 2's and 3's are 1 and 0, respectively.",
+  "description": "Numbers whose base-4 representation contains exactly one 2 and no 3's.",
   "id": "A045138",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:23:15",
     "offset": 1,
     "size": 52,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "Sequence arising from a mixed continued fraction for Pi: Pi = 22/(7+1/(354+1/(1+1/(12+...)))).",
   "id": "A270782",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 0,
     "size": 96,
     "source": "oeis-entry"

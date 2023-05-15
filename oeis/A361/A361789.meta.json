@@ -1,0 +1,25 @@
+{
+  "description": "A(n, k) is the sum of the distinct terms in the dual Zeckendorf representations of n or of k; square array A(n, k) read by antidiagonals, n, k >= 0.",
+  "id": "A361789",
+  "mentions": [
+    "A003754",
+    "A003986",
+    "A004198",
+    "A022290",
+    "A334348",
+    "A356771",
+    "A356969",
+    "A361756"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

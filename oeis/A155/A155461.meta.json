@@ -2,14 +2,13 @@
   "description": "a(n) = n^2 + 52*n + 30.",
   "id": "A155461",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 17:18:57",
     "offset": 0,
     "size": 44,
     "source": "joeis"

@@ -2,15 +2,15 @@
   "description": "The sum-and-erase sequence starting at 11: a(0) = 11; for n>=1, let m = a(n-1), and if m < 0, change m to an improper decimal \"number\" by replacing the minus sign by a single leading zero; then a(n) = A359142(m).",
   "id": "A359143",
   "mentions": [
-    "A359142"
+    "A359142",
+    "A361350",
+    "A361501"
   ],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "base",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 0,
     "size": 21,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Series expansion for rectilinear polymers on square lattice.",
   "id": "A007291",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 12:43:59",
     "offset": 2,
     "size": 29,
     "source": "joeis"

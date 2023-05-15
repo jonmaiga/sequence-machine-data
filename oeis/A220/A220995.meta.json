@@ -1,15 +1,13 @@
 {
-  "description": "Majority value maps: number of 3Xn binary arrays indicating the locations of corresponding elements equal to at least half of their horizontal, diagonal and antidiagonal neighbors in a random 0..3 3Xn array",
+  "description": "Majority value maps: number of 3 X n binary arrays indicating the locations of corresponding elements equal to at least half of their horizontal, diagonal and antidiagonal neighbors in a random 0..3 3 X n array.",
   "id": "A220995",
   "mentions": [
     "A220993"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"

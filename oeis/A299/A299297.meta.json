@@ -2,14 +2,12 @@
   "description": "Numbers g>1 such that the maximal order of an embedding of a finite graph of genus g into the sphere S^3 is 12(g-1).",
   "id": "A299297",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

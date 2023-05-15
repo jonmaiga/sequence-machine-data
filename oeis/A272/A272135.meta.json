@@ -2,13 +2,11 @@
   "description": "Numbers of ways of placing the numbers 1, ..., n on a circle (not counting rotations and reflections) such that for each s in {1, ..., n(n+1)/2}, there exists a connected subset S of the circle such that the numbers covered by S add up to s.",
   "id": "A272135",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 0,
     "size": 17,
     "source": "oeis-entry"

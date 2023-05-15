@@ -2,14 +2,12 @@
   "description": "Maximal length of a string over the alphabet {0,1,2} with the property that its contiguous substrings of length n all have different quantities of 0's, 1's, or 2's.",
   "id": "A332263",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

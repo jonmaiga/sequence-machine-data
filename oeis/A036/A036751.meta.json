@@ -2,7 +2,6 @@
   "description": "Number of strings of n distinct digits from 0-9 that are the last n digits of a square in base 8.",
   "id": "A036751",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "If n = c0 + c1*10 + c2*10^2 + ...cn*10^n then a(n) = c0 + c1*13 + c2*13^2 + ...cn*13^k.",
   "id": "A094823",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:02:25",
     "offset": 0,
     "size": 73,
     "source": "joeis"

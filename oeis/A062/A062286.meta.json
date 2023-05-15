@@ -2,14 +2,12 @@
   "description": "Smallest palindromic n-th power larger than 1.",
   "id": "A062286",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

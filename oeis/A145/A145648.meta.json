@@ -2,14 +2,12 @@
   "description": "Weight distribution of [42,21,10] binary extended quadratic-residue (or QR) code.",
   "id": "A145648",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 22,
     "source": "oeis-entry"

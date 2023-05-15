@@ -2,13 +2,11 @@
   "description": "The smallest prime p such that p//9_(n), its concatenation with n nines, is prime.",
   "id": "A177435",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 70,
     "source": "oeis-entry"

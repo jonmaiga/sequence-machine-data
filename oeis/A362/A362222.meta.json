@@ -1,0 +1,16 @@
+{
+  "description": "Slowest increasing sequence where a(n) + n^2 is a prime.",
+  "id": "A362222",
+  "mentions": [
+    "A053000",
+    "A107819"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

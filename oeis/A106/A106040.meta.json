@@ -2,13 +2,11 @@
   "description": "First 9-free digit in the fractional part of the decimal expansion of (1/10^n)^(1/10^n).",
   "id": "A106040",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

@@ -1,0 +1,21 @@
+{
+  "description": "Dirichlet g.f.: zeta(s) * zeta(2*s) * zeta(3*s) * zeta(4*s).",
+  "id": "A358780",
+  "mentions": [
+    "A000688",
+    "A001400",
+    "A046951",
+    "A063966",
+    "A322885"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

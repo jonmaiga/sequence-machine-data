@@ -2,7 +2,6 @@
   "description": "Triangle T(n,k) = (2*n-k-1)*T(n-1,k-1) + (k+1)*T(n-1,k), with T(n,1) = T(n,n) = 1, 1 <= k <= n, read by rows.",
   "id": "A156139",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:38",
     "offset": 1,
     "size": 55,
     "source": "oeis-bfile"

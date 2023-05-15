@@ -2,13 +2,11 @@
   "description": "a(n)=Sum{d(i)*7^i: i=0,1,...,m}, where Sum{d(i)*3^i: i=0,1,...,m} is the base 3 representation of n.",
   "id": "A037455",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:35:41",
     "offset": 0,
     "size": 56,
     "source": "joeis"

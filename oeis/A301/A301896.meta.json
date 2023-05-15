@@ -9,15 +9,12 @@
     "A071295",
     "A301336"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "base",
-    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:44:29",
     "offset": 0,
     "size": 51,
     "source": "oeis-bfile"

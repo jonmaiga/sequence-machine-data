@@ -46,7 +46,6 @@
     "A289813",
     "A289814"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "easy",
@@ -54,7 +53,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:03",
     "offset": 0,
     "size": 105,
     "source": "oeis-bfile"

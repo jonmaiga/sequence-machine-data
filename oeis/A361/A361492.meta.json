@@ -1,0 +1,16 @@
+{
+  "description": "Common difference corresponding to increasing arithmetic progression of at least n >= 2 primes whose first term is A284708(n); a(1) = 1.",
+  "id": "A361492",
+  "mentions": [
+    "A284708"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

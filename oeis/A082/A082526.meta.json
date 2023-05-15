@@ -2,13 +2,11 @@
   "description": "Denominators of coefficients in (1+x)^(1+x) power series.",
   "id": "A082526",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 24,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Smallest exponent m such that 2^m begins and ends with the same n digits, allowing any other digits in between.",
   "id": "A256526",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "base",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

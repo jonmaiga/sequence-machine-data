@@ -2,12 +2,10 @@
   "description": "a(n) = n-th positive integer which is coprime to the n-th composite positive integer.",
   "id": "A119991",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

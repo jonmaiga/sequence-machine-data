@@ -2,12 +2,10 @@
   "description": "a(n) = floor( Sum_{k>=0} n^(k*Phi) / Gamma(k*Phi + 1) ), where Gamma(x) is Euler's gamma function and Phi = (sqrt(5) + 1)/2 is the golden ratio.",
   "id": "A326804",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:53",
     "offset": 0,
     "size": 32,
     "source": "oeis-bfile"

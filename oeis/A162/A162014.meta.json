@@ -11,14 +11,12 @@
     "A162009",
     "A162010"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

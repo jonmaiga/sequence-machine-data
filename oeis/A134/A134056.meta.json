@@ -2,14 +2,12 @@
   "description": "Least positive integer k such that (n!)! + k is prime.",
   "id": "A134056",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

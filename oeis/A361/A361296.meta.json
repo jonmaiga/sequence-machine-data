@@ -1,0 +1,21 @@
+{
+  "description": "A variant of payphone permutations: given a circular booth with n payphones, a(n) is the number ways for n people to choose the payphones in order, where each person chooses an unoccupied payphone such that the closest occupied payphone is as distant as possible.",
+  "id": "A361296",
+  "mentions": [
+    "A095236",
+    "A095239",
+    "A095912",
+    "A358056",
+    "A361294",
+    "A361295",
+    "A362192"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

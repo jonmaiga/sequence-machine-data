@@ -2,13 +2,11 @@
   "description": "3-automorphic numbers ending in 2: final digits of 3*n^2 agree with n.",
   "id": "A030985",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:40",
     "offset": 1,
     "size": 18,
     "source": "oeis-bfile"

@@ -1,0 +1,20 @@
+{
+  "description": "Lexicographically earliest sequence of positive numbers on a square spiral such that no three equal numbers are collinear.",
+  "id": "A361486",
+  "mentions": [
+    "A174344",
+    "A229037",
+    "A274640",
+    "A274923",
+    "A346294"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

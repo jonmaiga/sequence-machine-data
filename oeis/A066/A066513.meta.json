@@ -2,12 +2,10 @@
   "description": "Numbers n such that f(n) = f(n-1) - f(n-2) where f is the prime gap function given by f(m) = prime(m+1) - prime(m) and prime(m) denotes the m-th prime.",
   "id": "A066513",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:18",
     "offset": 1,
     "size": 46,
     "source": "oeis-bfile"

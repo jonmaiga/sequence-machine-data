@@ -2,16 +2,16 @@
   "description": "Expansion of x^6/((1 - x)^2*(1 - 2*x + x^3 - x^4)).",
   "id": "A290986",
   "mentions": [
-    "A049858"
+    "A049858",
+    "A290987",
+    "A290989"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:06",
     "offset": 6,
     "size": 31,
     "source": "oeis-bfile"

@@ -26,14 +26,12 @@
     "A128074",
     "A128075"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

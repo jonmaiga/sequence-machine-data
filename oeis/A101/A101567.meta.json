@@ -2,13 +2,11 @@
   "description": "Numbers n such that 1009*n + 10007 is prime.",
   "id": "A101567",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 15:22:45",
     "offset": 1,
     "size": 49,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "a(n) = number of vertex-critical graphs on n+3 vertices.",
   "id": "A177439",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

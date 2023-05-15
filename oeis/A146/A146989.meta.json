@@ -2,14 +2,12 @@
   "description": "Periodic sequence with period {15,2,1,13,1}.",
   "id": "A146989",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:30:11",
     "offset": 0,
     "size": 87,
     "source": "joeis"

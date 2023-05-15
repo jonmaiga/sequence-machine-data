@@ -2,13 +2,11 @@
   "description": "2-ordering of (1+2*Z) union 8*Z union (2+32*Z).",
   "id": "A272667",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 0,
     "size": 11,
     "source": "oeis-entry"

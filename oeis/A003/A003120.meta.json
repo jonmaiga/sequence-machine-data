@@ -10,7 +10,6 @@
     "A193490",
     "A193491"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "easy",
     "formulas",
@@ -18,7 +17,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 1,
     "size": 30,
     "source": "oeis-entry"

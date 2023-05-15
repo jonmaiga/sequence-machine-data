@@ -2,12 +2,10 @@
   "description": "Lesser of Twin prime numbers of the form : i^2+j^3, as sum of square and cube, if Greater Twin prime number also of the form : i^2+j^3, as sum of square and cube.",
   "id": "A143799",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 33,
     "source": "oeis-entry"

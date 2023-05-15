@@ -2,14 +2,12 @@
   "description": "Noncrossing, nonnesting, 2-arc-colored permutations on the set {1..n} where lower arcs even of different colors do not cross.",
   "id": "A219587",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:37",
     "offset": 0,
     "size": 24,
     "source": "oeis-bfile"

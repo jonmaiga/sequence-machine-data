@@ -1,0 +1,23 @@
+{
+  "description": "Number of parking functions of size n avoiding the pattern 123.",
+  "id": "A362741",
+  "mentions": [
+    "A000108",
+    "A075427",
+    "A362595",
+    "A362596",
+    "A362597",
+    "A362744"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

@@ -2,12 +2,10 @@
   "description": "a(n) = (Sum_{i=0..n-1} (-1)^i/b(i)) * LCM{b(i): i=0..n-1}, where b(i) = C(i,floor(i/2)).",
   "id": "A025554",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 16:18:36",
     "offset": 1,
     "size": 31,
     "source": "joeis"

@@ -2,14 +2,12 @@
   "description": "Numbers n such that the sum of the digits of the n-th lower twin prime is a lower twin prime.",
   "id": "A104215",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 62,
     "source": "oeis-entry"

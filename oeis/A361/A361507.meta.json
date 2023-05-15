@@ -1,0 +1,23 @@
+{
+  "description": "a(0) = 1; thereafter a(n) = floor((9/4)*a(n-1)) + 1.",
+  "id": "A361507",
+  "mentions": [
+    "A003462",
+    "A033622",
+    "A036562",
+    "A036564",
+    "A036569",
+    "A055875",
+    "A055876",
+    "A108870",
+    "A361506"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

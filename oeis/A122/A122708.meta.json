@@ -2,13 +2,11 @@
   "description": "Number of connected parking functions of length n. This is the number of independent algebraic generators in degree n of the Hopf algebra of parking functions.",
   "id": "A122708",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:11",
     "offset": 1,
     "size": 19,
     "source": "oeis-bfile"

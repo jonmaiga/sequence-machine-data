@@ -2,13 +2,11 @@
   "description": "Numbers n with property that the square of each digit of n is a substring of n^3",
   "id": "A173901",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:58",
     "offset": 1,
     "size": 52,
     "source": "oeis-bfile"

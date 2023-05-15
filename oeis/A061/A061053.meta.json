@@ -2,13 +2,11 @@
   "description": "a(n) = (n+1)!*Sum_{k=0..n} C(2k, k)*B(n-k), where B(n) is n-th Bernoulli number.",
   "id": "A061053",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:12",
     "offset": 0,
     "size": 17,
     "source": "oeis-bfile"

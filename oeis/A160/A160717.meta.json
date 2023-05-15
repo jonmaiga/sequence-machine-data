@@ -11,14 +11,12 @@
     "A160711",
     "A160712"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:42",
     "offset": 1,
     "size": 31,
     "source": "oeis-bfile"

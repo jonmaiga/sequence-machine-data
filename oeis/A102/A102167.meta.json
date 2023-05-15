@@ -2,7 +2,6 @@
   "description": "Lightest finite strictly increasing sequence of integers showing once and only once every pair of digits from [00] to [99]. The \"weight\" of such a sequence is the sum of all its a(n). Weight of this sequence is 2995.",
   "id": "A102167",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
@@ -11,7 +10,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 47,
     "source": "oeis-entry"

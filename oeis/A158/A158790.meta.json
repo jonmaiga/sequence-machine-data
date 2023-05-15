@@ -2,13 +2,11 @@
   "description": "Odd integers n such that (x^n + 1/x^n)/sqrt(8) + 1 is prime, where x = sqrt(8) + sqrt(7).",
   "id": "A158790",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

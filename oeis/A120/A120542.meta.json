@@ -2,12 +2,10 @@
   "description": "Bond series for first parallel moment of hexagonal net.",
   "id": "A120542",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:09",
     "offset": 0,
     "size": 36,
     "source": "oeis-bfile"

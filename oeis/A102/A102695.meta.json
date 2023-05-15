@@ -2,14 +2,12 @@
   "description": "Making the absolute difference between the last two digits of a(n) gives the n-t h digit of the sequence; a(n) < a(n+1).",
   "id": "A102695",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Decimal expansion of the unique positive root to zeta(s) + zeta'(s) = 0, where zeta is the Riemann zeta function and zeta' is the derivative of zeta.",
   "id": "A360500",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 1,
     "size": 98,
     "source": "oeis-entry"

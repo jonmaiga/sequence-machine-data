@@ -2,13 +2,11 @@
   "description": "Between two successive digits \"0\" there are 0, then 1, then 2, then 3, ... other digits.",
   "id": "A278946",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:45",
     "offset": 1,
     "size": 75,
     "source": "oeis-bfile"

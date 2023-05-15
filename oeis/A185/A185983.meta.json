@@ -6,15 +6,15 @@
     "A032741",
     "A185982",
     "A271272",
-    "A271273"
+    "A271273",
+    "A362944"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
+    "changed",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:10",
     "offset": 0,
     "size": 66,
     "source": "oeis-bfile"

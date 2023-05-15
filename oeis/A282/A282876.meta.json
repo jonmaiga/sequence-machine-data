@@ -2,13 +2,11 @@
   "description": "Expansion of ((1 + 4*x + 8*x^2)^(3/2) - (1 + 6*x + 18*x^2 + 20*x^3)) / (2*x^4) in powers of x.",
   "id": "A282876",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-09-08 06:56:24",
     "offset": 0,
     "size": 31,
     "source": "joeis"

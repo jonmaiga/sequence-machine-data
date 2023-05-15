@@ -2,13 +2,11 @@
   "description": "Numbers m, written in base 5, such that the Stanley sequence S_5(0,m) is well-behaved (or \"modular\").",
   "id": "A266729",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

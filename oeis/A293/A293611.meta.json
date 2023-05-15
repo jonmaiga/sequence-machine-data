@@ -2,14 +2,12 @@
   "description": "a(n) = (25*n + 41)*Pochhammer(n, 5) / 6!.",
   "id": "A293611",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:28:31",
     "offset": 0,
     "size": 33,
     "source": "joeis"

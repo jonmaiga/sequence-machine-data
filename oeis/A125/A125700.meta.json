@@ -6,7 +6,6 @@
     "A125699",
     "A125701"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "bref",
     "formulas",
@@ -15,7 +14,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 4,
     "source": "oeis-entry"

@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows where T(n,k) is the distance which number A361660(n,k) moves in the process described in A361642.",
+  "id": "A361819",
+  "mentions": [
+    "A002378",
+    "A002541",
+    "A361642",
+    "A361660"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

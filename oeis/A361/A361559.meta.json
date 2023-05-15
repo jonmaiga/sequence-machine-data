@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{k=1..prime(n)-1} floor(k^5/prime(n)).",
+  "id": "A361559",
+  "mentions": [
+    "A078837"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

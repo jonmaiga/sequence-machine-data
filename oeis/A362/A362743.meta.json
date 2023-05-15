@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers which cannnot be written as a sum of distinct numbers of the form 4^a + 5^b (a,b >= 0).",
+  "id": "A362743",
+  "mentions": [
+    "A226806",
+    "A226807",
+    "A226808",
+    "A226810",
+    "A226812",
+    "A362861"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -2,13 +2,11 @@
   "description": "T(n,k) = number of (n+1) X (k+1) 0..2 arrays with every 2 X 3 or 3 X 2 subblock having exactly three counterclockwise and three clockwise edge increases.",
   "id": "A206150",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:26",
     "offset": 1,
     "size": 37,
     "source": "oeis-bfile"

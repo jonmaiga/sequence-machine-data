@@ -2,7 +2,6 @@
   "description": "Rounded percent probability that a positive test result for some condition is a true positive when n% of the tested population has that condition and the test is 95% accurate.",
   "id": "A280989",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "fini",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 0,
     "size": 101,
     "source": "oeis-entry"

@@ -2,7 +2,6 @@
   "description": "Numbers n such that 10^11 + n^2 is a square.",
   "id": "A180974",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:04",
     "offset": 1,
     "size": 27,
     "source": "oeis-bfile"

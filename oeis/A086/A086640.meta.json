@@ -2,7 +2,6 @@
   "description": "Arrange n^2 octagons that each have area 7 so that they leave (n-1)^2 square gaps each with area 2; a(n) is the total area of these polygons.",
   "id": "A086640",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 11:41:19",
     "offset": 1,
     "size": 42,
     "source": "joeis"

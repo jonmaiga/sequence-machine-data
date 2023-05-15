@@ -2,13 +2,11 @@
   "description": "Number of bases in which the concatenation of the consecutive increasing integers 1...n is greater than the concatenation of consecutive decreasing integers n...1 in the same base.",
   "id": "A175928",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 2,
     "size": 105,
     "source": "oeis-entry"

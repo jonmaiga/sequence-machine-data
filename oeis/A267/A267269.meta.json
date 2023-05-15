@@ -6,14 +6,12 @@
     "A267270",
     "A267271"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "easy",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:28",
     "offset": 0,
     "size": 86,
     "source": "oeis-bfile"

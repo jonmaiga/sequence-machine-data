@@ -2,12 +2,10 @@
   "description": "Expansion of e.g.f. arcsin(log(x+1) - sinh(x)).",
   "id": "A013259",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-09-08 06:56:19",
     "offset": 0,
     "size": 21,
     "source": "joeis"

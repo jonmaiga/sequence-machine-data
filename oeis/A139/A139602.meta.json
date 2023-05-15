@@ -2,12 +2,10 @@
   "description": "The smallest prime p that makes the pair p+/-6n both primes while no other pair of p+/-6k+6*n, 0",
   "id": "A139602",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:27",
     "offset": 1,
     "size": 60,
     "source": "oeis-bfile"

@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of length n 1..(k+1) arrays with every leading partial sum divisible by 2, 3 or 5",
   "id": "A254827",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:13",
     "offset": 1,
     "size": 62,
     "source": "oeis-bfile"

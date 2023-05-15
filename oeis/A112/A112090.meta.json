@@ -2,7 +2,6 @@
   "description": "Degrees of nonconstant complex polynomials f(x) and g(x) such that (1) neither f nor g can be written nontrivially as r(s(x)), (2) f(x) does not equal g(ax+b) for complex numbers a,b and (3) f(x)-g(y) is reducible as a complex polynomial in two variables.",
   "id": "A112090",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "fini",
     "full",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

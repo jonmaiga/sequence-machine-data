@@ -2,12 +2,10 @@
   "description": "Special values of hypergeometric function of type 3F3: a(n)=2^n*(n!)^3* 3F3(n+1, n+1, n+1; 1, 1, 1; 2)*exp(-2), n=0,1...",
   "id": "A127457",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 9,
     "source": "oeis-entry"

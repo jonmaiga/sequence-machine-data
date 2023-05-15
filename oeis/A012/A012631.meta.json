@@ -2,12 +2,10 @@
   "description": "cosh(arcsinh(x)*arctan(x))=1+12/4!*x^4-360/6!*x^6+20048/8!*x^8...",
   "id": "A012631",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-02 16:31:36",
     "offset": 0,
     "size": 14,
     "source": "joeis"

@@ -2,12 +2,10 @@
   "description": "a(1)=1. a(n) = the smallest integer > a(n-1) such that a(n)+a(k), for some k where 1<=k<=n, is the n-th prime.",
   "id": "A137451",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 64,
     "source": "oeis-entry"

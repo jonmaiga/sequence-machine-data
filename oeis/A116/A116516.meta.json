@@ -2,13 +2,11 @@
   "description": "Decimal expansion of constant C such that floor(p# * C) is always a prime number (for p >= 2), where p# is the primorial function, i.e., the product of prime numbers up to and including p.",
   "id": "A116516",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 87,
     "source": "oeis-entry"

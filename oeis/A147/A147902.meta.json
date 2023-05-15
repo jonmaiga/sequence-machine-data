@@ -2,12 +2,10 @@
   "description": "Number of permutations of floor(i*5/4), i=0..n-1, with all sums of 2 through 4 adjacent terms respectively unique.",
   "id": "A147902",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

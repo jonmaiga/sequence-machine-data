@@ -2,12 +2,10 @@
   "description": "Number of permutations of 4..n+3 with no element greater than or equal to the sum of its neighbors",
   "id": "A180892",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"

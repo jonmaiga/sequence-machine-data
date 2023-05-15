@@ -2,13 +2,11 @@
   "description": "G.f.: Sum_{k>0} x^prime(k)/(1-x^k).",
   "id": "A278801",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 0,
     "size": 101,
     "source": "oeis-entry"

@@ -10,14 +10,12 @@
     "A351700",
     "A351701"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "hard",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:26",
     "offset": 1,
     "size": 78,
     "source": "oeis-bfile"

@@ -11,12 +11,10 @@
     "A093879",
     "A140472"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:32",
     "offset": 0,
     "size": 79,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "Half the number of n X n symmetric binary matrices with adjacent rows differing in at most four positions.",
   "id": "A140179",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

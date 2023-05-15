@@ -2,12 +2,10 @@
   "description": "Number of ways to partition a 3*n X 3 grid into 9 connected equal-area regions",
   "id": "A167246",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

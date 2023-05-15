@@ -2,7 +2,6 @@
   "description": "Numbers n such that n=(pi(d_1)+pi(d_1!)+pi(d_1!!))+...+ (pi(d_k)+pi(d_k!)+pi(d_k!!)) where d_1 d_2 ... d_k is the decimal expansion of n.",
   "id": "A139178",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

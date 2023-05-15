@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 6; thereafter a(n) = smallest number with a(n-1) letters in American English.",
+  "id": "A362442",
+  "mentions": [
+    "A005589",
+    "A080777",
+    "A362123",
+    "A362441"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

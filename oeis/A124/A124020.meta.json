@@ -2,7 +2,6 @@
   "description": "New tetradiagonal form matrix as triangular sequence from solution of : X(n,m)=Steinbach(n,m)^(-1).tri-Antidiagonal_1(n,n).",
   "id": "A124020",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 78,
     "source": "oeis-entry"

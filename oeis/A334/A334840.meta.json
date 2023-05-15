@@ -3,17 +3,17 @@
   "id": "A334840",
   "mentions": [
     "A000120",
+    "A001316",
     "A133058",
     "A255140",
     "A257806",
     "A319018"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 65,
     "source": "oeis-entry"

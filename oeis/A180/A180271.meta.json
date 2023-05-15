@@ -2,14 +2,12 @@
   "description": "The number of multiplicity-free labeled floor diagrams with n nodes",
   "id": "A180271",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

@@ -4,14 +4,12 @@
   "mentions": [
     "A000793"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:54",
     "offset": 2,
     "size": 57,
     "source": "oeis-bfile"

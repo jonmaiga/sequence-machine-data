@@ -2,14 +2,12 @@
   "description": "Numerator of the reduced fractions of the ratios of the number of primes less than n over the number of composites less than n.",
   "id": "A102613",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 86,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Decimal expansion of log(1 + log(1 + log(1 + e))).",
   "id": "A085673",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 11:00:13",
     "offset": 0,
     "size": 99,
     "source": "joeis"

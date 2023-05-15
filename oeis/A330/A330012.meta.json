@@ -2,13 +2,11 @@
   "description": "Number of length-n binary strings w with the property that if x is a subword of w and |x| >= 6, then x reversed is not a subword of w.",
   "id": "A330012",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 0,
     "size": 43,
     "source": "oeis-entry"

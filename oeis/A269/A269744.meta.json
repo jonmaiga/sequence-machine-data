@@ -2,14 +2,12 @@
   "description": "Triangle read by rows: number of generic n-rook placements with k rooks below the main diagonal.",
   "id": "A269744",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "more",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 28,
     "source": "oeis-entry"

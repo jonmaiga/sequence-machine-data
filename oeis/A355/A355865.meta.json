@@ -1,16 +1,15 @@
 {
-  "description": "G.f.: 0 = Sum_{n=-oo..+oo} x^n * (x^n - (-1)^n*2*A(x))^(2*n+1).",
+  "description": "Expansion of g.f. A(x) satisfying 0 = Sum_{n=-oo..+oo} x^n * (x^n - (-1)^n*2*A(x))^(2*n+1).",
   "id": "A355865",
   "mentions": [
     "A355866"
   ],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:30",
     "offset": 0,
     "size": 20,
     "source": "oeis-bfile"

@@ -2,7 +2,6 @@
   "description": "Position of letters from the sentence: 'aleph is one' in alphabet.",
   "id": "A122561",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "fini",
     "full",
@@ -10,7 +9,6 @@
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

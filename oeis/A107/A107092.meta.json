@@ -1,18 +1,19 @@
 {
-  "description": "G.f. A(x) satisfies: A(x)^3 = A(x^3) + 3*x.",
+  "description": "G.f. A(x) satisfies A(x)^3 = A(x^3) + 3*x.",
   "id": "A107092",
   "mentions": [
     "A008544",
-    "A107093"
+    "A107093",
+    "A352703",
+    "A352705",
+    "A361763"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 32,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

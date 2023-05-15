@@ -2,13 +2,11 @@
   "description": "Number of simple loops with n elements: loops with no real substructure, every subset which is closed under the operation is either {E} or the whole set.",
   "id": "A088600",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

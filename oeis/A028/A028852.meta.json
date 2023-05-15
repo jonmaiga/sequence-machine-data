@@ -2,12 +2,10 @@
   "description": "Number of composite unlabeled connected T_0 topologies (i.e., composite T_0 connected homeomorphism classes) on n points.",
   "id": "A028852",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 2,
     "size": 10,
     "source": "oeis-entry"

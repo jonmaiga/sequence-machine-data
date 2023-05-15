@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. exp((exp(x) - 1)/(1-x)).",
+  "id": "A361557",
+  "mentions": [
+    "A002627",
+    "A361532",
+    "A361548",
+    "A361558"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

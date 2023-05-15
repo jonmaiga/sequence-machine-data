@@ -1,0 +1,19 @@
+{
+  "description": "Number of divisors of n that are totient values (A002202).",
+  "id": "A361788",
+  "mentions": [
+    "A000005",
+    "A000079",
+    "A002202",
+    "A005408"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

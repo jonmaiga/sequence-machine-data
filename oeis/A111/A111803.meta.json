@@ -2,12 +2,10 @@
   "description": "Least k such that (k*p(n)#)^2 + k*p(n)# -1 and (k*p(n)#)^2 + k*p(n)# +1 are twin primes with p(n)# = n-th primorial.",
   "id": "A111803",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

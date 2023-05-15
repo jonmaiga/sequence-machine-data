@@ -2,12 +2,10 @@
   "description": "Consider all complete bipartite graphs on 2n nodes and all possible assignment of weights w(i) (for nodes i=1,...,2n); sequence gives maximal number of ways to orient the edges of the graph so that each node i has w(i) edges oriented towards it (for i=1,...,2n).",
   "id": "A014627",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

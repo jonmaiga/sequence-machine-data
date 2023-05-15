@@ -2,13 +2,10 @@
   "description": "Inverse of 1260th cyclotomic polynomial.",
   "id": "A015269",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-28 13:41:49",
     "offset": 0,
     "size": 81,
     "source": "joeis"

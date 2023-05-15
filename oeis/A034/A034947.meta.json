@@ -22,8 +22,8 @@
     "A099545",
     "A209615"
   ],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "mult",
@@ -31,7 +31,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:45",
     "offset": 1,
     "size": 81,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "Primes p such that p+6, p+12, p+18, p+20, p+26, p+32, and p+38 are all primes.",
   "id": "A286915",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:58",
     "offset": 1,
     "size": 25,
     "source": "oeis-bfile"

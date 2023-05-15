@@ -2,14 +2,12 @@
   "description": "a(n) = n^n^n^n^n^n^n^n^n^n^... read mod 10^10.",
   "id": "A165736",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:48",
     "offset": 1,
     "size": 24,
     "source": "oeis-bfile"

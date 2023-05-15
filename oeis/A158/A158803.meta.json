@@ -2,14 +2,12 @@
   "description": "Numbers k such that k^2 == 2 (mod 41).",
   "id": "A158803",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 17:12:57",
     "offset": 1,
     "size": 52,
     "source": "joeis"

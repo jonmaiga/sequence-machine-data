@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = 1 if A017665(A003961(n)) is a power of 2, otherwise 0. Here A017665 is the numerator of the sum of the reciprocals of the divisors of n, and A003961 is fully multiplicative with a(p) = nextprime(p).",
+  "id": "A361466",
+  "mentions": [
+    "A003961",
+    "A017665",
+    "A209229",
+    "A326042",
+    "A341525",
+    "A341605",
+    "A348942",
+    "A355942",
+    "A355943",
+    "A361465"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-bfile"
+  }
+}

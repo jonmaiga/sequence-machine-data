@@ -2,13 +2,11 @@
   "description": "Numbers that are both 1 + square of a prime and twice a prime.",
   "id": "A259979",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:18",
     "offset": 1,
     "size": 40,
     "source": "oeis-bfile"

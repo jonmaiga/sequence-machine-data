@@ -2,14 +2,12 @@
   "description": "Integers n such that by splitting their digits in two equal parts, the difference between the square of the first part and the second part eventually reaches 0 by iterating the process. If length is odd, split (length+1)/2, (length-1)/2.",
   "id": "A157756",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 53,
     "source": "oeis-entry"

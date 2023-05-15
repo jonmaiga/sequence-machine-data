@@ -2,17 +2,25 @@
   "description": "Number of factorizations of n into a prime number of factors > 1.",
   "id": "A360661",
   "mentions": [
+    "A000040",
     "A001055",
+    "A001248",
+    "A001358",
+    "A006881",
+    "A007304",
+    "A008578",
+    "A030078",
+    "A030514",
     "A038499",
+    "A054753",
+    "A080258",
     "A339890"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "new",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-28 11:08:29",
     "offset": 1,
     "size": 100,
     "source": "joeis"

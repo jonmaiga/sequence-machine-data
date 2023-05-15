@@ -2,13 +2,11 @@
   "description": "a(n) = 1/2*binomial(2*n,n) - (1+(-1)^n)/4*(binomial(n,floor(n/2)))^2.",
   "id": "A058621",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-09-08 06:56:20",
     "offset": 0,
     "size": 27,
     "source": "joeis"

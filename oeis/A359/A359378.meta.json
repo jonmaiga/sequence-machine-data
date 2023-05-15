@@ -15,14 +15,12 @@
     "A359377",
     "A359381"
   ],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "formulas",
     "mult",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:33",
     "offset": 1,
     "size": 106,
     "source": "oeis-bfile"

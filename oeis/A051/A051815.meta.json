@@ -6,7 +6,6 @@
     "A051806",
     "A051824"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "formulas",
@@ -14,7 +13,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Plain Bob Infinity. Select terms <= n to get a permutation whose powers generate all possible pairs of bells for change ringing.",
   "id": "A330612",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 81,
     "source": "oeis-entry"

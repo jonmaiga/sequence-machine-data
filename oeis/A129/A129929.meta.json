@@ -2,7 +2,6 @@
   "description": "Binomial transform of the periodic sequence with periodic pattern 1,1,1,0,0.",
   "id": "A129929",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 14:50:20",
     "offset": 0,
     "size": 33,
     "source": "joeis"

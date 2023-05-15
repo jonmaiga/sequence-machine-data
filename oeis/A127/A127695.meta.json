@@ -2,12 +2,10 @@
   "description": "Floor( 2*(2*n+1)^n*sinh(1/2) ) - (2*n+2)^n + (2*n)^n.",
   "id": "A127695",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 14:13:59",
     "offset": 0,
     "size": 19,
     "source": "joeis"

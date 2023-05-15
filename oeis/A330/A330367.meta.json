@@ -2,13 +2,11 @@
   "description": "Lexicographically earliest sequence of distinct nonprime terms that turns into a sequence of distinct prime numbers when the \"slide the digits, don't touch the commas\" operation is applied (see the Comments and Example sections).",
   "id": "A330367",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:59",
     "offset": 1,
     "size": 62,
     "source": "oeis-bfile"

@@ -1,0 +1,18 @@
+{
+  "description": "Smallest index of n-th prime in A361330, or -1 if it does not appear.",
+  "id": "A361331",
+  "mentions": [
+    "A002110",
+    "A351495",
+    "A361330"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

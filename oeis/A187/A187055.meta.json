@@ -2,14 +2,12 @@
   "description": "Triangle T(n,r), read by rows, where the r-th column is expansion of A(x)^r, with A(x) = x * (x+1) * (2*x^4+4*x^3-2*x+1) * (x^4+2*x^3-x+1) / (x^2+x-1)^6.",
   "id": "A187055",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

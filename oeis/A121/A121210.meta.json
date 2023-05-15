@@ -2,12 +2,10 @@
   "description": "Number of free hexagonal polygons of symmetry class C_(2h) and area n.",
   "id": "A121210",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 35,
     "source": "oeis-entry"

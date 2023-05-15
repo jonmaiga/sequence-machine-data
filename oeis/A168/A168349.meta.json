@@ -2,14 +2,12 @@
   "description": "Numbers of the form a^b + c^d where a, b, c and d are the first 4 primes.",
   "id": "A168349",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

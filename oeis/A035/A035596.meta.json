@@ -2,14 +2,12 @@
   "description": "Number of points of L1 norm 2n in Barnes-Wall lattice BW_16.",
   "id": "A035596",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-11-11 15:41:39",
     "offset": 0,
     "size": 20,
     "source": "joeis"

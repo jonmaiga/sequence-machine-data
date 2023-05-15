@@ -2,12 +2,10 @@
   "description": "exp(arctanh(x)*arctanh(x))=1+2/2!*x^2+28/4!*x^4+968/6!*x^6+61584/8!*x^8...",
   "id": "A012756",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:19",
     "offset": 0,
     "size": 14,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Numbers k such that 75*2^k-1 is prime.",
   "id": "A050563",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:59",
     "offset": 1,
     "size": 49,
     "source": "oeis-bfile"

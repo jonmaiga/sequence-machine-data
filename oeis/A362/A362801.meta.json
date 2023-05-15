@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose set of divisors can be partitioned into disjoint parts, all of length > 1 and having integer harmonic mean.",
+  "id": "A362801",
+  "mentions": [
+    "A001599",
+    "A348715",
+    "A362802",
+    "A362803"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

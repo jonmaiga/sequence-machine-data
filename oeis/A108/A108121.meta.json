@@ -2,14 +2,12 @@
   "description": "A three-symbol substitution sequence with characteristic polynomial: x^3-x^2-2*x-1.",
   "id": "A108121",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

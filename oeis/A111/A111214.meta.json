@@ -2,14 +2,12 @@
   "description": "Score for an n-letter word in the game of Boggle.",
   "id": "A111214",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 17,
     "source": "oeis-entry"

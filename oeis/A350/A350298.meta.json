@@ -2,14 +2,12 @@
   "description": "The n-th row of this table is the number of occurrences of letters in the names of integers in US English, in the ranges 1 to 10^n.",
   "id": "A350298",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn",
     "tabf",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:24",
     "offset": 1,
     "size": 78,
     "source": "oeis-bfile"

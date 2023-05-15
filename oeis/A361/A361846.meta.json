@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-9)^k * binomial(-1/3,k) * binomial(n*k,n-k).",
+  "id": "A361846",
+  "mentions": [
+    "A361829",
+    "A361839",
+    "A361847"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

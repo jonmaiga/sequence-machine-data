@@ -7,7 +7,6 @@
     "A182622",
     "A182627"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "easy",
@@ -15,7 +14,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:06",
     "offset": 1,
     "size": 79,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "a(n) = n! + (n-1)! + n-2.",
   "id": "A341302",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:13",
     "offset": 1,
     "size": 22,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "a(n) = b(n) + d(n), where b(n) = (n-th Lucas number > 1) and d(n) = (n-th number that is 1, 2, or 3, or is not a Lucas number).",
   "id": "A023501",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 13:27:51",
     "offset": 0,
     "size": 35,
     "source": "joeis"

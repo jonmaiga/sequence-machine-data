@@ -2,15 +2,12 @@
   "description": "a(n) = 127*(n-1)-a(n-1) with n>1, a(1)=16.",
   "id": "A177046",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:53:23",
     "offset": 1,
     "size": 49,
     "source": "joeis"

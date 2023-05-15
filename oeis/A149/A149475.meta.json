@@ -2,14 +2,11 @@
   "description": "Number of walks within N^3 (the first octant of Z^3) starting at (0,0,0) and consisting of n steps taken from {(-1, 0, 1), (-1, 1, 0), (0, -1, 1), (1, 0, 1), (1, 1, -1)}.",
   "id": "A149475",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "nonn",
     "walk"
   ],
   "terms": {
-    "modified": "2022-10-18 14:56:44",
     "offset": 0,
     "size": 28,
     "source": "joeis"

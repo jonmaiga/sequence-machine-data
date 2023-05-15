@@ -2,13 +2,11 @@
   "description": "Triangular array, read by rows, where if n is odd the n-th row consists of n least unused nonprimes, while if n is even the n-th row consists of the n least unused primes.",
   "id": "A083197",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 69,
     "source": "oeis-entry"

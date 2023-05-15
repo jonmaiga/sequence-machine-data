@@ -10,14 +10,12 @@
     "A246860",
     "A247304"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:49",
     "offset": 0,
     "size": 22,
     "source": "oeis-bfile"

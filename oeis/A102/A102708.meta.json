@@ -2,12 +2,10 @@
   "description": "Composite numbers a(n) having a GCD with Pell_x(a(n))-1 equal to 1 (where Pell_x(n) is the x solution of the Pell-Fermat equation: x^2 - n y^2 = 1). There is no square in the sequence because the Pell-Fermat equation has no solution for them.",
   "id": "A102708",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 52,
     "source": "oeis-entry"

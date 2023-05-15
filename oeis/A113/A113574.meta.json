@@ -2,7 +2,6 @@
   "description": "a(n) is the least n-digit number whose k-th digit is prime if k is prime, composite if k is composite, and 1 if k=1.",
   "id": "A113574",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:04",
     "offset": 1,
     "size": 18,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Expansion of e.g.f.: cosh(x)/exp(sin(x)).",
   "id": "A009184",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "easy",
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-07 13:31:39",
     "offset": 0,
     "size": 26,
     "source": "joeis"

@@ -2,12 +2,10 @@
   "description": "a(1)=5. For n >= 2, a(n) = the smallest prime p > a(n-1) where neither p+1 nor p-1 is divisible by any (earlier) term of this sequence.",
   "id": "A166109",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:49",
     "offset": 1,
     "size": 50,
     "source": "oeis-bfile"

@@ -35,14 +35,12 @@
     "A271985",
     "A271986"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "base",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:16",
     "offset": 0,
     "size": 78,
     "source": "oeis-bfile"

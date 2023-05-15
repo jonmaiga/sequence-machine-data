@@ -2,13 +2,11 @@
   "description": "Irregular triangular array T read by rows: T(n,0) = 1 for i >= 0, T(1,1) = 1,T(2,1) = 1, T(2,2) = 2, T(2,3) = 1, T(2,4) = 1 and for n >= 3, T(n,1) = n-1, T(n,k) = T(n-1,k-2) + T(n-1,k-1) + T(n-1,k) for k=2,...,n+1, and T(n, k+2) = T(n-1, k) + T(n-1, k+1).",
   "id": "A026148",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2022-04-28 14:30:49",
     "offset": 1,
     "size": 75,
     "source": "joeis"

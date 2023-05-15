@@ -2,12 +2,10 @@
   "description": "Odd numbers congruent to 7 mod 8 such that (2^(h(-n)+2)-n) is a square, where h(-n) is the class number.",
   "id": "A029724",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 1,
     "size": 48,
     "source": "oeis-entry"

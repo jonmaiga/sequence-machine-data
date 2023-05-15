@@ -5,13 +5,11 @@
     "A043283",
     "A044940"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:56",
     "offset": 1,
     "size": 100,
     "source": "oeis-bfile"

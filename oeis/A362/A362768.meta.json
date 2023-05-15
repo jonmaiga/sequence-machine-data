@@ -1,0 +1,17 @@
+{
+  "description": "Number of sets of permutations with a combined total of n moved points spanning an initial interval of positive integers.",
+  "id": "A362768",
+  "mentions": [
+    "A000166",
+    "A362767"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

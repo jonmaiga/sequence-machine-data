@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = smallest missing number u in A360179(1..n).",
+  "id": "A362131",
+  "mentions": [
+    "A000005",
+    "A360179",
+    "A362132"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

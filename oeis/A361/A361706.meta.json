@@ -1,0 +1,20 @@
+{
+  "description": "Inverse Moebius transform applied twice to primes.",
+  "id": "A361706",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A007429",
+    "A007445",
+    "A361707"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

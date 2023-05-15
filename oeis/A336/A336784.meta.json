@@ -2,12 +2,10 @@
   "description": "Number of steps in Conway's Game of Life for a block and row of n cells to stabilize.",
   "id": "A336784",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 0,
     "size": 58,
     "source": "oeis-entry"

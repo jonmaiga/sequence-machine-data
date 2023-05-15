@@ -17,7 +17,6 @@
     "A173786",
     "A179951"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "easy",
@@ -26,7 +25,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2022-04-26 17:57:39",
     "offset": 1,
     "size": 60,
     "source": "joeis"

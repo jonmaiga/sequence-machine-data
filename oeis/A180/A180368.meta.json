@@ -2,13 +2,11 @@
   "description": "Number of steps of the one-sided hydra process for a linear tree of length n.",
   "id": "A180368",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 6,
     "source": "oeis-entry"

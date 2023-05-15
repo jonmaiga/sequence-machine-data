@@ -2,13 +2,11 @@
   "description": "Floor of the area of consecutive Prime-Indexed Prime triangles.",
   "id": "A119659",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 34,
     "source": "oeis-entry"

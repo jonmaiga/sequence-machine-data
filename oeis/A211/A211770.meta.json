@@ -2,14 +2,12 @@
   "description": "a(n) = concatenation of periods of periodic sequences of ending digits of multiples of n.",
   "id": "A211770",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "base",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:53:29",
     "offset": 1,
     "size": 30,
     "source": "joeis"

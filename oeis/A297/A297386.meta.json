@@ -2,13 +2,11 @@
   "description": "Number of Eulerian cycles in the (2n+1)-sun graph.",
   "id": "A297386",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

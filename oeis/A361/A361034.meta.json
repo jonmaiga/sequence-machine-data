@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = 2520*(4*n)!/(n!*(n+2)!^3).",
+  "id": "A361034",
+  "mentions": [
+    "A000984",
+    "A007054",
+    "A008977",
+    "A361029",
+    "A361032",
+    "A361033",
+    "A361035"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

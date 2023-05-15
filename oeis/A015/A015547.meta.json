@@ -2,14 +2,12 @@
   "description": "Expansion of x/(1 - 5*x - 11*x^2).",
   "id": "A015547",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:22",
     "offset": 0,
     "size": 22,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Saturated two-layer comparator networks on n channels excluding networks that are equivalent modulo reflection.",
   "id": "A244487",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 3,
     "size": 17,
     "source": "oeis-entry"

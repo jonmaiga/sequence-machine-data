@@ -2,14 +2,12 @@
   "description": "Smallest x such that for p = prime(n), pe is a c-Wieferich prime of 'Artin-Schreier' type, or 0 if no such x exists.",
   "id": "A271781",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "more",
     "nonn",
     "obsc"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 2,
     "size": 11,
     "source": "oeis-entry"

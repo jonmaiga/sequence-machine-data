@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of (n+1)X(k+1) 0..1 arrays with each row and column prime, read as a binary number with top and left being the most significant bits.",
   "id": "A261761",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:21",
     "offset": 1,
     "size": 56,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "a(1)=1. For n >= 2: If a(n-1) is coprime to n, then a(n) = the smallest integer > a(n-1) that is coprime to n. If a(n-1) is not coprime to n, then a(n) = the smallest integer > a(n-1) that is not coprime to n.",
   "id": "A163463",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:45",
     "offset": 1,
     "size": 67,
     "source": "oeis-bfile"

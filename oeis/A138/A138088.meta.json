@@ -2,7 +2,6 @@
   "description": "Triangle read by rows: coefficients of characteristic polynomials of the Z/nZ addition matrices using PolynomialMod[p(x,n),n] in Mathematica. ( Polynomials/nZ): P(x, n) = If[Mod[n, 4] == 0, x^n, If[Mod[n, 2] == 1, If[n == 0, 1, (n - 1)*x^n], (n/2)x^(n - 2) + x^n]].",
   "id": "A138088",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 65,
     "source": "oeis-entry"

@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows. T(n,k) is the number of properly colored simple labeled graphs on [n] with exactly k edges, n >= 0, 0 <= k <= binomial(n,2).",
+  "id": "A361456",
+  "mentions": [
+    "A000142",
+    "A000670",
+    "A046860",
+    "A334282"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

@@ -2,14 +2,12 @@
   "description": "Least largest sequence of consecutive primes (17) of form 4k+3.",
   "id": "A035498",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 1,
     "size": 17,
     "source": "oeis-entry"

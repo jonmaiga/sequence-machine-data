@@ -2,12 +2,10 @@
   "description": "A binomial recursion sequence: a(n+1) = binomial(a(n),n), with a(1) = 4.",
   "id": "A143391",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Number of partitions of n into 4 parts whose largest 3 parts have the same parity.",
   "id": "A340760",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:28:03",
     "offset": 0,
     "size": 66,
     "source": "joeis"

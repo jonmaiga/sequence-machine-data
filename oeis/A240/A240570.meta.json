@@ -2,13 +2,11 @@
   "description": "Prime numbers n such that replacing each digit in the decimal expansion of n with the sum of the other digits produces a prime.",
   "id": "A240570",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 48,
     "source": "oeis-entry"

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the n-th decimal digit of p(n)/q(n) where p(n) = A002260(n) and q(n) = A004736(n).",
+  "id": "A361980",
+  "mentions": [
+    "A002260",
+    "A004736",
+    "A061480"
+  ],
+  "tags": [
+    "base",
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

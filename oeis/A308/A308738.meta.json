@@ -2,12 +2,10 @@
   "description": "Numbers that can be written as the sum of five distinct nonnegative cubes.",
   "id": "A308738",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:33",
     "offset": 1,
     "size": 59,
     "source": "oeis-bfile"

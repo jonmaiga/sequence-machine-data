@@ -2,14 +2,12 @@
   "description": "Decimal expansion of Pi * 2F3(1/2,1/2; 3/2,3/2,3/2; -Pi^2/4).",
   "id": "A175293",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "cons",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Number of unsigned permutations in S_{3n-1} whose breakpoint graph contains only cycles of length 3.",
   "id": "A178217",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

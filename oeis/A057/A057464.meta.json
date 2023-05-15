@@ -2,15 +2,14 @@
   "description": "Numbers k such that 10*13^k + 1 is prime.",
   "id": "A057464",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
+    "changed",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
-    "size": 17,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

@@ -2,14 +2,12 @@
   "description": "Number of minimal total dominating sets in the n-barbell graph.",
   "id": "A302650",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 07:36:13",
     "offset": 1,
     "size": 40,
     "source": "joeis"

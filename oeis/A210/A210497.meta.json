@@ -1,19 +1,17 @@
 {
-  "description": "2*prime(n+1) - prime(n).",
+  "description": "a(n) = 2*prime(n+1) - prime(n).",
   "id": "A210497",
   "mentions": [
     "A001223",
     "A062234",
     "A085704"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:29",
     "offset": 1,
     "size": 50,
     "source": "oeis-bfile"

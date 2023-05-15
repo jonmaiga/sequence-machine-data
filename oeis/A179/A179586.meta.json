@@ -2,12 +2,10 @@
   "description": "Number of permutations of 1..n+11 with the number moved left exceeding the number moved right by n or more",
   "id": "A179586",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

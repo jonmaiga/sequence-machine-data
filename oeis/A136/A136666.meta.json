@@ -2,7 +2,6 @@
   "description": "triangle of conversion vectors/ coefficients between adjusted to be Integers: Hermite-like: p(x,n)=2*x*p(x,n-1)-n*p(x,n-1); and Chebyshev-like: q(x,n)=2*x*q(x,n-1)-q(x,n-1);.",
   "id": "A136666",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 57,
     "source": "oeis-entry"

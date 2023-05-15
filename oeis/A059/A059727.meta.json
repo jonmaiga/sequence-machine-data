@@ -2,14 +2,12 @@
   "description": "a(n) = Fibonacci(n)*(Fibonacci(n) + 1).",
   "id": "A059727",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:10",
     "offset": 0,
     "size": 30,
     "source": "oeis-bfile"

@@ -9,7 +9,6 @@
     "A128064",
     "A128078"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "frac",
@@ -17,7 +16,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

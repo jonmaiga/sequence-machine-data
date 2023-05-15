@@ -8,7 +8,6 @@
     "A185144",
     "A185340"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "hard",
@@ -16,7 +15,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 5,
     "size": 39,
     "source": "oeis-entry"

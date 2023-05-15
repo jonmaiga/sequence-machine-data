@@ -1,0 +1,17 @@
+{
+  "description": "a(0) = 1; for n >= 1, a(n) is the least integer k > a(n-1) such that k / A000005(k) = a(n-1).",
+  "id": "A360806",
+  "mentions": [
+    "A000005",
+    "A033950"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -2,14 +2,12 @@
   "description": "Expansion of 1/((1-2*x)*(1-6*x)*(1-10*x)*(1-11*x)).",
   "id": "A028002",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:37",
     "offset": 0,
     "size": 20,
     "source": "oeis-bfile"

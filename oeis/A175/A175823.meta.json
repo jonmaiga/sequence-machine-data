@@ -2,13 +2,11 @@
   "description": "Numbers n such that gcd(n^2, reverse(n^2)) = n",
   "id": "A175823",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 30,
     "source": "oeis-entry"

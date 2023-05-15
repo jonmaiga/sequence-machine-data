@@ -2,14 +2,12 @@
   "description": "Distance from the nearest palindrome.",
   "id": "A100771",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 10,
     "size": 105,
     "source": "oeis-entry"

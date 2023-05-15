@@ -2,13 +2,11 @@
   "description": "Smallest n-digit square such that no number made by chopping off a group of one or more digits from the left is a square.",
   "id": "A173668",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 2,
     "size": 19,
     "source": "oeis-entry"

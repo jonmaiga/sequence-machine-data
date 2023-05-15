@@ -5,7 +5,6 @@
     "A128411",
     "A128413"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
@@ -13,7 +12,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 42,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Let L_k(n) denote the number of elements of rank k in the free distributive lattice on n generators. Sequence gives irregular triangle, read by rows, showing coefficients when L_k(n) is expressed as a linear combination of binomial(n,i) for 0 <= i <= k-1.",
   "id": "A316836",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "more",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 0,
     "size": 56,
     "source": "oeis-entry"

@@ -8,14 +8,12 @@
     "A225873",
     "A226090"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 24,
     "source": "oeis-entry"

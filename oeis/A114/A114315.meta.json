@@ -2,14 +2,12 @@
   "description": "Self-describing sequence. See the sequence as a succession of digits: then a(n) is the position of a prime digit in the sequence.",
   "id": "A114315",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 51,
     "source": "oeis-entry"

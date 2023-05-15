@@ -2,14 +2,12 @@
   "description": "Expansion of (1-x)/(1-3x-4x^2+4x^3).",
   "id": "A052965",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 17:20:32",
     "offset": 0,
     "size": 24,
     "source": "joeis"

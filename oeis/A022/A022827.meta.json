@@ -2,12 +2,10 @@
   "description": "a(n) = absolute value of ( a([ n/2 ]) - a([ n/3 ]) + ... + ((-1)^n)a([ n/n ]) ).",
   "id": "A022827",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:14:23",
     "offset": 0,
     "size": 99,
     "source": "joeis"

@@ -1,0 +1,19 @@
+{
+  "description": "Number of (non-null) connected induced subgraphs in the n-flower graph.",
+  "id": "A362807",
+  "mentions": [
+    "A362793"
+  ],
+  "tags": [
+    "bref",
+    "formulas",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 5,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

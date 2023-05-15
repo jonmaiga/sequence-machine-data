@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{n>=1} (tan(1/n) - sin(1/n)).",
+  "id": "A362662",
+  "mentions": [
+    "A096444",
+    "A248946",
+    "A248948",
+    "A342680"
+  ],
+  "tags": [
+    "cons",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 97,
+    "source": "oeis-entry"
+  }
+}

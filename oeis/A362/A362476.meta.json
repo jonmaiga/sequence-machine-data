@@ -1,0 +1,17 @@
+{
+  "description": "Number of vertex cuts in the n-diagonal intersection graph.",
+  "id": "A362476",
+  "mentions": [
+    "A300528"
+  ],
+  "tags": [
+    "changed",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

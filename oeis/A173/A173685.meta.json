@@ -2,14 +2,12 @@
   "description": "Decimal expansion of negative of previously unknown transition arising in exact dynamics for fully connected nonlinear network.",
   "id": "A173685",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 150,
     "source": "oeis-entry"

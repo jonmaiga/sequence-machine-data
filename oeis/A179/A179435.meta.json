@@ -2,12 +2,10 @@
   "description": "For positive n with prime decomposition n = Product_{j=1..m} (p_j^k_j) define a_n = Sum_{j=1..m} (p_j*k_j) and b_n = Sum_{j=1..m} (p_j^k_j). This sequence gives those n for which a_n and b_n are both prime and unequal.",
   "id": "A179435",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:02",
     "offset": 1,
     "size": 46,
     "source": "oeis-bfile"

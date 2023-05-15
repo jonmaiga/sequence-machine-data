@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of x*(2 - x)/(1 - 5*x + 3*x^2 - x^3).",
+  "id": "A361358",
+  "mentions": [
+    "A200676",
+    "A361356",
+    "A361359",
+    "A361360"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

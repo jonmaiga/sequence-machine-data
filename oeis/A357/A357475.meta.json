@@ -5,16 +5,17 @@
     "A000045",
     "A166861",
     "A261050",
+    "A337009",
     "A357179"
   ],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
+    "changed",
+    "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 0,
     "size": 46,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

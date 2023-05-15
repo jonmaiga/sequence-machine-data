@@ -2,12 +2,10 @@
   "description": "Number of partitions of n into numbers not divisible by 3 where every part appears at least 10 times",
   "id": "A161288",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-10-18 14:56:44",
     "offset": 1,
     "size": 90,
     "source": "joeis"

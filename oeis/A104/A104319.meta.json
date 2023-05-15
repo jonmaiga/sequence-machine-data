@@ -2,13 +2,11 @@
   "description": "Primes which are the reverse concatenation of four consecutive cubes.",
   "id": "A104319",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 5,
     "source": "oeis-entry"

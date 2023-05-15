@@ -2,7 +2,6 @@
   "description": "Define a sequence b(n) such that b(k) is the smallest integer greater than b(k-1) and relatively prime to the product b(0)*b(1)*...b(k-1). The current sequence lists the starting b(0)'s such that all b(k), for k>= 1, are primes or powers of primes.",
   "id": "A239458",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "fini",
     "full",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

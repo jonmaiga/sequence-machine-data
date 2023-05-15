@@ -2,12 +2,10 @@
   "description": "Integer area of primitive cyclic quadrilaterals with integer sides and rational radius.",
   "id": "A273691",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 42,
     "source": "oeis-entry"

@@ -2,7 +2,6 @@
   "description": "Concatenation of perfect numbers written in base 2.",
   "id": "A176178",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-28 11:08:28",
     "offset": 1,
     "size": 105,
     "source": "joeis"

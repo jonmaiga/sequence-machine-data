@@ -2,14 +2,12 @@
   "description": "Table read by antidiagonals upwards: a(n, k) is the minimum c such that n sets with k elements each can be constructed from numbers 1 to c (inclusive) such that any two sets have exactly 1 common element.",
   "id": "A286312",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

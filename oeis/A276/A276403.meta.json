@@ -2,14 +2,12 @@
   "description": "a(n) = if n mod 6 = 0 then 4*3^((n-6)/3) elif n mod 6 = 1 then 2^4*3^((n-10)/3) elif n mod 6 = 2 then 2^3*3^((n-8)/3) elif n mod 6 = 3 then 2^2*3^((n-6)/3) elif n mod 6 = 4 then 2*3^((n-4)/3) otherwise 3^((n-2)/3).",
   "id": "A276403",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:41",
     "offset": 8,
     "size": 43,
     "source": "oeis-bfile"

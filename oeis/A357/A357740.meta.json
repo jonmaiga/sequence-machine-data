@@ -1,0 +1,18 @@
+{
+  "description": "Number of non-equivalent ways under symmetry in one axis that 2 non-attacking kings of different colors can be placed on an n X n board.",
+  "id": "A357740",
+  "mentions": [
+    "A035286",
+    "A357723"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "joeis"
+  }
+}

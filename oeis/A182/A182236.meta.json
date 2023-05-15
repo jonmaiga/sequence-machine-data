@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of n X n 0..n+k-2 arrays with new values 0 upwards introduced in row major order and every value unique in its row and column",
   "id": "A182236",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 25,
     "source": "oeis-entry"

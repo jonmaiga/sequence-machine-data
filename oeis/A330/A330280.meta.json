@@ -2,14 +2,12 @@
   "description": "Least number of 2 X 2 rotations required to solve an n X n Simon Tatham's Twiddle puzzle.",
   "id": "A330280",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

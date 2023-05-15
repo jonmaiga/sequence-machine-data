@@ -2,13 +2,11 @@
   "description": "Highest minimal Hamming distance of Hermitian Type IV self-dual codes over GF(2) X GF(2) and length 2n.",
   "id": "A106160",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

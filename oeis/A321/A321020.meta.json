@@ -7,13 +7,11 @@
     "A156253",
     "A320487"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "nonn",
     "unsolved"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:43",
     "offset": 1,
     "size": 84,
     "source": "oeis-bfile"

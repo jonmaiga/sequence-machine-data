@@ -2,14 +2,12 @@
   "description": "Position of the first 4 in the decimal expansion of the square root of n, or -1 if 4 never appears.",
   "id": "A124604",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "easy",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 101,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Triangle read by rows: T(n,k) (0 <= k <= n) arises from the chain algorithm for the \"Just\"- or J-version of the n-coin group testing game.",
   "id": "A241184",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "more",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 0,
     "size": 45,
     "source": "oeis-entry"

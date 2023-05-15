@@ -2,15 +2,15 @@
   "description": "Natural function used for generating x^2 and sqrt(x) only using iteration and Q(x) (the characteristic function of sqrt).",
   "id": "A112594",
   "mentions": [
+    "A000196",
     "A010052"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 71,
     "source": "oeis-entry"

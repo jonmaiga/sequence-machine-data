@@ -2,12 +2,10 @@
   "description": "Largest number that is not the sum of distinct numbers of form k^2 + n.",
   "id": "A025525",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:03",
     "offset": 1,
     "size": 55,
     "source": "joeis"

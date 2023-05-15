@@ -2,18 +2,24 @@
   "description": "Total sum of even parts in the last section of the set of partitions of n.",
   "id": "A206436",
   "mentions": [
+    "A002865",
     "A066966",
     "A135010",
     "A138121",
-    "A138879"
+    "A138879",
+    "A146076",
+    "A206433",
+    "A206434",
+    "A206435",
+    "A207378",
+    "A336811",
+    "A336812"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:26",
     "offset": 1,
     "size": 45,
     "source": "oeis-bfile"

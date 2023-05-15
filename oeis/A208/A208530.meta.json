@@ -2,12 +2,10 @@
   "description": "Numbers n such that both n*Pi and n*e are within 1/sqrt(n) of integers.",
   "id": "A208530",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:28",
     "offset": 1,
     "size": 39,
     "source": "oeis-bfile"

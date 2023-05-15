@@ -2,13 +2,11 @@
   "description": "Sum of all matrix elements M(i,j) = (i^2)/(i+j) multiplied by (2*n)!/n!.",
   "id": "A098612",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 16,
     "source": "oeis-entry"

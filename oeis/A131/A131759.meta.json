@@ -2,7 +2,6 @@
   "description": "Numbers n such that if for every digit K of n you calculate prime(K)^K and sum for all digits you get n (assumes that prime(0)^0 = 1).",
   "id": "A131759",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "bref",
@@ -11,7 +10,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 3,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Triangle read by rows: T(n,k) is the number of permutations p of [n] such that the number of inversions of the word formed by the leading entries of the blocks of p is k. A block of a permutation is a maximal sequence of consecutive integers which appear in consecutive positions. For example, the permutation 5412367 has 4 blocks: 5, 4, 123, and 67; their leading entries are 5,4,1, and 6 and the word 5416 has 3 inversions.",
   "id": "A186372",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:10",
     "offset": 0,
     "size": 93,
     "source": "oeis-bfile"

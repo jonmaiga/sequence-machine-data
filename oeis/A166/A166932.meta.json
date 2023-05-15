@@ -6,13 +6,11 @@
     "A019503",
     "A019504"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 3,
     "size": 6,
     "source": "oeis-entry"

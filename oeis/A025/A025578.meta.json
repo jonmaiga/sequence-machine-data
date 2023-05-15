@@ -2,12 +2,10 @@
   "description": "a(n) = Sum{T(n,k-1), k = 1,2,...,n}.",
   "id": "A025578",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 05:51:47",
     "offset": 1,
     "size": 27,
     "source": "joeis"

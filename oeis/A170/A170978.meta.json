@@ -2,14 +2,12 @@
   "description": "Expansion of Product_{i=1..m-1} (1 + x^(4*i-1)) * (1 + x^(2*m-1)) for m = 6.",
   "id": "A170978",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 67,
     "source": "oeis-entry"

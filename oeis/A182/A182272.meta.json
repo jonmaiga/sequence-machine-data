@@ -2,13 +2,11 @@
   "description": "Starting with 1, smallest integer not yet in the sequence such that two neighboring digits in the sequence multiply to a composite.",
   "id": "A182272",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 67,
     "source": "oeis-entry"

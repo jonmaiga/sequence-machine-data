@@ -7,13 +7,11 @@
     "A169823",
     "A334080"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:05",
     "offset": 1,
     "size": 40,
     "source": "oeis-bfile"

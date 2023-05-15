@@ -2,15 +2,14 @@
   "description": "Numbers k such that 2*3^k + 35 is prime.",
   "id": "A059768",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
+    "changed",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
-    "size": 35,
+    "size": 36,
     "source": "oeis-entry"
   }
 }

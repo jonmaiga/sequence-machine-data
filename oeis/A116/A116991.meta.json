@@ -2,12 +2,10 @@
   "description": "a(1)=1. a(n) = number of this sequence's terms a(m), 1<= m <= n-1, each with b(a(m),p) not equal to each b(n,p) for every prime p dividing n, where p^b(k,p) is the highest power of the prime p to divide k.",
   "id": "A116991",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:07",
     "offset": 1,
     "size": 73,
     "source": "oeis-bfile"

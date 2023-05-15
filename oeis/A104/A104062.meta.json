@@ -2,13 +2,11 @@
   "description": "Number of primes p(i) for i=1 to 20*10^n such that p(i+1)=p(i)+6 and p(i+2)=p(i)+12 and p(i+3)=p(i)+18, 4 consecutive primes in arithmetic progression 0 6 12 18.",
   "id": "A104062",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

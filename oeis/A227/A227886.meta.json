@@ -2,12 +2,10 @@
   "description": "G.f. A(x) satisfies: prime(n-1) iteration of A(x) yields a zero coefficient of x^n for n>2.",
   "id": "A227886",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:44",
     "offset": 1,
     "size": 19,
     "source": "oeis-bfile"

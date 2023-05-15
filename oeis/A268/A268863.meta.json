@@ -2,12 +2,10 @@
   "description": "a(n)=least number m such that gcd(prime(m)+2,prime(m+1)+2) = 2*n-1.",
   "id": "A268863",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:30",
     "offset": 1,
     "size": 32,
     "source": "oeis-bfile"

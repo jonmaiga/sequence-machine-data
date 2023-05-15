@@ -2,13 +2,11 @@
   "description": "Numbers n whose square root contains at least one instance of n in the first n digits after the decimal point.",
   "id": "A259571",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:17",
     "offset": 1,
     "size": 59,
     "source": "oeis-bfile"

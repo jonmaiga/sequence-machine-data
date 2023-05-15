@@ -6,13 +6,11 @@
     "A073733",
     "A215756"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 28,
     "source": "oeis-entry"

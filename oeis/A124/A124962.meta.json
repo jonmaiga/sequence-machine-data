@@ -2,13 +2,11 @@
   "description": "Sum of automorphism group orders for all simple graphs of order n.",
   "id": "A124962",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

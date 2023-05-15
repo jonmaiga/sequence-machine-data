@@ -5,7 +5,6 @@
     "A030130",
     "A140502"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "cons",
@@ -13,7 +12,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

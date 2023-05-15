@@ -2,12 +2,10 @@
   "description": "a(1)=1. Skipping over integers occurring earlier in the sequence, count down b(n) (b(n)= number of earlier terms of {a(k)} which are coprime to n) from a(n-1) to get a(n). If this is <= 0, instead count up from a(n-1) b(n) positions (skipping already occurring integers) to get a(n).",
   "id": "A111699",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:02",
     "offset": 1,
     "size": 69,
     "source": "oeis-bfile"

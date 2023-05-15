@@ -2,14 +2,12 @@
   "description": "a(n) = 3*n^2 - 2*n + 7.",
   "id": "A191413",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:23:27",
     "offset": 0,
     "size": 47,
     "source": "joeis"

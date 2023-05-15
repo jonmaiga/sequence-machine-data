@@ -2,14 +2,12 @@
   "description": "Number of Weyl group elements, not containing s_1 or s_2, which contribute nonzero terms to Kostant's weight multiplicity formula when computing the multiplicity of the zero-weight in the adjoint representation for the Lie algebra of type D and rank n.",
   "id": "A234576",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 02:09:26",
     "offset": 4,
     "size": 31,
     "source": "joeis"

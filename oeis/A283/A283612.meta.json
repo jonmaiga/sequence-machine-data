@@ -2,13 +2,11 @@
   "description": "Number of sets of sequences of total length n over an alphabet of n letters with the symmetric group acting on the letters.",
   "id": "A283612",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 0,
     "size": 21,
     "source": "oeis-entry"

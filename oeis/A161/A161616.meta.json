@@ -5,13 +5,11 @@
     "A046326",
     "A147581"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 17:17:31",
     "offset": 1,
     "size": 53,
     "source": "joeis"

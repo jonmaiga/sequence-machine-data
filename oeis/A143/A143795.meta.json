@@ -2,14 +2,12 @@
   "description": "a(1) = 1, then for n > 1, a(n) = a(n - 1) + 1 for n even, or a(n) = a(n - 1) + 10 for n odd.",
   "id": "A143795",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:37:25",
     "offset": 1,
     "size": 56,
     "source": "joeis"

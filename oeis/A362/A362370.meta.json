@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows. T(n, k) = ([x^k] P(n, x)) // k! where P(n, x) = Sum_{k=1..n} P(n - k, x) * x if n >= 1 and P(0, x) = 1. The notation 's // t' means integer division and is a shortcut for 'floor(s/t)'.",
+  "id": "A362370",
+  "mentions": [
+    "A048993",
+    "A097805",
+    "A156289",
+    "A291451",
+    "A291452",
+    "A362307"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

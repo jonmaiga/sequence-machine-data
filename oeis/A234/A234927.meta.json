@@ -2,13 +2,11 @@
   "description": "Number of (n+2) X (1+2) 0..2 arrays with each 3 X 3 subblock having the sum of its 72 absolute element differences equal to 34 and no adjacent elements equal.",
   "id": "A234927",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:52",
     "offset": 1,
     "size": 33,
     "source": "oeis-bfile"

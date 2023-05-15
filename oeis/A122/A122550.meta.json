@@ -2,13 +2,11 @@
   "description": "Floor of the slanted side of a right trapezoid formed by 3 consecutive primes.",
   "id": "A122550",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 58,
     "source": "oeis-entry"

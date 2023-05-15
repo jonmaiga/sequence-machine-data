@@ -1,0 +1,18 @@
+{
+  "description": "Index of where prime(n) first appears as a divisor of any term in A351495.",
+  "id": "A361693",
+  "mentions": [
+    "A351495",
+    "A361330",
+    "A361332",
+    "A361333"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

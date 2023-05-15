@@ -1,0 +1,18 @@
+{
+  "description": "Number of odd chordless cycles of length >=5 in the n-tetrahedral (Johnson) graph.",
+  "id": "A362547",
+  "mentions": [
+    "A303505",
+    "A362543"
+  ],
+  "tags": [
+    "changed",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 6,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

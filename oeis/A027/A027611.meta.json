@@ -14,15 +14,14 @@
     "A128438",
     "A213999"
   ],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:36",
     "offset": 1,
     "size": 30,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "Number of size n nonnegative integer arrays with new values introduced in increasing order from 0, and no 7 consecutive elements totalling n or more",
   "id": "A193062",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:16",
     "offset": 1,
     "size": 24,
     "source": "oeis-bfile"

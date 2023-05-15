@@ -2,14 +2,12 @@
   "description": "Numbers all of whose base 6 digits are odd.",
   "id": "A033032",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:42",
     "offset": 1,
     "size": 52,
     "source": "oeis-bfile"

@@ -2,14 +2,12 @@
   "description": "Lexicographically earliest increasing sequence of primes such that odd-indexed terms have final digit 1 and even-indexed terms have final digit 9.",
   "id": "A272550",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:37",
     "offset": 1,
     "size": 52,
     "source": "oeis-bfile"

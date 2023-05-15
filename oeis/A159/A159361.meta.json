@@ -2,13 +2,11 @@
   "description": "Number of n X n arrays of squares of integers with every (n-2)X(n-2) subblock summing to 5",
   "id": "A159361",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:41",
     "offset": 4,
     "size": 17,
     "source": "oeis-bfile"

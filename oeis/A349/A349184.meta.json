@@ -2,12 +2,10 @@
   "description": "a(n) = n^n - Sum_{k=1..n-2} f_k(n), with f_k(n)=( floor( (n^n - Sum_{t=1..k-1} f_t(n))^(1/(n-k)) ) )^(n-k).",
   "id": "A349184",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 2,
     "size": 54,
     "source": "oeis-entry"

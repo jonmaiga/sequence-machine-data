@@ -6,7 +6,6 @@
     "A109741",
     "A114288"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "fini",
     "full",
@@ -14,7 +13,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 81,
     "source": "oeis-entry"

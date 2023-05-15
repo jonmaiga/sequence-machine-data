@@ -2,14 +2,12 @@
   "description": "Decimal expansion of the Narcissus constant, the second real solution of the equation x^(x-1) = x+1.",
   "id": "A246825",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "cons",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:48:05",
     "offset": 1,
     "size": 103,
     "source": "joeis"

@@ -2,12 +2,10 @@
   "description": "Primes q such that 15*q-4, 15*q-2, 15*q+2 and 15*q+4 are all primes.",
   "id": "A342717",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 38,
     "source": "oeis-entry"

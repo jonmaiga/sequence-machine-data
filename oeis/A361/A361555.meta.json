@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying 5*x = Sum_{n=-oo..+oo} x^(n*(3*n+1)/2) * (A(x)^(3*n) - 1/A(x)^(3*n+1)).",
+  "id": "A361555",
+  "mentions": [
+    "A359920",
+    "A361550",
+    "A361552",
+    "A361553",
+    "A361554"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

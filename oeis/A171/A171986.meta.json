@@ -2,13 +2,11 @@
   "description": "Concatenate distance to previous prime & distance to next prime. If no previous prime, use 0.",
   "id": "A171986",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 70,
     "source": "oeis-entry"

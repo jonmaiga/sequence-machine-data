@@ -1,0 +1,20 @@
+{
+  "description": "Number of sequences of n distinct integers whose Gilbreath transform is (1, 1, ..., 1).",
+  "id": "A363005",
+  "mentions": [
+    "A080839",
+    "A363002",
+    "A363003",
+    "A363004"
+  ],
+  "tags": [
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

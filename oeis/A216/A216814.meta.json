@@ -2,13 +2,11 @@
   "description": "Given n and a constant C, define a sequence b(m) by the recurrence in the comments; a(n) = smallest positive integer C such that for some prime p the denominators of all b(m) are powers of p (conjectured).",
   "id": "A216814",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 2,
     "size": 18,
     "source": "oeis-entry"

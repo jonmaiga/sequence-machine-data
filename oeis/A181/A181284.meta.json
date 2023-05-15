@@ -2,14 +2,12 @@
   "description": "Decimal expansion of sqrt(9/121 * 100^m + (112 - 44*m)/121), where m=30.",
   "id": "A181284",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "cons",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:04",
     "offset": 30,
     "size": 105,
     "source": "oeis-bfile"

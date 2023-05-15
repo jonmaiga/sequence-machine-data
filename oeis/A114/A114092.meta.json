@@ -2,12 +2,10 @@
   "description": "Number of partitions of n into parts that are distinct mod 4.",
   "id": "A114092",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:04",
     "offset": 0,
     "size": 64,
     "source": "oeis-bfile"

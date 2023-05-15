@@ -2,13 +2,11 @@
   "description": "Real part of a complex operation analogous to the factorials.",
   "id": "A121627",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 22,
     "source": "oeis-entry"

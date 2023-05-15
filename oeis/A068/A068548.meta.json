@@ -2,14 +2,12 @@
   "description": "Coefficients of (-x^(2n-6)) in Chebyshev polynomial of degree 2n.",
   "id": "A068548",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 17:13:41",
     "offset": 1,
     "size": 19,
     "source": "joeis"

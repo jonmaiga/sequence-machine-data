@@ -20,7 +20,6 @@
     "A185246",
     "A185293"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "formulas",
     "hard",
@@ -28,7 +27,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:47",
     "offset": 0,
     "size": 34,
     "source": "oeis-entry"

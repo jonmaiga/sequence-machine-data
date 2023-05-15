@@ -2,13 +2,11 @@
   "description": "Triangle T(i,j) read by rows: T(i,1) = Fibonacci(i) for all i; T(i,i) = i for all i; T(i,j) = T(i-1,j) + T(i-2,j) + T(i-1,j-1) - T(i-2,j-1).",
   "id": "A139821",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

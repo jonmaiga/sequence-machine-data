@@ -1,5 +1,5 @@
 {
-  "description": "Denominator of sum_{i=1..n} 1/prime(i)^3.",
+  "description": "Denominator of Sum_{i=1..n} 1/prime(i)^3.",
   "id": "A115964",
   "mentions": [
     "A000040",
@@ -14,7 +14,6 @@
     "A106830",
     "A115963"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
@@ -22,7 +21,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 00:21:10",
     "offset": 1,
     "size": 11,
     "source": "joeis"

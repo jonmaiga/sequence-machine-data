@@ -2,13 +2,11 @@
   "description": "Day numbers in Chris Cagle's song \"What a beautiful day\".",
   "id": "A109869",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "(3^n)! - (2^n)!.",
   "id": "A079286",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 4,
     "source": "oeis-entry"

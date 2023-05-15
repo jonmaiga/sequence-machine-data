@@ -1,0 +1,19 @@
+{
+  "description": "Number of odd semiprimes less than 2^n.",
+  "id": "A362042",
+  "mentions": [
+    "A007053",
+    "A046315",
+    "A085770",
+    "A125527"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

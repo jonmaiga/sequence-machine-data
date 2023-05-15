@@ -12,14 +12,12 @@
     "A287300",
     "A287310"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "base",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 23,
     "source": "oeis-entry"

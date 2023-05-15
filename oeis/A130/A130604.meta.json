@@ -1,19 +1,19 @@
 {
-  "description": "Numbers n such that base 10 and base 7 representations of n are permutations of the same multiset of digits.",
+  "description": "Numbers whose base-10 and base-7 representations are permutations of the same multiset of digits.",
   "id": "A130604",
   "mentions": [
     "A037440",
     "A074233"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
+    "fini",
+    "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
-    "size": 35,
+    "size": 61,
     "source": "oeis-entry"
   }
 }

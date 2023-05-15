@@ -2,12 +2,10 @@
   "description": "Smallest k such that p^p -+ k is prime, where p=prime(n).",
   "id": "A157719",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:39",
     "offset": 1,
     "size": 35,
     "source": "oeis-bfile"

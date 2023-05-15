@@ -2,13 +2,11 @@
   "description": "Prime form of first twelve-tone row created by Arnold Schoenberg from the last movement of the Five Piano Pieces, op. 23. A sketch of this Waltz is dated Jul 26, 1921.",
   "id": "A105021",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 12,
     "source": "oeis-entry"

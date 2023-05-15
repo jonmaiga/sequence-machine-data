@@ -2,14 +2,12 @@
   "description": "Numbers n such that there is some field with u-invariant n.",
   "id": "A263800",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "E.g.f. = exp(-x*(x+4)/2)/(1-x)^3.",
   "id": "A194019",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 21:51:33",
     "offset": 0,
     "size": 24,
     "source": "joeis"

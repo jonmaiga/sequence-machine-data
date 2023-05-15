@@ -2,12 +2,10 @@
   "description": "Twin prime pairs p, p+2 such that p+(p+2)+1 and p*(p+2)+1 are both square.",
   "id": "A166564",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:49",
     "offset": 1,
     "size": 40,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "Primes p such that p = 3*a + 1 with p + a*a*(a+1) prime or p = 3*a + 2 with p + a*(a+1)*(a+1) prime.",
   "id": "A356003",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:30",
     "offset": 1,
     "size": 57,
     "source": "oeis-bfile"

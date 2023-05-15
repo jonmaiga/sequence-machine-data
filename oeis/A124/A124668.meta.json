@@ -2,7 +2,6 @@
   "description": "Numbers that together with their prime factors contain every digit exactly once.",
   "id": "A124668",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

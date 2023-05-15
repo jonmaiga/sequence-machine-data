@@ -2,13 +2,11 @@
   "description": "Molien series for 3-dimensional group [2+,n] = 2*(n/2).",
   "id": "A008739",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 12:49:01",
     "offset": 0,
     "size": 57,
     "source": "joeis"

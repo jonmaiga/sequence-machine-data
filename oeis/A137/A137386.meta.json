@@ -2,13 +2,11 @@
   "description": "Numbers that when mirrored vertically are still valid characters. Only applies when numbers are scribed in Arabic numerals.",
   "id": "A137386",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:25",
     "offset": 1,
     "size": 60,
     "source": "oeis-bfile"

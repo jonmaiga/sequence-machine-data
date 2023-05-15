@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of nXk 0..3 arrays x(i,j) with each element horizontally, vertically or antidiagonally next to at least one element with value (x(i,j)+1) mod 4, and upper left element zero",
   "id": "A230840",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:48",
     "offset": 1,
     "size": 42,
     "source": "oeis-bfile"

@@ -1,15 +1,13 @@
 {
-  "description": "Number of n X 6 arrays with each row a permutation of 1..6 having at least as many downsteps as the preceding row, with rows in lexicographically nonincreasing order",
+  "description": "Number of n X 6 arrays with each row a permutation of 1..6 having at least as many downsteps as the preceding row, with rows in lexicographically nonincreasing order.",
   "id": "A222004",
   "mentions": [
     "A222005"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:39",
     "offset": 1,
     "size": 13,
     "source": "oeis-bfile"

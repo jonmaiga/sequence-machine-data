@@ -10,14 +10,12 @@
     "A273840",
     "A273841"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 2,
     "size": 102,
     "source": "oeis-entry"

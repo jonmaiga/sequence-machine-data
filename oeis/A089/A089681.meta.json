@@ -2,13 +2,11 @@
   "description": "Numbers n such that 3n^2 - 1 is prime.",
   "id": "A089681",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 13:04:33",
     "offset": 1,
     "size": 60,
     "source": "joeis"

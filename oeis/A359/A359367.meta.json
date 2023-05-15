@@ -2,14 +2,12 @@
   "description": "a(n) = number of regular polytopes of rank m-n with group S_m, up to isomorphism and duality (this is independent of m if m >= 2n+3).",
   "id": "A359367",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

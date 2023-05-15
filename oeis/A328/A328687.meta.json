@@ -2,13 +2,11 @@
   "description": "a(n) is the number of decimals in sqrt(n) needed for all digits 0-9 to occur or -1 if n is a perfect square.",
   "id": "A328687",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 65,
     "source": "oeis-entry"

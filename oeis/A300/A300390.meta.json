@@ -10,7 +10,6 @@
     "A300389",
     "A300391"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "easy",
     "formulas",
@@ -18,7 +17,6 @@
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 0,
     "size": 17,
     "source": "oeis-entry"

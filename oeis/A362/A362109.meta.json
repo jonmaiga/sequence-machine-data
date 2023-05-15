@@ -1,0 +1,14 @@
+{
+  "description": "Arises from the enumeration of cycle-alternating permutations.",
+  "id": "A362109",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

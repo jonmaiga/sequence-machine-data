@@ -2,13 +2,11 @@
   "description": "Number of Type IV-II self-dual codes over F_2 + u*F_2 of length 4n.",
   "id": "A111266",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

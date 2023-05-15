@@ -2,13 +2,11 @@
   "description": "Array T(n,k) = beta(2*n, -k), where beta(i,j) are the polycotangent numbers, for n,k >= 0, read by ascending antidiagonals.",
   "id": "A353953",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 0,
     "size": 55,
     "source": "oeis-entry"

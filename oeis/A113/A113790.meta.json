@@ -2,13 +2,11 @@
   "description": "In each block of 5 consecutive natural numbers, swap first and 2nd and swap 4th and 5th.",
   "id": "A113790",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 72,
     "source": "oeis-entry"

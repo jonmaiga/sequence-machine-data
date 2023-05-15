@@ -2,13 +2,11 @@
   "description": "Numbers k such that prime(k) - pi(k) is a prime.",
   "id": "A065046",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:17",
     "offset": 1,
     "size": 58,
     "source": "oeis-bfile"

@@ -66,14 +66,12 @@
     "A218991",
     "A218992"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:32",
     "offset": 0,
     "size": 19,
     "source": "oeis-bfile"

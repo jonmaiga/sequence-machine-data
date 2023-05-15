@@ -2,13 +2,11 @@
   "description": "Natural numbers n for which the following three properties hold: (i) Phi[Sigma[n]]=2*phi(n), (ii) Sigma[n-2]=2*Sigma[Phi[n-2]], (iii) Sigma[n+2]=2*Sigma[Phi[n+2]].",
   "id": "A057564",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 24,
     "source": "oeis-entry"

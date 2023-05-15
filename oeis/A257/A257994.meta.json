@@ -18,12 +18,10 @@
     "A330945",
     "A331386"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:16",
     "offset": 1,
     "size": 90,
     "source": "oeis-bfile"

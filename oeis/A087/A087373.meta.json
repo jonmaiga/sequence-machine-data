@@ -2,13 +2,11 @@
   "description": "Twin-prime-indexed primes (TWIPS): members of a pair of twin primes whose prime index is also a member of a pair of twin primes.",
   "id": "A087373",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:38",
     "offset": 1,
     "size": 42,
     "source": "oeis-bfile"

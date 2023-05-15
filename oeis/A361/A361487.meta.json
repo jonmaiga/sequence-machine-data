@@ -1,0 +1,24 @@
+{
+  "description": "Odd numbers k that are neither prime powers nor squarefree, such that k/rad(k) >= q, where rad(k) = A007947(k) and prime q = A119288(k).",
+  "id": "A361487",
+  "mentions": [
+    "A005408",
+    "A007947",
+    "A013929",
+    "A024619",
+    "A119288",
+    "A126706",
+    "A355432",
+    "A360768",
+    "A360769"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

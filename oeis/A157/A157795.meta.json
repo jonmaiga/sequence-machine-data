@@ -2,14 +2,12 @@
   "description": "Largest subset of the discrete triangular grid { (a,b,c): a+b+c = n, a,b,c >= 0 } that does not contain any upward-pointing triangles (i.e., triples (a+r,b,c), (a,b+r,c), (a,b,c+r) with r positive).",
   "id": "A157795",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 13,
     "source": "oeis-entry"

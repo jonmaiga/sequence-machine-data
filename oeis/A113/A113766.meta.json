@@ -2,13 +2,11 @@
   "description": "a(n) is the product of those primes which divide some iterate of the Euler totient function but do not divide n itself.",
   "id": "A113766",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:04",
     "offset": 1,
     "size": 89,
     "source": "oeis-bfile"

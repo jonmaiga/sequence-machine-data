@@ -2,13 +2,11 @@
   "description": "Number of steps required for a certain algorithm for producing all permutations of n letters.",
   "id": "A135848",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 2,
     "size": 11,
     "source": "oeis-entry"

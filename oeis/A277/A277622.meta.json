@@ -2,14 +2,12 @@
   "description": "Integers such that the first part \"a\", divided by the penultimate digit \"b\", leaves the last digit \"c\" as remainder (see the Example section for a detailed explanation).",
   "id": "A277622",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:43",
     "offset": 1,
     "size": 64,
     "source": "oeis-bfile"

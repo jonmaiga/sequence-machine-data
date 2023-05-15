@@ -5,13 +5,11 @@
     "A273163",
     "A276664"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:42",
     "offset": 1,
     "size": 60,
     "source": "oeis-bfile"

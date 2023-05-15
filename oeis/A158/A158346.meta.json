@@ -2,13 +2,11 @@
   "description": "Number of n-colorings of the Deltoidal Icositetrahedral Graph.",
   "id": "A158346",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:40",
     "offset": 0,
     "size": 14,
     "source": "oeis-bfile"

@@ -11,14 +11,12 @@
     "A340197",
     "A340367"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "formulas",
     "look",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:12",
     "offset": 1,
     "size": 74,
     "source": "oeis-bfile"

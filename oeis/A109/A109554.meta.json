@@ -2,12 +2,10 @@
   "description": "pi(n)[prime(n+1)-prime(n)], where pi(n) is the number of prime numbers less than or equal to n and prime(k) is the k-th prime.",
   "id": "A109554",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 69,
     "source": "oeis-entry"

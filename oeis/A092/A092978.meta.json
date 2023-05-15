@@ -2,13 +2,11 @@
   "description": "(Product of first n even numbers)/(product of first k odd numbers) where k is chosen to give the least integer.",
   "id": "A092978",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 21,
     "source": "oeis-entry"

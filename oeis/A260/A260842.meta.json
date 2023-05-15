@@ -2,12 +2,10 @@
   "description": "Sum of lcm(gcd(i,j), gcd(k,l)) for i,j,k,l in range [1..n].",
   "id": "A260842",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:19",
     "offset": 1,
     "size": 35,
     "source": "oeis-bfile"

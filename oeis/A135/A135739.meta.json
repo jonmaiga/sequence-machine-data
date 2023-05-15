@@ -2,14 +2,12 @@
   "description": "Numbers n such that n+reverse(n) has only odd decimal digits (n not a multiple of 10).",
   "id": "A135739",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:24",
     "offset": 1,
     "size": 56,
     "source": "oeis-bfile"

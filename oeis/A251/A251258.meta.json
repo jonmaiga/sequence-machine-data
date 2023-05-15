@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of (n+1)X(k+1) 0..1 arrays with every 2X2 subblock having a single 1 or two 1s on the same edge",
   "id": "A251258",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:08",
     "offset": 1,
     "size": 45,
     "source": "oeis-bfile"

@@ -12,14 +12,13 @@
     "A171071",
     "A214969"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:02",
     "offset": 1,
     "size": 51,
     "source": "oeis-bfile"

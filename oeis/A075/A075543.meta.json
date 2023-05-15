@@ -2,13 +2,11 @@
   "description": "a[n] = a[n-1] + digit sum(n) - 1.",
   "id": "A075543",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 56,
     "source": "oeis-entry"

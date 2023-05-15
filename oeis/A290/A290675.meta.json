@@ -2,16 +2,16 @@
   "description": "For a given n, the nonzero digits of n are the prime indices for the factorization of n.",
   "id": "A290675",
   "mentions": [
-    "A097227"
+    "A097227",
+    "A113581"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "base",
+    "changed",
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

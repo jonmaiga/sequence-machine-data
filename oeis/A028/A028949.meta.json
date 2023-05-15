@@ -2,14 +2,12 @@
   "description": "Write numbers from 1 to n(n+1)/2 in a left-justified lower triangular array (a) downwards and (b) across; a(n) is number of numbers in same position in both.",
   "id": "A028949",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-11-11 15:41:38",
     "offset": 1,
     "size": 99,
     "source": "joeis"

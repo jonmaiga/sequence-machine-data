@@ -2,13 +2,11 @@
   "description": "Sprague-Grundy values for graphical nim played on the caterpillar C_{n,1}.",
   "id": "A192514",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 106,
     "source": "oeis-entry"

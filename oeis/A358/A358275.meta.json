@@ -1,0 +1,17 @@
+{
+  "description": "Least prime factor of A098129(n).",
+  "id": "A358275",
+  "mentions": [
+    "A020639",
+    "A098129"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

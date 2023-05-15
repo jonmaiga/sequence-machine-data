@@ -2,13 +2,11 @@
   "description": "Primes of the form abcabc..abcab.",
   "id": "A228627",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:45",
     "offset": 1,
     "size": 37,
     "source": "oeis-bfile"

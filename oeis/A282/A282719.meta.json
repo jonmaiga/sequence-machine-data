@@ -2,14 +2,12 @@
   "description": "Numbers of admissible subwords associated with the tribonacci numeration system.",
   "id": "A282719",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "more",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 0,
     "size": 50,
     "source": "oeis-entry"

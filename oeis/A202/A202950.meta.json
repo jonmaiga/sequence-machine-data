@@ -2,14 +2,12 @@
   "description": "a(n) = Sum_{k=0..n} (2*n-k)!*2^(k-n)/k!.",
   "id": "A202950",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:23",
     "offset": 0,
     "size": 19,
     "source": "oeis-bfile"

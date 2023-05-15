@@ -2,13 +2,11 @@
   "description": "Coefficients of mock modular form H_1^(13) of type 1A, divided by 2.",
   "id": "A256211",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "more",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 0,
     "size": 38,
     "source": "oeis-entry"

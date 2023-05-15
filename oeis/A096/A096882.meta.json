@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1+7x)/(1-50x^2).",
+  "description": "Expansion of g.f. (1 + 7*x)/(1 - 50*x^2).",
   "id": "A096882",
   "mentions": [
     "A004663",
@@ -7,16 +7,14 @@
     "A026383",
     "A096881"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 02:45:58",
     "offset": 0,
-    "size": 20,
+    "size": 23,
     "source": "joeis"
   }
 }

@@ -2,13 +2,11 @@
   "description": "Number of double cosets of the Sylow 2-subgroup of the symmetric group S_n.",
   "id": "A360808",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 26,
     "source": "oeis-entry"

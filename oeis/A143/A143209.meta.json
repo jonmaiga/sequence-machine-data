@@ -2,14 +2,12 @@
   "description": "A \"completed\" set of cyclotomic polynomial with coefficients that are a triangular sequence: ( filled out with powers of (x+1)^m) p(x,n)=If[PrimeQ[n], Cyclotomic[n, x]*(x + 1), Cyclotomic[n, x]*(x + 1)^(n + 1 - Length[CoefficientList[Cyclotomic[n, x], x]])];.",
   "id": "A143209",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

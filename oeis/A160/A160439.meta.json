@@ -2,14 +2,12 @@
   "description": "Decimal expansion of a constant that appears in flux/diffusion problems with trapping surfaces.",
   "id": "A160439",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 80,
     "source": "oeis-entry"

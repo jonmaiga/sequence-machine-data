@@ -1,0 +1,22 @@
+{
+  "description": "Square array T(n,k), n >= 0, k >= 0, read by antidiagonals downwards, where T(n,k) = [x^n] 1/(1 - x*(1+x)^k)^n.",
+  "id": "A362078",
+  "mentions": [
+    "A088218",
+    "A213684",
+    "A362079",
+    "A362080",
+    "A362087",
+    "A362088"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

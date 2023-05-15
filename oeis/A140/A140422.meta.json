@@ -2,12 +2,10 @@
   "description": "Half the number of n X n symmetric binary matrices with every 1 adjacent to some 0 horizontally or vertically and every 0 adjacent to some 1 horizontally or vertically.",
   "id": "A140422",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 2,
     "size": 13,
     "source": "oeis-entry"

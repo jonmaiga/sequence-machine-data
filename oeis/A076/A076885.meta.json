@@ -2,13 +2,11 @@
   "description": "Let u(0)=1, u(1)=1 u(n) = u(n-1) + u(n-2) - n*z where z = (5-sqrt(5))/10 =0.27..., then a(n)=floor(u(n)).",
   "id": "A076885",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 80,
     "source": "oeis-entry"

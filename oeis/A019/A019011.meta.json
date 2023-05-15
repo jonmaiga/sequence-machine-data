@@ -2,13 +2,11 @@
   "description": "Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite EAB = TMA-E (Aiello and Barrer)(1) (Me4N)2Na7[ Al9Si27O7.",
   "id": "A019011",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 2,
     "size": 15,
     "source": "oeis-entry"

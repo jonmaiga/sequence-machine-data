@@ -89,9 +89,7 @@
     "A359042",
     "A359043"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "look",
@@ -100,7 +98,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2022-04-28 12:36:11",
     "offset": 1,
     "size": 67,
     "source": "joeis"

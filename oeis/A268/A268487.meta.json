@@ -2,13 +2,11 @@
   "description": "Numbers of equal electric charges for which the minimum-potential dislocation on a sphere has nonzero sum of position vectors.",
   "id": "A268487",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:30",
     "offset": 1,
     "size": 55,
     "source": "oeis-bfile"

@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonisomorphic sets of permutations of an n-set.",
+  "id": "A362766",
+  "mentions": [
+    "A050923",
+    "A362763"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

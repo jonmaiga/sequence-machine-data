@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of length n 0..k arrays with each partial sum starting from the beginning no more than one standard deviation from its mean.",
   "id": "A244788",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:01",
     "offset": 1,
     "size": 62,
     "source": "oeis-bfile"

@@ -6,7 +6,6 @@
     "A179940",
     "A179941"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "fini",
     "formulas",
@@ -14,7 +13,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:03",
     "offset": 1,
     "size": 100,
     "source": "oeis-bfile"

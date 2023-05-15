@@ -2,7 +2,6 @@
   "description": "Divisors of 2^27 - 1.",
   "id": "A003535",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "easy",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

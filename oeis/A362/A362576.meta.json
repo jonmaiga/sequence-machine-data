@@ -1,0 +1,18 @@
+{
+  "description": "Number of vertex cuts in the n X n rook complement graph.",
+  "id": "A362576",
+  "mentions": [
+    "A291593",
+    "A362575"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

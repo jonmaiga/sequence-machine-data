@@ -2,7 +2,6 @@
   "description": "Decimal expansion of Integral_{0..infinity} exp(-x^2)*cosh(sqrt(1+x^2)) dx.",
   "id": "A256273",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:14",
     "offset": 1,
     "size": 105,
     "source": "oeis-bfile"

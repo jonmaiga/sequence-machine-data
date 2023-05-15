@@ -2,12 +2,10 @@
   "description": "Multinomial coefficients(TOP, BOTTOM), where TOP = n(n+1)(2n+1)/6, BOTTOM = ( 1^2 2^2 ... n^2 ).",
   "id": "A022918",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:32",
     "offset": 1,
     "size": 6,
     "source": "oeis-bfile"

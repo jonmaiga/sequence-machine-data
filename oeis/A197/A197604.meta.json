@@ -1,19 +1,17 @@
 {
-  "description": "Floor((n+1/n)^5).",
+  "description": "a(n) = floor((n+1/n)^5).",
   "id": "A197604",
   "mentions": [
     "A014052",
     "A033330",
     "A197904"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:19",
     "offset": 1,
     "size": 38,
     "source": "oeis-bfile"

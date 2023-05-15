@@ -2,13 +2,11 @@
   "description": "Number of length-n sequences A over {1,2,3} with the property that all of r(A), r(r(A)), etc. are over {1,2,3}, where r is the sequence obtained by taking the run lengths in A.",
   "id": "A181047",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 17,
     "source": "oeis-entry"

@@ -13,7 +13,6 @@
     "A255323",
     "A255344"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "cons",
     "formulas",
@@ -21,7 +20,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:26",
     "offset": 1,
     "size": 111,
     "source": "oeis-bfile"

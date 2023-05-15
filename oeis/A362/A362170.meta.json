@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = the hypergraph Catalan number C_5(n).",
+  "id": "A362170",
+  "mentions": [
+    "A000055",
+    "A000108",
+    "A362167",
+    "A362168",
+    "A362169",
+    "A362171",
+    "A362172"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

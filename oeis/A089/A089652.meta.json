@@ -2,14 +2,12 @@
   "description": "Partial sums, modulo 4, of the sequence: a(1)=1, a(1), a(1), a(1), a(1), a(2), a(2), a(2), a(2), a(3), a(3), a(3), a(3), a(4), ... each term (not a(1)) repeated 4 times.",
   "id": "A089652",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

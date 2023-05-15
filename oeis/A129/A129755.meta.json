@@ -2,12 +2,10 @@
   "description": "Triangular numbers t such that t+10 is a prime.",
   "id": "A129755",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 43,
     "source": "oeis-entry"

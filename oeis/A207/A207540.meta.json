@@ -2,13 +2,11 @@
   "description": "Degrees (with multiplicity) of simple surface singularities (ADE singularities, Du Val singularities, double rational points, Gorenstein quotient singularities, Klein singularities).",
   "id": "A207540",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 38,
     "source": "oeis-entry"

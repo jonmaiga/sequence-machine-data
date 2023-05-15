@@ -2,12 +2,10 @@
   "description": "exp(tan(x)+log(x+1))=1+2*x+3/2!*x^2+6/3!*x^3+21/4!*x^4+82/5!*x^5...",
   "id": "A012924",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:19",
     "offset": 0,
     "size": 21,
     "source": "oeis-bfile"

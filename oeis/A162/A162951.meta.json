@@ -2,14 +2,12 @@
   "description": "a(1)=0. a(n) is the smallest integer > a(n-1) such that both a(n) and a(n)-a(n-1) have the same number of 1's when written in binary as n has when it is written in binary.",
   "id": "A162951",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

@@ -1,0 +1,21 @@
+{
+  "description": "Number of prime divisors of A007942(n) = decimal concatenation of sequence (n, n-1, ..., 2, 1, 2, ..., n-1, n) counted with multiplicity.",
+  "id": "A360736",
+  "mentions": [
+    "A001222",
+    "A007942",
+    "A110760",
+    "A361624"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

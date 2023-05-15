@@ -2,14 +2,12 @@
   "description": "Euro coinage (in cents) from smallest physical size to largest.",
   "id": "A070730",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 8,
     "source": "oeis-entry"

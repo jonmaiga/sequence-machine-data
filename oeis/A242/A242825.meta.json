@@ -2,12 +2,10 @@
   "description": "Minimum positive value of n^3 - x^3 - y^3 for positive integers x,y",
   "id": "A242825",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:59",
     "offset": 2,
     "size": 72,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Start T with a(1)=1 and a(2)=2. We try to set a(n) to be the sum s of the last two decimal digits of T, except that if s is already in the sequence, we replace s with the smallest unused integer that ends with the same digit as s.",
   "id": "A238948",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 107,
     "source": "oeis-entry"

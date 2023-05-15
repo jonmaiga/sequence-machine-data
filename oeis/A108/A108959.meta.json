@@ -3,9 +3,9 @@
   "id": "A108959",
   "mentions": [
     "A000366",
-    "A097418"
+    "A097418",
+    "A128813"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "easy",
     "formulas",
@@ -13,9 +13,8 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:47",
     "offset": 0,
-    "size": 38,
+    "size": 55,
     "source": "oeis-entry"
   }
 }

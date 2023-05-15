@@ -11,16 +11,15 @@
     "A357673",
     "A357674"
   ],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 0,
     "size": 18,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

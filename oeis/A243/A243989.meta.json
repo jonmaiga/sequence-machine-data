@@ -2,13 +2,11 @@
   "description": "Rounded down ratio of a lune area and a unit circle one, the lune is bounded by two unit circles whose centers are separated by a distance 1/n.",
   "id": "A243989",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

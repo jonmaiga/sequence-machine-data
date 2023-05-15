@@ -2,12 +2,10 @@
   "description": "Number of permutations of n copies of 1..7 with all adjacent differences <= 3 in absolute value.",
   "id": "A177328",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 7,
     "source": "oeis-entry"

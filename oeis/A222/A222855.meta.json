@@ -1,15 +1,13 @@
 {
-  "description": "Number of nX1 0..1 arrays with every row and column least squares fitting to a nonnegative slope straight line, with a single point array taken as having zero slope",
+  "description": "Number of n X 1 0..1 arrays with every row and column least squares fitting to a nonnegative slope straight line, with a single point array taken as having zero slope.",
   "id": "A222855",
   "mentions": [
     "A222862"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:40",
     "offset": 1,
     "size": 33,
     "source": "oeis-bfile"

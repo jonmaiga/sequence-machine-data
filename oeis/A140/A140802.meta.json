@@ -2,14 +2,12 @@
   "description": "a(n) = binomial(n+3, 3)*8^n.",
   "id": "A140802",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:29",
     "offset": 0,
     "size": 19,
     "source": "oeis-bfile"

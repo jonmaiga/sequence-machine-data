@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{k=0..n-1} Gamma(n + k) / Gamma(n - k) for n > 0, a(0) = 1. Row sums of A362787.",
+  "id": "A362846",
+  "mentions": [
+    "A362787"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

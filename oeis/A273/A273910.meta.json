@@ -2,13 +2,11 @@
   "description": "Binary representation of the x-axis, from the origin to the right edge, of the n-th stage of growth of the two-dimensional cellular automaton defined by \"Rule 614\", based on the 5-celled von Neumann neighborhood.",
   "id": "A273910",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:38",
     "offset": 0,
     "size": 20,
     "source": "oeis-bfile"

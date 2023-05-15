@@ -2,14 +2,12 @@
   "description": "Minimum number of distinct sums from consecutive terms in a circular permutation.",
   "id": "A185173",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "more",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

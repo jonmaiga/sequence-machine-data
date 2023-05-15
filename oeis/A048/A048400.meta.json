@@ -11,14 +11,11 @@
     "A048404",
     "A048405"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
-    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:20",
     "offset": 1,
     "size": 27,
     "source": "joeis"

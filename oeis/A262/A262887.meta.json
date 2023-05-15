@@ -11,13 +11,11 @@
     "A262785",
     "A262813"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:22",
     "offset": 1,
     "size": 100,
     "source": "oeis-bfile"

@@ -1,17 +1,16 @@
 {
-  "description": "Numbers n with property that n^3 is a concatenation of exactly three primes: leading zeros allowed.",
+  "description": "Numbers whose cube is a concatenation of exactly three primes (leading zeros allowed).",
   "id": "A166533",
   "mentions": [
     "A038840",
     "A166534"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 56,
     "source": "oeis-entry"

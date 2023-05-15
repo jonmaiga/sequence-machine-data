@@ -1,5 +1,5 @@
 {
-  "description": "n*(4*n^2 + n -1)/2.",
+  "description": "a(n) = n*(4*n^2 + n - 1)/2.",
   "id": "A125200",
   "mentions": [
     "A003415",
@@ -7,14 +7,12 @@
     "A033568",
     "A125199"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 15:59:31",
     "offset": 1,
     "size": 39,
     "source": "joeis"

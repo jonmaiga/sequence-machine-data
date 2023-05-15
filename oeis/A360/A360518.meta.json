@@ -4,7 +4,6 @@
   "mentions": [
     "A276509"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "base",
     "easy",
@@ -12,9 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 22,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -20,13 +20,11 @@
     "A257957",
     "A257959"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 103,
     "source": "oeis-entry"

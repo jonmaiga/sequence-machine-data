@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest k such that A361338(k) = n.",
+  "id": "A361339",
+  "mentions": [
+    "A361337",
+    "A361338",
+    "A361349"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

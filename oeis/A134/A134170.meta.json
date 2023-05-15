@@ -2,13 +2,11 @@
   "description": "a(n) = the smallest positive integer which, expressed in the form d*q + r, satisfies q >= r for every d from 1 to n. In other words, when a(n) is divided by the numbers from 1 to n, the remainder is never more than the quotient.",
   "id": "A134170",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

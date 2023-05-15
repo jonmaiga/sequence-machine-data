@@ -2,13 +2,11 @@
   "description": "Number of snarks with circular flow number 5 on 2n vertices.",
   "id": "A305351",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"

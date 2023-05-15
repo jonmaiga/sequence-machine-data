@@ -2,7 +2,6 @@
   "description": "a(n) = sum of n-digit numbers with distinct nonzero digits.",
   "id": "A213880",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "base",
     "easy",
@@ -12,7 +11,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

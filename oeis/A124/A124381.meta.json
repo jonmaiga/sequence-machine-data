@@ -2,12 +2,10 @@
   "description": "O.g.f.: A(x) = Sum_{n>=0} x^n*Product_{k=0..n} (1 + k*(k+1)/2*x).",
   "id": "A124381",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 23,
     "source": "oeis-entry"

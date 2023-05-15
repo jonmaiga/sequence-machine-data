@@ -2,14 +2,12 @@
   "description": "Expansion of (4*x^4-5*x^3-x^2+3*x-1) / (2*x^5+3*x^4-4*x^3-3*x^2+4*x-1).",
   "id": "A239305",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 20:59:02",
     "offset": 0,
     "size": 31,
     "source": "joeis"

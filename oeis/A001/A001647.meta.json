@@ -2,7 +2,6 @@
   "description": "Number of indecomposable self-dual codes of length 2n over GF(4).",
   "id": "A001647",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "hard",
     "more",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

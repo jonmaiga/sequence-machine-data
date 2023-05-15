@@ -2,12 +2,10 @@
   "description": "a(1) = 2; for n > 1, a(n) is the least prime p > a(n-1) such that none of p-a(1), ..., p-a(n-1) is a square.",
   "id": "A275011",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:40",
     "offset": 1,
     "size": 52,
     "source": "oeis-bfile"

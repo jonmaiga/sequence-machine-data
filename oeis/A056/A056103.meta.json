@@ -2,12 +2,10 @@
   "description": "Numbers k such that k^6 == 1 (mod 7^5).",
   "id": "A056103",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 15:30:45",
     "offset": 1,
     "size": 34,
     "source": "joeis"

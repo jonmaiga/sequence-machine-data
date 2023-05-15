@@ -2,13 +2,11 @@
   "description": "a(n) = smallest integer not yet in the sequence with no digits shared with the previous term a(n-1), no repeated digits, and no 0-digit allowed.",
   "id": "A289791",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 69,
     "source": "oeis-entry"

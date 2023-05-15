@@ -2,7 +2,6 @@
   "description": "Jump Sum Recursion Triangle.",
   "id": "A244608",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "easy",
     "eigen",
@@ -11,7 +10,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:00",
     "offset": 1,
     "size": 42,
     "source": "oeis-bfile"

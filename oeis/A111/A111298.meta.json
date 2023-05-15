@@ -2,13 +2,11 @@
   "description": "Add the digits of the first number to give the second; the first number multiplied by the second gives the third. The third number becomes the first in a new \"set\" of three.",
   "id": "A111298",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 29,
     "source": "oeis-entry"

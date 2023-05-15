@@ -2,7 +2,6 @@
   "description": "Consider the complete graph of an n-cube. a(n) is the number of 2-color colorings of the edges such that they do not contain a monochromatic planar K4 subgraph.",
   "id": "A324018",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "bref",
     "hard",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 3,
     "source": "oeis-entry"

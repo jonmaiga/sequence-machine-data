@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the index of the first binary string which does not appear in the concatenation of the binary strings indexed by the preceding terms a(1..n-1).",
+  "id": "A362009",
+  "mentions": [
+    "A118247",
+    "A362240",
+    "A362241"
+  ],
+  "tags": [
+    "base",
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

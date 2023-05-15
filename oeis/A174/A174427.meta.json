@@ -2,13 +2,11 @@
   "description": "a(n) = floor(d(n)/18^(n-1)) where d(n) = 0, 1, -8, 352, -5120,.. and d(n) = -8*d(n-1) +288*d(n-2).",
   "id": "A174427",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 51,
     "source": "oeis-entry"

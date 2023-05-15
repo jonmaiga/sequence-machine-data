@@ -2,13 +2,11 @@
   "description": "tan(arcsinh(x)+arctan(x))=2*x+13/3!*x^3+305/5!*x^5+15055/7!*x^7...",
   "id": "A013106",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 18:13:26",
     "offset": 0,
     "size": 13,
     "source": "joeis"

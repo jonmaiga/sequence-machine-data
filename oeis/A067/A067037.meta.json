@@ -2,12 +2,10 @@
   "description": "a(n) = n^m where m = floor(Sum_{k=1..n} 1/k).",
   "id": "A067037",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:19",
     "offset": 1,
     "size": 38,
     "source": "oeis-bfile"

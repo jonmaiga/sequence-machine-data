@@ -2,16 +2,14 @@
   "description": "Determinant of the pentadiagonal symmetric nXn Toeplitz Matrix with a=3, b=c=1.",
   "id": "A360263",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 0,
     "size": 26,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

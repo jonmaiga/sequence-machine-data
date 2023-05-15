@@ -2,14 +2,12 @@
   "description": "Triangle read by rows: T(n,m) = number of 3-uniform T_0-hypergraphs with n distinct edges and m vertices(n>=3, 1<=m<=2*n+1).",
   "id": "A093854",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 3,
     "size": 40,
     "source": "oeis-entry"

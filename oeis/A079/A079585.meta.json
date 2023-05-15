@@ -1,19 +1,18 @@
 {
-  "description": "Decimal expansion of c = (7-sqrt(5))/2 = 2.3819660112501...",
+  "description": "Decimal expansion of c = (7-sqrt(5))/2.",
   "id": "A079585",
   "mentions": [
     "A001622",
     "A020837",
     "A058635"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:31",
     "offset": 1,
     "size": 105,
     "source": "oeis-bfile"

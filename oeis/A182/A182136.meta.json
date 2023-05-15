@@ -2,14 +2,12 @@
   "description": "Diameter of rotation graph G_n.",
   "id": "A182136",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 2,
     "size": 9,
     "source": "oeis-entry"

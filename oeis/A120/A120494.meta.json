@@ -2,14 +2,12 @@
   "description": "A vector group determinant sequence in which the next element is made by a sum of the older elements over a vector like 2 X 2 matrix group.",
   "id": "A120494",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 12,
     "source": "oeis-entry"

@@ -1,15 +1,14 @@
 {
-  "description": "a(n) = sum{p=primes,p|n} mu(b(p,n)), where mu(k) = A008683(k) (the Moebius function) and p^b(p,n) is the highest power of the prime p dividing n.",
+  "description": "a(n) = Sum_{p|n, p prime} mu(b(p,n)), where mu(k) = A008683(k) (the Moebius function) and p^b(p,n) is the highest power of the prime p dividing n.",
   "id": "A112400",
   "mentions": [
     "A008683"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
+    "changed",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:03",
     "offset": 1,
     "size": 122,
     "source": "oeis-bfile"

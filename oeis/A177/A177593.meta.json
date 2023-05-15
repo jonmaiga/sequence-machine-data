@@ -2,12 +2,10 @@
   "description": "Number of permutations of 2 copies of 1..n avoiding adjacent step pattern up, up, up, down, down, down",
   "id": "A177593",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

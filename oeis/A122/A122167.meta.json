@@ -2,13 +2,11 @@
   "description": "Expansion of x*(-1+5*x-6*x^2+x^3) / ( (2*x-1)*(x^3-3*x^2+1) )",
   "id": "A122167",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-02 20:12:47",
     "offset": 1,
     "size": 35,
     "source": "joeis"

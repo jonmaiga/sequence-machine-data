@@ -3,21 +3,21 @@
   "id": "A100044",
   "mentions": [
     "A000120",
+    "A007310",
     "A019670",
     "A086463",
     "A091999",
     "A104777",
     "A120325"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
+    "changed",
     "cons",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-07 16:00:26",
     "offset": 1,
     "size": 102,
     "source": "joeis"

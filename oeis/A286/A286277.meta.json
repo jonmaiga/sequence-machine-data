@@ -2,12 +2,10 @@
   "description": "Number of proper non-orientable regular hypermaps on a surface of genus n, up to isomorphism and triality.",
   "id": "A286277",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:58",
     "offset": 2,
     "size": 85,
     "source": "oeis-bfile"

@@ -8,16 +8,15 @@
     "A093695",
     "A284593",
     "A322200",
-    "A322211"
+    "A322211",
+    "A361286"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:45",
     "offset": 0,
     "size": 78,
     "source": "oeis-bfile"

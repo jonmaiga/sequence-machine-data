@@ -2,13 +2,11 @@
   "description": "The number of nonequivalent root ancestral configurations in a recursively defined family of gene trees and species trees with at least n = 9 leaves, in which for n >= 12 leaves, 3-leaf trees are successively added at the root of the tree with n-3 leaves.",
   "id": "A355118",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 9,
     "size": 38,
     "source": "oeis-entry"

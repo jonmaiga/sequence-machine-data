@@ -2,13 +2,11 @@
   "description": "a(1)=1. a(n)=a(n-1)+k(n). If a(n-1) is nonprime, k(n) is the smallest composite not in the set {k(i),i",
   "id": "A073895",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 53,
     "source": "oeis-entry"

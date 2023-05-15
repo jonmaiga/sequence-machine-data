@@ -2,13 +2,11 @@
   "description": "Number of endofunctions on a set, where the multiset of indegrees forms the n-th partition in Mathematica order (ignoring 0's).",
   "id": "A127121",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 82,
     "source": "oeis-entry"

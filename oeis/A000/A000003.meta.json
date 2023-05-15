@@ -5,14 +5,12 @@
     "A006643",
     "A014599"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "easy",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:02",
     "offset": 1,
     "size": 100,
     "source": "oeis-bfile"

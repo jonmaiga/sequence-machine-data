@@ -2,14 +2,12 @@
   "description": "Log base 3 (n) mod 17.",
   "id": "A036163",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Triangle t(n,m) read by rows which contains in row n integer values of n! *binomial(n+m+1),m+1) /binomial(n-m-1,m+1) sorted along increasing m.",
   "id": "A176993",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "sign",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 36,
     "source": "oeis-entry"

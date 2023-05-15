@@ -2,14 +2,12 @@
   "description": "Least palindromic multiple of concatenation n,n-1,...,3,2,1,2,3,...,n-1,n, or zero if no such multiple exists. a(n) is not equal to n.",
   "id": "A109931",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

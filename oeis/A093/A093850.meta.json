@@ -9,7 +9,6 @@
     "A093847",
     "A093852"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
@@ -17,7 +16,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:44",
     "offset": 1,
     "size": 36,
     "source": "oeis-bfile"

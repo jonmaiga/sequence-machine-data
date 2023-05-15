@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of (n+1)X(k+1) 0..2 arrays with every 2X2 subblock summing to a prime",
   "id": "A251410",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:09",
     "offset": 1,
     "size": 30,
     "source": "oeis-bfile"

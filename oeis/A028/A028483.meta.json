@@ -2,13 +2,11 @@
   "description": "Number of perfect matchings in graph C_{12} X P_{n}.",
   "id": "A028483",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:37",
     "offset": 0,
     "size": 17,
     "source": "oeis-bfile"

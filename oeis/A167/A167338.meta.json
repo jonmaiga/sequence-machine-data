@@ -3,16 +3,16 @@
   "id": "A167338",
   "mentions": [
     "A003959",
-    "A065489"
+    "A065488",
+    "A065489",
+    "A133205"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "mult",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:43:23",
     "offset": 1,
     "size": 48,
     "source": "joeis"

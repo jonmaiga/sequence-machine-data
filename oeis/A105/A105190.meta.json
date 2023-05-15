@@ -2,13 +2,11 @@
   "description": "Number of distinct prime divisors of n100000000001.",
   "id": "A105190",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 41,
     "source": "oeis-entry"

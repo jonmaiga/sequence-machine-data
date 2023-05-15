@@ -2,13 +2,11 @@
   "description": "Decimal expansion of 81*sqrt(3)/(8*Pi^3).",
   "id": "A127205",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:39",
     "offset": 0,
     "size": 105,
     "source": "joeis"

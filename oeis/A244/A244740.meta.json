@@ -9,14 +9,12 @@
     "A244799",
     "A244800"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "easy",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:00",
     "offset": 1,
     "size": 86,
     "source": "oeis-bfile"

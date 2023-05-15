@@ -2,13 +2,11 @@
   "description": "Rearrangement of the odd positive integers such that right concatenation of first 2m terms is prime, while a(2k+1) = 10k+5.",
   "id": "A073677",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

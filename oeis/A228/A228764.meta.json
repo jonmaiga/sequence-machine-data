@@ -2,13 +2,11 @@
   "description": "Decimal expansion of the arc length of Sylvester's Bicorn curve.",
   "id": "A228764",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 100,
     "source": "oeis-entry"

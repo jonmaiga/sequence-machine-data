@@ -2,13 +2,11 @@
   "description": "Greatest k such that (k-th prime) < (10 times n-th prime).",
   "id": "A020940",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:11:09",
     "offset": 1,
     "size": 55,
     "source": "joeis"

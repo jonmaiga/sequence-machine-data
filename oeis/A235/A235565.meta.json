@@ -2,14 +2,12 @@
   "description": "T(n,k) = Number of (n+1) X (k+1) 0..2 arrays with the difference of the upper and lower median value of each 2 X 2 subblock in lexicographically nondecreasing order rowwise and columnwise.",
   "id": "A235565",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:53",
     "offset": 1,
     "size": 27,
     "source": "oeis-bfile"

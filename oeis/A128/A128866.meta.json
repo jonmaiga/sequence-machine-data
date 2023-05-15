@@ -2,14 +2,12 @@
   "description": "Number of n-tuples where each entry is chosen from the subsets of {1,2,3,4,5} such that the intersection of all n entries contains exactly one element.",
   "id": "A128866",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 09:44:58",
     "offset": 1,
     "size": 15,
     "source": "joeis"

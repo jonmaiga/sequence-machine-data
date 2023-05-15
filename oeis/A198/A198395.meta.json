@@ -5,13 +5,11 @@
     "A171984",
     "A198272"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:19",
     "offset": 0,
     "size": 54,
     "source": "oeis-bfile"

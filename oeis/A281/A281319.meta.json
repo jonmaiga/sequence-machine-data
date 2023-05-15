@@ -1,16 +1,14 @@
 {
-  "description": "Number of left Bol loops (including Moufang loops) of order n which are not groups",
+  "description": "Number of left Bol loops (including Moufang loops) of order n which are not groups.",
   "id": "A281319",
   "mentions": [
     "A090750"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 23,
     "source": "oeis-entry"

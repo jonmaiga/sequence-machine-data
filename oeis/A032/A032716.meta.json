@@ -2,13 +2,11 @@
   "description": "Numbers k such that k prefixed by '8' and followed by '3' is prime.",
   "id": "A032716",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:04:43",
     "offset": 1,
     "size": 59,
     "source": "joeis"

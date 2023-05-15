@@ -2,14 +2,12 @@
   "description": "Determinants of 2 X 2 matrices of non-overlapping blocks of 4 consecutive primes.",
   "id": "A117027",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 51,
     "source": "oeis-entry"

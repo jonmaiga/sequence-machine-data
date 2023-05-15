@@ -1,0 +1,23 @@
+{
+  "description": "Square array T(n,k), n >= 0, k >= 0, read by antidiagonals downwards, where T(n,k) = n! * Sum_{j=0..n} binomial(n+(k-1)*(j+1),n-j)/j!.",
+  "id": "A361616",
+  "mentions": [
+    "A000012",
+    "A002720",
+    "A293985",
+    "A343884",
+    "A351767",
+    "A361600",
+    "A361617"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = floor of sinh(sinh(sinh(...(1)...))) with n iterations.",
+  "id": "A361669",
+  "mentions": [
+    "A000471",
+    "A073742"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

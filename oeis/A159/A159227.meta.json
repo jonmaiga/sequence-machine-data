@@ -2,13 +2,11 @@
   "description": "1/4 the number of n X n arrays of squares of integers with every 2X2 subblock summing to 27",
   "id": "A159227",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 2,
     "size": 26,
     "source": "oeis-entry"

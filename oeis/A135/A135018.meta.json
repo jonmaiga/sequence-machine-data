@@ -2,13 +2,11 @@
   "description": "Triangle read by rows: row 1 = {1}, row 2 = {1,2}. Row n consists of the smallest n distinct positive integers such that no term in row (n-1) is the average of a term in row (n-2) and a term in row n.",
   "id": "A135018",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:23",
     "offset": 1,
     "size": 78,
     "source": "oeis-bfile"

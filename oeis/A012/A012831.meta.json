@@ -2,12 +2,10 @@
   "description": "cosh(sec(x)*arcsinh(x))=1+1/2!*x^2+9/4!*x^4+225/6!*x^6+6993/8!*x^8...",
   "id": "A012831",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-02 20:35:09",
     "offset": 0,
     "size": 14,
     "source": "joeis"

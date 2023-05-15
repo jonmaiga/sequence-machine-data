@@ -2,13 +2,11 @@
   "description": "Expansion of e.g.f.: sec(log(x+1)*log(x+1)) = 1 + (12/4!)*x^4 - (120/5!)*x^5 + (1020/6!)*x^6 ...",
   "id": "A012273",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:19",
     "offset": 0,
     "size": 19,
     "source": "oeis-bfile"

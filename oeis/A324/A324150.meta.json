@@ -2,13 +2,11 @@
   "description": "Triangle read by rows: T(n,k) = number of distinct sets of binary vectors of length k that can be obtained by taking the factors of a word of length n, for 1 <= k <= n.",
   "id": "A324150",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

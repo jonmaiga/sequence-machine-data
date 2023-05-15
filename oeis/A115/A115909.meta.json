@@ -2,17 +2,17 @@
   "description": "Numbers k such that sigma(k)*k is a triangular number.",
   "id": "A115909",
   "mentions": [
+    "A000217",
+    "A064987",
     "A115904",
     "A115910"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 41,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

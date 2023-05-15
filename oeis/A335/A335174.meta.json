@@ -2,13 +2,11 @@
   "description": "Herscovici's array for S_d lexicodes, read by antidiagonals.",
   "id": "A335174",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 91,
     "source": "oeis-entry"

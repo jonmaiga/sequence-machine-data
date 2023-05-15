@@ -2,16 +2,17 @@
   "description": "Numbers whose square is the product of two distinct tetrahedral numbers A000292.",
   "id": "A152005",
   "mentions": [
-    "A000292"
+    "A000292",
+    "A046176",
+    "A175497",
+    "A361491"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 23,
     "source": "oeis-entry"

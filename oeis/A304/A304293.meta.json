@@ -2,14 +2,12 @@
   "description": "Number of points of a Koblitz curve E: y^2 + x*y = x^3 + a*x^2 + 1 over a field with 2^n elements.",
   "id": "A304293",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:28",
     "offset": 0,
     "size": 34,
     "source": "oeis-bfile"

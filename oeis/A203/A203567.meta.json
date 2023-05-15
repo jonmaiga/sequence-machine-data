@@ -2,13 +2,11 @@
   "description": "The coding function W_1(n,3,2) (see Honkala et al. for the precise definition).",
   "id": "A203567",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 2,
     "size": 16,
     "source": "oeis-entry"

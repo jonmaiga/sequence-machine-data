@@ -2,14 +2,12 @@
   "description": "Square array T(r,j) (r>=1, j>=1) read by antidiagonals, where T(r,j) is the convoluted convolved Fibonacci number G_j^(r) (see the Moree paper).",
   "id": "A089107",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 78,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Number of Regular and Stellar polytopes in n-dimensional Euclidean space, or -1 if infinite.",
   "id": "A215418",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

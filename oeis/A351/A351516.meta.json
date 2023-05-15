@@ -2,13 +2,11 @@
   "description": "a(n) is the maximum number of 3-letter words that can be contained in an n X n crossword puzzle.",
   "id": "A351516",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

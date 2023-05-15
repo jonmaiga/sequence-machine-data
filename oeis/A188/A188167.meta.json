@@ -2,14 +2,12 @@
   "description": "a(2+4*n)=1+2*n, otherwise a(n)=2*n.",
   "id": "A188167",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:20:29",
     "offset": 0,
     "size": 79,
     "source": "joeis"

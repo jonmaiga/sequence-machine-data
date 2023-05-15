@@ -2,12 +2,10 @@
   "description": "Number of binary strings of length n containing at most 3 distinct squares, where a square is a nonempty block of the form xx.",
   "id": "A229617",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 0,
     "size": 45,
     "source": "oeis-entry"

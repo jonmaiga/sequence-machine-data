@@ -2,7 +2,6 @@
   "description": "a(n) is the largest n-digit zeroless prime such that the sum of the two numbers that result from splitting a(n) between any two of its digits is a distinct prime.",
   "id": "A103548",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 2,
     "size": 6,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "A designed sequence of primes that seems to be chaotic based on the sum of the sequence with a prime and one: a(n+1)->Abs(a(n)+Prime[n]+1).",
   "id": "A130710",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 46,
     "source": "oeis-entry"

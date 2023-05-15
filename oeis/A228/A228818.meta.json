@@ -7,7 +7,6 @@
     "A183001",
     "A228817"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "cons",
     "formulas",
@@ -16,7 +15,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": -44,
     "size": 4,
     "source": "oeis-entry"

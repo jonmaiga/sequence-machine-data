@@ -2,13 +2,11 @@
   "description": "Let p < q be consecutive primes. Then p is in the sequence if p+q+p*q is a composite number and if there is a prime number r such that p+q+r is a divisor of p+q+p*q.",
   "id": "A129998",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 53,
     "source": "oeis-entry"

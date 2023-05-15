@@ -12,15 +12,16 @@
     "A069429",
     "A069447",
     "A069448",
-    "A069452"
+    "A069452",
+    "A084326",
+    "A186446"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:21",
     "offset": 2,
     "size": 18,
     "source": "oeis-bfile"

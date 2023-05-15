@@ -2,12 +2,10 @@
   "description": "Number of permutations of 1..n with both permutation and its inverse having exactly 6 maxima",
   "id": "A180396",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 15,
     "source": "oeis-entry"

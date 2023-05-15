@@ -2,13 +2,11 @@
   "description": "Minimal index of a Stanley antimagic square of order n consisting of distinct primes.",
   "id": "A210710",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

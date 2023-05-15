@@ -2,7 +2,6 @@
   "description": "A symmetrical triangular sequence:t(n,m)=n!*(StirlingS1[n, m] + StirlingS1[n, n - m] - (StirlingS1[n, 0] + StirlingS1[n, n]) + 1) - n! + 1",
   "id": "A174861",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 41,
     "source": "oeis-entry"

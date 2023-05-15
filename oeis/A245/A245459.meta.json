@@ -2,13 +2,11 @@
   "description": "Number of primes of the form k^n - 2^k for positive integers k.",
   "id": "A245459",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:01",
     "offset": 1,
     "size": 88,
     "source": "oeis-bfile"

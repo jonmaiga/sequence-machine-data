@@ -6,13 +6,11 @@
     "A107770",
     "A333200"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 64,
     "source": "oeis-entry"

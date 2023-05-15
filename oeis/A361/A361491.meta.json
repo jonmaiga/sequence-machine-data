@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of x*(1+38*x+x^2)/((1-x)*(x^2-34*x+1)).",
+  "id": "A361491",
+  "mentions": [
+    "A029547",
+    "A046176"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

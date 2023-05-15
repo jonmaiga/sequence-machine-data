@@ -2,14 +2,12 @@
   "description": "Take the n-th pair of consecutive digits of the sequence and form their absolute difference; the result is the n-th digit of the sequence; a(n) < a(n+1).",
   "id": "A102694",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 35,
     "source": "oeis-entry"

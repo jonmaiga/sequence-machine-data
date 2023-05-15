@@ -2,13 +2,11 @@
   "description": "The Szeged index of the parallelogram-shaped benzenoid Q_k (see Fig. 5.7 of the Diudea et al. reference).",
   "id": "A245832",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 28,
     "source": "oeis-entry"

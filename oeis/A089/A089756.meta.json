@@ -2,14 +2,12 @@
   "description": "a(1)=1 and a(i+1)=a(i)+9 if a(i)<=35, and a(i+1)=a(i)-35 if a(i)>35.",
   "id": "A089756",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 13:05:51",
     "offset": 1,
     "size": 81,
     "source": "joeis"

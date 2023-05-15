@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of unlabeled posets with n elements together with a function rk mapping each element to a rank between 1 and k such that whenever v covers w in the poset then rk(v) = rk(w) + 1.",
+  "id": "A361952",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000027",
+    "A034856",
+    "A049312",
+    "A137742",
+    "A361950",
+    "A361953"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

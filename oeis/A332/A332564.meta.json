@@ -2,13 +2,11 @@
   "description": "Lexicographically earliest sequence of distinct positive terms such that the cumulative sum of the first a(n) terms ends in a(n).",
   "id": "A332564",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:02",
     "offset": 1,
     "size": 72,
     "source": "oeis-bfile"

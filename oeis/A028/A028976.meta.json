@@ -2,12 +2,10 @@
   "description": "Theta series of 8-d 5-modular lattice Q_8(1) with det 625 and minimal norm 4.",
   "id": "A028976",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 0,
     "size": 42,
     "source": "oeis-entry"

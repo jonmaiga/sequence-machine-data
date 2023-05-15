@@ -2,18 +2,18 @@
   "description": "Bisection of A005349.",
   "id": "A100432",
   "mentions": [
-    "A005349"
+    "A005349",
+    "A100433"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:36:23",
     "offset": 1,
     "size": 57,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -2,12 +2,10 @@
   "description": "In Conway's Game of Life, the length of the shortest pattern of width n to exhibit infinite growth.",
   "id": "A162458",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 17:18:15",
     "offset": 1,
     "size": 109,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "Triangle read by rows: label the entries T(0,0), T(1,0), T(0,1), T(2,0), T(1,1), T(0,2), T(3,0), ... Then T(n,k)=T(k,n), T(0,0)=0, T(1,0)=1, and for n>1, T(n,0)=0 and T(n,in+j)=T(n-j,j) (i,j >= 0, not both 0).",
   "id": "A217831",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 0,
     "size": 96,
     "source": "oeis-entry"

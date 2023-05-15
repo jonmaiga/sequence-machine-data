@@ -6,13 +6,11 @@
     "A003618",
     "A033873"
   ],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:44",
     "offset": 1,
     "size": 65,
     "source": "oeis-bfile"

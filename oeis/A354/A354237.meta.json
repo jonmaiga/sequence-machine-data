@@ -12,15 +12,13 @@
     "A354750",
     "A354751"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 0,
     "size": 21,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

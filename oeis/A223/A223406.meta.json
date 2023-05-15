@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of nXk 0..3 arrays with all rows and columns having a nonnegative second derivative in a quadratic least squares fit, with one and two element arrays taken as having a zero second derivative",
   "id": "A223406",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:41",
     "offset": 1,
     "size": 33,
     "source": "oeis-bfile"

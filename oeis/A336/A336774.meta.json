@@ -6,13 +6,11 @@
     "A336778",
     "A336779"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:08",
     "offset": 2,
     "size": 82,
     "source": "oeis-bfile"

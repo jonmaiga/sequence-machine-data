@@ -2,13 +2,11 @@
   "description": "Number of \"coherent\" reduced decompositions for the longest permutation n n-1 n-2 ... 3 2 1 in the symmetric group on n letters.",
   "id": "A014982",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

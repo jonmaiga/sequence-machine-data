@@ -2,12 +2,10 @@
   "description": "Rearrange numbers from 1 to n: start with the divisors of n in ascending order followed by numbers in ascending order which leave a remainder 1 on dividing by n, followed by those leaving remainder 2 ... up to remainder [(n-1)/2].",
   "id": "A076081",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 99,
     "source": "oeis-entry"

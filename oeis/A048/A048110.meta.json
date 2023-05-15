@@ -8,14 +8,12 @@
     "A048101",
     "A048145"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 08:56:00",
     "offset": -2,
     "size": 15,
     "source": "joeis"

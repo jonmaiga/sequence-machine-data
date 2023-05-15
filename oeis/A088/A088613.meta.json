@@ -2,14 +2,12 @@
   "description": "Smallest nonsquarefree multiple of n.",
   "id": "A088613",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:40",
     "offset": 1,
     "size": 66,
     "source": "oeis-bfile"

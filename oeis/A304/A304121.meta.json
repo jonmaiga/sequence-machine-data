@@ -2,13 +2,11 @@
   "description": "Expansion of A(x) = 1 + x + x*A(x) + x^2*A(x)^2 + x^3*A(x)^3.",
   "id": "A304121",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 0,
     "size": 28,
     "source": "oeis-entry"

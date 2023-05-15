@@ -1,0 +1,17 @@
+{
+  "description": "Index of 2^n in A351495.",
+  "id": "A361334",
+  "mentions": [
+    "A351495",
+    "A361332",
+    "A361333"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

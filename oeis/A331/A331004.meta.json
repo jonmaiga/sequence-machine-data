@@ -4,12 +4,10 @@
   "mentions": [
     "A330780"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:00",
     "offset": 0,
     "size": 68,
     "source": "oeis-bfile"

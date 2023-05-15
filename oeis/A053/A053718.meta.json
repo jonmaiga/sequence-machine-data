@@ -2,12 +2,10 @@
   "description": "Number of n X n binary matrices of order dividing 4 (also number of solutions to X^4=I in GL(n,2)).",
   "id": "A053718",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 15:10:55",
     "offset": 1,
     "size": 12,
     "source": "joeis"

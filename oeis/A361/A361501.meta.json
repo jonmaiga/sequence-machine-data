@@ -1,0 +1,18 @@
+{
+  "description": "A variant of A359143 in which all copies of a digit d are erased only when d is both the leading digit and the final digit of (a(n) concatenated with sum of digits of a(n)).",
+  "id": "A361501",
+  "mentions": [
+    "A359142",
+    "A359143",
+    "A361350"
+  ],
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

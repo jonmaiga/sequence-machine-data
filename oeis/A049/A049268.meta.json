@@ -2,12 +2,10 @@
   "description": "Smallest nonnegative value taken on by nx^2 - 9y^2 for an infinite number of integer pairs (x, y).",
   "id": "A049268",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 1,
     "size": 88,
     "source": "oeis-entry"

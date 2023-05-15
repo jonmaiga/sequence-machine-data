@@ -1,19 +1,17 @@
 {
-  "description": "Floor(n(n+1)(n+2) / (n+ n+1 + n+2)), which equals floor(n(n + 2)/3).",
+  "description": "a(n) = floor(n*(n+1)*(n+2) / (n + n+1 + n+2)), which equals floor(n*(n+2)/3).",
   "id": "A032765",
   "mentions": [
     "A001082",
     "A006066",
     "A032766"
   ],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:04:57",
     "offset": 0,
     "size": 55,
     "source": "joeis"

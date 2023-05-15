@@ -2,12 +2,10 @@
   "description": "Define the sequence S(a(0),a(1)) by a(n+2) is the least integer such that a(n+2)/a(n+1) > a(n+1)/a(n) for n >= 0. This is S(2,10).",
   "id": "A019475",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:26",
     "offset": 0,
     "size": 23,
     "source": "oeis-bfile"

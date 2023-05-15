@@ -1,5 +1,5 @@
 {
-  "description": "Differences of 0; labeled ordered partitions into 5 parts.",
+  "description": "Number of labeled ordered set partitions into 5 parts for n>=1, a(0)=1.",
   "id": "A001118",
   "mentions": [
     "A000051",
@@ -9,16 +9,14 @@
     "A001117",
     "A019538"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:03",
     "offset": 0,
-    "size": 23,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Primes composed of the digits 1, 6, and 9.",
+  "id": "A363023",
+  "mentions": [
+    "A020454",
+    "A020457"
+  ],
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

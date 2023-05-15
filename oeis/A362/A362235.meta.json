@@ -1,0 +1,22 @@
+{
+  "description": "Number of edges among all distinct circles that can be constructed from a point on the origin and n equally spaced points on each of the +x,-x,+y,-y coordinates axes when each pair of points is connected by a circle and where the points lie at the ends of the circles' diameter.",
+  "id": "A362235",
+  "mentions": [
+    "A139275",
+    "A356358",
+    "A359934",
+    "A362233",
+    "A362234",
+    "A362236"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

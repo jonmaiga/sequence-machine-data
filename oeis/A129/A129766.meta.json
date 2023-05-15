@@ -6,7 +6,6 @@
     "A005763",
     "A005776"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "fini",
     "full",
@@ -15,7 +14,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 28,
     "source": "oeis-entry"

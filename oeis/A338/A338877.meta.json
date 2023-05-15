@@ -2,12 +2,10 @@
   "description": "Let g(p,k) = Sum_{0<=j<=k} p^j. Numbers that can be represented as g(p,k) and also as g(q,i)+g(r,j) with p,q,r prime and k,i,j>=2.",
   "id": "A338877",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 28,
     "source": "oeis-entry"

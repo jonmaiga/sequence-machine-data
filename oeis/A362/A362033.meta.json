@@ -1,0 +1,17 @@
+{
+  "description": "The indices where A362031(n) = 1.",
+  "id": "A362033",
+  "mentions": [
+    "A001222",
+    "A362031"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

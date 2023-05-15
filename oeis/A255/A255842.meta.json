@@ -2,21 +2,19 @@
   "description": "a(n) = 2*n^2 + 12.",
   "id": "A255842",
   "mentions": [
-    "A008864",
     "A016825",
     "A047238",
     "A047406",
+    "A092968",
     "A114949",
     "A255843"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:27:07",
     "offset": 0,
     "size": 48,
     "source": "joeis"

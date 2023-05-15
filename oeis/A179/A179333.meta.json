@@ -2,12 +2,10 @@
   "description": "The length of a shortest radius-2 sequence on n symbols.",
   "id": "A179333",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

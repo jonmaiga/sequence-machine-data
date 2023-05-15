@@ -2,15 +2,14 @@
   "description": "Square array read by descending antidiagonals: T(n,k) = ((2^(n+1) + 1)^(k-1) + 1)/2.",
   "id": "A266577",
   "mentions": [
-    "A034478"
+    "A034478",
+    "A292625"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:27",
     "offset": 1,
     "size": 55,
     "source": "oeis-bfile"

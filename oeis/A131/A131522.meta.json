@@ -2,7 +2,6 @@
   "description": "Expansions of p(x,n)=(x^n - 1)*(x^(n + 1) - 1) for n >= 1, triangle read by rows.",
   "id": "A131522",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "less",
@@ -10,7 +9,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 118,
     "source": "oeis-entry"

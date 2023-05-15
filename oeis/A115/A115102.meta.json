@@ -2,19 +2,16 @@
   "description": "a(0)=2, a(1)=8, a(n)=a(n-1)+2*a(n-2).",
   "id": "A115102",
   "mentions": [
-    "A001045",
     "A014551",
     "A078008",
     "A084214"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 23:17:55",
     "offset": 0,
     "size": 32,
     "source": "joeis"

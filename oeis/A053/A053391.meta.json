@@ -4,13 +4,11 @@
   "mentions": [
     "A000041"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 0,
     "size": 32,
     "source": "oeis-entry"

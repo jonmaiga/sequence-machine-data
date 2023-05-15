@@ -1,16 +1,14 @@
 {
-  "description": "Number of length n+6 0..2 arrays with at most two downsteps in every n consecutive neighbor pairs",
+  "description": "Number of length n+6 0..2 arrays with at most two downsteps in every n consecutive neighbor pairs.",
   "id": "A255628",
   "mentions": [
     "A255622"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:13",
     "offset": 1,
     "size": 25,
     "source": "oeis-bfile"

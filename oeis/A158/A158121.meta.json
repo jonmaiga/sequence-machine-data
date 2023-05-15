@@ -2,14 +2,12 @@
   "description": "Given n points in the complex plane, let M(n) the number of distinct Moebius transformations that take 3 distinct points to 3 distinct points. Note that the triples may have some or all of the points in common.",
   "id": "A158121",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 17:12:51",
     "offset": 3,
     "size": 28,
     "source": "joeis"

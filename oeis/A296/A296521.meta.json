@@ -2,13 +2,11 @@
   "description": "Anagrasum integers: integers N that exactly reproduce their set of digits when we form the set of sums of pairs of adjacent digits.",
   "id": "A296521",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:16",
     "offset": 1,
     "size": 49,
     "source": "oeis-bfile"

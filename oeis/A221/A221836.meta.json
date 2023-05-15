@@ -2,13 +2,11 @@
   "description": "Triangle in which m-th term of n-th row is the number of integer Heron triangles with two of the sides having lengths n, m.",
   "id": "A221836",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 87,
     "source": "oeis-entry"

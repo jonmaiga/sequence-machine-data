@@ -5,14 +5,12 @@
     "A008344",
     "A008348"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "more",
     "nonn",
     "unsolved"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

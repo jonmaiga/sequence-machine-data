@@ -2,14 +2,12 @@
   "description": "a(n) = n + 2*cos((n*Pi)/3) + Lucas(n).",
   "id": "A297661",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 16:52:46",
     "offset": 1,
     "size": 39,
     "source": "joeis"

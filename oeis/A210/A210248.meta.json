@@ -2,14 +2,12 @@
   "description": "Smallest prime = 1 mod 6 sandwiched by n smaller and n larger primes = 5 mod 6.",
   "id": "A210248",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

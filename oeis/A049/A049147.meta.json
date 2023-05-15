@@ -2,13 +2,11 @@
   "description": "Revert transform of (1 - x - 4x^2 + x^3)/(1 - 6x^2).",
   "id": "A049147",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 16:18:35",
     "offset": 1,
     "size": 29,
     "source": "joeis"

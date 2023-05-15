@@ -2,7 +2,6 @@
   "description": "Partial list of labels attached to the quiver of the cluster algebra A_4^4.",
   "id": "A172379",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "fini",
     "full",
@@ -11,7 +10,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

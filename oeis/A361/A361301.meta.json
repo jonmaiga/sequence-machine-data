@@ -1,0 +1,17 @@
+{
+  "description": "For the odd number 2n + 1, the least primitive practical number r such that 2n + 1 = r + p where p is prime.",
+  "id": "A361301",
+  "mentions": [
+    "A005153",
+    "A267124"
+  ],
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

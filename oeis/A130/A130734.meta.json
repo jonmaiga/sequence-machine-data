@@ -2,14 +2,12 @@
   "description": "List of numbers of cents you can have in US coins without having change for a dollar.",
   "id": "A130734",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:18",
     "offset": 1,
     "size": 110,
     "source": "oeis-bfile"

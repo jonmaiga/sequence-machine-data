@@ -2,7 +2,6 @@
   "description": "Periodic sequence 0, 1, 0, 4, 0, 1.",
   "id": "A120324",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 13:32:31",
     "offset": 0,
     "size": 91,
     "source": "joeis"

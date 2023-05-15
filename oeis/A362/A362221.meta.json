@@ -1,0 +1,20 @@
+{
+  "description": "Irregular triangle read by rows: T(n, k) is the number of partitions of n into exactly k distinct parts between the members of [k^2].",
+  "id": "A362221",
+  "mentions": [
+    "A000290",
+    "A003056",
+    "A072574",
+    "A216652",
+    "A362208"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-entry"
+  }
+}

@@ -1,20 +1,19 @@
 {
-  "description": "a(n) = (3*12^n-8^n)/2.",
+  "description": "a(n) = (3*12^n - 8^n)/2.",
   "id": "A165152",
   "mentions": [
     "A016129",
     "A056450",
     "A165151"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:48",
     "offset": 0,
-    "size": 17,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

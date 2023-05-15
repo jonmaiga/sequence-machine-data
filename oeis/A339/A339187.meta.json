@@ -2,13 +2,11 @@
   "description": "a(n) is the maximum of f(s) for all binary sequences s of length n where f(s) denote the duplication distance between s and its root.",
   "id": "A339187",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 32,
     "source": "oeis-entry"

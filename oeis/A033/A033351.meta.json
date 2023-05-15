@@ -2,13 +2,11 @@
   "description": "a(n) = floor(31/n).",
   "id": "A033351",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:06:07",
     "offset": 1,
     "size": 91,
     "source": "joeis"

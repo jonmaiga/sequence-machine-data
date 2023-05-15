@@ -2,14 +2,12 @@
   "description": "Number of permutations of n letters that have all valleys even and all peaks odd.",
   "id": "A246012",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:02",
     "offset": 0,
     "size": 25,
     "source": "oeis-bfile"

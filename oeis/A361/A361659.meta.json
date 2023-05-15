@@ -1,0 +1,18 @@
+{
+  "description": "Number of strictly convex unit-sided polygons with all internal angles equal to a multiple of Pi/n, treating polygons that have a unique mirror image as distinct but ignoring rotational copies.",
+  "id": "A361659",
+  "mentions": [
+    "A164896",
+    "A262181",
+    "A361635"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

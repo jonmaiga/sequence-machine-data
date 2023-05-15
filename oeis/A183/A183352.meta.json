@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of nXk binary arrays with each 1 adjacent to exactly one 0 vertically and one 0 horizontally",
   "id": "A183352",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:07",
     "offset": 1,
     "size": 66,
     "source": "oeis-bfile"

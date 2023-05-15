@@ -2,13 +2,11 @@
   "description": "Smallest losing position after your opponent has taken k stones in a variation of \"Fibonacci Nim\".",
   "id": "A054736",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

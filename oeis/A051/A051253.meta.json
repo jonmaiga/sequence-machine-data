@@ -2,7 +2,6 @@
   "description": "Weights of rotation-symmetric functions in n variables.",
   "id": "A051253",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 10:26:01",
     "offset": 3,
     "size": 33,
     "source": "joeis"

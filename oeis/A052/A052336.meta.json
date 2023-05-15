@@ -2,14 +2,12 @@
   "description": "Shifts left under transform in formula line.",
   "id": "A052336",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "eigen",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 1,
     "size": 53,
     "source": "oeis-entry"

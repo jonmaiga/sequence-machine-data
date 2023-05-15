@@ -2,13 +2,11 @@
   "description": "The number of permutations avoiding the \"boxed\" pattern 123.",
   "id": "A201168",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 0,
     "size": 13,
     "source": "oeis-entry"

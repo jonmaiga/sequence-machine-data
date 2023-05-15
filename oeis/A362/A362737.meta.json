@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. satisfies A(x) = exp(x^3 + x / A(x)).",
+  "id": "A362737",
+  "mentions": [
+    "A362691",
+    "A362693",
+    "A362736"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

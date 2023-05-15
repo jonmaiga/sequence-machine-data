@@ -2,13 +2,11 @@
   "description": "Decimal expansion of the van der Waerden-Ulam binary measure of the composites.",
   "id": "A119524",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 100,
     "source": "oeis-entry"

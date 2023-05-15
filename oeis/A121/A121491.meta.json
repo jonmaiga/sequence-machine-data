@@ -2,13 +2,11 @@
   "description": "An historic sequence: Lehmer's linear congruential pseudorandom numbers.",
   "id": "A121491",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:10",
     "offset": 0,
     "size": 23,
     "source": "oeis-bfile"

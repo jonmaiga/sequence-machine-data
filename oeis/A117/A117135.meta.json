@@ -2,14 +2,12 @@
   "description": "n-digit primes for which the product of the digits is an n-digit number.",
   "id": "A117135",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:07",
     "offset": 1,
     "size": 56,
     "source": "oeis-bfile"

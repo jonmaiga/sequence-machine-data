@@ -6,7 +6,6 @@
     "A161771",
     "A162916"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "cons",
     "formulas",
@@ -14,7 +13,6 @@
     "obsc"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 39,
     "size": 11,
     "source": "oeis-entry"

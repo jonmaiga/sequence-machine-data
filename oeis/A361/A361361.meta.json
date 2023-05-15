@@ -10,14 +10,11 @@
     "A361410",
     "A361411"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "new",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-03-14 10:44:32",
     "offset": 0,
     "size": 64,
     "source": "oeis-bfile"

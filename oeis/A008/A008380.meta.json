@@ -2,12 +2,10 @@
   "description": "4*(2n-1)!*H(2n), where H(n) = Sum 1/i are harmonic numbers.",
   "id": "A008380",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 08:59:54",
     "offset": 1,
     "size": 13,
     "source": "joeis"

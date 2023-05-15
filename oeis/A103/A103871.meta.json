@@ -2,14 +2,12 @@
   "description": "Numbers n such that 100n + 69 is prime.",
   "id": "A103871",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:54",
     "offset": 1,
     "size": 59,
     "source": "oeis-bfile"

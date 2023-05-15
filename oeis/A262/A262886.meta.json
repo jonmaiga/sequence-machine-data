@@ -2,14 +2,12 @@
   "description": "Regular triangle read by rows: T(n, k) = sum(i=0, n, sum(j=k, n, 3*(-1)^(k+j)*binomial(2*k,k)*binomial(j,i)*binomial(n,i)*binomial(i,n-j)/(2*(2*i-1)*(2*j+1)*(2*n-2*i-1)))).",
   "id": "A262886",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

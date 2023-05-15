@@ -2,12 +2,10 @@
   "description": "a(n) is the next number after a(n-1) which cannot be represented in the form 2*a(i) and Sum_{j=1..n-1} b_j*a(j) where 0 < i < n, b_j = 1 or 0. The sequence starts: a(1) = 1; a(2) = 2; a(3) = 3; a(4) = 5.",
   "id": "A331811",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 38,
     "source": "oeis-entry"

@@ -1,0 +1,19 @@
+{
+  "description": "Number of distinct circles that can be constructed from a point on the origin and n equally spaced points on each of the +x,-x,+y,-y coordinates axes using only a compass.",
+  "id": "A361622",
+  "mentions": [
+    "A353782",
+    "A354605",
+    "A356358",
+    "A361623"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

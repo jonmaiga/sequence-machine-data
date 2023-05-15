@@ -2,13 +2,11 @@
   "description": "Set of all 9-digit numbers in which every pair of adjacent digit is a multiple of either of 2 distinct 2-digit numbers.",
   "id": "A122532",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

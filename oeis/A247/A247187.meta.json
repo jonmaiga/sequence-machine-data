@@ -2,7 +2,6 @@
   "description": "Numbers containing nine distinct decimal digits (zero is not considered) and having the property that the digits 1 to 5 appear in the order but not the digits 1 to 6.",
   "id": "A247187",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "base",
     "fini",
@@ -11,7 +10,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:03",
     "offset": 1,
     "size": 24,
     "source": "oeis-bfile"

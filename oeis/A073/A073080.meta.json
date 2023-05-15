@@ -2,14 +2,12 @@
   "description": "3 appears three times, 2*3=6 appears six times, 2*6=12 appears twelve times etc.",
   "id": "A073080",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 72,
     "source": "oeis-entry"

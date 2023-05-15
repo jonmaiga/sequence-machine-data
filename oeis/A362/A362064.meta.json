@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that the digit \"1\" is neither present in a(n) nor in a(n) + a(n+1).",
+  "id": "A362064",
+  "mentions": [
+    "A052383",
+    "A299957"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

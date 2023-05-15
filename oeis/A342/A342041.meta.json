@@ -2,13 +2,11 @@
   "description": "Triangle read by rows: T(n,k) = maximum number of lines of size k on n points so that every two lines intersect in one point.",
   "id": "A342041",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 2,
     "size": 82,
     "source": "oeis-entry"

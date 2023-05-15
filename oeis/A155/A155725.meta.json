@@ -2,7 +2,6 @@
   "description": "Symmetrical product form polynomial as triangle sequence coefficients: q(x,n)=Product[x + 2*n - i + 1, {i, 0, n - 1}]; p(x,n)=q(x,n)+x^2+x^n*q(1/x,m);t(n,m)=coefficients(p(x,n).",
   "id": "A155725",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 35,
     "source": "oeis-entry"

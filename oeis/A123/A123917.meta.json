@@ -2,12 +2,10 @@
   "description": "a(1)=1. a(n) = (the highest exponent in the prime-factorization of n)th integer from among those positive integers not occurring earlier in the sequence.",
   "id": "A123917",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:12",
     "offset": 1,
     "size": 72,
     "source": "oeis-bfile"

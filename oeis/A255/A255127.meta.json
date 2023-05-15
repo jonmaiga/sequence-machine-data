@@ -37,14 +37,12 @@
     "A276580",
     "A276610"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "look",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:13",
     "offset": 2,
     "size": 78,
     "source": "oeis-bfile"

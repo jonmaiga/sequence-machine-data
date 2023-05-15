@@ -2,14 +2,12 @@
   "description": "Polynomial Generalized Cartan Matrices like the B_n type: m4by4={{2, -1, 0, 0}, {-1, 2, -1, 0}, {0, -1, 2, -n}, {0, 0, -1, 2}} For B_4 the n=2: here n=3 is used in the general n X n matrix polynomials P(n,x). Since the C_n types are symmetrical, they have the same polynomials. For 2 X 2 this n=3 is the G_2 14 dimensional exceptional group.",
   "id": "A130605",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "sign",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

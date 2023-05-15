@@ -2,13 +2,11 @@
   "description": "Pairs (i,j) of positive integers where j",
   "id": "A162520",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 102,
     "source": "oeis-entry"

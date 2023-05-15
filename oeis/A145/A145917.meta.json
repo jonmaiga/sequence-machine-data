@@ -5,14 +5,12 @@
     "A002260",
     "A004736"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:34",
     "offset": 0,
     "size": 71,
     "source": "oeis-bfile"

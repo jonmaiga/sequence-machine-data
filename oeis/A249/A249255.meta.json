@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of length n+6 0..k arrays with every seven consecutive terms having five times the sum of some two elements equal to two times the sum of the remaining five",
   "id": "A249255",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:05",
     "offset": 1,
     "size": 42,
     "source": "oeis-bfile"

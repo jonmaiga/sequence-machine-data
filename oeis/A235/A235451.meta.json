@@ -2,13 +2,11 @@
   "description": "Number of length n words on alphabet {0,1,2} of the form 0^(i)1^(j)2^(k) such that i=j or j=k.",
   "id": "A235451",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:28:01",
     "offset": 0,
     "size": 61,
     "source": "joeis"

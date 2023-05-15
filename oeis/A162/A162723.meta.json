@@ -2,13 +2,11 @@
   "description": "a(n) = 9 a (n-1)-26 a(n-2) +24 a(n-3) (n >= 3) with a(0) =a(1)=1, a(2)=2.",
   "id": "A162723",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 23,
     "source": "oeis-entry"

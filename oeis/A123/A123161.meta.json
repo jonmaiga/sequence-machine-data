@@ -2,12 +2,10 @@
   "description": "Numbers of words on successive versions of the Google lookup page.",
   "id": "A123161",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Triangle read by rows: vector recursion: s=5; v(n)={s^(n+1),s^(n+1)-Sum[s^i,{i,2,n}],s^n,...,-1}/s^2.",
   "id": "A152862",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 48,
     "source": "oeis-entry"

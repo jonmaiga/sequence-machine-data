@@ -10,16 +10,13 @@
     "A099828",
     "A119722"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "bref",
-    "changed",
     "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:09",
     "offset": 3,
     "size": 3,
     "source": "oeis-bfile"

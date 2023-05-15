@@ -2,14 +2,12 @@
   "description": "Solutions of an a*x+b*y=c Prime Diophantine Equation: Prime[m]x+Prime[m+1]*y=Prime[m-1] : as Abs[n*Prime[m]] Or Abs[n*Prime[m+1]] in x+y*n=Prime[m-1].",
   "id": "A136585",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 38,
     "source": "oeis-entry"

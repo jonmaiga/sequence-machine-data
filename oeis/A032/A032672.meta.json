@@ -2,13 +2,11 @@
   "description": "Digit '9' concatenated with a(n) is a prime.",
   "id": "A032672",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:42",
     "offset": 1,
     "size": 54,
     "source": "oeis-bfile"

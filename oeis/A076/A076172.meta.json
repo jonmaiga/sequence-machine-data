@@ -2,13 +2,11 @@
   "description": "Triangular numbers with a triangular number of divisors which set a new record for number of divisors.",
   "id": "A076172",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "antisigma(n) + antisigma(n+3) = antisigma(n+1) + antisigma(n+2), where antisigma(n) = sum of the non-divisors of n that are between 1 and n.",
   "id": "A076667",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 23,
     "source": "oeis-entry"

@@ -1,0 +1,32 @@
+{
+  "description": "Decimal expansion of the asymptotic mean of the abundancy index of the cubefull numbers (A036966).",
+  "id": "A362985",
+  "mentions": [
+    "A000203",
+    "A013661",
+    "A017665",
+    "A017666",
+    "A036966",
+    "A082020",
+    "A111003",
+    "A157292",
+    "A157294",
+    "A157296",
+    "A240976",
+    "A245058",
+    "A306633",
+    "A362984",
+    "A362986"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

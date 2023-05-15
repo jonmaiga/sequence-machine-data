@@ -18,13 +18,11 @@
     "A080682",
     "A080683"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:32",
     "offset": 1,
     "size": 93,
     "source": "oeis-bfile"

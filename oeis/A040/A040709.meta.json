@@ -2,7 +2,6 @@
   "description": "Continued fraction for sqrt(737).",
   "id": "A040709",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "cofr",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:19:29",
     "offset": 0,
     "size": 90,
     "source": "joeis"

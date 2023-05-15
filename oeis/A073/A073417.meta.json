@@ -2,14 +2,12 @@
   "description": "Flawless numbers: numbers without a, f, l or w.",
   "id": "A073417",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 62,
     "source": "oeis-entry"

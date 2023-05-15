@@ -2,14 +2,12 @@
   "description": "(2^n+1)*(2^n+2)*(2^n+4)*(2^n+6)*(4^n+15*2^n+176)/8!.",
   "id": "A030539",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 09:17:23",
     "offset": 0,
     "size": 17,
     "source": "joeis"

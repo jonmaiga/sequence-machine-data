@@ -1,15 +1,13 @@
 {
-  "description": "Number of -6..6 arrays x(0..n+2) of n+3 elements with zero sum and nonzero second and third differences",
+  "description": "Number of -6..6 arrays x(0..n+2) of n+3 elements with zero sum and nonzero second and third differences.",
   "id": "A200202",
   "mentions": [
     "A200204"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:21",
     "offset": 1,
     "size": 15,
     "source": "oeis-bfile"

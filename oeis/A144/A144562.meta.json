@@ -7,7 +7,6 @@
     "A144640",
     "A153238"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
@@ -15,9 +14,8 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2022-04-26 09:44:55",
     "offset": 1,
-    "size": 63,
+    "size": 66,
     "source": "joeis"
   }
 }

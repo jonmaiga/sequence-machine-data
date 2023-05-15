@@ -2,13 +2,11 @@
   "description": "Expansion of (eta(q^3)eta(q^15)/(eta(q)eta(q^5)))^2 in powers of q.",
   "id": "A093065",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 01:21:54",
     "offset": 0,
     "size": 40,
     "source": "joeis"

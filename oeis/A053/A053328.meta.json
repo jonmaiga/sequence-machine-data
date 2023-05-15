@@ -2,14 +2,12 @@
   "description": "Discriminants of real quadratic fields of ERD-type having no split primes less than the Minkowski bound sqrt(Delta)/2.",
   "id": "A053328",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 1,
     "size": 60,
     "source": "oeis-entry"

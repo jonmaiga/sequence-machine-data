@@ -25,7 +25,6 @@
     "A083652",
     "A318924"
   ],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "cons",
@@ -34,7 +33,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:39",
     "offset": 0,
     "size": 105,
     "source": "oeis-bfile"

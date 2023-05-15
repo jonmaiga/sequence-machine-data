@@ -2,7 +2,6 @@
   "description": "Triangular sequence of coefficients of central statistical moments as a recursion. c = -(x - x^2); b = (-1 - a + 2 x)/x; a = 0; p(x, n) = (a + b*x)*p(x, n - 1) + c*p(x, n - 2}.",
   "id": "A139144",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 65,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "cos(arcsinh(x)+arcsin(x))=1-4/2!*x^2+16/4!*x^4-280/6!*x^6+8320/8!*x^8...",
   "id": "A013089",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-02 16:14:04",
     "offset": 0,
     "size": 14,
     "source": "joeis"

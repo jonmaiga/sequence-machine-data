@@ -2,12 +2,10 @@
   "description": "Odd sides belonging to multiple primitive Euler bricks.",
   "id": "A211133",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 30,
     "source": "oeis-entry"

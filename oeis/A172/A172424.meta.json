@@ -2,13 +2,11 @@
   "description": "Numbers n with digits different from 0 and 1 such that the sum of digits and the product of digits divides n.",
   "id": "A172424",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 35,
     "source": "oeis-entry"

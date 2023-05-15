@@ -2,12 +2,10 @@
   "description": "[ exp(7/9)*n! ].",
   "id": "A030953",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 18:21:38",
     "offset": 1,
     "size": 20,
     "source": "joeis"

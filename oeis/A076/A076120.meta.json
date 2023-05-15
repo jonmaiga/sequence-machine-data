@@ -2,12 +2,10 @@
   "description": "a(n) = smallest multiple of n other than n which is relatively prime to both a(n-1) and a(n+1).",
   "id": "A076120",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 61,
     "source": "oeis-entry"

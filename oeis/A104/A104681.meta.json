@@ -2,13 +2,11 @@
   "description": "Expansion of (1-x-2*x^2-2*x^3-9*x^4-9*x^5-6*x^6+6*x^7-x^8-x^9-2*x^13+2*x^12) / (-x^12-1+2*x^6).",
   "id": "A104681",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-27 15:47:11",
     "offset": 0,
     "size": 83,
     "source": "joeis"

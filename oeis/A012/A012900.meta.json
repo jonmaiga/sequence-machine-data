@@ -2,12 +2,10 @@
   "description": "Expansion of e.g.f.: arcsin(arcsin(x)+log(x+1))=2*x-1/2!*x^2+11/3!*x^3-30/4!*x^4+471/5!*x^5...",
   "id": "A012900",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 01:46:22",
     "offset": 0,
     "size": 19,
     "source": "joeis"

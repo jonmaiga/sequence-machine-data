@@ -2,13 +2,11 @@
   "description": "Lengths n for which no normal sequence exists.",
   "id": "A141082",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"

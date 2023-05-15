@@ -6,15 +6,12 @@
     "A303503",
     "A361397"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "formulas",
-    "new",
     "nonn",
     "walk"
   ],
   "terms": {
-    "modified": "2023-03-14 10:44:32",
     "offset": 0,
     "size": 15,
     "source": "oeis-bfile"

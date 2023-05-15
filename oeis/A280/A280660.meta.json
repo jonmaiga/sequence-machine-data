@@ -2,13 +2,11 @@
   "description": "Least k such that at least half of the last n digits of 2^k are 9.",
   "id": "A280660",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:49",
     "offset": 2,
     "size": 34,
     "source": "oeis-bfile"

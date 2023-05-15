@@ -1,0 +1,14 @@
+{
+  "description": "a(n) is the number of points with integer coordinates located between the x-axis and the graph of the function y = n^3 / (n^2 + x^2).",
+  "id": "A359696",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

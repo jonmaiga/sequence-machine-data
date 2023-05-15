@@ -2,13 +2,11 @@
   "description": "Begin with 1; add a distinct prime to get a composite number, then add a distinct composite number to get a prime; repeat.",
   "id": "A089733",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

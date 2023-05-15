@@ -2,15 +2,12 @@
   "description": "Number of n-colorings of Barnette-Bosak-Lederberg Graph.",
   "id": "A158755",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:41",
     "offset": 0,
     "size": 11,
     "source": "oeis-bfile"

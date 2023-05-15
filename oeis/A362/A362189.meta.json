@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers having the same concatenation of digits as the sequence 2^a(n).",
+  "id": "A362189",
+  "mentions": [
+    "A000079",
+    "A362191"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

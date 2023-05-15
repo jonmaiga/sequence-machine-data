@@ -2,12 +2,10 @@
   "description": "Number of n X n symmetric 0..5 arrays with each element equal to the sum mod 6 of two of its horizontal and vertical neighbors",
   "id": "A193122",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

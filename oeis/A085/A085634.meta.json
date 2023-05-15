@@ -2,14 +2,12 @@
   "description": "Numbers of the form 2^a + 3^b = 2^c + 3^d for nonnegative a, b, c, d and a <> c.",
   "id": "A085634",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 5,
     "source": "oeis-entry"

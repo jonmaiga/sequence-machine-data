@@ -2,12 +2,10 @@
   "description": "Maximal size of conflict-avoiding code of length 2n+1.",
   "id": "A135304",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:23",
     "offset": 1,
     "size": 79,
     "source": "oeis-bfile"

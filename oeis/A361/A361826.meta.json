@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is equal to the number of roots of the equation n*cos(x) = sqrt(x).",
+  "id": "A361826",
+  "mentions": [
+    "A178832"
+  ],
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

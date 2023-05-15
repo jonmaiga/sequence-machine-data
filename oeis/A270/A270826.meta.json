@@ -2,13 +2,11 @@
   "description": "Maximum number of iterations needed in the Euclid algorithm for gcd(x,y) in [1..n].",
   "id": "A270826",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 89,
     "source": "oeis-entry"

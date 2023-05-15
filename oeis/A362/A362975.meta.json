@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of zeta(3/4) * Product_{p prime} (1 + 1/p^(5/4) - 1/p^2 - 1/p^(9/4)) (negated).",
+  "id": "A362975",
+  "mentions": [
+    "A036966",
+    "A090699",
+    "A244000",
+    "A362973",
+    "A362974",
+    "A362976"
+  ],
+  "tags": [
+    "cons",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

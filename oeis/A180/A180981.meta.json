@@ -2,13 +2,11 @@
   "description": "T(n,k)=number of nXk binary matrices with floor((n*k)/2) 1's and rows in lexicographically nonincreasing order and columns in lexicographically strictly increasing order",
   "id": "A180981",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:04",
     "offset": 1,
     "size": 102,
     "source": "oeis-bfile"

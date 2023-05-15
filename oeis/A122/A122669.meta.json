@@ -2,12 +2,10 @@
   "description": "Number of nontrivial arithmetic progressions of primes between n and 2n.",
   "id": "A122669",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:11",
     "offset": 1,
     "size": 95,
     "source": "oeis-bfile"

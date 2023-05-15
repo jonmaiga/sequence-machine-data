@@ -2,7 +2,6 @@
   "description": "The decimal expansion of the Integral_x=0..1 _y=0..x sin(x*y).",
   "id": "A257176",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "a(n) = the least positive integer k such that k^2 + k + N is prime, where N is the n-th positive odd integer.",
   "id": "A078770",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:30",
     "offset": 1,
     "size": 86,
     "source": "oeis-bfile"

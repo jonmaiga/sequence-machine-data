@@ -2,13 +2,11 @@
   "description": "Stirling transform of the prime characteristic function.",
   "id": "A085507",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:37",
     "offset": 0,
     "size": 26,
     "source": "oeis-bfile"

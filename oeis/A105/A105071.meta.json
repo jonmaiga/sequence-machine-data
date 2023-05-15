@@ -2,12 +2,10 @@
   "description": "Primes in the triangle defined by T(0,c)=1, T(1,c)=c, T(r,1)=1 and T(r,c) = T(r,c-1)+ c*(r-1)!.",
   "id": "A105071",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 28,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Those even positive integers that when written in binary, each run of 0's is of exactly the same length as the run of 1's immediately before it.",
   "id": "A166751",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 49,
     "source": "oeis-entry"

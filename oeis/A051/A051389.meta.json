@@ -5,17 +5,17 @@
     "A046825",
     "A048211",
     "A153588",
-    "A180414"
+    "A180414",
+    "A338197"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
+    "changed",
     "formulas",
     "more",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 1,
     "size": 25,
     "source": "oeis-entry"

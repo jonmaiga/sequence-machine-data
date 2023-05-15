@@ -2,14 +2,12 @@
   "description": "A triangular sequence based on a two sequence lower triangular matrix. a(n)=(-1)^n*(n-1)!; b[n]=(n-1)!; M(i,j)={{a(i),b(j)},{b(j),a(i+1)}}; a0(i,j)=Det[M(i,j)]; This method gives an tridiagonal matrix effect to a lower triangular matrix base.",
   "id": "A135281",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "sign",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 36,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Largest prime (or prime power) that divides any number between the primes p(n) and p(n+1).",
   "id": "A114380",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 2,
     "size": 60,
     "source": "oeis-entry"

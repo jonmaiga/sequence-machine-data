@@ -2,12 +2,10 @@
   "description": "Numbers n such that n == prime(m) (mod prime(m+1)) for any m.",
   "id": "A106735",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:58",
     "offset": 1,
     "size": 71,
     "source": "oeis-bfile"

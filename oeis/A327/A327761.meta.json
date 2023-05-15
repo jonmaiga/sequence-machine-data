@@ -2,13 +2,11 @@
   "description": "The number of 3-interval parking functions of size n.",
   "id": "A327761",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

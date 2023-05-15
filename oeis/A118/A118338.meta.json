@@ -2,12 +2,10 @@
   "description": "Number of self-avoiding walks of step width (112) on the simple cubice lattice, divided by 24.",
   "id": "A118338",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 2,
     "size": 6,
     "source": "oeis-entry"

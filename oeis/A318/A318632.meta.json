@@ -2,12 +2,10 @@
   "description": "Let a partition of n be written in binary. Join any two binary ones which are adjacent horizontally or vertically. If all the binary ones are connected count this partition in a(n).",
   "id": "A318632",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 61,
     "source": "oeis-entry"

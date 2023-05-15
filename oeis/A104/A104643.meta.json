@@ -2,14 +2,12 @@
   "description": "Number of arrangements that can be formed by taking n distinct things out of 25.",
   "id": "A104643",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "fini",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 15:47:11",
     "offset": 0,
     "size": 19,
     "source": "joeis"

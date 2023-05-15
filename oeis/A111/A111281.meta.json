@@ -2,14 +2,12 @@
   "description": "Number of permutations avoiding the patterns {2413,2431,4213,3412,3421,4231,4321,4312}; number of strong sorting class based on 2413.",
   "id": "A111281",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:02",
     "offset": 0,
     "size": 31,
     "source": "oeis-bfile"

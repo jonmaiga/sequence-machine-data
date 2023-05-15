@@ -2,7 +2,6 @@
   "description": "a(0)=0, a(1)=1, a(n)=(a(n-1) XOR n) + a(n-2).",
   "id": "A182509",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 13:01:02",
     "offset": 0,
     "size": 39,
     "source": "joeis"

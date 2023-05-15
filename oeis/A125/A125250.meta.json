@@ -11,7 +11,6 @@
     "A109466",
     "A110320"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
@@ -19,7 +18,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

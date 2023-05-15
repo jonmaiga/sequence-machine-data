@@ -2,13 +2,11 @@
   "description": "First digit after decimal point of 6th root of n.",
   "id": "A023965",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:20:45",
     "offset": 1,
     "size": 102,
     "source": "joeis"

@@ -2,12 +2,10 @@
   "description": "Number of labeled connected non-planar projective-planar K{3,3}-free graphs with n vertices.",
   "id": "A264065",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 5,
     "size": 15,
     "source": "oeis-entry"

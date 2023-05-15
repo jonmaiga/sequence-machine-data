@@ -2,13 +2,11 @@
   "description": "Pick any pair of \"1\" digits in the sequence. Those two \"1\"s are separated by k digits. This is the lexicographically earliest sequence of distinct terms in which all the resulting values of k are distinct.",
   "id": "A273376",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:38",
     "offset": 1,
     "size": 100,
     "source": "oeis-bfile"

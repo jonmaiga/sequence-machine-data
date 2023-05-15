@@ -2,13 +2,11 @@
   "description": "Decimal expansion of integral of pi_q from 0 to 1.",
   "id": "A144875",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

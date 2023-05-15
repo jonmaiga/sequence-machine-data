@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct lines passing through exactly two points in a triangular grid of side n.",
+  "id": "A362014",
+  "mentions": [
+    "A050534",
+    "A234248",
+    "A244504"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

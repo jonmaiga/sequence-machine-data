@@ -15,12 +15,10 @@
     "A330515",
     "A330516"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 0,
     "size": 15,
     "source": "oeis-entry"

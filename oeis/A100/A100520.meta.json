@@ -5,14 +5,12 @@
     "A100516",
     "A100521"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:51",
     "offset": 0,
     "size": 19,
     "source": "oeis-bfile"

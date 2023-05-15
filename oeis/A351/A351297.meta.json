@@ -2,13 +2,11 @@
   "description": "a(n) is the least number k such that (6*i+2)*k^2-1 is prime for i = 0..n-1 but not for i = n.",
   "id": "A351297",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

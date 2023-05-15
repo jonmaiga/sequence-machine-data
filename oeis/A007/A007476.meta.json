@@ -5,21 +5,21 @@
     "A000994",
     "A000995",
     "A003633",
+    "A092920",
     "A153859",
     "A246118",
     "A256161"
   ],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
+    "changed",
     "eigen",
     "formulas",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 16:17:42",
     "offset": 0,
-    "size": 28,
-    "source": "joeis"
+    "size": 29,
+    "source": "oeis-bfile"
   }
 }

@@ -2,7 +2,6 @@
   "description": "Decimal expansion of the (real) period of the elliptic function sn(x,1/2).",
   "id": "A242670",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "cons",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:59",
     "offset": 1,
     "size": 103,
     "source": "oeis-bfile"

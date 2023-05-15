@@ -2,13 +2,11 @@
   "description": "y value of the local maximum of a discrete plot of the result of concatenating the integers one to n in base x.",
   "id": "A175916",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 2,
     "size": 15,
     "source": "oeis-entry"

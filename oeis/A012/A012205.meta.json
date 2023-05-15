@@ -2,12 +2,10 @@
   "description": "arctan(arctan(arctan(x)))=x-6/3!*x^3+192/5!*x^5-14704/7!*x^7...",
   "id": "A012205",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 13:04:44",
     "offset": 0,
     "size": 13,
     "source": "joeis"

@@ -2,14 +2,12 @@
   "description": "Period 6: repeat [1, 4, 7, 8, 5, 2].",
   "id": "A154687",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 14:42:43",
     "offset": 0,
     "size": 86,
     "source": "joeis"

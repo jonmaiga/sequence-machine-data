@@ -2,12 +2,10 @@
   "description": "Primes for which floor(x^Pi) is prime.",
   "id": "A079594",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 41,
     "source": "oeis-entry"

@@ -12,14 +12,12 @@
     "A061882",
     "A135499"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-09-08 06:56:21",
     "offset": 1,
     "size": 48,
     "source": "joeis"

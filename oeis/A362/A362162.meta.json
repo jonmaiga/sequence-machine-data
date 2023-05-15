@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. exp(-x * (1-9*x)^(1/3)).",
+  "id": "A362162",
+  "mentions": [
+    "A362159"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "joeis"
+  }
+}

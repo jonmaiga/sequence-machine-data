@@ -2,13 +2,11 @@
   "description": "a(n)...a(1) = digital representation of n-digit number m, the cube of which, m^3, ends with n 1's.",
   "id": "A153042",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:35",
     "offset": 1,
     "size": 105,
     "source": "oeis-bfile"

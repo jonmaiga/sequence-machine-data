@@ -5,15 +5,12 @@
     "A101697",
     "A101698"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
-    "changed",
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:47",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

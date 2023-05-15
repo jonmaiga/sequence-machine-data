@@ -1,16 +1,14 @@
 {
-  "description": "Prime(Catalan(n)).",
+  "description": "a(n) = prime(Catalan(n)).",
   "id": "A246670",
   "mentions": [
     "A000040",
     "A000108"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 0,
     "size": 26,
     "source": "oeis-entry"

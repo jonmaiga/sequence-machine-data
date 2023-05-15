@@ -2,13 +2,11 @@
   "description": "Greatest prime divisor of 5n+10 (sum of five successive integers).",
   "id": "A076568",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:27",
     "offset": 1,
     "size": 82,
     "source": "oeis-bfile"

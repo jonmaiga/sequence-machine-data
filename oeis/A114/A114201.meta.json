@@ -2,13 +2,11 @@
   "description": "C(1+2*n,1+n)*C(6+2*n,0+n)",
   "id": "A114201",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 09:37:33",
     "offset": 0,
     "size": 19,
     "source": "joeis"

@@ -2,7 +2,6 @@
   "description": "Decimal expansion of sqrt(8/Pi)*log(2), a constant related to the asymptotic evaluation of the minimum number of one-dimensional random walks that have to be examined to compute the maximum.",
   "id": "A243317",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "cons",
     "easy",
@@ -11,7 +10,6 @@
     "walk"
   ],
   "terms": {
-    "modified": "2022-05-16 12:48:05",
     "offset": 1,
     "size": 104,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "Inverse of number triangle A(n,k) = 1/floor((n+2)/2) if k <= n <= 2k, 0 otherwise.",
   "id": "A127793",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 66,
     "source": "oeis-entry"

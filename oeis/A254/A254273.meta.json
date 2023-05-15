@@ -2,13 +2,11 @@
   "description": "Decimal expansion of atomic unit of momentum in kg m s^-1.",
   "id": "A254273",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": -23,
     "size": 7,
     "source": "oeis-entry"

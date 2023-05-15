@@ -2,13 +2,11 @@
   "description": "Those positive integers n that contain runs of 0's and 1's that are each a power of 2 in length when n is represented in binary.",
   "id": "A160532",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 69,
     "source": "oeis-entry"

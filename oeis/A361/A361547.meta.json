@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. exp(x^5/(120 * (1-x))).",
+  "id": "A361547",
+  "mentions": [
+    "A185369",
+    "A361533",
+    "A361545"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

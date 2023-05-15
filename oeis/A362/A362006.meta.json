@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the minimum integer m such that floor(e^n) = floor(Sum_{k=0..m} (n^k)/(k!)).",
+  "id": "A362006",
+  "mentions": [
+    "A000149"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

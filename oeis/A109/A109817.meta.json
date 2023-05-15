@@ -18,13 +18,11 @@
     "A299503",
     "A303055"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:01",
     "offset": 0,
     "size": 14,
     "source": "oeis-bfile"

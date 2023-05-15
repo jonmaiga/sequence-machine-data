@@ -2,13 +2,11 @@
   "description": "Number of integer points in the convex hull in R^n of parking functions of length n.",
   "id": "A333331",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

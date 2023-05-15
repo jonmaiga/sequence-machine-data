@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n*(n-1)/2 - n*tau(n) + sigma(n).",
+  "id": "A362625",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A024816",
+    "A049820",
+    "A094471",
+    "A161680"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

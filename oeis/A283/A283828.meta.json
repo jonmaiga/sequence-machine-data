@@ -2,13 +2,11 @@
   "description": "Number of bounded regions in the Linial arrangement L_{n-1}.",
   "id": "A283828",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

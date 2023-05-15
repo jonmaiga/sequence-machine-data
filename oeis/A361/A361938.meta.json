@@ -1,0 +1,16 @@
+{
+  "description": "a(0)=1, a(1)=0; a(n) = floor(n/2)*(a(n-1) + a(n-2)).",
+  "id": "A361938",
+  "mentions": [
+    "A055596"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

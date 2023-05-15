@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the concatenation of the first n primes (A019518) is a prime.",
+  "description": "Numbers k such that the concatenation of the first k primes (A019518) is a prime.",
   "id": "A046035",
   "mentions": [
     "A000720",
@@ -8,15 +8,14 @@
     "A046284",
     "A069151"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
+    "changed",
     "formulas",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:47",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

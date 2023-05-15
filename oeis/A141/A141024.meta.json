@@ -2,7 +2,6 @@
   "description": "A triangular sequence in which the Prime[n]^(2*n) is treated like a variable expansion: (1-Prime[n])^(2*n) with the base Prime[0] is defined as one (in the Goldbach tradition) to lower the coefficients: t(n,m)=(-1)^m*Prime[n]^(2*n - m)*Binomial[2*n, m].",
   "id": "A141024",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 38,
     "source": "oeis-entry"

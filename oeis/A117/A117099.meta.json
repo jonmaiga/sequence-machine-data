@@ -2,13 +2,11 @@
   "description": "Numbers n such that nextprime(2*n)>2*nextprime(n) and n is composite (if p is prime then nextprime(p)=p).",
   "id": "A117099",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 49,
     "source": "oeis-entry"

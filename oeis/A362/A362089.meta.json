@@ -1,0 +1,19 @@
+{
+  "description": "The base-3 expansion of a(n) is obtained by inserting a zero before each nonzero digit of the base-3 expansion of n.",
+  "id": "A362089",
+  "mentions": [
+    "A007089",
+    "A048678",
+    "A328727",
+    "A362090"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

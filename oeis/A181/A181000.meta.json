@@ -2,13 +2,11 @@
   "description": "T(n,k)=number of nXk binary matrices with rows and columns each in strictly increasing order as binary numbers and each row and column having an odd number of 1s",
   "id": "A181000",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:04",
     "offset": 1,
     "size": 96,
     "source": "oeis-bfile"

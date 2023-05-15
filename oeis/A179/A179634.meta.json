@@ -2,13 +2,11 @@
   "description": "Primes p such that p + d and p-d are primes, where d is the sum of floors of square roots of the digits of p.",
   "id": "A179634",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:02",
     "offset": 1,
     "size": 41,
     "source": "oeis-bfile"

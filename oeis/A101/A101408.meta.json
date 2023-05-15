@@ -2,12 +2,10 @@
   "description": "Primes p such that p+1000 or p-1000 are also primes.",
   "id": "A101408",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:52",
     "offset": 1,
     "size": 49,
     "source": "oeis-bfile"

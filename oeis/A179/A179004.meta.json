@@ -2,13 +2,11 @@
   "description": "T(n,k)=Maximum 1's in an nXk binary array with no element equal to a strict majority of its horizontal and vertical neighbors",
   "id": "A179004",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:02",
     "offset": 1,
     "size": 86,
     "source": "oeis-bfile"

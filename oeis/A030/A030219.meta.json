@@ -2,12 +2,10 @@
   "description": "Expansion of (eta(q^5)*eta(q^7))^2.",
   "id": "A030219",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-11-11 15:41:38",
     "offset": 0,
     "size": 80,
     "source": "joeis"

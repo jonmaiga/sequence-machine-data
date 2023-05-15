@@ -1,5 +1,5 @@
 {
-  "description": "10^n-8^n+1.",
+  "description": "a(n) = 10^n-8^n+1.",
   "id": "A155667",
   "mentions": [
     "A155646",
@@ -24,14 +24,12 @@
     "A155665",
     "A155666"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 17:56:39",
     "offset": 0,
     "size": 19,
     "source": "joeis"

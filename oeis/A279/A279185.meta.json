@@ -14,13 +14,11 @@
     "A279191",
     "A279192"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:46",
     "offset": 1,
     "size": 91,
     "source": "oeis-bfile"

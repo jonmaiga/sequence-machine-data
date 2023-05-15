@@ -2,7 +2,6 @@
   "description": "First digit of the decimal expansion of (n^2-2)/7 after the decimal point.",
   "id": "A165664",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:30:33",
     "offset": 2,
     "size": 105,
     "source": "joeis"

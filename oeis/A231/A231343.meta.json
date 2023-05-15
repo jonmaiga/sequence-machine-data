@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of (n+1)X(k+1) 0..3 arrays with no element unequal to a strict majority of its horizontal and vertical neighbors, with values 0..3 introduced in row major order",
   "id": "A231343",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:49",
     "offset": 1,
     "size": 48,
     "source": "oeis-bfile"

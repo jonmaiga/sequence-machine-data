@@ -1,0 +1,17 @@
+{
+  "description": "Number of vertex cuts in the n X n knight graph.",
+  "id": "A362498",
+  "mentions": [
+    "A290765"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

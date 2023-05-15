@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of (n+2)X(k+2) 0..3 arrays with no 3X3 subblock having three equal diagonal elements or three equal antidiagonal elements, and new values 0..3 introduced in row major order",
   "id": "A204351",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:24",
     "offset": 1,
     "size": 17,
     "source": "oeis-bfile"

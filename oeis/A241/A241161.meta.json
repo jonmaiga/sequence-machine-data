@@ -2,13 +2,11 @@
   "description": "Largest order of a cubic Cayley graph of diameter d.",
   "id": "A241161",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 3,
     "size": 7,
     "source": "oeis-entry"

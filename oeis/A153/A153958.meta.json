@@ -2,12 +2,10 @@
   "description": "Number of planar n X n X n binary triangular grids symmetric both under 120 degree rotation and reflection with no more than 7 ones in any 5 X 5 X 5 subtriangle.",
   "id": "A153958",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 27,
     "source": "oeis-entry"

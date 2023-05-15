@@ -2,13 +2,11 @@
   "description": "Triangular array formed from even elements to right of middle of rows of Pascal's triangle.",
   "id": "A014476",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2022-04-28 13:39:49",
     "offset": 1,
     "size": 48,
     "source": "joeis"

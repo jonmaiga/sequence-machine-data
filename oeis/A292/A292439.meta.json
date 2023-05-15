@@ -2,7 +2,6 @@
   "description": "List of numbers k whose consecutive digits increase or decrease by d-1, where d is the number of digits in k.",
   "id": "A292439",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 131,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "a(n) = (5/128)*n^4*(n mod 2) + ((-5/128)*n^4*(n mod 2) - 26) mod n) + n^3 (n > 0).",
   "id": "A294264",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:12",
     "offset": 1,
     "size": 43,
     "source": "oeis-bfile"

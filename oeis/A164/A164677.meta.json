@@ -6,7 +6,6 @@
     "A034947",
     "A091067"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
@@ -14,7 +13,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-26 09:20:31",
     "offset": 1,
     "size": 80,
     "source": "joeis"

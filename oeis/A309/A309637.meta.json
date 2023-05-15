@@ -5,12 +5,10 @@
     "A067145",
     "A309254"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 23,
     "source": "oeis-entry"

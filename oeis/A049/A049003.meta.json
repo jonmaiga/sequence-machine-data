@@ -2,12 +2,10 @@
   "description": "Primes of form p^3 - 4, p prime.",
   "id": "A049003",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 08:31:19",
     "offset": 1,
     "size": 24,
     "source": "joeis"

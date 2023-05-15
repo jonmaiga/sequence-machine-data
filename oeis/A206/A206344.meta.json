@@ -1,5 +1,5 @@
 {
-  "description": "Floor(n/2)^n.",
+  "description": "a(n) = floor(n/2)^n.",
   "id": "A206344",
   "mentions": [
     "A206345",
@@ -7,15 +7,13 @@
     "A276978",
     "A276979"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 18:01:08",
     "offset": 1,
     "size": 21,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

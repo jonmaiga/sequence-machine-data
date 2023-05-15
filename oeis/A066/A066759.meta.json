@@ -2,12 +2,10 @@
   "description": "a(n) = least multiple of n differing from a prime by at most 1, if such a multiple exists; = 0 otherwise.",
   "id": "A066759",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 68,
     "source": "oeis-entry"

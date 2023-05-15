@@ -2,18 +2,18 @@
   "description": "Number of irreducible involutions of length n.",
   "id": "A278024",
   "mentions": [
+    "A000085",
+    "A244522",
     "A278025"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
+    "changed",
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
-    "offset": 1,
-    "size": 8,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
   }
 }

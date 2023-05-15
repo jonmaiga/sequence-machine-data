@@ -2,14 +2,12 @@
   "description": "Primes p such that (p*r) == q (mod p+r) where q and r are the next primes after p.",
   "id": "A341322",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "bref",
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

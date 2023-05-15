@@ -2,7 +2,6 @@
   "description": "Array read by antidiagonals: Costs E[m,N] of m-ary Huffman trees of maximum height with N internal nodes (non-leaves) for minimizing absolutely ordered sequences of size n=2N+1; m > 1, N > 0.",
   "id": "A098810",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 59,
     "source": "oeis-entry"

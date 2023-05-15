@@ -2,12 +2,10 @@
   "description": "Least (distinct) composite k such that k+n, k+2n, k+3n, ... up to n terms are all composite.",
   "id": "A090469",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 70,
     "source": "oeis-entry"

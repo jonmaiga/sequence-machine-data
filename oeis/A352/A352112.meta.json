@@ -9,13 +9,11 @@
     "A108731",
     "A352111"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:26",
     "offset": 0,
     "size": 61,
     "source": "oeis-bfile"

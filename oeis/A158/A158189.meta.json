@@ -2,14 +2,12 @@
   "description": "Prime numbers p such that the sum of the nonprime digits of p + the sum of even digits of p is prime.",
   "id": "A158189",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 51,
     "source": "oeis-entry"

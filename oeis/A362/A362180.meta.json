@@ -1,0 +1,21 @@
+{
+  "description": "Irregular table read by rows in which the n-th row consists of all the numbers m such that A323410(m) = n.",
+  "id": "A362180",
+  "mentions": [
+    "A032447",
+    "A246655",
+    "A323410",
+    "A361966",
+    "A362181",
+    "A362213"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

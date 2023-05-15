@@ -2,12 +2,10 @@
   "description": "Primes of the Form : p1=a*b+c;p2=a*c+b;p3=b*c+a;p=(p1+p2+p3)/2; p1,p2 and p3 are three consecutive prime numbers.",
   "id": "A157722",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:39",
     "offset": 1,
     "size": 29,
     "source": "oeis-bfile"

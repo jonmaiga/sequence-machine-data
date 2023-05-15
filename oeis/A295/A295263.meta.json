@@ -2,13 +2,11 @@
   "description": "Number of total cyclic orders Z on {1, ..., n+2} such that (i, i+1, i+2) in Z for 1 <= i <= n, and (n+1,n+2,1) in Z.",
   "id": "A295263",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

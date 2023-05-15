@@ -2,13 +2,11 @@
   "description": "Numbers that are of the form abab in some base (a <> b, a <> 0).",
   "id": "A333300",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:03",
     "offset": 1,
     "size": 53,
     "source": "oeis-bfile"

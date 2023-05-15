@@ -2,14 +2,12 @@
   "description": "Two finite groups are conformal if they have the same number of elements of each order. A natural number n is said to be a conformal order if there exist two conformal groups of order n which are not isomorphic to each other. The sequence lists the conformal orders.",
   "id": "A118642",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:08",
     "offset": 1,
     "size": 30,
     "source": "oeis-bfile"

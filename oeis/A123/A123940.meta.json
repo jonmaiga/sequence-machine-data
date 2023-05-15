@@ -2,14 +2,12 @@
   "description": "A Caratheodory-Fejer Theorem set of matrices whose characteristic polynomials produce a triangular sequence: {{a[n],...,a[0]}, {a[n-1],...,a[0],0}, ..., {a[0],0,...,0}}.",
   "id": "A123940",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "sign",
     "tabl",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 88,
     "source": "oeis-entry"

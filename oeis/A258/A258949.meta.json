@@ -1,15 +1,13 @@
 {
-  "description": "Number of (n+3)X(n+3) 0..1 arrays with no 4x4 subblock diagonal sum not equal the antidiagonal sum",
+  "description": "Number of (n+3) X (n+3) 0..1 arrays with no 4 X 4 subblock diagonal sum not equal the antidiagonal sum.",
   "id": "A258949",
   "mentions": [
     "A258957"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

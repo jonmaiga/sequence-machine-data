@@ -15,7 +15,6 @@
     "A257145",
     "A293481"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "base",
     "easy",
@@ -23,7 +22,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:10:51",
     "offset": 1,
     "size": 66,
     "source": "joeis"

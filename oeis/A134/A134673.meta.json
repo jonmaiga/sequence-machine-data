@@ -8,14 +8,12 @@
     "A073757",
     "A127448"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 93,
     "source": "oeis-entry"

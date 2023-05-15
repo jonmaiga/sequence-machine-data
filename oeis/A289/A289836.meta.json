@@ -2,12 +2,10 @@
   "description": "Numbers k such that floor(e*k + Pi) is a square.",
   "id": "A289836",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:04",
     "offset": 1,
     "size": 40,
     "source": "oeis-bfile"

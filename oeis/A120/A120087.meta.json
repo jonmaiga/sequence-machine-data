@@ -7,21 +7,25 @@
     "A027641",
     "A027642",
     "A120080",
+    "A120081",
+    "A120082",
+    "A120083",
+    "A120084",
+    "A120085",
     "A120086",
     "A227573",
     "A227574"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 24,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

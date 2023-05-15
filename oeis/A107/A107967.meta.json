@@ -2,14 +2,12 @@
   "description": "a(n) = (n+1)(n+2)^3*(n+3)^2*(n+4)(n^2 + 4n + 5)/1440.",
   "id": "A107967",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:13:55",
     "offset": 0,
     "size": 25,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "For each k let k_2 be the smallest number greater than k+1 and coprime to k*(k+1) and let k_3 be the smallest number greater than k_2 and coprime to k*(k+1)*k_2. The sequence lists numbers k such that k*(k+1) + k_2*k_3 and -k*(k+1) + k_2*k_3 are prime.",
   "id": "A100797",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:51",
     "offset": 1,
     "size": 61,
     "source": "oeis-bfile"

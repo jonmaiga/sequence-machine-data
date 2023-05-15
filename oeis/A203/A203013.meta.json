@@ -1,16 +1,20 @@
 {
-  "description": "E.g.f. satisfies: A(x) = Sum_{n>=0} (2*A(x)^n - 1)^n * x^n/n!.",
+  "description": "Expansion of e.g.f. A(x) satisfying A(x) = Sum_{n>=0} (2*A(x)^n - 1)^n * x^n/n!.",
   "id": "A203013",
   "mentions": [
-    "A202999"
+    "A202999",
+    "A361053",
+    "A361054",
+    "A361055",
+    "A361056",
+    "A361057",
+    "A361540"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 0,
     "size": 18,
     "source": "oeis-entry"

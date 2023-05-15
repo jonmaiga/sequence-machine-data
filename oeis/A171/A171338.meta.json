@@ -1,13 +1,11 @@
 {
-  "description": "Number of permutations of 0..n-1 v[1..n] with all autocorrelation values sum(i){v[i]*v[i-k]} distinct for k in 0..n-1",
+  "description": "Number of permutations of 0..n-1 v[1..n] with all autocorrelation values sum(i){v[i]*v[i-k]} distinct for k in 0..n-1.",
   "id": "A171338",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 14,
     "source": "oeis-entry"

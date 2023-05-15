@@ -31,15 +31,12 @@
     "A218736",
     "A218753"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:36",
     "offset": 0,
     "size": 18,
     "source": "oeis-bfile"

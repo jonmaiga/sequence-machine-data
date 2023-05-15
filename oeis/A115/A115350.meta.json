@@ -13,14 +13,12 @@
     "A098009",
     "A098010"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 82,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

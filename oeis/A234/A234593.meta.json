@@ -2,13 +2,11 @@
   "description": "Lexicographically earliest sequence of distinct positive numbers such that (i) the numbers of terms separating successive multiples of 5 gives the sequence itself, and (ii) the numbers of digits separating successive occurrences of the digit 5 also gives the sequence.",
   "id": "A234593",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:52",
     "offset": 1,
     "size": 82,
     "source": "oeis-bfile"

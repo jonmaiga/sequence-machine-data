@@ -2,14 +2,12 @@
   "description": "Triangle read by rows of operator ordering coefficients corresponding to the Chebyshev polynomials T_n(x).",
   "id": "A225696",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "more",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 0,
     "size": 28,
     "source": "oeis-entry"

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of weakly connected digraphs on n unlabeled nodes with k strongly connected components.",
+  "id": "A361587",
+  "mentions": [
+    "A003085",
+    "A035512",
+    "A101228",
+    "A350794",
+    "A361582",
+    "A361588"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -2,13 +2,11 @@
   "description": "Dimension of quantum lens space needed for non-uniqueness.",
   "id": "A327721",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 3,
     "size": 83,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Positions of the Dirichlet inverse of the Euler totient function expansion of the partial sums of the Möbius inverse of the Harmonic numbers in the set of the sorted tuples that have upper and lower bounds -(k-1) and +(k-1).",
   "id": "A332771",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

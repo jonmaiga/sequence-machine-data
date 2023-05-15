@@ -2,13 +2,11 @@
   "description": "Decimal expansion of atomic unit of electric field in V m^-1.",
   "id": "A254247",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 12,
     "size": 7,
     "source": "oeis-entry"

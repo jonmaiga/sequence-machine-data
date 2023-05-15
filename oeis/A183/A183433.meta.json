@@ -2,13 +2,11 @@
   "description": "T(n,k)=One third the number of nXk 0..3 arrays with no element equal to its row sum plus its column sum mod 4",
   "id": "A183433",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:07",
     "offset": 1,
     "size": 36,
     "source": "oeis-bfile"

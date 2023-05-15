@@ -2,13 +2,11 @@
   "description": "Decimal expansion of 7/2 - sqrt(2)/4.",
   "id": "A100954",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:52",
     "offset": 1,
     "size": 99,
     "source": "oeis-bfile"

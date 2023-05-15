@@ -2,13 +2,11 @@
   "description": "Johnson's non-Wieferich numbers of the first kind.",
   "id": "A281728",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

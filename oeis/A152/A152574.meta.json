@@ -2,12 +2,10 @@
   "description": "Numbers n such that entering (N*0.3/N*0.1) on a Rumor LG Sprint cell phone produced the value 2 instead of 3, where N = n * (2**k) for k = 0, 1, 2, ....",
   "id": "A152574",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

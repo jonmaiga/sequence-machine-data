@@ -2,13 +2,11 @@
   "description": "a(n) is the code of the optimum strategy to win the game Super Six for two players if there are n sticks left in the game.",
   "id": "A345383",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 15,
     "source": "oeis-entry"

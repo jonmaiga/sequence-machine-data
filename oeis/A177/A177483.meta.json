@@ -2,13 +2,11 @@
   "description": "Number of permutations avoiding the pattern 1231'.",
   "id": "A177483",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:01",
     "offset": 0,
     "size": 24,
     "source": "oeis-bfile"

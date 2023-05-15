@@ -2,12 +2,10 @@
   "description": "Let f[n]=Prime[n+1]-Prime[n]; a(n) = Binomial[Prime[12],f[n]].",
   "id": "A104180",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 33,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "The integers sieved by 7, 5, 3, and 2.",
   "id": "A216983",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 87,
     "source": "oeis-entry"

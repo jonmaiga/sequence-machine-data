@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (33^n-1)/32.",
+  "description": "a(n) = (33^n - 1)/32.",
   "id": "A218736",
   "mentions": [
     "A000225",
@@ -31,16 +31,14 @@
     "A218737",
     "A218753"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:36",
     "offset": 0,
-    "size": 16,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

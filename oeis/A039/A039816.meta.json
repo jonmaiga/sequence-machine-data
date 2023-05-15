@@ -9,14 +9,12 @@
     "A039815",
     "A039817"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "formulas",
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:50",
     "offset": 1,
     "size": 45,
     "source": "oeis-bfile"

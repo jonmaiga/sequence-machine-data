@@ -2,12 +2,10 @@
   "description": "a(1)=1. a(n) = (highest term among first n-1 terms of sequence which divides n)-th integer from among those integers not occurring among the first n-1 terms of the sequence.",
   "id": "A123923",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:12",
     "offset": 1,
     "size": 70,
     "source": "oeis-bfile"

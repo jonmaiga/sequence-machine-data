@@ -2,14 +2,12 @@
   "description": "Minimal peaks in digital expansions of Pi: positions of peaks equal to 1.",
   "id": "A105275",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:56",
     "offset": 1,
     "size": 35,
     "source": "oeis-bfile"

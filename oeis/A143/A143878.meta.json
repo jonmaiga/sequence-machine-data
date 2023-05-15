@@ -2,14 +2,12 @@
   "description": "Number of ways of placing kings with no more than 2 mutual attacks on an n X n chessboard symmetric about main diagonal.",
   "id": "A143878",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 13,
     "source": "oeis-entry"

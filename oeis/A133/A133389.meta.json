@@ -2,14 +2,12 @@
   "description": "Start with a(1)=1; now a(n+1)=a(n)+a(k) with k=[n-n-th digit of Pi]. If k",
   "id": "A133389",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:21",
     "offset": 1,
     "size": 49,
     "source": "oeis-bfile"

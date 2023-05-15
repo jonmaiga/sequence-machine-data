@@ -2,13 +2,11 @@
   "description": "Integer area of primitive bicentric quadrilateral with integer side, rational inradius and rational circumradius. Excluding right kites.",
   "id": "A273752",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

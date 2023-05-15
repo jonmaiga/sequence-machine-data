@@ -2,13 +2,11 @@
   "description": "Take the binary representation of n. Reduce by half the number of digits in every run (completely of either 0's or 1's) of an even number of digits. Double the number of digits in every run of an odd number of digits in the binary representation of n (where the added digits have the same value that makes up the rest of the run's digits). a(n) = the decimal equivalent of the result.",
   "id": "A162854",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:44",
     "offset": 1,
     "size": 59,
     "source": "oeis-bfile"

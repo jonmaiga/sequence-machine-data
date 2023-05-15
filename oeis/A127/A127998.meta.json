@@ -2,14 +2,12 @@
   "description": "Numbers n such that (24^n - 1)/23 is prime.",
   "id": "A127998",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

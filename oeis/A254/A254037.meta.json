@@ -2,14 +2,12 @@
   "description": "Decimal expansion of the positive solution to the equation chi_2(r) = 0, where chi_2(r) is solution to the Lane-Emden pressure equation of index 2.",
   "id": "A254037",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 25,
     "source": "oeis-entry"

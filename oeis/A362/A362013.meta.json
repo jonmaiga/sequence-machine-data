@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of labeled directed graphs on [n] with exactly k strongly connected components of size 1 with outdegree zero, n>=0, 0<=k<=n.",
+  "id": "A362013",
+  "mentions": [
+    "A003028",
+    "A003030",
+    "A053763",
+    "A086206",
+    "A350792",
+    "A361592"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

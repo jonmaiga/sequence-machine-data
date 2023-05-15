@@ -2,12 +2,10 @@
   "description": "exp(arctanh(x) + arctan(x)) = 1 + 2*x + 4/2!*x^2 + 8/3!*x^3 + 16/4!*x^4 + 80/5!*x^5 +...",
   "id": "A013174",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 01:39:27",
     "offset": 0,
     "size": 21,
     "source": "joeis"

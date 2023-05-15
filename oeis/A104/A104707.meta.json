@@ -12,7 +12,6 @@
     "A097522",
     "A104778"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "fini",
     "full",
@@ -20,7 +19,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

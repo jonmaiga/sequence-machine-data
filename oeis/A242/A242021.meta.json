@@ -2,7 +2,6 @@
   "description": "Decimal expansion of the asymptotic growth rate of the number of odd coefficients in Pascal trinomial triangle mod 2.",
   "id": "A242021",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "cons",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 0,
     "size": 100,
     "source": "oeis-entry"

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least n-gonal number that is the sum of two or more consecutive nonzero n-gonal numbers in more than one way, or -1 if no such number exists.",
+  "id": "A360762",
+  "mentions": [
+    "A057145",
+    "A062681",
+    "A307608",
+    "A307614",
+    "A343777",
+    "A360777"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

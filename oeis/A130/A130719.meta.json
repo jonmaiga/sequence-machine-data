@@ -2,13 +2,11 @@
   "description": "a(n) = n-th digit after the decimal point of the decimal representation of the n-th harmonic number.",
   "id": "A130719",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 80,
     "source": "oeis-entry"

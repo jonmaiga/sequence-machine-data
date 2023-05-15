@@ -1,12 +1,11 @@
 {
-  "description": "Maximum order of explicit Runge-Kutta method with n function evaluations in each step.",
+  "description": "Maximum order of an explicit Runge-Kutta method with n function evaluations in each step.",
   "id": "A187103",
   "mentions": [
     "A087803",
     "A187102",
     "A303735"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "hard",
@@ -14,7 +13,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

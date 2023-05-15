@@ -2,14 +2,12 @@
   "description": "Decimal expansion of electron mass (mass units).",
   "id": "A003672",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 0,
     "size": 13,
     "source": "oeis-entry"

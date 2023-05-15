@@ -2,13 +2,11 @@
   "description": "T(n,k)=1/120 the number of (n+1)X(k+1) 0..4 arrays with every 2X2 subblock containing four distinct values",
   "id": "A183622",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:07",
     "offset": 1,
     "size": 36,
     "source": "oeis-bfile"

@@ -5,13 +5,11 @@
     "A269725",
     "A269729"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "easy",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 0,
     "size": 80,
     "source": "oeis-entry"

@@ -2,7 +2,6 @@
   "description": "Infinite sequence gradually builds a triangle plus another more widely spaced triangle on top of it, or overlapping, if you will.",
   "id": "A173777",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:58",
     "offset": 1,
     "size": 68,
     "source": "oeis-bfile"

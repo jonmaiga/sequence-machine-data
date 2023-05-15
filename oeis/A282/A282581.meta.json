@@ -2,13 +2,11 @@
   "description": "Decimal expansion of the limiting Nusselt Number for laminar flow in a cylindrical pipe with constant wall temperature",
   "id": "A282581",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 100,
     "source": "oeis-entry"

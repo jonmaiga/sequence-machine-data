@@ -2,13 +2,11 @@
   "description": "Chromatic number of the n-polygon diagonal intersection graph.",
   "id": "A320604",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 09:51:13",
     "offset": 1,
     "size": 92,
     "source": "joeis"

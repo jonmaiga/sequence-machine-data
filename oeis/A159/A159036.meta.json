@@ -2,14 +2,12 @@
   "description": "a(0)=0, a(1)=1, a(2)=4, a(3)=13; thereafter a(n+3)=4*a(n+2)-4*a(n+1)+2*a(n) for n>=1.",
   "id": "A159036",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 16:40:13",
     "offset": 0,
     "size": 28,
     "source": "joeis"

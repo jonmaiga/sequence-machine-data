@@ -11,13 +11,11 @@
     "A199340",
     "A199349"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:20",
     "offset": 1,
     "size": 44,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "Number of degeneracies on the sets of ordinary trees with n vertices according to a topological index.",
   "id": "A121223",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 7,
     "size": 15,
     "source": "oeis-entry"

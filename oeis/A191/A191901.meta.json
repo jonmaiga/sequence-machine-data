@@ -2,14 +2,12 @@
   "description": "Number of compositions of odd natural numbers into 6 parts <= n.",
   "id": "A191901",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:15",
     "offset": 0,
     "size": 31,
     "source": "oeis-bfile"

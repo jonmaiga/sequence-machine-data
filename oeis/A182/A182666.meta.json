@@ -2,12 +2,11 @@
   "description": "E.g.f.: Product_{n>=1} Sum_{k>=0} (x^k/k!)^n.",
   "id": "A182666",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:06",
     "offset": 0,
     "size": 22,
     "source": "oeis-bfile"

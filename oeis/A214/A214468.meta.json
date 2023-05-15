@@ -2,14 +2,12 @@
   "description": "Degrees of irreducible representations of symplectic group S6(3).",
   "id": "A214468",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:32",
     "offset": 1,
     "size": 47,
     "source": "oeis-bfile"

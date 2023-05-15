@@ -2,13 +2,11 @@
   "description": "Sequence is concatenation of S_1, S_2, S_3, ..., where S_k = [45k, 45k-1, 45k-2, ..., 45k-9k].",
   "id": "A137439",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:25",
     "offset": 1,
     "size": 61,
     "source": "oeis-bfile"

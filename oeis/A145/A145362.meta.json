@@ -9,7 +9,6 @@
     "A036039",
     "A145361"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
@@ -17,7 +16,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

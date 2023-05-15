@@ -2,12 +2,10 @@
   "description": "Numbers N with prime factors p_1, ... p_n, such that 1/p_1 + Sum_{i=2..n} p_(i-1)/p_i + p_n/N - (n+2)/N = 1.",
   "id": "A242920",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

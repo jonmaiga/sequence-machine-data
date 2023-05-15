@@ -2,12 +2,10 @@
   "description": "Number of n-node triangulations of the double torus S_2 in which every node has degree >= 6.",
   "id": "A129037",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 9,
     "size": 7,
     "source": "oeis-entry"

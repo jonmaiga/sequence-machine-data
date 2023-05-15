@@ -2,14 +2,12 @@
   "description": "Value of the Foxtrot sum Sum_{k>=1} (-1)^(k + 1)*k^2/(k^3 + 1).",
   "id": "A127198",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:39",
     "offset": 0,
     "size": 105,
     "source": "joeis"

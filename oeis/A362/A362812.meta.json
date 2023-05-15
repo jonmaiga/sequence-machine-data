@@ -1,0 +1,18 @@
+{
+  "description": "Number of minimal total dominating sets in the n-double cone graph.",
+  "id": "A362812",
+  "mentions": [
+    "A300738",
+    "A362750"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

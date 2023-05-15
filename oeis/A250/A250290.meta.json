@@ -1,16 +1,16 @@
 {
-  "description": "Numbers n such that Euler(n) (A122045(n)) is a semiprime.",
+  "description": "Numbers k such that Euler(k) (A122045(k)) is a semiprime.",
   "id": "A250290",
   "mentions": [
     "A103234",
     "A122045"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
+    "changed",
+    "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

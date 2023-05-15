@@ -7,15 +7,12 @@
     "A002708",
     "A214300"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "look",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:43",
     "offset": 1,
     "size": 105,
     "source": "oeis-bfile"

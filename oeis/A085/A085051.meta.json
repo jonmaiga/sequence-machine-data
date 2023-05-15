@@ -2,12 +2,10 @@
   "description": "Smallest multiple of n sandwiched between two numbers both having square divisors.",
   "id": "A085051",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:36",
     "offset": 1,
     "size": 52,
     "source": "oeis-bfile"

@@ -2,14 +2,12 @@
   "description": "Period of Langton's ant on an n X n torus.",
   "id": "A309251",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

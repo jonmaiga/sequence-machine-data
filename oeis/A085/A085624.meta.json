@@ -2,14 +2,12 @@
   "description": "Sum of the entries in the character table of the dihedral group D_{2n} of order 2n.",
   "id": "A085624",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:51:37",
     "offset": 1,
     "size": 66,
     "source": "joeis"

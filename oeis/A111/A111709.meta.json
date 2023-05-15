@@ -2,14 +2,12 @@
   "description": "Expansion of (x^8-x^7+x^5-x+1)*(x^4+1) / ((x+1)*(x^2+1)*(x^4-x^2+1)*(x^2-x+1)*(x^2+x+1)*(x-1)^2)).",
   "id": "A111709",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:04:41",
     "offset": 0,
     "size": 89,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of (n+1)X(k+1) 0..3 arrays x(i,j) with row sums sum{x(i,j), j=1..k+1} nondecreasing, and column sums sum{i*x(i,j), i=1..n+1} nondecreasing",
   "id": "A232886",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:51",
     "offset": 1,
     "size": 27,
     "source": "oeis-bfile"

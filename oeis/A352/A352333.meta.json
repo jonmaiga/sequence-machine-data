@@ -2,13 +2,11 @@
   "description": "a(1) = 1. For n >= 2, a(n) is the number whose base a(n-1) + 1 digit values, written in base 10, are the terms from a(1) through a(n-1).",
   "id": "A352333",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

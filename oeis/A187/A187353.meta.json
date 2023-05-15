@@ -1,8 +1,7 @@
 {
-  "description": "Number of Possible Ways to Fill Out NCAA Division I Men's Basketball Tournament Office Pool by Year, 1939-2011",
+  "description": "Number of possible ways to fill out NCAA Division I Men's Basketball Tournament Office Pool by year, 1939-2011.",
   "id": "A187353",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "dumb",
     "easy",
@@ -12,7 +11,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:12",
     "offset": 1939,
     "size": 33,
     "source": "oeis-bfile"

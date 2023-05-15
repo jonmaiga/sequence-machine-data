@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that A360016(k) > 0.",
+  "id": "A361415",
+  "mentions": [
+    "A360016"
+  ],
+  "tags": [
+    "easy",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

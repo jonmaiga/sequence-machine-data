@@ -2,14 +2,12 @@
   "description": "Numbers k such that prime(k) is congruent to sigma(k) (mod k), where prime(n) denotes the n-th prime.",
   "id": "A066684",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

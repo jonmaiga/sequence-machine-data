@@ -10,12 +10,10 @@
     "A243117",
     "A243118"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:59",
     "offset": 1,
     "size": 65,
     "source": "oeis-bfile"

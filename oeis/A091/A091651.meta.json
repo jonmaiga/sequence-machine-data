@@ -2,13 +2,11 @@
   "description": "Decimal expansion of (5 - Pi)/4.",
   "id": "A091651",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 13:47:35",
     "offset": 0,
     "size": 102,
     "source": "joeis"

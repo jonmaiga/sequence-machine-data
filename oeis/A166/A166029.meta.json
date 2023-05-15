@@ -2,13 +2,11 @@
   "description": "Continued fraction expansion for the order -1/2 harmonic number of 1/2",
   "id": "A166029",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 98,
     "source": "oeis-entry"

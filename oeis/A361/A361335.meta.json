@@ -1,0 +1,16 @@
+{
+  "description": "Smallest decimal number containing n palindromic substrings (Version 1). See Comments for precise definition.",
+  "id": "A361335",
+  "mentions": [
+    "A361336"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

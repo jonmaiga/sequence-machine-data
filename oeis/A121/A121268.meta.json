@@ -2,12 +2,10 @@
   "description": "Generating function = sum over all subsets S of the integers {0,1,2...} of 1/sum(1/x^n for n in S)",
   "id": "A121268",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 33,
     "source": "oeis-entry"

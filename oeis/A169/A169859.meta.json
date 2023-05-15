@@ -2,13 +2,11 @@
   "description": "Smallest nontrivial square (i.e., not of the form 10^2k, k>0) with at least n identical adjacent digits.",
   "id": "A169859",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

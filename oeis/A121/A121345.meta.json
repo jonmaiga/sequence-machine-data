@@ -2,12 +2,10 @@
   "description": "Number of osculating polygons of perimeter 2n on square lattice.",
   "id": "A121345",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:10",
     "offset": 1,
     "size": 22,
     "source": "oeis-bfile"

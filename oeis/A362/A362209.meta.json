@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n, k) is the number of k X k matrices using all the integers from 1 to k^2 and having trace equal to n, with 1 <= k <= A003056(n).",
+  "id": "A362209",
+  "mentions": [
+    "A000290",
+    "A003056",
+    "A345132",
+    "A362187",
+    "A362208"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

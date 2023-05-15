@@ -2,13 +2,11 @@
   "description": "Triangle read by rows: t(n,k)=n!/(n - k*(n - k)).",
   "id": "A155795",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 66,
     "source": "oeis-entry"

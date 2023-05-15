@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the differences between the smallest square greater than prime(n) and the largest square less than prime(n), where prime(n) = A000040(n) is the n-th prime number.",
+  "description": "a(n) is the difference between the smallest square greater than prime(n) and the largest square less than prime(n), where prime(n) = A000040(n) is the n-th prime number.",
   "id": "A117767",
   "mentions": [
     "A000006",
@@ -9,14 +9,12 @@
     "A247514",
     "A247515"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:07",
     "offset": 1,
     "size": 72,
     "source": "oeis-bfile"

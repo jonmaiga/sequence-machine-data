@@ -2,12 +2,10 @@
   "description": "First square that can be represented as the sum of n nonzero squares.",
   "id": "A215539",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:33",
     "offset": 1,
     "size": 66,
     "source": "oeis-bfile"

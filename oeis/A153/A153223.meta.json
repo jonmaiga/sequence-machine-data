@@ -9,14 +9,12 @@
     "A153221",
     "A153224"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

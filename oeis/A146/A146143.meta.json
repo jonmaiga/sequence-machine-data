@@ -2,12 +2,10 @@
   "description": "Number of n X n binary arrays symmetric under 180 degree rotation with all ones connected only in a 5-point barb 1,1 1,2 2,2 2,3 3,2 in any orientation.",
   "id": "A146143",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

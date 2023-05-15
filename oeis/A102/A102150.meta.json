@@ -2,14 +2,12 @@
   "description": "a(0)=0; a(1)=2. Slowest increasing sequence where every digit \"d\" has a copy of itself in a(n+d).",
   "id": "A102150",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 37,
     "source": "oeis-entry"

@@ -9,15 +9,14 @@
     "A002922",
     "A005402"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
+    "changed",
     "more",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 1,
-    "size": 14,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

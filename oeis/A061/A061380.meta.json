@@ -1,16 +1,16 @@
 {
   "description": "Triangular numbers with product of digits also a triangular number.",
   "id": "A061380",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:20",
+  "mentions": [
+    "A000217"
+  ],
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-28 11:08:27",
-    "offset": 0,
+    "offset": 1,
     "size": 48,
     "source": "joeis"
   }

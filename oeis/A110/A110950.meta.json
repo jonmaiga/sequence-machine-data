@@ -2,12 +2,10 @@
   "description": "a(n) = permanent of an n X n matrix M of zeros and ones defined as follows: if we concatenate the rows of M to form a vector v of length n^2, v_i = 0 if i is prime and v_i = 1, otherwise.",
   "id": "A110950",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 3,
     "size": 20,
     "source": "oeis-entry"

@@ -1,14 +1,12 @@
 {
-  "description": "Square array, read by rows. For n,d >= 0, a(n,d) is the number of congruences of the d-twisted partition monoid of degree n",
+  "description": "Square array, read by rows. For n,d >= 0, a(n,d) is the number of congruences of the d-twisted partition monoid of degree n.",
   "id": "A340914",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 0,
     "size": 66,
     "source": "oeis-entry"

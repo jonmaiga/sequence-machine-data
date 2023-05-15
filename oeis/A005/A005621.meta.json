@@ -2,13 +2,11 @@
   "description": "Spiral sieve using Fibonacci numbers.",
   "id": "A005621",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 13:07:16",
     "offset": 1,
     "size": 35,
     "source": "joeis"

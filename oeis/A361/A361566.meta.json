@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the denominator of the median of divisors of n.",
+  "id": "A361566",
+  "mentions": [
+    "A027750",
+    "A033676",
+    "A033677",
+    "A071090",
+    "A139710",
+    "A139711",
+    "A361565"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

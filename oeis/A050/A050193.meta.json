@@ -2,12 +2,10 @@
   "description": "a(n)=a(n-1)+a(n-2)-d, where d=a(n/3) if 3 divides n, else d=0; 2 initial terms.",
   "id": "A050193",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 11:33:44",
     "offset": 1,
     "size": 38,
     "source": "joeis"

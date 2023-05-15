@@ -2,14 +2,12 @@
   "description": "Numbers k such that k^2 - 1 == 0 (mod 24^2).",
   "id": "A156702",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 20:10:15",
     "offset": 1,
     "size": 45,
     "source": "joeis"

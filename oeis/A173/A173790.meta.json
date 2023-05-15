@@ -2,13 +2,11 @@
   "description": "a(n) is the number of (0,1) matrices A=(a_{ij}) of size n X (4n) such that each row has exactly four 1's and each column has exactly one 1 and with the restriction that no 1 stands on the diagonal from a_{11} to a_{22}.",
   "id": "A173790",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

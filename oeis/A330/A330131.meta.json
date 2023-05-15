@@ -2,14 +2,12 @@
   "description": "Number of length-n binary words with no even palindrome of length > 6 and no odd palindrome of length > 3.",
   "id": "A330131",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 14:26:17",
     "offset": 0,
     "size": 46,
     "source": "joeis"

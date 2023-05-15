@@ -2,7 +2,6 @@
   "description": "Order of letters on an American keyboard reading top to bottom, left to right.",
   "id": "A124517",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 26,
     "source": "oeis-entry"

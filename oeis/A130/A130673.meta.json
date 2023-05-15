@@ -2,14 +2,12 @@
   "description": "Smallest m of r=1,2,3,... where the generalized Euler constants (of D. H. Lehmer) E(r,m) change their sign: E(r,m) > 0 and E(r+1,m) < 0.",
   "id": "A130673",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 17,
     "source": "oeis-entry"

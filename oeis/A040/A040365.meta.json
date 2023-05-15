@@ -2,7 +2,6 @@
   "description": "Continued fraction for sqrt(385).",
   "id": "A040365",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "cofr",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:19:23",
     "offset": 0,
     "size": 90,
     "source": "joeis"

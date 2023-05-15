@@ -2,12 +2,10 @@
   "description": "a(n)=(nextprime(n)+(n+1))(nextprime(n+1)+n)/2.",
   "id": "A179681",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 47,
     "source": "oeis-entry"

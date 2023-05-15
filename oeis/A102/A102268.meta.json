@@ -2,14 +2,12 @@
   "description": "Decimal expansion of inverse binary entropy function of 1/2.",
   "id": "A102268",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:34",
     "offset": 0,
     "size": 99,
     "source": "joeis"

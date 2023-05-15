@@ -10,7 +10,6 @@
     "A230415",
     "A231714"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "formulas",
@@ -18,7 +17,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:48",
     "offset": 0,
     "size": 120,
     "source": "oeis-bfile"

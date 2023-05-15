@@ -2,7 +2,6 @@
   "description": "Four-digit semiprimes that are concatenation and product of two 2-digit primes.",
   "id": "A180344",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Expansion of Pi^2 in golden base (i.e., in irrational base phi = (1 + sqrt(5))/2).",
   "id": "A102242",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

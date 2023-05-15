@@ -2,12 +2,10 @@
   "description": "Integer radii of circles over an integer lattice such that the number of unit squares whose centers are contained in the circle is less than the area of the circle.",
   "id": "A299016",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 49,
     "source": "oeis-entry"

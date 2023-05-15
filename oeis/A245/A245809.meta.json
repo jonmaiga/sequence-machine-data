@@ -2,14 +2,12 @@
   "description": "Divisors of 4620.",
   "id": "A245809",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:01",
     "offset": 1,
     "size": 48,
     "source": "oeis-bfile"

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A361338(k) = 9.",
+  "id": "A361348",
+  "mentions": [
+    "A361337",
+    "A361338",
+    "A361349"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

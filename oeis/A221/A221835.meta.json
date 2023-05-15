@@ -2,12 +2,10 @@
   "description": "G.f. satisfies: A(x) = Sum_{n>=0} x^n / Product_{k=1..n} (x + A(-x)^k).",
   "id": "A221835",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 0,
     "size": 31,
     "source": "oeis-entry"

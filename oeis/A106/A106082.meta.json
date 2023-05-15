@@ -2,12 +2,10 @@
   "description": "Primes p such that 5*p+14 and 14*p+5 are primes.",
   "id": "A106082",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 48,
     "source": "oeis-entry"

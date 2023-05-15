@@ -2,14 +2,12 @@
   "description": "Numbers k such that 7^k + 3 is semiprime.",
   "id": "A119739",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "less",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

@@ -1,0 +1,21 @@
+{
+  "description": "Numbers m with m mod 3 = q, q != 2, such that the number of ones in its base-2 representation is even if q=0 and odd if q=1.",
+  "id": "A360799",
+  "mentions": [
+    "A001835",
+    "A003775",
+    "A028469",
+    "A028471",
+    "A180963",
+    "A187616",
+    "A360800"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -2,14 +2,12 @@
   "description": "Primes with the same number of even decimal digits and prime digits.",
   "id": "A154765",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:36",
     "offset": 1,
     "size": 53,
     "source": "oeis-bfile"

@@ -2,14 +2,12 @@
   "description": "a(n) is the least integer such that concat(a(0), a(1), ..., a(n-1), a(n)) == n-1 (mod n), with a(0) = 0.",
   "id": "A308552",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:33",
     "offset": 0,
     "size": 72,
     "source": "oeis-bfile"

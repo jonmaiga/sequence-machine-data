@@ -2,12 +2,10 @@
   "description": "a(1) = 1; a(n) is the smallest n-th power which is congruent to 1 mod a(n-1).",
   "id": "A068894",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 5,
     "source": "oeis-entry"

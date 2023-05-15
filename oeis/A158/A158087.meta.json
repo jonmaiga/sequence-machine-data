@@ -2,14 +2,12 @@
   "description": "Prime numbers p such that largest digit of p / smallest digit of p = prime.",
   "id": "A158087",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

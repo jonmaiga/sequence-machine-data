@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows. T(n, k) = FallingFactorial(n - k, k) * Stirling2(n - k, k), for n >= 0 and 0 <= k <= n//2, where '//' denotes integer division.",
+  "id": "A362789",
+  "mentions": [
+    "A362769",
+    "A362788",
+    "A362790"
+  ],
+  "tags": [
+    "new",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

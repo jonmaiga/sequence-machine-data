@@ -2,14 +2,12 @@
   "description": "a(n) = bitwise OR of all terms of n-th row of Pascal's triangle.",
   "id": "A104176",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:54",
     "offset": 0,
     "size": 34,
     "source": "oeis-bfile"

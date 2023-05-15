@@ -2,13 +2,11 @@
   "description": "a(n) + a(n - 1) is alternatively a square or a cube.",
   "id": "A130532",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

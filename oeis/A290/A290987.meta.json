@@ -2,16 +2,16 @@
   "description": "Expansion of (1 - 2*x + x^2 - x^4 + x^3 + x^5)/((1 - x)^2*(1 - 2*x + x^3 - x^4)).",
   "id": "A290987",
   "mentions": [
-    "A059633"
+    "A059633",
+    "A290986",
+    "A290989"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:06",
     "offset": 0,
     "size": 35,
     "source": "oeis-bfile"

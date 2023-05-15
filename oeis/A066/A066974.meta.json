@@ -2,12 +2,10 @@
   "description": "Integers of the form (1/m)*sum(i=1,m,binomial(2i,i)).",
   "id": "A066974",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

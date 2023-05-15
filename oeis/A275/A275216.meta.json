@@ -5,15 +5,12 @@
     "A007318",
     "A083906"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "look",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-03-14 10:44:28",
     "offset": 0,
     "size": 98,
     "source": "oeis-bfile"

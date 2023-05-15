@@ -2,13 +2,11 @@
   "description": "Let p = n-th odd prime; a(n) = number of primitive roots of p which might be expected to be relatively prime to p-1, that is, a(n) = phi(p-1)^2/(p-1) rounded to the nearest integer.",
   "id": "A128861",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 70,
     "source": "oeis-entry"

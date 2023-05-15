@@ -2,14 +2,12 @@
   "description": "Minimum number of observables that need to be measured in order to uniquely determine an n-dimensional quantum state that is known a priori to be pure.",
   "id": "A210532",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 2,
     "size": 6,
     "source": "oeis-entry"

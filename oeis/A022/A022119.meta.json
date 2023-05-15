@@ -2,13 +2,11 @@
   "description": "Fibonacci sequence beginning 2, 19.",
   "id": "A022119",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:28",
     "offset": 0,
     "size": 30,
     "source": "oeis-bfile"

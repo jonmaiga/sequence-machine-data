@@ -2,12 +2,10 @@
   "description": "Number of odd-then-even runs to reach 1 under the modified `3x+1' map: n -> n/2 if n is even, n -> (3n+1)/2 if n is odd.",
   "id": "A160541",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:42",
     "offset": 1,
     "size": 83,
     "source": "oeis-bfile"

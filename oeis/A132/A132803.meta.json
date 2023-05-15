@@ -2,13 +2,11 @@
   "description": "Number of simple permutations in S_n, i.e., those whose \"cycle graph\" (or \"breakpoint graph\") only contains alternating cycles of length at most 3.",
   "id": "A132803",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

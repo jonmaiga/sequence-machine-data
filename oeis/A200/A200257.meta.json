@@ -2,13 +2,11 @@
   "description": "Decimal expansion of the circumradius R of cyclic pentagon with sides 2, 3, 5, 7, and 11.",
   "id": "A200257",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 85,
     "source": "oeis-entry"

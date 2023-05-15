@@ -2,14 +2,12 @@
   "description": "a(n) = ((1+sqrt(11))^n-(1-sqrt(11))^n)^2/44.",
   "id": "A144044",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 10:50:12",
     "offset": 1,
     "size": 17,
     "source": "joeis"

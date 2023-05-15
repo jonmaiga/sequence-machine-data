@@ -1,0 +1,18 @@
+{
+  "description": "Number of divisors d of n such that phi(d) | n.",
+  "id": "A362470",
+  "mentions": [
+    "A000010",
+    "A069932"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

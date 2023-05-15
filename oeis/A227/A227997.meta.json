@@ -5,7 +5,6 @@
     "A002894",
     "A054474"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn",
@@ -13,7 +12,6 @@
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "T(n,k) = number of length-n 0..k arrays connected end-around, with no sequence of L",
   "id": "A215401",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:33",
     "offset": 1,
     "size": 89,
     "source": "oeis-bfile"

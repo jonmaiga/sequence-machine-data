@@ -2,13 +2,11 @@
   "description": "Let a(1) = least prime p such that 18517# + p is = q(1) prime, then a(n+1) = least number such that q(n)*(q(n)+a(n+1))-1 is prime.",
   "id": "A144306",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 5,
     "source": "oeis-entry"

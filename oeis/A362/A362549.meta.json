@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of [n] whose blocks can be ordered such that the i-th block (except possibly the last) has at least i elements and no block j > i has an element smaller than the i-th smallest element of block i.",
+  "id": "A362549",
+  "mentions": [
+    "A000110",
+    "A007476",
+    "A092920",
+    "A210540",
+    "A362635",
+    "A362893"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

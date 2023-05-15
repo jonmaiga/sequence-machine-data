@@ -2,13 +2,11 @@
   "description": "a(n) = Sum_{k=1..n} binomial(k, n mod k).",
   "id": "A072951",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:25",
     "offset": 1,
     "size": 37,
     "source": "oeis-bfile"

@@ -13,14 +13,12 @@
     "A143816",
     "A143817"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 25,
     "source": "oeis-entry"

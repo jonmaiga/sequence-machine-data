@@ -2,13 +2,11 @@
   "description": "G.f. satisfies: A(x) = 1 + Sum_{n>=1} (A(x)^n + A(x)^-n) * x^(n^2).",
   "id": "A190791",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:14",
     "offset": 0,
     "size": 26,
     "source": "oeis-bfile"

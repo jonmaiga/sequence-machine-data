@@ -1,0 +1,18 @@
+{
+  "description": "A variant of A359143 which includes the intermediate terms before digits are deleted (see Comments for precise definition).",
+  "id": "A361350",
+  "mentions": [
+    "A359142",
+    "A359143"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

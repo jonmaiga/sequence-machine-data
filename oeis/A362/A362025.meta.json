@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least number that reaches 1 after n iterations of the infinitary totient function A064380.",
+  "id": "A362025",
+  "mentions": [
+    "A003271",
+    "A007755",
+    "A064380",
+    "A333610",
+    "A362024"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

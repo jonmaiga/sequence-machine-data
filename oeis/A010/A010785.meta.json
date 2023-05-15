@@ -22,16 +22,15 @@
     "A227362",
     "A244112"
   ],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "base",
+    "changed",
     "easy",
     "formulas",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:17",
     "offset": 0,
     "size": 52,
     "source": "oeis-bfile"

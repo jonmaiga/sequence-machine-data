@@ -2,13 +2,11 @@
   "description": "Primes of the form 223092870*m + 2236133941 (m>=0).",
   "id": "A180688",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 11:12:29",
     "offset": 1,
     "size": 18,
     "source": "joeis"

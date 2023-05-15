@@ -2,12 +2,10 @@
   "description": "P-graphs with 2n edges.",
   "id": "A007168",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:46:52",
     "offset": 1,
     "size": 24,
     "source": "joeis"

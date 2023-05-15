@@ -2,13 +2,11 @@
   "description": "Dimensions of totally primitive elements of Hopf algebra PML_1.",
   "id": "A230887",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 0,
     "size": 9,
     "source": "oeis-entry"

@@ -18,14 +18,12 @@
     "A236104",
     "A236112"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 76,
     "source": "oeis-entry"

@@ -1,0 +1,28 @@
+{
+  "description": "A(n,k) is the n-th term of the k-th inverse binomial transform of the Bell numbers (A000110); square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A361781",
+  "mentions": [
+    "A000012",
+    "A000110",
+    "A000296",
+    "A024000",
+    "A108087",
+    "A126617",
+    "A160457",
+    "A290219",
+    "A346738",
+    "A346739",
+    "A346740",
+    "A361380"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,12 +2,10 @@
   "description": "a(1)=1, a(n) = Sum_{k=1..n-1} (number of divisors of a(k) that also divide n).",
   "id": "A110794",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 69,
     "source": "oeis-entry"

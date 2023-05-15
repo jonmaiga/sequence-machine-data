@@ -4,9 +4,9 @@
   "mentions": [
     "A006248",
     "A063804",
-    "A063852"
+    "A063852",
+    "A222315"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "more",
     "nice",
@@ -14,7 +14,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:47",
     "offset": 3,
     "size": 32,
     "source": "oeis-entry"

@@ -23,7 +23,6 @@
     "A112505",
     "A113116"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "fini",
@@ -31,7 +30,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:04",
     "offset": 1,
     "size": 55,
     "source": "oeis-bfile"

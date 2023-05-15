@@ -2,14 +2,12 @@
   "description": "Numbers of the form (1+2n^2+4n^3)/(n+10).",
   "id": "A122107",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "fini",
     "full",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

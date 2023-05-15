@@ -6,16 +6,13 @@
     "A027427",
     "A027430"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:36",
     "offset": 1,
     "size": 53,
     "source": "oeis-bfile"

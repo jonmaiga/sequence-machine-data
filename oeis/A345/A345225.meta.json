@@ -2,14 +2,12 @@
   "description": "a(n) = order of 2-primary subgroup of the group K_n(Z).",
   "id": "A345225",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:18",
     "offset": 0,
     "size": 80,
     "source": "oeis-bfile"

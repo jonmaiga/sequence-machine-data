@@ -1,0 +1,18 @@
+{
+  "description": "Number of even nontotients less than 10^n.",
+  "id": "A362550",
+  "mentions": [
+    "A002202",
+    "A005277",
+    "A072077"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

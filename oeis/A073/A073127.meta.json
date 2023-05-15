@@ -5,12 +5,10 @@
     "A073125",
     "A073126"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

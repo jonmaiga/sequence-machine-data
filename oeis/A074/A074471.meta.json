@@ -2,12 +2,10 @@
   "description": "Sum of 2nd, 4th, 6th, 8th and 10th powers of divisors are divisible by sum of divisors.",
   "id": "A074471",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 32,
     "source": "oeis-entry"

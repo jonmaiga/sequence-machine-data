@@ -1,20 +1,18 @@
 {
-  "description": "Smallest multiple of 2n+1 with property that digits are odd and each digit is two less (mod 10) than the previous digit.",
+  "description": "Smallest multiple of 2n+1 with the property that its digits are odd and each digit is two less (mod 10) than the previous digit, or 0 if no such number exists.",
   "id": "A062887",
   "mentions": [
     "A062884",
     "A062885"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 0,
     "size": 26,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

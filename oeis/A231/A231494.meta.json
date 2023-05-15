@@ -2,13 +2,11 @@
   "description": "Dimensions of the Sylvester subalgebra of the Hopf algebra PML_1.",
   "id": "A231494",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 0,
     "size": 8,
     "source": "oeis-entry"

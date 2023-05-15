@@ -2,13 +2,11 @@
   "description": "Coordination sequence for 24-dimensional cyclotomic lattice Z[zeta_35].",
   "id": "A126925",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 17:50:15",
     "offset": 0,
     "size": 22,
     "source": "joeis"

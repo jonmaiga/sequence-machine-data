@@ -2,13 +2,11 @@
   "description": "Largest prime arising that can be formed by stringing together the decimal expansions of some or all of the first n numbers in some order.",
   "id": "A113030",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 2,
     "size": 16,
     "source": "oeis-entry"

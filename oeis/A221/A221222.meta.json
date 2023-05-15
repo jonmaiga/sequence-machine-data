@@ -2,13 +2,11 @@
   "description": "Threshold for the P(n)-avoidance vertex-coloring game with two colors and fixed tree size restriction, where P(n) denotes the path on n vertices (see the comments and reference for precise definition).",
   "id": "A221222",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 53,
     "source": "oeis-entry"

@@ -6,7 +6,6 @@
     "A128543",
     "A249453"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "bref",
     "formulas",
@@ -14,7 +13,6 @@
     "unkn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

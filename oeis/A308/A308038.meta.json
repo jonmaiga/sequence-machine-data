@@ -2,14 +2,12 @@
   "description": "a(n) = Sum_{i=1..floor((n-1)/2)} i * (n-i)^2.",
   "id": "A308038",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:48:17",
     "offset": 1,
     "size": 42,
     "source": "joeis"

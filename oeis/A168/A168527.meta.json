@@ -2,13 +2,11 @@
   "description": "a(n) = n^6*(n^2 + 1)/2.",
   "id": "A168527",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:46:19",
     "offset": 0,
     "size": 25,
     "source": "joeis"

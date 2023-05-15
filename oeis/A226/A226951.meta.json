@@ -2,12 +2,10 @@
   "description": "Number of filiform Lie algebras with a certain grading of dimension n over Z_2.",
   "id": "A226951",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:44",
     "offset": 4,
     "size": 61,
     "source": "oeis-bfile"

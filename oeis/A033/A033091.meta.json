@@ -8,13 +8,11 @@
     "A059856",
     "A098967"
   ],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 0,
     "size": 29,
     "source": "oeis-entry"

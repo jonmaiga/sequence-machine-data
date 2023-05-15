@@ -2,13 +2,11 @@
   "description": "sech(arcsin(x)*arcsin(x))=1-12/4!*x^4-240/6!*x^6-1008/8!*x^8...",
   "id": "A012351",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-02 18:12:54",
     "offset": 0,
     "size": 14,
     "source": "joeis"

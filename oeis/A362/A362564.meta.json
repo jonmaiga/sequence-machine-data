@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the largest integer x such that n + 2^x is a square, or -1 if no such number exists.",
+  "id": "A362564",
+  "mentions": [
+    "A000079",
+    "A000290",
+    "A004539",
+    "A004713",
+    "A234000",
+    "A238454"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

@@ -2,14 +2,12 @@
   "description": "Replace 2n+1 with concatenation of its divisors >1.",
   "id": "A037287",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:35:17",
     "offset": 0,
     "size": 47,
     "source": "joeis"

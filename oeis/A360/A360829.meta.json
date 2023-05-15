@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the ratio between the area of the first Morley triangle of an isosceles right triangle and its area.",
+  "id": "A360829",
+  "mentions": [
+    "A359837",
+    "A360828"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": -1,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

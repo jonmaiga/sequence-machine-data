@@ -5,7 +5,6 @@
     "A001107",
     "A182491"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "formulas",
@@ -13,7 +12,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 62,
     "source": "oeis-entry"

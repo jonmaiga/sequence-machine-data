@@ -2,12 +2,10 @@
   "description": "a(n) = integer nearest a(n-1)/(sqrt(7) - 2), where a(1) = 1.",
   "id": "A024567",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:34",
     "offset": 1,
     "size": 40,
     "source": "oeis-bfile"

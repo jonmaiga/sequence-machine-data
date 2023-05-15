@@ -2,12 +2,10 @@
   "description": "Semiprimes of the form prime(n) + prime(n+2) - prime(n+1).",
   "id": "A104243",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:54",
     "offset": 1,
     "size": 56,
     "source": "oeis-bfile"

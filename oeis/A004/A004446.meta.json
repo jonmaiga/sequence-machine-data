@@ -2,14 +2,12 @@
   "description": "a(n) = Nimsum n + 5.",
   "id": "A004446",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 12:31:13",
     "offset": 0,
     "size": 58,
     "source": "joeis"

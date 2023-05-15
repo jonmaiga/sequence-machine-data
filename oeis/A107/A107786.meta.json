@@ -2,13 +2,11 @@
   "description": "a(n) = |b(n)| where b(n) = -b(n-1) + 6*b(n-3) with b(0)=0, b(1)=1, b(2)=1.",
   "id": "A107786",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:59",
     "offset": 0,
     "size": 35,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "G.f.: 1/((1-t^4)*(1-t)*(1-t^3)*(1-t^5)*(1-t^7)).",
   "id": "A266744",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 13:07:33",
     "offset": 0,
     "size": 69,
     "source": "joeis"

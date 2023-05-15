@@ -2,13 +2,11 @@
   "description": "Pseudoquadprimes: p+4 for primes p where p+4 divides p^(p+4) + 4 and p+4 is composite.",
   "id": "A100875",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:51",
     "offset": 1,
     "size": 36,
     "source": "oeis-bfile"

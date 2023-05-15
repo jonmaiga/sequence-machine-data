@@ -2,14 +2,12 @@
   "description": "Start with 1; multiply alternately by 3 and 4.",
   "id": "A282022",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:51",
     "offset": 0,
     "size": 28,
     "source": "oeis-bfile"

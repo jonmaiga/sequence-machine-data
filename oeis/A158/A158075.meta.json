@@ -2,14 +2,12 @@
   "description": "Prime numbers p such that (the largest digit of p) - (the smallest digit of p) is prime.",
   "id": "A158075",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:40",
     "offset": 1,
     "size": 54,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "a(n) = (1 + Sum_{j=1..K-2} a(n-j)*a(n-j-1))/a(n-K) with a(1),...,a(K)=1, where K=9.",
   "id": "A283821",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:54",
     "offset": 1,
     "size": 19,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "a(n) = the number of integers k, 1 <= k <= n-1, such that p(n)-p(k) is divisible by n-k (here p(n) = the n-th prime.)",
   "id": "A163001",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 93,
     "source": "oeis-entry"

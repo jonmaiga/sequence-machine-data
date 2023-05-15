@@ -19,7 +19,6 @@
     "A177121",
     "A282634"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "formulas",
     "nice",
@@ -27,7 +26,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:04",
     "offset": 1,
     "size": 93,
     "source": "oeis-bfile"

@@ -2,7 +2,6 @@
   "description": "Triangle T(n, k) = Sum_{j=0..10} (-1)^j * floor(binomial(n, k)/2^(n-j)), read by rows.",
   "id": "A174105",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
@@ -11,7 +10,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:58",
     "offset": 0,
     "size": 66,
     "source": "oeis-bfile"

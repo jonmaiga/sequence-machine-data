@@ -2,13 +2,11 @@
   "description": "a(n) = largest number k such that k and k * n taken together have distinct digits, or 0 if no such k exists.",
   "id": "A173780",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 43,
     "source": "oeis-entry"

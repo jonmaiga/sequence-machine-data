@@ -2,13 +2,11 @@
   "description": "Face-pairing graphs (see reference for precise definition).",
   "id": "A118560",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 3,
     "size": 8,
     "source": "oeis-entry"

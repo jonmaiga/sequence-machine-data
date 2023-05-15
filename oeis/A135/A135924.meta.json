@@ -2,13 +2,11 @@
   "description": "Related to Darboux curves: see reference for precise definition.",
   "id": "A135924",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

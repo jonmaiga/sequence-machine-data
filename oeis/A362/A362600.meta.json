@@ -1,0 +1,23 @@
+{
+  "description": "a(1) = 1, a(2) = 6, a(3) = 10; for n > 3, a(n) is the smallest positive number that has not yet appeared that shares a factor with a(n-1) and a(n-2) and also contains as factors the smallest primes that are not factors of both a(n-1) and a(n-2).",
+  "id": "A362600",
+  "mentions": [
+    "A001694",
+    "A053669",
+    "A064413",
+    "A337687",
+    "A351495",
+    "A360519",
+    "A361606",
+    "A362754"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -2,13 +2,11 @@
   "description": "Sprague-Grundy sequence G(i-Mark({2,4}, {2})).",
   "id": "A263834",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 0,
     "size": 74,
     "source": "oeis-entry"

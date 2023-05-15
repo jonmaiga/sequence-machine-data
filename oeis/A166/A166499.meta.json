@@ -2,13 +2,11 @@
   "description": "Concatenate the rightmost digit of n-th prime and the leftmost digit of (n+1)th prime!",
   "id": "A166499",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 69,
     "source": "oeis-entry"

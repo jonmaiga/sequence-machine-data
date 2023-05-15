@@ -2,15 +2,14 @@
   "description": "Number of (non-null) connected induced subgraphs in the n-triangular honeycomb acute knight graph.",
   "id": "A291594",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
+    "changed",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
-    "size": 10,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

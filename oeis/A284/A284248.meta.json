@@ -2,13 +2,11 @@
   "description": "Every binary string w of length n has a subword of length a(n) that appears at least twice in w.",
   "id": "A284248",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 130,
     "source": "oeis-entry"

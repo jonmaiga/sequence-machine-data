@@ -2,13 +2,11 @@
   "description": "Rounded down ratio of a minimum intersection area with a unit circle area in n-symmetrical unit circles intersect in a single point.",
   "id": "A243933",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 3,
     "size": 38,
     "source": "oeis-entry"

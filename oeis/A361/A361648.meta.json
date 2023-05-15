@@ -1,0 +1,19 @@
+{
+  "description": "Number of permutations p of [n] such that p(i), p(i+2), p(i+4),... form an updown sequence for i in {1,2}.",
+  "id": "A361648",
+  "mentions": [
+    "A000111",
+    "A000142",
+    "A001405",
+    "A361651"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

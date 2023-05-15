@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1; a(2) = 2; for n > 2, a(n) is the smallest positive number that has not yet appeared that shares a factor with a(n-1) when both a(n-1) and a(n) are read as numbers in bases from one more than the maximum digit in a(n-1) and a(n), up to base 10.",
+  "id": "A362842",
+  "mentions": [
+    "A004053",
+    "A064413",
+    "A337687",
+    "A348086",
+    "A352763",
+    "A354087"
+  ],
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

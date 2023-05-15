@@ -2,14 +2,12 @@
   "description": "Decimal expansion of the torsional rigidity constant for a right isosceles triangular shaft.",
   "id": "A180314",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 91,
     "source": "oeis-entry"

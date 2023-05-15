@@ -2,13 +2,11 @@
   "description": "Number of permutations of squarefree monomials of degree n in n non-commutative variables that are compatible with a non-commutative monomial order (in the Groebner basis sense).",
   "id": "A014315",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

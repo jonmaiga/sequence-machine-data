@@ -2,14 +2,12 @@
   "description": "Decimal expansion of 22*Pi + 4*e.",
   "id": "A121313",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "cons",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 13:55:31",
     "offset": 2,
     "size": 105,
     "source": "joeis"

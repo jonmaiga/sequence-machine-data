@@ -8,17 +8,18 @@
     "A052048",
     "A052049",
     "A052051",
-    "A052052"
+    "A052052",
+    "A225428"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
+    "changed",
+    "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 15:00:33",
     "offset": 1,
-    "size": 24,
+    "size": 29,
     "source": "joeis"
   }
 }

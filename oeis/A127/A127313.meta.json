@@ -2,12 +2,10 @@
   "description": "Primes p such that p+q+r, where p, q, r are consecutive primes, equals s+t+1, where s and t are consecutive primes.",
   "id": "A127313",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

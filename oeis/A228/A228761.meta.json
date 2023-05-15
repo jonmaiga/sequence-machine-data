@@ -2,7 +2,6 @@
   "description": "Primes of the concatenated form 149x149 for some number x.",
   "id": "A228761",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:45",
     "offset": 1,
     "size": 26,
     "source": "oeis-bfile"

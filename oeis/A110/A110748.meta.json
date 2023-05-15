@@ -2,13 +2,11 @@
   "description": "Form triangle shown below, in which the n-th row contains n terms of an arithmetic progression with first term 1 and common difference n. Then a(n) = terms of the n-th row (mod 10), concatenated.",
   "id": "A110748",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:02",
     "offset": 1,
     "size": 18,
     "source": "oeis-bfile"

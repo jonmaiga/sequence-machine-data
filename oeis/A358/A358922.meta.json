@@ -2,12 +2,10 @@
   "description": "First of four consecutive primes p,q,r,s such that q*s - p*r is a square.",
   "id": "A358922",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:33",
     "offset": 1,
     "size": 40,
     "source": "oeis-bfile"

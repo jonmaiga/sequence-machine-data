@@ -2,13 +2,11 @@
   "description": "Numbers n such that nextprime(5*n)>5*nextprime(n) and n is composite (if p is prime then nextprime(p)=p).",
   "id": "A117101",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 29,
     "source": "oeis-entry"

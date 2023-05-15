@@ -2,14 +2,12 @@
   "description": "a(0)=0; for n > 0, a(n) is the sum of the partial sums of binary digits of a(n-1) + 1, starting from the least significant digit, and given weights 1, 2, 2^2, etc.",
   "id": "A290032",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 0,
     "size": 21,
     "source": "oeis-entry"

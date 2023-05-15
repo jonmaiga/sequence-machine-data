@@ -2,12 +2,10 @@
   "description": "Number of sequences of length n with a_{i-1} < a_i <= a_1 + ... + a_{i-1} + 1.",
   "id": "A036794",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

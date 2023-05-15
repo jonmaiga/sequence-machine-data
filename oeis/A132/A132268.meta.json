@@ -3,6 +3,7 @@
   "id": "A132268",
   "mentions": [
     "A000203",
+    "A027880",
     "A048651",
     "A100220",
     "A132019",
@@ -14,14 +15,13 @@
     "A132323",
     "A132326"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
+    "changed",
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:20",
     "offset": 0,
     "size": 106,
     "source": "oeis-bfile"

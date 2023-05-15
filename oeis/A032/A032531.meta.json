@@ -1,17 +1,18 @@
 {
-  "description": "a(n) = number of a(i) for 0<=i",
+  "description": "An inventory sequence: triangle read by rows, where T(n, k), 0 <= k <= n, records the number of k's thus far in the flattened sequence.",
   "id": "A032531",
   "mentions": [
     "A002262",
+    "A025581",
     "A342585"
   ],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
+    "changed",
     "look",
-    "nonn"
+    "nonn",
+    "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:42",
     "offset": 0,
     "size": 94,
     "source": "oeis-bfile"

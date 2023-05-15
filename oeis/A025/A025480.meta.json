@@ -28,7 +28,6 @@
     "A225381",
     "A263390"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "easy",
     "formulas",
@@ -38,7 +37,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:34",
     "offset": 0,
     "size": 84,
     "source": "oeis-bfile"

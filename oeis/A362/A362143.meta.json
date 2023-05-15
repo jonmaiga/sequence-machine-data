@@ -1,0 +1,19 @@
+{
+  "description": "Maximum number of ways in which a set of integer-sided squares can tile an n X n square.",
+  "id": "A362143",
+  "mentions": [
+    "A034295",
+    "A045846",
+    "A361217",
+    "A362142"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

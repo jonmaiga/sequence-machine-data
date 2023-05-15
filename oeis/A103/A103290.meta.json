@@ -2,13 +2,11 @@
   "description": "n*(n-1)*(n^2-n+4)/6.",
   "id": "A103290",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 15:46:13",
     "offset": 0,
     "size": 40,
     "source": "joeis"

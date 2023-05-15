@@ -2,13 +2,11 @@
   "description": "Given n cards in a stack numbered from 1 to n with 1 at the top, repeat the following process: first remove the card that is in the middle (at position (size of the stack)/2, rounding up), then move the card that is at the bottom of the stack to the top. This process is repeated until there is only one card left. a(n) is the number of the last remaining card.",
   "id": "A308432",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 70,
     "source": "oeis-entry"

@@ -2,15 +2,14 @@
   "description": "Expansion of 1/((1-x^2)(1-x^3)(1-x^8)(1-x^10)).",
   "id": "A029162",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:44:22",
     "offset": 0,
-    "size": 60,
+    "size": 68,
     "source": "oeis-bfile"
   }
 }

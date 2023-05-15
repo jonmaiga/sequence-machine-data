@@ -2,13 +2,11 @@
   "description": "Number of cubes in Menger cube constructions by levels: Sum[20^(2^n), {n, 0, m}].",
   "id": "A130832",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

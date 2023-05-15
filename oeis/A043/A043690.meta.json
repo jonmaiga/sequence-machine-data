@@ -2,13 +2,11 @@
   "description": "a(n) = (s(n)-1)/2, where s(n) is the n-th number whose base-2 representation has exactly 9 runs.",
   "id": "A043690",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:21:57",
     "offset": 1,
     "size": 45,
     "source": "joeis"

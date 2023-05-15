@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k for which sqrt(k/2) divides k and the symmetric representation of sigma(k) has a single part.",
+  "id": "A361903",
+  "mentions": [
+    "A001105",
+    "A071562",
+    "A174973",
+    "A235791",
+    "A237048",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A238443",
+    "A250068",
+    "A319796"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

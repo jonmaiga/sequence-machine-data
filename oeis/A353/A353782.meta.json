@@ -1,0 +1,25 @@
+{
+  "description": "Number of regions among all distinct circles that can be constructed from a point on the origin and n equally spaced points on each of the +x,-x,+y,-y coordinates axes using only a compass.",
+  "id": "A353782",
+  "mentions": [
+    "A354605",
+    "A356358",
+    "A359046",
+    "A359253",
+    "A359570",
+    "A359860",
+    "A359933",
+    "A361622",
+    "A361623"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

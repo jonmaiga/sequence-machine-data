@@ -2,7 +2,6 @@
   "description": "Numbering of the 32 radial streets on a prospect of the city of Karlsruhe (Baden), Germany from 1721.",
   "id": "A262029",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "fini",
     "full",
@@ -11,7 +10,6 @@
     "unsolved"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 32,
     "source": "oeis-entry"

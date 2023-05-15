@@ -2,14 +2,12 @@
   "description": "Sum of the fifth powers of the parts in the partitions of n into two parts.",
   "id": "A294272",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 11:14:29",
     "offset": 1,
     "size": 31,
     "source": "joeis"

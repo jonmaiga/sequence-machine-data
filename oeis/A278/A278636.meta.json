@@ -2,12 +2,10 @@
   "description": "List of dense centipedes in increasing order of nomenclature.",
   "id": "A278636",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 4,
     "size": 103,
     "source": "oeis-entry"

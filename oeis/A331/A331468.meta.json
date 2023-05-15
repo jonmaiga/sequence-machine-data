@@ -10,14 +10,12 @@
     "A160851",
     "A203024"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:01",
     "offset": 1,
     "size": 51,
     "source": "oeis-bfile"

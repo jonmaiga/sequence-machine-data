@@ -2,13 +2,11 @@
   "description": "a(n) = a(n-1) + a(n-2) if n == 3 mod 4; a(n) = a(n-1) - a(n-2) if n == 0 mod 4; a(n) = a(n-1)*a(n-2) if n == 1 mod 4; and a(n) = a(n-1)/a(n-2) if n == 2 mod 4; with a(1)=a(2)=1.",
   "id": "A131183",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 29,
     "source": "oeis-entry"

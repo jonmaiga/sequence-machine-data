@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 1 and a(n) = 2^(n-1)*Product_{j=1..n} (4*j - 3)^2 - Sum_{m=1..n-1} binomial(2*n, 2*m)*a(m)*a(n-m)/2 for n > 0.",
+  "id": "A362714",
+  "mentions": [
+    "A317651",
+    "A362713",
+    "A362715"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

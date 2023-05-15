@@ -1,0 +1,17 @@
+{
+  "description": "Smallest number with 2^n odd divisors.",
+  "id": "A360438",
+  "mentions": [
+    "A005179",
+    "A038547"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

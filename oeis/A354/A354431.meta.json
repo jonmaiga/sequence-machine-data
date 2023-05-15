@@ -2,13 +2,11 @@
   "description": "Numbers k such that there are no bipartite graphs with k edge coverings.",
   "id": "A354431",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

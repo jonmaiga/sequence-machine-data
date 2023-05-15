@@ -2,13 +2,11 @@
   "description": "Number of classes created in S_n by the {132, 231}{213, 312}-equivalence.",
   "id": "A222319",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

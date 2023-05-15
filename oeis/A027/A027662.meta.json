@@ -6,13 +6,11 @@
     "A027663",
     "A027664"
   ],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:35:33",
     "offset": 1,
     "size": 44,
     "source": "joeis"

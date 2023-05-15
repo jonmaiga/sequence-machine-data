@@ -2,13 +2,11 @@
   "description": "Special values of the hypergeometric function of the type 4F0.",
   "id": "A153028",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-09-08 06:56:22",
     "offset": 0,
     "size": 17,
     "source": "joeis"

@@ -2,7 +2,6 @@
   "description": "Define the operations M: multiply by 11, D: divide by 11, R: reverse digits. Sequence gives trajectory of 19 under action of M,R,D,R.",
   "id": "A084364",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:25:09",
     "offset": 0,
     "size": 69,
     "source": "joeis"

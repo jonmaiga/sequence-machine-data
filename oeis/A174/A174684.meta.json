@@ -2,13 +2,11 @@
   "description": "The number of (tame) knots and links with Matveev complexity n for closed manifolds, given by Heard in the form of a surgery description when the underlying space is not S^3.",
   "id": "A174684",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 4,
     "source": "oeis-entry"

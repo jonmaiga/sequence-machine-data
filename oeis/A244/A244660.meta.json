@@ -2,13 +2,11 @@
   "description": "Numbers x such that the base 10 representation of x^2 forms an arithmetic sequence when split into equal-sized chunks.",
   "id": "A244660",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:00",
     "offset": 1,
     "size": 38,
     "source": "oeis-bfile"

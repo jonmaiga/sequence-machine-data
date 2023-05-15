@@ -2,14 +2,11 @@
   "description": "Numbers n such that the sum of the proper divisors of n and n+1 equals either n or n+1.",
   "id": "A130776",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 32,
     "source": "oeis-entry"

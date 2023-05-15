@@ -2,7 +2,6 @@
   "description": "For k not divisible by 10, let f(k) be the number obtained by moving the last digit of k to the front. Then a(n) is the smallest k > 0, made of nonzero digits, such that for all 1 <= i < n, i+1 divides f^i(k).",
   "id": "A084392",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "easy",
@@ -11,7 +10,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

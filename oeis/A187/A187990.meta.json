@@ -4,7 +4,6 @@
   "mentions": [
     "A187988"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "changed",
     "easy",
@@ -12,9 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:44:25",
     "offset": 0,
     "size": 42,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

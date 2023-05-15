@@ -2,14 +2,12 @@
   "description": "List of quadruples: [-2n-1, 2n+2, -2n-1, 2n+2].",
   "id": "A134967",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-26 11:51:01",
     "offset": 0,
     "size": 77,
     "source": "joeis"

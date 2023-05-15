@@ -2,12 +2,10 @@
   "description": "Numerators of coefficients c(n) in asymptotic expansion of Sum_{m=1..k} sqrt(m) ~ zeta(-1/2) + (2/3)*k^(3/2) + (-1/2)*k^(1/2) + Sum_{n=0..inf} c(n)/k^(2*n+1/2).",
   "id": "A260151",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 0,
     "size": 18,
     "source": "oeis-entry"

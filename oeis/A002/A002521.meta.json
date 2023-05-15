@@ -2,14 +2,12 @@
   "description": "Weight distribution of [ 28,14,9 ] ternary self-dual code.",
   "id": "A002521",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 0,
     "size": 10,
     "source": "oeis-entry"

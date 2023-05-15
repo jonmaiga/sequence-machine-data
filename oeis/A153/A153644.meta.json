@@ -5,16 +5,13 @@
     "A067076",
     "A153238"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:35",
     "offset": 1,
     "size": 45,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Chord Progression graph substitution algorithm that give even odd on the p[7] tp p[6],but all twelve notes are covered: based on: C-> {F,G} is like D->{G,A} or 4->{9,11} is like 6->{11,1}.",
   "id": "A135357",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:23",
     "offset": 1,
     "size": 87,
     "source": "oeis-bfile"

@@ -7,15 +7,12 @@
     "A006290",
     "A361367"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "bref",
     "more",
-    "new",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 4,
     "size": 3,
     "source": "oeis-entry"

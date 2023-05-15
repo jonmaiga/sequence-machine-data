@@ -2,13 +2,11 @@
   "description": "Number of diameter-2-critical graphs with n nodes.",
   "id": "A330333",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 3,
     "size": 8,
     "source": "oeis-entry"

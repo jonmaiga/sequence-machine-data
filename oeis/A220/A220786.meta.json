@@ -2,13 +2,11 @@
   "description": "T(n,k)=Agreement numbers: number of nXk arrays of the count of horizontal and vertical neighbors equal to the corresponding element in a random 0..3 nXk array",
   "id": "A220786",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:39",
     "offset": 1,
     "size": 41,
     "source": "oeis-bfile"

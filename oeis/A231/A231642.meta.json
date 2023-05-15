@@ -2,13 +2,11 @@
   "description": "Triangle read by rows, t(n,k) = binomial(n,k) mod n, k <= n.",
   "id": "A231642",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:49",
     "offset": 1,
     "size": 105,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Smallest positive integer whose n-th power contains an equal number of each digit (0-9) when represented in base 10.",
   "id": "A074205",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 24,
     "source": "oeis-entry"

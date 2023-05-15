@@ -2,7 +2,6 @@
   "description": "Triangle of coefficients from a polynomial recursion with row sum near =2*5^n: p(x,n)=(x + 1)*(p(x, n - 1) + 2*5^(n - 2)*(x + 5*x^Floor[n/2] + x^(n - 2))).",
   "id": "A153354",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 50,
     "source": "oeis-entry"

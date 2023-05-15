@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of nXk binary matrices that are completed draws in min(n,k)-in-a-row tic-tac-toe, with 0 going first",
   "id": "A181029",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:04",
     "offset": 1,
     "size": 60,
     "source": "oeis-bfile"

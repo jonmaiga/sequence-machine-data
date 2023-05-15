@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least positive integer that can be expressed as the sum of one or more consecutive nonprime numbers in exactly n ways.",
+  "id": "A361473",
+  "mentions": [
+    "A018252",
+    "A054859"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

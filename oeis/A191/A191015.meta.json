@@ -2,12 +2,10 @@
   "description": "Number of isomorphism classes of Coxeter systems with n reflections",
   "id": "A191015",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 30,
     "source": "oeis-entry"

@@ -1,0 +1,21 @@
+{
+  "description": "Positive integers n such that 2*n cannot be written as a sum of distinct elements of the set {5^a + 5^b: a,b = 0,1,2,...}.",
+  "id": "A362861",
+  "mentions": [
+    "A055235",
+    "A055237",
+    "A226809",
+    "A226816",
+    "A362743"
+  ],
+  "tags": [
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

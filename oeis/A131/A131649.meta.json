@@ -2,13 +2,11 @@
   "description": "Number of distinct improper 2-coloring of edges for odd-order cyclic graphs.",
   "id": "A131649",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 3,
     "size": 45,
     "source": "oeis-entry"

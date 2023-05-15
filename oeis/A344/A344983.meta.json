@@ -25,14 +25,12 @@
     "A275984",
     "A344984"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "cons",
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 23249425,
     "size": 87,
     "source": "oeis-entry"

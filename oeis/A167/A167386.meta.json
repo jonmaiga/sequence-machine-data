@@ -2,14 +2,12 @@
   "description": "a(n) = (-1)^n*n*(n+1)*(2*n-5)/6.",
   "id": "A167386",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:51",
     "offset": 1,
     "size": 42,
     "source": "oeis-bfile"

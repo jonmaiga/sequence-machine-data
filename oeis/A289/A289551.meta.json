@@ -2,14 +2,12 @@
   "description": "Unsigned byte values of the infamous \"09 F9\" HD-DVD encryption key.",
   "id": "A289551",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 0,
     "size": 16,
     "source": "oeis-entry"

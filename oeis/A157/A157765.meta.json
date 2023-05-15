@@ -2,14 +2,12 @@
   "description": "Expansion of (2 - 2*x) / (1 - 10*x - 7*x^2).",
   "id": "A157765",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:40",
     "offset": 0,
     "size": 20,
     "source": "oeis-bfile"

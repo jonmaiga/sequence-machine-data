@@ -2,14 +2,12 @@
   "description": "Number of length-n binary vectors beginning with 0, ending with 1, and avoiding 5 consecutive 0's and 5 consecutive 1's.",
   "id": "A283835",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:54",
     "offset": 0,
     "size": 36,
     "source": "oeis-bfile"

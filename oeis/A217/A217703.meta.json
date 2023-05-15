@@ -2,12 +2,10 @@
   "description": "a(0)=1, a(1)=0, and a(n+1) = 2*n*(n+1)*a(n)-n^4*a(n-1) for n>0.",
   "id": "A217703",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-02 22:42:15",
     "offset": 0,
     "size": 21,
     "source": "joeis"

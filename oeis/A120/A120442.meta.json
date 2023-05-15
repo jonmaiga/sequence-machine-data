@@ -2,14 +2,12 @@
   "description": "P-positions of John H. Conway's \"Digit Deletions\" game from \"On Numbers and Games\". Each number is the smallest positive integer that cannot be reduced to an earlier number in the sequence, by performing one of the following two operations: (1) changing one digit to a smaller digit (but not changing the leading digit to 0), or (2) deleting a 0 and all subsequent digits.",
   "id": "A120442",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

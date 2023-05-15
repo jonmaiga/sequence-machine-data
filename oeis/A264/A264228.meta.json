@@ -3,16 +3,16 @@
   "id": "A264228",
   "mentions": [
     "A264229",
-    "A264230"
+    "A264230",
+    "A361763"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 34,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

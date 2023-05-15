@@ -1,0 +1,21 @@
+{
+  "description": "Array of numbers read by upward antidiagonals: leading row lists tau(i), i >= 1 (cf. A000005); the following rows give absolute values of differences of previous row.",
+  "id": "A362450",
+  "mentions": [
+    "A000005",
+    "A036262",
+    "A051950",
+    "A361897"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

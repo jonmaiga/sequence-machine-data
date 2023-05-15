@@ -2,13 +2,11 @@
   "description": "Numbers n with property that in base 4 representation the numbers of 0's and 2's are 3 and 1, respectively.",
   "id": "A045053",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:23:09",
     "offset": 1,
     "size": 40,
     "source": "joeis"

@@ -2,14 +2,12 @@
   "description": "Concatenated layouts of page numbers as in a printed bound booklet with 2 pages per side with 0's representing blanks.",
   "id": "A340958",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "easy",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 84,
     "source": "oeis-entry"

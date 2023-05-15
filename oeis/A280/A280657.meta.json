@@ -2,13 +2,11 @@
   "description": "Numbers beginning with their digital root in decimal representation.",
   "id": "A280657",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:49",
     "offset": 1,
     "size": 69,
     "source": "oeis-bfile"

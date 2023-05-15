@@ -2,14 +2,12 @@
   "description": "If n <= 5 then a(n) = 1, if 6 <= n <= 8 then 2, if n = 9 or 10 then 3, if n = 11, 12 or 13 then n-7; otherwise a(n) = 2*a(n - 4) + a(n - 12).",
   "id": "A239905",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 19:02:44",
     "offset": 1,
     "size": 60,
     "source": "joeis"

@@ -1,0 +1,17 @@
+{
+  "description": "Number of nonisomorphic unordered triples of fixed-point-free endofunctions on an n-set.",
+  "id": "A362901",
+  "mentions": [
+    "A362899",
+    "A362900"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,13 +2,11 @@
   "description": "Number of rooted 4-regular one-face maps on genus g surface.",
   "id": "A290819",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 15,
     "source": "oeis-entry"

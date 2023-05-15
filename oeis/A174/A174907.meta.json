@@ -1,13 +1,11 @@
 {
-  "description": "Write the prime factorization of the factorial numbers (p1^q1*p2^q2*...*pn^qn) where p1,p2... are the primes and q1,q2... are the exponents. The exponents that change with each successive factorial change to the numbers in the sequence",
+  "description": "Write the prime factorization of the factorial numbers (p1^q1*p2^q2*...*pn^qn) where p1,p2... are the primes and q1,q2... are the exponents. The exponents that change with each successive factorial change to the numbers in the sequence.",
   "id": "A174907",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 2,
     "size": 87,
     "source": "oeis-entry"

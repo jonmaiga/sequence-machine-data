@@ -2,14 +2,12 @@
   "description": "Numbers k such that the sum of the digits of sigma(k)^k is divisible by k.",
   "id": "A109659",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

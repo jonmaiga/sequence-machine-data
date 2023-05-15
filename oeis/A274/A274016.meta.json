@@ -2,12 +2,10 @@
   "description": "Choose the lexically first tuple of six nonincreasing positive integers (a, b, c, d, e, f) such that a*b*c + d*e*f = n. Then a(n) = a*b*c.",
   "id": "A274016",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:39",
     "offset": 2,
     "size": 71,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Minimal number of blocks in any splitting system ex(n, {123}, {124}, {134}).",
   "id": "A125622",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 4,
     "size": 5,
     "source": "oeis-entry"

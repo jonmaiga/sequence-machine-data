@@ -1,18 +1,16 @@
 {
-  "description": "Round((n+1/n)^5).",
+  "description": "a(n) = round((n+1/n)^5).",
   "id": "A198070",
   "mentions": [
     "A014056",
     "A197904"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:19",
     "offset": 1,
     "size": 28,
     "source": "oeis-bfile"

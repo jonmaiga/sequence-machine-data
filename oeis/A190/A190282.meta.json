@@ -6,13 +6,11 @@
     "A188635",
     "A190281"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:14",
     "offset": 1,
     "size": 91,
     "source": "oeis-bfile"

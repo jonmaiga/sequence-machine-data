@@ -2,14 +2,12 @@
   "description": "Expansion of x^2*(43 -11*x -148*x^2 +23*x^3)/(1 -2*x -7*x^2 +7*x^3 +12*x^4 -2*x^5).",
   "id": "A121957",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:10",
     "offset": 1,
     "size": 24,
     "source": "oeis-bfile"

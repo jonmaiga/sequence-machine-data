@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 7^n*(n+1)*(81*n^4+684*n^3+1401*n^2+434*n+40)/40.",
+  "id": "A361608",
+  "mentions": [
+    "A027471",
+    "A361609",
+    "A361610"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

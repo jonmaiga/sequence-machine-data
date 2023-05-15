@@ -2,7 +2,6 @@
   "description": "a(n)=n 8's sandwiched between two 1's.",
   "id": "A205088",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "base",
     "easy",
@@ -11,7 +10,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 08:57:37",
     "offset": 0,
     "size": 19,
     "source": "joeis"

@@ -2,14 +2,12 @@
   "description": "Number of twin prime members occurring in the sequence of prime-indexed primes for indices up to 10^n.",
   "id": "A128246",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

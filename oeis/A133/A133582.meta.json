@@ -2,12 +2,10 @@
   "description": "a(n) is found from a(n-1) by dividing by D-1 and multiplying by D, where D is the smallest number that is not a divisor of a(n-1).",
   "id": "A133582",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 43,
     "source": "oeis-entry"

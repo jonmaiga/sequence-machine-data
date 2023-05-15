@@ -2,14 +2,12 @@
   "description": "A triangular sequence of coefficients of polynomials: p(x,n)=(-(x - 1)^(n)*Sum[(((-1)^(n)*(2*k + 1)^(n - 1)))*x^k, {k,0, Infinity}]+2*(x - 1)^(n + 1)*Sum[((-1)^(n + 1)*k^n)*x^k, {k, 0, Infinity}]/x).",
   "id": "A154338",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:36",
     "offset": 0,
     "size": 55,
     "source": "oeis-bfile"

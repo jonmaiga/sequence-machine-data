@@ -1,15 +1,14 @@
 {
-  "description": "Number of nXnXn triangular 0..7 arrays with no element lying outside the (possibly reversed) range delimited by its sw and se neighbors",
+  "description": "Number of n X n X n triangular 0..7 arrays with no element lying outside the (possibly reversed) range delimited by its sw and se neighbors.",
   "id": "A214351",
   "mentions": [
     "A214352"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

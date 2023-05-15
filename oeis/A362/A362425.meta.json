@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of n into 3 distinct perfect powers (A001597).",
+  "id": "A362425",
+  "mentions": [
+    "A001597",
+    "A362424"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

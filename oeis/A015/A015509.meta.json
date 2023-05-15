@@ -1,17 +1,27 @@
 {
-  "description": "a(1)=1, a(n) = sum_{k=1}^{k=n-1} (8^k-1)/7 a(k).",
+  "description": "a(1) = 1, a(n) = Sum_{k=1..n-1} ((8^k - 1)/7)*a(k).",
   "id": "A015509",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:17",
+  "mentions": [
+    "A015502",
+    "A015503",
+    "A015506",
+    "A015507",
+    "A015508",
+    "A015511",
+    "A015512",
+    "A015513",
+    "A015515",
+    "A036442"
+  ],
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 13:44:20",
     "offset": 1,
     "size": 11,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

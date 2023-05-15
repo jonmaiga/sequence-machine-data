@@ -2,13 +2,11 @@
   "description": "Primes that are squares mod 23.",
   "id": "A191021",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:18:29",
     "offset": 1,
     "size": 54,
     "source": "joeis"

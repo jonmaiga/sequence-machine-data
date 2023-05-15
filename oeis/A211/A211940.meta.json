@@ -2,13 +2,11 @@
   "description": "Number of distinct finite languages over unary alphabet, whose minimum regular expression has reverse Polish length 2n-1.",
   "id": "A211940",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

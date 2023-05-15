@@ -2,14 +2,12 @@
   "description": "G.f.: Product((1+x^i)/(1-x^i),i=1..n-1)/(1-x^n), with n = 6.",
   "id": "A091774",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 13:56:11",
     "offset": 0,
     "size": 45,
     "source": "joeis"

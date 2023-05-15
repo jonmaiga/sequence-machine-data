@@ -2,14 +2,12 @@
   "description": "Number of (undirected) paths in the n X n X n grid graph.",
   "id": "A292139",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "bref",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 3,
     "source": "oeis-entry"

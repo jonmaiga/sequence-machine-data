@@ -2,12 +2,10 @@
   "description": "a(1)=a(2)=1; a(n) = number of terms of the sequence (from among terms a(1) through a(n-1)) that divide (a(n-1)*a(n-2)).",
   "id": "A131845",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:19",
     "offset": 1,
     "size": 80,
     "source": "oeis-bfile"

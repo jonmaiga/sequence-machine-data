@@ -2,14 +2,12 @@
   "description": "Triangle read by rows based on the Stirling numbers S1: t(n,m)=Sum[(-1)^(n + 1)* StirlingS1[n, j]*(k + 1 - j)^(n - 1), {j, 0, k + 1}].",
   "id": "A152918",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 2,
     "size": 33,
     "source": "oeis-entry"

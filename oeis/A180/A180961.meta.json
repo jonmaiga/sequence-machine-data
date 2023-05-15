@@ -2,14 +2,12 @@
   "description": "Numbers such that the English name of the number has four syllables.",
   "id": "A180961",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:04",
     "offset": 1,
     "size": 34,
     "source": "oeis-bfile"

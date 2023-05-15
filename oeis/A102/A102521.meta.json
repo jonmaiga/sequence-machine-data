@@ -5,14 +5,12 @@
     "A096615",
     "A098459"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:34",
     "offset": 1,
     "size": 102,
     "source": "joeis"

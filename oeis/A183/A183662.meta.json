@@ -1,15 +1,13 @@
 {
-  "description": "T(n,k)=Number of (n+1)X(k+1) 0..5 arrays with every 2X2 subblock summing to 10",
+  "description": "T(n,k) = Number of (n+1) X (k+1) 0..5 arrays with every 2 X 2 subblock summing to 10.",
   "id": "A183662",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:07",
     "offset": 1,
     "size": 32,
     "source": "oeis-bfile"

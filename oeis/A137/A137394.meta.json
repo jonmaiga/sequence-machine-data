@@ -2,7 +2,6 @@
   "description": "Triangular sequence from a Pidduck polynomials expansion: p(t) = (t/(1 - t))*((1 + t)/(1 - t))^x.",
   "id": "A137394",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 42,
     "source": "oeis-entry"

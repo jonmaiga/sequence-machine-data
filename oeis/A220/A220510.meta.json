@@ -2,14 +2,12 @@
   "description": "Decimal expansion of the standard normal deviate for a 95% confidence interval.",
   "id": "A220510",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

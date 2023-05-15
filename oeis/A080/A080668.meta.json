@@ -2,13 +2,11 @@
   "description": "Numbers of the form n!+n^3.",
   "id": "A080668",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

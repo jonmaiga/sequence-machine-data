@@ -1,0 +1,19 @@
+{
+  "description": "Number of unordered triples of self-avoiding paths whose sets of nodes are disjoint subsets of a set of n points on a circle; one-node paths are not allowed.",
+  "id": "A361284",
+  "mentions": [
+    "A261064",
+    "A359404",
+    "A360716"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

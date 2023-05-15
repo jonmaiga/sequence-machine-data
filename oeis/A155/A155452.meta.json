@@ -2,13 +2,11 @@
   "description": "Triangle read by rows: let t1(n,k)=Sum[(-1)^j Binomial[n + 1, j](k + 1 - j)^n, {j, 0, k + 1}]; then T(n,m)=2*t1(n + 1, k) - (m! - n! + (-m + n)!).",
   "id": "A155452",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 50,
     "source": "oeis-entry"

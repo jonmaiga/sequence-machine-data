@@ -14,7 +14,6 @@
     "A073790",
     "A212529"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "easy",
@@ -23,7 +22,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:50",
     "offset": 0,
     "size": 37,
     "source": "oeis-bfile"

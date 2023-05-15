@@ -2,13 +2,11 @@
   "description": "Primes p such that (53^p - 1)/52 is also prime.",
   "id": "A173767",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

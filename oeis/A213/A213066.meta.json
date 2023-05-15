@@ -2,13 +2,11 @@
   "description": "E.g.f.: (arcsinh(cosh(x)^2) - arcsinh(1))/sqrt(2), (even terms only).",
   "id": "A213066",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:31",
     "offset": 0,
     "size": 16,
     "source": "oeis-bfile"

@@ -12,15 +12,12 @@
     "A083480",
     "A098613"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-03-14 10:44:23",
     "offset": 0,
     "size": 80,
     "source": "oeis-bfile"

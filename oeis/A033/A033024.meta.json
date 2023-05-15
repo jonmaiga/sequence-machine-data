@@ -2,13 +2,11 @@
   "description": "Numbers whose base-11 expansion has no run of digits with length < 2.",
   "id": "A033024",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:05:21",
     "offset": 1,
     "size": 41,
     "source": "joeis"

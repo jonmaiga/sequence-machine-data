@@ -1,5 +1,5 @@
 {
-  "description": "Unique triangle such that (1) every positive integer occurs exactly once; (2) row n consists of n consecutive numbers; (3) odd-numbered rows are decreasing; (4) even-numbered rows are increasing; and (5) column 1 is increasing.",
+  "description": "The positive integers written as a triangle, where row n is written from right to left if n is odd and otherwise from left to right.",
   "id": "A056023",
   "mentions": [
     "A000217",
@@ -7,7 +7,6 @@
     "A213927",
     "A218890"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "formulas",
@@ -15,7 +14,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2022-04-27 15:30:07",
     "offset": 1,
     "size": 66,
     "source": "joeis"

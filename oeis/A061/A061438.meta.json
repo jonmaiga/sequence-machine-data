@@ -2,13 +2,11 @@
   "description": "Number of steps for trajectory of n to reach 1 under the map that sends x -> x/13 if x mod 13 = 0, x -> 14x+13-(x mod 13) if x is not 0 mod 13 (for a 2nd time when n starts at 1).",
   "id": "A061438",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-28 11:08:27",
     "offset": 1,
     "size": 68,
     "source": "joeis"

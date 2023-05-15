@@ -4,17 +4,14 @@
   "mentions": [
     "A000005",
     "A033950",
-    "A049850",
     "A054009",
     "A066708"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:03",
     "offset": 1,
     "size": 105,
     "source": "oeis-bfile"

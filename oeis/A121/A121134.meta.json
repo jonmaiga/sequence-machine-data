@@ -2,14 +2,12 @@
   "description": "Numbers of isomers of unbranched a-4-catapolypentagons - see Brunvoll reference for precise definition.",
   "id": "A121134",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 11:18:30",
     "offset": 2,
     "size": 30,
     "source": "joeis"

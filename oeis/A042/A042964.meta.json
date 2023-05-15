@@ -25,7 +25,6 @@
     "A133900",
     "A133910"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "formulas",
@@ -33,7 +32,6 @@
     "unsolved"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:55",
     "offset": 1,
     "size": 64,
     "source": "oeis-bfile"

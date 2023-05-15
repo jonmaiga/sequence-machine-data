@@ -2,9 +2,11 @@
   "description": "Numbers whose number of distinct prime factors equals the number of digits in the number.",
   "id": "A165256",
   "mentions": [
-    "A055642"
+    "A001221",
+    "A002110",
+    "A055642",
+    "A115024"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "fini",
@@ -12,7 +14,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:48",
     "offset": 1,
     "size": 69,
     "source": "oeis-bfile"

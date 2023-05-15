@@ -2,14 +2,12 @@
   "description": "Self-describing sequence: 1 even integer between two odd, then 2 even integers between two odd, then 3 even integers, then 4, then 6... The length of each run of even integers is given by the sequence itself (the smallest odd available integer is used when needed).",
   "id": "A114149",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 69,
     "source": "oeis-entry"

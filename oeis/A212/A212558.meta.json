@@ -2,14 +2,12 @@
   "description": "a(n) = ((n - s)^2 mod (n + s)) - ((n + s)^2 mod (n - s)), where s is the sum of the decimal digits of n.",
   "id": "A212558",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "base",
     "easy",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 10,
     "size": 69,
     "source": "oeis-entry"

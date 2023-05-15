@@ -2,12 +2,10 @@
   "description": "Numbers that are the sum of at most 10 nonzero 4th powers.",
   "id": "A004839",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 12:31:49",
     "offset": 1,
     "size": 58,
     "source": "joeis"

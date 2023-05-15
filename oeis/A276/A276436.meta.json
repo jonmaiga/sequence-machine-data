@@ -2,13 +2,11 @@
   "description": "Generating function f(x)=(x+(x+(x+(x+(x+...)^5)^4)^3)^2)^1 is the limit as n->infinity of (f_1(x)=x, f_2(x)=x+x^2, f_3(x)=x+(x+x^3)^2, f_4(x)=x+(x+(x+x^4)^3)^2, ...).",
   "id": "A276436",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:42",
     "offset": 0,
     "size": 50,
     "source": "oeis-bfile"

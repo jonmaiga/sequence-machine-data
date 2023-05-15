@@ -2,13 +2,11 @@
   "description": "Smallest integers whose binary digits \"1\" define a polyomino if sorted into a quadrant shape.",
   "id": "A165197",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 56,
     "source": "oeis-entry"

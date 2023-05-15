@@ -2,13 +2,11 @@
   "description": "The Manhattan distance to the origin while traversing the first quadrant in a taxicab geometry.",
   "id": "A213088",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn",
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 78,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Decimal expansion of the Flajolet-Odlyzko constant.",
   "id": "A143297",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

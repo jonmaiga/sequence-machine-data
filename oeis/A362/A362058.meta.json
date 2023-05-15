@@ -1,0 +1,21 @@
+{
+  "description": "The location of the first occurrence of n in the decimal expansion of phi (the golden ratio, 1.6180339887...).",
+  "id": "A362058",
+  "mentions": [
+    "A001622",
+    "A014777",
+    "A078197",
+    "A088577",
+    "A176341"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

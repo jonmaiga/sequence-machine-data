@@ -2,14 +2,12 @@
   "description": "Perfect n-th powers y^n (n >= 3) of the form x^2 + 2^a * 5^b (x, a, b >= 1, gcd(x, y) = 1).",
   "id": "A295233",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

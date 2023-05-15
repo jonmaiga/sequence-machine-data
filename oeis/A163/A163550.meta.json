@@ -2,13 +2,11 @@
   "description": "a(1)=a(2)=a(3)=1. a(n) = reverseDigits(a(n-1)+a(n-2)+a(n-3)) for n>=4.",
   "id": "A163550",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:45",
     "offset": 1,
     "size": 44,
     "source": "oeis-bfile"

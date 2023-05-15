@@ -1,16 +1,14 @@
 {
-  "description": "1/12 the number of (n+2)X3 0..2 arrays with each 3X3 subblock containing three of each value",
+  "description": "1/12 the number of (n+2) X 3 0..2 arrays with each 3 X 3 subblock containing three of each value.",
   "id": "A184378",
   "mentions": [
     "A184386"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:08",
     "offset": 1,
     "size": 19,
     "source": "oeis-bfile"

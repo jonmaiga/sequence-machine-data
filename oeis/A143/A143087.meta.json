@@ -2,14 +2,12 @@
   "description": "Symmetrical triangle sequence: t(n,m)=If[m <= Floor[n/2], 2^(m + 1) - 1, 2^(n - m + 1) - 1]*Binomial[n, m].",
   "id": "A143087",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

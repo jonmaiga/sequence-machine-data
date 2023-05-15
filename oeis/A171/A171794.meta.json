@@ -2,13 +2,11 @@
   "description": "Numbers of rank 7 in the poset of lunar numbers.",
   "id": "A171794",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:55",
     "offset": 1,
     "size": 50,
     "source": "oeis-bfile"

@@ -1,17 +1,16 @@
 {
-  "description": "a(n) = 16n^4 + 4.",
+  "description": "a(n) = 16*n^4 + 4.",
   "id": "A222655",
   "mentions": [
     "A211412"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:13:49",
     "offset": 0,
     "size": 32,
     "source": "joeis"

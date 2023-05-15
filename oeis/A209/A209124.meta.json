@@ -9,7 +9,6 @@
     "A027642",
     "A209123"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "frac",
@@ -17,7 +16,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 0,
     "size": 78,
     "source": "oeis-entry"

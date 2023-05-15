@@ -1,16 +1,14 @@
 {
-  "description": "Number of 7Xn binary arrays with top left value 1 and no two ones adjacent horizontally, diagonally or antidiagonally.",
+  "description": "Number of 7 X n binary arrays with top left value 1 and no two ones adjacent horizontally, diagonally or antidiagonally.",
   "id": "A228666",
   "mentions": [
     "A228660"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:45",
     "offset": 1,
     "size": 16,
     "source": "oeis-bfile"

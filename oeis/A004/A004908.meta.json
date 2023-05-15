@@ -2,12 +2,10 @@
   "description": "Numbers that are the sum of at most 2 positive 11th powers.",
   "id": "A004908",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 12:31:49",
     "offset": 1,
     "size": 27,
     "source": "joeis"

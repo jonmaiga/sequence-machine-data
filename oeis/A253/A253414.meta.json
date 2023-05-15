@@ -2,13 +2,11 @@
   "description": "G.f. satisfies (1+x^2)*g(x) = 1 + x*g(x^2).",
   "id": "A253414",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:12",
     "offset": 0,
     "size": 101,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Number of different convex inscribed polygons with n pair of sides of lengths d1, d2, ..., dn all distinct. Or number of bracelets with n pairs of beads, each pair of one among n colors.",
   "id": "A120445",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:09",
     "offset": 1,
     "size": 17,
     "source": "oeis-bfile"

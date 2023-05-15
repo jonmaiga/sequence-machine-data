@@ -2,13 +2,11 @@
   "description": "a(0) = 0, a(1) = 1. For k > 1, k is inserted in the sequence between the last pair of consecutive terms already in the sequence which sum to k; if no such pair exists, k is added at the end of the sequence.",
   "id": "A306835",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:31",
     "offset": 0,
     "size": 61,
     "source": "oeis-bfile"

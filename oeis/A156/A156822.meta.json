@@ -2,14 +2,12 @@
   "description": "Prime factors of 17! listed with multiplicity.",
   "id": "A156822",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 29,
     "source": "oeis-entry"

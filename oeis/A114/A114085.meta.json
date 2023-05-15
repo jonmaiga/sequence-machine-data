@@ -2,12 +2,10 @@
   "description": "phi(n) plus the n-th prime gives a cube.",
   "id": "A114085",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 30,
     "source": "oeis-entry"

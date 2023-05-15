@@ -1,0 +1,16 @@
+{
+  "description": "First of three consecutive primes p,q,r such that p+q, p+r and q+r are all triprimes.",
+  "id": "A362203",
+  "mentions": [
+    "A001358",
+    "A014612"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

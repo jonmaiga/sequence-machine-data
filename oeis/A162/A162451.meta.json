@@ -2,13 +2,11 @@
   "description": "Numbers k which can be split into two numbers x and y such that x^3 + y^2 is a multiple of k.",
   "id": "A162451",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 51,
     "source": "oeis-entry"

@@ -5,7 +5,6 @@
     "A001788",
     "A094305"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "look",
@@ -13,7 +12,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:46",
     "offset": 1,
     "size": 94,
     "source": "oeis-bfile"

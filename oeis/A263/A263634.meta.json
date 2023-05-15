@@ -18,14 +18,12 @@
     "A263633",
     "A263916"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "sign",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:23",
     "offset": 1,
     "size": 44,
     "source": "oeis-bfile"

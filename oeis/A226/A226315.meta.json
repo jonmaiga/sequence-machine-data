@@ -2,14 +2,12 @@
   "description": "(n^2/8+3*n/8-2)*2^n+3.",
   "id": "A226315",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:43",
     "offset": 1,
     "size": 33,
     "source": "oeis-bfile"

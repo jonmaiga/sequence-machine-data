@@ -1,0 +1,19 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into perfect powers > 1.",
+  "id": "A362427",
+  "mentions": [
+    "A001597",
+    "A112344",
+    "A112345"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

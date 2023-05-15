@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. 1/(2 - exp(exp(exp(exp(x) - 1) - 1) - 1)).",
+  "id": "A363008",
+  "mentions": [
+    "A153278",
+    "A351427",
+    "A363007"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

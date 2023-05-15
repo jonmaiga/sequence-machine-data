@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that no three terms a(j), a(j+k), a(j+2k) (for any j and k) form an arithmetic progression in any order.",
+  "id": "A361933",
+  "mentions": [
+    "A229037",
+    "A309890"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

@@ -2,13 +2,11 @@
   "description": "Primes whose reversal + 1 is a square.",
   "id": "A167217",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:50",
     "offset": 1,
     "size": 36,
     "source": "oeis-bfile"

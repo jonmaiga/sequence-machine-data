@@ -2,13 +2,11 @@
   "description": "a(n) is the concatenation, in ascending order, of the set of digits 1,2,4,8 whose sum equals the n-th prime using a minimal number of digits.",
   "id": "A166745",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 25,
     "source": "oeis-entry"

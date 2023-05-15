@@ -2,14 +2,12 @@
   "description": "Triangular sequence of coefficients from a polynomial recursion: p(x,n)=p(x,Floor[(n-1)/2])-x^2*p(x,n-3)+x.",
   "id": "A137696",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 51,
     "source": "oeis-entry"

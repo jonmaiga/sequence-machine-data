@@ -1,16 +1,17 @@
 {
   "description": "High temperature series for spin-1/2 Heisenberg susceptibility on 3-dimensional simple cubic lattice.",
   "id": "A002170",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:16",
+  "mentions": [
+    "A002169"
+  ],
   "tags": [
+    "changed",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 1,
-    "size": 14,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

@@ -2,13 +2,11 @@
   "description": "Numbers k > 1 for which floor(b(k)) = floor(b(k-1)), where b(m) = Sum_{j=1..m} (j/(j+2)).",
   "id": "A133470",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 38,
     "source": "oeis-entry"

@@ -1,0 +1,15 @@
+{
+  "description": "Number of odd chordless cycles of length >=5 in the n-Goldberg graph.",
+  "id": "A362546",
+  "mentions": [],
+  "tags": [
+    "changed",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

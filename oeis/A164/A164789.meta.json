@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest number which has in its English name the letter \"o\" in the n-th position,or -1 if no such number exists.",
+  "description": "a(n) is the smallest number which has in its English name the letter \"o\" in the n-th position, or -1 if no such number exists.",
   "id": "A164789",
   "mentions": [
     "A164790",
@@ -11,13 +11,11 @@
     "A164796",
     "A164797"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "sign",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 45,
     "source": "oeis-entry"

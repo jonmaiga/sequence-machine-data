@@ -2,13 +2,11 @@
   "description": "Minimum sum of a nonnegative integer triple that takes n moves to reach a 0 component, where a move picks two components, subtracts the smaller from the larger, and doubles the smaller.",
   "id": "A256001",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 0,
     "size": 21,
     "source": "oeis-entry"

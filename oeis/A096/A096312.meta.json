@@ -2,14 +2,12 @@
   "description": "Numbers n such that number of prime divisors (counting multiplicity) = largest digit.",
   "id": "A096312",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 53,
     "source": "oeis-entry"

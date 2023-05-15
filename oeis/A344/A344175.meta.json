@@ -2,12 +2,10 @@
   "description": "Primes of the form 2*3^a+5^b where 3^a+2*5^b is also prime, and a,b >= 1.",
   "id": "A344175",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:17",
     "offset": 1,
     "size": 27,
     "source": "oeis-bfile"

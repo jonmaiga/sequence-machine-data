@@ -2,13 +2,10 @@
   "description": "Numbers of the form 3p - 2 where p and 6p + 1 are prime.",
   "id": "A216880",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:34",
     "offset": 1,
     "size": 52,
     "source": "oeis-bfile"

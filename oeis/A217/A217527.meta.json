@@ -2,14 +2,12 @@
   "description": "a(n) = 2^(n-2)*(n-2)^2+2^(n-1).",
   "id": "A217527",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:35",
     "offset": 2,
     "size": 29,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "a(1) = 1, a(n+1) = a(n) + mod(a(n), p), where p is the lowest prime such that mod(a(n), p) is nonzero.",
   "id": "A146215",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:34",
     "offset": 1,
     "size": 66,
     "source": "oeis-bfile"

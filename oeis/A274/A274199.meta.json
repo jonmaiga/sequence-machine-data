@@ -18,14 +18,11 @@
     "A342330",
     "A342342"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 0,
     "size": 42,
     "source": "oeis-entry"

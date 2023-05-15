@@ -2,14 +2,12 @@
   "description": "Beginning with 1, a(n) = n times the digits of concatenation of a(1),a(2), ...a(n-1) read backwards.",
   "id": "A109667",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

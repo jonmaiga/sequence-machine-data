@@ -2,7 +2,6 @@
   "description": "Numbers k such that, taken together, the base-10 and base-b expansions of k are pandigital for some b < 10.",
   "id": "A174596",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

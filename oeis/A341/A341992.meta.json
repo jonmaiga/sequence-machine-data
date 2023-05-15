@@ -2,7 +2,6 @@
   "description": "Take a standard 6-sided die and concatenate the numbers that can be seen around any of the corners and sort into increasing order.",
   "id": "A341992",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
     "fini",
@@ -11,7 +10,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 48,
     "source": "oeis-entry"

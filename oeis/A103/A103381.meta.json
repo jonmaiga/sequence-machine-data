@@ -2,12 +2,10 @@
   "description": "Numbers which are the sum of four distinct squares, a^2+b^2+c^2+d^2, such that a^2+b^2, c^2+d^2, a^2+d^2 and b^2+c^2 are all prime.",
   "id": "A103381",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 52,
     "source": "oeis-entry"

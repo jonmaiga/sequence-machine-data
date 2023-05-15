@@ -2,13 +2,11 @@
   "description": "For n >= 3, a(n) = least positive integer > a(n-1) and not a(i)^2 + a(j)^2 + a(k)^2 for 1<=i<=j<=k<=n.",
   "id": "A026500",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:04",
     "offset": 1,
     "size": 61,
     "source": "joeis"

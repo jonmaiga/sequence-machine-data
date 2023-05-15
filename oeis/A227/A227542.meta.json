@@ -2,14 +2,13 @@
   "description": "a(n) is the number of all terms preceding a(n-1) that have the same even-odd parity as a(n-1).",
   "id": "A227542",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:44",
     "offset": 0,
     "size": 93,
     "source": "oeis-bfile"

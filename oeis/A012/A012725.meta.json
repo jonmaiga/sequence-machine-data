@@ -2,13 +2,11 @@
   "description": "exp(arctanh(x)*tan(x)) = 1+2/2!*x^2+28/4!*x^4+920/6!*x^6+54416/8!*x^8...",
   "id": "A012725",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 17:55:50",
     "offset": 0,
     "size": 14,
     "source": "joeis"

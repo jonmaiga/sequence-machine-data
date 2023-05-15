@@ -2,11 +2,12 @@
   "description": "Number triangle with row sums given by quadruple factorial numbers A001813.",
   "id": "A168422",
   "mentions": [
+    "A001517",
     "A001813",
+    "A002119",
     "A079267",
     "A113025"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
@@ -14,9 +15,8 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
-    "size": 44,
-    "source": "oeis-entry"
+    "size": 45,
+    "source": "oeis-bfile"
   }
 }

@@ -2,14 +2,12 @@
   "description": "Antidiagonal triangle T(n, k) = t(k, n-k+1) where the square array t(n,k) is defined by t(n, k) = k*t(n-2, k) + t(n-3, k), t(0, k) = 0, and t(1, k) = t(2, k) = 1, read by rows.",
   "id": "A172371",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:56",
     "offset": 0,
     "size": 78,
     "source": "oeis-bfile"

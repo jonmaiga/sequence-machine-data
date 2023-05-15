@@ -2,14 +2,12 @@
   "description": "(Sum of digits of n)^5 - (sum of digits^5 of n).",
   "id": "A069965",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 0,
     "size": 46,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Number of empty sets in the n-th power set of the empty set.",
   "id": "A255963",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 0,
     "size": 6,
     "source": "oeis-entry"

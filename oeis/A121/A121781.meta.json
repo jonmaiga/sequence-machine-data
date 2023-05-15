@@ -2,13 +2,11 @@
   "description": "Series expansion for mean-squared radius of gyration of Ferrer's diagrams on square lattice.",
   "id": "A121781",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:10",
     "offset": 1,
     "size": 23,
     "source": "oeis-bfile"

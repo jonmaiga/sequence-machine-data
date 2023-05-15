@@ -2,7 +2,6 @@
   "description": "For any n >= 0 and b >= 2, let k be the length of the base-b expansion of n and let M(n, b) be the 2 X k matrix whose first row contains the first k primes in descending order and whose second row contains the base-b expansion of n. Let f(n, b) = determinant[transpose(M(n, b))*M(n, b)]. Sequence gives f(n, 5).",
   "id": "A101948",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 98,
     "source": "oeis-entry"

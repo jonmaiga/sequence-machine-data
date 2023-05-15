@@ -14,15 +14,12 @@
     "A099372",
     "A099374"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 23:54:40",
     "offset": 0,
     "size": 16,
     "source": "joeis"

@@ -2,14 +2,12 @@
   "description": "Decimal expansion of Sum_{n>=1} arccot(n^2).",
   "id": "A091007",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:42",
     "offset": 1,
     "size": 102,
     "source": "oeis-bfile"

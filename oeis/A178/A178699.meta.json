@@ -2,12 +2,10 @@
   "description": "A 2n X 2n square filled with \"ON\" cells becomes a period a(n) oscillator using the life-like cellular automaton B345/S4567.",
   "id": "A178699",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

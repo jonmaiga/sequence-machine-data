@@ -6,13 +6,11 @@
     "A063247",
     "A127788"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 80,
     "source": "oeis-entry"

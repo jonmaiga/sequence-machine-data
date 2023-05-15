@@ -6,13 +6,11 @@
     "A092506",
     "A277994"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 90,
     "source": "oeis-entry"

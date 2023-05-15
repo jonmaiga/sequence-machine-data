@@ -2,12 +2,10 @@
   "description": "a(1) = 2; afterwards a(n) is the least new prime such that 2*a(n-1) + a(n) is a prime.",
   "id": "A358047",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 1,
     "size": 61,
     "source": "oeis-entry"

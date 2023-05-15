@@ -2,7 +2,6 @@
   "description": "Concatenate i >= 1 and j >= 1, then sort.",
   "id": "A038687",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:41:27",
     "offset": 1,
     "size": 54,
     "source": "joeis"

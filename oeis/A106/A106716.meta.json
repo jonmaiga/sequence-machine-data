@@ -2,13 +2,11 @@
   "description": "Largest of four consecutive primes whose sum of digits is prime.",
   "id": "A106716",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:43:07",
     "offset": 1,
     "size": 44,
     "source": "joeis"

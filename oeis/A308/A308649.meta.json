@@ -2,12 +2,10 @@
   "description": "Primes prime(k) such that (prime(k), prime(k+1)), (prime(k+2), prime(k+3)), (prime(k+4), prime(k+5)) form a triangle of area 2.",
   "id": "A308649",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:33",
     "offset": 1,
     "size": 45,
     "source": "oeis-bfile"

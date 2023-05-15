@@ -19,13 +19,11 @@
     "A272284",
     "A272302"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:37",
     "offset": 1,
     "size": 44,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "a(n) is one greater than the number of repeated applications of the Reverse and Add (RA) transform applied to the binary representation of n that are required to reach a palindrome, or a(n)=0 if a palindrome is never reached.",
   "id": "A096370",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 104,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "a(n) is the smallest n-digit zeroless prime such that the sum of the two numbers that result from splitting a(n) between any two of its digits is a distinct prime, or 0 if there is no such n-digit prime.",
   "id": "A103547",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 2,
     "size": 17,
     "source": "oeis-entry"

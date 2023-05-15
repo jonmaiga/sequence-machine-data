@@ -2,14 +2,12 @@
   "description": "a(n) = number of ways to dispose two pawns on a chessboard of size n X n (two dispositions are equivalent if one can be rotated or reflected to give the other one).",
   "id": "A141582",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:20:07",
     "offset": 0,
     "size": 42,
     "source": "joeis"

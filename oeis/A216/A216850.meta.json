@@ -2,14 +2,12 @@
   "description": "Number of distinct infinite sets of primes congruent to a subset of 1..n mod n.",
   "id": "A216850",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:34",
     "offset": 1,
     "size": 35,
     "source": "oeis-bfile"

@@ -8,7 +8,6 @@
     "A080422",
     "A080423"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "formulas",
@@ -16,7 +15,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 52,
     "source": "oeis-entry"

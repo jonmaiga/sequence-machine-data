@@ -1,0 +1,15 @@
+{
+  "description": "Number of down-steps (1,-1) among all n-length nondecreasing Dyck paths with air pockets.",
+  "id": "A358734",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 38,
+    "source": "joeis"
+  }
+}

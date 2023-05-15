@@ -2,12 +2,10 @@
   "description": "Smallest prime p such that q = 2*p^(2*n + 1) - 1 and r = 2*q^(2*n + 1) - 1 are also prime.",
   "id": "A283756",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 0,
     "size": 35,
     "source": "oeis-entry"

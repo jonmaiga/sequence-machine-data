@@ -2,13 +2,11 @@
   "description": "Numbers k which are concatenations k = x//y such that y^2 - x^2 = k.",
   "id": "A162700",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 25,
     "source": "oeis-entry"

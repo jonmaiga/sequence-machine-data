@@ -2,13 +2,11 @@
   "description": "a(n) = n^7 mod 19.",
   "id": "A070701",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:16:29",
     "offset": 0,
     "size": 85,
     "source": "joeis"

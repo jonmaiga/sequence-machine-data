@@ -2,14 +2,12 @@
   "description": "a(1) = 1; for n>1, a(n) is the smallest positive integer such that the continued fraction [a(1),a(2),a(3),...,a(n)] has numerator divisible by n.",
   "id": "A110925",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 17,
     "source": "oeis-entry"

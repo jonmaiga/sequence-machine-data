@@ -10,14 +10,12 @@
     "A226090",
     "A226092"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 21,
     "source": "oeis-entry"

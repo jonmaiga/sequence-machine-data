@@ -2,13 +2,11 @@
   "description": "Number of trees with stability index n.",
   "id": "A003429",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 1,
     "size": 23,
     "source": "oeis-entry"

@@ -19,7 +19,6 @@
     "A216169",
     "A304243"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "base",
     "fini",
@@ -27,7 +26,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:28",
     "offset": 1,
     "size": 57,
     "source": "oeis-bfile"

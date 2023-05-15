@@ -5,17 +5,20 @@
     "A010517",
     "A020822",
     "A040056",
-    "A041112"
+    "A041112",
+    "A073133",
+    "A157103",
+    "A172236",
+    "A352361"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:51",
     "offset": 0,
     "size": 20,
     "source": "oeis-bfile"

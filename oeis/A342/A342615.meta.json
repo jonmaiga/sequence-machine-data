@@ -11,15 +11,15 @@
     "A342611",
     "A342614"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
+    "changed",
     "formulas",
+    "look",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-09-08 06:56:24",
     "offset": 0,
     "size": 52,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

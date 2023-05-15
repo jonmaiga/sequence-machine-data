@@ -22,14 +22,12 @@
     "A073515",
     "A073516"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 23,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "E.g.f. cosh(sin(arctan(x))) = cosh(x/sqrt(1+x^2)) (even powers only).",
   "id": "A012027",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-02 21:30:59",
     "offset": 0,
     "size": 14,
     "source": "joeis"

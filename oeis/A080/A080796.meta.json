@@ -2,13 +2,11 @@
   "description": "Weight enumerator of third-order Reed-Muller code RM(3,10) of length 1024.",
   "id": "A080796",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 21,
     "source": "oeis-entry"

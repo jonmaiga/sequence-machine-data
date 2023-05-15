@@ -2,14 +2,12 @@
   "description": "Triangle read by rows: T(n,k) = number of vertices of eccentricity k in the Lucas cube graph of order n.",
   "id": "A210572",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:29",
     "offset": 0,
     "size": 78,
     "source": "oeis-bfile"

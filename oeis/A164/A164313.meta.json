@@ -2,12 +2,10 @@
   "description": "LCM of all differences of odd primes up to prime(n).",
   "id": "A164313",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 3,
     "size": 21,
     "source": "oeis-entry"

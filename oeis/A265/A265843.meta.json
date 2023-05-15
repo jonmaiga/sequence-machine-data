@@ -2,12 +2,10 @@
   "description": "Number of moves for the prime winding graph to have a zero x coordinate value.",
   "id": "A265843",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 44,
     "source": "oeis-entry"

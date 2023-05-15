@@ -2,12 +2,10 @@
   "description": "The largest value that integer n is connected to in a web where every integer n has n connections, each integer is connected to the lowest values possible, and new values are added in phases.",
   "id": "A338174",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 65,
     "source": "oeis-entry"

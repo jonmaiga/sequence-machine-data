@@ -2,13 +2,11 @@
   "description": "The first entry of the vector v[n]=Mv[n-1], where M is the 6 X 6 matrix [[0, 1, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0], [0, 0, 0, 1, 0, 0], [0, 0, 0, 0, 1, 0], [0, 0, 0, 0, 0, 1], [1, 5, 10, 10, 5, 1]] and v[0] is the column vector [0, 1, 1, 2, 3, 5].",
   "id": "A114725",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 17:10:14",
     "offset": 0,
     "size": 26,
     "source": "joeis"

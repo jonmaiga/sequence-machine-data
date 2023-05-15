@@ -2,13 +2,11 @@
   "description": "Dimension of the space of totally primitive elements of degree n in the Hopf algebra of parking functions, regarded as a bidendriform algebra.",
   "id": "A122705",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"

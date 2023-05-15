@@ -2,14 +2,12 @@
   "description": "Expansion of log(1+tan(log(1+x))).",
   "id": "A009363",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-09-08 06:56:19",
     "offset": 0,
     "size": 19,
     "source": "joeis"

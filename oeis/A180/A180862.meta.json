@@ -2,14 +2,12 @@
   "description": "Square array read by antidiagonals: T(m,n) is the Wiener index of the flower graph F(m,n) (m>=2, n>=1). F(m,n) is the graph obtained by joining with an edge a node in the star graph on m nodes to an end-node of the path graph P_n. The Wiener index of a connected graph is the sum of distances between all unordered pairs of vertices in the graph.",
   "id": "A180862",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 2,
     "size": 59,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Concatenation of amicable numbers written in base 2.",
   "id": "A176329",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

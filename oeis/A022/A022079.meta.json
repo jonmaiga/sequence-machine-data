@@ -2,12 +2,10 @@
   "description": "Theta series of D*_26 lattice.",
   "id": "A022079",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:28",
     "offset": 0,
     "size": 32,
     "source": "oeis-bfile"

@@ -2,14 +2,12 @@
   "description": "Square array read by antidiagonals, where the top row is the nonnegative integers and the other numbers are the sum of the neighbors in the preceding row.",
   "id": "A217536",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

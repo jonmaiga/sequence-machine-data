@@ -2,13 +2,11 @@
   "description": "Weight distribution of [120,60,20] double circulant code.",
   "id": "A080477",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 16,
     "source": "oeis-entry"

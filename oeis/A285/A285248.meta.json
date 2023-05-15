@@ -2,12 +2,10 @@
   "description": "All positive integers n which for some k can be computed by a straight line program (SLP) of length k but not by a monotone straight line program (mSLP) of length k.",
   "id": "A285248",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 65,
     "source": "oeis-entry"

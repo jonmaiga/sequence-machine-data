@@ -2,14 +2,12 @@
   "description": "State complexity profile of R-Lambda_24 version of Leech lattice.",
   "id": "A307138",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "fini",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

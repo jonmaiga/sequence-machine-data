@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of nonnegative integers such that for any distinct m and n, the m X m square with lower left corner at (m, a(m)) and the n X n square with lower left corner at (n, a(n)) do not overlap (they can however touch).",
+  "id": "A361742",
+  "mentions": [
+    "A000217",
+    "A289523",
+    "A361697"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

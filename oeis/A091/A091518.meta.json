@@ -2,14 +2,12 @@
   "description": "Decimal expansion of the hyperbolic volume of the figure eight knot complement.",
   "id": "A091518",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 102,
     "source": "oeis-entry"

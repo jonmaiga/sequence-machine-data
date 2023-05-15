@@ -2,13 +2,11 @@
   "description": "Number of rational series having complexity n over the finite field F_2 in two non-commuting variables.",
   "id": "A137342",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:25",
     "offset": 0,
     "size": 11,
     "source": "oeis-bfile"

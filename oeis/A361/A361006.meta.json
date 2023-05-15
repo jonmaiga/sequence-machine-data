@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of conventional value of volt-90 (V_{90}).",
+  "id": "A361006",
+  "mentions": [
+    "A248508"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": -8,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

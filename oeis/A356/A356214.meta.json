@@ -2,14 +2,12 @@
   "description": "Number of edge covers in the n-Sierpinski gasket graph.",
   "id": "A356214",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "bref",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 1,
     "size": 3,
     "source": "oeis-entry"

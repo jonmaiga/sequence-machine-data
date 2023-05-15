@@ -2,13 +2,11 @@
   "description": "a(n) = coefficient of x^n in the (2^n)-th power of 1 + Sum_{k>=0} x^(2^k), n>=0.",
   "id": "A168369",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 13,
     "source": "oeis-entry"

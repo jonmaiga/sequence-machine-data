@@ -2,13 +2,11 @@
   "description": "Triangle T(m,n) read by rows: T(m,n) = Sum_{k=1..n} StirlingS2(m, n) * StirlingS2(m, k).",
   "id": "A167128",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:50",
     "offset": 1,
     "size": 42,
     "source": "oeis-bfile"

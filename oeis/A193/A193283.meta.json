@@ -10,7 +10,6 @@
     "A193233",
     "A193277"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "hard",
     "look",
@@ -18,7 +17,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:16",
     "offset": 1,
     "size": 40,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "Coefficients of Pi^(2*n+1) in a certain integer relation involving Ramanujan exponential-type sums.",
   "id": "A119542",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 3,
     "size": 14,
     "source": "oeis-entry"

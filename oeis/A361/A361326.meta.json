@@ -1,5 +1,5 @@
 {
-  "description": "Indices of records is A361321",
+  "description": "Indices of records in A361321.",
   "id": "A361326",
   "mentions": [
     "A000469",
@@ -8,13 +8,10 @@
     "A361321",
     "A361325"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "new",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 53,
     "source": "oeis-entry"

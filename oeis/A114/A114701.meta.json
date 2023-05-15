@@ -2,12 +2,10 @@
   "description": "Number of sets {p, p'}, where p is a partition of n and p' is conjugate partition of p such that p and p' have no common parts.",
   "id": "A114701",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

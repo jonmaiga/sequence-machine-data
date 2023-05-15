@@ -1,19 +1,22 @@
 {
-  "description": "a(1)=5; a(n)=floor((11+sum(a(1) to a(n-1)))/2).",
+  "description": "a(n) = 5 + floor((1 + Sum_{j=1..n-1} a(j)) / 2).",
   "id": "A120135",
   "mentions": [
     "A072493",
     "A073941",
-    "A112088"
+    "A112088",
+    "A120134",
+    "A120136",
+    "A120209"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
+    "changed",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 16:45:45",
     "offset": 1,
     "size": 37,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -2,13 +2,11 @@
   "description": "a(n) is the time expressed in seconds starting at 0:00:00 at which the second-hand of a classical three hands clock is passing over any of the two other hands considering the minute-hand turns of 6 degrees in one minute and the hour-hand of 6 degrees in 12 minutes.",
   "id": "A256749",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 0,
     "size": 26,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Maximum number of divisors of Product(a_i) + Product(b_j) over all (disjoint) partitions of {1..n} into {a_i} and {b_j}.",
   "id": "A125584",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 26,
     "source": "oeis-entry"

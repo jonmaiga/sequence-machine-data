@@ -2,14 +2,12 @@
   "description": "Number of minimal dominating sets (and maximal irredundant sets) in the complete tripartite graph K_{n,n,n}.",
   "id": "A290325",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 14:09:53",
     "offset": 1,
     "size": 45,
     "source": "joeis"

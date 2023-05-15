@@ -2,12 +2,10 @@
   "description": "Numbers n such that n | 11^n + 10^n + 9^n + 8^n + 7^n + 6^n + 5^n + 4^n + 3^n.",
   "id": "A057286",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 08:52:50",
     "offset": 1,
     "size": 45,
     "source": "joeis"

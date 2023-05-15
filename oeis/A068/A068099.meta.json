@@ -2,12 +2,10 @@
   "description": "a(1) = 1; a(n+1) = n! sum{k|n} a(k)/k where sum is over positive divisors k of n.",
   "id": "A068099",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

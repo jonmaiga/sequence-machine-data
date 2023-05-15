@@ -2,13 +2,11 @@
   "description": "Number of Hamiltonian paths in the n-Bruhat graph.",
   "id": "A317485",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

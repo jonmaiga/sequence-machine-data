@@ -1,0 +1,17 @@
+{
+  "description": "Beginning with 1, smallest positive integer not yet in the sequence such that two adjacent digits A and B of the sequence (also ignoring commas between terms) produce a prime = A + 3B. This is the earliest infinitely extensible such sequence.",
+  "id": "A362418",
+  "mentions": [
+    "A182178",
+    "A362417"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

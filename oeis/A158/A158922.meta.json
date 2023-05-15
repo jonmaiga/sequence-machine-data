@@ -2,13 +2,11 @@
   "description": "Number of simple critical nonplanar graphs on n nodes.",
   "id": "A158922",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

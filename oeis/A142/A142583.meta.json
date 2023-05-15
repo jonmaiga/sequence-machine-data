@@ -2,14 +2,12 @@
   "description": "A triangle sequence based on a prime root product using a primorial function: f(n)=primorial(n); p(x,n)=If[n == 0, 1, f(n)*(x + 1/f(n))*Product[x + Prime[i], {i, 1, n - 1}]]; t(n,m)=coefficients(p(x,n)).",
   "id": "A142583",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 37,
     "source": "oeis-entry"

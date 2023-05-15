@@ -2,12 +2,10 @@
   "description": "Number of partial matchings of n elements treatable by \"PTR\" (Procedure Triple Reverse).",
   "id": "A220871",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 15,
     "source": "oeis-entry"

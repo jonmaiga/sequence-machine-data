@@ -2,14 +2,12 @@
   "description": "Expansion of (1 -2*x +4*x^2 -22*x^3 +6*x^4 +268*x^5 -854*x^6 +3596*x^7 -3100*x^8)/((1 -2*x)/(1 -2*x -4*x^2)).",
   "id": "A115109",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:05",
     "offset": 0,
     "size": 25,
     "source": "oeis-bfile"

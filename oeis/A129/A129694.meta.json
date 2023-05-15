@@ -2,12 +2,10 @@
   "description": "a(0)=0. a(n) = a(n-1) + sum of positive integers which are <= n and not part of the sequence.",
   "id": "A129694",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 45,
     "source": "oeis-entry"

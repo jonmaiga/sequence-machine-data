@@ -2,13 +2,11 @@
   "description": "Number of nonisomorphic synchronizing strongly connected binary n-state automata without output under input permutations.",
   "id": "A245686",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 2,
     "size": 9,
     "source": "oeis-entry"

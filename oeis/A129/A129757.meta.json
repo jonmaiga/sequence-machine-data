@@ -2,14 +2,12 @@
   "description": "a(n) = ceiling((2^n + 1 - 2*floor(2^(n/2)))/2).",
   "id": "A129757",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 18:08:31",
     "offset": 1,
     "size": 32,
     "source": "joeis"

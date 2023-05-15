@@ -1,0 +1,36 @@
+{
+  "description": "One and numbers whose prime factorization has its greatest part at a middle position.",
+  "id": "A362622",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A002865",
+    "A027746",
+    "A053263",
+    "A056239",
+    "A112798",
+    "A171979",
+    "A237821",
+    "A237824",
+    "A237984",
+    "A327473",
+    "A327476",
+    "A359908",
+    "A362611",
+    "A362613",
+    "A362616",
+    "A362619",
+    "A362620",
+    "A362621",
+    "A362980"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -2,12 +2,10 @@
   "description": "Let R(i,j) be the rectangle with antidiagonals 1; 2,3; 4,5,6; ...; each k is an R(i(k),j(k)) and A057041(n)=j(F(n)), where F(n) is the n-th Fibonacci number.",
   "id": "A057041",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 19:03:11",
     "offset": 1,
     "size": 45,
     "source": "joeis"

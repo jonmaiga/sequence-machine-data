@@ -2,14 +2,12 @@
   "description": "Floor(average of first n Fibonacci numbers).",
   "id": "A078620",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:30",
     "offset": 1,
     "size": 41,
     "source": "oeis-bfile"

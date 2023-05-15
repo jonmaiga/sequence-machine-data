@@ -9,15 +9,12 @@
     "A239122",
     "A360659"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "formulas",
     "nice",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:04",
     "offset": 0,
     "size": 87,
     "source": "oeis-bfile"

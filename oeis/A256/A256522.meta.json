@@ -2,14 +2,13 @@
   "description": "Decimal expansion of the dimensionless Blasius coefficient 0.332... in the formula for the shear stress on a flat plate in a boundary layer flow.",
   "id": "A256522",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
+    "changed",
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 0,
     "size": 100,
     "source": "oeis-entry"

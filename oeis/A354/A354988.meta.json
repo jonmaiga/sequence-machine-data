@@ -8,12 +8,10 @@
     "A345995",
     "A354989"
   ],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:29",
     "offset": 1,
     "size": 85,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "sinh(arctanh(x)*cos(x))=x+504/7!*x^7+24384/9!*x^9+2375296/11!*x^11...",
   "id": "A012744",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 22:29:35",
     "offset": 0,
     "size": 14,
     "source": "joeis"

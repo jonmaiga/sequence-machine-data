@@ -6,7 +6,6 @@
     "A055642",
     "A353906"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
     "easy",
@@ -15,7 +14,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

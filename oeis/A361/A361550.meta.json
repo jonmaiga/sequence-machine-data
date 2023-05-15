@@ -1,0 +1,25 @@
+{
+  "description": "Expansion of g.f. A(x,y) satisfying x*y = Sum_{n=-oo..+oo} x^(n*(3*n+1)/2) * (A(x,y)^(3*n) - 1/A(x,y)^(3*n+1)), as a triangle read by rows.",
+  "id": "A361550",
+  "mentions": [
+    "A359920",
+    "A360191",
+    "A361050",
+    "A361535",
+    "A361552",
+    "A361553",
+    "A361554",
+    "A361555",
+    "A361556"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

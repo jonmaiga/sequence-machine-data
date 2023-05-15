@@ -2,14 +2,12 @@
   "description": "Numbers that are \"unsafe\" when playing the game Dollar Nim, which is a Nim game where users can remove 1, 5, 10, or 25 cents from an initial pile of money. The most common version of the game is played with an initial amount of $1, hence the name.",
   "id": "A192333",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:16",
     "offset": 1,
     "size": 56,
     "source": "oeis-bfile"

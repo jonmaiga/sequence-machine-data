@@ -2,13 +2,11 @@
   "description": "Start with 0, run through primes >=5, adding if -1 mod 6, subtracting if +1 mod 6.",
   "id": "A051356",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-27 14:55:45",
     "offset": 0,
     "size": 55,
     "source": "joeis"

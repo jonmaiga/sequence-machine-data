@@ -2,14 +2,12 @@
   "description": "Slowest increasing sequence where the absolute difference between the last digit of a(n) and the first digit of a(n+1) equals 7.",
   "id": "A101241",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

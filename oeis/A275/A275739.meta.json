@@ -2,13 +2,11 @@
   "description": "The set S of primes q satisfying certain conditions (see Müller, 2010 for precise definition).",
   "id": "A275739",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 26,
     "source": "oeis-entry"

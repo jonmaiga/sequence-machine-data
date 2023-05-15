@@ -2,12 +2,10 @@
   "description": "O.g.f.:G(G(x)-1)where G(x)=Sum_k>=0,k!*x^k",
   "id": "A158900",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 20,
     "source": "oeis-entry"

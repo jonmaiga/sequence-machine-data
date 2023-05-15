@@ -7,15 +7,13 @@
     "A049536",
     "A049537"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 1,
-    "size": 22,
+    "size": 24,
     "source": "oeis-entry"
   }
 }

@@ -26,7 +26,6 @@
     "A331436",
     "A343097"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "easy",
     "formulas",
@@ -34,7 +33,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:04",
     "offset": 0,
     "size": 40,
     "source": "oeis-bfile"

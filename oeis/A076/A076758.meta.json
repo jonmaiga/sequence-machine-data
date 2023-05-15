@@ -2,14 +2,12 @@
   "description": "a(n) = n*(n+1)^2*(2+n)*(3+2*n)*(19+8*n)/180.",
   "id": "A076758",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 11:30:11",
     "offset": 0,
     "size": 31,
     "source": "joeis"

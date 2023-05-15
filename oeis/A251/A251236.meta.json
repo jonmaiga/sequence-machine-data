@@ -2,14 +2,12 @@
   "description": "T(n,k) = Number of (n+1) X (k+1) 0..3 arrays with every 2 X 2 subblock summing to 6 and no 2 X 2 subblock having exactly two nonzero entries.",
   "id": "A251236",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:08",
     "offset": 1,
     "size": 40,
     "source": "oeis-bfile"

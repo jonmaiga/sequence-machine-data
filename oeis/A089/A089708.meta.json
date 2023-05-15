@@ -2,13 +2,11 @@
   "description": "a(1) = 1, a(2) = 2, a(n) = a(n-1) + d where d is the sum of the absolute differences between all pairs of previous terms.",
   "id": "A089708",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 15:07:05",
     "offset": 1,
     "size": 21,
     "source": "joeis"

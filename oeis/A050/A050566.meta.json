@@ -2,13 +2,11 @@
   "description": "Numbers n such that 81*2^n-1 is prime.",
   "id": "A050566",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 1,
     "size": 33,
     "source": "oeis-entry"

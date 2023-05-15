@@ -1,0 +1,38 @@
+{
+  "description": "Number of integer partitions of n whose weighted sum is not divisible by n.",
+  "id": "A362560",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A001227",
+    "A008284",
+    "A051293",
+    "A058398",
+    "A067538",
+    "A240219",
+    "A261079",
+    "A264034",
+    "A304818",
+    "A318283",
+    "A322439",
+    "A326622",
+    "A327482",
+    "A349156",
+    "A358136",
+    "A359361",
+    "A360068",
+    "A360069",
+    "A360241",
+    "A362051",
+    "A362558",
+    "A362559"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

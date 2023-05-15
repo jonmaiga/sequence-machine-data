@@ -2,7 +2,6 @@
   "description": "Continued fraction for sqrt(362).",
   "id": "A040342",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "cofr",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:19:21",
     "offset": 0,
     "size": 63,
     "source": "joeis"

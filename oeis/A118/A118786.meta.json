@@ -2,13 +2,11 @@
   "description": "Primes p such that the nearest integer to p * K is prime, where K is Khinchin's constant.",
   "id": "A118786",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:08",
     "offset": 1,
     "size": 50,
     "source": "oeis-bfile"

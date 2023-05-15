@@ -2,12 +2,10 @@
   "description": "Primes p(k) such that p(k+1)=p(k)+6, p(k+2)=p(k+1)+6, p(k+3)=p(k+2)+6, p(k+4)=p(k+3)+12, p(k+5)=p(k+4)+12.",
   "id": "A115946",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 24,
     "source": "oeis-entry"

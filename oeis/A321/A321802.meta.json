@@ -5,13 +5,11 @@
     "A320485",
     "A321801"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "base",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:44",
     "offset": 0,
     "size": 123,
     "source": "oeis-bfile"

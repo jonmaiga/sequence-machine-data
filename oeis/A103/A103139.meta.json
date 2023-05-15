@@ -2,14 +2,12 @@
   "description": "Woolbright sequence: the maximum number of kings on an n X n chessboard such that every single king is attacking a number of other kings that is smaller or equal to the number of empty spaces around it.",
   "id": "A103139",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

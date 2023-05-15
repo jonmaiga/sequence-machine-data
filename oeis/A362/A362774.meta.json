@@ -1,0 +1,21 @@
+{
+  "description": "E.g.f. satisfies A(x) = exp( x * (1+x)^2 * A(x)^2 ).",
+  "id": "A362774",
+  "mentions": [
+    "A052750",
+    "A360547",
+    "A361278",
+    "A362772",
+    "A362776"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

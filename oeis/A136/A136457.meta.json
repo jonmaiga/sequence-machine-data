@@ -2,14 +2,12 @@
   "description": "Triangle read by rows: coefficients of polynomials defined by recursion p(x,n)=(x-Gamma(n))*p(x,n-1).",
   "id": "A136457",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 43,
     "source": "oeis-entry"

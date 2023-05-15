@@ -5,13 +5,11 @@
     "A106806",
     "A244341"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:04",
     "offset": 1,
     "size": 99,
     "source": "oeis-bfile"

@@ -16,7 +16,6 @@
     "A356018",
     "A357762"
   ],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "base",
     "easy",
@@ -24,7 +23,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:31",
     "offset": 1,
     "size": 83,
     "source": "oeis-bfile"

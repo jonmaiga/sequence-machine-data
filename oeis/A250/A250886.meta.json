@@ -2,13 +2,11 @@
   "description": "G.f. A(x) satisfies: x = A(x) * (1 + A(x)) * (1 - 2*A(x)).",
   "id": "A250886",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:07",
     "offset": 1,
     "size": 26,
     "source": "oeis-bfile"

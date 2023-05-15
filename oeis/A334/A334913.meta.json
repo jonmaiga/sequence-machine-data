@@ -8,7 +8,6 @@
     "A184615",
     "A184616"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
     "easy",
@@ -16,7 +15,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 0,
     "size": 84,
     "source": "oeis-entry"

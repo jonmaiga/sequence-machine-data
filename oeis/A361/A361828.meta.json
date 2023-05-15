@@ -1,0 +1,19 @@
+{
+  "description": "a(0) = 1; a(n+1) = Sum_{k=0..n} k^k * a(n-k).",
+  "id": "A361828",
+  "mentions": [
+    "A000312",
+    "A051295",
+    "A277610"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

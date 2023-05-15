@@ -2,14 +2,12 @@
   "description": "Expansion of the fractional part of Pi in base Pi.",
   "id": "A188921",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "base",
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:13",
     "offset": 0,
     "size": 120,
     "source": "oeis-bfile"

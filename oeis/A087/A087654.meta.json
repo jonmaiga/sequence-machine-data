@@ -2,15 +2,12 @@
   "description": "Decimal expansion of D(1) where D(x) is the Dawson function.",
   "id": "A087654",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:39",
     "offset": 0,
     "size": 104,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Powers of the fifth root of 9 rounded up.",
   "id": "A018140",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:25",
     "offset": 0,
     "size": 36,
     "source": "oeis-bfile"

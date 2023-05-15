@@ -2,7 +2,6 @@
   "description": "Multiplicative function defined by a(p) = 2 and a(p^k) = p^(k-1) for k >= 2.",
   "id": "A347291",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "easy",
     "formulas",
@@ -10,9 +9,8 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 85,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

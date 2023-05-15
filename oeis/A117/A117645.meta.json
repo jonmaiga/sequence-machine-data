@@ -2,14 +2,12 @@
   "description": "a(n) = abs(floor(f(n))), where f(n) = (248/125)*f(n-1) - f(n-2), with f(0) = 120, and f(1) = 125.",
   "id": "A117645",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:07",
     "offset": 0,
     "size": 56,
     "source": "oeis-bfile"

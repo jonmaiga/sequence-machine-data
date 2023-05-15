@@ -2,13 +2,11 @@
   "description": "a(n) = 2^(6n+5).",
   "id": "A277426",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 16:05:28",
     "offset": 0,
     "size": 16,
     "source": "joeis"

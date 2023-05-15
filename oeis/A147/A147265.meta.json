@@ -2,12 +2,10 @@
   "description": "Number of n X n binary arrays symmetric about both diagonal and antidiagonal with all ones connected only in a 0100-1100-0111-0001 pattern in any orientation.",
   "id": "A147265",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 22,
     "source": "oeis-entry"

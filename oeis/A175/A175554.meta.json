@@ -2,7 +2,6 @@
   "description": "Number of Hamiltonian cycle decompositions of the complete graph on 2n+1 vertices.",
   "id": "A175554",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "bref",
     "hard",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

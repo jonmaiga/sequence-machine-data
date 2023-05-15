@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of length n 1..(k+1) arrays with every leading partial sum divisible by 2, 3, 5 or 7",
   "id": "A258631",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:16",
     "offset": 1,
     "size": 62,
     "source": "oeis-bfile"

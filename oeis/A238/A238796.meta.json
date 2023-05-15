@@ -2,13 +2,11 @@
   "description": "Symmetric (0,1)-matrices of order n where the numbers of 1's is equal to the order n.",
   "id": "A238796",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 0,
     "size": 22,
     "source": "oeis-entry"

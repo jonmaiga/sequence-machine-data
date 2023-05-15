@@ -2,14 +2,12 @@
   "description": "A triangular sequence of powers ( suppressed powers) : t(n,m)=m^Sum[Floor[n/m^k], {k, 1, Infinity}].",
   "id": "A153216",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 2,
     "size": 66,
     "source": "oeis-entry"

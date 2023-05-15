@@ -2,14 +2,12 @@
   "description": "Numbers k such that k^2 - 2 == 0 (mod 49).",
   "id": "A156674",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 20:10:11",
     "offset": 1,
     "size": 50,
     "source": "joeis"

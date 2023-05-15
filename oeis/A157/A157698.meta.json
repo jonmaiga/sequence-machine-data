@@ -2,7 +2,6 @@
   "description": "Decimal expansion of sqrt(2)*(1 + 1/sqrt(3)) + 2*sqrt(2/5 + 1/sqrt(5)).",
   "id": "A157698",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "cons",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 17:12:31",
     "offset": 1,
     "size": 105,
     "source": "joeis"

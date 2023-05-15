@@ -14,14 +14,12 @@
     "A274419",
     "A274420"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 2,
     "size": 101,
     "source": "oeis-entry"

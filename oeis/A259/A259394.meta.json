@@ -2,13 +2,11 @@
   "description": "Primes of the form (sum of the digits of k to consecutive powers starting at 1) + k, ordered by k (duplicates allowed).",
   "id": "A259394",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 60,
     "source": "oeis-entry"

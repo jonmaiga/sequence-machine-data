@@ -2,12 +2,10 @@
   "description": "Smallest prime such that a(n+1)-a(n) == 0 (mod n^n).",
   "id": "A087358",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"

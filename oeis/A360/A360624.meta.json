@@ -2,13 +2,11 @@
   "description": "Number of strong dichotomy patterns in Z/2nZ, i.e., bicolor patterns of Z/2nZ with respect to the action of Aff(Z/2nZ) with trivial isotropy group.",
   "id": "A360624",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 24,
     "source": "oeis-entry"

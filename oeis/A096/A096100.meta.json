@@ -2,13 +2,11 @@
   "description": "a(1) = 1; for n > 1: a(n) = smallest number >1 such that product of any two or more successive terms + 1 is prime.",
   "id": "A096100",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

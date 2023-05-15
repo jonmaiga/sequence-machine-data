@@ -1,0 +1,23 @@
+{
+  "description": "Permutation of the nonnegative integers such that A358654(p(n) - 1) = A200714(n) for n > 0 where p(n) is described in Comments.",
+  "id": "A358733",
+  "mentions": [
+    "A000045",
+    "A048679",
+    "A072649",
+    "A200648",
+    "A200714",
+    "A348366",
+    "A358654"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

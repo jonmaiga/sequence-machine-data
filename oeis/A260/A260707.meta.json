@@ -2,13 +2,11 @@
   "description": "a(n) is the percentage of digits equal to the n-th digit, up to that digit.",
   "id": "A260707",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 96,
     "source": "oeis-entry"

@@ -1,18 +1,16 @@
 {
-  "description": "Numbers having one 5 in base 7.",
+  "description": "Numbers whose base-7 representation contains exactly one 5.",
   "id": "A043413",
   "mentions": [
     "A007093"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:21:15",
     "offset": 1,
-    "size": 52,
+    "size": 58,
     "source": "joeis"
   }
 }

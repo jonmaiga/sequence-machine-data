@@ -2,13 +2,11 @@
   "description": "Number of successive primes beginning with n at the first instance.",
   "id": "A111311",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 100,
     "source": "oeis-entry"

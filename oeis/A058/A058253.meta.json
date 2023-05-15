@@ -2,12 +2,10 @@
   "description": "Primes p such that 4^p - 3 is prime.",
   "id": "A058253",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

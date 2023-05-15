@@ -1,0 +1,35 @@
+{
+  "description": "Array read by ascending antidiagonals. A(n, k) = Product_{j=0..k-1} binomial((j + 1)*n - 1, n - 1) if n >= 1, and A(0, k) = 1 for all k.",
+  "id": "A361948",
+  "mentions": [
+    "A001147",
+    "A025035",
+    "A025036",
+    "A025037",
+    "A025038",
+    "A025039",
+    "A025040",
+    "A025041",
+    "A048993",
+    "A057599",
+    "A060540",
+    "A060542",
+    "A082368",
+    "A088218",
+    "A097805",
+    "A156289",
+    "A291451",
+    "A291452",
+    "A322252"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

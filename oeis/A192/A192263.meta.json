@@ -2,13 +2,11 @@
   "description": "a(n) = abs(a(n-1) - 3*a(n-2)) with a(1)=a(2)=1.",
   "id": "A192263",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:16",
     "offset": 1,
     "size": 40,
     "source": "oeis-bfile"

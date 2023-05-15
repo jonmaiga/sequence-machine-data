@@ -2,12 +2,10 @@
   "description": "Smallest safe prime ((p-1)/2 is also prime) > n.",
   "id": "A033299",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:43",
     "offset": 1,
     "size": 67,
     "source": "oeis-bfile"

@@ -1,21 +1,18 @@
 {
-  "description": "Leading diagonal of triangle A119446, as described in A100461, except with a(1,n) = prime(n) instead of 2^(n-1).",
+  "description": "Leading diagonal of triangle A119446.",
   "id": "A119447",
   "mentions": [
     "A000960",
-    "A100461",
     "A119444",
     "A119446"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 79,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

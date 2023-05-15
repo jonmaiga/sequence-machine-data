@@ -2,12 +2,10 @@
   "description": "For odd n, this is the number of partitions of n*(n-1)/2 with all part sizes between 3 and n, inclusive. For even n, this is the number of partitions of n*(n-2)/2 with all part sizes between 3 and n, inclusive.",
   "id": "A176042",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:00",
     "offset": 3,
     "size": 27,
     "source": "oeis-bfile"

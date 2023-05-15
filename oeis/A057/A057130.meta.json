@@ -13,14 +13,12 @@
     "A078586",
     "A121940"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 18:16:29",
     "offset": 1,
     "size": 16,
     "source": "joeis"

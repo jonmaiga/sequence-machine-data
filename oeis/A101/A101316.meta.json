@@ -2,14 +2,12 @@
   "description": "Sequence starts with 1 odd digit, 2 even digits, 2 odd digits, 1 even digit, then 3 odd, 2 even, 3 odd, 3 even, 3 odd, 4 even, 4 odd, 1 even, etc., where these digits are determined by the sequence itself, and the parity alternates. Always group the digits to give the slowest rate of growth subject to a(n-1) < a(n).",
   "id": "A101316",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 40,
     "source": "oeis-entry"

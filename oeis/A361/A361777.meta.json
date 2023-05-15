@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. A(x) satisfying A(x) = exp( x * A(x)^x ).",
+  "id": "A361777",
+  "mentions": [
+    "A000272"
+  ],
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

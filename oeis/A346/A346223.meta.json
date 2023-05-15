@@ -2,13 +2,11 @@
   "description": "Square array T(m,n), read by ascending antidiagonals, based on the algorithm used in the Book of Soyga, a 16th-century Latin grimoire on magic. One of the earliest historic examples of a cellular automaton.",
   "id": "A346223",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 0,
     "size": 78,
     "source": "oeis-entry"

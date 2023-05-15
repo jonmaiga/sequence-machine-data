@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = A361540(2*n,n) / binomial(2*n,n) for n >= 0.",
+  "id": "A361688",
+  "mentions": [
+    "A000984",
+    "A361540"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

@@ -17,12 +17,10 @@
     "A194638",
     "A194639"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:17",
     "offset": 1,
     "size": 86,
     "source": "oeis-bfile"

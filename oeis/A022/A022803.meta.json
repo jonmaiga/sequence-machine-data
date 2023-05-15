@@ -2,13 +2,11 @@
   "description": "Numbers that reach ...,7,8,4,2,1 under the mapping: if n is even divide by 2 else add 1.",
   "id": "A022803",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:14:17",
     "offset": 1,
     "size": 56,
     "source": "joeis"

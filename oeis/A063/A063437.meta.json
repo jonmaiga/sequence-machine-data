@@ -2,13 +2,11 @@
   "description": "Cardinality of largest critical set in any Latin square of order n.",
   "id": "A063437",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

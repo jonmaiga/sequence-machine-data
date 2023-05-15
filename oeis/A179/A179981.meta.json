@@ -2,12 +2,10 @@
   "description": "Number of permutations of 1..n with the difference of the k-th adjacent pair no greater than k, k=1..n-1.",
   "id": "A179981",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 2,
     "size": 19,
     "source": "oeis-entry"

@@ -1,18 +1,16 @@
 {
-  "description": "18522n + 42.",
+  "description": "a(n) = 18522*n + 42.",
   "id": "A157740",
   "mentions": [
     "A157741",
     "A158321"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:39",
     "offset": 1,
     "size": 30,
     "source": "oeis-bfile"

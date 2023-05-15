@@ -2,13 +2,11 @@
   "description": "Number of n-step spiral self-avoiding walks on hexagonal lattice, where at each step one may continue in same direction or make turn of 2*Pi/3 counterclockwise.",
   "id": "A000511",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "nonn",
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 0,
     "size": 96,
     "source": "oeis-entry"

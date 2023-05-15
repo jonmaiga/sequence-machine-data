@@ -11,13 +11,11 @@
     "A342480",
     "A356093"
   ],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:30",
     "offset": 1,
     "size": 20,
     "source": "oeis-bfile"

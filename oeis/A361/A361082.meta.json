@@ -1,0 +1,17 @@
+{
+  "description": "Number of 3 X 3 matrices with unit determinant and positive integer entries whose sum is n.",
+  "id": "A361082",
+  "mentions": [
+    "A000010",
+    "A361083"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

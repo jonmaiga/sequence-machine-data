@@ -2,13 +2,11 @@
   "description": "Least multiple of n that contains only the distinct digits of n and n+1, with each of those digits appearing at least once.",
   "id": "A328326",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:57",
     "offset": 1,
     "size": 45,
     "source": "oeis-bfile"

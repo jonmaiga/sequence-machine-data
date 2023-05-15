@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of ways of dividing an n X k rectangle into integer-sided rectangles, up to rotations and reflections.",
+  "id": "A361523",
+  "mentions": [
+    "A000012",
+    "A005418",
+    "A116694",
+    "A227690",
+    "A347825",
+    "A360629",
+    "A361524",
+    "A361525",
+    "A361526"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

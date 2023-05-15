@@ -2,13 +2,11 @@
   "description": "Number of ways to write the numbers 1 through 3n on the faces of three n-sided dice, so that the 1st die beats the 2nd with probability > 1/2, the 2nd beats the 3rd with probability > 1/2 and the 3rd beats the 1st with probability > 1/2.",
   "id": "A121228",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

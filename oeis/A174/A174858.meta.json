@@ -4,14 +4,12 @@
   "mentions": [
     "A022004"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:58",
     "offset": 1,
     "size": 34,
     "source": "oeis-bfile"

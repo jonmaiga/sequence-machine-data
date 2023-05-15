@@ -1,0 +1,19 @@
+{
+  "description": "Constant term in the expansion of (1 + w^2 + x^2 + y^2 + z^2 + 1/(w*x*y*z))^n.",
+  "id": "A361704",
+  "mentions": [
+    "A361675",
+    "A361703",
+    "A361705"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonisomorphic unordered pairs of derangements of an n-set.",
+  "id": "A362760",
+  "mentions": [
+    "A000166",
+    "A362645",
+    "A362759"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

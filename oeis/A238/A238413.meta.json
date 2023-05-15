@@ -2,13 +2,11 @@
   "description": "The irregularity of the rooted tree with Matula number n (n.>=2).",
   "id": "A238413",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 2,
     "size": 94,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Sum of the remainders (s*t mod n), where s + t = n and 1 <= s <= t.",
   "id": "A338589",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 61,
     "source": "oeis-entry"

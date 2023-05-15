@@ -2,13 +2,11 @@
   "description": "Numbers k such that 47^k-46 is prime.",
   "id": "A034924",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

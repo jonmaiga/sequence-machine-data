@@ -1,17 +1,15 @@
 {
-  "description": "Meanders of length n.",
+  "description": "Number of meanders of length n.",
   "id": "A199932",
   "mentions": [
     "A198060",
     "A200062"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 34,
     "source": "oeis-entry"

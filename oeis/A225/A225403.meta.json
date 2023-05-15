@@ -2,12 +2,10 @@
   "description": "Smallest prime q such that 2*prime(n)*q^prime(n)+1 is also prime.",
   "id": "A225403",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:43",
     "offset": 1,
     "size": 46,
     "source": "oeis-bfile"

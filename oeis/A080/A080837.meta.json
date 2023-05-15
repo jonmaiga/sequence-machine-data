@@ -2,7 +2,6 @@
   "description": "Jouka numbers: either the number is divisible by 7 or 11 or has a 7 in its decimal representation.",
   "id": "A080837",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:32",
     "offset": 1,
     "size": 60,
     "source": "oeis-bfile"

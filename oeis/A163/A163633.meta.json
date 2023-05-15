@@ -2,13 +2,11 @@
   "description": "4n^2-2n+p: p=5,n=0,1,2 connects to next p=17,n=0,1,2 connects to next p=29,n=0,1,2 connects to next 4n^2-2n+41 where n=0,1,-1,2,-2,3,-3,... This is part of Prime Helix and for 41 an extension of Euler's x^2-x+41 but this sequence has 46 primes. The first are twin primes with 12 separation.",
   "id": "A163633",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 47,
     "source": "oeis-entry"

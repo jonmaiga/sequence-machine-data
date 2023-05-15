@@ -4,7 +4,6 @@
   "mentions": [
     "A071519"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "fini",
@@ -13,7 +12,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 30,
     "source": "oeis-entry"

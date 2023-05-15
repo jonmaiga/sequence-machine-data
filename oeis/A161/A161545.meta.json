@@ -2,13 +2,11 @@
   "description": "Composite numbers whose English names have a prime number of letters.",
   "id": "A161545",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 44,
     "source": "oeis-entry"

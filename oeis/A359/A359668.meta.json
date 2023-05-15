@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows. Each number of the triangle is positive and distinct. In row k are the next least k numbers such that the sum of any one number in each of the first k row is a prime number.",
+  "id": "A359668",
+  "mentions": [
+    "A000040",
+    "A000142",
+    "A000217",
+    "A001097"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

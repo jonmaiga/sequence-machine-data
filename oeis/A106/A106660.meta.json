@@ -2,13 +2,11 @@
   "description": "A triangle with sides that are three consecutive integers has an area that is a prime after rounding. The first of the consecutive numbers gives the sequence.",
   "id": "A106660",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

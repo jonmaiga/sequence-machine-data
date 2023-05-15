@@ -2,14 +2,12 @@
   "description": "Period 6: repeat [0, 0, 1, -1, -1, 1].",
   "id": "A131736",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:19",
     "offset": 0,
     "size": 111,
     "source": "oeis-bfile"

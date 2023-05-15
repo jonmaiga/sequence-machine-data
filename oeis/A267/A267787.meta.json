@@ -1,15 +1,13 @@
 {
-  "description": "Number of nX7 0..1 arrays with every repeated value in every row greater than or equal to, and in every column greater than, the previous repeated value.",
+  "description": "Number of n X 7 0..1 arrays with every repeated value in every row greater than or equal to, and in every column greater than, the previous repeated value.",
   "id": "A267787",
   "mentions": [
     "A267788"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:29",
     "offset": 1,
     "size": 19,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Numbers m whose decimal digits are a subsequence of the decimal digits of k*m for some 1 < k < 10.",
   "id": "A185867",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 45,
     "source": "oeis-entry"

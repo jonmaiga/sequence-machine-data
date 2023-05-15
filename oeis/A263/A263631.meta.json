@@ -2,13 +2,11 @@
   "description": "3rd reduced Euler characteristic of symmetric group S_n at p=2.",
   "id": "A263631",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "more",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 4,
     "size": 7,
     "source": "oeis-entry"

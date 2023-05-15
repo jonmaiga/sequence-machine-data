@@ -2,12 +2,10 @@
   "description": "sin(arcsinh(x)+arctan(x))=2*x-11/3!*x^3+185/5!*x^5-6785/7!*x^7...",
   "id": "A013104",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 12:29:16",
     "offset": 0,
     "size": 13,
     "source": "joeis"

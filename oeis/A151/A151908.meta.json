@@ -2,14 +2,12 @@
   "description": "Number of nonisomorphic cube tilings of dimension n which can be constructed using the recipe presented at the beginning of Section 3 of the Lagarias-Shor paper.",
   "id": "A151908",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 2,
     "size": 6,
     "source": "oeis-entry"

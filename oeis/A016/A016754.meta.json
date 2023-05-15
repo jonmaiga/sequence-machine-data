@@ -72,15 +72,12 @@
     "A344332",
     "A348005"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:44:21",
     "offset": 0,
     "size": 44,
     "source": "oeis-bfile"

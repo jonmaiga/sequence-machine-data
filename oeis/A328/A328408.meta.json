@@ -11,14 +11,12 @@
     "A209229",
     "A328407"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "formulas",
     "mult",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 45,
     "source": "oeis-entry"

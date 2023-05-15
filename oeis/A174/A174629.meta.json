@@ -2,7 +2,6 @@
   "description": "\"Binary dates\" take the dates with the format mm/dd/yy that have only 0's and 1's and transform their value to decimal base",
   "id": "A174629",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 36,
     "source": "oeis-entry"

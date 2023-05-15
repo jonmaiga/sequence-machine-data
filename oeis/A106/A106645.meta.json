@@ -2,14 +2,12 @@
   "description": "A four-symbol substitution with characteristic polynomial x^4-x-1.",
   "id": "A106645",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the standard deviation of the probability distribution function of angles of random rotations in 3D space uniformly distributed with respect to Haar measure (in radians).",
+  "id": "A361605",
+  "mentions": [
+    "A086118",
+    "A336083"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

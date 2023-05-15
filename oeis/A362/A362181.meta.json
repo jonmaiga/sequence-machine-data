@@ -1,0 +1,26 @@
+{
+  "description": "Number of numbers k such that A323410(k) = n.",
+  "id": "A362181",
+  "mentions": [
+    "A014197",
+    "A063740",
+    "A246655",
+    "A323410",
+    "A361967",
+    "A362180",
+    "A362182",
+    "A362183",
+    "A362184",
+    "A362185",
+    "A362186"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

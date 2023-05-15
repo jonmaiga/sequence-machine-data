@@ -12,13 +12,11 @@
     "A293557",
     "A293560"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:09",
     "offset": 1,
     "size": 87,
     "source": "oeis-bfile"

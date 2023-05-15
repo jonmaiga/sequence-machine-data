@@ -20,14 +20,12 @@
     "A115139",
     "A169803"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:07",
     "offset": 0,
     "size": 90,
     "source": "oeis-bfile"

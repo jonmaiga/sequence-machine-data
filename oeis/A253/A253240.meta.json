@@ -70,7 +70,6 @@
     "A250175",
     "A250176"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "easy",
     "formulas",
@@ -79,7 +78,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:11",
     "offset": 0,
     "size": 105,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Decimal expansion of muon mass energy equivalent in J.",
   "id": "A254292",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": -10,
     "size": 7,
     "source": "oeis-entry"

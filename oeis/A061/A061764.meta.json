@@ -2,12 +2,10 @@
   "description": "n! is divisible by (n+1)^12.",
   "id": "A061764",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 11:16:57",
     "offset": 1,
     "size": 47,
     "source": "joeis"

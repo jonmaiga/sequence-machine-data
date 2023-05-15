@@ -2,13 +2,11 @@
   "description": "Least number k such that k*p(j)*p(j+1) - 1 and k*p(j)*p(j+1) + 1 are twin primes with p(j) and p(j+1) odd twin primes.",
   "id": "A107414",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:59",
     "offset": 1,
     "size": 56,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "Numbers n such that (n+1)^2 + n and (n+1)^2 - n are both prime.",
   "id": "A211181",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:30",
     "offset": 1,
     "size": 55,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "a(n)=n+2-sum{k=0..n, -mu(k-mod(k^5,5k))}",
   "id": "A105591",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 83,
     "source": "oeis-entry"

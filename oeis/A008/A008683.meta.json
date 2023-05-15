@@ -48,9 +48,7 @@
     "A191898",
     "A206706"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "core",
     "easy",
     "formulas",
@@ -59,7 +57,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:14",
     "offset": 1,
     "size": 78,
     "source": "oeis-bfile"

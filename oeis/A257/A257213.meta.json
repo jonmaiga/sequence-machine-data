@@ -9,7 +9,6 @@
     "A257212",
     "A259361"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "hear",
@@ -17,7 +16,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:14",
     "offset": 0,
     "size": 80,
     "source": "oeis-bfile"

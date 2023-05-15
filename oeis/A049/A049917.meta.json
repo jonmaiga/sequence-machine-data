@@ -2,12 +2,10 @@
   "description": "a(n) = a(1) + a(2) + ... + a(n-1) - a(m) for n >= 4, where m = 2^(p+1) + 2 - n and p is the unique integer such that 2^p < n - 1 <= 2^(p+1), starting with a(1) = 1, a(2) = 3, and a(3) = 1.",
   "id": "A049917",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 13:00:24",
     "offset": 1,
     "size": 33,
     "source": "joeis"

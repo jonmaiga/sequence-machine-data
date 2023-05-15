@@ -2,12 +2,10 @@
   "description": "Appearance radii of visible vectors in the medial axis test mask for the Euclidean distance in Z^2",
   "id": "A171988",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:55",
     "offset": 1,
     "size": 31,
     "source": "oeis-bfile"

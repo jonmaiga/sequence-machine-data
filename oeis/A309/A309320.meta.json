@@ -2,14 +2,12 @@
   "description": "a(n) is the smallest positive integer m such that the digits of n in base 10 are also the first digits of sin(m) in base 10 after the decimal point.",
   "id": "A309320",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:33",
     "offset": 0,
     "size": 63,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Number of (n+1) X (n+1) -7..7 symmetric matrices with every 2 X 2 subblock having sum zero and three distinct values.",
   "id": "A211442",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:30",
     "offset": 1,
     "size": 28,
     "source": "oeis-bfile"

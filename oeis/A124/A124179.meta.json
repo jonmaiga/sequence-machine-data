@@ -2,14 +2,12 @@
   "description": "Prime(R(p)) where Prime(i) is the i-th prime and R(p) is the value of the reverse of the digits of prime p.",
   "id": "A124179",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 2,
     "size": 49,
     "source": "oeis-entry"

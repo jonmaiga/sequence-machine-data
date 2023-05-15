@@ -2,14 +2,12 @@
   "description": "Decimal expansion of 6th root of 17.",
   "id": "A011380",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "cons",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 13:13:33",
     "offset": 1,
     "size": 99,
     "source": "joeis"

@@ -5,7 +5,6 @@
     "A056960",
     "A056965"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
     "formulas",
@@ -13,7 +12,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:06",
     "offset": 0,
     "size": 77,
     "source": "oeis-bfile"

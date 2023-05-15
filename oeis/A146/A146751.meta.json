@@ -2,13 +2,11 @@
   "description": "Coefficients of a new recursive polynomial: a = 11; b = 19; c = -8; r(x,n)=(a*x + b)*r(x, n - 1) + c*r(x, n - 2).",
   "id": "A146751",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 33,
     "source": "oeis-entry"

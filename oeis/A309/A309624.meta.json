@@ -2,13 +2,11 @@
   "description": "Sum of the odd parts in the partitions of n into 7 parts.",
   "id": "A309624",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 0,
     "size": 47,
     "source": "oeis-entry"

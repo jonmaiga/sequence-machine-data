@@ -2,7 +2,6 @@
   "description": "A triangular sequence from an expansion of coefficients of the function: p(x,t)=Exp(x*g*(t))*(1-f(t)^2);f(t)=1/Sqrt[1 - 14*t^4 + t^8];g(t)=t. (Based on the Weierstrass functions of Schwarz's minimal surface which is identified with a cube.)",
   "id": "A137522",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 32,
     "source": "oeis-entry"

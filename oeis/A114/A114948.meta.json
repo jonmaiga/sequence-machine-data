@@ -2,14 +2,12 @@
   "description": "a(n) = n^2 + 10.",
   "id": "A114948",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 14:41:23",
     "offset": 1,
     "size": 50,
     "source": "joeis"

@@ -2,14 +2,12 @@
   "description": "Least number k such that (k^k+n)/(k+n) is prime or 0 if no such number exists.",
   "id": "A242803",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 84,
     "source": "oeis-entry"

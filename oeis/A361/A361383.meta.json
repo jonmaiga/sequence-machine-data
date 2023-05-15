@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of locations 1..n-1 which can be reached starting from location i=a(n-1), where jumps from location i to i +- a(i) are permitted (within 1..n-1); a(1)=1. See example.",
+  "id": "A361383",
+  "mentions": [
+    "A358838",
+    "A360593",
+    "A360594",
+    "A360595",
+    "A360744",
+    "A360745",
+    "A360746"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

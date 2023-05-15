@@ -1,0 +1,15 @@
+{
+  "description": "Number of odd chordless cycles of length > 4 in the n X n king graph.",
+  "id": "A362511",
+  "mentions": [
+    "A361171"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

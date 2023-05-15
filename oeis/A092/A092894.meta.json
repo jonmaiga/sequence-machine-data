@@ -2,13 +2,11 @@
   "description": "Decimal expansion of Frederick Magata's constant.",
   "id": "A092894",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

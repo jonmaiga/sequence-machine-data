@@ -2,13 +2,11 @@
   "description": "Determinant of the matrix a(i,j) = 1 if Abs(i-j)",
   "id": "A174647",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 3,
     "size": 33,
     "source": "oeis-entry"

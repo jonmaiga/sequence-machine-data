@@ -1,5 +1,5 @@
 {
-  "description": "Values of n for which {p_1, p_2, ..., p_n} (mod 4) is biased towards 1.",
+  "description": "Integers k for which {prime(1), prime(2), ..., prime(k)} (mod 4) is biased towards 1.",
   "id": "A096628",
   "mentions": [
     "A007350",
@@ -10,14 +10,12 @@
     "A066520",
     "A199547"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 33,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

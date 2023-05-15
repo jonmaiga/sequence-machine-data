@@ -1,0 +1,19 @@
+{
+  "description": "The least y-value of the lower left corner of an n X n box with x-value n such that no edge of the box overlaps with a previous box, given that the first box has its lower left corner at (1,1).",
+  "id": "A361697",
+  "mentions": [
+    "A029744",
+    "A131117",
+    "A289523",
+    "A361742"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

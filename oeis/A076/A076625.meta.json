@@ -2,12 +2,10 @@
   "description": "Maximum of the absolute values of the coefficients of P(n,x) where P(n,x) = 4^(n-1)*Product_{k=0..n} (x - cos(k*Pi/n)^2).",
   "id": "A076625",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 21,
     "source": "oeis-entry"

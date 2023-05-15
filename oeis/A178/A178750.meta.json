@@ -2,13 +2,11 @@
   "description": "Partial sums of floor(5^n/9).",
   "id": "A178750",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:02",
     "offset": 0,
     "size": 26,
     "source": "oeis-bfile"

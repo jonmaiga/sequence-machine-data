@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of (n+1)X(k+1) 0..1 arrays with each row and column not divisible by 3, read as a binary number with top and left being the most significant bits.",
   "id": "A263060",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:22",
     "offset": 1,
     "size": 40,
     "source": "oeis-bfile"

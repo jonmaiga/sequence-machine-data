@@ -2,14 +2,12 @@
   "description": "Number of cliques in the n-Sierpinski tetrahedron graph.",
   "id": "A292537",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 04:23:02",
     "offset": 1,
     "size": 24,
     "source": "joeis"

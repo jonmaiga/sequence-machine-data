@@ -2,14 +2,12 @@
   "description": "Expansion of x * (x+1) * (x^3-x^2-1) / ((x^2+1) * (x^3+x^2-1)).",
   "id": "A122519",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 16:33:58",
     "offset": 1,
     "size": 51,
     "source": "joeis"

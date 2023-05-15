@@ -2,12 +2,10 @@
   "description": "a(n) = n^3*(n^7 + 1)/2.",
   "id": "A168188",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:44:43",
     "offset": 0,
     "size": 22,
     "source": "joeis"

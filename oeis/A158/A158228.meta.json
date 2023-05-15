@@ -1,17 +1,15 @@
 {
-  "description": "225n^2 + 2n.",
+  "description": "a(n) = 225n^2 + 2n.",
   "id": "A158228",
   "mentions": [
     "A158229"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:40",
     "offset": 1,
     "size": 34,
     "source": "oeis-bfile"

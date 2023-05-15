@@ -2,14 +2,12 @@
   "description": "An asymptotic prime formula derived from a vibrational Hilbert space model for the zeta zeros.",
   "id": "A093999",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 51,
     "source": "oeis-entry"

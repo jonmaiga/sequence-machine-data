@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of 1/(1 - 9*x/(1 + x)^2)^(1/3).",
+  "id": "A361882",
+  "mentions": [
+    "A001622",
+    "A004987",
+    "A180400",
+    "A361841",
+    "A361842",
+    "A361880",
+    "A361881"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

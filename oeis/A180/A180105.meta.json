@@ -2,13 +2,11 @@
   "description": "Counting integers normally (1, 2, 3, 4, 5...), write them as roman numerals (I, II, III, IV, V...), describe them (one 1, two 1s, three 1s, one 1 one 5, one 5...), and write them out as numbers (11, 21, 31, 1115, 15...).",
   "id": "A180105",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:03",
     "offset": 1,
     "size": 36,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "List of quadruplets of primes with common difference 12.",
   "id": "A033446",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2022-04-28 15:06:17",
     "offset": 1,
     "size": 32,
     "source": "joeis"

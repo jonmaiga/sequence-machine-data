@@ -2,7 +2,6 @@
   "description": "A symmetrical triangle:t(n,m)=Binomial[PartitionsP[n] + m, m] + Binomial[PartitionsP[n] + n - m, n - m] - (Binomial[PartitionsP[n] + 0, 0] + Binomial[PartitionsP[ n] + n - 0, n - 0]) + 1",
   "id": "A176565",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 43,
     "source": "oeis-entry"

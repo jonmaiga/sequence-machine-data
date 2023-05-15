@@ -2,13 +2,11 @@
   "description": "Number of partitions of n such that least and largest parts are distinct and occur the same number of times.",
   "id": "A265259",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:25",
     "offset": 0,
     "size": 47,
     "source": "oeis-bfile"

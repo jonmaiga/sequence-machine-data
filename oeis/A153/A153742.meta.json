@@ -2,13 +2,11 @@
   "description": "Number of elements in wreath product C_3 ≀ S_n that alternate up/not-up with respect to a weak product ordering.",
   "id": "A153742",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:35",
     "offset": 1,
     "size": 18,
     "source": "oeis-bfile"

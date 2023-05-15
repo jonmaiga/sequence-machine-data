@@ -12,13 +12,11 @@
     "A342920",
     "A346104"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "frac",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:19",
     "offset": 1,
     "size": 81,
     "source": "oeis-bfile"

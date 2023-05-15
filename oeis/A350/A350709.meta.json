@@ -11,14 +11,12 @@
     "A196564",
     "A308002"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 0,
     "size": 37,
     "source": "oeis-entry"

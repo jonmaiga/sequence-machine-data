@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n*A010888(n).",
+  "id": "A361203",
+  "mentions": [
+    "A010888",
+    "A017173",
+    "A057147"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

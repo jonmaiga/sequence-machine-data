@@ -2,20 +2,19 @@
   "description": "Sum of numerical values of letters in German names of the nonnegative numbers.",
   "id": "A119945",
   "mentions": [
+    "A007208",
     "A073327",
     "A161406",
     "A169639"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
-    "size": 46,
+    "size": 59,
     "source": "oeis-entry"
   }
 }

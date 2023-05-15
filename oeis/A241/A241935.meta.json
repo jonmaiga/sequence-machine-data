@@ -1,15 +1,13 @@
 {
-  "description": "Number of length n+4 0..7 arrays with no consecutive five elements summing to more than 2*7",
+  "description": "Number of length n+4 0..7 arrays with no consecutive five elements summing to more than 2*7.",
   "id": "A241935",
   "mentions": [
     "A241936"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:58",
     "offset": 1,
     "size": 17,
     "source": "oeis-bfile"

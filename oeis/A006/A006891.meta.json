@@ -5,14 +5,12 @@
     "A006890",
     "A159767"
   ],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "cons",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:10",
     "offset": 1,
     "size": 105,
     "source": "oeis-bfile"

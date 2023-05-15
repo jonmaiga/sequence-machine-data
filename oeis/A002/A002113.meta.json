@@ -49,7 +49,6 @@
     "A262065",
     "A262069"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "base",
     "core",
@@ -59,7 +58,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:03",
     "offset": 1,
     "size": 61,
     "source": "oeis-bfile"

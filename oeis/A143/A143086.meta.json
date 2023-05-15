@@ -1,17 +1,16 @@
 {
-  "description": "Symmetrical triangle sequence: t(n,m)=If[m < = ( less than or equal) Floor[n/2], 2^(m + 1) - 1, 2^(n - m + 1) - 1].",
+  "description": "Triangle: T(n,k) = 2^(k + 1) - 1 if k < = floor(n/2), otherwise 2^(n - k + 1) - 1.",
   "id": "A143086",
   "mentions": [
     "A077866"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
-    "formulas",
+    "easy",
+    "less",
     "nonn",
-    "uned"
+    "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

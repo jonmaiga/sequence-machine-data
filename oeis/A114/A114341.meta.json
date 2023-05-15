@@ -2,13 +2,11 @@
   "description": "Palindromes n such that n+(product of digits of n) gives a larger palindrome.",
   "id": "A114341",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:04",
     "offset": 1,
     "size": 33,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "a(n) = [ Sum{(sqrt(j+1)-sqrt(i+1))^2} ], 1 <= i < j <= n.",
   "id": "A025222",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:27:53",
     "offset": 1,
     "size": 54,
     "source": "joeis"

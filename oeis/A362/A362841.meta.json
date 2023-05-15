@@ -1,0 +1,23 @@
+{
+  "description": "Numbers with at least one 5 in their prime signature.",
+  "id": "A362841",
+  "mentions": [
+    "A038109",
+    "A050997",
+    "A174312",
+    "A176297",
+    "A178740",
+    "A179646",
+    "A179667",
+    "A179671"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

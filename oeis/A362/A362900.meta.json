@@ -1,0 +1,17 @@
+{
+  "description": "Number of nonisomorphic unordered pairs of fixed-point-free endofunctions on an n-set.",
+  "id": "A362900",
+  "mentions": [
+    "A054745",
+    "A362899"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

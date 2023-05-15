@@ -2,13 +2,11 @@
   "description": "Look at the first 10 digits of the sequence: they are all different. The same for the next 10. And the next 10, etc. This sequence is the slowest increasing one with that property.",
   "id": "A097912",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 53,
     "source": "oeis-entry"

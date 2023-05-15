@@ -8,15 +8,14 @@
     "A055490",
     "A184388"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
+    "changed",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
-    "size": 24,
+    "size": 31,
     "source": "oeis-entry"
   }
 }

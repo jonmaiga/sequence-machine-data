@@ -1,0 +1,17 @@
+{
+  "description": "Maximum latitude in degrees of spherical Mercator projection with an aspect ratio of one, arctan(sinh(Pi))*180/Pi.",
+  "id": "A361260",
+  "mentions": [
+    "A334401"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 127,
+    "source": "joeis"
+  }
+}

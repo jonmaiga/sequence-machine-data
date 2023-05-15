@@ -2,12 +2,10 @@
   "description": "Smallest prime == 1 (mod (product of next n numbers)).",
   "id": "A088106",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:39",
     "offset": 1,
     "size": 13,
     "source": "oeis-bfile"

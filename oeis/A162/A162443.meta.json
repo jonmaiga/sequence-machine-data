@@ -16,7 +16,6 @@
     "A162446",
     "A162448"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
@@ -24,7 +23,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 21,
     "source": "oeis-entry"

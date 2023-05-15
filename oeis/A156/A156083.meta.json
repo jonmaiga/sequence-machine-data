@@ -2,13 +2,11 @@
   "description": "In this sequence each prime ends a prime century. Place a 0 between the final two digits, and raise the 100s digit by 1, to form the first prime of the next century.",
   "id": "A156083",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:38",
     "offset": 1,
     "size": 32,
     "source": "oeis-bfile"

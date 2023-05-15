@@ -5,13 +5,11 @@
     "A019692",
     "A058291"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 89,
     "source": "oeis-entry"

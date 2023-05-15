@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the index at which n first occurs in A362681.",
+  "id": "A362684",
+  "mentions": [
+    "A048133",
+    "A157449",
+    "A362681"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

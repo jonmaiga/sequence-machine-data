@@ -2,13 +2,11 @@
   "description": "The real part of complex sequence: a(n) = a(n-1) + (1+i)*a(n-2).",
   "id": "A143055",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:32",
     "offset": 1,
     "size": 37,
     "source": "oeis-bfile"

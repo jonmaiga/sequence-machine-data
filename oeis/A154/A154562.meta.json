@@ -2,13 +2,11 @@
   "description": "Positive integers n such that the sum of the squares of all the substring decompositions of n is a multiple of n.",
   "id": "A154562",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 38,
     "source": "oeis-entry"

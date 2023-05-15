@@ -2,14 +2,12 @@
   "description": "Lengths of all edges and diagonals in the smallest perfect parallelepiped sorted in ascending order.",
   "id": "A195469",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

@@ -1,0 +1,20 @@
+{
+  "description": "Indices of primes of the form p = 2^i + 2^j + 1, i > j > 0 (A081091).",
+  "id": "A360448",
+  "mentions": [
+    "A000040",
+    "A000120",
+    "A000720",
+    "A014499",
+    "A081091"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

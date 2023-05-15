@@ -5,7 +5,6 @@
     "A171081",
     "A171082"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "bref",
     "hard",
@@ -13,7 +12,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 5,
     "size": 3,
     "source": "oeis-entry"

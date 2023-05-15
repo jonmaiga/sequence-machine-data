@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of nXk 0..n+k-2 arrays with upper left zero and lower right n+k-2 and each element differing from its horizontal and vertical neighbors by one or two.",
   "id": "A265447",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:25",
     "offset": 1,
     "size": 47,
     "source": "oeis-bfile"

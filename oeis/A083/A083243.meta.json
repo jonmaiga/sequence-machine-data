@@ -10,13 +10,11 @@
     "A083244",
     "A083245"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 72,
     "source": "oeis-entry"

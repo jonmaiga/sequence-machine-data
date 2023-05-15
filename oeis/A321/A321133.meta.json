@@ -7,15 +7,12 @@
     "A320468",
     "A320469"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-03-14 10:44:30",
     "offset": 0,
     "size": 25,
     "source": "oeis-bfile"

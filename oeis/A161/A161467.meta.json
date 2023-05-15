@@ -2,13 +2,11 @@
   "description": "Digital sum of n^3 is 3*(digital sum of n).",
   "id": "A161467",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 54,
     "source": "oeis-entry"

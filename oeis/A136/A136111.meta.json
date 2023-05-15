@@ -2,12 +2,10 @@
   "description": "Positive integers n such that for every k in [n,n+1,n+2,n+3,n+4] we have sigma(k) coprime to k.",
   "id": "A136111",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

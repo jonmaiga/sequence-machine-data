@@ -2,13 +2,11 @@
   "description": "Square root of n has the same nonzero digit in each of the first 4 places to the right of the decimal point.",
   "id": "A073585",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:25",
     "offset": 1,
     "size": 37,
     "source": "oeis-bfile"

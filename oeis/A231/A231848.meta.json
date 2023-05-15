@@ -2,14 +2,12 @@
   "description": "A sequence of rounded numbers meaningful for entering values over several orders of magnitude in computer-human interfaces.",
   "id": "A231848",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 57,
     "source": "oeis-entry"

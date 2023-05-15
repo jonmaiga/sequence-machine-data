@@ -2,14 +2,12 @@
   "description": "Genera g such that every orientation-preserving periodic automorphism of the closed orientable surface of genus g has an invariant circle.",
   "id": "A125705",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "more",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 43,
     "source": "oeis-entry"

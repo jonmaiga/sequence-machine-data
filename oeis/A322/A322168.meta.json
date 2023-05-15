@@ -2,13 +2,11 @@
   "description": "Sequence gives the values of the trace A+D of the 2 X 2 matrices [[A,B],[C,D]] in a binary tree of the special linear monoid, SL(2,Z+).",
   "id": "A322168",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:45",
     "offset": 1,
     "size": 127,
     "source": "oeis-bfile"

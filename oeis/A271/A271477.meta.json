@@ -2,12 +2,10 @@
   "description": "Total number of burnt pancakes flipped using the Max-bar(n) greedy algorithm.",
   "id": "A271477",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:35",
     "offset": 1,
     "size": 20,
     "source": "oeis-bfile"

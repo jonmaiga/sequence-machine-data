@@ -2,13 +2,11 @@
   "description": "Number of 8 X 8 Franklin squares with magic sum 2n.",
   "id": "A125192",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 29,
     "source": "oeis-entry"

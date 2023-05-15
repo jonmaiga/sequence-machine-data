@@ -2,7 +2,6 @@
   "description": "A triangular sequence of coefficients of a truncated quotient (remainder dropped) of the ChebyshevT polynomials T(x,n) by the Cyclotomic polynomials c(x,n): p(x,n)=Quotient(T(x.n)/c(x,n)).",
   "id": "A140723",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 34,
     "source": "oeis-entry"

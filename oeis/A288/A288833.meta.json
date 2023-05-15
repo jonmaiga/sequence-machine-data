@@ -2,12 +2,10 @@
   "description": "Least new prime giving new first difference.",
   "id": "A288833",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 49,
     "source": "oeis-entry"

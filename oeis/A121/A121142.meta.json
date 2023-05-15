@@ -2,12 +2,10 @@
   "description": "Numbers of isomers of unbranched a-4-catapolydecagons - see Brunvoll reference for precise definition.",
   "id": "A121142",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 11,
     "source": "oeis-entry"

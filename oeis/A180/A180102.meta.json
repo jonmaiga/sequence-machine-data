@@ -2,14 +2,12 @@
   "description": "a(1)=1; a(n)=percentage of sum of previous terms represented by n",
   "id": "A180102",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 2,
     "size": 89,
     "source": "oeis-entry"

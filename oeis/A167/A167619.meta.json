@@ -2,14 +2,12 @@
   "description": "Numbers n which have nonzero digital product equal to the last digits of n.",
   "id": "A167619",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 53,
     "source": "oeis-entry"

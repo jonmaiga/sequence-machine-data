@@ -2,13 +2,11 @@
   "description": "Smallest number such that the largest set of positive real numbers whose sum and product equals the number falls short by n.",
   "id": "A052508",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 0,
     "size": 15,
     "source": "oeis-entry"

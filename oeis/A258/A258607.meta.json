@@ -1,15 +1,13 @@
 {
-  "description": "Number of (n+2)X(3+2) 0..2 arrays with no 3x3 subblock diagonal sum less than the antidiagonal sum or central row sum less than the central column sum",
+  "description": "Number of (n+2) X (3+2) 0..2 arrays with no 3 X 3 subblock diagonal sum less than the antidiagonal sum or central row sum less than the central column sum.",
   "id": "A258607",
   "mentions": [
     "A258612"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:16",
     "offset": 1,
     "size": 18,
     "source": "oeis-bfile"

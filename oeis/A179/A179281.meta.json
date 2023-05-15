@@ -2,13 +2,11 @@
   "description": "E.g.f. equals the imaginary part of the series F(x) = 1 + x*F(x)^i where i=sqrt(-1).",
   "id": "A179281",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 19,
     "source": "oeis-entry"

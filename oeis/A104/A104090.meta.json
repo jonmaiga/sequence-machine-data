@@ -2,13 +2,11 @@
   "description": "Largest prime <= 5^n.",
   "id": "A104090",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 10:47:11",
     "offset": 1,
     "size": 21,
     "source": "joeis"

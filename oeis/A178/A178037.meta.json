@@ -2,14 +2,12 @@
   "description": "Number of two-sided n-step prudent walks ending on the top side or right side of their box, avoiding more than two consecutive west steps and more than two consecutive south steps.",
   "id": "A178037",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "more",
     "nonn",
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 18,
     "source": "oeis-entry"

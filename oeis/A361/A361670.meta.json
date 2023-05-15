@@ -1,0 +1,23 @@
+{
+  "description": "Squarefree part of the n-th triangular number.",
+  "id": "A361670",
+  "mentions": [
+    "A000217",
+    "A001108",
+    "A007913",
+    "A039963",
+    "A083481",
+    "A136480",
+    "A361671"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

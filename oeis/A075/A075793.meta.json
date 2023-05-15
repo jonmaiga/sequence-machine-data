@@ -2,13 +2,11 @@
   "description": "Primes p such that f_p(x)=(1296+432*x+108*x^2+24*x^3+5*x^4+x^5) mod p factors as product of 3 linear and one irreducible quadratic factor.",
   "id": "A075793",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 44,
     "source": "oeis-entry"

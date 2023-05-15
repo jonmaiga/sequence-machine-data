@@ -2,13 +2,11 @@
   "description": "If n = 10k+m (0 <= m <= 9) then a(n) = n*k^m.",
   "id": "A256556",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "look",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:14",
     "offset": 1,
     "size": 53,
     "source": "oeis-bfile"

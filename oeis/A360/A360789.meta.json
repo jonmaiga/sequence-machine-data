@@ -1,0 +1,26 @@
+{
+  "description": "Least prime p such that p mod primepi(p) = n.",
+  "id": "A360789",
+  "mentions": [
+    "A004648",
+    "A038625",
+    "A048891",
+    "A052013",
+    "A073325",
+    "A073436",
+    "A162567",
+    "A171430",
+    "A171431",
+    "A171432",
+    "A171434"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

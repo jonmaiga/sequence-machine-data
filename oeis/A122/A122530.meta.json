@@ -2,14 +2,12 @@
   "description": "Decreasing runs. The size of each run is given by the sequence itself. First run starts with \"1\", second with \"2\", third with \"3\", fourth with \"4\", etc.",
   "id": "A122530",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 80,
     "source": "oeis-entry"

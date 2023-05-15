@@ -8,16 +8,13 @@
     "A097724",
     "A158793"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-03-14 10:44:24",
     "offset": 0,
     "size": 66,
     "source": "oeis-bfile"

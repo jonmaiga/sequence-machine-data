@@ -7,14 +7,12 @@
     "A175023",
     "A175025"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

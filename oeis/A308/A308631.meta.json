@@ -2,14 +2,12 @@
   "description": "Related to the position of the smallest part in all compositions of n.",
   "id": "A308631",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 3,
     "size": 29,
     "source": "oeis-entry"

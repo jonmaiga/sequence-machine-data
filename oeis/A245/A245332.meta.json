@@ -2,14 +2,12 @@
   "description": "Number of compositions of n into parts 2 and 3 with at least one 2 and one 3.",
   "id": "A245332",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:01",
     "offset": 0,
     "size": 50,
     "source": "oeis-bfile"

@@ -7,7 +7,6 @@
     "A032347",
     "A046935"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "nice",
@@ -15,7 +14,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:57",
     "offset": 0,
     "size": 55,
     "source": "oeis-bfile"

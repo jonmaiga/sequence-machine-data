@@ -2,18 +2,19 @@
   "description": "a(n) = (10*n + 5)^5.",
   "id": "A017333",
   "mentions": [
+    "A013663",
+    "A016757",
+    "A017329",
     "A272914"
   ],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:24",
     "offset": 0,
-    "size": 17,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

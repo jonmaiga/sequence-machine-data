@@ -2,12 +2,10 @@
   "description": "a(n) is the largest prime that is a sum of some 3 distinct previous terms.",
   "id": "A226027",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:43",
     "offset": 1,
     "size": 40,
     "source": "oeis-bfile"

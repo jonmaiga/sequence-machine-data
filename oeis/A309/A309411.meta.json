@@ -2,7 +2,6 @@
   "description": "Numbers k such that (44^k + 1)/45 is prime.",
   "id": "A309411",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "bref",
     "hard",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 3,
     "source": "oeis-entry"

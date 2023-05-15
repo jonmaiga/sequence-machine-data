@@ -2,14 +2,12 @@
   "description": "a(n) is the number of steps needed to reach 1 (or -1 if 1 is never reached) using the following rule: Begin with k = n. On each step, if k is divisible by 9, then divide it by 9; otherwise, if k has not already appeared during the iterative process, concatenate k with the digit d which makes the resulting number divisible by 9, and divide by 9; otherwise, concatenate d with k, and divide by 9.",
   "id": "A344383",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 73,
     "source": "oeis-entry"

@@ -1,0 +1,18 @@
+{
+  "description": "Inventory of positions as an irregular table; row 0 contains 0, subsequent rows contain the 0-based positions (mod 2) of 0's, followed by the positions (mod 2) of 1's in prior rows flattened.",
+  "id": "A361496",
+  "mentions": [
+    "A342585",
+    "A356784",
+    "A358066"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

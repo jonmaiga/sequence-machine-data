@@ -2,12 +2,10 @@
   "description": "a(n) = min{2 + c_n + 2(c_1 + c_2 + ... + c_(n-1)) | n = p + q, 1 <= p < q < n, gcd(p, q) = 1, and p/q has continued fraction expansion [0; c_1, c_2, ...., c_n]}.",
   "id": "A225179",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:43",
     "offset": 1,
     "size": 83,
     "source": "oeis-bfile"

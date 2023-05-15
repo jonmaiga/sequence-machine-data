@@ -2,12 +2,10 @@
   "description": "Coefficients of the expansion of Sum_{n,m>=1} (-1)^m*q^(2*n*m+m)/((1+q^n)*(1-q^(2*m-1))) (odd powers only).",
   "id": "A350583",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 58,
     "source": "oeis-entry"

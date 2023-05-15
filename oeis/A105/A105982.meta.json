@@ -2,13 +2,11 @@
   "description": "Near-repdigit primes with 2 as repeated digit.",
   "id": "A105982",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

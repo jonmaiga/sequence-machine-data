@@ -2,13 +2,11 @@
   "description": "(12n+6)^10.",
   "id": "A017602",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 13:53:27",
     "offset": 0,
     "size": 10,
     "source": "joeis"

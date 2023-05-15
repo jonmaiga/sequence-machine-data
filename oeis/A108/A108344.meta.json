@@ -2,13 +2,11 @@
   "description": "Least positive k such that k * Z^n + 1 is prime, where Z = 10^100+267, the first prime greater than a googol.",
   "id": "A108344",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

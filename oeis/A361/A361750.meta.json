@@ -1,0 +1,18 @@
+{
+  "description": "Terms of A329150 that have several preimages.",
+  "id": "A361750",
+  "mentions": [
+    "A329147",
+    "A329149",
+    "A329150"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

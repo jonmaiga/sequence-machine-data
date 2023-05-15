@@ -2,13 +2,11 @@
   "description": "Solutions n of max(m+d(m))=n+2 for m",
   "id": "A087280",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 5,
     "source": "oeis-entry"

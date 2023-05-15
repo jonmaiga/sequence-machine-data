@@ -2,13 +2,11 @@
   "description": "Decimal expansion of arc length of the Keratoid Cusp curve (loop arc length).",
   "id": "A204619",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

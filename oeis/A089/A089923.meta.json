@@ -2,13 +2,11 @@
   "description": "Largest prime in the reverse concatenation of the first n consecutive prime numbers when that concatenation is a prime.",
   "id": "A089923",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 5,
     "size": 4,
     "source": "oeis-entry"

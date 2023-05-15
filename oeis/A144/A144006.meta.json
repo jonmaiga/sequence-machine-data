@@ -9,14 +9,12 @@
     "A067146",
     "A144005"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 48,
     "source": "oeis-entry"

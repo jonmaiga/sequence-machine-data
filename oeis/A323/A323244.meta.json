@@ -43,14 +43,11 @@
     "A329645",
     "A329646"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:47",
     "offset": 1,
     "size": 90,
     "source": "oeis-bfile"

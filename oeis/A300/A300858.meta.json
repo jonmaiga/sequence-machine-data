@@ -19,13 +19,11 @@
     "A300859",
     "A300861"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:25",
     "offset": 1,
     "size": 76,
     "source": "oeis-bfile"

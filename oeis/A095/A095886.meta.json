@@ -2,14 +2,12 @@
   "description": "Triangle read by rows: T(n,k) = (n-k)^n, n>=1, 1<=k<=n.",
   "id": "A095886",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2022-05-02 16:53:40",
     "offset": 1,
     "size": 46,
     "source": "joeis"

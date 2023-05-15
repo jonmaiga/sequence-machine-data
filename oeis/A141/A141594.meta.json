@@ -2,13 +2,11 @@
   "description": "Numbers k such that k, q+k, 2*q+k, 3*q+k, 4*q+k, and 5*q+k are all averages of twin primes, where q is the product of the first 8 primes.",
   "id": "A141594",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:30",
     "offset": 1,
     "size": 24,
     "source": "oeis-bfile"

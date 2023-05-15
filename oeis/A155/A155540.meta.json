@@ -2,13 +2,11 @@
   "description": "Decimal expansion of length of the mean tropical year on 1 January 2000 measured in days.",
   "id": "A155540",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 3,
     "size": 8,
     "source": "oeis-entry"

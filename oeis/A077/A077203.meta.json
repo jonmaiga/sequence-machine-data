@@ -2,13 +2,11 @@
   "description": "a(1) = 2. Then the smallest n-digit prime starting with the last digit of the previous term.",
   "id": "A077203",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:28",
     "offset": 1,
     "size": 18,
     "source": "oeis-bfile"

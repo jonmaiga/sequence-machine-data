@@ -1,16 +1,14 @@
 {
-  "description": "Expansion of e.g.f. exp(x)*(exp(x)-1)*(exp(x)-x).",
+  "description": "Expansion of e.g.f.: exp(x)*(exp(x)-1)*(exp(x)-x).",
   "id": "A360586",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 0,
     "size": 28,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

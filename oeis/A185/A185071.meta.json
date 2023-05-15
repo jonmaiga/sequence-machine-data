@@ -2,13 +2,11 @@
   "description": "E.g.f.: 1/sqrt(cos(x)*cosh(x) - sin(x)*sinh(x)), omitting the zero-valued coefficients of odd powers of x.",
   "id": "A185071",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:09",
     "offset": 0,
     "size": 16,
     "source": "oeis-bfile"

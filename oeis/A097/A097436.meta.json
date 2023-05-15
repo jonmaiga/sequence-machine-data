@@ -2,12 +2,10 @@
   "description": "Value of C in y = x^2+7x+C such that y is prime for all x = 0 to 4.",
   "id": "A097436",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 38,
     "source": "oeis-entry"

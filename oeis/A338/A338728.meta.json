@@ -2,14 +2,12 @@
   "description": "a(n) = number of binary increasing trees with labels from {1,2,...n} which are beth-avoiding.",
   "id": "A338728",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 0,
     "size": 8,
     "source": "oeis-entry"

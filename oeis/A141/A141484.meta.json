@@ -2,15 +2,13 @@
   "description": "Numbers k such that prime(k)^2 + k! is prime.",
   "id": "A141484",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
-    "size": 14,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

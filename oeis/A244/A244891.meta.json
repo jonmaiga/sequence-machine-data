@@ -2,13 +2,11 @@
   "description": "Class number of maximal order O_1 in a totally definite quaternion Q(sqrt(p))-algebra D_{oo_1, oo_2}, where p = n-th prime.",
   "id": "A244891",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 4,
     "size": 43,
     "source": "oeis-entry"

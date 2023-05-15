@@ -2,12 +2,10 @@
   "description": "Minimum of the cube root of the largest element over all partitions of n into at most 5 cubes.",
   "id": "A243113",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:59",
     "offset": 0,
     "size": 106,
     "source": "oeis-bfile"

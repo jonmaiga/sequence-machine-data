@@ -2,13 +2,11 @@
   "description": "Ordered pair {vertex,genus} to the Csaszar equation: h=(V-3)*(V-4)/12",
   "id": "A173425",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 24,
     "source": "oeis-entry"

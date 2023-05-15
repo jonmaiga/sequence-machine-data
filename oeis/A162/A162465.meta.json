@@ -2,13 +2,11 @@
   "description": "Numbers k = x//y which are a concatenation of x and y such that x^3 + y^3 is a multiple of k.",
   "id": "A162465",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 52,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Primes such that {a(m)-a(m-1)}/{a(m-1)-a(m-2)} is a unique integer.",
   "id": "A084761",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 22,
     "source": "oeis-entry"

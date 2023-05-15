@@ -2,13 +2,11 @@
   "description": "Number a(n) of alternative sets of orthogonal contrasts available to partition variation between n levels of a categorical factor in analysis of variance, with each set described by a unique general linear model.",
   "id": "A165438",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 3,
     "size": 30,
     "source": "oeis-entry"

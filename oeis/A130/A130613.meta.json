@@ -2,12 +2,10 @@
   "description": "Number of ways of placing non-attacking knights on an n X n chessboard symmetric about main diagonal.",
   "id": "A130613",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 17,
     "source": "oeis-entry"

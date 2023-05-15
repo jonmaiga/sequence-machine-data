@@ -2,13 +2,11 @@
   "description": "Fixed point of the morphism 1 -> 12, 2 -> 111.",
   "id": "A102005",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 17:53:13",
     "offset": 0,
     "size": 105,
     "source": "joeis"

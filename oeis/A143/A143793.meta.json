@@ -2,12 +2,10 @@
   "description": "Averages of twin primes of the form : i^2+j^2, as sum of two squares.",
   "id": "A143793",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 38,
     "source": "oeis-entry"

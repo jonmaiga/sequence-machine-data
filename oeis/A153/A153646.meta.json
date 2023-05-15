@@ -2,7 +2,6 @@
   "description": "Sum of the letter values of the words of the Sator square: SATOR AREPO TENET OPERA ROTAS.",
   "id": "A153646",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "fini",
     "full",
@@ -10,7 +9,6 @@
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 5,
     "source": "oeis-entry"

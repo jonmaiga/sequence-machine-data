@@ -3,15 +3,13 @@
   "id": "A358293",
   "mentions": [
     "A358292",
-    "A359295"
+    "A358295"
   ],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 1,
     "size": 45,
     "source": "oeis-entry"

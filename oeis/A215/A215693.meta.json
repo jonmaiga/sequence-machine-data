@@ -2,13 +2,11 @@
   "description": "English flagpole sequence (see comments)",
   "id": "A215693",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 113,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "T(n,k) = Number of (n+2) X (k+2) 0..3 arrays with every consecutive three elements in every row having 2 or 3 distinct values, in every column 1 or 2 distinct values, in every diagonal 2 distinct values, and in every antidiagonal 2 distinct values, and new values 0 upwards introduced in row major order.",
   "id": "A252917",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:11",
     "offset": 1,
     "size": 26,
     "source": "oeis-bfile"

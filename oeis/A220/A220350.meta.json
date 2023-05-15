@@ -2,13 +2,11 @@
   "description": "Number of ways of putting 2n^2 counters on distinct squares of a 2n x 2n board so that no row, column or main diagonal contains more than n counters.",
   "id": "A220350",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 5,
     "source": "oeis-entry"

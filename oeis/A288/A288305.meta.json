@@ -2,12 +2,10 @@
   "description": "Pairs of a prime number and square of prime number differs by 2. (Pseudo-twin).",
   "id": "A288305",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:01",
     "offset": 1,
     "size": 44,
     "source": "oeis-bfile"

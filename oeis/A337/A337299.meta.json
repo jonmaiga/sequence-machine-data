@@ -6,12 +6,10 @@
     "A266964",
     "A304961"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:09",
     "offset": 0,
     "size": 38,
     "source": "oeis-bfile"

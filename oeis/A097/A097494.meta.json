@@ -2,13 +2,11 @@
   "description": "a(n) = floor( prime(n+1)*prime(n+2)/prime(n) ).",
   "id": "A097494",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 57,
     "source": "oeis-entry"

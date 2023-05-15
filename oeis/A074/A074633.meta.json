@@ -1,5 +1,5 @@
 {
-  "description": "Subscript m such that Pi-harmonic sequence, pip[m]=Sum[1/PrimePi[k], {k, 1, m}]>=n. Here PrimePi()=A000720().",
+  "description": "a(n) is the smallest index m such that Sum_{k=1..m} 1/PrimePi(k) >= n, where PrimePi()=A000720().",
   "id": "A074633",
   "mentions": [
     "A000720",
@@ -7,12 +7,10 @@
     "A046024",
     "A074631"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 46,
     "source": "oeis-entry"

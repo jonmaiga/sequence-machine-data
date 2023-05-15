@@ -2,14 +2,12 @@
   "description": "Positive multiples of 3 that contain the decimal digit 1.",
   "id": "A207830",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

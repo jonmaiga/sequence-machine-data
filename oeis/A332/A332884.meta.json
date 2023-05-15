@@ -5,15 +5,12 @@
     "A059425",
     "A335984"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-26 10:59:11",
     "offset": 1,
     "size": 52,
     "source": "joeis"

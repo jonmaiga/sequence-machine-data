@@ -12,7 +12,6 @@
     "A348727",
     "A348729"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "cons",
     "easy",
@@ -20,7 +19,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 100,
     "source": "oeis-entry"

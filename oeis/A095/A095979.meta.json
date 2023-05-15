@@ -2,12 +2,10 @@
   "description": "Height of n-th rational point on y^2=x^3 + 17.",
   "id": "A095979",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

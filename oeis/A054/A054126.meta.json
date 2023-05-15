@@ -5,7 +5,6 @@
     "A052509",
     "A054125"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "eigen",
     "formulas",
@@ -13,7 +12,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2022-04-27 15:15:45",
     "offset": 0,
     "size": 56,
     "source": "joeis"

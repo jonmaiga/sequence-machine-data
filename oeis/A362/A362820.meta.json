@@ -1,0 +1,19 @@
+{
+  "description": "Number of ordered pairs of derangements on [n] that commute.",
+  "id": "A362820",
+  "mentions": [
+    "A000166",
+    "A053529",
+    "A362819"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

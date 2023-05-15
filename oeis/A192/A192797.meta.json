@@ -2,14 +2,12 @@
   "description": "Molecular topological indices of the cycle graphs",
   "id": "A192797",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:51:15",
     "offset": 1,
     "size": 41,
     "source": "joeis"

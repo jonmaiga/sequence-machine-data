@@ -2,14 +2,12 @@
   "description": "Expansion of (1 + 8x - 42x^2 - 392x^3)/(1 - 99x^2 + 2450x^4).",
   "id": "A097114",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 14:30:22",
     "offset": 0,
     "size": 20,
     "source": "joeis"

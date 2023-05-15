@@ -2,12 +2,10 @@
   "description": "Positive integers a(n) such that for every integer m==1(mod 4),m>=5, there exists a unique representation of m as a sum of the form a(l)+4a(s).",
   "id": "A146135",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

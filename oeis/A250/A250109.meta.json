@@ -2,13 +2,11 @@
   "description": "Sequence arising from study of multiplicative complexity of symmetric functions over a field with characteristic p.",
   "id": "A250109",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:06",
     "offset": 1,
     "size": 40,
     "source": "oeis-bfile"

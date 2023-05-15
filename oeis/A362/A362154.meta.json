@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of 1/(1 + x * sqrt(1-4*x)).",
+  "id": "A362154",
+  "mentions": [
+    "A000984",
+    "A039834",
+    "A362155",
+    "A362156",
+    "A362161"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

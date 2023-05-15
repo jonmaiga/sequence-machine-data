@@ -2,14 +2,12 @@
   "description": "a(n) = Smallest number which has in its English name the letter \"T\" in the n-th position beginning the count from the end",
   "id": "A173206",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "uned",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 24,
     "source": "oeis-entry"

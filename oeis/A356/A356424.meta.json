@@ -5,12 +5,10 @@
     "A001106",
     "A001358"
   ],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:30",
     "offset": 1,
     "size": 37,
     "source": "oeis-bfile"

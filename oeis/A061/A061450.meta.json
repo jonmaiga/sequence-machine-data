@@ -2,14 +2,12 @@
   "description": "a(1) = 1; a(n+1) = smallest cube > a(n) with leading digit equal to final digit of a(n) and final digit not 0.",
   "id": "A061450",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-28 11:08:27",
     "offset": 1,
     "size": 23,
     "source": "joeis"

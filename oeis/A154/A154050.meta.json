@@ -2,12 +2,10 @@
   "description": "Number of planar triangular n X n X n nonnegative integer grids symmetric under 120 degree rotation with every similarly oriented 5 X 5 X 5 subtriangle summing to 5.",
   "id": "A154050",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 5,
     "size": 53,
     "source": "oeis-entry"

@@ -4,18 +4,18 @@
   "mentions": [
     "A007931",
     "A076478",
+    "A103897",
     "A171757",
     "A346303",
     "A346304"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
     "formulas",
-    "nonn"
+    "nonn",
+    "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:20",
     "offset": 1,
     "size": 66,
     "source": "oeis-bfile"

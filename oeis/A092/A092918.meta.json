@@ -2,13 +2,11 @@
   "description": "Number of connected hypergraphs (without multiple edges and without empty edges) on n labeled vertices.",
   "id": "A092918",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

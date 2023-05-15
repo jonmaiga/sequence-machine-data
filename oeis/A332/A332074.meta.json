@@ -2,13 +2,11 @@
   "description": "Number of trees of height n obtained from those of height n-1 by attaching new nodes to the leaf n as to achieve a total degree of n, using all of its remaining free \"bonds\" in any possible way.",
   "id": "A332074",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 0,
     "size": 9,
     "source": "oeis-entry"

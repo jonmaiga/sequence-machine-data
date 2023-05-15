@@ -2,14 +2,12 @@
   "description": "a(n) = 81*n - 22.",
   "id": "A156796",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 20:10:17",
     "offset": 1,
     "size": 44,
     "source": "joeis"

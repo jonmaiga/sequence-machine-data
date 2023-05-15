@@ -1,0 +1,18 @@
+{
+  "description": "Fixed points of A361832.",
+  "id": "A361833",
+  "mentions": [
+    "A048328",
+    "A117855",
+    "A361832"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

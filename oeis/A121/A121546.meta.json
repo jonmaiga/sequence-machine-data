@@ -2,13 +2,11 @@
   "description": "a(n) = dimension of the space in which the sphere of radius n is of maximum volume.",
   "id": "A121546",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 44,
     "source": "oeis-entry"

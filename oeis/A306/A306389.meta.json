@@ -7,7 +7,6 @@
     "A099816",
     "A099817"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "base",
     "easy",
@@ -15,7 +14,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 71,
     "source": "oeis-entry"

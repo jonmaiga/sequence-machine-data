@@ -4,16 +4,14 @@
   "mentions": [
     "A002275"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
-    "size": 17,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

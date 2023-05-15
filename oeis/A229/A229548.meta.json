@@ -2,13 +2,11 @@
   "description": "E.g.f. satisfies: A(x) = x + A'(x) * Integral A(x) dx.",
   "id": "A229548",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:46",
     "offset": 1,
     "size": 19,
     "source": "oeis-bfile"

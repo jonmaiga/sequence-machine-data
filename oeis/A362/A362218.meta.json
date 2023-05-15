@@ -1,0 +1,20 @@
+{
+  "description": "Three-column array read by rows: row n gives the unique ordered primitive Pythagorean triple (a,b,c) with a",
+  "id": "A362218",
+  "mentions": [
+    "A022998",
+    "A066830",
+    "A228564"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

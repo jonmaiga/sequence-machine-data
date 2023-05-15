@@ -2,13 +2,11 @@
   "description": "Poly-Cauchy numbers c_4^(-n).",
   "id": "A223851",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:41",
     "offset": 1,
     "size": 23,
     "source": "oeis-bfile"

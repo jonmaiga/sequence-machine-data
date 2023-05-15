@@ -2,13 +2,11 @@
   "description": "Least number of the form x^2 + y^3 (x, y positive) in n ways.",
   "id": "A060835",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"

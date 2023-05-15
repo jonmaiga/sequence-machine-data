@@ -1,0 +1,14 @@
+{
+  "description": "Number of chordless cycles of length >= 4 in the n X n antelope graph.",
+  "id": "A362536",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

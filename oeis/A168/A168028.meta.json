@@ -2,12 +2,10 @@
   "description": "Primes of the form 6n^2 - 342n + 4903.",
   "id": "A168028",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:44:37",
     "offset": 1,
     "size": 61,
     "source": "joeis"

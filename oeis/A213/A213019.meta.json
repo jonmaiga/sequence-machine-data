@@ -7,7 +7,6 @@
     "A213017",
     "A213018"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "base",
     "fini",
@@ -15,7 +14,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:31",
     "offset": 1,
     "size": 20,
     "source": "oeis-bfile"

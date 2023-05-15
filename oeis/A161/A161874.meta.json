@@ -3,18 +3,18 @@
   "id": "A161874",
   "mentions": [
     "A031177",
-    "A161872"
+    "A161872",
+    "A362026"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
+    "changed",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
-    "size": 19,
+    "size": 23,
     "source": "oeis-entry"
   }
 }

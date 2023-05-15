@@ -2,13 +2,11 @@
   "description": "Theta series of lattice A_2 tensor D_5 (dimension 10, det. 3888, min. norm 4).",
   "id": "A033697",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 0,
     "size": 16,
     "source": "oeis-entry"

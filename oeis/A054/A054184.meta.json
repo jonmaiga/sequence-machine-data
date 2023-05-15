@@ -2,12 +2,10 @@
   "description": "Number of positive integers <= 2^n of form 6 x^2 + 9 y^2.",
   "id": "A054184",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 0,
     "size": 35,
     "source": "oeis-entry"

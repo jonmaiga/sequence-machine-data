@@ -5,14 +5,12 @@
     "A027568",
     "A102349"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 0,
     "size": 6,
     "source": "oeis-entry"

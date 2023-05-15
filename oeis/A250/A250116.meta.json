@@ -2,13 +2,11 @@
   "description": "Minimal number of edges in any broadcast graph with n nodes.",
   "id": "A250116",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

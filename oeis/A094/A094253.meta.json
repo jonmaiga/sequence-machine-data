@@ -2,14 +2,12 @@
   "description": "Let M be the 3 X 3 Matrix [ -4 4 8 / 1 0 0 / 0 1 0], a(n) = absolute value of the center term of M^n * [1 1 1].",
   "id": "A094253",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 23:05:35",
     "offset": 1,
     "size": 22,
     "source": "joeis"

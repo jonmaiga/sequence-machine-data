@@ -1,16 +1,14 @@
 {
-  "description": "Numbers n such that each digit of n occurs among the digits of n^2.",
+  "description": "Numbers k such that each digit of k occurs among the digits of k^2.",
   "id": "A064827",
   "mentions": [
     "A046827"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 59,
     "source": "oeis-entry"

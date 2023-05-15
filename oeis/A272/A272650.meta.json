@@ -2,12 +2,10 @@
   "description": "Sum_{ i in 1..p-1, j in 1..p-1, i*j mod p = 1} i*j, where p = n-th prime.",
   "id": "A272650",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:37",
     "offset": 1,
     "size": 33,
     "source": "oeis-bfile"

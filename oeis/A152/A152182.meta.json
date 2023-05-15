@@ -2,14 +2,12 @@
   "description": "The sequence is a lattice filling using the exponential \"E\" constant digits base ten.",
   "id": "A152182",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 6,
     "source": "oeis-entry"

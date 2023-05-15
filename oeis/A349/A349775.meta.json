@@ -2,14 +2,12 @@
   "description": "The maximum cardinality of an irreducible subset of {0, 1, 2, ..., n}.",
   "id": "A349775",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 28,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "A sequence f(n) of positive integers is called an F-sequence (in memory of Fibonacci) if it satisfies f(0)=0, f(1)=1, f(2)=2 and for all n > 2, either f(n) = f(n-1) + f(n-2) or f(n) = f(n-1) + f(n-3). A positive integer is called an F-number if it occurs in any F-sequence. Sequence gives numbers which are not F-numbers.",
   "id": "A059915",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 0,
     "size": 6,
     "source": "oeis-entry"

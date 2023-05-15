@@ -2,12 +2,10 @@
   "description": "a(n) is the number of subsets of {1, 2, ..., n} with product of all entries <= n^2 + n.",
   "id": "A298880",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 0,
     "size": 54,
     "source": "oeis-entry"

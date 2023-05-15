@@ -2,13 +2,11 @@
   "description": "Expansion of (-5*x^2 + 138*x + 3)/(x^3 - 99*x^2 + 99*x - 1).",
   "id": "A269553",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "easy",
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 10:43:46",
     "offset": 0,
     "size": 15,
     "source": "joeis"

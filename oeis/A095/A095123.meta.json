@@ -2,13 +2,11 @@
   "description": "Expansion of ((eta(q)eta(q^15))/(eta(q^3)eta(q^5)))^3 in powers of q.",
   "id": "A095123",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-26 10:04:57",
     "offset": 1,
     "size": 51,
     "source": "joeis"

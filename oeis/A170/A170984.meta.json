@@ -2,7 +2,6 @@
   "description": "Expansion of (Product_{i=1..m-1} (1 + x^(4*i-1))) * (1 + x^(2*m-1)) for m = 12.",
   "id": "A170984",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:54",
     "offset": 0,
     "size": 93,
     "source": "oeis-bfile"

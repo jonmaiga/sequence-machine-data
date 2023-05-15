@@ -2,12 +2,10 @@
   "description": "Primes p such that six consecutive primes starting with p are congruent to {1,2,3,4,5,6} (mod 7).",
   "id": "A215599",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:33",
     "offset": 1,
     "size": 28,
     "source": "oeis-bfile"

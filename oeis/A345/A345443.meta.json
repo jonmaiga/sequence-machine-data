@@ -2,13 +2,11 @@
   "description": "a(n) = smallest m such that for every red-blue edge-coloring of the graph K_{m,m} there exists either a red 4-cycle or a blue K_{1,n}.",
   "id": "A345443",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 27,
     "source": "oeis-entry"

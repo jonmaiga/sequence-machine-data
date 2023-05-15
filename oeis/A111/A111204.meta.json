@@ -2,14 +2,12 @@
   "description": "Difference between the closest squares surrounding a squarefree composite number and n have a common divisor greater than 1.",
   "id": "A111204",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 6,
     "size": 71,
     "source": "oeis-entry"

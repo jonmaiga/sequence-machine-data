@@ -2,14 +2,12 @@
   "description": "Number of subgroups L of Z^n with the property that for every a in Z^n there exists precisely one b in L with d(a,b) <= 1. Here d denotes Euclidean distance.",
   "id": "A026739",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 0,
     "size": 18,
     "source": "oeis-entry"

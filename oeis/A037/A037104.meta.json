@@ -2,12 +2,10 @@
   "description": "Trajectory of 3 under map n->13n+1 if n odd, n->n/2 if n even",
   "id": "A037104",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 09:00:13",
     "offset": 0,
     "size": 37,
     "source": "joeis"

@@ -2,13 +2,10 @@
   "description": "log(cos(arcsinh(x))) = -1/2!*x^2+2/4!*x^4-40/6!*x^6+1360/8!*x^8...",
   "id": "A012241",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-02 17:44:34",
     "offset": 0,
     "size": 13,
     "source": "joeis"

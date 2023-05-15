@@ -1,0 +1,17 @@
+{
+  "description": "Maximum product of the vertex arboricities of a graph of order n and its complement.",
+  "id": "A361202",
+  "mentions": [
+    "A002620"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

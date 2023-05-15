@@ -2,12 +2,10 @@
   "description": "Numbers n which are centers of prime galaxies. For each n, n plus any one of {-23,-19,-17,-13,-11,-1,+1,+11,+13,+17,+19,+23} is prime.",
   "id": "A132389",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

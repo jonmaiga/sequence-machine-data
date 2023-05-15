@@ -2,12 +2,10 @@
   "description": "Period of the oscillator resulting from an n X n square of ON cells in the life-like cellular automaton given by the rule-string B45678/S2345.",
   "id": "A178880",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

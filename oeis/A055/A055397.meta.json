@@ -2,13 +2,11 @@
   "description": "Maximum population of an n X n stable pattern in Conway's Game of Life.",
   "id": "A055397",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 53,
     "source": "oeis-entry"

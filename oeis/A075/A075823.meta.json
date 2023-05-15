@@ -2,7 +2,6 @@
   "description": "Numbers that are not the last two digits (leading zeros omitted) of any perfect power.",
   "id": "A075823",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "easy",
@@ -11,7 +10,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 37,
     "source": "oeis-entry"

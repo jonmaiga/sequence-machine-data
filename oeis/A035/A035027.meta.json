@@ -2,14 +2,12 @@
   "description": "Greatest integer that is <= the sum of the n-th powers of its digits.",
   "id": "A035027",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 1,
     "size": 17,
     "source": "oeis-entry"

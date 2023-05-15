@@ -2,12 +2,10 @@
   "description": "Indices n such that the 3 X 3 matrix with components (row by row) prime(n+k), 0 <= k <= 8, has zero determinant.",
   "id": "A117345",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:07",
     "offset": 1,
     "size": 37,
     "source": "oeis-bfile"

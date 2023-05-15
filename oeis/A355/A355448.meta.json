@@ -15,14 +15,12 @@
     "A354354",
     "A355684"
   ],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "formulas",
     "mult",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:30",
     "offset": 1,
     "size": 125,
     "source": "oeis-bfile"

@@ -2,14 +2,12 @@
   "description": "Number of paratopy classes (also called species, or main classes) of 4-dimensional Latin hypercubes of order n.",
   "id": "A138081",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 5,
     "source": "oeis-entry"

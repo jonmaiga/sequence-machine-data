@@ -7,13 +7,11 @@
     "A340142",
     "A340143"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "frac",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:12",
     "offset": 1,
     "size": 85,
     "source": "oeis-bfile"

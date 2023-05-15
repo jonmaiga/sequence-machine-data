@@ -2,13 +2,11 @@
   "description": "Let u(1)=u(2)=1, u(3)=2n+1, u(k)=abs(u(k-1)-u(k-2)-u(k-3)); then for any n (u(k),u(k+1)) = (v(n),w(n)) for k large enough; sequence gives values of Max(v(n),w(n)).",
   "id": "A078098",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 56,
     "source": "oeis-entry"

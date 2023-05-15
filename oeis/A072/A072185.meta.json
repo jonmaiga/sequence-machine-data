@@ -2,14 +2,12 @@
   "description": "Primes p = x1x2x3...xn in base 10 such that x1^p1 + x2^p2 + x3^p3 + ... + xn^pn is a prime, where pn is the n-th prime.",
   "id": "A072185",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

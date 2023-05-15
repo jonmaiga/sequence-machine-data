@@ -2,12 +2,10 @@
   "description": "Number of 10 X 10 arrays of squares of integers, symmetric under 90-degree rotation, with all rows summing to n.",
   "id": "A156404",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 42,
     "source": "oeis-entry"

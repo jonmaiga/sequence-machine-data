@@ -2,13 +2,11 @@
   "description": "Triangle read by rows: row n gives coefficients of increasing powers of x in the polynomial (-1)^n*p(n), where p(n) is defined as follows. Let f(n) = n*(n+1)/2, g(n) = f(n)+1; then p(-1) = 0, p(0) = 1 and for n >= 1, p(n) = (x - f(n))*p(n - 1) - g(n - 1)^2*p(n - 2).",
   "id": "A135049",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:23",
     "offset": 1,
     "size": 45,
     "source": "oeis-bfile"

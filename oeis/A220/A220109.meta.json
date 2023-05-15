@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of nXk arrays of the minimum or maximum value of corresponding elements and their horizontal and vertical neighbors in a random 0..3 nXk array",
   "id": "A220109",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 31,
     "source": "oeis-entry"

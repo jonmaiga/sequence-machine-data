@@ -2,14 +2,12 @@
   "description": "A triangle sequence of coefficients of odd sum polynomials: p(x,n)=x^(2*n - 1) - Sum[x^(2*i + 1), {i, 0, n - 1}] - 1.",
   "id": "A142720",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 91,
     "source": "oeis-entry"

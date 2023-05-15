@@ -1,15 +1,13 @@
 {
-  "description": "Number of nondecreasing -n..n vectors of length 2 whose dot product with some lexicographically greater or equal nondecreasing -n..n vector equals 2",
+  "description": "Number of nondecreasing -n..n vectors of length 2 whose dot product with some lexicographically greater or equal nondecreasing -n..n vector equals 2.",
   "id": "A226423",
   "mentions": [
     "A226422"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:43",
     "offset": 1,
     "size": 50,
     "source": "oeis-bfile"

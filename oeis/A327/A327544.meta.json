@@ -2,12 +2,10 @@
   "description": "Number of length-n binary words whose longest repeated suffix equals the longest repeated prefix.",
   "id": "A327544",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 35,
     "source": "oeis-entry"

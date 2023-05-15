@@ -2,13 +2,11 @@
   "description": "Decimal expansion of Sum_(k>=1} (k^(1/k^k) - 1).",
   "id": "A308511",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 0,
     "size": 86,
     "source": "oeis-entry"

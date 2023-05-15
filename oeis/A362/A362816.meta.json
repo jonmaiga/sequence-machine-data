@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence such that nowhere is a term a(n) contained in an arithmetic progression of length greater than a(n).",
+  "id": "A362816",
+  "mentions": [
+    "A003278",
+    "A090822",
+    "A281579",
+    "A362815"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

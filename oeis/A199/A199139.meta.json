@@ -2,13 +2,11 @@
   "description": "Number of assembly graphs with n rigid vertices and assembly number 2.",
   "id": "A199139",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 2,
     "size": 6,
     "source": "oeis-entry"

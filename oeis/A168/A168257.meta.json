@@ -2,14 +2,12 @@
   "description": "Numbers k with property that 4 + 2*k + 3*k^3 is a square.",
   "id": "A168257",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 4,
     "source": "oeis-entry"

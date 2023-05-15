@@ -2,14 +2,12 @@
   "description": "Floor(R(2n) - R(n)).",
   "id": "A108956",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 2,
     "size": 83,
     "source": "oeis-entry"

@@ -2,7 +2,6 @@
   "description": "Smallest primes such that every partial sum is an n-th power.",
   "id": "A073860",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "fini",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 5,
     "source": "oeis-entry"

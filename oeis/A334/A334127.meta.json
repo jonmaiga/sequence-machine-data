@@ -2,13 +2,11 @@
   "description": "Number of nonempty sets {p_1, p_2, ..., p_k} such that Product_{i=1..k} p_i divides Product_{i=1..k} (n + p_i), where the p_i are distinct primes.",
   "id": "A334127",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

@@ -1,0 +1,19 @@
+{
+  "description": "Number of Grassmannian permutations of size n that avoid a pattern, sigma, where sigma is a pattern of size 7 with exactly one descent.",
+  "id": "A362194",
+  "mentions": [
+    "A000325",
+    "A008859",
+    "A362193"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

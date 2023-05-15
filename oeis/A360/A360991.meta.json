@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. exp(exp(x) - 1 + x^2/2).",
+  "id": "A360991",
+  "mentions": [
+    "A097514",
+    "A355337",
+    "A361489"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

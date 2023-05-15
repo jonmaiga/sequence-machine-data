@@ -8,16 +8,15 @@
     "A167010",
     "A184731",
     "A219206",
-    "A220359"
+    "A220359",
+    "A362288"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:50",
     "offset": 0,
     "size": 16,
     "source": "oeis-bfile"

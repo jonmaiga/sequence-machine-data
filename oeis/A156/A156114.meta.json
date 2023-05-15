@@ -2,12 +2,10 @@
   "description": "Primes followed by at least five consecutive primes as closely as possible.",
   "id": "A156114",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 36,
     "source": "oeis-entry"

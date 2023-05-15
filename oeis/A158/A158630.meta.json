@@ -1,20 +1,18 @@
 {
-  "description": "a(n) = 44*n^2+1.",
+  "description": "a(n) = 44*n^2 + 1.",
   "id": "A158630",
   "mentions": [
     "A005843",
     "A158629"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:41",
     "offset": 0,
-    "size": 38,
+    "size": 41,
     "source": "oeis-bfile"
   }
 }

@@ -27,15 +27,13 @@
     "A036401",
     "A036402"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 0,
-    "size": 6,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

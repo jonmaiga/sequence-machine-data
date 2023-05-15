@@ -2,13 +2,11 @@
   "description": "Nonsquare palindromes whose sum of divisors is odd.",
   "id": "A028985",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:38",
     "offset": 1,
     "size": 23,
     "source": "oeis-bfile"

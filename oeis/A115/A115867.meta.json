@@ -2,13 +2,11 @@
   "description": "Number of throws of a fair die to reach a probability of at least 0.5 (50%) to have at least one sequence of n consecutive appearances of a predefined, fixed face.",
   "id": "A115867",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 23,
     "source": "oeis-entry"

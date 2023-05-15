@@ -2,14 +2,12 @@
   "description": "Natural numbers, but with every number containing the decimal digit 5 replaced by the number that would normally have occurred minus 5 times the number of 5's (as digits) that would have normally already occurred before that number.",
   "id": "A124196",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "less",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 89,
     "source": "oeis-entry"

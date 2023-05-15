@@ -2,14 +2,12 @@
   "description": "Triangle read by rows: Start with the row 1,2. To get the next row, do the following: if the sum of two adjacent terms is odd then insert this sum in between them, otherwise insert the absolute value of their difference; repeat the procedure.",
   "id": "A126597",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

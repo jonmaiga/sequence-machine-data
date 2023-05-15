@@ -2,13 +2,11 @@
   "description": "Numbers n such that n*tau(n) is a perfect square.",
   "id": "A069067",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:21",
     "offset": 1,
     "size": 46,
     "source": "oeis-bfile"

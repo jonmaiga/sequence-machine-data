@@ -2,14 +2,12 @@
   "description": "Bondage number of the Cartesian product graph G = C_n X K_2.",
   "id": "A182214",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:29:39",
     "offset": 3,
     "size": 77,
     "source": "joeis"

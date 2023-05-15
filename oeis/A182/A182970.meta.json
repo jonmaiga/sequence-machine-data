@@ -2,13 +2,11 @@
   "description": "G.f.: A(x) = Product_{n>=1} 1/(1 - A_n(x)^n) where A_n(x) denotes the n-th iteration of A(x): A_n(x) = A_{n-1}(A(x)) with A_0(x)=x.",
   "id": "A182970",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 22,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Least number k such that there exists a simple graph on k vertices having precisely n spanning trees.",
   "id": "A182258",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:05",
     "offset": 3,
     "size": 79,
     "source": "oeis-bfile"

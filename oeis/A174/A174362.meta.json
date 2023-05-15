@@ -2,13 +2,11 @@
   "description": "Odd primes such that 2*p^2-+39 are also prime.",
   "id": "A174362",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:58",
     "offset": 1,
     "size": 47,
     "source": "oeis-bfile"

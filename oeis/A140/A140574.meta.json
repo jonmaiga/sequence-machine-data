@@ -6,7 +6,6 @@
     "A091917",
     "A130595"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "less",
@@ -14,7 +13,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 66,
     "source": "oeis-entry"

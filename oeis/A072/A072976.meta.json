@@ -2,14 +2,12 @@
   "description": "a(n) = 2^n*binomial(3*n,n)*(3*n+2).",
   "id": "A072976",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:25",
     "offset": 0,
     "size": 16,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Decimal expansion of the unique root of equation N(-x) = N'(x), where N(x) is a cumulative standard normal distribution function, N'(x) = 1/sqrt( 2*Pi )*exp( -(x^2)/2 ).",
   "id": "A135040",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:23",
     "offset": 0,
     "size": 105,
     "source": "oeis-bfile"

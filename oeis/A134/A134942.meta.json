@@ -2,14 +2,12 @@
   "description": "Numbers n such that there exists no number k with k-P(k) = n, where P(k) is the product of digits of k written in base 10.",
   "id": "A134942",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 69,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Each term describes the ordinal number of its position in the sequence, by a summation of the numerals in that ordinal number and then by the differences between each contiguous pair of the numerals in the order in which they appear.",
   "id": "A038724",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:41:39",
     "offset": 0,
     "size": 68,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "a(n) = gcd(n^2 - 19, 45).",
   "id": "A130119",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 112,
     "source": "oeis-entry"

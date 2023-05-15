@@ -2,13 +2,11 @@
   "description": "Number of permutations of size n that require exactly n-1 iterations of the pop-stack sorting map to reach the identity.",
   "id": "A348905",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

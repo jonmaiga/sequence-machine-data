@@ -1,0 +1,34 @@
+{
+  "description": "Number of set partitions of {1..n} such that the mean of the means of the blocks is (n+1)/2.",
+  "id": "A361910",
+  "mentions": [
+    "A000110",
+    "A000975",
+    "A007837",
+    "A013580",
+    "A035470",
+    "A038041",
+    "A067538",
+    "A275714",
+    "A275780",
+    "A308037",
+    "A326512",
+    "A326513",
+    "A327475",
+    "A327481",
+    "A361863",
+    "A361864",
+    "A361865",
+    "A361866",
+    "A361911"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

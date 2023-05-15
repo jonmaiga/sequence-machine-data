@@ -2,13 +2,11 @@
   "description": "A Farey like level n=2 rational function as a coefficient expansion.",
   "id": "A113923",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 17,
     "source": "oeis-entry"

@@ -2,7 +2,6 @@
   "description": "Expansion of x/((1-x)^2(1+x-x^3-x^4-x^5-x^6-x^7+x^9+x^10)).",
   "id": "A143611",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 15:29:07",
     "offset": 1,
     "size": 51,
     "source": "joeis"

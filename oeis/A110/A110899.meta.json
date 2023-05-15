@@ -2,14 +2,12 @@
   "description": "Number of different stationary distributions of a certain random walk whose states are permutations of 1,...,n. The transitions depend on two sorted vectors x and z. The state sigma goes to rank((z[sigma]-x)[rperm] +x), where rperm is a random (uniform) permutation. If x and z are realizations of independent random variables X and Z and pi is a permutation drawn from the stationary distribution, the vector z[pi]-x is a realization of a random variable Y where Z ~ X+Y.",
   "id": "A110899",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 4,
     "source": "oeis-entry"

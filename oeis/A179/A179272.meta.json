@@ -2,14 +2,12 @@
   "description": "Sharp upper bound on Rosgen overlap number n-vertex graph with n => 14, formula abused here for nonnegative integers.",
   "id": "A179272",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-26 10:44:13",
     "offset": 0,
     "size": 58,
     "source": "joeis"

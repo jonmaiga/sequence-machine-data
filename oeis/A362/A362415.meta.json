@@ -1,0 +1,19 @@
+{
+  "description": "The n-th run occurs a(n) times, where each run is chosen to be shortest, then lexicographically earliest.",
+  "id": "A362415",
+  "mentions": [
+    "A000002",
+    "A001462",
+    "A028242",
+    "A361249"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

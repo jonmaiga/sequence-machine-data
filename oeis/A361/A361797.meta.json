@@ -1,0 +1,16 @@
+{
+  "description": "Even numbers k which have fewer divisors than both neighboring odd numbers, i.e., tau(k) < min{tau(k-1), tau(k+1)}.",
+  "id": "A361797",
+  "mentions": [
+    "A000005",
+    "A075025"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

@@ -2,14 +2,12 @@
   "description": "Triangle read by rows: T(n,1) = number of letters in English name for n, T(n,k+1) = number of letters in T(n,k), but stop if T(n,k+1) would equal T(n,k).",
   "id": "A081361",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn",
     "tabf",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 54,
     "source": "oeis-entry"

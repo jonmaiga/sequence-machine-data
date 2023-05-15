@@ -2,14 +2,12 @@
   "description": "Expansion of (1 + 6*x + 6*x^2 + 6*x^3 + x^4 + 6*x^5)/((1 - x)*(1 + x^4)).",
   "id": "A304995",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:13:49",
     "offset": 0,
     "size": 78,
     "source": "joeis"

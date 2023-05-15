@@ -2,12 +2,10 @@
   "description": "Let X denote the 2 X 2 matrix [0,1; 1,exp(1)], let Y = X^n; a(n) = floor(Y[1,1]).",
   "id": "A138804",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 26,
     "source": "oeis-entry"

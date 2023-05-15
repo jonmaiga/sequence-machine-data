@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number of 1's used in expressing n as a calculation containing only decimal repunits and operators +, -, * and /, where fractions are allowed as intermediate results.",
+  "id": "A362626",
+  "mentions": [
+    "A002275",
+    "A005245",
+    "A362471"
+  ],
+  "tags": [
+    "base",
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

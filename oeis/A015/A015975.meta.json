@@ -2,12 +2,10 @@
   "description": "First k>n, not a power of n+1 or one of its prime factors, such that k | n^k + 1.",
   "id": "A015975",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 2,
     "size": 49,
     "source": "oeis-entry"

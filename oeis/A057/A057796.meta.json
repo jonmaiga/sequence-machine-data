@@ -2,7 +2,6 @@
   "description": "Number of ways of getting 5 of a kind, a straight flush, 4 of a kind, full house, flush, straight, 3 of a kind, 2 pair, a pair in deuces-wild poker.",
   "id": "A057796",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "fini",
     "full",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 0,
     "size": 9,
     "source": "oeis-entry"

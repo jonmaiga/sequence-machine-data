@@ -2,13 +2,11 @@
   "description": "a(n) is the number of k <= n for which (prime(k)+3*prime(k+1))/2 is prime minus the number of k <= n for which (prime(k)+3*prime(k+2))/2 is prime.",
   "id": "A341421",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "look",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:14",
     "offset": 1,
     "size": 76,
     "source": "oeis-bfile"

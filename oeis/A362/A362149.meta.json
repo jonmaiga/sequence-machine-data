@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of K, a constant arising in the analysis of the binary Euclidean algorithm.",
+  "id": "A362149",
+  "mentions": [
+    "A118858",
+    "A345987",
+    "A362150"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "hard",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

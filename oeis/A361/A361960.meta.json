@@ -1,0 +1,19 @@
+{
+  "description": "Total semiperimeter of 2-Fuss-Catalan polyominoes of length 2n.",
+  "id": "A361960",
+  "mentions": [
+    "A024482",
+    "A075045",
+    "A361961"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

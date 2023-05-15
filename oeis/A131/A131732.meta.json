@@ -2,14 +2,12 @@
   "description": "a(4*k) = 2*k+1, a(4*k+1) = -4*k-3, a(4*k+2) = 2*k+2, a(4*k+3) = 0.",
   "id": "A131732",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:19",
     "offset": 0,
     "size": 88,
     "source": "oeis-bfile"

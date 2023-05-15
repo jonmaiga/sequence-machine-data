@@ -1,20 +1,21 @@
 {
-  "description": "E.g.f. satisfies A(x) = exp( x * ( exp(x) *A(x) )^2 ).",
+  "description": "E.g.f. satisfies A(x) = exp( x * ( exp(x) * A(x) )^2 ).",
   "id": "A360547",
   "mentions": [
     "A273953",
     "A273954",
+    "A360465",
+    "A360473",
     "A360544"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 0,
     "size": 18,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

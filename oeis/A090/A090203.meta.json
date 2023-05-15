@@ -2,14 +2,12 @@
   "description": "a(n) = p-th digit of phi where p = n-th prime.",
   "id": "A090203",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 2,
     "size": 105,
     "source": "oeis-entry"

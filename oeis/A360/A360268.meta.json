@@ -1,0 +1,20 @@
+{
+  "description": "A version of the Josephus problem: a(n) is the surviving integer under the following elimination process. Arrange 1,2,3,...,n in a circle, increasing clockwise. Starting with i=1, delete the integer 5 places clockwise from i. Repeat, counting 5 places from the next undeleted integer, until only one integer remains.",
+  "id": "A360268",
+  "mentions": [
+    "A006257",
+    "A054995",
+    "A088333",
+    "A181281",
+    "A198789"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

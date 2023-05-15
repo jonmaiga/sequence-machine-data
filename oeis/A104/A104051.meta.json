@@ -2,14 +2,12 @@
   "description": "Integers where 3^n and 5^m are nearly the same gives a difference sequence.",
   "id": "A104051",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 21,
     "source": "oeis-entry"

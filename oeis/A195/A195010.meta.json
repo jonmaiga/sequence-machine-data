@@ -2,12 +2,10 @@
   "description": "a(n) = (1/n) * [x^n] 1/(1 - n^2*x)^(1/n), where [x^n] F(x) denotes the coefficient of x^n in F(x).",
   "id": "A195010",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 15,
     "source": "oeis-entry"

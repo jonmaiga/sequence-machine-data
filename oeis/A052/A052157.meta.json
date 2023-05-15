@@ -2,7 +2,6 @@
   "description": "Least positive integer r such that there exists an integer s, 0 <= s < r gcd(r-i, s-j) > 1 for all integers i, j with 0 <= i, j < n.",
   "id": "A052157",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "formulas",
     "more",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

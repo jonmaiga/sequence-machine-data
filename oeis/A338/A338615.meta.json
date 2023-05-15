@@ -2,12 +2,10 @@
   "description": "a(n) is the first prime p such that q*r mod p = q*r mod s = 12*n, where q,r,s are the next three primes after p.",
   "id": "A338615",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:10",
     "offset": 1,
     "size": 45,
     "source": "oeis-bfile"

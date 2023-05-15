@@ -12,16 +12,15 @@
     "A199299",
     "A199300"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:20",
     "offset": 0,
-    "size": 20,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

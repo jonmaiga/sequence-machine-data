@@ -2,14 +2,12 @@
   "description": "A self-describing sequence in English and in base 2 (see the Comments section for the explanation).",
   "id": "A319843",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "base",
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 298,
     "source": "oeis-entry"

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the rank of the n X n symmetric matrix M(n) whose generic element M[i,j] = digsum(i*j).",
+  "id": "A362074",
+  "mentions": [
+    "A003991",
+    "A007953",
+    "A353933",
+    "A362072",
+    "A362073"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

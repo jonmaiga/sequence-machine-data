@@ -2,12 +2,10 @@
   "description": "Numbers n such that there exists a block-transitive point-imprimitive 3-design with parameters (k(k-1)/2+1, k, lambda) for some lambda.",
   "id": "A090043",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 23,
     "source": "oeis-entry"

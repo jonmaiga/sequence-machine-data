@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = [x^n] E(x)^n where E(x) = exp( Sum_{k >= 1} binomial(2*k,k)^2*x^k/k ).",
+  "id": "A362730",
+  "mentions": [
+    "A000984",
+    "A002894",
+    "A359108",
+    "A362722",
+    "A362733"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

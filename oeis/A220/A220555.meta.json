@@ -18,14 +18,12 @@
     "A187660",
     "A187772"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "hard",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

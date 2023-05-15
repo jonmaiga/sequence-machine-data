@@ -2,18 +2,18 @@
   "description": "Decimal expansion of 4*Pi^2/27.",
   "id": "A214549",
   "mentions": [
+    "A001651",
     "A011655",
     "A100044"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
+    "changed",
     "cons",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:32",
     "offset": 1,
     "size": 93,
     "source": "oeis-bfile"

@@ -2,7 +2,6 @@
   "description": "Matrix based on counter variant Hankel matrix: (smaller at central antidiagonal) h(i,j) = If[i + j - 1 > n, 0, n + 1 - (i + j - 1) Characteristic polynomials as a triangle of coefficients.",
   "id": "A136450",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

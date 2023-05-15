@@ -4,14 +4,12 @@
   "mentions": [
     "A000027"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "look",
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:40",
     "offset": 1,
     "size": 75,
     "source": "oeis-bfile"

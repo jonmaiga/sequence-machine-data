@@ -2,13 +2,11 @@
   "description": "Number of disjoint covering systems of cardinality n with gcd of the moduli equal to 1.",
   "id": "A296522",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

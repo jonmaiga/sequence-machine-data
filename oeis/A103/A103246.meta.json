@@ -2,13 +2,11 @@
   "description": "Numbers y, without duplication, in Pythagorean triples x,y,z where x,y,z are relatively prime composite numbers.",
   "id": "A103246",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:53",
     "offset": 1,
     "size": 55,
     "source": "oeis-bfile"

@@ -2,7 +2,6 @@
   "description": "A symmetrical triangle of polynomial coefficients:p(x,n)=Sum[(1 + Binomial[n, m]*x)^m*(1 - Binomial[n, m]*x)^(n - m) + (x + Binomial[n, m])^m*(x - Binomial[n, m])^(n - m), {m, 0, n}]",
   "id": "A176389",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 40,
     "source": "oeis-entry"

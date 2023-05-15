@@ -2,12 +2,10 @@
   "description": "Numbers n such that n/p_i^r_i == -1 (mod p_i) for all i = 1,...,m, where n = p_1^r_1 .... p_m^r_m.",
   "id": "A270140",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 67,
     "source": "oeis-entry"

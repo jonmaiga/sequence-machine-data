@@ -2,7 +2,6 @@
   "description": "Positive integers with digits in decreasing order that differ by 2.",
   "id": "A290951",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "base",
     "fini",
@@ -11,7 +10,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 29,
     "source": "oeis-entry"

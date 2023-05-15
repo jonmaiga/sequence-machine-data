@@ -2,14 +2,12 @@
   "description": "Numbers n where the largest and smallest decimal digit of prime(n) are both even.",
   "id": "A154768",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:36",
     "offset": 1,
     "size": 53,
     "source": "oeis-bfile"

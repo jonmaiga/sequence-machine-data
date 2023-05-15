@@ -2,12 +2,10 @@
   "description": "a(1)=1. a(n) = number of positive numbers <= n that are coprime to the product of the first n-1 terms of this sequence.",
   "id": "A128330",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 83,
     "source": "oeis-entry"

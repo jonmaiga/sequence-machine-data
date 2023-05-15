@@ -1,0 +1,31 @@
+{
+  "description": "Irregular triangle read by rows where T(n,k) is the number of k-subsets of {-n+1,...,n} with sum 0, for k = 1,...,2n-1.",
+  "id": "A361802",
+  "mentions": [
+    "A000975",
+    "A005408",
+    "A006134",
+    "A007318",
+    "A013580",
+    "A024718",
+    "A067538",
+    "A079309",
+    "A212352",
+    "A231147",
+    "A326512",
+    "A327475",
+    "A327481",
+    "A349156",
+    "A361654",
+    "A362046"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

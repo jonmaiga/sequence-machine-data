@@ -2,13 +2,11 @@
   "description": "exp(arctanh(x)*cos(x)) = 1+x+1/2!*x^2-3/4!*x^4+45/6!*x^6+504/7!*x^7...",
   "id": "A012738",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-16 12:46:55",
     "offset": 0,
     "size": 22,
     "source": "joeis"

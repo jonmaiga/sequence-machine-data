@@ -2,13 +2,11 @@
   "description": "Square array read by antidiagonals: T(n,m) = number of ways to partition an nXm grid into 2 connected equal-area regions.",
   "id": "A167279",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 71,
     "source": "oeis-entry"

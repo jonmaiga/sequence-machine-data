@@ -2,12 +2,10 @@
   "description": "Number of n X n symmetric 0..2 arrays with rows, considered as 3-ary numbers, in strictly increasing order",
   "id": "A162127",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:44",
     "offset": 1,
     "size": 13,
     "source": "oeis-bfile"

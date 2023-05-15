@@ -2,12 +2,10 @@
   "description": "Inverse of 1271st cyclotomic polynomial.",
   "id": "A015280",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-28 13:41:49",
     "offset": 0,
     "size": 79,
     "source": "joeis"

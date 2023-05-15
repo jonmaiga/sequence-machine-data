@@ -2,13 +2,11 @@
   "description": "Anagraprod Integers. Integers N that reproduce their exact set of digits when all the products of two successive digits of N are done (and considered together).",
   "id": "A296451",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:16",
     "offset": 1,
     "size": 68,
     "source": "oeis-bfile"

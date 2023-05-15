@@ -1,0 +1,16 @@
+{
+  "description": "In continued fraction convergents of sqrt(d), where d=A005117(n) (squarefree numbers), the position of a/b where abs(a^2 - d*b^2) = 1 or 4.",
+  "id": "A361381",
+  "mentions": [
+    "A005117",
+    "A107997"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 5,
+    "size": 98,
+    "source": "oeis-entry"
+  }
+}

@@ -2,12 +2,10 @@
   "description": "a(1) = 1. For m >= 0 and 1 <= k <= 2^m, a(2^m +k) = number of earlier terms of the sequence which are coprime to a(k).",
   "id": "A118577",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 75,
     "source": "oeis-entry"

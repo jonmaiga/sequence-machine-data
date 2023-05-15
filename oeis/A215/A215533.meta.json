@@ -2,13 +2,11 @@
   "description": "Numbers n such that n^s(n) + 1 is a prime, where s(n) is the sum of the digits of n.",
   "id": "A215533",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 41,
     "source": "oeis-entry"

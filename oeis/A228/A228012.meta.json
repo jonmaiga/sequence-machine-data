@@ -2,14 +2,12 @@
   "description": "The 2-color Rado number for the equation x_1 + x_2 + ... + x_n = 2*x_0",
   "id": "A228012",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 2,
     "size": 57,
     "source": "oeis-entry"

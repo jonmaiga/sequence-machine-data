@@ -2,14 +2,12 @@
   "description": "Numbers whose base-12 representation has the same number of 2's and 5's.",
   "id": "A039232",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:43:47",
     "offset": 1,
     "size": 69,
     "source": "joeis"

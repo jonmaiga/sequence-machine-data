@@ -2,14 +2,12 @@
   "description": "The Wiener index of the graph obtained by applying Mycielski's construction to the cycle graph C(n).",
   "id": "A228320",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:26:01",
     "offset": 7,
     "size": 39,
     "source": "joeis"

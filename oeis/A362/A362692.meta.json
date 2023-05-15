@@ -1,0 +1,18 @@
+{
+  "description": "Length of the \"integer part\" of the phi-expansion of n.",
+  "id": "A362692",
+  "mentions": [
+    "A105424",
+    "A362716"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

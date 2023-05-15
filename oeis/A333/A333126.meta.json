@@ -4,7 +4,6 @@
   "mentions": [
     "A333124"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
     "fini",
@@ -12,7 +11,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:03",
     "offset": 1,
     "size": 64,
     "source": "oeis-bfile"

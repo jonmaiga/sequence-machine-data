@@ -2,14 +2,12 @@
   "description": "Boomerang Fractions: Starting with 1, on the first step add 1/n, and on subsequent steps either add 1/n or take the reciprocal. a(n) = minimal number of steps needed to return to 1.",
   "id": "A256174",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "more",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 2,
     "size": 15,
     "source": "oeis-entry"

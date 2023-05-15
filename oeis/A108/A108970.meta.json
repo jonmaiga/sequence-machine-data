@@ -2,14 +2,12 @@
   "description": "Concatenation of triangular number k and its 10's complement is prime.",
   "id": "A108970",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 36,
     "source": "oeis-entry"

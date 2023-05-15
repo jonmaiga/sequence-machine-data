@@ -2,7 +2,6 @@
   "description": "Expansion of x^7/(1-2*x-2*x^2+x^3+x^8).",
   "id": "A172399",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 22:11:08",
     "offset": 7,
     "size": 30,
     "source": "joeis"

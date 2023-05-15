@@ -2,14 +2,12 @@
   "description": "Smallest primes such that when primes up to and including the n-th term in this sequence are summed, the result will be divisible by 10^n.",
   "id": "A174106",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

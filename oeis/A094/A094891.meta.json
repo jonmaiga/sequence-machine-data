@@ -2,14 +2,12 @@
   "description": "Total area below the lattice paths of a given length defined by the rule [(0),(k)->(k-1)(k)(k+1)] (Motzkin paths).",
   "id": "A094891",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 15:59:15",
     "offset": 1,
     "size": 27,
     "source": "joeis"

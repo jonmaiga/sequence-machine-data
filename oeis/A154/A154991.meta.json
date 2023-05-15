@@ -2,7 +2,6 @@
   "description": "Symmetrical triangle sequence from polynomials: q(x,n)=-((-1)^n*(Sum[(k + 1)^n*x^k/k^2, {k, 1, Infinity}] - PolyLog[2, x])*(x - 1)^(n - 1) + (-1)^n*n *(-1 + x)^(n - 1) Log[1 - x])/x; p(x,n)=q(x,n)+x^n*q(1/x,n).",
   "id": "A154991",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 45,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Number A(Bn,K) of all D-invariant ideals of the algebra NBn(K) of classical type over a field K if 2K=0.",
   "id": "A135512",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:23",
     "offset": 1,
     "size": 23,
     "source": "oeis-bfile"

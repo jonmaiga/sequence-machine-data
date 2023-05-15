@@ -2,12 +2,10 @@
   "description": "Least k such that mean(1,1/2,...,1/k) <= 1/n.",
   "id": "A088907",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:40",
     "offset": 1,
     "size": 56,
     "source": "oeis-bfile"

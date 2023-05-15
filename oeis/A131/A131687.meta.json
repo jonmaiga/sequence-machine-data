@@ -2,7 +2,6 @@
   "description": "Days of the year that are prime numbers in format mmdd (2-digit month followed by 2-digit year).",
   "id": "A131687",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "easy",
@@ -11,7 +10,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 59,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "sech(sinh(x)+tan(x))=1-4/2!*x^2+56/4!*x^4-1798/6!*x^6+107880/8!*x^8...",
   "id": "A013055",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 09:35:36",
     "offset": 0,
     "size": 13,
     "source": "joeis"

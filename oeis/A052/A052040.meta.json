@@ -11,14 +11,12 @@
     "A052043",
     "A052382"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "nonn",
     "unsolved"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:00",
     "offset": 1,
     "size": 72,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "(Number of 4 X 4 pandiagonal magic squares with distinct positive entries less than n)/384.",
   "id": "A317252",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 09:48:31",
     "offset": 17,
     "size": 44,
     "source": "joeis"

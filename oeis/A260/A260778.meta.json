@@ -2,12 +2,10 @@
   "description": "Sum of squares of end-to-end distances for self-avoiding walks on the L lattice.",
   "id": "A260778",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 37,
     "source": "oeis-entry"

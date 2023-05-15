@@ -2,12 +2,10 @@
   "description": "Denominators of worst case for Engel expansion.",
   "id": "A006540",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 12:39:11",
     "offset": 0,
     "size": 39,
     "source": "joeis"

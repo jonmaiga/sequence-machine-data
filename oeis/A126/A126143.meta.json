@@ -2,14 +2,12 @@
   "description": "Primes whose sum of the decimal digits of their cubes is also a prime.",
   "id": "A126143",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:14",
     "offset": 1,
     "size": 53,
     "source": "oeis-bfile"

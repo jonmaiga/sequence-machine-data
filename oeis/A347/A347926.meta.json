@@ -2,13 +2,11 @@
   "description": "Decimal expansion of the smallest a such that log(1 + x) <= x^a for all x >= 0.",
   "id": "A347926",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

@@ -1,0 +1,22 @@
+{
+  "description": "Smallest prime p such that the decimal expansion of p remains prime through exactly n iterations of base-10 to base-2 conversion (A007088).",
+  "id": "A361312",
+  "mentions": [
+    "A007088",
+    "A036952",
+    "A065720",
+    "A123266",
+    "A256621",
+    "A256622"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

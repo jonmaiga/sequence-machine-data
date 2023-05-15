@@ -11,17 +11,15 @@
     "A232173",
     "A255212",
     "A267326",
-    "A286815"
+    "A286815",
+    "A361695"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-03-14 10:44:29",
     "offset": 0,
     "size": 78,
     "source": "oeis-bfile"

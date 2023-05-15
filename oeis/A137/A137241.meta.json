@@ -14,7 +14,6 @@
     "A094705",
     "A113954"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
@@ -22,7 +21,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-27 08:34:17",
     "offset": 0,
     "size": 66,
     "source": "joeis"

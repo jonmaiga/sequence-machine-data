@@ -2,14 +2,12 @@
   "description": "List of numbers of the forms (2^(4m+3)-3)/5 and (2^(12m+4)-3)/13 arranged in increasing order.",
   "id": "A260953",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 12:34:52",
     "offset": 1,
     "size": 22,
     "source": "joeis"

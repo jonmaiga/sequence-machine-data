@@ -2,7 +2,6 @@
   "description": "Decimal expansion of p_4(1), a particular radial probability density of a 4-step uniform random walk.",
   "id": "A244995",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "cons",
     "formulas",
@@ -10,7 +9,6 @@
     "walk"
   ],
   "terms": {
-    "modified": "2022-05-16 12:48:05",
     "offset": 0,
     "size": 104,
     "source": "joeis"

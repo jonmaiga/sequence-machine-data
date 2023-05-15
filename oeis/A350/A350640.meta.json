@@ -2,14 +2,12 @@
   "description": "a(n) is the minimum lcm of the part sizes of a partition of n into parts of size 3 or more.",
   "id": "A350640",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 3,
     "size": 78,
     "source": "oeis-entry"

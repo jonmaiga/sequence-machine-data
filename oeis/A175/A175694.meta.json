@@ -2,7 +2,6 @@
   "description": "a(n) is the smallest number such that a(n)*n is an anagram of a(n)*5.",
   "id": "A175694",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 49,
     "source": "oeis-entry"

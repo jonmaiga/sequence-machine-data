@@ -2,13 +2,11 @@
   "description": "Primes p such that p plus or minus the (sum of its digits and sum of squares of its digits) is a prime.",
   "id": "A179631",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:02",
     "offset": 1,
     "size": 43,
     "source": "oeis-bfile"

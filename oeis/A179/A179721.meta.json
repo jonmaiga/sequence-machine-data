@@ -2,12 +2,10 @@
   "description": "Number of permutations of 1..n with the sequence of sums of 4 adjacent elements having exactly 2 maxima",
   "id": "A179721",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 5,
     "size": 10,
     "source": "oeis-entry"

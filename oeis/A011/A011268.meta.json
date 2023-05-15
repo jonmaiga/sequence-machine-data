@@ -2,7 +2,6 @@
   "description": "Triangle read by rows: number of P-graphs by number of edges and number of non-root nodes.",
   "id": "A011268",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "easy",
     "formulas",
@@ -11,7 +10,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 2,
     "size": 51,
     "source": "oeis-entry"

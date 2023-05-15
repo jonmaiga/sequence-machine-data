@@ -5,16 +5,15 @@
     "A003269",
     "A145142"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 20:27:37",
     "offset": 0,
-    "size": 19,
+    "size": 22,
     "source": "joeis"
   }
 }

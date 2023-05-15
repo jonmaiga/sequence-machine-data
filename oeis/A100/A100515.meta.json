@@ -1,20 +1,19 @@
 {
-  "description": "Denominator of Sum_{k=0..n} 1/C(3n,3k).",
+  "description": "Denominator of Sum_{k=0..n} 1/C(3*n, 3*k).",
   "id": "A100515",
   "mentions": [
     "A046825",
     "A100513",
     "A100514"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
+    "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 21,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

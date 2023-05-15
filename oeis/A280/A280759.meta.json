@@ -2,15 +2,14 @@
   "description": "Generalized Catalan triangle A_3 read by rows.",
   "id": "A280759",
   "mentions": [
-    "A001764"
+    "A001764",
+    "A062745"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:49",
     "offset": 0,
     "size": 60,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Numbers of m-equivalence (or maximal-equivalence) classes in the symmetric group S_n.",
   "id": "A270534",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

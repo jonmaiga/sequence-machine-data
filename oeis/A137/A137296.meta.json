@@ -2,14 +2,12 @@
   "description": "Antidiagonal triangular matrices of factorials as the example: M(3)={{0, 0, 1}, {0, 1, 2}, {1, 2, 6}}; the matrices are used to get characteristic polynomials and the triangular sequence is the coefficients of those characteristic polynomials.",
   "id": "A137296",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 52,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "O.g.f.: Sum_{n>=0} n! * x^n / Product_{k=1..n} (1 - (2*k-1)*x).",
   "id": "A189919",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:14",
     "offset": 0,
     "size": 20,
     "source": "oeis-bfile"

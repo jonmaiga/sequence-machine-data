@@ -1,18 +1,16 @@
 {
-  "description": "a(n) = product[k=1..n] P(k), where P(k) is the smallest prime >= 2*k.",
+  "description": "a(n) = Product_{k=1..n} P(k), where P(k) is the smallest prime >= 2*k.",
   "id": "A118748",
   "mentions": [
     "A118455",
     "A118456",
     "A118747"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 17,
     "source": "oeis-entry"

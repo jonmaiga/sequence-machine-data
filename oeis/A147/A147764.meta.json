@@ -2,14 +2,12 @@
   "description": "Elias omega coded prime numbers represented in decimal.",
   "id": "A147764",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 39,
     "source": "oeis-entry"

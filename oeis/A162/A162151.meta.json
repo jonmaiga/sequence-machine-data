@@ -9,14 +9,12 @@
     "A161730",
     "A161732"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 48,
     "source": "oeis-entry"

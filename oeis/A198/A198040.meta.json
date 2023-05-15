@@ -2,12 +2,10 @@
   "description": "Number of nXnXn 0..6 triangular arrays with each element x equal to the number its neighbors equal to 5,5,1,1,1,1,1 for x=0,1,2,3,4,5,6",
   "id": "A198040",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

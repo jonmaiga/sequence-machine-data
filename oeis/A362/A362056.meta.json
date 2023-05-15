@@ -1,0 +1,21 @@
+{
+  "description": "Prime numbers of the form prime(k)! - prime(k!).",
+  "id": "A362056",
+  "mentions": [
+    "A000040",
+    "A000142",
+    "A062439",
+    "A261997"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

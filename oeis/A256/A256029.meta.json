@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of (n+2)X(k+2) 0..1 arrays with no 3x3 subblock diagonal sum 0 or 1 and no antidiagonal sum 0 or 1 and no row sum 1 and no column sum 1",
   "id": "A256029",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:14",
     "offset": 1,
     "size": 41,
     "source": "oeis-bfile"

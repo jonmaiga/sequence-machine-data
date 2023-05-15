@@ -13,18 +13,16 @@
     "A178853",
     "A181281",
     "A198788",
-    "A198790"
+    "A198790",
+    "A360268"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:19",
     "offset": 1,
     "size": 91,
     "source": "oeis-bfile"

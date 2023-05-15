@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the area of the largest rectangle with integer sides that can be drawn inside a circle of diameter n.",
+  "id": "A361795",
+  "mentions": [
+    "A049472",
+    "A049473"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "joeis"
+  }
+}

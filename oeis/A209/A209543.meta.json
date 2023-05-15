@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of nXk array permutations with every element making zero or one right-handed knight moves (out 2, right 1)",
   "id": "A209543",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:28",
     "offset": 1,
     "size": 59,
     "source": "oeis-bfile"

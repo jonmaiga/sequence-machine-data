@@ -2,14 +2,12 @@
   "description": "The number of multinomial coefficients over partitions with value equal to 5.",
   "id": "A230149",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:55:49",
     "offset": 1,
     "size": 75,
     "source": "joeis"

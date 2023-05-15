@@ -2,12 +2,10 @@
   "description": "Number of decompositions of n as a sum of nonnegative multiples of 5, 7, even numbers greater than 2, and the two partitions obtained by expressing the numbers 6 and 8 (each of them exactly once) as a sum using positive integers less than 4.",
   "id": "A278575",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:45",
     "offset": 1,
     "size": 63,
     "source": "oeis-bfile"

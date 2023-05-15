@@ -2,14 +2,12 @@
   "description": "A triangular sequence designed with row sums near 3^n: t(n,m)=If[m == 0 || m == n, Floor[3^n/2^n], Floor[(3^n/2^n)*Binomial[n, m]] + 1].",
   "id": "A153289",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 60,
     "source": "oeis-entry"

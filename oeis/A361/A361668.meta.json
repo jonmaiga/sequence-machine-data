@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A361662(k) != A181821(A361666(k)).",
+  "id": "A361668",
+  "mentions": [
+    "A181820",
+    "A181821",
+    "A361662",
+    "A361663",
+    "A361666"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

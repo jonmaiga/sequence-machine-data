@@ -1,0 +1,19 @@
+{
+  "description": "Numbers with a record number of divisors that are both bi-unitary and exponential.",
+  "id": "A362853",
+  "mentions": [
+    "A025487",
+    "A293185",
+    "A318278",
+    "A362852"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

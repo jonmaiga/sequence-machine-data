@@ -2,12 +2,10 @@
   "description": "Number of primes between n*p(n) and (n+1)*p(n+1), where p(n) is the n-th prime.",
   "id": "A141061",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 71,
     "source": "oeis-entry"

@@ -9,7 +9,6 @@
     "A132875",
     "A177390"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "fini",
     "formulas",
@@ -18,7 +17,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:20",
     "offset": 0,
     "size": 45,
     "source": "oeis-bfile"

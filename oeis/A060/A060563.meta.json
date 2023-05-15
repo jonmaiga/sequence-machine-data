@@ -2,14 +2,12 @@
   "description": "First n digits after decimal point in the expansion of sqrt(n), or 0 if n is a square. Leading zeros omitted.",
   "id": "A060563",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:11",
     "offset": 1,
     "size": 19,
     "source": "oeis-bfile"

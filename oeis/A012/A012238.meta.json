@@ -2,12 +2,10 @@
   "description": "cosh(arctan(arctanh(x)))=1+1/2!*x^2+1/4!*x^4+49/6!*x^6+1345/8!*x^8...",
   "id": "A012238",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 21:15:19",
     "offset": 0,
     "size": 16,
     "source": "joeis"

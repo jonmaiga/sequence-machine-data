@@ -2,14 +2,12 @@
   "description": "Sum of opposite numbers on a clock, starting at 12.",
   "id": "A104218",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 13,
     "source": "oeis-entry"

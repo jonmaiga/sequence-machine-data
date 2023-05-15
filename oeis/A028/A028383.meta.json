@@ -2,14 +2,12 @@
   "description": "Weight distribution of [ 31,15,8 ] binary quadratic-residue code.",
   "id": "A028383",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 0,
     "size": 7,
     "source": "oeis-entry"

@@ -1,17 +1,15 @@
 {
-  "description": "Numbers whose square contains the digits of n in order (not necessarily consecutively).",
+  "description": "Numbers k whose square contains the digits of k in order (but not necessarily consecutively).",
   "id": "A052212",
   "mentions": [
     "A046829"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 15:02:09",
     "offset": 1,
     "size": 53,
     "source": "joeis"

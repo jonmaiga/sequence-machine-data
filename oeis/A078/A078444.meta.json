@@ -1,5 +1,5 @@
 {
-  "description": "Floor of geometric mean of consecutive primes.",
+  "description": "Floor of geometric mean of two consecutive primes.",
   "id": "A078444",
   "mentions": [
     "A001223",
@@ -9,14 +9,12 @@
     "A028310",
     "A067076"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:29",
     "offset": 1,
     "size": 59,
     "source": "oeis-bfile"

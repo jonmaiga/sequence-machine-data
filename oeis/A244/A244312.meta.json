@@ -2,14 +2,12 @@
   "description": "Triangle read by rows: T(n,k) is the number of single loop solutions formed by n proper arches (connecting an odd and even vertice from 1 to 2n) above the x axis, k arches above the x axis connecting an odd vertice to a higher even vertice and a rainbow of n arches below the x axis.",
   "id": "A244312",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

@@ -21,14 +21,12 @@
     "A337572",
     "A338090"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:55",
     "offset": 0,
     "size": 67,
     "source": "oeis-bfile"

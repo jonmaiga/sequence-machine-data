@@ -1,0 +1,18 @@
+{
+  "description": "Maximum number of ways in which a set of integer-sided squares can tile an n X 3 rectangle.",
+  "id": "A362144",
+  "mentions": [
+    "A002478",
+    "A361219",
+    "A362142"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

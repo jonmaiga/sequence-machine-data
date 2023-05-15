@@ -2,12 +2,10 @@
   "description": "Number of perfect matchings in graph P_{4} X C_{4} X P_{n}.",
   "id": "A028463",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 0,
     "size": 13,
     "source": "oeis-entry"

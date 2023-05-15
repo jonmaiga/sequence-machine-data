@@ -2,12 +2,10 @@
   "description": "Expansion of sin(sin(x))/cos(x).",
   "id": "A009479",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 17:02:05",
     "offset": 0,
     "size": 14,
     "source": "joeis"

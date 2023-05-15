@@ -2,12 +2,10 @@
   "description": "Sum of the prime(n) primes following prime(n).",
   "id": "A099274",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 38,
     "source": "oeis-entry"

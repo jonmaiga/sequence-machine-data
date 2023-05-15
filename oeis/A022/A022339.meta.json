@@ -2,12 +2,10 @@
   "description": "Index of 3^n within sequence of numbers of form 3^i*5^j.",
   "id": "A022339",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:12:47",
     "offset": 1,
     "size": 57,
     "source": "joeis"

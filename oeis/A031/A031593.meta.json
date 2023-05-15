@@ -2,12 +2,10 @@
   "description": "Numbers k such that the continued fraction for sqrt(k) has even period and if the last term of the periodic part is deleted the central term is 95.",
   "id": "A031593",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 1,
     "size": 41,
     "source": "oeis-entry"

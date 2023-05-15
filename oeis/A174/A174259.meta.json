@@ -2,13 +2,11 @@
   "description": "Primes p such that (p^2+3*p-3) and (p^3+3*p^2-3) are also prime.",
   "id": "A174259",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:58",
     "offset": 1,
     "size": 41,
     "source": "oeis-bfile"

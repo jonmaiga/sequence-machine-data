@@ -2,13 +2,11 @@
   "description": "Start with a(1)=0; thereafter, between two successive digits \"3\" there are 0, then 1, then 2, then 3, ... other digits.",
   "id": "A278861",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:45",
     "offset": 1,
     "size": 110,
     "source": "oeis-bfile"

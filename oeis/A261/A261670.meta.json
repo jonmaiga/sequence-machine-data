@@ -2,13 +2,11 @@
   "description": "Dimension of a certain space of duality relations arising in study of q-analogs of multiple zeta values.",
   "id": "A261670",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "If a(n) is a k-digit number, a(n+1) is the product of the number formed by the initial k-1 digits of a(n) and the final digit of a(n). If k=1, set a(n+1) = 0.",
   "id": "A115753",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 14:52:31",
     "offset": 1,
     "size": 102,
     "source": "joeis"

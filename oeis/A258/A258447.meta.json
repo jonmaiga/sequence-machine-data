@@ -2,12 +2,10 @@
   "description": "a(5) = 0; a(n) = 1 + min{a(k + m): n = k * m; k, m >= 0}.",
   "id": "A258447",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:16",
     "offset": 0,
     "size": 109,
     "source": "oeis-bfile"

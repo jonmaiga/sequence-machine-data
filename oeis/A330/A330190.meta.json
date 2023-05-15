@@ -2,14 +2,12 @@
   "description": "Symmetric matrix read by antidiagonals: f(i,j) = 1 + gcd(f(i-1,j), f(i,j-1)), where f(1,j) and f(i,1) are 1.",
   "id": "A330190",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "look",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:59",
     "offset": 1,
     "size": 91,
     "source": "oeis-bfile"

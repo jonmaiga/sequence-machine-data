@@ -2,13 +2,11 @@
   "description": "Number of permutations in S_n avoiding 1{bar 4}235 (i.e., every occurrence of 1235 is contained in an occurrence of a 14235).",
   "id": "A137535",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 15,
     "source": "oeis-entry"

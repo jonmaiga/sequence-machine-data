@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of (n+1)X(k+1) 0..2 arrays with the minimum plus the maximum equal to the lower median plus the upper median in every 2X2 subblock",
   "id": "A235902",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:53",
     "offset": 1,
     "size": 34,
     "source": "oeis-bfile"

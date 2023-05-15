@@ -2,7 +2,6 @@
   "description": "Braille natural numbers (including zero), using \"0\" as digit concatenation mark.",
   "id": "A220090",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 38,
     "source": "oeis-entry"

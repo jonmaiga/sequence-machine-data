@@ -1,0 +1,21 @@
+{
+  "description": "Indices of the squares in the sequence of powerful numbers (A001694).",
+  "id": "A361936",
+  "mentions": [
+    "A000290",
+    "A001694",
+    "A090699",
+    "A119241",
+    "A217038",
+    "A336175"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,13 +2,11 @@
   "description": "Composite numbers whose English names have a composite number of letters.",
   "id": "A161544",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

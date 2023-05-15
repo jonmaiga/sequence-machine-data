@@ -2,12 +2,10 @@
   "description": "5th differences of primes.",
   "id": "A036266",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:47",
     "offset": 1,
     "size": 62,
     "source": "oeis-bfile"

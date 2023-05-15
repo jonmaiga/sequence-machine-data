@@ -2,13 +2,11 @@
   "description": "tan(arcsin(x)-sin(x)) = 2/3!*x^3+8/5!*x^5+226/7!*x^7+15504/9!*x^9...",
   "id": "A013344",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 17:20:20",
     "offset": 0,
     "size": 14,
     "source": "joeis"

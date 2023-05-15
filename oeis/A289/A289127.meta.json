@@ -1,19 +1,17 @@
 {
-  "description": "Numbers n such that uphi(n)/uphi(uphi(n)) > uphi(m)/uphi(uphi(m)) for all m < n, where uphi is the unitary totient function (A047994).",
+  "description": "Numbers k such that uphi(k)/uphi(uphi(k)) > uphi(m)/uphi(uphi(m)) for all m < k, where uphi is the unitary totient function (A047994).",
   "id": "A289127",
   "mentions": [
     "A047994",
     "A289125"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
-    "size": 9,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

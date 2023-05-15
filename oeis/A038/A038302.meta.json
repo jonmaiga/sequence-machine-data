@@ -2,14 +2,12 @@
   "description": "Triangle whose (i,j)-th entry is binomial(i,j)*9^(i-j)*12^j.",
   "id": "A038302",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2022-05-02 21:40:49",
     "offset": 0,
     "size": 31,
     "source": "joeis"

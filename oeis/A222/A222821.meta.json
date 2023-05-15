@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of idempotent n X n 0..k matrices",
   "id": "A222821",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 42,
     "source": "oeis-entry"

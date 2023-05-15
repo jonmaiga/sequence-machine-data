@@ -1,5 +1,5 @@
 {
-  "description": "Product_{k=0..n} (k^4)!.",
+  "description": "a(n) = Product_{k=0..n} (k^4)!.",
   "id": "A255359",
   "mentions": [
     "A000142",
@@ -16,13 +16,11 @@
     "A255360",
     "A255438"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:13",
     "offset": 0,
     "size": 3,
     "source": "oeis-bfile"

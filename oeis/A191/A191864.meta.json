@@ -2,13 +2,11 @@
   "description": "a(n) = (a(n-1) + a(n-4)) * (a(n-2) - a(n-3)) with a(1)=1, a(2)=2, a(3)=3 and a(4)=4",
   "id": "A191864",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-07-12 12:11:11",
     "offset": 1,
     "size": 16,
     "source": "joeis"

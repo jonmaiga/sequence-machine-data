@@ -2,13 +2,11 @@
   "description": "Expansion of e.g.f.: 1/(1-tan(sin(x))).",
   "id": "A190123",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:14",
     "offset": 0,
     "size": 23,
     "source": "oeis-bfile"

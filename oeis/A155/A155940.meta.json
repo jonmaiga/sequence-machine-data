@@ -2,7 +2,6 @@
   "description": "Triangle read by rows containing Vardi's optimal solution to the glove problem.",
   "id": "A155940",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:38",
     "offset": 1,
     "size": 79,
     "source": "oeis-bfile"

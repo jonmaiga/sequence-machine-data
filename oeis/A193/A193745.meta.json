@@ -2,12 +2,10 @@
   "description": "Smallest k such that k*n! +1 is an n-th power.",
   "id": "A193745",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Dimensions in which the simplex has two intermediate skeletons with the same centroid.",
   "id": "A128819",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

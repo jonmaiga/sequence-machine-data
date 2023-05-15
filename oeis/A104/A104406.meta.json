@@ -2,18 +2,17 @@
   "description": "Number of numbers <= n having no 2 in ternary representation.",
   "id": "A104406",
   "mentions": [
+    "A003002",
     "A004642",
     "A005836",
     "A039966"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-28 11:08:27",
     "offset": 1,
     "size": 79,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

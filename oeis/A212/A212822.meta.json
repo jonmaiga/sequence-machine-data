@@ -16,7 +16,6 @@
     "A212705",
     "A212706"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "base",
     "formulas",
@@ -24,7 +23,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 2,
     "size": 55,
     "source": "oeis-entry"

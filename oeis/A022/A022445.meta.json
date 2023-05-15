@@ -2,7 +2,6 @@
   "description": "Number of self-avoiding closed walks (from 0 to 0) of length 2n in the strip {0, 1, 2} X Z of the square lattice Z X Z.",
   "id": "A022445",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 0,
     "size": 29,
     "source": "oeis-entry"

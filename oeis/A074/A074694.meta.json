@@ -2,14 +2,12 @@
   "description": "Decimal expansion of the solution x of phi^x = lim_{n -> infinity} (1/n)*Sum_{k=1..n} (Fibonacci(k+1)/Fibonacci(k))^x where phi is the golden ratio = (1 + sqrt(5))/2.",
   "id": "A074694",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 87,
     "source": "oeis-entry"

@@ -5,7 +5,6 @@
     "A068466",
     "A071001"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "cons",
@@ -13,7 +12,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:20:51",
     "offset": 2,
     "size": 107,
     "source": "joeis"

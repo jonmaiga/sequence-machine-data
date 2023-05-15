@@ -2,12 +2,10 @@
   "description": "The first entry of the vector v[n]=M[n]v[n-1], where M[n] is a 7 X 7 matrix M[n] = [[n, 0, 0, 0, 0, 0, 1], [1, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0], [0, 0, 1, 0, 0, 0, 0], [0, 0, 0, 1, 0, 0, 0], [0, 0, 0, 0, 1, 0, 0], [0, 0, 0, 0, 0, 1, 0]] and v[0] is the column vector [0, 0, 0, 0, 0, 0, 1].",
   "id": "A130641",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 21,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Limiting word of the substitution 1->{2}, 2->{3}, 3->{4}, 4->{5}, 5->{6}, 6->{1, 2, 3, 4, 5, 6} with axiom 1.",
   "id": "A106687",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "a(n) = s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n+1-k), where k = [ (n+1)/2 ], s = (1, p(1), p(2), ...), t = (F(2), F(3), ...).",
   "id": "A024481",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 23:11:37",
     "offset": 1,
     "size": 29,
     "source": "joeis"

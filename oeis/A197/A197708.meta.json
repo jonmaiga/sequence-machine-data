@@ -1,5 +1,5 @@
 {
-  "description": "Floor((n+1/n)^7)",
+  "description": "a(n) = floor((n+1/n)^7).",
   "id": "A197708",
   "mentions": [
     "A014052",
@@ -7,14 +7,12 @@
     "A197603",
     "A197604"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:19",
     "offset": 1,
     "size": 26,
     "source": "oeis-bfile"

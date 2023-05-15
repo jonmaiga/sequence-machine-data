@@ -12,13 +12,11 @@
     "A305698",
     "A305699"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:28",
     "offset": 0,
     "size": 13,
     "source": "oeis-bfile"

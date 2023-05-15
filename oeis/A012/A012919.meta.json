@@ -2,12 +2,10 @@
   "description": "tanh(arcsin(x)+sin(x))=2*x-16/3!*x^3+522/5!*x^5-36272/7!*x^7...",
   "id": "A012919",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-02 16:57:44",
     "offset": 0,
     "size": 13,
     "source": "joeis"

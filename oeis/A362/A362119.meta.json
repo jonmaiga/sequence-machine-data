@@ -1,0 +1,21 @@
+{
+  "description": "Concatenate the base-6 strings for 1,2,...,n.",
+  "id": "A362119",
+  "mentions": [
+    "A007908",
+    "A058935",
+    "A117640",
+    "A360502",
+    "A362117",
+    "A362118"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

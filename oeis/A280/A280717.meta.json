@@ -2,13 +2,11 @@
   "description": "Given a prime number p, let b = -p and c = p^2. Assuming that the polynomial P(x) := x^2+b*x+c takes at least one prime value for some positive integer x",
   "id": "A280717",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:49",
     "offset": 1,
     "size": 9,
     "source": "oeis-bfile"

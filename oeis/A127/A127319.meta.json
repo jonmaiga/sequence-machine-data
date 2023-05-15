@@ -2,14 +2,12 @@
   "description": "a(n)={binomial[n,(sum of decimal digits of n)] mod n}, with n>=1.",
   "id": "A127319",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 92,
     "source": "oeis-entry"

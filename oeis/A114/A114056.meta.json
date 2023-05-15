@@ -1,15 +1,14 @@
 {
-  "description": "Numbers n such that 2^prime(n) - 1 + 10^n is prime.",
+  "description": "Numbers k such that 2^prime(k) - 1 + 10^k is prime.",
   "id": "A114056",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
-    "size": 9,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

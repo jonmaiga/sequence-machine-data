@@ -2,13 +2,11 @@
   "description": "Number of compatible Parke-Taylor factors for the graph obtained by combining one triangle with a regular n-gon.",
   "id": "A283328",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 2,
     "size": 7,
     "source": "oeis-entry"

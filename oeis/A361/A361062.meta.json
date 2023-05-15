@@ -8,15 +8,12 @@
     "A308043",
     "A361061"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "cons",
     "formulas",
-    "new",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

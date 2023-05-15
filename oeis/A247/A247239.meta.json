@@ -1,5 +1,5 @@
 {
-  "description": "Array a(n,m) = ((n+2)/2)^m*sum_{k=1..n+1} 1/sin(k*Pi/(n+2))^(2m), n>=0, k>=0, read by ascending antidiagonals.",
+  "description": "Array a(n,m) = ((n+2)/2)^m*Sum_{k=1..n+1} 1/sin(k*Pi/(n+2))^(2m), n>=0, k>=0, read by ascending antidiagonals.",
   "id": "A247239",
   "mentions": [
     "A000012",
@@ -9,14 +9,12 @@
     "A007582",
     "A093123"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 0,
     "size": 55,
     "source": "oeis-entry"

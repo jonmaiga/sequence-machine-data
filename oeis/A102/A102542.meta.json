@@ -2,13 +2,11 @@
   "description": "Numbers k such that k333333 is prime.",
   "id": "A102542",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 19:11:15",
     "offset": 1,
     "size": 62,
     "source": "joeis"

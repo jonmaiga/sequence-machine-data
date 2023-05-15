@@ -2,7 +2,6 @@
   "description": "Numbers n which are anagrams of n+9.",
   "id": "A228157",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:24:17",
     "offset": 1,
     "size": 53,
     "source": "joeis"

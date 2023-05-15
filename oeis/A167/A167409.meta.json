@@ -1,17 +1,16 @@
 {
-  "description": "Very Orderly Numbers: a number, N, is \"very orderly\" if the set of the divisors of N is congruent to the set {1,2,...,tau(N)} mod tau(N)+1.",
+  "description": "Very orderly numbers: a number N is \"very orderly\" if the set of the divisors of N is congruent to the set {1,2,...,tau(N)} mod (tau(N) + 1).",
   "id": "A167409",
   "mentions": [
+    "A000005",
     "A167408",
     "A167410",
     "A167411"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:51",
     "offset": 1,
     "size": 59,
     "source": "oeis-bfile"

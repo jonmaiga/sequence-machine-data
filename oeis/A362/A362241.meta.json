@@ -1,0 +1,21 @@
+{
+  "description": "Binary encoding of the rows of A362240.",
+  "id": "A362241",
+  "mentions": [
+    "A053645",
+    "A118248",
+    "A362009",
+    "A362240"
+  ],
+  "tags": [
+    "base",
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

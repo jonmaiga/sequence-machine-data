@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form H(m,k) = F(k+1)*F(m-k+2) - F(k)*F(m-k+1), where F(m) is the m-th Fibonacci number and m >= 0, 0 <= k <= m.",
+  "id": "A360932",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A005478",
+    "A067331",
+    "A108038",
+    "A153892"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -2,13 +2,11 @@
   "description": "A determinant sequence of a matrix recursion: x(n)=x(n-1).(2*I-A.x(n-1))",
   "id": "A174320",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 9,
     "source": "oeis-entry"

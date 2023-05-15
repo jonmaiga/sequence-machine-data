@@ -2,12 +2,10 @@
   "description": "Integers k with at least one divisor d > 1 that divides (n/d)+1.",
   "id": "A139799",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:27",
     "offset": 1,
     "size": 61,
     "source": "oeis-bfile"

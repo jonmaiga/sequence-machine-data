@@ -7,7 +7,6 @@
     "A082985",
     "A084930"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
@@ -15,7 +14,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 47,
     "source": "oeis-entry"

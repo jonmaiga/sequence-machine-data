@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n! * Sum_{k=0..n} binomial(n+(n-1)*(k+1),n-k)/k!.",
+  "id": "A361617",
+  "mentions": [
+    "A361607",
+    "A361616"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

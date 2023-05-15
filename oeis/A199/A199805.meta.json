@@ -2,12 +2,10 @@
   "description": "G.f.: 1/(1 + x + 5*x^2 - x^3 + x^4).",
   "id": "A199805",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-02 19:55:00",
     "offset": 0,
     "size": 37,
     "source": "joeis"

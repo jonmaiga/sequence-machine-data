@@ -2,13 +2,11 @@
   "description": "Number of collinear point 5-tuples in a 7 X 7 X 7 X ... n-dimensional cubic grid",
   "id": "A178351",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 16:25:41",
     "offset": 0,
     "size": 10,
     "source": "joeis"

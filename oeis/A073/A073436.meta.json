@@ -1,22 +1,22 @@
 {
-  "description": "Smallest k such that k mod pi(x) = n.",
+  "description": "Smallest k such that k mod pi(k) = n.",
   "id": "A073436",
   "mentions": [
     "A000720",
     "A038625",
+    "A057809",
     "A065134",
     "A073435",
-    "A073437"
+    "A073437",
+    "A360789"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:25",
-    "offset": 1,
-    "size": 58,
+    "offset": 0,
+    "size": 59,
     "source": "oeis-bfile"
   }
 }

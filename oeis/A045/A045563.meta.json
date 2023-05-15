@@ -2,13 +2,11 @@
   "description": "Numbers whose factorial has '64' as its final two digits before the trailing zeros.",
   "id": "A045563",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:56",
     "offset": 1,
     "size": 51,
     "source": "oeis-bfile"

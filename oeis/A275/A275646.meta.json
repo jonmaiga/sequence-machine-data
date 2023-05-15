@@ -2,13 +2,11 @@
   "description": "a(n) = maximal value of M such that it is possible to partition the 2^n vertices of the n-cube into M subsets so that the Hamming distance between any two subsets is exactly 1.",
   "id": "A275646",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 0,
     "size": 6,
     "source": "oeis-entry"

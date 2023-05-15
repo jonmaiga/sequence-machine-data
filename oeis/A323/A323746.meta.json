@@ -2,12 +2,10 @@
   "description": "a(n) is the smallest positive number that is as far as possible from the nearest multiple of each of the first n primes.",
   "id": "A323746",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 21,
     "source": "oeis-entry"

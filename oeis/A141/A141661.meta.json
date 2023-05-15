@@ -2,7 +2,6 @@
   "description": "Ramanujan Partition odd congruences as a triangular sequence: t(n,m) = PartitionsP((2*n - 1)*m + floor((2*n - 1)/2) + m) mod (2*n - 1).",
   "id": "A141661",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "less",
@@ -11,7 +10,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

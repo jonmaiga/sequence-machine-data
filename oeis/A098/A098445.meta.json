@@ -1,13 +1,11 @@
 {
-  "description": "Coefficients of powers of q^5 in (q)_infty^5 = (q_5)^infty (mod 5).",
+  "description": "Coefficients of powers of q^5 in (q)_oo^5 == (q_5)^oo (mod 5).",
   "id": "A098445",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 102,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Minimal number k such that n! can be written as product of k (>= 2) consecutive integers.",
   "id": "A160642",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 2,
     "size": 72,
     "source": "oeis-entry"

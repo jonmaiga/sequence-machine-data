@@ -2,13 +2,11 @@
   "description": "E.g.f. satisfies: A(x+1/2*x^2)=x*exp(A(x)).",
   "id": "A201794",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 23,
     "source": "oeis-entry"

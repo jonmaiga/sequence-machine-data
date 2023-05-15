@@ -2,13 +2,11 @@
   "description": "a(n) = 5^n *n! *L_n^{-1/5}(-1), where L_n^(alpha)(x) are generalized Laguerre polynomials.",
   "id": "A089916",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:41",
     "offset": 0,
     "size": 17,
     "source": "oeis-bfile"

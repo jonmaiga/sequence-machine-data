@@ -2,13 +2,11 @@
   "description": "Numbers n such that the b1(n)^2=b0(n) where b1(n) denotes the number of 1's in binary expansion of n, b0(n) the number of 0's.",
   "id": "A078732",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:30",
     "offset": 1,
     "size": 44,
     "source": "oeis-bfile"

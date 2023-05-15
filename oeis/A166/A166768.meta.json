@@ -2,13 +2,11 @@
   "description": "Number of n X 4 1..4 arrays containing at least one of each value, and all equal values connected.",
   "id": "A166768",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

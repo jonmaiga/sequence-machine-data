@@ -1,13 +1,12 @@
 {
-  "description": "100*log_10 (n) rounded down.",
+  "description": "a(n) = 100*log_10 (n) rounded down.",
   "id": "A004222",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 12:30:37",
     "offset": 1,
     "size": 44,
     "source": "joeis"

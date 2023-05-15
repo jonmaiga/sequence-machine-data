@@ -2,7 +2,6 @@
   "description": "A triangle of coefficients of a Moebius-transformed Pascal triangle as a sum: b(x,y,n)=Sum[Binomial[n,i]*x^i*y^(n-i),{i,0,n}]; transforms: x'->(a1*x + b1)/(c1*x + d1); y'->(a2*y + b2)/(c2*y + d2); b1(x,y,n)=(c1*x + b1)^(k)*(c2*y + d2)^(k)*b(x',y',n); f(x,y,z,n)=b1(x,y,n)+b1(y,z,n)+b1(z,x,n).",
   "id": "A139815",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 43,
     "source": "oeis-entry"

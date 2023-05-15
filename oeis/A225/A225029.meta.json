@@ -2,13 +2,11 @@
   "description": "Non-crossing, non-nesting, 3-colored set partitions.",
   "id": "A225029",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:43",
     "offset": 0,
     "size": 23,
     "source": "oeis-bfile"

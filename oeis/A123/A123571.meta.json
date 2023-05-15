@@ -2,12 +2,10 @@
   "description": "Smallest prime p such that p divides m^(m+1)+1, where m = (p-2n-1)/(2n).",
   "id": "A123571",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 43,
     "source": "oeis-entry"

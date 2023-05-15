@@ -10,14 +10,12 @@
     "A099371",
     "A099373"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:39",
     "offset": 0,
     "size": 19,
     "source": "oeis-bfile"

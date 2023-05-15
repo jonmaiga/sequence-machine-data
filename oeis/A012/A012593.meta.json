@@ -2,13 +2,11 @@
   "description": "cosh(arcsinh(x)*exp(x))=1+1/2!*x^2+6/3!*x^3+21/4!*x^4+60/5!*x^5...",
   "id": "A012593",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-16 12:46:55",
     "offset": 0,
     "size": 21,
     "source": "joeis"

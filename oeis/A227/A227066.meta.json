@@ -2,13 +2,11 @@
   "description": "Number of primes between n and 2n inclusive equals the number of primes between 2n and 3n inclusive.",
   "id": "A227066",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 62,
     "source": "oeis-entry"

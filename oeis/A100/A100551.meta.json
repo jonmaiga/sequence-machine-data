@@ -1,10 +1,13 @@
 {
-  "description": "Coefficient list of ChebyshevU(k,1-x).",
+  "description": "Coefficient list of ChebyshevU(n, 1-x).",
   "id": "A100551",
   "mentions": [
-    "A053117"
+    "A001353",
+    "A001787",
+    "A053117",
+    "A056594",
+    "A122803"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
@@ -12,9 +15,8 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -2,12 +2,10 @@
   "description": "Number of 9*n X 18 0..1 arrays with row sums 2 and column sums n",
   "id": "A172615",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:56",
     "offset": 1,
     "size": 4,
     "source": "oeis-bfile"

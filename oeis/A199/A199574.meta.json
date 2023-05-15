@@ -2,13 +2,11 @@
   "description": "The number of simple labeled graphs on n nodes where two such graphs are considered equivalent iff one can be obtained from the other by reversing the labeling.",
   "id": "A199574",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 15,
     "source": "oeis-entry"

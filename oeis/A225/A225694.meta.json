@@ -2,13 +2,11 @@
   "description": "Triangle read by rows of operator ordering coefficients corresponding to the Legendre polynomials L_n(x).",
   "id": "A225694",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 0,
     "size": 37,
     "source": "oeis-entry"

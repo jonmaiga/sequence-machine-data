@@ -6,14 +6,12 @@
     "A161874",
     "A290451"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

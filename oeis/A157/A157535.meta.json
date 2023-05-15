@@ -2,14 +2,12 @@
   "description": "Half the number of length n integer sequences with sum zero and sum of squares 18.",
   "id": "A157535",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 17:11:09",
     "offset": 2,
     "size": 24,
     "source": "joeis"

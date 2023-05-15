@@ -2,12 +2,10 @@
   "description": "Instanton numbers of the (4, 1)-threefold.",
   "id": "A278033",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 26,
     "source": "oeis-entry"

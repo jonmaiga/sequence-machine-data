@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the area of the smallest rectangle that the Harter-Heighway Dragon Curve will fit in after n doublings, starting with a segment of length 1.",
+  "id": "A362566",
+  "mentions": [
+    "A014577",
+    "A341029"
+  ],
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

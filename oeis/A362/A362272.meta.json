@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, then multiply, subtract, and add 2, 3, 4; 5, 6, 7; ... in that order.",
+  "id": "A362272",
+  "mentions": [
+    "A077382",
+    "A077383",
+    "A362269",
+    "A362270",
+    "A362271"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

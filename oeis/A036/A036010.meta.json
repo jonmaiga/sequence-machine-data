@@ -2,14 +2,12 @@
   "description": "Number of partitions of n into parts not of the form 25k, 25k+11 or 25k-11. Also number of partitions with at most 10 parts of size 1 and differences between parts at distance 11 are greater than 1.",
   "id": "A036010",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 09:07:25",
     "offset": 1,
     "size": 45,
     "source": "joeis"

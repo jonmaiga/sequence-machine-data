@@ -2,14 +2,12 @@
   "description": "Numbers with more prime factors (including multiplicity) than their greatest prime factor.",
   "id": "A144566",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 53,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Numbers n such that numbers 24n+13 are primes.",
   "id": "A139529",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-09-08 06:56:22",
     "offset": 1,
     "size": 66,
     "source": "joeis"

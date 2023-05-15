@@ -2,13 +2,11 @@
   "description": "Numbers whose maximal base-7 run length is 2.",
   "id": "A037989",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:35:59",
     "offset": 1,
     "size": 50,
     "source": "joeis"

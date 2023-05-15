@@ -2,12 +2,10 @@
   "description": "E.g.f. satisfies: A(x) = exp(x*A(sin(x)*x)).",
   "id": "A141627",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:30",
     "offset": 0,
     "size": 23,
     "source": "oeis-bfile"

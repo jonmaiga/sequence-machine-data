@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of length n+2 0..k arrays with no pair in any consecutive three terms totalling exactly k",
   "id": "A245995",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:02",
     "offset": 1,
     "size": 52,
     "source": "oeis-bfile"

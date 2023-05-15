@@ -1,17 +1,15 @@
 {
-  "description": "Digits of n^2 include digits of n as subsequence.",
+  "description": "Numbers k such that digits of k^2 include digits of k as subsequence.",
   "id": "A046829",
   "mentions": [
     "A046827"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:01:47",
-    "offset": 0,
+    "offset": 1,
     "size": 53,
     "source": "joeis"
   }

@@ -2,14 +2,12 @@
   "description": "a(n) = (2*n+23)*n*(n-1), a coefficient appearing in the formula a(n)*Pi/324+n+1 giving the average number of regions into which n random planes divide the cube.",
   "id": "A248598",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:42:33",
     "offset": 0,
     "size": 37,
     "source": "joeis"

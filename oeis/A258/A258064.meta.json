@@ -2,7 +2,6 @@
   "description": "Number of hands of n points in Spanish dominoes.",
   "id": "A258064",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "fini",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 15,
     "size": 55,
     "source": "oeis-entry"

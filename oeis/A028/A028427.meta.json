@@ -2,14 +2,12 @@
   "description": "Clog sequence in base 6. Right to left concatenation of n,int(log_6(n)),int(log_6(int(log_6(n)))),... in base6.",
   "id": "A028427",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:37:17",
     "offset": 1,
     "size": 61,
     "source": "joeis"

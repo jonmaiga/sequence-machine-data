@@ -2,13 +2,11 @@
   "description": "E.g.f. sqrt(1-t^2)*exp(t*(1+arctanh(t))).",
   "id": "A255432",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:48:06",
     "offset": 0,
     "size": 23,
     "source": "joeis"

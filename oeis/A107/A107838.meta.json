@@ -2,14 +2,12 @@
   "description": "Leftmost digit of a(n) represents the number of odd digits in a(n); rightmost digit of a(n) represents the number of even digits in a(n).",
   "id": "A107838",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 44,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Semiprimes n such that n+1 and n+2 are squarefree.",
   "id": "A146948",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:34",
     "offset": 1,
     "size": 54,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Primes which are the reverse concatenation of two consecutive cubes.",
   "id": "A104318",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:55",
     "offset": 1,
     "size": 16,
     "source": "oeis-bfile"

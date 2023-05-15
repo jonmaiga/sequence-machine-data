@@ -2,13 +2,11 @@
   "description": "Generalization of the golden ratio (expansion of (5-13x)/((1+x)(1-4x))).",
   "id": "A007572",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 02:35:03",
     "offset": 0,
     "size": 23,
     "source": "joeis"

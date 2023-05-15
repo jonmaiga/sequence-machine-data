@@ -1,20 +1,24 @@
 {
-  "description": "Decimal expansion of solution to x^(2^x)=2.",
+  "description": "Decimal expansion of solution to x^(2^x) = 2.",
   "id": "A104750",
   "mentions": [
     "A103561",
-    "A104761"
+    "A104751",
+    "A104752",
+    "A104753",
+    "A104754",
+    "A104755",
+    "A104756",
+    "A104757"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
+    "changed",
     "cons",
-    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:34",
     "offset": 1,
-    "size": 43,
+    "size": 105,
     "source": "joeis"
   }
 }

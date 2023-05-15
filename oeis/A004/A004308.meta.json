@@ -2,12 +2,10 @@
   "description": "Hit polynomials, coefficient of y in N_n(y).",
   "id": "A004308",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 12:32:11",
     "offset": 4,
     "size": 19,
     "source": "joeis"

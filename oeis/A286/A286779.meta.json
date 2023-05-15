@@ -2,7 +2,6 @@
   "description": "Multiplicative with a(p^e) = 2e^2 + 2.",
   "id": "A286779",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:58",
     "offset": 1,
     "size": 69,
     "source": "oeis-bfile"

@@ -2,16 +2,13 @@
   "description": "Continued fraction for sqrt(641).",
   "id": "A040615",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "cofr",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:19:27",
     "offset": 0,
     "size": 91,
     "source": "joeis"

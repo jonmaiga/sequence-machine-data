@@ -2,12 +2,10 @@
   "description": "Maximum valency of the central line in a certain smooth 2D-polarized K3-surface in P^{n+1}.",
   "id": "A327470",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 2,
     "size": 84,
     "source": "oeis-entry"

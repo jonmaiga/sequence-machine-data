@@ -2,12 +2,10 @@
   "description": "Primes of form n^4 - n^2 - 1.",
   "id": "A174822",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:56:47",
     "offset": 1,
     "size": 29,
     "source": "joeis"

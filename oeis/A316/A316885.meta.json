@@ -2,12 +2,10 @@
   "description": "Squares visited by queen moves on a spirally numbered board, always moving to the lowest available unvisited prime square at each step.",
   "id": "A316885",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:35",
     "offset": 1,
     "size": 58,
     "source": "oeis-bfile"

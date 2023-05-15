@@ -2,12 +2,10 @@
   "description": "Expansion of sin(sinh(x)/cos(x)).",
   "id": "A009498",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 13:04:38",
     "offset": 0,
     "size": 14,
     "source": "joeis"

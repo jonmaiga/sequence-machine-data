@@ -2,12 +2,10 @@
   "description": "Modified de Bruijn sequences: max. length of binary necklace in which no n-bit word appears twice.",
   "id": "A007977",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

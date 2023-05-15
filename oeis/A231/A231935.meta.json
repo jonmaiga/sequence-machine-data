@@ -2,12 +2,10 @@
   "description": "Greatest prime Q < 2*n such that 2*n-Q=P prime < Q starting at n=4.",
   "id": "A231935",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:49",
     "offset": 4,
     "size": 63,
     "source": "oeis-bfile"

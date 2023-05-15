@@ -2,13 +2,11 @@
   "description": "(2n+1)! modulo 4n+3.",
   "id": "A080909",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 71,
     "source": "oeis-entry"

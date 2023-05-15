@@ -2,12 +2,10 @@
   "description": "Two-colorings of triangular arrays under rotational symmetries.",
   "id": "A241806",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 17,
     "source": "oeis-entry"

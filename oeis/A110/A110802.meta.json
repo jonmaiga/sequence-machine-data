@@ -2,14 +2,12 @@
   "description": "a(1) =1, a(n) = k* concatenation of a(1), a(2), ...a(n-1), where k is the number of digits in the concatenation.",
   "id": "A110802",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

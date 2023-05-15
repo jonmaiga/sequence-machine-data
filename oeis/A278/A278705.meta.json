@@ -2,15 +2,13 @@
   "description": "Number of length-4 cycles in all simple labeled graphs on n nodes.",
   "id": "A278705",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 4,
     "size": 13,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

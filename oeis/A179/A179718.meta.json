@@ -2,12 +2,10 @@
   "description": "Number of permutations of 1..n with the sequence of sums of 3 adjacent elements having exactly 3 maxima",
   "id": "A179718",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 6,
     "size": 9,
     "source": "oeis-entry"

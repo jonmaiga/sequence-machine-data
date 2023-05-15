@@ -1,0 +1,18 @@
+{
+  "description": "Index of 2^k in A350877, where k = A362107(n).",
+  "id": "A362108",
+  "mentions": [
+    "A350615",
+    "A350877",
+    "A362107"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

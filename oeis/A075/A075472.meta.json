@@ -2,13 +2,11 @@
   "description": "Rounded root-mean-square (RMS) value of first n perfect powers.",
   "id": "A075472",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 57,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Powers of 2 with exactly one even decimal digit.",
   "id": "A272698",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

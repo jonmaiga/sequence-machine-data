@@ -2,13 +2,11 @@
   "description": "T(n,k) = Number of n X k 0..3 arrays with exactly floor(n X k/2) elements unequal to at least one horizontal or vertical neighbor, with new values introduced in row major 0..3 order.",
   "id": "A222275",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:40",
     "offset": 1,
     "size": 52,
     "source": "oeis-bfile"

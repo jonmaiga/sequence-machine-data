@@ -2,12 +2,10 @@
   "description": "Greedy sequence such that no term is the average of three others.",
   "id": "A036779",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:28:41",
     "offset": 1,
     "size": 57,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "Years in which the winner of the United States presidential election lost the popular vote.",
   "id": "A230052",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 5,
     "source": "oeis-entry"

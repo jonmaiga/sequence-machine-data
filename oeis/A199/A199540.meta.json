@@ -2,13 +2,11 @@
   "description": "Expansion 1/(1-x^2*cotan(x))=sum(n>=0, a(n)*x^n/(n)!^2.",
   "id": "A199540",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 0,
     "size": 17,
     "source": "oeis-entry"

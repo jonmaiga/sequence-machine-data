@@ -2,13 +2,11 @@
   "description": "a(1)=1. a(2^m +k) = a(2^m + 1 - k)*a(k) + 1, where 1 <= k <= 2^m, m>=0.",
   "id": "A119614",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 62,
     "source": "oeis-entry"

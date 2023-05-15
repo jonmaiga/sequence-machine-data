@@ -2,13 +2,11 @@
   "description": "Numbers that are the sum of 8 positive 9th powers.",
   "id": "A003397",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:04",
     "offset": 1,
     "size": 40,
     "source": "oeis-bfile"

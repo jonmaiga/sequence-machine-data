@@ -8,7 +8,6 @@
     "A317937",
     "A318321"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "formulas",
     "frac",
@@ -16,7 +15,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:38",
     "offset": 1,
     "size": 92,
     "source": "oeis-bfile"

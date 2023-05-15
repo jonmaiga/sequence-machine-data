@@ -2,13 +2,11 @@
   "description": "Number of sets of consecutive primes whose arithmetic mean is an integer, the largest prime of a set is n-th prime.",
   "id": "A082597",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 100,
     "source": "oeis-entry"

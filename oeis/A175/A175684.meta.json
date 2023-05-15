@@ -2,13 +2,11 @@
   "description": "a(0)=11, then a(n) is the smallest prime p not already used such that (first two digits of p) = (last two digits of a(n-1)).",
   "id": "A175684",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:59",
     "offset": 0,
     "size": 53,
     "source": "oeis-bfile"

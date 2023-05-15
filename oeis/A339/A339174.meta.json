@@ -3,9 +3,9 @@
   "id": "A339174",
   "mentions": [
     "A000058",
-    "A306601"
+    "A306601",
+    "A359340"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "formulas",
     "hard",
@@ -13,7 +13,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 22,
     "source": "oeis-entry"

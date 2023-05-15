@@ -22,14 +22,12 @@
     "A084193",
     "A114062"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "fini",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 24,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "T(n,k) = Number of (n+6) X (k+6) 0..2 matrices with each 7 X 7 subblock idempotent.",
   "id": "A224642",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:42",
     "offset": 1,
     "size": 26,
     "source": "oeis-bfile"

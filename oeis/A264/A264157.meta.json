@@ -8,15 +8,12 @@
     "A247040",
     "A261805"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 67,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Langton's ant on a tiling with vertex types (3.12.12; 3.4.3.12): number of black cells after n moves of the ant when starting on a dodecagon and looking towards an edge where it meets another dodecagon.",
   "id": "A322567",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:45",
     "offset": 0,
     "size": 69,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Number of 3-uniform 2-regular hypergraphs on 3n unlabeled nodes.",
   "id": "A338279",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

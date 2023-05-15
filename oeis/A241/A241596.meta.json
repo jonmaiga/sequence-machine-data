@@ -8,14 +8,12 @@
     "A241597",
     "A242628"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "base",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:58",
     "offset": 1,
     "size": 63,
     "source": "oeis-bfile"

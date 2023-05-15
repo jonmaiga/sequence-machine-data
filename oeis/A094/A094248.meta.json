@@ -2,14 +2,12 @@
   "description": "Consider 3 X 3 matrix M = [0 1 0 / 0 0 1 / 5 2 0]; a(n) = the center term in M^n * [1 1 1].",
   "id": "A094248",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:45",
     "offset": 1,
     "size": 33,
     "source": "oeis-bfile"

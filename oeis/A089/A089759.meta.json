@@ -14,14 +14,12 @@
     "A210472",
     "A225094"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:41",
     "offset": 0,
     "size": 55,
     "source": "oeis-bfile"

@@ -9,7 +9,6 @@
     "A317927",
     "A317932"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "formulas",
     "frac",
@@ -17,7 +16,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:37",
     "offset": 1,
     "size": 96,
     "source": "oeis-bfile"

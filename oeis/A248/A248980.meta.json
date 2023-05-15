@@ -2,12 +2,10 @@
   "description": "One fifth the hypotenuse of primitive Pythagorean triangles (PPT's) whose hypotenuse is the only side that is divisible by primes of the form 4k+1 (sorted and repetitions omitted).",
   "id": "A248980",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 56,
     "source": "oeis-entry"

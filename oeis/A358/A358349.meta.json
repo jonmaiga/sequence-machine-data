@@ -2,7 +2,6 @@
   "description": "A puzzle array read by antidiagonals.",
   "id": "A358349",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-28 11:08:29",
     "offset": 1,
     "size": 51,
     "source": "joeis"

@@ -3,15 +3,15 @@
   "id": "A294449",
   "mentions": [
     "A000002",
+    "A022327",
+    "A025503",
     "A088568",
     "A294448"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:12",
     "offset": 1,
     "size": 40,
     "source": "oeis-bfile"

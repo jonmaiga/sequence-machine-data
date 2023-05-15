@@ -2,13 +2,11 @@
   "description": "Arises in attempts to apply Engel's `probabilistic abacus' to random walks on infinite square grid.",
   "id": "A007720",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn",
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 1,
     "size": 64,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Indices of Kimberling centers incidents on central line called the Fermat axis.",
   "id": "A100205",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 23,
     "source": "oeis-entry"

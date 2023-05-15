@@ -1,17 +1,17 @@
 {
   "description": "Number of maximal irreducible integral matrix groups in n dimensions.",
   "id": "A052487",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:19",
+  "mentions": [
+    "A004027"
+  ],
   "tags": [
     "more",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 1,
-    "size": 9,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

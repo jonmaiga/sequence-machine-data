@@ -2,13 +2,11 @@
   "description": "a(n) = a(n-2) + a(n-3) - floor(a(n-4)/2) - floor(a(n-6)/2).",
   "id": "A173332",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:57",
     "offset": 0,
     "size": 51,
     "source": "oeis-bfile"

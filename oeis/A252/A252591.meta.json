@@ -2,12 +2,10 @@
   "description": "Number of distinct proper angles that can be formed by a vertex and two leg endpoints on grid points in an n X n square grid.",
   "id": "A252591",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:10",
     "offset": 2,
     "size": 45,
     "source": "oeis-bfile"

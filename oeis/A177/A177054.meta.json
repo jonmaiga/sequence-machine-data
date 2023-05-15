@@ -2,14 +2,12 @@
   "description": "Numbers k such that each of the decimal digits is a quadratic residue modulo k.",
   "id": "A177054",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 70,
     "source": "oeis-entry"

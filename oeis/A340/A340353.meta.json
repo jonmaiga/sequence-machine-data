@@ -2,12 +2,10 @@
   "description": "a(n) is the least nonnegative integer value of n^(n+1)/k - (n+1)^n.",
   "id": "A340353",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:13",
     "offset": 3,
     "size": 18,
     "source": "oeis-bfile"

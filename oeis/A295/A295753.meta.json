@@ -2,13 +2,11 @@
   "description": "The longest side of a minimal rectangle made from n squares.",
   "id": "A295753",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 83,
     "source": "oeis-entry"

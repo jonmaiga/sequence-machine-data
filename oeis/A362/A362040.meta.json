@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of distinct sums of one or more contiguous terms in the sequence thus far.",
+  "id": "A362040",
+  "mentions": [
+    "A000217",
+    "A002048",
+    "A002049",
+    "A361798"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

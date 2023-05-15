@@ -2,13 +2,11 @@
   "description": "Sum of subgroup indices of dihedral group, Sum_{H <= D(n)} [D(n):H].",
   "id": "A308047",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

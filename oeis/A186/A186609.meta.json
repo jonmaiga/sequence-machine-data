@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of (n+4)X(k+4) binary arrays with every 5X5 subblock commuting with each horizontal and vertical neighbor 5X5 subblock",
   "id": "A186609",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:11",
     "offset": 1,
     "size": 35,
     "source": "oeis-bfile"

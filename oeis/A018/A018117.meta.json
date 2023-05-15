@@ -2,12 +2,10 @@
   "description": "Powers of fifth root of 2 rounded down.",
   "id": "A018117",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 02:07:46",
     "offset": 0,
     "size": 53,
     "source": "joeis"

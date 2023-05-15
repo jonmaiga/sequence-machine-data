@@ -2,13 +2,11 @@
   "description": "Numbers k such that (k + prime(k)) and (k+1 + prime(k+1)) are divisible by 11.",
   "id": "A107380",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:59",
     "offset": 1,
     "size": 43,
     "source": "oeis-bfile"

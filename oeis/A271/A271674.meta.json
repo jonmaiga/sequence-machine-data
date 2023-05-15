@@ -11,14 +11,12 @@
     "A271672",
     "A271673"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "nonn",
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:36",
     "offset": 0,
     "size": 16,
     "source": "oeis-bfile"

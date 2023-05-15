@@ -1,19 +1,19 @@
 {
-  "description": "n*binomial(2*n, n)*Fibonacci(n).",
+  "description": "a(n) = n*binomial(2*n, n)*Fibonacci(n).",
   "id": "A119701",
   "mentions": [
     "A000045",
     "A000984"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
+    "changed",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:08",
     "offset": 0,
-    "size": 21,
+    "size": 23,
     "source": "oeis-bfile"
   }
 }

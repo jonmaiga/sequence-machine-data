@@ -2,12 +2,10 @@
   "description": "cos(sec(x)*arctanh(x))=1-1/2!*x^2-19/4!*x^4-565/6!*x^6-24743/8!*x^8...",
   "id": "A012845",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 15:24:52",
     "offset": 0,
     "size": 14,
     "source": "joeis"

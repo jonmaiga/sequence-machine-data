@@ -2,14 +2,12 @@
   "description": "Circle curvature (rounded down) inscribed between a unit circle and a circumscribed regular n-gon.",
   "id": "A245302",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 3,
     "size": 56,
     "source": "oeis-entry"

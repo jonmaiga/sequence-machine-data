@@ -4,7 +4,6 @@
   "mentions": [
     "A004087"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "formulas",
@@ -12,7 +11,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 71,
     "source": "oeis-entry"

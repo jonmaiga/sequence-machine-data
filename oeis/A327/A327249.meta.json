@@ -8,15 +8,13 @@
     "A260180",
     "A327238"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 50,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

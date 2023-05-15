@@ -1,0 +1,19 @@
+{
+  "description": "Total semiperimeter of 3-Fuss-Catalan polyominoes of length 3n.",
+  "id": "A361961",
+  "mentions": [
+    "A024482",
+    "A078999",
+    "A361960"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

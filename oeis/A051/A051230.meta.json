@@ -10,14 +10,12 @@
     "A051228",
     "A051229"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:59",
     "offset": 1,
     "size": 42,
     "source": "oeis-bfile"

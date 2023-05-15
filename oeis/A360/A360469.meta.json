@@ -1,0 +1,21 @@
+{
+  "description": "Least positive integer k such that A093179(n) divides the generalized Fermat number A007117(n)^2^k + 1.",
+  "id": "A360469",
+  "mentions": [
+    "A000215",
+    "A007117",
+    "A007814",
+    "A093179",
+    "A307843"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

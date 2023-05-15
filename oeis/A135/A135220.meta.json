@@ -2,7 +2,6 @@
   "description": "Matrices C_n (read by rows), defined by the following identity: C_n * P(X,Y) = P(X+Y, X-Y), where P is any homogeneous polynomial of degree n in two variables, represented as a column whose i-th element is the coefficient of X^(n-i)Y^i.",
   "id": "A135220",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 91,
     "source": "oeis-entry"

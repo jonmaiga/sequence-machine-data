@@ -2,13 +2,11 @@
   "description": "Numbers n such that 2^(2*n-21)-21 is prime.",
   "id": "A138595",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-07-12 12:11:11",
     "offset": 1,
     "size": 14,
     "source": "joeis"

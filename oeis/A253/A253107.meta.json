@@ -2,12 +2,10 @@
   "description": "Number of Eulerian cycles in a lattice graph bounded by the eight equations x+y=-2n, x+y=2n, x-y=-2n, x-y=2n, x=1-2n, x=2n-1, y=1-2n, and y=2n-1 (Aztec Diamond graph).",
   "id": "A253107",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

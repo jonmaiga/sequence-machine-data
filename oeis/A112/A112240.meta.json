@@ -2,14 +2,12 @@
   "description": "Expansion of exp(x/(1-x-2x^2)).",
   "id": "A112240",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 17:08:40",
     "offset": 0,
     "size": 18,
     "source": "joeis"

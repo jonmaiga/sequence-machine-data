@@ -2,13 +2,11 @@
   "description": "Number of subsets S of {0,1,2,...,n-1} which are idempotent under squaring modulo n, where S*S mod n = {x*y mod n|x,y in S}.",
   "id": "A087671",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 31,
     "source": "oeis-entry"

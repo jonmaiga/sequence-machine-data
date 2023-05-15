@@ -2,12 +2,10 @@
   "description": "sinh(arcsin(sinh(x)))=x+3/3!*x^3+41/5!*x^5+1403/7!*x^7+90641/9!*x^9...",
   "id": "A012104",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 23:18:22",
     "offset": 0,
     "size": 14,
     "source": "joeis"

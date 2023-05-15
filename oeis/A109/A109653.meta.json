@@ -2,14 +2,12 @@
   "description": "Sequence and first differences include all prime numbers exactly once.",
   "id": "A109653",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 2,
     "size": 48,
     "source": "oeis-entry"

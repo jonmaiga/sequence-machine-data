@@ -2,13 +2,11 @@
   "description": "a(n) = coefficient of x^n in the power series A(x) such that: 1 = Sum_{n=-oo..+oo} n * x^n * (1 - x^n)^n * A(x)^n.",
   "id": "A357158",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:31",
     "offset": 0,
     "size": 24,
     "source": "oeis-bfile"

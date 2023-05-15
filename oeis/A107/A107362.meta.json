@@ -2,14 +2,12 @@
   "description": "Sequence A={a(n),n=0,1,2,3,...} such that the subsequence S1={a(n)|n mod 5=0,3} is identical to A and S2=S\\S1 (the complement of S1 in A) is identical to A except with the first term omitted.",
   "id": "A107362",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "eigen",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

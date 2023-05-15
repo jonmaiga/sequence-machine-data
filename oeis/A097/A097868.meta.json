@@ -2,12 +2,10 @@
   "description": "The n-th group (n>=0) of 16 consecutive terms are the entries, read by rows, of the 4 X 4 matrix A[n]=MA[n-1] (n>=1), where M is the 4 X 4 matrix [[0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1], [1, 0, 0, 1]] and A[0] is the 4 X 4 matrix [[1, 1, 1, 1], [1, 1, 1, 2], [1, 1, 2, 3], [1, 2, 3, 4]].",
   "id": "A097868",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 100,
     "source": "oeis-entry"

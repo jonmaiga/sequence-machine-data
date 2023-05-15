@@ -2,19 +2,35 @@
   "description": "Smallest semiperimeter of integral rectangle with area n.",
   "id": "A063655",
   "mentions": [
+    "A000005",
+    "A000975",
+    "A003601",
+    "A026424",
     "A027709",
+    "A027750",
     "A033676",
     "A033677",
+    "A057020",
+    "A057021",
     "A092510",
-    "A162348"
+    "A139710",
+    "A139711",
+    "A162348",
+    "A325347",
+    "A359893",
+    "A359901",
+    "A360005",
+    "A360457",
+    "A360458",
+    "A360459",
+    "A360460",
+    "A360555"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:15",
     "offset": 1,
     "size": 69,
     "source": "oeis-bfile"

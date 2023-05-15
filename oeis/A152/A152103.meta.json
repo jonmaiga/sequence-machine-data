@@ -2,14 +2,12 @@
   "description": "a(n) = 2^n*Product_{k=1..floor((n-1)/2)} (1 + 2*cos(k*Pi/n)^2 + 4*cos(k*Pi/n)^4).",
   "id": "A152103",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 16:10:48",
     "offset": 0,
     "size": 26,
     "source": "joeis"

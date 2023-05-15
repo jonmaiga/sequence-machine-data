@@ -2,14 +2,12 @@
   "description": "Slowest increasing sequence such that a(n) has a copy of itself in a(n+a(n)), with a(0)=0 and a(1)=1.",
   "id": "A102236",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 55,
     "source": "oeis-entry"

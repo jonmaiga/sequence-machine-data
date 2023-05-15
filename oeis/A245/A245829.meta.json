@@ -2,14 +2,12 @@
   "description": "Szeged index of the prism graph C_n X P_2 (n >=3).",
   "id": "A245829",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:37:45",
     "offset": 3,
     "size": 38,
     "source": "joeis"

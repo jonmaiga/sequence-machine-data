@@ -6,13 +6,12 @@
     "A006830",
     "A006831"
   ],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
+    "changed",
     "more",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 1,
     "size": 35,
     "source": "oeis-entry"

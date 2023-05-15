@@ -2,13 +2,11 @@
   "description": "G.f. A(x) satisfies A(x) = 1+x*A(x)+x^2*A(x)^2+2*x^3*A(x)^3.",
   "id": "A186239",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 00:23:53",
     "offset": 0,
     "size": 28,
     "source": "joeis"

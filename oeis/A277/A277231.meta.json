@@ -6,14 +6,12 @@
     "A003056",
     "A277230"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "easy",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 136,
     "source": "oeis-entry"

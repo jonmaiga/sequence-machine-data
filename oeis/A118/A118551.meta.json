@@ -2,13 +2,11 @@
   "description": "a(0)=1. a(n) = a(n-1)*2, if n is in the sequence. a(n) = a(n-1) + 1 if n is missing from the sequence.",
   "id": "A118551",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 51,
     "source": "oeis-entry"

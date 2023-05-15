@@ -2,13 +2,11 @@
   "description": "Numbers n such that 23*n^2 - 4 is prime.",
   "id": "A110994",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:02",
     "offset": 1,
     "size": 45,
     "source": "oeis-bfile"

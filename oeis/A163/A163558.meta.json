@@ -2,15 +2,12 @@
   "description": "Composite numbers such that exactly six distinct permutations of digits give primes.",
   "id": "A163558",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "base",
-    "changed",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 42,
     "source": "oeis-entry"

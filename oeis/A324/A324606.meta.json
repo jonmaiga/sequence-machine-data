@@ -6,7 +6,6 @@
     "A316667",
     "A324607"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "fini",
     "formulas",
@@ -15,7 +14,6 @@
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:50",
     "offset": 1,
     "size": 75,
     "source": "oeis-bfile"

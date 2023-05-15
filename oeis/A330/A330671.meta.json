@@ -2,14 +2,12 @@
   "description": "Largest number whose base-n expansion cannot be subdivided to form a sequence of numbers which ordered form a multiple of n+1 when using +, *, and ().",
   "id": "A330671",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 2,
     "size": 23,
     "source": "oeis-entry"

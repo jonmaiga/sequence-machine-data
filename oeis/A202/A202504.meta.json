@@ -1,15 +1,13 @@
 {
-  "description": "Number of zero-sum -1..1 arrays of n elements with first through third differences also in -1..1",
+  "description": "Number of zero-sum -1..1 arrays of n elements with first through third differences also in -1..1.",
   "id": "A202504",
   "mentions": [
     "A202511"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:23",
     "offset": 1,
     "size": 44,
     "source": "oeis-bfile"

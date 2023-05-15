@@ -2,13 +2,11 @@
   "description": "Irregular triangle read by rows: universal linear relationships among polynomial means for even degrees.",
   "id": "A293107",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "sign",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 40,
     "source": "oeis-entry"

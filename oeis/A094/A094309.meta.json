@@ -2,14 +2,12 @@
   "description": "Number of (s(0), s(1), ..., s(n)) such that 0 < s(i) < 6 and |s(i) - s(i-1)| <= 1 for i = 1,2,...,n, s(0) = 2, s(n) = 5.",
   "id": "A094309",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:45",
     "offset": 3,
     "size": 26,
     "source": "oeis-bfile"

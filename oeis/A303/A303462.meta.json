@@ -2,13 +2,11 @@
   "description": "Lexicographically earliest sequence of distinct terms such that the digits succession stays the same if every second digit among all sequence terms is erased.",
   "id": "A303462",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:27",
     "offset": 1,
     "size": 71,
     "source": "oeis-bfile"

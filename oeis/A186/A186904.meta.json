@@ -4,14 +4,11 @@
   "mentions": [
     "A186905"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 155,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "a(0)=0; a(n)=a(n-1)-n, if a(n-1)>2n; otherwise a(n)=a(n-1)+n.",
   "id": "A126234",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "look",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:14",
     "offset": 0,
     "size": 66,
     "source": "oeis-bfile"

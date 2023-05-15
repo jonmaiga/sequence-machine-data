@@ -11,14 +11,12 @@
     "A340260",
     "A340261"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:00",
     "offset": 1,
     "size": 120,
     "source": "oeis-bfile"

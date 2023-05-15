@@ -2,14 +2,12 @@
   "description": "Number of pairs (p,q) such that 2*p + 3*q = n and p != q.",
   "id": "A230196",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:57:51",
     "offset": 1,
     "size": 99,
     "source": "joeis"

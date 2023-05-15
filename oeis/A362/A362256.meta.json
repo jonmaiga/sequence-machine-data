@@ -1,0 +1,18 @@
+{
+  "description": "a(0) = a(1) = a(2) = 1, for n > 2, a(n) = a(n-1) + a(n-k) + k with k = 3.",
+  "id": "A362256",
+  "mentions": [
+    "A001595",
+    "A111314",
+    "A362255"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

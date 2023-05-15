@@ -2,14 +2,12 @@
   "description": "Number of contiguous digits i in the counting numbers, for i=1.",
   "id": "A103755",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

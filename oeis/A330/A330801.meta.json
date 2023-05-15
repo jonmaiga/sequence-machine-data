@@ -2,18 +2,18 @@
   "description": "a(n) = A080247(2*n, n), the central values of the Big-Schröder triangle.",
   "id": "A330801",
   "mentions": [
+    "A001622",
     "A080247",
     "A330798"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-09-08 06:56:24",
     "offset": 0,
     "size": 21,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

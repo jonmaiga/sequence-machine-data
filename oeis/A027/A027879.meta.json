@@ -12,15 +12,15 @@
     "A027877",
     "A027878",
     "A027880",
+    "A132267",
     "A191610"
   ],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:37",
     "offset": 0,
     "size": 10,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "a(n) is the least multiple of n such that a(n) = 1 mod k for all integers k with 1 < k < n and k relatively prime to n.",
   "id": "A055006",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 11:44:30",
     "offset": 1,
     "size": 31,
     "source": "joeis"

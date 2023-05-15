@@ -2,12 +2,10 @@
   "description": "Number of different tennis scores after n points have been played.",
   "id": "A051706",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-11-11 15:41:41",
     "offset": 0,
     "size": 53,
     "source": "joeis"

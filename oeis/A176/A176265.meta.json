@@ -2,12 +2,10 @@
   "description": "a(n) = floor(abs(n*cos(n))).",
   "id": "A176265",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:35:01",
     "offset": 1,
     "size": 77,
     "source": "joeis"

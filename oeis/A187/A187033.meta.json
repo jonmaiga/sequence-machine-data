@@ -1,20 +1,18 @@
 {
-  "description": "Places n where the infinitary phi-function A064380(n) divides the infinitary sigma-function A049417(n).",
+  "description": "Places k where the infinitary phi-function A064380(k) divides the infinitary sigma-function A049417(k).",
   "id": "A187033",
   "mentions": [
     "A020492",
     "A049417",
     "A064380"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
-    "size": 24,
+    "size": 28,
     "source": "oeis-entry"
   }
 }

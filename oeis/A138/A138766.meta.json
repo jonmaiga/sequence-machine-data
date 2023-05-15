@@ -2,14 +2,12 @@
   "description": "Real part of upper left and lower right terms of [1,(1+I); 1,1]^n * [1,0].",
   "id": "A138766",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 10:52:22",
     "offset": 1,
     "size": 30,
     "source": "joeis"

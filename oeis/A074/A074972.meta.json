@@ -2,12 +2,10 @@
   "description": "a(n) == - prime(n) (modulo 20).",
   "id": "A074972",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 85,
     "source": "oeis-entry"

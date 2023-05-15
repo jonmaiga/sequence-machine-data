@@ -2,12 +2,10 @@
   "description": "Limiting trajectory of 1 under evenly-many applications of the morphism phi defined in the comments.",
   "id": "A131213",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 89,
     "source": "oeis-entry"

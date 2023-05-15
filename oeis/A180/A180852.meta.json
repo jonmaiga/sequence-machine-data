@@ -2,12 +2,10 @@
   "description": "Numbers n such that the sum_i (d_i^i) of the i-th powers of their sorted divisors d_1< d_2<...< n is prime.",
   "id": "A180852",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:03",
     "offset": 1,
     "size": 32,
     "source": "oeis-bfile"

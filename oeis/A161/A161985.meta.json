@@ -2,14 +2,12 @@
   "description": "Table read by rows: the number 2n+1 followed by the numbers n+1 to 3n+1.",
   "id": "A161985",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "less",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 82,
     "source": "oeis-entry"

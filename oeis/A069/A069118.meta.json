@@ -2,13 +2,11 @@
   "description": "Let D(n,s) denotes the denominator of sum(k=1,n,1/k^s); sequence gives values of n such that D(n,4)/D(n,2) is a perfect square.",
   "id": "A069118",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:21",
     "offset": 1,
     "size": 65,
     "source": "oeis-bfile"

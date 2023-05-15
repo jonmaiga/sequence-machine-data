@@ -2,14 +2,12 @@
   "description": "Let x(n) = 123...n, y(n) = n...321; a(n) = y(n) concatenated with x(n) - x(n) concatenated with y(n).",
   "id": "A083827",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "easy",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

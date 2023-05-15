@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of ways to place any number of black and any number of white nonattacking knights on a (n+2)X(k+2) board",
   "id": "A251531",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:09",
     "offset": 1,
     "size": 23,
     "source": "oeis-bfile"

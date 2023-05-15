@@ -2,13 +2,11 @@
   "description": "First nonzero digit in the decimal expansion of (cos Pi/4)^n",
   "id": "A155816",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 86,
     "source": "oeis-entry"

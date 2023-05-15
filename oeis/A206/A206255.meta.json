@@ -1,17 +1,15 @@
 {
-  "description": "T(n,k) = Number of (n+1)X(k+1) 0..3 arrays with every 2X2 subblock having zero permanent.",
+  "description": "T(n,k) = Number of (n+1) X (k+1) 0..3 arrays with every 2 X 2 subblock having zero permanent.",
   "id": "A206255",
   "mentions": [
     "A006130"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:26",
     "offset": 1,
     "size": 29,
     "source": "oeis-bfile"

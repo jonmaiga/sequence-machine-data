@@ -1,16 +1,15 @@
 {
-  "description": "Number of (n+4)X6 binary arrays with every 5X5 subblock commuting with each horizontal and vertical neighbor 5X5 subblock",
+  "description": "Number of (n+4) X 6 binary arrays with every 5 X 5 subblock commuting with each horizontal and vertical neighbor 5 X 5 subblock.",
   "id": "A186602",
   "mentions": [
     "A186609"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:11",
     "offset": 1,
     "size": 32,
     "source": "oeis-bfile"

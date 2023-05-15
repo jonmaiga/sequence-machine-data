@@ -2,14 +2,12 @@
   "description": "Historical progression of years from the song \"In The Year 2525\" by Denny Zager and Rick Evans.",
   "id": "A111729",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

@@ -8,16 +8,15 @@
     "A187819",
     "A211409"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
+    "changed",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
-    "size": 6,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

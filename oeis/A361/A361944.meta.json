@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least k > 0 such that the binary expansion of k*n is an abelian square (A272653).",
+  "id": "A361944",
+  "mentions": [
+    "A272653",
+    "A361943"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

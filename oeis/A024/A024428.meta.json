@@ -2,13 +2,11 @@
   "description": "S(n,n) + S(n-1,n-2) + S(n-2,n-4) + ... + S(n-k+1,n-2k+2), where k = [ (n+1)/2 ] and S(i,j) are Stirling numbers of second kind.",
   "id": "A024428",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 10:41:09",
     "offset": 1,
     "size": 29,
     "source": "joeis"

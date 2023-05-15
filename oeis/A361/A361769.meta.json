@@ -1,0 +1,15 @@
+{
+  "description": "Expansion of g.f. A(x) = 1/F(oo,x) where F(oo,x) is the limit of the process F(n,x) = (F(n-1,x)^(2^n) - 4^n*x^n)^(1/2^n) for n > 0, starting with F(0,x) = 1.",
+  "id": "A361769",
+  "mentions": [
+    "A361768"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

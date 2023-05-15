@@ -2,12 +2,10 @@
   "description": "a(n) = Product of k primes in arithmetic progression with common difference 6, otherwise a(n) = prime(n).",
   "id": "A120313",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"

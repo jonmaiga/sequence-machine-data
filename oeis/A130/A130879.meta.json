@@ -2,14 +2,12 @@
   "description": "An antidiagonal triangular sequence based on sums of fractal self-similar level count totals of the sort: Sum_{n=0..m} k^(2^n).",
   "id": "A130879",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 33,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Number of nonnegative solutions of x1^2 + x2^2 + ... + x6^2 = n.",
   "id": "A045848",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:56",
     "offset": 0,
     "size": 45,
     "source": "oeis-bfile"

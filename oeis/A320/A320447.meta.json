@@ -2,13 +2,11 @@
   "description": "n such that all n - p are prime where p is prime in range n/2 <= p < n.",
   "id": "A320447",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "a(n) = gcd_{all Latin squares L of order n} n!*n/A(L), where A(L) is the order of the autotopism group of L.",
   "id": "A225187",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

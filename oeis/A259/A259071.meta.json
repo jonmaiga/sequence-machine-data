@@ -11,14 +11,12 @@
     "A259072",
     "A259073"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:17",
     "offset": 0,
     "size": 106,
     "source": "oeis-bfile"

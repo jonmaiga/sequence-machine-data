@@ -2,13 +2,11 @@
   "description": "Numbers n such that the sum of the smallest and largest prime factors of n divides n.",
   "id": "A111073",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:02",
     "offset": 1,
     "size": 47,
     "source": "oeis-bfile"

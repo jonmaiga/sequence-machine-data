@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of the maximum possible disorientation angle between two identical cubes (in radians).",
+  "id": "A361601",
+  "mentions": [
+    "A003881",
+    "A201488",
+    "A361602",
+    "A361603",
+    "A361604"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

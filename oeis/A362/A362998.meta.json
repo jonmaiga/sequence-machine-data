@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{k=0..2*n} R(2*n, k, 1) where R(n, k, x) = Sum_{u=0..k} ( Sum_{j=0..u} x^j * binomial(u, j) * (j + 1)^n ) / (u + 1).",
+  "id": "A362998",
+  "mentions": [
+    "A363000"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

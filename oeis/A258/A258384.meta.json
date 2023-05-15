@@ -2,14 +2,12 @@
   "description": "a(n) = n^(n-1) * (n+1)^n.",
   "id": "A258384",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:16",
     "offset": 1,
     "size": 14,
     "source": "oeis-bfile"

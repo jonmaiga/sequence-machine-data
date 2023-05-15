@@ -2,13 +2,11 @@
   "description": "If a(n) uses fewer digits than a(n+1), we compute K = |a(n) - a(n+1)|. The successive such Ks rebuild the sequence itself, with a(1) = 5.",
   "id": "A330599",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:59",
     "offset": 1,
     "size": 69,
     "source": "oeis-bfile"

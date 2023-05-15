@@ -2,14 +2,12 @@
   "description": "a(p_1^e_1*p_2^e_2*.....*p_m^e_m) = (p_1^p_1)^e_1*(p_2^p^2)^e_2*.....*(p_m^p_m)^e_m where p_1^e_1*p_2^e_2*.....*p_m^e_m is the prime decomposition of n.",
   "id": "A133482",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "mult",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:21",
     "offset": 1,
     "size": 30,
     "source": "oeis-bfile"

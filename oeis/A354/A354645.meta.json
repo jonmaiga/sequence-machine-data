@@ -2,13 +2,11 @@
   "description": "G.f. A(x) satisfies: -x = Sum_{n=-oo..+oo} (-1)^n * x^(n*(n-1)/2) * A(x)^n.",
   "id": "A354645",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:29",
     "offset": 0,
     "size": 28,
     "source": "oeis-bfile"

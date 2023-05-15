@@ -2,16 +2,13 @@
   "description": "Triangle T(m,n) read by rows: the number of homomorphisms of the complete graph on n vertices to the quasi-complete graph on m vertices, m>=3, 3<=n",
   "id": "A360961",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 3,
     "size": 45,
     "source": "oeis-entry"

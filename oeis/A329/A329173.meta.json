@@ -2,12 +2,10 @@
   "description": "Smallest positive integer such that for any n no substring (subsequence without internal skips) of length n is repeated unless it contains the number n or higher.",
   "id": "A329173",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:58",
     "offset": 1,
     "size": 87,
     "source": "oeis-bfile"

@@ -2,14 +2,12 @@
   "description": "Number of binary sequences of length n with an even number of ones, at least two of the ones being contiguous.",
   "id": "A027711",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:36",
     "offset": 1,
     "size": 31,
     "source": "oeis-bfile"

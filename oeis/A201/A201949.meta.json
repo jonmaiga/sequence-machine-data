@@ -8,14 +8,12 @@
     "A201953",
     "A324305"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:22",
     "offset": 0,
     "size": 74,
     "source": "oeis-bfile"

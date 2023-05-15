@@ -2,12 +2,10 @@
   "description": "Odd numbers k such that 1^((k-1)/2) + 2^((k-1)/2) + ... + (k-1)^((k-1)/2) <> 0 (mod k).",
   "id": "A188159",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:12",
     "offset": 1,
     "size": 66,
     "source": "oeis-bfile"

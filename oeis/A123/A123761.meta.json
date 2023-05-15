@@ -2,13 +2,11 @@
   "description": "Let k(n) = mod(3,n)-1. Then a(n) = 4*a(n-1) if n is odd, otherwise ((5+k(n))/4)*a(n-1), with a(0) = 1, a(1) = 2.",
   "id": "A123761",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:12",
     "offset": 0,
     "size": 30,
     "source": "oeis-bfile"

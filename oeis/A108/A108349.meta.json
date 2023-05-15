@@ -2,14 +2,12 @@
   "description": "Main diagonal of Fibonacci-type array in which each term is equal to the term above multiplied by the term to the left.",
   "id": "A108349",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

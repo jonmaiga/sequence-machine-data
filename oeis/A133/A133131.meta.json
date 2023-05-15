@@ -2,13 +2,11 @@
   "description": "a(4n) = 3n+1, a(4n+1) = -3n, a(4n+2) = -3n-3, a(4n+3) = 3n+2.",
   "id": "A133131",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-26 10:55:23",
     "offset": 0,
     "size": 76,
     "source": "joeis"

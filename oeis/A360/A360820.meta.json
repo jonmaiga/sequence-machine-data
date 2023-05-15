@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = Sum_{k=0..n} binomial(n, k)*2^(n^2-k*(n-k)).",
+  "id": "A360820",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

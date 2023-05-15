@@ -2,13 +2,11 @@
   "description": "a(1) = 1; for n > 1, a(n) = n! divided by product of factorials of all prime divisors of n.",
   "id": "A075072",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:27",
     "offset": 1,
     "size": 26,
     "source": "oeis-bfile"

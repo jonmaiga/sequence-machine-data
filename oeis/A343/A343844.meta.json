@@ -2,13 +2,11 @@
   "description": "Optimal lower bounds for the permanent of 312-pattern avoiding 0-1 matrices.",
   "id": "A343844",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

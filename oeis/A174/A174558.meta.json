@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways to place 8n nonattacking kings on a 16 x 2n chessboard",
+  "description": "Number of ways to place 8n nonattacking kings on a 16 x 2n chessboard.",
   "id": "A174558",
   "mentions": [
     "A018807",
@@ -8,15 +8,14 @@
     "A173782",
     "A173783",
     "A174154",
-    "A174155"
+    "A174155",
+    "A350819"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:58",
     "offset": 1,
     "size": 20,
     "source": "oeis-bfile"

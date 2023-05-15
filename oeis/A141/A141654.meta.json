@@ -2,13 +2,11 @@
   "description": "Positive integers not of the form (n-p(n+3)+p(n+1))/(p(n+2)-p(n)), where p(i) is the i-th prime.",
   "id": "A141654",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 62,
     "source": "oeis-entry"

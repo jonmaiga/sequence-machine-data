@@ -2,14 +2,12 @@
   "description": "Number of labeled Eulerian digraphs with n nodes.",
   "id": "A007080",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

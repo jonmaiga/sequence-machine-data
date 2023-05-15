@@ -2,12 +2,10 @@
   "description": "Powers of fifth root of 14 rounded up.",
   "id": "A018155",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 16:25:06",
     "offset": 0,
     "size": 33,
     "source": "joeis"

@@ -2,12 +2,10 @@
   "description": "a(n) is the number of operator symbols in any shortest well-formed arithmetic expression exclusively made of symbols { 2, 3, +, * } that evaluates to n.",
   "id": "A286528",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 2,
     "size": 104,
     "source": "oeis-entry"

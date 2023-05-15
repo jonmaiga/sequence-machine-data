@@ -2,12 +2,10 @@
   "description": "Related to numbers written in base 2 (see below for definition).",
   "id": "A200322",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:21",
     "offset": 0,
     "size": 65,
     "source": "oeis-bfile"

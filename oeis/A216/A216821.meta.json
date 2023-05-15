@@ -2,13 +2,11 @@
   "description": "Number of standardized 4-connected side polyominoes of inner site-perimeter n.",
   "id": "A216821",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 2,
     "size": 10,
     "source": "oeis-entry"

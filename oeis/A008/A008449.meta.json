@@ -2,12 +2,10 @@
   "description": "Theta series of A_9 lattice.",
   "id": "A008449",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:46:53",
     "offset": 0,
     "size": 30,
     "source": "joeis"

@@ -2,14 +2,12 @@
   "description": "Sum binomial(2n-2k,2k)10^(n-k), k=0..floor(n/2).",
   "id": "A108487",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 19:27:23",
     "offset": 0,
     "size": 17,
     "source": "joeis"

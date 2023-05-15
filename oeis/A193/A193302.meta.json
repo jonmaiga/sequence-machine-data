@@ -2,12 +2,10 @@
   "description": "E.g.f. satisfies: A(x) = x + Sum_{n>=1} x^n/n! * d^(n-1)/dx^(n-1) A_n(x), where A_n(x) denotes the n-th iteration of A(x), with A(0)=0.",
   "id": "A193302",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 14,
     "source": "oeis-entry"

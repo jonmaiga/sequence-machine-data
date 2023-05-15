@@ -2,13 +2,11 @@
   "description": "a(1) = 1, a(n) = smallest number beginning with a(n-1) == 0 (mod n!).",
   "id": "A087393",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

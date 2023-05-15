@@ -2,13 +2,11 @@
   "description": "Number of paths in B(n) that start with a u step and end with a d step.",
   "id": "A247471",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 0,
     "size": 34,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Half the number of n X n binary matrices, symmetric under 90-degree rotation, having equal row sums.",
   "id": "A140884",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"

@@ -4,14 +4,13 @@
   "mentions": [
     "A007094"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
+    "changed",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:43:51",
     "offset": 1,
     "size": 51,
     "source": "joeis"

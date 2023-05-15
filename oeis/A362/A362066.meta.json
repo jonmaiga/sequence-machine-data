@@ -1,0 +1,17 @@
+{
+  "description": "Primes associated with the indices in A362060.",
+  "id": "A362066",
+  "mentions": [
+    "A114924",
+    "A362060"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

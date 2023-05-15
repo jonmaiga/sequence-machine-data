@@ -5,14 +5,12 @@
     "A007519",
     "A334826"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "cons",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 0,
     "size": 106,
     "source": "oeis-entry"

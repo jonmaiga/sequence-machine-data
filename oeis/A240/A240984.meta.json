@@ -2,7 +2,6 @@
   "description": "Decimal expansion of the infinite product of e*(1-1/n^2)^(n^2) for n >= 2, which evaluates as Pi/e^(3/2).",
   "id": "A240984",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "cons",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:55:51",
     "offset": 0,
     "size": 100,
     "source": "joeis"

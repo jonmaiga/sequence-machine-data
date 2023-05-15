@@ -1,0 +1,20 @@
+{
+  "description": "The number of iterations of the infinitary totient function iphi (A064380) required to reach from n to 1.",
+  "id": "A362024",
+  "mentions": [
+    "A003434",
+    "A049865",
+    "A064380",
+    "A333609",
+    "A362025"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

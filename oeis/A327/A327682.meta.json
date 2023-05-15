@@ -9,13 +9,11 @@
     "A322204",
     "A327683"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:55",
     "offset": 0,
     "size": 29,
     "source": "oeis-bfile"

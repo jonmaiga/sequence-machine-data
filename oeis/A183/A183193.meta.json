@@ -2,12 +2,10 @@
   "description": "Minimum number of counters left after a winning opening move for Dakon-n.",
   "id": "A183193",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 4,
     "size": 7,
     "source": "oeis-entry"

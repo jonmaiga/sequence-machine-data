@@ -2,12 +2,10 @@
   "description": "Numbers m such that the least s >= 0 such that Sum_{k=0..m} (k+s)!/C(m,k) is an integer satisfies s = m - 1.",
   "id": "A079407",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 58,
     "source": "oeis-entry"

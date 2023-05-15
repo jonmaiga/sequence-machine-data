@@ -2,13 +2,11 @@
   "description": "(-1)^n * coefficient of x^n in 1/x-1/(1-eta(x)) power series.",
   "id": "A082531",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 42,
     "source": "oeis-entry"

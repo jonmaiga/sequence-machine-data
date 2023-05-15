@@ -2,14 +2,12 @@
   "description": "a(n) = 2^(n-1)*(3^n-2^(n+1)+1).",
   "id": "A228701",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 22:25:24",
     "offset": 0,
     "size": 27,
     "source": "joeis"

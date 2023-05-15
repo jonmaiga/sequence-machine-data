@@ -2,13 +2,11 @@
   "description": "a(n) is the least possible sum of a sequence of distinct terms consisting of exactly prime(i) multiples of prime(i) for i = 1 to n.",
   "id": "A274071",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

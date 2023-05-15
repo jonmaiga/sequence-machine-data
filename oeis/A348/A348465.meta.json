@@ -2,13 +2,11 @@
   "description": "a(n) = minimum L such that a ternary linear code of length L, dimension 6, and minimum distance n exists.",
   "id": "A348465",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"

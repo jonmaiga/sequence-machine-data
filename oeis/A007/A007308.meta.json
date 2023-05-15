@@ -2,14 +2,12 @@
   "description": "Number of crystallographic orbits in n dimensions.",
   "id": "A007308",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "hard",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 0,
     "size": 4,
     "source": "oeis-entry"

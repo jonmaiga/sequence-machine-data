@@ -2,7 +2,6 @@
   "description": "Numbers k with property that spelling k in American English requires a new letter of the alphabet.",
   "id": "A050933",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "fini",
@@ -11,7 +10,6 @@
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 0,
     "size": 17,
     "source": "oeis-entry"

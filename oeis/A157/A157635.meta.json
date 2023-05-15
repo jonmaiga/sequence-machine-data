@@ -2,14 +2,12 @@
   "description": "Triangle read by rows: T(n,m) = 1 if n*m*(n-m) = 0, and n*m*(n-m) otherwise.",
   "id": "A157635",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2022-04-27 17:12:21",
     "offset": 0,
     "size": 66,
     "source": "joeis"

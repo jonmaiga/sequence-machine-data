@@ -2,12 +2,10 @@
   "description": "Number of non-isomorphic positions reached for the first time in exactly n quarter-turns exactly on a 3 X 3 X 3 Rubik's Cube.",
   "id": "A096310",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 8,
     "source": "oeis-entry"

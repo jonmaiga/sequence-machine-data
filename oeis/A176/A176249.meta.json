@@ -2,12 +2,10 @@
   "description": "Least a(n) such that (a*2^n)*((a*2^n)-1)-1 is a Sophie Germain prime",
   "id": "A176249",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:00",
     "offset": 1,
     "size": 50,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Inverse of 273rd cyclotomic polynomial.",
   "id": "A014282",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "easy",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-28 13:38:57",
     "offset": 0,
     "size": 81,
     "source": "joeis"

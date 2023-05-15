@@ -2,12 +2,10 @@
   "description": "Number of permutations of 2 copies of 1..n with all adjacent differences <= 6 in absolute value.",
   "id": "A177287",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 12,
     "source": "oeis-entry"

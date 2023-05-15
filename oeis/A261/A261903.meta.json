@@ -2,14 +2,12 @@
   "description": "Sequence found in Pablo Picasso's work \"Poème: Mathématiquement pure image illusoire du ronflement écoeurant ...\"",
   "id": "A261903",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

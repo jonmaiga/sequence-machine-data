@@ -2,14 +2,12 @@
   "description": "a(n)=a(n-2)+64*a(n-3) with a(0)=1, a(1)=4, a(3)=16.",
   "id": "A158761",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 13:13:35",
     "offset": 0,
     "size": 23,
     "source": "joeis"

@@ -2,14 +2,12 @@
   "description": "Numbers such that 71*(a(n)^2) + 71*a(n) + 1 is a square.",
   "id": "A105175",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 17:31:31",
     "offset": 1,
     "size": 12,
     "source": "joeis"

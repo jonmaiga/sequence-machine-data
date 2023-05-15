@@ -2,14 +2,12 @@
   "description": "a(n) is the product of the frequencies of each digit of n up to and including that digit.",
   "id": "A343645",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:17",
     "offset": 1,
     "size": 66,
     "source": "oeis-bfile"

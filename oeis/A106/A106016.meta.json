@@ -2,12 +2,10 @@
   "description": "Primes p such that 14*p - 3 and 14*p + 3 are both primes.",
   "id": "A106016",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:57",
     "offset": 1,
     "size": 48,
     "source": "oeis-bfile"

@@ -1,21 +1,17 @@
 {
-  "description": "a(0)=1, a(n)= Product(k*(k+1)/2+1, k=1..n).",
+  "description": "a(0)=1, a(n)= Product_{k=1..n} k*(k+1)/2+1.",
   "id": "A128814",
   "mentions": [
-    "A000124",
-    "A000142",
-    "A006472"
+    "A000124"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 01:14:06",
     "offset": 0,
-    "size": 17,
+    "size": 20,
     "source": "joeis"
   }
 }

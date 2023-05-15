@@ -13,14 +13,13 @@
     "A333093",
     "A333473"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 0,
     "size": 26,
     "source": "oeis-entry"

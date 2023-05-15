@@ -2,13 +2,11 @@
   "description": "Number of cubes at generation n when building fractal cube with edge ratio of 1/2.",
   "id": "A075886",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 20:35:51",
     "offset": 1,
     "size": 22,
     "source": "joeis"

@@ -2,14 +2,12 @@
   "description": "Let pk[n_]=n!/Product[i, {i, 1, n-Floor[n/2^k]}]. Then a(n) = Sum[Floor[pk[n]/pk[n-1]], {k, 1, 4}].",
   "id": "A088482",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "less",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 81,
     "source": "oeis-entry"

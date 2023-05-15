@@ -2,14 +2,12 @@
   "description": "Totally multiplicative sequence with a(p) = 3p-2 for prime p.",
   "id": "A166669",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "mult",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:49",
     "offset": 1,
     "size": 50,
     "source": "oeis-bfile"

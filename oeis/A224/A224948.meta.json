@@ -2,12 +2,10 @@
   "description": "Leap years having 53 Wednesdays and Thursdays.",
   "id": "A224948",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 43,
     "source": "oeis-entry"

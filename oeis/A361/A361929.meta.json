@@ -1,0 +1,16 @@
+{
+  "description": "a(1) = 2; for n > 1, a(n) is the smallest positive integer > 1 not to share a factor with terms a(n-c .. n-1) where c = gcd(n-1,a(n-1)).",
+  "id": "A361929",
+  "mentions": [
+    "A358921",
+    "A361931"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

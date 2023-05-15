@@ -5,7 +5,6 @@
     "A001113",
     "A069159"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
     "easy",
@@ -13,7 +12,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:10",
     "offset": 1,
     "size": 54,
     "source": "oeis-bfile"

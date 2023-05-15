@@ -2,7 +2,6 @@
   "description": "Decimal expansion of the googol-th prime.",
   "id": "A274767",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "cons",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 103,
     "size": 7,
     "source": "oeis-entry"

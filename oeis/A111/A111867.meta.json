@@ -2,14 +2,12 @@
   "description": "Number of different vowels in the name of n (in Spanish).",
   "id": "A111867",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:02",
     "offset": 1,
     "size": 100,
     "source": "oeis-bfile"

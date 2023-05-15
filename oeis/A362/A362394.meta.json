@@ -1,0 +1,22 @@
+{
+  "description": "Square array T(n,k), n >= 0, k >= 0, read by antidiagonals downwards, where T(n,k) = n! * Sum_{j=0..floor(n/2)} (-k/2)^j * (j+1)^(n-j-1) / (j! * (n-2*j)!).",
+  "id": "A362394",
+  "mentions": [
+    "A000012",
+    "A362277",
+    "A362377",
+    "A362395",
+    "A362396",
+    "A362397"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

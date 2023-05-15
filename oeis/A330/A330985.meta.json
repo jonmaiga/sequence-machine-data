@@ -6,7 +6,6 @@
     "A036036",
     "A067855"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "formulas",
     "more",
@@ -14,7 +13,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 45,
     "source": "oeis-entry"

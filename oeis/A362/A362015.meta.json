@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest positive number that has not yet appeared that, given the list of primes that form the factors of all previous terms a(1)..a(n-1), is a multiple of the prime in that list which is a factor of the fewest previous terms. If two or more such primes exist the smallest is chosen.",
+  "id": "A362015",
+  "mentions": [
+    "A351495",
+    "A352793",
+    "A353026",
+    "A359804",
+    "A361372"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

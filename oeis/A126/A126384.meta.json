@@ -2,13 +2,11 @@
   "description": "Number of base 30 n-digit numbers with adjacent digits differing by one or less.",
   "id": "A126384",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 00:35:42",
     "offset": 0,
     "size": 24,
     "source": "joeis"

@@ -2,14 +2,12 @@
   "description": "Array of Young-Fibonacci numbers for n = 6, read by antidiagonals.",
   "id": "A128868",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn",
     "tabl",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 78,
     "source": "oeis-entry"

@@ -17,14 +17,12 @@
     "A327463",
     "A327464"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:53",
     "offset": 1,
     "size": 72,
     "source": "oeis-bfile"

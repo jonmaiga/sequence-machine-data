@@ -2,14 +2,12 @@
   "description": "Constant term of polynomial of degree n passing through the first n+1 consecutive prime-indexed primes.",
   "id": "A082676",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 34,
     "source": "oeis-entry"

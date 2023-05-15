@@ -2,13 +2,11 @@
   "description": "Expansion of A(x) satisfying A(A(x)) = x+2x^2+4x^3.",
   "id": "A220110",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 27,
     "source": "oeis-entry"

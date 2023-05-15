@@ -5,14 +5,12 @@
     "A000040",
     "A037123"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:36",
     "offset": 1,
     "size": 52,
     "source": "oeis-bfile"

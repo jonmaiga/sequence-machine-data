@@ -2,13 +2,11 @@
   "description": "Theta series of 16-dimensional lattice OBW16, an overlattice of the Barnes-Wall lattice BW16.",
   "id": "A239917",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 0,
     "size": 17,
     "source": "oeis-entry"

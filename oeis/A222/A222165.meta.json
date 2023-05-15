@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of length (n+k)X1 arrays of occupancy after each element moves up to +-k places but not 0 and without 2-loops",
   "id": "A222165",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 45,
     "source": "oeis-entry"

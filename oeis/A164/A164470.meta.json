@@ -2,13 +2,11 @@
   "description": "Number of binary strings of length n with no substrings equal to 0001 0101 or 0111",
   "id": "A164470",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 13:08:29",
     "offset": 4,
     "size": 37,
     "source": "joeis"

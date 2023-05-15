@@ -2,12 +2,10 @@
   "description": "Theta series of lattice A_2 tensor D_3 (dimension 6, det. 432, min. norm 4).",
   "id": "A033701",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:09",
     "offset": 0,
     "size": 46,
     "source": "joeis"

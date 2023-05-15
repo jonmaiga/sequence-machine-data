@@ -1,5 +1,5 @@
 {
-  "description": "Primes p(k) such that p(k)*k+1 is also prime.",
+  "description": "Primes prime(k) such that prime(k)*k+1 is also prime.",
   "id": "A192611",
   "mentions": [
     "A000040",
@@ -7,12 +7,10 @@
     "A086172",
     "A096064"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:16",
     "offset": 1,
     "size": 45,
     "source": "oeis-bfile"

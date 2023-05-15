@@ -2,7 +2,6 @@
   "description": "Numbers n without letters a, i, l or t.",
   "id": "A072954",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "fini",
@@ -11,7 +10,6 @@
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 15,
     "source": "oeis-entry"

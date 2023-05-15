@@ -6,14 +6,12 @@
     "A002161",
     "A060707"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "base",
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:19",
     "offset": 1,
     "size": 70,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Largest possible number of white squares (cells) in an n X n square board such that each cell is either white or red; among the cells adjacent to each white one, the number of white cells is equal to the number of red ones; and for each red cell, the number of adjacent white cells differs from the number of adjacent red cells.",
   "id": "A289362",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"

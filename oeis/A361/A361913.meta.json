@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of steps in the main loop of the Pollard rho integer factorization algorithm for n, with x=2, y=2 and g(x)=x^2-1.",
+  "id": "A361913",
+  "mentions": [
+    "A005563",
+    "A047201",
+    "A217562"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

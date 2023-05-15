@@ -1,15 +1,13 @@
 {
-  "description": "Minimum even value unattainable as the sum of 4 attained values of i*(i-1) with i in 0..n",
+  "description": "Minimum even value unattainable as the sum of 4 attained values of i*(i-1) with i in 0..n.",
   "id": "A225290",
   "mentions": [
     "A225281"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:43",
     "offset": 1,
     "size": 47,
     "source": "oeis-bfile"

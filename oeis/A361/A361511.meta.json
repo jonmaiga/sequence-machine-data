@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1. Thereafter if a(n-1) is a novel term, a(n) = d(a(n-1)); otherwise, if a(n-1) is the t-th non-novel term, a(n) = a(n-1) + d(a(t)), where d is the divisor function A000005.",
+  "id": "A361511",
+  "mentions": [
+    "A000005",
+    "A360179",
+    "A361512",
+    "A361513",
+    "A361514",
+    "A361516",
+    "A362095"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

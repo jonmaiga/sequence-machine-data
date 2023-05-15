@@ -2,12 +2,10 @@
   "description": "Sequence arising in multiprocessor page migration.",
   "id": "A028251",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:36:43",
     "offset": 1,
     "size": 59,
     "source": "joeis"

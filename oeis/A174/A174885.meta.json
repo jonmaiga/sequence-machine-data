@@ -9,14 +9,12 @@
     "A138044",
     "A174825"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 41,
     "source": "oeis-entry"

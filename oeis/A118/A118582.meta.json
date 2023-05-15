@@ -1,15 +1,15 @@
 {
   "description": "Decimal expansion of Sum_{k>=3} 1/(k log k (log log k)^2).",
   "id": "A118582",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:23",
+  "mentions": [
+    "A115563"
+  ],
   "tags": [
     "cons",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 2,
     "size": 15,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Degrees of polynomial on the fermionic side of the finite generalization of identity 46 from Slater's List.",
   "id": "A239767",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:36:21",
     "offset": 0,
     "size": 50,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "Increasing consecutive prime pairs alternating between form 4k+3 and 4k+1.",
   "id": "A108811",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

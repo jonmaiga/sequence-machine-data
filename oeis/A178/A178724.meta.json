@@ -2,13 +2,11 @@
   "description": "Nonnegative integers whose English name has at least one letter in common with the English name of all other integers.",
   "id": "A178724",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 51,
     "source": "oeis-entry"

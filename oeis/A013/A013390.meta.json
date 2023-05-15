@@ -2,13 +2,11 @@
   "description": "tan(arctanh(x)-sin(x)) = 3/3!*x^3 + 23/5!*x^5 + 721/7!*x^7 + 55439/9!*x^9...",
   "id": "A013390",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 04:28:05",
     "offset": 0,
     "size": 14,
     "source": "joeis"

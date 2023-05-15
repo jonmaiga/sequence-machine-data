@@ -2,14 +2,12 @@
   "description": "a(n) = 8*(n-1)*(n-2)*(n-3)*(6*n^2-37*n+60).",
   "id": "A134241",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 11:22:25",
     "offset": 1,
     "size": 28,
     "source": "joeis"

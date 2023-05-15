@@ -2,7 +2,6 @@
   "description": "Breadth-first traversal of a binary tree in which the value at the n-th node is equal to ParentNode()*prime(n-1).",
   "id": "A268878",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:30",
     "offset": 1,
     "size": 39,
     "source": "oeis-bfile"

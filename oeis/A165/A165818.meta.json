@@ -2,13 +2,11 @@
   "description": "Largest integer coprime to n whose binary representation is a substring of the binary representation of n.",
   "id": "A165818",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 86,
     "source": "oeis-entry"

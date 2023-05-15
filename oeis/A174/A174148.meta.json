@@ -2,7 +2,6 @@
   "description": "A symmetrical binomial product triangle sequence:q=2; t(n,m,q)=If[n == 0 || n == 1, 1, Product[Binomial[n + i, m + i], {i, -Floor[q/2], Floor[q/2]}] + Product[Binomial[n + i, n - m + i], {i, -Floor[q/2], Floor[q/2]}]]",
   "id": "A174148",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 51,
     "source": "oeis-entry"

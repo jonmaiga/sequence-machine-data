@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. exp(x*exp(-x*exp(-x))).",
+  "id": "A362275",
+  "mentions": [
+    "A000949",
+    "A362247",
+    "A362273",
+    "A362274"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

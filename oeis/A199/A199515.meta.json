@@ -10,14 +10,12 @@
     "A199155",
     "A199514"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:20",
     "offset": 2,
     "size": 89,
     "source": "oeis-bfile"

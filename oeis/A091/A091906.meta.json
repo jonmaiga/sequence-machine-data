@@ -2,13 +2,11 @@
   "description": "E.g.f.: exp(1-sqrt(3-2*exp(x))).",
   "id": "A091906",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:32",
     "offset": 0,
     "size": 19,
     "source": "joeis"

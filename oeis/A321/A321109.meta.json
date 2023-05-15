@@ -2,12 +2,10 @@
   "description": "O.g.f. satisfies: [x^n/n!] exp( n^2*(n+1)*x - n*(n+1)*A(x) ) = 0, for n >= 1.",
   "id": "A321109",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 17,
     "source": "oeis-entry"

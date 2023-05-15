@@ -1,0 +1,17 @@
+{
+  "description": "Set a(1)=0 and a(2)=1. For n > 1, if a(n) has already appeared in the sequence, then a(n+1) = number of steps since its first appearance. If a(n) has not appeared before, search instead for a(n)-1, then a(n)-2, etc., until you find a number that has appeared before.",
+  "id": "A361614",
+  "mentions": [
+    "A181391",
+    "A328294"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

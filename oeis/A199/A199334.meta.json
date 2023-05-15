@@ -4,9 +4,9 @@
   "mentions": [
     "A000045",
     "A001906",
-    "A014445"
+    "A014445",
+    "A362067"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "formulas",
@@ -14,7 +14,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 0,
     "size": 55,
     "source": "oeis-entry"

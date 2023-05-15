@@ -5,7 +5,6 @@
     "A057946",
     "A132676"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "fini",
@@ -14,7 +13,6 @@
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 33,
     "source": "oeis-entry"

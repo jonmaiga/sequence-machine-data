@@ -2,7 +2,6 @@
   "description": "Integer quartets a(4k)= 2, a(4k+1) = 32*k^2-24*k+3, a(4k+2) = 32*k^2-24*k+2, a(4k+3) = 8*k-3, k>=1.",
   "id": "A162155",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 17:18:05",
     "offset": 4,
     "size": 60,
     "source": "joeis"

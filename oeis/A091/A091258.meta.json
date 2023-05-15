@@ -7,14 +7,12 @@
     "A091259",
     "A091261"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:42",
     "offset": 1,
     "size": 99,
     "source": "oeis-bfile"

@@ -12,15 +12,13 @@
     "A282937",
     "A282941"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:07",
     "offset": 0,
     "size": 98,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

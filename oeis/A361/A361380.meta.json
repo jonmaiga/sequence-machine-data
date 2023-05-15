@@ -1,0 +1,20 @@
+{
+  "description": "Sum over the j-th term of the (n-j)-th inverse binomial transform of the Bell numbers (A000110) for all j in [n].",
+  "id": "A361380",
+  "mentions": [
+    "A000110",
+    "A059841",
+    "A290219",
+    "A347420",
+    "A361781"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

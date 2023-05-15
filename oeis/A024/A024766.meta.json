@@ -2,7 +2,6 @@
   "description": "Every prefix prime in base 6 (written in base 6).",
   "id": "A024766",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 1,
     "size": 36,
     "source": "oeis-entry"

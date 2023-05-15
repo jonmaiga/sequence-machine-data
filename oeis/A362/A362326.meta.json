@@ -1,0 +1,21 @@
+{
+  "description": "Pairs (i, j) of nonnegative integers whose ternary expansions have no common digit 1 sorted first by i + j then by i.",
+  "id": "A362326",
+  "mentions": [
+    "A293974",
+    "A352909",
+    "A362327",
+    "A362328",
+    "A362329"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

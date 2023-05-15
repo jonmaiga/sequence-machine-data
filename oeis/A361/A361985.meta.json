@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1, a(2) = 1; a(n) = n * Sum_{d|n, d < n} (-1)^(n/d) a(d) / d.",
+  "id": "A361985",
+  "mentions": [
+    "A359479",
+    "A359484",
+    "A361984",
+    "A361986"
+  ],
+  "tags": [
+    "changed",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

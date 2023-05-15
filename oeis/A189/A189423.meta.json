@@ -5,13 +5,11 @@
     "A005444",
     "A047974"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:13",
     "offset": 0,
     "size": 21,
     "source": "oeis-bfile"

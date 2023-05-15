@@ -2,13 +2,11 @@
   "description": "a(0) = 0. For n > 0, a(n) = 10^(a(n-1)).",
   "id": "A279540",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "bref",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 0,
     "size": 4,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Decimal expansion of the real number x between 3 and 4 where 2^x = x!.",
   "id": "A202475",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 87,
     "source": "oeis-entry"

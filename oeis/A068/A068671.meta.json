@@ -2,14 +2,12 @@
   "description": "Define f(n,k) = floor[n/k] and a(n) = right concatenation of f(n,k) for k = 1 to int[(n+1)/2] or until one arrives at a 1.",
   "id": "A068671",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 23,
     "source": "oeis-entry"

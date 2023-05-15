@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways of dividing an n X n square into integer-sided rectangles, up to rotations and reflections.",
+  "id": "A361524",
+  "mentions": [
+    "A182275",
+    "A224239",
+    "A360630",
+    "A361523"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

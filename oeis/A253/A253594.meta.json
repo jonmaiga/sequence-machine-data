@@ -2,14 +2,12 @@
   "description": "Numbers n that have more than one palindromic representation in bases 2 <= b <= n-2.",
   "id": "A253594",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:12",
     "offset": 1,
     "size": 80,
     "source": "oeis-bfile"

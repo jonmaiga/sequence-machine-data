@@ -2,14 +2,12 @@
   "description": "3*6^n-1.",
   "id": "A198796",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:19",
     "offset": 0,
     "size": 20,
     "source": "oeis-bfile"

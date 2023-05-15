@@ -2,13 +2,11 @@
   "description": "T(n,m) = Number of ways to partition an nXm grid into 3 connected equal-area regions.",
   "id": "A167259",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 71,
     "source": "oeis-entry"

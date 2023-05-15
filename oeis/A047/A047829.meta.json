@@ -2,12 +2,10 @@
   "description": "Becomes prime after exactly 10 iterations of f(x) = sum of prime factors of x.",
   "id": "A047829",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:02:57",
     "offset": 1,
     "size": 29,
     "source": "joeis"

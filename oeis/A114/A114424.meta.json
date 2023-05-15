@@ -2,13 +2,11 @@
   "description": "Number of partitions of n such that the size of the tail below the Durfee square is equal to the size of the tail to the right of the Durfee square.",
   "id": "A114424",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:04",
     "offset": 1,
     "size": 56,
     "source": "oeis-bfile"

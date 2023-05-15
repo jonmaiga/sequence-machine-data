@@ -1,19 +1,23 @@
 {
-  "description": "Triangle of number of labeled trees by number of nodes and number of labels.",
+  "description": "Triangle read by rows: T(n,k) is the number of partially labeled trees with n nodes, k of which are labeled, 0 <= k <= n.",
   "id": "A034799",
   "mentions": [
+    "A000055",
     "A000081",
+    "A000243",
+    "A000269",
+    "A000485",
+    "A000526",
     "A008295",
-    "A034800"
+    "A034800",
+    "A064785"
   ],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:10",
     "offset": 0,
     "size": 55,
     "source": "joeis"

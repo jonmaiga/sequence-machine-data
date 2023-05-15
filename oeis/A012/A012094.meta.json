@@ -2,12 +2,10 @@
   "description": "E.g.f.: tanh(arcsin(arctan(x))), odd powers only.",
   "id": "A012094",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:19",
     "offset": 0,
     "size": 15,
     "source": "oeis-bfile"

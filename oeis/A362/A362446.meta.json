@@ -1,0 +1,17 @@
+{
+  "description": "Concatenate the terms of A027750 (omitting spaces and commas), chop into blocks of length 5, then omit any leading zeros.",
+  "id": "A362446",
+  "mentions": [
+    "A027750"
+  ],
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

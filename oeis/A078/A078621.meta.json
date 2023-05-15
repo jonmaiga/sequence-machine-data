@@ -2,14 +2,12 @@
   "description": "Values of n such that Sum[ -(-1)^(k) n/k (n-1)/(k+1),{k,1,n}] (n!!) is an integer.",
   "id": "A078621",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 17:19:39",
     "offset": 1,
     "size": 41,
     "source": "joeis"

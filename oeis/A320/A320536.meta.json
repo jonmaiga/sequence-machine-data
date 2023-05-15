@@ -2,13 +2,11 @@
   "description": "a(n) is the least cardinal of a partition of {1..n} into simple paths of its divisorial graph.",
   "id": "A320536",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:43",
     "offset": 1,
     "size": 84,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Numbers of the form 10^a*b^2 or 10^a*b^3.",
   "id": "A073042",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 54,
     "source": "oeis-entry"

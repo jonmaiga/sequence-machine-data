@@ -2,15 +2,14 @@
   "description": "Primes p=prime(i) such that prime(i+3)-prime(i)=12.",
   "id": "A190792",
   "mentions": [
+    "A031165",
     "A078847"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:14",
     "offset": 1,
     "size": 47,
     "source": "oeis-bfile"

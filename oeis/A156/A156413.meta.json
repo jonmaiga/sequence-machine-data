@@ -2,12 +2,10 @@
   "description": "Number of 13 X 13 arrays of squares of integers, symmetric about both diagonal and antidiagonal, with all rows summing to n.",
   "id": "A156413",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 16,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Number of single nodes (exactly one node on that level) for all Motzkin paths of length n.",
   "id": "A088457",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 30,
     "source": "oeis-entry"

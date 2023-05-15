@@ -1,15 +1,14 @@
 {
-  "description": "n - Q(n), where Q(n) is Hofstadter's Q-sequence A005185.",
+  "description": "a(n) = n - Q(n), where Q(n) is Hofstadter's Q-sequence A005185.",
   "id": "A239913",
   "mentions": [
     "A005185"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 74,
     "source": "oeis-entry"

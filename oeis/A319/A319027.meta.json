@@ -2,13 +2,11 @@
   "description": "Number of preimages of 321-avoiding permutations of [n] under West's stack-sorting map.",
   "id": "A319027",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 25,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "a(n) = largest proper divisor of the sum of all positive integers which are <= n and are not included among the first n-1 terms of the sequence.",
   "id": "A129619",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

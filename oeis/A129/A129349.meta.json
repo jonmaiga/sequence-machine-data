@@ -2,13 +2,11 @@
   "description": "Number of directed Hamiltonian circuits in the n-triangular graph.",
   "id": "A129349",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 2,
     "size": 7,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Smallest x such that x^2 + p is a perfect power over the set of primes p.",
   "id": "A115038",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 72,
     "source": "oeis-entry"

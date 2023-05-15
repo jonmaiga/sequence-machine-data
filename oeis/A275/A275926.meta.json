@@ -10,12 +10,10 @@
     "A275927",
     "A276407"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:41",
     "offset": 1,
     "size": 99,
     "source": "oeis-bfile"

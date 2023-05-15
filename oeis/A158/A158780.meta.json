@@ -1,5 +1,5 @@
 {
-  "description": "a(2n) = A131577(n). a(2n+1) = A011782(n).",
+  "description": "a(2n) = A131577(n), a(2n+1) = A011782(n).",
   "id": "A158780",
   "mentions": [
     "A000079",
@@ -30,16 +30,15 @@
     "A354788",
     "A354789"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 18:28:52",
     "offset": 0,
-    "size": 41,
-    "source": "joeis"
+    "size": 47,
+    "source": "oeis-bfile"
   }
 }

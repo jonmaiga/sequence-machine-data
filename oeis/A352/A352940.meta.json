@@ -2,13 +2,11 @@
   "description": "The largest positive integer k such that binomial(k+1,2) <= binomial(n,2)^2.",
   "id": "A352940",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 3,
     "size": 51,
     "source": "oeis-entry"

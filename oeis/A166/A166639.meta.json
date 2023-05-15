@@ -2,14 +2,12 @@
   "description": "a(n) = 6*n + 3 + 4*(-1)^n.",
   "id": "A166639",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:41:03",
     "offset": 0,
     "size": 56,
     "source": "joeis"

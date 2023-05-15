@@ -2,7 +2,6 @@
   "description": "Least composite number k such that there are n digits in the intersection of the sets of digits of k and of the juxtaposition of prime factors of k (apart from multiplicity).",
   "id": "A358003",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 0,
     "size": 11,
     "source": "oeis-entry"

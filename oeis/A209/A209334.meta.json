@@ -2,13 +2,11 @@
   "description": "Table, by rows, of the maximum number of minimal codewords in an [n,k]-code.",
   "id": "A209334",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:28",
     "offset": 1,
     "size": 78,
     "source": "oeis-bfile"

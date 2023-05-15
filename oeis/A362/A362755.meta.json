@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows; the n-th row lists the numbers k such that if phi^e appears in the base phi expansion of k then phi^e also appears in the base phi expansion of n (where phi denotes A001622, the golden ratio).",
+  "id": "A362755",
+  "mentions": [
+    "A001622",
+    "A104605",
+    "A214971",
+    "A361755"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "new",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

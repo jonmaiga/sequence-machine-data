@@ -2,14 +2,12 @@
   "description": "Start with 2 and concatenate (\"absorb\") the next prime; continually repeat this procedure.",
   "id": "A067823",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "E.g.f.: arcsin(x) o x/(1-x) o sin(x), a composition of functions involving sin(x) and its inverse.",
   "id": "A200560",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:21",
     "offset": 1,
     "size": 21,
     "source": "oeis-bfile"

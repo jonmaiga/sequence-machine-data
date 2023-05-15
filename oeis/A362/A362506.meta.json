@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least x >= 0 such that A362505(n) = x * y for some y with the same set of decimal digits as x.",
+  "id": "A362506",
+  "mentions": [
+    "A362505"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

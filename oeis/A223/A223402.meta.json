@@ -2,14 +2,12 @@
   "description": "T(n,k)=4X4 square grid graph coloring a rectangular array: number of nXk 0..15 arrays where 0..15 label nodes of the square grid graph and every array movement to a horizontal or vertical neighbor moves along an edge of this graph",
   "id": "A223402",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:41",
     "offset": 1,
     "size": 33,
     "source": "oeis-bfile"

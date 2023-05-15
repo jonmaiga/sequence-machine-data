@@ -2,12 +2,10 @@
   "description": "Number of planar n X n X n binary triangular grids with mirror symmetry about one altitude with no more than 4 ones in any 3 X 3 X 3 subtriangle.",
   "id": "A153930",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 19,
     "source": "oeis-entry"

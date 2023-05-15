@@ -1,0 +1,18 @@
+{
+  "description": "Number of numbers k, 1 <= k <= n, such that phi(k) = phi(n-k+1).",
+  "id": "A362719",
+  "mentions": [
+    "A000010"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

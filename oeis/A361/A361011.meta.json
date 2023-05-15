@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of conventional value of ampere-90 (A_{90}).",
+  "id": "A361011",
+  "mentions": [
+    "A248508",
+    "A248510"
+  ],
+  "tags": [
+    "cons",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

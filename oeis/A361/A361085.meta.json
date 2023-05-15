@@ -1,0 +1,20 @@
+{
+  "description": "Least prime p > prime(n) such that at least one of p * prime(n)# +- 1 is not squarefree, where prime(n)# is the n-th primorial A002110(n).",
+  "id": "A361085",
+  "mentions": [
+    "A002110",
+    "A007018",
+    "A013929",
+    "A228649"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

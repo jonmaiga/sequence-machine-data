@@ -9,7 +9,6 @@
     "A109308",
     "A109309"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "look",
@@ -17,7 +16,6 @@
     "unsolved"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:02",
     "offset": 1,
     "size": 39,
     "source": "oeis-bfile"

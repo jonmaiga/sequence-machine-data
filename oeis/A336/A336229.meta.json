@@ -2,13 +2,11 @@
   "description": "Nonisomorphic n-element posets whose order polynomial factors into linear factors over the rationals.",
   "id": "A336229",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

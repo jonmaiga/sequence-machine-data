@@ -2,14 +2,12 @@
   "description": "Final nonzero digit of n^n in base 6.",
   "id": "A204816",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:58",
     "offset": 0,
     "size": 85,
     "source": "joeis"

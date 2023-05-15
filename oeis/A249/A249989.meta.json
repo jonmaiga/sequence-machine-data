@@ -2,12 +2,10 @@
   "description": "Numbers representable as x^y * y + y, where x>1 and y>1 are integers.",
   "id": "A249989",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 46,
     "source": "oeis-entry"

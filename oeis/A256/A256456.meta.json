@@ -2,12 +2,10 @@
   "description": "Number of simple 2n-gons with only right angles, disregarding edge lengths.",
   "id": "A256456",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:14",
     "offset": 1,
     "size": 29,
     "source": "oeis-bfile"

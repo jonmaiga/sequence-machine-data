@@ -4,7 +4,6 @@
   "mentions": [
     "A003676"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "cons",
     "fini",
@@ -13,7 +12,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": -66,
     "size": 18,
     "source": "oeis-entry"

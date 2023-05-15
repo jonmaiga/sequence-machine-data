@@ -5,13 +5,11 @@
     "A156634",
     "A208681"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "frac",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:38",
     "offset": 0,
     "size": 17,
     "source": "oeis-bfile"

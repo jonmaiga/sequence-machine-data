@@ -1,0 +1,17 @@
+{
+  "description": "Square array A(n, k) of distinct positive integers, n, k > 0, read and filled by upwards antidiagonals in the greedy way such that A(n, k) is a multiple of A(n, 1).",
+  "id": "A361926",
+  "mentions": [
+    "A361748",
+    "A361940"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

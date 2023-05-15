@@ -7,16 +7,14 @@
     "A096494",
     "A320471"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 0,
     "size": 72,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

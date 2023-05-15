@@ -2,7 +2,6 @@
   "description": "Number of musical scales consisting of n notes.",
   "id": "A035495",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "fini",
     "formulas",
@@ -11,7 +10,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 0,
     "size": 13,
     "source": "oeis-entry"

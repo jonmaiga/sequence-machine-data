@@ -2,12 +2,10 @@
   "description": "Numbers of the form : p1^p2-p2^p1, p1 and p2 twin primes.",
   "id": "A143776",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

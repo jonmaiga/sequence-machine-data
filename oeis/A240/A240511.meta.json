@@ -2,7 +2,6 @@
   "description": "Numbers that are equal to the sum of their digits raised to each power from 1 to the number of digits.",
   "id": "A240511",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:57",
     "offset": 1,
     "size": 24,
     "source": "oeis-bfile"

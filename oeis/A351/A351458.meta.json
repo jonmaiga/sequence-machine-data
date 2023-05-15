@@ -21,13 +21,11 @@
     "A351548",
     "A351549"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn",
     "unsolved"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:26",
     "offset": 1,
     "size": 36,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Numbers n such that R(n)^3 + R(n)^2 + 1 is prime, where R(n)=(10^n-1)/9.",
   "id": "A181139",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

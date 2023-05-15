@@ -2,12 +2,10 @@
   "description": "a(n) is the average of the smallest prime greater than n and largest prime smaller than n + prime(n).",
   "id": "A155215",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:37",
     "offset": 1,
     "size": 59,
     "source": "oeis-bfile"

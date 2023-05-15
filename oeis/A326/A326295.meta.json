@@ -2,7 +2,6 @@
   "description": "a(n) = decimal concatenation of n,a(n-1),a(n-2),...,a(1).",
   "id": "A326295",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

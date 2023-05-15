@@ -2,13 +2,11 @@
   "description": "Numbers that are divisible by the sum of the squares of their digits when alternately added and subtracted starting from units (rightmost).",
   "id": "A221638",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:39",
     "offset": 1,
     "size": 60,
     "source": "oeis-bfile"

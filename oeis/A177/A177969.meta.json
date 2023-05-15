@@ -2,13 +2,11 @@
   "description": "Continued fraction of Ai(1) (where Ai is the first Airy function).",
   "id": "A177969",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 98,
     "source": "oeis-entry"

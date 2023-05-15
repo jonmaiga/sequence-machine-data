@@ -2,14 +2,12 @@
   "description": "The unique set of ten distinct positive numbers up to 35 the sum of whose reciprocals of squares is 1/2.",
   "id": "A240732",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

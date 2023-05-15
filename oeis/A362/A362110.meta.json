@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the smallest integer k such that n can be expressed as the arithmetic mean of k distinct nonzero squares, or 0 if no such k exists.",
+  "id": "A362110",
+  "mentions": [
+    "A001422",
+    "A033461",
+    "A129210",
+    "A132777",
+    "A248509",
+    "A360530"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

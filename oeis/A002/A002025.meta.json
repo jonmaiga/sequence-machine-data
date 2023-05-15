@@ -17,14 +17,12 @@
     "A233553",
     "A259180"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "formulas",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:03",
     "offset": 1,
     "size": 32,
     "source": "oeis-bfile"

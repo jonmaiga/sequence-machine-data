@@ -2,13 +2,11 @@
   "description": "a(1) = 1, a(n) = smallest positive number such that the concatenation of a(n-1) and a(n) is a triangular number not obtained earlier.",
   "id": "A081847",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:33",
     "offset": 1,
     "size": 65,
     "source": "oeis-bfile"

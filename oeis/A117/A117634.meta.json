@@ -2,13 +2,11 @@
   "description": "a(0)=0. a(n) = a(n-1) + 1 + (number of positive integers which are <= n and are missing from {a(0),a(1),a(2),...a(n-1)}).",
   "id": "A117634",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 55,
     "source": "oeis-entry"

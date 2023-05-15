@@ -2,12 +2,10 @@
   "description": "Number of n X n symmetric binary matrices with each 1 adjacent to no more than 3 horizontally, vertically or diagonally neighboring 1s",
   "id": "A191602",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:15",
     "offset": 1,
     "size": 14,
     "source": "oeis-bfile"

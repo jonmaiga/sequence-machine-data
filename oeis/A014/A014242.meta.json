@@ -2,12 +2,10 @@
   "description": "(n-th Fibonacci number that is not 1) - (n-th number that is 1 or not a Fibonacci number).",
   "id": "A014242",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:21",
     "offset": 1,
     "size": 33,
     "source": "oeis-bfile"

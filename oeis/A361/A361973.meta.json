@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of twice the Champernowne constant.",
+  "id": "A361973",
+  "mentions": [
+    "A007376",
+    "A033307"
+  ],
+  "tags": [
+    "base",
+    "cons",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-entry"
+  }
+}

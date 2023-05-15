@@ -2,13 +2,11 @@
   "description": "Consider the concatenation of a(n) and a(n+1) as the integer A; consider the concatenation of the last digit of a(n) and the first digit of a(n+1) as the integer B. Now A is divisible by B.",
   "id": "A300819",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:25",
     "offset": 1,
     "size": 75,
     "source": "oeis-bfile"

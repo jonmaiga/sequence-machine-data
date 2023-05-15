@@ -9,15 +9,14 @@
     "A037610",
     "A191597"
   ],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
+    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:48",
     "offset": 1,
     "size": 23,
     "source": "oeis-bfile"

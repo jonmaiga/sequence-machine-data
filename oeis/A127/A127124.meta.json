@@ -2,13 +2,11 @@
   "description": "Number of endofunctions whose component sizes form the n-th partition in Mathematica order.",
   "id": "A127124",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 80,
     "source": "oeis-entry"

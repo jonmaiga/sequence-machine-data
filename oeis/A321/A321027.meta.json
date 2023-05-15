@@ -7,12 +7,10 @@
     "A320098",
     "A321026"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:43",
     "offset": 0,
     "size": 36,
     "source": "oeis-bfile"

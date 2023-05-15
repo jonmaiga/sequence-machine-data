@@ -2,12 +2,10 @@
   "description": "Smallest integer m > 0 such that p(n) + m*p(n + 1) and m*p(n) + p(n + 1) are prime, p(n) = n-th prime.",
   "id": "A229980",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:47",
     "offset": 1,
     "size": 101,
     "source": "oeis-bfile"

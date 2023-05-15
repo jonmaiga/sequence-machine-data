@@ -2,13 +2,11 @@
   "description": "Count of numbers <= 10^n with no prime factor greater than n.",
   "id": "A355412",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 1,
     "size": 30,
     "source": "oeis-entry"

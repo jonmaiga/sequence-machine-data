@@ -6,7 +6,6 @@
     "A226080",
     "A242359"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "easy",
     "frac",
@@ -14,7 +13,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:58",
     "offset": 1,
     "size": 77,
     "source": "oeis-bfile"

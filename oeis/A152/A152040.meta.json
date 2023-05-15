@@ -2,7 +2,6 @@
   "description": "Decimal expansion of an \"almost\" BBP type solution in base 20: a=Sum[(1/20^n)*(4/(10*n + 1) + (-2)/(10*n + 2) + (-3)/(10*n + 7) + 5/(10*n + 9)), {n, 0, Infinity}].",
   "id": "A152040",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "cons",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

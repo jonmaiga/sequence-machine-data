@@ -2,13 +2,11 @@
   "description": "Differences between adjacent digits of golden ratio phi.",
   "id": "A095943",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 100,
     "source": "oeis-entry"

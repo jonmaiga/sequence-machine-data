@@ -8,13 +8,11 @@
     "A023230",
     "A023239"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 48,
     "source": "oeis-entry"

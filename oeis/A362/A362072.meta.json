@@ -1,0 +1,21 @@
+{
+  "description": "Antidiagonal sums of A336225.",
+  "id": "A362072",
+  "mentions": [
+    "A003991",
+    "A007953",
+    "A336225",
+    "A353128"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

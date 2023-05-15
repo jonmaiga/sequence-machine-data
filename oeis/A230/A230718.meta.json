@@ -2,12 +2,10 @@
   "description": "Smallest n-th power equal to a sum of some consecutive, immediately preceding, positive n-th powers, or 0 if none.",
   "id": "A230718",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 0,
     "size": 87,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Smallest k such that floor(k*e) begins with n (e = 2.718281828...)",
   "id": "A078219",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 65,
     "source": "oeis-entry"

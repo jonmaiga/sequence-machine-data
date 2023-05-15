@@ -2,14 +2,12 @@
   "description": "Sequence from expansion of Cartan E_11 12 state root sum zero characteristic polynomial: p(x)=1/(-1 + 274 x^2 - 3480 x^3 + 21205 x^4 - 76696 x^5 + 175891x^6 - 259324 x^7 + 240551 x^8 - 131824 x^9 + 37101 x^10 - 3676 x^11 - 44 x^12).",
   "id": "A143076",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 17,
     "source": "oeis-entry"

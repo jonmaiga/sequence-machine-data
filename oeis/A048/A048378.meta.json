@@ -2,13 +2,11 @@
   "description": "Divisible by the concatenation of its first digit-differences (leading zeros allowed).",
   "id": "A048378",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:20",
     "offset": 1,
     "size": 61,
     "source": "joeis"

@@ -2,15 +2,13 @@
   "description": "Theta series of laminated lattice LAMBDA_13^{mid}.",
   "id": "A006916",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
-    "more",
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 0,
-    "size": 11,
-    "source": "oeis-entry"
+    "size": 28,
+    "source": "oeis-bfile"
   }
 }

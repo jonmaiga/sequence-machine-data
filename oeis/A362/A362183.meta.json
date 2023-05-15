@@ -1,0 +1,20 @@
+{
+  "description": "Unitary highly cototient numbers: numbers k that have more solutions x to the equation A323410(x) = k than any smaller k.",
+  "id": "A362183",
+  "mentions": [
+    "A097942",
+    "A100827",
+    "A323410",
+    "A361968",
+    "A362181",
+    "A362184"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

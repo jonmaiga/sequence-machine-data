@@ -4,7 +4,6 @@
   "mentions": [
     "A059680"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "nice",
@@ -12,7 +11,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 4,
     "size": 64,
     "source": "oeis-entry"

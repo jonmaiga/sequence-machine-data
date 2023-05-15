@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of -k..k arrays x(0..n-1) of n elements with zero sum and no two neighbors equal",
   "id": "A199704",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:20",
     "offset": 1,
     "size": 58,
     "source": "oeis-bfile"

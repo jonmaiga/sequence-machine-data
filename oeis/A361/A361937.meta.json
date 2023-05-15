@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k with record values of the ratio A000005(k)/A246600(k) between the total number of divisors of k and the number of divisors d of k such that the bitwise OR of k and d is equal to k.",
+  "id": "A361937",
+  "mentions": [
+    "A000005",
+    "A246600",
+    "A307870",
+    "A335832",
+    "A355670",
+    "A359080",
+    "A359082",
+    "A359083",
+    "A361807"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

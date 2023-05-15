@@ -2,13 +2,11 @@
   "description": "Delete all letters except i, v, x, l, c, d and m from n (in French) and read as a Roman numeral if possible, otherwise 0.",
   "id": "A126582",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 21,
     "source": "oeis-entry"

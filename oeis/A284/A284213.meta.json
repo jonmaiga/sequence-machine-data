@@ -2,13 +2,11 @@
   "description": "The successive digits of the sequence are the same digits that have a nonprime rank in the sequence.",
   "id": "A284213",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 69,
     "source": "oeis-entry"

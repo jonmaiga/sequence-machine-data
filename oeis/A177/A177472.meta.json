@@ -2,13 +2,11 @@
   "description": "Avoiding the pattern 11'2'2.To avoid 11'2'2 means not to have four consecutive letters such that the first letter is less than the last one and the second letter is less than the third one.",
   "id": "A177472",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

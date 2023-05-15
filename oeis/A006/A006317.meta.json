@@ -2,13 +2,11 @@
   "description": "Maximum number of chess queens of 3 colors on an n X n board such that no queen attacks or protects another queen of its color.",
   "id": "A006317",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 1,
     "size": 23,
     "source": "oeis-entry"

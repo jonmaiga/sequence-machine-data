@@ -8,13 +8,11 @@
     "A039802",
     "A039804"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "look",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:50",
     "offset": 4,
     "size": 62,
     "source": "oeis-bfile"

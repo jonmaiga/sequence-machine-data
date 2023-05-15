@@ -2,7 +2,6 @@
   "description": "Recursive triangular symmetrical sequence: A(n,k) := (n - k + 1)A(n - 1, k - 1) + (k)* A(n - 1, k) - (n + 1)*A(n - 2, k - 1).",
   "id": "A153479",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 55,
     "source": "oeis-entry"

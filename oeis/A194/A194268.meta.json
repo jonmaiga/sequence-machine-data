@@ -1,5 +1,5 @@
 {
-  "description": "8*n^2 + 7*n + 1.",
+  "description": "a(n) = 8*n^2 + 7*n + 1.",
   "id": "A194268",
   "mentions": [
     "A000217",
@@ -9,14 +9,12 @@
     "A139098",
     "A194431"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:17",
     "offset": 0,
     "size": 43,
     "source": "oeis-bfile"

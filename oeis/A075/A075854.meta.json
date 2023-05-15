@@ -2,7 +2,6 @@
   "description": "Smallest integer composed of digits 1..n such that no subsequence is repeated and every possible subsequence of length 2 appears.",
   "id": "A075854",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "fini",
@@ -11,7 +10,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

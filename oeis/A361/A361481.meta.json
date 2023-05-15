@@ -1,0 +1,18 @@
+{
+  "description": "Distinct values of A361478, in order of appearance.",
+  "id": "A361481",
+  "mentions": [
+    "A361478",
+    "A361482"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

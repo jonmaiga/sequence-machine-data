@@ -2,13 +2,11 @@
   "description": "The alternating group A_n contains an element x which is not conjugate to its inverse (equivalently not all the entries in the character table of A_n are real numbers).",
   "id": "A061094",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-28 11:08:27",
     "offset": 1,
     "size": 71,
     "source": "joeis"

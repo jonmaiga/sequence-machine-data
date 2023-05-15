@@ -2,14 +2,12 @@
   "description": "Decimal expansion of Planck angular frequency in Hertz with six proved digits: 1.85492 * 10^43 Hz.",
   "id": "A235995",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

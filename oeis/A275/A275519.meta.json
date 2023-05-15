@@ -5,7 +5,6 @@
     "A275515",
     "A275516"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "cons",
     "formulas",
@@ -13,7 +12,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

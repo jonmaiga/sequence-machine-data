@@ -1,0 +1,18 @@
+{
+  "description": "Number of primes in the interval [2^n, 2^n + n].",
+  "id": "A361690",
+  "mentions": [
+    "A000720",
+    "A036378",
+    "A143537"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

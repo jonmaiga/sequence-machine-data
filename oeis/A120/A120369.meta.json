@@ -2,14 +2,12 @@
   "description": "a(n) = smallest value of k such that n*k^(1/n) >= (n+1)*k^(1/(n+1)).",
   "id": "A120369",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 26,
     "source": "oeis-entry"

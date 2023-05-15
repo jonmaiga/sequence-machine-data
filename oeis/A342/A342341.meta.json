@@ -33,12 +33,10 @@
     "A342340",
     "A342342"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:15",
     "offset": 0,
     "size": 67,
     "source": "oeis-bfile"

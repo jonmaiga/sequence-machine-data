@@ -2,14 +2,12 @@
   "description": "Numbers n such that the sum of the decimal portions of the square root and cube root of n is less than 1.",
   "id": "A099402",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 68,
     "source": "oeis-entry"

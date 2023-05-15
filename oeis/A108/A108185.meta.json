@@ -2,14 +2,12 @@
   "description": "Number of Cantorian n X n matrices over a 2-letter alphabet.",
   "id": "A108185",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "hard",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

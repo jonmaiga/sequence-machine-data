@@ -2,13 +2,11 @@
   "description": "a(1) = a(2) = 1. For n >=3, a(n) = the a(n-2)th integer, among those positive integers which are missing from the first (m-1) terms of the sequence, below a(n-1) if such a positive integer exists. Otherwise, a(n) = the a(n-2)th integer, among those positive integers which are missing from the first (m-1) terms of the sequence, above a(n-1).",
   "id": "A118627",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 48,
     "source": "oeis-entry"

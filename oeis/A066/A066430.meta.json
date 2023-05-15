@@ -2,12 +2,10 @@
   "description": "a(n) = 8^n mod n^8.",
   "id": "A066430",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 15:40:09",
     "offset": 1,
     "size": 24,
     "source": "joeis"

@@ -2,14 +2,12 @@
   "description": "A spider's web: Chronological order of 27 rays in a triangle.",
   "id": "A185126",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 27,
     "source": "oeis-entry"

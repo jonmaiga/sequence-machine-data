@@ -2,14 +2,12 @@
   "description": "Degrees of irreducible representations of Thompson group Th.",
   "id": "A003916",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:05",
     "offset": 1,
     "size": 26,
     "source": "oeis-bfile"

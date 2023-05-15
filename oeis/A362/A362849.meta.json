@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, T(n, k) = A243664(n) * binomial(n, k).",
+  "id": "A362849",
+  "mentions": [
+    "A055372",
+    "A243664",
+    "A278073",
+    "A362585",
+    "A362586"
+  ],
+  "tags": [
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

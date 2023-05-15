@@ -2,13 +2,11 @@
   "description": "Denominators of power series solution to differential equation diff(diff(y(t),t),t)+t*y(t) = 0, with initial conditions y(0)=1, Dy(0)=1/2.",
   "id": "A318918",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:40",
     "offset": 0,
     "size": 28,
     "source": "oeis-bfile"

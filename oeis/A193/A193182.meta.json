@@ -2,14 +2,12 @@
   "description": "Decimal expansion of the integral over x/(1+x^6*sinh^2 x) from x=0 to infinity.",
   "id": "A193182",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "cons",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 0,
     "size": 70,
     "source": "oeis-entry"

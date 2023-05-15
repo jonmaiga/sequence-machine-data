@@ -2,12 +2,10 @@
   "description": "a(n) is the coefficient of the term a^(-n) in the asymptotic series for the least positive zero of the generalized Rogers-Ramanujan continued fraction.",
   "id": "A050203",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-27 14:42:57",
     "offset": 1,
     "size": 24,
     "source": "joeis"

@@ -22,7 +22,6 @@
     "A275982",
     "A275983"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "cons",
     "easy",
@@ -32,7 +31,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:41",
     "offset": 13395,
     "size": 105,
     "source": "oeis-bfile"

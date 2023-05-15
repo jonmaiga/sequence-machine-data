@@ -1,0 +1,17 @@
+{
+  "description": "Odd numbers which cannot be expressed as p + q*(q+1) where p and q are primes.",
+  "id": "A360929",
+  "mentions": [
+    "A046927",
+    "A360930"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

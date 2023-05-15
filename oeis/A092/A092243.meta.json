@@ -8,13 +8,11 @@
     "A269738",
     "A269739"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:43",
     "offset": 1,
     "size": 105,
     "source": "oeis-bfile"

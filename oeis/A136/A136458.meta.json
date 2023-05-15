@@ -2,7 +2,6 @@
   "description": "Triangle of coefficients of the characteristic polynomial of a bi-orthogonal n X n matrix: h(i,j) = If[i - j == 0, 1, If[Abs[i - j] - n/2 == 0, -1, 0]];i,j<=n; example n=4: {{1, 0, -1, 0}, {0, 1, 0, -1}, {-1, 0, 1, 0}, {0, -1, 0, 1}}.",
   "id": "A136458",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

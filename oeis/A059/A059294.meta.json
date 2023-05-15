@@ -2,12 +2,10 @@
   "description": "2-boustrophedon transform applied to 1, 0, 0, 0, ...",
   "id": "A059294",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-10-18 14:56:43",
     "offset": 0,
     "size": 22,
     "source": "joeis"

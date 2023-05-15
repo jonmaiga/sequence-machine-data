@@ -15,7 +15,6 @@
     "A258150",
     "A278717"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "easy",
     "formulas",
@@ -23,7 +22,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 2,
     "size": 66,
     "source": "oeis-entry"

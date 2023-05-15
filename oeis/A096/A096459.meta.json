@@ -18,13 +18,11 @@
     "A070445",
     "A070451"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:47",
     "offset": 1,
     "size": 95,
     "source": "oeis-bfile"

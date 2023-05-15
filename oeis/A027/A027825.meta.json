@@ -2,12 +2,10 @@
   "description": "If there were a unimodular 25-dimensional lattice with minimal norm 3, it would have this as the theta series of its shadow. Unfortunately, no such lattice exists.",
   "id": "A027825",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 0,
     "size": 13,
     "source": "oeis-entry"

@@ -2,7 +2,6 @@
   "description": "Expansion of a rational g.f., see formula.",
   "id": "A135645",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

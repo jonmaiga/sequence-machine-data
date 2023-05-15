@@ -2,13 +2,11 @@
   "description": "Number of 2-tournaments on n nodes.",
   "id": "A006475",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "bref",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 4,
     "size": 3,
     "source": "oeis-entry"

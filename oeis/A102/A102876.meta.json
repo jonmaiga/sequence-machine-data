@@ -2,13 +2,11 @@
   "description": "List of numbered two-way cross-town streets in Manhattan.",
   "id": "A102876",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 19,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Average k of twin primes such that k = p1^2 + p2^3, where p1 and p2 are consecutive primes, and p1 < p2.",
   "id": "A138717",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

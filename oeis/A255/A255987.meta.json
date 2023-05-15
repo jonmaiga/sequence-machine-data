@@ -2,13 +2,11 @@
   "description": "Decimal expansion of sum_{m,n >= 1} (-1)^(m + n)*log(m)*log(n)/(m*n*(m + n)).",
   "id": "A255987",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 0,
     "size": 106,
     "source": "oeis-entry"

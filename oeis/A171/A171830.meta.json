@@ -2,7 +2,6 @@
   "description": "Triangle T(n, k) = (n+2)*c(n+2)*f(n+2)/(f(n-k+1)*f(k+1)) where f(n) = c(n)/(n*c(n-1)), c(n) = (n-3)! for n>2 and 1 otherwise, read by rows.",
   "id": "A171830",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
@@ -11,7 +10,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:55",
     "offset": 0,
     "size": 45,
     "source": "oeis-bfile"

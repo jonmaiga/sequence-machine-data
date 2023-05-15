@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = S(5,n), where S(r,n) = Sum_{k = 0..floor(n/2)} ( binomial(n,k) - binomial(n,k-1) )^r.",
+  "id": "A361887",
+  "mentions": [
+    "A003161",
+    "A003162",
+    "A008315",
+    "A120730",
+    "A183069",
+    "A357824",
+    "A361888",
+    "A361889",
+    "A361890",
+    "A361891",
+    "A361892"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

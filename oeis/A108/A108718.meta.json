@@ -2,14 +2,12 @@
   "description": "Longest sequence of distinct integers such that the length of the n-th term is given by the n-th digit of the sequence itself.",
   "id": "A108718",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 62,
     "source": "oeis-entry"

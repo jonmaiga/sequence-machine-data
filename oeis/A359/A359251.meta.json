@@ -1,0 +1,14 @@
+{
+  "description": "Sum of terms in an odd-even expansion of n.",
+  "id": "A359251",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

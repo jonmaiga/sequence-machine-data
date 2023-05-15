@@ -1,0 +1,19 @@
+{
+  "description": "a(0)=0. For each digit d in the sequence, append the smallest unused integer such that its last digit equals d.",
+  "id": "A362551",
+  "mentions": [
+    "A106001",
+    "A362371"
+  ],
+  "tags": [
+    "base",
+    "changed",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

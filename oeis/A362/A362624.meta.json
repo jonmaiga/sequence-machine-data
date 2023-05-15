@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{d|n, gcd(d,n/d)=1} psi(d), where psi is the Dedekind psi function (A001615).",
+  "id": "A362624",
+  "mentions": [
+    "A001615",
+    "A034444",
+    "A060648"
+  ],
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

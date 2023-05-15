@@ -2,12 +2,10 @@
   "description": "a(1) = 0; for n>1, a(n) is one more than the value of the sequence at index the number of times a(n-1) has previously appeared in the sequence.",
   "id": "A239281",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:56",
     "offset": 1,
     "size": 100,
     "source": "oeis-bfile"

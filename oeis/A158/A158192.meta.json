@@ -2,14 +2,12 @@
   "description": "Prime numbers p such that first digit of p = largest digit of p - smallest digit of p.",
   "id": "A158192",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 43,
     "source": "oeis-entry"

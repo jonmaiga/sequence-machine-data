@@ -8,14 +8,11 @@
     "A130665",
     "A360189"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:44:24",
     "offset": 1,
     "size": 47,
     "source": "oeis-bfile"

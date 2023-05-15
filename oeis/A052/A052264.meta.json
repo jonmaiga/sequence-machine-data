@@ -8,15 +8,12 @@
     "A006148",
     "A028657"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:44:22",
     "offset": 0,
     "size": 25,
     "source": "oeis-bfile"

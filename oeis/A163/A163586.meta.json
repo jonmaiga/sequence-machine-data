@@ -2,13 +2,11 @@
   "description": "Prime helix with extended Ulam spirals, with primes at the center. Each of these is the center of its extended Ulam spiral until it bifurcates into the next twin prime on the main diagonal with 4n^2-2n+p",
   "id": "A163586",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

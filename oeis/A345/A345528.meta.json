@@ -6,14 +6,12 @@
     "A071612",
     "A217614"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

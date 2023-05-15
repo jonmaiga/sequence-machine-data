@@ -2,14 +2,12 @@
   "description": "a(n) = 30*n + 19.",
   "id": "A156376",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 20:06:55",
     "offset": 0,
     "size": 49,
     "source": "joeis"

@@ -11,13 +11,11 @@
     "A046326",
     "A046327"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:31:01",
     "offset": 1,
     "size": 17,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "Decimal expansion of Hausdorff dimension of E_{1,2}: set of irrationals whose continued fraction expansion consists only of 1's and 2's.",
   "id": "A279903",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 0,
     "size": 100,
     "source": "oeis-entry"

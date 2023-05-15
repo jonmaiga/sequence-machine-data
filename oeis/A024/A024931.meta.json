@@ -2,12 +2,10 @@
   "description": "a(n) = sum of remainders of n mod 2,4,6,...,2k, where k = [ n/2 ].",
   "id": "A024931",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:25:49",
     "offset": 2,
     "size": 66,
     "source": "joeis"

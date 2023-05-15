@@ -2,13 +2,11 @@
   "description": "Number of n-move king paths on 8x8 board from given corner to same corner.",
   "id": "A025596",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:34",
     "offset": 0,
     "size": 25,
     "source": "oeis-bfile"

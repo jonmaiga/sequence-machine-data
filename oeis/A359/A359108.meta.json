@@ -2,18 +2,18 @@
   "description": "a(n) = A128899(2*n, n) = 2*binomial(4*n - 1, 3*n) for n >= 1 and a(0) = 1.",
   "id": "A359108",
   "mentions": [
+    "A000108",
     "A005810",
     "A128899",
     "A224274"
   ],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 0,
     "size": 22,
     "source": "oeis-entry"

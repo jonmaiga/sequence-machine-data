@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. exp(-x * sqrt(1-4*x)).",
+  "id": "A362161",
+  "mentions": [
+    "A362158"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
+  }
+}

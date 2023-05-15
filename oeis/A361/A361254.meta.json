@@ -1,0 +1,21 @@
+{
+  "description": "Number of n-regular graphs on 2*n labeled nodes.",
+  "id": "A361254",
+  "mentions": [
+    "A001223",
+    "A059441",
+    "A295193",
+    "A339847",
+    "A339987",
+    "A360437"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

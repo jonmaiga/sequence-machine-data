@@ -12,12 +12,10 @@
     "A300704",
     "A300706"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:25",
     "offset": 0,
     "size": 76,
     "source": "oeis-bfile"

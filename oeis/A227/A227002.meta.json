@@ -2,12 +2,10 @@
   "description": "Number of integer solutions to n = f(x,y,z) = x*(x-y)*(x-z) + y*(y-z)*(y-x) + z*(z-x)*(z-y) with 0 <= x <= y <= z.",
   "id": "A227002",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:44",
     "offset": 1,
     "size": 87,
     "source": "oeis-bfile"

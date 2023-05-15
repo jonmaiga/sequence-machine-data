@@ -2,13 +2,11 @@
   "description": "a(n) is the smallest b for which the base-b representation of n contains a digit greater than 9.",
   "id": "A270036",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:32",
     "offset": 10,
     "size": 60,
     "source": "oeis-bfile"

@@ -2,7 +2,6 @@
   "description": "Five-digit mountain-type primes that increase to and decrease from the central digit, including palindromes.",
   "id": "A156116",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "easy",
@@ -11,7 +10,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:38",
     "offset": 1,
     "size": 36,
     "source": "oeis-bfile"

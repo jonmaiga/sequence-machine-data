@@ -10,14 +10,12 @@
     "A186072",
     "A186073"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "base",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 82,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "The first member p of a triple (p,q,r) of consecutive primes such that a solution to p/q < r/s < q/r or p/q > r/s > q/r with s prime exists.",
   "id": "A107664",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 56,
     "source": "oeis-entry"

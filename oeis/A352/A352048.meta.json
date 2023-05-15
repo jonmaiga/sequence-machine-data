@@ -13,15 +13,14 @@
     "A352055",
     "A352056"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 52,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

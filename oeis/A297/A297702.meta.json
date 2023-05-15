@@ -2,12 +2,10 @@
   "description": "Number of length-n binary strings where every prefix is either a palindrome, or the concatenation of two palindromes.",
   "id": "A297702",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 0,
     "size": 55,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Number of Turing machines with n states following the standard formalism of the busy beaver problem where the head of a Turing machine either moves to the right or to the left, but none once halted.",
   "id": "A141475",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:30",
     "offset": 0,
     "size": 10,
     "source": "oeis-bfile"

@@ -2,14 +2,12 @@
   "description": "Least number k such that k^n + (k-1)^n + ... + 3^n + 2^n is prime, or 0 if no such k exists.",
   "id": "A241070",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

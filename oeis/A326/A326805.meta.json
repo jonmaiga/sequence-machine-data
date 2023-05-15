@@ -2,13 +2,11 @@
   "description": "a(n) = floor( Sum_{k>=0} n^sqrt(k) / Gamma(sqrt(k) + 1) ), where Gamma is Euler's gamma function.",
   "id": "A326805",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 0,
     "size": 35,
     "source": "oeis-entry"

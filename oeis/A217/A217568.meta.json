@@ -7,7 +7,6 @@
     "A320872",
     "A320873"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "fini",
@@ -16,7 +15,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 72,
     "source": "oeis-entry"

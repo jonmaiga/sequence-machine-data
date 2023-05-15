@@ -2,13 +2,11 @@
   "description": "Composite numbers C(p) such that p and C(p)-p are primes.",
   "id": "A100718",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 51,
     "source": "oeis-entry"

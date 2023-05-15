@@ -6,14 +6,12 @@
     "A033210",
     "A106950"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "fini",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:27",
     "offset": 1,
     "size": 83,
     "source": "oeis-bfile"

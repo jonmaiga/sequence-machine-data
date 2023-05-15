@@ -9,14 +9,12 @@
     "A157012",
     "A157013"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:39",
     "offset": 1,
     "size": 55,
     "source": "oeis-bfile"

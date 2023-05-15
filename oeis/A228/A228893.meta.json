@@ -2,14 +2,12 @@
   "description": "Numbers n such that the concatenation of the frequency of each decimal digit of n is divisible by n.",
   "id": "A228893",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:46",
     "offset": 1,
     "size": 52,
     "source": "oeis-bfile"

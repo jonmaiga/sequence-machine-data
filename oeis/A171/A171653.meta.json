@@ -2,13 +2,11 @@
   "description": "First positional base with the first n of {21, 321, 4321,...} prime.",
   "id": "A171653",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

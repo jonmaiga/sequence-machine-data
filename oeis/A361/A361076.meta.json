@@ -1,0 +1,27 @@
+{
+  "description": "Array, read by ascending antidiagonals, whose n-th row consists of the powers of 2, if n = 1; of the primes of the form (2*n-1)*2^k+1, if they exist and n > 1; and of zeros otherwise.",
+  "id": "A361076",
+  "mentions": [
+    "A000004",
+    "A000079",
+    "A002253",
+    "A002254",
+    "A002256",
+    "A002258",
+    "A002261",
+    "A032353",
+    "A032356",
+    "A033809",
+    "A046067",
+    "A279709"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

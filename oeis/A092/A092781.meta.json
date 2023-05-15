@@ -2,13 +2,11 @@
   "description": "Maximum number of nonempty subtrees of a binary tree with n leaves.",
   "id": "A092781",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 2,
     "size": 18,
     "source": "oeis-entry"

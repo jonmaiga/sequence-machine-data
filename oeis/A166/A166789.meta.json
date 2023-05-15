@@ -2,12 +2,10 @@
   "description": "Number of nX5 1..2 arrays containing at least one of each value, all equal values connected, and rows considered as a single number in nondecreasing order.",
   "id": "A166789",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

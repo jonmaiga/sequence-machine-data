@@ -2,13 +2,11 @@
   "description": "Minimum number of matchsticks required to make squares of size 1 X 1, 2 X 2, ..., n X n simultaneously.",
   "id": "A294249",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 0,
     "size": 47,
     "source": "oeis-entry"

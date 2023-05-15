@@ -2,14 +2,12 @@
   "description": "Number of families of 3-subsets of an n-set that cover all 2-subsets.",
   "id": "A302394",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "formulas",
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 0,
     "size": 12,
     "source": "oeis-entry"

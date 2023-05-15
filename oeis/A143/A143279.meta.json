@@ -2,13 +2,11 @@
   "description": "Numbers n such that 6*5^n + 1 is prime.",
   "id": "A143279",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 17,
     "source": "oeis-entry"

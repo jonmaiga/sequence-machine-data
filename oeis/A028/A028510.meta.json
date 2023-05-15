@@ -2,12 +2,10 @@
   "description": "Continued fraction expansion for log_2(9).",
   "id": "A028510",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:05",
     "offset": 1,
     "size": 74,
     "source": "joeis"

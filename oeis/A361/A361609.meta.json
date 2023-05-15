@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 4^n*(1 + (23/8)*n + (9/8)*n^2).",
+  "id": "A361609",
+  "mentions": [
+    "A027471",
+    "A361608",
+    "A361610"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

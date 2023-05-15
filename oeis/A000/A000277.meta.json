@@ -2,13 +2,11 @@
   "description": "3*n - 2*floor(sqrt(4*n+5)) + 5.",
   "id": "A000277",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 12:15:41",
     "offset": 0,
     "size": 61,
     "source": "joeis"

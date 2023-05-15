@@ -8,16 +8,14 @@
     "A334877",
     "A336662"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "formulas",
     "nonn",
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 0,
     "size": 40,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

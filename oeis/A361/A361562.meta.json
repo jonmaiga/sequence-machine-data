@@ -1,0 +1,20 @@
+{
+  "description": "Wagstaff numbers that are of the form 4*k + 3.",
+  "id": "A361562",
+  "mentions": [
+    "A000978",
+    "A002145",
+    "A112633",
+    "A361563"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

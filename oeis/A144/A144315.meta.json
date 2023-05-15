@@ -8,13 +8,11 @@
     "A074700",
     "A144313"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 41,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Primes q for which in the q-cyclotomic field the 2-dimension of the group of circular units over the group of totally positive circular units is not maximal.",
   "id": "A338023",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 24,
     "source": "oeis-entry"

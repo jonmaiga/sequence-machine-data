@@ -2,13 +2,11 @@
   "description": "Smallest of n consecutive numbers in A.P. with a common difference of n with a sum that is an n-th power.",
   "id": "A073848",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 19,
     "source": "oeis-entry"

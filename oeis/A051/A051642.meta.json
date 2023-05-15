@@ -2,13 +2,11 @@
   "description": "Values of A (the short leg) of a Pythagorean triangle with A and C (the hypotenuse) both prime and part of a twin prime.",
   "id": "A051642",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:57:49",
     "offset": 0,
     "size": 41,
     "source": "joeis"

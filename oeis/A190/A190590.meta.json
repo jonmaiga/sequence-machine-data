@@ -2,13 +2,11 @@
   "description": "Expansion of series reversion of x/(1 + x + 2*x^4).",
   "id": "A190590",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:14",
     "offset": 1,
     "size": 31,
     "source": "oeis-bfile"

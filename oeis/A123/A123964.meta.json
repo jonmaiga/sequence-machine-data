@@ -2,14 +2,12 @@
   "description": "A triangular sequence from the omega(5) Jacobian Elliptic Modular equation.",
   "id": "A123964",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "sign",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 36,
     "source": "oeis-entry"

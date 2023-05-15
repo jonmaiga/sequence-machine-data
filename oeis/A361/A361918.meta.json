@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the 2019 SI system unit m (meter) in h-bar*c/eV.",
+  "id": "A361918",
+  "mentions": [
+    "A003676",
+    "A003678",
+    "A081823",
+    "A254181",
+    "A360750"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 7,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

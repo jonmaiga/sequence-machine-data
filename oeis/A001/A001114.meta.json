@@ -2,13 +2,11 @@
   "description": "Increasing blocks of digits of e.",
   "id": "A001114",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:03",
     "offset": 1,
     "size": 26,
     "source": "oeis-bfile"

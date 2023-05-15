@@ -2,7 +2,6 @@
   "description": "Odd digits followed by positive even digits.",
   "id": "A131669",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:34:19",
     "offset": 1,
     "size": 81,
     "source": "joeis"

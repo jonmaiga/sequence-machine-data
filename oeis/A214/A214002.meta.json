@@ -2,13 +2,11 @@
   "description": "Number of compositions of n into ceiling(n/2) parts with 1 <= each part <=4.",
   "id": "A214002",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 40,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "a(0)=1. For n>=1, a(n) = a(n-1) + (largest divisor of n which does not occur among the earlier terms of the sequence); or a(n) = a(n-1) if every divisor of n occurs among the earlier terms of the sequence.",
   "id": "A126698",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 54,
     "source": "oeis-entry"

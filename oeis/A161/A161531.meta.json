@@ -2,12 +2,10 @@
   "description": "The number of reachable states in a simple two-player counting game, in which each player starts with the pair (1,1) and one move is to add one of the opponent's numbers to one of your own numbers, but no number can grow above a pre-defined maximum n. The game continues until one of the players has no legal moves left. The winner is the one having the higher sum of his numbers.",
   "id": "A161531",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:43",
     "offset": 1,
     "size": 40,
     "source": "oeis-bfile"

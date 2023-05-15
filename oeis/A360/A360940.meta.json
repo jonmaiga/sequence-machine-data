@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k / A000005(k) + k / A000010(k) is an integer.",
+  "id": "A360940",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A058891",
+    "A235353"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

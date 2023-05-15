@@ -2,13 +2,11 @@
   "description": "Rooted unlabeled Ptolemaic graphs on n nodes.",
   "id": "A287887",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 17,
     "source": "oeis-entry"

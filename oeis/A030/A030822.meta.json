@@ -2,12 +2,10 @@
   "description": "[ exp(7/23)*n! ].",
   "id": "A030822",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 08:50:37",
     "offset": 1,
     "size": 20,
     "source": "joeis"

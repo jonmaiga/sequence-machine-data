@@ -2,14 +2,12 @@
   "description": "Square array T(n, k) read by antidiagonals upwards, n > 0 and k > 0: T(n, k) is the least nonnegative value such that each quadruple of terms on a 1 X 1 square sums to a distinct prime number.",
   "id": "A297617",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:18",
     "offset": 1,
     "size": 72,
     "source": "oeis-bfile"

@@ -2,7 +2,6 @@
   "description": "Integers when g2^3-27*g3^2=0 in cubic polynomials of the form: w^2=4*x^3-g2*x-g3.",
   "id": "A114803",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2022-04-26 14:36:13",
     "offset": 0,
     "size": 34,
     "source": "joeis"

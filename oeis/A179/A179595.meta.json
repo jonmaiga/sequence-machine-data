@@ -2,13 +2,11 @@
   "description": "Primes p such that p plus or minus the sum of the fourth powers of its digits is a prime in both cases.",
   "id": "A179595",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 36,
     "source": "oeis-entry"

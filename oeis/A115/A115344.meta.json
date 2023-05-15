@@ -2,13 +2,11 @@
   "description": "Numerators of asymptotic expansion of first root of Ziegler's cubic in an imaginary quadratic field.",
   "id": "A115344",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:05",
     "offset": 0,
     "size": 29,
     "source": "oeis-bfile"

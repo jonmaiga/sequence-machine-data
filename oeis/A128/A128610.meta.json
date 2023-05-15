@@ -2,12 +2,10 @@
   "description": "a(0)=a(1)=1. For n >= 2, a(n) = a(n-2) + a(n-1) + (number of terms from among {a(0),a(1),a(2),...a(n-1)} which are <= n).",
   "id": "A128610",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 37,
     "source": "oeis-entry"

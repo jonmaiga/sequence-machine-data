@@ -2,14 +2,12 @@
   "description": "Expansion of 1/((1-2*x)*(1-5*x)*(1-7*x)*(1-12*x)).",
   "id": "A025996",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:34",
     "offset": 0,
     "size": 17,
     "source": "oeis-bfile"

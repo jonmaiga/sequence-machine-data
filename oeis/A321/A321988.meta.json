@@ -2,14 +2,12 @@
   "description": "Number of integer triples (x,y,z) with x,y,z>0 and 4*x+6*y+3*n*z < 12*n.",
   "id": "A321988",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 09:51:49",
     "offset": 0,
     "size": 41,
     "source": "joeis"

@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = v(x[n]) where (x[k], k >= 0) is the earliest possible sequence of distinct nonnegative integer sequences such that |x[k+1] - x[k]| = 1 for all k, sequences being ordered by increasing m(x) := max(deg(x), sup(x)), then v(x) := Sum_{k >= 0} x(k)*b^k + [b > 10]*b^(b-1) with b = max(m(x)+1, 10).",
+  "id": "A360450",
+  "mentions": [
+    "A360449"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

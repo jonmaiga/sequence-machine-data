@@ -2,13 +2,11 @@
   "description": "Number of ways of numbering the vertices of a cube so sum of the 8 numbers is n.",
   "id": "A039959",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:16:25",
     "offset": 0,
     "size": 39,
     "source": "joeis"

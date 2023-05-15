@@ -1,0 +1,16 @@
+{
+  "description": "a(1) = 2 and a(n+1) is the largest prime <= a(n) + n.",
+  "id": "A362527",
+  "mentions": [
+    "A095117"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

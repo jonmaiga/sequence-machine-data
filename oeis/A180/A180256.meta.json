@@ -2,13 +2,11 @@
   "description": "G.f. satisfies: A(x) = Sum_{n>=0} A_n(x) * A(x)^n where A_{n+1}(x) = A_n(A(x)) denotes iteration with A_0(x)=x and A'(0)=1.",
   "id": "A180256",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 22,
     "source": "oeis-entry"

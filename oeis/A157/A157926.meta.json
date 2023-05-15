@@ -2,7 +2,6 @@
   "description": "Coefficients of the first modulo two factor of polynomials of the type: p(x,n)=(x^Prime[n] + 1)/(x + 1).",
   "id": "A157926",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn",
@@ -11,7 +10,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 2,
     "size": 105,
     "source": "oeis-entry"

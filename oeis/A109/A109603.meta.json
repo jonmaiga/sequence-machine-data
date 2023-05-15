@@ -2,13 +2,11 @@
   "description": "Numbers n such that 43*n - 41 is prime.",
   "id": "A109603",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:55:33",
     "offset": 1,
     "size": 51,
     "source": "joeis"

@@ -11,18 +11,18 @@
     "A244362",
     "A244363",
     "A244370",
-    "A244371"
+    "A244371",
+    "A279228"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
+    "changed",
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
-    "size": 28,
+    "size": 32,
     "source": "oeis-entry"
   }
 }

@@ -2,13 +2,11 @@
   "description": "a(n) is the smallest number greater than a(n-1) whose name in UK English contains n vowels.",
   "id": "A158355",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 36,
     "source": "oeis-entry"

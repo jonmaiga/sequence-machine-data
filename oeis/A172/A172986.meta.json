@@ -4,14 +4,12 @@
   "mentions": [
     "A029826"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "less",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 89,
     "source": "oeis-entry"

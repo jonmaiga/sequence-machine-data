@@ -2,14 +2,12 @@
   "description": "A 7 X 7 prime panmagic square read by rows.",
   "id": "A162386",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "fini",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 43,
     "source": "oeis-entry"

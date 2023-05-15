@@ -2,7 +2,6 @@
   "description": "Decimal expansion of the maximal circumradius of a planar convex set containing no lattice point except for the origin where it has its circumcenter, and not protruding in opposite directions outside the square max(|x|,|y|) < 1 unless it protrudes significantly elsewhere, too.",
   "id": "A244054",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "cons",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:01:45",
     "offset": 1,
     "size": 102,
     "source": "joeis"

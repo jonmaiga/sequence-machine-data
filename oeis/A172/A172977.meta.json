@@ -2,14 +2,12 @@
   "description": "Numbers n such that 2*prime(n)-1 and 6*prime(n)-1 are prime.",
   "id": "A172977",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 53,
     "source": "oeis-entry"

@@ -1,0 +1,22 @@
+{
+  "description": "Theta series of 15-dimensional lattice Kappa_15.",
+  "id": "A362875",
+  "mentions": [
+    "A029897",
+    "A047628",
+    "A362876",
+    "A362877",
+    "A362878",
+    "A362879",
+    "A362880"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

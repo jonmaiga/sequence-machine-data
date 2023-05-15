@@ -2,12 +2,10 @@
   "description": "a(n) is the smallest m > n such that m + n divides m^(m - n)*(m - n)^m + 1.",
   "id": "A328201",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 0,
     "size": 48,
     "source": "oeis-entry"

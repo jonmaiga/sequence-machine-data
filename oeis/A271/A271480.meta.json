@@ -2,14 +2,12 @@
   "description": "Dimension of n-qubit subspace H^{MPS}_{2,n} for bond dimension 2.",
   "id": "A271480",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 19:48:45",
     "offset": 0,
     "size": 16,
     "source": "joeis"

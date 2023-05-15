@@ -2,12 +2,10 @@
   "description": "Number of n X n binary matrices with zero diagonal and x(i,j)+x(j,k)+x(k,i) not equal to one for i,j,k all different",
   "id": "A213608",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

@@ -1,19 +1,19 @@
 {
-  "description": "Number of (w,x,y) with all terms in {0,...,n} and w!=x and x>range{w,x,y}.",
+  "description": "Number of (w,x,y) with all terms in {0,...,n} and w != x and x < range(w,x,y).",
   "id": "A212970",
   "mentions": [
+    "A045991",
     "A088003",
     "A210977",
-    "A212959"
+    "A212959",
+    "A212969"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:38:23",
     "offset": 0,
     "size": 41,
     "source": "joeis"

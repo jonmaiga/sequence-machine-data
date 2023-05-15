@@ -2,12 +2,10 @@
   "description": "List of pairs of numbers having certain properties (see Comments).",
   "id": "A331261",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 32,
     "source": "oeis-entry"

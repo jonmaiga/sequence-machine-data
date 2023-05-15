@@ -2,14 +2,12 @@
   "description": "Symmetric triangular sequence of powers: t(n,m)=m^n + (n - m)^n - n*m*(n - m).",
   "id": "A129821",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 42,
     "source": "oeis-entry"

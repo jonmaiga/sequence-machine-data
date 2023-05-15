@@ -2,14 +2,12 @@
   "description": "Expansion of the unique normalized cusp form of Gamma_0(5) of weight 6 in powers of q.",
   "id": "A226347",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "mult",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:43",
     "offset": 1,
     "size": 45,
     "source": "oeis-bfile"

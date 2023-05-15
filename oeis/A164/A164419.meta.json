@@ -2,14 +2,12 @@
   "description": "Number of binary strings of length n with no substrings equal to 0000, 0010, or 0110.",
   "id": "A164419",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:46",
     "offset": 0,
     "size": 38,
     "source": "oeis-bfile"

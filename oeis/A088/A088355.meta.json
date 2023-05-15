@@ -2,13 +2,11 @@
   "description": "G.f.: A(x) = 1/(1-x - x/(1-x - x^2/(1-x - x^3/(1-x - x^4/(1-x - x^5/(...)))))), a continued fraction.",
   "id": "A088355",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:39",
     "offset": 0,
     "size": 30,
     "source": "oeis-bfile"

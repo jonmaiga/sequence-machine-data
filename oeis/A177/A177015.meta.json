@@ -5,14 +5,11 @@
     "A167873",
     "A177016"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:53:23",
     "offset": 2,
     "size": 105,
     "source": "joeis"

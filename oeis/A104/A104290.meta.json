@@ -2,13 +2,11 @@
   "description": "a = a(n) is such that the a-th prime p(a) is the least prime with digital sum equal to n, or a(n)=0 if no such prime exists.",
   "id": "A104290",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 58,
     "source": "oeis-entry"

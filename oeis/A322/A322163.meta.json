@@ -2,12 +2,10 @@
   "description": "Minimal number of steps needed to get from n to 1, where for n > 1 the next step is to either n-1 or max(a,b) for any a > 1 and b > 1 such that ab=n.",
   "id": "A322163",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:45",
     "offset": 1,
     "size": 87,
     "source": "oeis-bfile"

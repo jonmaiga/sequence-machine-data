@@ -10,7 +10,6 @@
     "A199154",
     "A199515"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "formulas",
@@ -18,7 +17,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:20",
     "offset": 2,
     "size": 89,
     "source": "oeis-bfile"

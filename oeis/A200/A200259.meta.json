@@ -1,14 +1,15 @@
 {
-  "description": "Numbers n such that n-th prime has an even digit sum.",
+  "description": "Numbers k such that k-th prime has an even digit sum.",
   "id": "A200259",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:29",
+  "mentions": [
+    "A119449",
+    "A200260"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:21",
     "offset": 1,
     "size": 62,
     "source": "oeis-bfile"

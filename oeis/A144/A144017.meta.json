@@ -2,13 +2,11 @@
   "description": "Number of n X n X n alternating sign cubes.",
   "id": "A144017",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 5,
     "source": "oeis-entry"

@@ -1,19 +1,20 @@
 {
-  "description": "Numerator of Sum_{k=0..n} 1/C(2n,2k).",
+  "description": "Numerator of Sum_{k=0..n} 1/C(2*n, 2*k).",
   "id": "A100512",
   "mentions": [
     "A046825",
-    "A100513"
+    "A100513",
+    "A100514",
+    "A100515"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
+    "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 24,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

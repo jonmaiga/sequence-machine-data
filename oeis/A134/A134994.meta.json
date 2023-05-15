@@ -2,13 +2,10 @@
   "description": "a(n) = floor(3n/2log(n)).",
   "id": "A134994",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 2,
     "size": 78,
     "source": "oeis-entry"

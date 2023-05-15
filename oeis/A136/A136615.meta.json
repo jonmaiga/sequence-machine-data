@@ -2,13 +2,11 @@
   "description": "Fold-switch-fold sequence defined by McFarlane and Withers for m=3: Let A(n) = If[Mod[A(n - 1), 2] == 0, A(n - 1)/2, (m - A(n - 1))2]; a(n)= If[ Mod[A(n - 1), 2] == 0, a(n - 1)/2, (Pi - a(n - 1))/2].",
   "id": "A136615",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 34,
     "source": "oeis-entry"

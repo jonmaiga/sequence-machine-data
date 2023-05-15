@@ -2,13 +2,11 @@
   "description": "Molien series for certain 16-dimensional group of order 322560 arising from genus-2 weight enumerators of singly-even (but not necessarily self-dual or self-orthogonal) binary codes.",
   "id": "A092351",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:43",
     "offset": 0,
     "size": 40,
     "source": "oeis-bfile"

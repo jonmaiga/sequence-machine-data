@@ -2,7 +2,6 @@
   "description": "A complex matrix self-similar coefficient set of the imaginary part based on the Hadamard matrix pattern: {{1,1},{1,I}}.",
   "id": "A158566",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 45,
     "source": "oeis-entry"

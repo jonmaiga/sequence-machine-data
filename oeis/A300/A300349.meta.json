@@ -1,16 +1,15 @@
 {
-  "description": "Number of nX7 0..1 arrays with every element equal to 1 or 2 horizontally, vertically or antidiagonally adjacent elements, with upper left element zero.",
+  "description": "Number of n X 7 0..1 arrays with every element equal to 1 or 2 horizontally, vertically or antidiagonally adjacent elements, with upper left element zero.",
   "id": "A300349",
   "mentions": [
     "A300350"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:24",
     "offset": 1,
     "size": 27,
     "source": "oeis-bfile"

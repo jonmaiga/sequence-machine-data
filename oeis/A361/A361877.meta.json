@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = binomial(2*n, n) * binomial(2*n - 1, n).",
+  "id": "A361877",
+  "mentions": [
+    "A000984",
+    "A001700",
+    "A002894"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

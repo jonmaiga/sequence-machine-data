@@ -2,13 +2,11 @@
   "description": "Determinant of n X n matrix whose element A(i,j) is 1 if i=j, i if n=i+j and 0 otherwise.",
   "id": "A071999",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:24",
     "offset": 1,
     "size": 23,
     "source": "oeis-bfile"

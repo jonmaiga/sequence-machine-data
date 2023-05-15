@@ -2,14 +2,12 @@
   "description": "Plaindromes: numbers whose digits in base 15 are in nondecreasing order.",
   "id": "A023756",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:19:25",
     "offset": 1,
     "size": 70,
     "source": "joeis"

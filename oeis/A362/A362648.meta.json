@@ -1,0 +1,24 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of nonisomorphic multisets of involutions on an n-set with k involutions.",
+  "id": "A362648",
+  "mentions": [
+    "A000012",
+    "A000085",
+    "A004526",
+    "A362644",
+    "A362649",
+    "A362650",
+    "A362651",
+    "A362759"
+  ],
+  "tags": [
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

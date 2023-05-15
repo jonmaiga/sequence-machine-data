@@ -2,14 +2,12 @@
   "description": "Numbers whose base-10 representation has the same nonzero number of 5's and 8's.",
   "id": "A039430",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:50",
     "offset": 1,
     "size": 50,
     "source": "oeis-bfile"

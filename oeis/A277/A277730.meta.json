@@ -5,14 +5,12 @@
     "A213930",
     "A277729"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "look",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:43",
     "offset": 2,
     "size": 95,
     "source": "oeis-bfile"

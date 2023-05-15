@@ -2,12 +2,10 @@
   "description": "a(n) is the number of pentagonal polyiamonds of all orders less than or equal to n.",
   "id": "A308595",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:48:14",
     "offset": 0,
     "size": 60,
     "source": "joeis"

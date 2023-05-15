@@ -2,13 +2,11 @@
   "description": "Nearest integer to (n+1)^3/9.",
   "id": "A060999",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 13:00:01",
     "offset": 0,
     "size": 47,
     "source": "joeis"

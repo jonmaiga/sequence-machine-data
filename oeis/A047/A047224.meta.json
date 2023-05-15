@@ -2,13 +2,11 @@
   "description": "Smallest k>n where n is a square modulo k.",
   "id": "A047224",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 11:00:39",
     "offset": 0,
     "size": 71,
     "source": "joeis"

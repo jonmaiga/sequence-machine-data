@@ -2,13 +2,11 @@
   "description": "Size of unconstrained level set on Diamond(5) Diagonal Peg Solitaire at level n.",
   "id": "A126777",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 9,
     "source": "oeis-entry"

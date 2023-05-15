@@ -2,12 +2,10 @@
   "description": "a(0)=2. a(n) = the a(n-1)th integer from among those positive integers coprime to n.",
   "id": "A125554",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 36,
     "source": "oeis-entry"

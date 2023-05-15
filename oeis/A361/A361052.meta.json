@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying 4/x = Sum_{n=-oo..+oo} x^(n*(3*n+1)/2) * (A(x)^(3*n) - 1/A(x)^(3*n+1)).",
+  "id": "A361052",
+  "mentions": [
+    "A359921",
+    "A359924",
+    "A361050",
+    "A361051"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

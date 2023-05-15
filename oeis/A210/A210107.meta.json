@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of (n+1)X(k+1) 0..2 arrays with every 2X2 subblock having one or three distinct values, and new values 0..2 introduced in row major order",
   "id": "A210107",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:29",
     "offset": 1,
     "size": 34,
     "source": "oeis-bfile"

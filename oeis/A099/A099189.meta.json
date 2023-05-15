@@ -2,7 +2,6 @@
   "description": "Smallest prime which is n times its reversal.",
   "id": "A099189",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 10,
     "source": "oeis-entry"

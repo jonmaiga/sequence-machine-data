@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that there are precisely 4 groups of order n.",
+  "description": "Numbers m such that there are precisely 4 groups of order m.",
   "id": "A054396",
   "mentions": [
     "A000001",
@@ -7,15 +7,28 @@
     "A054395",
     "A054397",
     "A055561",
-    "A135850"
+    "A135850",
+    "A249550",
+    "A249551",
+    "A249552",
+    "A249553",
+    "A249554",
+    "A249555",
+    "A292896",
+    "A294155",
+    "A294156",
+    "A294949",
+    "A295161",
+    "A298909",
+    "A298910",
+    "A298911"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:03",
     "offset": 1,
     "size": 53,
     "source": "oeis-bfile"

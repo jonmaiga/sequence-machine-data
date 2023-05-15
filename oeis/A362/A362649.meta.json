@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonisomorphic unordered pairs of involutions on an n-set.",
+  "id": "A362649",
+  "mentions": [
+    "A000085",
+    "A362645",
+    "A362648"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

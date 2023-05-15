@@ -2,12 +2,10 @@
   "description": "Numbers n such that O(n) = E(n)-1, where O(n), E(n) denote the number of integers k, 1 <= k <= n, such that Omega(n) is even or odd, respectively and Omega(n) denotes the number of prime factors of n, counting multiplicity.",
   "id": "A076135",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 21,
     "source": "oeis-entry"

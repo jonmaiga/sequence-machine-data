@@ -2,14 +2,12 @@
   "description": "Class number of maximal order in real quadratic field of radicand n.",
   "id": "A039958",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "nice",
     "sign"
   ],
   "terms": {
-    "modified": "2022-11-11 15:41:40",
     "offset": 1,
     "size": 100,
     "source": "joeis"

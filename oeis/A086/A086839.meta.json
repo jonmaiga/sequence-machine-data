@@ -2,13 +2,11 @@
   "description": "Number of steps needed to reverse a pattern of length 2*n of cellular automaton Rule 90.",
   "id": "A086839",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 31,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Position of the prime ant after n steps. If the value of the ant's position is prime, it steps to the right; if the value is composite, it divides by the least divisor, steps to the left, and adds the divisor.",
   "id": "A293689",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "look",
     "nonn",
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:10",
     "offset": 0,
     "size": 78,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Number of permutations p from (1,2,3,...,n) to (1,2,3,...,n) such that 1/(1+p(1)) + 1/(2+p(2)) + ... + 1/(n+p(n)) is an integer.",
   "id": "A073112",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

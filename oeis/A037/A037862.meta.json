@@ -2,13 +2,11 @@
   "description": "a(n)=(number of digits <=1)-(number of digits >1) in base 3 representation of n.",
   "id": "A037862",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-28 15:35:45",
     "offset": 1,
     "size": 83,
     "source": "joeis"

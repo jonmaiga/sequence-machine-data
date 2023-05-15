@@ -2,13 +2,11 @@
   "description": "a(0)=0; for n>0, a(n) is the number of rooted 4-regular maps on the torus having n vertices.",
   "id": "A322914",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 12:26:19",
     "offset": 0,
     "size": 21,
     "source": "joeis"

@@ -2,12 +2,10 @@
   "description": "Odd primes p(i) such that 6*p(i+j)^2-1 is also prime for j = 0..3.",
   "id": "A223935",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:42",
     "offset": 1,
     "size": 27,
     "source": "oeis-bfile"

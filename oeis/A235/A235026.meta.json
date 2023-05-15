@@ -2,14 +2,12 @@
   "description": "T(n,k) is the number of (n+1) X (k+1) 0..5 arrays with every 2 X 2 subblock having its diagonal sum differing from its antidiagonal sum by 3, with no adjacent elements equal (constant-stress tilted 1 X 1 tilings).",
   "id": "A235026",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:52",
     "offset": 1,
     "size": 35,
     "source": "oeis-bfile"

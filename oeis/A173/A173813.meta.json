@@ -2,13 +2,11 @@
   "description": "2*(10^n-5), n>0.",
   "id": "A173813",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:58",
     "offset": 1,
     "size": 17,
     "source": "oeis-bfile"

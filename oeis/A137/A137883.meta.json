@@ -2,14 +2,12 @@
   "description": "Number of (directed) Hamiltonian paths in the n-Möbius ladder graph.",
   "id": "A137883",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 15:49:47",
     "offset": 3,
     "size": 39,
     "source": "joeis"

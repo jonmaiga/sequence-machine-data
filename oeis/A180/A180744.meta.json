@@ -2,14 +2,12 @@
   "description": "Numbers n such that 7^n-5^n-1 is prime.",
   "id": "A180744",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

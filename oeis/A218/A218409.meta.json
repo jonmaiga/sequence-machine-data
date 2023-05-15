@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which sigma(n)/n = k+2/7 with integer k.",
+  "description": "Numbers k for which sigma(k)/k - 2/7 is an integer.",
   "id": "A218409",
   "mentions": [
     "A218410",
@@ -8,14 +8,12 @@
     "A218413",
     "A218428"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
-    "formulas",
+    "changed",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 19,
     "source": "oeis-entry"

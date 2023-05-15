@@ -2,14 +2,12 @@
   "description": "a(n) = 14*(n+1)*binomial(n+4,8).",
   "id": "A027804",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:36:29",
     "offset": 4,
     "size": 27,
     "source": "joeis"

@@ -2,12 +2,10 @@
   "description": "a(n) is the smallest positive integer such that there exists no positive integer k with 2k < n where a(n-2k)*a(n-k)=a(n).",
   "id": "A343026",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:16",
     "offset": 1,
     "size": 80,
     "source": "oeis-bfile"

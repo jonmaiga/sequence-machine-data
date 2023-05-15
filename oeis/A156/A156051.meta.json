@@ -2,13 +2,11 @@
   "description": "Sequence of pairs k>0 and j>1 with the smallest j and the smallest sum j+k such that k*j^n-1 is prime.",
   "id": "A156051",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 100,
     "source": "oeis-entry"

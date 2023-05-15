@@ -2,14 +2,12 @@
   "description": "Nested base shift convergence sequence (NBSC): gives the constant term of the convergence of a number n into a base sequence conversion nest: a(n) = ...FromDigits(IntegerDigits(FromDigits(IntegerDigits(n,2),3),4),5)..., until the result does not change for more iterations.",
   "id": "A326653",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 47,
     "source": "oeis-entry"

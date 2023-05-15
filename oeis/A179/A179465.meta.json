@@ -2,7 +2,6 @@
   "description": "Integers of alternate form x+(x+1)^2+(x+2)^3+(x+3)^4+(x+4)^5+(x+5)^6.",
   "id": "A179465",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

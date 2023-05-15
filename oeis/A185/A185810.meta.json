@@ -2,14 +2,12 @@
   "description": "Riordan array ((1+x-sqrt(1-2x-3x^2))/(2x(1-x)),(1+x-sqrt(1-2x-3x^2))).",
   "id": "A185810",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 0,
     "size": 36,
     "source": "oeis-entry"

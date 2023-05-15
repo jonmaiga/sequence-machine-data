@@ -2,13 +2,11 @@
   "description": "Numbers k such that 179*2^k+1 is prime.",
   "id": "A032466",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:41",
     "offset": 1,
     "size": 42,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Poincaré series [or Poincare series] of Lie algebra associated with a certain braid group.",
   "id": "A007995",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 12:47:23",
     "offset": 1,
     "size": 25,
     "source": "joeis"

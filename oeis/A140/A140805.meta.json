@@ -1,15 +1,15 @@
 {
-  "description": "Positive triangular sequence of coefficients inspired by the Belyi transform: x'->(m + n)^(n + m)*x^m*(1 - x)^n/(m^m*n^n): t(n,m)=Binomial[n, m]^Binomial[n, m].",
+  "description": "Triangle T(n, k) read by rows T(n,k) = binomial(n, k)^binomial(n, k).",
   "id": "A140805",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:25",
+  "mentions": [
+    "A007318"
+  ],
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 31,
     "source": "oeis-entry"

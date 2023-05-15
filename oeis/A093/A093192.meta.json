@@ -2,12 +2,10 @@
   "description": "If M(n) is the n-th Mersenne prime, then a(n) is the smallest positive integer such that 2*a(n)*M(n)*M(n+1)*M(n+2)-1 is prime.",
   "id": "A093192",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 22,
     "source": "oeis-entry"

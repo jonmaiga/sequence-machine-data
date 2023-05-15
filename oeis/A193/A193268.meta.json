@@ -2,12 +2,10 @@
   "description": "Number of n X n symmetric 0..2 arrays with no element equal to any horizontal or vertical neighbor and with new values 0..2 introduced in lower triangular row major order",
   "id": "A193268",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:16",
     "offset": 1,
     "size": 15,
     "source": "oeis-bfile"

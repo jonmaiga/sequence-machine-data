@@ -2,12 +2,10 @@
   "description": "a(n) = Number of subsets with n members of the set {1..n^2} such that the sum of the members is prime.",
   "id": "A167147",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:50",
     "offset": 2,
     "size": 19,
     "source": "oeis-bfile"

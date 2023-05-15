@@ -1,18 +1,16 @@
 {
-  "description": "Number of numbers less than or equal to n of the form 3^i*5^j.",
+  "description": "Number of numbers of the form 3^i*5^j that are less than or equal to n.",
   "id": "A112751",
   "mentions": [
     "A003593",
     "A008683",
     "A071520"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 97,
     "source": "oeis-entry"

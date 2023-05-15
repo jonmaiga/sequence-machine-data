@@ -2,13 +2,11 @@
   "description": "a(n) = a(n-1)+ ((abs(2^a(n-1)*a(n-1)) mod 10).",
   "id": "A118667",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:08",
     "offset": 0,
     "size": 60,
     "source": "oeis-bfile"

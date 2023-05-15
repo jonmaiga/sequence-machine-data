@@ -2,13 +2,11 @@
   "description": "a(n) = number of permutations avoiding the simsum pattern 213 and the classical pattern 321.",
   "id": "A338729",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 0,
     "size": 8,
     "source": "oeis-entry"

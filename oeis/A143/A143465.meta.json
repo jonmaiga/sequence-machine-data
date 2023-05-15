@@ -2,14 +2,12 @@
   "description": "A McMullen transform involving x->x+1/x of Lehmer's polynomial gives the polynomial used to get this expansion sequence: p(x)=1 + x + 10 x^2 + 8 x^3 + 44 x^4 + 28 x^5 + 113 x^6 + 57 x^7 + 191 x^8 + 79 x^9 + 227 x^10 + 79 x^11 + 191 x^12 + 57 x^13 + 113 x^14 + 28 x^15 + 44 x^16 + 8 x^17 + 10 x^18 + x^19 + x^20.",
   "id": "A143465",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 31,
     "source": "oeis-entry"

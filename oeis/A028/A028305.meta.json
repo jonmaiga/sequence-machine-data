@@ -8,7 +8,6 @@
     "A007709",
     "A007710"
   ],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "formulas",
     "hard",
@@ -17,7 +16,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:37",
     "offset": 0,
     "size": 66,
     "source": "oeis-bfile"

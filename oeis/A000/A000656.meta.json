@@ -2,12 +2,10 @@
   "description": "Invertible Boolean functions of n variables with S(n) acting on the domain and GL(n,2) acting on the range.",
   "id": "A000656",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

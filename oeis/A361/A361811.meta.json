@@ -1,0 +1,23 @@
+{
+  "description": "Smallest members of infinitary sociable quadruples.",
+  "id": "A361811",
+  "mentions": [
+    "A004607",
+    "A007357",
+    "A049417",
+    "A090615",
+    "A126168",
+    "A126169",
+    "A126170",
+    "A319902",
+    "A319915"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

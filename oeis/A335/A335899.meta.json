@@ -2,7 +2,6 @@
   "description": "Squares visited when moving on a square-spiral numbered board to an unvisited diagonally adjacent square containing the spiral number with the fewest divisors. In case of a tie it chooses the square with the lowest spiral number.",
   "id": "A335899",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "fini",
     "full",
@@ -10,7 +9,6 @@
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 28,
     "source": "oeis-entry"

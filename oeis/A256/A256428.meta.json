@@ -2,12 +2,10 @@
   "description": "G.f.: x^2*(1-2*x)/(1-8*x+22*x^2-26*x^3+14*x^4-5*x^5+x^6).",
   "id": "A256428",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 12:50:45",
     "offset": 0,
     "size": 26,
     "source": "joeis"

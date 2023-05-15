@@ -2,13 +2,11 @@
   "description": "The atomic numbers of the periodic table of the elements, read downwards along 32 columns.",
   "id": "A134984",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 68,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Triangle read by rows T(n,k). Triangle elements are 0 and 1. Starting with 0 in the top add below a second row of (2n-1) elements (with n=2 -> 3). Moving from left to right add 0 if the number of adjacent 1's is odd or add 1 if it is even or null. See example below.",
   "id": "A141743",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

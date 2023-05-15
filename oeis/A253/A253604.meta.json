@@ -2,13 +2,11 @@
   "description": "a(n) = (n^(n-1)+1)^n.",
   "id": "A253604",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

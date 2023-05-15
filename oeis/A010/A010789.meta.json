@@ -2,13 +2,11 @@
   "description": "arcsin(log(cos(x))) = -(1/2!)*x^2 - (2/4!)*x^4 - (31/6!)*x^6 - (692/8!)*x^8 + ...",
   "id": "A010789",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:46:54",
     "offset": 0,
     "size": 17,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "Numbers n such that the string n12341237 is prime.",
   "id": "A109079",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:47:21",
     "offset": 1,
     "size": 63,
     "source": "joeis"

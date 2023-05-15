@@ -2,12 +2,10 @@
   "description": "If a, b in sequence, so is ab+7.",
   "id": "A009312",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:46:53",
     "offset": 1,
     "size": 46,
     "source": "joeis"

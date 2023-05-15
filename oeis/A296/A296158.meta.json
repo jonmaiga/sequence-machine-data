@@ -2,13 +2,11 @@
   "description": "11-digit integers whose 10 absolute differences between two successive digits are different",
   "id": "A296158",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:15",
     "offset": 1,
     "size": 21,
     "source": "oeis-bfile"

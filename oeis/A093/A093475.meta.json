@@ -2,14 +2,12 @@
   "description": "Beginning with 1, numbers such that no term can arise as a substring of the right concatenation of any combination of the previous terms.",
   "id": "A093475",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 54,
     "source": "oeis-entry"

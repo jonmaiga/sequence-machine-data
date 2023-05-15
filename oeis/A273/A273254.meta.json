@@ -2,14 +2,12 @@
   "description": "Dimensions of odd-dimensional spheres with unique smooth structure.",
   "id": "A273254",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

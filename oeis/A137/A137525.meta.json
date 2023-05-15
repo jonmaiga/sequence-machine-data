@@ -2,7 +2,6 @@
   "description": "A triangular sequence of coefficients based on an expansion of a Catenoid like Sheffer expansion function: g(t) = t; f(t) = -1/t; p(x,t) = Exp[x*(t)]*(1 - f(t)^2).",
   "id": "A137525",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 88,
     "source": "oeis-entry"

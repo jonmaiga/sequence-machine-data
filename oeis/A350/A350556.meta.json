@@ -6,7 +6,6 @@
     "A203363",
     "A350555"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "fini",
     "frac",
@@ -14,7 +13,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 40,
     "source": "oeis-entry"

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = smallest Fibonacci number F(k) such that F(k) + F(n) is a prime, or -1 if no such F(k) exists.",
+  "id": "A361509",
+  "mentions": [
+    "A000045",
+    "A361510",
+    "A361902"
+  ],
+  "tags": [
+    "formulas",
+    "less",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

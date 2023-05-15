@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the largest m such that uphi(m) = n, where uphi is the unitary totient function (A047994), or a(n) = 0 if no such m exists.",
+  "id": "A362229",
+  "mentions": [
+    "A047994",
+    "A057635",
+    "A347771",
+    "A361966",
+    "A362230",
+    "A362231"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

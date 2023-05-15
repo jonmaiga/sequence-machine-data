@@ -6,13 +6,11 @@
     "A181503",
     "A226526"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 115,
     "source": "oeis-entry"

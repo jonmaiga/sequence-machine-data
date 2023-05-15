@@ -7,14 +7,13 @@
     "A119033",
     "A119215"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

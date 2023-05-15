@@ -36,8 +36,8 @@
     "A331659",
     "A331670"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
+    "changed",
     "formulas",
     "hear",
     "look",
@@ -45,7 +45,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:07",
     "offset": 0,
     "size": 71,
     "source": "oeis-bfile"

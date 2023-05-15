@@ -2,13 +2,11 @@
   "description": "Numbers which are the sum of a strictly positive square and a square of a prime in two or more ways.",
   "id": "A138381",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 49,
     "source": "oeis-entry"

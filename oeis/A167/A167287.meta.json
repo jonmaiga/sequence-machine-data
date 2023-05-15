@@ -6,12 +6,10 @@
     "A084531",
     "A086106"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 95,
     "source": "oeis-entry"

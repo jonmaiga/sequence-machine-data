@@ -2,12 +2,10 @@
   "description": "Coordination sequence for D_42 lattice",
   "id": "A107537",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 17:41:20",
     "offset": 0,
     "size": 15,
     "source": "joeis"

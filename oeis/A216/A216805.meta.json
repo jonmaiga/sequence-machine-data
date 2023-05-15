@@ -2,13 +2,11 @@
   "description": "Govindarajan's triangle C^{box 2} arising in enumeration of multi-dimensional partitions, read by rows.",
   "id": "A216805",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 0,
     "size": 64,
     "source": "oeis-entry"

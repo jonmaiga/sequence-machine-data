@@ -2,14 +2,12 @@
   "description": "Number of minimum dominating sets in the cycle graph C_n.",
   "id": "A347538",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 17:31:39",
     "offset": 3,
     "size": 67,
     "source": "joeis"

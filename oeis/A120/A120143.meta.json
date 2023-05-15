@@ -1,17 +1,20 @@
 {
-  "description": "a(1)=17; a(n)=floor((35+sum(a(1) to a(n-1)))/2).",
+  "description": "a(n) = 17 + floor( (1 + Sum_{j=0..n-1} a(j))/2 ).",
   "id": "A120143",
   "mentions": [
     "A072493",
     "A073941",
-    "A112088"
+    "A112088",
+    "A120134",
+    "A120142",
+    "A120144",
+    "A120209"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:09",
     "offset": 1,
     "size": 35,
     "source": "oeis-bfile"

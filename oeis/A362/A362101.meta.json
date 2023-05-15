@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that 9^k starts with k.",
+  "id": "A362101",
+  "mentions": [
+    "A100129",
+    "A320930",
+    "A362096",
+    "A362097"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

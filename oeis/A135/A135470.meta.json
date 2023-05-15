@@ -2,12 +2,10 @@
   "description": "Composite numbers n that divide 2 * sigma(n) - d(n) [that is, 2 * sum of divisors - number of divisors].",
   "id": "A135470",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 24,
     "source": "oeis-entry"

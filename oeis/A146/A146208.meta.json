@@ -1,16 +1,19 @@
 {
-  "description": "a(n)=number of arithmetic progressions of 2 or more integers with product = n.",
+  "description": "a(n) is the number of arithmetic progressions of 2 or more integers with product = n.",
   "id": "A146208",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:25",
+  "mentions": [
+    "A062011",
+    "A361015"
+  ],
   "tags": [
+    "changed",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 2,
     "size": 74,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

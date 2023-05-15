@@ -2,14 +2,12 @@
   "description": "Numbers n such that the n-th digit is the same in e and Pi expansions in base 3.",
   "id": "A068442",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 60,
     "source": "oeis-entry"

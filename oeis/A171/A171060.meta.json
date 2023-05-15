@@ -2,13 +2,11 @@
   "description": "Every term a(n) says: \"The a(n) digits on my left (my digits included) are all different\".",
   "id": "A171060",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 110,
     "source": "oeis-entry"

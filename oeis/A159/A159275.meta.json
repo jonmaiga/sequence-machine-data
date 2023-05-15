@@ -2,13 +2,11 @@
   "description": "Decimal expansion of integral(t=0,1,zeta(t)+1/(1-t))=0.539298676...",
   "id": "A159275",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 100,
     "source": "oeis-entry"

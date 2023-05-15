@@ -1,20 +1,18 @@
 {
-  "description": "A sequence that produces the graph of itself.",
+  "description": "Expansion of e.g.f. exp( x/(1-x)^2 ) / (1-x)^2.",
   "id": "A343884",
   "mentions": [
-    "A337405"
+    "A000262",
+    "A361598",
+    "A361616"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
-    "base",
-    "look",
-    "nice",
-    "sign"
+    "formulas",
+    "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:17",
-    "offset": 1,
-    "size": 79,
+    "offset": 0,
+    "size": 20,
     "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of smallest positive solution to tan(x) = arctan(x).",
+  "id": "A362219",
+  "mentions": [
+    "A115365",
+    "A362220"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 103,
+    "source": "joeis"
+  }
+}

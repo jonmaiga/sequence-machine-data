@@ -2,13 +2,11 @@
   "description": "Beginning with 11, the smallest prime not already used beginning with the number obtained by placing the most significant digit to the right of the least significant digit.",
   "id": "A090227",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"

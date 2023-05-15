@@ -2,12 +2,10 @@
   "description": "a(n) = Floor[(Pi/2)*(Exp[3+n/PrimePi[n]])/Log[n]].",
   "id": "A090487",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 2,
     "size": 52,
     "source": "oeis-entry"

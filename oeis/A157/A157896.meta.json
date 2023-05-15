@@ -2,7 +2,6 @@
   "description": "Coefficients of polynomials of a prime like factor set (skip power): p(x,n)=Sum[x^i, {i, 0, (Prime[n] - 1)/2,2}]; q(n,n)=Sum[(-1)^i*x^i, {i, 0, (Prime[n] - 1)/2,2}]; t(x,n)=If[n == 0, 1, If[n == 1, x + 1, (x + 1)*p[x, n]*q[x, n]]].",
   "id": "A157896",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 71,
     "source": "oeis-entry"

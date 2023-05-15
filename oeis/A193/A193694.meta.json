@@ -7,14 +7,12 @@
     "A193692",
     "A193693"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "look",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:16",
     "offset": 0,
     "size": 80,
     "source": "oeis-bfile"

@@ -2,14 +2,12 @@
   "description": "a(n) = prime(n)*a(n-1) - a(n-2).",
   "id": "A146887",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:34",
     "offset": 0,
     "size": 19,
     "source": "oeis-bfile"

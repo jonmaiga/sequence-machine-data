@@ -2,13 +2,10 @@
   "description": "[ exp(1/12)*n! ].",
   "id": "A030937",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 23:27:55",
     "offset": 1,
     "size": 20,
     "source": "joeis"

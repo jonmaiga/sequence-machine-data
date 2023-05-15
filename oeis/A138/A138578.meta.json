@@ -2,13 +2,11 @@
   "description": "Numbers k such that 2^(2*k-7)-7 is prime.",
   "id": "A138578",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

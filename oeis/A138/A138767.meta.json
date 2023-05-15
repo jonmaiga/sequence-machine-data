@@ -2,13 +2,11 @@
   "description": "Triangle read by rows: T(n,k) = binomial(n,k)*binomial(2*n-2*k,n-1), n>=1, 0<=k<=floor(n/2+1/2).",
   "id": "A138767",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 40,
     "source": "oeis-entry"

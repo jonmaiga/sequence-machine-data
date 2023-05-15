@@ -2,13 +2,11 @@
   "description": "Number of graph minors of the n-Moebius ladder.",
   "id": "A353218",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 3,
     "size": 5,
     "source": "oeis-entry"

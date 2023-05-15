@@ -2,7 +2,6 @@
   "description": "Clone sequence C(2,3): a(1) = 1; for n > 1, a(n) is obtained by repeating each digit of a(n-1), summing the digits in groups of 3, and concatenating the digits of the sums.",
   "id": "A283195",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 36,
     "source": "oeis-entry"

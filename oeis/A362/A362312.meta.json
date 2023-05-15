@@ -1,0 +1,19 @@
+{
+  "description": "Sierpinski triangle read by rows and filled in the greedy way such that each row, each diagonal and each antidiagonal contains distinct nonnegative values.",
+  "id": "A362312",
+  "mentions": [
+    "A001316",
+    "A296339",
+    "A361740",
+    "A362313"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 83,
+    "source": "oeis-bfile"
+  }
+}

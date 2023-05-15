@@ -2,12 +2,10 @@
   "description": "a(n) = [ 1/(2*t(n+1) - t(n) - t(n+2)) ], where t(n) = tan(Pi/2 - 1/n) satisfies n-1 < t(n) < n for all n >= 1.",
   "id": "A024817",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:25:11",
     "offset": 1,
     "size": 41,
     "source": "joeis"

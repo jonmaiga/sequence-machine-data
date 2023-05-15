@@ -2,12 +2,10 @@
   "description": "Coordination sequence for a certain multiscale substitution tiling of the plane by squares.",
   "id": "A328074",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:56",
     "offset": 0,
     "size": 54,
     "source": "oeis-bfile"

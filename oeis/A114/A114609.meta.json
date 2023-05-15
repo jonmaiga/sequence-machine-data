@@ -2,13 +2,11 @@
   "description": "Decimal expansion of Sum_{k=-infinity..+infinity} log(2)/(2^(-k/2) + 2^(k/2)).",
   "id": "A114609",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 102,
     "source": "oeis-entry"

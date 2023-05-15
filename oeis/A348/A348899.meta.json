@@ -4,18 +4,16 @@
   "mentions": [
     "A000108",
     "A000984",
+    "A001622",
     "A007054",
     "A135573",
     "A348893"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-09-08 06:56:24",
     "offset": 0,
     "size": 30,
     "source": "joeis"

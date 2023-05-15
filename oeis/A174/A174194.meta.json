@@ -2,13 +2,11 @@
   "description": "10n-7 and 10n-3 are both primes.",
   "id": "A174194",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 56,
     "source": "oeis-entry"

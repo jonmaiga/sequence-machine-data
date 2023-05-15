@@ -1,0 +1,18 @@
+{
+  "description": "Number of symmetric compositions of n where differences between adjacent parts are in {-1,1}.",
+  "id": "A362500",
+  "mentions": [
+    "A003242",
+    "A016116",
+    "A173258",
+    "A350837"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

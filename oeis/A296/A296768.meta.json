@@ -2,12 +2,10 @@
   "description": "Initially let b(i)=i for all i > 0. On the k-th pass, exchange b(k+1) with b(b(k+1) + b(k)). The sequence is the limit of these sequences as k goes to infinity.",
   "id": "A296768",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 67,
     "source": "oeis-entry"

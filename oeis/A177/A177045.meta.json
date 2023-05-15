@@ -2,12 +2,10 @@
   "description": "The ordering of expressions built from numbers 2 and exponentiations according to their numeric values.",
   "id": "A177045",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 100,
     "source": "oeis-entry"

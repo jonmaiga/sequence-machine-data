@@ -2,14 +2,12 @@
   "description": "Number of cents in U.S. currency in 2005.",
   "id": "A112024",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

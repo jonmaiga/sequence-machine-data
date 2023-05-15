@@ -2,13 +2,11 @@
   "description": "Numbers n such that x^n + x^5 + 2 is irreducible over GF(3).",
   "id": "A058238",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 15,
     "source": "oeis-entry"

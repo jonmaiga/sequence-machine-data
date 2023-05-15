@@ -2,12 +2,10 @@
   "description": "Numbers n such that p|n and q|n+1 => p^q|n and q^p|n+1, where p is prime with multiplicity q and q prime with multiplicity p.",
   "id": "A249481",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:06",
     "offset": 1,
     "size": 45,
     "source": "oeis-bfile"

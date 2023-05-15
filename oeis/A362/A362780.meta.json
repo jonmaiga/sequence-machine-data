@@ -1,0 +1,17 @@
+{
+  "description": "Numbers n having some (possibly non-canonical) base-phi representation x.y, where y is the reverse of x.",
+  "id": "A362780",
+  "mentions": [
+    "A330672"
+  ],
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

@@ -2,13 +2,11 @@
   "description": "The sequence of Microsoft Windows versions that are integers.",
   "id": "A247652",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "dumb",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

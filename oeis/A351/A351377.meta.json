@@ -2,12 +2,10 @@
   "description": "Primes p such that if the next prime is q, (q-p-1)! mod p is prime.",
   "id": "A351377",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:26",
     "offset": 1,
     "size": 52,
     "source": "oeis-bfile"

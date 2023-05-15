@@ -2,13 +2,11 @@
   "description": "Consider the sequence b(k) such that b(k) and sigma(b(k)) end with the same digit in base 10. Sequence gives values of n such that b(n)/n = 10.",
   "id": "A065255",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 37,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "T(n,k) = Number of n X k array permutations with each element making a single king move.",
   "id": "A189186",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:13",
     "offset": 1,
     "size": 46,
     "source": "oeis-bfile"

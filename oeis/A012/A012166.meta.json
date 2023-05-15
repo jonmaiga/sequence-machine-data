@@ -2,13 +2,11 @@
   "description": "arctanh(tan(arcsinh(x))) = x+3/3!*x^3+49/5!*x^5+1915/7!*x^7+143905/9!*x^9...",
   "id": "A012166",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 17:55:18",
     "offset": 0,
     "size": 14,
     "source": "joeis"

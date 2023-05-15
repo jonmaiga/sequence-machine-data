@@ -8,14 +8,12 @@
     "A070064",
     "A322578"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 24,
     "size": 7,
     "source": "oeis-entry"

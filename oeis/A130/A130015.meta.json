@@ -2,14 +2,12 @@
   "description": "Number of isomers for different number of substitutions of hydrogen atoms by deuterium in the boat form of cyclohexane.",
   "id": "A130015",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 13,
     "source": "oeis-entry"

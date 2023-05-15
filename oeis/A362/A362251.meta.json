@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the unique index such that prime A362250(n) divides A231831(a(n)).",
+  "id": "A362251",
+  "mentions": [
+    "A000058",
+    "A007996",
+    "A180871",
+    "A231830",
+    "A231831",
+    "A362250",
+    "A362252",
+    "A362253"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

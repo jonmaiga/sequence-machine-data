@@ -32,15 +32,13 @@
     "A346698",
     "A346700"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 0,
     "size": 87,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

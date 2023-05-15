@@ -2,14 +2,12 @@
   "description": "Triangle T(n,k) = coefficient of x^n in expansion of [x(1+x^2)/(1-x^2)]^k = sum(n>=k, T(n,k) x^n).",
   "id": "A202328",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

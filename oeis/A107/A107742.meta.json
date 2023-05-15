@@ -42,15 +42,12 @@
     "A356941",
     "A356957"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:59",
     "offset": 0,
     "size": 52,
     "source": "oeis-bfile"

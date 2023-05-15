@@ -2,13 +2,11 @@
   "description": "Directed genus of the binary de Bruijn graph D_n.",
   "id": "A151998",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 35,
     "source": "oeis-entry"

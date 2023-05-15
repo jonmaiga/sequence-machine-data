@@ -2,13 +2,11 @@
   "description": "a(n) = the smallest positive integer with exactly n divisors and that, when represented in binary, contains the binary representation of n as a substring.",
   "id": "A161575",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:43",
     "offset": 1,
     "size": 34,
     "source": "oeis-bfile"

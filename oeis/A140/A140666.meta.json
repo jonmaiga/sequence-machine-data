@@ -2,7 +2,6 @@
   "description": "A triangle of coefficients of the difference of prime cyclotomic doubled polynomials: p(x,n)=(c(x,Prime[n])-c(x,2*Prime[n]))/x.",
   "id": "A140666",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 111,
     "source": "oeis-entry"

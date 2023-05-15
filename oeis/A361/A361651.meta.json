@@ -1,0 +1,23 @@
+{
+  "description": "Number T(n,k) of permutations p of [n] such that p(i), p(i+k), p(i+2k),... form an updown sequence for i in [k]; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A361651",
+  "mentions": [
+    "A000007",
+    "A000111",
+    "A000142",
+    "A000680",
+    "A248686",
+    "A333706",
+    "A361648"
+  ],
+  "tags": [
+    "look",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

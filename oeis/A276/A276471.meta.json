@@ -2,12 +2,10 @@
   "description": "Numbers m of the form 2*k^2 - 61 which are +-1 times a prime.",
   "id": "A276471",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 51,
     "source": "oeis-entry"

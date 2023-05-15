@@ -2,14 +2,12 @@
   "description": "T(n,k) = Number of (n+3) X (k+3) 0..1 arrays with no 4 X 4 subblock diagonal sum not equal the antidiagonal sum.",
   "id": "A258957",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:17",
     "offset": 1,
     "size": 26,
     "source": "oeis-bfile"

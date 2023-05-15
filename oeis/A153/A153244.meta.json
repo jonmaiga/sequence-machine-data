@@ -2,14 +2,12 @@
   "description": "Positions within the fractional part of Pi (.1415926535897932...) at which the digits of Pi (31415926535897932...) appear in order.",
   "id": "A153244",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 53,
     "source": "oeis-entry"

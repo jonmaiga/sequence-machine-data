@@ -9,14 +9,12 @@
     "A057192",
     "A103964"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "nice",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:50",
     "offset": 1,
     "size": 102,
     "source": "oeis-bfile"

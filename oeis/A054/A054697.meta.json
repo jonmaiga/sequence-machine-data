@@ -2,12 +2,10 @@
   "description": "3 consecutive primes differ by 2n or more starting at a(n).",
   "id": "A054697",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:24",
     "offset": 1,
     "size": 34,
     "source": "joeis"

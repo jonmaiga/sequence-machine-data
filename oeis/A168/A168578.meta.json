@@ -2,13 +2,11 @@
   "description": "Coefficients of polynomials of the characteristic polynomials of two matrix systems subtracted: M(n)=Table[Table[If[m == k == 1, n, If[m == k, (-1)^n, 0]], {m, 1, n}], {k, 1, n}];M1(n)=Table[Table[ If[m == k + 1, -1, If[k == n && m == 1, n, If[m == k == n, -n, 0]]], {m, 1, n}], {k, 1, n}]",
   "id": "A168578",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "sign",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 2,
     "size": 55,
     "source": "oeis-entry"

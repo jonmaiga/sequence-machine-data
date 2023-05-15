@@ -2,14 +2,12 @@
   "description": "Sum of the positive differences of the cubed parts in each partition of n into two parts.",
   "id": "A335639",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 11:36:23",
     "offset": 1,
     "size": 40,
     "source": "joeis"

@@ -2,7 +2,6 @@
   "description": "Expansion of (17-25*x-23*x^2+133*x^3)/(1-x)^4.",
   "id": "A118587",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:37:05",
     "offset": 0,
     "size": 35,
     "source": "joeis"

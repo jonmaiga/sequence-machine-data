@@ -2,13 +2,11 @@
   "description": "Number of zero-energy ground states for SUSY SYK model of one-dimensional fermions with n sites.",
   "id": "A294430",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 0,
     "size": 17,
     "source": "oeis-entry"

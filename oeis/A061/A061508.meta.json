@@ -2,14 +2,12 @@
   "description": "Smallest positive m such that n^m has at least n digits.",
   "id": "A061508",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-28 11:08:27",
     "offset": 1,
     "size": 69,
     "source": "joeis"

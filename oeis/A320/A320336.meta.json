@@ -22,13 +22,11 @@
     "A320309",
     "A320335"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 0,
     "size": 6,
     "source": "oeis-entry"

@@ -2,7 +2,6 @@
   "description": "Expansion of x*(5510*x^5-395*x^3-146*x^2-3*x-1) / (13340*x^4-52*x^2-1).",
   "id": "A142887",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 23:38:39",
     "offset": 1,
     "size": 19,
     "source": "joeis"

@@ -2,7 +2,6 @@
   "description": "A self-similar scaled version of a Devil's staircase as a triangular sequence.",
   "id": "A136642",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 88,
     "source": "oeis-entry"

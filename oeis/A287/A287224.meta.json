@@ -2,13 +2,11 @@
   "description": "Take all the digits of a(n) and a(n+1) then reorder them in a single integer: this will never produce a prime, no matter the rearrangement.",
   "id": "A287224",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:59",
     "offset": 1,
     "size": 83,
     "source": "oeis-bfile"

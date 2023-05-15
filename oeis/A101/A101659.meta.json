@@ -2,14 +2,12 @@
   "description": "Fixed point of morphism 0 -> 01, 1 -> 02, 2 -> 11.",
   "id": "A101659",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 15:58:49",
     "offset": 0,
     "size": 105,
     "source": "joeis"

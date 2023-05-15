@@ -1,14 +1,17 @@
 {
-  "description": "Triangle T(p,s) read by rows: coefficients in the recurrence of sequences which equal their p-th differences.",
+  "description": "Triangle T(n,k) read by rows: coefficients in the recurrence of sequences which equal their n-th differences.",
   "id": "A135356",
   "mentions": [
     "A000079",
+    "A000225",
     "A000749",
+    "A000984",
     "A007318",
     "A009545",
     "A014410",
     "A038503",
     "A038505",
+    "A051049",
     "A057079",
     "A130785",
     "A131562",
@@ -18,14 +21,12 @@
     "A140342",
     "A140343"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:23",
     "offset": 1,
     "size": 66,
     "source": "oeis-bfile"

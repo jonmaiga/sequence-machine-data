@@ -2,13 +2,11 @@
   "description": "Lexicographically earliest sequence of unique numbers such that for each digit \"d\" the gap to the nearest other digit \"d\" is equal to d.",
   "id": "A284516",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:55",
     "offset": 1,
     "size": 80,
     "source": "oeis-bfile"

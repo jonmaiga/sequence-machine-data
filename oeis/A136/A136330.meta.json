@@ -2,7 +2,6 @@
   "description": "A triangular sequence from 2^n times the coefficients of characteristic polynomials of a rational tridiagonal matrix type: M(3)= {{1/2,-1,0} {-1,1/2,-m}, {0,-1,1/2}}};m=-1; polynomial recursion associated is: p(x, n) = (1 - 2*x)*p(x, n - 1)/2 - p(x, n - 2);.",
   "id": "A136330",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 60,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Nonnegative integers that cannot be obtained using six or fewer 4's with any combination of addition, subtraction, multiplication, or division.",
   "id": "A171745",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 60,
     "source": "oeis-entry"

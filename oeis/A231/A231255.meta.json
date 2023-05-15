@@ -2,13 +2,11 @@
   "description": "a(n) is the smallest integer t such that every length-t walk from the origin (0,0) taking steps of either (0,1) or (1,0) is guaranteed to have n points that are collinear.",
   "id": "A231255",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

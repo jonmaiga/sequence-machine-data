@@ -2,14 +2,12 @@
   "description": "Number of Pierce-Engel hybrid expansions of 5/b, b>=5.",
   "id": "A135514",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 5,
     "size": 78,
     "source": "oeis-entry"

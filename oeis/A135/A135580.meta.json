@@ -2,13 +2,11 @@
   "description": "Largest prime visible as a substring of 10n+3.",
   "id": "A135580",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 67,
     "source": "oeis-entry"

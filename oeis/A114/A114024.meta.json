@@ -2,14 +2,12 @@
   "description": "Self-describing sequence: a(n) gives the number of primes in the sequence which are strictly < [a(n)]^2.",
   "id": "A114024",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 68,
     "source": "oeis-entry"

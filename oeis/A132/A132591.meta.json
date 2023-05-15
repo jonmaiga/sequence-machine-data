@@ -5,14 +5,12 @@
     "A108089",
     "A132590"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "bref",
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 3,
     "source": "oeis-entry"

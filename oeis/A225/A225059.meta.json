@@ -2,13 +2,11 @@
   "description": "Levels where minus signs appear in the infinite power tower representation of 2 = exp(exp(-exp(-exp(exp(-exp(exp(exp(-exp(-exp(-exp(...))))))))))).",
   "id": "A225059",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

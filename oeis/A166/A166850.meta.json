@@ -2,7 +2,6 @@
   "description": "Numbers n such that reversal(n!-n) is prime.",
   "id": "A166850",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "hard",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

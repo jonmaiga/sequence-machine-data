@@ -2,7 +2,6 @@
   "description": "Numerators (denominators are all 840) of x-coordinates of four points on the parabola y = x^2, x >= 0, at rational distances (distance between any two points is rational).",
   "id": "A104649",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "fini",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 4,
     "source": "oeis-entry"

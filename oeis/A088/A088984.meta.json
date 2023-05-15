@@ -2,13 +2,11 @@
   "description": "a(n) = (n!!)^2 - n!.",
   "id": "A088984",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 16:32:50",
     "offset": 2,
     "size": 19,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "T(n,k) = Number of distinct values of Sum_{i=0..n} x(i)*binomial(n,i) where the x(i) have values in 0..k.",
   "id": "A205542",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:25",
     "offset": 0,
     "size": 71,
     "source": "oeis-bfile"

@@ -8,7 +8,6 @@
     "A122767",
     "A123218"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "sign",
@@ -16,7 +15,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 82,
     "source": "oeis-entry"

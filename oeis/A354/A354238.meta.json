@@ -12,7 +12,6 @@
     "A245092",
     "A353908"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "cons",
     "easy",
@@ -20,7 +19,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

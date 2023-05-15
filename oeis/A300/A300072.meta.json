@@ -9,7 +9,6 @@
     "A300071",
     "A300073"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "cons",
     "easy",
@@ -17,7 +16,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 99,
     "source": "oeis-entry"

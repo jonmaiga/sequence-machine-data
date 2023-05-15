@@ -2,12 +2,10 @@
   "description": "a(n) = index j of the first composite number in the sequence prime(1)*...*prime(n-1)*prime(n+1)*...*prime(j) + prime(n).",
   "id": "A237196",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 87,
     "source": "oeis-entry"

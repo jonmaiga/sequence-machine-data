@@ -2,13 +2,11 @@
   "description": "Size of lexicographic code of length n, Hamming distance 12 and weight 12.",
   "id": "A031503",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 12,
     "size": 25,
     "source": "oeis-entry"

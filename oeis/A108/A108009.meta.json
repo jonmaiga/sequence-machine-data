@@ -2,12 +2,10 @@
   "description": "Coordination sequence for B_48 lattice",
   "id": "A108009",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 12:14:01",
     "offset": 0,
     "size": 14,
     "source": "joeis"

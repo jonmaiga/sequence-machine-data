@@ -14,16 +14,14 @@
     "A133910",
     "A179051"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

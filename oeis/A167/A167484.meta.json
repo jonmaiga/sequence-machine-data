@@ -2,14 +2,12 @@
   "description": "For n people on one side of a river, the number of ways they can all travel to the opposite side following the pattern of 2 sent, 1 returns, 2 sent, 1 returns, ..., 2 sent.",
   "id": "A167484",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:51",
     "offset": 1,
     "size": 17,
     "source": "oeis-bfile"

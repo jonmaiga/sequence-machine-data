@@ -2,13 +2,11 @@
   "description": "Triangle read by rows: T(n,k) is the least degree of a polynomial interpolating (i, prime(i)) for i from k to n.",
   "id": "A335435",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:07",
     "offset": 1,
     "size": 96,
     "source": "oeis-bfile"

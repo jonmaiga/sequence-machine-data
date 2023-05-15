@@ -2,12 +2,10 @@
   "description": "If a(n) = 0 mod 3 then a(n+1)=a(n)/3 otherwise a(n+1)=4*a(n)+-1 where sign is chosen to give a multiple of 3.",
   "id": "A057816",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-07-12 12:11:10",
     "offset": 1,
     "size": 98,
     "source": "joeis"

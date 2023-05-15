@@ -2,12 +2,10 @@
   "description": "Table 1 on page 46 in the Witten reference.",
   "id": "A122505",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

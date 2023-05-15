@@ -2,14 +2,12 @@
   "description": "Natural log radix 10 grafting integers.",
   "id": "A231914",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "base",
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

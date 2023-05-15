@@ -2,13 +2,11 @@
   "description": "First bit in fractional part of binary expansion of 6th root of n.",
   "id": "A023973",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:20:49",
     "offset": 1,
     "size": 102,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "Number of irreducible graphs with n edges.",
   "id": "A328976",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 3,
     "size": 8,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Irregular triangle M_2(n,k) read by rows: number of maximum k-matchings in rooted plane trees of size n, 1<=k<=n/2, 2<=n.",
   "id": "A219731",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 2,
     "size": 49,
     "source": "oeis-entry"

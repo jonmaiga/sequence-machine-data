@@ -2,13 +2,11 @@
   "description": "Decimal expansion of the maximal curvature of the tangent function.",
   "id": "A332527",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 0,
     "size": 86,
     "source": "oeis-entry"

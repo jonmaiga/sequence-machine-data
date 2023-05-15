@@ -2,7 +2,6 @@
   "description": "Triangle read by rows:s(n,m)=Sum[StirlingS2[n, k]*StirlingS1[n - k, m]* Binomial[n, k]*(-1)^(m - k), {k, 0, n}];t[n,m]=s[n,m]+s[n,n-m]",
   "id": "A174555",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 43,
     "source": "oeis-entry"

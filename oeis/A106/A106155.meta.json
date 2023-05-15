@@ -2,13 +2,11 @@
   "description": "Numbers n>2 such that p(n)# + (p(n+1))^2 or p(n+1)# - (p(n+2))^2 is prime or both are primes.",
   "id": "A106155",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 30,
     "source": "oeis-entry"

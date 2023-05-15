@@ -2,14 +2,12 @@
   "description": "Degrees of irreducible representations of group U3(5).",
   "id": "A008940",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 1,
     "size": 14,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Number of vertices in a planar Apollonian graph at iteration n.",
   "id": "A289521",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:03",
     "offset": 1,
     "size": 29,
     "source": "oeis-bfile"

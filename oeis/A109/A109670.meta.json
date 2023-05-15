@@ -2,12 +2,10 @@
   "description": "a(1) = 1; a(n) is the smallest integer greater than a(n-1) such that the largest element in the simple continued fraction for S(n)=1/a(1)+1/a(2)+...+1/a(n) equals 2^n.",
   "id": "A109670",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 17,
     "source": "oeis-entry"

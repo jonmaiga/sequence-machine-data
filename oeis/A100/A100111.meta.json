@@ -2,12 +2,10 @@
   "description": "a(n) = Sum_{k >= 0} prime(n-4k).",
   "id": "A100111",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:50",
     "offset": 1,
     "size": 50,
     "source": "oeis-bfile"

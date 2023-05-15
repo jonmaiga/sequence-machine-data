@@ -13,16 +13,13 @@
     "A006751",
     "A036058"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
-    "changed",
     "easy",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:03",
     "offset": 1,
     "size": 13,
     "source": "oeis-bfile"

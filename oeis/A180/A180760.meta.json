@@ -2,13 +2,11 @@
   "description": "T(n,k)=half the number of nXk binary arrays with each element equal to at least two neighbors",
   "id": "A180760",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:03",
     "offset": 1,
     "size": 76,
     "source": "oeis-bfile"

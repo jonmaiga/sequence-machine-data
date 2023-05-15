@@ -2,7 +2,6 @@
   "description": "Prime numbers ending in Hardy-Ramanujan number 1729.",
   "id": "A193742",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:16",
     "offset": 1,
     "size": 31,
     "source": "oeis-bfile"

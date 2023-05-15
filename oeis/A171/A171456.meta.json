@@ -2,14 +2,12 @@
   "description": "Triangle T(n, k) = coefficients of p(n, x) where p(n, x) = ((1-x^n)/(1-x))*p(n-1, x), read by rows.",
   "id": "A171456",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:55",
     "offset": 1,
     "size": 92,
     "source": "oeis-bfile"

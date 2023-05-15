@@ -2,14 +2,12 @@
   "description": "Maximum number of intersections in self-intersecting n-gon.",
   "id": "A105638",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:32:15",
     "offset": 3,
     "size": 54,
     "source": "joeis"

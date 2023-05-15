@@ -2,13 +2,11 @@
   "description": "Numbers n with the property that n^2 contains a sequence of four or more consecutive 8's.",
   "id": "A301938",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:26",
     "offset": 1,
     "size": 43,
     "source": "oeis-bfile"

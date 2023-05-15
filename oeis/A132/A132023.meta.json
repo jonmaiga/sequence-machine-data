@@ -1,24 +1,24 @@
 {
-  "description": "Decimal expansion of Product{k>=0, 1-1/(2*7^k)}.",
+  "description": "Decimal expansion of Product_{k>=0} 1-1/(2*7^k).",
   "id": "A132023",
   "mentions": [
     "A000217",
     "A048651",
     "A067080",
     "A098844",
+    "A109808",
     "A132019",
     "A132026",
     "A132031",
     "A132035"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
+    "changed",
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 103,
     "source": "oeis-entry"

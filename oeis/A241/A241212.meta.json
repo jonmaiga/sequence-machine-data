@@ -2,13 +2,11 @@
   "description": "Primes p with an even number of digits such that each digit in the second half of p is larger by 1 than the corresponding digit in the first half.",
   "id": "A241212",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:58",
     "offset": 1,
     "size": 36,
     "source": "oeis-bfile"

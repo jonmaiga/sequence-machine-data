@@ -2,13 +2,11 @@
   "description": "Closed 3-dimensional ball numbers (version 2): a(n)= number of integer points (i,j,k) contained in a closed ball of diameter n, centered at (1/2,0,0).",
   "id": "A053593",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:03",
     "offset": 0,
     "size": 41,
     "source": "oeis-bfile"

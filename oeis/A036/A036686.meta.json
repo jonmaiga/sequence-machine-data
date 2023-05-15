@@ -2,13 +2,11 @@
   "description": "Single-heap P-positions in misere version of Grundy's game.",
   "id": "A036686",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 0,
     "size": 17,
     "source": "oeis-entry"

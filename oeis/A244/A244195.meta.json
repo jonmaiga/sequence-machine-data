@@ -2,14 +2,12 @@
   "description": "Number of ways to arrange 3n^3 spins in an n^3 cubic lattice such that each site contains 3 spins, two of which are the same, and each spin is the same as the spins in the neighboring sites in the proper direction.",
   "id": "A244195",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Decimal expansion of the limit of the nested Zeta(1+Zeta(2+Zeta(3+Zeta(4+...)))).",
   "id": "A276539",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

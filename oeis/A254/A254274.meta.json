@@ -2,13 +2,11 @@
   "description": "Decimal expansion of Bohr magneton in eV T^-1.",
   "id": "A254274",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": -4,
     "size": 8,
     "source": "oeis-entry"

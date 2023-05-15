@@ -19,7 +19,6 @@
     "A124308",
     "A124310"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
@@ -27,7 +26,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:12",
     "offset": 1,
     "size": 47,
     "source": "oeis-bfile"

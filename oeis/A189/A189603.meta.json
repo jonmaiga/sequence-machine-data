@@ -1,15 +1,13 @@
 {
-  "description": "Number of n X n array permutations with each element not moving, or moving one space E, S or NW",
+  "description": "Number of n X n array permutations with each element not moving, or moving one space E, S or NW.",
   "id": "A189603",
   "mentions": [
     "A189610"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

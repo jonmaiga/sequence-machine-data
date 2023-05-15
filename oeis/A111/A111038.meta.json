@@ -2,12 +2,10 @@
   "description": "First i such that gcd(prime(i)+1, prime(i+1)+1, ..., prime(i+n)+1) > 2.",
   "id": "A111038",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 30,
     "source": "oeis-entry"

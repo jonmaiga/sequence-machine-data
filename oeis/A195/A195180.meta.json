@@ -2,12 +2,10 @@
   "description": "a(n) = 5*n - floor(3*n*sqrt(2)).",
   "id": "A195180",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:17",
     "offset": 0,
     "size": 70,
     "source": "oeis-bfile"

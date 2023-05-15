@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = product prime(d + 1), where d ranges over all the decimal digits of n.",
+  "id": "A359802",
+  "mentions": [
+    "A113581",
+    "A115078"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

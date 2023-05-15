@@ -2,14 +2,12 @@
   "description": "Digits of powers of 8.",
   "id": "A008569",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 12:48:25",
     "offset": 0,
     "size": 99,
     "source": "joeis"

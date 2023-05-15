@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of full binary trees with n leaves, each internal node having the heights of its two subtrees weakly increasing left to right, and with k internal nodes having two subtrees of equal height.",
+  "id": "A360985",
+  "mentions": [
+    "A000108",
+    "A002620",
+    "A045761",
+    "A335833"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,16 +1,14 @@
 {
-  "description": "Numbers n such that the six numbers 1*prime(n)*prime(n+1), prime(n)*1*prime(n+1), prime(n)*prime(n+1)*1, 1*prime(n-1)*prime(n), prime(n-1)*1*prime(n) and prime(n-1)*prime(n)*1 are primes.",
+  "description": "Numbers k such that the six numbers 1.prime(k).prime(k+1), prime(k).1.prime(k+1), prime(k).prime(k+1).1, 1.prime(k-1).prime(k), prime(k-1).1.prime(k) and prime(k-1).prime(k).1, where \".\" denotes concatenation, are primes.",
   "id": "A090871",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
-    "more",
+    "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
-    "size": 11,
+    "size": 26,
     "source": "oeis-entry"
   }
 }

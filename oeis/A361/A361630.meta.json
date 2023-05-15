@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the numerator of the median of the distinct prime factors of n.",
+  "id": "A361630",
+  "mentions": [
+    "A001221",
+    "A027748",
+    "A323171",
+    "A361565",
+    "A361631",
+    "A361632"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

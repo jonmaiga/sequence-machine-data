@@ -2,12 +2,10 @@
   "description": "Sum k!, where sum is over positive integers k <= n with gcd(k,n) = 1.",
   "id": "A057795",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-07-12 12:11:10",
     "offset": 1,
     "size": 21,
     "source": "joeis"

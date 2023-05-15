@@ -2,12 +2,10 @@
   "description": "Sprague-Grundy values for octal games .152 and .1521.",
   "id": "A071471",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 87,
     "source": "oeis-entry"

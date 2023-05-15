@@ -2,13 +2,11 @@
   "description": "The least k such that the number of real roots of Sum_{i=0..j} (i+1)^k*x^i is j for j = 0,1,...,n or -1 if no solution for this n exists.",
   "id": "A346379",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 0,
     "size": 51,
     "source": "oeis-entry"

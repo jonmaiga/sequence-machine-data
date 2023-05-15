@@ -2,13 +2,11 @@
   "description": "Number of ways to partition n elements into pie slices each with an odd number of elements allowing the pie to be turned over.",
   "id": "A032277",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:41",
     "offset": 1,
     "size": 41,
     "source": "oeis-bfile"

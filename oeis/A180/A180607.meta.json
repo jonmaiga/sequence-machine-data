@@ -2,14 +2,12 @@
   "description": "Number of commutation classes of reduced words for the longest element of a Weyl group of type D_n.",
   "id": "A180607",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

@@ -5,14 +5,12 @@
     "A256243",
     "A256244"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 80,
     "source": "oeis-entry"

@@ -7,15 +7,12 @@
     "A008975",
     "A361351"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
-    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:44:22",
     "offset": 0,
     "size": 18,
     "source": "oeis-bfile"

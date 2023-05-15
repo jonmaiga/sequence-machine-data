@@ -18,14 +18,12 @@
     "A120053",
     "A126279"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "less",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:14",
     "offset": 1,
     "size": 53,
     "source": "oeis-bfile"

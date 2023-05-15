@@ -2,13 +2,11 @@
   "description": "Number of iterations used by a 2D cutting stock problem related algorithm.",
   "id": "A090380",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn",
     "obsc"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

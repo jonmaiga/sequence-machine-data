@@ -1,16 +1,14 @@
 {
-  "description": "If A070281(n) not is 0, then a(n) is index of the starting primes for form A070281(n), or a(n) = 0 if A070281(n) = 0.",
+  "description": "If A070281(n) is not 0, then a(n) is index of the starting primes for form A070281(n), or a(n) = 0 if A070281(n) = 0.",
   "id": "A287748",
   "mentions": [
     "A013916",
     "A070281"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 85,
     "source": "oeis-entry"

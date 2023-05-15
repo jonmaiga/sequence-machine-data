@@ -2,15 +2,16 @@
   "description": "Smallest prime of the form (n^k-1)/(n-1), or 0 if no such prime exists.",
   "id": "A084738",
   "mentions": [
+    "A006093",
     "A076481",
-    "A084740"
+    "A084740",
+    "A285642"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 2,
     "size": 33,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Twin prime numbers of the form : i^2+j^3, as sum of square and cube.",
   "id": "A143798",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 46,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Number of steps for {2,3} fairy knight to reach (n,n) on infinite chessboard.",
   "id": "A018841",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 13:54:11",
     "offset": 0,
     "size": 78,
     "source": "joeis"

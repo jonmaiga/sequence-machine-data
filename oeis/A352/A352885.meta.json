@@ -2,12 +2,10 @@
   "description": "Numbers k such that there are no trees with k edge coverings.",
   "id": "A352885",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 60,
     "source": "oeis-entry"

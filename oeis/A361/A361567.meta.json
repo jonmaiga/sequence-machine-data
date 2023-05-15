@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. exp(x^2/2 * (1+x)^2).",
+  "id": "A361567",
+  "mentions": [
+    "A047974",
+    "A335344",
+    "A361278",
+    "A361568",
+    "A361569"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

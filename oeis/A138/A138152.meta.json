@@ -2,7 +2,6 @@
   "description": "A double recursive procedure that produces primes by their gaps in a triangular sequence: a(n, m) = a(n - 1, m) + 10 and a(n,m) + 2*ceiling(log(1+k)), k <= n.",
   "id": "A138152",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 57,
     "source": "oeis-entry"

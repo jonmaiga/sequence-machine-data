@@ -2,7 +2,6 @@
   "description": "Sign weighted matrices n X n:example {{2 w[2], w[0], w[1]}, {3 w[0], 2 w[1], w[2]}, {3 w[1], 3 w[2], 2 w[0]}} are made into monomials using w[n]=1 if n<>0, x if n==0. The coefficients of the monomials form a triangular sequence.",
   "id": "A140326",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 60,
     "source": "oeis-entry"

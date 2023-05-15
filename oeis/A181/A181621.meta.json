@@ -2,13 +2,11 @@
   "description": "Table by rows, the number E(n;2) of binary-alphabet topological epsilon-machines as a function of the number of states n and edges k.",
   "id": "A181621",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 29,
     "source": "oeis-entry"

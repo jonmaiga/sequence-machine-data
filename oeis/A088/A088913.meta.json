@@ -2,13 +2,11 @@
   "description": "a(n) = (Lucas(2n) + Lucas(2n+1)*phi)/kappa(phi/Fibonacci(4n)) where kappa(x) is the sum of successive remainders in computing the Euclidean algorithm for (1,x).",
   "id": "A088913",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"

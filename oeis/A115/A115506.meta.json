@@ -3,17 +3,15 @@
   "id": "A115506",
   "mentions": [
     "A115507",
-    "A115508"
+    "A115508",
+    "A115509"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
-    "size": 20,
+    "size": 29,
     "source": "oeis-entry"
   }
 }

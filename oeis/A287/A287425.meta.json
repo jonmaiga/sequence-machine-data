@@ -2,14 +2,12 @@
   "description": "Number of maximal matchings in the n-gear graph.",
   "id": "A287425",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:59",
     "offset": 1,
     "size": 33,
     "source": "oeis-bfile"

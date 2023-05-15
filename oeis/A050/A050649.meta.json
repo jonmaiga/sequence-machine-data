@@ -6,13 +6,11 @@
     "A050643",
     "A050648"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

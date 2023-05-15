@@ -2,13 +2,11 @@
   "description": "G.f.: Sum_{n>=0} Product_{k=1..n} ((1+2*x)^k - 1)/((1+2*x)^k + 1).",
   "id": "A208816",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:28",
     "offset": 0,
     "size": 24,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "a(n) = n+1 if n+1 is a prime else a(n) = 2n+1 if 2n+1 is a prime else a(n) = 2*(2n+1) +1 =g(n) if this number is prime else the next candidate is 2* (g(n) +1 etc.",
   "id": "A110359",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 62,
     "source": "oeis-entry"

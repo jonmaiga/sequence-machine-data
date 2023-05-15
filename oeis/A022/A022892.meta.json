@@ -2,12 +2,10 @@
   "description": "n-th index k such that p(k) + p(k+9) = p(k+3) + p(k+6).",
   "id": "A022892",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:14:29",
     "offset": 1,
     "size": 53,
     "source": "joeis"

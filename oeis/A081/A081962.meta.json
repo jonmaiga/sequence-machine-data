@@ -2,12 +2,10 @@
   "description": "Ordered semiperimeters of primitive Pythagorean triangles with an even short leg (or an odd long leg).",
   "id": "A081962",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:33",
     "offset": 1,
     "size": 53,
     "source": "oeis-bfile"

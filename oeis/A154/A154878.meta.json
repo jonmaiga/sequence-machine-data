@@ -2,13 +2,11 @@
   "description": "Numbers whose trajectory under iteration of sum of cubes of digits eventually turns out to be 370",
   "id": "A154878",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 30,
     "source": "oeis-entry"

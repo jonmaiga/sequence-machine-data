@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest nonnegative number whose British English name has the letter \"e\" in the n-th position.",
+  "id": "A362121",
+  "mentions": [
+    "A164790",
+    "A362120",
+    "A362122"
+  ],
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

@@ -2,13 +2,11 @@
   "description": "Composite numbers n such that Sum_{k=0..q} d(k)*10^k is prime where d(k) are the q+1 distinct prime factors of n, d(0)< d(1) < ... < d(q).",
   "id": "A179996",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 47,
     "source": "oeis-entry"

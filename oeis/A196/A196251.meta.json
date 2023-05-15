@@ -1,18 +1,19 @@
 {
-  "description": "Leading terms of successive absolute differences of the partition numbers (A000041)",
+  "description": "Leading terms of successive absolute differences of the partition numbers (A000041).",
   "id": "A196251",
   "mentions": [
     "A000041",
-    "A036262"
+    "A036262",
+    "A362451"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
+    "changed",
+    "look",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 0,
     "size": 126,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -2,13 +2,11 @@
   "description": "Sigma-decagonal numbers: numbers n such that sigma(n) is a decagonal number, that is, sigma(n)=4*m^2-3m for some nonnegative integer m.",
   "id": "A180937",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:04",
     "offset": 0,
     "size": 45,
     "source": "oeis-bfile"

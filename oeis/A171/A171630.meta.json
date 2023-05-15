@@ -2,14 +2,11 @@
   "description": "10^n*(5+3*10^n)+3",
   "id": "A171630",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 0,
     "size": 12,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Primes p such that p^q-2 is prime for some prime q.",
   "id": "A147791",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 2,
     "size": 56,
     "source": "oeis-entry"

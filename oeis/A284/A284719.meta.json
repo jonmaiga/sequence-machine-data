@@ -2,13 +2,11 @@
   "description": "Number of indecomposable permutations avoiding the pattern 1234.",
   "id": "A284719",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 24,
     "source": "oeis-entry"

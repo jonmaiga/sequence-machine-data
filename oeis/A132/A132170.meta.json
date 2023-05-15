@@ -2,12 +2,10 @@
   "description": "Primes of the form (3pq - q - 6)/(3p + 1), where p and q are prime.",
   "id": "A132170",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 54,
     "source": "oeis-entry"

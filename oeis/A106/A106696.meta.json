@@ -2,14 +2,12 @@
   "description": "Fractal-jump sequence (FJS) based on the prime numbers.",
   "id": "A106696",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 2,
     "size": 66,
     "source": "oeis-entry"

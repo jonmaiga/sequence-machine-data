@@ -2,13 +2,11 @@
   "description": "a(n) = ((((((((1723*n mod 1657) mod 861) mod 753) mod 95) * 1602) + 505) mod 786) mod 506) mod 488.",
   "id": "A340344",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 54,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "sech(sec(x)*sinh(x))=1-1/2!*x^2-11/4!*x^4-37/6!*x^6+7145/8!*x^8...",
   "id": "A012820",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-02 19:26:21",
     "offset": 0,
     "size": 14,
     "source": "joeis"

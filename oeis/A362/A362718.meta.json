@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of e.g.f. cos(x)*exp(x^2/2) = Sum_{n>=0} a(n)*x^(2*n)/(2*n)!.",
+  "id": "A362718",
+  "mentions": [
+    "A001464"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

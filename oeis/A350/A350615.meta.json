@@ -3,16 +3,16 @@
   "id": "A350615",
   "mentions": [
     "A350616",
-    "A350877"
+    "A350877",
+    "A362107",
+    "A362108"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

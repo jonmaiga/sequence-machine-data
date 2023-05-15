@@ -2,14 +2,12 @@
   "description": "Numbers K with 2n digits such that the two n-digit numbers formed by the alternate digits are divisors of K.",
   "id": "A113600",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:04",
     "offset": 1,
     "size": 47,
     "source": "oeis-bfile"

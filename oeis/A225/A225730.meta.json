@@ -1,21 +1,21 @@
 {
-  "description": "Numbers n such that n < d(n)^(22/10), where d(n) is the number of divisors of n.",
+  "description": "Numbers k such that k < d(k)^(22/10), where d(k) is the number of divisors of k.",
   "id": "A225730",
   "mentions": [
+    "A000005",
     "A034884",
     "A056757",
     "A175495",
     "A225729",
-    "A225738"
+    "A225738",
+    "A353448"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:43",
     "offset": 1,
     "size": 61,
     "source": "oeis-bfile"

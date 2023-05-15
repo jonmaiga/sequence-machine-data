@@ -2,13 +2,11 @@
   "description": "Composite n such that both n and its reversal in base 10 are squarefree, none of the prime factors of n are palindromes and the prime factors of the reversal of n are the reversals of those of n.",
   "id": "A083526",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 33,
     "source": "oeis-entry"

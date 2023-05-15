@@ -2,6 +2,7 @@
   "description": "a(n) is the n-th J_2-prime (Josephus_2 prime).",
   "id": "A163782",
   "mentions": [
+    "A025480",
     "A051732",
     "A054639",
     "A071642",
@@ -11,13 +12,11 @@
     "A163783",
     "A163800"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:08:27",
     "offset": 1,
     "size": 48,
     "source": "joeis"

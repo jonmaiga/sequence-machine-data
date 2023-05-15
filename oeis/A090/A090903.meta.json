@@ -2,13 +2,11 @@
   "description": "Let f(n) be formed by concatenation of first n numbers after the decimal point; a(n) = the n-th digit of 1/f(n) from the most significant side ignoring the decimal point.",
   "id": "A090903",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

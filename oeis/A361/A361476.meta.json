@@ -1,0 +1,17 @@
+{
+  "description": "Antidiagonal sums of A361475.",
+  "id": "A361476",
+  "mentions": [
+    "A026898",
+    "A361475"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

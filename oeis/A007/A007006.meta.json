@@ -2,13 +2,11 @@
   "description": "Number of edges in graph of maximal intersecting families of sets.",
   "id": "A007006",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

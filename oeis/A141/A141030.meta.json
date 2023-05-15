@@ -2,14 +2,12 @@
   "description": "a(n)=If[Prime[n + 1]^2 - Prime[n]*Prime[n + 2] > 0, If[Mod[Prime[n]*Sqrt[5], 1] >= 0.5, 0, 1], If[Mod[Prime[n]*Sqrt[7], 1] >= 0.5, 2, 3]].",
   "id": "A141030",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "less",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 100,
     "source": "oeis-entry"

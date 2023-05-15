@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the smallest positive integer k such that n can be expressed as the arithmetic mean of k nonzero squares.",
+  "id": "A360530",
+  "mentions": [
+    "A000290",
+    "A000378",
+    "A000404",
+    "A000408",
+    "A000414",
+    "A000534",
+    "A047700",
+    "A362068",
+    "A362110"
+  ],
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,13 +2,11 @@
   "description": "E.g.f. A(x) satisfies: A(x) = cos(x/A(x)) + sin(x/A(x)).",
   "id": "A195135",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 0,
     "size": 20,
     "source": "oeis-entry"

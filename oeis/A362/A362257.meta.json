@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 2*Q(n) - n, where Q(n) is Hofstadter's Q-sequence A005185.",
+  "id": "A362257",
+  "mentions": [
+    "A005185",
+    "A239913"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

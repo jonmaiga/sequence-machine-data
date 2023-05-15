@@ -2,12 +2,10 @@
   "description": "Short legs of more than 3 primitive Pythagorean triangles.",
   "id": "A138605",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:26",
     "offset": 1,
     "size": 48,
     "source": "oeis-bfile"

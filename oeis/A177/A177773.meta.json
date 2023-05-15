@@ -2,12 +2,10 @@
   "description": "a(n) = [x^n] A_{n-1}(x)/n for n>2 where g.f. A(x) = Sum_{n>=1} a(n)*x^n and where A_{n+1}(x) = A_{n}(A(x)) denotes iteration with A_0(x)=x.",
   "id": "A177773",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 15,
     "source": "oeis-entry"

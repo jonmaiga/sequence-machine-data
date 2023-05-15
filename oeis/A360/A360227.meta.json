@@ -1,0 +1,16 @@
+{
+  "description": "The succession of the digits of the sequence is the same when each term is multiplied by 11.",
+  "id": "A360227",
+  "mentions": [
+    "A362433"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

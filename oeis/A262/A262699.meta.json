@@ -2,14 +2,12 @@
   "description": "List of currency denominations such that any value x > 0 is represented in exactly x ways as a sum of distinct denominations, where a repeated value represents a bill and a coin which count as distinct denominations.",
   "id": "A262699",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 20:50:36",
     "offset": 1,
     "size": 42,
     "source": "joeis"

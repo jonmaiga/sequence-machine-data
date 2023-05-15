@@ -2,14 +2,12 @@
   "description": "Start with the set {0, 1}. At each step replace the set with the set of means of all its nonempty subsets. a(n) is the size of the set after the n-th step.",
   "id": "A273525",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 0,
     "size": 6,
     "source": "oeis-entry"

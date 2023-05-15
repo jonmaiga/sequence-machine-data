@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 1/sqrt(1 - 4*x/(1-x)^5).",
+  "id": "A359758",
+  "mentions": [
+    "A085362",
+    "A110170",
+    "A162478",
+    "A359489",
+    "A360132"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

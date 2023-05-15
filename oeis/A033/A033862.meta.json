@@ -2,13 +2,11 @@
   "description": "Sorted number reached from starter n in Sort-then-add sequence, or -1 if never reaches sorted number.",
   "id": "A033862",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:08:39",
     "offset": 1,
     "size": 71,
     "source": "joeis"

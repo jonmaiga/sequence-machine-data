@@ -2,7 +2,6 @@
   "description": "Triangular sequence from antidiagonal expansion of: p(x,m) = x*(x + 1)^(m - 1)/(1 - Sum[x^i, {i, 1, m}]).",
   "id": "A174802",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 45,
     "source": "oeis-entry"

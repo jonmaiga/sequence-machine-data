@@ -1,15 +1,13 @@
 {
-  "description": "a(n) is the number of complete squares that fit inside the circle with radius n, drawn on squared paper.",
+  "description": "a(n) is the number of complete squares that fit inside the circle with radius n, drawn on squared paper at (0, 0).",
   "id": "A119677",
   "mentions": [
     "A001182"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 45,
     "source": "oeis-entry"

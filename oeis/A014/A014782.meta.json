@@ -2,13 +2,11 @@
   "description": "Triangle of numbers associated with Genocchi numbers.",
   "id": "A014782",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2022-05-03 11:44:18",
     "offset": 1,
     "size": 43,
     "source": "joeis"

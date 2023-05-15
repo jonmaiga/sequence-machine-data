@@ -16,14 +16,12 @@
     "A285710",
     "A285711"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "formulas",
     "look",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:30",
     "offset": 2,
     "size": 80,
     "source": "oeis-bfile"

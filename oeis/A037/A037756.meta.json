@@ -2,7 +2,6 @@
   "description": "Base 9 digits are, in order, the first n terms of the periodic sequence with initial period 2,3,1,0.",
   "id": "A037756",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 10:58:17",
     "offset": 1,
     "size": 17,
     "source": "joeis"

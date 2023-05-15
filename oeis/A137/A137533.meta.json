@@ -2,13 +2,11 @@
   "description": "Number of permutations in S_n avoiding {bar 1}432 (i.e., every occurrence of 432 is contained in an occurrence of a 1432).",
   "id": "A137533",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:25",
     "offset": 1,
     "size": 21,
     "source": "oeis-bfile"

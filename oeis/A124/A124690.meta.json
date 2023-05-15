@@ -2,7 +2,6 @@
   "description": "Position of the first n in the decimal expansion of Pi^n, or -1 if the digits of n never appear.",
   "id": "A124690",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 80,
     "source": "oeis-entry"

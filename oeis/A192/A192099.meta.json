@@ -2,13 +2,11 @@
   "description": "Least number of parts in a partition of n into signed terms of the form 2^k-1.",
   "id": "A192099",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:15",
     "offset": 1,
     "size": 88,
     "source": "oeis-bfile"

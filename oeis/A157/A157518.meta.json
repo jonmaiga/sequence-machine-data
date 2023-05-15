@@ -2,13 +2,11 @@
   "description": "Symmetric array T(n,m) of the number of 2-convex polygons with 2n horizontal and 2m vertical steps, read along diagonals.",
   "id": "A157518",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 4,
     "size": 31,
     "source": "oeis-entry"

@@ -4,16 +4,18 @@
   "mentions": [
     "A000798",
     "A001831",
-    "A006860"
+    "A006860",
+    "A223911",
+    "A228551",
+    "A361920",
+    "A361951"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 0,
     "size": 19,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

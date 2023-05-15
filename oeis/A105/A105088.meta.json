@@ -2,14 +2,12 @@
   "description": "Sum of the sides of ordered 2 X 2 prime squares.",
   "id": "A105088",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 44,
     "source": "oeis-entry"

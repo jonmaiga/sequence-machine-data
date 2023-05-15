@@ -5,14 +5,12 @@
     "A023022",
     "A066170"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nice",
     "sign",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:24",
     "offset": 1,
     "size": 75,
     "source": "oeis-bfile"

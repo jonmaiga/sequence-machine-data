@@ -2,14 +2,12 @@
   "description": "a(n) = binomial(n+6,n)*binomial(n+10,n).",
   "id": "A105253",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:15:23",
     "offset": 0,
     "size": 23,
     "source": "joeis"

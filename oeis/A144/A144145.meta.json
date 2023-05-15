@@ -2,13 +2,11 @@
   "description": "A positive integer n is included if n contains the same number of 0's as 1's when represented in binary and the number of 0's (or the number of 1's) divides n.",
   "id": "A144145",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Number of maximal independent vertex sets (and minimal vertex covers) in the n-tetrahedral graph.",
   "id": "A290611",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 6,
     "size": 5,
     "source": "oeis-entry"

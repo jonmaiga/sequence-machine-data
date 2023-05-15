@@ -4,14 +4,12 @@
   "mentions": [
     "A056487"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 22:42:38",
     "offset": 1,
     "size": 27,
     "source": "joeis"

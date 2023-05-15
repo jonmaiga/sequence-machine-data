@@ -1,15 +1,14 @@
 {
-  "description": "Number of nX7 0..1 arrays with every element unequal to 0, 1, 2, 5 or 6 king-move adjacent elements, with upper left element zero.",
+  "description": "Number of n X 7 0..1 arrays with every element unequal to 0, 1, 2, 5 or 6 king-move adjacent elements, with upper left element zero.",
   "id": "A304603",
   "mentions": [
     "A304604"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:29",
     "offset": 1,
     "size": 22,
     "source": "oeis-bfile"

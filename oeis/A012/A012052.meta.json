@@ -2,12 +2,10 @@
   "description": "sin(sin(arctanh(x)))=x-4/5!*x^5-136/7!*x^7-7408/9!*x^9-644416/11!*x^11...",
   "id": "A012052",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 04:54:27",
     "offset": 0,
     "size": 14,
     "source": "joeis"

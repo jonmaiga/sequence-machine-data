@@ -2,13 +2,11 @@
   "description": "The successive absolute differences of the \"mixed\" pairs rebuild the starting sequence (see Comments for the definition of a \"mixed pair\").",
   "id": "A276227",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:41",
     "offset": 1,
     "size": 93,
     "source": "oeis-bfile"

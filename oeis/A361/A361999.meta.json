@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the smallest k such that A361902(k) = n, or -1 if no such k exists.",
+  "id": "A361999",
+  "mentions": [
+    "A260350",
+    "A361902"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

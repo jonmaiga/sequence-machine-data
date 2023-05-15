@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = gcd(n, phi(n)^2) / gcd(n, phi(n)).",
+  "id": "A362414",
+  "mentions": [
+    "A000010",
+    "A000188",
+    "A009195",
+    "A127473"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

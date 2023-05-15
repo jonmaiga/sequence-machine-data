@@ -2,13 +2,11 @@
   "description": "Number of generalized retarded functions in quantum field theory.",
   "id": "A034997",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

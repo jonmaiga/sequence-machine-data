@@ -2,14 +2,12 @@
   "description": "Period 8: repeat [0, 1, 0, 0, 0, 0, -1, 0].",
   "id": "A132151",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-26 10:46:41",
     "offset": 0,
     "size": 88,
     "source": "joeis"

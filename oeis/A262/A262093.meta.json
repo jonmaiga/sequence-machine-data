@@ -2,14 +2,12 @@
   "description": "Narcissistic numbers greater than 1 with the property that, when a suitable number of zeros is prepended to the decimal notation x=(x_1x_2...x_m)_{10}, we have x_1^1 + x_2^2 + ... + x_m^m = x.",
   "id": "A262093",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "base",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 2,
     "size": 20,
     "source": "oeis-entry"

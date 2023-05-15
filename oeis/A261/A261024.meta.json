@@ -13,7 +13,6 @@
     "A263416",
     "A263417"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "cons",
     "easy",
@@ -21,7 +20,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:20",
     "offset": 0,
     "size": 105,
     "source": "oeis-bfile"

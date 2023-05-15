@@ -8,7 +8,6 @@
     "A230142",
     "A230143"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "frac",
@@ -17,7 +16,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:33",
     "offset": 0,
     "size": 36,
     "source": "oeis-bfile"

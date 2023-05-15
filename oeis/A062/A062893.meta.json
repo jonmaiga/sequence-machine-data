@@ -2,16 +2,14 @@
   "description": "Number of squares that can be obtained by using some or all of the digits of n.",
   "id": "A062893",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 0,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

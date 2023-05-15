@@ -8,14 +8,11 @@
     "A228050",
     "A228052"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
-    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:48",
     "offset": 1,
     "size": 33,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Dimension of the space spanned by the symmetric functions L_lambda of Gessel and Reutenauer, where lambda ranges over all partitions of n.",
   "id": "A121152",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 16,
     "source": "oeis-entry"

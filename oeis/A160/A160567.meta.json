@@ -5,13 +5,11 @@
     "A050512",
     "A160565"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 17,
     "source": "oeis-entry"

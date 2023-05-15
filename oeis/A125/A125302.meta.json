@@ -2,12 +2,10 @@
   "description": "Nonprime numbers n such that n cannot be a semiperimeter of an integer Heronian triangle.",
   "id": "A125302",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

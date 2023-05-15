@@ -2,13 +2,11 @@
   "description": "Primes of the form 9*(p^4)-2 or 9*(p^4)+2, arising in Paley-Hadamard difference sets.",
   "id": "A157430",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 21,
     "source": "oeis-entry"

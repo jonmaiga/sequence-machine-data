@@ -7,7 +7,6 @@
     "A038572",
     "A055120"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "base",
     "easy",
@@ -16,7 +15,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:00",
     "offset": 1,
     "size": 70,
     "source": "oeis-bfile"

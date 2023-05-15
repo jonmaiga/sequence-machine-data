@@ -2,14 +2,12 @@
   "description": "Sum of the areas of all D-elevated skew paths of semi-length n.",
   "id": "A305554",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 14:55:14",
     "offset": 0,
     "size": 26,
     "source": "joeis"

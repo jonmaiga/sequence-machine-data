@@ -2,12 +2,10 @@
   "description": "Sum of pairs of consecutive primes ( p(2n-1)+p(2n) ) and sum of pairs of consecutive nonprime numbers ( np(2n-1)+np(2n) ) in order.",
   "id": "A123133",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 58,
     "source": "oeis-entry"

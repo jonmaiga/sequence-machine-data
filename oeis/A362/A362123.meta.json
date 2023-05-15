@@ -1,0 +1,16 @@
+{
+  "description": "Number of letters in the British English name of n, excluding spaces and hyphens.",
+  "id": "A362123",
+  "mentions": [
+    "A005589"
+  ],
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 121,
+    "source": "oeis-entry"
+  }
+}

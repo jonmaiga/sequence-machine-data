@@ -2,13 +2,11 @@
   "description": "a(n) is the number of free, tree-like polyiamonds, of size 3*n+1, with 120-degree rotational symmetry formed of a central triangle and identical, non-intersecting snakes leading from each of its sides.",
   "id": "A358709",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 0,
     "size": 20,
     "source": "oeis-entry"

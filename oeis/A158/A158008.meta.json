@@ -2,12 +2,10 @@
   "description": "Positive integers for which Bauer's identical congruence holds.",
   "id": "A158008",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 60,
     "source": "oeis-entry"

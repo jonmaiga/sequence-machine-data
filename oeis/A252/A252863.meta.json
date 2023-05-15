@@ -2,13 +2,11 @@
   "description": "Number of Eulerian paths in a lattice graph bounded by the four equations x+y=1, x+y=2n, x-y=2, and x-y=-2.",
   "id": "A252863",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:11",
     "offset": 1,
     "size": 18,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "First digit other than 9 in the fractional part of the decimal expansion of (1/1000^n)^(1/1000^n).",
   "id": "A106043",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 87,
     "source": "oeis-entry"

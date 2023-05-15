@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that k and k+1 are both primitive Zumkeller numbers (A180332).",
+  "id": "A361934",
+  "mentions": [
+    "A006037",
+    "A083207",
+    "A180332",
+    "A283418",
+    "A328327",
+    "A330872",
+    "A334882"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -2,13 +2,11 @@
   "description": "Det(M_n) where M_n is the n X n matrix m(i,j)=1 if floor(i/j) is even, 0 otherwise.",
   "id": "A071569",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 77,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "McKay-Thompson series of class 20A for the Monster group.",
   "id": "A112158",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 09:57:55",
     "offset": -1,
     "size": 40,
     "source": "joeis"

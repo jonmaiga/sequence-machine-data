@@ -6,14 +6,12 @@
     "A350301",
     "A350302"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 2,
     "size": 56,
     "source": "oeis-entry"

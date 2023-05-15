@@ -2,13 +2,11 @@
   "description": "G.f. satisfies: A(x) = x^2 + d/dx A(A(x))/2.",
   "id": "A212381",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 2,
     "size": 20,
     "source": "oeis-entry"

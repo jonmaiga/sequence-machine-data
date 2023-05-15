@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that there are precisely 18 groups of order n.",
+  "description": "Numbers m such that there are precisely 18 groups of order m.",
   "id": "A298909",
   "mentions": [
     "A000001",
@@ -9,7 +9,6 @@
     "A054397",
     "A055561",
     "A135850",
-    "A249155",
     "A249550",
     "A249551",
     "A249552",
@@ -17,21 +16,21 @@
     "A249554",
     "A249555",
     "A292896",
+    "A294155",
     "A294156",
     "A294949",
     "A295161",
     "A298910",
     "A298911"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 46,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

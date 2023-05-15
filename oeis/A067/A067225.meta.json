@@ -2,13 +2,11 @@
   "description": "Numbers n such that n is a square and remains a square when its leading digit is increased by one.",
   "id": "A067225",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:28",
     "offset": 1,
     "size": 23,
     "source": "joeis"

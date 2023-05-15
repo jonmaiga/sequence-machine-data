@@ -2,13 +2,11 @@
   "description": "Decimal expansion of 10th root of 19.",
   "id": "A011414",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:46:55",
     "offset": 1,
     "size": 99,
     "source": "joeis"

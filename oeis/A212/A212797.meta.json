@@ -1,5 +1,5 @@
 {
-  "description": "Row 2 of array in A212796.",
+  "description": "Number of spanning trees in C_2 X C_n.",
   "id": "A212797",
   "mentions": [
     "A001108",
@@ -7,13 +7,11 @@
     "A144133",
     "A212796"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 01:52:12",
     "offset": 1,
     "size": 21,
     "source": "joeis"

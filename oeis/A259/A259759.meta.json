@@ -2,14 +2,12 @@
   "description": "Triangle read by rows: T(n,k) = number of partial idempotent mappings (of an n-chain) with collapse exactly k.",
   "id": "A259759",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 0,
     "size": 55,
     "source": "oeis-entry"

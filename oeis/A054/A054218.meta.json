@@ -8,13 +8,11 @@
     "A048054",
     "A054217"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 15:16:55",
     "offset": 1,
     "size": 32,
     "source": "joeis"

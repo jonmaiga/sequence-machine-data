@@ -6,13 +6,11 @@
     "A081604",
     "A318303"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "look",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:39",
     "offset": 0,
     "size": 67,
     "source": "oeis-bfile"

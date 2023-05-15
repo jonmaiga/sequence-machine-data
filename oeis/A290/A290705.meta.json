@@ -8,14 +8,12 @@
     "A045828",
     "A113062"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 0,
     "size": 73,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

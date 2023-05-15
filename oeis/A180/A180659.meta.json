@@ -2,13 +2,11 @@
   "description": "Decimal expansion of the continued fraction F(0)+F(1)/(F(2)+F(3)/(F(4)+F(5)/ ... where F(n) is the n-th Fibonacci number.",
   "id": "A180659",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

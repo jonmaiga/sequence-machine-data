@@ -2,12 +2,10 @@
   "description": "Nonnegative numbers arranged so that after a(0)=0,a(1)=1, we have a(3n+2)=a(3n+1)+a(3n)-1.",
   "id": "A131829",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 72,
     "source": "oeis-entry"

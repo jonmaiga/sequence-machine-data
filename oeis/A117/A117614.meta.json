@@ -2,14 +2,12 @@
   "description": "a(0)=1, a(n)=4a(n-1)+2 for n odd, a(n)=4a(n-1) for n even.",
   "id": "A117614",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:07",
     "offset": 0,
     "size": 23,
     "source": "oeis-bfile"

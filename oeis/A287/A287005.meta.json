@@ -2,15 +2,14 @@
   "description": "Number of connected dominating sets on the n-Moebius ladder.",
   "id": "A287005",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 28,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

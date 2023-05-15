@@ -23,7 +23,6 @@
     "A276179",
     "A276180"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "fini",
     "formulas",
@@ -31,7 +30,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 15,
     "source": "oeis-entry"

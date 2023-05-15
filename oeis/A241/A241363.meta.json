@@ -1,15 +1,13 @@
 {
-  "description": "Number of n X n 0..2 arrays with no element equal to fewer vertical neighbors than horizontal neighbors, with new values 0..2 introduced in row major order",
+  "description": "Number of n X n 0..2 arrays with no element equal to fewer vertical neighbors than horizontal neighbors, with new values 0..2 introduced in row major order.",
   "id": "A241363",
   "mentions": [
     "A241370"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

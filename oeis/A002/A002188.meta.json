@@ -4,7 +4,6 @@
   "mentions": [
     "A036685"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "easy",
     "formulas",
@@ -13,7 +12,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:03",
     "offset": 0,
     "size": 105,
     "source": "oeis-bfile"

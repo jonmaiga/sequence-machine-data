@@ -2,13 +2,11 @@
   "description": "Lexicographically earliest sequence S of distinct terms such that a(n) is divisible by the last odd digit of S, with a(1) = 1.",
   "id": "A329248",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:58",
     "offset": 1,
     "size": 82,
     "source": "oeis-bfile"

@@ -6,14 +6,12 @@
     "A052931",
     "A099916"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-26 12:21:59",
     "offset": 0,
     "size": 101,
     "source": "joeis"

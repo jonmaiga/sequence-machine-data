@@ -1,0 +1,18 @@
+{
+  "description": "The smallest order of a non-abelian group with an element of order n.",
+  "id": "A361871",
+  "mentions": [
+    "A051755",
+    "A103517",
+    "A163300"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

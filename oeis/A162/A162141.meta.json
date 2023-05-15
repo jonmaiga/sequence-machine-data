@@ -2,13 +2,11 @@
   "description": "Primes p such that (p+3839)/3840 is also a prime number.",
   "id": "A162141",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 29,
     "source": "oeis-entry"

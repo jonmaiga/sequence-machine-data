@@ -2,12 +2,10 @@
   "description": "Let M={{0,1,0},{0,0,1},{1,1,0}}, M0=MatrixPower[(M-IdentityMatrix[3]),2], Det[M0], a[n_]:=M0.a[n-1]; a[0]:={{0,1,1},{1,1,1},{1,1,2}}.",
   "id": "A098055",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 73,
     "source": "oeis-entry"

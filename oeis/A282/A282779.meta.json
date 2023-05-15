@@ -15,14 +15,12 @@
     "A167176",
     "A186646"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 81,
     "source": "oeis-entry"

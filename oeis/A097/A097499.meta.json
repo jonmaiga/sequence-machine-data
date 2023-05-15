@@ -2,12 +2,10 @@
   "description": "p^q + q^p for consecutive primes p and q.",
   "id": "A097499",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 2,
     "size": 9,
     "source": "oeis-entry"

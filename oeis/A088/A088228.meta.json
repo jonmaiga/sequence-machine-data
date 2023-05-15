@@ -2,12 +2,10 @@
   "description": "Number of composite numbers between the smallest primes that surround n# and n#+n. n# = n primorial = product of primes <= n.",
   "id": "A088228",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:39",
     "offset": 2,
     "size": 46,
     "source": "oeis-bfile"

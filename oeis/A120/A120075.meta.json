@@ -2,18 +2,21 @@
   "description": "Row sums of triangle A120073 (denominator triangle for H atom spectrum).",
   "id": "A120075",
   "mentions": [
-    "A120073"
+    "A120070",
+    "A120072",
+    "A120073",
+    "A120074",
+    "A120076",
+    "A120077"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 2,
     "size": 27,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

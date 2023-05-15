@@ -2,12 +2,10 @@
   "description": "Dirichlet convolution of sigma(n) with Bell numbers.",
   "id": "A034765",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 16:28:02",
     "offset": 1,
     "size": 23,
     "source": "joeis"

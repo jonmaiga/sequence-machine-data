@@ -2,14 +2,12 @@
   "description": "The smallest k such that one can form two sets of size n with distinct numbers from 1 to k with the property that the sum of any pair of numbers from different sets is a prime.",
   "id": "A328815",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

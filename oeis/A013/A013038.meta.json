@@ -2,12 +2,10 @@
   "description": "sinh(sinh(x)+arcsin(x))=2*x+10/3!*x^3+122/5!*x^5+2874/7!*x^7...",
   "id": "A013038",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 18:04:02",
     "offset": 0,
     "size": 14,
     "source": "joeis"

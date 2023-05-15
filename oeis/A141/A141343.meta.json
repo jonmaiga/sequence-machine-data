@@ -6,14 +6,12 @@
     "A084938",
     "A141344"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 64,
     "source": "oeis-entry"

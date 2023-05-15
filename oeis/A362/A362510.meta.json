@@ -1,0 +1,16 @@
+{
+  "description": "Number of odd chordless cycles of length > 4 in the halved cube graph Q_n/2.",
+  "id": "A362510",
+  "mentions": [
+    "A361186"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

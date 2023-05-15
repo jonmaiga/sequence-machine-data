@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = (n+1)^4 written in base n.",
+  "id": "A362445",
+  "mentions": [],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

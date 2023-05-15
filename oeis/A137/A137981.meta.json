@@ -2,7 +2,6 @@
   "description": "Triangle read by rows: expansion of p(x,t) = b(x,t)*u(x,t)*h(x,t) where b(x,t) = t*exp(x*t)/(exp(t)-1), u(x,t) = 1/(1-2*x*t+t^2), and h(x,t) = exp(2*x*t-t^2).",
   "id": "A137981",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 30,
     "source": "oeis-entry"

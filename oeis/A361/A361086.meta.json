@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = a(n-1)*(a(n-1)^2 - 1) with a(0) = 2.",
+  "id": "A361086",
+  "mentions": [
+    "A002110",
+    "A007018",
+    "A228649",
+    "A361085"
+  ],
+  "tags": [
+    "formulas",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-bfile"
+  }
+}

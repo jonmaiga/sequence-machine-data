@@ -2,13 +2,11 @@
   "description": "a(n) = the length of the longest substring of digits that occurs both in the binary representation of the n-th prime and in the binary representation of the (n+1)th prime.",
   "id": "A145653",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:33",
     "offset": 1,
     "size": 105,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Decimal expansion of the starting value b(0) such that the fractional part of the sequence b(n+1) = b(n) + tanh(b(n)) approaches zero as n -> infinity.",
   "id": "A135935",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

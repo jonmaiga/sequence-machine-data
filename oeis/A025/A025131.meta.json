@@ -2,12 +2,10 @@
   "description": "3rd elementary symmetric function of C(n,0), C(n,1), ..., C(n,n).",
   "id": "A025131",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 12:37:05",
     "offset": 2,
     "size": 17,
     "source": "joeis"

@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows where row n is a self-inverse permutation of 1..n formed starting from a column 1..n and sliding numbers to the right and down.",
+  "id": "A361642",
+  "mentions": [
+    "A000217",
+    "A002260",
+    "A002378",
+    "A361660"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

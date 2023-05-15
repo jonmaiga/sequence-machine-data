@@ -2,13 +2,11 @@
   "description": "Numbers n such that string 3,0 occurs in the base 5 representation of n but not of n-1.",
   "id": "A044092",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:22:15",
     "offset": 1,
     "size": 47,
     "source": "joeis"

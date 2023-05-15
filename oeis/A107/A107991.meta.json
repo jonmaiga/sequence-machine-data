@@ -2,13 +2,11 @@
   "description": "Complexity (number of maximal spanning trees) in an unoriented simple graph with nodes {1,2,...,n} and edges {i,j} if i + j > n.",
   "id": "A107991",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:00",
     "offset": 1,
     "size": 23,
     "source": "oeis-bfile"

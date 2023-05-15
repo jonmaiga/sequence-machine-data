@@ -2,12 +2,10 @@
   "description": "The 2n-th derivative of exp(1 - 1/(1 - x^2)) evaluated at 0.",
   "id": "A131815",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 15,
     "source": "oeis-entry"

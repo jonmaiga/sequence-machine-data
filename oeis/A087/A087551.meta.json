@@ -2,14 +2,12 @@
   "description": "Start of the second run of n successive primes which have the same successive differences as the prime sequence (7,11,13,17,19,23,29,31,37,41,43,...) beginning with 7. The first differences are 4,2,4,2,4,6,2,6,4,2,4,6,6,2,6,4,2,...",
   "id": "A087551",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 6,
     "source": "oeis-entry"

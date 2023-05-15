@@ -2,13 +2,11 @@
   "description": "G.f. satisfies A(x)/A(x^2) = (1 + 9x + 9x^2 + 9x^3 + ...).",
   "id": "A176201",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 35,
     "source": "oeis-entry"

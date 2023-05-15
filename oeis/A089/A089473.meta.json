@@ -9,14 +9,12 @@
     "A090031",
     "A090036"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 32,
     "source": "oeis-entry"

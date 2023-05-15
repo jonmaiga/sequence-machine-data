@@ -2,12 +2,10 @@
   "description": "Primes p such that the sum of the first p composite numbers is itself prime.",
   "id": "A060245",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-11-11 15:41:42",
     "offset": 1,
     "size": 46,
     "source": "joeis"

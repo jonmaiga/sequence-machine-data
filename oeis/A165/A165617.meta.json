@@ -1,17 +1,16 @@
 {
-  "description": "The number of values of k such that k is equal to the number of 1's in the base n digits of all numbers <= k.",
+  "description": "a(n) is the number of positive integers k such that k is equal to the number of 1's in the digits of the base-n expansion of all positive integers <= k.",
   "id": "A165617",
   "mentions": [
     "A014778",
     "A226238"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 2,
     "size": 9,
     "source": "oeis-entry"

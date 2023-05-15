@@ -2,12 +2,10 @@
   "description": "a(0)=0, a(1)=1; and a(n) = a(n-1) + a(a(n-1) mod n) for n>=2.",
   "id": "A125204",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:13",
     "offset": 0,
     "size": 50,
     "source": "oeis-bfile"

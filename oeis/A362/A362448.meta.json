@@ -1,0 +1,17 @@
+{
+  "description": "Triangle T(n,k) (n >= 0, 0 <= k <= n) read by rows: T(n,k) = 1 if the English names for n and k have a letter in common, otherwise 0.",
+  "id": "A362448",
+  "mentions": [
+    "A362447"
+  ],
+  "tags": [
+    "nonn",
+    "tabl",
+    "word"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

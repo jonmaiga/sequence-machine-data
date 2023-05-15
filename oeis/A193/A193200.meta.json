@@ -2,12 +2,10 @@
   "description": "G.f.: A(x) = Sum_{n>=0} x^n * Product_{d|n} (1 + x^d)^(n/d).",
   "id": "A193200",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 0,
     "size": 37,
     "source": "oeis-entry"

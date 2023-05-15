@@ -2,7 +2,6 @@
   "description": "Longest sequence of distinct two-digit numbers (10-99) such that any two or three consecutive terms can be concatenated into a prime number, even when connected into a loop. Smallest number is listed first.",
   "id": "A343538",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"

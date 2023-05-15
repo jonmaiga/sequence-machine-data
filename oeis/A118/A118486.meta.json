@@ -2,12 +2,10 @@
   "description": "a(n) is the smallest prime occurring in the prime factorization of n! to an odd power.",
   "id": "A118486",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:08",
     "offset": 2,
     "size": 77,
     "source": "oeis-bfile"

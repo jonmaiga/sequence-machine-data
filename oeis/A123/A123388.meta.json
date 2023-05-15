@@ -2,13 +2,11 @@
   "description": "Prime numbers with exactly four partitions into a square and cube.",
   "id": "A123388",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 24,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Number of indecomposable permutations avoiding the vincular pattern 1 2_ 3_.",
   "id": "A284720",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 24,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "a(1) = 4; then alternately add -4 and multiply by -2.",
   "id": "A096406",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 00:27:19",
     "offset": 1,
     "size": 46,
     "source": "joeis"

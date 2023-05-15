@@ -2,12 +2,10 @@
   "description": "Number of ways to tile Aztec diamond of order n with 2 squares removed with dominoes.",
   "id": "A071097",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 2,
     "size": 13,
     "source": "oeis-entry"

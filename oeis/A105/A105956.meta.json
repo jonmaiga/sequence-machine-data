@@ -2,14 +2,12 @@
   "description": "Integers are written in the form abcd...n where \"a\" means \"At position a in this integer there is a digit b\"; \"b\" means: \"at position b there is a digit c\"; \"c\" means: \"at position c there is a digit d\"; ... and \"n\" means: \"at position n there is a digit a\".",
   "id": "A105956",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 35,
     "source": "oeis-entry"

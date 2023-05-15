@@ -1,0 +1,18 @@
+{
+  "description": "Primitive unitary abundant numbers k (A302573) whose unitary abundancy index usigma(k)/k has a record low value.",
+  "id": "A362054",
+  "mentions": [
+    "A034448",
+    "A302573",
+    "A362053"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

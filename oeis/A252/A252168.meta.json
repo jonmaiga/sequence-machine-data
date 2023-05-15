@@ -1,5 +1,5 @@
 {
-  "description": "Smallest k>0 such that |(2n-1)-2^k| is prime, or -1 if no such k exists.",
+  "description": "Smallest k > 0 such that |(2n-1) - 2^k| is prime, or -1 if no such k exists.",
   "id": "A252168",
   "mentions": [
     "A006285",
@@ -11,15 +11,13 @@
     "A133122",
     "A188903"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
-    "size": 105,
-    "source": "oeis-entry"
+    "size": 87,
+    "source": "oeis-bfile"
   }
 }

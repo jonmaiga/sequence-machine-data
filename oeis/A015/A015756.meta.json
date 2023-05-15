@@ -2,12 +2,10 @@
   "description": "a(n) is the least multiple of n, k*n say, such that phi(k) | sigma(k).",
   "id": "A015756",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-11-11 15:41:36",
     "offset": 1,
     "size": 51,
     "source": "joeis"

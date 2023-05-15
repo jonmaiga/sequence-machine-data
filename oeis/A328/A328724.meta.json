@@ -2,12 +2,10 @@
   "description": "a(1)=2, a(2)=3; a(n) is the smallest k > a(n-1) such that k + a(n-1) is a multiple of a(n-2).",
   "id": "A328724",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:57",
     "offset": 1,
     "size": 42,
     "source": "oeis-bfile"

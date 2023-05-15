@@ -2,7 +2,6 @@
   "description": "Ten-digit numbers with all distinct digits such that the string formed by the last k digits is divisible by k for any k <= 10.",
   "id": "A140501",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:28",
     "offset": 1,
     "size": 18,
     "source": "oeis-bfile"

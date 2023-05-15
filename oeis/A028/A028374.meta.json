@@ -1,18 +1,20 @@
 {
-  "description": "Curved numbers: numbers that have only curved digits (0, 2, 3, 5, 6, 8, 9).",
+  "description": "Numbers that have only curved digits {0, 3, 6, 8, 9} or digits that are both curved and linear {2, 5}.",
   "id": "A028374",
   "mentions": [
     "A028373",
-    "A072960"
+    "A034470",
+    "A072960",
+    "A072961",
+    "A082741",
+    "A361780"
   ],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:37",
     "offset": 1,
     "size": 66,
     "source": "oeis-bfile"

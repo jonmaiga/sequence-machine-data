@@ -2,15 +2,15 @@
   "description": "a(1) = 1, for n > 1 a(n) = n*2^(omega(n)-1) where omega is A001221.",
   "id": "A229347",
   "mentions": [
-    "A001221"
+    "A001221",
+    "A001620",
+    "A034444"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:46",
     "offset": 1,
     "size": 63,
     "source": "oeis-bfile"

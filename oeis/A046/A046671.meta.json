@@ -2,13 +2,11 @@
   "description": "Nim-values G(3,n) for Sylver coinage.",
   "id": "A046671",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 4,
     "size": 13,
     "source": "oeis-entry"

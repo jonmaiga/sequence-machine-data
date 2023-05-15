@@ -2,13 +2,11 @@
   "description": "Decimal expansion of the leftmost root of Im(W(z)/log(z)) = Re(W(z)/log(z)) (negated), where W(z) denotes the Lambert W function.",
   "id": "A271310",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:35",
     "offset": 0,
     "size": 105,
     "source": "oeis-bfile"

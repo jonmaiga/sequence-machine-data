@@ -2,13 +2,11 @@
   "description": "Weight distribution of [63,45,7] primitive binary BCH code.",
   "id": "A151772",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 25,
     "source": "oeis-entry"

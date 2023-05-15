@@ -2,13 +2,11 @@
   "description": "Numbers divisible by 3 with an odd number of 1s in their base 2 representation.",
   "id": "A180963",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:04",
     "offset": 1,
     "size": 53,
     "source": "oeis-bfile"

@@ -2,7 +2,6 @@
   "description": "Divisors of 2^20 - 1.",
   "id": "A003529",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "easy",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:04",
     "offset": 1,
     "size": 40,
     "source": "oeis-bfile"

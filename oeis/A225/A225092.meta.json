@@ -2,14 +2,12 @@
   "description": "Decimal expansion of (-1)*lim_{k->inf} log^k(2^^k), where log^k(x) denotes repeated natural logarithm log(log(...(log(x)))) with k log's and 2^^k denotes a power tower 2^2^...^2 with k 2's.",
   "id": "A225092",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "cons",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 0,
     "size": 130,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Primes p such that neither p - 10 nor p + 10 is prime.",
   "id": "A140547",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 53,
     "source": "oeis-entry"

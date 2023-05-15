@@ -5,13 +5,11 @@
     "A000045",
     "A232559"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "easy",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:39",
     "offset": 1,
     "size": 62,
     "source": "oeis-bfile"

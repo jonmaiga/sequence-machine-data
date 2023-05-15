@@ -2,12 +2,10 @@
   "description": "Number of 5*n X 20 0..3 arrays with row sums 4 and column sums n",
   "id": "A172785",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:57",
     "offset": 1,
     "size": 4,
     "source": "oeis-bfile"

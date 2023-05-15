@@ -2,13 +2,11 @@
   "description": "a(n) = (n+1)(n+2)^2*(n+3)^2*(n+4)(2n^2 + 6n + 5)/720.",
   "id": "A108645",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:31:39",
     "offset": 0,
     "size": 27,
     "source": "joeis"

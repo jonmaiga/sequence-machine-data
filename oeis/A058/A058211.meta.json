@@ -2,7 +2,6 @@
   "description": "Numbers k such that there is an arrangement of k points in the plane such that no point is on >= k/2 connecting lines.",
   "id": "A058211",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "hard",
     "more",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

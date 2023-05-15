@@ -17,12 +17,10 @@
     "A322020",
     "A322021"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:13",
     "offset": 1,
     "size": 110,
     "source": "oeis-bfile"

@@ -2,17 +2,19 @@
   "description": "Reciprocal of n modulo smallest prime greater than n.",
   "id": "A122585",
   "mentions": [
-    "A007918",
-    "A124223"
+    "A006093",
+    "A040976",
+    "A124223",
+    "A151800",
+    "A362254"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 75,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

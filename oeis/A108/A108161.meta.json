@@ -2,13 +2,11 @@
   "description": "Partial sums of the positive integers n according to the rule: if n is square then add sqrt(n) else add n.",
   "id": "A108161",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 54,
     "source": "oeis-entry"

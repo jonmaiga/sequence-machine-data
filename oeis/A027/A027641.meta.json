@@ -22,9 +22,7 @@
     "A190339",
     "A194587"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "core",
     "formulas",
     "frac",
@@ -32,7 +30,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:36",
     "offset": 0,
     "size": 41,
     "source": "oeis-bfile"

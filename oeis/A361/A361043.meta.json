@@ -1,0 +1,29 @@
+{
+  "description": "Array read by descending antidiagonals. A(n, k) is, if n > 0, the number of multiset permutations of {0, 1} of length n * k where the number of occurrences of 1 are multiples of n. A(0, k) = k + 1.",
+  "id": "A361043",
+  "mentions": [
+    "A000027",
+    "A000079",
+    "A007613",
+    "A070775",
+    "A070782",
+    "A070832",
+    "A070833",
+    "A070967",
+    "A081294",
+    "A094211",
+    "A094213",
+    "A167009",
+    "A308500"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

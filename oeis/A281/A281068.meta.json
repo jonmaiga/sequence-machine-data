@@ -6,14 +6,12 @@
     "A277972",
     "A281067"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "easy",
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 65,
     "source": "oeis-entry"

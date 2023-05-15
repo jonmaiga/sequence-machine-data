@@ -2,12 +2,10 @@
   "description": "E.g.f.: Series_Reversion( Sum_{n>=1} (-1)^(n-1) * x^(2*n-1)/(n*(n+1)/2) ) = Sum_{n>=1} a(n)*x^(2*n-1)/(2*n-1)!.",
   "id": "A277414",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 19,
     "source": "oeis-entry"

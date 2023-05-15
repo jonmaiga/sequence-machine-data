@@ -2,13 +2,11 @@
   "description": "Numbers k such that (x^k + 1/x^k)/(x + 1/x) is prime, where x = sqrt(3) + sqrt(2).",
   "id": "A158892",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

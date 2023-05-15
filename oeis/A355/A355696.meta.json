@@ -2,12 +2,10 @@
   "description": "First of four consecutive primes p,q,r,s such that the sum of numerator and denominator of p/q + q/r, p/q + r/s, and q/r + r/s, are all prime.",
   "id": "A355696",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:30",
     "offset": 1,
     "size": 42,
     "source": "oeis-bfile"

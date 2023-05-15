@@ -2,15 +2,12 @@
   "description": "Positive numbers k such that k^2 == 2 (mod 97).",
   "id": "A176010",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:32:35",
     "offset": 1,
     "size": 46,
     "source": "joeis"

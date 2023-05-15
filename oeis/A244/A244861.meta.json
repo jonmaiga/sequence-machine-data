@@ -2,7 +2,6 @@
   "description": "Consider the concatenation in ascending order of the first x natural numbers and then concatenate its reverse. Sequence gives the decimal expansion of the sum of the reciprocals of such numbers.",
   "id": "A244861",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "base",
     "cons",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 87,
     "source": "oeis-entry"

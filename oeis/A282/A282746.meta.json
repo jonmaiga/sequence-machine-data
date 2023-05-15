@@ -2,13 +2,11 @@
   "description": "Number of 2-(n,3,lambda_min) designs.",
   "id": "A282746",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 6,
     "size": 9,
     "source": "oeis-entry"

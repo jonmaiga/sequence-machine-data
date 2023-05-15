@@ -2,14 +2,12 @@
   "description": "The number of 321-avoiding linear extensions of the comb poset K_{3,n}^beta.",
   "id": "A275941",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:41",
     "offset": 1,
     "size": 21,
     "source": "oeis-bfile"

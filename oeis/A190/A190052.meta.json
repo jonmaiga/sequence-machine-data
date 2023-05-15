@@ -2,13 +2,11 @@
   "description": "Least number having exactly two odd prime factors that differ by 2*n^2.",
   "id": "A190052",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:14",
     "offset": 1,
     "size": 42,
     "source": "oeis-bfile"

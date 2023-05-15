@@ -1,14 +1,22 @@
 {
   "description": "Negative of the decimal expansion of the electron spin g-factor.",
   "id": "A195022",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:28",
+  "mentions": [
+    "A003672",
+    "A081801",
+    "A081816",
+    "A081817",
+    "A327949",
+    "A327950",
+    "A327951",
+    "A327955"
+  ],
   "tags": [
     "cons",
+    "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 13:19:13",
     "offset": 1,
     "size": 12,
     "source": "joeis"

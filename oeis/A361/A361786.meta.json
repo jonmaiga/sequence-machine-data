@@ -1,0 +1,20 @@
+{
+  "description": "Bi-unitary arithmetic numbers: numbers for which the arithmetic mean of the bi-unitary divisors is an integer.",
+  "id": "A361786",
+  "mentions": [
+    "A003601",
+    "A103826",
+    "A188999",
+    "A222266",
+    "A286324",
+    "A361386"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

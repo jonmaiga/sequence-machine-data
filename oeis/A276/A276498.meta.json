@@ -2,13 +2,11 @@
   "description": "Number of trials T of an event that occurs with probability 1-1/n that must be repeated consecutively so that the probability that the event occurs on all T trials (i.e., (1-1/n)^T) is minimally higher than 1/n.",
   "id": "A276498",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:42",
     "offset": 2,
     "size": 57,
     "source": "oeis-bfile"

@@ -2,15 +2,15 @@
   "description": "Linear representation of the complete labeled binary trees of all integer heights, where the nodes at level i, 0 <= i <= n, of a binary tree with height n are labeled with the number n-i.",
   "id": "A338971",
   "mentions": [
+    "A126646",
     "A290255"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
+    "changed",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

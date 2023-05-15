@@ -2,13 +2,11 @@
   "description": "Primes of the form 2pq + 1, where p and q are (not necessarily distinct) odd primes.",
   "id": "A104006",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:54",
     "offset": 1,
     "size": 50,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Expected value of the highest die when n six-sided dice are rolled, multiplied by 6^n.",
   "id": "A242191",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:58",
     "offset": 1,
     "size": 22,
     "source": "oeis-bfile"

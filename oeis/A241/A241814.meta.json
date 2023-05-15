@@ -2,14 +2,12 @@
   "description": "Number of distance-regular simple connected graphs on n nodes.",
   "id": "A241814",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

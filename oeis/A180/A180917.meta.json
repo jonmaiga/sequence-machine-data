@@ -11,13 +11,11 @@
     "A007536",
     "A117105"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:03",
     "offset": 1,
     "size": 71,
     "source": "oeis-bfile"

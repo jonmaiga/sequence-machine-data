@@ -2,14 +2,12 @@
   "description": "a(1) = 0; a(n) = a(n-1) + (number of times the digit 0 has appeared in the sequence so far).",
   "id": "A130232",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 65,
     "source": "oeis-entry"

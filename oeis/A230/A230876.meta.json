@@ -2,13 +2,11 @@
   "description": "Total detection number of complete bipartite graph K_{n,n}.",
   "id": "A230876",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 30,
     "source": "oeis-entry"

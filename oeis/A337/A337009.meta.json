@@ -5,18 +5,18 @@
     "A000045",
     "A089098",
     "A166861",
-    "A200544"
+    "A200544",
+    "A357475"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
+    "changed",
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
-    "size": 84,
-    "source": "oeis-entry"
+    "size": 91,
+    "source": "oeis-bfile"
   }
 }

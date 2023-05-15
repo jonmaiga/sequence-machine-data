@@ -2,14 +2,12 @@
   "description": "Expansion of 1/(1-3x+3x^3) in powers of x.",
   "id": "A090400",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 01:37:50",
     "offset": 0,
     "size": 28,
     "source": "joeis"

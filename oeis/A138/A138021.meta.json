@@ -2,12 +2,10 @@
   "description": "a(n) = the number of positive divisors k of 2n where |k -2n/k| divides 2n.",
   "id": "A138021",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

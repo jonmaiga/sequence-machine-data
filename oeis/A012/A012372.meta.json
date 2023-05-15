@@ -2,13 +2,11 @@
   "description": "arctanh(tan(x)*sin(x))=2/2!*x^2+4/4!*x^4+302/6!*x^6+8104/8!*x^8...",
   "id": "A012372",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 09:32:59",
     "offset": 0,
     "size": 13,
     "source": "joeis"

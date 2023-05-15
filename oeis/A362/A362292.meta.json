@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (n+1/3)^n * (3*n)!/n!.",
+  "id": "A362292",
+  "mentions": [
+    "A000169",
+    "A034940"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

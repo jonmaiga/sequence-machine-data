@@ -2,13 +2,11 @@
   "description": "Let b(0)=n, b(1)=n+1, b(2)=n+2, and b(k)=(b(k-3)*b(k-2)*b(k-3)) mod (b(k-3)+b(k-2)+b(k-1)) for k>=3. Continue until either b(k)=0, in which case a(n)=k, or the ordered triple [b(k-2),b(k-1),b(k)] has appeared before, in which case a(n)=-k. If neither of these ever occur, then a(n)=0.",
   "id": "A309869",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:34",
     "offset": 1,
     "size": 82,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "a(n+1) = ( a(n) + n*(n+1) ) / n, with a(1) = 208.",
   "id": "A123136",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

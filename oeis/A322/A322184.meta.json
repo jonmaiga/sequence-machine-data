@@ -2,14 +2,12 @@
   "description": "List of primes that appear in the 3 X 3 matrices A, B, C which are the smallest solution to the matrix equation AB = C in square matrices composed of distinct primes.",
   "id": "A322184",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 27,
     "source": "oeis-entry"

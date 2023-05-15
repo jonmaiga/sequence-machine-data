@@ -2,14 +2,12 @@
   "description": "a(n) = smallest power of 3 > 3^n with same initial digits as 3^n.",
   "id": "A074152",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "bref",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 3,
     "source": "oeis-entry"

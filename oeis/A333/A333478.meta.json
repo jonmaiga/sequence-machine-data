@@ -2,13 +2,11 @@
   "description": "Lexicographically earliest sequence of distinct positive terms such that a(n) is the number of commas that a(n) has to step over (to the right) in order to find an integer embedding the substring a(n).",
   "id": "A333478",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:03",
     "offset": 1,
     "size": 74,
     "source": "oeis-bfile"

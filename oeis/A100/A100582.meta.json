@@ -2,14 +2,12 @@
   "description": "Female of (1/(n+1),n/(1+n)) pair function used to get a dual population Fibonacci.",
   "id": "A100582",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 40,
     "source": "oeis-entry"

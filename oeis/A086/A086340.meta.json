@@ -2,13 +2,11 @@
   "description": "Numbers n such that 1 + (n-1)*n*(n+1) is a square.",
   "id": "A086340",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

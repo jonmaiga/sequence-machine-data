@@ -6,14 +6,12 @@
     "A060188",
     "A152975"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "frac",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 88,
     "source": "oeis-entry"

@@ -1,0 +1,17 @@
+{
+  "description": "The terms of the n-th row of A076478 first appear from position a(n) in A362240.",
+  "id": "A362599",
+  "mentions": [
+    "A076478",
+    "A362240"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

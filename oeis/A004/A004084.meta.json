@@ -2,13 +2,11 @@
   "description": "a(n) = n-th positive integer k such that tan(k-1) <= 0 and tan(k) > 0.",
   "id": "A004084",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 12:30:11",
     "offset": 1,
     "size": 54,
     "source": "joeis"

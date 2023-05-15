@@ -1,15 +1,13 @@
 {
-  "description": "Number of nX4 0..3 arrays with no element equal to one plus the sum of elements to its left or two plus the sum of elements above it or zero plus the sum of the elements diagonally to its northwest, modulo 4",
+  "description": "Number of n X 4 0..3 arrays with no element equal to one plus the sum of elements to its left or two plus the sum of elements above it or zero plus the sum of the elements diagonally to its northwest, modulo 4.",
   "id": "A240281",
   "mentions": [
     "A240284"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:57",
     "offset": 1,
     "size": 19,
     "source": "oeis-bfile"

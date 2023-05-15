@@ -2,12 +2,10 @@
   "description": "Fibonacci(n+2) plus n-th prime.",
   "id": "A004399",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 19:17:37",
     "offset": 1,
     "size": 33,
     "source": "joeis"

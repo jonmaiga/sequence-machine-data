@@ -2,13 +2,10 @@
   "description": "Numbers n such that n | 5^n + 4^n + 3^n + 2^n.",
   "id": "A057249",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-10-18 14:56:42",
     "offset": 1,
     "size": 39,
     "source": "joeis"

@@ -2,7 +2,6 @@
   "description": "6-digit numbers k such that: (a) the digits of k are from the set {1, 2, 3, 4, 5}, and (b) any digit that appears in k appears at least twice.",
   "id": "A171725",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:55",
     "offset": 1,
     "size": 33,
     "source": "oeis-bfile"

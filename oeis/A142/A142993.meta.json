@@ -7,14 +7,12 @@
     "A142992",
     "A142994"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:32",
     "offset": 0,
     "size": 25,
     "source": "oeis-bfile"

@@ -2,14 +2,12 @@
   "description": "Nialpdromes: digits in base 12 are in nonincreasing order.",
   "id": "A023767",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:19:25",
     "offset": 1,
     "size": 65,
     "source": "joeis"

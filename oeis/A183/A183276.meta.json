@@ -2,13 +2,11 @@
   "description": "Half the number of n X n X n triangular binary arrays with each element having no more than two neighbors unequal to itself.",
   "id": "A183276",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:06",
     "offset": 1,
     "size": 30,
     "source": "oeis-bfile"

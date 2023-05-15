@@ -2,12 +2,10 @@
   "description": "For n odd, a(n) is the least positive integer not already used. For n even, a(n) is 1 plus the lcm of the last n/2 terms.",
   "id": "A082734",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 17,
     "source": "oeis-entry"

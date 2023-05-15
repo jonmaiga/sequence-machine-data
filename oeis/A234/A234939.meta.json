@@ -2,13 +2,11 @@
   "description": "Coefficients of Hilbert series for a certain suboperad of bicolored noncrossing configurations (see reference for precise definition).",
   "id": "A234939",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

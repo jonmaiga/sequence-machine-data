@@ -2,14 +2,12 @@
   "description": "Triangle read by rows: T(n,m) = number of beta-labeled graphs of size n and order m (n>=1, 2<=m<=n+1).",
   "id": "A261685",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "more",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 36,
     "source": "oeis-entry"

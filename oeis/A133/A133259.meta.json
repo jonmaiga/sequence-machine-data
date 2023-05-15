@@ -2,13 +2,11 @@
   "description": "a(6n) = 6n+1, a(6n+1) = 6n+2, a(6n+2) = 6n+3, a(6n+3) = 6n+6, a(6n+4) = 6n+5, a(6n+5) = 6n+4.",
   "id": "A133259",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-12-25 19:14:52",
     "offset": 0,
     "size": 72,
     "source": "joeis"

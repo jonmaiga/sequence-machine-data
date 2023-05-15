@@ -2,13 +2,11 @@
   "description": "a(n) = (-1)^(n+1) * Sum_{k=0..n} 16^k * B(2k) * C(2n+1,2k) where B(k) is the k-th Bernoulli number.",
   "id": "A078794",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 14,
     "source": "oeis-entry"

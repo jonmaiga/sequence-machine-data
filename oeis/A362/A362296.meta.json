@@ -1,0 +1,17 @@
+{
+  "description": "Greatest common divisor of composite numbers between the n-th and (n+1)st primes.",
+  "id": "A362296",
+  "mentions": [
+    "A056831",
+    "A061214"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

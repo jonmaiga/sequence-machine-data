@@ -2,19 +2,19 @@
   "description": "a(n) = number of maximal chord diagrams by genus d^(||)_2n.",
   "id": "A347951",
   "mentions": [
+    "A035319",
     "A291172",
     "A291371",
     "A292111"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
-    "size": 12,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

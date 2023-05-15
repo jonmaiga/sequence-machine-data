@@ -2,13 +2,11 @@
   "description": "Known primes such that there are no pairwise coprime solutions to the Diophantine equation of the form x^3 + y^3 = p^a z^n with a >= 1 an integer and n >= p^(2p) prime.",
   "id": "A212420",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn",
     "obsc"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 57,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Numbers n with property that Roman numeral for n uses the subtractive notation.",
   "id": "A120433",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:09",
     "offset": 1,
     "size": 59,
     "source": "oeis-bfile"

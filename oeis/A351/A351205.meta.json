@@ -39,13 +39,11 @@
     "A351291",
     "A351292"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 62,
     "source": "oeis-entry"

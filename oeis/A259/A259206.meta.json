@@ -2,13 +2,11 @@
   "description": "G.f. satisfies: A(x) = (1-x^2) * (1 + x*A(x)^2).",
   "id": "A259206",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 15:36:31",
     "offset": 0,
     "size": 30,
     "source": "joeis"

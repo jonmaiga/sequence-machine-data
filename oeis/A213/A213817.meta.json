@@ -2,14 +2,12 @@
   "description": "Numbers n with the property that cyclically right-shifting by 2 positions divides n by 9 (leading 0's omitted).",
   "id": "A213817",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "base",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:31",
     "offset": 1,
     "size": 21,
     "source": "oeis-bfile"

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that are partial sums of both the even semiprimes and the odd semiprimes.",
+  "id": "A360838",
+  "mentions": [
+    "A046315",
+    "A100484"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -2,12 +2,10 @@
   "description": "a(n) is the least integer k > 1 such that n^k + n + 1 is prime, or 0 if there is no such k.",
   "id": "A346149",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:19",
     "offset": 1,
     "size": 95,
     "source": "oeis-bfile"

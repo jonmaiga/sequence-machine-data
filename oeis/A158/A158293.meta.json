@@ -2,14 +2,12 @@
   "description": "Primes whose digit sum is a multiple of 10.",
   "id": "A158293",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 47,
     "source": "oeis-entry"

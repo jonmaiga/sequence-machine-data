@@ -5,14 +5,12 @@
     "A006890",
     "A159766"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "cofr",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:22",
     "offset": 0,
     "size": 92,
     "source": "oeis-bfile"

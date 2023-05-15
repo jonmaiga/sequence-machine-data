@@ -2,13 +2,11 @@
   "description": "a(n) is the least multiple of n, greater than n, such that all digits of a(n) are even (resp. odd) if n is even (resp. odd).",
   "id": "A217578",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:35",
     "offset": 1,
     "size": 59,
     "source": "oeis-bfile"

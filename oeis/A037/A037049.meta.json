@@ -2,13 +2,11 @@
   "description": "Smallest number with two distinct prime factors both of length n.",
   "id": "A037049",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 11:09:06",
     "offset": 1,
     "size": 15,
     "source": "joeis"

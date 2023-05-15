@@ -2,14 +2,12 @@
   "description": "Positive integers n such that the polynomial P(n,t) = t^{2^{n-1}} * (t+1)^{2^{n-1}-1} + 1 of GF(2)[t] is irreducible, where GF(2) = {0,1} is the binary finite field with two elements.",
   "id": "A162570",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

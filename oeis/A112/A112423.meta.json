@@ -2,14 +2,12 @@
   "description": "Number of 6-element subsets of {1,2,3,...,n} which have a sum-set with 14 elements.",
   "id": "A112423",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:45:15",
     "offset": 8,
     "size": 42,
     "source": "joeis"

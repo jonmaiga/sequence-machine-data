@@ -2,13 +2,11 @@
   "description": "Products of the 7th power of a prime and a distinct prime (p^7*q).",
   "id": "A179664",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:02",
     "offset": 1,
     "size": 38,
     "source": "oeis-bfile"

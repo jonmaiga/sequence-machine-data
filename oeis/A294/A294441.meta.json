@@ -2,13 +2,11 @@
   "description": "Irregular triangle read by rows: centered moments of the random Laplacian spectral distribution.",
   "id": "A294441",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 2,
     "size": 36,
     "source": "oeis-entry"

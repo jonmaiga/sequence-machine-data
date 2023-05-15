@@ -2,12 +2,10 @@
   "description": "The number of staircase polygons with a staircase hole counted by the outer half-perimeter only.",
   "id": "A173408",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 6,
     "size": 20,
     "source": "oeis-entry"

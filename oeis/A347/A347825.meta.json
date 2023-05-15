@@ -2,18 +2,16 @@
   "description": "Number of ways to cut a 2 X n rectangle into rectangles with integer sides up to symmetries of the rectangle.",
   "id": "A347825",
   "mentions": [
-    "A011782",
+    "A005418",
     "A034999",
     "A068911"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:21",
     "offset": 0,
     "size": 26,
     "source": "oeis-bfile"

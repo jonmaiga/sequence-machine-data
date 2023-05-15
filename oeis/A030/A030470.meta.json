@@ -2,13 +2,11 @@
   "description": "Numbers k such that k concatenated with k+1, k+2, k+3 is prime.",
   "id": "A030470",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:39",
     "offset": 1,
     "size": 50,
     "source": "oeis-bfile"

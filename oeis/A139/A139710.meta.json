@@ -1,5 +1,5 @@
 {
-  "description": "A number n is included if the sum of (the largest divisor of n that is <= sqrt(n)) and (the smallest divisor of n that is >= sqrt(n)) is odd.",
+  "description": "Numbers k such that the sum of (the largest divisor of k that is <= sqrt(k)) and (the smallest divisor of k that is >= sqrt(k)) is odd.",
   "id": "A139710",
   "mentions": [
     "A000035",
@@ -8,13 +8,11 @@
     "A063655",
     "A139711"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:27",
     "offset": 1,
     "size": 62,
     "source": "oeis-bfile"

@@ -7,13 +7,11 @@
     "A276902",
     "A276904"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn",
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:42",
     "offset": 0,
     "size": 27,
     "source": "oeis-bfile"

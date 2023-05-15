@@ -2,12 +2,10 @@
   "description": "For n >= 3, smallest prime number N such that for every prime p >= N, every element in Z_p can be expressed as a sum of two n-gonal numbers mod p, without allowing zero as a summand.",
   "id": "A317244",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 3,
     "size": 97,
     "source": "oeis-entry"

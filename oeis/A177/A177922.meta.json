@@ -2,13 +2,11 @@
   "description": "For each composition (ordered partition) of n, remove the first part z(1) and add 1 to the next z(1) parts to get a new composition until a partition is repeated. Among all compositions of n, a(n) gives the maximum of steps needed to reach a period.",
   "id": "A177922",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 62,
     "source": "oeis-entry"

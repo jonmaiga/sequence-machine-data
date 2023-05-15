@@ -2,13 +2,11 @@
   "description": "Number of partitions of n into parts 6k or 6k+2.",
   "id": "A035376",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:19:39",
     "offset": 1,
     "size": 75,
     "source": "joeis"

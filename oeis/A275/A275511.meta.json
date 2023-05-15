@@ -2,13 +2,11 @@
   "description": "The a(n)th term of the sequence contains at least one digit \"1\".",
   "id": "A275511",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 83,
     "source": "oeis-entry"

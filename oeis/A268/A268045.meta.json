@@ -2,12 +2,10 @@
   "description": "Least number k > 1 such that C(n+k,n) is squarefree.",
   "id": "A268045",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:30",
     "offset": 0,
     "size": 82,
     "source": "oeis-bfile"

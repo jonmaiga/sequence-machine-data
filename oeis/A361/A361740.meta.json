@@ -1,0 +1,15 @@
+{
+  "description": "Right border of A362312.",
+  "id": "A361740",
+  "mentions": [
+    "A362312"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

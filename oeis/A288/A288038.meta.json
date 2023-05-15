@@ -2,14 +2,12 @@
   "description": "Number of independent vertex sets in the n-Andrasfai graph.",
   "id": "A288038",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 11:42:10",
     "offset": 1,
     "size": 30,
     "source": "joeis"

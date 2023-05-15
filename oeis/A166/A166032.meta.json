@@ -2,13 +2,11 @@
   "description": "Continued fraction expansion for x so that the hyperbolic sine integral of x is 1.",
   "id": "A166032",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 99,
     "source": "oeis-entry"

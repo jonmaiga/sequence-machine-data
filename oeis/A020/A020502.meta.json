@@ -2,12 +2,10 @@
   "description": "Cyclotomic polynomials at x=-3.",
   "id": "A020502",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-02 18:04:07",
     "offset": 0,
     "size": 36,
     "source": "joeis"

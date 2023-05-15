@@ -2,13 +2,11 @@
   "description": "Pick any digit \"d\" in the sequence; the sum [\"d\" + (the next d digits)] is always even.",
   "id": "A297969",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:19",
     "offset": 1,
     "size": 76,
     "source": "oeis-bfile"

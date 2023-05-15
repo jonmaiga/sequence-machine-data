@@ -2,12 +2,10 @@
   "description": "Number of polyenes with 2n carbon atoms.",
   "id": "A135527",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:23",
     "offset": 1,
     "size": 25,
     "source": "oeis-bfile"

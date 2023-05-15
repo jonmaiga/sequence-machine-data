@@ -2,12 +2,10 @@
   "description": "a(n) = least k > 0 such that n-th partial sum is divisible by n if and only if n is not prime.",
   "id": "A095248",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:46",
     "offset": 1,
     "size": 105,
     "source": "oeis-bfile"

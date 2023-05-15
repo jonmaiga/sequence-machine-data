@@ -2,13 +2,11 @@
   "description": "A permutation of the positive integers formed by reversing the order of the composites within each run of composites (1 and primes are left alone).",
   "id": "A119257",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:08",
     "offset": 1,
     "size": 72,
     "source": "oeis-bfile"

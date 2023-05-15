@@ -1,0 +1,17 @@
+{
+  "description": "Number of vertex cuts in the n X n black bishop graph.",
+  "id": "A362509",
+  "mentions": [
+    "A290719"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

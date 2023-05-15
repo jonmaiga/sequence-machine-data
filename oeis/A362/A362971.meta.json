@@ -1,0 +1,19 @@
+{
+  "description": "Partials sums of the cubefull numbers (A036966).",
+  "id": "A362971",
+  "mentions": [
+    "A036966",
+    "A174172",
+    "A362974"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

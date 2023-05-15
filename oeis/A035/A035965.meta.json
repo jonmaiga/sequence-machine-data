@@ -2,14 +2,12 @@
   "description": "Number of partitions of n into parts not of the form 17k, 17k+4 or 17k-4. Also number of partitions with at most 3 parts of size 1 and differences between parts at distance 7 are greater than 1.",
   "id": "A035965",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:24:01",
     "offset": 1,
     "size": 47,
     "source": "joeis"

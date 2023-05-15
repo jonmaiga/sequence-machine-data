@@ -2,14 +2,12 @@
   "description": "Continued fraction for sqrt(633).",
   "id": "A040607",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "cofr",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:19:27",
     "offset": 0,
     "size": 89,
     "source": "joeis"

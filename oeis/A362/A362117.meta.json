@@ -1,0 +1,20 @@
+{
+  "description": "Concatenation of first n numbers in base 5.",
+  "id": "A362117",
+  "mentions": [
+    "A007908",
+    "A058935",
+    "A117640",
+    "A360502",
+    "A362118"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

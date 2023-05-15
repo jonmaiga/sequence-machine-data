@@ -2,14 +2,12 @@
   "description": "Weight distribution of [ 31,16,7 ] binary BCH and quadratic-residue codes.",
   "id": "A028382",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 0,
     "size": 32,
     "source": "oeis-entry"

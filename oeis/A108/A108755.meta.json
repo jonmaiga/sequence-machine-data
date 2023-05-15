@@ -2,13 +2,11 @@
   "description": "Number of finite simple groups possessing an irreducible representation of dimension n.",
   "id": "A108755",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 2,
     "size": 29,
     "source": "oeis-entry"

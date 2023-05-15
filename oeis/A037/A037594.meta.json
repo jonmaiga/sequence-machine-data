@@ -2,7 +2,6 @@
   "description": "Base 8 digits are, in order, the first n terms of the periodic sequence with initial period 1,0,3.",
   "id": "A037594",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 17:49:55",
     "offset": 1,
     "size": 18,
     "source": "joeis"

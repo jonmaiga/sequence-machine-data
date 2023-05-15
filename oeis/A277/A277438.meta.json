@@ -2,7 +2,6 @@
   "description": "Numbers whose letters are in alphabetical order when spelled in French.",
   "id": "A277438",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "fini",
     "full",
@@ -10,7 +9,6 @@
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

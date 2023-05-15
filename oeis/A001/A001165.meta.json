@@ -2,13 +2,11 @@
   "description": "Position of first even digit after decimal point in sqrt(n).",
   "id": "A001165",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 12:18:03",
     "offset": 1,
     "size": 87,
     "source": "joeis"

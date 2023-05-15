@@ -2,7 +2,6 @@
   "description": "A triangular sequence of coefficients from a Laplace Transform of a Bernoulli expansion function: LaplaceTransform[t*Exp[x*t]/(Exp[t] - 1), t, 1/t] = Zeta[2,1+1/t-x]->shifted to Zeta[5,1+1/t-x].",
   "id": "A137498",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 32,
     "source": "oeis-entry"

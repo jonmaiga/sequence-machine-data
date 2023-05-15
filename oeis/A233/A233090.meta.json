@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of sum_(n=1..infinity) (-1)^(n-1)*H(n)/n^2, where H(n) is the n-th harmonic number.",
+  "description": "Decimal expansion of Sum_{n>=1} (-1)^(n-1)*H(n)/n^2, where H(n) is the n-th harmonic number.",
   "id": "A233090",
   "mentions": [
     "A002117",
@@ -10,14 +10,13 @@
     "A233033",
     "A233091"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
+    "changed",
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:48:04",
     "offset": 0,
     "size": 100,
     "source": "joeis"

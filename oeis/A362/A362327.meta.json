@@ -1,0 +1,17 @@
+{
+  "description": "The i-values of pairs (i, j) listed in A362326.",
+  "id": "A362327",
+  "mentions": [
+    "A362326",
+    "A362328"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,16 +2,13 @@
   "description": "Leading digit of n expressed in base 3.",
   "id": "A122586",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
-    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:11",
     "offset": 1,
     "size": 105,
     "source": "oeis-bfile"

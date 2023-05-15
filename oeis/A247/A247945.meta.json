@@ -2,13 +2,11 @@
   "description": "Lexicographically earliest permutation of the positive integers such that a(n) contains the a(n)-th digit of the sequence, for all n.",
   "id": "A247945",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 75,
     "source": "oeis-entry"

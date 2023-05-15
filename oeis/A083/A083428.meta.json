@@ -2,13 +2,11 @@
   "description": "Smallest prime that can be formed using the digits of first 3n+1 numbers, or 0 if no such number exists.",
   "id": "A083428",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

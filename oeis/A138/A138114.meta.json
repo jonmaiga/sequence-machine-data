@@ -6,7 +6,6 @@
     "A138070",
     "A138071"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "base",
     "easy",
@@ -14,7 +13,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 78,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Recip transform of 2*(1 + x^2 + x^4)-1/(1-x).",
   "id": "A049153",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 12:03:11",
     "offset": 0,
     "size": 29,
     "source": "joeis"

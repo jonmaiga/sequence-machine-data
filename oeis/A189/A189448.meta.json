@@ -1,16 +1,14 @@
 {
-  "description": "Number of nX8 array permutations with each element moving zero or one space horizontally or diagonally",
+  "description": "Number of n X 8 array permutations with each element moving zero or one space horizontally or diagonally.",
   "id": "A189448",
   "mentions": [
     "A189449"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:13",
     "offset": 1,
     "size": 12,
     "source": "oeis-bfile"

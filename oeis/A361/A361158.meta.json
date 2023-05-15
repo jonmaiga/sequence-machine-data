@@ -1,0 +1,18 @@
+{
+  "description": "Number of elliptic points of order 2 in Weierstrass curve with discriminant A079896(n) in moduli space M_2 of compact Riemann surfaces of genus 2.",
+  "id": "A361158",
+  "mentions": [
+    "A079896",
+    "A361157",
+    "A361159"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -2,12 +2,10 @@
   "description": "Size of the automorphism group for the underlying graph of the divisibility graph of size n.",
   "id": "A356831",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:31",
     "offset": 1,
     "size": 66,
     "source": "oeis-bfile"

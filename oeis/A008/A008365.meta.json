@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime factor is >= 13.",
+  "description": "13-rough numbers: positive integers that have no prime factors less than 13.",
   "id": "A008365",
   "mentions": [
     "A000027",
@@ -11,14 +11,12 @@
     "A166061",
     "A166063"
   ],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:14",
     "offset": 1,
     "size": 56,
     "source": "oeis-bfile"

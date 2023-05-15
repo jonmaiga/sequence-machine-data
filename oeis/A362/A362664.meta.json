@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k with exactly two solutions x to the equation iphi(x) = k, where iphi is the infinitary totient function A091732.",
+  "id": "A362664",
+  "mentions": [
+    "A007814",
+    "A091732",
+    "A361969",
+    "A362185",
+    "A362484",
+    "A362485"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

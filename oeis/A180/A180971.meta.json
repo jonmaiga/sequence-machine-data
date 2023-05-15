@@ -2,14 +2,12 @@
   "description": "Numbers k such that 6^7 + k^2 is a square.",
   "id": "A180971",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 24,
     "source": "oeis-entry"

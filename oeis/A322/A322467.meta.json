@@ -2,13 +2,11 @@
   "description": "Lexicographically first sequence of distinct terms such that a(n) is duplicated a(n) digits to the right.",
   "id": "A322467",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:45",
     "offset": 1,
     "size": 76,
     "source": "oeis-bfile"

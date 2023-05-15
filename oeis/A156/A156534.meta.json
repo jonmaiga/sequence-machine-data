@@ -2,7 +2,6 @@
   "description": "A triangular recursion sequence: A(n,k,m)= (m* n - m*k + 1)*A(n - 1, k - 1, m) + (m*k - (m - 1))*A(n - 1, k, m); t(n,k)=2*A(n, k, 1)*A(n + 1, k + 1, 0)/(n - k + 1) - A(n, k, 0)*A(n, k, 1).",
   "id": "A156534",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 49,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Primes of the form 2^k-5^m, where 2^k/5^m < 2.",
   "id": "A104052",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

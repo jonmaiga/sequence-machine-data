@@ -1,0 +1,19 @@
+{
+  "description": "Decimal representation of continued fraction 1, 4, 7, 10, 13, 16, 19, ... (A016777).",
+  "id": "A361873",
+  "mentions": [
+    "A016777",
+    "A060997",
+    "A073747"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 120,
+    "source": "oeis-entry"
+  }
+}

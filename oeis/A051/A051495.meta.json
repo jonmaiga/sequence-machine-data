@@ -2,12 +2,10 @@
   "description": "Expansion of (1 + x + 2*x^2 - x^3 + x^4)/(1 - 3*x^3 + 3*x^6 - x^9).",
   "id": "A051495",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:56:29",
     "offset": 0,
     "size": 60,
     "source": "joeis"

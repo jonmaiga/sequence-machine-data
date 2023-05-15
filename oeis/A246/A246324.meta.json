@@ -2,14 +2,12 @@
   "description": "Numbers n such that the Shephard-Todd group G_n is an exceptional spetsial irreducible reflection group acting on a complex vector space.",
   "id": "A246324",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"

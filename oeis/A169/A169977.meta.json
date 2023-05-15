@@ -2,7 +2,6 @@
   "description": "Lunar products of a 2-digit lunar prime and a three-digit lunar prime, sorted and duplicates removed.",
   "id": "A169977",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:53",
     "offset": 1,
     "size": 42,
     "source": "oeis-bfile"

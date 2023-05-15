@@ -8,15 +8,14 @@
     "A098616",
     "A215931"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 02:52:21",
     "offset": 0,
-    "size": 24,
+    "size": 25,
     "source": "joeis"
   }
 }

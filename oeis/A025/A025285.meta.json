@@ -2,6 +2,7 @@
   "description": "Numbers that are the sum of 2 nonzero squares in exactly 2 ways.",
   "id": "A025285",
   "mentions": [
+    "A007692",
     "A025284",
     "A025286",
     "A025287",
@@ -14,12 +15,11 @@
     "A025426",
     "A131574"
   ],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:27:29",
     "offset": 1,
     "size": 54,
     "source": "joeis"

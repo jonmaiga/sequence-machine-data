@@ -2,13 +2,11 @@
   "description": "Number of conditionally dominated Boolean functions in n variables.",
   "id": "A212414",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:30",
     "offset": 1,
     "size": 9,
     "source": "oeis-bfile"

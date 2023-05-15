@@ -2,12 +2,10 @@
   "description": "Floor((n-1)!/[n(n+1)]).",
   "id": "A143357",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 23,
     "source": "oeis-entry"

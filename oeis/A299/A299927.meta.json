@@ -2,7 +2,6 @@
   "description": "Number of permutations of length n that avoid the patterns 213 and 312 and have k double ascents, read by rows.",
   "id": "A299927",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:24",
     "offset": 0,
     "size": 68,
     "source": "oeis-bfile"

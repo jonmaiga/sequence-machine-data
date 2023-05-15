@@ -2,12 +2,10 @@
   "description": "a(n) = floor(sqrt(2*n^5)).",
   "id": "A172473",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:20:09",
     "offset": 0,
     "size": 44,
     "source": "joeis"

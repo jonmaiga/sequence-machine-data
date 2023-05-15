@@ -2,7 +2,6 @@
   "description": "Each row is a finite sequence of N terms a0, a1, ..., ai, ..., an which satisfies the conditions written in the following array: \"In this array, there are a0 times the number 0, there are a1 times the number 1, ..., there are ai times the number i, ..., there are an times the number n\".",
   "id": "A129773",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "fini",
     "formulas",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 3,
     "size": 38,
     "source": "oeis-entry"

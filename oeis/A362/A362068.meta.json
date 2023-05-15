@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest positive integer k such that n can be expressed as the arithmetic mean of k squares.",
+  "id": "A362068",
+  "mentions": [
+    "A004215",
+    "A360530"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

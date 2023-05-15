@@ -2,14 +2,12 @@
   "description": "Expansion of Lambert W function in powers of log(log(x))/log(x).",
   "id": "A073315",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 40,
     "source": "oeis-entry"

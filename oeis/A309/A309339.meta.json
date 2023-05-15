@@ -2,13 +2,11 @@
   "description": "This sequence a(n) gives the minimum odd number of Z^3 vectors, each of magnitude square root of 2n, that together sum to the zero vector. When no such minimum exists for a particular n, we set a(n) = 0.",
   "id": "A309339",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

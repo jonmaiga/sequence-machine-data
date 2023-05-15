@@ -2,14 +2,12 @@
   "description": "Sums of straddle primes.",
   "id": "A104201",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:54",
     "offset": 4,
     "size": 60,
     "source": "oeis-bfile"

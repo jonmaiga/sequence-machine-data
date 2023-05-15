@@ -1,15 +1,25 @@
 {
   "description": "Decimal expansion of solution to x*8^x = 1.",
   "id": "A103553",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:23",
+  "mentions": [
+    "A103549",
+    "A103550",
+    "A103551",
+    "A103552",
+    "A103554",
+    "A103555",
+    "A103556",
+    "A103559",
+    "A103560",
+    "A104748"
+  ],
   "tags": [
+    "changed",
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:34",
     "offset": 0,
     "size": 105,
     "source": "joeis"

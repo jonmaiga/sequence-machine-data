@@ -1,0 +1,19 @@
+{
+  "description": "Diagonal of rational function 1/(1 - (x^3 + y^3 + x^4*y)).",
+  "id": "A361488",
+  "mentions": [
+    "A006139",
+    "A115962",
+    "A360267",
+    "A361727"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

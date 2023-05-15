@@ -2,13 +2,11 @@
   "description": "Expansion A(x)=sum(n>0, a(n)*x^n/(3^(n-1)*n!), A(x) satisfies A(A(A(x)))=e^x-1.",
   "id": "A209519",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 19,
     "source": "oeis-entry"

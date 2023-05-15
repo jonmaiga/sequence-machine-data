@@ -2,13 +2,11 @@
   "description": "Numbers n such that the sum of the prime factors of n (counted with multiplicity) is a proper substring of n.",
   "id": "A143992",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 45,
     "source": "oeis-entry"

@@ -5,13 +5,11 @@
     "A070165",
     "A280409"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 87,
     "source": "oeis-entry"

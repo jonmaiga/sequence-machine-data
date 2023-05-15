@@ -2,12 +2,10 @@
   "description": "G.f. A(x) satisfies: 1 = Sum_{n>=0} (-x)^n * A(x)^n * (1 - (-x)^(n+1))^(n+1).",
   "id": "A351633",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 0,
     "size": 27,
     "source": "oeis-entry"

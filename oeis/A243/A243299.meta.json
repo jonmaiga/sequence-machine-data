@@ -2,13 +2,11 @@
   "description": "Total number of Bona classes for patterns of length n defined on the set of 123-avoiding permutations.",
   "id": "A243299",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

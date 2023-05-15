@@ -7,7 +7,6 @@
     "A229943",
     "A230437"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "cons",
     "fini",
@@ -16,7 +15,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

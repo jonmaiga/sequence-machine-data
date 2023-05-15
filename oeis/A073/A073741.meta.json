@@ -2,13 +2,11 @@
   "description": "Number of steps needed to reach a prime when the following map is repeatedly applied to n: if n is even then 2n+1, otherwise 2n-1; or -1 if no prime is ever reached.",
   "id": "A073741",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 2,
     "size": 102,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Consider the sequence b(0)=127 and for n>0, b(n) is the least prime of the form k * b(n-1)^2 - 1 where k is a multiple of 6. This sequence gives the values of k.",
   "id": "A110849",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

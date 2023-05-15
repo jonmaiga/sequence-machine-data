@@ -2,12 +2,10 @@
   "description": "Number of those nonnegative integer solutions of the congruence x_1+2x_2+...+(n-1)x_{n-1} = 0 (mod n) which are indecomposable, that is, are not nonnegative linear combinations of other nonnegative integer solutions.",
   "id": "A096337",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 39,
     "source": "oeis-entry"

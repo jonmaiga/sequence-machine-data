@@ -2,13 +2,11 @@
   "description": "Number of triangles in the complex obtained by starting with an isosceles right triangle, and dividing each cell into two similar isosceles right triangles n times.",
   "id": "A249753",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:06",
     "offset": 0,
     "size": 30,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Maximum k such that there are k nonisomorphic n-vertex trees with the same degree sequence.",
   "id": "A295637",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 0,
     "size": 19,
     "source": "oeis-entry"

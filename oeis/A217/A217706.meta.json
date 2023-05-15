@@ -2,13 +2,11 @@
   "description": "Decimal expansion of -Sum( n>=2, (-1)^n*log(1 - 1/(n*(n-1))) ).",
   "id": "A217706",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

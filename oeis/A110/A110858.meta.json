@@ -2,14 +2,12 @@
   "description": "Triangle read by rows: number of order-preserving partial transformations (of an n-element chain) of width and waist both equal to r (width(alpha) = |Dom(alpha)| and waist(alpha) = max(Im(alpha)).",
   "id": "A110858",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 66,
     "source": "oeis-entry"

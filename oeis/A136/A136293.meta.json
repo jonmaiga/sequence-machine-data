@@ -2,14 +2,12 @@
   "description": "Linear bound on the genera of Heegaard splittings of closed, orientable 3-manifolds that admit a generalized triangulation with n generalized tetrahedra.",
   "id": "A136293",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:26:03",
     "offset": 0,
     "size": 45,
     "source": "joeis"

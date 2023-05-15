@@ -1,15 +1,25 @@
 {
-  "description": "Decimal expansion of solution to x*7^x=1.",
+  "description": "Decimal expansion of solution to x*7^x = 1.",
   "id": "A103552",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:23",
+  "mentions": [
+    "A103549",
+    "A103550",
+    "A103551",
+    "A103553",
+    "A103554",
+    "A103555",
+    "A103556",
+    "A103559",
+    "A103560",
+    "A104748"
+  ],
   "tags": [
+    "changed",
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:54",
     "offset": 0,
     "size": 106,
     "source": "oeis-bfile"

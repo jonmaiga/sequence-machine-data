@@ -2,13 +2,11 @@
   "description": "a(n) is the number of iterations for x = x + 1/x needed until x + 1/x > n, starting with x = 1.",
   "id": "A333709",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:04",
     "offset": 1,
     "size": 60,
     "source": "oeis-bfile"

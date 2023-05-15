@@ -7,12 +7,10 @@
     "A330339",
     "A330545"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:59",
     "offset": 1,
     "size": 86,
     "source": "oeis-bfile"

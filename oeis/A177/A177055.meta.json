@@ -2,14 +2,12 @@
   "description": "Numbers k such that each decimal digit is a quadratic non-residue modulo k.",
   "id": "A177055",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:01",
     "offset": 1,
     "size": 68,
     "source": "oeis-bfile"

@@ -5,16 +5,13 @@
     "A257870",
     "A257872"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "cons",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:15",
     "offset": 1,
     "size": 104,
     "source": "oeis-bfile"

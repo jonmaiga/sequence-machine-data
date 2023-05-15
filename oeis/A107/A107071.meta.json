@@ -2,13 +2,11 @@
   "description": "Numbers n such that 1019*n + 1021 is prime.",
   "id": "A107071",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:58:35",
     "offset": 1,
     "size": 54,
     "source": "joeis"

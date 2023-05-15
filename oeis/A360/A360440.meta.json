@@ -1,0 +1,23 @@
+{
+  "description": "Square array read by antidiagonals upwards: T(n,k), n>=0, k>=0, is the number of ways of choosing nonnegative numbers for k indistinguishable A063008(n)-sided dice so that it is possible to roll every number from 0 to (A063008(n))^k-1.",
+  "id": "A360440",
+  "mentions": [
+    "A002119",
+    "A060540",
+    "A063008",
+    "A080577",
+    "A131514",
+    "A273013",
+    "A360098"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -2,12 +2,10 @@
   "description": "Number of right triangles with nonnegative integer coordinates less than or equal to n and one corner at the origin.",
   "id": "A155154",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 45,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "a(n) is the smallest prime such that it and the previous three primes are all of the form x^2 + n * y^2.",
   "id": "A212604",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 32,
     "source": "oeis-entry"

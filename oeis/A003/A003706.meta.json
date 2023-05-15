@@ -2,13 +2,11 @@
   "description": "E.g.f. sin(tan(x)), zeros omitted.",
   "id": "A003706",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:05",
     "offset": 0,
     "size": 16,
     "source": "oeis-bfile"

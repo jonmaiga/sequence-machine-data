@@ -2,12 +2,10 @@
   "description": "a(1)=1. a(n) = smallest integer that is greater than a(n-1) and is coprime to the largest nonprime (1 or composite) occurring among the first (n-1) terms of the sequence.",
   "id": "A122090",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 69,
     "source": "oeis-entry"

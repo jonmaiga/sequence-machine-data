@@ -2,12 +2,10 @@
   "description": "Numbers k such that 3k+1, 3k+5 and 3k+7 are all prime.",
   "id": "A062767",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:14",
     "offset": 1,
     "size": 50,
     "source": "oeis-bfile"

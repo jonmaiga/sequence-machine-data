@@ -2,13 +2,11 @@
   "description": "G.f. A(x) satisfies: a(n) = [x^(n-1)] A( x/(1-x) )^n / (1-x) for n>0 with a(0)=1 where A(x) = Sum_{n>=0} a(n)*x^n.",
   "id": "A203133",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 0,
     "size": 20,
     "source": "oeis-entry"

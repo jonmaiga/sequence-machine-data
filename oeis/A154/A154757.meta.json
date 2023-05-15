@@ -2,13 +2,11 @@
   "description": "G.f. A(x) = Sum_{n>=0} A_n(x)^(n+1) where A_{n+1}(x) = A_n( A(x) ) with A_0(x)=x and A(0)=0.",
   "id": "A154757",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

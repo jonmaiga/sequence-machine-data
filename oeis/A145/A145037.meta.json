@@ -10,7 +10,6 @@
     "A269735",
     "A360099"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "base",
     "easy",
@@ -18,7 +17,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:33",
     "offset": 0,
     "size": 91,
     "source": "oeis-bfile"

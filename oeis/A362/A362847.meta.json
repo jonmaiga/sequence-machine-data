@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows, T(n, k) = 4^k * Gamma(n + k + 1/2) / Gamma(n - k + 1/2).",
+  "id": "A362847",
+  "mentions": [
+    "A000466",
+    "A101485",
+    "A362848"
+  ],
+  "tags": [
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

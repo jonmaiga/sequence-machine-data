@@ -12,7 +12,6 @@
     "A292466",
     "A292789"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "look",
@@ -20,7 +19,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:07",
     "offset": 0,
     "size": 65,
     "source": "oeis-bfile"

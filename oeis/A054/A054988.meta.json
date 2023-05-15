@@ -12,14 +12,12 @@
     "A054991",
     "A054992"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "formulas",
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:04",
     "offset": 1,
     "size": 87,
     "source": "oeis-bfile"

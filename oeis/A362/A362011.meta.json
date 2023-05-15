@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 1 < gcd(k, 70) < k and A007947(k) does not divide 70.",
+  "id": "A362011",
+  "mentions": [
+    "A007947",
+    "A108513",
+    "A235583"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

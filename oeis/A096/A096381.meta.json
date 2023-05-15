@@ -2,14 +2,12 @@
   "description": "Beginning with 2, 7, multiply successive pairs of members and adjoin the result as the next one or two members of the sequence, depending on whether the product is a one- or two-digit number.",
   "id": "A096381",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:47",
     "offset": 1,
     "size": 105,
     "source": "oeis-bfile"

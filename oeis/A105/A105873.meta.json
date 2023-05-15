@@ -2,14 +2,12 @@
   "description": "Let l(n) be the number of letters when n is written in French; sequence gives values of n where l(n) sets a new record.",
   "id": "A105873",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 41,
     "source": "oeis-entry"

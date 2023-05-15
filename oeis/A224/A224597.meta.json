@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of (n+7)X(k+7) 0..1 matrices with each 8X8 subblock idempotent",
   "id": "A224597",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:42",
     "offset": 1,
     "size": 29,
     "source": "oeis-bfile"

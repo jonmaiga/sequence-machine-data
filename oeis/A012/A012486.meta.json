@@ -2,12 +2,10 @@
   "description": "sinh(cos(x)*arcsin(x))=x-1/3!*x^3-15/5!*x^5+359/7!*x^7+3713/9!*x^9...",
   "id": "A012486",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 12:24:48",
     "offset": 0,
     "size": 14,
     "source": "joeis"

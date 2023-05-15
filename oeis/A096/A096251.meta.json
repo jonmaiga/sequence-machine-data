@@ -2,13 +2,11 @@
   "description": "Decimal expansion of Sum(1/n^(n/2)).",
   "id": "A096251",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

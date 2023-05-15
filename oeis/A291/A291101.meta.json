@@ -2,13 +2,11 @@
   "description": "Number of maximal irredundant sets in the n-Mycielski graph.",
   "id": "A291101",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 5,
     "source": "oeis-entry"

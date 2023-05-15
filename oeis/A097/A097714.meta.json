@@ -2,7 +2,6 @@
   "description": "Repeatedly convert from sexagesimal to centesimal, starting with 60.",
   "id": "A097714",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 31,
     "source": "oeis-entry"

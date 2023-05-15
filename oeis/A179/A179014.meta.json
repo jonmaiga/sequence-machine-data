@@ -2,14 +2,12 @@
   "description": "Even numbers that can only be expressed as the sum of two distinct twin prime pairs in two ways: n = p+(q+2) = (p+2)+q where (3,5) < (p,p+2) < (q,q+2).",
   "id": "A179014",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 79,
     "source": "oeis-entry"

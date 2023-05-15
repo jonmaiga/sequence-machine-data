@@ -2,12 +2,10 @@
   "description": "a(1) = 1; for n>1, a(n) = smallest number not included earlier such that each P+1 is prime, where P is the product of an (n-1)-set from the previous n terms.",
   "id": "A086554",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

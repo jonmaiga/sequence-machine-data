@@ -7,7 +7,6 @@
     "A249579",
     "A249580"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "easy",
     "formulas",
@@ -15,7 +14,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:06",
     "offset": 0,
     "size": 44,
     "source": "oeis-bfile"

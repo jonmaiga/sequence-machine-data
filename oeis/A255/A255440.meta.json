@@ -1,16 +1,14 @@
 {
-  "description": "Ordered pairs of permutation functions on n elements satisfying f(g(g(g(x)))) = g(g(g(f(x)))).",
+  "description": "Number of ordered pairs of permutation functions on n elements satisfying f(g(g(g(x)))) = g(g(g(f(x)))).",
   "id": "A255440",
   "mentions": [
     "A232218",
     "A239841"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:13",
     "offset": 0,
     "size": 19,
     "source": "oeis-bfile"

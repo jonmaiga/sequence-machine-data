@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of nonisomorphic k-sets of permutations of an n-set.",
+  "id": "A362763",
+  "mentions": [
+    "A000012",
+    "A000041",
+    "A362644",
+    "A362764",
+    "A362765",
+    "A362766"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

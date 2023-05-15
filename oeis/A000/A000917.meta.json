@@ -15,14 +15,12 @@
     "A061928",
     "A073010"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:03",
     "offset": 0,
     "size": 24,
     "source": "oeis-bfile"

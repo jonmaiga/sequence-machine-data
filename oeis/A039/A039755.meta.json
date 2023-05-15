@@ -16,14 +16,13 @@
     "A154537",
     "A214406"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
+    "changed",
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:50",
     "offset": 0,
     "size": 56,
     "source": "oeis-bfile"

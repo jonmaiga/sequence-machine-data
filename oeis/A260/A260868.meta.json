@@ -2,12 +2,10 @@
   "description": "Numbers for which the least k > 1 which divides n + 2^k - 2 is different from the smallest prime factor of n.",
   "id": "A260868",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 57,
     "source": "oeis-entry"

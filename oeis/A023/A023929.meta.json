@@ -2,12 +2,10 @@
   "description": "Theta series of A*_17 lattice.",
   "id": "A023929",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:02",
     "offset": 0,
     "size": 81,
     "source": "joeis"

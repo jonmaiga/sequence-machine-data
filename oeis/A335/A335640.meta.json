@@ -1,13 +1,14 @@
 {
   "description": "Numbers k of the form r^2 - t*r*s + s^2, where r, s and t are positive integers, r + s = k and t < r <= s.",
   "id": "A335640",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:37",
+  "mentions": [
+    "A000290",
+    "A152618"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 54,
     "source": "oeis-entry"

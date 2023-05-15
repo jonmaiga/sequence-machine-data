@@ -2,13 +2,11 @@
   "description": "An irregular fractal sequence: underline a(n) iff the concatenation [a(n-1);a(n)] is divisible by a(n); all underlined terms rebuild the starting sequence.",
   "id": "A306804",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:31",
     "offset": 1,
     "size": 92,
     "source": "oeis-bfile"

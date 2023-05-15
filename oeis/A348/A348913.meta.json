@@ -2,13 +2,11 @@
   "description": "Number of N(0,1) variables needed for a 1/2 chance that their maximum exceeds the maximum of n N(1,1) variables.",
   "id": "A348913",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 51,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Number of intervals in the weak (Bruhat) order of the symmetric group S_n that are distributive lattices.",
   "id": "A190291",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

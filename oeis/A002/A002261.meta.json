@@ -2,13 +2,11 @@
   "description": "Numbers k such that 11*2^k+1 is prime.",
   "id": "A002261",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 1,
     "size": 32,
     "source": "oeis-entry"

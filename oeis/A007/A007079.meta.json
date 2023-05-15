@@ -2,14 +2,12 @@
   "description": "Number of labeled regular tournaments with 2n+1 nodes.",
   "id": "A007079",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:11",
     "offset": 0,
     "size": 12,
     "source": "oeis-bfile"

@@ -1,18 +1,16 @@
 {
-  "description": "Floor((1+2^n+3^n)/3).",
+  "description": "a(n) = floor((1+2^n+3^n)/3).",
   "id": "A087211",
   "mentions": [
     "A011782",
     "A094039"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:38",
     "offset": 0,
     "size": 27,
     "source": "oeis-bfile"

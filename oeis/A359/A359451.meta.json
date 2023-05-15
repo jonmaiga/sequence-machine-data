@@ -6,7 +6,6 @@
     "A002805",
     "A359450"
   ],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "base",
     "cons",
@@ -14,7 +13,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 1,
     "size": 101,
     "source": "oeis-entry"

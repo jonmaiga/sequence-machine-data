@@ -2,13 +2,11 @@
   "description": "Binomial coefficient C(8n,n-9).",
   "id": "A004390",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 14:29:32",
     "offset": 9,
     "size": 15,
     "source": "joeis"

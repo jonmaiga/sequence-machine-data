@@ -2,13 +2,11 @@
   "description": "Start with 4. Square the previous term and subtract it.",
   "id": "A204321",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:24",
     "offset": 1,
     "size": 8,
     "source": "oeis-bfile"

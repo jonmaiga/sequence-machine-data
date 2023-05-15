@@ -2,13 +2,11 @@
   "description": "Sum of primes q with prime(n) < q < 2*prime(n).",
   "id": "A108313",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 47,
     "source": "oeis-entry"

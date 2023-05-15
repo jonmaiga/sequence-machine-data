@@ -2,14 +2,12 @@
   "description": "Numbers k such that 11^(k+7) + 7^(k+5) + 5^(k+3) + 3^(k+2) + 2^(k+1) + 1 is prime.",
   "id": "A306573",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

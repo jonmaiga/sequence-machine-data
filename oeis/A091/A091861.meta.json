@@ -2,12 +2,10 @@
   "description": "a(1) = 1; a(n) = smallest positive unpicked integer such that n-k divides evenly into a(n)*a(k) for every k, 1 <= k <= n-1.",
   "id": "A091861",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 30,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Number of nXnXn triangular binary arrays with no element having four consecutive neighbors taken clockwise with value 1",
   "id": "A183282",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

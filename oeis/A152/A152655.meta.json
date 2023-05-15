@@ -2,14 +2,12 @@
   "description": "A vector recursion sequence: k = -3; m = 3; l = -3; a(n)=k*{0,a(n-2),0}+m*{-(m-1)/m,a(n-1)}++m*{a(n-1),-(m-1)/m}+l*{0,0,a(n-4),0,0}.",
   "id": "A152655",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 56,
     "source": "oeis-entry"

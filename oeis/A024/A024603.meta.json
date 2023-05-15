@@ -2,12 +2,10 @@
   "description": "a(n) = s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n+1-k), where k = [ (n+1)/2 ], s = (odd natural numbers), t = (primes).",
   "id": "A024603",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:24:05",
     "offset": 1,
     "size": 43,
     "source": "joeis"

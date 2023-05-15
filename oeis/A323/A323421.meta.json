@@ -2,13 +2,11 @@
   "description": "Lexicographically earliest sequence of terms describing its successive chunks of different digits.",
   "id": "A323421",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:47",
     "offset": 1,
     "size": 109,
     "source": "oeis-bfile"

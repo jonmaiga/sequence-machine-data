@@ -2,14 +2,12 @@
   "description": "Decimal expansion of Product_{n>=1} n*sin(1/n).",
   "id": "A295219",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 0,
     "size": 88,
     "source": "oeis-entry"

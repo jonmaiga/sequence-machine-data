@@ -1,16 +1,14 @@
 {
-  "description": "Number of 6Xn 0..1 arrays with no element equal to more than two of its horizontal, diagonal or antidiagonal neighbors, with the exception of exactly one element, and with new values introduced in order 0 sequentially upwards.",
+  "description": "Number of 6 X n 0..1 arrays with no element equal to more than two of its horizontal, diagonal or antidiagonal neighbors, with the exception of exactly one element, and with new values introduced in order 0 sequentially upwards.",
   "id": "A281405",
   "mentions": [
     "A281400"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:50",
     "offset": 1,
     "size": 28,
     "source": "oeis-bfile"

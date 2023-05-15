@@ -1,15 +1,17 @@
 {
-  "description": "First prime after phi(p_n^2).",
+  "description": "First prime after phi(prime(n)^2).",
   "id": "A079477",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:21",
+  "mentions": [
+    "A036689",
+    "A151800"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:31",
     "offset": 1,
-    "size": 41,
+    "size": 43,
     "source": "oeis-bfile"
   }
 }

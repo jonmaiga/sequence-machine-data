@@ -2,13 +2,11 @@
   "description": "In the sequence of positive integers subtract 1 from each nonprime number.",
   "id": "A113637",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 73,
     "source": "oeis-entry"

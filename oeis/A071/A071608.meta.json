@@ -2,12 +2,10 @@
   "description": "Number of complete mappings f(x) of Z_{2n+1} such that -(-id+f)^(-1)=f.",
   "id": "A071608",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 25,
     "source": "oeis-entry"

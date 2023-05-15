@@ -7,14 +7,12 @@
     "A033308",
     "A255307"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "base",
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:11:19",
     "offset": 1,
     "size": 127,
     "source": "joeis"

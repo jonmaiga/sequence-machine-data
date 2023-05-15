@@ -2,13 +2,11 @@
   "description": "Number of tanglegrams of size n.",
   "id": "A258620",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:16",
     "offset": 1,
     "size": 20,
     "source": "oeis-bfile"

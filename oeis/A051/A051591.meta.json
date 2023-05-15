@@ -2,13 +2,11 @@
   "description": "Number of oriented triangle graphs with transitively oriented maximal cliques, on binomial(n,2) points.",
   "id": "A051591",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:59",
     "offset": 2,
     "size": 9,
     "source": "oeis-bfile"

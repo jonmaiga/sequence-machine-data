@@ -2,14 +2,12 @@
   "description": "Absolute difference between the sums of the left and right diagonals of ordered 2 X 2 prime squares.",
   "id": "A105087",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 98,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Minimal number of times a rectangular grid of n X n+1 elements can be slid along a 45-degree line before a rotated version of the initial grid appears.",
   "id": "A110026",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 26,
     "source": "oeis-entry"

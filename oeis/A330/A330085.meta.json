@@ -2,13 +2,11 @@
   "description": "Length of longest binary word with the property that all distinct occurrences of identical-length blocks agree on at most n positions.",
   "id": "A330085",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 0,
     "size": 20,
     "source": "oeis-entry"

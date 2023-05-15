@@ -1,0 +1,21 @@
+{
+  "description": "Irregular table T(n, k), n >= 0, k = 1..A361477(n), read by rows; the n-th row lists the integers whose binary expansions have the same multiset of run-lengths as that of n.",
+  "id": "A361478",
+  "mentions": [
+    "A187786",
+    "A361477",
+    "A361479",
+    "A361480"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

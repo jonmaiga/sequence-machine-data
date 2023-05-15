@@ -2,13 +2,11 @@
   "description": "Let x(1)x(2)... x(2q) denote the decimal expansion of a number n with an even number of digits. The sequence lists the numbers n such that (10^q-a)*(10^q-b) = n where a is the number having the digits x(1)x(2)...x(q) and b is the number having the digits x(q+1)x(q+2)...x(2q).",
   "id": "A245587",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 28,
     "source": "oeis-entry"

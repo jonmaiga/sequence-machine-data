@@ -2,14 +2,12 @@
   "description": "Arises in enumerating geometric hyperplanes of the near hexagon L_3 x GQ(2,2).",
   "id": "A164803",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

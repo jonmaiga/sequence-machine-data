@@ -1,0 +1,26 @@
+{
+  "description": "Palindromes in A329150.",
+  "id": "A361820",
+  "mentions": [
+    "A002113",
+    "A002276",
+    "A002277",
+    "A002279",
+    "A002281",
+    "A099814",
+    "A118597",
+    "A329147",
+    "A329150",
+    "A361750",
+    "A361821"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

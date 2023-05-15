@@ -10,16 +10,17 @@
     "A334657",
     "A336277",
     "A336278",
-    "A336279"
+    "A336279",
+    "A360390",
+    "A361983"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:07",
     "offset": 1,
     "size": 47,
     "source": "oeis-bfile"

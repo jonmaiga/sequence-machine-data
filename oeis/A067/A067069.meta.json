@@ -2,12 +2,10 @@
   "description": "Numbers n such that for every k the following condition holds: (*) The number of nonnegative solutions of the Diophantine equation x^2 + n*y^2 = 1+n*k^2 equals one half of the number of divisors of 1+n*k^2 if 1+n*k^2 is not a square and one half of 1 + the number of divisors of 1+n*k^2 if 1+n*k^2 is a square.",
   "id": "A067069",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 41,
     "source": "oeis-entry"

@@ -19,15 +19,12 @@
     "A190990",
     "A208342"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:02",
     "offset": 0,
     "size": 78,
     "source": "oeis-bfile"

@@ -2,7 +2,6 @@
   "description": "Decimal expansion of constant arising in enumerating 2 X 2 integer matrices having a prescribed integer eigenvalue.",
   "id": "A141538",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "cons",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

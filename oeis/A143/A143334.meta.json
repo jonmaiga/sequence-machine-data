@@ -2,14 +2,12 @@
   "description": "Only odd and even version of Pascal's triangle sequence: t(n,m)=If[m*(n - m) == 0, 1, Mod[Binomial[n, m], 2]*Prime[n] + (1 - Mod[Binomial[n, m], 2])*(Prime[n] + 1)].",
   "id": "A143334",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

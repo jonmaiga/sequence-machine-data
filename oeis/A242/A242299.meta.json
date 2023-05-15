@@ -2,13 +2,11 @@
   "description": "a(n) is the smallest composite number ending in 1, 3, 7, or 9 with n digits whose first n-1 digits are a(n-1).",
   "id": "A242299",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

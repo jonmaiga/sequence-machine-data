@@ -2,14 +2,11 @@
   "description": "Expansion of e.g.f. arcsin(arctanh(x) * log(x+1)).",
   "id": "A012699",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-07 15:50:03",
     "offset": 0,
     "size": 20,
     "source": "joeis"

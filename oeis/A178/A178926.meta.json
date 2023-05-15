@@ -2,13 +2,11 @@
   "description": "T(n,k)=Log base 2 of the number of nXk binary arrays with no element equal to the modulo 2 sum of its diagonal and antidiagonal neighbors",
   "id": "A178926",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:02",
     "offset": 1,
     "size": 108,
     "source": "oeis-bfile"

@@ -56,12 +56,10 @@
     "A340104",
     "A340105"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

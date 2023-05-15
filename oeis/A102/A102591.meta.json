@@ -7,16 +7,15 @@
     "A079935",
     "A080879",
     "A099156",
-    "A102592"
+    "A102592",
+    "A107903"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 15:24:38",
     "offset": 0,
     "size": 20,
     "source": "joeis"

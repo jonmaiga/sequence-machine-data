@@ -2,13 +2,11 @@
   "description": "Numbers of squares in the range [n^3, (n+1)^3].",
   "id": "A100197",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 83,
     "source": "oeis-entry"

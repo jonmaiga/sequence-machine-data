@@ -2,14 +2,12 @@
   "description": "Arises in covering a graph by forests and a matching.",
   "id": "A179259",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:43:11",
     "offset": 0,
     "size": 37,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "Least k such that some digit occurs n times (or more) in the decimal representation of n^k.",
   "id": "A225842",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:43",
     "offset": 0,
     "size": 62,
     "source": "oeis-bfile"

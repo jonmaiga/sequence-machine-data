@@ -1,20 +1,18 @@
 {
-  "description": "a(n) = (3*9^n-5^n)/2.",
+  "description": "a(n) = (3*9^n - 5^n)/2.",
   "id": "A165149",
   "mentions": [
     "A165148",
     "A165150"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:48",
     "offset": 0,
-    "size": 19,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

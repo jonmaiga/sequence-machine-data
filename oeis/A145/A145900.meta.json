@@ -2,7 +2,6 @@
   "description": "Coefficients of a normalized Schwarzian derivative generating the Neretin polynomials: S(f) = (x^2/6) { D^2 log(f(x)) - (1/2) [D log(f(x))]^2 }.",
   "id": "A145900",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 2,
     "size": 43,
     "source": "oeis-entry"

@@ -10,12 +10,10 @@
     "A322237",
     "A322238"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:45",
     "offset": 0,
     "size": 26,
     "source": "oeis-bfile"

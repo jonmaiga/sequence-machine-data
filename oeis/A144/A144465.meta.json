@@ -2,14 +2,12 @@
   "description": "a(n) = 5^n - 2^(n - 1) for n > 0; a(0) = 1.",
   "id": "A144465",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 17:40:32",
     "offset": 0,
     "size": 21,
     "source": "joeis"

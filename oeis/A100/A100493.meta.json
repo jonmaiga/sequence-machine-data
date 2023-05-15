@@ -2,6 +2,7 @@
   "description": "a(n) = n + n-th semiprime.",
   "id": "A100493",
   "mentions": [
+    "A001222",
     "A001358",
     "A014688",
     "A100466",
@@ -9,14 +10,12 @@
     "A100915",
     "A100916"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:51",
     "offset": 1,
     "size": 58,
     "source": "oeis-bfile"

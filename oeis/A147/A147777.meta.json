@@ -2,13 +2,11 @@
   "description": "Decimal expansion of 4+2k, where k = z^(-3)+z^(-2)+z^(-1)+1+z+z^2+z^3 and z = exp(2*Pi*I/23).",
   "id": "A147777",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 2,
     "size": 99,
     "source": "oeis-entry"

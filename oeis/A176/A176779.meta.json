@@ -2,13 +2,11 @@
   "description": "Smallest number appearing exactly n times in the concatenation of all integers from 1 to itself.",
   "id": "A176779",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 25,
     "source": "oeis-entry"

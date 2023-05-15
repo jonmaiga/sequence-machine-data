@@ -2,7 +2,6 @@
   "description": "Minimal number of horizontal and vertical lines needed to partition a square into rectangles which can be reassembled into n distinct squares.",
   "id": "A348133",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "formulas",
     "hard",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 2,
     "size": 7,
     "source": "oeis-entry"

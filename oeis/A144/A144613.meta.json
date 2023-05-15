@@ -13,14 +13,12 @@
     "A283122",
     "A283123"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:33",
     "offset": 1,
     "size": 58,
     "source": "oeis-bfile"

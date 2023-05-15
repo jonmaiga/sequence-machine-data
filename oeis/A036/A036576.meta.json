@@ -2,13 +2,11 @@
   "description": "a(n) is the least number not of the form floor(k^2/n).",
   "id": "A036576",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:27:07",
     "offset": 1,
     "size": 76,
     "source": "joeis"

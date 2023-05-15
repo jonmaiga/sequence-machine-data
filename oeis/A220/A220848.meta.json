@@ -2,14 +2,12 @@
   "description": "a(n) = sum_(d|n) product_(d_x|n, d_x<=d) d_x.",
   "id": "A220848",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:39",
     "offset": 1,
     "size": 48,
     "source": "oeis-bfile"

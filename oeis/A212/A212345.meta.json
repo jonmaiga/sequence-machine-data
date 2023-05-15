@@ -2,12 +2,10 @@
   "description": "Sequence of coefficients of x^(n-4) in marked mesh pattern generating function Q_{n,132}^(0,3,0,0)(x).",
   "id": "A212345",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 4,
     "size": 26,
     "source": "oeis-entry"

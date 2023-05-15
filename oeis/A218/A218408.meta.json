@@ -1,18 +1,16 @@
 {
-  "description": "Numbers n for which sigma(n)/n = k+3/5 with integer k.",
+  "description": "Numbers k for which sigma(k)/k - 3/5 is an integer.",
   "id": "A218408",
   "mentions": [
     "A218406",
     "A218407",
     "A218427"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
-    "formulas",
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 17,
     "source": "oeis-entry"

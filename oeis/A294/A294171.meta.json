@@ -2,13 +2,11 @@
   "description": "Positive integers k such that there exists a sequence of k consecutive natural numbers m - k + 1, m - k + 2, ..., m with m >= 2*k such that none of the numbers of the sequence is a divisor of binomial(m, k).",
   "id": "A294171",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 5,
     "source": "oeis-entry"

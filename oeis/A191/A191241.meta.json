@@ -2,13 +2,11 @@
   "description": "Reversion of x - x^2 - 2*x^5.",
   "id": "A191241",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 00:57:25",
     "offset": 1,
     "size": 30,
     "source": "joeis"

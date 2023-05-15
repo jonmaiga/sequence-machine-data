@@ -2,12 +2,10 @@
   "description": "Expansion of (1+x^16)/(1-x)/(1-x^2)/(1-x^3).",
   "id": "A008759",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 12:49:03",
     "offset": 0,
     "size": 49,
     "source": "joeis"

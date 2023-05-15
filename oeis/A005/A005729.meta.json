@@ -5,7 +5,6 @@
     "A005730",
     "A005731"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "easy",
     "formulas",
@@ -13,7 +12,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 12:35:03",
     "offset": 1,
     "size": 60,
     "source": "joeis"

@@ -2,14 +2,12 @@
   "description": "Dead hexadecimal primes.",
   "id": "A140967",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "base",
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:29",
     "offset": 1,
     "size": 25,
     "source": "oeis-bfile"

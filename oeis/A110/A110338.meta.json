@@ -2,13 +2,11 @@
   "description": "2n odd numbers followed by 2n-1 even numbers.",
   "id": "A110338",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

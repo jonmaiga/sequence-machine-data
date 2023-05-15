@@ -2,12 +2,10 @@
   "description": "Number of equivalence classes of 3-binomial complexity for binary words of length n.",
   "id": "A258585",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 38,
     "source": "oeis-entry"

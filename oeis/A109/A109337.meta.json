@@ -9,13 +9,11 @@
     "A187199",
     "A187200"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 102,
     "source": "oeis-entry"

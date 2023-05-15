@@ -15,15 +15,13 @@
     "A304819",
     "A304820"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 86,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

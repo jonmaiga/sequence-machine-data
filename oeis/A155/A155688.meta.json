@@ -2,7 +2,6 @@
   "description": "A symmetrical triangle of polynomial coefficients that are von Koch like: b=1/4; p(x, n) = If[Mod[n, 4] == 2, (b*x - n/2)*p(x, n - 1), If[ Mod[n, 4] == 3, (x/2 - b*n + 1/2)*p(x, n - 1), If[ Mod[n, 4] == 0, (-b*x - n/2 + b)*p(x, n - 1), (x/2 + b*n)*p(x, n - 1)]]]; q(x,n)=(p(x,n)+x^n*(p(1/x,n))/b^n.",
   "id": "A155688",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 42,
     "source": "oeis-entry"

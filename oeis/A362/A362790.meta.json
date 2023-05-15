@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{k=0..n} FallingFactorial(n - k, k) * Stirling2(n - k, k), row sums of A362789.",
+  "id": "A362790",
+  "mentions": [
+    "A362789"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

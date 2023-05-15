@@ -2,13 +2,11 @@
   "description": "Lexicographically first sequence (with no duplicates) where the last digit of a(n) added to the first digit of a(n+1) equals 10.",
   "id": "A277998",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:44",
     "offset": 1,
     "size": 106,
     "source": "oeis-bfile"

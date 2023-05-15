@@ -2,13 +2,11 @@
   "description": "Triangle of coefficients of powers of e^2 in numerators of Sum_{k>=1} {1 / (1 + k^2*Pi^2)^n}.",
   "id": "A085470",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 38,
     "source": "oeis-entry"

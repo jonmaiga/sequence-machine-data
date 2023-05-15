@@ -2,12 +2,10 @@
   "description": "a(n)=n-p+1 where p is the maximal prime less than n-2.",
   "id": "A161758",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 5,
     "size": 96,
     "source": "oeis-entry"

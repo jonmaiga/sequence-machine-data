@@ -2,13 +2,11 @@
   "description": "a(n)=n*(10^K) + a(n-1); a(0)=1; K=floor(log_10 a(n-1))+1.",
   "id": "A136307",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 19,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Numbers not multiples of 9 whose digital sum coincides with digital sum of their largest proper divisor.",
   "id": "A219340",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:37",
     "offset": 1,
     "size": 43,
     "source": "oeis-bfile"

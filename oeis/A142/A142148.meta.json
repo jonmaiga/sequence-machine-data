@@ -2,14 +2,12 @@
   "description": "A triangular sequence of polynomial coefficients of an adjusted root product one polynomial set: w(i,n)=If[i == 1, 1/n!, i]; p(x,n)=n!*Product[x - w[i, n], {i, 0, n}]/x.",
   "id": "A142148",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 42,
     "source": "oeis-entry"

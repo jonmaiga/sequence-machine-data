@@ -2,14 +2,12 @@
   "description": "Expansion of 1/((1-x)(1-x^2)(1-x^3)(1-x^7)).",
   "id": "A029001",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:41:09",
     "offset": 0,
     "size": 49,
     "source": "joeis"

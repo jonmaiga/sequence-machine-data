@@ -2,12 +2,10 @@
   "description": "Theta series of 14-dimensional extremal 3-modular lattice with det 3^7, minimal norm 4, group 2 X G_2(3).",
   "id": "A004048",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 0,
     "size": 22,
     "source": "oeis-entry"

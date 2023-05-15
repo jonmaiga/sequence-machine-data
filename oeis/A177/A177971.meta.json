@@ -2,7 +2,6 @@
   "description": "Triangle of polynomial coefficients: p(x,n) = (1 - 2x)^(n + 1)*(1 + Sum_{k>=1} 2^(k - 1)*k^n*x^k).",
   "id": "A177971",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "less",
@@ -10,7 +9,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 55,
     "source": "oeis-entry"

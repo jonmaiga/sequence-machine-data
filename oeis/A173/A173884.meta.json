@@ -2,7 +2,6 @@
   "description": "Double q-form product triangle:q=2;c(n,q)=Product[(1 - q^i)*(1 - q^(i - 1)), {i, 2, n}];t(n,m,q)=c(n,q)/(c(m,q)*c(n-m,q))",
   "id": "A173884",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 42,
     "source": "oeis-entry"

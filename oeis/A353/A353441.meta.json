@@ -12,17 +12,17 @@
     "A353440",
     "A353442",
     "A353443",
-    "A353444"
+    "A353444",
+    "A362579"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 71,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

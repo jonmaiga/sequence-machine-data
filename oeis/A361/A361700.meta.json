@@ -1,0 +1,19 @@
+{
+  "description": "Constant term in the expansion of (1 + x^4 + y^4 + 1/(x*y))^n.",
+  "id": "A361700",
+  "mentions": [
+    "A344560",
+    "A361657",
+    "A361699"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

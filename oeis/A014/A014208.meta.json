@@ -2,12 +2,10 @@
   "description": "Next prime after n-th Fibonacci number.",
   "id": "A014208",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 07:36:57",
     "offset": 0,
     "size": 36,
     "source": "joeis"

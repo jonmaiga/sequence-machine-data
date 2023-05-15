@@ -2,13 +2,11 @@
   "description": "Maximum number of pairs of primes (p,q) such that p < q <= prime(n) and p + q = constant.",
   "id": "A283302",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:54",
     "offset": 1,
     "size": 90,
     "source": "oeis-bfile"

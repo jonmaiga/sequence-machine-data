@@ -2,12 +2,10 @@
   "description": "Consider any chain of consecutive primes which divides n; take all longest such chains; maximize the product of the primes in the chain.",
   "id": "A208644",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 73,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Number of multisets of chair trees constructed from n chairs.",
   "id": "A292098",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 0,
     "size": 16,
     "source": "oeis-entry"

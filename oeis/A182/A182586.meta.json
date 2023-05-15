@@ -2,12 +2,10 @@
   "description": "a(n) is the unique nonnegative integer m such that the Grundy function of the position [n,m] for the Wythoff game evaluates to 1.",
   "id": "A182586",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 68,
     "source": "oeis-entry"

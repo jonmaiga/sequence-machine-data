@@ -2,13 +2,11 @@
   "description": "Write the distinct primes dividing n in binary, in order with the largest prime on the left and smallest on the right. Concatenate, and convert to decimal to get a(n).",
   "id": "A162687",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:44",
     "offset": 1,
     "size": 100,
     "source": "oeis-bfile"

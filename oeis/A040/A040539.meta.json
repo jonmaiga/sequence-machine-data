@@ -2,7 +2,6 @@
   "description": "Continued fraction for sqrt(563).",
   "id": "A040539",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "cofr",
     "easy",
@@ -11,7 +10,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:19:25",
     "offset": 0,
     "size": 85,
     "source": "joeis"

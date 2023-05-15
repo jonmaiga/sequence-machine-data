@@ -2,13 +2,11 @@
   "description": "Squares n^2 that become prime after omitting all ones in their decimal expansion.",
   "id": "A175983",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 29,
     "source": "oeis-entry"

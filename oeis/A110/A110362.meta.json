@@ -2,12 +2,10 @@
   "description": "Beginning with 2, smallest unincluded prime number such that successive absolute differences are distinct triangular numbers.",
   "id": "A110362",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 52,
     "source": "oeis-entry"

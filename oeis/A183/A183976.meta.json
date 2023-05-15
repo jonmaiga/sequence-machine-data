@@ -2,13 +2,11 @@
   "description": "T(n,k)=Half the number of (n+1)X(k+1) 0..3 arrays with no 2X2 subblock sum differing from a horizontal or vertical neighbor subblock sum by more than one",
   "id": "A183976",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:08",
     "offset": 1,
     "size": 27,
     "source": "oeis-bfile"

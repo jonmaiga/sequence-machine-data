@@ -2,14 +2,12 @@
   "description": "List of orders of elements of Conway simple group Co_3.",
   "id": "A028827",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 0,
     "size": 42,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Let c(k) be defined as follows: c(1)=1, c(2)=x, c(k+2) = c(k+1)/2 + c(k)/2 if c(k+1) and c(k) have the same parity; c(k+2) = c(k+1) - c(k) otherwise. Sequence gives values of x such that c(k)=1 for any k large enough.",
   "id": "A072893",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 60,
     "source": "oeis-entry"

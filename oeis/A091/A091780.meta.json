@@ -2,12 +2,10 @@
   "description": "Alternately odd and even numbers such that a(n) is the least number not included earlier and has a common factor with a(n-1).",
   "id": "A091780",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 70,
     "source": "oeis-entry"

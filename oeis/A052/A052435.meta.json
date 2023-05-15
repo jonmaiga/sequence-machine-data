@@ -7,13 +7,11 @@
     "A282870",
     "A359145"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "look",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:00",
     "offset": 2,
     "size": 102,
     "source": "oeis-bfile"

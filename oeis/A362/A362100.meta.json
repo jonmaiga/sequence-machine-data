@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that 8^k starts with k.",
+  "id": "A362100",
+  "mentions": [
+    "A100129",
+    "A320930",
+    "A362096",
+    "A362097",
+    "A362101"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

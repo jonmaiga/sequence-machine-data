@@ -2,14 +2,12 @@
   "description": "The sequence of the initial letters of the days of the week (in English) in ASCII format, starting with a Sunday.",
   "id": "A134456",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "less",
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2022-04-26 11:31:47",
     "offset": 0,
     "size": 69,
     "source": "joeis"

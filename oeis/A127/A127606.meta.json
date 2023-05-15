@@ -3,15 +3,14 @@
   "id": "A127606",
   "mentions": [
     "A004003",
+    "A006752",
     "A127605"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:15",
     "offset": 0,
     "size": 10,
     "source": "oeis-bfile"

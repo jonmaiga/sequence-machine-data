@@ -2,12 +2,10 @@
   "description": "Period of continued fraction for sqrt(n) contains exactly five 1's.",
   "id": "A020441",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:00",
     "offset": 1,
     "size": 45,
     "source": "joeis"

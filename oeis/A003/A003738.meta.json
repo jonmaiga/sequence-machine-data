@@ -2,14 +2,12 @@
   "description": "Number of Hamiltonian paths in W_5 X P_n.",
   "id": "A003738",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:05",
     "offset": 1,
     "size": 17,
     "source": "oeis-bfile"

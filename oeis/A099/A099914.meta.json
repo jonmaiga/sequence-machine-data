@@ -2,15 +2,12 @@
   "description": "Expansion of (1+3x)/((1-x)(1-10x)).",
   "id": "A099914",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 14:21:00",
     "offset": 0,
     "size": 18,
     "source": "joeis"

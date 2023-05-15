@@ -2,13 +2,11 @@
   "description": "Decimal expansion of convergent series Sum_{n >= 1} (sin(n)/2)^n.",
   "id": "A308258",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 0,
     "size": 120,
     "source": "oeis-entry"

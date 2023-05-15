@@ -2,13 +2,11 @@
   "description": "In decimal representation of n, replace composite digits (4, 6, 8 and 9) with their concatenated prime factorizations (22, 23, 222 and 33).",
   "id": "A073647",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 59,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Number of partitions of n into parts free of odd squares and the only number with multiplicity in the unrestricted partitions is the number 2.",
   "id": "A100926",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 56,
     "source": "oeis-entry"

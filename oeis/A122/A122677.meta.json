@@ -2,12 +2,10 @@
   "description": "Number of catacondensed azulenoids with n carbon atoms.",
   "id": "A122677",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

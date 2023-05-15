@@ -2,14 +2,12 @@
   "description": "A triangular sequence of the antidiagonal of the Cyclotomic q like factorial: t(n,m)=If[m == 0, n!, Product[Cyclotomic[k, m + 1], {k, 1, n}]].",
   "id": "A156565",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 53,
     "source": "oeis-entry"

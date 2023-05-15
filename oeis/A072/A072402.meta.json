@@ -2,12 +2,10 @@
   "description": "a(n) = 6^n *sum_{k=1..infinity} Gamma(n+k/6)/ (k!*Gamma(k/6) *exp(1)), where Gamma is Capital-Greek-Gamma, the Gamma-function.",
   "id": "A072402",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

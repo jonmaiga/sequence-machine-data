@@ -8,7 +8,6 @@
     "A273668",
     "A273670"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "base",
     "formulas",
@@ -16,7 +15,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:38",
     "offset": 0,
     "size": 80,
     "source": "oeis-bfile"

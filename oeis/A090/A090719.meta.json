@@ -2,13 +2,11 @@
   "description": "Primes whose representation in base 256 can be interpreted as a decimal prime.",
   "id": "A090719",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 36,
     "source": "oeis-entry"

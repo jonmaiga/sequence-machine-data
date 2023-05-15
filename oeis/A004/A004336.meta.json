@@ -2,13 +2,11 @@
   "description": "Binomial coefficient C(4n,n-6).",
   "id": "A004336",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 03:07:10",
     "offset": 6,
     "size": 17,
     "source": "joeis"

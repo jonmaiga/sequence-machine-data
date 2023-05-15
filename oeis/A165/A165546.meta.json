@@ -2,13 +2,11 @@
   "description": "Number of permutations of length n that avoid the patterns 3412 and 2413.",
   "id": "A165546",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 24,
     "source": "oeis-entry"

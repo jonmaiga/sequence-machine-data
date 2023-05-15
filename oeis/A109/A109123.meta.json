@@ -2,13 +2,11 @@
   "description": "a(n) = 4*(n+1)^2*(n+3)^2*(5*n^2 + 20*n + 12).",
   "id": "A109123",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:48:13",
     "offset": 0,
     "size": 26,
     "source": "joeis"

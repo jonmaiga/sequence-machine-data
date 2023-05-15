@@ -2,13 +2,11 @@
   "description": "a(n) is the smallest step size that does not occur on a staircase of n steps when following the following procedure: Take steps of length 1 up a staircase until you can't step any further, then take steps of length 2 down until you can't step any further, and so on.",
   "id": "A282442",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "look",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:51",
     "offset": 1,
     "size": 67,
     "source": "oeis-bfile"

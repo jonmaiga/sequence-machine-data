@@ -2,12 +2,10 @@
   "description": "Nonisomorphic catacondensed monoheptabenzenoids (see reference for precise definition).",
   "id": "A121076",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 9,
     "source": "oeis-entry"

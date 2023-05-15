@@ -2,13 +2,11 @@
   "description": "Number of different patterns using tiles from 1*1 to 1*n with each tile flush to at least one other.",
   "id": "A214366",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 0,
     "size": 6,
     "source": "oeis-entry"

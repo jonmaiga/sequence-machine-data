@@ -2,13 +2,11 @@
   "description": "Number of n X n matrices over GF(2) with all eigenvalues in GF(2).",
   "id": "A255493",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

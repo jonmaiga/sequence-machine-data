@@ -2,13 +2,11 @@
   "description": "Related to residues of poles of moment function for random walks in 6 dimensions.",
   "id": "A253094",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 04:14:18",
     "offset": 0,
     "size": 26,
     "source": "joeis"

@@ -4,13 +4,11 @@
   "mentions": [
     "A064619"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:59",
     "offset": 1,
     "size": 97,
     "source": "oeis-bfile"

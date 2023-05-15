@@ -2,13 +2,11 @@
   "description": "Number of inequivalent ways to select n cards in the game of SET.",
   "id": "A182240",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 24,
     "source": "oeis-entry"

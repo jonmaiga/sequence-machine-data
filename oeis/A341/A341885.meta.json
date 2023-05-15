@@ -6,13 +6,11 @@
     "A001414",
     "A340834"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:14",
     "offset": 1,
     "size": 69,
     "source": "oeis-bfile"

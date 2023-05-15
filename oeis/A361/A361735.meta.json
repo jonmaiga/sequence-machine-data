@@ -1,0 +1,16 @@
+{
+  "description": "Modified semi-Padovan sequence: a(2*n) = a(n) and a(2*n+1) = a(2*n-1) + a(2*n-2), with a(0) = 0 and a(1) = 1.",
+  "id": "A361735",
+  "mentions": [
+    "A361734",
+    "A361736"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

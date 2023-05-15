@@ -2,12 +2,10 @@
   "description": "Guttmann-Torrie simple cubic lattice series coefficients c_n^{22}(Pi/4).",
   "id": "A259813",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 19,
     "source": "oeis-entry"

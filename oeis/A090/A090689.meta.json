@@ -2,13 +2,11 @@
   "description": "Repeated primes in first occurrence in the progression kx^2-1.",
   "id": "A090689",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 54,
     "source": "oeis-entry"

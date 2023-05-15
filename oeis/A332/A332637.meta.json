@@ -2,14 +2,12 @@
   "description": "The number of n X n replace matrices: binary matrices A where the i-th row contains exactly i zeros and A[i,j] >= A[j,i] for all i < j.",
   "id": "A332637",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

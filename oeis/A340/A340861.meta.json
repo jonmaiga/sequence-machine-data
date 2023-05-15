@@ -2,12 +2,10 @@
   "description": "a(n) is the least prime of the form Sum_{1<=i<=2*n-1} prime(i+1)*prime(i+k)",
   "id": "A340861",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:13",
     "offset": 2,
     "size": 38,
     "source": "oeis-bfile"

@@ -2,14 +2,12 @@
   "description": "Number of reachable configurations in a chip-firing game on a triangle starting with n chips on one vertex.",
   "id": "A188623",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:23:39",
     "offset": 1,
     "size": 76,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "A sequence for measuring seconds: read it aloud.",
   "id": "A038459",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:38:35",
     "offset": 1,
     "size": 50,
     "source": "joeis"

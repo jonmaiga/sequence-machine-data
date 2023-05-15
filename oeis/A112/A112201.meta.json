@@ -2,13 +2,11 @@
   "description": "McKay-Thompson series of class 60c for the Monster group.",
   "id": "A112201",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-26 12:35:41",
     "offset": 0,
     "size": 91,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "S(n) - the sum of the areas of the polygons constructed from connecting with a straight line all identical members in the multiplicative table modulo n (finite field).",
   "id": "A157023",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 2,
     "size": 41,
     "source": "oeis-entry"

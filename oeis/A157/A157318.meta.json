@@ -2,7 +2,6 @@
   "description": "Numbers in Spanish that do not use the letter I.",
   "id": "A157318",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "fini",
     "full",
@@ -10,7 +9,6 @@
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 45,
     "source": "oeis-entry"

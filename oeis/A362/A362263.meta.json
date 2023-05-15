@@ -1,0 +1,19 @@
+{
+  "description": "Maximum number of ways in which a set of integer-sided squares can tile an n X 5 rectangle, up to rotations and reflections.",
+  "id": "A362263",
+  "mentions": [
+    "A359021",
+    "A362146",
+    "A362258"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

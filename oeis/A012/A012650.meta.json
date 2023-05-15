@@ -2,12 +2,10 @@
   "description": "Expansion of e.g.f. sin(tanh(x) * log(x+1)).",
   "id": "A012650",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-16 12:46:55",
     "offset": 0,
     "size": 21,
     "source": "joeis"

@@ -4,7 +4,6 @@
   "mentions": [
     "A007459"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "hard",
@@ -13,7 +12,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Primes p such that 2p+3*5*7*11*13*17*19*23*29*31*37 is prime.",
   "id": "A161613",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

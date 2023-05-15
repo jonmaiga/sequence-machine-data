@@ -2,14 +2,12 @@
   "description": "Consider a domino formed from two adjacent 1 X 1 squares. This is the decimal expansion of the average distance between a random point in the left square and a random point in the right square.",
   "id": "A135707",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 99,
     "source": "oeis-entry"

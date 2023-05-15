@@ -2,12 +2,10 @@
   "description": "Lexicographically earliest sequence such that the product a(j)*a(j+k)*a(j+2k) for any j and k is a unique positive integer.",
   "id": "A309108",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:33",
     "offset": 0,
     "size": 69,
     "source": "oeis-bfile"

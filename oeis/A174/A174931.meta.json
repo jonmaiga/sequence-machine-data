@@ -2,13 +2,11 @@
   "description": "Half of the digital sum of base 3 representations of 2^n.",
   "id": "A174931",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 79,
     "source": "oeis-entry"

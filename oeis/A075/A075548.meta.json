@@ -2,13 +2,11 @@
   "description": "Perfect powers n such that (n-17)/2 is prime.",
   "id": "A075548",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:27",
     "offset": 1,
     "size": 29,
     "source": "oeis-bfile"

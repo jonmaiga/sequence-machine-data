@@ -2,12 +2,10 @@
   "description": "Least k such that k^prime(n)-k^((prime(n)+1)/2)+1 is prime for n>1.",
   "id": "A111232",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 2,
     "size": 70,
     "source": "oeis-entry"

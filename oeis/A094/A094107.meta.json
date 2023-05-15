@@ -2,12 +2,10 @@
   "description": "Primes which can be written as prime(prime(k))-6 for some k>1.",
   "id": "A094107",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 46,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "a(n) = N(chi_n) for the irreducible characters chi_n of the Monster simple group (cf. comments).",
   "id": "A337094",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:08",
     "offset": 1,
     "size": 17,
     "source": "oeis-bfile"

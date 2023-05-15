@@ -1,0 +1,17 @@
+{
+  "description": "Least number k >= 1 such that A361665(k) is divisible by n.",
+  "id": "A361666",
+  "mentions": [
+    "A361662",
+    "A361665",
+    "A361667"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

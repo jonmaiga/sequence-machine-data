@@ -1,17 +1,15 @@
 {
-  "description": "(5^n - 1)^n.",
+  "description": "a(n) = (5^n - 1)^n.",
   "id": "A241095",
   "mentions": [
     "A055601",
     "A060613",
     "A240091"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 0,
     "size": 10,
     "source": "oeis-entry"

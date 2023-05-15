@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (3 - sqrt(3))/4.",
+  "id": "A362695",
+  "mentions": [
+    "A334843"
+  ],
+  "tags": [
+    "cons",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

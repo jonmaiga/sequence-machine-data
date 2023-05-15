@@ -2,14 +2,12 @@
   "description": "A method of using three consecutive coprimes to generate numbers either one away from a prime or splitting two twin primes. The sequence lists the first of a group of three coprimes.",
   "id": "A129618",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 41,
     "source": "oeis-entry"

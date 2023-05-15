@@ -2,13 +2,11 @@
   "description": "Number of vertices of the Gelfand Tsetlin-polytope. Alternatively, the number of Gelfand-Tsetlin patterns with top row 1234...n and such that every entry in a given row also appears in the row above it.",
   "id": "A130715",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

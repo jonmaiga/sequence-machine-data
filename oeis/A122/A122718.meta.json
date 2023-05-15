@@ -2,12 +2,10 @@
   "description": "Convenience store primes or prime of the form abs(7^n - 2^11).",
   "id": "A122718",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:11",
     "offset": 1,
     "size": 9,
     "source": "oeis-bfile"

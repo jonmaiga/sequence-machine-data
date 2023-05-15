@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying x = P(x) * Sum_{n=-oo..+oo} x^(n*(3*n+1)/2) * (A(x)^(3*n) - 1/A(x)^(3*n+1)), where P(x) = 1/Product_{n>=1} (1 - x^n).",
+  "id": "A360580",
+  "mentions": [
+    "A359920"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

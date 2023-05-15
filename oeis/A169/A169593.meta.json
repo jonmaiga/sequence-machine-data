@@ -2,13 +2,11 @@
   "description": "Coefficients of characteristic polynomials of determinant equals trace matrices using Eulerian trace and factorial determinant.",
   "id": "A169593",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "sign",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 40,
     "source": "oeis-entry"

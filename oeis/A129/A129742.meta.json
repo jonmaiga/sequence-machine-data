@@ -2,13 +2,11 @@
   "description": "Numbers of the form: a(n)=((Prime[n] - 1)! - (Prime[n] - 1))/(2*Prime[n]).",
   "id": "A129742",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

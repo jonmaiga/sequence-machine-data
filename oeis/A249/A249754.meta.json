@@ -2,12 +2,10 @@
   "description": "The number of ordered pairs (G,S) where G is a simple labeled graph of order n and S is a subset of the vertices of G such that every element (vertex) in S is in the same connected component of G.",
   "id": "A249754",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 0,
     "size": 17,
     "source": "oeis-entry"

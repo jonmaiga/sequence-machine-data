@@ -2,13 +2,11 @@
   "description": "Decimal expansion of integral_{x=0..infinity} 1/(cos(x) + x^2) dx.",
   "id": "A217732",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 100,
     "source": "oeis-entry"

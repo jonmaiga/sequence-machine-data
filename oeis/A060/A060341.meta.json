@@ -2,12 +2,10 @@
   "description": "Non-adding primes: next term is smallest prime not the sum of any primes so far.",
   "id": "A060341",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 2,
     "size": 53,
     "source": "oeis-entry"

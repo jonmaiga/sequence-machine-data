@@ -2,13 +2,11 @@
   "description": "E.g.f.: exp(exp(sinh(x))-1)-1.",
   "id": "A053488",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:02",
     "offset": 0,
     "size": 22,
     "source": "oeis-bfile"

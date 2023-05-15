@@ -2,13 +2,11 @@
   "description": "Number of set partitions of [n] avoiding the patterns {1123, 1211}.",
   "id": "A210496",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:29",
     "offset": 0,
     "size": 38,
     "source": "oeis-bfile"

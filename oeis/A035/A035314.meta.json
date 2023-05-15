@@ -2,14 +2,12 @@
   "description": "Fourier coefficients of T_8.",
   "id": "A035314",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:45",
     "offset": -1,
     "size": 18,
     "source": "oeis-bfile"

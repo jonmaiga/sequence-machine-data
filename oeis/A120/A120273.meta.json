@@ -2,14 +2,12 @@
   "description": "Absolute value of the numerator of Sum_{i=1..n} (-1)^i * i/prime(i).",
   "id": "A120273",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:09",
     "offset": 1,
     "size": 18,
     "source": "oeis-bfile"

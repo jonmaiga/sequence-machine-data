@@ -2,13 +2,11 @@
   "description": "Number of maximal roller coasters in all n! permutations of n elements.",
   "id": "A289263",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 3,
     "size": 7,
     "source": "oeis-entry"

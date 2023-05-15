@@ -2,13 +2,11 @@
   "description": "Add 1 to all the divisors of n. a(n)=number of perfect squares in the set.",
   "id": "A179952",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:03",
     "offset": 1,
     "size": 105,
     "source": "oeis-bfile"

@@ -2,14 +2,12 @@
   "description": "Erase the odd-indexed digits of the sequence and concatenate what is left. The result is the concatenation of all integers of the sequence.",
   "id": "A108237",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 49,
     "source": "oeis-entry"

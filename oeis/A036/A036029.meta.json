@@ -2,14 +2,12 @@
   "description": "Number of partitions of n into parts not of form 4k+2, 24k, 24k+1 or 24k-1. Also number of partitions in which no odd part is repeated, with no part of size less than or equal to 2 and where differences between parts at distance 5 are greater than 1 when the smallest part is odd and greater than 2 when the smallest part is even.",
   "id": "A036029",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:24:25",
     "offset": 1,
     "size": 56,
     "source": "joeis"

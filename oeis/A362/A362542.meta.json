@@ -1,0 +1,15 @@
+{
+  "description": "Number of chordless cycles of length >=4 in the n-Goldberg graph.",
+  "id": "A362542",
+  "mentions": [],
+  "tags": [
+    "changed",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

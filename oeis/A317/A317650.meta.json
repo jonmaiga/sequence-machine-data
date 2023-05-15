@@ -2,12 +2,10 @@
   "description": "The n-th term is the smallest integer > 1 that is congruent to +1 or -1 modulo k for all 2 <= k <= n.",
   "id": "A317650",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 2,
     "size": 32,
     "source": "oeis-entry"

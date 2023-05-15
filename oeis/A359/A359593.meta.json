@@ -9,16 +9,14 @@
     "A359552",
     "A359594"
   ],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "formulas",
     "mult",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 1,
     "size": 84,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

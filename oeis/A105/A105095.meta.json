@@ -2,13 +2,11 @@
   "description": "Expansion of 8*eta(2*tau)^8/eta(tau)^16 + eta(tau/2)^8/eta(tau)^16.",
   "id": "A105095",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:56",
     "offset": 0,
     "size": 22,
     "source": "oeis-bfile"

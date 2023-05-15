@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the greatest integer whose binary expansion has the same multiset of run-lengths as that of n.",
+  "id": "A361480",
+  "mentions": [
+    "A073138",
+    "A335835",
+    "A361478",
+    "A361479"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

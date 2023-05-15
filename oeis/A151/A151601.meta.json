@@ -2,12 +2,10 @@
   "description": "Number of permutations of 4 indistinguishable copies of 1..n arranged in a circle with exactly 6 adjacent element pairs in decreasing order.",
   "id": "A151601",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 2,
     "size": 6,
     "source": "oeis-entry"

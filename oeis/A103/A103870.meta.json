@@ -2,13 +2,11 @@
   "description": "a(n) = Sum_{k=0..n} binomial(2*n,k)*binomial(n,k)*binomial(2*k,n).",
   "id": "A103870",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 19:03:41",
     "offset": 0,
     "size": 20,
     "source": "joeis"

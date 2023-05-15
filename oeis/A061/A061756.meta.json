@@ -2,12 +2,10 @@
   "description": "n! is divisible by (n+1)^8.",
   "id": "A061756",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 13:57:51",
     "offset": 1,
     "size": 55,
     "source": "joeis"

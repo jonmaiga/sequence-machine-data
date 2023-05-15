@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n with at least three parts larger than 1.",
+  "id": "A362548",
+  "mentions": [
+    "A000041",
+    "A033638",
+    "A119907"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

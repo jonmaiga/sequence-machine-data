@@ -2,12 +2,10 @@
   "description": "a(1)=1. For n >= 2, a(n) = Sum_{k=1..(n-1)} k^b(a(n-k),k), where k^b(m,k) is the highest power of k that divides m (and where b(m,k) is a nonnegative integer).",
   "id": "A123339",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:12",
     "offset": 0,
     "size": 68,
     "source": "oeis-bfile"

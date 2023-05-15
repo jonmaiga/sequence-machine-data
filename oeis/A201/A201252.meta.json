@@ -6,13 +6,11 @@
     "A201251",
     "A233038"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:22",
     "offset": 1,
     "size": 23,
     "source": "oeis-bfile"

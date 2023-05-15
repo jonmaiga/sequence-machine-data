@@ -1,21 +1,22 @@
 {
-  "description": "Coefficient triangle of numerator polynomials appearing in certain column o.g.f.s. related to the H-atom spectrum.",
+  "description": "Coefficient triangle of numerator polynomials appearing in certain column o.g.f.s related to the H-atom spectrum.",
   "id": "A120078",
   "mentions": [
     "A027451",
+    "A051418",
     "A120072",
     "A120073",
     "A120079"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
+    "changed",
+    "formulas",
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
-    "size": 37,
-    "source": "oeis-entry"
+    "size": 45,
+    "source": "oeis-bfile"
   }
 }

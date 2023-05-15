@@ -2,12 +2,10 @@
   "description": "The number of numbers [ [ ix ]jx ] that equal n, where i >= 1, j >= 1 and x=sqrt(5).",
   "id": "A022882",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:14:29",
     "offset": 1,
     "size": 90,
     "source": "joeis"

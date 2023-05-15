@@ -2,7 +2,6 @@
   "description": "Numbers n such that 8^9 + n^2 is a square.",
   "id": "A180972",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "a(n) contains the digits of the remainder of a(n)/a(n-1). Sequence starts with 2.",
   "id": "A108199",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 53,
     "source": "oeis-entry"

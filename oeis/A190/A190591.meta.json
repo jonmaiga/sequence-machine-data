@@ -2,12 +2,10 @@
   "description": "The coefficient of t^n in the power series solution of u in the equation -t+(1-t+t^2+t^3)*u-(t+t^4)*u^2+(t^3+t^5)*u^3-t^4*u^4=0.",
   "id": "A190591",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:14",
     "offset": 0,
     "size": 35,
     "source": "oeis-bfile"

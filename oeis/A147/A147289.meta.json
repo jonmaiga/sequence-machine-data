@@ -2,14 +2,12 @@
   "description": "A multi-shifted and scaled Pascal triangle: t(n,m)=Binomial[n, m] + Sum[If[n >= 2*k,2*Binomial[n - 2*k, m - k], 0], {k, 1, Floor[n/2]}].",
   "id": "A147289",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 66,
     "source": "oeis-entry"

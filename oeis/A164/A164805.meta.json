@@ -2,13 +2,11 @@
   "description": "a(n) = smallest number which has in its Spanish name the letter \"i\" in the n-th position,or -1 if no such number exists,-2 for infinite.",
   "id": "A164805",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "sign",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 26,
     "source": "oeis-entry"

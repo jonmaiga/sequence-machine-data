@@ -2,12 +2,10 @@
   "description": "Number of rooted 5-connected planar triangulations with 2n faces.",
   "id": "A064521",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 10,
     "size": 25,
     "source": "oeis-entry"

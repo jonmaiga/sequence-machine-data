@@ -1,0 +1,24 @@
+{
+  "description": "Record values in A138705.",
+  "id": "A362286",
+  "mentions": [
+    "A000367",
+    "A002445",
+    "A027641",
+    "A027642",
+    "A100195",
+    "A138705",
+    "A362284",
+    "A362285"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

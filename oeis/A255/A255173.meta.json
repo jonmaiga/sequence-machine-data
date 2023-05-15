@@ -2,12 +2,10 @@
   "description": "Numbers n such that 1+prime(n) and 1+prime(n+1) are the product of the same number of primes.",
   "id": "A255173",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 58,
     "source": "oeis-entry"

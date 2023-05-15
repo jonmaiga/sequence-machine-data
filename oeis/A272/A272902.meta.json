@@ -2,14 +2,12 @@
   "description": "Numbers n such that 6n - 5 is not prime.",
   "id": "A272902",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 49,
     "source": "oeis-entry"

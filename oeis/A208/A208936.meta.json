@@ -2,12 +2,10 @@
   "description": "Prime production length of the polynomial P = x^2 + x + prime(n): max { k>0 | P(x) is prime for all x=0,...,k-1 }.",
   "id": "A208936",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:28",
     "offset": 1,
     "size": 85,
     "source": "oeis-bfile"

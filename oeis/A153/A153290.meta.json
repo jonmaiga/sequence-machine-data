@@ -2,7 +2,6 @@
   "description": "Designed symmetrical sequence with 2*3^n row sum and term: row(n)=3^n; f(n,m) = Floor[(m/Prime[n])*row(n)/2].",
   "id": "A153290",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 59,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "a(n) is a non-palindromic composite located between twin primes whose reverse, which is less than it, is also located between twin primes.",
   "id": "A103741",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 37,
     "source": "oeis-entry"

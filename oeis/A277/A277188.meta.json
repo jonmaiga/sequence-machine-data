@@ -2,13 +2,11 @@
   "description": "The binomial sum a(n) = Sum_{k=0..n}(binomial(n,k)*binomial(n+1,k+1)*binomial(n+2,k+2)).",
   "id": "A277188",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 16:28:01",
     "offset": 0,
     "size": 21,
     "source": "joeis"

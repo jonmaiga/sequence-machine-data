@@ -2,13 +2,11 @@
   "description": "Smallest prime ending in prime(n) and == 1 (mod prime(n)), or 0 if no such prime exists.",
   "id": "A096069",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 37,
     "source": "oeis-entry"

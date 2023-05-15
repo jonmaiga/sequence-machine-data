@@ -1,0 +1,18 @@
+{
+  "description": "Number of vertex cuts in the n-Fibonacci cube graph.",
+  "id": "A362515",
+  "mentions": [
+    "A000045",
+    "A292066"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

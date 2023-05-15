@@ -7,7 +7,6 @@
     "A081799",
     "A182999"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "cons",
     "fini",
@@ -16,7 +15,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 07:34:23",
     "offset": 18,
     "size": 18,
     "source": "joeis"

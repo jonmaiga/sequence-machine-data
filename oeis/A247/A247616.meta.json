@@ -5,7 +5,6 @@
     "A010785",
     "A135643"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "base",
     "fini",
@@ -13,7 +12,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:03",
     "offset": 1,
     "size": 49,
     "source": "oeis-bfile"

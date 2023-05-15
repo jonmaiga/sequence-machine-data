@@ -2,12 +2,10 @@
   "description": "Smallest prime in the set of primes of the form x^n - y^(n-1), 1<=x, 1<=y.",
   "id": "A161748",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

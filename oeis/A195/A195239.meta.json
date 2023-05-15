@@ -2,12 +2,10 @@
   "description": "Related to FNV primes: Least 0 < m < 256 with 4 or 5 1-bits such that 2^n + 256 + m > 16777600 (mod 1099494850560), or 0 if no such m exists.",
   "id": "A195239",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:17",
     "offset": 24,
     "size": 64,
     "source": "oeis-bfile"

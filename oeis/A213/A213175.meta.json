@@ -2,7 +2,6 @@
   "description": "Primes p such that subtracting two from any single decimal digit of p produces another prime with restriction that first digit may not be changed to a 0 (obviously p cannot contain digits less than 2).",
   "id": "A213175",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Values X satisfying the equation 7(X-Y)^4-16XY=0, where X>=Y.",
   "id": "A123395",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:12",
     "offset": 0,
     "size": 12,
     "source": "oeis-bfile"

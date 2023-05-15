@@ -2,13 +2,11 @@
   "description": "Decimal expansion of Pi*exp(2*Pi-Pi^2/2).",
   "id": "A037996",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:12",
     "offset": 2,
     "size": 105,
     "source": "joeis"

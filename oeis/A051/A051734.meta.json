@@ -2,13 +2,11 @@
   "description": "a(n) = Sum_{i=0..n-1} (-1)^i * min(i+1,n-i) * a(i), a(0)=1.",
   "id": "A051734",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:00",
     "offset": 0,
     "size": 73,
     "source": "oeis-bfile"

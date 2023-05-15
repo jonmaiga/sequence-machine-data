@@ -9,16 +9,15 @@
     "A108076",
     "A119254"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
+    "changed",
     "easy",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
-    "size": 61,
-    "source": "oeis-entry"
+    "size": 66,
+    "source": "oeis-bfile"
   }
 }

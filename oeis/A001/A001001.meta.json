@@ -18,11 +18,12 @@
     "A061256",
     "A064987",
     "A127108",
+    "A160870",
     "A226313",
     "A301777"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "mult",
@@ -30,7 +31,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:03",
     "offset": 1,
     "size": 53,
     "source": "oeis-bfile"

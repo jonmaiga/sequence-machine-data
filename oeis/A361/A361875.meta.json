@@ -1,0 +1,16 @@
+{
+  "description": "Integers of the form k*2^m + 1 where 0 < k <= m and k is odd.",
+  "id": "A361875",
+  "mentions": [
+    "A361180"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

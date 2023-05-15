@@ -2,12 +2,10 @@
   "description": "a(n) = 2nd elementary symmetric function of C(n,0), C(n,1), ..., C(n,[ n/2 ]).",
   "id": "A025136",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 10:00:58",
     "offset": 2,
     "size": 23,
     "source": "joeis"

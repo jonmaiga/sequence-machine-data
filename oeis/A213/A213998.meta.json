@@ -10,7 +10,6 @@
     "A213999",
     "A214075"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "frac",
     "look",
@@ -18,7 +17,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:32",
     "offset": 0,
     "size": 66,
     "source": "oeis-bfile"

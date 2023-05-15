@@ -2,13 +2,11 @@
   "description": "Fixed point of the morphism 1 -> 121, 2 -> 343, 3 -> 434, 4 -> 212, starting from a(0) = 1.",
   "id": "A105646",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:33:01",
     "offset": 0,
     "size": 105,
     "source": "joeis"

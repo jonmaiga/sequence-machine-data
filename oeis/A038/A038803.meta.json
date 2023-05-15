@@ -2,14 +2,12 @@
   "description": "Largest number with n prime factors all of different lengths.",
   "id": "A038803",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 12:11:48",
     "offset": 1,
     "size": 10,
     "source": "joeis"

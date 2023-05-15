@@ -2,13 +2,11 @@
   "description": "Lexicographically earliest sequence of distinct positive terms such that the leftmost digit of a(n) and the leftmost digit of a(n) + a(n+1) are the same.",
   "id": "A332702",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:02",
     "offset": 1,
     "size": 70,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "T(n,k)=1/8192 the number of (n+2)X(k+2) 0..3 arrays with no 3X3 subblock trace equal to any horizontal or vertical neighbor 3X3 subblock trace",
   "id": "A186019",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:10",
     "offset": 1,
     "size": 21,
     "source": "oeis-bfile"

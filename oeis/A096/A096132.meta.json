@@ -5,13 +5,11 @@
     "A096130",
     "A096131"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

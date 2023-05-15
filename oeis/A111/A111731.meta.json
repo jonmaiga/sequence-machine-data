@@ -2,14 +2,12 @@
   "description": "Minimal size of a complete cap in (Z/nZ)^2.",
   "id": "A111731",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 2,
     "size": 9,
     "source": "oeis-entry"

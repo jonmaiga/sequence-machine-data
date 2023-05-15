@@ -2,12 +2,10 @@
   "description": "Smallest possible largest element of a 3 by n average array where repetitions are allowed with no diagonals.",
   "id": "A195747",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 2,
     "size": 14,
     "source": "oeis-entry"

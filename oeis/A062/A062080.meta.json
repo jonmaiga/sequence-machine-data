@@ -2,12 +2,10 @@
   "description": "Group the even numbers as 2, (4,6), (8,10,12), (14,16,18,20), (22,24,26,28,30), ... then a(n) = LCM of the n-th group.",
   "id": "A062080",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:14",
     "offset": 1,
     "size": 15,
     "source": "oeis-bfile"

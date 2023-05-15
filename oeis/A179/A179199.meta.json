@@ -6,14 +6,12 @@
     "A030528",
     "A179198"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "eigen",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:02",
     "offset": 0,
     "size": 19,
     "source": "oeis-bfile"

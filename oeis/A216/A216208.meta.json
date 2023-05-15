@@ -2,7 +2,6 @@
   "description": "a(1) = 11. a(n) is obtained by filling the space between neighboring entries by the sum of the first two entries of a(n-1).",
   "id": "A216208",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

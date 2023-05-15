@@ -1,15 +1,14 @@
 {
-  "description": "Expansion of 1/((1-x^2)(1-x^3)(1-x^9)).",
+  "description": "Expansion of g.f. 1/((1 - x^2)*(1 - x^3)*(1 - x^9)).",
   "id": "A025798",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:30:45",
     "offset": 0,
-    "size": 63,
-    "source": "joeis"
+    "size": 72,
+    "source": "oeis-bfile"
   }
 }

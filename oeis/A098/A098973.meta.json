@@ -2,12 +2,10 @@
   "description": "Primes of the form 5p - 2q where p and q are successive primes (p",
   "id": "A098973",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 49,
     "source": "oeis-entry"

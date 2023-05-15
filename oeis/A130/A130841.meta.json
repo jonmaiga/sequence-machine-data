@@ -2,13 +2,11 @@
   "description": "Number of ways to write n as a sum of oterms, where an oterm is an ordered product of (1+oterm), sorted by size and an empty product has value 1.",
   "id": "A130841",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 60,
     "source": "oeis-entry"

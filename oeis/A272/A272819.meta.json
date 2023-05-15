@@ -2,13 +2,11 @@
   "description": "G.f. A(x) satisfies: A( A(x)^2 - A(x)^4 ) = x*A(x) + x*A(x)^2.",
   "id": "A272819",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:37",
     "offset": 1,
     "size": 37,
     "source": "oeis-bfile"

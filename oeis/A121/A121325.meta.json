@@ -2,12 +2,10 @@
   "description": "Juxtaposition of the prime factors of 4*n^2 + 1 with multiplicity.",
   "id": "A121325",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 67,
     "source": "oeis-entry"

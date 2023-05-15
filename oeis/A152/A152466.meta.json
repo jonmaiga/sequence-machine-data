@@ -6,13 +6,11 @@
     "A238584",
     "A238642"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:35",
     "offset": 1,
     "size": 12,
     "source": "oeis-bfile"

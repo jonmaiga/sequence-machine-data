@@ -2,13 +2,11 @@
   "description": "Lower bound of twin primes pairs whose digital reverse is also prime.",
   "id": "A101781",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:52",
     "offset": 1,
     "size": 46,
     "source": "oeis-bfile"

@@ -2,7 +2,6 @@
   "description": "Size of the smallest regular polygon chain for a regular polygon with n sides.",
   "id": "A346112",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "formulas",
     "hear",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 3,
     "size": 18,
     "source": "oeis-entry"

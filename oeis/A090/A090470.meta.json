@@ -2,13 +2,11 @@
   "description": "E.g.f.: 1/((1-4*x)*sqrt(1-2*x)).",
   "id": "A090470",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 18:36:01",
     "offset": 0,
     "size": 17,
     "source": "joeis"

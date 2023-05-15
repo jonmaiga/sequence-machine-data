@@ -2,13 +2,11 @@
   "description": "Asymptotic form for prime.",
   "id": "A094065",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:45",
     "offset": 1,
     "size": 61,
     "source": "oeis-bfile"

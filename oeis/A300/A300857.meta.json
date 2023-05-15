@@ -6,14 +6,12 @@
     "A300855",
     "A300856"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "base",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:25",
     "offset": 0,
     "size": 67,
     "source": "oeis-bfile"

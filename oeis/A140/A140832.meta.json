@@ -2,13 +2,11 @@
   "description": "a(0) = 1; if a(n) is even, a(n + 1) = 5a(n)/2; if a(n) is odd, a(n + 1) is 5a(n)/2 rounded to the nearest even integer.",
   "id": "A140832",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 29,
     "source": "oeis-entry"

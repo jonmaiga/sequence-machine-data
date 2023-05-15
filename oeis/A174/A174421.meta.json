@@ -2,12 +2,10 @@
   "description": "Determinants of the (floor(n/2) - 1) X (floor(n/2) - 1) matrix whose (i,j)-th entry is the intersection number on M_{0,n} of the F-curve F_{1,1,i,n-i-2} and the divisor of the conformal blocks bundle associated to the Lie algebra sl_n, the level 1 and the n-tuple of weights omega_j^n.",
   "id": "A174421",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 4,
     "size": 28,
     "source": "oeis-entry"

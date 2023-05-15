@@ -5,15 +5,13 @@
     "A000032",
     "A035105"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
-    "offset": 1,
-    "size": 16,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 19,
+    "source": "joeis"
   }
 }

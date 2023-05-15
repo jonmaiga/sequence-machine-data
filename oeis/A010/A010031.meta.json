@@ -2,14 +2,12 @@
   "description": "Weight distribution of any one of the five doubly-even binary [32,16,8] codes (quadratic residue, Reed-Muller, etc.).",
   "id": "A010031",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 0,
     "size": 9,
     "source": "oeis-entry"

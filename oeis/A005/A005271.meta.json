@@ -6,7 +6,6 @@
     "A112311",
     "A220904"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "hard",
     "more",
@@ -14,7 +13,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

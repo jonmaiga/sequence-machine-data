@@ -2,12 +2,10 @@
   "description": "Numbers n such that 11*n - 5 is prime.",
   "id": "A108187",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:00",
     "offset": 1,
     "size": 57,
     "source": "oeis-bfile"

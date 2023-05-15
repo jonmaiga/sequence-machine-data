@@ -2,13 +2,11 @@
   "description": "Beginning with 1, least natural number such that sum as well the difference of successive terms are both palindromes, otherwise 0 if no such term exists.",
   "id": "A100793",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 70,
     "source": "oeis-entry"

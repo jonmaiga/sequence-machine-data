@@ -2,13 +2,11 @@
   "description": "Number of skew hyperplanes spanned by the vertices of an n-cube.",
   "id": "A007848",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

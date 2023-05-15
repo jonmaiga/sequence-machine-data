@@ -2,13 +2,11 @@
   "description": "a(n) = Product_{k=1..(n-1)/2} 1 + 4*cos(k*Pi/n)^2 + 16*cos(k*Pi/n)^4 + 64*cos(k*Pi/n)^6 + 256*cos(k*Pi/n)^8.",
   "id": "A152122",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 26,
     "source": "oeis-entry"

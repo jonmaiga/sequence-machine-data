@@ -2,12 +2,10 @@
   "description": "a(n) = floor((n^2+n)^(3/2)-n^3).",
   "id": "A185594",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 13:55:33",
     "offset": 1,
     "size": 54,
     "source": "joeis"

@@ -1,5 +1,5 @@
 {
-  "description": "Coefficients T(n,k) of x^(4*n)*r^(4*k)/(4*n)! in power series C(x,r) = 1 + Integral S(x,r)^3 * C(x,r)^3 dx such that C(x,r)^4 - S(x,r)^4 = 1 and D(x,r)^4 - r^4*S(x,r)^4 = 1, as a triangle read by rows.",
+  "description": "Coefficients T(n,k) of x^(4*n)*r^(4*k)/(4*n)! in power series C(x,r) = 1 + Integral S(x,r)^3 * D(x,r)^3 dx such that C(x,r)^4 - S(x,r)^4 = 1 and D(x,r)^4 - r^4*S(x,r)^4 = 1, as a triangle read by rows.",
   "id": "A357801",
   "mentions": [
     "A153300",
@@ -9,14 +9,12 @@
     "A357802",
     "A357805"
   ],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:32",
     "offset": 0,
     "size": 28,
     "source": "oeis-bfile"

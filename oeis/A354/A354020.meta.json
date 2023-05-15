@@ -2,13 +2,11 @@
   "description": "E.g.f.: Integral exp(-x*tanh(x)) / cosh(x) dx.",
   "id": "A354020",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

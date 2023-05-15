@@ -2,13 +2,11 @@
   "description": "Weight distribution of [73,37,13] binary quadratic-residue (or QR) code.",
   "id": "A145982",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 32,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Over the alphabet {1,2} let A=111, B=211; sequence lists words A, B, AA, AB, BA, BB, AAA, AAB, ...",
   "id": "A291797",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 21,
     "source": "oeis-entry"

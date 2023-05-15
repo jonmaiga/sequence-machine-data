@@ -2,7 +2,6 @@
   "description": "Leech triangle: k-th number (0 <= k <= n) in n-th row (0 <= n) is number of octads in S(5,8,24) containing k given points and missing n-k given points.",
   "id": "A001293",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "fini",
     "full",
@@ -11,7 +10,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 0,
     "size": 45,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Number of labeled simply-rooted 2-trees with n labeled vertices (i.e., n+2 vertices altogether; a simply-rooted 2-tree is an externally rooted 2-tree whose root edge belongs to exactly one triangle).",
   "id": "A120348",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 18:23:00",
     "offset": 1,
     "size": 14,
     "source": "joeis"

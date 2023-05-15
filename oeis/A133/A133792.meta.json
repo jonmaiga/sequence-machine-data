@@ -2,12 +2,10 @@
   "description": "Number of n X n binary matrices with every 1 adjacent to some 0 and every 0 adjacent to some 1, horizontally or vertically.",
   "id": "A133792",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 2,
     "size": 10,
     "source": "oeis-entry"

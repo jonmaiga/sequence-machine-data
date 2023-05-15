@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the smallest number k such that A361929(k) = prime(n), or -1 if no such prime exists.",
+  "id": "A361931",
+  "mentions": [
+    "A361929"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

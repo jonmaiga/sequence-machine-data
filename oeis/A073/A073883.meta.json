@@ -2,12 +2,10 @@
   "description": "a(1)=1. For n > 1, a(n) = the smallest positive integer not included earlier such that the n-th partial sum is n times a prime.",
   "id": "A073883",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:25",
     "offset": 1,
     "size": 60,
     "source": "oeis-bfile"

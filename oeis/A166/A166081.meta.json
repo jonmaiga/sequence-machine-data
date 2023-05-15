@@ -1,5 +1,5 @@
 {
-  "description": "Natural numbers that not are the sum of two distinct primes.",
+  "description": "Natural numbers that are not the sum of two distinct primes.",
   "id": "A166081",
   "mentions": [
     "A000027",
@@ -11,13 +11,11 @@
     "A109934",
     "A117929"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:49",
     "offset": 1,
     "size": 60,
     "source": "oeis-bfile"

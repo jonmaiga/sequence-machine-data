@@ -2,12 +2,10 @@
   "description": "Sum of the remainders when the n-th triangular number is divided by all smaller triangular numbers > 1.",
   "id": "A072524",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:24",
     "offset": 1,
     "size": 49,
     "source": "oeis-bfile"

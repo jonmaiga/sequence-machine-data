@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum_{i=0..n-1} phi(2i+1).",
+  "description": "a(n) = Sum_{k=0..n-1} phi(2k+1).",
   "id": "A099957",
   "mentions": [
     "A000010",
@@ -10,13 +10,11 @@
     "A099958",
     "A274401"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:50",
     "offset": 1,
     "size": 49,
     "source": "oeis-bfile"

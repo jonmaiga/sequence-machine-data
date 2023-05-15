@@ -1,0 +1,20 @@
+{
+  "description": "Number of parking functions of size n avoiding the patterns 213 and 321.",
+  "id": "A362596",
+  "mentions": [
+    "A000108",
+    "A028364",
+    "A028365",
+    "A362597"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "joeis"
+  }
+}

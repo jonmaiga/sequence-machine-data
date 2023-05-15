@@ -2,14 +2,12 @@
   "description": "Beatty sequence for sqrt(17).",
   "id": "A171984",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:16:11",
     "offset": 1,
     "size": 58,
     "source": "joeis"

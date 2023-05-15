@@ -1,13 +1,11 @@
 {
-  "description": "1/120 the number of nX4 arrays of integers in 1..6 with no element or any of its neighbors having the same value",
+  "description": "1/120 the number of n X 4 arrays of integers in 1..6 with no element or any of its neighbors having the same value.",
   "id": "A180375",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:03",
     "offset": 1,
     "size": 18,
     "source": "oeis-bfile"

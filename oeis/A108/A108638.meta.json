@@ -2,13 +2,11 @@
   "description": "Semiprime plus its digits is semiprime.",
   "id": "A108638",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 54,
     "source": "oeis-entry"

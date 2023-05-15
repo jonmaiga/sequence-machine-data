@@ -2,12 +2,10 @@
   "description": "Numbers n such that 2^44+n is prime.",
   "id": "A155131",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 17:11:29",
     "offset": 1,
     "size": 49,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "Maximum, over all binary strings w of length n, of the size of the smallest string attractor for w.",
   "id": "A339391",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 19,
     "source": "oeis-entry"

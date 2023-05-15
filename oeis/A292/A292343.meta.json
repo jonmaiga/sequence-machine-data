@@ -2,14 +2,12 @@
   "description": "The PI index of the Aztec diamond AZ(n) (see the Imran et al. reference).",
   "id": "A292343",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:21:11",
     "offset": 1,
     "size": 31,
     "source": "joeis"

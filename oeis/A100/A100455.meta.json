@@ -1,17 +1,18 @@
 {
   "description": "a(n) = 2^n + sin(n*Pi/2).",
   "id": "A100455",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:22",
+  "mentions": [
+    "A000079",
+    "A101455"
+  ],
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 18:44:19",
     "offset": 0,
     "size": 34,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

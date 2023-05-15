@@ -14,14 +14,12 @@
     "A237593",
     "A240542"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 82,
     "source": "oeis-entry"

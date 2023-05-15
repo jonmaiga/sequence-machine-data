@@ -2,14 +2,12 @@
   "description": "Finite sequence of moves needed to flip the top uf, ub edges in a 3 X 3 X 3 Rubik's Cube.",
   "id": "A135820",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

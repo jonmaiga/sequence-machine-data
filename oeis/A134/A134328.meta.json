@@ -2,13 +2,11 @@
   "description": "Write n in base 10 as d1d2d3.....dk; for a list of primes P = (p1,p2,p3,....pk) with p1B(p,n) if it exists, otherwise 0.",
   "id": "A134328",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 40,
     "source": "oeis-entry"

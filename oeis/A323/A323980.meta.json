@@ -5,7 +5,6 @@
     "A159255",
     "A323981"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "fini",
     "formulas",
@@ -13,7 +12,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:49",
     "offset": 0,
     "size": 26,
     "source": "oeis-bfile"

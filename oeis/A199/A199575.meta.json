@@ -4,13 +4,11 @@
   "mentions": [
     "A061287"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn",
     "unsolved"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:20",
     "offset": 0,
     "size": 76,
     "source": "oeis-bfile"

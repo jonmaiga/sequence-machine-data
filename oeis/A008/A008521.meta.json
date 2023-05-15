@@ -7,7 +7,6 @@
     "A089589",
     "A089590"
   ],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "fini",
     "full",
@@ -15,7 +14,6 @@
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:14",
     "offset": 1,
     "size": 69,
     "source": "oeis-bfile"

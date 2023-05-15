@@ -2,13 +2,11 @@
   "description": "Number of 4-shaft weaving patterns, threaded 1,2,3,4, with n rows, up to symmetries.",
   "id": "A359972",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

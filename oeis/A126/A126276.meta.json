@@ -2,14 +2,12 @@
   "description": "Moment of inertia of all magic cubes of order n.",
   "id": "A126276",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 17:21:31",
     "offset": 2,
     "size": 25,
     "source": "joeis"

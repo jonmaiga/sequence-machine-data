@@ -2,12 +2,10 @@
   "description": "arctan(sec(x)-sech(x))=2/2!*x^2-118/6!*x^6+211922/10!*x^10...",
   "id": "A013507",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 12:38:55",
     "offset": 0,
     "size": 11,
     "source": "joeis"

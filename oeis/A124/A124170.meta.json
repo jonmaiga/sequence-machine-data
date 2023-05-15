@@ -2,13 +2,11 @@
   "description": "Said to have been posted at the web site mturk.amazon.com as a puzzle.",
   "id": "A124170",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "sign",
     "unkn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

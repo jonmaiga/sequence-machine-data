@@ -2,12 +2,10 @@
   "description": "Number of permutations of [n] with every alternating run of length less than 3 in which the last alternating run has length 1.",
   "id": "A246013",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:02",
     "offset": 0,
     "size": 24,
     "source": "oeis-bfile"

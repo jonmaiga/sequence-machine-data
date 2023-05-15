@@ -2,13 +2,11 @@
   "description": "First prime in a consecutive sequence of 6 primes such that, when taken as ordered x,y,z triples, the Cartesian distance between the two points is an integer.",
   "id": "A154881",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:36",
     "offset": 1,
     "size": 44,
     "source": "oeis-bfile"

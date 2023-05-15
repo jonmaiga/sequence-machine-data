@@ -2,13 +2,11 @@
   "description": "Decimal expansion of Integral_{x>=0} erf(x)^3/(e^(2*x^2)*x) dx.",
   "id": "A115290",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

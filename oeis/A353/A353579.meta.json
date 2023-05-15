@@ -2,12 +2,10 @@
   "description": "Numbers in the smallest subset of N containing 1 and closed under the mappings k->2^n + k, k->3*2^{n+1} + k, and k->3*2^{n+2} + k where n = ceiling(log_2(k)).",
   "id": "A353579",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:28",
     "offset": 1,
     "size": 64,
     "source": "oeis-bfile"

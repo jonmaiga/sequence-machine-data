@@ -10,15 +10,12 @@
     "A097677",
     "A097679"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:59:05",
     "offset": 0,
     "size": 105,
     "source": "joeis"

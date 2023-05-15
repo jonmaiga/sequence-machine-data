@@ -11,16 +11,14 @@
     "A282595",
     "A282753"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "mult",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:52",
     "offset": 0,
     "size": 27,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

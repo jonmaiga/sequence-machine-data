@@ -2,13 +2,11 @@
   "description": "a(1) = 1, a(n) = n times (the digit reversal of the (n-1)-th partial sum).",
   "id": "A086929",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:38",
     "offset": 1,
     "size": 19,
     "source": "oeis-bfile"

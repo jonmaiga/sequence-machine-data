@@ -2,13 +2,11 @@
   "description": "Prime(1) composite numbers, followed by composite(1) prime numbers, prime(2) composite numbers, followed by composite(2) prime numbers, ...",
   "id": "A077158",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 69,
     "source": "oeis-entry"

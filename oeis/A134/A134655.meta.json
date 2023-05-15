@@ -2,14 +2,12 @@
   "description": "Hadamard 3 X 3 matrix substitution using 3 X 3 games matrices: MA = {{0, 1, 0}, {0, 0, 1}, {1, 1, 0}}; ( minimal Pisot matrix); MB = {{0, 0, 1}, {0, 1, 0},{1, 0, -1}}; With substitution rule: m[n]->If[m[n - 1][[i, j]] == 0, {{0, 0, 0}, {0, 0, 0}, {0, 0, 0}}, If[m[n - 1][[i, j]] == 1, MA, MB]];.",
   "id": "A134655",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "sign",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 17,
     "source": "oeis-entry"

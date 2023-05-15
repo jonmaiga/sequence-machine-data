@@ -1,0 +1,16 @@
+{
+  "description": "Triangle read by rows: row n is the shortest, then lexicographically earliest sequence of positive integers that takes n iterations of the run transform to reach 1.",
+  "id": "A362228",
+  "mentions": [
+    "A327662"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

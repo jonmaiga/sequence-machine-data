@@ -2,13 +2,11 @@
   "description": "Numbers k such that k^2 - 3 is prime.",
   "id": "A028873",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:38",
     "offset": 1,
     "size": 57,
     "source": "oeis-bfile"

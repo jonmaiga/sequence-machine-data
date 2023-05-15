@@ -2,13 +2,11 @@
   "description": "G.f. A(x) satisfies: A(x)^3 = (1-x) * (A(x) + x)^2.",
   "id": "A352385",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-28 11:08:29",
     "offset": 0,
     "size": 25,
     "source": "joeis"

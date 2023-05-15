@@ -2,13 +2,11 @@
   "description": "Compute the continued fraction expansion of Pi; multiply each term by i, the square root of -1, compute this new continued fraction and get a number with a real part equal to 0. Then compute the regular continued fraction of the imaginary part of that new number.",
   "id": "A092142",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 95,
     "source": "oeis-entry"

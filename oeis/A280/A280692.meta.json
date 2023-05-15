@@ -13,13 +13,11 @@
     "A280693",
     "A280702"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:49",
     "offset": 1,
     "size": 84,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Primes p such that 2p + 105 is prime.",
   "id": "A160950",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 17:14:37",
     "offset": 1,
     "size": 56,
     "source": "joeis"

@@ -2,12 +2,10 @@
   "description": "a(n) = 3^n - n^7.",
   "id": "A024030",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-02 23:01:39",
     "offset": 0,
     "size": 21,
     "source": "joeis"

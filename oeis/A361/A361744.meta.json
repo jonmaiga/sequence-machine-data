@@ -1,0 +1,31 @@
+{
+  "description": "A(n,k) is the least m such that there are k primes in the set {prime(n) + 2^i | 1 <= i <= m}, or -1 if no such number exists; square array A(n,k), n > 1, k >= 1, read by antidiagonals.",
+  "id": "A361744",
+  "mentions": [
+    "A019434",
+    "A057195",
+    "A057196",
+    "A057197",
+    "A057200",
+    "A057201",
+    "A057203",
+    "A057221",
+    "A057732",
+    "A059242",
+    "A094076",
+    "A102633",
+    "A102634",
+    "A205558",
+    "A231232",
+    "A361679"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

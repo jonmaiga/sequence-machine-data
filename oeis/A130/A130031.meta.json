@@ -5,14 +5,12 @@
     "A129467",
     "A130559"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 18,
     "source": "oeis-entry"

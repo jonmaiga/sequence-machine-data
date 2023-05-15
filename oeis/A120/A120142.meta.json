@@ -1,19 +1,22 @@
 {
-  "description": "a(1)=16; a(n)=floor((32+sum(a(1) to a(n-1)))/2).",
+  "description": "a(n) = 16 + floor(Sum_{j=1..n-1} a(j)/2).",
   "id": "A120142",
   "mentions": [
     "A072493",
     "A073941",
-    "A112088"
+    "A112088",
+    "A120134",
+    "A120141",
+    "A120143",
+    "A120209"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 09:10:59",
     "offset": 1,
     "size": 35,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

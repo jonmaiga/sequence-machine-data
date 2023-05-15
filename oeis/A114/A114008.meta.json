@@ -2,13 +2,11 @@
   "description": "First prime(n) primes beginning with prime(n).",
   "id": "A114008",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 51,
     "source": "oeis-entry"

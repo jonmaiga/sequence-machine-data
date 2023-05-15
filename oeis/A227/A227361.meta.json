@@ -7,15 +7,14 @@
     "A010062",
     "A055938"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
+    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:44",
     "offset": 0,
     "size": 90,
     "source": "oeis-bfile"

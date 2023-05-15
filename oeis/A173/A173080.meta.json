@@ -2,12 +2,10 @@
   "description": "Positive integers with the property that the sum of cubes of the divisors is a multiple of 585.",
   "id": "A173080",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 53,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "a(n) = n successive applications of the <*>(3,2) operator to 1.",
   "id": "A227097",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:44",
     "offset": 0,
     "size": 31,
     "source": "oeis-bfile"

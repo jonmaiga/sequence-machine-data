@@ -1,0 +1,19 @@
+{
+  "description": "Diagonal of rational function 1/(1 - (1 + x*y) * (x^2 + y^2)).",
+  "id": "A361726",
+  "mentions": [
+    "A115962",
+    "A137635",
+    "A360266",
+    "A361727"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,14 +2,12 @@
   "description": "A seven tone substitution sequence based on \"church music\" 7th chords: example:A->{A,C,E,G}; A connected heptagon graph substitution: Characteristic polynomial: 4 - 21 x + 49 x^2 - 63 x^3 + 49 x^4 - 21 x^5 + 7 x^6 - x^7.",
   "id": "A131214",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

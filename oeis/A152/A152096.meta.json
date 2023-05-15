@@ -2,13 +2,11 @@
   "description": "Quartic product sequence: a(n) = Product_{k=1..(n-1)/2} (1 + m*cos(k*Pi/n)^2 + q*cos(k*Pi/n)^4), with m=12 and q = 3*4^3.",
   "id": "A152096",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:35",
     "offset": 0,
     "size": 23,
     "source": "oeis-bfile"

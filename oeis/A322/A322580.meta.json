@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the conversion factor from the old SI unit kg to the combination of 2019 SI units h*Delta nu_{Cs})/c^2.",
+  "description": "Decimal expansion of the conversion factor from the old SI unit kg to the combination of 2019 SI units h*Δν_{Cs}/c^2.",
   "id": "A322580",
   "mentions": [
     "A003676",
@@ -7,7 +7,6 @@
     "A230458",
     "A322415"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "cons",
     "easy",
@@ -15,7 +14,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 40,
     "size": 103,
     "source": "oeis-entry"

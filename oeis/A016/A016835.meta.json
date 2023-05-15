@@ -1,16 +1,19 @@
 {
-  "description": "(4n+2)^11.",
+  "description": "a(n) = (4n+2)^11.",
   "id": "A016835",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:17",
+  "mentions": [
+    "A013669",
+    "A016763",
+    "A016825"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 13:53:19",
     "offset": 0,
-    "size": 12,
+    "size": 15,
     "source": "joeis"
   }
 }

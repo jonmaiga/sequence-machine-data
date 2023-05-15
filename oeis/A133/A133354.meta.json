@@ -2,12 +2,10 @@
   "description": "Dimensions of certain Lie algebra (see reference for precise definition).",
   "id": "A133354",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 19:25:51",
     "offset": 0,
     "size": 16,
     "source": "joeis"

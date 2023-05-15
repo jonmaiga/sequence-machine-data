@@ -2,14 +2,12 @@
   "description": "Let n = abcd...; a,b,c,d,... are digits of n. Define f(a) = bcd..., f(b) = acd..., f(c) = abd... and f(d) = abc..., i.e., f(i) = number obtained by deleting the digit i from n. Then a(n) = Sum f(i) mod i, where i ranges over all the nonzero digits of n.",
   "id": "A095206",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 20,
     "size": 105,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Greatest number of colors possible for interval edge-colorings of the complete graph K_{2n}.",
   "id": "A247157",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

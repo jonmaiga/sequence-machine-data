@@ -2,14 +2,12 @@
   "description": "2-provable primes: Primes p expressible as x+y, where the prime factors of x and y are precisely the primes less than sqrt(p).",
   "id": "A299791",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 32,
     "source": "oeis-entry"

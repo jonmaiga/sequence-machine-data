@@ -2,13 +2,11 @@
   "description": "Numbers n such that exactly one of 3*prime(n)-4 and 3*prime(n)+4 is prime.",
   "id": "A174258",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:58",
     "offset": 1,
     "size": 65,
     "source": "oeis-bfile"

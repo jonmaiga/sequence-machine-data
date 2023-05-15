@@ -2,13 +2,11 @@
   "description": "Primes p with at least one decimal digit 2 that remain prime after removing all 2's.",
   "id": "A176822",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "T(n, k) is the largest number that can be formed by multiplying k primes prime(i1+0),...,prime(ik+k-1) such that i1+...+ik = n. Triangle read by rows.",
   "id": "A274608",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

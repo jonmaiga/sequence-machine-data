@@ -1,0 +1,17 @@
+{
+  "description": "Maximum number of sides in any region when the vertices of a regular n-gon are connected by circles and where the vertices lie at the ends of the circles' diameters (cf. A359009 and A358782).",
+  "id": "A359033",
+  "mentions": [
+    "A358782",
+    "A359009"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

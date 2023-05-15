@@ -10,7 +10,6 @@
     "A117485",
     "A164678"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "nonn",
@@ -18,7 +17,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 22,
     "source": "oeis-entry"

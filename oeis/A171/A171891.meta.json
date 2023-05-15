@@ -2,14 +2,12 @@
   "description": "1 and all numbers >= 10.",
   "id": "A171891",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:15:23",
     "offset": 1,
     "size": 69,
     "source": "joeis"

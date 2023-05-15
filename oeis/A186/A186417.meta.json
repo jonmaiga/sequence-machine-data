@@ -2,13 +2,11 @@
   "description": "The number of unlabeled graphs on n nodes with degree of 1 or 2",
   "id": "A186417",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 12:22:50",
     "offset": 0,
     "size": 45,
     "source": "joeis"

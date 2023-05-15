@@ -2,14 +2,12 @@
   "description": "Number of tilings of a box with sides 2 X 2 X 3n in R^3 by boxes of sides Tricube-V(3-dimensional dominoes).",
   "id": "A234833",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 20:26:33",
     "offset": 0,
     "size": 14,
     "source": "joeis"

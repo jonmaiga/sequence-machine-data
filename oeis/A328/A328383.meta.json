@@ -12,7 +12,6 @@
     "A328248",
     "A328384"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "formulas",
     "hard",
@@ -20,7 +19,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:57",
     "offset": 2,
     "size": 85,
     "source": "oeis-bfile"

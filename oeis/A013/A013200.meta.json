@@ -2,13 +2,10 @@
   "description": "Expansion of e.g.f. log(sec(x)+arctanh(x)).",
   "id": "A013200",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "sign"
   ],
   "terms": {
-    "modified": "2023-03-14 10:44:21",
     "offset": 0,
     "size": 21,
     "source": "oeis-bfile"

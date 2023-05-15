@@ -1,0 +1,23 @@
+{
+  "description": "Inventory of powers. Initialize the sequence with '1'. Then record the number of powers of 1 thus far, then do the same for powers of 2 (2, 4, 8, ...), powers of 3, etc. When the count is zero, do not record a zero; rather start the inventory again with the powers of 1.",
+  "id": "A362372",
+  "mentions": [
+    "A342585",
+    "A345730",
+    "A347791",
+    "A348218",
+    "A352799",
+    "A353092"
+  ],
+  "tags": [
+    "easy",
+    "new",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

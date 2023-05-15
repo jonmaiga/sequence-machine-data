@@ -2,13 +2,11 @@
   "description": "a(1) = 1. For n > 1, a(n) is the smallest positive integer x not already in the sequence such that the product of x and its initial digit is minimal and strictly larger than the same product for any previous term.",
   "id": "A301382",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:26",
     "offset": 1,
     "size": 69,
     "source": "oeis-bfile"

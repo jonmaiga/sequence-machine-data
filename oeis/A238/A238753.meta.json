@@ -2,12 +2,10 @@
   "description": "Squarefree integers D such that Q(sqrt(D)) contains a non-constant arithmetic progression of 5 squares.",
   "id": "A238753",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

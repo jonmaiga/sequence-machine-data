@@ -2,12 +2,10 @@
   "description": "a(n) is the smallest positive integer such that the product of all 1/(1-1/a(n)) is less than Pi.",
   "id": "A092388",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

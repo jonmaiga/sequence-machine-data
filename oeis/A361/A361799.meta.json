@@ -1,0 +1,14 @@
+{
+  "description": "Numbers which cannot be expressed as i^2 + j*k with i >= j >= k >= 0.",
+  "id": "A361799",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

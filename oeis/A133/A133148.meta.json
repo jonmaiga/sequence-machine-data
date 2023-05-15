@@ -2,14 +2,12 @@
   "description": "E.g.f.: Sum_{k>=1} (x^k/k! / Product_{i=1..k} (1-x^i)).",
   "id": "A133148",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:21",
     "offset": 1,
     "size": 19,
     "source": "oeis-bfile"

@@ -2,14 +2,12 @@
   "description": "(n^4 - 10*n^2 + 15*n - 6)/2.",
   "id": "A135916",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:24:25",
     "offset": 1,
     "size": 37,
     "source": "joeis"

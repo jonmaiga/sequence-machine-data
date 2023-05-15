@@ -2,13 +2,11 @@
   "description": "a(1)=1, a(2)=2; thereafter, denoting x=a(n-1)+a(n-2), we have a(n)=3x+1 if x is odd, otherwise a(n)=x/2^m where 2^m is the maximal power of 2 dividing x.",
   "id": "A276486",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:42",
     "offset": 1,
     "size": 32,
     "source": "oeis-bfile"

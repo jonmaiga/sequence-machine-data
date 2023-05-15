@@ -2,13 +2,11 @@
   "description": "Decimal expansion of largest negative solution to x! = x, or Gamma(x+1)=x, negated.",
   "id": "A333477",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 86,
     "source": "oeis-entry"

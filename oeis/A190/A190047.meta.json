@@ -1,15 +1,13 @@
 {
-  "description": "Number of nondecreasing arrangements of 10 numbers in 0..n with the last equal to n and each after the second equal to the sum of one or two of the preceding three",
+  "description": "Number of nondecreasing arrangements of 10 numbers in 0..n with the last equal to n and each after the second equal to the sum of one or two of the preceding three.",
   "id": "A190047",
   "mentions": [
     "A190041"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:14",
     "offset": 1,
     "size": 49,
     "source": "oeis-bfile"

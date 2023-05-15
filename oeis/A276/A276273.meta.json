@@ -2,13 +2,11 @@
   "description": "Replacing every \"mixed pair\" of integers with the smallest integer of the said pair rebuilds the sequence itself (see \"Comments\" for the definition of a \"mixed pair\").",
   "id": "A276273",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:41",
     "offset": 1,
     "size": 131,
     "source": "oeis-bfile"

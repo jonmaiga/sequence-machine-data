@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. exp(-x) / (1 + LambertW(-3*x)).",
+  "id": "A362860",
+  "mentions": [
+    "A091482",
+    "A362019",
+    "A362858"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

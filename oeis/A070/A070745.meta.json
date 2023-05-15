@@ -2,13 +2,11 @@
   "description": "z such that the Diophantine equation x^2 + y^3 = z^2 has solutions.",
   "id": "A070745",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:22",
     "offset": 1,
     "size": 59,
     "source": "oeis-bfile"

@@ -2,7 +2,6 @@
   "description": "A triangular sequence of polynomial coefficients: p(x,n) = Sum[m^n*x^m/m!, {m, 0, Infinity}]/(x*Exp[x]); q(x,n)= If[n == 0, 1, p(x, n) + x^n*p(1/x, n)].",
   "id": "A154867",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 62,
     "source": "oeis-entry"

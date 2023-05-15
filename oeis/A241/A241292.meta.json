@@ -17,7 +17,6 @@
     "A241298",
     "A241299"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "cons",
     "fini",
@@ -25,7 +24,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 3638334640025,
     "size": 105,
     "source": "oeis-entry"

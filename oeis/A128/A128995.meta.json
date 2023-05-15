@@ -2,12 +2,10 @@
   "description": "For a number n, let r=n+1, s = the least number greater than r and coprime to nr; n is here if nr-s, rs-n and sn-r are all prime.",
   "id": "A128995",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

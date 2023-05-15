@@ -2,14 +2,12 @@
   "description": "Integers with the same first and last letter in their English name.",
   "id": "A257043",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "easy",
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:14",
     "offset": 1,
     "size": 56,
     "source": "oeis-bfile"

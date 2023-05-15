@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the largest m such that iphi(m) = n, where iphi is the infinitary totient function A091732, or a(n) = 0 if no such m exists.",
+  "id": "A362666",
+  "mentions": [
+    "A057635",
+    "A091732",
+    "A362484",
+    "A362486",
+    "A362667",
+    "A362668"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

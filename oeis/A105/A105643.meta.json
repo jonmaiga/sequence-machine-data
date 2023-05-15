@@ -2,14 +2,12 @@
   "description": "Decimal expansion of e+Pi+e*Pi+e^Pi+Pi^e.",
   "id": "A105643",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:35",
     "offset": 2,
     "size": 105,
     "source": "joeis"

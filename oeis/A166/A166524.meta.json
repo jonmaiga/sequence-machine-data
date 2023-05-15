@@ -2,14 +2,12 @@
   "description": "a(n) = 9*n - a(n-1), with n>1, a(1)=1.",
   "id": "A166524",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:40:29",
     "offset": 1,
     "size": 57,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "Least multiple of n such that every partial concatenation followed by a 3 is prime.",
   "id": "A111437",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 49,
     "source": "oeis-entry"

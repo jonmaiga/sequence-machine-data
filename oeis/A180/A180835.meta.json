@@ -2,13 +2,11 @@
   "description": "T(n,k) = number of n-bit binary numbers with every initial substring not divisible by k.",
   "id": "A180835",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:03",
     "offset": 1,
     "size": 95,
     "source": "oeis-bfile"

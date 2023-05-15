@@ -2,14 +2,12 @@
   "description": "Each number in this sequence is the reversal of the sum of its proper substrings.",
   "id": "A125303",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

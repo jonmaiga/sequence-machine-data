@@ -2,14 +2,12 @@
   "description": "a(n) = n^5*(n^10 + 1)/2.",
   "id": "A168507",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:52",
     "offset": 0,
     "size": 17,
     "source": "oeis-bfile"

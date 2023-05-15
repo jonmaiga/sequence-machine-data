@@ -2,14 +2,12 @@
   "description": "Triangle T(n,k) = Degree of vertex k in the unitary addition Cayley graph Gn, 0<=k<=n-1, with T(1,0)=0.",
   "id": "A268341",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 91,
     "source": "oeis-entry"

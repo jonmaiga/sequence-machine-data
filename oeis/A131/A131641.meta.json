@@ -2,7 +2,6 @@
   "description": "Triangular sequence obtained from polynomials derived from: x^2-x/(2*b(n)-1=0 where b(n)->{n=3, theta0=1.32472},{n=4, theta1=1.38028} as a polynomial recursion: y(n) = 16 - 8 x - 48 x^2 + 18 x^3 + 48 x^4 - 8 x^5 - 16 x^6 - x* y(n - 1] + 2 x^2 *y(n - 1) + x^2 *y(n - 2).",
   "id": "A131641",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 71,
     "source": "oeis-entry"

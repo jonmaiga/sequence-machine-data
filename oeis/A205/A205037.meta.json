@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of (n+1)X(k+1) 0..3 arrays with permanents of 2X2 subblocks differing from horizontal and vertical neighbor permanents",
   "id": "A205037",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:25",
     "offset": 1,
     "size": 24,
     "source": "oeis-bfile"

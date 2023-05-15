@@ -2,14 +2,12 @@
   "description": "a(n) = 7*2^n - 3.",
   "id": "A156127",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:38",
     "offset": 0,
     "size": 30,
     "source": "oeis-bfile"

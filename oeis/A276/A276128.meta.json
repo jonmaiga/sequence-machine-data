@@ -2,13 +2,11 @@
   "description": "a(n) is the minimum cost to determine a number among 1...n by multiple guesses, where the cost of each guess is the guessed value and the answer is whether the guess is low, high, or correct.",
   "id": "A276128",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:41",
     "offset": 1,
     "size": 79,
     "source": "oeis-bfile"

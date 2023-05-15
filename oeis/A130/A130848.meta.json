@@ -2,14 +2,12 @@
   "description": "Periodic sequence with period (2, 5, 3, -2, -5, -3).",
   "id": "A130848",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-26 10:14:49",
     "offset": 0,
     "size": 102,
     "source": "joeis"

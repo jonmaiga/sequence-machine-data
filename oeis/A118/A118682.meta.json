@@ -2,7 +2,6 @@
   "description": "Triangle where T(n,k) depends on the last digit of prime(n)*prime(k). If this is 1 or 9, T(n,k) = 1; if 3 or 7, T(n,k) = 2; otherwise T(n,k) = 0.",
   "id": "A118682",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "formulas",
@@ -10,7 +9,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 55,
     "source": "oeis-entry"

@@ -1,5 +1,5 @@
 {
-  "description": "Unique triangle such that (1) every positive integer occurs exactly once; (2) row n consists of n consecutive numbers; (3) odd-numbered rows are increasing; and (4) even-numbered rows are decreasing.",
+  "description": "Enumeration of natural numbers by the boustrophedonic diagonal method.",
   "id": "A056011",
   "mentions": [
     "A000027",
@@ -10,7 +10,6 @@
     "A213927",
     "A218890"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "formulas",
@@ -19,7 +18,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2022-04-27 15:30:05",
     "offset": 1,
     "size": 66,
     "source": "joeis"

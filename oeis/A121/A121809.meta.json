@@ -2,14 +2,12 @@
   "description": "Primes modulo five partitioned sequentially in groups of four are then given the number of the order in which such groupings come up sequentially in an n X n X n X n vector.",
   "id": "A121809",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 56,
     "source": "oeis-entry"

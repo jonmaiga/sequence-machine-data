@@ -1,0 +1,22 @@
+{
+  "description": "Infinitary nontotient numbers: values not in the range of the infinitary totient function iphi (A091732).",
+  "id": "A362486",
+  "mentions": [
+    "A005277",
+    "A005278",
+    "A091732",
+    "A347771",
+    "A362182",
+    "A362484",
+    "A362485"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

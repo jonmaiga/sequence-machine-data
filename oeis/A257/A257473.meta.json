@@ -2,13 +2,11 @@
   "description": "Composite numbers whose digits appear in their prime factors.",
   "id": "A257473",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 49,
     "source": "oeis-entry"

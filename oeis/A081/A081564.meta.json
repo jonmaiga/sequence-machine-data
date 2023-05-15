@@ -2,14 +2,12 @@
   "description": "Decimal expansion of Sum(1/(2^q-1)) with the summation extending over all pairs of integers (p,q)=1 0 < p/q < sqrt(2).",
   "id": "A081564",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:33",
     "offset": 1,
     "size": 105,
     "source": "oeis-bfile"

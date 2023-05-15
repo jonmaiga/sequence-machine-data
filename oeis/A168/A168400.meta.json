@@ -2,14 +2,12 @@
   "description": "3^n mod 15.",
   "id": "A168400",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:45:31",
     "offset": 0,
     "size": 90,
     "source": "joeis"

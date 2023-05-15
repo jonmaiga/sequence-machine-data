@@ -2,14 +2,12 @@
   "description": "Permanents of certain n X 2 cyclic (1,-1) matrices.",
   "id": "A195422",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-09-08 06:56:23",
     "offset": 1,
     "size": 21,
     "source": "joeis"

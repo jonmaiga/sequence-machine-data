@@ -2,14 +2,12 @@
   "description": "Gaussian binomial coefficient [ n,5 ] for q = -7.",
   "id": "A015312",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:22",
     "offset": 5,
     "size": 9,
     "source": "oeis-bfile"

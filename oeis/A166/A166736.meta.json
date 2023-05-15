@@ -2,12 +2,10 @@
   "description": "Consider triangles stacked so the k-th row has 2*k-1 triangles. a(n) is the number of ways to color each triangle in the first n rows using three colors with the restriction that adjacent triangles must be different colors. (Triangles are adjacent if they share a side.)",
   "id": "A166736",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

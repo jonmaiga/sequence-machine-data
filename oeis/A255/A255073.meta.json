@@ -2,14 +2,12 @@
   "description": "Primes that remain prime after each digit is replaced by the power of its position.",
   "id": "A255073",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:13",
     "offset": 1,
     "size": 54,
     "source": "oeis-bfile"

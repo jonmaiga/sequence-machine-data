@@ -2,13 +2,11 @@
   "description": "From the enumeration of involutions avoiding the pattern 4321.",
   "id": "A217525",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 0,
     "size": 41,
     "source": "oeis-entry"

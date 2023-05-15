@@ -2,13 +2,11 @@
   "description": "a(n) is the number of distinct valid solutions taking into account the ambiguity of open and closed absolute value bars for an input of -1 to -2*(n)-1 with absolute value bars between each (|-1|, |-1|-2|-3|, |-1|-2|-3|-4|-5|, etc.).",
   "id": "A332415",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 15,
     "source": "oeis-entry"

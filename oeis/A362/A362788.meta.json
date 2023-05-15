@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows, T(n, k) = RisingFactorial(n - k, k) * Stirling2(n - k, k), for n >= 0 and 0 <= k <= n//2, where '//' denotes integer division.",
+  "id": "A362788",
+  "mentions": [
+    "A052512",
+    "A362369",
+    "A362789"
+  ],
+  "tags": [
+    "new",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

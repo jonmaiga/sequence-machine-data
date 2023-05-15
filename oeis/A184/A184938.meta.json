@@ -2,7 +2,6 @@
   "description": "Tightening order labels for a 24-bolt ring (construction/assembly)",
   "id": "A184938",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 22,
     "source": "oeis-entry"

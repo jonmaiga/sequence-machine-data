@@ -2,14 +2,12 @@
   "description": "A sequence constructed so that the probability of occurrence of integer i > 0 is given by p(i) = log_2[(i+1)^2/(i^2+2*i)], which is the Gauss-Kuzmin distribution.",
   "id": "A241773",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "cofr",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:58",
     "offset": 1,
     "size": 84,
     "source": "oeis-bfile"

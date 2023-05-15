@@ -2,13 +2,11 @@
   "description": "a(n) - 1 is the maximal number of integers for which the absolute value of a reducible polynomial with integral coefficients of degree n is a prime.",
   "id": "A087176",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 2,
     "size": 7,
     "source": "oeis-entry"

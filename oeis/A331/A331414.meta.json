@@ -2,13 +2,11 @@
   "description": "Number of integral free trees of n vertices.",
   "id": "A331414",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 0,
     "size": 51,
     "source": "oeis-entry"

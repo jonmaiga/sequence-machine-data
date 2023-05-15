@@ -14,14 +14,12 @@
     "A349975",
     "A350103"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "hard",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:24",
     "offset": 0,
     "size": 66,
     "source": "oeis-bfile"

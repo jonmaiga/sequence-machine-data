@@ -2,12 +2,10 @@
   "description": "Number of n X n binary matrices with every 1 adjacent to another 1 horizontally or vertically.",
   "id": "A134262",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

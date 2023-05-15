@@ -2,14 +2,12 @@
   "description": "Decimal expansion of 'kappa', an asymptotic enumeration constant related to unit interval graphs.",
   "id": "A272354",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 0,
     "size": 99,
     "source": "oeis-entry"

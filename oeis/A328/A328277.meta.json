@@ -5,7 +5,6 @@
     "A328287",
     "A328288"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
     "fini",
@@ -14,7 +13,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 2,
     "size": 78,
     "source": "oeis-entry"

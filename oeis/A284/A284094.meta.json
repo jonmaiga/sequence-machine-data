@@ -2,12 +2,10 @@
   "description": "Indices k such that scalar product (p,q,r).(s,t,u) = p*s+q*t+r*u is prime, where (p,q,r,s,t,u) are 6 consecutive primes starting with p=prime(k).",
   "id": "A284094",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 48,
     "source": "oeis-entry"

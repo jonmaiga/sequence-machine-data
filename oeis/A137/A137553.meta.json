@@ -2,13 +2,11 @@
   "description": "Number of permutations in S_n avoiding {bar 5}{bar 4}231 (i.e., every occurrence of 231 is contained in an occurrence of a 54231).",
   "id": "A137553",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:25",
     "offset": 1,
     "size": 22,
     "source": "oeis-bfile"

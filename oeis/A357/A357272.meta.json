@@ -2,13 +2,11 @@
   "description": "a(n) is the number of ways n can be calculated with expressions of the form \"d1 o1 d2 o2 d3 o3 d4\" where d1-d4 are decimal digits (0-9) and o1-o3 are chosen from the four basic arithmetic operators (+, -, *, /).",
   "id": "A357272",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:31",
     "offset": 0,
     "size": 41,
     "source": "oeis-bfile"

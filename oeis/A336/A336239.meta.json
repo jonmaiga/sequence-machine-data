@@ -2,14 +2,12 @@
   "description": "Triangle read by rows, coefficients of polynomials in Pi^2, given by trigonometric double integrals over the unit square.",
   "id": "A336239",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "formulas",
     "sign",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 29,
     "source": "oeis-entry"

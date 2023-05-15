@@ -2,13 +2,11 @@
   "description": "Double 1's in binary representations of 2*n-1, converting to decimal and dividing by maximal possible power of 3.",
   "id": "A224139",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:42",
     "offset": 1,
     "size": 56,
     "source": "oeis-bfile"

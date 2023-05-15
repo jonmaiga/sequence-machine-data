@@ -1,0 +1,14 @@
+{
+  "description": "Winning numbers of game where you can either add one or divide by a prime.",
+  "id": "A362416",
+  "mentions": [],
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

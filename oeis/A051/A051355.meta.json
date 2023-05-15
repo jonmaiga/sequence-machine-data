@@ -2,13 +2,11 @@
   "description": "A class of Boolean functions of n variables and rank 5.",
   "id": "A051355",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:55:45",
     "offset": 0,
     "size": 20,
     "source": "joeis"

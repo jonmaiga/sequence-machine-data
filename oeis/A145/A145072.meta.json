@@ -2,13 +2,11 @@
   "description": "G.f. satisfies: A(x) = (1+y)*A(y^2) where y = x*A(x).",
   "id": "A145072",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 26,
     "source": "oeis-entry"

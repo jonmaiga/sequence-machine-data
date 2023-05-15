@@ -2,7 +2,6 @@
   "description": "Number of fibered rational knots with n crossings.",
   "id": "A051449",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:59",
     "offset": 3,
     "size": 40,
     "source": "oeis-bfile"

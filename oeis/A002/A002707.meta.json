@@ -2,7 +2,6 @@
   "description": "Number of ternary trees with n nodes.",
   "id": "A002707",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 0,
     "size": 8,
     "source": "oeis-entry"

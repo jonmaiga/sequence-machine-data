@@ -2,13 +2,11 @@
   "description": "Minimal perimeter of an n-dollar construction consisting of 3-dollar triangles and 4-dollar squares.",
   "id": "A248864",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 6,
     "size": 22,
     "source": "oeis-entry"

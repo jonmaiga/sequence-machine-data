@@ -2,7 +2,6 @@
   "description": "Expansion of polynomial N_5 in Formula (10) in the reference.",
   "id": "A145107",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "fini",
@@ -11,7 +10,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 45,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Quasi-Carmichael numbers to base -3: squarefree composites n such that for every prime p that divides n, p+3 divides n+3.",
   "id": "A029563",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:38",
     "offset": 1,
     "size": 33,
     "source": "oeis-bfile"

@@ -1,16 +1,14 @@
 {
-  "description": "Perimeters of integer-sided triangles such that the harmonic mean of all the side lengths and the harmonic mean of each pair of side lengths is an integer",
+  "description": "Perimeters of integer-sided triangles such that the harmonic mean of all the side lengths and the harmonic mean of each pair of side lengths is an integer.",
   "id": "A337244",
   "mentions": [
     "A337088",
     "A337091"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 64,
     "source": "oeis-entry"

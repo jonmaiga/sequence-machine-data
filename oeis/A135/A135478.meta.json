@@ -2,12 +2,10 @@
   "description": "Given n, find the smallest prime p such that n(n+1)+p = q is a prime; then a(n) = q.",
   "id": "A135478",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:23",
     "offset": 0,
     "size": 50,
     "source": "oeis-bfile"

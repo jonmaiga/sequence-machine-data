@@ -2,18 +2,16 @@
   "description": "a(n) = Sum_{k=0..floor(n/3)} (-1)^k * binomial(n-3*k,k) * binomial(2*(n-3*k),n-3*k).",
   "id": "A360219",
   "mentions": [
-    "A157004"
+    "A157004",
+    "A360267"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 0,
     "size": 27,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,15 +1,13 @@
 {
-  "description": "Number of nX5 0..1 arrays with no 1 equal to more than two of its horizontal and vertical neighbors, with the exception of exactly two elements.",
+  "description": "Number of n X 5 0..1 arrays with no 1 equal to more than two of its horizontal and vertical neighbors, with the exception of exactly two elements.",
   "id": "A283229",
   "mentions": [
     "A283232"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:53",
     "offset": 1,
     "size": 15,
     "source": "oeis-bfile"

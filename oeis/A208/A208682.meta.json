@@ -2,12 +2,10 @@
   "description": "Smallest m such that 2^m+m^2 = 0 mod prime(n), or 0 if no such m.",
   "id": "A208682",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

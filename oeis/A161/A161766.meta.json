@@ -2,12 +2,10 @@
   "description": "a(1)=1. For n >=2, a(n) = the smallest positive integer with exactly sum{k=1 to n-1} a(k) divisors.",
   "id": "A161766",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

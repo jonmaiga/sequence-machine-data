@@ -2,12 +2,10 @@
   "description": "Powers of fifth root of 16 rounded to nearest integer.",
   "id": "A018160",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 01:22:40",
     "offset": 0,
     "size": 33,
     "source": "joeis"

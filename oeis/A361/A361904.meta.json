@@ -1,0 +1,17 @@
+{
+  "description": "Odd numbers k such that for all even divisors d of k^2+1, d^2+1 is a prime number.",
+  "id": "A361904",
+  "mentions": [
+    "A000203",
+    "A002522",
+    "A193432"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

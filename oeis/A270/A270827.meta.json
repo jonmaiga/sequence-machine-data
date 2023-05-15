@@ -2,12 +2,10 @@
   "description": "a(n) is the smallest k such that k^8 = 16 (mod 2*n-1).",
   "id": "A270827",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 77,
     "source": "oeis-entry"

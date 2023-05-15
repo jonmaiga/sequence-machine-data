@@ -2,12 +2,10 @@
   "description": "Beginning of first chain of n consecutive primes whose product + 2 is prime.",
   "id": "A083562",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:35",
     "offset": 1,
     "size": 60,
     "source": "oeis-bfile"

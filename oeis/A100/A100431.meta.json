@@ -2,16 +2,18 @@
   "description": "Bisection of A002417.",
   "id": "A100431",
   "mentions": [
-    "A002417"
+    "A000217",
+    "A002417",
+    "A014105",
+    "A098077",
+    "A108678"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:36:23",
     "offset": 0,
     "size": 34,
     "source": "joeis"

@@ -11,14 +11,12 @@
     "A061319",
     "A061321"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 38,
     "source": "oeis-entry"

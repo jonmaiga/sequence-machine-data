@@ -2,14 +2,12 @@
   "description": "Arises in enumerating maximal antichains of minimum size.",
   "id": "A213685",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 4,
     "size": 13,
     "source": "oeis-entry"

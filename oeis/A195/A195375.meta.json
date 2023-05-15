@@ -2,13 +2,11 @@
   "description": "Numbers whose cube expanded in base 14 uses only prime digits.",
   "id": "A195375",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Arises in quick gossiping without duplicate transmission.",
   "id": "A215459",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 52,
     "source": "oeis-entry"

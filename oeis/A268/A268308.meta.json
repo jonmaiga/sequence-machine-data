@@ -2,12 +2,10 @@
   "description": "a(1)=1, a(2)=2; thereafter a(n) is the smallest number not yet used such that a(n)+a(n-1)+a(n-2) is prime but a(n)+a(n-2) is not.",
   "id": "A268308",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:30",
     "offset": 1,
     "size": 67,
     "source": "oeis-bfile"

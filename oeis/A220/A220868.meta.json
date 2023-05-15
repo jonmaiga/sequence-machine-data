@@ -2,13 +2,11 @@
   "description": "Number of perfect matchings in the twisted graph (C_4 X C_n)_{(13)(24)}.",
   "id": "A220868",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:39",
     "offset": 1,
     "size": 20,
     "source": "oeis-bfile"

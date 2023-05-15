@@ -2,13 +2,11 @@
   "description": "Floor of value of n-th derivative of Zeta(x) at x=2.",
   "id": "A153577",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:35",
     "offset": 1,
     "size": 20,
     "source": "oeis-bfile"

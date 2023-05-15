@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of lambda, a constant arising in the analysis of the binary Euclidean algorithm.",
+  "id": "A362150",
+  "mentions": [
+    "A118858",
+    "A345987",
+    "A362149"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "hard",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

@@ -2,13 +2,11 @@
   "description": "Expansion of eta(8z)*eta(16z)*theta_3(z).",
   "id": "A034949",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-28 15:17:31",
     "offset": 1,
     "size": 97,
     "source": "joeis"

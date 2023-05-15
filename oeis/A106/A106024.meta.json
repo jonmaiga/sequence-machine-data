@@ -2,12 +2,10 @@
   "description": "Primes p such that 28*p +- 3, 38*p +- 3 and 58*p +- 3 are all primes.",
   "id": "A106024",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 24,
     "source": "oeis-entry"

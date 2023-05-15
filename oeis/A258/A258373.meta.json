@@ -2,14 +2,12 @@
   "description": "a(n+1) is the least number not occurring earlier such that concatenation(a(n),a(n+1)) - 1 is a palindrome; a(1)=1.",
   "id": "A258373",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:16",
     "offset": 1,
     "size": 60,
     "source": "oeis-bfile"

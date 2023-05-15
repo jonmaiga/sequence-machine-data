@@ -2,13 +2,11 @@
   "description": "Integers that concatenate 3 counts: the number of terms in the sequence so far, the number of primes in the sequence so far, the number of digits in the sequence so far, with a(1)= 113. The sequence is always extended with the smallest available integer not leading to a contradiction or a dead end.",
   "id": "A309617",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:33",
     "offset": 1,
     "size": 45,
     "source": "oeis-bfile"

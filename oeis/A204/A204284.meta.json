@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of (n+2)X(k+2) 0..2 arrays with every 3X3 subblock having three equal elements in a row horizontally, vertically, diagonally or antidiagonally exactly three ways, and new values 0..2 introduced in row major order",
   "id": "A204284",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:24",
     "offset": 1,
     "size": 45,
     "source": "oeis-bfile"

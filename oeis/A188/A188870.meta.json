@@ -1,16 +1,14 @@
 {
-  "description": "Number of nX5 binary arrays without the pattern 0 0 0 antidiagonally or horizontally",
+  "description": "Number of n X 5 binary arrays without the pattern 0 0 0 antidiagonally or horizontally.",
   "id": "A188870",
   "mentions": [
     "A188874"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:13",
     "offset": 1,
     "size": 15,
     "source": "oeis-bfile"

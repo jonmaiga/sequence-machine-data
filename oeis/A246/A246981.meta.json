@@ -2,13 +2,11 @@
   "description": "Number of single-peaked preference orders on an n-set.",
   "id": "A246981",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

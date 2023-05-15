@@ -2,14 +2,12 @@
   "description": "Order of the automorphism group of the n-prism graph.",
   "id": "A124351",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 15:34:27",
     "offset": 3,
     "size": 57,
     "source": "joeis"

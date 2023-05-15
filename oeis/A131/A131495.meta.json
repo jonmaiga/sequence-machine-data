@@ -2,14 +2,12 @@
   "description": "Values of n such that n^n starts with the digits of n.",
   "id": "A131495",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 21,
     "source": "oeis-entry"

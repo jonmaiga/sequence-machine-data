@@ -2,14 +2,12 @@
   "description": "Āryabhaṭa's sine table. (Also Aryabhata or आर्यभट.)",
   "id": "A219022",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 24,
     "source": "oeis-entry"

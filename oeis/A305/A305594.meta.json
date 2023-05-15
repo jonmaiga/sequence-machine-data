@@ -2,13 +2,11 @@
   "description": "Number of cyclic binary sequences of length n containing no abelian 4th powers.",
   "id": "A305594",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 21,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Primes p such that 94 is not a square mod p.",
   "id": "A038984",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:43:33",
     "offset": 1,
     "size": 45,
     "source": "joeis"

@@ -1,0 +1,19 @@
+{
+  "description": "Number of Grassmannian permutations of size n that avoid a pattern, sigma, where sigma is a pattern of size 9 with exactly one descent.",
+  "id": "A362196",
+  "mentions": [
+    "A000325",
+    "A362195"
+  ],
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

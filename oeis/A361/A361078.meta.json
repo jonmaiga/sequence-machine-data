@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k for which k = gcd(k', k\"), where k' is the arithmetic derivative of k (A003415) and k\" is the second derivative of k (A068346).",
+  "id": "A361078",
+  "mentions": [
+    "A003415",
+    "A051674",
+    "A068346",
+    "A072873",
+    "A348284"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

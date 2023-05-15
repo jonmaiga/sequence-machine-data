@@ -1,13 +1,15 @@
 {
-  "description": "a(n) = least k such that f(k) = n, where f is the prime gaps function given by f(m) = p(m+1)-p(m) and p(m) denotes the m-th prime, if k exists; 0 otherwise.",
+  "description": "a(n) = least k such that f(k) = n, where f is the prime gaps function given by f(m) = prime(m+1)-prime(m) and prime(m) denotes the m-th prime, if k exists; 0 otherwise.",
   "id": "A066493",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:20",
+  "mentions": [
+    "A001223",
+    "A038664"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

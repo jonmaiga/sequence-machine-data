@@ -2,13 +2,11 @@
   "description": "a(n) = ((n-th prime)^6-(n-th prime)^4))/4.",
   "id": "A138455",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:26",
     "offset": 1,
     "size": 21,
     "source": "oeis-bfile"

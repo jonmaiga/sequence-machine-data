@@ -8,7 +8,6 @@
     "A144703",
     "A144816"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "frac",
@@ -17,7 +16,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:33",
     "offset": 0,
     "size": 45,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "a(n) = 2^n * Product_{k=1..(n-1)/2} (2 + 3*cos(k*Pi/n)^2).",
   "id": "A152120",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 20:17:20",
     "offset": 0,
     "size": 25,
     "source": "joeis"

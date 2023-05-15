@@ -2,7 +2,6 @@
   "description": "Triangle T(n,m) = (prime(n)-1)*(prime(m)- 1) mod 8 read by rows.",
   "id": "A173556",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 106,
     "source": "oeis-entry"

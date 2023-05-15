@@ -5,7 +5,6 @@
     "A341030",
     "A343486"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "cons",
     "easy",
@@ -13,7 +12,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:16",
     "offset": 1,
     "size": 105,
     "source": "oeis-bfile"

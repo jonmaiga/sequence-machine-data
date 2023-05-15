@@ -2,14 +2,12 @@
   "description": "Number of ways to build a contiguous building with n LEGO blocks of size 1 X 2 on top of a fixed block of the same size.",
   "id": "A123766",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

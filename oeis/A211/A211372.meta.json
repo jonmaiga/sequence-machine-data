@@ -2,14 +2,12 @@
   "description": "Side length of smallest square containing n L's with short sides 1, 2, ..., n.",
   "id": "A211372",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

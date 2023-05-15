@@ -8,14 +8,12 @@
     "A277647",
     "A278109"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "easy",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:44",
     "offset": 1,
     "size": 95,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Numbers n such that 103*n - 101 is prime.",
   "id": "A107372",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:04:09",
     "offset": 1,
     "size": 56,
     "source": "joeis"

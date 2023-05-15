@@ -2,13 +2,11 @@
   "description": "Decimal expansion of Sum_{i>=1} sin(1/i)^i.",
   "id": "A340177",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:12",
     "offset": 1,
     "size": 87,
     "source": "oeis-bfile"

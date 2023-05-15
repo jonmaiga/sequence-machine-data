@@ -2,12 +2,10 @@
   "description": "Lexicographically earliest nonnegative integer sequence such that for every positive integer d, the sequence a(n+d)-a(n), n>=0 is injective.",
   "id": "A242390",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:58",
     "offset": 0,
     "size": 70,
     "source": "oeis-bfile"

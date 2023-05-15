@@ -1,0 +1,28 @@
+{
+  "description": "Array read by descending antidiagonals. A(n, k) is the number of the nonempty multiset combinations of {0, 1} as defined in A361682.",
+  "id": "A361521",
+  "mentions": [
+    "A000004",
+    "A000096",
+    "A005843",
+    "A028347",
+    "A046092",
+    "A067725",
+    "A068380",
+    "A081266",
+    "A139098",
+    "A153792",
+    "A163761",
+    "A361682"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -2,13 +2,11 @@
   "description": "T(n,k) = Number of ways to reciprocally link elements of an n X n X n triangular array with themselves or a neighbor, with no more than k elements linked to themselves.",
   "id": "A271617",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:36",
     "offset": 1,
     "size": 55,
     "source": "oeis-bfile"

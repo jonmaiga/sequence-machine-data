@@ -2,21 +2,19 @@
   "description": "Least b > 1 such that (b^(prime(n)^2) - 1)/(b^prime(n) - 1) is prime.",
   "id": "A353101",
   "mentions": [
-    "A000040",
+    "A001248",
     "A066180",
     "A085398",
     "A156585"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
-    "size": 26,
+    "size": 27,
     "source": "oeis-entry"
   }
 }

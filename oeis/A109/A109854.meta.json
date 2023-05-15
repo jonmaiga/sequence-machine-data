@@ -2,12 +2,10 @@
   "description": "Least K such that K*(3^(n+j))+1 is prime for j=0 to 4.",
   "id": "A109854",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 19,
     "source": "oeis-entry"

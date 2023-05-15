@@ -2,13 +2,11 @@
   "description": "Number of base 25 circular n-digit numbers with adjacent digits differing by 5 or less.",
   "id": "A125388",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 23:51:21",
     "offset": 0,
     "size": 18,
     "source": "joeis"

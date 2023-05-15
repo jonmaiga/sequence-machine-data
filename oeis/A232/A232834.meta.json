@@ -1,16 +1,14 @@
 {
-  "description": "Number of (n+1)X(2+1) 0..2 arrays with every element next to itself plus and minus one within the range 0..2 horizontally, diagonally or antidiagonally",
+  "description": "Number of (n+1) X (2+1) 0..2 arrays with every element next to itself plus and minus one within the range 0..2 horizontally, diagonally or antidiagonally.",
   "id": "A232834",
   "mentions": [
     "A232839"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:51",
     "offset": 1,
     "size": 16,
     "source": "oeis-bfile"

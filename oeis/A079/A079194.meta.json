@@ -11,7 +11,6 @@
     "A079201",
     "A079210"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "formulas",
     "hard",
@@ -20,7 +19,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 16,
     "source": "oeis-entry"

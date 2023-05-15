@@ -2,13 +2,11 @@
   "description": "Euler number of a certain poset C^bar_n.",
   "id": "A293153",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

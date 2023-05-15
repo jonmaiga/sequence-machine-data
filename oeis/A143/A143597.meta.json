@@ -2,13 +2,11 @@
   "description": "G.f. satisfies: A(x) = 1 + x*A(2x)*A(-x).",
   "id": "A143597",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 16,
     "source": "oeis-entry"

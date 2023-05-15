@@ -11,13 +11,11 @@
     "A305871",
     "A305881"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 36,
     "source": "oeis-entry"

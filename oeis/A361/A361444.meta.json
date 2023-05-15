@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive base-10 palindromes such that a(n) + a(n+1) is prime.",
+  "id": "A361444",
+  "mentions": [
+    "A002113",
+    "A082979"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

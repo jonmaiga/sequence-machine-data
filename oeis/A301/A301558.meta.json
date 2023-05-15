@@ -2,13 +2,11 @@
   "description": "Number of cycles in the n-odd graph.",
   "id": "A301558",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

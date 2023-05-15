@@ -2,14 +2,12 @@
   "description": "Sum_{j=k(n)..prime(n)} j where k is the n-th nonprime nonnegative integer.",
   "id": "A161669",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 45,
     "source": "oeis-entry"

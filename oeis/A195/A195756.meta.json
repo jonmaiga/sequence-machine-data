@@ -2,12 +2,10 @@
   "description": "Smallest possible largest number of a 6 by n magic square where repetitions are not allowed without diagonals.",
   "id": "A195756",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 2,
     "size": 14,
     "source": "oeis-entry"

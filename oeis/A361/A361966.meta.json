@@ -1,0 +1,24 @@
+{
+  "description": "Irregular table read by rows in which the n-th row consists of all the numbers m such that uphi(m) = n, where uphi is the unitary totient function (A047994).",
+  "id": "A361966",
+  "mentions": [
+    "A032447",
+    "A047994",
+    "A135347",
+    "A162247",
+    "A361967",
+    "A361968",
+    "A361969",
+    "A361970",
+    "A361971"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

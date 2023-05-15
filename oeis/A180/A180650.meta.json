@@ -6,14 +6,12 @@
     "A180335",
     "A180651"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "hard",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:03",
     "offset": 2,
     "size": 23,
     "source": "oeis-bfile"

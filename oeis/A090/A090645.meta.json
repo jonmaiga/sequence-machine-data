@@ -2,12 +2,10 @@
   "description": "a(n)=(-1)^(n+1)*2*(16^n-1)*B(2n) where B(k) denotes the k-th Bernoulli number.",
   "id": "A090645",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 15,
     "source": "oeis-entry"

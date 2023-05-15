@@ -2,12 +2,10 @@
   "description": "Numbers that are the sum of 3 distinct nonzero squares in exactly 9 ways.",
   "id": "A025347",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-11-11 15:41:38",
     "offset": 1,
     "size": 43,
     "source": "joeis"

@@ -2,12 +2,10 @@
   "description": "sech(arctan(x)*log(x+1)) = 1 - 12/4!*x^4 + 60/5!*x^5 - 90/6!*x^6 + 420/7!*x^7...",
   "id": "A012407",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:19",
     "offset": 0,
     "size": 21,
     "source": "oeis-bfile"

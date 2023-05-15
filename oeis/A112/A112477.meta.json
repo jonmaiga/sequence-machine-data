@@ -5,14 +5,12 @@
     "A112475",
     "A112478"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 64,
     "source": "oeis-entry"

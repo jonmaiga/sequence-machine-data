@@ -8,13 +8,11 @@
     "A260191",
     "A339693"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:13",
     "offset": 2,
     "size": 21,
     "source": "oeis-bfile"

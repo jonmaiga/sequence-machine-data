@@ -1,0 +1,16 @@
+{
+  "description": "Multipliers involving Fibonacci-like sequences and Pythagorean triples.",
+  "id": "A358404",
+  "mentions": [
+    "A000045"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

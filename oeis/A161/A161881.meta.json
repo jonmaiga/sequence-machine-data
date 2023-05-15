@@ -2,12 +2,10 @@
   "description": "a(n) = Sum_{k=0..n-1} {[x^k] A(x)^(n-k)} * {[x^(n-k-1)] A(x)^(k+1)} for n>0, with a(0)=1, where g.f. A(x) = Sum_{n>=0} a(n)*x^n.",
   "id": "A161881",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 22,
     "source": "oeis-entry"

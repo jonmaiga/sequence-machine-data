@@ -2,14 +2,12 @@
   "description": "Denominator of the ratio of the preceding two terms.",
   "id": "A096285",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:12:53",
     "offset": 3,
     "size": 96,
     "source": "joeis"

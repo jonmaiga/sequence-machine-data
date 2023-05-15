@@ -6,13 +6,11 @@
     "A109967",
     "A109968"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 93,
     "source": "oeis-entry"

@@ -2,7 +2,6 @@
   "description": "Number of occurrences of \"I\" in all Roman numerals of numbers from 1 to n",
   "id": "A152083",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "easy",
@@ -12,7 +11,6 @@
     "word"
   ],
   "terms": {
-    "modified": "2022-04-26 09:13:25",
     "offset": 1,
     "size": 66,
     "source": "joeis"

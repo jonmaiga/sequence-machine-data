@@ -2,7 +2,6 @@
   "description": "A characteristic polynomial triangle of a Hadamard matrix self-similar lower triangular system: H(2^(n-1)) -> H(2^n).",
   "id": "A158800",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 73,
     "source": "oeis-entry"

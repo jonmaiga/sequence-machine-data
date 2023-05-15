@@ -2,12 +2,10 @@
   "description": "Start with the list of numbers from 1 to n. As long as the list has odd and even elements, append to the list the sum of the smallest odd and smallest even elements, taken with multiplicity, and delete these terms from the list. a(n) is the largest element in the final list.",
   "id": "A330288",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 59,
     "source": "oeis-entry"

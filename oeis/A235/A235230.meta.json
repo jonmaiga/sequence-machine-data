@@ -2,14 +2,12 @@
   "description": "Integer radii of circles tiled by square tiles such that the ratio of uncut tiles to cut tiles is an integer and four square tiles meet at the center of the circle.",
   "id": "A235230",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

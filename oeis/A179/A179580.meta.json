@@ -2,13 +2,11 @@
   "description": "Number of permutations of 1..n+5 with the number moved left exceeding the number moved right by n or more",
   "id": "A179580",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:02",
     "offset": 1,
     "size": 25,
     "source": "oeis-bfile"

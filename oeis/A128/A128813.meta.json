@@ -2,11 +2,9 @@
   "description": "Triangle of coefficients of (x+1)*(x+3)*(x+6)*...*(x+n(n+1)/2).",
   "id": "A128813",
   "mentions": [
-    "A000142",
-    "A007318",
-    "A094638"
+    "A006472",
+    "A128814"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
@@ -14,7 +12,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:16",
     "offset": 0,
     "size": 45,
     "source": "oeis-bfile"

@@ -2,14 +2,12 @@
   "description": "Numbers of the form 4^k*(8*j+7) that have exactly three partitions into four positive squares.",
   "id": "A274642",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:39",
     "offset": 1,
     "size": 41,
     "source": "oeis-bfile"

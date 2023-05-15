@@ -2,14 +2,12 @@
   "description": "Hexanacci numbers: a(n)=a(n-1)+a(n-2)+a(n-3)+a(n-4)+a(n-5)+a(n-6), {0,1,2,3,4,5...}.",
   "id": "A145030",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 19:14:57",
     "offset": 1,
     "size": 35,
     "source": "joeis"

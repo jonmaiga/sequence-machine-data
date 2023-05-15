@@ -2,13 +2,11 @@
   "description": "Numbers k such that k=x*y for some x and y such that x+y and the concatenation of x and y are both prime.",
   "id": "A343703",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:17",
     "offset": 1,
     "size": 65,
     "source": "oeis-bfile"

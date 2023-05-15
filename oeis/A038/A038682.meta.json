@@ -2,14 +2,12 @@
   "description": "Sixth powers ending nontrivially in a nonzero sixth power.",
   "id": "A038682",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:41:25",
     "offset": 1,
     "size": 17,
     "source": "joeis"

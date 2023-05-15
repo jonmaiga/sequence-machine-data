@@ -2,12 +2,10 @@
   "description": "Coefficients of a Dirichlet series.",
   "id": "A002558",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

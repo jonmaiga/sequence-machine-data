@@ -4,15 +4,13 @@
   "mentions": [
     "A355024"
   ],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 8,
     "size": 16,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

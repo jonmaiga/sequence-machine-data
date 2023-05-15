@@ -2,12 +2,10 @@
   "description": "Let m0 be the matrix {{0,1,0},{0,1,1},{1,0,-q}}, m1={{0,1,0},{0,0,1},{1,1,q1}}; if n even a(n) = (3,3)-element of m[n-1]*m0, if n odd a(n) = (3,3)-element of m[n-1]*m1.",
   "id": "A089069",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 115,
     "source": "oeis-entry"

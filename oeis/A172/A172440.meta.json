@@ -2,12 +2,10 @@
   "description": "G.f. satisfies: [x^n] A(x)^((n+1)^2) = (n+1)^2 for n>=1; that is, the coefficient of x^n in the (n+1)^2 power of g.f. A(x) equals (n+1)^2.",
   "id": "A172440",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 18,
     "source": "oeis-entry"

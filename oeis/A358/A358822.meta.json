@@ -2,12 +2,10 @@
   "description": "a(n) is the first number k such that there are exactly n pairs of primes p < q with p + q = k such that p*q - k and p*q + k are both prime.",
   "id": "A358822",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 0,
     "size": 49,
     "source": "oeis-entry"

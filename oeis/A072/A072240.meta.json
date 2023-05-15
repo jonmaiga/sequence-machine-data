@@ -2,13 +2,11 @@
   "description": "Smallest factorial containing exactly n 6's.",
   "id": "A072240",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

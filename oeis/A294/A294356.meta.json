@@ -6,12 +6,10 @@
     "A028343",
     "A168243"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 0,
     "size": 22,
     "source": "oeis-entry"

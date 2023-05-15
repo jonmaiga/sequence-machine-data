@@ -9,7 +9,6 @@
     "A159867",
     "A266925"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "hard",
     "more",
@@ -17,7 +16,6 @@
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

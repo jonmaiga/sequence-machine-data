@@ -2,13 +2,11 @@
   "description": "Three-dimensional array A(m;r,s) = Sum_{i=0..r} Sum_{j=0..s} (-1)^(i+j+r+s)*binomial(r,i)*binomial(s,j)*binomial(i*j,m) displayed as a series of square slices read across rows (see Comments for details).",
   "id": "A335156",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 91,
     "source": "oeis-entry"

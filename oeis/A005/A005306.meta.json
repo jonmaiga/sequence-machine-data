@@ -2,13 +2,11 @@
   "description": "Representation degeneracies for Ramond strings.",
   "id": "A005306",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 3,
     "size": 18,
     "source": "oeis-entry"

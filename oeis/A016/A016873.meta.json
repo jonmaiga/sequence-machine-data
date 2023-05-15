@@ -2,6 +2,7 @@
   "description": "a(n) = 5*n + 2.",
   "id": "A016873",
   "mentions": [
+    "A001622",
     "A008586",
     "A008587",
     "A016861",
@@ -9,14 +10,12 @@
     "A324298",
     "A342757"
   ],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 13:53:19",
     "offset": 0,
     "size": 56,
     "source": "joeis"

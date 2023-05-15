@@ -2,14 +2,12 @@
   "description": "Table of resultants for Hermite polynomials H_k(x) and H_n(x).",
   "id": "A054373",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:03",
     "offset": 1,
     "size": 28,
     "source": "oeis-bfile"

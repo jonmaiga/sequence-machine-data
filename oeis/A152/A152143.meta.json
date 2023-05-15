@@ -2,13 +2,11 @@
   "description": "A sixth degree product form sequence: a(n)=Product[(1 + 4*Sin[k*Pi/n]^2 + 16*Sin[k*Pi/n]^4 + 64*Sin[k*Pi/n]^6), {k, 1, Floor[(n - 1)/2]}].",
   "id": "A152143",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 26,
     "source": "oeis-entry"

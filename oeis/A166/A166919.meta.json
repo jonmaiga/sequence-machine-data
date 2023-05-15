@@ -2,14 +2,12 @@
   "description": "Irregular triangle of coefficients of Product_{j=1..n} (x^j - x - 1), read by rows.",
   "id": "A166919",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "sign",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:50",
     "offset": 0,
     "size": 57,
     "source": "oeis-bfile"

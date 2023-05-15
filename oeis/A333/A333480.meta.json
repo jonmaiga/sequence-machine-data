@@ -2,13 +2,11 @@
   "description": "Lexicographically earliest sequence of distinct positive integers such that the decimal expansions of neither a(n)/a(n+1) nor a(n+1)/a(n) contains a significant digit present in either a(n) or a(n+1).",
   "id": "A333480",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 70,
     "source": "oeis-entry"

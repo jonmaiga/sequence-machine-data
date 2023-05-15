@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of (n+1)X(n+1) 0..k arrays with the array of 2X2 subblock determinants symmetric",
   "id": "A187457",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:12",
     "offset": 1,
     "size": 26,
     "source": "oeis-bfile"

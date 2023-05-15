@@ -2,12 +2,10 @@
   "description": "Prime numbers n such that (10^n-1)/9 can be written in the form a^2+7*b^2.",
   "id": "A216526",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

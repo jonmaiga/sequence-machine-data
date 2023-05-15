@@ -5,7 +5,6 @@
     "A002761",
     "A017768"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "fini",
     "formulas",
@@ -13,7 +12,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

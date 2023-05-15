@@ -2,14 +2,12 @@
   "description": "Let a(1) = 1. If n and a(n-1) have the same parity, a(n) = n + a(n-1), otherwise a(n) = abs(n - a(n-1)).",
   "id": "A217602",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 18:05:15",
     "offset": 1,
     "size": 69,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "Number of partitions of n into 3 parts whose smallest and middle parts divide n.",
   "id": "A348665",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:23",
     "offset": 1,
     "size": 84,
     "source": "oeis-bfile"

@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = smallest k >= 0 such that Fibonacci(k) + Fibonacci(n) is a prime, or -1 if no such k exists.",
+  "id": "A361510",
+  "mentions": [
+    "A000045",
+    "A361509",
+    "A361902"
+  ],
+  "tags": [
+    "formulas",
+    "less",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

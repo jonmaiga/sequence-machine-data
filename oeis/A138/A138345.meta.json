@@ -5,13 +5,11 @@
     "A049541",
     "A138344"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "base",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

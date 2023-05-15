@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 1/sqrt(1 - 4*x/(1+x)^3).",
+  "id": "A360133",
+  "mentions": [
+    "A006139",
+    "A137635",
+    "A361790",
+    "A361791",
+    "A361792"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

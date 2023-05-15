@@ -2,15 +2,13 @@
   "description": "Numbers k such that 2^(2*k+1) + 2^k + 1 is prime.",
   "id": "A105180",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
-    "size": 41,
+    "size": 44,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "Number of minimal vertex cuts in the n X n torus grid graph.",
+  "id": "A362808",
+  "mentions": [],
+  "tags": [
+    "bref",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least totient divisor of A329872(n), where A329872 are nontotients (A005277) that are the product of two totients (A002202).",
+  "id": "A361686",
+  "mentions": [
+    "A002202",
+    "A005277",
+    "A329872",
+    "A361058"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

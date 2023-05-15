@@ -1,0 +1,17 @@
+{
+  "description": "Triangle read by rows: T(n,d) = number of non-adaptive group tests required to identify exactly d defectives among n items.",
+  "id": "A361928",
+  "mentions": [
+    "A054961",
+    "A290492"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 107,
+    "source": "oeis-entry"
+  }
+}

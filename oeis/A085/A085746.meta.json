@@ -2,12 +2,10 @@
   "description": "Numbers n such that n^2 + n + 1 is a semiprime.",
   "id": "A085746",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-11-11 15:41:43",
     "offset": 1,
     "size": 64,
     "source": "joeis"

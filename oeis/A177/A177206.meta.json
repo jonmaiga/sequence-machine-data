@@ -2,14 +2,12 @@
   "description": "a(n) = 2*binomial(n+4, 4) + n + 4.",
   "id": "A177206",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:54:57",
     "offset": 0,
     "size": 38,
     "source": "joeis"

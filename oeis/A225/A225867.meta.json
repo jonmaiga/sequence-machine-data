@@ -2,12 +2,10 @@
   "description": "a(n) = max_{2<=k<=(n-2)/2} sum_{d>1: d|n+k, k|n+d}1.",
   "id": "A225867",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:43",
     "offset": 6,
     "size": 89,
     "source": "oeis-bfile"

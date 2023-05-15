@@ -2,14 +2,12 @@
   "description": "Irregular triangle read by rows: number of rank 2 Catalan paths of length n and area k.",
   "id": "A201162",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "more",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 0,
     "size": 45,
     "source": "oeis-entry"

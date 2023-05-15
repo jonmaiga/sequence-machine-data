@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = largest sqrt(2*n)-smooth divisor of binomial(2*n, n).",
+  "id": "A361077",
+  "mentions": [
+    "A263922",
+    "A263931"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

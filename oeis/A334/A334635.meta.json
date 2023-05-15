@@ -2,12 +2,10 @@
   "description": "Number of different values of x_1*x_2*...*x_n where x_1=1 and x_i-x_{i-1} is 0 or 1.",
   "id": "A334635",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 36,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "E.g.f. exp(sinh(x)^2) (even powers only).",
   "id": "A009236",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:15",
     "offset": 0,
     "size": 17,
     "source": "oeis-bfile"

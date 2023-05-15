@@ -2,13 +2,11 @@
   "description": "Theta series of lattice E6 tensor E6 (dimension 36, det. 531441, min. norm 4).",
   "id": "A033695",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 0,
     "size": 4,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Greatest prime divisor of 6n+15 (sum of six successive integers).",
   "id": "A076569",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 71,
     "source": "oeis-entry"

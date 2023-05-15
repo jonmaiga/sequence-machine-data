@@ -2,13 +2,11 @@
   "description": "a(n) is the least prime > a(n-1) that is a quadratic residue mod a(n-1).",
   "id": "A034795",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:45",
     "offset": 1,
     "size": 55,
     "source": "oeis-bfile"

@@ -2,14 +2,12 @@
   "description": "Numbers X such that there exists Y in N : X^2=129*Y^2+43.",
   "id": "A145331",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:33",
     "offset": 1,
     "size": 9,
     "source": "oeis-bfile"

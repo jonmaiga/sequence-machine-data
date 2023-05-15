@@ -2,7 +2,6 @@
   "description": "Number of isomers of the soccerball C_60H_n Buckminster fullerene.",
   "id": "A133998",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "fini",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:21",
     "offset": 0,
     "size": 21,
     "source": "oeis-bfile"

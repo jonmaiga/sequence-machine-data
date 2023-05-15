@@ -2,12 +2,10 @@
   "description": "Number of nXnXn triangular 0..4 arrays with no element equal to the difference mod 5 of any two of its neighbors",
   "id": "A193875",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

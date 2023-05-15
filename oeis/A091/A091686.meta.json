@@ -1,14 +1,13 @@
 {
-  "description": "0^n+((n-9)/9)(1-10^n).",
+  "description": "a(n) = 0^n + ((n-9)/9)*(1-10^n).",
   "id": "A091686",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
+    "changed",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-02 18:18:26",
     "offset": 0,
     "size": 21,
     "source": "joeis"

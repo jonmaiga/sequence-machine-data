@@ -2,12 +2,10 @@
   "description": "Let q(b-1)=k(b)*q(b)^p(b)-1 for b=n to 1, where q(n)=p(n+1), with p(x) as the x-th prime. If k(b) is the minimum positive integer that makes q(b-1) prime, then a(n)=q(0).",
   "id": "A104536",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

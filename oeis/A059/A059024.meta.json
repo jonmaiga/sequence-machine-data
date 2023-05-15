@@ -8,7 +8,6 @@
     "A059023",
     "A059025"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "formulas",
     "nice",
@@ -16,7 +15,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:09",
     "offset": 5,
     "size": 40,
     "source": "oeis-bfile"

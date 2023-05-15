@@ -2,13 +2,11 @@
   "description": "a(n) is the largest n-digit palindromic integer surrounded by twin primes, if one exists, or 0 otherwise.",
   "id": "A218343",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Numbers n such that 19*n-1, 19*n+1 are twin primes.",
   "id": "A175157",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:58",
     "offset": 1,
     "size": 46,
     "source": "oeis-bfile"

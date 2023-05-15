@@ -2,14 +2,11 @@
   "description": "When expressed in base 3 and then interpreted in base 5, is a multiple of the original number.",
   "id": "A062864",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
-    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:47",
     "offset": 1,
     "size": 37,
     "source": "oeis-entry"

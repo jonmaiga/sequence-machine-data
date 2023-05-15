@@ -2,12 +2,10 @@
   "description": "Partition function coefficients for square lattice spin 3 Ising model.",
   "id": "A056620",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:06",
     "offset": 0,
     "size": 74,
     "source": "oeis-bfile"

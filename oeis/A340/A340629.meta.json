@@ -19,14 +19,12 @@
     "A340628",
     "A340808"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:13",
     "offset": 1,
     "size": 121,
     "source": "oeis-bfile"

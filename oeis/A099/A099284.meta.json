@@ -2,13 +2,11 @@
   "description": "Decimal expansion of the hyperbolic cosine integral at 1.",
   "id": "A099284",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

@@ -11,16 +11,13 @@
     "A086593",
     "A233279"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:23",
     "offset": 0,
     "size": 88,
     "source": "oeis-bfile"

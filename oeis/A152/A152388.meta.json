@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form : (p-n)/(n+1)=prime and (n+1)*p+n=prime. n=127.",
+  "description": "Primes p such that (p-n)/(n+1) and (n+1)*p+n are both prime, with n=127.",
   "id": "A152388",
   "mentions": [
     "A152292",
@@ -7,12 +7,11 @@
     "A152294",
     "A152295"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 26,
     "source": "oeis-entry"

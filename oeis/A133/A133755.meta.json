@@ -2,13 +2,11 @@
   "description": "Number of positive integers less than n/3 that are coprime to n.",
   "id": "A133755",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:21",
     "offset": 1,
     "size": 88,
     "source": "oeis-bfile"

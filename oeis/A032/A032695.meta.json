@@ -2,13 +2,11 @@
   "description": "Exactly 5 digits from {1,2,3,4,5,6,7,8,9} can precede a(n) to form a prime.",
   "id": "A032695",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-11-11 15:41:39",
     "offset": 1,
     "size": 45,
     "source": "joeis"

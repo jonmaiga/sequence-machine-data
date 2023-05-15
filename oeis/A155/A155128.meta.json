@@ -2,7 +2,6 @@
   "description": "Primes P(n) such that 2*P(n) - P(n+1) has all factors less than P(n+1) - P(n). This means that no prime less than P(n) can divide P(n) to give a remainder added to P(n) to give P(n+1).",
   "id": "A155128",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 44,
     "source": "oeis-entry"

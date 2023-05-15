@@ -2,12 +2,10 @@
   "description": "Numbers m == 1 (mod 4) such that the Gauss factorial ((m-1)/4, m)! == 1 (mod m).",
   "id": "A232986",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 41,
     "source": "oeis-entry"

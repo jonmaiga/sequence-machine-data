@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of nXk binary arrays with the number of 0-1 adjacencies equal to the number of 0-0 adjacencies",
   "id": "A183262",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:06",
     "offset": 1,
     "size": 51,
     "source": "oeis-bfile"

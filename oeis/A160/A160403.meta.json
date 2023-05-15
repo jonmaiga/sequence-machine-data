@@ -2,13 +2,11 @@
   "description": "Primes starting and ending respectively with 23 and 57, and with either no space or only 0's in between.",
   "id": "A160403",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

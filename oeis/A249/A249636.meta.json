@@ -2,12 +2,10 @@
   "description": "G.f.: Sum_{n>=0} x^n / Product_{k=n..2*n-1} (1 - k*x).",
   "id": "A249636",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:06",
     "offset": 0,
     "size": 24,
     "source": "oeis-bfile"

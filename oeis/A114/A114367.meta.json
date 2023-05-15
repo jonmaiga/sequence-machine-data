@@ -2,13 +2,11 @@
   "description": "Smallest prime in kx^3+x+3 is prime.",
   "id": "A114367",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 52,
     "source": "oeis-entry"

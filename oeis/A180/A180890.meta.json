@@ -2,12 +2,10 @@
   "description": "Number of permutations of 2..n+1 with no element greater than or equal to the sum of its neighbors",
   "id": "A180890",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 17,
     "source": "oeis-entry"

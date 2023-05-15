@@ -7,7 +7,6 @@
     "A048691",
     "A092520"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "easy",
     "formulas",
@@ -15,9 +14,8 @@
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 83,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

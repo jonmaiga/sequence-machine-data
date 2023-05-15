@@ -2,13 +2,11 @@
   "description": "Number of partitions of n into squares where every part appears at least 2 times.",
   "id": "A161090",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-11-11 15:41:47",
     "offset": 1,
     "size": 79,
     "source": "joeis"

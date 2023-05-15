@@ -2,12 +2,10 @@
   "description": "a(n) = Sum(b(2*n, k)^2*(b(2*n, k + 1) - b(2*n, k - 1)), k = 0 .. n)/(n*b(2*n, n)), where b denotes a binomial coefficient.",
   "id": "A259335",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

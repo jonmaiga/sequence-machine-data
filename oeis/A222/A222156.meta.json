@@ -1,16 +1,14 @@
 {
-  "description": "Number of nX4 arrays with each row a permutation of 1..4 having at least as many downsteps as the preceding row, with rows in lexicographically nondecreasing order",
+  "description": "Number of n X 4 arrays with each row a permutation of 1..4 having at least as many downsteps as the preceding row, with rows in lexicographically nondecreasing order.",
   "id": "A222156",
   "mentions": [
     "A222159"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:40",
     "offset": 1,
     "size": 22,
     "source": "oeis-bfile"

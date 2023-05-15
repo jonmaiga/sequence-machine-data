@@ -2,12 +2,10 @@
   "description": "Number of permutations in S_n avoiding 5{bar 1}{bar 2}43 (i.e., every occurrence of 543 is contained in an occurrence of a 51243).",
   "id": "A137549",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 24,
     "source": "oeis-entry"

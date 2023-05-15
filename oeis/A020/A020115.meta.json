@@ -2,12 +2,10 @@
   "description": "Ceiling of GAMMA(n+7/8)/GAMMA(7/8).",
   "id": "A020115",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 09:32:55",
     "offset": 0,
     "size": 21,
     "source": "joeis"

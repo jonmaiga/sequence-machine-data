@@ -2,14 +2,12 @@
   "description": "Let b(m,k) be the k-th binary digit (starting at k=1, reading right to left) in the base-2 representation of m. (So: n = Sum_{k>=0} b(k+1)*2^k.) A positive integer m is included in this sequence if and only if m = Product_{k>=1} k^b(m,k).",
   "id": "A161324",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 5,
     "source": "oeis-entry"

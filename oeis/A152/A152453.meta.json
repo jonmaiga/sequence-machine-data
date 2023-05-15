@@ -1,5 +1,5 @@
 {
-  "description": "Where records in occur in A152235.",
+  "description": "Where records occur in A152235.",
   "id": "A152453",
   "mentions": [
     "A007947",
@@ -7,12 +7,10 @@
     "A152235",
     "A152452"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:35",
     "offset": 1,
     "size": 27,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "a(1) = 1; a(2) = 2; a(n) == a(k) (mod n-k) for all 1 < k < n.",
   "id": "A002987",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:04",
     "offset": 1,
     "size": 30,
     "source": "oeis-bfile"

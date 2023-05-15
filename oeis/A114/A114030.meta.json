@@ -1,19 +1,17 @@
 {
-  "description": "n-th partial concatenation of A114729 divided by Fibonacci(n).",
+  "description": "n-th partial concatenation of A114029 divided by Fibonacci(n).",
   "id": "A114030",
   "mentions": [
-    "A114029",
-    "A114729"
+    "A114029"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
+    "changed",
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

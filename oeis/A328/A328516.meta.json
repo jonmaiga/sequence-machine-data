@@ -5,14 +5,12 @@
     "A039993",
     "A179239"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 0,
     "size": 96,
     "source": "oeis-entry"

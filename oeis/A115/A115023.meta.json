@@ -2,13 +2,11 @@
   "description": "Numerator of the sum s(n) of the reciprocals of the Bernoulli numbers B(2k), k=0..n.",
   "id": "A115023",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "frac",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:05",
     "offset": 1,
     "size": 14,
     "source": "oeis-bfile"

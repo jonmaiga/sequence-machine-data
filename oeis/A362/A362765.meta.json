@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonisomorphic 3-sets of permutations of an n-set.",
+  "id": "A362765",
+  "mentions": [
+    "A362646",
+    "A362763",
+    "A362764"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

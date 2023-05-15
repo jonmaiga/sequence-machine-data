@@ -2,13 +2,11 @@
   "description": "Row n contains the numbers obtained from the rooted tree with Matula number n in the following manner: partition the edges of the tree into subsets so that in each subset each edge has the same pair of endpoint degrees; row n contains the sizes of these subsets, listed in an arbitrary order.",
   "id": "A238421",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 2,
     "size": 47,
     "source": "oeis-entry"

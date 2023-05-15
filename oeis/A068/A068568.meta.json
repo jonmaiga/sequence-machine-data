@@ -2,13 +2,11 @@
   "description": "Let S = a subset of {n,n+1,n+2,..,n+m}, number of parts of S is more than 1. a(n) = smallest number m such that the product of parts of S is a square.",
   "id": "A068568",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 0,
     "size": 78,
     "source": "oeis-entry"

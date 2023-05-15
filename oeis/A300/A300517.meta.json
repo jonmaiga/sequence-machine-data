@@ -1,17 +1,17 @@
 {
-  "description": "a(n) is the concatenation n n times, n-1 n-1 times , ... , 22, 1.",
+  "description": "a(n) is the concatenation of n n times, n-1 n-1 times, ..., 22, 1.",
   "id": "A300517",
   "mentions": [
     "A000461",
-    "A098129"
+    "A098129",
+    "A361751"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "base",
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:25",
     "offset": 1,
     "size": 10,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Numbers n such that n is a substring of its square in base 5 (written in base 10).",
   "id": "A018829",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 18:21:15",
     "offset": 1,
     "size": 37,
     "source": "joeis"

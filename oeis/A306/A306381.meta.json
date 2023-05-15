@@ -2,13 +2,11 @@
   "description": "a(n) is the number of semimagic 4 X 3 matrices whose entries are nonnegative integers, with row sum = 3*n and column sum = 4*n.",
   "id": "A306381",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:27:29",
     "offset": 0,
     "size": 26,
     "source": "joeis"

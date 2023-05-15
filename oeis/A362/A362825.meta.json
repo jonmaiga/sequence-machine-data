@@ -1,0 +1,18 @@
+{
+  "description": "Number of ordered triples of involutions on [n] that pairwise commute.",
+  "id": "A362825",
+  "mentions": [
+    "A362819",
+    "A362824"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

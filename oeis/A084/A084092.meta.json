@@ -7,14 +7,11 @@
     "A002385",
     "A084093"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
-    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:35",
     "offset": 1,
     "size": 46,
     "source": "oeis-bfile"

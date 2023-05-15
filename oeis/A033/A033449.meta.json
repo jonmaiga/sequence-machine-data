@@ -2,13 +2,11 @@
   "description": "Lists of 4 primes in arithmetic progression; common difference 6.",
   "id": "A033449",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2022-04-28 15:06:11",
     "offset": 1,
     "size": 39,
     "source": "joeis"

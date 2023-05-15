@@ -5,7 +5,6 @@
     "A003174",
     "A048981"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "fini",
     "full",
@@ -13,7 +12,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 26,
     "source": "oeis-entry"

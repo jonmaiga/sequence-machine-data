@@ -2,12 +2,10 @@
   "description": "Number of orbits of norm 2n vectors in E_8 lattice.",
   "id": "A008350",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:14",
     "offset": 0,
     "size": 88,
     "source": "oeis-bfile"

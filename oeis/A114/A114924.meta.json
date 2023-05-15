@@ -2,14 +2,12 @@
   "description": "Primes p such that pi(p) is obtained by dropping one of the digits of p in decimal expansion.",
   "id": "A114924",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 32,
     "source": "oeis-entry"

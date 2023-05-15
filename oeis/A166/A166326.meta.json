@@ -1,5 +1,5 @@
 {
-  "description": "Prime(n)^(prime(n)+1) - (prime(n)+1)^prime(n).",
+  "description": "a(n) = prime(n)^(prime(n)+1) - (prime(n)+1)^prime(n).",
   "id": "A166326",
   "mentions": [
     "A000040",
@@ -8,13 +8,12 @@
     "A104127",
     "A140893"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
+    "changed",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

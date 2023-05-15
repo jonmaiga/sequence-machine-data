@@ -2,13 +2,11 @@
   "description": "Triangular array: T(n,1)=T(n,n)=n, for 1",
   "id": "A079661",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 33,
     "source": "oeis-entry"

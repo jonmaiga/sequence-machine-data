@@ -2,12 +2,10 @@
   "description": "Numbers in the smallest subset of N containing 3 and closed under the mappings k->2k + 1, k->8k + 3, and k->16k + 3.",
   "id": "A353578",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:28",
     "offset": 1,
     "size": 64,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Least k such that there are n primes among the numbers 2*n*x + 1 for 1 <= x <= k.",
   "id": "A073106",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:25",
     "offset": 1,
     "size": 60,
     "source": "oeis-bfile"

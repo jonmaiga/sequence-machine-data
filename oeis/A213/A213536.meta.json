@@ -1,16 +1,15 @@
 {
-  "description": "Cousin prime recurrence sequence: a(1)=14, and for n>1, a(n) = a(n-1) + gcd(n+5, a(n-1)), if n is even, else a(n) = a(n-1) + gcd(n+1, a(n-1)).",
+  "description": "Cousin prime recurrence sequence: a(1) = 14, and for n > 1, a(n) = a(n-1) + gcd(n+5, a(n-1)), if n is even, otherwise a(n) = a(n-1) + gcd(n+1, a(n-1)).",
   "id": "A213536",
   "mentions": [
     "A023200",
     "A213537"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:31",
     "offset": 1,
     "size": 58,
     "source": "oeis-bfile"

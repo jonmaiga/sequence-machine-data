@@ -1,14 +1,12 @@
 {
-  "description": "1/12 the number of n X n arrays of squares of integers with every 2X2 subblock summing to 29",
+  "description": "1/12 the number of n X n arrays of squares of integers with every 2 X 2 subblock summing to 29.",
   "id": "A159228",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 2,
     "size": 18,
     "source": "oeis-entry"

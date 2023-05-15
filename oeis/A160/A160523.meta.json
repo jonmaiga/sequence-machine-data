@@ -2,12 +2,10 @@
   "description": "a(n) is the determinant of the matrix returned by the MATLAB command magic(n).",
   "id": "A160523",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:42",
     "offset": 1,
     "size": 20,
     "source": "oeis-bfile"

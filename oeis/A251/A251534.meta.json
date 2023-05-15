@@ -2,13 +2,11 @@
   "description": "Domination number of the n-triangular honeycomb obtuse knight graph.",
   "id": "A251534",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 26,
     "source": "oeis-entry"

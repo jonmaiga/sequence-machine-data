@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the least k such that tau(k) divides sigma_n(k) but not sigma(k), or -1 if no such k exists.",
+  "id": "A361683",
+  "mentions": [
+    "A000005",
+    "A000203",
+    "A001157",
+    "A001158",
+    "A003601",
+    "A010709",
+    "A020486",
+    "A020639",
+    "A046839",
+    "A046840"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Write the English name of a(n); concatenate the ranks of its letters in the alphabet; divide the concatenation by a(n); the result is an integer.",
+  "id": "A362092",
+  "mentions": [
+    "A362065"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

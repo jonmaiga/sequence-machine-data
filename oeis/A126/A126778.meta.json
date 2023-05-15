@@ -2,13 +2,11 @@
   "description": "Number of functions f:{1,2,...,n}->{1,2,...,n} such that Im(f) contain two fixed elements.",
   "id": "A126778",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 2,
     "size": 18,
     "source": "oeis-entry"

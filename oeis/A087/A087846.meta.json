@@ -1,16 +1,13 @@
 {
-  "description": "a(n) = a(a(a(Abs(n - a(n-1))))) + a(Abs(n - a(n-4))).",
+  "description": "a(n) = a(a(a(abs(n - a(n-1))))) + a(abs(n - a(n-4))).",
   "id": "A087846",
   "mentions": [
-    "A005185",
     "A081831"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 81,
     "source": "oeis-entry"

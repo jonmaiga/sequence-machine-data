@@ -2,13 +2,11 @@
   "description": "Number of n X 3 arrays with every diagonal and antidiagonal of length L containing a permutation of 1..L.",
   "id": "A179808",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:02",
     "offset": 3,
     "size": 33,
     "source": "oeis-bfile"

@@ -9,15 +9,14 @@
     "A270917",
     "A270919",
     "A324595",
-    "A327280"
+    "A327280",
+    "A362408"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:34",
     "offset": 0,
     "size": 26,
     "source": "oeis-bfile"

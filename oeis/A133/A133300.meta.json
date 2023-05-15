@@ -2,14 +2,12 @@
   "description": "Square array read along upward antidiagonals. S(n,m) is the number of domino tilings of an n-row and m-column checkerboard with a black upper-left square, where any vertical dominoes are allowed and horizontal dominoes must be placed so that the black square is on the left.",
   "id": "A133300",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:21",
     "offset": 1,
     "size": 105,
     "source": "oeis-bfile"

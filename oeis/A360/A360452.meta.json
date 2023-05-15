@@ -1,0 +1,18 @@
+{
+  "description": "Number of fractions c/d with |c| <= d <= 2n and odd denominator when factors of 2 are canceled.",
+  "id": "A360452",
+  "mentions": [
+    "A049691",
+    "A099957"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

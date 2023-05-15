@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of almost almost unitary polyominoes of size n. An almost almost unitary polyomino is one in which all but 2 of its perimeter walls have length 1.",
+  "id": "A362709",
+  "mentions": [
+    "A245660",
+    "A362708"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

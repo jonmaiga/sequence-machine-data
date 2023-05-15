@@ -2,13 +2,11 @@
   "description": "Number of n-permutations which fix at least one odd prefix.",
   "id": "A236921",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:54",
     "offset": 0,
     "size": 25,
     "source": "oeis-bfile"

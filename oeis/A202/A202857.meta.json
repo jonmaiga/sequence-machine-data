@@ -2,13 +2,11 @@
   "description": "Value of the 1d radius 2 totalistic 2 color cellular automaton rule 20 after 1 step, with initial condition n.",
   "id": "A202857",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 68,
     "source": "oeis-entry"

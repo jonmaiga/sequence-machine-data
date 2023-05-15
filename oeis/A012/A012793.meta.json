@@ -2,12 +2,10 @@
   "description": "sec(sec(x)*arcsin(x))=1+1/2!*x^2+21/4!*x^4+885/6!*x^6+67753/8!*x^8...",
   "id": "A012793",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 00:24:41",
     "offset": 0,
     "size": 14,
     "source": "joeis"

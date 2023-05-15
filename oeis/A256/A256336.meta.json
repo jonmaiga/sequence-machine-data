@@ -2,13 +2,11 @@
   "description": "Number of Largest Chain Ladder Family (LCLF) matchings on n edges.",
   "id": "A256336",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 23,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Number of partitioned trees decorated by {1,2} with n nodes.",
   "id": "A226269",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

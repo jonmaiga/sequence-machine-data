@@ -2,12 +2,10 @@
   "description": "Primes prime(k) such that prime(k)*prime(k+1)-4 is a prime.",
   "id": "A092728",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:44",
     "offset": 1,
     "size": 50,
     "source": "oeis-bfile"

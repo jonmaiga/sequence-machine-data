@@ -2,13 +2,11 @@
   "description": "Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite MER = Merlinoite K5Ca2[ Al9Si23O64 ] . 24 H2O.",
   "id": "A019042",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 2,
     "size": 15,
     "source": "oeis-entry"

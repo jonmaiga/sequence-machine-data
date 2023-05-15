@@ -1,0 +1,18 @@
+{
+  "description": "Total over all partitions lambda of n, of factors of s_lambda in the skew Schur function s_( nu/lambda ) with (s_lambda)^2 = Sum( C(nu, lambda, lambda) s_nu ).",
+  "id": "A361286",
+  "mentions": [
+    "A067855",
+    "A322210"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

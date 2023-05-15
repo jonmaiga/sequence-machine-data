@@ -2,12 +2,10 @@
   "description": "sin(arctanh(x)*arctan(x))=2/2!*x^2+88/6!*x^6+112032/10!*x^10...",
   "id": "A012728",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-02 17:31:54",
     "offset": 0,
     "size": 8,
     "source": "joeis"

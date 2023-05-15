@@ -2,14 +2,12 @@
   "description": "Positive numbers that have at least one two-letter substring repeated when spelled out in English.",
   "id": "A158246",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 54,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Squares of the form 3S + 4, where S is a semiprime.",
   "id": "A112630",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 33,
     "source": "oeis-entry"

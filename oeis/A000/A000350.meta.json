@@ -8,16 +8,13 @@
     "A050816",
     "A052000"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
-    "changed",
     "easy",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:02",
     "offset": 1,
     "size": 51,
     "source": "oeis-bfile"

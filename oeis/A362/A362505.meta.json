@@ -1,0 +1,20 @@
+{
+  "description": "Nonnegative numbers of the form x*y where x and y have the same set of decimal digits.",
+  "id": "A362505",
+  "mentions": [
+    "A000290",
+    "A002275",
+    "A086066",
+    "A330898",
+    "A362506"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

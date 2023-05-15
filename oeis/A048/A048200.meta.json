@@ -2,7 +2,6 @@
   "description": "Minimal length pair-exchange / set-rotate sequence to reverse n distinct ordered elements.",
   "id": "A048200",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "formulas",
     "more",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

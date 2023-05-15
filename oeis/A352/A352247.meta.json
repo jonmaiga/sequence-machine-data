@@ -2,14 +2,12 @@
   "description": "Number of minimum edge cuts in the n-Fibonacci cube graph.",
   "id": "A352247",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

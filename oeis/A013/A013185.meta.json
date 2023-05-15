@@ -2,12 +2,10 @@
   "description": "E.g.f.: log(cosh(x)+log(x+1)).",
   "id": "A013185",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 03:55:09",
     "offset": 0,
     "size": 19,
     "source": "joeis"

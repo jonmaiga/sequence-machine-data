@@ -10,14 +10,12 @@
     "A063470",
     "A112954"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "fini",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 5,
     "source": "oeis-entry"

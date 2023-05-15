@@ -2,13 +2,11 @@
   "description": "Number of permutations of 1..n with no adjacent pair summing to n+4.",
   "id": "A173844",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-09-08 06:56:23",
     "offset": 0,
     "size": 23,
     "source": "joeis"

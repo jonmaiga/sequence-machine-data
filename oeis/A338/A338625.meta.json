@@ -2,12 +2,10 @@
   "description": "a(1) = 1; for n > 1, ceiling(a(n-1)/2)+3 if a(n-1) and n are coprime, otherwise a(n) = GCD(a(n-1),n)*2+1.",
   "id": "A338625",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 78,
     "source": "oeis-entry"

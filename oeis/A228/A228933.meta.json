@@ -2,19 +2,19 @@
   "description": "Optimal ascending continued fraction expansion of phi-1=1/phi=(sqrt(5)-1)/2 .",
   "id": "A228933",
   "mentions": [
+    "A001622",
+    "A081459",
     "A094214",
     "A228929",
     "A228931",
     "A228932"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "cofr",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

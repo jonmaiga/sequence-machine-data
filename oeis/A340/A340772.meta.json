@@ -2,13 +2,11 @@
   "description": "Number of strictly increasing sequences of n integers 0 < u_1 < ... < u_n such that 1/u_1 + 1/(u_1 + u_2) + ... + 1/(u_1 + ... + u_n) = n/(n+1).",
   "id": "A340772",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

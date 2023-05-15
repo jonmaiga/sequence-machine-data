@@ -2,14 +2,12 @@
   "description": "Number of cyclic neofields of order n.",
   "id": "A006609",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "hard",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 4,
     "size": 18,
     "source": "oeis-entry"

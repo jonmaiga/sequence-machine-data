@@ -2,7 +2,6 @@
   "description": "Irregular table related to f[(a*x+b)/(c*x+d)]=c*x+d)^(2*n)*f[x], and f[x]=1/(x+1), f[x]=(a*x+b)/(c*x+d).",
   "id": "A321044",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 0,
     "size": 67,
     "source": "oeis-entry"

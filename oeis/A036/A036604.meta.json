@@ -3,9 +3,9 @@
   "id": "A036604",
   "mentions": [
     "A001768",
-    "A003070"
+    "A003070",
+    "A360495"
   ],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "hard",
     "more",
@@ -13,7 +13,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 1,
     "size": 15,
     "source": "oeis-entry"

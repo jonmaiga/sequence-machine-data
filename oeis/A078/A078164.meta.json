@@ -17,13 +17,10 @@
     "A078169",
     "A078170"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:29",
     "offset": 1,
     "size": 47,
     "source": "oeis-bfile"

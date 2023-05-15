@@ -2,12 +2,10 @@
   "description": "a(n) = floor(sqrt(2*Pi*n)).",
   "id": "A104135",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:54",
     "offset": 1,
     "size": 74,
     "source": "oeis-bfile"

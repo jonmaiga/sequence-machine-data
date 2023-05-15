@@ -1,0 +1,17 @@
+{
+  "description": "Number of labeled digraphs on [n] all of whose strongly connected components are complete digraphs.",
+  "id": "A361560",
+  "mentions": [
+    "A003024",
+    "A011266",
+    "A361527"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

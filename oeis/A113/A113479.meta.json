@@ -2,14 +2,12 @@
   "description": "Starting with the fraction 4/1 as the first term, a(n) is the numerator of the reduced fraction of the n-th term according to the rule: if n is even, multiply the previous term by n/(n+1); otherwise multiply the previous term by (n+1)/n.",
   "id": "A113479",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:04",
     "offset": 1,
     "size": 24,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Numbers n such that phi(reverse(n)) = phi(reverse(n-1)) + phi(reverse(n-2)).",
   "id": "A069969",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 37,
     "source": "oeis-entry"

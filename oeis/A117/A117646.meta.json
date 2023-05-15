@@ -2,14 +2,12 @@
   "description": "Sets of three consecutive primes with equal gaps: prime(n) + 2*m = prime(n+1) and prime(n+1) + 2*m = prime(n+2) for some m.",
   "id": "A117646",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:07",
     "offset": 1,
     "size": 52,
     "source": "oeis-bfile"

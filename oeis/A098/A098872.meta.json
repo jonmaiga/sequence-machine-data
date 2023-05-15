@@ -2,12 +2,10 @@
   "description": "Least k such that 2*((6*n)^k) + 1 is prime.",
   "id": "A098872",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-07 10:38:22",
     "offset": 1,
     "size": 101,
     "source": "joeis"

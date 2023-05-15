@@ -2,14 +2,12 @@
   "description": "Binomial coefficients of the form C(n, 4) that is a concatenation of binomial coefficients of the form C(n, 4).",
   "id": "A196569",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "base",
     "bref",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 5,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Number of benzenoid graphs with n hexagonal faces and forcing number 0.",
   "id": "A256981",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 3,
     "size": 13,
     "source": "oeis-entry"

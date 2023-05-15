@@ -2,14 +2,12 @@
   "description": "Numbers whose base-9 representation is 555555555......5.",
   "id": "A125962",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 22:32:51",
     "offset": 0,
     "size": 21,
     "source": "joeis"

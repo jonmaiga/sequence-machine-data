@@ -2,14 +2,12 @@
   "description": "First occurrence of prime(x)-Pi(x) such that (Prime(x+1) - Pi(x+1)) - (Prime(x) - Pi(x)) = k, k = 1,2,3,..",
   "id": "A111183",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 44,
     "source": "oeis-entry"

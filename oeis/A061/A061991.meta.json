@@ -5,16 +5,14 @@
     "A061989",
     "A061990"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 15:14:29",
     "offset": 0,
-    "size": 33,
+    "size": 36,
     "source": "joeis"
   }
 }

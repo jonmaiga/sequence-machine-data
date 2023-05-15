@@ -2,7 +2,6 @@
   "description": "a(1) = 0; a(n) is the sum of powers of 2 where the exponents are the digits of a(n-1).",
   "id": "A306979",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:33:21",
     "offset": 1,
     "size": 65,
     "source": "joeis"

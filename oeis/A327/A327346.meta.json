@@ -13,7 +13,6 @@
     "A327914",
     "A327915"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "easy",
     "fini",
@@ -21,7 +20,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 74,
     "source": "oeis-entry"

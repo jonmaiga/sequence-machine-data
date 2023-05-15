@@ -2,14 +2,12 @@
   "description": "Add square root of sum of terms.",
   "id": "A275580",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:41",
     "offset": 0,
     "size": 47,
     "source": "oeis-bfile"

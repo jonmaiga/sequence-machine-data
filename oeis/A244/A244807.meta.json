@@ -22,7 +22,6 @@
     "A244817",
     "A244818"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "base",
     "easy",
@@ -30,7 +29,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

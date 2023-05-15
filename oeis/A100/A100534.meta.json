@@ -2,15 +2,14 @@
   "description": "Number of partitions of 2*n into parts of two kinds.",
   "id": "A100534",
   "mentions": [
-    "A000712"
+    "A000712",
+    "A100535"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 08:59:30",
     "offset": 0,
     "size": 30,
     "source": "joeis"

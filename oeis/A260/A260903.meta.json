@@ -2,7 +2,6 @@
   "description": "Numbers n such that (2^(2n+7) * 5^(2n+5) + 740711) / 33 is prime (n > 0).",
   "id": "A260903",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "base",
     "hard",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

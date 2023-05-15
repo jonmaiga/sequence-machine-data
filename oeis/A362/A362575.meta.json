@@ -1,0 +1,18 @@
+{
+  "description": "Number of vertex cuts in the n X n rook graph.",
+  "id": "A362575",
+  "mentions": [
+    "A286189",
+    "A362576"
+  ],
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

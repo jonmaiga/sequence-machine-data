@@ -2,14 +2,12 @@
   "description": "Degrees of irreducible representations of Harada-Norton group HN.",
   "id": "A003915",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:05",
     "offset": 1,
     "size": 29,
     "source": "oeis-bfile"

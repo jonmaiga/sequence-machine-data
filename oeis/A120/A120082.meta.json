@@ -13,14 +13,13 @@
     "A227830",
     "A358625"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
+    "changed",
     "formulas",
     "frac",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:09",
     "offset": 0,
     "size": 41,
     "source": "oeis-bfile"

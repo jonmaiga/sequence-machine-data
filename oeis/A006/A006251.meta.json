@@ -2,7 +2,6 @@
   "description": "Number of n-element posets which are unions of 2 chains.",
   "id": "A006251",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:10",
     "offset": 0,
     "size": 32,
     "source": "oeis-bfile"

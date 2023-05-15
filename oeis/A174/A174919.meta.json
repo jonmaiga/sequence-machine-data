@@ -2,7 +2,6 @@
   "description": "A symmetrical triangle sequence:q=3;c(n,q)=Product[(1 - q^i), {i, 1, n}]:t(n,m)=1 + Binomial[n, m]^2 + (c(n, q)/(c(m, q)*c(n - m, q)))^2 - 2*Binomial[n, m]*c(n, q)/(c(m, q)*c(n - m, q))",
   "id": "A174919",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 38,
     "source": "oeis-entry"

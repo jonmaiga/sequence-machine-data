@@ -2,13 +2,11 @@
   "description": "Number of generalized Hantzsche-Wendt manifolds in dimension n.",
   "id": "A124153",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 2,
     "size": 5,
     "source": "oeis-entry"

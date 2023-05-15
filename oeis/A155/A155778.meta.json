@@ -2,13 +2,11 @@
   "description": "Primes p such that 2^p + p + 6 is also prime.",
   "id": "A155778",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

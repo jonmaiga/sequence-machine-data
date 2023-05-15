@@ -2,12 +2,10 @@
   "description": "Number of snarks of order 2n with a maximum of 5 components in any 2-factor.",
   "id": "A218887",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"

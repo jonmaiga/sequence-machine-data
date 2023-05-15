@@ -1,0 +1,19 @@
+{
+  "description": "Array of numbers read by upward antidiagonals: leading row lists phi(i), i >= 1 (cf. A000010); the following rows give absolute values of differences of previous row.",
+  "id": "A362913",
+  "mentions": [
+    "A000010",
+    "A057000",
+    "A362451"
+  ],
+  "tags": [
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 95,
+    "source": "oeis-bfile"
+  }
+}

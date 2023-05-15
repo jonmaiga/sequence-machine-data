@@ -13,7 +13,6 @@
     "A064834",
     "A248378"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "base",
     "easy",
@@ -21,9 +20,8 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 0,
     "size": 56,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

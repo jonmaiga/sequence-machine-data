@@ -6,14 +6,12 @@
     "A026001",
     "A192205"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "sign",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:44",
     "offset": 0,
     "size": 92,
     "source": "oeis-bfile"

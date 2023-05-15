@@ -1,17 +1,19 @@
 {
   "description": "a(n) = (8*n+6)^5.",
   "id": "A017141",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:17",
+  "mentions": [
+    "A013663",
+    "A016841",
+    "A017137"
+  ],
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:24",
     "offset": 0,
-    "size": 17,
+    "size": 23,
     "source": "oeis-bfile"
   }
 }

@@ -1,16 +1,14 @@
 {
-  "description": "The number of palindromic numbers which are the product of a number and its reversal with 2n-1 digits",
+  "description": "The number of palindromic numbers which are the product of a number and its reversal with 2n-1 digits.",
   "id": "A165739",
   "mentions": [
     "A158642"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 14,
     "source": "oeis-entry"

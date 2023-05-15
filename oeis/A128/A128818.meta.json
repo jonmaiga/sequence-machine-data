@@ -2,12 +2,10 @@
   "description": "Examples of integer-encoded mathematical structures in Max Tegmark's \"The Mathematical Universe\".",
   "id": "A128818",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

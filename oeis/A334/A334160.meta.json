@@ -2,13 +2,11 @@
   "description": "Even numbers with a Goldbach partition (p,q), p < q, such that p and q can be written as the sum of two primes.",
   "id": "A334160",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 57,
     "source": "oeis-entry"

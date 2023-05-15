@@ -2,14 +2,12 @@
   "description": "Decimal expansion of an \"almost Pi\" BBP type solution in base 24: the sum of (21/(6 n + 1) + 15/(12 n + 1) - 9/(12 n + 5) + 30/(12 n + 7) - 1/(4 n + 1))/(12 * 24^n) over all n >= 0.",
   "id": "A152042",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "cons",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 86,
     "source": "oeis-entry"

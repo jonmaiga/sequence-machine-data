@@ -2,14 +2,11 @@
   "description": "a(n) = least prime p such that both p-+6*n are prime.",
   "id": "A160129",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:42",
     "offset": 1,
     "size": 55,
     "source": "oeis-bfile"

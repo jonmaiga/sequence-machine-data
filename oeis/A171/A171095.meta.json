@@ -2,13 +2,11 @@
   "description": "Triangle read by rows: row n contains sequence S_n = [s(1), ..., s(n)] where s(1) is the least semiprime pq such that the recurrence s(i+1) = sum of two prime factors of s(i) generates a chain of exactly n semiprimes.",
   "id": "A171095",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 60,
     "source": "oeis-entry"

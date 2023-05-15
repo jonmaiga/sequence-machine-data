@@ -2,7 +2,6 @@
   "description": "Triangle: t(n,m)=Mod[PartitionsP[Prime[n + 1]*m + Floor[Prime[n + 1]/2] + m], Prime[n + 1]].",
   "id": "A141659",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "less",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

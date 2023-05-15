@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: exp(x^3/(1+x)).",
+  "description": "Expansion of e.g.f. exp(x^3/(1+x)).",
   "id": "A293121",
   "mentions": [
     "A111884",
@@ -7,13 +7,11 @@
     "A293120",
     "A293133"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:09",
     "offset": 0,
     "size": 23,
     "source": "oeis-bfile"

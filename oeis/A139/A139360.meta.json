@@ -2,7 +2,6 @@
   "description": "Coefficients of Chebyshev T(x,n) constructed polynomials that are based on a Cumrun Vafa type of Calabi-Yau crystal (binomials of this type would behave much like Chladni standing waves): p(x,n,m)=T(x,n)*T(x,m)+T(x,n)+T(x,m): binomials are: p(x,y,n,m)=T(x,n)*T(y,m)+T(x,n)+T(y,m). Integrate(p(x,n,m)/sqrt[1-x^2),{x,-1,1}]=0 if n,m>0 and n does not equal m: for n=m the result is Pi/2: they are orthogonal polynomials.",
   "id": "A139360",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 96,
     "source": "oeis-entry"

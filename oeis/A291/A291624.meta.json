@@ -14,13 +14,11 @@
     "A291455",
     "A291635"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "look",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:06",
     "offset": 1,
     "size": 100,
     "source": "oeis-bfile"

@@ -2,14 +2,12 @@
   "description": "Decimal expansion of the least real z > 1 that satisfies: 1/2 = Sum_{n>=1} {z^n} / 2^n, where {x} denotes the fractional part of x.",
   "id": "A265222",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 217,
     "source": "oeis-entry"

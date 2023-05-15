@@ -2,12 +2,10 @@
   "description": "Let CompositePi(n) = number of composite numbers <= n and PrimePi(n) = number of primes <= n, so that CompositePi(n) + PrimePi(n) = n. Then a(n) = floor(n*(n - PrimePi(n))/(n-1-PrimePi(n-1) + n - 2 - PrimePi(n-2))).",
   "id": "A088752",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 3,
     "size": 75,
     "source": "oeis-entry"

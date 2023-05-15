@@ -2,13 +2,11 @@
   "description": "Solutions x for x^2-1 = kp where p is prime and k=1,2...",
   "id": "A089169",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 75,
     "source": "oeis-entry"

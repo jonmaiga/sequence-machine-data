@@ -2,13 +2,11 @@
   "description": "Triangle T(n,k) (0 <= k <= n) with e.g.f. exp(x*y/(1-y))",
   "id": "A059286",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2022-10-18 14:56:43",
     "offset": 0,
     "size": 70,
     "source": "joeis"

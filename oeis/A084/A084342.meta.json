@@ -2,13 +2,11 @@
   "description": "Digit reversal of n concatenated with n mod n.",
   "id": "A084342",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:36",
     "offset": 1,
     "size": 100,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "a(n) is where the chosen card needs to be placed in a deck of 2n cards when performing \"Persistimis Possessiamo\" trick.",
   "id": "A350652",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 71,
     "source": "oeis-entry"

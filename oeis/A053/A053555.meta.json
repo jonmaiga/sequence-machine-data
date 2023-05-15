@@ -2,7 +2,6 @@
   "description": "Number of distinct parameter sets (v,k,lambda) for Abelian difference sets of order n = k-lambda with 1 <= lambda <= n-1.",
   "id": "A053555",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "hard",
     "more",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 2,
     "size": 15,
     "source": "oeis-entry"

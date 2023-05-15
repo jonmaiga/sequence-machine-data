@@ -2,13 +2,11 @@
   "description": "exp(arcsinh(x)*sin(x))=1+2/2!*x^2+4/4!*x^4-40/6!*x^6-688/8!*x^8...",
   "id": "A012596",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 10:57:09",
     "offset": 0,
     "size": 14,
     "source": "joeis"

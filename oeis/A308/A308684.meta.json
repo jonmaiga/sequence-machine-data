@@ -7,14 +7,12 @@
     "A209816",
     "A324254"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "formulas",
     "sign",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 56,
     "source": "oeis-entry"

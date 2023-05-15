@@ -16,14 +16,12 @@
     "A181131",
     "A190339"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "frac",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:17",
     "offset": 0,
     "size": 30,
     "source": "oeis-bfile"

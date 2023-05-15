@@ -2,13 +2,11 @@
   "description": "Triangle read by rows: T(n, k) = (k-1)*n - binomial(n, 2) + floor((n-k)/2) + 1, transposed.",
   "id": "A333937",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 78,
     "source": "oeis-entry"

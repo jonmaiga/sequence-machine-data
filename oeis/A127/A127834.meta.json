@@ -2,14 +2,12 @@
   "description": "Numbers whose 8-bit binary representation, when rotated by up to one bit, contains every 3-bit binary representation for the numbers 0 through 7.",
   "id": "A127834",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

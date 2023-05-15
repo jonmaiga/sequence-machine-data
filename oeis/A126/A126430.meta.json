@@ -2,12 +2,10 @@
   "description": "a(n)-a(n-1) is the smallest integer missing in the auxiliary set composed of the previous terms and sums and differences of previous pairs of the sequence.",
   "id": "A126430",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:14",
     "offset": 1,
     "size": 50,
     "source": "oeis-bfile"

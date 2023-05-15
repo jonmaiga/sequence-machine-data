@@ -2,13 +2,11 @@
   "description": "Nonzero terms of a Fibonacci-inspired C-fraction.",
   "id": "A221709",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "more",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

@@ -10,14 +10,12 @@
     "A138789",
     "A138790"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:26",
     "offset": 1,
     "size": 17,
     "source": "oeis-bfile"

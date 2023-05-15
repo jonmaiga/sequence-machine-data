@@ -2,13 +2,10 @@
   "description": "Expansion of 1/((1-x^4)(1-x^5)(1-x^10)).",
   "id": "A025862",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:30:47",
     "offset": 0,
     "size": 73,
     "source": "joeis"

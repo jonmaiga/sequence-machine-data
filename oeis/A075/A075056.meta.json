@@ -2,13 +2,11 @@
   "description": "a(1) = 0, then smallest square such that a(n+1)- a(n) is a palindrome.",
   "id": "A075056",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 28,
     "source": "oeis-entry"

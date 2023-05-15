@@ -2,12 +2,10 @@
   "description": "Least k such that k*p(n)!/p(n)# -1 and k*p(n)!/p(n)# +1 are twin primes starting with n=3,(p(i)=i-th prime).",
   "id": "A124086",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 3,
     "size": 36,
     "source": "oeis-entry"

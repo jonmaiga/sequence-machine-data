@@ -1,16 +1,16 @@
 {
-  "description": "a(1) = 2; a(n+1) = sum{k=1..n} floor(a(n+1-k)/k).",
+  "description": "a(1) = 2, thereafter a(n) = Sum_{k=1..n-1} floor(a(n-k)/k).",
   "id": "A100483",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:22",
+  "mentions": [
+    "A100482"
+  ],
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 40,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

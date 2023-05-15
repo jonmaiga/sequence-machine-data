@@ -1,0 +1,14 @@
+{
+  "description": "The number of generators for the monoid of basic unimodal cyclotomic generating functions of degree n.",
+  "id": "A361440",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

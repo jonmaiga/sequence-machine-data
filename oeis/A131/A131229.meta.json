@@ -2,20 +2,19 @@
   "description": "Numbers congruent to {1,7} mod 10.",
   "id": "A131229",
   "mentions": [
+    "A001622",
     "A051340",
     "A063097",
     "A128174",
     "A131228",
     "A204008"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:19:01",
     "offset": 1,
     "size": 57,
     "source": "joeis"

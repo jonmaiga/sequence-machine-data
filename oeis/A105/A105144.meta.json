@@ -2,13 +2,11 @@
   "description": "Decimal expansion of Pi^163.",
   "id": "A105144",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:35",
     "offset": 82,
     "size": 105,
     "source": "joeis"

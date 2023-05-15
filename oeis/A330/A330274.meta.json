@@ -2,12 +2,10 @@
   "description": "Largest positive x such that (x,x+n) is the smallest pair of quadratic residues with difference n, modulo any prime.",
   "id": "A330274",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:59",
     "offset": 1,
     "size": 71,
     "source": "oeis-bfile"

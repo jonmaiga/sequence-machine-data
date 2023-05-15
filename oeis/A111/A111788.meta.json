@@ -2,13 +2,11 @@
   "description": "Order of the domain D_n (n >= 0) in the inverse limit domain D_infinity.",
   "id": "A111788",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 4,
     "source": "oeis-entry"

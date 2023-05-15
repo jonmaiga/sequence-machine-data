@@ -2,13 +2,11 @@
   "description": "a(n) = least k such that ((m+1)^k)*(m^k-1) - 1 is prime, with m = 2n+1, or 0 if no such k exists.",
   "id": "A102602",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 63,
     "source": "oeis-entry"

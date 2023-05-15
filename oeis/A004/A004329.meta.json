@@ -2,13 +2,11 @@
   "description": "Binomial coefficient C(3n,n-11).",
   "id": "A004329",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 11:24:24",
     "offset": 11,
     "size": 18,
     "source": "joeis"

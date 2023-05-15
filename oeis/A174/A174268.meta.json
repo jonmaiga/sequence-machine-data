@@ -2,13 +2,11 @@
   "description": "Primes p such that 11^p-10 is also prime.",
   "id": "A174268",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

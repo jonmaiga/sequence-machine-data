@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = n! * Sum_{k=0..floor(n/5)} (-n)^k / (k! * (n-5*k)!).",
+  "id": "A362324",
+  "mentions": [
+    "A351906",
+    "A362282",
+    "A362305",
+    "A362320",
+    "A362322"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

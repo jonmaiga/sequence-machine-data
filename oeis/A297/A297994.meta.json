@@ -2,14 +2,12 @@
   "description": "Primes such that the decimal digits in the first half of the number are a nontrivial permutation of the digits in the second half.",
   "id": "A297994",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:19",
     "offset": 1,
     "size": 40,
     "source": "oeis-bfile"

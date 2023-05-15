@@ -2,14 +2,12 @@
   "description": "a(n) = (n+1)*(n+2)^3*(n+3)^4*(n+4)^3*(n+5)*(2n+5)*(2n+7)/7257600.",
   "id": "A109124",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:48:13",
     "offset": 0,
     "size": 23,
     "source": "joeis"

@@ -2,14 +2,12 @@
   "description": "Expansion of (1 + 11*x - 90*x^2 - 1100*x^3)/(1 - 201*x^2 + 10100*x^4).",
   "id": "A097115",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 14:08:38",
     "offset": 0,
     "size": 21,
     "source": "joeis"

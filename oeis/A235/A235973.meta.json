@@ -1,15 +1,13 @@
 {
-  "description": "Number of (n+1)X(n+1) 0..2 arrays with the upper median equal to the lower median in every 2X2 subblock",
+  "description": "Number of (n+1) X (n+1) 0..2 arrays with the upper median equal to the lower median in every 2 X 2 subblock.",
   "id": "A235973",
   "mentions": [
     "A235981"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

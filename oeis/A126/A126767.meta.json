@@ -2,7 +2,6 @@
   "description": "Map the sentence \"What is the next number in this sequence?\" to numbers by translating each letter to its position in the alphabet (a -> 1, b -> 2, ..., z -> 26) and then adding the numbers corresponding to the letters in each word.",
   "id": "A126767",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "dumb",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

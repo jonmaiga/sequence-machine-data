@@ -2,13 +2,11 @@
   "description": "Numbers n such that nextprime(3*n)",
   "id": "A117097",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:07",
     "offset": 1,
     "size": 68,
     "source": "oeis-bfile"

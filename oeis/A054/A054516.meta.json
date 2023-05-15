@@ -2,14 +2,12 @@
   "description": "Equivalent of the Kurepa hypothesis for left factorial.",
   "id": "A054516",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:03",
     "offset": 3,
     "size": 23,
     "source": "oeis-bfile"

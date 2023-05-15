@@ -2,13 +2,11 @@
   "description": "Population in generation n of the following pattern in Conway's Game of Life: 00000010 00001011 00001010 00001000 00100000 10100000, where \"1\" is a live cell and \"0\" is a dead cell, and spaces indicate a line break.",
   "id": "A164936",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:47",
     "offset": 0,
     "size": 65,
     "source": "oeis-bfile"

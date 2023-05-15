@@ -2,13 +2,11 @@
   "description": "Binomial convolution of the Floor-Sqrt transform of Catalan numbers.",
   "id": "A192653",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 0,
     "size": 28,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Sequence that except for initial 1 is the complement of its inverse binomial transform.",
   "id": "A120539",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 30,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Orders of magic squares whose rows and columns all have different sum-of-squares values (except for the necessary 180-degree symmetry).",
   "id": "A014582",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

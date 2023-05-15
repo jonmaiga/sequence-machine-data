@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of ways in which the set of divisors of n can be partitioned into disjoint parts, all of length > 1 and with integer harmonic mean.",
+  "id": "A362802",
+  "mentions": [
+    "A339453",
+    "A339665",
+    "A362801",
+    "A362803"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

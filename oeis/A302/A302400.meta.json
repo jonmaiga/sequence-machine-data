@@ -2,13 +2,11 @@
   "description": "Total domination number of the n-polygon diagonal intersection graph.",
   "id": "A302400",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 3,
     "size": 10,
     "source": "oeis-entry"

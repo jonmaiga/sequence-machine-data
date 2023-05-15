@@ -1,17 +1,19 @@
 {
-  "description": "(4n+2)^5.",
+  "description": "a(n) = (4n+2)^5.",
   "id": "A016829",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:17",
+  "mentions": [
+    "A013663",
+    "A016757",
+    "A016825"
+  ],
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 13:53:19",
     "offset": 0,
-    "size": 20,
+    "size": 26,
     "source": "joeis"
   }
 }

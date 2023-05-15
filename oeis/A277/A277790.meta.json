@@ -8,14 +8,12 @@
     "A017666",
     "A277791"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:43",
     "offset": 1,
     "size": 80,
     "source": "oeis-bfile"

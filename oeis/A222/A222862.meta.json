@@ -2,13 +2,11 @@
   "description": "Table read by antidiagonals: T(n,k) is the number of n X k 0..1 arrays with every row and column least squares fitting to a nonnegative-slope straight line, with a single point array taken as having zero slope.",
   "id": "A222862",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:40",
     "offset": 1,
     "size": 49,
     "source": "oeis-bfile"

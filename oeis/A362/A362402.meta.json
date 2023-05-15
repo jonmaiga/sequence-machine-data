@@ -1,0 +1,22 @@
+{
+  "description": "Positive numbers m such that a record number of numbers k have m as the sum of divisors of k that have a square factor (A162296).",
+  "id": "A362402",
+  "mentions": [
+    "A005117",
+    "A097942",
+    "A100827",
+    "A145899",
+    "A162296",
+    "A238895",
+    "A362401",
+    "A362403"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

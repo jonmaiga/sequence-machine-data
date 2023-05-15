@@ -2,13 +2,11 @@
   "description": "Number of 132-segmented permutations of length n.",
   "id": "A125305",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:13",
     "offset": 0,
     "size": 26,
     "source": "oeis-bfile"

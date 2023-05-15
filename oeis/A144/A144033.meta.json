@@ -2,12 +2,10 @@
   "description": "Numbers n such that : a=a^2-n^3; a=a+2.",
   "id": "A144033",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 9,
     "source": "oeis-entry"

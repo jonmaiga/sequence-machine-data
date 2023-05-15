@@ -1,14 +1,12 @@
 {
-  "description": "(7*11^n+1)/2.",
+  "description": "a(n) = (7*11^n+1)/2.",
   "id": "A199757",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:20",
     "offset": 0,
     "size": 18,
     "source": "oeis-bfile"

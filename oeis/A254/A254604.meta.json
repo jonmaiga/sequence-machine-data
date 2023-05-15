@@ -2,14 +2,12 @@
   "description": "The decimal expansion of the half of a single half-wave constant x.",
   "id": "A254604",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:48:06",
     "offset": 0,
     "size": 121,
     "source": "joeis"

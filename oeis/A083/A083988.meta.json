@@ -2,13 +2,11 @@
   "description": "Primes p such that concatenation p, 0, R(p) is also a prime (of course a palindromic prime).",
   "id": "A083988",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:35",
     "offset": 1,
     "size": 46,
     "source": "oeis-bfile"

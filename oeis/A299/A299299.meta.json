@@ -2,14 +2,12 @@
   "description": "Numbers g>1 such that the maximal order of extendable group action on minimal graphs of genus g in the sphere S^3 is 24(g-1).",
   "id": "A299299",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

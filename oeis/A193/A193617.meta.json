@@ -2,12 +2,10 @@
   "description": "Maximum cardinality of a subset of Dyck n-paths p that share both the same area and the same maj(beta(p)) statistic.",
   "id": "A193617",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 0,
     "size": 20,
     "source": "oeis-entry"

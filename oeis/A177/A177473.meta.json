@@ -2,13 +2,11 @@
   "description": "Avoiding the pattern 12'1'2.To avoid 12'1'2 means not to have four consecutive letters such that the first one is less than the fourth letter and the second letter is larger than the third one.",
   "id": "A177473",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

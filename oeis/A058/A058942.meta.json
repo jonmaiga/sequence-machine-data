@@ -6,7 +6,6 @@
     "A036970",
     "A084938"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "formulas",
     "nice",
@@ -14,7 +13,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:09",
     "offset": 1,
     "size": 41,
     "source": "oeis-bfile"

@@ -6,14 +6,12 @@
     "A189398",
     "A246469"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:02",
     "offset": 1,
     "size": 51,
     "source": "oeis-bfile"

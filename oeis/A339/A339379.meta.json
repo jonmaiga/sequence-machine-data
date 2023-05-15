@@ -6,7 +6,6 @@
     "A093086",
     "A339359"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
     "easy",
@@ -14,7 +13,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:11",
     "offset": 0,
     "size": 80,
     "source": "oeis-bfile"

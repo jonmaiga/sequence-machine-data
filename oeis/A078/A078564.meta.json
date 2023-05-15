@@ -2,13 +2,11 @@
   "description": "Number of (simple, undirected, unlabeled, connected) graphs with n vertices which contain no induced subgraph isomorphic to the complement of P5 (the \"house\" graph).",
   "id": "A078564",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 14,
     "source": "oeis-entry"

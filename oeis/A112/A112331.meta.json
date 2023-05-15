@@ -2,12 +2,10 @@
   "description": "Number of monomial terms in expansion of n-th coefficient of replicable function as a polynomial in [c1, c2, c3, c4, c5, c7, c8, c9, c11, c17, c19, c23].",
   "id": "A112331",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 64,
     "source": "oeis-entry"

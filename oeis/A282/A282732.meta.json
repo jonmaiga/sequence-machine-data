@@ -2,14 +2,12 @@
   "description": "Satisfies the recurrence a(n) = 3*a(n-1)-a(n-2)+a(n-3)-2*a(n-4)+2*a(n-5).",
   "id": "A282732",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:52",
     "offset": 0,
     "size": 32,
     "source": "oeis-bfile"

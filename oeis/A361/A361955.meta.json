@@ -1,0 +1,19 @@
+{
+  "description": "Number of unlabeled connected weakly graded (ranked) posets with n elements.",
+  "id": "A361955",
+  "mentions": [
+    "A000608",
+    "A361920",
+    "A361953",
+    "A361954"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

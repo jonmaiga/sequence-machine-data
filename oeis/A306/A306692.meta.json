@@ -2,12 +2,10 @@
   "description": "The maximum number of minimal dominating sets in a tree with n vertices.",
   "id": "A306692",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 51,
     "source": "oeis-entry"

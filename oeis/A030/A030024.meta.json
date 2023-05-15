@@ -2,13 +2,11 @@
   "description": "Theta series of hypothetical extremal 16-dimensional strongly 10-modular lattice.",
   "id": "A030024",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 0,
     "size": 6,
     "source": "oeis-entry"

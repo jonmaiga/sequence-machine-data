@@ -42,14 +42,12 @@
     "A317301",
     "A317302"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "formulas",
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:27",
     "offset": 0,
     "size": 91,
     "source": "oeis-bfile"

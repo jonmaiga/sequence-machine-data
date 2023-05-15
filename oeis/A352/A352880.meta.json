@@ -2,7 +2,6 @@
   "description": "Triangle read by rows: T(n,k) = number of vertices of degree k in an origami flip graph OFG(A2n).",
   "id": "A352880",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:27",
     "offset": 2,
     "size": 55,
     "source": "oeis-bfile"

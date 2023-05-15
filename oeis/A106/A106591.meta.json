@@ -2,14 +2,12 @@
   "description": "Six-symbol substitution based on doubling the Rauzy substitution : n=3 characteristic polynomial: x^6-19*x^4+99*x^2-81.",
   "id": "A106591",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

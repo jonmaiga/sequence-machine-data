@@ -2,14 +2,12 @@
   "description": "Square array read by antidiagonals: Write n and m in binary with n on the left. Concatenate. a(n,m) is the decimal equivalent of the result.",
   "id": "A163621",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:45",
     "offset": 1,
     "size": 71,
     "source": "oeis-bfile"

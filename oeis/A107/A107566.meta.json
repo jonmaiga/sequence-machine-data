@@ -2,12 +2,10 @@
   "description": "Coordination sequence for B_33 lattice",
   "id": "A107566",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 17:42:24",
     "offset": 0,
     "size": 16,
     "source": "joeis"

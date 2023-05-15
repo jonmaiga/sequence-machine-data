@@ -1,0 +1,15 @@
+{
+  "description": "a(n) = n + Scrabble score of n.",
+  "id": "A362437",
+  "mentions": [
+    "A113172"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

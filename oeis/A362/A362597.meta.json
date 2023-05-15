@@ -1,0 +1,18 @@
+{
+  "description": "Number of parking functions of size n avoiding the patterns 213 and 312.",
+  "id": "A362597",
+  "mentions": [
+    "A028365",
+    "A362596"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

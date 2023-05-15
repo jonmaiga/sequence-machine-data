@@ -2,13 +2,11 @@
   "description": "If n = Product (p_j^k_j) then a(n) = Sum (k_j^p_j).",
   "id": "A008476",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:14",
     "offset": 1,
     "size": 96,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "McKay-Thompson series of class 36h for the Monster group.",
   "id": "A112177",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-26 12:32:53",
     "offset": 0,
     "size": 80,
     "source": "joeis"

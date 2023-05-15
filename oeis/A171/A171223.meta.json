@@ -2,14 +2,12 @@
   "description": "Solutions to place plus, minus, multiply or divide signs to a nonzero digits sequence 123456789 so that result of thus described arithmetic operation will be n.",
   "id": "A171223",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 30,
     "source": "oeis-entry"

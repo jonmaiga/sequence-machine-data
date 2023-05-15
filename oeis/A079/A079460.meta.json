@@ -2,14 +2,12 @@
   "description": "Let r(n) be the real positive root of Sum_{k=1..n} x^k = 1, then a(n) = round(1/(r(n) - 1/2)).",
   "id": "A079460",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:31",
     "offset": 1,
     "size": 29,
     "source": "oeis-bfile"

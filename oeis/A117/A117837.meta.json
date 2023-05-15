@@ -2,13 +2,11 @@
   "description": "Smaller of two consecutive prime numbers with the same digital product.",
   "id": "A117837",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:07",
     "offset": 1,
     "size": 43,
     "source": "oeis-bfile"

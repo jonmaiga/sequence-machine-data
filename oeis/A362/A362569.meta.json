@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. satisfies A(x) = exp(x/A(x)^(x^2)).",
+  "id": "A362569",
+  "mentions": [
+    "A177885",
+    "A362568",
+    "A362571"
+  ],
+  "tags": [
+    "changed",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

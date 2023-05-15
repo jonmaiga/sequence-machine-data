@@ -1,5 +1,5 @@
 {
-  "description": "Composite numbers m for which A064380(m)=A000010(m).",
+  "description": "Composite numbers m for which A064380(m) = A000010(m).",
   "id": "A176509",
   "mentions": [
     "A000010",
@@ -11,15 +11,13 @@
     "A092759",
     "A176472"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
-    "size": 32,
-    "source": "oeis-entry"
+    "size": 37,
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Sequence whose G.f is given by f(z)=(1+z)^(24)/(1-z).",
+  "description": "Expansion of g.f. (1+z)^(24)/(1-z).",
   "id": "A171445",
   "mentions": [
     "A040000",
@@ -11,14 +11,12 @@
     "A171442",
     "A171443"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:11:17",
     "offset": 0,
     "size": 26,
     "source": "joeis"

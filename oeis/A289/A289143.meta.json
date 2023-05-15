@@ -2,14 +2,12 @@
   "description": "Matching number of the n-triangular honeycomb acute knight graph.",
   "id": "A289143",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 13:20:17",
     "offset": 1,
     "size": 72,
     "source": "joeis"

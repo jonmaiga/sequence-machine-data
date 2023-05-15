@@ -2,13 +2,11 @@
   "description": "Number of permutations of 7 copies of 1..n introduced in order 1..n with no element equal to another within a distance of 1.",
   "id": "A190836",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:15",
     "offset": 0,
     "size": 11,
     "source": "oeis-bfile"

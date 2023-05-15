@@ -2,12 +2,10 @@
   "description": "Number of lattice points (x,y) in the region bounded by 0 < y < n*sin(x*Pi/n) for 0 < x < n.",
   "id": "A344421",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 53,
     "source": "oeis-entry"

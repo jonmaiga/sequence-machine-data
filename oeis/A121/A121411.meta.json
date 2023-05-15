@@ -2,14 +2,12 @@
   "description": "Positive integers k for which there are primes of the form a^2+k^n=b^2+k^m with positive integers (a,b,m,n) and a > b.",
   "id": "A121411",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 51,
     "source": "oeis-entry"

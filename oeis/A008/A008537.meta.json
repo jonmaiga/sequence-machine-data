@@ -11,7 +11,6 @@
     "A089589",
     "A089590"
   ],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "fini",
     "full",
@@ -19,7 +18,6 @@
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 1,
     "size": 43,
     "source": "oeis-entry"

@@ -5,13 +5,12 @@
     "A231599",
     "A333289"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
+    "changed",
     "sign",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 109,
     "source": "oeis-entry"

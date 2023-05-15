@@ -2,12 +2,10 @@
   "description": "The eventual period of a sequence b(n, m) where b(n, 1) = 1 and the m-th term is the number of occurrences of b(n, m-1) in the list of integers from b(n, max(m-n, 1)) to b(n, m-1).",
   "id": "A334539",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:05",
     "offset": 1,
     "size": 45,
     "source": "oeis-bfile"

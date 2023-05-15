@@ -2,13 +2,11 @@
   "description": "Table read by antidiagonals: T(n,m)=number of nonzero period n solutions of x(i)=(x(i-1)+x(i-2)) mod m (n>=1, m>=1).",
   "id": "A171063",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:54",
     "offset": 1,
     "size": 106,
     "source": "oeis-bfile"

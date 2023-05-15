@@ -2,13 +2,11 @@
   "description": "G.f. satisfies: A(x) = Sum_{n>=0} x^n * Product_{k=1..n} (A(x) - x^k).",
   "id": "A229188",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:46",
     "offset": 0,
     "size": 31,
     "source": "oeis-bfile"

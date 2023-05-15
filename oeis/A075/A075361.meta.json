@@ -2,14 +2,12 @@
   "description": "a(n) = the n-th prime with sum of decimal digits = n, or 0 if no such number exists.",
   "id": "A075361",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

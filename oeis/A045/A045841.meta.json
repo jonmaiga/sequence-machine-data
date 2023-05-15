@@ -2,14 +2,12 @@
   "description": "Number of distinct odd numbers formed from the digits of n.",
   "id": "A045841",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:26:31",
     "offset": 0,
     "size": 100,
     "source": "joeis"

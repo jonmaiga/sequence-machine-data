@@ -2,14 +2,12 @@
   "description": "Expansion of 1/(1+14*x+72*x^2+384*x^3+512*x^4).",
   "id": "A167602",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:51",
     "offset": 0,
     "size": 17,
     "source": "oeis-bfile"

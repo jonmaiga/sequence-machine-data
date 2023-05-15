@@ -2,7 +2,6 @@
   "description": "Decimal expansion of the expected length of the first cycle in an evolving graph with n vertices rescaled by n^(-1/6).",
   "id": "A343980",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "cons",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 61,
     "source": "oeis-entry"

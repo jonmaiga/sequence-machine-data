@@ -2,14 +2,12 @@
   "description": "Number of partitions of n into parts not of form 4k+2, 12k, 12k+5 or 12k-5.",
   "id": "A036019",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:24:21",
     "offset": 0,
     "size": 55,
     "source": "joeis"

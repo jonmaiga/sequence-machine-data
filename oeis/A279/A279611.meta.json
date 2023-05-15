@@ -2,12 +2,10 @@
   "description": "Number of binary palindromes of length 2n+1 having no (7/3)+ powers.",
   "id": "A279611",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 0,
     "size": 58,
     "source": "oeis-entry"

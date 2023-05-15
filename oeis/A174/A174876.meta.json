@@ -2,7 +2,6 @@
   "description": "Numbers n such that the sum of squares of their digits > n.",
   "id": "A174876",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

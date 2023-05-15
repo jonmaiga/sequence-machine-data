@@ -2,13 +2,11 @@
   "description": "Smallest prime for which 2^n exactly divides the class number h(8p) and X^2 - 2pY^2 = -2 is solvable.",
   "id": "A102267",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

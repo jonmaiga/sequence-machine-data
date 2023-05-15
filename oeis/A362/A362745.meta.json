@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of ordered pairs of n-permutations with exactly k rise/falls or fall/rises, n >= 0, 0 <= k <= max{0,n-1}.",
+  "id": "A362745",
+  "mentions": [
+    "A001044",
+    "A060350",
+    "A259465"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

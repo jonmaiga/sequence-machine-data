@@ -2,13 +2,11 @@
   "description": "Numbers k such that the process starting at (k, 0) mapping (k, t) to (k+1, t+k) if t = 0 (mod k), and (k-1, t+k) otherwise, eventually reaches (1, T) for some T.",
   "id": "A338807",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 59,
     "source": "oeis-entry"

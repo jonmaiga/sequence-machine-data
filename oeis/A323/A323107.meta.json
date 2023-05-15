@@ -2,14 +2,12 @@
   "description": "Numbers k such that 415*2^k+1 is prime.",
   "id": "A323107",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 39,
     "source": "oeis-entry"

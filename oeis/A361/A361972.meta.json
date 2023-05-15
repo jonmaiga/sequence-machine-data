@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of lim_{n->oo} ( Sum_{k=2..n} 1/(k*log(k)) - log(log(n)) ).",
+  "id": "A361972",
+  "mentions": [
+    "A001620",
+    "A074785",
+    "A241005"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

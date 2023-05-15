@@ -1,16 +1,15 @@
 {
-  "description": "Positive integers n such that (d(n+1) - d(n)) * (-1)^n is positive, where d(n) = the number of positive divisors of n.",
+  "description": "Positive integers k such that (d(k+1) - d(k)) * (-1)^k is positive, where d(k) = the number of positive divisors of k.",
   "id": "A138046",
   "mentions": [
     "A051950",
     "A138047"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:26",
     "offset": 1,
     "size": 52,
     "source": "oeis-bfile"

@@ -1,0 +1,22 @@
+{
+  "description": "Perfect powers in A329150.",
+  "id": "A361821",
+  "mentions": [
+    "A001597",
+    "A030485",
+    "A053919",
+    "A058426",
+    "A191486",
+    "A329147",
+    "A329150"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

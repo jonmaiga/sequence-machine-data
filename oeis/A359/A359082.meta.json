@@ -9,14 +9,11 @@
     "A359081",
     "A359083"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "base",
-    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:33",
     "offset": 1,
     "size": 29,
     "source": "oeis-bfile"

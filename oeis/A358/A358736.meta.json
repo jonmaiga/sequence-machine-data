@@ -6,13 +6,10 @@
     "A017209",
     "A358509"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 0,
     "size": 92,
     "source": "oeis-entry"

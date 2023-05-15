@@ -2,14 +2,12 @@
   "description": "Numbers n such that (47^n - 1)/46 is prime.",
   "id": "A267375",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 3,
     "source": "oeis-entry"

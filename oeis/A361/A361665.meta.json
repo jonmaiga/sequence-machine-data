@@ -1,0 +1,18 @@
+{
+  "description": "Number of ordered factorizations of p_1^x_1 * ... * p_k^x_k, where (x_1, ..., x_k) is the partition with Heinz number n and p_1, ..., p_k are distinct primes.",
+  "id": "A361665",
+  "mentions": [
+    "A074206",
+    "A181821",
+    "A361666"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

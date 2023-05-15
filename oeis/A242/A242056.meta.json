@@ -2,14 +2,12 @@
   "description": "Decimal expansion of 2*Pi*phi(0), a constant appearing in connection with a study of zeros of the integral of xi(z), where phi(t) and xi(z) are functions related to Riemann's zeta function (see Finch reference for the definition of these functions).",
   "id": "A242056",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

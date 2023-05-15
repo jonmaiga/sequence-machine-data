@@ -2,13 +2,11 @@
   "description": "Number of runs of 1's of length 1 in the binary expansion of n.",
   "id": "A277937",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:44",
     "offset": 0,
     "size": 87,
     "source": "oeis-bfile"

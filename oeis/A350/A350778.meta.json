@@ -2,7 +2,6 @@
   "description": "Numerators of fractions n/prime(n) sorted in decreasing order.",
   "id": "A350778",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "easy",
     "frac",
@@ -10,7 +9,6 @@
     "unsolved"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:25",
     "offset": 1,
     "size": 70,
     "source": "oeis-bfile"

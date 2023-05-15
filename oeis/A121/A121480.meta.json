@@ -2,12 +2,10 @@
   "description": "Take b(0)=n, for i>0 if b(i-1) is odd prime then b(i)=(b(i-1)+1)/2 otherwise b(i)=b(i-1)+1. For all n sequence b(i) ends with 2. The sequence gives a(n) = a number of steps from n to 2, a(n)=i when b(i)=2.",
   "id": "A121480",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 77,
     "source": "oeis-entry"

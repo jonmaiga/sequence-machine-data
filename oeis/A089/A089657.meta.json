@@ -2,13 +2,11 @@
   "description": "Let g[n]=Floor[Prime[n]-n)/((n-PrimePi[n])], then a(n) = Floor[(Prime[n]+g[n]*PrimePi[n])/(1+g[n]).",
   "id": "A089657",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 72,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "The n-th group (n>=0) of 9 consecutive terms are the entries, read by rows, of the 3 X 3 matrix A[n], where A[0]= [[0, 1, 1], [1, 1, 2], [1, 2, 4]], A[1]=[[1, 1, 2], [1, 1, 2], [2, 4, 7]], A[2]=[[1, 1, 2], [1, 1, 2], [4, 6, 11]] and A[n]=A[abs(n-A[n-1](1, 1))] + A[abs(n-A[n-2](1, 2))] + A[abs(n-A[n-3](1, 3))], (M(i, j) denoting the (i, j)-entry of the matrix M).",
   "id": "A097866",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 89,
     "source": "oeis-entry"

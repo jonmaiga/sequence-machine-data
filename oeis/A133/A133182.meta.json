@@ -2,13 +2,11 @@
   "description": "A fractal sequence. Underline the first occurrence of \"1\", then the first occurrence of \"2\", the first \"3\", etc. The non-underlined terms are the sequence itself.",
   "id": "A133182",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "look",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:21",
     "offset": 1,
     "size": 85,
     "source": "oeis-bfile"

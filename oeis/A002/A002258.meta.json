@@ -2,13 +2,11 @@
   "description": "Numbers k such that 15*2^k + 1 is prime.",
   "id": "A002258",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:03",
     "offset": 1,
     "size": 46,
     "source": "oeis-bfile"

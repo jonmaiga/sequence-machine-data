@@ -2,13 +2,11 @@
   "description": "Number of edge covers in the 2n-crossed prism graph.",
   "id": "A297028",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:17",
     "offset": 1,
     "size": 16,
     "source": "oeis-bfile"

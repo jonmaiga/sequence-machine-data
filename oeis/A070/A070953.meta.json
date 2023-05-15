@@ -2,13 +2,11 @@
   "description": "Order of the group GU(n,2), the general unitary n X n matrices over the finite field GF(4).",
   "id": "A070953",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

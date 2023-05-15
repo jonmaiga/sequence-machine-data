@@ -2,12 +2,10 @@
   "description": "Numbers p(n) such that both p(n)+2 and p(n+5)-2 are prime numbers, where p(n) is the n-th prime number.",
   "id": "A105412",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 42,
     "source": "oeis-entry"

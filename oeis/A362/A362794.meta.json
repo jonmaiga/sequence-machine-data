@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f. satisfies A(x) = (1+x)^(A(x)^x).",
+  "id": "A362794",
+  "mentions": [
+    "A033917",
+    "A349504",
+    "A349505",
+    "A362795",
+    "A362796",
+    "A362799"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

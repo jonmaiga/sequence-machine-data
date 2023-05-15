@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of (n+1)X(k+1) 0..5 arrays with every 2X2 subblock having the sum of the absolute values of the edge differences equal to 10 and no adjacent elements equal",
   "id": "A234152",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:52",
     "offset": 1,
     "size": 27,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Number of n-steps skew Dyck paths that come back to the x-axis.",
   "id": "A350662",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-28 11:08:29",
     "offset": 0,
     "size": 36,
     "source": "joeis"

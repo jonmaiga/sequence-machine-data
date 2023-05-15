@@ -2,7 +2,6 @@
   "description": "Triangle read by rows: T(n, k) = 2*k*(n - k) with T(n, 0) = T(n, n) = 1.",
   "id": "A157528",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:39",
     "offset": 0,
     "size": 66,
     "source": "oeis-bfile"

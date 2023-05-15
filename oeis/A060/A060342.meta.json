@@ -2,14 +2,12 @@
   "description": "Smallest prime simultaneously the sum of two, three, ..., n consecutive composite numbers.",
   "id": "A060342",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 2,
     "size": 4,
     "source": "oeis-entry"

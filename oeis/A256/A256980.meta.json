@@ -2,14 +2,12 @@
   "description": "Irregular triangle read by rows: row n gives number of connected graphs on n nodes with forcing number k (n>=1, k>=0).",
   "id": "A256980",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "more",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 30,
     "source": "oeis-entry"

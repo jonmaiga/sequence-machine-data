@@ -1,16 +1,14 @@
 {
-  "description": "Number of (n+1)X(3+1) 0..2 arrays colored with the difference of the upper median and the lower median in each 2X2 subblock",
+  "description": "Number of (n+1) X (3+1) 0..2 arrays colored with the difference of the upper median and the lower median in each 2 X 2 subblock.",
   "id": "A236030",
   "mentions": [
     "A236035"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:53",
     "offset": 1,
     "size": 16,
     "source": "oeis-bfile"

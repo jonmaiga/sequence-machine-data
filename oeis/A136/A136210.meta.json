@@ -6,16 +6,13 @@
     "A004254",
     "A136211"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 00:51:01",
     "offset": 1,
     "size": 30,
     "source": "joeis"

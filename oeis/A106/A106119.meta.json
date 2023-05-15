@@ -2,14 +2,12 @@
   "description": "Primes with maximal digit > 2.",
   "id": "A106119",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 58,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "First differences of triangular numbers with square pyramidal indices.",
   "id": "A077538",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 11:40:29",
     "offset": 0,
     "size": 30,
     "source": "joeis"

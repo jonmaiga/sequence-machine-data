@@ -2,12 +2,10 @@
   "description": "Last denominator in each run of odd terms in the greedy rearrangement of the alternating harmonic series that converges to 2.",
   "id": "A350133",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 49,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Number of nonroot vertices of degree 2 in the rooted tree having Matula-Goebel number n.",
   "id": "A191400",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 86,
     "source": "oeis-entry"

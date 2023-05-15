@@ -1,0 +1,19 @@
+{
+  "description": "Novel terms in A360179, in order of appearance.",
+  "id": "A362134",
+  "mentions": [
+    "A000005",
+    "A360179",
+    "A362127",
+    "A362135"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

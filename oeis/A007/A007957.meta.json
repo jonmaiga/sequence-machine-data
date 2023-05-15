@@ -6,7 +6,6 @@
     "A103181",
     "A153268"
   ],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "base",
     "easy",
@@ -14,7 +13,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:12",
     "offset": 1,
     "size": 76,
     "source": "oeis-bfile"

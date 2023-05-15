@@ -1,0 +1,14 @@
+{
+  "description": "Number of chordless cycles of length >=4 in the n X n zebra graph.",
+  "id": "A362539",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

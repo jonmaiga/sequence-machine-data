@@ -2,7 +2,6 @@
   "description": "A double product sequence based on a=3;f(n,a)=f(n-1,a)+a*f(n-2,a)",
   "id": "A173918",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 41,
     "source": "oeis-entry"

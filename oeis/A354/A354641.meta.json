@@ -2,13 +2,11 @@
   "description": "Decimal expansion of the negated digamma function at 8/9.",
   "id": "A354641",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 0,
     "size": 91,
     "source": "oeis-entry"

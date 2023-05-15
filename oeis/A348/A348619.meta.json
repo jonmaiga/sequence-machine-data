@@ -2,14 +2,12 @@
   "description": "a(n) = #G_{2n}(3n) for n >= 0, where G_{K}(N) is the set of pure K-sparse gapset of genus N.",
   "id": "A348619",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 0,
     "size": 10,
     "source": "oeis-entry"

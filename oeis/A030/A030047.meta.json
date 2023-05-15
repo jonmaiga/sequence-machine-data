@@ -2,13 +2,11 @@
   "description": "Low temperature series for spin-1/2 Ising partition function on 5D simple cubic lattice.",
   "id": "A030047",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "more",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 0,
     "size": 26,
     "source": "oeis-entry"

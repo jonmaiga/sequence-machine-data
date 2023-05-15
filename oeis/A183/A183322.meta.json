@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of nXk binary arrays with an element zero only if there are an even number of ones to its left and an even number of ones above it",
   "id": "A183322",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:07",
     "offset": 1,
     "size": 55,
     "source": "oeis-bfile"

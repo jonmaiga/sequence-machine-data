@@ -2,15 +2,14 @@
   "description": "Some permutation of digits is a cube.",
   "id": "A007939",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "base",
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 12:47:09",
     "offset": 1,
-    "size": 40,
+    "size": 51,
     "source": "joeis"
   }
 }

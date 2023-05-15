@@ -2,12 +2,10 @@
   "description": "Sequence B related to Fraenkel's (3,2)-Wythoff's game in Table 5 of Liu-Zhao (2014).",
   "id": "A246977",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 0,
     "size": 54,
     "source": "oeis-entry"

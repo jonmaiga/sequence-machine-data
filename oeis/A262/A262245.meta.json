@@ -2,14 +2,12 @@
   "description": "Number of connected subgraphs of the 12 X 12 grid graph induced by a vertex subset of size n.",
   "id": "A262245",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:22",
     "offset": 0,
     "size": 25,
     "source": "oeis-bfile"

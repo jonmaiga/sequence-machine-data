@@ -2,13 +2,11 @@
   "description": "exp(arcsinh(x)*exp(x))=1+x+3/2!*x^2+9/3!*x^3+33/4!*x^4+145/5!*x^5...",
   "id": "A012584",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-10-18 14:56:42",
     "offset": 0,
     "size": 22,
     "source": "joeis"

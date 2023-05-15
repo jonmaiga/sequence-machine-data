@@ -2,13 +2,11 @@
   "description": "a(n) = 2^(n-1)*((2*n)!/n!) * Integral_{t=0..Pi/3} sin(t)^(2*n-1) dt.",
   "id": "A123130",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:11",
     "offset": 1,
     "size": 16,
     "source": "oeis-bfile"

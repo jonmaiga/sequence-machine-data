@@ -2,12 +2,10 @@
   "description": "Let S_m = concatenation of words 2(1)_2, 2(2)_2, 2(3)_2, ..., 2(m)_2, where (i)_2 denotes the binary expansion of i; then sequence is S_1, S_2, S_3, ...",
   "id": "A214339",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 126,
     "source": "oeis-entry"

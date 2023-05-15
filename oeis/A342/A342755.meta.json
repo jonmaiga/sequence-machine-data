@@ -11,15 +11,13 @@
     "A342441",
     "A342442"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 75,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

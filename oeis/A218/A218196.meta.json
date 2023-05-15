@@ -2,14 +2,12 @@
   "description": "T(n,k)=Hilltop maps: number of nXk binary arrays indicating the locations of corresponding elements not exceeded by any horizontal or vertical neighbor in a random 0..3 nXk array",
   "id": "A218196",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:35",
     "offset": 1,
     "size": 43,
     "source": "oeis-bfile"

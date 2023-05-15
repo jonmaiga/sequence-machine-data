@@ -2,14 +2,12 @@
   "description": "Pair addition table cast as diagonal numbers.",
   "id": "A054237",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2022-04-27 15:17:09",
     "offset": 0,
     "size": 81,
     "source": "joeis"

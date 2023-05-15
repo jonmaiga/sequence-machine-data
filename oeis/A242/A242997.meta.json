@@ -2,13 +2,11 @@
   "description": "a(n) is the order of the group of invertible elements in the semigroup M whose elements are the closed binary operations on an n-point set S and whose operation (on operations, in this case) is given by x AB y = (x B y) A (y B x) for operations A and B on S and points x and y in S.",
   "id": "A242997",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

@@ -1,0 +1,26 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A(x) = Sum_{n>=0} d^n/dx^n x^(4*n) * A(x)^(3*n) / n!.",
+  "id": "A361543",
+  "mentions": [
+    "A360950",
+    "A360973",
+    "A360974",
+    "A360975",
+    "A361046",
+    "A361310",
+    "A361536",
+    "A361537",
+    "A361541",
+    "A361542",
+    "A361551"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

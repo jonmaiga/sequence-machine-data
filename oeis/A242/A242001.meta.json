@@ -2,7 +2,6 @@
   "description": "Decimal expansion of the two-dimensional series sum_{i,j=-infinity..infinity} (-1)^(i+j)/(i^2+(3*j+1)^2).",
   "id": "A242001",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "cons",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 0,
     "size": 104,
     "source": "oeis-entry"

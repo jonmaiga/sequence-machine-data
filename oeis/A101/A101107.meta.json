@@ -2,12 +2,10 @@
   "description": "Sorted and uniqued list of class numbers (number of conjugacy classes) of all non-Abelian simple groups.",
   "id": "A101107",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 31,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Smallest prime whose digits can be partitioned into n successive terms of an A.P. with common difference n, or 0 if no such number exists.",
   "id": "A088253",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

@@ -6,13 +6,11 @@
     "A329231",
     "A329233"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn",
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:58",
     "offset": 1,
     "size": 70,
     "source": "oeis-bfile"

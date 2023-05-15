@@ -2,14 +2,12 @@
   "description": "Number of words of length 2n in the 10 transpositions of S[5] equivalent to the identity.",
   "id": "A029698",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:38",
     "offset": 1,
     "size": 15,
     "source": "oeis-bfile"

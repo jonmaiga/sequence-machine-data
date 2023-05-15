@@ -2,13 +2,11 @@
   "description": "Number of von Neumann regular elements in the ring of 2 X 2 matrices over Z_n.",
   "id": "A295071",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "mult",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:13",
     "offset": 1,
     "size": 34,
     "source": "oeis-bfile"

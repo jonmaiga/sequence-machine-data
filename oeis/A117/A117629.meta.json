@@ -2,14 +2,12 @@
   "description": "Number of Gorenstein partitions of n, i.e., those partitions of n whose corresponding Schubert variety has a Gorenstein homogeneous coordinate ring, or equivalently those partitions of n which, when regarded as order ideals of PxP (where P={1,2,...}), have all maximal chains of the same length.",
   "id": "A117629",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 30,
     "source": "oeis-entry"

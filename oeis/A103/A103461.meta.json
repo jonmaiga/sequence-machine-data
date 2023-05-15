@@ -2,14 +2,12 @@
   "description": "a(n) = (-10)^n + 1 - 0^n.",
   "id": "A103461",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:54",
     "offset": 0,
     "size": 20,
     "source": "oeis-bfile"

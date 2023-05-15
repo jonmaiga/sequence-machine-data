@@ -2,14 +2,12 @@
   "description": "Triangle read by rows: T(n,k) = least number m > 0 such that m^m contains exactly k distinct digits in base n, 1 <= k <= n, or 0 if no such m exists.",
   "id": "A239306",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "base",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 88,
     "source": "oeis-entry"

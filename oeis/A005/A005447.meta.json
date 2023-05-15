@@ -10,14 +10,12 @@
     "A299432",
     "A299433"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "formulas",
     "frac",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:08",
     "offset": 0,
     "size": 25,
     "source": "oeis-bfile"

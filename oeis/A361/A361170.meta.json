@@ -1,0 +1,18 @@
+{
+  "description": "The leading column of the table of primes in the top row and subsequent rows defined by the GPF of Pascal-alike sums of previous rows.",
+  "id": "A361170",
+  "mentions": [
+    "A006530",
+    "A071216"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

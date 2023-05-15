@@ -6,7 +6,6 @@
     "A274126",
     "A340270"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
     "more",
@@ -14,7 +13,6 @@
     "unsolved"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 31,
     "source": "oeis-entry"

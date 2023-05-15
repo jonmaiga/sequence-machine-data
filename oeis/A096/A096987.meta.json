@@ -1,19 +1,22 @@
 {
-  "description": "Numerator of Sum_{k=1..n} 1/H(k), H(k) = Sum_{j=1..k} 1/j.",
+  "description": "Numerator of Sum_{k=1..n} 1/H(k), where H(k) = Sum_{j=1..k} 1/j is the k-th harmonic number.",
   "id": "A096987",
   "mentions": [
+    "A000720",
+    "A001008",
+    "A001620",
+    "A002805",
     "A124432"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
+    "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
-    "size": 14,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

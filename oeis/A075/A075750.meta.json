@@ -2,13 +2,11 @@
   "description": "210*n -/+ 11 are primes.",
   "id": "A075750",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:27",
     "offset": 1,
     "size": 58,
     "source": "oeis-bfile"

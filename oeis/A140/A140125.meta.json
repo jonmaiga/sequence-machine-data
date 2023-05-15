@@ -2,7 +2,6 @@
   "description": "A prime chain of 147 terms consisting of the output of four equations that alternate sequentially. The equations are either subsequences of x^2 - 79x + 1601 or transforms. The four equations are 4x^2 - 146x + 1373, 4x^2 - 144x + 1459, 4x^2 - 142x + 1301, 4x^2 - 140x + 1877.",
   "id": "A140125",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "fini",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:28",
     "offset": 1,
     "size": 49,
     "source": "oeis-bfile"

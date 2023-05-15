@@ -5,15 +5,14 @@
     "A010051",
     "A045917",
     "A185297",
-    "A186201"
+    "A186201",
+    "A362640"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:11",
     "offset": 2,
     "size": 71,
     "source": "oeis-bfile"

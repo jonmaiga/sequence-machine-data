@@ -2,12 +2,10 @@
   "description": "Number of totally symmetric 5-dimensional partitions of n.",
   "id": "A234859",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 125,
     "source": "oeis-entry"

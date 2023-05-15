@@ -2,14 +2,12 @@
   "description": "A Skolem-type sequence: each pair of two terms that start with a digit k are separated by k other terms. Lexicographically earliest permutation of positive integers with this property.",
   "id": "A247476",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "base",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:03",
     "offset": 1,
     "size": 67,
     "source": "oeis-bfile"

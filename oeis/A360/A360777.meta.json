@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the index of the least n-gonal number that is the sum of two or more consecutive nonzero n-gonal numbers in more than one way, or -1 if no such number exists.",
+  "id": "A360777",
+  "mentions": [
+    "A057145",
+    "A360762"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

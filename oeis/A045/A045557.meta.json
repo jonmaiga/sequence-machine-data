@@ -2,13 +2,11 @@
   "description": "Numbers whose factorial has '32' as its final two digits before the trailing zeros.",
   "id": "A045557",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:56",
     "offset": 1,
     "size": 49,
     "source": "oeis-bfile"

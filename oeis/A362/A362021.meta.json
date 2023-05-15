@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k=1..n} (-1)^(n-k) * k * mu(k), where mu(k) is the Moebius function.",
+  "id": "A362021",
+  "mentions": [
+    "A008683",
+    "A055615",
+    "A068340",
+    "A247418",
+    "A361982"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

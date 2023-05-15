@@ -2,13 +2,11 @@
   "description": "Powers of sqrt(13) rounded down.",
   "id": "A017943",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:25",
     "offset": 0,
     "size": 24,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Number of maximal irredundant sets in the n-gear graph.",
   "id": "A290640",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 3,
     "size": 11,
     "source": "oeis-entry"

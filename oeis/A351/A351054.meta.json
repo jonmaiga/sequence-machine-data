@@ -2,12 +2,10 @@
   "description": "First of three consecutive primes p,q,r such that p+q-r, p-q+r, -p+q+r are all prime.",
   "id": "A351054",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:25",
     "offset": 1,
     "size": 31,
     "source": "oeis-bfile"

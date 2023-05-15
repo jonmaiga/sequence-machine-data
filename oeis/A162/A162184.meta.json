@@ -2,13 +2,11 @@
   "description": "Numbers n whose digits can be divided into two substrings, x and y, such that n = y^2-x.",
   "id": "A162184",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Numbers whose base 64 representation does not contain any of the digits 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 16, 17, 18, 24, 25, 32, 34, 36, 40, 44, 48, 50.",
   "id": "A219256",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 82,
     "source": "oeis-entry"

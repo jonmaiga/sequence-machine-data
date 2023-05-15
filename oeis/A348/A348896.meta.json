@@ -2,14 +2,12 @@
   "description": "Decimal expansion of 2*(sin(Pi/38) - sin((7*Pi)/38) + cos((4*Pi)/19)).",
   "id": "A348896",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 0,
     "size": 92,
     "source": "oeis-entry"

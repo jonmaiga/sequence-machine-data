@@ -2,14 +2,12 @@
   "description": "Monetary amounts in U.S. cents such that the smallest number of coins summing to the amount uses only denominations of 10 cents and above.",
   "id": "A179819",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:55:35",
     "offset": 1,
     "size": 67,
     "source": "joeis"

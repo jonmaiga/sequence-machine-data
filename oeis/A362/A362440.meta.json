@@ -1,0 +1,19 @@
+{
+  "description": "Aliqout sequence starting at 841.",
+  "id": "A362440",
+  "mentions": [
+    "A001065",
+    "A008885",
+    "A070015"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

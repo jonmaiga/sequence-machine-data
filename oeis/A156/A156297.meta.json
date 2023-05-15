@@ -2,13 +2,11 @@
   "description": "Triangle T(n,k) read by rows. If n = k^2 then 1 else 0.",
   "id": "A156297",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:38",
     "offset": 1,
     "size": 105,
     "source": "oeis-bfile"

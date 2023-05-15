@@ -7,13 +7,11 @@
     "A051491",
     "A086308"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:12",
     "offset": 0,
     "size": 87,
     "source": "oeis-bfile"

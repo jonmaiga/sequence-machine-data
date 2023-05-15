@@ -2,13 +2,11 @@
   "description": "Low temperature series for spin-1/2 Ising specific heat on 2D square lattice, divided by 8.",
   "id": "A029874",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 0,
     "size": 18,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "E.g.f. satisfies: A(x*cosh(x)) = x*exp(A(x)).",
   "id": "A201959",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 21,
     "source": "oeis-entry"

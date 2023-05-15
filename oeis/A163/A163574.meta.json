@@ -2,7 +2,6 @@
   "description": "Decimal expansion of smallest zeroless pandigital number in base n such that each k-digit substring (1 <= k <= n-1 = number of base-n digits) starting from the left, is divisible by k (or 0 if none exists).",
   "id": "A163574",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 2,
     "size": 56,
     "source": "oeis-entry"

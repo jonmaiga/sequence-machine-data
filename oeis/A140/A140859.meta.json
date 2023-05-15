@@ -2,13 +2,11 @@
   "description": "Border-domination number of queen's graph for n X n board.",
   "id": "A140859",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 24,
     "source": "oeis-entry"

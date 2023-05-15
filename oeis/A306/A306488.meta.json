@@ -2,12 +2,10 @@
   "description": "Number of ways of expressing n as a + b + c, with a, b, and c positive integers, gcd(a, b) = 1, but gcd(a, c) and gcd(b, c) both greater than 1.",
   "id": "A306488",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:31",
     "offset": 0,
     "size": 88,
     "source": "oeis-bfile"

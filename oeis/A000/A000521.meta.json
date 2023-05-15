@@ -27,7 +27,6 @@
     "A290404",
     "A339429"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "core",
     "easy",
@@ -37,7 +36,6 @@
     "unsolved"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:02",
     "offset": -1,
     "size": 17,
     "source": "oeis-bfile"

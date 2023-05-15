@@ -2,13 +2,11 @@
   "description": "cosh(arcsinh(x)+log(x+1))=1+4/2!*x^2-6/3!*x^3+27/4!*x^4-150/5!*x^5...",
   "id": "A013078",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-16 12:46:55",
     "offset": 0,
     "size": 20,
     "source": "joeis"

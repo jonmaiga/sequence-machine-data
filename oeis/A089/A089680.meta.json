@@ -2,12 +2,10 @@
   "description": "Let g[n_]=(Prime[n]-n)/(n-PrimePi[n]). Then a(n) = Floor[Exp[((g[n]+g[n+1])-g[n*(n+1)]+1)/1.5]].",
   "id": "A089680",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

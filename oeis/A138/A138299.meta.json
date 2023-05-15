@@ -2,13 +2,11 @@
   "description": "For number bases b (2 <= b <= 10) consider numbers that can be written as repdigits with at least two digits: the sequence gives products of such numbers also having this property (the number bases are not necessarily distinct).",
   "id": "A138299",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:26",
     "offset": 1,
     "size": 61,
     "source": "oeis-bfile"

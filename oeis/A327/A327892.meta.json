@@ -2,12 +2,10 @@
   "description": "a(n) is the smallest positive integer k such that for every prime divisor p_i of 2*n+1, p_i + k is also prime, or 0 if no such k exists.",
   "id": "A327892",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 100,
     "source": "oeis-entry"

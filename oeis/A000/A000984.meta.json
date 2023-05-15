@@ -136,7 +136,6 @@
     "A345912",
     "A356637"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "core",
     "easy",
@@ -147,7 +146,6 @@
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:03",
     "offset": 0,
     "size": 28,
     "source": "oeis-bfile"

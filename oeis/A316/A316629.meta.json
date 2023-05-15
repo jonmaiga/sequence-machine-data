@@ -2,13 +2,11 @@
   "description": "a(n) is the Sprague-Grundy value of the Node-Kayles game on the semi-regular graph of n linked 4-cycles with vertex set {u_1, u_2, ..., u_n, u_{n+1}, v_1, w_1, v_2, w_2, ..., v_n, w_n}. In this graph, u_1, u_2, ..., u_n, and u_{n+1} form a path, and additional edges are given by {u_i, v_i}, {v_i, w_i}, and {w_i, u_{i+1}} for all i=1,2,...,n.",
   "id": "A316629",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:35",
     "offset": 1,
     "size": 90,
     "source": "oeis-bfile"

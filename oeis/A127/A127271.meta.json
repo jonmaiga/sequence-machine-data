@@ -2,14 +2,12 @@
   "description": "Numbers n such that sum of the digits of n and n+2 divides n+1, n >= 1.",
   "id": "A127271",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:15",
     "offset": 1,
     "size": 54,
     "source": "oeis-bfile"

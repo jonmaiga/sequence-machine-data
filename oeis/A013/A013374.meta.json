@@ -2,12 +2,10 @@
   "description": "arcsinh(sin(x)-sinh(x))=-2/3!*x^3-2/7!*x^7+2240/9!*x^9-2/11!*x^11...",
   "id": "A013374",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:20",
     "offset": 0,
     "size": 15,
     "source": "oeis-bfile"

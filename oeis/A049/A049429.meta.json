@@ -12,7 +12,6 @@
     "A195739",
     "A355053"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "hard",
     "nice",
@@ -20,7 +19,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 2,
     "size": 55,
     "source": "oeis-entry"

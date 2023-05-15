@@ -2,12 +2,10 @@
   "description": "Number of ways to place zero or more nonadjacent 0,0 1,0 2,0 3,1 4,2 5,3 5,4 5,5 polyhexes in any orientation on a planar n X n X n triangular grid.",
   "id": "A155402",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 5,
     "size": 15,
     "source": "oeis-entry"

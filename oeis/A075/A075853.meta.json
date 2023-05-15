@@ -2,12 +2,10 @@
   "description": "G.f. satisfies A(x) = 1 + x (1+sum_{n=0..inf} [xA(x)]^(2^n)).",
   "id": "A075853",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 32,
     "source": "oeis-entry"

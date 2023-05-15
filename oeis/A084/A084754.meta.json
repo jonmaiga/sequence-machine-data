@@ -1,17 +1,22 @@
 {
   "description": "Triangle read by rows: row n contains the first n primes greater than n.",
   "id": "A084754",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:21",
+  "mentions": [
+    "A000040",
+    "A000720",
+    "A101300",
+    "A151800"
+  ],
   "tags": [
+    "changed",
     "easy",
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
-    "size": 72,
-    "source": "oeis-entry"
+    "size": 78,
+    "source": "oeis-bfile"
   }
 }

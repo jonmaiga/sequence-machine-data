@@ -2,14 +2,12 @@
   "description": "Number of connected dominating sets in the n-crown graph.",
   "id": "A287471",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:59",
     "offset": 3,
     "size": 23,
     "source": "oeis-bfile"

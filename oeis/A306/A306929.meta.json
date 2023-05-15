@@ -2,12 +2,10 @@
   "description": "Numbers k (>0) such that x^2+y^2 and x^2+k*y^2 can be simultaneously squares.",
   "id": "A306929",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:31",
     "offset": 1,
     "size": 66,
     "source": "oeis-bfile"

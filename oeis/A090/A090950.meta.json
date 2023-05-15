@@ -2,14 +2,12 @@
   "description": "a(n) = (1/24)*(n+1)*(n+3)*(n^2+22*n+88).",
   "id": "A090950",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 13:29:19",
     "offset": -1,
     "size": 40,
     "source": "joeis"

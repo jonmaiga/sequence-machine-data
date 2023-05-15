@@ -13,14 +13,12 @@
     "A173380",
     "A174319"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "more",
     "nonn",
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 1,
     "size": 32,
     "source": "oeis-entry"

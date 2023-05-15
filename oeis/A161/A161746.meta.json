@@ -11,14 +11,13 @@
     "A159772",
     "A159773"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
+    "changed",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

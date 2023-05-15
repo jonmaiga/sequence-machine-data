@@ -2,12 +2,10 @@
   "description": "a(1)=1. a(2)=2. a(n) = the smallest positive integer not occurring earlier in the sequence such that a(n-2)+a(n-1) is congruent to a(n) (mod n).",
   "id": "A125727",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:13",
     "offset": 1,
     "size": 70,
     "source": "oeis-bfile"

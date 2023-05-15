@@ -22,7 +22,6 @@
     "A137761",
     "A137763"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "frac",
@@ -30,7 +29,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

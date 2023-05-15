@@ -2,7 +2,6 @@
   "description": "Triangle in which row n gives the coefficients of det(A-xI), where A is the n X n matrix with 1's on antidiagonal and last row and column, 0's elsewhere.",
   "id": "A122374",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "less",
@@ -10,7 +9,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 91,
     "source": "oeis-entry"

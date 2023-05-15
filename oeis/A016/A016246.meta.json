@@ -2,13 +2,11 @@
   "description": "Expansion of 1/((1-x)(1-6x)(1-10x)).",
   "id": "A016246",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 14:41:30",
     "offset": 0,
     "size": 18,
     "source": "joeis"

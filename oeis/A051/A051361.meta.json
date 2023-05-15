@@ -2,14 +2,12 @@
   "description": "A class of Boolean functions of n variables and rank 3.",
   "id": "A051361",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:59",
     "offset": 0,
     "size": 36,
     "source": "oeis-bfile"

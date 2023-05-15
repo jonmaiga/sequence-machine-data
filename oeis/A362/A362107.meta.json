@@ -1,0 +1,18 @@
+{
+  "description": "Exponents of powers of 2 in Sisyphus sequence A350877 that start a maximal chain of powers of 2 ending at a 1.",
+  "id": "A362107",
+  "mentions": [
+    "A350615",
+    "A350877",
+    "A362108"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

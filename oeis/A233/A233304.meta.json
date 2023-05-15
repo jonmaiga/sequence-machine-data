@@ -1,15 +1,13 @@
 {
-  "description": "Number of (4+1)X(n+1) 0..1 arrays x(i,j) with row sums sum{x(i,j), j=1..n+1} nondecreasing, and column sums sum{i^2*x(i,j), i=1..4+1} nondecreasing",
+  "description": "Number of (4+1) X (n+1) 0..1 arrays x(i,j) with row sums sum{x(i,j), j=1..n+1} nondecreasing, and column sums sum{i^2*x(i,j), i=1..4+1} nondecreasing.",
   "id": "A233304",
   "mentions": [
     "A233301"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:51",
     "offset": 1,
     "size": 21,
     "source": "oeis-bfile"

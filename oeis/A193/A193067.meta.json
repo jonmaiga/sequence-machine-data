@@ -2,12 +2,10 @@
   "description": "The number of isomorphism classes of connected Alexander (a.k.a. indecomposable affine) quandles of order n.",
   "id": "A193067",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:16",
     "offset": 1,
     "size": 75,
     "source": "oeis-bfile"

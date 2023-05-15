@@ -2,13 +2,11 @@
   "description": "Numbers n such that there is no regular hypermap on the nonorientable surface of characteristic -n.",
   "id": "A091118",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

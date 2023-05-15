@@ -2,12 +2,10 @@
   "description": "Expansion of Product (1-m*q^m)^-32; m=1..inf.",
   "id": "A022756",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 09:22:56",
     "offset": 0,
     "size": 18,
     "source": "joeis"

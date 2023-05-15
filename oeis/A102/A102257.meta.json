@@ -2,14 +2,12 @@
   "description": "Begin with 3, multiply each digit by 2, separate the digits.",
   "id": "A102257",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

@@ -2,7 +2,6 @@
   "description": "Base-10 numbers m such that k*m = d||d||...||d (here || appears k-1 times), where k is the length of m, d is any m's digit and || represents concatenation.",
   "id": "A342157",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

@@ -5,14 +5,11 @@
     "A360293",
     "A360294"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:34",
     "offset": 0,
     "size": 27,
     "source": "oeis-bfile"

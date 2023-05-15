@@ -2,13 +2,11 @@
   "description": "Number of permutations of 1..n with displacements restricted to {-7,-6,-5,-4,-3,-2,0,1}.",
   "id": "A189600",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:13",
     "offset": 1,
     "size": 36,
     "source": "oeis-bfile"

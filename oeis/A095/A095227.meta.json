@@ -2,14 +2,12 @@
   "description": "Numbers which can be partitioned into distinct parts all using the same digit.",
   "id": "A095227",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:46",
     "offset": 1,
     "size": 59,
     "source": "oeis-bfile"

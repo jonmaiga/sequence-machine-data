@@ -1,17 +1,21 @@
 {
-  "description": "Number of increasing integer sequences of length n with Gilbreath transform (that is, the diagonal of leading successive absolute differences) given by {1,1,1,1,1,...}.",
+  "description": "Number of positive increasing integer sequences of length n with Gilbreath transform (that is, the diagonal of leading successive absolute differences) given by {1,1,1,1,1,...}.",
   "id": "A080839",
   "mentions": [
     "A001609",
     "A036262",
-    "A136465"
+    "A136465",
+    "A363002",
+    "A363003",
+    "A363004",
+    "A363005"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
+    "changed",
+    "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

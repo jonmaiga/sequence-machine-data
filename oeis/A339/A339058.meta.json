@@ -12,12 +12,10 @@
     "A212435",
     "A339057"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:11",
     "offset": 0,
     "size": 22,
     "source": "oeis-bfile"

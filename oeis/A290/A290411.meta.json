@@ -2,13 +2,11 @@
   "description": "Maximum length of a run of consecutive positive integers that are either squarefree or divisible by the square of at least one of the first n primes.",
   "id": "A290411",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 0,
     "size": 8,
     "source": "oeis-entry"

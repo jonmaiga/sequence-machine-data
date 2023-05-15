@@ -2,14 +2,12 @@
   "description": "Numbers n such that first occurrence of the 10 digits of the i-th root of n contain all the digits from 0 to 9.",
   "id": "A119521",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 43,
     "source": "oeis-entry"

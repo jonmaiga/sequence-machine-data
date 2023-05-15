@@ -1,0 +1,25 @@
+{
+  "description": "Gilbreath transform of {sigma(i), i >= 1} (cf. A000203).",
+  "id": "A362451",
+  "mentions": [
+    "A000005",
+    "A000040",
+    "A000203",
+    "A036262",
+    "A361897",
+    "A362450",
+    "A362452",
+    "A362456",
+    "A362457",
+    "A362464"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 150,
+    "source": "oeis-bfile"
+  }
+}

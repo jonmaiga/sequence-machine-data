@@ -32,16 +32,14 @@
     "A055649",
     "A063432"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 64,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

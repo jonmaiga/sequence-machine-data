@@ -2,12 +2,10 @@
   "description": "a(n)/2^n is the expected value of the length of the longest palindromic suffix of a random length-n binary string.",
   "id": "A320303",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 33,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Make a table giving binary expansion of zeta(m) for m = 2, 3, ...; a(n) = number of 1's in n-th column of table (after decimal point).",
   "id": "A030454",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:07",
     "offset": 1,
     "size": 65,
     "source": "joeis"

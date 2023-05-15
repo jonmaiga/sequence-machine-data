@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array read by rows. T(n, k) is the coefficient of x^k in a(n+3) where a(1) = a(2) = a(3) = 1 and a(m+2) = (m*x + 2)*a(m+1) - a(m) for all m in Z.",
+  "id": "A358735",
+  "mentions": [
+    "A000292",
+    "A040977",
+    "A058797",
+    "A093986",
+    "A204024"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

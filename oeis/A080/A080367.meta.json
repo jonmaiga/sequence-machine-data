@@ -8,12 +8,10 @@
     "A080368",
     "A124010"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:32",
     "offset": 1,
     "size": 84,
     "source": "oeis-bfile"

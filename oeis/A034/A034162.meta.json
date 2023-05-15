@@ -2,13 +2,11 @@
   "description": "Number of partitions of n into 3 distinct parts from [ 1,19 ].",
   "id": "A034162",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:10:33",
     "offset": 0,
     "size": 65,
     "source": "joeis"

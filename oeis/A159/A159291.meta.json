@@ -2,7 +2,6 @@
   "description": "A two-way probability integer distribution function:t(n,m)=-If[m <= (less than equal) Floor[n/2], a*m + b, a*(n - m) + b]*If[m <= (less than equal) Floor[m/2], a*n + b, a*(m - n) + b].",
   "id": "A159291",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 66,
     "source": "oeis-entry"

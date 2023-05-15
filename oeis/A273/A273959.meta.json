@@ -2,14 +2,12 @@
   "description": "Decimal expansion of 'C', an auxiliary constant defined by D. Broadhurst and related to Bessel moments (see the referenced paper about the elliptic integral evaluations of Bessel moments).",
   "id": "A273959",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 0,
     "size": 100,
     "source": "oeis-entry"

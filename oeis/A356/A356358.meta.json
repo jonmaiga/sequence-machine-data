@@ -1,0 +1,25 @@
+{
+  "description": "Number of edges among all distinct circles that can be constructed from a point on the origin and n equally spaced points on each of the +x,-x,+y,-y coordinates axes using only a compass.",
+  "id": "A356358",
+  "mentions": [
+    "A353782",
+    "A354605",
+    "A359047",
+    "A359254",
+    "A359571",
+    "A359861",
+    "A359934",
+    "A361622",
+    "A361623"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

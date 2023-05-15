@@ -1,0 +1,15 @@
+{
+  "description": "The number of unlabeled bounded Eulerian posets with n elements.",
+  "id": "A361921",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -2,14 +2,12 @@
   "description": "a(0)=1. a(n) = a(n-1) + (the largest term among {a(0),a(1),...a(n-1)} that has the same number of positive divisors as n).",
   "id": "A125286",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 16,
     "source": "oeis-entry"

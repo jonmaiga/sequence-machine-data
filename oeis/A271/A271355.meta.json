@@ -7,7 +7,6 @@
     "A104762",
     "A169985"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "easy",
     "formulas",
@@ -15,7 +14,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:35",
     "offset": 1,
     "size": 76,
     "source": "oeis-bfile"

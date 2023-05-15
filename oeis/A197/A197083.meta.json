@@ -2,14 +2,12 @@
   "description": "Number of solutions to a+b+c=d+e+f with 0",
   "id": "A197083",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 17:57:31",
     "offset": 0,
     "size": 33,
     "source": "joeis"

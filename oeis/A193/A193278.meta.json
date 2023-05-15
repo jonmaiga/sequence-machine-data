@@ -2,13 +2,11 @@
   "description": "Triangle T(n, k) where T(n, k) = T(k, n), T(n, n*k) = k, and T(n, n+k) = T(n, k) if k not divisible by n.",
   "id": "A193278",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 84,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "a(n) is the number of possible standard CMOS cells with a maximum of n stages.",
   "id": "A358037",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Decimal expansion of the unique value of Gram point g_n such that g_n=n.",
   "id": "A114893",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 4,
     "size": 102,
     "source": "oeis-entry"

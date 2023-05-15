@@ -2,13 +2,11 @@
   "description": "(3/4)*(27*n^2-137*n+180)*n^(n-6)*(2*n-6)!/(n-3)!.",
   "id": "A104003",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 4,
     "size": 14,
     "source": "oeis-entry"

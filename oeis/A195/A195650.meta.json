@@ -1,21 +1,17 @@
 {
-  "description": "Number of ways to place 11n nonattacking kings on a 22 x 2n chessboard",
+  "description": "Number of ways to place 11n nonattacking kings on a 22 x 2n chessboard.",
   "id": "A195650",
   "mentions": [
     "A018807",
-    "A174558",
-    "A195648",
-    "A195649",
     "A195655",
-    "A195660"
+    "A195660",
+    "A350819"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:17",
     "offset": 1,
     "size": 13,
     "source": "oeis-bfile"

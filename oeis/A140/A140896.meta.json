@@ -2,7 +2,6 @@
   "description": "An even-powered type Binet p-adic triangular sequence: t(n,m)=((( 1 + sqrt(prime(n))))^(2*m) + (( 1 - sqrt(prime(n))))^(2*m))/2.",
   "id": "A140896",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 35,
     "source": "oeis-entry"

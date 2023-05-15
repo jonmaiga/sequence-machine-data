@@ -2,12 +2,10 @@
   "description": "Length of longest string of consecutive zeros in the base-7 expansion of 2^n.",
   "id": "A127937",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

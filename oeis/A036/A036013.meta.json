@@ -4,15 +4,12 @@
   "mentions": [
     "A036012"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "easy",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:47",
     "offset": 1,
     "size": 80,
     "source": "oeis-bfile"

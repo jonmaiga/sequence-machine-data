@@ -2,13 +2,11 @@
   "description": "Decimal expansion of atomic unit of charge density in C m^-3.",
   "id": "A254244",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 13,
     "size": 8,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Floor[ (digits n times n) divided by digits (n times 1)].",
   "id": "A110370",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 02:49:06",
     "offset": 1,
     "size": 20,
     "source": "joeis"

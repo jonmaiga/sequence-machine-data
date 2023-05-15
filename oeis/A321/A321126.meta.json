@@ -12,7 +12,6 @@
     "A321125",
     "A321127"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "easy",
     "formulas",
@@ -20,7 +19,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:43",
     "offset": 0,
     "size": 91,
     "source": "oeis-bfile"

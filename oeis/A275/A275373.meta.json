@@ -2,14 +2,12 @@
   "description": "Decimal expansion of the volume of the convex hull of two orthogonal disks in the \"two-circle roller\" configuration.",
   "id": "A275373",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 101,
     "source": "oeis-entry"

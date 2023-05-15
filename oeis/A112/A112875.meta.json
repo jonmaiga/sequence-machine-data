@@ -2,14 +2,12 @@
   "description": "Product of digits of n-th base 10 palindrome.",
   "id": "A112875",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 76,
     "source": "oeis-entry"

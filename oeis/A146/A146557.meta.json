@@ -2,13 +2,11 @@
   "description": "Number of collinear triples of distinct points in Zn x Zn with no two on the same \"horizontal\" or \"vertical\" line.",
   "id": "A146557",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:34",
     "offset": 1,
     "size": 32,
     "source": "oeis-bfile"

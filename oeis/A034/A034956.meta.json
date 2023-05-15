@@ -13,15 +13,13 @@
     "A034960",
     "A046992"
   ],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:17:33",
     "offset": 1,
-    "size": 36,
+    "size": 39,
     "source": "joeis"
   }
 }

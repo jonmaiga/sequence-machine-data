@@ -1,0 +1,33 @@
+{
+  "description": "Square array T(n, k) = k*((2*n-1)*k+1)/2 read by rising antidiagonals.",
+  "id": "A360665",
+  "mentions": [
+    "A000217",
+    "A000290",
+    "A005449",
+    "A005475",
+    "A022265",
+    "A022267",
+    "A022269",
+    "A034827",
+    "A059270",
+    "A081436",
+    "A101986",
+    "A161680",
+    "A162254",
+    "A179297",
+    "A360962",
+    "A361226"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -2,12 +2,10 @@
   "description": "Generalized Markoff numbers: largest number a in a 5-tuple a >= b >= c >= d >= e satisfying the Markoff(5) equation a^2 + b^2 + c^2 + d^2 + e^2 = 4*a*b*c*d*e.",
   "id": "A229241",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 42,
     "source": "oeis-entry"

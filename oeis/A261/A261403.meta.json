@@ -2,13 +2,11 @@
   "description": "Coefficients of an example of a modular form of weight 2 for the group Gamma_0(32).",
   "id": "A261403",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "more",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 0,
     "size": 9,
     "source": "oeis-entry"

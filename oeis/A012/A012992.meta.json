@@ -2,12 +2,10 @@
   "description": "tanh(arctan(x)+arcsin(x))=2*x-17/3!*x^3+625/5!*x^5-50095/7!*x^7...",
   "id": "A012992",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 11:10:58",
     "offset": 0,
     "size": 13,
     "source": "joeis"

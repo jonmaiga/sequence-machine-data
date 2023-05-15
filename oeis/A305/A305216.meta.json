@@ -2,14 +2,12 @@
   "description": "Smallest prime p such that some sequence defined recursively by s(k) = a*s(k-1) - b with s(0) = p produces primes for k = 1..n, where a < p and 0 < b < (a - 1)*p.",
   "id": "A305216",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

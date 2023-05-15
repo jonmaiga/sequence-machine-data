@@ -1,0 +1,21 @@
+{
+  "description": "Main diagonal of the square array A058395.",
+  "id": "A362179",
+  "mentions": [
+    "A000217",
+    "A007318",
+    "A008805",
+    "A058395",
+    "A158920"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "joeis"
+  }
+}

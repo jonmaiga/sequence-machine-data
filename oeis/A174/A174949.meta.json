@@ -2,7 +2,6 @@
   "description": "A symmetrical triangle sequence based on:q=2/12;t(n,m,q)=12*(Binomial[n, m]*(1 - q) + (((n + m + 1)!/((n + 1)!* m!)) + ((2*n - m + 1)!/((n + 1)!*(n - m)!)))*q)",
   "id": "A174949",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 47,
     "source": "oeis-entry"

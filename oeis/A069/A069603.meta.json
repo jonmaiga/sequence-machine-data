@@ -14,13 +14,12 @@
     "A092528",
     "A111525"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:22",
     "offset": 1,
     "size": 66,
     "source": "oeis-bfile"

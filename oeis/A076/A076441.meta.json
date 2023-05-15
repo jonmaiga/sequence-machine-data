@@ -2,13 +2,11 @@
   "description": "Let u(1) = u(2) = u(3) = 1; u(n) = sign(u(n-1)-u(n-2))*u(n-3), then a(n) = 1+u(n).",
   "id": "A076441",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 11:13:55",
     "offset": 1,
     "size": 105,
     "source": "joeis"

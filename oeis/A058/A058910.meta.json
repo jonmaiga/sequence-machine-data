@@ -2,12 +2,10 @@
   "description": "Smallest prime number, not already in sequence, such that the product M of it and all prior numbers in sequence satisfies 2^(M+1) = 1 (mod M).",
   "id": "A058910",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

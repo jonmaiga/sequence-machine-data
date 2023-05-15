@@ -2,14 +2,12 @@
   "description": "Number of length-n strings w over a 4-letter alphabet with the property that if x is a subword of w and |x| >= 2, then x reversed is not a subword of w.",
   "id": "A330011",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 02:03:43",
     "offset": 1,
     "size": 38,
     "source": "joeis"

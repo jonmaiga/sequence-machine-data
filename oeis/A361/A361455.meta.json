@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of simple digraphs on labeled n nodes with k strongly connected components.",
+  "id": "A361455",
+  "mentions": [
+    "A003024",
+    "A003030",
+    "A053763",
+    "A189898",
+    "A361269",
+    "A361582",
+    "A361591"
+  ],
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

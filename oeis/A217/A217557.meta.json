@@ -4,7 +4,6 @@
   "mentions": [
     "A160638"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "fini",
@@ -13,7 +12,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:35",
     "offset": 0,
     "size": 58,
     "source": "oeis-bfile"

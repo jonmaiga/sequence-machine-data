@@ -1,0 +1,19 @@
+{
+  "description": "Record values in A361967.",
+  "id": "A361971",
+  "mentions": [
+    "A131934",
+    "A361966",
+    "A361967",
+    "A361968"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

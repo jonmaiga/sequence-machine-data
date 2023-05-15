@@ -2,13 +2,11 @@
   "description": "Primes in the sequence a(n)=n^2+3/2-1/2*(-1)^n.",
   "id": "A125557",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 42,
     "source": "oeis-entry"

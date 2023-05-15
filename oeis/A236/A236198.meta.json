@@ -2,14 +2,12 @@
   "description": "T(n,k) = Number of (n+1) X (k+1) 0..3 arrays colored with the upper median plus the lower median minus the minimum of every 2 X 2 subblock.",
   "id": "A236198",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:53",
     "offset": 1,
     "size": 24,
     "source": "oeis-bfile"

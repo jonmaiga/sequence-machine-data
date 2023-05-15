@@ -2,14 +2,12 @@
   "description": "Least number k > 2 such that (k!+n)/(k+n) is an integer, or 0 if no such k exists.",
   "id": "A242707",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 32,
     "source": "oeis-entry"

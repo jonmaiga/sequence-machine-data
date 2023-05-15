@@ -2,13 +2,11 @@
   "description": "The eccentric connectivity index of the rooted tree with Matula-Goebel number n.",
   "id": "A206490",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 78,
     "source": "oeis-entry"

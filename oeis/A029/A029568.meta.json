@@ -2,12 +2,10 @@
   "description": "Quasi-Carmichael numbers to base -8: squarefree composites n such that prime p|n ==> p+8|n+8.",
   "id": "A029568",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:38",
     "offset": 1,
     "size": 24,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "Numbers k such that sigma(sigma(k)) = 2*phi(k).",
   "id": "A135241",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:23",
     "offset": 1,
     "size": 28,
     "source": "oeis-bfile"

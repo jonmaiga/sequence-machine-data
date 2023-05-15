@@ -2,12 +2,10 @@
   "description": "a(1) = 4, a(n+1) is the smallest composite number > a(n) such that all of the differences a(n+1)-a(n) are distinct primes.",
   "id": "A073679",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 49,
     "source": "oeis-entry"

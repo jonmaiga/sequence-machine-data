@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if A017665(n) [the numerator of the sum of the reciprocals of the divisors of n] is a power of 2, otherwise 0.",
+  "id": "A361465",
+  "mentions": [
+    "A000035",
+    "A003961",
+    "A017665",
+    "A043305",
+    "A209229",
+    "A355943",
+    "A361466"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

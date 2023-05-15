@@ -2,13 +2,11 @@
   "description": "Triangle read by rows: n-th row lists the smallest set of n+1 consecutive primes with n gaps all divisible by 14.",
   "id": "A284598",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 27,
     "source": "oeis-entry"

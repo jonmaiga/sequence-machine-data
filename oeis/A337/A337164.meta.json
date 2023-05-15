@@ -2,13 +2,11 @@
   "description": "a(n) is the least base, other than 10, in which the decimal digits of n represent a prime, or 0 if there is no such base.",
   "id": "A337164",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:08",
     "offset": 2,
     "size": 93,
     "source": "oeis-bfile"

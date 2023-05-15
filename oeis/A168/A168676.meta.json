@@ -2,13 +2,11 @@
   "description": "Coefficients of characteristic polynomials for a two diagonal Matrix type that has determinant equal to trace:M(n)=Table[If[ k == m && m < n, 1, If[k == m + 1, 1, If[k == 1 && m == n, (-1)^(n + 1)*(n - 1), 0]]], {k, n}, {m, n}]",
   "id": "A168676",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "sign",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 66,
     "source": "oeis-entry"

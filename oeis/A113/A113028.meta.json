@@ -2,14 +2,12 @@
   "description": "a(n) is the largest integer whose base n digits are all different that is divisible by each of its individual digits.",
   "id": "A113028",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 2,
     "size": 16,
     "source": "oeis-entry"

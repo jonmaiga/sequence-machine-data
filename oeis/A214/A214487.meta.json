@@ -2,14 +2,12 @@
   "description": "Degrees of irreducible representations of Fischer group Fi24'.",
   "id": "A214487",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:32",
     "offset": 1,
     "size": 26,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "a(1)=2, a(n) is the smallest prime > a(n-1) such that a(n) is a primitive root mod a(n-1) and vice versa.",
   "id": "A107439",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:59",
     "offset": 1,
     "size": 52,
     "source": "oeis-bfile"

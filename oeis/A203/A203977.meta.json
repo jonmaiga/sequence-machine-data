@@ -2,12 +2,10 @@
   "description": "Number of rooted fullerenes with n faces, where \"rooted\" means that one triple (v,e,f) is distinguished, where v is a vertex, e is an edge on that vertex and f is a face on that edge.",
   "id": "A203977",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:24",
     "offset": 12,
     "size": 45,
     "source": "oeis-bfile"

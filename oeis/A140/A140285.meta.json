@@ -9,14 +9,12 @@
     "A057589",
     "A130594"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "bref",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 3,
     "source": "oeis-entry"

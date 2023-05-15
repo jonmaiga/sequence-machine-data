@@ -2,12 +2,10 @@
   "description": "Number of primes p of the form p = 4m^2+1 for n^2 < m < (n+1)^2.",
   "id": "A046677",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-11-11 15:41:40",
     "offset": 1,
     "size": 77,
     "source": "joeis"

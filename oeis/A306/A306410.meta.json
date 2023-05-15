@@ -2,13 +2,11 @@
   "description": "G.f.: Sum_{n>=0} 2^n * x^n * (3^n + 2^n)^n / (2^n + 3^n*x)^(n+1) = Sum_{n>=0} a(n) * x^n / 2^(n^2).",
   "id": "A306410",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:31",
     "offset": 0,
     "size": 13,
     "source": "oeis-bfile"

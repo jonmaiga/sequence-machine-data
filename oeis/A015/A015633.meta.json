@@ -2,12 +2,10 @@
   "description": "Number of ordered triples of integers from [ 2,n ] with no global factor.",
   "id": "A015633",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-11-11 15:41:36",
     "offset": 2,
     "size": 45,
     "source": "joeis"

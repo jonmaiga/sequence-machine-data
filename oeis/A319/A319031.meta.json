@@ -2,14 +2,12 @@
   "description": "Triangle read by rows: T(n,k) is the number of permutations pi of [k] such that s(pi) avoids the pattern 12...n, where s is West's stack-sorting map (1 <= k <= 2^(n-1)-1).",
   "id": "A319031",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "more",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 2,
     "size": 21,
     "source": "oeis-entry"

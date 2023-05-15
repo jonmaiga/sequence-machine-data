@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of terms in the n-th row of A361756.",
+  "id": "A361757",
+  "mentions": [
+    "A001911",
+    "A112310",
+    "A361756"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,12 +2,10 @@
   "description": "a(1) = a(2) = 1; a(n) = a(n-1) + a(n-2)! for n > 2.",
   "id": "A075883",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

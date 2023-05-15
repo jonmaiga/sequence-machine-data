@@ -1,0 +1,26 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of nonisomorphic multisets of derangements of an n-set with k derangements.",
+  "id": "A362759",
+  "mentions": [
+    "A000012",
+    "A000166",
+    "A002865",
+    "A320032",
+    "A362644",
+    "A362648",
+    "A362760",
+    "A362761",
+    "A362762"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

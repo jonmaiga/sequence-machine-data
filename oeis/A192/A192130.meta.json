@@ -2,13 +2,11 @@
   "description": "Numbers k such that k divided by the number constructed from a decimal point followed by the reversed digits of k is an integer, but not a power of ten.",
   "id": "A192130",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:15",
     "offset": 1,
     "size": 50,
     "source": "oeis-bfile"

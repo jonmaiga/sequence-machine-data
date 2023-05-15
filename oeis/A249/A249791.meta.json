@@ -2,13 +2,11 @@
   "description": "Given g.f. A(x), let B(x) = 1 + x*A(x)^2 and C(x) = 1 + x*A(x)^3, then B(x*C(x)) = C(x) and C(x/B(x)) = B(x).",
   "id": "A249791",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:06",
     "offset": 0,
     "size": 20,
     "source": "oeis-bfile"

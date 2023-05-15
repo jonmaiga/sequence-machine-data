@@ -3,17 +3,17 @@
   "id": "A099867",
   "mentions": [
     "A003501",
+    "A004253",
     "A004254",
+    "A082111",
     "A099868"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:50",
     "offset": 0,
     "size": 24,
     "source": "oeis-bfile"

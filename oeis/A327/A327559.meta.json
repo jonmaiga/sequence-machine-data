@@ -2,13 +2,11 @@
   "description": "Twice the median of {Stirling2(n, k), k = 0..n}.",
   "id": "A327559",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:55",
     "offset": 1,
     "size": 28,
     "source": "oeis-bfile"

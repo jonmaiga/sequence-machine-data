@@ -1,0 +1,18 @@
+{
+  "description": "Length of the \"fractional part\" of the phi-representation of n.",
+  "id": "A362872",
+  "mentions": [
+    "A341722",
+    "A362692"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

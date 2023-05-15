@@ -9,13 +9,11 @@
     "A056516",
     "A285037"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 17:06:48",
     "offset": 1,
     "size": 36,
     "source": "joeis"

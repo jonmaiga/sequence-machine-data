@@ -2,12 +2,10 @@
   "description": "M={{0,1,0},{0,0,1},{1,1,0}} M0=M-IdentityMatrix[3] Det[M0] A[n_]:=M0.A[n-1]; A[0]:={{0,1,1},{1,1,1},{1,1,2}};",
   "id": "A098082",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 91,
     "source": "oeis-entry"

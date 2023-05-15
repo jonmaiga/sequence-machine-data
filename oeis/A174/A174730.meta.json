@@ -2,7 +2,6 @@
   "description": "A symmetrical triangle sequence:q=4:t(n,m,q)=(1 - q^n)*Eulerian[n + 1, m] - (1 - q^n) + 1",
   "id": "A174730",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 37,
     "source": "oeis-entry"

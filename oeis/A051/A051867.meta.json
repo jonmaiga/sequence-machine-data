@@ -2,14 +2,12 @@
   "description": "15-gonal (or pentadecagonal) numbers: n(13n-11)/2.",
   "id": "A051867",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:59:19",
     "offset": 0,
     "size": 42,
     "source": "joeis"

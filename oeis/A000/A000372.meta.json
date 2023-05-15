@@ -28,8 +28,8 @@
     "A320449",
     "A321679"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
+    "changed",
     "formulas",
     "hard",
     "more",
@@ -37,9 +37,8 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:47",
     "offset": 0,
-    "size": 9,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

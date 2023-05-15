@@ -2,7 +2,6 @@
   "description": "a(n) = number of 4-digit primes with digit sum n, where n runs through the non-multiples of 3 in the range [2..34].",
   "id": "A178447",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 23,
     "source": "oeis-entry"

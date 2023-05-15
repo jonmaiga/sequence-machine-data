@@ -2,12 +2,10 @@
   "description": "Prime numbers after which at least four distinct classes modulo 7 are equally represented among the primes to that point.",
   "id": "A217147",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 31,
     "source": "oeis-entry"

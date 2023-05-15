@@ -2,13 +2,11 @@
   "description": "Numbers n such that 125*2^n-1 is prime.",
   "id": "A050588",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 1,
     "size": 26,
     "source": "oeis-entry"

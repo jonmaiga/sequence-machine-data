@@ -2,7 +2,6 @@
   "description": "Smallest k such that {first digit of j*n, 0<=j<=k} = {0,1,...,9}.",
   "id": "A249067",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:05",
     "offset": 1,
     "size": 88,
     "source": "oeis-bfile"

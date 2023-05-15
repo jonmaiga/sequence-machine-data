@@ -1,0 +1,24 @@
+{
+  "description": "Numbers of the form k*(k^5 +- 1)/2.",
+  "id": "A361263",
+  "mentions": [
+    "A006003",
+    "A021003",
+    "A027441",
+    "A057587",
+    "A057590",
+    "A135503",
+    "A167963",
+    "A168029"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

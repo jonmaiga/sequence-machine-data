@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the unique solution to A323410(x) = A362185(n).",
+  "id": "A362211",
+  "mentions": [
+    "A131826",
+    "A323410",
+    "A362185",
+    "A362212"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

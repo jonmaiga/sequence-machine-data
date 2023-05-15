@@ -2,7 +2,6 @@
   "description": "Atomic numbers of elements having a single letter chemical symbol.",
   "id": "A125298",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "fini",
     "formulas",
@@ -10,7 +9,6 @@
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 14,
     "source": "oeis-entry"

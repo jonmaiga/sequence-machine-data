@@ -2,12 +2,10 @@
   "description": "a(1) = 1. After the initial 1, follow with runs of integers; the n-th run of p(a(n)) terms is (1,2,3,4,....,p(a(n))), where p(m) is the m-th prime.",
   "id": "A136109",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 104,
     "source": "oeis-entry"

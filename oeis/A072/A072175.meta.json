@@ -2,7 +2,6 @@
   "description": "a(1)=1, a(2)=2, a(n) = a(n-1) + 1 - 2*sign(a(n-2)) for n>2.",
   "id": "A072175",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-26 09:36:51",
     "offset": 0,
     "size": 105,
     "source": "joeis"

@@ -2,14 +2,12 @@
   "description": "Construct a grid containing the numbers from 1 to 110, laid out as shown below. If you start at 1 and go right 1, then down 2, then left 3, then up 4, then right 5, then down 6 and so on, being sure to wrap around if you go off an edge (e.g., going right from 10 will go to 1) you will land on these numbers in order.",
   "id": "A111771",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 69,
     "source": "oeis-entry"

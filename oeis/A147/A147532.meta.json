@@ -2,13 +2,11 @@
   "description": "Shifted Pascal sequence: p(x,n)=(1 + x)^(n + 1) + If[n < 2, 0, x*((1 - x)^(n + 1)*PolyLog[ -n, x]/x + (1 + x)^(n - 1))/2].",
   "id": "A147532",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": -1,
     "size": 70,
     "source": "oeis-entry"

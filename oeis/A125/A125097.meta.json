@@ -2,12 +2,10 @@
   "description": "a(n) is k such that k*(2n+1) mod 1000 = 123, or 2n+1 if no such k exists.",
   "id": "A125097",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:13",
     "offset": 0,
     "size": 56,
     "source": "oeis-bfile"

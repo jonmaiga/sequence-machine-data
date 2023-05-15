@@ -2,12 +2,10 @@
   "description": "Primes p such that q is the least prime factor > p of 2^(p-1)-1 and p is the greatest prime factor < q of 2^(q-1)-1.",
   "id": "A275596",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

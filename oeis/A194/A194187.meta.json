@@ -6,13 +6,11 @@
     "A070883",
     "A174375"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "look",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:16",
     "offset": 1,
     "size": 60,
     "source": "oeis-bfile"

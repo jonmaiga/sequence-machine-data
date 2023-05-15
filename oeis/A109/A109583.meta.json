@@ -2,12 +2,10 @@
   "description": "Let x^3/(-1-x+x^3)=Sum[b[n]*x^n/n1,{n,0,Infinity}]; a(n) = Abs[b[n]]",
   "id": "A109583",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 21,
     "source": "oeis-entry"

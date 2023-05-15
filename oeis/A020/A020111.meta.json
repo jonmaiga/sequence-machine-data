@@ -2,12 +2,10 @@
   "description": "Ceiling of GAMMA(n+5/9)/GAMMA(5/9).",
   "id": "A020111",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 15:40:50",
     "offset": 0,
     "size": 21,
     "source": "joeis"

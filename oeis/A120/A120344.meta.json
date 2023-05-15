@@ -2,13 +2,11 @@
   "description": "Numbers k such that 23*k + 1 is a prime.",
   "id": "A120344",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:09",
     "offset": 1,
     "size": 56,
     "source": "oeis-bfile"

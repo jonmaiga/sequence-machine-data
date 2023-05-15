@@ -2,14 +2,12 @@
   "description": "Number of bases in which n begins with a \"1\".",
   "id": "A216411",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:34",
     "offset": 2,
     "size": 69,
     "source": "oeis-bfile"

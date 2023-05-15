@@ -1,18 +1,17 @@
 {
-  "description": "a(n) is n plus the minimum of the a(i)*a(n-i) of the previous i=1..n-1.",
+  "description": "a(n) is n plus the minimum of the a(i)*a(n-i) of the previous i = 1..n-1.",
   "id": "A054254",
   "mentions": [
     "A000217",
     "A000297",
     "A034856"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 15:17:13",
     "offset": 0,
     "size": 51,
     "source": "joeis"

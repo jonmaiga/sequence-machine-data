@@ -2,14 +2,13 @@
   "description": "a(1), a(2), a(3) = 1; a(n) = (a(n-1) mod a(n-3)) + a(n-2) + 1.",
   "id": "A330715",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
+    "changed",
     "formulas",
     "hear",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:59",
     "offset": 1,
     "size": 60,
     "source": "oeis-bfile"

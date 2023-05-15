@@ -2,13 +2,11 @@
   "description": "Numbers with digits in nondecreasing order and even digital sum (in base 10) whose digits cannot be partitioned in two multisets with equal digital sum.",
   "id": "A302440",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:26",
     "offset": 1,
     "size": 57,
     "source": "oeis-bfile"

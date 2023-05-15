@@ -2,13 +2,11 @@
   "description": "The permanent of the distance matrix of the rooted tree having Matula number n.",
   "id": "A206489",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

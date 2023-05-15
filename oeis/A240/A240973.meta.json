@@ -2,13 +2,11 @@
   "description": "The number of switching equivalent classes of cube root edge weighted graphs.",
   "id": "A240973",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 3,
     "size": 10,
     "source": "oeis-entry"

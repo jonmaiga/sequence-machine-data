@@ -20,7 +20,6 @@
     "A356201",
     "A356202"
   ],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "formulas",
     "frac",
@@ -28,7 +27,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:30",
     "offset": 0,
     "size": 55,
     "source": "oeis-bfile"

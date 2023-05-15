@@ -2,14 +2,12 @@
   "description": "Hamming weight enumerator of an extremal [92, 46, 16] binary self-dual code.",
   "id": "A105924",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "fini",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 14,
     "source": "oeis-entry"

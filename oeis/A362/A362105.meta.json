@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that take a record number of steps to appear in the Sisyphus sequence A350877.",
+  "id": "A362105",
+  "mentions": [
+    "A350620",
+    "A350877",
+    "A362106"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows, T(n, k) = binomial(n, k) * k! * Stirling2(n-k, k), for n >= 0 and 0 <= k <= n//2, where '//' denotes integer division.",
+  "id": "A362369",
+  "mentions": [
+    "A000169",
+    "A052506",
+    "A362788",
+    "A362789"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

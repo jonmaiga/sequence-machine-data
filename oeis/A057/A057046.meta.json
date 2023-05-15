@@ -2,12 +2,10 @@
   "description": "Let R(i,j) be the rectangle with antidiagonals 1; 2,3; 4,5,6; ...; each k is an R(i(k),j(k)) and A057046(n)=i(2^n).",
   "id": "A057046",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 17:55:45",
     "offset": 0,
     "size": 32,
     "source": "joeis"

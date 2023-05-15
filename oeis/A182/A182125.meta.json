@@ -2,14 +2,12 @@
   "description": "Decimal representation of the modular invariant of the quantum torus associated to the golden mean.",
   "id": "A182125",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "cons",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 4,
     "size": 13,
     "source": "oeis-entry"

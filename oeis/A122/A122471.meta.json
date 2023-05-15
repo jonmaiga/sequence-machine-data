@@ -2,13 +2,11 @@
   "description": "a(n)=7*a(n-1)-n for n> 0, a(0)=1.",
   "id": "A122471",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 13:11:33",
     "offset": 0,
     "size": 20,
     "source": "joeis"

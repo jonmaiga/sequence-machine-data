@@ -1,21 +1,20 @@
 {
-  "description": "a(n)=C(n)+1-0^n where C(n)=A000108(n).",
+  "description": "a(n) = C(n) + 1 - 0^n where C(n) = A000108(n).",
   "id": "A141351",
   "mentions": [
     "A000108",
+    "A057427",
     "A141352",
     "A141353"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-28 11:08:27",
     "offset": 0,
-    "size": 25,
+    "size": 28,
     "source": "joeis"
   }
 }

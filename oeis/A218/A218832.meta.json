@@ -2,14 +2,12 @@
   "description": "Number of positive integer solutions to the Diophantine equation x + y + 2z = n^2.",
   "id": "A218832",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-11-11 15:41:48",
     "offset": 1,
     "size": 40,
     "source": "joeis"

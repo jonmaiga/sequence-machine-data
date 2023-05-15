@@ -5,7 +5,6 @@
     "A113830",
     "A113831"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "bref",
     "fini",
@@ -13,7 +12,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 3,
     "source": "oeis-entry"

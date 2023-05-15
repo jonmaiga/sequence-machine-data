@@ -6,7 +6,6 @@
     "A140264",
     "A140265"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "hear",
@@ -14,7 +13,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:28",
     "offset": 1,
     "size": 72,
     "source": "oeis-bfile"

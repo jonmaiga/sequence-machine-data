@@ -2,13 +2,11 @@
   "description": "Numbers k such that the number of divisors of k equals the maximum number of elements among the continued fractions for k/1, k/2, k/3, k/4, ..., k/k.",
   "id": "A071677",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 53,
     "source": "oeis-entry"

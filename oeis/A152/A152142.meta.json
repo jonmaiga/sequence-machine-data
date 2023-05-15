@@ -2,14 +2,12 @@
   "description": "a(n) = Product_{k=1..floor((n-1)/2)} (1 + 4*sin(k*Pi/n)^2 + 16*sin(k*Pi/n)^4).",
   "id": "A152142",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 18:36:09",
     "offset": 0,
     "size": 30,
     "source": "joeis"

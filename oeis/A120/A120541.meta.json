@@ -2,12 +2,10 @@
   "description": "Bond percolation series for hexagonal net.",
   "id": "A120541",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:09",
     "offset": 0,
     "size": 41,
     "source": "oeis-bfile"

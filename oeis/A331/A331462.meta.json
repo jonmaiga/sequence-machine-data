@@ -5,13 +5,11 @@
     "A054252",
     "A268416"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:01",
     "offset": 0,
     "size": 61,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Indices n such that the congruence prime(n)^x + prime(n+1)^x == prime(n+2) mod prime(n+3) has no solution.",
   "id": "A082371",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 63,
     "source": "oeis-entry"

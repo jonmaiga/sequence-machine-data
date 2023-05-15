@@ -2,12 +2,10 @@
   "description": "Number of primes of the form 2^(n-m) 3^m - 1, 0 <= m <= n.",
   "id": "A167504",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "An infinite overlap-free word without backtracking.",
   "id": "A161371",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:43",
     "offset": 0,
     "size": 87,
     "source": "oeis-bfile"

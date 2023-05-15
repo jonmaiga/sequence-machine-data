@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 17^n+4 is prime.",
+  "description": "Numbers k such that 17^k + 4 is prime.",
   "id": "A253380",
   "mentions": [
     "A058958",
@@ -10,13 +10,11 @@
     "A243397",
     "A247166"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 5,
     "source": "oeis-entry"

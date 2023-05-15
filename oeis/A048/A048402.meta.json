@@ -11,13 +11,11 @@
     "A048405",
     "A048407"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:57",
     "offset": 1,
     "size": 18,
     "source": "oeis-bfile"

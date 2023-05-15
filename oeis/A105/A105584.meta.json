@@ -2,12 +2,10 @@
   "description": "Fixed point of the morphism 1 -> 34, 2 -> 32, 3 -> 12, 4 -> 14, starting from a(0) = 1.",
   "id": "A105584",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:32:11",
     "offset": 0,
     "size": 105,
     "source": "joeis"

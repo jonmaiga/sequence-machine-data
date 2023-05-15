@@ -2,12 +2,10 @@
   "description": "a(n) = prime(n+2) + prime(n+1) - prime(n).",
   "id": "A181428",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:04",
     "offset": 1,
     "size": 67,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "a(1) and a(3) are 0. For all other n, a(n) is the smallest k such that 10*k is adjacent to a multiple of the n-th prime.",
   "id": "A210707",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 68,
     "source": "oeis-entry"

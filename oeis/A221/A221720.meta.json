@@ -2,14 +2,12 @@
   "description": "An avoidance sequence for a pair of tree patterns that is not the avoidance sequence for any set of permutations.",
   "id": "A221720",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:06:13",
     "offset": 1,
     "size": 50,
     "source": "joeis"

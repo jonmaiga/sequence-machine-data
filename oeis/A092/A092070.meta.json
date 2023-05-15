@@ -2,12 +2,10 @@
   "description": "Molien series for genus 2 complete weight enumerators of self-dual codes over GF(3) containing the all-ones vector.",
   "id": "A092070",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 14:26:51",
     "offset": 0,
     "size": 30,
     "source": "joeis"

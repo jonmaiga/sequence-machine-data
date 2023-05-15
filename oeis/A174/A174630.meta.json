@@ -2,14 +2,12 @@
   "description": "A weight function for the case N = 24 and k = 6 in Butler-Graham shuffling.",
   "id": "A174630",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 24,
     "source": "oeis-entry"

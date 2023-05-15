@@ -12,14 +12,12 @@
     "A061663",
     "A114258"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:47",
     "offset": 2,
     "size": 23,
     "source": "oeis-entry"

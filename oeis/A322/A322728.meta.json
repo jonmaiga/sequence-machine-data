@@ -2,13 +2,11 @@
   "description": "Continued fraction expansion of a constant r such that the odd-indexed bisection equals the continued fraction of 2*r, with an even-indexed bisection of all 2's.",
   "id": "A322728",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:46",
     "offset": 0,
     "size": 151,
     "source": "oeis-bfile"

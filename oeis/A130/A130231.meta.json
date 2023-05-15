@@ -2,14 +2,12 @@
   "description": "a(1) = 3; a(n) = a(n-1) + (number of times the digit 3 has appeared in the sequence so far).",
   "id": "A130231",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 62,
     "source": "oeis-entry"

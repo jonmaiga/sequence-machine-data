@@ -2,14 +2,12 @@
   "description": "Primes which can be expressed as concatenation of powers of 4 and 0's.",
   "id": "A066595",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 32,
     "source": "oeis-entry"

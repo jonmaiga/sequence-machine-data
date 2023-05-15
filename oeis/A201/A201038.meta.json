@@ -2,13 +2,11 @@
   "description": "Primes of the form 10n^3-7.",
   "id": "A201038",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 17:29:21",
     "offset": 1,
     "size": 29,
     "source": "joeis"

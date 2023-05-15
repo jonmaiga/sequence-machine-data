@@ -1,0 +1,22 @@
+{
+  "description": "Irregular array, read by decreasing antidiagonals: row n lists the primes whose base-2 representation has exactly n ones.",
+  "id": "A362979",
+  "mentions": [
+    "A000040",
+    "A014499",
+    "A019434"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "new",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

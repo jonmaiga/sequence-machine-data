@@ -2,14 +2,12 @@
   "description": "Number of perfect matchings (or domino tilings) in O_6 X P_n.",
   "id": "A145404",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 10:32:20",
     "offset": 1,
     "size": 18,
     "source": "joeis"

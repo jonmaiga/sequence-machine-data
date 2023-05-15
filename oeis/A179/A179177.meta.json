@@ -2,7 +2,6 @@
   "description": "Integral exponents n for radial potentials V=a*r^(n+1) that lead to motions in terms of circular functions and Legendre Elliptic Integrals.",
   "id": "A179177",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "bref",
     "fini",
@@ -10,7 +9,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

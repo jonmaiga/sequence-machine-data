@@ -2,13 +2,11 @@
   "description": "Expansion of eta(q^2)^7*eta(q^4)/(eta(q)*eta(q^8)^2) in powers of q.",
   "id": "A113416",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-26 13:13:43",
     "offset": 0,
     "size": 73,
     "source": "joeis"

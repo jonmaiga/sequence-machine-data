@@ -2,13 +2,11 @@
   "description": "A prime number sieve defined by the recurrence: T(n, k) = If n = k then 1 else if k divides n then -Sum_{i=k+1..n} T(n, i) else T(n,k) = 0.",
   "id": "A271047",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 78,
     "source": "oeis-entry"

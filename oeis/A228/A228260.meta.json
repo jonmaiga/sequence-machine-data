@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of third differences of arrays of length n+3 of numbers in 0..k",
   "id": "A228260",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:45",
     "offset": 1,
     "size": 43,
     "source": "oeis-bfile"

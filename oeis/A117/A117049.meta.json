@@ -2,12 +2,10 @@
   "description": "Primes of the form 22*(n^2)+1.",
   "id": "A117049",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 34,
     "source": "oeis-entry"

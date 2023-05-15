@@ -2,12 +2,10 @@
   "description": "a(n) = round(3*(4/3)^n).",
   "id": "A227391",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 18:14:28",
     "offset": 0,
     "size": 45,
     "source": "joeis"

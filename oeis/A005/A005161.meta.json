@@ -1,20 +1,23 @@
 {
-  "description": "Number of alternating sign 2n+1 X 2n+1 matrices symmetric with respect to both horizontal and vertical axes.",
+  "description": "Number of alternating sign 2n+1 X 2n+1 matrices symmetric with respect to both horizontal and vertical axes (VHSASM's).",
   "id": "A005161",
   "mentions": [
-    "A005130"
+    "A005130",
+    "A005156",
+    "A005162",
+    "A005163",
+    "A051255",
+    "A059476"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
+    "changed",
     "formulas",
-    "more",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 15:15:07",
     "offset": 0,
-    "size": 13,
-    "source": "joeis"
+    "size": 20,
+    "source": "oeis-bfile"
   }
 }

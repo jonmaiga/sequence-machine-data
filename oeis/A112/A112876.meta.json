@@ -2,14 +2,12 @@
   "description": "Repeatedly divide by 2, add 2 and add 3.",
   "id": "A112876",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

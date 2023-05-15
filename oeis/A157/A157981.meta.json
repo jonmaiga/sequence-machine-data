@@ -2,7 +2,6 @@
   "description": "A triangle of coefficients of characteristic polynomials of a set of matrices: r=23;l=7;m(r,l,n)=(r - l)*IdentityMatrix[n] + l*Table[1, {i, 1, n}, {j, 1, n}].",
   "id": "A157981",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 36,
     "source": "oeis-entry"

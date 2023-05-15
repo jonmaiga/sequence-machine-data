@@ -2,13 +2,11 @@
   "description": "Numbers n such that 41*2^n-1 is prime.",
   "id": "A050546",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

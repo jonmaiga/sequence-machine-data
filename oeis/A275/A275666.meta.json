@@ -7,14 +7,12 @@
     "A034708",
     "A091784"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "base",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 82,
     "source": "oeis-entry"

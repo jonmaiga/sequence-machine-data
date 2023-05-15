@@ -15,7 +15,6 @@
     "A217431",
     "A217433"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "more",
@@ -23,7 +22,6 @@
     "obsc"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

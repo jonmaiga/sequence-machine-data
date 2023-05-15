@@ -1,16 +1,15 @@
 {
-  "description": "Decimal expansion of Wallis' number, the real root of x^3 - 2*x - 5.",
+  "description": "Decimal expansion of Wallis's number, the real root of x^3 - 2*x - 5.",
   "id": "A007493",
   "mentions": [
     "A058297"
   ],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:11",
     "offset": 1,
     "size": 105,
     "source": "oeis-bfile"

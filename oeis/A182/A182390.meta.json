@@ -5,16 +5,14 @@
     "A000240",
     "A182249"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 09:55:04",
     "offset": 0,
     "size": 23,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

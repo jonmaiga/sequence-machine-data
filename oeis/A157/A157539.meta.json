@@ -2,13 +2,11 @@
   "description": "Half the number of length n integer sequences with sum zero and sum of squares 98.",
   "id": "A157539",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 23:19:51",
     "offset": 2,
     "size": 20,
     "source": "joeis"

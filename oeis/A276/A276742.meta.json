@@ -2,13 +2,11 @@
   "description": "E.g.f. A(x) satisfies: A( 1/A(x) * Integral A(x) dx ) = 1 + x.",
   "id": "A276742",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 0,
     "size": 25,
     "source": "oeis-entry"

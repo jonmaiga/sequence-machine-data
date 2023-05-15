@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle T(n,k) (n >= 1, k >= 1) read by rows: row n is constructed by replacing A336811(n,k) with the largest partition into consecutive parts of A000217(A336811(n,k)).",
+  "id": "A359350",
+  "mentions": [
+    "A000027",
+    "A000041",
+    "A000070",
+    "A000217",
+    "A014153",
+    "A176206",
+    "A299779",
+    "A336811",
+    "A336812",
+    "A338156",
+    "A359279",
+    "A359280"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

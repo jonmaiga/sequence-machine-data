@@ -2,13 +2,11 @@
   "description": "Decimal expansion of the absolute value of sum_{k>=1} (-1)^k/(k*binomial(3k,k)).",
   "id": "A229704",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

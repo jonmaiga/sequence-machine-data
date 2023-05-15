@@ -1,13 +1,14 @@
 {
-  "description": "Floor(n^e) is prime.",
+  "description": "Numbers k such that floor(k^e) is prime.",
   "id": "A074221",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:21",
+  "mentions": [
+    "A001113",
+    "A050808"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 55,
     "source": "oeis-entry"

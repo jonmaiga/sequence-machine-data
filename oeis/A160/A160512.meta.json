@@ -2,12 +2,10 @@
   "description": "a(1)=1. a(2n) = the smallest power of a prime > a(2n-1). a(2n+1) = the smallest squarefree integer > a(2n).",
   "id": "A160512",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 64,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Number of ways of placing kings with no more than 1 mutual attack on an n X n chessboard symmetric under 180 degree rotation.",
   "id": "A143874",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 11,
     "source": "oeis-entry"

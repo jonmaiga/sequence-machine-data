@@ -2,12 +2,10 @@
   "description": "Lexicographically earliest infinite sequence of distinct primes such that, for n > 0, 2n | (a(n+1) - a(n)) and, for n > 0, b(n+1) > b(n) where b(n) = (a(n+1) - a(n)) / 2n.",
   "id": "A350392",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 42,
     "source": "oeis-entry"

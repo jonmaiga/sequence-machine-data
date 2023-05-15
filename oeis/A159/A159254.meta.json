@@ -1,18 +1,17 @@
 {
-  "description": "Numbers n with property that n^2 ends with 49.",
+  "description": "Numbers whose square ends with 49.",
   "id": "A159254",
   "mentions": [
     "A111445"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
+    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 17:13:01",
     "offset": 1,
     "size": 51,
     "source": "joeis"

@@ -15,16 +15,13 @@
     "A286554",
     "A286558"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "base",
-    "changed",
     "formulas",
     "look",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:22",
     "offset": 1,
     "size": 75,
     "source": "oeis-bfile"

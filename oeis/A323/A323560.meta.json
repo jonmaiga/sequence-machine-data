@@ -8,7 +8,6 @@
     "A323559",
     "A323562"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "hard",
     "more",
@@ -16,7 +15,6 @@
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 15,
     "size": 4,
     "source": "oeis-entry"

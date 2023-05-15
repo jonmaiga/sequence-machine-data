@@ -1,0 +1,18 @@
+{
+  "description": "Squarefree composite numbers m such that k - m^2 < m, where k is the smallest number greater than m^2 such that rad(k) | m.",
+  "id": "A362003",
+  "mentions": [
+    "A007947",
+    "A120944",
+    "A362045"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

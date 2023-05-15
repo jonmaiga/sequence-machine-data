@@ -2,13 +2,11 @@
   "description": "Number of partitions of n into odd parts and such that parts having size k occur at most k times.",
   "id": "A117953",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 64,
     "source": "oeis-entry"

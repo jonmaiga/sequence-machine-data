@@ -1,0 +1,35 @@
+{
+  "description": "Number of integer partitions of n whose first differences have mean -1.",
+  "id": "A361392",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A008284",
+    "A032741",
+    "A047993",
+    "A058398",
+    "A067538",
+    "A102627",
+    "A144300",
+    "A237363",
+    "A237832",
+    "A316413",
+    "A326567",
+    "A326568",
+    "A326839",
+    "A326840",
+    "A327482",
+    "A348551",
+    "A360614",
+    "A360615",
+    "A360688"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

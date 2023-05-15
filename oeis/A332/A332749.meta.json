@@ -2,12 +2,10 @@
   "description": "a(n) is the sum of the residues of the first k positive triangular numbers modulo n, where k = n if n is odd, 2n if n is even.",
   "id": "A332749",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 54,
     "source": "oeis-entry"

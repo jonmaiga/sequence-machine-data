@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the number of Fibonacci meanders of length m*n and central angle 360/m degrees where m = 3.",
+  "id": "A361574",
+  "mentions": [
+    "A000071",
+    "A197657",
+    "A201631"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

@@ -1,15 +1,14 @@
 {
-  "description": "Number of (n+1)X(7+1) 0..2 arrays with no 2X2 subblock having x11-x00 less than x10-x01",
+  "description": "Number of (n+1) X (7+1) 0..2 arrays with no 2 X 2 subblock having x11-x00 less than x10-x01.",
   "id": "A251064",
   "mentions": [
     "A251065"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:08",
     "offset": 1,
     "size": 11,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "The decimal expansion of 1/64532 (related to an optimal mixed strategy for Hofstadter's million dollar game).",
   "id": "A110617",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:02",
     "offset": 0,
     "size": 105,
     "source": "oeis-bfile"

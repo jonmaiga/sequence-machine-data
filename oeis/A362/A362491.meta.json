@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. satisfies A(x) = exp(x + x^4/4 * A(x)^4).",
+  "id": "A362491",
+  "mentions": [
+    "A362473",
+    "A362474",
+    "A362478",
+    "A362494"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

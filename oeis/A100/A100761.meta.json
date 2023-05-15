@@ -2,13 +2,11 @@
   "description": "Beginning with 1, the smallest positive number which when appended to the reverse concatenation of all previous terms gives a multiple of n.",
   "id": "A100761",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 78,
     "source": "oeis-entry"

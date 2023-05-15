@@ -10,13 +10,11 @@
     "A146523",
     "A239304"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:56",
     "offset": 1,
     "size": 55,
     "source": "oeis-bfile"

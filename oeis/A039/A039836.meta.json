@@ -2,13 +2,10 @@
   "description": "Maximal number m of integers s(i), with 1 <= s(1) < s(2) < ... < s(m) <= n, such that all sums s(i) + s(j), i<>j, are distinct.",
   "id": "A039836",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:50",
     "offset": 1,
     "size": 77,
     "source": "oeis-bfile"

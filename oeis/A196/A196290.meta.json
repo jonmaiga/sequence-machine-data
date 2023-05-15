@@ -1,5 +1,5 @@
 {
-  "description": "n^9 + n.",
+  "description": "a(n) = n^9 + n.",
   "id": "A196290",
   "mentions": [
     "A168116",
@@ -7,15 +7,14 @@
     "A196288",
     "A196289"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:17",
     "offset": 0,
     "size": 25,
     "source": "oeis-bfile"

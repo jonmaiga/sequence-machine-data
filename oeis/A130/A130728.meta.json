@@ -2,12 +2,10 @@
   "description": "Number of ways of placing non-attacking knights on an n X n chessboard symmetric under 90-degree rotation.",
   "id": "A130728",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 23,
     "source": "oeis-entry"

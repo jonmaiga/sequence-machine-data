@@ -2,13 +2,11 @@
   "description": "Integers congruent to 0, 1, 4, 9, 16 or 25 (mod 36) which are not squares.",
   "id": "A081645",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-12-25 19:14:51",
     "offset": 1,
     "size": 54,
     "source": "joeis"

@@ -6,7 +6,6 @@
     "A000668",
     "A135653"
   ],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "easy",
     "fini",
@@ -14,7 +13,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

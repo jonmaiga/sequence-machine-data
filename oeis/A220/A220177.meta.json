@@ -2,13 +2,11 @@
   "description": "T(n,k)=Sum of neighbor maps: number of nXk binary arrays indicating the locations of corresponding elements equal to the sum mod 3 of their horizontal, vertical and antidiagonal neighbors in a random 0..2 nXk array",
   "id": "A220177",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:38",
     "offset": 1,
     "size": 44,
     "source": "oeis-bfile"

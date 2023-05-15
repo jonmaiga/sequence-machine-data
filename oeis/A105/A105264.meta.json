@@ -2,14 +2,12 @@
   "description": "Theta(1) Pisot substitution level 7 : characteristic polynomial x^4-x^3-1=0.",
   "id": "A105264",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

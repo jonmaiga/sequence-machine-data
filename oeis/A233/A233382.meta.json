@@ -2,14 +2,12 @@
   "description": "Decimal expansion of the integral over dx/((1+x^2)(1+tan x)) in the limits 0 and Pi/2.",
   "id": "A233382",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "cons",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 0,
     "size": 106,
     "source": "oeis-entry"

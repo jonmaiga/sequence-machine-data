@@ -2,12 +2,10 @@
   "description": "Primes of the form x^2 +y^2 +z^2 +x*y*z, with x, y, and z >0.",
   "id": "A162579",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 52,
     "source": "oeis-entry"

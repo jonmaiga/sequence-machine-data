@@ -2,13 +2,11 @@
   "description": "A subclass of 2n-node trivalent planar graphs without triangles.",
   "id": "A006797",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 4,
     "size": 12,
     "source": "oeis-entry"

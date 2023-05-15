@@ -5,7 +5,6 @@
     "A037147",
     "A037150"
   ],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "formulas",
@@ -13,7 +12,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2022-11-11 15:41:39",
     "offset": 0,
     "size": 16,
     "source": "joeis"

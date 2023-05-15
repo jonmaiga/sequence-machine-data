@@ -2,7 +2,6 @@
   "description": "Numbers n such that the sum of the 4th powers of their digits > n.",
   "id": "A174908",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "easy",
@@ -11,7 +10,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:58",
     "offset": 1,
     "size": 68,
     "source": "oeis-bfile"

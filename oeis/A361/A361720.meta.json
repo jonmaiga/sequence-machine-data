@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonisomorphic right involutory Płonka magmas with n elements.",
+  "id": "A361720",
+  "mentions": [
+    "A000041",
+    "A000248",
+    "A001329"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

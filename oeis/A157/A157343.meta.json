@@ -2,14 +2,12 @@
   "description": "Triangle T(n,k) read by rows: T(n,k)=1 if the row index n is prime or <=1, otherwise T(n,k) = T(n-1,k)+T(n-1,k-1).",
   "id": "A157343",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

@@ -6,17 +6,17 @@
     "A342834",
     "A342836"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
+    "changed",
     "formulas",
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
-    "size": 18,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

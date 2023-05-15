@@ -2,17 +2,16 @@
   "description": "Arrange 1-digit numbers in Danish in alphabetical order, then 2-digit numbers, then 3-digit numbers etc.",
   "id": "A097943",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
+    "changed",
     "easy",
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
-    "size": 73,
-    "source": "oeis-entry"
+    "size": 100,
+    "source": "joeis"
   }
 }

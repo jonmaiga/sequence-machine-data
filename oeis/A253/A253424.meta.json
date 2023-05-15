@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of (n+2)X(k+2) nonnegative integer arrays with all values the knight distance from the upper left minus as much as 1, with successive minimum path knight move differences either 0 or +1, and any unreachable value zero.",
   "id": "A253424",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:12",
     "offset": 1,
     "size": 39,
     "source": "oeis-bfile"

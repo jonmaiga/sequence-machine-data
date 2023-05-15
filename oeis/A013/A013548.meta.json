@@ -2,13 +2,11 @@
   "description": "Numerator of [x^(2n)] of the Taylor series sech(cosec(x)-coth(x))= 1-x^2/72 +221*x^4/31104 +244939*x^6/235146240 +1846213*x^8/13544423424-...",
   "id": "A013548",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "frac",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:20",
     "offset": 0,
     "size": 12,
     "source": "oeis-bfile"

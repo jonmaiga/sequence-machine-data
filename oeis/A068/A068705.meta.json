@@ -2,14 +2,12 @@
   "description": "Concatenation n,(n-1)^2, (n-2)^3,(n-3)4,...2^(n-1) and 1.",
   "id": "A068705",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

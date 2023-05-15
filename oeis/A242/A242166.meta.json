@@ -2,14 +2,12 @@
   "description": "Table T(d,n) of smallest k>1 such that binomial(k*n-1,n-1) == 1 (mod n^d), read by antidiagonals.",
   "id": "A242166",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "hard",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 87,
     "source": "oeis-entry"

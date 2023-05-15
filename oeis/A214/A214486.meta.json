@@ -2,14 +2,12 @@
   "description": "Degrees of irreducible representations of Ree group R(27).",
   "id": "A214486",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 35,
     "source": "oeis-entry"

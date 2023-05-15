@@ -19,15 +19,12 @@
     "A060486",
     "A060487"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:11",
     "offset": 4,
     "size": 14,
     "source": "oeis-bfile"

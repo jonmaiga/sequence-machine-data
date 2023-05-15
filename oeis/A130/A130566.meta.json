@@ -2,14 +2,12 @@
   "description": "Pyramidal 47-gonal numbers.",
   "id": "A130566",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:10:55",
     "offset": 0,
     "size": 37,
     "source": "joeis"

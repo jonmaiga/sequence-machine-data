@@ -2,14 +2,12 @@
   "description": "a(1) = 1; a(n) = 2*a(n-1) + (number of digits in a(n-1)).",
   "id": "A117079",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:07",
     "offset": 1,
     "size": 31,
     "source": "oeis-bfile"

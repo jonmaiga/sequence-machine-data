@@ -1,5 +1,5 @@
 {
-  "description": "Nontotients: even n such that phi(m) = n has no solution.",
+  "description": "Nontotients: even numbers k such that phi(m) = k has no solution.",
   "id": "A005277",
   "mentions": [
     "A000010",
@@ -14,13 +14,11 @@
     "A079695",
     "A106571"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:08",
     "offset": 1,
     "size": 54,
     "source": "oeis-bfile"

@@ -2,7 +2,6 @@
   "description": "Base 7 digits are, in order, the first n terms of the periodic sequence with initial period 2,1,0,3.",
   "id": "A037733",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 18:03:22",
     "offset": 1,
     "size": 19,
     "source": "joeis"

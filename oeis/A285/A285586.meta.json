@@ -2,14 +2,12 @@
   "description": "Complete list of numbers n for which there exists no prime number between n and 9n/8 inclusive.",
   "id": "A285586",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

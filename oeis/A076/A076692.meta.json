@@ -2,13 +2,11 @@
   "description": "Numbers n such that average of prime(n) and prime(n+1) is a perfect square.",
   "id": "A076692",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:28",
     "offset": 1,
     "size": 41,
     "source": "oeis-bfile"

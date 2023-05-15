@@ -2,7 +2,6 @@
   "description": "A symmetrical triangle sequence;q=2;c(n,q)=Product[1 - q^i, {i, 1, n}];t(n,m,q)=1 - n! + n!*c(n, q)/(c[m, q)*c(n - m, q))/Binomial[n, m]",
   "id": "A176417",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 46,
     "source": "oeis-entry"

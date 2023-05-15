@@ -2,12 +2,10 @@
   "description": "Coordination sequence for D_45 lattice",
   "id": "A107540",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 03:12:31",
     "offset": 0,
     "size": 15,
     "source": "joeis"

@@ -6,14 +6,12 @@
     "A154744",
     "A154745"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": -2,
     "size": 25,
     "source": "oeis-entry"

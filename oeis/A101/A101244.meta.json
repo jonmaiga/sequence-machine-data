@@ -2,14 +2,12 @@
   "description": "Slowest increasing sequence where the absolute difference between the number formed by the last two digits of a(n) and the number formed by the first two digits of a(n+1) equals 10.",
   "id": "A101244",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 48,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Numerator of the best rational approximation to Pi^2+e^2 in orders of magnitude 10^n.",
   "id": "A108147",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 17,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Numbers of the form (p-1)p^k (where p is a prime and k>=0) in ascending order.",
   "id": "A114871",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:05",
     "offset": 1,
     "size": 61,
     "source": "oeis-bfile"

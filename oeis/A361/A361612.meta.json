@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of sqrt(10) truncated to n places (after the decimal point).",
+  "id": "A361612",
+  "mentions": [
+    "A010467",
+    "A011547",
+    "A017934"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

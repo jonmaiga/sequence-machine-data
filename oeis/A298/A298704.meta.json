@@ -2,12 +2,10 @@
   "description": "Numbers that are the smallest of four consecutive primes, no two of which, along with the product of the other two, sum to a nonprime.",
   "id": "A298704",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:21",
     "offset": 1,
     "size": 19,
     "source": "oeis-bfile"

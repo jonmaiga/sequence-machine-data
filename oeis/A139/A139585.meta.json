@@ -2,14 +2,12 @@
   "description": "A triangle of coefficients from truncated Pascal binomials in {x,y},y,z}and {z,x} in which the x^n,y^n and z^n terms are deleted: f(x,y,n)=(x+y)^n-(x^n+y^n); p(x,y,z,n)=f(x,y,n)+f(y,z,n)+f(z,x,n).",
   "id": "A139585",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 56,
     "source": "oeis-entry"

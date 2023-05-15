@@ -4,7 +4,6 @@
   "mentions": [
     "A003678"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "easy",
@@ -13,7 +12,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 10,
     "size": 11,
     "source": "oeis-entry"

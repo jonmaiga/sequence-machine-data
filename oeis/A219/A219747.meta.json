@@ -2,12 +2,10 @@
   "description": "Number of cubic plane graphs with 2n nodes, minimal face size 3 and maximal face size 6.",
   "id": "A219747",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 2,
     "size": 43,
     "source": "oeis-entry"

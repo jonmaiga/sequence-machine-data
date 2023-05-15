@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of black-square subarrays of (n+2)X(k+2) 0..3 arrays x(i,j) with each element diagonally or antidiagonally next to at least one element with value (x(i,j)+1) mod 4, no adjacent elements equal, and upper left element zero",
   "id": "A230935",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:48",
     "offset": 1,
     "size": 50,
     "source": "oeis-bfile"

@@ -1,0 +1,18 @@
+{
+  "description": "Decimal expansion of the sum of the reciprocals of the Busy Beaver numbers (A060843).",
+  "id": "A362199",
+  "mentions": [
+    "A060843"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

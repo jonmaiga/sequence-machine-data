@@ -2,14 +2,12 @@
   "description": "a(n) = how many of {6,7,8} divide n.",
   "id": "A321013",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 09:51:23",
     "offset": 1,
     "size": 102,
     "source": "joeis"

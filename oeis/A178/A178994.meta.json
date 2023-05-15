@@ -2,14 +2,12 @@
   "description": "T(n,k) = Maximum number Q for an n X k 1..Q array with each value in 1..Q horizontally or vertically adjacent to each other value at least once, or -1 if no such number exists.",
   "id": "A178994",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:02",
     "offset": 1,
     "size": 94,
     "source": "oeis-bfile"

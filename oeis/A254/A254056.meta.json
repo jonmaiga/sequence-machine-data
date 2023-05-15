@@ -2,13 +2,11 @@
   "description": "Sum two last digits of the sequence to get next term, starting with 1,2.",
   "id": "A254056",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:03:17",
     "offset": 1,
     "size": 57,
     "source": "joeis"

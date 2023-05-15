@@ -2,14 +2,12 @@
   "description": "Conjectured value of N(2^n), defined by property that the Jensen polynomial J^{2^n,m}_p(X) is hyperbolic for m >= N(2^n).",
   "id": "A324794",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 0,
     "size": 6,
     "source": "oeis-entry"

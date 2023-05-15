@@ -2,7 +2,6 @@
   "description": "Triangle of coefficients of the Pollaczek polynomials with a=1, b=1 multiplied by n! to make then integers.",
   "id": "A136454",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 40,
     "source": "oeis-entry"

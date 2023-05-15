@@ -2,13 +2,11 @@
   "description": "Decimal expansion of the constant x satisfying x! = Gamma[x+1] = 40.",
   "id": "A129624",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

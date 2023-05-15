@@ -2,13 +2,11 @@
   "description": "Number of unsensed planar maps with n edges and without faces of degree 1 or 2.",
   "id": "A006393",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 2,
     "size": 11,
     "source": "oeis-entry"

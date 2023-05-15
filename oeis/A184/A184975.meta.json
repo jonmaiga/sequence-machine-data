@@ -2,13 +2,11 @@
   "description": "E.g.f. exp((1-sqrt(1-4*log(1+x)))/2).",
   "id": "A184975",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:09",
     "offset": 0,
     "size": 20,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "High-temperature expansion of susceptibility chi_4 for square lattice.",
   "id": "A010045",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 0,
     "size": 15,
     "source": "oeis-entry"

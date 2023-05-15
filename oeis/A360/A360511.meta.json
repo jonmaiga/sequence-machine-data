@@ -6,12 +6,10 @@
     "A064819",
     "A360510"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

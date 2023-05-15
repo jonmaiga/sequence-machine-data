@@ -2,12 +2,10 @@
   "description": "The first prime of 8 consecutive primes a, b, c, d, e, f, g, h such that a + g = c + e and b + h = d + f.",
   "id": "A292618",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:08",
     "offset": 1,
     "size": 41,
     "source": "oeis-bfile"

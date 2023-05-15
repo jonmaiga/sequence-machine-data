@@ -11,16 +11,17 @@
     "A047994",
     "A049225",
     "A049283",
-    "A135347"
+    "A135347",
+    "A361966",
+    "A361967"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 75,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

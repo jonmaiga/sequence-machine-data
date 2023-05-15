@@ -2,13 +2,11 @@
   "description": "Primes consisting of only 3's and a 2 in base 10.",
   "id": "A168438",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 39,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Next 2n-1 odd numbers in decreasing order followed by next 2n even numbers in decreasing order.",
   "id": "A109857",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 72,
     "source": "oeis-entry"

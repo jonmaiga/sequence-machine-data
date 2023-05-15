@@ -2,13 +2,11 @@
   "description": "arcsinh(sin(arcsinh(x)))=x-3/3!*x^3+49/5!*x^5-2075/7!*x^7+168865/9!*x^9...",
   "id": "A012040",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:19",
     "offset": 0,
     "size": 13,
     "source": "oeis-bfile"

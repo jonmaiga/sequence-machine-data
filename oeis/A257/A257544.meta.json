@@ -2,13 +2,11 @@
   "description": "E.g.f.: 1/(1 - x/(1 - (x^2/2!)/(1 - (x^3/3!)/(1 - (x^4/4!)/(1 - (x^5/5!)/(1 -... (x^n/n!)/(1 -...))))))), a continued fraction.",
   "id": "A257544",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:15",
     "offset": 0,
     "size": 23,
     "source": "oeis-bfile"

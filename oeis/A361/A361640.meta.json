@@ -1,0 +1,18 @@
+{
+  "description": "a(0) = 0, a(1) = 1; thereafter let b be the least power of 2 that does not appear in the binary expansions of a(n-2) and a(n-1), then a(n) is the smallest multiple of b that is not yet in the sequence.",
+  "id": "A361640",
+  "mentions": [
+    "A006519",
+    "A359804",
+    "A361641"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

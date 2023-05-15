@@ -2,14 +2,12 @@
   "description": "Sum of prime divisors of n is congruent to 2^n (mod n).",
   "id": "A051423",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:59",
     "offset": 1,
     "size": 27,
     "source": "oeis-bfile"

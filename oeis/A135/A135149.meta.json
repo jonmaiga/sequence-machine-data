@@ -1,5 +1,5 @@
 {
-  "description": "A binomial recursion : a(n) = p(n) (see formula).",
+  "description": "A binomial recursion: a(n) = p(n) (see formula).",
   "id": "A135149",
   "mentions": [
     "A135074",
@@ -8,13 +8,11 @@
     "A135148",
     "A135150"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:23",
     "offset": 1,
     "size": 20,
     "source": "oeis-bfile"

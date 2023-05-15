@@ -1,0 +1,25 @@
+{
+  "description": "Leading terms of the rows of the array in A362450.",
+  "id": "A361897",
+  "mentions": [
+    "A000005",
+    "A001659",
+    "A036262",
+    "A051950",
+    "A362450",
+    "A362451",
+    "A362452",
+    "A362453",
+    "A362455"
+  ],
+  "tags": [
+    "easy",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

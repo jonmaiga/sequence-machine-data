@@ -2,14 +2,12 @@
   "description": "Positions of records in iterated MD5 applied to empty string.",
   "id": "A234849",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "fini",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:52",
     "offset": 1,
     "size": 31,
     "source": "oeis-bfile"

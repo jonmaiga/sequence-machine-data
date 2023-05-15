@@ -2,13 +2,11 @@
   "description": "Lengths of the sections of decimal expansion of Pi containing all 10 digits at least once.",
   "id": "A104781",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 69,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "a(1) = 1; a(n) > 0; for each k from 1 to n, k divides a(n) or a(n)+1 and a(n) is the least such integer.",
   "id": "A064219",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 30,
     "source": "oeis-entry"

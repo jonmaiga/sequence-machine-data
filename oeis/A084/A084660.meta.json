@@ -4,7 +4,6 @@
   "mentions": [
     "A069140"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "cons",
     "easy",
@@ -12,9 +11,8 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:31",
     "offset": 0,
     "size": 103,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -2,13 +2,11 @@
   "description": "Primes p such that 8*p+21 is prime.",
   "id": "A156004",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:38",
     "offset": 1,
     "size": 55,
     "source": "oeis-bfile"

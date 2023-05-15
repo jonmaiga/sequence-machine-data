@@ -2,13 +2,11 @@
   "description": "Smallest number whose decimal expansion is a concatenation of two primes in n different ways.",
   "id": "A213072",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

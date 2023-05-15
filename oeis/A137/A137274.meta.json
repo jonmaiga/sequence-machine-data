@@ -2,14 +2,12 @@
   "description": "Even terms in the Taylor series for the Fisher Information of a Rice-distributed variable (at amplitude 0, with sigma==1).",
   "id": "A137274",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "more",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 11,
     "source": "oeis-entry"

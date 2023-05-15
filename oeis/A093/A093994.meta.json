@@ -2,14 +2,12 @@
   "description": "Composite numbers all of whose divisors except the divisor 1 have a prime digital sum.",
   "id": "A093994",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:45",
     "offset": 1,
     "size": 53,
     "source": "oeis-bfile"

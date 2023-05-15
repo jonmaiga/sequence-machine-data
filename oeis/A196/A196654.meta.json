@@ -2,7 +2,6 @@
   "description": "Decimal expansion of mean square width of the regular tetrahedron.",
   "id": "A196654",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "cons",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 17:02:01",
     "offset": 0,
     "size": 105,
     "source": "joeis"

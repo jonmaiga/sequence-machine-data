@@ -1,0 +1,20 @@
+{
+  "description": "Record values in A362183.",
+  "id": "A362184",
+  "mentions": [
+    "A101373",
+    "A131934",
+    "A361971",
+    "A362181",
+    "A362183"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

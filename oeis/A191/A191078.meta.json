@@ -2,13 +2,11 @@
   "description": "Primes p that have Kronecker symbol (p|70) = -1.",
   "id": "A191078",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:18:33",
     "offset": 1,
     "size": 54,
     "source": "joeis"

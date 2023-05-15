@@ -2,14 +2,12 @@
   "description": "Number of nonisomorphic subsets of n cards of a standard deck of 52 cards under action of symmetric group S_4 acting on the suits.",
   "id": "A245228",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 0,
     "size": 53,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Triangle T(n,k) read by rows giving number of inequivalent indecomposable binary linear [n,k] codes with all columns distinct (projective codes) (n >= 1, 1 <= k <= n).",
   "id": "A091006",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 84,
     "source": "oeis-entry"

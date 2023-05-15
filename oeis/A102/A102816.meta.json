@@ -2,13 +2,11 @@
   "description": "Numbers k such that k111111111 is prime.",
   "id": "A102816",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 19:23:27",
     "offset": 1,
     "size": 59,
     "source": "joeis"

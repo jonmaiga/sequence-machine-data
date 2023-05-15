@@ -2,13 +2,11 @@
   "description": "Expansion of (1+9*x+80*x^2)/(1-x^2-729*x^3).",
   "id": "A158762",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 17:30:45",
     "offset": 0,
     "size": 19,
     "source": "joeis"

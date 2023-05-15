@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least prime p that ends an increasing sequence x(1), ..., x(n) = p of primes such that x(i) + x(i+1) + 1 is prime for 1 <= i <= n-1.",
+  "id": "A362770",
+  "mentions": [
+    "A112786",
+    "A362629"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,13 +2,11 @@
   "description": "Numbers n such that abs(n - 4^k) is prime for k = 1..8.",
   "id": "A281047",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:49",
     "offset": 1,
     "size": 31,
     "source": "oeis-bfile"

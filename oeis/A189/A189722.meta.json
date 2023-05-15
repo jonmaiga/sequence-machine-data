@@ -2,13 +2,11 @@
   "description": "Number of self-avoiding walks of length n on square lattice such that at each point the angle turns 90 degrees (the first turn is assumed to be to the left - otherwise the number must be doubled).",
   "id": "A189722",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn",
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:13",
     "offset": 2,
     "size": 39,
     "source": "oeis-bfile"

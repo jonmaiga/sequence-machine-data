@@ -2,14 +2,12 @@
   "description": "Decimal expansion of ((5 - 2*sqrt(2))*Pi)/24.",
   "id": "A093823",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "cons",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:44",
     "offset": 0,
     "size": 102,
     "source": "oeis-bfile"

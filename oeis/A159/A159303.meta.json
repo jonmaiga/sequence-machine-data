@@ -2,13 +2,11 @@
   "description": "a(n) is the least L^1-norm of a square integer matrix of determinant n. The L^1-norm of the matrix M=(m_i,j) is by definition sum(i,j) |m_i,j|.",
   "id": "A159303",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Numbers with exactly 2 0's in base 4 expansion.",
   "id": "A023707",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:19:23",
     "offset": 1,
     "size": 48,
     "source": "joeis"

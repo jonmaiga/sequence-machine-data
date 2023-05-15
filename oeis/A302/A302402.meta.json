@@ -1,15 +1,16 @@
 {
   "description": "Total domination number of the n-ladder graph.",
   "id": "A302402",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:35",
+  "mentions": [
+    "A002264"
+  ],
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 07:36:05",
     "offset": 0,
     "size": 71,
     "source": "joeis"

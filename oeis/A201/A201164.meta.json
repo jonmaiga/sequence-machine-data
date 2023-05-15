@@ -2,13 +2,11 @@
   "description": "Expansion of g.f. -(1+x)*(1+sqrt(1-4*x))/(2*(1-x-x^2)).",
   "id": "A201164",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:22",
     "offset": 0,
     "size": 33,
     "source": "oeis-bfile"

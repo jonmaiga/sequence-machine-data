@@ -1,0 +1,25 @@
+{
+  "description": "Smallest k such that the concatenation of the numbers 123...k in base n is prime when interpreted as a decimal number, or -1 if no such prime exists.",
+  "id": "A362429",
+  "mentions": [
+    "A000217",
+    "A004023",
+    "A007908",
+    "A058935",
+    "A117640",
+    "A360502",
+    "A362117",
+    "A362118",
+    "A362119"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

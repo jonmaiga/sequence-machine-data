@@ -8,16 +8,13 @@
     "A169889",
     "A169963"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
-    "changed",
     "easy",
     "look",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:44:22",
     "offset": 0,
     "size": 56,
     "source": "oeis-bfile"

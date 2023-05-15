@@ -2,14 +2,12 @@
   "description": "Concerning the popular MMORPG \"Runescape\" by JAGeX corporation, this sequence gives the number of experience points needed for a given level in a skill.",
   "id": "A111078",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "dumb",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 40,
     "source": "oeis-entry"

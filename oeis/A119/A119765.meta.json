@@ -2,13 +2,11 @@
   "description": "Irregular array where row n is the positive integers which divide the number of terms in all previous rows. a(1)=1.",
   "id": "A119765",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 90,
     "source": "oeis-entry"

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A359149(k) is prime when interpreted as a binary number.",
+  "id": "A362411",
+  "mentions": [
+    "A007088",
+    "A359149"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

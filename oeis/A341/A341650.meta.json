@@ -2,12 +2,10 @@
   "description": "a(n) is the first prime p such that each of the first n primes divides at least one of the composites between p and the next prime.",
   "id": "A341650",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:14",
     "offset": 0,
     "size": 46,
     "source": "oeis-bfile"

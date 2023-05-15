@@ -2,14 +2,12 @@
   "description": "Non-palindromic number and its reversal are both multiples of 15.",
   "id": "A062914",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-10-18 14:56:43",
     "offset": 1,
     "size": 40,
     "source": "joeis"

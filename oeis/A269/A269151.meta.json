@@ -1,15 +1,13 @@
 {
-  "description": "Number of nX7 0..3 arrays with some element plus some horizontally, antidiagonally or vertically adjacent neighbor totalling three exactly once.",
+  "description": "Number of n X 7 0..3 arrays with some element plus some horizontally, antidiagonally or vertically adjacent neighbor totalling three exactly once.",
   "id": "A269151",
   "mentions": [
     "A269152"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:31",
     "offset": 1,
     "size": 11,
     "source": "oeis-bfile"

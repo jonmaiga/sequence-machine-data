@@ -16,14 +16,12 @@
     "A165656",
     "A180260"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 25,
     "source": "oeis-entry"

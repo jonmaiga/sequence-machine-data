@@ -1,16 +1,15 @@
 {
-  "description": "Number of 3Xn 0..1 arrays avoiding 0 0 0 and 0 1 0 horizontally and 0 0 1 and 1 0 1 vertically",
+  "description": "Number of 3 X n 0..1 arrays avoiding 0 0 0 and 0 1 0 horizontally and 0 0 1 and 1 0 1 vertically.",
   "id": "A207600",
   "mentions": [
     "A207599"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:27",
     "offset": 1,
     "size": 24,
     "source": "oeis-bfile"

@@ -1,18 +1,17 @@
 {
-  "description": "a(1)=a(2)=a(3)=a(4)=1; for n > 4: a(n) = A000720(a(n-1)+a(n-2)+a(n-3)+a(n-4)).",
+  "description": "a(n) = A000720(Sum_{j=1..4} a(n-j)) with a(1)=a(2)=a(3)=a(4)=1.",
   "id": "A100476",
   "mentions": [
-    "A000720"
+    "A000720",
+    "A100478"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:37:33",
     "offset": 1,
     "size": 73,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

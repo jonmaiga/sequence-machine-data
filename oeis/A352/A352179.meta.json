@@ -2,13 +2,11 @@
   "description": "Numbers k such that decimal expansion of 14^k begins with 14.",
   "id": "A352179",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

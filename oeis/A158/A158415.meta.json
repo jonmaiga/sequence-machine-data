@@ -2,14 +2,12 @@
   "description": "Number of different (by numeric value, not by structure) expressions, consisting of N symbols, each of them is one of: nullary 1, unary sqrt(), binary +.",
   "id": "A158415",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 28,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "The maximum departure from the x axis, rounded to the nearest integer, in each cycle of the zeta function for increasingly larger negative values.",
   "id": "A084973",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": -1,
     "size": 22,
     "source": "oeis-entry"

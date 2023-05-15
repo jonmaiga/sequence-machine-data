@@ -2,13 +2,11 @@
   "description": "Primes p such that 12*p + 13 is prime.",
   "id": "A089443",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:41",
     "offset": 1,
     "size": 54,
     "source": "oeis-bfile"

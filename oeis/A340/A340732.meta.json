@@ -2,13 +2,11 @@
   "description": "Number of partitions of n into 4 parts such that the product of the smallest and largest parts is equal to the product of the middle two parts.",
   "id": "A340732",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 0,
     "size": 82,
     "source": "oeis-entry"

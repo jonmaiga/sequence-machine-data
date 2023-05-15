@@ -25,7 +25,6 @@
     "A243499",
     "A272020"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nice",
@@ -33,7 +32,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:13",
     "offset": 1,
     "size": 80,
     "source": "oeis-bfile"

@@ -6,13 +6,11 @@
     "A220861",
     "A220862"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 75,
     "source": "oeis-entry"

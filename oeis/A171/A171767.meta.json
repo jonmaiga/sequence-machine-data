@@ -2,13 +2,11 @@
   "description": "Numbers n such that 10^n*(3+7*10^n)+7 is prime.",
   "id": "A171767",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

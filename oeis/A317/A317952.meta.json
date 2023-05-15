@@ -2,13 +2,11 @@
   "description": "Trajectory of 1 under repeated application of the morphism 1->121, 2->232, 3->343, 4->414.",
   "id": "A317952",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:37",
     "offset": 0,
     "size": 94,
     "source": "oeis-bfile"

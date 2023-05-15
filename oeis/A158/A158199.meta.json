@@ -2,7 +2,6 @@
   "description": "A coefficients of characteristic polynomials of A_n Cartan matrices times their transposes: t(n,m,d)=If[ n == m, 2, If[n == m - 1 || n == m + 1, -1, 0]]. M(d)=t(n,m,d)*Transpose[t(n,m,d)]",
   "id": "A158199",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 49,
     "source": "oeis-entry"

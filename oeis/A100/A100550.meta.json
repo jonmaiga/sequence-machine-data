@@ -1,23 +1,20 @@
 {
-  "description": "If n>3 a(n)=a(n-1)+2*a(n-2)+3*a(n-3) else a(n)=n",
+  "description": "a(n) = a(n-1) + 2*a(n-2) + 3*a(n-3), for n>3, otherwise a(n) = n.",
   "id": "A100550",
   "mentions": [
-    "A000073",
     "A092835",
     "A092836",
     "A100477",
     "A101822"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 02:52:56",
     "offset": 0,
     "size": 31,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

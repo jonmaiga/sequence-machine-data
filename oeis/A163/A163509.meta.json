@@ -2,14 +2,12 @@
   "description": "Take n written in binary. Replace the leftmost run of 1's with just a single 1. a(n) is the decimal equivalent of the result.",
   "id": "A163509",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "look",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:06:53",
     "offset": 1,
     "size": 78,
     "source": "joeis"

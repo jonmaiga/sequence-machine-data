@@ -1,0 +1,19 @@
+{
+  "description": "Genus of Weierstrass curve with discriminant A079898(n) in moduli space M_2 of compact Riemann surfaces of genus 2.",
+  "id": "A361157",
+  "mentions": [
+    "A079896",
+    "A079898",
+    "A361158",
+    "A361159"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

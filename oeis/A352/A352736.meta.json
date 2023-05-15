@@ -2,14 +2,12 @@
   "description": "a(n) is the smallest b >= 2 such that 1 + Sum_{k=0..n} b^(2^k) is prime, or 1 if no such b exists.",
   "id": "A352736",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 0,
     "size": 18,
     "source": "oeis-entry"

@@ -1,18 +1,16 @@
 {
-  "description": "Successive maximal values of A174435",
+  "description": "Successive maximal values of A174435.",
   "id": "A174437",
   "mentions": [
     "A001917",
     "A152598",
     "A174435"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 28,
     "source": "oeis-entry"

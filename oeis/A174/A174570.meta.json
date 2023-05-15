@@ -2,13 +2,11 @@
   "description": "Numbers n such that sum of squares of factorials of digits of n is a power of 2.",
   "id": "A174570",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 49,
     "source": "oeis-entry"

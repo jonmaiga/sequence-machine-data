@@ -2,13 +2,11 @@
   "description": "Number of sequences of length n whose terms are positive integers less than or equal to n in which the i-th term is greater than both the (i-2)nd and (i-3)rd terms.",
   "id": "A141043",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 17,
     "source": "oeis-entry"

@@ -4,7 +4,6 @@
   "mentions": [
     "A000984",
     "A333592",
-    "A333952",
     "A357509",
     "A357565",
     "A357566",
@@ -12,16 +11,15 @@
     "A357673",
     "A357674"
   ],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 0,
     "size": 21,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

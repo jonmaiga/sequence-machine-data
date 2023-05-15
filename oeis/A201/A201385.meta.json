@@ -2,12 +2,10 @@
   "description": "Nonzero elements, by row, in a matrix of coefficients of Schur functions arising from the Pascal staircase.",
   "id": "A201385",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

@@ -2,7 +2,6 @@
   "description": "Maximal number of ordinary double points on an n-th degree algebraic surface in complex projective 3-space.",
   "id": "A046001",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "hard",
     "more",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

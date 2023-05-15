@@ -2,7 +2,6 @@
   "description": "A triangular sequence based on second integer differential using columns n and rows m, in the ChebyshevT T(n,m): d20(n,m)=T(n+2,m)-2*T(n+1,m)+T(n,m); d02(n,m)=T(n,m+2)-2*T(n,m+1)+T(n,m); D2(n,m)=d20(n,m)+d02(n,m).",
   "id": "A140877",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 45,
     "source": "oeis-entry"

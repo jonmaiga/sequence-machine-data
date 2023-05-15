@@ -2,12 +2,10 @@
   "description": "sec(sin(x)+log(x+1))=1+4/2!*x^2-6/3!*x^3+91/4!*x^4-470/5!*x^5...",
   "id": "A012897",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-16 12:46:55",
     "offset": 0,
     "size": 19,
     "source": "joeis"

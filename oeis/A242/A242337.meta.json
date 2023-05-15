@@ -1,18 +1,16 @@
 {
-  "description": "Numbers k such that k*6^k-1 is semiprime.",
+  "description": "Numbers k such that k*6^k - 1 is semiprime.",
   "id": "A242337",
   "mentions": [
     "A059675",
     "A064752",
     "A242273"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 31,
     "source": "oeis-entry"

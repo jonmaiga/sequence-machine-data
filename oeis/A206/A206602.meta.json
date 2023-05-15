@@ -2,12 +2,10 @@
   "description": "a(n) is the number of white and black stones lying in a circle; starting with place 1, the first a(n) steps of length 5 give the places of white stones. Beginning with last place, the next a(n) steps give the places of black stones.",
   "id": "A206602",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 32,
     "source": "oeis-entry"

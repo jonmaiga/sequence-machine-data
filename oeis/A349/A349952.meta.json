@@ -2,12 +2,10 @@
   "description": "The smallest of 3 consecutive integers such that the first is divisible by the square of a prime, the second is divisible by the cube of a prime, and the third is divisible by the fourth power of a prime.",
   "id": "A349952",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 38,
     "source": "oeis-entry"

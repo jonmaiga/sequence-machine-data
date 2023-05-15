@@ -2,13 +2,11 @@
   "description": "Primes p such that every suffix of the base-4 representation of p is a prime.",
   "id": "A278699",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 56,
     "source": "oeis-entry"

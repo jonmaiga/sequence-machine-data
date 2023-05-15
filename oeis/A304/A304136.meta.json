@@ -1,16 +1,14 @@
 {
-  "description": "Number of nX3 0..1 arrays with every element unequal to 0, 2, 3 or 6 king-move adjacent elements, with upper left element zero.",
+  "description": "Number of n X 3 0..1 arrays with every element unequal to 0, 2, 3 or 6 king-move adjacent elements, with upper left element zero.",
   "id": "A304136",
   "mentions": [
     "A304141"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:28",
     "offset": 1,
     "size": 37,
     "source": "oeis-bfile"

@@ -8,7 +8,6 @@
     "A030102",
     "A030103"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "base",
     "easy",
@@ -16,7 +15,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 2,
     "size": 95,
     "source": "oeis-entry"

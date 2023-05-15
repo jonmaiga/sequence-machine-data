@@ -2,13 +2,11 @@
   "description": "Triangle read by rows: first row is 2; given row k, define the elements of row k+1 as the (sorted) elements derived from row k by two recursion rules: (i.) if x is in row k, then (x+5)^2 is in row k+1; (ii.) if x^2 is in row k, then x is in row k+1.",
   "id": "A296142",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:15",
     "offset": 1,
     "size": 32,
     "source": "oeis-bfile"

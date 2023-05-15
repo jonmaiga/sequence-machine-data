@@ -2,14 +2,12 @@
   "description": "a(n) = C(n+2,3) + 2*C(n,2) + 2*(n-2).",
   "id": "A034857",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-28 15:16:47",
     "offset": 1,
     "size": 47,
     "source": "joeis"

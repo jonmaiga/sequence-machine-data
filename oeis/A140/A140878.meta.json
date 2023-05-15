@@ -2,13 +2,11 @@
   "description": "Nonzero entries in the array on page 8 of the reference.",
   "id": "A140878",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 56,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Trajectory of 0 under the morphism 0 -> 01, 1 -> 202, 2 -> empty string.",
   "id": "A214332",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:54:15",
     "offset": 0,
     "size": 87,
     "source": "joeis"

@@ -2,7 +2,6 @@
   "description": "A symmetrical triangular sequence adjusted by -t[n,-1]+1 :t(n,m)=If[n == 0, 1, Sum[Binomial[n, k]*Eulerian[n + 1, k]*(-1)^k*(m + 1 - k)^n, {k, 0, n}]]",
   "id": "A174588",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 37,
     "source": "oeis-entry"

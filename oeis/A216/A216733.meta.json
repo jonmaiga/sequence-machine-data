@@ -2,12 +2,10 @@
   "description": "a(1)=1; thereafter a(n) = (n/2)*Sum_{i=1..n-1} K(i,n-i)*a(i)*a(n-i), where K(i,j)=i/j+j/i+2.",
   "id": "A216733",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 19,
     "source": "oeis-entry"

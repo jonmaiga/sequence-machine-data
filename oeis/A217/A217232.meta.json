@@ -2,7 +2,6 @@
   "description": "T(n,k)=Number of triangular nXnXn arrays of occupancy after each element moves to some neighbor but without 2-loops and with no occupancy greater than k.",
   "id": "A217232",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "hard",
     "more",
@@ -10,7 +9,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 34,
     "source": "oeis-entry"

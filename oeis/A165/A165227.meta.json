@@ -2,14 +2,12 @@
   "description": "Iteratively parse Pi until 9 of 10 digits have been found, with the remaining \"lost\" digit = the next term in the sequence.",
   "id": "A165227",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

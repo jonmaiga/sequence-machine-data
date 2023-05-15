@@ -2,12 +2,10 @@
   "description": "Number of spanning trees in the n X n queen graph.",
   "id": "A288951",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

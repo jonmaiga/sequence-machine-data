@@ -2,7 +2,6 @@
   "description": "Integers which in French have the same number of letters as their reverse, excluding integers that use the same letters as their reverse.",
   "id": "A107282",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 49,
     "source": "oeis-entry"

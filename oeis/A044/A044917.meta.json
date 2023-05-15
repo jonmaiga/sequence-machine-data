@@ -2,13 +2,11 @@
   "description": "Numbers whose base-16 run lengths alternate: odd, even, odd, ...",
   "id": "A044917",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:22:35",
     "offset": 1,
     "size": 51,
     "source": "joeis"

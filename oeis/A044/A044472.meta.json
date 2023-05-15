@@ -2,13 +2,11 @@
   "description": "Numbers n such that string 2,4 occurs in the base 5 representation of n but not of n+1.",
   "id": "A044472",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:22:27",
     "offset": 1,
     "size": 47,
     "source": "joeis"

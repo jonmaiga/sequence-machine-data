@@ -2,13 +2,11 @@
   "description": "Number of even parts in the partitions of n into 10 parts.",
   "id": "A309662",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 0,
     "size": 51,
     "source": "oeis-entry"

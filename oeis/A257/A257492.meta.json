@@ -1,17 +1,16 @@
 {
-  "description": "Positions where both Pi and the Golden Ratio have a common decimal digit.",
+  "description": "Positions where Pi and the Golden Ratio have a common decimal digit.",
   "id": "A257492",
   "mentions": [
     "A052055",
     "A257494"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "base",
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 54,
     "source": "oeis-entry"

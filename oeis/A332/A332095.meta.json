@@ -8,12 +8,10 @@
     "A096456",
     "A337371"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 28,
     "source": "oeis-entry"

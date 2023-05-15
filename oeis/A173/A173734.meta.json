@@ -2,14 +2,12 @@
   "description": "(10^n+62)/9 for n>0.",
   "id": "A173734",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:58",
     "offset": 1,
     "size": 18,
     "source": "oeis-bfile"

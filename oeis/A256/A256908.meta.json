@@ -2,12 +2,10 @@
   "description": "Initialization a(n)=0 for all n; if a(n)=0, a(n+kp)=n where p=prime(n) and k=0,1,2,...",
   "id": "A256908",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:14",
     "offset": 1,
     "size": 82,
     "source": "oeis-bfile"

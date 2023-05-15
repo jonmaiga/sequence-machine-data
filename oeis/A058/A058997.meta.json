@@ -2,13 +2,11 @@
   "description": "Least power k greater than 1 for which n^k reversed is a prime, or 0 if impossible.",
   "id": "A058997",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 33,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Triangle read by rows: T(n,m) = one-half of number of embeddings of the n-wheel with k = n+1-2m regions (n >= 1, 0 <= m <= floor(n/2)).",
   "id": "A301731",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 48,
     "source": "oeis-entry"

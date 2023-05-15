@@ -2,14 +2,12 @@
   "description": "The Wiener index of the graph obtained by applying Mycielski's construction to the path graph on n vertices (n>=2).",
   "id": "A228321",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:26:01",
     "offset": 2,
     "size": 43,
     "source": "joeis"

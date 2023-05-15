@@ -2,12 +2,10 @@
   "description": "Starting with prime(n) go on adding smaller primes until one gets a prime. a(n) = this prime, or 0 if no such prime exists.",
   "id": "A085105",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 53,
     "source": "oeis-entry"

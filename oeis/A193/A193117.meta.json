@@ -2,14 +2,12 @@
   "description": "Decimal expansion of tan(2*Pi degrees).",
   "id": "A193117",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "cons",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:52:29",
     "offset": 0,
     "size": 96,
     "source": "joeis"

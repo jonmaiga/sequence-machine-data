@@ -2,12 +2,10 @@
   "description": "Coordination sequence of the {3,5,3} hyperbolic honeycomb.",
   "id": "A356837",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 0,
     "size": 20,
     "source": "oeis-entry"

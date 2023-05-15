@@ -2,13 +2,11 @@
   "description": "Decimal expansion of (1 u)c/h in m^-1.",
   "id": "A254177",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 15,
     "size": 7,
     "source": "oeis-entry"

@@ -1,0 +1,30 @@
+{
+  "description": "The number of divisors of n that are both bi-unitary and exponential.",
+  "id": "A362852",
+  "mentions": [
+    "A000005",
+    "A004709",
+    "A049419",
+    "A061704",
+    "A188999",
+    "A222266",
+    "A286324",
+    "A304327",
+    "A307428",
+    "A322791",
+    "A359411",
+    "A362853",
+    "A362854"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,12 +2,10 @@
   "description": "Number of distinct integers of the form (x^n + y^n) mod n^2.",
   "id": "A121278",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

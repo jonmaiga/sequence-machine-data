@@ -2,13 +2,11 @@
   "description": "Expansion of x*(1 + 4*x + 6*x^2 + 6*x^3)/((1-x)*(1 - 11*x^2 - 12*x^3)).",
   "id": "A122058",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:10",
     "offset": 1,
     "size": 24,
     "source": "oeis-bfile"

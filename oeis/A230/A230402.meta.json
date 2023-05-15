@@ -2,13 +2,11 @@
   "description": "Integer areas of orthic triangles of integer-sided triangles.",
   "id": "A230402",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 34,
     "source": "oeis-entry"

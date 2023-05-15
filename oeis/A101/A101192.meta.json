@@ -1,18 +1,17 @@
 {
-  "description": "G.f. defined as the limit: A(x) = limit_{n->oo} F(n)^(1/3^(n-1)) where F(n) is the n-th iteration of: F(0) = 1, F(n) = F(n-1)^3 + (3x)^((3^n-1)/2) for n>=1.",
+  "description": "G.f. defined as the limit: A(x) = lim_{n->oo} F(n)^(1/3^(n-1)) where F(n) is the n-th iteration of: F(0) = 1, F(n) = F(n-1)^3 + (3x)^((3^n-1)/2) for n >= 1.",
   "id": "A101192",
   "mentions": [
     "A101189",
     "A101193",
     "A101194"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
+    "changed",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 27,
     "source": "oeis-entry"

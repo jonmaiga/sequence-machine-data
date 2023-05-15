@@ -2,14 +2,12 @@
   "description": "a(n) = nearest integer to sqrt(10^n/log(10^n)).",
   "id": "A221206",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:39",
     "offset": 1,
     "size": 28,
     "source": "oeis-bfile"

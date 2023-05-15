@@ -2,13 +2,11 @@
   "description": "Semiprimes with consecutive digits starting with 1.",
   "id": "A174173",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

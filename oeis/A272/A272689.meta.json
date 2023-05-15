@@ -2,13 +2,11 @@
   "description": "Irregular triangle read by rows: row n (n >= 1) gives entries of the g-vector for [n]!.",
   "id": "A272689",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 48,
     "source": "oeis-entry"

@@ -2,16 +2,15 @@
   "description": "Number of Hamiltonian cycles in K_4 X P_n.",
   "id": "A003771",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 22:01:26",
     "offset": 1,
-    "size": 19,
+    "size": 22,
     "source": "joeis"
   }
 }

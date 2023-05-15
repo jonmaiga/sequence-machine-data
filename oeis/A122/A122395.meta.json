@@ -4,13 +4,10 @@
   "mentions": [
     "A122396"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:44:24",
     "offset": 1,
     "size": 41,
     "source": "oeis-bfile"

@@ -10,14 +10,11 @@
     "A061047",
     "A061050"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "frac",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:12",
     "offset": 1,
     "size": 66,
     "source": "oeis-bfile"

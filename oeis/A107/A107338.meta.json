@@ -2,14 +2,12 @@
   "description": "224 Pisot cubic substitution with characteristic polynomial:x^3-4*x^2+2*x-2.",
   "id": "A107338",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

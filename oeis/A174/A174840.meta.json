@@ -2,13 +2,10 @@
   "description": "Least k such that the primes 3 to prime(k+1) form a complete residue system (mod prime(n)).",
   "id": "A174840",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

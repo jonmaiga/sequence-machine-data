@@ -2,12 +2,10 @@
   "description": "\"DFJ\" (bracelet, size, labeled) transform of 2,2,2,2...",
   "id": "A032209",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:41",
     "offset": 0,
     "size": 23,
     "source": "oeis-bfile"

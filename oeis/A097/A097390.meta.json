@@ -8,14 +8,12 @@
     "A097389",
     "A097395"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 84,
     "source": "oeis-entry"

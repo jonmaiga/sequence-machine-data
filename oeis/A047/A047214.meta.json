@@ -2,13 +2,11 @@
   "description": "Largest 6th power modulo n.",
   "id": "A047214",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 11:00:37",
     "offset": 1,
     "size": 74,
     "source": "joeis"

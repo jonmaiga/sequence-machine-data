@@ -2,13 +2,11 @@
   "description": "(n,4,1) difference families over Z_n.",
   "id": "A010893",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 13,
     "size": 52,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Sum{gcd(k^2 + t^2, n)* cos(2*Pi*(k^2 + t^2)/n)): 0",
   "id": "A239444",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 61,
     "source": "oeis-entry"

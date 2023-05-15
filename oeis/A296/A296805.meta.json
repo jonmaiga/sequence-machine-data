@@ -2,14 +2,12 @@
   "description": "Sum of the larger parts in the partitions of n into two distinct parts with the larger part even.",
   "id": "A296805",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:16",
     "offset": 1,
     "size": 58,
     "source": "oeis-bfile"

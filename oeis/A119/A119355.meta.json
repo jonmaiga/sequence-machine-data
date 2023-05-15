@@ -2,7 +2,6 @@
   "description": "Triangle generated from binomial transforms of (1; 2, 3; 3, 4, 5; ...).",
   "id": "A119355",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "more",
@@ -10,7 +9,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 45,
     "source": "oeis-entry"

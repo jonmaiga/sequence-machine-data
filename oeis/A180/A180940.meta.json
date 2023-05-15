@@ -2,13 +2,11 @@
   "description": "Primes of the form n^2 - 2999n + 2248541.",
   "id": "A180940",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 11:30:21",
     "offset": 1,
     "size": 24,
     "source": "joeis"

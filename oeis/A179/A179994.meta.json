@@ -2,14 +2,12 @@
   "description": "a(n) = 11*a(n-2) - 8*a(n-4), starting a(0)=0, a(1)=1, a(2)=5, a(3)=12.",
   "id": "A179994",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 11:33:14",
     "offset": 0,
     "size": 26,
     "source": "joeis"

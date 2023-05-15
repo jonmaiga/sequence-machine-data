@@ -2,14 +2,12 @@
   "description": "n such that n is the sum of previous numbers found using n's digits as offsets.",
   "id": "A179622",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:02",
     "offset": 1,
     "size": 63,
     "source": "oeis-bfile"

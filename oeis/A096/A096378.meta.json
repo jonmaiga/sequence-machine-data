@@ -2,13 +2,11 @@
   "description": "Floor of area of triangle with consecutive integer sides.",
   "id": "A096378",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:47",
     "offset": 1,
     "size": 54,
     "source": "oeis-bfile"

@@ -1,0 +1,21 @@
+{
+  "description": "Moebius transform applied twice to primes.",
+  "id": "A361707",
+  "mentions": [
+    "A000040",
+    "A007427",
+    "A007431",
+    "A007444",
+    "A361706"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

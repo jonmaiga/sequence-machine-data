@@ -2,14 +2,12 @@
   "description": "n is in this sequence if for all m > 0, n+m is not divisible by 6m-1, 6m+1, 8m-1 or 8m+1.",
   "id": "A109598",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 58,
     "source": "oeis-entry"

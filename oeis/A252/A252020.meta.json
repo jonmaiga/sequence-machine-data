@@ -2,12 +2,10 @@
   "description": "Odd perfect powers n not congruent to 1 mod 6 such that n*4^k - 1 has a covering set.",
   "id": "A252020",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 21,
     "source": "oeis-entry"

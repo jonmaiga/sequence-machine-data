@@ -1,13 +1,13 @@
 {
-  "description": "Numbers that are divisible by first digit.",
+  "description": "Numbers that are divisible by the first, i.e., the leftmost, digit.",
   "id": "A034837",
   "mentions": [
     "A000030",
     "A034709"
   ],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
+    "changed",
     "easy",
     "formulas",
     "look",
@@ -15,7 +15,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:45",
     "offset": 1,
     "size": 64,
     "source": "oeis-bfile"

@@ -2,14 +2,12 @@
   "description": "a(n) = denominator(N), where N = 0.135..up to (2n-1)(concatenation 1 to 2n-1 of first n odd numbers after decimal point).",
   "id": "A078259",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 14,
     "source": "oeis-entry"

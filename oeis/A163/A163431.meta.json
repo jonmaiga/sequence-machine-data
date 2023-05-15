@@ -1,17 +1,16 @@
 {
-  "description": "Primes p such that floor(p^3/8) are also prime numbers.",
+  "description": "Primes p such that floor(p^3/8) is also prime.",
   "id": "A163431",
   "mentions": [
     "A163430"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:45",
     "offset": 1,
     "size": 45,
     "source": "oeis-bfile"

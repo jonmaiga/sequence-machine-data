@@ -2,14 +2,12 @@
   "description": "A self-describing sequence: there are a(n) even digits and a(n) odd digits in the interval ]0;a(n)+1[.",
   "id": "A109751",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 69,
     "source": "oeis-entry"

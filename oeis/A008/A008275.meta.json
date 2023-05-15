@@ -28,7 +28,6 @@
     "A121632",
     "A130534"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "core",
     "formulas",
@@ -37,7 +36,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:13",
     "offset": 1,
     "size": 55,
     "source": "oeis-bfile"

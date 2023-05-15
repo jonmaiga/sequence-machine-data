@@ -2,14 +2,14 @@
   "description": "Theta series of laminated lattice LAMBDA_21.",
   "id": "A023943",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
+    "changed",
+    "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 0,
-    "size": 5,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

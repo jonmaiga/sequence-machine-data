@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 0, a(2) = 1. For n >= 3, if the greatest prime dividing n is greater than the greatest prime dividing n-1, then a(n) = a(n-1) + 1. Otherwise a(n) = a(n-1) - 1.",
+  "id": "A359953",
+  "mentions": [
+    "A000040",
+    "A006530",
+    "A070089",
+    "A087429"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

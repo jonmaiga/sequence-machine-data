@@ -2,14 +2,12 @@
   "description": "a(n) = 1 + 2 * (a(n-1) + a(n-4) + a(n-6)) + a(n-7) for n>3, with initial values 0 if n",
   "id": "A317188",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:36",
     "offset": 0,
     "size": 32,
     "source": "oeis-bfile"

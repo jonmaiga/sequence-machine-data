@@ -2,14 +2,12 @@
   "description": "Integers are written in the form abcd...n where \"a\" means: This integer contains \"a\" times the digit b; \"b\" means: This integer contains \"b\" times the digit c; \"c\" means: This integer contains \"c\" times the digit d; ... and \"n\" means nothing.",
   "id": "A105959",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 30,
     "source": "oeis-entry"

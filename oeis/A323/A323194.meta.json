@@ -2,14 +2,12 @@
   "description": "Numbers k such that 449*2^k+1 is prime.",
   "id": "A323194",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 29,
     "source": "oeis-entry"

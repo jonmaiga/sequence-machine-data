@@ -2,13 +2,11 @@
   "description": "Melody from the main theme for Star Wars, as played on a touch-tone phone pad.",
   "id": "A145330",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

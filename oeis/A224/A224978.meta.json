@@ -1,17 +1,15 @@
 {
-  "description": "The number of completed primitive graphs up to 10 loops, in enumerating Feynman graphs in quantum field theory.",
+  "description": "The number of completed primitive graphs of n loops, in enumerating Feynman graphs in quantum field theory.",
   "id": "A224978",
   "mentions": [
     "A005411",
     "A115974",
     "A214298"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 3,
     "size": 8,
     "source": "oeis-entry"

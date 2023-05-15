@@ -2,14 +2,12 @@
   "description": "Adjusted recursive triangular sequence with row sums 2*(n+5)!/6!: A(n,k)= A(n - 1, k - 1) + A(n - 1, k) + (n + 4)*(n + 3)*A(n - 2, k - 1).",
   "id": "A153738",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 47,
     "source": "oeis-entry"

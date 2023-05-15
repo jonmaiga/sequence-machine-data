@@ -2,14 +2,12 @@
   "description": "Minimum cost of path that starts at 1 and visits integers from 1 to n, inclusive, each at least once, where the cost to travel from a to b is LCM(a, b).",
   "id": "A333354",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 28,
     "source": "oeis-entry"

@@ -1,0 +1,14 @@
+{
+  "description": "Sequence begins 1, 1, 1; for even n > 3, a(n) = a(n/2 - 1) + a(n/2 + 1); for odd n > 3, a(n) = -a((n-1)/2).",
+  "id": "A359368",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

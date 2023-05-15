@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of length n+4 0..k arrays with every five consecutive terms having the maximum of some two terms equal to the minimum of the remaining three terms",
   "id": "A254698",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:12",
     "offset": 1,
     "size": 41,
     "source": "oeis-bfile"

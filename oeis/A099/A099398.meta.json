@@ -7,7 +7,6 @@
     "A001147",
     "A099399"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
@@ -15,9 +14,8 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 29,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

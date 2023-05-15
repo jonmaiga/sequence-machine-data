@@ -2,13 +2,11 @@
   "description": "Floor(integral_{n=0..infinity} (log(x) - log(1 + x^2))^n/(1 + x^2)^2 dx).",
   "id": "A221648",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:39",
     "offset": 0,
     "size": 23,
     "source": "oeis-bfile"

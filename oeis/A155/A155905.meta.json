@@ -2,13 +2,11 @@
   "description": "Numbers n such that it is possible to append a single digit to the end of 2^n to make it prime.",
   "id": "A155905",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 64,
     "source": "oeis-entry"

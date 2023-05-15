@@ -13,7 +13,6 @@
     "A300976",
     "A300981"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "bref",
     "hard",
@@ -21,7 +20,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 3,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Numbers k such that 99*2^k+1 is prime.",
   "id": "A032399",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:41",
     "offset": 1,
     "size": 48,
     "source": "oeis-bfile"

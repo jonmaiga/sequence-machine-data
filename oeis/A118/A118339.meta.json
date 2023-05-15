@@ -2,12 +2,10 @@
   "description": "Number of simple chains with n-1 edges strongly embedded in a simple cubic lattice.",
   "id": "A118339",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 17,
     "source": "oeis-entry"

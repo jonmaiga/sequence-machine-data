@@ -2,17 +2,19 @@
   "description": "Number of functions from [1,2,...,n] to [1,2,...,n] such that the image contains exactly two elements.",
   "id": "A068605",
   "mentions": [
-    "A090657"
+    "A000918",
+    "A090657",
+    "A161680"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
+    "changed",
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 21:10:42",
     "offset": 2,
-    "size": 26,
-    "source": "joeis"
+    "size": 29,
+    "source": "oeis-bfile"
   }
 }

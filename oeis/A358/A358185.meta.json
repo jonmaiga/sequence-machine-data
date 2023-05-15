@@ -8,16 +8,14 @@
     "A104150",
     "A159333"
   ],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 0,
     "size": 26,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

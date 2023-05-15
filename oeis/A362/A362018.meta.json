@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that the digits of k^2 do not form a subsequence of the digits of 2^k.",
+  "id": "A362018",
+  "mentions": [
+    "A362001"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

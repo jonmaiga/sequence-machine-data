@@ -5,15 +5,12 @@
     "A001622",
     "A153386"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:44:32",
     "offset": 0,
     "size": 105,
     "source": "oeis-bfile"

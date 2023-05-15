@@ -2,12 +2,10 @@
   "description": "Number of distinct prime divisors of F(n) + L(n), where F(n) is the n-th Fibonacci number and L(n) is the n-th Lucas number.",
   "id": "A120481",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 100,
     "source": "oeis-entry"

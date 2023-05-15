@@ -1,0 +1,18 @@
+{
+  "description": "Total number of 3-Fuss-skew paths of semilength n",
+  "id": "A361963",
+  "mentions": [
+    "A002212",
+    "A361962"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "joeis"
+  }
+}

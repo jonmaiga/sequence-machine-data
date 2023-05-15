@@ -9,14 +9,12 @@
     "A165908",
     "A174276"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "frac",
     "less",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 22,
     "source": "oeis-entry"

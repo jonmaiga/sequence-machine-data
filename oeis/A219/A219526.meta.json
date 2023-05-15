@@ -2,12 +2,10 @@
   "description": "Number of 3 x 3 squares filled by 9 consecutive primes prime(n) to prime(n+8) such that sums along rows, columns and diagonals are primes.",
   "id": "A219526",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:37",
     "offset": 2,
     "size": 58,
     "source": "oeis-bfile"

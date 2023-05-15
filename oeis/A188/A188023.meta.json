@@ -1,19 +1,17 @@
 {
-  "description": "Triangle by rows, A115361 * A127648",
+  "description": "Triangle read by rows, T(n,k) = k*A115361(n-1,k-1).",
   "id": "A188023",
   "mentions": [
     "A115361",
     "A127648",
     "A129527"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
-    "formulas",
+    "changed",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 78,
     "source": "oeis-entry"

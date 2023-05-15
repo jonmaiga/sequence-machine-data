@@ -2,15 +2,35 @@
   "description": "Number of partitions of n for which 2*(number of distinct parts) <= (number of parts).",
   "id": "A237363",
   "mentions": [
+    "A000009",
     "A000041",
-    "A237365"
+    "A000975",
+    "A008284",
+    "A027193",
+    "A058398",
+    "A067801",
+    "A114638",
+    "A116608",
+    "A237365",
+    "A239959",
+    "A240219",
+    "A325347",
+    "A359893",
+    "A359901",
+    "A359902",
+    "A360005",
+    "A360244",
+    "A360254",
+    "A360558",
+    "A361204",
+    "A361393",
+    "A361394",
+    "A361395"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:54",
     "offset": 0,
     "size": 49,
     "source": "oeis-bfile"

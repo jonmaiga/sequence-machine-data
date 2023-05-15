@@ -1,19 +1,26 @@
 {
-  "description": "Expansion of 1/((1-x)^6-x^6).",
+  "description": "Expansion of 1/((1-x)^6 - x^6).",
   "id": "A192080",
   "mentions": [
+    "A000079",
+    "A000749",
     "A006090",
+    "A010892",
+    "A024495",
     "A049016",
-    "A049017"
+    "A049017",
+    "A057079",
+    "A057083",
+    "A057681",
+    "A290995",
+    "A306939"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:15",
     "offset": 0,
     "size": 30,
     "source": "oeis-bfile"

@@ -2,14 +2,12 @@
   "description": "a(n) is the maximum number of consecutive primes that can be produced as the differences of n integers.",
   "id": "A309317",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 2,
     "size": 19,
     "source": "oeis-entry"

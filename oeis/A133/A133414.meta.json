@@ -2,13 +2,11 @@
   "description": "Half the number of ways of placing up to n^3 identical weights in an n X n X n grid so that it balances at its center, at most one weight to a grid position.",
   "id": "A133414",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 5,
     "source": "oeis-entry"

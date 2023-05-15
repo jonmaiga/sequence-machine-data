@@ -2,12 +2,10 @@
   "description": "arcsinh(arcsinh(x)*cos(x))=x-5/3!*x^3+73/5!*x^5-3565/7!*x^7...",
   "id": "A012640",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-02 22:37:11",
     "offset": 0,
     "size": 13,
     "source": "joeis"

@@ -2,14 +2,12 @@
   "description": "The decimal expansion of the value of d that maximizes the expression (1+1/(1-d)+1/(1-2d))*(-1+1/(1-d)+1/(1-2d))*(1-1/(1-d)+1/(1-2d))*(1+1/(1-d)-1/(1-2d)) for d in the interval [-inf, 1/2] where 1/(1-d) and 1/(1-2d) are always positive.",
   "id": "A193180",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "cons",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 0,
     "size": 100,
     "source": "oeis-entry"

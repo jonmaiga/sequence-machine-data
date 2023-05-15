@@ -2,12 +2,10 @@
   "description": "a(1)=1; a(n) = Sum_{1<=k<=n, gcd(k,n)=1} floor(sqrt(k)).",
   "id": "A133440",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

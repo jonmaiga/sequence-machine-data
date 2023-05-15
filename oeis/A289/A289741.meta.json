@@ -23,7 +23,6 @@
     "A322796",
     "A322829"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "easy",
     "formulas",
@@ -31,7 +30,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:04",
     "offset": 0,
     "size": 81,
     "source": "oeis-bfile"

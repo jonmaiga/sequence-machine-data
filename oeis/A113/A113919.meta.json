@@ -2,13 +2,11 @@
   "description": "Series expansion of elliptical invariant for the dodecahedron to 30 powers.",
   "id": "A113919",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 7,
     "source": "oeis-entry"

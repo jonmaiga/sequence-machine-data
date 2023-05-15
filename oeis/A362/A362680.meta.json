@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of decimal digits in A173426(n).",
+  "id": "A362680",
+  "mentions": [
+    "A055642",
+    "A058183",
+    "A173426"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

@@ -2,13 +2,11 @@
   "description": "a(1) = 1, a(2) = 2, a(n+2) = a(n)#*#a(n+1) where #*# stands for digit-wise product of a(n) and a(n+1).",
   "id": "A096096",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:46",
     "offset": 1,
     "size": 25,
     "source": "oeis-bfile"

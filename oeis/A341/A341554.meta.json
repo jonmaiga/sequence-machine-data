@@ -1,18 +1,20 @@
 {
-  "description": "Fourier coefficients of the modular form sqrt( 1-108/t_{3A} ) * F_{3A}^10.",
+  "description": "Fourier coefficients of the modular form sqrt(1 - 108/t_{3A}) * F_{3A}^10.",
   "id": "A341554",
   "mentions": [
-    "A004016"
+    "A004016",
+    "A030197",
+    "A341305",
+    "A341555",
+    "A341559"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
-    "more",
+    "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 0,
-    "size": 5,
-    "source": "oeis-entry"
+    "size": 23,
+    "source": "joeis"
   }
 }

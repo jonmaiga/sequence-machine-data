@@ -1,5 +1,5 @@
 {
-  "description": "Bi-unitary barely abundant numbers: bi-unitary abundant numbers k such that bsigma(k)/k < bsigma(m)/m for all bi-unitary abundant numbers m < k, where usigma(k) is the sum of the bi-unitary divisors of k (A188999).",
+  "description": "Bi-unitary barely abundant numbers: bi-unitary abundant numbers k such that bsigma(k)/k < bsigma(m)/m for all bi-unitary abundant numbers m < k, where bsigma(k) is the sum of the bi-unitary divisors of k (A188999).",
   "id": "A302571",
   "mentions": [
     "A071927",
@@ -7,14 +7,12 @@
     "A292982",
     "A302570"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 41,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

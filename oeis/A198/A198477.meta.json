@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of 2nX2k 0..2 arrays with values 0..2 introduced in row major order and each element equal to an odd number of horizontal and vertical neighbors",
   "id": "A198477",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 24,
     "source": "oeis-entry"

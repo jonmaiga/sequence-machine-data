@@ -2,12 +2,10 @@
   "description": "cosh(arctan(tanh(x)))=1+1/2!*x^2-15/4!*x^4+561/6!*x^6-40415/8!*x^8...",
   "id": "A012229",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 14:36:26",
     "offset": 0,
     "size": 14,
     "source": "joeis"

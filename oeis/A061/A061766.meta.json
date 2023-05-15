@@ -2,13 +2,11 @@
   "description": "a(1) = 4; a(n) = smallest composite number of the form k*a(n-1) + 1.",
   "id": "A061766",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 11:16:57",
     "offset": 1,
     "size": 48,
     "source": "joeis"

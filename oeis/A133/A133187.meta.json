@@ -2,12 +2,10 @@
   "description": "Prime numbers of the form q*10^(floor(log(p))+1)+p, where p < q are primes also.",
   "id": "A133187",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 26,
     "source": "oeis-entry"

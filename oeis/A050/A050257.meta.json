@@ -2,7 +2,6 @@
   "description": "Number of distinct antimagic squares of order n (modulo rotations and reflections).",
   "id": "A050257",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "bref",
     "hard",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

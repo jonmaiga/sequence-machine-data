@@ -2,7 +2,6 @@
   "description": "Number of partitions of n into 3 distinct parts from [ 1,39 ].",
   "id": "A034092",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "fini",
@@ -11,7 +10,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:09:57",
     "offset": 0,
     "size": 65,
     "source": "joeis"

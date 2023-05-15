@@ -9,14 +9,12 @@
     "A272198",
     "A272200"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:37",
     "offset": 1,
     "size": 37,
     "source": "oeis-bfile"

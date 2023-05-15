@@ -2,13 +2,11 @@
   "description": "For prime partition (k_1, k_2, ..., k_i) of the number x, let the conjugate partition be (m_1, m_2, ... , m_j). If n = k_1 * k_2 * ... * k_i, then a(n) = m1 * m2 * ... * m_j.",
   "id": "A354969",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:29",
     "offset": 2,
     "size": 99,
     "source": "oeis-bfile"

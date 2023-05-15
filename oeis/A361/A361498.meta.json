@@ -1,0 +1,18 @@
+{
+  "description": "Genus of Prym-Teichmuller curve W_D(4) of discriminant D = A361169(n).",
+  "id": "A361498",
+  "mentions": [
+    "A361169",
+    "A361497",
+    "A361499",
+    "A361500"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

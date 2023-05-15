@@ -1,0 +1,20 @@
+{
+  "description": "Euler transform of sigma_n(n) (sum of n-th powers of divisors of n).",
+  "id": "A362627",
+  "mentions": [
+    "A023887",
+    "A061256",
+    "A350503",
+    "A353233"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -2,12 +2,10 @@
   "description": "a(1) = 1. a(n) = sum of the earlier terms of the sequence, a(k), where GCD(n,a(k)) is <= k, for 1 <= k <= n-1.",
   "id": "A119990",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 35,
     "source": "oeis-entry"

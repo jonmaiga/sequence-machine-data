@@ -2,14 +2,12 @@
   "description": "Primes that are either single-digit primes or a concatenation of two earlier terms.",
   "id": "A104179",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:54",
     "offset": 1,
     "size": 43,
     "source": "oeis-bfile"

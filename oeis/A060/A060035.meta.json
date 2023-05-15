@@ -2,14 +2,12 @@
   "description": "Least m >= 0 such that 2^m has n 2's in its base-3 expansion.",
   "id": "A060035",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 0,
     "size": 42,
     "source": "oeis-entry"

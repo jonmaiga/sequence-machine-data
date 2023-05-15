@@ -2,7 +2,6 @@
   "description": "a(n) = a(a(a(n-1))) + abs(2*a(n-1)-n) starting with 1,1.",
   "id": "A087849",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "fini",
     "full",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 56,
     "source": "oeis-entry"

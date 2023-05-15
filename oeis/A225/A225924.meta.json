@@ -2,13 +2,11 @@
   "description": "Number of solutions to 2n - 1 = (p1*p2 + p3)/2, where p1, p2, and p3 are prime numbers less than 2n-1.",
   "id": "A225924",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:43",
     "offset": 1,
     "size": 76,
     "source": "oeis-bfile"

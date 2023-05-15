@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 75^n-2 is prime.",
+  "description": "Numbers n such that 75^n - 2 is prime.",
   "id": "A248546",
   "mentions": [
     "A014224",
@@ -11,15 +11,13 @@
     "A128459",
     "A128460"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
-    "size": 9,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

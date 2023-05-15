@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of nXk 1..4 arrays with no element with value z exactly a city block distance of z from another element with value z",
   "id": "A210788",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:29",
     "offset": 1,
     "size": 38,
     "source": "oeis-bfile"

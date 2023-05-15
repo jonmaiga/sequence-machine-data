@@ -2,15 +2,14 @@
   "description": "Palindromes that are the sum of two positive cubes.",
   "id": "A162710",
   "mentions": [
+    "A002113",
     "A003325"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:44",
     "offset": 1,
     "size": 35,
     "source": "oeis-bfile"

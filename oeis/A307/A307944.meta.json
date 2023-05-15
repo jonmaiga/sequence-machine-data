@@ -2,14 +2,12 @@
   "description": "Number of (undirected) paths in the n X n fiveleaper graph.",
   "id": "A307944",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

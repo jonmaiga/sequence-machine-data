@@ -2,13 +2,11 @@
   "description": "a(n) is the ceiling of 2^n * (sqrt(2)-1), i.e., a(n)-1 is the number whose binary representation gives the first n bits of sqrt(2)-1.",
   "id": "A136322",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:24",
     "offset": 1,
     "size": 33,
     "source": "oeis-bfile"

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest number which has in its English name the letter \"n\" in the n-th position",
+  "description": "a(n) is the smallest nonnegative number whose American English name has the letter \"n\" in the n-th position.",
   "id": "A164791",
   "mentions": [
     "A164789",
@@ -9,15 +9,14 @@
     "A164794",
     "A164795",
     "A164796",
-    "A164797"
+    "A164797",
+    "A362121"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 47,
     "source": "oeis-entry"

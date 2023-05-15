@@ -2,13 +2,11 @@
   "description": "a(n) = 8^n - n^12.",
   "id": "A024100",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:33",
     "offset": 0,
     "size": 18,
     "source": "oeis-bfile"

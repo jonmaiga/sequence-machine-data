@@ -2,7 +2,6 @@
   "description": "Multiply the digits in pairs, stop when reach a number with an odd number of digits.",
   "id": "A083395",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

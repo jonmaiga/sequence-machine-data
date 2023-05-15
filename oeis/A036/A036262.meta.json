@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of numbers arising from Gilbreath's conjecture: successive absolute differences of primes read by antidiagonals upwards.",
+  "description": "Array of numbers read by upward antidiagonals, arising from Gilbreath's conjecture: leading row lists the primes; the following rows give absolute values of differences of previous row.",
   "id": "A036262",
   "mentions": [
     "A000040",
@@ -14,8 +14,8 @@
     "A255483",
     "A358691"
   ],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nice",
@@ -23,7 +23,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2022-04-28 15:24:53",
     "offset": 0,
     "size": 100,
     "source": "joeis"

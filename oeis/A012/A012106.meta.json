@@ -2,12 +2,10 @@
   "description": "tanh(arcsin(sinh(x)))=x-4/5!*x^5+80/7!*x^7+5456/9!*x^9+511360/11!*x^11...",
   "id": "A012106",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-16 12:46:55",
     "offset": 0,
     "size": 14,
     "source": "joeis"

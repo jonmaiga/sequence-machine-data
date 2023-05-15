@@ -2,7 +2,6 @@
   "description": "Duplication root: the maximal number of distinct squarefree words that a word of length n can be reduced to by iterated application of string-rewriting rules uu->u.",
   "id": "A160675",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "hard",
     "more",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 25,
     "source": "oeis-entry"

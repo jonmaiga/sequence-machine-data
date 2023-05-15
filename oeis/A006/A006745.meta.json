@@ -2,13 +2,11 @@
   "description": "Number of indefinitely growing n-step self-avoiding walks on Manhattan lattice.",
   "id": "A006745",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn",
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 1,
     "size": 32,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "a(n) = prime(n)^4 - 8.",
   "id": "A153482",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:39:13",
     "offset": 1,
     "size": 27,
     "source": "joeis"

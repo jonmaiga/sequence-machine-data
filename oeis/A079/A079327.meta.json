@@ -2,13 +2,11 @@
   "description": "Smallest nonnegative integer x such that b^(n-1) == b^x (mod n) for all b that are 0 < b < n.",
   "id": "A079327",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:31",
     "offset": 1,
     "size": 99,
     "source": "oeis-bfile"

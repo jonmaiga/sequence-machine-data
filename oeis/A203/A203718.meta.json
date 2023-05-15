@@ -2,13 +2,11 @@
   "description": "Binary sequence where each successive term is made by appending to the previous term the next smallest positive binary integer that is not already contained within it.",
   "id": "A203718",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

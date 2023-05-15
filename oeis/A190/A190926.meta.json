@@ -2,12 +2,10 @@
   "description": "Number of permutations of n copies of 1..6 introduced in order 1..6 with no element equal to another within a distance of 4",
   "id": "A190926",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:15",
     "offset": 1,
     "size": 15,
     "source": "oeis-bfile"

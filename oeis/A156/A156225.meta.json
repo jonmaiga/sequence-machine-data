@@ -2,7 +2,6 @@
   "description": "Triangle read by rows:e(n,k)=Sum[(-1)^j Binomial[n + 1, j](k + 1 - j)^n, {j, 0, k + 1}]; t(n,m)=(e[n + 1, m]*PartitionsQ[n] + e[n + 1, n - m]*(PartitionsQ[ n - m] + PartitionsQ[m])) - 2.",
   "id": "A156225",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 49,
     "source": "oeis-entry"

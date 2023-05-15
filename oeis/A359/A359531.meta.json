@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1, a(2) = -9; a(n) = -n^3 * Sum_{d|n, d < n} a(d) / d^3.",
+  "id": "A359531",
+  "mentions": [
+    "A092673",
+    "A334659",
+    "A359484",
+    "A359485",
+    "A360658"
+  ],
+  "tags": [
+    "changed",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

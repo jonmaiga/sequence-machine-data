@@ -1,0 +1,16 @@
+{
+  "description": "a(1) = 1906; thereafter, regard a(n) as a decimal number, and convert it to base 16 (i.e. hexadecimal).",
+  "id": "A362444",
+  "mentions": [],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

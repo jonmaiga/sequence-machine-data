@@ -2,14 +2,12 @@
   "description": "E.g.f.: log(-1/(-1+x))^2 / (-1 + log(-1/(-1+x)))^2.",
   "id": "A052865",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 18:05:19",
     "offset": 0,
     "size": 20,
     "source": "joeis"

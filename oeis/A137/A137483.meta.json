@@ -2,14 +2,12 @@
   "description": "a(n+1) = 9*a(n) - 6, a(0) = 2.",
   "id": "A137483",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:25",
     "offset": 0,
     "size": 21,
     "source": "oeis-bfile"

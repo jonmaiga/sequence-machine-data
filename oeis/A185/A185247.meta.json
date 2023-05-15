@@ -2,13 +2,11 @@
   "description": "Expansion of 3F2( (1/4,1/2,3/4); (4,6) )(256 x)",
   "id": "A185247",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:10",
     "offset": 0,
     "size": 18,
     "source": "oeis-bfile"

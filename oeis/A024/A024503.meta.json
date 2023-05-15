@@ -2,12 +2,10 @@
   "description": "a(n) = floor(binomial(2*n,n)/3^n).",
   "id": "A024503",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 21:43:27",
     "offset": 0,
     "size": 53,
     "source": "joeis"

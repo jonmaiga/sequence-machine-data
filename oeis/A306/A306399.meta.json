@@ -2,14 +2,12 @@
   "description": "a(1)=1; a(n) = number of occurrences of a(n-1) if a(n-1) is odd; a(n) = number of occurrences of a(n-2) if a(n-1) is even.",
   "id": "A306399",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:27:33",
     "offset": 1,
     "size": 76,
     "source": "joeis"

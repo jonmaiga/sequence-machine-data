@@ -2,7 +2,6 @@
   "description": "Period 10: repeat 0, 0, 4, 2, -2, 4, 2, -4, -4, -2.",
   "id": "A141035",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-26 09:15:11",
     "offset": 0,
     "size": 97,
     "source": "joeis"

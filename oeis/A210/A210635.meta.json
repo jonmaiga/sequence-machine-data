@@ -2,7 +2,6 @@
   "description": "Array read by antidiagonals: row n (n >= 1) gives a permutation of the nonnegative integers for rotating an image of width n.",
   "id": "A210635",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 45,
     "source": "oeis-entry"

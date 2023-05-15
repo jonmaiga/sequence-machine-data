@@ -2,13 +2,11 @@
   "description": "Number of minimal z-knot fullerenes with 4n+2 nodes and C_2 symmetry.",
   "id": "A122665",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 8,
     "size": 11,
     "source": "oeis-entry"

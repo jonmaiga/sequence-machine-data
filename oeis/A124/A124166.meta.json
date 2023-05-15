@@ -2,13 +2,11 @@
   "description": "100*(10^n-1)/9.",
   "id": "A124166",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 17,
     "source": "oeis-entry"

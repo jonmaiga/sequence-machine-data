@@ -2,12 +2,10 @@
   "description": "a(n) is the least k such that the product of n+1 consecutive primes starting with the k-th prime is greater than or equal to the product of the following n primes.",
   "id": "A341340",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 58,
     "source": "oeis-entry"

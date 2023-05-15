@@ -2,13 +2,11 @@
   "description": "Successive powers of two, represented as binary coded decimal. (0x1, 0x2, 0x4, 0x8, 0x16, 0x32, etc.)",
   "id": "A158324",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 30,
     "source": "oeis-entry"

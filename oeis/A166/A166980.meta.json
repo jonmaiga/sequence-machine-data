@@ -2,13 +2,11 @@
   "description": "The smallest prime p larger than prime(n) such that prime(n) is a quadratic residue (mod p).",
   "id": "A166980",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 59,
     "source": "oeis-entry"

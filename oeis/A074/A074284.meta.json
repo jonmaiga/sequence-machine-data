@@ -2,12 +2,10 @@
   "description": "Sum of the aliquot divisors of n-th triangular number.",
   "id": "A074284",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:26",
     "offset": 1,
     "size": 56,
     "source": "oeis-bfile"

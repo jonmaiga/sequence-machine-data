@@ -2,7 +2,6 @@
   "description": "Triangle read by rows: p(x,n) = 2 if n = 0, Sum_{i=0..floor((n-1)/2)} binomial(n, i)*(x - 1)^i + x^n*Sum_{i=0..floor((n-1)/2)} binomial(n, i)*(1/x - 1)^i otherwise.",
   "id": "A158208",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "less",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 62,
     "source": "oeis-entry"

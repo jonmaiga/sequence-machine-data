@@ -2,12 +2,10 @@
   "description": "Numbers that are the sum of 3 distinct nonzero squares in 8 or more ways.",
   "id": "A025354",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:34",
     "offset": 1,
     "size": 49,
     "source": "oeis-bfile"

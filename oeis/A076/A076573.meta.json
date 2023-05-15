@@ -2,12 +2,10 @@
   "description": "a(0)=1 if n>0 a(n)=(-1)^(n+1)/(2n+1)*sum(k=0,n,4^(5k)*B(2k)*C(2n+1,2k)) where B(k) denotes the k-th Bernoulli number.",
   "id": "A076573",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 11,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "a(1)=a(2)=a(3)=a(4)=1. For n >= 5, a(n)= (a(n-1)+a(n-2)) * (a(n-3)+a(n-4)).",
   "id": "A111236",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-09-08 06:56:22",
     "offset": 1,
     "size": 16,
     "source": "joeis"

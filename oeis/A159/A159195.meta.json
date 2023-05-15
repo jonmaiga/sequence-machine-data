@@ -2,12 +2,10 @@
   "description": "Let S_0 = [1]; for n>0 let S_n be obtained from S_{n-1} by applying the morphism t -> |t-1|,t,t+1; sequence gives limiting value of S_{2n+1} as n -> oo.",
   "id": "A159195",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

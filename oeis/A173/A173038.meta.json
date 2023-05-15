@@ -2,13 +2,11 @@
   "description": "a(n) = (1/4)*(n^2 - 5*n + 2)*(n-2)! + 1.",
   "id": "A173038",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:57",
     "offset": 2,
     "size": 20,
     "source": "oeis-bfile"

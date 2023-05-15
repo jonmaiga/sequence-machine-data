@@ -2,13 +2,11 @@
   "description": "G.f. satisfies: a(n) = [x^n] ( A(x)^n + 1/A(x)^n ) for n>1, with a(0)=a(1)=1.",
   "id": "A237644",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:55",
     "offset": 0,
     "size": 16,
     "source": "oeis-bfile"

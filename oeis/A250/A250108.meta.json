@@ -2,13 +2,11 @@
   "description": "n*(n-1)/2 mod 2 + n*(n-1)/2 - n*( (n-1) mod 2 ).",
   "id": "A250108",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 53,
     "source": "oeis-entry"

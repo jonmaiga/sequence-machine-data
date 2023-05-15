@@ -2,12 +2,10 @@
   "description": "cos(sin(x)-sinh(x))=1-40/6!*x^6-480/10!*x^10+246400/12!*x^12...",
   "id": "A013373",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 09:00:18",
     "offset": 0,
     "size": 16,
     "source": "joeis"

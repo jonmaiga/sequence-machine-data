@@ -2,14 +2,12 @@
   "description": "Decimal expansion of the integral of cos(Pi*x)*log(x)/x from x=1 to infinity.",
   "id": "A175294",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "cons",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

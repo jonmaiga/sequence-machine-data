@@ -2,12 +2,10 @@
   "description": "Lesser of the first pair of three successive prime pairs (no isolated primes occur in between). Least of the six successive primes which are member of prime pairs.",
   "id": "A090953",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:42",
     "offset": 0,
     "size": 35,
     "source": "oeis-bfile"

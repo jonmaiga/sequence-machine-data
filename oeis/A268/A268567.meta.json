@@ -2,13 +2,11 @@
   "description": "Arises in counting maps on a surface: see Coquereaux-Zuber (2015) for precise definition.",
   "id": "A268567",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

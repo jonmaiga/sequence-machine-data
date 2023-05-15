@@ -2,13 +2,11 @@
   "description": "Number of states in the United States whose first letter is the n-th letter of the alphabet.",
   "id": "A130801",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 26,
     "source": "oeis-entry"

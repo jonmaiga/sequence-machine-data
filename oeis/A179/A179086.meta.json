@@ -2,14 +2,12 @@
   "description": "Triangle T(n,k) = |Re|+|Im| where Re+i*Im is the complex coefficient of [x^k] of the series (1-x)^(n+1) * Sum_{k>=0} ((1+i)*k+i)^n *x^k and i the imaginary unit, row n and column k.",
   "id": "A179086",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 52,
     "source": "oeis-entry"

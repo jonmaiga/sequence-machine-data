@@ -2,15 +2,13 @@
   "description": "Primes of the form 2*k*prime(k) + 1.",
   "id": "A062403",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:14",
     "offset": 1,
     "size": 36,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

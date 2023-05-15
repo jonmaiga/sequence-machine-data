@@ -2,12 +2,10 @@
   "description": "Numbers n having more than one representation as k*(1+phi(k)/2), where phi(k) is Euler's totient function.",
   "id": "A186309",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 15,
     "source": "oeis-entry"

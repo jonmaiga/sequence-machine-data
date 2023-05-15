@@ -8,13 +8,11 @@
     "A089540",
     "A089541"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:37",
     "offset": 1,
     "size": 80,
     "source": "oeis-bfile"

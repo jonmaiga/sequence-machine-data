@@ -2,13 +2,11 @@
   "description": "n-th digit after decimal point of the successive approximations to phi = .618...; equally, n-th digit after decimal point of F(n)/F(n+1).",
   "id": "A114760",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

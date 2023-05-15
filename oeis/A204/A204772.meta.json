@@ -2,7 +2,6 @@
   "description": "\"Fairly optimal\" shellsort sequence for reverse-sorting an ascending sequence of size N=128.",
   "id": "A204772",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "fini",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

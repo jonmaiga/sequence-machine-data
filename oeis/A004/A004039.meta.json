@@ -2,13 +2,11 @@
   "description": "The coding-theoretic function A(n,6,6).",
   "id": "A004039",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 6,
     "size": 11,
     "source": "oeis-entry"

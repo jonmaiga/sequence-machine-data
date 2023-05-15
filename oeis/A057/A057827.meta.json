@@ -2,12 +2,10 @@
   "description": "a(0) = 1; a(n) = LCM(n, sum{k=0 to n-1}[a(k)]).",
   "id": "A057827",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-07-12 12:11:10",
     "offset": 0,
     "size": 24,
     "source": "joeis"

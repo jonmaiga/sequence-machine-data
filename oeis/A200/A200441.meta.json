@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/(1-33*x+x^2).",
+  "description": "Expansion of g.f. 1/(1 - 33*x + x^2).",
   "id": "A200441",
   "mentions": [
     "A004190",
@@ -10,14 +10,12 @@
     "A101950",
     "A200442"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:21",
     "offset": 0,
     "size": 17,
     "source": "oeis-bfile"

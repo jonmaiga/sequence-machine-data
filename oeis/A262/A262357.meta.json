@@ -18,13 +18,10 @@
     "A271778",
     "A271824"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:22",
     "offset": 1,
     "size": 70,
     "source": "oeis-bfile"

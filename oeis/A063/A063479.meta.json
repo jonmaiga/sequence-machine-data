@@ -1,16 +1,14 @@
 {
-  "description": "Omega(n+1)=2*omega(n), where omega is the number of distinct prime divisors.",
+  "description": "Numbers k such that omega(k+1) = 2*omega(k), where omega is the number of distinct prime factors.",
   "id": "A063479",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:15",
     "offset": 1,
     "size": 57,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

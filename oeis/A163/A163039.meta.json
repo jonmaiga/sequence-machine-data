@@ -2,12 +2,10 @@
   "description": "Number of nX4 binary arrays with all 1s connected and a path of 1s from left column to right column",
   "id": "A163039",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:44",
     "offset": 1,
     "size": 17,
     "source": "oeis-bfile"

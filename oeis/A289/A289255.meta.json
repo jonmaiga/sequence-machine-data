@@ -2,14 +2,12 @@
   "description": "a(n) = 4^n - 2*n - 1.",
   "id": "A289255",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:03",
     "offset": 1,
     "size": 25,
     "source": "oeis-bfile"

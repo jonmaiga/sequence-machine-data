@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(2) = 2, a(3) = 3; for n > 3, a(n) is the smallest positive number which has not appeared such that all the distinct prime factors of a(n-3) + a(n-2) + a(n-1) are factors of a(n).",
+  "id": "A361593",
+  "mentions": [
+    "A007947",
+    "A027748",
+    "A064413",
+    "A352867",
+    "A359256",
+    "A359557"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

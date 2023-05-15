@@ -8,14 +8,12 @@
     "A083343",
     "A347310"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 23,
     "source": "oeis-entry"

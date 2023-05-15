@@ -2,13 +2,11 @@
   "description": "G.f. A(x) satisfies: x = Sum_{n>=1} ((1+x)^n - 1)^n / A(x)^n.",
   "id": "A303654",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:28",
     "offset": 0,
     "size": 20,
     "source": "oeis-bfile"

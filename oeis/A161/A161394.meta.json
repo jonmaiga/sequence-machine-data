@@ -2,13 +2,11 @@
   "description": "Numbers divisible by the number of letters to express them in Spanish",
   "id": "A161394",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 40,
     "source": "oeis-entry"

@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of ways to form an ordered pair of n-permutations and then choose a size k subset of its common descent set, n >= 0, 0 <= k <= max{0,n-1}.",
+  "id": "A362589",
+  "mentions": [
+    "A001044",
+    "A102221",
+    "A192721"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

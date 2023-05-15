@@ -2,14 +2,12 @@
   "description": "Start with a(1),...,a(5) = 6,20,4,4,45 and successively append f(a(3)), f(a(4)), f(a(5)), ... to the sequence, where f maps 4 to 9, 9 to 45 and 45 to 4,4,4,4,4,4,4,4,4,45.",
   "id": "A224919",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Numbers n such that n+(n+1) is prime and sum of the prime factors of n and n+1 is also prime.",
   "id": "A116222",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 56,
     "source": "oeis-entry"

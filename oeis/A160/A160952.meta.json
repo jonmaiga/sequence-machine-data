@@ -5,7 +5,6 @@
     "A000040",
     "A024770"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "fini",
@@ -14,7 +13,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 8,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Pick any term T in the sequence (11 for instance): there are T primes between this term T and the closest next T (left or right). [There are indeed 11 primes between (any) two 11's in the sequence].",
   "id": "A124055",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:12",
     "offset": 1,
     "size": 86,
     "source": "oeis-bfile"

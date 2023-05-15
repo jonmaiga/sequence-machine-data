@@ -2,14 +2,12 @@
   "description": "Binary representation of the x-axis, from the left edge to the origin, of the n-th stage of growth of the two-dimensional cellular automaton defined by \"Rule 131\", based on the 5-celled von Neumann neighborhood.",
   "id": "A279053",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:46",
     "offset": 0,
     "size": 20,
     "source": "oeis-bfile"

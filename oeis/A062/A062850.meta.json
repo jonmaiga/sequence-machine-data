@@ -2,14 +2,11 @@
   "description": "When expressed in base 2 and then interpreted in base 9, is a multiple of the original number.",
   "id": "A062850",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
-    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 11:16:57",
     "offset": 1,
     "size": 56,
     "source": "joeis"

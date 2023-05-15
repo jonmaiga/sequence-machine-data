@@ -2,7 +2,6 @@
   "description": "Numbers n for which one step of the Collatz iteration (3n+1)/2^r gives rise to values 41,35,29,23,17,11, and 5 for r=1,3,5,..,13.",
   "id": "A072252",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "fini",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

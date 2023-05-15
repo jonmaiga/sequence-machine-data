@@ -1,0 +1,18 @@
+{
+  "description": "Array of Ramsey core number rc(s,t) read by antidiagonals.",
+  "id": "A361261",
+  "mentions": [
+    "A080036",
+    "A361684"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

@@ -2,14 +2,12 @@
   "description": "Triangle read by rows: number of spanning trees obtained for an almost-complete bipartite graph by removing k disjoint edges from the complete bipartite graph K n,n with k<=n.",
   "id": "A260383",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 30,
     "source": "oeis-entry"

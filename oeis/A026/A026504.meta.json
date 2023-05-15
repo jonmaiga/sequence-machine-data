@@ -2,12 +2,10 @@
   "description": "a(n) = least positive integer > a(n-1) and not a(j)*a(k) + a(k)*a(i) + a(i)*a(j) for 1<=i<=j<=k<=n.",
   "id": "A026504",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-11-11 15:41:38",
     "offset": 1,
     "size": 30,
     "source": "joeis"

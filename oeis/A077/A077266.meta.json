@@ -8,7 +8,6 @@
     "A077267",
     "A077268"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "formulas",
@@ -16,7 +15,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 2,
     "size": 105,
     "source": "oeis-entry"

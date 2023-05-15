@@ -2,13 +2,11 @@
   "description": "Triangle of 2-color Rado numbers R(k,n), n >= 4, 1 <= k <= n-3, for the equation x + y + k = n*z, writing -1 instead of infinity.",
   "id": "A100541",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 4,
     "size": 45,
     "source": "oeis-entry"

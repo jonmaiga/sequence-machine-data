@@ -2,7 +2,6 @@
   "description": "Numbers k such that the binary expansion of n mod 2^k is the postorder traversal of a binary tree, where 1 indicates a node and 0 indicates there are no children on that side.",
   "id": "A114567",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
@@ -11,7 +10,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:05",
     "offset": 0,
     "size": 101,
     "source": "oeis-bfile"

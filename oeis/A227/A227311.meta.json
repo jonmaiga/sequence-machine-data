@@ -8,14 +8,12 @@
     "A227312",
     "A227313"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:44",
     "offset": 1,
     "size": 136,
     "source": "oeis-bfile"

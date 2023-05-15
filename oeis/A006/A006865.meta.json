@@ -2,14 +2,12 @@
   "description": "Number of Hamiltonian cycles in P_5 X P_{2n}: a(n) = 11a(n-1)+2a(n-3).",
   "id": "A006865",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:10",
     "offset": 1,
     "size": 20,
     "source": "oeis-bfile"

@@ -8,7 +8,6 @@
     "A038174",
     "A300812"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "changed",
     "hard",
@@ -16,9 +15,8 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:47",
     "offset": 1,
-    "size": 10,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

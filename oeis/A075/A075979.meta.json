@@ -2,13 +2,11 @@
   "description": "Numbers n such that n^5+2^n is prime.",
   "id": "A075979",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

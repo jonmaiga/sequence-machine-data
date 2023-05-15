@@ -2,7 +2,6 @@
   "description": "Numbers n with the property that there exists an m such that n is the sum of m distinct nonzero digits (with 1",
   "id": "A229792",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 28,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "a(n) = ceiling(n^2 - 7*n/3 + 19/3).",
   "id": "A341301",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:13",
     "offset": 1,
     "size": 53,
     "source": "oeis-bfile"

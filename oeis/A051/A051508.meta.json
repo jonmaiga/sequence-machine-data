@@ -2,12 +2,10 @@
   "description": "a(n) = floor(Sum_{k=0..n} tan(k)).",
   "id": "A051508",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:22",
     "offset": 0,
     "size": 53,
     "source": "joeis"

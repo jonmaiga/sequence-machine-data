@@ -2,13 +2,11 @@
   "description": "Square array read by descending antidiagonals where the row n (n >= 2) and column k (k >= 1) contains the largest number not greater than 2^k that has exactly n divisors, or 0 if such a number does not exist.",
   "id": "A341339",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:14",
     "offset": 2,
     "size": 78,
     "source": "oeis-bfile"

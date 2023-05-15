@@ -2,12 +2,10 @@
   "description": "Sum of squares of diagonals of a parallelogram (but not rectangle or rhombus) with integer sides and diagonals and their GCD is 1.",
   "id": "A248943",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 57,
     "source": "oeis-entry"

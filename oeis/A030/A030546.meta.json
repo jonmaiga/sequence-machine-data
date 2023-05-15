@@ -2,14 +2,12 @@
   "description": "Remainder-numerators from Egyptian fraction expansion of 5/5809 using odd greedy algorithm.",
   "id": "A030546",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 0,
     "size": 30,
     "source": "oeis-entry"

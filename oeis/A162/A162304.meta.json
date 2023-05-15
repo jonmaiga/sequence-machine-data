@@ -2,13 +2,11 @@
   "description": "Triangular numbers that contain exactly 3 different decimal digits.",
   "id": "A162304",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 47,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Expansion of free energy series related to Potts model.",
   "id": "A007276",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 4,
     "size": 8,
     "source": "oeis-entry"

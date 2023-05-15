@@ -2,13 +2,11 @@
   "description": "Floor of the volumes of the first sixteen Lobell polyhedra.",
   "id": "A144222",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 5,
     "size": 16,
     "source": "oeis-entry"

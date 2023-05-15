@@ -2,12 +2,10 @@
   "description": "Smallest positive integer m such that the length of continued fraction for 1/n + Sum_{k=1..m} 1/k is n, or 0 if no such m exists.",
   "id": "A107921",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 80,
     "source": "oeis-entry"

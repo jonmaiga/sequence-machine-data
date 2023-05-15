@@ -2,13 +2,11 @@
   "description": "Number of (not necessarily maximal) cliques in the n X n black bishop graph.",
   "id": "A295909",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 18:48:47",
     "offset": 1,
     "size": 32,
     "source": "joeis"

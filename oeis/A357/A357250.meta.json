@@ -2,12 +2,10 @@
   "description": "Number of quaternary steady words of length n (with respect to the permutations of symbols).",
   "id": "A357250",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:31",
     "offset": 3,
     "size": 51,
     "source": "oeis-bfile"

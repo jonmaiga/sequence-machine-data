@@ -12,7 +12,6 @@
     "A334431",
     "A334432"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "easy",
     "formulas",
@@ -20,7 +19,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 85,
     "source": "oeis-entry"

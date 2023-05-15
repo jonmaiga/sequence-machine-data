@@ -1,0 +1,16 @@
+{
+  "description": "The sixth moment of an n X n random +-1 matrix.",
+  "id": "A357571",
+  "mentions": [
+    "A052127"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

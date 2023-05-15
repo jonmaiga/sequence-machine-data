@@ -2,14 +2,14 @@
   "description": "a(n) = Product_{1<=j,k<=n} (4*sin(Pi*(4*j-1)/(4*n))^2 + 4*sin(Pi*(2*k-1)/(2*n))^2).",
   "id": "A340557",
   "mentions": [
+    "A006752",
     "A103999"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 0,
     "size": 10,
     "source": "oeis-entry"

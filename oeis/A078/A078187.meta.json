@@ -2,13 +2,11 @@
   "description": "Smaller of the two successive squares which differ in the use of only one digit.",
   "id": "A078187",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 35,
     "source": "oeis-entry"

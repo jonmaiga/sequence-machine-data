@@ -2,12 +2,10 @@
   "description": "Numbers which produce only positive numbers under iteration of a function X(n) = Pi(n) - C(n) + n where Pi(n) is the sum of the distinct primes dividing n and C(n) is the sum of its other divisors (including 1).",
   "id": "A275466",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:40",
     "offset": 1,
     "size": 56,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "G.f.: (1+x^18)/((1-x)*(1-x^4)*(1-x^8)*(1-x^12)).",
   "id": "A092508",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 15:16:29",
     "offset": 0,
     "size": 69,
     "source": "joeis"

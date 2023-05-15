@@ -2,14 +2,12 @@
   "description": "Starting with 1, multiply the n-th term by 10, then subtract the sum of all terms up to and including the n-th, to make the (n+1)th term.",
   "id": "A176174",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:00",
     "offset": 1,
     "size": 19,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "Smallest prime modulus p such that there exists a multiplicative-coset Ramsey algebra in n colors over Z/pZ, or 0 if no such prime exists.",
   "id": "A263308",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:23",
     "offset": 1,
     "size": 52,
     "source": "oeis-bfile"

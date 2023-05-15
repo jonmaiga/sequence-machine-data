@@ -2,14 +2,12 @@
   "description": "a(n)=(n^3+3*n^7)/4.",
   "id": "A190636",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:13:27",
     "offset": 1,
     "size": 27,
     "source": "joeis"

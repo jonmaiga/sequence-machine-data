@@ -2,12 +2,10 @@
   "description": "a(n) = 2*a(n-1)^2 - a(n-2)^2 with a(0)=0, a(1)=1.",
   "id": "A076740",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:28",
     "offset": 0,
     "size": 10,
     "source": "oeis-bfile"

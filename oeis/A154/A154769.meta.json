@@ -2,14 +2,12 @@
   "description": "Zeroless primes with consecutive digits (1,..,9) starting with 1.",
   "id": "A154769",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "bref",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 3,
     "source": "oeis-entry"

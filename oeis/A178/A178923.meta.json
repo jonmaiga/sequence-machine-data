@@ -2,14 +2,12 @@
   "description": "Rectangular array T(m,k)= StirlingS2(k-1,m-1)*m! (The Coupon Collectors Problem)",
   "id": "A178923",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

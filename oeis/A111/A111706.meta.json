@@ -2,14 +2,12 @@
   "description": "a(n) = concatenation of k times the k-th digit of n.",
   "id": "A111706",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

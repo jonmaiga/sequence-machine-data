@@ -8,7 +8,6 @@
     "A288536",
     "A288537"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "base",
     "easy",
@@ -16,7 +15,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 2,
     "size": 81,
     "source": "oeis-entry"

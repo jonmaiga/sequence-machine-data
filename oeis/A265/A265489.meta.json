@@ -1,15 +1,13 @@
 {
-  "description": "Number of nX3 0..n*3-1 arrays with upper left zero and lower right n*3-1 and each element differing from its horizontal, vertical and diagonal neighbors by a power of two.",
+  "description": "Number of n X 3 0..n*3-1 arrays with upper left zero and lower right n*3-1 and each element differing from its horizontal, vertical and diagonal neighbors by a power of two.",
   "id": "A265489",
   "mentions": [
     "A265494"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:25",
     "offset": 1,
     "size": 23,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "To compute the next term, add to n the number t, where t is the number of [last digit of n]'s used so far in the sequence.",
   "id": "A130514",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 59,
     "source": "oeis-entry"

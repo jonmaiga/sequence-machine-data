@@ -2,13 +2,11 @@
   "description": "Irregular triangle read by rows: row n gives coefficients of polynomial NT_{n,mu}(q) in powers of q.",
   "id": "A256973",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 93,
     "source": "oeis-entry"

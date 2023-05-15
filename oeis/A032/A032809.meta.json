@@ -2,14 +2,12 @@
   "description": "Numbers whose set of base-9 digits is {2,3}.",
   "id": "A032809",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:05:15",
     "offset": 1,
     "size": 40,
     "source": "joeis"

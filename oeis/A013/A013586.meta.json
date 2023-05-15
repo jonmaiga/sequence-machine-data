@@ -2,12 +2,10 @@
   "description": "Smallest prime p such that n divides one of f(p)-1, f(p) or f(p)+1, where f(p) is product of primes <= p, or 0 if no such p exists.",
   "id": "A013586",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 13:37:25",
     "offset": 1,
     "size": 88,
     "source": "joeis"

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the greatest k such that n appears in the k-th row of triangle A361644.",
+  "id": "A361676",
+  "mentions": [
+    "A000975",
+    "A003754",
+    "A101211",
+    "A361644",
+    "A361645"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

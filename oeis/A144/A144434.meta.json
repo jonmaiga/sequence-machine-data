@@ -2,14 +2,12 @@
   "description": "Triangle read by rows formed from golden-mean-like generalized factorials: t(n,m)=Round(phi*a(n)/(a(m)*a(n-m))), where phi=-(1 - Sqrt[5])/2, b(n)=b(n-1)+phi, a(n)=b(n)*a(n-1).",
   "id": "A144434",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

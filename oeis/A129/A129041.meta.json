@@ -1,13 +1,11 @@
 {
-  "description": "Number of n-node triangulations of the double torus S_3 in which every node has degree >= 6.",
+  "description": "Number of n-node triangulations of the triple torus S_3 in which every node has degree >= 6.",
   "id": "A129041",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 9,
     "size": 4,
     "source": "oeis-entry"

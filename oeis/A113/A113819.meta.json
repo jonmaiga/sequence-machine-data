@@ -2,7 +2,6 @@
   "description": "Circular permutation of the numbers 1 to 66 (the least possible) such that the sum of any two consecutive numbers is a multidigit palindrome.",
   "id": "A113819",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

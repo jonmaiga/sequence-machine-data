@@ -2,13 +2,11 @@
   "description": "Primes p for which, if q is the greatest prime < p, there exists a prime r < q such that r*q == 1 (mod p).",
   "id": "A321462",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:44",
     "offset": 1,
     "size": 49,
     "source": "oeis-bfile"

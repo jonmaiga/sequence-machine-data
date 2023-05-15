@@ -2,14 +2,12 @@
   "description": "Number of wide partitions whose first part is of size n.",
   "id": "A133787",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 15,
     "source": "oeis-entry"

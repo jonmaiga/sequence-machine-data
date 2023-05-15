@@ -2,14 +2,12 @@
   "description": "a(0)=0; for n>0, a(n) is the least positive integer that cannot be represented as Sum_{k=1..n-1} a(i_k)*a(k), with 0 <= i_k < n.",
   "id": "A297345",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 0,
     "size": 13,
     "source": "oeis-entry"

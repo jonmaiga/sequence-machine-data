@@ -2,13 +2,11 @@
   "description": "63*2^(n+1) + 1.",
   "id": "A196657",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:18",
     "offset": 0,
     "size": 29,
     "source": "oeis-bfile"

@@ -2,7 +2,6 @@
   "description": "Starting with 1, the next entry is the next higher integer whose spelling in US English comes lexicographically later.",
   "id": "A180301",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "fini",
@@ -11,7 +10,6 @@
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:03",
     "offset": 1,
     "size": 23,
     "source": "oeis-bfile"

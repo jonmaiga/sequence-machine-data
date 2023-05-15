@@ -5,13 +5,11 @@
     "A007764",
     "A268894"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn",
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

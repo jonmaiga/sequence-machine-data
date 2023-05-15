@@ -1,0 +1,17 @@
+{
+  "description": "Let (k_1, ..., k_m) be the partition with Heinz number n (i.e., n = Product_{i=1..m} prime(k_i)) and consider a set of fair dice with k_1, ..., k_m faces numbered 1, ..., k_1 + ... + k_m (in any order). The outcome of a roll of the dice determines an ordering of them. a(n) is the minimum difference of the number of outcomes resulting in the most common ordering and the number of outcomes resulting in the least common ordering.",
+  "id": "A362634",
+  "mentions": [
+    "A362633"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

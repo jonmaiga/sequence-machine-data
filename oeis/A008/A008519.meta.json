@@ -2,13 +2,11 @@
   "description": "Numbers that contain the letter `o'.",
   "id": "A008519",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2022-04-28 12:48:25",
     "offset": 1,
     "size": 60,
     "source": "joeis"

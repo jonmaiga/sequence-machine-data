@@ -2,13 +2,11 @@
   "description": "Image of 1 under the repeated morphism 1 -> 21, 2 -> 32, 3 -> 43, 4 -> 14.",
   "id": "A106147",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 115,
     "source": "oeis-entry"

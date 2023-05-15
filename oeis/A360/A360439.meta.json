@@ -1,0 +1,22 @@
+{
+  "description": "Square array read by antidiagonals upwards: T(n,k), n>=0, k>=0, is the number of ways of choosing nonnegative numbers for k indistinguishable (p^n*q)-sided dice so that it is possible to roll every number from 0 to (p^n*q)^k-1, where p and q are distinct primes.",
+  "id": "A360439",
+  "mentions": [
+    "A002119",
+    "A060540",
+    "A131514",
+    "A273013",
+    "A349427",
+    "A360098"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

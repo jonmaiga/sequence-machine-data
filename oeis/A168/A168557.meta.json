@@ -9,7 +9,6 @@
     "A117440",
     "A130595"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
@@ -17,7 +16,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 64,
     "source": "oeis-entry"

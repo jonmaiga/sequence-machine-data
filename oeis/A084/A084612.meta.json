@@ -1,20 +1,22 @@
 {
-  "description": "Triangle, read by rows, where the n-th row lists the (2n+1) coefficients of (1+x-2x^2)^n.",
+  "description": "Triangle, read by rows, where the n-th row lists the (2n+1) coefficients of (1 + x - 2*x^2)^n.",
   "id": "A084612",
   "mentions": [
+    "A000007",
+    "A001787",
     "A002426",
     "A084600",
     "A084611",
     "A084613",
+    "A084614",
     "A084615"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
+    "formulas",
     "sign",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:36",
     "offset": 0,
     "size": 75,
     "source": "oeis-bfile"

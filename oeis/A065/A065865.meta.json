@@ -2,12 +2,10 @@
   "description": "a(n) is the least k such that nk - 1 and nk + 1 are both composite.",
   "id": "A065865",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:18",
     "offset": 1,
     "size": 102,
     "source": "oeis-bfile"

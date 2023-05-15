@@ -1,0 +1,23 @@
+{
+  "description": "Number of tilings of a 4 X n rectangle using dominos and 2 X 2 right triangles.",
+  "id": "A362298",
+  "mentions": [
+    "A005178",
+    "A006130",
+    "A351322",
+    "A352432",
+    "A352433",
+    "A362297",
+    "A362299"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

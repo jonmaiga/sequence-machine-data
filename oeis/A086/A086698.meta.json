@@ -2,7 +2,6 @@
   "description": "Two-sided semiprimes: deleting any number of digits at left or at right, but not both, leaves a semiprime.",
   "id": "A086698",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 26,
     "source": "oeis-entry"

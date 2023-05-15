@@ -2,7 +2,6 @@
   "description": "Powers of 2 with exactly two 2's in their decimal digits.",
   "id": "A068961",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Number of minimum dominating sets in the n-tetrahedral (Johnson) graph.",
   "id": "A323494",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "bref",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 6,
     "size": 3,
     "source": "oeis-entry"

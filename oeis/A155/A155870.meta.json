@@ -2,13 +2,11 @@
   "description": "a(1)=1, if a(n-1) has m digits, a(n) has m mod 9 number of \"m mod 9\" followed by \"m mod 9\" zeros if a(n) is not equal to some a(x), x",
   "id": "A155870",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

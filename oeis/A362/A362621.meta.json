@@ -1,0 +1,38 @@
+{
+  "description": "One and numbers whose multiset of prime factors (with multiplicity) has the same median as maximum.",
+  "id": "A362621",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A002865",
+    "A027746",
+    "A053263",
+    "A056239",
+    "A112798",
+    "A171979",
+    "A237821",
+    "A237824",
+    "A327473",
+    "A327476",
+    "A334965",
+    "A359908",
+    "A362611",
+    "A362613",
+    "A362614",
+    "A362615",
+    "A362616",
+    "A362619",
+    "A362620",
+    "A362622",
+    "A362980"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

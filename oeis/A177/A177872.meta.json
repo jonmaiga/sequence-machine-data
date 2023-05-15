@@ -2,13 +2,11 @@
   "description": "Numbers k such that k is a quadratic residue modulo reverse(k) and reverse(k) is a quadratic residue modulo k.",
   "id": "A177872",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 76,
     "source": "oeis-entry"

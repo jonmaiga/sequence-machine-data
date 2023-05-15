@@ -2,13 +2,11 @@
   "description": "Number of ternary words of length n (beginning 0) with autocorrelation function 2^(n-1)+3.",
   "id": "A045697",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 04:41:34",
     "offset": 1,
     "size": 31,
     "source": "joeis"

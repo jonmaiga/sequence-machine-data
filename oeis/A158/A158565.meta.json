@@ -2,7 +2,6 @@
   "description": "A modulo two based Pascal's triangle using powers of two for even and powers of three for odd: t(n,m)=If[Mod[Binomial[n, m], 2] == 0 && m <= Floor[n/2], 2^m, If[Mod[Binomial[n, m], 2] == 0 && m > Floor[n/2], 2^(n - m), If[Mod[Binomial[n, m], 2] == 1 && m <= Floor[n/2], 3^m, If[Mod[Binomial[n, m], 2] == 1 && m > Floor[n/2], 3^(n - m), 0]]]].",
   "id": "A158565",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 66,
     "source": "oeis-entry"

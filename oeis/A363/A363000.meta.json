@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = numerator(R(n, n, 1)), where R are the rational poynomials R(n, k, x) = Sum_{u=0..k} ( Sum_{j=0..u} x^j * binomial(u, j) * (j + 1)^n ) / (u + 1).",
+  "id": "A363000",
+  "mentions": [
+    "A027611",
+    "A027612",
+    "A062709",
+    "A362998",
+    "A362999",
+    "A363001"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

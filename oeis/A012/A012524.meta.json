@@ -2,12 +2,10 @@
   "description": "Expansion of sin(sinh(x)*sin(x)).",
   "id": "A012524",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-02 23:59:47",
     "offset": 0,
     "size": 9,
     "source": "joeis"

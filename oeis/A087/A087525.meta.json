@@ -2,13 +2,11 @@
   "description": "Primes p with the property that p-q does not divide p+q for all primes q < p.",
   "id": "A087525",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 70,
     "source": "oeis-entry"

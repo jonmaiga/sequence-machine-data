@@ -2,13 +2,11 @@
   "description": "Numbers k such that k and k^2 use only the digits 1, 2, 3 and 5.",
   "id": "A136973",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 16:15:03",
     "offset": 1,
     "size": 37,
     "source": "joeis"

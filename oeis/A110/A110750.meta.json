@@ -2,14 +2,12 @@
   "description": "Least palindromic multiple of composite(n), or 0 if no such number exists.",
   "id": "A110750",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 57,
     "source": "oeis-entry"

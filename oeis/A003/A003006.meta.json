@@ -10,14 +10,12 @@
     "A198683",
     "A199812"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 1,
     "size": 23,
     "source": "oeis-entry"

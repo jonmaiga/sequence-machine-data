@@ -2,7 +2,6 @@
   "description": "Numbers which, together with their squares in base ten, contain all digits from 1 to 9 exactly twice.",
   "id": "A132660",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 25,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Sprague-Grundy values for octal game 4.726.",
   "id": "A125944",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 16:33:53",
     "offset": 1,
     "size": 100,
     "source": "joeis"

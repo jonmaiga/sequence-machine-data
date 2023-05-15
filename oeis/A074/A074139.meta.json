@@ -8,7 +8,6 @@
     "A074140",
     "A074141"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "formulas",
     "look",
@@ -16,7 +15,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:26",
     "offset": 0,
     "size": 67,
     "source": "oeis-bfile"

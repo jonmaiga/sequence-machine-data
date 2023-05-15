@@ -2,7 +2,6 @@
   "description": "Expansion of (-1 + 4*x^2 + 8*x^3)/((1 + 2*x + 4*x^2)*(-1 + x + 2*x + 4*x^2 + 4*x^3 - 16*x^4)).",
   "id": "A129443",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 19:27:47",
     "offset": 0,
     "size": 25,
     "source": "joeis"

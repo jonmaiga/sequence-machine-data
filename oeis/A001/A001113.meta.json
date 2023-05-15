@@ -34,7 +34,6 @@
     "A170873",
     "A269953"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "cons",
     "core",
@@ -43,7 +42,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:03",
     "offset": 1,
     "size": 105,
     "source": "oeis-bfile"

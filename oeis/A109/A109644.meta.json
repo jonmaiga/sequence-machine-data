@@ -2,13 +2,11 @@
   "description": "{Sum of all k-digit numbers > n }-{sum of all k-digit numbers < n}, n is a 'k'digit number.",
   "id": "A109644",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:01",
     "offset": 1,
     "size": 50,
     "source": "oeis-bfile"

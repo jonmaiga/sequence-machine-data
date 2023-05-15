@@ -2,13 +2,11 @@
   "description": "a(n) is the smallest number which is divisible by n, is not equal to n and its digital sum is also divisible by n.",
   "id": "A163502",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 45,
     "source": "oeis-entry"

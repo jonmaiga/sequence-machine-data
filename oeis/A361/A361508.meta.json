@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = smallest k such that Fibonacci(k) = n, or -1 if n is not a Fibonacci number.",
+  "id": "A361508",
+  "mentions": [
+    "A000045",
+    "A010056"
+  ],
+  "tags": [
+    "changed",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

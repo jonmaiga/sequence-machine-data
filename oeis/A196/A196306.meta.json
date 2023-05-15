@@ -7,12 +7,10 @@
     "A196307",
     "A196308"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:18",
     "offset": 0,
     "size": 197,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Let a(n) = the number of permutations (p(1),p(2),p(3)...,p(n)) of (1,2,3,...,n) where, if each (m,p(m)) is plotted on a graph, then the entire set P of the n of these plotted points would be on the perimeter of the convex hull of P.",
   "id": "A156831",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 17,
     "source": "oeis-entry"

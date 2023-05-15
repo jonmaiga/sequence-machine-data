@@ -2,13 +2,11 @@
   "description": "Triangle read by rows: see below.",
   "id": "A109878",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 49,
     "source": "oeis-entry"

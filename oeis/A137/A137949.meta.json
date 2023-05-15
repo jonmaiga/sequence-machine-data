@@ -2,7 +2,6 @@
   "description": "Triangular sequence of coefficients of characteristic polynomials rational matrices of a type: M(3)= {{0, -3/2, 0}, {-3/2, 0, -3/2}, {0, -3/2, 0}}.",
   "id": "A137949",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 60,
     "source": "oeis-entry"

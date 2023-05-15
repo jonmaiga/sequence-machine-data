@@ -2,14 +2,12 @@
   "description": "The sum of a triangular array made from a negative 6 fold permutation product with shifts up and down of {2,6}.",
   "id": "A105162",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 44,
     "source": "oeis-entry"

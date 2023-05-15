@@ -2,12 +2,10 @@
   "description": "Coefficients of q-series associated with the 8_5 knot.",
   "id": "A301734",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 0,
     "size": 101,
     "source": "oeis-entry"

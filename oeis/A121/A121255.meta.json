@@ -2,13 +2,11 @@
   "description": "Number of conjugated cycles composed of ten carbons in (n,n)-nanotubes in terms of the number of naphthalene units.",
   "id": "A121255",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 10:30:41",
     "offset": 1,
     "size": 12,
     "source": "joeis"

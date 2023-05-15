@@ -2,13 +2,11 @@
   "description": "Number of tilings of a centro-symmetric octagon of integral sides, all of length n, into squares and 45-degree rhombi with unitary side lengths.",
   "id": "A093937",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

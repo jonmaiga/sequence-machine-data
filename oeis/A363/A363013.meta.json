@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of prime factors (counted with multiplicity) of the n-th cubefull number (A036966).",
+  "id": "A363013",
+  "mentions": [
+    "A001222",
+    "A036966",
+    "A072047",
+    "A076399",
+    "A083342",
+    "A360729",
+    "A362974"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -17,14 +17,12 @@
     "A158454",
     "A158909"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:05",
     "offset": 0,
     "size": 28,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "a(n)=(-1)^(n+1)*(7/8)*(49^n-1)*B(2n) where B(k) denotes the k-th Bernoulli number.",
   "id": "A090647",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 14,
     "source": "oeis-entry"

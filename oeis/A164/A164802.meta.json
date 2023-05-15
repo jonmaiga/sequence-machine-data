@@ -2,14 +2,12 @@
   "description": "a(n) = smallest number which has in its Spanish name the letter \"n\" in the n-th position.",
   "id": "A164802",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "more",
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 26,
     "source": "oeis-entry"

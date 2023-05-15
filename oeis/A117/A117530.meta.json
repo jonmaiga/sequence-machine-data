@@ -11,13 +11,11 @@
     "A052147",
     "A117531"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 71,
     "source": "oeis-entry"

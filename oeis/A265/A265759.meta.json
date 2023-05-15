@@ -87,13 +87,11 @@
     "A265818",
     "A265819"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

@@ -2,7 +2,6 @@
   "description": "Triangle T(n,k) of the coefficients [x^n] x^k*(x^5+3*x^4+4*x^3+3*x^2+2*x+1)^k, 1<=k<=n.",
   "id": "A186686",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 78,
     "source": "oeis-entry"

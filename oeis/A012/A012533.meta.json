@@ -2,12 +2,10 @@
   "description": "exp(sinh(x)*arcsin(x))=1+2/2!*x^2+20/4!*x^4+440/6!*x^6+17488/8!*x^8...",
   "id": "A012533",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 18:46:48",
     "offset": 0,
     "size": 16,
     "source": "joeis"

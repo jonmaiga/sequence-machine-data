@@ -2,13 +2,11 @@
   "description": "T(n,k) = Number of n X k 0..2 arrays with every nonzero element less than or equal to at least two horizontal and vertical neighbors.",
   "id": "A203460",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:23",
     "offset": 1,
     "size": 50,
     "source": "oeis-bfile"

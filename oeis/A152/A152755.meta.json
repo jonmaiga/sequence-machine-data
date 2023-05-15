@@ -2,13 +2,11 @@
   "description": "Triangle read by rows: row n gives the vector b[n] where b[0] = {-1}; b[1] = {1, -1}; b[n] = prime[n + 2 ], -prime[n + 2] + n - 1, -1,-1, ..., -1.",
   "id": "A152755",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:35",
     "offset": 0,
     "size": 66,
     "source": "oeis-bfile"

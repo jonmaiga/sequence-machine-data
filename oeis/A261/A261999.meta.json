@@ -2,14 +2,12 @@
   "description": "Decimal expansion of the smallest solution of Gamma(log(x)) = log(Gamma(x)).",
   "id": "A261999",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:21",
     "offset": 1,
     "size": 106,
     "source": "oeis-bfile"

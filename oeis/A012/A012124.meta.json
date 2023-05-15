@@ -2,12 +2,10 @@
   "description": "arcsin(arcsin(tanh(x)))=x+4/5!*x^5+24/7!*x^7+1744/9!*x^9+61504/11!*x^11...",
   "id": "A012124",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:46:55",
     "offset": 0,
     "size": 15,
     "source": "joeis"

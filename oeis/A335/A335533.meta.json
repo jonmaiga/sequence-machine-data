@@ -2,14 +2,12 @@
   "description": "BLOSUM62 substitution scoring matrix used to score alignments between evolutionarily divergent protein sequences.",
   "id": "A335533",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "fini",
     "full",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 210,
     "source": "oeis-entry"

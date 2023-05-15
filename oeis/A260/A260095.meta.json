@@ -2,13 +2,11 @@
   "description": "This sequence is obtained from the concatenation of certain representative members of a family of related sequences, each of which enumerates weight products along vertex paths.",
   "id": "A260095",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:18",
     "offset": 1,
     "size": 72,
     "source": "oeis-bfile"

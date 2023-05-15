@@ -2,14 +2,12 @@
   "description": "Sequence defined by the recurrence formula a(n+1)=sum(a(p)*a(n-p)+k,p=0..n)+l for n>=1, with here a(0)=1, a(1)=0, k=-1 and l=-1.",
   "id": "A176952",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 13:33:57",
     "offset": 0,
     "size": 26,
     "source": "joeis"

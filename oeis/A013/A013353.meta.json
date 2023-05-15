@@ -2,13 +2,11 @@
   "description": "tan(tan(x)-sin(x)) = 3/3!*x^3 + 15/5!*x^5 + 273/7!*x^7 + 23055/9!*x^9...",
   "id": "A013353",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 00:47:15",
     "offset": 0,
     "size": 14,
     "source": "joeis"

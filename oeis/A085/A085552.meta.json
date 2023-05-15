@@ -2,14 +2,12 @@
   "description": "n-th digit after decimal point of sqrt(n^2+4)-n)/2.",
   "id": "A085552",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "cons",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

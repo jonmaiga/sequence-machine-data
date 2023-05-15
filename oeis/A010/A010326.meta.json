@@ -2,13 +2,11 @@
   "description": "Continued fraction for cube root of 98.",
   "id": "A010326",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:46:54",
     "offset": 0,
     "size": 77,
     "source": "joeis"

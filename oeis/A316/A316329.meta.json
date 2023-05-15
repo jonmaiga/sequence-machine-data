@@ -2,12 +2,10 @@
   "description": "Image of 3 under repeated applications of the morphism 1 -> 11, 2 -> 2, 3 -> 312.",
   "id": "A316329",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 0,
     "size": 7,
     "source": "oeis-entry"

@@ -10,8 +10,8 @@
     "A086232",
     "A287318"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nice",
@@ -19,7 +19,6 @@
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:50",
     "offset": 0,
     "size": 17,
     "source": "oeis-bfile"

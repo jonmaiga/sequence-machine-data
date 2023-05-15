@@ -2,14 +2,12 @@
   "description": "a(n) = 79*n - a(n-1) for n>0, a(0)=9.",
   "id": "A167534",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:43:31",
     "offset": 0,
     "size": 47,
     "source": "joeis"

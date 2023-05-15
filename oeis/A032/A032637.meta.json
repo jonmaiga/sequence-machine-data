@@ -2,13 +2,11 @@
   "description": "a(n) = floor(Pi^n / e).",
   "id": "A032637",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 12:38:33",
     "offset": 0,
     "size": 26,
     "source": "joeis"

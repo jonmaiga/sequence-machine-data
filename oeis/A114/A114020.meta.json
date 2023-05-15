@@ -5,13 +5,10 @@
     "A000045",
     "A005604"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:47",
     "offset": 0,
     "size": 6,
     "source": "oeis-entry"

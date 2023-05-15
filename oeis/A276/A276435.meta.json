@@ -2,12 +2,10 @@
   "description": "Smallest integer z > 1 that satisfies all the integer congruences z mod i = b(i) mod i, where b(i) is the i-th composite between prime(k) and prime(k+1), 0 < i < prime(k+1) - prime(k) - 1, and k > 1 is the smallest integer not used by previous terms of the sequence.",
   "id": "A276435",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 68,
     "source": "oeis-entry"

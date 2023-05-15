@@ -2,13 +2,11 @@
   "description": "When this sequence is interleaved with its first differences and the resulting sequence is divided into blocks of 10 digits, each block contains 10 distinct digits. Each term is chosen to be the smallest that satisfies this property.",
   "id": "A101246",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 33,
     "source": "oeis-entry"

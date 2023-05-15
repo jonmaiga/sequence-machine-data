@@ -11,14 +11,12 @@
     "A320114",
     "A320115"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "formulas",
     "mult",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:42",
     "offset": 1,
     "size": 95,
     "source": "oeis-bfile"

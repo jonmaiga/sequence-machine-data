@@ -2,14 +2,12 @@
   "description": "Lexicographically earliest increasing sequence with property that in the concatenation of its terms every pair of consecutive digits differs by 1.",
   "id": "A098766",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 37,
     "source": "oeis-entry"

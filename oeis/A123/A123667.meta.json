@@ -6,14 +6,12 @@
     "A061142",
     "A123666"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "mult",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-09-08 06:56:22",
     "offset": 1,
     "size": 59,
     "source": "joeis"

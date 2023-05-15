@@ -2,14 +2,12 @@
   "description": "a(0)=1, a(1)=36, a(n)=204*a(n-2).",
   "id": "A120465",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 13:19:13",
     "offset": 0,
     "size": 17,
     "source": "joeis"

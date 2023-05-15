@@ -2,14 +2,12 @@
   "description": "Primes whose decimal expansion has the form ij, where i and j are integers with j < i.",
   "id": "A109645",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "look",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:01",
     "offset": 1,
     "size": 51,
     "source": "oeis-bfile"

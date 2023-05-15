@@ -15,7 +15,6 @@
     "A179898",
     "A186232"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn",
@@ -23,7 +22,6 @@
     "unsolved"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:10",
     "offset": 0,
     "size": 91,
     "source": "oeis-bfile"

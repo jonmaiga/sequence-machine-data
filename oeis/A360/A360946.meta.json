@@ -1,0 +1,33 @@
+{
+  "description": "Number of Pythagorean quadruples with inradius n.",
+  "id": "A360946",
+  "mentions": [
+    "A096907",
+    "A096908",
+    "A096909",
+    "A096910",
+    "A097263",
+    "A097264",
+    "A097265",
+    "A097266",
+    "A097267",
+    "A169580",
+    "A225206",
+    "A225207",
+    "A230543",
+    "A330893",
+    "A330894",
+    "A331365",
+    "A335654",
+    "A359741"
+  ],
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

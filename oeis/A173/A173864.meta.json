@@ -2,14 +2,12 @@
   "description": "Expansion of 9/8 in base phi.",
   "id": "A173864",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

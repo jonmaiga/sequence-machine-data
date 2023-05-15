@@ -7,15 +7,13 @@
     "A038168",
     "A038174"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:47",
     "offset": 1,
-    "size": 10,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

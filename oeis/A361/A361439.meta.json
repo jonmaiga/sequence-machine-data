@@ -1,0 +1,14 @@
+{
+  "description": "The number of generators for the monoid of basic log-concave (with no internal zeros) cyclotomic generating functions of degree n.",
+  "id": "A361439",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

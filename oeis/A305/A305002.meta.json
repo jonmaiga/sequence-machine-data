@@ -2,14 +2,12 @@
   "description": "Expansion of (1 + 20*x + 30*x^2 + 50*x^3 + 7*x^4 + 10*x^5)/((1 - x)*(1 + x^4)).",
   "id": "A305002",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:13:49",
     "offset": 0,
     "size": 67,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "Number of times n-th energy state appears in statistical sum of Ising model on 4 X 4 X 4 cube.",
   "id": "A008551",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 0,
     "size": 26,
     "source": "oeis-entry"

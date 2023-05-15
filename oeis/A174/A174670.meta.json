@@ -11,14 +11,12 @@
     "A174601",
     "A174671"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:58",
     "offset": 1,
     "size": 72,
     "source": "oeis-bfile"

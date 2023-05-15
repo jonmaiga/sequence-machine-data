@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of (2 - phi)/3, with phi being the golden ratio A001622.",
+  "id": "A361694",
+  "mentions": [
+    "A001622"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 102,
+    "source": "joeis"
+  }
+}

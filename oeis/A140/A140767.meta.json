@@ -2,13 +2,11 @@
   "description": "Triangle read by rows, X^n * [1,1,0,0,0,...] where X = a tridiagonal matrix with (1,1,1,...) in the main and subdiagonals and (1,0,1,0,1,...) in the subsubdiagonal.",
   "id": "A140767",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 65,
     "source": "oeis-entry"

@@ -19,14 +19,12 @@
     "A325229",
     "A325232"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "formulas",
     "hear",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:51",
     "offset": 1,
     "size": 105,
     "source": "oeis-bfile"

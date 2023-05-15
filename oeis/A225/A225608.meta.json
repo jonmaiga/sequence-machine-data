@@ -2,14 +2,12 @@
   "description": "The largest n-digit number whose first k digits are divisible by k.",
   "id": "A225608",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:43",
     "offset": 1,
     "size": 20,
     "source": "oeis-bfile"

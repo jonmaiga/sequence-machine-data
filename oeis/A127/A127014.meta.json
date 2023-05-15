@@ -1,18 +1,16 @@
 {
-  "description": "a(n) = smallest k such that A(k) == 0 mod 2^n, where A(0) = 1 and A(k) = k*A(k-1) + 1 = A000522(k).",
+  "description": "a(n) = smallest k such that A(k) == 0 (mod 2^n), where A(0) = 1 and A(k) = k*A(k-1) + 1 = A000522(k).",
   "id": "A127014",
   "mentions": [
     "A000522",
     "A127015",
     "A138761"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 26,
     "source": "oeis-entry"

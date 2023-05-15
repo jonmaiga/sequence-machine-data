@@ -2,13 +2,11 @@
   "description": "a(1)=1, a(n)=ceiling(n/(n+1)*sum(k=1,n-1,a(k))).",
   "id": "A082423",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:34",
     "offset": 1,
     "size": 34,
     "source": "oeis-bfile"

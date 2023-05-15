@@ -2,12 +2,10 @@
   "description": "f-vectors for 7-neighborly simplicial complexes on n+6 vertices.",
   "id": "A011839",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

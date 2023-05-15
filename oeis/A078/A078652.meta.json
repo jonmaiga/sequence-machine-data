@@ -2,14 +2,12 @@
   "description": "a(1)=1, a(2n)=nextprime(a(n-1)), a(2n+1)= sum of digits of all previous terms + 1.",
   "id": "A078652",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 56,
     "source": "oeis-entry"

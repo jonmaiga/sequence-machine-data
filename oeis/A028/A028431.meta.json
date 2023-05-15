@@ -2,14 +2,12 @@
   "description": "Clog sequence in base 10. Right to left concatenation of n, int(log_10(n)), int(log_10(int(log_10(n)))),... in base10.",
   "id": "A028431",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:37:17",
     "offset": 1,
     "size": 55,
     "source": "joeis"

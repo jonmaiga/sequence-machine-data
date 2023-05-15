@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of zeta(3/5) * zeta(4/5) * Product_{p prime} (1 - 1/p^(8/5) - 1/p^(9/5) - 1/p^2 + 1/p^(13/5) + 1/p^(14/5)).",
+  "id": "A362976",
+  "mentions": [
+    "A036966",
+    "A090699",
+    "A244000",
+    "A362973",
+    "A362974",
+    "A362975"
+  ],
+  "tags": [
+    "cons",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

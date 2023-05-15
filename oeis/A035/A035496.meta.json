@@ -2,13 +2,11 @@
   "description": "Numbers of the form x*y^2 + y*z^2 + z*x^2, x,y,z >= 1.",
   "id": "A035496",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:46",
     "offset": 1,
     "size": 60,
     "source": "oeis-bfile"

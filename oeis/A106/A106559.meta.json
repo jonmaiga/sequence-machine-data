@@ -2,14 +2,12 @@
   "description": "Peano-like substitution of four symbols that gives a narrow strip with a hole in it: characteristic polynomial:x^4-x^3-4x^2-x-15.",
   "id": "A106559",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

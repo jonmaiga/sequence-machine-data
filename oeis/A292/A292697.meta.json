@@ -2,13 +2,11 @@
   "description": "Number of independent vertex sets and vertex covers in the n-Sierpinski tetrahedron graph.",
   "id": "A292697",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 3,
     "source": "oeis-entry"

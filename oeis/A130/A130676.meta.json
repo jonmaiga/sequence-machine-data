@@ -2,14 +2,12 @@
   "description": "Numbers n for which either 16*n^2-6*n+1 or 16*n^2-10*n-1 or both is/are prime.",
   "id": "A130676",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 76,
     "source": "oeis-entry"

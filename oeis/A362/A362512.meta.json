@@ -1,0 +1,16 @@
+{
+  "description": "Number of odd chordless cycles of length > 4 in the n-Mycielski graph.",
+  "id": "A362512",
+  "mentions": [
+    "A361183"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

@@ -1,16 +1,15 @@
 {
-  "description": "Number of nX4 0..2 arrays with every 0 next to a 1 and every 1 next to a 2 horizontally, diagonally or antidiagonally",
+  "description": "Number of n X 4 0..2 arrays with every 0 next to a 1 and every 1 next to a 2 horizontally, diagonally or antidiagonally.",
   "id": "A232147",
   "mentions": [
     "A232149"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:50",
     "offset": 1,
     "size": 14,
     "source": "oeis-bfile"

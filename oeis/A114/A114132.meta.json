@@ -2,12 +2,10 @@
   "description": "Numbers such that each of the first 2j primes appears exactly once in the prime factorization, either as factor or exponent.",
   "id": "A114132",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 24,
     "source": "oeis-entry"

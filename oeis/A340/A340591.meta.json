@@ -11,14 +11,12 @@
     "A340540",
     "A340590"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn",
     "tabl",
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:13",
     "offset": 0,
     "size": 55,
     "source": "oeis-bfile"

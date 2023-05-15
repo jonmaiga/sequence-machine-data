@@ -2,13 +2,11 @@
   "description": "Table T(n,3) read by rows with T(n,1)=a,T(n,2)=b,T(n,3)=c and ((a*M(n))^3)*((a*M(n))^3+b)+c is prime for the least a with least b and c = -1 or 1 and M(n) = n-th Mersenne prime.",
   "id": "A158695",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "sign",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 75,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Smallest number not occurring earlier such that the concatenation of the numbers has the property that the first two digits sum to 10, the next two to 10, the next two to 10, the next two to 10, etc.",
   "id": "A098784",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 72,
     "source": "oeis-entry"

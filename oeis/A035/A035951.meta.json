@@ -2,14 +2,12 @@
   "description": "Number of partitions in parts not of the form 13k, 13k+3 or 13k-3. Also number of partitions with at most 2 parts of size 1 and differences between parts at distance 5 are greater than 1.",
   "id": "A035951",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:23:53",
     "offset": 1,
     "size": 48,
     "source": "joeis"

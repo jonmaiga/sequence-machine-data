@@ -2,12 +2,10 @@
   "description": "Prime numbers p such that p^3 - (p+1)^2 and p^3 + (p+1)^2 are both primes.",
   "id": "A137476",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 36,
     "source": "oeis-entry"

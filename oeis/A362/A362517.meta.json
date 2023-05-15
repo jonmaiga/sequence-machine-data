@@ -1,0 +1,16 @@
+{
+  "description": "Number of vertex cuts in the n X n grid graph.",
+  "id": "A362517",
+  "mentions": [
+    "A059525"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

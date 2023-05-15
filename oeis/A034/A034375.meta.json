@@ -2,14 +2,12 @@
   "description": "Fibonacci numbers with all odd digits (probably finite).",
   "id": "A034375",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 0,
     "size": 9,
     "source": "oeis-entry"

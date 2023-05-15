@@ -2,14 +2,12 @@
   "description": "Square array read by antidiagonals: a(m,n) = the number of different multisets (in respect to the value of the digits) of lengths of runs in the binary representations of positive integers that contain exactly m 0's and n 1's in binary. (The leftmost digit must be 1 in each binary number.)",
   "id": "A164953",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 87,
     "source": "oeis-entry"

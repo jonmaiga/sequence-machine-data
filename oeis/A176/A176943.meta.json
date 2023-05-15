@@ -2,12 +2,10 @@
   "description": "Primes of the form 43^n+10^n",
   "id": "A176943",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

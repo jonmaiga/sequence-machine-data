@@ -2,13 +2,11 @@
   "description": "Primes p such that all p-t for p/2 < t < p are composite, where t is a triangular number.",
   "id": "A074855",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 15,
     "source": "oeis-entry"

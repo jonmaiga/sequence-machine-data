@@ -2,7 +2,6 @@
   "description": "A list of six integers with property that for every 3 numbers a,b,c from the list axbxc is an integer, where axb=a*b/(a+b) and axbxc=a*b*c/(a*b+a*c+b*c). This is the so-called replus operation.",
   "id": "A076254",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "fini",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

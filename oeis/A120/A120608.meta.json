@@ -2,13 +2,11 @@
   "description": "Number of inequivalent (under the \"inversion of variables\") monotone Boolean nondegenerate functions of n variables.",
   "id": "A120608",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 6,
     "source": "oeis-entry"

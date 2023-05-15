@@ -2,13 +2,11 @@
   "description": "Minimum number of bit inversions to convert n into a prime.",
   "id": "A305445",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:30",
     "offset": 2,
     "size": 105,
     "source": "oeis-bfile"

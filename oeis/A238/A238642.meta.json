@@ -2,12 +2,10 @@
   "description": "a(n) = n if n+1 is prime; otherwise, a(n) = n * (smallest prime factor of n+1).",
   "id": "A238642",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:55",
     "offset": 1,
     "size": 61,
     "source": "oeis-bfile"

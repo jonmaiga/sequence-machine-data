@@ -70,10 +70,8 @@
     "A170943",
     "A185256"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
-    "changed",
     "easy",
     "formulas",
     "nice",
@@ -81,7 +79,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:09",
     "offset": 1,
     "size": 58,
     "source": "oeis-bfile"

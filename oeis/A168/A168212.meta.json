@@ -2,14 +2,12 @@
   "description": "a(n) = 7*n - a(n-1) + 1 with n>1, a(1)=4.",
   "id": "A168212",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:44:45",
     "offset": 1,
     "size": 59,
     "source": "joeis"

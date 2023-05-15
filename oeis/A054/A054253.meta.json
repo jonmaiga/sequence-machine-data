@@ -2,12 +2,10 @@
   "description": "a(n) = n + max{ a(i)*a(n-i) ; 1 <= i <= n-1 }, a(n) = n for n <= 2.",
   "id": "A054253",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:03",
     "offset": 1,
     "size": 37,
     "source": "oeis-bfile"

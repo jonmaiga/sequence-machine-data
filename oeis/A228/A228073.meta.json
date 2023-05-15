@@ -2,13 +2,11 @@
   "description": "Degrees of special cubic divisors C_i. Each C_i corresponds to the collection of cubic fourfolds in the complex projective space of dimension 5, and these cubic fourfolds are indexed by i (i.e., of degree i). For each index i, the degree can be interpreted as the number of such cubic fourfolds.",
   "id": "A228073",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 0,
     "size": 48,
     "source": "oeis-entry"

@@ -1,16 +1,14 @@
 {
-  "description": "Number of nX7 0..2 arrays with horizontal differences mod 3 never 1, vertical differences mod 3 never -1, and rows and columns lexicographically nondecreasing",
+  "description": "Number of n X 7 0..2 arrays with horizontal differences mod 3 never 1, vertical differences mod 3 never -1, and rows and columns lexicographically nondecreasing.",
   "id": "A229444",
   "mentions": [
     "A229445"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:46",
     "offset": 1,
     "size": 23,
     "source": "oeis-bfile"

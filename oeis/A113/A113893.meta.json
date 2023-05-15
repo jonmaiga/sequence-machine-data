@@ -2,13 +2,11 @@
   "description": "Smallest prime obtained as a concatenation of prime(n) and prime(m) with m > n.",
   "id": "A113893",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:04",
     "offset": 1,
     "size": 37,
     "source": "oeis-bfile"

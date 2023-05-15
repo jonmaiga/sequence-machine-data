@@ -2,13 +2,11 @@
   "description": "Coefficients in an expansion of the trace of the log of the adjacency operator on the infinite grid Z x Z.",
   "id": "A241587",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-09-08 06:56:24",
     "offset": 1,
     "size": 23,
     "source": "joeis"

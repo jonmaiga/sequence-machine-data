@@ -6,7 +6,6 @@
     "A007318",
     "A177274"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "base",
     "formulas",
@@ -14,7 +13,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 0,
     "size": 78,
     "source": "oeis-entry"

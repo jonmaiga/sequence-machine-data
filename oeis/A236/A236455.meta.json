@@ -2,13 +2,11 @@
   "description": "Number of zero digits in all representations of n in bases 2,3,...,10.",
   "id": "A236455",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:54",
     "offset": 1,
     "size": 84,
     "source": "oeis-bfile"

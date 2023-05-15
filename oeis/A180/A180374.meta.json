@@ -2,13 +2,11 @@
   "description": "1/120 the number of n X 3 arrays of integers in 1..6 with no element or any of its neighbors having the same value.",
   "id": "A180374",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:03",
     "offset": 1,
     "size": 20,
     "source": "oeis-bfile"

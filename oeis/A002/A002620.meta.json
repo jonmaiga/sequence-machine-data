@@ -99,9 +99,7 @@
     "A354600",
     "A355509"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "core",
     "easy",
     "formulas",
@@ -109,7 +107,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:04",
     "offset": 0,
     "size": 58,
     "source": "oeis-bfile"

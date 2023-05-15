@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 - x * exp(-x * exp(-x))).",
+  "id": "A362273",
+  "mentions": [
+    "A000949",
+    "A362244",
+    "A362274",
+    "A362275"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

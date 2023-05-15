@@ -2,14 +2,12 @@
   "description": "Triangle read by rows, derived from a(n) = N*a(n-1) + a(n-2).",
   "id": "A138765",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 43,
     "source": "oeis-entry"

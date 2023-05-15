@@ -2,13 +2,11 @@
   "description": "Write n in binary (without leading 0's). a(n) = the number of distinct numerical values made by permutating the runs of 0's and the runs of 1's, such that the runs (of nonzero length) of 1's alternate with the runs (of nonzero length) of 0's. The permutated binary numbers (those not equal to n) may start with leading 0's.",
   "id": "A175096",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

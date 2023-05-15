@@ -2,13 +2,11 @@
   "description": "Least prime P1 of 10 different primes: 5 consecutive primes P1 P2 P3 P4 P5 and 5 primes Q1 Q2 Q3 Q4 Q5 such that Q1 with same digits than P1 if not 6 or 9, if 6 then replace with 9 and if 9 then replace with 6, same for Q2 from P2 Q3 from P3 Q4 from P4 and Q5 from P5.",
   "id": "A122714",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

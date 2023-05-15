@@ -2,13 +2,11 @@
   "description": "Largest nonnegative integer r such that prime(n) + r and prime(n) - r are both prime.",
   "id": "A104197",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:54",
     "offset": 1,
     "size": 59,
     "source": "oeis-bfile"

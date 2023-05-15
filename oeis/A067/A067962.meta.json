@@ -22,14 +22,12 @@
     "A067965",
     "A067966"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "formulas",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:20",
     "offset": 0,
     "size": 14,
     "source": "oeis-bfile"

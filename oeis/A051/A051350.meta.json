@@ -2,14 +2,12 @@
   "description": "Sum of digit-sums of first n nonprimes.",
   "id": "A051350",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:55:43",
     "offset": 0,
     "size": 51,
     "source": "joeis"

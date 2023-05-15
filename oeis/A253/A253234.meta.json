@@ -5,7 +5,6 @@
     "A039951",
     "A174422"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "hard",
@@ -13,7 +12,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 2,
     "size": 9,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Positive integers having no fewer base-5 runs of even length than odd.",
   "id": "A044846",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:22:33",
     "offset": 1,
     "size": 53,
     "source": "joeis"

@@ -1,18 +1,16 @@
 {
-  "description": "Numbers k such that 5^k + 2*k is a prime.",
+  "description": "Numbers k such that 5^k + 2*k is prime.",
   "id": "A303090",
   "mentions": [
     "A297663",
     "A299642",
     "A299643"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

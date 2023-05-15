@@ -2,13 +2,11 @@
   "description": "The number of nonlinear normal modes for a fully resonant Hamiltonian system with n degrees of freedom.",
   "id": "A231482",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:49",
     "offset": 1,
     "size": 21,
     "source": "oeis-bfile"

@@ -2,7 +2,6 @@
   "description": "Balanced colorings of n-cube.",
   "id": "A006853",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "more",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 0,
     "size": 8,
     "source": "oeis-entry"

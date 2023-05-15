@@ -1,18 +1,14 @@
 {
   "description": "The natural numbers excluding 2 and 3.",
   "id": "A171463",
-  "mentions": [
-    "A002808",
-    "A169546"
-  ],
-  "modified": "2023-02-27 14:38:27",
+  "mentions": [],
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:11:17",
     "offset": 1,
     "size": 72,
     "source": "joeis"

@@ -12,13 +12,11 @@
     "A180137",
     "A180138"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:03",
     "offset": 0,
     "size": 62,
     "source": "oeis-bfile"

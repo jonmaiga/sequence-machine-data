@@ -2,14 +2,12 @@
   "description": "Expansion of x^2*(1 + 2*x - x^2)/(1 - x - 3*x^2 - x^3 + x^4).",
   "id": "A120748",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:09",
     "offset": 1,
     "size": 32,
     "source": "oeis-bfile"

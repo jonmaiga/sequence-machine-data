@@ -2,14 +2,12 @@
   "description": "Decimal expansion of sum(k>=0,sin(Pi*phi^k)) where phi=(1+sqrt(5))/2.",
   "id": "A090966",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 103,
     "source": "oeis-entry"

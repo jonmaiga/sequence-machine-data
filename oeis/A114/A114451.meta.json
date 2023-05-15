@@ -2,12 +2,10 @@
   "description": "Number of distinct permanents of n X n circulant (0,1)-matrices with 3 ones per row.",
   "id": "A114451",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 3,
     "size": 59,
     "source": "oeis-entry"

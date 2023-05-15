@@ -2,12 +2,10 @@
   "description": "a(1) = 1, a(n+1) = floor(a(n)*10^n/n).",
   "id": "A095232",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-10-18 14:56:44",
     "offset": 1,
     "size": 12,
     "source": "joeis"

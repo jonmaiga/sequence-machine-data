@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of -k..k arrays x(0..n+2) of n+3 elements with zero sum and no two or three adjacent elements summing to zero",
   "id": "A200430",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:21",
     "offset": 1,
     "size": 43,
     "source": "oeis-bfile"

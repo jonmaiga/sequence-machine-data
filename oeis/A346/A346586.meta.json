@@ -2,12 +2,10 @@
   "description": "Number of length-n binary words having borders with two mismatches.",
   "id": "A346586",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:20",
     "offset": 1,
     "size": 36,
     "source": "oeis-bfile"

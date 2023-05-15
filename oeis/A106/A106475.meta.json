@@ -9,14 +9,12 @@
     "A344372",
     "A344373"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:57",
     "offset": 0,
     "size": 69,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Numbers for which 9 is a nontrivial quadratic residue.",
   "id": "A273543",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:38",
     "offset": 1,
     "size": 62,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "Number of ways to factor (1 + x + x^2+ ... + x^(n - 1))^2 as the product of two monic polynomials of degree n - 1 with positive coefficients (counting order).",
   "id": "A218452",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 21,
     "source": "oeis-entry"

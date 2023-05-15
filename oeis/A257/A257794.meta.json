@@ -2,12 +2,10 @@
   "description": "Lexicographically earliest injective sequence such that a(n) divides a(a(n))",
   "id": "A257794",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:15",
     "offset": 1,
     "size": 64,
     "source": "oeis-bfile"

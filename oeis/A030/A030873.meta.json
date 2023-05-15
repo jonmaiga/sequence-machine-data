@@ -2,12 +2,10 @@
   "description": "[ exp(5/19)*n! ].",
   "id": "A030873",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 19:28:07",
     "offset": 1,
     "size": 20,
     "source": "joeis"

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = a(n-2)+a(n-3)-a(n-5).",
+  "description": "a(n) = a(n-2) + a(n-3) - a(n-5).",
   "id": "A105637",
   "mentions": [
     "A000035",
@@ -9,14 +9,12 @@
     "A174257",
     "A211858"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:32:15",
     "offset": 0,
     "size": 76,
     "source": "joeis"

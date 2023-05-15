@@ -2,12 +2,10 @@
   "description": "Largest integer N such that a^(2^k) + b^(2^k) for 1 <= k <= N is prime, where p = a^2 + b^2 is the n-th prime of the form 4m+1.",
   "id": "A182199",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:05",
     "offset": 1,
     "size": 87,
     "source": "oeis-bfile"

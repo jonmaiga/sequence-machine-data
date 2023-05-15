@@ -2,13 +2,11 @@
   "description": "Numbers n such that decimal expansion of n^2 has the form D 0 (D+1) for some number D.",
   "id": "A089256",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

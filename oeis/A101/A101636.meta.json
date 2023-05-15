@@ -1,13 +1,11 @@
 {
-  "description": "a(n)=least odd prime p such that (p^(P(n))-1)/(p-1) is prime with P(i)=i-th prime, n>1.",
+  "description": "a(n) = least odd prime p such that (p^(P(n))-1)/(p-1) is prime with P(i) = i-th prime, n>1.",
   "id": "A101636",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 2,
     "size": 61,
     "source": "oeis-entry"

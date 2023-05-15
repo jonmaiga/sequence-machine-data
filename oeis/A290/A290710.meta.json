@@ -2,13 +2,11 @@
   "description": "Number of irredundant sets in the n-crown graph.",
   "id": "A290710",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:05",
     "offset": 3,
     "size": 30,
     "source": "oeis-bfile"

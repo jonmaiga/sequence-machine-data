@@ -2,12 +2,10 @@
   "description": "First number beginning the smallest chain of n consecutive odd divisors, with no even divisor between, of some factorial s!.",
   "id": "A218493",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

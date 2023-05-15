@@ -2,12 +2,10 @@
   "description": "Expansion of 1 + 2*Sum_{n >= 1} (-q)^n*(1 + q^2)*(1 + q^4)*...*(1 + q^(2*k - 2))/ ((1 - q)*(1 - q^3)*...*(1 - q^(2*n - 1)))",
   "id": "A161516",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:43",
     "offset": 0,
     "size": 80,
     "source": "oeis-bfile"

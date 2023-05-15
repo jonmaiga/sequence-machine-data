@@ -2,12 +2,10 @@
   "description": "The larger member a of a pair of integers a>=b such that sqrt((a+b+2)^4+4ab) and sqrt((a+b+3)^4+8ab) are simultaneously integers.",
   "id": "A158519",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 46,
     "source": "oeis-entry"

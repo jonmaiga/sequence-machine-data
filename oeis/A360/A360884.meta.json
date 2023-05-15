@@ -2,15 +2,12 @@
   "description": "a(n) = a(n-1) + a(n-2) + gcd(a(n-1), n), a(1) = a(2) = 1.",
   "id": "A360884",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "easy",
     "formulas",
-    "new",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 42,
     "source": "oeis-entry"

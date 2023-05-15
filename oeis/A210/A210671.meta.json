@@ -2,12 +2,10 @@
   "description": "Number of equivalence classes of S_n under transformations of positionally adjacent elements of the form abc <--> acb <--> bac <--> cba, where a",
   "id": "A210671",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 0,
     "size": 11,
     "source": "oeis-entry"

@@ -19,7 +19,6 @@
     "A228088",
     "A228091"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "formulas",
@@ -27,7 +26,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:45",
     "offset": 1,
     "size": 66,
     "source": "oeis-bfile"

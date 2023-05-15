@@ -2,13 +2,11 @@
   "description": "Coefficients of modular form for elliptic curve \"96b1\": y^2 = x^3 - x^2 - 2*x divided by q in powers of q^2.",
   "id": "A317690",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 0,
     "size": 71,
     "source": "oeis-entry"

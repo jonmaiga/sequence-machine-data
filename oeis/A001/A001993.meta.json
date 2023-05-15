@@ -2,14 +2,12 @@
   "description": "Number of two-rowed partitions of length 3.",
   "id": "A001993",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 12:20:41",
     "offset": 0,
     "size": 48,
     "source": "joeis"

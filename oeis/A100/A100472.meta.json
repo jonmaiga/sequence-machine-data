@@ -2,19 +2,19 @@
   "description": "Inverse modulo 2 modulo transform of 9^n.",
   "id": "A100472",
   "mentions": [
+    "A001019",
     "A010060",
-    "A100742"
+    "A047999",
+    "A106400"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 19,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

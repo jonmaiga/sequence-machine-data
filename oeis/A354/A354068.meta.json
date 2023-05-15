@@ -5,16 +5,15 @@
     "A287647",
     "A287648",
     "A345370",
-    "A349199"
+    "A349199",
+    "A360220"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

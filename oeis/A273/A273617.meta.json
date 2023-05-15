@@ -2,13 +2,11 @@
   "description": "Divide a(n) by the last digit of a(n-1); the remainder is the first digit of a(n+1). The sequence is started with a(1)=2 and always extended with the smallest integer not yet present in the sequence and not leading to a contradiction.",
   "id": "A273617",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:38",
     "offset": 1,
     "size": 98,
     "source": "oeis-bfile"

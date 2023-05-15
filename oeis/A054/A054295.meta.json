@@ -2,13 +2,11 @@
   "description": "Positions of 9's in the decimal expansion of 1/2*(sqrt(5)+1)).",
   "id": "A054295",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 15:18:13",
     "offset": 1,
     "size": 44,
     "source": "joeis"

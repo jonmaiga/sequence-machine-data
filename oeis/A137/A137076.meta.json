@@ -2,14 +2,12 @@
   "description": "Numbers k such that k and k^2 use only the digits 2, 3, 4 and 8.",
   "id": "A137076",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "base",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

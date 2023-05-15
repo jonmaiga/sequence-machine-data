@@ -2,14 +2,12 @@
   "description": "Triangle read by rows: T(n,k) (n >= 2, 2 <= k <= n) = number of edge-disjoint spanners of delay 2 for complete bipartite graph K_{n,k}.",
   "id": "A185090",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "more",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 2,
     "size": 31,
     "source": "oeis-entry"

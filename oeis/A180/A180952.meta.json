@@ -2,13 +2,11 @@
   "description": "Primes such that p(i)+p(i+1)+p(i+2) is a prime when all addends are taken modulo 100.",
   "id": "A180952",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 56,
     "source": "oeis-entry"

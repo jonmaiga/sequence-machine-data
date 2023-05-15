@@ -1,17 +1,18 @@
 {
   "description": "a(n) = (10*n + 5)^12.",
   "id": "A017340",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:17",
+  "mentions": [
+    "A016764",
+    "A017329"
+  ],
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:24",
     "offset": 0,
-    "size": 10,
+    "size": 12,
     "source": "oeis-bfile"
   }
 }

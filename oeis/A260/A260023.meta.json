@@ -2,13 +2,11 @@
   "description": "a(1)=77; thereafter form the product of the digits of the previous term.",
   "id": "A260023",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 11:02:15",
     "offset": 1,
     "size": 123,
     "source": "joeis"

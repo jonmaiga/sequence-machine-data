@@ -2,14 +2,12 @@
   "description": "a(n) = 3^n mod 13.",
   "id": "A168399",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:45:31",
     "offset": 0,
     "size": 93,
     "source": "joeis"

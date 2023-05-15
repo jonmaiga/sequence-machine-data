@@ -2,13 +2,11 @@
   "description": "Shifts left under \"AGJ\" (ordered, elements, labeled) transform.",
   "id": "A032018",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "eigen",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 23:14:06",
     "offset": 1,
     "size": 22,
     "source": "joeis"

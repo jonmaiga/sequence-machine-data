@@ -2,13 +2,11 @@
   "description": "Revert transform of (-1 + 2x + x^2)/(-1 + x + 2x^2 + x^3).",
   "id": "A049127",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 20:45:39",
     "offset": 1,
     "size": 24,
     "source": "joeis"

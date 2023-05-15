@@ -2,7 +2,6 @@
   "description": "Numbers n such that n is 7*(the sum of decimal digits squared of n).",
   "id": "A117565",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

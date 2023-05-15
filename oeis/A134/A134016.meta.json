@@ -2,14 +2,12 @@
   "description": "Inverse score permutation of an Fibonacci -anti-Fibonacci zero sum game of 2 X 2 matrices.",
   "id": "A134016",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 30,
     "source": "oeis-entry"

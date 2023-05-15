@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n, k) is the number of compositions (ordered partitions) of n into exactly k distinct parts between the members of [k^2].",
+  "id": "A362208",
+  "mentions": [
+    "A000290",
+    "A003056",
+    "A072574",
+    "A216652",
+    "A362209",
+    "A362221"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

@@ -2,13 +2,11 @@
   "description": "a(n) is the associated coefficient of the n-uniform simplex.",
   "id": "A320653",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 2,
     "size": 15,
     "source": "oeis-entry"

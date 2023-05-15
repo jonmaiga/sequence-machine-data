@@ -2,14 +2,12 @@
   "description": "Complete list of prime powers arising in classification of modular curves of prime-power level and genus 0 with infinitely many rational points.",
   "id": "A274949",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

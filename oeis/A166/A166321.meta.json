@@ -4,14 +4,12 @@
   "mentions": [
     "A152160"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "fini",
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:49",
     "offset": 1,
     "size": 64,
     "source": "oeis-bfile"

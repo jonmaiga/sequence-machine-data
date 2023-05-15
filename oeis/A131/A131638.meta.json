@@ -2,13 +2,11 @@
   "description": "Increasing binary trees having exactly two vertices with outdegree 1.",
   "id": "A131638",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 14:52:09",
     "offset": 1,
     "size": 16,
     "source": "joeis"

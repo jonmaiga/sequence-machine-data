@@ -2,17 +2,18 @@
   "description": "a(n) is the coefficient of x^n/n! in exp(x + n*x^2/2).",
   "id": "A277614",
   "mentions": [
-    "A359762"
+    "A359762",
+    "A362300",
+    "A362314",
+    "A362319"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 0,
     "size": 26,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

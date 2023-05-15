@@ -2,13 +2,11 @@
   "description": "Irreducible bridging trails on square lattice.",
   "id": "A259856",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 22,
     "source": "oeis-entry"

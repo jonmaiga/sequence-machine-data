@@ -2,13 +2,11 @@
   "description": "Number of unlabeled graphs on n vertices whose independence number is equal to clique number.",
   "id": "A340486",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

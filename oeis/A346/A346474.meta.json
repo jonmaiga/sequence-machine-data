@@ -12,7 +12,6 @@
     "A345930",
     "A346475"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
     "formulas",
@@ -20,7 +19,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:20",
     "offset": 0,
     "size": 83,
     "source": "oeis-bfile"

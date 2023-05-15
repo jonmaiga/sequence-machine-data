@@ -13,7 +13,6 @@
     "A135499",
     "A257588"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "formulas",
@@ -21,7 +20,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:43",
     "offset": 0,
     "size": 87,
     "source": "oeis-bfile"

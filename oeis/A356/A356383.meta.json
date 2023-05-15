@@ -2,12 +2,10 @@
   "description": "Primes p such that the sum of p and the next four primes congruent mod 10 to p is 5 times a prime.",
   "id": "A356383",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:30",
     "offset": 1,
     "size": 62,
     "source": "oeis-bfile"

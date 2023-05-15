@@ -2,13 +2,11 @@
   "description": "n^n * (n+1)^(n+1).",
   "id": "A090205",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 09:08:20",
     "offset": 1,
     "size": 12,
     "source": "joeis"

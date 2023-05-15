@@ -2,13 +2,11 @@
   "description": "Minimum sum of a set of positive integers such that every positive integer <= n is the sum of 1 or 2 elements of the set",
   "id": "A165885",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 41,
     "source": "oeis-entry"

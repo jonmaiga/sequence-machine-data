@@ -2,13 +2,11 @@
   "description": "Write n in binary. Insert one 0 right of any one 1. a(n) is the smallest possible composite equal to the value of any such resulting binary number.",
   "id": "A164702",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:47",
     "offset": 2,
     "size": 69,
     "source": "oeis-bfile"

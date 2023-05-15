@@ -2,13 +2,11 @@
   "description": "Maximal number of iterations required for analog of 3x+1 problem applied to polynomials of degree n over GF(2) to reach 1.",
   "id": "A122599",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 30,
     "source": "oeis-entry"

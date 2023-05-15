@@ -2,13 +2,11 @@
   "description": "Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MTW = ZSM-12 Nan[ AlnSi28-nO56 ].",
   "id": "A019196",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 3,
     "size": 29,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Number of nXnXn triangular binary arrays with all 1s connected, no 1 having more than 4 1s adjacent, and a path of 1s from peak vertex to anywhere on the bottom side",
   "id": "A163884",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

@@ -1,0 +1,17 @@
+{
+  "description": "First differences of A362135.",
+  "id": "A362136",
+  "mentions": [
+    "A360179",
+    "A362134",
+    "A362135"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

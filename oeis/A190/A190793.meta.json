@@ -2,12 +2,10 @@
   "description": "Least prime p(j) of 10 consecutive primes such that 2*p(k)+ 15015 is prime for k=j to j+9.",
   "id": "A190793",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:14",
     "offset": 1,
     "size": 27,
     "source": "oeis-bfile"

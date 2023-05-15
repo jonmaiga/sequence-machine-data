@@ -2,14 +2,12 @@
   "description": "Number of terms in the Janet periodic table of the elements 32 columns: ordered 14 2's, 10 4's, 6 6's, 2 8's.",
   "id": "A137325",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 32,
     "source": "oeis-entry"

@@ -2,7 +2,6 @@
   "description": "A symmetrical triangle sequence:q=4;f(n,m,q)=Sum[q^((k - 1)/2)*Binomial[n, m], {m, 1, n, 2}];t(n,m,q)=1 - (f(n, k, q) + f(n, 2*n - k, q) - (f(n, 1, q) + f(n, 2*n - 1, q)))",
   "id": "A176795",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 41,
     "source": "oeis-entry"

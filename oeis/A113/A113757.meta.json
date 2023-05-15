@@ -2,13 +2,11 @@
   "description": "Cardinality of a maximal subset S of {0,1,...,n-1} that does not contain x+y (mod n) or x*y (mod n) for x,y in S.",
   "id": "A113757",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:04",
     "offset": 1,
     "size": 72,
     "source": "oeis-bfile"

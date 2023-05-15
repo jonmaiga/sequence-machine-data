@@ -2,14 +2,12 @@
   "description": "a(3)=1; a(n) = Sum_{i=1..n-3} binomial(n-4,i-1)*binomial(n,i+1)*a(i+2)*a(n-i)*i*(n-i-2)/(2*(n-1)) for n > 3.",
   "id": "A115047",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:05",
     "offset": 3,
     "size": 18,
     "source": "oeis-bfile"

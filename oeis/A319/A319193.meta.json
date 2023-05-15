@@ -14,7 +14,6 @@
     "A319191",
     "A319192"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "formulas",
     "look",
@@ -22,7 +21,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:41",
     "offset": 0,
     "size": 84,
     "source": "oeis-bfile"

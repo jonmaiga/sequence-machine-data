@@ -1,18 +1,17 @@
 {
-  "description": "G.f. defined as the limit: A(x) = limit_{n->oo} F(n)^(1/5^(n-1)) where F(n) is the n-th iteration of: F(0) = 1, F(n) = F(n-1)^5 + (5x)^((5^n-1)/4) for n>=1.",
+  "description": "G.f. defined as the limit: A(x) = lim_{n->oo} F(n)^(1/5^(n-1)) where F(n) is the n-th iteration of: F(0) = 1, F(n) = F(n-1)^5 + (5x)^((5^n-1)/4) for n >= 1.",
   "id": "A101194",
   "mentions": [
     "A101189",
     "A101192",
     "A101193"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
+    "changed",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 23,
     "source": "oeis-entry"

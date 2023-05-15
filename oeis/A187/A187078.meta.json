@@ -2,7 +2,6 @@
   "description": "38 followed by n ones.",
   "id": "A187078",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:11",
     "offset": 0,
     "size": 20,
     "source": "oeis-bfile"

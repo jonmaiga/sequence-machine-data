@@ -2,13 +2,11 @@
   "description": "Primes of the form 100*n + 3.",
   "id": "A101780",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 16:51:43",
     "offset": 1,
     "size": 35,
     "source": "joeis"

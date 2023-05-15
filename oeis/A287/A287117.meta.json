@@ -2,14 +2,12 @@
   "description": "Numbers with no odd prime binary proper prefixes.",
   "id": "A287117",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 61,
     "source": "oeis-entry"

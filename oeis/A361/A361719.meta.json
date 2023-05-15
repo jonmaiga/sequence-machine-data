@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k = 1..n} (-1)^(n+k) * k^3 * binomial(n,k)^2.",
+  "id": "A361719",
+  "mentions": [
+    "A000984",
+    "A001405",
+    "A294486"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

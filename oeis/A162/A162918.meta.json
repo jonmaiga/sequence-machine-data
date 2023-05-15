@@ -2,12 +2,11 @@
   "description": "Natural numbers n such that there are s and w satisfying 0 < s < w and 2*s + 5*w = n.",
   "id": "A162918",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 69,
     "source": "oeis-entry"

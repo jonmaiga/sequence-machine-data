@@ -2,14 +2,12 @@
   "description": "Maximum total Hamming distance between pairs of consecutive elements in any permutation of all 2^n binary words of length n.",
   "id": "A271771",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 03:27:31",
     "offset": 1,
     "size": 30,
     "source": "joeis"

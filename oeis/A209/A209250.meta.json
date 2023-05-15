@@ -2,13 +2,11 @@
   "description": "Numbers n such that (2^64 - 189)*10^n + 1 is prime.",
   "id": "A209250",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"

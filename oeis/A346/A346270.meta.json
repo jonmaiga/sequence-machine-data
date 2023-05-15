@@ -2,14 +2,12 @@
   "description": "Number of distinct solutions for the maximum value of the Gilbreath equation of an ordered sequence of n integers.",
   "id": "A346270",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

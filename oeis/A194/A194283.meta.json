@@ -9,14 +9,12 @@
     "A194440",
     "A194442"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

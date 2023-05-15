@@ -2,13 +2,11 @@
   "description": "Composite numbers such that any two terms, plus 1, yields a composite number:.",
   "id": "A133764",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 57,
     "source": "oeis-entry"

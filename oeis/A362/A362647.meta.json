@@ -1,0 +1,17 @@
+{
+  "description": "Number of nonisomorphic multisets of permutations of an n-set with n permutations.",
+  "id": "A362647",
+  "mentions": [
+    "A362644",
+    "A362651"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

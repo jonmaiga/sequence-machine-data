@@ -2,14 +2,12 @@
   "description": "Primes with digits not in all previous terms.",
   "id": "A103850",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

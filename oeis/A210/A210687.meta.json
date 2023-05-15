@@ -2,14 +2,12 @@
   "description": "The number of triangles in an equipotential triangle divided by medians into n rows of smaller triangles.",
   "id": "A210687",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:29",
     "offset": 1,
     "size": 37,
     "source": "oeis-bfile"

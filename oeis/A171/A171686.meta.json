@@ -2,13 +2,11 @@
   "description": "Numbers n such that (10^n)^4+(10^n+1)^4 is prime.",
   "id": "A171686",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

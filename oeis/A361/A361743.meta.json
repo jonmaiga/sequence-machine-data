@@ -1,0 +1,21 @@
+{
+  "description": "Central circular Delannoy numbers: a(n) is the number of Delannoy loops on an n X n toroidal grid.",
+  "id": "A361743",
+  "mentions": [
+    "A001850",
+    "A002003",
+    "A008288",
+    "A047781",
+    "A108666",
+    "A361745"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

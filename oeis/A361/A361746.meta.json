@@ -1,0 +1,18 @@
+{
+  "description": "Number of occurrences of the most frequently occurring letter(s) in US English name of n.",
+  "id": "A361746",
+  "mentions": [
+    "A005589"
+  ],
+  "tags": [
+    "easy",
+    "less",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

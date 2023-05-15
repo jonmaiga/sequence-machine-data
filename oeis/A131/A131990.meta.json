@@ -2,13 +2,11 @@
   "description": "Consider the periodic sequence S(n) defined by: b(1)=2, b(i+1) = b(i) + n if i is prime, b(i+1) = gpf(b(i)) if i is not prime, where gpf means \"greatest prime factor\"; then a(n) is the length of the repeating period of the sequence.",
   "id": "A131990",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 87,
     "source": "oeis-entry"

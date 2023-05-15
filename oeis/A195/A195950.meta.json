@@ -2,12 +2,10 @@
   "description": "Number of lower triangles of an n X n 0..3 array with no element greater than the number its nonzero horizontal and vertical neighbors",
   "id": "A195950",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:17",
     "offset": 1,
     "size": 11,
     "source": "oeis-bfile"

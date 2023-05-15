@@ -2,14 +2,12 @@
   "description": "a(n) = (16^(n+1) - 15*n - 16)/225.",
   "id": "A014899",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:21",
     "offset": 0,
     "size": 19,
     "source": "oeis-bfile"

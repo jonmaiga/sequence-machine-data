@@ -2,14 +2,12 @@
   "description": "220th cyclotomic polynomial.",
   "id": "A016359",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "fini",
     "full",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 0,
     "size": 81,
     "source": "oeis-entry"

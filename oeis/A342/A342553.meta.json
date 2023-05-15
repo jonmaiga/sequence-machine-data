@@ -2,12 +2,10 @@
   "description": "Least integer m > 2*n such that m-2*n and m+2*n are both squares, for n>1.",
   "id": "A342553",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 2,
     "size": 62,
     "source": "oeis-entry"

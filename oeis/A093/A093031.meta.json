@@ -2,13 +2,11 @@
   "description": "Create a histogram of the digits used so far in the sequence. Add to the last element of the sequence the least used digit on the histogram. If two or more digits have the same score in the histogram, add the smallest. 0 is to be interpreted as 10 and so comes after 9. So if 0 is the digit to add, add 10 instead. Start the sequence with 0.",
   "id": "A093031",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 60,
     "source": "oeis-entry"

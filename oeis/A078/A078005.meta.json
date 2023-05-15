@@ -2,13 +2,11 @@
   "description": "Expansion of (1-x)/(1-2*x+2*x^2+2*x^3).",
   "id": "A078005",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:29",
     "offset": 0,
     "size": 37,
     "source": "oeis-bfile"

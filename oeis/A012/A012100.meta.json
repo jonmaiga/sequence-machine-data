@@ -2,12 +2,10 @@
   "description": "arcsin(arcsin(sinh(x)))=x+3/3!*x^3+49/5!*x^5+2187/7!*x^7+186337/9!*x^9...",
   "id": "A012100",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 20:54:35",
     "offset": 0,
     "size": 13,
     "source": "joeis"

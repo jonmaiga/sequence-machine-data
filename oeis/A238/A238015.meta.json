@@ -11,13 +11,11 @@
     "A033473",
     "A095736"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:55",
     "offset": 0,
     "size": 101,
     "source": "oeis-bfile"

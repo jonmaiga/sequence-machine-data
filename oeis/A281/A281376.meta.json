@@ -2,13 +2,11 @@
   "description": "Total number of counts where floor(N/k) < floor((N+k)/n) for k = {1, 2, ..., n-1} and N >= n.",
   "id": "A281376",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:50",
     "offset": 1,
     "size": 51,
     "source": "oeis-bfile"

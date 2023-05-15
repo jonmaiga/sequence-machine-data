@@ -2,14 +2,12 @@
   "description": "Any digit \"d\" (except the first two) is the absolute difference between x and y -> x=sum of the 2 digits standing immediately to the left of \"d\", y=sum of the 2 digits standing immediately to the right of \"d\".",
   "id": "A102355",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 22,
     "source": "oeis-entry"

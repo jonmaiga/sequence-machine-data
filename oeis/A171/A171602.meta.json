@@ -2,12 +2,10 @@
   "description": "Lesser of two consecutive primes such that half-sums are semiprimes.",
   "id": "A171602",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 52,
     "source": "oeis-entry"

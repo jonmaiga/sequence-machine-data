@@ -2,13 +2,11 @@
   "description": "G.f. satisfies: A(x) = exp( Sum_{n>=1} A(x^n) / A(-x^n) * x^n/n ).",
   "id": "A198785",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 0,
     "size": 31,
     "source": "oeis-entry"

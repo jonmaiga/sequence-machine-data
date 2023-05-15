@@ -2,14 +2,12 @@
   "description": "a(1)=1; a(n)=a(n-1)*(number of decimal digits of a(n-1))+1.",
   "id": "A134817",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 30,
     "source": "oeis-entry"

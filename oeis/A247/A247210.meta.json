@@ -2,14 +2,12 @@
   "description": "a(0) = 0. a(n) is the number of distinct sums formed by [a(0), ... a(n-1)] + [a(0), ... a(n-1)] + ... + [a(0), ... a(n-1)], where [a(0), ... a(n-1)] is repeated n times.",
   "id": "A247210",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 0,
     "size": 16,
     "source": "oeis-entry"

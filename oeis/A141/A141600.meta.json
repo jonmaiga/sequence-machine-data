@@ -2,7 +2,6 @@
   "description": "A neo-combination triangle of coefficients based on the renormalization of permutations by the SU(n) or A_n-1 group element numbers: a(n)=n^2-1; f(n)=n*f(n-1)*a(n)/a(n-1); t(n,m)=Round( f(n)/(f(n-m)*f(m))).",
   "id": "A141600",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

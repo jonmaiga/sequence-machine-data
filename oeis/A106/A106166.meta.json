@@ -2,14 +2,12 @@
   "description": "Number of indecomposable binary self-dual codes (singly- or doubly-even) of length 2n and minimal distance exactly 4.",
   "id": "A106166",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"

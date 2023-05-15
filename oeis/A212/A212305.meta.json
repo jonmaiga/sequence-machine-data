@@ -2,13 +2,11 @@
   "description": "Continued fraction expansion of Pi + Euler gamma or Euler-Mascheroni Constant",
   "id": "A212305",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 95,
     "source": "oeis-entry"

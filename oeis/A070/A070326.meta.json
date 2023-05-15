@@ -2,14 +2,12 @@
   "description": "Upper triangular array giving for each (x,y) the minimum modulus m such that x^3+y^3 is not congruent to a cube (mod m).",
   "id": "A070326",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 89,
     "source": "oeis-entry"

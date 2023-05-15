@@ -1,0 +1,23 @@
+{
+  "description": "Number of ordered pairs of involutions on [n] that commute.",
+  "id": "A362819",
+  "mentions": [
+    "A000085",
+    "A000898",
+    "A053529",
+    "A181162",
+    "A362820",
+    "A362824",
+    "A362825"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

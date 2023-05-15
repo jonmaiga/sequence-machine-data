@@ -2,13 +2,11 @@
   "description": "If a(n-1)=abcde..., where a,b,c,d,e... are the digits, then a(n)=abcde...+a*bcde...+ab*cde...+abc*de...+abcd*e...+....",
   "id": "A108721",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 28,
     "source": "oeis-entry"

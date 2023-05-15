@@ -2,14 +2,12 @@
   "description": "G.f. y(x) is solution of x y^3 - (1 + x^2) y + 1 = 0 with y(0) = 1.",
   "id": "A137265",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:25",
     "offset": 0,
     "size": 25,
     "source": "oeis-bfile"

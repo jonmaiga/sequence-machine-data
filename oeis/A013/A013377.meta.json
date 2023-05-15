@@ -2,13 +2,11 @@
   "description": "sin(sin(x)-arcsinh(x)) = -8/5!*x^5+224/7!*x^7-11024/9!*x^9...",
   "id": "A013377",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:20",
     "offset": 0,
     "size": 14,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "List of pairs: {n*(n + 1)*(2*n + 1)/6, (n!)^2}.",
   "id": "A154225",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:36",
     "offset": 0,
     "size": 29,
     "source": "oeis-bfile"

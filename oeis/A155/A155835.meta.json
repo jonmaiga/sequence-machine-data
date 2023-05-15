@@ -2,14 +2,12 @@
   "description": "A polynomial coefficient triangle based on projection modulo two of a Cantor dust with scale removed: p(x,n)=If[Mod[n, 2] == 0, (x + 2)*p(x, n - 1) + n, (x)*p(x, n - 1) + n + 2]; q(x,n)=p(x,n)+x^n*p(1/x,n); t(n,m)=coefficients(q(x,n)",
   "id": "A155835",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 66,
     "source": "oeis-entry"

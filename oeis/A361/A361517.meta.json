@@ -1,0 +1,20 @@
+{
+  "description": "The value of n for which the two-player impartial {0,1}-Toggle game on a generalized Petersen graph GP(n,2) with a (1,0)-weight assignment is a next-player winning game.",
+  "id": "A361517",
+  "mentions": [
+    "A071426",
+    "A340631",
+    "A346197",
+    "A346401",
+    "A346637"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,6 @@
   "description": "Begin with 3, multiply each digit by 2.",
   "id": "A102253",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 93,
     "source": "oeis-entry"

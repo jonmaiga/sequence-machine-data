@@ -2,14 +2,12 @@
   "description": "Partial sums of round(5^n/8).",
   "id": "A178874",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:02",
     "offset": 0,
     "size": 23,
     "source": "oeis-bfile"

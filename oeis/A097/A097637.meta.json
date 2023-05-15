@@ -5,7 +5,6 @@
     "A000045",
     "A000120"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "dumb",
     "easy",
@@ -13,7 +12,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 97,
     "source": "oeis-entry"

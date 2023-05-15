@@ -2,13 +2,11 @@
   "description": "Number of runs in the base 4 representation of n is congruent to 4 mod 7.",
   "id": "A043847",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:22:03",
     "offset": 1,
     "size": 48,
     "source": "joeis"

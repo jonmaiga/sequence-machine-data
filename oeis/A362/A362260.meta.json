@@ -1,0 +1,20 @@
+{
+  "description": "Maximum over 0 <= k <= n/2 of the number of permutations of two symbols occurring k and n-2*k times, respectively, where a permutation and its reversal are counted only once.",
+  "id": "A362260",
+  "mentions": [
+    "A001224",
+    "A073028",
+    "A102541",
+    "A361224",
+    "A362258"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -2,13 +2,11 @@
   "description": "a(0) = 1, then rearrangement of odd multiples of 3 not == 0 (mod 5) such that every partial concatenation (n>1) is a prime.",
   "id": "A089322",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 54,
     "source": "oeis-entry"

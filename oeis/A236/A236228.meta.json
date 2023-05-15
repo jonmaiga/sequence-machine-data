@@ -2,12 +2,10 @@
   "description": "Number of solutions (x,y,z) to the Diophantine equation 2^x + p^y = z^2 where p = prime(n).",
   "id": "A236228",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 2,
     "size": 87,
     "source": "oeis-entry"

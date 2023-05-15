@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of nonempty subsets of {1,...,2n-1} with median n and minimum k.",
+  "id": "A361654",
+  "mentions": [
+    "A000975",
+    "A006134",
+    "A007318",
+    "A013580",
+    "A024718",
+    "A057552",
+    "A067659",
+    "A079309",
+    "A231147",
+    "A325347",
+    "A327475",
+    "A327481",
+    "A359893",
+    "A359901",
+    "A359907",
+    "A360005",
+    "A361849"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

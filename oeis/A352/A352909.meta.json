@@ -6,14 +6,12 @@
     "A295989",
     "A352910"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:27",
     "offset": 1,
     "size": 114,
     "source": "oeis-bfile"

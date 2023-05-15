@@ -2,13 +2,11 @@
   "description": "Number of length-n binary words containing no antisquares except 01 and 10.",
   "id": "A307732",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:32",
     "offset": 0,
     "size": 41,
     "source": "oeis-bfile"

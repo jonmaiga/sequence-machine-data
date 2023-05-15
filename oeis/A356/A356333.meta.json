@@ -2,13 +2,11 @@
   "description": "Lengths of Paterson's worms.",
   "id": "A356333",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:30",
     "offset": 1,
     "size": 64,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Position of n^4 in the lexicographically arranged permutations of digits of n^4.",
   "id": "A115345",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 60,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "a(n) = n-th term of the continued fraction for the n-th root of n.",
   "id": "A090664",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 2,
     "size": 99,
     "source": "oeis-entry"

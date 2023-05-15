@@ -2,14 +2,12 @@
   "description": "Number of closed walks of length n in a kite graph (K4 with one edge deleted).",
   "id": "A181626",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:04",
     "offset": 1,
     "size": 31,
     "source": "oeis-bfile"

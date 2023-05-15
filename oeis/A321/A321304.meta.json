@@ -11,15 +11,12 @@
     "A361407",
     "A361408"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-03-14 10:44:30",
     "offset": 0,
     "size": 64,
     "source": "oeis-bfile"

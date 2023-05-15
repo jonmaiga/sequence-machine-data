@@ -2,12 +2,10 @@
   "description": "Carmichael numbers divisible by 7 and 17.",
   "id": "A182532",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:06",
     "offset": 1,
     "size": 24,
     "source": "oeis-bfile"

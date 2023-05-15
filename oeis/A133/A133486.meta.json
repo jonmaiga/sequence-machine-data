@@ -2,13 +2,11 @@
   "description": "a(n) = Sum_{ k = 0 to n-1} ( subtract k modulo 9 from 9, multiply this by k-th power of 10 ).",
   "id": "A133486",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:21",
     "offset": 1,
     "size": 20,
     "source": "oeis-bfile"

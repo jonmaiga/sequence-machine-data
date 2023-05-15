@@ -2,13 +2,11 @@
   "description": "Numbers n such that the number of primes between n^2 and (n+1)^2 = the number of primes between n and Reverse(n) (inclusive).",
   "id": "A074817",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 34,
     "source": "oeis-entry"

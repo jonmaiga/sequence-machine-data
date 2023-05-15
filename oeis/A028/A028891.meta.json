@@ -1,18 +1,16 @@
 {
-  "description": "Iterated product of digits of n is a Fibonacci number.",
+  "description": "Iterated product of digits of n is a positive Fibonacci number.",
   "id": "A028891",
   "mentions": [
     "A028841",
     "A028890",
     "A031347"
   ],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:40:39",
     "offset": 0,
     "size": 64,
     "source": "joeis"

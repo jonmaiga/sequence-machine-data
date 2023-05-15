@@ -2,12 +2,10 @@
   "description": "Numerators of coefficients in 1/(log(1+x)*log(1-x)) - 5/12 + 1/x^2 power series.",
   "id": "A178172",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

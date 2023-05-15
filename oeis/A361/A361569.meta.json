@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. exp(x^4/24 * (1+x)^4).",
+  "id": "A361569",
+  "mentions": [
+    "A047974",
+    "A361280",
+    "A361567",
+    "A361568"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

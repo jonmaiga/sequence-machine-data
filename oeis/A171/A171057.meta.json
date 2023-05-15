@@ -2,14 +2,12 @@
   "description": "In the sequence of prime numbers, replace all the '9' digits with '8' and vice versa.",
   "id": "A171057",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:54",
     "offset": 1,
     "size": 56,
     "source": "oeis-bfile"

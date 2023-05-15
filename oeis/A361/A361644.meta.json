@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle T(n, k), n >= 0, k = 1..max(1, 2^(A005811(n)-1)), read by rows; the n-th row lists the integers with the same binary length as n and whose partial sums of run lengths are included in those of n.",
+  "id": "A361644",
+  "mentions": [
+    "A003817",
+    "A005811",
+    "A092339",
+    "A101211",
+    "A225081",
+    "A342126",
+    "A361645",
+    "A361646",
+    "A361674",
+    "A361676"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

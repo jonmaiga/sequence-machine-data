@@ -2,12 +2,10 @@
   "description": "exp(sec(x)-cosh(x))=1+4/4!*x^4+60/6!*x^6+1944/8!*x^8+100920/10!*x^10...",
   "id": "A013502",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 10:59:54",
     "offset": 0,
     "size": 15,
     "source": "joeis"

@@ -2,14 +2,12 @@
   "description": "The Möbius function of the poset of all permutations, ordered by pattern containment, of length at most n, with an added top element.",
   "id": "A262751",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "hard",
     "more",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

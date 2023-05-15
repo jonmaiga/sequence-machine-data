@@ -2,13 +2,11 @@
   "description": "Maximum number of edges a single edge crosses in a drawing of the complete graph K_n where every vertex lies on the outer face.",
   "id": "A346311",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

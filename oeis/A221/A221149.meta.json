@@ -2,13 +2,11 @@
   "description": "Decimal expansion of 3*log(phi)/log(1+sqrt(2)).",
   "id": "A221149",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:39",
     "offset": 1,
     "size": 120,
     "source": "oeis-bfile"

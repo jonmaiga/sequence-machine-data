@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = n^2 + 2^(n-1).",
+  "id": "A362438",
+  "mentions": [
+    "A001580"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

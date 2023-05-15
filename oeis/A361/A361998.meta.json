@@ -1,0 +1,18 @@
+{
+  "description": "Indices of records in A361902.",
+  "id": "A361998",
+  "mentions": [
+    "A263874",
+    "A361902",
+    "A361997"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

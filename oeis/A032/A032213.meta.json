@@ -2,13 +2,11 @@
   "description": "Shifts left under \"DFJ\" (bracelet, size, labeled) transform.",
   "id": "A032213",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "eigen",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 17:43:26",
     "offset": 1,
     "size": 21,
     "source": "joeis"

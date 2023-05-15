@@ -1,0 +1,19 @@
+{
+  "description": "E.g.f. satisfies A(x) = exp(x + x^3/3 * A(x)^3).",
+  "id": "A362478",
+  "mentions": [
+    "A362390",
+    "A362474",
+    "A362490",
+    "A362491"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,14 +2,12 @@
   "description": "Triangle T(n,k) of number of integer sequences [y(1),...,y(n)] such that |y(i)-y(i+1)|<=1, 1=y(1)<=y(i)<=k=y(n).",
   "id": "A088455",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 76,
     "source": "oeis-entry"

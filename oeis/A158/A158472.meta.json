@@ -6,13 +6,11 @@
     "A003266",
     "A082480"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:40",
     "offset": 0,
     "size": 45,
     "source": "oeis-bfile"

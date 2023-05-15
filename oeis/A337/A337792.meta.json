@@ -2,14 +2,12 @@
   "description": "Number of graceful labelings of the n-sun graph.",
   "id": "A337792",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "bref",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 3,
     "size": 3,
     "source": "oeis-entry"

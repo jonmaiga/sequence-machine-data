@@ -2,12 +2,10 @@
   "description": "Maximum sum of relatively prime integers no larger than n.",
   "id": "A186736",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:11",
     "offset": 1,
     "size": 57,
     "source": "oeis-bfile"

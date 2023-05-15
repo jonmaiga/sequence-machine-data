@@ -1,19 +1,17 @@
 {
-  "description": "12167n - 3588.",
+  "description": "a(n) = 12167n - 3588.",
   "id": "A156846",
   "mentions": [
     "A156841",
     "A156843",
     "A156849"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:38",
     "offset": 1,
     "size": 31,
     "source": "oeis-bfile"

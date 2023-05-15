@@ -2,13 +2,11 @@
   "description": "Decimal expansion of atomic unit of electric field gradient in V m^-2.",
   "id": "A254249",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 22,
     "size": 6,
     "source": "oeis-entry"

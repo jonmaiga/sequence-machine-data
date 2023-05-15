@@ -2,13 +2,11 @@
   "description": "Numbers of the form 49*k, where 49*k+2 and 49*k-6 are both prime.",
   "id": "A153779",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:35",
     "offset": 1,
     "size": 34,
     "source": "oeis-bfile"

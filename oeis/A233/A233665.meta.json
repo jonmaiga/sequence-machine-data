@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of (n+1)X(k+1) 0..6 arrays with every 2X2 subblock having the sum of the squares of the edge differences equal to 26 (26 maximizes T(1,1))",
   "id": "A233665",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:51",
     "offset": 1,
     "size": 29,
     "source": "oeis-bfile"

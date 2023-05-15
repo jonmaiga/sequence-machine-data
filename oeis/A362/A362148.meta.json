@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are neither cubefree nor cubefull.",
+  "id": "A362148",
+  "mentions": [
+    "A004709",
+    "A036966",
+    "A046099",
+    "A362147"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,6 @@
   "description": "Triangular sequence of coefficients from a Sheffer sequence expansion: f(t) = 1 + t + t^2; g(t) = t + t^2; p(t) = f[t]*Exp[x*g[t]];.",
   "id": "A137391",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 64,
     "source": "oeis-entry"

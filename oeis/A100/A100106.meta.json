@@ -2,13 +2,11 @@
   "description": "Decimal expansion of Sum_{k>0} -(-1)^k / k!^(1/k).",
   "id": "A100106",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

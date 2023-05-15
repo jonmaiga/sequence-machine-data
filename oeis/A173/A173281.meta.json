@@ -2,12 +2,10 @@
   "description": "Let a(1) = 1. Given a(1), ..., a(2^t), find the least k such that a(1) + 2^k, a(2) + 2^k, ..., a(2^t) + 2^k are all composite and a(1) + 2^k > a(2^t). Then a(2^t+i) = a(i) + 2^k for all 1 <= i <= 2^t.",
   "id": "A173281",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 32,
     "source": "oeis-entry"

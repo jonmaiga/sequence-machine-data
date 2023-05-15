@@ -2,14 +2,12 @@
   "description": "Numbers k such that the digits of k are not present in 3k.",
   "id": "A140467",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 67,
     "source": "oeis-entry"

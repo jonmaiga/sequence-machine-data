@@ -2,17 +2,17 @@
   "description": "Primitive practical numbers: practical numbers that are squarefree or practical numbers that when divided by any of its prime factors whose factorization exponent is greater than 1 is no longer practical.",
   "id": "A267124",
   "mentions": [
+    "A000396",
+    "A002110",
     "A005117",
     "A005153",
+    "A008578",
     "A265501"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:28",
     "offset": 1,
     "size": 61,
     "source": "oeis-bfile"

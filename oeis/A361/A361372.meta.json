@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive numbers such that the number of occurrences of each prime number in the factorization of all terms a(1)..a(n) is at most one more than the number of occurrences of the next most frequently occurring prime.",
+  "id": "A361372",
+  "mentions": [
+    "A000040",
+    "A011371",
+    "A027746"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

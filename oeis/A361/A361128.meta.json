@@ -7,13 +7,10 @@
     "A361129",
     "A361130"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "new",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:44:32",
     "offset": 2,
     "size": 82,
     "source": "oeis-bfile"

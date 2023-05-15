@@ -2,13 +2,11 @@
   "description": "Primes p such that 2*p^5-+3 are also prime.",
   "id": "A174368",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:58",
     "offset": 1,
     "size": 33,
     "source": "oeis-bfile"

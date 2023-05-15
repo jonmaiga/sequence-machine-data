@@ -2,13 +2,11 @@
   "description": "Dropping any digit gives 0, 1 or a composite number.",
   "id": "A034894",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:16:55",
     "offset": 0,
     "size": 63,
     "source": "joeis"

@@ -1,15 +1,13 @@
 {
-  "description": "Number of nonnegative integer arrays of length n summing to n without equal adjacent values modulo 3",
+  "description": "Number of nonnegative integer arrays of length n summing to n without equal adjacent values modulo 3.",
   "id": "A221316",
   "mentions": [
     "A221321"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:39",
     "offset": 1,
     "size": 31,
     "source": "oeis-bfile"

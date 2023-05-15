@@ -2,13 +2,11 @@
   "description": "Size of the smallest square Minesweeper grid that allows each number from 0 to 8 to appear exactly n times.",
   "id": "A302980",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

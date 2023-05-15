@@ -2,12 +2,10 @@
   "description": "For two consecutive primes p and q the difference 10*q - p is prime. The first of the pair of primes is listed.",
   "id": "A129901",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:17",
     "offset": 1,
     "size": 54,
     "source": "oeis-bfile"

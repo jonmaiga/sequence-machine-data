@@ -2,12 +2,10 @@
   "description": "Nonsquare positive integers k such that k = a*b = c*m + b and b^2 = a*m + c where m > 1, 0 < a, b, c < m.",
   "id": "A347168",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:20",
     "offset": 1,
     "size": 32,
     "source": "oeis-bfile"

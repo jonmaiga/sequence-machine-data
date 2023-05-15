@@ -2,13 +2,11 @@
   "description": "The number of equivalence classes of the set {1,2,...,n} under the equivalence relation x ~ y iff lcm(x,n) = lcm(y,n).",
   "id": "A202479",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:23",
     "offset": 1,
     "size": 69,
     "source": "oeis-bfile"

@@ -2,14 +2,12 @@
   "description": "Area of the largest unpainted rectangle that is guaranteed to exist in every n X n grid with n painted cells.",
   "id": "A308162",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 17,
     "source": "oeis-entry"

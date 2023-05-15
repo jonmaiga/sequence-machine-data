@@ -2,12 +2,10 @@
   "description": "The least number k = a(n) > a(n-1) for which k!/(k+1)^m for increasing m's.",
   "id": "A061769",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 0,
     "size": 43,
     "source": "oeis-entry"

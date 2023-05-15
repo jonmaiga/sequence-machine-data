@@ -7,7 +7,6 @@
     "A019879",
     "A020760"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "cons",
     "easy",
@@ -15,7 +14,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 0,
     "size": 90,
     "source": "oeis-entry"

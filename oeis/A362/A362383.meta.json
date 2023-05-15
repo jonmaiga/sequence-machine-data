@@ -1,0 +1,20 @@
+{
+  "description": "Number of labeled right involutory magmas with n elements.",
+  "id": "A362383",
+  "mentions": [
+    "A000085",
+    "A002489",
+    "A076016",
+    "A362382"
+  ],
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

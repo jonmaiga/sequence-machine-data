@@ -2,7 +2,6 @@
   "description": "Number of primes contained in the concatenations of the length-1 to length-n partial permutations of {1,..., n}.",
   "id": "A224716",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "hard",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

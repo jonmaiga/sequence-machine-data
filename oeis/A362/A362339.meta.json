@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n! * Sum_{k=0..floor(n/4)} (-k)^k / (k! * (n-4*k)!).",
+  "id": "A362339",
+  "mentions": [
+    "A069856",
+    "A362337",
+    "A362338",
+    "A362349"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

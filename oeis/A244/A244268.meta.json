@@ -2,14 +2,12 @@
   "description": "Numbers n such that 1n2n3n4n5n6n7n8n9 is prime.",
   "id": "A244268",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "base",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 59,
     "source": "oeis-entry"

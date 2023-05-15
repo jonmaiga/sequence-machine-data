@@ -2,13 +2,11 @@
   "description": "Triangle read by rows, 0 <= k <= n: T(n,k) is the coefficient of x^k in the characteristic polynomial of I + A^(-1), where A is the n-step Fibonacci companion matrix and I is the identity matrix.",
   "id": "A122771",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 82,
     "source": "oeis-entry"

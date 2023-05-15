@@ -2,13 +2,11 @@
   "description": "The Szeged index of the triangle-shaped benzenoid T_k (see Fig. 5.7 of the Diudea et al. reference).",
   "id": "A245833",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:37:45",
     "offset": 1,
     "size": 28,
     "source": "joeis"

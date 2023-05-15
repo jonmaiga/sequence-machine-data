@@ -2,14 +2,12 @@
   "description": "a(1) = a(2) = 1; for n > 2, if a(n-2) + a(n-1) > n then a(n) = abs(a(n-2) - a(n-1)) else a(n) = a(n-2) + a(n-1).",
   "id": "A096062",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:08:41",
     "offset": 1,
     "size": 81,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "Product of consecutive prime number of primes.",
   "id": "A119645",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

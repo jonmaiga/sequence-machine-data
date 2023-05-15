@@ -1,0 +1,25 @@
+{
+  "description": "Number of vertices among all distinct circles that can be constructed from a point on the origin and n equally spaced points on each of the +x,-x,+y,-y coordinates axes using only a compass.",
+  "id": "A354605",
+  "mentions": [
+    "A331702",
+    "A353782",
+    "A356358",
+    "A359252",
+    "A359569",
+    "A359859",
+    "A359932",
+    "A361622",
+    "A361623"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

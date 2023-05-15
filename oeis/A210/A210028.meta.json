@@ -2,12 +2,10 @@
   "description": "E.g.f. A(x) satisfies: A(x) = 1 / [Sum_{n>=0} (-x)^n*A(x)^n/n!^2], where A(x) = Sum_{n>=0} a(n)*x^n/n!^2.",
   "id": "A210028",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 0,
     "size": 16,
     "source": "oeis-entry"

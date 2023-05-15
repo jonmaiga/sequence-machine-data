@@ -10,14 +10,12 @@
     "A291965",
     "A291966"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "base",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:06",
     "offset": 1,
     "size": 45,
     "source": "oeis-bfile"

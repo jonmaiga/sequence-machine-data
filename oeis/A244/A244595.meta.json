@@ -2,13 +2,11 @@
   "description": "Prime numbers whose decimal expansion has the same digit sum as its hexadecimal expansion. Only digits 0-9 are allowed in the hex expansion.",
   "id": "A244595",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:00",
     "offset": 1,
     "size": 47,
     "source": "oeis-bfile"

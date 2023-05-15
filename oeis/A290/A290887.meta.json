@@ -2,14 +2,12 @@
   "description": "The number of non-degenerate involutive set-theoretic solutions of the Yang-Baxter equation of order n up to isomorphism.",
   "id": "A290887",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

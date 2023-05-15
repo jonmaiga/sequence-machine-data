@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1, a(2) = 6; for n > 2, a(n) is the smallest positive number that has not yet appeared that shares a factor with a(n-1) and also contains as a factor the smallest prime that is not a factor of a(n-1).",
+  "id": "A362754",
+  "mentions": [
+    "A064413",
+    "A286708",
+    "A337687",
+    "A351495",
+    "A360519",
+    "A361606"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

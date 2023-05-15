@@ -2,13 +2,11 @@
   "description": "Numbers that do not contain the letter `f'.",
   "id": "A008541",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2022-04-28 12:48:25",
     "offset": 1,
     "size": 70,
     "source": "joeis"

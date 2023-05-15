@@ -1,18 +1,16 @@
 {
-  "description": "512n + 16.",
+  "description": "a(n) = 512n + 16.",
   "id": "A157475",
   "mentions": [
     "A157474",
     "A157476"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:39",
     "offset": 1,
     "size": 37,
     "source": "oeis-bfile"

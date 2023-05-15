@@ -2,13 +2,11 @@
   "description": "E.g.f. A(x) satisfies: A(x) = exp(x) + x*A(x)^2.",
   "id": "A194471",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 0,
     "size": 18,
     "source": "oeis-entry"

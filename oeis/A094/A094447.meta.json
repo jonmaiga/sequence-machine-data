@@ -2,13 +2,11 @@
   "description": "Numbers which are the sum of two positive cubes and divisible by 13.",
   "id": "A094447",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:45",
     "offset": 1,
     "size": 41,
     "source": "oeis-bfile"

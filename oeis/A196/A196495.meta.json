@@ -2,13 +2,11 @@
   "description": "Smallest multidigit palindromic centered n-gonal number.",
   "id": "A196495",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 3,
     "size": 44,
     "source": "oeis-entry"

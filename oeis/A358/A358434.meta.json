@@ -1,0 +1,21 @@
+{
+  "description": "Number of odd middle divisors of n, where \"middle divisor\" means a divisor in the half-open interval [sqrt(n/2), sqrt(n*2)).",
+  "id": "A358434",
+  "mentions": [
+    "A001227",
+    "A067742",
+    "A071090",
+    "A071562",
+    "A299761",
+    "A361561"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

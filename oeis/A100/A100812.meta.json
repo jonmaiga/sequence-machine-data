@@ -2,12 +2,10 @@
   "description": "{a(n)} is monotone increasing, with a(1)=1, a(2)=3 and, for n>2, a(n) is the smallest integer such that a(n) mod a(j) is never a(i) for any pair i,j with 1<=i",
   "id": "A100812",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 49,
     "source": "oeis-entry"

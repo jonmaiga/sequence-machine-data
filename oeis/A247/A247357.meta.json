@@ -2,13 +2,11 @@
   "description": "Least m such that (4/m^2)*Sum_{k=0..m} sqrt(m^2 - k^2) < Pi + 1/n.",
   "id": "A247357",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:03",
     "offset": 1,
     "size": 63,
     "source": "oeis-bfile"

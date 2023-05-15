@@ -2,12 +2,10 @@
   "description": "Number of totally symmetric 6-dimensional partitions of n.",
   "id": "A234954",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:52",
     "offset": 1,
     "size": 97,
     "source": "oeis-bfile"

@@ -1,16 +1,19 @@
 {
-  "description": "Decimal expansion of Boltzmann constant in Hz K^-1.",
+  "description": "Decimal expansion of the Boltzmann constant in Hz/K according to the 2019 SI system.",
   "id": "A252852",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:32",
+  "mentions": [
+    "A003676",
+    "A070063"
+  ],
   "tags": [
     "cons",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 11,
-    "size": 5,
+    "size": 87,
     "source": "oeis-entry"
   }
 }

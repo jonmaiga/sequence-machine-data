@@ -2,13 +2,11 @@
   "description": "Length of the longest directed, closed, non-intersecting rook path on an n X n chessboard avoiding right turns on squares of one color and avoiding left turns on the other color.",
   "id": "A160392",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

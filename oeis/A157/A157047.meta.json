@@ -2,7 +2,6 @@
   "description": "A triangle of infinite sum coefficients with: Limit[Log[1-x],x->0]=-x: p(x,y)=1+n!*x^(n - 1)*Sum[x^k/(k*Binomial[n + k, k]), {k, 1, Infinity}]; such that Log[1-x]->-x.",
   "id": "A157047",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 47,
     "source": "oeis-entry"

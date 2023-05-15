@@ -2,14 +2,12 @@
   "description": "Decimal expansion of Integral_{0..Pi/2} x^2*tan(x)*log(sin(x)) dx (negated).",
   "id": "A261710",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

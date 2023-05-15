@@ -2,13 +2,11 @@
   "description": "Maximum facet width of the polytope representing the number n.",
   "id": "A333528",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 56,
     "source": "oeis-entry"

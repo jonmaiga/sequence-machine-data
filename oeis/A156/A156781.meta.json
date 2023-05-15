@@ -2,12 +2,10 @@
   "description": "Primes : if sums of prime number and 2 consecutive prime numbers on-left-and-on-right are also primes.",
   "id": "A156781",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 49,
     "source": "oeis-entry"

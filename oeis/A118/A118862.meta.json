@@ -2,7 +2,6 @@
   "description": "Start with 1 and repeatedly place the first digit at the end of the number and add 15.",
   "id": "A118862",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:42:49",
     "offset": 1,
     "size": 64,
     "source": "joeis"

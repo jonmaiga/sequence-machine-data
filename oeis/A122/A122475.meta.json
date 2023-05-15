@@ -2,12 +2,10 @@
   "description": "Time every 15 minutes from 1:55.",
   "id": "A122475",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 5,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Decimal expansion of (25+3*sqrt(69))/2.",
   "id": "A230242",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:58:59",
     "offset": 2,
     "size": 86,
     "source": "joeis"

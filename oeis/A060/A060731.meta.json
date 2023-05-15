@@ -2,12 +2,10 @@
   "description": "a(n) = a(n-1) + a(n - 1 minus the number of terms of a(k) == (mod 4) so far).",
   "id": "A060731",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-12-25 19:14:51",
     "offset": 1,
     "size": 45,
     "source": "joeis"

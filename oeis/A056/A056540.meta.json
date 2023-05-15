@@ -2,14 +2,12 @@
   "description": "a(1) = 1; to form a(n+1), append a(n)-1, a(n)+1 at the beginning and the end of a(n), respectively. Ignore any leading 0's.",
   "id": "A056540",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 5,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Number of labeled mobiles with cycles of length at least 3.",
   "id": "A052522",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 12:29:06",
     "offset": 0,
     "size": 20,
     "source": "joeis"

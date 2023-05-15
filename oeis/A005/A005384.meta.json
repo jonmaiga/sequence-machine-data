@@ -32,14 +32,12 @@
     "A217788",
     "A278932"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "formulas",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:08",
     "offset": 1,
     "size": 52,
     "source": "oeis-bfile"

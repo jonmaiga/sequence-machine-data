@@ -2,12 +2,10 @@
   "description": "2nd term of continued fraction for imaginary part of n-th nontrivial root of Riemann zeta function.",
   "id": "A153492",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:35",
     "offset": 1,
     "size": 74,
     "source": "oeis-bfile"

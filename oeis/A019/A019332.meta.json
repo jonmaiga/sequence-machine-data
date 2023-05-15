@@ -2,13 +2,11 @@
   "description": "Lengths of quantum cellular automata that cycle through all possible values of the QCA vector.",
   "id": "A019332",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Period 21: repeat (0,0,0,0,1,1,1,1,1,0,1,0,1,0,0,1,1,0,0,0,1).",
   "id": "A304577",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:12:19",
     "offset": 0,
     "size": 84,
     "source": "joeis"

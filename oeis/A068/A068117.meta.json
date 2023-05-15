@@ -2,14 +2,12 @@
   "description": "Smallest square beginning with concatenation of first n natural numbers.",
   "id": "A068117",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

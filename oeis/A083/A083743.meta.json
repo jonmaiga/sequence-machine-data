@@ -2,13 +2,11 @@
   "description": "a(1) = 1; if a(n-1) + n is prime then a(n) = a(n-1) + n, else a(n) = a(n-1).",
   "id": "A083743",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:35",
     "offset": 1,
     "size": 60,
     "source": "oeis-bfile"

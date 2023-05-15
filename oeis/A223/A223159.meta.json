@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of (n+2)X(k+2) 0..3 arrays with all rows and columns having a strictly positive second derivative in a quadratic least squares fit",
   "id": "A223159",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:41",
     "offset": 1,
     "size": 19,
     "source": "oeis-bfile"

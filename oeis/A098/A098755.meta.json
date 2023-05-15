@@ -2,14 +2,12 @@
   "description": "Smallest available integer which fits into the repeating pattern 0123456789.",
   "id": "A098755",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 47,
     "source": "oeis-entry"

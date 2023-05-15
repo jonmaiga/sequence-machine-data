@@ -2,12 +2,10 @@
   "description": "a(n) is the value of determinant of the following special matrix: diagonal values equal to n-2; upper triangular entries equal to -1; lower triangular values are +1.",
   "id": "A085340",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 19,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Coefficients of expansion of:p(t,y)=-Exp[t/4]/(-2 + y*Exp[t/4] + y*Exp[3*t/4])",
   "id": "A171770",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "sign",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 43,
     "source": "oeis-entry"

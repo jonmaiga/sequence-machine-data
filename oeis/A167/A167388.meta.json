@@ -2,13 +2,11 @@
   "description": "Prime numbers ending in the prime number 31.",
   "id": "A167388",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:43:29",
     "offset": 1,
     "size": 41,
     "source": "joeis"

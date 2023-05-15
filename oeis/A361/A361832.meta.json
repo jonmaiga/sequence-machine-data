@@ -1,0 +1,21 @@
+{
+  "description": "For any number k >= 0, let T_k be the triangle whose base corresponds to the ternary expansion of k (without leading zeros) and other values, say t above u and v, satisfy t = (-u-v) mod 3; the ternary expansion of a(n) corresponds to the left border of T_k (the most significant digit being at the bottom left corner).",
+  "id": "A361832",
+  "mentions": [
+    "A004488",
+    "A048328",
+    "A334727",
+    "A361818",
+    "A361833"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

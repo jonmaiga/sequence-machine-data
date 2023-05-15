@@ -2,14 +2,12 @@
   "description": "Arrange n^2 distinct positive integers in an n X n grid so that numbers on a given row or column are pairwise coprime. a(n) gives the smallest number which can be the maximal value on such a grid.",
   "id": "A237586",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

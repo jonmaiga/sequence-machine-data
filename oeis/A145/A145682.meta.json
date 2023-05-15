@@ -2,12 +2,10 @@
   "description": "The value of the sum shown in the display appears to 2, 8, 32 - sqrt(2), 113, 382, 833, 1822, 3713, 7582, ... for n = 1, ..., 9.",
   "id": "A145682",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

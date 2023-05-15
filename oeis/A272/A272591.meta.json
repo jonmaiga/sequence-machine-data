@@ -2,13 +2,11 @@
   "description": "The unique positive root of x^5 - 2*x^4 - x^2 - x - 1.",
   "id": "A272591",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 07:13:27",
     "offset": 1,
     "size": 105,
     "source": "joeis"

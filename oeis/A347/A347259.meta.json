@@ -2,13 +2,11 @@
   "description": "a(n) is the least prime that can be written in exactly n ways as s+2*p where s is a semiprime and p is a prime, or 0 if no such prime exists.",
   "id": "A347259",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 0,
     "size": 41,
     "source": "oeis-entry"

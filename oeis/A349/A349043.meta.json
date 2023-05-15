@@ -4,14 +4,11 @@
   "mentions": [
     "A032741"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:44:31",
     "offset": 0,
     "size": 93,
     "source": "oeis-bfile"

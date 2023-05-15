@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the first member of A106843 with sum of digits n.",
+  "id": "A361831",
+  "mentions": [
+    "A007953",
+    "A106843"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

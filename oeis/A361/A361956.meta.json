@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of labeled tiered posets with n elements and height k.",
+  "id": "A361956",
+  "mentions": [
+    "A000142",
+    "A052332",
+    "A222864",
+    "A223911",
+    "A361951",
+    "A361957"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

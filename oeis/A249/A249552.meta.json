@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that there are precisely 9 groups of order k.",
+  "description": "Numbers m such that there are precisely 9 groups of order m.",
   "id": "A249552",
   "mentions": [
     "A000001",
@@ -13,14 +13,21 @@
     "A249551",
     "A249553",
     "A249554",
-    "A249555"
+    "A249555",
+    "A292896",
+    "A294155",
+    "A294156",
+    "A294949",
+    "A295161",
+    "A298909",
+    "A298910",
+    "A298911"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:06",
     "offset": 1,
     "size": 52,
     "source": "oeis-bfile"

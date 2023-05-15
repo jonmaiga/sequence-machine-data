@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1, a(n) = (k+1)*(2k+1), where k = Product_{i=1..n-1} a(i).",
+  "id": "A360826",
+  "mentions": [
+    "A000217",
+    "A000384",
+    "A004019",
+    "A034792",
+    "A115590"
+  ],
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

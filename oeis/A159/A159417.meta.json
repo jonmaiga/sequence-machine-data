@@ -2,13 +2,11 @@
   "description": "Number of n X n arrays of squares of integers summing to 26.",
   "id": "A159417",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 07:13:30",
     "offset": 2,
     "size": 12,
     "source": "joeis"

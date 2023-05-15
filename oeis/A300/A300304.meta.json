@@ -2,14 +2,12 @@
   "description": "Decimal expansion of the solution to 2*(1-x)^x = x^x.",
   "id": "A300304",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:24",
     "offset": 0,
     "size": 96,
     "source": "oeis-bfile"

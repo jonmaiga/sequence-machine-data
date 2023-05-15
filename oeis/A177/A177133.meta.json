@@ -2,13 +2,11 @@
   "description": "G.f. satisfies: A(A(x)) = Sum_{n>=1} A(x)^(n^2)/x^(n^2-n).",
   "id": "A177133",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 22,
     "source": "oeis-entry"

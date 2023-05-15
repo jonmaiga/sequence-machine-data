@@ -1,5 +1,5 @@
 {
-  "description": "Number of toothpicks added at n-th stage in the toothpick structure of the symmetric representation of sigma in the first quadrant (without the axis x and y).",
+  "description": "Number of toothpicks added at n-th stage in the toothpick structure of the symmetric representation of sigma of the first n positive integers in the first quadrant (without the axis x and y).",
   "id": "A244363",
   "mentions": [
     "A000203",
@@ -16,16 +16,15 @@
     "A262626",
     "A274919"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
+    "changed",
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
-    "size": 28,
+    "size": 32,
     "source": "oeis-entry"
   }
 }

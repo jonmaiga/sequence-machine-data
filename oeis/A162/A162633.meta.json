@@ -2,12 +2,10 @@
   "description": "E.g.f. satisfies: A(x) = exp( x*A(x+x^2) ).",
   "id": "A162633",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:44",
     "offset": 0,
     "size": 17,
     "source": "oeis-bfile"

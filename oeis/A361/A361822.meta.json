@@ -1,0 +1,21 @@
+{
+  "description": "Primes that have digits consisting only of line segments {1, 4, 7} or curved digits {0, 3, 6, 8, 9}.",
+  "id": "A361822",
+  "mentions": [
+    "A000040",
+    "A034470",
+    "A079651",
+    "A079652",
+    "A247052",
+    "A361780"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

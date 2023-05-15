@@ -2,14 +2,12 @@
   "description": "Number of permutations of n letters that contain exactly 3 distinguishable A's, 2 distinguishable B's and n-5 distinguishable other letters, where no A's are adjacent and no B's are adjacent.",
   "id": "A266393",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 10:33:44",
     "offset": 5,
     "size": 17,
     "source": "joeis"

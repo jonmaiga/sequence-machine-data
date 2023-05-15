@@ -2,7 +2,6 @@
   "description": "Sum of the digits of n*(n+1).",
   "id": "A128203",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 78,
     "source": "oeis-entry"

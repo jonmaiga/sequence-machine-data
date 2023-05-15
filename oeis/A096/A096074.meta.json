@@ -2,12 +2,10 @@
   "description": "Prime(n)!/composite(n)!.",
   "id": "A096074",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:46",
     "offset": 5,
     "size": 11,
     "source": "oeis-bfile"

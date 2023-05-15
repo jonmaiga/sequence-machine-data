@@ -2,16 +2,14 @@
   "description": "Numbers that, when expressed in some base, are the concatenation of numbers in two other bases.",
   "id": "A062844",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 62,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -2,14 +2,12 @@
   "description": "Square array T(r,m) read by antidiagonals: number of cyclically reduced words of length m in F_r.",
   "id": "A104000",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 51,
     "source": "oeis-entry"

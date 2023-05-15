@@ -2,13 +2,11 @@
   "description": "Squares with an even number of digits, where the first half is a square and the second half is a nonzero square.",
   "id": "A145848",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:34",
     "offset": 1,
     "size": 21,
     "source": "oeis-bfile"

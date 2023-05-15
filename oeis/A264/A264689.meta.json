@@ -2,13 +2,11 @@
   "description": "Minimum of the Kamae-Xue measure of randomness for binary strings of length n.",
   "id": "A264689",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

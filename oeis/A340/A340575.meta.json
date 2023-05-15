@@ -2,12 +2,10 @@
   "description": "a(n) is the least prime p such that the product of 2*n-1 consecutive primes starting with p is divisible by the sum of those same primes, or 0 if there is no such prime.",
   "id": "A340575",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:13",
     "offset": 1,
     "size": 89,
     "source": "oeis-bfile"

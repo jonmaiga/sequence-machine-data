@@ -2,14 +2,12 @@
   "description": "Triangle read by rows: row n gives number of matchings of size 0<=k<=n (edges) in the complete graph on 2*n >= 2 vertices.",
   "id": "A119743",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 47,
     "source": "oeis-entry"

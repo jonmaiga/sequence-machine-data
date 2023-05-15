@@ -2,7 +2,6 @@
   "description": "Let an integer with k+1 digits as n = d(k)*10^k + d(k-1)*10^(k-1) + ... + d(0)*10^0 and consider the transform T(n) = k*10^d(k) + (k-1)*10^d(k-1) + ... + 0*10^d(0). a(n) gives the fixed points of the transform T(n).",
   "id": "A226767",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:44",
     "offset": 0,
     "size": 40,
     "source": "oeis-bfile"

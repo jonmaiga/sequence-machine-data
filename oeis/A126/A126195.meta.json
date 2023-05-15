@@ -2,13 +2,11 @@
   "description": "Conjectured values for maximal number of solid spheres of radius 1 that can be rolled all in touch with and on the outside surface of a sphere of radius n.",
   "id": "A126195",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 5,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Numbers which are not prime powers but which satisfy Ko and Ray-Chaudhuri's conditions A1 and A2.",
   "id": "A182588",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 19,
     "source": "oeis-entry"

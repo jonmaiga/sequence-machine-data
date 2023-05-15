@@ -2,14 +2,12 @@
   "description": "A triangular sequence of coefficients of a PolyLog functional polynomials: p(x.n)=16*x^(n + 1)*PolyLog[ -n, (1 - x)/(1 + x)]/((1 + x)*(1 - x)).",
   "id": "A142154",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

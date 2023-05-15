@@ -2,12 +2,10 @@
   "description": "Product of primes prime(3*n+1), prime(3*n+2), prime(3*n+3).",
   "id": "A061466",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-28 11:08:27",
     "offset": 0,
     "size": 26,
     "source": "joeis"

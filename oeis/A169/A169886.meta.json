@@ -9,15 +9,12 @@
     "A169884",
     "A169885"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "base",
-    "changed",
     "look",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:44:25",
     "offset": 0,
     "size": 43,
     "source": "oeis-bfile"

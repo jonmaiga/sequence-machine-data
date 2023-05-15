@@ -2,13 +2,11 @@
   "description": "Convolution of the Floor-Sqrt transform of central binomial coefficients.",
   "id": "A192657",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:16",
     "offset": 0,
     "size": 34,
     "source": "oeis-bfile"

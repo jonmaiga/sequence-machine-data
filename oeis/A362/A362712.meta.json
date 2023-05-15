@@ -1,0 +1,16 @@
+{
+  "description": "Number of n-colorings of the Goldner-Harary graph.",
+  "id": "A362712",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

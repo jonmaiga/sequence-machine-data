@@ -2,13 +2,11 @@
   "description": "Squares for which the sum of the digits, the product of the digits, the digital root and the multiplicative digital root are all squares.",
   "id": "A117680",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 36,
     "source": "oeis-entry"

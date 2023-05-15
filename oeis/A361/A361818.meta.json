@@ -1,0 +1,21 @@
+{
+  "description": "For any number k >= 0, let T_k be the triangle whose base corresponds to the ternary expansion of k (without leading zeros) and other values, say t above u and v, satisfy t = (-u-v) mod 3; this sequence lists the numbers k such that T_k has 3-fold rotational symmetry.",
+  "id": "A361818",
+  "mentions": [
+    "A004488",
+    "A030102",
+    "A048328",
+    "A060587",
+    "A297250",
+    "A334556"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

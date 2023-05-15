@@ -2,13 +2,11 @@
   "description": "For n not divisible by 10 and using as many leading zeros as needed, smallest number whose inverse has only digits of n in its period.",
   "id": "A181431",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 28,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Expansion of sum ( q^n / product( 1-q^k, k=1..4*n), n=0..inf ).",
   "id": "A035296",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:10",
     "offset": 0,
     "size": 38,
     "source": "joeis"

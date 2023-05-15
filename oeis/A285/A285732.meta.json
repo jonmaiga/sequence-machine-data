@@ -14,14 +14,12 @@
     "A285733",
     "A286100"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:57",
     "offset": 1,
     "size": 91,
     "source": "oeis-bfile"

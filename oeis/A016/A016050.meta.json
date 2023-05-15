@@ -2,12 +2,10 @@
   "description": "Inverse of 2041st cyclotomic polynomial.",
   "id": "A016050",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-02 15:32:36",
     "offset": 0,
     "size": 81,
     "source": "joeis"

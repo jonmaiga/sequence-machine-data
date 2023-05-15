@@ -2,13 +2,11 @@
   "description": "Number of simple mixed arrangements of 2 pseudolines and n double pseudolines in the Mobius plane.",
   "id": "A191958",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 0,
     "size": 4,
     "source": "oeis-entry"

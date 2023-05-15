@@ -2,13 +2,11 @@
   "description": "n is the product of T(d_i) where d_i are the nonzero digits of n and T(k) denotes the k-th triangular number.",
   "id": "A113795",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

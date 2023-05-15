@@ -2,12 +2,10 @@
   "description": "Numbers k such that starting with prime(k) 3, 5, 7, 9, and 11 consecutive primes sum up to prime numbers.",
   "id": "A288142",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:00",
     "offset": 1,
     "size": 35,
     "source": "oeis-bfile"

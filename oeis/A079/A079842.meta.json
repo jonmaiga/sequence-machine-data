@@ -2,14 +2,12 @@
   "description": "Largest square which is a concatenation of partitions of n; or 0 if no such number exists.",
   "id": "A079842",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 22,
     "source": "oeis-entry"

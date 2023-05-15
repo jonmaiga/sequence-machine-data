@@ -2,13 +2,11 @@
   "description": "Covering numbers C(n,7,5) (next term is <= 34).",
   "id": "A011988",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 7,
     "size": 4,
     "source": "oeis-entry"

@@ -4,14 +4,11 @@
   "mentions": [
     "A003558"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:47",
     "offset": 0,
     "size": 90,
     "source": "oeis-entry"

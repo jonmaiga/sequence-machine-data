@@ -2,7 +2,6 @@
   "description": "Numerator of the harmonic numbers for the symmetric group relative to the Coxeter length.",
   "id": "A308033",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "formulas",
     "frac",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

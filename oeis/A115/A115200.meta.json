@@ -2,14 +2,12 @@
   "description": "The only alternating groups A_n which are ambivalent (see definition below).",
   "id": "A115200",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

@@ -6,13 +6,11 @@
     "A242905",
     "A242906"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 37,
     "source": "oeis-entry"

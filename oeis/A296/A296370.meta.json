@@ -44,14 +44,12 @@
     "A296104",
     "A296369"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

@@ -1,16 +1,15 @@
 {
-  "description": "a(1)=1; then if n is a multiple of 3 a(n)=a(n/3)+1, if n is not a multiple of 3 but even a(n)=a(n/2)+1, a(n)=a(n-1)+1 otherwise.",
+  "description": "a(1)=1; then if n is a multiple of 3, a(n) = a(n/3) + 1; if n is not a multiple of 3 but even, a(n) = a(n/2) + 1; a(n) = a(n-1) + 1 otherwise.",
   "id": "A081742",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-07-12 12:11:11",
     "offset": 1,
     "size": 102,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

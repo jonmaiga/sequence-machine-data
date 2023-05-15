@@ -16,15 +16,14 @@
     "A134667",
     "A175629"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "mult",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-28 09:48:23",
     "offset": 0,
     "size": 76,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "Maximal number of unit circles through n points in plane, each circle containing 3 of the points.",
   "id": "A003829",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 3,
     "size": 6,
     "source": "oeis-entry"

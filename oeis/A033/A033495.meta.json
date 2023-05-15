@@ -2,12 +2,10 @@
   "description": "Initial number for record sum of numbers in trajectory of 3x+1 problem.",
   "id": "A033495",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 01:27:54",
     "offset": 0,
     "size": 45,
     "source": "joeis"

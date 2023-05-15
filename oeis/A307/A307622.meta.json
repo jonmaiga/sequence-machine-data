@@ -2,13 +2,11 @@
   "description": "Number of cycles in the n X n fiveleaper graph.",
   "id": "A307622",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Primes such that number of decimal digits in {4, 6, 8} is greater than the number of digits in {3, 5, 7}.",
   "id": "A154763",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 49,
     "source": "oeis-entry"

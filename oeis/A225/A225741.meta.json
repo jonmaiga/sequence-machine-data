@@ -2,14 +2,12 @@
   "description": "Primes p such that the sum of the squares of the digits of p plus p is the square of a prime.",
   "id": "A225741",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:43",
     "offset": 1,
     "size": 34,
     "source": "oeis-bfile"

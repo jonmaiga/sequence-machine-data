@@ -2,14 +2,12 @@
   "description": "Knuth's standard example of an unsorted array.",
   "id": "A160508",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

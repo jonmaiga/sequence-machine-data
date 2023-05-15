@@ -2,14 +2,12 @@
   "description": "Pairs prime(k), prime(k+1) such that last digit of prime(k) is 9 and last digit of prime(k+1) is 7.",
   "id": "A178917",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 44,
     "source": "oeis-entry"

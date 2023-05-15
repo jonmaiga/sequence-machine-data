@@ -1,0 +1,21 @@
+{
+  "description": "Initial digit of the decimal expansion of the tetration 2^^n (in Don Knuth's up-arrow notation).",
+  "id": "A362004",
+  "mentions": [
+    "A241291",
+    "A241299",
+    "A244059"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

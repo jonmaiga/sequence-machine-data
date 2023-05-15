@@ -1,0 +1,18 @@
+{
+  "description": "a(0)=0. For each digit in the sequence, append the smallest unused integer that contains that digit.",
+  "id": "A362371",
+  "mentions": [
+    "A000002",
+    "A107353",
+    "A339853"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

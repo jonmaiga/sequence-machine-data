@@ -2,12 +2,10 @@
   "description": "Consider numbers x,y,z such that UnitarySigma(x) = UnitarySigma(y) = UnitarySigma(z) = 4*(x*y*z)^(1/2)/( x^(1/2) + y^(1/2) + z^(1/2)), x<=y<=z . Sequence gives y.",
   "id": "A144950",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 17,
     "source": "oeis-entry"

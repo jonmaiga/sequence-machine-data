@@ -2,13 +2,11 @@
   "description": "Numbers k for which (phi(k))^2 + phi(k) + 1 is a palindrome.",
   "id": "A117308",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 48,
     "source": "oeis-entry"

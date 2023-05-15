@@ -2,13 +2,11 @@
   "description": "Empirically good sequence of increments for shell sort algorithm.",
   "id": "A154393",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:36",
     "offset": 1,
     "size": 24,
     "source": "oeis-bfile"

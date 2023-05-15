@@ -1,19 +1,19 @@
 {
-  "description": "Prime(2n-1) + prime(2n).",
+  "description": "a(n) = prime(2n-1) + prime(2n).",
   "id": "A100479",
   "mentions": [
     "A000040",
-    "A001043"
+    "A001043",
+    "A031215",
+    "A031368"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:37:33",
     "offset": 1,
     "size": 52,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

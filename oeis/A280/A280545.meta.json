@@ -1,17 +1,17 @@
 {
-  "description": "Numbers n such that sigma(sigma(n)) is a Fibonacci number.",
+  "description": "Numbers k such that sigma(sigma(k)) is a Fibonacci number.",
   "id": "A280545",
   "mentions": [
+    "A000045",
     "A051027",
     "A272412",
     "A280555"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 25,
     "source": "oeis-entry"

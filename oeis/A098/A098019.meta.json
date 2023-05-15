@@ -2,13 +2,11 @@
   "description": "Irrational rotation of e as an implicit sequence with an uneven Cantor cartoon.",
   "id": "A098019",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 61,
     "source": "oeis-entry"

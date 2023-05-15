@@ -2,13 +2,11 @@
   "description": "Number of facets of the polytope representing the number n.",
   "id": "A333527",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 56,
     "source": "oeis-entry"

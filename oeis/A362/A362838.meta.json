@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (-1)^n * n! * Sum_{k=0..floor(n/2)} n^(n-k) * Stirling1(n-k,k)/(n-k)!.",
+  "id": "A362838",
+  "mentions": [
+    "A362837"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

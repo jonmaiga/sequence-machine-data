@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = 1; a(n) = -Sum_{k=2..n} k^3 * a(floor(n/k)).",
+  "id": "A360658",
+  "mentions": [
+    "A092149",
+    "A336277",
+    "A359478",
+    "A359531",
+    "A360390"
+  ],
+  "tags": [
+    "changed",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

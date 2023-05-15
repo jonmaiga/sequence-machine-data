@@ -2,13 +2,11 @@
   "description": "Decimal expansion of triton mass energy equivalent in J.",
   "id": "A254294",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": -9,
     "size": 7,
     "source": "oeis-entry"

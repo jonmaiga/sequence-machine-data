@@ -2,12 +2,10 @@
   "description": "a(n+4) = a(n+3)+a(n+1)+a(n)+k(n), where k(n) = 0, 1, 0, or -1 according to n mod 4.",
   "id": "A115059",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:05",
     "offset": 0,
     "size": 40,
     "source": "oeis-bfile"

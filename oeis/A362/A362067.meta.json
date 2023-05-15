@@ -1,0 +1,19 @@
+{
+  "description": "Sum of successive Fibonacci numbers F(n) : a(n) = Sum_{k = 0..n} F(n+k).",
+  "id": "A362067",
+  "mentions": [
+    "A000045",
+    "A094292",
+    "A199334"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

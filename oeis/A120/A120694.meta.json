@@ -2,13 +2,11 @@
   "description": "Sequence demonstrating the Pythagorean theorem.",
   "id": "A120694",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:09",
     "offset": 0,
     "size": 16,
     "source": "oeis-bfile"

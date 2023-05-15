@@ -1,0 +1,23 @@
+{
+  "description": "Total number of even divisors of all positive integers <= n.",
+  "id": "A362059",
+  "mentions": [
+    "A000005",
+    "A002865",
+    "A006218",
+    "A060831",
+    "A066898",
+    "A183063",
+    "A271342"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

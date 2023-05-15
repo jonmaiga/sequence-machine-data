@@ -1,5 +1,5 @@
 {
-  "description": "a(0)=0 and a(1)=1, continued such that absolute values of 2nd differences equal the original sequence.",
+  "description": "a(0) = 0 and a(1) = 1, continued such that absolute values of 2nd differences equal the original sequence.",
   "id": "A131572",
   "mentions": [
     "A000007",
@@ -27,14 +27,12 @@
     "A354788",
     "A354789"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:19",
     "offset": 0,
     "size": 42,
     "source": "oeis-bfile"

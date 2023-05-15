@@ -2,12 +2,10 @@
   "description": "Even numbers that are differences between two cubes in at least one way.",
   "id": "A038848",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-11-11 15:41:40",
     "offset": 1,
     "size": 47,
     "source": "joeis"

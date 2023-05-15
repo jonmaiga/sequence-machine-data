@@ -2,14 +2,12 @@
   "description": "Degrees of irreducible representations of simple Chevalley group E8(2).",
   "id": "A214480",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:32",
     "offset": 1,
     "size": 13,
     "source": "oeis-bfile"

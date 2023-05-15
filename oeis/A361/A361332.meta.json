@@ -1,0 +1,18 @@
+{
+  "description": "Where n appears in A351495, or -1 if it never occurs.",
+  "id": "A361332",
+  "mentions": [
+    "A351495",
+    "A361333"
+  ],
+  "tags": [
+    "changed",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

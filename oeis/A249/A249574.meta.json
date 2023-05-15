@@ -2,14 +2,12 @@
   "description": "The number of strokes for each capital letter of the alphabet from A to Z in Times New Roman font.",
   "id": "A249574",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 26,
     "source": "oeis-entry"

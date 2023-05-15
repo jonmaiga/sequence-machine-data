@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 5^n*(n+1)*(4*n^2+14*n+3)/3.",
+  "id": "A361610",
+  "mentions": [
+    "A027471",
+    "A361608",
+    "A361609"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

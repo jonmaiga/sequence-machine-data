@@ -2,13 +2,11 @@
   "description": "G.f. satisfies: A(x) = x*(1 + A(A(x)))/(1 - A(A(x))).",
   "id": "A141149",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"

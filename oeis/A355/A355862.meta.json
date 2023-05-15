@@ -2,13 +2,11 @@
   "description": "G.f. A(x) satisfies: 0 = Sum_{n=-oo..+oo} x^(n*(n+1)/2) * (x^n - 2*A(x))^(n+1).",
   "id": "A355862",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:30",
     "offset": 0,
     "size": 24,
     "source": "oeis-bfile"

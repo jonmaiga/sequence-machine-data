@@ -2,14 +2,12 @@
   "description": "Number of ways to tile a fixed 3 x n square grid with 1 x 1, 2 x 2, and axially-oriented 1 x 2 tiles.",
   "id": "A226348",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 19:37:44",
     "offset": 1,
     "size": 21,
     "source": "joeis"

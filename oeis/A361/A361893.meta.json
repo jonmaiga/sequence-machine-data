@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows. T(n, k) = n! * binomial(n - 1, k - 1) / (n - k)!.",
+  "id": "A361893",
+  "mentions": [
+    "A000142",
+    "A011379",
+    "A021010",
+    "A052852",
+    "A055303",
+    "A062119",
+    "A144084",
+    "A187535",
+    "A317365"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

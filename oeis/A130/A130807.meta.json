@@ -1,16 +1,14 @@
 {
-  "description": "Prime p > a(n-1) such that p + n! is prime.",
+  "description": "Prime p > a(n-1) such that p + n! is prime, starting with a(1) = 2.",
   "id": "A130807",
   "mentions": [
     "A105049"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

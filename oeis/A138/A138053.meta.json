@@ -2,7 +2,6 @@
   "description": "Expansion of -x^2*(19440*x^4+2160*x^3-2304*x^2-150*x+55) /((3*x+1)*(6*x-1)*(6*x+1)*(15*x-1)*(12*x^2-1)).",
   "id": "A138053",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 19:39:06",
     "offset": 1,
     "size": 17,
     "source": "joeis"

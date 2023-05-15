@@ -22,15 +22,14 @@
     "A318321",
     "A318649"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
+    "changed",
     "formulas",
     "frac",
     "mult",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:22",
     "offset": 1,
     "size": 66,
     "source": "oeis-bfile"

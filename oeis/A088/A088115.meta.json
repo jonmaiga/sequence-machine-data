@@ -2,13 +2,11 @@
   "description": "a(n) = largest prime using least number of possible digits with a digit sum n, or 0 if no such number exists. E.g., if n > 9 and there are no two-digit primes with a given digit sum n then three-digit numbers are explored and so on.",
   "id": "A088115",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 54,
     "source": "oeis-entry"

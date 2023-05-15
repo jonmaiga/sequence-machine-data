@@ -2,14 +2,12 @@
   "description": "Smallest prime with sum of digits = 2^n.",
   "id": "A067522",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

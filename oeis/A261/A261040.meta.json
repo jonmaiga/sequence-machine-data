@@ -2,7 +2,6 @@
   "description": "Values of c such that the Diophantine equation 5*a + 3*b = c has no solutions in positive integers.",
   "id": "A261040",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "easy",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

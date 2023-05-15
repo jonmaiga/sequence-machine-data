@@ -1,5 +1,5 @@
 {
-  "description": "Cototients: n such that x-Phi[x]=n has at least one solution.",
+  "description": "Cototients: numbers k such that x - phi(x) = k has at least one solution.",
   "id": "A063742",
   "mentions": [
     "A000010",
@@ -8,17 +8,16 @@
     "A005278",
     "A051853",
     "A051953",
-    "A083531",
+    "A083533",
+    "A083534",
     "A083536"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 73,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -2,13 +2,11 @@
   "description": "Numbers k such that the string 235723572357k is prime.",
   "id": "A109356",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:49:27",
     "offset": 1,
     "size": 47,
     "source": "joeis"

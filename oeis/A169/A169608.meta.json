@@ -2,13 +2,11 @@
   "description": "a(n) is the number of ways to evaluate a polynomial of degree n, say p0 + p1*x + ... + pn*x^n, where each addition or multiplication takes exactly two arguments.",
   "id": "A169608",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 11,
     "source": "oeis-entry"

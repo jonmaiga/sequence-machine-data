@@ -2,13 +2,11 @@
   "description": "Total number of coarsest matroid subdivisions in the hypersimplex Delta(3,n) that are either corank subdivisions or are in the image of the Stiefel map.",
   "id": "A307144",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 5,
     "size": 6,
     "source": "oeis-entry"

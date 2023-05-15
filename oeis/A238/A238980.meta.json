@@ -2,13 +2,11 @@
   "description": "Underline all odd digits of the sequence. The sequence gives the successive lengths of the underlined/not underlined blocks of digits.",
   "id": "A238980",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 120,
     "source": "oeis-entry"

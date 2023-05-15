@@ -8,7 +8,6 @@
     "A077374",
     "A141548"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "bref",
     "hard",
@@ -16,7 +15,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:47",
     "offset": 1,
     "size": 3,
     "source": "oeis-entry"

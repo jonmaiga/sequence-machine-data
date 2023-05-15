@@ -2,13 +2,11 @@
   "description": "Sequence B^(1) in Table 6 of Liu-Zhao (2014).",
   "id": "A246978",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 0,
     "size": 11,
     "source": "oeis-entry"

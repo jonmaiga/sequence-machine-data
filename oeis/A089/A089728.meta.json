@@ -2,12 +2,10 @@
   "description": "a(n) = least prime of the form nk+1 where the sequence of k is a rearrangement of the natural numbers.",
   "id": "A089728",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"

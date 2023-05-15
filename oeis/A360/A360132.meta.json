@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of 1/sqrt(1 - 4*x/(1-x)^6).",
+  "id": "A360132",
+  "mentions": [
+    "A085362",
+    "A110170",
+    "A162478",
+    "A359489",
+    "A359758"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "joeis"
+  }
+}

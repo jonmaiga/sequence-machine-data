@@ -2,7 +2,6 @@
   "description": "First four terms are decimal digits of 1979. Rest are found by adding four previous terms modulo 10.",
   "id": "A121911",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

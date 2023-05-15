@@ -2,13 +2,11 @@
   "description": "E.g.f.: arcsin(arcsin(x)-tanh(x)) (odd coefficients only).",
   "id": "A013422",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:20",
     "offset": 0,
     "size": 16,
     "source": "oeis-bfile"

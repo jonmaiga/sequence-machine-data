@@ -2,15 +2,13 @@
   "description": "Smallest positive real solution to the equation sin(x)^cos(x) = 2.",
   "id": "A350031",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 99,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

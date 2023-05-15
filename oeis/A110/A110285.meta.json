@@ -2,13 +2,11 @@
   "description": "Numbers n such that n*10^n + n - 1 is prime.",
   "id": "A110285",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

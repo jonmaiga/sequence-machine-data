@@ -10,14 +10,12 @@
     "A098512",
     "A195686"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 26,
     "source": "oeis-entry"

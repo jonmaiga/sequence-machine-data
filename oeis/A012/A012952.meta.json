@@ -2,12 +2,10 @@
   "description": "cos(tan(x)+arcsin(x))=1-4/2!*x^2-8/4!*x^4+26/6!*x^6+4008/8!*x^8...",
   "id": "A012952",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 02:20:04",
     "offset": 0,
     "size": 14,
     "source": "joeis"

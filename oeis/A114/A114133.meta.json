@@ -2,12 +2,10 @@
   "description": "a(n) is the smallest number such that each of the first 2n primes appears exactly once in its prime factorization, either as factor or exponent.",
   "id": "A114133",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:04",
     "offset": 1,
     "size": 6,
     "source": "oeis-bfile"

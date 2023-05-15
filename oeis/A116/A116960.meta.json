@@ -7,7 +7,6 @@
     "A063527",
     "A115569"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "fini",
@@ -15,7 +14,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 51,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Turan's upper bound on the number of triangles of a simplicial complex of dimension two for which every minimal non-face has three vertices.",
   "id": "A140462",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:28",
     "offset": 0,
     "size": 47,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "Number of iterations p -> ap+b needed to get a composite number, starting with p=prime(n) and the least even a>0 and odd b0 such that a*prime(n)+b is prime.",
   "id": "A181696",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 168,
     "source": "oeis-entry"

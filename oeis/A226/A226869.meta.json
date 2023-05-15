@@ -1,16 +1,14 @@
 {
-  "description": "Number of nX5 (-1,0,1) arrays of determinants of 2X2 subblocks of some (n+1)X6 binary array with rows and columns of the latter in lexicographically nondecreasing order",
+  "description": "Number of n X 5 (-1,0,1) arrays of determinants of 2 X 2 subblocks of some (n+1) X 6 binary array with rows and columns of the latter in lexicographically nondecreasing order.",
   "id": "A226869",
   "mentions": [
     "A226870"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:44",
     "offset": 1,
     "size": 18,
     "source": "oeis-bfile"

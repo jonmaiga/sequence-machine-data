@@ -2,12 +2,10 @@
   "description": "A permutation of the positive integers made by (alternatingly) reversing the order of the squarefree positive integers within each run of squarefree integers and reversing the order of the nonsquarefree positive integers within each run of nonsquarefree integers.",
   "id": "A119263",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 72,
     "source": "oeis-entry"

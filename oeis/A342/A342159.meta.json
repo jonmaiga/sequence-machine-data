@@ -2,14 +2,12 @@
   "description": "Number of words of length n, over the alphabet {a,b,c}, which have an odd number of a's and the number of b's plus the number of c's is less than or equal to 3.",
   "id": "A342159",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:49:13",
     "offset": 0,
     "size": 51,
     "source": "joeis"

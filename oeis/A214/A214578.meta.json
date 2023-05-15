@@ -2,14 +2,12 @@
   "description": "Irregular triangle read by rows: if the rooted tree with Matula-Goebel number n is a generalized Bethe tree, then row n is the sequence of the associated partition numbers; otherwise, row n consists of a single 0.",
   "id": "A214578",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 94,
     "source": "oeis-entry"

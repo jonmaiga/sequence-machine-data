@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: Row n is the shortest, then lexicographically earliest sequence of 0s and 1s not yet in the sequence.",
+  "id": "A362240",
+  "mentions": [
+    "A076478",
+    "A118247",
+    "A362009",
+    "A362241"
+  ],
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

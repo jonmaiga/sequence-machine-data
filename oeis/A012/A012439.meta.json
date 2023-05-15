@@ -2,12 +2,10 @@
   "description": "tanh(arctan(x)*arcsin(x))=2/2!*x^2-4/4!*x^4-82/6!*x^6+3096/8!*x^8...",
   "id": "A012439",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 02:47:01",
     "offset": 0,
     "size": 14,
     "source": "joeis"

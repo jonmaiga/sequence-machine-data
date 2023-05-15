@@ -2,13 +2,11 @@
   "description": "Smallest prime of the form 2n*(2n+2)*(2n+4)*...*(2n+2k) + 1 where k is a nonnegative integer.",
   "id": "A110336",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 23,
     "source": "oeis-entry"

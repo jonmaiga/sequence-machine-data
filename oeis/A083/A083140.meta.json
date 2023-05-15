@@ -27,14 +27,12 @@
     "A125666",
     "A192179"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nice",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:34",
     "offset": 2,
     "size": 66,
     "source": "oeis-bfile"

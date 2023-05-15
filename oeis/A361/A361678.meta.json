@@ -1,0 +1,18 @@
+{
+  "description": "Constant term in the expansion of (1 + w + x + y + z + 1/(x*y*z) + 1/(w*y*z) + 1/(w*x*z) + 1/(w*x*y))^n.",
+  "id": "A361678",
+  "mentions": [
+    "A201805",
+    "A361637",
+    "A361677"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

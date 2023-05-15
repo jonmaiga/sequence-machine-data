@@ -2,7 +2,6 @@
   "description": "Number of letter combinations on a standard telephone keypad represented by the digits in n",
   "id": "A179804",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 100,
     "source": "oeis-entry"

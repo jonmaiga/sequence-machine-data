@@ -11,14 +11,12 @@
     "A239841",
     "A254529"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "hard",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:04",
     "offset": 0,
     "size": 18,
     "source": "oeis-bfile"

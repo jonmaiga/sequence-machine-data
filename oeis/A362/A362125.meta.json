@@ -1,0 +1,22 @@
+{
+  "description": "Square array T(n,k), n>=0, k>=0, read by antidiagonals downwards, where column k is the expansion of 1/(1 - x*(1+x)^k)^k.",
+  "id": "A362125",
+  "mentions": [
+    "A000007",
+    "A000045",
+    "A362078",
+    "A362079",
+    "A362080",
+    "A362126"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

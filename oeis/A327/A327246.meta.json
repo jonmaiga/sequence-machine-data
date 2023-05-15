@@ -2,13 +2,11 @@
   "description": "a(1) = 0; build a(n+1) by concatenating 2 strings: first, the number of digits of a(n), second, the number of terms with same number of digits as a(n) up to a(n).",
   "id": "A327246",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:54",
     "offset": 1,
     "size": 56,
     "source": "oeis-bfile"

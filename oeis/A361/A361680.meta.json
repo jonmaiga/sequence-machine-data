@@ -1,0 +1,17 @@
+{
+  "description": "The n-th prime p such that p + 2^n is also prime.",
+  "id": "A361680",
+  "mentions": [
+    "A000040",
+    "A361679"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

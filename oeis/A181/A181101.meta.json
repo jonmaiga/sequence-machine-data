@@ -5,13 +5,11 @@
     "A008836",
     "A020639"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

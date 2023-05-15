@@ -2,12 +2,10 @@
   "description": "G.f.: Product_{k>=1} Sum_{n>=0} x^(k*n) / (1 - x^(n+k)).",
   "id": "A341959",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 0,
     "size": 40,
     "source": "oeis-entry"

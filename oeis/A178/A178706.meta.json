@@ -2,14 +2,12 @@
   "description": "Partial sums of floor(3^n/5).",
   "id": "A178706",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:02",
     "offset": 1,
     "size": 25,
     "source": "oeis-bfile"

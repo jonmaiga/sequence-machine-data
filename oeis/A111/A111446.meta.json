@@ -2,13 +2,11 @@
   "description": "Least square ending in k where k is a possible end of a square.",
   "id": "A111446",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 48,
     "source": "oeis-entry"

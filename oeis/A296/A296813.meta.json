@@ -2,13 +2,11 @@
   "description": "Take a squarefree semiprime and take the difference of its prime factors. If it is a squarefree semiprime repeat the process. Sequence lists the squarefree semiprimes that generate other squarefree semiprimes only in the first k steps of this process. Case k = 6.",
   "id": "A296813",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 35,
     "source": "oeis-entry"

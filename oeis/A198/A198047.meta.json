@@ -2,13 +2,11 @@
   "description": "Primes remaining primes under map 3<=>5 (interchange of decimal digits 3 and 5).",
   "id": "A198047",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 39,
     "source": "oeis-entry"

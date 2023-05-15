@@ -2,14 +2,12 @@
   "description": "Decimal expansion of sqrt(2) with digits grouped in pairs, leading zeros omitted.",
   "id": "A339568",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 51,
     "source": "oeis-entry"

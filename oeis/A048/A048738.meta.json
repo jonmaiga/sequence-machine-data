@@ -2,13 +2,11 @@
   "description": "Number of self-avoiding walks on square lattice rotated by Pi/4, with wedge angle Pi/2.",
   "id": "A048738",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "nonn",
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 1,
     "size": 29,
     "source": "oeis-entry"

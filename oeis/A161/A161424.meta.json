@@ -26,14 +26,12 @@
     "A163280",
     "A163990"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 54,
     "source": "oeis-entry"

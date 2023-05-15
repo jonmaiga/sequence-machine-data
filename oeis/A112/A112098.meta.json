@@ -2,14 +2,12 @@
   "description": "Denominator of Sum_{i=1..n} 1/C(2*i,i).",
   "id": "A112098",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 24,
     "source": "oeis-entry"

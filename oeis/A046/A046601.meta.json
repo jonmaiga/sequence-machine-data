@@ -2,14 +2,12 @@
   "description": "First numerator and then denominator of the 1/5-Pascal triangle (by row). To get a 1/5-Pascal triangle, replace \"2\" in the third row of the Pascal triangle with \"1/5\" and calculate all other rows as in the Pascal triangle.",
   "id": "A046601",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "less",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2022-04-27 14:34:01",
     "offset": 1,
     "size": 86,
     "source": "joeis"

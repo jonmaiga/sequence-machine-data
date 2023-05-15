@@ -5,7 +5,6 @@
     "A000079",
     "A003328"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "easy",
     "fini",
@@ -13,7 +12,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

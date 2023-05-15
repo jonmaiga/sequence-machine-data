@@ -2,12 +2,10 @@
   "description": "Maximal squarefree f such that the congruence subgroup Gamma_0(f)+ has genus n.",
   "id": "A257603",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:15",
     "offset": 0,
     "size": 49,
     "source": "oeis-bfile"

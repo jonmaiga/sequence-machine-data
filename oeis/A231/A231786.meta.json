@@ -2,13 +2,11 @@
   "description": "Negative initial slope of the Thomas-Fermi equation, y\"(x) = Sqrt( y(x)^3 / x), with boundary conditions y(0) = 1 and y(Infinity) = 0.",
   "id": "A231786",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:49",
     "offset": 1,
     "size": 87,
     "source": "oeis-bfile"

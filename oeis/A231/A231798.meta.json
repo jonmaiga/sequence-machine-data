@@ -1,15 +1,13 @@
 {
-  "description": "Number of (n+1)X(n+1) 0..1 arrays with no element having a strict majority of its horizontal, vertical, diagonal and antidiagonal neighbors equal to one",
+  "description": "Number of (n+1) X (n+1) 0..1 arrays with no element having a strict majority of its horizontal, vertical, diagonal and antidiagonal neighbors equal to one.",
   "id": "A231798",
   "mentions": [
     "A231806"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

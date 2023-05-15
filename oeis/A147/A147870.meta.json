@@ -2,12 +2,10 @@
   "description": "Number of steps required to erase a finite sequence of nonnegative integers in the following way: at the n-th step, if the last number of the string is 0, delete it; otherwise replace it with n copies of the next-smaller number.",
   "id": "A147870",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 5,
     "source": "oeis-entry"

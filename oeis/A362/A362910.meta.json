@@ -1,0 +1,19 @@
+{
+  "description": "Semiprimes p*q for which p <= q < p^3.",
+  "id": "A362910",
+  "mentions": [
+    "A001248",
+    "A001358",
+    "A251728"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

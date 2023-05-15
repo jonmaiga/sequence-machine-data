@@ -2,12 +2,10 @@
   "description": "Numbers k such that k![12]-2 is prime, where k![12] is the twelve-fold multifactorial.",
   "id": "A284132",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:55",
     "offset": 1,
     "size": 50,
     "source": "oeis-bfile"

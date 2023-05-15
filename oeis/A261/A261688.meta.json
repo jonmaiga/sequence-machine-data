@@ -2,12 +2,10 @@
   "description": "Values of g-hat_3(n), a sum involving Stirling numbers of the first kind.",
   "id": "A261688",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:20",
     "offset": 0,
     "size": 19,
     "source": "oeis-bfile"

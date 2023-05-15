@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^n + 3 is prime.",
+  "description": "Numbers k such that k^k + 3 is prime.",
   "id": "A166852",
   "mentions": [
     "A087037",
@@ -7,7 +7,6 @@
     "A100408",
     "A166853"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "bref",
     "hard",
@@ -15,7 +14,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 3,
     "source": "oeis-entry"

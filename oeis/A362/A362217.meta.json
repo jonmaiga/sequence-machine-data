@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = the hypergraph Fuss-Catalan number FC_(3,3)(n).",
+  "id": "A362217",
+  "mentions": [
+    "A000108",
+    "A355262",
+    "A362167",
+    "A362172",
+    "A362214",
+    "A362215",
+    "A362216"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

@@ -2,13 +2,11 @@
   "description": "G.f. A(x) satisfies A(A(x)) = (x+2*x^2)/(1-2*x-4*x^2).",
   "id": "A199823",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:20",
     "offset": 0,
     "size": 27,
     "source": "oeis-bfile"

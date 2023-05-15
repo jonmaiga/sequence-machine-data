@@ -1,19 +1,16 @@
 {
-  "description": "Number of circular permutations where every next element in binary notation has ones at the same or adjacent positions of previous element's binary ones.",
+  "description": "Number of circular permutations of {1, 2, ..., n}, where every next element in binary notation has ones at the same or adjacent positions of previous element's binary ones.",
   "id": "A115507",
   "mentions": [
     "A115506",
     "A115509"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
-    "size": 20,
+    "size": 26,
     "source": "oeis-entry"
   }
 }

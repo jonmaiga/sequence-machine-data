@@ -8,13 +8,11 @@
     "A086487",
     "A104465"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"

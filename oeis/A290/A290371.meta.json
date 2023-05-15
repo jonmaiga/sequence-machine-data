@@ -2,12 +2,10 @@
   "description": "Integers k such that f(k) - f(k-1) equals 1, where f(n) = floor(n/exp(sqrt(log(n)))).",
   "id": "A290371",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 56,
     "source": "oeis-entry"

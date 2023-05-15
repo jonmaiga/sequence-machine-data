@@ -7,13 +7,11 @@
     "A073502",
     "A125007"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 3,
     "size": 33,
     "source": "oeis-entry"

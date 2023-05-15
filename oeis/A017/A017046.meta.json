@@ -2,14 +2,11 @@
   "description": "a(n) = (7*n + 5)^6.",
   "id": "A017046",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:24",
     "offset": 0,
     "size": 16,
     "source": "oeis-bfile"

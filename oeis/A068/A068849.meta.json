@@ -2,13 +2,11 @@
   "description": "a(1) = 41 ( the smallest prime beginning with 4) and then the smallest prime with leading digits containing a(n-1).",
   "id": "A068849",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 17:06:27",
     "offset": 1,
     "size": 7,
     "source": "joeis"

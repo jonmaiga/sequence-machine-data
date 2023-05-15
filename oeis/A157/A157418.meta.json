@@ -2,7 +2,6 @@
   "description": "a(n) is the number of ways to insert single pairs of parenthesis to completely separate n identical objects in a straight line such that at least one of the objects at the two ends is not enclosed.",
   "id": "A157418",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:39",
     "offset": 1,
     "size": 24,
     "source": "oeis-bfile"

@@ -5,13 +5,11 @@
     "A256175",
     "A342622"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "easy",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:15",
     "offset": 1,
     "size": 48,
     "source": "oeis-bfile"

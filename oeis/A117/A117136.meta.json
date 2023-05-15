@@ -2,14 +2,12 @@
   "description": "Triangle read by rows: row n always begins with 1. Later terms in row n are obtained by successively subtracting or adding the numbers n, n+1, n+2, until reaching 1 again. The rule is that you subtract if the result is positive, otherwise you add.",
   "id": "A117136",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 56,
     "source": "oeis-entry"

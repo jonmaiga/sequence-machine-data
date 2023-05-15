@@ -2,14 +2,12 @@
   "description": "Determinant of Killing form K(x,y) of the Lie algebra sl(n,C) for n >=1.",
   "id": "A196995",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

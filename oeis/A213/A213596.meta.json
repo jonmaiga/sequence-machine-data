@@ -2,12 +2,10 @@
   "description": "Number of n X n binary matrices with zero diagonal and x(i,j), x(j,k) and x(k,i) not all equal for i,j,k all different",
   "id": "A213596",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

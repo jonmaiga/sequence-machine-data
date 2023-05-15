@@ -2,12 +2,10 @@
   "description": "Primes of form n^2 + 19n + 17.",
   "id": "A059425",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 11:46:29",
     "offset": 1,
     "size": 46,
     "source": "joeis"

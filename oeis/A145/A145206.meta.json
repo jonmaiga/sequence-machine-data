@@ -2,14 +2,12 @@
   "description": "Numbers X such that 201*X^2+67 is a square",
   "id": "A145206",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 20:58:43",
     "offset": 1,
     "size": 7,
     "source": "joeis"

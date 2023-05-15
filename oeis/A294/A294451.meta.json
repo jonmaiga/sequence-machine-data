@@ -2,13 +2,11 @@
   "description": "Number of simply-typed normal forms of lambda-terms of size n.",
   "id": "A294451",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 0,
     "size": 19,
     "source": "oeis-entry"

@@ -5,14 +5,12 @@
     "A088021",
     "A301372"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:26",
     "offset": 1,
     "size": 49,
     "source": "oeis-bfile"

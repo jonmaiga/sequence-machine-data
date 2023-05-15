@@ -2,13 +2,11 @@
   "description": "Number of ways for five teams of a World Cup football group to each have n goals for and n goals against.",
   "id": "A244998",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:56:41",
     "offset": 0,
     "size": 24,
     "source": "joeis"

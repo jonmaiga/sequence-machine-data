@@ -2,13 +2,11 @@
   "description": "If n==1 or mod(n,2)==0 or mod(n,5)==0 then -1, otherwise a(n) is the smallest nonnegative integer k such that the concatenation 1(k)2(k)3(k)...(k)n is a prime.",
   "id": "A082469",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 86,
     "source": "oeis-entry"

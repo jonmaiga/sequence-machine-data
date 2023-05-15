@@ -2,13 +2,11 @@
   "description": "Primes that arise from an investigation of values x for which pi(x) is different from the approximations pi_2(x).",
   "id": "A257590",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

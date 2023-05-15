@@ -2,13 +2,11 @@
   "description": "Primes p such that for the cyclic group Zp of a prime order p there exist a perfect 4-shift code {+-1,+-a,+-a^2,+-b} in Zp.",
   "id": "A162542",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 21,
     "source": "oeis-entry"

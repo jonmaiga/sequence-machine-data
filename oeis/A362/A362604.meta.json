@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 + LambertW(-x * exp(x^2))).",
+  "id": "A362604",
+  "mentions": [
+    "A072034",
+    "A216688",
+    "A356834",
+    "A362699",
+    "A362700",
+    "A362702"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

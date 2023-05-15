@@ -2,14 +2,12 @@
   "description": "Sum of the areas of all r X s rectangles such that r < s, r + s = 2n and (s - r) | (s * r).",
   "id": "A333754",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

@@ -2,7 +2,6 @@
   "description": "A shifted symmetrical triangular sequence:t(n,m)=If[Mod[n, 2] == 0, Binomial[n, m], Binomial[n - 1, m - 1] + If[(n - 3)*(m - 2) >= 1, Binomial[n - 3, m - 2], 0]]",
   "id": "A173389",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 66,
     "source": "oeis-entry"

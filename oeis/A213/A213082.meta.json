@@ -2,12 +2,10 @@
   "description": "Values of n for which the number of roots of the function sin(x)/x - 1/n increases.",
   "id": "A213082",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

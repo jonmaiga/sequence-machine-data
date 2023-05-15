@@ -1,0 +1,21 @@
+{
+  "description": "Number of parking functions of size n avoiding the patterns 312 and 321.",
+  "id": "A362744",
+  "mentions": [
+    "A000108",
+    "A362595",
+    "A362596",
+    "A362597",
+    "A362741"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

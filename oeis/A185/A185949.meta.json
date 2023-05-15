@@ -2,13 +2,11 @@
   "description": "Smallest prime ending in 10^n+1 in its base-10 representation.",
   "id": "A185949",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:10",
     "offset": 1,
     "size": 20,
     "source": "oeis-bfile"

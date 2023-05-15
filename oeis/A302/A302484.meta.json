@@ -2,14 +2,12 @@
   "description": "Number of Truchet tilings of an n X n square up to rotation and reflection.",
   "id": "A302484",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 0,
     "size": 11,
     "source": "oeis-entry"

@@ -4,14 +4,12 @@
   "mentions": [
     "A081344"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:38",
     "offset": 1,
     "size": 100,
     "source": "oeis-bfile"

@@ -2,14 +2,12 @@
   "description": "Tournament standing, under standard rules double elimination, of the participant whose elimination leaves n participants still in the tournament.",
   "id": "A355729",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 0,
     "size": 67,
     "source": "oeis-entry"

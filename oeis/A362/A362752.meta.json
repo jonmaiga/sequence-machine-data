@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (1/k - sin(1/k)).",
+  "id": "A362752",
+  "mentions": [
+    "A233383",
+    "A248945",
+    "A248946",
+    "A249022",
+    "A362753"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

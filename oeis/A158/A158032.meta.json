@@ -2,14 +2,12 @@
   "description": "Coefficients of the polynomial from factoring (x^167+1)/(x+1) modulo 2 gives: p(x)=1 + x + x^4 + x^6 + x^8 + x^10 + x^12 + x^13 + x^17 + x^19 + x^23 + x^24 + x^25 + x^26 + x^27 + x^29 + x^31 + x^32 + x^33 + x^35 + x^36 + x^40 + x^42 + x^45 + x^46 + x^47 + x^49 + x^50 + x^52 + x^53 + x^56 + x^59 + x^60 + x^62 + x^64 + x^67 + x^70 + x^71 + x^73 + x^76 + x^78 + x^81 + x^83.",
   "id": "A158032",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "sign",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 51,
     "source": "oeis-entry"

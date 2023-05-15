@@ -2,14 +2,12 @@
   "description": "Numbers whose base-11 representation has the same nonzero number of 0's and 10's.",
   "id": "A039447",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:43:53",
     "offset": 1,
     "size": 43,
     "source": "joeis"

@@ -2,14 +2,12 @@
   "description": "Triangle T(n,m) = coefficient of x^n in expansion of (1/2-1/2*(1-8*x)^1/4)^m = sum(n>=m, T(n,m) x^n), n>=1, m>=1.",
   "id": "A202039",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2022-11-11 15:41:48",
     "offset": 1,
     "size": 55,
     "source": "joeis"

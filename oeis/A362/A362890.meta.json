@@ -1,0 +1,16 @@
+{
+  "description": "a(1)=a(2)=1. For n>2, a(n) is the number of times that a(n-1) and a(n-2) are adjacent in the sequence thus far (in any order).",
+  "id": "A362890",
+  "mentions": [
+    "A362746"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

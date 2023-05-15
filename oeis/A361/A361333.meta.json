@@ -1,0 +1,17 @@
+{
+  "description": "Index of prime(n) in A351495.",
+  "id": "A361333",
+  "mentions": [
+    "A351495",
+    "A361332"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

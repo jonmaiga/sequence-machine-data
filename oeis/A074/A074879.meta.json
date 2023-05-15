@@ -1,15 +1,15 @@
 {
-  "description": "10 - Mod(Prime(n),10) when Prime(n) + 22 = Prime(n+1).",
+  "description": "10 - Mod(prime(n),10) when prime(n) + 22 = prime(n+1).",
   "id": "A074879",
   "mentions": [
-    "A061779"
+    "A061779",
+    "A072003"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
+    "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

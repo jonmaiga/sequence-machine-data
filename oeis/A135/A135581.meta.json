@@ -7,14 +7,12 @@
     "A200722",
     "A201266"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "look",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:23",
     "offset": 1,
     "size": 66,
     "source": "oeis-bfile"

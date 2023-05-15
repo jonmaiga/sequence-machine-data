@@ -2,13 +2,11 @@
   "description": "Number of line segments connecting exactly 7 points in an n X n grid of points.",
   "id": "A177723",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 44,
     "source": "oeis-entry"

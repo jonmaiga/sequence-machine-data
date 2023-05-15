@@ -6,7 +6,6 @@
     "A060854",
     "A255489"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "hard",
     "more",
@@ -14,7 +13,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 31,
     "source": "oeis-entry"

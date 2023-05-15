@@ -2,13 +2,11 @@
   "description": "G.f.: (1+x^2+x^3)/(1-x-x^2-x^4-x^5)",
   "id": "A188223",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 02:12:51",
     "offset": 0,
     "size": 39,
     "source": "joeis"

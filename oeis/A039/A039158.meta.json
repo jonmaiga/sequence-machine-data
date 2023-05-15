@@ -2,14 +2,12 @@
   "description": "Numbers whose base-11 representation has the same number of 0's and 3's.",
   "id": "A039158",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:43:43",
     "offset": 1,
     "size": 70,
     "source": "joeis"

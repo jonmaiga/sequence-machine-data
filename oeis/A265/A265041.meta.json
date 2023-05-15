@@ -2,13 +2,11 @@
   "description": "Coordination sequence for the {3,3,3,5} tiling.",
   "id": "A265041",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 0,
     "size": 15,
     "source": "oeis-entry"

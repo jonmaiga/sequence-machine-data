@@ -5,15 +5,14 @@
     "A066062",
     "A199711"
   ],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
+    "changed",
     "formulas",
     "nice",
     "nonn",
     "unsolved"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:11",
     "offset": 0,
     "size": 37,
     "source": "oeis-bfile"

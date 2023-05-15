@@ -2,13 +2,11 @@
   "description": "a(0) = a(1) = 1. The n-th run (after the initial two 1's) of (a(n)+a(n-1)) terms is (1,2,3,...,a(n)+a(n-1)).",
   "id": "A136314",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

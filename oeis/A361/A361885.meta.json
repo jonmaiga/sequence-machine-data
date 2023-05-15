@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (1/n) * Sum_{k = 0..2*n} (n+2*k) * binomial(n+k-1,k)^3.",
+  "id": "A361885",
+  "mentions": [
+    "A005809",
+    "A188662",
+    "A361883",
+    "A361884",
+    "A361886"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

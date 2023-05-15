@@ -2,14 +2,12 @@
   "description": "Coefficients of the expansion of:p(x,t)=(1 - x)/((1 - x*Exp[t*(1 - x)])*(1 - x*Exp[t*(1 + x)]))",
   "id": "A168347",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 53,
     "source": "oeis-entry"

@@ -6,13 +6,12 @@
     "A268038",
     "A274923"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
+    "changed",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 0,
     "size": 72,
     "source": "oeis-entry"

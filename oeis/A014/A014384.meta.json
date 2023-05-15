@@ -14,14 +14,12 @@
     "A068934",
     "A185213"
   ],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 0,
     "size": 13,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Number of partitions of n into parts not of the form 23k, 23k+10 or 23k-10. Also number of partitions with at most 9 parts of size 1 and differences between parts at distance 10 are greater than 1.",
   "id": "A035998",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:24:13",
     "offset": 1,
     "size": 45,
     "source": "joeis"

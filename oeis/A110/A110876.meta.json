@@ -2,12 +2,10 @@
   "description": "Molien series for real 128-dimensional Clifford group of genus 7 and order 110857799304670627788849414144000.",
   "id": "A110876",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 16,
     "source": "oeis-entry"

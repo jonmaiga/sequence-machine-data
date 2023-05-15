@@ -2,18 +2,19 @@
   "description": "Numbers k such that k + sigma(k) + phi(k) is a triangular number.",
   "id": "A115906",
   "mentions": [
+    "A000010",
+    "A000203",
+    "A000217",
     "A069066",
     "A115904",
     "A115905"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 44,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

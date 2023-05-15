@@ -2,13 +2,11 @@
   "description": "Numbers k such that 117*2^k+1 is prime.",
   "id": "A032408",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 1,
     "size": 38,
     "source": "oeis-entry"

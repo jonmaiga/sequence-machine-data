@@ -2,14 +2,12 @@
   "description": "Number of binary rooted trees with n nodes and height exactly 4.",
   "id": "A036593",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 0,
     "size": 16,
     "source": "oeis-entry"

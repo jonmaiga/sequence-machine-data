@@ -2,13 +2,11 @@
   "description": "Numbers k with squares that are concatenations k^2 = x//y such that x is an anagram of y.",
   "id": "A162945",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:44",
     "offset": 1,
     "size": 37,
     "source": "oeis-bfile"

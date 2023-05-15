@@ -2,12 +2,10 @@
   "description": "sec(arcsin(x)-tan(x))=1+10/6!*x^6+392/8!*x^8+11814/10!*x^10...",
   "id": "A013405",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-02 22:03:06",
     "offset": 0,
     "size": 15,
     "source": "joeis"

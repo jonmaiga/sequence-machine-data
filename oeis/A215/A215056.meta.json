@@ -2,14 +2,12 @@
   "description": "a(n) = smallest k such that k is both a sum of n nonzero squares and 50-n nonzero squares.",
   "id": "A215056",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 49,
     "source": "oeis-entry"

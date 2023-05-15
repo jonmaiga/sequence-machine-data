@@ -2,7 +2,6 @@
   "description": "Expansion of the polynomial (1+x^3)*(1+x^9)*(1+x^11)*(1+x^15)*(1+x^17)*(1+x^23).",
   "id": "A178580",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 79,
     "source": "oeis-entry"

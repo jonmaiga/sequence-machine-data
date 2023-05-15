@@ -2,13 +2,11 @@
   "description": "Three-column array read by rows: the first row consists of the first two primes, p = 2 and q = 3, and their sum s = p + q = 5; afterwards the (n+1)-st row consists of the smallest pair of consecutive primes whose sum is a multiple of the sum in the n-th row followed by their sum.",
   "id": "A284669",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 43,
     "source": "oeis-entry"

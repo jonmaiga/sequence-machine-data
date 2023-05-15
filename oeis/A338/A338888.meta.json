@@ -2,12 +2,10 @@
   "description": "a(n) = (a(n-2) bitwise-OR a(n-1)) + 1; a(1)=0, a(2)=0.",
   "id": "A338888",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:11",
     "offset": 1,
     "size": 55,
     "source": "oeis-bfile"

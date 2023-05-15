@@ -2,14 +2,12 @@
   "description": "Expansion of 1/((1-3x)(1-4x)(1-11x)).",
   "id": "A017065",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:24",
     "offset": 0,
     "size": 18,
     "source": "oeis-bfile"

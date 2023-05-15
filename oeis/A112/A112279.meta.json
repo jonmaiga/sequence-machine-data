@@ -2,14 +2,13 @@
   "description": "a(1)=1; a(n)=prime(mod(a(n-1),100)).",
   "id": "A112279",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
+    "changed",
     "formulas",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:43:37",
     "offset": 1,
     "size": 67,
     "source": "joeis"

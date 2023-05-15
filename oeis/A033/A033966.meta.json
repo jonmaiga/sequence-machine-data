@@ -2,12 +2,10 @@
   "description": "Trajectory of 1 under map n->19n+1 if n odd, n->n/2 if n even",
   "id": "A033966",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 17:41:01",
     "offset": 0,
     "size": 40,
     "source": "joeis"

@@ -2,12 +2,10 @@
   "description": "Smallest number k such that the n prime distinct divisors of k are also n consecutive divisors of k.",
   "id": "A227105",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Power each digit individually according to its position and add the numbers.",
   "id": "A112638",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 25,
     "source": "oeis-entry"

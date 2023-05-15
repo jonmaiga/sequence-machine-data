@@ -8,14 +8,12 @@
     "A050719",
     "A050806"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:59",
     "offset": 1,
     "size": 42,
     "source": "oeis-bfile"

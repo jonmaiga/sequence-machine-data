@@ -2,13 +2,11 @@
   "description": "Number of permutations of [n] avoiding {4213, 1432, 1324}.",
   "id": "A294767",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 08:56:00",
     "offset": 0,
     "size": 30,
     "source": "joeis"

@@ -4,14 +4,12 @@
   "mentions": [
     "A046253"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "base",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:49",
     "offset": 2,
     "size": 36,
     "source": "oeis-bfile"

@@ -2,14 +2,12 @@
   "description": "Numbers n such that the smallest prime factor of composite(n) plus the largest prime factor of composite(n) is composite and the sum of prime factors of composite(n) (with multiplicity) is composite.",
   "id": "A154366",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 68,
     "source": "oeis-entry"

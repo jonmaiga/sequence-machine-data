@@ -6,15 +6,13 @@
     "A008683",
     "A127510"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 59,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

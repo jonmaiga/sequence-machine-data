@@ -2,13 +2,11 @@
   "description": "Primes of the form 1 + product of first n prime gaps.",
   "id": "A099936",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:50",
     "offset": 1,
     "size": 12,
     "source": "oeis-bfile"

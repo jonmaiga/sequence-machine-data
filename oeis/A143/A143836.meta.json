@@ -1,16 +1,19 @@
 {
-  "description": "Triangle read by rows of n such that n(r,c)=(p(r+2)-1)/2+(p(c+1)-1)/2+1.",
+  "description": "Triangle read by rows: T(r,c) = (prime(r+2) + prime(c+1))/2.",
   "id": "A143836",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:25",
+  "mentions": [
+    "A024675",
+    "A061357",
+    "A098090",
+    "A334810"
+  ],
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
-    "size": 72,
+    "size": 78,
     "source": "oeis-entry"
   }
 }

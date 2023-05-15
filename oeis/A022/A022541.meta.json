@@ -2,13 +2,11 @@
   "description": "Related to number of irreducible stick-cutting problems.",
   "id": "A022541",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-11-11 15:41:37",
     "offset": 1,
     "size": 38,
     "source": "joeis"

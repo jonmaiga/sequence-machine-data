@@ -9,14 +9,12 @@
     "A153387",
     "A324007"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 95,
     "source": "oeis-entry"

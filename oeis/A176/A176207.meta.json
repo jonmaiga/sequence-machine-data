@@ -1,5 +1,5 @@
 {
-  "description": "Permutations of partitions listed in A080577 with partition lengths listed in A176208; The table has shape A058884.",
+  "description": "Permutations of partitions listed in A080577 with partition lengths listed in A176208; the table has shape A058884.",
   "id": "A176207",
   "mentions": [
     "A058884",
@@ -7,16 +7,14 @@
     "A176206",
     "A176208"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "tabf",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
-    "offset": 1,
-    "size": 47,
-    "source": "oeis-entry"
+    "offset": 3,
+    "size": 100,
+    "source": "oeis-bfile"
   }
 }

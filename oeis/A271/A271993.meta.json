@@ -2,14 +2,12 @@
   "description": "Main diagonal of the p-block in the periodic table of elements.",
   "id": "A271993",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 2,
     "size": 6,
     "source": "oeis-entry"

@@ -1,17 +1,17 @@
 {
-  "description": "a(n) = 1/2 * Sum_{k=0..n} (binomial(n,k) * binomial(n+k,k+1))^2 for n >= 0.",
+  "description": "a(n) = (1/2) * Sum_{k=0..n} (binomial(n,k) * binomial(n+k,k+1))^2 for n >= 0.",
   "id": "A277060",
   "mentions": [
+    "A005259",
     "A050151",
     "A074635"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:42",
     "offset": 0,
     "size": 17,
     "source": "oeis-bfile"

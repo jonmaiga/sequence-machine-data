@@ -2,12 +2,10 @@
   "description": "arcsinh(arcsin(x)-tanh(x))=3/3!*x^3-7/5!*x^5+497/7!*x^7-4471/9!*x^9...",
   "id": "A013426",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-02 21:56:09",
     "offset": 0,
     "size": 13,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "Palindromic primes with d digits which have more than 3*d/2 distinct primes as substrings, for any d > 0.",
   "id": "A168168",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 27,
     "source": "oeis-entry"

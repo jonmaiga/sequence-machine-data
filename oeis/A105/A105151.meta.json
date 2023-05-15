@@ -2,13 +2,11 @@
   "description": "Greatest numerator among the n! ratios equal to the continued fractions which have the permutations of (1,2,3,...,n) for terms.",
   "id": "A105151",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:56",
     "offset": 1,
     "size": 22,
     "source": "oeis-bfile"

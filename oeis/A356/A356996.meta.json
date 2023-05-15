@@ -7,16 +7,15 @@
     "A179070",
     "A356989",
     "A356995",
-    "A359997"
+    "A356997"
   ],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 3,
     "size": 123,
     "source": "oeis-entry"

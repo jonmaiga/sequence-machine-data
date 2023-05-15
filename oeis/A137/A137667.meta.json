@@ -2,14 +2,12 @@
   "description": "The sequence alternates even and odd integers but also even and odd digits; it is monotonically increasing and a(n) is always the smallest integer fitting the pattern.",
   "id": "A137667",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 38,
     "source": "oeis-entry"

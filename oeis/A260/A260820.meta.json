@@ -2,14 +2,12 @@
   "description": "Nonnegative integers n such that n^3-3 is divisible by n-3.",
   "id": "A260820",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

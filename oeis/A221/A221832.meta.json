@@ -1,15 +1,13 @@
 {
-  "description": "Number of 5Xn arrays of occupancy after each element moves to some horizontal, vertical or antidiagonal neighbor, without 2-loops or left turns",
+  "description": "Number of 5 X n arrays of occupancy after each element moves to some horizontal, vertical or antidiagonal neighbor, without 2-loops or left turns.",
   "id": "A221832",
   "mentions": [
     "A221828"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

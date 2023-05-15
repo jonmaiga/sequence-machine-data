@@ -2,12 +2,10 @@
   "description": "Number of \"forceless\" (or \"useless\") sequences in n-column Nonogram puzzle.",
   "id": "A304179",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 46,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "a(n) = 111111*n.",
   "id": "A154549",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 14:22:19",
     "offset": 1,
     "size": 26,
     "source": "joeis"

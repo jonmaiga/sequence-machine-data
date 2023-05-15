@@ -2,14 +2,12 @@
   "description": "Triangle read by rows: let f(n,m)=Product[k + m + 1, {k, 0, n}]; t0(n,m)=f(n, m)/(f(n - m, m)); then t(n,m)=t0(n,m)+t0(n,n-m).",
   "id": "A155720",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 39,
     "source": "oeis-entry"

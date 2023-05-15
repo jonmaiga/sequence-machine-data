@@ -10,14 +10,12 @@
     "A074049",
     "A089910"
   ],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "formulas",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:35",
     "offset": 1,
     "size": 66,
     "source": "oeis-bfile"

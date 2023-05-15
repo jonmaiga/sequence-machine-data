@@ -2,12 +2,10 @@
   "description": "The number of multinomial coefficients, based on a set of partitions of n into m positions, divisible by m entirely.",
   "id": "A200144",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 39,
     "source": "oeis-entry"

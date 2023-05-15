@@ -2,12 +2,10 @@
   "description": "Number of (m1,m2,n1,n2) in {0,1,...,n}^4 such that gcd(X^m1 + (1+X)^n1, X^m2 + (1+X)^n2) = 1 over GF(2).",
   "id": "A245488",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:01",
     "offset": 1,
     "size": 40,
     "source": "oeis-bfile"

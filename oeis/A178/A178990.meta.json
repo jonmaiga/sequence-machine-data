@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of nXk arrays of nonnegative integers with rows and columns in lexicographically increasing order and some row sum or column sum equalling each of the values 1..n+k",
   "id": "A178990",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 58,
     "source": "oeis-entry"

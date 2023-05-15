@@ -2,13 +2,11 @@
   "description": "Primes p such that 9014*p+1 is also prime.",
   "id": "A171409",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:07:25",
     "offset": 1,
     "size": 46,
     "source": "joeis"

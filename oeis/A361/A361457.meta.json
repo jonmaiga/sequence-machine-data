@@ -2,14 +2,12 @@
   "description": "Numbers k such that the first player has a winning strategy in the game described in the Comments.",
   "id": "A361457",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "more",
-    "new",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 29,
     "source": "oeis-entry"

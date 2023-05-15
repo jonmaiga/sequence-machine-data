@@ -2,12 +2,10 @@
   "description": "Number of primes of the form 4^n - 2^k - 1 with 0 < k < n.",
   "id": "A182413",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:06",
     "offset": 1,
     "size": 87,
     "source": "oeis-bfile"

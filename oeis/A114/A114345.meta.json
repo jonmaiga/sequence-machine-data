@@ -2,14 +2,12 @@
   "description": "Sequence of primes given by the powers of the golden mean function j[n]=n/Log[n].",
   "id": "A114345",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 25,
     "source": "oeis-entry"

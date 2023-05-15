@@ -2,13 +2,11 @@
   "description": "Numbers whose base-5 representation contains exactly three 1's and one 4.",
   "id": "A045260",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 11:01:55",
     "offset": 1,
     "size": 42,
     "source": "joeis"

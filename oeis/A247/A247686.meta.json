@@ -2,7 +2,6 @@
   "description": "Decimal expansion of Integral_{t=0..1} t^2*arctan(t) dt.",
   "id": "A247686",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:04",
     "offset": 0,
     "size": 103,
     "source": "oeis-bfile"

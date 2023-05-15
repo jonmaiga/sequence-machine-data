@@ -1,0 +1,22 @@
+{
+  "description": "The number of cubefull numbers (A036966) not exceeding 10^n.",
+  "id": "A362973",
+  "mentions": [
+    "A036966",
+    "A070428",
+    "A118896",
+    "A362974",
+    "A362975",
+    "A362976"
+  ],
+  "tags": [
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

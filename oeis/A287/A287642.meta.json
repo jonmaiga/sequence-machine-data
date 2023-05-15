@@ -2,7 +2,6 @@
   "description": "Positive integers k such that, for each prime p with k/2 <= p <= k - 2, k - p is prime.",
   "id": "A287642",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "fini",
     "full",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

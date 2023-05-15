@@ -2,12 +2,10 @@
   "description": "Number of permutations of floor(i*9/8), i=0..n-1, with all sums of two and three adjacent terms respectively unique.",
   "id": "A147899",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

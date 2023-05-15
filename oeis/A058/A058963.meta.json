@@ -2,13 +2,11 @@
   "description": "Modular form of Level 4 and weight 5/2.",
   "id": "A058963",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": -3,
     "size": 39,
     "source": "oeis-entry"

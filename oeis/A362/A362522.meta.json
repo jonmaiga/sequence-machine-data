@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n! * Sum_{k=0..floor(n/2)} (k+1)^(k-1) / (k! * (n-2*k)!).",
+  "id": "A362522",
+  "mentions": [
+    "A088957",
+    "A089461",
+    "A362347",
+    "A362523"
+  ],
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,12 +2,10 @@
   "description": "The finite sequence with the largest possible number of terms such that a(1) = a(2) = 1, for n >= 3, a(n) = prime p such that p = Sum_{i=1...k} a(n-i) for any k.",
   "id": "A175211",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 15,
     "source": "oeis-entry"

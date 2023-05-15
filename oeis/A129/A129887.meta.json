@@ -2,13 +2,11 @@
   "description": "Start with 98, then write down the product of its digits, then add 5; repeat.",
   "id": "A129887",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:05:25",
     "offset": 1,
     "size": 84,
     "source": "joeis"

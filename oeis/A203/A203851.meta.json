@@ -2,12 +2,10 @@
   "description": "E.g.f.: Sum_{n>=0} Product_{k=1..n} -log(1-x^k)/(1-x^k).",
   "id": "A203851",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:24",
     "offset": 0,
     "size": 21,
     "source": "oeis-bfile"

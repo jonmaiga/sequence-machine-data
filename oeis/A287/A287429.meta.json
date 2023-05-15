@@ -2,13 +2,11 @@
   "description": "Number of connected dominating sets in the n-Andrasfai graph.",
   "id": "A287429",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

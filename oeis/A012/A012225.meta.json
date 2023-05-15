@@ -2,12 +2,10 @@
   "description": "sinh(arctan(tanh(x)))=x-3/3!*x^3+41/5!*x^5-1243/7!*x^7+58001/9!*x^9...",
   "id": "A012225",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 14:21:32",
     "offset": 0,
     "size": 13,
     "source": "joeis"

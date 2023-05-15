@@ -2,14 +2,12 @@
   "description": "Number of ordered interval sequences in Schoenberg 12-tone rows that contain n unique intervals.",
   "id": "A215606",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

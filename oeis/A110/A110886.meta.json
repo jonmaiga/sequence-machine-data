@@ -2,13 +2,11 @@
   "description": "Number of signed weighted Euler trees with total weight n (associated to even switching classes of matrices of order 2n).",
   "id": "A110886",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:02",
     "offset": 0,
     "size": 24,
     "source": "oeis-bfile"

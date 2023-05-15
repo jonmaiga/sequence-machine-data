@@ -2,12 +2,10 @@
   "description": "Least k such that there are at least n primes between n and n*k.",
   "id": "A090972",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

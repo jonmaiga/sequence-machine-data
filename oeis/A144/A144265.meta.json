@@ -2,14 +2,12 @@
   "description": "Triangle read by rows: prime numbers along left edge (n, 0) and Fibonacci numbers along right edge (n, n), with (n, k) = (n - 1, k - 1) + (n - 1, k) for 0 < k < n when n > 1.",
   "id": "A144265",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 66,
     "source": "oeis-entry"

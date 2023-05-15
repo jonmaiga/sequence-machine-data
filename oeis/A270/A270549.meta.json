@@ -6,14 +6,12 @@
     "A160390",
     "A269993"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "easy",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:34",
     "offset": 1,
     "size": 10,
     "source": "oeis-bfile"

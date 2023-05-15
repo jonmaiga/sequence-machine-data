@@ -2,14 +2,12 @@
   "description": "n*a(n+1) = (2*n^2 + 3*n + 2)*a(n) - (n^2 - n - 2)*a(n-1) with n>1, a(0)=0, a(1)=1.",
   "id": "A259900",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:18",
     "offset": 0,
     "size": 20,
     "source": "oeis-bfile"

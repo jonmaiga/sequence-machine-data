@@ -2,13 +2,11 @@
   "description": "Prime numbers p such that p +- ((p-1)/4) are primes.",
   "id": "A137705",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:25",
     "offset": 1,
     "size": 37,
     "source": "oeis-bfile"

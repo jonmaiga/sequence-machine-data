@@ -3,16 +3,15 @@
   "id": "A097877",
   "mentions": [
     "A000108",
+    "A009766",
     "A065600"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:48",
     "offset": 0,
     "size": 58,
     "source": "oeis-bfile"

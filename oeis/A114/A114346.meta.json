@@ -2,13 +2,11 @@
   "description": "The integer difference between the surface area of the unit sphere in n-1 dimensions and the volume of the unit sphere in n+1 dimensions.",
   "id": "A114346",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 40,
     "source": "oeis-entry"

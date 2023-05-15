@@ -1,0 +1,27 @@
+{
+  "description": "Numbers k for which sqrt(k/2) divides k and the width at the diagonal of the symmetric representation of sigma(k) equals 1.",
+  "id": "A361905",
+  "mentions": [
+    "A001105",
+    "A004171",
+    "A071562",
+    "A235791",
+    "A237048",
+    "A237270",
+    "A237271",
+    "A237593",
+    "A250068",
+    "A319796",
+    "A320137"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

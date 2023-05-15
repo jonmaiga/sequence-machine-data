@@ -1,17 +1,15 @@
 {
-  "description": "a(n)= sum of entries of n-th Kostka matrix for the partitions of n.",
+  "description": "a(n) is the sum of entries of n-th Kostka matrix for the partitions of n.",
   "id": "A178718",
   "mentions": [
     "A104778"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
-    "size": 20,
+    "size": 28,
     "source": "oeis-entry"
   }
 }

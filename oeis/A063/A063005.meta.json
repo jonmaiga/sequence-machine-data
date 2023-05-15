@@ -1,5 +1,5 @@
 {
-  "description": "Difference between 2^n and the next smaller power of 3.",
+  "description": "Difference between 2^n and the next smaller or equal power of 3.",
   "id": "A063005",
   "mentions": [
     "A000079",
@@ -9,14 +9,12 @@
     "A063004",
     "A136409"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:15",
     "offset": 0,
     "size": 36,
     "source": "oeis-bfile"

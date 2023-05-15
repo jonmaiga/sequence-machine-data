@@ -2,7 +2,6 @@
   "description": "a(n) = smallest number of syllables necessary to communicate n by phone, in French.",
   "id": "A113120",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

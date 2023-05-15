@@ -6,7 +6,6 @@
     "A059056",
     "A059071"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "formulas",
     "nice",
@@ -14,7 +13,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:09",
     "offset": 0,
     "size": 42,
     "source": "oeis-bfile"

@@ -2,14 +2,12 @@
   "description": "Slowest increasing sequence where the product of the last digit of a(n) with the first digit of a(n+1) equals 6.",
   "id": "A101247",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 53,
     "source": "oeis-entry"

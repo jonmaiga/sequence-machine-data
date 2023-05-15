@@ -2,7 +2,6 @@
   "description": "Least number k such that k mod (2, 3, 4, ... , n+1) = (d_n, d_n-1, ..., d_1), where d_1 , d_2, ..., d_n are the digits of k, with MSD(k) = d_1 and LSD(k) = d_n. 0 if such a number does not exist.",
   "id": "A284815",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "base",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

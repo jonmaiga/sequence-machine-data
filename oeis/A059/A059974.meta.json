@@ -2,13 +2,11 @@
   "description": "a(n)=a(p)+a(q) where p and q are the two primes less than n and closest to n; with a(1)=1, a(2)=1, a(3) = 1.",
   "id": "A059974",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:11",
     "offset": 1,
     "size": 60,
     "source": "oeis-bfile"

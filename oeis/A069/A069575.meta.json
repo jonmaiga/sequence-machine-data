@@ -2,13 +2,11 @@
   "description": "Numbers n such that n contains the digit 0 in no base b with 2 < b < n.",
   "id": "A069575",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

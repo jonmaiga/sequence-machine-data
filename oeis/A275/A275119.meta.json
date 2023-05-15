@@ -2,12 +2,10 @@
   "description": "The even integers in the sequence appear in blocks and the successive sizes of these blocks are given by the sequence itself.",
   "id": "A275119",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:40",
     "offset": 1,
     "size": 93,
     "source": "oeis-bfile"

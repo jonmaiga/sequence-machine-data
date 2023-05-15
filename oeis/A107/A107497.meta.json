@@ -1,16 +1,18 @@
 {
-  "description": "Coefficients of a certain theta series.",
+  "description": "Theta series of quadratic form with Gram matrix [ 2, 1, 1, 1; 1, 20, 7, 7; 1, 7, 20, 7; 1, 7, 7, 46].",
   "id": "A107497",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:23",
+  "mentions": [
+    "A107498",
+    "A107505",
+    "A140686"
+  ],
   "tags": [
-    "more",
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
-    "size": 18,
-    "source": "oeis-entry"
+    "size": 78,
+    "source": "oeis-bfile"
   }
 }

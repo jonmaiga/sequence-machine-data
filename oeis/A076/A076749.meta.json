@@ -2,12 +2,10 @@
   "description": "Least number which is the sum of four nonnegative cubes (not necessarily distinct and including zero) in n ways.",
   "id": "A076749",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:28",
     "offset": 1,
     "size": 35,
     "source": "oeis-bfile"

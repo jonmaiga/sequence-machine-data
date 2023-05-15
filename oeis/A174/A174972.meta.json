@@ -2,13 +2,11 @@
   "description": "Number of surreal number forms produced by the n-th iteration of the induction rule.",
   "id": "A174972",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:58",
     "offset": 0,
     "size": 9,
     "source": "oeis-bfile"

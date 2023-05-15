@@ -2,12 +2,10 @@
   "description": "Number of benzenoids with 21 hexagons, C_(2h) symmetry and containing 2n carbon atoms.",
   "id": "A121964",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 30,
     "size": 13,
     "source": "oeis-entry"

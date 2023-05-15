@@ -2,12 +2,10 @@
   "description": "a(1)=1. For n >= 2, a(n) = 2*a(n-1) + (number of composites among first n-1 terms of the sequence).",
   "id": "A175104",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:58",
     "offset": 1,
     "size": 32,
     "source": "oeis-bfile"

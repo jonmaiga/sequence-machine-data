@@ -6,13 +6,11 @@
     "A052515",
     "A091346"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

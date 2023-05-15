@@ -2,12 +2,10 @@
   "description": "Greatest k < n such that 3^n - 3^k - 1 is prime, or 0 if no such prime exists.",
   "id": "A181515",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:04",
     "offset": 1,
     "size": 60,
     "source": "oeis-bfile"

@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonisomorphic unordered triples of permutations of an n-set.",
+  "id": "A362646",
+  "mentions": [
+    "A362644",
+    "A362645",
+    "A362650"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

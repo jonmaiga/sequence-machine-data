@@ -2,13 +2,11 @@
   "description": "Coefficient triangle sequence of characteristic polynomials of a Fermat like matrix:M(n)=Eulerian n-th matrix: F(n)=M(n).Transpose[M(n)]]",
   "id": "A168242",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "sign",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 32,
     "source": "oeis-entry"

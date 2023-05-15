@@ -2,13 +2,11 @@
   "description": "Number of dual atoms in lattice Lambda'_{2^n} of putative parameter sets for orthogonal arrays with 2^n runs.",
   "id": "A049083",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 0,
     "size": 10,
     "source": "oeis-entry"

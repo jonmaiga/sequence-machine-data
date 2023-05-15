@@ -2,12 +2,10 @@
   "description": "Det(M) where M is an n X n antisymmetric matrix with M(i,j) = n for i < j.",
   "id": "A176050",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 23,
     "source": "oeis-entry"

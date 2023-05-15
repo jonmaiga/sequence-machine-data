@@ -2,13 +2,11 @@
   "description": "Odd primes p such that h(p) sets a record for closeness to the nearest integer, where h(p) is the altitude of a triangle with base p and other two sides the next two primes after p.",
   "id": "A339789",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

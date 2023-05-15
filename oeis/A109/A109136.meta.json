@@ -2,12 +2,10 @@
   "description": "Even numbers that are not congruent to 1 mod 3 nor are squares nor are the sum of a prime and a square of a prime.",
   "id": "A109136",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

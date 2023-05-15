@@ -2,12 +2,10 @@
   "description": "Number of nX8 binary arrays with all 1s connected, a path of 1s from top row to lower right corner, and no 1 having more than two 1s adjacent",
   "id": "A163701",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

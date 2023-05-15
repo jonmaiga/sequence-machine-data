@@ -2,13 +2,11 @@
   "description": "Primes equal to the sum of two integers squares, integers whose sum form prime(n) congruent to 1 (mod 4).",
   "id": "A103766",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

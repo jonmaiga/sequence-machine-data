@@ -8,7 +8,6 @@
     "A323137",
     "A323390"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "base",
     "look",
@@ -16,7 +15,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:47",
     "offset": 3,
     "size": 71,
     "source": "oeis-bfile"

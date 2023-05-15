@@ -2,13 +2,11 @@
   "description": "Decimal expansion of atomic unit of force in N.",
   "id": "A254268",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": -7,
     "size": 6,
     "source": "oeis-entry"

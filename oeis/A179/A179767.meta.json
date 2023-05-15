@@ -2,14 +2,12 @@
   "description": "a(n) is the smallest prime of the form 4k + 3 such that the first n iterations of the map p -> 4p + 3 are prime with the next iteration being composite.",
   "id": "A179767",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 13,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Number of permutations of [n] with no carrier element, that is, having their exterior (longest pattern that is both a proper prefix and a proper suffix) contained in their interior (permutation obtained by deleting the first and the last entry) as a consecutive pattern.",
   "id": "A263866",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 2,
     "size": 9,
     "source": "oeis-entry"

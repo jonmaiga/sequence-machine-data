@@ -2,12 +2,10 @@
   "description": "a(n)=number of Gaussian integers z=a+bi satisfying n-1<|z|<=n, b>=0.",
   "id": "A036696",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:28:09",
     "offset": 0,
     "size": 55,
     "source": "joeis"

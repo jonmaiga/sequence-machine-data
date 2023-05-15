@@ -2,14 +2,12 @@
   "description": "Degrees of irreducible representations of Suzuki group Sz(8).",
   "id": "A214463",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

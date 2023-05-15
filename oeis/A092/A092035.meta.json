@@ -5,7 +5,6 @@
     "A061382",
     "A100074"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "cons",
     "easy",
@@ -13,7 +12,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:43",
     "offset": 1,
     "size": 100,
     "source": "oeis-bfile"

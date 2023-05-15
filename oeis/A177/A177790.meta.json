@@ -4,14 +4,12 @@
   "mentions": [
     "A003440"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn",
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:01",
     "offset": 0,
     "size": 30,
     "source": "oeis-bfile"

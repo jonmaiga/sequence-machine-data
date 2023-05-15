@@ -2,13 +2,11 @@
   "description": "Numbers n >= 0 such that n-1 and n+1 are both primes or both nonprimes, but excluding primes.",
   "id": "A171845",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:55",
     "offset": 1,
     "size": 63,
     "source": "oeis-bfile"

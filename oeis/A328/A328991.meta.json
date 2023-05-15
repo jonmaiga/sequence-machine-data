@@ -2,12 +2,10 @@
   "description": "a(n) = concatenation of a(n-1),2,a(n-2),2,a(n-1), with a(1)=1, a(2)=1221.",
   "id": "A328991",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 5,
     "source": "oeis-entry"

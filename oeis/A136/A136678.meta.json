@@ -2,14 +2,12 @@
   "description": "Triangle read by rows: n-th row (n>=0) gives coefficients of characteristic polynomial of n X n generalized Cartan matrix M defined in Comments.",
   "id": "A136678",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 66,
     "source": "oeis-entry"

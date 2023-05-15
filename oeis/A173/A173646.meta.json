@@ -2,13 +2,11 @@
   "description": "Fixed points of the operation x->(max_d(x)+min_d(x))/2, where max_d(x) iteratively replaces each digit d of x from left to right with the largest of the d digits to its right (itself included), and similarly for min_d.",
   "id": "A173646",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 58,
     "source": "oeis-entry"

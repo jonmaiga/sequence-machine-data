@@ -2,12 +2,10 @@
   "description": "First entry of the vector v(n), where v(0) is the 2 by 2 column vector [0,1], v(n)=(M(n-1)^(n-1))v(n-1) and M(k) is the 2 x 2 matrix [[0,1],[1,k]].",
   "id": "A105065",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 12,
     "source": "oeis-entry"

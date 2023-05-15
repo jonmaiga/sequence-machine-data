@@ -2,14 +2,12 @@
   "description": "Numbers having non-pandigital power of record size (excludes multiples of 10).",
   "id": "A217379",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "nonn",
     "unsolved"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 31,
     "source": "oeis-entry"

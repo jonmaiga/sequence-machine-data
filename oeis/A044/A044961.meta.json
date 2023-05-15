@@ -2,13 +2,11 @@
   "description": "Numbers with no two equally numerous base 12 digits.",
   "id": "A044961",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:22:35",
     "offset": 1,
     "size": 52,
     "source": "joeis"

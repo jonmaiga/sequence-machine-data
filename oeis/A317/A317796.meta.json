@@ -10,14 +10,12 @@
     "A243262",
     "A317747"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:37",
     "offset": 0,
     "size": 13,
     "source": "oeis-bfile"

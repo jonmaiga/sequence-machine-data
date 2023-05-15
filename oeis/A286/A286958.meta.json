@@ -2,13 +2,11 @@
   "description": "Triangle read by rows: T(n,k) is the number of graphs with n vertices with connected domination number k.",
   "id": "A286958",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 38,
     "source": "oeis-entry"

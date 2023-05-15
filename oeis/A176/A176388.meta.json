@@ -2,7 +2,6 @@
   "description": "A symmetrical triangle:t(n,m)=Floor[(n!/Floor[n/2]!^2)*(Exp[ -(m - n/2)^2/( 2*((n + 1)/4)^2)] - Exp[ -(n/2)^2/(2*((n + 1)/4)^2)]) + 1]",
   "id": "A176388",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 66,
     "source": "oeis-entry"

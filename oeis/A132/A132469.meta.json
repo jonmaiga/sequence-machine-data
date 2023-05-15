@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (2^(5n)-1)/31.",
+  "description": "a(n) = (2^(5*n) - 1)/31.",
   "id": "A132469",
   "mentions": [
     "A000225",
@@ -30,16 +30,14 @@
     "A218736",
     "A218753"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:20",
     "offset": 0,
-    "size": 17,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

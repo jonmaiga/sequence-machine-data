@@ -2,12 +2,10 @@
   "description": "The first member of a twin prime pair whose sum equals the sums of two consecutive smaller pairs of twin primes.",
   "id": "A225943",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:43",
     "offset": 1,
     "size": 41,
     "source": "oeis-bfile"

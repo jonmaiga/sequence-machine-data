@@ -2,13 +2,11 @@
   "description": "Number of partitions of n into parts that are congruent to 1, 5 or 6 mod 8.",
   "id": "A108932",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:38:55",
     "offset": 0,
     "size": 61,
     "source": "joeis"

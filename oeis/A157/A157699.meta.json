@@ -2,7 +2,6 @@
   "description": "Decimal expansion of 2*log(1/2 + 1/sqrt(2)).",
   "id": "A157699",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "cons",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:39",
     "offset": 0,
     "size": 105,
     "source": "oeis-bfile"

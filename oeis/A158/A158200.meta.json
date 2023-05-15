@@ -2,7 +2,6 @@
   "description": "A coefficients of characteristic polynomials of binomial modulo two matrices times their doubled transposes: t(n,m,d)=If[ m <= n, Mod[Binomial[n, m], 2], 0]; M(d)=*Transpose[t(n,m,d)].t(n,m,d).Transpose[t(n,m,d)].",
   "id": "A158200",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 60,
     "source": "oeis-entry"

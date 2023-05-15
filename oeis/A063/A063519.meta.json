@@ -1,5 +1,5 @@
 {
-  "description": "Least simultaneous solutions of Phi[x+d]=Phi[x]+d and Sigma[x+d]=Sigma[x]+d, where d=2n.",
+  "description": "Least composite k such that phi(k+12n) = phi(k)+12n and sigma(k+12n) = sigma(k) + 12n where phi is the Euler totient function and sigma is the sum of divisors function.",
   "id": "A063519",
   "mentions": [
     "A000010",
@@ -8,15 +8,14 @@
     "A054905",
     "A055458"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 51,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

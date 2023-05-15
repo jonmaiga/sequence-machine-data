@@ -1,0 +1,24 @@
+{
+  "description": "Square array T(n,k), n >= 0, k >= 0, read by antidiagonals downwards, where T(n,k) = n! * Sum_{j=0..floor(n/3)} (-k/6)^j * binomial(n-2*j,j)/(n-2*j)!.",
+  "id": "A362302",
+  "mentions": [
+    "A000012",
+    "A351929",
+    "A362043",
+    "A362277",
+    "A362303",
+    "A362304",
+    "A362305",
+    "A362309"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

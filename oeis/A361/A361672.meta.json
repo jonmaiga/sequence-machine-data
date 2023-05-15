@@ -1,0 +1,21 @@
+{
+  "description": "a(1) = a(2) = 1; for n > 2, a(n) = a(n-2) + a(n-1) + n if a(n-1) and n are coprime, otherwise a(n) = a(n-1)/gcd(a(n-1), n).",
+  "id": "A361672",
+  "mentions": [
+    "A091508",
+    "A133058",
+    "A133579",
+    "A133580",
+    "A255051",
+    "A255140"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

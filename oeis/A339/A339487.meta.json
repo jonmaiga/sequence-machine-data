@@ -2,13 +2,11 @@
   "description": "a(n) is the area of the n-gon with vertices (3^i, 5^i) for 0 <= i <= n-1.",
   "id": "A339487",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:11",
     "offset": 3,
     "size": 20,
     "source": "oeis-bfile"

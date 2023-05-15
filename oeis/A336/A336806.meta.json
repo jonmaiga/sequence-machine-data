@@ -2,12 +2,10 @@
   "description": "a(n) = prime(k) for the first k such that Product_{j=k..k+n-1} prime(j) mod Sum_{j=k..k+n-1} prime(j) is prime.",
   "id": "A336806",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:08",
     "offset": 2,
     "size": 80,
     "source": "oeis-bfile"

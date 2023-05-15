@@ -1,20 +1,17 @@
 {
-  "description": "List of numbers that are both palindromes (A002113) and members of A072389.",
+  "description": "Numbers that are both palindromes (A002113) and terms of A072389.",
   "id": "A346919",
   "mentions": [
-    "A000217",
     "A002113",
     "A072389",
     "A085780"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 32,
     "source": "oeis-entry"

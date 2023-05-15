@@ -2,14 +2,12 @@
   "description": "Primes with at least two digits such that swapping the second and the penultimate digit yields a prime.",
   "id": "A111337",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:02",
     "offset": 1,
     "size": 51,
     "source": "oeis-bfile"

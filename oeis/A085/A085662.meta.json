@@ -2,13 +2,11 @@
   "description": "Decimal expansion of sin(sin(1)).",
   "id": "A085662",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:52:43",
     "offset": 0,
     "size": 99,
     "source": "joeis"

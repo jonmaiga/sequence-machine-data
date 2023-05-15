@@ -2,12 +2,10 @@
   "description": "Number of n-dimensional determinant 4 lattices.",
   "id": "A005140",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 0,
     "size": 13,
     "source": "oeis-entry"

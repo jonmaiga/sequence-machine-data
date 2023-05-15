@@ -2,12 +2,10 @@
   "description": "Lowest number having a particular shape of factor decomposition binary tree.",
   "id": "A125508",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:13",
     "offset": 1,
     "size": 51,
     "source": "oeis-bfile"

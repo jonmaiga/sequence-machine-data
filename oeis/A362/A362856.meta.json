@@ -1,0 +1,23 @@
+{
+  "description": "Square array T(n,k), n >= 0, k >= 0, read by antidiagonals downwards, where T(n,k) = Sum_{j=0..n} (-k)^(n-j) * j^j * binomial(n,j).",
+  "id": "A362856",
+  "mentions": [
+    "A000312",
+    "A069856",
+    "A290158",
+    "A362019",
+    "A362857",
+    "A362858"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

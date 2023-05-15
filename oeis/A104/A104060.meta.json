@@ -2,12 +2,10 @@
   "description": "Least k such that k*(k+1)*2^n-1 is prime.",
   "id": "A104060",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 86,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Numbers n such that n is the largest prime factor of 1 + prime(n).",
   "id": "A101445",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

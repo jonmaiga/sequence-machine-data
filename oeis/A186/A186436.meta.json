@@ -2,14 +2,12 @@
   "description": "Smallest number that equals n times its last digit, or 0 if no such number exists.",
   "id": "A186436",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 72,
     "source": "oeis-entry"

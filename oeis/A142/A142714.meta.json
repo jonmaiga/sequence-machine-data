@@ -2,14 +2,12 @@
   "description": "A determinant sequence: M={{a(-1 + n), a(-2 + n)}, {a(-2 + n), a(-3 + n)}}; a(n)=Det[M].",
   "id": "A142714",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

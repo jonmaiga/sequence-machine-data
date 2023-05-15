@@ -2,13 +2,11 @@
   "description": "The number of permutations of length n that can be sorted by 4 pop stacks in parallel.",
   "id": "A164872",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 09:27:12",
     "offset": 1,
     "size": 21,
     "source": "joeis"

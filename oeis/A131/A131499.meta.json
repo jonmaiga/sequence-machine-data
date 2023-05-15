@@ -2,12 +2,10 @@
   "description": "Primes p such that nextprime(p)=p+4 and previousprime(p)",
   "id": "A131499",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:19",
     "offset": 1,
     "size": 47,
     "source": "oeis-bfile"

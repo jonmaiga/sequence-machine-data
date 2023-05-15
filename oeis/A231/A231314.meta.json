@@ -1,15 +1,13 @@
 {
-  "description": "Number of (n+1)X(5+1) 0..2 arrays with no element equal to a strict majority of its horizontal, vertical, diagonal and diagonal neighbors, with values 0..2 introduced in row major order",
+  "description": "Number of (n+1) X (5+1) 0..2 arrays with no element equal to a strict majority of its horizontal, vertical, diagonal and diagonal neighbors, with values 0..2 introduced in row major order.",
   "id": "A231314",
   "mentions": [
     "A231315"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:49",
     "offset": 1,
     "size": 10,
     "source": "oeis-bfile"

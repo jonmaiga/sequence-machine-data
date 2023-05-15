@@ -2,13 +2,11 @@
   "description": "Chromatic invariant of the n-folded cube graph.",
   "id": "A295172",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 2,
     "size": 4,
     "source": "oeis-entry"

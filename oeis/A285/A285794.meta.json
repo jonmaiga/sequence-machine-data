@@ -2,13 +2,11 @@
   "description": "a(1)=1, a(2)=2, a(3)=3, a(n) = 3*a(n-3)+2*a(n-2)+a(n-1).",
   "id": "A285794",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:57",
     "offset": 1,
     "size": 31,
     "source": "oeis-bfile"

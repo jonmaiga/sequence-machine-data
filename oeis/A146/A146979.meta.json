@@ -2,14 +2,12 @@
   "description": "Number of Pythagorean triples (a,b,c), a^2+b^2=c^2, with a,b,c all n-digit numbers, a",
   "id": "A146979",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "base",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "cosh(sec(x)*arctanh(x))=1+1/2!*x^2+21/4!*x^4+765/6!*x^6+46473/8!*x^8...",
   "id": "A012850",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 20:11:29",
     "offset": 0,
     "size": 14,
     "source": "joeis"

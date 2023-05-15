@@ -4,16 +4,16 @@
   "mentions": [
     "A000984",
     "A157003",
-    "A157005"
+    "A157005",
+    "A360219",
+    "A360266"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:39",
     "offset": 0,
     "size": 25,
     "source": "oeis-bfile"

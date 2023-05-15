@@ -2,13 +2,11 @@
   "description": "Related to the diagonal of 1/((1 - x - y - u - z)*(1 - u - z - u z)).",
   "id": "A268547",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 0,
     "size": 7,
     "source": "oeis-entry"

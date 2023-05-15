@@ -2,7 +2,6 @@
   "description": "Triangular array read by rows, from polynomial recursion for every other term of Chebyshev orthogonal polynomials of the second kind: U(x,n)=Sin((n+1)*ArcSin(x))/Sin(ArcSin(x)) As q(x,n)=-2*(-1+2*x^2)*q(x,n-1)-q(x,n-1).",
   "id": "A137335",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 72,
     "source": "oeis-entry"

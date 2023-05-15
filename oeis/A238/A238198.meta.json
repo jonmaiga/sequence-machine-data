@@ -7,14 +7,11 @@
     "A238197",
     "A238199"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-03-14 10:44:27",
     "offset": 2,
     "size": 36,
     "source": "oeis-bfile"

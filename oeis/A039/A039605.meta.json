@@ -2,14 +2,12 @@
   "description": "Numbers whose base-12 representation has the same nonzero number of 1's and 3's.",
   "id": "A039605",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:50",
     "offset": 1,
     "size": 51,
     "source": "oeis-bfile"

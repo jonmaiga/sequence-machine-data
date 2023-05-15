@@ -8,7 +8,6 @@
     "A243613",
     "A243614"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "easy",
     "frac",
@@ -16,7 +15,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:00",
     "offset": 1,
     "size": 72,
     "source": "oeis-bfile"

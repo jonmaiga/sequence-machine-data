@@ -2,12 +2,10 @@
   "description": "Number of partitions of n into squares where every part appears at least 4 times",
   "id": "A161092",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-11-11 15:41:47",
     "offset": 1,
     "size": 88,
     "source": "joeis"

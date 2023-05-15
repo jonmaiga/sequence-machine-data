@@ -2,14 +2,12 @@
   "description": "Expansion of (2 * eta(q^2)^24 - eta(q)^16 * eta(q^4)^8)^3 / (eta(q)^4 * eta(q^2) * eta(q^4)^6)^4 in powers of q.",
   "id": "A226086",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "mult",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:43",
     "offset": 1,
     "size": 28,
     "source": "oeis-bfile"

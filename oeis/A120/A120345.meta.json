@@ -2,14 +2,12 @@
   "description": "Numbers n such that 2357*n + 1 is prime.",
   "id": "A120345",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 13:32:33",
     "offset": 1,
     "size": 53,
     "source": "joeis"

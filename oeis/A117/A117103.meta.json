@@ -2,12 +2,10 @@
   "description": "a(n) is the least odd composite number m such that nextprime(p*m) > p*nextprime(m) where p is the n-th prime.",
   "id": "A117103",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:07",
     "offset": 1,
     "size": 31,
     "source": "oeis-bfile"

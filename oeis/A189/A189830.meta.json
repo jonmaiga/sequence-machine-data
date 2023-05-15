@@ -2,13 +2,11 @@
   "description": "Pairs of numbers i,j ordered by increasing i, such that 2 <= j < i, gcd(i,j)=1 and gcd(Phi_j(i), Phi_i(j))=2*i*j+1, where Phi_k(t) is the k-th cyclotomic polynomial.",
   "id": "A189830",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "a(n) = the smallest integer > n that has yet to occur in the sequence, and that is not coprime to n.",
   "id": "A162600",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 2,
     "size": 70,
     "source": "oeis-entry"

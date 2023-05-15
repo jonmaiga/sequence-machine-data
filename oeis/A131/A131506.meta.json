@@ -2,12 +2,10 @@
   "description": "2n+1 appears 2n-1 times.",
   "id": "A131506",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 75,
     "source": "oeis-entry"

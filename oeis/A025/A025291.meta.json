@@ -2,12 +2,10 @@
   "description": "Numbers that are the sum of 2 nonzero squares in exactly 8 ways.",
   "id": "A025291",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:27:35",
     "offset": 1,
     "size": 34,
     "source": "joeis"

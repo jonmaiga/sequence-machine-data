@@ -2,7 +2,6 @@
   "description": "Decimal expansion of the moment of order 1 at Pi/3 of Ls_4, where Ls_4 is a generalized log-sine integral.",
   "id": "A240947",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "cons",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

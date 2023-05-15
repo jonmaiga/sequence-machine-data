@@ -4,7 +4,6 @@
   "mentions": [
     "A053632"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "look",
@@ -12,7 +11,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:30",
     "offset": 0,
     "size": 105,
     "source": "oeis-bfile"

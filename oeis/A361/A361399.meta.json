@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the least k such that the binary expansion of n is a self-merge of that of k.",
+  "description": "a(n) is the least k such that the binary expansion of n is a self-infiltration of that of k.",
   "id": "A361399",
   "mentions": [
     "A020330",
@@ -7,15 +7,12 @@
     "A361398",
     "A361401"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "base",
     "formulas",
-    "new",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:44:32",
     "offset": 0,
     "size": 78,
     "source": "oeis-bfile"

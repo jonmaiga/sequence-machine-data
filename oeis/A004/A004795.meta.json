@@ -2,12 +2,10 @@
   "description": "Least positive unitary linear combination of distinct numbers in row n of Pascal's triangle; i.e., least positive sum of form d(0)C(n-1,0) + d(1)C(n-1,1) + ...+ d(m)C(n-1,m), d(i)=+-1, m = floor((n+1)/2).",
   "id": "A004795",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 13:35:55",
     "offset": 1,
     "size": 43,
     "source": "joeis"

@@ -2,14 +2,12 @@
   "description": "Sequence giving surface area of star graph S(8,3).",
   "id": "A151822",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 6,
     "source": "oeis-entry"

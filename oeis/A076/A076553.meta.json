@@ -2,13 +2,11 @@
   "description": "Decimal expansion of the solution of agm(x,2) = 1.",
   "id": "A076553",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:29",
     "offset": 0,
     "size": 105,
     "source": "joeis"

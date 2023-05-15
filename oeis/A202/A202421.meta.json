@@ -2,13 +2,11 @@
   "description": "T(n,k) = Number of (n+2) X (k+2) binary arrays with no more than one of any consecutive three bits set in any row or column.",
   "id": "A202421",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:22",
     "offset": 1,
     "size": 37,
     "source": "oeis-bfile"

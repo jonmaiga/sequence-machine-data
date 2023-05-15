@@ -2,14 +2,12 @@
   "description": "a(n) is the smallest positive integer that when expressed in bases 2 to n, but read in base n, is always prime.",
   "id": "A348226",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 2,
     "size": 10,
     "source": "oeis-entry"

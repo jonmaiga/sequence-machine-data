@@ -2,12 +2,10 @@
   "description": "a(n) is the smallest number of the form k*a(n-1)+a(n-2) for k>0 that is relatively prime to n, with a(0) = 0 and a(1) = 1.",
   "id": "A206241",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 0,
     "size": 39,
     "source": "oeis-entry"

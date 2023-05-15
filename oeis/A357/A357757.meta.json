@@ -2,13 +2,11 @@
   "description": "We draw n non-crossing straight line segments inside an n X n square between 2*n grid points on its perimeter, allowing no more similar connections between the remaining perimeter grid points. a(n) is the count of distinct possibilities for each n without duplicates by rotation or reflection.",
   "id": "A357757",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

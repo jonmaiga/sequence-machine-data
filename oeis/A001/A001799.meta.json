@@ -2,12 +2,10 @@
   "description": "Coefficients of Legendre polynomials.",
   "id": "A001799",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 21:26:53",
     "offset": 2,
     "size": 17,
     "source": "joeis"

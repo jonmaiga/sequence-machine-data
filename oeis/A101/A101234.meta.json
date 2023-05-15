@@ -1,16 +1,15 @@
 {
-  "description": "Numbers n such that 7^n+5^n-1 is prime.",
+  "description": "Numbers k such that 7^k + 5^k - 1 is prime.",
   "id": "A101234",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
+    "changed",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
-    "size": 14,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

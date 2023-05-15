@@ -2,14 +2,12 @@
   "description": "Maximum size of a set whose integrity can be checked with n weighings.",
   "id": "A280432",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

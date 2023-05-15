@@ -2,13 +2,11 @@
   "description": "Number of words of length n on alphabet {1,2,...,n} with no adjacent 1's.",
   "id": "A190526",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:14",
     "offset": 0,
     "size": 20,
     "source": "oeis-bfile"

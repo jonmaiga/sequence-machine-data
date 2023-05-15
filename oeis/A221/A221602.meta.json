@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of nXk arrays of occupancy after each element moves to some king-move neighbor, without move-in move-out left turns",
   "id": "A221602",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 39,
     "source": "oeis-entry"

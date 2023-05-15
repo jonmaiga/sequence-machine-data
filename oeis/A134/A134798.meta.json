@@ -2,14 +2,12 @@
   "description": "Concatenation of next n odd isolated primes.",
   "id": "A134798",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-28 11:08:27",
     "offset": 1,
     "size": 10,
     "source": "joeis"

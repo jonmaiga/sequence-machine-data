@@ -2,13 +2,11 @@
   "description": "Numbers such that the sum of the factorials of the digits of the fifth power is a square.",
   "id": "A126078",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:14",
     "offset": 1,
     "size": 37,
     "source": "oeis-bfile"

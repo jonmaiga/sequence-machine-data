@@ -2,13 +2,11 @@
   "description": "Smallest integer N such that all numbers from 1 to n (n being N's rank in the sequence) can be built by the sum of contiguous digits of N.",
   "id": "A296447",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:16",
     "offset": 1,
     "size": 36,
     "source": "oeis-bfile"

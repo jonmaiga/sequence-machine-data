@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of (n+2)X(k+2) 0..3 arrays with every 3X3 subblock row, column, diagonal and antidiagonal sum less than 6",
   "id": "A252121",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:09",
     "offset": 1,
     "size": 18,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "The number of nonisomorphic graphs on n vertices whose chromatic symmetric function in the p basis has a nonzero coefficient for each possible term.",
   "id": "A277686",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

@@ -6,14 +6,12 @@
     "A226080",
     "A264800"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "easy",
     "sign",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:24",
     "offset": 0,
     "size": 61,
     "source": "oeis-bfile"

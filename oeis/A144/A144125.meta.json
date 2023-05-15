@@ -2,13 +2,11 @@
   "description": "Primes of the form P_4(n) where P_4(n) is the Legendre polynomial of order 4 at n.",
   "id": "A144125",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 21,
     "source": "oeis-entry"

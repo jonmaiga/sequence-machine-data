@@ -2,13 +2,11 @@
   "description": "The order of the semigroup of orientation-preserving or reserving partial transformations of n elements",
   "id": "A289717",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 0,
     "size": 24,
     "source": "oeis-entry"

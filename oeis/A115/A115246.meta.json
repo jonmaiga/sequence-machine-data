@@ -2,13 +2,11 @@
   "description": "Number of different ways to select n elements from three sets of n elements such that there is at least one element from each set.",
   "id": "A115246",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:05",
     "offset": 1,
     "size": 22,
     "source": "oeis-bfile"

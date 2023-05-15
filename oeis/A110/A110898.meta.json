@@ -2,7 +2,6 @@
   "description": "Let fw[n_] := Mod[n, 4], fb[n_] := Mod[n, 3]; a(n) = a(n-a(n-1))+1+fw[n-a(n-2)]-fb[n-a(n-1)].",
   "id": "A110898",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "less",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 84,
     "source": "oeis-entry"

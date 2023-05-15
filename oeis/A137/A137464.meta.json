@@ -2,7 +2,6 @@
   "description": "Concatenation of n and a list of the divisors of n.",
   "id": "A137464",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 29,
     "source": "oeis-entry"

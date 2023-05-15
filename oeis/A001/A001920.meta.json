@@ -2,13 +2,11 @@
   "description": "Expansion of 1/(1+759*x^2+2576*x^3+759*x^4+x^6).",
   "id": "A001920",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "easy",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:03",
     "offset": 0,
     "size": 16,
     "source": "oeis-bfile"

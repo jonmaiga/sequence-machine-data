@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows, T(n, k) = RisingFactorial(n - k, k) * FallingFactorial(n, k).",
+  "id": "A362588",
+  "mentions": [
+    "A002378",
+    "A010790",
+    "A228229"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

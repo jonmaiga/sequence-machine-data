@@ -2,14 +2,12 @@
   "description": "Numbers n such that (n!-k!)/(n-k) is prime for some k.",
   "id": "A242915",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

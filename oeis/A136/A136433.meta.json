@@ -2,13 +2,11 @@
   "description": "a(n+2)=a(n+1)*(n mod 3 + 1) + (n mod 2 + 1), a(1)=11.",
   "id": "A136433",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 20:11:15",
     "offset": 1,
     "size": 32,
     "source": "joeis"

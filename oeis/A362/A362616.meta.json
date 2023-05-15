@@ -1,0 +1,40 @@
+{
+  "description": "Numbers in whose prime factorization the greatest factor is the unique mode.",
+  "id": "A362616",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A001222",
+    "A002865",
+    "A053263",
+    "A056239",
+    "A112798",
+    "A327473",
+    "A327476",
+    "A329131",
+    "A356862",
+    "A358137",
+    "A359178",
+    "A360687",
+    "A362605",
+    "A362606",
+    "A362607",
+    "A362608",
+    "A362609",
+    "A362610",
+    "A362611",
+    "A362612",
+    "A362613",
+    "A362614",
+    "A362615"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

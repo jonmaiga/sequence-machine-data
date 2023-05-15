@@ -2,12 +2,10 @@
   "description": "Decimal representation of the n-th iteration of the Conway’s game of life starting with four adjacent rows of lines turned on to positive and negative infinity.",
   "id": "A270072",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 0,
     "size": 29,
     "source": "oeis-entry"

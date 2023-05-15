@@ -2,13 +2,11 @@
   "description": "Numbers whose base-10 representation has 2 more 0's than 9's.",
   "id": "A031498",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:51:19",
     "offset": 1,
     "size": 38,
     "source": "joeis"

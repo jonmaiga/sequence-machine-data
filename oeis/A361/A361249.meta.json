@@ -1,0 +1,17 @@
+{
+  "description": "Run length transform of A362415.",
+  "id": "A361249",
+  "mentions": [
+    "A028242",
+    "A362415"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

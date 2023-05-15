@@ -2,12 +2,10 @@
   "description": "Primes p such that p+q+1 is the square of a prime, where q is the next prime after p.",
   "id": "A225809",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:43",
     "offset": 1,
     "size": 38,
     "source": "oeis-bfile"

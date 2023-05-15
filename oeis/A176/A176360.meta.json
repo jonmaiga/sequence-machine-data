@@ -2,14 +2,12 @@
   "description": "a(n) = quadrant of unit circle corresponding to n radians.",
   "id": "A176360",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 1; a(n+1) = a(n) + product of nonzero digits of a(n).",
+  "description": "a(1) = 1; thereafter a(n+1) = a(n) + product of nonzero digits of a(n).",
   "id": "A063108",
   "mentions": [
     "A051801",
@@ -14,7 +14,6 @@
     "A232487",
     "A232488"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "easy",
@@ -24,7 +23,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:15",
     "offset": 1,
     "size": 51,
     "source": "oeis-bfile"

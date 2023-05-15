@@ -2,7 +2,6 @@
   "description": "Sum of all digits in all even numbers from 0 to 222...2 (with n 2's).",
   "id": "A089304",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:41",
     "offset": 0,
     "size": 20,
     "source": "oeis-bfile"

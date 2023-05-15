@@ -2,13 +2,11 @@
   "description": "Numbers n with property that sum of digits is prime and number of prime digits is prime.",
   "id": "A093805",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:44",
     "offset": 1,
     "size": 52,
     "source": "oeis-bfile"

@@ -7,13 +7,11 @@
     "A105047",
     "A260485"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:19",
     "offset": 1,
     "size": 66,
     "source": "oeis-bfile"

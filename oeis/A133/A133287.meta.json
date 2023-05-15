@@ -2,7 +2,6 @@
   "description": "Decimal numbers that when converted to hexadecimal produce a number that uses the same digits as the original number.",
   "id": "A133287",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "easy",
@@ -11,7 +10,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 34,
     "source": "oeis-entry"

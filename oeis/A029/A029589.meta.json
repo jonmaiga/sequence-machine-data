@@ -2,12 +2,10 @@
   "description": "Expansion of (1+sin(x)+sin(x)^2)/(1-sin(x)+sin(x)^2).",
   "id": "A029589",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 10:15:08",
     "offset": 0,
     "size": 20,
     "source": "joeis"

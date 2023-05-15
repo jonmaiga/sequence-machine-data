@@ -2,14 +2,12 @@
   "description": "The consecutive squares of numbers multiplied by their next consecutive integer.",
   "id": "A193608",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:16",
     "offset": 1,
     "size": 38,
     "source": "oeis-bfile"

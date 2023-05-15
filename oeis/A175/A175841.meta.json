@@ -2,13 +2,11 @@
   "description": "Fast \"exotic addition\" a o b = [ a[1]+b[1], a[1]*b[2]+a[2]*b[1] ].",
   "id": "A175841",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 43,
     "source": "oeis-entry"

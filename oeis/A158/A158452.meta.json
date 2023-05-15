@@ -2,7 +2,6 @@
   "description": "A triangle sequence of permutation Hadamard {1,-1) matrix polynomials: M(d)=Table[If[ m == n, d!/n!, 0], {n, d}, {m, d}]; m(n)=M(2^n)*Hadamard(2^n)",
   "id": "A158452",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 46,
     "source": "oeis-entry"

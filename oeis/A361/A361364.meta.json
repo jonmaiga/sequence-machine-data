@@ -10,14 +10,12 @@
     "A359801",
     "A361397"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "new",
+    "formulas",
     "nonn",
     "walk"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 0,
     "size": 16,
     "source": "oeis-entry"

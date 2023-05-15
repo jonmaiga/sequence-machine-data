@@ -2,13 +2,11 @@
   "description": "Molien series for complete weight enumerators of trace-additive Hermitian self-dual codes over the Galois ring GR(4,2) that contain the all-ones vector.",
   "id": "A100025",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:25:09",
     "offset": 0,
     "size": 30,
     "source": "joeis"

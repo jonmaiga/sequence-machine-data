@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of nXk 0..5 arrays with no element x(i,j) adjacent to value 5-x(i,j) horizontally or vertically, top left element zero, and 1 appearing before 2 3 and 4, and 2 appearing before 3 in row major order",
   "id": "A233113",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:51",
     "offset": 1,
     "size": 34,
     "source": "oeis-bfile"

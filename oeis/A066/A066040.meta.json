@@ -2,14 +2,12 @@
   "description": "Triangle of covering numbers T(n,k) = C(n,k,k-3), n >= 4, 4 <= k <= n.",
   "id": "A066040",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "more",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 4,
     "size": 36,
     "source": "oeis-entry"

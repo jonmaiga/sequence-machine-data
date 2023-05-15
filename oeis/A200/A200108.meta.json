@@ -5,13 +5,11 @@
     "A199949",
     "A200107"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:21",
     "offset": 0,
     "size": 99,
     "source": "oeis-bfile"

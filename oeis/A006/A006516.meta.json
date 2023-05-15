@@ -40,7 +40,6 @@
     "A233327",
     "A249796"
   ],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "easy",
     "formulas",
@@ -49,7 +48,6 @@
     "unsolved"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:10",
     "offset": 0,
     "size": 24,
     "source": "oeis-bfile"

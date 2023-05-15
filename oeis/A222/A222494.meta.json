@@ -2,14 +2,12 @@
   "description": "Decimal expansion of the length of the dipole curve.",
   "id": "A222494",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:40",
     "offset": 1,
     "size": 100,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Sums of Pythagorean sextuples in increasing order: The sums of sets of six natural numbers which correspond to the lengths of the edges of a tetrahedron whose four faces are all different Pythagorean triangles.",
   "id": "A248548",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:05",
     "offset": 1,
     "size": 45,
     "source": "oeis-bfile"

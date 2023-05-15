@@ -2,12 +2,10 @@
   "description": "sin(cosh(x)*arcsin(x))=x+3/3!*x^3-15/5!*x^5-1029/7!*x^7-46239/9!*x^9...",
   "id": "A012766",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-02 23:53:24",
     "offset": 0,
     "size": 15,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "Start with the empty list; for k = 1..oo, append to the list the smallest prime of the form k*m^3+m+1 with m>0 if such a prime exists, otherwise skip this value of k.",
   "id": "A114365",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

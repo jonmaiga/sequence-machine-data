@@ -6,7 +6,6 @@
     "A090051",
     "A209433"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "fini",
     "hard",
@@ -14,7 +13,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 0,
     "size": 12,
     "source": "oeis-entry"

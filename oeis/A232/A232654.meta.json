@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of (n+2)X(k+2) 0..1 arrays x(i,j) with every row sum{j*x(i,j), j=1..k+2} equal, and every column sum{i*x(i,j), i=1..n+2} equal, with upper left element zero",
   "id": "A232654",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:50",
     "offset": 1,
     "size": 83,
     "source": "oeis-bfile"

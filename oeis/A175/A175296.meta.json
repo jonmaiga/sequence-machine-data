@@ -2,14 +2,12 @@
   "description": "Decimal expansion of the absolute value of the integral of sin(Pi*x)*log(x)/x^2 from x=1 to infinity.",
   "id": "A175296",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "cons",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

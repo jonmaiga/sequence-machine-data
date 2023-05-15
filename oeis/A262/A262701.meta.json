@@ -2,13 +2,11 @@
   "description": "Decimal expansion of lowest Dirichlet eigenvalue of the Laplacian within a certain L-shaped region.",
   "id": "A262701",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:22",
     "offset": 1,
     "size": 105,
     "source": "oeis-bfile"

@@ -8,16 +8,15 @@
     "A358064",
     "A358081"
   ],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 0,
     "size": 21,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

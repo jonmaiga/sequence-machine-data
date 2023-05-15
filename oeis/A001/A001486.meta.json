@@ -4,12 +4,10 @@
   "mentions": [
     "A001482"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:03",
     "offset": 8,
     "size": 43,
     "source": "oeis-bfile"

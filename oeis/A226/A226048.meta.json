@@ -14,14 +14,13 @@
     "A228582",
     "A228583"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
+    "changed",
     "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:43",
     "offset": 0,
     "size": 67,
     "source": "oeis-bfile"

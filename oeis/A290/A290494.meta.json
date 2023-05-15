@@ -2,13 +2,11 @@
   "description": "Number of irredundant sets in the n-wheel graph.",
   "id": "A290494",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 08:51:30",
     "offset": 4,
     "size": 35,
     "source": "joeis"

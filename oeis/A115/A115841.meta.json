@@ -2,14 +2,12 @@
   "description": "Self-describing sequence. The n-th integer of the sequence indicates how many integers of the sequence are strictly < 7n.",
   "id": "A115841",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

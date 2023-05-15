@@ -15,14 +15,12 @@
     "A340530",
     "A340531"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 97,
     "source": "oeis-entry"

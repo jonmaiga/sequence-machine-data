@@ -2,14 +2,12 @@
   "description": "Triangle of coefficients of the Ln(x) polynomials that give the distribution of the number of odd inversions on the symmetric group.",
   "id": "A289511",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "more",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 58,
     "source": "oeis-entry"

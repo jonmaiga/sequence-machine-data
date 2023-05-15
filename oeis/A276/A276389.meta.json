@@ -2,12 +2,10 @@
   "description": "Numbers n such that n! ends in the same number of 0's in both base 10 and base 16.",
   "id": "A276389",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:41",
     "offset": 1,
     "size": 66,
     "source": "oeis-bfile"

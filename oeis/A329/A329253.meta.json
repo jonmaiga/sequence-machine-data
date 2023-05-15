@@ -2,13 +2,11 @@
   "description": "The number of Nakayama algebras with a connected cyclic quiver, finite global dimension and n simple modules.",
   "id": "A329253",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 2,
     "size": 9,
     "source": "oeis-entry"

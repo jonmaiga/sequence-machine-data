@@ -2,14 +2,12 @@
   "description": "Hosoya triangle of Fermat Lucas type, read by rows.",
   "id": "A284128",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 9,
     "size": 55,
     "source": "oeis-entry"

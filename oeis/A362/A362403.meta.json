@@ -1,0 +1,21 @@
+{
+  "description": "Number of times that the number A362402(n) occurs as a sum of divisors that have a square factor (A162296).",
+  "id": "A362403",
+  "mentions": [
+    "A101373",
+    "A131934",
+    "A162296",
+    "A206027",
+    "A238896",
+    "A362401",
+    "A362402"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

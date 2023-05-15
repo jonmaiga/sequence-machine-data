@@ -2,12 +2,10 @@
   "description": "a(n) is the cardinality of S(n), the subset of partitions of n such that there are enough smaller parts to add together to be greater than a larger part.",
   "id": "A338085",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 48,
     "source": "oeis-entry"

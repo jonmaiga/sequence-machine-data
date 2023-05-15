@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of lim_{n->infty} B(2n,8)/(B(2n)*64^n) ( see comment for B(n,k) definition ).",
+  "description": "Decimal expansion of lim_{n->oo} B(2n,8)/(B(2n)*64^n) (see comment for B(n,k) definition).",
   "id": "A096051",
   "mentions": [
     "A027641",
@@ -11,14 +11,12 @@
     "A096049",
     "A096050"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

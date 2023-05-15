@@ -2,14 +2,12 @@
   "description": "a(n) = 139*n^2 - 2307*n + 3331.",
   "id": "A230307",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-26 10:59:11",
     "offset": 0,
     "size": 38,
     "source": "joeis"

@@ -2,7 +2,6 @@
   "description": "A product triangle sequence based on:a=3;f(n, a) = f(n - 1, a) + a*f(n - 2, a); c(n,a)=If[n == 0, 1, Product[f(i, a)*f(i + 1, a), {i, 1, n}]]; t(n,m,a)=If[Floor[n/2] >= m, c(n, a)/c(n - m, a), c(n, a)/c(m, a)]",
   "id": "A174412",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 40,
     "source": "oeis-entry"

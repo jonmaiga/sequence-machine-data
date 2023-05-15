@@ -2,13 +2,11 @@
   "description": "a(n) = n+n in carryless arithmetic mod 9 in base 10.",
   "id": "A169909",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 75,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Number of distinct interlace polynomials q of connected graphs of order n.",
   "id": "A156804",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

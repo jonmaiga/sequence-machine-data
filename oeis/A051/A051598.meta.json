@@ -2,14 +2,12 @@
   "description": "Rows of triangle formed using Pascal's rule except begin n-th row with 2*n and end it with 2*n+1.",
   "id": "A051598",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2022-04-27 14:57:11",
     "offset": 0,
     "size": 55,
     "source": "joeis"

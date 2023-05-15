@@ -2,13 +2,11 @@
   "description": "Maximum number of runs in binary strings of length n.",
   "id": "A317334",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 5,
     "size": 27,
     "source": "oeis-entry"

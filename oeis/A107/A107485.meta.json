@@ -2,13 +2,11 @@
   "description": "a(1) is the least k such that j(1) = k*2*3 - 1 is the lesser of a twin prime pair; then for n > 1, a(n) is the least k greater than a(n-1) such that j(n) = k*j(n-1)*(j(n-1)+2) - 1 is the lesser of a twin prime pair.",
   "id": "A107485",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

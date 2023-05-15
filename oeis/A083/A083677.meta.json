@@ -11,13 +11,11 @@
     "A090529",
     "A092117"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 67,
     "source": "oeis-entry"

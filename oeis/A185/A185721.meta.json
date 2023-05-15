@@ -2,14 +2,12 @@
   "description": "Arises in the maximum number of C5's in a triangle-free graph.",
   "id": "A185721",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:10",
     "offset": 0,
     "size": 48,
     "source": "oeis-bfile"

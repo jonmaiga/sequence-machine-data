@@ -1,0 +1,24 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the maximum number of ways in which a set of integer-sided squares can tile an n X k rectangle, 0 <= k <= n.",
+  "id": "A362142",
+  "mentions": [
+    "A000012",
+    "A073028",
+    "A219924",
+    "A224697",
+    "A361216",
+    "A362143",
+    "A362144",
+    "A362145",
+    "A362146"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

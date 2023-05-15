@@ -26,13 +26,11 @@
     "A167494",
     "A167495"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:52",
     "offset": 17,
     "size": 61,
     "source": "oeis-bfile"

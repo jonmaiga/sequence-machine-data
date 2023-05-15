@@ -1,0 +1,26 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of labeled weakly graded (ranked) posets with n elements and rank k.",
+  "id": "A361951",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000142",
+    "A001831",
+    "A001832",
+    "A001833",
+    "A055531",
+    "A342587",
+    "A361950",
+    "A361953"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,14 +2,11 @@
   "description": "Decimal expansion of cube root of 74.",
   "id": "A010644",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:46:54",
     "offset": 1,
     "size": 99,
     "source": "joeis"

@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows in which the row n lists the prime factors of n having the highest multiplicity.",
+  "id": "A361650",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A027746",
+    "A051903",
+    "A356838",
+    "A356840",
+    "A361632",
+    "A361633"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

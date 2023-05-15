@@ -2,12 +2,10 @@
   "description": "G:=1/product((1-x^(3k-2))*(1-x^(3k-1))^2*(1-x^(3k))^3,k=1..infinity).",
   "id": "A029864",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 11:47:09",
     "offset": 0,
     "size": 35,
     "source": "joeis"

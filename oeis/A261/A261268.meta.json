@@ -6,14 +6,12 @@
     "A020460",
     "A261267"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:20",
     "offset": 1,
     "size": 36,
     "source": "oeis-bfile"

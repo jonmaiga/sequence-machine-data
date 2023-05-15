@@ -2,12 +2,10 @@
   "description": "a(n) is the least prime p such that there are exactly n primes of the form p+d where d is a divisor of p-1 or of p+1.",
   "id": "A340160",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:12",
     "offset": 0,
     "size": 45,
     "source": "oeis-bfile"

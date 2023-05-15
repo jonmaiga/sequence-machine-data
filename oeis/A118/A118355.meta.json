@@ -2,12 +2,10 @@
   "description": "Number of self-avoiding walks on a honeycomb lattice with a one-dimensional impenetrable boundary.",
   "id": "A118355",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 35,
     "source": "oeis-entry"

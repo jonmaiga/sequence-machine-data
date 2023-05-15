@@ -2,13 +2,11 @@
   "description": "Numbers n such that string 4,0 occurs in the base 9 representation of n but not of n+1.",
   "id": "A044668",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:22:31",
     "offset": 1,
     "size": 39,
     "source": "joeis"

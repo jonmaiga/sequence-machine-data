@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: exp(x^2/(2*(1 - x)^2)).",
+  "description": "Expansion of e.g.f. exp(x^2/(2*(1 - x)^2)).",
   "id": "A335344",
   "mentions": [
     "A001286",
@@ -8,13 +8,11 @@
     "A185369",
     "A335345"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:06",
     "offset": 0,
     "size": 21,
     "source": "oeis-bfile"

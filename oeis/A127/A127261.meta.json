@@ -2,14 +2,12 @@
   "description": "a(0)=2, a(1)=2, a(n) = 2*a(n-1) + 10*a(n-2).",
   "id": "A127261",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 23:53:44",
     "offset": 0,
     "size": 21,
     "source": "joeis"

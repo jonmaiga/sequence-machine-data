@@ -2,13 +2,11 @@
   "description": "n^6 mod 16.",
   "id": "A167545",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:43:31",
     "offset": 0,
     "size": 105,
     "source": "joeis"

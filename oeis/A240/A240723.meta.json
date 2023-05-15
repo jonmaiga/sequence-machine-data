@@ -2,14 +2,12 @@
   "description": "Decimal expansion of a constant linked to a normal distribution inequality.",
   "id": "A240723",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:48:04",
     "offset": 0,
     "size": 100,
     "source": "joeis"

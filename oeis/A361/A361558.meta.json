@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. exp((x + x^2/2 + x^3/6 + x^4/24)/(1-x)).",
+  "id": "A361558",
+  "mentions": [
+    "A361532",
+    "A361548",
+    "A361557"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of nonisomorphic 2-sets of permutations of an n-set.",
+  "id": "A362764",
+  "mentions": [
+    "A000041",
+    "A362645",
+    "A362763",
+    "A362765"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

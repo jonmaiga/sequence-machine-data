@@ -2,13 +2,11 @@
   "description": "Number of equivalence classes in S_n under the {123, 321} {132, 231}-equivalence.",
   "id": "A228231",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:45",
     "offset": 3,
     "size": 30,
     "source": "oeis-bfile"

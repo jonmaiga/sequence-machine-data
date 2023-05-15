@@ -2,14 +2,12 @@
   "description": "Totally multiplicative sequence with a(p) = a(p-1) + 6 for prime p.",
   "id": "A166703",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "mult",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-09-08 06:56:23",
     "offset": 1,
     "size": 46,
     "source": "joeis"

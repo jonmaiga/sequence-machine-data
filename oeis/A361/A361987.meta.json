@@ -1,0 +1,22 @@
+{
+  "description": "a(1) = 1; a(n) = n^2 * Sum_{d|n, d < n} (-1)^(n/d) a(d) / d^2.",
+  "id": "A361987",
+  "mentions": [
+    "A067856",
+    "A332793",
+    "A334657",
+    "A361983",
+    "A361986"
+  ],
+  "tags": [
+    "changed",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

@@ -9,9 +9,7 @@
     "A151334",
     "A268538"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "nice",
@@ -19,7 +17,6 @@
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:09",
     "offset": 0,
     "size": 20,
     "source": "oeis-bfile"

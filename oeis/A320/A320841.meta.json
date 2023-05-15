@@ -18,14 +18,12 @@
     "A243148",
     "A319797"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:43",
     "offset": 0,
     "size": 120,
     "source": "oeis-bfile"

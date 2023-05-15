@@ -2,14 +2,12 @@
   "description": "Number of `(n,2)'-sequences of length 2n.",
   "id": "A007281",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

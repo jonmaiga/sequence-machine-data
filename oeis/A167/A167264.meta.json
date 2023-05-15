@@ -2,13 +2,11 @@
   "description": "T(n,m) = Number of ways to partition an n X m grid into 8 connected equal-area regions.",
   "id": "A167264",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:50",
     "offset": 1,
     "size": 83,
     "source": "oeis-bfile"

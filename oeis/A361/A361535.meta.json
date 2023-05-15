@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of g.f. 1 / Product_{n>=1} ((1 - x^n)^6 * (1 - x^(2*n-1))^4).",
+  "id": "A361535",
+  "mentions": [
+    "A360191",
+    "A361050",
+    "A361550"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

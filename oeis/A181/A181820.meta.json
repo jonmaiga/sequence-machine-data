@@ -1,5 +1,5 @@
 {
-  "description": "a(1) =1; for n>1, if A025487(n) = Product p(i)^e(i), then a(n) = Product p(e(i)).",
+  "description": "a(1) = 1; for n > 1, if A025487(n) = Product p(i)^e(i), then a(n) = Product p(e(i)).",
   "id": "A181820",
   "mentions": [
     "A000040",
@@ -7,15 +7,15 @@
     "A122111",
     "A181815",
     "A181819",
-    "A181821"
+    "A181821",
+    "A361808",
+    "A361809"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:05",
     "offset": 1,
     "size": 75,
     "source": "oeis-bfile"

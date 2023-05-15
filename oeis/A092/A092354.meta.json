@@ -2,13 +2,11 @@
   "description": "Molien series for complete weight enumerators of Hermitian self-dual codes over GF(9).",
   "id": "A092354",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 15:09:55",
     "offset": 0,
     "size": 32,
     "source": "joeis"

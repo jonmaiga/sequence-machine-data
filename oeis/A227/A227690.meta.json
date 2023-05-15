@@ -2,18 +2,25 @@
   "description": "Number A(n,k) of tilings of a k X n rectangle using integer-sided square tiles reduced for symmetry; square array A(n,k), n >= 0, k >= 0, read by antidiagonals.",
   "id": "A227690",
   "mentions": [
+    "A000012",
     "A001224",
     "A219924",
     "A224239",
-    "A224697"
+    "A224697",
+    "A359019",
+    "A359020",
+    "A359021",
+    "A359022",
+    "A359023",
+    "A359024",
+    "A359025",
+    "A359026"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:44",
     "offset": 0,
     "size": 78,
     "source": "oeis-bfile"

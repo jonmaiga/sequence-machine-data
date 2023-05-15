@@ -2,13 +2,11 @@
   "description": "Expansion of e.g.f. (1 - sqrt(1 - 4*LambertW(x)))/2.",
   "id": "A180680",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:03",
     "offset": 1,
     "size": 19,
     "source": "oeis-bfile"

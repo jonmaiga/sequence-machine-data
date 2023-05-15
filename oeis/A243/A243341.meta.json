@@ -2,12 +2,10 @@
   "description": "Least number k such that k^n - k^(n-1) - k^(n-2) - ... - k^2 - k - 1 is prime.",
   "id": "A243341",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:59",
     "offset": 1,
     "size": 73,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "Product((d+n/d): d divides n and d^2<=n); a(1)=1.",
   "id": "A050214",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:42:37",
     "offset": 1,
     "size": 51,
     "source": "joeis"

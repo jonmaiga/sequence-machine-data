@@ -2,13 +2,11 @@
   "description": "Number of active (ON,black) cells in n-th stage of growth of two-dimensional cellular automaton defined by \"Rule 379\", based on the 5-celled von Neumann neighborhood.",
   "id": "A265916",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-11-11 15:41:49",
     "offset": 0,
     "size": 50,
     "source": "joeis"

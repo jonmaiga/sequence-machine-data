@@ -5,7 +5,6 @@
     "A019694",
     "A020760"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "cons",
     "easy",
@@ -13,7 +12,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 2,
     "size": 93,
     "source": "oeis-entry"

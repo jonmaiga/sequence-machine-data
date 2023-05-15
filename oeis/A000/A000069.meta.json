@@ -34,10 +34,8 @@
     "A181155",
     "A230095"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
-    "changed",
     "core",
     "easy",
     "formulas",
@@ -45,7 +43,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:02",
     "offset": 1,
     "size": 65,
     "source": "oeis-bfile"

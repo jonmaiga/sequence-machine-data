@@ -2,18 +2,17 @@
   "description": "Moments of the distribution of position of the first occurrence of pattern aa in a random ternary word.",
   "id": "A352971",
   "mentions": [
-    "A302922"
+    "A302922",
+    "A362718"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 0,
     "size": 16,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

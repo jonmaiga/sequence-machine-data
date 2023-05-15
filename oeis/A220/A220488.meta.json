@@ -14,14 +14,12 @@
     "A152426",
     "A152427"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:38",
     "offset": 1,
     "size": 52,
     "source": "oeis-bfile"

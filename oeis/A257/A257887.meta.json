@@ -2,12 +2,10 @@
   "description": "Number of proper diagonals of the n-dimensional associahedron (i.e., diagonals that are not included in lower dimension faces).",
   "id": "A257887",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:15",
     "offset": 1,
     "size": 21,
     "source": "oeis-bfile"

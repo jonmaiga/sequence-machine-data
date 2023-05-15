@@ -2,12 +2,10 @@
   "description": "a(n) = Sum_{k=0..n} ceiling(k^3/n).",
   "id": "A014813",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 13:40:55",
     "offset": 1,
     "size": 45,
     "source": "joeis"

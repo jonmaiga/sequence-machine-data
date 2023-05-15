@@ -1,5 +1,5 @@
 {
-  "description": "Let s(n) be the smallest number x such that the decimal representation of n appears as a substring of the decimal representations of the numbers [0...x] exactly x times.",
+  "description": "a(n) is the smallest number x > 1 such that n appears as a substring of the decimal representations of the numbers [0..x] exactly x times.",
   "id": "A163500",
   "mentions": [
     "A014778",
@@ -13,14 +13,12 @@
     "A130431",
     "A164321"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Carmichael numbers of the form (60k+13)*(180k+37)*(300k+61).",
   "id": "A182416",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:06",
     "offset": 1,
     "size": 19,
     "source": "oeis-bfile"

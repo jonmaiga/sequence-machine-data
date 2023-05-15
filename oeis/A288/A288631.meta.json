@@ -8,12 +8,10 @@
     "A051533",
     "A102795"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:01",
     "offset": 1,
     "size": 64,
     "source": "oeis-bfile"

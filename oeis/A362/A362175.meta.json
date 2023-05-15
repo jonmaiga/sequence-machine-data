@@ -1,0 +1,23 @@
+{
+  "description": "Least number k > 1 not a power of 10 such that k^n, n > 2, starts with k, or -1 if no such number exists.",
+  "id": "A362175",
+  "mentions": [
+    "A100129",
+    "A320930",
+    "A362096",
+    "A362097",
+    "A362098",
+    "A362099",
+    "A362100",
+    "A362101"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,12 +2,10 @@
   "description": "Primes whose squares are congruent to 5 (modulo 19).",
   "id": "A102852",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 46,
     "source": "oeis-entry"

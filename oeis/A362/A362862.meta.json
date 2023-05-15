@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (-1)^n * Sum_{k=0..n} (-n*k)^k * binomial(n,k).",
+  "id": "A362862",
+  "mentions": [
+    "A290158",
+    "A362019"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

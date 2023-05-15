@@ -1,15 +1,13 @@
 {
-  "description": "Number of (n+2)X(3+2) 0..1 arrays with nondecreasing maximum of every three consecutive values in every row and column",
+  "description": "Number of (n+2) X (3+2) 0..1 arrays with nondecreasing maximum of every three consecutive values in every row and column.",
   "id": "A250569",
   "mentions": [
     "A250574"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:07",
     "offset": 1,
     "size": 14,
     "source": "oeis-bfile"

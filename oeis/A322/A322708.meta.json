@@ -2,16 +2,16 @@
   "description": "a(0)=0, a(1)=6 and a(n) = 26*a(n-1) - a(n-2) + 12 for n > 1.",
   "id": "A322708",
   "mentions": [
+    "A097308",
+    "A097309",
     "A322699"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:46",
     "offset": 0,
     "size": 18,
     "source": "oeis-bfile"

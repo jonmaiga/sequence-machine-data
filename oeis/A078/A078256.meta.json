@@ -2,14 +2,12 @@
   "description": "Triangular numbers in which frequency of occurrence of every digit is same.",
   "id": "A078256",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 53,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Not divisible by 31.",
   "id": "A160547",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 17:14:13",
     "offset": 1,
     "size": 72,
     "source": "joeis"

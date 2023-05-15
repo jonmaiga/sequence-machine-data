@@ -2,13 +2,11 @@
   "description": "Number of prime divisors with multiplicity of n where n and n+1 are composite or twin composite numbers.",
   "id": "A102299",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

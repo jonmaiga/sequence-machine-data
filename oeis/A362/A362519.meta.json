@@ -1,0 +1,17 @@
+{
+  "description": "Number of vertex cuts in the hypercube graph Q_n.",
+  "id": "A362519",
+  "mentions": [
+    "A290758"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

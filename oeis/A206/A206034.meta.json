@@ -2,12 +2,10 @@
   "description": "a(n) is the last defined element in the sequence n, f(n), f(f(n)), ..., where f(t) = lcm(t,(b+c)/2) with b < c smallest consecutive divisors of t with c - b > 1 and f(t) is undefined if such b, c do not exist or b + c is odd.",
   "id": "A206034",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:26",
     "offset": 1,
     "size": 31,
     "source": "oeis-bfile"

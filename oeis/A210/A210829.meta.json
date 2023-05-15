@@ -2,12 +2,10 @@
   "description": "Number of (n+1)X(n+1) 0..3 symmetric matrices with every 2X2 subblock having three distinct values, and new values 0..3 introduced in lower triangle row major order",
   "id": "A210829",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

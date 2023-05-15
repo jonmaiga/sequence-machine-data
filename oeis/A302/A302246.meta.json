@@ -24,13 +24,11 @@
     "A336812",
     "A338156"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:26",
     "offset": 1,
     "size": 104,
     "source": "oeis-bfile"

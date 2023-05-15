@@ -2,12 +2,10 @@
   "description": "a(1) = a(2) = 1; a(n) = sigma(a(n-1)+a(n-2)).",
   "id": "A069143",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 27,
     "source": "oeis-entry"

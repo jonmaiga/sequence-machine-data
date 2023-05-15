@@ -2,13 +2,11 @@
   "description": "Expansion of q^(-1/2)(eta(q^2)eta(q^10)/(eta(q)eta(q^5)))^2 in powers of q.",
   "id": "A093830",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 19:48:12",
     "offset": 0,
     "size": 42,
     "source": "joeis"

@@ -1,0 +1,17 @@
+{
+  "description": "Discriminants of Weierstrass curves in moduli space M_3 of compact Riemann surfaces of genus 3.",
+  "id": "A361160",
+  "mentions": [
+    "A361161",
+    "A361164"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

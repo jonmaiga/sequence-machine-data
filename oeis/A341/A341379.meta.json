@@ -2,12 +2,10 @@
   "description": "E.g.f. A(x) satisfies: A(x) = sqrt( Sum_{n>=0} (x^n/n!) * exp(x*A(x)^n) ).",
   "id": "A341379",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:14",
     "offset": 0,
     "size": 20,
     "source": "oeis-bfile"

@@ -2,14 +2,12 @@
   "description": "A prime-power sequence based on Gaussian asymptotic function.",
   "id": "A094227",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 3,
     "size": 61,
     "source": "oeis-entry"

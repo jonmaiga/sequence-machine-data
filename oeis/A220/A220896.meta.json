@@ -2,13 +2,11 @@
   "description": "Number of closed lambda-terms of size n with at most 2 free de Bruijn indices.",
   "id": "A220896",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 0,
     "size": 20,
     "source": "oeis-entry"

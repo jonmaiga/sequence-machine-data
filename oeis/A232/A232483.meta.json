@@ -2,13 +2,11 @@
   "description": "Triangle read by rows: T(n,k) = number of plateau polycubes of width n and volume k.",
   "id": "A232483",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 78,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Maximal Hamming distance of a doubly-even self-dual code of length 4n over GF(4).",
   "id": "A263842",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

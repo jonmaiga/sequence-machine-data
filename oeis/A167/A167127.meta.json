@@ -2,13 +2,11 @@
   "description": "Cubes that may be transformed into squares by prefixing with a single nonzero digit.",
   "id": "A167127",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

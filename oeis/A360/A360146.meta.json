@@ -1,0 +1,27 @@
+{
+  "description": "Integers d such that the longest possible arithmetic progression (AP) of primes with common difference d has exactly 10 elements.",
+  "id": "A360146",
+  "mentions": [
+    "A007921",
+    "A053669",
+    "A123556",
+    "A173919",
+    "A206037",
+    "A206039",
+    "A206041",
+    "A206045",
+    "A342309",
+    "A359408",
+    "A359409",
+    "A359410"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

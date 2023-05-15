@@ -1,0 +1,27 @@
+{
+  "description": "a(n) = sigma_29(n), the sum of the 29th powers of the divisors of n.",
+  "id": "A362870",
+  "mentions": [
+    "A000203",
+    "A001160",
+    "A013957",
+    "A013961",
+    "A013965",
+    "A013969",
+    "A016825",
+    "A075180",
+    "A281959",
+    "A358625"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

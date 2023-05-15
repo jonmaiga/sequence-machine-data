@@ -8,14 +8,12 @@
     "A249994",
     "A249995"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:06",
     "offset": 0,
     "size": 27,
     "source": "oeis-bfile"

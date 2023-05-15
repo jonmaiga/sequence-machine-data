@@ -2,13 +2,11 @@
   "description": "Primes p such that either (or both) p-10 or p+10 are primes.",
   "id": "A100807",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 57,
     "source": "oeis-entry"

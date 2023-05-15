@@ -2,13 +2,11 @@
   "description": "Underline all even terms; concatenations of underlined terms and of non-underlined terms both equal the concatenation of the entire sequence. This is the lexicographically earliest such sequence without duplicate terms and with an even digit among the first two terms.",
   "id": "A307312",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:32",
     "offset": 1,
     "size": 39,
     "source": "oeis-bfile"

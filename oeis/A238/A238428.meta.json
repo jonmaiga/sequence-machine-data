@@ -2,13 +2,11 @@
   "description": "Expansion of F(x) where F(x) = 1 + x / (1 - x * F(x) - x^2 * F(x^2) ).",
   "id": "A238428",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:55",
     "offset": 0,
     "size": 33,
     "source": "oeis-bfile"

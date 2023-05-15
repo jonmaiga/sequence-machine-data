@@ -2,7 +2,6 @@
   "description": "Tennis scores: values of successive points in a game.",
   "id": "A167210",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 4,
     "source": "oeis-entry"

@@ -1,0 +1,16 @@
+{
+  "description": "Number of different \"integer parts\" of (possibly non-canonical) base-phi representations of n.",
+  "id": "A362970",
+  "mentions": [],
+  "tags": [
+    "base",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-entry"
+  }
+}

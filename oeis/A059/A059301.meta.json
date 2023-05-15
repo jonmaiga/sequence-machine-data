@@ -2,14 +2,12 @@
   "description": "Number of filter bases of an n-set.",
   "id": "A059301",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:09",
     "offset": 1,
     "size": 9,
     "source": "oeis-bfile"

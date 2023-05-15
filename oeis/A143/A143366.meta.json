@@ -2,13 +2,11 @@
   "description": "Wiener index of the hexagon crown (beehive model) with n hexagons on each side of the outside ring.",
   "id": "A143366",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:34:21",
     "offset": 1,
     "size": 25,
     "source": "joeis"

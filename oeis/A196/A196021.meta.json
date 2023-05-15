@@ -2,12 +2,10 @@
   "description": "Number of subsets T of S={0,1,2,...,n-1} such that the closure of T under addition modulo n is S.",
   "id": "A196021",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 34,
     "source": "oeis-entry"

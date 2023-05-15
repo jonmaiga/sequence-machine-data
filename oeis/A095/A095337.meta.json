@@ -2,12 +2,10 @@
   "description": "Total number of leaves and degree-1 roots in the rooted trees of order n.",
   "id": "A095337",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 29,
     "source": "oeis-entry"

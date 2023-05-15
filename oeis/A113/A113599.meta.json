@@ -2,14 +2,12 @@
   "description": "Least n-digit multiple of n whose digit permutations yield at least n distinct multiples of n, or 0 if no such number exists.",
   "id": "A113599",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 15:00:23",
     "offset": 1,
     "size": 19,
     "source": "joeis"

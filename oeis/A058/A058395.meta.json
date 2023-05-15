@@ -1,5 +1,5 @@
 {
-  "description": "A square array based on triangular numbers (A000217) with each term being the sum of 2 consecutive terms in the previous row.",
+  "description": "Square array read by antidiagonals. Based on triangular numbers (A000217) with each term being the sum of 2 consecutive terms in the previous row.",
   "id": "A058395",
   "mentions": [
     "A000012",
@@ -24,16 +24,14 @@
     "A058394",
     "A058396"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2022-09-08 06:56:20",
     "offset": 0,
-    "size": 81,
+    "size": 91,
     "source": "joeis"
   }
 }

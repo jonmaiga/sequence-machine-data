@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of (n+3)X(k+3) binary arrays with no more than three of any consecutive four bits set in any row or column",
   "id": "A202726",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:23",
     "offset": 1,
     "size": 19,
     "source": "oeis-bfile"

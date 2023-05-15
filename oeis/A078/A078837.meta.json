@@ -2,14 +2,11 @@
   "description": "a(n) = Sum_{k=1..prime(n)-1} floor(k^3/prime(n)).",
   "id": "A078837",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:30",
     "offset": 1,
     "size": 35,
     "source": "oeis-bfile"

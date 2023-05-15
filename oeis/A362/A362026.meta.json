@@ -1,0 +1,21 @@
+{
+  "description": "Smallest unhappy number in base A161874(n).",
+  "id": "A362026",
+  "mentions": [
+    "A031177",
+    "A161872",
+    "A161874"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

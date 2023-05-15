@@ -2,13 +2,11 @@
   "description": "Number of ordered (n+1)-tuples of positive integers (s_1, s_2, ..., s_{n+1}) with s_(n+1) - s_n - ... - s_1 = s_(n+1)/(s_n * ... * s_1).",
   "id": "A285387",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

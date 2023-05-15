@@ -2,12 +2,10 @@
   "description": "Least nonsquare having square residues for all moduli 2 through n.",
   "id": "A018883",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:46:59",
     "offset": 2,
     "size": 41,
     "source": "joeis"

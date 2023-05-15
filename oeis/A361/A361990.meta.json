@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that are both the concatenation of a Fibonacci number and a square and the concatenation of a square and a Fibonacci number.",
+  "id": "A361990",
+  "mentions": [
+    "A000045",
+    "A000290"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

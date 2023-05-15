@@ -2,7 +2,6 @@
   "description": "Triangle in which k-th number (0<=k<=n) in n-th row (0<=n) is number of hexads in S(5,6,12) containing k given points and missing n-k given points.",
   "id": "A001295",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "fini",
     "full",
@@ -10,7 +9,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 0,
     "size": 28,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Squares which can be represented as sum of (at least two) consecutive primes in exactly one way.",
   "id": "A163245",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 41,
     "source": "oeis-entry"

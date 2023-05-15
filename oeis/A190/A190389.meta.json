@@ -2,12 +2,10 @@
   "description": "Number of permutations of 0..(n-1) with equal numbers of bit changes for every bit in the binary representation of the permutation",
   "id": "A190389",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

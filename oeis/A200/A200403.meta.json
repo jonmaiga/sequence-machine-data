@@ -2,13 +2,11 @@
   "description": "Number of permutations avoiding the pattern 124-3.",
   "id": "A200403",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 15,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Primes p such that 54*p-1, 54*p+1 and 60*p-1, 60*p+1 are twin primes.",
   "id": "A138698",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:26",
     "offset": 1,
     "size": 32,
     "source": "oeis-bfile"

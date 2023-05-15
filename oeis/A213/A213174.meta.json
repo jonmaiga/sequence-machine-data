@@ -2,12 +2,10 @@
   "description": "a(n) is the smallest number that is the sum of both 2n-1 and 2n+1 consecutive primes.",
   "id": "A213174",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:31",
     "offset": 1,
     "size": 39,
     "source": "oeis-bfile"

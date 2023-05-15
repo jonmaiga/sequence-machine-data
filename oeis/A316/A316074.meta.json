@@ -18,14 +18,12 @@
     "A316082",
     "A316101"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "eigen",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:34",
     "offset": 1,
     "size": 91,
     "source": "oeis-bfile"

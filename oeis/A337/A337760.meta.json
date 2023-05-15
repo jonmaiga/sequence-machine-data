@@ -2,14 +2,12 @@
   "description": "Irregular triangle where T(n,k) are the coefficients of expansion 2^(n-1) Product_{k=1..n} sin(k*t) = Sum_{k=1..n*(n+1)/2} T(n,k)*cos(k*t) for even n and 2^(n-1) Product_{k=1..n} sin(k*t) = Sum_{k=1..n*(n+1)/2} T(n,k)*sin(k*t) for odd n.",
   "id": "A337760",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "formulas",
     "sign",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 83,
     "source": "oeis-entry"

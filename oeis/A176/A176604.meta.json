@@ -2,14 +2,12 @@
   "description": "Sequence defined by the recurrence formula a(n+1) = Sum_{n>=1}(a(p)*a(n-p) + k, p=0..n) + j, with a(0) = 1, a(1) = 0, k = 0 and j = 1.",
   "id": "A176604",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:00",
     "offset": 0,
     "size": 28,
     "source": "oeis-bfile"

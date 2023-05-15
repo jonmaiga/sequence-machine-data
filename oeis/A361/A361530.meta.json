@@ -1,0 +1,18 @@
+{
+  "description": "Primes that can be written as the result of shuffling the decimal digits of two primes.",
+  "id": "A361530",
+  "mentions": [
+    "A019549",
+    "A083427",
+    "A105184"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

@@ -6,7 +6,6 @@
     "A322576",
     "A325900"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "fini",
     "hard",
@@ -14,7 +13,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:54",
     "offset": 1,
     "size": 5,
     "source": "oeis-bfile"

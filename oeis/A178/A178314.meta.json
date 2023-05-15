@@ -2,13 +2,11 @@
   "description": "Numbers n with property that n^2 contains \"123\" as a substring.",
   "id": "A178314",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:02",
     "offset": 1,
     "size": 43,
     "source": "oeis-bfile"

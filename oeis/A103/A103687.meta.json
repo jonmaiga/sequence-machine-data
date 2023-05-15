@@ -2,13 +2,11 @@
   "description": "Number of permutations p of (1,2,...,n) such that 1+k+p(k) is prime for all k=1,2,...,n.",
   "id": "A103687",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 31,
     "source": "oeis-entry"

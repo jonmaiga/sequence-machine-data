@@ -2,13 +2,12 @@
   "description": "Numbers that when converted to hexadecimal and the letters are replaced by base 10 equivalents, result in the same number.",
   "id": "A187829",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "base",
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:12",
     "offset": 1,
     "size": 37,
     "source": "oeis-bfile"

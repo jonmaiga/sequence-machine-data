@@ -2,14 +2,12 @@
   "description": "Decimal value of the concatenation of first n odd numbers in binary.",
   "id": "A164943",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:47",
     "offset": 1,
     "size": 17,
     "source": "oeis-bfile"

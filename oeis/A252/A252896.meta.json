@@ -2,13 +2,11 @@
   "description": "Lexicographically earliest multiplicative sequence of distinct terms with a unique fixed point.",
   "id": "A252896",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "mult",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:11",
     "offset": 1,
     "size": 66,
     "source": "oeis-bfile"

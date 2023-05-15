@@ -2,12 +2,10 @@
   "description": "Consider all the integers k where the n-th prime <= k <= the (n+1)th prime. a(n) is the largest integer that divides at least two of the integers k.",
   "id": "A140715",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:29",
     "offset": 1,
     "size": 103,
     "source": "oeis-bfile"

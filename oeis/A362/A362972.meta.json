@@ -1,0 +1,20 @@
+{
+  "description": "Squarefree kernels of cubefull numbers (A036966).",
+  "id": "A362972",
+  "mentions": [
+    "A007947",
+    "A036966",
+    "A084371",
+    "A362974"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

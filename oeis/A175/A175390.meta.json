@@ -2,12 +2,10 @@
   "description": "Number of irreducible binary polynomials Sum_{j=0..n} c(j)*x^j with c(1)=c(n-1)=1.",
   "id": "A175390",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 37,
     "source": "oeis-entry"

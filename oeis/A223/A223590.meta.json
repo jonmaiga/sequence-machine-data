@@ -1,15 +1,14 @@
 {
-  "description": "Number of nX6 0..1 arrays with every row having the same least squares slope fit to a straight line, and every column the same least squares slope fit to a straight line, with a single point array taken as having zero slope",
+  "description": "Number of n X 6 0..1 arrays with every row having the same least squares slope fit to a straight line, and every column the same least squares slope fit to a straight line, with a single point array taken as having zero slope.",
   "id": "A223590",
   "mentions": [
     "A223592"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 21,
     "source": "oeis-entry"

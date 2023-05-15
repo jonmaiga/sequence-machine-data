@@ -2,13 +2,11 @@
   "description": "a(n) = name of smallest positive number in Spanish which has the letter E in the n-th position starting from the end, or -1 if no such number exists.",
   "id": "A173182",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:57",
     "offset": 1,
     "size": 50,
     "source": "oeis-bfile"

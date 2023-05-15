@@ -2,14 +2,12 @@
   "description": "Triangle, read by rows, defined by f[i, k, l] = binomial(k-l, i - Min(k, l))/2^(k-l), then T(n, m) = f(n, 0, m).",
   "id": "A122496",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:11",
     "offset": 1,
     "size": 55,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "Start with the empty sum; if the sum is composite with prime factors occurring among the terms of the sum, remove these; then add to the terms of the sum the next larger prime which yields a new number; repeat.",
   "id": "A332198",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 0,
     "size": 59,
     "source": "oeis-entry"

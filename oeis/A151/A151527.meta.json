@@ -2,14 +2,12 @@
   "description": "Number of 2-sided strip polyrects with n cells.",
   "id": "A151527",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 23,
     "source": "oeis-entry"

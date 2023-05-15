@@ -2,14 +2,12 @@
   "description": "Numbers k that divide the (left) concatenation of all numbers <= k written in base 12 (most significant digit on left).",
   "id": "A029481",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 1,
     "size": 17,
     "source": "oeis-entry"

@@ -1,0 +1,19 @@
+{
+  "description": "Constant term in the expansion of (1 + x^3 + y^3 + z^3 + 1/(x*y*z))^n.",
+  "id": "A361658",
+  "mentions": [
+    "A001421",
+    "A002426",
+    "A361637",
+    "A361657"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

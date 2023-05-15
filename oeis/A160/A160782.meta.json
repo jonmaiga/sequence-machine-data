@@ -2,13 +2,11 @@
   "description": "Numbers that have a \"t\" in the middle of their names in Spanish.",
   "id": "A160782",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 56,
     "source": "oeis-entry"

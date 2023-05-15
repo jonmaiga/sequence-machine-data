@@ -2,14 +2,12 @@
   "description": "A recurrence relation conditioned on the primality of the preceding terms.",
   "id": "A236768",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:54",
     "offset": 0,
     "size": 50,
     "source": "oeis-bfile"

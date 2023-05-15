@@ -1,5 +1,5 @@
 {
-  "description": "Numerators of table a(n,k) read by antidiagonals: a(0,k) = 1/(k+1), a(n+1,k) = (k+1)(a(n,k)-a(n,k+1)), n >= 0, k >= 0.",
+  "description": "Numerators of table a(n,k) read by antidiagonals: a(0,k) = 1/(k+1), a(n+1,k) = (k+1)*(a(n,k) - a(n,k+1)), n >= 0, k >= 0.",
   "id": "A051714",
   "mentions": [
     "A000367",
@@ -20,7 +20,6 @@
     "A051723",
     "A164555"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "formulas",
@@ -31,7 +30,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:00",
     "offset": 0,
     "size": 91,
     "source": "oeis-bfile"

@@ -1,0 +1,16 @@
+{
+  "description": "The succession of the digits of the sequence remains the same when 11 is added to each term.",
+  "id": "A362433",
+  "mentions": [
+    "A360227"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

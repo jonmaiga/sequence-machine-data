@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of length n+4 0..k arrays with every five consecutive terms having two times the sum of some three elements equal to three times the sum of the remaining two",
   "id": "A248987",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:05",
     "offset": 1,
     "size": 51,
     "source": "oeis-bfile"

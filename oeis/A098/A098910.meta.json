@@ -2,14 +2,12 @@
   "description": "Table(n,2) read by rows giving k and j such that Mersenne-prime(k) - Mersenne-prime(j) + 1 is prime.",
   "id": "A098910",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "more",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 22,
     "source": "oeis-entry"

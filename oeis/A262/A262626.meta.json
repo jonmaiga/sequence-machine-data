@@ -131,14 +131,12 @@
     "A353908",
     "A354238"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "look",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:22",
     "offset": 1,
     "size": 111,
     "source": "oeis-bfile"

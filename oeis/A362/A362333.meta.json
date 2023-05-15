@@ -1,0 +1,19 @@
+{
+  "description": "Least nonnegative integer k such that (gpf(n)!)^k is divisible by n, where gpf(n) is the greatest prime factor of n.",
+  "id": "A362333",
+  "mentions": [
+    "A006530",
+    "A051903",
+    "A057109",
+    "A088388"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -2,14 +2,12 @@
   "description": "Decimal expansion of a constant q such that Sum_{n>0} q^(n^2) / (1 + q^n)^(n+1) = 1.",
   "id": "A321599",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 201,
     "source": "oeis-entry"

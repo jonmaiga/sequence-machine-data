@@ -2,14 +2,12 @@
   "description": "In base 2 the least number of positive numbers of (1+n) digits in which it can be read the totality of the 2^(n-1) positive numbers of n digits (0 excluded).",
   "id": "A134365",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

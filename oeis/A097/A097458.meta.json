@@ -2,12 +2,10 @@
   "description": "The value of C in y = x^2+11x+C such that y is prime for all x = 0 to 6.",
   "id": "A097458",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 29,
     "source": "oeis-entry"

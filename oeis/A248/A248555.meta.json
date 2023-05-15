@@ -2,14 +2,12 @@
   "description": "a(n) is the concatenation of 3n-2, 3n and 3n-1.",
   "id": "A248555",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "base",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-09-08 06:56:24",
     "offset": 1,
     "size": 31,
     "source": "joeis"

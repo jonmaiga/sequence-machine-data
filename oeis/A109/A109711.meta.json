@@ -2,14 +2,12 @@
   "description": "Numbers n such that the sum of the binary digits of n! is divisible by n.",
   "id": "A109711",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 17,
     "source": "oeis-entry"

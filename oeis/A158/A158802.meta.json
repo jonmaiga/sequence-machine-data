@@ -2,13 +2,11 @@
   "description": "a(n) = n * n! * b(n), where b(n) = ((n-1)*(n-3)*b(n-1) - b(n-2) + b(n-3))/(n*(n - 1)) and b(0) = b(1) = 1, b(2) = -1.",
   "id": "A158802",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:41",
     "offset": 0,
     "size": 22,
     "source": "oeis-bfile"

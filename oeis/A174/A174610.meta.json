@@ -2,13 +2,11 @@
   "description": "Decimal expansion (1/log(Phi))*sum(k>=1,log((2^k*Phi^2+Phi)/(2^k*Phi^2-1)))=2.02197... where Phi=(1+sqrt(5))/2.",
   "id": "A174610",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

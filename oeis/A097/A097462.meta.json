@@ -2,14 +2,12 @@
   "description": "Multiplication table for numbers 0 through 10 read by rows.",
   "id": "A097462",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 83,
     "source": "oeis-entry"

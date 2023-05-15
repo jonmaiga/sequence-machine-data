@@ -2,12 +2,10 @@
   "description": "Primes p such that none of p+6, p+12, p+18, p+30 is prime.",
   "id": "A306370",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:31",
     "offset": 1,
     "size": 52,
     "source": "oeis-bfile"

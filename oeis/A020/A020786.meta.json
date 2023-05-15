@@ -2,13 +2,11 @@
   "description": "Decimal expansion of 1/sqrt(29).",
   "id": "A020786",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:10:31",
     "offset": 0,
     "size": 99,
     "source": "joeis"

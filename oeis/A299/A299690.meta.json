@@ -6,7 +6,6 @@
     "A052383",
     "A277061"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "base",
     "fini",
@@ -14,7 +13,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:23",
     "offset": 1,
     "size": 65,
     "source": "oeis-bfile"

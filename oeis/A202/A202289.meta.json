@@ -2,14 +2,12 @@
   "description": "Number of faces of dimension n in a tight triangulation of the manifold OP^2.",
   "id": "A202289",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 0,
     "size": 17,
     "source": "oeis-entry"

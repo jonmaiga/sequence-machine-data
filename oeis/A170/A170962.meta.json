@@ -8,7 +8,6 @@
     "A170956",
     "A170965"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "fini",
@@ -17,7 +16,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:54",
     "offset": 0,
     "size": 101,
     "source": "oeis-bfile"

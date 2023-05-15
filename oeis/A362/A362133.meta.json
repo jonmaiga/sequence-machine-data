@@ -1,0 +1,18 @@
+{
+  "description": "Smallest indices k where A362131(k) = A362132(n).",
+  "id": "A362133",
+  "mentions": [
+    "A360179",
+    "A362131",
+    "A362132"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

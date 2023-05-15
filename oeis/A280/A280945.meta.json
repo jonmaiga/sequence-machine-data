@@ -2,7 +2,6 @@
   "description": "List of primitive triples (x, y, z) of positive integers for which xy - z, yz - x, and zx - y are powers of 2.",
   "id": "A280945",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "fini",
     "full",
@@ -10,7 +9,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

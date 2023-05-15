@@ -1,5 +1,5 @@
 {
-  "description": "Square array T(n,k), n >= 1, k >= 1, read by antidiagonals, where column k is the expansion of e.g.f. -log(1 - f^(n-1)(x)), where f(x) = log(1+x).",
+  "description": "Square array T(n,k), n >= 1, k >= 1, read by antidiagonals, where column k is the expansion of e.g.f. -log(1 - f^(k-1)(x)), where f(x) = log(1+x).",
   "id": "A351420",
   "mentions": [
     "A000142",
@@ -11,14 +11,13 @@
     "A351424",
     "A351429"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
+    "changed",
     "formulas",
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

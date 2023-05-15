@@ -2,14 +2,12 @@
   "description": "Decimal expansion of sum_{k=1..infinity} (H(k)/k)^2, where H(k) = sum_{j=1..k} 1/j.",
   "id": "A218505",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 100,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Number of partitions of n with the property that if two summands have the same parity, then their frequencies have the same parity.",
   "id": "A240949",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:57",
     "offset": 0,
     "size": 58,
     "source": "oeis-bfile"

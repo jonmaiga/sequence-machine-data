@@ -15,14 +15,12 @@
     "A119648",
     "A257146"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "core",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:03",
     "offset": 1,
     "size": 36,
     "source": "oeis-bfile"

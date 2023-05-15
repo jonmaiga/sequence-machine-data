@@ -1,16 +1,14 @@
 {
-  "description": "Number of length n+4 0..2 arrays with some disjoint pairs in every consecutive five terms having the same sum",
+  "description": "Number of length n+4 0..2 arrays with some disjoint pairs in every consecutive five terms having the same sum.",
   "id": "A247921",
   "mentions": [
     "A247927"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:04",
     "offset": 1,
     "size": 23,
     "source": "oeis-bfile"

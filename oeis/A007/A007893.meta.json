@@ -2,14 +2,12 @@
   "description": "A Kutz sequence.",
   "id": "A007893",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:12",
     "offset": 1,
     "size": 62,
     "source": "oeis-bfile"

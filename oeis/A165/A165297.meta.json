@@ -2,13 +2,11 @@
   "description": "The larger member of a prime pair (p,p+100000).",
   "id": "A165297",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:48",
     "offset": 1,
     "size": 30,
     "source": "oeis-bfile"

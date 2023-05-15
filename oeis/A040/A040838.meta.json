@@ -2,7 +2,6 @@
   "description": "Continued fraction for sqrt(868).",
   "id": "A040838",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "cofr",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:19:31",
     "offset": 0,
     "size": 78,
     "source": "joeis"

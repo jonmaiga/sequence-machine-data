@@ -2,13 +2,11 @@
   "description": "Alphabetic length of a divide-and-conquer approach to the regular expression for permutations of n symbols.",
   "id": "A320460",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:43",
     "offset": 1,
     "size": 26,
     "source": "oeis-bfile"

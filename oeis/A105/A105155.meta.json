@@ -2,14 +2,12 @@
   "description": "A triangular array made from a negative 6-fold permutation product.",
   "id": "A105155",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn",
     "tabl",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 61,
     "source": "oeis-entry"

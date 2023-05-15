@@ -7,13 +7,11 @@
     "A056788",
     "A086797"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"

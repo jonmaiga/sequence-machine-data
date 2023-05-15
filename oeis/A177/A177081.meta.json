@@ -2,7 +2,6 @@
   "description": "Numbers of the form x^x, where x equals the number of digits in the number.",
   "id": "A177081",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "bref",
@@ -11,7 +10,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 3,
     "source": "oeis-entry"

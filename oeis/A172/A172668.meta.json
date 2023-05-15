@@ -2,13 +2,11 @@
   "description": "Number of 3*n X n 0..2 arrays with row sums 2 and column sums 6.",
   "id": "A172668",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:56",
     "offset": 1,
     "size": 10,
     "source": "oeis-bfile"

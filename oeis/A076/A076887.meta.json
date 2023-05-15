@@ -5,7 +5,6 @@
     "A000203",
     "A002113"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "formulas",
@@ -13,7 +12,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:28",
     "offset": 1,
     "size": 56,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Number of elements of length n with respect to the natural metric in the special group of rational series over the finite field F_2 in two non-commuting variables.",
   "id": "A137343",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:25",
     "offset": 0,
     "size": 10,
     "source": "oeis-bfile"

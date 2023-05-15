@@ -2,7 +2,6 @@
   "description": "1^36, 2^25, 3^16, 4^9, 5^4, 6^1, 7^0.",
   "id": "A059277",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "fini",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 0,
     "size": 7,
     "source": "oeis-entry"

@@ -2,16 +2,16 @@
   "description": "Diagonal sums of number triangle A120108.",
   "id": "A120110",
   "mentions": [
-    "A120108"
+    "A120108",
+    "A120109"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:09",
     "offset": 0,
     "size": 28,
     "source": "oeis-bfile"

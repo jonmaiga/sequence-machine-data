@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. exp(exp(x) - 1 + x^3/6).",
+  "id": "A361489",
+  "mentions": [
+    "A124504",
+    "A360991"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

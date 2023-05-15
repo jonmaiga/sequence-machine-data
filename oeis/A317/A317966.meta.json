@@ -2,12 +2,10 @@
   "description": "Nonsquares congruent to 1 or 2 mod 4 which are not the sum of a prime and a square.",
   "id": "A317966",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 22,
     "source": "oeis-entry"

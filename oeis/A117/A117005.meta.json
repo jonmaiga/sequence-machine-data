@@ -1,16 +1,14 @@
 {
-  "description": "A117000(n) - A117001(n).",
+  "description": "a(n) = A117000(n) - A117001(n).",
   "id": "A117005",
   "mentions": [
     "A117000",
     "A117001"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 100,
     "source": "oeis-entry"

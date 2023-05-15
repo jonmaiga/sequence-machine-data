@@ -2,12 +2,10 @@
   "description": "a(1)=1; thereafter a(n) = smallest square m^2 such that m^2 minus (sum of all previous terms) is prime.",
   "id": "A249567",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:06",
     "offset": 1,
     "size": 32,
     "source": "oeis-bfile"

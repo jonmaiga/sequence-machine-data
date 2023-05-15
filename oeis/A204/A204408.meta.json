@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of (n+2)X(k+2) 0..2 arrays with every 3X3 subblock having three strictly increasing elements in a row horizontally, vertically or nw-to-se diagonally",
   "id": "A204408",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:24",
     "offset": 1,
     "size": 23,
     "source": "oeis-bfile"

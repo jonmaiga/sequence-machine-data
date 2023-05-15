@@ -2,14 +2,12 @@
   "description": "a(n) = n^n! (mod 10)",
   "id": "A186723",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:08:09",
     "offset": 0,
     "size": 85,
     "source": "joeis"

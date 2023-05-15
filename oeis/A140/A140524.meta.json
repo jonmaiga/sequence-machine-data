@@ -2,12 +2,10 @@
   "description": "a(1)=2. For n >=2, a(n) = the least integer >= n that is non-coprime to both n and a(n-1).",
   "id": "A140524",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:28",
     "offset": 1,
     "size": 70,
     "source": "oeis-bfile"

@@ -2,7 +2,6 @@
   "description": "A q-form product triangle based on:q=2;a(n, q)= (Sum[(1 + (-1)^n)*(1 + Sqrt[q])^m, {m, 1, n}] + Sum[(1 + (-1)^n)*(1 - Sqrt[q])^m, {m, 1, n}])/4",
   "id": "A173584",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 40,
     "source": "oeis-entry"

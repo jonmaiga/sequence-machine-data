@@ -2,13 +2,11 @@
   "description": "Cardinality of point system found by an explicit construction in 2^n dimensions.",
   "id": "A166116",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "bref",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 2,
     "size": 3,
     "source": "oeis-entry"

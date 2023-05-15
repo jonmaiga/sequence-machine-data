@@ -2,14 +2,12 @@
   "description": "a(n) = smallest number m such that in 1,2,..,m written in base n, no two of the n digits occurs the same number of times.",
   "id": "A152925",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 2,
     "size": 18,
     "source": "oeis-entry"

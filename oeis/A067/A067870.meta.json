@@ -2,7 +2,6 @@
   "description": "Numbers k such that k and 3^k end with the same digit.",
   "id": "A067870",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 15:40:53",
     "offset": 1,
     "size": 54,
     "source": "joeis"

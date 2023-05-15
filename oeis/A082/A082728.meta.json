@@ -2,12 +2,10 @@
   "description": "Numbers expressible as a sum of 2 Fibonacci numbers in exactly 1 way.",
   "id": "A082728",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 45,
     "source": "oeis-entry"

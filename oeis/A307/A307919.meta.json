@@ -2,14 +2,12 @@
   "description": "Number of (undirected) paths in the n X n torus grid graph.",
   "id": "A307919",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "bref",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 3,
     "size": 4,
     "source": "oeis-entry"

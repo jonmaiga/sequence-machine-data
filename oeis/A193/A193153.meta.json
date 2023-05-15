@@ -2,12 +2,10 @@
   "description": "Numbers of spanning trees in the graph join of C_n and C_n.",
   "id": "A193153",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:16",
     "offset": 3,
     "size": 12,
     "source": "oeis-bfile"

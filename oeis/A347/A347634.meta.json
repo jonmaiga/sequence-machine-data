@@ -2,13 +2,11 @@
   "description": "Number of minimum dominating sets in the n-prism graph (for n > 3 except n = 6).",
   "id": "A347634",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 17:31:39",
     "offset": 1,
     "size": 62,
     "source": "joeis"

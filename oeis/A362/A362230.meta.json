@@ -1,0 +1,19 @@
+{
+  "description": "Unitary sparsely totient numbers: numbers k such that m > k implies uphi(m) > uphi(k), where uphi is the unitary totient function (A047994).",
+  "id": "A362230",
+  "mentions": [
+    "A036913",
+    "A047994",
+    "A361966",
+    "A362229",
+    "A362231"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

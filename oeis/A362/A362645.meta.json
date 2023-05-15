@@ -1,0 +1,17 @@
+{
+  "description": "Number of nonisomorphic unordered pairs of permutations of an n-set.",
+  "id": "A362645",
+  "mentions": [
+    "A362644",
+    "A362649"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

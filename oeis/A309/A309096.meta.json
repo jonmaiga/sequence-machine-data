@@ -1,14 +1,17 @@
 {
   "description": "Increasing positive integers with prime factorization exponents all appearing earlier in the sequence.",
   "id": "A309096",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:36",
+  "mentions": [
+    "A055932",
+    "A176297",
+    "A362831"
+  ],
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 51,
     "source": "oeis-entry"

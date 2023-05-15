@@ -2,14 +2,12 @@
   "description": "Numbers whose base-10 representation has the same number of 3's and 7's.",
   "id": "A039138",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:43:43",
     "offset": 1,
     "size": 69,
     "source": "joeis"

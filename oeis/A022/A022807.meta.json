@@ -2,12 +2,10 @@
   "description": "a(n) = S(n) + c(n) where S(n) = [ n*sqrt(2) ] + [ n*sqrt(3) ] and c is the complement of S.",
   "id": "A022807",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:14:17",
     "offset": 1,
     "size": 54,
     "source": "joeis"

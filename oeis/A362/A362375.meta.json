@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = rad((2n-1)!/(n-1)!).",
+  "id": "A362375",
+  "mentions": [
+    "A000407",
+    "A007947",
+    "A034386"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

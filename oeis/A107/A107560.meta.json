@@ -2,13 +2,10 @@
   "description": "Coordination sequence for B_27 lattice.",
   "id": "A107560",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:05:09",
     "offset": 0,
     "size": 16,
     "source": "joeis"

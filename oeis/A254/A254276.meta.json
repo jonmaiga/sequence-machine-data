@@ -2,13 +2,11 @@
   "description": "Decimal expansion of Boltzmann constant in m^-1 K^-1.",
   "id": "A254276",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 2,
     "size": 5,
     "source": "oeis-entry"

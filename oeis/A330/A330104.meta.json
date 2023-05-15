@@ -26,13 +26,11 @@
     "A330122",
     "A330123"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "eigen",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 64,
     "source": "oeis-entry"

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least positive number not yet used such that its binary representation has either all or none of its 1-bits in common with the XOR of a(1) to a(n-1).",
+  "id": "A360706",
+  "mentions": [
+    "A000120",
+    "A116624",
+    "A269868",
+    "A360363"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

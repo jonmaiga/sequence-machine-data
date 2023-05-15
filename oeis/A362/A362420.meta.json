@@ -1,0 +1,18 @@
+{
+  "description": "Partial sum of the first n odd semiprimes.",
+  "id": "A362420",
+  "mentions": [
+    "A046315",
+    "A362419"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

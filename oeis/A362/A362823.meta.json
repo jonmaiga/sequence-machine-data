@@ -1,0 +1,20 @@
+{
+  "description": "Number of labeled magmas with n elements satisfying the identities (xy)y = x and (xy)z = (xz)y.",
+  "id": "A362823",
+  "mentions": [
+    "A362383",
+    "A362643",
+    "A362821",
+    "A362822",
+    "A362824"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

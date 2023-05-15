@@ -12,15 +12,12 @@
     "A245327",
     "A273494"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 100,
     "source": "oeis-entry"

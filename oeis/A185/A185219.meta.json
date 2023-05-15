@@ -11,13 +11,11 @@
     "A185229",
     "A210709"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:09",
     "offset": 0,
     "size": 72,
     "source": "oeis-bfile"

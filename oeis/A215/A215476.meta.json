@@ -2,15 +2,16 @@
   "description": "Minimum number of comparisons needed to find the median of n elements.",
   "id": "A215476",
   "mentions": [
-    "A117627"
+    "A117627",
+    "A360495"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
+    "formulas",
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Numbers n such that 1_666.2_666.3_666 ... 8_666.9_666.10^n+1 is prime, i.e., 1 repeated 666 times, concatenated with 2 repeated 666 times, etc.",
   "id": "A106488",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

@@ -2,7 +2,6 @@
   "description": "(Negated) Decimal expansion of value of absolute zero in degrees Celsius.",
   "id": "A356381",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "cons",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 3,
     "size": 5,
     "source": "oeis-entry"

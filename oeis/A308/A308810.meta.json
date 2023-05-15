@@ -2,14 +2,12 @@
   "description": "Odd positive integers k such that the repetend of the binary representation of 1/k contains more 1's than 0's.",
   "id": "A308810",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 54,
     "source": "oeis-entry"

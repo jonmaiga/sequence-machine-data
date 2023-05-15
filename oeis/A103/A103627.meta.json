@@ -2,13 +2,11 @@
   "description": "Let S(n) = {n,1,n}; sequence gives concatenation S(0), S(1), S(2), ...",
   "id": "A103627",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:54",
     "offset": 0,
     "size": 88,
     "source": "oeis-bfile"

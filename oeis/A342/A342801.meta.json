@@ -2,13 +2,11 @@
   "description": "Primes p such that, if b is the sum of digits of p, y = p mod b and x = (p-y)/b, then p-x*y, p+x*y, x+y and x-y are all prime.",
   "id": "A342801",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:16",
     "offset": 1,
     "size": 48,
     "source": "oeis-bfile"

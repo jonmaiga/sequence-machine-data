@@ -2,13 +2,11 @@
   "description": "Expansion (1-sqrt(1-4*x))/(2*(1-x^4-x)).",
   "id": "A200966",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:21",
     "offset": 1,
     "size": 27,
     "source": "oeis-bfile"

@@ -2,7 +2,6 @@
   "description": "a(n) is the number of odd numbers found in the Collatz trajectory of 6*n + 3 before reaching a number x == 5 (mod 8).",
   "id": "A309771",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "unsolved"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:34",
     "offset": 0,
     "size": 81,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "a(n) = b(n) - c(n) where b(n) is the n-th Fibonacci number greater than 2 and c(n) is the n-th number not in sequence b( ).",
   "id": "A014251",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:21",
     "offset": 1,
     "size": 40,
     "source": "oeis-bfile"

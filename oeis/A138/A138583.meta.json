@@ -2,13 +2,11 @@
   "description": "Triangle read by rows, T[n,2i-1]=2T[n-1,i],T[n,2i]=2k-1-2T[n-1,i].",
   "id": "A138583",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "sign",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 60,
     "source": "oeis-entry"

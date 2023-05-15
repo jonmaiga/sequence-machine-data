@@ -2,13 +2,11 @@
   "description": "Numerator of [x^n] in the Taylor series arccosh(exp(x)-arcsinh(x))= x+x^2/3 -x^3/18 -14*x^4/135 +47*x^5/3240 +3527*x^6/68040 -4787*x^7/680400-...",
   "id": "A013323",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "frac",
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-16 12:46:55",
     "offset": 1,
     "size": 18,
     "source": "joeis"

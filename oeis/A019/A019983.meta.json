@@ -2,13 +2,11 @@
   "description": "Decimal expansion of tangent of 85 degrees.",
   "id": "A019983",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:00",
     "offset": 2,
     "size": 99,
     "source": "joeis"

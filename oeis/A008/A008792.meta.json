@@ -2,7 +2,6 @@
   "description": "Amino acid numbers, based on the rules made to assign each amino acid a unique number smaller than 64.",
   "id": "A008792",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "fini",
     "full",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

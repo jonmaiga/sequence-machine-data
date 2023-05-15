@@ -2,14 +2,12 @@
   "description": "Sum_{n>=0} a(n)*x^n/n!^2 = BesselI(0,2*(1-exp(x))^(1/2)).",
   "id": "A001569",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 11:39:27",
     "offset": 0,
     "size": 20,
     "source": "joeis"

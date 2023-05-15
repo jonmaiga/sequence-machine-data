@@ -2,13 +2,11 @@
   "description": "P-positions in sparse Atomic Wari, octal game .37.",
   "id": "A137295",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

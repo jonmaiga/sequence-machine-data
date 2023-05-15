@@ -6,14 +6,12 @@
     "A078434",
     "A247040"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "cons",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 102,
     "source": "oeis-entry"

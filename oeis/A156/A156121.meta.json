@@ -2,13 +2,11 @@
   "description": "First prime of a pair, formed by concatenating n, n+1, the second prime (not shown) formed by concatenating n+2, n+3.",
   "id": "A156121",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:38",
     "offset": 1,
     "size": 26,
     "source": "oeis-bfile"

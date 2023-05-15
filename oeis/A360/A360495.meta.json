@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the minimum number of pairwise comparisons needed (in the worst case) to determine the k-th largest of n distinct numbers, for 1 <= k <= n.",
+  "id": "A360495",
+  "mentions": [
+    "A036604",
+    "A080804",
+    "A215476"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "nice",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

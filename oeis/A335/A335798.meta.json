@@ -2,14 +2,12 @@
   "description": "Orders of centralizers of conjugacy classes of the Monster in Atlas order.",
   "id": "A335798",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:07",
     "offset": 1,
     "size": 10,
     "source": "oeis-bfile"

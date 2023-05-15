@@ -24,13 +24,11 @@
     "A139071",
     "A139072"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "bref",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 3,
     "source": "oeis-entry"

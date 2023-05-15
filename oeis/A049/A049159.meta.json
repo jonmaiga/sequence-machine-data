@@ -2,12 +2,10 @@
   "description": "Recip transform of 2*(1 + x^3 + x^4 + x^5)-1/(1-x).",
   "id": "A049159",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 19:49:16",
     "offset": 0,
     "size": 25,
     "source": "joeis"

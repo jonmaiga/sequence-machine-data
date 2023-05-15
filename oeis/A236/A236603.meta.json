@@ -4,14 +4,12 @@
   "mentions": [
     "A236602"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "hard",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:54",
     "offset": 1,
     "size": 90,
     "source": "oeis-bfile"

@@ -8,16 +8,13 @@
     "A360988",
     "A360990"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "formulas",
-    "new",
     "sign"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 0,
     "size": 19,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

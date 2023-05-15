@@ -2,13 +2,11 @@
   "description": "Number of random-noble-means substitution-legal words of length n.",
   "id": "A235607",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 0,
     "size": 13,
     "source": "oeis-entry"

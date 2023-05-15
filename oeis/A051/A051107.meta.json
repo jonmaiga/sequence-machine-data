@@ -2,13 +2,11 @@
   "description": "Numbers described with a single word in British English.",
   "id": "A051107",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 0,
     "size": 35,
     "source": "oeis-entry"

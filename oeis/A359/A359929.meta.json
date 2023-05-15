@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows, where row n lists k < t such that rad(k) = rad(t) but k does not divide t, where t = A360768(n) and rad(k) = A007947(k).",
+  "id": "A359929",
+  "mentions": [
+    "A007947",
+    "A126706",
+    "A355432",
+    "A359382",
+    "A360768"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

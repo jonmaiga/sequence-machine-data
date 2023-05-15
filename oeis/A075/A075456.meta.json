@@ -2,14 +2,12 @@
   "description": "Distinct-digit averages of two successive perfect powers (pp(n) + pp(n+1))/2.",
   "id": "A075456",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 38,
     "source": "oeis-entry"

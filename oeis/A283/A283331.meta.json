@@ -2,12 +2,10 @@
   "description": "a(n) = (Sum_{j=1..(K-1)/2} a(n-2*j+1)*a(n-2*j))/a(n-K) with a(1),...,a(K)=1, where K=7.",
   "id": "A283331",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:54",
     "offset": 1,
     "size": 19,
     "source": "oeis-bfile"

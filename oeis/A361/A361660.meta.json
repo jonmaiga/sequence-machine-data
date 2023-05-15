@@ -1,0 +1,17 @@
+{
+  "description": "Irregular triangle read by rows where row n lists the successive numbers moved in the process of forming row n of the triangle A361642.",
+  "id": "A361660",
+  "mentions": [
+    "A002541",
+    "A361642"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

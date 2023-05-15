@@ -8,7 +8,6 @@
     "A137989",
     "A287013"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "cons",
     "easy",
@@ -16,7 +15,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:26",
     "offset": 0,
     "size": 99,
     "source": "oeis-bfile"

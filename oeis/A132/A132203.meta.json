@@ -2,12 +2,10 @@
   "description": "Number of order-independent ways to represent 24*n+5 as the sum of squares of exactly 5 primes.",
   "id": "A132203",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 75,
     "source": "oeis-entry"

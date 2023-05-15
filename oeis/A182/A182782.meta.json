@@ -2,12 +2,10 @@
   "description": "a(n) is one less than the length of the sequence b(n) defined by: b(1) = n; for k > 1, b(k+1) is the smallest prime factor of 1+b(k)^2 not already in the b-sequence.",
   "id": "A182782",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 109,
     "source": "oeis-entry"

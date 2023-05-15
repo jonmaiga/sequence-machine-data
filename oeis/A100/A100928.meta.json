@@ -2,13 +2,11 @@
   "description": "Number of partitions of n into parts free of odd octagonal (star) numbers: k(3k-2) and the only number with multiplicity in the unrestricted partitions is the number 2 with multiplicity of the form :4k+2l, k a positive integer and l=0,1.",
   "id": "A100928",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 57,
     "source": "oeis-entry"

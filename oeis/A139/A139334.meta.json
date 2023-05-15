@@ -2,13 +2,11 @@
   "description": "Starts with 2; has two properties: concatenation of its digits is same string as concatenation of digits of its first differences and sequence and first differences have no term in common. When there is a choice in choosing the next term in the first differences, choose the smallest number not yet present in either the sequence or its first differences.",
   "id": "A139334",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:27",
     "offset": 1,
     "size": 46,
     "source": "oeis-bfile"

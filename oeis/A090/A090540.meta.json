@@ -2,13 +2,11 @@
   "description": "Beginning with 3, least prime obtained by sandwiching the previous term between strings of identical digits.",
   "id": "A090540",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

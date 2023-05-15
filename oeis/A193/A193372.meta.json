@@ -2,12 +2,10 @@
   "description": "Number of nXnXn triangular 0..7 arrays with no element equal to the product mod 8 of any two neighbors",
   "id": "A193372",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 5,
     "source": "oeis-entry"

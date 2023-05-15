@@ -2,13 +2,11 @@
   "description": "Numbers k such that (10^(2k) - 2*(10^k) + 4)/12 is prime.",
   "id": "A297419",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Number of compositions of n such that the minimum part is equal to 1 and the first 1 occurs before any maximum part in the composition.",
   "id": "A238089",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:55",
     "offset": 0,
     "size": 35,
     "source": "oeis-bfile"

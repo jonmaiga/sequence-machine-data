@@ -1,8 +1,9 @@
 {
-  "description": "Decimal expansion of Product{k>0, 1-1/(2*8^k)}.",
+  "description": "Decimal expansion of Product_{k>=0} (1-1/(2*8^k)).",
   "id": "A132024",
   "mentions": [
     "A000217",
+    "A013730",
     "A048651",
     "A067080",
     "A098844",
@@ -11,14 +12,13 @@
     "A132032",
     "A132036"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
+    "changed",
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 103,
     "source": "oeis-entry"

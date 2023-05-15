@@ -13,13 +13,11 @@
     "A085313",
     "A085314"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "mult",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:45",
     "offset": 1,
     "size": 81,
     "source": "oeis-bfile"

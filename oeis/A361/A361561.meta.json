@@ -1,0 +1,22 @@
+{
+  "description": "Number of even middle divisors of n, where \"middle divisor\" means a divisor in the half-open interval [sqrt(n/2), sqrt(n*2)).",
+  "id": "A361561",
+  "mentions": [
+    "A067742",
+    "A071090",
+    "A071562",
+    "A183063",
+    "A299761",
+    "A358434",
+    "A361824"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

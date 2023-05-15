@@ -1,0 +1,16 @@
+{
+  "description": "Central terms of triangle A361550.",
+  "id": "A361556",
+  "mentions": [
+    "A361550"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

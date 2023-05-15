@@ -1,18 +1,21 @@
 {
-  "description": "a(1) = 5; for n > 1, a(n) = 1 + 4*Product_{i=1..n-1} a(i)^2.",
+  "description": "a(0) = 1; for n > 0, a(n) = 1 + 4*Product_{i=1..n-1} a(i)^2.",
   "id": "A231830",
   "mentions": [
+    "A000058",
     "A002144",
-    "A231831"
+    "A007018",
+    "A231831",
+    "A362252",
+    "A362253"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
-    "offset": 1,
-    "size": 5,
+    "offset": 0,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

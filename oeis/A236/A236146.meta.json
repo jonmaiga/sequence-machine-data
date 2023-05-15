@@ -6,7 +6,6 @@
     "A181771",
     "A196111"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "hard",
@@ -14,7 +13,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:53",
     "offset": 1,
     "size": 34,
     "source": "oeis-bfile"

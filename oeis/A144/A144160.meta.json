@@ -2,12 +2,10 @@
   "description": "Number of pairs p,q with p < q such that 30*r(n)=p+q+2 and p p+2, q q+2 twin primes, r(i)=i-th prime.",
   "id": "A144160",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:33",
     "offset": 1,
     "size": 80,
     "source": "oeis-bfile"

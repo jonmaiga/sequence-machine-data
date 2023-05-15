@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the digits of k are a subsequence of the digits of prime(k).",
+  "id": "A362060",
+  "mentions": [
+    "A000040",
+    "A133583",
+    "A133589",
+    "A362066"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

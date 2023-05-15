@@ -2,13 +2,11 @@
   "description": "a(n) is the least prime p such that k*(p^2-1)+2*n+1 is prime for k=1..2*n, or 0 if there is no such p.",
   "id": "A351848",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

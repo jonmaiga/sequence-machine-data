@@ -2,14 +2,12 @@
   "description": "Numbers n such that n = p*phi(p) where p is product of the digits of n.",
   "id": "A153425",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

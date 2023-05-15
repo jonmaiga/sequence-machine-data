@@ -2,13 +2,11 @@
   "description": "Numbers n such that 3*14^n-1 is prime.",
   "id": "A270011",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 0,
     "size": 19,
     "source": "oeis-entry"

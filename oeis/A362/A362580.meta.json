@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = packing chromatic number of an n X n grid.",
+  "id": "A362580",
+  "mentions": [
+    "A335203"
+  ],
+  "tags": [
+    "changed",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

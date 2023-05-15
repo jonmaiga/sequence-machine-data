@@ -2,13 +2,11 @@
   "description": "Number of irredundant sets in the n-pan graph.",
   "id": "A291107",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 01:54:24",
     "offset": 1,
     "size": 37,
     "source": "joeis"

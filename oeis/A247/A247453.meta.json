@@ -7,14 +7,12 @@
     "A062162",
     "A109449"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:03",
     "offset": 0,
     "size": 56,
     "source": "oeis-bfile"

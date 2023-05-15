@@ -2,14 +2,12 @@
   "description": "Fourier coefficients of (normalized Delta)^3.",
   "id": "A035118",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-28 15:18:31",
     "offset": 3,
     "size": 20,
     "source": "joeis"

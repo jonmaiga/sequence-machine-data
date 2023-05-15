@@ -2,14 +2,12 @@
   "description": "a(n) = 2^n + 5.",
   "id": "A168614",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:52",
     "offset": 0,
     "size": 32,
     "source": "oeis-bfile"

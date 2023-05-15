@@ -2,14 +2,12 @@
   "description": "Number of Fibonacci numbers F(k), k <= 10^n, whose initial digit is 8.",
   "id": "A073564",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:47",
     "offset": 0,
     "size": 9,
     "source": "oeis-entry"

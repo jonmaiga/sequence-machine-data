@@ -6,7 +6,6 @@
     "A005151",
     "A063850"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "easy",
@@ -14,7 +13,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 22,
     "source": "oeis-entry"

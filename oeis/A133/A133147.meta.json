@@ -2,12 +2,10 @@
   "description": "a(n) = a(n-1) + Sum_{k=0..floor(log_2(n-1))} a(2^k), a(1) = 1.",
   "id": "A133147",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 43,
     "source": "oeis-entry"

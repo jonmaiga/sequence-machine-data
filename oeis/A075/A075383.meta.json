@@ -15,7 +15,6 @@
     "A096781",
     "A263896"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "look",
@@ -23,7 +22,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:27",
     "offset": 1,
     "size": 67,
     "source": "oeis-bfile"

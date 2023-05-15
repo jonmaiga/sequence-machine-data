@@ -2,13 +2,11 @@
   "description": "Dimensions where the volume of an L^p unit ball is maximized.",
   "id": "A255135",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 28,
     "source": "oeis-entry"

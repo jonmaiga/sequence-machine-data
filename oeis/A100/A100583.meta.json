@@ -2,14 +2,12 @@
   "description": "Number of triangles in an n X n grid of squares with diagonals.",
   "id": "A100583",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:40:53",
     "offset": 0,
     "size": 37,
     "source": "joeis"

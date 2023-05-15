@@ -2,14 +2,12 @@
   "description": "Numbers n with property that there is no number k in the range ceiling(sqrt(3n)) <= k <= floor(sqrt(4n)) with k == n mod 2.",
   "id": "A261905",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 15,
     "source": "oeis-entry"

@@ -7,15 +7,12 @@
     "A060602",
     "A060637"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "formulas",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:47",
     "offset": 9,
     "size": 5,
     "source": "oeis-entry"

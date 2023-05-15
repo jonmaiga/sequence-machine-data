@@ -2,12 +2,10 @@
   "description": "E.g.f.: A(x) = 1 + Sum_{n>=1} (1/n!)*Product_{k=1..n} -log(1 - kx).",
   "id": "A135751",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 18,
     "source": "oeis-entry"

@@ -2,7 +2,6 @@
   "description": "Weight enumerator of [32,6,16] Reed-Muller code RM(1,5).",
   "id": "A110823",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "bref",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 3,
     "source": "oeis-entry"

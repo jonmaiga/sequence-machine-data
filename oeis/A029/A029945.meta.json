@@ -2,14 +2,12 @@
   "description": "Smallest square containing n-th prime as substring.",
   "id": "A029945",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "look",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:39",
     "offset": 1,
     "size": 37,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "1024*P_15(n), 1024 times the Legendre polynomial of order 15 at n.",
   "id": "A160867",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 17:14:31",
     "offset": 0,
     "size": 12,
     "source": "joeis"

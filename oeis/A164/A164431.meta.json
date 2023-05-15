@@ -2,13 +2,11 @@
   "description": "Number of binary strings of length n with no substrings equal to 0000 0011 or 1101",
   "id": "A164431",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:46",
     "offset": 4,
     "size": 34,
     "source": "oeis-bfile"

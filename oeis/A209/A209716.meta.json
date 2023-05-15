@@ -2,13 +2,11 @@
   "description": "T(n,k)=1/4 the number of (n+1)X(k+1) 0..3 arrays with every 2X2 subblock having distinct clockwise edge differences",
   "id": "A209716",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:29",
     "offset": 1,
     "size": 29,
     "source": "oeis-bfile"

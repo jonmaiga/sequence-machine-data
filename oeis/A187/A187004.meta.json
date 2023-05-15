@@ -2,14 +2,12 @@
   "description": "Expansion of A(x) = (1 + 2*x^2 + 6*x^3 + 9*x^4 + 8*x^5 + 5*x^6) / (1 - x - 2*x^2 - 3*x^3 - 3*x^4 - 2*x^5 - x^6).",
   "id": "A187004",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 10:11:15",
     "offset": 1,
     "size": 27,
     "source": "joeis"

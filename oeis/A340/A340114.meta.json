@@ -7,7 +7,6 @@
     "A337125",
     "A339491"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "formulas",
     "hard",
@@ -15,7 +14,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:12",
     "offset": 1,
     "size": 73,
     "source": "oeis-bfile"

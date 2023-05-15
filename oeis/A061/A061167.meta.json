@@ -10,14 +10,12 @@
     "A052530",
     "A249674"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 13:11:39",
     "offset": 0,
     "size": 32,
     "source": "joeis"

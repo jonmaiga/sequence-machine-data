@@ -2,12 +2,10 @@
   "description": "Maximal numerator of Product[(k/(k+1))^e(k),{k,1,n}] over all exponents e(k) equal to either 1 or -1.",
   "id": "A127588",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:15",
     "offset": 1,
     "size": 24,
     "source": "oeis-bfile"

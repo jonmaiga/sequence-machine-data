@@ -2,12 +2,10 @@
   "description": "Number of permutations of 0..(n-1) representable as consecutive sums of 6 adjacent elements of a sequence of n+5 nonnegative integers",
   "id": "A180209",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 17,
     "source": "oeis-entry"

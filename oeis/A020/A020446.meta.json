@@ -2,12 +2,10 @@
   "description": "Period of continued fraction for sqrt(n) contains exactly ten 1's.",
   "id": "A020446",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:09:51",
     "offset": 1,
     "size": 52,
     "source": "joeis"

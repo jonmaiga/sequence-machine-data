@@ -2,14 +2,12 @@
   "description": "4*P_5(n), 4 times the Legendre Polynomial of order 5 at n.",
   "id": "A160737",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 17:14:19",
     "offset": 0,
     "size": 27,
     "source": "joeis"

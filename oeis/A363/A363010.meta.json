@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = n! * [x^n] 1/(1 - f^n(x)), where f(x) = exp(x) - 1.",
+  "id": "A363010",
+  "mentions": [
+    "A139383",
+    "A153278",
+    "A261280",
+    "A346802",
+    "A351433",
+    "A363007"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

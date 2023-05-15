@@ -2,13 +2,11 @@
   "description": "Integers with the property that there exists a nontrivial partition such that the digit sum of both partitions is equal.",
   "id": "A083967",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:35",
     "offset": 0,
     "size": 54,
     "source": "oeis-bfile"

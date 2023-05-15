@@ -2,13 +2,11 @@
   "description": "Non-Hamiltonian polyhedra with n nodes.",
   "id": "A007033",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 1,
     "size": 15,
     "source": "oeis-entry"

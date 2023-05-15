@@ -2,12 +2,10 @@
   "description": "A number n is included if, for at least one distinct prime p dividing n, p+1 divides n.",
   "id": "A126798",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:14",
     "offset": 1,
     "size": 56,
     "source": "oeis-bfile"

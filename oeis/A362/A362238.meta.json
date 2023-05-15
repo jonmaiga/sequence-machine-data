@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f.: 1/(1 - x*(1+x)^x).",
+  "id": "A362238",
+  "mentions": [
+    "A002478",
+    "A099234",
+    "A099235",
+    "A202152",
+    "A362237"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

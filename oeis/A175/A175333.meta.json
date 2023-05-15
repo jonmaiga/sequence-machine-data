@@ -2,13 +2,11 @@
   "description": "a(n) is the smallest prime such that (binary a(n)) OR (binary prime(n)) is one less than a power of 2.",
   "id": "A175333",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

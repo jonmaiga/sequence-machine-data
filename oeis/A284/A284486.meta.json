@@ -2,14 +2,12 @@
   "description": "The lexicographically earliest table read by antidiagonals such that any value appears at most twice on any straight line (of any slope).",
   "id": "A284486",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "look",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:55",
     "offset": 1,
     "size": 87,
     "source": "oeis-bfile"

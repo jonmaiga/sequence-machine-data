@@ -2,13 +2,11 @@
   "description": "Smallest prime p > prime(n) such that p-prime(n) is a square.",
   "id": "A071730",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 56,
     "source": "oeis-entry"

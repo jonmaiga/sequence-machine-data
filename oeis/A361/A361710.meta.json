@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k = 0..n-1} (-1)^k*binomial(n,k)*binomial(n-1,k)^2.",
+  "id": "A361710",
+  "mentions": [
+    "A005258",
+    "A006480",
+    "A245086",
+    "A361711",
+    "A361716"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

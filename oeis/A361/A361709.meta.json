@@ -1,0 +1,18 @@
+{
+  "description": "Moebius transform of nonprimes.",
+  "id": "A361709",
+  "mentions": [
+    "A007444",
+    "A018252",
+    "A361708"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "joeis"
+  }
+}

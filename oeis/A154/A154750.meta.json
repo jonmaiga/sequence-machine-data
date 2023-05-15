@@ -6,14 +6,12 @@
     "A154748",
     "A154749"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:36",
     "offset": -2,
     "size": 29,
     "source": "oeis-bfile"

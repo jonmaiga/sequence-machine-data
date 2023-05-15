@@ -2,13 +2,11 @@
   "description": "a(n) = n! - n^9.",
   "id": "A144768",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:33",
     "offset": 0,
     "size": 22,
     "source": "oeis-bfile"

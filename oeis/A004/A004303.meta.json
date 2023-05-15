@@ -2,13 +2,11 @@
   "description": "a(n) = C(2n-2,n-1)/n - 2^(n-1) + n.",
   "id": "A004303",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 14:09:16",
     "offset": 1,
     "size": 28,
     "source": "joeis"

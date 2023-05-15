@@ -2,13 +2,11 @@
   "description": "Triangle T(n,k) read by rows with the coefficient [x^k] of the polynomial (x+1)^n + (2*n-3) *( (x+1)^n -x^n -1 ) in column k, row n.",
   "id": "A168619",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 64,
     "source": "oeis-entry"

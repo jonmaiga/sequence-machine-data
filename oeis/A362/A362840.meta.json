@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest number x between 1 and n-1 for which the number 1/x achieves the longest cycle of repeating digits in its expansion in base n.",
+  "id": "A362840",
+  "mentions": [
+    "A051626",
+    "A362865"
+  ],
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

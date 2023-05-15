@@ -23,15 +23,12 @@
     "A211216",
     "A259475"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:32",
     "offset": 0,
     "size": 91,
     "source": "oeis-bfile"

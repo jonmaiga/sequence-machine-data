@@ -2,13 +2,11 @@
   "description": "Number of tatami tilings of an n X n square with exactly k horizontal dimers and n monomers (no restriction on the number of vertical dimers).",
   "id": "A192095",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 92,
     "source": "oeis-entry"

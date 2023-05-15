@@ -9,14 +9,12 @@
     "A060632",
     "A139250"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:34",
     "offset": 0,
     "size": 62,
     "source": "oeis-bfile"

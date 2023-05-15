@@ -15,18 +15,16 @@
     "A105723",
     "A111317",
     "A135440",
-    "A166920"
+    "A166920",
+    "A211023"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 18:48:47",
     "offset": 0,
     "size": 34,
     "source": "joeis"

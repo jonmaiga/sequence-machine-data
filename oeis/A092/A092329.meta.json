@@ -2,14 +2,12 @@
   "description": "Number of nonisomorphic, constructed lattice-square designs of order n as n runs through the odd prime-powers (3, 5, 7, 9, 11, 13, ...).",
   "id": "A092329",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn",
     "obsc",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 3,
     "size": 6,
     "source": "oeis-entry"

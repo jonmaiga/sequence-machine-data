@@ -7,13 +7,11 @@
     "A171263",
     "A171264"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

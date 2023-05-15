@@ -2,12 +2,10 @@
   "description": "Expansion of (theta_3(z)*theta_3(10z)+theta_2(z)*theta_2(10z))^2.",
   "id": "A028606",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-11-11 15:41:38",
     "offset": 0,
     "size": 72,
     "source": "joeis"

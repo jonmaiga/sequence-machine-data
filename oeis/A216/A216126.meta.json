@@ -2,14 +2,12 @@
   "description": "5^n mod 10000.",
   "id": "A216126",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 14:42:41",
     "offset": 1,
     "size": 46,
     "source": "joeis"

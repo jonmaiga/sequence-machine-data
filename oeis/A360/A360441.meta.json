@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of pairs (c,m), where c is a covering of the 1 X (2n) grid with 1 X 2 rectangles and equal numbers of red and blue 1 X 1 squares and m is a matching between red squares and blue squares, such that exactly k matched pairs are adjacent.",
+  "id": "A360441",
+  "mentions": [
+    "A001517",
+    "A002119",
+    "A168422",
+    "A253667"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

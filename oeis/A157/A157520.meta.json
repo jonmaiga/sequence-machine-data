@@ -2,13 +2,11 @@
   "description": "Table T(n,2) read by row with T(n,2)=least j",
   "id": "A157520",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 90,
     "source": "oeis-entry"

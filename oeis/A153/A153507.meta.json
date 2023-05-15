@@ -2,13 +2,11 @@
   "description": "Primes p such that 2*p^3 + 3 is also prime.",
   "id": "A153507",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:35",
     "offset": 1,
     "size": 49,
     "source": "oeis-bfile"

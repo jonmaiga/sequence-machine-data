@@ -1,0 +1,20 @@
+{
+  "description": "The aerated factorial numbers.",
+  "id": "A361522",
+  "mentions": [
+    "A000142",
+    "A081123",
+    "A081124",
+    "A084261",
+    "A161556"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

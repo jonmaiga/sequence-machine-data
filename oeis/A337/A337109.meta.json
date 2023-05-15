@@ -2,13 +2,11 @@
   "description": "Sequence starting with a(1) = 2 and always extended with the product \"n-th digit * n-th term\". When the product is = 0, we don’t extend the sequence with 0 but with the smallest integer not yet present.",
   "id": "A337109",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:08",
     "offset": 1,
     "size": 37,
     "source": "oeis-bfile"

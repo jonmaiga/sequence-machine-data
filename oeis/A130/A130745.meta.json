@@ -2,12 +2,10 @@
   "description": "Least k such that k*6*(M(n)^500)-1 is prime where M(i)= i-th Mersenne prime.",
   "id": "A130745",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

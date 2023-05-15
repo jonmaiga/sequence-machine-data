@@ -2,13 +2,11 @@
   "description": "Number of equilateral triangles of edge length square root of 2n and having vertices in Z^4, one of which is the origin.",
   "id": "A334654",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 46,
     "source": "oeis-entry"

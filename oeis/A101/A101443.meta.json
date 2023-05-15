@@ -2,7 +2,6 @@
   "description": "Continued fraction expansion of (I_0(1/2)/I_1(1/2)-1)/2 = 1.56185896... (where I_n is the modified Bessel function of the first kind).",
   "id": "A101443",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "cofr",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 14:43:39",
     "offset": 0,
     "size": 92,
     "source": "joeis"

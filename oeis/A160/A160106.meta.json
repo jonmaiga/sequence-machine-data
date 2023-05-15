@@ -2,15 +2,14 @@
   "description": "Decimal representation of Bernays's number, 67^257^729.",
   "id": "A160106",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
+    "changed",
     "cons",
     "fini",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:42",
     "offset": 1,
     "size": 105,
     "source": "oeis-bfile"

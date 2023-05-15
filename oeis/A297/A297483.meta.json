@@ -2,13 +2,11 @@
   "description": "Number of maximal matchings in the n X n queen graph.",
   "id": "A297483",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

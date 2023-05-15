@@ -2,12 +2,10 @@
   "description": "Expansion of Sum_{n >= 1} q^n(1-q)(1-q^2)...(1-q^(2n-1))/((1+q^2)(1+q^4)...(1+q^(2n))).",
   "id": "A161520",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 99,
     "source": "oeis-entry"

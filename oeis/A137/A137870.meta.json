@@ -2,12 +2,10 @@
   "description": "Prime numbers, isolated from neighboring primes by >6.",
   "id": "A137870",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:26",
     "offset": 1,
     "size": 45,
     "source": "oeis-bfile"

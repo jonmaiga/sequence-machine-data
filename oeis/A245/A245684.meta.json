@@ -2,13 +2,11 @@
   "description": "Decimal expansion of the expected distance from a randomly selected point in the unit circle to a point on the boundary: 32/(9*Pi).",
   "id": "A245684",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:48:05",
     "offset": 1,
     "size": 141,
     "source": "joeis"

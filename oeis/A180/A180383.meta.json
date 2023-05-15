@@ -2,13 +2,11 @@
   "description": "T(n,k)=number of increasing sequences of n integers x(1),...,x(n) with values in 1..k*n such that x(j) divides x(k) if j divides k",
   "id": "A180383",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:03",
     "offset": 1,
     "size": 65,
     "source": "oeis-bfile"

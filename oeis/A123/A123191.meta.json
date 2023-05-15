@@ -2,14 +2,12 @@
   "description": "Triangle read by rows: T(n,k) is the coefficient of x^k in the polynomial P[n] defined by P[0]=1, P[1]=x-1, P[n]=(1-x)P[n-1]+xP[n-2] for n>=2. Alternatively, P[n]=-1-(-x)^n-3*Sum((-x)^k,k=1..n-1).",
   "id": "A123191",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 66,
     "source": "oeis-entry"

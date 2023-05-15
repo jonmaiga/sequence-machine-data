@@ -2,13 +2,11 @@
   "description": "G.f. A(x) satisfies: Sum_{n>=0} A(x^n)^n = x.",
   "id": "A326559",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:53",
     "offset": 1,
     "size": 151,
     "source": "oeis-bfile"

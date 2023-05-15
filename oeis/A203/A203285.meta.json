@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of nXk binary arrays with every element neighboring horizontally or vertically both a 0 and a 1",
   "id": "A203285",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:23",
     "offset": 1,
     "size": 58,
     "source": "oeis-bfile"

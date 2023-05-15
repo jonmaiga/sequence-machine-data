@@ -2,12 +2,10 @@
   "description": "Number of n-length words on infinite alphabet {1,2,...} such that the maximal runs of consecutive equal integers have lengths that are at least as great as the integer.",
   "id": "A242551",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:58",
     "offset": 0,
     "size": 36,
     "source": "oeis-bfile"

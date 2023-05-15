@@ -2,12 +2,10 @@
   "description": "Integers of the form sum_{i=2521..j} i/(i-2520) for any upper limit j.",
   "id": "A144971",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

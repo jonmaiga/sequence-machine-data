@@ -2,13 +2,11 @@
   "description": "Minimal positive number m for which Sum_{k=1..m} k^n < m!.",
   "id": "A113777",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:04",
     "offset": 0,
     "size": 71,
     "source": "oeis-bfile"

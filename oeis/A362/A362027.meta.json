@@ -1,0 +1,23 @@
+{
+  "description": "Squares visited by a knight moving on a square-spiral numbered board where the knight moves to a previously unvisited square with a number as close as possible to the number of the current square. If two such squares exist the smaller numbered square is chosen.",
+  "id": "A362027",
+  "mentions": [
+    "A174344",
+    "A274923",
+    "A316667",
+    "A328909",
+    "A328929",
+    "A358150",
+    "A358278"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

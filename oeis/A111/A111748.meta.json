@@ -2,12 +2,10 @@
   "description": "a(n) = 1 if n-th composite number is squarefree, otherwise a(n) = 0.",
   "id": "A111748",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 86,
     "source": "oeis-entry"

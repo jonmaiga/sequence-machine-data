@@ -2,13 +2,11 @@
   "description": "Primes p such that p and p+2 are twin primes and also the strings 987654321p and 987654321p+2 are twin primes.",
   "id": "A103818",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 34,
     "source": "oeis-entry"

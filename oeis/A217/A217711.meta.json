@@ -2,13 +2,11 @@
   "description": "Total number of 321 patterns in the set of permutations avoiding 123.",
   "id": "A217711",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 10:19:57",
     "offset": 3,
     "size": 23,
     "source": "joeis"

@@ -2,12 +2,10 @@
   "description": "2*JacobiSymbol(p,5) mod p^2 for p=prime(n).",
   "id": "A113651",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

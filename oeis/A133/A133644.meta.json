@@ -2,13 +2,11 @@
   "description": "Triangle read by rows: T(n,k) (n >= 1, 1 <= k <= n) = largest permanent of any n X n (0,1) matrix with k 1's in each row and column.",
   "id": "A133644",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

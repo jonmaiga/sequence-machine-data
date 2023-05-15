@@ -1,22 +1,19 @@
 {
-  "description": "Decimal expansion of the first zero of the solution to a certain ODE (negated).",
+  "description": "Decimal expansion of the first zero of the solution to the differential equation cos(t)*f'(t) + sin(t)*f''(t) + (3/4)*sin(t)*f(t) = 0, f(-Pi/2) = 1, f'(-Pi/2) = 0 (negated).",
   "id": "A104241",
   "mentions": [
     "A104996",
     "A104997",
     "A105372"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "cons",
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
-    "size": 54,
+    "size": 105,
     "source": "oeis-entry"
   }
 }

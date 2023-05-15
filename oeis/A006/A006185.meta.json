@@ -2,14 +2,12 @@
   "description": "Number of pair-coverings with largest block size 3.",
   "id": "A006185",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 12:37:07",
     "offset": 3,
     "size": 54,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "a(n) = (9*n + 3)^12.",
   "id": "A017208",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:24",
     "offset": 0,
     "size": 10,
     "source": "oeis-bfile"

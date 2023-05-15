@@ -2,13 +2,11 @@
   "description": "a(n) = -prime(n) + prime(n + prime(n)) - 1.",
   "id": "A180470",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 51,
     "source": "oeis-entry"

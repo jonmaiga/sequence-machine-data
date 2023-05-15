@@ -2,13 +2,11 @@
   "description": "Expansion of 1/q(x) = x^11*p(x+1/x) where p(x)= -2 -167*x +1694*x^2 -6069*x^3 +11210*x^4 -12297*x^5 +8554*x^6 -3875*x^7 +1140*x^8 -210*x^9 +22*x^10 - x^11.",
   "id": "A143479",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 22,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Erdős-Selfridge function: a(n) is the least number m > n+1 such that the least prime factor of binomial(m, n) is > n.",
   "id": "A003458",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "easy",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:04",
     "offset": 1,
     "size": 41,
     "source": "oeis-bfile"

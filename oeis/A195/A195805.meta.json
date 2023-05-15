@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of triangular nXnXn 0..k arrays with all rows and diagonals having the same length having the same sum, with corners zero",
   "id": "A195805",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 51,
     "source": "oeis-entry"

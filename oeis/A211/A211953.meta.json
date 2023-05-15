@@ -2,13 +2,11 @@
   "description": "Number of distinct regular languages over 4-ary alphabet, whose minimum regular expression has ordinary length n.",
   "id": "A211953",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

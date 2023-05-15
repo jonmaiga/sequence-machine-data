@@ -2,7 +2,6 @@
   "description": "Numbers n in which the first K digits of n form an integer divisible by the K-th prime, for K = 1, 2, ..., M, where M is the number of digits in n.",
   "id": "A079206",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:30",
     "offset": 1,
     "size": 54,
     "source": "oeis-bfile"

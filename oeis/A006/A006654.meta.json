@@ -2,12 +2,10 @@
   "description": "From the graph reconstruction problem.",
   "id": "A006654",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 3,
     "size": 9,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "List of pairs of primes p_i < p_j such that p_i*p_j = p_i + p_{i+1} + p_{i+2} + ... + p_j.",
   "id": "A176914",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

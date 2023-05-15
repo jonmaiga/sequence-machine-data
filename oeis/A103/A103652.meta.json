@@ -2,7 +2,6 @@
   "description": "Three-digit numbers with nonincreasing decimal digits such that the first digit modulo the second digit equals the third digit.",
   "id": "A103652",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
@@ -11,7 +10,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 45,
     "source": "oeis-entry"

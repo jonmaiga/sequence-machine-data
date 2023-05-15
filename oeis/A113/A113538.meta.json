@@ -2,12 +2,10 @@
   "description": "This list of numbers a(i) has the property that every left-subset of length n > 0 of the numbers a(i) is divisible by i+n and are the largest such integers for every i.",
   "id": "A113538",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 20,
     "source": "oeis-entry"

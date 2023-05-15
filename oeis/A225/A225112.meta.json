@@ -2,14 +2,12 @@
   "description": "Decimal expansion of integral of 1/binomial(2x,x) from x = 0 to infinity.",
   "id": "A225112",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 103,
     "source": "oeis-entry"

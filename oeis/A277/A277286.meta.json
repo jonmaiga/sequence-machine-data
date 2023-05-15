@@ -2,12 +2,10 @@
   "description": "Composite numbers k such that b^k == b (mod sigma(k)) for every integer b.",
   "id": "A277286",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 36,
     "source": "oeis-entry"

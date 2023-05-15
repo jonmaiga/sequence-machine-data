@@ -6,14 +6,13 @@
     "A046860",
     "A335343"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
+    "changed",
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 0,
     "size": 45,
     "source": "oeis-entry"

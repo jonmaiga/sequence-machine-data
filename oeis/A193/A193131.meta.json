@@ -2,14 +2,12 @@
   "description": "Numbers of spanning trees of the complete tripartite graphs K_{n,n,n}.",
   "id": "A193131",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:16",
     "offset": 1,
     "size": 10,
     "source": "oeis-bfile"

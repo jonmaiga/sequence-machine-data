@@ -2,14 +2,12 @@
   "description": "Concatenations of the first k primes for some k that are also products of k distinct primes.",
   "id": "A217683",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

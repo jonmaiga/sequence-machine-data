@@ -2,13 +2,11 @@
   "description": "Prime numbers that cannot become prime by chopping off any of the initial consecutive digits.",
   "id": "A196095",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:17",
     "offset": 1,
     "size": 52,
     "source": "oeis-bfile"

@@ -2,7 +2,6 @@
   "description": "Nonprimes of form (2*3*5*7*11-p), where p is prime.",
   "id": "A141075",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "fini",
@@ -11,7 +10,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:29",
     "offset": 1,
     "size": 48,
     "source": "oeis-bfile"

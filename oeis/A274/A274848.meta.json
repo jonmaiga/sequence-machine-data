@@ -2,12 +2,10 @@
   "description": "Numbers n such that n^2 is expressible in just one way as (p+1)(q+1) where p, q are distinct primes.",
   "id": "A274848",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:39",
     "offset": 1,
     "size": 66,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "Number of 13 X 13 arrays of squares of integers, symmetric about the diagonal and under 90-degree rotation, with all rows summing to n.",
   "id": "A156414",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 56,
     "source": "oeis-entry"

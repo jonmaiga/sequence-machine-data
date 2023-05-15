@@ -2,13 +2,11 @@
   "description": "Numerators of the convergents to x = 1/(x^3+1).",
   "id": "A144230",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 6,
     "source": "oeis-entry"

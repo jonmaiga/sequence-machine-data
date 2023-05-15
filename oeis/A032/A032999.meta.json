@@ -2,14 +2,11 @@
   "description": "If d,e are consecutive digits of n in base 11, then |d-e|>=5.",
   "id": "A032999",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
-    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:05:19",
     "offset": 1,
     "size": 57,
     "source": "joeis"

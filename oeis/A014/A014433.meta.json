@@ -2,13 +2,11 @@
   "description": "a(n) = Sum_{i=0..n-1} a(i)*a(n-i), with a(0) = 1 and a(1) = 4.",
   "id": "A014433",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:21",
     "offset": 0,
     "size": 27,
     "source": "oeis-bfile"

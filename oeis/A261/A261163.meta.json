@@ -2,13 +2,11 @@
   "description": "List run lengths of digits different from '3'. Lexicographically first such sequence of nonnegative numbers with no repeated terms.",
   "id": "A261163",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 81,
     "source": "oeis-entry"

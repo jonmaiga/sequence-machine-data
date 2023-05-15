@@ -1,16 +1,14 @@
 {
-  "description": "Numbers of the form 3^a 5^b 17^c 257^d 65537^e; products of Fermat primes.",
+  "description": "Numbers of the form 3^a * 5^b * 17^c * 257^d * 65537^e; products of Fermat primes.",
   "id": "A143512",
   "mentions": [
     "A004729",
     "A143513"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:32",
     "offset": 1,
     "size": 52,
     "source": "oeis-bfile"

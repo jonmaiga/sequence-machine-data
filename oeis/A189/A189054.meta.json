@@ -2,13 +2,11 @@
   "description": "E.g.f. exp(x/sqrt(1-4*x^2)).",
   "id": "A189054",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:13",
     "offset": 0,
     "size": 19,
     "source": "oeis-bfile"

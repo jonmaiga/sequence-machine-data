@@ -2,12 +2,10 @@
   "description": "Largest d such that the linear programming bound for quantum codes of length n is feasible for some real K>1.",
   "id": "A058224",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 75,
     "source": "oeis-entry"

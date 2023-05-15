@@ -7,13 +7,11 @@
     "A177380",
     "A185221"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:55",
     "offset": 1,
     "size": 105,
     "source": "oeis-bfile"

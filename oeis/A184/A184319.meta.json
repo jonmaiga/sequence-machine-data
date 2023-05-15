@@ -1,15 +1,13 @@
 {
-  "description": "Number of strings of numbers x(i=1..4) in 0..n with sum i^2*x(i)^3 equal to 16*n^3",
+  "description": "Number of strings of numbers x(i=1..4) in 0..n with sum i^2*x(i)^3 equal to 16*n^3.",
   "id": "A184319",
   "mentions": [
     "A184318"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:08",
     "offset": 1,
     "size": 107,
     "source": "oeis-bfile"

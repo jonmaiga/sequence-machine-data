@@ -2,13 +2,11 @@
   "description": "Hilbert series related to measurement of quantum entanglement - see Hero and Willenbring for precise definition",
   "id": "A176694",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

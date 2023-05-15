@@ -8,13 +8,11 @@
     "A197002",
     "A197006"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:18",
     "offset": 1,
     "size": 102,
     "source": "oeis-bfile"

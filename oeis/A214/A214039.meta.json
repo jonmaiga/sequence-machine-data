@@ -2,13 +2,11 @@
   "description": "a(n) = a(n-1) - floor((a(n-2) + a(n-3))/2), with a(n)=n for n < 3.",
   "id": "A214039",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "easy",
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 12:09:29",
     "offset": 0,
     "size": 65,
     "source": "joeis"

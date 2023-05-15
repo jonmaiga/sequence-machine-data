@@ -2,13 +2,11 @@
   "description": "Irregular triangle read by rows, arising from Garvan's proof of Watson's generalization of Ramanujan's partition congruences for powers of 7.",
   "id": "A330329",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:59",
     "offset": 1,
     "size": 30,
     "source": "oeis-bfile"

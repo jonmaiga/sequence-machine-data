@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle T(n, k), n >= 0, k = 1..2^A007895(n), read by rows; the n-th row lists the numbers k such that the Fibonacci numbers that appear in the Zeckendorf representation of k also appear in that of n.",
+  "id": "A361755",
+  "mentions": [
+    "A003714",
+    "A007895",
+    "A139764",
+    "A295989",
+    "A356771",
+    "A361756"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

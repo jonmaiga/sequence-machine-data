@@ -2,13 +2,11 @@
   "description": "Expansion of x*(x^3+3*x^2-1)*(5*x^4-5*x^2+1) / ( -1+x+8*x^2-7*x^3-21*x^4+15*x^5+20*x^6-10*x^7-5*x^8+x^9 )",
   "id": "A122604",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 06:14:43",
     "offset": 1,
     "size": 38,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "Numbers n such that d(1)^1 + d(2)^2 + ... + d(p)^p and d(1)^p + d(2)^p-1 +... + d(p)^1 are squares, where d(i), i=1..p, are the digits of n.",
   "id": "A178360",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:02",
     "offset": 1,
     "size": 51,
     "source": "oeis-bfile"

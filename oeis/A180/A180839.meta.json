@@ -2,13 +2,11 @@
   "description": "T(n,k) = number of n X k arrays containing k indistinguishable copies of 1..n with rows and columns in lexicographically strictly increasing order.",
   "id": "A180839",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:03",
     "offset": 1,
     "size": 48,
     "source": "oeis-bfile"

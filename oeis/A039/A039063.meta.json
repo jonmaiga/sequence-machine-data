@@ -2,14 +2,12 @@
   "description": "Numbers whose base-8 representation has the same number of 2's and 4's.",
   "id": "A039063",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:43:41",
     "offset": 1,
     "size": 67,
     "source": "joeis"

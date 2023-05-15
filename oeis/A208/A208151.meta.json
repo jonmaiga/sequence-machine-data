@@ -2,14 +2,12 @@
   "description": "Decimal expansion of 3344161/1494696.",
   "id": "A208151",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "cons",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 07:06:49",
     "offset": 1,
     "size": 105,
     "source": "joeis"

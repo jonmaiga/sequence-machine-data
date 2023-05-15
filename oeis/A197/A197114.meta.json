@@ -2,13 +2,11 @@
   "description": "Primes containing the digits (2,0,0,9) in that order.",
   "id": "A197114",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:18",
     "offset": 1,
     "size": 33,
     "source": "oeis-bfile"

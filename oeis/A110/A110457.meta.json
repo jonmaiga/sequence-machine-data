@@ -2,13 +2,11 @@
   "description": "a(n) is the least prime not already used such that the frequencies of the decimal digits in the first n terms are almost equal, i.e., for any two digits, their numbers of occurrences differ by no more than 1.",
   "id": "A110457",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 79,
     "source": "oeis-entry"

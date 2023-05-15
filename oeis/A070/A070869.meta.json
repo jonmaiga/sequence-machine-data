@@ -2,14 +2,12 @@
   "description": "a(1) = 16; a(n+1) = sum of a(n) and (a(n) written in base 2 and reversed).",
   "id": "A070869",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 32,
     "source": "oeis-entry"

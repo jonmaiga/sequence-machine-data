@@ -10,8 +10,8 @@
     "A096612",
     "A355339"
   ],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
+    "changed",
     "formulas",
     "look",
     "nice",
@@ -19,9 +19,8 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 0,
     "size": 91,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -2,13 +2,11 @@
   "description": "Number of primes between n^2 and (n+1/7)^2.",
   "id": "A089617",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

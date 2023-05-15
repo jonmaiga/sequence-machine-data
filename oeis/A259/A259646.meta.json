@@ -2,12 +2,10 @@
   "description": "Values of r(k): the smallest r such that binomial(r, k) < 2^{r-k}.",
   "id": "A259646",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:18",
     "offset": 1,
     "size": 57,
     "source": "oeis-bfile"

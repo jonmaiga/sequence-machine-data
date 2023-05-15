@@ -2,14 +2,12 @@
   "description": "Number of ways that the divisors of 2n can be written as the sum of the squares of two other divisors of 2n (not necessarily distinct).",
   "id": "A337530",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 95,
     "source": "oeis-entry"

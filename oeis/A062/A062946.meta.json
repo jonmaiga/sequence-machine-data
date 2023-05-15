@@ -2,16 +2,13 @@
   "description": "Numbers that have a larger multiple which differs in just one digit from its reverse.",
   "id": "A062946",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
-    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:44:23",
     "offset": 1,
     "size": 54,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

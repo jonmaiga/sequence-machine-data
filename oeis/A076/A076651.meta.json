@@ -2,12 +2,10 @@
   "description": "Floor( Sqrt( p * (p+2) / 2)) where p is the lesser of the twin primes.",
   "id": "A076651",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:28",
     "offset": 1,
     "size": 53,
     "source": "oeis-bfile"

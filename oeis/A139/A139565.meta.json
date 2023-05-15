@@ -2,14 +2,12 @@
   "description": "Squares without a 0 digit and whose sum of digits minus 1 and product of digits plus 1 are both squares.",
   "id": "A139565",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:27",
     "offset": 1,
     "size": 23,
     "source": "oeis-bfile"

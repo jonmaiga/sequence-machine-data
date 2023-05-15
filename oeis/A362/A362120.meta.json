@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest positive number whose American English name has the letter \"e\" in the n-th position.",
+  "id": "A362120",
+  "mentions": [
+    "A164790",
+    "A362121",
+    "A362122"
+  ],
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

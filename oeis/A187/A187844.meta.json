@@ -6,14 +6,12 @@
     "A055642",
     "A187845"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "base",
     "look",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:12",
     "offset": 0,
     "size": 89,
     "source": "oeis-bfile"

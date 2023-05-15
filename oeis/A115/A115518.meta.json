@@ -2,7 +2,6 @@
   "description": "Numbers n such that the sum of the digits of n times the sum of the digits squared of n equals n.",
   "id": "A115518",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

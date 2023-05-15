@@ -8,13 +8,11 @@
     "A013973",
     "A030185"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:33",
     "offset": 0,
     "size": 15,
     "source": "oeis-bfile"

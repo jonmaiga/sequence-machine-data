@@ -2,7 +2,6 @@
   "description": "Bear's Paw (from a quilt design).",
   "id": "A180494",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "fini",
     "full",
@@ -10,7 +9,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 72,
     "source": "oeis-entry"

@@ -9,7 +9,6 @@
     "A176009",
     "A176251"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "fini",
@@ -17,7 +16,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 38,
     "source": "oeis-entry"

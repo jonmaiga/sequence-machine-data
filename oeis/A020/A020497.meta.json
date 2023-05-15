@@ -7,14 +7,12 @@
     "A047947",
     "A066081"
   ],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:27",
     "offset": 1,
     "size": 60,
     "source": "oeis-bfile"

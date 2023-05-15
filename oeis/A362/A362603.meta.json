@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations p of [2n] in which exactly the first n terms satisfy the up-down property p(1) < p(2) > p(3) < ... .",
+  "id": "A362603",
+  "mentions": [
+    "A000111",
+    "A001813",
+    "A092580"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

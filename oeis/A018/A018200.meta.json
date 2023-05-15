@@ -2,13 +2,11 @@
   "description": "Possible numbers of complements of topologies on 9 points.",
   "id": "A018200",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 02:34:43",
     "offset": 0,
     "size": 7,
     "source": "joeis"

@@ -2,13 +2,12 @@
   "description": "E.g.f. satisfies: A(x) = x + exp(x*A(x)).",
   "id": "A138293",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 18,
     "source": "oeis-entry"

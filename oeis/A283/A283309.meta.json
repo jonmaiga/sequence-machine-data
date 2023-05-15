@@ -2,13 +2,11 @@
   "description": "Maximal Nim values of biconnected graph on n nodes.",
   "id": "A283309",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

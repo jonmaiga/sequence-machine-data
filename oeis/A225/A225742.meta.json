@@ -2,14 +2,12 @@
   "description": "Numbers >= 10 that are divisible by the sum and difference of their digits.",
   "id": "A225742",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:43",
     "offset": 1,
     "size": 54,
     "source": "oeis-bfile"

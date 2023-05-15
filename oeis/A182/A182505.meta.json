@@ -2,7 +2,6 @@
   "description": "a(0)=0, a(1)=1, a(n) = ( (a(n-1)+a(n-2)) AND n) + n.",
   "id": "A182505",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "easy",
@@ -11,7 +10,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:47:29",
     "offset": 0,
     "size": 66,
     "source": "joeis"

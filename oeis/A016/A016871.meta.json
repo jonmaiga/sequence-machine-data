@@ -1,14 +1,14 @@
 {
-  "description": "(5n+1)^11.",
+  "description": "a(n) = (5n+1)^11.",
   "id": "A016871",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
+    "changed",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 13:53:19",
     "offset": 0,
     "size": 11,
     "source": "joeis"

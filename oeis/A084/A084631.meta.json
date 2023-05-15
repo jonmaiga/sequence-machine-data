@@ -1,19 +1,17 @@
 {
-  "description": "Floor(C(n+8,8)/C(n+2,2)).",
+  "description": "a(n) = floor(C(n+8,8)/C(n+2,2)).",
   "id": "A084631",
   "mentions": [
     "A084626"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 40,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

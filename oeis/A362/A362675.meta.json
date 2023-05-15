@@ -1,0 +1,21 @@
+{
+  "description": "Smallest number sharing n distinct (decimal) digits with its largest proper divisor.",
+  "id": "A362675",
+  "mentions": [
+    "A032742",
+    "A357929",
+    "A358076"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

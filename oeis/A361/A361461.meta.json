@@ -1,18 +1,16 @@
 {
-  "description": "Numbers k for which A135506(k) is not a prime.",
+  "description": "Numbers k such that x(k+1) = 2 * x(k), when x(1)=1 and x(n) = x(n-1) + lcm(x(n-1),n), i.e., x(n) = A135504(n).",
   "id": "A361461",
   "mentions": [
     "A135504",
     "A135506",
-    "A361460"
+    "A361460",
+    "A361464"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "new",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 72,
     "source": "oeis-entry"

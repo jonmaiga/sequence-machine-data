@@ -2,7 +2,6 @@
   "description": "A triangle of polynomial coefficients: p(x,n)=-(ChebyshevT[n, x] - ((x + 1)^n + (1 - x)^n)); sp(x,n) = p(x, n) + x^n*p(1/x, n).",
   "id": "A155993",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 66,
     "source": "oeis-entry"

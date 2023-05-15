@@ -2,13 +2,11 @@
   "description": "The n-th term of the n-th Dirichlet self-convolution equals n^2.",
   "id": "A163591",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 47,
     "source": "oeis-entry"

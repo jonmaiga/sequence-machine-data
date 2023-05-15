@@ -2,14 +2,12 @@
   "description": "Maximum length of a binary n-similar word.",
   "id": "A329422",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 0,
     "size": 10,
     "source": "oeis-entry"

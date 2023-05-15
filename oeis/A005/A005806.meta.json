@@ -1,20 +1,19 @@
 {
-  "description": "Comparative probability orderings on n elements.",
+  "description": "Number of comparative probability orderings on n elements.",
   "id": "A005806",
   "mentions": [
     "A009997"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
+    "formulas",
     "hard",
     "more",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
-    "offset": 1,
-    "size": 7,
+    "offset": 0,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

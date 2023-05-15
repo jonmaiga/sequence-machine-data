@@ -1,19 +1,17 @@
 {
-  "description": "T(n,k)=Number of nXk 0..1 arrays avoiding 0 0 0 and 0 1 1 horizontally and 0 0 1 and 1 0 1 vertically",
+  "description": "T(n,k) = Number of n X k 0..1 arrays avoiding 0 0 0 and 0 1 1 horizontally and 0 0 1 and 1 0 1 vertically.",
   "id": "A207024",
   "mentions": [
     "A016742",
     "A152746",
     "A171861"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:27",
     "offset": 1,
     "size": 57,
     "source": "oeis-bfile"

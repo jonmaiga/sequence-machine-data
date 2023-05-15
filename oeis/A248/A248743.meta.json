@@ -2,12 +2,10 @@
   "description": "Smallest prime Q such that there is a prime R such that Q*(R+1)+1 or Q*(R+1)-1 or Q*(R-1)+1 or Q*(R-1)-1 is prime(n), or 0 if no such prime Q exists.",
   "id": "A248743",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:05",
     "offset": 1,
     "size": 80,
     "source": "oeis-bfile"

@@ -1,0 +1,19 @@
+{
+  "description": "Truncate Stirling's asymptotic series for 1! after n terms and round to the nearest integer.",
+  "id": "A362113",
+  "mentions": [
+    "A001163",
+    "A001164",
+    "A362114",
+    "A362116"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

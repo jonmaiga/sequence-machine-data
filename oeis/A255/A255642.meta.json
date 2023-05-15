@@ -2,14 +2,12 @@
   "description": "a(n) = n*((n mod 3)*(n mod 5)-((n mod 3)+(n mod 5))).",
   "id": "A255642",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:13",
     "offset": 0,
     "size": 76,
     "source": "oeis-bfile"

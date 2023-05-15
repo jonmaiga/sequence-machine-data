@@ -2,13 +2,11 @@
   "description": "Triangle read by rows: The first integer in each row, a(n,1) = n. a(n,m) = the smallest positive integer not yet occurring in row n such that |a(n,m)-a(n,m-1)| = a power of 2, for each m where 1 < m <= n.",
   "id": "A175344",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:59",
     "offset": 1,
     "size": 91,
     "source": "oeis-bfile"

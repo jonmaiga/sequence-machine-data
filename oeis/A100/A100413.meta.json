@@ -1,12 +1,11 @@
 {
-  "description": "Numbers n such that n is reversal(n)-th even composite number (n is A004086(n)-th even composite number).",
+  "description": "Numbers k such that k is reversal(k)-th even composite number (k is A004086(k)-th even composite number).",
   "id": "A100413",
   "mentions": [
     "A004086",
     "A086943",
     "A100412"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
@@ -14,9 +13,8 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 12:58:43",
     "offset": 1,
     "size": 17,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that k and k^2+1 have equal sums of distinct prime divisors.",
+  "id": "A362152",
+  "mentions": [
+    "A006145",
+    "A008472"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -2,14 +2,12 @@
   "description": "A triangular sequence of coefficients made from a product sum of the Pascal/binomial and the Chebyshev T Polynomials: t(n,m)=-Sum[Binomial[n + 1, k + 1]*CoefficientList[ChebyshevT[k + 1, x], x][[m]], {k, m, n}].",
   "id": "A142701",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 62,
     "source": "oeis-entry"

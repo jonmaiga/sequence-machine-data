@@ -1,0 +1,25 @@
+{
+  "description": "Number of free polyominoes with checkerboard-pattern-colored vertices with n cells.",
+  "id": "A361625",
+  "mentions": [
+    "A000105",
+    "A001933",
+    "A122675",
+    "A234008",
+    "A346799",
+    "A349328",
+    "A351127",
+    "A351142",
+    "A351190",
+    "A359689"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

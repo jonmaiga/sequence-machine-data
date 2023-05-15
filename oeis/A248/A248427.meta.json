@@ -2,13 +2,11 @@
   "description": "Circumference of the (n,n)-knight graph.",
   "id": "A248427",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:38:45",
     "offset": 3,
     "size": 43,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "Number of base 22 circular n-digit numbers with adjacent digits differing by 7 or less.",
   "id": "A125434",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 18:43:26",
     "offset": 0,
     "size": 17,
     "source": "joeis"

@@ -2,12 +2,10 @@
   "description": "Numbers produced from the numbers 2 and 3, using hyper operators.",
   "id": "A218866",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

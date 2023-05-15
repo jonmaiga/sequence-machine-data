@@ -1,0 +1,24 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of nonisomorphic multisets of endofunctions on an n-set with k endofunctions.",
+  "id": "A362897",
+  "mentions": [
+    "A000012",
+    "A001372",
+    "A002623",
+    "A054745",
+    "A277839",
+    "A362644",
+    "A362898"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

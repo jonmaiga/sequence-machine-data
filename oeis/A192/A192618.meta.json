@@ -1,17 +1,15 @@
 {
-  "description": "Prime powers p^k with even exponents k>0 such that (1+p^k)/2 is prime.",
+  "description": "Prime powers p^k with even exponents k > 0 such that (1 + p^k)/2 is prime.",
   "id": "A192618",
   "mentions": [
     "A005383",
     "A056798",
     "A176897"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:16",
     "offset": 1,
     "size": 36,
     "source": "oeis-bfile"

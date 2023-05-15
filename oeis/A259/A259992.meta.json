@@ -5,14 +5,12 @@
     "A000108",
     "A007345"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:18",
     "offset": 0,
     "size": 56,
     "source": "oeis-bfile"

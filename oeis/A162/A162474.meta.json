@@ -2,13 +2,11 @@
   "description": "Let b(n,p(k)) be the exponent raising the k-th prime in the prime-factorization of n. (b(n,p(k)) may equal 0.) Write each b down in order and in binary (and exponent of zero is written as '0') with b(n,2) on the right and b(n,P) on the left, where P is the largest prime dividing n. Concatenate to form one binary number. a(n) is the decimal equivalent.",
   "id": "A162474",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

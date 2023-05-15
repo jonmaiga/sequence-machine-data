@@ -2,13 +2,11 @@
   "description": "Integer averages of two successive perfect powers (pp(n) + pp(n+1))/2.",
   "id": "A075454",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 40,
     "source": "oeis-entry"

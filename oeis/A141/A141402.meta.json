@@ -2,7 +2,6 @@
   "description": "Triangle T(n, k) = n^2 + (2*k*(n-k))^2, read by rows.",
   "id": "A141402",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2022-04-26 09:18:43",
     "offset": 0,
     "size": 66,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "a(n)/2^n is the expected value of the maximum of the number of heads and the number of tails when n fair coins are tossed.",
   "id": "A230137",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:47",
     "offset": 0,
     "size": 32,
     "source": "oeis-bfile"

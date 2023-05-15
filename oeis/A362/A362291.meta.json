@@ -1,0 +1,19 @@
+{
+  "description": "Number of pairs of disjoint subsets of 1..n^2 of size 2*floor(n/2) having equal sum.",
+  "id": "A362291",
+  "mentions": [
+    "A052928",
+    "A362280"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

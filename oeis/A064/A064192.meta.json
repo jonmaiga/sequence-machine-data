@@ -3,18 +3,17 @@
   "id": "A064192",
   "mentions": [
     "A000111",
+    "A005437",
     "A008282"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
-    "offset": 0,
-    "size": 52,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
   }
 }

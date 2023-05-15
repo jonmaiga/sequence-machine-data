@@ -2,13 +2,11 @@
   "description": "Rectangular array read by antidiagonals: a(m,n) = greatest noncomposite (1 or prime) that divides both m and n.",
   "id": "A159923",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

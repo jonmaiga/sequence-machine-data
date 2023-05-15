@@ -2,14 +2,12 @@
   "description": "Decimal expansion of exp(Pi*sqrt43)/24.",
   "id": "A181165",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:04",
     "offset": 8,
     "size": 105,
     "source": "oeis-bfile"

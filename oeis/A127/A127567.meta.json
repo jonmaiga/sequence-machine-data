@@ -2,12 +2,10 @@
   "description": "Given k, the product of the first n primes and starting with the first prime at least 3 greater than k, a(n) is the number of consecutive primes where p-k is also prime.",
   "id": "A127567",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 57,
     "source": "oeis-entry"

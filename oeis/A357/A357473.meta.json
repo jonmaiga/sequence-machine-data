@@ -1,5 +1,5 @@
 {
-  "description": "Number of types of generalized symmetries in diagonal Latin squares of order n",
+  "description": "Number of types of generalized symmetries in diagonal Latin squares of order n.",
   "id": "A357473",
   "mentions": [
     "A000041",
@@ -11,14 +11,13 @@
     "A358515",
     "A358891"
   ],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
+    "changed",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

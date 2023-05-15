@@ -1,0 +1,31 @@
+{
+  "description": "Number of integer partitions of n where 2*(number of distinct parts) >= (number of parts).",
+  "id": "A361394",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A008284",
+    "A058398",
+    "A067538",
+    "A102627",
+    "A106529",
+    "A116608",
+    "A144300",
+    "A237363",
+    "A237832",
+    "A240219",
+    "A316413",
+    "A349156",
+    "A360254",
+    "A360558",
+    "A361395"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

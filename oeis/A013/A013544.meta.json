@@ -2,13 +2,11 @@
   "description": "Numerator of the coefficient [x^(2n+1)] of tanh(cosec(x)-coth(x)).",
   "id": "A013544",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "frac",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:20",
     "offset": 0,
     "size": 13,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "Number of permutations of n copies of 1..5 with all adjacent differences <= 2 in absolute value.",
   "id": "A177323",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:01",
     "offset": 1,
     "size": 12,
     "source": "oeis-bfile"

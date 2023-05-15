@@ -2,13 +2,11 @@
   "description": "The number of sum decomposable permutations which avoid the patterns 3124 and 4312.",
   "id": "A226434",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 22:59:44",
     "offset": 1,
     "size": 30,
     "source": "joeis"

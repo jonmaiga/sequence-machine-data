@@ -2,13 +2,11 @@
   "description": "Number of terms in the cycle index Z(S_n X S_n) of the Cartesian product of the symmetric group S_n with itself that contain q cycles, where 1 <= q <= n*n. (Triangular array.)",
   "id": "A279514",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 102,
     "source": "oeis-entry"

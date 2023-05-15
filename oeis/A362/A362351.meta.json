@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n! * Sum_{k=0..floor(n/3)} (k/6)^k / (k! * (n-3*k)!).",
+  "id": "A362351",
+  "mentions": [
+    "A362173",
+    "A362350",
+    "A362352"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

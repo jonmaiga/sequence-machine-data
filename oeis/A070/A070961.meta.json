@@ -2,12 +2,10 @@
   "description": "Card{ k<=n | bigomega(k)=bigomega(n) }.",
   "id": "A070961",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 74,
     "source": "oeis-entry"

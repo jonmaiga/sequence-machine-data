@@ -2,13 +2,11 @@
   "description": "Number of maximal independent vertex sets in the n X n antelope graph.",
   "id": "A321242",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

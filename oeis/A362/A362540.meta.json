@@ -1,0 +1,17 @@
+{
+  "description": "Number of chordless cycles of length >= 4 in the n-flower graph.",
+  "id": "A362540",
+  "mentions": [
+    "A362545"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

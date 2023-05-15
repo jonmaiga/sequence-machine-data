@@ -2,13 +2,11 @@
   "description": "Decimal expansion of AGHM(1,i,1+i)/(1+i), where i is the imaginary unit and AGHM stands for arithmetic-geometric-harmonic mean of a triple of numbers.",
   "id": "A319215",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 0,
     "size": 87,
     "source": "oeis-entry"

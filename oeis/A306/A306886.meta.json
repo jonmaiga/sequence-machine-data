@@ -2,12 +2,10 @@
   "description": "Number of distinct nonzero values taken by (x1-x2)^2 + (y1-y2)^2 for x1, y1, x2, y2 integers with 0 <= (x1,y1) <= n and -n <= (x2,y2) <= 0.",
   "id": "A306886",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 0,
     "size": 49,
     "source": "oeis-entry"

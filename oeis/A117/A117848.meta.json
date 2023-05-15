@@ -2,12 +2,10 @@
   "description": "Least K such that K*p(n)#-1 is the first of twin primes and 2*(K*p(n)#-1)+1 is prime, so K*p(n)#-1 is the first of twin primes and a Sophie Germain prime.",
   "id": "A117848",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 49,
     "source": "oeis-entry"

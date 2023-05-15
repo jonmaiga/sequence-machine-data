@@ -2,14 +2,12 @@
   "description": "a(n) is the number of primitive solutions to the inverse Pythagorean equation 1/x^2 + 1/y^2 = 1/z^2 such that x <= y and x + y + z <= 10^n.",
   "id": "A341990",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"

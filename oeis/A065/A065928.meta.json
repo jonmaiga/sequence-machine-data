@@ -2,14 +2,12 @@
   "description": "(x,y) = (a(n),a(n+1)) are the solutions of (t(x)+t(y))/(1+xy)) = t(2) = 3, where t(n) denotes the n-th triangular number t(n) = n(n+1)/2.",
   "id": "A065928",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:18",
     "offset": 0,
     "size": 23,
     "source": "oeis-bfile"

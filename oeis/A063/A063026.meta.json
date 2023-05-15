@@ -2,13 +2,11 @@
   "description": "Reversion of y - y^2 + y^4 - y^5.",
   "id": "A063026",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 12:11:26",
     "offset": 0,
     "size": 29,
     "source": "joeis"

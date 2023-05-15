@@ -2,13 +2,11 @@
   "description": "Primes in the chain of repeated application of x->2*x+3, starting at x=1427.",
   "id": "A163589",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:45",
     "offset": 1,
     "size": 20,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Let P(n,X) = Product_{i=1..2n+1} (X - 1/cos(Pi*k/(2n+1))); then P(n,X) is a polynomial with integer coefficients. Sequences gives maximum values of absolute values of coefficients of P(n,X).",
   "id": "A075581",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 21,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "a(n) = floor(e^n) modulo 3.",
   "id": "A120728",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

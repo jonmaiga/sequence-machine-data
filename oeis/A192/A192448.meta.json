@@ -2,13 +2,11 @@
   "description": "Primes that indicate that the total frequency of every decimal digit in the set of all primes up to and including that prime is odd.",
   "id": "A192448",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:16",
     "offset": 1,
     "size": 34,
     "source": "oeis-bfile"

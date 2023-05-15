@@ -2,14 +2,12 @@
   "description": "Number of walks within N^2 (the first quadrant of Z^2) starting at (0,0) and consisting of n steps taken from {(-1, -1), (-1, 1), (-1, 0), (1, -1), (1, 0), (1, 1)}.",
   "id": "A151312",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn",
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:34",
     "offset": 0,
     "size": 26,
     "source": "oeis-bfile"

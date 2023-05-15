@@ -8,16 +8,14 @@
     "A131488",
     "A342243"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
+    "formulas",
     "hard",
-    "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
-    "size": 44,
+    "size": 54,
     "source": "oeis-entry"
   }
 }

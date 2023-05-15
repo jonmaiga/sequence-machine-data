@@ -2,7 +2,6 @@
   "description": "None of the digits in n is present in n^2 or n^3.",
   "id": "A029790",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "hard",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 1,
     "size": 27,
     "source": "oeis-entry"

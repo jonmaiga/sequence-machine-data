@@ -13,9 +13,7 @@
     "A220466",
     "A256696"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "mult",
@@ -23,7 +21,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:06",
     "offset": 1,
     "size": 100,
     "source": "oeis-bfile"

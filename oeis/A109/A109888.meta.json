@@ -2,13 +2,11 @@
   "description": "Sequence with properties that a(1)=1, no prime appears in the sequence or the first differences and all other integers exactly once (in sequence or first differences).",
   "id": "A109888",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

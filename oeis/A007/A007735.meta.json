@@ -2,12 +2,10 @@
   "description": "Period of base 4 representation of 1/n.",
   "id": "A007735",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 12:46:23",
     "offset": 1,
     "size": 93,
     "source": "joeis"

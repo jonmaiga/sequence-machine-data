@@ -2,13 +2,11 @@
   "description": "Number of maximal matchings in the n X n king graph.",
   "id": "A297489",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

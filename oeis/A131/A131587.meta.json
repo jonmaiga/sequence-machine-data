@@ -2,12 +2,10 @@
   "description": "Sum of the squares of the first 10^n primes.",
   "id": "A131587",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:19",
     "offset": 0,
     "size": 12,
     "source": "oeis-bfile"

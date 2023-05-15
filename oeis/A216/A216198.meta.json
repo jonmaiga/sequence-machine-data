@@ -2,13 +2,11 @@
   "description": "Rounded area of squares and pentagons which arrange as successively circumscribing.",
   "id": "A216198",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 37,
     "source": "oeis-entry"

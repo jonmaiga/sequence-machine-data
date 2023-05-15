@@ -1,0 +1,21 @@
+{
+  "description": "Number of total dominating sets in the n-double cone graph.",
+  "id": "A362750",
+  "mentions": [
+    "A000032",
+    "A001638",
+    "A056594",
+    "A302603"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

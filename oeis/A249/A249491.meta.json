@@ -10,7 +10,6 @@
     "A102558",
     "A102559"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "easy",
@@ -18,7 +17,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:06",
     "offset": 1,
     "size": 104,
     "source": "oeis-bfile"

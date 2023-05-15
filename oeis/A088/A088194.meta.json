@@ -9,13 +9,11 @@
     "A088195",
     "A088200"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 99,
     "source": "oeis-entry"

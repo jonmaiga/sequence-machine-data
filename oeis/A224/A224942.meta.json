@@ -2,12 +2,10 @@
   "description": "Non-leap years beginning and ending on Thursday.",
   "id": "A224942",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 46,
     "source": "oeis-entry"

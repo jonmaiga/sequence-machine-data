@@ -2,13 +2,11 @@
   "description": "Largest possible subsequence Q of the primes such that sum(1/p, p in Q and p <= n) >= log log log n, for odd primes n.",
   "id": "A240565",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 58,
     "source": "oeis-entry"

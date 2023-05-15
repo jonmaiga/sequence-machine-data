@@ -1,0 +1,29 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, k) = (k^n - 1)/(k - 1), with k >= 2.",
+  "id": "A361475",
+  "mentions": [
+    "A000225",
+    "A002275",
+    "A002450",
+    "A002452",
+    "A003462",
+    "A003463",
+    "A003464",
+    "A003992",
+    "A016123",
+    "A023000",
+    "A023001",
+    "A361291",
+    "A361476"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

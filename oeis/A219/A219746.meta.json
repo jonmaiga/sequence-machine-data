@@ -2,13 +2,11 @@
   "description": "Number of snarks of order 2n with automorphism group of order 2.",
   "id": "A219746",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"

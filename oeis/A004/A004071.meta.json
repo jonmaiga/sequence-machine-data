@@ -2,13 +2,11 @@
   "description": "Start with a(0)=1; replace each i with 12...i, then add 1 to final digit.",
   "id": "A004071",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 0,
     "size": 8,
     "source": "oeis-entry"

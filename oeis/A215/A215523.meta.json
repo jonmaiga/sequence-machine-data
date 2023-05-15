@@ -2,12 +2,10 @@
   "description": "Slowest increasing sequence of alternate-parity integers m such that 2m+1 is prime.",
   "id": "A215523",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:33",
     "offset": 1,
     "size": 59,
     "source": "oeis-bfile"

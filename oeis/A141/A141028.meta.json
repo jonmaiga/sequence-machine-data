@@ -2,7 +2,6 @@
   "description": "A triangular sequence of the expansion of: (1-Prime[n])^n: t(n,m)=(-1)^m*Prime[n]^(n - m)*Binomial[n, m]; with Prime[0]=1 defined to extend and lower the results.",
   "id": "A141028",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 42,
     "source": "oeis-entry"

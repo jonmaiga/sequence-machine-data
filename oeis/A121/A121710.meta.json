@@ -2,12 +2,10 @@
   "description": "The smallest prime of the form (prime(n+1)^k + prime(n+2)^k)/2 for positive integer k.",
   "id": "A121710",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

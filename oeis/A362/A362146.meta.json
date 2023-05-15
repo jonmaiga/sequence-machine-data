@@ -1,0 +1,17 @@
+{
+  "description": "Maximum number of ways in which a set of integer-sided squares can tile an n X 5 rectangle.",
+  "id": "A362146",
+  "mentions": [
+    "A054857",
+    "A187753",
+    "A362142"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

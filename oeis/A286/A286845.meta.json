@@ -2,7 +2,6 @@
   "description": "Every 3-digit number 'a' such that there exist two other 3-digit numbers, 'b' and 'c', such that a - b = c, and a,b,c collectively use every digit 1-9 exactly once.",
   "id": "A286845",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 31,
     "source": "oeis-entry"

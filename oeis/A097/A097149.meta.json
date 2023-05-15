@@ -2,13 +2,11 @@
   "description": "Numbers n such that Galois group of polynomial x^8+n*x^4+1 is E(8) (the group C_2 X C_2 X C_2).",
   "id": "A097149",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 44,
     "source": "oeis-entry"

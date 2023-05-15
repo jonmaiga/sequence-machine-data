@@ -1,0 +1,21 @@
+{
+  "description": "Numbers in the range of A162296, where A162296(n) is the sum of divisors of n that have a square factor larger than 1.",
+  "id": "A362401",
+  "mentions": [
+    "A002174",
+    "A002191",
+    "A002202",
+    "A005117",
+    "A078923",
+    "A162296",
+    "A274790"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

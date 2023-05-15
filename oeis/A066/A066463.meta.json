@@ -2,12 +2,10 @@
   "description": "Numbers n such that phi(sigma(phi(n))) = phi(n).",
   "id": "A066463",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:18",
     "offset": 1,
     "size": 56,
     "source": "oeis-bfile"

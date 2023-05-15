@@ -14,14 +14,12 @@
     "A123221",
     "A254749"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "sign",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:11",
     "offset": 0,
     "size": 62,
     "source": "oeis-bfile"

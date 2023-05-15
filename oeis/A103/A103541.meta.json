@@ -2,13 +2,11 @@
   "description": "Numbers n such that n23571113171923 is prime.",
   "id": "A103541",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:54",
     "offset": 1,
     "size": 54,
     "source": "oeis-bfile"

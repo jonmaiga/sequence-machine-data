@@ -2,14 +2,12 @@
   "description": "a(n) = n! + (2*n-1)!/(n-1)!.",
   "id": "A226730",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:44",
     "offset": 1,
     "size": 18,
     "source": "oeis-bfile"

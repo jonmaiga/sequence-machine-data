@@ -5,14 +5,12 @@
     "A037274",
     "A049121"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:35:33",
     "offset": 0,
     "size": 53,
     "source": "joeis"

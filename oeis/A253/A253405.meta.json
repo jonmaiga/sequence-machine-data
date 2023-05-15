@@ -1,15 +1,13 @@
 {
-  "description": "Number of (n+1)X(6+1) 0..2 arrays with every 2X2 subblock diagonal maximum plus antidiagonal minimum unequal to its neighbors horizontally, vertically and ne+sw antidiagonally",
+  "description": "Number of (n+1) X (6+1) 0..2 arrays with every 2 X 2 subblock diagonal maximum plus antidiagonal minimum unequal to its neighbors horizontally, vertically and ne+sw antidiagonally.",
   "id": "A253405",
   "mentions": [
     "A253407"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:11",
     "offset": 1,
     "size": 17,
     "source": "oeis-bfile"

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least positive integer that can be expressed as the sum of one or more consecutive prime powers (not including 1) in exactly n ways.",
+  "id": "A359386",
+  "mentions": [
+    "A054859",
+    "A246655"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

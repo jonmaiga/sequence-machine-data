@@ -2,12 +2,10 @@
   "description": "a(n) is the maximal number of partitions of n of the same length with the same product.",
   "id": "A140437",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 79,
     "source": "oeis-entry"

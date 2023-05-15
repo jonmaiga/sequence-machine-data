@@ -1,0 +1,16 @@
+{
+  "description": "Sum of b(i) where the first b terms are all k digits of n, followed by Keith-like sum of the previous k digits until b(i) >= n",
+  "id": "A361759",
+  "mentions": [
+    "A007629"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 10,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

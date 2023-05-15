@@ -2,13 +2,11 @@
   "description": "Composites k such that the concatenation of the prime factors of k, with multiplicity, in some order is divisible by k.",
   "id": "A322843",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:46",
     "offset": 1,
     "size": 50,
     "source": "oeis-bfile"

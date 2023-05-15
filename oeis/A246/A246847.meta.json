@@ -2,14 +2,12 @@
   "description": "Decimal expansion of beta_0, a threshold constant [the existence or not of a giant component] associated with random graph theory in case of a power law distribution for the degree sequence.",
   "id": "A246847",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 104,
     "source": "oeis-entry"

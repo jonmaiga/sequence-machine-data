@@ -2,14 +2,12 @@
   "description": "Let m = 5 and set M = {{0, 1, 0, 0, 0, 0}, {0, 0, 1, 0, 0, 0}, {0, 0, 0, 1, 0, 0}, {0, 0, 0, 0, 1, 0}, {0, 0, 0, 0, 0, 1}, {-1, m, (m + 1), -m*(m + 1), -m, (m + 2)}}. Let v[0] = {0, 1, 1, 2, 3, 5}, v[n] = M.v[n - 1]. Then a = Abs[v[n][[1]].",
   "id": "A107451",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 03:55:14",
     "offset": 0,
     "size": 24,
     "source": "joeis"

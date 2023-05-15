@@ -2,14 +2,12 @@
   "description": "Expansion of (1-x^2)/(1-3x+x^2+3x^3+x^4).",
   "id": "A101498",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 01:02:14",
     "offset": 0,
     "size": 34,
     "source": "joeis"

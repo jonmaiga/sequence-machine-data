@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the standard deviation of the distribution of the least of the nine acute angles between pairs of edges of two randomly disoriented cubes (in radians).",
+  "id": "A361619",
+  "mentions": [
+    "A228496",
+    "A361601",
+    "A361618",
+    "A361620",
+    "A361621"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

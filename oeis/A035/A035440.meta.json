@@ -2,13 +2,11 @@
   "description": "Number of partitions of n into parts 7k+5 or 7k+6.",
   "id": "A035440",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:19:55",
     "offset": 1,
     "size": 76,
     "source": "joeis"

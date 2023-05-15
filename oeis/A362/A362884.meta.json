@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (a(n-1)*a(n-2)*a(n-3)+64)/(4*a(n-4)) with a(0) = a(2) = a(3) = 2 and a(1) = 16.",
+  "id": "A362884",
+  "mentions": [
+    "A276175"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

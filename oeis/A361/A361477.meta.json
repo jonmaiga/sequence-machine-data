@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of integers whose binary expansions have the same multiset of run-lengths as that of n.",
+  "id": "A361477",
+  "mentions": [
+    "A090706",
+    "A101211",
+    "A140690"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-bfile"
+  }
+}

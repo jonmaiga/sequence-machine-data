@@ -1,0 +1,17 @@
+{
+  "description": "The second moment of an n X n symmetric random +-1 matrix.",
+  "id": "A362413",
+  "mentions": [
+    "A052127",
+    "A357571"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

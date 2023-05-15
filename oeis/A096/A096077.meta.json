@@ -2,12 +2,10 @@
   "description": "a(0)=0 and for n>0, a(n) is the smallest positive integer that cannot be derived by the adding or subtracting at most three terms with values in {a(0),...,a(n-1)} allowing repeats.",
   "id": "A096077",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 48,
     "source": "oeis-entry"

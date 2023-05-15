@@ -2,14 +2,12 @@
   "description": "Number of live cells at the n-th generation of 'spacefiller 1', utilizing Conway's S23/B3 Game of Life rules.",
   "id": "A222619",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 0,
     "size": 60,
     "source": "oeis-entry"

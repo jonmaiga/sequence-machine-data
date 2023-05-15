@@ -2,13 +2,11 @@
   "description": "Number of consecutive integers placed in n bins under a certain packing scheme.",
   "id": "A031506",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 20:43:10",
     "offset": 0,
     "size": 25,
     "source": "joeis"

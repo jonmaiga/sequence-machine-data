@@ -2,13 +2,11 @@
   "description": "E.g.f.: AGM(1, exp(4x)), where AGM(x, y) is the arithmetic-geometric mean of Gauss.",
   "id": "A174846",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:58",
     "offset": 0,
     "size": 21,
     "source": "oeis-bfile"

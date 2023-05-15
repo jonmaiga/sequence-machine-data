@@ -2,12 +2,10 @@
   "description": "Period of continued fraction for sqrt(7)*n.",
   "id": "A064860",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 15:39:33",
     "offset": 1,
     "size": 76,
     "source": "joeis"

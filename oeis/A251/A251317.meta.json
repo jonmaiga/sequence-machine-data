@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of (n+1)X(k+1) 0..1 arrays with no 2X2 subblock having the maximum of its diagonal elements greater than the absolute difference of its antidiagonal elements",
   "id": "A251317",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:09",
     "offset": 1,
     "size": 42,
     "source": "oeis-bfile"

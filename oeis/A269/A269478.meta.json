@@ -1,15 +1,13 @@
 {
-  "description": "Number of nX3 arrays containing 3 copies of 0..n-1 avoiding the pattern down-up in every row and equal-up in every column.",
+  "description": "Number of n X 3 arrays containing 3 copies of 0..n-1 avoiding the pattern down-up in every row and equal-up in every column.",
   "id": "A269478",
   "mentions": [
     "A269479"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

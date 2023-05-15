@@ -2,14 +2,11 @@
   "description": "Expansion of e.g.f. sec(log(x+1)/exp(x)).",
   "id": "A013566",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:20",
     "offset": 0,
     "size": 19,
     "source": "oeis-bfile"

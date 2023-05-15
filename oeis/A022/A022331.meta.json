@@ -6,17 +6,16 @@
     "A003586",
     "A020915",
     "A022330",
-    "A071521"
+    "A071521",
+    "A152747"
   ],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:12:47",
     "offset": 0,
     "size": 58,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

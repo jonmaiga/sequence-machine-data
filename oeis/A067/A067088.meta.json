@@ -2,14 +2,12 @@
   "description": "Floor[X/Y] where X = concatenation of (n+1), (n+2), ...up to 2n and Y = concatenation of 1,2,3,4,... up to n.",
   "id": "A067088",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 0,
     "size": 23,
     "source": "oeis-entry"

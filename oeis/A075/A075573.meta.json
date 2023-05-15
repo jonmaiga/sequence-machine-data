@@ -2,12 +2,10 @@
   "description": "a(1)=1; a(n) is the smallest positive number not occurring earlier, with different parity from a(n-1), such that sum of any subsequence of two or more consecutive terms is composite.",
   "id": "A075573",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 65,
     "source": "oeis-entry"

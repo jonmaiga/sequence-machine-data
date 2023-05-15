@@ -2,13 +2,11 @@
   "description": "Number of length-n binary words containing at most distinct 11 palindromes as subwords (including the empty word).",
   "id": "A330127",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 18:12:39",
     "offset": 0,
     "size": 50,
     "source": "joeis"

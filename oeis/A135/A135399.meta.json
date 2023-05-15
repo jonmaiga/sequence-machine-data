@@ -2,14 +2,12 @@
   "description": "a(n) = (-1)^n + (-2)^n + 3^n (-1, -2 and 3 are the roots of the equation x^3 = 7*x + 6).",
   "id": "A135399",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:23",
     "offset": 0,
     "size": 28,
     "source": "oeis-bfile"

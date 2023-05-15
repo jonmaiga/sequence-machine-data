@@ -2,12 +2,10 @@
   "description": "Number of n X n binary arrays symmetric under horizontal and vertical reflection with all ones connected only in a 11000-01100-00110-00011 pattern in any orientation.",
   "id": "A147446",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 25,
     "source": "oeis-entry"

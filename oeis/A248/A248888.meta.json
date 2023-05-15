@@ -8,14 +8,12 @@
     "A000203",
     "A112587"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 29,
     "source": "oeis-entry"

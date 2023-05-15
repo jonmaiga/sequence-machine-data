@@ -1,16 +1,14 @@
 {
-  "description": "Column 0 of triangle A152795.",
+  "description": "Column 1 of triangle A152795.",
   "id": "A152796",
   "mentions": [
     "A152795",
     "A152797"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 16,
     "source": "oeis-entry"

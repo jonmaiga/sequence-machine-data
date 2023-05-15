@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive numbers on a square spiral such that the eight sums of each number with its eight nearest neighbors are distinct across the entire spiral and no number on the spiral equals any such sum.",
+  "id": "A361724",
+  "mentions": [
+    "A174344",
+    "A274640",
+    "A274923",
+    "A307834",
+    "A355270",
+    "A358151"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

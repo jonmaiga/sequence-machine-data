@@ -2,14 +2,12 @@
   "description": "a(n) is the largest prime factor of the number made by taking the previous term and duplicating the final digit, a(1) = 1.",
   "id": "A195201",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 13:25:03",
     "offset": 1,
     "size": 52,
     "source": "joeis"

@@ -2,12 +2,10 @@
   "description": "Theta series of odd 8-dimensional 5-modular lattice O(5).",
   "id": "A029719",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 0,
     "size": 44,
     "source": "oeis-entry"

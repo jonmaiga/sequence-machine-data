@@ -2,13 +2,11 @@
   "description": "Number of distinct 5-card poker hands using n ranks and 4 unlabeled suits.",
   "id": "A181430",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 11:39:21",
     "offset": 0,
     "size": 32,
     "source": "joeis"

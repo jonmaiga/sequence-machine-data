@@ -1,0 +1,20 @@
+{
+  "description": "If the ternary expansion of n starts with the digit 1, then replace 2's by 0's and vice versa; if the ternary expansion of n starts with the digit 2, then replace 1's by 0's and vice versa; a(0) = 0.",
+  "id": "A361945",
+  "mentions": [
+    "A048328",
+    "A122586",
+    "A171960"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

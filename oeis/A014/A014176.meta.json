@@ -4,6 +4,7 @@
   "mentions": [
     "A000032",
     "A000129",
+    "A001333",
     "A001622",
     "A002193",
     "A006497",
@@ -18,15 +19,14 @@
     "A179260",
     "A179807"
   ],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
+    "changed",
     "cons",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:21",
     "offset": 1,
     "size": 99,
     "source": "oeis-bfile"

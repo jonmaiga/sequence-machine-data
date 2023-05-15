@@ -2,13 +2,11 @@
   "description": "a(n) = digit reversal of (11^n) divided by 11.",
   "id": "A088113",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"

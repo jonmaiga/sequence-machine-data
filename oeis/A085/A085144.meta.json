@@ -7,13 +7,11 @@
     "A059448",
     "A085145"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:36",
     "offset": 0,
     "size": 85,
     "source": "oeis-bfile"

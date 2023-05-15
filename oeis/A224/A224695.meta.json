@@ -2,12 +2,10 @@
   "description": "Pseudoprimes to a twin prime criterion of Aebi and Cairns.",
   "id": "A224695",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:42",
     "offset": 1,
     "size": 34,
     "source": "oeis-bfile"

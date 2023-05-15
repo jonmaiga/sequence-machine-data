@@ -1,20 +1,18 @@
 {
-  "description": "Starting a priori with the fraction 1/1, \"the prime numerators of fractions built according to the rule: add top and bottom to get the new bottom, add top and 10 times bottom to get the new top.\" Also A015519(n) is prime.",
+  "description": "Primes in A002535.",
   "id": "A111015",
   "mentions": [
-    "A015519"
+    "A002534",
+    "A002535"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
-    "size": 10,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

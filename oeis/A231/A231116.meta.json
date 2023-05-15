@@ -5,7 +5,6 @@
     "A182622",
     "A182627"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "base",
     "fini",
@@ -14,7 +13,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

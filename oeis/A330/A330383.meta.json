@@ -2,13 +2,11 @@
   "description": "a(n) = (a(n-1)*a(n-7) + a(n-2)*a(n-6) - a(n-3)*a(n-5) + a(n-4)^2) / a(n-8), a(0) = ... = a(7) = 1.",
   "id": "A330383",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:59",
     "offset": 0,
     "size": 35,
     "source": "oeis-bfile"

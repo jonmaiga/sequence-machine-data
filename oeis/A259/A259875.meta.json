@@ -4,14 +4,12 @@
   "mentions": [
     "A005013"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "look",
     "sign",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:18",
     "offset": 0,
     "size": 82,
     "source": "oeis-bfile"

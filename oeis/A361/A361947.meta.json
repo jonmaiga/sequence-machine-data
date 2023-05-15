@@ -1,0 +1,24 @@
+{
+  "description": "If the rightmost nonzero digit in the base-4 expansion of n is the digit 1, then replace 2's by 3's and vice versa; if it is the digit 2, then replace 1's by 3's and vice versa; if it is the digit 3, then replace 1's by 2's and vice versa; a(0) = 0.",
+  "id": "A361947",
+  "mentions": [
+    "A000695",
+    "A048647",
+    "A057300",
+    "A065882",
+    "A163241",
+    "A361945",
+    "A361946"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

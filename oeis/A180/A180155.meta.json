@@ -2,13 +2,11 @@
   "description": "a(1)=1; thereafter, a(n) is the smallest integer k not yet in the sequence, such that k^3 contains in consecutive digits the decimal representation of a(n-1).",
   "id": "A180155",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:03",
     "offset": 1,
     "size": 91,
     "source": "oeis-bfile"

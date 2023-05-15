@@ -1,0 +1,37 @@
+{
+  "description": "Irregular triangle read by rows where T(n,k) is the number of integer partitions of n with k co-modes.",
+  "id": "A362615",
+  "mentions": [
+    "A000041",
+    "A002024",
+    "A008284",
+    "A026794",
+    "A096144",
+    "A098859",
+    "A238341",
+    "A238342",
+    "A275870",
+    "A325347",
+    "A359178",
+    "A359893",
+    "A362606",
+    "A362607",
+    "A362608",
+    "A362609",
+    "A362610",
+    "A362611",
+    "A362612",
+    "A362613",
+    "A362614"
+  ],
+  "tags": [
+    "new",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

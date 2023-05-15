@@ -30,7 +30,6 @@
     "A350422",
     "A350638"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "core",
     "formulas",
@@ -39,7 +38,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:02",
     "offset": 0,
     "size": 94,
     "source": "oeis-bfile"

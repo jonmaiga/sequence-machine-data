@@ -2,12 +2,10 @@
   "description": "a(n) = smallest semiprime s such that s + n is the next semiprime and there is no prime between s and s + n.",
   "id": "A133478",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:21",
     "offset": 1,
     "size": 40,
     "source": "oeis-bfile"

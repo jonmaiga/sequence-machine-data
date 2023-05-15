@@ -3,21 +3,19 @@
   "id": "A335939",
   "mentions": [
     "A006037",
+    "A072587",
     "A222266",
     "A268335",
     "A292986",
     "A335936",
     "A335938"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
-    "size": 17,
-    "source": "oeis-entry"
+    "size": 34,
+    "source": "oeis-bfile"
   }
 }

@@ -2,7 +2,6 @@
   "description": "Table read by rows: T(n,k) is the number of stable marriage instances with n men and n+1 women in which some \"rejecting\" woman receives exactly k proposals.",
   "id": "A309933",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "formulas",
     "more",
@@ -10,7 +9,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 0,
     "size": 10,
     "source": "oeis-entry"

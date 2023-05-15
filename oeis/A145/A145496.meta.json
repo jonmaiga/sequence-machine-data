@@ -2,13 +2,11 @@
   "description": "Coefficients of certain power series associated with Atkin polynomials (see Kaneko-Zagier reference for precise definition).",
   "id": "A145496",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "more",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 4,
     "source": "oeis-entry"

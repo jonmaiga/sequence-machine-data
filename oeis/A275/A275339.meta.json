@@ -2,12 +2,10 @@
   "description": "a(n) is the smallest number which has a water-capacity of n.",
   "id": "A275339",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 30,
     "source": "oeis-entry"

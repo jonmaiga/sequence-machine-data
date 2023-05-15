@@ -2,7 +2,6 @@
   "description": "Base 5 digits are, in order, the first n terms of the periodic sequence with initial period 3,0,2.",
   "id": "A037654",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 17:53:37",
     "offset": 1,
     "size": 21,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "Let the sequence s_n be defined by s_n(1) = n+1 and for k > 1, s_n(k) = k*s_n(k-1)+1. Then a(n) is the first prime in the sequence s_n.",
   "id": "A084755",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 27,
     "source": "oeis-entry"

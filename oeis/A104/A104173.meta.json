@@ -2,14 +2,12 @@
   "description": "a(n) is the smallest integer equal to the sum and the product of the same n positive integers: a(n) = i(1) + i(2) + ... + i(n) = i(1)*i(2)*...*i(n).",
   "id": "A104173",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:54",
     "offset": 1,
     "size": 71,
     "source": "oeis-bfile"

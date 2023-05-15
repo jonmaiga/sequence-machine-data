@@ -2,13 +2,11 @@
   "description": "Beginning with 7, primes of the form: least multiple of the previous term followed by a 1. Beginning with 7, a(n) is the least prime of the form k*a(n-1)*10 +1.",
   "id": "A113053",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

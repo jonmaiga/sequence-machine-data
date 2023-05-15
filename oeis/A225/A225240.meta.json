@@ -4,7 +4,6 @@
   "mentions": [
     "A225773"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "fini",
@@ -13,7 +12,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 32,
     "source": "oeis-entry"

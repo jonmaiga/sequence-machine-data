@@ -7,13 +7,10 @@
     "A272727",
     "A272729"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:44:32",
     "offset": 1,
     "size": 79,
     "source": "oeis-bfile"

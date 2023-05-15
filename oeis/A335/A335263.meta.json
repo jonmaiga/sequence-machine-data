@@ -2,13 +2,11 @@
   "description": "Decimal expansion of -(Pi/8 + EulerGamma/4 + log(8*Pi)/4 - 2).",
   "id": "A335263",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 0,
     "size": 88,
     "source": "oeis-entry"

@@ -1,13 +1,15 @@
 {
-  "description": "a(n)=a(n-1)+a(n-2); if a(n) is not prime divide a(n) by its largest prime factor.",
+  "description": "a(n) = a(n-1) + a(n-2); if a(n) is not prime divide a(n) by its largest prime factor.",
   "id": "A117339",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:23",
+  "mentions": [
+    "A214674"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:25:51",
     "offset": 1,
     "size": 105,
     "source": "joeis"

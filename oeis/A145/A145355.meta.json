@@ -2,12 +2,10 @@
   "description": "a(n) = round(round(sqrt(n!)/abs(round(sqrt(n!))^2 - n!))).",
   "id": "A145355",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:33",
     "offset": 2,
     "size": 90,
     "source": "oeis-bfile"

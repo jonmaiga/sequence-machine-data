@@ -2,13 +2,11 @@
   "description": "Largest integer m for which binomial(m,n-1) > binomial(m-1,n).",
   "id": "A279054",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:46",
     "offset": 1,
     "size": 69,
     "source": "oeis-bfile"

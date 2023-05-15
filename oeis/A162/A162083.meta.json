@@ -2,12 +2,10 @@
   "description": "Number of n X n symmetric 0..7 arrays with rows, considered as 8-ary numbers, in nondecreasing order",
   "id": "A162083",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:44",
     "offset": 1,
     "size": 9,
     "source": "oeis-bfile"

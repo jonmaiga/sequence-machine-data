@@ -9,7 +9,6 @@
     "A259773",
     "A261598"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "base",
     "easy",
@@ -18,7 +17,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:02",
     "offset": 0,
     "size": 57,
     "source": "oeis-bfile"

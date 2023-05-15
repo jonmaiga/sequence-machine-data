@@ -2,13 +2,11 @@
   "description": "Numbers x that when put through Lucas-Lehmer tests give a residue that has a digital root of 0 or 9.",
   "id": "A173912",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 69,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "G.f. satisfies: A(x - x*B(x)) = x where B(x) = (A(x) - A(-x))/2, the odd bisection of A(x).",
   "id": "A141203",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:29",
     "offset": 1,
     "size": 23,
     "source": "oeis-bfile"

@@ -2,14 +2,12 @@
   "description": "Triangle read by rows: coefficients from the expansion of p(x,t) = tan(x*arctan(t)) which is in the Chebyshevlike form: T(t,x) = cos(x*arccos(t)).",
   "id": "A137668",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

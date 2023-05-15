@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n! * Sum_{k=0..floor(n/4)} (n/24)^k /(k! * (n-4*k)!).",
+  "id": "A362317",
+  "mentions": [
+    "A351932",
+    "A362173",
+    "A362314",
+    "A362336"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

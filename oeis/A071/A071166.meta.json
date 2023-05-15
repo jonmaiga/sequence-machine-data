@@ -8,12 +8,10 @@
     "A062700",
     "A071167"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:23",
     "offset": 2,
     "size": 87,
     "source": "oeis-bfile"

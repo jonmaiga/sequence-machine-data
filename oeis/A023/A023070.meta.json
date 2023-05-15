@@ -2,13 +2,11 @@
   "description": "k and 4k are anagrams in base 7 (written in base 7).",
   "id": "A023070",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 13:21:06",
     "offset": 1,
     "size": 34,
     "source": "joeis"

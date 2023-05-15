@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = sum(A109613(k)*A005843(n-k): 0<=k<=n).",
+  "description": "a(n) = Sum_{k=0..n} A109613(k)*A005843(n-k).",
   "id": "A171218",
   "mentions": [
     "A005843",
@@ -7,14 +7,12 @@
     "A131941",
     "A137928"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:55",
     "offset": 0,
     "size": 43,
     "source": "oeis-bfile"

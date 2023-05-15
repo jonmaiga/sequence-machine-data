@@ -1,0 +1,22 @@
+{
+  "description": "Theta series of 18-dimensional lattice Kappa_18.",
+  "id": "A362878",
+  "mentions": [
+    "A029897",
+    "A047628",
+    "A362875",
+    "A362876",
+    "A362877",
+    "A362879",
+    "A362880"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

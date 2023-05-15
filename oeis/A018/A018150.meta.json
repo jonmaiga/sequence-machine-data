@@ -2,12 +2,10 @@
   "description": "Powers of fifth root of 13 rounded down.",
   "id": "A018150",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 12:35:03",
     "offset": 0,
     "size": 33,
     "source": "joeis"

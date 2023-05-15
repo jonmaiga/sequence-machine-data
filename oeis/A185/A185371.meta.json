@@ -2,13 +2,11 @@
   "description": "Product of two consecutive primes divided by the next prime and rounded down.",
   "id": "A185371",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:10",
     "offset": 2,
     "size": 59,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Sum of previous terms divided by their distance from n",
   "id": "A180086",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 2,
     "size": 35,
     "source": "oeis-entry"

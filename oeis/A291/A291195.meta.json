@@ -2,12 +2,10 @@
   "description": "The number of total solar eclipses visible from Earth's surface during year n (TD).",
   "id": "A291195",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:06",
     "offset": -1999,
     "size": 105,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "3-multiplicative persistence: number of iterations of \"multiply 3rd powers of digits\" needed to reach 0 or 1.",
   "id": "A031349",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:40",
     "offset": 1,
     "size": 99,
     "source": "oeis-bfile"

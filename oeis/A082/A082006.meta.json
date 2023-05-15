@@ -11,14 +11,12 @@
     "A082009",
     "A082010"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

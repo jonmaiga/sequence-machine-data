@@ -2,13 +2,11 @@
   "description": "Minimal positive integer m such that, in base n, powers of m can end with an arbitrary number of consecutive 1's.",
   "id": "A229029",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 3,
     "size": 98,
     "source": "oeis-entry"

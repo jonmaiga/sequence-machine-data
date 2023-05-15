@@ -2,13 +2,11 @@
   "description": "Number of radicals of n strokes in a traditional Chinese dictionary (using Kangxi Dictionary, 1716, as the reference)",
   "id": "A279797",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 17,
     "source": "oeis-entry"

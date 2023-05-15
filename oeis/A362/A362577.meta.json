@@ -1,0 +1,19 @@
+{
+  "description": "Number of vertex cuts in the n-trapezohedral graph.",
+  "id": "A362577",
+  "mentions": [
+    "A005248",
+    "A206776"
+  ],
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

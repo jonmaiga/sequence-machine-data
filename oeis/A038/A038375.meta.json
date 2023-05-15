@@ -2,14 +2,12 @@
   "description": "Maximal number of spanning paths in a tournament on n nodes.",
   "id": "A038375",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "a(n) = least prime p such that there are n consecutive even numbers E < 2 sqrt(p) such that E^2-p is prime.",
   "id": "A157185",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 23,
     "source": "oeis-entry"

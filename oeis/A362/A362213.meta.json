@@ -1,0 +1,29 @@
+{
+  "description": "Irregular table read by rows in which the n-th row consists of all the numbers m such that cototient(m) = n, where cototient is A051953.",
+  "id": "A362213",
+  "mentions": [
+    "A005278",
+    "A032447",
+    "A051953",
+    "A063507",
+    "A063740",
+    "A063741",
+    "A063742",
+    "A063748",
+    "A100827",
+    "A101373",
+    "A131825",
+    "A131826",
+    "A361966",
+    "A362180"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

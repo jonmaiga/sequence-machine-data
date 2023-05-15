@@ -5,13 +5,11 @@
     "A081020",
     "A081021"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

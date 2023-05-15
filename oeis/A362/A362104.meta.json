@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = K(5,n), where K(M,n) = 2*(2*M+3)!*(4*n+2*M+1)!/((M+2)!*M!*n!*(3*n+2*M+3)!).",
+  "id": "A362104",
+  "mentions": [
+    "A000260",
+    "A197271",
+    "A341853",
+    "A341854",
+    "A362103"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

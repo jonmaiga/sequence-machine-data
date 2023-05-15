@@ -2,14 +2,12 @@
   "description": "a(3n) = 3a(3n-1)-3a(3n-2)+2a(3n-3), a(3n+1) = 3a(3n)-3a(3n-1)+2a(3n-2), a(3n+2) = 3a(3n+1)-3a(3n), a(0) = 0, a(1) = 1, a(2) = 2.",
   "id": "A131761",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:19",
     "offset": 0,
     "size": 39,
     "source": "oeis-bfile"

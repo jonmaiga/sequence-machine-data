@@ -2,7 +2,6 @@
   "description": "A triangular sequence of coefficients: p(x,n)=((-1)^(n + 1)*(x - 1)^(n + 1)*Sum[(4*m + 3)^n*x^m, {m, 0, Infinity}] + (-1)^(n + 1)*(x - 1)^(n + 1)*Sum[(4*m + 1)^n*x^m, {m, 0, Infinity}])/2.",
   "id": "A154647",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 40,
     "source": "oeis-entry"

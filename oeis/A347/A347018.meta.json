@@ -2,13 +2,11 @@
   "description": "The number of unlabeled trees T on n vertices for which maximum multiplicity attained by any matrix whose graph is T implies the simplicity of its other eigenvalues.",
   "id": "A347018",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 39,
     "source": "oeis-entry"

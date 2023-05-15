@@ -2,12 +2,10 @@
   "description": "sech(tanh(x)*arctan(x))=1-12/4!*x^4+480/6!*x^6-18480/8!*x^8...",
   "id": "A012687",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-02 19:17:38",
     "offset": 0,
     "size": 14,
     "source": "joeis"

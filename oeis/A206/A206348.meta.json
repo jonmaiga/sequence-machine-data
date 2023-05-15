@@ -2,13 +2,11 @@
   "description": "Smallest number k such that the decimal representations of k^2 and (k+n)^2 are anagrams.",
   "id": "A206348",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

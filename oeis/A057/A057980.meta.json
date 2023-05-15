@@ -2,12 +2,10 @@
   "description": "Let n be a positive integer, n>3. Define a tournament on the vertex set {2,3,..,n} by: for i < j, i is adjacent to j if i divides j, else j is adjacent to i. If T(n) denotes its adjacency matrix, then the above sequence is det(T(n))for n=4,5,6....42.",
   "id": "A057980",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-10-18 14:56:43",
     "offset": 4,
     "size": 39,
     "source": "joeis"

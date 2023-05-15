@@ -2,12 +2,10 @@
   "description": "G.f. A(x) satisfies: A'(x) = A(B(x)) where B'(x) = A(x) with B(0)=0 and A(0)=1.",
   "id": "A231934",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 0,
     "size": 23,
     "source": "oeis-entry"

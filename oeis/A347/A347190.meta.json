@@ -2,12 +2,10 @@
   "description": "Numbers k with positive integer solutions a,b,c such that 2*a^2 + b^2 = c^2, k = a + b + c, and a <= b <= c.",
   "id": "A347190",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 58,
     "source": "oeis-entry"

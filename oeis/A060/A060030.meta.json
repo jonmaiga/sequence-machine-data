@@ -9,14 +9,12 @@
     "A060000",
     "A060482"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:11",
     "offset": 1,
     "size": 72,
     "source": "oeis-bfile"

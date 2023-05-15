@@ -5,12 +5,10 @@
     "A000081",
     "A050395"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:58",
     "offset": 1,
     "size": 23,
     "source": "oeis-bfile"

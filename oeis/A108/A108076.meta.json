@@ -4,17 +4,16 @@
   "mentions": [
     "A071946"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
-    "size": 59,
-    "source": "oeis-entry"
+    "size": 66,
+    "source": "oeis-bfile"
   }
 }

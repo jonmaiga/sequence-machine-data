@@ -2,13 +2,11 @@
   "description": "Floor of decimal expansion of n read as if it were \"base e\".",
   "id": "A038506",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:38:43",
     "offset": 1,
     "size": 77,
     "source": "joeis"

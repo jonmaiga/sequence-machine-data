@@ -2,12 +2,10 @@
   "description": "Number of non-invertible pretzel knots with n crossings.",
   "id": "A131339",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 10,
     "size": 8,
     "source": "oeis-entry"

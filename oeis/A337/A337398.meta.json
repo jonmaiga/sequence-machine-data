@@ -2,13 +2,11 @@
   "description": "Steinhaus' Mega, mod n.",
   "id": "A337398",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 74,
     "source": "oeis-entry"

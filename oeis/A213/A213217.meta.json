@@ -2,13 +2,11 @@
   "description": "Earliest string in {1,2,...9}* that is order-isomorphic to string formed by digits of n.",
   "id": "A213217",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 0,
     "size": 120,
     "source": "oeis-entry"

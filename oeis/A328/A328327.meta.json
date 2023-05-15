@@ -4,14 +4,13 @@
   "mentions": [
     "A083207",
     "A096399",
-    "A180332"
+    "A180332",
+    "A361934"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:57",
     "offset": 1,
     "size": 36,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Number of distinct regular languages over binary alphabet, whose minimum regular expression has reverse Polish length n.",
   "id": "A211941",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

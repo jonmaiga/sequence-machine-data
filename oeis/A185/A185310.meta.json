@@ -2,13 +2,11 @@
   "description": "G.f.: Sum_{n>=0} n! * (1+n*x)^n * x^n / Product_{k=1..n} (1 + k*x + n*k*x^2).",
   "id": "A185310",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:10",
     "offset": 0,
     "size": 23,
     "source": "oeis-bfile"

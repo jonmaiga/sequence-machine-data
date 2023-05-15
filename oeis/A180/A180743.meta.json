@@ -2,12 +2,10 @@
   "description": "Ascending sequence of numbers such that the sum of any two distinct elements (even + odd) is a prime number.",
   "id": "A180743",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 41,
     "source": "oeis-entry"

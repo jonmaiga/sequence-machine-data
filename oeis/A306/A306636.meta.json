@@ -2,14 +2,12 @@
   "description": "a(n) is the smallest number s such that a diagonal form of degree n in s variables with (rational) integer coefficients is guaranteed to have a nontrivial zero in the p-adic fields for all primes p.",
   "id": "A306636",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 31,
     "source": "oeis-entry"

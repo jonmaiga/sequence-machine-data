@@ -2,14 +2,12 @@
   "description": "Coordination sequence for diamond structure D^+_18. (Edges defined by l_1 norm = 1.)",
   "id": "A035885",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:23:15",
     "offset": 0,
-    "size": 20,
+    "size": 25,
     "source": "joeis"
   }
 }

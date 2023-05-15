@@ -2,14 +2,12 @@
   "description": "Number of nonisomorphic 2-generator p-groups of class at most 2 and order p^n.",
   "id": "A213506",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:48:55",
     "offset": 0,
     "size": 51,
     "source": "joeis"

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that 1 < gcd(k, 105) < k and A007947(k) does not divide 105.",
+  "id": "A362012",
+  "mentions": [
+    "A007947",
+    "A108347",
+    "A236206"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

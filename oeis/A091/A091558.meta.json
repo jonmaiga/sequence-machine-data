@@ -2,13 +2,11 @@
   "description": "Decimal expansion of zeta(Gamma^2).",
   "id": "A091558",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 100,
     "source": "oeis-entry"

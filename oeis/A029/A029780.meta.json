@@ -1,19 +1,17 @@
 {
-  "description": "Every digit that appears in n also appears at least once in both n^2 and n^3.",
+  "description": "Numbers k such that every digit that appears in k also appears at least once in both k^2 and k^3.",
   "id": "A029780",
   "mentions": [
     "A029772",
     "A029776",
     "A046827"
   ],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:44:05",
     "offset": 1,
     "size": 53,
     "source": "joeis"

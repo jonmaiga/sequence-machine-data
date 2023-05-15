@@ -2,14 +2,12 @@
   "description": "Write n in decimal and replace each digit d with prime(d+1), add overflow to the next position left.",
   "id": "A100110",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:50",
     "offset": 0,
     "size": 63,
     "source": "oeis-bfile"

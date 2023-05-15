@@ -2,7 +2,6 @@
   "description": "Prime numbers on the front cover of the paperback editions of Marcus du Sautoy's book The Music of the Primes.",
   "id": "A217281",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "fini",
     "full",
@@ -10,7 +9,6 @@
     "unsolved"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 17,
     "source": "oeis-entry"

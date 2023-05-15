@@ -2,13 +2,11 @@
   "description": "a(n) is the smallest number such that a(n)^2 +1 = (a(n-1)^2 + 1)*q(n) where a(0)=0 and q(n) is a sequence of increasing prime numbers.",
   "id": "A182864",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 8,
     "source": "oeis-entry"

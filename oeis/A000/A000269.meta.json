@@ -2,17 +2,11 @@
   "description": "Number of trees with n nodes, 3 of which are labeled.",
   "id": "A000269",
   "mentions": [
-    "A000055",
     "A000081",
-    "A000107",
     "A000243",
-    "A000444",
-    "A000485",
     "A000524",
-    "A000525",
-    "A000526"
+    "A034799"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "easy",
     "formulas",
@@ -20,7 +14,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 03:16:27",
     "offset": 3,
     "size": 24,
     "source": "joeis"

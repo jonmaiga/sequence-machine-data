@@ -64,9 +64,7 @@
     "A211315",
     "A230000"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "nice",
@@ -74,7 +72,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2022-04-28 12:47:37",
     "offset": 0,
     "size": 73,
     "source": "joeis"

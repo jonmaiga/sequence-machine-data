@@ -2,12 +2,10 @@
   "description": "a(n) = smallest positive multiple of (number of terms of {a(1), a(2), ..., a(n-1)} that are coprime to n) that is not among previous terms of sequence.",
   "id": "A098709",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 69,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "a(n) = the largest number one can subtract from 10^n such that the square of the result is strictly greater than 10^(2*n-1).",
   "id": "A128869",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"

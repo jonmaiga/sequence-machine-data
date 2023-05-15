@@ -2,12 +2,10 @@
   "description": "List of values of n for which there exist block designs with n blocks.",
   "id": "A205807",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 59,
     "source": "oeis-entry"

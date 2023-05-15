@@ -2,13 +2,11 @@
   "description": "a(n) = sum(stirling2(n+1,k+1)*k!^2,k=0..n).",
   "id": "A192550",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:16",
     "offset": 0,
     "size": 17,
     "source": "oeis-bfile"

@@ -13,14 +13,12 @@
     "A122442",
     "A217934"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:11",
     "offset": 0,
     "size": 93,
     "source": "oeis-bfile"

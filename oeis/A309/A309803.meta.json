@@ -18,14 +18,12 @@
     "A309802",
     "A309804"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:34",
     "offset": 0,
     "size": 17,
     "source": "oeis-bfile"

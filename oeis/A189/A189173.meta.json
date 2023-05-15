@@ -2,14 +2,12 @@
   "description": "Integers m such that m^3 is the sum of squares of m consecutive integers.",
   "id": "A189173",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 14:10:28",
     "offset": 1,
     "size": 19,
     "source": "joeis"

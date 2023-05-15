@@ -2,13 +2,11 @@
   "description": "Table in which n-th row list prime factors and their exponents in factorization of prime(n)!.",
   "id": "A071956",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 94,
     "source": "oeis-entry"

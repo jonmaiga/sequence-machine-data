@@ -1,0 +1,18 @@
+{
+  "description": "Sequence that alternately doubles and squares the previous number; a(0) = 1.",
+  "id": "A362343",
+  "mentions": [
+    "A000079",
+    "A075427"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

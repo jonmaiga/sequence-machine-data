@@ -2,7 +2,6 @@
   "description": "The numbers which are of the form (a*100 + b*10 + c)*(d*10 + e) = (f*10 + g)*(h*10 + i) (a, b, ... , i are nine digits, 1, 2, ... , 9).",
   "id": "A287219",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

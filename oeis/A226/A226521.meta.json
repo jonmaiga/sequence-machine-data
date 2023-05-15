@@ -2,13 +2,11 @@
   "description": "Triangle read by rows: T(n,k) = smallest prime == k (mod n) if gcd(k,n)=1, otherwise 0, for n >= 2, 1 <= k < n.",
   "id": "A226521",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 2,
     "size": 105,
     "source": "oeis-entry"

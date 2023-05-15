@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f. satisfies A(x) = exp( (exp(x) - 1) * A(x)^x ).",
+  "id": "A362799",
+  "mentions": [
+    "A000110",
+    "A052880",
+    "A361777",
+    "A362794",
+    "A362796",
+    "A362800"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

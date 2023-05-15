@@ -8,13 +8,11 @@
     "A087016",
     "A087017"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 102,
     "source": "oeis-entry"

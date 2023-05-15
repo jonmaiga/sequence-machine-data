@@ -2,12 +2,10 @@
   "description": "A digitized pure tuning tone, sampled at standard settings for consumer audio: a(n) = floor(sin(2*Pi*(440/44100)*n)*32767).",
   "id": "A320277",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 0,
     "size": 41,
     "source": "oeis-entry"

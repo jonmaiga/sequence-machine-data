@@ -2,14 +2,12 @@
   "description": "Number of irreducible exceptional curves of first kind on del Pezzo surface of degree 9-n.",
   "id": "A033541",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 0,
     "size": 9,
     "source": "oeis-entry"

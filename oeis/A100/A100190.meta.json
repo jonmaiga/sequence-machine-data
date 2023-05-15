@@ -2,14 +2,12 @@
   "description": "The (4,1)-entry in the 4 X 4 matrix M^n, where M = [1,0,0,0 / 3,3,0,0 / 3,6,3,0 / 1,3,3,1].",
   "id": "A100190",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:51",
     "offset": 1,
     "size": 25,
     "source": "oeis-bfile"

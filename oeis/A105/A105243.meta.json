@@ -2,7 +2,6 @@
   "description": "Tensor 2 X 2 X 2 matrix Fibonacci isomer in which the second matrix is altered.",
   "id": "A105243",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

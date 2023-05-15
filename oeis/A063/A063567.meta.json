@@ -4,15 +4,13 @@
   "mentions": [
     "A062521"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 0,
     "size": 72,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

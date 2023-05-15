@@ -6,12 +6,10 @@
     "A112106",
     "A112127"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:03",
     "offset": 1,
     "size": 31,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "Numbers that are the sum of 2 nonzero squares in exactly 6 ways.",
   "id": "A025289",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:27:31",
     "offset": 1,
     "size": 36,
     "source": "joeis"

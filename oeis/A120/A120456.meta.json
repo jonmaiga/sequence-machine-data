@@ -2,7 +2,6 @@
   "description": "Antidiagonal triangular version of the modulo 15 prime multiplication table past n=3.",
   "id": "A120456",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "fini",
     "formulas",
@@ -10,7 +9,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 36,
     "source": "oeis-entry"

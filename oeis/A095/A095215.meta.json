@@ -2,13 +2,11 @@
   "description": "Beginning with 2, greatest prime divisor of the concatenation of all previous terms.",
   "id": "A095215",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 14,
     "source": "oeis-entry"

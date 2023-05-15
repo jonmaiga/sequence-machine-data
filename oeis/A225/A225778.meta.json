@@ -2,13 +2,11 @@
   "description": "Continued fraction expansion of the smallest positive solution of Gamma(-x)=Gamma(-2x)",
   "id": "A225778",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 0,
     "size": 91,
     "source": "oeis-entry"

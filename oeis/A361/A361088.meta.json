@@ -1,0 +1,20 @@
+{
+  "description": "Irregular table, read by rows, where row n holds the tau signature of n, i.e., the shortest sequence (tau(n+k), 0 <= k <= m) that uniquely identifies n; tau = A000005.",
+  "id": "A361088",
+  "mentions": [
+    "A000005",
+    "A161460",
+    "A309981",
+    "A327265",
+    "A361089"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

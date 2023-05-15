@@ -2,13 +2,11 @@
   "description": "Number of spanning trees with degrees 1 and 3 in K_6 X P_n.",
   "id": "A145413",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 09:35:00",
     "offset": 1,
     "size": 10,
     "source": "joeis"

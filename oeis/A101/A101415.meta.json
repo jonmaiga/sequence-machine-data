@@ -2,14 +2,12 @@
   "description": "Amenable primes of order 3. Primes p such that the numerator and denominator of the continued fraction rational approximation of sqrt(p) are both prime and the numerator is less than 10^3 digits in length.",
   "id": "A101415",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 14,
     "source": "oeis-entry"

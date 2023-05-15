@@ -2,12 +2,10 @@
   "description": "Floor( (n/2)*log_2(2*n/3) ).",
   "id": "A076521",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 2,
     "size": 65,
     "source": "oeis-entry"

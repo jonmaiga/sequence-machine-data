@@ -2,13 +2,11 @@
   "description": "a(n) = sum(abs(stirling1(n+1,k+1))*stirling2(n,k)*k!^2,k=0..n).",
   "id": "A192565",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 0,
     "size": 16,
     "source": "oeis-entry"

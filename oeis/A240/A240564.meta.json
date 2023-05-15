@@ -2,7 +2,6 @@
   "description": "A number (where A=1, B=2...) for every letter in the capitalized alphabet that does not have a curved line in the letter.",
   "id": "A240564",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "fini",
     "full",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 15,
     "source": "oeis-entry"

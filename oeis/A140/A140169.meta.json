@@ -2,14 +2,12 @@
   "description": "Triangle read by rows, iterates of X * [1,0,0,0,...] where X = an infinite bidiagonal matrix with (2,1,2,1,2,1,...) in the main diagonal, (1,2,1,2,1,2,...) in the subdiagonal and the rest zeros.",
   "id": "A140169",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 60,
     "source": "oeis-entry"

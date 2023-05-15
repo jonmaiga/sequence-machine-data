@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{d|n, phi(d)|sigma(d)} (n-d).",
+  "id": "A362707",
+  "mentions": [
+    "A000005",
+    "A000010",
+    "A020492",
+    "A351112",
+    "A351113",
+    "A351114"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

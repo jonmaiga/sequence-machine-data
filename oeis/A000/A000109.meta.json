@@ -1,17 +1,19 @@
 {
-  "description": "Number of simplicial polyhedra with n nodes; simple planar graphs with 3n-6 edges; maximal simple planar graphs; 3-connected planar triangulations; 3-connected triangulations of the sphere; 3-connected cubic planar graphs.",
+  "description": "Number of simplicial polyhedra with n vertices; simple planar graphs with n vertices and 3n-6 edges; maximal simple planar graphs with n vertices; planar triangulations with n vertices; triangulations of the sphere with n vertices; 3-connected cubic planar graphs on 2n-4 vertices.",
   "id": "A000109",
   "mentions": [
     "A000103",
     "A000602",
+    "A000944",
     "A005347",
     "A005500",
     "A005964",
+    "A007021",
     "A007816",
     "A058378",
+    "A111358",
     "A253882"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "core",
     "formulas",
@@ -21,7 +23,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:02",
     "offset": 3,
     "size": 21,
     "source": "oeis-bfile"

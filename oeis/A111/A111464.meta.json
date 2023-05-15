@@ -2,13 +2,11 @@
   "description": "a(1) = 12, a(n+1) = lcm{a(n), Digit Reversal(a(n))}.",
   "id": "A111464",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "a(1)=1, a(n) = the least positive number not yet in sequence which added to max(a(1)..a(n-1)) gives a prime.",
   "id": "A125595",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:13",
     "offset": 1,
     "size": 72,
     "source": "oeis-bfile"

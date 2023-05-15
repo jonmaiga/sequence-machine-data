@@ -2,14 +2,12 @@
   "description": "Integers N such that the first occurrence of the digits of N is at the N-th place in N^N.",
   "id": "A159003",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

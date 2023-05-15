@@ -2,12 +2,10 @@
   "description": "Denominators of rational points on x^4+y^4+z^4=2 not satisfying z=x+y.",
   "id": "A121995",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

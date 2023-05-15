@@ -7,12 +7,10 @@
     "A077068",
     "A232221"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:50",
     "offset": 1,
     "size": 53,
     "source": "oeis-bfile"

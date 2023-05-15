@@ -2,7 +2,6 @@
   "description": "Triangle of numbers where T(n,k) is the number of k-dimensional faces on a partially truncated n-dimensional simplex, 0 <= k <= n.",
   "id": "A259477",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:17",
     "offset": 0,
     "size": 66,
     "source": "oeis-bfile"

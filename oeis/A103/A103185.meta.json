@@ -4,7 +4,6 @@
   "mentions": [
     "A102370"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
@@ -12,7 +11,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:53",
     "offset": 0,
     "size": 104,
     "source": "oeis-bfile"

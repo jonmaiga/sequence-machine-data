@@ -2,7 +2,6 @@
   "description": "Greatest product of two numbers made up together of decimal digits 0 to n once.",
   "id": "A125722",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

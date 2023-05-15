@@ -7,14 +7,12 @@
     "A258162",
     "A258164"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 2,
     "size": 105,
     "source": "oeis-entry"

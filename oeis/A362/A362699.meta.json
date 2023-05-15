@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 + LambertW(-x * exp(x^3))).",
+  "id": "A362699",
+  "mentions": [
+    "A072034",
+    "A362604"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -2,13 +2,11 @@
   "description": "The number of partitions of the set [n] where each element can be colored 1 or 2 avoiding the patterns 1^11^1 and 1^22^1 in the pattern sense.",
   "id": "A208275",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 28,
     "source": "oeis-entry"

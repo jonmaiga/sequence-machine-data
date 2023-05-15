@@ -2,13 +2,11 @@
   "description": "Floor of the base n Log of the number obtained concatenating n with itself n times.",
   "id": "A116962",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 2,
     "size": 72,
     "source": "oeis-entry"

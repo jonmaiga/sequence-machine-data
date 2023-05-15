@@ -1,16 +1,16 @@
 {
-  "description": "Denominator of Sum_{k=1..n} 1/H(k), H(k) = Sum_{j=1..k} 1/j.",
+  "description": "Denominator of Sum_{k=1..n} 1/H(k), where H(k) = Sum_{j=1..k} 1/j is the k-th harmonic number.",
   "id": "A124432",
   "mentions": [
+    "A001008",
+    "A002805",
     "A096987"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 15,
     "source": "oeis-entry"

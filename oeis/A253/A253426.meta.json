@@ -2,7 +2,6 @@
   "description": "Reusable Paper Tape Numbers: Maximum number of symbols that can be encoded on an n-hole paper tape, such that a used paper tape can always be reused at least once.",
   "id": "A253426",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "hard",
@@ -11,7 +10,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

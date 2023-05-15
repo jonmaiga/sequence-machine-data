@@ -2,14 +2,12 @@
   "description": "a(n) = 3*a(n-1) + 5 with a(0) = 1.",
   "id": "A116952",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 19:29:33",
     "offset": 0,
     "size": 27,
     "source": "joeis"

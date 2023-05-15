@@ -2,7 +2,6 @@
   "description": "Decimal expansion of r_0, a universal radius associated with mapping properties of analytic functions on the unit disk and with Dirichlet's integral.",
   "id": "A249414",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 0,
     "size": 101,
     "source": "oeis-entry"

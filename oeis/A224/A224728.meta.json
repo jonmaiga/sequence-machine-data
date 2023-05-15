@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of (n+3)X(k+3) 0..2 matrices with each 4X4 subblock idempotent",
   "id": "A224728",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:42",
     "offset": 1,
     "size": 41,
     "source": "oeis-bfile"

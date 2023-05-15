@@ -9,14 +9,12 @@
     "A073010",
     "A097195"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "mult",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 13:15:15",
     "offset": 1,
     "size": 105,
     "source": "joeis"

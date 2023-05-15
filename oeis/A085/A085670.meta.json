@@ -2,13 +2,11 @@
   "description": "Decimal expansion of log(1 + log(1 + log(1 + Pi))).",
   "id": "A085670",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:31",
     "offset": 0,
     "size": 99,
     "source": "joeis"

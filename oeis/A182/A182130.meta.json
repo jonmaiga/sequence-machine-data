@@ -2,14 +2,12 @@
   "description": "Number of independent sets of nodes in the armchair (3,3) carbon nanotube graph of breadth n (n>=1).",
   "id": "A182130",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:05",
     "offset": 0,
     "size": 18,
     "source": "oeis-bfile"

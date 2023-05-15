@@ -2,14 +2,12 @@
   "description": "Coefficient Expansion sequence of a Weaver Morse Code polynomial (using Cyclotomic prime base dot, dash, letter space and word space symbols): p(x) = -5 - 10 x - 12 x^2 - 10 x^3 - 7 x^4 - 3 x^5 + 5 x^7 + 8 x^8 + 9 x^9 + 8 x^10 + 6 x^11 + 3 x^12 + x^13.",
   "id": "A143389",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
     "uned"
   ],
   "terms": {
-    "modified": "2022-05-03 17:40:00",
     "offset": 0,
     "size": 45,
     "source": "joeis"

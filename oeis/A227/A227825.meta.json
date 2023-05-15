@@ -2,13 +2,11 @@
   "description": "Primes whose digits add to 10 and which have a 3 in the tens place.",
   "id": "A227825",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 43,
     "source": "oeis-entry"

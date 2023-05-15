@@ -9,13 +9,11 @@
     "A170824",
     "A170825"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "mult",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:54",
     "offset": 1,
     "size": 88,
     "source": "oeis-bfile"

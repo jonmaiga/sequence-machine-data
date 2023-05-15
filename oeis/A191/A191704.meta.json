@@ -30,13 +30,11 @@
     "A191710",
     "A191711"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:15",
     "offset": 1,
     "size": 51,
     "source": "oeis-bfile"

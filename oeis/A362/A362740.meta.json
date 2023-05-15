@@ -1,0 +1,19 @@
+{
+  "description": "Dimension of the vector space of 4-invariants on simple 01-labeled graphs on n vertices.",
+  "id": "A362740",
+  "mentions": [
+    "A000666",
+    "A244742"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

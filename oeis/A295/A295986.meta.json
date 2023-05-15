@@ -2,14 +2,12 @@
   "description": "Number of maximal cliques in the n-halved cube graph.",
   "id": "A295986",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:14",
     "offset": 1,
     "size": 30,
     "source": "oeis-bfile"

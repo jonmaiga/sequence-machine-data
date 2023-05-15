@@ -13,14 +13,12 @@
     "A213651",
     "A213652"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:55",
     "offset": 0,
     "size": 71,
     "source": "oeis-bfile"

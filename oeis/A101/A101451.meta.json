@@ -2,14 +2,12 @@
   "description": "Location of the restriction sites for the enzyme BccI on the PhiX174 DNA.",
   "id": "A101451",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

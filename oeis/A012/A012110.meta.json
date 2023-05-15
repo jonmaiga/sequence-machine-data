@@ -2,12 +2,10 @@
   "description": "sech(arcsin(sinh(x)))=1-1/2!*x^2-3/4!*x^4-21/6!*x^6-1543/8!*x^8...",
   "id": "A012110",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 12:40:00",
     "offset": 0,
     "size": 14,
     "source": "joeis"

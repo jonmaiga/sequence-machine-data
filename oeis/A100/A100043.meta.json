@@ -2,12 +2,10 @@
   "description": "a(n) = (3*n-1)!.",
   "id": "A100043",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 12:00:32",
     "offset": 1,
     "size": 11,
     "source": "joeis"

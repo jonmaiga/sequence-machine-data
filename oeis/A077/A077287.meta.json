@@ -2,12 +2,10 @@
   "description": "Unique encountered factors from ( (prime(n)*prime(n+1))^2 + 1 )/2.",
   "id": "A077287",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 2,
     "size": 34,
     "source": "oeis-entry"

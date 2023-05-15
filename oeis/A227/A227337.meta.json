@@ -2,12 +2,10 @@
   "description": "Smallest number k such that among its first 2n divisors nonprimes and primes alternate, as {1, a prime, a nonprime, a prime, ...} up to the 2n-th smallest divisor of k.",
   "id": "A227337",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 15,
     "source": "oeis-entry"

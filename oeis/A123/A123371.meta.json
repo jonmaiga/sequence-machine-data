@@ -2,13 +2,11 @@
   "description": "Smallest number k>1 such that (1 + Sum[ i^(2n - 1), {i,1,k} ]) is prime, or 0 if no such number k exists.",
   "id": "A123371",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

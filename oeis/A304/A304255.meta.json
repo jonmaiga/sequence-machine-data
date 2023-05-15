@@ -10,14 +10,12 @@
     "A081144",
     "A176398"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "easy",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 0,
     "size": 42,
     "source": "oeis-entry"

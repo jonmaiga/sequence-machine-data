@@ -1,5 +1,5 @@
 {
-  "description": "Remainder modulo n, of the sum letters of English word for n (A073327: a=1,...z=26).",
+  "description": "Remainder modulo n of the sum of the letters of the English word(s) for n (A073327: a=1, ..., z=26).",
   "id": "A226911",
   "mentions": [
     "A052360",
@@ -8,9 +8,9 @@
     "A073327",
     "A075831",
     "A119945",
-    "A152611"
+    "A152611",
+    "A362065"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "look",
@@ -18,9 +18,8 @@
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:44",
     "offset": 1,
-    "size": 99,
+    "size": 78,
     "source": "oeis-bfile"
   }
 }

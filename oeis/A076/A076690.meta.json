@@ -2,13 +2,11 @@
   "description": "Nearest integer to average of the smallest and largest prime factors of n (0.5 is rounded to 1).",
   "id": "A076690",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 2,
     "size": 86,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Increasing sequence of primes p such that all of 2,3,5,...,prime(n) are primitive roots mod p.",
   "id": "A213052",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:31",
     "offset": 1,
     "size": 29,
     "source": "oeis-bfile"

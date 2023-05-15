@@ -2,14 +2,12 @@
   "description": "Number of permutations of the base-2 representations of 1, 2, ..., n that are unambiguous when written without delimiters.",
   "id": "A349529",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 15,
     "source": "oeis-entry"

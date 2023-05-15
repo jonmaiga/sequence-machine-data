@@ -1,5 +1,5 @@
 {
-  "description": "Table read by rows: The coefficients of the polynomials P(n,x) = Sum{k=0..n}Sum{j=0..k}(-1)^j*2^(-k)*C(k,j)*(k-2*j)^n*x^(n-k).",
+  "description": "Table read by rows: The coefficients of the polynomials P(n, x) = Sum{k=0..n} Sum{j=0..k} (-1)^j * 2^(-k) * binomial(k, j) * (k-2*j)^n * x^(n-k).",
   "id": "A193474",
   "mentions": [
     "A000111",
@@ -13,13 +13,12 @@
     "A191277",
     "A196776"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

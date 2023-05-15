@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. exp(x * (1-2*x)).",
+  "id": "A362176",
+  "mentions": [
+    "A115329",
+    "A293604",
+    "A362177",
+    "A362277"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,14 +2,12 @@
   "description": "a(1)=1, a(2)=2; thereafter a(n+1) = Sum_{i=m..n} a(i) where m = (n+1)-k and k is the last digit of a(n), except if k=0, k=1, or k>n then a(n+1) = Sum_{i=1..n} a(i).",
   "id": "A309311",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:33",
     "offset": 1,
     "size": 36,
     "source": "oeis-bfile"

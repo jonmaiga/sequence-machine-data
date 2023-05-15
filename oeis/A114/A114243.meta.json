@@ -2,14 +2,12 @@
   "description": "a(n) = (n+1)*(n+2)^2*(n+3)*(n+4)*(3*n+5)/240.",
   "id": "A114243",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 13:44:27",
     "offset": 0,
     "size": 33,
     "source": "joeis"

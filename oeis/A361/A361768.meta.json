@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of o.g.f. A(x) = 1/F(oo,x) where F(oo,x) is the limit of the process F(n,x) = (F(n-1,x)^n - n^2*x^n)^(1/n) for n > 0, starting with F(0,x) = 1.",
+  "id": "A361768",
+  "mentions": [
+    "A361767",
+    "A361769"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

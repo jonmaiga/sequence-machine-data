@@ -5,7 +5,6 @@
     "A057058",
     "A165200"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
@@ -13,7 +12,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 100,
     "source": "oeis-entry"

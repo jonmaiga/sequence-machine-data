@@ -2,13 +2,11 @@
   "description": "Primes of the form 3n^3-7.",
   "id": "A200907",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 17:29:13",
     "offset": 1,
     "size": 28,
     "source": "joeis"

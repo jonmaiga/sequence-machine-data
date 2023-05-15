@@ -2,7 +2,6 @@
   "description": "Numbers n such that closest primes surrounding 10^n have the same last digit.",
   "id": "A118782",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 58,
     "source": "oeis-entry"

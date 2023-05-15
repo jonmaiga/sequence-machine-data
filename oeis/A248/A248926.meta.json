@@ -2,13 +2,11 @@
   "description": "Decimal expansion of the maximum value of r such that the non-integer sequence, f(n+1) = exp(f(n)/f(n-1)) - r, grows monotonically, with f(0) = 1 and f(1) = 1.",
   "id": "A248926",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 0,
     "size": 65,
     "source": "oeis-entry"

@@ -1,16 +1,15 @@
 {
   "description": "Let s(k) denote the k-th term of an integer sequence such that s(0)=0 and s(i) for all i>0 is the least natural number such that no four elements of {s(0),..,s(i)} are in arithmetic progression. Then it appears that there are many set of 3 consecutive integers in s(k). Sequence gives the smallest element in those triples.",
   "id": "A071711",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:21",
+  "mentions": [
+    "A005839"
+  ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
-    "size": 33,
-    "source": "oeis-entry"
+    "size": 44,
+    "source": "oeis-bfile"
   }
 }

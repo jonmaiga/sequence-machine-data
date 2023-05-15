@@ -1,0 +1,21 @@
+{
+  "description": "Order array of A361993, read by descending antidiagonals.",
+  "id": "A361995",
+  "mentions": [
+    "A114537",
+    "A163255",
+    "A333029",
+    "A351995",
+    "A361993",
+    "A361996"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

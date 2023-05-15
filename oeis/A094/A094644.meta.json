@@ -6,14 +6,12 @@
     "A073004",
     "A079650"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "cofr",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:45",
     "offset": 1,
     "size": 99,
     "source": "oeis-bfile"

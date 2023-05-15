@@ -2,14 +2,11 @@
   "description": "Transcendental signature sequence of e.",
   "id": "A179548",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:02",
     "offset": 1,
     "size": 95,
     "source": "oeis-bfile"

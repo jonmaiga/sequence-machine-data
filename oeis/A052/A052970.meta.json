@@ -2,14 +2,12 @@
   "description": "Expansion of (1-2x)/(1-2x-2x^2+2x^3).",
   "id": "A052970",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 01:18:30",
     "offset": 0,
     "size": 31,
     "source": "joeis"

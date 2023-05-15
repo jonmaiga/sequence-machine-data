@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. exp(x - 5*x^2/2).",
+  "id": "A362279",
+  "mentions": [
+    "A115331",
+    "A362277"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

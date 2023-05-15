@@ -2,13 +2,11 @@
   "description": "Numbers k whose digits can be divided into two contiguous parts, k = concatenate(x, y), such that k = |x^2 - y^2|.",
   "id": "A113797",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 29,
     "source": "oeis-entry"

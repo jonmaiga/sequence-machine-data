@@ -2,12 +2,10 @@
   "description": "a(1)=1. a(n) = a(n-1) + (sum of the distinct primes that are <= n and don't divide a(n-1)).",
   "id": "A137395",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:25",
     "offset": 1,
     "size": 50,
     "source": "oeis-bfile"

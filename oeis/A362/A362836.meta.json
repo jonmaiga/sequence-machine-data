@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 + LambertW(-x * (exp(x) - 1))).",
+  "id": "A362836",
+  "mentions": [
+    "A290158",
+    "A362835"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

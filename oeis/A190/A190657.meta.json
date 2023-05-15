@@ -1,13 +1,11 @@
 {
-  "description": "Half the number of n X n symmetric binary matrices with no element unequal to a strict majority of its diagonal, vertical and horizontal neighbors",
+  "description": "Half the number of n X n symmetric binary matrices with no element unequal to a strict majority of its diagonal, vertical and horizontal neighbors.",
   "id": "A190657",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 17,
     "source": "oeis-entry"

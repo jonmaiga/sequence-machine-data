@@ -2,14 +2,12 @@
   "description": "Nonnegative integers n such that n^j doesn't contain the digit j (1<=j<=7) and n is not a multiple of a smaller member of the sequence.",
   "id": "A167668",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

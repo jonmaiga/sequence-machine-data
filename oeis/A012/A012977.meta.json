@@ -2,12 +2,10 @@
   "description": "cos(arctan(x)+sin(x))=1-4/2!*x^2+40/4!*x^4-934/6!*x^6+42648/8!*x^8...",
   "id": "A012977",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-02 17:19:41",
     "offset": 0,
     "size": 14,
     "source": "joeis"

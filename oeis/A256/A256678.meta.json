@@ -2,14 +2,12 @@
   "description": "Coefficients of L-series for elliptic curve \"34a1\": y^2 + x*y = x^3 - 3*x + 1.",
   "id": "A256678",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "mult",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 76,
     "source": "oeis-entry"

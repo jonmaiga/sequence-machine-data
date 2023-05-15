@@ -2,16 +2,17 @@
   "description": "Column 0 of the matrix inverse of triangle A117401(n,k) = (2^k)^(n-k).",
   "id": "A118196",
   "mentions": [
+    "A006125",
     "A117401",
-    "A118197"
+    "A118197",
+    "A335330"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
+    "changed",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:07",
     "offset": 0,
     "size": 18,
     "source": "oeis-bfile"

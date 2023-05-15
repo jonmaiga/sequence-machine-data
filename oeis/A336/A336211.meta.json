@@ -2,14 +2,12 @@
   "description": "Sum of an infinite series involving generalized harmonic numbers of order 2.",
   "id": "A336211",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 0,
     "size": 104,
     "source": "oeis-entry"

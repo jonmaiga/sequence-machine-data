@@ -2,7 +2,6 @@
   "description": "This sequence needs a meaningful name.",
   "id": "A123186",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "less",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 35,
     "source": "oeis-entry"

@@ -21,14 +21,12 @@
     "A073135",
     "A094954"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "formulas",
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 80,
     "source": "oeis-entry"

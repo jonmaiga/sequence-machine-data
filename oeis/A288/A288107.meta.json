@@ -2,12 +2,10 @@
   "description": "Numbers k such that p = prime(k) + prime(k+1) + prime(k+2), q = p + prime(k+3) + prime(k+4) and r = q + prime(k+5) + prime(k+6) are all prime.",
   "id": "A288107",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:00",
     "offset": 1,
     "size": 53,
     "source": "oeis-bfile"

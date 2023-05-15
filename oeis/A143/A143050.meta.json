@@ -2,14 +2,12 @@
   "description": "A nonsense sequence.",
   "id": "A143050",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "less",
     "sign",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 49,
     "source": "oeis-entry"

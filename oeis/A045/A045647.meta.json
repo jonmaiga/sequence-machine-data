@@ -2,13 +2,11 @@
   "description": "Numbers n such that n! stripped of trailing zeros ends in n.",
   "id": "A045647",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

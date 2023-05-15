@@ -6,12 +6,10 @@
     "A195199",
     "A337686"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:25",
     "offset": 1,
     "size": 85,
     "source": "oeis-bfile"

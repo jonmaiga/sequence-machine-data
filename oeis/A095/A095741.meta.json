@@ -1,5 +1,5 @@
 {
-  "description": "Number of base-2 palindromic primes (A016041) in range ]2^2n,2^(2n+1)].",
+  "description": "Number of base-2 palindromic primes (A016041) in range [2^2n,2^(2n+1)].",
   "id": "A095741",
   "mentions": [
     "A016041",
@@ -10,14 +10,12 @@
     "A095759",
     "A117773"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 37,
     "source": "oeis-entry"

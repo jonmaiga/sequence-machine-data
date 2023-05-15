@@ -2,13 +2,11 @@
   "description": "Triangle read by rows: peak-to-average-power ratios of vectors of length n under local complementation.",
   "id": "A151824",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 67,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "A (-1,-2) Somos-4 sequence associated to the elliptic curve y^2 +y = x^3 +3*x^2 +x.",
   "id": "A178376",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:02",
     "offset": 0,
     "size": 21,
     "source": "oeis-bfile"

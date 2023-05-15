@@ -1,21 +1,24 @@
 {
-  "description": "Decimal expansion of solution to x^(6^x)=6.",
+  "description": "Decimal expansion of solution to x^(6^x) = 6.",
   "id": "A104754",
   "mentions": [
     "A103561",
     "A104750",
-    "A104761"
+    "A104751",
+    "A104752",
+    "A104753",
+    "A104755",
+    "A104756",
+    "A104757"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
+    "changed",
     "cons",
-    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:34",
     "offset": 1,
-    "size": 42,
+    "size": 105,
     "source": "joeis"
   }
 }

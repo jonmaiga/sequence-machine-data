@@ -2,12 +2,10 @@
   "description": "Primes r between two consecutive squares of primes p^2 and q^2 such that p^2 + q^2 - r is prime as well.",
   "id": "A337359",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:09",
     "offset": 1,
     "size": 54,
     "source": "oeis-bfile"

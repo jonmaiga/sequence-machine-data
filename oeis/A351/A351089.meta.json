@@ -9,14 +9,12 @@
     "A351226",
     "A351229"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
     "look",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:25",
     "offset": 0,
     "size": 89,
     "source": "oeis-bfile"

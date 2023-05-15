@@ -2,14 +2,12 @@
   "description": "Expansion of 1/((1-2x)(1-4x)(1-5x)(1-7x)(1-8x)).",
   "id": "A229025",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-28 11:08:28",
     "offset": 1,
     "size": 20,
     "source": "joeis"

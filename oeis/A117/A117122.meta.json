@@ -2,13 +2,11 @@
   "description": "Number of different digits in the decimal expansion of 1/n.",
   "id": "A117122",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 81,
     "source": "oeis-entry"

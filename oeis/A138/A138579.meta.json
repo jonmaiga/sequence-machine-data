@@ -2,13 +2,11 @@
   "description": "Numbers n such that 2^(2*n-9)-9 is prime.",
   "id": "A138579",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 17,
     "source": "oeis-entry"

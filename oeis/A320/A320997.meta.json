@@ -2,13 +2,11 @@
   "description": "An absolute lower bound on the number of components in perfect systems of difference sets (PSDS).",
   "id": "A320997",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

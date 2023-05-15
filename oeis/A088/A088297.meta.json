@@ -2,13 +2,11 @@
   "description": "Primes in which no digit is coprime to its neighbors.",
   "id": "A088297",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 41,
     "source": "oeis-entry"

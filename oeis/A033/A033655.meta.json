@@ -2,13 +2,11 @@
   "description": "Trajectory of 19 under map x->x + (x-with-digits-reversed).",
   "id": "A033655",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 17:59:30",
     "offset": 0,
     "size": 23,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "a(n) is the smallest square that has n as a string immediately before the final digit, or 0 if no such number exists.",
   "id": "A175689",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 44,
     "source": "oeis-entry"

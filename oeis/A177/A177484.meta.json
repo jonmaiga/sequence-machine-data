@@ -2,13 +2,11 @@
   "description": "The number of permutations having one non-overlapping occurrence of 122'1'.",
   "id": "A177484",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:01",
     "offset": 0,
     "size": 24,
     "source": "oeis-bfile"

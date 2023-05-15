@@ -2,12 +2,10 @@
   "description": "Numbers that have a \"y\" in the middle of their names.",
   "id": "A160774",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 21,
     "source": "oeis-entry"

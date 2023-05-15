@@ -7,7 +7,6 @@
     "A332252",
     "A332383"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
     "formulas",
@@ -15,7 +14,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:01",
     "offset": 0,
     "size": 68,
     "source": "oeis-bfile"

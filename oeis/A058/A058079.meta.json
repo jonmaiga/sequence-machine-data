@@ -2,12 +2,10 @@
   "description": "a(n) = p3, where {p1,p2,p3} are 3 consecutive primes with increasing order such that gcd(C(p3,p2), C(p2,p1)) = 1, where C is the binomial coefficient.",
   "id": "A058079",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:08",
     "offset": 1,
     "size": 46,
     "source": "oeis-bfile"

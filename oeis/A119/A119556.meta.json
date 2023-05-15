@@ -2,13 +2,11 @@
   "description": "Primes in the sequence f(n+1) = f(n)+((-1)^(n+1))*n!, with f(1)=0.",
   "id": "A119556",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:08",
     "offset": 1,
     "size": 7,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Sequence formed by writing out the primes, one digit at a time, prefixing each prime by the number of digits it contains (the latter number being written as a normal decimal number, not digit-by-digit).",
   "id": "A101809",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 104,
     "source": "oeis-entry"

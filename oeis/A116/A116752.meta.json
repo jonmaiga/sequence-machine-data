@@ -2,14 +2,12 @@
   "description": "Number of permutations of length n which avoid the patterns 1234, 1342, 2431.",
   "id": "A116752",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 02:50:31",
     "offset": 1,
     "size": 26,
     "source": "joeis"

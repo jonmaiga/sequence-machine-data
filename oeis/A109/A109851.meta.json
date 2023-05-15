@@ -2,13 +2,11 @@
   "description": "a(1) = 1, a(2) = 2; for n > 2, sum of absolute differences of all combinations of pairs of previous terms.",
   "id": "A109851",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 24,
     "source": "oeis-entry"

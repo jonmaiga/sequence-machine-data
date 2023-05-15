@@ -2,12 +2,10 @@
   "description": "It is conjectured that for each m >= 1 there exist primes Q=Q(m) and P=P(m) with (2m)^2 + 1 <= Q <= (2m+1)^2 - 2m <= P <= (2m+1)^2; then set a(2m-1) = Q, a(2m) = P.",
   "id": "A145354",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

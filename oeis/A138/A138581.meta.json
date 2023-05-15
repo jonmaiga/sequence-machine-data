@@ -2,13 +2,11 @@
   "description": "Numbers n such that 2^(2*n-15)-15 is prime.",
   "id": "A138581",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-09-08 06:56:22",
     "offset": 1,
     "size": 7,
     "source": "joeis"

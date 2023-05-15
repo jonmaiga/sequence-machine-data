@@ -15,15 +15,12 @@
     "A128031",
     "A128032"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

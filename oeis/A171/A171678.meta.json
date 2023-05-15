@@ -2,13 +2,11 @@
   "description": "a(n) = 0+1+2+...+n in lunar arithmetic in base 8 written in base 8.",
   "id": "A171678",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 70,
     "source": "oeis-entry"

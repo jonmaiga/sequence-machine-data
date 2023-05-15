@@ -2,12 +2,10 @@
   "description": "Ceiling of Gamma(n + 5/11)/Gamma(5/11).",
   "id": "A020100",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 16:28:15",
     "offset": 0,
     "size": 22,
     "source": "joeis"

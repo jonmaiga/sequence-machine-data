@@ -2,13 +2,11 @@
   "description": "Minimum sum of absolute values of coefficients of a product of n binomials.",
   "id": "A092121",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 3,
     "size": 9,
     "source": "oeis-entry"

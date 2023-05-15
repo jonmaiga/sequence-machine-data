@@ -2,13 +2,11 @@
   "description": "a(n) = Product_{i=1..n} (2*n-i)*(2*n+i).",
   "id": "A093434",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:44",
     "offset": 1,
     "size": 12,
     "source": "oeis-bfile"

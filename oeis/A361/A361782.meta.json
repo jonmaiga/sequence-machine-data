@@ -1,0 +1,23 @@
+{
+  "description": "Numerators of the harmonic means of the bi-unitary divisors of the positive integers.",
+  "id": "A361782",
+  "mentions": [
+    "A099377",
+    "A103339",
+    "A188999",
+    "A222266",
+    "A286324",
+    "A361316",
+    "A361783"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

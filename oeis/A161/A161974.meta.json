@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = number of equalities of the form A010060(n+k)=A010060(n), k=1,2,3.",
+  "description": "a(n) = number of equalities of the form A010060(n+k) = A010060(n), k=1,2,3.",
   "id": "A161974",
   "mentions": [
     "A010060",
@@ -18,12 +18,10 @@
     "A161890",
     "A161916"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 62,
     "source": "oeis-entry"

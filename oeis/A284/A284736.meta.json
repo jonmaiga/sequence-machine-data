@@ -2,13 +2,11 @@
   "description": "Fibonacci irregularity of Jaco graph J*_n(x).",
   "id": "A284736",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

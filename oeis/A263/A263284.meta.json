@@ -12,7 +12,6 @@
     "A332405",
     "A332625"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "more",
@@ -20,7 +19,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

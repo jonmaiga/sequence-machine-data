@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows. T(n, k) = binomial(3*n - 1, 3*k - 1).",
+  "id": "A361949",
+  "mentions": [
+    "A060544",
+    "A066802",
+    "A082365",
+    "A228888"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

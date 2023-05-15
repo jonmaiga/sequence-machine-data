@@ -1,0 +1,22 @@
+{
+  "description": "Theta series of 20-dimensional lattice Kappa_20.",
+  "id": "A362880",
+  "mentions": [
+    "A029897",
+    "A047628",
+    "A362875",
+    "A362876",
+    "A362877",
+    "A362878",
+    "A362879"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

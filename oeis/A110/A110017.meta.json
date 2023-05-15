@@ -2,7 +2,6 @@
   "description": "Number of games that can be played with a set of 4n cards.",
   "id": "A110017",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "fini",
@@ -11,7 +10,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

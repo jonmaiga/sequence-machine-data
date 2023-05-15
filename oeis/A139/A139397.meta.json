@@ -2,13 +2,11 @@
   "description": "Number of pyramids which can be constructed using n 1 x 2 tiles placed on an integral grid, with the base block at a fixed position.",
   "id": "A139397",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 16,
     "source": "oeis-entry"

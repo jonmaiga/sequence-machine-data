@@ -2,13 +2,11 @@
   "description": "a(n) is the number of parallelepipeds with vertices with integer coordinates between 0 and n and diagonals from one corner to the opposite corner with an integer length.",
   "id": "A278761",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 0,
     "size": 59,
     "source": "oeis-entry"

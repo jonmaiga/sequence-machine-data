@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 0, and for n > 1, a(n) = 1 if G(A329886(n)) >= G(A329886(floor(n/2))), otherwise 0, where G(n) = sigma(n) / (n*log(log(n))), where sigma is the sum of the divisors and log is the natural logarithm.",
+  "description": "a(1) = 0, and for n > 1, a(n) = 1 if G(A329886(n)) >= G(A329886(floor(n/2))), otherwise 0, where G(n) = sigma(n) / (n*log(log(n))), where sigma is the sum of the divisors.",
   "id": "A342000",
   "mentions": [
     "A000203",
@@ -22,13 +22,11 @@
     "A342020",
     "A342455"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:14",
     "offset": 1,
     "size": 115,
     "source": "oeis-bfile"

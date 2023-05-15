@@ -2,13 +2,11 @@
   "description": "T(n,k)=Square root of number of nXk arrays of occupancy after each element moves to some horizontal or vertical neighbor, with every occupancy equal to zero or two",
   "id": "A221314",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:39",
     "offset": 1,
     "size": 83,
     "source": "oeis-bfile"

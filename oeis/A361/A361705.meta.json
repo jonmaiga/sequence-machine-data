@@ -1,0 +1,21 @@
+{
+  "description": "Constant term in the expansion of (1 + w^4 + x^4 + y^4 + z^4 + 1/(w*x*y*z))^n.",
+  "id": "A361705",
+  "mentions": [
+    "A361657",
+    "A361658",
+    "A361675",
+    "A361703",
+    "A361704"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

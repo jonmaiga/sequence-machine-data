@@ -2,12 +2,10 @@
   "description": "Number of n X n symmetric binary matrices with each 1 adjacent to exactly 3 king-move neighboring 1s",
   "id": "A191224",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 19,
     "source": "oeis-entry"

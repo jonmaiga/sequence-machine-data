@@ -2,13 +2,11 @@
   "description": "Largest reset thresholds of n-state automata with two permutation letters generating the symmetric group S_n, and one letter of rank n-1.",
   "id": "A332494",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 2,
     "size": 6,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "The game \"n-Chicken\" is played with a pile of n sticks. Player I may remove 1 or two sticks from the pile. Thereafter players may remove as many sticks as the opposing player removed, or one more stick than the opposing player removed or one fewer (but at least one stick). The first player without a legal move is the loser. The sequence of numbers consists of all n such that player II has a winning strategy for n-chicken.",
   "id": "A137910",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 58,
     "source": "oeis-entry"

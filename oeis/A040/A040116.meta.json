@@ -2,13 +2,11 @@
   "description": "Primes p such that x^4 = 9 has a solution mod p.",
   "id": "A040116",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 18:00:03",
     "offset": 1,
     "size": 47,
     "source": "joeis"

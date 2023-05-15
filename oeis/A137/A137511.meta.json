@@ -2,7 +2,6 @@
   "description": "A triangular sequence from coefficients of an expansion of the Poisson's kernel: p(t,r)=(1-r^2)/(1-2*r*Cos(t)+r^2): r->t;Cos(t)->x.",
   "id": "A137511",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

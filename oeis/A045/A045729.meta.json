@@ -2,13 +2,11 @@
   "description": "Fibonacci numbers having initial digit '5'.",
   "id": "A045729",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 16:54:17",
     "offset": 1,
     "size": 12,
     "source": "joeis"

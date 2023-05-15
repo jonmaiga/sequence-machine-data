@@ -2,13 +2,11 @@
   "description": "Given n equally spaced points on the circumference of a circle, a(n) is the maximum number of those points that can be chosen so that the lengths of the line segments drawn connecting those a(n) points as vertices are all different.",
   "id": "A347635",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 62,
     "source": "oeis-entry"

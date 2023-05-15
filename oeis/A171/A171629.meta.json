@@ -2,13 +2,11 @@
   "description": "Numbers n such that 10^n*(5+3*10^n)+3 is prime.",
   "id": "A171629",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = (1+n)*(2*a(n-1) - (n-2)*a(n-2)) with a(0) = a(1) = 1.",
+  "id": "A361649",
+  "mentions": [
+    "A052852",
+    "A288268",
+    "A361528"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

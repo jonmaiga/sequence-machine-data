@@ -2,14 +2,12 @@
   "description": "x such that x^2 - 21*y^2 = 1.",
   "id": "A114049",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:04",
     "offset": 0,
     "size": 13,
     "source": "oeis-bfile"

@@ -2,14 +2,12 @@
   "description": "Expansion of (1-3x+12x^2)/((1-3x)(1+3x)).",
   "id": "A091103",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-02 21:12:48",
     "offset": 0,
     "size": 26,
     "source": "joeis"

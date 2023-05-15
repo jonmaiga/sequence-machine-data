@@ -2,13 +2,11 @@
   "description": "Number of balanced basic magic carpets on n points.",
   "id": "A055605",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 5,
     "size": 4,
     "source": "oeis-entry"

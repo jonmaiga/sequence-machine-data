@@ -2,7 +2,6 @@
   "description": "a(n) = ones digit minus tens digit of the square of a(n-1), with a(0) = 2.",
   "id": "A117606",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-26 09:27:37",
     "offset": 0,
     "size": 106,
     "source": "joeis"

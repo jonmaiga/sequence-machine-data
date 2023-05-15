@@ -6,15 +6,14 @@
     "A352547",
     "A360182"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "base",
+    "changed",
+    "less",
     "more",
-    "new",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

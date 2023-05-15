@@ -2,7 +2,6 @@
   "description": "Cardinality of the set of equivalence classes of the set X_n of finite integer sequences {x_1 = 0, x_2, ..., x_n} satisfying |x_k - x_{k+1}| = 1, where two such sequences are deemed equivalent if they are permutations of each other.",
   "id": "A254007",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "more",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 0,
     "size": 34,
     "source": "oeis-entry"

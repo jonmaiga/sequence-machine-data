@@ -6,7 +6,6 @@
     "A190017",
     "A309589"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "base",
     "easy",
@@ -14,7 +13,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 0,
     "size": 70,
     "source": "oeis-entry"

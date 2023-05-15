@@ -2,14 +2,13 @@
   "description": "For x=n, iterate the map x -> Product_{k is a prime dividing x} (k + (multiplicity of k)), a(n) is the number of steps to see a repeated term for the first time.",
   "id": "A299352",
   "mentions": [
+    "A008473",
     "A299351"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:22",
     "offset": 2,
     "size": 79,
     "source": "oeis-bfile"

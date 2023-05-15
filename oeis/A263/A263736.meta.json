@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of length n arrays of permutations of 0..n-1 with each element moved by -k to k places and the average of every three consecutive elements is never greater than the median of the previous three elements",
   "id": "A263736",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:23",
     "offset": 1,
     "size": 87,
     "source": "oeis-bfile"

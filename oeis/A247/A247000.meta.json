@@ -2,14 +2,12 @@
   "description": "Maximal number of palindromes in a circular binary word of length n.",
   "id": "A247000",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:59:39",
     "offset": 1,
     "size": 30,
     "source": "joeis"

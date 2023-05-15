@@ -2,12 +2,10 @@
   "description": "Numbers n such that n^5 = a^2 + b^3 + c^5 for some positive integers a, b, and c.",
   "id": "A206476",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

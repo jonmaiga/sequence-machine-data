@@ -2,13 +2,11 @@
   "description": "Triangle read by rows, with 2-variable g.f. (-2*x*t+t^2)/(1-2*x*t+t^2).",
   "id": "A137336",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

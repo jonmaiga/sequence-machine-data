@@ -2,13 +2,11 @@
   "description": "Smallest prime in n-th shell of prime spiral.",
   "id": "A053998",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-07 15:22:06",
     "offset": 0,
     "size": 36,
     "source": "joeis"

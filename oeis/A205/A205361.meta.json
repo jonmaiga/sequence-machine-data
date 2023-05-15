@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of (n+1)X(k+1) 0..2 arrays with every 2X2 subblock having the same number of equal diagonal or antidiagonal elements, and new values 0..2 introduced in row major order",
   "id": "A205361",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:25",
     "offset": 1,
     "size": 35,
     "source": "oeis-bfile"

@@ -6,14 +6,12 @@
     "A078202",
     "A122735"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "hard",
     "more",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 21,
     "source": "oeis-entry"

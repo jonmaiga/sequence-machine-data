@@ -13,14 +13,12 @@
     "A121341",
     "A122060"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 79,
     "source": "oeis-entry"

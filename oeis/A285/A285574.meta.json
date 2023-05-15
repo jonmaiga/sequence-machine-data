@@ -21,13 +21,11 @@
     "A261699",
     "A279820"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 100,
     "source": "oeis-entry"

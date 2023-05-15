@@ -5,7 +5,6 @@
     "A009000",
     "A020882"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "formulas",
     "more",
@@ -13,7 +12,6 @@
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 40,
     "source": "oeis-entry"

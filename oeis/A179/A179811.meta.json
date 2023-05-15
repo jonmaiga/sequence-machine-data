@@ -2,12 +2,10 @@
   "description": "Number of 9 X n arrays with every diagonal and antidiagonal of length L containing a permutation of 1..L.",
   "id": "A179811",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 2,
     "size": 9,
     "source": "oeis-entry"

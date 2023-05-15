@@ -2,13 +2,11 @@
   "description": "Numbers having period-27 7-digitized sequences.",
   "id": "A031207",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:50:39",
     "offset": 1,
     "size": 52,
     "source": "joeis"

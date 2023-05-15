@@ -2,14 +2,12 @@
   "description": "Numbers that are congruent to {2, 5} mod 11.",
   "id": "A168486",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:52",
     "offset": 1,
     "size": 57,
     "source": "oeis-bfile"

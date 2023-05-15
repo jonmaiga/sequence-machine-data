@@ -5,7 +5,6 @@
     "A109128",
     "A123125"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
@@ -13,7 +12,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 72,
     "source": "oeis-entry"

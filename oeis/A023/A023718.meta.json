@@ -2,14 +2,13 @@
   "description": "Numbers with a single 3 in their base 4 expansion.",
   "id": "A023718",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
+    "changed",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:19:25",
     "offset": 1,
     "size": 56,
     "source": "joeis"

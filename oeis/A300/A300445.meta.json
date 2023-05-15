@@ -2,14 +2,12 @@
   "description": "a(n) is the maximum value of the quartet index of a bifurcating rooted tree with n leaves.",
   "id": "A300445",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

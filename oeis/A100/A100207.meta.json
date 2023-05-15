@@ -2,12 +2,10 @@
   "description": "a(n) = 4 + 8*n + 10*n^2 + 4*n^3.",
   "id": "A100207",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:32:17",
     "offset": 0,
     "size": 39,
     "source": "joeis"

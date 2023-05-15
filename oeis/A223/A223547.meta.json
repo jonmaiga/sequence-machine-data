@@ -2,13 +2,11 @@
   "description": "G.f.: A(x) = Sum_{n>=0} x^n / (1 - x^n - x^(2*n))^n.",
   "id": "A223547",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:41",
     "offset": 0,
     "size": 42,
     "source": "oeis-bfile"

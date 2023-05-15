@@ -2,13 +2,11 @@
   "description": "Number of strings of length n in {2,3}* for which at least one of tail(2 S) > tail(S) and tail(3 S) > tail(S) holds.",
   "id": "A217437",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 36,
     "source": "oeis-entry"

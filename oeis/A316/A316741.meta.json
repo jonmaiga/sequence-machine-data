@@ -2,12 +2,10 @@
   "description": "Numbers k with the property that there exists a matrix of squares m = [p^2, q^2; r^2, s^2] such that p, q, r, s are all distinct primes less than k, and det(m) = k.",
   "id": "A316741",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 54,
     "source": "oeis-entry"

@@ -17,13 +17,11 @@
     "A323025",
     "A323056"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:49",
     "offset": 1,
     "size": 13,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Rotations of 123, 245, 367, 489 (terms differ by 122) juxtaposed with the product of their last 2 digits. See example line.",
   "id": "A122043",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

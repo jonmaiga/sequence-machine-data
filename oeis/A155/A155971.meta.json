@@ -2,14 +2,12 @@
   "description": "Genlex listings of (s,t)-combination strings possessing the revolving-door property.",
   "id": "A155971",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "more",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 28,
     "source": "oeis-entry"

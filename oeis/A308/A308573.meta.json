@@ -2,13 +2,11 @@
   "description": "Decimal expansion of convergent series Sum_{n >= 1} (cos(n)/2)^n.",
   "id": "A308573",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 0,
     "size": 120,
     "source": "oeis-entry"

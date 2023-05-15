@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: (1+x)*(3+x)/(1+6*x^2+x^4).",
+  "description": "Expansion of g.f. (1+x)*(3+x)/(1+6*x^2+x^4).",
   "id": "A100434",
   "mentions": [
     "A000034",
@@ -11,16 +11,14 @@
     "A075870",
     "A126354"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-02 21:40:32",
     "offset": 0,
     "size": 30,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

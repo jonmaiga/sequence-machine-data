@@ -2,7 +2,6 @@
   "description": "a(n) = sigma(d(n)) where d(n) is n-th divisor of 101010 (n=1..64).",
   "id": "A175894",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 54,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Decimal expansion of 1/273.16, the fraction of the triple point temperature of water corresponding to 1 K (kelvin).",
   "id": "A256460",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:57:03",
     "offset": -2,
     "size": 105,
     "source": "joeis"

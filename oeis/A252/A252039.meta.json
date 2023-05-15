@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of (n+2)X(k+2) 0..4 arrays with every 3X3 subblock row and column sum nonprime and every diagonal and antidiagonal sum prime",
   "id": "A252039",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:09",
     "offset": 1,
     "size": 30,
     "source": "oeis-bfile"

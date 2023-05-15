@@ -2,13 +2,11 @@
   "description": "Integers n such that by inserting between their digits + or - or * or / or ^ or nothing (i.e., concatenate two digits) you recover n back in a nontrivial way.",
   "id": "A157198",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 30,
     "source": "oeis-entry"

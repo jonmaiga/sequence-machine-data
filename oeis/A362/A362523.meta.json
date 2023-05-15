@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = n! * Sum_{k=0..floor(n/3)} (k+1)^(k-1) / (k! * (n-3*k)!).",
+  "id": "A362523",
+  "mentions": [
+    "A088957",
+    "A089464",
+    "A362348",
+    "A362522"
+  ],
+  "tags": [
+    "changed",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

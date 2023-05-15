@@ -2,12 +2,10 @@
   "description": "Disk degeneracies for brane I or brane II in the O(K) -> P^2 geometry.",
   "id": "A061636",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 0,
     "size": 10,
     "source": "oeis-entry"

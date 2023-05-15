@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = floor( n/2 ) * floor( n/3 ).",
+  "description": "a(n) = floor(n/2) * floor(n/3).",
   "id": "A010762",
   "mentions": [
     "A002264",
@@ -8,14 +8,12 @@
     "A110533",
     "A242669"
   ],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 13:06:33",
     "offset": 1,
     "size": 58,
     "source": "joeis"

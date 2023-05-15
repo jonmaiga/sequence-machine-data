@@ -2,14 +2,12 @@
   "description": "A symmetrical triangle sequence with low, even center: t(n,m)=If[(n - m)*m == 0, 1, If[m <= Floor[n/2] && Mod[m, 2] == 1, 2*m, If[m <= Floor[n/2] && Mod[m, 2] == 0, m, If[m > Floor[n/2] && Mod[n - m, 2] == 1, 2*(n - m), If[m > Floor[n/2] && Mod[n - m, 2] == 0, (n - m), n - m]]]]].",
   "id": "A143187",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

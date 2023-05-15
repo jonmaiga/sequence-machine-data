@@ -2,12 +2,10 @@
   "description": "Numbers k such that the product of the logarithms of k's prime factors is greater than their sum.",
   "id": "A052202",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 15:01:57",
     "offset": 1,
     "size": 52,
     "source": "joeis"

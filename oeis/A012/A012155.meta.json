@@ -2,12 +2,10 @@
   "description": "E.g.f.: arcsin(tan(sinh(x))) (odd powers only).",
   "id": "A012155",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:19",
     "offset": 0,
     "size": 13,
     "source": "oeis-bfile"

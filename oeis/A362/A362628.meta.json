@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{d|n, phi(d)|n} d.",
+  "id": "A362628",
+  "mentions": [
+    "A000010",
+    "A069932",
+    "A362470"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

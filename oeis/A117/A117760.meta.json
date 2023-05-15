@@ -2,14 +2,12 @@
   "description": "Expansion of 1/(1 - x - x^3 - x^5 - x^7).",
   "id": "A117760",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:07",
     "offset": 0,
     "size": 40,
     "source": "oeis-bfile"

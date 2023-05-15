@@ -2,14 +2,12 @@
   "description": "Given a(n) as d digits in length, partition the binary representation of a(n) into d-digit numbers from left to right and add them as if they were decimal numbers.",
   "id": "A176853",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:00",
     "offset": 1,
     "size": 72,
     "source": "oeis-bfile"

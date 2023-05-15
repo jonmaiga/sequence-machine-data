@@ -2,14 +2,12 @@
   "description": "a(n) = 30*n+7.",
   "id": "A128471",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:40:17",
     "offset": 0,
     "size": 50,
     "source": "joeis"

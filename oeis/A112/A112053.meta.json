@@ -8,13 +8,11 @@
     "A112054",
     "A112059"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:02",
     "offset": 1,
     "size": 101,
     "source": "oeis-bfile"

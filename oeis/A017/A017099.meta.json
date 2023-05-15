@@ -1,16 +1,19 @@
 {
   "description": "a(n) = (8*n + 2)^11.",
   "id": "A017099",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:17",
+  "mentions": [
+    "A013669",
+    "A016823",
+    "A017089"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:24",
     "offset": 0,
-    "size": 11,
+    "size": 13,
     "source": "oeis-bfile"
   }
 }

@@ -2,15 +2,15 @@
   "description": "Coordination sequence of point of type 3.3.3.4.4 in 3-uniform tiling #3.54 in the Galebach listing.",
   "id": "A299911",
   "mentions": [
+    "A250120",
     "A299909",
     "A299910"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:24",
     "offset": 0,
     "size": 56,
     "source": "oeis-bfile"

@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) is the least positive integer not occurring earlier such that a(n) shares no digit with a(n-1) - a(n-2).",
+  "id": "A362093",
+  "mentions": [
+    "A067581",
+    "A297065",
+    "A342441",
+    "A342442",
+    "A362075",
+    "A362076"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

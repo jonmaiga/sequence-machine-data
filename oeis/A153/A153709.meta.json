@@ -2,14 +2,12 @@
   "description": "Expansion of (1 + 7*x)/(1 - 11*x - 26*x^2).",
   "id": "A153709",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:35",
     "offset": 0,
     "size": 20,
     "source": "oeis-bfile"

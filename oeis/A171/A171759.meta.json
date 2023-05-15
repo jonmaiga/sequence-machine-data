@@ -2,13 +2,11 @@
   "description": "Decimal expansion of limit sqrt(2*sqrt(3*sqrt(5*sqrt(7*sqrt(11*...sqrt(prime(n)...))))).",
   "id": "A171759",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:55",
     "offset": 1,
     "size": 100,
     "source": "oeis-bfile"

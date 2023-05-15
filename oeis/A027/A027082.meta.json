@@ -2,13 +2,11 @@
   "description": "Irregular triangular array: T(n,0) = 1 for n >= 1; T(n,1) = T(n,2) = 1 for n >= 1; T(n,k) = T(n-1,k-3) + T(n-1,k-2) + T(n-1,k-1) for 3 <= k <= 2n-1 and n >= 2; and T(n,2n) = T(n-1,2n-3) + T(n-1,2n-2) for n >= 2.",
   "id": "A027082",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2022-04-28 14:33:21",
     "offset": 0,
     "size": 73,
     "source": "joeis"

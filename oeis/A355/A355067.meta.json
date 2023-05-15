@@ -2,14 +2,12 @@
   "description": "a(n) is the failed skew zero forcing number of P^3_n.",
   "id": "A355067",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-10-18 14:56:45",
     "offset": 3,
     "size": 58,
     "source": "joeis"

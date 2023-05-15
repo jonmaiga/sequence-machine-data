@@ -1,20 +1,18 @@
 {
-  "description": "64n^2 + 1.",
+  "description": "a(n) = 64*n^2 + 1.",
   "id": "A158686",
   "mentions": [
     "A005843",
     "A158685"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 17:12:57",
     "offset": 0,
-    "size": 37,
+    "size": 41,
     "source": "joeis"
   }
 }

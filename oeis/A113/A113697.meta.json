@@ -2,13 +2,11 @@
   "description": "Floor[n concatenated with n+2 divided by n+1].",
   "id": "A113697",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-09-08 06:56:22",
     "offset": 1,
     "size": 72,
     "source": "joeis"

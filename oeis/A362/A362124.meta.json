@@ -1,0 +1,16 @@
+{
+  "description": "List of numbers in British English with a doubled letter. Each letter can only be used once.",
+  "id": "A362124",
+  "mentions": [],
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

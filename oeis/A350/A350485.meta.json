@@ -2,13 +2,11 @@
   "description": "The number of Assur graphs on n vertices.",
   "id": "A350485",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 3,
     "size": 9,
     "source": "oeis-entry"

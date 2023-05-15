@@ -2,14 +2,12 @@
   "description": "Expansion of 1/((1-5x)(1-9x)(1-12x)).",
   "id": "A020566",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:27",
     "offset": 0,
     "size": 19,
     "source": "oeis-bfile"

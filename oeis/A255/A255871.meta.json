@@ -2,12 +2,10 @@
   "description": "Numbers prime(n) such that the determinant of the matrix [prime(n), prime(n+1); prime(n+2), prime(n+3)] is positive.",
   "id": "A255871",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 54,
     "source": "oeis-entry"

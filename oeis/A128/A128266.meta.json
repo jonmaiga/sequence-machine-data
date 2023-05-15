@@ -2,12 +2,10 @@
   "description": "a(n) = Sum_{m=1..n} gcd(s(n,m), S(n,m)), where s(n,m) is an unsigned Stirling number of the first kind and S(n,m) is a Stirling number of the second kind.",
   "id": "A128266",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 30,
     "source": "oeis-entry"

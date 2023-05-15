@@ -2,14 +2,12 @@
   "description": "Algorithmic drum function based on two bar 16 notes per bar: Funk drum : Based on Andy Newark \"In Time\" from Sly Stone's \"Fresh\" 1973.",
   "id": "A132376",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

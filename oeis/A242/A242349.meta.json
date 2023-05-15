@@ -2,13 +2,11 @@
   "description": "Largest power of 2 <= n^2.",
   "id": "A242349",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 51,
     "source": "oeis-entry"

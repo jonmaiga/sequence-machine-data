@@ -2,13 +2,11 @@
   "description": "Ennea-Primes. Prime Numbers n (single prime number in-between 8 twin primes) such that Sum of 9 prime numbers (8 twin primes and single prime number in-between) are primes.",
   "id": "A138399",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 24,
     "source": "oeis-entry"

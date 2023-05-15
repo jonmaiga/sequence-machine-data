@@ -1,19 +1,19 @@
 {
-  "description": "n such that 3^(2n-3)+3^(n-1)+1 is prime.",
+  "description": "Numbers k such that 3^(2k-3) + 3^(k-1) + 1 is prime.",
   "id": "A199191",
   "mentions": [
     "A198410",
     "A199192"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
+    "changed",
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
-    "size": 15,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

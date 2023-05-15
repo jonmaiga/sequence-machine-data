@@ -1,0 +1,20 @@
+{
+  "description": "Complement of A361337.",
+  "id": "A361978",
+  "mentions": [
+    "A011540",
+    "A034048",
+    "A052382",
+    "A277061",
+    "A361337"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

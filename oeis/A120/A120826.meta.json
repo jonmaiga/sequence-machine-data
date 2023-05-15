@@ -12,7 +12,6 @@
     "A120825",
     "A120827"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "bref",
@@ -20,7 +19,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 3,
     "source": "oeis-entry"

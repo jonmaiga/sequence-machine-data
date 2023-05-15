@@ -2,13 +2,11 @@
   "description": "a(n) = 9*(n-2)^2 * (n^2 - 2*n - 1).",
   "id": "A060788",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:46:01",
     "offset": 2,
     "size": 29,
     "source": "joeis"

@@ -2,12 +2,10 @@
   "description": "sec(arcsin(x)-tanh(x))=1+90/6!*x^6-1176/8!*x^8+185094/10!*x^10...",
   "id": "A013428",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-02 17:51:53",
     "offset": 0,
     "size": 14,
     "source": "joeis"

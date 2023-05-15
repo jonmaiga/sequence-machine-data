@@ -18,14 +18,12 @@
     "A179131",
     "A179135"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:51",
     "offset": 0,
     "size": 40,
     "source": "oeis-bfile"

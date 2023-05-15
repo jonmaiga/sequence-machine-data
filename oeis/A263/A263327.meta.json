@@ -9,14 +9,12 @@
     "A263355",
     "A263383"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:23",
     "offset": 0,
     "size": 60,
     "source": "oeis-bfile"

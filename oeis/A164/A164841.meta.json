@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with property that average digit of n^2 is s>8.",
+  "description": "Numbers whose squares have a digit average greater than 8.",
   "id": "A164841",
   "mentions": [
     "A164770",
@@ -12,13 +12,11 @@
     "A164782",
     "A164842"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 23,
     "source": "oeis-entry"

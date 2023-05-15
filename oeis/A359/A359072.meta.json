@@ -6,14 +6,12 @@
     "A129132",
     "A359071"
   ],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:33",
     "offset": 2,
     "size": 72,
     "source": "oeis-bfile"

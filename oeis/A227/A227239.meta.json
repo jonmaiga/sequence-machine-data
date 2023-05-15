@@ -9,14 +9,12 @@
     "A010815",
     "A121373"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "mult",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:44",
     "offset": 1,
     "size": 49,
     "source": "oeis-bfile"

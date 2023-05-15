@@ -2,14 +2,12 @@
   "description": "Number of elements of order n in the simple unitary group U3(4).",
   "id": "A284960",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 15,
     "source": "oeis-entry"

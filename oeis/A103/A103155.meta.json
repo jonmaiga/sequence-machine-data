@@ -2,13 +2,11 @@
   "description": "Each letter appears an even number of times in the English names for 1 through n taken together (names with \"and\").",
   "id": "A103155",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

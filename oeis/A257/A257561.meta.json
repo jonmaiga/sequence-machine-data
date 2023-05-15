@@ -2,13 +2,11 @@
   "description": "Number of permutations of length n that avoid the patterns 4231, 4312, and 4321.",
   "id": "A257561",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:15",
     "offset": 0,
     "size": 31,
     "source": "oeis-bfile"

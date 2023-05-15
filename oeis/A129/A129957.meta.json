@@ -2,14 +2,12 @@
   "description": "a(n) = n^3 if n is odd, n^3 + 1 otherwise.",
   "id": "A129957",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:06:11",
     "offset": 0,
     "size": 40,
     "source": "joeis"

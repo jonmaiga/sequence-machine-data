@@ -2,14 +2,12 @@
   "description": "Denomination sequence. Start with the 0th and first coins of value 1 cent: a(0)=a(1)=1. Thereafter a(n), the value of the n-th coin (n>=2), is the number of ways to make change for n cents in earlier coins. The two one-cent coins are considered distinct.",
   "id": "A151945",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:35",
     "offset": 0,
     "size": 50,
     "source": "oeis-bfile"

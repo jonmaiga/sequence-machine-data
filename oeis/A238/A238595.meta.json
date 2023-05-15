@@ -2,12 +2,10 @@
   "description": "Greatest common divisor of (x^m+y^m+(x+y)^m) - (z^m+t^m+(z+t)^m) over all x,y,z,t such that x^2 + xy + y^2 = z^2 + zt + t^2 and m=2n.",
   "id": "A238595",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 3,
     "size": 22,
     "source": "oeis-entry"

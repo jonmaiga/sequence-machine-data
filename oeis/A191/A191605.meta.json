@@ -2,14 +2,12 @@
   "description": "Number of n-step two-sided prudent self-avoiding walks.",
   "id": "A191605",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn",
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:15",
     "offset": 0,
     "size": 30,
     "source": "oeis-bfile"

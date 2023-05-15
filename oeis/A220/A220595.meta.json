@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of ways to reciprocally link elements of an nXk array either to themselves or to exactly two king-move neighbors",
   "id": "A220595",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:38",
     "offset": 1,
     "size": 44,
     "source": "oeis-bfile"

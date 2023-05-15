@@ -3,14 +3,14 @@
   "id": "A049696",
   "mentions": [
     "A002088",
-    "A049695"
+    "A049695",
+    "A206350"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:40:29",
     "offset": 0,
     "size": 44,
     "source": "joeis"

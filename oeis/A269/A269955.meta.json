@@ -2,13 +2,11 @@
   "description": "Triangle read by rows, T(n, k) = S(k, n) with S(n, n) = 1, S(0, n) = 0 and otherwise S(k,n) = Sum_{i=1..n-k+1} k^i*S(k-1, n-i), for n>=0 and 0<=k<=n.",
   "id": "A269955",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 0,
     "size": 55,
     "source": "oeis-entry"

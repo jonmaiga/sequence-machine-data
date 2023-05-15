@@ -2,12 +2,10 @@
   "description": "a(1) = 1; a(n) = n mod a(k), k being the largest value such that n mod a(k) > 1, or n if there is no such k.",
   "id": "A272181",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:37",
     "offset": 1,
     "size": 74,
     "source": "oeis-bfile"

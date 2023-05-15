@@ -2,12 +2,10 @@
   "description": "Two 1's, one 2, four 3's, three 4's ...",
   "id": "A130822",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 78,
     "source": "oeis-entry"

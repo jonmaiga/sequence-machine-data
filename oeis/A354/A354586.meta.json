@@ -2,14 +2,12 @@
   "description": "Table of Sprague-Grundy values for n X m 2D Toppling Dominoes L's read by antidiagonals.",
   "id": "A354586",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "easy",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 78,
     "source": "oeis-entry"

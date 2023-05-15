@@ -10,14 +10,12 @@
     "A356325",
     "A356327"
   ],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "base",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:30",
     "offset": 0,
     "size": 73,
     "source": "oeis-bfile"

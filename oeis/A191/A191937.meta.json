@@ -2,13 +2,11 @@
   "description": "Number of simple arrangements of pseudolines of order n.",
   "id": "A191937",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 0,
     "size": 6,
     "source": "oeis-entry"

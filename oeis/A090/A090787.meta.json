@@ -2,12 +2,10 @@
   "description": "Number of ways to get n by evaluating 1 (+ or *) 2 (+ or *) 3 ... (+ or *) m for some positive integer m. No parentheses are allowed and the usual order of precedence (* before +) is followed.",
   "id": "A090787",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:44:23",
     "offset": 1,
     "size": 105,
     "source": "oeis-bfile"

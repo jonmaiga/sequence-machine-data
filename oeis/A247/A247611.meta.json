@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Sum{k=0..6} binomial(12,k)*binomial(n,k).",
+  "description": "a(n) = Sum_{k=0..6} binomial(12,k)*binomial(n,k).",
   "id": "A247611",
   "mentions": [
     "A005408",
@@ -7,14 +7,12 @@
     "A247608",
     "A247609"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:10:29",
     "offset": 0,
     "size": 29,
     "source": "joeis"

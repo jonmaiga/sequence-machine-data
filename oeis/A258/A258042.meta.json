@@ -2,14 +2,12 @@
   "description": "Decimal expansion of least constant a0 such that, for all a >= a0, log(a + x) is submultiplicative on [1, +oo).",
   "id": "A258042",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 73,
     "source": "oeis-entry"

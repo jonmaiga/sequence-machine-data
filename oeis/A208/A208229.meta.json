@@ -2,14 +2,12 @@
   "description": "Consider Wolfram's universal 2-state 3-symbol Turing machine on a one-way-infinite tape with all but the first n cells initially blank and the head initially in state 1. a(n) is the maximum number of steps the Turing machine can make before halting.",
   "id": "A208229",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "more",
     "nonn",
     "unsolved"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 0,
     "size": 15,
     "source": "oeis-entry"

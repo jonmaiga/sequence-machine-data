@@ -2,13 +2,11 @@
   "description": "Prime numbers for which there is a primitive root g for which the iteration x -> g^x (mod p) generates all nonzero residues (mod p).",
   "id": "A214876",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:32",
     "offset": 1,
     "size": 52,
     "source": "oeis-bfile"

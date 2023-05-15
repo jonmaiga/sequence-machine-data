@@ -2,13 +2,11 @@
   "description": "Decimal expansion of the abscissa of the minimum of log(x)*log(1+x).",
   "id": "A345656",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 0,
     "size": 87,
     "source": "oeis-entry"

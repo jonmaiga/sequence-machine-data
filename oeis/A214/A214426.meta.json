@@ -8,7 +8,6 @@
     "A214424",
     "A214425"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "base",
     "formulas",
@@ -16,7 +15,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

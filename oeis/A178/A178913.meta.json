@@ -2,14 +2,12 @@
   "description": "a(n) is the number of integer bases r, where r is less than or equal to n, in which n cannot be expressed in the form of k+Reverse(k) for any k",
   "id": "A178913",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 2,
     "size": 76,
     "source": "oeis-entry"

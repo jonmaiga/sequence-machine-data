@@ -2,14 +2,12 @@
   "description": "Slowest increasing sequence that starts with 1 and has property that adding two consecutive terms gives a number which does not share a digit with either of the two terms.",
   "id": "A129562",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:17",
     "offset": 1,
     "size": 62,
     "source": "oeis-bfile"

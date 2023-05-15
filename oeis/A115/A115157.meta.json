@@ -2,14 +2,12 @@
   "description": "Numbers abc such that (a+2)(b+2)(c+2)=2abc.",
   "id": "A115157",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

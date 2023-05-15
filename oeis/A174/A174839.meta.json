@@ -2,13 +2,11 @@
   "description": "Lists of 4 adjacent primes such that the difference between the highest minus the lowest = 8.",
   "id": "A174839",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:58",
     "offset": 1,
     "size": 40,
     "source": "oeis-bfile"

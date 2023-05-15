@@ -2,14 +2,12 @@
   "description": "Number of A'Campo forests of degree n>1 and co-dimension 2.",
   "id": "A277877",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

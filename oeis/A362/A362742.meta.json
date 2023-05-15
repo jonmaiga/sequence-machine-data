@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (-1)^(k+1)*floor(sqrt(k))/k.",
+  "id": "A362742",
+  "mentions": [
+    "A000196",
+    "A113024"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

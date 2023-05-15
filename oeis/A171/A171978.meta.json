@@ -2,14 +2,12 @@
   "description": "Number of partitions of n into fractions k/(k+1), 0",
   "id": "A171978",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 25,
     "source": "oeis-entry"

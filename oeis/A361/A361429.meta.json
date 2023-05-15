@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest positive number not among the terms between a(n-1) and the most recent previous term whose value appears with the same frequency (inclusive); if no such term exists, set a(n)=1; a(1)=1.",
+  "id": "A361429",
+  "mentions": [
+    "A001511",
+    "A358921",
+    "A361172"
+  ],
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

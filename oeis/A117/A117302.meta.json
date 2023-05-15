@@ -2,14 +2,12 @@
   "description": "Number of cases in which the first player gets killed in a Russian roulette game when 7 players use a gun with n chambers and the number of the bullets can be from 1 to n. In the game they do not rotate the cylinder after the game starts.",
   "id": "A117302",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:07",
     "offset": 1,
     "size": 30,
     "source": "oeis-bfile"

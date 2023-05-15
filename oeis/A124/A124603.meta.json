@@ -2,14 +2,13 @@
   "description": "Position of the first 3 in the decimal expansion of the square root of n, or -1 if 3 never appears.",
   "id": "A124603",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
+    "changed",
     "easy",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 101,
     "source": "oeis-entry"

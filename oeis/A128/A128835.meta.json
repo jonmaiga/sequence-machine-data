@@ -2,13 +2,11 @@
   "description": "Numbers n such that n^n == 2 (mod 7), or 7 divides n^n-2.",
   "id": "A128835",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

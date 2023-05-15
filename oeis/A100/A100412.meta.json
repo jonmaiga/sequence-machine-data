@@ -2,10 +2,13 @@
   "description": "a(n) = 8*10^n - 7.",
   "id": "A100412",
   "mentions": [
+    "A033175",
+    "A086578",
+    "A086943",
     "A100413",
-    "A136543"
+    "A136543",
+    "A185127"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
@@ -13,9 +16,8 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 21:08:21",
     "offset": 0,
     "size": 18,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

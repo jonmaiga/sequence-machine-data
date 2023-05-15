@@ -1,0 +1,16 @@
+{
+  "description": "Indices of records in A018804.",
+  "id": "A360425",
+  "mentions": [
+    "A018804",
+    "A053669"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

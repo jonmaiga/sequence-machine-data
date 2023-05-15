@@ -2,13 +2,11 @@
   "description": "Number of distinct binary strings in the n-th Fibonacci shuffle set.",
   "id": "A306893",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

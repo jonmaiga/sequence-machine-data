@@ -2,14 +2,12 @@
   "description": "Numerator of the sum of the ratios of consecutive primes.",
   "id": "A094661",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 2,
     "size": 17,
     "source": "oeis-entry"

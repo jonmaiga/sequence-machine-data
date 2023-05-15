@@ -2,12 +2,10 @@
   "description": "tanh(sec(x)*arcsinh(x))=x-504/7!*x^7+11904/9!*x^9-1023616/11!*x^11...",
   "id": "A012829",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-16 12:46:55",
     "offset": 0,
     "size": 14,
     "source": "joeis"

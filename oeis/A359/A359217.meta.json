@@ -2,20 +2,18 @@
   "description": "Y-coordinates of a point moving along a counterclockwise undulating spiral on a square grid.",
   "id": "A359217",
   "mentions": [
+    "A180714",
     "A359058",
     "A359216"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "formulas",
-    "new",
     "sign",
     "walk"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 0,
     "size": 76,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

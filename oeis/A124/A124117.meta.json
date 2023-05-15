@@ -2,14 +2,12 @@
   "description": "a(n) the smallest composite number of n+1 digits that becomes a prime by incrementing any one of the higher order digits.",
   "id": "A124117",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

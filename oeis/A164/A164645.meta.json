@@ -2,13 +2,11 @@
   "description": "Triangle read by rows: a(n,k) is the number of permutations of n elements with prefix transposition distance equal to k.",
   "id": "A164645",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 54,
     "source": "oeis-entry"

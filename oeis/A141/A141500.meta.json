@@ -2,7 +2,6 @@
   "description": "A triangular sequence of coefficients based on a skip prime prime power sequence: t(n,m)=Prime[m + 1]^n*Prime[m + 3]; qualified so the m=0 and n=0 terms are well-defined.",
   "id": "A141500",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 35,
     "source": "oeis-entry"

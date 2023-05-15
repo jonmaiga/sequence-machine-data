@@ -6,7 +6,6 @@
     "A053985",
     "A065369"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
     "easy",
@@ -14,7 +13,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:16",
     "offset": 0,
     "size": 64,
     "source": "oeis-bfile"

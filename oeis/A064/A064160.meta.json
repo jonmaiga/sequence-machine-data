@@ -2,7 +2,6 @@
   "description": "Numbers k such that the digits of k joined to the digits of 2k contain each of the digits from 1 to 9 once.",
   "id": "A064160",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 0,
     "size": 12,
     "source": "oeis-entry"

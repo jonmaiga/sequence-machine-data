@@ -2,13 +2,11 @@
   "description": "Possible numbers of complements of topologies on 11 points.",
   "id": "A018202",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 20:34:00",
     "offset": 0,
     "size": 6,
     "source": "joeis"

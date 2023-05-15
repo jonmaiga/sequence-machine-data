@@ -2,14 +2,12 @@
   "description": "Rectangular array read by antidiagonals: T(n,k) is the number of compositions (ordered partitions) of n in which no part (summand) is equal to k.",
   "id": "A179647",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:02",
     "offset": 1,
     "size": 78,
     "source": "oeis-bfile"

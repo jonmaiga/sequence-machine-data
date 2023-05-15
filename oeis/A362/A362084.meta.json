@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^k * binomial(-2,k) * binomial(n*k,n-k).",
+  "id": "A362084",
+  "mentions": [
+    "A099237",
+    "A362079"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

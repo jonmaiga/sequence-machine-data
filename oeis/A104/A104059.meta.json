@@ -2,7 +2,6 @@
   "description": "Each number is the rank in the alphabet of a letter (and \"0\" stands for a space). After substitution one reads (in English): \"twenty twentythree five fourteen twenty twentyfive zero...\" which is exactly the sequence itself (without hyphens).",
   "id": "A104059",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:54",
     "offset": 1,
     "size": 82,
     "source": "oeis-bfile"

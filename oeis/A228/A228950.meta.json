@@ -2,13 +2,11 @@
   "description": "The index of Simon's piecewise testability congruence, for words of length n over a 2-letter alphabet.",
   "id": "A228950",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 0,
     "size": 12,
     "source": "oeis-entry"

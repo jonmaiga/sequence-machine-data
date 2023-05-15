@@ -2,12 +2,10 @@
   "description": "Site series for second parallel moment of Kagome lattice.",
   "id": "A120551",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:09",
     "offset": 0,
     "size": 28,
     "source": "oeis-bfile"

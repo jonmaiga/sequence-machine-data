@@ -1,0 +1,17 @@
+{
+  "description": "Cubefull numbers (A036966) with a record gap to the next cubefull number.",
+  "id": "A363014",
+  "mentions": [
+    "A036966",
+    "A349062"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

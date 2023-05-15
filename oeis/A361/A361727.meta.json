@@ -1,0 +1,17 @@
+{
+  "description": "Diagonal of rational function 1/(1 - (1 + x*y) * (x^3 + y^3)).",
+  "id": "A361727",
+  "mentions": [
+    "A137635",
+    "A361726"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

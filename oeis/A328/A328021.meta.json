@@ -2,13 +2,11 @@
   "description": "Lexicographic first permutation of {1,...,N} such that a(n) + a(n+1) and |a(n) - a(n+1)| never share a digit, with N as large as possible.",
   "id": "A328021",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 72,
     "source": "oeis-entry"

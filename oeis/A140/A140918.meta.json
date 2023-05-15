@@ -2,13 +2,11 @@
   "description": "Number of 3 X 9 matrices with elements in 0..n with each row and each column in nondecreasing order. 3,9,n can be permuted, see formula.",
   "id": "A140918",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-07-12 12:11:11",
     "offset": 0,
     "size": 18,
     "source": "joeis"

@@ -2,7 +2,6 @@
   "description": "Maximal number of prime implicants of a Boolean function of n variables.",
   "id": "A003039",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "hard",
     "more",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Decimal expansion of the generalized hypergeometric function 3F2(1/2, 3/2, 5/2; 2, 2;x) at x=1/4.",
   "id": "A263493",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 117,
     "source": "oeis-entry"

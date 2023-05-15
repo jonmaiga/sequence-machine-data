@@ -2,12 +2,10 @@
   "description": "Isolated numbers: Mark the lowest number that doesn't touch a number that has already been mark on grid of number spiraling outward.",
   "id": "A248715",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:05",
     "offset": 1,
     "size": 57,
     "source": "oeis-bfile"

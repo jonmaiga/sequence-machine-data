@@ -1,0 +1,16 @@
+{
+  "description": "Numbers m such that the increasing sequence of divisors of m, regarded as words on the finite alphabet of its prime factors, is ordered lexicographically.",
+  "id": "A361232",
+  "mentions": [
+    "A027855"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

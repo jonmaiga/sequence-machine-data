@@ -2,13 +2,11 @@
   "description": "Numbers n whose digits in their prime factorization are the same as those of the prime factorization of n+1.",
   "id": "A061665",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-28 11:08:27",
     "offset": 0,
     "size": 29,
     "source": "joeis"

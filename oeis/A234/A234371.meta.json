@@ -2,13 +2,11 @@
   "description": "Bohr-Procopiu magneton.",
   "id": "A234371",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": -23,
     "size": 8,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Coordination sequence for A_45 lattice.",
   "id": "A035871",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 10:34:09",
     "offset": 0,
     "size": 13,
     "source": "joeis"

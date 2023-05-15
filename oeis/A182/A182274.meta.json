@@ -2,14 +2,12 @@
   "description": "Starting with 1, the smallest number not yet in the sequence such that the sum of every pair of adjacent digits in the sequence sum to a square number.",
   "id": "A182274",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 59,
     "source": "oeis-entry"

@@ -5,16 +5,14 @@
     "A000005",
     "A000203"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:59",
     "offset": 1,
     "size": 86,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

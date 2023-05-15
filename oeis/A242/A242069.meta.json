@@ -2,7 +2,6 @@
   "description": "Decimal expansion of the supremum of all real s such that zeta(s+i*t) = 1 for some real t.",
   "id": "A242069",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "cons",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 100,
     "source": "oeis-entry"

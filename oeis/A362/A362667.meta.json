@@ -1,0 +1,19 @@
+{
+  "description": "Infinitary sparsely totient numbers: numbers k such that m > k implies iphi(m) > iphi(k), where iphi is the infinitary totient function A091732.",
+  "id": "A362667",
+  "mentions": [
+    "A036913",
+    "A091732",
+    "A362484",
+    "A362666",
+    "A362668"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

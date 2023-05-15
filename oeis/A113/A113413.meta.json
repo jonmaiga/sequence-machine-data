@@ -22,9 +22,7 @@
     "A266213",
     "A322328"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "look",
@@ -32,7 +30,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2022-04-26 13:13:37",
     "offset": 0,
     "size": 69,
     "source": "joeis"

@@ -2,12 +2,10 @@
   "description": "Related to disproof of Gilbert-Pollak conjecture on n-dimensional Steiner minimal trees.",
   "id": "A011798",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

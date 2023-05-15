@@ -2,12 +2,10 @@
   "description": "Least positive integer k such that k*sigma(n) forms an increasing sequence.",
   "id": "A224901",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:42",
     "offset": 1,
     "size": 81,
     "source": "oeis-bfile"

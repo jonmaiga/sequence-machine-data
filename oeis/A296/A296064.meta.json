@@ -6,14 +6,12 @@
     "A296063",
     "A296065"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:14",
     "offset": 1,
     "size": 52,
     "source": "oeis-bfile"

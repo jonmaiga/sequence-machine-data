@@ -2,14 +2,12 @@
   "description": "a(n) = (n+1)*(n+2)*(n+3)*(n+4)*(19*n^2 + 47*n + 30)/720.",
   "id": "A108677",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:34:21",
     "offset": 0,
     "size": 30,
     "source": "joeis"

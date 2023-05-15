@@ -2,14 +2,12 @@
   "description": "5^((6+5*n+n^3)/6).",
   "id": "A218150",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": -1,
     "size": 10,
     "source": "oeis-entry"

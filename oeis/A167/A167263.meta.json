@@ -2,13 +2,11 @@
   "description": "T(n,m) = Number of ways to partition an nXm grid into 7 connected equal-area regions.",
   "id": "A167263",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:50",
     "offset": 1,
     "size": 84,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Expansion of q^(-13/24) * eta(q^2) * eta(q^3) * eta(q^4)^2 in powers of q.",
   "id": "A143159",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-26 09:31:41",
     "offset": 0,
     "size": 74,
     "source": "joeis"

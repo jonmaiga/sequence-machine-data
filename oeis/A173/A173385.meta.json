@@ -2,13 +2,11 @@
   "description": "The number of permutations that avoid the pattern 122'1', that is, out of four consecutive elements in a permutation we never have the situation that the first two elements form an ascent while the last two elements form a descent.",
   "id": "A173385",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:57",
     "offset": 0,
     "size": 24,
     "source": "oeis-bfile"

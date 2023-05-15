@@ -1,0 +1,24 @@
+{
+  "description": "Convolution triangle of A052547(n).",
+  "id": "A362379",
+  "mentions": [
+    "A001045",
+    "A052536",
+    "A052547",
+    "A052941",
+    "A052964",
+    "A077998",
+    "A139818"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

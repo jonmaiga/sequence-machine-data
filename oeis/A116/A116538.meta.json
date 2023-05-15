@@ -2,12 +2,10 @@
   "description": "a(1)=1, a(2)=2; a(n) is the smallest positive integer not occurring earlier in the sequence such that gcd(a(n-2), a(n-1)+a(n)) = 1.",
   "id": "A116538",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:06",
     "offset": 1,
     "size": 72,
     "source": "oeis-bfile"

@@ -2,7 +2,6 @@
   "description": "Coefficients of G_i(x) with G_0 = 1, G_1 = 1+x, G_n = (1-2*x)*G_{n-1}+(x-x^2)*G_{n-2}.",
   "id": "A252840",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:11",
     "offset": 0,
     "size": 55,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "E.g.f. satisfies: A(x) = exp( x + Integral Integral A(x)^3 dx dx ).",
   "id": "A234239",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 0,
     "size": 23,
     "source": "oeis-entry"

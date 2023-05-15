@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of nXk 0..1 arrays with each 1 adjacent to 3, 4 or 5 king-move neighboring 1s.",
   "id": "A296990",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:17",
     "offset": 1,
     "size": 61,
     "source": "oeis-bfile"

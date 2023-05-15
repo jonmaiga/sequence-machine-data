@@ -2,14 +2,12 @@
   "description": "Number of minimal total dominating sets in the (2n-1)-triangular snake graph.",
   "id": "A308591",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:33",
     "offset": 1,
     "size": 37,
     "source": "oeis-bfile"

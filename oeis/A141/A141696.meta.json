@@ -6,7 +6,6 @@
     "A008292",
     "A141697"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "less",
@@ -14,7 +13,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:30",
     "offset": 1,
     "size": 50,
     "source": "oeis-bfile"

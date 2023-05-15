@@ -5,7 +5,6 @@
     "A333127",
     "A335320"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "cons",
     "fini",
@@ -13,7 +12,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:06",
     "offset": 5,
     "size": 87,
     "source": "oeis-bfile"

@@ -1,0 +1,18 @@
+{
+  "description": "Number of orbifold points of order 2 in Prym-Teichmuller curve W_D(4) of discriminant D = A361169(n).",
+  "id": "A361499",
+  "mentions": [
+    "A361169",
+    "A361497",
+    "A361498",
+    "A361500"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-entry"
+  }
+}

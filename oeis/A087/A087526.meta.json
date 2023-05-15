@@ -2,12 +2,10 @@
   "description": "a(0) = 1, a(n) = smallest squarefree number == 1 (mod a(n-1)) with n prime divisors.",
   "id": "A087526",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 12,
     "source": "oeis-entry"

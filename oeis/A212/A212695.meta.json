@@ -2,7 +2,6 @@
   "description": "Decimal expansion of the uniform exponent of simultaneous approximation of Q-linearly independent triples (1,x,x^3) by rational numbers.",
   "id": "A212695",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "cons",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 0,
     "size": 101,
     "source": "oeis-entry"

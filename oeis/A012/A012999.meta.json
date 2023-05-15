@@ -2,12 +2,10 @@
   "description": "arcsin(arctan(x)+tan(x))=2*x+8/3!*x^3+328/5!*x^5+31712/7!*x^7...",
   "id": "A012999",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 20:02:26",
     "offset": 0,
     "size": 13,
     "source": "joeis"

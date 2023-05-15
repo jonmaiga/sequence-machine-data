@@ -2,13 +2,11 @@
   "description": "Number of ways, counted up to symmetry, to build a contiguous building with n LEGO blocks of size 1 X 2 which is symmetric after a rotation by 180 degrees.",
   "id": "A123763",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

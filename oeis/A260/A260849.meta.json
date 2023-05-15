@@ -6,17 +6,14 @@
     "A182999",
     "A254181"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "formulas",
-    "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 51,
-    "size": 7,
+    "size": 100,
     "source": "oeis-entry"
   }
 }

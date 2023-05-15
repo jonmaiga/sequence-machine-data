@@ -7,7 +7,6 @@
     "A052283",
     "A217654"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "core",
     "formulas",
@@ -15,7 +14,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:02",
     "offset": 0,
     "size": 15,
     "source": "oeis-bfile"

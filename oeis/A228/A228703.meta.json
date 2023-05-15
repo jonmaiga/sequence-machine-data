@@ -2,13 +2,11 @@
   "description": "Arises in analysis of the halving procedure for detecting two defectives among n items.",
   "id": "A228703",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

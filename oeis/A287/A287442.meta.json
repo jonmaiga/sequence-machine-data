@@ -2,14 +2,12 @@
   "description": "Numbers k = concat( x, y ), not ending in 0, such that x * y divides k.",
   "id": "A287442",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 45,
     "source": "oeis-entry"

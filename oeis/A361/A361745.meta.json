@@ -1,0 +1,21 @@
+{
+  "description": "Square array of circular Delannoy numbers A(i,j) (i >= 0, j >= 0) read by antidiagonals.",
+  "id": "A361745",
+  "mentions": [
+    "A008288",
+    "A104698",
+    "A142978",
+    "A361743",
+    "A361758"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

@@ -2,12 +2,10 @@
   "description": "Numbers k such that k | (phi(k) * sigma(k)) but (phi(k) + sigma(k))/k does not increase.",
   "id": "A015708",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-07 18:19:50",
     "offset": 1,
     "size": 42,
     "source": "joeis"

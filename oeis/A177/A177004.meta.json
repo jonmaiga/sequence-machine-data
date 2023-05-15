@@ -2,12 +2,10 @@
   "description": "Numbers n such that 2 nearest neighbors had largest prime factor equals to 1, next 2 neighbors had largest prime factor of 2 and next 2 neighbors had largest prime factor of 3.",
   "id": "A177004",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

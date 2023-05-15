@@ -9,14 +9,12 @@
     "A342047",
     "A347298"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:15",
     "offset": 1,
     "size": 77,
     "source": "oeis-bfile"

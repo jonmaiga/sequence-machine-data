@@ -2,13 +2,11 @@
   "description": "Number of n-colorings of the Desargues graph.",
   "id": "A157959",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 17:12:51",
     "offset": 0,
     "size": 16,
     "source": "joeis"

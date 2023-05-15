@@ -11,13 +11,11 @@
     "A215919",
     "A218332"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 0,
     "size": 64,
     "source": "oeis-entry"

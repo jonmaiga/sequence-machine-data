@@ -1,0 +1,14 @@
+{
+  "description": "Table read by anti-diagonals: T(n,k) = number of numbers <= n that can be fully factored using the first k prime numbers.",
+  "id": "A362325",
+  "mentions": [],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

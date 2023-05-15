@@ -8,16 +8,13 @@
     "A360059",
     "A360060"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 0,
     "size": 42,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

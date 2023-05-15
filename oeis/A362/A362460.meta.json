@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = A054978(n)/2 if that number is 0 or 1, otherwise -1.",
+  "id": "A362460",
+  "mentions": [
+    "A000939",
+    "A000959",
+    "A054978",
+    "A362451"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 109,
+    "source": "oeis-bfile"
+  }
+}

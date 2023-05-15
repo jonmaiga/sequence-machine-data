@@ -1,0 +1,32 @@
+{
+  "description": "Decimal expansion of 2^(2^(2^(2^2))) = 2^^5.",
+  "id": "A361100",
+  "mentions": [
+    "A014221",
+    "A085667",
+    "A094358",
+    "A241291",
+    "A241292",
+    "A241293",
+    "A241294",
+    "A241295",
+    "A241296",
+    "A241297",
+    "A241298",
+    "A241299",
+    "A243913"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 19730,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

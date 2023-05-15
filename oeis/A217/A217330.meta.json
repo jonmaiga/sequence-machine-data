@@ -2,14 +2,12 @@
   "description": "The number of integer solutions to the equation x1 + x2 + x3 + x4 = n, with xi >= 0, and with x2 + x3 divisible by 3.",
   "id": "A217330",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:35",
     "offset": 0,
     "size": 49,
     "source": "oeis-bfile"

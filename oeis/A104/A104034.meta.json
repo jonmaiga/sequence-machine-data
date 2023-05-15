@@ -2,13 +2,11 @@
   "description": "Years between occurrences of Easter on the 25th of the month in the Gregorian calendar.",
   "id": "A104034",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1583,
     "size": 85,
     "source": "oeis-entry"

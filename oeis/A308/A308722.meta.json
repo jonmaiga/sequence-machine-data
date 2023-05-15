@@ -2,13 +2,11 @@
   "description": "Number of edges in the smallest possible regular graceful graph of valence n.",
   "id": "A308722",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 0,
     "size": 13,
     "source": "oeis-entry"

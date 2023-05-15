@@ -1,0 +1,24 @@
+{
+  "description": "Primes that are repunits with three or more digits for exactly one base b >= 2.",
+  "id": "A361914",
+  "mentions": [
+    "A000005",
+    "A085104",
+    "A220136",
+    "A220627",
+    "A288783",
+    "A326380",
+    "A326385",
+    "A326387"
+  ],
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-entry"
+  }
+}

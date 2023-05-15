@@ -5,18 +5,18 @@
     "A023359",
     "A048298",
     "A073265",
+    "A089052",
     "A209229",
     "A333047",
     "A357368"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
+    "changed",
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2022-11-11 15:41:43",
     "offset": 1,
     "size": 91,
     "source": "joeis"

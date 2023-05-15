@@ -2,13 +2,11 @@
   "description": "k and 4k are anagrams in base 8 (written in base 8).",
   "id": "A023075",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:32",
     "offset": 1,
     "size": 34,
     "source": "oeis-bfile"

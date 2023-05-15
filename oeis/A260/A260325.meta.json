@@ -2,23 +2,23 @@
   "description": "Triangle read by rows: T(n,k) = logarithmic polynomial A_k^(n)(x) evaluated at x=-1.",
   "id": "A260325",
   "mentions": [
+    "A000142",
     "A000522",
     "A002741",
     "A002747",
     "A002750",
     "A002751",
     "A260322",
+    "A260323",
     "A260324"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
-    "size": 47,
+    "size": 55,
     "source": "oeis-entry"
   }
 }

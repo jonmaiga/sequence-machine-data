@@ -7,14 +7,12 @@
     "A343741",
     "A343742"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 65,
     "source": "oeis-entry"

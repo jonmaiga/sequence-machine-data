@@ -2,13 +2,11 @@
   "description": "a(n) is the number of (2n) X (15n) (0,1)-matrices with row sum 15 and column sum 2.",
   "id": "A173471",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

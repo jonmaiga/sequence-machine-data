@@ -2,12 +2,10 @@
   "description": "a(n) = largest m such that Sum_{k=0..m} 1/(mk+1) < 2Pi.",
   "id": "A195914",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 0,
     "size": 17,
     "source": "oeis-entry"

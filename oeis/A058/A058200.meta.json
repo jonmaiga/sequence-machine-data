@@ -2,14 +2,12 @@
   "description": "Coefficients of the highest power of r in a sequence of parametric solutions for the Diophantine equation x^3+y^3+z^3=1.",
   "id": "A058200",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:08",
     "offset": 0,
     "size": 14,
     "source": "oeis-bfile"

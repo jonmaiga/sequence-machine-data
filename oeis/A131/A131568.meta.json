@@ -2,7 +2,6 @@
   "description": "a(n) = sum of numbers which in base 2 contain exactly n digits 1 and not more than n digits 0.",
   "id": "A131568",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:19",
     "offset": 0,
     "size": 20,
     "source": "oeis-bfile"

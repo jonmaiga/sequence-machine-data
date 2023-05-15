@@ -9,14 +9,12 @@
     "A029728",
     "A102461"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "fini",
     "full",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 21,
     "source": "oeis-entry"

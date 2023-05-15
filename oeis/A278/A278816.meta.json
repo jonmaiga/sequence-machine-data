@@ -2,13 +2,11 @@
   "description": "Numbers that can be produced from their own digits by applying one or more of the eight operations {+, -, *, /, sqrt(), ^, !, concat11()}, with no operation used more than once, where \"concat11()\" means the operation of concatenating two single digits.",
   "id": "A278816",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 78,
     "source": "oeis-entry"

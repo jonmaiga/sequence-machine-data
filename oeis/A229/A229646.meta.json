@@ -12,13 +12,11 @@
     "A229651",
     "A229652"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn",
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:47",
     "offset": 0,
     "size": 19,
     "source": "oeis-bfile"

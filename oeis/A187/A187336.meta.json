@@ -2,13 +2,11 @@
   "description": "Sum{floor(kn/6), k=1,2,3,4,5}.",
   "id": "A187336",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 0,
     "size": 110,
     "source": "oeis-entry"

@@ -10,14 +10,12 @@
     "A025581",
     "A099026"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "look",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:29",
     "offset": 0,
     "size": 91,
     "source": "oeis-bfile"

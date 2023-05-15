@@ -9,16 +9,13 @@
     "A287317",
     "A287318"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "nonn",
     "walk"
   ],
   "terms": {
-    "modified": "2023-03-14 10:44:31",
     "offset": 0,
     "size": 16,
     "source": "oeis-bfile"

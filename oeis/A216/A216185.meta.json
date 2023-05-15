@@ -2,12 +2,10 @@
   "description": "a(n) is the smallest odd number k with GCD(k,n)=1 such that all the powers of 2 mod k are distinct from n mod k, or 0 if n is a power of 2.",
   "id": "A216185",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 2,
     "size": 75,
     "source": "oeis-entry"

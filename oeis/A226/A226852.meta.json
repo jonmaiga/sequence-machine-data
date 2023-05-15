@@ -2,14 +2,12 @@
   "description": "T(n,k) is the number of n X k (0,1,2) arrays of permanents of 2 X 2 subblocks of some (n+1) X (k+1) binary array.",
   "id": "A226852",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:44",
     "offset": 1,
     "size": 39,
     "source": "oeis-bfile"

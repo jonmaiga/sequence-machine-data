@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that the digits of k^2 are a subsequence of the digits of k^3.",
+  "id": "A362002",
+  "mentions": [
+    "A046829",
+    "A362001"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,12 +2,10 @@
   "description": "a(0) = 0, a(n) is the number of divisors of n that are greater than a(n-1).",
   "id": "A152188",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:35",
     "offset": 0,
     "size": 106,
     "source": "oeis-bfile"

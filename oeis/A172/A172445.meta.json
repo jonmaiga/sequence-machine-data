@@ -2,12 +2,10 @@
   "description": "a(1) = 1, and for each k >=2, a(k) is the smallest number n such that n/sin(n) > a(k)/sin(a(k)), so that a(1)/sin(a(1)) > a(2)/sin(a(2)) > ... > a(k)/sin(a(k)) > ...",
   "id": "A172445",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:56",
     "offset": 1,
     "size": 43,
     "source": "oeis-bfile"

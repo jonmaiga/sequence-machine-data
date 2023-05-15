@@ -2,13 +2,11 @@
   "description": "Long \"if ladder\" modulo 8 recursion: ( using f[n] for f(n)) f[n] = f[f[n - 1]] + If[n < 8, f[n - f[( n - 1)]], If[Mod[n, 8] == 0, f[f[n/8]], If[Mod[1 + n, 8] == 1, f[f[(n - 1)/8]], If[Mod[2 + n, 8] == 2, f[f[(n - 2)/8]], If[Mod[3 + n, 8] == 3, f[f[(n - 3)/8]], If[ Mod[4 + n, 8] == 4, f[f[(n - 4)/8]], If[Mod[5 + n, 8] == 5, f[f[(n - 5)/8]], If[ Mod[6 + n, 8] == 6, f[f[(n - 6)/8]], If[Mod[7 + n, 8] == 7, f[f[(n - 7)/8]], f[n - f[(n - 1)]]]]]]]]]]]",
   "id": "A147968",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 76,
     "source": "oeis-entry"

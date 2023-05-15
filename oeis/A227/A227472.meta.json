@@ -2,14 +2,12 @@
   "description": "Decimal expansion of the side of the equilateral triangle that can cover every triangle of perimeter 2.",
   "id": "A227472",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 100,
     "source": "oeis-entry"

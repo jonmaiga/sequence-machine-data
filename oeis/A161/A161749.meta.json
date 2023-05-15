@@ -2,12 +2,10 @@
   "description": "Smallest prime of the form x^(2n+1) - y^(2n-1), x,y >= 1.",
   "id": "A161749",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

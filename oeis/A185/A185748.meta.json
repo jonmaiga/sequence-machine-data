@@ -1,15 +1,13 @@
 {
-  "description": "Number of (n+1)X8 binary arrays with every 2X2 subblock trace equal to some horizontal or vertical neighbor 2X2 subblock trace",
+  "description": "Number of (n+1) X 8 binary arrays with every 2 X 2 subblock trace equal to some horizontal or vertical neighbor 2 X 2 subblock trace.",
   "id": "A185748",
   "mentions": [
     "A185750"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:10",
     "offset": 1,
     "size": 12,
     "source": "oeis-bfile"

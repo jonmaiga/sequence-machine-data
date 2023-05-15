@@ -2,12 +2,10 @@
   "description": "Number of connected bipartite non-crossing graphs on n nodes.",
   "id": "A241598",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

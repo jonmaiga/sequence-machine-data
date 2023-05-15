@@ -10,13 +10,11 @@
     "A296340",
     "A298801"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:15",
     "offset": 0,
     "size": 82,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "a(n) is smallest number greater than n that, when compared divisors of a(n) with divisors of n, the d-th smallest divisor of a(n) is always <= the d-th smallest divisor of n for all values of d <= the number of divisors of n.",
   "id": "A153494",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 71,
     "source": "oeis-entry"

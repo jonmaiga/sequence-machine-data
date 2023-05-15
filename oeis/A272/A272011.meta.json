@@ -13,13 +13,11 @@
     "A262557",
     "A272020"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:36",
     "offset": 0,
     "size": 87,
     "source": "oeis-bfile"

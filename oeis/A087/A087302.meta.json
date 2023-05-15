@@ -2,13 +2,11 @@
   "description": "Smallest nontrivial multiple of n whose digit sum is a multiple of digit sum of n. By nontrivial one means a(n) is not equal to n or (10^k)*n or a concatenation of n with itself.",
   "id": "A087302",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 60,
     "source": "oeis-entry"

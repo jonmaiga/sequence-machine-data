@@ -2,13 +2,11 @@
   "description": "Lower level digraph derived from a voltage graph.",
   "id": "A115055",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:05",
     "offset": 1,
     "size": 41,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "u(1) = v(1) = 1, u(n) = u(n-1) + v(n-1), v(n) = u(n-1)^2 + v(n-1)^2, a(n) = u(n).",
   "id": "A259048",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

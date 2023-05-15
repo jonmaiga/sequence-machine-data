@@ -13,14 +13,12 @@
     "A283609",
     "A283611"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:54",
     "offset": 1,
     "size": 55,
     "source": "oeis-bfile"

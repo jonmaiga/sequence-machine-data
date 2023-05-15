@@ -1,16 +1,14 @@
 {
-  "description": "Number of nX4 0..2 arrays with rows and columns unimodal and antidiagonals nondecreasing",
+  "description": "Number of n X 4 0..2 arrays with rows and columns unimodal and antidiagonals nondecreasing.",
   "id": "A224053",
   "mentions": [
     "A224057"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:42",
     "offset": 1,
     "size": 21,
     "source": "oeis-bfile"

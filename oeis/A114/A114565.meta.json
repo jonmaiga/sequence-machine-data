@@ -2,14 +2,12 @@
   "description": "Dropping first and last digit of n leaves its largest prime factor.",
   "id": "A114565",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 41,
     "source": "oeis-entry"

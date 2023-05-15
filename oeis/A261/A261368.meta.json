@@ -2,12 +2,10 @@
   "description": "Number of sequences F such that F(k) = F(k-1) + F(k-2), F(1), F(2) are positive integers, and there exists some integer x>2 such that F(x) = n.",
   "id": "A261368",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:20",
     "offset": 1,
     "size": 65,
     "source": "oeis-bfile"

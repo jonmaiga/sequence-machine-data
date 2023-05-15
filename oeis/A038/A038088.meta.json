@@ -8,7 +8,6 @@
     "A038093",
     "A227819"
   ],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "fini",
     "formulas",
@@ -16,7 +15,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:48",
     "offset": 5,
     "size": 49,
     "source": "oeis-bfile"

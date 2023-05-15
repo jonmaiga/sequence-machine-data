@@ -2,12 +2,10 @@
   "description": "From the 4-symbol substitution 1->{2, 3}, 2->{3, 4}, 3->{}, 4->{1, 4}.",
   "id": "A105316",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

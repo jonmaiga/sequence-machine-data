@@ -2,14 +2,12 @@
   "description": "11*9^n+1.",
   "id": "A199681",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:20",
     "offset": 0,
     "size": 18,
     "source": "oeis-bfile"

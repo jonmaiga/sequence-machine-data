@@ -2,13 +2,11 @@
   "description": "T(n,k)=number of sequences of n integers p(i) i=0..n-1 0<=p(i)<=k*i and -k",
   "id": "A180915",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:03",
     "offset": 1,
     "size": 60,
     "source": "oeis-bfile"

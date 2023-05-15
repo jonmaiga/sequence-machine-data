@@ -2,14 +2,12 @@
   "description": "G.f.: (1 + 22*x - 34*x^2 + 14*x^3)/((1 - x)^2*(1 - 6*x + 8*x^2)).",
   "id": "A265037",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:24",
     "offset": 0,
     "size": 24,
     "source": "oeis-bfile"

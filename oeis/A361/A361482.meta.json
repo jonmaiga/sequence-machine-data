@@ -1,0 +1,17 @@
+{
+  "description": "Inverse permutation to A361481.",
+  "id": "A361482",
+  "mentions": [
+    "A361481"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

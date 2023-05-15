@@ -2,12 +2,10 @@
   "description": "Smallest nonnegative value taken on by 3x^2 - ny^2 for an infinite number of integer pairs (x, y).",
   "id": "A049242",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

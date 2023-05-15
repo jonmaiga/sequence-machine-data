@@ -2,13 +2,11 @@
   "description": "Dirichlet g.f. = Product_{primes p == 1 (mod 12)} (1+p^(-s))^2/(1-p^(-s))^2) * Product_{primes p == +-5 (mod 12)} (1+p^(-2*s))/(1-p^(-2*s).",
   "id": "A328999",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 0,
     "size": 16,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "a(8n)=8n+1, a(8n+1)=a(8n+2)=a(8n+3)=8n+5, a(8n+4)=8n+6, a(8n+5)=a(8n+6)=a(8n+7)=8n+8.",
   "id": "A127934",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:15",
     "offset": 0,
     "size": 72,
     "source": "oeis-bfile"

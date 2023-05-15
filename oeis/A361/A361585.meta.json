@@ -1,0 +1,17 @@
+{
+  "description": "Number of digraphs on n unlabeled nodes whose strongly connected components are directed cycles.",
+  "id": "A361585",
+  "mentions": [
+    "A350794",
+    "A361583",
+    "A361584"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

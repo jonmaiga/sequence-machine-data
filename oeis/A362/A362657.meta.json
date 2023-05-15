@@ -1,0 +1,18 @@
+{
+  "description": "Number of bracelets consisting of three instances each of n swappable colors.",
+  "id": "A362657",
+  "mentions": [
+    "A054499",
+    "A362658",
+    "A362659"
+  ],
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

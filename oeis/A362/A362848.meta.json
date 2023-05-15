@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 4^k * Gamma(n + k + 1/2) / Gamma(n - k + 1/2). Row sums of A362847.",
+  "id": "A362848",
+  "mentions": [
+    "A362847"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

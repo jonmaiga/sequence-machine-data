@@ -2,14 +2,12 @@
   "description": "A step cyclic recursion: a(n) = If[a(n - 1) - Prime[n] > 0, Abs[a(n - 1) - 2*n], If[a[n - 1] - Prime[n] < 0, Abs[a(n - 1) + 2*n], Fibonacci[n] - a(n - 1)]].",
   "id": "A144386",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 51,
     "source": "oeis-entry"

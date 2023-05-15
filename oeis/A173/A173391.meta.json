@@ -2,13 +2,11 @@
   "description": "a(n) = 6n + 3^n.",
   "id": "A173391",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 17:30:16",
     "offset": 1,
     "size": 25,
     "source": "joeis"

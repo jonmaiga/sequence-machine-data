@@ -13,7 +13,6 @@
     "A121875",
     "A287376"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
@@ -21,7 +20,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:23",
     "offset": 1,
     "size": 72,
     "source": "oeis-bfile"

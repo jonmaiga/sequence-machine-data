@@ -2,13 +2,11 @@
   "description": "Primes p such that (p reversed)+8 is also a prime.",
   "id": "A167466",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:51",
     "offset": 1,
     "size": 48,
     "source": "oeis-bfile"

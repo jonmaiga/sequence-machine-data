@@ -1,0 +1,19 @@
+{
+  "description": "Starting positions of digit triples in the decimal expansion of Pi where the sum of the first 2 equals the third.",
+  "id": "A361741",
+  "mentions": [
+    "A000796",
+    "A110883"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

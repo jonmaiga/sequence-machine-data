@@ -2,7 +2,6 @@
   "description": "Representable integers n that are not the inverse of their inverse in binary64 (double precision) IEEE 754 floating-point arithmetic (Version where n and 1/(1/n) are unequal).",
   "id": "A275419",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:40",
     "offset": 1,
     "size": 59,
     "source": "oeis-bfile"

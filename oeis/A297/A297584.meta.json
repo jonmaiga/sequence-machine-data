@@ -1,16 +1,14 @@
 {
-  "description": "Number of 3 X n 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 4 neighboring 1s.",
+  "description": "Number of 3 X n 0..1 arrays with every 1 horizontally, diagonally or antidiagonally adjacent to 1 or 4 neighboring 1's.",
   "id": "A297584",
   "mentions": [
     "A297582"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:18",
     "offset": 1,
     "size": 26,
     "source": "oeis-bfile"

@@ -4,14 +4,13 @@
   "mentions": [
     "A053534"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 3,
-    "size": 9,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

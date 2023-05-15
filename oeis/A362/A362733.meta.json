@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = [x^n] F(x)^n, where F(x) = exp( Sum_{k >= 1} A362732(k)*x^k/k ).",
+  "id": "A362733",
+  "mentions": [
+    "A006480",
+    "A362722",
+    "A362732"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

@@ -2,13 +2,11 @@
   "description": "a(n) equals the sum of the Gaussian binomial coefficients [n,k] at q=n for n>=0.",
   "id": "A292499",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:07",
     "offset": 0,
     "size": 15,
     "source": "oeis-bfile"

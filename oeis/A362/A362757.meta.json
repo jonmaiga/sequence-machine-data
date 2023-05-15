@@ -1,0 +1,17 @@
+{
+  "description": "The number of integers in the set f^n({0}), where f is a variant of the Collatz function that replaces any element x in the argument set with both x/2 and 3*x+1.",
+  "id": "A362757",
+  "mentions": [
+    "A208127",
+    "A275544"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

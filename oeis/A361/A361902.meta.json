@@ -1,0 +1,23 @@
+{
+  "description": "Least k such that n+A000045(k) is prime, or -1 if no such k exists.",
+  "id": "A361902",
+  "mentions": [
+    "A000045",
+    "A067760",
+    "A322004",
+    "A361509",
+    "A361510",
+    "A361997",
+    "A361998",
+    "A361999"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

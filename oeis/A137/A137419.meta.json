@@ -2,7 +2,6 @@
   "description": "a(n) = (a(n - 4) + 1 - ((-1)^a(a(n - 1)) + 1)*(a(a(n - 1)) - a(a(n - 2)))/2).",
   "id": "A137419",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "fini",
     "formulas",
@@ -10,7 +9,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:25",
     "offset": 1,
     "size": 83,
     "source": "oeis-bfile"

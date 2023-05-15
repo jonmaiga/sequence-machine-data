@@ -2,14 +2,12 @@
   "description": "a(2) = 1; a(3) = 4; for n >= 4, a(n) = 2 + Sum_{i=4..n} d(i), where d(i) = i for even i, d(i) = i-3 for odd i.",
   "id": "A256137",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:37:13",
     "offset": 2,
     "size": 53,
     "source": "joeis"

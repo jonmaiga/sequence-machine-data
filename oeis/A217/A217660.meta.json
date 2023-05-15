@@ -2,14 +2,12 @@
   "description": "Numbers that give records for f(n)= (log(d(n))*log(log(n)))/(log(2)*log(n)) with d(n) the number of divisors.",
   "id": "A217660",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 36,
     "source": "oeis-entry"

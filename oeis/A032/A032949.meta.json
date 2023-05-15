@@ -2,13 +2,11 @@
   "description": "Numbers whose base-14 representation Sum_{i=0..m} d(i)*14^i has d(i)=0 for all odd i.",
   "id": "A032949",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:05:19",
     "offset": 1,
     "size": 53,
     "source": "joeis"

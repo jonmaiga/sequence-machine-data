@@ -2,13 +2,11 @@
   "description": "Squares k (not ending in 0) such that the integer that is built up by concatenating the floors of the square roots of the two-digit numbers into which the original number is separated (from right to left) is the square root of the original number.",
   "id": "A294497",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:12",
     "offset": 1,
     "size": 47,
     "source": "oeis-bfile"

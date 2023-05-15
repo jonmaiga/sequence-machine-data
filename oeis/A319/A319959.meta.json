@@ -4,14 +4,12 @@
   "mentions": [
     "A319960"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 5,
     "size": 35,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Let s(x)=floor(Pi*x); sequence gives the least k such that n divides s^k(n) where s^k(x) denotes s(s(s..s(x))..) k times, or 0 if no such k exists.",
   "id": "A081112",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 72,
     "source": "oeis-entry"

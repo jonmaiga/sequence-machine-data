@@ -2,13 +2,11 @@
   "description": "Number of non-isomorphic connected cubic cyclic Haar graphs on 2n vertices.",
   "id": "A339502",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 3,
     "size": 28,
     "source": "oeis-entry"

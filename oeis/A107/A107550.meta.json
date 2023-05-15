@@ -2,12 +2,10 @@
   "description": "Coordination sequence for B_17 lattice",
   "id": "A107550",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:05:07",
     "offset": 0,
     "size": 18,
     "source": "joeis"

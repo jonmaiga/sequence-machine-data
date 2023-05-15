@@ -2,7 +2,6 @@
   "description": "Period 5: repeat [1, 7, 3, 9, 5].",
   "id": "A139788",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 15:50:35",
     "offset": 0,
     "size": 80,
     "source": "joeis"

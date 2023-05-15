@@ -2,13 +2,11 @@
   "description": "Small values of the index immediately eliminated by a lemma arising in well-rounded sublattices of the hexagonal lattice.",
   "id": "A179543",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 19,
     "source": "oeis-entry"

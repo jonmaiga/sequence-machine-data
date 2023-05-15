@@ -2,14 +2,12 @@
   "description": "a(n) is the least product of n odd primes m=p1*p2*...*pn, such that for all divisor d|2*m, d+2*m/d is prime.",
   "id": "A128276",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

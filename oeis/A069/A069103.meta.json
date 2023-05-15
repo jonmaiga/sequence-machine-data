@@ -2,13 +2,11 @@
   "description": "a(1) = 1; a(2) = 1; a(n) = prime(a(n-1)) + prime(a(n-2)) if n > 2.",
   "id": "A069103",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"

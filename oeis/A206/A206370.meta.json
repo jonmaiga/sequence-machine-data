@@ -2,13 +2,11 @@
   "description": "Related to number of cyclotomic classes in GF(2^(2n)).",
   "id": "A206370",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 2,
     "size": 15,
     "source": "oeis-entry"

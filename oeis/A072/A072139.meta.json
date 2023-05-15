@@ -8,14 +8,12 @@
     "A072141",
     "A072142"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "easy",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 103,
     "source": "oeis-entry"

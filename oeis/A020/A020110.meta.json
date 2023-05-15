@@ -2,12 +2,10 @@
   "description": "Ceiling of Gamma(n + 7/9)/Gamma(7/9).",
   "id": "A020110",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 17:24:44",
     "offset": 0,
     "size": 21,
     "source": "joeis"

@@ -2,12 +2,10 @@
   "description": "Number of days in months of Baha'i calendar.",
   "id": "A057430",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-07-12 12:11:10",
     "offset": 1,
     "size": 69,
     "source": "joeis"

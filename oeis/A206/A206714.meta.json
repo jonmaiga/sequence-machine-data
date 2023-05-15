@@ -2,12 +2,10 @@
   "description": "Number of solutions (n,k) of s(k)=s(n) (mod n), where 1<=k",
   "id": "A206714",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 2,
     "size": 93,
     "source": "oeis-entry"

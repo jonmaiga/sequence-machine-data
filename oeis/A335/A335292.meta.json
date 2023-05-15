@@ -2,12 +2,10 @@
   "description": "To calculate a(n), iterate the function f(x) = x * ceiling(a(n-1) / 2) + 1 on the value x = 1 until the result has not appeared in the sequence previously. Take a(1) = 1.",
   "id": "A335292",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:06",
     "offset": 1,
     "size": 62,
     "source": "oeis-bfile"

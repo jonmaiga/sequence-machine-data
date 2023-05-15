@@ -2,12 +2,10 @@
   "description": "The curvature of smallest circle among 4 mutually tangent(externally) circles with integer curvature and primitive (share no common factor).",
   "id": "A274550",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 63,
     "source": "oeis-entry"

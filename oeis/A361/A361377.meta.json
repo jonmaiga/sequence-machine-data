@@ -1,0 +1,20 @@
+{
+  "description": "Squares visited by a knight moving on a spirally numbered board always to the lowest unvisited coprime square.",
+  "id": "A361377",
+  "mentions": [
+    "A316667",
+    "A326922",
+    "A328928",
+    "A328929"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

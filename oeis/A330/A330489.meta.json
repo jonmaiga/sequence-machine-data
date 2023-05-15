@@ -2,14 +2,12 @@
   "description": "a(n) is equal to a(n-1) plus (a(n-1) written in base n but interpreted in base n+1), with a(1)=1.",
   "id": "A330489",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 33,
     "source": "oeis-entry"

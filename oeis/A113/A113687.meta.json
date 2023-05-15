@@ -2,13 +2,11 @@
   "description": "Expansion of q^(-7/12)eta(q)eta(q^6)^3/(eta(q^2)eta(q^3)) in powers of q.",
   "id": "A113687",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-26 13:21:49",
     "offset": 0,
     "size": 105,
     "source": "joeis"

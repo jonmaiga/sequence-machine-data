@@ -2,12 +2,10 @@
   "description": "a(1) = 2, a(2) = 3; thereafter a(n) = a(n-1) + a(|n-a(T)|), where a(T) is the largest term in the sequence before a(n) such that 0 < |n-a(T)| < n.",
   "id": "A271063",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:35",
     "offset": 1,
     "size": 50,
     "source": "oeis-bfile"

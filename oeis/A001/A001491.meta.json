@@ -2,14 +2,12 @@
   "description": "Opus numbers of Beethoven's nine symphonies.",
   "id": "A001491",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

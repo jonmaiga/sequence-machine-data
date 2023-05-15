@@ -2,13 +2,11 @@
   "description": "Decimal expansion of the arithmetic-geometric mean (AGM) of 2 and 3.",
   "id": "A074958",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:32:37",
     "offset": 1,
     "size": 105,
     "source": "joeis"

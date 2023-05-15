@@ -2,14 +2,12 @@
   "description": "Numbers n such that n and 3n share at least one digit.",
   "id": "A129846",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 64,
     "source": "oeis-entry"

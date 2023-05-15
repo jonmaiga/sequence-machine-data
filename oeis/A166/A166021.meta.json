@@ -7,14 +7,12 @@
     "A003056",
     "A136272"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 65,
     "source": "oeis-entry"

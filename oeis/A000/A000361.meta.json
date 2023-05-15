@@ -5,7 +5,6 @@
     "A000360",
     "A000876"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "eigen",
     "more",
@@ -13,7 +12,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 0,
     "size": 50,
     "source": "oeis-entry"

@@ -7,14 +7,12 @@
     "A018133",
     "A080130"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 2,
     "size": 42,
     "source": "oeis-entry"

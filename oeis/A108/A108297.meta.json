@@ -2,13 +2,11 @@
   "description": "Least positive k such that k * n^2 ends with n, or 0 no such k exists.",
   "id": "A108297",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 86,
     "source": "oeis-entry"

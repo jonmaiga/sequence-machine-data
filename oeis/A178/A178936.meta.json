@@ -1,18 +1,16 @@
 {
-  "description": "Floor((2*3^n+3*2^n)/5).",
+  "description": "a(n) = floor((2*3^n+3*2^n)/5).",
   "id": "A178936",
   "mentions": [
     "A178934",
     "A178935"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:02",
     "offset": 0,
     "size": 29,
     "source": "oeis-bfile"

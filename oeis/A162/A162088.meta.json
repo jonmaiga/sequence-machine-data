@@ -2,12 +2,10 @@
   "description": "Number of n X n 0..5 arrays with rows and columns, considered as 6-ary numbers, in nondecreasing order",
   "id": "A162088",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

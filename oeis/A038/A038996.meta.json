@@ -1,5 +1,5 @@
 {
-  "description": "Sublattices of index n in generic 9-dimensional lattice.",
+  "description": "Number of sublattices of index n in generic 9-dimensional lattice.",
   "id": "A038996",
   "mentions": [
     "A001001",
@@ -10,16 +10,16 @@
     "A038995",
     "A038997",
     "A038998",
-    "A038999"
+    "A038999",
+    "A160870"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
+    "changed",
     "formulas",
     "mult",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:49",
     "offset": 1,
     "size": 25,
     "source": "oeis-bfile"

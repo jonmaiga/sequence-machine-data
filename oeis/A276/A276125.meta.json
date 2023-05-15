@@ -2,12 +2,11 @@
   "description": "a(n) = maximum eventual period of z := z^2 + c (mod n), for Gaussian integers z, c.",
   "id": "A276125",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 68,
     "source": "oeis-entry"

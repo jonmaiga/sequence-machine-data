@@ -2,13 +2,11 @@
   "description": "Decimal expansion of the limit of the nested tanh(1+tanh(2+tanh(3+tanh(4+...)))).",
   "id": "A276538",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 0,
     "size": 99,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "a(n) = 2*a(n-1)-a(n-2)+2*(Prime[n+1]-Prime[n]).",
   "id": "A122263",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 30,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Numbers k equal prime(n)*prime(n+1) such that k+1 is a square and k-1 is even semiprime.",
   "id": "A107423",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 28,
     "source": "oeis-entry"

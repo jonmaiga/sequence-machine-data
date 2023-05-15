@@ -2,13 +2,11 @@
   "description": "Number of spindle configurations of n skew lines, up to isotopy, which are amphichiral.",
   "id": "A110890",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

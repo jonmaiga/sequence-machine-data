@@ -13,12 +13,10 @@
     "A328777",
     "A348128"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:22",
     "offset": 1,
     "size": 68,
     "source": "oeis-bfile"

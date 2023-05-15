@@ -2,13 +2,11 @@
   "description": "a(1)=0 and, for n>1, a(n) is the largest integer such that each integer in 0,1,2,...,2*a(n) is expressible as the sum of five integers from a(1),a(2),...,a(n), with repetitions allowed.",
   "id": "A088495",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 19,
     "source": "oeis-entry"

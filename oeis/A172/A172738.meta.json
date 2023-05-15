@@ -2,12 +2,10 @@
   "description": "Number of n X 6 0..3 arrays with row sums 6 and column sums n",
   "id": "A172738",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:56",
     "offset": 1,
     "size": 12,
     "source": "oeis-bfile"

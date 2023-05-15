@@ -2,13 +2,11 @@
   "description": "a(n) is the number of ways to select an ordered pair of subsets of {2,...,n} such that each pair of elements from different subsets are relatively prime.",
   "id": "A260185",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:18",
     "offset": 1,
     "size": 32,
     "source": "oeis-bfile"

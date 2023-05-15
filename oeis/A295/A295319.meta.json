@@ -6,15 +6,12 @@
     "A050683",
     "A261675"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "base",
-    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 23:42:13",
     "offset": 1,
     "size": 16,
     "source": "joeis"

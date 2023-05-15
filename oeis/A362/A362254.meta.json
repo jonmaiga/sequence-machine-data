@@ -1,0 +1,18 @@
+{
+  "description": "Reciprocal of n modulo largest prime smaller than n.",
+  "id": "A362254",
+  "mentions": [
+    "A008864",
+    "A122585",
+    "A151799"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

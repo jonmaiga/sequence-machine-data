@@ -2,13 +2,11 @@
   "description": "Integers that die when submitted to the rules of the Game of Life. Design of the digits is shown below.",
   "id": "A126803",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:14",
     "offset": 1,
     "size": 55,
     "source": "oeis-bfile"

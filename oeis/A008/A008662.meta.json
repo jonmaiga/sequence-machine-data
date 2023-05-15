@@ -2,13 +2,11 @@
   "description": "Theta series of direct sum of 6 copies of D_4 lattice.",
   "id": "A008662",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:14",
     "offset": 0,
     "size": 17,
     "source": "oeis-bfile"

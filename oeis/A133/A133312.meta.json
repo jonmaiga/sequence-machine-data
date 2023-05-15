@@ -2,12 +2,10 @@
   "description": "a(n) is the first pentagonal number that is nontrivially the sum of two pentagonal numbers of the type P(p) + P(p+n) (we always have P(k) = P(0) + P(k)).",
   "id": "A133312",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 34,
     "source": "oeis-entry"

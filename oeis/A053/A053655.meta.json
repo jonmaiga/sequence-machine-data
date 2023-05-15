@@ -2,14 +2,12 @@
   "description": "a(n) = (10^n - 1)*(10^(2*n-1) - 1)/81.",
   "id": "A053655",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:03",
     "offset": 1,
     "size": 12,
     "source": "oeis-bfile"

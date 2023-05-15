@@ -2,13 +2,11 @@
   "description": "Value of the Catch-Up game [1,...n] for first player (1 = win, -1 = loss, 0 = draw).",
   "id": "A278587",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "more",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 3,
     "size": 18,
     "source": "oeis-entry"

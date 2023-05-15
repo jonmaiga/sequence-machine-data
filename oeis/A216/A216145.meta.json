@@ -2,13 +2,11 @@
   "description": "Primes p such that p (mod 5) = p (mod 7).",
   "id": "A216145",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:34",
     "offset": 1,
     "size": 49,
     "source": "oeis-bfile"

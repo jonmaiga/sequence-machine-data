@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of unlabeled 2-connected graphs with n edges containing at least one pair of nodes with resistance distance 1 when all edges are replaced by unit resistors.",
+  "id": "A360031",
+  "mentions": [
+    "A010355",
+    "A339070",
+    "A342558",
+    "A360030"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

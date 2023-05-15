@@ -2,13 +2,11 @@
   "description": "Spherical growth function of the Lamplighter group L_2 with respect to the standard generators a, t.",
   "id": "A288348",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 23:55:02",
     "offset": 0,
     "size": 37,
     "source": "joeis"

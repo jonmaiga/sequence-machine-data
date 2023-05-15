@@ -2,12 +2,10 @@
   "description": "Values of n for which there is no optimal-length continued fraction expansion for sqrt(n) which is also symmetric (palindromic).",
   "id": "A134555",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 50,
     "source": "oeis-entry"

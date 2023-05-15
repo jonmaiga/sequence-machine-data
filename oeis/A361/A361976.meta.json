@@ -1,0 +1,20 @@
+{
+  "description": "(2,2)-block array, B(2,2), of the natural number array (A000027), read by descending antidiagonals.",
+  "id": "A361976",
+  "mentions": [
+    "A000027",
+    "A333029",
+    "A361974",
+    "A361975"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

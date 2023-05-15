@@ -1,0 +1,17 @@
+{
+  "description": "Sums of consecutive terms of A361444.",
+  "id": "A361445",
+  "mentions": [
+    "A086527",
+    "A361444"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

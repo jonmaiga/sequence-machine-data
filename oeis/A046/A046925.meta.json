@@ -2,12 +2,10 @@
   "description": "Number of ways to express 2n+1 as p+2q; p, q = 1 or prime.",
   "id": "A046925",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:32:23",
     "offset": 0,
     "size": 91,
     "source": "joeis"

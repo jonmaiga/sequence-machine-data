@@ -2,12 +2,10 @@
   "description": "a(n) = [ (n-2)nd elementary symmetric function of {log(k)} ], k = 2,3,...,n.",
   "id": "A025208",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:27:37",
     "offset": 2,
     "size": 24,
     "source": "joeis"

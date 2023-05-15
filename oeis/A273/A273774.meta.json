@@ -2,7 +2,6 @@
   "description": "Decimal expansion of Jevon's number.",
   "id": "A273774",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "cons",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 07:23:49",
     "offset": 10,
     "size": 10,
     "source": "joeis"

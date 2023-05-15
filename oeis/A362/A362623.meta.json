@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that for any n > 0, the initial digit \"d\" of a(n) divides a(n+d).",
+  "id": "A362623",
+  "mentions": [
+    "A308539"
+  ],
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

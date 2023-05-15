@@ -2,13 +2,11 @@
   "description": "a(n) = Sum_{x=1+floor(sqrt(n))..floor(sqrt(2n))} (x^2 - n).",
   "id": "A051623",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:00",
     "offset": 1,
     "size": 74,
     "source": "oeis-bfile"

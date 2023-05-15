@@ -10,14 +10,12 @@
     "A161680",
     "A270710"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "sign",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:38",
     "offset": 0,
     "size": 57,
     "source": "oeis-bfile"

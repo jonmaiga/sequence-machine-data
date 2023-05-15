@@ -2,7 +2,6 @@
   "description": "Decimal expansion of Integral_{0..infinity} exp(-x)/(1-x*exp(-x)) dx.",
   "id": "A258086",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 103,
     "source": "oeis-entry"

@@ -2,7 +2,6 @@
   "description": "Least nonnegative difference between two numbers whose digits are all taken from a cumulative list of n mod 10 (see example).",
   "id": "A317231",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "base",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 0,
     "size": 22,
     "source": "oeis-entry"

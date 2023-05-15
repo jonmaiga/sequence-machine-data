@@ -2,12 +2,10 @@
   "description": "a(n+1) = a(n) converted to base 8 from base 6 (written in base 10).",
   "id": "A023385",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:33",
     "offset": 1,
     "size": 27,
     "source": "oeis-bfile"

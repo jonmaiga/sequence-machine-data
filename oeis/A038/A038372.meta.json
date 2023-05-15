@@ -2,13 +2,11 @@
   "description": "Largest subset of integers [ 1...n ] such that no member divides two others.",
   "id": "A038372",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 1,
     "size": 44,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Numbers n such that the concatenation of the first n digits of the digital expansion of 1/137 is prime.",
   "id": "A264725",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "base",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

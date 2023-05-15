@@ -2,13 +2,11 @@
   "description": "Numbers n that are the signed sum of powers of 2 whose exponents concatenated form n itself.",
   "id": "A217337",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

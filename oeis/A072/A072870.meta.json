@@ -2,13 +2,11 @@
   "description": "A Ramanujan congruence modulo 5^2 related to partition numbers: a(n) = p(25n+24)/25 where p(k) is the k-th partition number.",
   "id": "A072870",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 14,
     "source": "oeis-entry"

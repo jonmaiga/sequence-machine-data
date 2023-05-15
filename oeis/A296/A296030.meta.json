@@ -15,7 +15,6 @@
     "A274923",
     "A316328"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "easy",
     "formulas",
@@ -23,7 +22,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:14",
     "offset": 1,
     "size": 76,
     "source": "oeis-bfile"

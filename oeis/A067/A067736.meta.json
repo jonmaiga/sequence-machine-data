@@ -9,7 +9,6 @@
     "A047865",
     "A055209"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "cons",
     "easy",
@@ -17,7 +16,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 15:40:51",
     "offset": 1,
     "size": 105,
     "source": "joeis"

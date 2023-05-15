@@ -2,12 +2,10 @@
   "description": "Numbers k with the property that 4*p+q and 4*q+p are primes, where p = prime(k) and q = prime(k+1).",
   "id": "A354691",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 60,
     "source": "oeis-entry"

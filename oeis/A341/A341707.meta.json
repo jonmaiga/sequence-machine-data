@@ -6,14 +6,12 @@
     "A341708",
     "A341709"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
     "look",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:14",
     "offset": 0,
     "size": 70,
     "source": "oeis-bfile"

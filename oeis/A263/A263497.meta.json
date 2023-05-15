@@ -2,13 +2,11 @@
   "description": "Decimal expansion of the Gaussian Hypergeometric Function 2F1(2,2; 5/2; x) at x=1/4.",
   "id": "A263497",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 93,
     "source": "oeis-entry"

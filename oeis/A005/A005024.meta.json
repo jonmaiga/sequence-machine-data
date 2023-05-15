@@ -7,7 +7,6 @@
     "A005023",
     "A094865"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "easy",
     "formulas",
@@ -15,7 +14,6 @@
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:07",
     "offset": 1,
     "size": 23,
     "source": "oeis-bfile"

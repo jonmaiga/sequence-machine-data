@@ -2,12 +2,10 @@
   "description": "a(n) is the least prime p such that p^(2*n+1) == 2*n+1 (mod 2^(2*n+1)).",
   "id": "A339758",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:12",
     "offset": 0,
     "size": 26,
     "source": "oeis-bfile"

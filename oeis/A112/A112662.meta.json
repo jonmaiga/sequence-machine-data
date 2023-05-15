@@ -2,12 +2,10 @@
   "description": "Cubes of the form semiprime(k) + k-th composite number.",
   "id": "A112662",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 31,
     "source": "oeis-entry"

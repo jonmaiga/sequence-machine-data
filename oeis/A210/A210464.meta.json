@@ -2,14 +2,12 @@
   "description": "Number of bracelets with 2 blue, 2 red, and n black beads.",
   "id": "A210464",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:16:41",
     "offset": 1,
     "size": 46,
     "source": "joeis"

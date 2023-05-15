@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. exp(x^3/(6 * (1-x))).",
+  "id": "A361533",
+  "mentions": [
+    "A185369",
+    "A293049",
+    "A361545",
+    "A361547"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

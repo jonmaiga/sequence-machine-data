@@ -2,12 +2,10 @@
   "description": "Number of 3-anisohedral polyominoes of order n.",
   "id": "A120647",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 25,
     "source": "oeis-entry"

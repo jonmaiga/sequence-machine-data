@@ -2,14 +2,12 @@
   "description": "Numbers k such that the base-b expansion of k for each b = 3..k-1 never contains more than two distinct digits.",
   "id": "A306424",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "base",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 23,
     "source": "oeis-entry"

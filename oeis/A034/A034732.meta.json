@@ -2,12 +2,10 @@
   "description": "Dirichlet convolution of b_n=1 with Bell numbers.",
   "id": "A034732",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 13:40:12",
     "offset": 1,
     "size": 23,
     "source": "joeis"

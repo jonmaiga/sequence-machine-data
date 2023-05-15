@@ -2,7 +2,6 @@
   "description": "n divided by sum of digits of n if that is an integer, else n multiplied by the same.",
   "id": "A110367",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:01",
     "offset": 1,
     "size": 65,
     "source": "oeis-bfile"

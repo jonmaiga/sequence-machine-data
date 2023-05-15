@@ -2,12 +2,10 @@
   "description": "a(n) is the least prime p such that n*(p+1)+1 is the square of a prime, or 0 if there is no such p.",
   "id": "A351494",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:26",
     "offset": 1,
     "size": 70,
     "source": "oeis-bfile"

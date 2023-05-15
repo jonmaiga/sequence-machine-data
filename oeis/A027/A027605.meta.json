@@ -2,12 +2,10 @@
   "description": "Sum of two cubes in 4 ways involving at least one sum of coprime cubes.",
   "id": "A027605",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 0,
     "size": 8,
     "source": "oeis-entry"

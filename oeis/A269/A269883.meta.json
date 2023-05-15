@@ -1,16 +1,14 @@
 {
-  "description": "Number of nX3 0..5 arrays with some element plus some horizontally, diagonally, antidiagonally or vertically adjacent neighbor totalling five exactly once.",
+  "description": "Number of n X 3 0..5 arrays with some element plus some horizontally, diagonally, antidiagonally or vertically adjacent neighbor totaling five exactly once.",
   "id": "A269883",
   "mentions": [
     "A269888"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:32",
     "offset": 1,
     "size": 13,
     "source": "oeis-bfile"

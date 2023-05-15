@@ -2,13 +2,11 @@
   "description": "a(n)/n! is the probability of guessing \"up/down\" correctly through a deck of n cards marked 1, 2, ..., n, if one always makes the most probable guess.",
   "id": "A144188",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:33",
     "offset": 0,
     "size": 24,
     "source": "oeis-bfile"

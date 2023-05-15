@@ -2,13 +2,11 @@
   "description": "a(n) = 412*n^6 - 408*n^5 - 1130*n^4 - 360*n^3 + 2368*n^2 - 912*n + 15*(1 - (-1)^n).",
   "id": "A111112",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 11:35:47",
     "offset": 0,
     "size": 27,
     "source": "joeis"

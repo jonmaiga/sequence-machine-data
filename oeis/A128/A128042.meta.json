@@ -14,15 +14,14 @@
     "A128243",
     "A325455"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
+    "changed",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 3,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

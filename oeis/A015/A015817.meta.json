@@ -2,12 +2,10 @@
   "description": "Numbers n such that phi(n + 1) | sigma(n) for n congruent to 1 (mod 3).",
   "id": "A015817",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-11-11 15:41:36",
     "offset": 1,
     "size": 41,
     "source": "joeis"

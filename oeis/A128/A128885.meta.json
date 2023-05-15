@@ -2,14 +2,12 @@
   "description": "Number of closed orientable irreducible 3-manifolds of complexity n.",
   "id": "A128885",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 13,
     "source": "oeis-entry"

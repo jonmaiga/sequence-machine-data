@@ -2,14 +2,12 @@
   "description": "Slowest increasing sequence where the first pair of digits sums to 10, the next pair also does and so on.",
   "id": "A098791",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 47,
     "source": "oeis-entry"

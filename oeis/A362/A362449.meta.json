@@ -1,0 +1,18 @@
+{
+  "description": "Number of length-n American English expressions for positive integers (spaces, hyphens, and commas excluded).",
+  "id": "A362449",
+  "mentions": [
+    "A121064"
+  ],
+  "tags": [
+    "fini",
+    "more",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

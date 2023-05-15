@@ -2,7 +2,6 @@
   "description": "Triangle whose (i,j)-th entry is binomial(i,j)*6^(i-j)*2^j.",
   "id": "A038256",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2022-05-03 16:51:08",
     "offset": 0,
     "size": 40,
     "source": "joeis"

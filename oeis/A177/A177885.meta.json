@@ -2,16 +2,15 @@
   "description": "a(n) = (1-n)^(n-1).",
   "id": "A177885",
   "mentions": [
-    "A000312"
+    "A000312",
+    "A137452"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:01",
     "offset": 0,
     "size": 19,
     "source": "oeis-bfile"

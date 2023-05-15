@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least number k such that the equation A323410(x) = k has exactly n solutions, or -1 if no such k exists.",
+  "id": "A362186",
+  "mentions": [
+    "A007374",
+    "A063507",
+    "A323410",
+    "A361970",
+    "A362181"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

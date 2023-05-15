@@ -2,13 +2,11 @@
   "description": "Triangle, T(n, k) = coefficients [x^k]( p(x, n) ), where p(x, n) = (1+x)^n +2*x*[n=2] for n < 3, otherwise (1+x)^n + 2*(n*x+1)*(1+x)^(n-2) -2, read by rows.",
   "id": "A147564",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:34",
     "offset": 0,
     "size": 66,
     "source": "oeis-bfile"

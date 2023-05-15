@@ -2,13 +2,11 @@
   "description": "Integer-sided squares, no more than a(n) of any size, can tile the square with side n.",
   "id": "A036444",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 2,
     "size": 99,
     "source": "oeis-entry"

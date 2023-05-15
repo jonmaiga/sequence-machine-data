@@ -2,13 +2,11 @@
   "description": "sin(arcsinh(x)*arcsinh(x))=2/2!*x^2-8/4!*x^4+8/6!*x^6+2112/8!*x^8...",
   "id": "A012649",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-02 18:13:03",
     "offset": 0,
     "size": 14,
     "source": "joeis"

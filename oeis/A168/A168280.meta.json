@@ -2,14 +2,12 @@
   "description": "(1 - 5*(-1)^n + 10*n)/4.",
   "id": "A168280",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:45:29",
     "offset": 1,
     "size": 63,
     "source": "joeis"

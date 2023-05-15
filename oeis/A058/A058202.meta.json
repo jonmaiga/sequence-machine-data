@@ -2,14 +2,12 @@
   "description": "Triangle in which n-th row gives the numbers which when subtracted from 2^n produce primes.",
   "id": "A058202",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2022-09-08 06:56:20",
     "offset": 2,
     "size": 71,
     "source": "joeis"

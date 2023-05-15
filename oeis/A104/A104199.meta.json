@@ -2,14 +2,12 @@
   "description": "Lower bound on a straddle prime pair.",
   "id": "A104199",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 4,
     "size": 71,
     "source": "oeis-entry"

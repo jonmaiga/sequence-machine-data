@@ -2,12 +2,10 @@
   "description": "G.f. A(x) satisfies: [x^n] A(x)^(n-1) = [x^n] -1/A(x)^n, for n > 1.",
   "id": "A352019",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 0,
     "size": 16,
     "source": "oeis-entry"

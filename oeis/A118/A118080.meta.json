@@ -2,13 +2,11 @@
   "description": "Decimal expansion of inflection point of the Einstein function E_1(x).",
   "id": "A118080",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

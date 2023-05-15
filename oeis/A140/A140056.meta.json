@@ -2,7 +2,6 @@
   "description": "Triangle of coefficients: f(x,y,n) = x^n - y^(n-1)*x - y^n; p(x,y,z,n) = f(x,y,n) + f(y,z,n) + f(z,x,n).",
   "id": "A140056",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 57,
     "source": "oeis-entry"

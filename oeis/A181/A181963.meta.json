@@ -2,14 +2,12 @@
   "description": "Prime-generating polynomial: 25*n^2 - 1185*n + 14083.",
   "id": "A181963",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:16:25",
     "offset": 0,
     "size": 45,
     "source": "joeis"

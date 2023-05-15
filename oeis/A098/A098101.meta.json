@@ -2,12 +2,10 @@
   "description": "Number of partitions of 2n for which the square of the largest part equals the sum of the squares of the other parts.",
   "id": "A098101",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 34,
     "source": "oeis-entry"

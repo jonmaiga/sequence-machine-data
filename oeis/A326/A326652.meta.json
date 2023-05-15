@@ -2,14 +2,12 @@
   "description": "a(n) is the sum of each distinct digit in n, raised to the power of its number of appearances in n.",
   "id": "A326652",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 79,
     "source": "oeis-entry"

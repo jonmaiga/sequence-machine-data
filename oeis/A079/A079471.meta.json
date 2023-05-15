@@ -2,13 +2,11 @@
   "description": "Fixed points of reversed binary words in reversed lexicographic order.",
   "id": "A079471",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 52,
     "source": "oeis-entry"

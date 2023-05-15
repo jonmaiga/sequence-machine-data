@@ -1,0 +1,18 @@
+{
+  "description": "Let c1(p) be the number of primes <= p with an odd number of 1's in base 2, and let c2(p) be the number of primes <= p with an even number of 1's in base 2. a(n) is the least prime p such that abs(c1(p) - c2(p)) >= n.",
+  "id": "A361071",
+  "mentions": [
+    "A027697",
+    "A027699",
+    "A130911"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

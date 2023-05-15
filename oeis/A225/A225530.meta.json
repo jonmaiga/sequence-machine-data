@@ -13,13 +13,11 @@
     "A213212",
     "A213213"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:43",
     "offset": 0,
     "size": 68,
     "source": "oeis-bfile"

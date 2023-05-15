@@ -2,14 +2,12 @@
   "description": "Evolution of 13094 using Eric Angelini's add-or-subtract-and-iterate procedure.",
   "id": "A235335",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "base",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:53",
     "offset": 1,
     "size": 28,
     "source": "oeis-bfile"

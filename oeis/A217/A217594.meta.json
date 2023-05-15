@@ -2,13 +2,11 @@
   "description": "Decimal expansion of the generalized Stirling constant.",
   "id": "A217594",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:35",
     "offset": 1,
     "size": 100,
     "source": "oeis-bfile"

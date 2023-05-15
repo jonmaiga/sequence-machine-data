@@ -2,14 +2,12 @@
   "description": "a(n) = Sum_{d|n} (n-d) * d!.",
   "id": "A348145",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 37,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

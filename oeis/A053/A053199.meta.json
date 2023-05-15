@@ -2,13 +2,11 @@
   "description": "Triangular array T: put T(n,0)=n+1 for all n >= 0 and all other T(n,k)=0; then put T(n,k)=Sum{T(i,j): 0<=j<=i-n+k, n-k<=i<=n}.",
   "id": "A053199",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2022-04-27 15:06:47",
     "offset": 0,
     "size": 52,
     "source": "joeis"

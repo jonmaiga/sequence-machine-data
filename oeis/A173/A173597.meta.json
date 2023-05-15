@@ -2,13 +2,11 @@
   "description": "a(n) = a(n-1) + a(n-2) - [a(n-4)/4] - [a(n-5)/2] - [a(n-6)/4].",
   "id": "A173597",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
-    "formulas",
+    "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 51,
     "source": "oeis-entry"

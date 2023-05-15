@@ -1,0 +1,16 @@
+{
+  "description": "Number of odd chordless cycles of length > 4 in the n X n queen graph.",
+  "id": "A362513",
+  "mentions": [
+    "A361184"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

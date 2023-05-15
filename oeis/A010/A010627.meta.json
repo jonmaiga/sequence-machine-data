@@ -2,13 +2,11 @@
   "description": "Decimal expansion of cube root of 56.",
   "id": "A010627",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-07 12:16:04",
     "offset": 1,
     "size": 99,
     "source": "joeis"

@@ -11,9 +11,7 @@
     "A054124",
     "A084938"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "nice",
@@ -21,7 +19,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2022-04-27 15:04:33",
     "offset": 0,
     "size": 94,
     "source": "joeis"

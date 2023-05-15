@@ -2,13 +2,11 @@
   "description": "Nim value of subtraction game S(2,5,7) with a heap of n beans.",
   "id": "A266756",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 13:07:33",
     "offset": 0,
     "size": 132,
     "source": "joeis"

@@ -2,12 +2,10 @@
   "description": "a(n) = number of steps for the mod-n Ackermann function to stabilize to a set consisting of only one value, or -1 if it does not stabilize.",
   "id": "A352196",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 119,
     "source": "oeis-entry"

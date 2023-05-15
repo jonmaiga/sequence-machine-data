@@ -1,15 +1,13 @@
 {
-  "description": "G.f. generates triangle A236961, which transforms the diagonals in the table of successive iterations of g.f. A(x) such that column 0 equals A236961(n,0) = n^n.",
+  "description": "Given g.f. A(x) of this sequence, triangle A236961 transforms the diagonals in the table of successive iterations of A(x) such that A236961(n,0) = n^n.",
   "id": "A236960",
   "mentions": [
     "A236961"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:54",
     "offset": 1,
     "size": 22,
     "source": "oeis-bfile"

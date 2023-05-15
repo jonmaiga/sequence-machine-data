@@ -2,12 +2,10 @@
   "description": "arcsinh(sec(x)*sinh(x))=x+3/3!*x^3+5/5!*x^5-217/7!*x^7+2505/9!*x^9...",
   "id": "A012817",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 17:55:51",
     "offset": 0,
     "size": 14,
     "source": "joeis"

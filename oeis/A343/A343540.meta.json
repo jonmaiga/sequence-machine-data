@@ -2,13 +2,11 @@
   "description": "Squares visited by a trapped knight on a square-spiral numbered board where the knight is shifted one square up and one square to the right after each move.",
   "id": "A343540",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 60,
     "source": "oeis-entry"

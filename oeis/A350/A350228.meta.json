@@ -7,12 +7,10 @@
     "A350234",
     "A350244"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:24",
     "offset": 1,
     "size": 82,
     "source": "oeis-bfile"

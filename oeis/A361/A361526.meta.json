@@ -1,0 +1,19 @@
+{
+  "description": "Number of ways of dividing an n X 4 rectangle into integer-sided rectangles, up to rotations and reflections.",
+  "id": "A361526",
+  "mentions": [
+    "A220297",
+    "A359020",
+    "A361523"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

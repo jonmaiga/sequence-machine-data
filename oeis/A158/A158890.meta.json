@@ -2,12 +2,10 @@
   "description": "Numbers k such that j*k^2+k+41 are primes for j=1,3,5,7,9,11,13 (seven primes in AP).",
   "id": "A158890",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

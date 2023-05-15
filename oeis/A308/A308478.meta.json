@@ -2,14 +2,12 @@
   "description": "a(n) = sum of the dimensions of the rational spans of all connected chord diagrams with n chords and any number m of link components, modulo all instances of the 4T-relation.",
   "id": "A308478",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "bref",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 5,
     "source": "oeis-entry"

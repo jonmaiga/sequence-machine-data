@@ -2,18 +2,21 @@
   "description": "Triangle read by rows: T(n,k) is the number of graphs with n vertices and treewidth k.",
   "id": "A263294",
   "mentions": [
-    "A000088"
+    "A000012",
+    "A000088",
+    "A005195",
+    "A362907",
+    "A362908"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
+    "changed",
     "more",
     "nonn",
-    "tabf"
+    "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
-    "size": 16,
+    "size": 45,
     "source": "oeis-entry"
   }
 }

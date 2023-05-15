@@ -2,13 +2,11 @@
   "description": "Decimal expansion of the complete elliptic integral of the first kind at sqrt(2)-1.",
   "id": "A130786",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:18",
     "offset": 1,
     "size": 106,
     "source": "oeis-bfile"

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the number of 0's minus the number of 1's among the first n terms of A362240.",
+  "id": "A362598",
+  "mentions": [
+    "A362240"
+  ],
+  "tags": [
+    "new",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,13 +2,11 @@
   "description": "Integer part of the ratio (number of composites <=n) / (number of primes <=n).",
   "id": "A097456",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 2,
     "size": 105,
     "source": "oeis-entry"

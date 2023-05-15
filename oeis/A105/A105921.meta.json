@@ -2,14 +2,12 @@
   "description": "Lee weight enumerator of a certain code over GF(4).",
   "id": "A105921",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "fini",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 7,
     "source": "oeis-entry"

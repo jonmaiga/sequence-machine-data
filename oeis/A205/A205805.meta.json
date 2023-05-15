@@ -4,17 +4,13 @@
   "mentions": [
     "A006855"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 1,
-    "size": 45,
+    "size": 63,
     "source": "oeis-entry"
   }
 }

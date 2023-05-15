@@ -8,13 +8,11 @@
     "A134100",
     "A134101"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:22",
     "offset": 1,
     "size": 53,
     "source": "oeis-bfile"

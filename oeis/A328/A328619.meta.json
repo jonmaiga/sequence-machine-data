@@ -5,13 +5,11 @@
     "A328617",
     "A328618"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "mult",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:57",
     "offset": 1,
     "size": 40,
     "source": "oeis-bfile"

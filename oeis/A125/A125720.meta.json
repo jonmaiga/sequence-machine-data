@@ -2,13 +2,11 @@
   "description": "A variation on the Thue-Morse sequence.",
   "id": "A125720",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 64,
     "source": "oeis-entry"

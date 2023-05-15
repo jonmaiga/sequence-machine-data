@@ -2,12 +2,10 @@
   "description": "Primes p such that the prime ideal J(p) is not principal, determined by using a quadratic or biquadratic subfield of Q(zeta_{p-1}).",
   "id": "A347695",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 61,
     "source": "oeis-entry"

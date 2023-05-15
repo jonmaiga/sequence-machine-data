@@ -2,13 +2,11 @@
   "description": "Number of different ways of drawing chords in a circle of numbers from 1 to n such that the sums of the numbers on the two sides of the chord are equal.",
   "id": "A111143",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:02",
     "offset": 2,
     "size": 98,
     "source": "oeis-bfile"

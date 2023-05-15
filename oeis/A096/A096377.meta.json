@@ -2,13 +2,11 @@
   "description": "Floor of area of triangle with consecutive prime sides.",
   "id": "A096377",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 44,
     "source": "oeis-entry"

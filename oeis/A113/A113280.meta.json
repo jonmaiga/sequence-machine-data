@@ -2,14 +2,12 @@
   "description": "A symmetrical triangle of coefficients: t(n,m)=(n - m)*(n - m + 2)*m*(m + 2) + 1.",
   "id": "A113280",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2022-04-26 13:11:41",
     "offset": 1,
     "size": 63,
     "source": "joeis"

@@ -1,16 +1,19 @@
 {
-  "description": "Numbers n such that the numerator of the sum of the reciprocals of the divisors of n (=A017665(n)) is a power of 2.",
+  "description": "Numbers k such that the numerator of the sum of the reciprocals of the divisors of k (=A017665(k)) is a power of 2.",
   "id": "A043305",
   "mentions": [
-    "A017665"
+    "A000396",
+    "A017665",
+    "A216782",
+    "A336702",
+    "A348943",
+    "A361465"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:55",
     "offset": 1,
     "size": 53,
     "source": "oeis-bfile"

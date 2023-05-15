@@ -2,6 +2,7 @@
   "description": "Main diagonal of array in A358298.",
   "id": "A358301",
   "mentions": [
+    "A005728",
     "A358298",
     "A358307",
     "A358882",
@@ -9,12 +10,10 @@
     "A358886",
     "A358889"
   ],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 0,
     "size": 45,
     "source": "oeis-entry"

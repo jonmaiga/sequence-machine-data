@@ -2,13 +2,11 @@
   "description": "McKay-Thompson series of class 48b for the Monster group.",
   "id": "A112187",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-26 12:34:01",
     "offset": 0,
     "size": 76,
     "source": "joeis"

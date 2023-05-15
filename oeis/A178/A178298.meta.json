@@ -2,13 +2,11 @@
   "description": "Number of collinear point triples in a 5 X 5 X 5 X... n-dimensional cubic grid.",
   "id": "A178298",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 14:29:32",
     "offset": 0,
     "size": 10,
     "source": "joeis"

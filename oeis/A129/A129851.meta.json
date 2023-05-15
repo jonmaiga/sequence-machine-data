@@ -2,14 +2,12 @@
   "description": "Take the absolute difference between two consecutive terms : the result shares at least one digit with one of the terms.",
   "id": "A129851",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 63,
     "source": "oeis-entry"

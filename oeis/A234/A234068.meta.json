@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of (n+2)X(k+2) 0..3 arrays with no increasing sequence of length 3 horizontally or diagonally downwards",
   "id": "A234068",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:52",
     "offset": 1,
     "size": 16,
     "source": "oeis-bfile"

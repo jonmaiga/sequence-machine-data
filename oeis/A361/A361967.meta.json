@@ -1,0 +1,24 @@
+{
+  "description": "Number of numbers k such that uphi(k) = n, where uphi is the unitary totient function (A047994).",
+  "id": "A361967",
+  "mentions": [
+    "A014197",
+    "A047994",
+    "A135347",
+    "A347771",
+    "A361966",
+    "A361968",
+    "A361969",
+    "A361970",
+    "A361971"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

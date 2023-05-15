@@ -2,14 +2,12 @@
   "description": "Expansion of (1+4*x^2) / (1-5*x+4*x^2-4*x^3).",
   "id": "A275903",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:41",
     "offset": 0,
     "size": 26,
     "source": "oeis-bfile"

@@ -1,20 +1,18 @@
 {
-  "description": "The number of squarefree permutations of 1,...,n up to symmetry.",
+  "description": "Number of squarefree permutations of {1, ..., n} up to symmetry.",
   "id": "A238937",
   "mentions": [
     "A221989",
     "A238942"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
-    "size": 17,
+    "size": 23,
     "source": "oeis-entry"
   }
 }

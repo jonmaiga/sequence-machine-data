@@ -1,0 +1,15 @@
+{
+  "description": "The lexicographically earliest sequence a(n) = v(x[n]) where x[k], k >= 0, are distinct finite nonnegative integer sequences with |x[k] - x[k+1]| = 1, and v(x) = Sum_{k >= 0} x(k)*b^k + b^(b-1), b = max(deg(x), sup(x)) + 1.",
+  "id": "A360449",
+  "mentions": [
+    "A360450"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

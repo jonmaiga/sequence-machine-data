@@ -5,7 +5,6 @@
     "A005430",
     "A287704"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "frac",
@@ -13,7 +12,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

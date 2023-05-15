@@ -2,13 +2,11 @@
   "description": "Numbers n not divisible by 100 such that both concat(1,n) and concat(6,n) are squares.",
   "id": "A264805",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:24",
     "offset": 1,
     "size": 10,
     "source": "oeis-bfile"

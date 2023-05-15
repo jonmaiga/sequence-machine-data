@@ -2,7 +2,6 @@
   "description": "A polynomial triangle based on cross binomial Hodge number matrices/ Hodge diamonds that represent Calabi-Yau type binomials and their monomials.",
   "id": "A139813",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

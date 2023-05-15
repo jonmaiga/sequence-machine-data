@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n! * Sum_{k=0..floor(n/5)} (-n/120)^k /(k! * (n-5*k)!).",
+  "id": "A362346",
+  "mentions": [
+    "A351931",
+    "A362303",
+    "A362345"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

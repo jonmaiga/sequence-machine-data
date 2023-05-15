@@ -2,12 +2,10 @@
   "description": "Numbers n with property that three consecutive odd numbers {n,n+2,n+4} are all composite.",
   "id": "A161945",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 52,
     "source": "oeis-entry"

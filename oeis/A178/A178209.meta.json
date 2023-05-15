@@ -2,7 +2,6 @@
   "description": "Prime(n) such that the sum of decimal digits does not divide the sum of decimal digits of prime(n+1).",
   "id": "A178209",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 58,
     "source": "oeis-entry"

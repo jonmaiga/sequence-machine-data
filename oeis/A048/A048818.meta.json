@@ -5,13 +5,11 @@
     "A048817",
     "A058914"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 0,
     "size": 38,
     "source": "oeis-entry"

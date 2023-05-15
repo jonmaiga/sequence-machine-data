@@ -2,14 +2,12 @@
   "description": "A triangular sequence \"representation\" of the modulo 10 Integer field: t(+)(n,m)=Mod[n + m, 10]; t(x)(n,m)=Mod[n*m, 10]; t(n,m)=Mod[t(=)(n,m)*t(X)(n,m),10].",
   "id": "A142354",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

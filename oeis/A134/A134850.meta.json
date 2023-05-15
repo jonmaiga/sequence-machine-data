@@ -1,21 +1,22 @@
 {
-  "description": "Number of primes between A075737(n) and A075737(n+1).",
+  "description": "Number of primes between A075737(n) and A075737(n+1), including one bound.",
   "id": "A134850",
   "mentions": [
     "A000045",
     "A050937",
     "A075737",
     "A090819",
-    "A134787"
+    "A134787",
+    "A307499"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
+    "changed",
+    "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
-    "size": 9,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

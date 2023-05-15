@@ -2,13 +2,11 @@
   "description": "Consider n x n chessboard. This sequence gives number of chess knight paths from left bottom corner of the board to the right top corner with minimal possible path length (shortest paths).",
   "id": "A120399",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 39,
     "source": "oeis-entry"

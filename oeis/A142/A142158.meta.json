@@ -2,14 +2,12 @@
   "description": "An infinite sum polynomial triangular sequence of coefficients that gives a LerchPhi polynomial: p(x,n)=(1 - x)^(n + 1)*Sum[(n + k)^n*x^k, {k, 0, Infinity}]=(1+x)^n*LerchPhi[x,-n,n].",
   "id": "A142158",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 41,
     "source": "oeis-entry"

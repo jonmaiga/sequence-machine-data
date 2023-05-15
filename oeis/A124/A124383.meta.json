@@ -2,12 +2,10 @@
   "description": "O.g.f.: A(x) = Sum_{n>=0} x^n*Product_{k=0..n} (1 + k*x)^2.",
   "id": "A124383",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 24,
     "source": "oeis-entry"

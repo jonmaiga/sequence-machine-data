@@ -2,7 +2,6 @@
   "description": "a(2n-1) is odd, a(2n) = even, such that the difference of two terms with different parity is a prime.",
   "id": "A085048",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

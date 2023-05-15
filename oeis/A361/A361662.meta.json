@@ -1,0 +1,20 @@
+{
+  "description": "Least number k >= 1 such that A074206(k) is divisible by n.",
+  "id": "A361662",
+  "mentions": [
+    "A025487",
+    "A074206",
+    "A361663",
+    "A361664",
+    "A361666"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

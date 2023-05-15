@@ -2,14 +2,12 @@
   "description": "a(n) = floor(prime(n)/5) for n > 2, a(1) = a(2) = 1.",
   "id": "A116572",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:06",
     "offset": 1,
     "size": 69,
     "source": "oeis-bfile"

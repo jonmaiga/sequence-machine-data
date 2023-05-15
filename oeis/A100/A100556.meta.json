@@ -1,16 +1,17 @@
 {
   "description": "Composite numbers q such that 2^q + q is prime.",
   "id": "A100556",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:22",
+  "mentions": [
+    "A052007"
+  ],
   "tags": [
+    "changed",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
-    "size": 11,
+    "size": 14,
     "source": "oeis-entry"
   }
 }

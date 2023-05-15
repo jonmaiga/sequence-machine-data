@@ -2,14 +2,12 @@
   "description": "Self-describing sequence: 4 composite numbers, then 6 prime numbers, then 8 composites, then 9 primes, then 11 composites, etc.",
   "id": "A105803",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 4,
     "size": 38,
     "source": "oeis-entry"

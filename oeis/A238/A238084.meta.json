@@ -2,14 +2,12 @@
   "description": "The dimensions in which extremal self-dual lattices exist.",
   "id": "A238084",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

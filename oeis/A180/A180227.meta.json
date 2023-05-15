@@ -2,13 +2,11 @@
   "description": "Triangular array T(A,B) read by rows: minimal number of steps required to obtain exactly 1 liter in jug A (irrespective of jug B), starting with infinite supply of water and two empty jugs with capacities A and B liters. -1 if not possible. A>=B>=1.",
   "id": "A180227",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:03",
     "offset": 1,
     "size": 66,
     "source": "oeis-bfile"

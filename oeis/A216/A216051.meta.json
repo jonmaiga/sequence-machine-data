@@ -2,12 +2,10 @@
   "description": "Even numbers m that have an odd number of Goldbach partitions whose lesser and greater elements each sum to a prime.",
   "id": "A216051",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:34",
     "offset": 1,
     "size": 50,
     "source": "oeis-bfile"

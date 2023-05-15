@@ -2,13 +2,11 @@
   "description": "Number of letters in n (in Icelandic).",
   "id": "A226446",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:43",
     "offset": 0,
     "size": 71,
     "source": "oeis-bfile"

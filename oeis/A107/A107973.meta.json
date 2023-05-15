@@ -2,14 +2,12 @@
   "description": "Numbers of the form a^2 + b for a= 21 to 40 and b= 20 to 1 step -1.",
   "id": "A107973",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

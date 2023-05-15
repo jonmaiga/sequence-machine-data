@@ -2,13 +2,11 @@
   "description": "List of exceptional parameters u of irreducible two-weight cyclic codes.",
   "id": "A205798",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

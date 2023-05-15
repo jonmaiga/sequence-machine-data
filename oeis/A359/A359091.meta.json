@@ -7,13 +7,11 @@
     "A231897",
     "A359092"
   ],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 3,
     "size": 42,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "a(n)=3*(3^prime(n)-1)*B(2*prime(n)) where prime(n)=n-th prime and B(k) denotes the k-th Bernoulli number.",
   "id": "A090813",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 3,
     "size": 8,
     "source": "oeis-entry"

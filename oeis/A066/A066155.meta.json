@@ -2,12 +2,10 @@
   "description": "Numbers k such that EulerPhi(k) = sigma(k+1) - sigma(k-1).",
   "id": "A066155",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:18",
     "offset": 1,
     "size": 37,
     "source": "oeis-bfile"

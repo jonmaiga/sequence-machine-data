@@ -5,15 +5,12 @@
     "A077090",
     "A077100"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:47",
     "offset": 1,
     "size": 23,
     "source": "oeis-entry"

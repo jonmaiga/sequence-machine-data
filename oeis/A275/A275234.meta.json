@@ -2,13 +2,11 @@
   "description": "Number of distinct positive solutions to the system of n Diophantine equations: x_1 + y_1 = x_2*y_2, x_2 + y_2 = x_3*y_3, ..., x_n + y_n = x_1*y_1.",
   "id": "A275234",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 25,
     "source": "oeis-entry"

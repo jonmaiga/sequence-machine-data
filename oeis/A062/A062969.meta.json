@@ -1,18 +1,16 @@
 {
-  "description": "d(n)-n-1 is prime.",
+  "description": "Numbers k such that abs(d(k)-k-1) is prime, where d(k) is the number of divisors of k.",
   "id": "A062969",
   "mentions": [
     "A062968"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 61,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

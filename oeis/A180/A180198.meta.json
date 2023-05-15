@@ -1,5 +1,5 @@
 {
-  "description": "A180200(A180200(n)).",
+  "description": "a(n) = A180200(A180200(n)).",
   "id": "A180198",
   "mentions": [
     "A075427",
@@ -7,12 +7,10 @@
     "A180200",
     "A180201"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 73,
     "source": "oeis-entry"

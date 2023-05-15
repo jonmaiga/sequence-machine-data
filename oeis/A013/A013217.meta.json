@@ -2,12 +2,10 @@
   "description": "E.g.f.: tanh(log(x+1)-sin(x))=-1/2!*x^2+3/3!*x^3-6/4!*x^4+23/5!*x^5...",
   "id": "A013217",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-16 12:46:55",
     "offset": 0,
     "size": 22,
     "source": "joeis"

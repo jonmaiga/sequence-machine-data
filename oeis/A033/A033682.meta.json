@@ -2,12 +2,10 @@
   "description": "Numbers of the form (q^2+(q+1)^2)*(r^2+(r+1)^2), q,r >= 1.",
   "id": "A033682",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:43",
     "offset": 1,
     "size": 36,
     "source": "oeis-bfile"

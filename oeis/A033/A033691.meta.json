@@ -2,7 +2,6 @@
   "description": "Minimal number of vertices in 1-1 deficient regular graph where minimal degree is 1 and maximal degree is n.",
   "id": "A033691",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:06:45",
     "offset": 2,
     "size": 52,
     "source": "joeis"

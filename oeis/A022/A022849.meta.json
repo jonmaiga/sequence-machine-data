@@ -2,13 +2,11 @@
   "description": "Integer nearest nx, where x = sqrt(6).",
   "id": "A022849",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:30",
     "offset": 0,
     "size": 61,
     "source": "oeis-bfile"

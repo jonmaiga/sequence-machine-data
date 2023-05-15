@@ -2,13 +2,10 @@
   "description": "arcsin(sinh(x)*sin(x)) = 2/2!*x^2+112/6!*x^6+252032/10!*x^10...",
   "id": "A012525",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 22:01:06",
     "offset": 0,
     "size": 8,
     "source": "joeis"

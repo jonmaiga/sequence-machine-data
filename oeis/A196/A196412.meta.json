@@ -8,14 +8,12 @@
     "A144768",
     "A196411"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "less",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:18",
     "offset": 0,
     "size": 21,
     "source": "oeis-bfile"

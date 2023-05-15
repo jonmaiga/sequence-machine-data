@@ -2,7 +2,6 @@
   "description": "Terminating decimals of length n of form p/2^q using at most one of each nonzero digit.",
   "id": "A027904",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

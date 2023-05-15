@@ -2,13 +2,11 @@
   "description": "Product of first n palindromes.",
   "id": "A074166",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:26",
     "offset": 1,
     "size": 19,
     "source": "oeis-bfile"

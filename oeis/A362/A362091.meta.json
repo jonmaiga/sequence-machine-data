@@ -1,0 +1,13 @@
+{
+  "description": "Expansion of odd function A(x) = Sum_{n>=1} a(n)*x^(2*n-1)/(2*n-1)! = x*Product_{odd primes p} (1 + (-x^2)^((p - 1)/2) / p).",
+  "id": "A362091",
+  "mentions": [],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

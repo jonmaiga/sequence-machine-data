@@ -2,15 +2,14 @@
   "description": "If n <= 1 then n else smallest number having in decimal representation exactly one common digit with its predecessor but none with its pre-predecessor.",
   "id": "A107277",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 51,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

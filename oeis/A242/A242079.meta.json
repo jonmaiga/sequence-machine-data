@@ -2,12 +2,10 @@
   "description": "a(1)=1. a(n)=smallest integer greater than 2*a(n-1) such that the Nim sequence of the first n terms is ternary, periodic and not equal to the Nim sequence of the first n-1 terms.",
   "id": "A242079",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

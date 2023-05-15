@@ -1,0 +1,18 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of labeled digraphs on [n] having exactly k strongly connected components all of which are simple cycles, n >= 0, 0 <= k <= n.",
+  "id": "A361527",
+  "mentions": [
+    "A000142",
+    "A003024",
+    "A011266"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

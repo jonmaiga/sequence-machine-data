@@ -2,13 +2,11 @@
   "description": "Numbers that have a \"t\" in the middle of their names.",
   "id": "A160661",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 52,
     "source": "oeis-entry"

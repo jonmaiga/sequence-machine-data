@@ -1,0 +1,17 @@
+{
+  "description": "Number of nonisomorphic multisets of fixed-point-free endofunctions on an n-set with n endofunctions.",
+  "id": "A362902",
+  "mentions": [
+    "A277839",
+    "A362899"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

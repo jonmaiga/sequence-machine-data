@@ -2,13 +2,11 @@
   "description": "Smallest multiple of n which uses no digits of n, or 0 if no such number exists.",
   "id": "A074157",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:26",
     "offset": 1,
     "size": 51,
     "source": "oeis-bfile"

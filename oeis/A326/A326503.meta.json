@@ -10,14 +10,12 @@
     "A162397",
     "A326401"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "formulas",
     "mult",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-28 11:08:28",
     "offset": 1,
     "size": 66,
     "source": "joeis"

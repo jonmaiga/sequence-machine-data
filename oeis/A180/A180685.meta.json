@@ -2,13 +2,11 @@
   "description": "Primes consisting of all of the cube digits (i.e., 0, 1 and 8) at least once.",
   "id": "A180685",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:03",
     "offset": 1,
     "size": 32,
     "source": "oeis-bfile"

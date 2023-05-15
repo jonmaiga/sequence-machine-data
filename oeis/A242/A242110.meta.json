@@ -2,12 +2,10 @@
   "description": "Number of partitions of n whose different summands alternate in parity.",
   "id": "A242110",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:58",
     "offset": 0,
     "size": 50,
     "source": "oeis-bfile"

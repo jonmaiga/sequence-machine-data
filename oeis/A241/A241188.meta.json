@@ -9,14 +9,12 @@
     "A051960",
     "A059481"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 2,
     "size": 52,
     "source": "oeis-entry"

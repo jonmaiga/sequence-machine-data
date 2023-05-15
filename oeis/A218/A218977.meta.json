@@ -2,12 +2,10 @@
   "description": "Primes of the form 2n^2 - 181 for n >= 0.",
   "id": "A218977",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 46,
     "source": "oeis-entry"

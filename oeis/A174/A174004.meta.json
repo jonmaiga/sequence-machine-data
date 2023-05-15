@@ -2,7 +2,6 @@
   "description": "A triangle based on:a(n,q)=a(n-1,q)+q*a(n-2,q);t(n,q)=If[n == 0, 1, Sum[Binomial[n, k]*a(k, q), {k, 1, n, 2}]]",
   "id": "A174004",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 55,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Numbers k such that k^3 + 8*k^2 + 10*k - 8 is prime.",
   "id": "A155732",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 18:25:35",
     "offset": 1,
     "size": 57,
     "source": "joeis"

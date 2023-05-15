@@ -2,13 +2,11 @@
   "description": "Related to the number of Hopf subalgebras of heap-preordered forests of vertex degree n.",
   "id": "A338867",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 0,
     "size": 6,
     "source": "oeis-entry"

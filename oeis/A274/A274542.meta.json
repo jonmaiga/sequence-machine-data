@@ -8,14 +8,12 @@
     "A274540",
     "A274541"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:39",
     "offset": 1,
     "size": 85,
     "source": "oeis-bfile"

@@ -11,13 +11,11 @@
     "A283116",
     "A283117"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:53",
     "offset": 1,
     "size": 64,
     "source": "oeis-bfile"

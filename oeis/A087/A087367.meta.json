@@ -2,14 +2,12 @@
   "description": "Twin primes whose digits are primes.",
   "id": "A087367",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 3,
     "size": 34,
     "source": "oeis-entry"

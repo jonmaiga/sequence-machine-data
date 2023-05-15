@@ -2,13 +2,11 @@
   "description": "Number of singular n X n matrices whose rows are distinct (0,1) vectors arranged in increasing order.",
   "id": "A331439",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

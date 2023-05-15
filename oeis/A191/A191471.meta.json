@@ -2,13 +2,11 @@
   "description": "E.g.f. (1+arctan(x))^arctan(x)",
   "id": "A191471",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-02 20:59:35",
     "offset": 0,
     "size": 21,
     "source": "joeis"

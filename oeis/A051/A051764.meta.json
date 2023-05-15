@@ -2,14 +2,12 @@
   "description": "Number of torus knots with n crossings.",
   "id": "A051764",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "formulas",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:00",
     "offset": 1,
     "size": 105,
     "source": "oeis-bfile"

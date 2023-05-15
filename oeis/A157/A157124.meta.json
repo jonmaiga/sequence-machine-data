@@ -2,12 +2,10 @@
   "description": "a(1)=1; a(n) = floor((n-1)*Sum_{k=1..n-1} 1/a(k)).",
   "id": "A157124",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:39",
     "offset": 1,
     "size": 61,
     "source": "oeis-bfile"

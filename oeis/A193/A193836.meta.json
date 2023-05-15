@@ -2,12 +2,10 @@
   "description": "Number of nXnXn triangular 0..6 arrays with no element equal to the sum or difference mod 7 of any two of its neighbors",
   "id": "A193836",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

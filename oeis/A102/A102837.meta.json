@@ -2,14 +2,12 @@
   "description": "Numbers with property that can bring the first digit to the back of the number to get a square (zeros are dropped).",
   "id": "A102837",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:53",
     "offset": 1,
     "size": 52,
     "source": "oeis-bfile"

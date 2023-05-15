@@ -2,12 +2,10 @@
   "description": "Floor((n*(n+1)^3/8)^n)-(n!)^4.",
   "id": "A127425",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 13,
     "source": "oeis-entry"

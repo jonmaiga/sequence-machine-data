@@ -2,13 +2,11 @@
   "description": "Successive remainders when computing the Euclidean algorithm for (n,m) where m is any positive integer having no common factor with n, gives a list ending with a sublist of Fibonacci sequence. Find m such that this sublist has the greatest length and define a(n) as this length.",
   "id": "A087295",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

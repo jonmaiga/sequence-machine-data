@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n, k) = 2^(n-k)*(2*n)!/(2*k)! * [x^(2*n)] U[x]^(2*k), where U(x) = x*2F1([3/4, 3/4], [3/2], 4*x^2)/2F1([1/4, 1/4], [1/2], 4*x^2).",
+  "id": "A362715",
+  "mentions": [
+    "A317651",
+    "A362713",
+    "A362714"
+  ],
+  "tags": [
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

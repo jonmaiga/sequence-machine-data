@@ -2,12 +2,10 @@
   "description": "Numbers k such that k! is divisible by (k+1)^6.",
   "id": "A061754",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:13",
     "offset": 1,
     "size": 58,
     "source": "oeis-bfile"

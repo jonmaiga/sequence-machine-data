@@ -2,14 +2,12 @@
   "description": "a(n) = a(n-1) + (2*n - 1) mod 8 + 1 with a(0)=1.",
   "id": "A100531",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:40:51",
     "offset": 0,
     "size": 58,
     "source": "joeis"

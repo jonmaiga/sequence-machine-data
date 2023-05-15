@@ -2,13 +2,11 @@
   "description": "Number of triangulations of a convex 5-gon in the plane each of whose sides is subdivided by n points.",
   "id": "A282734",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:52",
     "offset": 0,
     "size": 16,
     "source": "oeis-bfile"

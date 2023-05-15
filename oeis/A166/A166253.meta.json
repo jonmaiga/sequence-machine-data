@@ -2,14 +2,12 @@
   "description": "String substitution 0 -> 01110, 1 -> 10001, started with 1.",
   "id": "A166253",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2022-04-26 09:36:29",
     "offset": 1,
     "size": 135,
     "source": "joeis"

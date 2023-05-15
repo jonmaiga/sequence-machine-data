@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n! * Sum_{k=0..floor(n/2)} k^k / (k! * (n-2*k)!).",
+  "id": "A362347",
+  "mentions": [
+    "A086331",
+    "A277614",
+    "A362348",
+    "A362349"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

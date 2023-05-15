@@ -2,13 +2,11 @@
   "description": "Sequence whose Mobius transform leads to the first differences of the terms.",
   "id": "A101172",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 34,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Numbers such that the absolute values of the differences between any pair of digits are distinct.",
   "id": "A328075",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:56",
     "offset": 1,
     "size": 102,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Primes p such that p-1 is not a multiple of 3, 4 or 5.",
   "id": "A120366",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:09",
     "offset": 1,
     "size": 50,
     "source": "oeis-bfile"

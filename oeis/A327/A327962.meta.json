@@ -2,13 +2,11 @@
   "description": "a(1) = 27846; thereafter a(n+1) = a(n) # n, where # is an operation that cycles through division, addition, subtraction and multiplication.",
   "id": "A327962",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 25,
     "source": "oeis-entry"

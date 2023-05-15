@@ -1,0 +1,17 @@
+{
+  "description": "Integers in the interval [Pi*k - 1/k, Pi*k + 1/k] for some k > 0 that are numerators of convergents to 2*Pi.",
+  "id": "A362602",
+  "mentions": [
+    "A046955",
+    "A265735"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

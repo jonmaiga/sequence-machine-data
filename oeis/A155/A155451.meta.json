@@ -2,14 +2,12 @@
   "description": "Triangle read by rows: T(n,m)=2*Binomial[n, m] - (m! - n! + (-m + n)!).",
   "id": "A155451",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 53,
     "source": "oeis-entry"

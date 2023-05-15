@@ -15,7 +15,6 @@
     "A339493",
     "A339494"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "formulas",
     "hard",
@@ -23,7 +22,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:04",
     "offset": 1,
     "size": 55,
     "source": "oeis-bfile"

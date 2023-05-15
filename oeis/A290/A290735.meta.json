@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = weighted sum over all the self- conjugate partitions of 4n + 1 into odd parts, with respect to a certain weight.",
+  "description": "a(n) = weighted sum over all the self-conjugate partitions of 4n + 1 into odd parts, with respect to a certain weight.",
   "id": "A290735",
   "mentions": [
     "A008443",
@@ -8,13 +8,11 @@
     "A290739",
     "A290740"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 0,
     "size": 80,
     "source": "oeis-entry"

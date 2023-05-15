@@ -16,14 +16,12 @@
     "A277016",
     "A277023"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:42",
     "offset": 0,
     "size": 72,
     "source": "oeis-bfile"

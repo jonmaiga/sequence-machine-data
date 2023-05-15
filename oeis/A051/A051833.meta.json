@@ -12,15 +12,12 @@
     "A052044",
     "A052045"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "bref",
-    "changed",
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:47",
     "offset": 1,
     "size": 3,
     "source": "oeis-entry"

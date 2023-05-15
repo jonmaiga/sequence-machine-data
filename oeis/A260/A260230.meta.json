@@ -2,7 +2,6 @@
   "description": "Decimal expansion of S(Pi), where S(x) is the series Sum_{n>=1} (-1)^(n+1)*coth(n*x)/n.",
   "id": "A260230",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:48:07",
     "offset": 0,
     "size": 104,
     "source": "joeis"

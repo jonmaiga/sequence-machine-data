@@ -2,14 +2,12 @@
   "description": "Numbers that are congruent to {1, 2, 3} mod 8.",
   "id": "A047475",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 11:02:53",
     "offset": 1,
     "size": 60,
     "source": "joeis"

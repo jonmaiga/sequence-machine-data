@@ -6,14 +6,12 @@
     "A167272",
     "A167273"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 91,
     "source": "oeis-entry"

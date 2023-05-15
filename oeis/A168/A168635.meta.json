@@ -2,14 +2,12 @@
   "description": "a(n) = n^7*(n + 1)/2.",
   "id": "A168635",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:47:03",
     "offset": 0,
     "size": 25,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "Zeroless numbers n = concat(s,t) such that s * t is the 10’s complement of the digits of n.",
   "id": "A286353",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:58",
     "offset": 1,
     "size": 34,
     "source": "oeis-bfile"

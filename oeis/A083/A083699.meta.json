@@ -8,14 +8,12 @@
     "A083700",
     "A086399"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 21,
     "source": "oeis-entry"

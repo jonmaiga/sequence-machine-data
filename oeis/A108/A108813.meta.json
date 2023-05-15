@@ -2,14 +2,12 @@
   "description": "Decimal expansion of the continued fraction 2/(5+4/(7+6/(9+8/(11+10/(13+12/...",
   "id": "A108813",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:36:51",
     "offset": 0,
     "size": 105,
     "source": "joeis"

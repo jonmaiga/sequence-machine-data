@@ -2,13 +2,11 @@
   "description": "Squaded sum of digits of the number equals the product of digits of the (same) number",
   "id": "A164850",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 22,
     "source": "oeis-entry"

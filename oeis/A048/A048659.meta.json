@@ -2,7 +2,6 @@
   "description": "Positions of letters in English alphabet (U.S. pronunciation) that rhyme with 'e'.",
   "id": "A048659",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "dumb",
     "fini",
@@ -11,7 +10,6 @@
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

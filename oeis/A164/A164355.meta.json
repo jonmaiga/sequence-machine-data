@@ -2,14 +2,12 @@
   "description": "Expansion of (1 - x^2)^4 * (1 - x^5) / ((1 - x)^5 * (1 - x^4)^2) in powers of x.",
   "id": "A164355",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:46",
     "offset": 0,
     "size": 57,
     "source": "oeis-bfile"

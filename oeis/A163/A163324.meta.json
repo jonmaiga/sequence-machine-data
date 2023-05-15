@@ -2,12 +2,10 @@
   "description": "Numbers n such that n^3 can be represented as a sum of (at least two) consecutive primes.",
   "id": "A163324",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 60,
     "source": "oeis-entry"

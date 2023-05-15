@@ -1,13 +1,11 @@
 {
-  "description": "The number of pairs of independent outcomes when rolling an n-sided die. Or in other terms, the number of pairs of proper subsets A,B of a set S, such that #A/#S * #B/#S = #(A \\intersect B)/#S.",
+  "description": "The number of pairs of independent outcomes when rolling an n-sided die. Or in other words, the number of pairs of proper subsets A,B of a set S, such that #A/#S * #B/#S = #(A \\intersect B)/#S.",
   "id": "A158345",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 25,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Primes prime(n) such that at least one of the two numbers (prime(n+2)^2-prime(n)^2)/2 - 1 and (prime(n+2)^2-prime(n)^2)/2 + 1 is prime.",
   "id": "A130761",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:18",
     "offset": 1,
     "size": 55,
     "source": "oeis-bfile"

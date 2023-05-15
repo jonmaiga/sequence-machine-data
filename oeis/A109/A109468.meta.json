@@ -2,13 +2,11 @@
   "description": "a(n) is the number of permutations of (1,2,3,...,n) written in binary such that no adjacent elements share a common 1-bit.",
   "id": "A109468",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 40,
     "source": "oeis-entry"

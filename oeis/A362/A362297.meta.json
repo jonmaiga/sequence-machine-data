@@ -1,0 +1,23 @@
+{
+  "description": "Array read by antidiagonals for k,n>=0: T(n,k) = number of tilings of a 2k X n rectangle using dominos and 2 X 2 right triangles.",
+  "id": "A362297",
+  "mentions": [
+    "A006130",
+    "A351322",
+    "A352431",
+    "A352432",
+    "A352433",
+    "A362298",
+    "A362299"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

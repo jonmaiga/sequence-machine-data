@@ -2,16 +2,21 @@
   "description": "Infinitary sociable numbers (smallest member of cycle).",
   "id": "A004607",
   "mentions": [
+    "A001065",
     "A003416",
-    "A063990"
+    "A007357",
+    "A063990",
+    "A126168",
+    "A126169",
+    "A126170",
+    "A361421"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
+    "more",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 1,
     "size": 25,
     "source": "oeis-entry"

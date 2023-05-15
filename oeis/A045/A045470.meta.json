@@ -2,13 +2,11 @@
   "description": "1 / min{1/n - 1/a - 1/b > 0}, where a and b are integers.",
   "id": "A045470",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 1,
     "size": 36,
     "source": "oeis-entry"

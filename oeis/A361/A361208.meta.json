@@ -1,0 +1,25 @@
+{
+  "description": "Number of middle divisors of the n-th number whose divisors increase by a factor of 2 or less.",
+  "id": "A361208",
+  "mentions": [
+    "A067742",
+    "A174973",
+    "A237048",
+    "A237270",
+    "A237593",
+    "A238443",
+    "A281007",
+    "A317305",
+    "A354452"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

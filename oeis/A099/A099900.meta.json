@@ -7,7 +7,6 @@
     "A099901",
     "A099902"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "eigen",
     "formulas",
@@ -15,7 +14,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 59,
     "source": "oeis-entry"

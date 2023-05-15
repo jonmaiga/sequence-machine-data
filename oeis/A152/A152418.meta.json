@@ -1,17 +1,16 @@
 {
-  "description": "A sevens sequence: a(n)=(7^n - 1)/(2^(4 - 3*Mod[n, 2])).",
+  "description": "A sevens sequence: a(n) = (7^n - 1)/(2^(4 - 3*(n mod 2))).",
   "id": "A152418",
   "mentions": [
     "A003462"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:35",
     "offset": 0,
     "size": 21,
     "source": "oeis-bfile"

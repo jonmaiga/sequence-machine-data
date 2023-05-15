@@ -2,13 +2,12 @@
   "description": "Least non-constructible integer after addition or multiplication.",
   "id": "A296261",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
+    "changed",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

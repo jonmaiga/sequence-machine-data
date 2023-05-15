@@ -2,13 +2,11 @@
   "description": "Number of paths in K_6 X P_n joining two different vertices in K_6 from opposite sides.",
   "id": "A145414",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

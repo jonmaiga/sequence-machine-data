@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least number k such that the equation iphi(x) = k has exactly 2*n solutions, or -1 if no such k exists, where iphi is the infinitary totient function A091732.",
+  "id": "A362489",
+  "mentions": [
+    "A007374",
+    "A063507",
+    "A091732",
+    "A361970",
+    "A362186",
+    "A362484",
+    "A362485"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

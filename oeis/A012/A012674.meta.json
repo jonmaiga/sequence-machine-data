@@ -2,12 +2,10 @@
   "description": "sec(tanh(x)*tan(x)) = 1+12/4!*x^4+14672/8!*x^8+120702912/12!*x^12...",
   "id": "A012674",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 18:10:41",
     "offset": 0,
     "size": 9,
     "source": "joeis"

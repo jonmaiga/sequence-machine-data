@@ -2,13 +2,11 @@
   "description": "G.f.: A(x) = x - A(-A(x)^2).",
   "id": "A141366",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:30",
     "offset": 1,
     "size": 30,
     "source": "oeis-bfile"

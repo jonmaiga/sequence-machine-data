@@ -2,14 +2,12 @@
   "description": "Expansion of (1-x^5+x^8+x^10)/(b(4)*b(5)*b(6)) where b(n) = 1-x^n.",
   "id": "A319973",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 09:49:47",
     "offset": 0,
     "size": 73,
     "source": "joeis"

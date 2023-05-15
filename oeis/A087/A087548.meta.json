@@ -2,12 +2,10 @@
   "description": "Beginning with 1, smallest multiple of n such that a(n)*a(n-1) + 1 is a prime.",
   "id": "A087548",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 65,
     "source": "oeis-entry"

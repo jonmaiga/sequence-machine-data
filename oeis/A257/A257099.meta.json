@@ -14,13 +14,11 @@
     "A257100",
     "A257101"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:14",
     "offset": 1,
     "size": 100,
     "source": "oeis-bfile"

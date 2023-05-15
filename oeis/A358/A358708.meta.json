@@ -7,16 +7,15 @@
     "A323454",
     "A323460"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "base",
+    "changed",
     "easy",
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 0,
     "size": 84,
     "source": "oeis-entry"

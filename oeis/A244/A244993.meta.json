@@ -2,7 +2,6 @@
   "description": "Decimal expansion of phi_3(3) = sqrt(3)/(12*Pi^2), an auxiliary constant in the computation of the radial density of a 4-step uniform random walk.",
   "id": "A244993",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "cons",
     "formulas",
@@ -10,7 +9,6 @@
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:01",
     "offset": 0,
     "size": 105,
     "source": "oeis-bfile"

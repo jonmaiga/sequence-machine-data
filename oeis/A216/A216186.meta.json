@@ -2,7 +2,6 @@
   "description": "Decimal expansion of the topological entropy of a two step random Fibonacci substitution.",
   "id": "A216186",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "cons",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

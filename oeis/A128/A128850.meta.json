@@ -1,16 +1,16 @@
 {
-  "description": "Numerator of the continued fraction convergents of the decimal concatenation of prime-indexed primes.",
+  "description": "Numerators of the continued fraction convergents of the decimal concatenation of the prime-indexed primes.",
   "id": "A128850",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:24",
+  "mentions": [
+    "A006450",
+    "A128851"
+  ],
   "tags": [
     "base",
-    "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 32,
     "source": "oeis-entry"

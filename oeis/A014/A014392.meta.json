@@ -2,14 +2,12 @@
   "description": "Final 2 digits of 8^n.",
   "id": "A014392",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 13:39:21",
     "offset": 0,
     "size": 57,
     "source": "joeis"

@@ -1,0 +1,23 @@
+{
+  "description": "If the base-4 expansion of n starts with the digit 1, then replace 2's by 3's and vice versa; if it starts with the digit 2, then replace 1's by 3's and vice versa; if it starts with the digit 3, then replace 1's by 2's and vice versa; a(0) = 0.",
+  "id": "A361946",
+  "mentions": [
+    "A000695",
+    "A048647",
+    "A057300",
+    "A122587",
+    "A163241",
+    "A361945",
+    "A361947"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

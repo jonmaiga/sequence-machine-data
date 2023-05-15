@@ -2,13 +2,11 @@
   "description": "Primes p such that, with q the next prime after p, q > p+2 and q^p == q (mod p+q) and p^q == p (mod p+q).",
   "id": "A340431",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 24,
     "source": "oeis-entry"

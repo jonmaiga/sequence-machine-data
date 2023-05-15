@@ -47,7 +47,6 @@
     "A278984",
     "A331155"
   ],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "core",
     "easy",
@@ -57,7 +56,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:13",
     "offset": 1,
     "size": 66,
     "source": "oeis-bfile"

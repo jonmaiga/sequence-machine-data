@@ -2,12 +2,10 @@
   "description": "Union of all unique coefficients of all powers of the g.f. A(x) of this sequence, starting with A(0)=2 and A'(0)=3.",
   "id": "A262975",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:22",
     "offset": 0,
     "size": 80,
     "source": "oeis-bfile"

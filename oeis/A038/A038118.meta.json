@@ -2,13 +2,11 @@
   "description": "Lexicographically earliest strictly increasing base 9 autovarious sequence: a(n) = number of distinct a(k) mod 9^n (written in base 9).",
   "id": "A038118",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:12",
     "offset": 0,
     "size": 35,
     "source": "joeis"

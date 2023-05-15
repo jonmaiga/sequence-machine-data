@@ -2,13 +2,11 @@
   "description": "Decimal expansion of atomic unit of electric polarizability in C^2 m^2 J^-1.",
   "id": "A254250",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": -40,
     "size": 9,
     "source": "oeis-entry"

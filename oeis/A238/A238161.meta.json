@@ -2,13 +2,11 @@
   "description": "Greatest common divisor of the prime factors of n, each increased by 1",
   "id": "A238161",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 2,
     "size": 99,
     "source": "oeis-entry"

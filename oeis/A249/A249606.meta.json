@@ -2,12 +2,10 @@
   "description": "Primes of the form 2k^2 + k + 2.",
   "id": "A249606",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 11:05:53",
     "offset": 1,
     "size": 39,
     "source": "joeis"

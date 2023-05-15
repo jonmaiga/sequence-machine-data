@@ -2,13 +2,11 @@
   "description": "Numbers n such that n*(n-1)-1 and n*(n+1)+1 are both primes.",
   "id": "A100712",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:51",
     "offset": 1,
     "size": 57,
     "source": "oeis-bfile"

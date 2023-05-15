@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of the conventional value of farad-90 (F_{90}).",
+  "id": "A361352",
+  "mentions": [
+    "A248508",
+    "A248510",
+    "A361006",
+    "A361010",
+    "A361011"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

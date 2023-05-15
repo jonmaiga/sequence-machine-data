@@ -2,14 +2,12 @@
   "description": "a(3*k) = 0, a(3*k+1) = k+1, a(3*k+2) = -k.",
   "id": "A131358",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-26 10:21:33",
     "offset": 0,
     "size": 90,
     "source": "joeis"

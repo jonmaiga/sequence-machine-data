@@ -2,14 +2,12 @@
   "description": "Primes such that the outer 2 digits are n and n-1 and all inner digits are 5, where 0 < n < 9.",
   "id": "A108833",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

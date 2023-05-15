@@ -2,13 +2,11 @@
   "description": "Number of unlabeled and connected graphs on n vertices which are long hole-free (i.e., the graph contains no induced cycle of size 5 or more).",
   "id": "A079455",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

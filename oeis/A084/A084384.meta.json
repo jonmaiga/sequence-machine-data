@@ -2,12 +2,10 @@
   "description": "a(1) = 2; a(n+1) = smallest k > a(n) that is divisible by at most (1/2)*[tau(k)] previous terms.",
   "id": "A084384",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:36",
     "offset": 1,
     "size": 70,
     "source": "oeis-bfile"

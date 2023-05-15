@@ -2,14 +2,12 @@
   "description": "Numbers where 2 is the only even decimal digit.",
   "id": "A098941",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 11:31:21",
     "offset": 1,
     "size": 55,
     "source": "joeis"

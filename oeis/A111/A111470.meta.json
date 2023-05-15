@@ -2,14 +2,12 @@
   "description": "Irregular table read by rows: the n-th row gives all the numbers with the prime signature of n using only prime divisors of n.",
   "id": "A111470",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 67,
     "source": "oeis-entry"

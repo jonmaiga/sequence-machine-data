@@ -2,14 +2,12 @@
   "description": "Number of self-avoiding paths with n steps on a hexagonal lattice in the strip Z X {-1,0,1}.",
   "id": "A100692",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 19:35:05",
     "offset": 0,
     "size": 52,
     "source": "joeis"

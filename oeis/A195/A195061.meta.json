@@ -4,14 +4,12 @@
   "mentions": [
     "A196526"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "easy",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 2,
     "size": 99,
     "source": "oeis-entry"

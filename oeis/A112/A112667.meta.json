@@ -2,13 +2,11 @@
   "description": "a(n+1) is the sum of the units digit of a(n) and the square of the tens digit of a(n).",
   "id": "A112667",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:48:55",
     "offset": 1,
     "size": 102,
     "source": "joeis"

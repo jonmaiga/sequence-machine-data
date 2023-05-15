@@ -2,14 +2,12 @@
   "description": "a(n) is the number of perfect matchings in the circulant graph on 2*n vertices with jumps 1, 2, and 3.",
   "id": "A323709",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:48",
     "offset": 1,
     "size": 32,
     "source": "oeis-bfile"

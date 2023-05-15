@@ -2,12 +2,10 @@
   "description": "a(n) is the number of central quotients of simple compact Lie groups of dimension n",
   "id": "A178176",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 99,
     "source": "oeis-entry"

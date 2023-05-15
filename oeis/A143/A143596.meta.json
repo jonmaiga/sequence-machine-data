@@ -2,14 +2,12 @@
   "description": "A symmetrical triangle sequence of coefficients of a difference polynomial' p(x,n)=((x + 1)^(2*n) - (x^2 + 1)^n)/(2*x).",
   "id": "A143596",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 62,
     "source": "oeis-entry"

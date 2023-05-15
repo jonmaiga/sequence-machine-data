@@ -2,15 +2,12 @@
   "description": "Primes such that the outer 2 digits are n and n-1 and all inner digits are 8, where 0 < n < 9.",
   "id": "A108836",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
-    "changed",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:47",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Langton's ant, symmetrical pattern",
   "id": "A204810",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 23,
     "source": "oeis-entry"

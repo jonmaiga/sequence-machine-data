@@ -2,14 +2,12 @@
   "description": "Expansion of 8 * (eta(q^2) / eta(q)^2)^8 in powers of q.",
   "id": "A105094",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:56",
     "offset": 0,
     "size": 21,
     "source": "oeis-bfile"

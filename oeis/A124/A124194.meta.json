@@ -2,14 +2,12 @@
   "description": "Points that add to make a shape, with each new shape enclosing the old shape. Also the creation of each shape must not copy any former shape's angle/points/length/name/ratios/etc. and the number of points as a whole must be kept to a min. Only 2d shapes are used.",
   "id": "A124194",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn",
     "obsc",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 8,
     "source": "oeis-entry"

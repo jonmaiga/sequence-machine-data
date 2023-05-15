@@ -2,7 +2,6 @@
   "description": "Array read by antidiagonals upwards: T(n,k) (n>=1, k>=1) is the solution to the (n,k) stick problem.",
   "id": "A234951",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nice",
@@ -10,7 +9,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 76,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Numbers n such that 4n-1 and 4n+3 are prime.",
   "id": "A174237",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-09-08 06:56:23",
     "offset": 1,
     "size": 55,
     "source": "joeis"

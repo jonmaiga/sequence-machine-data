@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n! * Sum_{k=0..floor(n/3)} (n/6)^k * binomial(n-2*k,k)/(n-2*k)!.",
+  "id": "A362173",
+  "mentions": [
+    "A277614",
+    "A362043",
+    "A362300",
+    "A362301"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

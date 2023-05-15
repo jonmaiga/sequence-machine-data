@@ -2,13 +2,11 @@
   "description": "Maximum number of entries of the multiplication table mod p realizable additively, where p is the n-th prime.",
   "id": "A226220",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

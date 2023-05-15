@@ -21,13 +21,11 @@
     "A157356",
     "A157358"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:39",
     "offset": 1,
     "size": 26,
     "source": "oeis-bfile"

@@ -2,7 +2,6 @@
   "description": "a(n) = Sum_{i=1..16} (M^n)_{1,i}, where M is a 16 X 16 matrix given in the comments.",
   "id": "A120466",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 13:39:33",
     "offset": 0,
     "size": 16,
     "source": "joeis"

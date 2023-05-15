@@ -2,13 +2,11 @@
   "description": "Lexicographically earliest sequence of distinct terms such that erasing the last digit of a(n+1) and adding the resulting integer to a(n) gives back a(n+1).",
   "id": "A317591",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:36",
     "offset": 1,
     "size": 63,
     "source": "oeis-bfile"

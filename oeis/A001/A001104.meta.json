@@ -2,13 +2,11 @@
   "description": "Numbers n such that n / product of digits of n is a square.",
   "id": "A001104",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 23:39:09",
     "offset": 1,
     "size": 39,
     "source": "joeis"

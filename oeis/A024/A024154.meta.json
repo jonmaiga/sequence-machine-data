@@ -2,12 +2,10 @@
   "description": "Number of integer-sided triangles with sides a,b,c, a",
   "id": "A024154",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:02",
     "offset": 1,
     "size": 89,
     "source": "joeis"

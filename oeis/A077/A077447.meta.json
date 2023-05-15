@@ -1,16 +1,15 @@
 {
-  "description": "Numbers n such that (n^2 - 14)/2 is a square.",
+  "description": "Numbers k such that (k^2 - 14)/2 is a square.",
   "id": "A077447",
   "mentions": [
-    "A006452"
+    "A006452",
+    "A156649"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 02:57:15",
     "offset": 1,
     "size": 28,
     "source": "joeis"

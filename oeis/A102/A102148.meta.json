@@ -2,13 +2,11 @@
   "description": "Numbers k such that 101*k + 11 is prime.",
   "id": "A102148",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 18:48:03",
     "offset": 1,
     "size": 55,
     "source": "joeis"

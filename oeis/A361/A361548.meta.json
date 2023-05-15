@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. exp((x + x^2/2 + x^3/6)/(1-x)).",
+  "id": "A361548",
+  "mentions": [
+    "A361532",
+    "A361557",
+    "A361558"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

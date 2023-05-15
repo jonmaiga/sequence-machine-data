@@ -2,14 +2,12 @@
   "description": "a(n) = 3/2*(n^2 - n + 2).",
   "id": "A290768",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 14:27:23",
     "offset": 1,
     "size": 50,
     "source": "joeis"

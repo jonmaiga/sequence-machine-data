@@ -7,13 +7,11 @@
     "A282763",
     "A282765"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 33,
     "source": "oeis-entry"

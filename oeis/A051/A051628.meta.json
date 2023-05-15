@@ -2,7 +2,6 @@
   "description": "Number of digits in decimal expansion of 1/n before the periodic part begins.",
   "id": "A051628",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "easy",
@@ -11,7 +10,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:57:23",
     "offset": 1,
     "size": 105,
     "source": "joeis"

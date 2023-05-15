@@ -2,14 +2,12 @@
   "description": "a(n) = (n+1)*(n^3+15*n^2+74*n+132)/12.",
   "id": "A217947",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 18:17:33",
     "offset": 0,
     "size": 41,
     "source": "joeis"

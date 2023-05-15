@@ -1,13 +1,15 @@
 {
-  "description": "a(n) = ((prime(n))^2 + prime(n+1))/2.",
+  "description": "a(n) = (prime(n)^2 + prime(n+1))/2.",
   "id": "A140511",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:25",
+  "mentions": [
+    "A000040",
+    "A001248"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:28",
     "offset": 2,
     "size": 44,
     "source": "oeis-bfile"

@@ -10,16 +10,15 @@
     "A055491",
     "A066086",
     "A173557",
-    "A322359"
+    "A322359",
+    "A351265"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "formulas",
     "mult",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:45",
     "offset": 1,
     "size": 66,
     "source": "oeis-bfile"

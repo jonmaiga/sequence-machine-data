@@ -1,0 +1,18 @@
+{
+  "description": "Number of cusps in Weierstrass curve with discriminant A079896(n) in moduli space M_2 of compact Riemann surfaces of genus 2.",
+  "id": "A361159",
+  "mentions": [
+    "A079896",
+    "A361157",
+    "A361158"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

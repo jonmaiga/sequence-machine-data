@@ -3,19 +3,18 @@
   "id": "A000321",
   "mentions": [
     "A000186",
+    "A047974",
     "A062267",
     "A067994",
     "A144141",
     "A293604"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:02",
     "offset": 0,
     "size": 27,
     "source": "oeis-bfile"

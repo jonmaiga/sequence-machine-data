@@ -2,12 +2,10 @@
   "description": "G.f.: A(x) = 1 + x*[A_2(x)]^2, where A_2(x) = 2 + x*[A_3(x)]^2, A_3(x) = 3 + x*[A_4(x)]^2, ..., A_n(x) = n + x*[A_{n+1}(x)]^2, ...",
   "id": "A135906",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 17,
     "source": "oeis-entry"

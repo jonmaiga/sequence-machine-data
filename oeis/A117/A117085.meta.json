@@ -7,7 +7,6 @@
     "A117067",
     "A117068"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
@@ -15,7 +14,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

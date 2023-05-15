@@ -1,0 +1,17 @@
+{
+  "description": "Number of nonisomorphic multisets of derangements of an n-set with n derangements.",
+  "id": "A362762",
+  "mentions": [
+    "A362647",
+    "A362759"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,12 +2,10 @@
   "description": "[ 4th elementary symmetric function of {sqrt(k)} ], k = 1,2,...,n.",
   "id": "A025195",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 4,
     "size": 30,
     "source": "oeis-entry"

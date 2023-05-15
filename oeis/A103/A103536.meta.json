@@ -1,17 +1,14 @@
 {
-  "description": "Number of nets in a regular pyramid.",
+  "description": "Number of geometrically distinct edge-unfoldings of a regular n-gonal pyramid.",
   "id": "A103536",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
-    "hard",
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 3,
-    "size": 19,
+    "size": 33,
     "source": "oeis-entry"
   }
 }

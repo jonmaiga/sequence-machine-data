@@ -2,13 +2,11 @@
   "description": "a(n) = det M_n where M_n is the n X n matrix m(i,j) = prime(i+j); a(0) = 1 by convention.",
   "id": "A071543",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 23,
     "source": "oeis-entry"

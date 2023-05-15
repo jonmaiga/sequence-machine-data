@@ -7,14 +7,12 @@
     "A247041",
     "A261805"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 104,
     "source": "oeis-entry"

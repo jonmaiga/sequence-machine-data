@@ -2,12 +2,10 @@
   "description": "Number of non-separable rooted triangulations (with n vertices) in which any vertex has degree at least 4.",
   "id": "A105668",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 6,
     "size": 15,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "n^5 mod 49.",
   "id": "A167527",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:43:31",
     "offset": 0,
     "size": 76,
     "source": "joeis"

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = a(1)*a(n-1) + a(2)*a(n-2) + ... + a(n-5)*a(5) for n >= 6, with a(1)=0 and a(2)=a(3)=a(4)=a(5)=1.",
+  "id": "A361313",
+  "mentions": [
+    "A025250"
+  ],
+  "tags": [
+    "eigen",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

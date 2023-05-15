@@ -2,13 +2,11 @@
   "description": "Odd powers of 2 and 9 times odd powers of 2, sorted.",
   "id": "A190787",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 17:46:28",
     "offset": 1,
     "size": 37,
     "source": "joeis"

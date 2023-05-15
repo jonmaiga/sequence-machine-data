@@ -2,13 +2,10 @@
   "description": "a(n) = floor( exp(7/10)*n! ).",
   "id": "A030949",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 08:41:04",
     "offset": 1,
     "size": 20,
     "source": "joeis"

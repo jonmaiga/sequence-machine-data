@@ -23,16 +23,16 @@
     "A139280",
     "A139281",
     "A139282",
-    "A226488"
+    "A226488",
+    "A361397"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
-    "nonn"
+    "nonn",
+    "walk"
   ],
   "terms": {
-    "modified": "2022-04-27 15:50:29",
     "offset": 0,
     "size": 41,
     "source": "joeis"

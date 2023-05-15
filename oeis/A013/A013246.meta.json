@@ -2,12 +2,10 @@
   "description": "E.g.f.: sin(log(x+1)-arctan(x)) = -1/2!*x^2+4/3!*x^3-6/4!*x^4-105/6!*x^6...",
   "id": "A013246",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-02 16:18:02",
     "offset": 0,
     "size": 21,
     "source": "joeis"

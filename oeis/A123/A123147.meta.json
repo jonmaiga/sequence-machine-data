@@ -2,7 +2,6 @@
   "description": "Multinomial based triangular function base on the sum of squares: out[n]=4*(n+2)!*(n*(n + 1)*(2*n + 1)/6)!/(4*(m^2)!*Abs[2 + 2*m^2 - (n*(n + 1)*(2*n + 1)/6)]!).",
   "id": "A123147",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"

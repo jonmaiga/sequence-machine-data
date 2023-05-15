@@ -2,13 +2,11 @@
   "description": "Expansion of a parametrization of x^2 - y + y^2 = 0 at x = y = 0.",
   "id": "A104749",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 25,
     "source": "oeis-entry"

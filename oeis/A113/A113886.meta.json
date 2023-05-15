@@ -2,7 +2,6 @@
   "description": "Finite recursive sequence with a(n) = a(a(n-2)) + a(n-a(n-1)).",
   "id": "A113886",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "fini",
@@ -11,7 +10,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 59,
     "source": "oeis-entry"

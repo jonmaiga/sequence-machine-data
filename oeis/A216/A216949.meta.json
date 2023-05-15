@@ -2,13 +2,11 @@
   "description": "G.f.: (1-6*x+7*x^2)/(1-7*x+11*x^2-x^3).",
   "id": "A216949",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:34",
     "offset": 0,
     "size": 26,
     "source": "oeis-bfile"

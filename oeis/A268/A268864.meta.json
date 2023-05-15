@@ -2,13 +2,11 @@
   "description": "Number of integers of the form n*k whose digits sum up to n where 0 <= k <= n^2.",
   "id": "A268864",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 0,
     "size": 82,
     "source": "oeis-entry"

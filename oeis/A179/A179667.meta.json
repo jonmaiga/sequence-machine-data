@@ -2,12 +2,10 @@
   "description": "Products of the 5th power of a prime and 2 distinct primes (p^5*q*r).",
   "id": "A179667",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:02",
     "offset": 1,
     "size": 42,
     "source": "oeis-bfile"

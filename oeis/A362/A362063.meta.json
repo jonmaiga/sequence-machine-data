@@ -1,0 +1,17 @@
+{
+  "description": "Number of 2-balanced binary words of length n with respect to the permutations of the symbols.",
+  "id": "A362063",
+  "mentions": [
+    "A005598",
+    "A274005"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

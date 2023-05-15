@@ -2,13 +2,11 @@
   "description": "Floor(W(n)) where W is the Lambert W function.",
   "id": "A225541",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:43",
     "offset": 0,
     "size": 87,
     "source": "oeis-bfile"

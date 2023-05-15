@@ -2,14 +2,12 @@
   "description": "New approximation of PrimePi based on x/(log[x]-1) and Integrate[x/Log[x],{x,2,n}] starting at n=10.",
   "id": "A108186",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 10,
     "size": 73,
     "source": "oeis-entry"

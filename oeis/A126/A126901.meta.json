@@ -2,13 +2,11 @@
   "description": "Coordination sequence for 8-dimensional cyclotomic lattice Z[zeta_20].",
   "id": "A126901",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 17:40:17",
     "offset": 0,
     "size": 28,
     "source": "joeis"

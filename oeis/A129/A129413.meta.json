@@ -2,13 +2,11 @@
   "description": "The smallest value of a magic sum among all edge-magic injections of the complete graph K_n on n vertices.",
   "id": "A129413",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

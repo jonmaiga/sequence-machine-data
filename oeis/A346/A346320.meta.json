@@ -4,14 +4,12 @@
   "mentions": [
     "A344855"
   ],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:20",
     "offset": 5,
     "size": 20,
     "source": "oeis-bfile"

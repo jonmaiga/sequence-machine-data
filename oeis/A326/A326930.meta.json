@@ -2,13 +2,11 @@
   "description": "Height of the smallest stack in a block-stacking sequence.",
   "id": "A326930",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 72,
     "source": "oeis-entry"

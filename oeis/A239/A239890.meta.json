@@ -2,13 +2,11 @@
   "description": "Number of terms in consolidated series for normal reflectance of a three-layer thin film system of path length n.",
   "id": "A239890",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 0,
     "size": 16,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Numbers n such that string 4,3 occurs in the base 6 representation of n but not of n-1.",
   "id": "A044129",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:22:17",
     "offset": 1,
     "size": 44,
     "source": "joeis"

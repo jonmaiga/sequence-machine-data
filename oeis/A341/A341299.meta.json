@@ -2,13 +2,11 @@
   "description": "a(n) = least integer m such that at least half of all permutations of length m contain subsequences order isomorphic to every permutation of length n.",
   "id": "A341299",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

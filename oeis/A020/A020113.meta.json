@@ -2,13 +2,11 @@
   "description": "a(n) = ceiling of Gamma(n + 2/9)/Gamma(2/9).",
   "id": "A020113",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 02:47:09",
     "offset": 0,
     "size": 24,
     "source": "joeis"

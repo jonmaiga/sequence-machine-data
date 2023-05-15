@@ -4,14 +4,12 @@
   "mentions": [
     "A086111"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 83,
     "source": "oeis-entry"

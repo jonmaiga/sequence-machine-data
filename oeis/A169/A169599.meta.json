@@ -2,14 +2,12 @@
   "description": "Numbers that are congruent to {4, 23} mod 29.",
   "id": "A169599",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:47:11",
     "offset": 1,
     "size": 57,
     "source": "joeis"

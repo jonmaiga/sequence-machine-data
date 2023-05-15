@@ -2,13 +2,11 @@
   "description": "The number of 3D configurations of a labeled size 2*n \"wurfel\". A wurfel consists of a series of cubes held together on a looped string such that the string makes a right angle inside each cube. Ignoring the labels would make a wurfel a special kind of polycube in which the cubes can be cyclically ordered at consecutive right angles (equivalently, avoiding 3 consecutive collinear cubes).",
   "id": "A117613",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 16,
     "source": "oeis-entry"

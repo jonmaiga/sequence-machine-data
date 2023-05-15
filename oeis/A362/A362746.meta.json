@@ -1,0 +1,20 @@
+{
+  "description": "a(1)=a(2)=1; a(n)=The count of all occurrences in the list so far where integer a(n-1) appears adjacent to integer a(n-2).",
+  "id": "A362746",
+  "mentions": [
+    "A342585",
+    "A355271",
+    "A362890"
+  ],
+  "tags": [
+    "easy",
+    "look",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

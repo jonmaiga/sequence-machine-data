@@ -2,13 +2,11 @@
   "description": "T(n,k)=Maximum number of 1s in an nXk binary matrix with no four 1s adjacent in a line along a row, column or diagonally.",
   "id": "A181024",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:04",
     "offset": 1,
     "size": 83,
     "source": "oeis-bfile"

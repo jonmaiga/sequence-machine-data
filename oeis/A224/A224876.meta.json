@@ -5,13 +5,11 @@
     "A001334",
     "A125852"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn",
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:42",
     "offset": 1,
     "size": 86,
     "source": "oeis-bfile"

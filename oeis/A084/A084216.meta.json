@@ -2,12 +2,10 @@
   "description": "a(n) = smallest integer d such that a quadratic representation (2n+1)= x^2+ d*y^2 exists (x,y positive integers).",
   "id": "A084216",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 98,
     "source": "oeis-entry"

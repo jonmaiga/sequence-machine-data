@@ -7,14 +7,12 @@
     "A046747",
     "A094000"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "formulas",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 16:43:58",
     "offset": 2,
     "size": 14,
     "source": "joeis"

@@ -1,0 +1,18 @@
+{
+  "description": "Index where A362105(n) first appears in the Sisyphus sequence A350877.",
+  "id": "A362106",
+  "mentions": [
+    "A350620",
+    "A350877",
+    "A362105"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

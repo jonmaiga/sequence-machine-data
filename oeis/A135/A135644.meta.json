@@ -2,13 +2,11 @@
   "description": "Expansion of reciprocal polynomial of (-1-x^5+x^6)^4 * (-1-2*x^5+x^6)*(-9-34*x^5+x^6).",
   "id": "A135644",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:23",
     "offset": 1,
     "size": 16,
     "source": "oeis-bfile"

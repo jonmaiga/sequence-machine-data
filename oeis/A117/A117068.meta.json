@@ -2,7 +2,6 @@
   "description": "Decimal value of binary number whose n-th 1 is followed by n^2 0's.",
   "id": "A117068",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

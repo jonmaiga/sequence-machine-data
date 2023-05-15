@@ -6,16 +6,12 @@
     "A292672",
     "A292679"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
-    "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 1,
-    "size": 8,
+    "size": 50,
     "source": "oeis-entry"
   }
 }

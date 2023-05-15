@@ -2,12 +2,10 @@
   "description": "Numbers of the form p^4*q^3*r where p, q, and r are distinct primes.",
   "id": "A179698",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:02",
     "offset": 1,
     "size": 35,
     "source": "oeis-bfile"

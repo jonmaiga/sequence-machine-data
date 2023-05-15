@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of length n+6 0..k arrays with every seven consecutive terms having six times some element equal to the sum of the remaining six",
   "id": "A249359",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:05",
     "offset": 1,
     "size": 45,
     "source": "oeis-bfile"

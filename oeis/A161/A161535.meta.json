@@ -2,13 +2,11 @@
   "description": "Array read by antidiagonals: Row n contains the positive multiples of the first n primes.",
   "id": "A161535",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 95,
     "source": "oeis-entry"

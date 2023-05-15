@@ -2,7 +2,6 @@
   "description": "Triangle read by rows: T(0,0) = 1; T(n,k) = T(n-1,k) - 2*T(n-1,k-2) + T(n-1,k-3) for k = 0..3n; T(n,k)=0 for n or k < 0.",
   "id": "A318686",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 0,
     "size": 92,
     "source": "oeis-entry"

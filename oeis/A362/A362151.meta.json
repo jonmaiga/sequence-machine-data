@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of exp(zeta(2)/exp(gamma)) where gamma is the Euler-Mascheroni constant A001620.",
+  "id": "A362151",
+  "mentions": [
+    "A001620",
+    "A013661",
+    "A072997",
+    "A360895"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 115,
+    "source": "joeis"
+  }
+}

@@ -2,13 +2,11 @@
   "description": "Some nontrivial permutation of digits is a factorial number.",
   "id": "A007927",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 21:33:34",
     "offset": 1,
     "size": 43,
     "source": "joeis"

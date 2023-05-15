@@ -2,13 +2,11 @@
   "description": "a(0), ..., a(7) are 0,1,2,3,6,4,5,7; for n >= 8, a(n) = a(n-8) + 8.",
   "id": "A132368",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:49:47",
     "offset": 0,
     "size": 73,
     "source": "joeis"

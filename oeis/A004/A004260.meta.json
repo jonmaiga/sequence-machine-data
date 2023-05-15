@@ -2,12 +2,10 @@
   "description": "a(n) = round(10*log_2(n)).",
   "id": "A004260",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 12:30:37",
     "offset": 1,
     "size": 55,
     "source": "joeis"

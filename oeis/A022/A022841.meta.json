@@ -2,14 +2,12 @@
   "description": "Beatty sequence for sqrt(7).",
   "id": "A022841",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:30",
     "offset": 1,
     "size": 59,
     "source": "oeis-bfile"

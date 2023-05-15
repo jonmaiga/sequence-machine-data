@@ -8,7 +8,6 @@
     "A074596",
     "A075135"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "frac",
@@ -16,7 +15,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:59",
     "offset": 0,
     "size": 20,
     "source": "oeis-bfile"

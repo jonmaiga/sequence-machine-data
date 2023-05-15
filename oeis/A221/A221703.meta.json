@@ -2,13 +2,11 @@
   "description": "Let K be a local ring with a principal maximal ideal J of nilpotent degree 3 with |K/J|>2; a(n) = number of D-invariant ideals in the ring R_n(K,J).",
   "id": "A221703",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:39",
     "offset": 2,
     "size": 27,
     "source": "oeis-bfile"

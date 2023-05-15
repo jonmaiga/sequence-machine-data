@@ -2,13 +2,11 @@
   "description": "Numbers of intervals for the pruning-grafting lattices of size n.",
   "id": "A152093",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

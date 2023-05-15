@@ -2,14 +2,12 @@
   "description": "Expansion of (1-2*x)/(1-4*x-2*x^2+4*x^3).",
   "id": "A052978",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:01",
     "offset": 0,
     "size": 25,
     "source": "oeis-bfile"

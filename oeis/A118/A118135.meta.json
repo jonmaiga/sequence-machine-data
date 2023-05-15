@@ -2,13 +2,11 @@
   "description": "a(n) = 1 if the permutation of decimal digits of n and/or one of decimal digits of n gives a prime and a perfect power, otherwise a(n) = 0.",
   "id": "A118135",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 104,
     "source": "oeis-entry"

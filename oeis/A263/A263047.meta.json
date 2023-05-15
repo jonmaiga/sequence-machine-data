@@ -2,12 +2,10 @@
   "description": "a(1)=0, a(2)=1, a(3)=2; for n>3, a(n) = a(n-3)*a(n-1) - a(n-2).",
   "id": "A263047",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"

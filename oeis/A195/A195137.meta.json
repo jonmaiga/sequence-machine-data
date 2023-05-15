@@ -2,12 +2,10 @@
   "description": "Primes of the form abs(2^n - prime(n)^2).",
   "id": "A195137",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

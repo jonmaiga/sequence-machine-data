@@ -2,12 +2,10 @@
   "description": "(7*n^3+4*n^2+4*n)*binomial(2*n,n)/30.",
   "id": "A036973",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 21:06:23",
     "offset": 0,
     "size": 22,
     "source": "joeis"

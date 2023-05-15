@@ -2,13 +2,11 @@
   "description": "a(n) = smallest number which has in its Spanish name the letter \"c\" in the n-th position",
   "id": "A164801",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 27,
     "source": "oeis-entry"

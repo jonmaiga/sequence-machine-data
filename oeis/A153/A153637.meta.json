@@ -2,7 +2,6 @@
   "description": "A triangular sequence with row sums (3^(n - 1)*(n + 1)!) starting at n=1 which was calculated by steps.",
   "id": "A153637",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 41,
     "source": "oeis-entry"

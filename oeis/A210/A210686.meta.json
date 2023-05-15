@@ -1,13 +1,13 @@
 {
   "description": "Primes p = 1 mod 6 such that all three iterations p=(6p+1) give primes = 1 mod 6.",
   "id": "A210686",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:29",
+  "mentions": [
+    "A002476"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:29",
     "offset": 1,
     "size": 37,
     "source": "oeis-bfile"

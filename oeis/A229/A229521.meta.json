@@ -2,14 +2,12 @@
   "description": "T(n,k) = number of n X k 0..2 arrays of the median of the corresponding element, the element to the east and the element to the south in a larger (n+1) X (k+1) 0..2 array without adjacent equal elements in the latter.",
   "id": "A229521",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:46",
     "offset": 1,
     "size": 43,
     "source": "oeis-bfile"

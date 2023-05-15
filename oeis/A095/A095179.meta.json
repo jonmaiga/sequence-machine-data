@@ -8,16 +8,15 @@
     "A097312",
     "A204232"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
+    "changed",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

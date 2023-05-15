@@ -2,13 +2,11 @@
   "description": "E.g.f. satisfies: A(x) = 1 + Integral A(x) + A(x)^2*log(A(x)) dx.",
   "id": "A249833",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:06",
     "offset": 0,
     "size": 23,
     "source": "oeis-bfile"

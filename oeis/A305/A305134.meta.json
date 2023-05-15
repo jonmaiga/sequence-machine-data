@@ -5,13 +5,11 @@
     "A301436",
     "A304640"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:29",
     "offset": 0,
     "size": 16,
     "source": "oeis-bfile"

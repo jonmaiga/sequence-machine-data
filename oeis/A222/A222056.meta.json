@@ -6,14 +6,12 @@
     "A082293",
     "A085548"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "cons",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 0,
     "size": 102,
     "source": "oeis-entry"

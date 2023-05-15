@@ -6,13 +6,11 @@
     "A043290",
     "A135518"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:55",
     "offset": 1,
     "size": 90,
     "source": "oeis-bfile"

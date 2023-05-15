@@ -2,12 +2,10 @@
   "description": "a(n) = n!/(m*(n-m)) with m = floor(n/2).",
   "id": "A277876",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:43",
     "offset": 2,
     "size": 22,
     "source": "oeis-bfile"

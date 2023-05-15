@@ -2,13 +2,11 @@
   "description": "Number of power series 1 + c_1*x^1 + c_2*x^2 + ... + c_{n-1}*x^{n-1} + O(x^n) with c_k in {-1, 0, 1} whose reciprocal has the same property.",
   "id": "A244629",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 19,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "List of pairs of primes in reverse order, starting at 1.",
   "id": "A007796",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 12:46:43",
     "offset": 1,
     "size": 25,
     "source": "joeis"

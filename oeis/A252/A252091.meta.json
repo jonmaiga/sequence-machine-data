@@ -2,13 +2,11 @@
   "description": "Primes p such that p + 34 is prime.",
   "id": "A252091",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:09",
     "offset": 1,
     "size": 53,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Expansion of e.g.f. exp(sin(x)+2*sin(x)^2).",
   "id": "A189421",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:13",
     "offset": 0,
     "size": 24,
     "source": "oeis-bfile"

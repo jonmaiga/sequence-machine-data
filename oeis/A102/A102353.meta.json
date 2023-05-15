@@ -2,14 +2,12 @@
   "description": "a(n) is the n-th digit of the sequence multiplied by 17. This is the first such sequence showing every digit from 0 to 9.",
   "id": "A102353",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 63,
     "source": "oeis-entry"

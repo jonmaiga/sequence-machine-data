@@ -2,12 +2,10 @@
   "description": "Highest minimal norm for an (even or odd) 2-modular lattice in dimension n.",
   "id": "A029550",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 0,
     "size": 9,
     "source": "oeis-entry"

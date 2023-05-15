@@ -12,7 +12,6 @@
     "A047665",
     "A048776"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "formulas",
@@ -21,7 +20,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2022-04-26 11:21:55",
     "offset": 1,
     "size": 60,
     "source": "joeis"

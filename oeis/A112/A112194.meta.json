@@ -2,13 +2,11 @@
   "description": "McKay-Thompson series of class 54c for the Monster group.",
   "id": "A112194",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:34:17",
     "offset": 0,
     "size": 56,
     "source": "joeis"

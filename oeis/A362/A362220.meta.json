@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of smallest positive root of x = tan(tan(x)).",
+  "id": "A362220",
+  "mentions": [
+    "A115365",
+    "A362219"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 103,
+    "source": "joeis"
+  }
+}

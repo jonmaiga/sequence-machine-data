@@ -2,13 +2,11 @@
   "description": "Powers of 3 written in base 12. (Next term contains a non-decimal character).",
   "id": "A004666",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 0,
     "size": 9,
     "source": "oeis-entry"

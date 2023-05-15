@@ -2,12 +2,10 @@
   "description": "Primes p such that all p-k^2 for p/2 < k^2 < p are composite.",
   "id": "A074856",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 52,
     "source": "oeis-entry"

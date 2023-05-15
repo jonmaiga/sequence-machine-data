@@ -2,13 +2,11 @@
   "description": "Smallest multiple of n whose factorial digit sum equals n.",
   "id": "A191895",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 42,
     "source": "oeis-entry"

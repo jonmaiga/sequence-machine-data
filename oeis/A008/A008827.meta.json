@@ -1,19 +1,18 @@
 {
-  "description": "Coefficients from fractional iteration of exp(x) -1.",
+  "description": "Number of proper partitions of a set of n labeled elements.",
   "id": "A008827",
   "mentions": [
     "A000110",
     "A002824",
     "A008826"
   ],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:15",
-    "offset": 3,
-    "size": 23,
+    "offset": 2,
+    "size": 24,
     "source": "oeis-bfile"
   }
 }

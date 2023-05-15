@@ -2,13 +2,11 @@
   "description": "Minimal number of shift, add and subtract operations to multiply by n.",
   "id": "A008342",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:14",
     "offset": 1,
     "size": 99,
     "source": "oeis-bfile"

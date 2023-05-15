@@ -2,12 +2,10 @@
   "description": "Det(M) where M is an n X n matrix with M[i,j]=Floor[Log(i+j)]",
   "id": "A176192",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 99,
     "source": "oeis-entry"

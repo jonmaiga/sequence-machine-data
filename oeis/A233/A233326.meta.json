@@ -2,14 +2,12 @@
   "description": "a(n) = (7^(n+1) - 4) / 3.",
   "id": "A233326",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:51",
     "offset": 0,
     "size": 21,
     "source": "oeis-bfile"

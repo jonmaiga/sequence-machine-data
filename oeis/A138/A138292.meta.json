@@ -2,13 +2,11 @@
   "description": "E.g.f. satisfies: A(x) = exp(x*A(x^2)).",
   "id": "A138292",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:26",
     "offset": 0,
     "size": 20,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "G.f.: exp( Sum_{n>=1} (2*sigma(n^2) - sigma(n)^2 - sigma(n,2))/2 * x^n/n ).",
   "id": "A217334",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:35",
     "offset": 0,
     "size": 64,
     "source": "oeis-bfile"

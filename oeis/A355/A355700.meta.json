@@ -2,14 +2,12 @@
   "description": "Triangle T(n,k), n > 2, 1 < k < n, read by rows, where T(n,k) is in base n, the smallest prime consisting of digits d from a set of k nonzero consecutive digits, d times each, or -1 if no such number exists.",
   "id": "A355700",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "base",
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 3,
     "size": 36,
     "source": "oeis-entry"

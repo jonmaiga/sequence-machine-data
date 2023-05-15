@@ -2,12 +2,10 @@
   "description": "a(1)=1 then a(n)=(-1)*sum(k=1,n-1,(-1)^a(k)*floor(n/k))",
   "id": "A167754",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 75,
     "source": "oeis-entry"

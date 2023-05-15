@@ -2,16 +2,30 @@
   "description": "Half the number of ways of placing up to n pawns on a length n chessboard row so that the row balances at its middle.",
   "id": "A133406",
   "mentions": [
+    "A000975",
+    "A000980",
+    "A002838",
+    "A007318",
+    "A024718",
     "A047653",
+    "A047997",
+    "A051293",
+    "A057552",
+    "A070925",
+    "A079309",
     "A133413",
-    "A133414"
+    "A133414",
+    "A212352",
+    "A327475",
+    "A327481",
+    "A361801",
+    "A362046"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:21",
     "offset": 1,
     "size": 37,
     "source": "oeis-bfile"

@@ -6,14 +6,12 @@
     "A154749",
     "A154750"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "cofr",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:36",
     "offset": 0,
     "size": 86,
     "source": "oeis-bfile"

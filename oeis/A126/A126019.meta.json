@@ -2,13 +2,11 @@
   "description": "a(0)=1, a(1)=2; for n>1, a(n)=3*a(n-1)+4*a(n-2)+5.",
   "id": "A126019",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 17:16:10",
     "offset": 0,
     "size": 24,
     "source": "joeis"

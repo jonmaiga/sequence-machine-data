@@ -2,13 +2,11 @@
   "description": "Least number beginning with n such that every partial sum is a prime.",
   "id": "A095157",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:46",
     "offset": 1,
     "size": 54,
     "source": "oeis-bfile"

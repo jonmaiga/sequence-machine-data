@@ -1,5 +1,5 @@
 {
-  "description": "Lexicographically earliest infinite sequence of distinct terms such that, for any prime p, any run of consecutive multiples of p has length exactly 2.",
+  "description": "Lexicographically earliest infinite sequence of distinct positive terms such that, for any prime p, any run of consecutive multiples of p has length exactly 2.",
   "id": "A280864",
   "mentions": [
     "A064413",
@@ -30,13 +30,11 @@
     "A338338",
     "A338444"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:49",
     "offset": 1,
     "size": 67,
     "source": "oeis-bfile"

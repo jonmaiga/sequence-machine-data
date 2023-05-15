@@ -2,13 +2,11 @@
   "description": "Expansion of e.g.f. exp(sin(x)-sin(x)^2).",
   "id": "A189422",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-09-08 06:56:23",
     "offset": 0,
     "size": 21,
     "source": "joeis"

@@ -1,0 +1,19 @@
+{
+  "description": "For any number k >= 0, let T_k be the triangle whose base corresponds to the ternary expansion of k (without leading zeros) and other values, say t above u and v, satisfy t = (-u-v) mod 3; this sequence lists the numbers k such that the configurations of 0's, 1's and 2's in T_k are the same up to rotation.",
+  "id": "A361827",
+  "mentions": [
+    "A004488",
+    "A007494",
+    "A297250",
+    "A361818"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -2,14 +2,12 @@
   "description": "Values of the prime-generating polynomial 4*n^2 - 284*n + 3449.",
   "id": "A210626",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-26 09:19:59",
     "offset": 0,
     "size": 42,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "Triangle, read by rows, where T(0,0) = 1, T(n,k) = (-1)^n*(2n+1)*T(n-1,k) - T(n-1,k-1).",
   "id": "A108083",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2022-05-03 12:24:59",
     "offset": 0,
     "size": 49,
     "source": "joeis"

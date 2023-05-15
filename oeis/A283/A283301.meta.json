@@ -5,7 +5,6 @@
     "A046988",
     "A046989"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "frac",
@@ -13,7 +12,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 03:06:30",
     "offset": 0,
     "size": 23,
     "source": "joeis"

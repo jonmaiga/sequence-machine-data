@@ -2,13 +2,11 @@
   "description": "p and q are primes. p^x - q^y = 2^h. ( p != q, h=>0, x>1, y>1 ) : sequence gives p^x arranged in increasing order.",
   "id": "A068583",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 0,
     "size": 6,
     "source": "oeis-entry"

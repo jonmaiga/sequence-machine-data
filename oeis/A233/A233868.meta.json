@@ -8,7 +8,6 @@
     "A083420",
     "A175611"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "base",
     "easy",
@@ -16,7 +15,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 14:23:45",
     "offset": 1,
     "size": 25,
     "source": "joeis"

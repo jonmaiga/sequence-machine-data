@@ -2,13 +2,11 @@
   "description": "Sum of all n-digit multiples of n.",
   "id": "A109941",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 15,
     "source": "oeis-entry"

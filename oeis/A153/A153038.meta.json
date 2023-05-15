@@ -2,7 +2,6 @@
   "description": "Denominators of the fixed point a=(a_1,a_2,...) of the transformation x'= fix(x) where fix(x)_n = Sum_{d|n} d x_d, i.e., fix(a)=a.",
   "id": "A153038",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "eigen",
@@ -12,7 +11,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:35",
     "offset": 1,
     "size": 74,
     "source": "oeis-bfile"

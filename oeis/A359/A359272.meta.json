@@ -2,13 +2,11 @@
   "description": "Array read by downward antidiagonals: for m >= 3 and n >= 1, T(m,n) is the first prime that starts a string of exactly n consecutive primes that are congruent (mod m).",
   "id": "A359272",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 3,
     "size": 57,
     "source": "oeis-entry"

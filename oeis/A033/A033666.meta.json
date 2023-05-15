@@ -2,13 +2,11 @@
   "description": "Base-2 digital convolution sequence (with smallest digits).",
   "id": "A033666",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:43",
     "offset": 0,
     "size": 102,
     "source": "oeis-bfile"

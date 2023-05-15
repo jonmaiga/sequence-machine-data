@@ -2,14 +2,12 @@
   "description": "Triangular array read by rows: T(n,k) (2 <= k <= n) is the smallest number whose representations in bases n and k both consist of repeated identical blocks of digits.",
   "id": "A317168",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "base",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:36",
     "offset": 2,
     "size": 36,
     "source": "oeis-bfile"

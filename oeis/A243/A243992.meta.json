@@ -2,13 +2,11 @@
   "description": "The sequence can be seen as a succession of digit-chunks ending in \"1\". The digit-size of each chunk is given by the sequence itself. No term is repeated. This is the lexically first sequence with the property.",
   "id": "A243992",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 53,
     "source": "oeis-entry"

@@ -9,12 +9,10 @@
     "A160832",
     "A194087"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:54",
     "offset": 0,
     "size": 92,
     "source": "oeis-bfile"

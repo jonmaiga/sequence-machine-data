@@ -2,15 +2,14 @@
   "description": "-1 before list of quadruples -2n-1, 2n+2, -2n, 2n+1.",
   "id": "A134405",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
+    "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 62,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

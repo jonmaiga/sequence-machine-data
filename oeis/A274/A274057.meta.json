@@ -2,12 +2,10 @@
   "description": "Even numbers n that cannot be written as the difference of two primes, each of which is one of a pair of twin primes, and one of which is < n.",
   "id": "A274057",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 22,
     "source": "oeis-entry"

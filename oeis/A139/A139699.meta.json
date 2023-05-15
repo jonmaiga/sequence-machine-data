@@ -2,14 +2,12 @@
   "description": "Positive integers x,y such that prime(x)*prime(x+y) = y^2 + 1, ordered by increasing x+y.",
   "id": "A139699",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "more",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

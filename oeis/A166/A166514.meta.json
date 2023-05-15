@@ -2,14 +2,12 @@
   "description": "Zig-zag function for first two columns of a matrix (take numbers in consecutive pairs).",
   "id": "A166514",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:40:29",
     "offset": 0,
     "size": 88,
     "source": "joeis"

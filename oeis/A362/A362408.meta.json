@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = [x^n] (F(x)/F(-x))^n where F(x) = (1 + x)*(1 + x^3).",
+  "id": "A362408",
+  "mentions": [
+    "A002003",
+    "A228960",
+    "A333579"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -6,14 +6,13 @@
     "A050398",
     "A357588"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
+    "changed",
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 12:27:44",
     "offset": 1,
     "size": 23,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

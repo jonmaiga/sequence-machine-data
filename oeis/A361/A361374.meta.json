@@ -1,0 +1,19 @@
+{
+  "description": "Make a square spiral starting with a(1)=1, a(2)=2. Then, each position gets the smallest unused number which is the sum of a path of numbers starting from that position.",
+  "id": "A361374",
+  "mentions": [
+    "A141481",
+    "A174344",
+    "A274923",
+    "A334742"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

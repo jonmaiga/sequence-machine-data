@@ -2,13 +2,11 @@
   "description": "Number of deltahedra with 2*n faces.",
   "id": "A360513",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 2,
     "size": 6,
     "source": "oeis-entry"

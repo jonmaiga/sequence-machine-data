@@ -2,13 +2,11 @@
   "description": "Numbers m with property that rotating digits of m right gives k*m + 1 for some k >= 1.",
   "id": "A034180",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:44",
     "offset": 1,
     "size": 19,
     "source": "oeis-bfile"

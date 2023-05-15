@@ -22,14 +22,12 @@
     "A270201",
     "A270202"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "look",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:28",
     "offset": 1,
     "size": 77,
     "source": "oeis-bfile"

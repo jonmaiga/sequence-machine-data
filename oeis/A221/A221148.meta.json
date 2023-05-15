@@ -2,13 +2,11 @@
   "description": "Number of nonisomorphic nonperfect-and-quantum-noncontextual connected graphs on n nodes.",
   "id": "A221148",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 5,
     "size": 6,
     "source": "oeis-entry"

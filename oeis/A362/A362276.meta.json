@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n! * Sum_{k=0..floor(n/2)} (-n/2)^k * binomial(n-k,k)/(n-k)!.",
+  "id": "A362276",
+  "mentions": [
+    "A277614",
+    "A362277"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

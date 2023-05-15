@@ -2,13 +2,11 @@
   "description": "Numbers n>0 such that 10^n+2^n+1 is prime.",
   "id": "A174180",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

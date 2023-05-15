@@ -2,7 +2,6 @@
   "description": "a(1)=1, a(2)=2 and then n^2 times a(n) is the product of its neighbors.",
   "id": "A076122",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "fini",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

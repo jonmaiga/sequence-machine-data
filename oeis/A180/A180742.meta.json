@@ -2,13 +2,11 @@
   "description": "Numbers n such that n^7-n^5+1 is prime.",
   "id": "A180742",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 11:27:39",
     "offset": 1,
     "size": 55,
     "source": "joeis"

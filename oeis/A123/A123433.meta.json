@@ -2,13 +2,11 @@
   "description": "Number of locally perfect perfect graphs on n nodes.",
   "id": "A123433",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

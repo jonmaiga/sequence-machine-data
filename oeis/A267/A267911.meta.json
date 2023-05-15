@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of nXk 0..2 arrays with every repeated value in every row unequal to the previous repeated value, and in every column equal to the previous repeated value, and new values introduced in row-major sequential order.",
   "id": "A267911",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:29",
     "offset": 1,
     "size": 39,
     "source": "oeis-bfile"

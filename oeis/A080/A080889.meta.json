@@ -2,12 +2,10 @@
   "description": "Expansion of 1/(1+Sum_{k>0} (-x)^Fibonacci(k)).",
   "id": "A080889",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 34,
     "source": "oeis-entry"

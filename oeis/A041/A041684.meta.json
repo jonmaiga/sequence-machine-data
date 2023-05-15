@@ -4,7 +4,6 @@
   "mentions": [
     "A041685"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "cofr",
     "easy",
@@ -13,7 +12,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:52",
     "offset": 0,
     "size": 16,
     "source": "oeis-bfile"

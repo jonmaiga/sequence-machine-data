@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle T(n, k), n >= 0, k = 1..2^A092339(n), read by rows; the n-th row lists the numbers k such that n appears in the k-th row of A361644.",
+  "id": "A361674",
+  "mentions": [
+    "A092339",
+    "A361644",
+    "A361645",
+    "A361676"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

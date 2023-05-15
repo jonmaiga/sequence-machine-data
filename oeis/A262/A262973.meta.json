@@ -2,13 +2,11 @@
   "description": "Total tail length of all iteration trajectories of all elements of random mappings from [n] to [n].",
   "id": "A262973",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:22",
     "offset": 1,
     "size": 18,
     "source": "oeis-bfile"

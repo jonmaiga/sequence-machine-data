@@ -2,13 +2,11 @@
   "description": "Trajectory of 1 under the morphism 1->1222, 2->2111.",
   "id": "A106825",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:57:37",
     "offset": 0,
     "size": 105,
     "source": "joeis"

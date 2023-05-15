@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 17*n - 1.",
+  "id": "A361692",
+  "mentions": [
+    "A008590",
+    "A008599",
+    "A017257"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -2,13 +2,11 @@
   "description": "Largest k such that F = 1 + x*(x*F^n)'/F^k is solved by a power series F with positive coefficients (where ' is the derivative w.r.t. x).",
   "id": "A213219",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:31",
     "offset": 1,
     "size": 84,
     "source": "oeis-bfile"

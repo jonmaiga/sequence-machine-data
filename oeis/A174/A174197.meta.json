@@ -2,13 +2,11 @@
   "description": "Sequence that arises in connection with the number of primes between consecutive squares.",
   "id": "A174197",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 21,
     "source": "oeis-entry"

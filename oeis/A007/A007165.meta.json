@@ -2,13 +2,11 @@
   "description": "Number of P-graphs with 2n edges.",
   "id": "A007165",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 11:07:04",
     "offset": 1,
     "size": 29,
     "source": "joeis"

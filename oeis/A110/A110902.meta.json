@@ -2,13 +2,11 @@
   "description": "Sum of the upper bounds of twin prime pairs with the lower bounds <= prime(10^n).",
   "id": "A110902",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

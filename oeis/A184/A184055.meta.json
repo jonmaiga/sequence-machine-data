@@ -1,15 +1,14 @@
 {
-  "description": "Number of strings of n+2 numbers x(i) in -3..3 with the sum of x(i) equal to zero and the sums of x(i)*x(i+1) and x(i)*x(i+2) equal to each other",
+  "description": "Number of strings of n+2 numbers x(i) in -3..3 with the sum of x(i) equal to zero and the sums of x(i)*x(i+1) and x(i)*x(i+2) equal to each other.",
   "id": "A184055",
   "mentions": [
     "A184061"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

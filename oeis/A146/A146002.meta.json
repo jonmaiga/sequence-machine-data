@@ -2,13 +2,11 @@
   "description": "Number of n X n binary arrays symmetric about the diagonal and under 90-degree rotation with all ones connected only in a 3 X 3 \"plus\" shape (e.g., consisting of the points at the coordinates (2,1), (2,2), (2,3), (1,2), (3,2)).",
   "id": "A146002",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 30,
     "source": "oeis-entry"

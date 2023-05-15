@@ -2,13 +2,11 @@
   "description": "a(n) is the smallest positive integer not in {a(1), ..., a(n - 1)} such that the sum of the least significant digit of a(n) and the most significant digit of a(n - 1) is a prime, with a(1) = 1.",
   "id": "A201543",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

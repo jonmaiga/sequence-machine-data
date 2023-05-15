@@ -2,14 +2,12 @@
   "description": "Write numbers from n down to 1 in decreasing order, then move the 1 to the front.",
   "id": "A118475",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

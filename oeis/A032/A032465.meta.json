@@ -2,13 +2,11 @@
   "description": "Numbers k such that 177*2^k+1 is prime.",
   "id": "A032465",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:41",
     "offset": 1,
     "size": 50,
     "source": "oeis-bfile"

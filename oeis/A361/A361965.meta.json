@@ -1,0 +1,17 @@
+{
+  "description": "Total number of peaks in 3-Fuss-skew paths of semilength n",
+  "id": "A361965",
+  "mentions": [
+    "A026378",
+    "A361964"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -2,14 +2,12 @@
   "description": "Arises in classification of simply connected Cartan schemes of rank three, where the real roots form a finite irreducible root system.",
   "id": "A168679",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

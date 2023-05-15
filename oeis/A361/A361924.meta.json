@@ -1,0 +1,23 @@
+{
+  "description": "Numbers whose infinitary divisors have distinct values of the infinitary totient function iphi (A091732).",
+  "id": "A361924",
+  "mentions": [
+    "A000302",
+    "A003159",
+    "A037445",
+    "A061345",
+    "A077609",
+    "A091732",
+    "A326835",
+    "A348004",
+    "A361923"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

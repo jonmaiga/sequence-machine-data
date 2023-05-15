@@ -2,12 +2,10 @@
   "description": "Exponent of 9 (value of j) in n-th number of form 7^i*9^j.",
   "id": "A025681",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:29:41",
     "offset": 1,
     "size": 104,
     "source": "joeis"

@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of 2:3:sqrt(13) proportioned triangles on a (n+1)X(k+1) grid",
   "id": "A190113",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:14",
     "offset": 1,
     "size": 74,
     "source": "oeis-bfile"

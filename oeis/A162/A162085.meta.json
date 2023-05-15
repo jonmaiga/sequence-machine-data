@@ -2,12 +2,10 @@
   "description": "Number of n X n 0..2 arrays with rows and columns, considered as 3-ary numbers, in nondecreasing order",
   "id": "A162085",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

@@ -1,16 +1,14 @@
 {
-  "description": "Number of (6+1)X(n+1) 0..1 arrays with every 2X2 subblock ne-sw antidiagonal difference unequal to its neighbors horizontally and nw+se diagonal sum unequal to its neighbors vertically",
+  "description": "Number of (6+1) X (n+1) 0..1 arrays with every 2 X 2 subblock ne-sw antidiagonal difference unequal to its neighbors horizontally and nw+se diagonal sum unequal to its neighbors vertically.",
   "id": "A253703",
   "mentions": [
     "A253698"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:12",
     "offset": 1,
     "size": 32,
     "source": "oeis-bfile"

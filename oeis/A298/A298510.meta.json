@@ -2,12 +2,10 @@
   "description": "a(n) = (n!)*2^(n-1)*mu_h(n) where mu_h is the hypergeometric Moebius function associated to the Dirichlet character modulo 4 h={1,0,-1,0,1,...} (see comment).",
   "id": "A298510",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

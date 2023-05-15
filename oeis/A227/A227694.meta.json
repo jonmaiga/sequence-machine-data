@@ -13,13 +13,11 @@
     "A225137",
     "A227693"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 25,
     "source": "oeis-entry"

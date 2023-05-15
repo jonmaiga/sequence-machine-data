@@ -2,14 +2,12 @@
   "description": "Primes whose 10's complement is a semiprime, i.e., p is prime and 10^L - p is a semiprime, where L is the number of digits in p.",
   "id": "A108794",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:00",
     "offset": 1,
     "size": 53,
     "source": "oeis-bfile"

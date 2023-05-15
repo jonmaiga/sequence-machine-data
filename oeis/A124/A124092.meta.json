@@ -2,13 +2,11 @@
   "description": "From a question about accepting states in certain finite automata.",
   "id": "A124092",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 8,
     "source": "oeis-entry"

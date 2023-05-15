@@ -2,7 +2,6 @@
   "description": "Expansion of 2*x*(6 + 30*x - 13*x^2 - 70*x^3)/((1-x)*(1+2*x)*(1 - 4*x - 3*x^2 + 10*x^3)).",
   "id": "A120658",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:09",
     "offset": 0,
     "size": 22,
     "source": "oeis-bfile"

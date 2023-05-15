@@ -1,0 +1,18 @@
+{
+  "description": "Numbers m such that the decimal expansion of 1/m contains no digit 0, ignoring leading and trailing 0's.",
+  "id": "A362710",
+  "mentions": [
+    "A352154",
+    "A362579"
+  ],
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

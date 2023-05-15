@@ -15,7 +15,6 @@
     "A166711",
     "A166871"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "core",
     "easy",
@@ -24,7 +23,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-28 12:17:45",
     "offset": 0,
     "size": 63,
     "source": "joeis"

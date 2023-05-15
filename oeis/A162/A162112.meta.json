@@ -1,13 +1,11 @@
 {
-  "description": "Number of n X n symmetric binary arrays with rows, considered as graycode numbers, in strictly increasing order, and no more than 4 ones in any row or column",
+  "description": "Number of n X n symmetric binary arrays with rows, considered as graycode numbers, in strictly increasing order, and no more than 4 ones in any row or column.",
   "id": "A162112",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 14,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Minimum number of cells in an n X n grid that need to be painted so that each unpainted cell is orthogonally adjacent to exactly one painted cell.",
   "id": "A344301",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 24,
     "source": "oeis-entry"

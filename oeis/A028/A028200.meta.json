@@ -2,13 +2,11 @@
   "description": "Expansion of 1/((1-6x)(1-7x)(1-8x)(1-9x)).",
   "id": "A028200",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:37",
     "offset": 0,
     "size": 19,
     "source": "oeis-bfile"

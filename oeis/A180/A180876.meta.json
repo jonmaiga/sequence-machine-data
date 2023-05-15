@@ -2,15 +2,13 @@
   "description": "a(n) = sopfr(n) - (floor(sqrt(n))*bigomega(n)).",
   "id": "A180876",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 75,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

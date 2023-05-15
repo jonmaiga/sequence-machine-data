@@ -7,7 +7,6 @@
     "A135690",
     "A135692"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
@@ -15,7 +14,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:23",
     "offset": 0,
     "size": 89,
     "source": "oeis-bfile"

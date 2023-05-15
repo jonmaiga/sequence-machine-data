@@ -2,13 +2,11 @@
   "description": "The number of identity elements of length n in Z*Z^2.",
   "id": "A199044",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:20",
     "offset": 0,
     "size": 34,
     "source": "oeis-bfile"

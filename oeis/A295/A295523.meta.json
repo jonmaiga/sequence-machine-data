@@ -12,7 +12,6 @@
     "A272618",
     "A272619"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "easy",
     "fini",
@@ -20,7 +19,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

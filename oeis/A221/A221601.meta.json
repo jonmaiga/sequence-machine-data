@@ -1,15 +1,14 @@
 {
-  "description": "Number of nX3 arrays of occupancy after each element moves to some king-move neighbor, without move-in move-out left turns",
+  "description": "Number of n X 3 arrays of occupancy after each element moves to some king-move neighbor, without move-in move-out left turns.",
   "id": "A221601",
   "mentions": [
     "A221602"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:39",
     "offset": 1,
     "size": 15,
     "source": "oeis-bfile"

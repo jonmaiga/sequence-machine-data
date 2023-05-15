@@ -25,14 +25,11 @@
     "A083409",
     "A186702"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:11",
     "offset": 2,
     "size": 122,
     "source": "oeis-bfile"

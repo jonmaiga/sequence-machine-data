@@ -2,13 +2,11 @@
   "description": "Numbers n such that n^16+(n+1)^16 is a prime.",
   "id": "A154535",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:36",
     "offset": 1,
     "size": 57,
     "source": "oeis-bfile"

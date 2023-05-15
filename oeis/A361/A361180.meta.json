@@ -1,0 +1,19 @@
+{
+  "description": "Primes p such that the odd part of p - 1 is upper-bounded by the dyadic valuation of p - 1.",
+  "id": "A361180",
+  "mentions": [
+    "A000040",
+    "A000265",
+    "A007814",
+    "A023506",
+    "A057023"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

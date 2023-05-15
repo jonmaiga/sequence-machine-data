@@ -2,7 +2,6 @@
   "description": "Primes such that the outer 2 digits are n and n+1 and all inner digits are 4, where 0 < n < 9.",
   "id": "A108821",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:00",
     "offset": 1,
     "size": 10,
     "source": "oeis-bfile"

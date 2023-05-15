@@ -2,12 +2,10 @@
   "description": "Nonisomorphic catafusenes with symmetry C_s.",
   "id": "A323922",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 25,
     "source": "oeis-entry"

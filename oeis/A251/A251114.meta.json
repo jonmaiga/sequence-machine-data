@@ -1,16 +1,14 @@
 {
-  "description": "Number of (n+1)X(1+1) 0..3 arrays with nondecreasing maximum of every two consecutive values in every row and column",
+  "description": "Number of (n+1) X (1+1) 0..3 arrays with nondecreasing maximum of every two consecutive values in every row and column.",
   "id": "A251114",
   "mentions": [
     "A251120"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:08",
     "offset": 1,
     "size": 18,
     "source": "oeis-bfile"

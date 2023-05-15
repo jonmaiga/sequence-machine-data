@@ -2,12 +2,10 @@
   "description": "Number of positive integers <= 2^n of form 2 x^2 + 5 y^2.",
   "id": "A000286",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 0,
     "size": 37,
     "source": "oeis-entry"

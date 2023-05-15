@@ -2,12 +2,10 @@
   "description": "Consider trajectory of n under the \"x->2x+1\" map; sequence gives number of steps until a nonsquarefree number is reached.",
   "id": "A121645",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:10",
     "offset": 1,
     "size": 99,
     "source": "oeis-bfile"

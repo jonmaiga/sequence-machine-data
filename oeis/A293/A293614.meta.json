@@ -2,14 +2,12 @@
   "description": "a(n) = (8*n + 18)*Pochhammer(n, 6) / 6!.",
   "id": "A293614",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:28:33",
     "offset": 0,
     "size": 30,
     "source": "joeis"

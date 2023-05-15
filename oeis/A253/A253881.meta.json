@@ -2,12 +2,10 @@
   "description": "Positive integers N such that rational Diophantine triple {-1/N, N, (N^2-1)/N} can be extended to a quadruple.",
   "id": "A253881",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 71,
     "source": "oeis-entry"

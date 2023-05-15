@@ -2,12 +2,10 @@
   "description": "Primes p such that 19^p-18 is also prime.",
   "id": "A174271",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

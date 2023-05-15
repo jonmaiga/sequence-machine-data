@@ -2,14 +2,12 @@
   "description": "Primes p such that 33 does not divide p^n - 2 for any n.",
   "id": "A132779",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 56,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "a(1)=2. For n >=2, a(n) = p(n) *(floor(a(n-1)/p(n)) +2), where p(n) is the n-th prime.",
   "id": "A138621",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 48,
     "source": "oeis-entry"

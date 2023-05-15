@@ -2,13 +2,11 @@
   "description": "Write n in base 8, then complement each digit (d -> 7-d) and juxtapose.",
   "id": "A031055",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:50:05",
     "offset": 1,
     "size": 90,
     "source": "joeis"

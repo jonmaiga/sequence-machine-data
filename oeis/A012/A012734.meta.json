@@ -2,12 +2,10 @@
   "description": "arctanh(arctanh(x)*arctan(x))=2/2!*x^2+448/6!*x^6+2380032/10!*x^10...",
   "id": "A012734",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 12:35:57",
     "offset": 0,
     "size": 8,
     "source": "joeis"

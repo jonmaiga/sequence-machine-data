@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = [x^n] ( E(x)/E(-x) )^n where E(x) = exp( Sum_{k >= 1} A005258(k)*x^k/k ).",
+  "id": "A362722",
+  "mentions": [
+    "A005258",
+    "A339710",
+    "A362723",
+    "A362733"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

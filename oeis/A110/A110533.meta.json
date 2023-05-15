@@ -2,18 +2,17 @@
   "description": "a(n) = floor(n/2) * floor(n/5).",
   "id": "A110533",
   "mentions": [
+    "A001622",
     "A002266",
     "A004526",
     "A010762",
     "A110532"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 11:07:39",
     "offset": 0,
     "size": 63,
     "source": "joeis"

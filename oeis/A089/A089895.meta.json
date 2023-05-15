@@ -2,14 +2,12 @@
   "description": "Prime numbers n having the following additional property: There exists an integer k>n such that the sum of all primes <= n equals the sum of all primes between n+1 and k.",
   "id": "A089895",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "bref",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 3,
     "source": "oeis-entry"

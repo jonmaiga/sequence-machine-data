@@ -1,14 +1,14 @@
 {
-  "description": "a(n) = n!*Sum_{m=0..floor(n/2)} binomial(n,2m)^(-1).",
+  "description": "a(n) = n!*Sum_{m=0..floor(n/2)} binomial(n,2*m)^(-1).",
   "id": "A358791",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:39",
+  "mentions": [
+    "A003149"
+  ],
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:32",
     "offset": 0,
     "size": 21,
     "source": "oeis-bfile"

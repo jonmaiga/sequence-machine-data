@@ -2,12 +2,10 @@
   "description": "Number of (n+1)X(n+1) -8..8 symmetric matrices with every 2X2 subblock having sum zero and three or four distinct values",
   "id": "A211471",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:30",
     "offset": 1,
     "size": 18,
     "source": "oeis-bfile"

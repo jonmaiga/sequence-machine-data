@@ -2,13 +2,11 @@
   "description": "Number of star-vertices in the rooted tree with Matula-Goebel number n.",
   "id": "A214566",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 85,
     "source": "oeis-entry"

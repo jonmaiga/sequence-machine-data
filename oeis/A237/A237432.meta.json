@@ -7,7 +7,6 @@
     "A237431",
     "A238819"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "hard",
@@ -16,7 +15,6 @@
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

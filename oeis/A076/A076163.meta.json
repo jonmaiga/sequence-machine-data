@@ -2,13 +2,11 @@
   "description": "Primes p such that absolute values of p minus sum of squares of digits of p is also prime.",
   "id": "A076163",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:27",
     "offset": 1,
     "size": 42,
     "source": "oeis-bfile"

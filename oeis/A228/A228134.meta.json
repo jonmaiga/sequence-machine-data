@@ -2,14 +2,12 @@
   "description": "Primes expressible as concatenation of reversals of two consecutive squares, in order of their occurrence (ignoring leading zeros).",
   "id": "A228134",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:45",
     "offset": 1,
     "size": 27,
     "source": "oeis-bfile"

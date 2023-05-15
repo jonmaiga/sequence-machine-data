@@ -5,13 +5,11 @@
     "A005606",
     "A161377"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:43",
     "offset": 0,
     "size": 66,
     "source": "oeis-bfile"

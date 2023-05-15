@@ -2,13 +2,11 @@
   "description": "T(n,k)=Half the number of (n+1)X(k+1) 0..2 arrays with no 2X2 subblock having sum 4",
   "id": "A183792",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:07",
     "offset": 1,
     "size": 29,
     "source": "oeis-bfile"

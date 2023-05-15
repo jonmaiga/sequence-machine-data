@@ -2,13 +2,11 @@
   "description": "Numbers n such that 42n - 5 and 42n + 5 are prime.",
   "id": "A172147",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:56",
     "offset": 1,
     "size": 61,
     "source": "oeis-bfile"

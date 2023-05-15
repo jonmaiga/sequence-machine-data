@@ -1,0 +1,25 @@
+{
+  "description": "Array read by descending antidiagonals. A(n, k) is, if n > 0, the number of multiset combinations of {0, 1} whose type is defined in the comments. A(0, k) = k + 1.",
+  "id": "A361045",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000292",
+    "A005843",
+    "A005900",
+    "A028878",
+    "A100175",
+    "A336288",
+    "A361043",
+    "A361682"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

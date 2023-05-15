@@ -2,13 +2,11 @@
   "description": "Triangle read by rows of possible absolute values of alternating sums when traveling around a tree with n edges, with each node labeled with the number of edges connected to it, until each edge has been visited twice.",
   "id": "A335790",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 70,
     "source": "oeis-entry"

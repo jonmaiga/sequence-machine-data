@@ -2,14 +2,12 @@
   "description": "Decimal expansion of the number Sum_{n>=1} ksexp(n,3/2)^(-1).",
   "id": "A225037",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "cons",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 32,
     "source": "oeis-entry"

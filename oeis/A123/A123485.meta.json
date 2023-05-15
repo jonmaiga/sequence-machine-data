@@ -2,12 +2,10 @@
   "description": "Number of n-node labeled trivalent (or cubic) graphs with connectivity 2.",
   "id": "A123485",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:12",
     "offset": 1,
     "size": 12,
     "source": "oeis-bfile"

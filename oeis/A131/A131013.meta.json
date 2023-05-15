@@ -2,7 +2,6 @@
   "description": "Ten-digit numbers that contain no repeated digits and are divisible by every integer from 2 through 18.",
   "id": "A131013",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

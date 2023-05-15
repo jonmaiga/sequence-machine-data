@@ -4,13 +4,11 @@
   "mentions": [
     "A009010"
   ],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:20",
     "offset": 0,
     "size": 15,
     "source": "oeis-bfile"

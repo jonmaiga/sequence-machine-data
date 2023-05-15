@@ -2,14 +2,12 @@
   "description": "Irregular triangle read by rows: number of Schroeder paths of length n and weighted area k.",
   "id": "A201075",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "more",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 0,
     "size": 35,
     "source": "oeis-entry"

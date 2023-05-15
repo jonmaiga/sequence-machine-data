@@ -2,13 +2,11 @@
   "description": "Count of times n appears in number created by stringing together previous n-1 integers",
   "id": "A179801",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 101,
     "source": "oeis-entry"

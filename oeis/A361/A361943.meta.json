@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least multiple of n whose binary expansion is an abelian square (A272653).",
+  "id": "A361943",
+  "mentions": [
+    "A020330",
+    "A272653",
+    "A361944"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

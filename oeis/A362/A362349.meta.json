@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = n! * Sum_{k=0..floor(n/4)} k^k / (k! * (n-4*k)!).",
+  "id": "A362349",
+  "mentions": [
+    "A086331",
+    "A362347",
+    "A362348"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

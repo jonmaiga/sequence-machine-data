@@ -1,0 +1,23 @@
+{
+  "description": "Harmonic means the bi-unitary divisors of the bi-unitary harmonic numbers (A286325).",
+  "id": "A361784",
+  "mentions": [
+    "A001600",
+    "A006087",
+    "A188999",
+    "A286324",
+    "A286325",
+    "A361318",
+    "A361782",
+    "A361783"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

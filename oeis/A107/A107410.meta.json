@@ -2,14 +2,12 @@
   "description": "Each term is sum of three previous terms mod 9.",
   "id": "A107410",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:04:13",
     "offset": 0,
     "size": 105,
     "source": "joeis"

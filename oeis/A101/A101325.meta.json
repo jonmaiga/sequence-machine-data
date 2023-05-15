@@ -2,14 +2,12 @@
   "description": "The first pair of digits sums up to 7. So does the second pair. And the third one and the fourth one, etc., with a(n) < a(n+1). When constructing the sequence, choose the next digits so as to slow the growth of the sequence as much as possible.",
   "id": "A101325",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 2,
     "size": 66,
     "source": "oeis-entry"

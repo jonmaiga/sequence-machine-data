@@ -2,13 +2,11 @@
   "description": "Triangle read by rows, related to enumeration of polycyclic conjugated hydrocarbons (see Brunvoll reference for precise definition).",
   "id": "A107310",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 21,
     "source": "oeis-entry"

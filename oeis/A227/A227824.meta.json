@@ -2,13 +2,11 @@
   "description": "G.f. satisfies: A(x) = Sum_{n>=0} x^n*A(x)^n * Sum_{k=0..n} binomial(n,k)^2 * x^k*(1-x)^(n-k).",
   "id": "A227824",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:44",
     "offset": 0,
     "size": 28,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "Number of paratopy classes (also called species, or main classes) of Latin cubes of order n.",
   "id": "A138074",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

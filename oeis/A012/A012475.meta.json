@@ -2,12 +2,10 @@
   "description": "arctan(cos(x)*sin(x))=x-6/3!*x^3+120/5!*x^5-7056/7!*x^7+758400/9!*x^9...",
   "id": "A012475",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 14:17:36",
     "offset": 0,
     "size": 13,
     "source": "joeis"

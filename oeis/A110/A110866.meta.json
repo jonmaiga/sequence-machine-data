@@ -2,13 +2,11 @@
   "description": "Number of Type I but not Type II additive Hermitian self-dual codes of length n over GF(4) having the highest possible minimal distance.",
   "id": "A110866",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

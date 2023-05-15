@@ -2,14 +2,12 @@
   "description": "Decimal value of the concatenation of first n multiples of 3 in binary.",
   "id": "A164945",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

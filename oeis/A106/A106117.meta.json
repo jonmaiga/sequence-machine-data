@@ -2,14 +2,12 @@
   "description": "Substitution sequence that simulates a three level two state neural net in six symbols : Fibonacci-Silver Chain-Fibonacci.",
   "id": "A106117",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

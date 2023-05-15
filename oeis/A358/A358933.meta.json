@@ -5,16 +5,16 @@
     "A174249",
     "A343529",
     "A349187",
-    "A352421"
+    "A352421",
+    "A361250"
   ],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:33",
     "offset": 0,
     "size": 47,
     "source": "oeis-bfile"

@@ -14,10 +14,8 @@
     "A031235",
     "A055642"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "base",
-    "changed",
     "formulas",
     "less",
     "look",
@@ -25,7 +23,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2022-04-28 14:50:41",
     "offset": 0,
     "size": 91,
     "source": "joeis"

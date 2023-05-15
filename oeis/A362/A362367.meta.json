@@ -1,0 +1,19 @@
+{
+  "description": "Square array A(n, k), n, k >= 0, read by antidiagonals; A(n, k) is the least base >= 2 where the product n * k can be computed without carry.",
+  "id": "A362367",
+  "mentions": [
+    "A319478",
+    "A362366"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

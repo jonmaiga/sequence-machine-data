@@ -2,13 +2,11 @@
   "description": "Decimal expansion of (1 u)c^2/h in Hz.",
   "id": "A254176",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 24,
     "size": 9,
     "source": "oeis-entry"

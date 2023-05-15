@@ -2,13 +2,11 @@
   "description": "Triangle read by rows: T(n,k) = number of Ringel ladders of order n and genus k.",
   "id": "A298800",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 52,
     "source": "oeis-entry"

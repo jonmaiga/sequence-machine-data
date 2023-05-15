@@ -2,14 +2,12 @@
   "description": "Define I(n) = number obtained by incrementing each digit from 0 to 8 of n by 1. A '9' is replaced by a '0'. Sequence gives digitriangular numbers n*I(n)/2.",
   "id": "A067525",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 51,
     "source": "oeis-entry"

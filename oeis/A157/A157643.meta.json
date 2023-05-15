@@ -2,13 +2,11 @@
   "description": "a(n) arises in the normal ordering of n-th power of the operator (d/dx)^3(x(d/dx))^4",
   "id": "A157643",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

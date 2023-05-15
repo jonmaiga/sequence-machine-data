@@ -1,15 +1,14 @@
 {
-  "description": "Minimum number of rods needed to construct rigid regular n-gons.",
+  "description": "Minimum number of unit length rods needed to construct a rigid regular n-gon.",
   "id": "A218537",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
+    "changed",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 3,
     "size": 10,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Numbers whose base-13 representation has exactly 7 runs.",
   "id": "A043662",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:21:55",
     "offset": 1,
     "size": 24,
     "source": "joeis"

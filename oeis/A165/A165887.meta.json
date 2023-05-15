@@ -2,12 +2,10 @@
   "description": "Numbers n such that x^4 + y^4 != 0 (mod n) when both x, y (positive) are expressed mod n (i.e., 0 < x,y < n).",
   "id": "A165887",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 61,
     "source": "oeis-entry"

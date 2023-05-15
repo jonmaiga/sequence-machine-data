@@ -2,13 +2,11 @@
   "description": "Numbers of the form i^j^k, for i,j,k > 1.",
   "id": "A217261",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:35",
     "offset": 1,
     "size": 35,
     "source": "oeis-bfile"

@@ -1,0 +1,19 @@
+{
+  "description": "The number of unlabeled connected 4 regular multigraphs on n nodes with 4 external legs, loops allowed.",
+  "id": "A361698",
+  "mentions": [
+    "A085549",
+    "A129429",
+    "A361135",
+    "A361454"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

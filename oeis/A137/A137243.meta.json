@@ -2,17 +2,16 @@
   "description": "Number of coprime pairs (a,b) with -n <= a,b <= n.",
   "id": "A137243",
   "mentions": [
-    "A018805"
+    "A018805",
+    "A059956"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 08:34:19",
     "offset": 1,
     "size": 47,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers whose Euler's cototient is divisible by 9.",
+  "id": "A362008",
+  "mentions": [
+    "A000010",
+    "A010888",
+    "A051953"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

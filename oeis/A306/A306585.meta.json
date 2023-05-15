@@ -1,18 +1,17 @@
 {
-  "description": "Start with n and find the LCM of n and A140635(n), and continue until you have a number where A140635(m) = m.",
+  "description": "Start with n and find the LCM of n and A140635(n), and continue until a number m is reached such that A140635(m) = m.",
   "id": "A306585",
   "mentions": [
     "A005179",
+    "A007416",
     "A140635"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
-    "size": 37,
-    "source": "oeis-entry"
+    "size": 41,
+    "source": "oeis-bfile"
   }
 }

@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of (n+2)X(k+2) binary arrays avoiding patterns 001 and 000 in rows and columns",
   "id": "A202601",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:23",
     "offset": 1,
     "size": 31,
     "source": "oeis-bfile"

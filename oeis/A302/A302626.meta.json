@@ -1,16 +1,14 @@
 {
-  "description": "Number of 5Xn 0..1 arrays with every element equal to 0, 1, 2 or 6 horizontally, diagonally or antidiagonally adjacent elements, with upper left element zero.",
+  "description": "Number of 5 X n 0..1 arrays with every element equal to 0, 1, 2 or 6 horizontally, diagonally or antidiagonally adjacent elements, with upper left element zero.",
   "id": "A302626",
   "mentions": [
     "A302623"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:26",
     "offset": 1,
     "size": 25,
     "source": "oeis-bfile"

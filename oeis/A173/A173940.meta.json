@@ -2,13 +2,11 @@
   "description": "The number of permutations avoiding simultaneously consecutive patterns 213 and 231.",
   "id": "A173940",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:58",
     "offset": 0,
     "size": 25,
     "source": "oeis-bfile"

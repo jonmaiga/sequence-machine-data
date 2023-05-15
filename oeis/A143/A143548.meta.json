@@ -18,14 +18,12 @@
     "A096082",
     "A138416"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn",
     "tabf",
     "unsolved"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:32",
     "offset": 1,
     "size": 69,
     "source": "oeis-bfile"

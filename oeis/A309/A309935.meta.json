@@ -2,13 +2,11 @@
   "description": "Primes p such that the base-10 concatenation (p+1)||p is prime.",
   "id": "A309935",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:34",
     "offset": 1,
     "size": 52,
     "source": "oeis-bfile"

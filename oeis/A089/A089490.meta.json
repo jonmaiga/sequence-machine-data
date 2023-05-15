@@ -2,13 +2,11 @@
   "description": "Third occurrence where (p-q)/(q-3), p and q are primes.",
   "id": "A089490",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 5,
     "size": 54,
     "source": "oeis-entry"

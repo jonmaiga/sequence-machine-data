@@ -2,14 +2,12 @@
   "description": "If n is composite, a(n) is the number represented by the list of prime factors of n (with multiplicity, sorted in nondecreasing order) in base the sum of that list. If n is prime, a(n) = n.",
   "id": "A337183",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
     "look",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:09",
     "offset": 2,
     "size": 66,
     "source": "oeis-bfile"

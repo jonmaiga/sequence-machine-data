@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that there are precisely 17 groups of order k.",
+  "description": "Numbers m such that there are precisely 17 groups of order m.",
   "id": "A294949",
   "mentions": [
     "A000001",
@@ -18,15 +18,17 @@
     "A292896",
     "A294155",
     "A294156",
-    "A295161"
+    "A295161",
+    "A298909",
+    "A298910",
+    "A298911"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:13",
     "offset": 1,
     "size": 23,
     "source": "oeis-bfile"

@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle t(n,m) = binomial(n-m-1,m+1) read by rows.",
+  "description": "Irregular triangle read by rows: t(n,m) = binomial(n-m-1,m+1) for 0 <= m <= floor((n-1)/2).",
   "id": "A175990",
   "mentions": [
     "A000071",
@@ -11,14 +11,13 @@
     "A124033",
     "A169803"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
+    "changed",
     "easy",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 2,
     "size": 41,
     "source": "oeis-entry"

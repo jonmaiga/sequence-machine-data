@@ -2,13 +2,11 @@
   "description": "Nearest integer to 1/b_n, where the b_n are coefficients arising in the Taylor series expansion of the Riemann xi-function.",
   "id": "A330335",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 0,
     "size": 6,
     "source": "oeis-entry"

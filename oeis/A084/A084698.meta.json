@@ -2,13 +2,11 @@
   "description": "Beginning with 1 the smallest multiple of n such that the n-th partial sum is a square.",
   "id": "A084698",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 46,
     "source": "oeis-entry"

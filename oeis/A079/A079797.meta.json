@@ -2,13 +2,11 @@
   "description": "Products of two primes p and q such that (p*q)^2 + p^2 - q^2 and (p*q)^2 - p^2 + q^2 are both prime.",
   "id": "A079797",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 52,
     "source": "oeis-entry"

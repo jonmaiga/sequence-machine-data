@@ -2,14 +2,12 @@
   "description": "Numbers appearing in metronome marks of music pieces, denoting beats per minute to indicate the tempo of the piece.",
   "id": "A111167",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 43,
     "source": "oeis-entry"

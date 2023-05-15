@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of nXk 0..1 arrays with no 1 equal to more than two of its horizontal and vertical neighbors, with the exception of exactly two elements.",
   "id": "A283232",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:53",
     "offset": 1,
     "size": 50,
     "source": "oeis-bfile"

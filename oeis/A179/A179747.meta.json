@@ -2,12 +2,10 @@
   "description": "Numbers of the form p^8*q*r where p, q, and r are distinct primes.",
   "id": "A179747",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:02",
     "offset": 1,
     "size": 37,
     "source": "oeis-bfile"

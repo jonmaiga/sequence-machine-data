@@ -2,14 +2,12 @@
   "description": "Number of convex permutominoes of size n.",
   "id": "A126020",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:14",
     "offset": 1,
     "size": 25,
     "source": "oeis-bfile"

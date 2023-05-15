@@ -2,13 +2,11 @@
   "description": "Limiting sequence of second differences of certain Poincaré series [or Poincare series] expansions.",
   "id": "A124641",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 5,
     "source": "oeis-entry"

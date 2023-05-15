@@ -2,14 +2,12 @@
   "description": "Triangle read by rows giving coefficients of polynomials arising in enumeration of multigraphs.",
   "id": "A221960",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "more",
     "sign",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 37,
     "source": "oeis-entry"

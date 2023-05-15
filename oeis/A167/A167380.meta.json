@@ -2,14 +2,12 @@
   "description": "a(1)=1, a(2)=2, and continued periodically with 4, 5, 1, -4, -5, -1 .",
   "id": "A167380",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-26 09:43:23",
     "offset": 1,
     "size": 85,
     "source": "joeis"

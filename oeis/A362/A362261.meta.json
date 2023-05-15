@@ -1,0 +1,19 @@
+{
+  "description": "Maximum number of ways in which a set of integer-sided squares can tile an n X 3 rectangle, up to rotations and reflections.",
+  "id": "A362261",
+  "mentions": [
+    "A359019",
+    "A361225",
+    "A362144",
+    "A362258"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

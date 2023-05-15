@@ -2,14 +2,12 @@
   "description": "Nonprimes of the form (p(n)-2*n)/5, where p(n)=n-th prime.",
   "id": "A144415",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 57,
     "source": "oeis-entry"

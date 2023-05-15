@@ -2,14 +2,12 @@
   "description": "Numbers with a single 2 in their base 5 expansion.",
   "id": "A023730",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:19:25",
     "offset": 1,
     "size": 56,
     "source": "joeis"

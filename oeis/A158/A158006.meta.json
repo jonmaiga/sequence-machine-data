@@ -2,13 +2,11 @@
   "description": "Numbers of pattern-matching permutations of (1342) for the permutations of {1, 2, ..., n} on n = 4, 5, 6, ... elements.",
   "id": "A158006",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 4,
     "size": 13,
     "source": "oeis-entry"

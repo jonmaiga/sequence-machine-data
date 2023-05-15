@@ -2,14 +2,12 @@
   "description": "Number of hypoplactic classes of 5-parking functions of length n.",
   "id": "A243677",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 5,
     "source": "oeis-entry"

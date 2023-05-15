@@ -2,13 +2,11 @@
   "description": "Triangle read by rows: T(n,k) is the number of endofunctions on n objects where the multiset of loop sizes forms the k-th partition in Mathematica ordering.",
   "id": "A127125",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 99,
     "source": "oeis-entry"

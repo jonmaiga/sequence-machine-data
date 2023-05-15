@@ -1,0 +1,33 @@
+{
+  "description": "Numbers whose prime indices satisfy: (length) = 2*(median).",
+  "id": "A362050",
+  "mentions": [
+    "A001222",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A067801",
+    "A106529",
+    "A111907",
+    "A112798",
+    "A255201",
+    "A316413",
+    "A326567",
+    "A326568",
+    "A360005",
+    "A361800",
+    "A361849",
+    "A361856",
+    "A361868",
+    "A361908",
+    "A362049"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

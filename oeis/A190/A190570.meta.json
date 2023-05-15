@@ -2,14 +2,12 @@
   "description": "Number of n-step one-sided prudent walks, avoiding exactly two consecutive west steps and two consecutive east steps.",
   "id": "A190570",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn",
     "walk"
   ],
   "terms": {
-    "modified": "2022-05-03 09:52:06",
     "offset": 1,
     "size": 30,
     "source": "joeis"

@@ -2,14 +2,12 @@
   "description": "Expansion of 1/(1+x+2*x^2) mod 3.",
   "id": "A285193",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 11:27:57",
     "offset": 0,
     "size": 80,
     "source": "joeis"

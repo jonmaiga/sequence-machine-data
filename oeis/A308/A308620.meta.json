@@ -2,14 +2,12 @@
   "description": "Number of states in the evolutionary spatial prisoner's dilemma with n players.",
   "id": "A308620",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 40,
     "source": "oeis-entry"

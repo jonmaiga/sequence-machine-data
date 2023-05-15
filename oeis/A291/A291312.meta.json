@@ -2,14 +2,12 @@
   "description": "Numbers that contain exactly one pair of identical digits x and a triple of identical digits y (x not equal y).",
   "id": "A291312",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "base",
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 48,
     "source": "oeis-entry"

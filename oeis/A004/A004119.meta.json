@@ -1,5 +1,5 @@
 {
-  "description": "a(0)=1; thereafter a(n) = 3*2^(n-1)+1.",
+  "description": "a(0) = 1; thereafter a(n) = 3*2^(n-1) + 1.",
   "id": "A004119",
   "mentions": [
     "A000051",
@@ -10,14 +10,13 @@
     "A049988",
     "A181565"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:05",
     "offset": 0,
     "size": 34,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "Smaller side of right triangles with integer sides and integer side inscribed squares with two vertices on the hypotenuse.",
   "id": "A123673",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 44,
     "source": "oeis-entry"

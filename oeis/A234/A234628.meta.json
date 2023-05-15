@@ -2,13 +2,11 @@
   "description": "Numbers of undirected cycles in the graph join C_n + C_n of cycle graphs.",
   "id": "A234628",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 2,
     "size": 9,
     "source": "oeis-entry"

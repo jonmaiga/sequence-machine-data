@@ -2,16 +2,13 @@
   "description": "Continued fraction for sqrt(425).",
   "id": "A040404",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "cofr",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:19:23",
     "offset": 0,
     "size": 87,
     "source": "joeis"

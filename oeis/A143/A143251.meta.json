@@ -2,13 +2,11 @@
   "description": "Expansion of f(-x, -x^7) * f(-x^2, -x^6) in powers of x where f(,) is Ramanujan's two-variable theta function.",
   "id": "A143251",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-26 09:32:29",
     "offset": 0,
     "size": 105,
     "source": "joeis"

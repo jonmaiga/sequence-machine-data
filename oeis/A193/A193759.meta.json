@@ -9,14 +9,12 @@
     "A193929",
     "A194003"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "hard",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 0,
     "size": 83,
     "source": "oeis-entry"

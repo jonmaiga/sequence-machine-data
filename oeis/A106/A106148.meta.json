@@ -2,14 +2,12 @@
   "description": "A 9 symbol three state three level neural net feedback substitution using Levels Terdragon -Rauzy -Terdragon.",
   "id": "A106148",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

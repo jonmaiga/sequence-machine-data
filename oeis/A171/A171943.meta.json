@@ -2,13 +2,11 @@
   "description": "To get a(n+1), add to a(n) the product of the two closest digits to the comma printed before a(n); start with a(1)=a(2)=1.",
   "id": "A171943",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 52,
     "source": "oeis-entry"

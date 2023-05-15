@@ -2,13 +2,11 @@
   "description": "E.g.f.: Sum_{n>=0} cosh(n*x) * tanh(x)^n.",
   "id": "A211209",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:30",
     "offset": 0,
     "size": 21,
     "source": "oeis-bfile"

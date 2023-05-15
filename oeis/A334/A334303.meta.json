@@ -2,14 +2,12 @@
   "description": "Numbers m such that the Thue chromatic number of graph C_m is equal to 4.",
   "id": "A334303",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

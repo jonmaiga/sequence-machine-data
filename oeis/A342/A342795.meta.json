@@ -2,13 +2,11 @@
   "description": "a(n) is the number of core triads with n nodes up to isomorphism and transposition.",
   "id": "A342795",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 8,
     "size": 19,
     "source": "oeis-entry"

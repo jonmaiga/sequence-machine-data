@@ -2,14 +2,12 @@
   "description": "Exactly three distinct primes occur as substrings of the digits of n.",
   "id": "A163759",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 52,
     "source": "oeis-entry"

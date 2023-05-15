@@ -2,14 +2,12 @@
   "description": "E.g.f. is series reversion of log(1+x)*exp(-x).",
   "id": "A052888",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:01",
     "offset": 0,
     "size": 18,
     "source": "oeis-bfile"

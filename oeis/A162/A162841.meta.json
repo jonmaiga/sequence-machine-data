@@ -2,12 +2,10 @@
   "description": "G.f.: A(x) = sqrt( Sum_{n>=0} 4^(n(n+1)/2)*x^n ).",
   "id": "A162841",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:44",
     "offset": 0,
     "size": 13,
     "source": "oeis-bfile"

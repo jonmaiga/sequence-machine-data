@@ -2,13 +2,11 @@
   "description": "Numbers n such that sum of the cubes of the digits of n^3 is a perfect cube.",
   "id": "A164882",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:47",
     "offset": 1,
     "size": 46,
     "source": "oeis-bfile"

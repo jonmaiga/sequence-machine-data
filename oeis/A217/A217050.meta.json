@@ -2,14 +2,12 @@
   "description": "Number of primes of n base-3 digits such that each of the 3 digits (0, 1, 2) appears exactly a prime number of times.",
   "id": "A217050",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 22,
     "source": "oeis-entry"

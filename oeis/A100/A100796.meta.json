@@ -2,13 +2,11 @@
   "description": "Equivalence class of numerical representation of n. See Comments for definition.",
   "id": "A100796",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 73,
     "source": "oeis-entry"

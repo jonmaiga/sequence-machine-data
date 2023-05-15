@@ -2,13 +2,11 @@
   "description": "Number of rational numbers > 1 whose numerator in reduced form equals n and that can be written as a continued fraction with exactly three partial quotients.",
   "id": "A276505",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 76,
     "source": "oeis-entry"

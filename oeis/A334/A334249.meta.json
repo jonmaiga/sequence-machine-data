@@ -8,14 +8,12 @@
     "A225780",
     "A257784"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:05",
     "offset": 1,
     "size": 38,
     "source": "oeis-bfile"

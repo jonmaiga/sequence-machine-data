@@ -2,7 +2,6 @@
   "description": "Concatenate the number of 1's and number of 0's in the binary expansion of n.",
   "id": "A165265",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:48",
     "offset": 0,
     "size": 70,
     "source": "oeis-bfile"

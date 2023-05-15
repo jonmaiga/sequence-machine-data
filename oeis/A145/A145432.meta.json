@@ -2,7 +2,6 @@
   "description": "Decimal expansion of sum_{n=1..inf} (-1)^(n-1)*2^n/binomial(2n,n).",
   "id": "A145432",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "cons",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 93,
     "source": "oeis-entry"

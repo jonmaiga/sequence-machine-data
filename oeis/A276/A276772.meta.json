@@ -2,13 +2,11 @@
   "description": "Triangle read by rows: Number of D-classes in Partial Brauer Monoid PB_n.",
   "id": "A276772",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 0,
     "size": 36,
     "source": "oeis-entry"

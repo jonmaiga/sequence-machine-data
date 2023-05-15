@@ -1,0 +1,20 @@
+{
+  "description": "Sum of distinct prime factors of all composite numbers between n-th and (n+1)st primes.",
+  "id": "A361806",
+  "mentions": [
+    "A008472",
+    "A052297",
+    "A061214",
+    "A077218"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

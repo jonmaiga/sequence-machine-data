@@ -2,12 +2,10 @@
   "description": "a(n) = least prime p such that p + prime(n) is a square.",
   "id": "A157480",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:39",
     "offset": 1,
     "size": 72,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "a(n) is the number of tilings of the Aztec diamond of order n using dominoes and square tetrominoes.",
   "id": "A356512",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 0,
     "size": 13,
     "source": "oeis-entry"

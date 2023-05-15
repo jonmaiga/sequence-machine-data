@@ -2,14 +2,12 @@
   "description": "a(0) = 0; thereafter a(n) = a(n-1)/2 + n if a(n-1) is even, otherwise a(n) = a(n-1) + a(n-2).",
   "id": "A350129",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:24",
     "offset": 0,
     "size": 49,
     "source": "oeis-bfile"

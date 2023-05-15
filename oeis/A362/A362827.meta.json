@@ -1,0 +1,24 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of k-tuples of permutations of [n] that pairwise commute.",
+  "id": "A362827",
+  "mentions": [
+    "A000012",
+    "A000142",
+    "A053529",
+    "A072169",
+    "A362824",
+    "A362826",
+    "A362828"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

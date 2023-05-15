@@ -2,12 +2,10 @@
   "description": "a(1) = 3; a(n+1) = a(n)-th nonprime, where nonprimes begin at 0.",
   "id": "A025000",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:03",
     "offset": 1,
     "size": 47,
     "source": "joeis"

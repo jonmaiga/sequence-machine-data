@@ -2,12 +2,10 @@
   "description": "Number of nXnXn triangular 0..4 arrays with each element equal to the product mod 5 of two neighbors",
   "id": "A193326",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

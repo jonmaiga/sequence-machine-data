@@ -6,13 +6,11 @@
     "A292351",
     "A296440"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 84,
     "source": "oeis-entry"

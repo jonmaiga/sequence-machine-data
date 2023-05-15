@@ -2,14 +2,12 @@
   "description": "Pronic residues. These are analogous to quadratic residues, but use the set of pronics 0 2 6 12 20 30... instead of the quadratics (squares) 0 1 4 9 16 25... The example shown above is mod 13.",
   "id": "A111658",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 7,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "a(n) = prime(n)^6 - 512.",
   "id": "A153486",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-26 10:39:17",
     "offset": 1,
     "size": 22,
     "source": "joeis"

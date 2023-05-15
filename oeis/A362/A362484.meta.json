@@ -1,0 +1,22 @@
+{
+  "description": "Irregular table read by rows in which the n-th row consists of all the numbers m such that iphi(m) = n, where iphi is the infinitary totient function A091732.",
+  "id": "A362484",
+  "mentions": [
+    "A032447",
+    "A091732",
+    "A162247",
+    "A361966",
+    "A362180",
+    "A362213",
+    "A362485"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

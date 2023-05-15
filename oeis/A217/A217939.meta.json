@@ -2,13 +2,11 @@
   "description": "Number of additive codes of type (1,1) over Z_4[xi].",
   "id": "A217939",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

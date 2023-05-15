@@ -2,13 +2,11 @@
   "description": "Numbers n such that 11*n - 911 is prime.",
   "id": "A108751",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:36:31",
     "offset": 1,
     "size": 53,
     "source": "joeis"

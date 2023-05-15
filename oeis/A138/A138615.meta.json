@@ -2,12 +2,10 @@
   "description": "Numbers of the form n^4 - m^2, where 0 < m < n^2.",
   "id": "A138615",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:26",
     "offset": 1,
     "size": 56,
     "source": "oeis-bfile"

@@ -1,16 +1,14 @@
 {
-  "description": "Define a(1)=0, a(2)=0, a(3)=15, a(4)=111 then a(n)=254*a(n-2)+126-a(n-4) also sequence such that 7*(a(n)^2) + 7*a(n) + 1 = a square.",
+  "description": "Define a(1)=0, a(2)=0, a(3)=15, a(4)=111 then a(n) = 254*a(n-2) - a(n-4) + 126 also sequence such that 7*a(n)*(a(n) + 1) + 1 = a square.",
   "id": "A105051",
   "mentions": [
     "A105040"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:44:24",
     "offset": 1,
     "size": 18,
     "source": "oeis-bfile"

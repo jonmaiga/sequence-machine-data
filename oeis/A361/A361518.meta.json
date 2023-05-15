@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of arccoth(Pi).",
+  "id": "A361518",
+  "mentions": [
+    "A359540",
+    "A360938",
+    "A361519"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "joeis"
+  }
+}

@@ -2,12 +2,10 @@
   "description": "Primes of the form 3p^4-4 with p prime.",
   "id": "A256377",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 21,
     "source": "oeis-entry"

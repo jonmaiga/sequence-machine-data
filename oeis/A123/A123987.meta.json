@@ -2,12 +2,10 @@
   "description": "Numbers k for which 14*k+1, 14*k+5, 14*k+11 and 14*k+13 are primes.",
   "id": "A123987",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:12",
     "offset": 1,
     "size": 43,
     "source": "oeis-bfile"

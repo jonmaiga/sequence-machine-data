@@ -2,20 +2,19 @@
   "description": "Numbers that are congruent to {1,4} mod 10.",
   "id": "A271508",
   "mentions": [
+    "A001622",
     "A004442",
     "A017281",
     "A017317",
     "A042948",
     "A047241"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 19:51:39",
     "offset": 1,
     "size": 56,
     "source": "joeis"

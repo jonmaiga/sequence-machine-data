@@ -2,15 +2,16 @@
   "description": "Number of tiered orders on n nodes (corrected version of A006860).",
   "id": "A223911",
   "mentions": [
-    "A006860"
+    "A006860",
+    "A218695",
+    "A361912",
+    "A361956"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:42",
     "offset": 0,
     "size": 19,
     "source": "oeis-bfile"

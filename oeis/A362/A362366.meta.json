@@ -1,0 +1,19 @@
+{
+  "description": "Square array A(n, k), n, k >= 0, read by antidiagonals; A(n, k) is the least base >= 2 where the sum n + k can be computed without carry.",
+  "id": "A362366",
+  "mentions": [
+    "A321882",
+    "A362367"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

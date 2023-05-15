@@ -1,0 +1,18 @@
+{
+  "description": "Diagonal of rational function 1/(1 - (x^2 + y^2 + z^2 + x^3*y*z)).",
+  "id": "A361738",
+  "mentions": [
+    "A361729",
+    "A361737",
+    "A361739"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

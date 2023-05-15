@@ -2,13 +2,11 @@
   "description": "T(n,k) = Number of n X k arrays of occupancy after each element moves to some horizontal or vertical neighbor but without 2-loops.",
   "id": "A217346",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:35",
     "offset": 1,
     "size": 48,
     "source": "oeis-bfile"

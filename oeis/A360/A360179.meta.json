@@ -1,0 +1,28 @@
+{
+  "description": "a(1) = 1. Thereafter if a(n-1) is a novel term, a(n) = d(a(n-1)); otherwise a(n) = a(n-1) + d(u), where d is the divisor function A000005 and u is the smallest unstarred prior term (each time we use a prior term we star it, and starred terms cannot be reused).",
+  "id": "A360179",
+  "mentions": [
+    "A000005",
+    "A343887",
+    "A345147",
+    "A361511",
+    "A362127",
+    "A362128",
+    "A362129",
+    "A362130",
+    "A362131",
+    "A362134",
+    "A362135",
+    "A362136"
+  ],
+  "tags": [
+    "look",
+    "nice",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

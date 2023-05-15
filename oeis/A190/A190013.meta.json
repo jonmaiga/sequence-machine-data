@@ -2,14 +2,12 @@
   "description": "An optimal 2-radius sequence over a (2p)-element alphabet for p = 5.",
   "id": "A190013",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 30,
     "source": "oeis-entry"

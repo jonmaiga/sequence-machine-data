@@ -2,12 +2,10 @@
   "description": "a[n] =Abs[Abs[Prime[n]-a[n-1]]+Abs[Prime[n]-a[n-2]]+Abs[Prime[n]-a[n-3]]-Abs[Prime[n]-a[n-4]]]",
   "id": "A087868",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 62,
     "source": "oeis-entry"

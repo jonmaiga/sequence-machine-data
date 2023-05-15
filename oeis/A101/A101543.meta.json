@@ -2,13 +2,11 @@
   "description": "Triangle read by rows: First row = 2; n-th row (n>1) has n smallest positive integers not yet in the sequence such that each integer has a prime divisor in common with at least one element of the (n-1)st row.",
   "id": "A101543",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 72,
     "source": "oeis-entry"

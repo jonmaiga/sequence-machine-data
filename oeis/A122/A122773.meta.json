@@ -2,7 +2,6 @@
   "description": "Triangular array, see Mathematica code.",
   "id": "A122773",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "less",
     "obsc",
@@ -11,7 +10,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 67,
     "source": "oeis-entry"

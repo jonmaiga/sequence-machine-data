@@ -1,16 +1,15 @@
 {
-  "description": "A 7 x 7 magic square.",
+  "description": "A 7 X 7 magic square.",
   "id": "A126651",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
+    "changed",
     "fini",
     "full",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 49,
     "source": "oeis-entry"

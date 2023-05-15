@@ -2,14 +2,12 @@
   "description": "Golc sequence in base 4. Left to right concatenation of n,int(log_4(n)),int(log_4(int(log_4(n)))),... in base 4.",
   "id": "A028434",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:37:19",
     "offset": 1,
     "size": 55,
     "source": "joeis"

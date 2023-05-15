@@ -2,13 +2,11 @@
   "description": "a(n) is the positive integer with signature s that is the most frequent prime signature up to a(n)-1 such that there is a tie with a different signature. a(1) = 1.",
   "id": "A335293",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 24,
     "source": "oeis-entry"

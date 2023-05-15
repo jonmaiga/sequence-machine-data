@@ -9,15 +9,13 @@
     "A211000",
     "A211011"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
-    "more",
+    "look",
     "sign"
   ],
   "terms": {
-    "modified": "2023-03-14 10:44:26",
     "offset": 0,
-    "size": 16,
+    "size": 66,
     "source": "oeis-bfile"
   }
 }

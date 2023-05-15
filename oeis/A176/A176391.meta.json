@@ -2,12 +2,10 @@
   "description": "Number of n X n 1..n arrays with row and column sums n(n+1)/2 and no two adjacent elements equal.",
   "id": "A176391",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

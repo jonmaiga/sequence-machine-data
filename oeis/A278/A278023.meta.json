@@ -2,13 +2,11 @@
   "description": "G.f.: 2*x*(1-x*sqrt(1-4*x))/((1+2*x^2+sqrt(1-4*x))*sqrt(1-4*x)).",
   "id": "A278023",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:44",
     "offset": 0,
     "size": 29,
     "source": "oeis-bfile"

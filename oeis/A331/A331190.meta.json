@@ -2,14 +2,12 @@
   "description": "Expansion of (-5*(9 - 6*x + 2*x^2))/(-1 + x)^3.",
   "id": "A331190",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:28:31",
     "offset": 0,
     "size": 43,
     "source": "joeis"

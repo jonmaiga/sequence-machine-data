@@ -2,13 +2,11 @@
   "description": "Composite numbers whose largest prime factor is less than its second-largest prime factor's square, counting with multiplicity so that the factors of 18 are 2, 3, 3.",
   "id": "A269131",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:31",
     "offset": 1,
     "size": 62,
     "source": "oeis-bfile"

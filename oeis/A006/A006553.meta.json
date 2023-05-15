@@ -2,13 +2,11 @@
   "description": "Numbers k such that k*3^k - 1 is prime.",
   "id": "A006553",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 1,
     "size": 25,
     "source": "oeis-entry"

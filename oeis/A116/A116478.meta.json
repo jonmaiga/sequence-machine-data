@@ -2,14 +2,12 @@
   "description": "a(1) = 1. a(n) = Sum_{k=1..n-1} floor(n/a(k)).",
   "id": "A116478",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:06",
     "offset": 1,
     "size": 63,
     "source": "oeis-bfile"

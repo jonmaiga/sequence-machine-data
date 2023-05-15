@@ -5,7 +5,6 @@
     "A173503",
     "A173505"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "less",
@@ -13,7 +12,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:57",
     "offset": 0,
     "size": 36,
     "source": "oeis-bfile"

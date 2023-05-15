@@ -2,13 +2,11 @@
   "description": "Nearest integer to 1/delta_n, where the delta_n are coefficients in Sitaramachandrarao's series for the Riemann zeta function.",
   "id": "A330552",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "more",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 0,
     "size": 31,
     "source": "oeis-entry"

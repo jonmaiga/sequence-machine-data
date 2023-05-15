@@ -2,14 +2,12 @@
   "description": "Integers N that yield exactly 10 different digits when all sums of two successive digits of N are considered.",
   "id": "A296534",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "base",
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:16",
     "offset": 1,
     "size": 30,
     "source": "oeis-bfile"

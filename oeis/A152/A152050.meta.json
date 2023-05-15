@@ -2,12 +2,10 @@
   "description": "Smallest lower twin prime tp such that p + tp + 1 is prime. p ranges over the prime numbers.",
   "id": "A152050",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 90,
     "source": "oeis-entry"

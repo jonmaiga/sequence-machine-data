@@ -1,16 +1,15 @@
 {
-  "description": "Number of nX2 0..4 arrays with some element plus some horizontally, diagonally, antidiagonally or vertically adjacent neighbor totalling four exactly once.",
+  "description": "Number of n X 2 0..4 arrays with some element plus some horizontally, diagonally, antidiagonally or vertically adjacent neighbor totaling four exactly once.",
   "id": "A269823",
   "mentions": [
     "A269829"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:32",
     "offset": 1,
     "size": 17,
     "source": "oeis-bfile"

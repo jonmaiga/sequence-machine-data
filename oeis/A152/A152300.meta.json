@@ -2,13 +2,11 @@
   "description": "A symmetrical triangle of coefficients of polynomials: q(x,n)=((1 - x)^(2*n)/(n*x))*Sum[Binomial[k + n - 1, k]*k^n*x^k, {k, 0, Infinity}]; p(x,n)=q(x,n)+x^(n-1)*q(1/x,n); t(n,m)=coefficients(p(x,n)).",
   "id": "A152300",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 36,
     "source": "oeis-entry"

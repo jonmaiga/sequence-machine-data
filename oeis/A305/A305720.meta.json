@@ -19,7 +19,6 @@
     "A268354",
     "A268357"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "formulas",
     "mult",
@@ -27,7 +26,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 1,
     "size": 86,
     "source": "oeis-entry"

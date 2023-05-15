@@ -11,14 +11,12 @@
     "A059797",
     "A117506"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn",
     "tabf",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 22,
     "source": "oeis-entry"

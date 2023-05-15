@@ -2,14 +2,12 @@
   "description": "Squarefree numbers n such that the difference between the closest squares surrounding n and n have a common divisor greater than 1.",
   "id": "A111205",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 6,
     "size": 55,
     "source": "oeis-entry"

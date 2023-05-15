@@ -2,12 +2,10 @@
   "description": "Smallest prime(k) such that 2^n divides the product of composite numbers between prime(k) and prime(k+1) but 2^(n+1) does not.",
   "id": "A077216",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 46,
     "source": "oeis-entry"

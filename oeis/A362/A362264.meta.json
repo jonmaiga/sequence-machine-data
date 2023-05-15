@@ -1,0 +1,20 @@
+{
+  "description": "Numbers > 9 with increasingly large digit average of their square, in base 10.",
+  "id": "A362264",
+  "mentions": [
+    "A068809",
+    "A068947",
+    "A164841"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

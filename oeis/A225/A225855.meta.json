@@ -6,14 +6,12 @@
     "A001969",
     "A133954"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "hard",
     "more",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 40,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Number of ways a prime number p can be expressed as 2*(p1-p2) + 3*p3, where p1, p2, p3 are primes or 1, less than or equal to p.",
   "id": "A120451",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

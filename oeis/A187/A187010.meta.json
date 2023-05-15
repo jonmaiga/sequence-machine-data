@@ -2,12 +2,10 @@
   "description": "G.f. satisfies: A(x) = Sum_{n>=0} x^n*g_n(x)^n where g_n(x) = A(x) - x^n*g_n(x)^n for n>=0.",
   "id": "A187010",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 0,
     "size": 28,
     "source": "oeis-entry"

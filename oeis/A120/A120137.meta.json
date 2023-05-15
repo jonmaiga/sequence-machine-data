@@ -1,19 +1,22 @@
 {
-  "description": "a(1)=8; a(n)=floor((17+sum(a(1) to a(n-1)))/2).",
+  "description": "a(n) = 8 + (1 + Sum_{j=0..n-1} a(j)) // 2, where '//' denotes integer division.",
   "id": "A120137",
   "mentions": [
     "A072493",
     "A073941",
-    "A112088"
+    "A112088",
+    "A120134",
+    "A120136",
+    "A120138",
+    "A120209"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 10:04:10",
-    "offset": 1,
+    "offset": 0,
     "size": 37,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

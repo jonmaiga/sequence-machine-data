@@ -2,13 +2,11 @@
   "description": "Penta-Primes. Prime Numbers n as a Sum of 5 consecutive prime numbers (four twin primes and single prime number in between) are primes.",
   "id": "A138397",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:26",
     "offset": 1,
     "size": 36,
     "source": "oeis-bfile"

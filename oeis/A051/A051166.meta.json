@@ -6,14 +6,12 @@
     "A051164",
     "A051165"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "eigen",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:59",
     "offset": 0,
     "size": 36,
     "source": "oeis-bfile"

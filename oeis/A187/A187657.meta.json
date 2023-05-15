@@ -2,14 +2,12 @@
   "description": "Binomial convolution of the central Stirling numbers of the second kind.",
   "id": "A187657",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 0,
     "size": 17,
     "source": "oeis-entry"

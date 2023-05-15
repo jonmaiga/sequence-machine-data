@@ -2,12 +2,10 @@
   "description": "Numbers n such that both n and (n-1)^2*2^n-1 are primes.",
   "id": "A196446",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 11,
     "source": "oeis-entry"

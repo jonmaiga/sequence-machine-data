@@ -9,7 +9,6 @@
     "A051237",
     "A051239"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
@@ -17,7 +16,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 82,
     "source": "oeis-entry"

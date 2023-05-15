@@ -2,14 +2,12 @@
   "description": "T(n,k)=1/4 the number of (n+1)X(k+1) binary arrays with all 2X2 subblock sums the same",
   "id": "A183986",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:08",
     "offset": 1,
     "size": 65,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "a(n) is the largest base-9 string such that the n-th number coprime to 9 does not divide any substring of a(n).",
   "id": "A114911",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 2,
     "size": 15,
     "source": "oeis-entry"

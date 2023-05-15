@@ -2,14 +2,13 @@
   "description": "a(n) = 8*n^3 - 449*n^2 + 7967*n - 45523.",
   "id": "A253045",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-26 11:42:35",
     "offset": 0,
     "size": 38,
     "source": "joeis"

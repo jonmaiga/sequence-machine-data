@@ -2,14 +2,12 @@
   "description": "Positive numbers that, spelled in English, are as long as the spelling of their digits.",
   "id": "A213006",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "base",
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:31",
     "offset": 1,
     "size": 67,
     "source": "oeis-bfile"

@@ -2,14 +2,12 @@
   "description": "Writing the integers of the sequence in English produces a word-sequence that spells itself (see the Example section).",
   "id": "A316910",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "base",
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:35",
     "offset": 1,
     "size": 106,
     "source": "oeis-bfile"

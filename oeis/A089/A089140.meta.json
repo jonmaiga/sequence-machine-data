@@ -2,13 +2,11 @@
   "description": "Number of subsequences of {1,2,3,...,n} which are p_1-sequences.",
   "id": "A089140",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:47",
     "offset": 1,
     "size": 23,
     "source": "oeis-entry"

@@ -2,12 +2,10 @@
   "description": "Number of trees T of order n such that W(T) = W(L(L(T))) where W(G) and L(G) are the Wiener index and line graph of a graph G.",
   "id": "A051175",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 1,
     "size": 26,
     "source": "oeis-entry"

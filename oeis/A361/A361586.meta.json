@@ -1,0 +1,17 @@
+{
+  "description": "Number of digraphs on n unlabeled nodes in which every node belongs to a directed cycle.",
+  "id": "A361586",
+  "mentions": [
+    "A086366",
+    "A350794",
+    "A361590"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

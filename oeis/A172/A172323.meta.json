@@ -2,13 +2,11 @@
   "description": "Floor(n*(sqrt(5)+sqrt(2))).",
   "id": "A172323",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:18:09",
     "offset": 0,
     "size": 59,
     "source": "joeis"

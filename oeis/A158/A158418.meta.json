@@ -2,7 +2,6 @@
   "description": "A triangle sequence from matrix polynomials of a three symbol type {0, 1, 2}: c(i,k)= Floor[Mod[i/2^k, 2]]; M(d)=Table[If[Sum[c(n, k)*c(m, k), {k, 0, d - 1}] == 0, 1, If[Sum[c(n, k)*c(m, k), {k, 0, d - 1}] == 1, 2, 0]], {n, 0, d - 1}, {m, 0, d - 1}].",
   "id": "A158418",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 60,
     "source": "oeis-entry"

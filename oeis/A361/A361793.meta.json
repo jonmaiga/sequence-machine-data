@@ -1,0 +1,21 @@
+{
+  "description": "Sum of the squares d^2 of the divisors d satisfying d^3|n.",
+  "id": "A361793",
+  "mentions": [
+    "A010057",
+    "A035316",
+    "A069290",
+    "A333843"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

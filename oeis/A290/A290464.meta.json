@@ -2,13 +2,11 @@
   "description": "Consider the graded poset consisting of the distinct partitions of n read mod 2; a(n) is the number of edges.",
   "id": "A290464",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

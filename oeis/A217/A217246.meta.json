@@ -2,13 +2,11 @@
   "description": "Number of highly irregular connected graphs with n nodes.",
   "id": "A217246",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

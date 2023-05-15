@@ -2,14 +2,12 @@
   "description": "Smallest prime p such that, for every positive integer k <= n, the concatenation of p, prime(k)^2 and reverse(p) is prime.",
   "id": "A259744",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "base",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 8,
     "source": "oeis-entry"

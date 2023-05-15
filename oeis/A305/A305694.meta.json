@@ -2,12 +2,10 @@
   "description": "Number of length-n binary words containing no instance of the pattern x y y x^R where x and y are nonempty.",
   "id": "A305694",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 0,
     "size": 50,
     "source": "oeis-entry"

@@ -1,16 +1,14 @@
 {
-  "description": "1/120 the number of (n+1)X5 0..4 arrays with every 2X2 subblock containing four distinct values",
+  "description": "1/120 the number of (n+1) X 5 0..4 arrays with every 2 X 2 subblock containing four distinct values.",
   "id": "A183617",
   "mentions": [
     "A183622"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:07",
     "offset": 1,
     "size": 15,
     "source": "oeis-bfile"

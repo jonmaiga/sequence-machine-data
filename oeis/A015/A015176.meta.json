@@ -2,12 +2,10 @@
   "description": "Sum of (Gaussian) q-binomial coefficients for q=-11.",
   "id": "A015176",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:21",
     "offset": 0,
     "size": 13,
     "source": "oeis-bfile"

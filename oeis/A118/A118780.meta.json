@@ -8,14 +8,12 @@
     "A117301",
     "A118713"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 58,
     "source": "oeis-entry"

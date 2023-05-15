@@ -2,13 +2,11 @@
   "description": "Decimal expansion of cap height at which the area of a circular segment equals 1/4 that of the entire circle.",
   "id": "A133742",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:21",
     "offset": 0,
     "size": 105,
     "source": "oeis-bfile"

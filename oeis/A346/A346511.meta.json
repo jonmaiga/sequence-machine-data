@@ -2,13 +2,11 @@
   "description": "a(n) = bitwise XOR of decimal digits of n.",
   "id": "A346511",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 0,
     "size": 83,
     "source": "oeis-entry"

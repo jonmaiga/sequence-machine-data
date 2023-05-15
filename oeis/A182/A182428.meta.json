@@ -2,14 +2,12 @@
   "description": "a(n) = 2n(19-n).",
   "id": "A182428",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-26 12:36:47",
     "offset": 0,
     "size": 62,
     "source": "joeis"

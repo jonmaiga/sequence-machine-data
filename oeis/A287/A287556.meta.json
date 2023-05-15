@@ -22,13 +22,11 @@
     "A287577",
     "A287580"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:59",
     "offset": 1,
     "size": 86,
     "source": "oeis-bfile"

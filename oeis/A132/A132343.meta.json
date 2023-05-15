@@ -2,13 +2,11 @@
   "description": "Output of Knuth's \"man or boy\" test for varying k.",
   "id": "A132343",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:20",
     "offset": 0,
     "size": 34,
     "source": "oeis-bfile"

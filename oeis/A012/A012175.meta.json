@@ -2,12 +2,10 @@
   "description": "sin(tan(arctanh(x)))=x+3/3!*x^3+41/5!*x^5+1019/7!*x^7+12305/9!*x^9...",
   "id": "A012175",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 09:51:06",
     "offset": 0,
     "size": 13,
     "source": "joeis"

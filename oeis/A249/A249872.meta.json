@@ -2,12 +2,10 @@
   "description": "Number of iterations to reach a final state for an n X n lattice of sandpiles on a torus according to rules specified in the comment section.",
   "id": "A249872",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:06",
     "offset": 1,
     "size": 36,
     "source": "oeis-bfile"

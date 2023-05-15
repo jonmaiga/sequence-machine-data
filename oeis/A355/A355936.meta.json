@@ -7,14 +7,12 @@
     "A295316",
     "A355826"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "formulas",
     "mult",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:30",
     "offset": 1,
     "size": 105,
     "source": "oeis-bfile"

@@ -1,0 +1,37 @@
+{
+  "description": "Numbers whose prime indices satisfy: (maximum) - (minimum) = (mean).",
+  "id": "A362047",
+  "mentions": [
+    "A001222",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A111907",
+    "A112798",
+    "A118096",
+    "A237832",
+    "A243055",
+    "A268192",
+    "A316413",
+    "A326567",
+    "A326568",
+    "A326836",
+    "A326837",
+    "A326844",
+    "A326846",
+    "A359358",
+    "A359360",
+    "A361855",
+    "A361862",
+    "A361908"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

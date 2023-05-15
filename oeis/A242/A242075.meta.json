@@ -2,13 +2,11 @@
   "description": "Smallest positive integer divisible by n to occur as the initial digits in the decimal expansion of the reciprocal of n, or 0 if impossible.",
   "id": "A242075",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 25,
     "source": "oeis-entry"

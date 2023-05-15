@@ -1,19 +1,18 @@
 {
-  "description": "Number of circular permutations where for every pair of adjacent elements one element in binary notation has ones at the same or adjacent positions to those of the other element.",
+  "description": "Number of circular permutations of {1, 2, ..., n} such that in every pair of adjacent elements each element in binary notation has ones at the same or adjacent positions to those of the other element.",
   "id": "A115509",
   "mentions": [
+    "A115506",
     "A115507",
     "A115508"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
-    "size": 21,
+    "size": 47,
     "source": "oeis-entry"
   }
 }

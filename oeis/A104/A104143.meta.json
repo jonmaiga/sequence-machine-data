@@ -2,7 +2,6 @@
   "description": "Take any three consecutive terms and write them down (in French): their letters sum up to a square number. This is the slowest strictly increasing such sequence.",
   "id": "A104143",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 15,
     "source": "oeis-entry"

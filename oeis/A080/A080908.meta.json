@@ -2,12 +2,10 @@
   "description": "a(n) = the sign of r(n), where r(n) is the integer in [ -2n,2n] which is congruent to (2n)! modulo 4n+1",
   "id": "A080908",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 26,
     "source": "oeis-entry"

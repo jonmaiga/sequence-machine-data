@@ -2,12 +2,10 @@
   "description": "A positive integer n is included if neither n-1 nor n+1 have any of the same prime-factorization exponents as n has.",
   "id": "A140104",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 52,
     "source": "oeis-entry"

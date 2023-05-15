@@ -2,14 +2,12 @@
   "description": "Constructibility sequence, the number of points constructed by straightedge and compass after successive stages of forming all possible lines, circles, and intersection points, beginning with 2 points.",
   "id": "A333944",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

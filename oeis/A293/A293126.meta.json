@@ -2,13 +2,11 @@
   "description": "Number of matchings in the 2n-crossed prism graph.",
   "id": "A293126",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 15:43:14",
     "offset": 0,
     "size": 20,
     "source": "joeis"

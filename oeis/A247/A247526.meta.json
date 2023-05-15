@@ -8,14 +8,12 @@
     "A085696",
     "A098149"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:03",
     "offset": 0,
     "size": 23,
     "source": "oeis-bfile"

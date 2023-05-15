@@ -2,12 +2,10 @@
   "description": "Number of 2n-vertex connected cubic vertex-transitive graphs which are \"Graphical Regular Representations\" (automorphism group acts regularly on the vertices).",
   "id": "A241165",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:58",
     "offset": 2,
     "size": 71,
     "source": "oeis-bfile"

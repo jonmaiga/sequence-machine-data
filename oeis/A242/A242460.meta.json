@@ -2,13 +2,11 @@
   "description": "Integers in the Hadron Collider: Composite integers, n, break apart into a(n)>=2 factors in order to minimize the product: (number of factors)*(max factor - min factor). In case of ties, a(n) is chosen to be as small as possible.",
   "id": "A242460",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:58",
     "offset": 2,
     "size": 87,
     "source": "oeis-bfile"

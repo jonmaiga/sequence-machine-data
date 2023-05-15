@@ -5,14 +5,13 @@
     "A092175",
     "A163500"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
+    "changed",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

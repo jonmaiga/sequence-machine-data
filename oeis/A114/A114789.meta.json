@@ -2,12 +2,10 @@
   "description": "a(1) = 1, a(2) = 3 and thereafter a(n) is the smallest number congruent to 1 mod a(n-1) and having the prime signature of n.",
   "id": "A114789",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 13,
     "source": "oeis-entry"

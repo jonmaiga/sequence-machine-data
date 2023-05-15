@@ -2,14 +2,12 @@
   "description": "Floor((n+1)*(n-3)*(n-4)/12).",
   "id": "A212772",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:35:31",
     "offset": 0,
     "size": 61,
     "source": "joeis"

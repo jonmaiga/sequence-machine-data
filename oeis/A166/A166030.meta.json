@@ -2,13 +2,11 @@
   "description": "Continued fraction expansion for the positive x so that the harmonic number of x is 2",
   "id": "A166030",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "cofr",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 98,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "a(n) = smallest positive multiple of n that, when represented in binary, contains the binary representations of all positive integers <= n at least once each.",
   "id": "A144144",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 31,
     "source": "oeis-entry"

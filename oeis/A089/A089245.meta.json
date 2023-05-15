@@ -2,14 +2,12 @@
   "description": "Integer part of square root of the reciprocal of a number multiplied by 10 to the power of the integer part of the square root of the number.",
   "id": "A089245",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 41,
     "source": "oeis-entry"

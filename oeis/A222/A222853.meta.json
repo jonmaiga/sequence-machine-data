@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of nXk 0..2 arrays with no more than floor(nXk/2) elements equal to at least one horizontal or vertical neighbor, with new values introduced in row major 0..2 order",
   "id": "A222853",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:40",
     "offset": 1,
     "size": 40,
     "source": "oeis-bfile"

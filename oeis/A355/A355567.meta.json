@@ -8,14 +8,12 @@
     "A355565",
     "A355566"
   ],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "frac",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:30",
     "offset": 0,
     "size": 66,
     "source": "oeis-bfile"

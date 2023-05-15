@@ -1,16 +1,15 @@
 {
-  "description": "Number of 4Xn 0..2 arrays with new values 0..2 introduced in row major order and no element equal to more than two of its immediate leftward or upward or right-upward antidiagonal neighbors",
+  "description": "Number of 4 X n 0..2 arrays with new values 0..2 introduced in row major order and no element equal to more than two of its immediate leftward or upward or right-upward antidiagonal neighbors.",
   "id": "A208395",
   "mentions": [
     "A208392"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:28",
     "offset": 1,
     "size": 13,
     "source": "oeis-bfile"

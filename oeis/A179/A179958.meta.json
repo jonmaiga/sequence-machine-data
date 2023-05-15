@@ -2,12 +2,10 @@
   "description": "Number of permutations of 1..n such that |p(i)-p(i-1)| >=5 for i>1.",
   "id": "A179958",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 21,
     "source": "oeis-entry"

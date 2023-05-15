@@ -2,13 +2,11 @@
   "description": "Triangle where n-th row is (1,2,3,...n) arranged first by number of divisors and then numerically (among those integers with the same number of divisors).",
   "id": "A119585",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 91,
     "source": "oeis-entry"

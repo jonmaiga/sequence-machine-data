@@ -2,14 +2,12 @@
   "description": "Experience Points thresholds for levels in the pen and paper role-playing game \"Das Schwarze Auge\" (DSA, a.k.a. \"The Dark Eye\").",
   "id": "A124437",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 15:34:27",
     "offset": 1,
     "size": 37,
     "source": "joeis"

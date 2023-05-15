@@ -6,13 +6,11 @@
     "A002485",
     "A002486"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 30,
     "source": "oeis-entry"

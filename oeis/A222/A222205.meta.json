@@ -2,13 +2,11 @@
   "description": "Number of multi-directed animals with n vertices.",
   "id": "A222205",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 23,
     "source": "oeis-entry"

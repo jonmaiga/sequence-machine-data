@@ -2,12 +2,10 @@
   "description": "The n-th entry of the sequence is the value of the permanent of an n X n matrix M defined as follows: if we concatenate the rows of M to form a vector v of length n^2, v_i is the i-th Fibonacci number.",
   "id": "A114534",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 2,
     "size": 7,
     "source": "oeis-entry"

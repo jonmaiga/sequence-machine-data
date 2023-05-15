@@ -2,14 +2,12 @@
   "description": "a(1)=2; thereafter a(n) is the smallest prime > a(n-1) that is not a factor of any 1+A, where A is a product of one or more distinct earlier terms.",
   "id": "A260388",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 24,
     "source": "oeis-entry"

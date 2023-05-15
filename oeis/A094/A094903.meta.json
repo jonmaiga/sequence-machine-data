@@ -2,13 +2,11 @@
   "description": "Average of 4 primes where the integer Schwarzian derivative is zero.",
   "id": "A094903",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 4,
     "size": 35,
     "source": "oeis-entry"

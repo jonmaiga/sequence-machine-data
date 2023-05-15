@@ -4,15 +4,12 @@
   "mentions": [
     "A266549"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "hard",
     "more",
-    "new",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 2,
     "size": 15,
     "source": "oeis-entry"

@@ -29,13 +29,11 @@
     "A271982",
     "A272176"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 68,
     "source": "oeis-entry"

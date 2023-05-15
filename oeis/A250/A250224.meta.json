@@ -1,15 +1,13 @@
 {
-  "description": "Number of length n+1 0..3 arrays with the sum of the cubes of adjacent differences multiplied by some arrangement of +-1 equal to zero",
+  "description": "Number of length n+1 0..3 arrays with the sum of the cubes of adjacent differences multiplied by some arrangement of +-1 equal to zero.",
   "id": "A250224",
   "mentions": [
     "A250229"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:06",
     "offset": 1,
     "size": 23,
     "source": "oeis-bfile"

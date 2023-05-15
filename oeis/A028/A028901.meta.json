@@ -2,13 +2,11 @@
   "description": "Map n = Sum c_i 10^i to a(n) = Sum c_i 6^i.",
   "id": "A028901",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:40:39",
     "offset": 0,
     "size": 74,
     "source": "joeis"

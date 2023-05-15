@@ -6,13 +6,11 @@
     "A229551",
     "A229892"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "eigen",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:46",
     "offset": 0,
     "size": 28,
     "source": "oeis-bfile"

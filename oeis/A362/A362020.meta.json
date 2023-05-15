@@ -1,0 +1,16 @@
+{
+  "description": "Nonnegative numbers k not ending in 0 such that, in decimal representation, the subsequence of digits of k^2 occupying an odd position is equal to the digits of k.",
+  "id": "A362020",
+  "mentions": [
+    "A326418"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

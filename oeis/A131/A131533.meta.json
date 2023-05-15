@@ -2,7 +2,6 @@
   "description": "Period 6: repeat [0, 0, 0, 0, 1, -1].",
   "id": "A131533",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
@@ -10,7 +9,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2022-04-26 10:22:25",
     "offset": 0,
     "size": 104,
     "source": "joeis"

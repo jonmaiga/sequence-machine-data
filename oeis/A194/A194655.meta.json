@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Pi*(Pi^2*zeta(3)+6*zeta(5))/8.",
+  "description": "Decimal expansion of Pi*(Pi^2*zeta(3) + 6*zeta(5))/8.",
   "id": "A194655",
   "mentions": [
     "A000796",
@@ -10,14 +10,12 @@
     "A193712",
     "A193713"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 13:09:31",
     "offset": 1,
     "size": 105,
     "source": "joeis"

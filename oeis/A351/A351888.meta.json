@@ -2,12 +2,10 @@
   "description": "Number of spanning trees of the graph acquired by placing a vertex in each of the n^2 cells of a triangle of size n in a triangular grid and placing edges between two vertices whenever two cells share a side.",
   "id": "A351888",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:26",
     "offset": 1,
     "size": 13,
     "source": "oeis-bfile"

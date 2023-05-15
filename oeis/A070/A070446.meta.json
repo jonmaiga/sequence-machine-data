@@ -2,13 +2,11 @@
   "description": "a(n) = n^2 mod 24.",
   "id": "A070446",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:08:27",
     "offset": 0,
     "size": 92,
     "source": "joeis"

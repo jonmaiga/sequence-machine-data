@@ -2,12 +2,10 @@
   "description": "E.g.f.: sech(log(x+1)-sinh(x))=1-3/4!*x^4+10/5!*x^5-100/6!*x^6+693/7!*x^7...",
   "id": "A013269",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-16 12:46:55",
     "offset": 0,
     "size": 21,
     "source": "joeis"

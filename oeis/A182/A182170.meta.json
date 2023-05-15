@@ -1,17 +1,15 @@
 {
-  "description": "Decimal expansion of constant C = maximum value of 2*sum(i=1..n, prime(i))/(n^2*log(n)).",
+  "description": "Decimal expansion of constant C = maximum value of 2*(Sum_{j=1..n} prime(j))/(n^2*log(n)).",
   "id": "A182170",
   "mentions": [
     "A007504"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 83,
     "source": "oeis-entry"

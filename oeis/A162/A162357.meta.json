@@ -2,13 +2,11 @@
   "description": "a(n) is the smallest prime p beginning with 2n such that the difference between p and the next prime is 2n.",
   "id": "A162357",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 33,
     "source": "oeis-entry"

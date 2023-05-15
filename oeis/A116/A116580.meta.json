@@ -2,7 +2,6 @@
   "description": "square resultant of a complex prime genus function based on modulo 12 genus and modulo six genus functions.",
   "id": "A116580",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 49,
     "source": "oeis-entry"

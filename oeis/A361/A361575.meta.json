@@ -1,0 +1,18 @@
+{
+  "description": "Number of Fibonacci meanders of length n.",
+  "id": "A361575",
+  "mentions": [
+    "A198060",
+    "A199932",
+    "A361574"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

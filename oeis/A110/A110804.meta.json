@@ -2,14 +2,12 @@
   "description": "a(1) = 10, a(n) = a(n-1) times the number of digits in a(n-1).",
   "id": "A110804",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 21,
     "source": "oeis-entry"

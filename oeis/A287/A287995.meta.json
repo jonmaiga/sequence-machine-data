@@ -2,13 +2,11 @@
   "description": "Number of connected (non-null) induced subgraphs in the n-Andrasfai graph.",
   "id": "A287995",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 15,
     "source": "oeis-entry"

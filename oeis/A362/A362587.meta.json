@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = 2^n * A094088(n). Row sums of A362586.",
+  "id": "A362587",
+  "mentions": [
+    "A094088",
+    "A362586"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

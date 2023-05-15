@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = bigomega(A249670(A003961(n))).",
+  "id": "A361469",
+  "mentions": [
+    "A001222",
+    "A003961",
+    "A065997",
+    "A247086",
+    "A249670",
+    "A361468"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-bfile"
+  }
+}

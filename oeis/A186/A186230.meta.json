@@ -9,7 +9,6 @@
     "A057475",
     "A185953"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "look",
@@ -17,7 +16,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:10",
     "offset": 1,
     "size": 105,
     "source": "oeis-bfile"

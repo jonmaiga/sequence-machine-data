@@ -2,13 +2,11 @@
   "description": "G.f.: 1/(1-x) = sqrt(1 + a(1)*x + x*sqrt(1 + a(2)*x + x*sqrt(1 + a(3)*x + x*sqrt(...) ) ) ).",
   "id": "A268296",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

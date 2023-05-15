@@ -2,13 +2,11 @@
   "description": "Number of rotations of the digits in n produced by n * x/y where x != y.",
   "id": "A285936",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:57",
     "offset": 10,
     "size": 105,
     "source": "oeis-bfile"

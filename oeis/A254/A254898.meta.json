@@ -7,7 +7,6 @@
     "A039916",
     "A092845"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "base",
     "dumb",
@@ -16,7 +15,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 21,
     "source": "oeis-entry"

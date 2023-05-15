@@ -8,15 +8,12 @@
     "A086621",
     "A243945"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-09-08 06:56:24",
     "offset": 0,
     "size": 21,
     "source": "joeis"

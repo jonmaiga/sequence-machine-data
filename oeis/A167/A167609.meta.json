@@ -1,5 +1,5 @@
 {
-  "description": "Primes which not are the sum of two consecutive nonprimes A141468.",
+  "description": "Primes which are not the sum of two consecutive nonprimes A141468.",
   "id": "A167609",
   "mentions": [
     "A000040",
@@ -7,12 +7,10 @@
     "A079149",
     "A141468"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 53,
     "source": "oeis-entry"

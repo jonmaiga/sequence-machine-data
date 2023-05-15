@@ -1,0 +1,19 @@
+{
+  "description": "Number of odd semiprimes between 2^(n-1) and 2^n.",
+  "id": "A362318",
+  "mentions": [
+    "A036378",
+    "A046315",
+    "A120033",
+    "A362042"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "oeis-bfile"
+  }
+}

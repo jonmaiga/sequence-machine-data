@@ -1,8 +1,9 @@
 {
-  "description": "Sum of perimeters of the parts of the symmetric representation of sigma(n).",
+  "description": "Sum of all perimeters of all parts of the symmetric representation of sigma(n).",
   "id": "A274919",
   "mentions": [
     "A000203",
+    "A008586",
     "A196020",
     "A236104",
     "A237270",
@@ -13,18 +14,18 @@
     "A244370",
     "A244371",
     "A245092",
-    "A262626"
+    "A262626",
+    "A279228"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
+    "changed",
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
-    "size": 28,
+    "size": 32,
     "source": "oeis-entry"
   }
 }

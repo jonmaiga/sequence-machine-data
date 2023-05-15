@@ -2,12 +2,10 @@
   "description": "Primes p such that 31 is not a square mod p.",
   "id": "A038906",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:43:31",
     "offset": 1,
     "size": 46,
     "source": "joeis"

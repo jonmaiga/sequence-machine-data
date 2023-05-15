@@ -2,14 +2,12 @@
   "description": "Number of minimal dominating sets in the n-Apollonian network.",
   "id": "A347511",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "bref",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 3,
     "source": "oeis-entry"

@@ -16,13 +16,11 @@
     "A195838",
     "A195849"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "sign",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:28",
     "offset": 1,
     "size": 70,
     "source": "oeis-entry"

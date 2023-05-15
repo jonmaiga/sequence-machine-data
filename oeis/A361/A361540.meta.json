@@ -1,0 +1,29 @@
+{
+  "description": "Expansion of e.g.f. A(x,y) satisfying A(x,y) = Sum_{n>=0} (A(x,y)^n + y)^n * x^n/n!, as a triangle read by rows.",
+  "id": "A361540",
+  "mentions": [
+    "A155806",
+    "A185298",
+    "A202999",
+    "A203013",
+    "A361053",
+    "A361054",
+    "A361055",
+    "A361056",
+    "A361057",
+    "A361539",
+    "A361544",
+    "A361549",
+    "A361688"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

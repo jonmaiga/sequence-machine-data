@@ -2,14 +2,12 @@
   "description": "(2^n+2)*(2^n+4)*(4^n+9*2^n+38)/720.",
   "id": "A030538",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:40",
     "offset": 0,
     "size": 21,
     "source": "oeis-bfile"

@@ -2,14 +2,12 @@
   "description": "Least member of a quartet of bemirps of n digits such that the 4 bemirps are the greatest of twin primes or 0 if no such primes exist.",
   "id": "A122966",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 22,
     "source": "oeis-entry"

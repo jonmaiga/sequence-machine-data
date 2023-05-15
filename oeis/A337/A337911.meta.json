@@ -2,14 +2,12 @@
   "description": "Decimal expansion of probability that the random harmonic series converges to 0.",
   "id": "A337911",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "cons",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 0,
     "size": 9,
     "source": "oeis-entry"

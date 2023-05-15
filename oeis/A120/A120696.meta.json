@@ -8,7 +8,6 @@
     "A120697",
     "A120698"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "base",
     "look",
@@ -16,7 +15,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:09",
     "offset": 0,
     "size": 58,
     "source": "oeis-bfile"

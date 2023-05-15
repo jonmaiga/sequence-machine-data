@@ -2,12 +2,10 @@
   "description": "First of four consecutive primes p,q,r,s such that 2*p+q+r+s, p+2*q+r+s, p+q+2*r+s and p+q+r+2*s are all prime.",
   "id": "A349586",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:24",
     "offset": 1,
     "size": 40,
     "source": "oeis-bfile"

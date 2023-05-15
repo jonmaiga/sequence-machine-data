@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the largest prime p such that 2^p - 1 <= 10^n.",
+  "id": "A361977",
+  "mentions": [
+    "A000040",
+    "A000043",
+    "A000668",
+    "A011557",
+    "A067497",
+    "A151799"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

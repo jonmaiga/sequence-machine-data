@@ -2,13 +2,11 @@
   "description": "E.g.f. sin(arctan(log(1+x))).",
   "id": "A191817",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 04:04:53",
     "offset": 0,
     "size": 24,
     "source": "joeis"

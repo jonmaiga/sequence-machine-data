@@ -2,14 +2,12 @@
   "description": "Smallest prime q such that sum(i=1..n-1, q mod(prime(i))) == q mod prime(n).",
   "id": "A216150",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 2,
     "size": 16,
     "source": "oeis-entry"

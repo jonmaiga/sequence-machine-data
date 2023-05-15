@@ -2,13 +2,11 @@
   "description": "From studying monochromatic solutions to x3-x2=x2-x1+2n.",
   "id": "A011767",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 0,
     "size": 11,
     "source": "oeis-entry"

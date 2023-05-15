@@ -2,14 +2,12 @@
   "description": "Let P(k) = floor(k/2). Start with n, apply P repeatedly until reach 1. a(n) = concatenation of numbers obtained.",
   "id": "A083177",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 35,
     "source": "oeis-entry"

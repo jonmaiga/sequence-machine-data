@@ -2,13 +2,11 @@
   "description": "Integral Euler characteristic of the outer automorphism group Out(F_n) of the free group of rank n.",
   "id": "A323284",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "more",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 2,
     "size": 10,
     "source": "oeis-entry"

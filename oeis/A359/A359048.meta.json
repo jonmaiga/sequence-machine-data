@@ -2,7 +2,6 @@
   "description": "a(n) is the minimum denominator d such that the decimal expansion of n/d is eventually periodic with periodicity not equal to zero.",
   "id": "A359048",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 1,
     "size": 90,
     "source": "oeis-entry"

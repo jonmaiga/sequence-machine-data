@@ -1,5 +1,5 @@
 {
-  "description": "Array read by antidiagonals: T(n,k) = (k+1)^n*(n+k)!/n!.",
+  "description": "Array read by antidiagonals: A(n,k) = (k+1)^n*(n+k)!/n!.",
   "id": "A152818",
   "mentions": [
     "A000012",
@@ -11,21 +11,20 @@
     "A009998",
     "A055533",
     "A072597",
+    "A089148",
     "A119502",
     "A152650",
     "A152656",
     "A154372"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 45,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -2,14 +2,12 @@
   "description": "T(n,k) is the number of (n+1) X (k+1) 0..2 matrices with each 2 X 2 permanent equal.",
   "id": "A225027",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:43",
     "offset": 1,
     "size": 32,
     "source": "oeis-bfile"

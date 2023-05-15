@@ -2,12 +2,10 @@
   "description": "Index of 9^n within sequence of numbers of form 5^i*9^j.",
   "id": "A025735",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:04",
     "offset": 1,
     "size": 52,
     "source": "joeis"

@@ -1,18 +1,17 @@
 {
-  "description": "Numbers n such that 1.2. ... .n-1.n + 2 is prime (dot between numbers means concatenation).",
+  "description": "Numbers k such that 1.2. ... .k-1.k + 2 is prime (dot between numbers means concatenation).",
   "id": "A099082",
   "mentions": [
+    "A007908",
     "A099081",
     "A099083"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

@@ -10,7 +10,6 @@
     "A358854",
     "A359271"
   ],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "base",
     "easy",
@@ -18,9 +17,8 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 1,
     "size": 20,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

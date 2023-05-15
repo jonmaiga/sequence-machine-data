@@ -1,0 +1,29 @@
+{
+  "description": "a(n) = number of k < t such that rad(k) = rad(t) and k does not divide t, where t = A360768(n) and rad(k) = A007947(k).",
+  "id": "A359382",
+  "mentions": [
+    "A007947",
+    "A010846",
+    "A013929",
+    "A020639",
+    "A024619",
+    "A027750",
+    "A126706",
+    "A162306",
+    "A243822",
+    "A272618",
+    "A355432",
+    "A359929",
+    "A360589",
+    "A360768"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,13 +2,11 @@
   "description": "Sum of prime p and largest prime divisor of p-1.",
   "id": "A085382",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 5,
     "size": 57,
     "source": "oeis-entry"

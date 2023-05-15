@@ -2,13 +2,11 @@
   "description": "Galois numbers for p=3; order of group AGL(n,3).",
   "id": "A028665",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:38",
     "offset": 0,
     "size": 10,
     "source": "oeis-bfile"

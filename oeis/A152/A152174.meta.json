@@ -5,14 +5,12 @@
     "A087206",
     "A147703"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "easy",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 10:57:05",
     "offset": 0,
     "size": 24,
     "source": "joeis"

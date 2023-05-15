@@ -4,14 +4,12 @@
   "mentions": [
     "A161865"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:44",
     "offset": 1,
     "size": 66,
     "source": "oeis-bfile"

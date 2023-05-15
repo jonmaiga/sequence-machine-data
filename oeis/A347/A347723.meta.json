@@ -2,14 +2,12 @@
   "description": "Number of irredundant sets in the n X n torus grid graph.",
   "id": "A347723",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "bref",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 3,
     "size": 3,
     "source": "oeis-entry"

@@ -4,13 +4,10 @@
   "mentions": [
     "A292754"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "sign"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 0,
     "size": 23,
     "source": "oeis-entry"

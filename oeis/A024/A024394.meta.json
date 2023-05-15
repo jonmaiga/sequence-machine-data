@@ -2,14 +2,12 @@
   "description": "a(n) is the sum of squares of the first n positive integers congruent to 2 mod 3.",
   "id": "A024394",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:23:15",
     "offset": 1,
     "size": 39,
     "source": "joeis"

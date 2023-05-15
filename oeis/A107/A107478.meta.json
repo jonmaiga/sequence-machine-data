@@ -2,14 +2,12 @@
   "description": "Slowest increasing sequence where: 1) a(n) cannot contain any \"0\" and 2) a(n) must contain one digit of the product of the digits of a(n-1).",
   "id": "A107478",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 44,
     "source": "oeis-entry"

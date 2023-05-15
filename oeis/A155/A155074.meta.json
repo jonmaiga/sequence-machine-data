@@ -2,14 +2,12 @@
   "description": "Primes that appear as a substring in the concatenation of primes.",
   "id": "A155074",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 48,
     "source": "oeis-entry"

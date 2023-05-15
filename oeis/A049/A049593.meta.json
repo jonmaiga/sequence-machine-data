@@ -2,12 +2,10 @@
   "description": "Primes p for which residue of ((p-1)! + 1) modulo (p + 16) equals 1.",
   "id": "A049593",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:58",
     "offset": 1,
     "size": 55,
     "source": "oeis-bfile"

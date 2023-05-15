@@ -18,14 +18,12 @@
     "A262385",
     "A262386"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:22",
     "offset": 1,
     "size": 20,
     "source": "oeis-bfile"

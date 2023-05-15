@@ -2,14 +2,12 @@
   "description": "Self-describing sequence : 2 composite integers between two primes, then 4 composites, then 6, then 7, then 8, etc. The quantity of composites in each run is given by the sequence itself. (Sequence is strictly increasing and the smallest next available prime is used when needed).",
   "id": "A114145",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 2,
     "size": 71,
     "source": "oeis-entry"

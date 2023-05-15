@@ -2,12 +2,10 @@
   "description": "Cycle lengths arising from interpreting sequence prefixes as graph node offsets.",
   "id": "A338643",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:10",
     "offset": 1,
     "size": 80,
     "source": "oeis-bfile"

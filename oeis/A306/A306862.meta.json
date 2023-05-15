@@ -2,13 +2,11 @@
   "description": "A binary sequence with property that k*pal(k)/fac(k) is unbounded, where fac() and pac() are respectively complexity and palindromic complexity.",
   "id": "A306862",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 0,
     "size": 69,
     "source": "oeis-entry"

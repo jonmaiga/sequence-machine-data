@@ -2,12 +2,10 @@
   "description": "Primes p with p+2^2, p+4^4, p+6^6, ..., p+16^16 prime.",
   "id": "A143910",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 23,
     "source": "oeis-entry"

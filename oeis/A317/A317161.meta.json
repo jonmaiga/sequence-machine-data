@@ -5,13 +5,11 @@
     "A005185",
     "A317754"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "look",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:36",
     "offset": 1,
     "size": 99,
     "source": "oeis-bfile"

@@ -1,0 +1,17 @@
+{
+  "description": "Number of graphs on n unlabeled nodes with treewidth 2.",
+  "id": "A362908",
+  "mentions": [
+    "A263294"
+  ],
+  "tags": [
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

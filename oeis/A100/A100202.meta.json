@@ -2,13 +2,11 @@
   "description": "Primes of the form 13*k + 3.",
   "id": "A100202",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:32:17",
     "offset": 1,
     "size": 45,
     "source": "joeis"

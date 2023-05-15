@@ -12,14 +12,12 @@
     "A220692",
     "A220693"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:38",
     "offset": 1,
     "size": 82,
     "source": "oeis-bfile"

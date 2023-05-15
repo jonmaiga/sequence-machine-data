@@ -1,0 +1,15 @@
+{
+  "description": "Number of labeled digraphs on [n] with exactly 1 in-node and exactly 1 out-node.",
+  "id": "A361210",
+  "mentions": [
+    "A086193"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

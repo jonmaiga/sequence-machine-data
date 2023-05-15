@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. 1/(1 + LambertW(x * log(1-x))).",
+  "id": "A362835",
+  "mentions": [
+    "A318615",
+    "A362836"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

@@ -2,13 +2,11 @@
   "description": "2n appears 2n+1 times, 2n+1 appears 2n times.",
   "id": "A130855",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:18",
     "offset": 0,
     "size": 79,
     "source": "oeis-bfile"

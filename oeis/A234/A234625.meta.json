@@ -2,12 +2,10 @@
   "description": "Numbers of undirected cycles in the n-Mycielski graph.",
   "id": "A234625",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 5,
     "source": "oeis-entry"

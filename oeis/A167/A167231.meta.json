@@ -1,8 +1,7 @@
 {
-  "description": "Append three digits, each increasing by one modulo 10 from the last digit the of the nonnegative integers. 0 -> 123, 1 -> 1234 2 -> 2345, ... , 9 -> 9012, 10 -> 10123, etc.",
+  "description": "Append three digits, each increasing by one modulo 10 from the last digit of the nonnegative integers. 0 -> 123, 1 -> 1234 2 -> 2345, ... , 9 -> 9012, 10 -> 10123, etc.",
   "id": "A167231",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-10-18 14:56:44",
     "offset": 0,
     "size": 39,
     "source": "joeis"

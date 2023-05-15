@@ -1,0 +1,20 @@
+{
+  "description": "Number of ways of dividing an n X 3 rectangle into integer-sided rectangles, up to rotations and reflections.",
+  "id": "A361525",
+  "mentions": [
+    "A208215",
+    "A359019",
+    "A360632",
+    "A361523"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

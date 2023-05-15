@@ -2,13 +2,11 @@
   "description": "Euler characteristic (H_*(h_{oo,1}^+)_{2n}^{Sp}) of the Sp-invariant homology group of the Lie algebra h_{oo,1}^+ of weight 2n.",
   "id": "A323283",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "more",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

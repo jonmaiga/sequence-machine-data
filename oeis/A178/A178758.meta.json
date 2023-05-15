@@ -2,12 +2,10 @@
   "description": "Smallest range 1..a(n) that permits n integers x() in 1..a(n) to exist with (x(i)-x(j)) mod (x(k)-x(j)) nonzero whenever i,j,k are disjoint.",
   "id": "A178758",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

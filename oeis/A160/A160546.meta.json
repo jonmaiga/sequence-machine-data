@@ -2,14 +2,12 @@
   "description": "Not divisible by 29.",
   "id": "A160546",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 17:14:13",
     "offset": 1,
     "size": 72,
     "source": "joeis"

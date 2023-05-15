@@ -2,12 +2,10 @@
   "description": "Number of planar triangular n X n X n nonnegative integer grids with every similarly oriented 2 X 2 X 2 subtriangle summing to 3.",
   "id": "A154033",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 2,
     "size": 59,
     "source": "oeis-entry"

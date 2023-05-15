@@ -2,13 +2,11 @@
   "description": "Palindromic sums of all emirps through some value (in base 10).",
   "id": "A211406",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Number of self-counting sequences of length n (sequences indexed from 0 to (n-1) where a(i) is the number of times i appears in the sequence).",
   "id": "A349595",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-10-18 14:56:45",
     "offset": 1,
     "size": 78,
     "source": "joeis"

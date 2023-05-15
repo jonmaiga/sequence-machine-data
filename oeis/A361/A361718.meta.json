@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of labeled directed acyclic graphs on [n] with exactly k nodes of indegree 0.",
+  "id": "A361718",
+  "mentions": [
+    "A003024",
+    "A003025",
+    "A058876",
+    "A224069",
+    "A361579"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

@@ -2,13 +2,11 @@
   "description": "Primes of the form k^4 + 2*k^3 + 36*k^2 + 35*k + 23.",
   "id": "A155815",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 18:57:47",
     "offset": 1,
     "size": 31,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "Decimal expansion of lowest Dirichlet eigenvalue of Laplacian within the unit-edged regular pentagon.",
   "id": "A262823",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:22",
     "offset": 2,
     "size": 86,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "Number of permutations of floor(i*7/5), i=0..n-1, with all sums of 7 adjacent terms unique.",
   "id": "A152638",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

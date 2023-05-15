@@ -2,12 +2,10 @@
   "description": "The number of words of length n created with the letters a, b, c with at least as many a's as b's and at least as many b's as c's and no adjacent letters forming the pattern aba or bab.",
   "id": "A176148",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:00",
     "offset": 0,
     "size": 30,
     "source": "oeis-bfile"

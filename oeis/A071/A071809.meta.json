@@ -2,13 +2,11 @@
   "description": "Smallest s such that sk-1 is squarefree for 1 <= k <= n.",
   "id": "A071809",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 62,
     "source": "oeis-entry"

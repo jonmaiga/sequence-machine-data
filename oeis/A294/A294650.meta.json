@@ -8,13 +8,11 @@
     "A225680",
     "A294649"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:12",
     "offset": 1,
     "size": 70,
     "source": "oeis-bfile"

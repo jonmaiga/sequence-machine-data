@@ -2,14 +2,12 @@
   "description": "Number of paths from (0,0) to (n,n) avoiding 4 or more consecutive east steps and 4 or more consecutive north steps.",
   "id": "A177792",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn",
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:01",
     "offset": 0,
     "size": 28,
     "source": "oeis-bfile"

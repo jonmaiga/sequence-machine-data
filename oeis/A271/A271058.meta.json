@@ -2,12 +2,10 @@
   "description": "Least m such that n equals a sum of binomial coefficients C(m,k1)+C(m,k2)+C(m,k3)+... with 0<=k1",
   "id": "A271058",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:35",
     "offset": 1,
     "size": 88,
     "source": "oeis-bfile"

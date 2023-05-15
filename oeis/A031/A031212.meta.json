@@ -2,13 +2,11 @@
   "description": "Periods of sum of 9th powers of digits iterated until the sequence becomes periodic.",
   "id": "A031212",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:50:39",
     "offset": 0,
     "size": 72,
     "source": "joeis"

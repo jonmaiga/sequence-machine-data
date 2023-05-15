@@ -2,13 +2,11 @@
   "description": "A product related to n-th roots of 1.",
   "id": "A045976",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 10:20:11",
     "offset": 1,
     "size": 17,
     "source": "joeis"

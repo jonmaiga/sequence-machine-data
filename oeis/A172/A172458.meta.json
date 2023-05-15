@@ -2,14 +2,12 @@
   "description": "Nonprimes n such that exactly one of 2n-1 and 2n+1 is prime.",
   "id": "A172458",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 64,
     "source": "oeis-entry"

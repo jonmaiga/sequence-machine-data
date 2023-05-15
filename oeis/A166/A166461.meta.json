@@ -2,7 +2,6 @@
   "description": "a(n) is the smallest integer > a(n-1) such that a(n) shares no digit with a(n-1) and c=a(n-1)+a(n), and also a(n-1) shares no digit with c.",
   "id": "A166461",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 38,
     "source": "oeis-entry"

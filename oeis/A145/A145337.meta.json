@@ -10,15 +10,13 @@
     "A103665",
     "A145338"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:33",
     "offset": 0,
     "size": 80,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

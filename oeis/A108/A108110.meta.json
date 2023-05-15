@@ -2,12 +2,10 @@
   "description": "Numbers n such that prime[k]*n+prime[k+1], for k=1,...,6 all are primes.",
   "id": "A108110",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 21,
     "source": "oeis-entry"

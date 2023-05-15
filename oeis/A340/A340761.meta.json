@@ -2,13 +2,11 @@
   "description": "Number of partitions of n into 4 parts whose 'middle' two parts have the same parity.",
   "id": "A340761",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 0,
     "size": 65,
     "source": "oeis-entry"

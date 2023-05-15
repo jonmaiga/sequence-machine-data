@@ -2,7 +2,6 @@
   "description": "Least k>n such that the last digit of k^k is the same as the last digit of n^n.",
   "id": "A072967",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 70,
     "source": "oeis-entry"

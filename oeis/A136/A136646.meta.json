@@ -2,14 +2,12 @@
   "description": "Primes that give find root imaginary results for: z1 = 1/2 - 4*I*Pi*x; z2 = 1 - 8*I*Pi*x; 1 + 2 x^z1 + x^z2 == 0; with Im[x]<-0.05. The resulting root share value of the Zeta[root] being near one.",
   "id": "A136646",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 21,
     "source": "oeis-entry"

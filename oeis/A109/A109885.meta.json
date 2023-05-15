@@ -2,12 +2,10 @@
   "description": "Let n be an even integer > 2. Let PrimeP be the number of prime partition pairs {p,q} corresponding to n such that n = p + q, p and q are prime and p <= q. Let CompP be the number of composite partition pairs {r,s} corresponding to n such that n = r + s, r is prime, s is composite and r <= s. For what n's is 2*PrimeP > CompP?",
   "id": "A109885",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

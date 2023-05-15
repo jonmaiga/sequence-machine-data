@@ -18,13 +18,11 @@
     "A304365",
     "A304369"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:28",
     "offset": 1,
     "size": 105,
     "source": "oeis-bfile"

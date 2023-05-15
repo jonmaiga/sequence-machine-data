@@ -2,12 +2,10 @@
   "description": "Number of n X n arrays of squares of integers with every (n-1)X(n-1) subblock summing to 13",
   "id": "A159390",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:41",
     "offset": 3,
     "size": 12,
     "source": "oeis-bfile"

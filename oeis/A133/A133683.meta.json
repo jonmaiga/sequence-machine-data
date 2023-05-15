@@ -2,14 +2,12 @@
   "description": "Linear recurrence a(n) = a(n-3) + 2a(n-5), starting from all-one initial conditions.",
   "id": "A133683",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 20:25:32",
     "offset": 1,
     "size": 45,
     "source": "joeis"

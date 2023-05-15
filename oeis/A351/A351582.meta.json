@@ -2,14 +2,12 @@
   "description": "Decimal expansion of the root of cot(Pi/(s+1)) - csc(Pi/s).",
   "id": "A351582",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 106,
     "source": "oeis-entry"

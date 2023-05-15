@@ -2,12 +2,10 @@
   "description": "G.f. A(x) satisfies A(x) = 1 + x * A(x) / A(x^2).",
   "id": "A218033",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:35",
     "offset": 0,
     "size": 54,
     "source": "oeis-bfile"

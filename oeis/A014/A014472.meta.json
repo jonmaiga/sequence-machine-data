@@ -2,14 +2,12 @@
   "description": "Triangular array formed from even elements to right of middle of rows of the triangle of Eulerian numbers.",
   "id": "A014472",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "easy",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2022-05-02 17:18:30",
     "offset": 1,
     "size": 25,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "Array read by upwards antidiagonals: majority index of \"comet\" C_{s,t}.",
   "id": "A210568",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 78,
     "source": "oeis-entry"

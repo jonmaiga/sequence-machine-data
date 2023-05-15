@@ -2,12 +2,10 @@
   "description": "7th differences of factorial numbers.",
   "id": "A023044",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 04:58:14",
     "offset": 0,
     "size": 15,
     "source": "joeis"

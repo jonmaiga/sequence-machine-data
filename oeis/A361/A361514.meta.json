@@ -1,0 +1,17 @@
+{
+  "description": "Lengths of rows when A361511 is regarded as an irregular triangle.",
+  "id": "A361514",
+  "mentions": [
+    "A361511",
+    "A361512",
+    "A361513"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

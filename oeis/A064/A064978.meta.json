@@ -2,13 +2,11 @@
   "description": "n*10^4-1, n*10^4-3, n*10^4-7 and n*10^4-9 are all prime.",
   "id": "A064978",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 32,
     "source": "oeis-entry"

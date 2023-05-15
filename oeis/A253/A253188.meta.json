@@ -2,12 +2,10 @@
   "description": "Minimal positive integer k such that n^n >= (n-k)^(n+k).",
   "id": "A253188",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:11",
     "offset": 1,
     "size": 68,
     "source": "oeis-bfile"

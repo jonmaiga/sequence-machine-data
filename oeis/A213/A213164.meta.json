@@ -2,13 +2,11 @@
   "description": "Sequence of coefficients of x in marked mesh pattern generating function Q_{n,132}^(4,0,-,0)(x).",
   "id": "A213164",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:31",
     "offset": 5,
     "size": 26,
     "source": "oeis-bfile"

@@ -2,14 +2,12 @@
   "description": "a(n) = smallest k >= 1 such that k and k*n have the same digit sum.",
   "id": "A180012",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:03",
     "offset": 1,
     "size": 91,
     "source": "oeis-bfile"

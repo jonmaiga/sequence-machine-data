@@ -2,14 +2,12 @@
   "description": "Numbers n such that n and the sum of the digits of n have at least one digit in common.",
   "id": "A108191",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:00",
     "offset": 1,
     "size": 59,
     "source": "oeis-bfile"

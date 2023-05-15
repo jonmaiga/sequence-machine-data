@@ -2,15 +2,12 @@
   "description": "a(n) = 2^n mod 28.",
   "id": "A167426",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:43:29",
     "offset": 0,
     "size": 84,
     "source": "joeis"

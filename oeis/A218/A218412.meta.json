@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which sigma(n)/n = k+5/7 with integer k.",
+  "description": "Numbers k for which sigma(k)/k - 5/7 is an integer.",
   "id": "A218412",
   "mentions": [
     "A218409",
@@ -8,13 +8,11 @@
     "A218413",
     "A218428"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
-    "formulas",
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 19,
     "source": "oeis-entry"

@@ -1,0 +1,16 @@
+{
+  "description": "Number of compositions (ordered partitions) of n into 2 perfect powers (A001597).",
+  "id": "A362426",
+  "mentions": [
+    "A001597"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

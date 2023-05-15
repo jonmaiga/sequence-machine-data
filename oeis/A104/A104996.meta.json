@@ -1,19 +1,16 @@
 {
-  "description": "Numerators of coefficients in a series solution to a certain ODE.",
+  "description": "Numerators of coefficients in a series solution to a certain differential equation.",
   "id": "A104996",
   "mentions": [
     "A104997"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "frac",
-    "more",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
-    "size": 8,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

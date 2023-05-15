@@ -1,0 +1,30 @@
+{
+  "description": "Numbers k such that the set of divisors {d | k, BitOr(k, d) = k} has an integer harmonic mean.",
+  "id": "A362804",
+  "mentions": [
+    "A000043",
+    "A000079",
+    "A000396",
+    "A001599",
+    "A005009",
+    "A006086",
+    "A007283",
+    "A063947",
+    "A110286",
+    "A246600",
+    "A246601",
+    "A286325",
+    "A319745",
+    "A362805"
+  ],
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

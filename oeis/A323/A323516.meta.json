@@ -2,14 +2,12 @@
   "description": "Number of minimum total dominating sets in the n-Sierpinski tetrahedron graph.",
   "id": "A323516",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "bref",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 3,
     "source": "oeis-entry"

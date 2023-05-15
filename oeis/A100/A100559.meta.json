@@ -2,13 +2,11 @@
   "description": "Smallest prime equal to the sum of n distinct squares.",
   "id": "A100559",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 2,
     "size": 41,
     "source": "oeis-entry"

@@ -2,7 +2,6 @@
   "description": "Characteristic polynomials of a binomial modulo two Hadamard transpose general matrix: t(n,m,d) = If[ m <= n, binomial(n, m) mod 2], 0]; M(d)=t(n,m,d).Transpose[t(n,m,d)].",
   "id": "A158188",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 61,
     "source": "oeis-entry"

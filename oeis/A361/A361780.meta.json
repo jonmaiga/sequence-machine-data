@@ -1,0 +1,21 @@
+{
+  "description": "Numbers that have digits consisting only of line segments {1, 4, 7} or curved digits {0, 3, 6, 8, 9}.",
+  "id": "A361780",
+  "mentions": [
+    "A028373",
+    "A028374",
+    "A072960",
+    "A072961",
+    "A082741"
+  ],
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

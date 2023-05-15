@@ -9,16 +9,13 @@
     "A201861",
     "A244284"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
-    "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
-    "offset": 1,
-    "size": 17,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
   }
 }

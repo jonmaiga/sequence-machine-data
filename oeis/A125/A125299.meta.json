@@ -2,13 +2,11 @@
   "description": "Numbers whose names in English start with a consonant.",
   "id": "A125299",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:13",
     "offset": 1,
     "size": 67,
     "source": "oeis-bfile"

@@ -2,13 +2,11 @@
   "description": "a(n) = round(1500/(n + 5)).",
   "id": "A262137",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 0,
     "size": 60,
     "source": "oeis-entry"

@@ -1,15 +1,13 @@
 {
-  "description": "Number of (n+1)X6 binary arrays with every 2X2 subblock determinant equal to exactly one or two horizontal and vertical neighbor 2X2 subblock determinants",
+  "description": "Number of (n+1) X 6 binary arrays with every 2 X 2 subblock determinant equal to exactly one or two horizontal and vertical neighbor 2 X 2 subblock determinants.",
   "id": "A186898",
   "mentions": [
     "A186902"
   ],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:11",
     "offset": 1,
     "size": 21,
     "source": "oeis-bfile"

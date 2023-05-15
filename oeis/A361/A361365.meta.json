@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the minimum possible sum of 2*n distinct positive numbers in a set, arranged in two subsets of size n each, such that the sum of any one element in each of the two subsets is a prime number.",
+  "id": "A361365",
+  "mentions": [
+    "A000040",
+    "A000290",
+    "A005843",
+    "A162662"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

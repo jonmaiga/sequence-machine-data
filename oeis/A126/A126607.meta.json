@@ -2,12 +2,10 @@
   "description": "a(1) = 2, a(2) = 3; for n>2, a(n) = least prime such that a(n-2) is the largest prime factor of a(n)+a(n-1).",
   "id": "A126607",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:14",
     "offset": 1,
     "size": 32,
     "source": "oeis-bfile"

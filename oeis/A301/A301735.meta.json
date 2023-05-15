@@ -2,13 +2,11 @@
   "description": "Coefficients of q-series associated with the colored tetrahedron graph J_{6j,0}.",
   "id": "A301735",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "more",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 0,
     "size": 25,
     "source": "oeis-entry"

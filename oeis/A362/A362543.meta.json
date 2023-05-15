@@ -1,0 +1,18 @@
+{
+  "description": "Number of chordless cycles of length >= 4 in the tetrahedral (Johnson) graph.",
+  "id": "A362543",
+  "mentions": [
+    "A297670",
+    "A362547"
+  ],
+  "tags": [
+    "changed",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 6,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

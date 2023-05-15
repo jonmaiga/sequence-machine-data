@@ -2,13 +2,11 @@
   "description": "Number of minimal dominating sets in the n-folded cube graph.",
   "id": "A347514",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 2,
     "size": 4,
     "source": "oeis-entry"

@@ -1,13 +1,15 @@
 {
   "description": "Number of 4-connected simplicial polyhedra with n nodes.",
   "id": "A007021",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:17",
+  "mentions": [
+    "A000109",
+    "A007027",
+    "A111358"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 3,
     "size": 25,
     "source": "oeis-entry"

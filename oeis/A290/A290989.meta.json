@@ -1,15 +1,18 @@
 {
   "description": "Expansion of x^6*(1 + x^3)/(1 - 4*x + 5*x^2 - x^3 - 2*x^4 + x^6 + x^7 - 2*x^8 + x^9).",
   "id": "A290989",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:34",
+  "mentions": [
+    "A059633",
+    "A099530",
+    "A290986",
+    "A290987"
+  ],
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:06",
     "offset": 6,
     "size": 31,
     "source": "oeis-bfile"

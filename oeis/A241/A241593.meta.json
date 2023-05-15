@@ -2,12 +2,10 @@
   "description": "a(0)-a(5) are -1, 0, 1, 12, -432, 93312; thereafter a(n) = (144*a(n-3)*a(n-1)+432*a(n-2)^2)/a(n-4).",
   "id": "A241593",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:58",
     "offset": 0,
     "size": 13,
     "source": "oeis-bfile"

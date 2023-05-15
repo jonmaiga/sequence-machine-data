@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of length n+5 0..k arrays with some disjoint triples in each consecutive six terms having the same sum",
   "id": "A248068",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:04",
     "offset": 1,
     "size": 39,
     "source": "oeis-bfile"

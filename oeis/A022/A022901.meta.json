@@ -2,12 +2,10 @@
   "description": "Number of solutions to c(1)*prime(3)+...+c(n)*prime(n+2) = 1, where c(i) = +-1 for i>1, c(1) = 1.",
   "id": "A022901",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:32",
     "offset": 1,
     "size": 50,
     "source": "oeis-bfile"

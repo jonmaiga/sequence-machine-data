@@ -17,17 +17,17 @@
     "A296188",
     "A323295",
     "A323434",
-    "A323436"
+    "A323436",
+    "A362827"
   ],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:02",
     "offset": 0,
     "size": 22,
     "source": "oeis-bfile"

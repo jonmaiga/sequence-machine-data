@@ -2,13 +2,11 @@
   "description": "a(n) = 2^n*(n+1)*(3*n)!.",
   "id": "A065142",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:17",
     "offset": 0,
     "size": 10,
     "source": "oeis-bfile"

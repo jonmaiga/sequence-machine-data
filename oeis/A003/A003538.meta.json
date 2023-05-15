@@ -2,7 +2,6 @@
   "description": "Divisors of 2^30 - 1.",
   "id": "A003538",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "easy",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:04",
     "offset": 1,
     "size": 46,
     "source": "oeis-bfile"

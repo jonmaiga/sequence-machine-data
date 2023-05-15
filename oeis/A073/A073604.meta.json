@@ -2,12 +2,10 @@
   "description": "Smallest multiple of (n+1)-st prime which is == 1 mod n-th prime.",
   "id": "A073604",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 43,
     "source": "oeis-entry"

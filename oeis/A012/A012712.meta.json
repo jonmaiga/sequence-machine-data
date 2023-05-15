@@ -2,13 +2,11 @@
   "description": "E.g.f.: tan(arctanh(x)*exp(x)).",
   "id": "A012712",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 16:42:03",
     "offset": 0,
     "size": 22,
     "source": "joeis"

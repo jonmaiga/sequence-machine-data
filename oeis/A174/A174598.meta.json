@@ -2,14 +2,12 @@
   "description": "Numbers n with the property that their digital sum is equal to the number of letters in n when spelled out in Spanish.",
   "id": "A174598",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 51,
     "source": "oeis-entry"

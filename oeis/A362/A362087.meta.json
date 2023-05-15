@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^k * binomial(-n,k) * binomial(2*k,n-k).",
+  "id": "A362087",
+  "mentions": [
+    "A362078",
+    "A362084"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

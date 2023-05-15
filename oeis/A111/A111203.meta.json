@@ -2,13 +2,11 @@
   "description": "x such that pi(x)/li(x) is greater than it is for all smaller x > 1.5.",
   "id": "A111203",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 42,
     "source": "oeis-entry"

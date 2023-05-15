@@ -2,6 +2,7 @@
   "description": "Numbers that are the sum of 9 consecutive primes.",
   "id": "A127336",
   "mentions": [
+    "A000040",
     "A001043",
     "A011974",
     "A034961",
@@ -16,13 +17,12 @@
     "A127339",
     "A228200"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 18:12:21",
     "offset": 1,
     "size": 46,
     "source": "joeis"

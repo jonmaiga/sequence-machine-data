@@ -2,13 +2,11 @@
   "description": "Decimal expansion of Sum_{m>=1, n>=1} 1/(m^2*(m^2 + m*n + n^2)).",
   "id": "A091349",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 100,
     "source": "oeis-entry"

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (number of letters in n in French) + (number of letters in n in German).",
+  "id": "A362439",
+  "mentions": [
+    "A007208",
+    "A167507"
+  ],
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

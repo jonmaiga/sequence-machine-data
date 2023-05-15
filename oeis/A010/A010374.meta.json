@@ -2,13 +2,11 @@
   "description": "Number of directed site animals with no loops enumerated by area (or number of sites).",
   "id": "A010374",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

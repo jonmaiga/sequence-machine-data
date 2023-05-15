@@ -2,13 +2,11 @@
   "description": "Positive integers x such that there exist positive integers y and z satisfying x^3 + y^3 = z^4.",
   "id": "A103256",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 26,
     "source": "oeis-entry"

@@ -7,14 +7,12 @@
     "A006905",
     "A079265"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "hard",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 16,
     "source": "oeis-entry"

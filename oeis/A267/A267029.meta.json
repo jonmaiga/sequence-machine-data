@@ -13,14 +13,12 @@
     "A262772",
     "A265201"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 30,
     "source": "oeis-entry"

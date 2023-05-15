@@ -2,14 +2,12 @@
   "description": "Triangle read by rows: a(n)=2^Floor[n/2]*Gamma[1 + Floor[n/2]]; t(n,m) = a[n]/(a[n - m]*a[m]).",
   "id": "A146532",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 66,
     "source": "oeis-entry"

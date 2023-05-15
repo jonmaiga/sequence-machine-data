@@ -7,7 +7,6 @@
     "A080719",
     "A257831"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "base",
     "easy",
@@ -15,7 +14,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:45",
     "offset": 0,
     "size": 78,
     "source": "oeis-bfile"

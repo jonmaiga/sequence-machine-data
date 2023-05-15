@@ -2,12 +2,10 @@
   "description": "sin(sinh(x)*tan(x))=2/2!*x^2+12/4!*x^4+22/6!*x^6-6888/8!*x^8...",
   "id": "A009514",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-03 00:45:04",
     "offset": 0,
     "size": 16,
     "source": "joeis"

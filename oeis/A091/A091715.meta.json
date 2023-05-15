@@ -7,15 +7,12 @@
     "A091674",
     "A225852"
   ],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:47",
     "offset": 3,
     "size": 11,
     "source": "oeis-entry"

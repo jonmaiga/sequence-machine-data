@@ -2,13 +2,11 @@
   "description": "Numbers N such that N modulo N's digitsum is a substring of N.",
   "id": "A302578",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:26",
     "offset": 1,
     "size": 69,
     "source": "oeis-bfile"

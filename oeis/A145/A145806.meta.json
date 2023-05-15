@@ -2,12 +2,10 @@
   "description": "1/4 of the number of islands of ones fitting in an n X n array symmetric under 90-degree rotation with all ones connected only either two adjacent vertically or two adjacent horizontally.",
   "id": "A145806",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 21,
     "source": "oeis-entry"

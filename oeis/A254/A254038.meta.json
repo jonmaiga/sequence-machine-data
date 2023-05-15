@@ -2,13 +2,11 @@
   "description": "Prime numbers n such that replacing each digit d in the decimal expansion of n with prime(d) produces a square. Zeros are not allowed.",
   "id": "A254038",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 1,
     "size": 25,
     "source": "oeis-entry"

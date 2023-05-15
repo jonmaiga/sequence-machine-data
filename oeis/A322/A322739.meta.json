@@ -2,12 +2,10 @@
   "description": "E.g.f. A(x) satisfies: A(x) = Sum_{n>=0} ( exp(2*n*x) - A(x)^n )^n.",
   "id": "A322739",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 0,
     "size": 20,
     "source": "oeis-entry"

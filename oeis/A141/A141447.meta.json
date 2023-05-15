@@ -2,14 +2,11 @@
   "description": "a(0)=0; for n >= 1, a(n) is the least positive integer that cannot be written in the form Sum_{k>=1} s(k)*k!, with s(k) in {a(0), a(1), ..., a(n-1)}.",
   "id": "A141447",
   "mentions": [],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:44:24",
     "offset": 0,
     "size": 20,
     "source": "oeis-bfile"

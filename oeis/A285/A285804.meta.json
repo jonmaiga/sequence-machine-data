@@ -2,12 +2,10 @@
   "description": "Composite numbers of the form 12*k+5 or 12*k+7 for some k.",
   "id": "A285804",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 1,
     "size": 49,
     "source": "oeis-entry"

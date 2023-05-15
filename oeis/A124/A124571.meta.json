@@ -2,12 +2,10 @@
   "description": "Expansion of limit b(n)/x^n where b(n)=b(n-1)^2+b(n-1)*x, b(1)=x^2.",
   "id": "A124571",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 38,
     "source": "oeis-entry"

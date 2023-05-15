@@ -2,14 +2,12 @@
   "description": "Number of OFF (white) cells in the n-th iteration of the \"Rule 3\" elementary cellular automaton starting with a single ON (black) cell.",
   "id": "A266073",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 12:52:17",
     "offset": 0,
     "size": 72,
     "source": "joeis"

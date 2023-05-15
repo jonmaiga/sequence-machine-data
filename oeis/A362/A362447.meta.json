@@ -1,0 +1,17 @@
+{
+  "description": "Array A(n,k) (n>=0, k>=0) read by antidiagonals: A(n,k) = 1 if the English names for n and k have a letter in common, otherwise 0.",
+  "id": "A362447",
+  "mentions": [
+    "A362448"
+  ],
+  "tags": [
+    "nonn",
+    "tabl",
+    "word"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

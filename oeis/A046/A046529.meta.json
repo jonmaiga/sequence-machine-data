@@ -2,13 +2,11 @@
   "description": "Largest number in largest finite set fixed by mapping f(k) = sum of n-th power of digits of k.",
   "id": "A046529",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 0,
     "size": 18,
     "source": "oeis-entry"

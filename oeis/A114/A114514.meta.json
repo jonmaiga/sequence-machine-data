@@ -2,14 +2,12 @@
   "description": "The digits on a numerical pad from upper left to lower right.",
   "id": "A114514",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

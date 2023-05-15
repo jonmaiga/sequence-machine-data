@@ -2,13 +2,11 @@
   "description": "Number of partitions of n into 3 parts whose smallest part divides the largest part.",
   "id": "A348540",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 72,
     "source": "oeis-entry"

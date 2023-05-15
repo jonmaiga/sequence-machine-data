@@ -2,12 +2,10 @@
   "description": "Number of 7*n X 7 0..2 arrays with row sums 3 and column sums 3*n",
   "id": "A172713",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:56",
     "offset": 1,
     "size": 5,
     "source": "oeis-bfile"

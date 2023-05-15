@@ -9,14 +9,12 @@
     "A327615",
     "A328652"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:34",
     "offset": 1,
     "size": 72,
     "source": "oeis-bfile"

@@ -7,7 +7,6 @@
     "A126140",
     "A126141"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "hard",
@@ -15,7 +14,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

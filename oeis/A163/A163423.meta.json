@@ -2,7 +2,6 @@
   "description": "Numbers n with property that n^2 is a sum of three successive cubes.",
   "id": "A163423",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "fini",
     "formulas",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 4,
     "source": "oeis-entry"

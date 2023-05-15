@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the minimum number of pebbles such that any assignment of those pebbles on a complete graph with n vertices is a next-player winning game in the two-player impartial (3;1,1) pebbling game.",
+  "id": "A361315",
+  "mentions": [
+    "A340631",
+    "A346197",
+    "A346401",
+    "A347637"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

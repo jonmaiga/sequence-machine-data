@@ -2,7 +2,6 @@
   "description": "Coefficient triangle of Sylvester resultant matrix characteristic polynomials of alternating signs: example matrix: {{-1, 1, -1, 1, 0}, {0, -1, 1, -1, 1}, {1, -1, 1, 0, 0}, {0, 1, -1, 1, 0}, {0,0, 1, -1, 1}}.",
   "id": "A139336",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 79,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Number of positive k such that k*tau(k) <= n.",
   "id": "A071872",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 78,
     "source": "oeis-entry"

@@ -1,0 +1,19 @@
+{
+  "description": "Inverse Moebius transform of nonprimes.",
+  "id": "A361708",
+  "mentions": [
+    "A007445",
+    "A018252",
+    "A361709"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

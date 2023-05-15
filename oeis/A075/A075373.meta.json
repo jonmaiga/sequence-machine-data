@@ -2,12 +2,10 @@
   "description": "a(1)=0, a(2)=9; then distinct squares such that sum of three successive terms is a square.",
   "id": "A075373",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 30,
     "source": "oeis-entry"

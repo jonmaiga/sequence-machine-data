@@ -2,14 +2,12 @@
   "description": "Decimal representation of sin(Pi/17).",
   "id": "A241243",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:59:11",
     "offset": 1,
     "size": 120,
     "source": "joeis"

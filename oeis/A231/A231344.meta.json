@@ -2,13 +2,11 @@
   "description": "Number of morphisms in full subcategories of Set spanned by {{}, {1}, {1, 2}, ..., {1, 2, ..., n}}.",
   "id": "A231344",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:49",
     "offset": -1,
     "size": 19,
     "source": "oeis-bfile"

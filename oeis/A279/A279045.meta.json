@@ -2,13 +2,11 @@
   "description": "Number of pairs of vertices that share no common neighbor summed over all simple labeled graphs on n nodes.",
   "id": "A279045",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:46",
     "offset": 1,
     "size": 15,
     "source": "oeis-bfile"

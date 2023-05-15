@@ -2,7 +2,6 @@
   "description": "An 8 X 8 magic square with consecutive triangular numbers, read by rows.",
   "id": "A132654",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "fini",
     "full",
@@ -10,7 +9,6 @@
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 64,
     "source": "oeis-entry"

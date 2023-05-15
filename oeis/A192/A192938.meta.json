@@ -2,7 +2,6 @@
   "description": "Decimal expansion of the real positive root of the equation: 4*d^4 + 12*d^3 + 8*d^2 - 1 = 0.",
   "id": "A192938",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "cons",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:51:19",
     "offset": 0,
     "size": 99,
     "source": "joeis"

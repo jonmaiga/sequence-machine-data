@@ -2,12 +2,10 @@
   "description": "Start with a(1)=1, if a(n) is prime, jump over a(n) neighbors to the left, else to the right. Fill in the largest possible unused prime, or the least unused composite, such that the next destination is not yet filled.",
   "id": "A182164",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:05",
     "offset": 1,
     "size": 71,
     "source": "oeis-bfile"

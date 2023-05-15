@@ -1,16 +1,14 @@
 {
-  "description": "Number of 2X2X2 triangular 0..n arrays with some element plus some adjacent element totalling n+1 or n-1 exactly once.",
+  "description": "Number of 2 X 2 X 2 triangular 0..n arrays with some element plus some adjacent element totaling n+1 or n-1 exactly once.",
   "id": "A270607",
   "mentions": [
     "A270606"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:34",
     "offset": 1,
     "size": 45,
     "source": "oeis-bfile"

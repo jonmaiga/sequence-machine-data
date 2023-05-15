@@ -1,0 +1,23 @@
+{
+  "description": "Square array T(n,k), n >= 0, k >= 0, read by antidiagonals downwards, where T(n,k) = n! * Sum_{j=0..floor(n/2)} k^j * Stirling2(n-j,j)/(n-j)!.",
+  "id": "A361652",
+  "mentions": [
+    "A000007",
+    "A052506",
+    "A290158",
+    "A351733",
+    "A351734",
+    "A362834"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

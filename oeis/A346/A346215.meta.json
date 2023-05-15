@@ -2,12 +2,10 @@
   "description": "a(n) is the start of the first maximal string of n consecutive primes such that the sum of squares of pairs of consecutive primes in the string is always divisible by 10.",
   "id": "A346215",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 33,
     "source": "oeis-entry"

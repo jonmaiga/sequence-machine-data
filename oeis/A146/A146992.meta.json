@@ -2,13 +2,11 @@
   "description": "Numbers n with the property that there exists a group of order n in which some element of the commutator subgroup G' is not a commutator [x,y].",
   "id": "A146992",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 52,
     "source": "oeis-entry"

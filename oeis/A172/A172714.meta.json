@@ -2,12 +2,10 @@
   "description": "Number of 7*n X 7 0..2 arrays with row sums 4 and column sums 4*n",
   "id": "A172714",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:56",
     "offset": 1,
     "size": 4,
     "source": "oeis-bfile"

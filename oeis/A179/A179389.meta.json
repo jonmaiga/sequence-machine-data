@@ -2,13 +2,11 @@
   "description": "The number of sorted length n integer sequences with mean zero and sample standard deviation n.",
   "id": "A179389",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 2,
     "size": 10,
     "source": "oeis-entry"

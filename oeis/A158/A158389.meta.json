@@ -2,14 +2,12 @@
   "description": "A triangle of matrix polynomials: M(d)=Reverse[Table[If[ m <= n, m, 0], {n, 1, d}, {m, 1, d}]].",
   "id": "A158389",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "sign",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 51,
     "source": "oeis-entry"

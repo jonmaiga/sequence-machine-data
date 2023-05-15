@@ -2,13 +2,11 @@
   "description": "Total of radio numbers of all n-node (connected) graphs.",
   "id": "A340538",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

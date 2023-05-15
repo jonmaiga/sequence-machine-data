@@ -2,13 +2,11 @@
   "description": "Triangle read by rows: number of idempotents of rank k in partial Brauer monoid PB_n.",
   "id": "A256039",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:32",
     "offset": 0,
     "size": 66,
     "source": "oeis-entry"

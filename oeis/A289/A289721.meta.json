@@ -2,14 +2,12 @@
   "description": "Let a(0)=1. Then a(n) = sums of consecutive strings of positive integers of length 3*n, starting with the integer 2.",
   "id": "A289721",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 13:44:07",
     "offset": 0,
     "size": 41,
     "source": "joeis"

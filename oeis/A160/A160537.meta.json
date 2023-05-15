@@ -2,14 +2,12 @@
   "description": "a(n) = n!*c(n) where c(n) is the coefficient of the Taylor power series expansion of the real function sin(x)^cos(x) defined on (0,Pi), expanded around the point x = Pi/2.",
   "id": "A160537",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 24,
     "source": "oeis-entry"

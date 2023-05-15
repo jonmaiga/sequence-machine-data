@@ -1,18 +1,16 @@
 {
-  "description": "Recurrence a(n) = 1/2*n*(n + 1)*a(n-1) + 1 with a(0) = 1.",
+  "description": "Recurrence a(n) = (1/2)*n*(n+1)*a(n-1) + 1 with a(0) = 1.",
   "id": "A228230",
   "mentions": [
     "A006040",
     "A228229"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-09-08 06:56:23",
     "offset": 0,
     "size": 18,
     "source": "joeis"

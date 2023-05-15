@@ -2,7 +2,6 @@
   "description": "Tri-antidiagonal matrices of central ones with upper negative one to give a triangular sequence: first element is negative one. k=1;m(n,m,d)=If[n + m - 1 == d && n > 1, k, If[n + m ==d, -1, If[n + m - 2 == d, -1, If[n == 1 && m == d, -k, 0]]]].",
   "id": "A124034",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 96,
     "source": "oeis-entry"

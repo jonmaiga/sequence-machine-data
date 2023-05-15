@@ -1,0 +1,19 @@
+{
+  "description": "Natural numbers n for which some base-phi representation of n is anti-palindromic.",
+  "id": "A362781",
+  "mentions": [
+    "A105424",
+    "A341722"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

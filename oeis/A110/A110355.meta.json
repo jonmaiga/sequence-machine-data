@@ -2,13 +2,11 @@
   "description": "Following array contains numbers INT[n/1], INT[INT[n/1]/2],... until a zero is obtained. Sequence contains the array by rows.",
   "id": "A110355",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 94,
     "source": "oeis-entry"

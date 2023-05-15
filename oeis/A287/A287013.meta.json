@@ -5,14 +5,12 @@
     "A000178",
     "A137987"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:59",
     "offset": 1,
     "size": 109,
     "source": "oeis-bfile"

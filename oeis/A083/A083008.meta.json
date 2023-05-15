@@ -13,13 +13,11 @@
     "A083013",
     "A083014"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:34",
     "offset": 0,
     "size": 25,
     "source": "oeis-bfile"

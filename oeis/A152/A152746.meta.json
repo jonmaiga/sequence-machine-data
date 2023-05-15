@@ -7,16 +7,16 @@
     "A002939",
     "A085250",
     "A094159",
-    "A152745"
+    "A152745",
+    "A287318"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
-    "nonn"
+    "nonn",
+    "walk"
   ],
   "terms": {
-    "modified": "2022-04-26 09:27:25",
     "offset": 0,
     "size": 39,
     "source": "joeis"

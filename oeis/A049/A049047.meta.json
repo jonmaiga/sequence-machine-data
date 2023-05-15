@@ -2,12 +2,10 @@
   "description": "Number of distinct factorial numbers congruent to 1 (mod prime(n)).",
   "id": "A049047",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:34:23",
     "offset": 1,
     "size": 105,
     "source": "joeis"

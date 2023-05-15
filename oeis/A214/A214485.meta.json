@@ -2,14 +2,12 @@
   "description": "Degrees of irreducible representations of simple Chevalley group G2(5).",
   "id": "A214485",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 44,
     "source": "oeis-entry"

@@ -2,13 +2,11 @@
   "description": "Numbers k such that 4 and 5 occur juxtaposed in the base-10 representation of k but not of k-1.",
   "id": "A043246",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:21:05",
     "offset": 1,
     "size": 41,
     "source": "joeis"

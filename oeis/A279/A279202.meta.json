@@ -2,13 +2,11 @@
   "description": "Number of Wilf-equivalence classes of square permutations of 2n things that avoid 132.",
   "id": "A279202",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 0,
     "size": 6,
     "source": "oeis-entry"

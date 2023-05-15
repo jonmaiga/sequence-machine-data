@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of k such that n - A000045(k) is a square.",
+  "id": "A362503",
+  "mentions": [
+    "A000045",
+    "A108852",
+    "A362409",
+    "A362434"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

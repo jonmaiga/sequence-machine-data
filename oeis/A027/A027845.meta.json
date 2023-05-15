@@ -2,12 +2,10 @@
   "description": "Number of subgroups of index n in fundamental group of a certain fiber space.",
   "id": "A027845",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

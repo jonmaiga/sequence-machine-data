@@ -1,17 +1,16 @@
 {
-  "description": "A102569(A102569(n)).",
+  "description": "a(n) = A102569(A102569(n)).",
   "id": "A102571",
   "mentions": [
     "A102568",
     "A102569",
     "A102570"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 72,
     "source": "oeis-entry"

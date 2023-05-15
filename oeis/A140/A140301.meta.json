@@ -2,14 +2,12 @@
   "description": "Numbers k whose digits contain, in any substring of consecutive digits, the number of digits of k (ND) and the sum of digits of k (SD). Common digits for ND and SD are admitted while cycling is not.",
   "id": "A140301",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 43,
     "source": "oeis-entry"

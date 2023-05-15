@@ -2,14 +2,12 @@
   "description": "A triangular sequence recursion: A(n,k)=A(n - 1, k - 1) + A(n - 1, k) + (5 (-2 + n) (-7 + 5 n))*A(n - 2, k - 1).",
   "id": "A153879",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 41,
     "source": "oeis-entry"

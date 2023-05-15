@@ -2,12 +2,10 @@
   "description": "From the ground state energy of a variant of the Hubbard Hamiltonian for 2 holes on a lattice of n sites.",
   "id": "A020496",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 4,
     "size": 6,
     "source": "oeis-entry"

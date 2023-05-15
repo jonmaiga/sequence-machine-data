@@ -2,13 +2,11 @@
   "description": "Lower bounds of twin prime pairs of the form prime(2n+1).",
   "id": "A094205",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:45",
     "offset": 0,
     "size": 47,
     "source": "oeis-bfile"

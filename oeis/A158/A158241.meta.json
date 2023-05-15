@@ -2,13 +2,11 @@
   "description": "Decimal expansion of theta = arctan((sqrt(10-2*sqrt(5))-2)/(sqrt(5)-1)).",
   "id": "A158241",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-07 14:37:27",
     "offset": 0,
     "size": 104,
     "source": "joeis"

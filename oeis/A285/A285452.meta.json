@@ -2,14 +2,12 @@
   "description": "Least number x such that x^n has n digits equal to k. Case k=5.",
   "id": "A285452",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:57",
     "offset": 1,
     "size": 41,
     "source": "oeis-bfile"

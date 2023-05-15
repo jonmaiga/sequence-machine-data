@@ -2,14 +2,12 @@
   "description": "2*4^n +(-1)^n*2^(n-1).",
   "id": "A120470",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 15:48:35",
     "offset": 1,
     "size": 22,
     "source": "joeis"

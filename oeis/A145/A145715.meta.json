@@ -2,14 +2,12 @@
   "description": "Numbers X such that there exists Y in N with X^2 = 381*Y^2 + 127.",
   "id": "A145715",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:33",
     "offset": 1,
     "size": 10,
     "source": "oeis-bfile"

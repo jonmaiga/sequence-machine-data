@@ -2,14 +2,12 @@
   "description": "Slowest increasing sequence in which a(n) > a(n-1) is the smallest number requiring (n+1) characters in French.",
   "id": "A097354",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn",
     "word"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 33,
     "source": "oeis-entry"

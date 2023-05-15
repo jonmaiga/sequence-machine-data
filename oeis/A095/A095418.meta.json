@@ -11,14 +11,12 @@
     "A095416",
     "A095417"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:46",
     "offset": 1,
     "size": 62,
     "source": "oeis-bfile"

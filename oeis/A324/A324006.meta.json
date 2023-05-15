@@ -11,13 +11,11 @@
     "A324004",
     "A324005"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "frac",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:49",
     "offset": 5,
     "size": 24,
     "source": "oeis-bfile"

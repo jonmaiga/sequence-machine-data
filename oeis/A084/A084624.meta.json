@@ -1,19 +1,21 @@
 {
-  "description": "floor(C(n+5,5)/C(n+2,2)).",
+  "description": "a(n) = floor(C(n+5,5)/C(n+2,2)).",
   "id": "A084624",
   "mentions": [
     "A011865",
     "A084625",
+    "A084626",
+    "A084627",
+    "A084628",
+    "A084630",
     "A084631"
   ],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:27:45",
     "offset": 0,
     "size": 53,
     "source": "joeis"

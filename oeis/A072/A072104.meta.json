@@ -2,13 +2,11 @@
   "description": "Smallest absolute value of discriminant of a real (not necessarily totally real) algebraic number field of degree n.",
   "id": "A072104",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 2,
     "size": 6,
     "source": "oeis-entry"

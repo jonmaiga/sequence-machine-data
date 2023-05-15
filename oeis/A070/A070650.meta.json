@@ -2,14 +2,11 @@
   "description": "a(n) = n^6 mod 27.",
   "id": "A070650",
   "mentions": [],
-  "modified": "2023-03-14 10:34:47",
   "tags": [
-    "changed",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:10:51",
     "offset": 0,
     "size": 85,
     "source": "joeis"

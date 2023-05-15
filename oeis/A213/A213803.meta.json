@@ -1,15 +1,13 @@
 {
-  "description": "Number of 5X5 0..n symmetric arrays with all rows summing to floor(n*5/2)",
+  "description": "Number of 5 X 5 0..n symmetric arrays with all rows summing to floor(n*5/2).",
   "id": "A213803",
   "mentions": [
     "A213800"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:31",
     "offset": 1,
     "size": 20,
     "source": "oeis-bfile"

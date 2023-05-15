@@ -2,12 +2,10 @@
   "description": "Number of boundary guillotine partitions of a 5-dimensional box obtained with n cuts.",
   "id": "A220877",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

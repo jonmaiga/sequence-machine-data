@@ -13,13 +13,11 @@
     "A306112",
     "A306118"
   ],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 0,
     "size": 51,
     "source": "oeis-entry"

@@ -1,0 +1,17 @@
+{
+  "description": "Number of set partitions of [2n] with n circular connectors.",
+  "id": "A362944",
+  "mentions": [
+    "A185983"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

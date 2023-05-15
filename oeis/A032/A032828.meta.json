@@ -2,7 +2,6 @@
   "description": "Numbers whose set of base-16 digits is {1,4}.",
   "id": "A032828",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "easy",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:05:15",
     "offset": 1,
     "size": 37,
     "source": "joeis"

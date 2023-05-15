@@ -2,14 +2,12 @@
   "description": "a(n) is the binary word s21s211s2 where s is a string of n 1's.",
   "id": "A246999",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "base",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:03",
     "offset": 0,
     "size": 11,
     "source": "oeis-bfile"

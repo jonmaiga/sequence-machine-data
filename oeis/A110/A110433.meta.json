@@ -2,14 +2,12 @@
   "description": "a(1) = 1 then the least multiple of odd numbers not odd multiples of 5, (3,7,9,11,13,17,19,21,23,27,29,...) such that every partial concatenation is noncomposite.",
   "id": "A110433",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 44,
     "source": "oeis-entry"

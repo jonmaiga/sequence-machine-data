@@ -5,7 +5,6 @@
     "A003983",
     "A005993"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "formulas",
@@ -13,7 +12,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2022-04-26 09:38:37",
     "offset": 1,
     "size": 55,
     "source": "joeis"

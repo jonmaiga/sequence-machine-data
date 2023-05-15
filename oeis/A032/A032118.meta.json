@@ -2,13 +2,11 @@
   "description": "Shifts left 2 places under \"BIJ\" (reversible, indistinct, labeled) transform.",
   "id": "A032118",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "eigen",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:41",
     "offset": 1,
     "size": 23,
     "source": "oeis-bfile"

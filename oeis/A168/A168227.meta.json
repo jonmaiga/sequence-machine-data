@@ -2,14 +2,12 @@
   "description": "a(n) = n^4*(n^8 + 1)/2.",
   "id": "A168227",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:52",
     "offset": 0,
     "size": 18,
     "source": "oeis-bfile"

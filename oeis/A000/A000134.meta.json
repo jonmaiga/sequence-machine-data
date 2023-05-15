@@ -2,13 +2,11 @@
   "description": "Positive zeros of Bessel function of order 0 rounded to nearest integer.",
   "id": "A000134",
   "mentions": [],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 12:15:07",
     "offset": 1,
     "size": 60,
     "source": "joeis"

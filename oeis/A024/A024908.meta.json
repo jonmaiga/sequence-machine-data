@@ -2,13 +2,11 @@
   "description": "Numbers k such that 9*k - 5 is prime.",
   "id": "A024908",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:25:45",
     "offset": 1,
     "size": 62,
     "source": "joeis"

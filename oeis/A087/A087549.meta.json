@@ -2,12 +2,10 @@
   "description": "a(1) = 1, a(2) = 1, a(n) = sum of tau(n) previous terms, where tau(n) is the number of divisors of n.",
   "id": "A087549",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 35,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Order of the symmetry group of the densest possible packing of N circles in a larger circle. (If there are different patterns with the same density pick the largest value of the symmetry group order.)",
   "id": "A227405",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "hard",
     "more",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:30",
     "offset": 2,
     "size": 12,
     "source": "oeis-entry"

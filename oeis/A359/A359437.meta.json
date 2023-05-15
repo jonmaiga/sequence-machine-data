@@ -2,13 +2,11 @@
   "description": "a(n) is the first prime p such that there are exactly n numbers i with 1 <= i < p such that one of i*p-(p-i) and i*p+(p-i) is a prime and the other is the square of a prime.",
   "id": "A359437",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 0,
     "size": 20,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "The number of sigma matrices on the set of all endofunctions as a function of domain size n.",
   "id": "A335725",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

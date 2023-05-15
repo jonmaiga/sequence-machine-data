@@ -2,14 +2,12 @@
   "description": "a(n) = 4n^2 - 10n + 107.",
   "id": "A161176",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 17:17:23",
     "offset": 0,
     "size": 41,
     "source": "joeis"

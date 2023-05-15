@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of simple connected graphs on n unlabeled nodes having Hadwiger number k, 1 <= k <= n.",
+  "id": "A362894",
+  "mentions": [
+    "A001349",
+    "A032766",
+    "A084269",
+    "A353212"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

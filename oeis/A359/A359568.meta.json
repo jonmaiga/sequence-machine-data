@@ -2,14 +2,12 @@
   "description": "Maximum number of distinct folds after folding a square sheet of paper n times.",
   "id": "A359568",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 0,
     "size": 7,
     "source": "oeis-entry"

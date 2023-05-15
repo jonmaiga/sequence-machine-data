@@ -2,13 +2,11 @@
   "description": "T(n,k)=number of distinct solutions of sum{i=1..k}(x(2i-1)*x(2i)) = 1 (mod n), with x() in 0..n-1",
   "id": "A180813",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:03",
     "offset": 1,
     "size": 65,
     "source": "oeis-bfile"

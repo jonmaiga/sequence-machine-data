@@ -2,14 +2,12 @@
   "description": "Smallest number k>1 such that Sum_{i=1..k} i^n divides Product_{i=1..k} i^n.",
   "id": "A125314",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

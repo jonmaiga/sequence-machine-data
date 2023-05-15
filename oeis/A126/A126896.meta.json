@@ -12,15 +12,13 @@
     "A178488",
     "A180626"
   ],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
-    "size": 16,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

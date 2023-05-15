@@ -2,12 +2,10 @@
   "description": "If n even then round(n^2/48), otherwise round(n^2/49).",
   "id": "A328090",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 0,
     "size": 82,
     "source": "oeis-entry"

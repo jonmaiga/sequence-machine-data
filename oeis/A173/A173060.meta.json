@@ -15,7 +15,6 @@
     "A052025",
     "A173057"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "fini",
@@ -23,7 +22,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:22:55",
     "offset": 1,
     "size": 45,
     "source": "joeis"

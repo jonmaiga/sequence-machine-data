@@ -1,0 +1,16 @@
+{
+  "description": "Square array A(n, k), n, k >= 0, read by upwards antidiagonals; if Newton's method applied to the complex function f(z) = z^3 - 1 and starting from n + k*i reaches or converges to exp(2*r*i*Pi/3) for some r in 0..2, then A(n, k) = r, otherwise A(n, k) = -1 (where i denotes the imaginary unit).",
+  "id": "A362496",
+  "mentions": [
+    "A068601"
+  ],
+  "tags": [
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

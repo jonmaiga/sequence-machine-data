@@ -2,14 +2,12 @@
   "description": "Absolute value of n^2 + n - 1354363.",
   "id": "A094914",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:03:15",
     "offset": 1,
     "size": 24,
     "source": "joeis"

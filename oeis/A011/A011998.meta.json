@@ -2,13 +2,11 @@
   "description": "(n,3,8) difference families over Z_n.",
   "id": "A011998",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 6,
     "size": 9,
     "source": "oeis-entry"

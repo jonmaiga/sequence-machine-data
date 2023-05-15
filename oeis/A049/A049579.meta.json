@@ -2,12 +2,10 @@
   "description": "Numbers k such that prime(k)+2 divides (prime(k)-1)!.",
   "id": "A049579",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-27 14:39:39",
     "offset": 1,
     "size": 70,
     "source": "joeis"

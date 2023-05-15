@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonisomorphic magmas with n elements satisfying the equation x(yz) = xz.",
+  "id": "A362384",
+  "mentions": [
+    "A001329",
+    "A279644",
+    "A362385"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

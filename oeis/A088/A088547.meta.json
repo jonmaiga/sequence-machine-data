@@ -2,13 +2,11 @@
   "description": "Primes of the form x^3+x^2+x+2.",
   "id": "A088547",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:40",
     "offset": 1,
     "size": 32,
     "source": "oeis-bfile"

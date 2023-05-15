@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. -exp(x * sqrt(1-2*x)).",
+  "id": "A362163",
+  "mentions": [
+    "A362158",
+    "A362176"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

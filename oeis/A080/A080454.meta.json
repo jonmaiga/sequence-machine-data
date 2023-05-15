@@ -2,13 +2,11 @@
   "description": "Smallest multiple of n beginning with the backward concatenation of numbers from (n-1) to 1.",
   "id": "A080454",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 17,
     "source": "oeis-entry"

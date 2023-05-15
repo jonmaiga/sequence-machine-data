@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of e.g.f. exp(x * exp(-x * (exp(-x) - 1))).",
+  "id": "A362246",
+  "mentions": [
+    "A347726",
+    "A362244",
+    "A362245",
+    "A362247"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "joeis"
+  }
+}

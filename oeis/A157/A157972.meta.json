@@ -2,14 +2,12 @@
   "description": "Coefficients of the even n Cartan A_n characteristic polynomials factored modulo two: m(n,m,d)=If[ n == m, 2, If[n == m - 1 || n == m + 1, -1, 0]].",
   "id": "A157972",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 2,
     "size": 43,
     "source": "oeis-entry"

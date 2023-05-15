@@ -2,14 +2,12 @@
   "description": "Number of zig-zag paths from top to bottom of a rectangle of width 5 with n rows whose color is that of the top right corner",
   "id": "A153339",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:35",
     "offset": 1,
     "size": 34,
     "source": "oeis-bfile"

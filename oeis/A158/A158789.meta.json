@@ -2,13 +2,11 @@
   "description": "a(n) is the smallest positive multiple of 2n-1 that contains the binary representation of n in its binary representation and that is a palindrome when written in binary.",
   "id": "A158789",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:41",
     "offset": 1,
     "size": 43,
     "source": "oeis-bfile"

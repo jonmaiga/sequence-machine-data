@@ -1,0 +1,17 @@
+{
+  "description": "Sum of the bits of the \"integer part\" of the base-phi representation of n.",
+  "id": "A362716",
+  "mentions": [
+    "A055778"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

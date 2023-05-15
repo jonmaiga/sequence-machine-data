@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the number of digraphs on n unlabeled nodes with k strongly connected components and without isolated nodes.",
+  "id": "A361588",
+  "mentions": [
+    "A035512",
+    "A053598",
+    "A350794",
+    "A361582",
+    "A361587",
+    "A361589",
+    "A361590"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

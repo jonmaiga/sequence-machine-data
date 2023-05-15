@@ -2,13 +2,11 @@
   "description": "Product, over all vertices v of the rooted tree with Matula-Goebel number n, of the number of vertices in the subtree with root v.",
   "id": "A206493",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 65,
     "source": "oeis-entry"

@@ -6,7 +6,6 @@
     "A100062",
     "A271881"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "base",
     "cons",
@@ -14,7 +13,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:36",
     "offset": 0,
     "size": 105,
     "source": "oeis-bfile"

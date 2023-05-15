@@ -2,14 +2,12 @@
   "description": "Half thrice the previous number, rounded down, plus 1, starting with 6.",
   "id": "A302748",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:35",
     "offset": 0,
     "size": 40,
     "source": "oeis-entry"

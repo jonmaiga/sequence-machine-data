@@ -2,12 +2,10 @@
   "description": "Floor of difference between imaginary parts of consecutive nontrivial zeros of Riemann zeta function.",
   "id": "A153595",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:35",
     "offset": 1,
     "size": 100,
     "source": "oeis-bfile"

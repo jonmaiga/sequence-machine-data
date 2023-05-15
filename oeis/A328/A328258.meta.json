@@ -12,16 +12,13 @@
     "A306633",
     "A360156"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
-    "changed",
     "formulas",
     "look",
     "mult",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:57",
     "offset": 1,
     "size": 65,
     "source": "oeis-bfile"

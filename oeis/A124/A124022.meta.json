@@ -2,7 +2,6 @@
   "description": "Triangular sequence from the characteristic polynomials of the SL(n,Z)/ determinants {1,-1} type triantidiagonal 2 center with one upper, -1 side antidiagonal above and below: M(3)={{0, -1, 1}, {-1, 2, -1}, {2, -1, 0}}.",
   "id": "A124022",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "sign",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 80,
     "source": "oeis-entry"

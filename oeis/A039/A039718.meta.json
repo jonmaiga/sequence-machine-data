@@ -2,14 +2,12 @@
   "description": "Two-dimensional simplicial complexes on n labeled nodes.",
   "id": "A039718",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "hard",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

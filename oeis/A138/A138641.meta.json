@@ -2,12 +2,10 @@
   "description": "Nonnegative integers n such that 19*n-2 is prime.",
   "id": "A138641",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

@@ -1,21 +1,19 @@
 {
-  "description": "Pentanacci pi function: a(1)=a(2)=a(3)=a(4)=a(5)=1; for n>5, a(n)=pi(a(n-1)+a(n-2)+a(n-3)+a(n-4)+a(n-5)) where pi = A000720.",
+  "description": "Pentanacci pi function: a(1)=a(2)=a(3)=a(4)=a(5)=1; for n>5, a(n) = pi(Sum_{j=1..5} a(n-j)) where pi = A000720.",
   "id": "A100478",
   "mentions": [
     "A000720",
     "A001591",
     "A038607"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 73,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

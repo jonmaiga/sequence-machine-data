@@ -2,12 +2,10 @@
   "description": "If n = p_1^e_1 * ... * p_k^e_k, p_1 < ... < p_k primes, then a(n) = Max{ Max(p_i, e_i) }.",
   "id": "A081812",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:33",
     "offset": 2,
     "size": 84,
     "source": "oeis-bfile"

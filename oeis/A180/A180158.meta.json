@@ -2,14 +2,12 @@
   "description": "Number of ways are there to score a break of n points at snooker. Assuming an infinite number of reds are available, along with the usual six colors, and a break alternates red-color-red-...",
   "id": "A180158",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:03",
     "offset": 0,
     "size": 46,
     "source": "oeis-bfile"

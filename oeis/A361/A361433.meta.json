@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = number of squares in the n-th antidiagonal of the natural number array, A000027.",
+  "id": "A361433",
+  "mentions": [
+    "A000027",
+    "A000290",
+    "A022846",
+    "A061288"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

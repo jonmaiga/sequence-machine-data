@@ -2,14 +2,12 @@
   "description": "Irregular triangle read by rows: eigenvalues of Laplacian of parity's landscape graph.",
   "id": "A176296",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "more",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 34,
     "source": "oeis-entry"

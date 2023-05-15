@@ -1,20 +1,20 @@
 {
-  "description": "Fibonacci meanders of length 2n and central angle 180 degrees.",
+  "description": "a(n) is the number of Fibonacci meanders of length m*n and central angle 360/m degrees where m = 2.",
   "id": "A201631",
   "mentions": [
     "A051291",
     "A110198",
     "A110236",
     "A202411",
-    "A203611"
+    "A203611",
+    "A358734",
+    "A361574"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-10-18 14:56:45",
     "offset": 1,
     "size": 31,
     "source": "joeis"

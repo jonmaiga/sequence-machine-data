@@ -2,12 +2,10 @@
   "description": "Number of labeled non-planar 2-connected K_{3,3}-free toroidal irreducible graphs having n vertices.",
   "id": "A135380",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:23",
     "offset": 5,
     "size": 13,
     "source": "oeis-bfile"

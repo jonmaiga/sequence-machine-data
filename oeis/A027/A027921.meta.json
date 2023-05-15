@@ -2,12 +2,10 @@
   "description": "a(n) = least k such that 3rd elementary symmetric function of {1,2,...,k} >= 4th elementary symmetric function of {1,2,...,n}.",
   "id": "A027921",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-11-11 15:41:38",
     "offset": 4,
     "size": 56,
     "source": "joeis"

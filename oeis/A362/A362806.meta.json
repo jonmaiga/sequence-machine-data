@@ -1,0 +1,18 @@
+{
+  "description": "Number of numbers k, 1 <= k <= n, such that mu(k) = mu(n-k+1).",
+  "id": "A362806",
+  "mentions": [
+    "A008683"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

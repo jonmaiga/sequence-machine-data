@@ -2,12 +2,10 @@
   "description": "a(1)=1, a(2)=2, a(n) = prime(n-2) - a(n-2) for n > 2.",
   "id": "A275017",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:40",
     "offset": 1,
     "size": 63,
     "source": "oeis-bfile"

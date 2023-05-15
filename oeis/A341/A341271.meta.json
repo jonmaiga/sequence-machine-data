@@ -2,12 +2,10 @@
   "description": "a(n) is the least k such that there are distinct primes p,q,r,s such that k-p, k-q, k-r, k-s are primes and (p+q)/(r+s) = n.",
   "id": "A341271",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:13",
     "offset": 1,
     "size": 62,
     "source": "oeis-bfile"

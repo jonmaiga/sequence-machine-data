@@ -2,14 +2,12 @@
   "description": "Triangle, read by rows, T(n, k) = 1 - floor(n*(n-1)/4) + floor(binomial(n-1,k-1) * binomial(n, k-1)/(2*k)).",
   "id": "A176125",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:00",
     "offset": 3,
     "size": 66,
     "source": "oeis-bfile"

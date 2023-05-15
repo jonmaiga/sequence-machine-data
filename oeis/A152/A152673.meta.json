@@ -2,7 +2,6 @@
   "description": "Primes that can be obtained from cyclic permutations of the faces of the \"prime cube\" (the unique primitive arrangement of eight consecutive digits on a cube's vertices such that any two adjacent digits of an edge sum to a prime), with leading 0's omitted.",
   "id": "A152673",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "base",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

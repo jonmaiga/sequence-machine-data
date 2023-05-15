@@ -2,13 +2,11 @@
   "description": "Decimal expansion of Sum'_{(x,y,z)=-infinity..infinity} 1/(x^2+y^2+z^2)^2, where the 'prime' indicates that the term x=y=z=0 is to be left out.",
   "id": "A259281",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:17",
     "offset": 2,
     "size": 87,
     "source": "oeis-bfile"

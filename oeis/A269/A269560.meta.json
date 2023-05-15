@@ -2,14 +2,12 @@
   "description": "Length of the longest squarefree and rich word over an alphabet of n letters.",
   "id": "A269560",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

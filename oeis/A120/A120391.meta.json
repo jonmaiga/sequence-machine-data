@@ -2,12 +2,10 @@
   "description": "Expansion of -x*(1+x-x^2+x^3+4*x^4) / ( (x^3-2*x^2-x+1)*(x^3+2*x^2-x-1) ).",
   "id": "A120391",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 02:41:49",
     "offset": 0,
     "size": 35,
     "source": "joeis"

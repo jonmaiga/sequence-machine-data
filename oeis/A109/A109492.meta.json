@@ -15,7 +15,6 @@
     "A154549",
     "A199799"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "easy",
     "fini",
@@ -23,7 +22,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 32,
     "source": "oeis-entry"

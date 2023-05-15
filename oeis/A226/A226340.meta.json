@@ -2,13 +2,11 @@
   "description": "T(n,k)=Number of nondecreasing -k..k vectors of length n whose dot product with some other -k..k vector equals n",
   "id": "A226340",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:43",
     "offset": 1,
     "size": 61,
     "source": "oeis-bfile"

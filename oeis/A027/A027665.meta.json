@@ -2,13 +2,11 @@
   "description": "a(n)/100000 gives log_10(n) to 5 places.",
   "id": "A027665",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:36",
     "offset": 1,
     "size": 29,
     "source": "oeis-bfile"

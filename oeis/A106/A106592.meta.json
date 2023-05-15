@@ -2,14 +2,12 @@
   "description": "Six-symbol substitution based on doubling the Rauzy substitution : n=2 characteristic polynomial: x^6-9*x^4+24*x^2-16.",
   "id": "A106592",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

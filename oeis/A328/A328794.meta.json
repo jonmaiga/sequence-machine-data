@@ -7,7 +7,6 @@
     "A326916",
     "A326918"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "fini",
     "full",
@@ -15,7 +14,6 @@
     "walk"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:58",
     "offset": 0,
     "size": 78,
     "source": "oeis-bfile"

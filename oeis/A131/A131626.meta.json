@@ -2,13 +2,11 @@
   "description": "Prime subsequences in the evaluation of the first derivatives of quadratic equations with positive successive prime coefficients.",
   "id": "A131626",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 57,
     "source": "oeis-entry"

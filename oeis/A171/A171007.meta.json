@@ -2,13 +2,11 @@
   "description": "Sequence S constructed with the property that the next term is the smallest integer not yet present in S such that the sum of the a(n) first digits of S is a prime.",
   "id": "A171007",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 63,
     "source": "oeis-entry"

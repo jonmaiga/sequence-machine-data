@@ -19,13 +19,11 @@
     "A271560",
     "A271561"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "fini",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:36",
     "offset": 0,
     "size": 3,
     "source": "oeis-bfile"

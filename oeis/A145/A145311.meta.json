@@ -2,12 +2,10 @@
   "description": "This is a sequence from 5 X n Chomp: values of r for which there is a P-position (p,p,p,p,r).",
   "id": "A145311",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 24,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Numbers engraved on the 12 sides of an ancient dodecahedral rock crystal from the first century A.D.",
   "id": "A345251",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

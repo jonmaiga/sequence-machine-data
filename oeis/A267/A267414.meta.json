@@ -1,5 +1,5 @@
 {
-  "description": "Integers k such that k! = x^3 + y^3 + z^3 where x, y and z are nonnegative integers, is soluble.",
+  "description": "Integers k such that there exist nonnegative integers x,y,z with k! = x^3 + y^3 + z^3.",
   "id": "A267414",
   "mentions": [
     "A000142",
@@ -11,14 +11,13 @@
     "A226955",
     "A248780"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-03-14 10:34:48",
     "offset": 1,
-    "size": 64,
+    "size": 75,
     "source": "oeis-entry"
   }
 }

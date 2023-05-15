@@ -1,0 +1,18 @@
+{
+  "description": "Number of arithmetic progressions of 3 or more integers whose product is equal to n.",
+  "id": "A361015",
+  "mentions": [
+    "A062011",
+    "A146208"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 119,
+    "source": "oeis-bfile"
+  }
+}

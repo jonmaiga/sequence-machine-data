@@ -2,12 +2,10 @@
   "description": "Number of 5-regular maps on the Klein bottle with n vertices and 2n edges.",
   "id": "A323281",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 10,
     "source": "oeis-entry"

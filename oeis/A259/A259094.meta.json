@@ -12,13 +12,11 @@
     "A288000",
     "A288001"
   ],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:17",
     "offset": 1,
     "size": 105,
     "source": "oeis-bfile"

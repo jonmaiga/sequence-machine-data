@@ -2,14 +2,12 @@
   "description": "n^11 mod 13.",
   "id": "A167628",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 09:43:35",
     "offset": 0,
     "size": 95,
     "source": "joeis"

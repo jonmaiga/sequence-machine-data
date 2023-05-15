@@ -24,17 +24,18 @@
     "A246839",
     "A255321",
     "A255323",
-    "A255344"
+    "A255344",
+    "A347345",
+    "A347352"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nice",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:03",
     "offset": 0,
     "size": 12,
     "source": "oeis-bfile"

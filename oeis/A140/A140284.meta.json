@@ -2,7 +2,6 @@
   "description": "A weighted binomial triangle with smooth weighting function: f(n,d) = Floor[1 + d*Sech[d/2 - n]].",
   "id": "A140284",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "formulas",
     "nonn",
@@ -10,7 +9,6 @@
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 66,
     "source": "oeis-entry"

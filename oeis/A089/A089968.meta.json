@@ -2,13 +2,11 @@
   "description": "Decimal primes whose decimal representation in base 16 is also prime.",
   "id": "A089968",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:41",
     "offset": 1,
     "size": 43,
     "source": "oeis-bfile"

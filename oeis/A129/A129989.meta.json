@@ -2,12 +2,10 @@
   "description": "a(1)=1. a(n) = smallest integer > a(n-1) that is coprime to the n-th Fibonacci number.",
   "id": "A129989",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 62,
     "source": "oeis-entry"

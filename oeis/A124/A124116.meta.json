@@ -2,14 +2,12 @@
   "description": "a(n) the smallest positive integer such that a(n)+10^k is prime for k=1,2...n.",
   "id": "A124116",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "hard",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 16,
     "source": "oeis-entry"

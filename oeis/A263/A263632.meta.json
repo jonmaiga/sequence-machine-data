@@ -2,13 +2,11 @@
   "description": "Euler characteristics of the Brown poset at p = 2 for the symmetric group S_n.",
   "id": "A263632",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "more",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 3,
     "size": 13,
     "source": "oeis-entry"

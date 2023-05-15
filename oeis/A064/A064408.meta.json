@@ -2,12 +2,10 @@
   "description": "Even numbers not the sum of a pair of the greater of the twin primes.",
   "id": "A064408",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:16",
     "offset": 1,
     "size": 55,
     "source": "oeis-bfile"

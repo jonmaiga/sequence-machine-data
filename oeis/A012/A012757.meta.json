@@ -2,13 +2,11 @@
   "description": "tan(arctanh(x)^2) = 2/2!*x^2 + 16/4!*x^4 + 608/6!*x^6 + 43776/8!*x^8 + ...",
   "id": "A012757",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 17:54:15",
     "offset": 0,
     "size": 14,
     "source": "joeis"

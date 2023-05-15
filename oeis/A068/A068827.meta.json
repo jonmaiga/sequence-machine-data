@@ -2,13 +2,11 @@
   "description": "a(1) = 2; for n > 1, a(n) is the smallest prime > a(n-1) such that each successive digit in the concatenation of terms (that does not follow 9) is greater than the previous digit.",
   "id": "A068827",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:21",
     "offset": 1,
     "size": 36,
     "source": "oeis-bfile"

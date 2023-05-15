@@ -2,12 +2,10 @@
   "description": "23 is a square mod p.",
   "id": "A038897",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:43:31",
     "offset": 1,
     "size": 46,
     "source": "joeis"

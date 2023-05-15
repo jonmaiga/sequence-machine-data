@@ -2,13 +2,11 @@
   "description": "Expansion of 1/(1-x*sqrt(1+4*x^2)).",
   "id": "A190864",
   "mentions": [],
-  "modified": "2023-02-27 14:38:28",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-02 17:25:28",
     "offset": 0,
     "size": 39,
     "source": "joeis"

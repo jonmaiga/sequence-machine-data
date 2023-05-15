@@ -2,12 +2,10 @@
   "description": "Inverse of 1963rd cyclotomic polynomial.",
   "id": "A015972",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2022-05-02 15:32:31",
     "offset": 0,
     "size": 81,
     "source": "joeis"

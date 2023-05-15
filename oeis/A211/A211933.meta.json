@@ -2,12 +2,10 @@
   "description": "Number of distinct regular languages over binary alphabet, whose minimum regular expression has alphabetic width n.",
   "id": "A211933",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

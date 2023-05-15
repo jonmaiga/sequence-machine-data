@@ -2,13 +2,11 @@
   "description": "Determinant of the n X n matrix M_n(i,j) = C(i+j,i) (mod 3).",
   "id": "A076880",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 0,
     "size": 58,
     "source": "oeis-entry"

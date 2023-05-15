@@ -2,13 +2,11 @@
   "description": "Number of maximal independent vertex sets (and minimal vertex covers) in the n-antiprism graph.",
   "id": "A290593",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-03 01:30:13",
     "offset": 3,
     "size": 36,
     "source": "joeis"

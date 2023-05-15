@@ -2,12 +2,10 @@
   "description": "Numbers k which cannot be expressed as the sum of two positive integers k = a + b with a < b so that the continued fraction for a/b has all its partial quotients equal to 1 or 2.",
   "id": "A349765",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:38",
     "offset": 1,
     "size": 55,
     "source": "oeis-entry"

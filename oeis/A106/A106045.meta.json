@@ -2,12 +2,10 @@
   "description": "For n>=2, a(n) = prime[prime[a(n-1)] + a(n-1)]; a(1)=1.",
   "id": "A106045",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 9,
     "source": "oeis-entry"

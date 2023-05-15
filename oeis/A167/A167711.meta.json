@@ -2,17 +2,15 @@
   "description": "Numbers such that sum of digits is one more than a prime.",
   "id": "A167711",
   "mentions": [
-    "A000040",
     "A007953",
+    "A008864",
     "A166567"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-28 11:08:27",
     "offset": 1,
     "size": 63,
     "source": "joeis"

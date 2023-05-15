@@ -2,13 +2,11 @@
   "description": "Expansion of q^(-1/8) * (eta(q^3) - eta(q)^3) / 3 in powers of q.",
   "id": "A109127",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 105,
     "source": "oeis-entry"

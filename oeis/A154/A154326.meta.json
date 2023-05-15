@@ -2,13 +2,11 @@
   "description": "Square array T(n,k) = min{j>=0 | f(j+1) is prime}, where f(0)=prime(n), f(1)=k, f(j+1)=f(j)+f(j-1); or 0 if there is no such j>=0. Read by antidiagonals, n>=1, k>=0.",
   "id": "A154326",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:26",
     "offset": 0,
     "size": 132,
     "source": "oeis-entry"

@@ -2,14 +2,12 @@
   "description": "Expansion of (1-x)/(1 - x - x^3 - 2*x^4 + 2*x^5).",
   "id": "A052914",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:01",
     "offset": 0,
     "size": 41,
     "source": "oeis-bfile"

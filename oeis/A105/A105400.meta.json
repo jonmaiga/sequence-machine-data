@@ -2,13 +2,11 @@
   "description": "Absolute values of the three roots of p^3 + 2*p^2 - (3 - b[n])*p - b[n]: b[n]=3*Prime[n]-Prime[n]^2.",
   "id": "A105400",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 81,
     "source": "oeis-entry"

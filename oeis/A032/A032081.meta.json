@@ -2,13 +2,11 @@
   "description": "Shifts left under \"BHJ\" (reversible, identity, labeled) transform.",
   "id": "A032081",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "eigen",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-07 13:33:00",
     "offset": 1,
     "size": 19,
     "source": "joeis"

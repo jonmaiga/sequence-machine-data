@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k with property that the set of letters in the English name for k does not contain two letters that are adjacent in the alphabet.",
+  "id": "A362443",
+  "mentions": [
+    "A073029"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

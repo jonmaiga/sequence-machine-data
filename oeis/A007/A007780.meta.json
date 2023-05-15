@@ -2,13 +2,11 @@
   "description": "Losing initial configurations in 2-hole Tchuka Ruma.",
   "id": "A007780",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:12",
     "offset": 1,
     "size": 38,
     "source": "oeis-bfile"

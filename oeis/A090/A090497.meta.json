@@ -2,13 +2,11 @@
   "description": "Smallest prime p such that the concatenation 2,3,5,7, ... (primes) ... p is a multiple of prime(n).",
   "id": "A090497",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:42",
     "offset": 1,
     "size": 55,
     "source": "oeis-bfile"

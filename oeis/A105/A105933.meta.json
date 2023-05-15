@@ -2,14 +2,12 @@
   "description": "An eight-symbol substitution on an hypertetrahedron with two symbol connection per vertex : limited to coverage of the connections : characteristic polynomial:x^8-4*x^&5-4*x^4-8*x^3.",
   "id": "A105933",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "formulas",
     "nonn",
     "uned"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 105,
     "source": "oeis-entry"

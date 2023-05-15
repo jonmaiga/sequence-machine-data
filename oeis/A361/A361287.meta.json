@@ -1,0 +1,18 @@
+{
+  "description": "A variant of the inventory sequence A342585: now a row ends when the number of occurrences of the largest term in the sequence thus far has been recorded.",
+  "id": "A361287",
+  "mentions": [
+    "A342585",
+    "A347317"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

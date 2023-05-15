@@ -2,12 +2,10 @@
   "description": "Strong pseudoprimes to base 16.",
   "id": "A020242",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:00",
     "offset": 1,
     "size": 43,
     "source": "joeis"

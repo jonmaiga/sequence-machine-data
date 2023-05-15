@@ -2,12 +2,10 @@
   "description": "Coordination sequence for B_23 lattice",
   "id": "A107556",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:05:09",
     "offset": 0,
     "size": 17,
     "source": "joeis"

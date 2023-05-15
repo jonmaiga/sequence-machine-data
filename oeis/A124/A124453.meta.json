@@ -2,14 +2,12 @@
   "description": "Define Tuba numbers T(k,d,b) (0 <= d < b) by Sum_{j=0..k} binomial(k,j)*floor((k+d)/b)^(k-j)*T(j,d,b) = delta(k,0). Sequence gives T(n,0,2).",
   "id": "A124453",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "formulas",
     "sign",
     "unsolved"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 0,
     "size": 22,
     "source": "oeis-entry"

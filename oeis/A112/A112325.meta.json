@@ -2,12 +2,10 @@
   "description": "Number of even semiprimes <= semiprime(n).",
   "id": "A112325",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 76,
     "source": "oeis-entry"

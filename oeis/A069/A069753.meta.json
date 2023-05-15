@@ -2,13 +2,11 @@
   "description": "Smallest k>n such that the tetrahedral number n*(n+1)*(n+2)/6 divides the tetrahedral number k*(k+1)*(k+2)/6.",
   "id": "A069753",
   "mentions": [],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 54,
     "source": "oeis-entry"

@@ -1,16 +1,15 @@
 {
-  "description": "Smallest m, such that A065806(m) = n.",
+  "description": "Smallest m such that A065806(m) = n.",
   "id": "A241887",
   "mentions": [
     "A065806",
     "A241671"
   ],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:58",
     "offset": 2,
     "size": 61,
     "source": "oeis-bfile"

@@ -2,6 +2,7 @@
   "description": "Number of sortable normal multiset partitions of weight n.",
   "id": "A326212",
   "mentions": [
+    "A000041",
     "A000108",
     "A011782",
     "A058681",
@@ -17,16 +18,14 @@
     "A326258",
     "A326277"
   ],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
+    "changed",
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 0,
-    "size": 10,
-    "source": "oeis-entry"
+    "size": 26,
+    "source": "oeis-bfile"
   }
 }

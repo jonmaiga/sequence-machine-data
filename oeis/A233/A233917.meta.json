@@ -2,14 +2,12 @@
   "description": "T(n,k)=Number of (n+1)X(k+1) 0..7 arrays with every 2X2 subblock having the sum of the squares of the edge differences equal to 30 (30 maximizes T(1,1)), and no two adjacent values equal",
   "id": "A233917",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:52",
     "offset": 1,
     "size": 31,
     "source": "oeis-bfile"

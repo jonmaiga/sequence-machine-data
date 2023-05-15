@@ -2,13 +2,11 @@
   "description": "Decimal expansion of 11/e.",
   "id": "A135011",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 11:54:11",
     "offset": 1,
     "size": 86,
     "source": "joeis"

@@ -2,13 +2,11 @@
   "description": "Squares in lunar arithmetic in base 7 written in base 10.",
   "id": "A171594",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 0,
     "size": 56,
     "source": "oeis-entry"

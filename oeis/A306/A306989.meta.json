@@ -2,12 +2,10 @@
   "description": "Numbers not of the form x^2+2*y^2+7*z^2.",
   "id": "A306989",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:31",
     "offset": 1,
     "size": 54,
     "source": "oeis-bfile"

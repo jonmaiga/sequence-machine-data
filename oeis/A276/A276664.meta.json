@@ -2,13 +2,11 @@
   "description": "Number of solutions to the congruence y^2 == x^3 - x^2 + 4*x - 4 (mod p) as p runs through the primes.",
   "id": "A276664",
   "mentions": [],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:42",
     "offset": 1,
     "size": 59,
     "source": "oeis-bfile"

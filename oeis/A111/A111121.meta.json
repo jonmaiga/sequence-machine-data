@@ -2,12 +2,10 @@
   "description": "a(n) = a(n-3)^3 + a(n-2)^2 + a(n-1); a(1) = -1, a(2) = 0, a(3) = 1.",
   "id": "A111121",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:02",
     "offset": 1,
     "size": 18,
     "source": "oeis-bfile"

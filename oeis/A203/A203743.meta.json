@@ -5,12 +5,10 @@
     "A093883",
     "A203742"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 16:59:58",
     "offset": 1,
     "size": 10,
     "source": "joeis"

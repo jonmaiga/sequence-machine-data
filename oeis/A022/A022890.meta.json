@@ -2,12 +2,10 @@
   "description": "n-th index k such that p(k) + p(k+6) = p(k+2) + p(k+4).",
   "id": "A022890",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:14:29",
     "offset": 1,
     "size": 51,
     "source": "joeis"

@@ -2,12 +2,10 @@
   "description": "Primes p such that three of p+10, p+20, p+30 and p+40 are prime.",
   "id": "A342150",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:15",
     "offset": 1,
     "size": 53,
     "source": "oeis-bfile"

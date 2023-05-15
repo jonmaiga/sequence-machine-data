@@ -2,14 +2,12 @@
   "description": "a(n) is the number of optimal strategies for Player I in the Penney-Ante game with strings of length n.",
   "id": "A344903",
   "mentions": [],
-  "modified": "2023-02-27 14:38:38",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:05:18",
     "offset": 3,
     "size": 36,
     "source": "oeis-bfile"

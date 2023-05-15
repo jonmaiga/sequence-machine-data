@@ -1,0 +1,16 @@
+{
+  "description": "Novel terms in A361511, in order of appearance.",
+  "id": "A361513",
+  "mentions": [
+    "A361511",
+    "A361512"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-bfile"
+  }
+}

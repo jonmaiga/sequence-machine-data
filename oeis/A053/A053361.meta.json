@@ -2,14 +2,12 @@
   "description": "Numbers k such that 289*2^k + 1 is prime.",
   "id": "A053361",
   "mentions": [],
-  "modified": "2023-02-27 14:38:19",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:19",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

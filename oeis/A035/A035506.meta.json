@@ -2,13 +2,13 @@
   "description": "Stolarsky array read by antidiagonals.",
   "id": "A035506",
   "mentions": [
+    "A035489",
     "A035507",
     "A035513",
     "A064357",
     "A098861",
     "A191426"
   ],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "formulas",
@@ -17,7 +17,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 16:59:46",
     "offset": 0,
     "size": 78,
     "source": "oeis-bfile"

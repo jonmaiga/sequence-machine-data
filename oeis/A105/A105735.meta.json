@@ -1,14 +1,15 @@
 {
   "description": "Decimal expansion of arcsin(1/e).",
   "id": "A105735",
-  "mentions": [],
-  "modified": "2023-02-27 14:38:23",
+  "mentions": [
+    "A001113",
+    "A068985"
+  ],
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:47:35",
     "offset": 0,
     "size": 105,
     "source": "joeis"

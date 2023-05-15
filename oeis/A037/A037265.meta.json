@@ -5,7 +5,6 @@
     "A037264",
     "A037268"
   ],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "easy",
     "fini",
@@ -13,7 +12,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 15:35:09",
     "offset": 1,
     "size": 92,
     "source": "joeis"

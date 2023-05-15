@@ -16,19 +16,17 @@
     "A164471",
     "A203175",
     "A227036",
-    "A289065",
     "A289260",
     "A292764"
   ],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
+    "changed",
     "cons",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 13:20:21",
     "offset": 1,
     "size": 86,
     "source": "joeis"

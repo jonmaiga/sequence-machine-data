@@ -2,14 +2,12 @@
   "description": "Slowest increasing and self-describing sequence: first 2 digits are prime digits, followed by 3 composite digits, then 4 prime digits, then 6 composite digits, then 8 prime, then 2 composite, then 2 prime, etc.",
   "id": "A105808",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 2,
     "size": 37,
     "source": "oeis-entry"

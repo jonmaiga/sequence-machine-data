@@ -2,13 +2,11 @@
   "description": "Number of permutations of 1..n with i-10<=p(i)<=i+2.",
   "id": "A179362",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:02",
     "offset": 1,
     "size": 27,
     "source": "oeis-bfile"

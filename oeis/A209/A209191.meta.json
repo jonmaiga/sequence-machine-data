@@ -2,13 +2,11 @@
   "description": "Numbers n such that digital root of n equals smallest prime factor of n.",
   "id": "A209191",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:28",
     "offset": 1,
     "size": 53,
     "source": "oeis-bfile"

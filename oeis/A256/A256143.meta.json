@@ -2,12 +2,10 @@
   "description": "Fibonacci Mutant Bunnies. Start at 1,1,1 and, at each step, either add the last three elements or take the difference of the last two. a(n) is equal to the minimum number of steps to get to n.",
   "id": "A256143",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:14",
     "offset": 0,
     "size": 82,
     "source": "oeis-bfile"

@@ -2,12 +2,10 @@
   "description": "IntegerPart[PolyGamma[n,2]].",
   "id": "A144168",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 24,
     "source": "oeis-entry"

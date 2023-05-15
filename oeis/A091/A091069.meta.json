@@ -9,7 +9,6 @@
     "A091337",
     "A318608"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "easy",
     "formulas",
@@ -17,7 +16,6 @@
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 17:00:42",
     "offset": 1,
     "size": 108,
     "source": "oeis-bfile"

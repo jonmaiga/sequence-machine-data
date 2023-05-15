@@ -2,12 +2,10 @@
   "description": "Number of independent subsets of nodes in graph formed from n-fold subdivision of tetrahedron.",
   "id": "A027730",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:18",
     "offset": 0,
     "size": 9,
     "source": "oeis-entry"

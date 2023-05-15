@@ -2,14 +2,12 @@
   "description": "Number of length n mixed radix numbers with base [2, 3, 4, ...] (factorial base) such that the parities of adjacent digits differ.",
   "id": "A219024",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:37",
     "offset": 0,
     "size": 25,
     "source": "oeis-bfile"

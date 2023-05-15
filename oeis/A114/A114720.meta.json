@@ -2,14 +2,12 @@
   "description": "Decimal expansion of -(Gamma(1/4)*zeta(1/2))/(8*Pi^(1/4)).",
   "id": "A114720",
   "mentions": [],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 0,
     "size": 102,
     "source": "oeis-entry"

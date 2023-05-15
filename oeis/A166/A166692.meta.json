@@ -1,14 +1,15 @@
 {
-  "description": "Triangle T(n,k) read by rows: T(n,k) = 2^(k-1), k>0. T(n,0) = (n+1) mod 2.",
+  "description": "Triangle T(n,k) read by rows: T(n,k) = 2^(k-1), k>0, T(n,0) = (n+1) mod 2.",
   "id": "A166692",
   "mentions": [
+    "A005578",
     "A011782",
     "A051049",
+    "A106624",
     "A131577",
     "A166494",
     "A166918"
   ],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "easy",
     "formulas",
@@ -16,9 +17,8 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2022-04-26 09:41:05",
     "offset": 0,
-    "size": 75,
+    "size": 78,
     "source": "joeis"
   }
 }

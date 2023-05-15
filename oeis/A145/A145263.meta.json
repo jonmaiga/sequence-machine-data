@@ -2,12 +2,10 @@
   "description": "1/10 of the number of 10-colorings of an n X n array symmetric under 180 degree rotation.",
   "id": "A145263",
   "mentions": [],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 1,
     "size": 6,
     "source": "oeis-entry"

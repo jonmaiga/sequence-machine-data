@@ -1,18 +1,17 @@
 {
-  "description": "Numbers n such that n*(sum of digits of n) is a palindrome.",
+  "description": "Numbers k such that k*(sum of digits of k) is a palindrome.",
   "id": "A229549",
   "mentions": [
     "A057147"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
+    "changed",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-16 12:48:03",
     "offset": 1,
     "size": 54,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

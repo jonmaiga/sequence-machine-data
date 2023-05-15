@@ -2,14 +2,12 @@
   "description": "Decimal expansion of 2F1(1, 1/4; 5/4; -1/4), where 2F1 is a Gaussian hypergeometric function.",
   "id": "A244844",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 0,
     "size": 104,
     "source": "oeis-entry"

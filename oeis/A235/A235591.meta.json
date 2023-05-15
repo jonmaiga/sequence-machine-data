@@ -2,14 +2,12 @@
   "description": "Numbers which on division by their digital root give quotient which is divisible by its digital root.",
   "id": "A235591",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 74,
     "source": "oeis-entry"

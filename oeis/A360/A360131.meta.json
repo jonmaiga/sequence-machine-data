@@ -2,14 +2,12 @@
   "description": "Number of maximum independent vertex sets in the n-Sierpinski tetrahedron graph.",
   "id": "A360131",
   "mentions": [],
-  "modified": "2023-02-27 14:38:39",
   "tags": [
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:39",
     "offset": 1,
     "size": 4,
     "source": "oeis-entry"

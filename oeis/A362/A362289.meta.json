@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the largest denominator when the greedy algorithm for Egyptian fractions is applied to 1/n + 1/(n+1).",
+  "id": "A362289",
+  "mentions": [
+    "A050210"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

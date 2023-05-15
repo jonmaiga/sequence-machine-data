@@ -9,14 +9,12 @@
     "A145271",
     "A176740"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "easy",
     "sign",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 12,
     "source": "oeis-entry"

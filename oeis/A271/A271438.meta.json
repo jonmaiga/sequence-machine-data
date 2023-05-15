@@ -4,7 +4,6 @@
   "mentions": [
     "A002385"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "base",
     "bref",
@@ -12,7 +11,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:33",
     "offset": 1,
     "size": 3,
     "source": "oeis-entry"

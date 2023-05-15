@@ -2,14 +2,12 @@
   "description": "Primes with the property that the sum of the cubes of their digits plus the prime equals another prime squared.",
   "id": "A228195",
   "mentions": [],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "base",
     "less",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:45",
     "offset": 1,
     "size": 37,
     "source": "oeis-bfile"

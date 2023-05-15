@@ -8,14 +8,12 @@
     "A074140",
     "A228100"
   ],
-  "modified": "2023-02-27 14:38:30",
   "tags": [
     "look",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:45",
     "offset": 0,
     "size": 49,
     "source": "oeis-bfile"

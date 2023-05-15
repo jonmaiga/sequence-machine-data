@@ -10,14 +10,12 @@
     "A046856",
     "A046857"
   ],
-  "modified": "2023-02-27 14:38:16",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:16",
     "offset": 0,
     "size": 7,
     "source": "oeis-entry"

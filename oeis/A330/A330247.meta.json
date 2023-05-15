@@ -2,7 +2,6 @@
   "description": "The decimal form of the n-th color mentioned in the song \"I Can Sing a Rainbow\".",
   "id": "A330247",
   "mentions": [],
-  "modified": "2023-02-27 14:38:37",
   "tags": [
     "base",
     "fini",
@@ -11,7 +10,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:37",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

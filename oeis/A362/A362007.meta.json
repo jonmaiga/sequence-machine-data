@@ -1,0 +1,25 @@
+{
+  "description": "Fourth Lie-Betti number of a path graph on n vertices.",
+  "id": "A362007",
+  "mentions": [
+    "A000027",
+    "A000217",
+    "A000332",
+    "A001105",
+    "A006002",
+    "A011379",
+    "A056106",
+    "A088459",
+    "A360571",
+    "A361230"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

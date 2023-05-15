@@ -1,15 +1,13 @@
 {
-  "description": "This sequence contains primes that, under the Collatz function, take a prime number of steps to reach one.",
+  "description": "Primes that take a prime number of steps to reach 1 under the Collatz function.",
   "id": "A176112",
   "mentions": [
     "A006577"
   ],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:00",
     "offset": 1,
     "size": 49,
     "source": "oeis-bfile"

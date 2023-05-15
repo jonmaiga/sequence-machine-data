@@ -2,12 +2,10 @@
   "description": "Sequence satisfies: 1 = Sum_{n>=1} 2^(n*(n-1)) / a(n)^n, with a(1) = 2, by a greedy algorithm.",
   "id": "A301804",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:26",
     "offset": 1,
     "size": 35,
     "source": "oeis-bfile"

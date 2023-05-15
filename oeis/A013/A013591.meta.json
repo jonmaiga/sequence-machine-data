@@ -2,12 +2,10 @@
   "description": "Orders of cyclotomic polynomials containing a coefficient the absolute value of which is >= 3.",
   "id": "A013591",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 1,
     "size": 40,
     "source": "oeis-entry"

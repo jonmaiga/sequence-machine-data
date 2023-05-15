@@ -2,13 +2,11 @@
   "description": "a(n) = (2*n + 4)!*(n^2 + 11*n + 2)/(2*(n-1)!*(n+6)!).",
   "id": "A294445",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:12",
     "offset": 1,
     "size": 25,
     "source": "oeis-bfile"

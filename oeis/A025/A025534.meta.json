@@ -2,12 +2,10 @@
   "description": "a(n) = (1/C(n,0) + 1/C(n,1) + ... + 1/C(n,k))*L, where k = [ n/2 ], L = LCM{C(n,0), C(n,1),..., C(n,n)}.",
   "id": "A025534",
   "mentions": [],
-  "modified": "2023-02-27 14:38:18",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2022-05-02 18:32:05",
     "offset": 0,
     "size": 31,
     "source": "joeis"

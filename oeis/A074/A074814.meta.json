@@ -2,13 +2,11 @@
   "description": "Numbers k such that the number of primes between k and 2k (inclusive) is equal to the number of primes between k and reverse(k) (inclusive).",
   "id": "A074814",
   "mentions": [],
-  "modified": "2023-02-27 14:38:21",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:21",
     "offset": 1,
     "size": 46,
     "source": "oeis-entry"

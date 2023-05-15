@@ -8,14 +8,12 @@
     "A085735",
     "A091978"
   ],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 101,
     "source": "oeis-entry"

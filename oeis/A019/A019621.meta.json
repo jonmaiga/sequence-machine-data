@@ -2,13 +2,11 @@
   "description": "Decimal expansion of Pi*e/13.",
   "id": "A019621",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "cons",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-28 14:03:29",
     "offset": 0,
     "size": 99,
     "source": "joeis"

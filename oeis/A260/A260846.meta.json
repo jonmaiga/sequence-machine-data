@@ -2,14 +2,12 @@
   "description": "a(n) = (-3 - 28*3^n + 73*15^n)/21.",
   "id": "A260846",
   "mentions": [],
-  "modified": "2023-02-27 14:38:32",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:19",
     "offset": 0,
     "size": 19,
     "source": "oeis-bfile"

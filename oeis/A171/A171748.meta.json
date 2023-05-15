@@ -2,12 +2,10 @@
   "description": "Primes of the form (2+n)*(1+2*n)+(1+n)*(2+2*n).",
   "id": "A171748",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 37,
     "source": "oeis-entry"

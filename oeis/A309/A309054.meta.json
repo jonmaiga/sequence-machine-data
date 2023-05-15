@@ -8,7 +8,6 @@
     "A307672",
     "A307744"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "formulas",
     "hear",
@@ -16,7 +15,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:04:33",
     "offset": 0,
     "size": 85,
     "source": "oeis-bfile"

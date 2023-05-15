@@ -2,13 +2,11 @@
   "description": "Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite JBW = NaJ (Barrer and White) Na3 [ Al3Si3O12 ]. 1.5 H2O.",
   "id": "A019022",
   "mentions": [],
-  "modified": "2023-02-27 14:38:17",
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:17",
     "offset": 2,
     "size": 15,
     "source": "oeis-entry"

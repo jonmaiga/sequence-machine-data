@@ -25,14 +25,12 @@
     "A181826",
     "A181827"
   ],
-  "modified": "2023-03-14 10:34:48",
   "tags": [
     "formulas",
     "look",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:05",
     "offset": 1,
     "size": 55,
     "source": "oeis-bfile"

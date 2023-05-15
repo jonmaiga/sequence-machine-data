@@ -2,12 +2,10 @@
   "description": "a(1) = 1, a(n+1) = smallest number such that the product of all numbers between a(n) and a(n+1), ( both excluded) is divisible by n!.",
   "id": "A088635",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 54,
     "source": "oeis-entry"

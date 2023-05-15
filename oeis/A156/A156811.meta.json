@@ -2,7 +2,6 @@
   "description": "Triangle T(n, k) = 0 if BernoulliB(n-k) = 0 otherwise round( binomial(n, k)/BernoulliB(n-k)^k ), read by rows.",
   "id": "A156811",
   "mentions": [],
-  "modified": "2023-02-27 14:38:26",
   "tags": [
     "formulas",
     "less",
@@ -10,7 +9,6 @@
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:01:38",
     "offset": 0,
     "size": 66,
     "source": "oeis-bfile"

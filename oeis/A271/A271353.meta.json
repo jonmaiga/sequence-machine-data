@@ -6,13 +6,11 @@
     "A270003",
     "A270753"
   ],
-  "modified": "2023-02-27 14:38:33",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 17:03:35",
     "offset": 1,
     "size": 86,
     "source": "oeis-bfile"

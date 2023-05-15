@@ -9,14 +9,12 @@
     "A267999",
     "A295997"
   ],
-  "modified": "2023-02-27 14:38:23",
   "tags": [
     "fini",
     "full",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:23",
     "offset": 1,
     "size": 132,
     "source": "oeis-entry"

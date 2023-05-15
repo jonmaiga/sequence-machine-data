@@ -11,14 +11,12 @@
     "A319522",
     "A319525"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 64,
     "source": "oeis-entry"

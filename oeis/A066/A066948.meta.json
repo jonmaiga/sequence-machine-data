@@ -5,14 +5,12 @@
     "A000720",
     "A007870"
   ],
-  "modified": "2023-02-27 14:38:20",
   "tags": [
     "easy",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:20",
     "offset": 1,
     "size": 76,
     "source": "oeis-entry"

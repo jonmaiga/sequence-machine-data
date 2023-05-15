@@ -2,14 +2,12 @@
   "description": "Least number m such that d_1^j + d_2^j + ... + d_k^j is prime for j = 1, 2, 3, ... n and is composite for j = n+1, where d_1, d_2, ... d_k are the digits of m.",
   "id": "A245358",
   "mentions": [],
-  "modified": "2023-02-27 14:38:31",
   "tags": [
     "base",
     "more",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:31",
     "offset": 1,
     "size": 14,
     "source": "oeis-entry"

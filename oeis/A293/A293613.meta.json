@@ -2,14 +2,12 @@
   "description": "a(n) = (1/4)*(7*n + 17)*(5*n + 6)*Pochhammer(n, 6) / 6!.",
   "id": "A293613",
   "mentions": [],
-  "modified": "2023-02-27 14:38:35",
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2022-04-26 10:28:31",
     "offset": 0,
     "size": 28,
     "source": "joeis"

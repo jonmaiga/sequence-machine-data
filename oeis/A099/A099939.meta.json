@@ -2,14 +2,12 @@
   "description": "Seven-segment LED clock sequence: starting at 00:00 midnight, sequence gives total number of illuminated segments every minute that appear in the hour and minute characters of the LED display on a digital clock.",
   "id": "A099939",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "base",
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 0,
     "size": 69,
     "source": "oeis-entry"

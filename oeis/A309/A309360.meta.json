@@ -6,12 +6,10 @@
     "A092098",
     "A309361"
   ],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 52,
     "source": "oeis-entry"

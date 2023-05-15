@@ -5,12 +5,10 @@
     "A212301",
     "A212320"
   ],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:29",
     "offset": 1,
     "size": 20,
     "source": "oeis-entry"

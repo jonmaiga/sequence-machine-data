@@ -7,13 +7,11 @@
     "A007677",
     "A136121"
   ],
-  "modified": "2023-02-27 14:38:25",
   "tags": [
     "easy",
     "sign"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:25",
     "offset": 0,
     "size": 35,
     "source": "oeis-entry"

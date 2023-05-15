@@ -2,13 +2,11 @@
   "description": "T(n,k) = Number of (n+1) X (k+1) 0..4 arrays with the permanents of all 2X2 subblocks equal and nonzero.",
   "id": "A204732",
   "mentions": [],
-  "modified": "2023-02-27 14:38:29",
   "tags": [
     "nonn",
     "tabl"
   ],
   "terms": {
-    "modified": "2023-02-27 17:02:25",
     "offset": 1,
     "size": 29,
     "source": "oeis-bfile"

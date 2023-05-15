@@ -2,7 +2,6 @@
   "description": "Number of months in a 400-year cycle that have the thirteenth day of the month fall on the n-th day of the week, beginning with Sunday.",
   "id": "A101944",
   "mentions": [],
-  "modified": "2023-02-27 14:38:22",
   "tags": [
     "dumb",
     "fini",
@@ -10,7 +9,6 @@
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:22",
     "offset": 1,
     "size": 7,
     "source": "oeis-entry"

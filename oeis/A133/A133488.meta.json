@@ -2,13 +2,11 @@
   "description": "a(1) = 1. a(n) = a(n-1) + a(m), where m is the largest term of the sequence {a(k)} which is less than n.",
   "id": "A133488",
   "mentions": [],
-  "modified": "2023-02-27 14:38:24",
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:24",
     "offset": 1,
     "size": 44,
     "source": "oeis-entry"

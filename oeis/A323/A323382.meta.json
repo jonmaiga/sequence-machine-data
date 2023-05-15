@@ -2,13 +2,11 @@
   "description": "a(n) is the period of the oscillating pattern formed by a diagonal line of 2*n cells in the Life-like cellular automaton B2e3ijkn4cz5/S236.",
   "id": "A323382",
   "mentions": [],
-  "modified": "2023-02-27 14:38:36",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:36",
     "offset": 1,
     "size": 60,
     "source": "oeis-entry"

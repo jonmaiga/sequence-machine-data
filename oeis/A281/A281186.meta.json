@@ -2,13 +2,11 @@
   "description": "E.g.f. satisfies: A(x) = exp( 1/A(x) * Integral A(x)^(8/3) dx ).",
   "id": "A281186",
   "mentions": [],
-  "modified": "2023-02-27 14:38:34",
   "tags": [
     "formulas",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:34",
     "offset": 0,
     "size": 20,
     "source": "oeis-entry"

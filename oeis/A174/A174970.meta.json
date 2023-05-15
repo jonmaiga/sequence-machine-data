@@ -2,13 +2,11 @@
   "description": "The base 6 expansion of the number of trailing zeros of the base 6 expansion of (6^n)!.",
   "id": "A174970",
   "mentions": [],
-  "modified": "2023-02-27 14:38:27",
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
-    "modified": "2023-02-27 14:38:27",
     "offset": 1,
     "size": 18,
     "source": "oeis-entry"
