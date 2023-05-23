@@ -19,16 +19,18 @@
       ]
     },
     {
-      "d": "2022-06-24",
-      "ix": "record[floor(sqrt((n-1)^n))]",
-      "mt": 56,
+      "d": "2023-05-22",
+      "ix": "record[floor(abs(1-n)^(n/2))]",
+      "mt": 99,
       "px": [
-        "n",
         "1",
-        "sub",
         "n",
+        "sub",
+        "abs",
+        "n",
+        "2",
+        "/",
         "^",
-        "sqrt",
         "floor",
         "record"
       ]
