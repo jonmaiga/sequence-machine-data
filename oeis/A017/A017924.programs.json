@@ -203,7 +203,7 @@
     },
     {
       "d": "2021-10-01",
-      "ix": "floor(sqrt(6^n-record[gpf(n+1)]))+1",
+      "ix": "floor(sqrt(6^n-record[A006530(n+1)]))+1",
       "mt": 129,
       "px": [
         "6",
@@ -212,7 +212,7 @@
         "n",
         "1",
         "+",
-        "gpf",
+        "A006530",
         "record",
         "sub",
         "sqrt",

@@ -21,7 +21,7 @@
     },
     {
       "d": "2022-06-10",
-      "ix": "record[gpf(round(ϕ*floor(ϕ*(n+2)+n)))]",
+      "ix": "record[A006530(round(ϕ*floor(ϕ*(n+2)+n)))]",
       "mt": 48,
       "px": [
         "ϕ",
@@ -35,13 +35,13 @@
         "floor",
         "*",
         "round",
-        "gpf",
+        "A006530",
         "record"
       ]
     },
     {
       "d": "2022-06-10",
-      "ix": "record[lpf(round(ϕ*floor(ϕ*(n+2)+n)))]",
+      "ix": "record[A020639(round(ϕ*floor(ϕ*(n+2)+n)))]",
       "mt": 48,
       "px": [
         "ϕ",
@@ -55,7 +55,7 @@
         "floor",
         "*",
         "round",
-        "lpf",
+        "A020639",
         "record"
       ]
     },

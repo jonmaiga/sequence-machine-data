@@ -266,14 +266,14 @@
     },
     {
       "d": "2021-12-06",
-      "ix": "record[n/floor(sqrt(gpf(n+1)))]",
+      "ix": "record[n/floor(sqrt(A006530(n+1)))]",
       "mt": 101,
       "px": [
         "n",
         "n",
         "1",
         "+",
-        "gpf",
+        "A006530",
         "sqrt",
         "floor",
         "/",

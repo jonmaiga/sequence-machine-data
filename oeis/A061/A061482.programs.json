@@ -3,7 +3,7 @@
   "ps": [
     {
       "d": "2023-04-05",
-      "ix": "record[gpf(floor(n-atan(n))!+n)]",
+      "ix": "record[A006530(floor(n-atan(n))!+n)]",
       "mt": 5,
       "px": [
         "n",
@@ -14,7 +14,7 @@
         "!",
         "n",
         "+",
-        "gpf",
+        "A006530",
         "record"
       ]
     }

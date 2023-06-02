@@ -16,14 +16,14 @@
     },
     {
       "d": "2022-06-21",
-      "ix": "∑[nonprime(runs[contfrac[tanh(2)]])]",
+      "ix": "∑[A018252(runs[contfrac[tanh(2)]])]",
       "mt": 30,
       "px": [
         "2",
         "tanh",
         "contfrac",
         "runs",
-        "nonprime",
+        "A018252",
         "∑"
       ]
     },
@@ -42,14 +42,14 @@
     },
     {
       "d": "2022-06-21",
-      "ix": "∑[nonprime(runs[de[log2(ϕ)]])]",
+      "ix": "∑[A018252(runs[de[log2(ϕ)]])]",
       "mt": 30,
       "px": [
         "ϕ",
         "log2",
         "de",
         "runs",
-        "nonprime",
+        "A018252",
         "∑"
       ]
     },

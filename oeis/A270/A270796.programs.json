@@ -3,61 +3,61 @@
   "ps": [
     {
       "d": "2021-11-01",
-      "ix": "nonprime(nonprime(p(n+1)))",
+      "ix": "A018252(A018252(p(n+1)))",
       "mt": 67,
       "px": [
         "n",
         "1",
         "+",
         "p",
-        "nonprime",
-        "nonprime"
+        "A018252",
+        "A018252"
       ]
     },
     {
       "d": "2021-11-01",
-      "ix": "nonprime(nonprime(p?[comp[n²]]))",
+      "ix": "A018252(A018252(p?[comp[n²]]))",
       "mt": 67,
       "px": [
         "n",
         "²",
         "comp",
         "p?",
-        "nonprime",
-        "nonprime"
+        "A018252",
+        "A018252"
       ]
     },
     {
       "d": "2021-11-01",
-      "ix": "record[nonprime(nonprime(gpf(n+2)))]",
+      "ix": "record[A018252(A018252(A006530(n+2)))]",
       "mt": 67,
       "px": [
         "n",
         "2",
         "+",
-        "gpf",
-        "nonprime",
-        "nonprime",
+        "A006530",
+        "A018252",
+        "A018252",
         "record"
       ]
     },
     {
       "d": "2021-11-01",
-      "ix": "record[nonprime(nonprime(lpf(n+2)))]",
+      "ix": "record[A018252(A018252(A020639(n+2)))]",
       "mt": 67,
       "px": [
         "n",
         "2",
         "+",
-        "lpf",
-        "nonprime",
-        "nonprime",
+        "A020639",
+        "A018252",
+        "A018252",
         "record"
       ]
     },
     {
       "d": "2021-11-01",
-      "ix": "record[nonprime(nonprime(∑{p}[n+2, #]))]",
+      "ix": "record[A018252(A018252(∑{p}[n+2, #]))]",
       "mt": 67,
       "px": [
         "n",
@@ -65,14 +65,14 @@
         "+",
         "#",
         "∑{p}",
-        "nonprime",
-        "nonprime",
+        "A018252",
+        "A018252",
         "record"
       ]
     },
     {
       "d": "2022-06-24",
-      "ix": "nonprime(nonprime(record[∑{p}[n-2, #]]))",
+      "ix": "A018252(A018252(record[∑{p}[n-2, #]]))",
       "mt": 67,
       "px": [
         "n",
@@ -81,28 +81,28 @@
         "#",
         "∑{p}",
         "record",
-        "nonprime",
-        "nonprime"
+        "A018252",
+        "A018252"
       ]
     },
     {
       "d": "2021-11-01",
-      "ix": "record[nonprime(nonprime(p?[rad(n+1)]))]",
+      "ix": "record[A018252(A018252(p?[A005117(n+1)]))]",
       "mt": 67,
       "px": [
         "n",
         "1",
         "+",
-        "rad",
+        "A005117",
         "p?",
-        "nonprime",
-        "nonprime",
+        "A018252",
+        "A018252",
         "record"
       ]
     },
     {
       "d": "2021-12-06",
-      "ix": "record[nonprime(nonprime(φ(n+1)+1))]",
+      "ix": "record[A018252(A018252(φ(n+1)+1))]",
       "mt": 67,
       "px": [
         "n",
@@ -111,39 +111,39 @@
         "φ",
         "1",
         "+",
-        "nonprime",
-        "nonprime",
+        "A018252",
+        "A018252",
         "record"
       ]
     },
     {
       "d": "2021-12-06",
-      "ix": "nonprime(record[nonprime(n+2)/Ω(n+2)])",
+      "ix": "A018252(record[A018252(n+2)/A001222(n+2)])",
       "mt": 67,
       "px": [
         "n",
         "2",
         "+",
-        "nonprime",
+        "A018252",
         "n",
         "2",
         "+",
-        "Ω",
+        "A001222",
         "/",
         "record",
-        "nonprime"
+        "A018252"
       ]
     },
     {
       "d": "2021-11-24",
-      "ix": "nonprime(A078782(n+1))",
+      "ix": "A018252(A078782(n+1))",
       "mt": 67,
       "px": [
         "n",
         "1",
         "+",
         "A078782",
-        "nonprime"
+        "A018252"
       ]
     }
   ]

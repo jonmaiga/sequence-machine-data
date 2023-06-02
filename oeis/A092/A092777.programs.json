@@ -120,13 +120,13 @@
     },
     {
       "d": "2021-11-01",
-      "ix": "∑[round(record[log(gpf(n+2))])]",
+      "ix": "∑[round(record[log(A006530(n+2))])]",
       "mt": 9592,
       "px": [
         "n",
         "2",
         "+",
-        "gpf",
+        "A006530",
         "log",
         "record",
         "round",
@@ -135,13 +135,13 @@
     },
     {
       "d": "2021-11-01",
-      "ix": "∑[round(record[log(lpf(n+2))])]",
+      "ix": "∑[round(record[log(A020639(n+2))])]",
       "mt": 9592,
       "px": [
         "n",
         "2",
         "+",
-        "lpf",
+        "A020639",
         "log",
         "record",
         "round",

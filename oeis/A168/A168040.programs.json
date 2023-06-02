@@ -18,7 +18,7 @@
     },
     {
       "d": "2022-10-05",
-      "ix": "record[lpf(ceil(root(A074222(n+1), e)))]",
+      "ix": "record[A020639(ceil(root(A074222(n+1), e)))]",
       "mt": 45,
       "px": [
         "n",
@@ -28,7 +28,7 @@
         "e",
         "root",
         "ceil",
-        "lpf",
+        "A020639",
         "record"
       ]
     },

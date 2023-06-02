@@ -17,13 +17,13 @@
     },
     {
       "d": "2022-03-21",
-      "ix": "ceil(∏[record[sqrt(gpf(n+2))]])",
+      "ix": "ceil(∏[record[sqrt(A006530(n+2))]])",
       "mt": 92,
       "px": [
         "n",
         "2",
         "+",
-        "gpf",
+        "A006530",
         "sqrt",
         "record",
         "∏",
@@ -32,13 +32,13 @@
     },
     {
       "d": "2022-03-21",
-      "ix": "ceil(∏[record[sqrt(lpf(n+2))]])",
+      "ix": "ceil(∏[record[sqrt(A020639(n+2))]])",
       "mt": 92,
       "px": [
         "n",
         "2",
         "+",
-        "lpf",
+        "A020639",
         "sqrt",
         "record",
         "∏",

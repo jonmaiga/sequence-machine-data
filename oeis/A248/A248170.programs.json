@@ -30,13 +30,13 @@
     },
     {
       "d": "2021-11-01",
-      "ix": "round(record[sqrt(gpf(n+2))])",
+      "ix": "round(record[sqrt(A006530(n+2))])",
       "mt": 1000,
       "px": [
         "n",
         "2",
         "+",
-        "gpf",
+        "A006530",
         "sqrt",
         "record",
         "round"
@@ -44,13 +44,13 @@
     },
     {
       "d": "2021-11-01",
-      "ix": "round(record[sqrt(lpf(n+2))])",
+      "ix": "round(record[sqrt(A020639(n+2))])",
       "mt": 1000,
       "px": [
         "n",
         "2",
         "+",
-        "lpf",
+        "A020639",
         "sqrt",
         "record",
         "round"
@@ -58,13 +58,13 @@
     },
     {
       "d": "2022-09-14",
-      "ix": "round(sqrt(record[gpf(or(1, n))]))",
+      "ix": "round(sqrt(record[A006530(or(1, n))]))",
       "mt": 1000,
       "px": [
         "1",
         "n",
         "or",
-        "gpf",
+        "A006530",
         "record",
         "sqrt",
         "round"
@@ -72,13 +72,13 @@
     },
     {
       "d": "2021-11-01",
-      "ix": "round(record[sqrt(p?[rad(n+1)])])",
+      "ix": "round(record[sqrt(p?[A005117(n+1)])])",
       "mt": 1000,
       "px": [
         "n",
         "1",
         "+",
-        "rad",
+        "A005117",
         "p?",
         "sqrt",
         "record",
@@ -103,7 +103,7 @@
     },
     {
       "d": "2021-11-01",
-      "ix": "round(record[root(n+2, d(n+2))])",
+      "ix": "round(record[root(n+2, A000005(n+2))])",
       "mt": 1000,
       "px": [
         "n",
@@ -112,7 +112,7 @@
         "n",
         "2",
         "+",
-        "d",
+        "A000005",
         "root",
         "record",
         "round"
@@ -209,26 +209,26 @@
     },
     {
       "d": "2021-11-01",
-      "ix": "A000194(record[gpf(n+2)])",
+      "ix": "A000194(record[A006530(n+2)])",
       "mt": 1000,
       "px": [
         "n",
         "2",
         "+",
-        "gpf",
+        "A006530",
         "record",
         "A000194"
       ]
     },
     {
       "d": "2021-11-24",
-      "ix": "A000194(record[lpf(n+2)])",
+      "ix": "A000194(record[A020639(n+2)])",
       "mt": 1000,
       "px": [
         "n",
         "2",
         "+",
-        "lpf",
+        "A020639",
         "record",
         "A000194"
       ]

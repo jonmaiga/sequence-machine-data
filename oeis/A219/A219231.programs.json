@@ -3,7 +3,7 @@
   "ps": [
     {
       "d": "2022-07-04",
-      "ix": "floor(sqrt(nonprime(ceil(2^(n-1)*n!))))",
+      "ix": "floor(sqrt(A018252(ceil(2^(n-1)*n!))))",
       "mt": 7,
       "px": [
         "2",
@@ -15,14 +15,14 @@
         "!",
         "*",
         "ceil",
-        "nonprime",
+        "A018252",
         "sqrt",
         "floor"
       ]
     },
     {
       "d": "2022-06-20",
-      "ix": "floor(sqrt(nonprime(round(2^(n-1)*n!))))",
+      "ix": "floor(sqrt(A018252(round(2^(n-1)*n!))))",
       "mt": 7,
       "px": [
         "2",
@@ -34,14 +34,14 @@
         "!",
         "*",
         "round",
-        "nonprime",
+        "A018252",
         "sqrt",
         "floor"
       ]
     },
     {
       "d": "2022-06-20",
-      "ix": "floor(sqrt(nonprime(ceil(2^n*n!/2))))",
+      "ix": "floor(sqrt(A018252(ceil(2^n*n!/2))))",
       "mt": 7,
       "px": [
         "2",
@@ -53,7 +53,7 @@
         "2",
         "/",
         "ceil",
-        "nonprime",
+        "A018252",
         "sqrt",
         "floor"
       ]

@@ -63,7 +63,7 @@
     },
     {
       "d": "2022-04-29",
-      "ix": "record[lpf(floor((n+2)^sqrt(2)))]",
+      "ix": "record[A020639(floor((n+2)^sqrt(2)))]",
       "mt": 536,
       "px": [
         "n",
@@ -73,7 +73,7 @@
         "sqrt",
         "^",
         "floor",
-        "lpf",
+        "A020639",
         "record"
       ]
     },

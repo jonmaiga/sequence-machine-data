@@ -210,13 +210,13 @@
     },
     {
       "d": "2021-11-01",
-      "ix": "floor(record[log(gpf(n+2))])",
+      "ix": "floor(record[log(A006530(n+2))])",
       "mt": 9592,
       "px": [
         "n",
         "2",
         "+",
-        "gpf",
+        "A006530",
         "log",
         "record",
         "floor"
@@ -224,13 +224,13 @@
     },
     {
       "d": "2021-11-01",
-      "ix": "floor(record[log(lpf(n+2))])",
+      "ix": "floor(record[log(A020639(n+2))])",
       "mt": 9592,
       "px": [
         "n",
         "2",
         "+",
-        "lpf",
+        "A020639",
         "log",
         "record",
         "floor"
@@ -238,13 +238,13 @@
     },
     {
       "d": "2022-10-04",
-      "ix": "floor(log(record[gpf(or(1, n))]))",
+      "ix": "floor(log(record[A006530(or(1, n))]))",
       "mt": 9592,
       "px": [
         "1",
         "n",
         "or",
-        "gpf",
+        "A006530",
         "record",
         "log",
         "floor"
@@ -252,13 +252,13 @@
     },
     {
       "d": "2021-11-01",
-      "ix": "floor(record[log(p?[rad(n+1)])])",
+      "ix": "floor(record[log(p?[A005117(n+1)])])",
       "mt": 9592,
       "px": [
         "n",
         "1",
         "+",
-        "rad",
+        "A005117",
         "p?",
         "log",
         "record",

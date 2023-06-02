@@ -96,14 +96,14 @@
     },
     {
       "d": "2021-12-09",
-      "ix": "n-floor(record[sqrt(gpf(n+2))])",
+      "ix": "n-floor(record[sqrt(A006530(n+2))])",
       "mt": 75,
       "px": [
         "n",
         "n",
         "2",
         "+",
-        "gpf",
+        "A006530",
         "sqrt",
         "record",
         "floor",
@@ -112,14 +112,14 @@
     },
     {
       "d": "2021-10-01",
-      "ix": "n-floor(sqrt(record[lpf(n+2)]))",
+      "ix": "n-floor(sqrt(record[A020639(n+2)]))",
       "mt": 75,
       "px": [
         "n",
         "n",
         "2",
         "+",
-        "lpf",
+        "A020639",
         "record",
         "sqrt",
         "floor",

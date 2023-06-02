@@ -3,19 +3,19 @@
   "ps": [
     {
       "d": "2022-10-08",
-      "ix": "nonprime(runs[round(sqrt(n))])",
+      "ix": "A018252(runs[round(sqrt(n))])",
       "mt": 39,
       "px": [
         "n",
         "sqrt",
         "round",
         "runs",
-        "nonprime"
+        "A018252"
       ]
     },
     {
       "d": "2022-04-29",
-      "ix": "nonprime(log2(lcm(2, 4^n)))",
+      "ix": "A018252(log2(lcm(2, 4^n)))",
       "mt": 39,
       "px": [
         "2",
@@ -24,12 +24,12 @@
         "^",
         "lcm",
         "log2",
-        "nonprime"
+        "A018252"
       ]
     },
     {
       "d": "2021-12-13",
-      "ix": "record[nonprime(abs(xor(1, -n)))]",
+      "ix": "record[A018252(abs(xor(1, -n)))]",
       "mt": 39,
       "px": [
         "1",
@@ -37,13 +37,13 @@
         "neg",
         "xor",
         "abs",
-        "nonprime",
+        "A018252",
         "record"
       ]
     },
     {
       "d": "2021-11-01",
-      "ix": "nonprime(comp[record[xor(1, n+1)]])",
+      "ix": "A018252(comp[record[xor(1, n+1)]])",
       "mt": 39,
       "px": [
         "1",
@@ -53,12 +53,12 @@
         "xor",
         "record",
         "comp",
-        "nonprime"
+        "A018252"
       ]
     },
     {
       "d": "2021-11-01",
-      "ix": "nonprime(ceil(abs(2*n-γ)))",
+      "ix": "A018252(ceil(abs(2*n-γ)))",
       "mt": 39,
       "px": [
         "2",
@@ -68,7 +68,7 @@
         "sub",
         "abs",
         "ceil",
-        "nonprime"
+        "A018252"
       ]
     }
   ]

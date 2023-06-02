@@ -16,7 +16,7 @@
     },
     {
       "d": "2022-04-07",
-      "ix": "F(n)-μ(contfrac[sqrt(20)])",
+      "ix": "F(n)-A008683(contfrac[sqrt(20)])",
       "mt": 39,
       "px": [
         "n",
@@ -24,19 +24,19 @@
         "20",
         "sqrt",
         "contfrac",
-        "μ",
+        "A008683",
         "sub"
       ]
     },
     {
       "d": "2022-04-07",
-      "ix": "μ(contfrac[sqrt(24)])+F(n)",
+      "ix": "A008683(contfrac[sqrt(24)])+F(n)",
       "mt": 39,
       "px": [
         "24",
         "sqrt",
         "contfrac",
-        "μ",
+        "A008683",
         "n",
         "F",
         "+"

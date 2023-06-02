@@ -19,7 +19,7 @@
     },
     {
       "d": "2022-09-04",
-      "ix": "record[lpf(round(sqrt(n+2))²+1+n)]",
+      "ix": "record[A020639(round(sqrt(n+2))²+1+n)]",
       "mt": 64,
       "px": [
         "n",
@@ -32,7 +32,7 @@
         "+",
         "n",
         "+",
-        "lpf",
+        "A020639",
         "record"
       ]
     },
@@ -58,7 +58,7 @@
     },
     {
       "d": "2022-07-04",
-      "ix": "record[gpf(floor((floor(sqrt(n))+3/2)²+n))]",
+      "ix": "record[A006530(floor((floor(sqrt(n))+3/2)²+n))]",
       "mt": 64,
       "px": [
         "n",
@@ -72,7 +72,7 @@
         "n",
         "+",
         "floor",
-        "gpf",
+        "A006530",
         "record"
       ]
     },

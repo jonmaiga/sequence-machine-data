@@ -96,13 +96,13 @@
     },
     {
       "d": "2022-04-05",
-      "ix": "floor(record[sqrt(gpf(n+2))])²%(n+1)",
+      "ix": "floor(record[sqrt(A006530(n+2))])²%(n+1)",
       "mt": 72,
       "px": [
         "n",
         "2",
         "+",
-        "gpf",
+        "A006530",
         "sqrt",
         "record",
         "floor",

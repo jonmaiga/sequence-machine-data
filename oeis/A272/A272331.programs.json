@@ -3,13 +3,13 @@
   "ps": [
     {
       "d": "2021-11-01",
-      "ix": "F(∏[d(contfrac[atan(2)])])",
+      "ix": "F(∏[A000005(contfrac[atan(2)])])",
       "mt": 5,
       "px": [
         "2",
         "atan",
         "contfrac",
-        "d",
+        "A000005",
         "∏",
         "F"
       ]

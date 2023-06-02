@@ -3,13 +3,13 @@
   "ps": [
     {
       "d": "2022-03-21",
-      "ix": "char[Ω(contfrac[exp(5)])]",
+      "ix": "char[A001222(contfrac[exp(5)])]",
       "mt": 10000,
       "px": [
         "5",
         "exp",
         "contfrac",
-        "Ω",
+        "A001222",
         "char"
       ]
     }

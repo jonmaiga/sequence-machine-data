@@ -3,7 +3,7 @@
   "ps": [
     {
       "d": "2022-06-24",
-      "ix": "rad(ceil(cosh(round(exp(n-2)))))",
+      "ix": "A005117(ceil(cosh(round(exp(n-2)))))",
       "mt": 5,
       "px": [
         "n",
@@ -13,7 +13,7 @@
         "round",
         "cosh",
         "ceil",
-        "rad"
+        "A005117"
       ]
     }
   ]

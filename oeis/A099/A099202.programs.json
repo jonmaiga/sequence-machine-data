@@ -42,13 +42,13 @@
     },
     {
       "d": "2021-11-01",
-      "ix": "∏[∏[nonprime(contfrac[sqrt(3)])]]",
+      "ix": "∏[∏[A018252(contfrac[sqrt(3)])]]",
       "mt": 26,
       "px": [
         "3",
         "sqrt",
         "contfrac",
-        "nonprime",
+        "A018252",
         "∏",
         "∏"
       ]

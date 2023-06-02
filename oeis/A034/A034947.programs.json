@@ -18,7 +18,7 @@
     },
     {
       "d": "2021-11-01",
-      "ix": "μ(ceil(ratio[acot(xor(n, 2*n))]))",
+      "ix": "A008683(ceil(ratio[acot(xor(n, 2*n))]))",
       "mt": 10000,
       "px": [
         "n",
@@ -29,7 +29,7 @@
         "acot",
         "ratio",
         "ceil",
-        "μ"
+        "A008683"
       ]
     },
     {

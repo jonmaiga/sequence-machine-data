@@ -3,12 +3,12 @@
   "ps": [
     {
       "d": "2021-11-01",
-      "ix": "char[Δ[lpf(contfrac[π])]]",
+      "ix": "char[Δ[A020639(contfrac[π])]]",
       "mt": 87,
       "px": [
         "π",
         "contfrac",
-        "lpf",
+        "A020639",
         "Δ",
         "char"
       ]

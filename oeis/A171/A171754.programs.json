@@ -42,13 +42,13 @@
     },
     {
       "d": "2021-11-01",
-      "ix": "round(cosh(record[gpf(n+2)]))",
+      "ix": "round(cosh(record[A006530(n+2)]))",
       "mt": 18,
       "px": [
         "n",
         "2",
         "+",
-        "gpf",
+        "A006530",
         "record",
         "cosh",
         "round"
@@ -56,13 +56,13 @@
     },
     {
       "d": "2021-11-01",
-      "ix": "round(cosh(record[lpf(n+2)]))",
+      "ix": "round(cosh(record[A020639(n+2)]))",
       "mt": 18,
       "px": [
         "n",
         "2",
         "+",
-        "lpf",
+        "A020639",
         "record",
         "cosh",
         "round"

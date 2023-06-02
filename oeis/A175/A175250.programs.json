@@ -3,33 +3,33 @@
   "ps": [
     {
       "d": "2021-11-01",
-      "ix": "record[nonprime(gpf(n+1))]",
+      "ix": "record[A018252(A006530(n+1))]",
       "mt": 30,
       "px": [
         "n",
         "1",
         "+",
-        "gpf",
-        "nonprime",
+        "A006530",
+        "A018252",
         "record"
       ]
     },
     {
       "d": "2021-11-01",
-      "ix": "record[nonprime(lpf(n+1))]",
+      "ix": "record[A018252(A020639(n+1))]",
       "mt": 30,
       "px": [
         "n",
         "1",
         "+",
-        "lpf",
-        "nonprime",
+        "A020639",
+        "A018252",
         "record"
       ]
     },
     {
       "d": "2021-11-01",
-      "ix": "nonprime(eq[n, ∏{d}[n, #]])",
+      "ix": "A018252(eq[n, ∏{d}[n, #]])",
       "mt": 30,
       "px": [
         "n",
@@ -37,37 +37,37 @@
         "#",
         "∏{d}",
         "eq",
-        "nonprime"
+        "A018252"
       ]
     },
     {
       "d": "2021-11-01",
-      "ix": "nonprime(lt[0, char[gpf(n+1)]])",
+      "ix": "A018252(lt[0, char[A006530(n+1)]])",
       "mt": 30,
       "px": [
         "0",
         "n",
         "1",
         "+",
-        "gpf",
+        "A006530",
         "char",
         "lt",
-        "nonprime"
+        "A018252"
       ]
     },
     {
       "d": "2021-11-01",
-      "ix": "nonprime(eq[1, char[gpf(n+1)]])",
+      "ix": "A018252(eq[1, char[A006530(n+1)]])",
       "mt": 30,
       "px": [
         "1",
         "n",
         "1",
         "+",
-        "gpf",
+        "A006530",
         "char",
         "eq",
-        "nonprime"
+        "A018252"
       ]
     }
   ]

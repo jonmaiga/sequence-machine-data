@@ -3,13 +3,13 @@
   "ps": [
     {
       "d": "2022-10-09",
-      "ix": "record[d(record[A331844(n)])]",
+      "ix": "record[A000005(record[A331844(n)])]",
       "mt": 9,
       "px": [
         "n",
         "A331844",
         "record",
-        "d",
+        "A000005",
         "record"
       ]
     },

@@ -27,14 +27,14 @@
     },
     {
       "d": "2022-06-09",
-      "ix": "limit[root(d(contfrac[π^4]), 15)]",
+      "ix": "limit[root(A000005(contfrac[π^4]), 15)]",
       "mt": 50,
       "px": [
         "π",
         "4",
         "^",
         "contfrac",
-        "d",
+        "A000005",
         "15",
         "root",
         "limit"

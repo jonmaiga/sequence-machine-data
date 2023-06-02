@@ -19,7 +19,7 @@
     },
     {
       "d": "2021-11-01",
-      "ix": "σ(ceil(ratio[acot(xor(n, 2*n))]))",
+      "ix": "A000203(ceil(ratio[acot(xor(n, 2*n))]))",
       "mt": 10000,
       "px": [
         "n",
@@ -30,7 +30,7 @@
         "acot",
         "ratio",
         "ceil",
-        "σ"
+        "A000203"
       ]
     },
     {
@@ -86,7 +86,7 @@
     },
     {
       "d": "2021-11-01",
-      "ix": "d(ceil(ratio[acot(xor(n, 2*n))])²)",
+      "ix": "A000005(ceil(ratio[acot(xor(n, 2*n))])²)",
       "mt": 10000,
       "px": [
         "n",
@@ -98,7 +98,7 @@
         "ratio",
         "ceil",
         "²",
-        "d"
+        "A000005"
       ]
     },
     {
@@ -120,7 +120,7 @@
     },
     {
       "d": "2021-11-01",
-      "ix": "2-μ(ceil(ratio[acot(xor(n, 2*n))]))",
+      "ix": "2-A008683(ceil(ratio[acot(xor(n, 2*n))]))",
       "mt": 10000,
       "px": [
         "2",
@@ -132,7 +132,7 @@
         "acot",
         "ratio",
         "ceil",
-        "μ",
+        "A008683",
         "sub"
       ]
     },

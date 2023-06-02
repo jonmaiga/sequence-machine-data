@@ -71,7 +71,7 @@
     },
     {
       "d": "2021-11-01",
-      "ix": "d(ceil(ratio[or(n, 2*n+1)]))",
+      "ix": "A000005(ceil(ratio[or(n, 2*n+1)]))",
       "mt": 10000,
       "px": [
         "n",
@@ -83,12 +83,12 @@
         "or",
         "ratio",
         "ceil",
-        "d"
+        "A000005"
       ]
     },
     {
       "d": "2021-11-01",
-      "ix": "gpf(ceil(ratio[xor(n, 2*n+1)]))",
+      "ix": "A006530(ceil(ratio[xor(n, 2*n+1)]))",
       "mt": 10000,
       "px": [
         "n",
@@ -100,12 +100,12 @@
         "xor",
         "ratio",
         "ceil",
-        "gpf"
+        "A006530"
       ]
     },
     {
       "d": "2021-11-01",
-      "ix": "lpf(ceil(ratio[xor(n, 2*n+1)]))",
+      "ix": "A020639(ceil(ratio[xor(n, 2*n+1)]))",
       "mt": 10000,
       "px": [
         "n",
@@ -117,12 +117,12 @@
         "xor",
         "ratio",
         "ceil",
-        "lpf"
+        "A020639"
       ]
     },
     {
       "d": "2021-11-01",
-      "ix": "rad(ceil(ratio[xor(n, 2*n+1)]))",
+      "ix": "A005117(ceil(ratio[xor(n, 2*n+1)]))",
       "mt": 10000,
       "px": [
         "n",
@@ -134,7 +134,7 @@
         "xor",
         "ratio",
         "ceil",
-        "rad"
+        "A005117"
       ]
     },
     {

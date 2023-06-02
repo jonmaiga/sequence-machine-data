@@ -77,7 +77,7 @@
     },
     {
       "d": "2022-07-04",
-      "ix": "d((char[∑[n]]+1)^round(sqrt(record[n*ceil(sqrt(n+1))%2])))",
+      "ix": "A000005((char[∑[n]]+1)^round(sqrt(record[n*ceil(sqrt(n+1))%2])))",
       "mt": 103,
       "px": [
         "n",
@@ -98,7 +98,7 @@
         "sqrt",
         "round",
         "^",
-        "d"
+        "A000005"
       ]
     },
     {

@@ -47,13 +47,13 @@
     },
     {
       "d": "2021-11-01",
-      "ix": "floor(ratio[Δ[record[gpf(n+2)]]])",
+      "ix": "floor(ratio[Δ[record[A006530(n+2)]]])",
       "mt": 96,
       "px": [
         "n",
         "2",
         "+",
-        "gpf",
+        "A006530",
         "record",
         "Δ",
         "ratio",
@@ -62,13 +62,13 @@
     },
     {
       "d": "2021-11-01",
-      "ix": "floor(ratio[Δ[record[lpf(n+2)]]])",
+      "ix": "floor(ratio[Δ[record[A020639(n+2)]]])",
       "mt": 96,
       "px": [
         "n",
         "2",
         "+",
-        "lpf",
+        "A020639",
         "record",
         "Δ",
         "ratio",

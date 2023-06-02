@@ -46,14 +46,14 @@
     },
     {
       "d": "2021-11-25",
-      "ix": "record[floor(exp(n/lpf(n+1)))]",
+      "ix": "record[floor(exp(n/A020639(n+1)))]",
       "mt": 230,
       "px": [
         "n",
         "n",
         "1",
         "+",
-        "lpf",
+        "A020639",
         "/",
         "exp",
         "floor",

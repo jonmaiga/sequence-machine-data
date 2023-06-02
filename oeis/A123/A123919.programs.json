@@ -107,13 +107,13 @@
     },
     {
       "d": "2022-06-24",
-      "ix": "∑[floor(atan(ratio[lpf(n+3)]))]",
+      "ix": "∑[floor(atan(ratio[A020639(n+3)]))]",
       "mt": 10000,
       "px": [
         "n",
         "3",
         "+",
-        "lpf",
+        "A020639",
         "ratio",
         "atan",
         "floor",

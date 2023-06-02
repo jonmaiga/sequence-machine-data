@@ -15,7 +15,7 @@
     },
     {
       "d": "2023-04-03",
-      "ix": "floor(root(nonprime(floor((n/4)^n/2)+2), 3))",
+      "ix": "floor(root(A018252(floor((n/4)^n/2)+2), 3))",
       "mt": 12,
       "px": [
         "n",
@@ -28,7 +28,7 @@
         "floor",
         "2",
         "+",
-        "nonprime",
+        "A018252",
         "3",
         "root",
         "floor"

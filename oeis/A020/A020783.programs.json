@@ -36,7 +36,7 @@
     },
     {
       "d": "2022-07-08",
-      "ix": "limit[cos(atan(Ω(11^floor(n/6))))]",
+      "ix": "limit[cos(atan(A001222(11^floor(n/6))))]",
       "mt": 50,
       "px": [
         "11",
@@ -45,7 +45,7 @@
         "/",
         "floor",
         "^",
-        "Ω",
+        "A001222",
         "atan",
         "cos",
         "limit"

@@ -3,13 +3,13 @@
   "ps": [
     {
       "d": "2021-11-01",
-      "ix": "floor(∏[record[sqrt(gpf(n+1))]])",
+      "ix": "floor(∏[record[sqrt(A006530(n+1))]])",
       "mt": 93,
       "px": [
         "n",
         "1",
         "+",
-        "gpf",
+        "A006530",
         "sqrt",
         "record",
         "∏",
@@ -18,13 +18,13 @@
     },
     {
       "d": "2021-11-01",
-      "ix": "floor(∏[record[sqrt(lpf(n+1))]])",
+      "ix": "floor(∏[record[sqrt(A020639(n+1))]])",
       "mt": 93,
       "px": [
         "n",
         "1",
         "+",
-        "lpf",
+        "A020639",
         "sqrt",
         "record",
         "∏",

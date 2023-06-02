@@ -3,13 +3,13 @@
   "ps": [
     {
       "d": "2021-11-01",
-      "ix": "record[rad(or(2, n))]",
+      "ix": "record[A005117(or(2, n))]",
       "mt": 1000,
       "px": [
         "2",
         "n",
         "or",
-        "rad",
+        "A005117",
         "record"
       ]
     },
@@ -28,20 +28,20 @@
     },
     {
       "d": "2021-11-01",
-      "ix": "record[rad(record[xor(2, n)])]",
+      "ix": "record[A005117(record[xor(2, n)])]",
       "mt": 1000,
       "px": [
         "2",
         "n",
         "xor",
         "record",
-        "rad",
+        "A005117",
         "record"
       ]
     },
     {
       "d": "2021-12-03",
-      "ix": "record[rad(comp[and(2, n)+n])]",
+      "ix": "record[A005117(comp[and(2, n)+n])]",
       "mt": 1000,
       "px": [
         "2",
@@ -50,13 +50,13 @@
         "n",
         "+",
         "comp",
-        "rad",
+        "A005117",
         "record"
       ]
     },
     {
       "d": "2021-12-30",
-      "ix": "record[rad(gcd(2, n)+2*n)]",
+      "ix": "record[A005117(gcd(2, n)+2*n)]",
       "mt": 1000,
       "px": [
         "2",
@@ -66,13 +66,13 @@
         "n",
         "*",
         "+",
-        "rad",
+        "A005117",
         "record"
       ]
     },
     {
       "d": "2021-11-01",
-      "ix": "eq[n, rad(and(2, n+2)+n)]",
+      "ix": "eq[n, A005117(and(2, n+2)+n)]",
       "mt": 1000,
       "px": [
         "n",
@@ -83,13 +83,13 @@
         "and",
         "n",
         "+",
-        "rad",
+        "A005117",
         "eq"
       ]
     },
     {
       "d": "2021-10-01",
-      "ix": "record[rad(comp[2*n]+char[2*n])]",
+      "ix": "record[A005117(comp[2*n]+char[2*n])]",
       "mt": 1000,
       "px": [
         "2",
@@ -101,7 +101,7 @@
         "*",
         "char",
         "+",
-        "rad",
+        "A005117",
         "record"
       ]
     },

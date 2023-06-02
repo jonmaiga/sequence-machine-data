@@ -26,25 +26,25 @@
     },
     {
       "d": "2021-10-01",
-      "ix": "record[gpf(comp[A007093(n)])]",
+      "ix": "record[A006530(comp[A007093(n)])]",
       "mt": 55,
       "px": [
         "n",
         "A007093",
         "comp",
-        "gpf",
+        "A006530",
         "record"
       ]
     },
     {
       "d": "2021-10-01",
-      "ix": "record[lpf(comp[A007093(n)])]",
+      "ix": "record[A020639(comp[A007093(n)])]",
       "mt": 55,
       "px": [
         "n",
         "A007093",
         "comp",
-        "lpf",
+        "A020639",
         "record"
       ]
     },

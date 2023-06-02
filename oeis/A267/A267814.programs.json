@@ -168,7 +168,7 @@
     },
     {
       "d": "2022-10-04",
-      "ix": "μ(nonprime(ceil(ratio[round(sqrt(n+1))])))",
+      "ix": "A008683(A018252(ceil(ratio[round(sqrt(n+1))])))",
       "mt": 10000,
       "px": [
         "n",
@@ -178,8 +178,8 @@
         "round",
         "ratio",
         "ceil",
-        "nonprime",
-        "μ"
+        "A018252",
+        "A008683"
       ]
     },
     {
@@ -286,7 +286,7 @@
     },
     {
       "d": "2022-10-04",
-      "ix": "2-d(ceil(ratio[round(sqrt(n+1))]))",
+      "ix": "2-A000005(ceil(ratio[round(sqrt(n+1))]))",
       "mt": 10000,
       "px": [
         "2",
@@ -297,13 +297,13 @@
         "round",
         "ratio",
         "ceil",
-        "d",
+        "A000005",
         "sub"
       ]
     },
     {
       "d": "2022-10-04",
-      "ix": "1-Ω(ceil(ratio[round(sqrt(n+1))]))",
+      "ix": "1-A001222(ceil(ratio[round(sqrt(n+1))]))",
       "mt": 10000,
       "px": [
         "1",
@@ -314,7 +314,7 @@
         "round",
         "ratio",
         "ceil",
-        "Ω",
+        "A001222",
         "sub"
       ]
     }

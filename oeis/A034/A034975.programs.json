@@ -32,14 +32,14 @@
     },
     {
       "d": "2022-06-24",
-      "ix": "∏[record[xor(7, nonprime(n+3))]]",
+      "ix": "∏[record[xor(7, A018252(n+3))]]",
       "mt": 46,
       "px": [
         "7",
         "n",
         "3",
         "+",
-        "nonprime",
+        "A018252",
         "xor",
         "record",
         "∏"

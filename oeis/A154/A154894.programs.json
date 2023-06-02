@@ -19,15 +19,15 @@
     },
     {
       "d": "2022-08-23",
-      "ix": "record[F(nonprime(runs[ω(n+3)]))]",
+      "ix": "record[F(A018252(runs[A001221(n+3)]))]",
       "mt": 7,
       "px": [
         "n",
         "3",
         "+",
-        "ω",
+        "A001221",
         "runs",
-        "nonprime",
+        "A018252",
         "F",
         "record"
       ]

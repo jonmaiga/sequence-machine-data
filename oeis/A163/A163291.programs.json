@@ -223,13 +223,13 @@
     },
     {
       "d": "2021-11-15",
-      "ix": "ceil(record[log2(sqrt(gpf(n+2)))])",
+      "ix": "ceil(record[log2(sqrt(A006530(n+2)))])",
       "mt": 9592,
       "px": [
         "n",
         "2",
         "+",
-        "gpf",
+        "A006530",
         "sqrt",
         "log2",
         "record",
@@ -238,13 +238,13 @@
     },
     {
       "d": "2021-11-15",
-      "ix": "ceil(record[log2(sqrt(lpf(n+2)))])",
+      "ix": "ceil(record[log2(sqrt(A020639(n+2)))])",
       "mt": 9592,
       "px": [
         "n",
         "2",
         "+",
-        "lpf",
+        "A020639",
         "sqrt",
         "log2",
         "record",
@@ -253,13 +253,13 @@
     },
     {
       "d": "2021-10-01",
-      "ix": "ceil(log2(ceil(sqrt(p?[comp[nonprime(n+1)]]))))",
+      "ix": "ceil(log2(ceil(sqrt(p?[comp[A018252(n+1)]]))))",
       "mt": 9592,
       "px": [
         "n",
         "1",
         "+",
-        "nonprime",
+        "A018252",
         "comp",
         "p?",
         "sqrt",
@@ -282,14 +282,14 @@
     },
     {
       "d": "2022-10-06",
-      "ix": "A110591(eq[2, d(n+1)])",
+      "ix": "A110591(eq[2, A000005(n+1)])",
       "mt": 1229,
       "px": [
         "2",
         "n",
         "1",
         "+",
-        "d",
+        "A000005",
         "eq",
         "A110591"
       ]

@@ -32,13 +32,13 @@
     },
     {
       "d": "2021-11-01",
-      "ix": "p?[∑{digits}[comp[nonprime(n+1)], #]]",
+      "ix": "p?[∑{digits}[comp[A018252(n+1)], #]]",
       "mt": 76,
       "px": [
         "n",
         "1",
         "+",
-        "nonprime",
+        "A018252",
         "comp",
         "#",
         "∑{digits}",
@@ -47,13 +47,13 @@
     },
     {
       "d": "2021-11-01",
-      "ix": "p?[∑{digits}[record[gpf(n+1)], #]]",
+      "ix": "p?[∑{digits}[record[A006530(n+1)], #]]",
       "mt": 76,
       "px": [
         "n",
         "1",
         "+",
-        "gpf",
+        "A006530",
         "record",
         "#",
         "∑{digits}",
@@ -62,13 +62,13 @@
     },
     {
       "d": "2021-11-01",
-      "ix": "p?[∑{digits}[record[lpf(n+1)], #]]",
+      "ix": "p?[∑{digits}[record[A020639(n+1)], #]]",
       "mt": 76,
       "px": [
         "n",
         "1",
         "+",
-        "lpf",
+        "A020639",
         "record",
         "#",
         "∑{digits}",
