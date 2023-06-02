@@ -13,36 +13,6 @@
       ]
     },
     {
-      "d": "2022-06-27",
-      "ix": "limit[root(ceil(atan(n))+1, 5)]",
-      "mt": 50,
-      "px": [
-        "n",
-        "atan",
-        "ceil",
-        "1",
-        "+",
-        "5",
-        "root",
-        "limit"
-      ]
-    },
-    {
-      "d": "2022-07-24",
-      "ix": "limit[root(ceil(acot(n))+2, 5)]",
-      "mt": 50,
-      "px": [
-        "n",
-        "acot",
-        "ceil",
-        "2",
-        "+",
-        "5",
-        "root",
-        "limit"
-      ]
-    },
-    {
       "d": "2021-11-06",
       "ix": "limit[root(3, ratio[∑[5^n]])]",
       "mt": 50,

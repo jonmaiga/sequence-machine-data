@@ -102,24 +102,6 @@
     },
     {
       "d": "2023-04-07",
-      "ix": "floor(sqrt(n^3))-n/ceil(acot(n))",
-      "mt": 58,
-      "px": [
-        "n",
-        "3",
-        "^",
-        "sqrt",
-        "floor",
-        "n",
-        "n",
-        "acot",
-        "ceil",
-        "/",
-        "sub"
-      ]
-    },
-    {
-      "d": "2023-04-07",
       "ix": "floor(sqrt(n^3))-n%comp[∑[n]]",
       "mt": 58,
       "px": [
@@ -133,6 +115,24 @@
         "∑",
         "comp",
         "%",
+        "sub"
+      ]
+    },
+    {
+      "d": "2023-04-07",
+      "ix": "floor(sqrt(n^3))-n/ceil(acot(n))",
+      "mt": 58,
+      "px": [
+        "n",
+        "3",
+        "^",
+        "sqrt",
+        "floor",
+        "n",
+        "n",
+        "acot",
+        "ceil",
+        "/",
         "sub"
       ]
     },

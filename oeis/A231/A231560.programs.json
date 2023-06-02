@@ -79,19 +79,6 @@
       ]
     },
     {
-      "d": "2022-06-12",
-      "ix": "dr(round(sqrt(sqrt(sqrt(n)))))",
-      "mt": 87,
-      "px": [
-        "n",
-        "sqrt",
-        "sqrt",
-        "sqrt",
-        "round",
-        "dr"
-      ]
-    },
-    {
       "d": "2021-11-01",
       "ix": "round(n^tan(acot(8)))",
       "mt": 87,
@@ -128,6 +115,19 @@
         "asin",
         "^",
         "round"
+      ]
+    },
+    {
+      "d": "2022-06-12",
+      "ix": "dr(round(sqrt(sqrt(sqrt(n)))))",
+      "mt": 87,
+      "px": [
+        "n",
+        "sqrt",
+        "sqrt",
+        "sqrt",
+        "round",
+        "dr"
       ]
     }
   ]
