@@ -132,14 +132,14 @@
     },
     {
       "d": "2022-10-04",
-      "ix": "n*L(contfrac[sqrt(26)])",
+      "ix": "n*A000032(contfrac[sqrt(26)])",
       "mt": 50,
       "px": [
         "n",
         "26",
         "sqrt",
         "contfrac",
-        "L",
+        "A000032",
         "*"
       ]
     }

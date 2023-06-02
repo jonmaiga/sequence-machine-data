@@ -180,13 +180,13 @@
     },
     {
       "d": "2021-11-01",
-      "ix": "∑[floor(record[sqrt(φ(n+1))])]",
+      "ix": "∑[floor(record[sqrt(A000010(n+1))])]",
       "mt": 9592,
       "px": [
         "n",
         "1",
         "+",
-        "φ",
+        "A000010",
         "sqrt",
         "record",
         "floor",

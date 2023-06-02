@@ -14,11 +14,11 @@
     },
     {
       "d": "2021-10-01",
-      "ix": "limit[ratio[L(n)/exp(n)]]",
+      "ix": "limit[ratio[A000032(n)/exp(n)]]",
       "mt": 50,
       "px": [
         "n",
-        "L",
+        "A000032",
         "n",
         "exp",
         "/",

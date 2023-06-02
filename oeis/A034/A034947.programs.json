@@ -52,7 +52,7 @@
     },
     {
       "d": "2022-04-29",
-      "ix": "2-L(ceil(ratio[acot(xor(n, 2*n))]))",
+      "ix": "2-A000032(ceil(ratio[acot(xor(n, 2*n))]))",
       "mt": 10000,
       "px": [
         "2",
@@ -64,7 +64,7 @@
         "acot",
         "ratio",
         "ceil",
-        "L",
+        "A000032",
         "sub"
       ]
     },

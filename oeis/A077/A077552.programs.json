@@ -31,13 +31,13 @@
     },
     {
       "d": "2022-04-05",
-      "ix": "record[L(C(2, n))^n]",
+      "ix": "record[A000032(C(2, n))^n]",
       "mt": 31,
       "px": [
         "2",
         "n",
         "C",
-        "L",
+        "A000032",
         "n",
         "^",
         "record"
@@ -45,11 +45,11 @@
     },
     {
       "d": "2022-04-05",
-      "ix": "record[round(ratio[L(n)])^n]",
+      "ix": "record[round(ratio[A000032(n)])^n]",
       "mt": 31,
       "px": [
         "n",
-        "L",
+        "A000032",
         "ratio",
         "round",
         "n",

@@ -25,11 +25,11 @@
     },
     {
       "d": "2022-02-09",
-      "ix": "limit[atan(ratio[L(n)])]",
+      "ix": "limit[atan(ratio[A000032(n)])]",
       "mt": 50,
       "px": [
         "n",
-        "L",
+        "A000032",
         "ratio",
         "atan",
         "limit"

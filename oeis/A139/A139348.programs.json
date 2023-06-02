@@ -25,11 +25,11 @@
     },
     {
       "d": "2022-02-09",
-      "ix": "limit[cot(ratio[L(n)])]",
+      "ix": "limit[cot(ratio[A000032(n)])]",
       "mt": 50,
       "px": [
         "n",
-        "L",
+        "A000032",
         "ratio",
         "cot",
         "limit"

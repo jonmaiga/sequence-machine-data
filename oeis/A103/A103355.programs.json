@@ -142,14 +142,14 @@
     },
     {
       "d": "2022-04-05",
-      "ix": "1-floor(record[sqrt(φ(n+1))])+n",
+      "ix": "1-floor(record[sqrt(A000010(n+1))])+n",
       "mt": 74,
       "px": [
         "1",
         "n",
         "1",
         "+",
-        "φ",
+        "A000010",
         "sqrt",
         "record",
         "floor",

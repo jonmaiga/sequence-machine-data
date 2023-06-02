@@ -41,13 +41,13 @@
     },
     {
       "d": "2022-10-07",
-      "ix": "limit[atan(1)+atan(L(n))]",
+      "ix": "limit[atan(1)+atan(A000032(n))]",
       "mt": 50,
       "px": [
         "1",
         "atan",
         "n",
-        "L",
+        "A000032",
         "atan",
         "+",
         "limit"

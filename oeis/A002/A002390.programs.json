@@ -13,11 +13,11 @@
     },
     {
       "d": "2021-11-01",
-      "ix": "limit[log(ratio[L(n)])]",
+      "ix": "limit[log(ratio[A000032(n)])]",
       "mt": 50,
       "px": [
         "n",
-        "L",
+        "A000032",
         "ratio",
         "log",
         "limit"

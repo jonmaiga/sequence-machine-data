@@ -3,11 +3,11 @@
   "ps": [
     {
       "d": "2021-12-13",
-      "ix": "round(record[sqrt(L(n)/5)])",
+      "ix": "round(record[sqrt(A000032(n)/5)])",
       "mt": 48,
       "px": [
         "n",
-        "L",
+        "A000032",
         "5",
         "/",
         "sqrt",

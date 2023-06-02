@@ -80,14 +80,14 @@
     },
     {
       "d": "2021-11-25",
-      "ix": "n-floor(record[sqrt(φ(n+1))])",
+      "ix": "n-floor(record[sqrt(A000010(n+1))])",
       "mt": 75,
       "px": [
         "n",
         "n",
         "1",
         "+",
-        "φ",
+        "A000010",
         "sqrt",
         "record",
         "floor",

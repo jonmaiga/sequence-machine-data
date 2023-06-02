@@ -15,13 +15,13 @@
     },
     {
       "d": "2022-10-06",
-      "ix": "limit[sqrt(2)/ratio[L(n)]]",
+      "ix": "limit[sqrt(2)/ratio[A000032(n)]]",
       "mt": 50,
       "px": [
         "2",
         "sqrt",
         "n",
-        "L",
+        "A000032",
         "ratio",
         "/",
         "limit"

@@ -49,11 +49,11 @@
     },
     {
       "d": "2022-02-03",
-      "ix": "limit[acot(ratio[L(n)])]",
+      "ix": "limit[acot(ratio[A000032(n)])]",
       "mt": 50,
       "px": [
         "n",
-        "L",
+        "A000032",
         "ratio",
         "acot",
         "limit"

@@ -3,11 +3,11 @@
   "ps": [
     {
       "d": "2021-11-01",
-      "ix": "floor(sqrt(L(n)))",
+      "ix": "floor(sqrt(A000032(n)))",
       "mt": 479,
       "px": [
         "n",
-        "L",
+        "A000032",
         "sqrt",
         "floor"
       ]

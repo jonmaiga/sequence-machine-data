@@ -3,7 +3,7 @@
   "ps": [
     {
       "d": "2022-10-16",
-      "ix": "L(runs[runs[floor(n/ϕ)]])",
+      "ix": "A000032(runs[runs[floor(n/ϕ)]])",
       "mt": 105,
       "px": [
         "n",
@@ -12,7 +12,7 @@
         "floor",
         "runs",
         "runs",
-        "L"
+        "A000032"
       ]
     }
   ]

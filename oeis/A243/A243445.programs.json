@@ -39,11 +39,11 @@
     },
     {
       "d": "2022-10-07",
-      "ix": "limit[atan(ratio[L(n)²])]",
+      "ix": "limit[atan(ratio[A000032(n)²])]",
       "mt": 50,
       "px": [
         "n",
-        "L",
+        "A000032",
         "²",
         "ratio",
         "atan",
@@ -93,13 +93,13 @@
     },
     {
       "d": "2022-10-07",
-      "ix": "limit[atan(ratio[L(2*n)])]",
+      "ix": "limit[atan(ratio[A000032(2*n)])]",
       "mt": 50,
       "px": [
         "2",
         "n",
         "*",
-        "L",
+        "A000032",
         "ratio",
         "atan",
         "limit"

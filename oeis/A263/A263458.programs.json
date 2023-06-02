@@ -3,26 +3,26 @@
   "ps": [
     {
       "d": "2021-11-01",
-      "ix": "record[φ(or(5, n))]",
+      "ix": "record[A000010(or(5, n))]",
       "mt": 54,
       "px": [
         "5",
         "n",
         "or",
-        "φ",
+        "A000010",
         "record"
       ]
     },
     {
       "d": "2021-11-01",
-      "ix": "record[φ(record[xor(5, n)])]",
+      "ix": "record[A000010(record[xor(5, n)])]",
       "mt": 54,
       "px": [
         "5",
         "n",
         "xor",
         "record",
-        "φ",
+        "A000010",
         "record"
       ]
     },

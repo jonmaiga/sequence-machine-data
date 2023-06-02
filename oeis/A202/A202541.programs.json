@@ -14,11 +14,11 @@
     },
     {
       "d": "2021-11-01",
-      "ix": "limit[log(ratio[L(n)])/2]",
+      "ix": "limit[log(ratio[A000032(n)])/2]",
       "mt": 50,
       "px": [
         "n",
-        "L",
+        "A000032",
         "ratio",
         "log",
         "2",
@@ -28,13 +28,13 @@
     },
     {
       "d": "2021-11-01",
-      "ix": "limit[log(ratio[L(5*n)])]",
+      "ix": "limit[log(ratio[A000032(5*n)])]",
       "mt": 50,
       "px": [
         "5",
         "n",
         "*",
-        "L",
+        "A000032",
         "ratio",
         "log",
         "limit"

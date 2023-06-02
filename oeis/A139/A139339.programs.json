@@ -13,11 +13,11 @@
     },
     {
       "d": "2022-02-03",
-      "ix": "limit[sqrt(ratio[L(n)])]",
+      "ix": "limit[sqrt(ratio[A000032(n)])]",
       "mt": 50,
       "px": [
         "n",
-        "L",
+        "A000032",
         "ratio",
         "sqrt",
         "limit"

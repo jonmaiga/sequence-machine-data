@@ -70,7 +70,7 @@
     },
     {
       "d": "2021-10-01",
-      "ix": "Δ[L(floor(ratio[acot(xor(n, 2*n))]))]",
+      "ix": "Δ[A000032(floor(ratio[acot(xor(n, 2*n))]))]",
       "mt": 88,
       "px": [
         "n",
@@ -81,7 +81,7 @@
         "acot",
         "ratio",
         "floor",
-        "L",
+        "A000032",
         "Δ"
       ]
     },
