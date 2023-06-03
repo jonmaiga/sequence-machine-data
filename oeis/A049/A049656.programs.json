@@ -3,13 +3,13 @@
   "ps": [
     {
       "d": "2022-07-28",
-      "ix": "record[floor(F(xor(7, n))/3)]",
+      "ix": "record[floor(A000045(xor(7, n))/3)]",
       "mt": 60,
       "px": [
         "7",
         "n",
         "xor",
-        "F",
+        "A000045",
         "3",
         "/",
         "floor",

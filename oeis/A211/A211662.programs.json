@@ -3,11 +3,11 @@
   "ps": [
     {
       "d": "2022-02-09",
-      "ix": "round(atan(F(n)))",
+      "ix": "round(atan(A000045(n)))",
       "mt": 86,
       "px": [
         "n",
-        "F",
+        "A000045",
         "atan",
         "round"
       ]

@@ -3,13 +3,13 @@
   "ps": [
     {
       "d": "2021-10-01",
-      "ix": "comp[floor(sqrt(p(n+1)))+n]+1",
+      "ix": "comp[floor(sqrt(A000040(n+1)))+n]+1",
       "mt": 1000,
       "px": [
         "n",
         "1",
         "+",
-        "p",
+        "A000040",
         "sqrt",
         "floor",
         "n",

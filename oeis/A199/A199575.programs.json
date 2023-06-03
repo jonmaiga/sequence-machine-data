@@ -14,11 +14,11 @@
     },
     {
       "d": "2021-11-01",
-      "ix": "floor(sqrt(sqrt(F(n))))",
+      "ix": "floor(sqrt(sqrt(A000045(n))))",
       "mt": 481,
       "px": [
         "n",
-        "F",
+        "A000045",
         "sqrt",
         "sqrt",
         "floor"

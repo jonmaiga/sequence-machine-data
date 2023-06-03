@@ -3,11 +3,11 @@
   "ps": [
     {
       "d": "2022-08-22",
-      "ix": "comp[ceil(sqrt(F(n))+n)]-n",
+      "ix": "comp[ceil(sqrt(A000045(n))+n)]-n",
       "mt": 10000,
       "px": [
         "n",
-        "F",
+        "A000045",
         "sqrt",
         "n",
         "+",

@@ -238,7 +238,7 @@
     },
     {
       "d": "2022-10-04",
-      "ix": "3-p(ceil(ratio[round(sqrt(n+1))]))",
+      "ix": "3-A000040(ceil(ratio[round(sqrt(n+1))]))",
       "mt": 10000,
       "px": [
         "3",
@@ -249,7 +249,7 @@
         "round",
         "ratio",
         "ceil",
-        "p",
+        "A000040",
         "sub"
       ]
     },

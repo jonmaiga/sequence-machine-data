@@ -41,13 +41,13 @@
     },
     {
       "d": "2022-06-21",
-      "ix": "record[runs[floor(log(p(n+1)))]]",
+      "ix": "record[runs[floor(log(A000040(n+1)))]]",
       "mt": 14,
       "px": [
         "n",
         "1",
         "+",
-        "p",
+        "A000040",
         "log",
         "floor",
         "runs",

@@ -3,27 +3,27 @@
   "ps": [
     {
       "d": "2021-11-01",
-      "ix": "round(log(F(n+3)))",
+      "ix": "round(log(A000045(n+3)))",
       "mt": 478,
       "px": [
         "n",
         "3",
         "+",
-        "F",
+        "A000045",
         "log",
         "round"
       ]
     },
     {
       "d": "2022-06-24",
-      "ix": "round(log(record[F(abs(n-3))]))",
+      "ix": "round(log(record[A000045(abs(n-3))]))",
       "mt": 478,
       "px": [
         "n",
         "3",
         "sub",
         "abs",
-        "F",
+        "A000045",
         "record",
         "log",
         "round"

@@ -3,11 +3,11 @@
   "ps": [
     {
       "d": "2022-07-08",
-      "ix": "xor(F(n), record[ceil(cot(A329957(n)))])",
+      "ix": "xor(A000045(n), record[ceil(cot(A329957(n)))])",
       "mt": 5,
       "px": [
         "n",
-        "F",
+        "A000045",
         "n",
         "A329957",
         "cot",

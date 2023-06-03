@@ -54,13 +54,13 @@
     },
     {
       "d": "2021-10-01",
-      "ix": "record[floor(sqrt(p(n+1)))²-n]",
+      "ix": "record[floor(sqrt(A000040(n+1)))²-n]",
       "mt": 1140,
       "px": [
         "n",
         "1",
         "+",
-        "p",
+        "A000040",
         "sqrt",
         "floor",
         "²",

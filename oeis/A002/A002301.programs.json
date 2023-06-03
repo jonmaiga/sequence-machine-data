@@ -3,12 +3,12 @@
   "ps": [
     {
       "d": "2021-11-01",
-      "ix": "∏[comp[record[F(contfrac[γ])]]]",
+      "ix": "∏[comp[record[A000045(contfrac[γ])]]]",
       "mt": 68,
       "px": [
         "γ",
         "contfrac",
-        "F",
+        "A000045",
         "record",
         "comp",
         "∏"

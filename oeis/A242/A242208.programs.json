@@ -13,13 +13,13 @@
     },
     {
       "d": "2022-03-02",
-      "ix": "limit[log2(ratio[F(n+1)])]",
+      "ix": "limit[log2(ratio[A000045(n+1)])]",
       "mt": 50,
       "px": [
         "n",
         "1",
         "+",
-        "F",
+        "A000045",
         "ratio",
         "log2",
         "limit"
