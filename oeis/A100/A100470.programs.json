@@ -33,23 +33,6 @@
       ]
     },
     {
-      "d": "2021-10-01",
-      "ix": "floor(record[n/round(root(n+1, 6))])",
-      "mt": 73,
-      "px": [
-        "n",
-        "n",
-        "1",
-        "+",
-        "6",
-        "root",
-        "round",
-        "/",
-        "record",
-        "floor"
-      ]
-    },
-    {
       "d": "2022-11-02",
       "ix": "abs(∑[char[lcm(2, n)+11]]-n)",
       "mt": 73,
@@ -64,6 +47,23 @@
         "n",
         "sub",
         "abs"
+      ]
+    },
+    {
+      "d": "2021-10-01",
+      "ix": "floor(record[n/round(root(n+1, 6))])",
+      "mt": 73,
+      "px": [
+        "n",
+        "n",
+        "1",
+        "+",
+        "6",
+        "root",
+        "round",
+        "/",
+        "record",
+        "floor"
       ]
     },
     {
