@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1/((d-1)*n + 1))*Sum_{i=0..n} binomial((d - 1)*n+1, n-i) * binomial((d-1)*n+i, i), with d = 6.",
+  "id": "A363006",
+  "mentions": [
+    "A006318",
+    "A027307",
+    "A144097",
+    "A217364",
+    "A260332",
+    "A363305"
+  ],
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,10 +1,14 @@
 {
-  "description": "a(1)=19; a(n)=floor((38+sum(a(1) to a(n-1)))/2).",
+  "description": "a(n) = 19 + floor( Sum_{j=1..n-1} a(j) / 2 ).",
   "id": "A120144",
   "mentions": [
     "A072493",
     "A073941",
-    "A112088"
+    "A112088",
+    "A120134",
+    "A120143",
+    "A120145",
+    "A120209"
   ],
   "tags": [
     "nonn"
@@ -12,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 35,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

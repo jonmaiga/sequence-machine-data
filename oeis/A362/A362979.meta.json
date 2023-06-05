@@ -1,5 +1,5 @@
 {
-  "description": "Irregular array, read by decreasing antidiagonals: row n lists the primes whose base-2 representation has exactly n ones.",
+  "description": "Irregular array, read by descending antidiagonals: row n lists the primes whose base-2 representation has exactly n ones.",
   "id": "A362979",
   "mentions": [
     "A000040",
@@ -10,9 +10,8 @@
     "base",
     "hard",
     "more",
-    "new",
     "nonn",
-    "tabf"
+    "tabl"
   ],
   "terms": {
     "offset": 2,

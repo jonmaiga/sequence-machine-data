@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n whose least part is a multiple of 3.",
+  "id": "A363094",
+  "mentions": [
+    "A026805",
+    "A363045",
+    "A363095",
+    "A363096"
+  ],
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

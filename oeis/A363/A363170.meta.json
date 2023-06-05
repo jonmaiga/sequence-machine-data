@@ -1,0 +1,20 @@
+{
+  "description": "The number of powerful abundant numbers (A363169) not exceeding 10^n.",
+  "id": "A363170",
+  "mentions": [
+    "A001694",
+    "A005101",
+    "A118896",
+    "A302992",
+    "A363169"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

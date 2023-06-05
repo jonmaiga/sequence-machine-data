@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n such that 3*(least part) + 1 = greatest part.",
+  "id": "A363075",
+  "mentions": [
+    "A049820",
+    "A237825",
+    "A237828",
+    "A363076",
+    "A363077"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -8,12 +8,13 @@
     "A302992"
   ],
   "tags": [
+    "changed",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 11,
     "source": "oeis-entry"
   }
 }

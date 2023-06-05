@@ -1,0 +1,19 @@
+{
+  "description": "Sphenic numbers (product of 3 distinct primes) sandwiched between two semiprimes (product of 2 primes).",
+  "id": "A362811",
+  "mentions": [
+    "A001358",
+    "A007304",
+    "A171179"
+  ],
+  "tags": [
+    "easy",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

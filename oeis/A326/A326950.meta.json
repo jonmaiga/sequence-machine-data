@@ -15,13 +15,14 @@
     "A326947"
   ],
   "tags": [
+    "changed",
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 9,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

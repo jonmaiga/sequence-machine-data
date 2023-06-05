@@ -1,0 +1,33 @@
+{
+  "description": "Triangle read by rows: T(n,k) = (-1)^(n-k)*binomial(n, k)*(k+3)^n, for n >= 0, and k = 0,1, ..., n. Coefficients of certain Sidi polynomials.",
+  "id": "A362353",
+  "mentions": [
+    "A000142",
+    "A002697",
+    "A007334",
+    "A018215",
+    "A075513",
+    "A081135",
+    "A081144",
+    "A128964",
+    "A137352",
+    "A139641",
+    "A141413",
+    "A154715",
+    "A173155",
+    "A173191",
+    "A258773"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

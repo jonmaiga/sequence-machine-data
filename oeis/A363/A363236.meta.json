@@ -1,0 +1,20 @@
+{
+  "description": "Number of permutations p of [n] such that each element in p has at least one neighbor with opposite parity.",
+  "id": "A363236",
+  "mentions": [
+    "A001622",
+    "A092186",
+    "A363180",
+    "A363181"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

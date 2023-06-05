@@ -1,0 +1,18 @@
+{
+  "description": "The Knott base-phi representation of n described in A362919 written as a binary string, omitting the dot.",
+  "id": "A362920",
+  "mentions": [
+    "A118240",
+    "A362919"
+  ],
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

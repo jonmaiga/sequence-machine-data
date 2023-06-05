@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = 3*(n+3)^(n-1).",
+  "id": "A362354",
+  "mentions": [
+    "A000272",
+    "A137452",
+    "A232006"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

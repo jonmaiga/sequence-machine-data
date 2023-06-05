@@ -1,0 +1,16 @@
+{
+  "description": "Number of partitions of [n] whose blocks are ordered with increasing least elements and where block i has size at most i.",
+  "id": "A362638",
+  "mentions": [
+    "A000110",
+    "A362635"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

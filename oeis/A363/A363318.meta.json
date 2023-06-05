@@ -1,0 +1,19 @@
+{
+  "description": "Total distance from n to each of its refactorable unitary divisors.",
+  "id": "A363318",
+  "mentions": [
+    "A363085",
+    "A363298"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

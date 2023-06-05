@@ -1,0 +1,14 @@
+{
+  "description": "Least k > 0 such that (floor(sqrt(n*k)) + 1)^2 mod n is a square.",
+  "id": "A362502",
+  "mentions": [],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

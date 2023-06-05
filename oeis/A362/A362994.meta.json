@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = lcm(1, 2, ..., n+1) * Bernoulli(n, 1). Alternating row sums of A362995 and A363154.",
+  "id": "A362994",
+  "mentions": [
+    "A003418",
+    "A027642",
+    "A164555",
+    "A362991",
+    "A362995",
+    "A363154"
+  ],
+  "tags": [
+    "changed",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

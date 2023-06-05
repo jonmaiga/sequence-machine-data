@@ -1,0 +1,18 @@
+{
+  "description": "Sum of the divisor complements of the unitary squarefree divisors of n.",
+  "id": "A363289",
+  "mentions": [
+    "A092261"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

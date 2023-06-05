@@ -1,0 +1,21 @@
+{
+  "description": "Number of polycubes with n cells, allowing edge connections as well as corner connections, identifying mirror images.",
+  "id": "A363206",
+  "mentions": [
+    "A038119",
+    "A268666",
+    "A272368",
+    "A363205"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

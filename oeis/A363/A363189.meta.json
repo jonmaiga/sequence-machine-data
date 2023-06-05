@@ -1,0 +1,22 @@
+{
+  "description": "Indices of the odd terms in the sequence of powerful numbers (A001694).",
+  "id": "A363189",
+  "mentions": [
+    "A001694",
+    "A062739",
+    "A363176",
+    "A363190",
+    "A363191",
+    "A363192"
+  ],
+  "tags": [
+    "easy",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

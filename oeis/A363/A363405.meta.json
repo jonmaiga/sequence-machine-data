@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies A(x) = exp( Sum_{k>=1} (A(x^k) + A(i*x^k) + A(-x^k) + A(i^3*x^k))/4 * x^k/k ), where i = sqrt(-1).",
+  "id": "A363405",
+  "mentions": [
+    "A195865",
+    "A363337",
+    "A363404"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

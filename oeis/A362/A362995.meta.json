@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows. T(n, k) = [x^k] lcm({i + 1 : 0 <= i <= n}) * (Sum_{u=0..k} ( Sum_{j=0..u} x^j * binomial(u, j) * (j + 1)^n ) / (u + 1)).",
+  "id": "A362995",
+  "mentions": [
+    "A001008",
+    "A362993",
+    "A362994",
+    "A362996",
+    "A362997",
+    "A363000"
+  ],
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

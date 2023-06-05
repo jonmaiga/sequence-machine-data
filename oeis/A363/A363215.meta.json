@@ -1,0 +1,19 @@
+{
+  "description": "Integers p > 1 such that 3^d == 1 (mod p) where d = A000265(p-1).",
+  "id": "A363215",
+  "mentions": [
+    "A000265",
+    "A005935",
+    "A020229",
+    "A130433"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

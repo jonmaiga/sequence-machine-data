@@ -1,5 +1,5 @@
 {
-  "description": "Number of reduced, normalized 3x3 semimagic squares with distinct nonnegative integer entries and maximum entry n.",
+  "description": "Number of reduced, normalized 3 X 3 semimagic squares with distinct nonnegative integer entries and maximum entry n.",
   "id": "A173724",
   "mentions": [
     "A173546",
@@ -7,6 +7,7 @@
     "A173726"
   ],
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],

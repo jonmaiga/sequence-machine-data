@@ -1,9 +1,12 @@
 {
-  "description": "Numbers k such that in base 4 representation the numbers of 0's and 3's are 0 and 2, respectively.",
+  "description": "Numbers whose base-4 representation contains no 0's and exactly two 3's.",
   "id": "A045063",
-  "mentions": [],
+  "mentions": [
+    "A007090"
+  ],
   "tags": [
     "base",
+    "changed",
     "nonn"
   ],
   "terms": {

@@ -1,9 +1,12 @@
 {
   "description": "Numbers whose base-5 representation contains exactly two 0's and two 1's.",
   "id": "A045167",
-  "mentions": [],
+  "mentions": [
+    "A007091"
+  ],
   "tags": [
     "base",
+    "changed",
     "nonn"
   ],
   "terms": {

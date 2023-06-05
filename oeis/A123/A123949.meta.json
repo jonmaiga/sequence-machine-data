@@ -1,5 +1,5 @@
 {
-  "description": "n-th level Hadamard matrices for Pascal type binary are inverted and multiplied by the corresponding n th level Gray code Hadamard (some of which matrices have determinant zero): the resulting matrix is processed to give a triangular sequence.",
+  "description": "This sequence needs a definition.",
   "id": "A123949",
   "mentions": [
     "A121801",
@@ -7,7 +7,8 @@
     "A122947"
   ],
   "tags": [
-    "formulas",
+    "changed",
+    "less",
     "sign",
     "tabl",
     "uned"

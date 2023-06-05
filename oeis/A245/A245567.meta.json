@@ -28,6 +28,7 @@
     "A327016"
   ],
   "tags": [
+    "changed",
     "formulas",
     "hard",
     "more",
@@ -36,7 +37,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 9,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

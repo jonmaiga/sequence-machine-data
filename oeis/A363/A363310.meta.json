@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A(x) = 1 + x*G(x)^5, where G(x) = 1 + x*(G(x)^3 + G(x)^5) is the g.f. of A363311.",
+  "id": "A363310",
+  "mentions": [
+    "A001764",
+    "A363309",
+    "A363311"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

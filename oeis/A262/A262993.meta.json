@@ -1,8 +1,11 @@
 {
   "description": "Decimal expansion of 2^e (Froda's constant).",
   "id": "A262993",
-  "mentions": [],
+  "mentions": [
+    "A001113"
+  ],
   "tags": [
+    "changed",
     "cons",
     "nonn"
   ],

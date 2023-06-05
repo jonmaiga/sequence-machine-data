@@ -1,5 +1,5 @@
 {
-  "description": "Array read by antidiagonals: T(n,k) is the number of k-tuples of permutations of [n] which commute, divided by n!.",
+  "description": "Array read by antidiagonals: T(n,k) is the number of k-tuples of permutations of [n] which commute, divided by n!, n >= 0, k >= 1.",
   "id": "A362826",
   "mentions": [
     "A000012",
@@ -7,11 +7,12 @@
     "A061256",
     "A160870",
     "A226313",
-    "A362827"
+    "A362827",
+    "A362903"
   ],
   "tags": [
+    "changed",
     "formulas",
-    "new",
     "nonn",
     "tabl"
   ],

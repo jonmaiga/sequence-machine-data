@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X(n+2) 0..5 arrays with every 3X3 subblock commuting with each horizontal and vertical neighbor 3X3 subblock",
+  "description": "Number of (n+2) X (n+2) 0..5 arrays with every 3 X 3 subblock commuting with each horizontal and vertical neighbor 3 X 3 subblock.",
   "id": "A186569",
   "mentions": [
     "A186570"

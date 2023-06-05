@@ -1,5 +1,5 @@
 {
-  "description": "Numbers whose each digit squared sums to a semiprime.",
+  "description": "Numbers whose digits squared sum to a semiprime.",
   "id": "A217907",
   "mentions": [
     "A001358",
@@ -7,6 +7,8 @@
   ],
   "tags": [
     "base",
+    "changed",
+    "easy",
     "nonn"
   ],
   "terms": {

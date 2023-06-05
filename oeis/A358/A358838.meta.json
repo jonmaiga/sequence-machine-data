@@ -15,12 +15,12 @@
     "A360746"
   ],
   "tags": [
-    "formulas",
+    "changed",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 70,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

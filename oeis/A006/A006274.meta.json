@@ -1,5 +1,5 @@
 {
-  "description": "Denominators of a continued fraction for (3+sqrt(13))/2.",
+  "description": "First differences of A006268.",
   "id": "A006274",
   "mentions": [
     "A006268",
@@ -7,7 +7,7 @@
     "A098316"
   ],
   "tags": [
-    "formulas",
+    "changed",
     "frac",
     "nonn"
   ],

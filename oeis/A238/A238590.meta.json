@@ -2,11 +2,15 @@
   "description": "Number of partitions p of n such that 3*min(p) is a part of p.",
   "id": "A238590",
   "mentions": [
+    "A117989",
+    "A237825",
     "A238589",
-    "A238591"
+    "A238591",
+    "A363066"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

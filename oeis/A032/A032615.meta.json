@@ -2,9 +2,11 @@
   "description": "a(n) = floor(n/Pi).",
   "id": "A032615",
   "mentions": [
+    "A049541",
     "A062300"
   ],
   "tags": [
+    "changed",
     "easy",
     "nonn"
   ],

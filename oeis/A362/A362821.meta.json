@@ -1,0 +1,20 @@
+{
+  "description": "Number of labeled right involutory Płonka magmas with n elements.",
+  "id": "A362821",
+  "mentions": [
+    "A361720",
+    "A362643",
+    "A362822",
+    "A362824"
+  ],
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

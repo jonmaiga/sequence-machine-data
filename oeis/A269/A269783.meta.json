@@ -6,12 +6,13 @@
     "A269501"
   ],
   "tags": [
+    "changed",
     "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
     "size": 70,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "A list of lists where T(n,k) is the smallest n-digit number whose digits have arithmetic mean k, for 1 <= k <= 9.",
+  "id": "A362038",
+  "mentions": [
+    "A007953",
+    "A055642",
+    "A061383"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

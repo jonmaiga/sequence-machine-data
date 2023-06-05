@@ -1,5 +1,5 @@
 {
-  "description": "Triangle, square of A126988, row sums = A060640.",
+  "description": "Triangle read by rows: square of A126988.",
   "id": "A127168",
   "mentions": [
     "A008683",
@@ -10,13 +10,13 @@
     "A127169"
   ],
   "tags": [
-    "formulas",
+    "changed",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 46,
-    "source": "oeis-entry"
+    "size": 91,
+    "source": "joeis"
   }
 }

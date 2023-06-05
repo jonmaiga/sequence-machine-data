@@ -1,7 +1,9 @@
 {
   "description": "Number of ways of being dealt an n-point Bridge hand.",
   "id": "A309777",
-  "mentions": [],
+  "mentions": [
+    "A363058"
+  ],
   "tags": [
     "fini",
     "formulas",

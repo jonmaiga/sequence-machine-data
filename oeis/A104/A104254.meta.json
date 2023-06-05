@@ -1,8 +1,9 @@
 {
-  "description": "n^n - (-1)^n(n+1)!.",
+  "description": "a(n) = n^n - (-1)^n*(n+1)!.",
   "id": "A104254",
   "mentions": [],
   "tags": [
+    "changed",
     "sign"
   ],
   "terms": {

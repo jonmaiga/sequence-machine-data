@@ -1,5 +1,5 @@
 {
-  "description": "If n=sum(c_i*10^i) then let b(n)=sum(c_i*(i+1)). Order the integers by b(n) and then n.",
+  "description": "If n = Sum_{i} c_i * 10^i then let b(n) = Sum_{i} c_i * (i+1). Order the integers by b(n) and then n.",
   "id": "A061196",
   "mentions": [
     "A000041",
@@ -10,6 +10,7 @@
   ],
   "tags": [
     "base",
+    "changed",
     "formulas",
     "nonn"
   ],

@@ -1,10 +1,11 @@
 {
-  "description": "A rational based combinatorial triangular sequence: f(n) = Product[Prime[a]*k + Prime[b], {k,0,n}]; a = 2; b = 1; t(n,m) = Numerator[f(n)/(f(n-m)*f(m))].",
+  "description": "Triangular sequence: f(n) = Product[Prime[a]*k + Prime[b], {k,0,n}]; a = 2; b = 1; t(n,m) = Numerator[f(n)/(f(n-m)*f(m))].",
   "id": "A154096",
   "mentions": [
     "A154097"
   ],
   "tags": [
+    "changed",
     "formulas",
     "frac",
     "nonn",

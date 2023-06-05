@@ -1,14 +1,17 @@
 {
   "description": "Theta series of 14-dimensional integral laminated lattice LAMBDA14.2 with minimal norm 4.",
   "id": "A046958",
-  "mentions": [],
+  "mentions": [
+    "A023937",
+    "A047626",
+    "A047627"
+  ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 7,
-    "source": "oeis-entry"
+    "size": 27,
+    "source": "oeis-bfile"
   }
 }

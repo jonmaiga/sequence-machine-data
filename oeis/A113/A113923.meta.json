@@ -1,14 +1,16 @@
 {
-  "description": "A Farey like level n=2 rational function as a coefficient expansion.",
+  "description": "Expansion of 3*(2-x)^2/(1-x).",
   "id": "A113923",
   "mentions": [],
   "tags": [
+    "changed",
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
+    "size": 35,
     "source": "oeis-entry"
   }
 }

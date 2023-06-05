@@ -8,13 +8,14 @@
     "A090461"
   ],
   "tags": [
+    "changed",
     "formulas",
     "hard",
     "nonn"
   ],
   "terms": {
     "offset": 15,
-    "size": 38,
+    "size": 40,
     "source": "oeis-entry"
   }
 }

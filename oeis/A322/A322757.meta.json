@@ -2,9 +2,11 @@
   "description": "Decimal expansion of G/(2*Pi), where G is Catalan's constant A006752.",
   "id": "A322757",
   "mentions": [
-    "A006752"
+    "A006752",
+    "A019692"
   ],
   "tags": [
+    "changed",
     "cons",
     "nonn"
   ],

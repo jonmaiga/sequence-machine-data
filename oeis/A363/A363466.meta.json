@@ -1,0 +1,20 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = x + x^2 * exp( Sum_{k>=1} A(x^k)^4 / (k*x^(3*k)) ).",
+  "id": "A363466",
+  "mentions": [
+    "A007562",
+    "A052773",
+    "A363387",
+    "A363465",
+    "A363468"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -3,9 +3,11 @@
   "id": "A231098",
   "mentions": [
     "A000796",
-    "A001113"
+    "A001113",
+    "A231097"
   ],
   "tags": [
+    "changed",
     "cons",
     "formulas",
     "nonn"

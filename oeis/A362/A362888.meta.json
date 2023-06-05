@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1, a(n) = (3*k + 1)*(6*k + 1)*(8*k + 1), where k = Product_{i=1..n-1} a(i).",
+  "id": "A362888",
+  "mentions": [
+    "A002412",
+    "A360826"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

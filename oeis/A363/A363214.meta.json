@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n with rank 5 (the rank of a partition is the largest part minus the number of parts).",
+  "id": "A363214",
+  "mentions": [
+    "A000041",
+    "A063995",
+    "A105806"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

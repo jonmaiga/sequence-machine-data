@@ -2,10 +2,12 @@
   "description": "Triangular matrix T, read by rows, such that column k is equal (in absolute value) to row (k-1) in the matrix inverse T^-1 (with extrapolated zeros) for k>0, with T(n,n)=1 (n>=0) and T(n,n-1)=-n (n>=1).",
   "id": "A104041",
   "mentions": [
+    "A038207",
     "A038754",
     "A104040"
   ],
   "tags": [
+    "changed",
     "formulas",
     "sign",
     "tabl"

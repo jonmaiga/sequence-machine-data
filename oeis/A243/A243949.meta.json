@@ -2,13 +2,14 @@
   "description": "Squares of the central Delannoy numbers: a(n) = A001850(n)^2.",
   "id": "A243949",
   "mentions": [
+    "A000012",
     "A001850",
     "A063007",
     "A243007",
     "A243943",
+    "A243944",
     "A243945",
     "A245925",
-    "A245944",
     "A268545",
     "A268555"
   ],

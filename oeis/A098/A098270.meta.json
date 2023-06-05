@@ -2,12 +2,14 @@
   "description": "a(n) = 2^n*P_n(5), 2^n times the Legendre polynomial of order n at 5.",
   "id": "A098270",
   "mentions": [
+    "A000079",
     "A006442",
     "A059473",
     "A069835",
     "A084773"
   ],
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"

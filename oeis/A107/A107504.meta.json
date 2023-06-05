@@ -1,14 +1,17 @@
 {
-  "description": "Coefficients of a certain theta series.",
+  "description": "Theta series of quadratic form with Gram matrix [ 12, -1, 5, 2; -1, 12, 5, 2; 5, 5, 14, 3; 2, 2, 3, 22].",
   "id": "A107504",
-  "mentions": [],
+  "mentions": [
+    "A107498",
+    "A107503",
+    "A107505"
+  ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
-    "source": "oeis-entry"
+    "size": 77,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of A(x) satisfying -x = Sum_{n=-oo..+oo} (-x)^n * (1 - (-x)^n)^n / A(x)^n.",
+  "id": "A363139",
+  "mentions": [
+    "A357399"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-bfile"
+  }
+}

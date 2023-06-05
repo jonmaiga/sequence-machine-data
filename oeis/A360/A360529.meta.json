@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the smallest k > A024619(n) such that rad(k) = rad(A024619(n)), where rad(n) = A007947(n).",
+  "id": "A360529",
+  "mentions": [
+    "A001597",
+    "A007947",
+    "A020639",
+    "A024619",
+    "A065642",
+    "A126706",
+    "A360719"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

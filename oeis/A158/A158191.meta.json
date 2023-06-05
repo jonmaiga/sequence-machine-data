@@ -1,5 +1,5 @@
 {
-  "description": "Attach the smallest prime to the end of the string a(n-1) so a(n) is also prime",
+  "description": "Attach the smallest prime to the end of the string a(n-1) so a(n) is also prime.",
   "id": "A158191",
   "mentions": [
     "A048549",
@@ -10,6 +10,7 @@
   ],
   "tags": [
     "base",
+    "changed",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "A007918(A138750(n)) = least prime > n/2 if n=2 (mod 3), > 2n otherwise.",
+  "description": "a(n) = A007918(A138750(n)), that is, least prime > n/2 if n=2 (mod 3), > 2n otherwise.",
   "id": "A138757",
   "mentions": [
     "A000720",
@@ -7,8 +7,10 @@
     "A124123",
     "A138750",
     "A138751",
+    "A138752",
     "A138753",
     "A138754",
+    "A138755",
     "A138756"
   ],
   "tags": [

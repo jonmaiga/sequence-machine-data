@@ -1,11 +1,11 @@
 {
-  "description": "Second derivative of Eulerian number polynomials as a triangular sequence defined by T(n, m) = Coefficients(q(x,n) + x^(n-2)*q(1/x,n))/4, where q(x, n) = d^2*P(x, n)/dx^2 and p(x, n)=(x-1)^(n+1)*Sum_{k>=0} ((-1)^(n + 1)*k^n)*x^(k-1).",
+  "description": "Triangular sequence defined by T(n, m) = Coefficients(q(x,n) + x^(n-2)*q(1/x,n))/4, where q(x, n) = d^2*P(x, n)/dx^2 and p(x, n)=(x-1)^(n+1)*Sum_{k>=0} ((-1)^(n + 1)*k^n)*x^(k-1).",
   "id": "A154702",
   "mentions": [
     "A037960"
   ],
   "tags": [
-    "formulas",
+    "changed",
     "nonn"
   ],
   "terms": {

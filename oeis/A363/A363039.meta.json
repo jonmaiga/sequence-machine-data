@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest tribonacci number (A000073) with exactly n divisors, or -1 if no such number exists.",
+  "id": "A363039",
+  "mentions": [
+    "A000005",
+    "A000073",
+    "A005179",
+    "A081979"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -7,13 +7,14 @@
     "A056240"
   ],
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 63,
+    "offset": 0,
+    "size": 64,
     "source": "oeis-bfile"
   }
 }

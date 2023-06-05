@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of primes in a Collatz orbit started at A078373(n).",
+  "id": "A362958",
+  "mentions": [
+    "A055509",
+    "A078350",
+    "A078373"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

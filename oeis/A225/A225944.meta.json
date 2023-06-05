@@ -1,12 +1,14 @@
 {
-  "description": "Numbers n such that prime(n) divides n^n-1.",
+  "description": "Numbers k such that prime(k) divides k^k - 1.",
   "id": "A225944",
   "mentions": [
     "A000040",
     "A000312",
-    "A048861"
+    "A048861",
+    "A225945"
   ],
   "tags": [
+    "changed",
     "more",
     "nonn"
   ],

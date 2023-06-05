@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of log(1+x)/exp(tanh(x)).",
+  "description": "Expansion of e.g.f.: log(1+x)/exp(tanh(x)).",
   "id": "A009439",
   "mentions": [],
   "tags": [

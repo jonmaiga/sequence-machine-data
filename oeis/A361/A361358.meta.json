@@ -8,14 +8,14 @@
     "A361360"
   ],
   "tags": [
+    "changed",
     "easy",
     "formulas",
-    "new",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 24,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

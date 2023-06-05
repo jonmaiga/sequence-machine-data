@@ -1,8 +1,12 @@
 {
   "description": "Composite numbers k such that b^k == b (mod sigma(k)) for every integer b.",
   "id": "A277286",
-  "mentions": [],
+  "mentions": [
+    "A000203",
+    "A002808"
+  ],
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X(4+1) arrays of permutations of 0..n*5+4 with each element having directed index change -1,-1 1,0 -1,-2 -2,-2 or 0,1.",
+  "description": "Number of (n+1) X (4+1) arrays of permutations of 0..n*5+4 with each element having directed index change -1,-1 1,0 -1,-2 -2,-2 or 0,1.",
   "id": "A264672",
   "mentions": [
     "A264676"

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = Sum_{k=0..n} 2^(n - k) * Sum_{j=0..k} binomial(k, j) * (j + 1)^n. Row sums of A363399.",
+  "id": "A363397",
+  "mentions": [
+    "A363399"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

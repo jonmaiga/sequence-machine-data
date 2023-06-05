@@ -1,5 +1,5 @@
 {
-  "description": "Variation on A029834: a discrete version of the Mangoldt function. If n is prime then floor(log(prime(n)) else 0.",
+  "description": "Variation on A029834: a discrete version of the Mangoldt function. If n is prime then floor(log(prime(n))) else 0.",
   "id": "A062590",
   "mentions": [
     "A010051",
@@ -7,6 +7,7 @@
     "A029835"
   ],
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest integer that is the sum of n distinct terms of the complete sequence A075058.",
+  "description": "a(n) is the smallest integer that is the sum of n distinct terms of A075058.",
   "id": "A202618",
   "mentions": [
     "A007924",

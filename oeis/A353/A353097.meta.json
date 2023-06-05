@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 5; for n>1, a(n) = 6 * a(n-1) + 6 - n.",
+  "description": "a(1) = 5; for n > 1, a(n) = 6*a(n-1) + 6 - n.",
   "id": "A353097",
   "mentions": [
     "A014829",
@@ -12,6 +12,7 @@
     "A353100"
   ],
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"

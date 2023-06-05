@@ -1,14 +1,17 @@
 {
-  "description": "The part of n in base phi left of the decimal, using a least-greedy algorithm representation.",
+  "description": "The part of n in base phi left of the decimal using a least-greedy algorithm representation.",
   "id": "A118240",
   "mentions": [
     "A055778",
     "A104605",
     "A105424",
-    "A118241"
+    "A118241",
+    "A362919",
+    "A362920"
   ],
   "tags": [
     "base",
+    "changed",
     "nonn"
   ],
   "terms": {

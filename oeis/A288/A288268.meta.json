@@ -2,13 +2,19 @@
   "description": "Expansion of e.g.f.: exp(Sum_{k>=1} (k-1)*x^k/k).",
   "id": "A288268",
   "mentions": [
+    "A000296",
+    "A002720",
+    "A008275",
     "A009940",
+    "A047974",
     "A052852",
     "A052887",
     "A059114",
     "A288269"
   ],
   "tags": [
+    "changed",
+    "easy",
     "formulas",
     "nonn"
   ],

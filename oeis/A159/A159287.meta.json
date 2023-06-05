@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of x^2/(1-x^2-2*x^3)",
+  "description": "Expansion of x^2/(1-x^2-2*x^3).",
   "id": "A159287",
   "mentions": [
     "A052947",
@@ -9,6 +9,7 @@
     "A159288"
   ],
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"

@@ -1,7 +1,9 @@
 {
   "description": "Number of independent generators of degree n of the algebra of Free quasi-symmetric functions (or Malvenuto-Reutenauer algebra of permutations) as a dendriform dialgebra (i.e., number of totally primitive elements).",
   "id": "A122827",
-  "mentions": [],
+  "mentions": [
+    "A003319"
+  ],
   "tags": [
     "formulas",
     "nonn"

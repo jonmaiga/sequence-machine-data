@@ -1,5 +1,5 @@
 {
-  "description": "The part of n in base phi left of the decimal point, using a greedy algorithm representation.",
+  "description": "The part of n in base phi left of the decimal point, using a greedy algorithm representation (more precisely, using the Bergman-canonical representation).",
   "id": "A105424",
   "mentions": [
     "A001622",

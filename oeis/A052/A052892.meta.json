@@ -2,9 +2,11 @@
   "description": "E.g.f. is series reversion of log(1+x)*(1-x).",
   "id": "A052892",
   "mentions": [
+    "A052842",
     "A198204"
   ],
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"

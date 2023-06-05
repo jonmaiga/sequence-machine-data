@@ -2,6 +2,7 @@
   "description": "Numbers that when incremented by the sum of their digits produce a square.",
   "id": "A066564",
   "mentions": [
+    "A062028",
     "A066566"
   ],
   "tags": [

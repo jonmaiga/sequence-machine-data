@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of 1 / Sum_{k>=0} x^(k*(2*k - 1)).",
+  "id": "A361979",
+  "mentions": [
+    "A000384",
+    "A006950",
+    "A106507",
+    "A308806",
+    "A317665",
+    "A322798",
+    "A363149",
+    "A363275"
+  ],
+  "tags": [
+    "new",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

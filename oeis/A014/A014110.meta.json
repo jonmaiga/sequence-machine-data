@@ -1,7 +1,10 @@
 {
-  "description": "Number of ordered ways of writing n as a sum of 4 squares of natural numbers.",
+  "description": "Number of ordered ways of writing n as a sum of 4 squares of nonnegative integers.",
   "id": "A014110",
-  "mentions": [],
+  "mentions": [
+    "A000118",
+    "A000925"
+  ],
   "tags": [
     "easy",
     "formulas",

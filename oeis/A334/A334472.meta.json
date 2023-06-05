@@ -1,15 +1,18 @@
 {
   "description": "Decimal expansion of constant for simple random walks.",
   "id": "A334472",
-  "mentions": [],
+  "mentions": [
+    "A001620"
+  ],
   "tags": [
+    "changed",
     "cons",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 62,
+    "size": 105,
     "source": "joeis"
   }
 }

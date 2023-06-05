@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows (row length A056220). Row n lists the integer solutions for x in the equation x - 10^n = x/y (x and y are integers).",
+  "id": "A362310",
+  "mentions": [
+    "A027750",
+    "A056220",
+    "A056538",
+    "A362311"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Decimal expansion of circumradius of a regular dodecahedron with edge length 1.",
   "id": "A179296",
   "mentions": [
+    "A001622",
     "A010503",
     "A010527",
     "A019881",
@@ -14,6 +15,7 @@
     "A187110"
   ],
   "tags": [
+    "changed",
     "cons",
     "easy",
     "formulas",

@@ -8,9 +8,11 @@
     "A101198",
     "A225794",
     "A226062",
-    "A227753"
+    "A227753",
+    "A237831"
   ],
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
@@ -18,6 +20,6 @@
   "terms": {
     "offset": 1,
     "size": 48,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

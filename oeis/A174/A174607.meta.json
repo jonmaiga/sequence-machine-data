@@ -1,8 +1,13 @@
 {
-  "description": "Decimal expansion of Pi^2/(6*log(Phi)) where Phi=(1+sqrt(5))/2.",
+  "description": "Decimal expansion of Pi^2/(6*log(phi)) where phi=(1+sqrt(5))/2.",
   "id": "A174607",
-  "mentions": [],
+  "mentions": [
+    "A001622",
+    "A002390",
+    "A013661"
+  ],
   "tags": [
+    "changed",
     "cons",
     "nonn"
   ],

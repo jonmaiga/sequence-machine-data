@@ -1,0 +1,17 @@
+{
+  "description": "Size of the largest subset of {1,2,...,n} such that no two elements sum to a perfect square.",
+  "id": "A363069",
+  "mentions": [
+    "A100719",
+    "A210380"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

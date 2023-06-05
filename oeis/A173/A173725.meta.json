@@ -1,5 +1,5 @@
 {
-  "description": "Number of symmetry classes of 3x3 semimagic squares with distinct positive values and magic sum n.",
+  "description": "Number of symmetry classes of 3 X 3 semimagic squares with distinct positive values and magic sum n.",
   "id": "A173725",
   "mentions": [
     "A173547",
@@ -7,6 +7,7 @@
     "A173726"
   ],
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],

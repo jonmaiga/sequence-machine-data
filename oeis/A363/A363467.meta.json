@@ -1,0 +1,20 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = x + x^2 * exp( Sum_{k>=1} (-1)^(k+1) * A(x^k)^3 / (k*x^(2*k)) ).",
+  "id": "A363467",
+  "mentions": [
+    "A007560",
+    "A052755",
+    "A363388",
+    "A363465",
+    "A363468"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Three-dimensional polyknights, identifying rotations but not reflections.",
+  "id": "A363383",
+  "mentions": [
+    "A363382"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

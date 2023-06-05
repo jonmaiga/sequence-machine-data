@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n with prime rank.",
+  "id": "A363241",
+  "mentions": [
+    "A000041",
+    "A010051",
+    "A037032"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

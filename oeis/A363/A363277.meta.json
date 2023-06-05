@@ -1,0 +1,19 @@
+{
+  "description": "Sum of the divisor complements of the squarefree divisors of n that are <= sqrt(n).",
+  "id": "A363277",
+  "mentions": [
+    "A070038",
+    "A333749"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

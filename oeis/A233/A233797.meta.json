@@ -1,10 +1,11 @@
 {
-  "description": "Number of (n+2)X(2+2) 0..3 arrays with no increasing sequence of length 3 horizontally, vertically or antidiagonally downwards",
+  "description": "Number of (n+2) X (2+2) 0..3 arrays with no increasing sequence of length 3 horizontally, vertically or antidiagonally downwards.",
   "id": "A233797",
   "mentions": [
     "A233801"
   ],
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {

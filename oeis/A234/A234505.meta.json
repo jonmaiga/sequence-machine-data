@@ -1,5 +1,5 @@
 {
-  "description": "2*binomial(9*n+2,n)/(9*n+2).",
+  "description": "a(n) = 2*binomial(9*n+2,n)/(9*n+2).",
   "id": "A234505",
   "mentions": [
     "A000108",

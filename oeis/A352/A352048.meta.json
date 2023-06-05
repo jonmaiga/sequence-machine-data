@@ -2,6 +2,7 @@
   "description": "Sum of the squares of the divisor complements of the odd proper divisors of n.",
   "id": "A352048",
   "mentions": [
+    "A076577",
     "A091954",
     "A352047",
     "A352049",
@@ -14,7 +15,6 @@
     "A352056"
   ],
   "tags": [
-    "changed",
     "formulas",
     "nonn"
   ],

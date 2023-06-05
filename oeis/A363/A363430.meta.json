@@ -1,0 +1,21 @@
+{
+  "description": "Number of set partitions of [n] such that each block has at most one odd element.",
+  "id": "A363430",
+  "mentions": [
+    "A000110",
+    "A110138",
+    "A124423",
+    "A134980",
+    "A363429"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

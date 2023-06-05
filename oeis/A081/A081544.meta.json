@@ -1,10 +1,16 @@
 {
-  "description": "Decimal expansion of Sum_(1/(2^q-1)) with the summation extending over all pairs of integers (p,q)=1, 0 < p/q < phi, where phi is the Golden ratio.",
+  "description": "Decimal expansion of Sum_(1/(2^q-1)) with the summation extending over all pairs of integers gcd(p,q) = 1, 0 < p/q < phi, where phi is the Golden ratio.",
   "id": "A081544",
   "mentions": [
-    "A001622"
+    "A001622",
+    "A014565",
+    "A073115",
+    "A081550",
+    "A081564",
+    "A081573"
   ],
   "tags": [
+    "changed",
     "cons",
     "formulas",
     "nonn"

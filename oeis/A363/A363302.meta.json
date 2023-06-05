@@ -1,0 +1,22 @@
+{
+  "description": "E.g.f. satisfies log(A(x)) = exp(x / A(x)^3) - 1.",
+  "id": "A363302",
+  "mentions": [
+    "A030019",
+    "A334241",
+    "A349598",
+    "A349655",
+    "A349683",
+    "A362467"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

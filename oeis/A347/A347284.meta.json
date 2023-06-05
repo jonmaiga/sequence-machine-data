@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Product_{j=1..A089576(n)} p_j^e_j with 0 < e_j < floor(log(p_(j-1)/log(p_j))) where the first factor is 2^n.",
+  "description": "a(n) = Product_{j=1..A089576(n)} p_j^e_j with e_j = floor(e_(j-1)*log(p_(j-1))/log(p_j)) where the first factor is 2^n.",
   "id": "A347284",
   "mentions": [
     "A000079",
@@ -13,7 +13,8 @@
     "A089576",
     "A347285",
     "A347288",
-    "A347354"
+    "A347354",
+    "A363063"
   ],
   "tags": [
     "formulas",

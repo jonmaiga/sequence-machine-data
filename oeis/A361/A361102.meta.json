@@ -2,16 +2,20 @@
   "description": "1 together with numbers having at least two distinct prime factors.",
   "id": "A361102",
   "mentions": [
+    "A000027",
     "A000469",
     "A024619",
     "A120944",
+    "A126706",
+    "A246655",
     "A360519"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 73,
     "source": "oeis-bfile"
   }

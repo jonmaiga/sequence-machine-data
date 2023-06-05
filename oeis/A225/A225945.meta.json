@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that prime(n) divides n^n+1.",
+  "description": "Numbers k such that prime(k) divides k^k + 1.",
   "id": "A225945",
   "mentions": [
     "A000040",
@@ -8,12 +8,13 @@
     "A225944"
   ],
   "tags": [
+    "changed",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 11,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

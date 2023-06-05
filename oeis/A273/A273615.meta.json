@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^4 is the average of two positive cubes while n is not.",
+  "description": "Numbers k such that k^4 is the average of two positive cubes while k is not.",
   "id": "A273615",
   "mentions": [
     "A003325",

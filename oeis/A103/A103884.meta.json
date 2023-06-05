@@ -1,5 +1,5 @@
 {
-  "description": "Square array T(n,k) read by antidiagonals: coordination sequence for lattice C_n.",
+  "description": "Square array A(n,k) read by antidiagonals: row n gives coordination sequence for lattice C_n.",
   "id": "A103884",
   "mentions": [
     "A001105",
@@ -24,13 +24,14 @@
     "A103885"
   ],
   "tags": [
+    "changed",
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 2,
-    "size": 52,
-    "source": "oeis-entry"
+    "size": 55,
+    "source": "oeis-bfile"
   }
 }

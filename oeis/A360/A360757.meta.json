@@ -7,11 +7,12 @@
     "A157037"
   ],
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 48,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

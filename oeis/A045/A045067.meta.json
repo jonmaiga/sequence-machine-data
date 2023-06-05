@@ -1,5 +1,5 @@
 {
-  "description": "Numbers with the property that in base-4 representation the numbers of 0's and 3's are 1 and 1, respectively.",
+  "description": "Numbers whose base-4 representation contains exactly one 0 and one 3.",
   "id": "A045067",
   "mentions": [
     "A007090",
@@ -7,6 +7,7 @@
   ],
   "tags": [
     "base",
+    "changed",
     "nonn"
   ],
   "terms": {

@@ -17,12 +17,13 @@
     "A321679"
   ],
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 8,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

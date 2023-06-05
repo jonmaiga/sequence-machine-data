@@ -2,6 +2,8 @@
   "description": "Numbers surviving a decaying sieve.",
   "id": "A270877",
   "mentions": [
+    "A066680",
+    "A136259",
     "A281256",
     "A286013"
   ],

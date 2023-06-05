@@ -1,0 +1,20 @@
+{
+  "description": "Nonprime base-10 palindromes whose arithmetic derivative is a base-10 palindrome.",
+  "id": "A363248",
+  "mentions": [
+    "A002113",
+    "A002385",
+    "A003415",
+    "A363246"
+  ],
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

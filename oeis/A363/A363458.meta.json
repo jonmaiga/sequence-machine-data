@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k and k+1 are both in A363457.",
+  "id": "A363458",
+  "mentions": [
+    "A002110",
+    "A025487",
+    "A129912",
+    "A363457"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

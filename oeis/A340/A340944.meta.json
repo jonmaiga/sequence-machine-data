@@ -2,12 +2,15 @@
   "description": "List of X-coordinates of point moving along one of the arms of a counterclockwise square spiral with four arms; A340945 gives Y-coordinates.",
   "id": "A340944",
   "mentions": [
+    "A000194",
     "A002939",
     "A016742",
     "A340171",
     "A340945"
   ],
   "tags": [
+    "changed",
+    "easy",
     "formulas",
     "look",
     "sign"

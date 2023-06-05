@@ -1,0 +1,16 @@
+{
+  "description": "a(1)=1, and thereafter, a(n) is the number of terms in the sequence thus far that appear with a frequency equal to or less than that of a(n-1).",
+  "id": "A363301",
+  "mentions": [
+    "A350768"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

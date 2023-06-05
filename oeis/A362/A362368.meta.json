@@ -1,0 +1,15 @@
+{
+  "description": "Number of binary strings of length n which are losing configurations in the palindrome game.",
+  "id": "A362368",
+  "mentions": [],
+  "tags": [
+    "changed",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

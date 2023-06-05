@@ -1,5 +1,5 @@
 {
-  "description": "Number of length 2 0..n arrays with each partial sum starting from the beginning no more than sqrt(3) standard deviations from its mean",
+  "description": "Number of length 2 0..n arrays with each partial sum starting from the beginning no more than sqrt(3) standard deviations from its mean.",
   "id": "A244941",
   "mentions": [
     "A244940"

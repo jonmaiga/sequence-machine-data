@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the least start of a run of exactly n consecutive powerful numbers (A001694) that are odd, or -1 if no such run exists.",
+  "id": "A363192",
+  "mentions": [
+    "A001694",
+    "A062739",
+    "A349062",
+    "A363189",
+    "A363190",
+    "A363191"
+  ],
+  "tags": [
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Number of refactorable unitary divisors of n.",
+  "id": "A363298",
+  "mentions": [
+    "A034444",
+    "A336041",
+    "A363085"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Square array A(n,k) = (n^(2*k + 1) + 1)/(n + 1), n >= 0, k >= 0, read by antidiagonals.",
+  "id": "A362783",
+  "mentions": [
+    "A000012",
+    "A002061",
+    "A007583",
+    "A060884",
+    "A060888",
+    "A066443",
+    "A179897",
+    "A299960"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

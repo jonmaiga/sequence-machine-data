@@ -3,11 +3,12 @@
   "id": "A121937",
   "mentions": [],
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 102,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

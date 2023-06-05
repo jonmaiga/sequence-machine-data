@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that, in base 4, the greatest prime less than 4^k and the least prime greater than 4^k have no common digit.",
+  "id": "A361173",
+  "mentions": [
+    "A068802",
+    "A104082",
+    "A104089",
+    "A156981"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

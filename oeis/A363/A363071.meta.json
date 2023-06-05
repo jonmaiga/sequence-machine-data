@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of [n] into m blocks that are ordered with increasing least elements and where block j contains n+1-j (m in {0..ceiling(n/2)}, j in {1..m}).",
+  "id": "A363071",
+  "mentions": [
+    "A000110",
+    "A008277",
+    "A048993",
+    "A171367",
+    "A320964"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

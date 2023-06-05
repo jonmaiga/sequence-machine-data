@@ -1,0 +1,29 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of n element multisets of length k vectors over GF(2) that sum to zero.",
+  "id": "A362905",
+  "mentions": [
+    "A000012",
+    "A000079",
+    "A004526",
+    "A007581",
+    "A053307",
+    "A054724",
+    "A340030",
+    "A340312",
+    "A362906",
+    "A363349",
+    "A363350",
+    "A363351"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

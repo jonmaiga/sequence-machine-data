@@ -1,7 +1,9 @@
 {
-  "description": "Positions where both e and the Golden Ratio have a common decimal digit.",
+  "description": "Positions where e and the Golden Ratio have a common decimal digit.",
   "id": "A257494",
   "mentions": [
+    "A001113",
+    "A001622",
     "A052055",
     "A257492"
   ],

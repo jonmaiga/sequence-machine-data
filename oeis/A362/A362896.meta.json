@@ -1,0 +1,18 @@
+{
+  "description": "a(0)=2. For n>0, let d = n-th digit in the sequence thus far. a(n) = a(n-1) + d if d is even. Otherwise, a(n) = a(n-1) - d.",
+  "id": "A362896",
+  "mentions": [
+    "A362371",
+    "A362551"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(1)=25; a(n)=floor((50+sum(a(1) to a(n-1)))/2).",
+  "description": "a(n) = 25 + floor( Sum_{j=1..n-1} a(j)/2 ).",
   "id": "A120148",
   "mentions": [
     "A072493",
@@ -7,11 +7,12 @@
     "A112088"
   ],
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 34,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -2,9 +2,11 @@
   "description": "a(n) = floor(n/e).",
   "id": "A032634",
   "mentions": [
-    "A057367"
+    "A057367",
+    "A068985"
   ],
   "tags": [
+    "changed",
     "easy",
     "nonn"
   ],

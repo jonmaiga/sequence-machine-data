@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A057775(n) is the factor of a Fermat number 2^(2^m) + 1 for some m.",
+  "description": "Numbers k such that A057775(k) is the factor of a Fermat number 2^(2^m) + 1 for some m.",
   "id": "A201364",
   "mentions": [
     "A000215",
@@ -7,11 +7,12 @@
     "A057778"
   ],
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 43,
-    "source": "oeis-entry"
+    "size": 50,
+    "source": "oeis-bfile"
   }
 }

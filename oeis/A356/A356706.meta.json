@@ -11,14 +11,14 @@
     "A356712"
   ],
   "tags": [
+    "changed",
     "formulas",
     "hard",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 60,
-    "source": "oeis-entry"
+    "size": 97,
+    "source": "oeis-bfile"
   }
 }

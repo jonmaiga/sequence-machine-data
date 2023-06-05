@@ -7,9 +7,12 @@
     "A064174",
     "A101198",
     "A101199",
-    "A101200"
+    "A101200",
+    "A363213",
+    "A363214"
   ],
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn",
@@ -17,7 +20,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 103,
+    "size": 105,
     "source": "oeis-bfile"
   }
 }

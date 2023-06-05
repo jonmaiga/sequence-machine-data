@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying 1/5 = Sum_{n=-oo..+oo} x^n * (A(x) - x^n)^(n-1), with a(0) = 6.",
+  "id": "A363315",
+  "mentions": [
+    "A357227",
+    "A363312",
+    "A363313",
+    "A363314"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

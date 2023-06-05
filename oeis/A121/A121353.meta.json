@@ -9,6 +9,7 @@
     "A121351"
   ],
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
@@ -16,6 +17,6 @@
   "terms": {
     "offset": 0,
     "size": 20,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

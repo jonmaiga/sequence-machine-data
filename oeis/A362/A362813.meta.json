@@ -1,0 +1,16 @@
+{
+  "description": "Number of numbers that occur more than once in column n of McGarvey's array (A007062).",
+  "id": "A362813",
+  "mentions": [
+    "A007062",
+    "A309977"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,8 @@
   "description": "Numbers whose base-4 representation contains no 2's and exactly one 3.",
   "id": "A045134",
   "mentions": [
-    "A000695"
+    "A000695",
+    "A007090"
   ],
   "tags": [
     "base",

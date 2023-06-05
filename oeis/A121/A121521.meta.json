@@ -5,12 +5,12 @@
     "A121520"
   ],
   "tags": [
-    "more",
+    "changed",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 47,
-    "source": "oeis-entry"
+    "size": 51,
+    "source": "oeis-bfile"
   }
 }

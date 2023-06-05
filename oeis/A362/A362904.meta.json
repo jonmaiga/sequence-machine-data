@@ -1,0 +1,17 @@
+{
+  "description": "Number of nonisomorphic ordered triples of involutions on a (2n)-set that pairwise commute.",
+  "id": "A362904",
+  "mentions": [
+    "A362903"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "joeis"
+  }
+}

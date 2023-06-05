@@ -1,0 +1,19 @@
+{
+  "description": "Squares (A000290) alternating with centered squares (A001844), in increasing order (i.e., sorted and without duplicates).",
+  "id": "A363282",
+  "mentions": [
+    "A000290",
+    "A001844",
+    "A363267",
+    "A363319"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

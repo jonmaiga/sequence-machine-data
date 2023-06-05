@@ -1,0 +1,19 @@
+{
+  "description": "Irregular table read by rows: T(n,k) is the smallest m that has 2*n divisors and is at the beginning of a run of exactly k consecutive integers whose number of divisors increases by 2, or -1 if no such m exists.",
+  "id": "A363335",
+  "mentions": [
+    "A000005",
+    "A294528"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

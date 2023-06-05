@@ -1,7 +1,15 @@
 {
   "description": "Number of partitions of n such that the largest part is twice the smallest part.",
   "id": "A118096",
-  "mentions": [],
+  "mentions": [
+    "A008483",
+    "A117086",
+    "A237825",
+    "A237826",
+    "A237827",
+    "A238479",
+    "A350893"
+  ],
   "tags": [
     "formulas",
     "nonn"

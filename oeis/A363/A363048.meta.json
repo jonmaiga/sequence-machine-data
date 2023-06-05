@@ -1,0 +1,28 @@
+{
+  "description": "Triangle T(n,k), n >= 0, 0 <= k <= n, read by rows, where T(n,k) is the number of partitions of n whose greatest part is a multiple of k.",
+  "id": "A363048",
+  "mentions": [
+    "A000007",
+    "A000041",
+    "A008284",
+    "A027187",
+    "A052810",
+    "A072233",
+    "A323433",
+    "A350890",
+    "A363045",
+    "A363046",
+    "A363047"
+  ],
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

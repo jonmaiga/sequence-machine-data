@@ -1,11 +1,12 @@
 {
-  "description": "Numbers n such that n^3 - prime(n) is prime.",
+  "description": "Numbers k such that k^3 - prime(k) is prime.",
   "id": "A212881",
   "mentions": [
     "A064712",
     "A212883"
   ],
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {

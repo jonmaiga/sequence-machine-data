@@ -5,12 +5,13 @@
     "A093988"
   ],
   "tags": [
+    "changed",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

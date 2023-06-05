@@ -1,5 +1,5 @@
 {
-  "description": "Number of ways n couples can sit in a row without any spouses next to each other.",
+  "description": "Number of ways n married couples can sit in a row without any spouses next to each other.",
   "id": "A007060",
   "mentions": [
     "A000166",
@@ -8,9 +8,11 @@
     "A053983",
     "A053984",
     "A114938",
-    "A177840"
+    "A177840",
+    "A229430"
   ],
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nice",

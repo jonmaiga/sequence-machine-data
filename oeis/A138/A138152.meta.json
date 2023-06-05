@@ -1,8 +1,9 @@
 {
-  "description": "A double recursive procedure that produces primes by their gaps in a triangular sequence: a(n, m) = a(n - 1, m) + 10 and a(n,m) + 2*ceiling(log(1+k)), k <= n.",
+  "description": "Triangular sequence: a(n, m) = a(n - 1, m) + 10 and a(n,m) + 2*ceiling(log(1+k)), k <= n.",
   "id": "A138152",
   "mentions": [],
   "tags": [
+    "changed",
     "formulas",
     "nonn",
     "tabf",

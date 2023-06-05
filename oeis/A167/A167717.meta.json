@@ -1,11 +1,12 @@
 {
-  "description": "Squares that becomes a prime number when prefixed with a 2.",
+  "description": "Squares that become a prime number when prefixed with a 2.",
   "id": "A167717",
   "mentions": [
     "A032665"
   ],
   "tags": [
     "base",
+    "changed",
     "nonn"
   ],
   "terms": {

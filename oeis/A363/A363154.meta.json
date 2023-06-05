@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows. The Hadamard product of A173018 and A349203.",
+  "id": "A363154",
+  "mentions": [
+    "A002944",
+    "A099946",
+    "A173018",
+    "A349203",
+    "A362990",
+    "A362994"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

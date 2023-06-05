@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the mean Euclidean distance from a point in a unit 4D cube to the faces (named B_4(1) in Bailey's paper).",
+  "description": "Decimal expansion of the mean Euclidean distance from a point in a unit 4D cube to a given vertex of the cube (named B_4(1) in Bailey's paper).",
   "id": "A254979",
   "mentions": [
     "A117653",
@@ -10,6 +10,7 @@
     "A254968"
   ],
   "tags": [
+    "changed",
     "cons",
     "easy",
     "formulas",

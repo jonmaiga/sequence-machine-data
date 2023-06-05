@@ -1,0 +1,17 @@
+{
+  "description": "a(0) = 0. a(n) = the smallest nonnegative integer, excluding a(n-1), not occurring in all occurrences of a(n-1)'s eight neighbors thus far in a square spiral.",
+  "id": "A363247",
+  "mentions": [
+    "A275609",
+    "A358048"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

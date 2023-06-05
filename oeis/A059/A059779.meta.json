@@ -1,7 +1,11 @@
 {
   "description": "A Lucas triangle: T(m,n), m >= n >= 0.",
   "id": "A059779",
-  "mentions": [],
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A127546"
+  ],
   "tags": [
     "easy",
     "formulas",

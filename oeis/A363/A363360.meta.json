@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of real number [0,1,1,0,...] formed by taking the Thue-Morse sequence (A010060) as partial quotients of a continued fraction.",
+  "id": "A363360",
+  "mentions": [
+    "A010060",
+    "A026465",
+    "A363361"
+  ],
+  "tags": [
+    "cons",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

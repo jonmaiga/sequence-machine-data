@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that if a(n) jumps over a(n) positions towards the right (landing on the integer k), the sum a(n) + k is always prime.",
+  "id": "A362962",
+  "mentions": [
+    "A182115",
+    "A230086"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

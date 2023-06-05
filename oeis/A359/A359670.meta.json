@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of coefficients T(n,k) of x^n*y^k in A(x,y), for n >= 0, k = 0..n, such that A(x,y) = 1/[Sum_{n=-oo..+oo} (-1)^n * (x*y*A(x,y) + x^n)^n].",
+  "description": "Triangle of coefficients T(n,k) of x^n*y^k in g.f. A(x,y) satisfying y = Sum_{n=-oo..+oo} (-1)^n * x^n * (y*A(x,y) + x^(n-1))^(n+1).",
   "id": "A359670",
   "mentions": [
     "A015128",
@@ -11,9 +11,21 @@
     "A359714",
     "A359715",
     "A359718",
-    "A359720"
+    "A359720",
+    "A361770",
+    "A363104",
+    "A363105",
+    "A363135",
+    "A363136",
+    "A363137",
+    "A363142",
+    "A363182",
+    "A363183",
+    "A363184",
+    "A363185"
   ],
   "tags": [
+    "changed",
     "formulas",
     "nonn",
     "tabl"

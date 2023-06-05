@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of sin(3*Pi/10) (sine of 54 degrees).",
+  "description": "Decimal expansion of sin(3*Pi/10) (sine of 54 degrees, or cosine of 36 degrees).",
   "id": "A019863",
   "mentions": [
     "A000045",
@@ -16,6 +16,7 @@
     "A239798"
   ],
   "tags": [
+    "changed",
     "cons",
     "easy",
     "formulas",

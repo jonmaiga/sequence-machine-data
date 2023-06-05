@@ -6,16 +6,17 @@
     "A000027",
     "A000041",
     "A010815",
-    "A101815",
-    "A137682"
+    "A137682",
+    "A257628"
   ],
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 90,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,9 +1,12 @@
 {
   "description": "Numbers whose base-4 representation contains exactly four 2's and four 3's.",
   "id": "A045157",
-  "mentions": [],
+  "mentions": [
+    "A007090"
+  ],
   "tags": [
     "base",
+    "changed",
     "nonn"
   ],
   "terms": {

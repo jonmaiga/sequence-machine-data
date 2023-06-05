@@ -1,0 +1,18 @@
+{
+  "description": "Smallest prime ending with all base-n digits in consecutive order.",
+  "id": "A362535",
+  "mentions": [
+    "A023811"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

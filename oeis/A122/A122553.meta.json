@@ -1,8 +1,14 @@
 {
   "description": "a(0)=1, a(n)=3 for n > 0.",
   "id": "A122553",
-  "mentions": [],
+  "mentions": [
+    "A118273",
+    "A339259",
+    "A363437",
+    "A363438"
+  ],
   "tags": [
+    "changed",
     "cofr",
     "cons",
     "easy",

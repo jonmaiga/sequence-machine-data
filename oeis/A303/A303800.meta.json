@@ -1,10 +1,11 @@
 {
-  "description": "T(n,k)=Number of nXk 0..1 arrays with every element unequal to 0, 1, 2 or 4 king-move adjacent elements, with upper left element zero.",
+  "description": "T(n,k) = Number of n X k 0..1 arrays with every element unequal to 0, 1, 2 or 4 king-move adjacent elements, with upper left element zero.",
   "id": "A303800",
   "mentions": [
     "A000079"
   ],
   "tags": [
+    "changed",
     "formulas",
     "nonn",
     "tabl"

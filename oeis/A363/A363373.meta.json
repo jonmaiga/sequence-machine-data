@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least k such that, if x_0, x_1, x_2, ... are the iterations of the arithmetic derivative A003415 starting with x_0 = k, x_0 > x_1 > ... > x_n.",
+  "id": "A363373",
+  "mentions": [
+    "A003415",
+    "A189760",
+    "A327967",
+    "A361869"
+  ],
+  "tags": [
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of e^(-2*LambertW(-log(2)/4)).",
+  "id": "A363229",
+  "mentions": [
+    "A073084",
+    "A104750"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

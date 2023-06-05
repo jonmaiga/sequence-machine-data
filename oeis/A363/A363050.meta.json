@@ -1,0 +1,16 @@
+{
+  "description": "Lesser of two consecutive integers such that one has more prime factors (counted with multiplicity), but the other has more divisors.",
+  "id": "A363050",
+  "mentions": [
+    "A000005",
+    "A001222"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

@@ -1,15 +1,16 @@
 {
-  "description": "Divisibility tournaments with odd determinants.",
+  "description": "Numbers k>3 such that the divisibility tournament on 2..k has an odd determinant.",
   "id": "A063837",
   "mentions": [
     "A057980"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 20,
+    "offset": 1,
+    "size": 48,
     "source": "oeis-entry"
   }
 }

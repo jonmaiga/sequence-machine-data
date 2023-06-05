@@ -1,0 +1,19 @@
+{
+  "description": "Array read by descending antidiagonals. A(n,k), n > 1 and k > 0, is the least m such that the number of partitions of m into n distinct prime parts is exactly k, or -1 if no such number exists.",
+  "id": "A363342",
+  "mentions": [
+    "A000586",
+    "A000607",
+    "A358010"
+  ],
+  "tags": [
+    "more",
+    "new",
+    "sign"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

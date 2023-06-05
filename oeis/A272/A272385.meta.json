@@ -7,6 +7,7 @@
     "A272368"
   ],
   "tags": [
+    "changed",
     "hard",
     "more",
     "nice",
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

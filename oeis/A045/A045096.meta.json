@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with property that in base 4 representation the numbers of 1's and 2's are 2 and 1, respectively.",
+  "description": "Numbers whose base-4 representation contains exactly two 1's and one 2.",
   "id": "A045096",
   "mentions": [
     "A007090"

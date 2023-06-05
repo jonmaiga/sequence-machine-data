@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = denominator(Sum_{j=0..2*n} Bernoulli(j, 1) * Bernoulli(2*n - j, 1)).",
+  "id": "A363152",
+  "mentions": [
+    "A027642",
+    "A164555",
+    "A363150",
+    "A363151",
+    "A363153"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

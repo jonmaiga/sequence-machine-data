@@ -1,9 +1,13 @@
 {
   "description": "Decimal expansion of 4th root of 80.",
   "id": "A011072",
-  "mentions": [],
+  "mentions": [
+    "A011003"
+  ],
   "tags": [
+    "changed",
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,10 +1,11 @@
 {
-  "description": "Number of 3Xn 0..3 arrays avoiding the pattern z-2 z-1 z in any row, column, nw-to-se diagonal or ne-to-sw antidiagonal",
+  "description": "Number of 3 X n 0..3 arrays avoiding the pattern z-2 z-1 z in any row, column, nw-to-se diagonal or ne-to-sw antidiagonal.",
   "id": "A206841",
   "mentions": [
     "A206838"
   ],
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {

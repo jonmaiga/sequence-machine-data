@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of 17/36*Zeta(4).",
+  "description": "Decimal expansion of 17/36*zeta(4).",
   "id": "A086464",
   "mentions": [
     "A073010",
@@ -7,6 +7,7 @@
     "A086463"
   ],
   "tags": [
+    "changed",
     "cons",
     "formulas",
     "nonn"

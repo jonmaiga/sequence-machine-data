@@ -9,6 +9,7 @@
     "A338197"
   ],
   "tags": [
+    "changed",
     "hard",
     "more",
     "nice",
@@ -16,7 +17,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 19,
+    "size": 21,
     "source": "oeis-entry"
   }
 }

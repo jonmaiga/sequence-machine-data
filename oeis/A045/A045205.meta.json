@@ -2,10 +2,12 @@
   "description": "Numbers whose base-5 representation contains no 0's and exactly three 4's.",
   "id": "A045205",
   "mentions": [
+    "A007091",
     "A031476"
   ],
   "tags": [
     "base",
+    "changed",
     "nonn"
   ],
   "terms": {

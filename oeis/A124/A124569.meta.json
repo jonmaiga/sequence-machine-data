@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n, n+2, n+4 and n+6 are squarefree.",
+  "description": "Numbers k such that k, k+2, k+4 and k+6 are squarefree.",
   "id": "A124569",
   "mentions": [
     "A007675",

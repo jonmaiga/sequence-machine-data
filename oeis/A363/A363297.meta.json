@@ -1,0 +1,20 @@
+{
+  "description": "Unitary weird numbers (A064114) with more unitary divisors than any smaller weird number.",
+  "id": "A363297",
+  "mentions": [
+    "A034444",
+    "A064114",
+    "A335008"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

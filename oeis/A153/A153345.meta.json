@@ -8,13 +8,14 @@
     "A055830"
   ],
   "tags": [
+    "changed",
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 65,
-    "source": "oeis-entry"
+    "size": 78,
+    "source": "joeis"
   }
 }

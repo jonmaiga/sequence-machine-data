@@ -6,13 +6,14 @@
     "A101730"
   ],
   "tags": [
+    "changed",
     "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 34,
+    "size": 37,
     "source": "oeis-entry"
   }
 }

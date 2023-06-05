@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that A064549(k) is an abundant number (A005101).",
+  "id": "A363171",
+  "mentions": [
+    "A003557",
+    "A005101",
+    "A064549",
+    "A334166",
+    "A363169",
+    "A363172"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

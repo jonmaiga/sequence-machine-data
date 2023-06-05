@@ -1,8 +1,12 @@
 {
   "description": "a(n) = bcd, where n = C(b,3)+C(c,2)+C(d,1), b>c>d>=0.",
   "id": "A014369",
-  "mentions": [],
+  "mentions": [
+    "A000217",
+    "A000292"
+  ],
   "tags": [
+    "changed",
     "easy",
     "nonn"
   ],

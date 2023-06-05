@@ -6,11 +6,12 @@
     "A064739"
   ],
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 57,
+    "size": 71,
     "source": "oeis-bfile"
   }
 }

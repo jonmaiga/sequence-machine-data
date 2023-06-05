@@ -1,0 +1,18 @@
+{
+  "description": "Number of nonisomorphic open quipus with n nodes.",
+  "id": "A363251",
+  "mentions": [
+    "A000672"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

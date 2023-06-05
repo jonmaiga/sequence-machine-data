@@ -6,17 +6,18 @@
     "A359005",
     "A359008",
     "A360593",
-    "A360594",
-    "A360595",
     "A360745",
-    "A360746"
+    "A360746",
+    "A361383",
+    "A362248"
   ],
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 81,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

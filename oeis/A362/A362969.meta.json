@@ -1,0 +1,16 @@
+{
+  "description": "Nonunitary near-perfect numbers: k such that nusigma(k) = k + d where d is a nonunitary divisor of k.",
+  "id": "A362969",
+  "mentions": [
+    "A048146",
+    "A181595"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

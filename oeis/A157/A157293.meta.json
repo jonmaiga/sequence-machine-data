@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Zeta(3)/Zeta(9).",
+  "description": "Decimal expansion of zeta(3)/zeta(9).",
   "id": "A157293",
   "mentions": [
     "A000040",
@@ -10,6 +10,7 @@
     "A157289"
   ],
   "tags": [
+    "changed",
     "cons",
     "easy",
     "formulas",

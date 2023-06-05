@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying 5 = Sum_{n=-oo..+oo} (-x)^n * (5*A(x) + x^(n-1))^(n+1).",
+  "id": "A363105",
+  "mentions": [
+    "A359670",
+    "A359711",
+    "A359712",
+    "A359713",
+    "A363104",
+    "A363185"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

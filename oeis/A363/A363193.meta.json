@@ -1,0 +1,17 @@
+{
+  "description": "a(1)=1, and thereafter a(n) = number of occurrences of a(k) among terms a(1..k), where k = n-a(n-1).",
+  "id": "A363193",
+  "mentions": [
+    "A354971"
+  ],
+  "tags": [
+    "easy",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 86,
+    "source": "oeis-bfile"
+  }
+}

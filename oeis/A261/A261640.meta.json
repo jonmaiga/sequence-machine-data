@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that both the digital sum of n is the same as the digital sum of n^2 in both base 2 and base 10.",
+  "description": "Numbers n such that the digital sum of n is the same as the digital sum of n^2 in both base 2 and base 10.",
   "id": "A261640",
   "mentions": [
     "A000120",
@@ -9,6 +9,7 @@
   ],
   "tags": [
     "base",
+    "changed",
     "nonn"
   ],
   "terms": {

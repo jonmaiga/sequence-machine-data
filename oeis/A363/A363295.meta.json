@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k and k+20 are consecutive unitary weird numbers (A064114).",
+  "id": "A363295",
+  "mentions": [
+    "A064114",
+    "A306952",
+    "A363296"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,9 +2,12 @@
   "description": "Numerator of Sum i/2^i, i=1..n.",
   "id": "A036295",
   "mentions": [
+    "A000265",
+    "A000295",
     "A036296"
   ],
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "frac",

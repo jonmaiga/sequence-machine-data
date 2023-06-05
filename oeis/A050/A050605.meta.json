@@ -11,12 +11,13 @@
     "A161737"
   ],
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 81,
+    "size": 88,
     "source": "joeis"
   }
 }

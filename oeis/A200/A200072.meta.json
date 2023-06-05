@@ -1,7 +1,10 @@
 {
-  "description": "Numbers n such that the sum of the prime distinct divisors of n^2+1 equals 2 times the largest prime divisor.",
+  "description": "Numbers k such that the sum of the prime distinct divisors of k^2+1 equals 2 times the largest prime divisor of k^2+1.",
   "id": "A200072",
   "mentions": [
+    "A002522",
+    "A014442",
+    "A193462",
     "A200071"
   ],
   "tags": [
@@ -10,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 33,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies A(x) = exp( 2 * Sum_{k>=1} A(-x^k) * x^k/k ).",
+  "id": "A363470",
+  "mentions": [
+    "A000151",
+    "A200438",
+    "A363471"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

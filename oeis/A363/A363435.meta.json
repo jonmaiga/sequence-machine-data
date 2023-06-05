@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of [2n] having exactly n blocks with all elements of the same parity.",
+  "id": "A363435",
+  "mentions": [
+    "A124424",
+    "A363434",
+    "A363451"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

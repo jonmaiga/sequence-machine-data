@@ -1,10 +1,12 @@
 {
-  "description": "Sum_{k=1..n} {floor(sqrt(k))^2}.",
+  "description": "a(n) = Sum_{k=0..n} floor(sqrt(k))^2.",
   "id": "A174060",
   "mentions": [
+    "A022554",
     "A048760"
   ],
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"

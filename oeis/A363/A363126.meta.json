@@ -1,0 +1,41 @@
+{
+  "description": "Irregular triangle read by rows where T(n,k) is the number of integer partitions of n with k non-modes, all 0's removed.",
+  "id": "A363126",
+  "mentions": [
+    "A000041",
+    "A000196",
+    "A002865",
+    "A008284",
+    "A047966",
+    "A053263",
+    "A058398",
+    "A098859",
+    "A237984",
+    "A238478",
+    "A275870",
+    "A327472",
+    "A353836",
+    "A353863",
+    "A353864",
+    "A359893",
+    "A362611",
+    "A362612",
+    "A362613",
+    "A362614",
+    "A362615",
+    "A363124",
+    "A363125",
+    "A363127",
+    "A363130",
+    "A363131"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

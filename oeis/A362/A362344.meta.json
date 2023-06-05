@@ -1,0 +1,17 @@
+{
+  "description": "Maximum number of distinct real roots of degree-n polynomial with coefficients 0,1.",
+  "id": "A362344",
+  "mentions": [
+    "A090735",
+    "A090736"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -6,15 +6,17 @@
     "A005232",
     "A006148",
     "A006380",
-    "A006381"
+    "A006381",
+    "A363349"
   ],
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 30,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

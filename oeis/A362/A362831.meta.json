@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n into two distinct parts (s,t) such that pi(s) = pi(t).",
+  "id": "A362831",
+  "mentions": [
+    "A000720",
+    "A362721"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

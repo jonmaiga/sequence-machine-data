@@ -1,0 +1,20 @@
+{
+  "description": "Product_{n>=1} (1 + a(n)*x^n) = 1 + 1!!*x + 3!!*x^2 + 5!!*x^3 + 7!!*x^4 + ...",
+  "id": "A363254",
+  "mentions": [
+    "A001147",
+    "A158094",
+    "A305868",
+    "A305870",
+    "A363255"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

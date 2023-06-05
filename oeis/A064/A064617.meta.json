@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (10^n-1)*(80/81)+n/9.",
+  "description": "a(n) = (10^n - 1)*(80/81) + n/9.",
   "id": "A064617",
   "mentions": [
     "A002275",
@@ -8,13 +8,14 @@
   ],
   "tags": [
     "base",
+    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 21,
     "source": "oeis-bfile"
   }
 }

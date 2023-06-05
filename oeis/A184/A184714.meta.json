@@ -5,11 +5,12 @@
     "A184720"
   ],
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 29,
+    "size": 31,
     "source": "joeis"
   }
 }

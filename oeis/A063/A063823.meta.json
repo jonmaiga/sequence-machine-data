@@ -1,14 +1,16 @@
 {
-  "description": "G.f.: (1-2*x^2-3*x^3)/((1-x^3)*(1-2*x))",
+  "description": "Expansion of g.f. (1 - 2*x^2 - 3*x^3)/((1 - x^3)*(1 - 2*x)).",
   "id": "A063823",
   "mentions": [],
   "tags": [
+    "changed",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 34,
+    "size": 37,
     "source": "joeis"
   }
 }

@@ -2,8 +2,11 @@
   "description": "Isolated primes: Primes p such that there is no other prime in the interval [2*prevprime(p/2), 2*nextprime(p/2)].",
   "id": "A166251",
   "mentions": [
+    "A000040",
+    "A020900",
     "A080359",
     "A100484",
+    "A102820",
     "A104272",
     "A164288",
     "A164294",
@@ -11,9 +14,13 @@
     "A164368",
     "A166252",
     "A166307",
-    "A182426"
+    "A182365",
+    "A182426",
+    "A290183"
   ],
   "tags": [
+    "changed",
+    "easy",
     "nonn"
   ],
   "terms": {

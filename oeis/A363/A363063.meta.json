@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers k such that the largest power of p dividing k is larger than or equal to the largest power of q dividing k (i.e., A305720(k,p) >= A305720(k,q)) for all primes p and q with p < q.",
+  "id": "A363063",
+  "mentions": [
+    "A087980",
+    "A181818",
+    "A305720",
+    "A347284",
+    "A363098"
+  ],
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

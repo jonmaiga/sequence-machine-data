@@ -1,5 +1,5 @@
 {
-  "description": "Least prime p of the form c3^n+1 with c not divisible by 3.",
+  "description": "Least prime p of the form c*3^n+1 with c not divisible by 3.",
   "id": "A137990",
   "mentions": [
     "A005109",

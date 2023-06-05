@@ -6,6 +6,7 @@
     "A101408"
   ],
   "tags": [
+    "changed",
     "easy",
     "less",
     "nonn"
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 37,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

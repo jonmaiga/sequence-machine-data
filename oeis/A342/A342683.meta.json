@@ -2,12 +2,14 @@
   "description": "Decimal expansion of 1/zeta(8).",
   "id": "A342683",
   "mentions": [
+    "A008683",
     "A013666",
     "A059956",
     "A215267",
     "A343359"
   ],
   "tags": [
+    "changed",
     "cons",
     "formulas",
     "nonn"

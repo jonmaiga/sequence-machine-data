@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions p of n such that (1/5)*max(p) is a part of p.",
+  "id": "A363068",
+  "mentions": [
+    "A002865",
+    "A237827",
+    "A238479",
+    "A363047",
+    "A363066",
+    "A363067"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Number of permutations p of [n] such that for each i in [n] we have: (i>1) and |p(i)-p(i-1)| = 1 or (i",
+  "id": "A363181",
+  "mentions": [
+    "A002464",
+    "A003274",
+    "A011655",
+    "A095816",
+    "A127697",
+    "A179957",
+    "A229730",
+    "A271212",
+    "A303586",
+    "A333833",
+    "A346462",
+    "A363236"
+  ],
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Least k > 0 such that the first n digits of 2^k and 3^k are identical.",
+  "id": "A359698",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A088995"
+  ],
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

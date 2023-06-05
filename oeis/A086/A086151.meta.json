@@ -8,13 +8,13 @@
   ],
   "tags": [
     "base",
+    "changed",
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 44,
+    "size": 49,
     "source": "oeis-entry"
   }
 }

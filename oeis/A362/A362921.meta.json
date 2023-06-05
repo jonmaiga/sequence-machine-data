@@ -1,0 +1,18 @@
+{
+  "description": "The Dekking-van-Loon-canonical base-phi representation of n described in A362917 written as a binary string, omitting the dot.",
+  "id": "A362921",
+  "mentions": [
+    "A341722",
+    "A362917"
+  ],
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

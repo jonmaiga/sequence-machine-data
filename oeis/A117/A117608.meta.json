@@ -1,5 +1,5 @@
 {
-  "description": "Let p be an element of A110028, the set of all primes that have prime digits, a prime number of digits and whose digits sum to a prime. Let L(p) be the sorted list of digits of p and let LL be the set of all L(p) with duplicates removed and ordered lexicographically. Then a(n) is the first element of A110028 such that L(a(n))=LL(n).",
+  "description": "Let p be an element of A110028. Let L(p) be the sorted list of digits of p and let LL be the set of all L(p) with duplicates removed and ordered lexicographically. Then a(n) is the first element of A110028 such that L(a(n))=LL(n).",
   "id": "A117608",
   "mentions": [
     "A000040",
@@ -8,12 +8,13 @@
   ],
   "tags": [
     "base",
+    "changed",
     "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
-    "source": "oeis-entry"
+    "size": 37,
+    "source": "oeis-bfile"
   }
 }

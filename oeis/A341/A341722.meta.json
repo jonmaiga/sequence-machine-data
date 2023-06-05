@@ -1,5 +1,5 @@
 {
-  "description": "The part of n in base phi right of the decimal point (reversed), using a greedy algorithm representation.",
+  "description": "The part of n in base phi right of the decimal point (reversed), using a greedy algorithm representation (more precisely, using the Bergman-canonical representation).",
   "id": "A341722",
   "mentions": [
     "A105424",

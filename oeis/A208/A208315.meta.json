@@ -1,10 +1,11 @@
 {
-  "description": "Number of n X n 0..2 arrays with new values 0..2 introduced in row major order and no element equal to more than two of its immediate leftward or upward or left-upward diagonal neighbors",
+  "description": "Number of n X n 0..2 arrays with new values 0..2 introduced in row major order and no element equal to more than two of its immediate leftward or upward or left-upward diagonal neighbors.",
   "id": "A208315",
   "mentions": [
     "A208322"
   ],
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {

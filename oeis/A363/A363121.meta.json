@@ -1,0 +1,18 @@
+{
+  "description": "Primitive terms of A116882: terms k of A116882 such that k/2 is not a term of A116882.",
+  "id": "A363121",
+  "mentions": [
+    "A070941",
+    "A116882"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

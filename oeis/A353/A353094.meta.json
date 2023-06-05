@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 2; for n>1, a(n) = 3 * a(n-1) + 3 - n.",
+  "description": "a(1) = 2; for n > 1, a(n) = 3*a(n-1) + 3 - n.",
   "id": "A353094",
   "mentions": [
     "A000340",
@@ -12,6 +12,7 @@
     "A353100"
   ],
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"

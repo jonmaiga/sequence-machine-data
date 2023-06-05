@@ -1,0 +1,19 @@
+{
+  "description": "Sums of distinct factorials that are of the form x^2 - 1.",
+  "id": "A363212",
+  "mentions": [
+    "A005563",
+    "A014597",
+    "A059590"
+  ],
+  "tags": [
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

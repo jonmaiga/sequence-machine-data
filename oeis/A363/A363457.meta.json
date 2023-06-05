@@ -1,0 +1,21 @@
+{
+  "description": "Positions of products of distinct primorial numbers (A129912) in the sequence of products of primorial numbers (A025487).",
+  "id": "A363457",
+  "mentions": [
+    "A002110",
+    "A025487",
+    "A051282",
+    "A129912",
+    "A363455"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

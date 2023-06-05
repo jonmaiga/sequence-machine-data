@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least prime p for which (p-1)*phi(p^n) is a nontotient, where phi is the Euler totient function (A000010).",
+  "id": "A363371",
+  "mentions": [
+    "A000010",
+    "A002202",
+    "A005277",
+    "A361058"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

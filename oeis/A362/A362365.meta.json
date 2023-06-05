@@ -1,0 +1,18 @@
+{
+  "description": "The sum of the coefficients of x^k in the expansion of (x + x^2 + x^3 + x^4 + x^5 + x^6)^n with k divisible by 4.",
+  "id": "A362365",
+  "mentions": [
+    "A000400",
+    "A009116"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "joeis"
+  }
+}

@@ -11,15 +11,17 @@
     "A046125",
     "A056987",
     "A351664",
-    "A351666"
+    "A351680"
   ],
   "tags": [
+    "changed",
     "fini",
+    "full",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 41,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = gcd(A000041(n), A000009(n)).",
+  "id": "A363252",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A051177",
+    "A056848",
+    "A093952",
+    "A304991"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -7,13 +7,13 @@
     "A362819"
   ],
   "tags": [
+    "changed",
     "formulas",
-    "new",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 23,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

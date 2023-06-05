@@ -1,0 +1,16 @@
+{
+  "description": "Number of partitions of n into 2 distinct perfect powers (A001597).",
+  "id": "A362424",
+  "mentions": [
+    "A001597",
+    "A362425"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 92,
+    "source": "oeis-entry"
+  }
+}

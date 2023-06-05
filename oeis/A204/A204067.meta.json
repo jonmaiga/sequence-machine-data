@@ -2,11 +2,15 @@
   "description": "Decimal expansion of the Fresnel Integral, Integral_{x >= 0} cos(x^3) dx.",
   "id": "A204067",
   "mentions": [
+    "A010469",
     "A019670",
+    "A073005",
     "A073006",
+    "A204068",
     "A217481"
   ],
   "tags": [
+    "changed",
     "cons",
     "easy",
     "formulas",

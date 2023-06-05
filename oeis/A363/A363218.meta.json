@@ -1,0 +1,37 @@
+{
+  "description": "Positive integers whose prime indices satisfy: (length) = 2*(maximum).",
+  "id": "A363218",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A035363",
+    "A056239",
+    "A061395",
+    "A067801",
+    "A106529",
+    "A112798",
+    "A118096",
+    "A237752",
+    "A237753",
+    "A237757",
+    "A324521",
+    "A326567",
+    "A326568",
+    "A344415",
+    "A361855",
+    "A361908",
+    "A361909",
+    "A363134",
+    "A363222"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

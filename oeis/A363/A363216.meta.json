@@ -1,0 +1,27 @@
+{
+  "description": "Even powerful numbers that are not prime powers.",
+  "id": "A363216",
+  "mentions": [
+    "A001694",
+    "A002117",
+    "A005843",
+    "A013661",
+    "A013664",
+    "A062739",
+    "A082695",
+    "A126706",
+    "A286708",
+    "A363101",
+    "A363217"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

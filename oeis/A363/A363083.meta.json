@@ -1,0 +1,21 @@
+{
+  "description": "a(0)=a(1)=1. For n>1, if the number of occurrences of a(n-1) is less than abs(a(n-1)), then a(n)=a(n-1)-a(n-2). Otherwise, a(n)=a(n-1)+a(n-2).",
+  "id": "A363083",
+  "mentions": [
+    "A329985",
+    "A362746",
+    "A362890",
+    "A363086"
+  ],
+  "tags": [
+    "changed",
+    "easy",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

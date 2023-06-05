@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of the volume of the regular tetrahedron inscribed in the unit-radius sphere.",
+  "id": "A363437",
+  "mentions": [
+    "A020781",
+    "A020829",
+    "A118273",
+    "A122553",
+    "A137914",
+    "A156546",
+    "A187110",
+    "A210974",
+    "A232812",
+    "A236555",
+    "A339259",
+    "A363438"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

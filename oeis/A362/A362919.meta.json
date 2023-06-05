@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the right portion (reversed) of the base-phi representation of n in Knott's representation which uses the least number of 0's, the most 1's, and in which the right-hand portion is finite.",
+  "id": "A362919",
+  "mentions": [
+    "A105424",
+    "A118240",
+    "A362920"
+  ],
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

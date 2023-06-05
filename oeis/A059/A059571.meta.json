@@ -7,11 +7,12 @@
     "A059581"
   ],
   "tags": [
+    "changed",
     "sign"
   ],
   "terms": {
     "offset": 1,
     "size": 93,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

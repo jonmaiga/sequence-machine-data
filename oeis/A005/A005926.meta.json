@@ -2,7 +2,8 @@
   "description": "Theta series of diamond with respect to midpoint of edge.",
   "id": "A005926",
   "mentions": [
-    "A045840"
+    "A045840",
+    "A217513"
   ],
   "tags": [
     "easy",

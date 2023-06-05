@@ -19,12 +19,13 @@
     "A319790"
   ],
   "tags": [
-    "more",
+    "changed",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 11,
-    "source": "oeis-entry"
+    "size": 31,
+    "source": "oeis-bfile"
   }
 }

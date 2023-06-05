@@ -1,8 +1,10 @@
 {
-  "description": "Numbers n such that A000118(n) is a record. Number of ways of writing n as a sum of 4 squares is a record.",
+  "description": "Numbers k such that A000118(k) is a record.",
   "id": "A128689",
   "mentions": [
     "A000118",
+    "A002093",
+    "A042968",
     "A128690"
   ],
   "tags": [
@@ -10,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 29,
-    "source": "oeis-entry"
+    "size": 55,
+    "source": "oeis-bfile"
   }
 }

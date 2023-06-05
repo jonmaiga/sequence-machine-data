@@ -1,0 +1,17 @@
+{
+  "description": "Number of free linear polycubes of size n, identifying rotations and reflections and avoiding neighbors at [0,0,+-2], [0,+-2,0], and [+-2,0,0].",
+  "id": "A363203",
+  "mentions": [
+    "A363204"
+  ],
+  "tags": [
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

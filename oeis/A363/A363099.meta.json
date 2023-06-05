@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k) in which the n-th row encodes the inverse of a 3n+1 X 3n+1 Jacobi matrix, with 1's on the lower, main, and upper diagonals in GF(2), where the encoding consists of the decimal representations for the binary rows (n >= 1, 1 <= k <= 3n+1).",
+  "id": "A363099",
+  "mentions": [
+    "A010701",
+    "A038184",
+    "A083713",
+    "A204623",
+    "A245599",
+    "A363146"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "new",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

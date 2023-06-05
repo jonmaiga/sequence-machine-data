@@ -1,0 +1,19 @@
+{
+  "description": "Number of 3-dimensional directed animals of size n.",
+  "id": "A363090",
+  "mentions": [
+    "A001931",
+    "A005773"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

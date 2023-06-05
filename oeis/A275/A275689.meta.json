@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of 3*Zeta(3)/(4*log(2)).",
+  "description": "Decimal expansion of 3*zeta(3)/(4*log(2)).",
   "id": "A275689",
   "mentions": [
     "A002162",
@@ -7,6 +7,7 @@
     "A197070"
   ],
   "tags": [
+    "changed",
     "cons",
     "formulas",
     "nonn"

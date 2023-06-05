@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of [2n] with n parity changes.",
+  "id": "A363180",
+  "mentions": [
+    "A152874",
+    "A363236"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-bfile"
+  }
+}

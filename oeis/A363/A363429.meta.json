@@ -1,0 +1,21 @@
+{
+  "description": "Number of set partitions of [n] such that each block has at most one even element.",
+  "id": "A363429",
+  "mentions": [
+    "A000110",
+    "A110132",
+    "A124421",
+    "A134980",
+    "A363430"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,8 @@
   "description": "a(n) = 6*n^2 + 12*n.",
   "id": "A067726",
   "mentions": [
+    "A003154",
+    "A003215",
     "A005563",
     "A028347",
     "A028560",
@@ -12,6 +14,7 @@
     "A067728"
   ],
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"

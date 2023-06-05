@@ -7,12 +7,13 @@
     "A081457"
   ],
   "tags": [
+    "changed",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 99,
+    "size": 91,
     "source": "oeis-entry"
   }
 }

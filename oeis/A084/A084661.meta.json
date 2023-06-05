@@ -2,7 +2,7 @@
   "description": "Numbers k such that k + sum_of_digits(k) is a cube.",
   "id": "A084661",
   "mentions": [
-    "A007953",
+    "A062028",
     "A066564"
   ],
   "tags": [

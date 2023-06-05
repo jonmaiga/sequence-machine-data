@@ -5,11 +5,12 @@
     "A167770"
   ],
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 76,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

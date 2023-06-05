@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest x such that number of non-unitary prime divisors of central binomial coefficient, A001405(x)=C(x,floor(x/2)) equals n.",
+  "description": "a(n) is the smallest k such that number of non-unitary prime divisors of central binomial coefficient, A001405(k) = C(k, floor(k/2)) equals n.",
   "id": "A081394",
   "mentions": [
     "A001405",
@@ -10,12 +10,11 @@
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 20,
+    "size": 47,
     "source": "oeis-entry"
   }
 }

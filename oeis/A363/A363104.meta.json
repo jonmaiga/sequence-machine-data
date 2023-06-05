@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying 4 = Sum_{n=-oo..+oo} (-x)^n * (4*A(x) + x^(n-1))^(n+1).",
+  "id": "A363104",
+  "mentions": [
+    "A359670",
+    "A359711",
+    "A359712",
+    "A359713",
+    "A363105",
+    "A363184"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

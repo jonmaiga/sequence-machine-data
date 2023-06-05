@@ -1,0 +1,21 @@
+{
+  "description": "Primitive abundant numbers (A071395) that are cubefull numbers (A036966).",
+  "id": "A363177",
+  "mentions": [
+    "A036966",
+    "A036967",
+    "A071395",
+    "A091191",
+    "A306797",
+    "A363169",
+    "A363175"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

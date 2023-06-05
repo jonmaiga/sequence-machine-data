@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of [n] where each block size occurs at most twice.",
+  "id": "A360182",
+  "mentions": [
+    "A000110",
+    "A007837",
+    "A114917",
+    "A115275",
+    "A271423"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

@@ -7,6 +7,7 @@
     "A001906",
     "A030191",
     "A081574",
+    "A081575",
     "A094435",
     "A094436",
     "A094437",
@@ -20,6 +21,7 @@
     "A132148"
   ],
   "tags": [
+    "changed",
     "formulas",
     "nonn",
     "tabl"
@@ -27,6 +29,6 @@
   "terms": {
     "offset": 1,
     "size": 66,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

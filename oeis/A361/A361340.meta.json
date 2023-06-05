@@ -2,6 +2,7 @@
   "description": "a(n) = smallest number with the property that the split-and-multiply technique (see A361338) in base n can produce all n single-digit numbers.",
   "id": "A361340",
   "mentions": [
+    "A000010",
     "A361337",
     "A361338",
     "A361349"
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 2,
     "size": 40,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

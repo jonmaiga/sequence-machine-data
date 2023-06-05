@@ -1,0 +1,20 @@
+{
+  "description": "Total number of blocks having elements of the same parity in all partitions of [n].",
+  "id": "A363434",
+  "mentions": [
+    "A000035",
+    "A124424",
+    "A363435",
+    "A363451"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

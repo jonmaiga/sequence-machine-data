@@ -2,9 +2,14 @@
   "description": "Decimal expansion of common logarithm of e.",
   "id": "A002285",
   "mentions": [
-    "A002392"
+    "A001008",
+    "A002392",
+    "A002805",
+    "A114467",
+    "A114468"
   ],
   "tags": [
+    "changed",
     "cons",
     "formulas",
     "nonn"

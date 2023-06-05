@@ -7,13 +7,14 @@
     "A082137"
   ],
   "tags": [
+    "changed",
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 53,
-    "source": "oeis-entry"
+    "size": 55,
+    "source": "joeis"
   }
 }

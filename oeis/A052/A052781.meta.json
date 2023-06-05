@@ -1,11 +1,16 @@
 {
-  "description": "A simple grammar.",
+  "description": "G.f. A(x) satisfies: A(x) = exp( Sum_{k>=1} A(x^k)^5 * x^k / k ).",
   "id": "A052781",
   "mentions": [
+    "A005750",
+    "A052751",
+    "A052773",
     "A052788"
   ],
   "tags": [
+    "changed",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

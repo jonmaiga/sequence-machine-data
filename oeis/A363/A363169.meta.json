@@ -1,0 +1,22 @@
+{
+  "description": "Powerful abundant numbers: numbers that are both powerful (A001694) and abundant (A005101).",
+  "id": "A363169",
+  "mentions": [
+    "A001694",
+    "A005101",
+    "A180114",
+    "A307959",
+    "A328136",
+    "A356871",
+    "A363170",
+    "A363171"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-bfile"
+  }
+}

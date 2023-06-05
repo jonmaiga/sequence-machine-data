@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of g.f. C(x*C(x)^3), where C(x) = 1 + x*C(x)^2 is the g.f. of the Catalan numbers (A000108).",
+  "id": "A363308",
+  "mentions": [
+    "A000108",
+    "A000245",
+    "A033296",
+    "A127632",
+    "A153294",
+    "A363111",
+    "A363309"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

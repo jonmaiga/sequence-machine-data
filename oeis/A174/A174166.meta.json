@@ -5,11 +5,12 @@
     "A002808"
   ],
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 61,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

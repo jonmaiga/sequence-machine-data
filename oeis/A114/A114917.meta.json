@@ -3,14 +3,16 @@
   "id": "A114917",
   "mentions": [
     "A000110",
-    "A007690"
+    "A007690",
+    "A360182"
   ],
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 24,
-    "source": "oeis-entry"
+    "size": 26,
+    "source": "oeis-bfile"
   }
 }

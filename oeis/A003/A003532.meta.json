@@ -3,6 +3,7 @@
   "id": "A003532",
   "mentions": [],
   "tags": [
+    "changed",
     "easy",
     "fini",
     "full",
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 45,
+    "size": 52,
     "source": "oeis-bfile"
   }
 }

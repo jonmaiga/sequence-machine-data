@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of 1 / Sum_{k>=0} x^(k*(3*k - 2)).",
+  "id": "A363275",
+  "mentions": [
+    "A000567",
+    "A106507",
+    "A195848",
+    "A308806",
+    "A317665",
+    "A322800",
+    "A361979",
+    "A363149"
+  ],
+  "tags": [
+    "new",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

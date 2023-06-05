@@ -1,0 +1,29 @@
+{
+  "description": "Decimal expansion of the volume of the regular dodecahedron inscribed in the unit-radius sphere.",
+  "id": "A363438",
+  "mentions": [
+    "A001622",
+    "A102769",
+    "A118273",
+    "A122553",
+    "A131595",
+    "A179296",
+    "A232810",
+    "A237603",
+    "A239798",
+    "A339259",
+    "A341906",
+    "A363437"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

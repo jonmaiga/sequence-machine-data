@@ -1,0 +1,20 @@
+{
+  "description": "Bisection of Chebyshev {S(n, 5)}_{n>=0}; the even part.",
+  "id": "A362357",
+  "mentions": [
+    "A004254",
+    "A049310",
+    "A097778"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "joeis"
+  }
+}

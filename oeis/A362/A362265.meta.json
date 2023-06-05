@@ -1,0 +1,21 @@
+{
+  "description": "Indices m for which A362363(m) = 0, meaning the large spiral point in A362249 falls on the East base spiral.",
+  "id": "A362265",
+  "mentions": [
+    "A000290",
+    "A001844",
+    "A002061",
+    "A362249",
+    "A362363"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

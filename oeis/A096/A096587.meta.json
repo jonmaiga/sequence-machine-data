@@ -1,19 +1,21 @@
 {
-  "description": "Triangle read by rows: T(n,k)=number of Catalan knight paths in Quadrant I from (0,0) to (n,k). A Catalan knight moves (1 right and 2 up) or (1 right and 2 down) or (2 right and 1 up) or (2 right and 1 down).",
+  "description": "Triangle read by rows: T(n,k)=number of Catalan knight paths in Quadrant I from (0,0) to (n,k), for 0 <= k <= 2*n, n >= 0. A Catalan knight moves (1 right and 2 up) or (1 right and 2 down) or (2 right and 1 up) or (2 right and 1 down).",
   "id": "A096587",
   "mentions": [
-    "A005201",
     "A005220",
-    "A096588"
+    "A005221",
+    "A096588",
+    "A096608"
   ],
   "tags": [
+    "changed",
     "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 87,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

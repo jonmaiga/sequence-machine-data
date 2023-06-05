@@ -3,9 +3,12 @@
   "id": "A152257",
   "mentions": [
     "A002452",
-    "A003462"
+    "A003462",
+    "A007051",
+    "A238976"
   ],
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"

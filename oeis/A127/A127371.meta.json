@@ -1,5 +1,5 @@
 {
-  "description": "Triangle, row sums = n, left column = d(n).",
+  "description": "Triangle read by rows: A051731 * A054521, as infinite lower triangular matrices.",
   "id": "A127371",
   "mentions": [
     "A000005",
@@ -7,13 +7,14 @@
     "A054521"
   ],
   "tags": [
+    "changed",
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 57,
-    "source": "oeis-entry"
+    "size": 78,
+    "source": "joeis"
   }
 }

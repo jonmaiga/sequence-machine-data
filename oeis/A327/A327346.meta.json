@@ -1,5 +1,5 @@
 {
-  "description": "The 74 prime dates of each year of the form concatenate(day,month) without leading zeros for month (and day).",
+  "description": "The 74 prime dates of each year of the form concatenate(day,month) without leading zeros for month (and day), sorted by date, including duplicates.",
   "id": "A327346",
   "mentions": [
     "A030430",
@@ -14,6 +14,7 @@
     "A327915"
   ],
   "tags": [
+    "changed",
     "easy",
     "fini",
     "full",

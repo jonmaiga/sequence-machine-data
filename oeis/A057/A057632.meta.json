@@ -1,13 +1,18 @@
 {
   "description": "Initial prime in first sequence of n primes congruent to 3 modulo 8.",
   "id": "A057632",
-  "mentions": [],
+  "mentions": [
+    "A057624",
+    "A363017"
+  ],
   "tags": [
+    "changed",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

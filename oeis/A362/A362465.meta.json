@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the least number of 2 or more consecutive signed primes whose sum equals n.",
+  "id": "A362465",
+  "mentions": [
+    "A000040",
+    "A000230",
+    "A001223",
+    "A001632",
+    "A034961",
+    "A034964",
+    "A127334",
+    "A127336",
+    "A127338",
+    "A362466"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -4,16 +4,19 @@
   "mentions": [
     "A000217",
     "A000292",
-    "A000579"
+    "A000579",
+    "A004302"
   ],
   "tags": [
+    "changed",
     "easy",
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 45,
+    "size": 55,
     "source": "oeis-entry"
   }
 }

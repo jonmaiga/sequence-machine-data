@@ -10,12 +10,13 @@
     "A356711"
   ],
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
+    "size": 35,
     "source": "oeis-entry"
   }
 }

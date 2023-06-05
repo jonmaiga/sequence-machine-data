@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k that divide Sum_{i=1..k} (i - d(i)), where d(n) is the number of divisors of n (A000005).",
+  "id": "A362864",
+  "mentions": [
+    "A000005",
+    "A000217",
+    "A006218",
+    "A049820",
+    "A050226",
+    "A161664"
+  ],
+  "tags": [
+    "changed",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

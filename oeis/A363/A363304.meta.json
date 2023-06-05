@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A(x) = 1 + x*(A(x)^4 + A(x)^7).",
+  "id": "A363304",
+  "mentions": [
+    "A027307",
+    "A363111",
+    "A363311"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

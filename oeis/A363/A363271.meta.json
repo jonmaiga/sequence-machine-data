@@ -1,0 +1,18 @@
+{
+  "description": "Vertical sum of n in base 10.",
+  "id": "A363271",
+  "mentions": [
+    "A021085",
+    "A089400"
+  ],
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

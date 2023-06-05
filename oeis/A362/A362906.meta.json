@@ -1,0 +1,19 @@
+{
+  "description": "Number of n element multisets of length 3 vectors over GF(2) that sum to zero.",
+  "id": "A362906",
+  "mentions": [
+    "A006381",
+    "A362905"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 37,
+    "source": "joeis"
+  }
+}

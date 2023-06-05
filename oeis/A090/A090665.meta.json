@@ -1,14 +1,16 @@
 {
-  "description": "Triangle read by rows: T(n,k) = number of preferential arrangements of n things beginning with k.",
+  "description": "Triangle read by rows: T(n,k) = number of preferential arrangements of n things where the first object has rank k.",
   "id": "A090665",
   "mentions": [
     "A000629",
     "A000670",
     "A008277",
     "A028246",
-    "A054255"
+    "A054255",
+    "A084416"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],

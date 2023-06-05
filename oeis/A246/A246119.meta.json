@@ -13,6 +13,7 @@
     "A298206"
   ],
   "tags": [
+    "changed",
     "formulas",
     "hard",
     "more",
@@ -20,7 +21,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

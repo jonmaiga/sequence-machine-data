@@ -1,13 +1,21 @@
 {
-  "description": "a(n) = sum of absolute-valued coefficients of (1+2x-2x^2)^n.",
+  "description": "a(n) = sum of absolute-valued coefficients of (1+2*x-2*x^2)^n.",
   "id": "A084777",
-  "mentions": [],
+  "mentions": [
+    "A084775",
+    "A084776",
+    "A084778",
+    "A084779",
+    "A084780"
+  ],
   "tags": [
+    "changed",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 24,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

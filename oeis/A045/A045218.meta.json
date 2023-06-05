@@ -1,7 +1,9 @@
 {
   "description": "Numbers whose base-5 representation contains no 1's and exactly one 2.",
   "id": "A045218",
-  "mentions": [],
+  "mentions": [
+    "A007091"
+  ],
   "tags": [
     "base",
     "nonn"

@@ -2,6 +2,7 @@
   "description": "The number of primes between two consecutive lucky primes, bounds excluded.",
   "id": "A309333",
   "mentions": [
+    "A000959",
     "A031157",
     "A176559",
     "A309334"
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 86,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

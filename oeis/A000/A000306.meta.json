@@ -5,12 +5,11 @@
     "A034853"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 9,
-    "size": 21,
-    "source": "joeis"
+    "size": 32,
+    "source": "oeis-bfile"
   }
 }

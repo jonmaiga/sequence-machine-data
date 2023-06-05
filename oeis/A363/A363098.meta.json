@@ -1,0 +1,17 @@
+{
+  "description": "Primitive terms of A363063.",
+  "id": "A363098",
+  "mentions": [
+    "A347284",
+    "A363063"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

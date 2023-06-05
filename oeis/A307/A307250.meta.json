@@ -1,5 +1,5 @@
 {
-  "description": "Primes q == 1 (mod 4) such that there is one equivalence class of quaternary quadratic forms of discriminant q not representing 2.",
+  "description": "Primes q == 1 (mod 4) such that there is exactly one equivalence class of quaternary quadratic forms of discriminant q not representing 2.",
   "id": "A307250",
   "mentions": [],
   "tags": [

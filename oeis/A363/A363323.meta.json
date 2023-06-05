@@ -1,0 +1,25 @@
+{
+  "description": "Total number of parts coprime to n in the partitions of n into 5 parts.",
+  "id": "A363323",
+  "mentions": [
+    "A000010",
+    "A363278",
+    "A363322",
+    "A363324",
+    "A363325",
+    "A363326",
+    "A363327",
+    "A363328"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions p of n such that (1/4)*max(p) is a part of p.",
+  "id": "A363067",
+  "mentions": [
+    "A002865",
+    "A237826",
+    "A238479",
+    "A363046",
+    "A363066",
+    "A363068"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

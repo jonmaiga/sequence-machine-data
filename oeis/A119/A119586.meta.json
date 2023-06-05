@@ -1,5 +1,5 @@
 {
-  "description": "Triangle where a(n,m) = (n+1-m)th positive integer with (m+1) divisors.",
+  "description": "Triangle where T(n,m) = (n+1-m)-th positive integer with (m+1) divisors.",
   "id": "A119586",
   "mentions": [
     "A000040",
@@ -12,19 +12,12 @@
     "A030626",
     "A030627",
     "A030628",
-    "A030629",
-    "A030630",
-    "A030631",
-    "A030632",
-    "A030633",
-    "A030634",
-    "A030635",
-    "A030636",
-    "A030637",
-    "A030638",
-    "A073915"
+    "A073915",
+    "A091538",
+    "A161574"
   ],
   "tags": [
+    "changed",
     "nonn",
     "tabl"
   ],

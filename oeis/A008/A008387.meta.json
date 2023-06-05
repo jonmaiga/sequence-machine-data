@@ -1,8 +1,11 @@
 {
   "description": "Coordination sequence for A_6 lattice.",
   "id": "A008387",
-  "mentions": [],
+  "mentions": [
+    "A103881"
+  ],
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"

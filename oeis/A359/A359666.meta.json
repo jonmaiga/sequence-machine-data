@@ -1,0 +1,18 @@
+{
+  "description": "Integers k such that sigma(k) <= sigma(k+1) <= sigma(k+2) <= sigma(k+3), where sigma is the sum of divisors.",
+  "id": "A359666",
+  "mentions": [
+    "A000203",
+    "A053224",
+    "A323726"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

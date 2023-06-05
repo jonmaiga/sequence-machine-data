@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the sum of divisors of n that are both coreful and bi-unitary.",
+  "id": "A363334",
+  "mentions": [
+    "A004709",
+    "A057723",
+    "A188999",
+    "A222266",
+    "A362852",
+    "A363331",
+    "A363332"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

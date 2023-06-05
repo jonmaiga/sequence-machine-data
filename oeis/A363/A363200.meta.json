@@ -1,0 +1,18 @@
+{
+  "description": "Number of connected animals formed from n 6-gon connected truncated octahedra, avoiding connected squares.",
+  "id": "A363200",
+  "mentions": [
+    "A038171"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

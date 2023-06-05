@@ -1,5 +1,5 @@
 {
-  "description": "Number of boron trees with n nodes = n-node rooted trees with deg <= 3 at root and out-degree <= 2 elsewhere.",
+  "description": "Number of boron trees with n nodes, i.e. n-node rooted trees with degree <= 3 at root and out-degree <= 2 elsewhere.",
   "id": "A000671",
   "mentions": [
     "A000684",
@@ -9,6 +9,7 @@
     "A036658"
   ],
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nice",

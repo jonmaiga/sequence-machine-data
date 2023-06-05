@@ -2,6 +2,7 @@
   "description": "Numerators in expansion of (1 - x)^(-1/x) / e.",
   "id": "A106827",
   "mentions": [
+    "A000166",
     "A055505",
     "A055535"
   ],

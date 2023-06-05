@@ -1,0 +1,19 @@
+{
+  "description": "Least weird number (A006037) with exactly n divisors that are weird numbers, or -1 if no such number exists.",
+  "id": "A362916",
+  "mentions": [
+    "A002975",
+    "A006037"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

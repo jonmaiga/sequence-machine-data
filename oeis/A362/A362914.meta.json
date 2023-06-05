@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = size of largest subset of {1..n} such that no difference between two terms is a prime.",
+  "id": "A362914",
+  "mentions": [
+    "A100719",
+    "A131849",
+    "A362915"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

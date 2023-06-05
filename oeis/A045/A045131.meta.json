@@ -1,7 +1,9 @@
 {
   "description": "Numbers whose base-4 representation contains exactly four 1's and two 3's.",
   "id": "A045131",
-  "mentions": [],
+  "mentions": [
+    "A007090"
+  ],
   "tags": [
     "base",
     "changed",

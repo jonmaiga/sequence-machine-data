@@ -1,7 +1,9 @@
 {
   "description": "Winning numbers of game where you can either add one or divide by a prime.",
   "id": "A362416",
-  "mentions": [],
+  "mentions": [
+    "A363369"
+  ],
   "tags": [
     "changed",
     "nonn"

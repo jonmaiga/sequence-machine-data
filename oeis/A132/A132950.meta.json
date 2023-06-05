@@ -1,16 +1,19 @@
 {
-  "description": "Generalization of an a(n)=3*2^n*a(n-1) as 3=(m+1) and 2=m To give general term: t(n,m)=a(n)=(m+1)^n*m^(n*(n-1)/2) ( here n taken first).",
+  "description": "Triangle read by rows: t(n,m) = (m+1)^n*m^(n*(n-1)/2).",
   "id": "A132950",
-  "mentions": [],
+  "mentions": [
+    "A132945"
+  ],
   "tags": [
+    "changed",
+    "easy",
     "formulas",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
-    "offset": 1,
-    "size": 35,
+    "offset": 0,
+    "size": 36,
     "source": "oeis-entry"
   }
 }

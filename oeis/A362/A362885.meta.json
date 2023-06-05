@@ -1,0 +1,33 @@
+{
+  "description": "Array read by ascending antidiagonals: A(n, k) = (1 + 2*n)*k^n.",
+  "id": "A362885",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A004248",
+    "A005408",
+    "A008585",
+    "A014480",
+    "A033429",
+    "A058962",
+    "A124647",
+    "A155988",
+    "A171220",
+    "A176043",
+    "A199299",
+    "A199300",
+    "A199301",
+    "A244727",
+    "A362886"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

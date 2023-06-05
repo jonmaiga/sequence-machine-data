@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying 2 = Sum_{n=-oo..+oo} (-1)^n * x^n * (A(x) + x^(2*n))^(2*n+1).",
+  "id": "A363140",
+  "mentions": [
+    "A357232"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "a(0) = 1, a(n) = n + phi(a(n-1)), where phi is Euler totient function.",
+  "id": "A363097",
+  "mentions": [
+    "A000010"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

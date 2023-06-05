@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of sum_{j>=1} tau(j)/j^3 = zeta(3)^2.",
+  "description": "Decimal expansion of Sum_{j>=1} tau(j)/j^3 = zeta(3)^2.",
   "id": "A183030",
   "mentions": [
     "A000005",
@@ -10,6 +10,7 @@
     "A183031"
   ],
   "tags": [
+    "changed",
     "cons",
     "formulas",
     "nonn"

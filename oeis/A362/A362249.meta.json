@@ -1,0 +1,22 @@
+{
+  "description": "Point number on a 4-arm square spiral of point n on the East arm scaled up by steps of that point itself.",
+  "id": "A362249",
+  "mentions": [
+    "A000290",
+    "A001844",
+    "A002061",
+    "A340944",
+    "A340945",
+    "A362363"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

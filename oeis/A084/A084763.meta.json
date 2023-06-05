@@ -1,16 +1,18 @@
 {
-  "description": "Denominator of Product((2*n-p)/p: 2",
+  "description": "Denominator of Product_{ 2 <= p < 2*n } (2*n - p)/p.",
   "id": "A084763",
   "mentions": [
+    "A000720",
     "A084762"
   ],
   "tags": [
+    "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 35,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

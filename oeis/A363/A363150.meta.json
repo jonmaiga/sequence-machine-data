@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = numerator(Sum_{j=0..n} Bernoulli(j, 1) * Bernoulli(n - j, 1)).",
+  "id": "A363150",
+  "mentions": [
+    "A027642",
+    "A164555",
+    "A363151",
+    "A363152",
+    "A363153"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

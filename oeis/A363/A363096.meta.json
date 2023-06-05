@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n whose least part is a multiple of 5.",
+  "id": "A363096",
+  "mentions": [
+    "A026805",
+    "A363047",
+    "A363094",
+    "A363095"
+  ],
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

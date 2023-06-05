@@ -1,5 +1,5 @@
 {
-  "description": "n^6 mod 34.",
+  "description": "a(n) = n^6 mod 34.",
   "id": "A070657",
   "mentions": [],
   "tags": [

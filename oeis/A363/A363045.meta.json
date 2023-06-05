@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n whose greatest part is a multiple of 3.",
+  "id": "A363045",
+  "mentions": [
+    "A038499",
+    "A072233",
+    "A363048"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

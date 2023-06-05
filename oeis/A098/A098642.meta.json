@@ -2,15 +2,17 @@
   "description": "Number of partitions of Fibonacci(n) into odd Fibonacci numbers.",
   "id": "A098642",
   "mentions": [
+    "A000045",
     "A098641",
     "A098644"
   ],
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 24,
+    "offset": 0,
+    "size": 26,
     "source": "oeis-entry"
   }
 }

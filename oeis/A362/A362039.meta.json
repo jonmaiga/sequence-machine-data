@@ -1,5 +1,5 @@
 {
-  "description": "Least number s such that there are 2 different sets of primes { a1, a2, ..., an } and { b1, b2, ..., bn } with the integers in each set having the same sum s, the same sum of squares, etc., up to and including the same sum of (n-1)-th powers.",
+  "description": "Least number s such that there are 2 different sets of primes { a1, a2, ..., an } and { b1, b2, ..., bn } with the integers in each set having the same sum s, the same sum of squares, etc., up to and including the same sum of (n-1)-st powers.",
   "id": "A362039",
   "mentions": [
     "A087747",
@@ -10,9 +10,9 @@
     "A323395"
   ],
   "tags": [
+    "changed",
     "formulas",
     "more",
-    "new",
     "nonn"
   ],
   "terms": {

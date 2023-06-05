@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = lcm({i, i = 1..n}) / Product_{2 <= p < n, p prime} p.",
+  "id": "A362988",
+  "mentions": [
+    "A003418",
+    "A034386"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

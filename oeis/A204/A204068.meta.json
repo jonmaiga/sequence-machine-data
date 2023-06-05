@@ -1,13 +1,15 @@
 {
-  "description": "Decimal expansion of the Fresnel Integral int_{x=0..infinity} sin(x^3) dx.",
+  "description": "Decimal expansion of the Fresnel Integral Integral_{x>=0} sin(x^3) dx.",
   "id": "A204068",
   "mentions": [
+    "A073005",
     "A073006",
     "A073010",
     "A202623",
     "A204067"
   ],
   "tags": [
+    "changed",
     "cons",
     "easy",
     "formulas",
@@ -15,7 +17,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 71,
+    "size": 105,
     "source": "oeis-entry"
   }
 }

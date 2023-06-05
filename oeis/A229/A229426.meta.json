@@ -1,10 +1,11 @@
 {
-  "description": "Number of nX6 0..2 arrays with horizontal differences mod 3 never 1, vertical differences mod 3 never -1, rows lexicographically nondecreasing, and columns lexicographically nonincreasing",
+  "description": "Number of n X 6 0..2 arrays with horizontal differences mod 3 never 1, vertical differences mod 3 never -1, rows lexicographically nondecreasing, and columns lexicographically nonincreasing.",
   "id": "A229426",
   "mentions": [
     "A229428"
   ],
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],

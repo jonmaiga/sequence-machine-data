@@ -13,12 +13,13 @@
     "A178488"
   ],
   "tags": [
+    "changed",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

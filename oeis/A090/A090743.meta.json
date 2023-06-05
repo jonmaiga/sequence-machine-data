@@ -8,12 +8,13 @@
   ],
   "tags": [
     "base",
+    "changed",
     "hard",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 4,
+    "size": 7,
     "source": "oeis-entry"
   }
 }

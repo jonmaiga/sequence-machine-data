@@ -1,16 +1,19 @@
 {
-  "description": "Numerator of Product((2*n-p)/p: 2",
+  "description": "Numerator of Product_{2 <= p < 2*n} (2*n - p)/p.",
   "id": "A084762",
   "mentions": [
+    "A000040",
+    "A000720",
     "A084763"
   ],
   "tags": [
+    "formulas",
     "frac",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 33,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

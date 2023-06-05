@@ -5,6 +5,7 @@
     "A180447"
   ],
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 74,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

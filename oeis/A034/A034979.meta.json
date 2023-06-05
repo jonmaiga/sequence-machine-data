@@ -2,15 +2,18 @@
   "description": "Smallest square starting with a string of n 1's.",
   "id": "A034979",
   "mentions": [
-    "A034978"
+    "A034978",
+    "A102807"
   ],
   "tags": [
     "base",
+    "changed",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 20,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

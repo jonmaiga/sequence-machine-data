@@ -1,0 +1,19 @@
+{
+  "description": "Numbers N such that N + the sum of the cubes of its digits is again a third power.",
+  "id": "A362953",
+  "mentions": [
+    "A000578",
+    "A055012",
+    "A362954"
+  ],
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

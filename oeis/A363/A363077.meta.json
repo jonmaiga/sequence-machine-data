@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n such that 5*(least part) + 1 = greatest part.",
+  "id": "A363077",
+  "mentions": [
+    "A049820",
+    "A237827",
+    "A237828",
+    "A363075",
+    "A363076"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

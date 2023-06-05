@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of [n] such that the number of blocks containing only odd elements equals the number of blocks containing only even elements and no block contains both odd and even elements.",
+  "id": "A363454",
+  "mentions": [
+    "A000110",
+    "A047797",
+    "A124419",
+    "A124425",
+    "A363451"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

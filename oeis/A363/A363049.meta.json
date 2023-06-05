@@ -1,0 +1,16 @@
+{
+  "description": "Even numbers k having fewer prime factors, counted with multiplicity, than k-1.",
+  "id": "A363049",
+  "mentions": [
+    "A001222",
+    "A339910"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

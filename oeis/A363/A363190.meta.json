@@ -1,0 +1,22 @@
+{
+  "description": "Odd powerful numbers (A062739) k such that the next powerful number after k is also odd.",
+  "id": "A363190",
+  "mentions": [
+    "A001694",
+    "A062739",
+    "A076445",
+    "A363189",
+    "A363191",
+    "A363192"
+  ],
+  "tags": [
+    "easy",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

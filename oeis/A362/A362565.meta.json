@@ -1,0 +1,16 @@
+{
+  "description": "The number of linear extensions of n fork-join DAGs of width 4.",
+  "id": "A362565",
+  "mentions": [
+    "A357297"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

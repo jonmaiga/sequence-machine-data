@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, A054521 * A051731, 1<=k<=n.",
+  "description": "Triangle read by rows: A054521 * A051731 as infinite lower triangular matrices.",
   "id": "A143614",
   "mentions": [
     "A000010",
@@ -8,13 +8,14 @@
     "A143615"
   ],
   "tags": [
+    "changed",
     "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 103,
-    "source": "oeis-entry"
+    "size": 105,
+    "source": "joeis"
   }
 }

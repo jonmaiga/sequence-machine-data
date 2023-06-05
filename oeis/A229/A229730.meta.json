@@ -2,9 +2,11 @@
   "description": "Number of separable permutations with the maximum number of occurrences of the 1-box pattern on separable permutations.",
   "id": "A229730",
   "mentions": [
-    "A229729"
+    "A229729",
+    "A363181"
   ],
   "tags": [
+    "changed",
     "more",
     "nonn"
   ],

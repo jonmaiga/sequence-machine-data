@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k), 0 <= k <= n, in which row n lists the first n+1 nonnegative integers.",
+  "description": "Triangle read by rows: T(n,k) = k, 0 <= k <= n, in which row n lists the first n+1 nonnegative integers.",
   "id": "A002262",
   "mentions": [
     "A000040",
@@ -27,7 +27,6 @@
     "A195678"
   ],
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "nice",

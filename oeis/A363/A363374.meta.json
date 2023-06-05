@@ -1,0 +1,16 @@
+{
+  "description": "Numbers k such that 2^k - 3 is a semiprime.",
+  "id": "A363374",
+  "mentions": [
+    "A085724"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

@@ -7,10 +7,12 @@
     "A006414",
     "A055096",
     "A077414",
+    "A107984",
     "A120070",
     "A210440"
   ],
   "tags": [
+    "changed",
     "easy",
     "nonn",
     "tabl"
@@ -18,6 +20,6 @@
   "terms": {
     "offset": 2,
     "size": 59,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

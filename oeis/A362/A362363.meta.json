@@ -1,0 +1,18 @@
+{
+  "description": "Arm number of the base spiral in A362249 which visits large spiral point n there.",
+  "id": "A362363",
+  "mentions": [
+    "A362249",
+    "A362265"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

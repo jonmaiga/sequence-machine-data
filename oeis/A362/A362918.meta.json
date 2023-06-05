@@ -1,0 +1,20 @@
+{
+  "description": "Length of the part of n to the left of the decimal point in the Dekking-van-Loon-canonical base phi representation of n.",
+  "id": "A362918",
+  "mentions": [
+    "A105424",
+    "A341722",
+    "A362917"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

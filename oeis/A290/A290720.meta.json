@@ -1,8 +1,13 @@
 {
   "description": "a(n) = 2*3^n + 4^n + 3*n.",
   "id": "A290720",
-  "mentions": [],
+  "mentions": [
+    "A000302",
+    "A008585",
+    "A008776"
+  ],
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"

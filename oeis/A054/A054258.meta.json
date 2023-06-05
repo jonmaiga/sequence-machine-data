@@ -7,11 +7,12 @@
   ],
   "tags": [
     "base",
+    "changed",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 32,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
   }
 }

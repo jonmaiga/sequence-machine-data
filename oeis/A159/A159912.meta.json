@@ -13,12 +13,13 @@
     "A267700"
   ],
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 56,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

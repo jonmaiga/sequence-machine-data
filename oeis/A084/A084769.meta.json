@@ -2,6 +2,11 @@
   "description": "P_n(9), where P_n is n-th Legendre polynomial; also, a(n) = central coefficient of (1 + 9*x + 20*x^2)^n.",
   "id": "A084769",
   "mentions": [
+    "A000012",
+    "A001850",
+    "A006442",
+    "A084768",
+    "A243007",
     "A269732"
   ],
   "tags": [

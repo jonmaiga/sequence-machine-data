@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of regular elements in the semigroup of all binary relations on [n] that have rank k, n>=0, 0<=k<=n.",
+  "id": "A363036",
+  "mentions": [
+    "A003425",
+    "A060867",
+    "A354279",
+    "A354741"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

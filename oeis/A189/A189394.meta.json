@@ -1,5 +1,5 @@
 {
-  "description": "Highly composite numbers whose number of divisors is also a highly composite number.",
+  "description": "Highly composite numbers whose number of divisors is also highly composite.",
   "id": "A189394",
   "mentions": [
     "A002182",
@@ -7,7 +7,9 @@
     "A141320"
   ],
   "tags": [
-    "more",
+    "changed",
+    "fini",
+    "full",
     "nonn"
   ],
   "terms": {

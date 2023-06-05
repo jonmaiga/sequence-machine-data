@@ -1,5 +1,5 @@
 {
-  "description": "Number of 2Xn binary arrays with top left value 1 and no two ones adjacent horizontally, diagonally or antidiagonally.",
+  "description": "Number of 2 X n binary arrays with top left value 1 and no two ones adjacent horizontally, diagonally or antidiagonally.",
   "id": "A228661",
   "mentions": [
     "A006130",

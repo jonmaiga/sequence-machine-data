@@ -1,7 +1,10 @@
 {
   "description": "Maximum number of diagonals of a regular n-gon that meet at a non-center point.",
   "id": "A108053",
-  "mentions": [],
+  "mentions": [
+    "A006561",
+    "A007678"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -10,6 +13,6 @@
   "terms": {
     "offset": 3,
     "size": 105,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

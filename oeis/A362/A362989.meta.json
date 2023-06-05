@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = lcm({i + 1, i = 0..n}) / Product_{d | n, d + 1 prime} d.",
+  "id": "A362989",
+  "mentions": [
+    "A003418",
+    "A160014"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

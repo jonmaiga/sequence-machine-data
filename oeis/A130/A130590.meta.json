@@ -1,12 +1,16 @@
 {
-  "description": "Decimal expansion of the mean Euclidean distance from a point in a 3D box to the surfaces.",
+  "description": "Decimal expansion of the mean Euclidean distance from a point in the unit 3D cube to a given vertex of the cube.",
   "id": "A130590",
   "mentions": [
     "A010527",
     "A019691",
-    "A065914"
+    "A065914",
+    "A135691",
+    "A244921",
+    "A254979"
   ],
   "tags": [
+    "changed",
     "cons",
     "easy",
     "formulas",

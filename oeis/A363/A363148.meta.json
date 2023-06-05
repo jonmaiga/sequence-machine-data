@@ -1,0 +1,16 @@
+{
+  "description": "a(n) gives the number of equivalence classes of quaternary quadratic forms of discriminant A363147(n) not representing 2.",
+  "id": "A363148",
+  "mentions": [
+    "A307250",
+    "A363147"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

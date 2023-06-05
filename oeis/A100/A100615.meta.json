@@ -1,5 +1,5 @@
 {
-  "description": "Let B(n)(x) be the Bernoulli polynomials as defined in A001898, with B(n)(1) equal to the usual Bernoulli numbers A027641/A027642. Sequence gives numerators of B(n)(2).",
+  "description": "Let N(n)(x) be the Nørlund polynomials as defined in A001898, with N(n)(1) equal to the usual Bernoulli numbers A027641/A027642. Sequence gives numerators of N(n)(2).",
   "id": "A100615",
   "mentions": [
     "A001898",

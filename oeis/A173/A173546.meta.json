@@ -1,5 +1,5 @@
 {
-  "description": "Number of 3x3 semimagic squares with distinct positive values < n. In a semimagic squares the row and column sums must all be equal (the \"magic sum\").",
+  "description": "Number of 3 X 3 semimagic squares with distinct positive values < n. In a semimagic squares the row and column sums must all be equal (the \"magic sum\").",
   "id": "A173546",
   "mentions": [
     "A108576",
@@ -11,6 +11,7 @@
     "A173549"
   ],
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],

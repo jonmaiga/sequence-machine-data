@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = least positive k such that k, k+1, k+2, ... k+n-1 is a stapled interval of length n, or 0 if no such sequence exists.",
+  "description": "a(n) = least positive k such that k, k+1, k+2, ..., k+n-1 is a stapled interval of length n, or 0 if no such sequence exists.",
   "id": "A090318",
   "mentions": [
     "A034386",

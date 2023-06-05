@@ -1,0 +1,29 @@
+{
+  "description": "Array read by ascending antidiagonals: A(1, k) = k; for n > 1, A(n, k) = (k + 1)*A(n-1, k) + k + 1 - n, with k > 0.",
+  "id": "A363365",
+  "mentions": [
+    "A000027",
+    "A008865",
+    "A051846",
+    "A064017",
+    "A353094",
+    "A353095",
+    "A353096",
+    "A353097",
+    "A353098",
+    "A353099",
+    "A353100",
+    "A363366"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

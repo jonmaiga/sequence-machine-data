@@ -1,0 +1,19 @@
+{
+  "description": "Number of free linear polycubes of size n, identifying rotations but not reflections.",
+  "id": "A363201",
+  "mentions": [
+    "A118339",
+    "A363199",
+    "A363202"
+  ],
+  "tags": [
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

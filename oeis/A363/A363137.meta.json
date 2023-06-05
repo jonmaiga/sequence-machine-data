@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A(x)^4 = Sum_{n=-oo..+oo} (-x)^n * (A(x)^5 + x^(n-1))^(n+1).",
+  "id": "A363137",
+  "mentions": [
+    "A359670",
+    "A361770",
+    "A363135",
+    "A363136"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

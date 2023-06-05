@@ -1,0 +1,19 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = x * exp( A(x)^2/x - A(-x^2)^2/(2*x^2) + A(x^3)^2/(3*x^3) - A(-x^4)^2/(4*x^4) + ... ).",
+  "id": "A363293",
+  "mentions": [
+    "A005750",
+    "A005754",
+    "A049075",
+    "A363294"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Lexicographically earliest sequence of distinct nonnegative terms wherein every digit of a(n) is the absolute difference of two adjacent digits in a(n+1).",
+  "id": "A362335",
+  "mentions": [],
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

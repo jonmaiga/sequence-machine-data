@@ -1,0 +1,20 @@
+{
+  "description": "Fixed three-dimensional polyknights.",
+  "id": "A363384",
+  "mentions": [
+    "A030445",
+    "A363382",
+    "A363383"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

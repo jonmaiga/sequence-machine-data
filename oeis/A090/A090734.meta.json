@@ -2,10 +2,12 @@
   "description": "Decimal expansion of 4th Madelung constant (negated).",
   "id": "A090734",
   "mentions": [
+    "A059750",
     "A085469",
     "A088537"
   ],
   "tags": [
+    "changed",
     "cons",
     "formulas",
     "nonn"

@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that n*3^n + 2 is prime.",
+  "description": "Integers k such that k*3^k + 2 is prime.",
   "id": "A265121",
   "mentions": [
     "A006552",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 21,
     "source": "oeis-entry"
   }
 }

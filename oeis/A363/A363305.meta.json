@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A(x) = 1 + x*(A(x)^5 + A(x)^9).",
+  "id": "A363305",
+  "mentions": [
+    "A027307",
+    "A363304",
+    "A363311"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

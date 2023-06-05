@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying 1 = Sum_{n=-oo..+oo} x^n * (2*A(x) - x^n)^(2*n-1).",
+  "id": "A363112",
+  "mentions": [
+    "A357227",
+    "A361772",
+    "A363113",
+    "A363114"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

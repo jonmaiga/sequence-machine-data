@@ -1,0 +1,15 @@
+{
+  "description": "Number of ways to distribute n guards on the corners and walls of a square castle so that each wall has an equal number of guards modulo rotations and reflections.",
+  "id": "A363370",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

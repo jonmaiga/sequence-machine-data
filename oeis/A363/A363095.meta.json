@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n whose least part is a multiple of 4.",
+  "id": "A363095",
+  "mentions": [
+    "A026805",
+    "A363046",
+    "A363094",
+    "A363096"
+  ],
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

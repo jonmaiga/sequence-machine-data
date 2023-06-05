@@ -1,0 +1,21 @@
+{
+  "description": "Number of set partitions of [n] such that each element is contained in a block whose block size parity coincides with the parity of the element.",
+  "id": "A363073",
+  "mentions": [
+    "A000110",
+    "A003724",
+    "A005046",
+    "A124419",
+    "A274538",
+    "A275679"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

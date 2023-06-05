@@ -1,10 +1,11 @@
 {
-  "description": "usigma(n)=n+phi(n).",
+  "description": "Numbers k such that usigma(k) = k + phi(k).",
   "id": "A063794",
   "mentions": [
     "A034448"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

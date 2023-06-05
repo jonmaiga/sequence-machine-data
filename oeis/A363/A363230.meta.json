@@ -1,0 +1,23 @@
+{
+  "description": "Number of partitions of n with rank 3 or higher (the rank of a partition is the largest part minus the number of parts).",
+  "id": "A363230",
+  "mentions": [
+    "A000041",
+    "A064173",
+    "A064174",
+    "A101200",
+    "A115067",
+    "A123975",
+    "A363231"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

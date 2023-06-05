@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest x such that number of non-unitary prime divisors of central binomial coefficient, A000984(x)=C(2x,x) equals n.",
+  "description": "a(n) is the smallest k such that number of non-unitary prime divisors of central binomial coefficient, A000984(k) = C(2*k,k) equals n.",
   "id": "A081393",
   "mentions": [
     "A000984",
@@ -9,12 +9,11 @@
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
+    "size": 47,
     "source": "oeis-entry"
   }
 }

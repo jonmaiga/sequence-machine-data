@@ -1,13 +1,16 @@
 {
-  "description": "Coefficients of 1/sqrt(1-12*x+4*x^2); also, a(n) is the central coefficient of (1+6x+8x^2)^n.",
+  "description": "Coefficients of 1/sqrt(1-12*x+4*x^2); also, a(n) is the central coefficient of (1+6*x+8*x^2)^n.",
   "id": "A084773",
   "mentions": [
+    "A000079",
     "A001850",
     "A052141",
     "A059474",
+    "A098270",
     "A152254"
   ],
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],

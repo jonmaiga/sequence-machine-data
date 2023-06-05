@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: 1 / AGM(1-9*x, sqrt((1-x)*(1-81*x))).",
+  "description": "Expansion of g.f.: 1 / AGM(1-9*x, sqrt((1-x)*(1-81*x))).",
   "id": "A246923",
   "mentions": [
     "A084771",
@@ -8,6 +8,7 @@
     "A248167"
   ],
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],

@@ -13,13 +13,14 @@
     "A271269"
   ],
   "tags": [
+    "changed",
     "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
+    "size": 28,
     "source": "oeis-entry"
   }
 }

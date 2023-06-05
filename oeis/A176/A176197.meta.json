@@ -1,7 +1,9 @@
 {
   "description": "Sum of 4 distinct nonzero fourth powers.",
   "id": "A176197",
-  "mentions": [],
+  "mentions": [
+    "A003338"
+  ],
   "tags": [
     "nonn"
   ],

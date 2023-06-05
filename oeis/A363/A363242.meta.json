@@ -1,0 +1,36 @@
+{
+  "description": "Numbers whose primorial-base representation contains only odd digits.",
+  "id": "A363242",
+  "mentions": [
+    "A002110",
+    "A003462",
+    "A014261",
+    "A032911",
+    "A032912",
+    "A033032",
+    "A033033",
+    "A033034",
+    "A033035",
+    "A033036",
+    "A033037",
+    "A033038",
+    "A033039",
+    "A033040",
+    "A033041",
+    "A049345",
+    "A126646",
+    "A143293",
+    "A328849",
+    "A351894"
+  ],
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

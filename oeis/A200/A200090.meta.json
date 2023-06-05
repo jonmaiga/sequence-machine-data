@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that the sum of the distinct prime divisors equals three times the largest prime divisor.",
+  "description": "Numbers k such that the sum of the distinct prime divisors of k equals three times the largest prime divisor of k.",
   "id": "A200090",
   "mentions": [
+    "A006530",
+    "A008472",
     "A200070"
   ],
   "tags": [
@@ -10,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 33,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

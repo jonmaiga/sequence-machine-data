@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = sum_{m=1..n-1} floor[m(n-2)/2]^2.",
+  "description": "a(n) = Sum_{m=1..n-1} floor(m(n-2)/2)^2.",
   "id": "A125849",
   "mentions": [],
   "tags": [

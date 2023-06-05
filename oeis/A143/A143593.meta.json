@@ -1,11 +1,13 @@
 {
-  "description": "Triangle read by rows, square of an infinite lower triangular matrix with 1's in the first column and the rest 2's.",
+  "description": "Triangle read by rows, square of A238303 (an infinite lower triangular matrix with 1's in the first column and the rest 2's).",
   "id": "A143593",
   "mentions": [
     "A000012",
-    "A056220"
+    "A056220",
+    "A238303"
   ],
   "tags": [
+    "changed",
     "formulas",
     "nonn",
     "tabl"
@@ -13,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

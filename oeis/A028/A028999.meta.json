@@ -2,10 +2,12 @@
   "description": "Binary expansion of arctan(1/2)/Pi.",
   "id": "A028999",
   "mentions": [
-    "A004715"
+    "A004715",
+    "A086203"
   ],
   "tags": [
     "base",
+    "changed",
     "cons",
     "nonn"
   ],

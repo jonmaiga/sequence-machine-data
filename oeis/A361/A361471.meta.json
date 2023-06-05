@@ -1,0 +1,17 @@
+{
+  "description": "Size of the symmetric difference of {1,2,3,4}, {2,4,6,8}, ..., {n,2n,3n,4n}.",
+  "id": "A361471",
+  "mentions": [
+    "A361458"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "joeis"
+  }
+}

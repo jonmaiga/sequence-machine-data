@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k+digitsum(k^2) is a square.",
+  "id": "A362069",
+  "mentions": [
+    "A004159",
+    "A066564"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

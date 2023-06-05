@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k such that the rightmost 7 in the decimal expansion of 3^k is in the (10^n)'s position, or -1 if there is no such k.",
+  "id": "A363196",
+  "mentions": [
+    "A000244"
+  ],
+  "tags": [
+    "base",
+    "new",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

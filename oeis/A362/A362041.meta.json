@@ -1,0 +1,18 @@
+{
+  "description": "a(0) = 1; for n > 0, a(n) is the largest k < A013929(n) such that rad(k) = rad(A013929(n)), where rad(n) = A007947(n).",
+  "id": "A362041",
+  "mentions": [
+    "A007947",
+    "A013929",
+    "A289280"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

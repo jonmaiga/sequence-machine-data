@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that the Collatz orbit that begins with k does not contain an odd prime afterwards.",
+  "id": "A362959",
+  "mentions": [
+    "A000079",
+    "A006370",
+    "A006577",
+    "A196871"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-bfile"
+  }
+}

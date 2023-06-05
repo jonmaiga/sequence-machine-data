@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows (row length 2*n+1). Row n lists the integer solutions for x in the equation x - 2^n = x/y (x and y are integers).",
+  "id": "A362311",
+  "mentions": [
+    "A036289",
+    "A362310"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

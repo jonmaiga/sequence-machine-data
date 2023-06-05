@@ -1,0 +1,15 @@
+{
+  "description": "Number of musical scales in n tone equal temperament respecting the property that alternate notes are 3 or 4 semitones apart.",
+  "id": "A361378",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = n for n <= 3; for n > 3, a(n) is the least novel multiple of k, the product of all distinct prime factors of a(n-2) that do not divide a(n-1).",
+  "id": "A362855",
+  "mentions": [
+    "A002110",
+    "A362631"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

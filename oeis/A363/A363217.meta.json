@@ -1,0 +1,29 @@
+{
+  "description": "Odd powerful numbers that are not powers of primes.",
+  "id": "A363217",
+  "mentions": [
+    "A000961",
+    "A001694",
+    "A002117",
+    "A005408",
+    "A013661",
+    "A013664",
+    "A062739",
+    "A082695",
+    "A126706",
+    "A136141",
+    "A286708",
+    "A360769",
+    "A363216"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

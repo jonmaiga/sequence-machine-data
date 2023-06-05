@@ -1,11 +1,14 @@
 {
-  "description": "Distinct values of sigma(k), the sum of divisors, in order of appearance as n grows.",
+  "description": "Distinct values of sigma(k), the sum of divisors, in order of appearance as k grows.",
   "id": "A090128",
   "mentions": [
+    "A000203",
+    "A002191",
     "A053212",
     "A090127"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

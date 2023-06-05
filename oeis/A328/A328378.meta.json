@@ -5,12 +5,13 @@
     "A047838"
   ],
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 28,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

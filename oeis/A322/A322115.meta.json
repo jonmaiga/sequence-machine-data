@@ -1,5 +1,5 @@
 {
-  "description": "Regular triangle read by rows where T(n,k) is the number of unlabeled connected multigraphs with loops with n edges and k vertices.",
+  "description": "Triangle read by rows where T(n,k) is the number of unlabeled connected multigraphs with loops with n edges and k vertices.",
   "id": "A322115",
   "mentions": [
     "A000055",

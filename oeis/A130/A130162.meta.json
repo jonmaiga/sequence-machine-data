@@ -1,5 +1,5 @@
 {
-  "description": "A051731 * A000837 as a diagonalized matrix.",
+  "description": "Triangle read by rows: A051731 * A000837 as a diagonalized matrix.",
   "id": "A130162",
   "mentions": [
     "A000041",
@@ -7,6 +7,7 @@
     "A051731"
   ],
   "tags": [
+    "changed",
     "formulas",
     "nonn",
     "tabl"
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 78,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

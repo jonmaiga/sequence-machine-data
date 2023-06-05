@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n into two distinct parts (s,t) such that mu(s) = mu(t).",
+  "id": "A362833",
+  "mentions": [
+    "A008683",
+    "A362806"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

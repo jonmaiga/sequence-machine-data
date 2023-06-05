@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX2 0..3 arrays with values 0..3 introduced in row major order, the number of instances of each value within one of each other, and every element equal to at least one horizontal or vertical neighbor",
+  "description": "Number of n X 2 0..3 arrays with values 0..3 introduced in row major order, the number of instances of each value within one of each other, and every element equal to at least one horizontal or vertical neighbor.",
   "id": "A199584",
   "mentions": [
     "A199588"

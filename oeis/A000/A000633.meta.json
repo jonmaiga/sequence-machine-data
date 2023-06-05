@@ -1,17 +1,18 @@
 {
-  "description": "Ammonium compounds with n carbon atoms.",
+  "description": "Number of acyclic quaternary ammonium ions with n carbon atoms.",
   "id": "A000633",
   "mentions": [
-    "A000632",
-    "A036669"
+    "A000598",
+    "A000632"
   ],
   "tags": [
-    "more",
+    "changed",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 4,
-    "size": 7,
+    "size": 31,
     "source": "joeis"
   }
 }

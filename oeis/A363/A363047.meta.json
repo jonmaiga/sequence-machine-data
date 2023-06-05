@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of n whose greatest part is a multiple of 5.",
+  "id": "A363047",
+  "mentions": [
+    "A000041",
+    "A363048"
+  ],
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

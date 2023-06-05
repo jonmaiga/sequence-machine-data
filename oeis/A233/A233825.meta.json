@@ -3,12 +3,15 @@
   "id": "A233825",
   "mentions": [
     "A000010",
+    "A001620",
     "A195423",
     "A216868",
     "A218245"
   ],
   "tags": [
+    "changed",
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

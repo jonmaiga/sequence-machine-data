@@ -1,5 +1,5 @@
 {
-  "description": "Given a row of n payphones (or phone booths), all initially unused, how many ways are there for n people to choose the payphones, assuming each always chooses one of the most distant payphones from those in use already?",
+  "description": "Given a row of n payphones (or phone booths), all initially unused, sequence gives number of ways for n people to choose the payphones assuming each always chooses one of the most distant payphones from those in use already.",
   "id": "A095236",
   "mentions": [
     "A037256",
@@ -8,6 +8,8 @@
     "A095923"
   ],
   "tags": [
+    "changed",
+    "formulas",
     "nonn"
   ],
   "terms": {

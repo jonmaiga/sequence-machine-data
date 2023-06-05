@@ -1,5 +1,5 @@
 {
-  "description": "Number of symmetry classes of reduced 3x3 magilatin squares with largest entry n.",
+  "description": "Number of symmetry classes of reduced 3 X 3 magilatin squares with largest entry n.",
   "id": "A174019",
   "mentions": [
     "A173548",
@@ -8,6 +8,7 @@
     "A174021"
   ],
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],

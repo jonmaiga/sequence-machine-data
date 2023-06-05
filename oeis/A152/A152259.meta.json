@@ -1,17 +1,19 @@
 {
-  "description": "Union of values: A147568(n) and 2*A147568(n)-1",
+  "description": "Union of values: A147568(n) and 2*A147568(n) - 1",
   "id": "A152259",
   "mentions": [
+    "A000695",
     "A145812",
     "A145819",
     "A147568"
   ],
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 56,
-    "source": "oeis-entry"
+    "size": 57,
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^8 - prime(n) is prime.",
+  "description": "Numbers k such that k^8 - prime(k) is prime.",
   "id": "A213428",
   "mentions": [
     "A000040",
@@ -9,13 +9,13 @@
     "A212883"
   ],
   "tags": [
+    "changed",
     "easy",
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 47,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

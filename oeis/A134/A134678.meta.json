@@ -1,11 +1,12 @@
 {
-  "description": "Where records in occur in A069360.",
+  "description": "Where records occur in A069360.",
   "id": "A134678",
   "mentions": [
     "A069360",
     "A134677"
   ],
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {

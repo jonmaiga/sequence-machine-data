@@ -1,5 +1,5 @@
 {
-  "description": "Number of reduced 3x3 semimagic squares with magic sum n.",
+  "description": "Number of reduced 3 X 3 semimagic squares with magic sum n.",
   "id": "A173728",
   "mentions": [
     "A173547",
@@ -8,6 +8,7 @@
     "A173726"
   ],
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],

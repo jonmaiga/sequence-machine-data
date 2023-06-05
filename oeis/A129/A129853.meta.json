@@ -7,11 +7,12 @@
     "A129852"
   ],
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 40,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
   }
 }

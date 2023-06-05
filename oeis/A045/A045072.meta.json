@@ -1,9 +1,12 @@
 {
-  "description": "Numbers n with property that in base 4 representation the numbers of 0's and 3's are 2 and 1, respectively.",
+  "description": "Numbers whose base-4 representation contains exactly two 0's and one 3.",
   "id": "A045072",
-  "mentions": [],
+  "mentions": [
+    "A007090"
+  ],
   "tags": [
     "base",
+    "changed",
     "nonn"
   ],
   "terms": {

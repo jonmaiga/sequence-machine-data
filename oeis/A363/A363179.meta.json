@@ -1,0 +1,33 @@
+{
+  "description": "Decimal expansion of Product_{k>=1} (1 - exp(-15*Pi*k)).",
+  "id": "A363179",
+  "mentions": [
+    "A259148",
+    "A259149",
+    "A259150",
+    "A259151",
+    "A292864",
+    "A292888",
+    "A292905",
+    "A363018",
+    "A363019",
+    "A363020",
+    "A363021",
+    "A363081",
+    "A363117",
+    "A363118",
+    "A363119",
+    "A363120",
+    "A363178"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

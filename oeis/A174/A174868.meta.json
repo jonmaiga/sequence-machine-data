@@ -4,6 +4,7 @@
   "mentions": [
     "A000123",
     "A001045",
+    "A001622",
     "A002083",
     "A002487",
     "A007729",
@@ -20,10 +21,10 @@
     "A072170",
     "A073459",
     "A084091",
-    "A126606"
+    "A126606",
+    "A242208"
   ],
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "nonn"
@@ -31,6 +32,6 @@
   "terms": {
     "offset": 0,
     "size": 92,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

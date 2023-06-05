@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least integer k such that the k-th, (k+1)-th, ..., (k+n-1)-th primes are congruent to 1 mod 4.",
+  "id": "A363016",
+  "mentions": [
+    "A000720",
+    "A023512",
+    "A057624",
+    "A363017"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

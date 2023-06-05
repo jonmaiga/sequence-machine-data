@@ -1,0 +1,21 @@
+{
+  "description": "Numbers with an equal number of odd and even digits in their primorial-base representation.",
+  "id": "A363243",
+  "mentions": [
+    "A002110",
+    "A031443",
+    "A049345",
+    "A227870",
+    "A351895"
+  ],
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

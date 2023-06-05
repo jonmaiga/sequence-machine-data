@@ -1,16 +1,17 @@
 {
-  "description": "Records in A000118. Number of ways of writing A128689(n) as a sum of 4 squares.",
+  "description": "Records in A000118.",
   "id": "A128690",
   "mentions": [
     "A000118",
     "A128689"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
-    "source": "joeis"
+    "size": 47,
+    "source": "oeis-bfile"
   }
 }

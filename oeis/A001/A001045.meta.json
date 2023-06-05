@@ -72,6 +72,7 @@
     "A283641"
   ],
   "tags": [
+    "changed",
     "core",
     "easy",
     "formulas",
@@ -80,7 +81,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 35,
+    "size": 36,
     "source": "oeis-bfile"
   }
 }

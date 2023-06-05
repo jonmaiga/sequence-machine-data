@@ -2,14 +2,17 @@
   "description": "Twice A084773.",
   "id": "A152254",
   "mentions": [
+    "A000079",
+    "A001850",
     "A084773"
   ],
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 20,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

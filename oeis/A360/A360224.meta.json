@@ -1,0 +1,20 @@
+{
+  "description": "Number of k < n such that gcd(k, n) > 1, gcd(n^2-1, k) = 1, and rad(k) does not divide n.",
+  "id": "A360224",
+  "mentions": [
+    "A007947",
+    "A045763",
+    "A243822",
+    "A243823",
+    "A272619"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 94,
+    "source": "oeis-bfile"
+  }
+}

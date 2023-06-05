@@ -1,11 +1,12 @@
 {
-  "description": "Decimal expansion of 3 + (t^2+t^4)/2, where t = 0.543689... (A192918) is the real root of x^3+x^2+x=1.",
+  "description": "Decimal expansion of 3 + (t^2+t^4)/2, where t = 0.543689... (A192918) is the real root of x^3 + x^2 + x = 1.",
   "id": "A317202",
   "mentions": [
     "A192918",
     "A316711"
   ],
   "tags": [
+    "changed",
     "cons",
     "nonn"
   ],

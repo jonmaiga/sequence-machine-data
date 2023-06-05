@@ -1,7 +1,9 @@
 {
   "description": "Numbers whose base-5 representation contains exactly three 2's and two 4's.",
   "id": "A045291",
-  "mentions": [],
+  "mentions": [
+    "A007091"
+  ],
   "tags": [
     "base",
     "nonn"

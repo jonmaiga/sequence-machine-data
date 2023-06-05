@@ -35,6 +35,7 @@
     "A347272"
   ],
   "tags": [
+    "changed",
     "formulas",
     "nonn",
     "tabl"
@@ -42,6 +43,6 @@
   "terms": {
     "offset": 1,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

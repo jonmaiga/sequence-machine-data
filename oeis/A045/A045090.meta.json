@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n with property that in base 4 representation the numbers of 1's and 2's are 1 and 0, respectively.",
+  "description": "Numbers whose base-4 representation contains exactly one 1 and no 2's.",
   "id": "A045090",
-  "mentions": [],
+  "mentions": [
+    "A007090"
+  ],
   "tags": [
     "base",
     "nonn"

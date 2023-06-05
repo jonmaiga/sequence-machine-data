@@ -1,0 +1,20 @@
+{
+  "description": "Number of Laplacian integral graphs on n vertices.",
+  "id": "A363065",
+  "mentions": [
+    "A000084",
+    "A000088",
+    "A077027",
+    "A363064"
+  ],
+  "tags": [
+    "changed",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

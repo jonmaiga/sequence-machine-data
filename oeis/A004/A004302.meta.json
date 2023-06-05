@@ -5,16 +5,18 @@
     "A000217",
     "A000292",
     "A096948",
+    "A103252",
     "A103371"
   ],
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
+    "size": 36,
     "source": "joeis"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of idempotent Boolean relation matrices with rank k, n >= 0, 0 <= k <= n.",
+  "id": "A363232",
+  "mentions": [
+    "A001035",
+    "A005061",
+    "A121337"
+  ],
+  "tags": [
+    "more",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

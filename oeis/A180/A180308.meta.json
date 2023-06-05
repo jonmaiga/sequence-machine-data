@@ -1,8 +1,13 @@
 {
   "description": "Decimal expansion of the mean length of a line segment picked at random in a 30-60-90 (right) triangle.",
   "id": "A180308",
-  "mentions": [],
+  "mentions": [
+    "A093063",
+    "A093064",
+    "A180307"
+  ],
   "tags": [
+    "changed",
     "cons",
     "formulas",
     "nonn"

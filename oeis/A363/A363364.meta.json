@@ -1,0 +1,21 @@
+{
+  "description": "Least nonnegative integer k such that all non-bipartite graphs with n nodes and at least k edges are weakly pancyclic.",
+  "id": "A363364",
+  "mentions": [
+    "A028309",
+    "A290743",
+    "A363362",
+    "A363363"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

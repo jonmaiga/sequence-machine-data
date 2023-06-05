@@ -2,6 +2,7 @@
   "description": "Numbers whose base-5 representation contains exactly one 3 and one 4.",
   "id": "A045297",
   "mentions": [
+    "A007091",
     "A039292"
   ],
   "tags": [

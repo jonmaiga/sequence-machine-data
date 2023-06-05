@@ -7,11 +7,12 @@
     "A269969"
   ],
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 41,
-    "source": "oeis-entry"
+    "size": 47,
+    "source": "oeis-bfile"
   }
 }

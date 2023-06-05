@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows. T(n, k) = denominator([x^k] R(n, n, x)), where R(n, k, x) = Sum_{u=0..k} ( Sum_{j=0..u} x^j * binomial(u, j) * (j + 1)^n ) / (u + 1).",
+  "id": "A362997",
+  "mentions": [
+    "A002805",
+    "A362995",
+    "A362996"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

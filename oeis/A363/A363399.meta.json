@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows. T(n, k) = [x^k] P(n, x), where P(n, x) = Sum_{k=0..n} 2^(n - k) * Sum_{j=0..k} (x^j * binomial(k, j) * (j + 1)^n), (tangent case).",
+  "id": "A363399",
+  "mentions": [
+    "A000169",
+    "A084623",
+    "A126646",
+    "A155585",
+    "A163395",
+    "A363397",
+    "A363398",
+    "A363400"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

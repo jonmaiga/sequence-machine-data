@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = x * exp(2 * Sum_{k>=1} (-1)^(k+1) * A(x^k)^2 / (k*x^k) ).",
+  "id": "A363390",
+  "mentions": [
+    "A005753",
+    "A005754",
+    "A363389"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

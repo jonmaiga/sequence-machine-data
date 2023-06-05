@@ -1,5 +1,5 @@
 {
-  "description": "Lexicographically earliest strictly increasing decimal autovarious sequence: a(n) = number of distinct n-digit endings (left-zero-padded) of elements in the sequence.",
+  "description": "Lexicographically earliest strictly increasing decimal autovarious sequence: a(n) = number of distinct n-digit endings (left-zero-padded) of terms in the sequence.",
   "id": "A037089",
   "mentions": [],
   "tags": [

@@ -1,0 +1,39 @@
+{
+  "description": "Number of prime factors of n (with multiplicity) that are greater than the least.",
+  "id": "A362983",
+  "mentions": [
+    "A000961",
+    "A001221",
+    "A001222",
+    "A024619",
+    "A027746",
+    "A028234",
+    "A047966",
+    "A052126",
+    "A053585",
+    "A061395",
+    "A064989",
+    "A067029",
+    "A071178",
+    "A072774",
+    "A099856",
+    "A105441",
+    "A112798",
+    "A124010",
+    "A307517",
+    "A325226",
+    "A325230",
+    "A363128",
+    "A363129",
+    "A363131"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

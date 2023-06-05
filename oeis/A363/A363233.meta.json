@@ -1,0 +1,22 @@
+{
+  "description": "Number of partitions of n with rank a multiple of 4.",
+  "id": "A363233",
+  "mentions": [
+    "A000041",
+    "A328988",
+    "A340601",
+    "A363237",
+    "A363238",
+    "A363239"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "description": "Positions of the terms of the Chernoff sequence (A006939) in A025487.",
+  "id": "A363456",
+  "mentions": [
+    "A006939",
+    "A025487",
+    "A098718",
+    "A098719",
+    "A293635",
+    "A306802",
+    "A346043",
+    "A346407",
+    "A363455"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

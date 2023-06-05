@@ -2,6 +2,7 @@
   "description": "a(n) = 2*a(n-1)^2 - 1, a(0)=1, a(1)=4.",
   "id": "A084764",
   "mentions": [
+    "A001091",
     "A005828"
   ],
   "tags": [
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 8,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

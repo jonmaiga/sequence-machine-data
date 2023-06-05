@@ -1,8 +1,9 @@
 {
-  "description": "sinh(arcsin(x)+sin(x))=2*x+8/3!*x^3+42/5!*x^5+1192/7!*x^7...",
+  "description": "sinh(arcsin(x) + sin(x)) = 2*x+8/3!*x^3+42/5!*x^5+1192/7!*x^7 ... .",
   "id": "A012917",
   "mentions": [],
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {

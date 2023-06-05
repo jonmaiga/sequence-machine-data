@@ -1,0 +1,23 @@
+{
+  "description": "Numbers that in primorial-base representation have digits with an alternating parity.",
+  "id": "A363244",
+  "mentions": [
+    "A000975",
+    "A002110",
+    "A030141",
+    "A033068",
+    "A049345",
+    "A179970",
+    "A351897"
+  ],
+  "tags": [
+    "base",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

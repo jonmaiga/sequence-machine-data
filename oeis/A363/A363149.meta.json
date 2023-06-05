@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of 1 / Sum_{k>=0} x^(k*(5*k - 3)/2).",
+  "id": "A363149",
+  "mentions": [
+    "A000566",
+    "A106507",
+    "A308806",
+    "A317665",
+    "A322799",
+    "A361979",
+    "A363275"
+  ],
+  "tags": [
+    "new",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

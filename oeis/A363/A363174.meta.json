@@ -1,0 +1,25 @@
+{
+  "description": "Array ready by rows: T(n,k) is the number of triangles inside a regular n-gon formed by intersecting line segments, considering all configurations of 3 line segments from k distinct vertices, with n >= 3, 3 <= k <= 6.",
+  "id": "A363174",
+  "mentions": [
+    "A000292",
+    "A000579",
+    "A006561",
+    "A006600",
+    "A033488",
+    "A174002",
+    "A260417",
+    "A363173"
+  ],
+  "tags": [
+    "changed",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Number of ways to get n points in a bridge hand.",
+  "id": "A363058",
+  "mentions": [
+    "A309777"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

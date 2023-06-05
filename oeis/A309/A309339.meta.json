@@ -1,8 +1,9 @@
 {
-  "description": "This sequence a(n) gives the minimum odd number of Z^3 vectors, each of magnitude square root of 2n, that together sum to the zero vector. When no such minimum exists for a particular n, we set a(n) = 0.",
+  "description": "a(n) is the minimum odd number of Z^3 vectors, each of magnitude square root of 2n, that together sum to the zero vector. When no such minimum exists for a particular n, we set a(n) = 0.",
   "id": "A309339",
   "mentions": [],
   "tags": [
+    "changed",
     "more",
     "nonn"
   ],

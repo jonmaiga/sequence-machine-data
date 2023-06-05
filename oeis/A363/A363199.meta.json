@@ -1,0 +1,19 @@
+{
+  "description": "Number of free tree-like polycubes of size n, identifying rotations but not reflections.",
+  "id": "A363199",
+  "mentions": [
+    "A118356",
+    "A304196"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

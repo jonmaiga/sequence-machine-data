@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 0..3 arrays with rows and columns lexicographically nondecreasing read forwards and nonincreasing read backwards",
+  "description": "Number of n X 7 0..3 arrays with rows and columns lexicographically nondecreasing read forwards and nonincreasing read backwards.",
   "id": "A201980",
   "mentions": [
     "A201981"

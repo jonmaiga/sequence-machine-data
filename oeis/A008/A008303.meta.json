@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations of [n] with k peaks, triangle read by rows, T(n,k) for n >= 1 and 0 <= k <= ceiling(n/2)-1.",
+  "description": "Triangle read by rows: T(n,k) (n >= 1, 0 <= k <= ceiling(n/2)-1) = number of permutations of [n] with k peaks.",
   "id": "A008303",
   "mentions": [
     "A000079",
@@ -21,6 +21,7 @@
     "A242784"
   ],
   "tags": [
+    "changed",
     "formulas",
     "nonn",
     "tabf"

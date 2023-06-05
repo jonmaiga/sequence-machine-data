@@ -1,0 +1,18 @@
+{
+  "description": "Three-dimensional polyknights, identifying rotations and reflections.",
+  "id": "A363382",
+  "mentions": [
+    "A030446"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

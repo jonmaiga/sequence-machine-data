@@ -1,8 +1,11 @@
 {
   "description": "Decimal expansion of c = Product_{k>=1} (1 + 1/t(k)) where t(k) = k(k+1)/2 is the k-th triangular number.",
   "id": "A084248",
-  "mentions": [],
+  "mentions": [
+    "A000217"
+  ],
   "tags": [
+    "changed",
     "cons",
     "formulas",
     "nonn"

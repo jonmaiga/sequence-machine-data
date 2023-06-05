@@ -1,13 +1,18 @@
 {
-  "description": "G.f. satisfies: A(x) = exp( Sum_{n>=1} 2^n*A(x^n)*x^n/n ).",
+  "description": "G.f. satisfies A(x) = exp( Sum_{n>=1} 2^n*A(x^n)*x^n/n ).",
   "id": "A179469",
-  "mentions": [],
+  "mentions": [
+    "A054598",
+    "A179470"
+  ],
   "tags": [
+    "changed",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 23,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

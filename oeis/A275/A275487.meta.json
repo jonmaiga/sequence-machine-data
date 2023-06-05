@@ -5,11 +5,13 @@
     "A006037"
   ],
   "tags": [
+    "changed",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 34,
+    "size": 37,
     "source": "oeis-entry"
   }
 }

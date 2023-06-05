@@ -2,9 +2,11 @@
   "description": "Decimal expansion of 1/2 + Sum_{n>0} exp(-Pi*n^2).",
   "id": "A319332",
   "mentions": [
-    "A175573"
+    "A175573",
+    "A327996"
   ],
   "tags": [
+    "changed",
     "cons",
     "formulas",
     "nonn"

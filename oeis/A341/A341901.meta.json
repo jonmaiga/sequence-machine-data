@@ -2,6 +2,7 @@
   "description": "Decimal expansion of 1/zeta(9).",
   "id": "A341901",
   "mentions": [
+    "A008683",
     "A013667",
     "A059956",
     "A088453",
@@ -12,6 +13,7 @@
     "A343367"
   ],
   "tags": [
+    "changed",
     "cons",
     "formulas",
     "nonn"

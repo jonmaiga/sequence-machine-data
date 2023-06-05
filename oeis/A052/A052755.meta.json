@@ -1,9 +1,15 @@
 {
-  "description": "A simple grammar.",
+  "description": "G.f. A(x) satisfies: A(x) = exp( Sum_{k>=1} (-1)^(k+1) * A(x^k)^3 * x^k / k )",
   "id": "A052755",
-  "mentions": [],
+  "mentions": [
+    "A005754",
+    "A052775",
+    "A052798"
+  ],
   "tags": [
+    "changed",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the highest power of 2 dividing k is larger than the highest power of p dividing k for any odd prime p.",
+  "id": "A363122",
+  "mentions": [
+    "A006519",
+    "A034699",
+    "A116882",
+    "A363123"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

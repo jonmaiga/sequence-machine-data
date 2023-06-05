@@ -2,6 +2,10 @@
   "description": "P_n(7), where P_n is n-th Legendre polynomial; also, a(n) = central coefficient of (1 + 7*x + 12*x^2)^n.",
   "id": "A084768",
   "mentions": [
+    "A000012",
+    "A001850",
+    "A006442",
+    "A084769",
     "A084774",
     "A243944"
   ],

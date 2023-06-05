@@ -1,0 +1,18 @@
+{
+  "description": "Maximum product of distinct primes with sum n, or -1 if n is not the sum of distinct primes.",
+  "id": "A363266",
+  "mentions": [
+    "A000586",
+    "A000792",
+    "A064502"
+  ],
+  "tags": [
+    "new",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

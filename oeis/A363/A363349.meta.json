@@ -1,0 +1,32 @@
+{
+  "description": "Array read by antidiagonals: T(n,k) is the number of equivalence classes of n X k binary matrices under permutation of rows and columns and complementation of columns.",
+  "id": "A363349",
+  "mentions": [
+    "A000012",
+    "A000027",
+    "A000601",
+    "A000711",
+    "A004526",
+    "A005232",
+    "A006380",
+    "A006381",
+    "A006382",
+    "A006383",
+    "A028657",
+    "A056204",
+    "A056205",
+    "A241956",
+    "A259344",
+    "A362905"
+  ],
+  "tags": [
+    "new",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,11 +1,13 @@
 {
-  "description": "Numbers n with property that in base 4 representation the numbers of 0's and 3's are 0 and 3, respectively.",
+  "description": "Numbers whose base-4 representation contains no 0's and exactly three 3's.",
   "id": "A045064",
   "mentions": [
+    "A007090",
     "A031468"
   ],
   "tags": [
     "base",
+    "changed",
     "nonn"
   ],
   "terms": {

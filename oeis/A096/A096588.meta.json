@@ -5,12 +5,13 @@
     "A096587"
   ],
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 29,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

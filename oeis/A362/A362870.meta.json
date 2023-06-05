@@ -10,18 +10,19 @@
     "A013969",
     "A016825",
     "A075180",
+    "A082771",
     "A281959",
     "A358625"
   ],
   "tags": [
+    "changed",
     "formulas",
     "mult",
-    "new",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 11,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

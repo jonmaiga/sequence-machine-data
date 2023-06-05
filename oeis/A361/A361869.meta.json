@@ -1,0 +1,17 @@
+{
+  "description": "Let x_0, x_1, x_2, ... be the iterations of the arithmetic derivative A003415 starting with x_0 = n. a(n) is the greatest k such that x_0 > x_1 > ... > x_k.",
+  "id": "A361869",
+  "mentions": [
+    "A003415",
+    "A099307"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

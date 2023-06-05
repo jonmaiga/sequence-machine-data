@@ -9,12 +9,11 @@
     "A217514"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 25,
-    "source": "oeis-entry"
+    "size": 51,
+    "source": "oeis-bfile"
   }
 }

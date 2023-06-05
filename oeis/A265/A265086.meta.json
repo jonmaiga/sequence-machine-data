@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX2 arrays containing 2 copies of 0..n-1 with row sums equal and column sums equal.",
+  "description": "Number of n X 2 arrays containing 2 copies of 0..n-1 with row sums equal and column sums equal.",
   "id": "A265086",
   "mentions": [
     "A265089"

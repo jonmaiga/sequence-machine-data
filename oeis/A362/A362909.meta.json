@@ -1,19 +1,16 @@
 {
-  "description": "Gilbreath transform of the sequence of squared primes.",
+  "description": "a(n) is the smallest number k such that A362881(k) = n.",
   "id": "A362909",
   "mentions": [
-    "A001248",
-    "A069482",
-    "A117069"
+    "A362881"
   ],
   "tags": [
-    "formulas",
-    "new",
+    "changed",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 69,
-    "source": "oeis-entry"
+    "size": 37,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "description": "Lexicographically earliest infinite sequence of positive numbers on a square spiral such that every 3 by 3 block of numbers contains the digits 1 through 9.",
+  "id": "A363372",
+  "mentions": [
+    "A174344",
+    "A274640",
+    "A274923",
+    "A358151",
+    "A361486",
+    "A361702"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

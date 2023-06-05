@@ -1,5 +1,5 @@
 {
-  "description": "n^10+n",
+  "description": "a(n) = n^10 + n.",
   "id": "A196292",
   "mentions": [
     "A195859",
@@ -9,6 +9,7 @@
     "A196291"
   ],
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "a(1) = 3; for n>1, a(n) = 4 * a(n-1) + 4 - n.",
+  "description": "a(1) = 3; for n > 1, a(n) = 4*a(n-1) + 4 - n.",
   "id": "A353095",
   "mentions": [
     "A014825",
@@ -12,6 +12,7 @@
     "A353100"
   ],
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"

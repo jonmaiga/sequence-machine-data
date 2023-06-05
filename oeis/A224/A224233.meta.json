@@ -1,8 +1,12 @@
 {
   "description": "Decimal expansion of number of inches in a meter.",
   "id": "A224233",
-  "mentions": [],
+  "mentions": [
+    "A224234",
+    "A224235"
+  ],
   "tags": [
+    "changed",
     "cons",
     "formulas",
     "nonn"

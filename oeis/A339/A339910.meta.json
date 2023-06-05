@@ -1,5 +1,5 @@
 {
-  "description": "After 1, numbers k > 1 such that k has less prime divisors than k-1, when they are counted with multiplicity.",
+  "description": "After 1, numbers k > 1 such that k has fewer prime divisors than k-1, when they are counted with multiplicity.",
   "id": "A339910",
   "mentions": [
     "A001222",

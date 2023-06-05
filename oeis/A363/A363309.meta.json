@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of g.f. A(x) = F(x*F(x)^5), where F(x) = 1 + x*F(x)^3 is the g.f. of A001764.",
+  "id": "A363309",
+  "mentions": [
+    "A001764",
+    "A363111",
+    "A363308",
+    "A363310",
+    "A363311"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

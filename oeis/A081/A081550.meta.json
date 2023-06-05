@@ -1,10 +1,15 @@
 {
-  "description": "Decimal expansion of Sum_(1/(2^q-1)) with the summation extending over all pairs of integers (p,q)=1, 0 < p/q < Pi.",
+  "description": "Decimal expansion of Sum_(1/(2^q-1)) with the summation extending over all pairs of integers gcd(p,q) = 1, 0 < p/q < Pi.",
   "id": "A081550",
   "mentions": [
-    "A000796"
+    "A000796",
+    "A032615",
+    "A081544",
+    "A081564",
+    "A081573"
   ],
   "tags": [
+    "changed",
     "cons",
     "formulas",
     "nonn"

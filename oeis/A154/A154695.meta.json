@@ -1,8 +1,9 @@
 {
-  "description": "Generalized Sierpinski-Pascal-MacMahon gasket triangular sequence defined by T(n, m) = (r^(n-m)*q^m + r^m*q^(n-m))*b(n), where b(n) = coefficients of p(x, n) = 2^n*(1-x)^(n+1) * LerchPhi(x, -n, 1/2), and r=2, q=1.",
+  "description": "Triangular sequence defined by T(n, m) = (r^(n-m)*q^m + r^m*q^(n-m))*b(n), where b(n) = coefficients of p(x, n) = 2^n*(1-x)^(n+1) * LerchPhi(x, -n, 1/2), and r=2, q=1.",
   "id": "A154695",
   "mentions": [],
   "tags": [
+    "changed",
     "formulas",
     "less",
     "nonn",

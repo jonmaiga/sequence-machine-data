@@ -1,5 +1,5 @@
 {
-  "description": "Number of permutations that are separable by a point, i.e., permutations avoiding the patterns 2-41-3, 3-14-2, 2-14-3, and 3-41-2.",
+  "description": "Number of permutations avoiding the patterns 2-41-3, 3-14-2, 2-14-3, and 3-41-2.",
   "id": "A348351",
   "mentions": [
     "A001181",
@@ -7,6 +7,7 @@
     "A078482"
   ],
   "tags": [
+    "changed",
     "more",
     "nonn"
   ],

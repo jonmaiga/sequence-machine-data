@@ -1,11 +1,12 @@
 {
-  "description": "Numbers n with property that n is divisible by A268336(n).",
+  "description": "Numbers m that are divisible by A268336(m).",
   "id": "A267817",
   "mentions": [
     "A174824",
     "A268336"
   ],
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {

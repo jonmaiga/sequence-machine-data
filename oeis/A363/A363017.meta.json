@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least integer k such that the k-th, (k+1)-th, ..., (k+n-1)-th primes are congruent to 3 mod 8.",
+  "id": "A363017",
+  "mentions": [
+    "A023512",
+    "A057632",
+    "A363016"
+  ],
+  "tags": [
+    "changed",
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

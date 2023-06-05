@@ -6,12 +6,13 @@
     "A003462"
   ],
   "tags": [
+    "changed",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 16,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Odd nonprimes that are preceded by but not followed by primes.",
+  "description": "Odd nonprimes np such that np-2 is a prime number but np+2 is not.",
   "id": "A134099",
   "mentions": [
     "A007510",

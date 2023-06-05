@@ -1,0 +1,25 @@
+{
+  "description": "Alternating sum of digits of the Fibonacci numbers, with a plus sign for the last digit.",
+  "id": "A362358",
+  "mentions": [
+    "A000040",
+    "A000045",
+    "A004090",
+    "A007887",
+    "A055017",
+    "A060384",
+    "A105955"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "new",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

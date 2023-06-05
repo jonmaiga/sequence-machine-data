@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, A000012 * A177445 * the diagonalized variant of A120562",
+  "description": "Triangle read by rows: A000012 * A177444 * the diagonalized variant of A120562.",
   "id": "A177446",
   "mentions": [
     "A000012",
@@ -8,6 +8,7 @@
     "A177445"
   ],
   "tags": [
+    "changed",
     "formulas",
     "nonn",
     "tabl"

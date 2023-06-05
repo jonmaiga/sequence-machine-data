@@ -1,0 +1,22 @@
+{
+  "description": "Least number divisible by the first n primes whose factorization into maximal prime powers, if ordered by increasing prime divisor, then has these prime power factors in decreasing order.",
+  "id": "A363234",
+  "mentions": [
+    "A067255",
+    "A347284",
+    "A347355",
+    "A363063",
+    "A363098"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

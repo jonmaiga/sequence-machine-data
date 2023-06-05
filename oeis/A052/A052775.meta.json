@@ -1,9 +1,15 @@
 {
-  "description": "A simple grammar.",
+  "description": "G.f. A(x) satisfies: A(x) = exp( Sum_{k>=1} (-1)^(k+1) * A(x^k)^4 * x^k / k ).",
   "id": "A052775",
-  "mentions": [],
+  "mentions": [
+    "A005754",
+    "A052755",
+    "A052798"
+  ],
   "tags": [
+    "changed",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

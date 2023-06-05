@@ -6,11 +6,12 @@
     "A359005"
   ],
   "tags": [
+    "changed",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

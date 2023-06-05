@@ -6,7 +6,6 @@
     "A341029"
   ],
   "tags": [
-    "changed",
     "easy",
     "formulas",
     "nonn"
@@ -14,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 34,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

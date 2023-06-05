@@ -1,8 +1,13 @@
 {
-  "description": "Nonprime-powers, n, where all distinct primes dividing n are consecutive primes.",
+  "description": "Numbers, other than prime powers, whose distinct prime factors are consecutive primes.",
   "id": "A066312",
-  "mentions": [],
+  "mentions": [
+    "A007947",
+    "A097889"
+  ],
   "tags": [
+    "changed",
+    "formulas",
     "nonn"
   ],
   "terms": {

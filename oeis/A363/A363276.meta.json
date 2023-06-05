@@ -1,0 +1,20 @@
+{
+  "description": "Number of partitions of n such that 4*(least part) <= greatest part.",
+  "id": "A363276",
+  "mentions": [
+    "A237821",
+    "A237826",
+    "A363076",
+    "A363211"
+  ],
+  "tags": [
+    "formulas",
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

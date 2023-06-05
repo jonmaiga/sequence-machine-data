@@ -2,12 +2,17 @@
   "description": "Expansion of 1/sqrt(1 - 10*x + x^2).",
   "id": "A006442",
   "mentions": [
+    "A000012",
+    "A001850",
     "A007401",
+    "A084768",
+    "A084769",
     "A092566",
     "A098270",
     "A243943"
   ],
   "tags": [
+    "changed",
     "easy",
     "formulas",
     "nonn"

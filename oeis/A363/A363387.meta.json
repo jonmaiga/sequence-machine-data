@@ -1,0 +1,18 @@
+{
+  "description": "G.f. A(x) satisfies: A(x) = x + x^2 * exp( Sum_{k>=1} A(x^k)^2 / (k*x^k) ).",
+  "id": "A363387",
+  "mentions": [
+    "A005750",
+    "A007562",
+    "A363388"
+  ],
+  "tags": [
+    "new",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}
