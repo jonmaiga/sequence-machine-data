@@ -62,20 +62,19 @@
       ]
     },
     {
-      "d": "2023-06-04",
-      "ix": "ceil(record[sqrt(xor(3, n))])+2+n",
+      "d": "2023-06-09",
+      "ix": "∑[runs[floor((tanh(3)-sqrt(n))²)]]",
       "mt": 18,
       "px": [
         "3",
+        "tanh",
         "n",
-        "xor",
         "sqrt",
-        "record",
-        "ceil",
-        "2",
-        "+",
-        "n",
-        "+"
+        "sub",
+        "²",
+        "floor",
+        "runs",
+        "∑"
       ]
     }
   ]

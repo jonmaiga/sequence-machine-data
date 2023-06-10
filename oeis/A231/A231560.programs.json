@@ -118,16 +118,16 @@
       ]
     },
     {
-      "d": "2022-06-12",
-      "ix": "dr(round(sqrt(sqrt(sqrt(n)))))",
+      "d": "2023-06-05",
+      "ix": "round(n^sinh(acot(8)))",
       "mt": 87,
       "px": [
         "n",
-        "sqrt",
-        "sqrt",
-        "sqrt",
-        "round",
-        "dr"
+        "8",
+        "acot",
+        "sinh",
+        "^",
+        "round"
       ]
     }
   ]
