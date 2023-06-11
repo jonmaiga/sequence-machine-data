@@ -89,14 +89,14 @@
       ]
     },
     {
-      "d": "2023-06-05",
-      "ix": "floor(cos(char[xor(n, n-1)]))",
+      "d": "2023-06-11",
+      "ix": "floor(cos(char[xor(n, n+1)]))",
       "mt": 10000,
       "px": [
         "n",
         "n",
         "1",
-        "sub",
+        "+",
         "xor",
         "char",
         "cos",
@@ -104,14 +104,14 @@
       ]
     },
     {
-      "d": "2023-06-05",
-      "ix": "floor(acos(char[xor(n, n-1)]))",
+      "d": "2023-06-11",
+      "ix": "floor(acos(char[xor(n, n+1)]))",
       "mt": 10000,
       "px": [
         "n",
         "n",
         "1",
-        "sub",
+        "+",
         "xor",
         "char",
         "acos",
@@ -119,14 +119,14 @@
       ]
     },
     {
-      "d": "2023-06-05",
-      "ix": "floor(acot(char[xor(n, n-1)]))",
+      "d": "2023-06-11",
+      "ix": "floor(acot(char[xor(n, n+1)]))",
       "mt": 10000,
       "px": [
         "n",
         "n",
         "1",
-        "sub",
+        "+",
         "xor",
         "char",
         "acot",
@@ -134,14 +134,14 @@
       ]
     },
     {
-      "d": "2023-06-05",
-      "ix": "sin(acos(char[xor(n, n-1)]))",
+      "d": "2023-06-11",
+      "ix": "sin(acos(char[xor(n, n+1)]))",
       "mt": 10000,
       "px": [
         "n",
         "n",
         "1",
-        "sub",
+        "+",
         "xor",
         "char",
         "acos",
@@ -149,14 +149,14 @@
       ]
     },
     {
-      "d": "2023-06-05",
-      "ix": "cos(asin(char[xor(n, n-1)]))",
+      "d": "2023-06-11",
+      "ix": "cos(asin(char[xor(n, n+1)]))",
       "mt": 10000,
       "px": [
         "n",
         "n",
         "1",
-        "sub",
+        "+",
         "xor",
         "char",
         "asin",

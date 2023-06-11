@@ -2,15 +2,15 @@
   "oi": 6985,
   "ps": [
     {
-      "d": "2021-11-01",
-      "ix": "record[A000045(contfrac[atan(77)])]",
+      "d": "2023-06-10",
+      "ix": "A000045(record[contfrac[atan(77)]])",
       "mt": 6,
       "px": [
         "77",
         "atan",
         "contfrac",
-        "A000045",
-        "record"
+        "record",
+        "A000045"
       ]
     }
   ]

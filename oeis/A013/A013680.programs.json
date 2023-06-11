@@ -38,6 +38,20 @@
       ]
     },
     {
+      "d": "2023-06-07",
+      "ix": "round(1/acot(contfrac[sqrt(C183031)]))",
+      "mt": 50,
+      "px": [
+        "1",
+        "C183031",
+        "sqrt",
+        "contfrac",
+        "acot",
+        "/",
+        "round"
+      ]
+    },
+    {
       "d": "2022-09-26",
       "ix": "abs(1-contfrac[sqrt(C183031)])+1",
       "mt": 50,

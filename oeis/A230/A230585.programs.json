@@ -62,16 +62,16 @@
       ]
     },
     {
-      "d": "2023-05-22",
-      "ix": "record[A120588(n)+round(acot(n))]",
+      "d": "2023-06-11",
+      "ix": "record[round(A120588(n)+acot(n))]",
       "mt": 171,
       "px": [
         "n",
         "A120588",
         "n",
         "acot",
-        "round",
         "+",
+        "round",
         "record"
       ]
     },
