@@ -34,8 +34,8 @@
       ]
     },
     {
-      "d": "2021-11-01",
-      "ix": "or(1, record[and(2*n, -n)])",
+      "d": "2023-06-21",
+      "ix": "record[or(1, and(2*n, -n))]",
       "mt": 1001,
       "px": [
         "1",
@@ -45,13 +45,13 @@
         "n",
         "neg",
         "and",
-        "record",
-        "or"
+        "or",
+        "record"
       ]
     },
     {
-      "d": "2021-11-01",
-      "ix": "xor(1, record[and(2*n, -n)])",
+      "d": "2023-06-21",
+      "ix": "record[xor(1, and(2*n, -n))]",
       "mt": 1001,
       "px": [
         "1",
@@ -61,8 +61,8 @@
         "n",
         "neg",
         "and",
-        "record",
-        "xor"
+        "xor",
+        "record"
       ]
     },
     {
