@@ -42,6 +42,21 @@
       ]
     },
     {
+      "d": "2023-07-02",
+      "ix": "floor(log2(record[xor(1, n)+1]))",
+      "mt": 10000,
+      "px": [
+        "1",
+        "n",
+        "xor",
+        "1",
+        "+",
+        "record",
+        "log2",
+        "floor"
+      ]
+    },
+    {
       "d": "2021-11-16",
       "ix": "floor(record[log2(or(2, n+1))])",
       "mt": 10000,
@@ -51,21 +66,6 @@
         "1",
         "+",
         "or",
-        "log2",
-        "record",
-        "floor"
-      ]
-    },
-    {
-      "d": "2021-11-16",
-      "ix": "floor(record[log2(xor(1, n+2))])",
-      "mt": 10000,
-      "px": [
-        "1",
-        "n",
-        "2",
-        "+",
-        "xor",
         "log2",
         "record",
         "floor"
