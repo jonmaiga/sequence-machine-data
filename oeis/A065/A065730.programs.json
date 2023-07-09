@@ -39,14 +39,14 @@
       ]
     },
     {
-      "d": "2023-07-02",
-      "ix": "floor(sqrt(record[A051698(n)]))²",
+      "d": "2023-07-08",
+      "ix": "floor(record[sqrt(A051698(n))])²",
       "mt": 1000,
       "px": [
         "n",
         "A051698",
-        "record",
         "sqrt",
+        "record",
         "floor",
         "²"
       ]

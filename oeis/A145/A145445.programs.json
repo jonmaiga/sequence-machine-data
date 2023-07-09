@@ -27,14 +27,14 @@
       ]
     },
     {
-      "d": "2023-07-02",
-      "ix": "ceil(sqrt(record[A051698(n)]))²",
+      "d": "2023-07-08",
+      "ix": "ceil(record[sqrt(A051698(n))])²",
       "mt": 1000,
       "px": [
         "n",
         "A051698",
-        "record",
         "sqrt",
+        "record",
         "ceil",
         "²"
       ]
