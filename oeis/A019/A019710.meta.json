@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of sqrt(Pi)/8.",
   "id": "A019710",
-  "mentions": [],
+  "mentions": [
+    "A002161"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

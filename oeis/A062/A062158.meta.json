@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = n^3 - n^2 + n - 1.",
+  "description": "a(n) = n^3 - n^2 + n - 1 = (n-1) * (n^2 + 1).",
   "id": "A062158",
   "mentions": [
     "A002061",

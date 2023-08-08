@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} n^notdivides(k, n), where notdivides(k, n) = 0 if k divides n, otherwise 1.",
+  "id": "A363735",
+  "mentions": [
+    "A000005",
+    "A113704",
+    "A363421",
+    "A363734"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-bfile"
+  }
+}

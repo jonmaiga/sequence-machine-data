@@ -1,0 +1,16 @@
+{
+  "description": "Index of first occurrence of n in A364197.",
+  "id": "A364198",
+  "mentions": [
+    "A364197"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

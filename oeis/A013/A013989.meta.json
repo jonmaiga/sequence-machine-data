@@ -2,7 +2,8 @@
   "description": "a(n) = (n+1)*(a(n-1)/n + a(n-2)), with a(0)=1, a(1)=2.",
   "id": "A013989",
   "mentions": [
-    "A000085"
+    "A000085",
+    "A099020"
   ],
   "tags": [
     "easy",

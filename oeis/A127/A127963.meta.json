@@ -5,6 +5,7 @@
     "A000120",
     "A000978",
     "A000979",
+    "A007953",
     "A124400",
     "A126614",
     "A127936",
@@ -18,11 +19,12 @@
   "tags": [
     "base",
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 29,
-    "source": "joeis"
+    "size": 41,
+    "source": "oeis-entry"
   }
 }

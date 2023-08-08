@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least k such that 1 + 2^k + 3^k is divisible by n, or -1 if there is no such k.",
+  "id": "A364683",
+  "mentions": [
+    "A001550"
+  ],
+  "tags": [
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers that are the exact average of two consecutive odd semiprimes.",
+  "id": "A363074",
+  "mentions": [
+    "A000040",
+    "A046315",
+    "A363187",
+    "A363188"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

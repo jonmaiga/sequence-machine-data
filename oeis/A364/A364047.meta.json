@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Sum_{k>0} x^k / (1 + x^(6*k)).",
+  "id": "A364047",
+  "mentions": [
+    "A002654",
+    "A279060",
+    "A363037",
+    "A364011",
+    "A364043"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 104,
+    "source": "oeis-entry"
+  }
+}

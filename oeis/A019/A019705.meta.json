@@ -2,6 +2,7 @@
   "description": "Decimal expansion of sqrt(Pi)/3.",
   "id": "A019705",
   "mentions": [
+    "A002161",
     "A019676"
   ],
   "tags": [

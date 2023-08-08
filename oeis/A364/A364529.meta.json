@@ -1,0 +1,18 @@
+{
+  "description": "Number of compositions of 2n into n parts where differences between neighboring parts are in {-1,1}.",
+  "id": "A364529",
+  "mentions": [
+    "A016825",
+    "A173258",
+    "A309938"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

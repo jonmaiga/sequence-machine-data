@@ -2,10 +2,12 @@
   "description": "T(n,k) is the number of odd permutations (of an n-set) with exactly k fixed points.",
   "id": "A145225",
   "mentions": [
+    "A000387",
     "A001710",
-    "A145221",
+    "A008290",
     "A145222",
-    "A145223"
+    "A145223",
+    "A145224"
   ],
   "tags": [
     "formulas",
@@ -15,6 +17,6 @@
   "terms": {
     "offset": 0,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

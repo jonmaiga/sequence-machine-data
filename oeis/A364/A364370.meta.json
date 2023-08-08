@@ -1,0 +1,16 @@
+{
+  "description": "Number of chordless cycles (of length > 3) in the complement of the n-hypercube graph.",
+  "id": "A364370",
+  "mentions": [
+    "A361149"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

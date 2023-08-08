@@ -1,12 +1,11 @@
 {
-  "description": "A Diaconis-Mosteller approximation to the Birthday problem function.",
+  "description": "a(n) = floor(47*(n-3/2)^(3/2)).",
   "id": "A050256",
   "mentions": [
     "A014088",
     "A050255"
   ],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {

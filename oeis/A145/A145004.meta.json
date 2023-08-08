@@ -2,6 +2,7 @@
   "description": "Values of n at which the number of roots of the function x+n*cos(x) increases.",
   "id": "A145004",
   "mentions": [
+    "A004084",
     "A121381"
   ],
   "tags": [

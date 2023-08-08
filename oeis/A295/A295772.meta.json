@@ -2,6 +2,7 @@
   "description": "a(n) = Sum_{k=0..n} binomial((n-k)*k, k).",
   "id": "A295772",
   "mentions": [
+    "A060539",
     "A226391",
     "A264409"
   ],

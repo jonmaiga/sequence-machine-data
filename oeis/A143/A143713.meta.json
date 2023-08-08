@@ -1,14 +1,16 @@
 {
-  "description": "Numbers n such that n! - prime(n-1) yields a prime.",
+  "description": "Numbers k such that k! - prime(k-1) yields a prime.",
   "id": "A143713",
-  "mentions": [],
+  "mentions": [
+    "A064401"
+  ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "4^n = x*3^n+y*2^n+z*1^n, so 4^n equals the sum of a(n)=x+y+z pieces of like powers (=length of right side of solution of this Diophantine equation). Length of solutions obtained with \"greedy algorithm\" are given in A064630[n]. Here the binary order [A029837] of the length of those solutions is displayed, which \"on the average\" nearly equals n.",
+  "description": "a(n) = ceiling(log_2(A064630(n)).",
   "id": "A064631",
   "mentions": [
     "A002379",
@@ -17,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 72,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "description": "Squares visited by the chess king on a spiral-numbered board, where the king moves to the square with the fewest steps to reach 1 using the 3x+1 function. In case of a tie, the king moves to the square with the smallest number.",
+  "id": "A364247",
+  "mentions": [
+    "A006577",
+    "A014682",
+    "A316667",
+    "A326922",
+    "A328928",
+    "A328929",
+    "A329520",
+    "A330008",
+    "A335816"
+  ],
+  "tags": [
+    "fini",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

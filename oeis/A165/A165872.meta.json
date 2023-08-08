@@ -1,5 +1,5 @@
 {
-  "description": "Totally multiplicative sequence with a(p) = - 2.",
+  "description": "Totally multiplicative sequence with a(p^e) = (-2)^e.",
   "id": "A165872",
   "mentions": [
     "A001222",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 50,
+    "size": 88,
     "source": "oeis-bfile"
   }
 }

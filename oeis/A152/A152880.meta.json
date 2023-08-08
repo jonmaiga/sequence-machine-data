@@ -2,6 +2,7 @@
   "description": "Number of Dyck paths of semilength n having exactly one peak of maximum height.",
   "id": "A152880",
   "mentions": [
+    "A088457",
     "A152879"
   ],
   "tags": [
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
-    "source": "oeis-entry"
+    "size": 28,
+    "source": "oeis-bfile"
   }
 }

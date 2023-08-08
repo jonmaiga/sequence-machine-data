@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the greatest number with n prime factors, counted with multiplicity, and no decimal digit occurring more than twice, or -1 if there is no such number.",
+  "id": "A364363",
+  "mentions": [
+    "A001222",
+    "A363963"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-bfile"
+  }
+}

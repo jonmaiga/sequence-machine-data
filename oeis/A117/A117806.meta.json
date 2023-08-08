@@ -1,5 +1,5 @@
 {
-  "description": "n appears {a(1)+a(2)+...+a(n-1)} times (with a(1)=1).",
+  "description": "n appears {a(1) + a(2) + ... + a(n-1)} times (with a(1) = 1).",
   "id": "A117806",
   "mentions": [],
   "tags": [

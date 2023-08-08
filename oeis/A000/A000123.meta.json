@@ -2,6 +2,7 @@
   "description": "Number of binary partitions: number of partitions of 2n into powers of 2.",
   "id": "A000123",
   "mentions": [
+    "A000027",
     "A000041",
     "A000079",
     "A000265",

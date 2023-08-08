@@ -1,5 +1,5 @@
 {
-  "description": "2^BigO(n) * 3^omega(n), where BigO=A001222 and omega=A001221, the numbers of prime factors of n with and without repetitions.",
+  "description": "a(n) = 2^BigO(n) * 3^omega(n), where BigO = A001222 and omega = A001221, the numbers of prime factors of n with and without repetitions.",
   "id": "A124508",
   "mentions": [
     "A000079",
@@ -18,6 +18,7 @@
     "A124512"
   ],
   "tags": [
+    "easy",
     "formulas",
     "mult",
     "nonn"

@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n}(n^[not(k | n)] - n^[k | n]), where '[ ]' denotes the Iverson bracket.",
+  "id": "A363421",
+  "mentions": [
+    "A000005",
+    "A113704",
+    "A363734",
+    "A363735"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

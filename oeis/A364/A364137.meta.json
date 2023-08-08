@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the smallest positive number such that the sum of all terms a(1) + ... + a(n) has the same number of distinct prime factors as the product of all terms a(1) * ... * a(n).",
+  "id": "A364137",
+  "mentions": [
+    "A001221",
+    "A027748",
+    "A364138",
+    "A364262"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-bfile"
+  }
+}

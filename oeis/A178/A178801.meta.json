@@ -3,6 +3,7 @@
   "id": "A178801",
   "mentions": [
     "A000041",
+    "A000142",
     "A036042",
     "A053529",
     "A066186"
@@ -13,8 +14,8 @@
     "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 50,
+    "offset": 0,
+    "size": 51,
     "source": "oeis-entry"
   }
 }

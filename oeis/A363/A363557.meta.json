@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying 0 = Sum_{n>=0} (-1)^n * x^(n*(n-1)/2) * A(x)^n / Product_{k=1..n+1} (1 - x^k).",
+  "id": "A363557",
+  "mentions": [
+    "A082395",
+    "A363555"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-bfile"
+  }
+}

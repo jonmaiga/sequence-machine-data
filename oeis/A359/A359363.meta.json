@@ -14,7 +14,6 @@
     "A097805",
     "A142465",
     "A217800",
-    "A241958",
     "A342889"
   ],
   "tags": [
@@ -25,6 +24,6 @@
   "terms": {
     "offset": 0,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

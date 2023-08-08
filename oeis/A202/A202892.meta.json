@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+2)X4 binary arrays avoiding patterns 001 and 010 in rows, columns and nw-to-se diagonals",
+  "description": "Number of (n+2)X4 binary arrays avoiding patterns 001 and 010 in rows, columns and nw-to-se diagonals.",
   "id": "A202892",
   "mentions": [
     "A202898"

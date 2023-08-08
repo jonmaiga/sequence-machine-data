@@ -1,12 +1,13 @@
 {
-  "description": "Sum of first n fourth powers of odd numbers.",
+  "description": "Sum of fourth powers of first n odd numbers.",
   "id": "A002309",
   "mentions": [
     "A000027",
     "A000051",
     "A000290",
     "A000447",
-    "A002593"
+    "A002593",
+    "A005408"
   ],
   "tags": [
     "easy",

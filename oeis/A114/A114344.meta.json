@@ -1,7 +1,15 @@
 {
   "description": "Starting position of the first n in the decimal expansion of the square root of n, or -1 if n never appears.",
   "id": "A114344",
-  "mentions": [],
+  "mentions": [
+    "A002163",
+    "A002193",
+    "A002194",
+    "A010464",
+    "A010465",
+    "A010466",
+    "A010467"
+  ],
   "tags": [
     "base",
     "easy",

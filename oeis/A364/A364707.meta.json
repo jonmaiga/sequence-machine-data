@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least practical number A005153(k) such that A005153(k+1) - A005153(k) = 2*n, or -1 if no such number exists.",
+  "id": "A364707",
+  "mentions": [
+    "A005153",
+    "A179651",
+    "A330870",
+    "A364706"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

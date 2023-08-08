@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of Sum_{k>0} k^2 * x^k / (1 + x^(3*k)).",
+  "id": "A364013",
+  "mentions": [
+    "A050470",
+    "A364011",
+    "A364012"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

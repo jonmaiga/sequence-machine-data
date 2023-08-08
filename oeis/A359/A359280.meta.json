@@ -1,0 +1,22 @@
+{
+  "description": "Powerful numbers that are neither prime powers nor powers of squarefree composites.",
+  "id": "A359280",
+  "mentions": [
+    "A001694",
+    "A007947",
+    "A126706",
+    "A246547",
+    "A286708",
+    "A303606",
+    "A361098"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

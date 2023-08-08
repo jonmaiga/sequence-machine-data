@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Sum_{k>0} x^(3*k)/(1-x^k)^4.",
+  "id": "A363607",
+  "mentions": [
+    "A000203",
+    "A059358",
+    "A069153",
+    "A363604",
+    "A363608",
+    "A363611"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-bfile"
+  }
+}

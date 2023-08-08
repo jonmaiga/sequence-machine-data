@@ -2,16 +2,17 @@
   "description": "El Gradechi's hybrid coefficients alpha^{4,4}_{2n}.",
   "id": "A331768",
   "mentions": [
+    "A000447",
     "A331769",
     "A331770"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 5,
-    "source": "oeis-entry"
+    "size": 33,
+    "source": "oeis-bfile"
   }
 }

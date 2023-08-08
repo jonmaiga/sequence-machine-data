@@ -1,5 +1,5 @@
 {
-  "description": "p-INVERT of (1,1,1,1,1,...), where p(S) = (1 - S^2)(1 - 2 S).",
+  "description": "p-INVERT of (1,1,1,1,1,...), where p(S) = (1 - S^2)*(1 - 2*S).",
   "id": "A291012",
   "mentions": [
     "A000012",

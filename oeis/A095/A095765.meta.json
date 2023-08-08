@@ -1,5 +1,5 @@
 {
-  "description": "Number of primes in range [2^n,2^(n+1)] whose binary expansion begins '10' (A080165).",
+  "description": "Number of primes in range [2^n+1, 2^(n+1)] whose binary expansion begins '10' (A080165).",
   "id": "A095765",
   "mentions": [
     "A036378",
@@ -10,6 +10,7 @@
     "A095766"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

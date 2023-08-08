@@ -1,0 +1,14 @@
+{
+  "description": "Lower independence number of the n-folded cube graph.",
+  "id": "A363703",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

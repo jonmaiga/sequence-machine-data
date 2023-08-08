@@ -1,0 +1,17 @@
+{
+  "description": "Number of real algebraic numbers of Cantor's height n.",
+  "id": "A364316",
+  "mentions": [
+    "A364312",
+    "A364315"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

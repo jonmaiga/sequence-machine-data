@@ -1,11 +1,17 @@
 {
-  "description": "Imaginary part of Product_{k=0..n} 1+k*I, I=sqrt(-1).",
+  "description": "Imaginary part of Product_{k=0..n} (1 + k*i), i = sqrt(-1).",
   "id": "A105751",
   "mentions": [
+    "A002144",
+    "A002145",
     "A003703",
     "A009454",
+    "A048994",
     "A105750",
-    "A231531"
+    "A164652",
+    "A231531",
+    "A363409",
+    "A363416"
   ],
   "tags": [
     "easy",

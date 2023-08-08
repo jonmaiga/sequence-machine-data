@@ -1,10 +1,16 @@
 {
-  "description": "Indices n of hex numbers H(n) that are also triangular.",
+  "description": "Indices k of hex numbers H(k) that are also triangular.",
   "id": "A087125",
   "mentions": [
+    "A000217",
     "A006244",
     "A031138",
-    "A072256"
+    "A054318",
+    "A072256",
+    "A156546",
+    "A161680",
+    "A247412",
+    "A253475"
   ],
   "tags": [
     "easy",

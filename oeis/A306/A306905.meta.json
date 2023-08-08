@@ -2,9 +2,11 @@
   "description": "a(n) = A306898(n)/2.",
   "id": "A306905",
   "mentions": [
+    "A000013",
     "A306898"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

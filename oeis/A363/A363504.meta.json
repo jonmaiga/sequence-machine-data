@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest positive number that has not yet appeared that is a multiple of prime(Omega(a(n-1))).",
+  "id": "A363504",
+  "mentions": [
+    "A000040",
+    "A001222",
+    "A351495",
+    "A363956"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

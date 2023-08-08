@@ -2,6 +2,7 @@
   "description": "Number of compositions (p_1, p_2, p_3, ...) of n with 1 <= p_i <= i for all i.",
   "id": "A008930",
   "mentions": [
+    "A000707",
     "A048285",
     "A048651",
     "A177517"

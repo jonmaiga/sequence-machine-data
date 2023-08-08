@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of [n] with an equal number of even and odd block sizes.",
+  "id": "A361804",
+  "mentions": [
+    "A000110",
+    "A003724",
+    "A004767",
+    "A004773",
+    "A005046",
+    "A275679"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

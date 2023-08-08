@@ -1,0 +1,21 @@
+{
+  "description": "Sum of divisors of 5*n-3 of form 5*k+1.",
+  "id": "A364094",
+  "mentions": [
+    "A284097",
+    "A359237",
+    "A364092",
+    "A364093",
+    "A364095",
+    "A364098"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

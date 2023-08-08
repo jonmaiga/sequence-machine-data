@@ -1,5 +1,5 @@
 {
-  "description": "Irregular triangle read by rows in which row n lists the row n-th even perfect number of A237591, n >= 1.",
+  "description": "Irregular triangle read by rows in which row n is the \"n-th even perfect number\" row of A237591, n >= 1.",
   "id": "A346876",
   "mentions": [
     "A000040",

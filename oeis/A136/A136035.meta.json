@@ -1,9 +1,13 @@
 {
   "description": "Remainder when dividing 2^q - 1 by q + 1 where q is the n-th prime.",
   "id": "A136035",
-  "mentions": [],
+  "mentions": [
+    "A001348",
+    "A008864"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

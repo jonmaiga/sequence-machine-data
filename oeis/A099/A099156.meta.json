@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2^(n-1)*U(n-1, 2).",
+  "description": "a(n) = 2^(n-1)*ChebyshevU(n-1, 2).",
   "id": "A099156",
   "mentions": [
     "A001353",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 21,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

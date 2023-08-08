@@ -1,0 +1,16 @@
+{
+  "description": "Decimal expansion of the real part of zeta(1+Pi*i), where i=sqrt(-1).",
+  "id": "A363688",
+  "mentions": [
+    "A363687"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

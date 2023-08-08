@@ -1,0 +1,26 @@
+{
+  "description": "a(n) is the least k such that the base-n digits of 2^k are not all distinct.",
+  "id": "A364049",
+  "mentions": [
+    "A000079",
+    "A000866",
+    "A001357",
+    "A004642",
+    "A004643",
+    "A004645",
+    "A004646",
+    "A004647",
+    "A011557",
+    "A364052",
+    "A364089"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

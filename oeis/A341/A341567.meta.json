@@ -5,12 +5,11 @@
     "A004016"
   ],
   "tags": [
-    "more",
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 4,
+    "size": 27,
     "source": "oeis-entry"
   }
 }

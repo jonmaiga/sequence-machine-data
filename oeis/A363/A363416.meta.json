@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1/sqrt(5) * the imaginary part of Product_{k = 0..n} 1 + k*sqrt(-5).",
+  "id": "A363416",
+  "mentions": [
+    "A003626",
+    "A105750",
+    "A105751",
+    "A139513",
+    "A363409",
+    "A363415"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "description": "Floor of the average of the distinct prime factors of n.",
+  "id": "A363895",
+  "mentions": [
+    "A001221",
+    "A008472",
+    "A078174",
+    "A126594",
+    "A323171",
+    "A323172"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

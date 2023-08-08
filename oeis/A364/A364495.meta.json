@@ -1,0 +1,20 @@
+{
+  "description": "Odd numbers k such that k divides A163511(k).",
+  "id": "A364495",
+  "mentions": [
+    "A005940",
+    "A054429",
+    "A163511",
+    "A364296",
+    "A364494",
+    "A364498"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

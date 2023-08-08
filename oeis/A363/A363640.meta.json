@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Sum_{k>0} (1/(1 - k*x^k)^4 - 1).",
+  "id": "A363640",
+  "mentions": [
+    "A116963",
+    "A338662",
+    "A362683",
+    "A363639",
+    "A363648"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

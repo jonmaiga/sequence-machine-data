@@ -1,0 +1,21 @@
+{
+  "description": "Product of the divisors of n that are < sqrt(n).",
+  "id": "A363520",
+  "mentions": [
+    "A000196",
+    "A010052",
+    "A070039",
+    "A072499",
+    "A363521"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

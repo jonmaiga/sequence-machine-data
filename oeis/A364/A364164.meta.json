@@ -1,0 +1,20 @@
+{
+  "description": "a(1) = 1, a(2) = 2; for n > 2, a(n) is the smallest positive number that has not yet appeared that has the same number of distinct prime factors as the sum of all previous terms.",
+  "id": "A364164",
+  "mentions": [
+    "A001221",
+    "A352867",
+    "A355647",
+    "A355649",
+    "A355702",
+    "A363162"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

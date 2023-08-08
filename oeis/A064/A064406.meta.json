@@ -1,10 +1,11 @@
 {
-  "description": "The accumulation of the number of even entries (A048967) over the number of odd entries (A001316) in row n of Pascal's triangle (A007318).",
+  "description": "Partial sums of A064405.",
   "id": "A064406",
   "mentions": [
     "A001316",
     "A007318",
-    "A048967"
+    "A048967",
+    "A064405"
   ],
   "tags": [
     "easy",
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 70,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

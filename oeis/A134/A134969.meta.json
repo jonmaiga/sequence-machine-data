@@ -1,9 +1,13 @@
 {
   "description": "List of pairs of primes that are separated by the equivalent of 2 quadratic intervals. Both primes are greater than their preceding perfect squares by the same amount, or offset. The respective perfect squares can be both odd, in which case the offset is even, or both even, in which case the offset is odd.",
   "id": "A134969",
-  "mentions": [],
+  "mentions": [
+    "A056892"
+  ],
   "tags": [
     "formulas",
+    "less",
+    "more",
     "nonn",
     "tabf"
   ],

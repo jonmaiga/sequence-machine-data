@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 10^9999 + n is a (gigantic) prime.",
+  "description": "Numbers k such that 10^9999 + k is a (gigantic) prime.",
   "id": "A142587",
   "mentions": [
     "A074282"

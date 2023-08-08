@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the greatest k such that there are exactly n distinct numbers j that can be expressed as the sum of two squares with k^2 < j < (k+1)^2, or -1 if such a k does not exist.",
+  "id": "A364341",
+  "mentions": [
+    "A077773",
+    "A363761",
+    "A363763"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

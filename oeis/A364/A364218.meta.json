@@ -1,0 +1,39 @@
+{
+  "description": "Starts of runs of 3 consecutive integers that are Jacobsthal-Niven numbers (A364216).",
+  "id": "A364218",
+  "mentions": [
+    "A154701",
+    "A328206",
+    "A328210",
+    "A328214",
+    "A330932",
+    "A331087",
+    "A331822",
+    "A333428",
+    "A334310",
+    "A342428",
+    "A344343",
+    "A351716",
+    "A351721",
+    "A352091",
+    "A352109",
+    "A352322",
+    "A352344",
+    "A352510",
+    "A364216",
+    "A364217",
+    "A364219",
+    "A364220",
+    "A364221"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 47,
+    "source": "oeis-bfile"
+  }
+}

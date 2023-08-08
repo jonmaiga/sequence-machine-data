@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of cos(cos(1)).",
   "id": "A085663",
-  "mentions": [],
+  "mentions": [
+    "A049470"
+  ],
   "tags": [
     "cons",
     "nonn"

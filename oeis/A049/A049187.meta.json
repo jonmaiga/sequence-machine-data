@@ -1,5 +1,5 @@
 {
-  "description": "Revert transform of 2*(1 + x + x^2 + x^3 + x^4 + x^6 + x^7)-1/(1-x).",
+  "description": "Revert transform of 2*x*(1-x)*(1+x^2-x^5) -x/(1+x).",
   "id": "A049187",
   "mentions": [],
   "tags": [

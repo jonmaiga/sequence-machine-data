@@ -1,0 +1,22 @@
+{
+  "description": "G.f. satisfies A(x) = 1 + x*A(x) + x^2*A(x)^6.",
+  "id": "A364472",
+  "mentions": [
+    "A000045",
+    "A000108",
+    "A001006",
+    "A002295",
+    "A182454",
+    "A186996",
+    "A364476"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

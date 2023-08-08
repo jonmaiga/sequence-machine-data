@@ -1,0 +1,15 @@
+{
+  "description": "The y-coordinates of the even-ranked elements of the lexicographically earliest sequence of points satisfying staircase and no-three-in-a-line conditions. Companion sequence of A362977.",
+  "id": "A362978",
+  "mentions": [
+    "A362977"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -1,8 +1,9 @@
 {
-  "description": "Number of minimum geometric construction etches with compass of fixed opening and straight-edge to find the centroid of n points.",
+  "description": "Number of minimum geometric construction etches with compass of fixed opening and straightedge to find the centroid of n points.",
   "id": "A157650",
   "mentions": [],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],

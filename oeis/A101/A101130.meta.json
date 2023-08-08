@@ -1,5 +1,5 @@
 {
-  "description": "Indices of primes in sequence defined by A(0) = 79, A(n) = 10*A(n-1) - 81 for n > 0.",
+  "description": "Indices of primes in sequence defined by A(0) = 79, A(k) = 10*A(k-1) - 81 for k > 0.",
   "id": "A101130",
   "mentions": [
     "A000533",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 35,
+    "size": 37,
     "source": "oeis-entry"
   }
 }

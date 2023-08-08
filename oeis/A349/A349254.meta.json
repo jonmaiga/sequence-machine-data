@@ -1,5 +1,5 @@
 {
-  "description": "G.f. A(x) satisfies: A(x) = 1 / ((1 - x) * (1 - 3 * x * A(x)^2)).",
+  "description": "G.f. A(x) satisfies A(x) = 1 / ((1 - x) * (1 - 3 * x * A(x)^2)).",
   "id": "A349254",
   "mentions": [
     "A001764",
@@ -18,6 +18,6 @@
   "terms": {
     "offset": 0,
     "size": 19,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

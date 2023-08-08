@@ -1,0 +1,18 @@
+{
+  "description": "Complement of A364444.",
+  "id": "A364445",
+  "mentions": [
+    "A004215",
+    "A077773",
+    "A363762",
+    "A364444"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

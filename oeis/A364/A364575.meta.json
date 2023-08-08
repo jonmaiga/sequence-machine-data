@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A364574(A005940(1+n)), where A364574 is the Dirichlet inverse of A005941 [the inverse permutation of A005940].",
+  "id": "A364575",
+  "mentions": [
+    "A005940",
+    "A005941",
+    "A085405",
+    "A156552",
+    "A324052",
+    "A324640",
+    "A364574"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

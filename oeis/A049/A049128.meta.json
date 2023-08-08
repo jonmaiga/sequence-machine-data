@@ -1,5 +1,5 @@
 {
-  "description": "Revert transform of (x - 1)^2/(1 - x + x^3).",
+  "description": "Revert transform of x*(x - 1)^2/(1 - x + x^3).",
   "id": "A049128",
   "mentions": [],
   "tags": [

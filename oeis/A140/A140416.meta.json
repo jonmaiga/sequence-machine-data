@@ -1,11 +1,10 @@
 {
-  "description": "Decimal expansion of constant arising in quantum concatenated code Hamiltonians.",
+  "description": "Decimal expansion of (-71 + 869041^(1/2))/432000.",
   "id": "A140416",
   "mentions": [],
   "tags": [
     "cons",
     "easy",
-    "formulas",
     "nonn"
   ],
   "terms": {

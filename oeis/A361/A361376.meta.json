@@ -1,0 +1,20 @@
+{
+  "description": "Rewrite A129912(n), a product of distinct primorials P(i) = A002110(i) instead as a sum of powers 2^(i-1).",
+  "id": "A361376",
+  "mentions": [
+    "A002110",
+    "A129912",
+    "A129929",
+    "A272011",
+    "A283477"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

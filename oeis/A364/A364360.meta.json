@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = dpf(n) ^ tpf(n), where dpf(n) is the number of distinct prime factors of n if n >= 2 and otherwise = 0; tpf(n) is the number of all prime factors of n if n >= 2 and otherwise = 0.",
+  "id": "A364360",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A024619",
+    "A246655",
+    "A263653",
+    "A363920"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-entry"
+  }
+}

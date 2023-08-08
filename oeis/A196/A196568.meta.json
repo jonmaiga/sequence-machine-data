@@ -1,5 +1,5 @@
 {
-  "description": "Binomial coefficients of the form C(n, 3) that are nontrivial products of binomial coefficients of the form C(n, 3).",
+  "description": "Binomial coefficients of the form C(k, 3) that are products of two other binomial coefficients of the form C(k, 3).",
   "id": "A196568",
   "mentions": [],
   "tags": [

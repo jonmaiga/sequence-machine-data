@@ -1,0 +1,22 @@
+{
+  "description": "Terms of A363690 with a record number of divisors.",
+  "id": "A363692",
+  "mentions": [
+    "A000005",
+    "A359082",
+    "A359083",
+    "A361937",
+    "A363690",
+    "A363693"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

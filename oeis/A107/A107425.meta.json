@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (n + prime(n)) and (n+1 + prime(n+1)) are divisible by 7.",
+  "description": "Numbers k such that (k + prime(k)) and (k+1 + prime(k+1)) are divisible by 7.",
   "id": "A107425",
   "mentions": [],
   "tags": [

@@ -2,7 +2,9 @@
   "description": "Numbers with exactly 2 1's in ternary expansion.",
   "id": "A023693",
   "mentions": [
-    "A007089"
+    "A003946",
+    "A007089",
+    "A034472"
   ],
   "tags": [
     "base",

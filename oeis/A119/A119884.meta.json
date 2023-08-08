@@ -1,8 +1,9 @@
 {
-  "description": "E.g.f. sech(x)/(1-x).",
+  "description": "Expansion of e.g.f. sech(x)/(1-x).",
   "id": "A119884",
   "mentions": [
-    "A119879"
+    "A119879",
+    "A122045"
   ],
   "tags": [
     "easy",
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 21,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

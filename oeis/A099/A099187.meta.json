@@ -1,5 +1,5 @@
 {
-  "description": "Iterated dodecahedral numbers, starting with a(1) = 20.",
+  "description": "Let D(n) = n*(9*n^2-9*n+2)/2 then a(k+1) = D(a(k)) and a(0) = 1.",
   "id": "A099187",
   "mentions": [
     "A006566",
@@ -11,7 +11,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 5,
     "source": "oeis-bfile"
   }

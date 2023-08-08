@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k with the property that the character table of S_k contains a zero in every column.",
+  "id": "A363701",
+  "mentions": [
+    "A000217",
+    "A010054",
+    "A175595",
+    "A260682",
+    "A363675",
+    "A363676"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

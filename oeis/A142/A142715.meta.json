@@ -2,7 +2,8 @@
   "description": "Primes congruent to 31 mod 58.",
   "id": "A142715",
   "mentions": [
-    "A000040"
+    "A000040",
+    "A141978"
   ],
   "tags": [
     "easy",

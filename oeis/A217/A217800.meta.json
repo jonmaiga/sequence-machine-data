@@ -2,10 +2,13 @@
   "description": "Number of alternating permutations on 2n+1 letters that avoid a certain pattern of length 4 (see Lewis, 2012, Appendix, for precise definition).",
   "id": "A217800",
   "mentions": [
+    "A005789",
+    "A006480",
     "A007724",
     "A181197",
     "A217799",
-    "A217830"
+    "A217830",
+    "A241958"
   ],
   "tags": [
     "formulas",

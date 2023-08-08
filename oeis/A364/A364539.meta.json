@@ -1,0 +1,23 @@
+{
+  "description": "G.f. satisfies A(x) = 1 + x*A(x) + x^3*A(x)^5.",
+  "id": "A364539",
+  "mentions": [
+    "A023431",
+    "A063019",
+    "A071879",
+    "A182454",
+    "A215340",
+    "A349311",
+    "A364522"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

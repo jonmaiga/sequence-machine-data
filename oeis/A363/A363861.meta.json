@@ -1,0 +1,18 @@
+{
+  "description": "Sequence related to chains in type D noncrossing partitions.",
+  "id": "A363861",
+  "mentions": [
+    "A078707",
+    "A152291"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

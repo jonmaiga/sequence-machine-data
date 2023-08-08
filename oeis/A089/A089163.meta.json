@@ -1,5 +1,5 @@
 {
-  "description": "Second prime factor of x=3^p - 2^p when p is prime and omega(x)>=2.",
+  "description": "Second prime factor of x = 3^p - 2^p when p is prime and omega(x) >= 2.",
   "id": "A089163",
   "mentions": [
     "A001047"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
-    "source": "oeis-entry"
+    "size": 21,
+    "source": "oeis-bfile"
   }
 }

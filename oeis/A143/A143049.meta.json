@@ -1,11 +1,15 @@
 {
-  "description": "G.f. satisfies: A(x) = 1 + x*A(-x)^6.",
+  "description": "G.f. satisfies A(x) = 1 + x*A(-x)^6.",
   "id": "A143049",
   "mentions": [
     "A143045",
     "A143046",
     "A143047",
-    "A143048"
+    "A143048",
+    "A171206",
+    "A213252",
+    "A213281",
+    "A213335"
   ],
   "tags": [
     "formulas",
@@ -14,6 +18,6 @@
   "terms": {
     "offset": 0,
     "size": 21,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

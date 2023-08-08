@@ -1,0 +1,38 @@
+{
+  "description": "Numbers whose prime factors have high median 2. Numbers whose prime factors (with multiplicity) are mostly 2's.",
+  "id": "A364056",
+  "mentions": [
+    "A001222",
+    "A027336",
+    "A027746",
+    "A056239",
+    "A072978",
+    "A112798",
+    "A123528",
+    "A123529",
+    "A124943",
+    "A124944",
+    "A215366",
+    "A316413",
+    "A326567",
+    "A326568",
+    "A359908",
+    "A360005",
+    "A360013",
+    "A360015",
+    "A363488",
+    "A363727",
+    "A363740",
+    "A363941",
+    "A363942",
+    "A363949"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

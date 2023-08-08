@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that phi(2*k + 2) < phi(2*k).",
+  "description": "Numbers 2*k such that phi(2*k + 2) < phi(2*k).",
   "id": "A064804",
   "mentions": [
     "A001837"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 56,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

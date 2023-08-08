@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the least k that has exactly n divisors whose arithmetic derivative is odd.",
+  "id": "A363483",
+  "mentions": [
+    "A353235"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

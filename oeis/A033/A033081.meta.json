@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with property that all pairs of consecutive base 10 digits differ by 3.",
+  "description": "Numbers in which all pairs of consecutive base-10 digits differ by 3.",
   "id": "A033081",
   "mentions": [],
   "tags": [

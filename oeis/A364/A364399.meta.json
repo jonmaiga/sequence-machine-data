@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies A(x) = 1 + x/A(x)^3*(1 + 1/A(x)^2).",
+  "id": "A364399",
+  "mentions": [
+    "A363380",
+    "A364393",
+    "A364395",
+    "A364397",
+    "A364398",
+    "A364400"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

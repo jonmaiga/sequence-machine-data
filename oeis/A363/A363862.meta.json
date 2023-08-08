@@ -1,0 +1,17 @@
+{
+  "description": "Number of equivalence classes of unimodular n X n matrices with elements {0, 1}.",
+  "id": "A363862",
+  "mentions": [
+    "A306837"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

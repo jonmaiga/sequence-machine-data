@@ -1,0 +1,19 @@
+{
+  "description": "Square array A(n, k), n, k >= 0, read by antidiagonals; A(n, k) is the greatest nonnegative number whose binary digits appear in order but not necessarily as consecutive digits in the binary expansions of n and k.",
+  "id": "A363164",
+  "mentions": [
+    "A175466",
+    "A301983"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

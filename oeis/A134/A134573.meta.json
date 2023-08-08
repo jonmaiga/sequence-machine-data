@@ -1,16 +1,15 @@
 {
-  "description": "Prime numbers for which there is a complete Padovan sequence in Fp and f(X) has three distinct roots.",
+  "description": "Prime numbers for which there is a complete Padovan sequence in F_p and f(X) has three distinct roots.",
   "id": "A134573",
   "mentions": [
-    "A134572",
-    "A134574"
+    "A134572"
   ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 21,
     "source": "oeis-entry"
   }

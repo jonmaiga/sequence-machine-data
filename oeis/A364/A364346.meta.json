@@ -1,0 +1,44 @@
+{
+  "description": "Number of strict integer partitions of n such that there is no ordered triple of parts (a,b,c) (repeats allowed) satisfying a + b = c. A variation of sum-free strict partitions.",
+  "id": "A364346",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A002865",
+    "A007865",
+    "A008284",
+    "A008289",
+    "A025065",
+    "A085489",
+    "A093971",
+    "A108917",
+    "A111133",
+    "A236912",
+    "A237113",
+    "A237667",
+    "A240861",
+    "A275972",
+    "A288728",
+    "A320340",
+    "A320347",
+    "A323092",
+    "A325862",
+    "A326083",
+    "A363225",
+    "A363226",
+    "A363260",
+    "A364270",
+    "A364345",
+    "A364347",
+    "A364348",
+    "A364349"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

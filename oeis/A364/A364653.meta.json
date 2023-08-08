@@ -1,0 +1,15 @@
+{
+  "description": "Domination number of the n-Lucas cube graph.",
+  "id": "A364653",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

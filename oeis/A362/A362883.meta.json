@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = A055498(n) - A055500(n).",
+  "id": "A362883",
+  "mentions": [
+    "A001622",
+    "A055498",
+    "A055500"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

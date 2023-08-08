@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of isomorphism classes of genus 2 hyperelliptic curves over the finite field of order prime(n).",
+  "id": "A363840",
+  "mentions": [
+    "A362243",
+    "A363843"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 37,
+    "source": "oeis-entry"
+  }
+}

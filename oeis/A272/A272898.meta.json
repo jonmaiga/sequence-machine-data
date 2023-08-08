@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2^n has equal numbers of odd and even decimal digits.",
+  "description": "Numbers k such that 2^k has equal numbers of odd and even decimal digits.",
   "id": "A272898",
   "mentions": [
     "A000079"

@@ -1,0 +1,23 @@
+{
+  "description": "Number of divisors of n of the form 7*k + 5.",
+  "id": "A363807",
+  "mentions": [
+    "A279061",
+    "A284446",
+    "A319995",
+    "A363795",
+    "A363805",
+    "A363806",
+    "A363808"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

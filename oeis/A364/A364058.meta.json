@@ -1,0 +1,35 @@
+{
+  "description": "Heinz numbers of integer partitions with median > 1. Numbers whose multiset of prime factors has median > 2.",
+  "id": "A364058",
+  "mentions": [
+    "A000065",
+    "A000975",
+    "A002865",
+    "A027336",
+    "A051293",
+    "A057716",
+    "A124943",
+    "A124944",
+    "A238495",
+    "A316413",
+    "A325347",
+    "A327473",
+    "A327476",
+    "A359893",
+    "A359901",
+    "A360005",
+    "A360459",
+    "A363488",
+    "A363727",
+    "A364056"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

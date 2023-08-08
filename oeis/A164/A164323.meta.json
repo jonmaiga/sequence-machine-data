@@ -1,9 +1,10 @@
 {
-  "description": "Numbers n such that n=prime(P)+phi(P), where P is the product of the digits of n.",
+  "description": "Numbers m such that m = prime(P) + phi(P), where P is the product of the digits of m.",
   "id": "A164323",
   "mentions": [
     "A000010",
     "A000040",
+    "A007954",
     "A164322",
     "A164324"
   ],

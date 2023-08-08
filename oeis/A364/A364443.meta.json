@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of integers k of the form x^2 + x*y + y^2 (A003136) with n^2 < k < (n+1)^2.",
+  "id": "A364443",
+  "mentions": [
+    "A002324",
+    "A003136",
+    "A004016",
+    "A077773",
+    "A357112"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

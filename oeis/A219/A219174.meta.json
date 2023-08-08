@@ -1,10 +1,14 @@
 {
-  "description": "Numbers whose prime factors are either 2 or Mersenne primes.",
+  "description": "Numbers that have no other prime factors than 2 and/or Mersenne primes.",
   "id": "A219174",
   "mentions": [
     "A000668",
+    "A054784",
     "A056652",
-    "A108319"
+    "A108319",
+    "A335431",
+    "A336467",
+    "A364252"
   ],
   "tags": [
     "formulas",
@@ -12,7 +16,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 61,
+    "size": 62,
     "source": "oeis-bfile"
   }
 }

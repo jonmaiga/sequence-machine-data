@@ -1,5 +1,5 @@
 {
-  "description": "Figurate numbers based on the 9-dimensional regular convex polytope called the 9-dimensional cross-polytope, or 9-dimensional hyperoctahedron, which is represented by the Schlaefli symbol {3, 3, 3, 3, 3, 3, 3, 4}. It is the dual of the 9-dimensional hypercube.",
+  "description": "a(n) = n*(2*n^8 + 84*n^6 + 798*n^4 + 1636*n^2 + 315)/2835.",
   "id": "A099196",
   "mentions": [
     "A000332",

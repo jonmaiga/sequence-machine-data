@@ -1,0 +1,21 @@
+{
+  "description": "The number of stones-and-bones tilings of the (3n+1,3n+2)-benzel when one orientation of bone is forbidden.",
+  "id": "A364482",
+  "mentions": [
+    "A352207",
+    "A364416",
+    "A364417",
+    "A364418",
+    "A364438",
+    "A364481",
+    "A364483"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

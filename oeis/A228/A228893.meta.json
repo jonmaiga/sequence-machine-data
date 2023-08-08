@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the concatenation of the frequency of each decimal digit of n is divisible by n.",
+  "description": "Numbers k such that the concatenation of the frequency of each decimal digit of k is divisible by k.",
   "id": "A228893",
   "mentions": [],
   "tags": [

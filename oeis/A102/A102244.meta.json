@@ -2,7 +2,8 @@
   "description": "a(n) = exp(-1) * (n+1)! * Sum_{i>j>=0} j^n/i!.",
   "id": "A102244",
   "mentions": [
-    "A000110"
+    "A000110",
+    "A363732"
   ],
   "tags": [
     "formulas",

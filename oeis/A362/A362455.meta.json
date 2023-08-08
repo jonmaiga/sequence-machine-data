@@ -1,5 +1,5 @@
 {
-  "description": "Square-free positive integers d such that the dimension of the space of cuspidal harmonic automorphic forms for SL(2, O_{-d}) is zero, where O_{-d} is the ring of integers in Q(sqrt(-d)).",
+  "description": "Squarefree positive integers d such that the dimension of the space of cuspidal harmonic automorphic forms for SL(2, O_{-d}) is zero, where O_{-d} is the ring of integers in Q(sqrt(-d)).",
   "id": "A362455",
   "mentions": [],
   "tags": [

@@ -1,0 +1,14 @@
+{
+  "description": "a(n) is the least positive k such that for each of the first 2*n primes p, at least one of the n consecutive integers k to k + n - 1 is divisible by p.",
+  "id": "A364530",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

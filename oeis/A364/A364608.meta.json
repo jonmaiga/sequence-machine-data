@@ -1,0 +1,16 @@
+{
+  "description": "Smallest k such that there are as many 0's as 1's in the binary representation of (2*n+1)^k, or -1 if no such k exists.",
+  "id": "A364608",
+  "mentions": [
+    "A031443"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

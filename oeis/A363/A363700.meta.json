@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = phi(2*prime(n)+1).",
+  "id": "A363700",
+  "mentions": [
+    "A000010",
+    "A000040",
+    "A008331",
+    "A037225",
+    "A072055"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

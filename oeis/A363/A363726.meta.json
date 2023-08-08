@@ -1,0 +1,32 @@
+{
+  "description": "Number of odd-length integer partitions of n with a unique mode.",
+  "id": "A363726",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A001227",
+    "A008284",
+    "A008289",
+    "A026424",
+    "A027193",
+    "A325347",
+    "A356862",
+    "A359893",
+    "A359901",
+    "A362608",
+    "A363719",
+    "A363720",
+    "A363724",
+    "A363725",
+    "A363731",
+    "A363740"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

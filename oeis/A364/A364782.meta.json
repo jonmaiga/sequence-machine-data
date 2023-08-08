@@ -1,0 +1,18 @@
+{
+  "description": "Order of the general symplectic group of 6 X 6 matrices over Z_n.",
+  "id": "A364782",
+  "mentions": [
+    "A294705",
+    "A364783"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

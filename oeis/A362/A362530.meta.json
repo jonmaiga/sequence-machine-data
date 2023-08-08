@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the conventional value of Josephson constant (K_{J-90}) in Hz/V.",
+  "id": "A362530",
+  "mentions": [
+    "A248508",
+    "A248510",
+    "A361006",
+    "A361010",
+    "A361011",
+    "A361352",
+    "A362000"
+  ],
+  "tags": [
+    "cons",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 15,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

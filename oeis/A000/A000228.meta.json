@@ -17,17 +17,17 @@
     "A057973",
     "A103465",
     "A258019",
-    "A258206"
+    "A258206",
+    "A364306"
   ],
   "tags": [
     "hard",
-    "more",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
+    "size": 30,
     "source": "oeis-entry"
   }
 }

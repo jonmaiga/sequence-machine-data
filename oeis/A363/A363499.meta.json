@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} floor(sqrt(k))^5.",
+  "id": "A363499",
+  "mentions": [
+    "A000196",
+    "A022554",
+    "A174060",
+    "A363497",
+    "A363498"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-bfile"
+  }
+}

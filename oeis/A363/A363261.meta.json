@@ -1,0 +1,33 @@
+{
+  "description": "The partial sums of the prime indices of n include half the sum of all prime indices of n.",
+  "id": "A363261",
+  "mentions": [
+    "A001222",
+    "A001414",
+    "A025065",
+    "A027746",
+    "A035363",
+    "A056239",
+    "A106529",
+    "A110618",
+    "A112798",
+    "A265640",
+    "A301987",
+    "A322109",
+    "A322439",
+    "A327473",
+    "A327476",
+    "A334201",
+    "A340387",
+    "A344415",
+    "A360005"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

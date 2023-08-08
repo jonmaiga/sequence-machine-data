@@ -1,5 +1,5 @@
 {
-  "description": "Total of n-colorings of parts of all integer partitions of n",
+  "description": "Total of n-colorings of parts of all integer partitions of n.",
   "id": "A178887",
   "mentions": [
     "A000041",

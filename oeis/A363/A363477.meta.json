@@ -1,0 +1,18 @@
+{
+  "description": "Numbers that are integer averages of first k odd primes for some k.",
+  "id": "A363477",
+  "mentions": [
+    "A050248",
+    "A071148",
+    "A097961"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

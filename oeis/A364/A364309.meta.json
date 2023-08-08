@@ -1,0 +1,25 @@
+{
+  "description": "Numbers k such that k, k+1 and k+2 have exactly 4 distinct prime factors.",
+  "id": "A364309",
+  "mentions": [
+    "A001221",
+    "A006073",
+    "A087966",
+    "A140078",
+    "A168628",
+    "A176167",
+    "A364265",
+    "A364266",
+    "A364307",
+    "A364308"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

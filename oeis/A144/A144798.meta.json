@@ -1,11 +1,12 @@
 {
-  "description": "Integers having ideal digital mean to base 3.",
+  "description": "Integers having ideal digital mean up to base 3.",
   "id": "A144798",
   "mentions": [
     "A007953",
     "A008591",
     "A031443",
-    "A144777"
+    "A144777",
+    "A364714"
   ],
   "tags": [
     "base",

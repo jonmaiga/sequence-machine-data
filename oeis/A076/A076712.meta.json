@@ -2,6 +2,7 @@
   "description": "Triangular numbers which are also happy numbers (cf. A007770).",
   "id": "A076712",
   "mentions": [
+    "A000217",
     "A007770"
   ],
   "tags": [
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 39,
+    "size": 42,
     "source": "oeis-bfile"
   }
 }

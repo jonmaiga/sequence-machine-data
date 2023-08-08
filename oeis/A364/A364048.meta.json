@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of Sum_{k>0} x^(5*k) / (1 + x^(6*k)).",
+  "id": "A364048",
+  "mentions": [
+    "A319995"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

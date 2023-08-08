@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Sum_{k = 0..n} 4^(n-k)*binomial(n,k)*binomial(n-1,k)*binomial(2*k,k).",
+  "id": "A362676",
+  "mentions": [
+    "A000172",
+    "A002895",
+    "A081085",
+    "A363985",
+    "A363990",
+    "A364111"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

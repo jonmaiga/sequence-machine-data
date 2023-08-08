@@ -2,12 +2,15 @@
   "description": "The number of functions f:{1,2,...,n}->{1,2,...,n} such that the number of elements that are mapped to m is divisible by m.",
   "id": "A178682",
   "mentions": [
+    "A000110",
     "A005651",
     "A007837",
     "A261774",
     "A326500",
     "A326616",
-    "A326617"
+    "A326617",
+    "A364285",
+    "A364310"
   ],
   "tags": [
     "formulas",

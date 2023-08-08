@@ -1,7 +1,12 @@
 {
   "description": "Decimal expansion of (Pi^4 + Pi^5)^(1/6).",
   "id": "A060302",
-  "mentions": [],
+  "mentions": [
+    "A000796",
+    "A001113",
+    "A092425",
+    "A092731"
+  ],
   "tags": [
     "cons",
     "nonn"

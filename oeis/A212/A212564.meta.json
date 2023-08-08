@@ -1,5 +1,5 @@
 {
-  "description": "Number of (w,x,y,z) with all terms in {1,...,n} and w+x>2y+2z.",
+  "description": "Number of (w,x,y,z) with all terms in {1,...,n} and w + x > 2y + 2z.",
   "id": "A212564",
   "mentions": [
     "A211795"

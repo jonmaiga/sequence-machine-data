@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of g.f. A(x) = Sum_{n=-oo..+oo} x^n * (i + x^n)^(2*n), where i^2 = -1.",
+  "id": "A363569",
+  "mentions": [
+    "A260147",
+    "A363558",
+    "A363559"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

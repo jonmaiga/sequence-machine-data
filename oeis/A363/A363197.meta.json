@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of ways the labels 1 to 2^n-1 can be assigned to a perfect binary tree with n levels such that there is an ordering between children and parents and also an ordering between the left and the right child.",
+  "id": "A363197",
+  "mentions": [
+    "A056972",
+    "A076615"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

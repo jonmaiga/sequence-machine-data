@@ -1,0 +1,20 @@
+{
+  "description": "For n >= 0, a(n) is the least integer i >= 0 such that n + (n + 1) + ... + (n + i) is a prime number or a(n) = -1 if no such i exists.",
+  "id": "A363709",
+  "mentions": [
+    "A000040",
+    "A005384",
+    "A053176",
+    "A067812",
+    "A077654"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

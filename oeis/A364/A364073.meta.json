@@ -1,0 +1,19 @@
+{
+  "description": "Triangle read by rows: T(n, k) = Sum_{d=0..n-k} binomial(n, d)*StirlingS2(n-d, k)*624^(n-d-k), with 0 <= k <= n.",
+  "id": "A364073",
+  "mentions": [
+    "A000012",
+    "A364070",
+    "A364071",
+    "A364072"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the partition number p(k) = A000041(k) can be written as a product of smaller partition numbers.",
+  "id": "A363492",
+  "mentions": [
+    "A000041",
+    "A034878",
+    "A194345",
+    "A363636"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

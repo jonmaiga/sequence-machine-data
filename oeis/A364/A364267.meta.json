@@ -1,0 +1,17 @@
+{
+  "description": "Total number of blocks in all set partitions of [n] such that each element is contained in a block whose index parity coincides with the parity of the element.",
+  "id": "A364267",
+  "mentions": [
+    "A011655",
+    "A274537"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

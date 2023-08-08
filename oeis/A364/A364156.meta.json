@@ -1,0 +1,37 @@
+{
+  "description": "Ceiling of the mean of the prime factors of n (with multiplicity).",
+  "id": "A364156",
+  "mentions": [
+    "A026905",
+    "A027746",
+    "A051293",
+    "A067629",
+    "A078175",
+    "A112798",
+    "A123528",
+    "A123529",
+    "A124943",
+    "A124944",
+    "A126594",
+    "A316413",
+    "A326567",
+    "A326568",
+    "A327473",
+    "A327476",
+    "A327482",
+    "A363895",
+    "A363943",
+    "A363948",
+    "A363950",
+    "A364037"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

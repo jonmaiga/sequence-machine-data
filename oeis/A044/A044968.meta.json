@@ -1,5 +1,5 @@
 {
-  "description": "Numbers such that in base 3 representation the numbers of 0's and 1's are 0 and 3, respectively.",
+  "description": "Numbers whose base-3 representation contains no 0's and exactly three 1's.",
   "id": "A044968",
   "mentions": [
     "A007089"

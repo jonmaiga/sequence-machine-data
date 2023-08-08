@@ -1,5 +1,5 @@
 {
-  "description": "Numbers that are not divisible by a smaller number that is a square greater than 1",
+  "description": "Numbers that are not divisible by a smaller number that is a square greater than 1.",
   "id": "A167207",
   "mentions": [
     "A001248",

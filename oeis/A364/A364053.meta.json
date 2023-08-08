@@ -1,0 +1,18 @@
+{
+  "description": "Zumkeller numbers whose divisors can be partitioned into two disjoint sets with equal products.",
+  "id": "A364053",
+  "mentions": [
+    "A048493",
+    "A048943",
+    "A083207",
+    "A347063"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of squares formed by first n vertices of the infinite-dimensional hypercube.",
+  "id": "A362706",
+  "mentions": [
+    "A051602",
+    "A115990",
+    "A345340"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of i such that d(i)<=d(i-1), where Sum{d(i)*4^i: i=0,1,...,m} is the base 4 representation of n.",
+  "description": "Number of i such that d(i) <= d(i-1), where Sum_{i=0..m} d(i)*4^i is the base-4 representation of n.",
   "id": "A037811",
   "mentions": [
     "A037827"

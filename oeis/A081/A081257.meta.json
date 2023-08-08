@@ -2,7 +2,9 @@
   "description": "a(n) is the greatest prime factor of (n^3 - 1).",
   "id": "A081257",
   "mentions": [
+    "A002383",
     "A006530",
+    "A068601",
     "A081256",
     "A081258",
     "A096175",
@@ -10,6 +12,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

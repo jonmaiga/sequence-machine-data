@@ -1,0 +1,17 @@
+{
+  "description": "Prime powers q such that there does not exist an elliptic curve E over GF(q) with cardinality q + 1 + floor(2*sqrt(q)).",
+  "id": "A364690",
+  "mentions": [
+    "A005523",
+    "A246547",
+    "A246655"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

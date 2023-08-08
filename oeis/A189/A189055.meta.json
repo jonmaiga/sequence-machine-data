@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form (n+1)^11 - n^11.",
+  "description": "Primes of the form (k+1)^11 - k^11.",
   "id": "A189055",
   "mentions": [
     "A211184"

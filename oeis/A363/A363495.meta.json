@@ -1,0 +1,16 @@
+{
+  "description": "Number of partitions of [2n+1] having exactly n parity changes within their blocks.",
+  "id": "A363495",
+  "mentions": [
+    "A363493"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

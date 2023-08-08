@@ -1,0 +1,16 @@
+{
+  "description": "Maximum squared inverse distance from the origin to the hyperplane defined by hypercube points.",
+  "id": "A361087",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

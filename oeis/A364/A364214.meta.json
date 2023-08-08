@@ -1,0 +1,34 @@
+{
+  "description": "Numbers whose canonical representation as a sum of distinct Jacobsthal numbers (A280049) is palindromic.",
+  "id": "A364214",
+  "mentions": [
+    "A001045",
+    "A002113",
+    "A002450",
+    "A003159",
+    "A006995",
+    "A014190",
+    "A020988",
+    "A094202",
+    "A128209",
+    "A160156",
+    "A280049",
+    "A331191",
+    "A351712",
+    "A351717",
+    "A352087",
+    "A352105",
+    "A352319",
+    "A352341"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

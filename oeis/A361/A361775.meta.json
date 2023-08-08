@@ -2,6 +2,7 @@
   "description": "Expansion of g.f. A(x) satisfying x = Sum_{n=-oo..+oo} (-1)^n * x^n * A(x)^n * (A(x)^n + x^n)^n.",
   "id": "A361775",
   "mentions": [
+    "A292088",
     "A361776"
   ],
   "tags": [

@@ -1,0 +1,15 @@
+{
+  "description": "Number of tilings of a 9 X n rectangle using dominoes and trominoes (of any shape).",
+  "id": "A364638",
+  "mentions": [
+    "A364457"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

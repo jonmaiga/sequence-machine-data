@@ -1,9 +1,10 @@
 {
-  "description": "A065941 * A000012(signed).",
+  "description": "Triangle read by rows: A065941 * A097807.",
   "id": "A131332",
   "mentions": [
     "A000012",
     "A065941",
+    "A097807",
     "A131333",
     "A131334",
     "A131335",
@@ -16,7 +17,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 55,
-    "source": "oeis-entry"
+    "size": 91,
+    "source": "joeis"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "description": "Square array read by ascending antidiagonals: T(n,k) = [x^(n*k)] ((1 + x)/(1 - x))^k for n, k >= 1.",
+  "id": "A363418",
+  "mentions": [
+    "A002003",
+    "A027307",
+    "A035607",
+    "A053120",
+    "A103885",
+    "A333715",
+    "A362724",
+    "A362733",
+    "A363419"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

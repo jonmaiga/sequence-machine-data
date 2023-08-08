@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of h * Delta nu_{Cs} / c^2 in units of kg in the 2019 SI system of units.",
+  "description": "Decimal expansion of h * Δν_{Cs} / c^2 in units of kg in the 2019 SI system of units.",
   "id": "A322415",
   "mentions": [
     "A003676",

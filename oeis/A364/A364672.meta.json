@@ -1,0 +1,37 @@
+{
+  "description": "Number of subsets of {1..n} not containing all of their own first differences.",
+  "id": "A364672",
+  "mentions": [
+    "A007862",
+    "A054519",
+    "A151897",
+    "A237667",
+    "A325325",
+    "A326083",
+    "A363225",
+    "A363260",
+    "A364345",
+    "A364463",
+    "A364464",
+    "A364466",
+    "A364467",
+    "A364536",
+    "A364537",
+    "A364671",
+    "A364673",
+    "A364674",
+    "A364675",
+    "A364752",
+    "A364753",
+    "A364754"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

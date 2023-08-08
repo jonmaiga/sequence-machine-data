@@ -1,0 +1,17 @@
+{
+  "description": "Smallest integer m = b*c which satisfies (b + c)*n = m - 1.",
+  "id": "A364169",
+  "mentions": [
+    "A009112",
+    "A364171"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

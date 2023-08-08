@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of n X n nonsingular symmetric Toeplitz matrices using all the first n prime numbers.",
+  "id": "A364234",
+  "mentions": [
+    "A348891",
+    "A350955",
+    "A350956",
+    "A351021",
+    "A351022",
+    "A364233"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

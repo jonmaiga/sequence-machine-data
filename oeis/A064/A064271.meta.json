@@ -2,6 +2,7 @@
   "description": "Numbers k such that sigma(k) - 2k is prime.",
   "id": "A064271",
   "mentions": [
+    "A000203",
     "A033880"
   ],
   "tags": [

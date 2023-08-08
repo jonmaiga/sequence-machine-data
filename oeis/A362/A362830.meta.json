@@ -1,0 +1,14 @@
+{
+  "description": "Number of bases b with 2 <= b < n such that n written in base b is a strictly increasing sequence of digits.",
+  "id": "A362830",
+  "mentions": [],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

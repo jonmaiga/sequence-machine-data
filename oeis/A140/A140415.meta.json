@@ -1,11 +1,10 @@
 {
-  "description": "Decimal expansion of constant arising in quantum concatenated code Hamiltonians.",
+  "description": "Decimal expansion of (96081^(1/2)-9)/144000.",
   "id": "A140415",
   "mentions": [],
   "tags": [
     "cons",
     "easy",
-    "formulas",
     "nonn"
   ],
   "terms": {

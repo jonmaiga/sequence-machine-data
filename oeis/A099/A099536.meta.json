@@ -2,6 +2,7 @@
   "description": "Sum of the first n digits of Zeta(3) (Apery's constant), including the initial 1.",
   "id": "A099536",
   "mentions": [
+    "A002117",
     "A039918",
     "A046974",
     "A046975",

@@ -1,9 +1,10 @@
 {
-  "description": "a(1) = 2, a(n) = a(n-1)*prime(n-1)*prime(n), where prime(n) denotes the n-th prime number.",
+  "description": "Products of 2 successive primorials.",
   "id": "A228593",
   "mentions": [
     "A000040",
     "A001597",
+    "A002110",
     "A006094"
   ],
   "tags": [
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 14,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

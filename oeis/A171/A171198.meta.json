@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies: A(x) = 1/(1 - x*A(2x)^8).",
+  "description": "G.f. satisfies A(x) = 1/(1 - x*A(2x)^8).",
   "id": "A171198",
   "mentions": [
     "A015083",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 14,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

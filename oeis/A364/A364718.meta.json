@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that d(k) > d(k+1) > d(k+2), where d(n) is the number of divisors of n.",
+  "id": "A364718",
+  "mentions": [
+    "A000005",
+    "A074827",
+    "A075029",
+    "A364657",
+    "A364719",
+    "A364720"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

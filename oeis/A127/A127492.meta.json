@@ -1,5 +1,5 @@
 {
-  "description": "Indices n of primes such that Sum_{0<=k<=2, k",
+  "description": "Indices m of primes such that Sum_{k=0..2, k",
   "id": "A127492",
   "mentions": [
     "A001043",

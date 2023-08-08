@@ -1,0 +1,20 @@
+{
+  "description": "Total number of blocks containing only even elements in all partitions of [n].",
+  "id": "A363453",
+  "mentions": [
+    "A000110",
+    "A094577",
+    "A124422",
+    "A363434",
+    "A363452"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

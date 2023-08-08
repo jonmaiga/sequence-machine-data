@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of n where there are k^2+1 kinds of parts k.",
+  "id": "A363602",
+  "mentions": [
+    "A023871",
+    "A092345",
+    "A363601"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

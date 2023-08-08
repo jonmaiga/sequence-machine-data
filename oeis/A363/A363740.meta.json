@@ -1,0 +1,40 @@
+{
+  "description": "Number of integer partitions of n whose median appears more times than any other part, i.e., partitions containing a unique mode equal to the median.",
+  "id": "A363740",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A008284",
+    "A008289",
+    "A027193",
+    "A237984",
+    "A240219",
+    "A325347",
+    "A356862",
+    "A359889",
+    "A359893",
+    "A359894",
+    "A359895",
+    "A359897",
+    "A359899",
+    "A359901",
+    "A362562",
+    "A362608",
+    "A363719",
+    "A363720",
+    "A363723",
+    "A363724",
+    "A363725",
+    "A363726",
+    "A363727",
+    "A363731"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Denominator of the continued fraction 1/(2-3/(3-4/(4-5/(...(n-1)-n/(-3))))).",
+  "id": "A362086",
+  "mentions": [
+    "A006530",
+    "A014209",
+    "A051403"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

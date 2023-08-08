@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n! - p is a prime, where p is the smallest prime > n.",
+  "description": "Numbers k such that k! - p is a prime, where p is the smallest prime > k.",
   "id": "A084750",
   "mentions": [
     "A002982",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

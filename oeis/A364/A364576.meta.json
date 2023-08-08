@@ -1,0 +1,23 @@
+{
+  "description": "Starting from k=1, each subsequent term is the next larger odd k such that A156552(k) < k and the ratio A156552(k)/k is nearer to 1.0 than for any previous k in the sequence.",
+  "id": "A364576",
+  "mentions": [
+    "A005940",
+    "A005941",
+    "A029747",
+    "A156552",
+    "A364551",
+    "A364561",
+    "A364564",
+    "A364572"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

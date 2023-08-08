@@ -1,5 +1,5 @@
 {
-  "description": "Base-4 digits are, in order, the first n terms of the periodic sequence with initial period 1,2.",
+  "description": "Base 4 digits are, in order, the first n terms of the periodic sequence with initial period 1,2.",
   "id": "A037481",
   "mentions": [
     "A014985",

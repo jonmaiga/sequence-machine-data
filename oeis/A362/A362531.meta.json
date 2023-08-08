@@ -1,0 +1,15 @@
+{
+  "description": "The smallest integer m such that m mod 2k >= k for k = 1, 2, 3, ..., n.",
+  "id": "A362531",
+  "mentions": [
+    "A053664"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

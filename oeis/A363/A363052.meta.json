@@ -1,0 +1,16 @@
+{
+  "description": "Integers m for which there exist positive integers j, k such that j*k*(j+k) = m^2.",
+  "id": "A363052",
+  "mentions": [
+    "A088915"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

@@ -1,10 +1,10 @@
 {
-  "description": "Inverse permutation of A194866; every positive integer occurs exactly once.",
+  "description": "Inverse permutation of A194863; every positive integer occurs exactly once.",
   "id": "A194867",
   "mentions": [
+    "A194832",
     "A194862",
-    "A194863",
-    "A194866"
+    "A194863"
   ],
   "tags": [
     "nonn"
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 69,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

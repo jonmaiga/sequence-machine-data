@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the least prime factor (> 3) in the factorization of 2^(2*prime(n))-1.",
+  "id": "A363673",
+  "mentions": [
+    "A152099"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

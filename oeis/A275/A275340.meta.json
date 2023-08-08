@@ -1,5 +1,5 @@
 {
-  "description": "Nontrivial centered polygonal numbers: numbers of the form A101321(n,k) where n>=1 and k>=2.",
+  "description": "Nontrivial centered polygonal numbers: numbers of the form A101321(n,k) where n >= 1 and k >= 2.",
   "id": "A275340",
   "mentions": [
     "A090466",

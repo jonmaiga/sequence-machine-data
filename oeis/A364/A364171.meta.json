@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = m is the least m = b*c > a(n-1) such that (b+c)*n = m-1 where 1 < b <= c < m.",
+  "id": "A364171",
+  "mentions": [
+    "A062158",
+    "A364169",
+    "A364202"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

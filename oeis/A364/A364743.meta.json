@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies A(x) = 1 / (1 - x*(1 + x*A(x))^4).",
+  "id": "A364743",
+  "mentions": [
+    "A001006",
+    "A161634",
+    "A364742",
+    "A364744"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

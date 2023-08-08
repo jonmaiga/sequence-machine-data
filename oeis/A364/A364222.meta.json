@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of Sum_{k>=0} 3^k * x^(3^k) / (1 - x^(3^k))^2.",
+  "id": "A364222",
+  "mentions": [
+    "A007949",
+    "A051064",
+    "A091512",
+    "A327625",
+    "A364223",
+    "A364224"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

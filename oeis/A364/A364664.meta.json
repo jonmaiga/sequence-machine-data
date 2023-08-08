@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest permutation of the positive integers such that the successive cumulative sums reproduce the sequence itself, digit by digit.",
+  "id": "A364664",
+  "mentions": [
+    "A309151"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

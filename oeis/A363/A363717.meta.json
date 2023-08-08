@@ -1,0 +1,17 @@
+{
+  "description": "Prime radicands p == 1 (mod 9) of pure cubic number fields of type Gamma.",
+  "id": "A363717",
+  "mentions": [
+    "A061237",
+    "A363699"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

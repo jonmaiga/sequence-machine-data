@@ -2,6 +2,7 @@
   "description": "Decimal expansion of the square root of 2/e.",
   "id": "A227514",
   "mentions": [
+    "A001113",
     "A002193",
     "A019774",
     "A135002"

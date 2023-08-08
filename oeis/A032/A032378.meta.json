@@ -1,5 +1,5 @@
 {
-  "description": "Noncubes such that n is divisible by floor(n^(1/3)).",
+  "description": "Noncubes k that are divisible by floor(k^(1/3)).",
   "id": "A032378",
   "mentions": [
     "A066353",

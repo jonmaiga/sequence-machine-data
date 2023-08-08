@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = [x^n] 1/(1 + x) * Legendre_P(n, (1 - x)/(1 + x))^(-2) for n >= 0.",
+  "id": "A364300",
+  "mentions": [
+    "A005259",
+    "A364298",
+    "A364299",
+    "A364301",
+    "A364302"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form A000295(n)=2^n-n-1.",
+  "description": "Primes of the form A000295(k) = 2^k - k - 1.",
   "id": "A099440",
   "mentions": [
     "A000295",

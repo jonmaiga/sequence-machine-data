@@ -1,0 +1,18 @@
+{
+  "description": "Number of primitive n-bead necklaces (turning over is allowed) comprising elements of two flavors where complements and scalings are equivalent.",
+  "id": "A364468",
+  "mentions": [
+    "A000011",
+    "A000046",
+    "A070842"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

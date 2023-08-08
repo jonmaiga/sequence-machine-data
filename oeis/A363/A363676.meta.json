@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the least common multiple of the degrees of the irreducible characters of A_k equals |A_k| = k!/2.",
+  "id": "A363676",
+  "mentions": [
+    "A000217",
+    "A010054",
+    "A175595",
+    "A260682",
+    "A267137",
+    "A363675"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

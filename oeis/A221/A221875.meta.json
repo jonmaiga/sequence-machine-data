@@ -2,7 +2,8 @@
   "description": "Numbers m such that 10*m^2 - 6 is a square.",
   "id": "A221875",
   "mentions": [
-    "A221874"
+    "A221874",
+    "A281647"
   ],
   "tags": [
     "easy",

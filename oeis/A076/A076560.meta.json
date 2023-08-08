@@ -1,7 +1,10 @@
 {
   "description": "a(1)=1; a(n>1)= greatest prime divisor of (a(n-1) + n).",
   "id": "A076560",
-  "mentions": [],
+  "mentions": [
+    "A006530",
+    "A362138"
+  ],
   "tags": [
     "easy",
     "nonn"

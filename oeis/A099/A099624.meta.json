@@ -1,5 +1,5 @@
 {
-  "description": "Sum C(n-k,k+2)3^(n-k-2)(4/3)^k, k=0..floor(n/2).",
+  "description": "a(n) = Sum_{k=0..floor(n/2)} C(n-k,k+2)*3^(n-k-2)*(4/3)^k.",
   "id": "A099624",
   "mentions": [
     "A099623"

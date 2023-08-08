@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least k > a(n-1) such that Omega(k * (a(n-1)+k)) = n, where Omega = A001222; a(1) = 1.",
+  "id": "A364470",
+  "mentions": [
+    "A001222"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

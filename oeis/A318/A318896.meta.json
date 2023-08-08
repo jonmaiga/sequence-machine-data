@@ -1,5 +1,5 @@
 {
-  "description": "Number k such that k and k+1 are the product of exactly four distinct primes.",
+  "description": "Numbers k such that k and k+1 are the product of exactly four distinct primes.",
   "id": "A318896",
   "mentions": [
     "A046386",

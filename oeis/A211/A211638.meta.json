@@ -1,15 +1,18 @@
 {
-  "description": "Number of ordered triples (w,x,y) with all terms in {1,...,n} and w^2+x^2+y^2",
+  "description": "Number of ordered triples (w, x, y) with all terms in {1, ..., n} and w^2 + x^2 + y^2 < n.",
   "id": "A211638",
   "mentions": [
-    "A211422"
+    "A063691",
+    "A211422",
+    "A211639"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 63,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

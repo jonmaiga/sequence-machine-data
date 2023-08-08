@@ -1,5 +1,5 @@
 {
-  "description": "Semiprimes p1*p2 such that p2 mod p1 = 2.",
+  "description": "Semiprimes p1*p2 such that p2 > p1 and p2 mod p1 = 2.",
   "id": "A064900",
   "mentions": [
     "A001358",

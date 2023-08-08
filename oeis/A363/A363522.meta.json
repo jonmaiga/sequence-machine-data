@@ -1,0 +1,18 @@
+{
+  "description": "Number of integers k such that there are exactly n distinct numbers j with k^2 < j < (k+1)^2 which can be expressed as sum of two squares.",
+  "id": "A363522",
+  "mentions": [
+    "A077773",
+    "A363761",
+    "A363762",
+    "A363763"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

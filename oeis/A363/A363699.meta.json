@@ -1,0 +1,15 @@
+{
+  "description": "Radicands of pure cubic number fields of type BETA and subtype M0.",
+  "id": "A363699",
+  "mentions": [
+    "A363717"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

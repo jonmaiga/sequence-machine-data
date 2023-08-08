@@ -1,10 +1,11 @@
 {
-  "description": "A052509 * A000012(signed).",
+  "description": "Triangle read by rows: A052509 * A097807 as infinite lower triangular matrices.",
   "id": "A131257",
   "mentions": [
     "A000012",
-    "A009517",
     "A052509",
+    "A097807",
+    "A099517",
     "A131256"
   ],
   "tags": [
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 55,
-    "source": "oeis-entry"
+    "size": 91,
+    "source": "joeis"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Apostol's fourth order Mobius (Moebius) function mu_4(n).",
+  "description": "Apostol's fourth-order Mobius (Moebius) function mu_4(n).",
   "id": "A189023",
   "mentions": [
     "A008683",

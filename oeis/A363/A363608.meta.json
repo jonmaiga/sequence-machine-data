@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of Sum_{k>0} x^(4*k)/(1-x^k)^5.",
+  "id": "A363608",
+  "mentions": [
+    "A000203",
+    "A069153",
+    "A363607"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the imaginary part of I^(1/7), or sin(Pi/14).",
+  "description": "Decimal expansion of sin(Pi/14), or the imaginary part of (-1)^(1/7).",
   "id": "A232736",
   "mentions": [
     "A010503",
@@ -9,7 +9,8 @@
     "A019827",
     "A182168",
     "A232735",
-    "A232738"
+    "A232738",
+    "A323601"
   ],
   "tags": [
     "cons",

@@ -1,0 +1,26 @@
+{
+  "description": "Leading digit of 11^n.",
+  "id": "A364185",
+  "mentions": [
+    "A000030",
+    "A001020",
+    "A008571",
+    "A008952",
+    "A060956",
+    "A111395",
+    "A362871",
+    "A363093",
+    "A363249"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle with a(n,1)=n and a(n,k)=a(n-1,k)*a(n-1,k-1).",
+  "description": "Triangle with a(n,1) = n and a(n,k) = a(n,k-1) * a(n-1,k-1).",
   "id": "A064319",
   "mentions": [
     "A000027",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 30,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

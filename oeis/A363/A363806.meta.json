@@ -1,0 +1,22 @@
+{
+  "description": "Number of divisors of n of the form 7*k + 4.",
+  "id": "A363806",
+  "mentions": [
+    "A279061",
+    "A284445",
+    "A363795",
+    "A363805",
+    "A363807",
+    "A363808"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

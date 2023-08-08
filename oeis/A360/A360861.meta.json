@@ -1,10 +1,13 @@
 {
-  "description": "a(n) = Sum_{k=0..n} binomial(n, ceil(k/2)) * binomial(n, floor(k/2)).",
+  "description": "a(n) = Sum_{k=0..n} binomial(n, ceiling(k/2)) * binomial(n, floor(k/2)).",
   "id": "A360861",
   "mentions": [
+    "A001405",
+    "A018224",
     "A360859"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "Mirror image of A098474 formatted as a triangular array.",
+  "description": "Triangle read by rows. T(n, k) = binomial(n, k) * CatalanNumber(n - k).",
   "id": "A124644",
   "mentions": [
     "A000108",

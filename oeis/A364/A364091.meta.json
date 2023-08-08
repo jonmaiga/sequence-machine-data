@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the first prime p such that the longest sequence of primes p = p_1, p_2, ... with |p_{k+1} - 2*p_k| = 1 has length n.",
+  "id": "A364091",
+  "mentions": [
+    "A000040",
+    "A005602",
+    "A005603",
+    "A263879"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

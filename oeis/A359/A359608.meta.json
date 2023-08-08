@@ -1,5 +1,5 @@
 {
-  "description": "Indices k at which point A358777(k) obtains a new distinct value that has not occured before.",
+  "description": "Indices at which A358777 attains a new value.",
   "id": "A359608",
   "mentions": [
     "A046337",

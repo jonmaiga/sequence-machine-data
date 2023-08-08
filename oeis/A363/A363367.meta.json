@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least integer i >= 0 such that (i + 1) * (i + 2*n) / 2 = p^2, p prime number (A000040), or a(n) = -1 if no such i exists.",
+  "id": "A363367",
+  "mentions": [
+    "A000040",
+    "A001248",
+    "A006254",
+    "A101160",
+    "A216244"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

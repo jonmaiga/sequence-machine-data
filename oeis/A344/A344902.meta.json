@@ -11,12 +11,13 @@
     "A329718"
   ],
   "tags": [
+    "base",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 53,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

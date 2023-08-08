@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, T(n,k) = C(n,k)*Sum_{j=0..n-k} E(n-k,j)*2^j, where E(n,k) are the Eulerian numbers A173018(n,k), n >= 0, 0 <= k <= n.",
+  "description": "Triangle read by rows, T(n, k) = binomial(n, k) * Sum_{j=0..n-k} E(n-k, j)*2^j, where E(n, k) are the Eulerian numbers A173018(n, k), for 0 <= k <= n.",
   "id": "A154921",
   "mentions": [
     "A000027",

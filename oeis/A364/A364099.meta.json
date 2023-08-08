@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of Sum_{k>0} k * x^k / (1 - x^(5*k-4)).",
+  "id": "A364099",
+  "mentions": [
+    "A359238",
+    "A364095"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

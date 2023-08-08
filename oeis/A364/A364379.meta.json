@@ -1,0 +1,45 @@
+{
+  "description": "Greedy Jacobsthal-Niven numbers: numbers that are divisible by the sum of the digits in their representation in Jacobsthal greedy base (A265747).",
+  "id": "A364379",
+  "mentions": [
+    "A001045",
+    "A005349",
+    "A049445",
+    "A064150",
+    "A064438",
+    "A064481",
+    "A118363",
+    "A265745",
+    "A265747",
+    "A328208",
+    "A328212",
+    "A331085",
+    "A331728",
+    "A333426",
+    "A334308",
+    "A342426",
+    "A342726",
+    "A344341",
+    "A351714",
+    "A351719",
+    "A352089",
+    "A352107",
+    "A352320",
+    "A352342",
+    "A352508",
+    "A364216",
+    "A364380",
+    "A364381",
+    "A364382",
+    "A364383"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

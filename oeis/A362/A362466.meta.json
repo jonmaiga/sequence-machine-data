@@ -1,0 +1,16 @@
+{
+  "description": "First occurrence of n in A362465 or -1 if n is not a term in A362465.",
+  "id": "A362466",
+  "mentions": [
+    "A362465"
+  ],
+  "tags": [
+    "more",
+    "sign"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

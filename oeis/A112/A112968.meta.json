@@ -1,5 +1,5 @@
 {
-  "description": "Sum(mu(i)*Omega(j): i+j=n), with mu=A008683 and Omega=A001222.",
+  "description": "a(n) = Sum_{i+j=n} mu(i)*Omega(j), with mu=A008683 and Omega=A001222.",
   "id": "A112968",
   "mentions": [
     "A001222",

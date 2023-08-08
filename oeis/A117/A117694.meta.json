@@ -1,5 +1,5 @@
 {
-  "description": "(n^n + n)/2.",
+  "description": "a(n) = (n^n + n)/2.",
   "id": "A117694",
   "mentions": [
     "A066068"
@@ -11,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 18,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

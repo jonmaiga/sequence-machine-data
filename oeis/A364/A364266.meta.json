@@ -1,0 +1,23 @@
+{
+  "description": "The first term in a chain of at least 3 consecutive numbers each with exactly 5 distinct prime factors.",
+  "id": "A364266",
+  "mentions": [
+    "A001221",
+    "A006073",
+    "A087978",
+    "A140079",
+    "A192203",
+    "A364265",
+    "A364308",
+    "A364309"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

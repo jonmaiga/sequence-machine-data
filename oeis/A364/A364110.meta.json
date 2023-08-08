@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = sqrt((x^2 - y^2)*x*y/c) where x is A364108(n), y is A364109(n) and c is A006991(n).",
+  "id": "A364110",
+  "mentions": [
+    "A006991",
+    "A364108",
+    "A364109"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-bfile"
+  }
+}

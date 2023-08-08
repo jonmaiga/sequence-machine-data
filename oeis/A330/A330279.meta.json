@@ -2,6 +2,7 @@
   "description": "Numbers k such that x^k == k (mod k + 1) has multiple solutions for 0 <= x < k.",
   "id": "A330279",
   "mentions": [
+    "A000010",
     "A014117",
     "A096008",
     "A195637"
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 54,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

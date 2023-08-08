@@ -2,7 +2,7 @@
   "description": "a(n) = n - primepi(2n).",
   "id": "A210469",
   "mentions": [
-    "A000720",
+    "A099802",
     "A224710"
   ],
   "tags": [

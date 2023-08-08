@@ -1,11 +1,12 @@
 {
-  "description": "Indices of prime Apery numbers.",
+  "description": "Indices of prime Apéry numbers.",
   "id": "A092825",
   "mentions": [
     "A005259",
     "A092826"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],

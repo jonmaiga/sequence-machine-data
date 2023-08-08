@@ -1,0 +1,17 @@
+{
+  "description": "Number of parts in all partitions of 2n into parts with multiplicity <= n.",
+  "id": "A364245",
+  "mentions": [
+    "A210485",
+    "A232623"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

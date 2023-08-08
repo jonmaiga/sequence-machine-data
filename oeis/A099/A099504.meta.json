@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of 1/(1-5x+x^3).",
+  "description": "Expansion of 1/(1-5*x+x^3).",
   "id": "A099504",
   "mentions": [
     "A000071",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 22,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

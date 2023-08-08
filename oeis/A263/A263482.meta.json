@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n! + 2^n + 11 or n! + 2^n - 11 is prime.",
+  "description": "Numbers k such that k! + 2^k + 11 or k! + 2^k - 11 is prime.",
   "id": "A263482",
   "mentions": [
     "A007611",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

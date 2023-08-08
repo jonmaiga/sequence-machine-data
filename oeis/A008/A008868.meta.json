@@ -2,6 +2,7 @@
   "description": "Order of simple Chevalley group E_8 (q), q = prime power.",
   "id": "A008868",
   "mentions": [
+    "A003133",
     "A004231",
     "A178795"
   ],

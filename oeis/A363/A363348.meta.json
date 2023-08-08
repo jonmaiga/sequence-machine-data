@@ -1,0 +1,22 @@
+{
+  "description": "Turn sequence of a non-Eulerian path for drawing an infinite aperiodic tiling based on the \"hat\" monotile. See the comments section for details.",
+  "id": "A363348",
+  "mentions": [
+    "A003500",
+    "A003699",
+    "A033890",
+    "A052530",
+    "A061278",
+    "A108946",
+    "A363445"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

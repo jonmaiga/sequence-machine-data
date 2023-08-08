@@ -1,0 +1,22 @@
+{
+  "description": "Positive squares (A000290) alternating with positive square pyramidal numbers (A000330).",
+  "id": "A363269",
+  "mentions": [
+    "A000290",
+    "A000330",
+    "A123596",
+    "A363267",
+    "A363268",
+    "A363284"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "joeis"
+  }
+}

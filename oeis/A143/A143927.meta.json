@@ -1,9 +1,10 @@
 {
-  "description": "G.f. satisfies: A(x) = [1 + x*A(x) + x^2*A(x)^2]^2.",
+  "description": "G.f. satisfies: A(x) = (1 + x*A(x) + x^2*A(x)^2)^2.",
   "id": "A143927",
   "mentions": [
     "A006605",
     "A027907",
+    "A027908",
     "A143926"
   ],
   "tags": [

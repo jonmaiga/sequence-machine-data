@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n, m) read by rows of numbers of relatively prime compositions of n with m parts, for n >= 1, and m = 1, 2, ..., n.",
+  "description": "Triangle T(n, m) read by rows of numbers of compositions of n with m relative parts, for n >= 1, and m = 1, 2, ..., n.",
   "id": "A356027",
   "mentions": [
     "A000740",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 91,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

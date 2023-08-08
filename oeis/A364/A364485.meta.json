@@ -1,0 +1,18 @@
+{
+  "description": "Number of fixed triangular polyominoes with 2n cells of the regular tiling with Schläfli symbol {3,6} that have a common axis of symmetry coincident with cell edges.",
+  "id": "A364485",
+  "mentions": [
+    "A030223",
+    "A364486",
+    "A364487"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

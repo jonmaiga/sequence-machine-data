@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = 2/n^3*( sum_{k=0}^{n-1} (-1)^k*(3*k^2+3*k+1)*C(n-1,k)^3*C(n+k,k)^3 ), where C(m,k) denotes the binomial coefficient m!/(k!*(m-k)!).",
+  "description": "a(n) = (2/n^3)*( Sum_{k=0..n-1} (-1)^k*(3*k^2+3*k+1)*binomial(n-1,k)^3*binomial(n+k,k)^3 ).",
   "id": "A246543",
   "mentions": [
     "A246512",

@@ -1,5 +1,5 @@
 {
-  "description": "Irregular table T(n,k)= A178886(n,k)/A048996(n,k) read by rows.",
+  "description": "Irregular table T(n,k) = A178886(n,k)/A048996(n,k) read by rows.",
   "id": "A179972",
   "mentions": [
     "A000041",

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the greatest number with distinct decimal digits and n prime factors, counted with multiplicity, or -1 if there is no such number.",
+  "id": "A363963",
+  "mentions": [
+    "A029743",
+    "A320969"
+  ],
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

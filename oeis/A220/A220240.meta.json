@@ -1,5 +1,5 @@
 {
-  "description": "Equals two maps: number of nX4 binary arrays indicating the locations of corresponding elements equal to exactly two of their horizontal and vertical neighbors in a random 0..1 nX4 array",
+  "description": "Equals two maps: number of n X 4 binary arrays indicating the locations of corresponding elements equal to exactly two of their horizontal and vertical neighbors in a random 0..1 n X 4 array.",
   "id": "A220240",
   "mentions": [
     "A220242"

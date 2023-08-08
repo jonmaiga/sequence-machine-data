@@ -2,9 +2,12 @@
   "description": "Numbers m with a solution (s,t,k) such that s^2 + t^2 = k*m, s + t = m, 1 <= s <= t and 1 <= k <= m - 1.",
   "id": "A337945",
   "mentions": [
+    "A039956",
+    "A160014",
     "A337101"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

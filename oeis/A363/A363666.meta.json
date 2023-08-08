@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{d|n} (n/d)^(d-1) * binomial(d+n-2,n-1).",
+  "id": "A363666",
+  "mentions": [
+    "A167531",
+    "A332508",
+    "A363642",
+    "A363645",
+    "A363663",
+    "A363667"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

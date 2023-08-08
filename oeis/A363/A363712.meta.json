@@ -1,0 +1,21 @@
+{
+  "description": "Number of ways to write n as sum of a positive cube and a positive fourth power.",
+  "id": "A363712",
+  "mentions": [
+    "A010057",
+    "A100291",
+    "A217196",
+    "A280618",
+    "A363711"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

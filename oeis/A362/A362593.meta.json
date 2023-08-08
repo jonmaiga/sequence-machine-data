@@ -1,0 +1,18 @@
+{
+  "description": "Number of coprime positive integer S-unit solutions to a + b = c where a <= b < c, and where S = {prime(1), ..., prime(n)}.",
+  "id": "A362593",
+  "mentions": [
+    "A361661",
+    "A362567"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

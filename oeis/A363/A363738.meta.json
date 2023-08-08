@@ -1,0 +1,20 @@
+{
+  "description": "Number of ordered partitions of n into cubes > 1.",
+  "id": "A363738",
+  "mentions": [
+    "A000578",
+    "A010057",
+    "A023358",
+    "A278929",
+    "A280542"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 108,
+    "source": "oeis-bfile"
+  }
+}

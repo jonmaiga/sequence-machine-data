@@ -1,0 +1,20 @@
+{
+  "description": "Triangular array: row n lists the primes indexed by the array in A363671.",
+  "id": "A363672",
+  "mentions": [
+    "A000040",
+    "A028334",
+    "A067076",
+    "A087478",
+    "A363671"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

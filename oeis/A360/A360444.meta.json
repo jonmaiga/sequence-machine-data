@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of ways for two nonintersecting, unordered pairs of shortest grid paths to cross over between two opposite corners in an n X n grid without intersecting opposite paths at their middle points.",
+  "id": "A360444",
+  "mentions": [
+    "A000891",
+    "A357603",
+    "A357760",
+    "A358481",
+    "A362207"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

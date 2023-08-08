@@ -2,7 +2,9 @@
   "description": "Molecular topological indices of the complete graph K_n.",
   "id": "A181617",
   "mentions": [
-    "A002411"
+    "A002411",
+    "A011379",
+    "A270205"
   ],
   "tags": [
     "easy",

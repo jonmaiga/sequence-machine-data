@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Sum_{k>=3} 1/(k log k (log log k)^3).",
+  "id": "A363940",
+  "mentions": [
+    "A118582"
+  ],
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

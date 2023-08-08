@@ -6,11 +6,12 @@
     "A050320"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 83,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Sum[d|n, d==1 mod 3, d^2].",
+  "description": "a(n) = Sum_{d|n, d==1 mod 3} d^2.",
   "id": "A103637",
   "mentions": [],
   "tags": [
@@ -8,6 +8,6 @@
   "terms": {
     "offset": 1,
     "size": 61,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

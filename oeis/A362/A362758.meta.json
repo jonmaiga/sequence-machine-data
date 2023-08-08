@@ -1,0 +1,16 @@
+{
+  "description": "Triangular numbers which are products of six distinct primes.",
+  "id": "A362758",
+  "mentions": [
+    "A000217",
+    "A067885"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

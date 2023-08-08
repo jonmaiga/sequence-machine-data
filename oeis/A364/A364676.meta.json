@@ -1,0 +1,14 @@
+{
+  "description": "Lower independence number of the n-cube connected cycle graph.",
+  "id": "A364676",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

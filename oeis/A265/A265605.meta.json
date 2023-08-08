@@ -1,8 +1,8 @@
 {
-  "description": "Triangle read by rows: The inverse Bell transform of the triple factorial numbers 3^n*n! (A032031).",
+  "description": "Triangle read by rows: The inverse Bell transform of the triple factorial numbers (A007559).",
   "id": "A265605",
   "mentions": [
-    "A032031",
+    "A007559",
     "A048993",
     "A049404",
     "A049410",

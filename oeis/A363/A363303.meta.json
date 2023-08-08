@@ -1,0 +1,17 @@
+{
+  "description": "Smallest positive integer that cannot be obtained from an expression consisting of digits 0,1,...,n-1, each used exactly once, and any mix of the four arithmetic operations +-*/ plus balanced parentheses. Digits may be concatenated as in 210+34. Neither unary minus signs nor exponents are allowed.",
+  "id": "A363303",
+  "mentions": [],
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

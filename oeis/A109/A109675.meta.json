@@ -1,7 +1,10 @@
 {
-  "description": "Numbers n such that the sum of the digits of (n^n - 1) is divisible by n.",
+  "description": "Numbers k such that the sum of the digits of (k^k - 1) is divisible by k.",
   "id": "A109675",
-  "mentions": [],
+  "mentions": [
+    "A007953",
+    "A048861"
+  ],
   "tags": [
     "base",
     "hard",
@@ -10,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

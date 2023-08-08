@@ -1,5 +1,5 @@
 {
-  "description": "4*n*(n^2+2)/3.",
+  "description": "a(n) = 4*n*(n^2 + 2)/3.",
   "id": "A217873",
   "mentions": [
     "A006527",

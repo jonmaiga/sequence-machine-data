@@ -7,12 +7,13 @@
   ],
   "tags": [
     "hard",
+    "more",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 25,
     "source": "oeis-entry"
   }
 }

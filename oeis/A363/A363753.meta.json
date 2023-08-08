@@ -1,0 +1,26 @@
+{
+  "description": "a(n) = Sum_{k=0..n} (-1)^k*F(k-1)*F(k)*F(k+1)/2, where F(n) is the Fibonacci number A000045(n).",
+  "id": "A363753",
+  "mentions": [
+    "A000045",
+    "A001655",
+    "A005968",
+    "A033887",
+    "A119284",
+    "A163198",
+    "A163200",
+    "A215037",
+    "A256178",
+    "A363754"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "joeis"
+  }
+}

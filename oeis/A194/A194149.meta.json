@@ -1,5 +1,5 @@
 {
-  "description": "Sum{floor(j*(5-sqrt(3))/2) : 1<=j<=n}; n-th partial sum of Beatty sequence for (5-sqrt(3))/2.",
+  "description": "Sum_{floor(j*(5-sqrt(3))/2) : 1<=j<=n}; n-th partial sum of Beatty sequence for (5-sqrt(3))/2.",
   "id": "A194149",
   "mentions": [
     "A182772"

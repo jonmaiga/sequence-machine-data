@@ -1,0 +1,14 @@
+{
+  "description": "Expansion of Lenstra's profinite constant l (\"el\").",
+  "id": "A363494",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-entry"
+  }
+}

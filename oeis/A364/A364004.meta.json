@@ -1,0 +1,18 @@
+{
+  "description": "Orders of simple groups PSL(2,K) with exactly 4 prime divisors.",
+  "id": "A364004",
+  "mentions": [
+    "A033931",
+    "A352806",
+    "A364003"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

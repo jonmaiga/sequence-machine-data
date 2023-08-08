@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the real part of -Pi^(I*Pi).",
+  "description": "Decimal expansion of the real part of -Pi^(i*Pi).",
   "id": "A236098",
   "mentions": [
     "A000796",
@@ -18,7 +18,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 72,
+    "size": 105,
     "source": "oeis-bfile"
   }
 }

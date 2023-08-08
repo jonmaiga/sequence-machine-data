@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (1/(2*n)) * Sum_{d|n} 3^(n/d-1) * phi(3*d).",
+  "id": "A364210",
+  "mentions": [
+    "A000010",
+    "A000013",
+    "A034754",
+    "A195459",
+    "A327625",
+    "A364211",
+    "A364212"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

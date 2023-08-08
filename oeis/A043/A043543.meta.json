@@ -1,7 +1,9 @@
 {
   "description": "Number of distinct base-16 digits of n.",
   "id": "A043543",
-  "mentions": [],
+  "mentions": [
+    "A297784"
+  ],
   "tags": [
     "base",
     "nonn"

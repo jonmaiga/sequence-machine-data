@@ -1,0 +1,19 @@
+{
+  "description": "Number of hyperplanes spanned by the vertices of an n-cube up to symmetry.",
+  "id": "A363505",
+  "mentions": [
+    "A007847",
+    "A363506",
+    "A363512"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

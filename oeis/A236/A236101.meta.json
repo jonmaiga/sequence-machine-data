@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the imaginary part of Pi^(I/Pi).",
+  "description": "Decimal expansion of the imaginary part of Pi^(i/Pi).",
   "id": "A236101",
   "mentions": [
     "A000796",
@@ -19,7 +19,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 72,
+    "size": 105,
     "source": "oeis-bfile"
   }
 }

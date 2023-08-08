@@ -1,5 +1,5 @@
 {
-  "description": "Inverse of the partition triangle A026794",
+  "description": "Inverse of the partition triangle A026794.",
   "id": "A161363",
   "mentions": [
     "A000041",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 66,
-    "source": "oeis-entry"
+    "size": 91,
+    "source": "joeis"
   }
 }

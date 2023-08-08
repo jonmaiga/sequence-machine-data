@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m whose decimal expansion of 1/m contains the digit 0, ignoring leading and trailing 0's.",
+  "description": "Numbers m such that the decimal expansion of 1/m contains the digit 0, ignoring leading and trailing 0's.",
   "id": "A352154",
   "mentions": [
     "A000533",

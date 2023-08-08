@@ -1,0 +1,21 @@
+{
+  "description": "Primes whose binary representation has more 1-bits than its cube.",
+  "id": "A364785",
+  "mentions": [
+    "A000040",
+    "A000120",
+    "A138597",
+    "A192085",
+    "A363799"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

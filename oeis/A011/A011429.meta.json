@@ -1,10 +1,14 @@
 {
   "description": "Decimal expansion of 10th root of 20.",
   "id": "A011429",
-  "mentions": [],
+  "mentions": [
+    "A011105",
+    "A011439"
+  ],
   "tags": [
     "cons",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

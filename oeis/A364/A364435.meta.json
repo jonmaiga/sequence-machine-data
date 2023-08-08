@@ -1,0 +1,16 @@
+{
+  "description": "The first term in a run of at least 4 consecutive numbers each with exactly 5 distinct prime factors (i.e. belong to A051270).",
+  "id": "A364435",
+  "mentions": [
+    "A051270",
+    "A364266"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

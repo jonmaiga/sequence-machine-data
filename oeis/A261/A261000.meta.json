@@ -1,5 +1,5 @@
 {
-  "description": "Unordered even-degree bilabelled increasing trees on 2n+1 nodes.",
+  "description": "Unordered even-degree bilabeled increasing trees on 2n+1 nodes.",
   "id": "A261000",
   "mentions": [
     "A104203",

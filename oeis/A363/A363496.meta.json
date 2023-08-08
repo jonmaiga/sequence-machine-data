@@ -1,0 +1,19 @@
+{
+  "description": "Total number of parity changes within the blocks of all partitions of [n].",
+  "id": "A363496",
+  "mentions": [
+    "A000110",
+    "A077613",
+    "A363493",
+    "A363549"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

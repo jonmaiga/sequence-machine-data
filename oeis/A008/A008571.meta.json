@@ -1,11 +1,15 @@
 {
   "description": "Digits of powers of 11.",
   "id": "A008571",
-  "mentions": [],
+  "mentions": [
+    "A001020",
+    "A348553"
+  ],
   "tags": [
     "base",
     "easy",
-    "nonn"
+    "nonn",
+    "tabf"
   ],
   "terms": {
     "offset": 0,

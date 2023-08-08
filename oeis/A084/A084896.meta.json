@@ -1,15 +1,15 @@
 {
-  "description": "Decimal expansion of arithmetic-geometric mean of (1,4).",
+  "description": "Decimal expansion of agm(1,4), the arithmetic-geometric mean of 1 and 4.",
   "id": "A084896",
   "mentions": [
     "A068521",
     "A084895",
-    "A084897",
-    "A084898"
+    "A084897"
   ],
   "tags": [
     "cons",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

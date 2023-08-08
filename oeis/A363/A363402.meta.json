@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = n * (4^n - 2^n) / Clausen(n, 0).",
+  "id": "A363402",
+  "mentions": [
+    "A020522",
+    "A160014",
+    "A363395",
+    "A363403"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

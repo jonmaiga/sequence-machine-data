@@ -1,0 +1,16 @@
+{
+  "description": "Circuit rank and corank of the n-Pell graph.",
+  "id": "A364655",
+  "mentions": [
+    "A000129"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,13 +1,14 @@
 {
-  "description": "Numbers n such that 6*10^n-11 is prime.",
+  "description": "Numbers k such that 6*10^k-11 is prime.",
   "id": "A102739",
   "mentions": [],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 14,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "description": "Sophie Germain primes p such that both p and the corresponding safe prime 2*p+1 have distinct digits.",
+  "id": "A364142",
+  "mentions": [
+    "A005384",
+    "A005385",
+    "A010784"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

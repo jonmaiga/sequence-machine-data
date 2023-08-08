@@ -2,6 +2,7 @@
   "description": "Number of distinct n-ary operators in a quinternary logic.",
   "id": "A137841",
   "mentions": [
+    "A000351",
     "A001146",
     "A055777",
     "A137840"

@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k for which A005940(k) < k.",
+  "id": "A364540",
+  "mentions": [
+    "A005940",
+    "A356450",
+    "A364499",
+    "A364541",
+    "A364542"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

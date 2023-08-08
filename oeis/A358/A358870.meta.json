@@ -10,12 +10,11 @@
     "A358868"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 3,
-    "size": 6,
-    "source": "oeis-entry"
+    "offset": 2,
+    "size": 18,
+    "source": "oeis-bfile"
   }
 }

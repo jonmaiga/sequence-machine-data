@@ -1,9 +1,10 @@
 {
-  "description": "a(n)=(1/2)*(sum of elements of n-th run) using 1 and 2 starting with 1,1.",
+  "description": "a(n) = (1/2)*(sum of elements of n-th run) using 1 and 2 starting with 1,1.",
   "id": "A157196",
   "mentions": [
     "A000002",
-    "A157129"
+    "A157129",
+    "A336810"
   ],
   "tags": [
     "nonn"

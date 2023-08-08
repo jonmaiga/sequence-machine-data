@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} n^divides(k, n), where divides(k, n) = 1 if k divides n, otherwise 0.",
+  "id": "A363734",
+  "mentions": [
+    "A000005",
+    "A113704",
+    "A363421",
+    "A363735"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

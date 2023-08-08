@@ -1,5 +1,5 @@
 {
-  "description": "The decimal expansion of the maximum M(4) of the ratio (sum{k=1,...,4} (x(1)*x(2)*...*x(k))^(1/k))/(x(1) + ... + x(4)) taken over x(1), ..., x(4) > 0.",
+  "description": "Decimal expansion of the maximum M(4) of the ratio (Sum_{k=1..4} (x(1)*x(2)*...*x(k))^(1/k))/(x(1) + ... + x(4)) taken over x(1), ..., x(4) > 0.",
   "id": "A219245",
   "mentions": [
     "A219246",

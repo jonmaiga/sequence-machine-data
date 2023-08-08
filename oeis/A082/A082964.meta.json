@@ -1,14 +1,20 @@
 {
-  "description": "a(n) = m given by arctan(tan(n)) = n - m*Pi.",
+  "description": "a(n) = round(n/Pi), n divided by Pi rounded to the nearest integer.",
   "id": "A082964",
-  "mentions": [],
+  "mentions": [
+    "A000796",
+    "A002485",
+    "A022853",
+    "A032615",
+    "A296357"
+  ],
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 79,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
   }
 }

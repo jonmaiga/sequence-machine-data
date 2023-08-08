@@ -1,0 +1,22 @@
+{
+  "description": "Number of 4n-step lattice paths starting and ending at (0,0) that do not go above the diagonal x=y or below the x-axis using steps in {(1,1), (1,-1), (-1,0)}.",
+  "id": "A361190",
+  "mentions": [
+    "A001006",
+    "A005789",
+    "A026945",
+    "A151332",
+    "A217823",
+    "A359647"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 18,
+    "source": "oeis-bfile"
+  }
+}

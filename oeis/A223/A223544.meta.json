@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k), 0 < k <= n, T(n,1) = n - 1, T(n,k) = T(n,k-1) + n; read by rows.",
+  "description": "T(n, k) = n*k - 1.",
   "id": "A223544",
   "mentions": [
     "A000096",
@@ -10,7 +10,8 @@
     "A075362",
     "A077414",
     "A115067",
-    "A131423"
+    "A131423",
+    "A144204"
   ],
   "tags": [
     "formulas",
@@ -20,6 +21,6 @@
   "terms": {
     "offset": 1,
     "size": 78,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

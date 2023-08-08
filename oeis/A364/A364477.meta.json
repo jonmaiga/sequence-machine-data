@@ -1,0 +1,22 @@
+{
+  "description": "G.f. satisfies A(x) = 1 + x*A(x)^2 + x^2*A(x)^7.",
+  "id": "A364477",
+  "mentions": [
+    "A001002",
+    "A001764",
+    "A006605",
+    "A052709",
+    "A143330",
+    "A364473",
+    "A364476"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

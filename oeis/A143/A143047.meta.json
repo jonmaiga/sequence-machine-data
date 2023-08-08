@@ -1,11 +1,14 @@
 {
-  "description": "G.f. satisfies: A(x) = 1 + x*A(-x)^4.",
+  "description": "G.f. satisfies A(x) = 1 + x*A(-x)^4.",
   "id": "A143047",
   "mentions": [
     "A143045",
     "A143046",
     "A143048",
     "A143049",
+    "A171202",
+    "A213252",
+    "A213281",
     "A213335"
   ],
   "tags": [
@@ -15,6 +18,6 @@
   "terms": {
     "offset": 0,
     "size": 23,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

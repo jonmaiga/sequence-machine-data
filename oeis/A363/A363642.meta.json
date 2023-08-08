@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Sum_{k>0} x^k/(1 - k*x^k)^3.",
+  "id": "A363642",
+  "mentions": [
+    "A007437",
+    "A167531",
+    "A363639",
+    "A363643",
+    "A363644",
+    "A363645",
+    "A363650"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

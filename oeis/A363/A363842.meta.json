@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} 1/(k!)!^2.",
+  "id": "A363842",
+  "mentions": [
+    "A336686",
+    "A363841"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

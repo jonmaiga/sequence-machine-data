@@ -1,0 +1,16 @@
+{
+  "description": "Integers K such that PSL_2(K) is a K_4-simple group, i.e., |PSL_2(K)| has 4 distinct prime divisors.",
+  "id": "A364003",
+  "mentions": [
+    "A000961",
+    "A003586"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

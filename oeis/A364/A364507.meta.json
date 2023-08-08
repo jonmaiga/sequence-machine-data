@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (5*n)!*(4*n)! / ((3*n)!^2 * (2*n)! * n!).",
+  "id": "A364507",
+  "mentions": [
+    "A001450",
+    "A005810",
+    "A006480",
+    "A364506",
+    "A364508"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

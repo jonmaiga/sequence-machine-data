@@ -1,9 +1,11 @@
 {
-  "description": "Numbers n of the form p^2 + 1 (for prime p) where n^2 + 1 is also prime.",
+  "description": "Numbers k of the form p^2 + 1 (for prime p) where k^2 + 1 is also prime.",
   "id": "A235053",
   "mentions": [
     "A005574",
-    "A066872"
+    "A066872",
+    "A235982",
+    "A235983"
   ],
   "tags": [
     "nonn"
@@ -11,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 29,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

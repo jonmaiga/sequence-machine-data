@@ -2,15 +2,17 @@
   "description": "a(n) is the least odd number k such that Omega(k) = n, Omega(k+2) = n+1, and Omega(k+4) = n+2, where Omega(k) is the number of prime factors of k (A001222).",
   "id": "A335496",
   "mentions": [
-    "A001222"
+    "A001222",
+    "A335498"
   ],
   "tags": [
+    "formulas",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

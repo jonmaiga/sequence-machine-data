@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) is the smallest positive number that has not yet appeared such that a(n-1) + a(n) has the same number of prime factors as a(n-1) * a(n).",
+  "id": "A364261",
+  "mentions": [
+    "A001222",
+    "A027746",
+    "A364262"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

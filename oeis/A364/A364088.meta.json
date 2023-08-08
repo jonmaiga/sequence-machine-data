@@ -1,0 +1,15 @@
+{
+  "description": "Number of directed multigraphs with loops containing n edges and an infinite number of vertices modulo isomorphism and reversal of all edge directions.",
+  "id": "A364088",
+  "mentions": [
+    "A052171"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

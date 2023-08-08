@@ -2,6 +2,7 @@
   "description": "Expansion of (1-x-4x^2)/((1-2x)(1-8x^2)).",
   "id": "A098657",
   "mentions": [
+    "A081337",
     "A098655",
     "A098656"
   ],
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
+    "size": 32,
     "source": "joeis"
   }
 }

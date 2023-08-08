@@ -2,6 +2,7 @@
   "description": "Triangle read by rows in which the first row contains a 1 and the n-th row contains n primes not included in the previous rows such that the sum of a row is a perfect square.",
   "id": "A082737",
   "mentions": [
+    "A008578",
     "A082738",
     "A082739",
     "A082740"
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 59,
+    "size": 66,
     "source": "oeis-entry"
   }
 }

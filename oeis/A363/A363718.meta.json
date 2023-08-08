@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle read by rows. An infinite binary tree which has root node 1 in row n = 0. Each node then has left child m-1 if greater than 0 and right child m+1, where m is the value of the parent node.",
+  "id": "A363718",
+  "mentions": [
+    "A000079",
+    "A000108",
+    "A001405",
+    "A007001",
+    "A053121",
+    "A173258"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

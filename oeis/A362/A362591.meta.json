@@ -1,0 +1,16 @@
+{
+  "description": "Discriminants D of the positive Pell equation x^2 - D*y^2 = 1, whose fundamental and all higher roots produce abc-triples a+b=c (or 1 + D*y^2 = x^2) with radical R(abc) < c.",
+  "id": "A362591",
+  "mentions": [
+    "A362592"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

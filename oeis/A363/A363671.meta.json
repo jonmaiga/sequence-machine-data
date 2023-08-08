@@ -1,0 +1,19 @@
+{
+  "description": "Triangular array: row n lists the numbers k such that prime(n+2)-2*k is a prime.",
+  "id": "A363671",
+  "mentions": [
+    "A000040",
+    "A028334",
+    "A067076",
+    "A363672"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

@@ -10,12 +10,11 @@
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
-    "source": "oeis-entry"
+    "size": 13,
+    "source": "oeis-bfile"
   }
 }

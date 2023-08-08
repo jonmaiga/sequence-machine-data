@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies A(x) = 1 + x*A(x) / (1 + x*A(x)^2).",
+  "id": "A364735",
+  "mentions": [
+    "A106228",
+    "A364736",
+    "A364737",
+    "A364738"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

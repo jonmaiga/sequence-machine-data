@@ -1,5 +1,5 @@
 {
-  "description": "Determinant of the n X n matrix formed by placing 1..n^2 in L shaped gnomons in alternating directions.",
+  "description": "Determinant of the n X n matrix formed by placing 1..n^2 in L-shaped gnomons in alternating directions.",
   "id": "A363376",
   "mentions": [
     "A081344",
@@ -7,6 +7,7 @@
     "A220604"
   ],
   "tags": [
+    "formulas",
     "sign"
   ],
   "terms": {

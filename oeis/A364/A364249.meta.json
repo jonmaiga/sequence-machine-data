@@ -1,0 +1,17 @@
+{
+  "description": "Dirichlet inverse of A359374.",
+  "id": "A364249",
+  "mentions": [
+    "A359374",
+    "A364250"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

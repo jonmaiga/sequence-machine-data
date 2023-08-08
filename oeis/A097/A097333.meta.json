@@ -2,6 +2,7 @@
   "description": "a(n) = Sum_{k=0..n} C(n-k, floor(k/2)).",
   "id": "A097333",
   "mentions": [
+    "A000930",
     "A003410",
     "A058278"
   ],

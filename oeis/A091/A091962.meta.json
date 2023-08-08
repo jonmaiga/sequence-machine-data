@@ -2,6 +2,10 @@
   "description": "From enumerating paths in the plane.",
   "id": "A091962",
   "mentions": [
+    "A000012",
+    "A000027",
+    "A000108",
+    "A000330",
     "A006858"
   ],
   "tags": [

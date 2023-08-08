@@ -1,0 +1,39 @@
+{
+  "description": "Number of strict integer partitions of n where no part is the difference of two consecutive parts.",
+  "id": "A364464",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A002865",
+    "A007865",
+    "A008284",
+    "A008289",
+    "A025065",
+    "A120641",
+    "A229816",
+    "A236912",
+    "A237667",
+    "A240861",
+    "A275972",
+    "A320347",
+    "A323092",
+    "A325325",
+    "A363226",
+    "A363260",
+    "A364345",
+    "A364346",
+    "A364463",
+    "A364465",
+    "A364466",
+    "A364467",
+    "A364536"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

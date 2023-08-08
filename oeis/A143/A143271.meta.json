@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, A130209 * A000012 * A127648, 1<=k<=n.",
+  "description": "Triangle read by rows: A130209 * A000012 * A127648.",
   "id": "A143271",
   "mentions": [
     "A000005",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 1,
     "size": 78,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Number of semimagic quad squares that can be formed using cards from Quads-2^n deck.",
+  "id": "A362964",
+  "mentions": [
+    "A361495",
+    "A361613",
+    "A362874",
+    "A362963"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

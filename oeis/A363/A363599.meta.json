@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of n into distinct parts where there are k^2-1 kinds of part k.",
+  "id": "A363599",
+  "mentions": [
+    "A027998",
+    "A052812",
+    "A255835",
+    "A363600",
+    "A363601"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

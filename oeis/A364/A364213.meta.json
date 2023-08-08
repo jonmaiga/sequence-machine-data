@@ -1,0 +1,22 @@
+{
+  "description": "The number of trailing 0's in the canonical representation of n as a sum of distinct Jacobsthal numbers (A280049).",
+  "id": "A364213",
+  "mentions": [
+    "A003159",
+    "A007583",
+    "A007814",
+    "A122840",
+    "A280049"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

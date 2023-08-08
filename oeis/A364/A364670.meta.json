@@ -1,0 +1,45 @@
+{
+  "description": "Number of strict integer partitions of n with a part equal to the sum of two distinct others. A variation of sum-full strict partitions.",
+  "id": "A364670",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A007865",
+    "A008284",
+    "A008289",
+    "A025065",
+    "A085489",
+    "A088809",
+    "A093971",
+    "A108917",
+    "A111133",
+    "A151897",
+    "A236912",
+    "A237113",
+    "A237667",
+    "A237668",
+    "A240861",
+    "A275972",
+    "A299702",
+    "A320340",
+    "A323092",
+    "A325862",
+    "A363225",
+    "A363226",
+    "A364272",
+    "A364346",
+    "A364349",
+    "A364350",
+    "A364532",
+    "A364533",
+    "A364534"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

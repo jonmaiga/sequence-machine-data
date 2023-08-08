@@ -1,0 +1,41 @@
+{
+  "description": "Number of integer partitions of n covering an initial interval of positive integers with a more than one co-mode.",
+  "id": "A363264",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A002865",
+    "A008284",
+    "A067029",
+    "A071178",
+    "A087897",
+    "A096765",
+    "A097979",
+    "A105039",
+    "A117989",
+    "A243737",
+    "A275870",
+    "A362607",
+    "A362608",
+    "A362609",
+    "A362610",
+    "A362611",
+    "A362612",
+    "A362613",
+    "A362614",
+    "A362615",
+    "A363224",
+    "A363262",
+    "A363263",
+    "A363484",
+    "A363485"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

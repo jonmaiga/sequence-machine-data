@@ -1,23 +1,20 @@
 {
-  "description": "2*A130296 - A128174.",
+  "description": "Triangle read by rows: 2*A130296 - A128174.",
   "id": "A131230",
   "mentions": [
-    "A035608",
     "A042948",
     "A047383",
     "A128174",
-    "A130196",
     "A130296",
     "A131231"
   ],
   "tags": [
-    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 36,
-    "source": "oeis-entry"
+    "size": 91,
+    "source": "joeis"
   }
 }

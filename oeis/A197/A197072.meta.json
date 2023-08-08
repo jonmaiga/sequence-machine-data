@@ -1,5 +1,5 @@
 {
-  "description": "A033844(n+1) - 2*A033844(n), i.e., prime(2^(n+1)) - 2*prime(2^n).",
+  "description": "a(n) = prime(2^(n+1)) - 2*prime(2^n).",
   "id": "A197072",
   "mentions": [
     "A033844"

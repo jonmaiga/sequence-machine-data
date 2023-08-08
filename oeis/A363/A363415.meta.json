@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = the real part of Product_{k = 0..n} 1 + k*sqrt(-5).",
+  "id": "A363415",
+  "mentions": [
+    "A003626",
+    "A105750",
+    "A139513",
+    "A363409",
+    "A363416"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

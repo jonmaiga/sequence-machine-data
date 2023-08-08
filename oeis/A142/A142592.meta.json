@@ -2,7 +2,8 @@
   "description": "Primes congruent to 29 mod 54.",
   "id": "A142592",
   "mentions": [
-    "A000040"
+    "A000040",
+    "A141949"
   ],
   "tags": [
     "easy",

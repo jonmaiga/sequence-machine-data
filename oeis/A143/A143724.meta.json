@@ -1,10 +1,10 @@
 {
-  "description": "Triangle read by rows, inverse Möbius transform of a diagonalized matrix of A116470.",
+  "description": "Triangle read by rows, inverse Möbius transform of a diagonalized matrix of A116477.",
   "id": "A143724",
   "mentions": [
     "A006218",
     "A051731",
-    "A116470"
+    "A116477"
   ],
   "tags": [
     "formulas",
@@ -14,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 78,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

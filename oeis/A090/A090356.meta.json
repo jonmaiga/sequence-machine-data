@@ -1,5 +1,5 @@
 {
-  "description": "Satisfies A^5 = BINOMIAL(A^4).",
+  "description": "G.f. A(x) satisfies A(x)^5 = BINOMIAL(A(x)^4); that is, the binomial transform of the coefficients in A(x)^4 yields the coefficients in A(x)^5.",
   "id": "A090356",
   "mentions": [
     "A050353",

@@ -2,7 +2,8 @@
   "description": "Powers of 19.",
   "id": "A001029",
   "mentions": [
-    "A000051"
+    "A000051",
+    "A008776"
   ],
   "tags": [
     "easy",

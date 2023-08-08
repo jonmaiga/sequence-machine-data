@@ -2,7 +2,8 @@
   "description": "a(n) = number of isogeny classes of dimension 3 abelian varieties over the finite field of order prime(n).",
   "id": "A362201",
   "mentions": [
-    "A362198"
+    "A362198",
+    "A362570"
   ],
   "tags": [
     "formulas",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 32,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

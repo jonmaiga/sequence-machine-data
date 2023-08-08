@@ -1,5 +1,5 @@
 {
-  "description": "Square array A(n,k), n>=1, k>=1, read by antidiagonals: A(n,k) is the number of n-colorings of the Triangle Graph of order k.",
+  "description": "Square array A(n,k), n>=1, k>=1, read by antidiagonals: A(n,k) is the number of n-colorings of the k X k X k triangular grid.",
   "id": "A182797",
   "mentions": [
     "A000007",

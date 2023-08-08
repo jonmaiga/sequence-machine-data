@@ -1,20 +1,18 @@
 {
-  "description": "2*A002024 - A130296.",
+  "description": "Triangle read by rows: 2*A002024 - A130296 as infinite lower triangular matrices.",
   "id": "A131922",
   "mentions": [
     "A001844",
     "A002024",
-    "A130196",
     "A130296"
   ],
   "tags": [
-    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 55,
-    "source": "oeis-entry"
+    "size": 78,
+    "source": "joeis"
   }
 }

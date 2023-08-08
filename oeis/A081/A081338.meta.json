@@ -1,5 +1,5 @@
 {
-  "description": "(9^n+5^n)/2.",
+  "description": "a(n) = (9^n + 5^n)/2.",
   "id": "A081338",
   "mentions": [
     "A081337"

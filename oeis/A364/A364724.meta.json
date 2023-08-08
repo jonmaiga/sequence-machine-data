@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the least k such that 1^k + 2^k + 4^k is divisible by A364722(n).",
+  "id": "A364724",
+  "mentions": [
+    "A001576",
+    "A364722"
+  ],
+  "tags": [
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

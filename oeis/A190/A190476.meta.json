@@ -2,7 +2,8 @@
   "description": "The number of partitions of the set {1,2,...,n} into subsets (blocks,cells) having a prime number of elements.",
   "id": "A190476",
   "mentions": [
-    "A000110"
+    "A000110",
+    "A364450"
   ],
   "tags": [
     "formulas",

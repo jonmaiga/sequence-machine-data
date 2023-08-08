@@ -1,0 +1,19 @@
+{
+  "description": "Number of tilings of an n X n square using dominoes and trominoes (of any shape).",
+  "id": "A364504",
+  "mentions": [
+    "A219874",
+    "A219994",
+    "A364457"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

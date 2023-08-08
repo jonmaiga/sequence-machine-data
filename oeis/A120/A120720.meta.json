@@ -1,14 +1,15 @@
 {
-  "description": "Even square as prime gaps to produce a set of triangular primes.",
+  "description": "Irregular triangle T(n, k) = prime(n+1) + (2*k)^2 if ( prime(n+1) + (2*k)^2 ) is prime, for 1 <= k <= n+1, n >= 1, flattened.",
   "id": "A120720",
   "mentions": [],
   "tags": [
     "formulas",
-    "nonn"
+    "nonn",
+    "tabf"
   ],
   "terms": {
     "offset": 1,
-    "size": 26,
-    "source": "oeis-entry"
+    "size": 60,
+    "source": "oeis-bfile"
   }
 }

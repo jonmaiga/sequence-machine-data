@@ -1,5 +1,5 @@
 {
-  "description": "A difference of Fibonacci and Padovan numbers.",
+  "description": "Diagonal sums of A104730.",
   "id": "A131298",
   "mentions": [
     "A104730"

@@ -1,0 +1,16 @@
+{
+  "description": "Add primes until a perfect power appears. When a perfect power appears, that term is the smallest root of the perfect power. Then return to adding primes, beginning with the next prime.",
+  "id": "A363072",
+  "mentions": [
+    "A001597"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,9 @@
 {
   "description": "Powers of fifth root of 18 rounded up.",
   "id": "A018167",
-  "mentions": [],
+  "mentions": [
+    "A011103"
+  ],
   "tags": [
     "nonn"
   ],

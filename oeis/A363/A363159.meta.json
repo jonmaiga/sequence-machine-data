@@ -1,0 +1,22 @@
+{
+  "description": "a(1)=1. Thereafter, if a(n-1) is a novel term, a(n) is the smallest prime which does not divide a(n-1). If a(n-1) has been seen k (>1) times already then a(n) = k*a(n-1).",
+  "id": "A363159",
+  "mentions": [
+    "A001221",
+    "A002110",
+    "A007947",
+    "A053669",
+    "A321516",
+    "A351495",
+    "A359804"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

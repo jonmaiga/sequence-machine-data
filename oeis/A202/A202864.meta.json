@@ -1,10 +1,11 @@
 {
-  "description": "T(n,k)=Number of n X n 0..k arrays with row and column sums one greater than the previous row and column",
+  "description": "T(n,k) = Number of n X n 0..k arrays with row and column sums one greater than the previous row and column.",
   "id": "A202864",
   "mentions": [
     "A002378"
   ],
   "tags": [
+    "more",
     "nonn",
     "tabl"
   ],

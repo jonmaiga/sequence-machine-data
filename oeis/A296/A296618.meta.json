@@ -2,6 +2,7 @@
   "description": "Expansion of the e.g.f. exp(-x)/sqrt(1-4*x).",
   "id": "A296618",
   "mentions": [
+    "A047974",
     "A052143"
   ],
   "tags": [

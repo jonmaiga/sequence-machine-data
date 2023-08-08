@@ -1,0 +1,19 @@
+{
+  "description": "The number of affine dependencies among the vertices of the n-cube up to symmetry.",
+  "id": "A363506",
+  "mentions": [
+    "A007847",
+    "A363505",
+    "A363512"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

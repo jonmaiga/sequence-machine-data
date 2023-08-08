@@ -1,16 +1,15 @@
 {
-  "description": "Permutations containing 3241 patterns only as part of 35241 patterns.",
+  "description": "Number of permutations containing 3241 patterns only as part of 35241 patterns.",
   "id": "A110447",
   "mentions": [
     "A030266"
   ],
   "tags": [
-    "nonn",
-    "tabl"
+    "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 22,
+    "size": 24,
     "source": "joeis"
   }
 }

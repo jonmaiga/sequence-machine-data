@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X4 0..3 arrays with the number of rightwards and downwards edge increases in each 2X2 subblock equal to the number in all its horizontal and vertical neighbors",
+  "description": "Number of (n+1) X 4 0..3 arrays with the number of rightwards and downwards edge increases in each 2 X 2 subblock equal to the number in all its horizontal and vertical neighbors.",
   "id": "A205092",
   "mentions": [
     "A205097"

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the largest p in an n_nacci(p) sequence (Fibonacci(p) for n=2, tribonacci(p) for n=3, etc.) such that n_nacci(p) >= 2^(p-n-1).",
+  "description": "a(n) is the largest k in an n_nacci(k) sequence (Fibonacci(k) for n=2, tribonacci(k) for n=3, etc.) such that n_nacci(k) >= 2^(k-n-1).",
   "id": "A202805",
   "mentions": [
     "A000045",
@@ -8,7 +8,9 @@
   ],
   "tags": [
     "formulas",
-    "nonn"
+    "more",
+    "nonn",
+    "uned"
   ],
   "terms": {
     "offset": 2,

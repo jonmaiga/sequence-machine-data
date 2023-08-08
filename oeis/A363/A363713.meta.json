@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to write n as sum of a positive square and a positive fifth power.",
+  "id": "A363713",
+  "mentions": [
+    "A010052",
+    "A063725",
+    "A078359",
+    "A100292",
+    "A363711",
+    "A363715"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

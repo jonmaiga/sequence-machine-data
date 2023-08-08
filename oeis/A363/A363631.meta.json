@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Sum_{k>0} (1/(1+x^k)^4 - 1).",
+  "id": "A363631",
+  "mentions": [
+    "A320901",
+    "A363598",
+    "A363616",
+    "A363617",
+    "A363629",
+    "A363630"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

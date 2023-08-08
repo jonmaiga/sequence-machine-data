@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = binomial(4*n, n)^2.",
+  "id": "A364510",
+  "mentions": [
+    "A002894",
+    "A005810",
+    "A364506",
+    "A364509",
+    "A364511",
+    "A364512"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

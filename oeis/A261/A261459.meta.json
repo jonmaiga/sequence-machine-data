@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the concatenation of n 1's, the digits of n^2 + n + 1, and n 1's is prime.",
+  "description": "Numbers k such that the concatenation of k 1's, the digits of k^2 + k + 1, and k 1's is prime.",
   "id": "A261459",
   "mentions": [
     "A263299"
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 14,
     "source": "oeis-entry"
   }
 }

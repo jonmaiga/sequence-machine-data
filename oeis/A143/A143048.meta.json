@@ -1,11 +1,15 @@
 {
-  "description": "G.f. satisfies: A(x) = 1 + x*A(-x)^5.",
+  "description": "G.f. satisfies A(x) = 1 + x*A(-x)^5.",
   "id": "A143048",
   "mentions": [
     "A143045",
     "A143046",
     "A143047",
-    "A143049"
+    "A143049",
+    "A171204",
+    "A213252",
+    "A213281",
+    "A213335"
   ],
   "tags": [
     "formulas",
@@ -14,6 +18,6 @@
   "terms": {
     "offset": 0,
     "size": 22,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

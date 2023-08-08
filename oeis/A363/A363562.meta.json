@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying 1 = Sum_{n>=0} x^n * A(x)^n / (1 + x^(n+1)*A(x)^2).",
+  "id": "A363562",
+  "mentions": [
+    "A340329",
+    "A340355",
+    "A363563",
+    "A363564"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

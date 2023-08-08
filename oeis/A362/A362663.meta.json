@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the partial sum of b(n), which is defined to be the difference between the numbers of primes in (n^2, n^2 + n] and in (n^2 - n, n^2].",
+  "id": "A362663",
+  "mentions": [
+    "A014085",
+    "A089610",
+    "A094189",
+    "A192391"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

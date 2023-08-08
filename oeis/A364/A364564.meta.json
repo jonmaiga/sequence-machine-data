@@ -1,0 +1,19 @@
+{
+  "description": "Largest prime factor computed for those odd numbers k for which A156552(k) < k.",
+  "id": "A364564",
+  "mentions": [
+    "A006530",
+    "A156552",
+    "A364551",
+    "A364561"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,12 +1,15 @@
 {
-  "description": "A124508(A124508(n)).",
+  "description": "a(n) = A124508(A124508(n)).",
   "id": "A124511",
   "mentions": [
+    "A001221",
+    "A001222",
     "A003586",
     "A124508",
     "A124512"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

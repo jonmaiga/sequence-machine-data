@@ -1,11 +1,13 @@
 {
-  "description": "I call this sequence \"symmetrical spooky primes\" as two prime combinations are used in cryptography: f(n)=If[n==0,1,Prime[n]]; t(n,m)=f(n-m)*f(n).",
+  "description": "Triangle T(n,m) = f(n-m)*f(n), where f(n) = A008578(n+1).",
   "id": "A146985",
-  "mentions": [],
+  "mentions": [
+    "A008578"
+  ],
   "tags": [
     "easy",
-    "formulas",
-    "nonn"
+    "nonn",
+    "tabl"
   ],
   "terms": {
     "offset": 0,

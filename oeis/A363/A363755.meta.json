@@ -1,0 +1,22 @@
+{
+  "description": "The original n X n X n dots problem: minimal number of straight lines (connected at their endpoints) required to join all the n^3 points belonging to the set {{0,1,...,n-1} X {0,1,...,n-1} X {0,1,...,n-1}} in R^3, without any additional constraint.",
+  "id": "A363755",
+  "mentions": [
+    "A058992",
+    "A225227",
+    "A261547",
+    "A318165"
+  ],
+  "tags": [
+    "bref",
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

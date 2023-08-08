@@ -1,0 +1,20 @@
+{
+  "description": "Odd numbers m such that for every k >= 1, m*2^k - 1 has a divisor in the set {3, 7, 11, 19, 31, 37, 41, 61, 73, 109, 151, 331}.",
+  "id": "A364412",
+  "mentions": [
+    "A076335",
+    "A101036",
+    "A180247",
+    "A291360",
+    "A364413"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-bfile"
+  }
+}

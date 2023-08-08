@@ -1,10 +1,17 @@
 {
-  "description": "G.f. A(x) = 1 + x*A(2*x)^2.",
+  "description": "G.f. satisfies A(x) = 1 + x*A(2*x)^2.",
   "id": "A135867",
   "mentions": [
     "A015083",
     "A135868",
-    "A171192"
+    "A171192",
+    "A171200",
+    "A171202",
+    "A171204",
+    "A171206",
+    "A171208",
+    "A171210",
+    "A343439"
   ],
   "tags": [
     "formulas",
@@ -13,6 +20,6 @@
   "terms": {
     "offset": 0,
     "size": 15,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

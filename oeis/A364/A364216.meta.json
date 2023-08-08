@@ -1,0 +1,46 @@
+{
+  "description": "Jacobsthal-Niven numbers: numbers that are divisible by the sum of the digits in their Jacobsthal representation (A280049).",
+  "id": "A364216",
+  "mentions": [
+    "A005349",
+    "A007583",
+    "A049445",
+    "A064150",
+    "A064438",
+    "A064481",
+    "A118363",
+    "A280049",
+    "A328208",
+    "A328212",
+    "A331085",
+    "A331728",
+    "A333426",
+    "A334308",
+    "A342426",
+    "A342726",
+    "A344341",
+    "A351714",
+    "A351719",
+    "A352089",
+    "A352107",
+    "A352320",
+    "A352342",
+    "A352508",
+    "A364215",
+    "A364217",
+    "A364218",
+    "A364219",
+    "A364220",
+    "A364221"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-bfile"
+  }
+}

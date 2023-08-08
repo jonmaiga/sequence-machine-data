@@ -1,0 +1,17 @@
+{
+  "description": "Lucky numbers that are products of smaller lucky numbers.",
+  "id": "A363634",
+  "mentions": [
+    "A000959",
+    "A363635",
+    "A363636"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

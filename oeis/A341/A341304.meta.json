@@ -7,12 +7,11 @@
     "A341306"
   ],
   "tags": [
-    "more",
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 4,
+    "size": 34,
     "source": "oeis-entry"
   }
 }

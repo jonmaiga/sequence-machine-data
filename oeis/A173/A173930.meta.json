@@ -1,5 +1,5 @@
 {
-  "description": "The decimal expansion of the number whose continued fraction expansion is A000001.",
+  "description": "Decimal expansion of the number whose continued fraction expansion is A000001.",
   "id": "A173930",
   "mentions": [
     "A000001"

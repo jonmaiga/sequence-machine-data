@@ -2,7 +2,7 @@
   "description": "Least a(n) such that M(n)*(M(n)+a(n))-1 and M(n)*(M(n)+a(n))+1 are twin primes with M(i)=i-th Mersenne prime.",
   "id": "A143385",
   "mentions": [
-    "A143384"
+    "A139426"
   ],
   "tags": [
     "hard",

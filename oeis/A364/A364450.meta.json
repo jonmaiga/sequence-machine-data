@@ -1,0 +1,19 @@
+{
+  "description": "Number of partitions of [n] without prime sized blocks.",
+  "id": "A364450",
+  "mentions": [
+    "A000040",
+    "A097514",
+    "A190476",
+    "A329944"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

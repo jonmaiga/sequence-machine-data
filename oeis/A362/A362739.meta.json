@@ -1,0 +1,18 @@
+{
+  "description": "The smallest integer with three (not necessarily distinct) divisors that add to n.",
+  "id": "A362739",
+  "mentions": [
+    "A020639",
+    "A060681"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

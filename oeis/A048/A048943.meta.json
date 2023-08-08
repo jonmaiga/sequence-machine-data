@@ -2,6 +2,8 @@
   "description": "Product of divisors of n is a square.",
   "id": "A048943",
   "mentions": [
+    "A000583",
+    "A006881",
     "A229153"
   ],
   "tags": [

@@ -1,0 +1,26 @@
+{
+  "description": "Möbius function of rank 5: a(n) = lambda(n) = A008836(n) if n is 5-free and 0 otherwise.",
+  "id": "A363553",
+  "mentions": [
+    "A008836",
+    "A053864",
+    "A053865",
+    "A053981",
+    "A189021",
+    "A189022",
+    "A189023",
+    "A363551",
+    "A363552"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies A(x) = (1 + x*A(x)) * (1 - x*A(x)^2).",
+  "id": "A364374",
+  "mentions": [
+    "A007863",
+    "A364371",
+    "A364375",
+    "A364376"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

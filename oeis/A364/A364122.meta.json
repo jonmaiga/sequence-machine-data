@@ -1,0 +1,33 @@
+{
+  "description": "Numbers whose Stolarsky representation (A364121) is palindromic.",
+  "id": "A364122",
+  "mentions": [
+    "A000045",
+    "A002113",
+    "A006995",
+    "A014190",
+    "A094202",
+    "A200648",
+    "A200649",
+    "A200650",
+    "A200651",
+    "A200714",
+    "A331191",
+    "A351712",
+    "A351717",
+    "A352087",
+    "A352105",
+    "A352319",
+    "A352341",
+    "A364121"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

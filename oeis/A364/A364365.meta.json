@@ -1,0 +1,13 @@
+{
+  "description": "Start with the list of positive integers L = {1, 2, 3, ...} and set a(1) = 1. Then, for n = 1, 2, 3, ..., do the following: For each m in 1..a(n), move the number k = L(n+1) to the right by k steps. The number remaining immediately to the right of a(n) becomes a(n+1).",
+  "id": "A364365",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

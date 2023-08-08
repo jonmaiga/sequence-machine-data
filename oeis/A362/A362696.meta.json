@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. Product_{k>0} (1 - x^(3*k-2))^(-1/(3*k-2)).",
+  "id": "A362696",
+  "mentions": [
+    "A001817",
+    "A035382",
+    "A206303",
+    "A262947",
+    "A362697"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

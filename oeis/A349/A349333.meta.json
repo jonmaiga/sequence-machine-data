@@ -1,5 +1,5 @@
 {
-  "description": "G.f. A(x) satisfies: A(x) = 1 + x * A(x)^6 / (1 - x).",
+  "description": "G.f. A(x) satisfies A(x) = 1 + x * A(x)^6 / (1 - x).",
   "id": "A349333",
   "mentions": [
     "A002212",
@@ -9,7 +9,8 @@
     "A349331",
     "A349332",
     "A349334",
-    "A349335"
+    "A349335",
+    "A349362"
   ],
   "tags": [
     "formulas",
@@ -18,6 +19,6 @@
   "terms": {
     "offset": 0,
     "size": 21,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of e^(1+1/e), e=exp(1).",
+  "description": "Decimal expansion of e^(1+1/e), e = exp(1).",
   "id": "A175993",
   "mentions": [
     "A001113",

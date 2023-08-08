@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest positive integer such that from the set {1, 2, ..., a(n)} one can choose a sequence (s(1), s(2), ..., s(n)) in which every segment has a unique sum.",
+  "id": "A364153",
+  "mentions": [
+    "A276661",
+    "A363446",
+    "A364132"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

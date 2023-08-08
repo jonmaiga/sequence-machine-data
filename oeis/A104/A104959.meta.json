@@ -1,5 +1,5 @@
 {
-  "description": "Primes from merging of 3 successive digits in decimal expansion of Cos(1).",
+  "description": "Primes from merging of 3 successive digits in decimal expansion of cos(1).",
   "id": "A104959",
   "mentions": [],
   "tags": [

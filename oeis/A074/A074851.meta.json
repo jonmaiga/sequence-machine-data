@@ -2,6 +2,7 @@
   "description": "Numbers k such that k and k+1 both have exactly 2 distinct prime factors.",
   "id": "A074851",
   "mentions": [
+    "A001221",
     "A006049",
     "A006549",
     "A093548",
@@ -9,6 +10,7 @@
     "A140078",
     "A140079",
     "A255346",
+    "A273879",
     "A321502"
   ],
   "tags": [

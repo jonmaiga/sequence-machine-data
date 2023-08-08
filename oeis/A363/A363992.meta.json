@@ -1,0 +1,16 @@
+{
+  "description": "The number of ways 2n can be expressed as the sum of an odd prime number and an odd nonprime, both of which are relatively prime to n.",
+  "id": "A363992",
+  "mentions": [
+    "A002375",
+    "A141095"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 76,
+    "source": "oeis-entry"
+  }
+}

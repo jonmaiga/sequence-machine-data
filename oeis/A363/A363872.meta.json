@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest sequence of distinct terms > 0 such that n is a substring of a(n) + a(n+1).",
+  "id": "A363872",
+  "mentions": [
+    "A299952"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

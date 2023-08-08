@@ -1,15 +1,16 @@
 {
-  "description": "Numbers n such that 2*(3^n-n)-1 is prime.",
+  "description": "Numbers k such that 2*(3^k-k)-1 is prime.",
   "id": "A195732",
   "mentions": [
     "A048473"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 18,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "description": "Starts of runs of 4 consecutive integers that are primitive binary Niven numbers (A363787).",
+  "id": "A363792",
+  "mentions": [
+    "A049445",
+    "A330931",
+    "A330932",
+    "A330933",
+    "A363787",
+    "A363790",
+    "A363791"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

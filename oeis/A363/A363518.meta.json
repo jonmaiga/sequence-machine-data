@@ -1,0 +1,17 @@
+{
+  "description": "Concentric square numbers on the faces of an n X n X n cube.",
+  "id": "A363518",
+  "mentions": [
+    "A194274"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "joeis"
+  }
+}

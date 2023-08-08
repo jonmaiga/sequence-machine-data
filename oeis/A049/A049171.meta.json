@@ -1,7 +1,8 @@
 {
-  "description": "Revert transform of 2*(1 + x + x^2)-1/(1-x).",
+  "description": "Revert transform of 2*x*(1-x)-x/(1+x).",
   "id": "A049171",
   "mentions": [
+    "A049189",
     "A108759"
   ],
   "tags": [

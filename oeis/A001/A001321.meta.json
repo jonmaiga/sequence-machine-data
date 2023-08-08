@@ -1,7 +1,10 @@
 {
-  "description": "Number of Post functions.",
+  "description": "Number of equivalence classes of 3-valued Post functions of n variables under action of symmetric group S_n.",
   "id": "A001321",
-  "mentions": [],
+  "mentions": [
+    "A001323",
+    "A056668"
+  ],
   "tags": [
     "nonn"
   ],

@@ -1,0 +1,20 @@
+{
+  "description": "Squares whose base-3 expansion has no 2.",
+  "id": "A363408",
+  "mentions": [
+    "A000290",
+    "A005836",
+    "A176189",
+    "A363428"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

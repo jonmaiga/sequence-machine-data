@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of h-bar*c/eV according to the 2019 SI system in units m.",
+  "id": "A363766",
+  "mentions": [
+    "A003676",
+    "A003678",
+    "A081823",
+    "A254181",
+    "A360750",
+    "A361918",
+    "A362529"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": -6,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

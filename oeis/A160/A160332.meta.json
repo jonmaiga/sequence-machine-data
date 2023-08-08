@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the one real root of x^3-8x-10.",
+  "description": "Decimal expansion of the one real root of x^3 - 8x - 10.",
   "id": "A160332",
   "mentions": [
     "A002937"

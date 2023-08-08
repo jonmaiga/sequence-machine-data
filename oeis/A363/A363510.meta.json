@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies A(x) = exp( Sum_{k>=1} (-1)^(k+1) * (4 + A(x^k)) * x^k/k ).",
+  "id": "A363510",
+  "mentions": [
+    "A004111",
+    "A038075",
+    "A038076",
+    "A363508",
+    "A363509"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

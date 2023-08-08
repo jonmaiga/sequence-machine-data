@@ -1,16 +1,19 @@
 {
-  "description": "Hypersigma(n): sum of the divisors of n plus the recursive sum of the divisors of the restricted divisors",
+  "description": "Hypersigma(n): sum of the divisors of n plus the recursive sum of the divisors of the restricted divisors.",
   "id": "A191150",
   "mentions": [
-    "A000203"
+    "A000040",
+    "A000203",
+    "A008864"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 53,
+    "size": 62,
     "source": "oeis-bfile"
   }
 }

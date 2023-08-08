@@ -1,10 +1,11 @@
 {
-  "description": "Number of n X n 0..6 arrays with row and column sums one greater than the previous row and column",
+  "description": "Number of n X n 0..6 arrays with row and column sums one greater than the previous row and column.",
   "id": "A202862",
   "mentions": [
     "A202864"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

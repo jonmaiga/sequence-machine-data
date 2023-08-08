@@ -1,7 +1,9 @@
 {
   "description": "Powers of 42.",
   "id": "A009986",
-  "mentions": [],
+  "mentions": [
+    "A008776"
+  ],
   "tags": [
     "easy",
     "formulas",

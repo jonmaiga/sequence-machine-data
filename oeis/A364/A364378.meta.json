@@ -1,0 +1,32 @@
+{
+  "description": "Numbers whose representation in Jacobsthal greedy base (A265747) is palindromic.",
+  "id": "A364378",
+  "mentions": [
+    "A001045",
+    "A002113",
+    "A006995",
+    "A014190",
+    "A014825",
+    "A084639",
+    "A094202",
+    "A128209",
+    "A265747",
+    "A331191",
+    "A351712",
+    "A351717",
+    "A352087",
+    "A352105",
+    "A352319",
+    "A352341",
+    "A364214"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

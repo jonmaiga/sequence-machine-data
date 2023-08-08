@@ -1,0 +1,18 @@
+{
+  "description": "Characteristic function of polygonal numbers of order greater than 2 (A090466): a(n) = 1 if n is in A090466, 0 otherwise.",
+  "id": "A364693",
+  "mentions": [
+    "A010052",
+    "A010054",
+    "A090466",
+    "A255849"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

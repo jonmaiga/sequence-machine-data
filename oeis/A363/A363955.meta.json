@@ -1,0 +1,17 @@
+{
+  "description": "When the base-2 representation of n is interpreted as a Gaussian integer x+yi in base (-1+i), both x and y are nonnegative.",
+  "id": "A363955",
+  "mentions": [
+    "A066321",
+    "A271472"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

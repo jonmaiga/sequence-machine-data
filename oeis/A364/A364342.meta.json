@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the number of base-10 nonbouncy numbers below 10^n.",
+  "id": "A364342",
+  "mentions": [
+    "A152054",
+    "A204692"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

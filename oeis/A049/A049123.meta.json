@@ -1,5 +1,5 @@
 {
-  "description": "Revert transform of (1 - 3x + x^2)/(1 - 2x - x^2).",
+  "description": "Revert transform of x*(1 - 3*x + x^2)/(1 - 2*x - x^2).",
   "id": "A049123",
   "mentions": [],
   "tags": [

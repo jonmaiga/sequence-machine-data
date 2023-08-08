@@ -1,9 +1,10 @@
 {
-  "description": "Number of polynomials P(x,y) with nonnegative integer coefficients such that P(x,y) == 1 (mod x+y-1) and P(1,1) = n.",
+  "description": "Number of polynomials of the form P(x,y) = 1 + (x+y-1) * Q(x,y) such that P(1,1) = n and both polynomials P and Q have nonnegative integer coefficients.",
   "id": "A279196",
   "mentions": [
     "A002572",
-    "A002844"
+    "A002844",
+    "A363933"
   ],
   "tags": [
     "more",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 29,
     "source": "oeis-entry"
   }
 }

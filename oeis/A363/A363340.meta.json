@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the smallest positive integer such that a(n) * n is the sum of two squares.",
+  "id": "A363340",
+  "mentions": [
+    "A000265",
+    "A001481",
+    "A002145",
+    "A007913",
+    "A059897",
+    "A097706",
+    "A167181",
+    "A170819"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-entry"
+  }
+}

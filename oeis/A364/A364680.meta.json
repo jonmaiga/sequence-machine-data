@@ -1,0 +1,21 @@
+{
+  "description": "Smallest initial number k of n consecutive numbers satisfying sigma(k) > sigma(k+1) > ... > sigma(k+n-1).",
+  "id": "A364680",
+  "mentions": [
+    "A000203",
+    "A050944",
+    "A050945",
+    "A053226",
+    "A075029",
+    "A364657"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

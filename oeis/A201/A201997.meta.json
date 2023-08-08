@@ -1,5 +1,5 @@
 {
-  "description": "a(n) are the decimal values of binary vectors used to select terms of A075058 that when added together give n.",
+  "description": "a(n) is the decimal value of the binary vector used to select terms of A075058 whose sum is n.",
   "id": "A201997",
   "mentions": [
     "A007924",
@@ -10,6 +10,7 @@
   "tags": [
     "base",
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

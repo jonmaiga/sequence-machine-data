@@ -1,0 +1,18 @@
+{
+  "description": "a(0) = 0, a(1) = 0; for n > 1, a(n) is the number of pairs of consecutive terms whose product has same value as a(n-2) * a(n-1).",
+  "id": "A362947",
+  "mentions": [
+    "A342585",
+    "A347062",
+    "A364027",
+    "A364036"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 98,
+    "source": "oeis-bfile"
+  }
+}

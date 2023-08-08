@@ -2,11 +2,6 @@
   "description": "Amounts (in cents) of coins in denominations suggested by Shallit.",
   "id": "A208953",
   "mentions": [
-    "A008588",
-    "A008593",
-    "A008597",
-    "A008598",
-    "A135631",
     "A212773",
     "A212774"
   ],

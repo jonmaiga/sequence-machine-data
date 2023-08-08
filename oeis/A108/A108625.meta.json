@@ -1,5 +1,5 @@
 {
-  "description": "Square array, read by antidiagonals, where row n equals the crystal ball sequence for A_n lattice.",
+  "description": "Square array, read by antidiagonals, where row n equals the crystal ball sequence for the A_n lattice.",
   "id": "A108625",
   "mentions": [
     "A003215",

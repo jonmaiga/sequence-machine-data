@@ -1,7 +1,9 @@
 {
-  "description": "Primes p such that 11 is a square mod p.",
+  "description": "Odd primes p such that 11 is a square mod p.",
   "id": "A038881",
-  "mentions": [],
+  "mentions": [
+    "A038882"
+  ],
   "tags": [
     "easy",
     "nonn"

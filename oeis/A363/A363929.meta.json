@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Sum_{k>0} x^(4*k) / (1 - x^(5*k))^2.",
+  "id": "A363929",
+  "mentions": [
+    "A001899",
+    "A284103",
+    "A363925",
+    "A363926",
+    "A363928"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 111,
+    "source": "oeis-bfile"
+  }
+}

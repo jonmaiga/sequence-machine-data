@@ -1,9 +1,12 @@
 {
-  "description": "Six consecutive integers with decreasing values of sigma start at these numbers: sigma(x) > sigma(x+1) > sigma(x+2) > sigma(x+3) > sigma(x+4) > sigma(x+5).",
+  "description": "Numbers k such that sigma(k) > sigma(k+1) > sigma(k+2) > sigma(k+3) > sigma(k+4) > sigma(k+5).",
   "id": "A050945",
   "mentions": [
     "A000203",
-    "A050944"
+    "A050944",
+    "A053226",
+    "A364657",
+    "A364680"
   ],
   "tags": [
     "nonn"
@@ -11,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 19,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

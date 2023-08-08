@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{k=0..n} floor(sqrt(k))^4.",
+  "id": "A363498",
+  "mentions": [
+    "A000196",
+    "A022554",
+    "A174060",
+    "A363497",
+    "A363499"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

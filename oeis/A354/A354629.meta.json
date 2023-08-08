@@ -1,7 +1,13 @@
 {
   "description": "Decimal expansion of the negated digamma function at 3/7.",
   "id": "A354629",
-  "mentions": [],
+  "mentions": [
+    "A354627",
+    "A354628",
+    "A354630",
+    "A354631",
+    "A354632"
+  ],
   "tags": [
     "cons",
     "nonn"

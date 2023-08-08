@@ -2,11 +2,13 @@
   "description": "Number of symmetry-allowed, linearly-independent terms at n-th order in the expansion of E x (e+a) rovibrational perturbation matrix H(Jx,Jy,Jz).",
   "id": "A260253",
   "mentions": [
+    "A000290",
     "A002264",
     "A007980",
     "A260220"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

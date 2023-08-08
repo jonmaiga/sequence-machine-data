@@ -1,0 +1,20 @@
+{
+  "description": "Difference k - A005940(k) computed for those odd numbers k for which the difference is nonnegative.",
+  "id": "A364563",
+  "mentions": [
+    "A005940",
+    "A364294",
+    "A364499",
+    "A364543"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

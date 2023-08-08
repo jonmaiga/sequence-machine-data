@@ -1,17 +1,18 @@
 {
-  "description": "Number of correct decimal digits produced by the n-th iteration of the Salamin-Brent algorithm for computing Pi.",
+  "description": "a(n) = floor(log_10(1/error(n))), where error(n) is the error in the n-th iteration of the Salamin-Brent algorithm for computing Pi.",
   "id": "A276778",
   "mentions": [
     "A276779",
     "A276780"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 29,
     "source": "oeis-entry"
   }
 }

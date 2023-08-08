@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the smallest number k whose symmetric representation of sigma(k) shares sections of its border with those of n other numbers.",
+  "id": "A362782",
+  "mentions": [
+    "A235791",
+    "A237270",
+    "A237271",
+    "A237591",
+    "A237593"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

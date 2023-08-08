@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the series limit of Sum_{k>=2} sin(log k)/(k*log k).",
+  "id": "A363939",
+  "mentions": [
+    "A363677"
+  ],
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

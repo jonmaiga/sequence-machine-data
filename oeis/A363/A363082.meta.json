@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k neither squarefree nor prime power such that q*r > k, where q = A053669(k) is the smallest prime that does not divide k and r = A007947(k) is the squarefree kernel.",
+  "id": "A363082",
+  "mentions": [
+    "A007947",
+    "A053669",
+    "A126706",
+    "A360765",
+    "A360767",
+    "A360768"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-bfile"
+  }
+}

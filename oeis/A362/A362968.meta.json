@@ -1,0 +1,19 @@
+{
+  "description": "Number of integral points in 2 * permutohedron of order n.",
+  "id": "A362968",
+  "mentions": [
+    "A007747",
+    "A138464",
+    "A175176",
+    "A362967"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

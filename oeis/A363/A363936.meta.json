@@ -1,0 +1,17 @@
+{
+  "description": "Number of Frobenius partitions of 2n wherein the number of columns plus the weight on the top row is strictly less than the weight on the bottom row.",
+  "id": "A363936",
+  "mentions": [
+    "A000569"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

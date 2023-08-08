@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies A(x) = 1/(1-x)^3 + x^2*A(x)^2.",
+  "id": "A364625",
+  "mentions": [
+    "A000108",
+    "A086615",
+    "A162481",
+    "A360045",
+    "A364626",
+    "A364627"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

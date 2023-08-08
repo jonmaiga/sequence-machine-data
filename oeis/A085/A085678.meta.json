@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of e^1000.",
   "id": "A085678",
-  "mentions": [],
+  "mentions": [
+    "A001113"
+  ],
   "tags": [
     "cons",
     "nonn"

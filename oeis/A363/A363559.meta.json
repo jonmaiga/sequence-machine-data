@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of g.f. A(x) = Sum_{n=-oo..+oo} x^n * (3 + x^n)^(2*n).",
+  "id": "A363559",
+  "mentions": [
+    "A260147",
+    "A363558",
+    "A363561",
+    "A363569"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

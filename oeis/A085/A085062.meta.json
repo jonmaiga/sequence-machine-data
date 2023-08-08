@@ -1,15 +1,18 @@
 {
-  "description": "A085060(n)/9 - 1/3.",
+  "description": "a(n) = A085060(n)/9 - 1/3.",
   "id": "A085062",
   "mentions": [
-    "A085060"
+    "A001477",
+    "A085060",
+    "A292077"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 74,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

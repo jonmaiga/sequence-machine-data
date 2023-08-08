@@ -1,5 +1,5 @@
 {
-  "description": "Numbers m with digits in nondecreasing order such that sum of squares of digits is a prime.",
+  "description": "Numbers with digits in nondecreasing order such that sum of squares of digits is a prime.",
   "id": "A234021",
   "mentions": [
     "A009994",

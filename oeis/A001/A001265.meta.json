@@ -11,8 +11,8 @@
     "tabf"
   ],
   "terms": {
-    "offset": 0,
-    "size": 68,
+    "offset": 2,
+    "size": 66,
     "source": "oeis-bfile"
   }
 }

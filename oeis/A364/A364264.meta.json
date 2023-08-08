@@ -1,0 +1,21 @@
+{
+  "description": "The Parker Square, read by rows.",
+  "id": "A364264",
+  "mentions": [
+    "A308838",
+    "A309810",
+    "A348263"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf",
+    "unsolved"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

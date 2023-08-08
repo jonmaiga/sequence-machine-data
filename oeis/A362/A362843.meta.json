@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are equal to the sum of their digits raised to consecutive odd numbered powers (1,3,5,7,...).",
+  "id": "A362843",
+  "mentions": [
+    "A032799",
+    "A154160",
+    "A208130"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -2,6 +2,7 @@
   "description": "Expansion of eta(q^6)^3 * eta(q^10)^3 / (eta(q^2) * eta(q^3)^2 * eta(q^5)^2 * eta(q^30)) in powers of q.",
   "id": "A257632",
   "mentions": [
+    "A132967",
     "A132968"
   ],
   "tags": [
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 50,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

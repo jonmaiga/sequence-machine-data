@@ -1,0 +1,16 @@
+{
+  "description": "Number of partitions of 2n into n parts where each block of part i with multiplicity j is marked with a word of length i*j over a (2n)-ary alphabet whose letters appear in alphabetical order and all 2n letters occur exactly once in the partition.",
+  "id": "A364323",
+  "mentions": [
+    "A364310"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

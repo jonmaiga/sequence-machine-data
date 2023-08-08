@@ -1,0 +1,22 @@
+{
+  "description": "The number of stones-and-bones tilings of the (n,2n-4)-benzel.",
+  "id": "A364416",
+  "mentions": [
+    "A352207",
+    "A364417",
+    "A364418",
+    "A364438",
+    "A364481",
+    "A364482",
+    "A364483"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

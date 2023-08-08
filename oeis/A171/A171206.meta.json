@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies: A(x) = 1 + x*A(2x)^6.",
+  "description": "G.f. satisfies A(x) = 1 + x*A(2x)^6.",
   "id": "A171206",
   "mentions": [
     "A135867",
@@ -7,7 +7,8 @@
     "A171205",
     "A171207",
     "A171208",
-    "A171211"
+    "A171211",
+    "A343439"
   ],
   "tags": [
     "nonn"
@@ -15,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 14,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

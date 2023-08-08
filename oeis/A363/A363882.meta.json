@@ -1,0 +1,18 @@
+{
+  "description": "Take 2 copies of Pascal's triangle. One copy has one inch between the terms of each row and the other copy has two inches between the terms of each row. Put one on top of the other so that the 1's at the very top of each copy coincide. Sequence is a triangle giving the differences between the overlapping terms.",
+  "id": "A363882",
+  "mentions": [
+    "A007318"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

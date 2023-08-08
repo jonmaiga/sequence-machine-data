@@ -1,0 +1,41 @@
+{
+  "description": "Number of integer partitions of n containing all of their own nonzero first differences.",
+  "id": "A364674",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A002865",
+    "A007862",
+    "A008284",
+    "A008289",
+    "A025065",
+    "A229816",
+    "A236912",
+    "A237113",
+    "A237667",
+    "A320347",
+    "A325325",
+    "A326083",
+    "A363225",
+    "A363260",
+    "A364272",
+    "A364463",
+    "A364464",
+    "A364466",
+    "A364467",
+    "A364536",
+    "A364537",
+    "A364671",
+    "A364672",
+    "A364673",
+    "A364675"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

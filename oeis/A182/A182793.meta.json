@@ -1,5 +1,5 @@
 {
-  "description": "Number of n-colorings of the Triangle Graph of order 8.",
+  "description": "Number of n-colorings of the 8 X 8 X 8 triangular grid.",
   "id": "A182793",
   "mentions": [
     "A178435",
@@ -15,6 +15,7 @@
     "A182798"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],

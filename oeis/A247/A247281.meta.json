@@ -1,9 +1,7 @@
 {
-  "description": "4^n -(-1)^n.",
+  "description": "a(n) = 4^n -(-1)^n.",
   "id": "A247281",
   "mentions": [
-    "A000004",
-    "A000351",
     "A015521",
     "A037481",
     "A084623"
@@ -11,6 +9,7 @@
   "tags": [
     "easy",
     "formulas",
+    "less",
     "nonn"
   ],
   "terms": {

@@ -1,13 +1,14 @@
 {
-  "description": "Numbers n such that 2*17^n - 1 is prime.",
+  "description": "Numbers k such that 2*17^k - 1 is prime.",
   "id": "A193177",
   "mentions": [],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

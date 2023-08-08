@@ -1,0 +1,14 @@
+{
+  "description": "Number of paths across a regular hexagonal grid with side length n.",
+  "id": "A362504",
+  "mentions": [],
+  "tags": [
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

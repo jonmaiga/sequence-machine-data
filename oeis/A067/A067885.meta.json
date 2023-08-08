@@ -2,6 +2,8 @@
   "description": "Product of 6 distinct primes.",
   "id": "A067885",
   "mentions": [
+    "A001221",
+    "A001222",
     "A006881",
     "A007304",
     "A046386",
@@ -12,6 +14,7 @@
     "A123322"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

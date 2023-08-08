@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k in A361098 that are not divisible by A007947(k)^2.",
+  "id": "A364702",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A001694",
+    "A007947",
+    "A053669",
+    "A119288",
+    "A126706",
+    "A286708",
+    "A361098"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

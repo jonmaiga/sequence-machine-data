@@ -1,0 +1,23 @@
+{
+  "description": "Largest positive integer having n holes that can be made using the fewest possible digits.",
+  "id": "A363377",
+  "mentions": [
+    "A002281",
+    "A002282",
+    "A065033",
+    "A249572",
+    "A250256",
+    "A337099"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "joeis"
+  }
+}

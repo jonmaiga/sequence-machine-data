@@ -2,6 +2,7 @@
   "description": "Least number divisible by the first n primes whose factorization into maximal prime powers, if ordered by increasing prime divisor, then has these prime power factors in decreasing order.",
   "id": "A363234",
   "mentions": [
+    "A002110",
     "A067255",
     "A347284",
     "A347355",

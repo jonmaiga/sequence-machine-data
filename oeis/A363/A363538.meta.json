@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (H(k) - log(k) - gamma)/k, where H(k) = A001008(k)/A002805(k) is the k-th harmonic number and gamma is Euler's constant (A001620).",
+  "id": "A363538",
+  "mentions": [
+    "A001008",
+    "A001620",
+    "A002805",
+    "A072691",
+    "A082633",
+    "A363539",
+    "A363540"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

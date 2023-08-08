@@ -1,5 +1,5 @@
 {
-  "description": "T(n,k)=Number of nXk 0..2 arrays with every nonzero element less than or equal to some horizontal or vertical neighbor",
+  "description": "T(n,k)=Number of nXk 0..2 arrays with every nonzero element less than or equal to some horizontal or vertical neighbor.",
   "id": "A202889",
   "mentions": [],
   "tags": [

@@ -1,0 +1,18 @@
+{
+  "description": "Number of 6-cycles in the n-Lucas cube graph.",
+  "id": "A364605",
+  "mentions": [
+    "A000032",
+    "A000045",
+    "A245961"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

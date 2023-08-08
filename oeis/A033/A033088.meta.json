@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with property that all pairs of consecutive digits differ by 2.",
+  "description": "Numbers in which all pairs of consecutive digits differ by 2.",
   "id": "A033088",
   "mentions": [],
   "tags": [

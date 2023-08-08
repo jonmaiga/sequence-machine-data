@@ -1,16 +1,19 @@
 {
-  "description": "A prime gap as sum of integers triangular array.",
+  "description": "Irregular triangle T(n, k) = prime(n) + k*(k-1), for n >= 1 and 1 <= k <= 1 + A000720(n), read by rows.",
   "id": "A120724",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A000720"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn",
-    "tabf",
-    "uned"
+    "tabf"
   ],
   "terms": {
     "offset": 1,
-    "size": 37,
-    "source": "oeis-entry"
+    "size": 70,
+    "source": "oeis-bfile"
   }
 }

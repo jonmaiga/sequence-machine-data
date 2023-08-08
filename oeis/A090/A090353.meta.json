@@ -1,5 +1,5 @@
 {
-  "description": "Satisfies A^4 = BINOMIAL(A^3).",
+  "description": "G.f. satisfies A^4 = BINOMIAL(A^3).",
   "id": "A090353",
   "mentions": [
     "A032033",

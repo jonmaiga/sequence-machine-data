@@ -2,7 +2,9 @@
   "description": "Number of shifted Young tableaux with height <= 3.",
   "id": "A082395",
   "mentions": [
-    "A005043"
+    "A005043",
+    "A112406",
+    "A363555"
   ],
   "tags": [
     "formulas",

@@ -1,11 +1,14 @@
 {
   "description": "Digits of powers of 13.",
   "id": "A008573",
-  "mentions": [],
+  "mentions": [
+    "A001022"
+  ],
   "tags": [
     "base",
     "easy",
-    "nonn"
+    "nonn",
+    "tabf"
   ],
   "terms": {
     "offset": 0,

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (5/7) * (9*n)!*(7*n/2)!^2/((9*n/2)!*(7*n)!*(5*n/2)!*n!^2) for n >= 1, with a(0) = 1.",
+  "id": "A364517",
+  "mentions": [
+    "A364513"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

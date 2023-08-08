@@ -1,8 +1,9 @@
 {
-  "description": "Primes of the form (p(2*n)-p(n))/3*2, where p(n)=n-th prime.",
+  "description": "a(n) = (prime(2*m)-prime(m))/6 where m is the n-th positive integer such that (prime(2*m)-prime(m))/6 is prime.",
   "id": "A141657",
   "mentions": [
-    "A000040"
+    "A000040",
+    "A072473"
   ],
   "tags": [
     "nonn"
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -2,18 +2,12 @@
   "description": "Numbers that are divisible by exactly 7 distinct primes.",
   "id": "A176655",
   "mentions": [
-    "A007774",
-    "A033992",
-    "A033993",
     "A046386",
     "A046387",
-    "A051270",
     "A067885",
-    "A074969",
     "A123321",
-    "A246655",
-    "A348072",
-    "A348073"
+    "A125666",
+    "A246655"
   ],
   "tags": [
     "nonn"

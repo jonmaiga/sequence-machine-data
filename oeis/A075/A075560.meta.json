@@ -1,13 +1,14 @@
 {
-  "description": "a(1) = 1, a(n) = smallest number greater than the previous term that cannot be obtained as the sum of products of any group of earlier terms.",
+  "description": "a(1) = 1, a(n) is the smallest number greater than the previous term that cannot be obtained as the sum of products of any group of earlier terms.",
   "id": "A075560",
   "mentions": [],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 13,
     "source": "oeis-entry"
   }

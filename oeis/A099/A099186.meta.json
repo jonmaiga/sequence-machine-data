@@ -1,5 +1,5 @@
 {
-  "description": "Iterated icosahedral numbers: a(0)=1, a(1) = 12, a(n+1)=A006564(a(n)).",
+  "description": "a(0) = 1, a(1) = 12, a(n+1) = A006564(a(n)).",
   "id": "A099186",
   "mentions": [
     "A006564",

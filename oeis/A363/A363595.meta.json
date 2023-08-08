@@ -1,0 +1,21 @@
+{
+  "description": "Recursive product of aliquot divisors of n.",
+  "id": "A363595",
+  "mentions": [
+    "A000295",
+    "A007947",
+    "A007955",
+    "A007956",
+    "A255242"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

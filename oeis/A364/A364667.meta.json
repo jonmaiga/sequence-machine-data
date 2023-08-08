@@ -1,0 +1,14 @@
+{
+  "description": "Lower independence number of the n-diagonal intersection graph.",
+  "id": "A364667",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

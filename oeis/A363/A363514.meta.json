@@ -1,0 +1,20 @@
+{
+  "description": "Sum of divisors of 3*n-1 of form 3*k+1.",
+  "id": "A363514",
+  "mentions": [
+    "A078181",
+    "A359211",
+    "A363889",
+    "A363890",
+    "A363891"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

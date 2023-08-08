@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = A000045(n)-A000931(n).",
+  "description": "a(n) = A000045(n) - A000931(n).",
   "id": "A129973",
   "mentions": [
     "A000045",
@@ -8,6 +8,7 @@
   "tags": [
     "easy",
     "formulas",
+    "less",
     "nonn"
   ],
   "terms": {

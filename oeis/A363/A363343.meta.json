@@ -1,0 +1,18 @@
+{
+  "description": "Array read by ascending antidiagonals: T(n,k) is the value of the k-th cell on the n-th diagonal from the right of rule-30 1-D cellular automaton, when started from a single ON cell, with n, k >= 1.",
+  "id": "A363343",
+  "mentions": [
+    "A070950",
+    "A094605",
+    "A363344"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-entry"
+  }
+}

@@ -1,13 +1,20 @@
 {
-  "description": "Semiprimes based on powers of two and primes: a(n)=(2^Prime[n] - 1)*(2^Prime[n] + 1)=2^(2*Prime[n])-1.",
+  "description": "a(n) = (2^prime(n) - 1)*(2^prime(n) + 1) = 2^(2*prime(n)) - 1.",
   "id": "A152099",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A000302",
+    "A001348",
+    "A034785",
+    "A098640"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

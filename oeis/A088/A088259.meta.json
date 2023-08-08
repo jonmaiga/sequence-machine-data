@@ -2,6 +2,7 @@
   "description": "Perfect powers which have at least one prime neighbor.",
   "id": "A088259",
   "mentions": [
+    "A001597",
     "A088256",
     "A088257",
     "A088258"

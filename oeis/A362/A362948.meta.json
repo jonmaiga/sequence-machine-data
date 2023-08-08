@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose sum of (distinct) prime divisors (A008472) equals 5.",
+  "id": "A362948",
+  "mentions": [
+    "A000351",
+    "A008472",
+    "A033845"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

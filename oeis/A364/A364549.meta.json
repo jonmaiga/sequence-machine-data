@@ -1,0 +1,23 @@
+{
+  "description": "Odd numbers k that divide A005941(k).",
+  "id": "A364549",
+  "mentions": [
+    "A000720",
+    "A005940",
+    "A005941",
+    "A156552",
+    "A364498",
+    "A364547",
+    "A364548",
+    "A364551"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

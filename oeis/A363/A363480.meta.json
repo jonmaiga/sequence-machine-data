@@ -1,0 +1,18 @@
+{
+  "description": "G.f. satisfies A(x) = exp( Sum_{k>=1} A(2*x^k)^2 * x^k/k ).",
+  "id": "A363480",
+  "mentions": [
+    "A005750",
+    "A179470",
+    "A363481"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

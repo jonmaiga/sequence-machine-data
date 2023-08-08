@@ -2,6 +2,7 @@
   "description": "Coprime semiprimes: a(n-1) and a(n) are the closest coprime semiprimes.",
   "id": "A131368",
   "mentions": [
+    "A001358",
     "A051884",
     "A061766",
     "A107621",
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

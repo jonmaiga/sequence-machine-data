@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that the least common multiple of the degrees of the irreducible characters of S_k equals |S_k| = k!.",
+  "id": "A363675",
+  "mentions": [
+    "A000142",
+    "A000217",
+    "A010054",
+    "A033687",
+    "A175595",
+    "A260682",
+    "A267137",
+    "A363676"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

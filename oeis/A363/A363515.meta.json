@@ -1,0 +1,22 @@
+{
+  "description": "Numerator of log(2) + (-1/4)^n*Integral_{x=0..1} (1 - x)^(4*n+2)/(1 + x^2) dx.",
+  "id": "A363515",
+  "mentions": [
+    "A002162",
+    "A004767",
+    "A016825",
+    "A262710",
+    "A363516"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

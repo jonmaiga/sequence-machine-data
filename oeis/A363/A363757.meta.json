@@ -1,0 +1,22 @@
+{
+  "description": "Lexicographically earliest sequence of positive integers such that the n-th pair of consecutive equal values are separated by a(n) distinct terms, with pairs numbered according to the position of the second term in the pair.",
+  "id": "A363757",
+  "mentions": [
+    "A000124",
+    "A001511",
+    "A026272",
+    "A080036",
+    "A083920",
+    "A330896",
+    "A363654",
+    "A363708"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n with property that in base 3 representation the numbers of 0's and 1's are 4 and 3, respectively.",
+  "description": "Numbers whose base-3 representation contains exactly four 0's and three 1's.",
   "id": "A044988",
-  "mentions": [],
+  "mentions": [
+    "A007089"
+  ],
   "tags": [
     "base",
     "nonn"
@@ -9,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 39,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

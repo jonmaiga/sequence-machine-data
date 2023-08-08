@@ -1,0 +1,26 @@
+{
+  "description": "Leading digit of 9^n.",
+  "id": "A363249",
+  "mentions": [
+    "A000030",
+    "A001019",
+    "A008570",
+    "A008952",
+    "A060956",
+    "A111395",
+    "A362871",
+    "A363093",
+    "A364185"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-bfile"
+  }
+}

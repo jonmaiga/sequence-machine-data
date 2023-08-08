@@ -1,0 +1,31 @@
+{
+  "description": "Möbius function of rank 4: a(n) = lambda(n) = A008836(n) if n is biquadratefree (A046100) and 0 otherwise.",
+  "id": "A363552",
+  "mentions": [
+    "A008683",
+    "A008836",
+    "A046100",
+    "A053864",
+    "A053865",
+    "A053981",
+    "A157295",
+    "A189021",
+    "A189022",
+    "A189023",
+    "A307430",
+    "A353519",
+    "A363551",
+    "A363553"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

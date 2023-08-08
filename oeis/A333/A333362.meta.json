@@ -1,5 +1,5 @@
 {
-  "description": "Number of free polysticks with n segments on the vertices of the n-cube.",
+  "description": "Number of free polysticks with n segments on the edges of the n-cube.",
   "id": "A333362",
   "mentions": [
     "A019988",

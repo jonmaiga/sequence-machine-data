@@ -1,5 +1,5 @@
 {
-  "description": "Number of steps steps x -> x+1 or x/prime required to go from n to 1.",
+  "description": "Number of steps x -> x+1 or x/prime required to go from n to 1.",
   "id": "A363369",
   "mentions": [
     "A001222",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 87,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

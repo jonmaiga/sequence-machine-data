@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of e.g.f. (1/4)*(exp(x)-x-1)*(exp(x)-1)^2.",
+  "id": "A363603",
+  "mentions": [
+    "A000225",
+    "A001117",
+    "A052749",
+    "A363591"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

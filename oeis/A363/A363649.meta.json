@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of Sum_{k>0} x^(2*k)/(1 - (k*x)^k)^2.",
+  "id": "A363649",
+  "mentions": [
+    "A359112",
+    "A363641",
+    "A363646"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

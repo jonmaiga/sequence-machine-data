@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A364491(n) * A364492(n).",
+  "id": "A364493",
+  "mentions": [
+    "A005940",
+    "A054429",
+    "A163511",
+    "A364255",
+    "A364258",
+    "A364288",
+    "A364491",
+    "A364492"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

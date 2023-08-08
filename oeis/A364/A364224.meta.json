@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Sum_{k>=0} 7^k * x^(7^k) / (1 - x^(7^k))^2.",
+  "id": "A364224",
+  "mentions": [
+    "A091512",
+    "A214411",
+    "A359099",
+    "A364222",
+    "A364223"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

@@ -1,9 +1,12 @@
 {
   "description": "A simple grammar.",
   "id": "A052870",
-  "mentions": [],
+  "mentions": [
+    "A052855"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -1,0 +1,20 @@
+{
+  "description": "Odd numbers k such that A246600(k) = 2.",
+  "id": "A363691",
+  "mentions": [
+    "A001248",
+    "A065091",
+    "A246600",
+    "A363690"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

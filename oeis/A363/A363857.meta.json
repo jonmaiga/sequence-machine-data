@@ -1,0 +1,22 @@
+{
+  "description": "Number of divisors of 7*n-5 of form 7*k+6.",
+  "id": "A363857",
+  "mentions": [
+    "A361691",
+    "A363807",
+    "A363808",
+    "A363854",
+    "A363855",
+    "A363856",
+    "A363858"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

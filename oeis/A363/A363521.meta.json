@@ -1,0 +1,20 @@
+{
+  "description": "Product of the divisors d of n such that sqrt(n) < d < n.",
+  "id": "A363521",
+  "mentions": [
+    "A007955",
+    "A007956",
+    "A072499",
+    "A363520"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "A056915(n) mod 76057 mod 13.",
+  "description": "a(n) = A056915(n) mod 76057 mod 13.",
   "id": "A208846",
   "mentions": [
     "A055775",

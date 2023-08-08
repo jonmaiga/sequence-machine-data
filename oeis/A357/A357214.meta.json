@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = number of subsets S of {1, 2,..., n} such that every number in S is a composite.",
+  "description": "a(n) = number of subsets S of {1, 2, ..., n} such that every number in S is a composite.",
   "id": "A357214",
   "mentions": [
     "A000720",

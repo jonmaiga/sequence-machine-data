@@ -1,5 +1,5 @@
 {
-  "description": "Two even followed by three odd integers: the pattern is (0+2k,0+2k,1+2k,1+2k,1+2k) for k>=0.",
+  "description": "Two even followed by three odd integers: the pattern is (0+2k, 0+2k, 1+2k, 1+2k, 1+2k) for k >= 0.",
   "id": "A288156",
   "mentions": [
     "A004523",

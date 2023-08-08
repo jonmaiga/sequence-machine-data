@@ -1,0 +1,28 @@
+{
+  "description": "Square array read by ascending antidiagonals: T(n,k) = [x^k] (1 - x)^(2*k) * Legendre_P(n*k, (1 + x)/(1 - x)) for n, k >= 0.",
+  "id": "A364303",
+  "mentions": [
+    "A000984",
+    "A002894",
+    "A245086",
+    "A275652",
+    "A275653",
+    "A275654",
+    "A275655",
+    "A364113",
+    "A364298",
+    "A364304",
+    "A364305"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

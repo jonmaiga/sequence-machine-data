@@ -1,8 +1,9 @@
 {
-  "description": "Smallest k such that prime(n)+2^k is prime, or -1 if no such prime exists.",
+  "description": "Smallest k such that prime(n) + 2^k is prime, or -1 if no such prime exists.",
   "id": "A094076",
   "mentions": [
-    "A067760"
+    "A067760",
+    "A137715"
   ],
   "tags": [
     "nonn"
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 104,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

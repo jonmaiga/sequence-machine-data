@@ -1,0 +1,17 @@
+{
+  "description": "Least k > 1 such that k^n - n > 1 is semiprime, or 0 if no such k exists.",
+  "id": "A361803",
+  "mentions": [
+    "A001358",
+    "A016744",
+    "A130827"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

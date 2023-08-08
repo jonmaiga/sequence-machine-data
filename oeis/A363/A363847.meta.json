@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that Omega(m*(m+1)) < Omega(k*(k+1)) for all m < k, where Omega(k) is the number of prime divisors of k counted with multiplicity (A001222).",
+  "id": "A363847",
+  "mentions": [
+    "A001222",
+    "A002378",
+    "A059958",
+    "A075088",
+    "A076550"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

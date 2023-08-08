@@ -1,0 +1,41 @@
+{
+  "description": "Number of (necessarily strict) integer partitions of n containing all of their own first differences.",
+  "id": "A364673",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A002865",
+    "A007862",
+    "A008284",
+    "A008289",
+    "A025065",
+    "A196723",
+    "A229816",
+    "A236912",
+    "A237113",
+    "A237667",
+    "A320347",
+    "A325325",
+    "A363225",
+    "A363260",
+    "A364272",
+    "A364345",
+    "A364463",
+    "A364464",
+    "A364467",
+    "A364536",
+    "A364537",
+    "A364671",
+    "A364672",
+    "A364674",
+    "A364675"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

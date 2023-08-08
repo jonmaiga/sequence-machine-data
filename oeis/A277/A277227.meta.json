@@ -2,7 +2,8 @@
   "description": "Triangular array T read by rows: T(n,k) gives the additive orders k modulo n, for k = 0,1, ..., n-1.",
   "id": "A277227",
   "mentions": [
-    "A054531"
+    "A054531",
+    "A106448"
   ],
   "tags": [
     "easy",

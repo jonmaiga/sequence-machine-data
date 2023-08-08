@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of (1 + x + x^3)/(1 - x^2 - 2*x^4 - 2*x^6 + x^8).",
+  "id": "A363958",
+  "mentions": [
+    "A077998",
+    "A123392",
+    "A210460"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

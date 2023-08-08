@@ -1,5 +1,5 @@
 {
-  "description": "Prime numbers with m^2 digits that, if arranged in an m X m matrix, form m-digit reversible primes in each row, column, and main diagonal.",
+  "description": "Prime numbers with m^2 digits that, if arranged in an m X m matrix, form m-digit reversible primes in each row and column and along the main diagonal.",
   "id": "A224164",
   "mentions": [
     "A224398"

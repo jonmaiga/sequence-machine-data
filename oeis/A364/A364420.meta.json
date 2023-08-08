@@ -1,0 +1,20 @@
+{
+  "description": "Number of divisors of n of the form 5*k+4 that are at most sqrt(n).",
+  "id": "A364420",
+  "mentions": [
+    "A001899",
+    "A038548",
+    "A364388",
+    "A364389",
+    "A364419"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 108,
+    "source": "oeis-entry"
+  }
+}

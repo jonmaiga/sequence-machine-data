@@ -2,15 +2,17 @@
   "description": "Sequence consisting of 1,3 or 5 with 3's occurring at the odious indices given by A091855 and 5's occurring at twice these odious indices.",
   "id": "A127250",
   "mentions": [
+    "A000069",
     "A091855",
     "A127249"
   ],
   "tags": [
+    "base",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 72,
+    "size": 87,
     "source": "oeis-entry"
   }
 }

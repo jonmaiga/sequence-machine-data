@@ -1,5 +1,5 @@
 {
-  "description": "Number of ordered n-tuple (x_1, x_2, x_3, ..., x_n) such that Sum_{k=1..n} 1/x_k is an integer and x_k is an integer between 1 and n for 1 <= k <= n.",
+  "description": "Number of ordered n-tuples (x_1, x_2, x_3, ..., x_n) such that Sum_{k=1..n} 1/x_k is an integer and x_k is an integer between 1 and n for 1 <= k <= n.",
   "id": "A349146",
   "mentions": [
     "A349145",

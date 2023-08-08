@@ -2,7 +2,8 @@
   "description": "Powers of 38.",
   "id": "A009982",
   "mentions": [
-    "A000244"
+    "A000244",
+    "A008776"
   ],
   "tags": [
     "easy",

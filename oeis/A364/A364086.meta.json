@@ -1,0 +1,18 @@
+{
+  "description": "Fixed points of A002326, i.e., numbers k such that A002326(k) = k.",
+  "id": "A364086",
+  "mentions": [
+    "A001122",
+    "A002326",
+    "A115591"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

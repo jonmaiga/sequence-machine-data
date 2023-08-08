@@ -1,5 +1,5 @@
 {
-  "description": "Inverse of A015908, that is, k is the first occurrence for which n | k^n + k.",
+  "description": "a(n) = smallest k >= 1 such that n divides k^n + k.",
   "id": "A015909",
   "mentions": [
     "A015908"
@@ -8,8 +8,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 3,
-    "size": 72,
-    "source": "joeis"
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "description": "Number of ways to write n as sum of a positive square and a positive fourth power.",
+  "id": "A363711",
+  "mentions": [
+    "A010052",
+    "A063725",
+    "A078359",
+    "A111925",
+    "A363713",
+    "A363714"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 106,
+    "source": "oeis-entry"
+  }
+}

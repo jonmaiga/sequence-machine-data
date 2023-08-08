@@ -1,7 +1,10 @@
 {
-  "description": "The decimal expansion of the Integral_x=0..1 _y=0..x sin(x*y).",
+  "description": "Decimal expansion of Integral_{x=0..1} Integral_{y=0..x} sin(x*y) dy dx.",
   "id": "A257176",
-  "mentions": [],
+  "mentions": [
+    "A001620",
+    "A099282"
+  ],
   "tags": [
     "cons",
     "easy",

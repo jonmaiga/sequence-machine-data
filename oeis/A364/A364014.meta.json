@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of Sum_{k>0} x^(2*k) / (1 + x^(3*k)).",
+  "id": "A364014",
+  "mentions": [
+    "A364015",
+    "A364016"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 97,
+    "source": "oeis-bfile"
+  }
+}

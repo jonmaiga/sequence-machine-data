@@ -2,6 +2,7 @@
   "description": "Decimal expansion of Baxter's four-coloring constant.",
   "id": "A224273",
   "mentions": [
+    "A004117",
     "A081760",
     "A152751"
   ],

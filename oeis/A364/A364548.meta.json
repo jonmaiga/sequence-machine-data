@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that k divides A005941(k).",
+  "id": "A364548",
+  "mentions": [
+    "A005940",
+    "A005941",
+    "A029747",
+    "A156552",
+    "A364497",
+    "A364546",
+    "A364549"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

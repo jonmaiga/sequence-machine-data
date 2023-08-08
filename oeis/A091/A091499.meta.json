@@ -1,5 +1,5 @@
 {
-  "description": "Triangle, read by rows, such that T(n,k) equals the k-th term of the convolution of the two prior rows indexed by (n-k) and (k-1).",
+  "description": "Triangle read by rows, such that T(n,k) equals the k-th term of the convolution of the two prior rows indexed by (n-k) and (k-1).",
   "id": "A091499",
   "mentions": [
     "A091500",

@@ -1,16 +1,16 @@
 {
-  "description": "Coefficients in q-expansion of modular form (of weight 2 and level 800) associated with the curve y^2 = x^3 -25x.",
+  "description": "Coefficients in q-expansion of modular form (of weight 2 and level 800) associated with the curve y^2 = x^3 - 25x.",
   "id": "A221705",
   "mentions": [
     "A221702"
   ],
   "tags": [
-    "more",
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 13,
-    "source": "oeis-entry"
+    "size": 80,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "Minimum number of consecutive positive integers to guarantee n abundant or perfect numbers.",
+  "id": "A359873",
+  "mentions": [
+    "A023196"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

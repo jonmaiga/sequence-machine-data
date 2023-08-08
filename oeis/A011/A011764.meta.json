@@ -2,6 +2,8 @@
   "description": "a(n) = 3^(2^n) (or: write in base 3, read in base 9).",
   "id": "A011764",
   "mentions": [
+    "A000079",
+    "A000244",
     "A001146",
     "A078885",
     "A173419",

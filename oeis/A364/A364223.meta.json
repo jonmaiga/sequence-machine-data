@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of Sum_{k>=0} 5^k * x^(5^k) / (1 - x^(5^k))^2.",
+  "id": "A364223",
+  "mentions": [
+    "A055457",
+    "A091512",
+    "A112765",
+    "A359100",
+    "A364222",
+    "A364224"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-entry"
+  }
+}

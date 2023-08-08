@@ -1,0 +1,19 @@
+{
+  "description": "Array read by ascending antidiagonals: A(m, n) = Sum_{i=0..n} Sum_{d=0..n-i} binomial(n, d)*StirlingS2(n-d, i)*(m^(m-1) - 1)^(n-d-i).",
+  "id": "A364074",
+  "mentions": [
+    "A003580",
+    "A364069",
+    "A364070",
+    "A364075"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

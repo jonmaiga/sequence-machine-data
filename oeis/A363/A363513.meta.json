@@ -1,0 +1,17 @@
+{
+  "description": "a(1) = 2, then a(n) is the least prime p > a(n - 1) such that p + a(n-1) and p - a(n-1) have the same number of prime factors counted with multiplicity.",
+  "id": "A363513",
+  "mentions": [
+    "A001222",
+    "A361611"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

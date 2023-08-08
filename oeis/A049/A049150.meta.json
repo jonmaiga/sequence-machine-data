@@ -1,8 +1,11 @@
 {
   "description": "Recip transform of 2*(1 + x^2)-1/(1-x).",
   "id": "A049150",
-  "mentions": [],
+  "mentions": [
+    "A049170"
+  ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

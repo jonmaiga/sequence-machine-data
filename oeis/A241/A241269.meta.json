@@ -1,5 +1,5 @@
 {
-  "description": "Denominators of c(n) = (n^2+n+2)/((n+1)*(n+2)*(n+3)).",
+  "description": "Denominator of c(n) = (n^2+n+2)/((n+1)*(n+2)*(n+3)).",
   "id": "A241269",
   "mentions": [
     "A000911",
@@ -18,11 +18,12 @@
   "tags": [
     "formulas",
     "frac",
+    "look",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 44,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

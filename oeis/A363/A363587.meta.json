@@ -1,0 +1,16 @@
+{
+  "description": "Number of partitions of [n] such that in the set of smallest block elements there is an equal number of odd and even terms.",
+  "id": "A363587",
+  "mentions": [
+    "A000110",
+    "A290383"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

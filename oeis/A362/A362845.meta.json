@@ -1,0 +1,17 @@
+{
+  "description": "Number of divisors of 7*n-2 of form 7*k+1.",
+  "id": "A362845",
+  "mentions": [
+    "A279061",
+    "A363807"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

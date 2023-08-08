@@ -1,5 +1,5 @@
 {
-  "description": "Number of odd terms in f^n, where f = 1/x+1+x+y.",
+  "description": "Number of odd terms in f^n, where f = 1/x + 1 + x + y.",
   "id": "A253064",
   "mentions": [
     "A001316",

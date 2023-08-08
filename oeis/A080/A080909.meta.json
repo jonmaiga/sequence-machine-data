@@ -1,5 +1,5 @@
 {
-  "description": "(2n+1)! modulo 4n+3.",
+  "description": "a(n) = (2n+1)! modulo 4n+3, |a(n)| <= 1.",
   "id": "A080909",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 71,
+    "size": 83,
     "source": "oeis-entry"
   }
 }

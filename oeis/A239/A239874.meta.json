@@ -1,5 +1,5 @@
 {
-  "description": "Integers n such that 2n^2+1 and 2n^3+1 are prime.",
+  "description": "Integers k such that 2*k^2 + 1 and 2*k^3 + 1 are prime.",
   "id": "A239874",
   "mentions": [
     "A089001",

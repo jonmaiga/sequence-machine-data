@@ -1,0 +1,19 @@
+{
+  "description": "Number of connected bipartite graphs on 2n nodes with a marked bipartite set of size n.",
+  "id": "A363846",
+  "mentions": [
+    "A002724",
+    "A028657",
+    "A123549",
+    "A363845"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-bfile"
+  }
+}

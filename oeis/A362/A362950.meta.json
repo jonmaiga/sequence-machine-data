@@ -1,0 +1,19 @@
+{
+  "description": "Bitmaps of king + rook vs. king checkmate patterns on a standard 8 X 8 board.",
+  "id": "A362950",
+  "mentions": [
+    "A000120",
+    "A007088",
+    "A014311"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-bfile"
+  }
+}

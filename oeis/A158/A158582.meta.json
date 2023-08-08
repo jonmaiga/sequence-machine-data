@@ -1,5 +1,5 @@
 {
-  "description": "Numbers having in binary representation at least two zeros.",
+  "description": "Numbers with at least two zeros in their binary representation.",
   "id": "A158582",
   "mentions": [
     "A007088",

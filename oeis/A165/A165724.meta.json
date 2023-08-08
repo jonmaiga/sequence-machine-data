@@ -2,12 +2,14 @@
   "description": "Digit sums of A092571.",
   "id": "A165724",
   "mentions": [
+    "A007953",
     "A056658",
     "A092571"
   ],
   "tags": [
     "base",
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

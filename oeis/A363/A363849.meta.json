@@ -1,0 +1,25 @@
+{
+  "description": "Triangular array read by rows. T(n,k) is the number of Green's H-classes of rank k in the semigroup of partial transformations, n >= 0, 0 <= k <= n.",
+  "id": "A363849",
+  "mentions": [
+    "A000012",
+    "A000169",
+    "A002411",
+    "A007318",
+    "A008277",
+    "A066524",
+    "A090683",
+    "A101818",
+    "A134055"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

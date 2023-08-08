@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the smallest number > a(n-1) such that a(n-1) + a(n) is a triprime (A014612), with a(1) = 1.",
+  "id": "A364442",
+  "mentions": [
+    "A001222",
+    "A014612",
+    "A073627",
+    "A263349",
+    "A357713"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

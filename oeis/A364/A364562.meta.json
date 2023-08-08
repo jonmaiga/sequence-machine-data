@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k for which A156552(k) > k.",
+  "id": "A364562",
+  "mentions": [
+    "A005941",
+    "A156552",
+    "A364559",
+    "A364560"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 74,
+    "source": "oeis-entry"
+  }
+}

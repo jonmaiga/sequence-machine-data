@@ -2,6 +2,8 @@
   "description": "5th binary partition function.",
   "id": "A007728",
   "mentions": [
+    "A000123",
+    "A018819",
     "A072170"
   ],
   "tags": [

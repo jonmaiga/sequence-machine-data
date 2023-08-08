@@ -1,9 +1,11 @@
 {
-  "description": "Decimal expansion of the Plouffe sum S(5,1) = sum_{n >= 0} 1/(n^5*(exp(Pi*n)-1)).",
+  "description": "Decimal expansion of the Plouffe sum S(5,1) = Sum_{n >= 1} 1/(n^5*(exp(Pi*n)-1)).",
   "id": "A255701",
   "mentions": [
+    "A001160",
+    "A013663",
+    "A084254",
     "A255695",
-    "A255696",
     "A255697",
     "A255698",
     "A255699",

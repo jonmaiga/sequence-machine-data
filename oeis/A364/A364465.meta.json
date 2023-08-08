@@ -1,0 +1,38 @@
+{
+  "description": "Number of subsets of {1..n} with all different first differences of elements.",
+  "id": "A364465",
+  "mentions": [
+    "A000009",
+    "A007318",
+    "A008289",
+    "A011782",
+    "A053632",
+    "A108917",
+    "A196723",
+    "A236912",
+    "A275972",
+    "A320347",
+    "A320348",
+    "A325325",
+    "A325857",
+    "A325864",
+    "A325877",
+    "A325878",
+    "A326083",
+    "A363260",
+    "A364345",
+    "A364346",
+    "A364463",
+    "A364466",
+    "A364467",
+    "A364535"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

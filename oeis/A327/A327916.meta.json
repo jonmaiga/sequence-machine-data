@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(k, n) read by rows: Array A(k, n) = 2^k*(k + 1+ n), k >= 0, n >= 0, read by antidiagonals upwards.",
+  "description": "Triangle T(k, n) read by rows: Array A(k, n) = 2^k*(k + 1 + 2*n), k >= 0, n >= 0, read by antidiagonals upwards.",
   "id": "A327916",
   "mentions": [
     "A001477",
@@ -32,6 +32,6 @@
   "terms": {
     "offset": 0,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

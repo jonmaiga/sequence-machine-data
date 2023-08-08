@@ -2,10 +2,13 @@
   "description": "Least number m for which n applications of the mapping r(k) = k - (greatest prime divisor of k) map m to 0.",
   "id": "A233341",
   "mentions": [
+    "A048133",
+    "A050710",
     "A233342"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

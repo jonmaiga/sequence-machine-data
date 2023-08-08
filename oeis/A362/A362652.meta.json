@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of g.f. x*(-2 - 2*x + x^2 - x^3)/((1 + x)^2 *(-1 + x)^3).",
+  "id": "A362652",
+  "mentions": [
+    "A053439"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that floor(10^k/7) is prime.",
+  "id": "A364644",
+  "mentions": [
+    "A090519"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

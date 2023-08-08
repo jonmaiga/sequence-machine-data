@@ -1,0 +1,17 @@
+{
+  "description": "Number of partitions of [n] with distinct block sizes such that no block contains its size as an element.",
+  "id": "A364278",
+  "mentions": [
+    "A326493",
+    "A363881",
+    "A364279"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

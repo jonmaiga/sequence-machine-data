@@ -1,10 +1,11 @@
 {
-  "description": "Number of n X n 0..2 arrays with every nonzero element less than or equal to some horizontal or vertical neighbor",
+  "description": "Number of n X n 0..2 arrays with every nonzero element less than or equal to some horizontal or vertical neighbor.",
   "id": "A202881",
   "mentions": [
     "A202889"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

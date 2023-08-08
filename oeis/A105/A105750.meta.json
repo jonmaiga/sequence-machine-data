@@ -1,12 +1,17 @@
 {
-  "description": "RE(Product{k=0..n, 1+kI}), I=sqrt(-1).",
+  "description": "Real part of Product_{k = 0..n} (1 + k*i), i = sqrt(-1).",
   "id": "A105750",
   "mentions": [
+    "A002144",
+    "A002145",
     "A003703",
     "A009454",
+    "A048994",
     "A105751",
     "A220448",
-    "A220449"
+    "A220449",
+    "A363409",
+    "A363416"
   ],
   "tags": [
     "easy",

@@ -1,9 +1,10 @@
 {
-  "description": "Decimal expansion of the sum of the reciprocals of the squares of the positive triangular numbers.",
+  "description": "Decimal expansion of the series of the reciprocals of the squares of the positive triangular numbers.",
   "id": "A340216",
   "mentions": [
     "A000217",
     "A000537",
+    "A013661",
     "A145426"
   ],
   "tags": [

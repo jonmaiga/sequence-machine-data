@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of 1/(Sum_{k>=0} x^(k^3))^2.",
+  "id": "A363776",
+  "mentions": [
+    "A173677",
+    "A363779",
+    "A363783"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,10 @@
   "description": "Decimal expansion of Sum_{n>=1} moebius(n)*(1/10)^n.",
   "id": "A181673",
   "mentions": [
-    "A008683"
+    "A008683",
+    "A238270",
+    "A238271",
+    "A238273"
   ],
   "tags": [
     "cons",

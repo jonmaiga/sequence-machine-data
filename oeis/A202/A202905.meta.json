@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX7 0..1 arrays with every one equal to some NW, E or S neighbor",
+  "description": "Number of n X 7 0..1 arrays with every one equal to some NW, E or S neighbor.",
   "id": "A202905",
   "mentions": [
     "A202906"

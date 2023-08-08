@@ -1,5 +1,5 @@
 {
-  "description": "Integers m whose decimal expansion of 1/m contains the digit 7.",
+  "description": "Integers m such that the decimal expansion of 1/m contains the digit 7.",
   "id": "A353443",
   "mentions": [
     "A333237",

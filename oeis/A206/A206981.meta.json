@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX2 0..1 arrays avoiding the patterns 0 1 0 or 1 0 1 in any row, column, diagonal or antidiagonal",
+  "description": "Number of n X 2 0..1 arrays avoiding the patterns 0 1 0 or 1 0 1 in any row, column, diagonal or antidiagonal.",
   "id": "A206981",
   "mentions": [
     "A080097",

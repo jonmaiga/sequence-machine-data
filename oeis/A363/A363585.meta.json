@@ -1,0 +1,22 @@
+{
+  "description": "Least prime p such that p^n + 6 is the product of n distinct primes.",
+  "id": "A363585",
+  "mentions": [
+    "A000961",
+    "A001221",
+    "A005117",
+    "A280005",
+    "A358656",
+    "A362957"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

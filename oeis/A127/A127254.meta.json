@@ -2,10 +2,12 @@
   "description": "(0,1) sequence whose zero positions are indexed by twice the odious numbers given by A091855.",
   "id": "A127254",
   "mentions": [
+    "A000069",
     "A091855",
     "A127253"
   ],
   "tags": [
+    "base",
     "nonn"
   ],
   "terms": {

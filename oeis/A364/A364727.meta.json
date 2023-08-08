@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that k and k+1 are both admirable numbers (A111592).",
+  "id": "A364727",
+  "mentions": [
+    "A096399",
+    "A109729",
+    "A109730",
+    "A111592"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

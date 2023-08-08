@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows, twice Pascal's triangle minus Sierpinski's gasket, 2*A007318 -A047999",
+  "description": "Triangle read by rows, twice Pascal's triangle minus Sierpinski's gasket: 2*A007318 - A047999.",
   "id": "A166455",
   "mentions": [
     "A007318",
@@ -7,13 +7,12 @@
     "A166456"
   ],
   "tags": [
-    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 54,
-    "source": "oeis-entry"
+    "size": 78,
+    "source": "joeis"
   }
 }

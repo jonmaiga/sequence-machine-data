@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 3^n - 2^n is not squarefree.",
+  "description": "Numbers k such that 3^k - 2^k is not squarefree.",
   "id": "A280149",
   "mentions": [
     "A001047",

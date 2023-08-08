@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Sum_{k>0} k^2 * x^(2*k-1) / (1 - x^(2*k-1)).",
+  "id": "A363969",
+  "mentions": [
+    "A001227",
+    "A050999",
+    "A113415",
+    "A363974"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

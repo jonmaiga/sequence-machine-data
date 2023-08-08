@@ -2,6 +2,7 @@
   "description": "Number of set partitions of [n] such that each element is contained in a block whose index parity coincides with the parity of the element.",
   "id": "A274538",
   "mentions": [
+    "A011655",
     "A274537",
     "A274835"
   ],

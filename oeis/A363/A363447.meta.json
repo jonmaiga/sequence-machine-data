@@ -1,0 +1,18 @@
+{
+  "description": "a(0) = 0; a(n) = a(a(n-1))-1 mod (n+1) for all n >= 1.",
+  "id": "A363447",
+  "mentions": [
+    "A145465",
+    "A268176"
+  ],
+  "tags": [
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 72,
+    "source": "oeis-bfile"
+  }
+}

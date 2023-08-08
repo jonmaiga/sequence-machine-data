@@ -1,0 +1,14 @@
+{
+  "description": "Related to expression as an alternating sum of k-th powers.",
+  "id": "A364170",
+  "mentions": [],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 12,
+    "source": "oeis-entry"
+  }
+}

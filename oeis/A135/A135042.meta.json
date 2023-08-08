@@ -1,8 +1,8 @@
 {
-  "description": "Binomial transform of [1, 1, 2, 0, -2, 4, -6, 8, -10, 12, ...].",
+  "description": "a(n) = 5*(n - 1) for n >= 2; a(0) = 1, a(1) = 2.",
   "id": "A135042",
   "mentions": [
-    "A007318"
+    "A008587"
   ],
   "tags": [
     "easy",

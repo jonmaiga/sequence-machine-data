@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that the sum of primes dividing k (with repetition) is equal to Euler's totient function of k.",
+  "id": "A363896",
+  "mentions": [
+    "A000010",
+    "A001414",
+    "A173327",
+    "A237798",
+    "A257048",
+    "A280936"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

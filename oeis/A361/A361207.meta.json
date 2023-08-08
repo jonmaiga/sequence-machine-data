@@ -1,0 +1,18 @@
+{
+  "description": "An infinite 2d grid is filled with the positive integers by placing them clockwise around the lowest number with open neighbors. a(n) is then the n-th term when the grid is read as a clockwise square spiral.",
+  "id": "A361207",
+  "mentions": [
+    "A090915",
+    "A217010",
+    "A337822"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

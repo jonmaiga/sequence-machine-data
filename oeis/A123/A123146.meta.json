@@ -1,16 +1,16 @@
 {
-  "description": "Sum of integers triangular array based on trinomial: trinomial[n,k,m]=(n*(n+1)/2)!/(k!*m!*Abs[k+m-(n*(n+1)/2)]!) where k=1.",
+  "description": "Triangle T(n, k) = (binomial(n,2))! / (k! * abs(k+1 - binomial(n,2))!), read by rows.",
   "id": "A123146",
   "mentions": [],
   "tags": [
+    "easy",
     "formulas",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
-    "offset": 1,
-    "size": 42,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-bfile"
   }
 }

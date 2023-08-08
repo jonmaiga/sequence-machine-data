@@ -1,0 +1,16 @@
+{
+  "description": "Number of 6-cycles in the n-Pell graph.",
+  "id": "A364651",
+  "mentions": [
+    "A364619"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,12 @@
 {
   "description": "a(n) = n mod phi(n).",
   "id": "A068494",
-  "mentions": [],
+  "mentions": [
+    "A007694",
+    "A055516",
+    "A065091",
+    "A350777"
+  ],
   "tags": [
     "easy",
     "formulas",

@@ -1,5 +1,5 @@
 {
-  "description": "Prime productive numbers n: Let the digits of n be abcd. Then the numbers bcd*a+1, cd*ab+1, d*abc+1, abcd+1 etc. are all primes. If n is a k-digit number it produces k such primes.",
+  "description": "Prime productive numbers m: Let the digits of m be abcd. Then the numbers bcd*a+1, cd*ab+1, d*abc+1, abcd+1 etc. are all primes. If m is a k-digit number it produces k such primes.",
   "id": "A089395",
   "mentions": [
     "A089392",

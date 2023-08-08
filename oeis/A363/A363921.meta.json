@@ -1,0 +1,17 @@
+{
+  "description": "A363920 evaluated over the nonprime numbers.",
+  "id": "A363921",
+  "mentions": [
+    "A002808",
+    "A141468",
+    "A363920"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

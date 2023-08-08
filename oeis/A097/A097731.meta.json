@@ -1,7 +1,8 @@
 {
-  "description": "Chebyshev U(n,x) polynomial evaluated at x=99 = 2*7^2+1.",
+  "description": "Chebyshev U(n,x) polynomial evaluated at x=99 gives 2*7^2+1.",
   "id": "A097731",
   "mentions": [
+    "A002965",
     "A049310",
     "A097732",
     "A097733"
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 12,
+    "size": 14,
     "source": "oeis-bfile"
   }
 }

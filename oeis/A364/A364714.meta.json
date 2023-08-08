@@ -1,0 +1,23 @@
+{
+  "description": "Least positive integer whose average digit in base b equals (b-1)/2 (the expected value for random digits) for 2 <= b <= n.",
+  "id": "A364714",
+  "mentions": [
+    "A031443",
+    "A144798",
+    "A144799",
+    "A144800",
+    "A144801",
+    "A144812"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

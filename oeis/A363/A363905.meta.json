@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose square and cube taken together contain each decimal digit.",
+  "id": "A363905",
+  "mentions": [
+    "A036744",
+    "A054038",
+    "A071519",
+    "A119735",
+    "A156977"
+  ],
+  "tags": [
+    "base",
+    "less",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

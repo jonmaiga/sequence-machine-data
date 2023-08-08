@@ -2,10 +2,12 @@
   "description": "Decimal expansion of 4/sqrt((1+sqrt(5))/2).",
   "id": "A202142",
   "mentions": [
+    "A001622",
     "A202108"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

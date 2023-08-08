@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Pi(n) - Pi(sqrt(n)) + 1.",
+  "description": "a(n) = pi(n) - pi(sqrt(n)) + 1.",
   "id": "A079715",
   "mentions": [
     "A000720",

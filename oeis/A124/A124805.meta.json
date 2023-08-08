@@ -1,18 +1,19 @@
 {
-  "description": "Number of base 4 circular n-digit numbers with adjacent digits differing by 2 or less.",
+  "description": "Number of circular n-letter words over the alphabet {0,1,2,3} with adjacent letters differing by at most 2.",
   "id": "A124805",
   "mentions": [
     "A005191",
+    "A124806",
     "A206776"
   ],
   "tags": [
-    "base",
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 24,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

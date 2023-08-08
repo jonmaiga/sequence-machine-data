@@ -2,10 +2,12 @@
   "description": "Triangulations of 4-dimensional cyclic polytopes.",
   "id": "A028441",
   "mentions": [
+    "A007815",
     "A066342",
-    "A066344"
+    "A066634"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

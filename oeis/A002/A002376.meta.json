@@ -1,5 +1,5 @@
 {
-  "description": "Least number of positive cubes needed to represent n.",
+  "description": "Least number of positive cubes needed to sum to n.",
   "id": "A002376",
   "mentions": [
     "A000051",

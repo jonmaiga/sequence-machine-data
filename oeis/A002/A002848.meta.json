@@ -1,5 +1,5 @@
 {
-  "description": "Maximal number of disjoint subsets {X,Y,Z} of {1, 2, ..., n} with X + Y = Z (as in A002849), with the property that n is in one of the subsets.",
+  "description": "Number of maximal collections of pairwise disjoint subsets {X,Y,Z} of {1, 2, ..., n} with X + Y = Z (as in A002849), with the property that n is in one of the subsets.",
   "id": "A002848",
   "mentions": [
     "A002572",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 43,
+    "size": 45,
     "source": "oeis-entry"
   }
 }

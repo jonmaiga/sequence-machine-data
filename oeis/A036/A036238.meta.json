@@ -1,7 +1,9 @@
 {
   "description": "Triangle of numbers a(r,j) = j*(j+1) mod r+2, r>=1, j=1..r.",
   "id": "A036238",
-  "mentions": [],
+  "mentions": [
+    "A014682"
+  ],
   "tags": [
     "easy",
     "look",

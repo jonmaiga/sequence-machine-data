@@ -2,7 +2,11 @@
   "description": "Triangle of numbers of connected regular (k X n)-matrix matroids of dimension k.",
   "id": "A034327",
   "mentions": [
-    "A034328"
+    "A034328",
+    "A034329",
+    "A034330",
+    "A034331",
+    "A034332"
   ],
   "tags": [
     "nonn",

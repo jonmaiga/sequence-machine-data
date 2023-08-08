@@ -1,5 +1,5 @@
 {
-  "description": "Number of nondecreasing arrangements of 5 numbers x(i) in -(n+3)..(n+3) with the sum of sign(x(i))*2^|x(i)| zero",
+  "description": "Number of nondecreasing arrangements of 5 numbers x(i) in -(n+3)..(n+3) with the sum of sign(x(i))*2^|x(i)| zero.",
   "id": "A187989",
   "mentions": [
     "A187988"

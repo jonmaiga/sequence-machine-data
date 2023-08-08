@@ -1,0 +1,22 @@
+{
+  "description": "Primes of the form |2^i - 3^j|, for i >= 0, j >= 0.",
+  "id": "A363998",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A000244",
+    "A007643",
+    "A014121",
+    "A321671",
+    "A363999",
+    "A364000"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

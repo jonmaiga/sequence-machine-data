@@ -2,7 +2,8 @@
   "description": "Number of sums i^3 + j^3 that occur more than once for 1<=i<=j<=n.",
   "id": "A061798",
   "mentions": [
-    "A000217"
+    "A000217",
+    "A061791"
   ],
   "tags": [
     "nonn"
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 75,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

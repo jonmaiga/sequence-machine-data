@@ -1,0 +1,22 @@
+{
+  "description": "Numbers k such that A246600(k) = 2.",
+  "id": "A363690",
+  "mentions": [
+    "A000079",
+    "A006519",
+    "A080943",
+    "A100484",
+    "A246600",
+    "A363691"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

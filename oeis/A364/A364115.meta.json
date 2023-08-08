@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = [x^n] 1/(1 - x) * Legendre_P(n, (1 + x)/(1 - x))^4 for n >= 0.",
+  "id": "A364115",
+  "mentions": [
+    "A001622",
+    "A005258",
+    "A005259",
+    "A364113",
+    "A364114",
+    "A364116"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that (11*prime(n)) mod Pi > (11*prime(n+1)) mod Pi.",
+  "description": "Numbers m such that (11*prime(m)) mod Pi > (11*prime(m+1)) mod Pi.",
   "id": "A331008",
   "mentions": [
+    "A000796",
     "A002485",
     "A046947",
     "A276435"

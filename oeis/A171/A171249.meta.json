@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 10^n*(2+3*10^n)+3 is prime.",
+  "description": "Numbers k such that 10^k*(2+3*10^k)+3 is prime.",
   "id": "A171249",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

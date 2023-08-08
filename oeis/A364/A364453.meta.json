@@ -1,0 +1,22 @@
+{
+  "description": "Smallest k such that 5^(5^n) - k is prime.",
+  "id": "A364453",
+  "mentions": [
+    "A058220",
+    "A064722",
+    "A137841",
+    "A140331",
+    "A364452",
+    "A364454"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

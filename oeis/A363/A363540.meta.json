@@ -1,0 +1,26 @@
+{
+  "description": "Decimal expansion of Sum_{k>=1} (H(k)^3 - (log(k) + gamma)^3)/k, where H(k) = A001008(k)/A002805(k) is the k-th harmonic number and gamma is Euler's constant (A001620).",
+  "id": "A363540",
+  "mentions": [
+    "A001008",
+    "A001620",
+    "A002117",
+    "A002805",
+    "A013662",
+    "A082633",
+    "A086279",
+    "A086280",
+    "A363538",
+    "A363539"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

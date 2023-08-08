@@ -2,6 +2,8 @@
   "description": "Row sums of A117683.",
   "id": "A117684",
   "mentions": [
+    "A034386",
+    "A049614",
     "A117683"
   ],
   "tags": [
@@ -10,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 25,
-    "source": "oeis-entry"
+    "size": 34,
+    "source": "oeis-bfile"
   }
 }

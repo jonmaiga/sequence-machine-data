@@ -1,7 +1,9 @@
 {
-  "description": "Triangular numbers which are products of triangular numbers.",
+  "description": "Triangular numbers which are products of triangular numbers larger than 1.",
   "id": "A068143",
-  "mentions": [],
+  "mentions": [
+    "A000217"
+  ],
   "tags": [
     "nonn"
   ],

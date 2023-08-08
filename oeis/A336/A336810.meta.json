@@ -2,7 +2,10 @@
   "description": "Continued fraction expansion of Sum_{k>=0} 1/(k!)!.",
   "id": "A336810",
   "mentions": [
-    "A336686"
+    "A001511",
+    "A157196",
+    "A336686",
+    "A363841"
   ],
   "tags": [
     "cofr",

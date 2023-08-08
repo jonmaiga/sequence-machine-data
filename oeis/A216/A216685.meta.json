@@ -1,5 +1,5 @@
 {
-  "description": "A(n) is the number of 1's in binary expansion of n + a(n-1), with a(0)=0.",
+  "description": "a(n) is the number of 1's in binary expansion of n + a(n-1), with a(0)=0.",
   "id": "A216685",
   "mentions": [
     "A000120"
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 87,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

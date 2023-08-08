@@ -1,15 +1,16 @@
 {
-  "description": "Numbers n such that 22*3^n + 1 is prime.",
+  "description": "Numbers k such that 22*3^k + 1 is prime.",
   "id": "A120491",
   "mentions": [
     "A003306"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 31,
+    "size": 41,
     "source": "oeis-entry"
   }
 }

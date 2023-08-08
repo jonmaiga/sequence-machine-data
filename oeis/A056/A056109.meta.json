@@ -2,6 +2,7 @@
   "description": "Fifth spoke of a hexagonal spiral.",
   "id": "A056109",
   "mentions": [
+    "A000290",
     "A003215",
     "A008810",
     "A054552",

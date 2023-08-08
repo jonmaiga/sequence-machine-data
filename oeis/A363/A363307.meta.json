@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying 1 = Sum_{n>=0} (-x)^n * A(x)^n / Product_{k=1..n+1} (1 + (-x)^k).",
+  "id": "A363307",
+  "mentions": [
+    "A352018"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

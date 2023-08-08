@@ -1,0 +1,42 @@
+{
+  "description": "Number of strict integer partitions of n containing the sum of no subset of the parts.",
+  "id": "A364349",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A007865",
+    "A008284",
+    "A008289",
+    "A025065",
+    "A085489",
+    "A093971",
+    "A108917",
+    "A111133",
+    "A151897",
+    "A236912",
+    "A237113",
+    "A237667",
+    "A240861",
+    "A275972",
+    "A320340",
+    "A320347",
+    "A323092",
+    "A325862",
+    "A363226",
+    "A364272",
+    "A364345",
+    "A364346",
+    "A364350",
+    "A364531",
+    "A364533",
+    "A364534"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

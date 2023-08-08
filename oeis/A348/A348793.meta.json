@@ -1,5 +1,5 @@
 {
-  "description": "G.f. A(x) satisfies: A(x) = (1 + x * A(x)^3) / (1 - 2 * x).",
+  "description": "G.f. A(x) satisfies A(x) = (1 + x * A(x)^3) / (1 - 2 * x).",
   "id": "A348793",
   "mentions": [
     "A001764",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 22,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

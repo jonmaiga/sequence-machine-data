@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is n-th positive integer among those which do not occure earlier in sequence and which are coprime to n.",
+  "description": "a(n) is the n-th positive integer among those which do not occur earlier in the sequence and which are coprime to n.",
   "id": "A105054",
   "mentions": [
     "A069213"

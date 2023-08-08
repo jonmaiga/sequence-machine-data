@@ -2,9 +2,13 @@
   "description": "Number of paths from (0,0) to (3n,0) that stay in the first quadrant, consist of steps u=(2,1), U=(1,2), or d=(1,-1) and do not touch the x-axis, except at the endpoints.",
   "id": "A108424",
   "mentions": [
+    "A006318",
     "A027307",
     "A032349",
-    "A344553"
+    "A144097",
+    "A260332",
+    "A344553",
+    "A363006"
   ],
   "tags": [
     "formulas",

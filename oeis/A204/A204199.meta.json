@@ -3,7 +3,8 @@
   "id": "A204199",
   "mentions": [
     "A002851",
-    "A204198"
+    "A204198",
+    "A364404"
   ],
   "tags": [
     "more",
@@ -11,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 14,
     "source": "oeis-entry"
   }
 }

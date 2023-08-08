@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n not ending in zero such that the sum of digits of n is >= the sum of digits of n^4 (in base 10).",
+  "description": "Numbers k not ending in zero such that the sum of digits of k is >= the sum of digits of k^4 (in base 10).",
   "id": "A122484",
   "mentions": [
     "A007953",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

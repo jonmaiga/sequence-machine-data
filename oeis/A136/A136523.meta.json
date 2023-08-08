@@ -1,20 +1,31 @@
 {
-  "description": "Triangle T(n,k) = A053120(n,k)+A053120(n-1,k).",
+  "description": "Triangle T(n,k) = A053120(n,k) + A053120(n-1,k), read by rows.",
   "id": "A136523",
   "mentions": [
+    "A000007",
+    "A000330",
+    "A001792",
+    "A001793",
+    "A001794",
+    "A008794",
+    "A011782",
+    "A025192",
     "A040000",
     "A053120",
+    "A057077",
     "A081277",
+    "A109613",
     "A124182"
   ],
   "tags": [
     "easy",
+    "formulas",
     "sign",
     "tabl"
   ],
   "terms": {
     "offset": 0,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

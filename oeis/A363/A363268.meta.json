@@ -1,0 +1,22 @@
+{
+  "description": "Squares (A000290) alternating with 1+squares (A002522).",
+  "id": "A363268",
+  "mentions": [
+    "A000290",
+    "A002522",
+    "A123596",
+    "A363267",
+    "A363269",
+    "A363283"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "joeis"
+  }
+}

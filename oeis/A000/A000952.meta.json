@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n == 2 (mod 4) that are the orders of conference matrices.",
+  "description": "Numbers k == 2 (mod 4) that are the orders of conference matrices.",
   "id": "A000952",
   "mentions": [
     "A016825",

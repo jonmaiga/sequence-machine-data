@@ -1,5 +1,5 @@
 {
-  "description": "If n is practical (in A005153), a(n) = 1, otherwise a(n) = 0.",
+  "description": "Characteristic function of practical numbers, A005153: If n is in A005153, a(n) = 1, otherwise a(n) = 0.",
   "id": "A322860",
   "mentions": [
     "A005153",

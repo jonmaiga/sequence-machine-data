@@ -2,6 +2,7 @@
   "description": "Decimal expansion of 1/(2*L), where L is the conjectured Landau's constant A081760.",
   "id": "A357318",
   "mentions": [
+    "A004117",
     "A073005",
     "A081760",
     "A175379",

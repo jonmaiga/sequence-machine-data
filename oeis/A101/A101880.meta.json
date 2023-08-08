@@ -2,6 +2,9 @@
   "description": "Number of arrangements of the partitions of n (e.g., 111 counts for 6).",
   "id": "A101880",
   "mentions": [
+    "A000142",
+    "A008284",
+    "A274174",
     "A331826"
   ],
   "tags": [

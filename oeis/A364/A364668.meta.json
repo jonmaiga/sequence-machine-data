@@ -1,0 +1,16 @@
+{
+  "description": "Lower independence number of the n-Goldberg graph.",
+  "id": "A364668",
+  "mentions": [
+    "A195167"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

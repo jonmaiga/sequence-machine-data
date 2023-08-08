@@ -1,5 +1,5 @@
 {
-  "description": "The decimal expansion of b^b^b^..., where b equals e-2 (A001113).",
+  "description": "Decimal expansion of b^b^b^..., where b equals e-2 (A001113).",
   "id": "A221566",
   "mentions": [
     "A001113",

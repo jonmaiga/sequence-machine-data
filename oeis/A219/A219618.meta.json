@@ -1,15 +1,16 @@
 {
-  "description": "Numbers n such that 3^n + 100 is prime.",
+  "description": "Numbers k such that 3^k + 100 is prime.",
   "id": "A219618",
   "mentions": [
     "A176929"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 42,
+    "size": 49,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying A(x) = 1 + x * A(x)^5 * (1 + A(x)^2).",
+  "id": "A364195",
+  "mentions": [
+    "A217364",
+    "A349310",
+    "A363006",
+    "A363304",
+    "A363305",
+    "A363311",
+    "A364196"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

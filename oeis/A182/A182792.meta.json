@@ -1,5 +1,5 @@
 {
-  "description": "Number of n-colorings of the Triangle Graph of order 7.",
+  "description": "Number of n-colorings of the 7 X 7 X 7 triangular grid.",
   "id": "A182792",
   "mentions": [
     "A178435",
@@ -15,12 +15,13 @@
     "A182798"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 13,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

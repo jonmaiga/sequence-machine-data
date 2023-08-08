@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = 1 if n has no other prime factors than 2 and/or Mersenne primes, otherwise 0.",
+  "id": "A364252",
+  "mentions": [
+    "A036987",
+    "A209229",
+    "A219174",
+    "A336467",
+    "A336923",
+    "A364251"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 128,
+    "source": "oeis-bfile"
+  }
+}

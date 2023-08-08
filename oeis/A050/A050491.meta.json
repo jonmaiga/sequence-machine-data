@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = C(n)*(12n+1) where C(n)=Catalan numbers (A000108).",
+  "description": "a(n) = C(n)*(12n+1) where C(n) = Catalan numbers (A000108).",
   "id": "A050491",
   "mentions": [
     "A000108",
@@ -9,6 +9,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

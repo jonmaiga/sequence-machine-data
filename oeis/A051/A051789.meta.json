@@ -1,5 +1,5 @@
 {
-  "description": "C(n)*(C(n)-1)/2, where C(n) are the Catalan numbers (A000108).",
+  "description": "a(n) = C(n)*(C(n)-1)/2, where C(n) are the Catalan numbers (A000108).",
   "id": "A051789",
   "mentions": [
     "A000108"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 21,
+    "size": 22,
     "source": "oeis-bfile"
   }
 }

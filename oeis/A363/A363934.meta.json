@@ -1,0 +1,19 @@
+{
+  "description": "Table read by ascending antidiagonals. T(n,k) is the Sprague-Grundy value for the Heat Toggle game played on an n X k grid where each vertex has initial weight 1.",
+  "id": "A363934",
+  "mentions": [
+    "A002187",
+    "A071427",
+    "A361517"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

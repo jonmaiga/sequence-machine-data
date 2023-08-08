@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that k + the sum of the fifth powers of its digits is again a fifth power.",
+  "id": "A362945",
+  "mentions": [
+    "A000584",
+    "A055014",
+    "A362953",
+    "A362954"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

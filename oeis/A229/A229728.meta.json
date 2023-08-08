@@ -2,10 +2,14 @@
   "description": "Decimal expansion of the square of the constant A130834.",
   "id": "A229728",
   "mentions": [
+    "A000796",
+    "A006752",
+    "A097469",
     "A130834"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

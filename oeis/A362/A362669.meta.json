@@ -1,0 +1,19 @@
+{
+  "description": "Integer inradii for which there exists an isosceles triangle with integer sides (a, b, b) where a < b.",
+  "id": "A362669",
+  "mentions": [
+    "A008592",
+    "A070204",
+    "A120062",
+    "A120570",
+    "A362670"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "Centered hecatonicosachoral numbers.",
+  "id": "A362863",
+  "mentions": [
+    "A005891",
+    "A005904",
+    "A006322",
+    "A151989"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

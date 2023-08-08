@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X6 0..3 arrays with every 2X2 subblock having three or four distinct values, and new values 0..3 introduced in row major order",
+  "description": "Number of (n+1) X 6 0..3 arrays with every 2 X 2 subblock having three or four distinct values, and new values 0..3 introduced in row major order.",
   "id": "A210410",
   "mentions": [
     "A210413"

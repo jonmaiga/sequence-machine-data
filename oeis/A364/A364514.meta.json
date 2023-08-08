@@ -1,0 +1,17 @@
+{
+  "description": "a(0) = 1 and a(n) = [x^n] (1 - x)^(2*n) * Legendre_P(n-1, (1 + x)/(1 - x)) for n >= 1.",
+  "id": "A364514",
+  "mentions": [
+    "A364513"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

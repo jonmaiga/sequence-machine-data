@@ -2,6 +2,7 @@
   "description": "Triangle read by rows with the n-th row containing the first n multiples of n.",
   "id": "A075362",
   "mentions": [
+    "A000290",
     "A002024",
     "A002260",
     "A002411",

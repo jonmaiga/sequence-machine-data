@@ -1,0 +1,14 @@
+{
+  "description": "Decimal expansion of Prod_{k>=1} Gamma(2k/(2k-1)) / Gamma(1+1/(2k)).",
+  "id": "A363684",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

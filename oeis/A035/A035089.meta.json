@@ -22,7 +22,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
-    "source": "joeis"
+    "size": 32,
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Semiprimes of the form 2^n-n^2.",
+  "description": "Semiprimes of the form 2^k - k^2.",
   "id": "A099482",
   "mentions": [
     "A024012",

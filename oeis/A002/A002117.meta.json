@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of zeta(3) = Sum_{m >= 1} 1/m^3.",
+  "description": "Apéry's number or Apéry's constant zeta(3). Decimal expansion of zeta(3) = Sum_{m >= 1} 1/m^3.",
   "id": "A002117",
   "mentions": [
     "A000578",

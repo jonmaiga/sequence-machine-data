@@ -1,13 +1,23 @@
 {
-  "description": "n! is divisible by (n+1)^10.",
+  "description": "Positive integers k such that k! is divisible by (k+1)^10.",
   "id": "A061758",
-  "mentions": [],
+  "mentions": [
+    "A061743",
+    "A061751",
+    "A061752",
+    "A061753",
+    "A061754",
+    "A061755",
+    "A061756",
+    "A061757",
+    "A061759"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 53,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

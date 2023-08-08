@@ -2,6 +2,8 @@
   "description": "Decimal expansion of Product_{n >= 1} cos(1/n).",
   "id": "A118817",
   "mentions": [
+    "A027641",
+    "A027642",
     "A046990",
     "A046991",
     "A051762",

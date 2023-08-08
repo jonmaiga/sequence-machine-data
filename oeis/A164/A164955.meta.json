@@ -2,15 +2,20 @@
   "description": "Sequence obtained from Fibonacci numbers by taking the factorials of each digit and summing.",
   "id": "A164955",
   "mentions": [
-    "A000045"
+    "A000045",
+    "A000142",
+    "A004090",
+    "A061602"
   ],
   "tags": [
     "base",
+    "formulas",
+    "look",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 31,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
   }
 }

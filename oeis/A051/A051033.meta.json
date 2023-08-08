@@ -6,14 +6,16 @@
     "A047193",
     "A051036",
     "A051052",
-    "A051053"
+    "A051053",
+    "A062947"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 37,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

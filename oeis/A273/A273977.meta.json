@@ -1,5 +1,5 @@
 {
-  "description": "Words of length n over an alphabet of size 9 that are in standard order with at least one letter is repeated.",
+  "description": "Words over an alphabet of size 9 that are in standard order with at least one letter repeated.",
   "id": "A273977",
   "mentions": [
     "A278984",

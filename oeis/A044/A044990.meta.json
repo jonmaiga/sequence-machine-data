@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n with property that in base 3 representation the numbers of 0's and 2's are 0 and 1, respectively.",
+  "description": "Numbers whose base-3 representation contains no 0's and exactly one 2.",
   "id": "A044990",
-  "mentions": [],
+  "mentions": [
+    "A007089"
+  ],
   "tags": [
     "base",
     "nonn"

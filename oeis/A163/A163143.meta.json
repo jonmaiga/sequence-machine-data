@@ -1,5 +1,5 @@
 {
-  "description": "The sum of the digits of each number in the sequence is equal to the sum of the digits of its factors when written in a certain way as a product of numbers each raised to some power (the sum includes the digits of the exponents).",
+  "description": "Numbers k whose digit sum is equal to the sum of the digits of the factors of k when written in a certain way as a product of numbers each raised to some power (the sum includes the digits of the exponents).",
   "id": "A163143",
   "mentions": [
     "A177196"

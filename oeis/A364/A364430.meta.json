@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies A(x) = 1 - x*A(x)*(1 - 2*A(x)^3).",
+  "id": "A364430",
+  "mentions": [
+    "A001003",
+    "A153232",
+    "A364431",
+    "A364432",
+    "A364437"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

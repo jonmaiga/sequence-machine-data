@@ -1,11 +1,12 @@
 {
-  "description": "G.f. satisfies: A(x) = 1 + x*A(2x)^3.",
+  "description": "G.f. satisfies A(x) = 1 + x*A(2x)^3.",
   "id": "A171200",
   "mentions": [
     "A135867",
     "A171201",
     "A171202",
-    "A171211"
+    "A171211",
+    "A343439"
   ],
   "tags": [
     "formulas",
@@ -14,6 +15,6 @@
   "terms": {
     "offset": 0,
     "size": 15,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

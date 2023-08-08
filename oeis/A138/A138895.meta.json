@@ -1,21 +1,19 @@
 {
-  "description": "A Collatz-related sequence array.",
+  "description": "Triangle read by rows: T(n,k) = A092892(n-k) for 0 <= k <= n.",
   "id": "A138895",
   "mentions": [
     "A092892",
-    "A138846",
     "A138847",
     "A138848"
   ],
   "tags": [
     "easy",
-    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

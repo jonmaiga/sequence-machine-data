@@ -1,0 +1,28 @@
+{
+  "description": "Expansion of Sum_{k>0} x^(2*k)/(1-x^k)^4.",
+  "id": "A363604",
+  "mentions": [
+    "A000203",
+    "A000292",
+    "A001158",
+    "A032741",
+    "A059358",
+    "A065608",
+    "A069153",
+    "A092348",
+    "A363605",
+    "A363606",
+    "A363607",
+    "A363611"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

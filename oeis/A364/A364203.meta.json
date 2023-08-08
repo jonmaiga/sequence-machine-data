@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of n X n matrices of rank k using all the integers from 1 to n^2.",
+  "id": "A364203",
+  "mentions": [
+    "A085000",
+    "A088020",
+    "A350565",
+    "A350566",
+    "A364206",
+    "A364226"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

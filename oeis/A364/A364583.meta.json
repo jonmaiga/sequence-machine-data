@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least number with exactly n divisors of the form 3*k+2.",
+  "id": "A364583",
+  "mentions": [
+    "A001822",
+    "A005179",
+    "A038547",
+    "A364582"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

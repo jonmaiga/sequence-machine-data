@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Product_{p in Factors(n)} mult(p)*n^(mult(p) - 1), where Factors(n) is the integer factorization of n and mult(p) the multiplicity of the prime factor p.",
+  "id": "A363918",
+  "mentions": [
+    "A005361",
+    "A205959",
+    "A303915",
+    "A363917",
+    "A363919",
+    "A363923"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-entry"
+  }
+}

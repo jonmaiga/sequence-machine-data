@@ -1,0 +1,20 @@
+{
+  "description": "A 5 X 5 magic square of squares with the smallest possible magic sum, read by rows.",
+  "id": "A364276",
+  "mentions": [
+    "A272932",
+    "A358445",
+    "A359383"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

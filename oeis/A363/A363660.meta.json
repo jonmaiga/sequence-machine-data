@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = Sum_{d|n} binomial(d+n,n).",
+  "id": "A363660",
+  "mentions": [
+    "A000984",
+    "A007503",
+    "A116963",
+    "A134758",
+    "A343548",
+    "A343549",
+    "A363628",
+    "A363661"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

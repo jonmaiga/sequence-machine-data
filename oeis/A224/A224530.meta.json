@@ -2,15 +2,16 @@
   "description": "Sequence F_n from a paper by Robert Osburn and Brundaban Sahu.",
   "id": "A224530",
   "mentions": [
+    "A028930",
+    "A030199",
     "A224529"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 10,
+    "size": 26,
     "source": "oeis-entry"
   }
 }

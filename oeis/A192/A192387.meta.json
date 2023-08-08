@@ -1,5 +1,5 @@
 {
-  "description": "Coefficient of x in the reduction by x^2->x+1 of the polynomial p(n,x) defined below in Comments.",
+  "description": "Coefficient of x in the reduction by x^2 -> x+1 of the polynomial p(n,x) defined below in Comments.",
   "id": "A192387",
   "mentions": [
     "A112576",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 25,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

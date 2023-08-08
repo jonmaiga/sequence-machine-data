@@ -1,0 +1,19 @@
+{
+  "description": "Number of length n strings on the alphabet {0,1,2,3} with digit sum at most 4.",
+  "id": "A363256",
+  "mentions": [
+    "A005718",
+    "A105163",
+    "A227259"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 41,
+    "source": "joeis"
+  }
+}

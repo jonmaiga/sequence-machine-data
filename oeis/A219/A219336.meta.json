@@ -1,5 +1,5 @@
 {
-  "description": "The decimal expansion of the maximum M(6) of the ratio (sum{k=1,...,6} (x(1)*x(2)*...*x(k))^(1/k))/(x(1) + ... + x(6)) taken over x(1), ..., x(6) > 0.",
+  "description": "Decimal expansion of the maximum M(6) of the ratio (Sum_{k=1..6} (x(1)*x(2)*...*x(k))^(1/k))/(x(1) + ... + x(6)) taken over x(1), ..., x(6) > 0.",
   "id": "A219336",
   "mentions": [
     "A219245",

@@ -2,6 +2,7 @@
   "description": "Position of 6^n among 3-smooth numbers A003586.",
   "id": "A202821",
   "mentions": [
+    "A000400",
     "A003586",
     "A022330",
     "A022331"

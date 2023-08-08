@@ -1,18 +1,20 @@
 {
-  "description": "Triangular array based on addition of A034386 and A117682 and the factorial function modulo the factorial function.",
+  "description": "Triangle T(n, k) = (f(n, 1 + (n mod 3)) + f(k, 1 + (k mod 3))) mod n!, read by rows (see formula for f(n, k)).",
   "id": "A117754",
   "mentions": [
     "A034386",
-    "A117682"
+    "A049614",
+    "A117682",
+    "A117753"
   ],
   "tags": [
+    "formulas",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 64,
-    "source": "oeis-entry"
+    "size": 66,
+    "source": "oeis-bfile"
   }
 }

@@ -1,9 +1,10 @@
 {
-  "description": "Numbers n such that the sum of the first n odd primes is divisible by n.",
+  "description": "Numbers k such that the sum of the first k odd primes is divisible by k.",
   "id": "A097961",
   "mentions": [
     "A007504",
-    "A071148"
+    "A071148",
+    "A363477"
   ],
   "tags": [
     "easy",
@@ -12,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
+    "size": 33,
     "source": "oeis-entry"
   }
 }

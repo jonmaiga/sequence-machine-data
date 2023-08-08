@@ -1,5 +1,5 @@
 {
-  "description": "exp(arctanh(x)*tan(x)) = 1+2/2!*x^2+28/4!*x^4+920/6!*x^6+54416/8!*x^8...",
+  "description": "Expansion of e.g.f. exp(arctanh(x)*tan(x)) (even powers only).",
   "id": "A012725",
   "mentions": [],
   "tags": [
@@ -9,6 +9,6 @@
   "terms": {
     "offset": 0,
     "size": 14,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

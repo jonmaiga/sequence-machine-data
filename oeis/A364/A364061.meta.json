@@ -1,0 +1,48 @@
+{
+  "description": "Numbers whose exponent of 2 in their canonical prime factorization is smaller than all the other exponents.",
+  "id": "A364061",
+  "mentions": [
+    "A000265",
+    "A001222",
+    "A007814",
+    "A056239",
+    "A112798",
+    "A241131",
+    "A327473",
+    "A327476",
+    "A356862",
+    "A359178",
+    "A360013",
+    "A360014",
+    "A360015",
+    "A362605",
+    "A362606",
+    "A362608",
+    "A362610",
+    "A362611",
+    "A362613",
+    "A362614",
+    "A362615",
+    "A362616",
+    "A363486",
+    "A363487",
+    "A363722",
+    "A363723",
+    "A363725",
+    "A363727",
+    "A363730",
+    "A364062",
+    "A364158",
+    "A364159",
+    "A364191",
+    "A364192"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

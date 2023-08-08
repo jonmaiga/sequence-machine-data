@@ -1,5 +1,5 @@
 {
-  "description": "A007318 * a triangle by rows: for n > 0, n zeros followed by 2^n - 1.",
+  "description": "Triangle read by rows. T(n, k) = binomial(n, k)*(2^k - 1 + 0^k).",
   "id": "A134319",
   "mentions": [
     "A007318",

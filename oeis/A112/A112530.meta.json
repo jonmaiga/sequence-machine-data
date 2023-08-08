@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that prime(n) +/- n and prime(n) +/- 2n are all primes.",
+  "description": "Numbers k such that prime(k) +/- k and prime(k) +/- 2k are all primes.",
   "id": "A112530",
   "mentions": [
     "A064403",

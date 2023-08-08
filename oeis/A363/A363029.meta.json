@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of Sum_{k>0} k * x^(4*k-2) / (1 - x^(5*k-3)).",
+  "id": "A363029",
+  "mentions": [
+    "A359269",
+    "A363025"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

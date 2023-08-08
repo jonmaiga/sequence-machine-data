@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of a limit_{n->inf} n^A001620 / n! * Product_{j=1..n} Gamma(1/j).",
+  "description": "Decimal expansion of lim_{k->oo} (k^A001620 / k!) * Product_{j=1..k} Gamma(1/j).",
   "id": "A306765",
   "mentions": [
     "A001620",
@@ -9,6 +9,7 @@
     "A306769"
   ],
   "tags": [
+    "cons",
     "formulas",
     "nonn"
   ],

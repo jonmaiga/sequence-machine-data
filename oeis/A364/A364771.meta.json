@@ -1,0 +1,20 @@
+{
+  "description": "Order of the symplectic group of 4 X 4 matrices over Z_n.",
+  "id": "A364771",
+  "mentions": [
+    "A003931",
+    "A011786",
+    "A246655",
+    "A305186"
+  ],
+  "tags": [
+    "formulas",
+    "mult",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

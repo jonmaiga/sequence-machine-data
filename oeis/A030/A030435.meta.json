@@ -1,16 +1,17 @@
 {
-  "description": "Expansion of g.f.: (1+x-2*x^2-x^3)/(1/2-2*x^2+x^4).",
+  "description": "Expansion of g.f. (1 + x - 2*x^2 - x^3)/(1/2 - 2*x^2 + x^4).",
   "id": "A030435",
   "mentions": [
     "A030436"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 31,
+    "size": 36,
     "source": "oeis-bfile"
   }
 }

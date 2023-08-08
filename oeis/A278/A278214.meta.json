@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n, k) with 0 <= k <= n^2 is the maximum number of non-attacking moves that can be made by k queens on an n X n board.",
+  "description": "Triangle read by rows: T(n, k) with 0 <= k <= n^2 is the maximum number of possible moves that can be made by k queens of the same color on an n X n board.",
   "id": "A278214",
   "mentions": [
     "A275815",
@@ -8,13 +8,12 @@
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 1,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,7 +1,10 @@
 {
   "description": "a(n) = (n-th digit of Pi) times (the n-th prime number).",
   "id": "A123153",
-  "mentions": [],
+  "mentions": [
+    "A000796",
+    "A123152"
+  ],
   "tags": [
     "base",
     "nonn"

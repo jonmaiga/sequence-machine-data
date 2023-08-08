@@ -2,6 +2,7 @@
   "description": "Triangle with T(n,k)=n!*(k-1)^k/k! where 1<=k<=n.",
   "id": "A076482",
   "mentions": [
+    "A001710",
     "A007778",
     "A008279",
     "A076483"
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 42,
-    "source": "oeis-entry"
+    "size": 45,
+    "source": "oeis-bfile"
   }
 }

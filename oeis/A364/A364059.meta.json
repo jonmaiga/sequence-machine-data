@@ -1,0 +1,38 @@
+{
+  "description": "Number of integer partitions of n whose rounded mean is > 1. Partitions with mean >= 3/2.",
+  "id": "A364059",
+  "mentions": [
+    "A000041",
+    "A000065",
+    "A002865",
+    "A008284",
+    "A025065",
+    "A058398",
+    "A067538",
+    "A098859",
+    "A110618",
+    "A124943",
+    "A124944",
+    "A238495",
+    "A241131",
+    "A316413",
+    "A327482",
+    "A344291",
+    "A363723",
+    "A363724",
+    "A363731",
+    "A363946",
+    "A363947",
+    "A363948",
+    "A363949"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "description": "Number of integer partitions of n satisfying (length) = (mean). Partitions of n into sqrt(n) parts.",
+  "id": "A364055",
+  "mentions": [
+    "A008284",
+    "A025065",
+    "A026905",
+    "A058398",
+    "A067538",
+    "A107379",
+    "A206240",
+    "A237984",
+    "A316413",
+    "A327472",
+    "A327482",
+    "A363944",
+    "A363949",
+    "A363951"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

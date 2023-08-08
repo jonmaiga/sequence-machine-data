@@ -1,0 +1,16 @@
+{
+  "description": "Number of 1's required to build -n using +, -, *, and parentheses.",
+  "id": "A364528",
+  "mentions": [
+    "A091333"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

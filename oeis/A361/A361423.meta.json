@@ -1,0 +1,21 @@
+{
+  "description": "Start with natural numbers, for all positive integer periods p sieve out every p-th number p-1 times over.",
+  "id": "A361423",
+  "mentions": [
+    "A000959",
+    "A000960",
+    "A003309",
+    "A007950",
+    "A056533",
+    "A099267",
+    "A111039"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

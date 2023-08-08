@@ -1,0 +1,22 @@
+{
+  "description": "Irregular triangle T read by rows obtained from A364312. Row n gives the number of real algebraic numbers from the (also signed) polynomials of Cantor's height n, and degree k, for k = 1, 2, ..., n-1, for n >= 2, and for n = 1 the degree is 1.",
+  "id": "A364315",
+  "mentions": [
+    "A028310",
+    "A364312",
+    "A364313",
+    "A364314",
+    "A364316"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

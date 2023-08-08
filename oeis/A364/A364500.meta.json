@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = gcd(n, A005940(n)).",
+  "id": "A364500",
+  "mentions": [
+    "A005940",
+    "A324198",
+    "A339969",
+    "A364255",
+    "A364499",
+    "A364501",
+    "A364502"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

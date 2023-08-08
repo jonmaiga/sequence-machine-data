@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = smallest product > n of some subset of the divisors of n, or if no product > n exists then a(n) = n.",
+  "id": "A363501",
+  "mentions": [
+    "A027750",
+    "A363627"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 63,
+    "source": "oeis-entry"
+  }
+}

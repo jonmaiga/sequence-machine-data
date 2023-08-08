@@ -1,5 +1,5 @@
 {
-  "description": "The decimal expansion of the infinite Fibonacci word, interpreted as a binary expansion.",
+  "description": "Decimal expansion of the infinite Fibonacci word, interpreted as a binary expansion.",
   "id": "A228249",
   "mentions": [
     "A003849",

@@ -1,0 +1,24 @@
+{
+  "description": "Square array T(n,k), n >= 0, k >= 0, read by antidiagonals, where column k is the expansion of 1/(Sum_{j>=0} x^(j^2))^k.",
+  "id": "A363778",
+  "mentions": [
+    "A000007",
+    "A045847",
+    "A162552",
+    "A317665",
+    "A363774",
+    "A363775",
+    "A363779",
+    "A363780"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

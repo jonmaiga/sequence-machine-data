@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of Sum_{k>=0} erfc(k), where erfc(x) is the complementary error function.",
+  "id": "A364618",
+  "mentions": [
+    "A099287"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

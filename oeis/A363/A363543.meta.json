@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies A(x) = exp( Sum_{k>=1} (-1)^(k+1) * (3^k + A(x^k)) * x^k/k ).",
+  "id": "A363543",
+  "mentions": [
+    "A038075",
+    "A363509",
+    "A363541",
+    "A363542"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

@@ -1,15 +1,17 @@
 {
   "description": "Number of fixed points in all 132- and 213-avoiding permutations of {1,2,...,n} (these are permutations with runs consisting of consecutive integers).",
   "id": "A068018",
-  "mentions": [],
+  "mentions": [
+    "A061547"
+  ],
   "tags": [
     "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 33,
-    "source": "joeis"
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
   }
 }

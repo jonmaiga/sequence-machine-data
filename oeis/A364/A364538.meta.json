@@ -1,0 +1,19 @@
+{
+  "description": "A 12 X 12 magic square composed of 1 and the first consecutive odd primes with the smallest possible magic sum, read by rows.",
+  "id": "A364538",
+  "mentions": [
+    "A073502",
+    "A173079"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

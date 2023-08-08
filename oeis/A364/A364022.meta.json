@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of Sum_{k>0} k * x^(4*k) / (1 + x^(5*k)).",
+  "id": "A364022",
+  "mentions": [
+    "A363900",
+    "A364019",
+    "A364020",
+    "A364021"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "Concatenation of ((p mod 4) - 1)/2 for the primes from 3 through prime(n), converted from binary to decimal.",
+  "id": "A362583",
+  "mentions": [
+    "A100672"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

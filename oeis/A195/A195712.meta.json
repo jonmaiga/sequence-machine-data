@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of arcsin(((1/2)^(1/3)).",
+  "description": "Decimal expansion of arcsin((1/2)^(1/3)).",
   "id": "A195712",
   "mentions": [
     "A195713",

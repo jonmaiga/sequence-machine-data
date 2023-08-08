@@ -1,5 +1,5 @@
 {
-  "description": "Digits of juxtaposition of prime factors of n appear also in n.",
+  "description": "Digits of juxtaposition of prime factors of composite n appear also in n.",
   "id": "A035140",
   "mentions": [
     "A035139",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 48,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

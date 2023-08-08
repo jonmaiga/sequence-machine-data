@@ -1,0 +1,28 @@
+{
+  "description": "Dowling numbers: e.g.f. exp(x + (exp(b*x)-1)/b) with b = 63.",
+  "id": "A364069",
+  "mentions": [
+    "A000110",
+    "A003575",
+    "A003576",
+    "A003577",
+    "A003578",
+    "A003579",
+    "A003580",
+    "A003581",
+    "A003582",
+    "A007405",
+    "A364070",
+    "A364072",
+    "A364074"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Number of i such that d(i)",
+  "description": "Number of i such that d(i) < d(i-1), where Sum_{i=0..m} d(i)*8^i is the base-8 representation of n.",
   "id": "A037806",
   "mentions": [
     "A037823"

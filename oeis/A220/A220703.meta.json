@@ -1,15 +1,16 @@
 {
-  "description": "Numbers n such that n^7 + 7*n + 7^n is prime.",
+  "description": "Numbers k such that k^7 + 7*k + 7^k is prime.",
   "id": "A220703",
   "mentions": [
     "A220528"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

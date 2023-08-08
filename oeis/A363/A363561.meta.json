@@ -1,0 +1,19 @@
+{
+  "description": "G.f.: Sum_{n=-oo..+oo} x^n * (sqrt(2) + x^n)^(2*n).",
+  "id": "A363561",
+  "mentions": [
+    "A260147",
+    "A363558",
+    "A363559",
+    "A363569"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

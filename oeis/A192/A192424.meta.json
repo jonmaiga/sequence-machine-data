@@ -1,15 +1,23 @@
 {
-  "description": "(A192423)/2.",
+  "description": "a(n) = A192423(n)/2.",
   "id": "A192424",
   "mentions": [
-    "A192423"
+    "A000032",
+    "A000129",
+    "A078008",
+    "A161514",
+    "A192232",
+    "A192423",
+    "A192425"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 30,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

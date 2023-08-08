@@ -2,7 +2,23 @@
   "description": "Number of 1 X (n+1) 0..1 arrays with every row least squares fitting to a positive-slope straight line and every column least squares fitting to a zero- or positive-slope straight line, with a single point array taken as having zero slope.",
   "id": "A222970",
   "mentions": [
-    "A222969"
+    "A000005",
+    "A000041",
+    "A053632",
+    "A111133",
+    "A138364",
+    "A144300",
+    "A222855",
+    "A222955",
+    "A222969",
+    "A264034",
+    "A304818",
+    "A318283",
+    "A320387",
+    "A358194",
+    "A360672",
+    "A360675",
+    "A363626"
   ],
   "tags": [
     "nonn"

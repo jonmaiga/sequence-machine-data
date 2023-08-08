@@ -1,5 +1,5 @@
 {
-  "description": "Numerator of x(n) = x(n-1) + x(n-2), x(0)=0, x(1)=1/2.",
+  "description": "Numerator of x(n), where x(n) = x(n-1) + x(n-2) with x(0)=0, x(1)=1/2.",
   "id": "A167808",
   "mentions": [
     "A000032",

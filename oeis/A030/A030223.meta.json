@@ -1,17 +1,24 @@
 {
-  "description": "Triangular polyominoes (n-iamonds) with bilateral symmetry (holes are allowed).",
+  "description": "Number of achiral triangular n-ominoes (n-iamonds) (holes are allowed).",
   "id": "A030223",
   "mentions": [
     "A000577",
+    "A001420",
     "A006534",
-    "A030224"
+    "A030224",
+    "A030225",
+    "A030227",
+    "A364485",
+    "A364486",
+    "A364487"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 28,
-    "source": "oeis-entry"
+    "size": 41,
+    "source": "oeis-bfile"
   }
 }

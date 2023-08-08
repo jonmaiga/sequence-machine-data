@@ -1,0 +1,18 @@
+{
+  "description": "Number of connected non-quadratically embeddable graphs on n nodes.",
+  "id": "A363961",
+  "mentions": [
+    "A001349",
+    "A363960"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

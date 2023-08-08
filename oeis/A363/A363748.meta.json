@@ -1,0 +1,21 @@
+{
+  "description": "Number of compositions into sums of fourth powers.",
+  "id": "A363748",
+  "mentions": [
+    "A000583",
+    "A006456",
+    "A023358",
+    "A291149",
+    "A352529",
+    "A363749"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 82,
+    "source": "oeis-bfile"
+  }
+}

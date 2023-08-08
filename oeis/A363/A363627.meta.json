@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = greatest product < n of some subset of the divisors of n, or if n is in A008578 then a(n) = n.",
+  "id": "A363627",
+  "mentions": [
+    "A008578",
+    "A363501"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

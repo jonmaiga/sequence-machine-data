@@ -2,6 +2,7 @@
   "description": "A Beatty sequence for 10*i^i.",
   "id": "A064676",
   "mentions": [
+    "A049006",
     "A064679"
   ],
   "tags": [
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 64,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

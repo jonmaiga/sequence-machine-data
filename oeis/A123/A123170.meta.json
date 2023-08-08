@@ -1,5 +1,5 @@
 {
-  "description": "Continued fraction for (sqrt(2)+1/sqrt(2))*tanh(1/sqrt(2)).",
+  "description": "Continued fraction for (sqrt(2) + 1/sqrt(2))*tanh(1/sqrt(2)).",
   "id": "A123170",
   "mentions": [],
   "tags": [
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 78,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

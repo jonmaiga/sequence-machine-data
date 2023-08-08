@@ -1,7 +1,10 @@
 {
-  "description": "G.f. satisfies: A(x) = 1 + x*A(x) + x^2*A(x)^5.",
+  "description": "G.f. satisfies A(x) = 1 + x*A(x) + x^2*A(x)^5.",
   "id": "A182454",
   "mentions": [
+    "A000045",
+    "A000108",
+    "A001006",
     "A019497",
     "A186996"
   ],

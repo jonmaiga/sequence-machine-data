@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least nonnegative integer solution for y such that x > 1 is an integer in the equation n^y*x^n = n^(x^(1/n)).",
+  "id": "A362738",
+  "mentions": [
+    "A000312",
+    "A058126",
+    "A073084"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

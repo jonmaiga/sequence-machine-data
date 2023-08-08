@@ -1,8 +1,9 @@
 {
-  "description": "Primes p such that 11 is not a square mod p.",
+  "description": "Primes that are not in A038881.",
   "id": "A038882",
   "mentions": [
     "A019339",
+    "A038881",
     "A296936"
   ],
   "tags": [

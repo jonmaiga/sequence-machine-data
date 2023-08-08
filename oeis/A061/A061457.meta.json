@@ -2,6 +2,7 @@
   "description": "Squares whose reversal is also a square.",
   "id": "A061457",
   "mentions": [
+    "A033294",
     "A102859"
   ],
   "tags": [

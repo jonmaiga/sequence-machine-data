@@ -1,0 +1,21 @@
+{
+  "description": "Pentagonal numbers which are the sum of the first k primes, for some k >= 0.",
+  "id": "A364691",
+  "mentions": [
+    "A000326",
+    "A007504",
+    "A061890",
+    "A066527",
+    "A364696"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

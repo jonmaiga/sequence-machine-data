@@ -2,12 +2,14 @@
   "description": "Decimal expansion of log(log(4)).",
   "id": "A196565",
   "mentions": [
+    "A002162",
     "A016627",
     "A074785",
     "A194562"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

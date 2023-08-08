@@ -1,0 +1,20 @@
+{
+  "description": "Triangle read by rows: T(n, k) = Sum_{d=0..n-k} binomial(n, d)*StirlingS2(n-d, k)*63^(n-d-k), with 0 <= k <= n.",
+  "id": "A364072",
+  "mentions": [
+    "A000012",
+    "A133853",
+    "A364069",
+    "A364071",
+    "A364073"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

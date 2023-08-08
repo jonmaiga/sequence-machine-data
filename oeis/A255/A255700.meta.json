@@ -1,9 +1,11 @@
 {
-  "description": "Decimal expansion of the Plouffe sum S(3,4) = Sum_{n >= 0} 1/(n^3*(exp(4*Pi*n)-1)).",
+  "description": "Decimal expansion of the Plouffe sum S(3,4) = Sum_{n >= 1} 1/(n^3*(exp(4*Pi*n)-1)).",
   "id": "A255700",
   "mentions": [
+    "A001158",
+    "A002117",
+    "A084254",
     "A255695",
-    "A255696",
     "A255697",
     "A255698",
     "A255699",

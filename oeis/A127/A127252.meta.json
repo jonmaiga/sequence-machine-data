@@ -2,17 +2,19 @@
   "description": "Sequence composed of 1 and -1 with the -1's occurring at odious indexed positions given by A091855.",
   "id": "A127252",
   "mentions": [
+    "A000069",
     "A091855",
     "A127245",
     "A127251",
     "A127255"
   ],
   "tags": [
+    "base",
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 51,
+    "size": 79,
     "source": "oeis-entry"
   }
 }

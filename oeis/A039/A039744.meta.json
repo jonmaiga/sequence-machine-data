@@ -1,9 +1,10 @@
 {
-  "description": "Number of ways n(n-1) can be partitioned into the sum of 2(n-1) integers in the range 0..n.",
+  "description": "Number of ways n*(n-1) can be partitioned into the sum of 2*(n-1) integers in the range 0..n.",
   "id": "A039744",
   "mentions": [
     "A007878",
-    "A118113"
+    "A118113",
+    "A362967"
   ],
   "tags": [
     "formulas",

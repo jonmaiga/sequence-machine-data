@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of coefficients in expansion of (1 + x)^(2/3).",
+  "id": "A364658",
+  "mentions": [
+    "A002596",
+    "A067622",
+    "A067623",
+    "A127974",
+    "A161200",
+    "A364661"
+  ],
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

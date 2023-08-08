@@ -1,0 +1,19 @@
+{
+  "description": "Number of endofunctions on [n] such that the number of elements that are mapped to i is either 0 or a divisor of i.",
+  "id": "A364327",
+  "mentions": [
+    "A066843",
+    "A178682",
+    "A334370",
+    "A364328",
+    "A364344"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
+  }
+}

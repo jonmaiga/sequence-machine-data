@@ -1,0 +1,43 @@
+{
+  "description": "Triangle read by rows where T(n,k) is the number of integer partitions of n with rounded mean k.",
+  "id": "A364060",
+  "mentions": [
+    "A000041",
+    "A000975",
+    "A002865",
+    "A008284",
+    "A025065",
+    "A026905",
+    "A051293",
+    "A058398",
+    "A067538",
+    "A102627",
+    "A124943",
+    "A124944",
+    "A237984",
+    "A316413",
+    "A327472",
+    "A327482",
+    "A363489",
+    "A363723",
+    "A363724",
+    "A363731",
+    "A363943",
+    "A363944",
+    "A363945",
+    "A363946",
+    "A363947",
+    "A363950",
+    "A363952",
+    "A363953"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

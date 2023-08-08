@@ -1,5 +1,5 @@
 {
-  "description": "Integers having ideal digital mean to base 5.",
+  "description": "Integers having ideal digital mean up to base 5.",
   "id": "A144800",
   "mentions": [
     "A007953",
@@ -7,16 +7,16 @@
     "A031443",
     "A144777",
     "A144798",
-    "A144799"
+    "A144799",
+    "A364714"
   ],
   "tags": [
     "base",
-    "hard",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 34,
+    "size": 38,
     "source": "oeis-entry"
   }
 }

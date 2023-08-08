@@ -2,7 +2,13 @@
   "description": "Lexicographically earliest de Bruijn sequence for n = 6 and k = 2.",
   "id": "A169671",
   "mentions": [
-    "A058342"
+    "A021913",
+    "A058342",
+    "A080679",
+    "A169672",
+    "A169673",
+    "A169674",
+    "A169675"
   ],
   "tags": [
     "nonn"

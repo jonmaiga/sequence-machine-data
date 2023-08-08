@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that centered pentagonal number A005891(k) = (5k^2 + 5k + 2)/2 is a perfect square.",
+  "description": "Numbers k such that the k-th centered pentagonal number A005891(k) = (5k^2 + 5k + 2)/2 is a square.",
   "id": "A129556",
   "mentions": [
     "A000217",
@@ -8,8 +8,11 @@
     "A005891",
     "A006451",
     "A129557",
+    "A140244",
+    "A140245",
     "A221874",
-    "A233450"
+    "A233450",
+    "A254332"
   ],
   "tags": [
     "easy",

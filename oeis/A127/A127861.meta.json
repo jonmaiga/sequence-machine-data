@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=A127859(n)^2 where A127859(n)=r(A127858(n)) and A127858 is the sequence of positive integers with the property that r(n^2)=r(n)^2, where r if the cyclic replacement map of the digits d of n in base 12 defined by d->d+1 if d0 if d=11.",
+  "description": "a(n) = A127859(n)^2.",
   "id": "A127861",
   "mentions": [
     "A117755",
@@ -7,16 +7,17 @@
     "A127857",
     "A127858",
     "A127859",
-    "A127860"
+    "A127860",
+    "A192544"
   ],
   "tags": [
     "base",
-    "fini",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

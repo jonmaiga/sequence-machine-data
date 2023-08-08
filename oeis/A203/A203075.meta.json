@@ -1,5 +1,5 @@
 {
-  "description": "Write n as a sum of distinct terms from A203074; if there is more than one way, pick the smallest binary number.",
+  "description": "Write n as a sum of distinct terms from A203074; if there is more than one way, choose the smallest binary number.",
   "id": "A203075",
   "mentions": [
     "A014417",

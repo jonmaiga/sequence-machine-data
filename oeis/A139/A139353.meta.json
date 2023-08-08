@@ -5,16 +5,22 @@
     "A000120",
     "A039004",
     "A139351",
+    "A139352",
+    "A139354",
     "A139355",
     "A139370",
+    "A139371",
+    "A139372",
     "A139373"
   ],
   "tags": [
+    "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 99,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

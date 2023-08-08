@@ -1,5 +1,5 @@
 {
-  "description": "Let r, s, t, u be four permutations of the set { 1, 2, 3, ..., n }; a(n) = minimal value of Sum_{i=1..n} r(i) s(i) t(i) u(i).",
+  "description": "Let r, s, t, u be four permutations of the set { 1, 2, 3, ..., n }; a(n) = minimal value of Sum_{i=1..n} r(i)*s(i)*t(i)*u(i).",
   "id": "A070736",
   "mentions": [
     "A000292",
@@ -7,13 +7,12 @@
   ],
   "tags": [
     "hard",
-    "more",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
-    "source": "oeis-entry"
+    "size": 41,
+    "source": "oeis-bfile"
   }
 }

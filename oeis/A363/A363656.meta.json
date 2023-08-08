@@ -1,0 +1,17 @@
+{
+  "description": "Number of bounded affine permutations of size n.",
+  "id": "A363656",
+  "mentions": [
+    "A046739",
+    "A173018"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

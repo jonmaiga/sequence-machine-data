@@ -1,0 +1,19 @@
+{
+  "description": "Irregular triangle read by rows; the n-th row is the n-th permutation of 0 to infinity, in reversed colexicographic ordering, terminating when the rest of the row equals k.",
+  "id": "A362867",
+  "mentions": [
+    "A055089",
+    "A084558",
+    "A353962"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

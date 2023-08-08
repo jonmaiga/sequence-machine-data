@@ -2,16 +2,18 @@
   "description": "a(2n) = A001653(n) (Numbers n such that 2*n^2 - 1 is a square), a(2n+1) = A038725(n+1).",
   "id": "A117719",
   "mentions": [
+    "A000129",
     "A001653",
     "A038725"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 29,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -2,6 +2,7 @@
   "description": "Lexicographically earliest sequence of primes whose partial products lie between noncomposite numbers.",
   "id": "A359948",
   "mentions": [
+    "A036014",
     "A359940"
   ],
   "tags": [

@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the least prime factor of the concatenation of 2^n and 3^n.",
+  "id": "A364165",
+  "mentions": [
+    "A000079",
+    "A000244",
+    "A268111"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

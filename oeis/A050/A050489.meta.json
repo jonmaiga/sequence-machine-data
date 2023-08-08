@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = C(n)*(10n+1) where C(n)=Catalan numbers (A000108).",
+  "description": "a(n) = C(n)*(10n+1) where C(n) = Catalan numbers (A000108).",
   "id": "A050489",
   "mentions": [
     "A000108",

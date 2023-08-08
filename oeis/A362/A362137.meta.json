@@ -1,0 +1,15 @@
+{
+  "description": "Smallest size of an n-paradoxical tournament built as a directed Paley graph.",
+  "id": "A362137",
+  "mentions": [],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

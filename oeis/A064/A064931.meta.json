@@ -1,7 +1,9 @@
 {
-  "description": "Numbers n such that the digits of n are also digits of n^3.",
+  "description": "Numbers m such that the digits of m are also digits of m^3.",
   "id": "A064931",
-  "mentions": [],
+  "mentions": [
+    "A029776"
+  ],
   "tags": [
     "base",
     "nonn"
@@ -9,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 60,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

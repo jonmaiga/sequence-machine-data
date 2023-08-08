@@ -1,0 +1,17 @@
+{
+  "description": "Number of distinct resistances that can be produced from a circuit that is a 2-connected loopless multigraph with n edges and each edge having a unit resistor.",
+  "id": "A363240",
+  "mentions": [
+    "A010357",
+    "A337517"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

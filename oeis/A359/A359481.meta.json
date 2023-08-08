@@ -1,0 +1,23 @@
+{
+  "description": "Irregular triangle read by rows in which T(n,k) is one half of the number of overpartitions of n having k distinct parts, n>=1, k>=1.",
+  "id": "A359481",
+  "mentions": [
+    "A000005",
+    "A000079",
+    "A000217",
+    "A003056",
+    "A014968",
+    "A116608",
+    "A235790"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

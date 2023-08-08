@@ -1,14 +1,21 @@
 {
-  "description": "Decimal expansion of Boltzmann constant in m^-1 K^-1.",
+  "description": "Decimal expansion of Boltzmann constant in m^-1 K^-1 according to the 2019 SI system.",
   "id": "A254276",
-  "mentions": [],
+  "mentions": [
+    "A003676",
+    "A003678",
+    "A070063",
+    "A252852"
+  ],
   "tags": [
     "cons",
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 2,
-    "size": 5,
+    "size": 87,
     "source": "oeis-entry"
   }
 }

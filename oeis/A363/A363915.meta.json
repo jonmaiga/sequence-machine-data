@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows. The indicator function for prime divisors, the Euclid matrix.",
+  "id": "A363915",
+  "mentions": [
+    "A001221",
+    "A008472",
+    "A010051",
+    "A087624",
+    "A113704",
+    "A351619",
+    "A363914"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "oeis-bfile"
+  }
+}

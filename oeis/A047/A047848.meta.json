@@ -2,7 +2,15 @@
   "description": "Array T read by diagonals; n-th difference of (T(k,n),T(k,n-1),...,T(k,0)) is (k+2)^(n-1), for n=1,2,3,...; k=0,1,2,...",
   "id": "A047848",
   "mentions": [
-    "A007051"
+    "A007051",
+    "A047849",
+    "A047850",
+    "A047851",
+    "A047852",
+    "A047853",
+    "A047854",
+    "A047855",
+    "A047856"
   ],
   "tags": [
     "formulas",

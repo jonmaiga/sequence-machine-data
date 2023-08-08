@@ -1,0 +1,23 @@
+{
+  "description": "Number of k <= P(n) such that gcd(k,P(n)) > 1, yet there is a prime q | k that does not divide P(n), where P(n) = A002110(n).",
+  "id": "A363844",
+  "mentions": [
+    "A000010",
+    "A002110",
+    "A005687",
+    "A005867",
+    "A010846",
+    "A243823",
+    "A363061"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

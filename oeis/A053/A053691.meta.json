@@ -1,5 +1,5 @@
 {
-  "description": "11-core partitions of n.",
+  "description": "Number of 11-core partitions of n.",
   "id": "A053691",
   "mentions": [
     "A000122",

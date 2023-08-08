@@ -5,12 +5,12 @@
     "A138060"
   ],
   "tags": [
-    "more",
+    "easy",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 106,
     "source": "oeis-entry"
   }
 }

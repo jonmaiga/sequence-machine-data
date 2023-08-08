@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX3 0..3 arrays with every element plus 1 mod 4 equal to some element at offset (-1,0) (-1,1) (0,-1) (0,1) or (1,0), with upper left element zero.",
+  "description": "Number of n X 3 0..3 arrays with every element plus 1 mod 4 equal to some element at offset (-1,0) (-1,1) (0,-1) (0,1) or (1,0), with upper left element zero.",
   "id": "A278096",
   "mentions": [
     "A278099"

@@ -1,0 +1,21 @@
+{
+  "description": "Polygonal numbers of order greater than 2 (A090466) which are the sum of the first k primes, for some k > 0.",
+  "id": "A364694",
+  "mentions": [
+    "A007504",
+    "A061890",
+    "A066527",
+    "A090466",
+    "A364691",
+    "A364693",
+    "A364695"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

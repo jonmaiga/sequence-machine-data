@@ -2,6 +2,7 @@
   "description": "Even numbers k such that k+1 and k-1 are both composite.",
   "id": "A061673",
   "mentions": [
+    "A014574",
     "A025583",
     "A055670"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "Cyclops octagonal numbers: a(n) = n*(3*n-2) with one “zero” digit in the middle.",
+  "description": "Cyclops octagonal numbers: a(n) = n*(3*n-2) with one \"zero\" digit in the middle.",
   "id": "A285767",
   "mentions": [
     "A000567",

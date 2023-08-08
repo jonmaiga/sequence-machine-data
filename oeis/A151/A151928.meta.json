@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of 8*Pi^6/27.",
   "id": "A151928",
-  "mentions": [],
+  "mentions": [
+    "A013664"
+  ],
   "tags": [
     "cons",
     "nonn"

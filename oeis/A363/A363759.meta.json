@@ -1,0 +1,16 @@
+{
+  "description": "Smallest number that can be written as a sum of a positive n-th power and a positive (n+1)-th power in 2 different ways.",
+  "id": "A363759",
+  "mentions": [
+    "A000051",
+    "A016078"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

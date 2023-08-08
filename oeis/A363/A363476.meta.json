@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Fibonacci(n)^2 * Fibonacci(n+1)^3.",
+  "id": "A363476",
+  "mentions": [
+    "A000045",
+    "A066258",
+    "A197424"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "joeis"
+  }
+}

@@ -1,9 +1,10 @@
 {
-  "description": "Number of distinct essential hyperbolic Coxeter polytopes of dimension n.",
+  "description": "Number of diagrams for dimension n in table 8.1 of the paper by Felikson & Tumarkin.",
   "id": "A161997",
   "mentions": [],
   "tags": [
-    "more",
+    "fini",
+    "full",
     "nonn"
   ],
   "terms": {

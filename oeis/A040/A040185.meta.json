@@ -1,7 +1,10 @@
 {
   "description": "Continued fraction for sqrt(200).",
   "id": "A040185",
-  "mentions": [],
+  "mentions": [
+    "A040000",
+    "A040015"
+  ],
   "tags": [
     "cofr",
     "easy",

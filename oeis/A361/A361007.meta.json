@@ -1,0 +1,32 @@
+{
+  "description": "a(n) = numerator of (zeta(2*n,1/4) + zeta(2*n,3/4))/Pi^(2*n) where zeta is the Hurwitz zeta function.",
+  "id": "A361007",
+  "mentions": [
+    "A000364",
+    "A036279",
+    "A046982",
+    "A173945",
+    "A173947",
+    "A173948",
+    "A173949",
+    "A173953",
+    "A173954",
+    "A173955",
+    "A173982",
+    "A173983",
+    "A173984",
+    "A173987",
+    "A360945",
+    "A360966"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "joeis"
+  }
+}

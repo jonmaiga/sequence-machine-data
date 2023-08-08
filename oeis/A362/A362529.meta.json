@@ -1,0 +1,24 @@
+{
+  "description": "Decimal expansion of the 2019 SI system unit kg in eV/c^2.",
+  "id": "A362529",
+  "mentions": [
+    "A003676",
+    "A003678",
+    "A081823",
+    "A254181",
+    "A322580",
+    "A342486",
+    "A360750"
+  ],
+  "tags": [
+    "cons",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 36,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

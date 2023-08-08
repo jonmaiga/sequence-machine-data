@@ -1,5 +1,5 @@
 {
-  "description": "Number of n-colorings of the Triangle Graph of order 4.",
+  "description": "Number of n-colorings of the 4 X 4 X 4 triangular grid.",
   "id": "A182789",
   "mentions": [
     "A178435",

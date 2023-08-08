@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that the sum of the first k terms of A180405 is composite.",
+  "id": "A363379",
+  "mentions": [
+    "A180405",
+    "A363450"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

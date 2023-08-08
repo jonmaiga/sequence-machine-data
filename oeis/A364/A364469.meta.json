@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k whose digital sum is greater than the number of primes up to k (inclusive).",
+  "id": "A364469",
+  "mentions": [
+    "A000720",
+    "A007953"
+  ],
+  "tags": [
+    "base",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

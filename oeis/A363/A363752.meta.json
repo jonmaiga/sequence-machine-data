@@ -1,0 +1,18 @@
+{
+  "description": "Primes prime(k) such that prime(k) mod k is prime.",
+  "id": "A363752",
+  "mentions": [
+    "A000040",
+    "A004648",
+    "A363751"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

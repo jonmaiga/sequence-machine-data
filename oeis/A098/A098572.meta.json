@@ -1,9 +1,14 @@
 {
   "description": "a(n) = floor(Sum_{m=1..n} m^(1/m)).",
   "id": "A098572",
-  "mentions": [],
+  "mentions": [
+    "A082633",
+    "A351885",
+    "A363704"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

@@ -2,6 +2,7 @@
   "description": "Denominator of Sum_{i=1..n} 1/(i^3*C(2*i,i)).",
   "id": "A112103",
   "mentions": [
+    "A086463",
     "A112102"
   ],
   "tags": [
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 17,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

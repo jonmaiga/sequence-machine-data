@@ -2,14 +2,17 @@
   "description": "a(n) is the number of positive integers <= 10^n that can be expressed as a sum of two squares.",
   "id": "A164775",
   "mentions": [
+    "A000050",
+    "A001481",
     "A064533",
     "A180416",
+    "A227158",
     "A275649",
-    "A275650",
-    "A330553"
+    "A275650"
   ],
   "tags": [
     "formulas",
+    "hard",
     "more",
     "nonn"
   ],

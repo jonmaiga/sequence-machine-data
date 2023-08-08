@@ -1,0 +1,16 @@
+{
+  "description": "Length of row n of the irregular triangle A364312.",
+  "id": "A364313",
+  "mentions": [
+    "A364312"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

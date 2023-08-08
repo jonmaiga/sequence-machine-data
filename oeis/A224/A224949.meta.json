@@ -1,7 +1,14 @@
 {
   "description": "Leap years having 53 Thursdays and Fridays.",
   "id": "A224949",
-  "mentions": [],
+  "mentions": [
+    "A224945",
+    "A224946",
+    "A224947",
+    "A224948",
+    "A224950",
+    "A224951"
+  ],
   "tags": [
     "nonn"
   ],

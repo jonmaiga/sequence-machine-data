@@ -1,5 +1,5 @@
 {
-  "description": "Variation of the Barnyard sequence A347581: a(n) is the minimum number of unit length line segments required to enclose areas of 1 through n on a square grid when the number of segments is minimized as each area of incrementing size, starting at 1, is added.",
+  "description": "Variation of the Barnyard sequence A347581: a(n) is the minimum number of unit-length line segments required to enclose areas of 1 through n on a square grid when the number of segments is minimized as each area of incrementing size, starting at 1, is added.",
   "id": "A348149",
   "mentions": [
     "A001168",

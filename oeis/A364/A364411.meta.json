@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = prime(n) + 2*prime(n+1).",
+  "id": "A364411",
+  "mentions": [
+    "A000040",
+    "A001043",
+    "A062234",
+    "A100484",
+    "A191472",
+    "A210497"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

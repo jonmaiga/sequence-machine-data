@@ -1,0 +1,18 @@
+{
+  "description": "The sum of the digits present in a(n) and a(n+1) divides exactly a(n). This is the lexicographically earliest infinite sequence of distinct positive terms having this property.",
+  "id": "A363079",
+  "mentions": [
+    "A364120",
+    "A364187",
+    "A364188"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

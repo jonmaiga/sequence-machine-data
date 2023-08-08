@@ -1,0 +1,23 @@
+{
+  "description": "Numbers N such that in the concatenation of N^2 and N^3, each of the 10 decimal digits appears equally often.",
+  "id": "A363927",
+  "mentions": [
+    "A036744",
+    "A054038",
+    "A071519",
+    "A119735",
+    "A156977",
+    "A171102",
+    "A363905",
+    "A363909"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

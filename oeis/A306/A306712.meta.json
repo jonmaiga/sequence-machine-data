@@ -2,6 +2,7 @@
   "description": "Decimal expansion of 3*sqrt(3)/Pi.",
   "id": "A306712",
   "mentions": [
+    "A073010",
     "A086089",
     "A289504",
     "A306648"

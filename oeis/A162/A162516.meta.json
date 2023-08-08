@@ -2,14 +2,19 @@
   "description": "Triangle of coefficients of polynomials defined by Binet form: P(n,x) = ((x+d)^n + (x-d)^n)/2, where d=sqrt(x+4).",
   "id": "A162516",
   "mentions": [
+    "A000217",
+    "A026150",
     "A081342",
     "A081343",
     "A084057",
     "A084059",
+    "A125818",
+    "A133343",
     "A146963",
     "A162514",
     "A162515",
-    "A162517"
+    "A162517",
+    "A199572"
   ],
   "tags": [
     "formulas",

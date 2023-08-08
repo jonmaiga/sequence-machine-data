@@ -1,0 +1,41 @@
+{
+  "description": "Number of subsets of {1..n} where some element is a difference of two consecutive elements.",
+  "id": "A364466",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A008284",
+    "A008289",
+    "A011782",
+    "A050291",
+    "A088808",
+    "A093971",
+    "A108917",
+    "A196723",
+    "A212986",
+    "A237113",
+    "A275972",
+    "A320347",
+    "A325325",
+    "A325864",
+    "A325877",
+    "A325878",
+    "A326083",
+    "A363225",
+    "A363260",
+    "A364463",
+    "A364464",
+    "A364467",
+    "A364534",
+    "A364535",
+    "A364536"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

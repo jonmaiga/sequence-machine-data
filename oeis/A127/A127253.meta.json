@@ -2,6 +2,7 @@
   "description": "Product of number triangles A127243 and A127248.",
   "id": "A127253",
   "mentions": [
+    "A000069",
     "A091855",
     "A127243",
     "A127248",

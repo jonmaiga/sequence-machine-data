@@ -1,8 +1,12 @@
 {
-  "description": "Increasing partial quotients of e^gamma = 1.78107241799019798523650...",
+  "description": "Increasing partial quotients of e^gamma.",
   "id": "A064411",
-  "mentions": [],
+  "mentions": [
+    "A073004",
+    "A094644"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0..2 arrays with new values 0..2 introduced in row major order and no element equal to more than one of its immediate leftward or upward or right-upward antidiagonal neighbors",
+  "description": "Number of n X n 0..2 arrays with new values 0..2 introduced in row major order and no element equal to more than one of its immediate leftward or upward or right-upward antidiagonal neighbors.",
   "id": "A209093",
   "mentions": [
     "A209100"

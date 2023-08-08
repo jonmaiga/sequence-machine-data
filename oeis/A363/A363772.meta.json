@@ -1,0 +1,17 @@
+{
+  "description": "Number of graphs (with n edges) admitting a strictly matched involution.",
+  "id": "A363772",
+  "mentions": [
+    "A363771"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

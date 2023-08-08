@@ -1,10 +1,11 @@
 {
-  "description": "E.g.f.: exp(1/(1-x)^5 - 1).",
+  "description": "Expansion of e.g.f.: exp(1/(1-x)^5 - 1).",
   "id": "A294051",
   "mentions": [
     "A294046"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

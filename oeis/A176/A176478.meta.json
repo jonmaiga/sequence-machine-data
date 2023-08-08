@@ -1,7 +1,14 @@
 {
   "description": "Years in which there are five Saturdays in the month of February.",
   "id": "A176478",
-  "mentions": [],
+  "mentions": [
+    "A119406",
+    "A135795",
+    "A141039",
+    "A141287",
+    "A143994",
+    "A143995"
+  ],
   "tags": [
     "nonn"
   ],

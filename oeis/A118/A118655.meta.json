@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that Hamming weight of n equals Hamming weight of n^3.",
+  "description": "Numbers k such that Hamming weight of k equals Hamming weight of k^3.",
   "id": "A118655",
   "mentions": [
     "A000079",

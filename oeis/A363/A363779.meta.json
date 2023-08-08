@@ -1,0 +1,24 @@
+{
+  "description": "Square array T(n,k), n >= 0, k >= 0, read by antidiagonals, where column k is the expansion of 1/(Sum_{j>=0} x^(j^3))^k.",
+  "id": "A363779",
+  "mentions": [
+    "A000007",
+    "A290054",
+    "A323633",
+    "A363776",
+    "A363777",
+    "A363778",
+    "A363781",
+    "A363783"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

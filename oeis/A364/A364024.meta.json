@@ -1,0 +1,19 @@
+{
+  "description": "Least number whose square and cube, taken together, are pandigital n times.",
+  "id": "A364024",
+  "mentions": [
+    "A363905",
+    "A363927",
+    "A364023"
+  ],
+  "tags": [
+    "base",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

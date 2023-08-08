@@ -1,5 +1,5 @@
 {
-  "description": "The decimal expansion of the middle zero x(2) of the function F(x) = f(f(x)) - x, where f(x) = cos(x) - sin(x).",
+  "description": "Decimal expansion of the middle zero x(2) of the function F(x) = f(f(x)) - x, where f(x) = cos(x) - sin(x).",
   "id": "A206291",
   "mentions": [
     "A168546",

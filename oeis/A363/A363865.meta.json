@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A143007(3*n,n).",
+  "id": "A363865",
+  "mentions": [
+    "A005259",
+    "A143007",
+    "A363864",
+    "A363866",
+    "A363871"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

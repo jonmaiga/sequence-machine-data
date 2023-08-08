@@ -1,5 +1,5 @@
 {
-  "description": "The decimal expansion of the value of d that maximizes the area of a triangle whose angles form a harmonic progression in the ratio 1 : 1/(1-d) : 1/(1-2d), whose side length opposite the largest or smallest angle remains constant and for d in the interval [-inf, 1/2] where 1/(1-d) and 1/(1-2d) are always positive.",
+  "description": "Decimal expansion of the value of d that maximizes the area of a triangle whose angles form a harmonic progression in the ratio 1 : 1/(1-d) : 1/(1-2d), whose side length opposite the largest or smallest angle remains constant and for d in the interval [-oo, 1/2] where 1/(1-d) and 1/(1-2d) are always positive.",
   "id": "A176269",
   "mentions": [],
   "tags": [

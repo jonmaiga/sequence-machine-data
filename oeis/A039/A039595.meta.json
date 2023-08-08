@@ -1,5 +1,5 @@
 {
-  "description": "Fibonacci numbers that are also triangular numbers.",
+  "description": "Positive Fibonacci numbers that are also triangular numbers.",
   "id": "A039595",
   "mentions": [
     "A000045",

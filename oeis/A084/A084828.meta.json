@@ -2,6 +2,7 @@
   "description": "Maximum number of spheres of radius one that can be packed in a sphere of radius n.",
   "id": "A084828",
   "mentions": [
+    "A023393",
     "A084825",
     "A084827",
     "A084829",

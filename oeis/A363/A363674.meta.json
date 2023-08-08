@@ -1,0 +1,30 @@
+{
+  "description": "T(n,k) is the decimal equivalent of the n-bit inverted Gray code for k; triangle T(n,k), n>=0, 0<=k<=2^n-1, read by rows.",
+  "id": "A363674",
+  "mentions": [
+    "A000120",
+    "A000225",
+    "A000918",
+    "A000975",
+    "A003188",
+    "A006516",
+    "A028399",
+    "A063524",
+    "A097072",
+    "A236840",
+    "A329278",
+    "A331105",
+    "A362160"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 74,
+    "source": "oeis-bfile"
+  }
+}

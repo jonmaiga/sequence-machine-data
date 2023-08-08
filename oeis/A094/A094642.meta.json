@@ -2,7 +2,9 @@
   "description": "Decimal expansion of log(Pi/2).",
   "id": "A094642",
   "mentions": [
+    "A002162",
     "A019669",
+    "A053510",
     "A094643"
   ],
   "tags": [

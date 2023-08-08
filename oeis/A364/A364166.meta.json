@@ -1,0 +1,15 @@
+{
+  "description": "Indices k such that A002375(k) = A002375(k+1) = number of decompositions of 2k into a sum of two odd primes.",
+  "id": "A364166",
+  "mentions": [
+    "A002375"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

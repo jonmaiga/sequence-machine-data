@@ -2,7 +2,8 @@
   "description": "Number of 6-cycles in the n-hypercube graph.",
   "id": "A290031",
   "mentions": [
-    "A001788"
+    "A001788",
+    "A364688"
   ],
   "tags": [
     "formulas",

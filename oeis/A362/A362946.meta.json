@@ -1,0 +1,20 @@
+{
+  "description": "Positive integers that cannot be expressed as 1^e_1 + 2^e_2 + 3^e_3 ... + k^e_k with each exponent positive.",
+  "id": "A362946",
+  "mentions": [
+    "A000217",
+    "A000330",
+    "A000537",
+    "A000538",
+    "A000539"
+  ],
+  "tags": [
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

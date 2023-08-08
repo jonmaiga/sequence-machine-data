@@ -1,7 +1,9 @@
 {
   "description": "E.g.f.: Product_{n>=1} Sum_{k>=0} (x^k/k!)^n.",
   "id": "A182666",
-  "mentions": [],
+  "mentions": [
+    "A005651"
+  ],
   "tags": [
     "nonn"
   ],

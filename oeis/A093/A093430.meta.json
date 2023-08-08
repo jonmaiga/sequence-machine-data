@@ -2,6 +2,7 @@
   "description": "Triangle read by rows: T(n,k) = lcm(n, n-1, ..., n-k+2, n-k+1)/lcm(1, 2, ..., k) (1 <= k <= n).",
   "id": "A093430",
   "mentions": [
+    "A067049",
     "A093431",
     "A093432",
     "A093433"
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 79,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

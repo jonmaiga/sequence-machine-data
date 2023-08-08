@@ -1,5 +1,5 @@
 {
-  "description": "The decimal expansion of the maximum M(7) of the ratio (sum_{k=1,...,7} (x(1)*x(2)*...*x(k))^(1/k))/(x(1) + ... + x(7)) taking over x(1), ..., x(7) > 0.",
+  "description": "Decimal expansion of the maximum M(7) of the ratio (Sum_{k=1..7} (x(1)*x(2)*...*x(k))^(1/k))/(x(1) + ... + x(7)) taken over x(1), ..., x(7) > 0.",
   "id": "A249403",
   "mentions": [
     "A174968",

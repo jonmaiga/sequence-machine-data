@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest multiple k of 2^n such that |sigma(k) - 2*k| = 2^n, where sigma = A000203.",
+  "id": "A363285",
+  "mentions": [
+    "A000079",
+    "A000203",
+    "A292557",
+    "A292558"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

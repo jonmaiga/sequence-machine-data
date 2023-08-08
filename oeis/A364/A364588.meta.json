@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies A(x) = 1/(1-x) + x^2*A(x)^4.",
+  "id": "A364588",
+  "mentions": [
+    "A049130",
+    "A090344",
+    "A226974",
+    "A349289",
+    "A364591"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Intersection of A035046 and A226777.",
+  "id": "A363957",
+  "mentions": [
+    "A035046",
+    "A226777"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

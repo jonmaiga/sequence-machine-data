@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that sopfr(n) = S(n), where sopfr(n) = A001414 and S(n) = A002034.",
+  "description": "Numbers k such that sopfr(k) = S(k), where sopfr = A001414 and S = A002034.",
   "id": "A074583",
   "mentions": [
     "A000040",

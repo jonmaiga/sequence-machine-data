@@ -1,0 +1,16 @@
+{
+  "description": "Largest number that is the sum of n distinct primes in exactly n ways; 0 if no solution exists.",
+  "id": "A364692",
+  "mentions": [
+    "A344989"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

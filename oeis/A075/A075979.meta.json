@@ -1,14 +1,14 @@
 {
-  "description": "Numbers n such that n^5+2^n is prime.",
+  "description": "Numbers k such that k^5 + 2^k is prime.",
   "id": "A075979",
   "mentions": [],
   "tags": [
-    "easy",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

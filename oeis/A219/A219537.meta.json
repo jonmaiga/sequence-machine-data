@@ -1,5 +1,5 @@
 {
-  "description": "G.f. satisfies: A(x) = 1 + x*(A(x)^2 - A(x)^3 + A(x)^4).",
+  "description": "G.f. satisfies A(x) = 1 + x*(A(x)^2 - A(x)^3 + A(x)^4).",
   "id": "A219537",
   "mentions": [
     "A001006",
@@ -16,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 24,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

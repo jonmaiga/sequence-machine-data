@@ -1,0 +1,42 @@
+{
+  "description": "Number of integer partitions of n where some part is the difference of two consecutive parts.",
+  "id": "A364467",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A002865",
+    "A008284",
+    "A008289",
+    "A025065",
+    "A050291",
+    "A088808",
+    "A093971",
+    "A108917",
+    "A196723",
+    "A229816",
+    "A236912",
+    "A237113",
+    "A237667",
+    "A320340",
+    "A320347",
+    "A323092",
+    "A325325",
+    "A326083",
+    "A363225",
+    "A363260",
+    "A364345",
+    "A364463",
+    "A364464",
+    "A364466",
+    "A364536",
+    "A364537"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

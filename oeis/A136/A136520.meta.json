@@ -1,16 +1,18 @@
 {
-  "description": "A001263 * A027656.",
+  "description": "a(n) = Sum_{k=1..n} A001263(n,k) * A027656(k).",
   "id": "A136520",
   "mentions": [
     "A001263",
     "A027656"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
-    "source": "oeis-entry"
+    "size": 28,
+    "source": "oeis-bfile"
   }
 }

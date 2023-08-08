@@ -1,5 +1,5 @@
 {
-  "description": "A variant of payphone permutations: given a row of n payphones, a(n) is the number ways for n people to choose the payphones in order, where each person chooses an unoccupied payphone such that the closest occupied payphone is as distant as possible, and a payphone adjacent to a single occupied payphone is preferred over a payphone sandwiched between two occupied payphones.",
+  "description": "A variant of payphone permutations: given a row of n payphones, a(n) is the number ways for n people to choose the payphones in order, where each person chooses an unoccupied payphone such that the closest occupied payphone is as distant as possible, and among the available payphones adjacent to a single occupied payphone the most preferred are payphones at open ends.",
   "id": "A361295",
   "mentions": [
     "A095236",
@@ -8,7 +8,8 @@
     "A358056",
     "A361294",
     "A361296",
-    "A362192"
+    "A362192",
+    "A363785"
   ],
   "tags": [
     "nonn"

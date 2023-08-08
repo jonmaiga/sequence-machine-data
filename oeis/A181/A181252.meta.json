@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX9 binary matrices with no 2X2 block having four 1's",
+  "description": "Number of n X 9 binary matrices with no 2 X 2 block having four 1's.",
   "id": "A181252",
   "mentions": [
     "A181253"

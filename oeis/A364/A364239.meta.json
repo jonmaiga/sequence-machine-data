@@ -1,0 +1,19 @@
+{
+  "description": "Indices of records in A363345.",
+  "id": "A364239",
+  "mentions": [
+    "A070950",
+    "A363344",
+    "A363345"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

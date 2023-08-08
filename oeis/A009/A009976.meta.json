@@ -2,7 +2,8 @@
   "description": "Powers of 32.",
   "id": "A009976",
   "mentions": [
-    "A000079"
+    "A000079",
+    "A008776"
   ],
   "tags": [
     "easy",

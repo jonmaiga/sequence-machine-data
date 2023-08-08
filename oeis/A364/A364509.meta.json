@@ -1,0 +1,23 @@
+{
+  "description": "Square array read by ascending antidiagonals: T(n,k) = (2*k)!/k!^2 * ( (2*n*k)! * ((n + 2)*k)! )/( (n*k)! * ((n + 1)*k)!^2 ) for n, k > = 0.",
+  "id": "A364509",
+  "mentions": [
+    "A002894",
+    "A006480",
+    "A364303",
+    "A364506",
+    "A364510",
+    "A364511"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 43,
+    "source": "oeis-entry"
+  }
+}

@@ -1,7 +1,10 @@
 {
   "description": "Odd hexagonal pyramidal numbers.",
   "id": "A015225",
-  "mentions": [],
+  "mentions": [
+    "A002412",
+    "A005408"
+  ],
   "tags": [
     "easy",
     "formulas",

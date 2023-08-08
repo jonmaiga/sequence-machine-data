@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies A(x) = exp( Sum_{k>=1} A(x^k) * x^k/(k * (1 + 2*x^k)) ).",
+  "id": "A363580",
+  "mentions": [
+    "A052855",
+    "A198518",
+    "A363545",
+    "A363546",
+    "A363578",
+    "A363581"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

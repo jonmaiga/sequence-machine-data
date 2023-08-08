@@ -1,0 +1,15 @@
+{
+  "description": "a(n) is the least prime p such that p^n - 2*n is prime, or -1 if there is no such p.",
+  "id": "A363883",
+  "mentions": [
+    "A363796"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

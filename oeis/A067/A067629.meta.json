@@ -1,7 +1,10 @@
 {
   "description": "The average of the prime factors of n, rounded off to the nearest integer (rounding up if there's a choice), with each factor weighted according to its frequency of occurrence in the prime factorization.",
   "id": "A067629",
-  "mentions": [],
+  "mentions": [
+    "A078175",
+    "A126594"
+  ],
   "tags": [
     "easy",
     "nonn"
@@ -9,6 +12,6 @@
   "terms": {
     "offset": 2,
     "size": 87,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "description": "Number of chordless cycles (of length > 3) in the complement of the n X n queen graph.",
+  "id": "A364162",
+  "mentions": [
+    "A361184",
+    "A361188"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

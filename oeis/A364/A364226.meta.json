@@ -1,0 +1,23 @@
+{
+  "description": "Triangle read by rows: T(n, k) is the number of n X n matrices of rank k using all the first n^2 prime numbers.",
+  "id": "A364226",
+  "mentions": [
+    "A088020",
+    "A180128",
+    "A350858",
+    "A350859",
+    "A364203",
+    "A364227"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

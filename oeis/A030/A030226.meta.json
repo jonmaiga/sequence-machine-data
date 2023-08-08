@@ -1,13 +1,16 @@
 {
   "description": "Number of n-celled polyhexes (hexagonal polyominoes) without bilateral symmetry.",
   "id": "A030226",
-  "mentions": [],
+  "mentions": [
+    "A000228",
+    "A030225"
+  ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 30,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "description": "Number of compositions into sums of fifth powers.",
+  "id": "A363749",
+  "mentions": [
+    "A000584",
+    "A006456",
+    "A023358",
+    "A291168",
+    "A352530",
+    "A363748"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 80,
+    "source": "oeis-bfile"
+  }
+}

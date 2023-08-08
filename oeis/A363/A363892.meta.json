@@ -1,0 +1,14 @@
+{
+  "description": "Maximum likelihood degree of X(3, n).",
+  "id": "A363892",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

@@ -1,8 +1,9 @@
 {
-  "description": "E.g.f. exp(2x)*sech(x).",
+  "description": "Expansion of e.g.f. exp(2x)*sech(x).",
   "id": "A119880",
   "mentions": [
     "A119879",
+    "A122045",
     "A153641"
   ],
   "tags": [

@@ -1,0 +1,23 @@
+{
+  "description": "Table read by rows. T(n, k) = Sum_{j=0..n-k} k*binomial(k, j)*binomial(n - j, k).",
+  "id": "A364361",
+  "mentions": [
+    "A001477",
+    "A005408",
+    "A014105",
+    "A048395",
+    "A069894",
+    "A364553",
+    "A364634"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

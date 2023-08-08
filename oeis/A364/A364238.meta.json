@@ -1,0 +1,20 @@
+{
+  "description": "Indices of records in A094605.",
+  "id": "A364238",
+  "mentions": [
+    "A070950",
+    "A094605",
+    "A363343",
+    "A363345"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

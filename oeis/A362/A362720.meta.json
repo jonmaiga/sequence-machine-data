@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the smallest k > 0 such that b(n) = b(n-1) + A007504(k) is prime, with b(0) = 1.",
+  "id": "A362720",
+  "mentions": [
+    "A007504"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 77,
+    "source": "joeis"
+  }
+}

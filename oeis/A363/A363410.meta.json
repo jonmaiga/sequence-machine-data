@@ -1,0 +1,22 @@
+{
+  "description": "a(n)= 1/sqrt(2) * the imaginary part of Product_{k = 1..n} (1 + k*sqrt(-2)).",
+  "id": "A363410",
+  "mentions": [
+    "A033200",
+    "A033203",
+    "A105750",
+    "A105751",
+    "A363409",
+    "A363416"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

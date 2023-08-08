@@ -1,5 +1,5 @@
 {
-  "description": "Determinant of the pentadiagonal symmetric nXn Toeplitz Matrix with a=b=1, c=2.",
+  "description": "Determinant of the pentadiagonal symmetric n X n Toeplitz Matrix with a=b=1, c=2.",
   "id": "A360261",
   "mentions": [
     "A071534"

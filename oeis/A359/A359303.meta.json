@@ -1,9 +1,17 @@
 {
-  "description": "Bitwise encoding of the state of a 1D cellular automaton after n steps from ..111000.. where adjacent cells swap 01 <-> 10 when within triples 110 or 011.",
+  "description": "Bitwise encoding of the state of a 1D cellular automaton after n steps from ...111000... where adjacent cells swap 01 <-> 10 when within triples 110 or 011.",
   "id": "A359303",
-  "mentions": [],
+  "mentions": [
+    "A030101",
+    "A035327",
+    "A053644",
+    "A062383",
+    "A360141",
+    "A360142"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

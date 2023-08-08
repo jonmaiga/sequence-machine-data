@@ -1,0 +1,21 @@
+{
+  "description": "Number of strongly magic quad squares that can be formed using cards from Quads-2^n deck.",
+  "id": "A362874",
+  "mentions": [
+    "A308436",
+    "A361495",
+    "A361613",
+    "A362963",
+    "A362964"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

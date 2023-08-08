@@ -1,5 +1,5 @@
 {
-  "description": "Least k such that first k terms of Kolakoski sequence (A000002) contain n more 2's than 1's.",
+  "description": "Least k such that the first k terms of the Kolakoski sequence (A000002) contain n more 2's than 1's.",
   "id": "A025503",
   "mentions": [
     "A000002"

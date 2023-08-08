@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A297112(A005940(1+n)), where A297112 is the Möbius transform of A156552 [the inverse of map n -> A005940(1+n)].",
+  "id": "A364567",
+  "mentions": [
+    "A005940",
+    "A033265",
+    "A156552",
+    "A297112",
+    "A364568",
+    "A364571"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

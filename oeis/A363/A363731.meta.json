@@ -1,0 +1,36 @@
+{
+  "description": "Number of integer partitions of n whose mean is a mode but not the only mode.",
+  "id": "A363731",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A008284",
+    "A008289",
+    "A237984",
+    "A240219",
+    "A326567",
+    "A326568",
+    "A327472",
+    "A327473",
+    "A327476",
+    "A356862",
+    "A359893",
+    "A362562",
+    "A362608",
+    "A363719",
+    "A363720",
+    "A363723",
+    "A363724",
+    "A363725",
+    "A363727",
+    "A363740"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 61,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "description": "Triangle read by rows. T(n, k) = [x^k] P(n, x) where P(n, x) = (1 / (n + 1)) * Sum_{j=0..n+1) binomial(n + 1, j) * Bernoulli(j, 1) * (4^j - 2^j) * x^(j - 1).",
+  "id": "A363393",
+  "mentions": [
+    "A000364",
+    "A081658",
+    "A109573",
+    "A119880",
+    "A122045",
+    "A153641",
+    "A155585",
+    "A162660",
+    "A214447",
+    "A220901",
+    "A318254",
+    "A346838"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

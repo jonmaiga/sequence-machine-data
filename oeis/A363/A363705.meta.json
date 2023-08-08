@@ -1,0 +1,18 @@
+{
+  "description": "The minimum irregularity of all maximal 2-degenerate graphs with n vertices.",
+  "id": "A363705",
+  "mentions": [
+    "A002378",
+    "A028896",
+    "A046092"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 95,
+    "source": "oeis-entry"
+  }
+}

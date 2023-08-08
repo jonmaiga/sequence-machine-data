@@ -1,7 +1,11 @@
 {
   "description": "a(n) = Sum_{d divides n, n/d=3 mod 4} d.",
   "id": "A050464",
-  "mentions": [],
+  "mentions": [
+    "A050460",
+    "A326400",
+    "A363900"
+  ],
   "tags": [
     "formulas",
     "nonn"
@@ -9,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 83,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

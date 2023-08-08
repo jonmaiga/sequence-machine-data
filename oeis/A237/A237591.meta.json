@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n,k) = A235791(n,k) - A235791(n,k+1), assuming that the virtual right border of triangle A235791 is A000004.",
+  "description": "Irregular triangle read by rows: T(n,k) is the difference between the total number of partitions of all positive integers <= n into exactly k consecutive parts, and the total number of partitions of all positive integers <= n into exactly k+1 consecutive parts (n>=1, 1<=k<=A003056(n)).",
   "id": "A237591",
   "mentions": [
     "A000004",
@@ -10,6 +10,7 @@
     "A003056",
     "A008619",
     "A024916",
+    "A042974",
     "A196020",
     "A235791",
     "A236104",

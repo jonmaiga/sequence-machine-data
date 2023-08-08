@@ -1,0 +1,19 @@
+{
+  "description": "Number of free asymmetrical polyhexes with n cells.",
+  "id": "A364306",
+  "mentions": [
+    "A000228",
+    "A001207",
+    "A006535",
+    "A030225",
+    "A030226"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

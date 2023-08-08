@@ -1,0 +1,16 @@
+{
+  "description": "Number of partitions of [n] having exactly two parity changes within their blocks.",
+  "id": "A363588",
+  "mentions": [
+    "A000110",
+    "A363493"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

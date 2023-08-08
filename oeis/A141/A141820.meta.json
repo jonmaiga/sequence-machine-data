@@ -6,11 +6,12 @@
     "A141819"
   ],
   "tags": [
+    "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 66,
-    "source": "oeis-entry"
+    "size": 65,
+    "source": "oeis-bfile"
   }
 }

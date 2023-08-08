@@ -9,6 +9,7 @@
     "A102390"
   ],
   "tags": [
+    "base",
     "easy",
     "formulas",
     "nonn"
@@ -16,6 +17,6 @@
   "terms": {
     "offset": 0,
     "size": 88,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

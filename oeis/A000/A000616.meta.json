@@ -2,16 +2,19 @@
   "description": "a(-1)=1 by convention; for n >= 0, a(n) = number of irreducible Boolean functions of n variables.",
   "id": "A000616",
   "mentions": [
+    "A000231",
     "A000371",
     "A000610",
     "A000618",
     "A001531",
     "A002077",
+    "A003180",
     "A003320",
     "A039754",
     "A102449",
     "A109460",
-    "A109462"
+    "A109462",
+    "A361870"
   ],
   "tags": [
     "easy",

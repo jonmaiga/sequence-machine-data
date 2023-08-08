@@ -1,7 +1,8 @@
 {
-  "description": "Weight array of A185908, by antidiagonals.",
+  "description": "Weight array of A185908, by descending antidiagonals.",
   "id": "A185907",
   "mentions": [
+    "A115356",
     "A144112",
     "A185908",
     "A185909"

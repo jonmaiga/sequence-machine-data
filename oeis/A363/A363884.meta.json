@@ -1,0 +1,19 @@
+{
+  "description": "Number of connected bipartite graphs on 2n nodes with a distinguished partite set of size n and with a unimodular reduced adjacency matrix.",
+  "id": "A363884",
+  "mentions": [
+    "A306837",
+    "A363846",
+    "A363862"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

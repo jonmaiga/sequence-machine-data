@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the smallest number k with exactly n of its divisors in A052294.",
+  "id": "A363463",
+  "mentions": [
+    "A052294"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 45,
+    "source": "oeis-entry"
+  }
+}

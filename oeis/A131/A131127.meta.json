@@ -1,15 +1,15 @@
 {
-  "description": "Table read by rows: 2*A007318(n,m) - (-1)^(n+m)*A097806(n,m).",
+  "description": "Table read by rows: 2*A007318(n,m) - A167374(n,m).",
   "id": "A131127",
   "mentions": [
     "A000079",
     "A007318",
     "A046055",
     "A097806",
-    "A151821"
+    "A151821",
+    "A167374"
   ],
   "tags": [
-    "formulas",
     "nonn",
     "tabl"
   ],

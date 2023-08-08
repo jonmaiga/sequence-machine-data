@@ -1,0 +1,18 @@
+{
+  "description": "Number of distinct representations for n in base 2, using digits -1,0,1, whose sum of digits is 0.",
+  "id": "A364144",
+  "mentions": [
+    "A028310",
+    "A052955"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

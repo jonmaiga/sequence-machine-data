@@ -1,7 +1,9 @@
 {
   "description": "Continued fraction for sqrt(1/2)*(exp(sqrt(1/2))-1)/(exp(sqrt(1/2))+1).",
   "id": "A123169",
-  "mentions": [],
+  "mentions": [
+    "A123168"
+  ],
   "tags": [
     "easy",
     "formulas",

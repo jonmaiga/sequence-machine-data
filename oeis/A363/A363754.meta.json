@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = Sum_{k=0..n} F(2k-1)*F(2k)*F(2k+1)/2, where F(n) is the Fibonacci number A000045(n).",
+  "id": "A363754",
+  "mentions": [
+    "A000045",
+    "A256178",
+    "A363753"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 20,
+    "source": "joeis"
+  }
+}

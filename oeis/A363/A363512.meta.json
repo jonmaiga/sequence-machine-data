@@ -1,0 +1,19 @@
+{
+  "description": "The number of affine dependencies among the vertices of the n-cube.",
+  "id": "A363512",
+  "mentions": [
+    "A007847",
+    "A363505",
+    "A363506"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

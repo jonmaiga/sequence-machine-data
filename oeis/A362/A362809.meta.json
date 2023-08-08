@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k for which the area of the first part of the symmetric representation of sigma(k) equals sigma(k)/3 and its width is 1.",
+  "id": "A362809",
+  "mentions": [
+    "A063906",
+    "A068156",
+    "A235791",
+    "A237048",
+    "A237591",
+    "A237593",
+    "A249223",
+    "A251820"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

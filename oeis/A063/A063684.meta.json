@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that m(n!) = 2, where m(n) = mu(n) + mu(n+1) + mu(n+2).",
+  "description": "Numbers k such that m(k!) = 2, where m(k) = mu(k) + mu(k+1) + mu(k+2).",
   "id": "A063684",
   "mentions": [
     "A008683",

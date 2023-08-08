@@ -2,8 +2,12 @@
   "description": "Diagonal of the rational function 1/(1-(1+w)(xy + xz + yz)) [even-indexed terms only].",
   "id": "A275047",
   "mentions": [
+    "A000984",
+    "A188662",
     "A268545",
-    "A268555"
+    "A268555",
+    "A362725",
+    "A362732"
   ],
   "tags": [
     "easy",

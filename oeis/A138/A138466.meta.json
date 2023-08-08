@@ -1,7 +1,11 @@
 {
-  "description": "a(1)=1, then for n>=2 a(n)=n-floor((1/2)*a(a(n-1))).",
+  "description": "a(1)=1; for n >= 2, a(n) = n - floor((1/2)*a(a(n-1))).",
   "id": "A138466",
-  "mentions": [],
+  "mentions": [
+    "A005206",
+    "A138467",
+    "A160390"
+  ],
   "tags": [
     "formulas",
     "nonn"

@@ -1,0 +1,21 @@
+{
+  "description": "Least n-untouchable number.",
+  "id": "A363461",
+  "mentions": [
+    "A005114",
+    "A152454",
+    "A283152",
+    "A284147",
+    "A284156",
+    "A284187"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

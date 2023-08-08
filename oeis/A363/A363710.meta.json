@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the number of pairs of nonnegative integers (x, y) such that x + y = n and A003188(x) AND A003188(y) = 0 (where AND denotes the bitwise AND operator).",
+  "id": "A363710",
+  "mentions": [
+    "A003188",
+    "A075427",
+    "A332497",
+    "A332498"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-bfile"
+  }
+}

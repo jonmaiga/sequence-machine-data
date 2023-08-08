@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of numbers in a hexagonal spiral such that their neighbors have no common prime factor.",
+  "id": "A363938",
+  "mentions": [
+    "A000384",
+    "A003458",
+    "A014105",
+    "A056105",
+    "A363765"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

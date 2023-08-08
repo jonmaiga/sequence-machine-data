@@ -2,11 +2,14 @@
   "description": "Unique sequence with a(1)=0, a(2)=1, representing an array T(i,j) read by antidiagonals in which every row is this sequence itself.",
   "id": "A283683",
   "mentions": [
+    "A020906",
+    "A020907",
     "A283325",
     "A283681",
     "A283682"
   ],
   "tags": [
+    "formulas",
     "nice",
     "nonn",
     "tabl"

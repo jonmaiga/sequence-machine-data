@@ -2,6 +2,7 @@
   "description": "Number of distinct runs in base-14 digits of n.",
   "id": "A297782",
   "mentions": [
+    "A043541",
     "A043566",
     "A297770"
   ],

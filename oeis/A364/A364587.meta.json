@@ -1,0 +1,14 @@
+{
+  "description": "Clique covering number, independence number, and Shannon capacity of the n-Lucas cube graph.",
+  "id": "A364587",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-entry"
+  }
+}

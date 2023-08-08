@@ -1,14 +1,16 @@
 {
-  "description": "Triangular indicator function for divisibility, read by rows.",
+  "description": "Triangle read by rows. The indicator function for divisibility.",
   "id": "A113704",
   "mentions": [
     "A000005",
     "A000007",
     "A000961",
     "A007947",
+    "A051731",
     "A057427",
     "A113705",
-    "A126988"
+    "A126988",
+    "A363914"
   ],
   "tags": [
     "easy",
@@ -19,6 +21,6 @@
   "terms": {
     "offset": 0,
     "size": 105,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

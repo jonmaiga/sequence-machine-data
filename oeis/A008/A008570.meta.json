@@ -1,11 +1,14 @@
 {
   "description": "Digits of powers of 9.",
   "id": "A008570",
-  "mentions": [],
+  "mentions": [
+    "A001019"
+  ],
   "tags": [
     "base",
     "easy",
-    "nonn"
+    "nonn",
+    "tabf"
   ],
   "terms": {
     "offset": 0,

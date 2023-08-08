@@ -1,0 +1,18 @@
+{
+  "description": "Odd primes p such that the congruence 2^x == 1 (mod p) has no solution for 0 < x < (p - 1)/2.",
+  "id": "A363286",
+  "mentions": [
+    "A000720",
+    "A001917",
+    "A014664"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

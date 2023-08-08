@@ -1,5 +1,5 @@
 {
-  "description": "The decimal expansion of the value of r that maximizes the Brahmagupta expression Sqrt((-1+r+r^2+r^3)(1-r+r^2+r^3)(1+r-r^2+r^3)(1+r+r^2-r^3))/4",
+  "description": "Decimal expansion of the value of r that maximizes the Brahmagupta expression sqrt((-1+r+r^2+r^3)*(1-r+r^2+r^3)*(1+r-r^2+r^3)*(1+r+r^2-r^3))/4.",
   "id": "A193211",
   "mentions": [
     "A058265"

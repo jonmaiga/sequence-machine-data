@@ -1,12 +1,14 @@
 {
-  "description": "Canonical representation of n as a sum of distinct Jacobsthal numbers J(n) (A001045) (see Comments for details); also binary numbers that end in an even number of zeros..",
+  "description": "Canonical representation of n as a sum of distinct Jacobsthal numbers J(n) (A001045) (see Comments for details); also binary numbers that end in an even number of zeros.",
   "id": "A280049",
   "mentions": [
     "A001045",
-    "A003159"
+    "A003159",
+    "A007088"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

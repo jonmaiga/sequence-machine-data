@@ -1,5 +1,5 @@
 {
-  "description": "Number of set partitions of {1,...,n} where the elements of each non-singleton block are pairwise coprime.",
+  "description": "Number of set partitions of [n] where the elements of each non-singleton block are pairwise coprime.",
   "id": "A320430",
   "mentions": [
     "A000110",
@@ -17,12 +17,11 @@
     "A333517"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 25,
-    "source": "oeis-entry"
+    "size": 29,
+    "source": "oeis-bfile"
   }
 }

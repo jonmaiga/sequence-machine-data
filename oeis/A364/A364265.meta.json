@@ -1,0 +1,31 @@
+{
+  "description": "The first term in a chain of at least 3 consecutive numbers each with exactly 6 distinct prime factors (i.e., belonging to A074969).",
+  "id": "A364265",
+  "mentions": [
+    "A001221",
+    "A001222",
+    "A005117",
+    "A007774",
+    "A033992",
+    "A033993",
+    "A051270",
+    "A074969",
+    "A138206",
+    "A176655",
+    "A246655",
+    "A259349",
+    "A273879",
+    "A348072",
+    "A348073",
+    "A364266"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 25,
+    "source": "oeis-bfile"
+  }
+}

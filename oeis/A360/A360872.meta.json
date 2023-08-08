@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows of the length of runs in intermediate solutions to the light switch problem.",
+  "id": "A360872",
+  "mentions": [
+    "A000005",
+    "A000290",
+    "A003418",
+    "A010052",
+    "A252895",
+    "A360845"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Consider the array T(r,c) where is the number of c-almost primes less than or equal to r^c, r>=1, c>=0. Read the array by antidiagonals.",
+  "description": "Consider the array T(r,c) where is the number of c-almost primes less than or equal to r^c, r >= 1, c >= 0. Read the array by antidiagonals.",
   "id": "A116433",
   "mentions": [
     "A000004",

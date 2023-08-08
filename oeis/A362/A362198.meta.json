@@ -2,7 +2,8 @@
   "description": "a(n) = number of isogeny classes of abelian surfaces over the finite field of order prime(n).",
   "id": "A362198",
   "mentions": [
-    "A362201"
+    "A362201",
+    "A362570"
   ],
   "tags": [
     "formulas",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 46,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

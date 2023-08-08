@@ -2,6 +2,7 @@
   "description": "Largest prime factor of the largest squarefree practical number comprising n prime factors.",
   "id": "A267422",
   "mentions": [
+    "A002110",
     "A005117",
     "A005153",
     "A265501"
@@ -13,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 9,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "n! times the number of posets with n unlabeled elements.",
+  "id": "A363911",
+  "mentions": [
+    "A000112",
+    "A000142",
+    "A001035",
+    "A003425"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

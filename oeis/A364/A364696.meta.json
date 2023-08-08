@@ -1,0 +1,22 @@
+{
+  "description": "Nonnegative integers k such that the sum of the first k primes is a pentagonal number.",
+  "id": "A364696",
+  "mentions": [
+    "A000326",
+    "A007504",
+    "A033997",
+    "A175133",
+    "A364691",
+    "A364695"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

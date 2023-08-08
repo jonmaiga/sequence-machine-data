@@ -2,6 +2,7 @@
   "description": "a(m,n) is the number of ways to split two strings of length m and n, respectively, into the same number of nonempty parts such that at least one of the corresponding parts has length 1.",
   "id": "A180091",
   "mentions": [
+    "A047080",
     "A089071",
     "A108626",
     "A171155"

@@ -1,0 +1,18 @@
+{
+  "description": "The number of trailing 0's in the representation of n in Jacobsthal greedy base (A265747).",
+  "id": "A364377",
+  "mentions": [
+    "A001045",
+    "A265747",
+    "A324477"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the greatest k such that the base-n digits of 2^k are all distinct.",
+  "id": "A364089",
+  "mentions": [
+    "A000079",
+    "A000866",
+    "A001357",
+    "A004642",
+    "A004643",
+    "A004645",
+    "A004646",
+    "A004647",
+    "A062813",
+    "A364049"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 73,
+    "source": "oeis-entry"
+  }
+}

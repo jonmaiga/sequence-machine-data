@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence where n is banned for n^2 terms after each appearance.",
+  "id": "A364448",
+  "mentions": [
+    "A028920",
+    "A364447",
+    "A364449"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

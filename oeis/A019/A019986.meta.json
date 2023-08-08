@@ -1,7 +1,10 @@
 {
   "description": "Decimal expansion of tangent of 88 degrees.",
   "id": "A019986",
-  "mentions": [],
+  "mentions": [
+    "A019899",
+    "A019987"
+  ],
   "tags": [
     "cons",
     "nonn"

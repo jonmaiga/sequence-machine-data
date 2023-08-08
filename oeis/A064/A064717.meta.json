@@ -2,7 +2,8 @@
   "description": "A Beatty sequence for 2^i + 2^(-i) where i = sqrt(-1).",
   "id": "A064717",
   "mentions": [
-    "A064718"
+    "A064718",
+    "A237192"
   ],
   "tags": [
     "easy",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 69,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

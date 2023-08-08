@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n+6 = A214783(n).",
+  "description": "Numbers k such that k + 6 = A214783(k).",
   "id": "A214785",
   "mentions": [
     "A213784",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 43,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

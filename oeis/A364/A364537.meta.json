@@ -1,0 +1,40 @@
+{
+  "description": "Heinz numbers of integer partitions where some part is the difference of two consecutive parts.",
+  "id": "A364537",
+  "mentions": [
+    "A002865",
+    "A025065",
+    "A050291",
+    "A088808",
+    "A093971",
+    "A108917",
+    "A196723",
+    "A229816",
+    "A236912",
+    "A237113",
+    "A237667",
+    "A320340",
+    "A320347",
+    "A323092",
+    "A325325",
+    "A326083",
+    "A363225",
+    "A363260",
+    "A364345",
+    "A364347",
+    "A364348",
+    "A364463",
+    "A364464",
+    "A364466",
+    "A364467",
+    "A364536"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

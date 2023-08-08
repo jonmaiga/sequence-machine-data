@@ -1,9 +1,11 @@
 {
-  "description": "Least k, 1<= k <=n, such that the number of elements of the continued fraction for n/k is maximum.",
+  "description": "Least k, 1 <= k <= n, such that the number of elements of the continued fraction for n/k is maximum.",
   "id": "A084242",
   "mentions": [
+    "A000045",
     "A034883",
-    "A071677"
+    "A071677",
+    "A094214"
   ],
   "tags": [
     "formulas",
@@ -12,6 +14,6 @@
   "terms": {
     "offset": 1,
     "size": 74,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

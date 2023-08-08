@@ -1,0 +1,38 @@
+{
+  "description": "Number of integer partitions of n that are not constant but satisfy (mean) = (median) = (mode), assuming there is a unique mode.",
+  "id": "A363728",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A008284",
+    "A008289",
+    "A024619",
+    "A144300",
+    "A237984",
+    "A240219",
+    "A325347",
+    "A326567",
+    "A326568",
+    "A327472",
+    "A359893",
+    "A359894",
+    "A359901",
+    "A359902",
+    "A362561",
+    "A362608",
+    "A363719",
+    "A363720",
+    "A363721",
+    "A363727",
+    "A363729",
+    "A363741"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

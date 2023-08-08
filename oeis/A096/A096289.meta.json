@@ -1,18 +1,23 @@
 {
-  "description": "Let n=Sum(c(k)*2^k), c(k)=0,1, be the binary form of n, n=Sum(d(k)*5^k), d(k)=0,1,2,3,4 the base 5 form; then a(n)=Sum(c(k)+d(k)).",
+  "description": "Sum of digits of n in bases 2 and 5.",
   "id": "A096289",
   "mentions": [
+    "A000120",
     "A010059",
     "A010060",
-    "A095190"
+    "A053824",
+    "A095190",
+    "A096288"
   ],
   "tags": [
+    "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 90,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

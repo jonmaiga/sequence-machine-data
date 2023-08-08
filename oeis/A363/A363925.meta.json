@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Sum_{k>0} x^k / (1 - x^(5*k))^2.",
+  "id": "A363925",
+  "mentions": [
+    "A001876",
+    "A284097",
+    "A363901",
+    "A363903",
+    "A363926",
+    "A363928",
+    "A363929"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 92,
+    "source": "oeis-bfile"
+  }
+}

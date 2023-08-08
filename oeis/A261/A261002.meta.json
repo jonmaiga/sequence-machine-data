@@ -1,5 +1,5 @@
 {
-  "description": "Number of unordered unilabelled-bilabelled increasing trees.",
+  "description": "Number of unordered unilabeled-bilabeled increasing trees.",
   "id": "A261002",
   "mentions": [
     "A261001"

@@ -1,9 +1,12 @@
 {
   "description": "Decimal expansion of cube root of 16.",
   "id": "A010588",
-  "mentions": [],
+  "mentions": [
+    "A002580"
+  ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

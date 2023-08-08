@@ -1,0 +1,36 @@
+{
+  "description": "Number of integer partitions of n with parts disjoint from first differences of parts, meaning no part is the difference of two consecutive parts.",
+  "id": "A363260",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A002865",
+    "A008284",
+    "A008289",
+    "A025065",
+    "A108917",
+    "A229816",
+    "A236912",
+    "A237113",
+    "A237667",
+    "A240861",
+    "A320340",
+    "A320347",
+    "A323092",
+    "A325325",
+    "A326083",
+    "A363225",
+    "A364345",
+    "A364347",
+    "A364463",
+    "A364464"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 51,
+    "source": "oeis-entry"
+  }
+}

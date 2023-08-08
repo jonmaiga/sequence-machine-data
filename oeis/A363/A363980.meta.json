@@ -1,0 +1,22 @@
+{
+  "description": "Primes in Tom Greer's arithmetic progression of 27 primes.",
+  "id": "A363980",
+  "mentions": [
+    "A204189",
+    "A260751",
+    "A327760",
+    "A336398"
+  ],
+  "tags": [
+    "easy",
+    "fini",
+    "formulas",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

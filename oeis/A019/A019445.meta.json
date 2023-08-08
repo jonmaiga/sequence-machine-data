@@ -1,5 +1,5 @@
 {
-  "description": "Form a permutation of the positive integers, p_1, p_2, ..., such that the average of each initial segment is an integer, using the greedy algorithm to define p_n; sequence gives p_1+..+p_n.",
+  "description": "Form a permutation of the positive integers, p_1, p_2, ..., such that the average of each initial segment is an integer, using the greedy algorithm to define p_n; sequence gives p_1 + ... + p_n.",
   "id": "A019445",
   "mentions": [
     "A019444",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 50,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

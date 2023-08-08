@@ -1,0 +1,18 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that a(n) is the least novel multiple of m, the product of all primes q < gpf(a(n-2)*a(n-1)) which do not divide a(n-2)*a(n-1); a(1) = 1, a(2) = 2.",
+  "id": "A364280",
+  "mentions": [
+    "A002110",
+    "A007947",
+    "A359804",
+    "A364154"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-bfile"
+  }
+}

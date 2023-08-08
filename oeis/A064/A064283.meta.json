@@ -1,5 +1,5 @@
 {
-  "description": "Least number which may be expressed as the sum of a prime number (A000040) and a nonzero square (A000290) in just n different ways.",
+  "description": "Least number which may be expressed as the sum of a prime number and a nonzero square in exactly n different ways.",
   "id": "A064283",
   "mentions": [
     "A000040",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 36,
-    "source": "oeis-bfile"
+    "size": 45,
+    "source": "joeis"
   }
 }

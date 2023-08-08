@@ -1,7 +1,9 @@
 {
   "description": "Young urn sequence (number of possible evolutions in n steps of the \"Young\" Pólya urn).",
   "id": "A293653",
-  "mentions": [],
+  "mentions": [
+    "A123144"
+  ],
   "tags": [
     "formulas",
     "nonn"

@@ -1,7 +1,8 @@
 {
-  "description": "Number of simple pseudoline arrangements with a marked cell. Number of Euclidean pseudo-order types: nondegenerate abstract order types of configurations of n points in the plane.",
+  "description": "Number of simple arrangements of n pseudolines in the projective plane with a marked cell. Number of Euclidean pseudo-order types: nondegenerate abstract order types of configurations of n points in the plane.",
   "id": "A006247",
   "mentions": [
+    "A006245",
     "A006248",
     "A014540",
     "A063666",

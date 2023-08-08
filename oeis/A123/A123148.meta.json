@@ -1,16 +1,22 @@
 {
-  "description": "Triangle read by rows: T(n,k) is the coefficient of x^k in the polynomial p[n,x] defined by p[0,x]=-1, p[1,x]=x-2, p[n,x]=-xp[n-1,x]+2p[n-2,x] for n>=3 (0<=k<=n).",
+  "description": "Triangle read by rows: T(n,k) is the coefficient of x^k in the polynomial p(n,x) defined by p(0,x) = -1, p(1,x) = x-2, p(n,x) = -x*p(n-1,x) + 2*p(n-2,x) for n >= 3 and 0 <= k <= n.",
   "id": "A123148",
   "mentions": [
-    "A001045"
+    "A000034",
+    "A001045",
+    "A016116",
+    "A038754",
+    "A046854",
+    "A171647"
   ],
   "tags": [
+    "formulas",
     "sign",
     "tabl"
   ],
   "terms": {
     "offset": 0,
     "size": 66,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

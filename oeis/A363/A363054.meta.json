@@ -1,0 +1,28 @@
+{
+  "description": "Look and say sequence: describe the previous term (method A, starting with 20).",
+  "id": "A363054",
+  "mentions": [
+    "A001140",
+    "A001141",
+    "A001143",
+    "A001145",
+    "A001151",
+    "A001155",
+    "A001387",
+    "A005150",
+    "A006715",
+    "A006751",
+    "A007651",
+    "A045918",
+    "A098595"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "The values k such that a regular k-gon with all diagonals drawn contains more 3-sided cells than 4-sided cells.",
+  "id": "A363768",
+  "mentions": [
+    "A007678",
+    "A331450",
+    "A349549"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

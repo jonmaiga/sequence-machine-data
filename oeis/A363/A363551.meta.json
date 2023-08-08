@@ -1,0 +1,32 @@
+{
+  "description": "Möbius function of rank 3: a(n) = lambda(n) = A008836(n) if n is cubefree and 0 otherwise.",
+  "id": "A363551",
+  "mentions": [
+    "A004709",
+    "A008683",
+    "A008836",
+    "A046099",
+    "A053864",
+    "A053865",
+    "A053981",
+    "A189021",
+    "A189022",
+    "A189023",
+    "A212793",
+    "A299406",
+    "A307420",
+    "A363552",
+    "A363553"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "mult",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = denominator of the coefficient c(n) of x^n in sqrt(1+x)/Product_{0 < k < n} 1 + c(k)*x^k, n = 1, 2, 3, ...",
+  "description": "a(n) = denominator of the coefficient c(n) of x^n in sqrt(1+x)/Product_{k=1..n-1} 1 + c(k)*x^k, n = 1, 2, 3, ...",
   "id": "A170923",
   "mentions": [
     "A157162",

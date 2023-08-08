@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that the concatenation of 1, n and n^2 is prime.",
+  "description": "Numbers k such that the concatenation of 1, k and k^2 is prime.",
   "id": "A088619",
   "mentions": [
     "A068702"

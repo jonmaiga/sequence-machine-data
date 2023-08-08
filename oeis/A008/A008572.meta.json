@@ -1,11 +1,14 @@
 {
   "description": "Digits of powers of 12.",
   "id": "A008572",
-  "mentions": [],
+  "mentions": [
+    "A001021"
+  ],
   "tags": [
     "base",
     "easy",
-    "nonn"
+    "nonn",
+    "tabf"
   ],
   "terms": {
     "offset": 0,

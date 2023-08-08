@@ -1,5 +1,5 @@
 {
-  "description": "Prime numbers n such that A022559(n) is a multiple of A000720(n).",
+  "description": "Prime numbers p such that A022559(p) is a multiple of A000720(p).",
   "id": "A088542",
   "mentions": [
     "A000720",
@@ -8,11 +8,12 @@
   ],
   "tags": [
     "hard",
+    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 13,
+    "offset": 1,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

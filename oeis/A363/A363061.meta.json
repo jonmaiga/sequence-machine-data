@@ -1,0 +1,19 @@
+{
+  "description": "Number of k <= P(n) such that rad(k) | P(n), where rad(n) = A007947(n) and P(n) = A002110(n).",
+  "id": "A363061",
+  "mentions": [
+    "A002110",
+    "A007947",
+    "A010846"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

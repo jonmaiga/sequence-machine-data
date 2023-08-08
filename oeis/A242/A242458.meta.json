@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that integer part of the square root of n appears in the middle of decimal expansion of n.",
+  "description": "Numbers k such that the integer part of the square root of k appears in the middle of the decimal expansion of k.",
   "id": "A242458",
   "mentions": [
     "A133785"

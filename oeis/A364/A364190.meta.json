@@ -1,0 +1,18 @@
+{
+  "description": "The sum of the digits present in a(n) and a(n+1) divides the product [a(n)*a(n+1)]. This is the lexicographically earliest sequence of distinct positive terms with this property.",
+  "id": "A364190",
+  "mentions": [
+    "A364120",
+    "A364187",
+    "A364188"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

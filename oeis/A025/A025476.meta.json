@@ -1,10 +1,11 @@
 {
-  "description": "Prime root of n-th nontrivial prime power (A025475).",
+  "description": "Prime root of n-th nontrivial prime power (A025475, A246547).",
   "id": "A025476",
   "mentions": [
     "A025473",
     "A025475",
-    "A048148"
+    "A048148",
+    "A246547"
   ],
   "tags": [
     "easy",

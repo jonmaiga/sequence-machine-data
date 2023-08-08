@@ -1,5 +1,5 @@
 {
-  "description": "First odd k>n such that k | n^k + n (or 0 if n=2^m).",
+  "description": "Smallest odd k>n such that k | n^k + n, or 0 if n=2^m.",
   "id": "A015908",
   "mentions": [
     "A015906"

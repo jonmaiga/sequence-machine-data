@@ -1,5 +1,5 @@
 {
-  "description": "Smaller of two consecutive odd composites.",
+  "description": "Smaller of two consecutive odd numbers that are composites.",
   "id": "A269345",
   "mentions": [
     "A001359",

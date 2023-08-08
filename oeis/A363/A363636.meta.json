@@ -1,0 +1,35 @@
+{
+  "description": "Indices of numbers of the form k^2+1, k >= 0, that can be written as a product of smaller numbers of that same form.",
+  "id": "A363636",
+  "mentions": [
+    "A000027",
+    "A000041",
+    "A000142",
+    "A000217",
+    "A000292",
+    "A000959",
+    "A002522",
+    "A003309",
+    "A005563",
+    "A006093",
+    "A008864",
+    "A018252",
+    "A034878",
+    "A068143",
+    "A363492",
+    "A363634",
+    "A363635",
+    "A363637",
+    "A363638",
+    "A363750",
+    "A364151"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,11 +1,12 @@
 {
-  "description": "a(n) = sum(fibonomial(k+3,3), k=0..n), n>=0.",
+  "description": "a(n) = Sum_{k=0..n} fibonomial(k+3,3), n >= 0.",
   "id": "A215037",
   "mentions": [
     "A000045",
     "A001655",
     "A008346",
-    "A215038"
+    "A215038",
+    "A363753"
   ],
   "tags": [
     "easy",

@@ -2,7 +2,8 @@
   "description": "Smallest k such that 10^k + 1 has n distinct prime divisors.",
   "id": "A086564",
   "mentions": [
-    "A086563"
+    "A086563",
+    "A119704"
   ],
   "tags": [
     "formulas",

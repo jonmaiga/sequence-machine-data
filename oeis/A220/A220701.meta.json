@@ -1,15 +1,16 @@
 {
-  "description": "Numbers n such that n^3 + 3*n + 3^n is prime.",
+  "description": "Numbers k such that k^3 + 3*k + 3^k is prime.",
   "id": "A220701",
   "mentions": [
     "A220509"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 25,
     "source": "oeis-entry"
   }
 }

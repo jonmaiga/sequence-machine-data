@@ -1,13 +1,17 @@
 {
-  "description": "Dates at weekly intervals from Jan 01 of a non-Leap Year",
+  "description": "Day-of-month at weekly intervals from Jan 01 of a non-leap year (a finite sequence with 53 terms).",
   "id": "A008686",
-  "mentions": [],
+  "mentions": [
+    "A003786"
+  ],
   "tags": [
+    "fini",
+    "full",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 52,
+    "size": 53,
     "source": "joeis"
   }
 }

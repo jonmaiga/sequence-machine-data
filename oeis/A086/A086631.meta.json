@@ -2,6 +2,8 @@
   "description": "Antidiagonal sums of square table A086629.",
   "id": "A086631",
   "mentions": [
+    "A001764",
+    "A086615",
     "A086629",
     "A086630"
   ],
@@ -12,6 +14,6 @@
   "terms": {
     "offset": 0,
     "size": 25,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

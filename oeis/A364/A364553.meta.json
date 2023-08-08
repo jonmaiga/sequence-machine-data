@@ -1,0 +1,23 @@
+{
+  "description": "Number of edges in the n-Pell graph.",
+  "id": "A364553",
+  "mentions": [
+    "A000129",
+    "A001333",
+    "A008288",
+    "A026937",
+    "A093967",
+    "A364361",
+    "A364636"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

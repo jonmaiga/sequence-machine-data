@@ -1,13 +1,14 @@
 {
-  "description": "Numbers n such that 11*13^n + 2 is prime.",
+  "description": "Numbers k such that 11*13^k + 2 is prime.",
   "id": "A084074",
   "mentions": [],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

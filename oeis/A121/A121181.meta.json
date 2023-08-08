@@ -1,8 +1,22 @@
 {
   "description": "Alkane systems (see Cyvin reference for precise definition).",
   "id": "A121181",
-  "mentions": [],
+  "mentions": [
+    "A121180",
+    "A121182",
+    "A121183",
+    "A121184",
+    "A121185",
+    "A121186",
+    "A121187",
+    "A121188",
+    "A121189",
+    "A121190",
+    "A121191",
+    "A121192"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

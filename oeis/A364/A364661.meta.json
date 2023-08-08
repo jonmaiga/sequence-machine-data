@@ -1,0 +1,21 @@
+{
+  "description": "Numerators of coefficients in expansion of (1 + x)^(3/4).",
+  "id": "A364661",
+  "mentions": [
+    "A002596",
+    "A067002",
+    "A088802",
+    "A123854",
+    "A364658",
+    "A364660"
+  ],
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 25,
+    "source": "oeis-entry"
+  }
+}

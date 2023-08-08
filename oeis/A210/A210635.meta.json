@@ -1,7 +1,12 @@
 {
-  "description": "Array read by antidiagonals: row n (n >= 1) gives a permutation of the nonnegative integers for rotating an image of width n.",
+  "description": "Array read by descending antidiagonals: a(n,w) = ((w - (n mod w) - 1) + n) - (n mod w), n >= 0, w >= 1.",
   "id": "A210635",
-  "mentions": [],
+  "mentions": [
+    "A004442",
+    "A004444",
+    "A004448",
+    "A330396"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -9,8 +14,8 @@
     "tabl"
   ],
   "terms": {
-    "offset": 1,
-    "size": 45,
+    "offset": 0,
+    "size": 91,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Array ready by rows: T(n,k) is the number of triangles inside a regular n-gon formed by intersecting line segments, considering all configurations of 3 line segments from k distinct vertices, with n >= 3, 3 <= k <= 6.",
+  "description": "Array read by rows: T(n,k) is the number of triangles inside a regular n-gon formed by intersecting line segments, considering all configurations of 3 line segments from k distinct vertices, with n >= 3, 3 <= k <= 6.",
   "id": "A363174",
   "mentions": [
     "A000292",

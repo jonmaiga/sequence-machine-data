@@ -2,6 +2,7 @@
   "description": "Numbers k such that k! can be written as the product of smaller factorials.",
   "id": "A034878",
   "mentions": [
+    "A000142",
     "A001013",
     "A075082",
     "A359636",

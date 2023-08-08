@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of Sierpiński's second constant, K2 = lim_{n->infinity} ((1/n) * (Sum_{i=1..n} A004018(i^2)) - 4/Pi * log(n)).",
+  "description": "Decimal expansion of Sierpiński's second constant, K2 = lim_{n->oo} ((1/n) * (Sum_{i=1..n} A004018(i^2)) - 4/Pi * log(n)).",
   "id": "A222882",
   "mentions": [
     "A001620",

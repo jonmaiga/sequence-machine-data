@@ -1,0 +1,21 @@
+{
+  "description": "The number of trailing 0's in the Stolarsky representation of n (A364121).",
+  "id": "A364127",
+  "mentions": [
+    "A001622",
+    "A055588",
+    "A094214",
+    "A122840",
+    "A364121"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

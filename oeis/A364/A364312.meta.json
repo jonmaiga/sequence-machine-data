@@ -1,0 +1,24 @@
+{
+  "description": "Irregular triangle T read by rows, giving in row n the nonnegative coefficients of polynomials of height n and degree k (of decreasing powers), for k = 1, 2, ..., n-1, used for Cantor's counting of algebraic numbers, written for m = 1, 2, ..., A364313(n), for n >= 2, and for n = 1 the degree is k = 1.",
+  "id": "A364312",
+  "mentions": [
+    "A000051",
+    "A001227",
+    "A001622",
+    "A005409",
+    "A362364",
+    "A364313",
+    "A364314",
+    "A364315",
+    "A364316"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 102,
+    "source": "oeis-entry"
+  }
+}

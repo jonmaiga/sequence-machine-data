@@ -1,0 +1,18 @@
+{
+  "description": "Numbers expressible as j^2 - k^2, 1 <= k <= j-2 (\"squares with a square hole\").",
+  "id": "A363863",
+  "mentions": [
+    "A016825",
+    "A024352",
+    "A080257"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 65,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "description": "a(n) is the number of parts into which the inner region of the parabola y = x^2 is divided by n squares inscribed in the parabola as described in the comments.",
+  "id": "A362290",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Sum_{ i = 0 .. floor(n/2)} binomial (n - i*(i-1)/2, i).",
+  "description": "a(n) = Sum_{k=0..floor(n/2)} binomial(n - k*(k-1)/2, k).",
   "id": "A064188",
   "mentions": [
     "A063978"
@@ -9,7 +9,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
-    "source": "oeis-entry"
+    "size": 31,
+    "source": "joeis"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Let m_min(n, k) be the smallest m such that n divides Product_{t=1..m} RisingFactorial(t, k). a(n) = Sum_{r=1..K(n)} m_min(n, r), where K(n) is the Kempner number A002034(n).",
+  "id": "A362070",
+  "mentions": [
+    "A002034",
+    "A006530",
+    "A034953",
+    "A048799"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-entry"
+  }
+}

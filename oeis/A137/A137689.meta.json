@@ -1,10 +1,11 @@
 {
-  "description": "Indices n such that A128646(n)-1 is prime, where A128646 = denominator of partial sums of 1/(p(i)-1).",
+  "description": "Indices m such that A128646(m)-1 is prime, where A128646 = denominator of partial sums of 1/(p(i)-1).",
   "id": "A137689",
   "mentions": [
     "A092063",
     "A128646",
     "A137690",
+    "A137691",
     "A137692"
   ],
   "tags": [

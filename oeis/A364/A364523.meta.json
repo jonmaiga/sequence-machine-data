@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies A(x) = 1 + x*A(x) + x^6*A(x)^6.",
+  "id": "A364523",
+  "mentions": [
+    "A001006",
+    "A071879",
+    "A127902",
+    "A349312",
+    "A364472",
+    "A364522"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 34,
+    "source": "oeis-bfile"
+  }
+}

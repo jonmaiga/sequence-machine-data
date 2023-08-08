@@ -1,11 +1,14 @@
 {
   "description": "Digits of powers of 8.",
   "id": "A008569",
-  "mentions": [],
+  "mentions": [
+    "A001018"
+  ],
   "tags": [
     "base",
     "easy",
-    "nonn"
+    "nonn",
+    "tabf"
   ],
   "terms": {
     "offset": 0,

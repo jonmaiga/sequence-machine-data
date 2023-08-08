@@ -1,7 +1,8 @@
 {
-  "description": "a(n)=sum{k=0..n, A105595(k)*(-1)^k*A105595(n-k)} (interpolated zeros suppressed).",
+  "description": "a(n) = Sum_{k=0..n} A105595(k)*(-1)^k*A105595(n-k) (interpolated zeros suppressed).",
   "id": "A105596",
   "mentions": [
+    "A105594",
     "A105595"
   ],
   "tags": [

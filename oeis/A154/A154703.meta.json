@@ -5,7 +5,8 @@
     "A000040",
     "A004676",
     "A007088",
-    "A035100"
+    "A035100",
+    "A328659"
   ],
   "tags": [
     "base",
@@ -16,6 +17,6 @@
   "terms": {
     "offset": 1,
     "size": 10,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

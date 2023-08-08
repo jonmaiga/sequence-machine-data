@@ -1,0 +1,23 @@
+{
+  "description": "Decimal expansion of lim_{x -> infinity} ((Sum_{k>=1} (k^(1/k^(1 + 1/x)) - 1)) - x^2).",
+  "id": "A363704",
+  "mentions": [
+    "A001620",
+    "A082633",
+    "A098572",
+    "A329117",
+    "A350862",
+    "A351885",
+    "A363716"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

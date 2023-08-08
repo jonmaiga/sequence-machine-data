@@ -1,0 +1,33 @@
+{
+  "description": "a(n) = smallest prime(n)-smooth number k such that r(k) >= r(P(n+1)), where r(n) = A010846(n) and P(n) = A002110(n).",
+  "id": "A363794",
+  "mentions": [
+    "A000079",
+    "A000961",
+    "A002110",
+    "A002473",
+    "A003586",
+    "A007947",
+    "A010846",
+    "A036306",
+    "A051037",
+    "A051038",
+    "A080197",
+    "A080681",
+    "A080682",
+    "A080683",
+    "A162306",
+    "A363061"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

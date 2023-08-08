@@ -1,5 +1,5 @@
 {
-  "description": "Figurate numbers based on the 7-dimensional regular convex polytope called the 7-dimensional cross-polytope, or 7-dimensional hyperoctahedron, which is represented by the Schlaefli symbol {3, 3, 3, 3, 3, 4}. It is the dual of the 7-dimensional hypercube.",
+  "description": "a(n) = n*(4*n^6 + 70*n^4 + 196*n^2 + 45)/315.",
   "id": "A099193",
   "mentions": [
     "A000332",

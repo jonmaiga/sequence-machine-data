@@ -1,0 +1,25 @@
+{
+  "description": "Decimal expansion of the conventional value of von Klitzing constant (R{K-90}) in ohms (Omega).",
+  "id": "A362590",
+  "mentions": [
+    "A248508",
+    "A248510",
+    "A361006",
+    "A361010",
+    "A361011",
+    "A361352",
+    "A362000",
+    "A362530"
+  ],
+  "tags": [
+    "cons",
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 5,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

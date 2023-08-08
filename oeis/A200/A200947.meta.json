@@ -1,12 +1,14 @@
 {
-  "description": "Sequence A007924 expressed in decimals.",
+  "description": "Sequence A007924 expressed in decimal.",
   "id": "A200947",
   "mentions": [
     "A003714",
     "A007895",
     "A007924",
     "A027941",
-    "A066352"
+    "A066352",
+    "A121559",
+    "A345297"
   ],
   "tags": [
     "formulas",
@@ -15,6 +17,6 @@
   "terms": {
     "offset": 0,
     "size": 50,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

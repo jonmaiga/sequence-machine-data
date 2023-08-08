@@ -1,7 +1,10 @@
 {
   "description": "The number of partitions of [n] with exactly 3 blocks without peaks.",
   "id": "A289693",
-  "mentions": [],
+  "mentions": [
+    "A289692",
+    "A289694"
+  ],
   "tags": [
     "formulas",
     "nonn"

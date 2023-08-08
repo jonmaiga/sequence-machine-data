@@ -1,5 +1,5 @@
 {
-  "description": "Palindromes in base 10 and in one other base (from 2 to 9).",
+  "description": "Palindromes in base 10 and in at least one other base (from 2 to 9).",
   "id": "A173551",
   "mentions": [
     "A165932"

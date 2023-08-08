@@ -1,7 +1,9 @@
 {
   "description": "Powers of 27.",
   "id": "A009971",
-  "mentions": [],
+  "mentions": [
+    "A008776"
+  ],
   "tags": [
     "easy",
     "formulas",

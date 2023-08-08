@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest number such that a(n)+a(n-1), a(n)+a(n-1)+a(n-2), ..., a(n)+...+a(1) are not prime.",
+  "description": "a(n) is the smallest number such that a(n) + a(n-1), a(n) + a(n-1) + a(n-2), ..., a(n) + ... + a(1) are nonprime.",
   "id": "A084833",
   "mentions": [
     "A084834"

@@ -1,0 +1,23 @@
+{
+  "description": "Expansion of Sum_{k>0} (1/(1-x^k)^5 - 1).",
+  "id": "A363695",
+  "mentions": [
+    "A007503",
+    "A073570",
+    "A116963",
+    "A363605",
+    "A363608",
+    "A363628",
+    "A363696"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,m) read by rows: the coefficient [x^n] of x^2/(1-m*x-x^3) in row n, columns 1<=m<=n+1.",
+  "description": "Triangle T(n,k) read by rows: the coefficient [x^n] of x^2/(1-(k+1)*x-x^3) in row n, columns 0 <= k <= n.",
   "id": "A117716",
   "mentions": [
     "A000930",
@@ -17,7 +17,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 53,
-    "source": "oeis-entry"
+    "size": 55,
+    "source": "oeis-bfile"
   }
 }

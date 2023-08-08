@@ -1,0 +1,17 @@
+{
+  "description": "Happy palindromic primes.",
+  "id": "A364479",
+  "mentions": [
+    "A002385",
+    "A007770"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

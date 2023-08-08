@@ -1,0 +1,20 @@
+{
+  "description": "a(n) = Sum_{k = 0..n} (-4)^(n-k)*binomial(n,k)*binomial(4*n+2*k,2*k)* binomial(2*k,k).",
+  "id": "A363990",
+  "mentions": [
+    "A000172",
+    "A362676",
+    "A363985",
+    "A363989"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

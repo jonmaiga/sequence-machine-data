@@ -1,0 +1,22 @@
+{
+  "description": "Square array A(n, k), n, k > 0, read by antidiagonals; A(n, k) is the least e > 0 such that n^e and k^e have the same initial digit, or -1 if no such e exists.",
+  "id": "A363683",
+  "mentions": [
+    "A000030",
+    "A073601",
+    "A088995",
+    "A098174",
+    "A359698"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

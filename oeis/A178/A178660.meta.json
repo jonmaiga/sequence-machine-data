@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^3 +- (n+5)^2 are primes.",
+  "description": "Numbers k such that k^3 +- (k+5)^2 are primes.",
   "id": "A178660",
   "mentions": [
     "A068501",

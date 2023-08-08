@@ -1,5 +1,5 @@
 {
-  "description": "The decimal expansion of the asymptotic density of the coreful perfect numbers (A307958) that are generated from even primitives (A307959).",
+  "description": "Decimal expansion of the asymptotic density of the coreful perfect numbers (A307958) that are generated from even primitives (A307959).",
   "id": "A307960",
   "mentions": [
     "A054979",

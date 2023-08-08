@@ -1,5 +1,5 @@
 {
-  "description": "The decimal encoding of the prime factorization of n (A067599) ends in n.",
+  "description": "Numbers k such that the decimal encoding of the prime factorization of k (A067599) ends in k.",
   "id": "A067254",
   "mentions": [
     "A004022",
@@ -9,6 +9,7 @@
   ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {

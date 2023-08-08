@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that decimal expansion of 14^k begins with 14.",
+  "description": "Numbers k such that the decimal expansion of 14^k begins with 14.",
   "id": "A352179",
   "mentions": [],
   "tags": [

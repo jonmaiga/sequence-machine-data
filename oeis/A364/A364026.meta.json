@@ -1,0 +1,18 @@
+{
+  "description": "Table read by descending antidiagonals. T(n,k) is the big Ramsey degree of k in w^n, where w is the first transfinite ordinal, omega.",
+  "id": "A364026",
+  "mentions": [
+    "A000311",
+    "A079309"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 59,
+    "source": "oeis-entry"
+  }
+}

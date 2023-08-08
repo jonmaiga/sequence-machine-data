@@ -1,0 +1,17 @@
+{
+  "description": "Primes formed by the initial digits of the decimal expansion of the golden ratio phi = (1+sqrt(5))/2.",
+  "id": "A064117",
+  "mentions": [
+    "A064119"
+  ],
+  "tags": [
+    "base",
+    "bref",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 2,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Total number of blocks in all partitions of [n] where each block has at least one odd element and at least one even element.",
+  "id": "A363472",
+  "mentions": [
+    "A124425",
+    "A362495",
+    "A363454"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-bfile"
+  }
+}

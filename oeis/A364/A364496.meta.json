@@ -1,0 +1,26 @@
+{
+  "description": "Numbers k such that k is a multiple of A163511(k).",
+  "id": "A364496",
+  "mentions": [
+    "A000040",
+    "A005940",
+    "A007283",
+    "A054429",
+    "A163511",
+    "A243071",
+    "A364292",
+    "A364295",
+    "A364492",
+    "A364494",
+    "A364497",
+    "A364498"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-entry"
+  }
+}

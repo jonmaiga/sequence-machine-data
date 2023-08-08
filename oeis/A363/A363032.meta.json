@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of Sum_{k>0} k * x^(3*k-1) / (1 - x^(5*k-3)).",
+  "id": "A363032",
+  "mentions": [
+    "A359244",
+    "A363027"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

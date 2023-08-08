@@ -1,7 +1,8 @@
 {
-  "description": "Prime(n)! - prime(n - 1)!.",
+  "description": "a(n) = prime(n)! - prime(n - 1)!.",
   "id": "A239942",
   "mentions": [
+    "A000040",
     "A039716"
   ],
   "tags": [

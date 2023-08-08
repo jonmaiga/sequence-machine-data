@@ -1,0 +1,15 @@
+{
+  "description": "Decimal expansion of the nontrivial number x for which x^sqrt(2) = sqrt(2)^x.",
+  "id": "A360148",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 99,
+    "source": "oeis-entry"
+  }
+}

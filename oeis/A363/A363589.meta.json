@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of [2n+1] such that the largest element of each block is odd.",
+  "id": "A363589",
+  "mentions": [
+    "A000110",
+    "A290383",
+    "A307375"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-bfile"
+  }
+}

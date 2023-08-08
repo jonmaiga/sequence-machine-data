@@ -1,0 +1,17 @@
+{
+  "description": "L.g.f.: log( Sum_{k>=0} x^(k^3) ).",
+  "id": "A363783",
+  "mentions": [
+    "A162552",
+    "A363784"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

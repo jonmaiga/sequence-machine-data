@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = floor(log_5(n^2)) = floor(2 log_5(n))",
+  "description": "a(n) = floor(log_5(n^2)) = floor(2 log_5(n)).",
   "id": "A329195",
   "mentions": [
     "A000290",

@@ -1,14 +1,17 @@
 {
   "description": "Number of n-dimensional polytopes with vertices from {0,1}^n.",
   "id": "A105230",
-  "mentions": [],
+  "mentions": [
+    "A105231",
+    "A105232"
+  ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

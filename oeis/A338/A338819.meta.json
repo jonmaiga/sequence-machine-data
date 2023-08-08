@@ -1,5 +1,5 @@
 {
-  "description": "The entries in the rows of the n X n identity matrix, multiplied by the size of the matrix (n)",
+  "description": "The entries in the rows of the n X n identity matrix, multiplied by the size of the matrix (n).",
   "id": "A338819",
   "mentions": [
     "A056520",

@@ -1,7 +1,8 @@
 {
-  "description": "a(n) = 3+floor(sum{<((-1)^k)*k*sqrt(3)> : 1<=k<=n}), where < > = fractional part.",
+  "description": "a(n) = 3+floor( Sum_{k=1..n} <((-1)^k)*k*(1+sqrt(5))/2> ), where < > = fractional part.",
   "id": "A194822",
   "mentions": [
+    "A001622",
     "A194821",
     "A194823",
     "A194824"

@@ -1,5 +1,5 @@
 {
-  "description": "A000120(A001045(n))-A001045(A000120(n)).",
+  "description": "a(n) = A000120(A001045(n)) - A001045(A000120(n)).",
   "id": "A102563",
   "mentions": [
     "A000079",
@@ -9,12 +9,14 @@
     "A102564"
   ],
   "tags": [
+    "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 78,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

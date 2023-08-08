@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = a(n-1) + a(n-3) + a(n-4), where a(0) = 1, a(1) = 2, a(2) = 5, a(3) = 7.",
+  "id": "A362388",
+  "mentions": [
+    "A000032",
+    "A000034",
+    "A000045",
+    "A195971",
+    "A295681",
+    "A347902"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "joeis"
+  }
+}

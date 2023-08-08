@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = denominator(digamma(n+7/2)/2 + log(2) + euler_gamma/2)/15; a(n)=denominator(f(n+2)/15) = A111877(n+1)/5.",
+  "description": "a(n) = A111877(n+1)/5.",
   "id": "A111878",
   "mentions": [
     "A025547",
@@ -7,11 +7,12 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 21,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

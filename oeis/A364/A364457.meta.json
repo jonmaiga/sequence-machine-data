@@ -1,0 +1,32 @@
+{
+  "description": "Number A(n,k) of tilings of a k X n rectangle using dominoes and trominoes (of any shape); square array A(n,k), n>=0, k>=0, read by antidiagonals.",
+  "id": "A364457",
+  "mentions": [
+    "A000012",
+    "A000931",
+    "A019439",
+    "A182097",
+    "A219866",
+    "A219987",
+    "A233320",
+    "A364155",
+    "A364460",
+    "A364504",
+    "A364556",
+    "A364616",
+    "A364617",
+    "A364632",
+    "A364638",
+    "A364640"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Sum of distinct sixth powers.",
+  "description": "Sum of distinct nonzero sixth powers.",
   "id": "A194769",
   "mentions": [
     "A001014",
@@ -7,7 +7,9 @@
     "A003997",
     "A003999",
     "A194768",
-    "A217846"
+    "A217846",
+    "A332065",
+    "A364637"
   ],
   "tags": [
     "easy",

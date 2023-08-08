@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which sigma(n) - n = tau(n)^k for some integer k > 0.",
+  "description": "Numbers m for which sigma(m) - m = tau(m)^k for some integer k > 0.",
   "id": "A219668",
   "mentions": [
     "A051281"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 22,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "description": "Third Lie-Betti number of a cycle graph on n vertices.",
+  "id": "A363378",
+  "mentions": [
+    "A000027",
+    "A005581",
+    "A028347",
+    "A054000",
+    "A106058",
+    "A360572"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

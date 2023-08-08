@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the difference (A175993 minus A175994).",
+  "description": "Decimal expansion of A175993 minus A175994.",
   "id": "A175995",
   "mentions": [
     "A073229",

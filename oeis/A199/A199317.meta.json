@@ -1,7 +1,11 @@
 {
-  "description": "2*6^n+1.",
+  "description": "a(n) = 2*6^n + 1.",
   "id": "A199317",
-  "mentions": [],
+  "mentions": [
+    "A000400",
+    "A062394",
+    "A167747"
+  ],
   "tags": [
     "easy",
     "formulas",

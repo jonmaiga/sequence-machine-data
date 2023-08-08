@@ -1,0 +1,17 @@
+{
+  "description": "Numbers that begin a run of at least 4 consecutive integers having exactly 6 distinct prime factors each (i.e., belonging to A074969).",
+  "id": "A364436",
+  "mentions": [
+    "A074969",
+    "A364265"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

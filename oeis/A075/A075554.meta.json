@@ -2,7 +2,8 @@
   "description": "Denominators in the Maclaurin series for arctan(1+x).",
   "id": "A075554",
   "mentions": [
-    "A075553"
+    "A075553",
+    "A132314"
   ],
   "tags": [
     "easy",

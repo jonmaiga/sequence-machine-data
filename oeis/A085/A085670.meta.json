@@ -1,7 +1,10 @@
 {
   "description": "Decimal expansion of log(1 + log(1 + log(1 + Pi))).",
   "id": "A085670",
-  "mentions": [],
+  "mentions": [
+    "A000796",
+    "A053510"
+  ],
   "tags": [
     "cons",
     "nonn"

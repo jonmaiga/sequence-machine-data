@@ -1,0 +1,15 @@
+{
+  "description": "The series limit of Sum_{k>=2} cos(log k)/(k*log k).",
+  "id": "A363677",
+  "mentions": [],
+  "tags": [
+    "cons",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

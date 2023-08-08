@@ -1,0 +1,22 @@
+{
+  "description": "a(n) is the number of n X n nonsingular matrices using all the first n^2 prime numbers.",
+  "id": "A364227",
+  "mentions": [
+    "A180128",
+    "A350858",
+    "A350859",
+    "A364206",
+    "A364226"
+  ],
+  "tags": [
+    "bref",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

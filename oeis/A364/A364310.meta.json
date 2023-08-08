@@ -1,0 +1,22 @@
+{
+  "description": "Number T(n,k) of partitions of n into k parts where each block of part i with multiplicity j is marked with a word of length i*j over an n-ary alphabet whose letters appear in alphabetical order and all n letters occur exactly once in the partition; triangle T(n,k), n>=0, 0<=k<=n, read by rows.",
+  "id": "A364310",
+  "mentions": [
+    "A000007",
+    "A000012",
+    "A000217",
+    "A000332",
+    "A057427",
+    "A178682",
+    "A364285"
+  ],
+  "tags": [
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

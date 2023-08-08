@@ -2,6 +2,8 @@
   "description": "Decimal expansion of Product_{n>=1} cosh(1/n).",
   "id": "A249673",
   "mentions": [
+    "A027641",
+    "A027642",
     "A051762",
     "A118817",
     "A218504",
@@ -11,6 +13,7 @@
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

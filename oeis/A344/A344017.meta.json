@@ -1,5 +1,5 @@
 {
-  "description": "2-adic valuation of coefficients of q-expansion of the operator T_5 applied to inverse of Klein j-invariant.",
+  "description": "2-adic valuation of coefficients of expansion of the operator T_5 applied to j^-1, the inverse of the Klein j-invariant, with respect to powers of j^-1.",
   "id": "A344017",
   "mentions": [
     "A000521",
@@ -8,12 +8,11 @@
     "A344016"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
-    "source": "oeis-entry"
+    "size": 58,
+    "source": "oeis-bfile"
   }
 }

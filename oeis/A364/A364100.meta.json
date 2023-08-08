@@ -1,0 +1,21 @@
+{
+  "description": "Sum of divisors of 5*n-1 of form 5*k+4.",
+  "id": "A364100",
+  "mentions": [
+    "A284103",
+    "A359233",
+    "A364101",
+    "A364102",
+    "A364103",
+    "A364104"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-entry"
+  }
+}

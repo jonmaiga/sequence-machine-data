@@ -1,0 +1,17 @@
+{
+  "description": "Decimal expansion of the probability that a sphere that is passing through 4 points uniformly and independently chosen at random in a 3D ball is completely lying inside the ball.",
+  "id": "A363966",
+  "mentions": [
+    "A093591"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

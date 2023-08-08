@@ -1,7 +1,10 @@
 {
   "description": "Increasing binary trees having exactly two vertices with outdegree 1.",
   "id": "A131638",
-  "mentions": [],
+  "mentions": [
+    "A002105",
+    "A094503"
+  ],
   "tags": [
     "formulas",
     "nonn"

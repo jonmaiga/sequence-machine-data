@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the first number k such that k + a(i) has n prime factors, counted by multiplicity, for all i < n; a(0) = 0.",
+  "description": "a(n) is the first number k such that k + a(i) has n prime factors, counted with multiplicity, for all i < n; a(0) = 0.",
   "id": "A361228",
   "mentions": [
     "A001222"

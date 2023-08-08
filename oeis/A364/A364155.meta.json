@@ -1,0 +1,17 @@
+{
+  "description": "Number of tilings of a 4 X n rectangle using dominoes and trominoes (of any shape).",
+  "id": "A364155",
+  "mentions": [
+    "A364457"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
+  }
+}

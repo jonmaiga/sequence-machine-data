@@ -7,11 +7,12 @@
     "A054868"
   ],
   "tags": [
+    "base",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 75,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

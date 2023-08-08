@@ -1,5 +1,5 @@
 {
-  "description": "Franel number a(n) = Sum_{k = 0..n} binomial(n,k)^3.",
+  "description": "The Franel number a(n) = Sum_{k = 0..n} binomial(n,k)^3.",
   "id": "A000172",
   "mentions": [
     "A000079",

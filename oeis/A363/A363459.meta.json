@@ -1,0 +1,20 @@
+{
+  "description": "Sum of the first n prime powers A246655.",
+  "id": "A363459",
+  "mentions": [
+    "A000961",
+    "A007504",
+    "A024918",
+    "A057820",
+    "A246655"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 51,
+    "source": "joeis"
+  }
+}

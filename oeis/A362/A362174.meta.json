@@ -1,0 +1,18 @@
+{
+  "description": "Number of n X n matrices with nonnegative integer entries such that the sum of the elements of each row is equal to the index of that row.",
+  "id": "A362174",
+  "mentions": [
+    "A001700",
+    "A306789",
+    "A361749"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 13,
+    "source": "oeis-bfile"
+  }
+}

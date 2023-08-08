@@ -1,10 +1,11 @@
 {
-  "description": "A007318^(-1) * A136536.",
+  "description": "Triangle read by rows: A007318^(-1) * A136536.",
   "id": "A136537",
   "mentions": [
     "A001006",
     "A007318",
     "A025566",
+    "A130595",
     "A136536"
   ],
   "tags": [
@@ -14,7 +15,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 55,
-    "source": "oeis-entry"
+    "size": 78,
+    "source": "joeis"
   }
 }

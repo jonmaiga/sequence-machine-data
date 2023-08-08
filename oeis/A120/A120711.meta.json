@@ -1,16 +1,18 @@
 {
-  "description": "7 X 7 matrix Matrov of seven vertex Fano Plane: Characteristic polynomial : 12 + 10 x - 24 x^2 - 21 x^3 + 12 x^4 + 12 x^5 - x^7.",
+  "description": "Expansion of 2*x*(7+16*x-2*x^2-14*x^3)/(1-11*x^2-12*x^3+10*x^4+12*x^5).",
   "id": "A120711",
   "mentions": [
+    "A083099",
     "A111384"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 24,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

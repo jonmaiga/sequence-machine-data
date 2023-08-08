@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Sum_{k>0} (1/(1+x^k)^2 - 1).",
+  "id": "A363629",
+  "mentions": [
+    "A002129",
+    "A048272",
+    "A325940",
+    "A363630",
+    "A363631"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 68,
+    "source": "oeis-bfile"
+  }
+}

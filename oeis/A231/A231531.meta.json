@@ -1,9 +1,13 @@
 {
-  "description": "Imaginary part of Product_{k=1..n} (k+I).",
+  "description": "Imaginary part of Product_{k = 1..n} (k + i), i = sqrt(-1).",
   "id": "A231531",
   "mentions": [
+    "A002144",
+    "A002145",
     "A003703",
     "A101686",
+    "A105750",
+    "A105751",
     "A231530",
     "A242651",
     "A242652"

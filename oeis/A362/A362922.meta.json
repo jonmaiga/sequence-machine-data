@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of cos(2*Pi/7) = sin(3*Pi/14) = A255249/2.",
+  "id": "A362922",
+  "mentions": [
+    "A073052",
+    "A160389",
+    "A232736",
+    "A255249"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 96,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "For n >= 2, a(n) = a(n-1) + a(n-2) + A051697(n), a(0)=0, a(1)=1.",
+  "id": "A363707",
+  "mentions": [
+    "A051697"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

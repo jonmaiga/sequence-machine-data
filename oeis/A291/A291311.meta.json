@@ -1,13 +1,12 @@
 {
-  "description": "Expansion of (1 - x^2)/(1 - 2 x + x^3 - x^4 + x^5 + x^6).",
+  "description": "Expansion of (1-x^2)/((1-x-x^2)*(1-x-x^4)).",
   "id": "A291311",
   "mentions": [
-    "A000045",
-    "A003269",
     "A131298"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

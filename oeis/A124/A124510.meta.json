@@ -1,16 +1,19 @@
 {
-  "description": "Smallest m such that A124508(m) = A124509(m).",
+  "description": "Smallest m such that A124508(m) = A124509(n).",
   "id": "A124510",
   "mentions": [
+    "A002110",
     "A124508",
     "A124509"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 49,
-    "source": "oeis-entry"
+    "size": 53,
+    "source": "oeis-bfile"
   }
 }

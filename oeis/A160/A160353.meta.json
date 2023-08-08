@@ -1,5 +1,5 @@
 {
-  "description": "Numbers of the form pqr, where p",
+  "description": "Numbers of the form p*q*r, where p < q < r are odd primes such that r = +/-1 (mod p*q).",
   "id": "A160353",
   "mentions": [
     "A117223",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 43,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

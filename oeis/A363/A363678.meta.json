@@ -1,0 +1,13 @@
+{
+  "description": "Start with the list of positive integers. For each m = 1, 2, 3, ..., insert a copy of the number m after each of the next m-1 terms.",
+  "id": "A363678",
+  "mentions": [],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

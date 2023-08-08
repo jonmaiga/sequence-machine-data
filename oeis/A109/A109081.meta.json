@@ -1,5 +1,5 @@
 {
-  "description": "Reversion of x*(1-x)*(1-x^2)*(1-x^3)/(1-x^6).",
+  "description": "Reversion of x*(1-x)*(1-x^2)*(1-x^3)/(1-x^6) = x*(1-x)^2/(1-x+x^2).",
   "id": "A109081",
   "mentions": [
     "A000108",

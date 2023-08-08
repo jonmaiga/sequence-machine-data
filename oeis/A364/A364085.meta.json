@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of Sum_{k>0} k * x^k / (1 - x^(4*k-1)).",
+  "id": "A364085",
+  "mentions": [
+    "A078703",
+    "A364063",
+    "A364066"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 78,
+    "source": "oeis-entry"
+  }
+}

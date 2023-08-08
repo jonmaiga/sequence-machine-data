@@ -1,5 +1,5 @@
 {
-  "description": "Let for odd m, f(m) be the odd part of 3*m+1. a(n) is the least positive number of f-iterations of 2*n-1 to reach an odious number (A000069) and a(n)=0, if there is no an odious iteration.",
+  "description": "For odd m, let f(m) be the odd part of 3*m+1. a(n) is the least positive number of f-iterations of 2*n-1 to reach an odious number (A000069), or 0 if no such number of f-iterations exists.",
   "id": "A229122",
   "mentions": [
     "A000069",

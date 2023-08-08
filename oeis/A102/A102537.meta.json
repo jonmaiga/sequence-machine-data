@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k) read by rows: (1/n) * C(2n+k,k-1) * C(n,k).",
+  "description": "Triangle T(n,k) read by rows: (1/n) * C(2n+k,k-1) * C(n,k); n, k >= 1.",
   "id": "A102537",
   "mentions": [
     "A000108",

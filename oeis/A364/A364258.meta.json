@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = A163511(n) - n.",
+  "id": "A364258",
+  "mentions": [
+    "A007283",
+    "A163511",
+    "A364255",
+    "A364287",
+    "A364288",
+    "A364292",
+    "A364293",
+    "A364294"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

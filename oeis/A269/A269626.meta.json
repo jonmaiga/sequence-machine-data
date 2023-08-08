@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = A003418(n) / A058312(n).",
+  "description": "a(n) = A003418(n) / A058312(n) with a(0) = 1.",
   "id": "A269626",
   "mentions": [
     "A003418",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 84,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

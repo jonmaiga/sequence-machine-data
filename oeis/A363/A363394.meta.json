@@ -1,0 +1,25 @@
+{
+  "description": "Triangle read by rows. T(n, k) = A081658(n, k) + A363393(n, k) for k > 0 and T(n, 0) = 1.",
+  "id": "A363394",
+  "mentions": [
+    "A000111",
+    "A000667",
+    "A062162",
+    "A081658",
+    "A109449",
+    "A122045",
+    "A155585",
+    "A247453",
+    "A363393"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

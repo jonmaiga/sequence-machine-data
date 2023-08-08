@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k is a multiple of A005940(k).",
+  "id": "A364546",
+  "mentions": [
+    "A005940",
+    "A005941",
+    "A029747",
+    "A364496",
+    "A364502",
+    "A364541",
+    "A364544",
+    "A364547",
+    "A364548"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

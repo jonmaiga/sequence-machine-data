@@ -1,0 +1,22 @@
+{
+  "description": "Irregular table T(n, k), n >= 0, k = 1..A363710(n), read by rows; the n-th row lists the nonnegative numbers m <= n such that A003188(m) AND A003188(n-m) = 0 (where AND denotes the bitwise AND operator).",
+  "id": "A363930",
+  "mentions": [
+    "A003188",
+    "A295989",
+    "A353174",
+    "A362327",
+    "A363710"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

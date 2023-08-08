@@ -1,13 +1,15 @@
 {
-  "description": "Odd numbers n such that Hamming weight of n equals Hamming weight of n^3.",
+  "description": "Odd numbers k such that Hamming weight of k equals Hamming weight of k^3.",
   "id": "A138597",
   "mentions": [
     "A000120",
-    "A118655"
+    "A118655",
+    "A363799"
   ],
   "tags": [
     "base",
     "formulas",
+    "more",
     "nonn"
   ],
   "terms": {

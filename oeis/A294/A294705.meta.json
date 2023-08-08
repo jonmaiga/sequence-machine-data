@@ -1,17 +1,17 @@
 {
-  "description": "Expansion of (1 - 9*x + 35*x^2 - 75*x^3 + 98*x^4 - 78*x^5 + 34*x^6 + 10*x^7) / ((1 - x)^6*(1 - 2*x)^2).",
+  "description": "Order of the general symplectic group of 4 X 4 matrices over Z_n.",
   "id": "A294705",
   "mentions": [
-    "A294796"
+    "A305186"
   ],
   "tags": [
-    "easy",
     "formulas",
+    "mult",
     "nonn"
   ],
   "terms": {
-    "offset": 0,
-    "size": 31,
-    "source": "oeis-bfile"
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
   }
 }

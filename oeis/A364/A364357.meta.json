@@ -1,0 +1,18 @@
+{
+  "description": "Number of divisors of n of the form 3*k+2 that are at most sqrt(n).",
+  "id": "A364357",
+  "mentions": [
+    "A001822",
+    "A038548",
+    "A364209"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

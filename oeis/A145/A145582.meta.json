@@ -2,15 +2,15 @@
   "description": "Number of isomorphism classes of rank one toric log del Pezzo surfaces with index L = n.",
   "id": "A145582",
   "mentions": [
-    "A145581"
+    "A145581",
+    "A364712"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
-    "source": "oeis-entry"
+    "size": 56,
+    "source": "oeis-bfile"
   }
 }

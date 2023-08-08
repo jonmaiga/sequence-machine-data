@@ -1,10 +1,13 @@
 {
   "description": "Decimal expansion of Sum_{k>=1} (k^(1/k^2) - 1).",
   "id": "A329117",
-  "mentions": [],
+  "mentions": [
+    "A073002",
+    "A098572"
+  ],
   "tags": [
     "cons",
-    "hard",
+    "formulas",
     "nonn"
   ],
   "terms": {

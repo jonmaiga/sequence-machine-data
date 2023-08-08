@@ -2,14 +2,16 @@
   "description": "Numbers k such that usigma(k) = k + phi(k).",
   "id": "A063794",
   "mentions": [
-    "A034448"
+    "A000010",
+    "A034448",
+    "A121048"
   ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "offset": 2,
+    "offset": 1,
     "size": 9,
     "source": "oeis-entry"
   }

@@ -1,14 +1,17 @@
 {
   "description": "Number of vector sums of two permutations of 1,2,...,n.",
   "id": "A175176",
-  "mentions": [],
+  "mentions": [
+    "A019589",
+    "A362968"
+  ],
   "tags": [
     "more",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 10,
+    "offset": 0,
+    "size": 16,
     "source": "oeis-entry"
   }
 }

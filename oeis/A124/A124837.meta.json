@@ -1,5 +1,5 @@
 {
-  "description": "Numerators of third order harmonic numbers (defined by Conway and Guy, 1996).",
+  "description": "Numerators of third-order harmonic numbers (defined by Conway and Guy, 1996).",
   "id": "A124837",
   "mentions": [
     "A001008",

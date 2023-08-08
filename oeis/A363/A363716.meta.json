@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{k>=2} (1/k!) * k-th derivative of zeta(k).",
+  "id": "A363716",
+  "mentions": [
+    "A082633",
+    "A098572",
+    "A363704"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

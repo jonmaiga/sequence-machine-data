@@ -1,18 +1,23 @@
 {
-  "description": "3*A007318 - 2*A034851 (i.e., thrice Pascal's triangle - twice Losanitch's triangle).",
+  "description": "Triangle T(n, k) = 3*A007318(n, k) - 2*A034851(n, k).",
   "id": "A136489",
   "mentions": [
     "A007318",
     "A034851",
+    "A042948",
+    "A051159",
+    "A077957",
     "A122746"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 55,
-    "source": "oeis-entry"
+    "size": 66,
+    "source": "joeis"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that k + the sum of the fourth powers of its digits is again a fourth power.",
+  "id": "A362954",
+  "mentions": [
+    "A000583",
+    "A055013",
+    "A362953"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

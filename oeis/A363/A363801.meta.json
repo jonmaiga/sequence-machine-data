@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Product_{k>0} (1 - x^(7*k-4)) * (1 - x^(7*k-3)) * (1 - x^(7*k)).",
+  "id": "A363801",
+  "mentions": [
+    "A022264",
+    "A022265",
+    "A232714",
+    "A346798",
+    "A363800",
+    "A363804"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

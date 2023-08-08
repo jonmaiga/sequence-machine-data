@@ -2,9 +2,11 @@
   "description": "Factorial splitting: write n! = x*y with x <= y and x maximal; sequence gives value of y-x.",
   "id": "A061057",
   "mentions": [
+    "A000142",
     "A005563",
     "A038507",
     "A038667",
+    "A056737",
     "A060776",
     "A060777",
     "A060795",
@@ -13,8 +15,6 @@
     "A061031",
     "A061032",
     "A061033",
-    "A061055",
-    "A061056",
     "A061060",
     "A146968"
   ],

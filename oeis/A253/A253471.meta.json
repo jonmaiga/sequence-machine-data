@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 3^n + n^3 is prime.",
+  "description": "Numbers k such that 3^k + k^3 is prime.",
   "id": "A253471",
   "mentions": [
     "A001585",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 7,
+    "size": 8,
     "source": "oeis-entry"
   }
 }

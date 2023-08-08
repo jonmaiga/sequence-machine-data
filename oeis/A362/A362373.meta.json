@@ -3,15 +3,17 @@
   "id": "A362373",
   "mentions": [
     "A005132",
-    "A340612"
+    "A340612",
+    "A363373"
   ],
   "tags": [
     "easy",
+    "look",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 60,
+    "offset": 0,
+    "size": 61,
     "source": "oeis-bfile"
   }
 }

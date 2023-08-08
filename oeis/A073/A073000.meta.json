@@ -2,6 +2,7 @@
   "description": "Decimal expansion of arctangent of 1/2.",
   "id": "A073000",
   "mentions": [
+    "A001622",
     "A002117",
     "A002162",
     "A002391",

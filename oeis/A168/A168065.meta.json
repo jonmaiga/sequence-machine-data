@@ -1,5 +1,5 @@
 {
-  "description": "If n = Product p(k)^e(k) then a(n) = {Product (p(k)+1)^e(k) + Product (p(k)-1)^e(k)}/2, a(1) = 1.",
+  "description": "If n = Product p(k)^e(k) then a(n) = (Product (p(k)+1)^e(k) + Product (p(k)-1)^e(k))/2, a(1) = 1.",
   "id": "A168065",
   "mentions": [
     "A003958",

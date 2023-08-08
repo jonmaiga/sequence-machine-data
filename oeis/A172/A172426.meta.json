@@ -5,12 +5,11 @@
     "A019590"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
-    "source": "oeis-entry"
+    "size": 38,
+    "source": "oeis-bfile"
   }
 }

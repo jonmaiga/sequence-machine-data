@@ -1,0 +1,20 @@
+{
+  "description": "Number of (123,231)-avoiding stabilized-interval-free permutations of size n.",
+  "id": "A363433",
+  "mentions": [
+    "A075834",
+    "A131713",
+    "A363431",
+    "A363432"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "joeis"
+  }
+}

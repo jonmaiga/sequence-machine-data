@@ -1,9 +1,10 @@
 {
-  "description": "Least k>0 such that the first n digits of 2^k and 5^k are identical.",
+  "description": "Least k > 0 such that the first n digits of 2^k and 5^k are identical.",
   "id": "A088995",
   "mentions": [
     "A010467",
-    "A088935"
+    "A088935",
+    "A359698"
   ],
   "tags": [
     "base",
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 17,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

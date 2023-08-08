@@ -1,0 +1,28 @@
+{
+  "description": "Stolarsky representation of n.",
+  "id": "A364121",
+  "mentions": [
+    "A001622",
+    "A007064",
+    "A007088",
+    "A043562",
+    "A055641",
+    "A055642",
+    "A200648",
+    "A200649",
+    "A200650",
+    "A200651",
+    "A200714",
+    "A268643"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

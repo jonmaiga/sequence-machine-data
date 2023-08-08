@@ -1,5 +1,5 @@
 {
-  "description": "Differences between floor(n*sqrt(2)) and n.",
+  "description": "a(n) = floor(n*(sqrt(2)-1)).",
   "id": "A097508",
   "mentions": [
     "A001951",

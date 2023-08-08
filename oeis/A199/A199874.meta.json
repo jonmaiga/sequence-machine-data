@@ -1,15 +1,21 @@
 {
-  "description": "G.f. satisfies: A(x) = (1 + x*A(x)^2)*(1 + x^2*A(x)^2).",
+  "description": "G.f. satisfies A(x) = (1 + x*A(x)^2)*(1 + x^2*A(x)^2).",
   "id": "A199874",
   "mentions": [
     "A036765",
+    "A186241",
     "A192415",
     "A198888",
     "A198951",
     "A198953",
     "A198957",
     "A199876",
-    "A199877"
+    "A199877",
+    "A200074",
+    "A200075",
+    "A200718",
+    "A200719",
+    "A215576"
   ],
   "tags": [
     "formulas",
@@ -18,6 +24,6 @@
   "terms": {
     "offset": 0,
     "size": 27,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

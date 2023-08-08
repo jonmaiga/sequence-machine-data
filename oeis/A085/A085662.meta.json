@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of sin(sin(1)).",
   "id": "A085662",
-  "mentions": [],
+  "mentions": [
+    "A049469"
+  ],
   "tags": [
     "cons",
     "nonn"

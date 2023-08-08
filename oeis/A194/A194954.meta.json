@@ -7,11 +7,12 @@
     "A194955"
   ],
   "tags": [
+    "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 53,
-    "source": "oeis-entry"
+    "size": 57,
+    "source": "oeis-bfile"
   }
 }

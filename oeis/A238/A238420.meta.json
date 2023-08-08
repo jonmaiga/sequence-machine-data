@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=the Wiener index of the Lucas cube L_n.",
+  "description": "a(n) is the Wiener index of the Lucas cube L_n.",
   "id": "A238420",
   "mentions": [
     "A000045"

@@ -1,0 +1,22 @@
+{
+  "description": "Squares (A000290) and (1+squares) (A002522), in increasing order.",
+  "id": "A363283",
+  "mentions": [
+    "A000290",
+    "A002522",
+    "A363267",
+    "A363268",
+    "A363269",
+    "A363282"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "joeis"
+  }
+}

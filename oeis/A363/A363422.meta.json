@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k which satisfy k = concat(a,b,...) and a*b*... = reverse(k), for some two or more a,b,...",
+  "id": "A363422",
+  "mentions": [
+    "A265737",
+    "A267939",
+    "A281555"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

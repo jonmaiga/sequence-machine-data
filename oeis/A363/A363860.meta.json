@@ -1,0 +1,17 @@
+{
+  "description": "Number of divisors of 7*n-1 of form 7*k+4.",
+  "id": "A363860",
+  "mentions": [
+    "A363806",
+    "A363807"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

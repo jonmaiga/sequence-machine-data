@@ -1,0 +1,23 @@
+{
+  "description": "Rewrite A087980(n) = Product_{i=1..m} p(i)^e(i) instead as Sum_{i=1..m} 2^(i-1), where m = omega(A087980(n)) = A001221(A087980(n)).",
+  "id": "A363537",
+  "mentions": [
+    "A000079",
+    "A000120",
+    "A001221",
+    "A006939",
+    "A067255",
+    "A087980",
+    "A272011",
+    "A362227"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

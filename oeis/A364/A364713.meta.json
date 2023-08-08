@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the numerator of coefficient of x^n in expansion of (1 + x)^(1/n).",
+  "id": "A364713",
+  "mentions": [
+    "A002596",
+    "A067622",
+    "A145921",
+    "A344745",
+    "A364660"
+  ],
+  "tags": [
+    "frac",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

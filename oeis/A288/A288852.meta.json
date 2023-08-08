@@ -1,5 +1,5 @@
 {
-  "description": "Number T(n,k) of matchings of size k in the triangle graph of order n; triangle T(n,k), n>=0, 0<=k<=floor(n*(n+1)/4), read by rows.",
+  "description": "Number T(n,k) of matchings of size k in the n X n X n triangular grid; triangle T(n,k), n>=0, 0<=k<=floor(n*(n+1)/4), read by rows.",
   "id": "A288852",
   "mentions": [
     "A000012",

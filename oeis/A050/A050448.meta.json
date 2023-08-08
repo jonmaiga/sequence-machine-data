@@ -2,7 +2,10 @@
   "description": "a(n) = Sum_{d|n, d==1 (mod 4)} d^4.",
   "id": "A050448",
   "mentions": [
-    "A001159"
+    "A001159",
+    "A050449",
+    "A050450",
+    "A050451"
   ],
   "tags": [
     "nonn"
@@ -10,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 48,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

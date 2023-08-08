@@ -1,0 +1,16 @@
+{
+  "description": "Triangle of coefficients of the primitive Eulerian polynomials of type D T(n,k) (n >= 2, 1 <= k <= n) read by rows.",
+  "id": "A363935",
+  "mentions": [
+    "A001879"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 44,
+    "source": "oeis-bfile"
+  }
+}

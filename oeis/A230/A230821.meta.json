@@ -1,12 +1,15 @@
 {
-  "description": "The decimal expansion of Product_{n=3..infinity} Cosh(Pi/n).",
+  "description": "Decimal expansion of Product_{n>=3} cosh(Pi/n).",
   "id": "A230821",
   "mentions": [
+    "A027641",
+    "A027642",
     "A051762"
   ],
   "tags": [
     "cons",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

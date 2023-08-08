@@ -1,7 +1,9 @@
 {
-  "description": "Triangle of coefficients of polynomials defined by Binet form: P(n,x) = (U^n-L^n)/(2d), where U=x+d, L=x-d, d=(x+4)^(1/2).",
+  "description": "Triangle of coefficients of polynomials defined by Binet form: P(n,x) = ((x + d)^n - (x - d)^n)/(2*d), where d = sqrt(x+4).",
   "id": "A162517",
   "mentions": [
+    "A002605",
+    "A063727",
     "A162514",
     "A162515",
     "A162516"
@@ -9,11 +11,11 @@
   "tags": [
     "formulas",
     "nonn",
-    "tabl"
+    "tabf"
   ],
   "terms": {
     "offset": 1,
-    "size": 61,
-    "source": "oeis-entry"
+    "size": 67,
+    "source": "oeis-bfile"
   }
 }

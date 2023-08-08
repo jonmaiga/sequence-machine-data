@@ -1,0 +1,15 @@
+{
+  "description": "T(n,k) is the number of bounded regions in B(k, n) (see link).",
+  "id": "A363907",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 34,
+    "source": "oeis-entry"
+  }
+}

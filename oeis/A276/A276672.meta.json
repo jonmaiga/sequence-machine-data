@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that (19*10^n + 101) / 3 is prime.",
+  "description": "Numbers k such that (19*10^k + 101) / 3 is prime.",
   "id": "A276672",
   "mentions": [
     "A056654",
@@ -18,7 +18,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 30,
+    "size": 31,
     "source": "oeis-entry"
   }
 }

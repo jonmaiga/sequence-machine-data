@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that A163511(k) < k.",
+  "id": "A364287",
+  "mentions": [
+    "A163511",
+    "A364258",
+    "A364289",
+    "A364290"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

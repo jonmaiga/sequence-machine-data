@@ -1,0 +1,20 @@
+{
+  "description": "Take the terms 0..n of the infinite Fibonacci word A003849, regard them as a number in Fibonacci base.",
+  "id": "A363070",
+  "mentions": [
+    "A003849",
+    "A005713",
+    "A182028",
+    "A189920"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

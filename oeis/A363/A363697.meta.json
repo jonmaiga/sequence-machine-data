@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = -n! * Sum_{d|n} (-n/d)^d / d!.",
+  "id": "A363697",
+  "mentions": [
+    "A132958",
+    "A354843",
+    "A363698"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "description": "a(n) = (1/2) * (6*n)!*(2*n)!^2/((3*n)!*(4*n)!*n!^3) for n >= 1 with a(0) = 1.",
+  "id": "A364515",
+  "mentions": [
+    "A364513"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

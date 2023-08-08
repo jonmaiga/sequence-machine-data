@@ -1,0 +1,20 @@
+{
+  "description": "a(0) = 1; let e be the largest multiplicity such that p^e | a(n); for n>0, a(n) = Sum_{j=1..k} 2^(e(j)-1) where k is the index of the greatest power factor p(k)^e(k) such that p(k-1)^e(k-1) > p(k)^(e(k)+1).",
+  "id": "A363235",
+  "mentions": [
+    "A000079",
+    "A067255",
+    "A272011",
+    "A347284",
+    "A363063",
+    "A363250"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 70,
+    "source": "oeis-bfile"
+  }
+}

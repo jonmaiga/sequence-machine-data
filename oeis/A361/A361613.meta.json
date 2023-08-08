@@ -1,0 +1,20 @@
+{
+  "description": "The number of magic quad squares that can be formed using cards from Quads-2^n deck.",
+  "id": "A361613",
+  "mentions": [
+    "A361495",
+    "A362874",
+    "A362963",
+    "A362964"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 11,
+    "source": "oeis-entry"
+  }
+}

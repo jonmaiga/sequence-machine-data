@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 7*10^n-9 is prime.",
+  "description": "Numbers k such that 7*10^k - 9 is prime.",
   "id": "A103048",
   "mentions": [
     "A002275",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 33,
+    "size": 34,
     "source": "oeis-entry"
   }
 }

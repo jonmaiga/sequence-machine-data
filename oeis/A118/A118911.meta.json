@@ -1,5 +1,5 @@
 {
-  "description": "Row sums of triangle in A128973 .",
+  "description": "Row sums of triangle in A128973.",
   "id": "A118911",
   "mentions": [
     "A071053",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 82,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

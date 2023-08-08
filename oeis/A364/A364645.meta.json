@@ -1,0 +1,22 @@
+{
+  "description": "G.f. satisfies A(x) = 1/(1 - 3*x) - x*A(x)^3.",
+  "id": "A364645",
+  "mentions": [
+    "A005773",
+    "A349254",
+    "A349256",
+    "A349534",
+    "A364641",
+    "A364646",
+    "A364647"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-bfile"
+  }
+}

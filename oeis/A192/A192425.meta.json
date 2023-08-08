@@ -1,12 +1,15 @@
 {
-  "description": "Coefficient of x in the reduction by x^2->x+2 of the polynomial p(n,x) defined below in Comments.",
+  "description": "Coefficient of x in the reduction by x^2 -> x+2 of the polynomial p(n,x) defined below in Comments.",
   "id": "A192425",
   "mentions": [
+    "A000032",
     "A000045",
     "A000129",
+    "A001045",
     "A002878",
     "A192232",
-    "A192423"
+    "A192423",
+    "A192424"
   ],
   "tags": [
     "easy",
@@ -16,6 +19,6 @@
   "terms": {
     "offset": 0,
     "size": 30,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

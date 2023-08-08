@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^2 + n + 72491 is prime.",
+  "description": "Numbers k such that k^2 + k + 72491 is prime.",
   "id": "A253239",
   "mentions": [
     "A028823",

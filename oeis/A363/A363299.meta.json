@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the sum of the n-th powers of the terms of row 4 of Pascal's triangle.",
+  "id": "A363299",
+  "mentions": [
+    "A000012",
+    "A007318",
+    "A007395",
+    "A052548",
+    "A115099"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "joeis"
+  }
+}

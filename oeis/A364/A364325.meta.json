@@ -1,0 +1,16 @@
+{
+  "description": "Underline the k-th digit of a(n), k being the leftmost digit of a(n). This is the lexicographically earliest sequence of distinct terms > 0 such that the succession of underlined digits is the succession of the sequence's digits themselves.",
+  "id": "A364325",
+  "mentions": [
+    "A364326"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-entry"
+  }
+}

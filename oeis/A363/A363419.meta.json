@@ -1,0 +1,22 @@
+{
+  "description": "Square array read by ascending antidiagonals: T(n,k) = 1/n * [x^k] 1/((1 - x)*(1 - x^2))^(n*k) for n, k >= 1.",
+  "id": "A363419",
+  "mentions": [
+    "A234839",
+    "A348410",
+    "A362724",
+    "A362733",
+    "A363418"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

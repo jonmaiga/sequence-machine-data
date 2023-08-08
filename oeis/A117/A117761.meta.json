@@ -1,7 +1,9 @@
 {
-  "description": "a(n) = a(n-1) + a(n-3) + a(n-5) + a(n-7) for n >= 7.",
+  "description": "Expansion of x*(1 + x^2 + x^4)/(1 - x - x^3 - x^5 - x^7).",
   "id": "A117761",
-  "mentions": [],
+  "mentions": [
+    "A117760"
+  ],
   "tags": [
     "easy",
     "formulas",
@@ -10,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 40,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Positive n such that d(n) = d(n+2*d(n)), where d(n) is the number of divisors of n.",
+  "description": "Positive j such that d(j) = d(j + 2*d(j)), where d(j) is the number of divisors of j.",
   "id": "A282354",
   "mentions": [
     "A000005",

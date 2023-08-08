@@ -1,5 +1,5 @@
 {
-  "description": "Semiprimes p1*p2 such that p2 mod p1 = 9.",
+  "description": "Semiprimes p1*p2 such that p2 mod p1 = 9, with p2 > p1.",
   "id": "A064907",
   "mentions": [
     "A001358",

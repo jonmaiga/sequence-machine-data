@@ -2,6 +2,7 @@
   "description": "Decimal expansion of -zeta'(1/2).",
   "id": "A114875",
   "mentions": [
+    "A001620",
     "A059750"
   ],
   "tags": [

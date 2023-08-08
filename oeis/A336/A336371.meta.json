@@ -3,6 +3,7 @@
   "id": "A336371",
   "mentions": [
     "A000040",
+    "A001043",
     "A336366",
     "A336370",
     "A336372",
@@ -13,7 +14,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 2,
+    "offset": 1,
     "size": 65,
     "source": "oeis-entry"
   }

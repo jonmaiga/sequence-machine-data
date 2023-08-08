@@ -1,5 +1,5 @@
 {
-  "description": "Distance from the sum of the first n positive squares to the nearest square.",
+  "description": "Distance from the n-th square pyramidal number (sum of the first n positive squares) to the nearest square.",
   "id": "A351830",
   "mentions": [
     "A000290",
@@ -7,7 +7,8 @@
     "A053188",
     "A351831",
     "A353295",
-    "A354330"
+    "A354330",
+    "A363284"
   ],
   "tags": [
     "easy",

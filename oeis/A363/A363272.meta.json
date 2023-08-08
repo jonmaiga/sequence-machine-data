@@ -1,0 +1,21 @@
+{
+  "description": "Irregular triangle read by rows: T(n,k) = number of unlabeled binary rooted trees with n leaves, where some child tree has k leaves, 1 <= k <= n/2.",
+  "id": "A363272",
+  "mentions": [
+    "A000217",
+    "A000671",
+    "A001190",
+    "A363273"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. log(1 - log( sqrt(1-2*x) )).",
+  "id": "A363115",
+  "mentions": [
+    "A003713",
+    "A089064",
+    "A363116"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

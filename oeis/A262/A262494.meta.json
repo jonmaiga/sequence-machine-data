@@ -2,17 +2,19 @@
   "description": "Triangle read by rows: T(n,k) (n>=1, 0<=k",
   "id": "A262494",
   "mentions": [
-    "A000108"
+    "A000012",
+    "A000108",
+    "A000142",
+    "A001453"
   ],
   "tags": [
     "formulas",
-    "more",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
+    "size": 55,
     "source": "oeis-entry"
   }
 }

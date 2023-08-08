@@ -1,0 +1,23 @@
+{
+  "description": "a(n) is the number of distinct n-cell patterns that tile an n X n square.",
+  "id": "A363381",
+  "mentions": [
+    "A220778",
+    "A227004",
+    "A291806",
+    "A291807",
+    "A291808",
+    "A328020",
+    "A360630"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

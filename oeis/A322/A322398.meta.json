@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of the coefficients of Touchard's chord enumerating polynomials, [x^k] S(n,x) 0<=k<=n(n-1)/2.",
+  "description": "Triangle of the coefficients of Touchard's chord enumerating polynomials, [x^k] S(n,x), 0 <= k <= n*(n-1)/2.",
   "id": "A322398",
   "mentions": [
     "A000108",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 65,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

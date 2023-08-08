@@ -2,7 +2,8 @@
   "description": "Irregular triangle: T(n,k) gives the number of k-polysticks on edges of the n-cube up to isometries of the n-cube, with 0 <= k <= A001787(n).",
   "id": "A333333",
   "mentions": [
-    "A001787"
+    "A001787",
+    "A222192"
   ],
   "tags": [
     "formulas",

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (6n)!/((n!)^3*(3n)!).",
+  "description": "a(n) = (6*n)!/((n!)^3*(3*n)!).",
   "id": "A001421",
   "mentions": [
     "A008977",
@@ -20,7 +20,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 11,
+    "size": 13,
     "source": "oeis-bfile"
   }
 }

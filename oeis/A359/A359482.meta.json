@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest sequence of distinct terms > 0 such that the sum a(n) + a(n+1) is a substring of the concatenation (a(n), a(n+1)).",
+  "id": "A359482",
+  "mentions": [
+    "A300000"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

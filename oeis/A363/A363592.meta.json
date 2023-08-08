@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of [n] such that in each block the smallest element has the same parity as the largest element.",
+  "id": "A363592",
+  "mentions": [
+    "A000110",
+    "A131719",
+    "A361084"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

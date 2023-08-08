@@ -1,5 +1,5 @@
 {
-  "description": "K-th squarefree number such that A318411(k) is not equal to the largest prime factor of k-th squarefree number.",
+  "description": "Squarefree numbers A005117(k) whose largest prime factor is not A318411(k).",
   "id": "A318572",
   "mentions": [
     "A005117",

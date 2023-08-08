@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Sum_{k>0} k^2 * x^(4*k-3) / (1 - x^(4*k-3)).",
+  "id": "A363972",
+  "mentions": [
+    "A001826",
+    "A050450",
+    "A363903",
+    "A363977"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

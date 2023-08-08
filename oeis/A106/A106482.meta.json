@@ -1,8 +1,7 @@
 {
-  "description": "Number of prime factors (with multiplicity) of the Stella Octangula numbers A007588.",
+  "description": "Number of prime factors (with multiplicity) of A007588(n).",
   "id": "A106482",
   "mentions": [
-    "A000040",
     "A001222",
     "A007588",
     "A106483",

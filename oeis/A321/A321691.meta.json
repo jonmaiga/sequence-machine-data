@@ -2,6 +2,7 @@
   "description": "Approximations up to 2^n for the 2-adic integer log(-3).",
   "id": "A321691",
   "mentions": [
+    "A309753",
     "A321690",
     "A321694"
   ],

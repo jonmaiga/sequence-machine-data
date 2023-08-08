@@ -1,0 +1,22 @@
+{
+  "description": "The Moebius triangle read by rows. Inverse matrix of the divisibility triangle A113704.",
+  "id": "A363914",
+  "mentions": [
+    "A000010",
+    "A008683",
+    "A019590",
+    "A054525",
+    "A113704",
+    "A130779"
+  ],
+  "tags": [
+    "formulas",
+    "sign",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 91,
+    "source": "joeis"
+  }
+}

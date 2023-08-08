@@ -2,7 +2,8 @@
   "description": "a(n) = 5^(n-1) * U(n-1, 7/5) where U is the Chebyshev polynomial of the second kind.",
   "id": "A099158",
   "mentions": [
-    "A099141"
+    "A099141",
+    "A099157"
   ],
   "tags": [
     "easy",
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 18,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

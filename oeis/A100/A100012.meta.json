@@ -1,5 +1,5 @@
 {
-  "description": "Iterated hypericosahedron numbers, starting with hypericosahedron(2) = 120. The hypericosahedron numbers are 4-dimensional figurate numbers based on the 600-cell regular convex polytope, also known as the hexacosichoron or hypericosahedron. This sequence is hypericosahedron(2), hypericosahedron(hypericosahedron(2)) and so on recursively.",
+  "description": "Let h(k) = a(k)*((145*a(k)^3)-(280*a(k)^2)+(179*a(k))-38)/6, then a(n) = h(a(n-1)) for n >= 1 and a(0) =2.",
   "id": "A100012",
   "mentions": [
     "A000332",
@@ -10,7 +10,6 @@
   ],
   "tags": [
     "easy",
-    "formulas",
     "nonn"
   ],
   "terms": {

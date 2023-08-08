@@ -1,0 +1,41 @@
+{
+  "description": "Positive integers whose multiset of prime indices satisfies: (length) = 2*(minimum).",
+  "id": "A363134",
+  "mentions": [
+    "A000961",
+    "A001222",
+    "A006141",
+    "A046660",
+    "A051293",
+    "A055396",
+    "A056239",
+    "A061395",
+    "A106529",
+    "A111907",
+    "A112798",
+    "A118096",
+    "A237753",
+    "A237755",
+    "A237757",
+    "A237824",
+    "A324522",
+    "A327482",
+    "A360005",
+    "A361860",
+    "A361861",
+    "A361908",
+    "A362050",
+    "A363132",
+    "A363133",
+    "A363218"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

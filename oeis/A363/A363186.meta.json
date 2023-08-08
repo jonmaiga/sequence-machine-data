@@ -1,0 +1,19 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive integers such that the sum of all terms a(1)..a(n) is a substring of the concatenation of all terms a(1)..a(n).",
+  "id": "A363186",
+  "mentions": [
+    "A300000",
+    "A339144",
+    "A357082",
+    "A359482"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-bfile"
+  }
+}

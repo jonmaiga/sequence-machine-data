@@ -1,9 +1,11 @@
 {
-  "description": "Sum of the squares of q-binomial coefficients for q=2 in row n of triangle A022166, for n>=0.",
+  "description": "Sum of the squares of q-binomial coefficients for q=2 in row n of triangle A022166, for n >= 0.",
   "id": "A243950",
   "mentions": [
+    "A005329",
     "A022166",
-    "A243951"
+    "A243951",
+    "A359313"
   ],
   "tags": [
     "formulas",

@@ -1,5 +1,5 @@
 {
-  "description": "2^n+(-1)^n-1.",
+  "description": "a(n) = 2^n+(-1)^n-1.",
   "id": "A099430",
   "mentions": [
     "A014551"

@@ -1,0 +1,25 @@
+{
+  "description": "a(n) = (Product_{k=1..pi(n+1)} prime(k)^floor(n/(prime(k)-1) ) )/(n+1)!.",
+  "id": "A363596",
+  "mentions": [
+    "A000142",
+    "A000720",
+    "A002182",
+    "A067255",
+    "A091137",
+    "A126706",
+    "A286708",
+    "A303606",
+    "A361098"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

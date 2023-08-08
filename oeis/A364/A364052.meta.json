@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the least k such that no number with distinct base-n digits is the product of k (not necessarily distinct) primes.",
+  "id": "A364052",
+  "mentions": [
+    "A001222",
+    "A062813",
+    "A165712",
+    "A364049"
+  ],
+  "tags": [
+    "base",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 31,
+    "source": "oeis-entry"
+  }
+}

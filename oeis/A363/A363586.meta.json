@@ -1,0 +1,14 @@
+{
+  "description": "a(n) is the number of mappings X:{{1..n} choose 3}->{+,-} such that X(a,b,c) = X(b,c,d) implies X(a,b,c) = X(a,b,d) = X(a,c,d) = X(b,c,d) for a < b < c < d.",
+  "id": "A363586",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 3,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

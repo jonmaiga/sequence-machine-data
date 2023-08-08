@@ -1,0 +1,44 @@
+{
+  "description": "Number of strict integer partitions of n containing the sum of no pair of distinct parts. A variation of sum-free strict partitions.",
+  "id": "A364533",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A007865",
+    "A008284",
+    "A008289",
+    "A025065",
+    "A085489",
+    "A088809",
+    "A108917",
+    "A151897",
+    "A236912",
+    "A237113",
+    "A237667",
+    "A237668",
+    "A240861",
+    "A275972",
+    "A320340",
+    "A323092",
+    "A325862",
+    "A326083",
+    "A363226",
+    "A364272",
+    "A364345",
+    "A364346",
+    "A364347",
+    "A364349",
+    "A364350",
+    "A364461",
+    "A364534",
+    "A364670"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

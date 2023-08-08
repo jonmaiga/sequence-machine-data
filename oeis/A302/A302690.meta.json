@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest integer m such that A002828(m*n) = 2.",
+  "description": "a(n) is the smallest integer m such that m*n is a sum of two squares but not one.",
   "id": "A302690",
   "mentions": [
     "A002828",
@@ -7,7 +7,8 @@
     "A007913",
     "A064680",
     "A099304",
-    "A302694"
+    "A302694",
+    "A363340"
   ],
   "tags": [
     "formulas",

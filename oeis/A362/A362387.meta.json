@@ -1,0 +1,16 @@
+{
+  "description": "Number of directed multigraphs including self-loops on n vertices and n edges.",
+  "id": "A362387",
+  "mentions": [
+    "A138107"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

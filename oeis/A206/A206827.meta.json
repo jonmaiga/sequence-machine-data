@@ -1,5 +1,5 @@
 {
-  "description": "Number of solutions (n,k) of s(k)=s(n) (mod n), where 1<=k",
+  "description": "Number of solutions (n,k) of s(k) == s(n) (mod n), where 1 <= k < n and s(k) = k*(k+1)*(2*k+1)/6.",
   "id": "A206827",
   "mentions": [
     "A206588"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 2,
     "size": 99,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

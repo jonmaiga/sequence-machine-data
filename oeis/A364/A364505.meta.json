@@ -1,0 +1,18 @@
+{
+  "description": "T(n, k) = number of k-dimensional faces in the BME polytope on n species, 0 <= k <= binomial(n, 2) - n.",
+  "id": "A364505",
+  "mentions": [
+    "A001147",
+    "A364441"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

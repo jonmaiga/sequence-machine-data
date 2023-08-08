@@ -1,8 +1,9 @@
 {
-  "description": "Expansion of (1 - x) * (1 - x^2)^2 * (1 - x^3)^4 * ... in powers of x.",
+  "description": "Expansion of Product_{k>0} (1 - x^k)^(2^(k-1)) in powers of x.",
   "id": "A200751",
   "mentions": [
-    "A034691"
+    "A034691",
+    "A083413"
   ],
   "tags": [
     "formulas",
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 36,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

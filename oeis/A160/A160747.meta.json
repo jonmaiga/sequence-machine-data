@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1+10*x+20*x^2+10*x^3+x^4)/(1-x)^5.",
+  "description": "Expansion of (1 + 10*x + 20*x^2 + 10*x^3 + x^4)/(1-x)^5.",
   "id": "A160747",
   "mentions": [],
   "tags": [

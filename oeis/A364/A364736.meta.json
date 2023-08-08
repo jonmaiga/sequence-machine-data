@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies A(x) = 1 + x*A(x) / (1 + x*A(x)^3).",
+  "id": "A364736",
+  "mentions": [
+    "A300048",
+    "A364735",
+    "A364737",
+    "A364738"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

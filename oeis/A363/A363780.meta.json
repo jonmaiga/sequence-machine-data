@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = [x^n] 1/(Sum_{k>=0} x^(k^2))^n.",
+  "id": "A363780",
+  "mentions": [
+    "A287617",
+    "A363778"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

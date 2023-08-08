@@ -1,0 +1,22 @@
+{
+  "description": "Odd numbers k for which A292943(k) == A292944(k).",
+  "id": "A364296",
+  "mentions": [
+    "A006995",
+    "A163511",
+    "A243071",
+    "A292943",
+    "A292944",
+    "A364295",
+    "A364495"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

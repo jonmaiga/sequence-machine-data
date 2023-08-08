@@ -1,5 +1,5 @@
 {
-  "description": "The number of free polyominoes of area n that fill their minimal enclosing circle (MEC). A polyomino “fills” its minimal enclosing circle if no square may be added to it that doesn’t have some point outside of the circle.",
+  "description": "The number of free polyominoes of area n that fill their minimal enclosing circle (MEC). A polyomino \"fills\" its minimal enclosing circle if no square may be added to it that doesn't have some point outside of the circle.",
   "id": "A361754",
   "mentions": [
     "A147680"

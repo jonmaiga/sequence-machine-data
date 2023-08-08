@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A064696(n) = n-1.",
+  "description": "Numbers k such that A064696(k) = k-1.",
   "id": "A064697",
   "mentions": [
     "A064696"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
+    "size": 45,
     "source": "oeis-entry"
   }
 }

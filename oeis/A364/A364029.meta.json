@@ -1,0 +1,17 @@
+{
+  "description": "Odd squarefree semiprimes s = p*q such that (p + q)/2 and (p - q)/2 are squarefree.",
+  "id": "A364029",
+  "mentions": [
+    "A046388",
+    "A198512",
+    "A364028"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-entry"
+  }
+}

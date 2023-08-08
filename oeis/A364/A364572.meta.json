@@ -1,0 +1,18 @@
+{
+  "description": "Starting from k=7, each subsequent term is the next larger odd k such that A005940(k) >= k and the ratio A005940(k)/k is nearer to 1.0 than for any previous k in the sequence.",
+  "id": "A364572",
+  "mentions": [
+    "A005940",
+    "A364573",
+    "A364576"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

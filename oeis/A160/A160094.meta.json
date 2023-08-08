@@ -1,5 +1,5 @@
 {
-  "description": "1 + the number of trailing zeros in n (A122840).",
+  "description": "a(n) = 1 + A122840(n).",
   "id": "A160094",
   "mentions": [
     "A054899",

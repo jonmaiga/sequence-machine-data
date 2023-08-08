@@ -1,5 +1,5 @@
 {
-  "description": "Prime numbers of the form n*(n + 1) + (n*(n + 1))^2 + 1.",
+  "description": "Prime numbers of the form k*(k+1) + (k*(k+1))^2 + 1.",
   "id": "A255314",
   "mentions": [
     "A002378"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 32,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

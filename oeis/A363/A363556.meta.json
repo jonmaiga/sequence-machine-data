@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying 0 = Sum_{n>=0} (-1)^n * x^(n*(n-1)/2) * A(x)^(n^2) / Product_{k=2..n+2} (1 - x^k*A(x)^(2*k+1)).",
+  "id": "A363556",
+  "mentions": [
+    "A001764",
+    "A082395",
+    "A363555"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
+  }
+}

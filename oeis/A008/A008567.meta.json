@@ -2,6 +2,7 @@
   "description": "Digits of powers of 6.",
   "id": "A008567",
   "mentions": [
+    "A000400",
     "A210436"
   ],
   "tags": [

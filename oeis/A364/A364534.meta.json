@@ -1,0 +1,40 @@
+{
+  "description": "Number of subsets of {1..n} containing some element equal to the sum of two or more distinct other elements. A variation of sum-full subsets without re-used elements.",
+  "id": "A364534",
+  "mentions": [
+    "A007865",
+    "A085489",
+    "A088809",
+    "A093971",
+    "A108917",
+    "A151897",
+    "A236912",
+    "A237113",
+    "A237667",
+    "A237668",
+    "A275972",
+    "A323092",
+    "A325862",
+    "A326083",
+    "A363225",
+    "A364272",
+    "A364345",
+    "A364346",
+    "A364348",
+    "A364349",
+    "A364350",
+    "A364531",
+    "A364532",
+    "A364533",
+    "A364670"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

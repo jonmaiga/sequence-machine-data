@@ -1,15 +1,17 @@
 {
-  "description": "a(n) = if mod[n, 3] - 1 == 0 then a(n - 1) else n*a(n - 1).",
+  "description": "a(1) = 1, a(n) = a(n-1) if n = 1 (mod 3), otherwise n*a(n-1).",
   "id": "A123144",
   "mentions": [
-    "A007559"
+    "A007559",
+    "A123145",
+    "A293653"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 20,
+    "size": 25,
     "source": "oeis-bfile"
   }
 }

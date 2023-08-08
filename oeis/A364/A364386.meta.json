@@ -1,0 +1,19 @@
+{
+  "description": "Triangle T(n,k) read by rows: the number of Motzkin paths of length n that have k nodes at their peak level, 1 <= k <= n+1.",
+  "id": "A364386",
+  "mentions": [
+    "A001006",
+    "A088457",
+    "A152879"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 78,
+    "source": "oeis-bfile"
+  }
+}

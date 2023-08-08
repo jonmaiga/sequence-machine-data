@@ -1,0 +1,21 @@
+{
+  "description": "Number of partitions of [n] with distinct block sizes such that each block contains exactly one block size different from its own as an element.",
+  "id": "A364282",
+  "mentions": [
+    "A000110",
+    "A000166",
+    "A007837",
+    "A363881",
+    "A364207",
+    "A364278",
+    "A364283"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

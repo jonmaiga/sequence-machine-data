@@ -1,0 +1,20 @@
+{
+  "description": "Numbers k such that the average digit of 2^k is an integer.",
+  "id": "A364606",
+  "mentions": [
+    "A000079",
+    "A001370",
+    "A034887",
+    "A061383"
+  ],
+  "tags": [
+    "base",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 17,
+    "source": "oeis-entry"
+  }
+}

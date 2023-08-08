@@ -1,0 +1,14 @@
+{
+  "description": "Numbers k such that the last letter of k is the same as the first letter of k+1 when written in English.",
+  "id": "A363659",
+  "mentions": [],
+  "tags": [
+    "nonn",
+    "word"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-bfile"
+  }
+}

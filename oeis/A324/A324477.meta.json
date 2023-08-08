@@ -1,5 +1,5 @@
 {
-  "description": "k appears t+1 times, where t is the number of trailing zeros in the greedy Jacobsthal representation of n, A265747(k).",
+  "description": "k appears t+1 times, where t = A364377(k) is the number of trailing zeros in the greedy Jacobsthal representation of k, A265747(k).",
   "id": "A324477",
   "mentions": [
     "A001045",
@@ -7,16 +7,16 @@
     "A265747",
     "A316628",
     "A324473",
-    "A324475"
+    "A324475",
+    "A364377"
   ],
   "tags": [
     "base",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 31,
-    "source": "oeis-entry"
+    "size": 70,
+    "source": "oeis-bfile"
   }
 }

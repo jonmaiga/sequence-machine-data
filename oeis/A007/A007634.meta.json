@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that n^2 + n + 41 is composite.",
+  "description": "Numbers k such that k^2 + k + 41 is composite.",
   "id": "A007634",
   "mentions": [
     "A002837",

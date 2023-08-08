@@ -1,7 +1,8 @@
 {
-  "description": "Numbers n such that n^p-p is prime, where p is product of the digits of n.",
+  "description": "Numbers k such that k^p-p is prime, where p is product of the digits of k.",
   "id": "A178328",
   "mentions": [
+    "A007954",
     "A178327"
   ],
   "tags": [
@@ -10,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 37,
+    "size": 44,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Semiprimes p1*p2 such that p2 mod p1 = 5.",
+  "description": "Semiprimes p1*p2 such that p2 > p1 and p2 mod p1 = 5.",
   "id": "A064903",
   "mentions": [
     "A001358",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 43,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

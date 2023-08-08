@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A004154(n) + 1 is prime.",
+  "description": "Numbers k such that A004154(k) + 1 is prime.",
   "id": "A078203",
   "mentions": [
     "A004154",
@@ -9,11 +9,12 @@
   ],
   "tags": [
     "base",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 13,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

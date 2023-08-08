@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = (5n+2)*C(n) where C(n)=Catalan numbers (A000108).",
+  "description": "a(n) = (5n+2)*C(n) where C(n) = Catalan numbers (A000108).",
   "id": "A053368",
   "mentions": [
     "A000108",

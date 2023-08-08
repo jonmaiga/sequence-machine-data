@@ -1,0 +1,43 @@
+{
+  "description": "Number of integer partitions of n without any three parts (a,b,c) (repeats allowed) satisfying a + b = c. A variation of sum-free partitions.",
+  "id": "A364345",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A002865",
+    "A007865",
+    "A008284",
+    "A008289",
+    "A025065",
+    "A026905",
+    "A093971",
+    "A108917",
+    "A111133",
+    "A236912",
+    "A237113",
+    "A237667",
+    "A240861",
+    "A275972",
+    "A288728",
+    "A320340",
+    "A320347",
+    "A323092",
+    "A325862",
+    "A326083",
+    "A363225",
+    "A363226",
+    "A363260",
+    "A364270",
+    "A364346",
+    "A364347",
+    "A364348"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

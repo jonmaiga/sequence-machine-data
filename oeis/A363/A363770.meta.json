@@ -1,0 +1,19 @@
+{
+  "description": "Integers k such that the number of binary partitions of k is not a sum of three squares.",
+  "id": "A363770",
+  "mentions": [
+    "A004215",
+    "A018819",
+    "A363769"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

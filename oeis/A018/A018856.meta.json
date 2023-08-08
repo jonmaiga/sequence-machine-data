@@ -1,5 +1,5 @@
 {
-  "description": "2^a(n) is smallest power of 2 beginning with n.",
+  "description": "2^a(n) is the smallest power of 2 beginning with n.",
   "id": "A018856",
   "mentions": [
     "A000079",

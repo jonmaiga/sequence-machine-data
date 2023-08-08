@@ -1,0 +1,18 @@
+{
+  "description": "Number of partitions of [n] having exactly one parity change within the partition.",
+  "id": "A363550",
+  "mentions": [
+    "A000110",
+    "A011968",
+    "A363519"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

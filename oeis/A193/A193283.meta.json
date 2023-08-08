@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,k), n>=1, 0<=k<=n*(n+1)/2, read by rows: row n gives the coefficients of the chromatic polynomial of the Triangle Graph of order n, highest powers first.",
+  "description": "Triangle T(n,k), n>=1, 0<=k<=n*(n+1)/2, read by rows: row n gives the coefficients of the chromatic polynomial of the n X n X n triangular grid, highest powers first.",
   "id": "A193283",
   "mentions": [
     "A000217",

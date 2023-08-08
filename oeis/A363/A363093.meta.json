@@ -1,0 +1,27 @@
+{
+  "description": "Leading digit of 7^n.",
+  "id": "A363093",
+  "mentions": [
+    "A000030",
+    "A000420",
+    "A001903",
+    "A008568",
+    "A008952",
+    "A060956",
+    "A111395",
+    "A362871",
+    "A363249",
+    "A364185"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 101,
+    "source": "oeis-entry"
+  }
+}

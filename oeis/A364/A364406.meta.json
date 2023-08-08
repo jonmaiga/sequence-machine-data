@@ -1,0 +1,23 @@
+{
+  "description": "Number of permutations of [n] such that the minimal element of each cycle is also its length.",
+  "id": "A364406",
+  "mentions": [
+    "A000142",
+    "A007837",
+    "A188431",
+    "A362362",
+    "A364207",
+    "A364277",
+    "A364279",
+    "A364281",
+    "A364283"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,7 +1,15 @@
 {
-  "description": "Numbers n such that n-1, n, and n+1 are all products of 6 distinct primes.",
+  "description": "Numbers n such that n-1, n, and n+1 are all products of 6 distinct primes (i.e. belong to A067885).",
   "id": "A259349",
   "mentions": [
+    "A000040",
+    "A001221",
+    "A001222",
+    "A006881",
+    "A007304",
+    "A046386",
+    "A046387",
+    "A067885",
     "A093550",
     "A169834",
     "A248201",
@@ -9,9 +17,11 @@
     "A248203",
     "A248204",
     "A259350",
-    "A259801"
+    "A259801",
+    "A364265"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

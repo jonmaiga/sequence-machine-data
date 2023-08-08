@@ -1,5 +1,5 @@
 {
-  "description": "Table of coefficients of Product{k=1..n, (1+x^A000120(k))}.",
+  "description": "Table of coefficients of Product_{k=1..n} (1+x^A000120(k)).",
   "id": "A102418",
   "mentions": [
     "A000120",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 0,
     "size": 96,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

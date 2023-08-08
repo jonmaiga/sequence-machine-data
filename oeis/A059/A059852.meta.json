@@ -1,5 +1,5 @@
 {
-  "description": "Consider the English alphabet in the International Morse radio telegraph code. Map a 'dit' to the digit one and a 'dah' to the digit 2, then express that ternary number in decimal.",
+  "description": "Consider the English alphabet in Morse code (the International Morse radio telegraph code). Map a 'dit' to the digit one and a 'dah' to the digit 2, then express that ternary number in decimal.",
   "id": "A059852",
   "mentions": [
     "A008777",

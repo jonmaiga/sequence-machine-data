@@ -1,5 +1,5 @@
 {
-  "description": "Number of nX4 binary arrays with all 1s connected and a path of 1s from left column to lower right corner",
+  "description": "Number of n X 4 binary arrays with all 1's connected and a path of 1's from left column to lower right corner.",
   "id": "A163021",
   "mentions": [],
   "tags": [

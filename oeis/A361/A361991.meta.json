@@ -1,0 +1,16 @@
+{
+  "description": "Number of prime knotoids in a sphere with n crossings.",
+  "id": "A361991",
+  "mentions": [
+    "A002863"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 6,
+    "source": "oeis-entry"
+  }
+}

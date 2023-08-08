@@ -2,8 +2,10 @@
   "description": "Expansion of 3*x/(1 - 2*x^2 - 2*x + x^3).",
   "id": "A120718",
   "mentions": [
+    "A000032",
     "A000045",
     "A001654",
+    "A001906",
     "A072845"
   ],
   "tags": [

@@ -1,7 +1,9 @@
 {
   "description": "Powers of 35.",
   "id": "A009979",
-  "mentions": [],
+  "mentions": [
+    "A008776"
+  ],
   "tags": [
     "easy",
     "formulas",

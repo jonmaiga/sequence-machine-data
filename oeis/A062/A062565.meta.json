@@ -2,9 +2,11 @@
   "description": "Squarefree parts of 3-smooth numbers.",
   "id": "A062565",
   "mentions": [
-    "A003586"
+    "A003586",
+    "A007913"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

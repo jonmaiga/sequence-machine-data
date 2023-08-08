@@ -1,5 +1,5 @@
 {
-  "description": "n*(n-1)^3*(n-2)^3*(n-3).",
+  "description": "a(n) = n*(n-1)^3*(n-2)^3*(n-3).",
   "id": "A064321",
   "mentions": [
     "A000027",

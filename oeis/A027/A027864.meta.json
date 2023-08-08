@@ -1,5 +1,5 @@
 {
-  "description": "Primes of the form k^2 + (k+1)^2 + (k+2)^2.",
+  "description": "Primes of the form k^2 + (k+1)^2 + (k+2)^2 = 3*(k+1)^2+2.",
   "id": "A027864",
   "mentions": [
     "A027574",

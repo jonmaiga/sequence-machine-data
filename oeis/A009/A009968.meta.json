@@ -2,6 +2,7 @@
   "description": "Powers of 24: a(n) = 24^n.",
   "id": "A009968",
   "mentions": [
+    "A008776",
     "A225816"
   ],
   "tags": [

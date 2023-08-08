@@ -1,0 +1,17 @@
+{
+  "description": "Number of nondecreasing partitions of n^2 into n parts from the intervals [1,n], [2,n+1], ..., [n,2n-1], respectively.",
+  "id": "A362967",
+  "mentions": [
+    "A019589",
+    "A039744",
+    "A077045"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-bfile"
+  }
+}

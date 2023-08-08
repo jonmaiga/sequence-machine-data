@@ -1,5 +1,5 @@
 {
-  "description": "a(0)=1; for n>0, a(n)=2*a(floor(n/2))+3*a(floor(n/3)).",
+  "description": "a(0) = 1; for n > 0, a(n) = 2*a(floor(n/2)) + 3*a(floor(n/3)).",
   "id": "A098972",
   "mentions": [
     "A003586",
@@ -13,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 49,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

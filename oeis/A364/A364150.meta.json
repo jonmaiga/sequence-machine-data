@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the smallest positive integer which can be represented as the sum of distinct positive quarter-squares in exactly n ways, or -1 if no such integer exists.",
+  "id": "A364150",
+  "mentions": [
+    "A002620",
+    "A097563",
+    "A197081"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

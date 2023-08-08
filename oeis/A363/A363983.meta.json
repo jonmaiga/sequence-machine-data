@@ -1,0 +1,18 @@
+{
+  "description": "a(n) = Sum_{k = floor((n+1)/2)..n} (-1)^(n+k)*binomial(n,k)*binomial(n+k-1,k)*binomial(2*k,n).",
+  "id": "A363983",
+  "mentions": [
+    "A000172",
+    "A363984"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

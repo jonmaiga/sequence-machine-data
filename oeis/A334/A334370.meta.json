@@ -2,11 +2,15 @@
   "description": "Expansion of e.g.f. Product_{k>=1} (1 + x^prime(k) / prime(k)!).",
   "id": "A334370",
   "mentions": [
+    "A000040",
+    "A000720",
     "A007837",
     "A032310",
     "A115278",
+    "A178682",
     "A190476",
-    "A319113"
+    "A319113",
+    "A364344"
   ],
   "tags": [
     "nonn"
@@ -14,6 +18,6 @@
   "terms": {
     "offset": 0,
     "size": 31,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

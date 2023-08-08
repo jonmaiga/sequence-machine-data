@@ -1,0 +1,19 @@
+{
+  "description": "Numbers whose binary representation has more 1-bits than its cube.",
+  "id": "A363799",
+  "mentions": [
+    "A000120",
+    "A094694",
+    "A138597",
+    "A192085"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

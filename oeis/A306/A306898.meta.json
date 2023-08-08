@@ -2,10 +2,13 @@
   "description": "a(n) = Sum_{d|n} 2^d*phi(2*n/d).",
   "id": "A306898",
   "mentions": [
+    "A000013",
     "A306888",
-    "A306896"
+    "A306896",
+    "A306905"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

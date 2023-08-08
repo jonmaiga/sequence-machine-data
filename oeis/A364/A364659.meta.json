@@ -1,0 +1,18 @@
+{
+  "description": "Numbers k such that sigma(k) < sigma(k+1) < sigma(k+2).",
+  "id": "A364659",
+  "mentions": [
+    "A053224",
+    "A364657",
+    "A364662"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,9 +2,12 @@
   "description": "Denominator of n*Sum_{k=1..n} 1/(n+k).",
   "id": "A296519",
   "mentions": [
+    "A111876",
+    "A117664",
     "A117731"
   ],
   "tags": [
+    "formulas",
     "frac",
     "nonn"
   ],

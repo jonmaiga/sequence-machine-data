@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: 1/(1-x) * sum(k>=0, x^2^(k+2)/(1+x^2^k)).",
+  "description": "G.f.: 1/(1-x) * Sum_{k>=0} x^2^(k+2)/(1+x^2^k).",
   "id": "A083661",
   "mentions": [
     "A000120",
@@ -15,6 +15,6 @@
   "terms": {
     "offset": 1,
     "size": 93,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

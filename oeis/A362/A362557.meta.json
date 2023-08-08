@@ -1,0 +1,19 @@
+{
+  "description": "Start with first term 0, then add paired terms counting every preceding term up to the largest term so far and loop back to 0 after every pair has been counted.",
+  "id": "A362557",
+  "mentions": [
+    "A055186",
+    "A217760",
+    "A342585"
+  ],
+  "tags": [
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-entry"
+  }
+}

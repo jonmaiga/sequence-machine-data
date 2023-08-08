@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Product_{p prime} p^{ Sum_{k>= 0} floor[(n-1)/((p-1)p^k)]}.",
+  "description": "a(n) = Product_{p prime} p^{ Sum_{k>=0} floor[(n-1)/((p-1)p^k)]}.",
   "id": "A053657",
   "mentions": [
     "A001898",
@@ -14,7 +14,8 @@
     "A186430",
     "A202318",
     "A202339",
-    "A212429"
+    "A212429",
+    "A346046"
   ],
   "tags": [
     "easy",

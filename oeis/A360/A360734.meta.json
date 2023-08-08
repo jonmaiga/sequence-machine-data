@@ -1,5 +1,5 @@
 {
-  "description": "The number of parts into which the plane is divided by a hypotrochoid with parameters R = d = prime(n+1) and r = prime(n).",
+  "description": "The number of regions into which the plane is divided by a hypotrochoid with parameters R = d = prime(n+1) and r = prime(n).",
   "id": "A360734",
   "mentions": [
     "A000040"

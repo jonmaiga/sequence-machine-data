@@ -1,16 +1,18 @@
 {
-  "description": "Multinomial based triangular function base on the sum of squares: out[n]=4*(n+2)!*(n*(n + 1)*(2*n + 1)/6)!/(4*(m^2)!*Abs[2 + 2*m^2 - (n*(n + 1)*(2*n + 1)/6)]!).",
+  "description": "Triangle T(n, k) = (n+2)!*(n*(n+1)*(2*n+1)/6)!/( (k^2)! * abs(2 + 2*k^2 - (n*(n + 1)*(2*n+1)/6))! ), read by rows.",
   "id": "A123147",
-  "mentions": [],
+  "mentions": [
+    "A123146"
+  ],
   "tags": [
+    "easy",
     "formulas",
     "nonn",
-    "tabl",
-    "uned"
+    "tabl"
   ],
   "terms": {
-    "offset": 1,
-    "size": 18,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-bfile"
   }
 }

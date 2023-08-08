@@ -1,5 +1,5 @@
 {
-  "description": "A079316(2n+1).",
+  "description": "a(n) = A079316(2n+1).",
   "id": "A151923",
   "mentions": [
     "A079316",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
-    "source": "oeis-entry"
+    "size": 51,
+    "source": "oeis-bfile"
   }
 }

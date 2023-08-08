@@ -1,0 +1,38 @@
+{
+  "description": "Number of strict integer partitions of n with weighted sum divisible by reverse-weighted sum.",
+  "id": "A363528",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A008284",
+    "A053632",
+    "A067538",
+    "A222855",
+    "A222970",
+    "A264034",
+    "A304818",
+    "A318283",
+    "A320387",
+    "A358136",
+    "A358137",
+    "A358194",
+    "A359361",
+    "A359678",
+    "A359754",
+    "A359755",
+    "A362558",
+    "A362559",
+    "A362560",
+    "A363525",
+    "A363526",
+    "A363531"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

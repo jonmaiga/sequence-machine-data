@@ -2,7 +2,15 @@
   "description": "Number of ways of writing n as a sum of 3 positive cubes (counted naively).",
   "id": "A051344",
   "mentions": [
-    "A051343"
+    "A051343",
+    "A280618",
+    "A340977",
+    "A340978",
+    "A340979",
+    "A340980",
+    "A340981",
+    "A340982",
+    "A340983"
   ],
   "tags": [
     "easy",
@@ -11,6 +19,6 @@
   "terms": {
     "offset": 0,
     "size": 93,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "a(n) = n * LegendreP(n, 3).",
+  "id": "A364634",
+  "mentions": [
+    "A364361"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

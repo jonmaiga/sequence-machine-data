@@ -1,0 +1,22 @@
+{
+  "description": "Expansion of Sum_{k>0} x^(2*k)/(1+x^k)^3.",
+  "id": "A363022",
+  "mentions": [
+    "A002129",
+    "A069153",
+    "A321543",
+    "A325940",
+    "A363598",
+    "A363613",
+    "A363614"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

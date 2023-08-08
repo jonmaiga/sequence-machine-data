@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that both A359804(k) and A359804(k+1) are odd.",
+  "id": "A363593",
+  "mentions": [
+    "A000079",
+    "A053669",
+    "A100484",
+    "A246547",
+    "A359804",
+    "A361503",
+    "A361505",
+    "A363594"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 64,
+    "source": "oeis-bfile"
+  }
+}

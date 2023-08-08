@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = the n-th instance of b(k)/2 such that b(k-1) and b(k-2) are both odd, where b(n) = A359804(n).",
+  "id": "A363594",
+  "mentions": [
+    "A000040",
+    "A000079",
+    "A100484",
+    "A359804",
+    "A361639",
+    "A363593"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

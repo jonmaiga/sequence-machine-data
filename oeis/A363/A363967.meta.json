@@ -1,0 +1,21 @@
+{
+  "description": "Numbers whose divisors can be partitioned into two disjoint sets whose both sums are squares.",
+  "id": "A363967",
+  "mentions": [
+    "A000203",
+    "A000290",
+    "A006532",
+    "A037073",
+    "A333677",
+    "A333911",
+    "A360694"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

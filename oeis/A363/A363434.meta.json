@@ -1,11 +1,13 @@
 {
-  "description": "Total number of blocks having elements of the same parity in all partitions of [n].",
+  "description": "Total number of blocks containing only elements of the same parity in all partitions of [n].",
   "id": "A363434",
   "mentions": [
     "A000035",
     "A124424",
     "A363435",
-    "A363451"
+    "A363451",
+    "A363452",
+    "A363453"
   ],
   "tags": [
     "formulas",

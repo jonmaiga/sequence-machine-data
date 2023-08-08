@@ -1,8 +1,15 @@
 {
-  "description": "Sum of distinct fifth powers.",
+  "description": "Sum of distinct positive fifth powers.",
   "id": "A194768",
   "mentions": [
-    "A000584"
+    "A000584",
+    "A001661",
+    "A003997",
+    "A003999",
+    "A194769",
+    "A217845",
+    "A332065",
+    "A364637"
   ],
   "tags": [
     "formulas",

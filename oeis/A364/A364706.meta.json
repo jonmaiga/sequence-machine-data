@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least number k such that the k-th difference between consecutive practical numbers, A179651(k), equals 2*n, or -1 if no such k exists.",
+  "id": "A364706",
+  "mentions": [
+    "A005153",
+    "A179651",
+    "A330870",
+    "A364707"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 42,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest infinite sequence of distinct terms > 0 such that one digit of a(n) is strictly smaller than one digit of a(n+1).",
+  "id": "A363490",
+  "mentions": [
+    "A294069"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-bfile"
+  }
+}

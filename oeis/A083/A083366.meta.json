@@ -1,13 +1,14 @@
 {
-  "description": "Numbers n such that 7*11^n + 2 is prime.",
+  "description": "Numbers k such that 7*11^k + 2 is prime.",
   "id": "A083366",
   "mentions": [],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 18,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

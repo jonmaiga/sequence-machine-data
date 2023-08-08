@@ -2,10 +2,12 @@
   "description": "Decimal expansion of Sum_{n>=2} log(n)/n!.",
   "id": "A306243",
   "mentions": [
-    "A193424"
+    "A193424",
+    "A296301"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

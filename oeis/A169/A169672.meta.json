@@ -1,7 +1,14 @@
 {
   "description": "Lexicographically earliest de Bruijn sequence for n = 5 and k = 2.",
   "id": "A169672",
-  "mentions": [],
+  "mentions": [
+    "A021913",
+    "A080679",
+    "A169671",
+    "A169673",
+    "A169674",
+    "A169675"
+  ],
   "tags": [
     "nonn"
   ],

@@ -1,5 +1,5 @@
 {
-  "description": "G.f.: Sum_{k>0} k*(k+1)/2 * x^k / (1 - (-x)^k)^3.",
+  "description": "Expansion of Sum_{k>0} k*(k+1)/2 * x^k / (1 - (-x)^k)^3.",
   "id": "A163920",
   "mentions": [
     "A034715",
@@ -12,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 55,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

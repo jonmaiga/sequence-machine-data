@@ -1,0 +1,22 @@
+{
+  "description": "Decimal expansion of a constant related to A053529 and A179973.",
+  "id": "A364128",
+  "mentions": [
+    "A004086",
+    "A025016",
+    "A053529",
+    "A055642",
+    "A179973"
+  ],
+  "tags": [
+    "base",
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 106,
+    "source": "oeis-bfile"
+  }
+}

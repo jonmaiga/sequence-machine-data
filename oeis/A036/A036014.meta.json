@@ -2,7 +2,9 @@
   "description": "a(n) is the smallest number such that the product a(1)a(2)...a(n) falls between a twin prime pair, starting with a(1)=2.",
   "id": "A036014",
   "mentions": [
-    "A014574"
+    "A014574",
+    "A359948",
+    "A363274"
   ],
   "tags": [
     "nice",

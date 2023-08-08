@@ -1,0 +1,16 @@
+{
+  "description": "Number of iterations of phi(x) at n needed to reach a square.",
+  "id": "A363612",
+  "mentions": [
+    "A000010",
+    "A003434"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

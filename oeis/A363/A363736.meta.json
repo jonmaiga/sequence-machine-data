@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = (n-1)! * Sum_{d|n} (-1)^(d+1) / (d-1)!.",
+  "id": "A363736",
+  "mentions": [
+    "A087906",
+    "A132960",
+    "A352013",
+    "A363737"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "description": "Number of primes <= the n-th prime power.",
+  "id": "A362965",
+  "mentions": [
+    "A000720",
+    "A000961",
+    "A246655"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 76,
+    "source": "oeis-bfile"
+  }
+}

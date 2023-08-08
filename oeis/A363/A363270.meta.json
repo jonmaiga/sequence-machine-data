@@ -1,0 +1,21 @@
+{
+  "description": "The result, starting from n, of Collatz steps x -> (3x+1)/2 while odd, followed by x -> x/2 while even.",
+  "id": "A363270",
+  "mentions": [
+    "A000265",
+    "A007814",
+    "A075677",
+    "A085062",
+    "A160541"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 73,
+    "source": "oeis-bfile"
+  }
+}

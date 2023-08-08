@@ -1,0 +1,15 @@
+{
+  "description": "Lexicographically first sequence of positive integers such that all terms are pairwise coprime and no subset sum is a power of 2.",
+  "id": "A363245",
+  "mentions": [
+    "A353889"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-entry"
+  }
+}

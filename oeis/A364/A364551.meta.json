@@ -1,0 +1,23 @@
+{
+  "description": "Odd numbers k such that k is a multiple of A005941(k).",
+  "id": "A364551",
+  "mentions": [
+    "A005940",
+    "A005941",
+    "A156552",
+    "A364545",
+    "A364549",
+    "A364560",
+    "A364561",
+    "A364564"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

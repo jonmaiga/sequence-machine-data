@@ -1,0 +1,26 @@
+{
+  "description": "Number of inequivalent Hamiltonian paths starting in the lower left corner of an n X n grid graph (paths differing only by rotations and reflections are regarded as equivalent).",
+  "id": "A363577",
+  "mentions": [
+    "A000532",
+    "A001184",
+    "A003763",
+    "A007764",
+    "A120443",
+    "A121785",
+    "A121789",
+    "A145157",
+    "A271507"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn",
+    "walk"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

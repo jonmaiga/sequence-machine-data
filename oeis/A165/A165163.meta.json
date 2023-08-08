@@ -2,15 +2,17 @@
   "description": "Sequence is obtained from Catalan numbers (A000108) by taking the factorial of each digit and adding them up.",
   "id": "A165163",
   "mentions": [
-    "A000108"
+    "A000108",
+    "A061602"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 36,
+    "size": 39,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = (1/(6*n)) * Sum_{d|n} 7^(n/d-1) * phi(7*d).",
+  "id": "A364212",
+  "mentions": [
+    "A000010",
+    "A000013",
+    "A359099",
+    "A359102",
+    "A364210",
+    "A364211"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

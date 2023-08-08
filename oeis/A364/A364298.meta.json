@@ -1,0 +1,24 @@
+{
+  "description": "Square array read by ascending antidiagonals: T(n,k) = [x^k] 1/(1 + x) * Legendre_P(k, (1 - x)/(1 + x))^(-n) for n >= 1, k >= 0.",
+  "id": "A364298",
+  "mentions": [
+    "A005258",
+    "A005259",
+    "A143007",
+    "A364113",
+    "A364299",
+    "A364300",
+    "A364301",
+    "A364302"
+  ],
+  "tags": [
+    "easy",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 44,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = A143007(2*n-1, n-1) for n >= 1.",
+  "id": "A364244",
+  "mentions": [
+    "A001622",
+    "A005259",
+    "A143007",
+    "A363864",
+    "A364243"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

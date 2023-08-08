@@ -1,0 +1,22 @@
+{
+  "description": "Number of divisors of n of the form 7*k + 6.",
+  "id": "A363808",
+  "mentions": [
+    "A279061",
+    "A284105",
+    "A363795",
+    "A363805",
+    "A363806",
+    "A363807"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 93,
+    "source": "oeis-entry"
+  }
+}

@@ -5,14 +5,16 @@
     "A195981",
     "A195982",
     "A205999",
-    "A206000"
+    "A206000",
+    "A357233"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 36,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

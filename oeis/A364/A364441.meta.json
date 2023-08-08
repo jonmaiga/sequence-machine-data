@@ -1,0 +1,17 @@
+{
+  "description": "Number of facets of the balanced minimum evolution polytope on n species.",
+  "id": "A364441",
+  "mentions": [
+    "A364505"
+  ],
+  "tags": [
+    "bref",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 3,
+    "source": "oeis-entry"
+  }
+}

@@ -1,8 +1,10 @@
 {
-  "description": "Description to be supplied!.",
+  "description": "Successive pattern lengths of a conjectured Busy Beaver by Uwe Schult.",
   "id": "A016071",
   "mentions": [],
   "tags": [
+    "fini",
+    "full",
     "nonn"
   ],
   "terms": {

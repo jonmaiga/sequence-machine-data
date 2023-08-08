@@ -1,0 +1,22 @@
+{
+  "description": "Array read by downward antidiagonals: A(n,k) is the number of nonequivalent 2-colorings of the cells of an n-dimensional hypercube with edges k cells long under action of symmetry.",
+  "id": "A361870",
+  "mentions": [
+    "A000120",
+    "A000616",
+    "A002262",
+    "A003992",
+    "A005418",
+    "A054247"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 36,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that d(n) = d(n+3*d(n)), where d(n) is the number of divisors of n.",
+  "description": "Numbers j such that d(j) = d(j + 3*d(j)), where d(j) is the number of divisors of j.",
   "id": "A282391",
   "mentions": [
     "A000005",

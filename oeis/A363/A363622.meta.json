@@ -1,0 +1,40 @@
+{
+  "description": "Irregular triangle read by rows where T(n,k) is the number of integer partitions of n with weighted alternating sum k (leading and trailing 0's omitted).",
+  "id": "A363622",
+  "mentions": [
+    "A000041",
+    "A008284",
+    "A053632",
+    "A067538",
+    "A103919",
+    "A168233",
+    "A222855",
+    "A222970",
+    "A264034",
+    "A316524",
+    "A318283",
+    "A320387",
+    "A344616",
+    "A358194",
+    "A360672",
+    "A360675",
+    "A362559",
+    "A363532",
+    "A363619",
+    "A363620",
+    "A363621",
+    "A363623",
+    "A363624",
+    "A363625",
+    "A363626"
+  ],
+  "tags": [
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 86,
+    "source": "oeis-entry"
+  }
+}

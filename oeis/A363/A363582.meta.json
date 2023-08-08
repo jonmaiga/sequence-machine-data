@@ -1,0 +1,20 @@
+{
+  "description": "Number of admissible mesa sets among Stirling permutations of order n.",
+  "id": "A363582",
+  "mentions": [
+    "A289871",
+    "A328901",
+    "A328902",
+    "A359066",
+    "A359067"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

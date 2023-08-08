@@ -1,11 +1,13 @@
 {
-  "description": "[2ne]-2[ne], where [ ]=floor.",
+  "description": "a(n) = [2*n*e] - 2*[n*e], where [ ] = floor and e is the natural logarithm base.",
   "id": "A190843",
   "mentions": [
+    "A001113",
     "A190847",
     "A190860"
   ],
   "tags": [
+    "easy",
     "nonn"
   ],
   "terms": {

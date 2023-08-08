@@ -1,9 +1,14 @@
 {
-  "description": "Inverse Moebius transform of tetrahedral numbers.",
+  "description": "Inverse Moebius transform of the shifted tetrahedral numbers.",
   "id": "A116963",
   "mentions": [
     "A000292",
-    "A007437"
+    "A007437",
+    "A007503",
+    "A059358",
+    "A363604",
+    "A363607",
+    "A363611"
   ],
   "tags": [
     "easy",
@@ -12,7 +17,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 40,
+    "size": 46,
     "source": "oeis-bfile"
   }
 }

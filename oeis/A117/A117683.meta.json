@@ -1,16 +1,18 @@
 {
-  "description": "Triangle T(n,m) read by rows: T(n,m) = A049614(n)/( A049614(m)*A049614(n-m) ) .",
+  "description": "Triangle T(n,k) = A049614(n)/(A049614(k)*A049614(n-k)), read by rows.",
   "id": "A117683",
   "mentions": [
-    "A049614"
+    "A049614",
+    "A117684"
   ],
   "tags": [
+    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 1,
     "size": 78,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

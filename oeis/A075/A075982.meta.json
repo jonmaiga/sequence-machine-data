@@ -1,13 +1,14 @@
 {
-  "description": "Numbers n such that n^5+4^n is prime.",
+  "description": "Numbers k such that k^5 + 4^k is prime.",
   "id": "A075982",
   "mentions": [],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 9,
+    "size": 10,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,14 @@
+{
+  "description": "Expansion of 1/(1 - 4*x - x^2 + x^3).",
+  "id": "A364705",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

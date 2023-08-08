@@ -1,15 +1,22 @@
 {
-  "description": "First digit of powers of 5 (n>=1).",
+  "description": "First digit of powers of 5.",
   "id": "A111395",
-  "mentions": [],
+  "mentions": [
+    "A000030",
+    "A000351",
+    "A008566",
+    "A008952",
+    "A060956"
+  ],
   "tags": [
     "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 88,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Palindromes that have at least two distinct prime factors and whose prime factors, listed (with multiplicity) in ascending order and concatenated, form a palindrome in base 10.",
+  "id": "A364050",
+  "mentions": [
+    "A002113",
+    "A024619",
+    "A037276",
+    "A364023"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

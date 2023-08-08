@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = n - A243071(n).",
+  "id": "A364288",
+  "mentions": [
+    "A007283",
+    "A064989",
+    "A243071",
+    "A364253",
+    "A364256",
+    "A364258",
+    "A364289",
+    "A364290",
+    "A364291"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

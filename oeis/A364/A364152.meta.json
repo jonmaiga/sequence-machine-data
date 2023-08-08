@@ -1,0 +1,19 @@
+{
+  "description": "Least n-simplex number (i.e., number of the form C(m,n) = binomial(m,n), m >= n), that can be written as a product of two or more smaller n-simplex numbers, or 0 if no such number exists.",
+  "id": "A364152",
+  "mentions": [
+    "A018252",
+    "A028387",
+    "A068143",
+    "A364151"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 5,
+    "source": "oeis-entry"
+  }
+}

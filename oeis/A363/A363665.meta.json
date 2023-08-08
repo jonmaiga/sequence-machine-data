@@ -1,0 +1,18 @@
+{
+  "description": "Starting with a(1) = 1, the lexicographically earliest sequence of integers on a square spiral such that every number equals the sum of its eight adjacent neighbors.",
+  "id": "A363665",
+  "mentions": [
+    "A355270",
+    "A358151",
+    "A358337",
+    "A361724"
+  ],
+  "tags": [
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-bfile"
+  }
+}

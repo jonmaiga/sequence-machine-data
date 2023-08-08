@@ -2,6 +2,7 @@
   "description": "2-adic factorial function.",
   "id": "A055634",
   "mentions": [
+    "A000142",
     "A001147",
     "A006882",
     "A037223",

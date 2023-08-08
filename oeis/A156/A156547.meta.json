@@ -2,6 +2,7 @@
   "description": "Decimal expansion of the central angle of a regular dodecahedron.",
   "id": "A156547",
   "mentions": [
+    "A001622",
     "A019669",
     "A105199",
     "A137914",

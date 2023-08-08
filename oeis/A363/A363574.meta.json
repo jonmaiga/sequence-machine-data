@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying theta_4(x) = Sum_{n=-oo..+oo} x^n * (2*A(x) - x^n)^(n-1) where theta_4(x) = Sum_{n=-oo..+oo} (-1)^n * x^(n^2) is a Jacobi theta function.",
+  "id": "A363574",
+  "mentions": [
+    "A002448",
+    "A028982",
+    "A357227",
+    "A363568"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

@@ -2,6 +2,11 @@
   "description": "Constant sequence: the all 6's sequence.",
   "id": "A010722",
   "mentions": [
+    "A000012",
+    "A007395",
+    "A010701",
+    "A010709",
+    "A010716",
     "A145429"
   ],
   "tags": [

@@ -1,0 +1,17 @@
+{
+  "description": "Number of ways to write a + b + c = d + e = f with {a,b,c,d,e,f} a subset of [n] of size 6 and a < b < c and d < e.",
+  "id": "A362717",
+  "mentions": [
+    "A004526"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

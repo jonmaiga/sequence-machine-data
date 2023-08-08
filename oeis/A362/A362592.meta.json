@@ -1,0 +1,16 @@
+{
+  "description": "Discriminants D of the negative Pell equation x^2 - D*y^2 = -1, whose fundamental and all higher roots produce abc-triples a+b=c (or 1 + x^2 = D*y^2) with radical R(abc) < c.",
+  "id": "A362592",
+  "mentions": [
+    "A362591"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 13,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "description": "G.f. satisfies A(x) = 1/(1 - 4*x) - x*A(x)^3.",
+  "id": "A364646",
+  "mentions": [
+    "A001700",
+    "A349535",
+    "A364641",
+    "A364645",
+    "A364647"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

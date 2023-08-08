@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n binary arrays with all 1s connected and a path of 1s from top row to bottom row.",
+  "description": "Number of n X n binary arrays with all 1s connected and a path of 1s from the top row to the bottom row.",
   "id": "A163028",
   "mentions": [
     "A359574"

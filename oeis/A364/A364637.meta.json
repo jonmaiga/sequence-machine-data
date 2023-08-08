@@ -1,0 +1,19 @@
+{
+  "description": "a(n) is the least k > 1 that can be represented as a sum of one or more distinct positive m-th powers for 1 <= m <= n.",
+  "id": "A364637",
+  "mentions": [
+    "A001661",
+    "A030052"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

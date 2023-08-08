@@ -1,5 +1,5 @@
 {
-  "description": "Constant term of the reduction by x^2->x+1 of the polynomial p(n,x) defined below in Comments.",
+  "description": "Constant term of the reduction by x^2 -> x+1 of the polynomial p(n,x) defined below in Comments.",
   "id": "A192386",
   "mentions": [
     "A083087",
@@ -9,12 +9,13 @@
     "A192388"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 25,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

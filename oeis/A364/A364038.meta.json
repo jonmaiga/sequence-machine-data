@@ -1,0 +1,15 @@
+{
+  "description": "Table read by rows: n-th row gives lengths of square sections required to build all n-ominoes.",
+  "id": "A364038",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of 2^(e-2)*e^Sum_{k=2..oo} log(k)/k!.",
+  "id": "A363767",
+  "mentions": [
+    "A181044",
+    "A296301",
+    "A306243"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-entry"
+  }
+}

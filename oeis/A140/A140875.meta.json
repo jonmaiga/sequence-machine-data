@@ -1,19 +1,18 @@
 {
-  "description": "Triangle read by rows: T(n,m) = gcd(n,m+2) - 2*gcd(n,m+1) + gcd(n,m).",
+  "description": "Triangle read by rows: T(n,m) = gcd(n,m+2) - 2*gcd(n,m+1) - gcd(n,m), with diagonal and subdiagonal removed.",
   "id": "A140875",
   "mentions": [
     "A109004"
   ],
   "tags": [
     "easy",
-    "formulas",
     "less",
     "sign",
     "tabl"
   ],
   "terms": {
     "offset": 1,
-    "size": 45,
-    "source": "oeis-entry"
+    "size": 78,
+    "source": "joeis"
   }
 }

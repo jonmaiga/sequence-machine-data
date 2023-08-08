@@ -1,0 +1,22 @@
+{
+  "description": "A variant of payphone permutations: given a row of n payphones, a(n) is the number ways for n people to choose the payphones in order, where each person chooses an unoccupied payphone such that the closest occupied payphone is as distant as possible, and a payphone adjacent to a single occupied payphone is preferred over a payphone sandwiched between two occupied payphones.",
+  "id": "A363785",
+  "mentions": [
+    "A095236",
+    "A095239",
+    "A095912",
+    "A358056",
+    "A361294",
+    "A361295",
+    "A361296",
+    "A362192"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

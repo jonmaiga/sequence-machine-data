@@ -1,0 +1,16 @@
+{
+  "description": "Lexicographically earliest sequence of distinct positive terms such that the cumulative sum Q(n) of the first n terms of the sequence has at least one duplicated digit.",
+  "id": "A364275",
+  "mentions": [
+    "A364274"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

@@ -5,6 +5,7 @@
     "A000110",
     "A007318",
     "A011971",
+    "A130595",
     "A136789"
   ],
   "tags": [
@@ -15,6 +16,6 @@
   "terms": {
     "offset": 0,
     "size": 45,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

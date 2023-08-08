@@ -1,5 +1,5 @@
 {
-  "description": "Integers of the form (pq-1)/24 where p < q are primes.",
+  "description": "Integers of the form (p*q-1)/24 where p < q are primes.",
   "id": "A226133",
   "mentions": [
     "A024702"

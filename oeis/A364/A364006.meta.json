@@ -1,0 +1,43 @@
+{
+  "description": "Wythoff-Niven numbers: numbers that are divisible by the number of 1's in their Wythoff representation.",
+  "id": "A364006",
+  "mentions": [
+    "A001906",
+    "A005349",
+    "A049445",
+    "A064150",
+    "A064438",
+    "A064481",
+    "A118363",
+    "A135818",
+    "A189921",
+    "A328208",
+    "A328212",
+    "A331085",
+    "A331728",
+    "A333426",
+    "A334308",
+    "A342426",
+    "A342726",
+    "A344341",
+    "A351714",
+    "A351719",
+    "A352089",
+    "A352107",
+    "A352320",
+    "A352508",
+    "A364005",
+    "A364007",
+    "A364008",
+    "A364009"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 61,
+    "source": "oeis-bfile"
+  }
+}

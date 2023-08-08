@@ -1,5 +1,5 @@
 {
-  "description": "T(n, k) = Sum_{j=1..k} [n mod j <> 1], where [] are the Iverson brackets. Table read by rows.",
+  "description": "T(n, k) = Sum_{j=1..k} [n mod j <> 1], where [] is the Iverson bracket. Table read by rows.",
   "id": "A340260",
   "mentions": [
     "A000005",

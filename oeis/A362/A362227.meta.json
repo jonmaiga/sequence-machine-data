@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = Product_{k=1..w(n)} p(k)^(S(n,k)-1), where set S(n,k) = row n of A272011 and w(n) = A000120(n) is the binary weight of n.",
+  "id": "A362227",
+  "mentions": [
+    "A000120",
+    "A000523",
+    "A006939",
+    "A067255",
+    "A087980",
+    "A272011"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 49,
+    "source": "oeis-bfile"
+  }
+}

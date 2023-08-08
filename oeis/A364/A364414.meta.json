@@ -1,0 +1,31 @@
+{
+  "description": "Numbers k with the property that the second part of the symmetric representation of sigma(k) is an octagon of width 1 and one of its vertices is also the central vertex of the first valley of the largest Dyck path of the diagram.",
+  "id": "A364414",
+  "mentions": [
+    "A000203",
+    "A001068",
+    "A016945",
+    "A045572",
+    "A091999",
+    "A196020",
+    "A235791",
+    "A236104",
+    "A237270",
+    "A237271",
+    "A237591",
+    "A237593",
+    "A244145",
+    "A245092",
+    "A249223",
+    "A249351",
+    "A262626"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-entry"
+  }
+}

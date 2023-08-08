@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: (1+x)*sech(x).",
+  "description": "Expansion of e.g.f.: (1+x)*sech(x).",
   "id": "A119882",
   "mentions": [
     "A119879",

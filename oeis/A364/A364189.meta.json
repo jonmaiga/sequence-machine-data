@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the smallest k such that A000005(j) = A000005(j-m) for j = k..k+n-1 for some m > 0.",
+  "id": "A364189",
+  "mentions": [
+    "A000005"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 22,
+    "source": "oeis-entry"
+  }
+}

@@ -2,7 +2,8 @@
   "description": "a(n) = (n-th decimal digit of Pi) + 1.",
   "id": "A123152",
   "mentions": [
-    "A000796"
+    "A000796",
+    "A123153"
   ],
   "tags": [
     "base",
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 99,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

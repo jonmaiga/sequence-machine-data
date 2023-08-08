@@ -6,12 +6,12 @@
     "A331770"
   ],
   "tags": [
-    "more",
+    "formulas",
     "sign"
   ],
   "terms": {
     "offset": 0,
-    "size": 9,
-    "source": "oeis-entry"
+    "size": 31,
+    "source": "oeis-bfile"
   }
 }

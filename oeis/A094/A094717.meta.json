@@ -1,9 +1,13 @@
 {
-  "description": "a(n) = n!*Sum_{i+2j+3k=n, 0<=i<=n, 0<=j<=n, 0<=k<=n} 1/(i!*(2j)!*(3k)!).",
+  "description": "a(n) = n! * Sum_{i+2j+3k=n} 1/(i!*(2j)!*(3k)!).",
   "id": "A094717",
   "mentions": [
     "A024493",
-    "A094715"
+    "A049347",
+    "A057083",
+    "A057682",
+    "A094715",
+    "A099837"
   ],
   "tags": [
     "formulas",
@@ -11,7 +15,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 28,
-    "source": "oeis-entry"
+    "size": 30,
+    "source": "oeis-bfile"
   }
 }

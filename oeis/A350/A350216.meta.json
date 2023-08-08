@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the smallest suffix such that the numbers with k digits “6” prepended are primes for k = 1, 2, ..., n but not for k = n+1.",
+  "description": "a(n) is the smallest suffix such that the numbers with k digits \"6\" prepended are primes for k = 1, 2, ..., n but not for k = n+1.",
   "id": "A350216",
   "mentions": [
     "A186142",

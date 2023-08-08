@@ -1,5 +1,5 @@
 {
-  "description": "Integers m whose decimal expansion of 1/m contains only odd digits.",
+  "description": "Integers m such that the decimal expansion of 1/m contains only odd digits.",
   "id": "A353614",
   "mentions": [
     "A353613"

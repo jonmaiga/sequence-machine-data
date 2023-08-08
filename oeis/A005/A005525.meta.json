@@ -1,15 +1,19 @@
 {
-  "description": "Maximal number of rational points on curve of genus 2 over GF(q), q = 2, 3, 4, 5, 7, 8, ...",
+  "description": "Maximal number of rational points on a curve of genus 2 over GF(q), where q = A246655(n) is the n-th prime power > 1.",
   "id": "A005525",
-  "mentions": [],
+  "mentions": [
+    "A005523",
+    "A246655"
+  ],
   "tags": [
     "easy",
+    "formulas",
     "nice",
     "nonn"
   ],
   "terms": {
-    "offset": 2,
-    "size": 44,
-    "source": "oeis-entry"
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
   }
 }

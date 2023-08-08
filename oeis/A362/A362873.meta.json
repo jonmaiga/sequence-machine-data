@@ -1,0 +1,17 @@
+{
+  "description": "a(n) is the number of points with integer coordinates that are inside an equilateral triangle inscribed in a circle of radius n, the location of the triangle in the Oxy coordinate plane is described in the comments.",
+  "id": "A362873",
+  "mentions": [
+    "A183143",
+    "A194106"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

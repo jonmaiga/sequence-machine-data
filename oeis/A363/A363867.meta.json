@@ -1,0 +1,24 @@
+{
+  "description": "a(n) = A108625(n,2*n).",
+  "id": "A363867",
+  "mentions": [
+    "A005258",
+    "A099601",
+    "A108625",
+    "A363864",
+    "A363868",
+    "A363869",
+    "A363870",
+    "A363871"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

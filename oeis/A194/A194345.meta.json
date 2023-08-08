@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n for which the largest prime factor of p(n) divides p(1)*p(2)*...*p(n-1), where p(n) is the number of partitions of n.",
+  "description": "Numbers k for which the largest prime factor of p(k) divides p(1)*p(2)*...*p(k-1), where p(k) is the number of partitions of k.",
   "id": "A194345",
   "mentions": [
     "A000041",
@@ -12,6 +12,7 @@
     "A194262"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

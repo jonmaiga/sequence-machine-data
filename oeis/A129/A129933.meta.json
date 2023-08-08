@@ -1,5 +1,5 @@
 {
-  "description": "(n*(n+1)/2+1)!/n!.",
+  "description": "a(n) = (n*(n+1)/2+1)!/n!.",
   "id": "A129933",
   "mentions": [
     "A000124",

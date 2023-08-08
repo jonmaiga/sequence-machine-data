@@ -2,6 +2,9 @@
   "description": "a(n) = [x^n] hypergeom([1/4, 3/4], [2], 64*x). The central terms of the Motzkin triangle A359364 without zeros.",
   "id": "A359647",
   "mentions": [
+    "A000108",
+    "A001006",
+    "A001448",
     "A359364"
   ],
   "tags": [

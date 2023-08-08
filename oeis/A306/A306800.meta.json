@@ -6,6 +6,7 @@
     "A000142",
     "A000312",
     "A012244",
+    "A019575",
     "A209289",
     "A231812",
     "A239368",
@@ -24,8 +25,8 @@
     "tabl"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 66,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

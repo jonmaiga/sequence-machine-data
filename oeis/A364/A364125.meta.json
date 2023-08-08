@@ -1,0 +1,36 @@
+{
+  "description": "Starts of runs of 3 consecutive integers that are Stolarsky-Niven numbers (A364123).",
+  "id": "A364125",
+  "mentions": [
+    "A154701",
+    "A328206",
+    "A328210",
+    "A328214",
+    "A330932",
+    "A331087",
+    "A331822",
+    "A333428",
+    "A334310",
+    "A342428",
+    "A344343",
+    "A351716",
+    "A351721",
+    "A352091",
+    "A352109",
+    "A352322",
+    "A352344",
+    "A352510",
+    "A364123",
+    "A364124",
+    "A364126"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 35,
+    "source": "oeis-bfile"
+  }
+}

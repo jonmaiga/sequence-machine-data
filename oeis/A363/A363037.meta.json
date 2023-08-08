@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of Sum_{k>0} x^k / (1 + x^(4*k)).",
+  "id": "A363037",
+  "mentions": [
+    "A002654",
+    "A364011",
+    "A364031",
+    "A364032"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

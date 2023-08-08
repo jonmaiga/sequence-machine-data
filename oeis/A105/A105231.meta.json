@@ -2,15 +2,17 @@
   "description": "Number of n-dimensional polytopes with vertices from {0,1}^n up to (0,1)-equivalence.",
   "id": "A105231",
   "mentions": [
-    "A105230"
+    "A105230",
+    "A105232"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 5,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

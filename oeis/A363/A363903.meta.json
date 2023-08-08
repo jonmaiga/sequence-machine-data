@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of Sum_{k>0} x^k / (1 - x^(4*k))^2.",
+  "id": "A363903",
+  "mentions": [
+    "A001826",
+    "A050449",
+    "A363901",
+    "A363925"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 96,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,8 +1,9 @@
 {
-  "description": "Integers n that are the sum of two nonzero squares while n*(n+1) is not.",
+  "description": "Integers k that are the sum of two nonzero squares while k*(k+1) is not.",
   "id": "A271787",
   "mentions": [
     "A000404",
+    "A001481",
     "A002378"
   ],
   "tags": [
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 1,
     "size": 64,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

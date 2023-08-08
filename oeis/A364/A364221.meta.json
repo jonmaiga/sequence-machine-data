@@ -1,0 +1,21 @@
+{
+  "description": "Starts of runs of 6 consecutive integers that are Jacobsthal-Niven numbers (A364216).",
+  "id": "A364221",
+  "mentions": [
+    "A330929",
+    "A364216",
+    "A364217",
+    "A364218",
+    "A364219",
+    "A364220"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

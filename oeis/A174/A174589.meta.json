@@ -1,5 +1,5 @@
 {
-  "description": "Number of directed Hamiltonian cycles in the Triangle Graph of order n.",
+  "description": "Number of directed Hamiltonian cycles in the n X n X n triangular grid.",
   "id": "A174589",
   "mentions": [
     "A000217",
@@ -11,7 +11,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
-    "source": "oeis-entry"
+    "size": 17,
+    "source": "oeis-bfile"
   }
 }

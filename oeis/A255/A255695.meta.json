@@ -1,8 +1,10 @@
 {
-  "description": "Decimal expansion of the Plouffe sum S(1,1) = Sum_{n >= 0} 1/(n*(exp(Pi*n)-1)).",
+  "description": "Decimal expansion of the Plouffe sum S(1,1) = Sum_{n >= 1} 1/(n*(exp(Pi*n)-1)).",
   "id": "A255695",
   "mentions": [
-    "A255696",
+    "A000203",
+    "A000796",
+    "A084254",
     "A255697",
     "A255698",
     "A255699",

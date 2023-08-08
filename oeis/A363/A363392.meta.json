@@ -1,0 +1,18 @@
+{
+  "description": "Sum of divisors of 4*n-2 of form 4*k+3.",
+  "id": "A363392",
+  "mentions": [
+    "A050452",
+    "A359290",
+    "A363259"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

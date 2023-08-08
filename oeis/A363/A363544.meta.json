@@ -1,0 +1,22 @@
+{
+  "description": "Least prime p such that 2n can be written as the sum or absolute difference of p and the next prime, or -1 if no such prime exists.",
+  "id": "A363544",
+  "mentions": [
+    "A000040",
+    "A000230",
+    "A001043",
+    "A001223",
+    "A327467",
+    "A359199",
+    "A362465"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 48,
+    "source": "oeis-entry"
+  }
+}

@@ -1,18 +1,16 @@
 {
-  "description": "Number of loops (\"chains\") resulting from reordering summands (a,b) from sorting order a,b into sorting order b,a.",
+  "description": "a(n) is the number of cycles of the permutation relating the lexicographic order to the colexicographic order, for the set of pairs (i,j), 1 <= i <= j <= n.",
   "id": "A235647",
   "mentions": [
-    "A000027",
     "A000217",
     "A242615"
   ],
   "tags": [
-    "nonn",
-    "uned"
+    "nonn"
   ],
   "terms": {
     "offset": 1,
     "size": 75,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

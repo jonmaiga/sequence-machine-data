@@ -1,0 +1,19 @@
+{
+  "description": "Numbers that are not the sum of admirable numbers (not necessarily distinct).",
+  "id": "A364728",
+  "mentions": [
+    "A053460",
+    "A111592",
+    "A283550"
+  ],
+  "tags": [
+    "fini",
+    "full",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

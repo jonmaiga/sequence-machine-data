@@ -1,0 +1,19 @@
+{
+  "description": "Total number of distinct ways the divisors of n can be the product of other nontrivial divisors of n.",
+  "id": "A363756",
+  "mentions": [
+    "A000005",
+    "A001055",
+    "A057567"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

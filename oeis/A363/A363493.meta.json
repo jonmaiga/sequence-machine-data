@@ -1,0 +1,26 @@
+{
+  "description": "Number T(n,k) of partitions of [n] having exactly k parity changes within their blocks, n>=0, 0<=k<=max(0,n-1), read by rows.",
+  "id": "A363493",
+  "mentions": [
+    "A000012",
+    "A000110",
+    "A027383",
+    "A124419",
+    "A152874",
+    "A363495",
+    "A363496",
+    "A363511",
+    "A363519",
+    "A363588"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 67,
+    "source": "oeis-bfile"
+  }
+}

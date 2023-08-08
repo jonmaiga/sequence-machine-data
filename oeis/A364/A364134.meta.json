@@ -1,0 +1,14 @@
+{
+  "description": "Number of tilings of a (k*(3k-1)/2, k*(3k+1)/2)-benzel by bones.",
+  "id": "A364134",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

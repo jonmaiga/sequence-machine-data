@@ -1,8 +1,18 @@
 {
   "description": "Number of genus 2, degree n, simply ramified covers of an elliptic curve.",
   "id": "A170991",
-  "mentions": [],
+  "mentions": [
+    "A170992",
+    "A170993",
+    "A170994",
+    "A170995",
+    "A170996",
+    "A170997",
+    "A170998",
+    "A170999"
+  ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {

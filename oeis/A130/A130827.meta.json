@@ -1,9 +1,10 @@
 {
-  "description": "Least k >= 1 such that k^n+n is semiprime, or 0 if no such k exists.",
+  "description": "Least k >= 1 such that k^n + n is semiprime, or 0 if no such k exists.",
   "id": "A130827",
   "mentions": [
     "A072883",
-    "A097792"
+    "A097792",
+    "A361803"
   ],
   "tags": [
     "nonn"

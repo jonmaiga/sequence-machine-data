@@ -1,0 +1,38 @@
+{
+  "description": "Number of integer factorizations of n with different mean, median, and mode.",
+  "id": "A363742",
+  "mentions": [
+    "A001055",
+    "A008284",
+    "A045778",
+    "A074206",
+    "A089723",
+    "A237984",
+    "A240219",
+    "A316439",
+    "A326622",
+    "A339846",
+    "A339890",
+    "A359894",
+    "A359909",
+    "A359910",
+    "A359911",
+    "A362608",
+    "A363265",
+    "A363719",
+    "A363720",
+    "A363725",
+    "A363727",
+    "A363730",
+    "A363741",
+    "A363744"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

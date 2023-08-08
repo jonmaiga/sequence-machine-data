@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of sum( i>=0, 1/(2*i^2+1) ).",
+  "description": "Decimal expansion of Sum_{i>=0} (1/(2*i^2+1)).",
   "id": "A232883",
   "mentions": [
     "A072691",

@@ -2,8 +2,7 @@
   "description": "Prime numbers p for which there is exactly one root x of x^3 - x - 1 in F_p and x is a primitive root mod p.",
   "id": "A134572",
   "mentions": [
-    "A134573",
-    "A134574"
+    "A134573"
   ],
   "tags": [
     "nonn"

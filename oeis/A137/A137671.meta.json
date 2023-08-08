@@ -1,5 +1,5 @@
 {
-  "description": "a(n+1) = number of preceding terms having in binary representation the same number of ones as a(n).",
+  "description": "a(n+1) is the number of preceding terms having in binary representation the same number of ones as a(n), starting with a(1) = 1.",
   "id": "A137671",
   "mentions": [
     "A000120",

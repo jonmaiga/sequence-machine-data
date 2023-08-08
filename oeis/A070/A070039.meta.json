@@ -1,5 +1,5 @@
 {
-  "description": "Sum of divisors of n that are smaller than sqrt(n).",
+  "description": "Sum of the divisors of n that are < sqrt(n).",
   "id": "A070039",
   "mentions": [
     "A000005",

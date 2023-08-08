@@ -2,6 +2,7 @@
   "description": "Lexicographically earliest sequence of distinct terms such that the digits of two contiguous terms sum up to a palindrome.",
   "id": "A308719",
   "mentions": [
+    "A228407",
     "A308727",
     "A308728"
   ],

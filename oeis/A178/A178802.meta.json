@@ -2,18 +2,21 @@
   "description": "Multiply, cell by cell, sequence A048996 by A178801.",
   "id": "A178802",
   "mentions": [
+    "A000041",
+    "A000142",
     "A002866",
     "A048996",
     "A178801"
   ],
   "tags": [
     "easy",
+    "formulas",
     "nonn",
     "tabf"
   ],
   "terms": {
-    "offset": 1,
-    "size": 50,
+    "offset": 0,
+    "size": 51,
     "source": "oeis-entry"
   }
 }

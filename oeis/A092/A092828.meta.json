@@ -1,11 +1,12 @@
 {
-  "description": "Prime Apery B-numbers.",
+  "description": "Prime Apéry B-numbers.",
   "id": "A092828",
   "mentions": [
     "A005258",
     "A092826"
   ],
   "tags": [
+    "hard",
     "more",
     "nonn"
   ],

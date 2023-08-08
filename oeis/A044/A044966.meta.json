@@ -1,5 +1,5 @@
 {
-  "description": "Numbers having no 0's and one 1 in base 3.",
+  "description": "Numbers whose base-3 representation contains no 0's and exactly one 1.",
   "id": "A044966",
   "mentions": [
     "A007089"

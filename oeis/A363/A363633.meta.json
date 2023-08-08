@@ -1,0 +1,19 @@
+{
+  "description": "Decimal expansion of Sum_{k>=2} 1/(k* log(k)^(5/2)).",
+  "id": "A363633",
+  "mentions": [
+    "A115563",
+    "A145419",
+    "A145420",
+    "A363632"
+  ],
+  "tags": [
+    "cons",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

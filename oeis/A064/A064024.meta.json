@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = value of k such that absolute difference of 2^n and 3^k is minimized.",
+  "description": "a(n) = minimum value of abs(2^n - 3^k).",
   "id": "A064024",
   "mentions": [
     "A056850"

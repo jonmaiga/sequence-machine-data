@@ -1,0 +1,20 @@
+{
+  "description": "Number of semimagic quads squares that can be formed using cards from Quads-2^n deck, where the first row and column are fixed.",
+  "id": "A362963",
+  "mentions": [
+    "A361495",
+    "A361613",
+    "A362874",
+    "A362964"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 4,
+    "size": 16,
+    "source": "joeis"
+  }
+}

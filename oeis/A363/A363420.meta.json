@@ -1,0 +1,16 @@
+{
+  "description": "Let D be the largest digit of a(n) + a(n+1). The successive Ds reproduce the successive digits of the sequence. By construction, we do not accept any zero in the sequence. This is the lexicographically earliest sequence of distinct terms > 0 with this property.",
+  "id": "A363420",
+  "mentions": [
+    "A332803"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 67,
+    "source": "oeis-entry"
+  }
+}

@@ -2,14 +2,17 @@
   "description": "Partial sums of A051109.",
   "id": "A117727",
   "mentions": [
-    "A051109"
+    "A051109",
+    "A117717"
   ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
     "size": 30,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Sum_{k>0} (1/(1 - (k*x)^k)^2 - 1).",
+  "id": "A363646",
+  "mentions": [
+    "A007503",
+    "A023887",
+    "A338663",
+    "A362683",
+    "A363647",
+    "A363648"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

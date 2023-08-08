@@ -1,7 +1,9 @@
 {
-  "description": "a(n) = Sum_{k=0..6} C(n,k).",
+  "description": "a(n) = Sum_{k=0..6} binomial(n,k).",
   "id": "A008859",
   "mentions": [
+    "A000124",
+    "A000125",
     "A000127",
     "A006261",
     "A007318",

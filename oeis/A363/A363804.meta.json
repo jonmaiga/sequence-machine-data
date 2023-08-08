@@ -1,0 +1,21 @@
+{
+  "description": "a(n) = Sum_{d|n, d == 0, 3, or 4 mod 7} d.",
+  "id": "A363804",
+  "mentions": [
+    "A284363",
+    "A284444",
+    "A284445",
+    "A363801",
+    "A363803"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 83,
+    "source": "oeis-entry"
+  }
+}

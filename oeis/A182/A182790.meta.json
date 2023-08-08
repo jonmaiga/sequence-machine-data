@@ -1,5 +1,5 @@
 {
-  "description": "Number of n-colorings of the Triangle Graph of order 5.",
+  "description": "Number of n-colorings of the 5 X 5 X 5 triangular grid.",
   "id": "A182790",
   "mentions": [
     "A178435",
@@ -15,12 +15,13 @@
     "A182798"
   ],
   "tags": [
+    "easy",
     "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 17,
-    "source": "oeis-bfile"
+    "size": 19,
+    "source": "joeis"
   }
 }

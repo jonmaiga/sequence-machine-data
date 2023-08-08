@@ -2,7 +2,8 @@
   "description": "Terms in Aronson's sequence (A005224) whose English ordinals do not contain the letter t.",
   "id": "A284744",
   "mentions": [
-    "A005224"
+    "A005224",
+    "A072956"
   ],
   "tags": [
     "nonn",

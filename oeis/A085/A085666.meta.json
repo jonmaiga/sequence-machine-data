@@ -1,7 +1,9 @@
 {
   "description": "Decimal expansion of -tan(tan(tan(1))).",
   "id": "A085666",
-  "mentions": [],
+  "mentions": [
+    "A049471"
+  ],
   "tags": [
     "cons",
     "nonn"

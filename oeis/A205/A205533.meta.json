@@ -1,5 +1,5 @@
 {
-  "description": "Intersection of A205302 and A205511",
+  "description": "Intersection of A205302 and A205511.",
   "id": "A205533",
   "mentions": [
     "A001097",
@@ -11,11 +11,12 @@
     "A205511"
   ],
   "tags": [
+    "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 35,
-    "source": "oeis-entry"
+    "size": 47,
+    "source": "oeis-bfile"
   }
 }

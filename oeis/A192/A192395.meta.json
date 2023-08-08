@@ -1,16 +1,9 @@
 {
-  "description": "Main (or principal) sequence for a(n) = 2*a(n-1) - 2*a(n-2) + a(n-3) + 2*a(n-4).",
+  "description": "a(n) = 2*a(n-1) - 2*a(n-2) + a(n-3) + 2*a(n-4) starting with a(0..3) = 0, 0, 0, 1.",
   "id": "A192395",
   "mentions": [
     "A000045",
-    "A001045",
-    "A014551",
-    "A077925",
-    "A078008",
-    "A083581",
-    "A107920",
-    "A140966",
-    "A151575"
+    "A107920"
   ],
   "tags": [
     "easy",
@@ -19,7 +12,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 39,
+    "size": 42,
     "source": "oeis-bfile"
   }
 }

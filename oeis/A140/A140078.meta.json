@@ -2,14 +2,17 @@
   "description": "Numbers k such that k and k+1 have 4 distinct prime factors.",
   "id": "A140078",
   "mentions": [
+    "A033993",
     "A074851",
     "A093548",
     "A140077",
     "A140079",
+    "A318896",
     "A321494",
     "A321504"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

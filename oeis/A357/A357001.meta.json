@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = A002729(n)-A357000(n)-1.",
+  "description": "a(n) = A002729(n) - A357000(n) - 1.",
   "id": "A357001",
   "mentions": [
     "A002729",
@@ -12,7 +12,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 29,
+    "size": 31,
     "source": "oeis-entry"
   }
 }

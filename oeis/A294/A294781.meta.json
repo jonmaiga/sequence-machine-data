@@ -1,5 +1,5 @@
 {
-  "description": "Growth of the Lamplighter group: number of elements in the Lamplighter group Z ≀ Z of length up to n with respect to the standard generating set {a,t}.",
+  "description": "Growth of the Lamplighter group: number of elements in the Lamplighter group Z wr Z of length up to n with respect to the standard generating set {a,t}.",
   "id": "A294781",
   "mentions": [
     "A294683",

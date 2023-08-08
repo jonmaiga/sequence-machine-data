@@ -1,0 +1,15 @@
+{
+  "description": "Numbers which cannot be written as the sum of 4 distinct proper prime powers (A246547).",
+  "id": "A363287",
+  "mentions": [
+    "A246547"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 72,
+    "source": "oeis-entry"
+  }
+}

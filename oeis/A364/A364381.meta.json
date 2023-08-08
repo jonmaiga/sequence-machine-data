@@ -1,0 +1,40 @@
+{
+  "description": "Starts of runs of 3 consecutive integers that are greedy Jacobsthal-Niven numbers (A364379).",
+  "id": "A364381",
+  "mentions": [
+    "A154701",
+    "A265745",
+    "A265747",
+    "A328206",
+    "A328210",
+    "A328214",
+    "A330932",
+    "A331087",
+    "A331822",
+    "A333428",
+    "A334310",
+    "A342428",
+    "A344343",
+    "A351716",
+    "A351721",
+    "A352091",
+    "A352109",
+    "A352322",
+    "A352344",
+    "A352510",
+    "A364218",
+    "A364379",
+    "A364380",
+    "A364382",
+    "A364383"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-bfile"
+  }
+}

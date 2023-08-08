@@ -1,0 +1,18 @@
+{
+  "description": "Number of alternating sign matrices of size n which are indecomposable by direct and skew sums.",
+  "id": "A363689",
+  "mentions": [
+    "A005130",
+    "A231498",
+    "A359856"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

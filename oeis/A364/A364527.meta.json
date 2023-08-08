@@ -1,0 +1,21 @@
+{
+  "description": "Triangle read by rows giving the number of square arrays composed of the numbers from 1 to n^2, counted up to rotation and reflection, with heterogeneity k, i.e., number of k different sums of rows, columns or diagonals with 1 <= k <= 2*n+2 for n > 1.",
+  "id": "A364527",
+  "mentions": [
+    "A006003",
+    "A006052",
+    "A050257",
+    "A086829",
+    "A088020"
+  ],
+  "tags": [
+    "more",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 16,
+    "source": "oeis-entry"
+  }
+}

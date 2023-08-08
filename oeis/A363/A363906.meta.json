@@ -1,0 +1,20 @@
+{
+  "description": "Decimal expansion of Sum_{n>=1} (arcsin(1/n) - sin(1/n)).",
+  "id": "A363906",
+  "mentions": [
+    "A096444",
+    "A248946",
+    "A342680",
+    "A362662"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

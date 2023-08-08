@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that A007925(n) = n^(n+1) - (n+1)^n is a semiprime.",
+  "description": "Numbers k such that A007925(k) = k^(k+1) - (k+1)^k is a semiprime.",
   "id": "A099497",
   "mentions": [
     "A007925",

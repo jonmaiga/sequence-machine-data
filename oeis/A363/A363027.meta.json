@@ -1,0 +1,22 @@
+{
+  "description": "Sum of divisors of 5*n-4 of form 5*k+2.",
+  "id": "A363027",
+  "mentions": [
+    "A284280",
+    "A359244",
+    "A362952",
+    "A363025",
+    "A363026",
+    "A363032"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 88,
+    "source": "oeis-bfile"
+  }
+}

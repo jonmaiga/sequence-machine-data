@@ -1,15 +1,17 @@
 {
   "description": "Numbers k (with no zero digits) with property that k raised to the product of its digits plus the sum of its digits is prime.",
   "id": "A098797",
-  "mentions": [],
+  "mentions": [
+    "A007953",
+    "A007954"
+  ],
   "tags": [
     "base",
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 27,
+    "size": 38,
     "source": "oeis-entry"
   }
 }

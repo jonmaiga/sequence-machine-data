@@ -1,8 +1,9 @@
 {
-  "description": "Numbers n with property that in base 3 representation the numbers of 0's and 2's are 0 and 4, respectively.",
+  "description": "Numbers whose base-3 representation contains no 0's and exactly four 2's.",
   "id": "A044993",
   "mentions": [
-    "A000389"
+    "A000389",
+    "A007089"
   ],
   "tags": [
     "base",

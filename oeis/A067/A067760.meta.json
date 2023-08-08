@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = least positive k such that (2n+1)+2^k is prime, or 0 if no such k exists.",
+  "description": "a(n) is the least positive k such that (2n+1) + 2^k is prime, or 0 if no such k exists.",
   "id": "A067760",
   "mentions": [
     "A016014",

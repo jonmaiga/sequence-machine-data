@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = 0 if 4 divides n + 1, otherwise (-1)^floor((n + 1) / 4) * 2^floor(n / 2).",
+  "id": "A363524",
+  "mentions": [
+    "A016116",
+    "A046978",
+    "A153641"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

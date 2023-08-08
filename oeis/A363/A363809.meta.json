@@ -1,0 +1,24 @@
+{
+  "description": "Number of permutations of [n] that avoid the patterns 2-41-3, 3-14-2, and 2-1-3-5-4.",
+  "id": "A363809",
+  "mentions": [
+    "A006012",
+    "A006318",
+    "A033321",
+    "A078482",
+    "A106228",
+    "A363810",
+    "A363811",
+    "A363812",
+    "A363813"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

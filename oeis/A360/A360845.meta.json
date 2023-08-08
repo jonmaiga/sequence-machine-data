@@ -1,0 +1,22 @@
+{
+  "description": "Triangle read by rows: T(n,k) is the state of the k-th light after n steps of the light switch problem, 1 <= k <= A003418(n).",
+  "id": "A360845",
+  "mentions": [
+    "A000005",
+    "A000290",
+    "A003418",
+    "A010052",
+    "A138553",
+    "A360872"
+  ],
+  "tags": [
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 81,
+    "source": "oeis-entry"
+  }
+}

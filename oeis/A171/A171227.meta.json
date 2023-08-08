@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 9+10^n+9*100^n is prime.",
+  "description": "Numbers k such that 9 + 10^k + 9*100^k is prime.",
   "id": "A171227",
   "mentions": [
     "A083816"
@@ -10,7 +10,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 10,
+    "size": 12,
     "source": "oeis-entry"
   }
 }

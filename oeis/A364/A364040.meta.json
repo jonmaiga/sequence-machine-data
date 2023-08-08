@@ -1,0 +1,16 @@
+{
+  "description": "a(n) is the least positive number with distinct decimal digits and n prime factors, counted with multiplicity, or -1 if there is no such number.",
+  "id": "A364040",
+  "mentions": [
+    "A363963"
+  ],
+  "tags": [
+    "base",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

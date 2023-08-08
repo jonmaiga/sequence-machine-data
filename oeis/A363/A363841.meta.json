@@ -1,0 +1,20 @@
+{
+  "description": "Continued fraction expansion of Sum_{k>=0} 1/(k!)!^2.",
+  "id": "A363841",
+  "mentions": [
+    "A001511",
+    "A157196",
+    "A336810",
+    "A363842"
+  ],
+  "tags": [
+    "cofr",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 11,
+    "source": "oeis-bfile"
+  }
+}

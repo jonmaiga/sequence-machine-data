@@ -1,0 +1,18 @@
+{
+  "description": "Number of conjugacy classes in the group GL(4,Z_n).",
+  "id": "A364770",
+  "mentions": [
+    "A062354",
+    "A086768"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

@@ -1,19 +1,19 @@
 {
-  "description": "Let r, s, t be three permutations of the set { 1, 2, 3, ..., n }; a(n) = minimal value of Sum_{i=1..n} r(i) s(i) t(i).",
+  "description": "Let r, s, t be three permutations of the set { 1, 2, 3, ..., n }; a(n) = minimal value of Sum_{i=1..n} r(i)*s(i)*t(i).",
   "id": "A070735",
   "mentions": [
     "A000292",
-    "A070736"
+    "A070736",
+    "A072368"
   ],
   "tags": [
     "hard",
-    "more",
     "nice",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 19,
-    "source": "oeis-entry"
+    "size": 45,
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "a(n) is the first number k such that the n Collatz runs starting at the adjacent numbers k, k+1, ..., k+n-1 all have the same prime-valued height while the height in runs starting at k-1 and k+n have nonprime heights.",
+  "description": "a(n) is the first number k such that the n Collatz runs starting at the consecutive numbers k, k+1, ..., k+n-1 all have the same prime-valued height while the runs starting at k-1 and k+n have nonprime heights.",
   "id": "A339773",
   "mentions": [
     "A006577",

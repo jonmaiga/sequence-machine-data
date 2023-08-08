@@ -2,6 +2,7 @@
   "description": "Digits of powers of 7.",
   "id": "A008568",
   "mentions": [
+    "A000420",
     "A210062"
   ],
   "tags": [

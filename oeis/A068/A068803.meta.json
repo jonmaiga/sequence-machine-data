@@ -1,14 +1,16 @@
 {
   "description": "Smaller of two consecutive primes which have no common digits.",
   "id": "A068803",
-  "mentions": [],
+  "mentions": [
+    "A076490"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 35,
-    "source": "oeis-entry"
+    "size": 38,
+    "source": "oeis-bfile"
   }
 }

@@ -1,14 +1,19 @@
 {
-  "description": "Number of n X n X n alternating sign cubes.",
+  "description": "Number of n X n X n alternating sign hypermatrices.",
   "id": "A144017",
-  "mentions": [],
+  "mentions": [
+    "A002860",
+    "A005130"
+  ],
   "tags": [
+    "formulas",
+    "hard",
     "more",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 5,
+    "size": 6,
     "source": "oeis-entry"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "description": "Integers k such that A000010(k) <= A008480(k).",
+  "id": "A364750",
+  "mentions": [
+    "A000010",
+    "A008480"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 32,
+    "source": "oeis-entry"
+  }
+}

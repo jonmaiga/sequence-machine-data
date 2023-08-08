@@ -2,7 +2,9 @@
   "description": "A transform of the Fibonacci numbers.",
   "id": "A099505",
   "mentions": [
-    "A000045"
+    "A000045",
+    "A099503",
+    "A099504"
   ],
   "tags": [
     "easy",

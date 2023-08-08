@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 2^(n-1)+2*n-1 is a prime number.",
+  "description": "Numbers k such that 2^(k-1)+2*k-1 is a prime number.",
   "id": "A192764",
   "mentions": [
     "A004051",
@@ -8,11 +8,12 @@
     "A192436"
   ],
   "tags": [
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

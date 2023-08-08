@@ -1,11 +1,14 @@
 {
-  "description": "A000012^(-2) * A027293.",
+  "description": "Triangle read by rows: A000012^(-2) * A027293 as infinite lower triangular matrices.",
   "id": "A147768",
   "mentions": [
     "A000012",
     "A000041",
     "A002865",
-    "A027293"
+    "A004736",
+    "A027293",
+    "A053445",
+    "A185018"
   ],
   "tags": [
     "formulas",
@@ -15,6 +18,6 @@
   "terms": {
     "offset": 0,
     "size": 78,
-    "source": "oeis-entry"
+    "source": "joeis"
   }
 }

@@ -1,0 +1,35 @@
+{
+  "description": "Number of subsets of {1..n} with elements disjoint from first differences of elements.",
+  "id": "A364463",
+  "mentions": [
+    "A000009",
+    "A000041",
+    "A007865",
+    "A011782",
+    "A025065",
+    "A229816",
+    "A236912",
+    "A237113",
+    "A237667",
+    "A240861",
+    "A320347",
+    "A323092",
+    "A325325",
+    "A326083",
+    "A363260",
+    "A364347",
+    "A364464",
+    "A364465",
+    "A364466"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

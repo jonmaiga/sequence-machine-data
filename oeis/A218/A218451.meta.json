@@ -1,5 +1,5 @@
 {
-  "description": "10^n minus its binary weight.",
+  "description": "a(n) = 10^n minus its binary weight.",
   "id": "A218451",
   "mentions": [
     "A000120",
@@ -14,7 +14,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 18,
-    "source": "joeis"
+    "size": 21,
+    "source": "oeis-bfile"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Number of n X n 0..1 matrices with row and column i=1..n having sum <= i",
+  "description": "Number of n X n 0..1 matrices with row and column i=1..n having sum <= i.",
   "id": "A213955",
   "mentions": [
     "A213962"

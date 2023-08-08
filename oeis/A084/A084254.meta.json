@@ -2,12 +2,22 @@
   "description": "Decimal expansion of Sum_{k>=1} 1/(k*(exp(2*Pi*k)-1)).",
   "id": "A084254",
   "mentions": [
+    "A000203",
     "A003881",
     "A068465",
-    "A094640"
+    "A094640",
+    "A255695",
+    "A255697",
+    "A255698",
+    "A255699",
+    "A255700",
+    "A255701",
+    "A255702",
+    "A255703"
   ],
   "tags": [
     "cons",
+    "easy",
     "formulas",
     "nonn"
   ],

@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Sum_{k>0} x^(2*k) / (1 - x^(3*k))^2.",
+  "id": "A363902",
+  "mentions": [
+    "A001822",
+    "A078182",
+    "A113415",
+    "A363901",
+    "A363904"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 85,
+    "source": "oeis-bfile"
+  }
+}

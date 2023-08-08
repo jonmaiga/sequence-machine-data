@@ -1,0 +1,18 @@
+{
+  "description": "For n >= 0, a(n) is the least integer i >= 0 such that n + p_1 + ... + p_i = q, q prime number, or a(n) = -1 if no such i exists. Here p_1 is the least prime >= n, p_1 < p_2 < ... < p_i are prime numbers (A000040).",
+  "id": "A362267",
+  "mentions": [
+    "A000040",
+    "A007504",
+    "A161463"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 84,
+    "source": "oeis-entry"
+  }
+}

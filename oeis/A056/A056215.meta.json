@@ -1,5 +1,5 @@
 {
-  "description": "Primes p whose period of reciprocal equals (p-1)/10.",
+  "description": "Primes p whose reciprocal has period (p-1)/10.",
   "id": "A056215",
   "mentions": [
     "A055628",

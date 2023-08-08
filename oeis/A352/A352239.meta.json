@@ -1,5 +1,5 @@
 {
-  "description": "Numbers k such that decimal expansion of k and 14^k both begin with 14.",
+  "description": "Numbers k such that the decimal expansion of k and 14^k both begin with 14.",
   "id": "A352239",
   "mentions": [
     "A352179"

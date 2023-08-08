@@ -1,7 +1,10 @@
 {
-  "description": "phi(phi(n)) = sum of prime factors of n.",
+  "description": "Numbers k such that phi(phi(k)) = sum of prime factors of k.",
   "id": "A075863",
-  "mentions": [],
+  "mentions": [
+    "A008472",
+    "A010554"
+  ],
   "tags": [
     "more",
     "nonn"

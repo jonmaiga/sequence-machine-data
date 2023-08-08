@@ -2,10 +2,12 @@
   "description": "n written in fractional base 4/2.",
   "id": "A024630",
   "mentions": [
+    "A007088",
     "A024629"
   ],
   "tags": [
     "base",
+    "easy",
     "formulas",
     "nonn"
   ],

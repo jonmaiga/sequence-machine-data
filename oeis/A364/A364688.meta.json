@@ -1,0 +1,17 @@
+{
+  "description": "Number of 8-cycles in the hypercube graph Q_n.",
+  "id": "A364688",
+  "mentions": [
+    "A001788",
+    "A290031"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

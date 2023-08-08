@@ -1,0 +1,18 @@
+{
+  "description": "Expansion of e.g.f. 3*x/(exp(-3*x)+exp(-x)+exp(x))",
+  "id": "A364112",
+  "mentions": [
+    "A002111",
+    "A083007",
+    "A158073"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

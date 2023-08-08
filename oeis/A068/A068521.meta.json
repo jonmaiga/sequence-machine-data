@@ -1,7 +1,11 @@
 {
   "description": "Decimal expansion of agm(1, 2).",
   "id": "A068521",
-  "mentions": [],
+  "mentions": [
+    "A084895",
+    "A084896",
+    "A084897"
+  ],
   "tags": [
     "cons",
     "easy",

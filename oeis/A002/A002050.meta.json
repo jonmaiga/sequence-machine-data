@@ -2,6 +2,7 @@
   "description": "Number of simplices in barycentric subdivision of n-simplex.",
   "id": "A002050",
   "mentions": [
+    "A000010",
     "A000142",
     "A000225",
     "A000629",

@@ -1,0 +1,18 @@
+{
+  "description": "Number of (strictly) 1-connected cubic graphs on 2n nodes.",
+  "id": "A364404",
+  "mentions": [
+    "A002851",
+    "A204198",
+    "A204199"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 14,
+    "source": "oeis-entry"
+  }
+}

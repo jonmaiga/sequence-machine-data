@@ -1,5 +1,5 @@
 {
-  "description": "Squares (A000290) alternating with centered squares (A001844), in increasing order (i.e., sorted and without duplicates).",
+  "description": "Squares (A000290) and centered squares (A001844), in increasing order (i.e., sorted and without duplicates).",
   "id": "A363282",
   "mentions": [
     "A000290",

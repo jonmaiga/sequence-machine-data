@@ -2,9 +2,14 @@
   "description": "Sum of multinomials M(n-k; p_1-1, ..., p_k-1), where p = (p_1, ..., p_k) ranges over all partitions of n into distinct parts (k is a partition length).",
   "id": "A326493",
   "mentions": [
+    "A000110",
     "A007837",
     "A327711",
-    "A327712"
+    "A327712",
+    "A362362",
+    "A363881",
+    "A364207",
+    "A364278"
   ],
   "tags": [
     "nonn"

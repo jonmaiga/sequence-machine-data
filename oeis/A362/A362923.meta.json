@@ -1,0 +1,16 @@
+{
+  "description": "G.f. = (3*x^4+5*x^2+6*x-7)/(4*x^7+x^4+x^2+x-1).",
+  "id": "A362923",
+  "mentions": [
+    "A364701"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

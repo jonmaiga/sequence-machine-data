@@ -1,5 +1,5 @@
 {
-  "description": "Integers m whose decimal expansion of 1/m contains only even digits.",
+  "description": "Integers m such that the decimal expansion of 1/m contains only even digits.",
   "id": "A353613",
   "mentions": [
     "A353614"

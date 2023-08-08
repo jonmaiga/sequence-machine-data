@@ -1,0 +1,24 @@
+{
+  "description": "a(n) is the smallest primitive binary Niven number (A363787) whose binary representation is ending with n zeros.",
+  "id": "A363789",
+  "mentions": [
+    "A000120",
+    "A007814",
+    "A049445",
+    "A066524",
+    "A143115",
+    "A358256",
+    "A363787"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 9,
+    "source": "oeis-bfile"
+  }
+}

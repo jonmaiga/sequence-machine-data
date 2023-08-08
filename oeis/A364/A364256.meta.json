@@ -1,0 +1,19 @@
+{
+  "description": "a(n) = gcd(n, A243071(n)).",
+  "id": "A364256",
+  "mentions": [
+    "A000720",
+    "A064989",
+    "A243071",
+    "A364254",
+    "A364255"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

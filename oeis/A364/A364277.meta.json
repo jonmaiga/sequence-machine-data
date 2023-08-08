@@ -1,0 +1,18 @@
+{
+  "description": "Number of permutations of [n] such that no cycle contains its length as an element.",
+  "id": "A364277",
+  "mentions": [
+    "A362362",
+    "A363881",
+    "A364279",
+    "A364406"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-entry"
+  }
+}

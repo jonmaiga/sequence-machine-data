@@ -1,5 +1,5 @@
 {
-  "description": "Number of nXnXn triangular binary arrays with no three ones adjacent in a row in any of the three triangular directions",
+  "description": "Number of n X n X n triangular binary arrays with no three 1's adjacent in a row in any of the three triangular directions.",
   "id": "A183277",
   "mentions": [],
   "tags": [

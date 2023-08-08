@@ -1,5 +1,5 @@
 {
-  "description": "Number of (n+1)X3 binary arrays with every 2X2 subblock sum equal to some horizontal or vertical neighbor 2X2 subblock sum",
+  "description": "Number of (n+1) X 3 binary arrays with every 2 X 2 subblock sum equal to some horizontal or vertical neighbor 2 X 2 subblock sum.",
   "id": "A185490",
   "mentions": [
     "A185497"

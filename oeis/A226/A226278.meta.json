@@ -1,11 +1,12 @@
 {
-  "description": "The decimal expansion of the number x > 1 defined by 2*log(x) = x-1.",
+  "description": "Decimal expansion of the number x > 1 defined by 2*log(x) = x - 1.",
   "id": "A226278",
   "mentions": [
     "A201890"
   ],
   "tags": [
     "cons",
+    "formulas",
     "nonn"
   ],
   "terms": {

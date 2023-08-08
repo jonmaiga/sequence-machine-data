@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of zeta(3) * primezeta(2).",
+  "id": "A364490",
+  "mentions": [
+    "A002117",
+    "A008472",
+    "A085548",
+    "A183699",
+    "A364488"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

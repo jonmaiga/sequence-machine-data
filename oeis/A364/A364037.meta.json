@@ -1,0 +1,16 @@
+{
+  "description": "Least number k such that the floor of the average of the distinct prime factors of k is n, or -1 if no such number exists.",
+  "id": "A364037",
+  "mentions": [
+    "A363895"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 2,
+    "size": 60,
+    "source": "oeis-entry"
+  }
+}

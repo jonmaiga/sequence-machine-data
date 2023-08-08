@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that p+1 can be written as a product of smaller numbers that are also of the form prime+1.",
+  "id": "A363638",
+  "mentions": [
+    "A008864",
+    "A066938",
+    "A363636",
+    "A363750"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 54,
+    "source": "oeis-entry"
+  }
+}

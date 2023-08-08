@@ -1,10 +1,12 @@
 {
-  "description": "Final digits of !n = Sum i!, i=0..n, (A003422) for very large n, read from right.",
+  "description": "Final digits of !n = Sum_{i=0..n} i! (A003422) for very large n, read from right.",
   "id": "A025016",
   "mentions": [
+    "A000142",
     "A003422",
     "A014182",
-    "A014619"
+    "A014619",
+    "A065356"
   ],
   "tags": [
     "base",

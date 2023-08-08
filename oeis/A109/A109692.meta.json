@@ -1,5 +1,5 @@
 {
-  "description": "Triangle of coefficients in expansion of (1+x)(1+3x)(1+5x)(1+7x)...(1+(2n-1)x).",
+  "description": "Triangle of coefficients in expansion of (1+x)*(1+3x)*(1+5x)*(1+7x)*...*(1+(2n-1)x).",
   "id": "A109692",
   "mentions": [
     "A000012",

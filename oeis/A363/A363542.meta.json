@@ -1,0 +1,18 @@
+{
+  "description": "G.f. satisfies A(x) = exp( Sum_{k>=1} (-1)^(k+1) * (2^k + A(x^k)) * x^k/k ).",
+  "id": "A363542",
+  "mentions": [
+    "A038075",
+    "A362389",
+    "A363543"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

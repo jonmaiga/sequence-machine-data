@@ -2,6 +2,7 @@
   "description": "Digits of powers of 5.",
   "id": "A008566",
   "mentions": [
+    "A000351",
     "A210435"
   ],
   "tags": [

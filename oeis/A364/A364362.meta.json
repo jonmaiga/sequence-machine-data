@@ -1,0 +1,16 @@
+{
+  "description": "Consider all the ways to make sequences of distinct nonnegative integers using all the digits of n, such that no term has leading 0's or appears more than once in the sequence. a(n) is the minimum possible sum of any sequence of n.",
+  "id": "A364362",
+  "mentions": [
+    "A331472"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 77,
+    "source": "oeis-entry"
+  }
+}

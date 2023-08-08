@@ -2,6 +2,7 @@
   "description": "a(n) is the total sum of the digits of n-digit primes.",
   "id": "A130817",
   "mentions": [
+    "A006879",
     "A007953"
   ],
   "tags": [

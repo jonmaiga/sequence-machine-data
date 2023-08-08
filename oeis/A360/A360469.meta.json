@@ -1,5 +1,5 @@
 {
-  "description": "Least positive integer k such that A093179(n) divides the generalized Fermat number A007117(n)^2^k + 1.",
+  "description": "Only k >= 0 such that, for every odd r > 0, A093179(n) divides the generalized Fermat number (A007117(n)^r)^(2^k) + 1.",
   "id": "A360469",
   "mentions": [
     "A000215",

@@ -1,0 +1,22 @@
+{
+  "description": "G.f. satisfies A(x) = (1 + x*A(x)) * (1 + x*A(x)^6).",
+  "id": "A364340",
+  "mentions": [
+    "A007863",
+    "A198953",
+    "A215623",
+    "A215624",
+    "A239109",
+    "A364333",
+    "A364339"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 21,
+    "source": "oeis-entry"
+  }
+}

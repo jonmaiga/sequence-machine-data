@@ -1,5 +1,5 @@
 {
-  "description": "Number of i such that d(i)>d(i-1), where Sum{d(i)*7^i: i=0,1,....,m} is base 7 representation of n.",
+  "description": "Number of i such that d(i) > d(i-1), where Sum_{i=0..m} d(i)*7^i is the base-7 representation of n.",
   "id": "A037822",
   "mentions": [
     "A037805"

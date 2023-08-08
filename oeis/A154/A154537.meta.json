@@ -1,5 +1,5 @@
 {
-  "description": "Triangle T(n,m) read by rows: let p(x,n) = Sum_{m>=0} (2*m + 1)^n * x^m / m! / exp(x); then T(n,m) = [x^m] p(x,n).",
+  "description": "Triangle T(n,m) read by rows: let p(n,x) = exp(-x) * Sum_{m >= 0} (2*m + 1)^n * x^m/m!; then T(n,m) = [x^m] p(n,x).",
   "id": "A154537",
   "mentions": [
     "A000110",

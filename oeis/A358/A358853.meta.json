@@ -6,13 +6,11 @@
     "A270273"
   ],
   "tags": [
-    "hard",
-    "more",
     "nonn"
   ],
   "terms": {
-    "offset": 3,
-    "size": 6,
+    "offset": 2,
+    "size": 20,
     "source": "oeis-entry"
   }
 }

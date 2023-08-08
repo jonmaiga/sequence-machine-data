@@ -1,0 +1,21 @@
+{
+  "description": "Numbers k such that there is no odd number whose aliquot sequence contains k.",
+  "id": "A363875",
+  "mentions": [
+    "A001065",
+    "A005114",
+    "A238382",
+    "A283152",
+    "A284147",
+    "A284156",
+    "A284187"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 53,
+    "source": "oeis-entry"
+  }
+}

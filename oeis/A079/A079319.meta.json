@@ -1,5 +1,5 @@
 {
-  "description": "a(0) = 1; for n > 1, a(n) = 4*a(n-1) - (2^n-1).",
+  "description": "a(0) = 1; for n >= 1, a(n) = 4*a(n-1) - (2^n-1).",
   "id": "A079319",
   "mentions": [
     "A079314",
@@ -17,6 +17,6 @@
   "terms": {
     "offset": 0,
     "size": 24,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

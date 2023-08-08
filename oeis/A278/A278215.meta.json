@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows: T(n, k) with 0 <= k <= n^2 is the maximum number of moves that can be made by k non-attacking rooks on an n X n board.",
+  "description": "Triangle read by rows: T(n, k) with 0 <= k <= n^2 is the maximum number of possible moves that can be made by k rooks of the same color on an n X n board.",
   "id": "A278215",
   "mentions": [
     "A278211",
@@ -7,13 +7,12 @@
     "A278214"
   ],
   "tags": [
-    "more",
     "nonn",
     "tabf"
   ],
   "terms": {
     "offset": 1,
     "size": 60,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "description": "Numerators of coefficients in expansion of sqrt( 1 + x + 2*x^2 + 3*x^3 + 4*x^4 + ... ).",
+  "id": "A364703",
+  "mentions": [
+    "A001790",
+    "A046161",
+    "A261419",
+    "A261420"
+  ],
+  "tags": [
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 28,
+    "source": "oeis-entry"
+  }
+}

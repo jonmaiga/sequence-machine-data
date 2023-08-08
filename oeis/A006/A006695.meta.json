@@ -1,5 +1,5 @@
 {
-  "description": "a(2n)=2*a(2n-2)^2-1, a(2n+1)=2a(2n)-1, a(0)=2.",
+  "description": "a(2n)=2*a(2n-2)^2-1, a(2n+1)=2*a(2n)-1, a(0)=2.",
   "id": "A006695",
   "mentions": [
     "A001075",
@@ -10,6 +10,7 @@
   ],
   "tags": [
     "easy",
+    "formulas",
     "nice",
     "nonn"
   ],

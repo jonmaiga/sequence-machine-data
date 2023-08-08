@@ -1,5 +1,5 @@
 {
-  "description": "Iterated hyperdodecahedron numbers, starting with hyperdodecahedron(2) = 600. The hyperdodecahedron numbers are 4-dimensional figurate numbers based on the 120-cell regular polytope, also known as the hecatonicosachoron or hyperdodecahedron. This sequence is hyperdodecahedron(2), hyperdodecahedron(hyperdodecahedron(2)) and so on recursively.",
+  "description": "a(n+1) = a(n)*((261*a(n)^3)-(504*a(n)^2)+(283*a(n))-38)/2 for n > 0, a(0) = 2.",
   "id": "A100011",
   "mentions": [
     "A000332",
@@ -9,7 +9,6 @@
   ],
   "tags": [
     "easy",
-    "formulas",
     "nonn"
   ],
   "terms": {

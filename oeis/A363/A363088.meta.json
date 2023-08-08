@@ -1,0 +1,15 @@
+{
+  "description": "Positive numbers k for which sin(k) >= cos(k).",
+  "id": "A363088",
+  "mentions": [
+    "A363089"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 66,
+    "source": "oeis-entry"
+  }
+}

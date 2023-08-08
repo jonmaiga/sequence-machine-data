@@ -1,0 +1,20 @@
+{
+  "description": "a(n) is the least prime p such that the number of distinct prime factors of p^n + 1 sets a new record.",
+  "id": "A362957",
+  "mentions": [
+    "A001221",
+    "A115973",
+    "A125137",
+    "A280005"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 15,
+    "source": "oeis-entry"
+  }
+}

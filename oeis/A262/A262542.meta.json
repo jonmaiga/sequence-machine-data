@@ -2,15 +2,15 @@
   "description": "List of numbers arising in Theorem 5 of Morris Newman's \"Further identities and congruences for the coefficients of modular forms\".",
   "id": "A262542",
   "mentions": [
+    "A010819",
     "A262308"
   ],
   "tags": [
-    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
-    "source": "oeis-entry"
+    "size": 60,
+    "source": "oeis-bfile"
   }
 }

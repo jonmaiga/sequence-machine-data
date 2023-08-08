@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest permutation of the positive integers such that the successive cumulative products reproduce the sequence itself, digit by digit.",
+  "id": "A364697",
+  "mentions": [
+    "A309151",
+    "A364664"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

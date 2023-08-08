@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of the (finite) value of the Sum_ { k >= 1, k has no odd digit in base 10 } 1/k.",
+  "description": "Decimal expansion of the (finite) value of Sum_{ k >= 1, k has no odd digit in base 10 } 1/k.",
   "id": "A194182",
   "mentions": [
     "A014263",

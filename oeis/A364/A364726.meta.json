@@ -1,0 +1,28 @@
+{
+  "description": "Admirable numbers with more divisors than any smaller admirable number.",
+  "id": "A364726",
+  "mentions": [
+    "A000005",
+    "A000043",
+    "A000396",
+    "A002182",
+    "A109745",
+    "A111592",
+    "A136404",
+    "A165772",
+    "A335008",
+    "A335317",
+    "A348198",
+    "A359963",
+    "A359964"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 18,
+    "source": "oeis-entry"
+  }
+}

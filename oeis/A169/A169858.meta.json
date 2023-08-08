@@ -2,11 +2,13 @@
   "description": "Smallest integer k such that k or one of its left substrings (or prefixes, regarded as an integer) is divisible by any integer from {1,2,...,n}.",
   "id": "A169858",
   "mentions": [
+    "A003418",
     "A175516",
     "A177834"
   ],
   "tags": [
     "base",
+    "formulas",
     "nonn"
   ],
   "terms": {

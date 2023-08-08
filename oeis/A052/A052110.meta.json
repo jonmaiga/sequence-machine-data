@@ -1,5 +1,5 @@
 {
-  "description": "The decimal expansion of c^c^c^... where c is the constant defined in A037077.",
+  "description": "Decimal expansion of c^c^c^... where c is the constant defined in A037077.",
   "id": "A052110",
   "mentions": [
     "A000027",

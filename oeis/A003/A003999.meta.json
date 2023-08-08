@@ -2,10 +2,15 @@
   "description": "Sum of distinct nonzero 4th powers.",
   "id": "A003999",
   "mentions": [
+    "A001661",
+    "A003995",
     "A003997",
     "A046039",
     "A194768",
-    "A194769"
+    "A194769",
+    "A217844",
+    "A332065",
+    "A364637"
   ],
   "tags": [
     "easy",

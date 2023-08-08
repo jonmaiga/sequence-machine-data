@@ -1,8 +1,10 @@
 {
-  "description": "Number of (w,x,y) with all terms in {0,...,n} and w!=x and x>range{w,x,y}.",
+  "description": "Number of (w,x,y) with all terms in {0,...,n} and w != x and x > range(w,x,y).",
   "id": "A212969",
   "mentions": [
-    "A212959"
+    "A045991",
+    "A212959",
+    "A212970"
   ],
   "tags": [
     "easy",

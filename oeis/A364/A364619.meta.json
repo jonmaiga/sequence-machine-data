@@ -1,0 +1,17 @@
+{
+  "description": "Number of 4-cycles in the n-Pell graph.",
+  "id": "A364619",
+  "mentions": [
+    "A000129",
+    "A001333"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-entry"
+  }
+}

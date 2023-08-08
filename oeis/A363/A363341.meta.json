@@ -1,0 +1,22 @@
+{
+  "description": "Number of positive integers k <= n such that round(n/k) is odd.",
+  "id": "A363341",
+  "mentions": [
+    "A001826",
+    "A001842",
+    "A002654",
+    "A057655",
+    "A059851",
+    "A077024",
+    "A330926"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

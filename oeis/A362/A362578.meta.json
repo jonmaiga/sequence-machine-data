@@ -1,0 +1,18 @@
+{
+  "description": "Prime numbers followed by two consecutive numbers which are products of four distinct primes (or tetraprimes).",
+  "id": "A362578",
+  "mentions": [
+    "A000040",
+    "A046386",
+    "A140078",
+    "A361796"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-entry"
+  }
+}

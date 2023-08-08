@@ -1,0 +1,19 @@
+{
+  "description": "Rectangular array by descending antidiagonals: row n consists of the numbers k such that n = 1 + maximal runlength of 0's in the ternary representation of k.",
+  "id": "A363995",
+  "mentions": [
+    "A000244",
+    "A032924",
+    "A363996"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 58,
+    "source": "oeis-entry"
+  }
+}

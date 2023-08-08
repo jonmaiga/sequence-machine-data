@@ -1,18 +1,26 @@
 {
-  "description": "Row sums of A179972 and also of A179974.",
+  "description": "Number of permutations of [n] whose cycle lengths are nondecreasing when cycles are ordered by their minima and these minima are {1..k} (for some k <= n).",
   "id": "A179973",
   "mentions": [
-    "A172974",
+    "A000041",
+    "A000142",
+    "A000522",
+    "A004086",
+    "A053529",
+    "A055642",
     "A179972",
-    "A179974"
+    "A179974",
+    "A327711",
+    "A362362",
+    "A364128"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 8,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 24,
+    "source": "oeis-bfile"
   }
 }

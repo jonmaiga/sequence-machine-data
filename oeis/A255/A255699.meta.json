@@ -1,9 +1,11 @@
 {
-  "description": "Decimal expansion of the Plouffe sum S(3,2) = Sum_{n >= 0} 1/(n^3*(exp(2*Pi*n)-1)).",
+  "description": "Decimal expansion of the Plouffe sum S(3,2) = Sum_{n >= 1} 1/(n^3*(exp(2*Pi*n)-1)).",
   "id": "A255699",
   "mentions": [
+    "A001158",
+    "A002117",
+    "A084254",
     "A255695",
-    "A255696",
     "A255697",
     "A255698",
     "A255700",

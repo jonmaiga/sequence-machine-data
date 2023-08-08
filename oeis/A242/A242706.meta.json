@@ -2,7 +2,8 @@
   "description": "Inverse permutation to A242705.",
   "id": "A242706",
   "mentions": [
-    "A242705"
+    "A242705",
+    "A242722"
   ],
   "tags": [
     "base",

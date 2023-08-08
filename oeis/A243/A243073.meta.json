@@ -1,5 +1,5 @@
 {
-  "description": "Third order Bulgarian solitaire operation on partition list A112798: a(1) = 1, a(n) = A000040(A001222(n)) * A243072(A064989(n)).",
+  "description": "Third-order Bulgarian solitaire operation on partition list A112798: a(1) = 1, a(n) = A000040(A001222(n)) * A243072(A064989(n)).",
   "id": "A243073",
   "mentions": [
     "A000040",

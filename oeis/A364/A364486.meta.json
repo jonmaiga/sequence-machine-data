@@ -1,0 +1,18 @@
+{
+  "description": "Number of fixed triangular n-ominoes of the regular tiling with Schläfli symbol {3,6} that have a common axis of symmetry coincident with cell altitudes and the point of the polyomino farthest along that axis in a specified direction is a cell vertex.",
+  "id": "A364486",
+  "mentions": [
+    "A030223",
+    "A364485",
+    "A364487"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 41,
+    "source": "oeis-bfile"
+  }
+}

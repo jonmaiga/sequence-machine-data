@@ -1,5 +1,5 @@
 {
-  "description": "a(n)=(s(n)+1)/5, where s(n)=n-th base 5 palindrome that starts with 4.",
+  "description": "a(n) = (s(n) + 1)/5, where s(n) = n-th base-5 palindrome that starts with 4.",
   "id": "A043053",
   "mentions": [],
   "tags": [

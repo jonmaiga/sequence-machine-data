@@ -2,8 +2,10 @@
   "description": "Numbers which are the sum or difference of two fifth powers.",
   "id": "A247099",
   "mentions": [
+    "A000584",
     "A004831",
-    "A004842"
+    "A004842",
+    "A181124"
   ],
   "tags": [
     "formulas",

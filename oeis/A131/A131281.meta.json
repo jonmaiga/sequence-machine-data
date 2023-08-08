@@ -1,5 +1,5 @@
 {
-  "description": "E.g.f.: 2*(x-1)*tan(x/2+Pi/4)-x^2+2.",
+  "description": "Expansion of e.g.f.: 2*(x-1)*tan(x/2+Pi/4)-x^2+2.",
   "id": "A131281",
   "mentions": [
     "A034428"

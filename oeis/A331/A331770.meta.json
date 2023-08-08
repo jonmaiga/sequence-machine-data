@@ -2,16 +2,17 @@
   "description": "El Gradechi's hybrid coefficients alpha^{6,6}_{2n}, negated.",
   "id": "A331770",
   "mentions": [
+    "A002299",
     "A331768",
     "A331769"
   ],
   "tags": [
-    "more",
+    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 5,
-    "source": "oeis-entry"
+    "size": 27,
+    "source": "oeis-bfile"
   }
 }

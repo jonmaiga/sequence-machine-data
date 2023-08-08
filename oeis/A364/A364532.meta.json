@@ -1,0 +1,48 @@
+{
+  "description": "Positive integers with a prime index equal to the sum of prime indices of some nonprime divisor. Heinz numbers of a variation of sum-full partitions.",
+  "id": "A364532",
+  "mentions": [
+    "A000005",
+    "A001222",
+    "A033273",
+    "A055212",
+    "A056239",
+    "A085489",
+    "A088809",
+    "A093971",
+    "A108917",
+    "A112798",
+    "A151897",
+    "A236912",
+    "A237113",
+    "A237667",
+    "A237668",
+    "A275972",
+    "A299701",
+    "A299702",
+    "A299729",
+    "A301900",
+    "A325777",
+    "A325864",
+    "A326083",
+    "A363225",
+    "A364272",
+    "A364345",
+    "A364347",
+    "A364348",
+    "A364349",
+    "A364350",
+    "A364461",
+    "A364462",
+    "A364531",
+    "A364534"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

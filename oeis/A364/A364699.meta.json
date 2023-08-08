@@ -1,0 +1,17 @@
+{
+  "description": "Numbers k such that 1 + 2^k + 3^k is divisible by 2*k-1",
+  "id": "A364699",
+  "mentions": [
+    "A001550",
+    "A290402",
+    "A364683"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 62,
+    "source": "oeis-bfile"
+  }
+}

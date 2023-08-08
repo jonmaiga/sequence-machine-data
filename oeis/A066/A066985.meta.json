@@ -1,5 +1,5 @@
 {
-  "description": "Reflective numbers: n such that the decimal encoding of the prime factorization of n (A067599) is palindronomic.",
+  "description": "Reflective numbers: k such that the decimal encoding of the prime factorization of k (A067599) is palindromic.",
   "id": "A066985",
   "mentions": [
     "A067598",
@@ -10,7 +10,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 2,
+    "offset": 1,
     "size": 45,
     "source": "oeis-entry"
   }

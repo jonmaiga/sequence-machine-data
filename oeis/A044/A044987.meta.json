@@ -1,7 +1,9 @@
 {
-  "description": "Numbers k whose base-3 representation has four 0's and two 1's.",
+  "description": "Numbers whose base-3 representation contains exactly four 0's and two 1's.",
   "id": "A044987",
-  "mentions": [],
+  "mentions": [
+    "A007089"
+  ],
   "tags": [
     "base",
     "nonn"

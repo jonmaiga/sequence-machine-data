@@ -1,0 +1,17 @@
+{
+  "description": "Least k such that 2^k begins with n but is not exactly n.",
+  "id": "A363873",
+  "mentions": [
+    "A000079",
+    "A018856"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 70,
+    "source": "oeis-entry"
+  }
+}

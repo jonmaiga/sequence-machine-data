@@ -1,0 +1,24 @@
+{
+  "description": "Triangle T(n,k) read by rows: Number of traceless binary n X n matrices with all row and column sums equal to k, 1<=k<=n.",
+  "id": "A364068",
+  "mentions": [
+    "A000166",
+    "A007105",
+    "A007107",
+    "A008300",
+    "A284989",
+    "A284990",
+    "A284991"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 38,
+    "source": "oeis-entry"
+  }
+}

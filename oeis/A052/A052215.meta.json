@@ -2,6 +2,7 @@
   "description": "a(n) = smallest number m such that m and m+1 are the product of exactly n distinct primes.",
   "id": "A052215",
   "mentions": [
+    "A005117",
     "A093548",
     "A093549",
     "A093550",
@@ -10,6 +11,7 @@
   ],
   "tags": [
     "hard",
+    "more",
     "nice",
     "nonn"
   ],

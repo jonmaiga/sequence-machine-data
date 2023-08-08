@@ -1,5 +1,5 @@
 {
-  "description": "a(n) = Product_{k=1..n} d(k); d(k) is the number of positive divisors of k.",
+  "description": "a(n) = Product_{k=1..n} d(k); d(k) = A000005(k) is the number of positive divisors of k.",
   "id": "A066843",
   "mentions": [
     "A000005",
@@ -12,8 +12,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 27,
+    "offset": 0,
+    "size": 29,
     "source": "oeis-bfile"
   }
 }

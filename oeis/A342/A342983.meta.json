@@ -2,6 +2,9 @@
   "description": "Number of tree-rooted planar maps with n+1 vertices and n+1 faces.",
   "id": "A342983",
   "mentions": [
+    "A000108",
+    "A001246",
+    "A001448",
     "A215288",
     "A342982"
   ],

@@ -1,7 +1,9 @@
 {
   "description": "Smallest nonsquarefree multiple of n.",
   "id": "A088613",
-  "mentions": [],
+  "mentions": [
+    "A013929"
+  ],
   "tags": [
     "easy",
     "formulas",

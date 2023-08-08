@@ -2,6 +2,8 @@
   "description": "a(n) = Sum_{k=1..n} C(n-1,k-1) * S2(n,k) for n>0, a(0)=1, where S2(n,k) = A048993(n,k) are Stirling numbers of the 2nd kind.",
   "id": "A134055",
   "mentions": [
+    "A037011",
+    "A048297",
     "A048993",
     "A122455",
     "A218667",
@@ -16,6 +18,6 @@
   "terms": {
     "offset": 0,
     "size": 22,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

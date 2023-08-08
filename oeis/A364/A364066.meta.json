@@ -1,0 +1,19 @@
+{
+  "description": "Expansion of Sum_{k>0} k * x^k / (1 - x^(3*k-1)).",
+  "id": "A364066",
+  "mentions": [
+    "A359211",
+    "A363890",
+    "A364063",
+    "A364085"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 79,
+    "source": "oeis-bfile"
+  }
+}

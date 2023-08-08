@@ -2,6 +2,7 @@
   "description": "The difference between floor(log_2(.)) of and the number of prime factors in A156552(n) (when counted with multiplicity).",
   "id": "A342657",
   "mentions": [
+    "A000430",
     "A000523",
     "A001222",
     "A003961",
@@ -24,6 +25,6 @@
   "terms": {
     "offset": 2,
     "size": 104,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

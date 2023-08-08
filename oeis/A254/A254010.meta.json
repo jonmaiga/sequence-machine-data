@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 4n+1 and 4(n+1)+1 are primes.",
+  "description": "Numbers k such that 4k+1 and 4(k+1)+1 are primes.",
   "id": "A254010",
   "mentions": [
     "A005098"
@@ -10,6 +10,6 @@
   "terms": {
     "offset": 1,
     "size": 65,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

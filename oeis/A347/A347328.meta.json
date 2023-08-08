@@ -2,7 +2,9 @@
   "description": "Decimal expansion of zeta(6) / zeta(3).",
   "id": "A347328",
   "mentions": [
+    "A002117",
     "A008836",
+    "A013664",
     "A182448",
     "A347329",
     "A347330",

@@ -2,6 +2,7 @@
   "description": "Admirable numbers such that the subtracted divisor is a Fibonacci number.",
   "id": "A282754",
   "mentions": [
+    "A000045",
     "A010056",
     "A111592"
   ],
@@ -11,6 +12,6 @@
   "terms": {
     "offset": 1,
     "size": 38,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

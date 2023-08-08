@@ -1,0 +1,17 @@
+{
+  "description": "Number of polynomials (with nonnegative coefficients) of Cantor's height n and degree k (in the range {1, 2, ..., n-1}), for n >= 2; and for n = 1 the degree is k = 1.",
+  "id": "A364314",
+  "mentions": [
+    "A364312",
+    "A364313"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 7,
+    "source": "oeis-entry"
+  }
+}

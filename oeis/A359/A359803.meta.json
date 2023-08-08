@@ -1,0 +1,18 @@
+{
+  "description": "a(1) = 1; for n > 1, a(n) = n-1 if a(n-1) = 1, otherwise, apply the '3x+1' function to a(n-1)",
+  "id": "A359803",
+  "mentions": [
+    "A014682",
+    "A070165"
+  ],
+  "tags": [
+    "easy",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 71,
+    "source": "oeis-entry"
+  }
+}

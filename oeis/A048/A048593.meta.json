@@ -1,15 +1,16 @@
 {
-  "description": "Converse numbers: composite Fibonacci numbers Fib(n) that are congruent to Legendre symbol (n/5) mod n.",
+  "description": "Converse numbers: composite Fibonacci numbers Fib(k) that are congruent to Legendre symbol (k/5) mod k.",
   "id": "A048593",
   "mentions": [
-    "A000045"
+    "A000045",
+    "A080891"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 12,
-    "source": "joeis"
+    "size": 18,
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "description": "a(1)=1 and thereafter a(n) is the least number of locations 1..n-1 which can be visited in a single path beginning at i=n-1, in which one proceeds from location i to i +- a(i) (within 1..n-1) until no further unvisited location is available.",
+  "id": "A364392",
+  "mentions": [
+    "A360593",
+    "A360745",
+    "A360746"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-bfile"
+  }
+}

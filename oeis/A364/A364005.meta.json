@@ -1,0 +1,32 @@
+{
+  "description": "Numbers whose Wythoff representation (A189921, A317208) is palindromic.",
+  "id": "A364005",
+  "mentions": [
+    "A001519",
+    "A002113",
+    "A006995",
+    "A014190",
+    "A094202",
+    "A157725",
+    "A189921",
+    "A232970",
+    "A317208",
+    "A331191",
+    "A351712",
+    "A351717",
+    "A352087",
+    "A352105",
+    "A352319",
+    "A352341",
+    "A352507"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 57,
+    "source": "oeis-bfile"
+  }
+}

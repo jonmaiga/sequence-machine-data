@@ -1,5 +1,5 @@
 {
-  "description": "Decimal expansion of (24e^5-96e^4+108e^3-32e^2+e)/24.",
+  "description": "Decimal expansion of (24e^5 - 96e^4 + 108e^3 - 32e^2 + e)/24.",
   "id": "A090611",
   "mentions": [
     "A001113",

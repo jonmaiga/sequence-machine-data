@@ -1,0 +1,21 @@
+{
+  "description": "Expansion of Sum_{k>0} x^(2*k)/(1-x^k)^6.",
+  "id": "A363606",
+  "mentions": [
+    "A032741",
+    "A065608",
+    "A069153",
+    "A363604",
+    "A363605"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 39,
+    "source": "oeis-bfile"
+  }
+}

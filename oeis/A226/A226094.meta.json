@@ -1,5 +1,5 @@
 {
-  "description": "The decimal expansion of the number x defined by x^x+log(x)=0.",
+  "description": "Decimal expansion of the number x defined by x^x + log(x) = 0.",
   "id": "A226094",
   "mentions": [],
   "tags": [

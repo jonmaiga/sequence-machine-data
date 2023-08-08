@@ -1,0 +1,20 @@
+{
+  "description": "Expansion of Sum_{k>0} x^(2*k)/(1+x^k)^5.",
+  "id": "A363613",
+  "mentions": [
+    "A325940",
+    "A363022",
+    "A363598",
+    "A363605",
+    "A363614"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

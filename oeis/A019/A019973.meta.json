@@ -2,6 +2,8 @@
   "description": "Decimal expansion of tangent of 75 degrees.",
   "id": "A019973",
   "mentions": [
+    "A001075",
+    "A001353",
     "A002194"
   ],
   "tags": [

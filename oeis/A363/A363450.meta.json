@@ -1,0 +1,17 @@
+{
+  "description": "Partial sums of A180405.",
+  "id": "A363450",
+  "mentions": [
+    "A180405",
+    "A363379"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-bfile"
+  }
+}

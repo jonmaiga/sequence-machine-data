@@ -1,0 +1,17 @@
+{
+  "description": "Number of iterations of phi(x) at n needed to reach a cube.",
+  "id": "A363680",
+  "mentions": [
+    "A000010",
+    "A003434",
+    "A363612"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 87,
+    "source": "oeis-entry"
+  }
+}

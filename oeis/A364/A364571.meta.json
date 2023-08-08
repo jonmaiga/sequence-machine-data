@@ -1,0 +1,23 @@
+{
+  "description": "a(n) = A297171(A163511(n)), where A297171 is the Möbius transform of the inverse permutation of A163511.",
+  "id": "A364571",
+  "mentions": [
+    "A005940",
+    "A054429",
+    "A156552",
+    "A163511",
+    "A243071",
+    "A297171",
+    "A364567"
+  ],
+  "tags": [
+    "formulas",
+    "look",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 90,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of g.f. A(x) satisfying 1 = Sum_{n>=0} x^n / (1 - (-x)^(n+1)*A(x)).",
+  "id": "A363306",
+  "mentions": [
+    "A340329"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 29,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,8 +1,7 @@
 {
-  "description": "Triangle read by rows, 2*A126988 - A000012, 1<=k<=n.",
+  "description": "Triangle read by rows: T(n, k) = 2*A126988(n, k) - signum(A126988(n, k)).",
   "id": "A143315",
   "mentions": [
-    "A000012",
     "A051731",
     "A126988",
     "A129235"
@@ -14,7 +13,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 90,
+    "size": 91,
     "source": "oeis-entry"
   }
 }

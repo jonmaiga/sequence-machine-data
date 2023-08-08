@@ -1,0 +1,21 @@
+{
+  "description": "Squares (A000290) and centered squares (A001844) sorted, including duplicates.",
+  "id": "A363319",
+  "mentions": [
+    "A000290",
+    "A001844",
+    "A008844",
+    "A363267",
+    "A363282"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

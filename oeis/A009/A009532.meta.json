@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of sin(x)*cos(log(1+x)).",
+  "description": "Expansion of e.g.f.: sin(x)*cos(log(1+x)).",
   "id": "A009532",
   "mentions": [],
   "tags": [

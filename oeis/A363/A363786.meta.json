@@ -1,0 +1,17 @@
+{
+  "description": "a(0) = 2. For n >= 1, a(n) is the least prime p such that a(n-1) + p has n prime factors counted with multiplicity.",
+  "id": "A363786",
+  "mentions": [
+    "A001222",
+    "A357713"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 33,
+    "source": "oeis-entry"
+  }
+}

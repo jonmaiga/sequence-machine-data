@@ -1,0 +1,23 @@
+{
+  "description": "Triangle T read by rows, obtained from the array A for the solutions of the Monkey and Coconuts Problem (s sailors and one coconut to the monkey).",
+  "id": "A362359",
+  "mentions": [
+    "A000027",
+    "A004771",
+    "A014293",
+    "A254029",
+    "A362360",
+    "A362361"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

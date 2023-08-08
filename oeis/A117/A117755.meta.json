@@ -1,14 +1,19 @@
 {
   "description": "Squares which remain squares when each digit is replaced by the next digit.",
   "id": "A117755",
-  "mentions": [],
+  "mentions": [
+    "A048379",
+    "A061843",
+    "A061844",
+    "A127856"
+  ],
   "tags": [
     "base",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 18,
     "source": "oeis-bfile"
   }
 }

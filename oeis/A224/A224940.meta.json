@@ -1,7 +1,14 @@
 {
   "description": "Non-leap years beginning and ending on Tuesday.",
   "id": "A224940",
-  "mentions": [],
+  "mentions": [
+    "A224938",
+    "A224939",
+    "A224941",
+    "A224942",
+    "A224943",
+    "A224944"
+  ],
   "tags": [
     "nonn"
   ],

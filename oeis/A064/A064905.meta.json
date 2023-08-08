@@ -1,5 +1,5 @@
 {
-  "description": "Semiprimes p1*p2 such that p2 mod p1 = 7.",
+  "description": "Semiprimes p1*p2 such that p2>p1 and p2 mod p1 = 7.",
   "id": "A064905",
   "mentions": [
     "A001358",
@@ -10,8 +10,8 @@
     "nonn"
   ],
   "terms": {
-    "offset": 0,
+    "offset": 1,
     "size": 44,
-    "source": "oeis-bfile"
+    "source": "joeis"
   }
 }

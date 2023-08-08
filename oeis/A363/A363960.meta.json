@@ -1,0 +1,16 @@
+{
+  "description": "Number of quadratically embeddable graphs on n nodes.",
+  "id": "A363960",
+  "mentions": [
+    "A363961"
+  ],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 9,
+    "source": "oeis-entry"
+  }
+}

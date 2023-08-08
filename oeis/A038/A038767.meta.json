@@ -1,9 +1,10 @@
 {
-  "description": "Numbers n for which n-th primorial + square of (n+1)-th prime is also a prime.",
+  "description": "Numbers k for which k-th primorial + square of (k+1)-th prime is also a prime.",
   "id": "A038767",
   "mentions": [
     "A002110",
     "A054758",
+    "A106155",
     "A245694"
   ],
   "tags": [
@@ -13,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 16,
+    "size": 17,
     "source": "oeis-entry"
   }
 }

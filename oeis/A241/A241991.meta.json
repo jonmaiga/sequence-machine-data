@@ -2,7 +2,8 @@
   "description": "Decimal expansion of the infinite product for n >= 1 of (1+1/n^2)^(n^2)/e.",
   "id": "A241991",
   "mentions": [
-    "A240984"
+    "A240984",
+    "A247444"
   ],
   "tags": [
     "cons",

@@ -1,5 +1,5 @@
 {
-  "description": "(A000012 * A131431) + (A131431 * A000012) - A000012.",
+  "description": "Triangle read by rows: (A000012 * A131431) + (A131431 * A000012) - A000012 as infinite lower triangular matrices.",
   "id": "A131432",
   "mentions": [
     "A000012",
@@ -9,13 +9,12 @@
     "A131431"
   ],
   "tags": [
-    "formulas",
     "nonn",
     "tabl"
   ],
   "terms": {
     "offset": 0,
-    "size": 55,
-    "source": "oeis-entry"
+    "size": 78,
+    "source": "joeis"
   }
 }

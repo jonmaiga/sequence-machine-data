@@ -1,5 +1,5 @@
 {
-  "description": "Accumulation of products of all divisors of n, positive or negative.",
+  "description": "Partial sums of A217854.",
   "id": "A224914",
   "mentions": [
     "A000005",

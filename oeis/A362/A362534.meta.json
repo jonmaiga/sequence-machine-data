@@ -1,0 +1,20 @@
+{
+  "description": "Numerators of the ratio of the symmetry-constrained bound to the adiabatic bound on polarization transfer in AXn spin-1/2 systems.",
+  "id": "A362534",
+  "mentions": [
+    "A001803",
+    "A086116",
+    "A120778",
+    "A141244"
+  ],
+  "tags": [
+    "formulas",
+    "frac",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

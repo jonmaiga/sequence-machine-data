@@ -1,0 +1,24 @@
+{
+  "description": "Numbers k such that (18^k + 1)^2 - 2 is prime.",
+  "id": "A364079",
+  "mentions": [
+    "A091513",
+    "A100902",
+    "A100904",
+    "A100906",
+    "A100908",
+    "A364077",
+    "A364078",
+    "A364081"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 8,
+    "source": "oeis-entry"
+  }
+}

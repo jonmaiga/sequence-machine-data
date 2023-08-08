@@ -1,0 +1,21 @@
+{
+  "description": "Decimal expansion of Product_{k>=1} k*sinh(1/k).",
+  "id": "A363502",
+  "mentions": [
+    "A027641",
+    "A027642",
+    "A118817",
+    "A249673",
+    "A295219"
+  ],
+  "tags": [
+    "cons",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 105,
+    "source": "oeis-entry"
+  }
+}

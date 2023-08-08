@@ -2,8 +2,11 @@
   "description": "Let S be the sequence of integer sets defined by the following rules: S(0) = {0}, S(1) = {1} and for any k > 0, S(2*k) = {2*k} U S(k) and S(2*k+1) = {2*k+1} U S(k) U S(k+1) (where X U Y denotes the union of the sets X and Y); a(n) = the number of elements of S(n).",
   "id": "A294991",
   "mentions": [
+    "A000523",
     "A002487",
+    "A004755",
     "A004760",
+    "A007814",
     "A070939",
     "A209229",
     "A215673"

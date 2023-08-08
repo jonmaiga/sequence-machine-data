@@ -2,7 +2,8 @@
   "description": "Expansion of E.g.f. (1 + 2*x + x^2/2) * sech(x).",
   "id": "A119883",
   "mentions": [
-    "A119879"
+    "A119879",
+    "A122045"
   ],
   "tags": [
     "easy",
@@ -12,6 +13,6 @@
   "terms": {
     "offset": 0,
     "size": 25,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

@@ -1,0 +1,22 @@
+{
+  "description": "Exponent of 4 in 9^n - 1.",
+  "id": "A363228",
+  "mentions": [
+    "A007814",
+    "A024101",
+    "A090739",
+    "A147648",
+    "A235127",
+    "A244415"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 100,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "description": "Floor(1/sin(x(n))) where x(n) is Pi truncated at the n-th decimal digit.",
+  "description": "a(n) = floor(1/sin(x(n))) where x(n) is Pi truncated at the n-th decimal digit.",
   "id": "A074783",
   "mentions": [],
   "tags": [

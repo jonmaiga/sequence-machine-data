@@ -2,7 +2,10 @@
   "description": "Number of hyperplanes spanned by the vertices of an n-cube.",
   "id": "A007847",
   "mentions": [
-    "A333539"
+    "A333539",
+    "A363505",
+    "A363506",
+    "A363512"
   ],
   "tags": [
     "hard",
@@ -11,7 +14,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 8,
+    "size": 9,
     "source": "oeis-entry"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Partition number array, called M32(-1), related to A001497(n-1,m-1)= |S2(-1;n,m)| ( generalized Stirling2 triangle).",
+  "description": "Partition number array, called M32(-1), related to A001497(n-1,m-1) = |S2(-1;n,m)| (generalized Stirling2 triangle).",
   "id": "A143171",
   "mentions": [
     "A000041",

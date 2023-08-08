@@ -2,11 +2,13 @@
   "description": "G.f.: Sum_{n>=0} x^n * Product_{k=1..n} (k + (n-k+1)*x) / (1 + k*x + (n-k+1)*x^2).",
   "id": "A363110",
   "mentions": [
+    "A067948",
     "A204064",
     "A204066",
     "A316370"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

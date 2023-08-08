@@ -1,0 +1,18 @@
+{
+  "description": "a(n) is the smallest prime p such that, for m >= nextprime(p), there are more composites than primes in the range [2, m], where multiples of primes prime(1) through prime(n) are excluded.",
+  "id": "A361915",
+  "mentions": [
+    "A000040",
+    "A002808",
+    "A072731",
+    "A097454"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 30,
+    "source": "oeis-entry"
+  }
+}

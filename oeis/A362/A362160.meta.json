@@ -1,0 +1,27 @@
+{
+  "description": "Irregular triangle read by rows: The n-th row contains 2^n integers corresponding to the words of n-bit Gray code with the most significant bits changing fastest.",
+  "id": "A362160",
+  "mentions": [
+    "A000004",
+    "A000079",
+    "A000120",
+    "A001511",
+    "A003188",
+    "A005811",
+    "A006516",
+    "A057427",
+    "A363674"
+  ],
+  "tags": [
+    "base",
+    "easy",
+    "formulas",
+    "nonn",
+    "tabf"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 75,
+    "source": "oeis-bfile"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Number of achiral triangular polyominoes with 6n cells and sixfold rotational symmetry.",
+  "id": "A364684",
+  "mentions": [
+    "A000577",
+    "A001420",
+    "A006534",
+    "A030223",
+    "A030224"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 40,
+    "source": "oeis-bfile"
+  }
+}

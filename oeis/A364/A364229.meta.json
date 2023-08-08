@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the number of n X n nonsingular Hermitian Toeplitz matrices using all the integers 1, 2, ..., n and with all off-diagonal elements purely imaginary.",
+  "id": "A364229",
+  "mentions": [
+    "A359614",
+    "A359615",
+    "A359616",
+    "A359617",
+    "A364228"
+  ],
+  "tags": [
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 10,
+    "source": "oeis-entry"
+  }
+}

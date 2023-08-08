@@ -1,13 +1,17 @@
 {
-  "description": "a(n)=f(n)*a[n - 5]/(n*(n - 1)*(n - 2)*(n - 3)*(n - 4)) where f(n)=n^5 - n^4 - n^3 + n^2 - 1.",
+  "description": "a(n) = (n^5 - n^4 - n^3 + n^2 - 1)*a(n-5) for n > 4, otherwise n!.",
   "id": "A123150",
-  "mentions": [],
+  "mentions": [
+    "A123151"
+  ],
   "tags": [
+    "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 1,
-    "size": 20,
-    "source": "oeis-entry"
+    "offset": 0,
+    "size": 22,
+    "source": "oeis-bfile"
   }
 }

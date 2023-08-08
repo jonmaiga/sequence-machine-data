@@ -2,9 +2,11 @@
   "description": "Starhex honeycomb numbers: a(n) = 13 + 60*n + 60*n^2.",
   "id": "A332243",
   "mentions": [
+    "A001844",
     "A003154",
     "A003215",
-    "A062786"
+    "A062786",
+    "A082369"
   ],
   "tags": [
     "easy",

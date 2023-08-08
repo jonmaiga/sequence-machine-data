@@ -1,0 +1,14 @@
+{
+  "description": "Number of nonzero terms in the partial fraction decomposition of Leibniz's sum Sum_{k=1..n} (-1)^k/(1-2k).",
+  "id": "A362949",
+  "mentions": [],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 65,
+    "source": "oeis-bfile"
+  }
+}

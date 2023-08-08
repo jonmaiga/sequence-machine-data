@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that A364557(k) < A000010(k), where A364557 is the Möbius transform of A005941, and A000010 is Euler totient function phi.",
+  "id": "A364566",
+  "mentions": [
+    "A000010",
+    "A005941",
+    "A364557",
+    "A364558",
+    "A364565"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 69,
+    "source": "oeis-entry"
+  }
+}

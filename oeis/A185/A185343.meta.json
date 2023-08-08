@@ -1,9 +1,10 @@
 {
-  "description": "Least number k such that k*p+1 divides 2^p+1 where p is prime(n), or 0 if no such number exists.",
+  "description": "Least positive number k such that k*p+1 divides 2^p+1 where p is prime(n), or 0 if no such number exists.",
   "id": "A185343",
   "mentions": [
     "A000978",
     "A098268",
+    "A103579",
     "A186283"
   ],
   "tags": [

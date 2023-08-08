@@ -1,0 +1,25 @@
+{
+  "description": "a(n) is the number of n X n nonsingular matrices using all the integers from 1 to n^2.",
+  "id": "A364206",
+  "mentions": [
+    "A085000",
+    "A088020",
+    "A136609",
+    "A221976",
+    "A350565",
+    "A350566",
+    "A364203",
+    "A364227"
+  ],
+  "tags": [
+    "formulas",
+    "hard",
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 4,
+    "source": "oeis-entry"
+  }
+}

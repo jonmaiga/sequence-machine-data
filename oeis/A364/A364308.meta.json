@@ -1,0 +1,23 @@
+{
+  "description": "Numbers k such that k, k+1 and k+2 have exactly 3 distinct prime factors.",
+  "id": "A364308",
+  "mentions": [
+    "A001221",
+    "A006073",
+    "A080569",
+    "A140077",
+    "A364265",
+    "A364266",
+    "A364307",
+    "A364309"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 45,
+    "source": "oeis-bfile"
+  }
+}

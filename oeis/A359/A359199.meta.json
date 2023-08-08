@@ -1,0 +1,22 @@
+{
+  "description": "Least prime p such that 2n can be written as a signed sum of p and the next 3 primes, or -1 if no such prime exists.",
+  "id": "A359199",
+  "mentions": [
+    "A000040",
+    "A000230",
+    "A034963",
+    "A144103",
+    "A327467",
+    "A362465",
+    "A363544"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 66,
+    "source": "oeis-bfile"
+  }
+}

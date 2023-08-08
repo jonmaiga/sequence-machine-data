@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n such that 10*(10^(n+1) + 10^n - 1) + 7 is prime.",
+  "description": "Numbers k such that 10*(10^(k+1) + 10^k - 1) + 7 is prime.",
   "id": "A123368",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 21,
+    "size": 24,
     "source": "oeis-entry"
   }
 }

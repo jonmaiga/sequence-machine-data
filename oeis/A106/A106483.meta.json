@@ -1,5 +1,5 @@
 {
-  "description": "Primes p such that 2p^2 - 1 is also prime.",
+  "description": "Primes p such that 2*p^2 - 1 is also prime.",
   "id": "A106483",
   "mentions": [
     "A000040",

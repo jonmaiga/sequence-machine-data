@@ -1,5 +1,5 @@
 {
-  "description": "Numerators of T(n,k), n>=0, 0<=k<=n, read by rows: T(n,k) is the coefficient of x^(2k+1) in polynomial t_n(x), used to define continuous and n times differentiable sigmoidal transfer functions.",
+  "description": "Numerators of triangle T(n,k), n>=0, 0<=k<=n, read by rows: T(n,k) is the coefficient of x^(2k+1) in polynomial t_n(x), used to define continuous and n times differentiable sigmoidal transfer functions.",
   "id": "A144815",
   "mentions": [
     "A001790",

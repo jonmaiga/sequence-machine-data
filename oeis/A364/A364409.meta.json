@@ -1,0 +1,19 @@
+{
+  "description": "G.f. satisfies A(x) = 1 + x*(1 + 1/A(x)^5).",
+  "id": "A364409",
+  "mentions": [
+    "A349312",
+    "A364393",
+    "A364407",
+    "A364408"
+  ],
+  "tags": [
+    "formulas",
+    "sign"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 19,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "Triangular array read by rows: T(n,k) = the number of closed meanders with n top arches and k closed meanders in the reduction of the closed meander by the reverse of the exterior arch splitting algorithm.",
+  "id": "A363910",
+  "mentions": [
+    "A000682",
+    "A001181",
+    "A003155",
+    "A005316"
+  ],
+  "tags": [
+    "formulas",
+    "more",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 36,
+    "source": "oeis-entry"
+  }
+}

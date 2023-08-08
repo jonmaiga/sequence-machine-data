@@ -1,5 +1,5 @@
 {
-  "description": "Expansion of (1-4*x+5*x^2)/(1-2*x)^2.",
+  "description": "Expansion of g.f. (1-4*x+5*x^2)/(1-2*x)^2.",
   "id": "A097067",
   "mentions": [
     "A001787",
@@ -13,7 +13,7 @@
   ],
   "terms": {
     "offset": 0,
-    "size": 30,
+    "size": 34,
     "source": "oeis-bfile"
   }
 }

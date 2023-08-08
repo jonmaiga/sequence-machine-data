@@ -1,0 +1,21 @@
+{
+  "description": "a(n) is the sum of the first 2*n nonzero n-bonacci numbers.",
+  "id": "A364145",
+  "mentions": [
+    "A000045",
+    "A000073",
+    "A000078",
+    "A092921",
+    "A144406"
+  ],
+  "tags": [
+    "easy",
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 26,
+    "source": "oeis-entry"
+  }
+}

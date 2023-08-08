@@ -1,5 +1,5 @@
 {
-  "description": "Number of normal lattice 3-polytopes of size n.",
+  "description": "Number of normal lattice 3-polytopes of width greater than 1 and size n.",
   "id": "A319965",
   "mentions": [],
   "tags": [

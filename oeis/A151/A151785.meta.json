@@ -2,7 +2,8 @@
   "description": "a(n) = 7^(wt(n) - 1) where wt(n) is the binary weight of n (A000120).",
   "id": "A151785",
   "mentions": [
-    "A000120"
+    "A000120",
+    "A000420"
   ],
   "tags": [
     "nonn"
@@ -10,6 +11,6 @@
   "terms": {
     "offset": 1,
     "size": 69,
-    "source": "oeis-entry"
+    "source": "oeis-bfile"
   }
 }

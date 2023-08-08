@@ -1,0 +1,19 @@
+{
+  "description": "Numbers k such that the average of the decimal digits of 2^k is closer to 9/2 (the expected average for random digits) than for any smaller power of 2.",
+  "id": "A364615",
+  "mentions": [
+    "A000079",
+    "A001370",
+    "A034887",
+    "A364606"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 50,
+    "source": "oeis-entry"
+  }
+}

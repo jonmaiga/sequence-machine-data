@@ -1,0 +1,14 @@
+{
+  "description": "The number of generators for the Gale submonoid of basic cyclotomic generating functions of degree n with numerator multiset bigger than denominator multiset in Gale order.",
+  "id": "A362554",
+  "mentions": [],
+  "tags": [
+    "more",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 20,
+    "source": "oeis-entry"
+  }
+}

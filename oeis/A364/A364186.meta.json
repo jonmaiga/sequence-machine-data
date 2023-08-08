@@ -1,0 +1,18 @@
+{
+  "description": "Primes p such that p divides 2^((p-1)/x) - 1, where x is the smallest odd prime factor of p - 1.",
+  "id": "A364186",
+  "mentions": [
+    "A014752",
+    "A059858",
+    "A270802",
+    "A360652"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 49,
+    "source": "oeis-entry"
+  }
+}

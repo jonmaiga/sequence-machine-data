@@ -1,0 +1,17 @@
+{
+  "description": "Lexicographically earliest sequence where n is banned for n^3 terms after each appearance.",
+  "id": "A364449",
+  "mentions": [
+    "A339606",
+    "A364447",
+    "A364448"
+  ],
+  "tags": [
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 90,
+    "source": "oeis-entry"
+  }
+}

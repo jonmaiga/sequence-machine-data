@@ -1,7 +1,8 @@
 {
-  "description": "Prime(n) does not contain the digit 1.",
+  "description": "Numbers k such that prime(k) does not contain the digit 1.",
   "id": "A084368",
   "mentions": [
+    "A000040",
     "A007498",
     "A038603"
   ],

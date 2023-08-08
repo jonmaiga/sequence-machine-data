@@ -1,5 +1,5 @@
 {
-  "description": "Prime factors of Mersenne numbers.",
+  "description": "Triangle read by rows formed by the prime factors of Mersenne number 2^prime(n) - 1, n >= 1.",
   "id": "A089162",
   "mentions": [
     "A001348",

@@ -1,0 +1,16 @@
+{
+  "description": "Expansion of Sum_{k>0} x^(3*k) / (1 - x^(4*k))^3.",
+  "id": "A363978",
+  "mentions": [
+    "A363973"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 89,
+    "source": "oeis-entry"
+  }
+}

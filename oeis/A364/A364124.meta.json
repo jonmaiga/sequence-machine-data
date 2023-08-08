@@ -1,0 +1,36 @@
+{
+  "description": "Numbers k such that k and k+1 are both Stolarsky-Niven numbers (A364123).",
+  "id": "A364124",
+  "mentions": [
+    "A328205",
+    "A328209",
+    "A328213",
+    "A330927",
+    "A330931",
+    "A331086",
+    "A331820",
+    "A333427",
+    "A334309",
+    "A342427",
+    "A344342",
+    "A351715",
+    "A351720",
+    "A352090",
+    "A352108",
+    "A352321",
+    "A352343",
+    "A352509",
+    "A364123",
+    "A364125",
+    "A364126"
+  ],
+  "tags": [
+    "base",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 46,
+    "source": "oeis-bfile"
+  }
+}

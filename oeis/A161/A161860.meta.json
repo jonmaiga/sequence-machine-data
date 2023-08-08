@@ -1,7 +1,10 @@
 {
-  "description": "Squares which are anagrams of cubes",
+  "description": "Squares which are anagrams of cubes.",
   "id": "A161860",
-  "mentions": [],
+  "mentions": [
+    "A000290",
+    "A000578"
+  ],
   "tags": [
     "base",
     "nonn"

@@ -1,5 +1,5 @@
 {
-  "description": "Primes p(n) such that gcd(n, prime(n)+prime(n-1)) > 1.",
+  "description": "Primes prime(k) such that gcd(k, prime(k)+prime(k-1)) > 1.",
   "id": "A336373",
   "mentions": [
     "A000040",
@@ -12,7 +12,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 2,
+    "offset": 1,
     "size": 55,
     "source": "oeis-entry"
   }

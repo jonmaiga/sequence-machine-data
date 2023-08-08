@@ -2,9 +2,11 @@
   "description": "Smallest number of triangulations of n points in the plane.",
   "id": "A063544",
   "mentions": [
-    "A063545"
+    "A063545",
+    "A063666"
   ],
   "tags": [
+    "formulas",
     "hard",
     "more",
     "nice",
@@ -12,7 +14,7 @@
   ],
   "terms": {
     "offset": 3,
-    "size": 9,
+    "size": 13,
     "source": "oeis-entry"
   }
 }

@@ -1,14 +1,16 @@
 {
-  "description": "10^n*(4+3*10^n)+3.",
+  "description": "a(n) = 10^n*(4+3*10^n)+3.",
   "id": "A171583",
-  "mentions": [],
+  "mentions": [
+    "A171582"
+  ],
   "tags": [
     "easy",
     "nonn"
   ],
   "terms": {
     "offset": 0,
-    "size": 12,
+    "size": 15,
     "source": "oeis-entry"
   }
 }

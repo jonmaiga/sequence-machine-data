@@ -1,0 +1,18 @@
+{
+  "description": "Square array of distinct positive integers A(n, k), n, k > 0, read and filled the greedy way by antidiagonals downwards such that the concatenations of the terms of two distinct rows are always equal.",
+  "id": "A363932",
+  "mentions": [
+    "A329127",
+    "A363931"
+  ],
+  "tags": [
+    "base",
+    "nonn",
+    "tabl"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 55,
+    "source": "oeis-entry"
+  }
+}

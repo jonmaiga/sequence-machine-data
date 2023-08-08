@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with property that all pairs of consecutive base 5 digits differ by 2.",
+  "description": "Numbers in which all pairs of consecutive base-5 digits differ by 2.",
   "id": "A033083",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 45,
+    "size": 49,
     "source": "joeis"
   }
 }

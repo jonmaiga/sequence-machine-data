@@ -2,14 +2,18 @@
   "description": "Numbers n such that n and n+1 have 5 distinct prime factors.",
   "id": "A140079",
   "mentions": [
+    "A051270",
     "A074851",
     "A093548",
     "A140077",
     "A140078",
+    "A273897",
+    "A318964",
     "A321495",
     "A321505"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {

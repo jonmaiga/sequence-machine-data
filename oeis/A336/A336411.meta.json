@@ -1,10 +1,11 @@
 {
-  "description": "Numbers k such that prime(k) - oc(k) = 4, where oc(k) is the greatest odd composite < prime(k).",
+  "description": "a(n) = A029707(n+2) - 3 for n >= 1.",
   "id": "A336411",
   "mentions": [
     "A000040",
     "A014076",
     "A029707",
+    "A107770",
     "A155752",
     "A336409",
     "A336410"
@@ -14,7 +15,7 @@
     "nonn"
   ],
   "terms": {
-    "offset": 5,
+    "offset": 1,
     "size": 57,
     "source": "oeis-entry"
   }

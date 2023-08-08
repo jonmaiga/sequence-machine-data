@@ -1,5 +1,5 @@
 {
-  "description": "Smallest prime power p^k (k>=2) such that there is a difference of exactly n between p^k and some other prime power q^l (l >= 2); or 0 if no such q^l exists.",
+  "description": "Smallest prime power p^k (k >= 2) such that there is a difference of exactly n between p^k and some other prime power q^m (m >= 2); or 0 if no such q^m exists.",
   "id": "A069586",
   "mentions": [
     "A025475"

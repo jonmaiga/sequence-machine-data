@@ -1,7 +1,9 @@
 {
-  "description": "Expansion of e.g.f. exp(x*exp(x)+x^2*exp(2*x)).",
+  "description": "Expansion of e.g.f. exp(x*exp(x) + x^2*exp(2*x)).",
   "id": "A189487",
-  "mentions": [],
+  "mentions": [
+    "A060905"
+  ],
   "tags": [
     "formulas",
     "nonn"
@@ -9,6 +11,6 @@
   "terms": {
     "offset": 0,
     "size": 21,
-    "source": "joeis"
+    "source": "oeis-bfile"
   }
 }

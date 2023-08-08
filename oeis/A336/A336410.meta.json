@@ -1,17 +1,19 @@
 {
-  "description": "Numbers k such that prime(k) - oc(k) = 2, where oc(k) is the greatest odd composite < prime(k).",
+  "description": "Complement of A336411.",
   "id": "A336410",
   "mentions": [
     "A000040",
     "A014076",
+    "A176852",
     "A336409",
     "A336411"
   ],
   "tags": [
+    "formulas",
     "nonn"
   ],
   "terms": {
-    "offset": 5,
+    "offset": 1,
     "size": 66,
     "source": "oeis-entry"
   }

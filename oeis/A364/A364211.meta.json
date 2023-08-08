@@ -1,0 +1,22 @@
+{
+  "description": "a(n) = (1/(4*n)) * Sum_{d|n} 5^(n/d-1) * phi(5*d).",
+  "id": "A364211",
+  "mentions": [
+    "A000010",
+    "A000013",
+    "A343492",
+    "A359100",
+    "A359101",
+    "A364210",
+    "A364212"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 27,
+    "source": "oeis-entry"
+  }
+}

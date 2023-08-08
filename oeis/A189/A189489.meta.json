@@ -1,14 +1,13 @@
 {
-  "description": "E.g.f. A(x) satisfies A(x)=x*exp(A(x)*exp(A(x))+A(x)^2*exp(2*A(x)))",
+  "description": "E.g.f. A(x) satisfies A(x) = x*exp( A(x)*exp(A(x)) + A(x)^2*exp(2*A(x)) ).",
   "id": "A189489",
   "mentions": [],
   "tags": [
-    "formulas",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 15,
+    "size": 19,
     "source": "oeis-entry"
   }
 }

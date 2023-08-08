@@ -1,0 +1,17 @@
+{
+  "description": "Expansion of Sum_{k>0} k * x^k / (1 - 2*x^(2*k)).",
+  "id": "A364035",
+  "mentions": [
+    "A002131",
+    "A364034"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 52,
+    "source": "oeis-entry"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "description": "G.f. satisfies A(x) = exp( Sum_{k>=1} (3^k + A(x^k)) * x^k/k ).",
+  "id": "A363541",
+  "mentions": [
+    "A001678",
+    "A036249",
+    "A362389",
+    "A363507",
+    "A363543",
+    "A363546"
+  ],
+  "tags": [
+    "formulas",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 0,
+    "size": 23,
+    "source": "oeis-bfile"
+  }
+}

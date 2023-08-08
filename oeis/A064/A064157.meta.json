@@ -1,15 +1,18 @@
 {
   "description": "Primes p such that (x1*x2*..xk)^(x1+x2+..xk)=(x1+x2+..xk)^(x1*x2*...xk) where x1x2..xk are the digits of p in base 10.",
   "id": "A064157",
-  "mentions": [],
+  "mentions": [
+    "A000040",
+    "A064158"
+  ],
   "tags": [
     "base",
-    "easy",
+    "more",
     "nonn"
   ],
   "terms": {
     "offset": 1,
-    "size": 17,
+    "size": 30,
     "source": "oeis-entry"
   }
 }

@@ -1,14 +1,16 @@
 {
-  "description": "Index of 3^n within sequence of numbers of form 3^i*10^j.",
+  "description": "Index of 3^n within sequence of numbers of form 3^i * 10^j.",
   "id": "A025700",
   "mentions": [
+    "A000244",
+    "A011557",
     "A033638"
   ],
   "tags": [
     "nonn"
   ],
   "terms": {
-    "offset": 1,
+    "offset": 0,
     "size": 60,
     "source": "joeis"
   }

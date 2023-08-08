@@ -1,5 +1,5 @@
 {
-  "description": "Numbers n with property that all pairs of consecutive base 7 digits differ by 3.",
+  "description": "Numbers in which all pairs of consecutive base-7 digits differ by 3.",
   "id": "A033078",
   "mentions": [],
   "tags": [
@@ -8,7 +8,7 @@
   ],
   "terms": {
     "offset": 1,
-    "size": 44,
+    "size": 49,
     "source": "joeis"
   }
 }

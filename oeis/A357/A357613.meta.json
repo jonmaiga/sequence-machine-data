@@ -1,5 +1,5 @@
 {
-  "description": "Triangle read by rows T(n, k) = binomial(2 * n, k) * binomial(3 * n - k, 2 * n)",
+  "description": "Triangle read by rows T(n, k) = binomial(2*n, k) * binomial(3*n - k, 2*n).",
   "id": "A357613",
   "mentions": [
     "A000984",
@@ -7,6 +7,7 @@
     "A026000",
     "A033282",
     "A110608",
+    "A144485",
     "A243660"
   ],
   "tags": [

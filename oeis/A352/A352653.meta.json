@@ -2,6 +2,7 @@
   "description": "a(n) = Sum_{k = 0..n-1} binomial(n,k)*binomial(n-1,k)*binomial(n+k,k)*binomial(n-1+k,k).",
   "id": "A352653",
   "mentions": [
+    "A000172",
     "A002002",
     "A005259",
     "A108628",

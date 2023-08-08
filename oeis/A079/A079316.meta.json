@@ -1,5 +1,5 @@
 {
-  "description": "Number of first-quadrant cells (including the two boundaries) That are ON at stage n of the cellular automaton described in A079317.",
+  "description": "Number of first-quadrant cells (including the two boundaries) that are ON at stage n of the cellular automaton described in A079317.",
   "id": "A079316",
   "mentions": [
     "A000695",

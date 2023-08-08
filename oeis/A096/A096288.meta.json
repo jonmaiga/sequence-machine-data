@@ -2,12 +2,16 @@
   "description": "Sum of digits of n in bases 2 and 3.",
   "id": "A096288",
   "mentions": [
+    "A000120",
     "A010059",
     "A010060",
+    "A053735",
     "A095190"
   ],
   "tags": [
+    "base",
     "easy",
+    "formulas",
     "nonn"
   ],
   "terms": {

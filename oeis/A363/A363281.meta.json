@@ -1,0 +1,17 @@
+{
+  "description": "Numbers which are the sum of 4 squares of distinct primes.",
+  "id": "A363281",
+  "mentions": [
+    "A051395",
+    "A133524"
+  ],
+  "tags": [
+    "easy",
+    "nonn"
+  ],
+  "terms": {
+    "offset": 1,
+    "size": 56,
+    "source": "oeis-bfile"
+  }
+}
