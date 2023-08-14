@@ -97,23 +97,6 @@
       ]
     },
     {
-      "d": "2022-04-05",
-      "ix": "contfrac[root(ϕ, 2)]*char[floor(n/2)]",
-      "mt": 50,
-      "px": [
-        "ϕ",
-        "2",
-        "root",
-        "contfrac",
-        "n",
-        "2",
-        "/",
-        "floor",
-        "char",
-        "*"
-      ]
-    },
-    {
       "d": "2022-10-20",
       "ix": "root(contfrac[C139339]^3, 3)",
       "mt": 50,
@@ -137,6 +120,19 @@
         "²",
         "contfrac",
         "^"
+      ]
+    },
+    {
+      "d": "2023-08-10",
+      "ix": "root(contfrac[C139339], contfrac[ϕ²])",
+      "mt": 50,
+      "px": [
+        "C139339",
+        "contfrac",
+        "ϕ",
+        "²",
+        "contfrac",
+        "root"
       ]
     }
   ]
