@@ -124,16 +124,16 @@
       ]
     },
     {
-      "d": "2023-06-06",
-      "ix": "xor(1, p?[n-round(sqrt(n))]-1)",
+      "d": "2023-08-20",
+      "ix": "xor(1, p?[round(n-sqrt(n))]-1)",
       "mt": 59,
       "px": [
         "1",
         "n",
         "n",
         "sqrt",
-        "round",
         "sub",
+        "round",
         "p?",
         "1",
         "sub",
