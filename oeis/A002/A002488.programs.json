@@ -2,16 +2,16 @@
   "oi": 2488,
   "ps": [
     {
-      "d": "2022-06-24",
-      "ix": "(n-1)^contfrac[log2(log(ϕ))]",
+      "d": "2023-08-22",
+      "ix": "(n-1)^contfrac[tan(tanh(4))]",
       "mt": 5,
       "px": [
         "n",
         "1",
         "sub",
-        "ϕ",
-        "log",
-        "log2",
+        "4",
+        "tanh",
+        "tan",
         "contfrac",
         "^"
       ]
